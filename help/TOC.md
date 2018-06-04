@@ -1,9 +1,9 @@
 ---
 
-product: Engage
-cloud: experience cloud
+product: Audience Manager
+cloud: Experience Cloud
 audience: admin
-user-guide: Engage Admin Guide
+user-guide: Audience Manager Admin Guide
 
 ---
 
