@@ -1,43 +1,26 @@
 ---
 
-title: Self Service Excellence Collaborative Documentation initiative
-description: Introduction to the SSE collaborative documentation project. If you're new to the initiative, start with this doc.
-doc-type: reference
-last-update: May 2018
+title: Overview
+description: Introduction to Audience Manager
+seo-title: free text
+seo-description: free text
+short-title: free text
+doc-type: article
+author: name
+index: yes
+translate: yes
+version:
+private-feature-pack:
+beta:
+redirect:
 
 ---
 
-# What is the Collaborative Documentation Initiative
+# What is Audience Manager
 
-The SSE-CD project is about building how knowledge is created, shared and maintained with customers. Think of it as *social co-creation* of content.
+*Information about the history of Adobe Audience Manager, the types of data collected, segmentation, reporting, and more.*
 
-## Why?
+Audience Manager helps you bring your audience data assets together, making it easy to collect commercially relevant information about site visitors, create marketable segments, and serve targeted advertising and content to the right audience. Furthermore, Audience Manager offers easy tag deployment and management with robust data collection, control, and protection.
 
-Great self-help content is as important to product delivery as the features, user interface or APIs of our products. It must be kept up-to-date in lock step with the evolution of the product. Without accurate, detailed and relevant content, enterprise customers will fail to successfully use our products.
-
-We need a cultural shift in how we deliver great self-help content. Product management and engineering leaders cannot abdicate their responsibility for delivering content as part of their solution delivery. Every team member must think about content as part of their responsibility in delivering not only a great product, but a great customer experience.
-
-Content has historically been locked away in inaccessible stores with specialized tools and limited permissions for just the content team to create and edit.  This has resulted in the creation of many repositories for content, including technical marketing, consulting and AGS, customer care, training and even the documentation team themselves have distinct systems for building and publishing content. Many of these groups store valuable information, but it is so scattered and inconsistently written that it fails to deliver the needed customer impact.  
-
-We are taking an open source approach to self-help content, and invite all to participate. We will use industry standard mark-down language to create content, and make the content source of record a public, open-source repository on Github. This content will be synchronized and published as part of Adobe’s self-help platform.
-
-All employees, customers and partners will not only be allowed, but encouraged to enlist and contribute. A great backgrounder for understanding what we're doing is here in [Bill Staples blog](https://adobe.sharepoint.com/sites/BStaples/SitePages/Open%20Source%20Product%20Documentation%20and%20Self-Help.aspx) 
-
-### What solutions does this cover?
-
-All solutions in the Digital Experience business unit - all of Experience Cloud.
-
-### How do I get more information?
-View the [wiki](https://wiki.corp.adobe.com/display/SSE/Self+Service+Excellence+%28SSE%29+for+Digital+Experience). That is the best place to get full information updates
-
-### I don't know Markdown, how do I start?
-A really good interactive [intro to markdown tutorial is here](http://commonmark.org/help/tutorial/) That will help you with the core concepts, and cover most everything you need to know about structuring a page. More info can be found in our [Syntax Guide here](https://wiki.corp.adobe.com/display/SSE/AEM+A3+Components+and+Markdown)
-
-### What resources are available to help me?
-There are a number of resources available to assist you.
-
-+ You're looking at our project documentation, all in Markdown, right here.
-+ Our Jira queue for bugs or feature requests is https://jira.corp.adobe.com/projects/SSECD/summary
-+ Slack channel for support is \#SSE-CD in the Adobe.com workspace
-
+With Audience Manager, you are not tied to a data seller, exchange, or demand-side platform. Additionally, Audience Manager is completely agnostic when it comes to our partners’ data assets. With access to multiple data sources, Audience Manager offers digital publishers the ability to use a wide variety of third-party data as well as our private data co-op. Talk to our Partner Solutions team about help with making smart and accurate decisions about your target audience.
 
