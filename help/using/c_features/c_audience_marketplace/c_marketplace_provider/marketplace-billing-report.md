@@ -1,0 +1,127 @@
+---
+description: Generate an Audience Marketplace billing report to view data feed usage for the previous month for each of your subscribers. You can create a report for the previous month at any time. However, the report is more accurate when you generate it on or after the 10th day of the current month.
+seo-description: Generate an Audience Marketplace billing report to view data feed usage for the previous month for each of your subscribers. You can create a report for the previous month at any time. However, the report is more accurate when you generate it on or after the 10th day of the current month.
+seo-title: Understanding the Data Provider Billing Report
+solution: Audience Manager
+title: Understanding the Data Provider Billing Report
+topic: DIL API
+uuid: ca692afe-c1b7-4a5e-acea-c87bdf24c262
+index: y
+internal: n
+snippet: y
+translate: y
+---
+
+# Understanding the Data Provider Billing Report
+
+
+## Download a Billing Report {#section_6FE05229D78A4778930D46C7F35FE2F0}
+
+To download a report: 
+
+1. Go to **[!UICONTROL  Audience Marketplace > Receivables]**.
+1. Click **[!UICONTROL  Generate Billing Report]**.
+
+## Report Fields Defined {#section_6C0F6F1A98A64D7F83717268DFA87260}
+
+A billing report contains the following information. 
+
+
+
+<table id="table_B433D5059F6446068683E425B1D87520"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> Report Field </th> 
+   <th colname="col2" class="entry"> Description </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p>Data Provider PID </p> </td> 
+   <td colname="col2"> <p>Your <span class="keyword"> Audience Manager </span> data provider ID. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Data Provider Name </p> </td> 
+   <td colname="col2"> <p>Your company or organization name. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Buyer PID </p> </td> 
+   <td colname="col2"> <p>Buyer (subscriber) ID. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Buyer Name </p> </td> 
+   <td colname="col2"> <p>The buyer's company or organization name. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Feed ID </p> </td> 
+   <td colname="col2"> <p>The ID of the data feed </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Feed Name </p> </td> 
+   <td colname="col2"> <p>The name of the data feed. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Plan Use Cases </p> </td> 
+   <td colname="col2"> <p>Use cases let sellers control how buyers use data. Options include: </p> 
+    <ul id="ul_8230A93B5DCE4C10B025D3C761F72CEF"> 
+     <li id="li_3400C6475F6D43D7AF54D9A0ED9C09E0">Segments and overlap </li> 
+     <li id="li_65DFEF1EA6C341ACB5B72FF629F10AFC">Modeling </li> 
+     <li id="li_B84935B93ADE4D299732CE7E099DF7B3">Activation </li> 
+    </ul> <p>See <a href="../../../c_features/c_audience_marketplace/c_marketplace_provider/c_feed_options.md#concept_54DDE4186D0045F386F94BB8C56A5DEA" format="dita" scope="local"> Plan Types for Data Feeds </a>. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Unit of Measure </p> </td> 
+   <td colname="col2"> <p>Indicates CPM or flat fee billing. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>List Price </p> </td> 
+   <td colname="col2"> <p>The subscription fee for each data feed. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Discounted Price </p> </td> 
+   <td colname="col2"> <p>The subscription fee for a discounted data feed. See <a href="../../../c_features/c_audience_marketplace/c_marketplace_provider/marketplace-seller-discounts.md#concept_A31D926BBA0743BCB7160C7F571930FD" format="dita" scope="local"> Discounts for Data Providers </a> . </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Units </p> </td> 
+   <td colname="col2"> <p>Varies by feed price type: </p> 
+    <ul id="ul_01550B436EEE4FBC8C9945E08E3CE2C6"> 
+     <li id="li_C589F6A751AB407E853AC6F726A47F14">Flat fee data feeds: Returns 1 only. </li> 
+     <li id="li_F93F8AEB2D8C45BFA0305E7808AFF848">CPM data feeds: Returns the actual usage amount for CPM data feeds. If a subscriber has not provided impression data for a CPM feed, the Units cell is empty and the Flag cell is set to 1. </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Total Cost </p> </td> 
+   <td colname="col2"> <p>The amount <span class="keyword"> Audience Manager </span> bills a buyer. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Billing Period </p> </td> 
+   <td colname="col2"> <p> In the report, this is the last day of the previous month. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Entry Date </p> </td> 
+   <td colname="col2"> <p>The date a buyer entered subscription / usage information. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Subscription Start Date </p> </td> 
+   <td colname="col2"> <p>The date a buyer started their data feed subscription. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Subscription End Date </p> </td> 
+   <td colname="col2"> <p>The date a buyer ended their data feed subscription. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Flag </p> </td> 
+   <td colname="col2"> <p> <i>For CPM feeds only</i>. Flag options include: </p> 
+    <ul id="ul_509BC73B754A43299F8D719AB0805ABD"> 
+     <li id="li_AB35E33B68EC49A187495DF6B9D86563">0: Indicates a subscriber has reported usage information to <span class="keyword"> Audience Manager </span>. </li> 
+     <li id="li_2E4871B127A84EC586A9F3659F52D67E">1: Indicates a subscriber has not reported usage information to <span class="keyword"> Audience Manager </span>. </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+>[!MORE_LIKE_THIS]
+>
+>* [ Billing and Impression Allocation for CPM Data Feeds ](marketplace_cpm_billing.md#concept_E757985A4850400288F1DD9A02B755D5)
+>* [ Billing and Impression Allocation for Flat Fee Data Feeds ](marketplace_flat_billing.md#concept_FE781C4C5C044C1F986F1AB6BA4E328F)
+>* [ How to Report CPM Usage ](t_marketplace_report_cpm_usage.md#task_22D86C3A39544CA8A4BC2360DC115877)

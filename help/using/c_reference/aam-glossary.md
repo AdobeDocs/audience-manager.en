@@ -1,0 +1,209 @@
+---
+description: Definitions and links to further reading.
+seo-description: Definitions and links to further reading.
+seo-title: Glossary
+solution: Audience Manager
+title: Glossary
+uuid: c49e7003-fadb-42b9-a8a1-e67f8630be0a
+index: y
+internal: n
+snippet: y
+translate: y
+---
+
+# Glossary
+
+
+<ul class="simplelist"> 
+ <li> <a href="../c_reference/aam-glossary.md#section_5190D1D9ED4B4EEAA659BF6C5C68ABF5" format="dita" scope="local"> A-B </a> </li> 
+ <li> <a href="../c_reference/aam-glossary.md#section_0CE339FB571E4179887ADBF0E68D4E53" format="dita" scope="local"> C-D </a> </li> 
+ <li> <a href="../c_reference/aam-glossary.md#section_F194A310914E4B8CB602ADD3F49BE2A9" format="dita" scope="local"> E-F </a> </li> 
+ <li> <a href="../c_reference/aam-glossary.md#section_DD8254D949314C4FB11CEEB0A557F358" format="dita" scope="local"> G-H </a> </li> 
+ <li> <a href="../c_reference/aam-glossary.md#section_DCC59C1DB41F47CCA79F8280DE85F009" format="dita" scope="local"> I-J </a> </li> 
+ <li> <a href="../c_reference/aam-glossary.md#section_0ECCC82944BD4C8AB43DD630623BAEE0" format="dita" scope="local"> K-L </a> </li> 
+ <li> <a href="../c_reference/aam-glossary.md#section_462142BF40094D9E98AEE2B6AD287968" format="dita" scope="local"> M-N </a> </li> 
+ <li> <a href="../c_reference/aam-glossary.md#section_1815E005834B44919F411B1F0CD4D2F3" format="dita" scope="local"> O-P </a> </li> 
+ <li> <a href="../c_reference/aam-glossary.md#section_D45EEE2C46AA4B409ABA101ECD50BBC5" format="dita" scope="local"> Q-R </a> </li> 
+ <li> <a href="../c_reference/aam-glossary.md#section_D5B8CE5E4224452A9BBF3F3BFEA1771B" format="dita" scope="local"> S-T </a> </li> 
+ <li> <a href="../c_reference/aam-glossary.md#section_E56481AB69BD414DA40DBBCF8C3DBD4C" format="dita" scope="local"> U-V </a> </li> 
+ <li> <a href="../c_reference/aam-glossary.md#section_EE34BF8266F444ECA01A056070F2B17C" format="dita" scope="local"> W-X-Y-Z </a> </li> 
+</ul>
+
+
+
+## A-B {#section_5190D1D9ED4B4EEAA659BF6C5C68ABF5}
+
+**Algorithmic Modeling** 
+
+Use Algorithmic Modeling as a means of extending reach beyond the core of users you've identified. The feature helps you discover new, unique audiences through automated data analysis. Manage your Algorithmic Models in **[!UICONTROL  Audience Data > Models]**. 
+
+See [ Understanding Algorithmic Models ](../c_features/c_models/understanding-models.md#concept_441E566718B845929880B0823A9ECA9F). 
+
+**BAAAM** 
+
+Bulk Management Tools. The Bulk Management Tools in Audience Manager are a Microsoft Excel-based set of tools that let you create, modify or delete multiple objects at once with a single operation. You can work with data sources, derived signals, destinations, folders, segments, and traits. The feature uses an Excel spreadsheet with macros that make secure, authenticated calls to the Audience Manager APIs. 
+
+See [ Bulk Management Tools ](../c_reference/c_bulk/c_bulk.md#concept_8D6CB301643C482F994938F6484B390C). 
+
+## C-D {#section_0CE339FB571E4179887ADBF0E68D4E53}
+
+**CDF** 
+
+Customer Data Feed. A CDF file represents a bulk download of data collected by Audience Manager and enables you to work with Audience Manager data outside of the limits imposed by our user interface. A CDF file contains the same data that an Audience Manager event call ( ` /event`) sends to our servers. This includes data like user IDs, trait IDs, segment IDs, and all the other parameters captured by an event call. 
+
+See [ Customer Data Feeds ](../c_features/cdf-intro/cdf-intro.md#concept_114B993EC5E246AE8CDD55E695B344FC). 
+
+**CRM ID** 
+
+The CRM ID is the ID by which customers identify users in their own CRM system. Instead of CRM ID, we use the term DPUUID in Audience Manager. 
+
+See DPUUID in the [ Index of IDs in Audience Manager ](../c_reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8). 
+
+**Customer Attributes** 
+
+See [ Customer Attributes ](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html) in the Experience Cloud Core Services product documentation. 
+
+**demdex.net** 
+
+Demdex.net is a legacy domain controlled by Adobe. It reflects Audience Manager's original, pre-acquisition name (Demdex). Adobe acquired Demdex in 2011 and re-branded the company as Audience Manager. All HTTP calls to demdex.net domains are calls sent in to Adobe. 
+
+See [ Understanding Calls to the Demdex Domain ](../c_reference/demdex-calls.md#concept_77B3D5A068AE413FA78D190D65AD799F). 
+
+**DAID** 
+
+Device Advertising IDs are unique device identifiers, used to identify a mobile device. These IDs are assigned by the device manufacturer, not by Adobe. We support iOS and Android device IDs in Audience Manager. 
+
+See the [ Index of IDs in Audience Manager ](../c_reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8). 
+
+**Destination** 
+
+In Audience Manager, a destination is any other system (ad server, DSP, ad network, etc.) that you want to share data with. The Destination Builder in our UI provides the tools that let you create and manage these data delivery processes. Audience Manager destination features are located in **[!UICONTROL  Audience Data > Destinations]**. 
+
+**DIL** 
+
+The Data Integration Library is an API library used by Audience Manager to collect user interaction data. See [ Data Integration Library (DIL) API ](../c_api/c_dil/c_dil.md#concept_6D73ED3DBA604EE49B66B5572AA6A32C). 
+
+**dpm** 
+
+Data Provider Match. It tells internal, Adobe systems that a call from Audience Manager or the ID service is passing in customer data for synchronization or requesting an ID. See [ Understanding Calls to the Demdex Domain ](../c_reference/demdex-calls.md#concept_77B3D5A068AE413FA78D190D65AD799F). 
+
+## E-F {#section_F194A310914E4B8CB602ADD3F49BE2A9}
+
+**Experience Cloud ID** 
+
+Previously named the Marketing Cloud ID (MID or MCID). The Experience Cloud ID is central to the ID Service. It is a unique and persistent identifier for your site visitors. See Cookies and the [ Experience Cloud ID Service ](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html). 
+
+**Folder Trait** 
+
+Automatic grouping of traits inside your folder taxonomy. Each folder in your hierarchy automatically creates a trait which can be used to define segments. 
+
+See [ Folder Traits: About ](../c_features/c_tb_overview/folder-traits/about-folder-traits.md#concept_D68F33E7F99243CEB9D11D354ECB53AD). 
+
+**Frequency Capping** 
+
+A limit of a number of times that an advertiser wants to display a given creative to an end user. You can configure various frequency capping expressions in Segment Builder. 
+
+See [ Recency and Frequency ](../c_features/c_segments/c_segment_builder/c_recency_frequency.md#concept_957D9E1977774D28A98ACEE6035E7B37). 
+
+## G-H {#section_DD8254D949314C4FB11CEEB0A557F358}
+
+**GAID** 
+
+Google Advertising ID, the unique device ID that Google assigns to hardware devices running the Android operating system. See the [ Index of IDs in Audience Manager ](../c_reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8). 
+
+**GUID** 
+
+An acronym for Globally Unique Identifier. We don't use the term GUID in [!DNL  Audience Manager]. In our case, the GUID is the [!DNL  Audience Manager] UUID. 
+See[ Index of IDs in Audience Manager ](../c_reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8). 
+## I-J {#section_DCC59C1DB41F47CCA79F8280DE85F009}
+
+**IDFA** 
+
+Identifier for Advertisers, the unique device ID Apple assigns to its products. See the [ Index of IDs in Audience Manager ](../c_reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8). 
+
+**Inbound** 
+
+The process by which you can send audience data from other sources to [!DNL  Audience Manager]. See [ Sending Audience Data ](../c_integration/c_onboarding_data/c_onboarding_data.md#concept_3BF153ABA4CE46F99A41A0114316847C). 
+
+**Integration Code** 
+
+When working with the Audience Manager UI or API, you have the option of adding an integration code when creating traits, segments, or data sources. Integration codes serve different purposes in those cases: 
+
+
+* Traits: an integration code is a field for an ID, SKU, or other value used by your internal business processes. Optional.
+* Segments: an integration code is a field for a user-defined ID or other company-specific information. Optional.
+* Data Sources: integration codes are required when you want to create cross-device data sources, use the Experience Cloud ID service, or work with Profile Merge Rules. See [ Create a Data Source ](../c_features/c_datasources/create-datasource.md#concept_3B7696B3EC77416492D3B99EBD79EA44) for more information.
+
+
+## K-L {#section_0ECCC82944BD4C8AB43DD630623BAEE0}
+
+**Look-alike modeling** 
+
+See [ Algorithmic Modeling ](../c_reference/aam-glossary.md#section_5190D1D9ED4B4EEAA659BF6C5C68ABF5). 
+
+## M-N {#section_462142BF40094D9E98AEE2B6AD287968}
+
+**MCID**, **MID** 
+
+See the [ Experience Cloud ID ](../c_reference/aam-glossary.md#section_F194A310914E4B8CB602ADD3F49BE2A9). 
+
+## O-P {#section_1815E005834B44919F411B1F0CD4D2F3}
+
+**PCS** 
+
+Profile Cache Server. The PCS is a large database, running on Apache Cassandra. It stores data received for active users from server-to-server transfers and the DCS. PCS data consists of device IDs, authenticated profile IDs, and their associated traits. 
+
+See [ Data Collection Components ](../c_reference/c_compintro/c_compcollect.md#concept_66CFFEBF5E8B41ED94082D562A93506E). 
+
+**Profile Link** 
+
+See [ Profile Merge Rule Options Defined ](../c_features/profile-link-intro/merge-rule-definitions.md#concept_44FFF67CD9654DB2B43ECA13C2FD1CE0). 
+
+**Profile Merge Rules** 
+
+Profile Merge Rules let you control the type of data [!DNL  Audience Manager] uses for segmentation. 
+
+See [ Profile Merge Rule Options Defined ](../c_features/profile-link-intro/merge-rule-definitions.md#concept_44FFF67CD9654DB2B43ECA13C2FD1CE0). 
+
+## Q-R {#section_D45EEE2C46AA4B409ABA101ECD50BBC5}
+
+**Realization** 
+
+The action by which a visitor on your site qualifies for a trait. You can use the [ Visitor Profile Viewer ](../c_features/t_visitor_profile_viewer.md#task_768E234139D9498A91B293106939EF4B) tool to obtain information on trait realization by a specific user. 
+
+## S-T {#section_D5B8CE5E4224452A9BBF3F3BFEA1771B}
+
+**Segment** 
+
+A segment (or an audience) is a set of users who share common attributes. 
+
+See [ Segments: Purpose, Composition, and Rules ](../c_features/c_segments/c_segments_purpose.md#concept_F9E9D1D1EFF34AA2AD025109DD741C86). 
+
+**Signal** 
+
+Signals are the smallest data units in [!DNL  Audience Manager] and are expressed as key-value pairs. 
+
+See [ Signals, Traits, and Segments ](../c_reference/c_signal_trait_segment.md#concept_7550A48FE3F1415FACF0E077CFAB155F). 
+
+**Trait** 
+
+A trait is a combination of one or more signals. See [ Signals, Traits, and Segments ](../c_reference/c_signal_trait_segment.md#concept_7550A48FE3F1415FACF0E077CFAB155F). 
+
+**Trait Population** 
+
+See [ Trait and Segment Population Data in Segment Builder ](../c_features/c_segments/segment-builder-data.md#concept_05EE3010E67F446E8818351292EF7372). 
+
+## U-V {#section_E56481AB69BD414DA40DBBCF8C3DBD4C}
+
+**UUID** 
+
+[!DNL  Audience Manager] Unique User ID. See the [ Index of IDs in Audience Manager ](../c_reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8). 
+
+**Visitor ID** 
+
+The Experience Cloud ID Service (formerly visitor ID) provides a universal, persistent ID that identifies your visitors across all the solutions in the Experience Cloud. 
+
+See the [ Experience Cloud ID Service ](https://marketing.adobe.com/resources/help/en_US/reference/marketing-cloud-id-service.html) documentation. 
+
+## W-X-Y-Z {#section_EE34BF8266F444ECA01A056070F2B17C}
+
