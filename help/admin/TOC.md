@@ -10,7 +10,8 @@ user-guide: null
 + [Audience Manager Admin Home](c_home.md)
 + [Log In to Audience Manager Admin](t_login.md)
 + [How to Request Functional Admin Access](request-functional-admin-access.md)
-+ [Companies](c_companies/c_companies.md)
++ Companies
+    + [Companies Overview](c_companies/c_companies.md)
     + [Create a Company](c_companies/t_create_company.md)
     + [Manage Containers](c_companies/t_containers.md)
     + [Device Graph Options for Companies](c_companies/admin-device-graph-options.md)
