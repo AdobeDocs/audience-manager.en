@@ -8,9 +8,11 @@ user-guide: null
 # Table of Contents
 
 + [Audience Manager Product Documentation](c_aam_home.md)
-+ [Overview](c_am_overview_intro/c_am_overview_intro.md)
++ Audience Manager Overview
+    + [Overview](c_am_overview_intro/c_am_overview_intro.md)
     + [History and Background](c_am_overview_intro/c_history_and_background.md)
-    + [Types of Data Collected](c_am_overview_intro/c_data_aggregation_collection/c_data_aggregation_collection.md)
+    + Data Collection
+        + [Types of Data Collected](c_am_overview_intro/c_data_aggregation_collection/c_data_aggregation_collection.md)
         + [First-Party Data Collection](c_am_overview_intro/c_data_aggregation_collection/c_1st_party_data.md)
         + [Second-Party Data Collection](c_am_overview_intro/c_data_aggregation_collection/c_2nd_party_data.md)
         + [Third-Party Data Collection](c_am_overview_intro/c_data_aggregation_collection/c_3rd_party_data.md)
