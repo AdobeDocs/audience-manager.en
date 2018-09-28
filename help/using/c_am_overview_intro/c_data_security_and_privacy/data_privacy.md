@@ -19,11 +19,10 @@ Describes Audience Manager integration and compliance with generally accepted be
 
 Contents: 
 
-* [Data Privacy](../../c_am_overview_intro/c_data_security_and_privacy/data_privacy.md#section_3C0E97906232432296F2B2200B0BFA4F)
-* [Consumer Privacy Protection](../../c_am_overview_intro/c_data_security_and_privacy/data_privacy.md#section_8269FC81B9514F62925BA63DFB9BCC1D)
-* [Opt-Out Management](../../c_am_overview_intro/c_data_security_and_privacy/data_privacy.md#section_FAEB5029359A4AA8A466E3185B9EA04F)
-* [Collecting IP Addresses](../../c_am_overview_intro/c_data_security_and_privacy/data_privacy.md#section_6E615E8AAE0A4C39A3716115C270569C)
-
+* [Data Privacy](#section_3C0E97906232432296F2B2200B0BFA4F)
+* [Consumer Privacy Protection](#section_8269FC81B9514F62925BA63DFB9BCC1D)
+* [Opt-Out Management](#section_FAEB5029359A4AA8A466E3185B9EA04F)
+* [Collecting IP Addresses](#section_6E615E8AAE0A4C39A3716115C270569C)
 
 
 ## Data Privacy {#section_3C0E97906232432296F2B2200B0BFA4F}
