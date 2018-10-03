@@ -44,7 +44,7 @@ The URL for an inbound data transfer should contain the variables described belo
 During a real-time inbound data ingestion process, a properly formatted URL string uses the following syntax: 
 ```
 
-http://client.demdex.net/event?KEY1=VALA&KEY2=VALB&KEY3=VALC
+https://client.demdex.net/event?KEY1=VALA&KEY2=VALB&KEY3=VALC
 
 
 ```

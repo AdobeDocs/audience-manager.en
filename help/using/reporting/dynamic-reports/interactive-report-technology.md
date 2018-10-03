@@ -27,7 +27,7 @@ Describes the underlying software that powers the interactive reports and the da
 **Interactive Reports Use Tableau Technology** 
 
 
-[!DNL Audience Manager] uses [Tableau](http://www.tableausoftware.com/) software to display data in the interactive reports. With [!DNL Tableau], the [!UICONTROL Delivery and Overlap] reports use visual cues and symbols that help you: 
+[!DNL Audience Manager] uses [Tableau](https://www.tableausoftware.com/) software to display data in the interactive reports. With [!DNL Tableau], the [!UICONTROL Delivery and Overlap] reports use visual cues and symbols that help you: 
 * Find high and low performance traits.
 * Spot traits and segments with low and high unique visitor overlap.
 * Use overlap data to build targeted segments.

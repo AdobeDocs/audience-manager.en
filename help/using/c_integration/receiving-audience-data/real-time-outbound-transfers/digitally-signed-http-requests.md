@@ -110,7 +110,7 @@ String signature = Base64.encodeBase64String(result).trim();
 
 
 
-The RFC for the [!DNL HMAC] hash implementation is [http://www.ietf.org/rfc/rfc2104.txt](http://www.ietf.org/rfc/rfc2104.txt). A test site: [http://asecuritysite.com/encryption/hmac](http://asecuritysite.com/encryption/hmac) (note that you have to [convert](http://tomeko.net/online_tools/hex_to_base64.php?lang=en) the hex encoding to base64). 
+The RFC for the [!DNL HMAC] hash implementation is [https://www.ietf.org/rfc/rfc2104.txt](https://www.ietf.org/rfc/rfc2104.txt). A test site: [https://asecuritysite.com/encryption/hmac](https://asecuritysite.com/encryption/hmac) (note that you have to [convert](https://tomeko.net/online_tools/hex_to_base64.php?lang=en) the hex encoding to base64). 
 
 ## Rotating the private key {#section_9DDDA6F101784AF0AE7431E99BECAB2A}
 

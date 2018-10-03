@@ -32,15 +32,15 @@ The middle column contains a list of traits, identified by [!UICONTROL Trait ID]
 
 * 
 
-  **Keep Only: **Removes all other traits from the report and displays data for this trait only. 
+  **Keep Only:** Removes all other traits from the report and displays data for this trait only. 
 
 * 
 
-  **Exclude: **Removes this trait from the report and displays data for all other traits. You can exclude multiple traits. 
+  **Exclude:** Removes this trait from the report and displays data for all other traits. You can exclude multiple traits. 
 
 * 
 
-  **View Data: **Lets you display data for that row. You can also download all rows as a text file. 
+  **View Data:** Lets you display data for that row. You can also download all rows as a text file. 
 
 
 

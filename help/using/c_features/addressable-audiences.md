@@ -133,28 +133,11 @@ These metrics return data for traits realized when visitors come to your site or
 
 
 
-<table id="table_6DC02E219B074BF782EAA0E9DB9495FB"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Metric </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <b>Customer Addressable Audience</b> </p> </td> 
-   <td colname="col2"> <p>A count of overlap of devices that have realized either a rule-based trait or an onboarded trait during the look-back window and devices that we have an ID sync with the chosen destination regardless of the time of syncs. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Customer Total Audience</b> </p> </td> 
-   <td colname="col2"> <p>A count of devices that have realized either a rule-based trait on your properties or an onboarded trait from your offline files during the look-back window. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Customer Match Rate</b> </p> </td> 
-   <td colname="col2"> <p>Customer Addressable Audience ÷ Customer Total Audience expressed as a %. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Metric | Description |
+|--- |--- |
+|Customer Addressable Audience|A count of overlap of devices that have realized either a rule-based trait or an onboarded trait during the look-back window and devices that we have an ID sync with the chosen destination regardless of the time of syncs.|
+|Customer Total Audience|A count of devices that have realized either a rule-based trait on your properties or an onboarded trait from your offline files during the look-back window.|
+|Customer Match Rate|Customer Addressable Audience ÷ Customer Total Audience expressed as a %.|
 
 
 ## Segment-Level Match Metrics {#section_DDA700BBD12141D384E104E673E551D9}

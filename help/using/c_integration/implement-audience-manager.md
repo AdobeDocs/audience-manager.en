@@ -292,4 +292,4 @@ Our collaborative efforts don'’t stop with final deployment. After implementat
 Account managers provide continuing support and consultation services after the product implementation process is complete. You can expect to have regular meetings with your account manager. These meetings ensure that you get the maximum amount of use and value from Audience Manager. 
 
 
-Contact us [here](http://www.adobe.com/products/audiencemanager.html) for more information and to get started with Audience Manager. 
+Contact us [here](https://www.adobe.com/products/audiencemanager.html) for more information and to get started with Audience Manager. 

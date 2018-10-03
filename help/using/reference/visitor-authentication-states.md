@@ -64,7 +64,7 @@ Contents:
 Sample call (the request value corresponding to the authentication status is highlighted): 
 
 
-`http://sample_customer.demdex.net/event?d_cid=123%01sample_id%010&d_sid=123456` 
+`https://sample_customer.demdex.net/event?d_cid=123%01sample_id%010&d_sid=123456` 
 
 ## Authentication Status: AUTHENTICATED {#section_C77AD0AD90DE4986804B97B120FD1819}
 
@@ -97,7 +97,7 @@ Sample call (the request value corresponding to the authentication status is hig
 Sample call (the request value corresponding to the authentication status is highlighted): 
 
 
-`http://sample_customer.demdex.net/event?d_cid=123%01sample_id%011&d_sid=123456` 
+`https://sample_customer.demdex.net/event?d_cid=123%01sample_id%011&d_sid=123456` 
 
 ## Authentication Status: LOGGED_OUT {#section_2FD4E68CF67944AE8B580A74206E0FC1}
 
@@ -127,7 +127,7 @@ Sample call (the request value corresponding to the authentication status is hig
 Sample call (the request value corresponding to the authentication status is highlighted): 
 
 
-`http://sample_customer.demdex.net/event?d_cid=123%01sample_id%012&d_sid=123456` 
+`https://sample_customer.demdex.net/event?d_cid=123%01sample_id%012&d_sid=123456` 
 
 
 

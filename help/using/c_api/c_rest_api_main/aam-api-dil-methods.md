@@ -86,7 +86,7 @@ A
 >```>
 >{ 
 >    "type": "object", 
->    "$schema": "http://json-schema.org/draft-03/schema", 
+>    "$schema": "https://json-schema.org/draft-03/schema", 
 >    "required": true, 
 >    "additionalProperties": false, 
 >    "properties": { 

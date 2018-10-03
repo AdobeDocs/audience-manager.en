@@ -86,7 +86,7 @@ You must use [!DNL Analytics] version 20.2 (or higher) and the [!DNL Adobe AppMe
 
 This customer uses [!DNL Analytics] version 24.4: 
 ```
-http://112.2o7.net/b/ss/.../1/
+https://112.2o7.net/b/ss/.../1/
 <b>H.24.4</b>/...
 ```
 
@@ -94,7 +94,7 @@ http://112.2o7.net/b/ss/.../1/
 
 This customer uses [!DNL AppMeasurement] version 3.5.2: 
 ```
-http://112.2o7.net/b/ss/.../0/
+https://112.2o7.net/b/ss/.../0/
 <b>FAS-3.5.2-AS3</b>/...
 ```
 
@@ -178,7 +178,7 @@ A file has been picked up when the extension changes from `.sync` to `.processed
 
 
 ```
-http://apse2.demdex.net/event?d_rtbd=json&d_cid=123456%01abc123&c_events=placed-an-order
+https://apse2.demdex.net/event?d_rtbd=json&d_cid=123456%01abc123&c_events=placed-an-order
 ```
 
 

@@ -63,7 +63,7 @@ Note the requirements for sending data using the `POST` method:
 
 ```
 curl -X POST \ 
-  http:// 
+  https:// 
 <i>yourcompany</i>.demdex.net/event \ 
   -H 'content-type: application/x-www-form-urlencoded' \ 
   -d ' 
@@ -77,7 +77,7 @@ curl -X POST \
 <p> 
  <codeblock>
    curl&nbsp;-X&nbsp;POST&nbsp;\ 
-  <discoiqbr />&nbsp;&nbsp;http:// 
+  <discoiqbr />&nbsp;&nbsp;https:// 
   <i>yourcompany</i>.demdex.net/event&nbsp;\ 
   <discoiqbr />&nbsp;&nbsp;-H&nbsp;'content-type:&nbsp;application/json'&nbsp;\ 
   <discoiqbr />&nbsp;&nbsp;-d&nbsp;'{ 

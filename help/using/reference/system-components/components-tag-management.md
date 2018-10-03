@@ -49,7 +49,7 @@ The [Data Information Library](../../c_dil/c_dil.md#concept_6D73ED3DBA604EE49B66
 
 
 
-[!DNL Audience Manager] uses [Akamai](http://www.akamai.com/html/about/index.html) to host and deliver container code from our own tag management platform known as [!UICONTROL TIM (Tag Insertion Manager)]. However, code deployment with [!UICONTROL TIM] has been phased out in favor of [!UICONTROL Adobe Dynamic Tag Management] and [!UICONTROL Adobe Launch]. 
+[!DNL Audience Manager] uses [Akamai](https://www.akamai.com/html/about/index.html) to host and deliver container code from our own tag management platform known as [!UICONTROL TIM (Tag Insertion Manager)]. However, code deployment with [!UICONTROL TIM] has been phased out in favor of [!UICONTROL Adobe Dynamic Tag Management] and [!UICONTROL Adobe Launch]. 
 
 ## Control Database {#section_1B0E00C342F34EA895677DFBB48298F8}
 
