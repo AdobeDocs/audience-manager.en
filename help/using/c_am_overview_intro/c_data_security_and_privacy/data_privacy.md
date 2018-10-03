@@ -29,7 +29,7 @@ Contents:
 
 
 
-See the [Adobe Privacy Center](http://www.adobe.com/privacy/opt-out.html). 
+See the [Adobe Privacy Center](https://www.adobe.com/privacy/opt-out.html). 
 
 ## Consumer Privacy Protection {#section_8269FC81B9514F62925BA63DFB9BCC1D}
 
@@ -68,7 +68,7 @@ The opt-out documentation has been extended and moved to a separate part of our 
   <tbody> 
    <tr> 
     <td colname="col1"> <p>Adobe Experience Cloud </p> </td> 
-    <td colname="col2"> <p>The <a href="http://www.adobe.com/privacy/opt-out.html#customeruse" format="http" scope="external"> Your Privacy Choices page</a> provides 1-click features that let you control and opt-out of data collection by the Adobe Experience Cloud advertising solutions (including Audience Manager). Specifically, see the <a href="http://www.adobe.com/privacy/opt-out.html#customeruse" format="http" scope="external"> business customer section</a> of the Privacy Choices page. </p> </td> 
+    <td colname="col2"> <p>The <a href="https://www.adobe.com/privacy/opt-out.html#customeruse" format="http" scope="external"> Your Privacy Choices page</a> provides 1-click features that let you control and opt-out of data collection by the Adobe Experience Cloud advertising solutions (including Audience Manager). Specifically, see the <a href="https://www.adobe.com/privacy/opt-out.html#customeruse" format="http" scope="external"> business customer section</a> of the Privacy Choices page. </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p>Browsers that do not support third-party cookies </p> </td> 
@@ -96,7 +96,7 @@ Adobe has enabled processes and offers settings that allow customers to use Audi
 The IP address of a visitor to a customer’s website is transmitted to an Adobe Data Processing Center (DPC) where the IP address may be stored. Depending on the network configuration for the visitor, the IP address does not necessarily represent the IP address of the visitor’s computer. For example, the IP address could be the external IP address of a Network Address Translation (NAT) firewall, HTTP proxy, or Internet gateway. 
 
 
-**Replacing the Last Octet of the IP Address: **Adobe has developed a new “privacy by design” setting that can be enabled by Audience Manager Consulting. When this setting is enabled, the last octet (the last portion) of the IP address is immediately hidden when the IP address is collected by Adobe. Audience Manager masks this part of the IP address prior to processing (including before any optional geo-lookup of the IP address). For example: 
+**Replacing the Last Octet of the IP Address:** Adobe has developed a new “privacy by design” setting that can be enabled by Audience Manager Consulting. When this setting is enabled, the last octet (the last portion) of the IP address is immediately hidden when the IP address is collected by Adobe. Audience Manager masks this part of the IP address prior to processing (including before any optional geo-lookup of the IP address). For example: 
 
 
 
@@ -117,7 +117,7 @@ When this feature is enabled, the IP address is altered so that it may no longer
 
 
 
-**Geographic Segmentation: **If customers enable the replacement of the last octet of the IP address, the remaining values of the IP address can still be utilized for geo-segmentation and reporting in Audience Manager. If the last octet of the IP address has not been obfuscated, the full IP address is used. Customers can use the Geographic Segmentation feature that allows the customer to map out visitor location by geographic area in either case, but with some slight loss of precision when IP obfuscation is being used. Geographic Segmentation data is granular only to the city level or zip code level, and not to the individual level. 
+**Geographic Segmentation:** If customers enable the replacement of the last octet of the IP address, the remaining values of the IP address can still be utilized for geo-segmentation and reporting in Audience Manager. If the last octet of the IP address has not been obfuscated, the full IP address is used. Customers can use the Geographic Segmentation feature that allows the customer to map out visitor location by geographic area in either case, but with some slight loss of precision when IP obfuscation is being used. Geographic Segmentation data is granular only to the city level or zip code level, and not to the individual level. 
 
 
 

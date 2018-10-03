@@ -48,7 +48,7 @@ This article describes the prefixes you must attach to key variables when creati
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"> h_</span> </td> 
-   <td colname="col2"> <p>That contains <a href="http://en.wikipedia.org/wiki/List_of_HTTP_header_fields" scope="external" format="html"> HTTP header</a> information. Includes header parameters such as <span class="codeph"> referer</span>,<span class="codeph"> IP</span>, <span class="codeph"> accept-language</span>, etc. </p> </td> 
+   <td colname="col2"> <p>That contains <a href="https://en.wikipedia.org/wiki/List_of_HTTP_header_fields" scope="external" format="html"> HTTP header</a> information. Includes header parameters such as <span class="codeph"> referer</span>,<span class="codeph"> IP</span>, <span class="codeph"> accept-language</span>, etc. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"> p_</span> </td> 

@@ -574,7 +574,7 @@ Returns the state of the current
 >          THROTTLE_START: 3000, 
 >          throttleTimerSet: false, 
 >          id: ''destination_publishing_iframe_' + partner + '_' + containerNSID, 
->          url: (constants.isHTTPS ? 'https://' : 'http://fast.') + partner + '.demdex.net/dest3.html?d_nsid=' 
+>          url: (constants.isHTTPS ? 'https://' : 'https://fast.') + partner + '.demdex.net/dest3.html?d_nsid=' 
 >          + containerNSID + '#' + encodeURIComponent(document.location.href), 
 >               iframe: null, 
 >               iframeHasLoaded: false, 
@@ -668,9 +668,9 @@ Consists of two functions that let data partners exchange and synchronize user I
 >
 >
 >`idSync` accepts the following macros: >
->* ** `%TIMESTAMP%`: **Generates a timestamp (in milliseconds). Used for cache busting.>
->* ** `%DID%`: **Inserts the Audience Manager ID for the user.>
->* ** `%HTTP_PROTO%`: **Sets the page protocol ( `http` or `https`).>
+>* ** `%TIMESTAMP%`:** Generates a timestamp (in milliseconds). Used for cache busting.>
+>* ** `%DID%`:** Inserts the Audience Manager ID for the user.>
+>* ** `%HTTP_PROTO%`:** Sets the page protocol ( `http` or `https`).>
 >
 >
 
@@ -700,7 +700,7 @@ Consists of two functions that let data partners exchange and synchronize user I
 >
 >`dilInstance.api.aamIdSync(initConfig)` >
 >```js>
->// Fires 'http:/https:' + '//dpm.demdex.net/ibs:dpid=<dpid>&dpuuid=<dpuuid>' 
+>// Fires 'https:/https:' + '//dpm.demdex.net/ibs:dpid=<dpid>&dpuuid=<dpuuid>' 
 >dilInstance.api.aamIdSync({ 
 > dpid: '23', // must be a string 
 > dpuuid: '98765', // must be a string 

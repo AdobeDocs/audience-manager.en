@@ -26,7 +26,7 @@ Before reviewing this content, see [Send Data to the DCS](../../../c_api/dcs-int
 Your [!UICONTROL DCS] request must include `d_rtbd=json` if you want to receive a response from the [!UICONTROL DCS]. The [!UICONTROL DCS] will not return data if you omit this parameter. A basic call to the [!UICONTROL DCS] to request data uses this syntax: 
 
 
-`http:// *`domain alias`*.demdex.net/event? *`key1`*= *`val1`*,& *`key2`*= *`val2`*&d_dst=1&d_rtbd=json&d_cb= *`callback`*` 
+`https:// *`domain alias`*.demdex.net/event? *`key1`*= *`val1`*,& *`key2`*= *`val2`*&d_dst=1&d_rtbd=json&d_cb= *`callback`*` 
 
 ## Sample Response {#section_E98B77488F8345B7BE5085F1DE38E05B}
 
@@ -35,7 +35,7 @@ Your [!UICONTROL DCS] request must include `d_rtbd=json` if you want to receive 
 Recall that from the [Send Data to the DCS](../../../c_api/dcs-intro/dcs-event-calls/dcs-url-send.md#concept_9F6C569C1E444002ADF2A43516A9F284) documentation, the fictional company Acme, Inc. made this call: 
 
 
-`http://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_rtbd=json&d_cb=acme_callback` 
+`https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_rtbd=json&d_cb=acme_callback` 
 
 
 As this call includes the required response parameter, the [!UICONTROL DCS] sent back the `JSON` object shown below. Yours may be similar or more complex. 

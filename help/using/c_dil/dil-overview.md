@@ -58,7 +58,7 @@ Adobe Launch is the successor to [ [!DNL Adobe Dynamic Tag Manager]](https://mar
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>URL</b> </p> </td> 
-   <td colname="col2"> <p><span class="wintitle"> DIL</span> event calls use the following syntax: <span class="codeph">http://adobe.demdex.net/event?_ts = <span class="varname"> UNIX UTC timestamp</span></span> </p> </td> 
+   <td colname="col2"> <p><span class="wintitle"> DIL</span> event calls use the following syntax: <span class="codeph">https://adobe.demdex.net/event?_ts = <span class="varname"> UNIX UTC timestamp</span></span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Body</b> </p> </td> 

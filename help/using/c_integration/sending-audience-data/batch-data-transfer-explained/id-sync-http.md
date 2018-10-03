@@ -36,7 +36,7 @@ You can use the following methods to get your data into [!DNL Audience Manager]:
 
 In an ID exchange, a properly formatted URL string should look like this: 
 ```
-http://dpm.demdex.net/ibs:dpid=<VENDOR_ID>&dpuuid=<VENDOR_UUID>&redir=<REDIRECT_URL>
+https://dpm.demdex.net/ibs:dpid=<VENDOR_ID>&dpuuid=<VENDOR_UUID>&redir=<REDIRECT_URL>
 ```
 
 
@@ -64,7 +64,7 @@ The URL for your inbound ID synchronization call should contain variables descri
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> &lt;VENDOR_UUID&gt;</span> </span> </td> 
-   <td colname="col2"> <p>URL (Percent) Encoded representation of your Unique User ID. In addition to encoding reserved ASCII characters, any non-ASCII characters should be percent encoded based on the UTF-8 character encoding table. </p> <p>For more information, see the <a href="http://www.url-encode-decode.com" format="http" scope="external"> URL Encode/Decode Online</a> website. </p> </td> 
+   <td colname="col2"> <p>URL (Percent) Encoded representation of your Unique User ID. In addition to encoding reserved ASCII characters, any non-ASCII characters should be percent encoded based on the UTF-8 character encoding table. </p> <p>For more information, see the <a href="https://www.url-encode-decode.com" format="http" scope="external"> URL Encode/Decode Online</a> website. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> &lt;REDIRECT_URL&gt;</span> </span> </td> 

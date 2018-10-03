@@ -33,7 +33,7 @@ A
 **Purpose of Derived Signals** 
 
 
-In [!DNL Audience Manager], you can create a relationship between signals (or trait rules) passed in during an event call to other, specified signals or traits. For example, assume an event call passes in a signal composed of the key-value "product = new_car" ( `http://<domain alias>/event?product=new_car`). [!DNL Audience Manager] would connect that signal to any others created with the [!UICONTROL derived signals] tool. Although the associated signals can be any key-values you specify, they are most useful when linked to existing signals already set up as [!UICONTROL Trait Builder] rules. For example, in the illustration below, when a user action fires the signal "product = new car" that user can also qualify for traits defined by the target key and value signals. 
+In [!DNL Audience Manager], you can create a relationship between signals (or trait rules) passed in during an event call to other, specified signals or traits. For example, assume an event call passes in a signal composed of the key-value "product = new_car" ( `https://<domain alias>/event?product=new_car`). [!DNL Audience Manager] would connect that signal to any others created with the [!UICONTROL derived signals] tool. Although the associated signals can be any key-values you specify, they are most useful when linked to existing signals already set up as [!UICONTROL Trait Builder] rules. For example, in the illustration below, when a user action fires the signal "product = new car" that user can also qualify for traits defined by the target key and value signals. 
 
 
 ![](assets/derived_signal_example.png) 

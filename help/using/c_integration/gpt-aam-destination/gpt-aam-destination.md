@@ -17,4 +17,4 @@ The articles listed below provide an overview of how to integrate DFP using Goog
 
 [!MORE_LIKE_THIS]
 >
->* [Google Publisher Tag](http://support.google.com/dfp_premium/bin/answer.py?hl=en&answer=181073&topic=28788&ctx=topic)
+>* [Google Publisher Tag](https://support.google.com/dfp_premium/bin/answer.py?hl=en&answer=181073&topic=28788&ctx=topic)

@@ -59,7 +59,7 @@ The following illustration provides a high-level overview of key elements in the
    **Date Range:** Specify the date range for the report (start date and end date). 
 
 
-   **Display Interval: **Specify the display interval (1, 7, 14, 30, 60, and 90-day intervals). 
+   **Display Interval:** Specify the display interval (1, 7, 14, 30, 60, and 90-day intervals). 
 
 1. Search for a trait or segment by name or ID.1. From the folder list, drag and drop the traits or segments you want to report to the [!UICONTROL Selections] panel on the right side.
 1. Generate the report to display in data in graphical format or export the report to CSV format.
@@ -77,7 +77,7 @@ This procedure describes how to run a
 
 
 1. In the **[!UICONTROL Analytics]** dashboard, click **[!UICONTROL Trend Reports]**.
-1. From the **[!UICONTROL Report Type]** drop-down list, select the desired type: **[!UICONTROL Trait]** or **[!UICONTROL Segment]**.
+1. From the **[!UICONTROL Report Type]** drop-down list, select the desired type:** [!UICONTROL Trait]** or **[!UICONTROL Segment]**.
 1. Click the date boxes to display a calendar, then select the starting and ending dates for your report.
 1. Specify the display interval: by 1, 7, 14, 30, 60, or 90-day.
 1. Search for a trait or segment by name or ID.

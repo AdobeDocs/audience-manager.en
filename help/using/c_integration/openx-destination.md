@@ -89,7 +89,7 @@ To complete the [!UICONTROL Basic Information] section:
 To complete the [!UICONTROL Configuration] section: 
 
 1. **Cookie Name:** Provide a short, descriptive name for your cookie.
-1. **Cookie Domain: **Leave blank to set a cookie in the domain of the user's current page. If you want to specify a domain, prefix the name with a period like this, `.mydomain.com`.
+1. **Cookie Domain:** Leave blank to set a cookie in the domain of the user's current page. If you want to specify a domain, prefix the name with a period like this, `.mydomain.com`.
 1. Choose a key option in the [!UICONTROL Data Format] section.
 1. If your keys use data with serialized values, select the **[!UICONTROL Serialize]** control and specify the serial delimiter (the character that separates the serialized values).
 1. Click **[!UICONTROL Save]** and expand the [!UICONTROL Segment Mappings] section.
@@ -127,7 +127,7 @@ To set up OpenX
 * Modify your ad tag to call the `get_aamCookie` function and include the cookie name you provided when setting up the OpenX destination. For example, if you named the cookie `test_cookie`, then the ad tag should call `get_aamCookie` and reference the cookie name. Your ad tag could look similar example below.
 * 
   ```
-  <a href= "http://client.adserver.net/?" + get_aamCookie('test_cookie') + 
+  <a href= "https://client.adserver.net/?" + get_aamCookie('test_cookie') + 
    "&etc&xid=" + get_aamCookie('aam_uuid')
   ```
 
@@ -138,6 +138,6 @@ Remember to include `xid=` . It holds the actual unique user ID (UUID) passed in
 
 The fully formed ad call could look similar to this: 
 ```
-http://client.adserver.net/?c.key1=val1&c.key2=val2&etc& xid =3286487458745343
+https://client.adserver.net/?c.key1=val1&c.key2=val2&etc& xid =3286487458745343
 ```
 

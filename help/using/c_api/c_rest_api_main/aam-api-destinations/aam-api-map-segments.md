@@ -67,7 +67,7 @@ A
 >{
 >   "sid":87723,
 >   "traitType":"SEGMENT",
->   "url":"http://adobe.com",
+>   "url":"https://adobe.com",
 >   "startDate":"2012-07-04"
 >}
 >```
@@ -92,7 +92,7 @@ A
 >   "startDate":"2012-07-03",
 >   "endDate":null,
 >   "priority":null,
->   "url":"http://adobe.com",
+>   "url":"https://adobe.com",
 >   "secureUrl":null,
 >   "tagCode":null,
 >   "secureTagCode":null,
@@ -441,13 +441,13 @@ A
 >{
 >   "sid": 105123,
 >   "traitType":"SEGMENT",
->   "url":"http://adobe.com",
+>   "url":"https://adobe.com",
 >   "startDate":"2012-11-20"
 >},
 >{
 >   "sid": 121070,
 >   "traitType":"SEGMENT",
->   "url":"http://my.adobeconnect.com",
+>   "url":"https://my.adobeconnect.com",
 >   "startDate":"2012-11-21"
 >}
 >]
@@ -477,7 +477,7 @@ A
 >        "startDate": "2012-11-19",
 >        "endDate": null,
 >        "priority": null,
->        "url": "http://adobe.com",
+>        "url": "https://adobe.com",
 >        "secureUrl": null,
 >        "tagCode": null,
 >        "secureTagCode": null,
@@ -499,7 +499,7 @@ A
 >        "startDate": "2012-11-20",
 >        "endDate": null,
 >        "priority": null,
->        "url": "http://my.adobeconnect.com",
+>        "url": "https://my.adobeconnect.com",
 >        "secureUrl": null,
 >        "tagCode": null,
 >        "secureTagCode": null,
@@ -537,13 +537,13 @@ A
 >{
 >   "sid": 105123,
 >   "traitType":"SEGMENT",
->   "url":"http://adobe.com",
+>   "url":"https://adobe.com",
 >   "startDate":"2012-11-20"
 >},
 >{
 >   "sid": 121070,
 >   "traitType":"SEGMENT",
->   "url":"http://my.adobeconnect.com",
+>   "url":"https://my.adobeconnect.com",
 >   "startDate":"2012-11-21"
 >}
 >]
@@ -573,7 +573,7 @@ A
 >        "startDate": "2012-11-19",
 >        "endDate": null,
 >        "priority": null,
->        "url": "http://adobe.com",
+>        "url": "https://adobe.com",
 >        "secureUrl": null,
 >        "tagCode": null,
 >        "secureTagCode": null,
@@ -595,7 +595,7 @@ A
 >        "startDate": "2012-11-20",
 >        "endDate": null,
 >        "priority": null,
->        "url": "http://my.adobeconnect.com",
+>        "url": "https://my.adobeconnect.com",
 >        "secureUrl": null,
 >        "tagCode": null,
 >        "secureTagCode": null,
@@ -697,7 +697,7 @@ A
 >{
 >   "sid": 105123,
 >   "traitType":"SEGMENT",
->   "url":"http://adobe.com",
+>   "url":"https://adobe.com",
 >   "startDate":"2012-11-20"
 >}
 >```
@@ -722,7 +722,7 @@ A
 >    "startDate": "2012-11-19",
 >    "endDate": null,
 >    "priority": null,
->    "url": "http://www.adobe.com/send?%ALIAS%",
+>    "url": "https://www.adobe.com/send?%ALIAS%",
 >    "secureUrl": null,
 >    "tagCode": null,
 >    "secureTagCode": null,

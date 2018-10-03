@@ -320,7 +320,7 @@ This section contains options that let you set a base URL and data delimiters pa
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="uicontrol"> Base URL</span> </p> </td> 
-   <td colname="col2"> <p>The base part of a standard HTTP URL that does not change. Also, you need to place the <span class="codeph"> %ALIAS% </span><a href="../../c_features/destinations/destination-macros.md#reference_B2F4AE643702440D879EFFE4A3FAAEDB" format="dita" scope="local"> placeholder macro</a> in the base URL. </p> <p>Example: <span class="codeph"> http://www.myCompany.com/?%alias%...</span> </p> </td> 
+   <td colname="col2"> <p>The base part of a standard HTTP URL that does not change. Also, you need to place the <span class="codeph"> %ALIAS% </span><a href="../../c_features/destinations/destination-macros.md#reference_B2F4AE643702440D879EFFE4A3FAAEDB" format="dita" scope="local"> placeholder macro</a> in the base URL. </p> <p>Example: <span class="codeph"> https://www.myCompany.com/?%alias%...</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="uicontrol"> Secure URL</span> </p> </td> 
@@ -412,7 +412,7 @@ In
      <ul id="ul_F25BC0D8C40641A2A5CA338E5C258435"> 
       <li id="li_E236D8DEE4F24F9BBA36074F7049C12C">Type the name of the domain in the <span class="wintitle"> Cookie Domain</span> field. </li> 
       <li id="li_0471C198EE344DE5963A3C2F70B9E78B">Start the domain name with a period. For example, <span class="codeph"> .somedomain.com</span>. </li> 
-      <li id="li_73D06F2BEF45487280C2245E1F6B8ED0">The <span class="codeph"> http://www</span> prefix is not required. </li> 
+      <li id="li_73D06F2BEF45487280C2245E1F6B8ED0">The <span class="codeph"> https://www</span> prefix is not required. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 

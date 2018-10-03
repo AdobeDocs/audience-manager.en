@@ -324,7 +324,7 @@ The
 >_gaq.push(['_trackSocial', 
 >    'facebook',                        // c_socialNetwork 
 >    'like',                            // c_socialAction 
->    'http://www.adobe.com/cool.php',   // c_socialTarget 
+>    'https://www.adobe.com/cool.php',   // c_socialTarget 
 >    '/cool.php'                        // c_socialPagePath 
 >]);  
 > 
@@ -394,7 +394,7 @@ The
 >The URL event call to Audience Manager could look similar to this: 
 >
 >
->`http://adobe.demdex.com/event?...c_accountId=UA-XXXXX-X&c_Section=Life%20%26%20Style &c_itemOrderId=1234&c_itemSku=DD44&c_itemName=T-Shirt&c_itemCategory=Olive%20Medium& c_itemPrice=11.99&c_itemQuantity=1` 
+>`https://adobe.demdex.com/event?...c_accountId=UA-XXXXX-X&c_Section=Life%20%26%20Style &c_itemOrderId=1234&c_itemSku=DD44&c_itemName=T-Shirt&c_itemCategory=Olive%20Medium& c_itemPrice=11.99&c_itemQuantity=1` 
 >[!MORE_LIKE_THIS]
 >
 >* [Google Analytics Tracking Code](https://developers.google.com/analytics/devguides/collection/gajs/methods/)

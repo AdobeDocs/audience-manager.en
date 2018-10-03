@@ -47,30 +47,30 @@ Create users in Audience Manager and specify user details, login status, and ass
 
 
 
-   **Username: **Specify a unique username for Audience Manager. 
+   **Username:** Specify a unique username for Audience Manager. 
 
 
-   **First Name: **Specify the user's first name. 
+   **First Name:** Specify the user's first name. 
 
 
-   **Last Name: **Specify the user's last name. 
+   **Last Name:** Specify the user's last name. 
 
 
-   **Email Address: **Specify the user's email address. Audience Manager does not send regular notification to users. Audience Manager administrators have access to users' email addresses and can manually email users as needed. For example, if a user forgets his or her password, the email address specified in this field is used to send a temporary password and instructions to reset the password. 
+   **Email Address:** Specify the user's email address. Audience Manager does not send regular notification to users. Audience Manager administrators have access to users' email addresses and can manually email users as needed. For example, if a user forgets his or her password, the email address specified in this field is used to send a temporary password and instructions to reset the password. 
 
 
-   **Phone Number: **Specify the user's phone number. 
+   **Phone Number:** Specify the user's phone number. 
 
 
-   **Is Admin: **Specify if this user is an Audience Manager administrator. Admin users can manage users (create, edit, etc.) and groups (create, assign permissions, etc.). Non-admin users can control only their own user profiles, including editing their email addresses and resetting their own passwords. For more information, see [Edit Your Account Settings](../../c_features/c_administration/edit-account-settings.md#task_B622BDCE85824926AE88C6D132F9EDAE). 
+   **Is Admin:** Specify if this user is an Audience Manager administrator. Admin users can manage users (create, edit, etc.) and groups (create, assign permissions, etc.). Non-admin users can control only their own user profiles, including editing their email addresses and resetting their own passwords. For more information, see [Edit Your Account Settings](../../c_features/c_administration/edit-account-settings.md#task_B622BDCE85824926AE88C6D132F9EDAE). 
 1. Under **[!UICONTROL Login]**, select the desired status:
 
 
 
-   **Active: ** Active users can access Audience Manager and have the permissions granted by group membership. 
+   **Active:**  Active users can access Audience Manager and have the permissions granted by group membership. 
 
 
-   **Deactivated: ** Deactivated users cannot access Audience Manager and do not have any permissions. If you deactivate users, their user information remains in Audience Manager and you can simple reactivate them, if necessary. If you remove users, you must re-create them if they need to use Audience Manager again in the future. 
+   **Deactivated:**  Deactivated users cannot access Audience Manager and do not have any permissions. If you deactivate users, their user information remains in Audience Manager and you can simple reactivate them, if necessary. If you remove users, you must re-create them if they need to use Audience Manager again in the future. 
 
 
    **Expired:** A user's password is older than 90 days. 

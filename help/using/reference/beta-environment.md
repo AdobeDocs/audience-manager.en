@@ -129,7 +129,7 @@ The beta environment is updated at the end of each month during off-peak hours.
 
 
    ```
-   curl -v http://dcs-beta.demdex.net/?event
+   curl -v https://dcs-beta.demdex.net/?event
    [...]
    < DCS: va6-sandbox-dcs-3.sandbox.demdex.com <release_number>
    [...]
