@@ -19,7 +19,8 @@ Using traits
 1. Click **[!UICONTROL Companies]**, then locate and click the desired company to display its [!UICONTROL Profile] page.
   Use the [!UICONTROL Search] box or the pagination controls at the bottom of the list to find the desired company. You can sort each column in ascending or descending order by clicking the desired column's header. 
 1. Click the **[!UICONTROL Limits]** tab.
-1. Fill in the fields:
+1. Fill in the fields
+1. Click **[!UICONTROL Save]**.
 
   >[!NOTE]
   >
@@ -59,6 +60,3 @@ Specify the trait limits for this company:
 * **Max Number of Algorithmic Traits:** Specify the maximum number of algorithmic traits this company can have. 
 * **Max Number of Rule Based Traits:** Specify the maximum number of rule-based traits this company can have. 
 * **Max Number of Onboarded Traits:** Specify the maximum number of onboarded traits this company can have. 
-
-
-1. Click **[!UICONTROL Save]**.
