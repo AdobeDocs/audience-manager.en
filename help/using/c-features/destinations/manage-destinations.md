@@ -122,9 +122,7 @@ This section contains fields and options that start the cookie destination creat
 1. Name the destination. Avoid abbreviations and special characters. 
 1. *(Optional)* Describe the destination. A concise description is an effective way to define or provide more information about a destination. 
 1. *(Optional)* In the **[!UICONTROL Platform]** list, leave the default set to **[!UICONTROL All]**. Currently, these options don't do anything. They're designed to support features that may be added at a later date. 
-
 1. In the **[!UICONTROL Type]** list, click **[!UICONTROL Cookie]**. 
-
 1. *(Optional)* Select an **[!UICONTROL Auto-fill Destination Mapping]**. Options include:
 
     * **[!UICONTROL Segment ID]**: Automatically adds and sends the segment ID to the destination. 
@@ -167,9 +165,7 @@ This section lets you search for and add segments to your destination. To comple
 
 1. Click **[!UICONTROL Segment Mappings]** to expose the controls. 
 1. In the **[!UICONTROL Search and Add Segments]** box, start typing the name of a segment or click **[!UICONTROL Browse All Segments]** to browse a list of available segments. 
-
 1. Click **[!UICONTROL Add Selected Segments]** when you find the segment you want to use. Adding a segment opens the [!UICONTROL Edit Mapping] window. 
-
 1. In the [!UICONTROL Edit Mapping] pop:
 
     * **[!UICONTROL Mapping]** lets you set a value for the key specified in the Configuration section above. 
@@ -198,9 +194,7 @@ This section contains fields and options that start the URL destination creation
 1. Name the destination. Avoid abbreviations and special characters. 
 1. *(Optional)* Describe the destination. A concise description is an effective way to define or provide more information about a destination. 
 1. *(Optional)* In the **[!UICONTROL Platform]** list, leave the default set to **[!UICONTROL All]**. Currently, these options don't do anything. They're designed to support features that may be added at a later date. 
-
 1. In the **[!UICONTROL Type]** list, click **[!UICONTROL URL]**. 
-
 1. *(Optional)* Select an **[!UICONTROL Auto-fill Destination Mapping]**. Options include:
 
     * **[!UICONTROL Segment ID]**: Automatically adds and sends the segment ID to the destination. 
@@ -386,7 +380,6 @@ To add or edit segment mappings for an s2s destination:
 
 1. Click **[!UICONTROL Save]** and then click **[!UICONTROL Done]**.
 
-   Step Result 
 ## Add Data Export Labels to a Destination {#task_A4BA30472E6F4687AC3F1B33F51909D9}
 
 [!DNL Data Export Labels] work with the [!DNL Export Controls] you set on a data source. [!DNL Data Export Labels] prevent you from adding restricted traits to a segment and from sending segment data to a destination. You can set multiple export labels to a new or existing cookie or URL destination.
