@@ -58,13 +58,7 @@ This rule establishes trait qualification requirements using Boolean [!UICONTROL
 
 |  Sample code  | To qualify, a visitor must  |
 |---|---|
-|  
-
-```
-(a== "1" OR b=="1") AND (c== "new")
-```
-
-| Meet the conditions set by variables *`a`* or *`b`* and *`c`*.  |
+| `(a== "1" OR b=="1") AND (c== "new")` | Meet the conditions set by variables *`a`* or *`b`* and *`c`*.  |
 
 **Range Example with Greater Than, Less Than, Equal To**
 
@@ -72,11 +66,4 @@ This rule establishes trait qualification requirements using a range.
 
 |  Sample code  | To qualify, a visitor must  |
 |---|---|
-|  
-
-```
-(price>= 1.00 AND price<= 100.00)
-```
-
-| Meet any price condition between 1.00 and 100.00.  |
-
+| `(price>= 1.00 AND price<= 100.00)` | Meet any price condition between 1.00 and 100.00. |
