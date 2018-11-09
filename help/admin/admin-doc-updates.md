@@ -15,7 +15,7 @@ All updates (additions, deletions, and corrections) to the Audience Manager Admi
 
 For information about feature releases, enhancements, and bug fixes see the [Experience Cloud Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/). See the [previous release notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/c_legacy_releases.html) for older Experience Cloud announcements. For [!DNL Audience Manager documentation changes, see] [Documentation Updates](https://marketing.adobe.com/resources/help/en_US/aam/c_doc_updates.html).
 
-## 2018 Documentation Updates {#section_5A4414B4B2F84F32BD8AE49C6E8B7096}
+## AAM 2018 Documentation Updates {#section_5A4414B4B2F84F32BD8AE49C6E8B7096}
 
 <!-- 
 
@@ -46,7 +46,7 @@ c_doc_updates.xml
  </tbody> 
 </table>
 
-## 2017 Documentation Updates {#section_5C6F7AE4F53147FAA6555044912BF3DC}
+## AAM 2017 Documentation Updates {#section_5C6F7AE4F53147FAA6555044912BF3DC}
 
 <table id="table_81D2DA9293A9417085C630D00A7C96E1"> 
  <thead> 
@@ -99,9 +99,7 @@ c_doc_updates.xml
  </tbody> 
 </table>
 
-## 2016 Documentation Updates {#section_12FA8E85AFBF48819CCE284864948062}
-
-**** 
+## AAM 2016 Documentation Updates {#section_12FA8E85AFBF48819CCE284864948062}
 
 <table id="table_E9D9810EA8244B58A4F27D56CFE521FD"> 
  <thead> 
@@ -141,7 +139,7 @@ c_doc_updates.xml
  </tbody> 
 </table>
 
-## 2015 Documentation Updates {#section_3791805B840D4D54B09CEEE9F713DB99}
+## AAM 2015 Documentation Updates {#section_3791805B840D4D54B09CEEE9F713DB99}
 
 <table id="table_90F524BAAED44A45A1F6BF8BBA9F26F9"> 
  <thead> 
@@ -158,7 +156,7 @@ c_doc_updates.xml
  </tbody> 
 </table>
 
-## 2014 Documentation Updates {#section_AE44C76943204E8FA29CA6023500DA0D}
+## AAM 2014 Documentation Updates {#section_AE44C76943204E8FA29CA6023500DA0D}
 
 <table id="table_FA9962E19248418BA73D5A794A378C9D"> 
  <thead> 
@@ -198,4 +196,3 @@ c_doc_updates.xml
   </tr> 
  </tbody> 
 </table>
-
