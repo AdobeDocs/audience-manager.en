@@ -1,0 +1,48 @@
+---
+cloud: experience-cloud
+product: adobe
+archtype: end-user
+user-guide: null
+---
+
+# Table of Contents {#table-of-contents}
+
++ [Audience Manager Admin Home](admin-home.md)
++ [Log In to Audience Manager Admin](admin-login.md)
++ [How to Request Functional Admin Access](admin-access.md)
++ [Companies](companies/companies.md)
+    + [Companies](companies/admin-companies-overview.md)
+    + [Create a Company Profile](companies/admin-manage-company-profiles.md)
+    + [Manage Containers](companies/admin-manage-containers.md)
+    + [Device Graph Options for Companies](companies/admin-device-graph-options.md)
+    + [ID Syncing with Media Optimizer](companies/admin-amo-sync.md)
+    + [Manage First Party Data Providers](companies/admin-first-party-providers.md)
+    + [Manage Third-Party Data Providers](companies/admin-third-party-providers.md)
+    + [Manage Company Destinations](companies/admin-manage-company-destinations.md)
+    + [Manage Company Limits](companies/admin-company-limits.md)
+    + [Manage Company Users](companies/admin-manage-company-users.md)
+    + [Filter Outbound Data by Active Users Only](companies/outbound-active-user-filter.md)
++ [Servers Overview](admin-servers/admin-servers.md)
+    + [Create or Edit an FTP Server](admin-servers/create-ftp-server.md)
+    + [Create or Edit an HTTP Server](admin-servers/create-http-server.md)
+    + [Create or Edit an S3 Server](admin-servers/create-s3-server.md)
+    + [How To: Authorize Cross-Account Amazon S3 Bucket Access for Batch   Destinations](admin-servers/admin-authorize-s3-cross-bucket.md)
+    + [Delete a Server](admin-servers/admin-delete-server.md)
++ [Reporting](admin-reporting/admin-reporting.md)
+    + [Reporting](admin-reporting/admin-reporting-overview.md)
+    + [Assign a Portal User to Tableau User](admin-reporting/admin-assign-tableau-user.md)
++ [Formats Overview](formats/formats.md)
+    + [Enable Hadoop Sequence File Transfers for Outbound](formats/enable-outbound-seq.md)
+    + [File Format Macros](formats/file-formats.md)
+    + [File Format Macro Examples](formats/file-format-examples.md)
+    + [HTTP Format Macros](formats/web-formats.md)
+    + [HTTP Format Macro Examples](formats/web-format-examples.md)
+    + [Create or Edit a Format](formats/admin-create-format.md)
++ [OAuth2 Clients](admin-oauth2/admin-oauth2.md)
+    + [OAuth2 Clients](admin-oauth2/admin-oauth2-create-edit.md)
+    + [API Requirements and Recommendations](admin-oauth2/aam-admin-api-requirements.md)
++ [Integration Users](admin-manage-integration-users.md)
++ [My Profile](admin-my-profile.md)
++ [Destination Setup Troubleshooting](admin-destination-troubleshooting.md)
++ [Beta Environment](admin-beta-environment.md)
++ [Documentation Updates](admin-doc-updates.md)
