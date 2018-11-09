@@ -1,11 +1,10 @@
 ---
-cloud: experience-cloud
-product: adobe
-archtype: end-user
-user-guide: null
+product: audience-manager
+audience: end-user
+user-guide-title: Audience Manager User Guide
 ---
 
-# Table of Contents {#table-of-contents}
+# Audience Manager User Guide {#using}
 
 + [Audience Manager Product Documentation](c-aam-home.md)
 + [Overview](c-am-overview-intro/c-am-overview-intro.md)
