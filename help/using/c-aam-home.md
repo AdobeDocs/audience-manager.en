@@ -7,7 +7,6 @@ title: Audience Manager Product Documentation
 uuid: 5f0fad8a-b0af-495f-bbe4-be1ef3c51ab1
 index: y
 internal: n
-snippet: y
 ---
 
 # Audience Manager Product Documentation{#audience-manager-product-documentation}
