@@ -115,7 +115,7 @@ beta_environment_admin.xml
    For example:
 
    ```
-   curl -v http://dcs-beta.demdex.net/?event
+   curl -v https://dcs-beta.demdex.net/?event
    [...]
    < DCS: va6-sandbox-dcs-3.sandbox.demdex.com <release_number>
    [...]

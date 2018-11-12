@@ -119,13 +119,13 @@ t_edit_company_profile.xml
 
   If you select this account type, **[!UICONTROL Visitor ID Service]** is also automatically selected.
 
-  For more information, see [Audiences Services - Master Marketing Profile](https://marketing.adobe.com/resources/help/en_US/mcloud/audiences.html). For more information about integrating Audience Manager and MMP, see [Master Marketing Profile Integration](http://microsite.omniture.com/t2/help/en_US/demdex/c_mmp.html). 
+  For more information, see [Audiences Services - Master Marketing Profile](https://marketing.adobe.com/resources/help/en_US/mcloud/audiences.html). For more information about integrating Audience Manager and MMP, see [Master Marketing Profile Integration](https://microsite.omniture.com/t2/help/en_US/demdex/c_mmp.html). 
 
 * **[!UICONTROL Data Source]**: Specify that the company is a third-party data provider within Audience Manager. 
 * **[!UICONTROL Targeting Partner]**: Specify that the company acts as a targeting platform for Audience Manager customers. 
 * **[!UICONTROL Visitor ID Service]**: Specify that the company has been enabled to use the Experience Cloud Visitor ID Service.
 
-  The Experience Cloud Visitor ID service provides a universal visitor ID across Experience Cloud solutions. For more information, see the [Experience Cloud Visitor ID Service user guide](http://microsite.omniture.com/t2/help/en_US/mcvid/mcvid_service.html). 
+  The Experience Cloud Visitor ID service provides a universal visitor ID across Experience Cloud solutions. For more information, see the [Experience Cloud Visitor ID Service user guide](https://microsite.omniture.com/t2/help/en_US/mcvid/mcvid_service.html). 
 
 * **[!UICONTROL Agency]**: Specify that the company will have an Agency account.
 

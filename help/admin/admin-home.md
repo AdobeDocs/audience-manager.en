@@ -34,8 +34,8 @@ The Audience Manager Admin tool lets you add and configure companies, servers, r
      <li id="li_6AD053625237446FB9B581772896F64F">See the <a href="https://marketing.adobe.com/resources/help/en_US/whatsnew/c_legacy_releases.html" format="https" scope="external"> previous release notes</a> for older announcements. </li> 
     </ul> <p class="head"> <b>Experience Cloud Resources</b> </p> 
     <ul id="ul_F8DE07F1ADBC411E894751F927BB1477"> 
-     <li id="li_09B0F2E487CA4C55A723ACB5901C7B49"><a href="http://www.adobe.com/marketing-cloud.html" format="http" scope="external"> Adobe Experience Cloud</a> </li> 
-     <li id="li_B89CEA08B4954C6ABA2BBDA803A88427"> <a href="http://helpx.adobe.com/marketing-cloud/social.html" format="http" scope="external"> Adobe Social Community</a> </li> 
+     <li id="li_09B0F2E487CA4C55A723ACB5901C7B49"><a href="https://www.adobe.com/marketing-cloud.html" format="http" scope="external"> Adobe Experience Cloud</a> </li> 
+     <li id="li_B89CEA08B4954C6ABA2BBDA803A88427"> <a href="https://helpx.adobe.com/marketing-cloud/social.html" format="http" scope="external"> Adobe Social Community</a> </li> 
      <li id="li_4F16686C311743C484013D84971EEBD3"> <a href="https://helpx.adobe.com/learning.html?promoid=KAUDK" format="https" scope="external"> Adobe Training and Tutorials</a> </li> 
      <li id="li_32581A0A26CB4F43833D607221154188"><a href="https://marketing.adobe.com/developer/" format="https" scope="external"> Developer Connection</a> </li> 
      <li id="li_49B2B95B1B4540C9A967F7DDBB4EB457"><a href="https://marketing.adobe.com/resources/help/en_US/home/index.html" format="https" scope="external"> Product Documentation Home</a> </li> 

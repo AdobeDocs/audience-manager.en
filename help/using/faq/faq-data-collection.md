@@ -68,14 +68,14 @@ You must use [!DNL Analytics] version 20.2 (or higher) and the [!DNL Adobe AppMe
 This customer uses [!DNL Analytics] version 24.4: 
 
 ```
-http://112.2o7.net/b/ss/.../1/
+https://112.2o7.net/b/ss/.../1/
 <b>H.24.4</b>/...
 ```
 
 This customer uses [!DNL AppMeasurement] version 3.5.2: 
 
 ```
-http://112.2o7.net/b/ss/.../0/
+https://112.2o7.net/b/ss/.../0/
 <b>FAS-3.5.2-AS3</b>/...
 ```
 
@@ -130,7 +130,7 @@ A file has been picked up when the extension changes from `.sync` to `.processed
 **I want to test the functionality of the [DCS API](https://marketing.adobe.com/resources/help/en_US/aam/dcs-event-calls.html). I am sending event calls like the one shown below. The calls contain [Declared IDs](https://marketing.adobe.com/resources/help/en_US/aam/c_declared_id_var_syntax.html) and signals, which should realize some traits and segments I have already set up. Can I use the [!UICONTROL General Reports] and [!UICONTROL Trend Reports] to verify if the trait and segment populations are increasing?**
 
 ```
-http://apse2.demdex.net/event?d_rtbd=json&d_cid=123456%01abc123&c_events=placed-an-order
+https://apse2.demdex.net/event?d_rtbd=json&d_cid=123456%01abc123&c_events=placed-an-order
 ```
 
 No, do not rely on the [!UICONTROL General Reports] and [!UICONTROL Trend Reports] in this case.

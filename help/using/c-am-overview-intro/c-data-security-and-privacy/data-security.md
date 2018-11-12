@@ -55,7 +55,7 @@ Processes that help keep our system and your data secure.
 
 ## Privacy and Personally Identifiable Information (PII) {#section_3F60A967DDD24592B0349831D4E865A3}
 
-Processes that help keep personal information safe. For additional privacy information, see the [Adobe Privacy Center](http://www.adobe.com/privacy/advertising-services.html).
+Processes that help keep personal information safe. For additional privacy information, see the [Adobe Privacy Center](https://www.adobe.com/privacy/advertising-services.html).
 
 **PII Data: ** Audience Manager contractually prohibits customers and data partners from sending PII information into our system. Additionally, the Unique User ID (UUID) does not contain or use PII data as part of the ID-generation algorithm.
 

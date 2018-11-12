@@ -48,7 +48,7 @@ c_flash_dil_intro.xml
 
 **Set AllowScriptAccess to `Always` or `sameDomain`**
 
-The `AllowScriptAccess` in HTML code that loads a SWF file controls the ability to perform outbound URL access from within the SWF file. When you configure a [!UICONTROL Flash DIL] data integration, make sure the Flash `AllowScriptAccess` parameter is set to `always` or `sameDomain`. [!UICONTROL Flash DIL] data collection will not work if `AllowScriptAccess` is set to `never`. See [Control Access to Scripts or Host Web Page](http://helpx.adobe.com/flash/kb/control-access-scripts-host-web.html).
+The `AllowScriptAccess` in HTML code that loads a SWF file controls the ability to perform outbound URL access from within the SWF file. When you configure a [!UICONTROL Flash DIL] data integration, make sure the Flash `AllowScriptAccess` parameter is set to `always` or `sameDomain`. [!UICONTROL Flash DIL] data collection will not work if `AllowScriptAccess` is set to `never`. See [Control Access to Scripts or Host Web Page](https://helpx.adobe.com/flash/kb/control-access-scripts-host-web.html).
 
 **JS [!UICONTROL DIL] Code Placement**
 
