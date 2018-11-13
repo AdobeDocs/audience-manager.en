@@ -30,7 +30,7 @@ The [!UICONTROL Standard Deviation] column displays color-coded bar charts that 
 
 Icons display at the bottom of the report that let you export data in various formats, revert any changes you might have made to the report (such as excluding traits), enable or disable automatic updates, and refresh the report's data. See [Report Icons and Tools Explained](../../reporting/dynamic-reports/interactive-report-technology.md#reference_8D90E6C1F0AE46D4AC0911707395BED6).
 
-### Use Cases {#example_DE5A4007B1454C22A5E134B0A04FDB7A}
+## Use Cases {#example_DE5A4007B1454C22A5E134B0A04FDB7A}
 
 **Example #1**: this report can be highly useful in situations where you have traits with a high seasonality level. For instance, let's say your online store is testing seasonal promotions of various types and prices. You have the following traits defined in [!DNL Audience Manager]:
 

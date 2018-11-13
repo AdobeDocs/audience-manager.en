@@ -34,7 +34,7 @@ The event call collects impression and conversion data and sends it to the [!DNL
 Event calls consist of key-value pairs that use the following syntax:
 
 ```
-http://clientname.demdex.net/event?d_event=imp&d_src= 
+https://clientname.demdex.net/event?d_event=imp&d_src= 
 <varname>
   datasource_id 
 </varname>&d_site= 

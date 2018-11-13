@@ -84,15 +84,15 @@ For a description and syntax, see [URL Variables and Syntax for Declared IDs](..
  <tbody> 
   <tr> 
    <td colname="col1"> <p>A data provider ID and user ID. </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> http:// <span class="varname"> domain name </span>/demoptout.jpg?d_cid=123%01987... </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> https:// <span class="varname"> domain name </span>/demoptout.jpg?d_cid=123%01987... </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>An integration code and user ID. </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> http:// <span class="varname"> domain name </span>/demoptout?d_cid_ic=456%01321... </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> https:// <span class="varname"> domain name </span>/demoptout?d_cid_ic=456%01321... </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Multiple <span class="codeph"> d_cid </span> and <span class="codeph"> d_cid_ic </span> key-value pairs. </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> http:// <span class="varname"> domain name </span>/demoptout?d_cid=123%01987&amp;d_cid_ic=456%01321... </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> https:// <span class="varname"> domain name </span>/demoptout?d_cid=123%01987&amp;d_cid_ic=456%01321... </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -111,15 +111,15 @@ These methods still work but are considered deprecated. This information is prov
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_uuid </span> only </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> http:// domain/demoptout.jpg?d_uuid= AAM ID </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> https:// domain/demoptout.jpg?d_uuid= AAM ID </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Partner level opt-out </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> http:// /demoptout.jpg?d_dpuuid= user ID&amp;d_dpid= data provider ID </span> </p> <p>A partner level opt-out gets stored for the latest mapping of this <span class="codeph"> dpid </span> + <span class="codeph"> dpuuid </span> pair to an AAM UUID. If there is no previously existing mapping, Audience Manager checks whether the request contains an AAM UUID in the cookie, and if it does, uses that for storing the opt-out. Otherwise, Audience Manager generates a new AAM UUID and stores the opt-out under it. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> https:// /demoptout.jpg?d_dpuuid= user ID&amp;d_dpid= data provider ID </span> </p> <p>A partner level opt-out gets stored for the latest mapping of this <span class="codeph"> dpid </span> + <span class="codeph"> dpuuid </span> pair to an AAM UUID. If there is no previously existing mapping, Audience Manager checks whether the request contains an AAM UUID in the cookie, and if it does, uses that for storing the opt-out. Otherwise, Audience Manager generates a new AAM UUID and stores the opt-out under it. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_dpuuid </span> + <span class="codeph"> d_dpid </span> and explicit <span class="codeph"> d_uuid </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> http:// domain/demoptout.jpg?d_uuid= user ID&amp;d_dpuuid= data provider's user ID&amp; <span class="varname"> d_dpid=data provider ID </span> </span> </p> <p> <span class="codeph"> d_uuid </span> always takes precedence. If the <span class="codeph"> dpid </span> + <span class="codeph"> dpuuid </span> combination maps to another AAM UUID, the opt-out is stored under the AAM UUID passed in the request ( <span class="codeph"> d_uuid </span>). </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> https:// domain/demoptout.jpg?d_uuid= user ID&amp;d_dpuuid= data provider's user ID&amp; <span class="varname"> d_dpid=data provider ID </span> </span> </p> <p> <span class="codeph"> d_uuid </span> always takes precedence. If the <span class="codeph"> dpid </span> + <span class="codeph"> dpuuid </span> combination maps to another AAM UUID, the opt-out is stored under the AAM UUID passed in the request ( <span class="codeph"> d_uuid </span>). </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -176,15 +176,15 @@ Given these key-value pairs and their required syntax, you would make event call
  <tbody> 
   <tr> 
    <td colname="col1"> <p>A data provider ID and user ID. </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> http:// <span class="varname"> domain name </span>/event?d_cid=123%01987... </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> https:// <span class="varname"> domain name </span>/event?d_cid=123%01987... </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>An integration code and user ID. </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> http:// <span class="varname"> domain name </span>/event?d_cid_ic=456%01321... </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> https:// <span class="varname"> domain name </span>/event?d_cid_ic=456%01321... </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Multiple <span class="codeph"> d_cid </span> and <span class="codeph"> d_cid_ic </span> key-value pairs. </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> http:// <span class="varname"> domain name </span>/event?d_cid=123%01987&amp;d_cid_ic=456%01321... </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> https:// <span class="varname"> domain name </span>/event?d_cid=123%01987&amp;d_cid_ic=456%01321... </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -295,7 +295,7 @@ DIL.getDil('partner name').api.signals({...}).declaredId({
 The request sends a data provider and user ID to Audience Manager: 
 
 ```
-http://my_domain.net/event?d_rtbd=json&d_cb=myCallback&key=val&d_dpuuid=1234&d_dpid=5678
+https://my_domain.net/event?d_rtbd=json&d_cb=myCallback&key=val&d_dpuuid=1234&d_dpid=5678
 ```
 
 The response returns the Audience Manager ID (e.g., uuid) which is written to a first-party cookie in the page domain. 

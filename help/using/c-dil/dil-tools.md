@@ -53,46 +53,10 @@ And returns:
 
 |  Search Type  | Description  | Code Sample  |
 |---|---|---|
-|  **Default Search** | Returns keyword search terms used by the [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google], and [!DNL Yahoo] search engines.  | 
-
-```
-var results = DIL.tools.getSearchReferrer();
-```
-
-|
-|  **Pass in a Custom URL** | Returns the search referrer based on a custom URL.  | 
-
-```
-var results = 
-DIL.tools.getSearchReferrer("http://www.ehow.com/ 
-search.aspx?q=adobe+rules");
-```
-
-|
-|  **Match URL Hostname with a Custom Regex** | Pass in a custom regex to match the host name of the referring URL.  | 
-
-```
-var results = 
-DIL.tools.getSearchReferrer("http://www.ehow.com/ 
-search.aspx?q=adobe+rules",{ 
-   hostPattern:/ehow\./, 
-   queryParam:"p" 
-});
-```
-
-|
-|  **Match Search Patterns with a Custom Regex** | Pass in a custom regex to perform a custom search.  | 
-
-```
-var results = 
-DIL.tools.getSearchReferrer("http://www.ehow.com/ 
-search.aspx?q=adobe+rules,{ 
-   hostPattern:/ehow\./, 
-   search_pattern:/[&\?]p=([^&]+/ 
-});
-```
-
-|
+|  **Default Search** | Returns keyword search terms used by the [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google], and [!DNL Yahoo] search engines.  | `var results = DIL.tools.getSearchReferrer();`|
+|  **Pass in a Custom URL** | Returns the search referrer based on a custom URL. |  `var results = `<br>`DIL.tools.getSearchReferrer("https://www.ehow.com/ `<br>`search.aspx?q=adobe+rules");` |
+|  **Match URL Hostname with a Custom Regex** | Pass in a custom regex to match the host name of the referring URL.  | `var results = `<br>`DIL.tools.getSearchReferrer("https://www.ehow.com/ `<br>`search.aspx?q=adobe+rules",{ `<br>`   hostPattern:/ehow\./, `<br>`   queryParam:"p" `<br>`});` |
+|  **Match Search Patterns with a Custom Regex** | Pass in a custom regex to perform a custom search.  | `var results = `<br>`DIL.tools.getSearchReferrer("https://www.ehow.com/ `<br>`search.aspx?q=adobe+rules,{ `<br>`   hostPattern:/ehow\./, `<br>`   search_pattern:/[&\?]p=([^&]+/ `<br>`});` |
 
 ## decomposeURI {#reference_222B85A7E6E34722B67212C7C080FE5F}
 
@@ -119,15 +83,15 @@ And returns:
 **Sample Code** 
 
 ```
-var uriData = DIL.tools.decomposeURI('http://www.adobe.com/?arg1=123&arg2=456#am'); 
+var uriData = DIL.tools.decomposeURI('https://www.adobe.com/?arg1=123&arg2=456#am'); 
   
 { 
   hash : "#am", 
   host : "www.adobe.com", 
   hostname : "www.adobe.com", 
-  href : "http://www.adobe.com/?arg1=123&arg2=456#am", 
+  href : "https://www.adobe.com/?arg1=123&arg2=456#am", 
   pathname : "", 
-  protocol : "http:", 
+  protocol : "https:", 
   search : "?arg1=123&arg2=456", 
   uriParams : { 
     arg1 : "123", 

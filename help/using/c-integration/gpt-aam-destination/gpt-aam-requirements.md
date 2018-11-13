@@ -43,7 +43,7 @@ The amount of data passed in to [!DNL GPT] depends on how many segments a partic
 
 >[!NOTE]
 >
->There are no limits to the number of key-values you can send, but the Google request URL does have limits to the number of characters it can accept. See [Setting targeting and sizes with GPT](http://support.google.com/dfp_premium/bin/answer.py?hl=en&answer=1697712).
+>There are no limits to the number of key-values you can send, but the Google request URL does have limits to the number of characters it can accept. See [Setting targeting and sizes with GPT](https://support.google.com/dfp_premium/bin/answer.py?hl=en&answer=1697712).
 
 ## Server-Side Integration {#section_3E1127403A184C7D84B3FA1A1B917A62}
 
@@ -55,4 +55,4 @@ Talk to your Audience Manager consultant or Customer Care if you want to set up 
 
 >[!MORE_LIKE_THIS]
 >
->* [GPT API Reference Guide](http://support.google.com/dfp_premium/bin/answer.py?hl=en&answer=1650154)
+>* [GPT API Reference Guide](https://support.google.com/dfp_premium/bin/answer.py?hl=en&answer=1650154)

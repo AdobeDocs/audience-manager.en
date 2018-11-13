@@ -56,7 +56,7 @@ All request values are required unless otherwise indicated.
 {
    "sid":87723,
    "traitType":"SEGMENT",
-   "url":"http://adobe.com",
+   "url":"https://adobe.com",
    "startDate":"2012-07-04"
 }
 ```
@@ -80,7 +80,7 @@ All request values are required unless otherwise indicated.
    "startDate":"2012-07-03",
    "endDate":null,
    "priority":null,
-   "url":"http://adobe.com",
+   "url":"https://adobe.com",
    "secureUrl":null,
    "tagCode":null,
    "secureTagCode":null,
@@ -370,13 +370,13 @@ All request values are required unless otherwise indicated.
 {
    "sid": 105123,
    "traitType":"SEGMENT",
-   "url":"http://adobe.com",
+   "url":"https://adobe.com",
    "startDate":"2012-11-20"
 },
 {
    "sid": 121070,
    "traitType":"SEGMENT",
-   "url":"http://my.adobeconnect.com",
+   "url":"https://my.adobeconnect.com",
    "startDate":"2012-11-21"
 }
 ]
@@ -404,7 +404,7 @@ A successful response returns the array of created mappings.
         "startDate": "2012-11-19",
         "endDate": null,
         "priority": null,
-        "url": "http://adobe.com",
+        "url": "https://adobe.com",
         "secureUrl": null,
         "tagCode": null,
         "secureTagCode": null,
@@ -426,7 +426,7 @@ A successful response returns the array of created mappings.
         "startDate": "2012-11-20",
         "endDate": null,
         "priority": null,
-        "url": "http://my.adobeconnect.com",
+        "url": "https://my.adobeconnect.com",
         "secureUrl": null,
         "tagCode": null,
         "secureTagCode": null,
@@ -459,13 +459,13 @@ Create multiple destination mappings in an array. All request values are require
 {
    "sid": 105123,
    "traitType":"SEGMENT",
-   "url":"http://adobe.com",
+   "url":"https://adobe.com",
    "startDate":"2012-11-20"
 },
 {
    "sid": 121070,
    "traitType":"SEGMENT",
-   "url":"http://my.adobeconnect.com",
+   "url":"https://my.adobeconnect.com",
    "startDate":"2012-11-21"
 }
 ]
@@ -493,7 +493,7 @@ Returns an array of created mappings.
         "startDate": "2012-11-19",
         "endDate": null,
         "priority": null,
-        "url": "http://adobe.com",
+        "url": "https://adobe.com",
         "secureUrl": null,
         "tagCode": null,
         "secureTagCode": null,
@@ -515,7 +515,7 @@ Returns an array of created mappings.
         "startDate": "2012-11-20",
         "endDate": null,
         "priority": null,
-        "url": "http://my.adobeconnect.com",
+        "url": "https://my.adobeconnect.com",
         "secureUrl": null,
         "tagCode": null,
         "secureTagCode": null,
@@ -600,7 +600,7 @@ All request values are required unless otherwise indicated.
 {
    "sid": 105123,
    "traitType":"SEGMENT",
-   "url":"http://adobe.com",
+   "url":"https://adobe.com",
    "startDate":"2012-11-20"
 }
 ```
@@ -624,7 +624,7 @@ All request values are required unless otherwise indicated.
     "startDate": "2012-11-19",
     "endDate": null,
     "priority": null,
-    "url": "http://www.adobe.com/send?%ALIAS%",
+    "url": "https://www.adobe.com/send?%ALIAS%",
     "secureUrl": null,
     "tagCode": null,
     "secureTagCode": null,

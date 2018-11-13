@@ -63,7 +63,7 @@ Click **[!UICONTROL Totals & Percentages]** to see what % of your files were pro
 
 ![](assets/totals-percentages.png)
 
-## 14-Day Error Sampling Report {#section_996F57B843054F19A2EA928D7873FD51}
+## Fourteen-Day Error Sampling Report {#section_996F57B843054F19A2EA928D7873FD51}
 
 With error sampling active, the report will show you the top 10 errors for each error type. Click on an error type button at the top of the report to see each set of sampled data.
 
@@ -83,16 +83,10 @@ You can add the e-mail addresses of recipients that you want to be notified of t
 
 A [!UICONTROL Sample Error Report] returns the number records in a data source were processed successfully and how many failed. Follow these steps to generate a [!UICONTROL Sample Error Report].
 
-1. 
-
+1. Go to **[!UICONTROL Analytics > Onboarding Status Report]**. Search for a data source or choose one from the list.
    <!-- 
-
-create-onboarding-status-report.xml
-
- -->
-
-   Go to **[!UICONTROL Analytics > Onboarding Status Report]**. Search for a data source or choose one from the list.
-
+   create-onboarding-status-report.xml
+   -->
 1. Select a date range. Options include:
 
     * A set of fixed report intervals. 

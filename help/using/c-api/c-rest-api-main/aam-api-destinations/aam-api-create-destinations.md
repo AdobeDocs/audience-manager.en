@@ -84,7 +84,7 @@ A successful request returns `201 created` and the destination.
    "domainRestrictions":"all_domains", 
    "tagType":0, 
    "serializationEnabled":false, 
-   "urlFormatString":"http://www.adobe.com/send?%ALIAS%", 
+   "urlFormatString":"https://www.adobe.com/send?%ALIAS%", 
    "secureUrlFormatString":"https://www.adobe.com/send?%ALIAS%", 
    "delimiter":null, 
    "mappings":null 
@@ -120,7 +120,7 @@ Specify the secure URL and delimiter for the key-value pair passed in to the des
    "description":"", 
    "destinationType":"PUSH", 
    "serializationEnabled":true, 
-   "urlFormatString":"http://www.adobe.com/send?data=%ALIAS%", 
+   "urlFormatString":"https://www.adobe.com/send?data=%ALIAS%", 
    "secureUrlFormatString":"https://www.adobe.com/%ALIAS%", 
    "delimiter":"," 
 }
@@ -149,7 +149,7 @@ A successful update returns response code `201 created` and the destination.
    "domainRestrictions":"all_domains", 
    "tagType":0, 
    "serializationEnabled":true, 
-   "urlFormatString":"http://www.adobe.com/send?%ALIAS%", 
+   "urlFormatString":"https://www.adobe.com/send?%ALIAS%", 
    "secureUrlFormatString":"https://www.adobe.com/%ALIAS%", 
    "delimiter":"-", 
    "mappings":null 

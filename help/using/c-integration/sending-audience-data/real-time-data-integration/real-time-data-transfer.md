@@ -41,7 +41,7 @@ During a real-time inbound data ingestion process, a properly formatted URL stri
 
 ```
 
-http://client.demdex.net/event?KEY1=VALA&KEY2=VALB&KEY3=VALC
+https://client.demdex.net/event?KEY1=VALA&KEY2=VALB&KEY3=VALC
 
 ```
 

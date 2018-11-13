@@ -69,7 +69,7 @@ Clients manage traits and segments with visual tools and code editors in the [!D
 An event call sends data from your website to [!DNL Audience Manager]. The call contains signal, trait, and segment data in an HTTP request. The event itself is everything after the `/event` part of a URL string. As shown in the example below, this process requires only a single event call to pass in multiple variables to [!DNL Audience Manager]. 
 
 ```
-http://<domain>/event?product=camera&price>100
+https://<domain>/event?product=camera&price>100
 ```
 
 >[!MORE_LIKE_THIS]
