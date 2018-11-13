@@ -1,10 +1,11 @@
 ---
-product: audience-manager
-audience: admin
-user-guide-title: Audience Manager Admin Guide
+cloud: experience-cloud
+product: adobe
+archtype: end-user
+user-guide: null
 ---
 
-# Audience Manager Admin Guide {#admin-guide}
+# Table of Contents {#table-of-contents}
 
 + [Audience Manager Admin Home](admin-home.md)
 + [Log In to Audience Manager Admin](admin-login.md)
