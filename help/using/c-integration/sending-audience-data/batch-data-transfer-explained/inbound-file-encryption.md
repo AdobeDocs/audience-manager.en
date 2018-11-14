@@ -26,7 +26,7 @@ c_encryption.xml
 
 Follow the steps outlined below to encrypt inbound data files.
 
-1. Download the [Audience Manager public key](../sending-audience-data/batch-data-transfer-explained/assets/adobe_pgp.pub]). 
+1. Download the [Audience Manager public key](../sending-audience-data/batch-data-transfer-explained/assets/adobe_pgp.pub). 
 2. Import the public key to your trusted store.
 
    For example, if you use GPG, the command could be similar to the following:
