@@ -55,7 +55,7 @@ For a list of available macros and definitions, see [Outbound Template Macros](.
    <td colname="col2"> <p>Format: <span class="codeph"> &lt;SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_&lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;.sync </span> </p> <p>Output: </p> <p> 
      <ul id="ul_11B14E740E40474F8302BDB809C428FE"> 
       <li id="li_54A3EAA468B44AC8B2528F855E03D04B">FTP: <span class="codeph"> ftp_215_888_iter_1449756724.sync </span> </li> 
-      <li id="li_93468C56B661463CA7F62B1F5D3A53FF">HTTP: <span class="codeph"> http_215_888_iter_1449756724.sync </span> </li> 
+      <li id="li_93468C56B661463CA7F62B1F5D3A53FF">https: <span class="codeph"> http_215_888_iter_1449756724.sync </span> </li> 
       <li id="li_8A204C7BEDBC41C096FE953B5F827DEC">S3: <span class="codeph"> s3_215_888_iter_1449756724.sync </span> </li> 
      </ul> </p> </td> 
   </tr> 

@@ -22,7 +22,7 @@ Start here for information about making /event calls to the DCS. This section in
 
 A basic URL string that sends data to the [!UICONTROL DCS] uses the syntax shown below.
 
-`http:// *`domain alias`*.demdex.net/event? *`key1`*= *`val1`*,& *`key2`*= *`val2`*&d_dst=1&d_rtbd=json&d_cb= *`callback`*`
+`https:// *`domain alias`*.demdex.net/event? *`key1`*= *`val1`*,& *`key2`*= *`val2`*&d_dst=1&d_rtbd=json&d_cb= *`callback`*`
 
 >[!NOTE]
 >
@@ -84,7 +84,7 @@ The following table defines the basic components of a simple [!UICONTROL DCS] ca
 
 This example shows the fictional company Acme, Inc. sending data to the [!UICONTROL DCS] via an HTTP call. Note that this call includes the optional parameters `d_dst=1`, `d_rtbd=json`, and ` d_cb= *`callback`*`. These indicate that Acme wants to receive a `JSON` response from the [!UICONTROL DCS] with a call back function. Remember, this is just an example. Do not cut and paste this code.
 
-`http://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_rtbd=json&d_cb=acme_callback`
+`https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_rtbd=json&d_cb=acme_callback`
 
 ## Next Steps {#section_36E9E3B86F4C42CDAED4B9B69E317F82}
 

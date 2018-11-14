@@ -83,11 +83,11 @@ For more information on setting up formats and using macros, see [File Format Ma
 
     * **Domain**
 
-        * Do enter prefix information for HTTP entries. If you're given an account [!DNL https://superduper.com], enter [!DNL https://superduper.com] in this field.
+        * Do enter prefix information for HTTP entries. If you're given an account [!DNL `https://superduper.com`], enter [!DNL `https://superduper.com`] in this field.
 
     * **URL Prefix**
 
-        * When adding a URL prefix, leave the preceding slash off. An address of [!DNL https://hello.com/r/x/y/z] should have [!DNL https://hello.com] entered in the [!UICONTROL Domain] field and [!DNL r/x/y/z] entered here in the [!UICONTROL URL Prefix] field. 
+        * When adding a URL prefix, leave the preceding slash off. An address of [!DNL `https://hello.com/r/x/y/z`] should have [!DNL `https://hello.com`] entered in the [!UICONTROL Domain] field and [!DNL r/x/y/z] entered here in the [!UICONTROL URL Prefix] field. 
         
         * If a URL Prefix is not needed, leave this value blank.
 

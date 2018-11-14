@@ -124,7 +124,7 @@ Remember, in order to use this information for audience creation and segmentatio
 The signals described in the table are captured in [!DNL Audience Manager] like a real-time HTTP call. The example call below contains information on a conversion event from DCM. Calls do not necessarily have to include *all* the signals in the example call.
 
 ```
-http://sample.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_event=conv&d_conversion=24122&d_conversionType=2&d_bu=3983524&d_campaign=7321391&d_adsrc=11111&d_creative=123456
+https://sample.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_event=conv&d_conversion=24122&d_conversionType=2&d_bu=3983524&d_campaign=7321391&d_adsrc=11111&d_creative=123456
 ```
 
 >[!NOTE] {importance="high"}

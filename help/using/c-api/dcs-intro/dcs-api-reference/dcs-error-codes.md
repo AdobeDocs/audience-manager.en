@@ -110,7 +110,7 @@ In the tables below, *italics* represents a variable placeholder.
   </tr> 
   <tr> 
    <td colname="col1"> <p>173 </p> </td> 
-   <td colname="col2"> <p>Encountered trust relationship via <a href="http://www.networkadvertising.org/" format="http" scope="external"> NAI</a> </p> </td> 
+   <td colname="col2"> <p>Encountered trust relationship via <a href="https://www.networkadvertising.org/" format="http" scope="external"> NAI</a> </p> </td> 
    <td colname="col3"> <p>The user has initiated an opt-out process through NAI. </p> </td> 
   </tr> 
   <tr> 
@@ -231,7 +231,7 @@ In the tables below, *italics* represents a variable placeholder.
   <tr> 
    <td colname="col1"> <p>310 </p> </td> 
    <td colname="col2"> <p>Customer id was discarded because it exceeded the limit for a given namespace. Namespace id is <span class="varname"> ID</span>, customer id is <span class="varname"> ID</span>. </p> </td> 
-   <td colname="col3"> <p>This error code is returned if there are more than 3 customer IDs declared for the same namespace (<span class="codeph"> DPID</span>) on a <span class="wintitle"> DCS</span> call. </p> <p><span class="codeph"> http://partner.demdex.net/event?d_rtbd=json&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one </span> </p> <p>In this sample <span class="wintitle"> DCS</span> request, there are 4 ids declared for the same namespace (with the integration code one). One of the IDs is discarded and error 310 is returned. </p> </td> 
+   <td colname="col3"> <p>This error code is returned if there are more than 3 customer IDs declared for the same namespace (<span class="codeph"> DPID</span>) on a <span class="wintitle"> DCS</span> call. </p> <p><span class="codeph"> https://partner.demdex.net/event?d_rtbd=json&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one </span> </p> <p>In this sample <span class="wintitle"> DCS</span> request, there are 4 ids declared for the same namespace (with the integration code one). One of the IDs is discarded and error 310 is returned. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>311 </p> </td> 

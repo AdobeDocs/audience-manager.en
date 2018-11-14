@@ -38,4 +38,4 @@ The [!UICONTROL REST API]s let you work programmatically with most [!DNL Audienc
 
 **How do I obtain a [!UICONTROL REST API] client ID and secret?**
 
-Contact your Partner Solutions representative to obtain [!UICONTROL API] access credentials. Our APIs use [OAuth 2.0](http://oauth.net/2/) standards for token authentication, authorization, and renewal. See [OAuth Authentication](../c-api/c-rest-api-main/aam-api-getting-started.md#concept_426EEF5C102049B08C8ECF90FCB41796) for more information. 
+Contact your Partner Solutions representative to obtain [!UICONTROL API] access credentials. Our APIs use [OAuth 2.0](https://oauth.net/2/) standards for token authentication, authorization, and renewal. See [OAuth Authentication](../c-api/c-rest-api-main/aam-api-getting-started.md#concept_426EEF5C102049B08C8ECF90FCB41796) for more information. 

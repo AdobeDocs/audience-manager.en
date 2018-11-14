@@ -515,7 +515,7 @@ state = {
           THROTTLE_START: 3000, 
           throttleTimerSet: false, 
           id: ''destination_publishing_iframe_' + partner + '_' + containerNSID, 
-          url: (constants.isHTTPS ? 'https://' : 'http://fast.') + partner + '.demdex.net/dest3.html?d_nsid=' 
+          url: (constants.isHTTPS ? 'https://' : 'https://fast.') + partner + '.demdex.net/dest3.html?d_nsid=' 
           + containerNSID + '#' + encodeURIComponent(document.location.href), 
                iframe: null, 
                iframeHasLoaded: false, 
@@ -627,7 +627,7 @@ dilInstance.api.idSync({
 `dilInstance.api.aamIdSync(initConfig)` 
 
 ```js
-// Fires 'http:/https:' + '//dpm.demdex.net/ibs:dpid=<dpid>&dpuuid=<dpuuid>' 
+// Fires 'https:/https:' + '//dpm.demdex.net/ibs:dpid=<dpid>&dpuuid=<dpuuid>' 
 dilInstance.api.aamIdSync({ 
  dpid: '23', // must be a string 
  dpuuid: '98765', // must be a string 

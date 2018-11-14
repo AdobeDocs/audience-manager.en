@@ -75,7 +75,7 @@ And returns:
     <codeblock>
       var&nbsp;results&nbsp;= 
      
-DIL.tools.getSearchReferrer("http://www.ehow.com/ 
+DIL.tools.getSearchReferrer("https://www.ehow.com/ 
      
 search.aspx?q=adobe+rules"); 
     </codeblock> </td> 
@@ -87,7 +87,7 @@ search.aspx?q=adobe+rules");
     <codeblock>
       var&nbsp;results&nbsp;= 
      
-DIL.tools.getSearchReferrer("http://www.ehow.com/ 
+DIL.tools.getSearchReferrer("https://www.ehow.com/ 
      
 search.aspx?q=adobe+rules",{ 
      
@@ -105,7 +105,7 @@ search.aspx?q=adobe+rules",{
     <codeblock>
       var&nbsp;results&nbsp;= 
      
-DIL.tools.getSearchReferrer("http://www.ehow.com/ 
+DIL.tools.getSearchReferrer("https://www.ehow.com/ 
      
 search.aspx?q=adobe+rules,{ 
      
@@ -144,15 +144,15 @@ And returns:
 **Sample Code** 
 
 ```
-var uriData = DIL.tools.decomposeURI('http://www.adobe.com/?arg1=123&arg2=456#am'); 
+var uriData = DIL.tools.decomposeURI('https://www.adobe.com/?arg1=123&arg2=456#am'); 
   
 { 
   hash : "#am", 
   host : "www.adobe.com", 
   hostname : "www.adobe.com", 
-  href : "http://www.adobe.com/?arg1=123&arg2=456#am", 
+  href : "https://www.adobe.com/?arg1=123&arg2=456#am", 
   pathname : "", 
-  protocol : "http:", 
+  protocol : "https:", 
   search : "?arg1=123&arg2=456", 
   uriParams : { 
     arg1 : "123", 

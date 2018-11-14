@@ -202,7 +202,7 @@ The Audience Manager REST API supports authorization code and implicit authentic
 
 >[!MORE_LIKE_THIS]
 >
->* [OAuth 2.0](http://oauth.net/2/)
+>* [OAuth 2.0](https://oauth.net/2/)
 >* [OAuth 2 Simplified](https://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified#browser-based-apps)
 
 ## Make Authenticated API Requests {#concept_1A4B53C4554C4B0396499997EECCBDB9}

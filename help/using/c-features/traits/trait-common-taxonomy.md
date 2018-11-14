@@ -31,7 +31,7 @@ Enabling our customers to build custom segments and data models is core to the [
 
 **The Taxonomy Uses Industry Standard Classification Categories**
 
-The common taxonomy is based on the classifications created by the Interactive Advertising Bureau (IAB). Refer to the IAB's [website](http://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines) for more information about quality assurance guidelines for networks and exchanges.
+The common taxonomy is based on the classifications created by the Interactive Advertising Bureau (IAB). Refer to the IAB's [website](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines) for more information about quality assurance guidelines for networks and exchanges.
 
 **Taxonomic Organization**
 

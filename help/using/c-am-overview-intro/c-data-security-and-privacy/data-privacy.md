@@ -23,7 +23,7 @@ Contents:
 
 ## Data Privacy {#section_3C0E97906232432296F2B2200B0BFA4F}
 
-See the [Adobe Privacy Center](http://www.adobe.com/privacy/opt-out.html).
+See the [Adobe Privacy Center](https://www.adobe.com/privacy/opt-out.html).
 
 ## Consumer Privacy Protection {#section_8269FC81B9514F62925BA63DFB9BCC1D}
 
@@ -54,7 +54,7 @@ The opt-out documentation has been extended and moved to a separate part of our 
   <tbody> 
    <tr> 
     <td colname="col1"> <p>Adobe Experience Cloud </p> </td> 
-    <td colname="col2"> <p>The <a href="http://www.adobe.com/privacy/opt-out.html#customeruse" format="http" scope="external"> Your Privacy Choices page</a> provides 1-click features that let you control and opt-out of data collection by the Adobe Experience Cloud advertising solutions (including Audience Manager). Specifically, see the <a href="http://www.adobe.com/privacy/opt-out.html#customeruse" format="http" scope="external"> business customer section</a> of the Privacy Choices page. </p> </td> 
+    <td colname="col2"> <p>The <a href="https://www.adobe.com/privacy/opt-out.html#customeruse" format="http" scope="external"> Your Privacy Choices page</a> provides 1-click features that let you control and opt-out of data collection by the Adobe Experience Cloud advertising solutions (including Audience Manager). Specifically, see the <a href="https://www.adobe.com/privacy/opt-out.html#customeruse" format="http" scope="external"> business customer section</a> of the Privacy Choices page. </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p>Browsers that do not support third-party cookies </p> </td> 

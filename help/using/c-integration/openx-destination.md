@@ -119,7 +119,7 @@ To set up OpenX
 * 
 
   ```
-  <a href= "http://client.adserver.net/?" + get_aamCookie('test_cookie') + 
+  <a href= "https://client.adserver.net/?" + get_aamCookie('test_cookie') + 
    "&etc&xid=" + get_aamCookie('aam_uuid')
   ```
 
@@ -128,6 +128,6 @@ Remember to include `xid=` . It holds the actual unique user ID (UUID) passed in
 The fully formed ad call could look similar to this: 
 
 ```
-http://client.adserver.net/?c.key1=val1&c.key2=val2&etc& xid =3286487458745343
+https://client.adserver.net/?c.key1=val1&c.key2=val2&etc& xid =3286487458745343
 ```
 

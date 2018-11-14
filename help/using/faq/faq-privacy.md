@@ -31,7 +31,7 @@ Contents:
 
 >[!TIP]
 >
->Visit the [Adobe Privacy Center](http://www.adobe.com/privacy.html) for more information.
+>Visit the [Adobe Privacy Center](https://www.adobe.com/privacy.html) for more information.
 
 **How does Audience Manager use cookies and what cookies does it set?**
 
