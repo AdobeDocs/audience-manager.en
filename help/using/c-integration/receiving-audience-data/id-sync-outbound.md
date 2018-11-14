@@ -29,7 +29,7 @@ ID synchronization is the first step in the outbound, asynchronous data transfer
 In an ID exchange, a properly formatted URL string should look like this: 
 
 ```
-http://dpm.demdex.net/ibs:dpid=<VENDOR_ID>&dpuuid=<VENDOR_UUID>&redir=<REDIRECT_URL>
+https://dpm.demdex.net/ibs:dpid=<VENDOR_ID>&dpuuid=<VENDOR_UUID>&redir=<REDIRECT_URL>
 ```
 
 **URL Parameters**

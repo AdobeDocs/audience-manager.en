@@ -33,11 +33,11 @@ The global opt-out represents an opt-out across all Adobe Experience Cloud solut
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Adobe Experience Cloud </p> </td> 
-   <td colname="col2"> <p>The <a href="http://www.adobe.com/privacy/opt-out.html#customeruse" format="http" scope="external"> Your Privacy Choices page </a> provides 1-click features that let your end users control and opt-out of data collection by the Adobe Experience Cloud advertising solutions (including Audience Manager). Specifically, see the <a href="http://www.adobe.com/privacy/opt-out.html#customeruse" format="http" scope="external"> business customer section </a> of the Privacy Choices page. </p> </td> 
+   <td colname="col2"> <p>The <a href="https://www.adobe.com/privacy/opt-out.html#customeruse" format="http" scope="external"> Your Privacy Choices page </a> provides 1-click features that let your end users control and opt-out of data collection by the Adobe Experience Cloud advertising solutions (including Audience Manager). Specifically, see the <a href="https://www.adobe.com/privacy/opt-out.html#customeruse" format="http" scope="external"> business customer section </a> of the Privacy Choices page. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Direct API calls to Audience Manager </p> </td> 
-   <td colname="col2"> <p>You can opt-out from data collection by all Audience Manager brands by making a call to the DCS API below and include the <a href="../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8" format="dita" scope="local"> Audience Manager User ID </a>: </p> <p> <span class="codeph"> curl -i "http://www.demdex.net/demoptout.jpg" --cookie "demdex=12345678901234567890123456789012345678;dextp=12;DST=12" </span> </p> <p>As a result, we will set demdex=NOTARGET and dextp=NOTARGET cookies for the submitted Audience Manager User ID. </p> </td> 
+   <td colname="col2"> <p>You can opt-out from data collection by all Audience Manager brands by making a call to the DCS API below and include the <a href="../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8" format="dita" scope="local"> Audience Manager User ID </a>: </p> <p> <span class="codeph"> curl -i "https://www.demdex.net/demoptout.jpg" --cookie "demdex=12345678901234567890123456789012345678;dextp=12;DST=12" </span> </p> <p>As a result, we will set demdex=NOTARGET and dextp=NOTARGET cookies for the submitted Audience Manager User ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mobile devices </p> </td> 
@@ -52,8 +52,8 @@ The global opt-out represents an opt-out across all Adobe Experience Cloud solut
 
 Your end users can also opt out of global data collection by visiting the websites of our industry standards partners.
 
-* [The Digital Advertising Alliance (DAA)](http://optout.aboutads.info/?c=2#!/); 
-* [Network Advertising Initiative (NAI)](http://optout.networkadvertising.org/?c=1#!/).
+* [The Digital Advertising Alliance (DAA)](https://optout.aboutads.info/?c=2#!/); 
+* [Network Advertising Initiative (NAI)](https://optout.networkadvertising.org/?c=1#!/).
 
 Following the opt-out requests described above:
 
@@ -111,15 +111,15 @@ For a description and syntax, see [URL Variables and Syntax for Declared IDs](..
  <tbody> 
   <tr> 
    <td colname="col1"> <p>A data provider ID and user ID. </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> http:// <span class="varname"> domain name </span>/demoptout.jpg?d_cid=123%01987... </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> https:// <span class="varname"> domain name </span>/demoptout.jpg?d_cid=123%01987... </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>An integration code and user ID. </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> http:// <span class="varname"> domain name </span>/demoptout?d_cid_ic=456%01321... </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> https:// <span class="varname"> domain name </span>/demoptout?d_cid_ic=456%01321... </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Multiple <span class="codeph"> d_cid </span> and <span class="codeph"> d_cid_ic </span> key-value pairs. </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> http:// <span class="varname"> domain name </span>/demoptout?d_cid=123%01987&amp;d_cid_ic=456%01321... </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> https:// <span class="varname"> domain name </span>/demoptout?d_cid=123%01987&amp;d_cid_ic=456%01321... </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>

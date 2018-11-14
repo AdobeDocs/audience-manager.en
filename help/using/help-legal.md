@@ -87,7 +87,7 @@ Please have the following information ready before contacting us.
 
 ## In Case of an Outage {#section_2CB3BC53E4C641F38D50949E2E7A2886}
 
-If you suspect there is an outage, first check the [Experience Cloud System Status page](http://status.adobe.com) ( [!DNL http://status.adobe.com]) This has a record of all outages, incidents and maintenance for Experience Cloud Solutions, including Audience Manager, and includes latest updates from our Tech Ops team. If you still require assistance, please ensure you know the following in addition to the information listed above when you contact Customer Care:
+If you suspect there is an outage, first check the [Experience Cloud System Status page](https://status.adobe.com) ( [!DNL https://status.adobe.com]) This has a record of all outages, incidents and maintenance for Experience Cloud Solutions, including Audience Manager, and includes latest updates from our Tech Ops team. If you still require assistance, please ensure you know the following in addition to the information listed above when you contact Customer Care:
 
 * Time outage started 
 * Explanation of what is occurring 
@@ -108,10 +108,10 @@ c_contact_and_legal.xml
 
 The Adobe Experience Cloud Customer Care team is here to assist you and provides a number of mechanisms by which they can be engaged:
 
-* [Check the Experience Cloud help pages for advice, tips, and FAQs](http://helpx.adobe.com/marketing-cloud.html) 
+* [Check the Experience Cloud help pages for advice, tips, and FAQs](https://helpx.adobe.com/marketing-cloud.html) 
 * [Ask us a quick question on Twitter @AdobeMktgCare](https://twitter.com/AdobeMktgCare) 
-* [Contact the Customer Care team directly](http://helpx.adobe.com/marketing-cloud/contact-support.html) 
-* [Check availability and status of Experience Cloud Solutions](http://status.adobe.com/)
+* [Contact the Customer Care team directly](https://helpx.adobe.com/marketing-cloud/contact-support.html) 
+* [Check availability and status of Experience Cloud Solutions](https://status.adobe.com/)
 
 ## Service, Capability & Billing {#section_FA4F5274FDFE4DF7BB079E575877DFC2}
 
@@ -121,8 +121,8 @@ Dependent on your solution configuration, some options described in this documen
 
 Published by Adobe Systems Incorporated.
 
-[Terms of Use](http://www.adobe.com/go/marketingcloud_terms_of_use) | [Privacy Center](http://www.adobe.com/privacy.html)
+[Terms of Use](https://www.adobe.com/go/marketingcloud_terms_of_use) | [Privacy Center](https://www.adobe.com/privacy.html)
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 
-All third-party trademarks are the property of their respective owners. Updated Information/Additional Third Party Code Information available at [http://www.adobe.com/go/thirdparty](http://www.adobe.com/products/eula/third_party/). 
+All third-party trademarks are the property of their respective owners. Updated Information/Additional Third Party Code Information available at [https://www.adobe.com/go/thirdparty](https://www.adobe.com/products/eula/third_party/). 

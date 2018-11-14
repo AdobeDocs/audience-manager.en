@@ -119,7 +119,7 @@ To set up OAS
 * 
 
   ```js
-  <a href= "http://client.adserver.net/?" + get_aamCookie('test_cookie') +
+  <a href= "https://client.adserver.net/?" + get_aamCookie('test_cookie') +
    "&etc&u=" + get_aamCookie('aam_uuid')
   ```
 
