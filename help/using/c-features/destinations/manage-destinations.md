@@ -386,7 +386,8 @@ To add or edit segment mappings for an s2s destination:
 
 1. Click **[!UICONTROL Save]** and then click **[!UICONTROL Done]**.
 
-   Step Result 
+Step Result 
+
 ## Add Data Export Labels to a Destination {#task_A4BA30472E6F4687AC3F1B33F51909D9}
 
 [!DNL Data Export Labels] work with the [!DNL Export Controls] you set on a data source. [!DNL Data Export Labels] prevent you from adding restricted traits to a segment and from sending segment data to a destination. You can set multiple export labels to a new or existing cookie or URL destination.
