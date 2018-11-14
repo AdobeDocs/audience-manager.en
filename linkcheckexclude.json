@@ -1,0 +1,13 @@
+{
+    "ignorePatterns": [
+        {
+            "pattern": "^.*corp.adobe.com"
+        },
+        {
+            "pattern": "^.*digitalu.adobe.com"
+        },
+        {
+            "pattern": "^.*apache.org"
+        }
+    ]
+}
