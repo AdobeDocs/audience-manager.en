@@ -63,7 +63,7 @@ Click **[!UICONTROL Totals & Percentages]** to see what % of your files were pro
 
 ![](assets/totals-percentages.png)
 
-## 14-Day Error Sampling Report {#section_996F57B843054F19A2EA928D7873FD51}
+## Error Sampling Report for 14 Days {#section_996F57B843054F19A2EA928D7873FD51}
 
 With error sampling active, the report will show you the top 10 errors for each error type. Click on an error type button at the top of the report to see each set of sampled data.
 
