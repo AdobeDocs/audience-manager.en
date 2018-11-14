@@ -42,7 +42,7 @@ Destinations accept key-value data in *`standard`* or *`serialized`* format. Sta
 |  **Standard** | `x=1&x=2`  | `x=1&x=2&y=3&y=4`  |
 |  **Serialized** | `x=1;2`  | `x=1;2&y=3;4`  |
 
-****
+
 
 ## Keys, Delimiters, and Separators {#section_BF135864D25C43DCB19B871A4CD6B202}
 
