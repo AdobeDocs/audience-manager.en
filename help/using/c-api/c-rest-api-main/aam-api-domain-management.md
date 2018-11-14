@@ -36,7 +36,7 @@ r_post_new_partner_site.xml
 
 **Request**
 
-`POST `https://api.demdex.com/v1/partner-sites/``
+`POST` `https://api.demdex.com/v1/partner-sites/`
 
 **Sample Request** 
 
@@ -68,7 +68,7 @@ r_delete_partner_site.xml
 
 **Request**
 
-`DELETE `https://api.demdex.com/v1/partner-sites/` *`<site-Id>`*` 
+`DELETE``https://api.demdex.com/v1/partner-sites/<site-Id>` 
 **Sample Response** A successful response returns `204 no content`. Returns `404 not found` if the partner site cannot be found. 
 
 ## Return Properties for a Domain {#reference_6B9BD9A4B15040429F3F9AE0BC6787FE}
@@ -83,7 +83,7 @@ r_get_partner_site.xml
 
 **Request**
 
-`GET `https://api.demdex.com/v1/partner-sites/` *`<siteId>`*`
+`GET` `https://api.demdex.com/v1/partner-sites/<siteId>`
 
 **Sample Response**
 
@@ -109,7 +109,7 @@ r_get_partner_sites.xml
 
 **Request**
 
-`GET `https://api.demdex.com/v1/partner-sites/``
+`GET` `https://api.demdex.com/v1/partner-sites/`
 
 **Optional Query Parameters**
 

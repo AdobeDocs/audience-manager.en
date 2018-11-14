@@ -24,9 +24,9 @@ Audience Manager uses the following components to process data:
 
 ## Hadoop {#section_9C142B1598FD442DB8A6AC22B71B8794}
 
-In [!DNL Audience Manager], [Hadoop](https://hadoop.apache.org/) is the master database that contains everything [!DNL Audience Manager] knows about a user. For example, when the [Profile Cache Servers](../../reference/system-components/components-data-collection.md#concept_66CFFEBF5E8B41ED94082D562A93506E) create log files that contain data about your users, it sends that data to Hadoop for storage. Other important Hadoop elements include:
+In [!DNL Audience Manager], Hadoop is the master database that contains everything [!DNL Audience Manager] knows about a user. For example, when the [Profile Cache Servers](../../reference/system-components/components-data-collection.md#concept_66CFFEBF5E8B41ED94082D562A93506E) create log files that contain data about your users, it sends that data to Hadoop for storage. Other important Hadoop elements include:
 
-* **Hive:** A data warehouse for Hadoop. [Hive](https://hive.apache.org/) manages ad hoc queries to the data stored in Hadoop. 
+* **Hive:** A data warehouse for Hadoop. Hive manages ad hoc queries to the data stored in Hadoop. 
 
 * **HBase:** A very large Hadoop database. It processes and manages inbound and outbound data, trait rules, algorithmic modeling information, and performs many other functions related to storing and moving data to different systems.
 
@@ -49,7 +49,7 @@ This is by no means a comprehensive list, but some common dashboard reports that
 
 ## SOLR {#section_ED495D6C57D2498DAB1F3C99F9EACD39}
 
-[SOLR](https://lucene.apache.org/solr/) is an open-source database and server system from Apache. It provides robust and fast search capabilities over our large data sets. As an [!DNL Audience Manager] customer, you can see SOLR in action when you build segments. It provides data to the [!UICONTROL Estimated Historic Segment Size] report. SOLR is ideal for this role because of its speed. For example, SOLR is able to update the historic size data as you build rules and add new traits to a segment.
+SOLR is an open-source database and server system from Apache. It provides robust and fast search capabilities over our large data sets. As an [!DNL Audience Manager] customer, you can see SOLR in action when you build segments. It provides data to the [!UICONTROL Estimated Historic Segment Size] report. SOLR is ideal for this role because of its speed. For example, SOLR is able to update the historic size data as you build rules and add new traits to a segment.
 
 <a id="fig_6DC8C91B108649E4A2A200F1EADF6134"></a>
 

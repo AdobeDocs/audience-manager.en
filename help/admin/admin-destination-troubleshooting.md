@@ -44,7 +44,7 @@ For more information on setting up formats and using macros, see [File Format Ma
 
     * **Domain**
 
-        * Do not enter any prefixes for hostnames. If you're given an account [!DNL ftp://hello.com], simply enter [!DNL hello.com] in this field.
+        * Do not enter any prefixes for hostnames. If you're given an account [!DNL `ftp://hello.com`], simply enter [!DNL `hello.com`] in this field.
 
     * **Port/Type Combination**
 
