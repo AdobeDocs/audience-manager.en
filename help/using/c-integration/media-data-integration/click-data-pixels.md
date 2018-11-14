@@ -25,7 +25,7 @@ In addition, the call can contain key-value pairs that can be used for trait qua
 
 **Request Sample**
 
-` `http://client.demdex.net/event?d_event=click&d_creative=123&d_rd=http%3A%2F%2Fadobe.com%2Fcallback%3Fcreative%3D%25d_creative%25``
+`http://client.demdex.net/event?d_event=click&d_creative=123&d_rd=http%3A%2F%2Fadobe.com%2Fcallback%3Fcreative%3D%25d_creative%25`
 
 **Response**
 
@@ -33,7 +33,7 @@ The response redirects the browser to the URL specified in the `d_rd` parameter.
 
 Based on the above example, the browser is redirected to the following URL:
 
-[!DNL http://adobe.com/callback?creative=123]
+[!DNL `http://adobe.com/callback?creative=123`]
 
 **Supported Macros**
 
@@ -145,7 +145,7 @@ d_adgroup%25%26d_placement%3D%25placement%25%26src%3D%25d_src%25
 
 Based on the above example, the browser is redirected to the following URL:
 
-[!DNL http://adobe.com/callback?creative=1235&campaign=4709&adgroup=3408&placement=1001] 
+[!DNL `http://adobe.com/callback?creative=1235&campaign=4709&adgroup=3408&placement=1001`] 
 
 >[!MORE_LIKE_THIS]
 >
