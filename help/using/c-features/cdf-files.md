@@ -373,7 +373,7 @@ The following tables list and define the elements in a CDF `.info` file.
 
 ## Customer Data Feed File Name Times and File Content Times are Different {#concept_C907608AC1ED44BA8EF870F45E5A9CB9}
 
-Your [!UICONTROL Customer Data Feed](CDF) file contains timestamps in the file name and file contents. These timestamps record different event processes for the same CDF file. It is not uncommon to see different timestamps in the name and contents of the same file. Understanding each timestamp can help you avoid common mistakes when working with this data or trying to sort it by time.
+Your [!UICONTROL Customer Data Feed] (CDF) file contains timestamps in the file name and file contents. These timestamps record different event processes for the same CDF file. It is not uncommon to see different timestamps in the name and contents of the same file. Understanding each timestamp can help you avoid common mistakes when working with this data or trying to sort it by time.
 
 ## Locating CDF File Timestamps {#section_215B6A745B85476BA5DB2CDD8CD5C170}
 
