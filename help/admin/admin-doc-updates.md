@@ -13,7 +13,7 @@ snippet: y
 
 All updates (additions, deletions, and corrections) to the Audience Manager Admin Guide, by date.
 
-For information about feature releases, enhancements, and bug fixes see the [Experience Cloud Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/). See the [previous release notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/c_legacy_releases.html) for older Experience Cloud announcements. For [!DNL Audience Manager documentation changes, see] [Documentation Updates](https://marketing.adobe.com/resources/help/en_US/aam/c_doc_updates.html).
+For information about feature releases, enhancements, and bug fixes see the [Experience Cloud Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/). See the [previous release notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/c_legacy_releases.html) for older Experience Cloud announcements. For [!DNL Audience Manager documentation changes, see] [Documentation Updates](https://marketing.adobe.com/resources/help/en_US/aam/docs-2018.html).
 
 ## AAM 2018 Documentation Updates {#section_5A4414B4B2F84F32BD8AE49C6E8B7096}
 

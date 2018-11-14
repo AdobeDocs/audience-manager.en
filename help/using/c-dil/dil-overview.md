@@ -25,7 +25,7 @@ An overview of DIL and how it works.
 
 [!UICONTROL DIL] code isn't available for download. Contact your consultant to get the latest version. And, please note that starting with version 8.0 (released August 2018), [!UICONTROL DIL] has a hard dependency on the [ [!DNL Experience Cloud ID Service]](https://marketing.adobe.com/resources/help/en_US/mcvid/), version 3.3 or higher. It relies on the ID Service to fire ID syncs and URL destinations. An error occurs if the ID Service is missing, old, or not configured.
 
-Rather than work with [!UICONTROL DIL] and set up [!DNL Audience Manager] manually, we recommend that you use [ [!DNL Adobe Launch]](https://docs.adobelaunch.com/) instead. [!DNL Adobe Launch] is the recommended implementation tool because it simplifies code deployment, placement, and version management. Read more about the [ [!DNL Audience Manager] extension](https://docs.adobelaunch.com/extension-reference/adobe-extensions/adobe-audience-manager-extension) in Adobe Launch.
+Rather than work with [!UICONTROL DIL] and set up [!DNL Audience Manager] manually, we recommend that you use [ [!DNL Adobe Launch]](https://docs.adobelaunch.com/) instead. [!DNL Adobe Launch] is the recommended implementation tool because it simplifies code deployment, placement, and version management. Read more about the [ [!DNL Audience Manager] extension](https://docs.adobelaunch.com/extension-reference/web/adobe-audience-manager-extension) in Adobe Launch.
 
 Adobe Launch is the successor to [ [!DNL Adobe Dynamic Tag Manager]](https://marketing.adobe.com/resources/help/en_US/dtm/c_overview.html) ( [!DNL DTM]).
 
