@@ -31,7 +31,7 @@ Follow the steps outlined below to encrypt inbound data files.
 
    For example, if you use GPG, the command could be similar to the following:
 
-[!DNL gpg --import adobe_pgp.pub] 
+   [!DNL gpg --import adobe_pgp.pub] 
 
 1. Validate that the key has been imported correctly by running the following command:
 
