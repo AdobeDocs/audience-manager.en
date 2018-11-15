@@ -120,7 +120,7 @@ For a list of available macros and definitions, see [Outbound Template Macros](.
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> if(SEGMENT_LIST &amp;&amp; REMOVED_SEGMENT_LIST)endif </span> </p> </td> 
    <td colname="col2"> <p><b>Format:</b> </p> <p> 
-     <codeblock conaction="mark" spectitle="Format:">
+     <codeblock spectitle="Format:">
        {"AdvertiserId":"&lt;PIDALIAS&gt;",&nbsp;"DataCenterId":&nbsp;2,"TDID":"&lt;DP_UUID&gt;", 
       
 "Data":[&lt;SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;"&lt;CLOSE_CURLY_BRACKET&gt;}; 
