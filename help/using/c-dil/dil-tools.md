@@ -104,8 +104,8 @@ search.aspx?q=adobe+rules",{
      
 }); 
 ```
-     </td> 
-  </tr> 
+
+  </td></tr> 
   <tr valign="top"> 
    <td colname="col1"> <b>Match Search Patterns with a Custom Regex</b> </td> 
    <td colname="col02"> Pass in a custom regex to perform a custom search. </td> 
