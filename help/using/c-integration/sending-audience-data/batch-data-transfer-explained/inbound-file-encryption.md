@@ -35,7 +35,7 @@ Follow the steps outlined below to encrypt inbound data files.
 
 1. Validate that the key has been imported correctly by running the following command:
 
-[!DNL gpg --list-keys]
+   [!DNL gpg --list-keys]
 
    You should see a message similar to the following:
 
@@ -48,7 +48,7 @@ Follow the steps outlined below to encrypt inbound data files.
 
 1. Encrypt the inbound data using the following command:
 
-[!DNL gpg --recipient "Adobe AudienceManager" --cipher-algo AES --output $output.gpg --encrypt $inbound]
+   [!DNL gpg --recipient "Adobe AudienceManager" --cipher-algo AES --output $output.gpg --encrypt $inbound]
 
    All encrypted data must use [!DNL .pgp] or [!DNL .gpg] as the file extension (e.g. [!DNL ftp_dpm_100_123456789.sync.pgp] or [!DNL ftp_dpm_100_123456789.overwrite.gpg]).
 
