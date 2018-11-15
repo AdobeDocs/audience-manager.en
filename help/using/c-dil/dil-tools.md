@@ -75,7 +75,7 @@ And returns:
     <codeblock>
       var&nbsp;results&nbsp;= 
      
-DIL.tools.getSearchReferrer("https://www.ehow.com/ 
+DIL.tools.getSearchReferrer("`https://www.ehow.com/` 
      
 search.aspx?q=adobe+rules"); 
     </codeblock> </td> 
@@ -87,7 +87,7 @@ search.aspx?q=adobe+rules");
     <codeblock>
       var&nbsp;results&nbsp;= 
      
-DIL.tools.getSearchReferrer("https://www.ehow.com/ 
+DIL.tools.getSearchReferrer("`https://www.ehow.com/` 
      
 search.aspx?q=adobe+rules",{ 
      
@@ -105,7 +105,7 @@ search.aspx?q=adobe+rules",{
     <codeblock>
       var&nbsp;results&nbsp;= 
      
-DIL.tools.getSearchReferrer("https://www.ehow.com/ 
+DIL.tools.getSearchReferrer("`https://www.ehow.com/`
      
 search.aspx?q=adobe+rules,{ 
      

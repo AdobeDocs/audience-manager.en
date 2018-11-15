@@ -40,7 +40,7 @@ There is no self-service process to start CDF file delivery. Contact your [!DNL 
 * Set up your Amazon S3 storage bucket. 
 * Provide read-only S3 authentication credentials to your file storage bucket. You will not be able to see or access directories and files that belong to other customers.
 
-File notifications and CDF files will appear in your S3 bucket when they're ready for download. You're responsible for monitoring and downloading files from your assigned S3 directory. See [Customer Data Feed File Processing Notifications](../c-features/cdf-files.md#concept_00F913A9946A4A10A0F34269AC84A563) .
+File notifications and CDF files will appear in your S3 bucket when they're ready for download. You're responsible for monitoring and downloading files from your assigned S3 directory. See [Customer Data Feed File Processing Notifications](#concept_00F913A9946A4A10A0F34269AC84A563) .
 
 ## Next Steps {#section_AB55E04E26D9464D8EB911D51B45E4B8}
 
@@ -58,7 +58,7 @@ cdf-contents-defined.xml
 
  -->
 
-A CDF file includes some or all of the fields defined below. For information about internal file organization, see [Customer Data Feed File Structure](../c-features/cdf-files.md#concept_4F215D39A64A43CCAE8791FCD3D5232D).
+A CDF file includes some or all of the fields defined below. For information about internal file organization, see [Customer Data Feed File Structure](#concept_4F215D39A64A43CCAE8791FCD3D5232D).
 
 <table id="table_46BC897A30C2469AB5911F5B85A3FAA7"> 
  <thead> 
@@ -75,7 +75,7 @@ A CDF file includes some or all of the fields defined below. For information abo
    <td colname="col3"> <p>The time a CDF file was processed by the <span class="wintitle"> Data Collection Servers</span> (DCS). The timestamp uses the <i>yyyy-mm-dd hh:mm:ss</i> format and is set in the UTC time zone. </p> <p> <p>Note: The Event Time <i>is not</i>: <p> 
        <ul id="ul_41ABC813FAAC4659AC8DA13F4A6DD7EB"> 
         <li id="li_0192D253EA4C49C4BF2E8BA62CEE028E">The time of the page event or the event call itself, although it may be close to those times. </li> 
-        <li id="li_271DF14395BC495FBF17186588A554A8">Related to the DCS hour in the file name. See also, <a href="../c-features/cdf-files.md#concept_C907608AC1ED44BA8EF870F45E5A9CB9" format="dita" scope="local"> Customer Data Feed File Name Times and File Content Times...</a>. </li> 
+        <li id="li_271DF14395BC495FBF17186588A554A8">Related to the DCS hour in the file name. See also, <a href="#concept_C907608AC1ED44BA8EF870F45E5A9CB9" format="dita" scope="local"> Customer Data Feed File Name Times and File Content Times...</a>. </li> 
        </ul> </p> </p> </p> </td> 
   </tr> 
   <tr> 
@@ -177,7 +177,7 @@ CDF files do not contain labeled columns or field headers. Instead, a CDF file d
       <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud Device ID (or MID). See also, <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID Service</a> </li> 
       <li id="li_7A05AF4790A1425A90D019681DF4A595">All Segments </li> 
       <li id="li_1B5A6F076A354BA0A931CB260E6D2675">All Traits </li> 
-     </ol> </p> <p>For field descriptions, see <a href="../c-features/cdf-files.md#reference_6257ACA5665D4820900F111CFED50866" format="dita" scope="local"> Customer Data Feed Contents Defined</a>. </p> </td> 
+     </ol> </p> <p>For field descriptions, see <a href="#reference_6257ACA5665D4820900F111CFED50866" format="dita" scope="local"> Customer Data Feed Contents Defined</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -245,7 +245,7 @@ The following table lists and defines the elements in a CDF file name.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">hour=<span class="varname"> hh</span></span> </p> </td> 
-   <td colname="col2"> <p>A time value expressed in 24-hour notation and set in the UTC time zone. See also, <a href="../c-features/cdf-files.md#concept_C907608AC1ED44BA8EF870F45E5A9CB9" format="dita" scope="local"> Customer Data Feed File Name Times and File Content Times...</a>. </p> </td> 
+   <td colname="col2"> <p>A time value expressed in 24-hour notation and set in the UTC time zone. See also, <a href="#concept_C907608AC1ED44BA8EF870F45E5A9CB9" format="dita" scope="local"> Customer Data Feed File Name Times and File Content Times...</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> partner ID</span> </span> </p> </td> 
@@ -329,7 +329,7 @@ The following tables list and define the elements in a CDF `.info` file.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FileName</span> </p> </td> 
-   <td colname="col2"> <p>The file name. See <a href="../c-features/cdf-files.md#reference_DAC53BEEA60B426588D1B66B3B92E8C1" format="dita" scope="local"> Customer Data Feed File Naming Conventions</a>. </p> </td> 
+   <td colname="col2"> <p>The file name. See <a href="#reference_DAC53BEEA60B426588D1B66B3B92E8C1" format="dita" scope="local"> Customer Data Feed File Naming Conventions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FileSequenceNumber</span> </p> </td> 

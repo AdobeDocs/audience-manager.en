@@ -68,7 +68,8 @@ r_delete_partner_site.xml
 
 **Request**
 
-`DELETE``https://api.demdex.com/v1/partner-sites/<site-Id>` 
+`DELETE` `https://api.demdex.com/v1/partner-sites/<site-Id>`
+
 **Sample Response** A successful response returns `204 no content`. Returns `404 not found` if the partner site cannot be found. 
 
 ## Return Properties for a Domain {#reference_6B9BD9A4B15040429F3F9AE0BC6787FE}
@@ -141,7 +142,7 @@ You can use these optional parameters with API methods that return *all* propert
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><span class="codeph"> search</span> </td> 
-   <td colname="col2">Returns results based on the specified string you want to use as a search parameter. For example, let's say you want to find results for all models that have the word "Test" in any of the value fields for that item. Your sample request could look like this: <p><span class="codeph"> GET https://api.demdex.com/v1/models/?search=Test</span>. </p> <p>You can search on any value returned by a "get all" method. </p> </td> 
+   <td colname="col2">Returns results based on the specified string you want to use as a search parameter. For example, let's say you want to find results for all models that have the word "Test" in any of the value fields for that item. Your sample request could look like this: <p><span class="codeph"> `GET` `https://api.demdex.com/v1/models/?search=Test`</span>. </p> <p>You can search on any value returned by a "get all" method. </p> </td> 
   </tr> 
  </tbody> 
 </table>
