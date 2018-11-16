@@ -88,8 +88,8 @@ Pass in a token request with your preferred JSON client. When you build the requ
 
 *   Use a POST method to call `https://api.demdex.com/oauth/token`.
 *   Convert your client ID and secret to a base-64 encoded string. Separate the ID and secret with a colon during the conversion process. For example, the credentials testId : testSecret convert to dGVzdElkOnRlc3RTZWNyZXQ= .
-*   Pass in the HTTP headers Authorization:Basic <base-64 clientID:clientSecret> and Content-Type: application/x-www-form-urlencoded . For example, your header could look like this: Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ= Content-Type: application/x-www-form-urlencoded
-*   Set up the request body as follows: grant\_type=password&username= <your&nbsp;AudienceManager&nbsp;user&nbsp;name>& password= <your&nbsp;AudienceManager&nbsp;password>
+*   Pass in the HTTP headers Authorization:Basic &lt;base-64 clientID:clientSecret&gt; and Content-Type: application/x-www-form-urlencoded . For example, your header could look like this: Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ= Content-Type: application/x-www-form-urlencoded
+*   Set up the request body as follows: `grant\_type=password&username= <your&nbsp;AudienceManager&nbsp;user&nbsp;name>& password= <your&nbsp;AudienceManager&nbsp;password>`
 
 ### Step 3: Receive the Token
 
@@ -129,7 +129,7 @@ Pass in a refresh token request with your preferred JSON client. When you build 
 
 *   Use a POST method to call `https://api.demdex.com/oauth/token`.
 *   Convert your client ID and secret to a base-64 encoded string. Separate the ID and secret with a colon during the conversion process. For example, the credentials testId : testSecret convert to dGVzdElkOnRlc3RTZWNyZXQ= .
-*   Pass in the HTTP headers Authorization:Basic <base-64 clientID:clientSecret> and Content-Type: application/x-www-form-urlencoded . For example, your header could look like this: Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ= Content-Type: application/x-www-form-urlencoded
+*   Pass in the HTTP headers `Authorization:Basic <base-64 clientID:clientSecret>` and `Content-Type: application/x-www-form-urlencoded`. For example, your header could look like this: Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ= Content-Type: application/x-www-form-urlencoded
 *   In the request body, specify the grant\_type:refresh\_token and pass in the refresh token you received in your previous access request. The request should look like this: grant\_type=refresh\_token&refresh\_token=b27122c0-b0c7-4b39-a71b-1547a3b3b88e
 
 ### Step 2: Receive the New Token
@@ -167,7 +167,7 @@ c_oauth_call_methods.xml
 
 To make calls against the available API methods:
 
-* In the HTTP header, set **** ` Authorization: Bearer *`<token>`*`. 
+* In the HTTP header, set **** ` Authorization: Bearer *<token>*`. 
 
 * Call the required API method.
 
