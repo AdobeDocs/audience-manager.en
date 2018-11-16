@@ -127,7 +127,7 @@ Description
 
 Pass in a refresh token request with your preferred JSON client. When you build the request:
 
-*   Use a POST method to call https://api.demdex.com/oauth/token .
+*   Use a POST method to call `https://api.demdex.com/oauth/token`.
 *   Convert your client ID and secret to a base-64 encoded string. Separate the ID and secret with a colon during the conversion process. For example, the credentials testId : testSecret convert to dGVzdElkOnRlc3RTZWNyZXQ= .
 *   Pass in the HTTP headers Authorization:Basic <base-64 clientID:clientSecret> and Content-Type: application/x-www-form-urlencoded . For example, your header could look like this: Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ= Content-Type: application/x-www-form-urlencoded
 *   In the request body, specify the grant\_type:refresh\_token and pass in the refresh token you received in your previous access request. The request should look like this: grant\_type=refresh\_token&refresh\_token=b27122c0-b0c7-4b39-a71b-1547a3b3b88e
