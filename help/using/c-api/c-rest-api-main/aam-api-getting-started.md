@@ -86,7 +86,7 @@ Note: If you'd like to receive a refresh token, specify that when you request AP
 
 Pass in a token request with your preferred JSON client. When you build the request:
 
-*   Use a POST method to call https://api.demdex.com/oauth/token .
+*   Use a POST method to call `https://api.demdex.com/oauth/token`.
 *   Convert your client ID and secret to a base-64 encoded string. Separate the ID and secret with a colon during the conversion process. For example, the credentials testId : testSecret convert to dGVzdElkOnRlc3RTZWNyZXQ= .
 *   Pass in the HTTP headers Authorization:Basic <base-64 clientID:clientSecret> and Content-Type: application/x-www-form-urlencoded . For example, your header could look like this: Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ= Content-Type: application/x-www-form-urlencoded
 *   Set up the request body as follows: grant\_type=password&username= <your&nbsp;AudienceManager&nbsp;user&nbsp;name>& password= <your&nbsp;AudienceManager&nbsp;password>
@@ -193,7 +193,7 @@ You can use these optional parameters with API methods that return *all* propert
 |pageSize|Sets the number of response results returned by the request (10 is default).|
 |sortBy|Sorts and returns results according to the specified JSON property.|
 |descending|Sorts and returns results in descending order. Ascending is default.|
-|search|Returns results based on the specified string you want to use as a search parameter. For example, let's say you want to find results for all models that have the word "Test" in any of the value fields for that item. Your sample request could look like this:   GET https://api.demdex.com/v1/models/?search=Test .  You can search on any value returned by a "get all" method.|
+|search|Returns results based on the specified string you want to use as a search parameter. For example, let's say you want to find results for all models that have the word "Test" in any of the value fields for that item. Your sample request could look like this:   GET `https://api.demdex.com/v1/models/?search=Test`.  You can search on any value returned by a "get all" method.|
 |folderId|Returns all the IDs for traits inside the specified folder. Not available to all methods.|
 |permissions|Returns a list of segments based on the specified permission.  READ  is default. Permissions include:<ul><li>READ : Return and view information about a segment.</li><li>WRITE : Use  PUT  to update a segment.</li><li>CREATE : Use  POST  to create a segment.</li><li>DELETE : Delete a segment. Requires access to underlying traits, if any. For example, you'll need rights to delete the traits that belong to a segment if you want to remove it.</li></ul><br>Specify multiple permissions with separate key-value pairs. For example, to return a list of segments with  READ  and  WRITE  permissions only, pass in  "permissions":"READ", "permissions":"WRITE" .|
 |includePermissions|(Boolean) Set to  true  to return your permissions for the segment. Default is  false .|
