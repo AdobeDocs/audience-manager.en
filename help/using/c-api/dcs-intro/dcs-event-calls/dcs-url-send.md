@@ -45,7 +45,7 @@ The following table defines the basic components of a simple [!UICONTROL DCS] ca
    <td colname="col2"> <p>This part of the call contains: </p> <p> 
      <ul id="ul_3EDA9C7BA6794D06BCB07A75A9BD2372"> 
       <li id="li_74624CA78D6F4536A8164AE1FA1DECB9">Your domain alias assigned by <span class="keyword"> Audience Manager</span> (e.g., <span class="codeph"> my_domain.demdex.net</span>). </li> 
-      <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">The destination domain, which is always <span class="codeph"> demdex.net</span>. See <a href="../../../reference/demdex-calls.md#concept_77B3D5A068AE413FA78D190D65AD799F" format="dita" scope="local"> Understanding Calls to the Demdex Domain</a>. </li> 
+      <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">The destination domain, which is always <span class="codeph"> demdex.net</span>. See <a href="../../../reference/demdex-calls.md#concept_77B3D5A068AE413FA78D190D65AD799F"> Understanding Calls to the Demdex Domain</a>. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -58,7 +58,7 @@ The following table defines the basic components of a simple [!UICONTROL DCS] ca
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> key</span> </p> </td> 
-   <td colname="col2"> <p>A unique identifier in the key-value pair. </p> <p>These key-value pairs use a specific prefix to identify the type of data you're sending to the <span class="wintitle"> DCS</span>. For more information, see <a href="../../../c-api/dcs-intro/dcs-api-reference/dcs-keys.md#concept_5ACDD7D09D0441A6AC26F7D345CD19D5" format="dita" scope="local"> Supported Attributes for DCS API Calls</a>. </p> </td> 
+   <td colname="col2"> <p>A unique identifier in the key-value pair. </p> <p>These key-value pairs use a specific prefix to identify the type of data you're sending to the <span class="wintitle"> DCS</span>. For more information, see <a href="../../../c-api/dcs-intro/dcs-api-reference/dcs-keys.md#concept_5ACDD7D09D0441A6AC26F7D345CD19D5"> Supported Attributes for DCS API Calls</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> val</span> </p> </td> 
@@ -66,7 +66,7 @@ The following table defines the basic components of a simple [!UICONTROL DCS] ca
      <ul id="ul_624DC78759F74AD8920220058E54E083"> 
       <li id="li_091E5B4820EC4A93B775433E428E74AB">Enclose string data in double quotes (e.g., <span class="codeph"><span class="codeph"> age="41 to 55"</span>)</span>. </li> 
       <li id="li_C558E3BA6EE34413BBBB962D4CD0D10E">You can pass multiple keys in on a single value (e.g., <span class="codeph"><span class="varname"> key</span>=<span class="varname"> val1,val2,val3</span></span>). </li> 
-     </ul> </p> <p>See <a href="../../../c-api/dcs-intro/dcs-api-reference/dcs-key-format.md#reference_D20E71D7090F4F2690F6DFBD5389B000" format="dita" scope="local"> Formatting Key-Value Pairs in DCS Calls</a>. </p> </td> 
+     </ul> </p> <p>See <a href="../../../c-api/dcs-intro/dcs-api-reference/dcs-key-format.md#reference_D20E71D7090F4F2690F6DFBD5389B000"> Formatting Key-Value Pairs in DCS Calls</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 
@@ -75,7 +75,7 @@ The following table defines the basic components of a simple [!UICONTROL DCS] ca
       <li id="li_4B6B29499D444E31808DE0A9AA0442D0"> <span class="codeph"> d_rtbd=json</span> </li> 
       <li id="li_3430CD0438604B83BE6437E6EC480816"> <span class="codeph">d_cb=<span class="varname"> callback</span></span> </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p>Optional response parameters. </p> <p> None of these are required to send data to the <span class="wintitle"> DCS</span>. However, if you want the <span class="wintitle"> DCS</span> to return a response, you must include <span class="codeph"> d_rtbd=json</span> in your request. </p> <p>See <a href="../../../c-api/dcs-intro/dcs-api-reference/dcs-keys.md#section_B5B16D42E2004AF3ABCE25FFFEB0FF28" format="dita" scope="local"> d_ Key-Value Pairs Defined</a>. </p> </td> 
+   <td colname="col2"> <p>Optional response parameters. </p> <p> None of these are required to send data to the <span class="wintitle"> DCS</span>. However, if you want the <span class="wintitle"> DCS</span> to return a response, you must include <span class="codeph"> d_rtbd=json</span> in your request. </p> <p>See <a href="../../../c-api/dcs-intro/dcs-api-reference/dcs-keys.md#section_B5B16D42E2004AF3ABCE25FFFEB0FF28"> d_ Key-Value Pairs Defined</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -119,18 +119,18 @@ marketplace-buyer-discounts.xml
    <td colname="col1"> <p> <b>Current Subscribers</b> </p> </td> 
    <td colname="col2"> <p>If you're already subscribed to a private data feed and want to request a discount: </p> 
     <ol id="ol_A58D419EBB9349E9B1225202535130F6"> 
-     <li id="li_D0DDC8AC6E9C4675AA4630D63FE8F071"> <a href="../../../c-features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#task_10D0EA04E9C34F78A69A71AFA25BD40E" format="dita" scope="local"> Unsubscribe</a> from the data feed. </li> 
+     <li id="li_D0DDC8AC6E9C4675AA4630D63FE8F071"> <a href="../../../c-features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#task_10D0EA04E9C34F78A69A71AFA25BD40E"> Unsubscribe</a> from the data feed. </li> 
      <li id="li_05A5379F2A944FB28AB39C196DDE3A1D">Contact the data provider and request a discounted price. </li> 
      <li id="li_B1B5AA6F6CC64512A02D5E8861A5F266">If the provider gives you a discount, re-subscribe to the feed on the 1<sup>st</sup> day of the next month. </li> 
     </ol> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>New Private Data Feed Subscribers</b> </p> </td> 
-   <td colname="col2"> <p>Ask for a discount in your subscription request. See <a href="../../../c-features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#task_201526273485445EB6DB0FAD196259C5" format="dita" scope="local"> Subscribe to a Private Data Feed</a>. </p> </td> 
+   <td colname="col2"> <p>Ask for a discount in your subscription request. See <a href="../../../c-features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#task_201526273485445EB6DB0FAD196259C5"> Subscribe to a Private Data Feed</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Potential Subscribers</b> </p> </td> 
-   <td colname="col2"> <p>A <a href="../../../c-features/audience-marketplace/marketplace-private-feeds.md#concept_68EDE94B558C4B88BBCC994B67726FD2" format="dita" scope="local"> potential subscriber</a> is a data buyer who has requested access to a private data feed, received seller approval, but has not subscribed to the feed. To request a discount as a potential subscriber: </p> 
+   <td colname="col2"> <p>A <a href="../../../c-features/audience-marketplace/marketplace-private-feeds.md#concept_68EDE94B558C4B88BBCC994B67726FD2"> potential subscriber</a> is a data buyer who has requested access to a private data feed, received seller approval, but has not subscribed to the feed. To request a discount as a potential subscriber: </p> 
     <ol id="ol_9CECDA92E7894B20AC8A777D78962188"> 
      <li id="li_618B64160CF24549AFCA73E006DCA35A">Go to <span class="uicontrol"> Audience Marketplace &gt; Marketplace</span>. </li> 
      <li id="li_FE52A06B30FC4858B48AF81954365FE9">Click the name of the feed you've been approved for. </li> 
@@ -322,7 +322,7 @@ Refer to the following table for details about different elements of the plan de
    <td colname="col2"> <p> 
      <ul id="ul_ACDA08D3C7304CBDA0896C5E70A7FFD8"> 
       <li id="li_5FF34641C2364F90A80AEDD0ADB64BC9">Click <span class="uicontrol"> Explore All Traits</span> to see details about all the traits in the selected data feed. </li> 
-      <li id="li_3B3924ADA7B54979B3AE6E6522BB3761">Click <span class="uicontrol"> Request Details</span> to ask the data provider questions about the selected data feed or to <a href="../../../c-features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#concept_DB7031710F254277A5297D98A13EFEC9" format="dita" scope="local"> request a discount</a>. This feature sends your comments and questions directly to the data provider. </li> 
+      <li id="li_3B3924ADA7B54979B3AE6E6522BB3761">Click <span class="uicontrol"> Request Details</span> to ask the data provider questions about the selected data feed or to <a href="../../../c-features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#concept_DB7031710F254277A5297D98A13EFEC9"> request a discount</a>. This feature sends your comments and questions directly to the data provider. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -331,14 +331,14 @@ Refer to the following table for details about different elements of the plan de
   </tr> 
   <tr> 
    <td colname="col1"> <p>Use Case / Subscription Table </p> </td> 
-   <td colname="col2"> <p>See <a href="../../../c-features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#concept_BF17D148E9BA4A2FBCCA4576F00046C9" format="dita" scope="local"> Understanding Data Feed Use Cases</a>. </p> </td> 
+   <td colname="col2"> <p>See <a href="../../../c-features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#concept_BF17D148E9BA4A2FBCCA4576F00046C9"> Understanding Data Feed Use Cases</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Plan Action Buttons </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_114F013A38A54F1592CEA30CB06A6F58"> 
       <li id="li_37B60217EFBF447ABF136508BD483C7D">Click <span class="uicontrol"> Cancel</span> to leave the page without making changes. </li> 
-      <li id="li_7356FE918192433EAC42FAB398223F4D">Click <span class="uicontrol"> Review &amp; Subscribe</span> to subscribe to a data feed. See also <a href="../../../c-features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#task_F0E25DBC6326475497D5A086EF9B3182" format="dita" scope="local"> Subscribe to a Public Data Feed</a> and <a href="../../../c-features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#task_201526273485445EB6DB0FAD196259C5" format="dita" scope="local"> Subscribe to a Private Data Feed</a>. </li> 
+      <li id="li_7356FE918192433EAC42FAB398223F4D">Click <span class="uicontrol"> Review &amp; Subscribe</span> to subscribe to a data feed. See also <a href="../../../c-features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#task_F0E25DBC6326475497D5A086EF9B3182"> Subscribe to a Public Data Feed</a> and <a href="../../../c-features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#task_201526273485445EB6DB0FAD196259C5"> Subscribe to a Private Data Feed</a>. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 

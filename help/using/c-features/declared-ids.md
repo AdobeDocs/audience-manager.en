@@ -153,11 +153,11 @@ In each key-value pair:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_cid = <span class="varname"> data provider ID </span> %01 <span class="varname"> user ID </span> </span> </p> </td> 
-   <td colname="col2"> <p>Contains a data provider ID and an associated unique user ID in a single key-value pair. <span class="codeph"> d_cid </span> replaces <span class="codeph"> d_dpid </span> and <span class="codeph"> d_dpuuid </span>, which are considered deprecated, but still supported. See <a href="../reference/cid.md#concept_E9DE716F22E8491AB27057DB92B79081" format="dita" scope="local"> CID Replaces DPID and DPUUID </a>. </p> </td> 
+   <td colname="col2"> <p>Contains a data provider ID and an associated unique user ID in a single key-value pair. <span class="codeph"> d_cid </span> replaces <span class="codeph"> d_dpid </span> and <span class="codeph"> d_dpuuid </span>, which are considered deprecated, but still supported. See <a href="../reference/cid.md#concept_E9DE716F22E8491AB27057DB92B79081"> CID Replaces DPID and DPUUID </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_cid_ic = <span class="varname"> integration code </span> %01 <span class="varname"> user ID </span> </span> </p> </td> 
-   <td colname="col2"> <p>Contains an integration code and an associated unique user ID in a single key-value pair. <span class="codeph"> d_cid_ic </span> replaces <span class="codeph"> d_dpid </span> and <span class="codeph"> d_dpuuid </span>, which are deprecated, but still supported. See <a href="../reference/cid.md#concept_E9DE716F22E8491AB27057DB92B79081" format="dita" scope="local"> CID Replaces DPID and DPUUID </a>. </p> </td> 
+   <td colname="col2"> <p>Contains an integration code and an associated unique user ID in a single key-value pair. <span class="codeph"> d_cid_ic </span> replaces <span class="codeph"> d_dpid </span> and <span class="codeph"> d_dpuuid </span>, which are deprecated, but still supported. See <a href="../reference/cid.md#concept_E9DE716F22E8491AB27057DB92B79081"> CID Replaces DPID and DPUUID </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

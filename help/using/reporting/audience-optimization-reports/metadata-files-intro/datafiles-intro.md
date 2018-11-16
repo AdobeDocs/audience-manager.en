@@ -17,10 +17,10 @@ A data file contains impression, click, or conversion data. When formatted prope
 Contents:
 
 <ul class="simplelist"> 
- <li> <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md#section_8BD3D951B1D348ECB46FEDCAE17AC664" format="dita" scope="local"> Overview </a> </li> 
- <li> <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md#section_66F3F3588C85407CB33E13DA8D47795D" format="dita" scope="local"> Naming Conventions for Data Files </a> </li> 
- <li> <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md#section_CC584987F0BC4C3FA62F6CDA7AE9D3FD" format="dita" scope="local"> Content Format for Data Files </a> </li> 
- <li> <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md#section_84A1C548F9084A9C98AAB4349429CBD8" format="dita" scope="local"> Delivery Methods for Data Files </a> </li> 
+ <li> <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md#section_8BD3D951B1D348ECB46FEDCAE17AC664"> Overview </a> </li> 
+ <li> <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md#section_66F3F3588C85407CB33E13DA8D47795D"> Naming Conventions for Data Files </a> </li> 
+ <li> <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md#section_CC584987F0BC4C3FA62F6CDA7AE9D3FD"> Content Format for Data Files </a> </li> 
+ <li> <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md#section_84A1C548F9084A9C98AAB4349429CBD8"> Delivery Methods for Data Files </a> </li> 
 </ul>
 
 ## Overview {#section_8BD3D951B1D348ECB46FEDCAE17AC664}

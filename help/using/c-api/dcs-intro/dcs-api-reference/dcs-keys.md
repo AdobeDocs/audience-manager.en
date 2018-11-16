@@ -67,11 +67,11 @@ All of these are optional, unless you want a response from the [!UICONTROL DCS].
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> d_cid</span> </p> </td> 
-   <td colname="col2"> <p>Contains one or more pairs of data provider IDs (<span class="codeph"> DPID</span>) and data provider user IDs (<span class="codeph"> DPUUID</span>) assigned by <span class="keyword"> Audience Manager</span>. If you use multiple pairs of <span class="codeph"> DPID</span>s and <span class="codeph"> DPUUID</span>s, separate each pair with the non-printing character <span class="codeph"> %01</span>. For example: <span class="codeph"><span class="varname"> DPID</span>%01<span class="varname"> DPUUUID</span></span>. </p> <p><span class="codeph"> d_cid</span> replaces <span class="codeph"> d_dpid</span> and <span class="codeph"> d_dpuuid</span>, which are deprecated but still supported. See <a href="../../../reference/cid.md#concept_E9DE716F22E8491AB27057DB92B79081" format="dita" scope="local"> CID Replaces DPID and DPUUID</a>. </p> </td> 
+   <td colname="col2"> <p>Contains one or more pairs of data provider IDs (<span class="codeph"> DPID</span>) and data provider user IDs (<span class="codeph"> DPUUID</span>) assigned by <span class="keyword"> Audience Manager</span>. If you use multiple pairs of <span class="codeph"> DPID</span>s and <span class="codeph"> DPUUID</span>s, separate each pair with the non-printing character <span class="codeph"> %01</span>. For example: <span class="codeph"><span class="varname"> DPID</span>%01<span class="varname"> DPUUUID</span></span>. </p> <p><span class="codeph"> d_cid</span> replaces <span class="codeph"> d_dpid</span> and <span class="codeph"> d_dpuuid</span>, which are deprecated but still supported. See <a href="../../../reference/cid.md#concept_E9DE716F22E8491AB27057DB92B79081"> CID Replaces DPID and DPUUID</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> d_cid_ic</span> </p> </td> 
-   <td colname="col2"> <p>Contains an integration code and an associated unique user ID in a single key-value pair. </p> <p><span class="codeph"> d_cid_ic</span> replaces <span class="codeph"> d_dpid</span> and <span class="codeph"> d_dpuuid</span>, which are deprecated but still supported. See <a href="../../../reference/cid.md#concept_E9DE716F22E8491AB27057DB92B79081" format="dita" scope="local"> CID Replaces DPID and DPUUID</a>. </p> </td> 
+   <td colname="col2"> <p>Contains an integration code and an associated unique user ID in a single key-value pair. </p> <p><span class="codeph"> d_cid_ic</span> replaces <span class="codeph"> d_dpid</span> and <span class="codeph"> d_dpuuid</span>, which are deprecated but still supported. See <a href="../../../reference/cid.md#concept_E9DE716F22E8491AB27057DB92B79081"> CID Replaces DPID and DPUUID</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> d_coppa</span> </p> </td> 
@@ -81,7 +81,7 @@ All of these are optional, unless you want a response from the [!UICONTROL DCS].
    <td colname="col1"> <p><span class="codeph"> d_cts=1</span> </p> <p><span class="codeph"> d_cts=2</span> </p> </td> 
    <td colname="col2"> <p>Optional. Enabled on customer request. Contact your Adobe Audience Manager consultant or Customer Care. </p> <p>Indicates that traits and segments should be returned inside the <span class="codeph"> JSON</span> response. </p> <p> 
      <ul id="ul_8B936ACB18724681B959783421ACF026"> 
-      <li id="li_792A6248F49141C0B4B214C754D5F5C5"> <p><span class="codeph"> d_cts=1</span> returns <a href="../../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8" format="dita" scope="local"> legacy segment IDs</a> for the segments. </p> </li> 
+      <li id="li_792A6248F49141C0B4B214C754D5F5C5"> <p><span class="codeph"> d_cts=1</span> returns <a href="../../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8"> legacy segment IDs</a> for the segments. </p> </li> 
       <li id="li_F304CA651F3C444A9A24576726925D87"> <p><span class="codeph"> d_cts=2</span> returns segment IDs for the segments. </p> </li> 
      </ul> </p> <p>A sample response could look like the one below: </p> <p> 
      <codeblock class="syntax javascript">
@@ -175,7 +175,7 @@ All of these are optional, unless you want a response from the [!UICONTROL DCS].
      <ul id="ul_6230777E16C14DCB83025A101A4ECA14"> 
       <li id="li_71F3970417BC4B93881A3E12DADE4120"><b>Trait T1</b> with: </li> 
       <li id="li_66125E035F524A958C6F4BFAABA2A0D2">Trait rule: "<span class="codeph"> key1 == val1</span>" </li> 
-      <li id="li_4EE486E02CF54AEA876ABC005094E9E4">Data Source (<a href="../../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8" format="dita" scope="local"> DPID</a>): 1 </li> 
+      <li id="li_4EE486E02CF54AEA876ABC005094E9E4">Data Source (<a href="../../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8"> DPID</a>): 1 </li> 
       <li id="li_3E6BBDEAE5C644C6A96CB49766CDA988">DPID integration code: ic1 </li> 
      </ul> 
      <ul id="ul_0C30A8AE349D43A08490DA76CB4B06FA"> 

@@ -23,8 +23,8 @@ c_marketplace_privatefeed.xml
 Contents:
 
 <ul class="simplelist"> 
- <li> <a href="../../c-features/audience-marketplace/marketplace-private-feeds.md#section_0CB3038BC5AC4279B99BD414C5D7AF44" format="dita" scope="local"> Private Data Feeds for Providers </a> </li> 
- <li> <a href="../../c-features/audience-marketplace/marketplace-private-feeds.md#section_13E0F80D034143FAA89D72418A76AC26" format="dita" scope="local"> Private Data Feeds for Buyers </a> </li> 
+ <li> <a href="../../c-features/audience-marketplace/marketplace-private-feeds.md#section_0CB3038BC5AC4279B99BD414C5D7AF44"> Private Data Feeds for Providers </a> </li> 
+ <li> <a href="../../c-features/audience-marketplace/marketplace-private-feeds.md#section_13E0F80D034143FAA89D72418A76AC26"> Private Data Feeds for Buyers </a> </li> 
 </ul>
 
 ## Private Data Feeds for Providers {#section_0CB3038BC5AC4279B99BD414C5D7AF44}

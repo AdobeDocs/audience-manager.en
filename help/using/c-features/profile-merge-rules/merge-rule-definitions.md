@@ -17,9 +17,9 @@ The merge rule options let you control the type of data Audience Manager uses fo
 You build a [!UICONTROL Profile Merge Rule] by making a selection from these options:
 
 <ul class="simplelist"> 
- <li> <a href="../../c-features/profile-merge-rules/merge-rule-definitions.md#section_9575406F175F44E7B852F649D7D7260E" format="dita" scope="local"> Authenticated Options</a> </li> 
- <li> <a href="../../c-features/profile-merge-rules/merge-rule-definitions.md#section_C02D70DA90514F58B415AF0EEB69F831" format="dita" scope="local"> Authenticated Profile Options</a> </li> 
- <li><a href="../../c-features/profile-merge-rules/merge-rule-definitions.md#section_E83D68EC2ADA4030B1D0206AE6A6E8BF" format="dita" scope="local"> Device Options</a> </li> 
+ <li> <a href="../../c-features/profile-merge-rules/merge-rule-definitions.md#section_9575406F175F44E7B852F649D7D7260E"> Authenticated Options</a> </li> 
+ <li> <a href="../../c-features/profile-merge-rules/merge-rule-definitions.md#section_C02D70DA90514F58B415AF0EEB69F831"> Authenticated Profile Options</a> </li> 
+ <li><a href="../../c-features/profile-merge-rules/merge-rule-definitions.md#section_E83D68EC2ADA4030B1D0206AE6A6E8BF"> Device Options</a> </li> 
 </ul>
 
 ## Authenticated Options {#section_9575406F175F44E7B852F649D7D7260E}
@@ -75,7 +75,7 @@ The [!UICONTROL Device Options] let you select the type of *`device profile`* us
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Profile Link Device Graph</span> </p> </td> 
-   <td colname="col2"> <p>Tells <span class="keyword"> Audience Manager</span> to read the profiles from the current device and the last 3 devices that the user has authenticated from. This device graph is built on your own, first-party data in <span class="keyword"> Audience Manager</span>. It is ideal for customers who have a high level of authentication across their digital properties. The <span class="wintitle"> Profile Link</span> device graph is updated in real time. This option is available when you select <span class="uicontrol"> Current Authenticated Profile</span> or <span class="uicontrol"> Last Authenticated Profile</span>. When using this option, you can only choose a single authenticated profile (<span class="keyword"> Audience Manager</span> automatically grays out the others). See also, <a href="../../c-features/profile-merge-rules/profile-link-use-case.md#concept_5D9D32E18BB94F318A8BA0229335F1B9" format="dita" scope="local"> Profile Link Device Graph Use Cases</a>. </p> </td> 
+   <td colname="col2"> <p>Tells <span class="keyword"> Audience Manager</span> to read the profiles from the current device and the last 3 devices that the user has authenticated from. This device graph is built on your own, first-party data in <span class="keyword"> Audience Manager</span>. It is ideal for customers who have a high level of authentication across their digital properties. The <span class="wintitle"> Profile Link</span> device graph is updated in real time. This option is available when you select <span class="uicontrol"> Current Authenticated Profile</span> or <span class="uicontrol"> Last Authenticated Profile</span>. When using this option, you can only choose a single authenticated profile (<span class="keyword"> Audience Manager</span> automatically grays out the others). See also, <a href="../../c-features/profile-merge-rules/profile-link-use-case.md#concept_5D9D32E18BB94F318A8BA0229335F1B9"> Profile Link Device Graph Use Cases</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Co-op Device Graph</span> </p> </td> 
@@ -93,7 +93,7 @@ The [!UICONTROL Device Options] let you select the type of *`device profile`* us
      <ul id="ul_5BA0D940BA15484FADF134A5A73815D5"> 
       <li id="li_389ACEBBF79A47499B6119B0F9CB3B5D"> Probabilistic and/or deterministic data. </li> 
       <li id="li_E8606D3871A145A68E87BDC3554AC4EF">Data at the person or household level. </li> 
-     </ul> </p> <p>To use these options, you must be a customer of a device graph provides who is already integrated with <span class="keyword"> Audience Manager</span>. Contact your account manager for more information or to get started. </p> <p>See also <a href="../../c-features/profile-merge-rules/external-graph-use-cases.md#concept_7C0BDBFB3392415286B624F45E8883E5" format="dita" scope="local"> External Device Graph Use Cases</a> and <a href="https://marketing.adobe.com/resources/help/en_US/aam/downloads/AAM_Device_Graphs.pdf" format="https" scope="external"> Audience Manager and External Device Graphs</a> (PDF download). </p> </td> 
+     </ul> </p> <p>To use these options, you must be a customer of a device graph provides who is already integrated with <span class="keyword"> Audience Manager</span>. Contact your account manager for more information or to get started. </p> <p>See also <a href="../../c-features/profile-merge-rules/external-graph-use-cases.md#concept_7C0BDBFB3392415286B624F45E8883E5"> External Device Graph Use Cases</a> and <a href="https://marketing.adobe.com/resources/help/en_US/aam/downloads/AAM_Device_Graphs.pdf" format="https" scope="external"> Audience Manager and External Device Graphs</a> (PDF download). </p> </td> 
   </tr> 
  </tbody> 
 </table>

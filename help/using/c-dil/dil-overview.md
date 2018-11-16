@@ -62,8 +62,8 @@ d_nsid=0
 d_rtbd=json
      </codeblock> </p> <p>See also: </p> 
     <ul id="ul_D2399CE7EF0A4BF09052C890DCDE38C4"> 
-     <li id="li_767F91D06E6A4CC0BBB9339CEC303222"> <a href="../c-features/traits/trait-variable-prefixes.md#reference_E6F1E4257F664FC2A797C406BF147ABC" format="dita" scope="local"> Prefix Requirements for Key Variables </a> </li> 
-     <li id="li_055AD1154FB24D75A7FBC3EEDB4A578C"><a href="../c-api/dcs-intro/dcs-api-reference/dcs-keys.md#concept_5ACDD7D09D0441A6AC26F7D345CD19D5" format="dita" scope="local"> Supported Attributes for DCS API Calls</a> </li> 
+     <li id="li_767F91D06E6A4CC0BBB9339CEC303222"> <a href="../c-features/traits/trait-variable-prefixes.md#reference_E6F1E4257F664FC2A797C406BF147ABC"> Prefix Requirements for Key Variables </a> </li> 
+     <li id="li_055AD1154FB24D75A7FBC3EEDB4A578C"><a href="../c-api/dcs-intro/dcs-api-reference/dcs-keys.md#concept_5ACDD7D09D0441A6AC26F7D345CD19D5"> Supported Attributes for DCS API Calls</a> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

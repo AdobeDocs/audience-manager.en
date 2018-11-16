@@ -138,7 +138,7 @@ c_model_update_schedule.xml
      <ul id="ul_97333AC409AF4760A91D90A06050122B"> 
       <li id="li_3A43809F924341FCAC3A85E3825E0F61"> 5 PM EST (November - March) </li> 
       <li id="li_C07D22AB192D4E0191D9EBF6426EC73D"> 6 PM EDT (March - November) </li> 
-     </ul> </p> <p>Models built or cloned after the creation deadline are processed the following day. </p> <p>If the first run of a model generates no data it will run a second time, the next day. If the second attempt also doesn't generate any data, there will be a third attempt, the next day. The model will stop running if the third attempt also doesn't generate any data. In this case, we will deactivate the model. See more in <a href="../../c-features/algorithmic-models/understanding-models.md#section_356A9E6C33FE4194A70DA6CA2AB511E9" format="dita" scope="local"> Troubleshooting Algorithmic Models</a>. </p> </td> 
+     </ul> </p> <p>Models built or cloned after the creation deadline are processed the following day. </p> <p>If the first run of a model generates no data it will run a second time, the next day. If the second attempt also doesn't generate any data, there will be a third attempt, the next day. The model will stop running if the third attempt also doesn't generate any data. In this case, we will deactivate the model. See more in <a href="../../c-features/algorithmic-models/understanding-models.md#section_356A9E6C33FE4194A70DA6CA2AB511E9"> Troubleshooting Algorithmic Models</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Update a Model</b> </td> 
@@ -215,7 +215,7 @@ The model summary page includes the following sections.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> Model Reach and Accuracy</span> </p> </td> 
-   <td colname="col2"> <p>Shows <a href="../../c-features/traits/trait-accuracy-reach.md#concept_60F696940483424CA4E8EEDD63F46358" format="dita" scope="local"> accuracy and reach</a> data for the last model run. </p> </td> 
+   <td colname="col2"> <p>Shows <a href="../../c-features/traits/trait-accuracy-reach.md#concept_60F696940483424CA4E8EEDD63F46358"> accuracy and reach</a> data for the last model run. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> Model Processing History</span> </p> </td> 
@@ -226,7 +226,7 @@ The model summary page includes the following sections.
    <td colname="col2"> <p>The <span class="wintitle"> Influential Traits</span> table: </p> <p> 
      <ul id="ul_FB15A554CADC40D09F9AC6D384D54ECD"> 
       <li id="li_343E25E8B3584D38B1E2BCB211033DBF"> Lists the top 50 influential traits that are best represented in the model's baseline population. </li> 
-      <li id="li_44957F46C0744A84A987D8F25D93E24E">Ranks each trait in order of its <span class="wintitle"> Relative Weight</span> rank. The <span class="wintitle"> Relative Weight</span> sorts newly discovered traits in order of influence or desirability. The weight scale is a percentage that runs from 0% to 100%. Traits ranked closer to 100% means they're more like the audience in your baseline population. See <a href="../../c-features/algorithmic-models/understanding-models.md#concept_1E21CF71FBD04C3EA59554909828DAD5" format="dita" scope="local"> Understanding TraitWeight</a>. </li> 
+      <li id="li_44957F46C0744A84A987D8F25D93E24E">Ranks each trait in order of its <span class="wintitle"> Relative Weight</span> rank. The <span class="wintitle"> Relative Weight</span> sorts newly discovered traits in order of influence or desirability. The weight scale is a percentage that runs from 0% to 100%. Traits ranked closer to 100% means they're more like the audience in your baseline population. See <a href="../../c-features/algorithmic-models/understanding-models.md#concept_1E21CF71FBD04C3EA59554909828DAD5"> Understanding TraitWeight</a>. </li> 
       <li id="li_260151E23B1E484BA06C8494552A04F0">Shows the 30-Day uniques and the total trait population for each trait. </li> 
      </ul> </p> </td> 
   </tr> 

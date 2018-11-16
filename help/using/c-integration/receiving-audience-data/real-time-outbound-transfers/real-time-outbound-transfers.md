@@ -96,7 +96,7 @@ The following table defines the elements in the returned JSON data file.
   <tr valign="top"> 
    <td colname="col1"><span class="codeph"><span class="varname"> AAM_Regions</span></span> </td> 
    <td colname="col2"> Array </td> 
-   <td colname="col3"> The <span class="keyword"> Audience Manager</span> region ID where we've seen this device. For instance, if the device had some activity in Paris (Europe), the region ID would be <span class="codeph"> 6</span>. See <a href="../../../c-api/dcs-intro/dcs-api-reference/dcs-regions.md#concept_01C1E017A6694D1EAF9BF65BFFA54091" format="dita" scope="local"> DCS Region IDs, Locations, and Host Names</a>. </td> 
+   <td colname="col3"> The <span class="keyword"> Audience Manager</span> region ID where we've seen this device. For instance, if the device had some activity in Paris (Europe), the region ID would be <span class="codeph"> 6</span>. See <a href="../../../c-api/dcs-intro/dcs-api-reference/dcs-regions.md#concept_01C1E017A6694D1EAF9BF65BFFA54091"> DCS Region IDs, Locations, and Host Names</a>. </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><span class="codeph"><span class="varname"> Segments</span></span> </td> 
@@ -118,7 +118,7 @@ The following table defines the elements in the returned JSON data file.
     </ul> <p>Users are unsegmented when they are: </p> 
     <ul id="ul_E17B080D8DF14D548E1142A9201C1C14"> 
      <li id="li_8352B919A87242E68716FB9EC0443407">Removed from a segment based on the segment rule. </li> 
-     <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">Removed from a segment based on the segment's <a href="../../../c-features/traits/segment-ttl-explained.md#concept_2F85D4E738754EF387328A9754E125B3" format="dita" scope="local"> time-to-live interval</a>. </li> 
+     <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">Removed from a segment based on the segment's <a href="../../../c-features/traits/segment-ttl-explained.md#concept_2F85D4E738754EF387328A9754E125B3"> time-to-live interval</a>. </li> 
      <li id="li_F48D1052BA2B45108225641292CC748D">Moved to an inactive state if they have not been seen for the last 120-days. </li> 
     </ul> <p>All partner IDs that are synced to an <span class="keyword"> Audience Manager</span> ID will receive the <span class="codeph"> "Status":"0"</span> flag when a user is unsegmented. </p> </td> 
   </tr> 

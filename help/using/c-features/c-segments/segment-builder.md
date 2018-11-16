@@ -147,7 +147,7 @@ r_segment_traits_section.xml
   </tr> 
   <tr> 
    <td colname="col1"> <b>Real and Estimated Segment Size Data</b> </td> 
-   <td colname="col2"> <p>See <a href="../../c-features/c-segments/segment-builder-data.md#concept_05EE3010E67F446E8818351292EF7372" format="dita" scope="local"> Trait and Segment Population Data in Segment Builder</a>. </p> </td> 
+   <td colname="col2"> <p>See <a href="../../c-features/c-segments/segment-builder-data.md#concept_05EE3010E67F446E8818351292EF7372"> Trait and Segment Population Data in Segment Builder</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

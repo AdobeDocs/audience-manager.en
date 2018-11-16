@@ -58,7 +58,7 @@ The following table lists the key-value pairs that hold data used by the [!UICON
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Advertiser </p> </td> 
-   <td colname="col2"> <p> <span class="codeph">d_adsrc = <span class="varname"> data source ID or integration code</span></span> </p> <p>This is the advertiser's data source ID or integration code provided when creating a data source. See <a href="../../../c-features/manage-datasources.md#concept_3B7696B3EC77416492D3B99EBD79EA44" format="dita" scope="local"> Create a Data Source</a>. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph">d_adsrc = <span class="varname"> data source ID or integration code</span></span> </p> <p>This is the advertiser's data source ID or integration code provided when creating a data source. See <a href="../../../c-features/manage-datasources.md#concept_3B7696B3EC77416492D3B99EBD79EA44"> Create a Data Source</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Business Unit (BU) </p> </td> 
@@ -86,7 +86,7 @@ The following table lists the key-value pairs that hold data used by the [!UICON
   </tr> 
   <tr> 
    <td colname="col1"> <p>Platform </p> </td> 
-   <td colname="col2"> <p> <span class="codeph">d_src = <span class="varname"> data source ID</span></span> </p> <p>This is the <a href="../../../c-features/datasources-list-and-settings.md#concept_DC7CC030739C436C947078C7877C15AD" format="dita" scope="local"> data source</a> ID for the platform providing metadata information (e.g., DFA, Atlas, GBM, MediaMath, etc.). </p> </td> 
+   <td colname="col2"> <p> <span class="codeph">d_src = <span class="varname"> data source ID</span></span> </p> <p>This is the <a href="../../../c-features/datasources-list-and-settings.md#concept_DC7CC030739C436C947078C7877C15AD"> data source</a> ID for the platform providing metadata information (e.g., DFA, Atlas, GBM, MediaMath, etc.). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Tactic </p> </td> 

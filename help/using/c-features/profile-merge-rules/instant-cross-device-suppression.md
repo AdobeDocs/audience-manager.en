@@ -14,11 +14,11 @@ snippet: y
 Instant Cross-Device Suppression is the ability to suppress users across multiple devices connected to them when a particular experience occurs on any of these devices. Use the Instant Cross-Device Suppression capability to deliver a consistent experience across devices to your users. This experience is made possible by the real-time unsegment capabilities in Audience Manager.
 
 <ul class="simplelist"> 
- <li><a href="../../c-features/profile-merge-rules/instant-cross-device-suppression.md#section_FC781AE134C143B7B0E3146A536B14B5" format="dita" scope="local"> Overview</a> </li> 
- <li><a href="../../c-features/profile-merge-rules/instant-cross-device-suppression.md#section_14BF16980B72499AB800B6B163368DBE" format="dita" scope="local"> Do Not Target Once Converted</a> </li> 
- <li><a href="../../c-features/profile-merge-rules/instant-cross-device-suppression.md#section_9A5343E4F9EA4E15B899281423BB1E9C" format="dita" scope="local"> Do Not Target After x Impressions</a> </li> 
- <li><a href="../../c-features/profile-merge-rules/instant-cross-device-suppression.md#section_594C7E6E2F7947ED9681214D0AF07287" format="dita" scope="local"> Important Aspects to Note - Processing</a> </li> 
- <li><a href="../../c-features/profile-merge-rules/instant-cross-device-suppression.md#section_03B59052F4CA4706B8EF32B05C78A499" format="dita" scope="local"> Important Aspects to Note - Timing</a> </li> 
+ <li><a href="../../c-features/profile-merge-rules/instant-cross-device-suppression.md#section_FC781AE134C143B7B0E3146A536B14B5"> Overview</a> </li> 
+ <li><a href="../../c-features/profile-merge-rules/instant-cross-device-suppression.md#section_14BF16980B72499AB800B6B163368DBE"> Do Not Target Once Converted</a> </li> 
+ <li><a href="../../c-features/profile-merge-rules/instant-cross-device-suppression.md#section_9A5343E4F9EA4E15B899281423BB1E9C"> Do Not Target After x Impressions</a> </li> 
+ <li><a href="../../c-features/profile-merge-rules/instant-cross-device-suppression.md#section_594C7E6E2F7947ED9681214D0AF07287"> Important Aspects to Note - Processing</a> </li> 
+ <li><a href="../../c-features/profile-merge-rules/instant-cross-device-suppression.md#section_03B59052F4CA4706B8EF32B05C78A499"> Important Aspects to Note - Timing</a> </li> 
 </ul>
 
 ## Overview {#section_FC781AE134C143B7B0E3146A536B14B5}

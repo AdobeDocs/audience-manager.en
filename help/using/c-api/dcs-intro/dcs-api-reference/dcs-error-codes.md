@@ -152,12 +152,12 @@ In the tables below, *italics* represents a variable placeholder.
   <tr> 
    <td colname="col1"> <p>201 </p> </td> 
    <td colname="col2"> <p> Cannot read device ids from profile cache for customer id: <span class="varname"> ID</span> </p> </td> 
-   <td colname="col3"> <p>Returned when the <a href="../../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8" format="dita" scope="local"> device ID</a> cannot be retrieved for a Profile Link merge rule. </p> </td> 
+   <td colname="col3"> <p>Returned when the <a href="../../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8"> device ID</a> cannot be retrieved for a Profile Link merge rule. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>202 </p> </td> 
    <td colname="col2"> <p>Cannot read related customer for device id: <span class="varname"> ID</span> </p> </td> 
-   <td colname="col3"> <p>Returned when the <a href="../../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8" format="dita" scope="local"> customer ID (UUID)</a> associated to a device ID cannot be retrieved for a Last Authenticated merge rule from our internal storage. </p> </td> 
+   <td colname="col3"> <p>Returned when the <a href="../../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8"> customer ID (UUID)</a> associated to a device ID cannot be retrieved for a Last Authenticated merge rule from our internal storage. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>203 </p> </td> 

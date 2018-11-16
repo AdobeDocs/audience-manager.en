@@ -17,8 +17,8 @@ This article describes two features which provide advanced functionality for Aud
 On this page:
 
 <ul class="simplelist"> 
- <li> <a href="../../c-features/audience-lab/audience-lab-advanced.md#section_520626580ECB48C9A6EFEFC9A5D49D1B" format="dita" scope="local"> Duplicate Allocation Template </a> </li> 
- <li> <a href="../../c-features/audience-lab/audience-lab-advanced.md#section_1D72DBA56C2F44ADB38B1BF86A300098" format="dita" scope="local"> Test Segment Holdout </a> </li> 
+ <li> <a href="../../c-features/audience-lab/audience-lab-advanced.md#section_520626580ECB48C9A6EFEFC9A5D49D1B"> Duplicate Allocation Template </a> </li> 
+ <li> <a href="../../c-features/audience-lab/audience-lab-advanced.md#section_1D72DBA56C2F44ADB38B1BF86A300098"> Test Segment Holdout </a> </li> 
 </ul>
 
 ## Duplicate Allocation Template {#section_520626580ECB48C9A6EFEFC9A5D49D1B}
