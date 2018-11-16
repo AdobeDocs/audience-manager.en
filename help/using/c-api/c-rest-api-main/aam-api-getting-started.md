@@ -76,65 +76,36 @@ Password authentication secure access our REST API. The following table outlines
 >
 >Encrypt access and refresh tokens if you store them in a database.
 
-<table id="table_BC7346F48EA74541A43A8157A7EC7346"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Process Step </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr valign="top"> 
-   <td colname="col1"> <b>Request API Access</b> </td> 
-   <td colname="col2"> <p>Contact your Partner Solutions manager. They will provide you with an API client ID and secret. The ID and secret authenticate you to the API. <p>Note:  If you'd like to receive a refresh token, specify that when you request API access. </p> </p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td colname="col1"> <b>Request the Token</b> </td> 
-   <td colname="col2"> <p>Pass in a token request with your preferred JSON client. When you build the request: 
-     <ul id="ul_D34AF5AAF8C94148823A33EE1340CECC"> 
-      <li id="li_DC7A0B98B1824BF996CD85B822F9B6A6">Use a <span class="codeph"> POST </span> method to call <span class="codeph"> https://api.demdex.com/oauth/token </span>. </li> 
-      <li id="li_07DBC364F32748D4A8471A849C321A0A">Convert your client ID and secret to a base-64 encoded string. Separate the ID and secret with a colon during the conversion process. For example, the credentials <span class="codeph"> testId </span>: <span class="codeph"> testSecret </span> convert to <span class="codeph"> dGVzdElkOnRlc3RTZWNyZXQ= </span>. </li> 
-      <li id="li_F525D6C394D74246AF68C9F5496174D1">Pass in the HTTP headers <span class="codeph"> Authorization:Basic <span class="varname"> &lt;base-64 clientID:clientSecret&gt; </span> </span> and <span class="codeph"> Content-Type: application/x-www-form-urlencoded </span>. For example, your header could look like this: 
-       <codeblock>
-         Authorization:&nbsp;Basic&nbsp;dGVzdElkOnRlc3RTZWNyZXQ= 
-        
-Content-Type:&nbsp;application/x-www-form-urlencoded 
-       </codeblock> </li> 
-      <li id="li_3A638183F3C343759642EB405E5AEF1B">Set up the request body as follows: 
-       <codeblock>
-         grant_type=password&amp;username= 
-        <varname>
-          &lt;your&amp;nbsp;AudienceManager&amp;nbsp;user&amp;nbsp;name&gt;&amp; 
-        </varname> 
-        
-password= 
-        <varname>
-          &lt;your&amp;nbsp;AudienceManager&amp;nbsp;password&gt; 
-        </varname> 
-       </codeblock> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td colname="col1"> <b>Receive the Token</b> </td> 
-   <td colname="col2"> <p>The JSON response contains your access token. The response should look like this: 
-     <codeblock>
-       { 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;"access_token":&nbsp;"28fed402-eafd-456c-9341-ac753f25bbbc", 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;"token_type":&nbsp;"bearer", 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;"refresh_token":&nbsp;"b27122c0-b0c7-4b39-a71b-1547a3b3b88e", 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;"expires_in":&nbsp;21922, 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;"scope":&nbsp;"read&nbsp;write" 
-      
-} 
-     </codeblock> </p> <p>The <span class="codeph"> "expires_in" </span> key represents the number of seconds until the access token expires. As best practice, use short expiration times to limit exposure if the token is ever exposed. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+### Step 1: Request API Access
+
+Contact your Partner Solutions manager. They will provide you with an API client ID and secret. The ID and secret authenticate you to the API.
+
+Note: If you'd like to receive a refresh token, specify that when you request API access.
+
+### Step 2: Request the Token
+
+Pass in a token request with your preferred JSON client. When you build the request:
+
+*   Use a POST method to call https://api.demdex.com/oauth/token .
+*   Convert your client ID and secret to a base-64 encoded string. Separate the ID and secret with a colon during the conversion process. For example, the credentials testId : testSecret convert to dGVzdElkOnRlc3RTZWNyZXQ= .
+*   Pass in the HTTP headers Authorization:Basic <base-64 clientID:clientSecret> and Content-Type: application/x-www-form-urlencoded . For example, your header could look like this: Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ= Content-Type: application/x-www-form-urlencoded
+*   Set up the request body as follows: grant\_type=password&username= <your&nbsp;AudienceManager&nbsp;user&nbsp;name>& password= <your&nbsp;AudienceManager&nbsp;password>
+
+### Step 3: Receive the Token
+
+The JSON response contains your access token. The response should look like this: 
+
+```json
+{
+    "access\_token": "28fed402-eafd-456c-9341-ac753f25bbbc",
+    "token\_type": "bearer",
+    "refresh\_token": "b27122c0-b0c7-4b39-a71b-1547a3b3b88e",
+    "expires\_in": 21922,
+    "scope": "read write"
+}
+```
+
+The "expires\_in" key represents the number of seconds until the access token expires. As best practice, use short expiration times to limit exposure if the token is ever exposed.
 
 ## Refresh Token {#section_6671766BA28A4EADB5925F56267B343E}
 
@@ -148,53 +119,32 @@ If your access token has expired, you receive a `401 Status Code` and the follow
 
 The following table outlines the workflow for using a refresh token to create a new access token from a JSON client in your browser.
 
-<table id="table_875413EA6F124BBD831194D785A774DB"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Process Step </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr valign="top"> 
-   <td colname="col1"> <b>Request the New Token</b> </td> 
-   <td colname="col2"> <p>Pass in a refresh token request with your preferred JSON client. When you build the request: 
-     <ul id="ul_49608127094F42A69886A66B85F87B0E"> 
-      <li id="li_0244743C33DB4BB7A3AB19064C22B44E">Use a <span class="codeph"> POST </span> method to call <span class="codeph"> https://api.demdex.com/oauth/token </span>. </li> 
-      <li id="li_88BC61A4393542D3B3B7FB25156B1FB3">Convert your client ID and secret to a base-64 encoded string. Separate the ID and secret with a colon during the conversion process. For example, the credentials <span class="codeph"> testId </span>: <span class="codeph"> testSecret </span> convert to <span class="codeph"> dGVzdElkOnRlc3RTZWNyZXQ= </span>. </li> 
-      <li id="li_06CFB45DA2C84859ADE6591218E413F1">Pass in the HTTP headers <span class="codeph"> Authorization:Basic <span class="varname"> &lt;base-64 clientID:clientSecret&gt; </span> </span> and <span class="codeph"> Content-Type: application/x-www-form-urlencoded </span>. For example, your header could look like this: 
-       <codeblock>
-         Authorization:&nbsp;Basic&nbsp;dGVzdElkOnRlc3RTZWNyZXQ= 
-        
-Content-Type:&nbsp;application/x-www-form-urlencoded 
-       </codeblock> </li> 
-      <li id="li_14595B35956D4876BE8661BB7FFC0839">In the request body, specify the <span class="codeph"> grant_type:refresh_token </span> and pass in the refresh token you received in your previous access request. The request should look like this: 
-       <codeblock>
-         grant_type=refresh_token&amp;refresh_token=b27122c0-b0c7-4b39-a71b-1547a3b3b88e 
-       </codeblock> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td colname="col1"> <b>Receive the New Token</b> </td> 
-   <td colname="col2"> <p>The JSON response contains your new access token. The response should look like this: 
-     <codeblock>
-       { 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;"access_token":&nbsp;"4fdfc261-2ffc-4fb7-8dbd-64221714c45f", 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;"token_type":&nbsp;"bearer", 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;"refresh_token":&nbsp;"295fa487-1825-4caa-a715-80b81ac17dae", 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;"expires_in":&nbsp;21922, 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;"scope":&nbsp;"read&nbsp;write" 
-      
-} 
-     </codeblock> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+Process Step
+
+Description
+
+### Step 1: Request the New Token
+
+Pass in a refresh token request with your preferred JSON client. When you build the request:
+
+*   Use a POST method to call https://api.demdex.com/oauth/token .
+*   Convert your client ID and secret to a base-64 encoded string. Separate the ID and secret with a colon during the conversion process. For example, the credentials testId : testSecret convert to dGVzdElkOnRlc3RTZWNyZXQ= .
+*   Pass in the HTTP headers Authorization:Basic <base-64 clientID:clientSecret> and Content-Type: application/x-www-form-urlencoded . For example, your header could look like this: Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ= Content-Type: application/x-www-form-urlencoded
+*   In the request body, specify the grant\_type:refresh\_token and pass in the refresh token you received in your previous access request. The request should look like this: grant\_type=refresh\_token&refresh\_token=b27122c0-b0c7-4b39-a71b-1547a3b3b88e
+
+### Step 2: Receive the New Token
+
+The JSON response contains your new access token. The response should look like this: 
+
+```json
+{
+    "access\_token": "4fdfc261-2ffc-4fb7-8dbd-64221714c45f",
+    "token\_type": "bearer",
+    "refresh\_token": "295fa487-1825-4caa-a715-80b81ac17dae",
+    "expires\_in": 21922,
+    "scope": "read write"
+}
+```
 
 ## Authorization Code and Implicit Authentication {#section_315C16DF045C4E73B81426CD98EA730B}
 
@@ -237,54 +187,16 @@ c_rest_api_optional.xml
 
 You can use these optional parameters with API methods that return *all* properties for an object. Set these options in the request string when passing that query in to the API.  
 
-<table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Parameter </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr valign="top"> 
-   <td colname="col1"> <span class="codeph"> page </span> </td> 
-   <td colname="col2"> Returns results by page number. Numbering starts at 0. </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td colname="col1"> <span class="codeph"> pageSize </span> </td> 
-   <td colname="col2"> Sets the number of response results returned by the request (10 is default). </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td colname="col1"> <span class="codeph"> sortBy </span> </td> 
-   <td colname="col2"> Sorts and returns results according to the specified JSON property. </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td colname="col1"> <span class="codeph"> descending </span> </td> 
-   <td colname="col2"> Sorts and returns results in descending order. Ascending is default. </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td colname="col1"> <span class="codeph"> search </span> </td> 
-   <td colname="col2"> Returns results based on the specified string you want to use as a search parameter. For example, let's say you want to find results for all models that have the word "Test" in any of the value fields for that item. Your sample request could look like this: <p> <span class="codeph"> GET https://api.demdex.com/v1/models/?search=Test </span>. </p> <p>You can search on any value returned by a "get all" method. </p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td colname="col1"> <span class="codeph"> folderId </span> </td> 
-   <td colname="col2"> Returns all the IDs for traits inside the specified folder. Not available to all methods. </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td colname="col1"> <span class="codeph"> permissions </span> </td> 
-   <td colname="col2"> <p>Returns a list of segments based on the specified permission. <span class="codeph"> READ </span> is default. Permissions include: 
-     <ul id="ul_389EA328C64448F0BC76E80E13CAB406"> 
-      <li id="li_339A737BC71646699AA337A2243CF992"> <span class="codeph"> READ </span>: Return and view information about a segment. </li> 
-      <li id="li_18EF54637F6849D1A72EEE9FB60E3E5F"> <span class="codeph"> WRITE </span>: Use <span class="codeph"> PUT </span> to update a segment. </li> 
-      <li id="li_8903069EC759441FACBA2C2922A02CA2"> <span class="codeph"> CREATE </span>: Use <span class="codeph"> POST </span> to create a segment. </li> 
-      <li id="li_50F95EE7A08D469F97A555E4AEF7F1EE"> <span class="codeph"> DELETE </span>: Delete a segment. Requires access to underlying traits, if any. For example, you'll need rights to delete the traits that belong to a segment if you want to remove it. </li> 
-     </ul> </p> <p>Specify multiple permissions with separate key-value pairs. For example, to return a list of segments with <span class="codeph"> READ </span> and <span class="codeph"> WRITE </span> permissions only, pass in <span class="codeph"> "permissions":"READ", "permissions":"WRITE" </span>. </p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td colname="col1"> <span class="codeph"> includePermissions </span> </td> 
-   <td colname="col2"> <p>(Boolean) Set to <span class="codeph"> true </span> to return your permissions for the segment. Default is <span class="codeph"> false </span>. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Parameter | Description |
+|--- |--- |
+|page|Returns results by page number. Numbering starts at 0.|
+|pageSize|Sets the number of response results returned by the request (10 is default).|
+|sortBy|Sorts and returns results according to the specified JSON property.|
+|descending|Sorts and returns results in descending order. Ascending is default.|
+|search|Returns results based on the specified string you want to use as a search parameter. For example, let's say you want to find results for all models that have the word "Test" in any of the value fields for that item. Your sample request could look like this:   GET https://api.demdex.com/v1/models/?search=Test .  You can search on any value returned by a "get all" method.|
+|folderId|Returns all the IDs for traits inside the specified folder. Not available to all methods.|
+|permissions|Returns a list of segments based on the specified permission.  READ  is default. Permissions include:<ul><li>READ : Return and view information about a segment.</li><li>WRITE : Use  PUT  to update a segment.</li><li>CREATE : Use  POST  to create a segment.</li><li>DELETE : Delete a segment. Requires access to underlying traits, if any. For example, you'll need rights to delete the traits that belong to a segment if you want to remove it.</li></ul><br>Specify multiple permissions with separate key-value pairs. For example, to return a list of segments with  READ  and  WRITE  permissions only, pass in  "permissions":"READ", "permissions":"WRITE" .|
+|includePermissions|(Boolean) Set to  true  to return your permissions for the segment. Default is  false .|
 
 **A Note About Page Options**
 
@@ -308,64 +220,21 @@ r_rest_urls.xml
 
 The following table lists the request URLs used to pass in API requests, by method. 
 
-<table id="table_C174E7230F6F4D55AC6515FBDBDD265B"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> API Methods </th> 
-   <th colname="col2" class="entry"> Request URL </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr valign="top"> 
-   <td colname="col1"> <b>Algorithmic Modeling</b> </td> 
-   <td colname="col2"> <span class="codeph"> https://api.demdex.com/v1/models/ </span> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td colname="col1"> <b>Data Source</b> </td> 
-   <td colname="col2"> <span class="codeph"> https://api.demdex.com/v1/datasources/ </span> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td colname="col1"> <b>Derived Signals</b> </td> 
-   <td colname="col2"> <span class="codeph"> https://api.demdex.com/v1/signals/derived/ </span> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td colname="col1"> <b>Destinations</b> </td> 
-   <td colname="col2"> <span class="codeph"> https://api.demdex.com/v1/destinations/ </span> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td colname="col1"> <b>Domains</b> </td> 
-   <td colname="col2"> <span class="codeph"> https://api.demdex.com/v1/partner-sites/ </span> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td colname="col1"> <b>Folders</b> </td> 
-   <td colname="col2"> 
-    <ul id="ul_DF2B28E0D85340398D6E00B0BBC2B9B4"> 
-     <li id="li_271CAE6807EB4428A77C26F60EFE813D">Traits: <span class="codeph"> https://api.demdex.com/v1/folders/traits </span>/ </li> 
-     <li id="li_B3CE481EAA7B4E1E9DD7857A9E5BF297">Segments: <span class="codeph"> https://api.demdex.com/v1/folders/segments </span>/ </li> 
-    </ul> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td colname="col1"> <b>Schema</b> </td> 
-   <td colname="col2"> <span class="codeph"> https://api.demdex.com/v1/schemas/ </span> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td colname="col1"> <b>Segments</b> </td> 
-   <td colname="col2"> <span class="codeph"> https://api.demdex.com/v1/segments/ </span> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td colname="col1"> <b>Traits</b> </td> 
-   <td colname="col2"> <span class="codeph"> https://api.demdex.com/v1/traits/ </span> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td colname="col1"> <b>Trait Types</b> </td> 
-   <td colname="col2"> <span class="codeph"> https://api.demdex.com/v1/customer-trait-types </span> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td colname="col1"> <b> Taxonomy</b> </td> 
-   <td colname="col2"> <span class="codeph"> https://api.demdex.com/v1/taxonomies/0/ </span> </td> 
-  </tr> 
- </tbody> 
-</table>
+| API Methods | Request URL |
+|--- |--- |
+|Algorithmic Modeling|https://api.demdex.com/v1/models/|
+|Data Source|https://api.demdex.com/v1/datasources/|
+|Derived Signals|https://api.demdex.com/v1/signals/derived/|
+|Destinations|https://api.demdex.com/v1/destinations/|
+|Domains|https://api.demdex.com/v1/partner-sites/|
+|Folders|Traits:  https://api.demdex.com/v1/folders/traits /  
+     Segments:  https://api.demdex.com/v1/folders/segments /|
+|Schema|https://api.demdex.com/v1/schemas/|
+|Segments|https://api.demdex.com/v1/segments/|
+|Traits|https://api.demdex.com/v1/traits/|
+|Trait Types|https://api.demdex.com/v1/customer-trait-types|
+|Taxonomy|https://api.demdex.com/v1/taxonomies/0/|
+
 
 ## Environments {#section_5B33F1445F9C49C896C4E9240B5F0CCD}
 
