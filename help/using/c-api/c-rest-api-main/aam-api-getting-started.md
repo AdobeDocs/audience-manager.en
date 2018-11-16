@@ -222,19 +222,17 @@ The following table lists the request URLs used to pass in API requests, by meth
 
 | API Methods | Request URL |
 |--- |--- |
-|Algorithmic Modeling|https://api.demdex.com/v1/models/|
-|Data Source|https://api.demdex.com/v1/datasources/|
-|Derived Signals|https://api.demdex.com/v1/signals/derived/|
-|Destinations|https://api.demdex.com/v1/destinations/|
-|Domains|https://api.demdex.com/v1/partner-sites/|
-|Folders|Traits:  https://api.demdex.com/v1/folders/traits /  
-     Segments:  https://api.demdex.com/v1/folders/segments /|
-|Schema|https://api.demdex.com/v1/schemas/|
-|Segments|https://api.demdex.com/v1/segments/|
-|Traits|https://api.demdex.com/v1/traits/|
-|Trait Types|https://api.demdex.com/v1/customer-trait-types|
-|Taxonomy|https://api.demdex.com/v1/taxonomies/0/|
-
+|Algorithmic Modeling|`https://api.demdex.com/v1/models/`|
+|Data Source|`https://api.demdex.com/v1/datasources/`|
+|Derived Signals|`https://api.demdex.com/v1/signals/derived/`|
+|Destinations|`https://api.demdex.com/v1/destinations/`|
+|Domains|`https://api.demdex.com/v1/partner-sites/`|
+|Folders|Traits:  `https://api.demdex.com/v1/folders/traits /`<br>Segments:  `https://api.demdex.com/v1/folders/segments /`|
+|Schema|`https://api.demdex.com/v1/schemas/`|
+|Segments|`https://api.demdex.com/v1/segments/`|
+|Traits|`https://api.demdex.com/v1/traits/`|
+|Trait Types|`https://api.demdex.com/v1/customer-trait-types`|
+|Taxonomy|`https://api.demdex.com/v1/taxonomies/0/`|
 
 ## Environments {#section_5B33F1445F9C49C896C4E9240B5F0CCD}
 
