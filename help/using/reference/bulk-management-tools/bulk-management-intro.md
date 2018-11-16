@@ -68,12 +68,12 @@ The table below lists the operations you can perform and items you can manipulat
      </ul> </p> </td> 
    <td colname="col2"> <p>The objects you can change in bulk are located under the <span class="uicontrol"> Headers</span> tab and include: </p> <p> 
      <ul id="ul_A7A96F2B1B63430B9A1E1184AC5FA8F2"> 
-      <li id="li_E3D9E2E190B04BE685337AC6140C371C"> <a href="../../c-features/datasources-list-and-settings.md#concept_DC7CC030739C436C947078C7877C15AD" format="dita" scope="local"> Data sources</a> </li> 
-      <li id="li_B645385E40684FA28770913EAF18CB2C"> <a href="../../c-features/derived-signals.md#concept_36FF7303F39E4748AC048D08F9E371C6" format="dita" scope="local"> Derived signals</a> </li> 
-      <li id="li_9059F8C4A41A410899BDEFC76D3F5949"> <a href="../../c-features/destinations/destinations.md#concept_5BDA346C376C4B719EA394108AB2735A" format="dita" scope="local"> Destinations</a> </li> 
-      <li id="li_BB5A445150754E53AA38C78461326932"> <a href="../../c-features/traits/trait-storage.md#concept_492988EC858545AAA5D1B8F06D273BDD" format="dita" scope="local"> Trait folders</a> and segment folders </li> 
-      <li id="li_7A27DBF64E0945CF8AE8C96E8C6EDA09"> <a href="../../c-features/c-segments/c-segments.md#concept_2044B3AC34AC46669EE7D9292380BE0C" format="dita" scope="local"> Segments</a> </li> 
-      <li id="li_A4640A34930040DEA8555EAF0AE2A702"> <a href="../../c-features/traits/traits.md#concept_422CE72B2125457B8C2954BF06102332" format="dita" scope="local"> Traits</a> </li> 
+      <li id="li_E3D9E2E190B04BE685337AC6140C371C"> <a href="../../c-features/datasources-list-and-settings.md#concept_DC7CC030739C436C947078C7877C15AD"> Data sources</a> </li> 
+      <li id="li_B645385E40684FA28770913EAF18CB2C"> <a href="../../c-features/derived-signals.md#concept_36FF7303F39E4748AC048D08F9E371C6"> Derived signals</a> </li> 
+      <li id="li_9059F8C4A41A410899BDEFC76D3F5949"> <a href="../../c-features/destinations/destinations.md#concept_5BDA346C376C4B719EA394108AB2735A"> Destinations</a> </li> 
+      <li id="li_BB5A445150754E53AA38C78461326932"> <a href="../../c-features/traits/trait-storage.md#concept_492988EC858545AAA5D1B8F06D273BDD"> Trait folders</a> and segment folders </li> 
+      <li id="li_7A27DBF64E0945CF8AE8C96E8C6EDA09"> <a href="../../c-features/c-segments/c-segments.md#concept_2044B3AC34AC46669EE7D9292380BE0C"> Segments</a> </li> 
+      <li id="li_A4640A34930040DEA8555EAF0AE2A702"> <a href="../../c-features/traits/traits.md#concept_422CE72B2125457B8C2954BF06102332"> Traits</a> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 

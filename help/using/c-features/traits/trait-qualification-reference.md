@@ -16,9 +16,9 @@ snippet: y
 Trait qualification, or trait realization, is treated differently in Audience Manager, depending on trait type. See the table below for detailed information on trait qualification.
 
 <ul class="simplelist"> 
- <li> <a href="../../c-features/traits/trait-qualification-reference.md#section_0659B10780B74120BCB41C01B0CDC7FF" format="dita" scope="local"> Trait Qualification by Trait Type </a> </li> 
- <li><a href="../../c-features/traits/trait-qualification-reference.md#section_37003E4C35A8484D8096C9970CB12E56" format="dita" scope="local"> Unique Trait Realizations and Total Trait Population</a> </li> 
- <li><a href="../../c-features/traits/trait-qualification-reference.md#section_CA54FECC85114000A1907C1D4535AB2D" format="dita" scope="local"> Trait Qualification Limit </a> </li> 
+ <li> <a href="../../c-features/traits/trait-qualification-reference.md#section_0659B10780B74120BCB41C01B0CDC7FF"> Trait Qualification by Trait Type </a> </li> 
+ <li><a href="../../c-features/traits/trait-qualification-reference.md#section_37003E4C35A8484D8096C9970CB12E56"> Unique Trait Realizations and Total Trait Population</a> </li> 
+ <li><a href="../../c-features/traits/trait-qualification-reference.md#section_CA54FECC85114000A1907C1D4535AB2D"> Trait Qualification Limit </a> </li> 
 </ul>
 
 ## Trait Qualification by Trait Type {#section_0659B10780B74120BCB41C01B0CDC7FF}
@@ -33,11 +33,11 @@ Trait qualification, or trait realization, is treated differently in Audience Ma
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Rule-based Traits </p> </td> 
-   <td colname="col2"> <p>Trait qualification happens in real-time, as users qualify for a trait in their browser. Your users will start qualifying for a rule-based trait approximately 4 hours after you <a href="../../c-features/traits/create-onboarded-rule-based-traits.md#concept_CFCB78FDF44A42BCA69C948A2C8EC3D5" format="dita" scope="local"> create the trait</a> in the UI. </p> <p>Rule-based traits allow you to use <a href="../../c-features/c-segments/recency-and-frequency.md#concept_957D9E1977774D28A98ACEE6035E7B37" format="dita" scope="local"> recency and frequency</a> controls for ad frequency capping and other use cases. </p> </td> 
+   <td colname="col2"> <p>Trait qualification happens in real-time, as users qualify for a trait in their browser. Your users will start qualifying for a rule-based trait approximately 4 hours after you <a href="../../c-features/traits/create-onboarded-rule-based-traits.md#concept_CFCB78FDF44A42BCA69C948A2C8EC3D5"> create the trait</a> in the UI. </p> <p>Rule-based traits allow you to use <a href="../../c-features/c-segments/recency-and-frequency.md#concept_957D9E1977774D28A98ACEE6035E7B37"> recency and frequency</a> controls for ad frequency capping and other use cases. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Onboarded Traits </p> </td> 
-   <td colname="col2"> <p>Trait qualification happens after an inbound file is processed, i.e. the inbound file is <a href="../../faq/faq-inbound-data-ingestion.md#concept_CA81A40C5DD643F899490355C737CE9C" format="dita" scope="local"> imported into Audience Manager</a> and that is when the trait qualification happens. </p> <p> For onboarded traits, the maximum number of qualifications for a user profile is 1. </p> </td> 
+   <td colname="col2"> <p>Trait qualification happens after an inbound file is processed, i.e. the inbound file is <a href="../../faq/faq-inbound-data-ingestion.md#concept_CA81A40C5DD643F899490355C737CE9C"> imported into Audience Manager</a> and that is when the trait qualification happens. </p> <p> For onboarded traits, the maximum number of qualifications for a user profile is 1. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Algorithmic Traits </p> </td> 
@@ -45,11 +45,11 @@ Trait qualification, or trait realization, is treated differently in Audience Ma
   </tr> 
   <tr> 
    <td colname="col1"> <p>Folder Traits </p> </td> 
-   <td colname="col2"> <p>A folder trait sums up the trait qualifications of the traits it contains. </p> <p>Read <a href="../../c-features/traits/about-folder-traits.md#concept_D68F33E7F99243CEB9D11D354ECB53AD" format="dita" scope="local"> Folder Traits: About</a> for more information. </p> </td> 
+   <td colname="col2"> <p>A folder trait sums up the trait qualifications of the traits it contains. </p> <p>Read <a href="../../c-features/traits/about-folder-traits.md#concept_D68F33E7F99243CEB9D11D354ECB53AD"> Folder Traits: About</a> for more information. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Active Audience Traits and Data Source Synced Traits </p> </td> 
-   <td colname="col2"> <p>An <span class="wintitle"> Active Audience</span> trait contains all of the devices under management in your <span class="wintitle"> Audience Manager</span> account. </p> <p><span class="wintitle"> Data Source Synced Traits</span> track all of the users associated with a data source. </p> <p>Read more about <a href="../../c-features/traits/client-activity-synced-audience-traits.md#concept_7D3F4AF1FAD440509956632B8A51E64D" format="dita" scope="local"> Active Audience Traits and Data Source Synced Traits</a>. </p> </td> 
+   <td colname="col2"> <p>An <span class="wintitle"> Active Audience</span> trait contains all of the devices under management in your <span class="wintitle"> Audience Manager</span> account. </p> <p><span class="wintitle"> Data Source Synced Traits</span> track all of the users associated with a data source. </p> <p>Read more about <a href="../../c-features/traits/client-activity-synced-audience-traits.md#concept_7D3F4AF1FAD440509956632B8A51E64D"> Active Audience Traits and Data Source Synced Traits</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

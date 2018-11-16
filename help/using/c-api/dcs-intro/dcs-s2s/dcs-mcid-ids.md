@@ -51,7 +51,7 @@ Code in *italics* represents a variable placeholder.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>4. Retrieve the <span class="keyword"> Experience Cloud ID</span> with getMarketingCloudVisitorID</b> </p> </td> 
-   <td colname="col2"> <p><i>(Optional)</i> This function returns the <span class="keyword"> Experience Cloud</span> visitor ID. It is designed for custom solutions and specific use cases. See <a href="../../../c-api/dcs-intro/dcs-s2s/dcs-mcid-ids.md#section_0D6CAAA7A2404EB59274CA35DCB5E65B" format="dita" scope="local"> Working With getMarketingCloudVisitorID</a> below and the <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-getmcvid.html" format="https" scope="external"> related ID service documentation</a>. </p> <p>You don't need to use this if you get the user and location IDs from the ID service cookie. </p> </td> 
+   <td colname="col2"> <p><i>(Optional)</i> This function returns the <span class="keyword"> Experience Cloud</span> visitor ID. It is designed for custom solutions and specific use cases. See <a href="../../../c-api/dcs-intro/dcs-s2s/dcs-mcid-ids.md#section_0D6CAAA7A2404EB59274CA35DCB5E65B"> Working With getMarketingCloudVisitorID</a> below and the <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-getmcvid.html" format="https" scope="external"> related ID service documentation</a>. </p> <p>You don't need to use this if you get the user and location IDs from the ID service cookie. </p> </td> 
   </tr> 
  </tbody> 
 </table>

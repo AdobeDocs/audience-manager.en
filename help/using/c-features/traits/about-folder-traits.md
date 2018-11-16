@@ -18,11 +18,11 @@ Folder traits let you automatically aggregate traits that reside within the same
 Contents:
 
 <ul class="simplelist"> 
- <li> <a href="../../c-features/traits/about-folder-traits.md#section_1CF315E0BC734FD69B0725F2ADBA1B1B" format="dita" scope="local"> Benefits of Using Folder Traits </a> </li> 
- <li> <a href="../../c-features/traits/about-folder-traits.md#section_7BBCE65C238C467599ECCACC4597D296" format="dita" scope="local"> Folder Traits Realization - Recency and Frequency </a> </li> 
- <li> <a href="../../c-features/traits/about-folder-traits.md#section_FF4A75E342A043F3914873CC0657E0EE" format="dita" scope="local"> Folder Trait Reporting </a> </li> 
- <li> <a href="../../c-features/traits/about-folder-traits.md#section_FB11C9F6F6F542328A6F1F22C40C2220" format="dita" scope="local"> Role-Based Access Controls (RBAC) Permissions </a> </li> 
- <li> <a href="../../c-features/traits/about-folder-traits.md#section_9680EBC0F862495B9E3272D001395794" format="dita" scope="local"> Limits and Other Considerations </a> </li> 
+ <li> <a href="../../c-features/traits/about-folder-traits.md#section_1CF315E0BC734FD69B0725F2ADBA1B1B"> Benefits of Using Folder Traits </a> </li> 
+ <li> <a href="../../c-features/traits/about-folder-traits.md#section_7BBCE65C238C467599ECCACC4597D296"> Folder Traits Realization - Recency and Frequency </a> </li> 
+ <li> <a href="../../c-features/traits/about-folder-traits.md#section_FF4A75E342A043F3914873CC0657E0EE"> Folder Trait Reporting </a> </li> 
+ <li> <a href="../../c-features/traits/about-folder-traits.md#section_FB11C9F6F6F542328A6F1F22C40C2220"> Role-Based Access Controls (RBAC) Permissions </a> </li> 
+ <li> <a href="../../c-features/traits/about-folder-traits.md#section_9680EBC0F862495B9E3272D001395794"> Limits and Other Considerations </a> </li> 
 </ul>
 
 ## Benefits of Using Folder Traits {#section_1CF315E0BC734FD69B0725F2ADBA1B1B}

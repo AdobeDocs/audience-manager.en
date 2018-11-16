@@ -23,8 +23,8 @@ faq_privacy.xml
 Contents:
 
 <ul class="simplelist"> 
- <li> <a href="../faq/faq-privacy.md#section_F3C1DAF4F16F43B9AE817B8828C3DD74" format="dita" scope="local"> Privacy FAQ </a> </li> 
- <li> <a href="../faq/faq-privacy.md#section_20FF2BAAAA504153B36C420A5ECFB458" format="dita" scope="local"> Data Retention FAQ </a> </li> 
+ <li> <a href="../faq/faq-privacy.md#section_F3C1DAF4F16F43B9AE817B8828C3DD74"> Privacy FAQ </a> </li> 
+ <li> <a href="../faq/faq-privacy.md#section_20FF2BAAAA504153B36C420A5ECFB458"> Data Retention FAQ </a> </li> 
 </ul>
 
 ## Privacy FAQ {#section_F3C1DAF4F16F43B9AE817B8828C3DD74}
@@ -82,11 +82,11 @@ The following table lists the retention times for different data types and stora
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mobile Device IDs </p> </td> 
-   <td colname="col2"> <p>The retention conditions for mobile device IDs (<a href="../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8" format="dita" scope="local"> IDFA, GAID</a>) follow the cadence described in the first two rows, back-end servers and edge servers. </p> </td> 
+   <td colname="col2"> <p>The retention conditions for mobile device IDs (<a href="../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8"> IDFA, GAID</a>) follow the cadence described in the first two rows, back-end servers and edge servers. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Customer Data Feeds (CDF) </p> </td> 
-   <td colname="col2"> <p>A CDF file contains the same data that an <span class="keyword"> Audience Manager</span> event call (/event) sends to our servers. The retention period is 8 days. For more details about CDF, please refer to <a href="../c-features/cdf-files.md#concept_114B993EC5E246AE8CDD55E695B344FC" format="dita" scope="local"> CDF Intro</a> and <a href="../faq/faq-cdf.md#concept_E832A7307FA0475C918F95116C21CBC6" format="dita" scope="local"> CDF FAQ</a>. </p> </td> 
+   <td colname="col2"> <p>A CDF file contains the same data that an <span class="keyword"> Audience Manager</span> event call (/event) sends to our servers. The retention period is 8 days. For more details about CDF, please refer to <a href="../c-features/cdf-files.md#concept_114B993EC5E246AE8CDD55E695B344FC"> CDF Intro</a> and <a href="../faq/faq-cdf.md#concept_E832A7307FA0475C918F95116C21CBC6"> CDF FAQ</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mappings between synchronized IDs </p> </td> 
@@ -94,11 +94,11 @@ The following table lists the retention times for different data types and stora
   </tr> 
   <tr> 
    <td colname="col1"> <p>Inbound data </p> </td> 
-   <td colname="col2"> <p>This is inbound data you send to <span class="keyword"> Audience Manager</span> by FTP or directly to an <span class="keyword"> Amazon S3</span> directory. See the <a href="../faq/faq-inbound-data-ingestion.md#concept_CA81A40C5DD643F899490355C737CE9C" format="dita" scope="local"> Inbound Customer Data Ingestion FAQ</a>. </p> </td> 
+   <td colname="col2"> <p>This is inbound data you send to <span class="keyword"> Audience Manager</span> by FTP or directly to an <span class="keyword"> Amazon S3</span> directory. See the <a href="../faq/faq-inbound-data-ingestion.md#concept_CA81A40C5DD643F899490355C737CE9C"> Inbound Customer Data Ingestion FAQ</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Outbound data </p> </td> 
-   <td colname="col2"> <p>This is the batch data that <span class="keyword"> Audience Manager</span> sends to third party activation partners. The retention period is 8 days. For more details about Outbound data, please refer to <a href="../c-integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-transfers.md#concept_11A07DEA9D49404A94C62931B8499E43" format="dita" scope="local"> Outbound Batch Transfers</a>. </p> </td> 
+   <td colname="col2"> <p>This is the batch data that <span class="keyword"> Audience Manager</span> sends to third party activation partners. The retention period is 8 days. For more details about Outbound data, please refer to <a href="../c-integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-transfers.md#concept_11A07DEA9D49404A94C62931B8499E43"> Outbound Batch Transfers</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -121,7 +121,7 @@ The table below lists the retention options for trait qualifications.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Trait limit reached </p> </td> 
-   <td colname="col2"> <p>We impose a limit of 100,000 trait qualifications for each user profile. The limit applies to authenticated profiles and device profiles. If a user profile reaches this limit, we will delete the oldest trait qualifications, on a first-in, first-out basis. </p> <p>For more details, read our <a href="../c-features/traits/trait-qualification-reference.md#section_CA54FECC85114000A1907C1D4535AB2D" format="dita" scope="local"> Trait Qualification Limit</a>. </p> </td> 
+   <td colname="col2"> <p>We impose a limit of 100,000 trait qualifications for each user profile. The limit applies to authenticated profiles and device profiles. If a user profile reaches this limit, we will delete the oldest trait qualifications, on a first-in, first-out basis. </p> <p>For more details, read our <a href="../c-features/traits/trait-qualification-reference.md#section_CA54FECC85114000A1907C1D4535AB2D"> Trait Qualification Limit</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

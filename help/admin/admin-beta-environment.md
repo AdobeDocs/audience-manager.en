@@ -34,12 +34,12 @@ beta_environment_admin.xml
   <tr> 
    <td colname="col1"> FTP </td> 
    <td colname="col2"> <span class="filepath"> sandbox-ftp-in.demdex.com</span> </td> 
-   <td colname="col3"> <p>See <a href="admin-beta-environment.md#section_59499FFC55834D50B9A9105B405BAC9D" format="dita" scope="local"> Provision Amazon S3 Buckets and FTP / SFTP for Inbound and Outbound Data</a>. </p> </td> 
+   <td colname="col3"> <p>See <a href="admin-beta-environment.md#section_59499FFC55834D50B9A9105B405BAC9D"> Provision Amazon S3 Buckets and FTP / SFTP for Inbound and Outbound Data</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> DCS </span> </td> 
    <td colname="col2"> <span class="filepath"> https://dcs-beta.demdex.net/...</span> </td> 
-   <td colname="col3"> <p>No extra steps needed from our side. See <a href="admin-beta-environment.md#section_89A9CAB8A0784BF5A7DBA1C8F596CB82" format="dita" scope="local"> Access the DCS in the Beta Environment</a>. </p> </td> 
+   <td colname="col3"> <p>No extra steps needed from our side. See <a href="admin-beta-environment.md#section_89A9CAB8A0784BF5A7DBA1C8F596CB82"> Access the DCS in the Beta Environment</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> UI </td> 

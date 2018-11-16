@@ -34,11 +34,11 @@ Column header labels defined.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> dataSourceId</span> </p> </td> 
-   <td colname="col2"> <p>The ID of a <a href="../../c-features/datasources-list-and-settings.md#concept_DC7CC030739C436C947078C7877C15AD" format="dita" scope="local"> data source</a> you want to return or assign in bulk. </p> </td> 
+   <td colname="col2"> <p>The ID of a <a href="../../c-features/datasources-list-and-settings.md#concept_DC7CC030739C436C947078C7877C15AD"> data source</a> you want to return or assign in bulk. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> derivedSignalId</span> </p> </td> 
-   <td colname="col2"> <p>A <a href="../../c-features/derived-signals.md#concept_36FF7303F39E4748AC048D08F9E371C6" format="dita" scope="local"> derived signal</a> ID. </p> </td> 
+   <td colname="col2"> <p>A <a href="../../c-features/derived-signals.md#concept_36FF7303F39E4748AC048D08F9E371C6"> derived signal</a> ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> description</span> </p> </td> 
@@ -46,7 +46,7 @@ Column header labels defined.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> destinationId</span> </p> </td> 
-   <td colname="col2"> <p>The ID of the <a href="../../c-features/destinations/destinations.md#concept_5BDA346C376C4B719EA394108AB2735A" format="dita" scope="local"> destination</a> you want to map or delete. </p> </td> 
+   <td colname="col2"> <p>The ID of the <a href="../../c-features/destinations/destinations.md#concept_5BDA346C376C4B719EA394108AB2735A"> destination</a> you want to map or delete. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> destinationMappingId</span> </p> </td> 
@@ -70,11 +70,11 @@ Column header labels defined.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> sourceKey</span> </p> </td> 
-   <td colname="col2"> <p>Signals are bits of data passed in to <span class="keyword"> Audience Manager</span> based on user activity. These are transmitted as <a href="../../reference/key-value-pairs-explained.md#concept_E4236E003076483AA939791FE2492B49" format="dita" scope="local"> key-value pairs</a>. The source key is a constant that does not change. It helps categorize the source value which can change. See <a href="../../c-features/derived-signals.md#concept_36FF7303F39E4748AC048D08F9E371C6" format="dita" scope="local"> Derived Signals</a>. </p> </td> 
+   <td colname="col2"> <p>Signals are bits of data passed in to <span class="keyword"> Audience Manager</span> based on user activity. These are transmitted as <a href="../../reference/key-value-pairs-explained.md#concept_E4236E003076483AA939791FE2492B49"> key-value pairs</a>. The source key is a constant that does not change. It helps categorize the source value which can change. See <a href="../../c-features/derived-signals.md#concept_36FF7303F39E4748AC048D08F9E371C6"> Derived Signals</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> sourceValue</span> </p> </td> 
-   <td colname="col2"> <p>The source value is a variable passed in as part a <a href="../../reference/key-value-pairs-explained.md#concept_E4236E003076483AA939791FE2492B49" format="dita" scope="local"> key-value pair</a>. </p> </td> 
+   <td colname="col2"> <p>The source value is a variable passed in as part a <a href="../../reference/key-value-pairs-explained.md#concept_E4236E003076483AA939791FE2492B49"> key-value pair</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> startDate</span> </p> </td> 
@@ -90,11 +90,11 @@ Column header labels defined.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitAlias</span> </p> </td> 
-   <td colname="col2"> <p>An ID passed to a non-cookie based destination. For a cookie-based destination, this is the key in a <a href="../../reference/key-value-pairs-explained.md#concept_E4236E003076483AA939791FE2492B49" format="dita" scope="local"> key-value pair</a>. </p> </td> 
+   <td colname="col2"> <p>An ID passed to a non-cookie based destination. For a cookie-based destination, this is the key in a <a href="../../reference/key-value-pairs-explained.md#concept_E4236E003076483AA939791FE2492B49"> key-value pair</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitRule / segmentRule</span> </p> </td> 
-   <td colname="col2"> <p>The actual trait or segment rule used to collect data. A bulk request returns the rules created in <span class="keyword"> Audience Manager</span> with the <a href="../../c-features/traits/about-trait-builder.md#concept_BCDC4BCAEB4A4879AFA4A9B98D9ED369" format="dita" scope="local"> trait rule builder</a> or the <a href="../../c-features/c-segments/segment-builder.md#concept_FABA1F399CFD4E83B874043638D0FA54" format="dita" scope="local"> segment rule builder</a>. You can also use these tools to build rules and apply them in bulk when you update a segment or trait. </p> <p>See also, <a href="../../reference/bulk-management-tools/bulk-rules.md#concept_0C752BE1F2E74FEE9611385DE08EB7D2" format="dita" scope="local"> Create or Update Trait Rules and Segment Rules</a>. </p> </td> 
+   <td colname="col2"> <p>The actual trait or segment rule used to collect data. A bulk request returns the rules created in <span class="keyword"> Audience Manager</span> with the <a href="../../c-features/traits/about-trait-builder.md#concept_BCDC4BCAEB4A4879AFA4A9B98D9ED369"> trait rule builder</a> or the <a href="../../c-features/c-segments/segment-builder.md#concept_FABA1F399CFD4E83B874043638D0FA54"> segment rule builder</a>. You can also use these tools to build rules and apply them in bulk when you update a segment or trait. </p> <p>See also, <a href="../../reference/bulk-management-tools/bulk-rules.md#concept_0C752BE1F2E74FEE9611385DE08EB7D2"> Create or Update Trait Rules and Segment Rules</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitType</span> </p> </td> 
@@ -111,7 +111,7 @@ Column header labels defined.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> valueAlias</span> </p> </td> 
-   <td colname="col2"> <p>The key in a <a href="../../reference/key-value-pairs-explained.md#concept_E4236E003076483AA939791FE2492B49" format="dita" scope="local"> key-value pair</a> passed to a cookie destination. </p> </td> 
+   <td colname="col2"> <p>The key in a <a href="../../reference/key-value-pairs-explained.md#concept_E4236E003076483AA939791FE2492B49"> key-value pair</a> passed to a cookie destination. </p> </td> 
   </tr> 
  </tbody> 
 </table>

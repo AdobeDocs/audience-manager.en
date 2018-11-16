@@ -17,10 +17,10 @@ Profile Link metrics provide data about people and devices that authenticate to 
 Contents:
 
 <ul class="simplelist"> 
- <li> <a href="../../c-features/profile-merge-rules/profile-link-metrics.md#section_23F45E4C374241709A246058F4D92A23" format="dita" scope="local"> Merge Rule Metrics</a> </li> 
- <li> <a href="../../c-features/profile-merge-rules/profile-link-metrics.md#section_E7862CA6AC9D4E04ADA75A235DC29B64" format="dita" scope="local"> Device Graph Metrics</a> </li> 
- <li> <a href="../../c-features/profile-merge-rules/profile-link-metrics.md#section_44086DF2594A4A60916A7077851F75BA" format="dita" scope="local"> Sample Reports</a> </li> 
- <li> <a href="../../c-features/profile-merge-rules/profile-link-metrics.md#section_5A834A740513416B8A3533AE24357569" format="dita" scope="local"> Profile Link Trend Graphs</a> </li> 
+ <li> <a href="../../c-features/profile-merge-rules/profile-link-metrics.md#section_23F45E4C374241709A246058F4D92A23"> Merge Rule Metrics</a> </li> 
+ <li> <a href="../../c-features/profile-merge-rules/profile-link-metrics.md#section_E7862CA6AC9D4E04ADA75A235DC29B64"> Device Graph Metrics</a> </li> 
+ <li> <a href="../../c-features/profile-merge-rules/profile-link-metrics.md#section_44086DF2594A4A60916A7077851F75BA"> Sample Reports</a> </li> 
+ <li> <a href="../../c-features/profile-merge-rules/profile-link-metrics.md#section_5A834A740513416B8A3533AE24357569"> Profile Link Trend Graphs</a> </li> 
 </ul>
 
 ## Merge Rule Metrics {#section_23F45E4C374241709A246058F4D92A23}
@@ -40,7 +40,7 @@ Reports return data in side-by-side bar graphs when your merge rules use data fr
    <td colname="col2"> <p>Shows: </p> 
     <ul id="ul_7F7373919A4A49028EF4BF7B28D9F8E9"> 
      <li id="li_FE2F93C496D64ED8928B3E522C9585EA"> <span class="wintitle"> Active People</span>: The number of people who have authenticated to your site for the last 60-days. </li> 
-     <li id="li_60CFD26EE68B442683C0ED5FED1A79C8"> <span class="wintitle"> Cross Device</span>: The total number of <a href="../../c-features/profile-merge-rules/merge-rules-start.md#concept_3B7696B3EC77416492D3B99EBD79EA44" format="dita" scope="local"> Cross Device IDs</a> stored in the <a href="../../c-features/manage-datasources.md#concept_3B7696B3EC77416492D3B99EBD79EA44" format="dita" scope="local"> Data Source</a> of the selected <a href="../../c-features/profile-merge-rules/merge-rule-definitions.md#concept_44FFF67CD9654DB2B43ECA13C2FD1CE0" format="dita" scope="local"> Authenticated Profile</a> for the lifetime that the data source has existed. </li> 
+     <li id="li_60CFD26EE68B442683C0ED5FED1A79C8"> <span class="wintitle"> Cross Device</span>: The total number of <a href="../../c-features/profile-merge-rules/merge-rules-start.md#concept_3B7696B3EC77416492D3B99EBD79EA44"> Cross Device IDs</a> stored in the <a href="../../c-features/manage-datasources.md#concept_3B7696B3EC77416492D3B99EBD79EA44"> Data Source</a> of the selected <a href="../../c-features/profile-merge-rules/merge-rule-definitions.md#concept_44FFF67CD9654DB2B43ECA13C2FD1CE0"> Authenticated Profile</a> for the lifetime that the data source has existed. </li> 
      <li id="li_F2F07B6A326C4A18B79A0CF2C47D9677"> <span class="wintitle"> % Active People</span>: Shows <span class="wintitle"> Active People</span> as a %. </li> 
     </ul> <p> <span class="wintitle"> Authenticated Activity</span> lets you compare data sources by activity, volume, and percent. It can help you find a data source that has a lot of people and a high percentage of active users. Or, you may find value in comparing data sources with high proportion of active users compared to the total audience size. For example, sometimes a data source with low total lifetime numbers and high activity are more valuable than those with high lifetime results and low activity numbers. </p> <p> <p>Note: The <span class="wintitle"> Authenticated Activity</span> metrics contain <span class="wintitle"> Profile Link</span> data only. This report does not include <span class="wintitle"> Device Graph</span> data. </p> </p> </td> 
   </tr> 

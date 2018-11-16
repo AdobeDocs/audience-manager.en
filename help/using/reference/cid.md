@@ -17,9 +17,9 @@ Update your code to use d_cid or d_cid_ic instead of d_dpid and d_dpuuid. The DP
 Contents:
 
 <ul class="simplelist"> 
- <li> <a href="../reference/cid.md#section_8C6B7D86771448A08EC14F527E6687F5" format="dita" scope="local"> DPID and DPUUID: A Review </a> </li> 
- <li> <a href="../reference/cid.md#section_CCFCB503887044FE9E87024943CE939A" format="dita" scope="local"> CID and CID_IC: About </a> </li> 
- <li><a href="../reference/cid.md#section_D5D6F182DEFB4C7D9F2274BE63C6B2D4" format="dita" scope="local"> Important Considerations for Development Teams</a> </li> 
+ <li> <a href="../reference/cid.md#section_8C6B7D86771448A08EC14F527E6687F5"> DPID and DPUUID: A Review </a> </li> 
+ <li> <a href="../reference/cid.md#section_CCFCB503887044FE9E87024943CE939A"> CID and CID_IC: About </a> </li> 
+ <li><a href="../reference/cid.md#section_D5D6F182DEFB4C7D9F2274BE63C6B2D4"> Important Considerations for Development Teams</a> </li> 
 </ul>
 
 ## DPID and DPUUID: A Review {#section_8C6B7D86771448A08EC14F527E6687F5}
@@ -78,7 +78,7 @@ The CID and CID_IC key-value pairs replace DPID and DPUUID. They provide the sam
   </tr> 
   <tr> 
    <td colname="col1"> <p>Customer ID Integration Code (CID_IC) </p> </td> 
-   <td colname="col2"> <p> <span class="codeph">d_cid_ic=<span class="varname"> integration code</span>%01<span class="varname"> user ID</span></span> </p> <p> An <span class="term"> integration code</span> is an alternate ID you can use instead of the Data Source ID, assigned by <span class="keyword"> Audience Manager</span>. See <a href="../c-features/manage-datasources.md#concept_3B7696B3EC77416492D3B99EBD79EA44" format="dita" scope="local"> Create a Data Source</a> if you need to configure an integration code. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph">d_cid_ic=<span class="varname"> integration code</span>%01<span class="varname"> user ID</span></span> </p> <p> An <span class="term"> integration code</span> is an alternate ID you can use instead of the Data Source ID, assigned by <span class="keyword"> Audience Manager</span>. See <a href="../c-features/manage-datasources.md#concept_3B7696B3EC77416492D3B99EBD79EA44"> Create a Data Source</a> if you need to configure an integration code. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -157,7 +157,7 @@ Each call can also include multiple `d_cid` and `d_cid_ic` key value pairs like 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Using integration codes for global shared data sources </p> </td> 
-   <td colname="col2"> <p>You can use integration codes for your own data sources and for global <a href="../c-features/datasources-list-and-settings.md#reference_A87B381067E04C26A426514AF3B64E64" format="dita" scope="local"> shared data sources</a>, which you have access to. For example, you can use integration codes when working with mobile identifiers data sources. Use the following integration codes, exactly as specified below: </p> <p> 
+   <td colname="col2"> <p>You can use integration codes for your own data sources and for global <a href="../c-features/datasources-list-and-settings.md#reference_A87B381067E04C26A426514AF3B64E64"> shared data sources</a>, which you have access to. For example, you can use integration codes when working with mobile identifiers data sources. Use the following integration codes, exactly as specified below: </p> <p> 
      <ul id="ul_B306EE96A3BD4CE982E113D5E23826CF"> 
       <li id="li_3340C7AFA9AB4105A2CCF3E476EC7552"> <b>DSID_20914</b> for GAID, representing devices running the Android operating system. </li> 
       <li id="li_779D9F08021043FCB233A0ABF5160C76"> <b>DSID_20915</b> for IDFA, representing devices running the iOS operating system. </li> 

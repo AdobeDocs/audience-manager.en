@@ -87,11 +87,11 @@ The following tables list and define the keys in the `Files` and `Summary` secti
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MetadataType</span> </p> </td> 
-   <td colname="col2"> <p>The human-readable name for the type of data your file contains. It is based on the child ID in your file name. </p> <p>See <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#concept_729806531D4547A6B5870BEA199FB4A9" format="dita" scope="local"> Naming Conventions for Metadata Files</a>. </p> </td> 
+   <td colname="col2"> <p>The human-readable name for the type of data your file contains. It is based on the child ID in your file name. </p> <p>See <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#concept_729806531D4547A6B5870BEA199FB4A9"> Naming Conventions for Metadata Files</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Parent</span> </p> </td> 
-   <td colname="col2"> <p>The human-readable name for the type of data your file contains. It is based on the parent ID in your file name. </p> <p>See <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#concept_729806531D4547A6B5870BEA199FB4A9" format="dita" scope="local"> Naming Conventions for Metadata Files</a>. </p> </td> 
+   <td colname="col2"> <p>The human-readable name for the type of data your file contains. It is based on the parent ID in your file name. </p> <p>See <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#concept_729806531D4547A6B5870BEA199FB4A9"> Naming Conventions for Metadata Files</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Status</span> </p> </td> 

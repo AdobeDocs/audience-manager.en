@@ -101,11 +101,11 @@ The table defines the elements in an S3 file name.
     <ul id="ul_E9446C5CA42649658093904D49D4369C"> 
      <li id="li_B275708DFE3F49E29EFAE6B838429E39">Uncompressed: 1 GB </li> 
      <li id="li_A9638EB46ED14E0680B6575D5457E32F">Compressed: 200-300 MB </li> 
-    </ul> <p>See the first 2 <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md#section_310A0F2330FD4E109F54227736BFEA89" format="dita" scope="local"> file name examples</a> below. </p> </td> 
+    </ul> <p>See the first 2 <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md#section_310A0F2330FD4E109F54227736BFEA89"> file name examples</a> below. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> [.gz]</span> </p> </td> 
-   <td colname="col2"> <p>When sending files to Amazon S3, use gzip compression only. When compressed, these files get the <span class="codeph"> .gz</span> extension. Do not use .zip compression. </p> <p>Compressed files must be 1 GB or smaller. If your files files are larger, please talk to Customer Care. Although Audience Manager can handle large files, we may be able to help you reduce the size of your files and make data transfers more efficient. See <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md#concept_7D6FA8BA759143EFBEDB16589BF6EC40" format="dita" scope="local"> File Compression for Inbound Data Transfer Files</a>. </p> </td> 
+   <td colname="col2"> <p>When sending files to Amazon S3, use gzip compression only. When compressed, these files get the <span class="codeph"> .gz</span> extension. Do not use .zip compression. </p> <p>Compressed files must be 1 GB or smaller. If your files files are larger, please talk to Customer Care. Although Audience Manager can handle large files, we may be able to help you reduce the size of your files and make data transfers more efficient. See <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md#concept_7D6FA8BA759143EFBEDB16589BF6EC40"> File Compression for Inbound Data Transfer Files</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

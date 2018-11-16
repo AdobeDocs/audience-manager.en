@@ -111,7 +111,7 @@ r_model_configuration.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Exclusions (5)</b> </p> </td> 
-   <td colname="col2"> <p>You can exclude traits from the data sources you selected for modeling. Use the <span class="wintitle"> Exclusions</span> list and read <a href="../../c-features/algorithmic-models/trait-exclusion-algo-models.md#concept_213A6DC77FCD479AB7FDE62662018F73" format="dita" scope="local"> Algorithmic Models: Trait Exclusion</a> to learn more. </p> </td> 
+   <td colname="col2"> <p>You can exclude traits from the data sources you selected for modeling. Use the <span class="wintitle"> Exclusions</span> list and read <a href="../../c-features/algorithmic-models/trait-exclusion-algo-models.md#concept_213A6DC77FCD479AB7FDE62662018F73"> Algorithmic Models: Trait Exclusion</a> to learn more. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -15,8 +15,8 @@ snippet: y
 You can send qualified segments to DFP either through a client-side or through a server-side integration. Requirements and related information about both methods are listed below.
 
 <ul class="simplelist"> 
- <li><a href="../../c-integration/gpt-aam-destination/gpt-aam-requirements.md#section_8F4B25C64A914B3A9A6FEEA95F5CEF9B" format="dita" scope="local"> Client-Side Integration</a> </li> 
- <li><a href="../../c-integration/gpt-aam-destination/gpt-aam-requirements.md#section_3E1127403A184C7D84B3FA1A1B917A62" format="dita" scope="local"> Server-Side Integration</a> </li> 
+ <li><a href="../../c-integration/gpt-aam-destination/gpt-aam-requirements.md#section_8F4B25C64A914B3A9A6FEEA95F5CEF9B"> Client-Side Integration</a> </li> 
+ <li><a href="../../c-integration/gpt-aam-destination/gpt-aam-requirements.md#section_3E1127403A184C7D84B3FA1A1B917A62"> Server-Side Integration</a> </li> 
 </ul>
 
 ## Client-Side Integration {#section_8F4B25C64A914B3A9A6FEEA95F5CEF9B}

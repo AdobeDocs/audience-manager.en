@@ -17,9 +17,9 @@ Recommendations and use cases for segment retargeting and personalized segment q
 Contents:
 
 <ul class="simplelist"> 
- <li> <a href="../../c-features/profile-merge-rules/profile-link-use-case.md#section_88E3469E94E14453AF6891B8ADA0933B" format="dita" scope="local"> Recommendations </a> </li> 
- <li> <a href="../../c-features/profile-merge-rules/profile-link-use-case.md#section_2778EE45F23A4977811B74CDFCF100A9" format="dita" scope="local"> Retargeting Use Case and Profile Merge Rule Configuration </a> </li> 
- <li> <a href="../../c-features/profile-merge-rules/profile-link-use-case.md#section_D0479113B03347A0976AEE8617E9CCCB" format="dita" scope="local"> Personalization Use Case and Profile Merge Rule Configuration </a> </li> 
+ <li> <a href="../../c-features/profile-merge-rules/profile-link-use-case.md#section_88E3469E94E14453AF6891B8ADA0933B"> Recommendations </a> </li> 
+ <li> <a href="../../c-features/profile-merge-rules/profile-link-use-case.md#section_2778EE45F23A4977811B74CDFCF100A9"> Retargeting Use Case and Profile Merge Rule Configuration </a> </li> 
+ <li> <a href="../../c-features/profile-merge-rules/profile-link-use-case.md#section_D0479113B03347A0976AEE8617E9CCCB"> Personalization Use Case and Profile Merge Rule Configuration </a> </li> 
 </ul>
 
 ## Recommendations {#section_88E3469E94E14453AF6891B8ADA0933B}

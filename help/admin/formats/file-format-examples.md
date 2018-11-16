@@ -16,9 +16,9 @@ Examples of how macros are used to create outbound, FTP file templates.
 Contents:
 
 <ul class="simplelist"> 
- <li> <a href="../formats/file-format-examples.md#section_65E394A8A471425CAF8803834F51DE93" format="dita" scope="local"> Common Macros </a> </li> 
- <li> <a href="../formats/file-format-examples.md#section_96958B51FC8D49F48C773ECA410F8D67" format="dita" scope="local"> Header Field Macros </a> </li> 
- <li> <a href="../formats/file-format-examples.md#section_EFD1F85D181A4F9E8CF65F5386EAC438" format="dita" scope="local"> Data Row Macros </a> </li> 
+ <li> <a href="../formats/file-format-examples.md#section_65E394A8A471425CAF8803834F51DE93"> Common Macros </a> </li> 
+ <li> <a href="../formats/file-format-examples.md#section_96958B51FC8D49F48C773ECA410F8D67"> Header Field Macros </a> </li> 
+ <li> <a href="../formats/file-format-examples.md#section_EFD1F85D181A4F9E8CF65F5386EAC438"> Data Row Macros </a> </li> 
 </ul>
 
 >[!NOTE]

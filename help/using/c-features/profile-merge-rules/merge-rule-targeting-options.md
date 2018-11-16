@@ -23,9 +23,9 @@ Profile Merge Rules options let you expand or tighten audience focus on specific
 Contents:
 
 <ul class="simplelist"> 
- <li><a href="../../c-features/profile-merge-rules/merge-rule-targeting-options.md#section_DD5CB340BF0C4C6F93C640ACA100EDB6" format="dita" scope="local"> Focus targeting</a> </li> 
- <li> <a href="../../c-features/profile-merge-rules/merge-rule-targeting-options.md#section_ADA0946192274869B94BD88BEE8ECFA7" format="dita" scope="local"> Expand targeting</a> </li> 
- <li><a href="../../c-features/profile-merge-rules/merge-rule-targeting-options.md#section_F6D35A63A04346EE85DE533A43E5EE0D" format="dita" scope="local"> Device Graph Options</a> </li> 
+ <li><a href="../../c-features/profile-merge-rules/merge-rule-targeting-options.md#section_DD5CB340BF0C4C6F93C640ACA100EDB6"> Focus targeting</a> </li> 
+ <li> <a href="../../c-features/profile-merge-rules/merge-rule-targeting-options.md#section_ADA0946192274869B94BD88BEE8ECFA7"> Expand targeting</a> </li> 
+ <li><a href="../../c-features/profile-merge-rules/merge-rule-targeting-options.md#section_F6D35A63A04346EE85DE533A43E5EE0D"> Device Graph Options</a> </li> 
 </ul>
 
 ## Focus targeting {#section_DD5CB340BF0C4C6F93C640ACA100EDB6}

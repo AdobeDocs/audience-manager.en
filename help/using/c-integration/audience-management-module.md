@@ -74,7 +74,7 @@ The following table defines important variables in the code sample.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> uuidCookie </span> </p> </td> 
-   <td colname="col2"> <p>Optional. This configuration lets you set an <span class="keyword"> Adobe </span> cookie in the first-party domain. This cookie contains the <a href="../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8" format="dita" scope="local"> UUID </a>. </p> </td> 
+   <td colname="col2"> <p>Optional. This configuration lets you set an <span class="keyword"> Adobe </span> cookie in the first-party domain. This cookie contains the <a href="../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8"> UUID </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

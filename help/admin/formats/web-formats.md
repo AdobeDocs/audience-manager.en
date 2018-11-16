@@ -91,7 +91,7 @@ See the [HTTP Format Macro Examples](../formats/web-format-examples.md#reference
       <li id="li_D3509A2D379E4C1FB3BC1B5E7D45A916"> <span class="codeph"> newSegmentId </span> </li> 
       <li id="li_EA901C20EEEB4CFAA39A5E0E822D2394"> <span class="codeph"> status </span> </li> 
       <li id="li_6310E21F88CC4691980DD3C9D551409F"> <span class="codeph"> dateTime </span> </li> 
-     </ul> </p> <p>Specify these fields in an array as shown in this example: </p> <p> <span class="codeph"> [&lt;REMOVED_SEGMENTS:{seg|&lt;OPEN_BRACKET&gt;"Mapping":&lt;seg.traitAlias&gt;,"Status:"&lt;seg.status&gt;, "Time":&lt;seg.dateTime&gt;,"LegacySegmentId":&lt;seg.LegacySegmentId&gt;, "NewSegmentId":&lt;seg.NewSegmentId&gt;&lt;CLOSE_BRACKET&gt;}; "separator=","&gt;] </span> </p> <p>See also <a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31" format="dita" scope="local"> HTTP Format Macro Examples </a>. </p> </td> 
+     </ul> </p> <p>Specify these fields in an array as shown in this example: </p> <p> <span class="codeph"> [&lt;REMOVED_SEGMENTS:{seg|&lt;OPEN_BRACKET&gt;"Mapping":&lt;seg.traitAlias&gt;,"Status:"&lt;seg.status&gt;, "Time":&lt;seg.dateTime&gt;,"LegacySegmentId":&lt;seg.LegacySegmentId&gt;, "NewSegmentId":&lt;seg.NewSegmentId&gt;&lt;CLOSE_BRACKET&gt;}; "separator=","&gt;] </span> </p> <p>See also <a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31"> HTTP Format Macro Examples </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> REMOVED_TIME_LIST </span> </p> </td> 
@@ -118,7 +118,7 @@ See the [HTTP Format Macro Examples](../formats/web-format-examples.md#reference
       <li id="li_4A81E3B715254549B9EADB983A2FC32B"> <span class="codeph"> newSegmentId </span> </li> 
       <li id="li_1F01A60829DF4C87879D94299E1D589C"> <span class="codeph"> status </span> </li> 
       <li id="li_E52F10CD5A04487D81A4B1750B0DC4E3"> <span class="codeph"> dateTime </span> </li> 
-     </ul> </p> <p>Specify these fields in an array as shown in this example: </p> <p> <span class="codeph"> [&lt;SEGMENTS:{seg|&lt;OPEN_BRACKET&gt;"Mapping":&lt;seg.traitAlias&gt;,"Status:"&lt;seg.status&gt;, "Time":&lt;seg.dateTime&gt;,"LegacySegmentId":&lt;seg.LegacySegmentId&gt;, "NewSegmentId":&lt;seg.NewSegmentId&gt;&lt;CLOSE_BRACKET&gt;}; "separator=","&gt;] </span> </p> <p>See also <a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31" format="dita" scope="local"> HTTP Format Macro Examples </a>. </p> </td> 
+     </ul> </p> <p>Specify these fields in an array as shown in this example: </p> <p> <span class="codeph"> [&lt;SEGMENTS:{seg|&lt;OPEN_BRACKET&gt;"Mapping":&lt;seg.traitAlias&gt;,"Status:"&lt;seg.status&gt;, "Time":&lt;seg.dateTime&gt;,"LegacySegmentId":&lt;seg.LegacySegmentId&gt;, "NewSegmentId":&lt;seg.NewSegmentId&gt;&lt;CLOSE_BRACKET&gt;}; "separator=","&gt;] </span> </p> <p>See also <a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31"> HTTP Format Macro Examples </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TIME_LIST </span> </p> </td> 
@@ -159,7 +159,7 @@ See the [HTTP Format Macro Examples](../formats/web-format-examples.md#reference
        "AAM_UUID":&nbsp;"&lt;user.aamUuid&gt;" 
       
 "DataPartner_UUID":&nbsp;"&lt;user.dpUuid&gt;" 
-     </codeblock> </p> <p>See also <a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31" format="dita" scope="local"> HTTP Format Macro Examples </a> for a full example. </p> </td> 
+     </codeblock> </p> <p>See also <a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31"> HTTP Format Macro Examples </a> for a full example. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -17,9 +17,9 @@ Describes the required fields, syntax, naming conventions and file sizes you nee
 Contents:
 
 <ul class="simplelist"> 
- <li> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md#section_8E0F0FCC8FCB484E89F09654A03295FB" format="dita" scope="local"> File Name Syntax </a> </li> 
- <li> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md#section_0BBFF96B9DEB48F0B863A109DD3AED99" format="dita" scope="local"> File Name Examples</a> </li> 
- <li><a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md#section_758E1B942B334DE1B76F0EBC846303E2" format="dita" scope="local"> Accepted File Sizes</a> </li> 
+ <li> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md#section_8E0F0FCC8FCB484E89F09654A03295FB"> File Name Syntax </a> </li> 
+ <li> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md#section_0BBFF96B9DEB48F0B863A109DD3AED99"> File Name Examples</a> </li> 
+ <li><a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md#section_758E1B942B334DE1B76F0EBC846303E2"> Accepted File Sizes</a> </li> 
 </ul>
 
 >[!NOTE]
@@ -90,7 +90,7 @@ The table defines the elements in an FTP file name.
     <ul id="ul_E9446C5CA42649658093904D49D4369C"> 
      <li id="li_B275708DFE3F49E29EFAE6B838429E39">Uncompressed: 1 GB </li> 
      <li id="li_A9638EB46ED14E0680B6575D5457E32F">Compressed: 200-300 MB </li> 
-    </ul> <p>See the first 2 <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md#section_0BBFF96B9DEB48F0B863A109DD3AED99" format="dita" scope="local"> file name examples</a> below. </p> </td> 
+    </ul> <p>See the first 2 <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md#section_0BBFF96B9DEB48F0B863A109DD3AED99"> file name examples</a> below. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> TIMESTAMP</span> </span> </p> </td> 
@@ -101,7 +101,7 @@ The table defines the elements in an FTP file name.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> [.gz]</span> </p> </td> 
-   <td colname="col2"> <p>Gzip is the allowed compression format for an FTP file name. If you use file compression, make sure the file name has the proper extension. </p> <p>Compressed files must be 1 GB or smaller. If your files files are larger, please talk to Customer Care. Although Audience Manager can handle large files, we may be able to help you reduce the size of your files and make data transfers more efficient. See <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md#concept_7D6FA8BA759143EFBEDB16589BF6EC40" format="dita" scope="local"> File Compression for Inbound Data Transfer Files</a> . </p> </td> 
+   <td colname="col2"> <p>Gzip is the allowed compression format for an FTP file name. If you use file compression, make sure the file name has the proper extension. </p> <p>Compressed files must be 1 GB or smaller. If your files files are larger, please talk to Customer Care. Although Audience Manager can handle large files, we may be able to help you reduce the size of your files and make data transfers more efficient. See <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md#concept_7D6FA8BA759143EFBEDB16589BF6EC40"> File Compression for Inbound Data Transfer Files</a> . </p> </td> 
   </tr> 
  </tbody> 
 </table>

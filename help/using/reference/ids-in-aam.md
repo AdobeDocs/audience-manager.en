@@ -51,7 +51,7 @@ Refer to this document for the complete list of Adobe Audience Manager IDs.
   </tr> 
   <tr> 
    <td colname="col1"> <p>DPUUID </p> </td> 
-   <td colname="col2"> <p> <b>Data Provider Unique User ID </b> <b>(also referred to as CRM ID)</b> </p> <p>A third-party ID. This is the ID by which you identify end users in your own CRM system. You can sync DPUUIDs with <span class="keyword"> Audience Manager</span> UUIDs and you can sync DPUUIDs from your different <span class="wintitle"> Data Sources</span> (DPIDs) in the <a href="../c-integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md#concept_98150C1616624D928BA8519031142160" format="dita" scope="local"> ID synchronization process</a>. </p> </td> 
+   <td colname="col2"> <p> <b>Data Provider Unique User ID </b> <b>(also referred to as CRM ID)</b> </p> <p>A third-party ID. This is the ID by which you identify end users in your own CRM system. You can sync DPUUIDs with <span class="keyword"> Audience Manager</span> UUIDs and you can sync DPUUIDs from your different <span class="wintitle"> Data Sources</span> (DPIDs) in the <a href="../c-integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md#concept_98150C1616624D928BA8519031142160"> ID synchronization process</a>. </p> </td> 
    <td colname="col3"> <p><span class="codeph"> 2132-3423vn-343fds-3432r</span> </p> </td> 
   </tr> 
   <tr> 
@@ -61,7 +61,7 @@ Refer to this document for the complete list of Adobe Audience Manager IDs.
   </tr> 
   <tr> 
    <td colname="col1"> <p>CID, CID_IC </p> </td> 
-   <td colname="col2"> <p> <b>Customer ID, Customer ID Integration Code</b> </p> <p> <b>The CID and CID_IC key-value pairs <a href="../reference/cid.md#concept_E9DE716F22E8491AB27057DB92B79081" format="dita" scope="local"> replace DPID and DPUUID</a>.</b> They provide the same functions as the DPID and DPUUID, but are more efficient because they include the data provider ID and user ID (or integration code) in a single key-value pair. </p> </td> 
+   <td colname="col2"> <p> <b>Customer ID, Customer ID Integration Code</b> </p> <p> <b>The CID and CID_IC key-value pairs <a href="../reference/cid.md#concept_E9DE716F22E8491AB27057DB92B79081"> replace DPID and DPUUID</a>.</b> They provide the same functions as the DPID and DPUUID, but are more efficient because they include the data provider ID and user ID (or integration code) in a single key-value pair. </p> </td> 
    <td colname="col3"> <p><span class="codeph"> 81841%013ad2948b1570a7e408a7cfb7ff4879e4 </span> </p> </td> 
   </tr> 
   <tr> 

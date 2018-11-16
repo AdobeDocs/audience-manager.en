@@ -56,7 +56,7 @@ Click events support the macros listed in the following table. A macro is a smal
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_adsrc</span> </p> </td> 
    <td colname="col02"> <p>No macro. </p> <p>Accepts a hard coded ID value. </p> </td> 
-   <td colname="col2"> <p> <a href="../../c-features/datasources-list-and-settings.md#concept_DC7CC030739C436C947078C7877C15AD" format="dita" scope="local"> Data source</a> ID or integration code for your advertiser. </p> <p> Required for <span class="wintitle"> Audience Optimization</span> reports. </p> </td> 
+   <td colname="col2"> <p> <a href="../../c-features/datasources-list-and-settings.md#concept_DC7CC030739C436C947078C7877C15AD"> Data source</a> ID or integration code for your advertiser. </p> <p> Required for <span class="wintitle"> Audience Optimization</span> reports. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_bu</span> </p> </td> 
@@ -96,7 +96,7 @@ Click events support the macros listed in the following table. A macro is a smal
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_region</span> </p> </td> 
    <td colname="col02"> <p> <span class="codeph"> %d_region%</span> </p> </td> 
-   <td colname="col2"> <p>The numeric region ID for the DCS cluster that services a request. For more information about the DCS, see <a href="../../reference/system-components/components-data-collection.md#concept_66CFFEBF5E8B41ED94082D562A93506E" format="dita" scope="local"> Data Collection Components</a>. </p> <p>Optional. </p> </td> 
+   <td colname="col2"> <p>The numeric region ID for the DCS cluster that services a request. For more information about the DCS, see <a href="../../reference/system-components/components-data-collection.md#concept_66CFFEBF5E8B41ED94082D562A93506E"> Data Collection Components</a>. </p> <p>Optional. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> r_rand</span> </p> </td> 

@@ -20,9 +20,9 @@ Beginning with [!DNL Experience Cloud] ID service v1.5+, the `setCustomerID` met
 Contents:
 
 <ul class="simplelist"> 
- <li> <a href="../reference/visitor-authentication-states.md#section_E6AD10451B9842C7A0EB25063F3654C1" format="dita" scope="local"> Authentication Status: UNKNOWN </a> </li> 
- <li> <a href="../reference/visitor-authentication-states.md#section_C77AD0AD90DE4986804B97B120FD1819" format="dita" scope="local"> Authentication Status: AUTHENTICATED </a> </li> 
- <li> <a href="../reference/visitor-authentication-states.md#section_2FD4E68CF67944AE8B580A74206E0FC1" format="dita" scope="local"> Authentication Status: LOGGED_OUT </a> </li> 
+ <li> <a href="../reference/visitor-authentication-states.md#section_E6AD10451B9842C7A0EB25063F3654C1"> Authentication Status: UNKNOWN </a> </li> 
+ <li> <a href="../reference/visitor-authentication-states.md#section_C77AD0AD90DE4986804B97B120FD1819"> Authentication Status: AUTHENTICATED </a> </li> 
+ <li> <a href="../reference/visitor-authentication-states.md#section_2FD4E68CF67944AE8B580A74206E0FC1"> Authentication Status: LOGGED_OUT </a> </li> 
 </ul>
 
 ## Authentication Status: UNKNOWN {#section_E6AD10451B9842C7A0EB25063F3654C1}
