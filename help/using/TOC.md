@@ -7,58 +7,58 @@ user-guide-title: Audience Manager User Guide
 # Audience Manager User Guide {#user-guide}
 
 + [Audience Manager Product Documentation](c-aam-home.md)
-+ Overview {#overview}
++ Overview{#overview}
     + [Audience Manager Overview](c-am-overview-intro/aam-overview.md)
     + [Types of Data Collected](c-am-overview-intro/data-types-collected.md)
     + Data Security and Privacy {#data-security-and-privacy}
         + [Data Security](c-am-overview-intro/c-data-security-and-privacy/data-security.md)
         + [Data Privacy](c-am-overview-intro/c-data-security-and-privacy/data-privacy.md)
         + [Opt-out Management](c-am-overview-intro/c-data-security-and-privacy/opt-out-management.md)
-    + General Data Protection Regulation (GDPR) {#gdpr}
+    + General Data Protection Regulation (GDPR){#gdpr}
         + [GDPR in Audience Manager](c-am-overview-intro/aam-gdpr/aam-gdpr-details.md)
         + [GDPR Considerations for Destinations](c-am-overview-intro/aam-gdpr/aam-gdpr-partners.md)
         + [GDPR FAQ](c-am-overview-intro/aam-gdpr/aam-gdpr-faq.md)
-+ Features {#features}
++ Features{#features}
     + [Addressable Audiences](c-features/addressable-audiences.md)
-    + Administration {#administration}
+    + Administration{#administration}
         + [Administration](c-features/c-administration/administration-overview.md)
         + [Edit Your Account Settings](c-features/c-administration/edit-account-settings.md)
         + [Usage Limits](c-features/c-administration/usage-limits.md)
-    + Algorithmic Models] {#algorithmic-models}
+    + Algorithmic Models]{#algorithmic-models}
         + [Algorithmic Models](c-features/algorithmic-models/understanding-models.md)
         + [Create an Algorithmic Model](c-features/algorithmic-models/create-model.md)
         + [Algorithmic Models: Trait Exclusion](c-features/algorithmic-models/trait-exclusion-algo-models.md)
-    + Audience Lab {#audience-lab}
+    + Audience Lab{#audience-lab}
         + [Audience Lab Overview](c-features/audience-lab/audience-lab.md)
         + [Manage Test Groups](c-features/audience-lab/audience-lab-manage-test-groups.md)
         + [Test Group Information](c-features/audience-lab/audience-lab-information-view.md)
         + [Test Group Reporting](c-features/audience-lab/audience-lab-reporting-view.md)
         + [Audience Lab Use Cases](c-features/audience-lab/audience-lab-use-cases.md)
         + [Audience Lab Advanced Functionality](c-features/audience-lab/audience-lab-advanced.md)
-    + Audience Marketplace {#audience-marketplace}
+    + Audience Marketplace{#audience-marketplace}
         + [Audience Marketplace](c-features/audience-marketplace/audience-marketplace.md)
-        + Audience Marketplace for Data Providers {#audience-marketplace-for-data-providers}
+        + Audience Marketplace for Data Providers{#audience-marketplace-for-data-providers}
             + [Audience Marketplace for Data Providers](c-features/audience-marketplace/marketplace-data-providers/marketplace-data-providers.md)
             + [Create, Price, and Manage Data Feeds](c-features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md)
             + [Billing for Data Feed Providers](c-features/audience-marketplace/marketplace-data-providers/marketplace-billing-report.md)
-        Audience Marketplace for Data Buyers {#audience-marketplace-for-data-buyers}
+        Audience Marketplace for Data Buyers{#audience-marketplace-for-data-buyers}
             + [Audience Marketplace for Data Buyers](c-features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md)
             + [Manage Data Feed Subscriptions](c-features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md)
             + [Billing for Data Feed Buyers](c-features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
         + [Private Data Feeds](c-features/audience-marketplace/marketplace-private-feeds.md)
     + [Customer Data Feeds](c-features/cdf-files.md)
-    + Data Explorer {#data-explorer}
+    + Data Explorer{#data-explorer}
         + [Overview, Benefits, and Use Cases](c-features/data-explorer/data-explorer-overview.md)
         + [Understanding Signals](c-features/data-explorer/data-explorer-understanding-signals.md)
         + [Signals Dashboard](c-features/data-explorer/data-explorer-signals-dashboard.md)
-        + Signals Search {#signals-search}
+        + Signals Search{#signals-search}
             + [Signals Search Overview](c-features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md)
             + [Search Signals by Key-Value Pairs](c-features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md)
             + [Search Signals by Filters](c-features/data-explorer/data-explorer-signals-search/data-explorer-search-filters.md)
             + [Advanced Search for Adobe Analytics](c-features/data-explorer/data-explorer-signals-search/data-explorer-search-analytics.md)
             + [Filter Search Results](c-features/data-explorer/data-explorer-signals-search/data-explorer-filter-results.md)
             + [Save Search Criteria](c-features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md)
-        + Create Traits from Signals {#create-traits-from-signals}
+        + Create Traits from Signals{#create-traits-from-signals}
             + [Create Traits from Signals](c-features/data-explorer/data-explorer-create-trait/data-explorer-create-trait.md)
             + [Create Traits from Signal Dashboard](c-features/data-explorer/data-explorer-create-trait/data-explorer-create-dashboard.md)
             + [Create Traits from Signal Search](c-features/data-explorer/data-explorer-create-trait/data-explorer-create-search.md)
@@ -69,13 +69,13 @@ user-guide-title: Audience Manager User Guide
     + [Create a Data Source](c-features/manage-datasources.md)
     + [Declared IDs](c-features/declared-ids.md)
     + [Derived Signals](c-features/derived-signals.md)
-    + Destinations {#destinations}
+    + Destinations{#destinations}
         + [Destinations](c-features/destinations/destinations.md)
         + [Manage Destinations](c-features/destinations/manage-destinations.md)
         + [Destination Macros Defined](c-features/destinations/destination-macros.md)
         + [Standard and Serial Key-Value Pairs](c-features/destinations/key-value-pairs.md)
         + [get_aamCookie Code](c-features/destinations/get-aam-cookie-code.md)
-    + Profile Merge Rules {#profile-merge-rules}
+    + Profile Merge Rules{#profile-merge-rules}
         + [Profile Merge Rules Overview](c-features/profile-merge-rules/merge-rules-overview.md)
         + [Getting Started with Profile Merge Rules](c-features/profile-merge-rules/merge-rules-start.md)
         + [Profile Merge Rules Dashboard](c-features/profile-merge-rules/merge-rules-dashboard.md)
@@ -87,7 +87,7 @@ user-guide-title: Audience Manager User Guide
         + [Profile Merge Rules and Device Un-Segmentation Processes](c-features/profile-merge-rules/merge-rule-unsegment.md)
         + [Instant Cross-Device Suppression](c-features/profile-merge-rules/instant-cross-device-suppression.md)
         + [Important Considerations for Profile Merge Rules with Device   Graphs](c-features/profile-merge-rules/considerations-pmr-device-graph.md)
-    + Segments {#segments}
+    + Segments{#segments}
         + [Segments: Purpose, Composition, and Rules](c-features/c-segments/segments-purpose.md)
         + [Segments List View](c-features/c-segments/segments-dashboard.md)
         + [Segment Summary View](c-features/c-segments/segment-summary-view.md)
@@ -97,7 +97,7 @@ user-guide-title: Audience Manager User Guide
         + [Segment Builder](c-features/c-segments/segment-builder.md)
         + [Code Syntax Used in the Segment Expression Editor](c-features/c-segments/segment-code-syntax.md)
         + [Trait and Segment Population Data in Segment Builder](c-features/c-segments/segment-builder-data.md)
-    + Traits {#traits}
+    + Traits{#traits}
         + [Trait Details Page](c-features/traits/trait-details-page.md)
         + [Traits Dashboard](c-features/traits/trait-dashboard.md)
         + [Active Audience Traits and Data Source Synced Traits](c-features/traits/client-activity-synced-audience-traits.md)
@@ -121,7 +121,7 @@ user-guide-title: Audience Manager User Guide
         + [Trait Qualification Reference](c-features/traits/trait-qualification-reference.md)
         + [Using Regular Expressions in Trait Builder](c-features/traits/trait-builder-regex.md)
     + [Visitor Profile Viewer](c-features/visitor-profile-viewer.md)
-+ Reporting {#reporting}
++ Reporting{#reporting}
     + Audience Optimization Reports {#audience-optimization-reports}
         + [Audience Optimization Reports](reporting/audience-optimization-reports/audience-optimization-reports.md)
         + Audience Optimization for Advertisers {#audience-optimization-advertisers}
@@ -170,34 +170,34 @@ user-guide-title: Audience Manager User Guide
     + [Counting Unique Users in Overlap and General Reports](reporting/unique-user-counts.md)
     + [Reports Dashboard](reporting/reports-dashboard.md)
     + [Data Sampling and Error Rates in Selected Audience Manager   Reports...](reporting/report-sampling.md)
-+ API and SDK Code {#api-and-sdk-code}
++ API and SDK Code{#api-and-sdk-code}
     + [API and SDK Code Overview](c-api/c-api.md)
     + [Audience Manager API Code Migration](c-api/api-swagger-migration.md)
-    + Data Collection Server (DCS) API Methods and Code {#dcs}
-        + DCS Event Calls {#dcs-event-calls}
+    + Data Collection Server (DCS) API Methods and Code{#dcs}
+        + DCS Event Calls{#dcs-event-calls}
             + [DCS Event Call APIs](c-api/dcs-intro/dcs-event-calls/dcs-event-calls.md)
             + [Send Data to the DCS](c-api/dcs-intro/dcs-event-calls/dcs-url-send.md)
             + [Receive Data From the DCS](c-api/dcs-intro/dcs-event-calls/dcs-url-receive.md)
-        + DCS APIs {#dcs-apis}
+        + DCS APIs{#dcs-apis}
             + [DCS APIs for Server-to-Server Data Transfers](c-api/dcs-intro/dcs-s2s/dcs-s2s.md)
             + [Get User IDs and Regions From a DCS   Response](c-api/dcs-intro/dcs-s2s/dcs-aam-ids.md)
             + [Get User IDs and Regions Through the Experience Cloud ID...](c-api/dcs-intro/dcs-s2s/dcs-mcid-ids.md)
             + [Making    Server-to-Server   DCS API Calls](c-api/dcs-intro/dcs-s2s/dcs-s2s-calls.md)
-        + DCS API Reference {#dcs-api-reference}
+        + DCS API Reference{#dcs-api-reference}
             + [DCS API Methods](c-api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
             + [DCS Error Codes, Messages, and Examples](c-api/dcs-intro/dcs-api-reference/dcs-error-codes.md)
             + [DCS Region IDs, Locations, and Host Names](c-api/dcs-intro/dcs-api-reference/dcs-regions.md)
             + [Formatting Key-Value Pairs in    DCS Calls](c-api/dcs-intro/dcs-api-reference/dcs-key-format.md)
             + [Race Conditions and Error Handling](c-api/dcs-intro/dcs-api-reference/dcs-race-conditions.md)
             + [Supported Attributes for    DCS API Calls](c-api/dcs-intro/dcs-api-reference/dcs-keys.md)
-    + REST APIs {#rest-apis}
+    + REST APIs{#rest-apis}
         + [REST APIs Overview](c-api/c-rest-api-main/c-rest-api-main.md)
         + [Getting Started with REST APIs](c-api/c-rest-api-main/aam-api-getting-started.md)
         + [Algorithmic API Methods](c-api/c-rest-api-main/aam-api-algo-methods.md)
         + [Data Integration Library API Methods](c-api/c-rest-api-main/aam-api-dil-methods.md)
         + [Data Source API Methods](c-api/c-rest-api-main/aam-api-data-sources.md)
         + [Derived Signals API Methods](c-api/c-rest-api-main/aam-api-derived-signals.md)
-        + Destination API Methods {#destination-api-methods}
+        + Destination API Methods{#destination-api-methods}
             + [Destination API Methods Overview](c-api/c-rest-api-main/aam-api-destinations/aam-api-destinations.md)
             + [Create Destinations](c-api/c-rest-api-main/aam-api-destinations/aam-api-create-destinations.md)
             + [Map Segments to a Destination](c-api/c-rest-api-main/aam-api-destinations/aam-api-map-segments.md)
@@ -209,15 +209,15 @@ user-guide-title: Audience Manager User Guide
         + [Taxonomic API Methods](c-api/c-rest-api-main/aam-api-taxonomy.md)
         + [Trait API Methods](c-api/c-rest-api-main/api-traits.md)
         + [Trait Type Methods](c-api/c-rest-api-main/aam-api-trait-type.md)
-        + User, Group, and Permissions Management API Methods {#user-group-permissions}
+        + User, Group, and Permissions Management API Methods{#user-group-permissions}
             + [User Management API Methods](c-api/c-rest-api-main/aam-api-user-group-permission/aam-api-user.md)
             + [Group Management API Methods](c-api/c-rest-api-main/aam-api-user-group-permission/aam-api-group.md)
             + [Permissions Management API Methods](c-api/c-rest-api-main/aam-api-user-group-permission/aam-api-permissions.md)
         + [DCS Region API Methods](c-api/c-rest-api-main/aam-api-dcs-regions.md)
     + [SDK Code](c-api/aam-sdk.md)
-+ Data Integration Library (DIL) API {#dil-api}
++ Data Integration Library (DIL) API{#dil-api}
     + [Understanding the Data Integration Library (DIL)](c-dil/dil-overview.md)
-    + Class-level DIL Methods {#class-level-dil-methods}
+    + Class-level DIL Methods{#class-level-dil-methods}
         + [Getting Started With Class-level DIL APIs](c-dil/dil-class-overview/dil-start.md)
         + [DIL create](c-dil/dil-class-overview/dil-create.md)
         + [getDil](c-dil/dil-class-overview/dil-get-instance.md)
@@ -229,43 +229,43 @@ user-guide-title: Audience Manager User Guide
     + [DIL Tools](c-dil/dil-tools.md)
     + [DIL Use Cases and Code Samples](c-dil/dil-use-cases.md)
     + [Flash DIL](c-dil/dil-flash.md)
-+ Implementation and Integration Guides {#implemenation-integration-guides}
++ Implementation and Integration Guides{#implemenation-integration-guides}
     + [Data Integration Methods](c-integration/data-integration-methods.md)
     + [DFP as an Audience Manager Destination](c-integration/aam-dfp.md)
-    + Integrate DFP using Google Publisher Tags (GPT) {#integrate-dfp-using-gpt}
+    + Integrate DFP using Google Publisher Tags (GPT){#integrate-dfp-using-gpt}
         + [Requirements and Methods of Sending Segments to    DFP Using    Google...](c-integration/gpt-aam-destination/gpt-aam-requirements.md)
-        + [Create a    GPT Destination](c-integration/gpt-aam-destination/gpt-aam-create-destination.md)
+        + [Create a GPT Destination](c-integration/gpt-aam-destination/gpt-aam-create-destination.md)
         + [Modify the GPT setTargeting API Call](c-integration/gpt-aam-destination/gpt-aam-modify-api.md)
         + [Audience Manager Code for    Google Publisher Tags](c-integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
     + [Implementing Audience Manager](c-integration/implement-audience-manager.md)
     + [Implement the Audience Management Module](c-integration/audience-management-module.md)
     + [Integrate Audience Manager With Target](c-integration/aam-target-integration.md)
-    + Media Data Integration {#media-data-integration}
+    + Media Data Integration{#media-data-integration}
         + [Media Data Integration Overview](c-integration/media-data-integration/media-data-integration.md)
         + [Actionable Log Files](c-integration/media-data-integration/actionable-log-files.md)
         + [Capturing Campaign Impression Data via Pixel Calls](c-integration/media-data-integration/impression-data-pixels.md)
         + [Capturing Campaign Click Data via Pixel Calls](c-integration/media-data-integration/click-data-pixels.md)
     + [OAS as an Audience Manager Destination](c-integration/open-ad-server-destination.md)
     + [OpenX as an Audience Manager Destination](c-integration/openx-destination.md)
-    + Receiving Audience Data {#receiving-audience-data}
+    + Receiving Audience Data{#receiving-audience-data}
         + [ID Synchronization for Outbound Data Transfers](c-integration/receiving-audience-data/id-sync-outbound.md)
-        + Real-Time Outbound Data Transfers {#real-time-outbound-transfers}
+        + Real-Time Outbound Data Transfers{#real-time-outbound-transfers}
             + [Real-Time Outbound Data Transfers](c-integration/receiving-audience-data/real-time-outbound-transfers/real-time-outbound-transfers.md)
             + [Digitally Signed HTTP Requests](c-integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md)
             + [OAuth 2.0 Integration for Real-Time Outbound Transfers](c-integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md)
-        + Batch Outbound Data Transfers {#batch-outbound-data-transfers}
+        + Batch Outbound Data Transfers{#batch-outbound-data-transfers}
             + [Outbound Data File Name: Syntax and Examples](c-integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md)
             + [Transfer-Control Files for Log File Transfers](c-integration/receiving-audience-data/batch-outbound-transfers/transfer-control-files.md)
             + [Outbound Template Macros](c-integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)
             + [Outbound Macro Examples](c-integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md)
             + [Leverage Amazon S3 Cross-Account Bucket Permissions for Your Outbound   Files](c-integration/receiving-audience-data/batch-outbound-transfers/authorize-s3-cross-bucket.md)
-    + Sending Audience Data {#sending-audience-data}
+    + Sending Audience Data{#sending-audience-data}
         + Real-Time Inbound Data Integration {#real-time-inbound-data-integration}
             + [Real-Time Data Transfer Process Described](c-integration/sending-audience-data/real-time-data-integration/real-time-data-transfer-explained.md)
             + [Technical Specifications for Inbound, Real-Time Data Transfers](c-integration/sending-audience-data/real-time-data-integration/real-time-tech-specs.md)
             + [Pixel-based Data Transfers](c-integration/sending-audience-data/real-time-data-integration/pixel-based-data-transfer.md)
             + [Real-Time Inbound Data Ingestion](c-integration/sending-audience-data/real-time-data-integration/real-time-data-transfer.md)
-        + Batch Data Transfer Process {#batch-data-transfer-process}
+        + Batch Data Transfer Process{#batch-data-transfer-process}
             + [Batch Data Transfer Process Described](c-integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md)
             + [Send Batch Data to Audience Manager Overview](c-integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)
             + [ID Synchronization for Inbound Data Transfers](c-integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md)
@@ -278,13 +278,13 @@ user-guide-title: Audience Manager User Guide
             + [Sample Message to Partners after Inbound Processing](c-integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)
     + [Send Segments to a Google AdWords Remarketing List](c-integration/rlsa-integration.md)
     + [https://marketing.adobe.com/resources/help/en_US/reference/ssf.html](https://marketing.adobe.com/resources/help/en_US/reference/ssf.html)
-+ Reference {#reference.md}
++ Reference{#reference.md}
     + [Amazon S3: About](reference/amazon-s3.md)
     + [Advertiser Use Cases](reference/advertiser-use-cases.md)
     + [Publisher Use Cases](reference/publisher-use-cases.md)
     + [Beta Environment](reference/beta-environment.md)
     + [Boolean Expressions in Trait and Segment Builder](reference/boolean-expressions-tsb.md)
-    + Bulk Management Tools {#bult-management-tools}
+    + Bulk Management Tools{#bult-management-tools}
         + [Getting Started With Bulk Management](reference/bulk-management-tools/bulk-management-intro.md)
         + [Bulk Requests](reference/bulk-management-tools/bulk-requests.md)
         + [Bulk Updates](reference/bulk-management-tools/bulk-updates.md)
@@ -302,7 +302,7 @@ user-guide-title: Audience Manager User Guide
     + [Password Requirements, Locked Accounts, and Forgotten   Passwords](reference/password-requirements.md)
     + [Signals, Traits, and Segments](reference/signal-trait-segment.md)
     + [Supported Browsers](reference/supported-browsers.md)
-    + System Components {#system-components}
+    + System Components{#system-components}
         + [System Components Overview](reference/system-components/components-overview.md)
         + [Key Components in the Audience Manager System](reference/system-components/components-stack.md)
         + [Data Action Components](reference/system-components/components-data-action.md)
@@ -316,7 +316,7 @@ user-guide-title: Audience Manager User Guide
     + [TLS 1.0 Deprecation](reference/tls-support.md)
     + [Understanding Calls to the Demdex Domain](reference/demdex-calls.md)
     + [Visitor Authentication States in    Audience Manager](reference/visitor-authentication-states.md)
-+ FAQs {#faqs}
++ FAQs{#faqs}
     + [API FAQ](faq/faq-api.md)
     + [Audience Lab FAQ](faq/faq-audience-lab.md)
     + [Customer Data Feed FAQ](faq/faq-cdf.md)
@@ -327,7 +327,7 @@ user-guide-title: Audience Manager User Guide
     + [Profile Merge Rules and Device Graph FAQ](faq/faq-profile-merge.md)
     + [Targeting FAQ](faq/faq-targeting.md)
     + [Reporting FAQ](faq/faq-reporting.md)
-+ Documentation Updates {#documentation-updates}
++ Documentation Updates{#documentation-updates}
     + [2018 Documentation Updates](docs-2018/docs-2018.md)
     + [2017 Documentation Updates](docs-2018/docs-2017.md)
     + [2016 Documentation Updates](docs-2018/docs-2016.md)

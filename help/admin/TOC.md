@@ -9,7 +9,7 @@ user-guide-title: Audience Manager Admin Guide
 + [Audience Manager Admin Home](admin-home.md)
 + [Log In to Audience Manager Admin](admin-login.md)
 + [How to Request Functional Admin Access](admin-access.md)
-+ Companies {#companies}
++ Companies{#companies}
     + [Companies](companies/admin-companies-overview.md)
     + [Create a Company Profile](companies/admin-manage-company-profiles.md)
     + [Manage Containers](companies/admin-manage-containers.md)
@@ -21,17 +21,17 @@ user-guide-title: Audience Manager Admin Guide
     + [Manage Company Limits](companies/admin-company-limits.md)
     + [Manage Company Users](companies/admin-manage-company-users.md)
     + [Filter Outbound Data by Active Users Only](companies/outbound-active-user-filter.md)
-+ Servers {#servers}
++ Servers{#servers}
     + [Servers Overview](admin-servers/admin-servers.md)
     + [Create or Edit an FTP Server](admin-servers/create-ftp-server.md)
     + [Create or Edit an HTTP Server](admin-servers/create-http-server.md)
     + [Create or Edit an S3 Server](admin-servers/create-s3-server.md)
-    + [How To: Authorize Cross-Account Amazon S3 Bucket Access for Batch   Destinations](admin-servers/admin-authorize-s3-cross-bucket.md)
+    + [Authorize Cross-Account Amazon S3 Bucket Access](admin-servers/admin-authorize-s3-cross-bucket.md)
     + [Delete a Server](admin-servers/admin-delete-server.md)
-+ Reporting {#reporting}
++ Reporting{#reporting}
     + [Reporting](admin-reporting/admin-reporting-overview.md)
     + [Assign a Portal User to Tableau User](admin-reporting/admin-assign-tableau-user.md)
-+   Formats {#formats}
++ Formats{#formats}
     + [Formats Overview](formats/formats.md)
     + [Enable Hadoop Sequence File Transfers for Outbound](formats/enable-outbound-seq.md)
     + [File Format Macros](formats/file-formats.md)
@@ -39,7 +39,7 @@ user-guide-title: Audience Manager Admin Guide
     + [HTTP Format Macros](formats/web-formats.md)
     + [HTTP Format Macro Examples](formats/web-format-examples.md)
     + [Create or Edit a Format](formats/admin-create-format.md)
-+ OAuth2 Clients {#oath2-clients}
++ OAuth2 Clients{#oath2-clients}
     + [OAuth2 Clients](admin-oauth2/admin-oauth2-create-edit.md)
     + [API Requirements and Recommendations](admin-oauth2/aam-admin-api-requirements.md)
 + [Integration Users](admin-manage-integration-users.md)
