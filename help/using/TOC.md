@@ -41,7 +41,7 @@ user-guide-title: Audience Manager User Guide
             + [Audience Marketplace for Data Providers](c-features/audience-marketplace/marketplace-data-providers/marketplace-data-providers.md)
             + [Create, Price, and Manage Data Feeds](c-features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md)
             + [Billing for Data Feed Providers](c-features/audience-marketplace/marketplace-data-providers/marketplace-billing-report.md)
-        Audience Marketplace for Data Buyers{#audience-marketplace-for-data-buyers}
+        + Audience Marketplace for Data Buyers{#audience-marketplace-for-data-buyers}
             + [Audience Marketplace for Data Buyers](c-features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md)
             + [Manage Data Feed Subscriptions](c-features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md)
             + [Billing for Data Feed Buyers](c-features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
