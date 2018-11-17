@@ -7,7 +7,7 @@ user-guide-title: Audience Manager User Guide
 # Audience Manager User Guide {#user-guide}
 
 + [Audience Manager Product Documentation](c-aam-home.md)
-+ Overview {overview}
++ Overview {#overview}
     + [Audience Manager Overview](c-am-overview-intro/aam-overview.md)
     + [Types of Data Collected](c-am-overview-intro/data-types-collected.md)
     + Data Security and Privacy {#data-security-and-privacy}
@@ -28,7 +28,7 @@ user-guide-title: Audience Manager User Guide
         + [Algorithmic Models](c-features/algorithmic-models/understanding-models.md)
         + [Create an Algorithmic Model](c-features/algorithmic-models/create-model.md)
         + [Algorithmic Models: Trait Exclusion](c-features/algorithmic-models/trait-exclusion-algo-models.md)
-    + Audience Lab
+    + Audience Lab {#audience-lab}
         + [Audience Lab Overview](c-features/audience-lab/audience-lab.md)
         + [Manage Test Groups](c-features/audience-lab/audience-lab-manage-test-groups.md)
         + [Test Group Information](c-features/audience-lab/audience-lab-information-view.md)
