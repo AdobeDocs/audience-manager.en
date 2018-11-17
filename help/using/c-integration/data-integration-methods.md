@@ -16,7 +16,9 @@ A high-level overview of how Audience Manager exchanges information with other d
 
 ## Data Integration Methods {#topic_0E9E9D3784B046B4A22D1AB5F70C49B6}
 
-A high-level overview of how Audience Manager exchanges information with other data providers and systems.
+Work with data from Experience Cloud solutions or other external systems in Audience Manager.
+
+[!DNL Adobe] data partners who want to receive audiences through a server-to-server integration should see [Audience Manager Targeting Integration](https://helpx.adobe.com/marketing-cloud/partners/partner_aam_targeting_integration.html) to get started. 
 
 ## Supported Data Integration Methods: Real-Time and Server-to-Server {#section_79812B3411654D35AD5C401EA81072A4}
 
