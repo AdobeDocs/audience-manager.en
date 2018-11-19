@@ -13,7 +13,7 @@ snippet: y
 
 Signals are the smallest unit of information within Audience Manager. They represent user interactions or user activity on your online properties, and get passed on to Audience Manager to be used in trait rules.
 
-<a id="section_24A20A6E7D6048679682AFFE91DCDE6E"></a>
+
 
 [!DNL Audience Manager] uses key-value pairs to represent signals. For instance, the following signal could indicate that a visitor has reached a web page containing electronics:
 

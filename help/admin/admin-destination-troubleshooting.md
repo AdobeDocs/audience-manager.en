@@ -127,7 +127,7 @@ Your customers want to export different ID types, depending on destination. The 
 
 **Format**. This option determines the file format you will export. In the **[!UICONTROL Add Destination]** workflow, under **[!UICONTROL Batch Data]**, select the format.
 
-To inspect a format, go to ****[!UICONTROL Admin UI > Formats]**** and look for the Data Row element. This element contains a macro of the file format, <MCID> in the example below.
+To inspect a format, go to ****[!UICONTROL Admin UI > Formats]**** and look for the Data Row element. This element contains a macro of the file format, &lt;MCID&gt; in the example below.
 
 ![](assets/data_row.PNG)
 

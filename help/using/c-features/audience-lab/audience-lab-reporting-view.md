@@ -15,7 +15,7 @@ snippet: y
 
 The test group reporting section returns information on test group conversions, allowing an easy comparison of test segment efficacy. Numerous filters and dimensions are available for data visualization.
 
-<a id="section_FF173F7138C84C87B8BAB11BA94879DA"></a>
+
 
 [!UICONTROL Audience Lab] returns detailed reporting information for the test segments you created and allows you to save the reporting data as CSV files. You can select between **[!UICONTROL Aggregate Reporting]** and **[!UICONTROL Trend Reporting]**. **[!UICONTROL]**
 
@@ -60,7 +60,7 @@ A returned **[!UICONTROL Aggregate Reporting]** chart could look like this:
 
 ![](assets/aggregate-reporting.PNG)
 
-<a id="section_9C9923C980944B248BCD023D6861B370"></a>
+
 
 A returned **[!UICONTROL Trend Reporting]** chart could look like the one below. Select **[!UICONTROL Normalized]** in the check box if you want to ignore the absolute numbers and simply focus on the test segments trends.
 

@@ -30,7 +30,7 @@ For more information about derived signals, see [Derived Signals](../../c-featur
 
 A `POST` method that lets you create a new derived signal.
 
-<a id="section_8D11215FA5324329A26BECCC7C3A1A9A"></a>
+
 
 <!-- 
 
@@ -129,7 +129,7 @@ A successful request returns response code `200 OK` and data as shown below.
 
 A `GET` method that returns details for all your derived signals.
 
-<a id="section_BA25C68546804DE298643EF1ECBBE299"></a>
+
 
 <!-- 
 

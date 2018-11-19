@@ -18,7 +18,7 @@ A derived signal qualifies site visitors for additional traits based on a trait 
 
 A [!UICONTROL derived signal] qualifies site visitors for additional traits based on a trait they've already seen. In other words, additional trait qualification can be derived from a currently exhibited trait even if a user has never seen the new trait before.
 
-<a id="section_368430C044E342FB88B0930E10751786"></a>
+
 
 <!-- 
 

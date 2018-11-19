@@ -13,7 +13,7 @@ snippet: y
 
 Lists the macros you can use to create HTTP data files. HTTP sends data in a JSON format.
 
-<a id="section_064C7157C8A848AD9E7AC660260BDBD1"></a>
+
 
 See the [HTTP Format Macro Examples](../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31) for a list and examples of some commonly used macro combinations. 
 
@@ -157,7 +157,6 @@ See the [HTTP Format Macro Examples](../formats/web-format-examples.md#reference
     </ul> <p>Specify these fields as shown in this example: </p> <p> 
      <codeblock>
        "AAM_UUID":&nbsp;"&lt;user.aamUuid&gt;" 
-      
 "DataPartner_UUID":&nbsp;"&lt;user.dpUuid&gt;" 
      </codeblock> </p> <p>See also <a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31" format="dita" scope="local"> HTTP Format Macro Examples </a> for a full example. </p> </td> 
   </tr> 

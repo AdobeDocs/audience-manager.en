@@ -385,8 +385,6 @@ When submitting GDPR requests to Adobe Audience Manager, you must include one of
 &nbsp;&nbsp;}
       
 ]
-     </codeblock> </p> <p> 
-     <codeblock>
       &nbsp;"users":&nbsp;[
       
 &nbsp;&nbsp;{
@@ -473,8 +471,6 @@ When submitting GDPR requests to Adobe Audience Manager, you must include one of
 &nbsp;&nbsp;}
       
 ]
-     </codeblock> </p> <p> 
-     <codeblock>
       &nbsp;"users":&nbsp;[
       
 &nbsp;&nbsp;{
