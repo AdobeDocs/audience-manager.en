@@ -64,7 +64,7 @@ And returns:
   </tr> 
  </thead>
  <tbody> 
-  <tr valign="top"> 
+  <tr> 
    <td> <b>Default Search</b> </td> 
    <td> Returns keyword search terms used by the <span class="keyword"> AOL </span>, <span class="keyword"> Ask </span>, <span class="keyword"> Bing </span>, <span class="keyword"> Google </span>, and <span class="keyword"> Yahoo </span> search engines. </td> 
    <td> 
@@ -75,7 +75,7 @@ And returns:
 </code>
   </td>
   </tr> 
-  <tr valign="top"> 
+  <tr> 
    <td> <b>Pass in a Custom URL</b> </td> 
    <td> Returns the search referrer based on a custom URL. </td> 
    <td> 
@@ -87,8 +87,8 @@ DIL.tools.getSearchReferrer("https://www.ehow.com/search.aspx?q=adobe+rules");
 
 </td> 
   </tr> 
-  <tr valign="top"> 
-   <td> <b>Match URL Hostname with a Custom Regex</b> </td> 
+  <tr> 
+   <td> <b>Match URL Hostname with a Custom Regex</b></td> 
    <td> Pass in a custom regex to match the host name of the referring URL. </td> 
    <td> 
 <code>
@@ -101,7 +101,7 @@ DIL.tools.getSearchReferrer("https://www.ehow.com/search.aspx?q=adobe+rules");
 </code>
 
   </td></tr> 
-  <tr valign="top"> 
+  <tr> 
    <td> <b>Match Search Patterns with a Custom Regex</b> </td> 
    <td> Pass in a custom regex to perform a custom search. </td> 
    <td> 
