@@ -76,7 +76,7 @@ r_get_all_destinations.xml
 
 >[!NOTE]
 >
->* *(Optional)* Pass in `containsSegment= *`<sid>`*` to return an array of all destinations mapped to the specified segment. For example, your query could look similar to this: `GET .../destinations/?containsSegment=4321`. 
+>* *(Optional)* Pass in `containsSegment= *<sid>*` to return an array of all destinations mapped to the specified segment. For example, your query could look similar to this: `GET .../destinations/?containsSegment=4321`. 
 >
 >* Does not return the full destination object. Get the destination by data order if you need fully populated object. 
 >
