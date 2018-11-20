@@ -33,7 +33,7 @@ Adobe Launch is the successor to [ [!DNL Adobe Dynamic Tag Manager]](https://mar
 
 [!UICONTROL DIL] sends data to [!DNL Audience Manager] in an event call. An event call is an XML HTTP request from your page. It uses a `POST` method to send data in the body of the request.
 
-<table id="table_FE0C2EE0BFED4562B0037CB582FD6CF7"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Event Call Element </th> 
@@ -65,8 +65,8 @@ d_rtbd=json
 
      </p> <p>See also: </p> 
     <ul> 
-     <li id="li_767F91D06E6A4CC0BBB9339CEC303222"> <a href="../c-features/traits/trait-variable-prefixes.md#reference_E6F1E4257F664FC2A797C406BF147ABC" format="dita" scope="local"> Prefix Requirements for Key Variables </a> </li> 
-     <li id="li_055AD1154FB24D75A7FBC3EEDB4A578C"><a href="../c-api/dcs-intro/dcs-api-reference/dcs-keys.md#concept_5ACDD7D09D0441A6AC26F7D345CD19D5" format="dita" scope="local"> Supported Attributes for DCS API Calls</a> </li> 
+     <li> Prefix Requirements for Key Variables </a> </li> 
+     <li> Supported Attributes for DCS API Calls</a> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
