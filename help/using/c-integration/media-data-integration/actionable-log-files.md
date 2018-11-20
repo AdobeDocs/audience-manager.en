@@ -16,11 +16,11 @@ snippet: y
 Actionable Log Files allow you to capture media data from Google DCM log files and use the data to create traits in Audience Manager. Capture impressions, clicks, and conversions from ad servers as traits without having to use pixel calls.
 
 <ul class="simplelist"> 
- <li> <a href="../../c-integration/media-data-integration/actionable-log-files.md#section_42B595E75E7A42E589F5E166968A1311" format="dita" scope="local"> Purpose </a> </li> 
- <li> <a href="../../c-integration/media-data-integration/actionable-log-files.md#section_DD0AAAB29999453889CB3C86D2F4EFF5" format="dita" scope="local"> Getting Started </a> </li> 
- <li> <a href="../../c-integration/media-data-integration/actionable-log-files.md#section_4608990C8D0D43AE8FDC33081543E5E2" format="dita" scope="local"> Working with Actionable Log Files </a> </li> 
- <li> <a href="../../c-integration/media-data-integration/actionable-log-files.md#section_F23E910753EB4241BFD8B76262526F18" format="dita" scope="local"> Actionable Signals </a> </li> 
- <li> <a href="../../c-integration/media-data-integration/actionable-log-files.md#section_09EB4686F5204452A39A7C2700D44E49" format="dita" scope="local"> Use Cases </a> </li> 
+ <li> <a href="../../c-integration/media-data-integration/actionable-log-files.md#section_42B595E75E7A42E589F5E166968A1311"> Purpose </a> </li> 
+ <li> <a href="../../c-integration/media-data-integration/actionable-log-files.md#section_DD0AAAB29999453889CB3C86D2F4EFF5"> Getting Started </a> </li> 
+ <li> <a href="../../c-integration/media-data-integration/actionable-log-files.md#section_4608990C8D0D43AE8FDC33081543E5E2"> Working with Actionable Log Files </a> </li> 
+ <li> <a href="../../c-integration/media-data-integration/actionable-log-files.md#section_F23E910753EB4241BFD8B76262526F18"> Actionable Signals </a> </li> 
+ <li> <a href="../../c-integration/media-data-integration/actionable-log-files.md#section_09EB4686F5204452A39A7C2700D44E49"> Use Cases </a> </li> 
 </ul>
 
 >[!NOTE]
@@ -115,7 +115,7 @@ Remember, in order to use this information for audience creation and segmentatio
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_src</span> </p> </td> 
-   <td colname="col2"> <p>The ID of the data source you use to capture DCM data. See <a href="../../c-features/manage-datasources.md#concept_3B7696B3EC77416492D3B99EBD79EA44" format="dita" scope="local"> How to Create a Data Source</a>. </p> </td> 
+   <td colname="col2"> <p>The ID of the data source you use to capture DCM data. See <a href="../../c-features/manage-datasources.md#concept_3B7696B3EC77416492D3B99EBD79EA44"> How to Create a Data Source</a>. </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> 743</span> </p> </td> 
   </tr> 
  </tbody> 

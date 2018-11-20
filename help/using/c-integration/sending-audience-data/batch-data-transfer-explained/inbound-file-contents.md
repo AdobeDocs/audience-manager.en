@@ -17,12 +17,12 @@ Required fields, syntax, and rules you should follow when formatting an inbound 
 Contents:
 
 <ul class="simplelist"> 
- <li> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#section_524652571283434B93EF2BA5AEC2962B" format="dita" scope="local"> File Content Syntax </a> </li> 
- <li> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#section_D024F453127141B6852B6CFB7F5CD2C8" format="dita" scope="local"> File Variables Defined </a> </li> 
- <li> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#section_A52AFA31CCA54EF2A89CEF17BFCCB879" format="dita" scope="local"> Invalid Characters in Trait IDs and Key-Value Pairs </a> </li> 
- <li> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#section_0D84D4DD995D444598AF8AE9FC8A3810" format="dita" scope="local"> Formatting Trait IDs </a> </li> 
- <li> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#section_9C29AF9142B2426BA7209E1281AE4C36" format="dita" scope="local"> Data File Examples </a> </li> 
- <li> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#section_BA72EA253B3E418AA8F597B1BC73360A" format="dita" scope="local"> Examples Matrix </a> </li> 
+ <li> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#section_524652571283434B93EF2BA5AEC2962B"> File Content Syntax </a> </li> 
+ <li> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#section_D024F453127141B6852B6CFB7F5CD2C8"> File Variables Defined </a> </li> 
+ <li> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#section_A52AFA31CCA54EF2A89CEF17BFCCB879"> Invalid Characters in Trait IDs and Key-Value Pairs </a> </li> 
+ <li> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#section_0D84D4DD995D444598AF8AE9FC8A3810"> Formatting Trait IDs </a> </li> 
+ <li> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#section_9C29AF9142B2426BA7209E1281AE4C36"> Data File Examples </a> </li> 
+ <li> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#section_BA72EA253B3E418AA8F597B1BC73360A"> Examples Matrix </a> </li> 
 </ul>
 
 ## File Content Syntax {#section_524652571283434B93EF2BA5AEC2962B}
@@ -61,8 +61,8 @@ The table lists and defines the variables used in a properly formatted inbound d
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> User ID </span> </span> </p> </td> 
    <td colname="col2"> <p>A User ID can be: </p> <p> 
      <ul id="ul_25168355353545A9A049D0083403025E"> 
-      <li id="li_23829FE2F6464E33859B3E388FCD106B">A unique user ID assigned by <span class="keyword"> Audience Manager </span> ( <a href="../../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8" format="dita" scope="local"> Audience Manager UUID </a>). </li> 
-      <li id="li_76961F20DD3F4554AD2ADFB773F975DB">A unique user ID assigned in your CRM system ( <a href="../../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8" format="dita" scope="local"> DPUUID, in Audience Manager </a>). </li> 
+      <li id="li_23829FE2F6464E33859B3E388FCD106B">A unique user ID assigned by <span class="keyword"> Audience Manager </span> ( <a href="../../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8"> Audience Manager UUID </a>). </li> 
+      <li id="li_76961F20DD3F4554AD2ADFB773F975DB">A unique user ID assigned in your CRM system ( <a href="../../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8"> DPUUID, in Audience Manager </a>). </li> 
       <li id="li_52ABF6CCBCD147E2BD84D056F7461BA0">A mobile Android or iOS device ID in its original, unmodified form as exposed by the mobile operating system. </li> 
      </ul> </p> <p>For mobile IDs: </p> <p> 
      <ul id="ul_717A17E11565427E9E2D9D7554BB231B"> 
@@ -76,7 +76,7 @@ The table lists and defines the variables used in a properly formatted inbound d
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> trait ID </span> </span> </p> </td> 
-   <td colname="col2"> <p>The <span class="keyword"> Audience Manager </span> trait ID. We ask that you include <i>only onboarded traits</i> in inbound data files. We do not process any other trait types in the inbound data transfer. </p> <p> <p>Note:  The Trait ID can be found by using the GET method that returns details about all your traits. For more information, see <a href="../../../c-api/c-rest-api-main/api-traits.md#concept_9DDE7873366644E38E2C58F2CAE8B62D" format="dita" scope="local"> Trait API Methods </a>. </p> </p> </td> 
+   <td colname="col2"> <p>The <span class="keyword"> Audience Manager </span> trait ID. We ask that you include <i>only onboarded traits</i> in inbound data files. We do not process any other trait types in the inbound data transfer. </p> <p> <p>Note:  The Trait ID can be found by using the GET method that returns details about all your traits. For more information, see <a href="../../../c-api/c-rest-api-main/api-traits.md#concept_9DDE7873366644E38E2C58F2CAE8B62D"> Trait API Methods </a>. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -95,15 +95,15 @@ The following table describes the prefixes that identify trait names or IDs in a
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_sid= </span> </p> </td> 
-   <td colname="col2"> <p>The <span class="codeph"> d_sid </span> prefix tells our system that the ID is an <span class="keyword"> Audience Manager </span> trait ID. This is the same ID that's shown in the user interface. You can also return trait IDs with the API <span class="codeph"> GET </span> method. See <a href="../../../c-api/c-rest-api-main/api-traits.md#concept_9DDE7873366644E38E2C58F2CAE8B62D" format="dita" scope="local"> Trait API Methods </a>. </p> </td> 
+   <td colname="col2"> <p>The <span class="codeph"> d_sid </span> prefix tells our system that the ID is an <span class="keyword"> Audience Manager </span> trait ID. This is the same ID that's shown in the user interface. You can also return trait IDs with the API <span class="codeph"> GET </span> method. See <a href="../../../c-api/c-rest-api-main/api-traits.md#concept_9DDE7873366644E38E2C58F2CAE8B62D"> Trait API Methods </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_unsid= </span> </p> </td> 
-   <td colname="col2"> <p>Data prefixed with <span class="codeph"> d_unsid </span> removes users from that trait. The <span class="codeph"> d_unsid </span> prefix is ignored in an <span class="codeph"> overwrite </span> file. </p> <p>The <span class="codeph"> d_unsid= </span> prefix tells our system that the ID is an <span class="keyword"> Audience Manager </span> trait ID. This is the same ID that's shown in the user interface. You can also return trait IDs with the API <span class="codeph"> GET </span> method. See <a href="../../../c-api/c-rest-api-main/api-traits.md#concept_9DDE7873366644E38E2C58F2CAE8B62D" format="dita" scope="local"> Trait API Methods </a>. </p> </td> 
+   <td colname="col2"> <p>Data prefixed with <span class="codeph"> d_unsid </span> removes users from that trait. The <span class="codeph"> d_unsid </span> prefix is ignored in an <span class="codeph"> overwrite </span> file. </p> <p>The <span class="codeph"> d_unsid= </span> prefix tells our system that the ID is an <span class="keyword"> Audience Manager </span> trait ID. This is the same ID that's shown in the user interface. You can also return trait IDs with the API <span class="codeph"> GET </span> method. See <a href="../../../c-api/c-rest-api-main/api-traits.md#concept_9DDE7873366644E38E2C58F2CAE8B62D"> Trait API Methods </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ic= </span> </p> </td> 
-   <td colname="col2"> <p> <a href="../../../c-features/traits/manage-trait-rules.md#concept_3A566134D5704002B3713D0909C94389" format="dita" scope="local"> Trait rules </a> let you set criteria for trait qualification. If you format a trait rule as <span class="codeph"> ic == trait ID </span>, you can send in traits in a simple comma formatted list. </p> <p>For example, say you create these 3 trait rules: </p> <p> 
+   <td colname="col2"> <p> <a href="../../../c-features/traits/manage-trait-rules.md#concept_3A566134D5704002B3713D0909C94389"> Trait rules </a> let you set criteria for trait qualification. If you format a trait rule as <span class="codeph"> ic == trait ID </span>, you can send in traits in a simple comma formatted list. </p> <p>For example, say you create these 3 trait rules: </p> <p> 
      <ul class="simplelist"> 
       <li> <span class="codeph"> ic == "123" </span> </li> 
       <li> <span class="codeph"> ic == "456" </span> </li> 
@@ -258,31 +258,31 @@ The chart below shows examples of the correct way to format your Inbound files, 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Audience Manager UUID </p> </td> 
-   <td colname="col2"> <p> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example_2E62E4E7F46448268C9EB9AEB9E60D3F" format="dita" scope="local"> Example 1 </a> </p> </td> 
-   <td colname="col3"> <p> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example_C16FCBA11ECE40BA98E8774ABB7A66A4" format="dita" scope="local"> Example 2 </a> </p> </td> 
-   <td colname="col4"> <p> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example_87901E3B17A444C0B033FABCBA2C0D2B" format="dita" scope="local"> Example 3 </a> </p> </td> 
-   <td colname="col5"> <p> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example_1DF79B9D7A9840CBBD51C2360B3CBDE9" format="dita" scope="local"> Example 4 </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example_2E62E4E7F46448268C9EB9AEB9E60D3F"> Example 1 </a> </p> </td> 
+   <td colname="col3"> <p> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example_C16FCBA11ECE40BA98E8774ABB7A66A4"> Example 2 </a> </p> </td> 
+   <td colname="col4"> <p> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example_87901E3B17A444C0B033FABCBA2C0D2B"> Example 3 </a> </p> </td> 
+   <td colname="col5"> <p> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example_1DF79B9D7A9840CBBD51C2360B3CBDE9"> Example 4 </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Google Advertising ID for Android Devices </p> </td> 
-   <td colname="col2"> <p> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example_7857F8C615554FBC9FBA2084C64EEBDD" format="dita" scope="local"> Example 5 </a> </p> </td> 
-   <td colname="col3"> <p> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example_F634761D66C24D849DCEF6919482B30D" format="dita" scope="local"> Example 6 </a> </p> </td> 
-   <td colname="col4"> <p> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example_4870547D5808450CAAE2648CDB64F561" format="dita" scope="local"> Example 7 </a> </p> </td> 
-   <td colname="col5"> <p> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example_5FB2F32FF7324BE0B8697784031680F4" format="dita" scope="local"> Example 8 </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example_7857F8C615554FBC9FBA2084C64EEBDD"> Example 5 </a> </p> </td> 
+   <td colname="col3"> <p> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example_F634761D66C24D849DCEF6919482B30D"> Example 6 </a> </p> </td> 
+   <td colname="col4"> <p> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example_4870547D5808450CAAE2648CDB64F561"> Example 7 </a> </p> </td> 
+   <td colname="col5"> <p> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example_5FB2F32FF7324BE0B8697784031680F4"> Example 8 </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Apple IDFA for iOS devices </p> </td> 
-   <td colname="col2"> <p> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example_7073A4D3DC9F4CA0B464F83933509410" format="dita" scope="local"> Example 9 </a> </p> </td> 
-   <td colname="col3"> <p> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example_2F02A355D1E4452AB9C85B41FF6F4436" format="dita" scope="local"> Example 10 </a> </p> </td> 
-   <td colname="col4"> <p> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example_6698940C1F87453A9C21D8A08DC21B25" format="dita" scope="local"> Example 11 </a> </p> </td> 
-   <td colname="col5"> <p> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example_72EFCD3713F74A91A8B37A5046CDE532" format="dita" scope="local"> Example 12 </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example_7073A4D3DC9F4CA0B464F83933509410"> Example 9 </a> </p> </td> 
+   <td colname="col3"> <p> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example_2F02A355D1E4452AB9C85B41FF6F4436"> Example 10 </a> </p> </td> 
+   <td colname="col4"> <p> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example_6698940C1F87453A9C21D8A08DC21B25"> Example 11 </a> </p> </td> 
+   <td colname="col5"> <p> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example_72EFCD3713F74A91A8B37A5046CDE532"> Example 12 </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Your own CRM ID (DPUUID) </p> </td> 
-   <td colname="col2"> <p> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example_31EA1C2A9B3A4A75B00B648DDA65635B" format="dita" scope="local"> Example 13 </a> </p> </td> 
-   <td colname="col3"> <p> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example_3DAA1D2CDD274BD2BBAAAA62C50412EC" format="dita" scope="local"> Example 14 </a> </p> </td> 
-   <td colname="col4"> <p> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example_21B159FD9EC5455B99A6339CB497644B" format="dita" scope="local"> Example 15 </a> </p> </td> 
-   <td colname="col5"> <p> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example_5832A7F48BB747E1994C4FEFE68D5640" format="dita" scope="local"> Example 16 </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example_31EA1C2A9B3A4A75B00B648DDA65635B"> Example 13 </a> </p> </td> 
+   <td colname="col3"> <p> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example_3DAA1D2CDD274BD2BBAAAA62C50412EC"> Example 14 </a> </p> </td> 
+   <td colname="col4"> <p> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example_21B159FD9EC5455B99A6339CB497644B"> Example 15 </a> </p> </td> 
+   <td colname="col5"> <p> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example_5832A7F48BB747E1994C4FEFE68D5640"> Example 16 </a> </p> </td> 
   </tr> 
  </tbody> 
 </table>

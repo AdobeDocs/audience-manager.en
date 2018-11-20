@@ -17,10 +17,10 @@ Unsegmentation describes processes that disqualify and remove device profiles fr
 Contents:
 
 <ul class="simplelist"> 
- <li> <a href="../../c-features/profile-merge-rules/merge-rule-unsegment.md#section_33F01A0A49D4435DADB3A94442417C67" format="dita" scope="local"> Available Device Options </a> </li> 
- <li> <a href="../../c-features/profile-merge-rules/merge-rule-unsegment.md#section_106254DCB9A340E38769777158BEA37A" format="dita" scope="local"> Current Device Profile Option and Device Unsegmentation </a> </li> 
- <li><a href="../../c-features/profile-merge-rules/merge-rule-unsegment.md#section_1A030A98C21C40C181AE8ACCF7D622CA" format="dita" scope="local"> No Device Option and Device Unsegmentation</a> </li> 
- <li> <a href="../../c-features/profile-merge-rules/merge-rule-unsegment.md#section_23A08D8D7E1541A8B0C701222D5032FC" format="dita" scope="local"> Device Graph Options and Device Unsegmentation </a> </li> 
+ <li> <a href="../../c-features/profile-merge-rules/merge-rule-unsegment.md#section_33F01A0A49D4435DADB3A94442417C67"> Available Device Options </a> </li> 
+ <li> <a href="../../c-features/profile-merge-rules/merge-rule-unsegment.md#section_106254DCB9A340E38769777158BEA37A"> Current Device Profile Option and Device Unsegmentation </a> </li> 
+ <li><a href="../../c-features/profile-merge-rules/merge-rule-unsegment.md#section_1A030A98C21C40C181AE8ACCF7D622CA"> No Device Option and Device Unsegmentation</a> </li> 
+ <li> <a href="../../c-features/profile-merge-rules/merge-rule-unsegment.md#section_23A08D8D7E1541A8B0C701222D5032FC"> Device Graph Options and Device Unsegmentation </a> </li> 
 </ul>
 
 ## Available Device Options {#section_33F01A0A49D4435DADB3A94442417C67}
@@ -44,7 +44,7 @@ As a reminder, the [!UICONTROL Device Options] are available in the [!UICONTROL 
 <p> 
  <ul id="ul_596501272A224228BD330DD56E01D973"> 
   <li id="li_E4FA1A5C722748CD82AE3A49FCBE86F6">The device profile has been inactive for 120-days. A weekly data cleanup process removes inactive device profiles from your segments. </li> 
-  <li id="li_DB0CCD28425048D5B35309B8C2C384F9">The device no longer qualifies for a segment because updates or changes to the device profile disqualify it. This happens when segment qualification criteria change, or you apply an AND NOT operator to a segment rule, or specify <a href="../../c-features/c-segments/recency-and-frequency.md#concept_957D9E1977774D28A98ACEE6035E7B37" format="dita" scope="local"> recency and frequency</a> conditions that use the less than/equal to settings. </li> 
+  <li id="li_DB0CCD28425048D5B35309B8C2C384F9">The device no longer qualifies for a segment because updates or changes to the device profile disqualify it. This happens when segment qualification criteria change, or you apply an AND NOT operator to a segment rule, or specify <a href="../../c-features/c-segments/recency-and-frequency.md#concept_957D9E1977774D28A98ACEE6035E7B37"> recency and frequency</a> conditions that use the less than/equal to settings. </li> 
  </ul> </p> 
 <p style="text-align: center;"> <img href="assets/unsegment3.png" id="image_B55E5A5EB1964AA08C817211006294E1" /> </p>
 

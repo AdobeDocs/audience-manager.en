@@ -17,10 +17,10 @@ Describes the required fields, syntax, and naming conventions used for file-base
 Contents:
 
 <ul class="simplelist"> 
- <li> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md#section_0AB70A4265EC478CB9C3540A6DD16000" format="dita" scope="local"> File Name Syntax and Examples </a> </li> 
- <li> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md#section_1DA6C74107E34CC0A4DCCFEDDDDDBCFF" format="dita" scope="local"> File Content Syntax and Examples </a> </li> 
- <li> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md#section_41255CCDC02440C285C03E8001FB7E90" format="dita" scope="local"> Synchronization Matches DPIDs to UUIDs </a> </li> 
- <li> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md#section_86EFF8C6AE40444A83F42411957CD809" format="dita" scope="local"> Other Format Requirements </a> </li> 
+ <li> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md#section_0AB70A4265EC478CB9C3540A6DD16000"> File Name Syntax and Examples </a> </li> 
+ <li> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md#section_1DA6C74107E34CC0A4DCCFEDDDDDBCFF"> File Content Syntax and Examples </a> </li> 
+ <li> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md#section_41255CCDC02440C285C03E8001FB7E90"> Synchronization Matches DPIDs to UUIDs </a> </li> 
+ <li> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md#section_86EFF8C6AE40444A83F42411957CD809"> Other Format Requirements </a> </li> 
 </ul>
 
 >[!NOTE]

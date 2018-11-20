@@ -17,10 +17,10 @@ Recommendations and use cases for prospecting, retargeting, and personalization 
 Contents:
 
 <ul class="simplelist"> 
- <li> <a href="../../c-features/profile-merge-rules/external-graph-use-cases.md#section_7C93DAA7927A4203B9617A560CCC1F02" format="dita" scope="local"> Recommendations </a> </li> 
- <li> <a href="../../c-features/profile-merge-rules/external-graph-use-cases.md#section_B6877E4AFC194EBDA6153A4719E224E8" format="dita" scope="local"> Prospecting/Branding Use Case </a> </li> 
- <li> <a href="../../c-features/profile-merge-rules/external-graph-use-cases.md#section_DDA1F5FC497E47B0BFBF199BA92474F5" format="dita" scope="local"> Retargeting or Site Personalization Use Case </a> </li> 
- <li> <a href="../../c-features/profile-merge-rules/external-graph-use-cases.md#section_48CFAB21B82A4C88B0FA2CC69187E2DF" format="dita" scope="local"> Profile Merge Rule Options for External Device Graph Use Cases... </a> </li> 
+ <li> <a href="../../c-features/profile-merge-rules/external-graph-use-cases.md#section_7C93DAA7927A4203B9617A560CCC1F02"> Recommendations </a> </li> 
+ <li> <a href="../../c-features/profile-merge-rules/external-graph-use-cases.md#section_B6877E4AFC194EBDA6153A4719E224E8"> Prospecting/Branding Use Case </a> </li> 
+ <li> <a href="../../c-features/profile-merge-rules/external-graph-use-cases.md#section_DDA1F5FC497E47B0BFBF199BA92474F5"> Retargeting or Site Personalization Use Case </a> </li> 
+ <li> <a href="../../c-features/profile-merge-rules/external-graph-use-cases.md#section_48CFAB21B82A4C88B0FA2CC69187E2DF"> Profile Merge Rule Options for External Device Graph Use Cases... </a> </li> 
 </ul>
 
 ## Recommendations {#section_7C93DAA7927A4203B9617A560CCC1F02}

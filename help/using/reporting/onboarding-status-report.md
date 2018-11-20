@@ -36,7 +36,7 @@ Error reporting and error sampling are 2 separate features of the [!UICONTROL On
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Error Sampling</b> </p> </td> 
-   <td colname="col2"> <p>Error sampling parses the contents of your data files and returns the 10 most common errors for each error type. The errors in your inbound data files prevent individual records from being processed. Use this report as a troubleshooting tool to help reduce the number of file errors and improve processing rates. </p> <p>You must activate error sampling manually. It runs for 14-days from the day of activation and then turns itself off. You can turn error sampling back on after the 14-day interval expires. You activate error sampling when you <a href="../c-features/manage-datasources.md#concept_3B7696B3EC77416492D3B99EBD79EA44" format="dita" scope="local"> create an inbound data source</a> or by checking the <span class="uicontrol"> Error Sampling</span> check box from the <span class="wintitle"> Data Source Settings</span> section of an existing inbound data source. </p> <p>Error sampling is a computationally demanding process. As a result, it only returns first 10 errors for each error category. It is not designed to return every error contained in an inbound data source. These errors are a representative sample of a potentially larger group of similar errors. Review your entire file for the types of errors this report flags, reformat the file, and send it in again. </p> <p>See <a href="../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#concept_49E6F0740E794B07ACD115D10EDEB5AC" format="dita" scope="local"> Inbound Data File Contents: Syntax, Variables, and Examples</a> for more information about how to properly format an data file for an inbound data source. </p> </td> 
+   <td colname="col2"> <p>Error sampling parses the contents of your data files and returns the 10 most common errors for each error type. The errors in your inbound data files prevent individual records from being processed. Use this report as a troubleshooting tool to help reduce the number of file errors and improve processing rates. </p> <p>You must activate error sampling manually. It runs for 14-days from the day of activation and then turns itself off. You can turn error sampling back on after the 14-day interval expires. You activate error sampling when you <a href="../c-features/manage-datasources.md#concept_3B7696B3EC77416492D3B99EBD79EA44"> create an inbound data source</a> or by checking the <span class="uicontrol"> Error Sampling</span> check box from the <span class="wintitle"> Data Source Settings</span> section of an existing inbound data source. </p> <p>Error sampling is a computationally demanding process. As a result, it only returns first 10 errors for each error category. It is not designed to return every error contained in an inbound data source. These errors are a representative sample of a potentially larger group of similar errors. Review your entire file for the types of errors this report flags, reformat the file, and send it in again. </p> <p>See <a href="../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#concept_49E6F0740E794B07ACD115D10EDEB5AC"> Inbound Data File Contents: Syntax, Variables, and Examples</a> for more information about how to properly format an data file for an inbound data source. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -116,13 +116,13 @@ A reference guide for the labels and terms used in this report.
    <td colname="col1"> <p> <b>Data Sync File Name</b> </p> </td> 
    <td colname="col2"> <p>Lists files that <span class="keyword"> Audience Manager</span> received and processed from you selected inbound data source. </p> <p>File processing will fail if the file name is formatted improperly. File name requirements vary depending on how you send this data to <span class="keyword"> Audience Manager</span>. Delivery methods include <span class="keyword"> Amazon S3</span> and FTP. For instructions on how to name your files, see: </p> <p> 
      <ul id="ul_9A32906A14CA41C5AED0E13930DB31BA"> 
-      <li id="li_A5A0E6ED711D4002B52092619F87C7D6"> <a href="../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md#concept_B3CAF442BFFE4823B76A5D0D91DF9942" format="dita" scope="local"> Amazon S3 Name Requirements for Inbound Data Files </a> </li> 
-      <li id="li_9590241AEC0C482D91C64DB760B32B0D"> <a href="../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md#concept_D34898442363415DBF75CEBFC2E86997" format="dita" scope="local"> FTP Name Requirements for Inbound Data Files </a> </li> 
+      <li id="li_A5A0E6ED711D4002B52092619F87C7D6"> <a href="../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md#concept_B3CAF442BFFE4823B76A5D0D91DF9942"> Amazon S3 Name Requirements for Inbound Data Files </a> </li> 
+      <li id="li_9590241AEC0C482D91C64DB760B32B0D"> <a href="../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md#concept_D34898442363415DBF75CEBFC2E86997"> FTP Name Requirements for Inbound Data Files </a> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Format Errors</b> </p> </td> 
-   <td colname="col2"> <p>Lists the number of records that failed processing because they did not match the syntax or formatting requirements. See <a href="../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#concept_49E6F0740E794B07ACD115D10EDEB5AC" format="dita" scope="local"> Inbound Data File Contents: Syntax, Variables, and Examples</a> for information on how to format your data. </p> </td> 
+   <td colname="col2"> <p>Lists the number of records that failed processing because they did not match the syntax or formatting requirements. See <a href="../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#concept_49E6F0740E794B07ACD115D10EDEB5AC"> Inbound Data File Contents: Syntax, Variables, and Examples</a> for information on how to format your data. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Invalid AAM ID</b> </p> </td> 
@@ -144,7 +144,7 @@ A reference guide for the labels and terms used in this report.
    <td colname="col1"> <p> <b>No Trait Realized</b> </p> </td> 
    <td colname="col2"> <p>Lists traits that <span class="keyword"> Audience Manager</span> cannot match to an onboarded trait. This could be the result of: </p> 
     <ul id="ul_43619035AB6641B6949302FB50BDB5B1"> 
-     <li id="li_D4C6306BF2B143198108702B309CE8CF">Improperly formatted traits in your inbound data file. For on how to format your data file, see <a href="../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#concept_49E6F0740E794B07ACD115D10EDEB5AC" format="dita" scope="local"> Inbound Data File Contents: Syntax, Variables, and Examples</a>. </li> 
+     <li id="li_D4C6306BF2B143198108702B309CE8CF">Improperly formatted traits in your inbound data file. For on how to format your data file, see <a href="../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#concept_49E6F0740E794B07ACD115D10EDEB5AC"> Inbound Data File Contents: Syntax, Variables, and Examples</a>. </li> 
      <li id="li_A1C708A007D24EE09B7C629AFC6E43C3">Traits that have not yet been defined in <span class="keyword"> Audience Manager</span>. </li> 
     </ul> </td> 
   </tr> 
@@ -166,7 +166,7 @@ A reference guide for the labels and terms used in this report.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Total Unused Signals</b> </p> </td> 
-   <td colname="col2"> <p>Total number of unused signals received in the report. This total is based on the total number of successfully stored records. </p> <p>See <a href="../reporting/dynamic-reports/unused-signals.md#concept_D3A6A3AD84AE47589699A13A8F971BE0" format="dita" scope="local"> Unused Signals Report</a> for more information. </p> </td> 
+   <td colname="col2"> <p>Total number of unused signals received in the report. This total is based on the total number of successfully stored records. </p> <p>See <a href="../reporting/dynamic-reports/unused-signals.md#concept_D3A6A3AD84AE47589699A13A8F971BE0"> Unused Signals Report</a> for more information. </p> </td> 
   </tr> 
  </tbody> 
 </table>

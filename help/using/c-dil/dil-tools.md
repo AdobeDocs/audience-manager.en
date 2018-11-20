@@ -14,6 +14,10 @@ snippet: y
 
 Describes methods in the DIL.tools namespace. These utility functions help you perform specific tasks.
 
+## DIL Tools
+
+Describes methods in the `DIL.tools` namespace. These utility functions help you perform specific tasks.
+
 <!-- 
 
 c_dil_functions.xml
@@ -42,13 +46,13 @@ Function signature: `DIL.tools.getSearchReferrer(uri, initConfig)`
 
 `getSearchReferrer` accepts:
 
-* *`{string}`*: *(Optional)* A string containing the search URL (uses `document.referrer` if undefined). 
+* `{string}` *(Optional)* A string containing the search URL (uses `document.referrer` if undefined). 
 
-* *`{object}`**(Optional)* An object containing the configuration for the `hostPattern`, `queryParam`, or `queryPattern`.
+* `{object}` *(Optional)* An object containing the configuration for the `hostPattern`, `queryParam`, or `queryPattern`.
 
 And returns:
 
-* *`{object}`*: An object that contains valid names and keywords.
+* `{object}` An object that contains valid names and keywords.
 
 ### Examples
 
@@ -150,7 +154,6 @@ And returns:
 
 ```
 var uriData = DIL.tools.decomposeURI('https://www.adobe.com/?arg1=123&arg2=456#am'); 
-  
 { 
   hash : "#am", 
   host : "www.adobe.com", 
@@ -178,13 +181,13 @@ r_dil_get_metatags.xml
 
 ### Function signature
 
-Function signature for `DIL.tools.getMetaTags(1 or more parameters)`
+Function signature: `DIL.tools.getMetaTags( 1 or more parameters)`
 
 ### Function Parameters
 
 `getMetaTags` accepts one or more name parameters (string type) to search for. It returns an object composed of key-value pairs.
 
-**Sample Code** 
+### Sample Code
 
 ```
 var dataLib = DIL.create({ 

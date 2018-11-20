@@ -21,12 +21,12 @@ The Audience Manager Admin tool lets you add and configure companies, servers, r
        c_home.xml 
      </draft-comment>Hover over a title for a brief description. </p> <p> 
      <ul id="ul_A0416FDB65EB4774821C05664E14AB86"> 
-      <li id="li_C528ED722C7241C8A0F492B250322EA7"><a href="admin-servers/admin-authorize-s3-cross-bucket.md#task_20B12994C5484A9D8CC40DF6F456CBE7" format="dita" scope="local"> How To: Authorize Cross-Account Amazon S3 Bucket Access for Batch Destinations</a> </li> 
-      <li id="li_582FD48ADC894E00AE5961E2E80A3A92"><a href="admin-destination-troubleshooting.md#topic_3A72A8CBD8424D8390CF94C3C78BE182" format="dita" scope="local"> How to Set Up Your Destinations to Export Experience Cloud...</a> </li> 
-      <li id="li_AB7BFF82D42649F3B72DA7737B05E355"><a href="formats/web-formats.md#reference_C392124A5F3F42E49F8AADDBA601ADFE" format="dita" scope="local"> HTTP Format Macros</a> </li> 
-      <li id="li_FEC2B72DC2A04BEAAC36259C0882CECB"><a href="admin-oauth2/aam-admin-api-requirements.md#concept_A7FAC9443CF34974A873E6B787616421" format="dita" scope="local"> API Requirements and Recommendations</a> </li> 
-      <li id="li_5994853C069A44B2A1A8F3169119F001"><a href="formats/enable-outbound-seq.md#concept_526744C9433F40BF8269E18245B2F0BD" format="dita" scope="local"> Enable Hadoop Sequence File Transfers for Outbound</a> </li> 
-      <li id="li_EC1DE0200F4B4EA1A7FBAB6A05D9F746"><a href="companies/admin-device-graph-options.md#concept_563615F1018340C683E0EE075F8F639D" format="dita" scope="local"> Device Graph Options for Companies</a> </li> 
+      <li id="li_C528ED722C7241C8A0F492B250322EA7"><a href="admin-servers/admin-authorize-s3-cross-bucket.md#task_20B12994C5484A9D8CC40DF6F456CBE7"> How To: Authorize Cross-Account Amazon S3 Bucket Access for Batch Destinations</a> </li> 
+      <li id="li_582FD48ADC894E00AE5961E2E80A3A92"><a href="admin-destination-troubleshooting.md#topic_3A72A8CBD8424D8390CF94C3C78BE182"> How to Set Up Your Destinations to Export Experience Cloud...</a> </li> 
+      <li id="li_AB7BFF82D42649F3B72DA7737B05E355"><a href="formats/web-formats.md#reference_C392124A5F3F42E49F8AADDBA601ADFE"> HTTP Format Macros</a> </li> 
+      <li id="li_FEC2B72DC2A04BEAAC36259C0882CECB"><a href="admin-oauth2/aam-admin-api-requirements.md#concept_A7FAC9443CF34974A873E6B787616421"> API Requirements and Recommendations</a> </li> 
+      <li id="li_5994853C069A44B2A1A8F3169119F001"><a href="formats/enable-outbound-seq.md#concept_526744C9433F40BF8269E18245B2F0BD"> Enable Hadoop Sequence File Transfers for Outbound</a> </li> 
+      <li id="li_EC1DE0200F4B4EA1A7FBAB6A05D9F746"><a href="companies/admin-device-graph-options.md#concept_563615F1018340C683E0EE075F8F639D"> Device Graph Options for Companies</a> </li> 
      </ul> </p> </td> 
    <td colname="col2" valign="top"> <p class="head"><b>Release Notes</b> </p> 
     <ul id="ul_1AA5CED5DA0F4B78B8BC4D74539E97EF"> 

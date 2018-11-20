@@ -53,11 +53,11 @@ The table below lists and defines the more common parameters you may see in a re
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> c</span> </p> </td> 
-   <td colname="col2"> <p>A URL that has been set as a <a href="../../../c-features/destinations/manage-destinations.md#concept_51842672DFA943EA982B363E74D42DF8" format="dita" scope="local"> URL destination</a>. </p> </td> 
+   <td colname="col2"> <p>A URL that has been set as a <a href="../../../c-features/destinations/manage-destinations.md#concept_51842672DFA943EA982B363E74D42DF8"> URL destination</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> cn</span> </p> </td> 
-   <td colname="col2"> <p>The name or ID set in the cookie name field of a <a href="../../../c-features/destinations/manage-destinations.md#concept_2462AA1321984293A92CB174C41B3496" format="dita" scope="local"> cookie destination</a>. </p> </td> 
+   <td colname="col2"> <p>The name or ID set in the cookie name field of a <a href="../../../c-features/destinations/manage-destinations.md#concept_2462AA1321984293A92CB174C41B3496"> cookie destination</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> cv</span> </p> </td> 
@@ -65,7 +65,7 @@ The table below lists and defines the more common parameters you may see in a re
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> dcs_region</span> </p> </td> 
-   <td colname="col2"> <p>The <a href="../../../c-api/dcs-intro/dcs-api-reference/dcs-regions.md#concept_01C1E017A6694D1EAF9BF65BFFA54091" format="dita" scope="local"> DCS region ID</a>. The region ID is required if you're making <a href="../../../c-api/dcs-intro/dcs-s2s/dcs-s2s-calls.md#concept_57686178E4174EE1A952E0E51BC8A52C" format="dita" scope="local"> server-to-server DCS calls</a>. </p> </td> 
+   <td colname="col2"> <p>The <a href="../../../c-api/dcs-intro/dcs-api-reference/dcs-regions.md#concept_01C1E017A6694D1EAF9BF65BFFA54091"> DCS region ID</a>. The region ID is required if you're making <a href="../../../c-api/dcs-intro/dcs-s2s/dcs-s2s-calls.md#concept_57686178E4174EE1A952E0E51BC8A52C"> server-to-server DCS calls</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> dests</span> </p> </td> 
@@ -73,7 +73,7 @@ The table below lists and defines the more common parameters you may see in a re
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> dmn</span> </p> </td> 
-   <td colname="col2"> <p>This is the domain specified in the <span class="wintitle"> Cookie Domain</span> field for a cookie destination. See <a href="../../../c-features/destinations/manage-destinations.md#concept_DEF2E47F31D44BDA936BBB45EA5B136D" format="dita" scope="local"> Optional Settings for Cookie Destinations</a>. </p> <p>For <span class="wintitle"> Server to Server</span> integrations we recommend using a domain like <span class="codeph"> aam-api.com</span>. </p> </td> 
+   <td colname="col2"> <p>This is the domain specified in the <span class="wintitle"> Cookie Domain</span> field for a cookie destination. See <a href="../../../c-features/destinations/manage-destinations.md#concept_DEF2E47F31D44BDA936BBB45EA5B136D"> Optional Settings for Cookie Destinations</a>. </p> <p>For <span class="wintitle"> Server to Server</span> integrations we recommend using a domain like <span class="codeph"> aam-api.com</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> e</span> </p> </td> 
@@ -96,7 +96,7 @@ The table below lists and defines the more common parameters you may see in a re
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> u</span> and <span class="codeph"> uuid</span> </p> </td> 
-   <td colname="col2"> <p>Unique User ID assigned by <span class="keyword"> Audience Manager.</span> This is required if you're making <a href="../../../c-api/dcs-intro/dcs-s2s/dcs-s2s-calls.md#concept_57686178E4174EE1A952E0E51BC8A52C" format="dita" scope="local"> server-to-server DCS calls</a>. </p> </td> 
+   <td colname="col2"> <p>Unique User ID assigned by <span class="keyword"> Audience Manager.</span> This is required if you're making <a href="../../../c-api/dcs-intro/dcs-s2s/dcs-s2s-calls.md#concept_57686178E4174EE1A952E0E51BC8A52C"> server-to-server DCS calls</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> y</span> </p> </td> 

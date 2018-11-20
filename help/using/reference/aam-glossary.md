@@ -15,18 +15,18 @@ snippet: y
 Definitions and links to further reading.
 
 <ul class="simplelist"> 
- <li> <a href="../reference/aam-glossary.md#section_5190D1D9ED4B4EEAA659BF6C5C68ABF5" format="dita" scope="local"> A-B</a> </li> 
- <li> <a href="../reference/aam-glossary.md#section_0CE339FB571E4179887ADBF0E68D4E53" format="dita" scope="local"> C-D</a> </li> 
- <li> <a href="../reference/aam-glossary.md#section_F194A310914E4B8CB602ADD3F49BE2A9" format="dita" scope="local"> E-F</a> </li> 
- <li> <a href="../reference/aam-glossary.md#section_DD8254D949314C4FB11CEEB0A557F358" format="dita" scope="local"> G-H </a> </li> 
- <li> <a href="../reference/aam-glossary.md#section_DCC59C1DB41F47CCA79F8280DE85F009" format="dita" scope="local"> I-J</a> </li> 
- <li> <a href="../reference/aam-glossary.md#section_0ECCC82944BD4C8AB43DD630623BAEE0" format="dita" scope="local"> K-L</a> </li> 
- <li> <a href="../reference/aam-glossary.md#section_462142BF40094D9E98AEE2B6AD287968" format="dita" scope="local"> M-N</a> </li> 
- <li> <a href="../reference/aam-glossary.md#section_1815E005834B44919F411B1F0CD4D2F3" format="dita" scope="local"> O-P</a> </li> 
- <li> <a href="../reference/aam-glossary.md#section_D45EEE2C46AA4B409ABA101ECD50BBC5" format="dita" scope="local"> Q-R </a> </li> 
- <li> <a href="../reference/aam-glossary.md#section_D5B8CE5E4224452A9BBF3F3BFEA1771B" format="dita" scope="local"> S-T </a> </li> 
- <li> <a href="../reference/aam-glossary.md#section_E56481AB69BD414DA40DBBCF8C3DBD4C" format="dita" scope="local"> U-V</a> </li> 
- <li> <a href="../reference/aam-glossary.md#section_EE34BF8266F444ECA01A056070F2B17C" format="dita" scope="local"> W-X-Y-Z</a> </li> 
+ <li> <a href="../reference/aam-glossary.md#section_5190D1D9ED4B4EEAA659BF6C5C68ABF5"> A-B</a> </li> 
+ <li> <a href="../reference/aam-glossary.md#section_0CE339FB571E4179887ADBF0E68D4E53"> C-D</a> </li> 
+ <li> <a href="../reference/aam-glossary.md#section_F194A310914E4B8CB602ADD3F49BE2A9"> E-F</a> </li> 
+ <li> <a href="../reference/aam-glossary.md#section_DD8254D949314C4FB11CEEB0A557F358"> G-H </a> </li> 
+ <li> <a href="../reference/aam-glossary.md#section_DCC59C1DB41F47CCA79F8280DE85F009"> I-J</a> </li> 
+ <li> <a href="../reference/aam-glossary.md#section_0ECCC82944BD4C8AB43DD630623BAEE0"> K-L</a> </li> 
+ <li> <a href="../reference/aam-glossary.md#section_462142BF40094D9E98AEE2B6AD287968"> M-N</a> </li> 
+ <li> <a href="../reference/aam-glossary.md#section_1815E005834B44919F411B1F0CD4D2F3"> O-P</a> </li> 
+ <li> <a href="../reference/aam-glossary.md#section_D45EEE2C46AA4B409ABA101ECD50BBC5"> Q-R </a> </li> 
+ <li> <a href="../reference/aam-glossary.md#section_D5B8CE5E4224452A9BBF3F3BFEA1771B"> S-T </a> </li> 
+ <li> <a href="../reference/aam-glossary.md#section_E56481AB69BD414DA40DBBCF8C3DBD4C"> U-V</a> </li> 
+ <li> <a href="../reference/aam-glossary.md#section_EE34BF8266F444ECA01A056070F2B17C"> W-X-Y-Z</a> </li> 
 </ul>
 
 ## A-B {#section_5190D1D9ED4B4EEAA659BF6C5C68ABF5}

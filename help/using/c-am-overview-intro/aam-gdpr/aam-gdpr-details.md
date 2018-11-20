@@ -15,12 +15,12 @@ snippet: y
 This document covers the technicalities related to the General Data Protection Regulation (GDPR) for Audience Manager and shows you how to submit GDPR requests to Audience Manager.
 
 <ul class="simplelist"> 
- <li><a href="../../c-am-overview-intro/aam-gdpr/aam-gdpr-details.md#section_A1195B5542E945958F231AD4CD6DD472" format="dita" scope="local"> GDPR Documentation in the Experience Cloud</a> </li> 
- <li><a href="../../c-am-overview-intro/aam-gdpr/aam-gdpr-details.md#section_67F84F0B0BF740759EE9416C8AE8596D" format="dita" scope="local"> Types of GDPR Requests and How to Make a GDPR... </a> </li> 
- <li> <a href="../../c-am-overview-intro/aam-gdpr/aam-gdpr-details.md#section_8121E046363C4658A1FF041D43E0B021" format="dita" scope="local"> Access Data</a> </li> 
- <li> <a href="../../c-am-overview-intro/aam-gdpr/aam-gdpr-details.md#section_23A5D62E04F741A7987581691FE992B4" format="dita" scope="local"> Delete Data</a> </li> 
- <li> <a href="../../c-am-overview-intro/aam-gdpr/aam-gdpr-details.md#section_9DED20FD776C4108A1AD44E48CABA800" format="dita" scope="local"> Opt-out Request </a> </li> 
- <li> <a href="../../c-am-overview-intro/aam-gdpr/aam-gdpr-details.md#section_DF7B9F8D922F4F4C9B08E8B9A4813DCA" format="dita" scope="local"> Audience Manager Identifiers</a> </li> 
+ <li><a href="../../c-am-overview-intro/aam-gdpr/aam-gdpr-details.md#section_A1195B5542E945958F231AD4CD6DD472"> GDPR Documentation in the Experience Cloud</a> </li> 
+ <li><a href="../../c-am-overview-intro/aam-gdpr/aam-gdpr-details.md#section_67F84F0B0BF740759EE9416C8AE8596D"> Types of GDPR Requests and How to Make a GDPR... </a> </li> 
+ <li> <a href="../../c-am-overview-intro/aam-gdpr/aam-gdpr-details.md#section_8121E046363C4658A1FF041D43E0B021"> Access Data</a> </li> 
+ <li> <a href="../../c-am-overview-intro/aam-gdpr/aam-gdpr-details.md#section_23A5D62E04F741A7987581691FE992B4"> Delete Data</a> </li> 
+ <li> <a href="../../c-am-overview-intro/aam-gdpr/aam-gdpr-details.md#section_9DED20FD776C4108A1AD44E48CABA800"> Opt-out Request </a> </li> 
+ <li> <a href="../../c-am-overview-intro/aam-gdpr/aam-gdpr-details.md#section_DF7B9F8D922F4F4C9B08E8B9A4813DCA"> Audience Manager Identifiers</a> </li> 
  <li> </li> 
 </ul>
 
@@ -151,15 +151,15 @@ The table below contains descriptions for all the returned fields in the data ac
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> id</span> </p> </td> 
-   <td colname="col2"> <p>The user ID for the data that follows. This is either an id you provided in the GDPR data access request, or an ID that is linked to one of the declared IDs you provided. The ID types are described in the <a href="../../c-am-overview-intro/aam-gdpr/aam-gdpr-details.md#section_DF7B9F8D922F4F4C9B08E8B9A4813DCA" format="dita" scope="local"> Audience Manager Identifiers</a> section. </p> </td> 
+   <td colname="col2"> <p>The user ID for the data that follows. This is either an id you provided in the GDPR data access request, or an ID that is linked to one of the declared IDs you provided. The ID types are described in the <a href="../../c-am-overview-intro/aam-gdpr/aam-gdpr-details.md#section_DF7B9F8D922F4F4C9B08E8B9A4813DCA"> Audience Manager Identifiers</a> section. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> namespace</span> </p> </td> 
-   <td colname="col2"> <p>Also referred to as data source. See the <a href="../../c-am-overview-intro/aam-gdpr/aam-gdpr-details.md#section_DF7B9F8D922F4F4C9B08E8B9A4813DCA" format="dita" scope="local"> Audience Manager Identifiers</a> section. </p> </td> 
+   <td colname="col2"> <p>Also referred to as data source. See the <a href="../../c-am-overview-intro/aam-gdpr/aam-gdpr-details.md#section_DF7B9F8D922F4F4C9B08E8B9A4813DCA"> Audience Manager Identifiers</a> section. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> id</span> </p> </td> 
-   <td colname="col2"> <p>The ID of the namespace/data source. See <a href="../../c-am-overview-intro/aam-gdpr/aam-gdpr-details.md#section_DF7B9F8D922F4F4C9B08E8B9A4813DCA" format="dita" scope="local"> Audience Manager Identifiers (IDs)</a> for all the accepted values. </p> </td> 
+   <td colname="col2"> <p>The ID of the namespace/data source. See <a href="../../c-am-overview-intro/aam-gdpr/aam-gdpr-details.md#section_DF7B9F8D922F4F4C9B08E8B9A4813DCA"> Audience Manager Identifiers (IDs)</a> for all the accepted values. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> integration code </span> </p> </td> 
@@ -176,7 +176,7 @@ The table below contains descriptions for all the returned fields in the data ac
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> type </span> </p> </td> 
-   <td colname="col2"> <p>The type of ID for which you requested the GDPR data access. Accepted types are listed in the <a href="../../c-am-overview-intro/aam-gdpr/aam-gdpr-details.md#section_DF7B9F8D922F4F4C9B08E8B9A4813DCA" format="dita" scope="local"> Audience Manager Identifiers</a> section. </p> </td> 
+   <td colname="col2"> <p>The type of ID for which you requested the GDPR data access. Accepted types are listed in the <a href="../../c-am-overview-intro/aam-gdpr/aam-gdpr-details.md#section_DF7B9F8D922F4F4C9B08E8B9A4813DCA"> Audience Manager Identifiers</a> section. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> warnings</span> </p> </td> 
@@ -215,8 +215,8 @@ The table below contains descriptions for all the returned fields in the data ac
    <td colname="col2"> <p>The trait type. The possible values are: </p> <p> 
      <ul id="ul_DBAC618D9FE94B17B2494B83832A969F"> 
       <li id="li_740F2DCA8F2A4A22A7D9988ECD2FC976"> <i>First party</i> for your own traits. </li> 
-      <li id="li_D9354F40FD114802819191450F2375C8"> <i>Second party</i> for traits that belong to your partners. Read our <a href="../../c-am-overview-intro/data-types-collected.md#concept_0705AA14F8EB4F6E9BCD216E6327F70C" format="dita" scope="local"> Second Party Data</a> article for more information. </li> 
-      <li id="li_C321D8B8256F4102AE64CD40DC57C948"> <i>Third party</i> for traits obtained from data partners, via the <a href="../../c-features/audience-marketplace/audience-marketplace.md#concept_3FEC387E18E0492C9ADCB9B4CB11731B" format="dita" scope="local"> Audience Marketplace</a>. </li> 
+      <li id="li_D9354F40FD114802819191450F2375C8"> <i>Second party</i> for traits that belong to your partners. Read our <a href="../../c-am-overview-intro/data-types-collected.md#concept_0705AA14F8EB4F6E9BCD216E6327F70C"> Second Party Data</a> article for more information. </li> 
+      <li id="li_C321D8B8256F4102AE64CD40DC57C948"> <i>Third party</i> for traits obtained from data partners, via the <a href="../../c-features/audience-marketplace/audience-marketplace.md#concept_3FEC387E18E0492C9ADCB9B4CB11731B"> Audience Marketplace</a>. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -225,7 +225,7 @@ The table below contains descriptions for all the returned fields in the data ac
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> data export controls</span> </p> </td> 
-   <td colname="col2"> <p>The <a href="../../c-features/data-export-controls.md#concept_155AAFBA7D804467B6F8279D26C9D05C" format="dita" scope="local"> data export controls</a> applied to this trait's data source. </p> </td> 
+   <td colname="col2"> <p>The <a href="../../c-features/data-export-controls.md#concept_155AAFBA7D804467B6F8279D26C9D05C"> data export controls</a> applied to this trait's data source. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> data provider name</span> </p> </td> 
@@ -254,7 +254,7 @@ The table below contains descriptions for all the returned fields in the data ac
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> data export controls</span> </p> </td> 
-   <td colname="col2"> <p>The <a href="../../c-features/data-export-controls.md#concept_155AAFBA7D804467B6F8279D26C9D05C" format="dita" scope="local"> data export controls</a> applied to this segment's data source. </p> </td> 
+   <td colname="col2"> <p>The <a href="../../c-features/data-export-controls.md#concept_155AAFBA7D804467B6F8279D26C9D05C"> data export controls</a> applied to this segment's data source. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> data provider name</span> </p> </td> 

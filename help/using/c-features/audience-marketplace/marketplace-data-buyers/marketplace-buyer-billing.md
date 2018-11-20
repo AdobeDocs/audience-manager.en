@@ -46,7 +46,7 @@ To report CPM usage:
      <ul id="ul_A80B43E1A94842018280494D1DF729FE"> 
       <li id="li_E694BB3F66514D7992A4587DBBEBDC0A">Report the total number of ad impressions in units of one. </li> 
       <li id="li_AEBD157C5766443199AF677C55DEFF06">Do not enter the total number of ad impressions in units of a thousand. </li> 
-     </ul> </p> <p> For example, if 1,234,567 ad impressions are allocated to a data feed, then report 1,234,567. Do not report this as 1,234.6. </p> <p>Traits used to optimize your web or app content (Content Optimization) using tools such as <span class="keyword"> Adobe Target</span> or an <a href="../../../c-features/destinations/manage-destinations.md#concept_7B7BC8B8D3AF4AFC884F8632EC5719B8" format="dita" scope="local"> Analytics destination</a> do not contribute to the Usage totals for CPM plans. Data providers are typically compensated for Content Optimization using flat fee plans. </p> <p>See <a href="../../../c-features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#concept_E757985A4850400288F1DD9A02B755D5" format="dita" scope="local"> Billing and Impression Allocation for CPM Data Feeds</a> for more information. </p> </td> 
+     </ul> </p> <p> For example, if 1,234,567 ad impressions are allocated to a data feed, then report 1,234,567. Do not report this as 1,234.6. </p> <p>Traits used to optimize your web or app content (Content Optimization) using tools such as <span class="keyword"> Adobe Target</span> or an <a href="../../../c-features/destinations/manage-destinations.md#concept_7B7BC8B8D3AF4AFC884F8632EC5719B8"> Analytics destination</a> do not contribute to the Usage totals for CPM plans. Data providers are typically compensated for Content Optimization using flat fee plans. </p> <p>See <a href="../../../c-features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#concept_E757985A4850400288F1DD9A02B755D5"> Billing and Impression Allocation for CPM Data Feeds</a> for more information. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>How do I Report CPM Usage After the Monthly Deadline</b> </p> </td> 
@@ -72,9 +72,9 @@ marketplace_cpm_billing.xml
 Contents:
 
 <ul class="simplelist"> 
- <li> <a href="../../../c-features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#section_E49C2B4663DB4016B594DB596B66E4E1" format="dita" scope="local"> Billing Summary </a> </li> 
- <li> <a href="../../../c-features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#section_F457C3B07044474CAE3DCEB339D8E120" format="dita" scope="local"> Assign Impressions Based on Trait Qualification Rules or Type </a> </li> 
- <li> <a href="../../../c-features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#section_61B684C354944A5CA3BE1A01007B9577" format="dita" scope="local"> Billing Examples </a> </li> 
+ <li> <a href="../../../c-features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#section_E49C2B4663DB4016B594DB596B66E4E1"> Billing Summary </a> </li> 
+ <li> <a href="../../../c-features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#section_F457C3B07044474CAE3DCEB339D8E120"> Assign Impressions Based on Trait Qualification Rules or Type </a> </li> 
+ <li> <a href="../../../c-features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#section_61B684C354944A5CA3BE1A01007B9577"> Billing Examples </a> </li> 
 </ul>
 
 ## Billing Summary {#section_E49C2B4663DB4016B594DB596B66E4E1}
@@ -111,7 +111,7 @@ The Activation use case lets you use traits in the corresponding data feed to cr
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> OR</span> </p> </td> 
-   <td colname="col2"> <p>Apply 75% of the delivered impression totals to all of the providers feeds in a rules-based segment that uses a Boolean <span class="wintitle"> OR</span> condition. </p> <p> <p>Note:  <span class="wintitle"> Audience Marketplace</span> reports impressions at the <span class="wintitle"> Data Feed</span> level, not the trait level. Segments built from traits with a Boolean <span class="wintitle"> OR</span> from multiple traits from different feeds, allocate 75% of impressions to each feed in the segment, not each Trait. See the <a href="../../../c-features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#section_61B684C354944A5CA3BE1A01007B9577" format="dita" scope="local"> billing examples</a> below. </p> </p> </td> 
+   <td colname="col2"> <p>Apply 75% of the delivered impression totals to all of the providers feeds in a rules-based segment that uses a Boolean <span class="wintitle"> OR</span> condition. </p> <p> <p>Note:  <span class="wintitle"> Audience Marketplace</span> reports impressions at the <span class="wintitle"> Data Feed</span> level, not the trait level. Segments built from traits with a Boolean <span class="wintitle"> OR</span> from multiple traits from different feeds, allocate 75% of impressions to each feed in the segment, not each Trait. See the <a href="../../../c-features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#section_61B684C354944A5CA3BE1A01007B9577"> billing examples</a> below. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> NOT</span> </p> </td> 

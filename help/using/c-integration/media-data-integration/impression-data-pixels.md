@@ -21,8 +21,8 @@ This methodology is often referred to as "pixeling the creative." Those data poi
 Contents:
 
 <ul class="simplelist"> 
- <li> <a href="../../c-integration/media-data-integration/impression-data-pixels.md#section_76587C364F9C47F7BAB8DB2D2DBE5F8A" format="dita" scope="local"> Event Call Syntax </a> </li> 
- <li> <a href="../../c-integration/media-data-integration/impression-data-pixels.md#section_CC46BA48F4544216A73D8E29D0E9C5E6" format="dita" scope="local"> Supported Key-Value Pairs </a> </li> 
+ <li> <a href="../../c-integration/media-data-integration/impression-data-pixels.md#section_76587C364F9C47F7BAB8DB2D2DBE5F8A"> Event Call Syntax </a> </li> 
+ <li> <a href="../../c-integration/media-data-integration/impression-data-pixels.md#section_CC46BA48F4544216A73D8E29D0E9C5E6"> Supported Key-Value Pairs </a> </li> 
 </ul>
 
 >[!NOTE]

@@ -42,7 +42,7 @@ The following table defines the common prefixes used by [!UICONTROL Trait Builde
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"> d_</span> </td> 
-   <td colname="col2"> <p>At the <span class="keyword"> Audience Manager</span> level. This data is uniform across the <span class="keyword"> Audience Manager</span> ecosystem. See <a href="../../c-api/dcs-intro/dcs-api-reference/dcs-keys.md#concept_5ACDD7D09D0441A6AC26F7D345CD19D5" format="dita" scope="local"> Supported Attributes for DCS API Calls</a> for a more complete list. </p> </td> 
+   <td colname="col2"> <p>At the <span class="keyword"> Audience Manager</span> level. This data is uniform across the <span class="keyword"> Audience Manager</span> ecosystem. See <a href="../../c-api/dcs-intro/dcs-api-reference/dcs-keys.md#concept_5ACDD7D09D0441A6AC26F7D345CD19D5"> Supported Attributes for DCS API Calls</a> for a more complete list. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"> h_</span> </td> 

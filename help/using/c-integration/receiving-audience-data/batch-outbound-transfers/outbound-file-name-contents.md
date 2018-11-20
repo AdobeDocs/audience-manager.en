@@ -190,7 +190,7 @@ The table lists variables that define the contents of a data file.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="varname"> REMOVED_SEGMENT_N </span> </p> </td> 
-   <td colname="col2"> <p>The segment ID from which the user was disqualified. Separate multiple segments with a comma. With a full synchronization, you can ignore the removed segments because the data file will contain the complete list of current segments for the user. Usually, you want to know about segments a user belongs to rather than those they've been removed from. See also <a href="../../../c-integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md#concept_C049B849113544CA92EC194A60D0F722" format="dita" scope="local"> Outbound Data File Name: Syntax and Examples </a>. </p> </td> 
+   <td colname="col2"> <p>The segment ID from which the user was disqualified. Separate multiple segments with a comma. With a full synchronization, you can ignore the removed segments because the data file will contain the complete list of current segments for the user. Usually, you want to know about segments a user belongs to rather than those they've been removed from. See also <a href="../../../c-integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md#concept_C049B849113544CA92EC194A60D0F722"> Outbound Data File Name: Syntax and Examples </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

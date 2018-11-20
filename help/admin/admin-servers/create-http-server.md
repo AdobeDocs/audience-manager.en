@@ -9,7 +9,7 @@ internal: n
 snippet: y
 ---
 
-# Create or Edit an HTTP Server{#create-or-edit-an-http-server}
+# Create or Edit an HTTP Server
 
 Use the Servers page in the Audience Manager Admin tool to create a new HTTP server or to edit an existing server.
 
@@ -23,7 +23,7 @@ Use the Servers page in the Audience Manager Admin tool to create a new HTTP ser
 
    To edit an existing server, click the desired server in the **[!UICONTROL Label]** column. 
 1. Specify the desired label for this server.
-1. From the **[!UICONTROL Protocol]** drop-down list, select the desired protocol: **HTTP**.
+1. From the **[!UICONTROL Protocol]** drop-down list, select the desired protocol: `HTTP`.
 1. Fill in the fields:
 
    **Domain: **Specify the desired domain (host) for this server.
@@ -34,11 +34,11 @@ Use the Servers page in the Audience Manager Admin tool to create a new HTTP ser
 
    **URL Prefix: **Specify the URL prefix to use for this server.
 
-   **Authentication URL: **Specify the Authentication URL for this HTTP server.
+   **Authentication URL: **Specify the Authentication URL for this `HTTP` server.
 
    **Authentication: **Specify the desired authentication method: **[!UICONTROL None]**, **[!UICONTROL Username/Password]**, or **[!UICONTROL SSH Key]**.
 
-   **HTTP Signature Header:** The name of the HTTP header, provided by the customer, that contains the HTTP signature key. The default value is X-Signature, as shown in the example below:
+   **HTTP Signature Header:** The name of the `HTTP` header, provided by the customer, that contains the `HTTP` signature key. The default value is X-Signature, as shown in the example below:
 
    ```
    * Connected to partner.website.com (127.0.0.1) port 80 (#0)
@@ -51,13 +51,13 @@ Use the Servers page in the Audience Manager Admin tool to create a new HTTP ser
    POST message content
    ```
 
-   **HTTP Signature Key:** The key used to sign the HTTP request, provided by the customer.
+   **HTTP Signature Key:** The key used to sign the `HTTP` request, provided by the customer.
 
    **Show Signature Key:** Toggle whether or not to display the signature in the browser.
 
    **HTTP Signature Encryption Method:** Specify the method we use for encrypting the signature. Use SHA1 unless the customer prefers otherwise.
 
-   >[!NOTE] {importance="normal"}
+   >[!NOTE]
    >
    >If you want to enable [OAuth 2.0 authentication for real-time data transfers](https://marketing.adobe.com/resources/help/en_US/aam/oauth-in-outbound-transfers.html) for a partner, fill in the fields as in the table below. The fields in *italics* need to be filled in exactly as in the table.
 
@@ -82,4 +82,3 @@ Use the Servers page in the Audience Manager Admin tool to create a new HTTP ser
    Or
 
    Click **[!UICONTROL Update]** if you are editing an existing server. 
-

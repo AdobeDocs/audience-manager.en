@@ -39,12 +39,12 @@ A sample call looks similar to the following example.
    <td colname="col2"> <p>This part of the call contains: </p> <p> 
      <ul id="ul_3EDA9C7BA6794D06BCB07A75A9BD2372"> 
       <li id="li_74624CA78D6F4536A8164AE1FA1DECB9">Your domain alias assigned by <span class="keyword"> Audience Manager</span> (e.g., <span class="codeph"> my_domain.demdex.net</span>). </li> 
-      <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">The destination domain, which is always <span class="codeph"> demdex.net</span>. See <a href="../../../reference/demdex-calls.md#concept_77B3D5A068AE413FA78D190D65AD799F" format="dita" scope="local"> Understanding Calls to the Demdex Domain</a>. </li> 
+      <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">The destination domain, which is always <span class="codeph"> demdex.net</span>. See <a href="../../../reference/demdex-calls.md#concept_77B3D5A068AE413FA78D190D65AD799F"> Understanding Calls to the Demdex Domain</a>. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> DCS host name</span>.demdex.net</span> </p> </td> 
-   <td colname="col2"> <p>The http header host parameter which shows the name of the regional <span class="wintitle"> DCS</span> server. The host name is tied to a region ID, which is why you need this before making these types of calls. See <a href="../../../c-api/dcs-intro/dcs-api-reference/dcs-regions.md#concept_01C1E017A6694D1EAF9BF65BFFA54091" format="dita" scope="local"> DCS Region IDs, Locations, and Host Names</a>. </p> </td> 
+   <td colname="col2"> <p>The http header host parameter which shows the name of the regional <span class="wintitle"> DCS</span> server. The host name is tied to a region ID, which is why you need this before making these types of calls. See <a href="../../../c-api/dcs-intro/dcs-api-reference/dcs-regions.md#concept_01C1E017A6694D1EAF9BF65BFFA54091"> DCS Region IDs, Locations, and Host Names</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> /event?</span> </p> </td> 
@@ -60,7 +60,7 @@ A sample call looks similar to the following example.
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph">d_mid=<span class="varname"> Experience Cloud user ID</span></span> </p> </td> 
-   <td colname="col2"> <p>This is the unique user ID key that holds the <span class="keyword"> Experience Cloud</span> user ID value in a key-value pair. See also <a href="../../../c-api/dcs-intro/dcs-s2s/dcs-mcid-ids.md#section_F28F94780FEC4918B37B62AC9A64AF23" format="dita" scope="local"> Get the User ID from the ID Service Cookie</a>. </p> <p>Use <span class="codeph"> d_mid</span> if you're passing in a <span class="keyword"> Experience Cloud</span> ID captured from the <span class="keyword"> Experience Cloud</span> ID service. </p> </td> 
+   <td colname="col2"> <p>This is the unique user ID key that holds the <span class="keyword"> Experience Cloud</span> user ID value in a key-value pair. See also <a href="../../../c-api/dcs-intro/dcs-s2s/dcs-mcid-ids.md#section_F28F94780FEC4918B37B62AC9A64AF23"> Get the User ID from the ID Service Cookie</a>. </p> <p>Use <span class="codeph"> d_mid</span> if you're passing in a <span class="keyword"> Experience Cloud</span> ID captured from the <span class="keyword"> Experience Cloud</span> ID service. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 

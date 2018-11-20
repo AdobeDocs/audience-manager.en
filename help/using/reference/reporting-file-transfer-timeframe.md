@@ -38,7 +38,7 @@ The following table lists and describes the time intervals in our general and re
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>General Report Data</b> </p> </td> 
-   <td colname="col2"> <p>The data in the <a href="../reporting/general-reports.md#concept_E4686B9B4BE54DFE9599E0868224E027" format="dita" scope="local"> General Reports</a> depends on the successful completion of other job processes and the amount of data received for a particular day. Most of the time, <span class="wintitle"> General Report</span> data should be updated by 18:00 UTC each day. </p> </td> 
+   <td colname="col2"> <p>The data in the <a href="../reporting/general-reports.md#concept_E4686B9B4BE54DFE9599E0868224E027"> General Reports</a> depends on the successful completion of other job processes and the amount of data received for a particular day. Most of the time, <span class="wintitle"> General Report</span> data should be updated by 18:00 UTC each day. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,7 +61,7 @@ The following table lists and describes the time intervals in our general and re
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Outbound (Export) Files</b> </p> </td> 
-   <td colname="col2"> <p>File processing and delivery takes place once per day, at approximately 14:00 UTC. Keep in mind that processing and delivery are affected by the total number and size of these files. In some cases, there may be a delay in file processing for as long as 24-hours. When this happens, <span class="keyword"> Audience Manager</span> will send 2 files for a particular day instead of 1. We will notify our customers in the rare case where <span class="keyword"> Audience Manager</span> has to stop processing a file altogether. Given these conditions, it is difficult to estimate delivery times for outbound data. </p> <p>To determine if you've received a complete set of files, check the timestamp and look for any missing days. This is a 13-digit, UNIX UTC timestamp that records the time when the file was created. See <a href="../c-integration/receiving-audience-data/real-time-outbound-transfers/real-time-outbound-transfers.md#concept_97E489ED9F7B41BBB220D1F55DA9210B" format="dita" scope="local"> Real-Time Outbound Data Transfers</a>. </p> </td> 
+   <td colname="col2"> <p>File processing and delivery takes place once per day, at approximately 14:00 UTC. Keep in mind that processing and delivery are affected by the total number and size of these files. In some cases, there may be a delay in file processing for as long as 24-hours. When this happens, <span class="keyword"> Audience Manager</span> will send 2 files for a particular day instead of 1. We will notify our customers in the rare case where <span class="keyword"> Audience Manager</span> has to stop processing a file altogether. Given these conditions, it is difficult to estimate delivery times for outbound data. </p> <p>To determine if you've received a complete set of files, check the timestamp and look for any missing days. This is a 13-digit, UNIX UTC timestamp that records the time when the file was created. See <a href="../c-integration/receiving-audience-data/real-time-outbound-transfers/real-time-outbound-transfers.md#concept_97E489ED9F7B41BBB220D1F55DA9210B"> Real-Time Outbound Data Transfers</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

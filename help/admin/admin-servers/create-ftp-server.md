@@ -53,8 +53,8 @@ Use the Servers page in the Audience Manager Admin tool to create a new FTP serv
 
 1. For **[!UICONTROL SSH Key]** authentication:
    1. Generate the public / private key pair from any Linux or Mac machine.
-   1. Give the **public key** to the client to update on their SFTP server. In exchange, they must provide the username under which they are installing the key.
-   1. Update the username field with the one provided by the client and the key field with the **private key**.
+   2. Give the **public key** to the client to update on their SFTP server. They must include all the text from the public key on their server, including `-----BEGIN RSA PRIVATE KEY-----` & `-----END RSA PRIVATE KEY-----` . In exchange, they must provide the username under which they are installing the key.
+   3. Update the username field with the one provided by the client and the key field with the **private key**.
 1. Click **[!UICONTROL Create]** if you are creating a new server.
 
    Or

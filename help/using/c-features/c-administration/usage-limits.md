@@ -18,9 +18,9 @@ Audience Manager sets a maximum limit on the number of traits, segments, destina
 Contents:
 
 <ul class="simplelist"> 
- <li> <a href="../../c-features/c-administration/usage-limits.md#section_7181B0BBC194402BAC55E6846048D78F" format="dita" scope="local"> Item Limits </a> </li> 
- <li> <a href="../../c-features/c-administration/usage-limits.md#section_EBE3D23D14F54408911573211E2ED62D" format="dita" scope="local"> Monitor Usage </a> </li> 
- <li> <a href="../../c-features/c-administration/usage-limits.md#section_CAB5B9E4ED0D449A9DD97B04ECEF5838" format="dita" scope="local"> Increase Item Limits </a> </li> 
+ <li> <a href="../../c-features/c-administration/usage-limits.md#section_7181B0BBC194402BAC55E6846048D78F"> Item Limits </a> </li> 
+ <li> <a href="../../c-features/c-administration/usage-limits.md#section_EBE3D23D14F54408911573211E2ED62D"> Monitor Usage </a> </li> 
+ <li> <a href="../../c-features/c-administration/usage-limits.md#section_CAB5B9E4ED0D449A9DD97B04ECEF5838"> Increase Item Limits </a> </li> 
 </ul>
 
 ## Item Limits {#section_7181B0BBC194402BAC55E6846048D78F}
@@ -43,7 +43,7 @@ The tables list the current limits by item type. You cannot create new traits, s
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Total Trait Qualifications</b> </p> </td> 
-   <td colname="col2"> <p>100,000. For more information on trait qualification, see the <a href="../../c-features/traits/trait-qualification-reference.md#concept_C27644821296475A84A7522847D92C9D" format="dita" scope="local"> Trait Qualifications Reference</a>. </p> </td> 
+   <td colname="col2"> <p>100,000. For more information on trait qualification, see the <a href="../../c-features/traits/trait-qualification-reference.md#concept_C27644821296475A84A7522847D92C9D"> Trait Qualifications Reference</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Algorithmic</b> </p> </td> 

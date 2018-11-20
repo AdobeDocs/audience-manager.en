@@ -65,7 +65,7 @@ A billing report contains the following information.
      <li id="li_3400C6475F6D43D7AF54D9A0ED9C09E0">Segments and overlap </li> 
      <li id="li_65DFEF1EA6C341ACB5B72FF629F10AFC">Modeling </li> 
      <li id="li_B84935B93ADE4D299732CE7E099DF7B3">Activation </li> 
-    </ul> <p>See <a href="../../../c-features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#concept_54DDE4186D0045F386F94BB8C56A5DEA" format="dita" scope="local"> Plan Types for Data Feeds</a>. </p> </td> 
+    </ul> <p>See <a href="../../../c-features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#concept_54DDE4186D0045F386F94BB8C56A5DEA"> Plan Types for Data Feeds</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="uicontrol"> Unit of Measure</span> </p> </td> 
@@ -77,7 +77,7 @@ A billing report contains the following information.
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="uicontrol"> Discounted Price</span> </p> </td> 
-   <td colname="col2"> <p>The subscription fee for a discounted data feed. See <a href="../../../c-features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#concept_A31D926BBA0743BCB7160C7F571930FD" format="dita" scope="local"> Discounts for Data Providers</a> . </p> </td> 
+   <td colname="col2"> <p>The subscription fee for a discounted data feed. See <a href="../../../c-features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#concept_A31D926BBA0743BCB7160C7F571930FD"> Discounts for Data Providers</a> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="uicontrol"> Units</span> </p> </td> 

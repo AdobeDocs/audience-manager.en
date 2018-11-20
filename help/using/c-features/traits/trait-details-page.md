@@ -17,11 +17,11 @@ The details page for an individual trait provides overview of information like t
 Contents:
 
 <ul class="simplelist"> 
- <li><a href="../../c-features/traits/trait-details-page.md#section_4437F7E7D981446F8A7789141916528F" format="dita" scope="local"> Basic Information</a> </li> 
- <li><a href="../../c-features/traits/trait-details-page.md#section_97532A84A37246ABA7EE6149CF0FBE72" format="dita" scope="local"> Trait Graph</a> </li> 
- <li><a href="../../c-features/traits/trait-details-page.md#section_97757AB8844F4466BA5DB1E8356146FC" format="dita" scope="local"> Trait Expression</a> </li> 
- <li><a href="../../c-features/traits/trait-details-page.md#section_D44E252E719640DC8A821B697332B4AC" format="dita" scope="local"> Trait Segments</a> </li> 
- <li><a href="../../c-features/traits/trait-details-page.md#section_3CA094050D3B4093A336F28D5EF3459F" format="dita" scope="local"> Trait Audit/History Log</a> </li> 
+ <li><a href="../../c-features/traits/trait-details-page.md#section_4437F7E7D981446F8A7789141916528F"> Basic Information</a> </li> 
+ <li><a href="../../c-features/traits/trait-details-page.md#section_97532A84A37246ABA7EE6149CF0FBE72"> Trait Graph</a> </li> 
+ <li><a href="../../c-features/traits/trait-details-page.md#section_97757AB8844F4466BA5DB1E8356146FC"> Trait Expression</a> </li> 
+ <li><a href="../../c-features/traits/trait-details-page.md#section_D44E252E719640DC8A821B697332B4AC"> Trait Segments</a> </li> 
+ <li><a href="../../c-features/traits/trait-details-page.md#section_3CA094050D3B4093A336F28D5EF3459F"> Trait Audit/History Log</a> </li> 
 </ul>
 
 ## Basic Information {#section_4437F7E7D981446F8A7789141916528F}

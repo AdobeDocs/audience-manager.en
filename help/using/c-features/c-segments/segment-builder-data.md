@@ -77,7 +77,7 @@ The following table defines the estimated population metrics.
      <ul id="ul_CAE803D09913462CAD413A665D85C1A2"> 
       <li id="li_3E64330D6F5B4D2F8F3456730A86894F">For traits, the last 30-day metric counts the number of unique users who qualified for that trait during the last 30-days. </li> 
       <li id="li_FF3CACD0B6C742CDB94D66200D77CE06">For segments evaluated in real-time, the last 30-day metric counts the number of users who have qualified for a trait (in that segment) at some point in the past and have been seen again by Audience Manager within the last 30-days. For example, say you have a user who qualified for a trait 60-days ago and was seen again 10-days ago. In the data, this user won't be added to the trait count because they first qualified for the trait more than 30-days ago. However, they will be included in the last 30-day count for the segments evaluated in real-time. This is because they've qualified for the segment within the 30-day time interval. </li> 
-     </ul> </p> <p> <p>Note: The <span class="wintitle"> Estimated Real-Time Population</span> metric does not include devices that have qualified for a segment based on connections provided by a <span class="wintitle"> Profile Merge Rule</span> that uses a <a href="../../c-features/profile-merge-rules/merge-rule-definitions.md#section_E83D68EC2ADA4030B1D0206AE6A6E8BF" format="dita" scope="local"> device graph option</a>. </p> </p> </td> 
+     </ul> </p> <p> <p>Note: The <span class="wintitle"> Estimated Real-Time Population</span> metric does not include devices that have qualified for a segment based on connections provided by a <span class="wintitle"> Profile Merge Rule</span> that uses a <a href="../../c-features/profile-merge-rules/merge-rule-definitions.md#section_E83D68EC2ADA4030B1D0206AE6A6E8BF"> device graph option</a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> Estimated Total Population (Potential)</span> </p> </td> 
@@ -85,7 +85,7 @@ The following table defines the estimated population metrics.
      <ul id="ul_0490DD08C7C8493DADFB11B5872A73BC"> 
       <li id="li_AE38C8C8A4B24021BAC724B51A4799E2">See how many people a new or revised segment might reach as you build a segment. </li> 
       <li id="li_E830EC2B12DC46D4B0A4DD807A8936F6">Tune the segment depending on your goals. For example, large segments are useful for brand-awareness campaigns and smaller segments are useful for focused targeting or re-targeting campaigns. </li> 
-     </ul> </p> <p> <p>Note: The <span class="wintitle"> Estimated Total Population</span> metric does not include devices that have qualified for a segment based on connections provided by a <span class="wintitle"> Profile Merge Rule</span> that uses a <a href="../../c-features/profile-merge-rules/merge-rule-definitions.md#section_E83D68EC2ADA4030B1D0206AE6A6E8BF" format="dita" scope="local"> device graph option</a>. </p> </p> </td> 
+     </ul> </p> <p> <p>Note: The <span class="wintitle"> Estimated Total Population</span> metric does not include devices that have qualified for a segment based on connections provided by a <span class="wintitle"> Profile Merge Rule</span> that uses a <a href="../../c-features/profile-merge-rules/merge-rule-definitions.md#section_E83D68EC2ADA4030B1D0206AE6A6E8BF"> device graph option</a>. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

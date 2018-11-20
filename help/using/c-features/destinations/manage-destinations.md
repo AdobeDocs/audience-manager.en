@@ -73,7 +73,7 @@ destination-builder.xml
    <td colname="col1"><b>Configuration</b> </td> 
    <td colname="col2"> <p>Includes controls for: </p> 
     <ul id="ul_2E6AB51D5DEA44059CABDFA985E4C3D1"> 
-     <li id="li_F8076EDA9D6243A4A4FF50BC3394FB3A">Passing in key-value data to URL destinations. You can send data as individual or serialized key-value pairs. For details see, <a href="../../c-features/destinations/key-value-pairs.md#concept_02436A7C6C574C799F079EB731A63262" format="dita" scope="local"> Destination Serialization</a> and <a href="../../c-features/destinations/key-value-pairs.md#concept_4CAA6E54ECFE4291B8626BEBEE98088A" format="dita" scope="local"> Standard and Serial Key-Value Pairs</a>. </li> 
+     <li id="li_F8076EDA9D6243A4A4FF50BC3394FB3A">Passing in key-value data to URL destinations. You can send data as individual or serialized key-value pairs. For details see, <a href="../../c-features/destinations/key-value-pairs.md#concept_02436A7C6C574C799F079EB731A63262"> Destination Serialization</a> and <a href="../../c-features/destinations/key-value-pairs.md#concept_4CAA6E54ECFE4291B8626BEBEE98088A"> Standard and Serial Key-Value Pairs</a>. </li> 
      <li id="li_4DE7A032B315450CAE791D1A0C56774C">Elements of a cookie destination such as cookie name, domain, size, expiration interval, data format, etc. </li> 
     </ul> </td> 
   </tr> 
@@ -237,11 +237,11 @@ This section contains options that let you set a base URL and data delimiters pa
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="uicontrol"> Base URL</span> </p> </td> 
-   <td colname="col2"> <p>The base part of a standard HTTP URL that does not change. Also, you need to place the <span class="codeph"> %ALIAS% </span><a href="../../c-features/destinations/destination-macros.md#reference_B2F4AE643702440D879EFFE4A3FAAEDB" format="dita" scope="local"> placeholder macro</a> in the base URL. </p> <p>Example: <span class="codeph"> https://www.myCompany.com/?%alias%...</span> </p> </td> 
+   <td colname="col2"> <p>The base part of a standard HTTP URL that does not change. Also, you need to place the <span class="codeph"> %ALIAS% </span><a href="../../c-features/destinations/destination-macros.md#reference_B2F4AE643702440D879EFFE4A3FAAEDB"> placeholder macro</a> in the base URL. </p> <p>Example: <span class="codeph"> https://www.myCompany.com/?%alias%...</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="uicontrol"> Secure URL</span> </p> </td> 
-   <td colname="col2"> <p>The base part of a secure HTTPS URL that does not change. Also, you need to place the <span class="codeph"> %ALIAS% </span><a href="../../c-features/destinations/destination-macros.md#reference_B2F4AE643702440D879EFFE4A3FAAEDB" format="dita" scope="local"> placeholder macro</a> in the base URL. </p> <p>Example: <span class="codeph"> https://www.myCompany.com/?%alias%...</span> </p> </td> 
+   <td colname="col2"> <p>The base part of a secure HTTPS URL that does not change. Also, you need to place the <span class="codeph"> %ALIAS% </span><a href="../../c-features/destinations/destination-macros.md#reference_B2F4AE643702440D879EFFE4A3FAAEDB"> placeholder macro</a> in the base URL. </p> <p>Example: <span class="codeph"> https://www.myCompany.com/?%alias%...</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="uicontrol"> Delimiter</span> </p> </td> 

@@ -50,7 +50,7 @@ r_dil_create.xml
      <ul id="ul_FF17004C21FC408BB8C8CCE670E45F37"> 
       <li id="li_FFB23BB3CD224678B0A1CF3731F6A206">For each site, set the same container IDs on <span class="codeph"> containerNSID </span> and <span class="codeph"> idSyncContainerID </span>. </li> 
       <li id="li_CC932D3A0D154F6C9566EF31260A14CF">Both <span class="wintitle"> DIL </span> and the ID service will try to send ID syncs to our data collection iFrame. However, the iFrame ensures that <span class="wintitle"> DIL </span> won't fire an ID sync. This prevents duplication. </li> 
-      <li id="li_0A909AD26DE94EAA960DC1374C7AF89F">Only <span class="wintitle"> DIL </span> sends data to a <a href="../../c-features/destinations/destinations.md#concept_88240D03005244DA91182932E9927003" format="dita" scope="local"> URL destination </a>. </li> 
+      <li id="li_0A909AD26DE94EAA960DC1374C7AF89F">Only <span class="wintitle"> DIL </span> sends data to a <a href="../../c-features/destinations/destinations.md#concept_88240D03005244DA91182932E9927003"> URL destination </a>. </li> 
      </ul> </p> <p>See also, <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-idsyncontainerid.html" format="https" scope="external"> idSyncContainerID </a>. </p> </td> 
   </tr> 
   <tr> 
@@ -58,7 +58,7 @@ r_dil_create.xml
    <td colname="col2"> <p>Object </p> </td> 
    <td colname="col3"> 
     <draft-comment> 
-     <p>Sends the <a href="../../c-features/declared-ids.md#reference_F697F0D53E56430D95EC0C408B767F80" format="dita" scope="local"> Declared ID variables </a> on every event call to <span class="keyword"> Audience Manager </span>. </p> 
+     <p>Sends the <a href="../../c-features/declared-ids.md#reference_F697F0D53E56430D95EC0C408B767F80"> Declared ID variables </a> on every event call to <span class="keyword"> Audience Manager </span>. </p> 
     </draft-comment> <p> <span class="codeph"> delcaredId </span> is used to pass in either the: </p> 
     <ul id="ul_75E64D7DDBD14670BB0BC7819F72036C"> 
      <li id="li_43C7F0EAC5B24F07BBF4ADAB4B0142B7"> <span class="codeph"> dpid </span>: Data partner ID assigned to you by <span class="keyword"> Audience Manager </span>. </li> 
@@ -98,12 +98,12 @@ r_dil_create.xml
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> mappings </span> </p> </td> 
    <td colname="col2"> <p>Object </p> </td> 
-   <td colname="col3"> <p>Associates the value from one key-value pair to another. See <a href="../../c-dil/dil-use-cases.md#concept_7FE441F32458474286DB9582DF791F1B" format="dita" scope="local"> Map Key Values to Other Keys </a>. Released with v2.4. </p> </td> 
+   <td colname="col3"> <p>Associates the value from one key-value pair to another. See <a href="../../c-dil/dil-use-cases.md#concept_7FE441F32458474286DB9582DF791F1B"> Map Key Values to Other Keys </a>. Released with v2.4. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> namespace </span> </p> </td> 
    <td colname="col2"> <p>String </p> </td> 
-   <td colname="col3"> <p>Required. </p> <p>The <span class="codeph"> namespace </span> key-value pair contains your <span class="keyword"> Experience Cloud </span> Organization ID. If you don't have this ID, you can find it in the <span class="wintitle"> Administration </span> section of the <span class="keyword"> Experience Cloud </span> dashboard. You need administrator permissions to view this dashboard. See the <a href="../../faq/faq-features.md#concept_9CC0A2A047DB434A8B697521047EA2D5" format="dita" scope="local"> Product Features and Functions FAQ </a> and <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html" format="https" scope="external"> Administration - User Management and FAQ </a>. </p> </td> 
+   <td colname="col3"> <p>Required. </p> <p>The <span class="codeph"> namespace </span> key-value pair contains your <span class="keyword"> Experience Cloud </span> Organization ID. If you don't have this ID, you can find it in the <span class="wintitle"> Administration </span> section of the <span class="keyword"> Experience Cloud </span> dashboard. You need administrator permissions to view this dashboard. See the <a href="../../faq/faq-features.md#concept_9CC0A2A047DB434A8B697521047EA2D5"> Product Features and Functions FAQ </a> and <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html" format="https" scope="external"> Administration - User Management and FAQ </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> partner </span> </p> </td> 
@@ -118,7 +118,7 @@ r_dil_create.xml
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> uuidCookie </span> </p> </td> 
    <td colname="col2"> <p>Object </p> </td> 
-   <td colname="col3"> <p>Sets a cookie with the unique user ID returned from <span class="keyword"> Audience Manager </span>. See <a href="../../c-dil/dil-class-overview/dil-create.md#reference_37603D122464476BBC1CCF8B047AF0C6" format="dita" scope="local"> uuidCookie Properties </a>. </p> </td> 
+   <td colname="col3"> <p>Sets a cookie with the unique user ID returned from <span class="keyword"> Audience Manager </span>. See <a href="../../c-dil/dil-class-overview/dil-create.md#reference_37603D122464476BBC1CCF8B047AF0C6"> uuidCookie Properties </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> visitorService </span> </p> </td> 

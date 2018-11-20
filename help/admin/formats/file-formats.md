@@ -16,9 +16,9 @@ Lists the macros you can use to create FTP-based data files. Some macros can be 
 Contents:
 
 <ul class="simplelist"> 
- <li> <a href="../formats/file-formats.md#section_B8C6F1B0605E48EABABBB29AD5A08A67" format="dita" scope="local"> Common Macros </a> </li> 
- <li> <a href="../formats/file-formats.md#section_88196DDAECD543599DE232CE24613771" format="dita" scope="local"> Header Field Macros </a> </li> 
- <li> <a href="../formats/file-formats.md#section_816D21F068FB492A8BA0B96525D9D504" format="dita" scope="local"> Data Row Macros </a> </li> 
+ <li> <a href="../formats/file-formats.md#section_B8C6F1B0605E48EABABBB29AD5A08A67"> Common Macros </a> </li> 
+ <li> <a href="../formats/file-formats.md#section_88196DDAECD543599DE232CE24613771"> Header Field Macros </a> </li> 
+ <li> <a href="../formats/file-formats.md#section_816D21F068FB492A8BA0B96525D9D504"> Data Row Macros </a> </li> 
 </ul>
 
 ## Common Macros {#section_B8C6F1B0605E48EABABBB29AD5A08A67}
