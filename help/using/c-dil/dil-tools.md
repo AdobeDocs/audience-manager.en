@@ -67,20 +67,18 @@ And returns:
   <tr> 
    <td> Default Search</td> 
    <td> Returns keyword search terms used by the AOL, Ask, Bing, Google, and Yahoo search engines. </td> 
-   <td> 
-    <code>
+   <td>
       <pre>var&amp;nbsp;results&amp;nbsp;=&amp;nbsp;DIL.tools.getSearchReferrer();</pre> 
-    </code>
   </td>
   </tr> 
   <tr> 
    <td>Pass in a Custom URL</td> 
    <td>Returns the search referrer based on a custom URL.</td> 
    <td> 
-  <code><pre>
+  <pre>
         var&nbsp;results&nbsp;= 
         DIL.tools.getSearchReferrer("https://www.ehow.com/search.aspx?q=adobe+rules");
-  </pre></code>
+  </pre>
 </td> 
   </tr> 
   <tr> 
