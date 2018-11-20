@@ -267,8 +267,7 @@ Check the methods in your SDK code that let you pass [!UICONTROL declared IDs] f
     </codeblock> <p> <b>Example:</b> </p> 
     <codeblock class="syntax javascript">
       [ADBMobile&nbsp;audienceSetDpid:@"290" 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dpuuid:@"99301393923940"]; 
+      dpuuid:@"99301393923940"]; 
     </codeblock> </td> 
   </tr> 
  </tbody> 
