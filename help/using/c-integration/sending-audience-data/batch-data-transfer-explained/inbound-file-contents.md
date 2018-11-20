@@ -125,7 +125,8 @@ The following table describes the prefixes that identify trait names or IDs in a
       <li id="li_1F3ACA27C5794931B430298B27AB8BCC"> <span class="codeph"> "key" = value </span> </li> 
       <li id="li_8910539EB4F0431E8CF63983D30D9B08"> <span class="codeph"> key = "value" </span> </li> 
       <li id="li_DCECE281D245438FB01F8D0BA932B3CC"> <span class="codeph"> "key" = "value" </span> </li> 
-     </ul> <span class="codeph"> "age"="32" </span> , <span class="codeph"> "gender"=m </span> , <span class="codeph"> model = "pickup truck" </span> , <span class="codeph"> product = tablet </span> are all examples of correctly formatted key-value pairs. </p> </td> 
+     </ul> 
+<code> "age"="32" </code> , <code> "gender"=m </code> , <code> model = "pickup truck" </code> , <code> product = tablet </code> are all examples of correctly formatted key-value pairs. </p> </td> 
   </tr> 
  </tbody> 
 </table>
