@@ -43,31 +43,25 @@ Adobe Launch is the successor to [ [!DNL Adobe Dynamic Tag Manager]](https://mar
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>URL</b> </p> </td> 
-   <td colname="col2"> <p><span class="wintitle"> DIL</span> event calls use the following syntax: <span class="codeph">https://adobe.demdex.net/event?_ts = <span class="varname"> UNIX UTC timestamp</span></span> </p> </td> 
+   <td colname="col2"> <p><span class="wintitle"> DIL</span> event calls use the following syntax: `https://adobe.demdex.net/event?_ts = </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Body</b> </p> </td> 
-   <td colname="col2"> <p>As shown in sample below, <span class="wintitle"> DIL</span> passes data as key-value pairs. Special prefix characters identify the key-value pairs as <span class="keyword"> Audience Manager</span> or partner variables. </p> <p> 
+   <td colname="col2"> <p>As shown in sample below, <span class="wintitle"> DIL</span> passes data as key-value pairs. Special prefix characters identify the key-value pairs as <span class="keyword"> Audience Manager</span> or partner variables.
 
 ```javascript
-      d_dst=1
-      
+d_dst=1
 d_jsonv=1
-      
 d_ld=_ts=1473693143821
-      
 d_mid=54192285857942994142875423154873503351
-      
 d_nsid=0
-      
 d_rtbd=json
 ```
 
-     </p> <p>See also: </p> 
-    <ul> 
-     <li> Prefix Requirements for Key Variables </a> </li> 
-     <li> Supported Attributes for DCS API Calls</a> </li> 
-    </ul> </td> 
+See also:
+* Prefix Requirements for Key Variables
+* Supported Attributes for DCS API Calls
+  </td> 
   </tr> 
  </tbody> 
 </table>
