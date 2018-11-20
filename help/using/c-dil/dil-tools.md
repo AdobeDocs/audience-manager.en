@@ -69,7 +69,7 @@ And returns:
    <td> Returns keyword search terms used by the <span class="keyword"> AOL </span>, <span class="keyword"> Ask </span>, <span class="keyword"> Bing </span>, <span class="keyword"> Google </span>, and <span class="keyword"> Yahoo </span> search engines. </td> 
    <td> 
 
-```javascript
+<code>
 
   var&amp;nbsp;results&amp;nbsp;=&amp;nbsp;DIL.tools.getSearchReferrer(); 
 </code>
@@ -150,8 +150,8 @@ And returns:
 
 ### Sample Code
 
-```javascript
 
+```javascript
 var uriData = DIL.tools.decomposeURI('https://www.adobe.com/?arg1=123&arg2=456#am'); 
 { 
   hash : "#am", 
