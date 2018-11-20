@@ -99,20 +99,15 @@ And returns:
    <td> Pass in a custom regex to perform a custom search. </td> 
    <td> 
 
-```javascript
+<pre>
 
       var&nbsp;results&nbsp;= 
       DIL.tools.getSearchReferrer("https://www.ehow.com/
-     
 search.aspx?q=adobe+rules,{ 
-     
 &nbsp;&nbsp;&nbsp;hostPattern:/ehow\./, 
-     
 &nbsp;&nbsp;&nbsp;search_pattern:/[&amp;\?]p=([^&amp;]+/ 
-     
 });
-
-```
+</pre>
 
  </td> 
   </tr> 
