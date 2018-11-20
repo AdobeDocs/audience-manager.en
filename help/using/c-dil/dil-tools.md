@@ -10,13 +10,9 @@ internal: n
 snippet: y
 ---
 
-# DIL Tools{#dil-tools}
+# DIL Tools {#dil-tools}
 
 Describes methods in the DIL.tools namespace. These utility functions help you perform specific tasks.
-
-## <wintitle> DIL </wintitle> Tools {#concept_775B2F571721454392969A7FDAB02B37}
-
-Describes methods in the `DIL.tools` namespace. These utility functions help you perform specific tasks.
 
 <!-- 
 
@@ -34,10 +30,13 @@ r_dil_get_search_referrer.xml
 
  -->
 
-**Purpose of `getSearchReferrer`**
+### Purpose of `getSearchReferrer`
 
 In DIL, `getSearchReferrer` returns search results (names and key words) used to reach your site. You can pass in specific search terms to this function or let it search the supported search engines ( [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google], and [!DNL Yahoo]) against `document.referrer` by default. 
-**Function signature:** `DIL.tools.getSearchReferrer(uri, initConfig)`  **Function Parameters**
+
+#### Function signature: `DIL.tools.getSearchReferrer(uri, initConfig)`
+
+#### Function Parameters
 
 `getSearchReferrer` accepts:
 
@@ -49,7 +48,7 @@ And returns:
 
 * *`{object}`*: An object that contains valid names and keywords.
 
-**Examples** 
+### Examples
 
 <table id="table_D035276601EC428295E4D619F05BB8D0"> 
  <thead> 
@@ -123,7 +122,7 @@ search.aspx?q=adobe+rules,{
  </tbody> 
 </table>
 
-## decomposeURI {#reference_222B85A7E6E34722B67212C7C080FE5F}
+## decomposeURI
 
 Disassembles a Uniform Resource Identifier ( [!DNL URI]) into its constituent components: hash, host, href, pathname, protocol, search, and [!DNL uriParams].
 
@@ -135,7 +134,7 @@ r_dil_decompose.xml
 
 Function signature: `DIL.tools.decomposeURI`
 
-**Function Parameters**
+### Function Parameters
 
 `decomposeURI` accepts:
 
@@ -145,7 +144,7 @@ And returns:
 
 * *`{object}`*: An object that contains valid names and keywords.
 
-**Sample Code** 
+### Sample Code
 
 ```
 var uriData = DIL.tools.decomposeURI('https://www.adobe.com/?arg1=123&arg2=456#am'); 
@@ -165,7 +164,7 @@ var uriData = DIL.tools.decomposeURI('https://www.adobe.com/?arg1=123&arg2=456#a
 }
 ```
 
-## getMetaTags {#reference_411CD926DD6E45F599581DB5D19C4B30}
+## getMetaTags
 
 Searches for specific content defined in the meta tags on a Web page and returns that data in an object.
 
@@ -175,9 +174,11 @@ r_dil_get_metatags.xml
 
  -->
 
-**Function signature:** `DIL.tools.getMetaTags( 1 or more parameters)`
+### Function signature
 
-**Function Parameters**
+Function signature for `DIL.tools.getMetaTags(1 or more parameters)`
+
+### Function Parameters
 
 `getMetaTags` accepts one or more name parameters (string type) to search for. It returns an object composed of key-value pairs.
 
@@ -197,4 +198,3 @@ dataLib.api.signals(DIL.tools.getMetaTags('
 ' 
 <i>description</i>'), 'c_').submit();
 ```
-
