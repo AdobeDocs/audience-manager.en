@@ -57,8 +57,8 @@ To build groups of segments, wrap the frequency function in parenthesis and set 
 |---|---|
 |  `FREQUENCY`  | A literal that must precede the expression.  |
 |  ` [ *`&lt;traitID&gt;`*T]`  | An array of trait IDs followed by the letter `T`. Separate multiple traits with a comma. For example, `[123T, 456T]`.  |
-|  ` *`<Recency Operator><Numeric Value>`*D`  | *(Optional)* Sets recency rules on traits in the segment. The letter `D` indicates recency in days.  |
-|  ` *`<Frequency Operator><Numeric Value>`*`  | Sets frequency rules on traits in the segment.  |
+|  ` *<Recency Operator><Numeric Value>*D`  | *(Optional)* Sets recency rules on traits in the segment. The letter `D` indicates recency in days.  |
+|  ` *<Frequency Operator><Numeric Value>*`  | Sets frequency rules on traits in the segment.  |
 
 **Allowed Recency and Frequency Operators**
 
