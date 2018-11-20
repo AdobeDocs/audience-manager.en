@@ -301,7 +301,7 @@ cookie-destination-options.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Example</b> </p> </td> 
-   <td colname="col2"> <p>As a simple example, let's say we have a fictitious site called sports.com. Sports.com has domains for golf, baseball, and football. To set a cookie in all the sports domains, you would type that in the <span class="wintitle"> Cookie Domain</span> box as shown below: </p> <p style="text-align: center;"> <img href="assets/sports-domain.png" id="image_8883477BB3B543648C97A441AD34C6DE" /> </p> <p>This tells <span class="keyword"> Audience Manager</span> to set a cookie in any domain that contains the pattern <span class="varname"> something</span>.sports.com. See below for a more complex set of examples. </p> </td> 
+   <td colname="col2"> <p>As a simple example, let's say we have a fictitious site called sports.com. Sports.com has domains for golf, baseball, and football. To set a cookie in all the sports domains, you would type that in the <span class="wintitle"> Cookie Domain</span> box as shown below: </p> <p> <img href="assets/sports-domain.png" id="image_8883477BB3B543648C97A441AD34C6DE" /> </p> <p>This tells <span class="keyword"> Audience Manager</span> to set a cookie in any domain that contains the pattern <span class="varname"> something</span>.sports.com. See below for a more complex set of examples. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -372,7 +372,7 @@ destination-s2s-edit.xml
 To add or edit segment mappings for an s2s destination: 
 
 1. Go to **[!UICONTROL Audience Data > Destinations]** and find the s2s destination you want to work with.
-1. In the [!UICONTROL Action] column, click the pencil icon to edit the destination.
+2. In the [!UICONTROL Action] column, click the pencil icon to edit the destination.
 
    Step Result 1. In the **[!UICONTROL Search and Add Segments]** box, start typing the name of a segment or click **[!UICONTROL Browse All Segments]** browse a list of available segments.
 
@@ -384,7 +384,7 @@ To add or edit segment mappings for an s2s destination:
     
     * **[!UICONTROL Start Date]** and **[!UICONTROL End Date]**: Choose a start and end date for the destination. If the end date is blank, the destination never expires.
 
-1. Click **[!UICONTROL Save]** and then click **[!UICONTROL Done]**.
+3. Click **[!UICONTROL Save]** and then click **[!UICONTROL Done]**.
 
 Step Result 
 
