@@ -64,34 +64,29 @@ And returns:
    <td colname="col1"> <b>Default Search</b> </td> 
    <td colname="col02"> Returns keyword search terms used by the <span class="keyword"> AOL </span>, <span class="keyword"> Ask </span>, <span class="keyword"> Bing </span>, <span class="keyword"> Google </span>, and <span class="keyword"> Yahoo </span> search engines. </td> 
    <td colname="col2"> 
-
-```
+<code>
   var&amp;nbsp;results&amp;nbsp;=&amp;nbsp;DIL.tools.getSearchReferrer(); 
-```
-
+</code>
   </td>
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <b>Pass in a Custom URL</b> </td> 
    <td colname="col02"> Returns the search referrer based on a custom URL. </td> 
    <td colname="col2"> 
-
-```
+<code>
       var&nbsp;results&nbsp;= 
      
 DIL.tools.getSearchReferrer("`https://www.ehow.com/` 
      
 search.aspx?q=adobe+rules"); 
-```
-
+</code>
 </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <b>Match URL Hostname with a Custom Regex</b> </td> 
    <td colname="col02"> Pass in a custom regex to match the host name of the referring URL. </td> 
    <td colname="col2"> 
-
-```
+<code>
       var&nbsp;results&nbsp;= 
      
 DIL.tools.getSearchReferrer("`https://www.ehow.com/` 
@@ -103,15 +98,13 @@ search.aspx?q=adobe+rules",{
 &nbsp;&nbsp;&nbsp;queryParam:"p" 
      
 }); 
-```
-
+</code>
   </td></tr> 
   <tr valign="top"> 
    <td colname="col1"> <b>Match Search Patterns with a Custom Regex</b> </td> 
    <td colname="col02"> Pass in a custom regex to perform a custom search. </td> 
    <td colname="col2"> 
-
-```
+<code>
       var&nbsp;results&nbsp;= 
      
 DIL.tools.getSearchReferrer("`https://www.ehow.com/`
@@ -123,7 +116,7 @@ search.aspx?q=adobe+rules,{
 &nbsp;&nbsp;&nbsp;search_pattern:/[&amp;\?]p=([^&amp;]+/ 
      
 }); 
-```
+</code>
 
  </td> 
   </tr> 
