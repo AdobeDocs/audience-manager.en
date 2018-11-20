@@ -36,31 +36,32 @@ Adobe Launch is the successor to [ [!DNL Adobe Dynamic Tag Manager]](https://mar
 <table> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Event Call Element </th> 
-   <th colname="col2" class="entry"> Description </th> 
+   <th> Event Call Element </th> 
+   <th> Description </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>URL</b> </p> </td> 
-   <td colname="col2"> <p><span class="wintitle"> DIL</span> event calls use the following syntax: `https://adobe.demdex.net/event?_ts = </span> </p> </td> 
+   <td><b>URL</b></td> 
+   <td> DIL event calls use the following syntax: <code>https://adobe.demdex.net/event?_ts=</code> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Body</b> </p> </td> 
-   <td colname="col2"> <p>As shown in sample below, <span class="wintitle"> DIL</span> passes data as key-value pairs. Special prefix characters identify the key-value pairs as <span class="keyword"> Audience Manager</span> or partner variables.
-
-```javascript
+   <td> <p> <b>Body</b> </p> </td> 
+   <td> <p>As shown in sample below, <span class="wintitle"> DIL</span> passes data as key-value pairs. Special prefix characters identify the key-value pairs as <span class="keyword"> Audience Manager</span> or partner variables.
+<code>
 d_dst=1
 d_jsonv=1
 d_ld=_ts=1473693143821
 d_mid=54192285857942994142875423154873503351
 d_nsid=0
 d_rtbd=json
-```
-
+</code>
+<br>
 See also:
-* Prefix Requirements for Key Variables
-* Supported Attributes for DCS API Calls
+<ul>
+<li>Prefix Requirements for Key Variables</li>
+<li>Supported Attributes for DCS API Calls</li>
+</ul>
   </td> 
   </tr> 
  </tbody> 
