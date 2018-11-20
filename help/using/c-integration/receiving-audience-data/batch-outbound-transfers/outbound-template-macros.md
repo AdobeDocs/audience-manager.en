@@ -16,7 +16,7 @@ Lists the macros you can use to create outbound templates. These include file na
 
 ## File Name and File Header Macros {#section_B070DE5085CE4E65AA2B815F681890C7}
 
-The table lists and describes the macros you can use in the file name and to define header fields. For code samples, see [Outbound Macro Examples](../../../c-integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md#concept_375D892B7A5C4B699FA7D6B0908D76F8).
+The table lists and describes the macros you can use in the file name and to define header fields. For code samples, see [Outbound Macro Examples](../../../c-integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md).
 
 <table id="table_C353AF028E0A4944A8727FD01C94FDB6"> 
  <thead> 
@@ -76,7 +76,7 @@ The table lists and describes the macros you can use in the file name and to def
 
 ## Content Macros {#section_A32C5FE93FEF492A80C09047E5F53272}
 
-Macros used to format the contents of a data file. For code samples, see [Outbound Macro Examples](../../../c-integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md#concept_375D892B7A5C4B699FA7D6B0908D76F8).
+Macros used to format the contents of a data file. For code samples, see [Outbound Macro Examples](../../../c-integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md).
 
 <table id="table_5C6F9678CFF34C5EB67BA1DEA0479F1D"> 
  <thead> 
@@ -205,4 +205,4 @@ Macros used to format the contents of a data file. For code samples, see [Outbou
 
 >[!MORE_LIKE_THIS]
 >
->* [Outbound Macro Examples](../../../c-integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md#concept_375D892B7A5C4B699FA7D6B0908D76F8)
+>* [Outbound Macro Examples](../../../c-integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md)
