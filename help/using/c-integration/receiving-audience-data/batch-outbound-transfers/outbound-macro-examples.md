@@ -130,12 +130,11 @@ separator=","&gt;&lt;if(SEGMENT_LIST&nbsp;&amp;&amp;&nbsp;REMOVED_SEGMENT_LIST)&
 &lt;REMOVED_SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;", 
       
 "TtlInMinutes":0&lt;CLOSE_CURLY_BRACKET&gt;};&nbsp;separator=","&gt;]} 
-     </code> 
-     </p> 
-     <p>
-     <b>Output:</b> 
-     </p> <p> 
-
+</code> 
+</p> 
+<p>
+<b>Output:</b> 
+</p> <p> 
 <code>
 //First&nbsp;example 
 {"AdvertiserId":"12345",&nbsp;"DataCenterId":&nbsp;2, 
@@ -144,9 +143,8 @@ separator=","&gt;&lt;if(SEGMENT_LIST&nbsp;&amp;&amp;&nbsp;REMOVED_SEGMENT_LIST)&
 {"AdvertiserId":"12345",&nbsp;"DataCenterId":&nbsp;2, 
 "TDID":"9099e8fe-abab-5114-abaa-28bdaa0539ca","Data":[{"Name":"4321"},{"Name":"987","TtlInMinutes":0}, 
 {"Name":"654","TtlInMinutes":0}]} 
-</code>
-     
-     </p> <p> <p>Note:  In the first example, the macro only returns data for <span class="codeph"> SEGMENT_LIST </span> because <span class="codeph"> REMOVED_SEGMENT_LIST </span> is empty. The second example returns data for both macros. </p> </p> </td> 
+</code>     
+  </p> <p> <p>Note:  In the first example, the macro only returns data for <span class="codeph"> SEGMENT_LIST </span> because <span class="codeph"> REMOVED_SEGMENT_LIST </span> is empty. The second example returns data for both macros. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SET_ATTRIBUTES </span> </p> </td> 
