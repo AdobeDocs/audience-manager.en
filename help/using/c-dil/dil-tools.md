@@ -85,14 +85,14 @@ And returns:
    <td> <b>Match URL Hostname with a Custom Regex</b></td> 
    <td> Pass in a custom regex to match the host name of the referring URL. </td> 
    <td> 
-<code><pre>
+<pre>
       var results = 
         DIL.tools.getSearchReferrer("https://www.ehow.com/
       search.aspx?q=adobe+rules",{ 
       &nbsp;&nbsp;&nbsp;hostPattern:/ehow\./, 
       &nbsp;&nbsp;&nbsp;queryParam:"p" 
       }); 
-</pre></code>
+</pre>
 
   </td></tr> 
   <tr> 
