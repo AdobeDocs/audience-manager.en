@@ -93,7 +93,6 @@ And returns:
       &nbsp;&nbsp;&nbsp;queryParam:"p" 
       }); 
 </pre>
-
   </td></tr> 
   <tr> 
    <td> <b>Match Search Patterns with a Custom Regex</b> </td> 
