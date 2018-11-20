@@ -58,16 +58,16 @@ And returns:
 <table id="table_D035276601EC428295E4D619F05BB8D0"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Search Type </th> 
-   <th colname="col02" class="entry"> Description </th> 
-   <th colname="col2" class="entry"> Code Sample </th> 
+   <th> Search Type </th> 
+   <th> Description </th> 
+   <th> Code Sample </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td colname="col1"> <b>Default Search</b> </td> 
-   <td colname="col02"> Returns keyword search terms used by the <span class="keyword"> AOL </span>, <span class="keyword"> Ask </span>, <span class="keyword"> Bing </span>, <span class="keyword"> Google </span>, and <span class="keyword"> Yahoo </span> search engines. </td> 
-   <td colname="col2"> 
+   <td> <b>Default Search</b> </td> 
+   <td> Returns keyword search terms used by the <span class="keyword"> AOL </span>, <span class="keyword"> Ask </span>, <span class="keyword"> Bing </span>, <span class="keyword"> Google </span>, and <span class="keyword"> Yahoo </span> search engines. </td> 
+   <td> 
 
 ```javascript
 
@@ -76,9 +76,9 @@ And returns:
   </td>
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <b>Pass in a Custom URL</b> </td> 
-   <td colname="col02"> Returns the search referrer based on a custom URL. </td> 
-   <td colname="col2"> 
+   <td> <b>Pass in a Custom URL</b> </td> 
+   <td> Returns the search referrer based on a custom URL. </td> 
+   <td> 
 
       var&nbsp;results&nbsp;= 
 DIL.tools.getSearchReferrer("https://www.ehow.com/search.aspx?q=adobe+rules");
@@ -88,9 +88,9 @@ DIL.tools.getSearchReferrer("https://www.ehow.com/search.aspx?q=adobe+rules");
 </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <b>Match URL Hostname with a Custom Regex</b> </td> 
-   <td colname="col02"> Pass in a custom regex to match the host name of the referring URL. </td> 
-   <td colname="col2"> 
+   <td> <b>Match URL Hostname with a Custom Regex</b> </td> 
+   <td> Pass in a custom regex to match the host name of the referring URL. </td> 
+   <td> 
 
 ```javascript
 
@@ -110,9 +110,9 @@ search.aspx?q=adobe+rules",{
 
   </td></tr> 
   <tr valign="top"> 
-   <td colname="col1"> <b>Match Search Patterns with a Custom Regex</b> </td> 
-   <td colname="col02"> Pass in a custom regex to perform a custom search. </td> 
-   <td colname="col2"> 
+   <td> <b>Match Search Patterns with a Custom Regex</b> </td> 
+   <td> Pass in a custom regex to perform a custom search. </td> 
+   <td> 
 
 ```javascript
 
