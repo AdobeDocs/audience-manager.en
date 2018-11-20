@@ -65,24 +65,23 @@ And returns:
  </thead>
  <tbody> 
   <tr> 
-   <td> <b>Default Search</b> </td> 
+   <td> Default Search</td> 
    <td> Returns keyword search terms used by the AOL, Ask, Bing, Google, and Yahoo search engines. </td> 
    <td> 
 
 <code>
-
-  var&amp;nbsp;results&amp;nbsp;=&amp;nbsp;DIL.tools.getSearchReferrer(); 
+  <pre>var&amp;nbsp;results&amp;nbsp;=&amp;nbsp;DIL.tools.getSearchReferrer();</pre> 
 </code>
   </td>
   </tr> 
   <tr> 
-   <td> <b>Pass in a Custom URL</b> </td> 
-   <td> Returns the search referrer based on a custom URL. </td> 
+   <td>Pass in a Custom URL</td> 
+   <td>Returns the search referrer based on a custom URL.</td> 
    <td> 
-<code>
-      var&nbsp;results&nbsp;= 
-DIL.tools.getSearchReferrer("https://www.ehow.com/search.aspx?q=adobe+rules");
-</code>
+  <code><pre>
+        var&nbsp;results&nbsp;= 
+        DIL.tools.getSearchReferrer("https://www.ehow.com/search.aspx?q=adobe+rules");
+  </pre></code>
 
 </td> 
   </tr> 
@@ -90,14 +89,14 @@ DIL.tools.getSearchReferrer("https://www.ehow.com/search.aspx?q=adobe+rules");
    <td> <b>Match URL Hostname with a Custom Regex</b></td> 
    <td> Pass in a custom regex to match the host name of the referring URL. </td> 
    <td> 
-<code>
+<code><pre>
       var&nbsp;results&nbsp;= 
       DIL.tools.getSearchReferrer("`https://www.ehow.com/` 
       search.aspx?q=adobe+rules",{ 
       &nbsp;&nbsp;&nbsp;hostPattern:/ehow\./, 
       &nbsp;&nbsp;&nbsp;queryParam:"p" 
       }); 
-</code>
+</pre></code>
 
   </td></tr> 
   <tr> 
