@@ -34,11 +34,11 @@ r_dil_get_search_referrer.xml
 
 In DIL, `getSearchReferrer` returns search results (names and key words) used to reach your site. You can pass in specific search terms to this function or let it search the supported search engines ( [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google], and [!DNL Yahoo]) against `document.referrer` by default. 
 
-#### Function signature
+### Function signature
 
 Function signature: `DIL.tools.getSearchReferrer(uri, initConfig)`
 
-#### Function Parameters
+### Function Parameters
 
 `getSearchReferrer` accepts:
 
@@ -66,6 +66,7 @@ And returns:
    <td colname="col2"> 
 
 ```javascript
+
   var&amp;nbsp;results&amp;nbsp;=&amp;nbsp;DIL.tools.getSearchReferrer(); 
 </code>
   </td>
@@ -76,7 +77,8 @@ And returns:
    <td colname="col2"> 
 
       var&nbsp;results&nbsp;= 
-DIL.tools.getSearchReferrer("https://www.ehow.com/search.aspx?q=adobe+rules"); 
+DIL.tools.getSearchReferrer("https://www.ehow.com/search.aspx?q=adobe+rules");
+
 ```
 
 </td> 
@@ -87,6 +89,7 @@ DIL.tools.getSearchReferrer("https://www.ehow.com/search.aspx?q=adobe+rules");
    <td colname="col2"> 
 
 ```javascript
+
       var&nbsp;results&nbsp;= 
      
 DIL.tools.getSearchReferrer("`https://www.ehow.com/` 
@@ -98,6 +101,7 @@ search.aspx?q=adobe+rules",{
 &nbsp;&nbsp;&nbsp;queryParam:"p" 
      
 }); 
+
 ```
 
   </td></tr> 
@@ -107,6 +111,7 @@ search.aspx?q=adobe+rules",{
    <td colname="col2"> 
 
 ```javascript
+
       var&nbsp;results&nbsp;= 
      
 DIL.tools.getSearchReferrer("`https://www.ehow.com/`
@@ -117,7 +122,8 @@ search.aspx?q=adobe+rules,{
      
 &nbsp;&nbsp;&nbsp;search_pattern:/[&amp;\?]p=([^&amp;]+/ 
      
-}); 
+});
+
 ```
 
  </td> 
@@ -150,6 +156,7 @@ And returns:
 ### Sample Code
 
 ```javascript
+
 var uriData = DIL.tools.decomposeURI('https://www.adobe.com/?arg1=123&arg2=456#am'); 
   
 { 
@@ -188,6 +195,7 @@ Function signature for `DIL.tools.getMetaTags(1 or more parameters)`
 **Sample Code** 
 
 ```javascript
+
 var dataLib = DIL.create({ 
      partner: ' 
 <i>partnerName'</i>, 
@@ -200,4 +208,5 @@ dataLib.api.signals(DIL.tools.getMetaTags('
 <i>keywords</i>', 
 ' 
 <i>description</i>'), 'c_').submit();
+
 ```
