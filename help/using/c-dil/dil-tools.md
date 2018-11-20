@@ -66,7 +66,7 @@ And returns:
  <tbody> 
   <tr> 
    <td> <b>Default Search</b> </td> 
-   <td> Returns keyword search terms used by the <span class="keyword"> AOL </span>, <span class="keyword"> Ask </span>, <span class="keyword"> Bing </span>, <span class="keyword"> Google </span>, and <span class="keyword"> Yahoo </span> search engines. </td> 
+   <td> Returns keyword search terms used by the AOL, Ask, Bing, Google, and Yahoo search engines. </td> 
    <td> 
 
 <code>
