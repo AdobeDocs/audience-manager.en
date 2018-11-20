@@ -13,7 +13,7 @@ snippet: y
 
 Leave the key-value fields blank to search for a broader range of signals and use the available filters to narrow down the results.
 
-<a id="section_FBD50FDA19A848A38550FA0F7FAA547B"></a>
+
 
 Use this method when you don't have a specific key-value pair in mind, but want to see the evolution of multiple signals over a specific period of time.
 

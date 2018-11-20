@@ -79,7 +79,7 @@ As a reminder, the [!UICONTROL Device Options] are available in the [!UICONTROL 
 
  -->
 
-<a id="section_CEDCFD2DA4FD437BBC7A4CB4975ED5C0"></a>
+
 
 <!-- 
 
@@ -94,7 +94,7 @@ As a reminder, the [!UICONTROL Device Options] are available in the [!UICONTROL 
 
  -->
 
-<a id="section_4B059A60E21E47529D4986813B67841B"></a>
+
 
 <!-- 
 

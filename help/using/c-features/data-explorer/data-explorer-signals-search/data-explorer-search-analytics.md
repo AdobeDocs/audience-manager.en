@@ -13,7 +13,7 @@ snippet: y
 
 Audience Manager customers who also use Adobe Analytics can leverage the tight integration between the two solutions by enabling the Advanced Search for Adobe Analytics option.
 
-<a id="section_4F7D9FAE13A44C70B07D421059B5B66B"></a>
+
 
 This integration allows you to see the friendly names for key-value pairs derived from [!DNL Adobe Analytics] report suites. Here's how to do this:
 

@@ -54,7 +54,7 @@ c_tb_basics.xml
        <li id="li_579302FE34B64FE0AE3C751012839229">Hyphens </li> 
        <li id="li_44890F738CC64E449CC2545D701ECBC7">Tabs </li> 
        <li id="li_C203837501A94342923C99A7DAD1ED61">Vertical bar or pipe symbol </li> 
-      </ul> </p> </p> <p>This helps reduce processing errors when you set up an <a href="../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#concept_49E6F0740E794B07ACD115D10EDEB5AC"> inbound data file transfer</a>. </p> </td> 
+      </ul> </p> </p> <p>This helps reduce processing errors when you set up an <a href="../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> inbound data file transfer</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Description</span></b> </td> 

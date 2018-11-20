@@ -14,7 +14,7 @@ snippet: y
 
 Audience Manager provides industry-leading services for online audience data management. Our product and services give digital advertisers and publishers the tools they need to control and leverage their data assets to help drive sales success.
 
-<a id="section_535A849B2BF14221BD78C968CC02732D"></a>
+
 
 <table id="table_5E612F746A704FE095B809A013EE977F" class="simpletable"> 
  <tbody> 

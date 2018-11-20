@@ -40,38 +40,36 @@ Adobe Launch is the successor to [ [!DNL Adobe Dynamic Tag Manager]](https://mar
 
 [!UICONTROL DIL] sends data to [!DNL Audience Manager] in an event call. An event call is an XML HTTP request from your page. It uses a `POST` method to send data in the body of the request.
 
-<table id="table_FE0C2EE0BFED4562B0037CB582FD6CF7"> 
+<table> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Event Call Element </th> 
-   <th colname="col2" class="entry"> Description </th> 
+   <th> Event Call Element </th> 
+   <th> Description </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>URL</b> </p> </td> 
-   <td colname="col2"> <p><span class="wintitle"> DIL</span> event calls use the following syntax: <span class="codeph">https://adobe.demdex.net/event?_ts = <span class="varname"> UNIX UTC timestamp</span></span> </p> </td> 
+   <td><b>URL</b></td> 
+   <td> DIL event calls use the following syntax: <code>https://adobe.demdex.net/event?_ts=</code> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Body</b> </p> </td> 
-   <td colname="col2"> <p>As shown in sample below, <span class="wintitle"> DIL</span> passes data as key-value pairs. Special prefix characters identify the key-value pairs as <span class="keyword"> Audience Manager</span> or partner variables. </p> <p> 
-     <codeblock class="syntax javascript">
-      d_dst=1
-      
+   <td> <p> <b>Body</b> </p> </td> 
+   <td> <p>As shown in sample below, <span class="wintitle"> DIL</span> passes data as key-value pairs. Special prefix characters identify the key-value pairs as <span class="keyword"> Audience Manager</span> or partner variables.
+<code>
+d_dst=1
 d_jsonv=1
-      
 d_ld=_ts=1473693143821
-      
 d_mid=54192285857942994142875423154873503351
-      
 d_nsid=0
-      
 d_rtbd=json
-     </codeblock> </p> <p>See also: </p> 
-    <ul id="ul_D2399CE7EF0A4BF09052C890DCDE38C4"> 
-     <li id="li_767F91D06E6A4CC0BBB9339CEC303222"> <a href="../c-features/traits/trait-variable-prefixes.md#reference_E6F1E4257F664FC2A797C406BF147ABC"> Prefix Requirements for Key Variables </a> </li> 
-     <li id="li_055AD1154FB24D75A7FBC3EEDB4A578C"><a href="../c-api/dcs-intro/dcs-api-reference/dcs-keys.md#concept_5ACDD7D09D0441A6AC26F7D345CD19D5"> Supported Attributes for DCS API Calls</a> </li> 
-    </ul> </td> 
+</code>
+<br>
+See also:
+<ul>
+<li>Prefix Requirements for Key Variables</li>
+<li>Supported Attributes for DCS API Calls</li>
+</ul>
+  </td> 
   </tr> 
  </tbody> 
 </table>

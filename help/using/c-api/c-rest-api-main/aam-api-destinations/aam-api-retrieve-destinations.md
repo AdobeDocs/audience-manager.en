@@ -76,7 +76,7 @@ r_get_all_destinations.xml
 
 >[!NOTE]
 >
->* *(Optional)* Pass in `containsSegment= *`<sid>`*` to return an array of all destinations mapped to the specified segment. For example, your query could look similar to this: `GET .../destinations/?containsSegment=4321`. 
+>* *(Optional)* Pass in `containsSegment= *<sid>*` to return an array of all destinations mapped to the specified segment. For example, your query could look similar to this: `GET .../destinations/?containsSegment=4321`. 
 >
 >* Does not return the full destination object. Get the destination by data order if you need fully populated object. 
 >
@@ -160,7 +160,7 @@ r_get_destination_trait_data_order.xml
 
 **Request**
 
-`GET https://api.demdex.com/v1/destinations/ *`<destinationId>`*/mappings/ *`<destinationMappingId>`*`
+`GET https://api.demdex.com/v1/destinations/ *<destinationId>*/mappings/ *<destinationMappingId>*`
 
 **Sample Response** 
 
@@ -205,7 +205,7 @@ r_get_destination_mappings.xml
 
 **Request**
 
-`GET https://api.demdex.com/v1/destinations/ *`<destinationId>`*/mappings` 
+`GET https://api.demdex.com/v1/destinations/ *<destinationId>*/mappings` 
 
 >[!NOTE]
 >

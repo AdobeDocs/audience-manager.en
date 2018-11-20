@@ -120,7 +120,7 @@ For a list of available macros and definitions, see [Outbound Template Macros](.
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> if(SEGMENT_LIST &amp;&amp; REMOVED_SEGMENT_LIST)endif </span> </p> </td> 
    <td colname="col2"> <p><b>Format:</b> </p> <p> 
-     <codeblock spectitle="Format:">
+     <code>
        {"AdvertiserId":"&lt;PIDALIAS&gt;",&nbsp;"DataCenterId":&nbsp;2,"TDID":"&lt;DP_UUID&gt;", 
       
 "Data":[&lt;SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;"&lt;CLOSE_CURLY_BRACKET&gt;}; 
@@ -130,25 +130,21 @@ separator=","&gt;&lt;if(SEGMENT_LIST&nbsp;&amp;&amp;&nbsp;REMOVED_SEGMENT_LIST)&
 &lt;REMOVED_SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;", 
       
 "TtlInMinutes":0&lt;CLOSE_CURLY_BRACKET&gt;};&nbsp;separator=","&gt;]} 
-     </codeblock> </p> <p><b>Output:</b> </p> <p> 
-
-     ```
-       //First&nbsp;example 
-      
+</code> 
+</p> 
+<p>
+<b>Output:</b> 
+</p> <p> 
+<code>
+//First&nbsp;example 
 {"AdvertiserId":"12345",&nbsp;"DataCenterId":&nbsp;2, 
-      
 "TDID":"dfd215e4-8d6b-4fdb-90b9-fab4456f2c9d","Data":[{"Name":"4321"}]}
-
 //Second&nbsp;example 
-      
 {"AdvertiserId":"12345",&nbsp;"DataCenterId":&nbsp;2, 
-      
 "TDID":"9099e8fe-abab-5114-abaa-28bdaa0539ca","Data":[{"Name":"4321"},{"Name":"987","TtlInMinutes":0}, 
-      
 {"Name":"654","TtlInMinutes":0}]} 
-     ```
-     
-     </p> <p> <p>Note:  In the first example, the macro only returns data for <span class="codeph"> SEGMENT_LIST </span> because <span class="codeph"> REMOVED_SEGMENT_LIST </span> is empty. The second example returns data for both macros. </p> </p> </td> 
+</code>     
+  </p> <p> <p>Note:  In the first example, the macro only returns data for <span class="codeph"> SEGMENT_LIST </span> because <span class="codeph"> REMOVED_SEGMENT_LIST </span> is empty. The second example returns data for both macros. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SET_ATTRIBUTES </span> </p> </td> 

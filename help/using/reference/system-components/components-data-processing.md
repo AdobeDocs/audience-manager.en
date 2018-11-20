@@ -36,7 +36,7 @@ Customers do not have direct access to these systems. However, customers do work
 
 [Snowflake](https://www.snowflake.net/) is a massive cloud database. It provides data to many of the dashboard graphs and their related text boxes that display the % change for each item in the graph. If you use [!DNL Audience Manager] and look at the dashboard reports, you're interacting with data provided by [!UICONTROL Snowflake].
 
-<a id="fig_2476708C3CDE4CDF964DFFAEE54A71C1"></a>
+
 
 ![](assets/dashboardreport.png)
 
@@ -51,7 +51,7 @@ This is by no means a comprehensive list, but some common dashboard reports that
 
 SOLR is an open-source database and server system from Apache. It provides robust and fast search capabilities over our large data sets. As an [!DNL Audience Manager] customer, you can see SOLR in action when you build segments. It provides data to the [!UICONTROL Estimated Historic Segment Size] report. SOLR is ideal for this role because of its speed. For example, SOLR is able to update the historic size data as you build rules and add new traits to a segment.
 
-<a id="fig_6DC8C91B108649E4A2A200F1EADF6134"></a>
+
 
 ![](assets/audsize.png)
 
@@ -59,7 +59,7 @@ SOLR is an open-source database and server system from Apache. It provides robus
 
 [!DNL Audience Manager] uses [Tableau](https://www.tableausoftware.com/) to display data in the [Interactive Reports](../../reporting/dynamic-reports/dynamic-reports.md#concept_88ADC775F1E9458582A3285B29B76A46) and the [Audience Optimization Reports](../../reporting/audience-optimization-reports/audience-optimization-reports.md#concept_D66D2C58493E48BDAFF2F95BBB508946). The interactive reports display performance and overlap data for traits and segments. Instead of using numbers arranged in columns and rows, they return data using different shapes, colors, and sizes. Additionally, you can choose individual or groups of data points and drill down into the report results for more details. These visualization techniques and report interactivity help make large amounts of numeric data easier to understand.
 
-<a id="fig_95A24B263FF846398C26132F53024730"></a>
+
 
 ![](assets/advertiser_analytics.png)
 

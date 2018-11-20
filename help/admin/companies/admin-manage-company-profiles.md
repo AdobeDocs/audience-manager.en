@@ -69,7 +69,7 @@ t_create_company.xml
 
    Continue with the instructions in [Edit a Company Profile](../companies/admin-manage-company-profiles.md#task_22ACB8FA260A4EDEBFDF0AB50DEB26FE).
 
-<a id="example_1B474B30EDF84886A3F26D0638DB2F0E"></a>
+
 
 ![Step Result](assets/add_company.png)
 

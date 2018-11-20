@@ -13,7 +13,7 @@ snippet: y
 
 Backfill trait realizations to capture historical audiences and avoid loss of relevant data prior to a trait creation date.
 
-<a id="section_20806EB397654461B1C5D78F411B7B04"></a>
+
 
 When you create traits from unused signals, you can choose to backfill the trait realizations over a specific period of time. [!DNL Audience Manager] captures the historical data about audiences that qualify for the new trait and stores them on the corresponding profile. You can see the **[!UICONTROL Backfill Options]** in the [!UICONTROL Trait Expression] section of the ** [Trait Builder](../../c-features/traits/about-trait-builder.md#concept_13D6537EE5D0459F870C58822AD5400A)**.
 

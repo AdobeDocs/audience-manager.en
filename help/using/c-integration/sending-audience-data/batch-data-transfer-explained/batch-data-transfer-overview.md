@@ -55,7 +55,7 @@ File names and content follow strict guidelines. You *must* name and organize da
 
 * [Amazon S3 Name Requirements for Inbound Data Files](../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md#concept_B3CAF442BFFE4823B76A5D0D91DF9942) 
 * [FTP Name Requirements for Inbound Data Files](../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md#concept_D34898442363415DBF75CEBFC2E86997) 
-* [Inbound Data File Contents: Syntax, Variables, and Examples](../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#concept_49E6F0740E794B07ACD115D10EDEB5AC)
+* [Inbound Data File Contents: Syntax, Variables, and Examples](../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
 
 **Online Data is Available for Offline Marketing Efforts**
 

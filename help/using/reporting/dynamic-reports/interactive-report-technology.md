@@ -86,7 +86,7 @@ The following table defines the shapes, sizes, and colors used in the dynamic re
 
 Describes how to search and use the various icon-tools used in the dynamic reports.
 
-<a id="section_050E2A1E537E45188E6ED7F906730E6F"></a>
+
 
 <!-- 
 

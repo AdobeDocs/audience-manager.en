@@ -260,16 +260,17 @@ Check the methods in your SDK code that let you pass [!UICONTROL declared IDs] f
   <tr> 
    <td colname="col1"> <p> <span class="keyword"> iOS </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> audienceSetDpid:dpuuid </span> </p> <p> <b>Syntax:</b> </p> 
-    <codeblock class="syntax javascript">
+    ```javascript
       +&nbsp;(void)&nbsp;audienceSetDpid:(NSString&nbsp;*)dpid 
      
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dpuuid:(NSString&nbsp;*)dpuuid; 
-    </codeblock> <p> <b>Example:</b> </p> 
-    <codeblock class="syntax javascript">
+    ```
+    <p> <b>Example:</b> </p> 
+    ````javascript
       [ADBMobile&nbsp;audienceSetDpid:@"290" 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dpuuid:@"99301393923940"]; 
-    </codeblock> </td> 
+      dpuuid:@"99301393923940"]; 
+    ```
+    </td> 
   </tr> 
  </tbody> 
 </table>

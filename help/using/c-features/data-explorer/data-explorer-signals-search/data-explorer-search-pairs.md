@@ -13,7 +13,7 @@ snippet: y
 
 Search for one or multiple signals, based on their respective key-value pairs.
 
-<a id="section_02289DDDC10E470D9B094B7D492AFE4D"></a>
+
 
 To search for more than one signal, click the  ![Add](assets/icon_add.png)
 

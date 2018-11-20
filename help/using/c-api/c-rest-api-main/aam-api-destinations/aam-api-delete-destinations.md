@@ -28,7 +28,7 @@ A `DELETE` method that removes a destination.
 >
 >You must remove all segment mappings before you can delete a destination.
 
-* Request: `DELETE https://api.demdex.com/v1/destinations/ *`<destinationId>`*` 
+* Request: `DELETE https://api.demdex.com/v1/destinations/ *<destinationId>*` 
 * Response: Returns code `204 No Content` if successful.
 
 **Bulk Delete Destinations**
@@ -41,6 +41,6 @@ Remove multiple destinations with this `POST` method. Pass in destination IDs ( 
 **Delete Destination Mappings by Segment Mapping ID** 
 A `POST` method that removes destination mappings according to the specified segment ID.
 
-* Request: `DELETE https://api.demdex.com/v1/destinations/ *`<destinationId>`*/segments/ *`<mappingId>`*` 
+* Request: `DELETE https://api.demdex.com/v1/destinations/ *<destinationId>*/segments/ *<mappingId>*` 
 * Response: Returns code `204 No Content` if successful.
 
