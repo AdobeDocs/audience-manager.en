@@ -48,7 +48,8 @@ Adobe Launch is the successor to [ [!DNL Adobe Dynamic Tag Manager]](https://mar
   <tr> 
    <td colname="col1"> <p> <b>Body</b> </p> </td> 
    <td colname="col2"> <p>As shown in sample below, <span class="wintitle"> DIL</span> passes data as key-value pairs. Special prefix characters identify the key-value pairs as <span class="keyword"> Audience Manager</span> or partner variables. </p> <p> 
-     ```javascript
+
+```javascript
       d_dst=1
       
 d_jsonv=1
@@ -60,7 +61,8 @@ d_mid=54192285857942994142875423154873503351
 d_nsid=0
       
 d_rtbd=json
-     ```
+```
+
      </p> <p>See also: </p> 
     <ul> 
      <li id="li_767F91D06E6A4CC0BBB9339CEC303222"> <a href="../c-features/traits/trait-variable-prefixes.md#reference_E6F1E4257F664FC2A797C406BF147ABC" format="dita" scope="local"> Prefix Requirements for Key Variables </a> </li> 
