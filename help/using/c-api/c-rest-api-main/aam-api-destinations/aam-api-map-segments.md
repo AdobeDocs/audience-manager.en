@@ -100,7 +100,7 @@ r_map_serialized_url.xml
 
 **Request**
 
-`POST https://api.demdex.com/v1/destinations/ *`<dataOrderId>`*/traits/`
+`POST https://api.demdex.com/v1/destinations/ *<dataOrderId>*/traits/`
 
 **Sample Request**
 

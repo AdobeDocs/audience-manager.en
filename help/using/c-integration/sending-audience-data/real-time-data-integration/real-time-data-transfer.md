@@ -32,8 +32,8 @@ The URL for an inbound data transfer should contain the variables described belo
 
 |  Parameter  | Description  |
 |---|---|
-| ` *`<KEY>`*`  | A unique identifier in a key-value pair (e.g., gender, color, price).  |
-| ` *`<VAL>`*`  | A variable that belongs to the data set defined by the key (e.g., gender=male, color=green, price=100)  |
+| ` *<KEY>*`  | A unique identifier in a key-value pair (e.g., gender, color, price).  |
+| ` *<VAL>*`  | A variable that belongs to the data set defined by the key (e.g., gender=male, color=green, price=100)  |
 
 **URL Syntax**
 
