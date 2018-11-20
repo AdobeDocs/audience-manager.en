@@ -154,7 +154,7 @@ r_update_model.xml
 
 **Request**
 
-` PUT https://api.demdex.com/v1/models/ *`<model-id>`*/`
+` PUT https://api.demdex.com/v1/models/ *<model-id>*/`
 
 **Sample Request**
 
@@ -209,7 +209,7 @@ r_delete_model.xml
 
 **Request**
 
-` DELETE https://api.demdex.com/v1/models/ *`<model-id>`*`
+` DELETE https://api.demdex.com/v1/models/ *<model-id>*`
 
 **Sample Response**
 
@@ -415,7 +415,7 @@ r_get_models_id.xml
 
 **Request**
 
-` GET https://api.demdex.com/v1/models/ *`<model-id>`*`
+` GET https://api.demdex.com/v1/models/ *<model-id>*`
 
 **Sample Response**
 
@@ -459,7 +459,7 @@ r_get_traits_by_accuracy.xml
 
 **Request**
 
-` GET https://api.demdex.com/v1/models/ *`<model-id>`*/runs/latest/traits/`
+` GET https://api.demdex.com/v1/models/ *<model-id>*/runs/latest/traits/`
 
 **Optional Query Parameters**
 
@@ -578,7 +578,7 @@ r_get_accuracy_reach.xml
 
 **Request**
 
-` GET https://api.demdex.com/v1/models/ *`<model-id>`*/runs/latest/stats`/
+` GET https://api.demdex.com/v1/models/ *<model-id>*/runs/latest/stats`/
 
 **Sample Response** 
 
@@ -613,7 +613,7 @@ r_return_model_timestamp.xml
 
  -->
 
-**Request** ` GET https://api.demdex.com/v1/models/ *`<model-id>`*/processing-history/`
+**Request** ` GET https://api.demdex.com/v1/models/ *<model-id>*/processing-history/`
 
 **Sample Response** 
 
