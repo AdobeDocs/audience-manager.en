@@ -284,7 +284,7 @@ r_get_algorithm_by_id.xml
 
 **Request**
 
-` GET https://api.demdex.com/v1/algorithms/ *`<algotype-id>`*/`
+` GET https://api.demdex.com/v1/algorithms/ *<algotype-id>*/`
 
 **Sample Response**
 
