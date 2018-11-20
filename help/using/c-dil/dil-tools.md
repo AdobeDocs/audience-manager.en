@@ -10,7 +10,7 @@ internal: n
 snippet: y
 ---
 
-# DIL Tools {#dil-tools}
+# DIL Tools
 
 Describes methods in the DIL.tools namespace. These utility functions help you perform specific tasks.
 
@@ -20,7 +20,7 @@ c_dil_functions.xml
 
  -->
 
-## getSearchReferrer {#reference_1658BF0239D24C87811BA963E4DB0FB8}
+## getSearchReferrer
 
 Returns search terms used to reach the current page.
 
@@ -34,7 +34,9 @@ r_dil_get_search_referrer.xml
 
 In DIL, `getSearchReferrer` returns search results (names and key words) used to reach your site. You can pass in specific search terms to this function or let it search the supported search engines ( [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google], and [!DNL Yahoo]) against `document.referrer` by default. 
 
-#### Function signature: `DIL.tools.getSearchReferrer(uri, initConfig)`
+#### Function signature
+
+Function signature: `DIL.tools.getSearchReferrer(uri, initConfig)`
 
 #### Function Parameters
 
@@ -124,7 +126,7 @@ search.aspx?q=adobe+rules,{
 
 ## decomposeURI
 
-Disassembles a Uniform Resource Identifier ( [!DNL URI]) into its constituent components: hash, host, href, pathname, protocol, search, and [!DNL uriParams].
+Disassembles a Uniform Resource Identifier ( [!DNL URI]) into its constituent components: `hash`, `host`, `href`, `pathname`, `protocol`, `search`, and `[!DNL uriParams]`.
 
 <!-- 
 
