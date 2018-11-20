@@ -79,11 +79,10 @@ And returns:
    <td> <b>Pass in a Custom URL</b> </td> 
    <td> Returns the search referrer based on a custom URL. </td> 
    <td> 
-
+<code>
       var&nbsp;results&nbsp;= 
 DIL.tools.getSearchReferrer("https://www.ehow.com/search.aspx?q=adobe+rules");
-
-```
+</code>
 
 </td> 
   </tr> 
