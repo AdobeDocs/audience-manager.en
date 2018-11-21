@@ -79,7 +79,7 @@ In [!DNL Audience Manager], a destination is any other system (ad server, DSP, a
 
 **DIL**
 
-The [!UICONTROL Data Integration Library] is an API library used by [!DNL Audience Manager] to collect user interaction data. See [Data Integration Library (DIL) API](../c-dil/dil-start.md).
+The [!UICONTROL Data Integration Library] is an API library used by [!DNL Audience Manager] to collect user interaction data. See [Data Integration Library (DIL) API](../c-dil/dil-overview.md).
 
 **dpm**
 

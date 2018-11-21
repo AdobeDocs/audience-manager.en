@@ -149,7 +149,7 @@ Contents:
 
 ## For Experience Cloud ID Service Customers {#section_F88AEB30F2474EFBB477C007CA55E4AA}
 
-The [!UICONTROL Experience Cloud ID Service] and the latest version of [DIL](../../c-dil/dil-start.md) are recommended when working with [!UICONTROL Profile Merge Rules]. However, you don't have to use the [!UICONTROL Experience Cloud ID Service] to work with this feature. If you're just using [!UICONTROL DIL], see the [legacy DIL section](../../c-features/profile-merge-rules/merge-rules-start.md#section_70398F3346F0444A821BD62FC86E3C67) below.
+The [!UICONTROL Experience Cloud ID Service] and the latest version of [DIL](../../c-dil/dil-overview.md) are recommended when working with [!UICONTROL Profile Merge Rules]. However, you don't have to use the [!UICONTROL Experience Cloud ID Service] to work with this feature. If you're just using [!UICONTROL DIL], see the [legacy DIL section](../../c-features/profile-merge-rules/merge-rules-start.md#section_70398F3346F0444A821BD62FC86E3C67) below.
 
 **Configure the Set Customer ID Function**
 
