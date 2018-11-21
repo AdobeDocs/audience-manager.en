@@ -22,7 +22,7 @@ The create and update worksheets accept a traitRule header that lets you apply m
 
 >[!NOTE]
 >
->The [!UICONTROL Bulk Management Tools]* are not* supported by [!DNL Audience Manager]. This tool is provided for convenience and as a courtesy only. For bulk changes, we recommend that you work with the [Audience Manager APIs](https://marketing.adobe.com/resources/help/en_US/aam/?f=c_api.html) instead. [RBAC group permissions](../../c-features/c-administration/c-administration.md#concept_A606A162611E4256BB80F60715282296) assigned in the Audience Manager UI are honored in the Bulk Management Tools.
+>The [!UICONTROL Bulk Management Tools]* are not* supported by [!DNL Audience Manager]. This tool is provided for convenience and as a courtesy only. For bulk changes, we recommend that you work with the [Audience Manager APIs](https://marketing.adobe.com/resources/help/en_US/aam/?f=c_api.html) instead. [RBAC group permissions](../../c-features/c-administration/administration-overview.md) assigned in the Audience Manager UI are honored in the Bulk Management Tools.
 
 ## Working with trait rules {#section_D0E125BEC35E40AEA410725C364CEF8E}
 

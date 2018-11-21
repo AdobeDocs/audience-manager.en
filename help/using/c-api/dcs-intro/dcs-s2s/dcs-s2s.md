@@ -41,4 +41,4 @@ We'll add new methods as they become available. Refer to the following sections 
 
 >[!MORE_LIKE_THIS]
 >
->* [DCS API Reference](../../../c-api/dcs-intro/dcs-api-reference/dcs-api-reference.md#concept_DCDCAF1BB264442A86A2C007AD4BF366)
+>* [DCS API Reference](../../../c-api/dcs-intro/dcs-api-reference/dcs-api-methods.md)

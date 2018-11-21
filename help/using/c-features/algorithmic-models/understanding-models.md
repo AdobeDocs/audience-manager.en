@@ -66,8 +66,8 @@ We deactivate any algorithmic model that fails to generate data for three consec
 >[!MORE_LIKE_THIS]
 >
 >* [Destinations](../../c-features/destinations/destinations.md#concept_5BDA346C376C4B719EA394108AB2735A)
->* [Traits](../../c-features/traits/traits.md#concept_422CE72B2125457B8C2954BF06102332)
->* [Segments](../../c-features/c-segments/c-segments.md#concept_2044B3AC34AC46669EE7D9292380BE0C)
+>* [Traits](../../c-features/traits/trait-details-page.md)
+>* [Segments](../../c-features/c-segments/segments-purpose.md)
 
 ## Understanding <wintitle> TraitWeight </wintitle> {#concept_1E21CF71FBD04C3EA59554909828DAD5}
 

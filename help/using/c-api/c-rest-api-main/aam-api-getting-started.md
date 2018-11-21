@@ -54,7 +54,7 @@ We recommend you create a separate, technical user account for working with the 
 * Identify what service is calling the API (e.g., calls from your apps that use our APIs or from other tools that make API requests). 
 * Provide uninterrupted access to the APIs. An account tied to a specific person may be deleted when they leave your company. This will prevent you from working with the available API code. A generic account that's not tied to a particular employee helps you avoid this problem.
 
-As an example or use case for this type of account, let's say you want to change a lot of segments at once with the [Bulk Management Tools](../../reference/bulk-management-tools/bulk-management-tools.md#concept_8D6CB301643C482F994938F6484B390C). Well, to do this, your user account needs API access. Rather than add permissions to a specific user, create a non-specific, API user account that has the appropriate credentials, key, and secret to make API calls. This is also useful if you develop your own applications that use the [!DNL Audience Manager] APIs.
+As an example or use case for this type of account, let's say you want to change a lot of segments at once with the [Bulk Management Tools](../../reference/bulk-management-tools/bulk-management-intro.md). Well, to do this, your user account needs API access. Rather than add permissions to a specific user, create a non-specific, API user account that has the appropriate credentials, key, and secret to make API calls. This is also useful if you develop your own applications that use the [!DNL Audience Manager] APIs.
 
 Work with your [!DNL Audience Manager] consultant to set up a generic, API-only user account. 
 

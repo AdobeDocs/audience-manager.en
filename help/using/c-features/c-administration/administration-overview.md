@@ -89,7 +89,7 @@ t_create_groups.xml
 * Provide a brief group description.
 
 1. In [!UICONTROL Group Members], click a user from **[!UICONTROL Add Users]** options to add them to the group.
-1. In [!UICONTROL Group Permissions], select a [trait](../../c-features/traits/traits.md#concept_422CE72B2125457B8C2954BF06102332), [segment](../../c-features/c-segments/segments-purpose.md#concept_F9E9D1D1EFF34AA2AD025109DD741C86), or [destination](../../c-features/destinations/destinations.md#concept_5BDA346C376C4B719EA394108AB2735A) from **[!UICONTROL Add Object]**.
+1. In [!UICONTROL Group Permissions], select a [trait](../../c-features/traits/trait-details-page.md), [segment](../../c-features/c-segments/segments-purpose.md#concept_F9E9D1D1EFF34AA2AD025109DD741C86), or [destination](../../c-features/destinations/destinations.md#concept_5BDA346C376C4B719EA394108AB2735A) from **[!UICONTROL Add Object]**.
 
    This opens a permissions window for your selected object. 1. Select the check box for the permissions you want group members to have.
 1. *(Optional)* Assign [Wild Card Permissions](../../c-features/c-administration/administration-overview.md#concept_29BA0C02C1864F3BBB1D322F8A400A2D) to the group.

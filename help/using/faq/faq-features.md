@@ -23,11 +23,11 @@ faq_features_functions.xml
 
 **What is my Organization ID and how do I find it?**
 
-The *`Organization ID`* is a unique ID that identifies your organization to [!DNL Audience Manager] and the [!DNL Adobe Experience Cloud]. It consists of a case-sensitive, 24-character alphanumeric string followed by [!UICONTROL @AdobeOrg]. For example, an *`Organization ID`* looks like this: `1FD6776A524453CC0A490D44@AdobeOrg`. The *`Organization ID`* is used by Audience Manager's [DIL](../c-dil/c-dil.md#concept_6D73ED3DBA604EE49B66B5572AA6A32C) API, the [Experience Cloud ID service](https://marketing.adobe.com/resources/help/en_US/mcvid/), and other [!DNL Experience Cloud] solutions. Users with Administrator permissions can find the *`Organization ID`* on the [!DNL Adobe Admin Console]. See the [Administration - User Management FAQ](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html).
+The *`Organization ID`* is a unique ID that identifies your organization to [!DNL Audience Manager] and the [!DNL Adobe Experience Cloud]. It consists of a case-sensitive, 24-character alphanumeric string followed by [!UICONTROL @AdobeOrg]. For example, an *`Organization ID`* looks like this: `1FD6776A524453CC0A490D44@AdobeOrg`. The *`Organization ID`* is used by Audience Manager's [DIL](../c-dil/dil-start.md) API, the [Experience Cloud ID service](https://marketing.adobe.com/resources/help/en_US/mcvid/), and other [!DNL Experience Cloud] solutions. Users with Administrator permissions can find the *`Organization ID`* on the [!DNL Adobe Admin Console]. See the [Administration - User Management FAQ](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html).
 
 **Can I create traits or destinations in bulk?**
 
-Yes. See [Bulk Management Tools](../reference/bulk-management-tools/bulk-management-tools.md#concept_8D6CB301643C482F994938F6484B390C).
+Yes. See [Bulk Management Tools](../reference/bulk-management-tools/bulk-management-intro.md).
 
 >[!NOTE]
 >

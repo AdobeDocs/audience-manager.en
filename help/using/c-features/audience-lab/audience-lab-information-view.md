@@ -19,7 +19,7 @@ The page displays information on the baseline segment you used for the test grou
 
 The **[!UICONTROL Test Segments]** are populated randomly with users from the baseline segment you used for the test group. The overview shows the percentages of users you allotted to each test segment.
 
-The **[!UICONTROL Conversion Traits]** drive the reporting for the test groups. To designate a trait as a conversion, when creating or editing traits in the [!UICONTROL Trait Builder], select **Conversion** as ** [Event Type](../../c-features/traits/create-onboarded-rule-based-traits.md#concept_D80233EF56764376B0F4C4FF882BAD2E). **
+The **[!UICONTROL Conversion Traits]** drive the reporting for the test groups. To designate a trait as a conversion, when creating or editing traits in the [!UICONTROL Trait Builder], select **Conversion** as ** [Event Type](../../c-features/traits/create-onboarded-rule-based-trait-details-page.md). **
 
 The **[!UICONTROL Destinations]** card is collapsible. Press the arrows to open or close individual destinations and obtain the following information for test segments, grouped by the destinations these are mapped to:
 

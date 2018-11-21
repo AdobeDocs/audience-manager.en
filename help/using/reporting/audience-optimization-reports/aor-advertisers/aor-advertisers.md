@@ -24,7 +24,7 @@ You can send data to [!DNL Audience Manager] for use in these reports by either 
 
 ## Role-Based Access Controls (RBAC) {#section_D32406E3F55D486985C592B4842CF1AA}
 
-The type of reports you can view depend on the [!UICONTROL RBAC] group you're assigned to. See [Administration](../../../c-features/c-administration/c-administration.md#concept_A606A162611E4256BB80F60715282296) and [Create a Group](../../../c-features/c-administration/administration-overview.md#task_3327F7C4A9834F1BA5007EDA279D40F2) for more information.
+The type of reports you can view depend on the [!UICONTROL RBAC] group you're assigned to. See [Administration](../../../c-features/c-administration/administration-overview.md) and [Create a Group](../../../c-features/c-administration/administration-overview.md#task_3327F7C4A9834F1BA5007EDA279D40F2) for more information.
 
 [!UICONTROL RBAC] groups must have some data sources set up in order to view the [!UICONTROL Audience Optimization] reports. Your [!DNL Audience Manager] consultant will set up these data sources for you. The more data sources in each [!UICONTROL RBAC] user group, the more data those group members will have access to. At a minimum, your consultant will set up at least one of these data sources:
 

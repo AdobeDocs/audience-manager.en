@@ -135,7 +135,7 @@ Audience Manager accepts Analytics [!UICONTROL Props], [!UICONTROL eVars], and e
 
 >[!MORE_LIKE_THIS]
 >
->* [Traits](../c-features/traits/traits.md#concept_422CE72B2125457B8C2954BF06102332)
+>* [Traits](../c-features/traits/trait-details-page.md)
 >* [Signals, Traits, and Segments](../reference/signal-trait-segment.md#concept_7550A48FE3F1415FACF0E077CFAB155F)
 >* [Key-Value Pairs Explained](../reference/key-value-pairs-explained.md#concept_E4236E003076483AA939791FE2492B49)
 >* [Prefix Requirements for Key Variables](../c-features/traits/trait-variable-prefixes.md#reference_E6F1E4257F664FC2A797C406BF147ABC)

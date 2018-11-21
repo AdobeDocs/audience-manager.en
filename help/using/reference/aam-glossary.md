@@ -41,7 +41,7 @@ See [Understanding Algorithmic Models](../c-features/algorithmic-models/understa
 
 [!UICONTROL Bulk Management Tools]. The [!UICONTROL Bulk Management Tools] in [!DNL Audience Manager] are a Microsoft Excel-based set of tools that let you create, modify or delete multiple objects at once with a single operation. You can work with data sources, derived signals, destinations, folders, segments, and traits. The feature uses a Microsoft Excel spreadsheet with macros that make secure, authenticated calls to the [!DNL Audience Manager] APIs.
 
-See [Bulk Management Tools](../reference/bulk-management-tools/bulk-management-tools.md#concept_8D6CB301643C482F994938F6484B390C).
+See [Bulk Management Tools](../reference/bulk-management-tools/bulk-management-intro.md).
 
 ## C-D {#section_0CE339FB571E4179887ADBF0E68D4E53}
 
@@ -79,7 +79,7 @@ In [!DNL Audience Manager], a destination is any other system (ad server, DSP, a
 
 **DIL**
 
-The [!UICONTROL Data Integration Library] is an API library used by [!DNL Audience Manager] to collect user interaction data. See [Data Integration Library (DIL) API](../c-dil/c-dil.md#concept_6D73ED3DBA604EE49B66B5572AA6A32C).
+The [!UICONTROL Data Integration Library] is an API library used by [!DNL Audience Manager] to collect user interaction data. See [Data Integration Library (DIL) API](../c-dil/dil-start.md).
 
 **dpm**
 
@@ -122,7 +122,7 @@ Identifier for Advertisers, the unique device ID Apple assigns to its products. 
 
 **Inbound**
 
-The process by which you can send audience data from other sources to [!DNL Audience Manager]. See [Sending Audience Data](../c-integration/sending-audience-data/sending-audience-data.md#concept_3BF153ABA4CE46F99A41A0114316847C).
+The process by which you can send audience data from other sources to [!DNL Audience Manager]. See [Sending Audience Data](../c-integration/sending-audience-data/real-time-data-integration.md).
 
 **Integration Code**
 

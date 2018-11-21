@@ -30,7 +30,7 @@ The following table lists important considerations when setting up [!UICONTROL C
  <tbody> 
   <tr> 
    <td colname="col01"> <p>Minimum number of conversion traits </p> </td> 
-   <td colname="col1"> <p>At least one conversion trait must be assigned to a data source in order for the <span class="wintitle"> Cross Channel Conversion</span> reports to run. See <a href="../../../c-features/traits/create-onboarded-rule-based-traits.md#concept_D80233EF56764376B0F4C4FF882BAD2E"> Basic Information for Traits</a> for more information on traits. </p> </td> 
+   <td colname="col1"> <p>At least one conversion trait must be assigned to a data source in order for the <span class="wintitle"> Cross Channel Conversion</span> reports to run. See <a href="../../../c-features/traits/create-onboarded-rule-based-trait-details-page.md"> Basic Information for Traits</a> for more information on traits. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>Maximum number of conversion traits </p> </td> 
