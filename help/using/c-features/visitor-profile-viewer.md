@@ -31,10 +31,10 @@ Traits that are not part of a segment will not appear in the
 
 1. *(Optional)* Click the trait name to display that trait in the Trait Builder.
 
-   For more information, see [Traits](../c-features/traits/traits.md#concept_422CE72B2125457B8C2954BF06102332). 
+   For more information, see [Traits](../c-features/traits/trait-details-page.md). 
 
 1. *(Optional)* Click the segment name to display that segment in the Segment Builder.
 
-   For more information, see [Segments](../c-features/c-segments/c-segments.md#concept_2044B3AC34AC46669EE7D9292380BE0C). 
+   For more information, see [Segments](../c-features/c-segments/segments-purpose.md). 
 
 1. *(Conditional)* In the **[!UICONTROL UUID]** box, specify another Audience Manager profile ID, then click **[!UICONTROL Refresh]** to view the traits and segments for that user.

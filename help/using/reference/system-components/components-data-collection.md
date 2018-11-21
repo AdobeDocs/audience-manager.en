@@ -53,7 +53,7 @@ In an event call, geographic location is captured in a key-value pair returned i
 
 ![](assets/datacenters.png)
 
-As a customer, you engage with the [!UICONTROL DCS] indirectly through our data collection code. You can also work directly with the [!UICONTROL DCS] through a set of APIs. See [Data Collection Server (DCS) API Methods and Code](../../c-api/dcs-intro/dcs-intro.md#concept_64E817EC9F2E4298BAFDCD5B1B3D03F0).
+As a customer, you engage with the [!UICONTROL DCS] indirectly through our data collection code. You can also work directly with the [!UICONTROL DCS] through a set of APIs. See [Data Collection Server (DCS) API Methods and Code](../../c-api/dcs-intro/dcs-event-calls/dcs-event-calls.md).
 
 **[!UICONTROL Profile Cache Servers (PCS)]**
 
@@ -82,11 +82,11 @@ These server systems handle privacy and user opt-out requests. User cookie infor
 
 ## Data Integration Library (DIL) {#section_71E528B4528742BA9F6CA69D1AF26C1D}
 
-[!UICONTROL DIL] is code you place on the page for data collection. See the [DIL API](../../c-dil/c-dil.md#concept_6D73ED3DBA604EE49B66B5572AA6A32C) for more information about available services and methods.
+[!UICONTROL DIL] is code you place on the page for data collection. See the [DIL API](../../c-dil/dil-overview.md) for more information about available services and methods.
 
 ## Inbound Server-to-Server {#section_0CC5BA6F15CE4379AA3144D201B11F87}
 
-These are systems that receive data sent in by various server-to-server integrations with our clients. See the documentation on [sending audience data](../../c-integration/sending-audience-data/sending-audience-data.md#concept_3BF153ABA4CE46F99A41A0114316847C) for more information.
+These are systems that receive data sent in by various server-to-server integrations with our clients. See the documentation on [sending audience data](../../c-integration/sending-audience-data/real-time-data-integration/real-time-data-integration.md) for more information.
 
 ## Log Files {#section_7900899D0DAB4F278A964F129E7E7A19}
 

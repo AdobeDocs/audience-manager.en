@@ -65,5 +65,5 @@ The URL for your inbound ID synchronization call should contain variables descri
 
 >[!MORE_LIKE_THIS]
 >
->* [Data Collection Server (DCS) API Methods and Code](../../c-api/dcs-intro/dcs-intro.md#concept_64E817EC9F2E4298BAFDCD5B1B3D03F0)
+>* [Data Collection Server (DCS) API Methods and Code](../../c-api/dcs-intro/dcs-event-calls/dcs-event-calls.md)
 >* [Data Collection Components](../../reference/system-components/components-data-collection.md#concept_66CFFEBF5E8B41ED94082D562A93506E)

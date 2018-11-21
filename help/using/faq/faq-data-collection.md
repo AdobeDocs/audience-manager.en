@@ -52,7 +52,7 @@ As a best practice, set up your [!DNL Audience Manager]- [!DNL Analytics] integr
 
 * Serve [!UICONTROL DIL] and the `s_code` through [!DNL Adobe Tag Manager].
 
-See [Data Integration Library (DIL) API](../c-dil/c-dil.md#concept_6D73ED3DBA604EE49B66B5572AA6A32C).
+See [Data Integration Library (DIL) API](../c-dil/dil-overview.md).
 
 **Why are my [!DNL Analytics] variables missing from an [!DNL Audience Manager] event call?**
 

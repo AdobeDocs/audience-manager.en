@@ -28,13 +28,13 @@ create-test-group.xml
 
  -->
 
-* You need to have at least one **conversion trait** set up. You can set up conversion traits in the [Trait Builder](../../c-features/traits/create-onboarded-rule-based-traits.md#concept_D80233EF56764376B0F4C4FF882BAD2E), by selecting **conversion** as the event type. For more information on what conversion traits are and how to set them up, we prepared a [video](https://helpx.adobe.com/audience-manager/kt/using/creating-conversion-traits-feature-video-use.html) for you.
+* You need to have at least one **conversion trait** set up. You can set up conversion traits in the [Trait Builder](../../c-features/traits/create-onboarded-rule-based-traits.md), by selecting **conversion** as the event type. For more information on what conversion traits are and how to set them up, we prepared a [video](https://helpx.adobe.com/audience-manager/kt/using/creating-conversion-traits-feature-video-use.html) for you.
 
   >[!IMPORTANT]
   >
-  >[Folder traits](../../c-features/traits/about-folder-traits.md#concept_D68F33E7F99243CEB9D11D354ECB53AD) are **not supported** by [!UICONTROL Audience Lab]. Setting the [Event Type](../../c-features/traits/create-onboarded-rule-based-traits.md#concept_D80233EF56764376B0F4C4FF882BAD2E) of a folder trait to **conversion** will not generate any data in [!UICONTROL Audience Lab] for that specific folder trait.
+  >[Folder traits](../../c-features/traits/about-folder-traits.md#concept_D68F33E7F99243CEB9D11D354ECB53AD) are **not supported** by [!UICONTROL Audience Lab]. Setting the [Event Type](../../c-features/traits/create-onboarded-rule-based-traits.md) of a folder trait to **conversion** will not generate any data in [!UICONTROL Audience Lab] for that specific folder trait.
 
-* For companies using [Role-Based Access Control](../../c-features/c-administration/c-administration.md#concept_A606A162611E4256BB80F60715282296): Assign the [!UICONTROL Audience Lab] [wildcard permission](../../c-features/c-administration/administration-overview.md#concept_29BA0C02C1864F3BBB1D322F8A400A2D) to **[!UICONTROL User Groups]** to provide access. This permission allows the user to create and view the results of a test. A user will only be able to use segments from a data source they have **"read" **and** "map to destination"** privileges for. The user will only be able to use conversion traits from a data source for which they have **"read"** permissions. A user will only be able to see destinations they have access to as well. So, before adding the [!DNL Audience Lab] wildcard permission to a group, make sure the group has:
+* For companies using [Role-Based Access Control](../../c-features/c-administration/administration-overview.md#concept_A606A162611E4256BB80F60715282296): Assign the [!UICONTROL Audience Lab] [wildcard permission](../../c-features/c-administration/administration-overview.md#concept_29BA0C02C1864F3BBB1D322F8A400A2D) to **[!UICONTROL User Groups]** to provide access. This permission allows the user to create and view the results of a test. A user will only be able to use segments from a data source they have **"read" **and** "map to destination"** privileges for. The user will only be able to use conversion traits from a data source for which they have **"read"** permissions. A user will only be able to see destinations they have access to as well. So, before adding the [!DNL Audience Lab] wildcard permission to a group, make sure the group has:
 
     * access to read relevant conversion traits; 
     * access to read and map relevant segments for tests; 
@@ -75,7 +75,7 @@ create-test-group.xml
     * After dropping a segment in a destination, fill in the **[!UICONTROL Destination Mapping Value]** in the blind. 
     * You can send the same test segment to multiple destinations and you can add multiple test segments to a single destination. 
     * Destinations are grayed out if they are not available for a certain test segment based on [Data Export Controls](../../c-features/data-export-controls.md#concept_155AAFBA7D804467B6F8279D26C9D05C). 
-    * Users will only see the destinations they have access to based on the [RBAC User Group](../../c-features/c-administration/c-administration.md#concept_A606A162611E4256BB80F60715282296) they belong to. 
+    * Users will only see the destinations they have access to based on the [RBAC User Group](../../c-features/c-administration/administration-overview.md#concept_A606A162611E4256BB80F60715282296) they belong to. 
     * Finally, you are required to select a start date for your test group. This date marks the start of the period in which your test group will be published to destinations. Select **No End Date** for an indefinite comparison of the test segments.
 
    >[!NOTE]

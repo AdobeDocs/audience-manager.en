@@ -37,7 +37,7 @@ t_algo_trait_build.xml
 To create an algorithmic trait, go to [!UICONTROL Traits] and follow the steps below: 
 
 1. Click **[!UICONTROL Create New Trait]** and select **[!UICONTROL Algorithmic]** from the drop down menu.
-1. In the [Basic Information](../../c-features/traits/create-onboarded-rule-based-traits.md#concept_D80233EF56764376B0F4C4FF882BAD2E) section
+1. In the [Basic Information](../../c-features/traits/create-onboarded-rule-based-traits.md) section
 
     * Name the trait. 
     * Select a data source. 
@@ -67,7 +67,7 @@ r_algo_trait_config_section.xml
 
 * [Create an algorithmic model](../../c-features/algorithmic-models/create-model.md#task_71541056B8384EEBB6A3A8B161C71B8A). 
 * Wait for the notification email that lets you know the model data run has finished. 
-* Complete the required fields in the [Basic Information](../../c-features/traits/create-onboarded-rule-based-traits.md#concept_D80233EF56764376B0F4C4FF882BAD2E) section.
+* Complete the required fields in the [Basic Information](../../c-features/traits/create-onboarded-rule-based-traits.md) section.
 
 **Configuration Fields and Settings**
 

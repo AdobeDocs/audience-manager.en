@@ -98,7 +98,7 @@ The following table lists the retention times for different data types and stora
   </tr> 
   <tr> 
    <td colname="col1"> <p>Outbound data </p> </td> 
-   <td colname="col2"> <p>This is the batch data that <span class="keyword"> Audience Manager</span> sends to third party activation partners. The retention period is 8 days. For more details about Outbound data, please refer to <a href="../c-integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-transfers.md#concept_11A07DEA9D49404A94C62931B8499E43"> Outbound Batch Transfers</a>. </p> </td> 
+   <td colname="col2"> <p>This is the batch data that <span class="keyword"> Audience Manager</span> sends to third party activation partners. The retention period is 8 days. For more details about Outbound data, please refer to <a href="../c-integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md"> Outbound Batch Transfers</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

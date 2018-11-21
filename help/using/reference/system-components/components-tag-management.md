@@ -38,7 +38,7 @@ The [!UICONTROL DIL] container helps deploy [!DNL Audience Manager] data collect
 
 ## Data Integration Library (DIL) {#section_5CF17DB718624223993CF1B5417B7632}
 
-The [Data Information Library](../../c-dil/c-dil.md#concept_6D73ED3DBA604EE49B66B5572AA6A32C) (DIL) is a self-contained API module that collects data from your website. [!UICONTROL DIL] helps eliminate the need to write special code for data collection, integration, reading cookie values, and recovering page data. [!UICONTROL DIL] performs these actions automatically. Additionally, [!UICONTROL DIL] is compact. It is a self-contained code library that helps reduce the amount of code required to collect information. Finally, [!UICONTROL DIL] helps you integrate [!DNL Audience Manager] with other products in the [!DNL Adobe] Experience Cloud.
+The [Data Information Library](../../c-dil/dil-overview.md) (DIL) is a self-contained API module that collects data from your website. [!UICONTROL DIL] helps eliminate the need to write special code for data collection, integration, reading cookie values, and recovering page data. [!UICONTROL DIL] performs these actions automatically. Additionally, [!UICONTROL DIL] is compact. It is a self-contained code library that helps reduce the amount of code required to collect information. Finally, [!UICONTROL DIL] helps you integrate [!DNL Audience Manager] with other products in the [!DNL Adobe] Experience Cloud.
 
 ## Akamai {#section_10236EBD13C44011BF386B7404A7205D}
 

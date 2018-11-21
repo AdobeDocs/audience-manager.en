@@ -274,7 +274,7 @@ The list that accompanies a deactivation email contains the fields as shown belo
 
 As a data buyer, you're responsible for removing the traits in a cancelled feed from all your active/in-use or inactive segments. Removal options include:
 
-* Bulk removal with the [REST APIs](../../../c-api/c-rest-api-main/c-rest-api-main.md#concept_B512E6C3410A4304A672588A60A792B1) or the [Bulk Management Tools](../../../reference/bulk-management-tools/bulk-management-tools.md#concept_8D6CB301643C482F994938F6484B390C). 
+* Bulk removal with the [REST APIs](../../../c-api/c-rest-api-main/c-rest-api-main.md#concept_B512E6C3410A4304A672588A60A792B1) or the [Bulk Management Tools](../../../reference/bulk-management-tools/bulk-management-intro.md). 
 
 * Manually search for affected segments and remove deactivated traits using [!UICONTROL Segment Builder]. See [Remove Traits from a Segment](../../../c-features/c-segments/segment-builder.md#task_D165E279D55A43C7952D936B207FD78A).
 
