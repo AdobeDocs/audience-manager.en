@@ -39,7 +39,7 @@ The [!DNL Audience Manager] taxonomy organizes data into nested categories calle
 
 **Classify Traits in Data Categories**
 
-You assign taxonomic classifications when creating or editing traits in the [!UICONTROL Add New Trait Wizard] (located in * **[!UICONTROL Audience Data > Traits]***). Refer to the [documentation on creating traits](../../c-features/traits/create-onboarded-rule-based-trait-details-page.md) for more information.
+You assign taxonomic classifications when creating or editing traits in the [!UICONTROL Add New Trait Wizard] (located in * **[!UICONTROL Audience Data > Traits]***). Refer to the [documentation on creating traits](../../c-features/traits/create-onboarded-rule-based-traits.md) for more information.
 
 **Working With the Taxonomy: Additional Considerations**
 

@@ -57,5 +57,5 @@ The following table defines the common prefixes used by [!UICONTROL Trait Builde
 
 >[!MORE_LIKE_THIS]
 >
->* [Basic Information Overview](../../c-features/traits/create-onboarded-rule-based-trait-details-page.md)
+>* [Basic Information Overview](../../c-features/traits/create-onboarded-rule-based-traits.md)
 >* [Managing Trait Rules](../../c-features/traits/manage-trait-rules.md#concept_3A566134D5704002B3713D0909C94389)
