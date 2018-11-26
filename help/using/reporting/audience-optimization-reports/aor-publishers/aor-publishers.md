@@ -24,4 +24,4 @@ The performance information displayed in the reports is imported from your [!UIC
 
 ## Available Reports {#section_32070A064130420D8F4F062A93AEECFD}
 
-[!UICONTROL Audience Optimization for Publishers] offers six distinct views that layer ad server performance against segmentation created in [!DNL Audience Manager] to solve for publisher centric business objectives: 
+[!UICONTROL Audience Optimization for Publishers] offers six distinct views that layer ad server performance against segmentation created in [!DNL Audience Manager] to solve for publisher centric business objectives.
