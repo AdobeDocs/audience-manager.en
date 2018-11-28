@@ -78,8 +78,8 @@ To complete the [!UICONTROL Basic Information] section:
 
 To complete the [!UICONTROL Configuration] section:
 
-1. **Cookie Name: **Provide a short, descriptive name for your cookie. 
-1. **Cookie Domain: **Leave blank to set a cookie in the domain of the user's current page. If you want to specify a domain, prefix the name with a period like this, `.mydomain.com`. 
+1. **Cookie Name:** Provide a short, descriptive name for your cookie. 
+1. **Cookie Domain:** Leave blank to set a cookie in the domain of the user's current page. If you want to specify a domain, prefix the name with a period like this, `.mydomain.com`. 
 
 1. Choose a key option in the [!UICONTROL Data Format] section. 
 1. If your keys use data with serialized values, select the **[!UICONTROL Serialize]** control and specify the serial delimiter (the character that separates the serialized values). 
@@ -94,7 +94,7 @@ To add a segment to a cookie destination:
     * Option 1: Start typing a segment name in the search field. The field updates automatically based on the text. Click **[!UICONTROL Add]** once you find the segment you want to use. 
     * Option 2: Click **[!UICONTROL Browse All Segments]** to open a window that lets you browse for segments by name or storage location. Click **[!UICONTROL Add Selected Segments]** when done.
 
-1. **Add Mappings: **In the mappings pop, enter the segment ID in the mappings field and click **[!UICONTROL Save]**. 
+1. **Add Mappings:** In the mappings pop, enter the segment ID in the mappings field and click **[!UICONTROL Save]**. 
 
 1. Click **[!UICONTROL Done]**.
 

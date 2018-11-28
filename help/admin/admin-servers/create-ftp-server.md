@@ -21,7 +21,7 @@ Use the Servers page in the Audience Manager Admin tool to create a new FTP serv
 
    Or
 
-   To edit an existing server, click the desired server in the **[!UICONTROL Label]** column. 
+   To edit an existing server, click the desired server in the **[!UICONTROL Label]** column.
 1. Specify the desired label for this server.
 1. From the **[!UICONTROL Protocol]** drop-down list, select the desired protocol: **FTP**.
 
@@ -31,21 +31,21 @@ Use the Servers page in the Audience Manager Admin tool to create a new FTP serv
 
 1. Fill in the fields:
 
-   **Type: **Select the desired encryption type: **[!UICONTROL SFTP]** or **[!UICONTROL FTPs/TLS]**.
+   **Type:** Select the desired encryption type: **[!UICONTROL SFTP]** or **[!UICONTROL FTPs/TLS]**.
 
-   **Domain: **Specify the desired domain (host) for this server.
+   **Domain:** Specify the desired domain (host) for this server.
 
-   **Port: **Specify the desired port for this server. The default port displays for each encryption type. You can change the default port, if necessary.
+   **Port:** Specify the desired port for this server. The default port displays for each encryption type. You can change the default port, if necessary.
 
-   **Remote Path: **Specify the desired remote path for this server. If you leave this field empty, Audience Manager places the files in the default directory.
+   **Remote Path:** Specify the desired remote path for this server. If you leave this field empty, Audience Manager places the files in the default directory.
 
-   **.tmp File Rename on Completion: **Enable this option to rename the .tmp file on completion.
+   **.tmp File Rename on Completion:** Enable this option to rename the .tmp file on completion.
 
-   **Filename Suffix: **Specify the text that you want appended to transfer files.
+   **Filename Suffix:** Specify the text that you want appended to transfer files.
 
-   **Moved to When Finished: **Specify the path to the location where you want the transfer file moved on completion.
+   **Moved to When Finished:** Specify the path to the location where you want the transfer file moved on completion.
 
-   **Authentication: **Specify the desired server authentication method: **[!UICONTROL Username/Password]** or **[!UICONTROL SSH Key]**.
+   **Authentication:** Specify the desired server authentication method: **[!UICONTROL Username/Password]** or **[!UICONTROL SSH Key]**.
 
    >[!NOTE]
    >
@@ -59,5 +59,4 @@ Use the Servers page in the Audience Manager Admin tool to create a new FTP serv
 
    Or
 
-   Click **[!UICONTROL Update]** if you are editing an existing server. 
-
+   Click **[!UICONTROL Update]** if you are editing an existing server.

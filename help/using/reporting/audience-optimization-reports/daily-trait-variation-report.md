@@ -22,9 +22,9 @@ Use the [!UICONTROL Date] list to select one or more dates for your report. A co
 
 The middle column contains a list of traits, identified by [!UICONTROL Trait ID] and [!UICONTROL Trait Name]. Click any trait to access a pop-up dialog box that lets you select from the following options:
 
-* **Keep Only: **Removes all other traits from the report and displays data for this trait only. 
-* **Exclude: **Removes this trait from the report and displays data for all other traits. You can exclude multiple traits. 
-* **View Data: **Lets you display data for that row. You can also download all rows as a text file.
+* **Keep Only:** Removes all other traits from the report and displays data for this trait only. 
+* **Exclude:** Removes this trait from the report and displays data for all other traits. You can exclude multiple traits. 
+* **View Data:** Lets you display data for that row. You can also download all rows as a text file.
 
 The [!UICONTROL Standard Deviation] column displays color-coded bar charts that display the standard deviation for each trait over the selected interval. Red bars indicate traits with a negative standard deviation (data points tend to be below the mean). Green bars indicate traits with a positive standard deviation (data points tend to be above the mean). Mouse over any bar to display a pop-up dialog box with more information and options to keep or exclude that trait and view more information.
 

@@ -29,8 +29,8 @@ Common destination configuration problems include the following issues:
 
 **Misconfigured Destination**
 
-* **Incorrect UserID Key: **The UserID key is the MasterDPID of this destination and is the basis for the ID values that will be outbounded. Even if a UserID key is selectable via the drop-down list, it doesn't necessarily mean that there are IDs/traits/segments mapped to this value. If the Outbound process (which runs after destinations are created) does not find any users mapped to this UserID key, no data will be outbounded. 
-* **No In File Data Sources Selected: **When choosing any destination type other than [!UICONTROL S2S], a section appears at the bottom of the screen labeled [!UICONTROL Configure Data Sources]. When this section first appears, no values are selected. If you forget to click the [!UICONTROL All First Party] checkbox or individually select data sources from the [!UICONTROL Available Data Sources] window, no data will be outbounded.
+* **Incorrect UserID Key:** The UserID key is the MasterDPID of this destination and is the basis for the ID values that will be outbounded. Even if a UserID key is selectable via the drop-down list, it doesn't necessarily mean that there are IDs/traits/segments mapped to this value. If the Outbound process (which runs after destinations are created) does not find any users mapped to this UserID key, no data will be outbounded. 
+* **No In File Data Sources Selected:** When choosing any destination type other than [!UICONTROL S2S], a section appears at the bottom of the screen labeled [!UICONTROL Configure Data Sources]. When this section first appears, no values are selected. If you forget to click the [!UICONTROL All First Party] checkbox or individually select data sources from the [!UICONTROL Available Data Sources] window, no data will be outbounded.
 
 **Misconfigured Format **
 

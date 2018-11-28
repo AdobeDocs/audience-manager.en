@@ -26,9 +26,9 @@ View or edit containers and mappings for third-party data providers. You can als
 
 1. Select **[!UICONTROL Enable Sharing]** to enable the following options:
 
-   **Partner Level Overlap: **
+   **Partner Level Overlap:** 
 
-   **Model Use Enabled: **Lets this company to use this data provider when creating algorithmic models.
+   **Model Use Enabled:** Lets this company to use this data provider when creating algorithmic models.
 
    When you enable sharing, you get access to traits from this data provider. 
 1. (Conditional) If the container is enabled for this provider, you can select containers for this data provider by moving the desired containers from the available list to the selected list.

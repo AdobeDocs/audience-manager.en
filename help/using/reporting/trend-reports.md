@@ -44,7 +44,7 @@ The following illustration provides a high-level overview of key elements in the
 
    **Date Range:** Specify the date range for the report (start date and end date).
 
-   **Display Interval: **Specify the display interval (1, 7, 14, 30, 60, and 90-day intervals). 
+   **Display Interval:** Specify the display interval (1, 7, 14, 30, 60, and 90-day intervals). 
 
 1. Search for a trait or segment by name or ID. 
 1. From the folder list, drag and drop the traits or segments you want to report to the [!UICONTROL Selections] panel on the right side. 

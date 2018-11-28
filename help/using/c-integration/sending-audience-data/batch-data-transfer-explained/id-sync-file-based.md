@@ -107,7 +107,7 @@ The purpose of an ID sync file is to sync the [DPUUIDs](../../../reference/ids-i
 
 * **File 1:** `adobe_id_0_12345_1476312152.sync` 
 
-* **File 2: ** `adobe_id_12345_67890_1476312876.sync`
+* **File 2:**  `adobe_id_12345_67890_1476312876.sync`
 
 Given the sample name and contents, the IDs map together like this:
 

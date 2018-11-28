@@ -21,7 +21,7 @@ Use the Servers page in the Audience Manager Admin tool to create a new S3 serve
 
    Or
 
-   To edit an existing server, click the desired server in the **[!UICONTROL Label]** column. 
+   To edit an existing server, click the desired server in the **[!UICONTROL Label]** column.
 1. Specify the desired label for this server.
 1. From the **[!UICONTROL Protocol]** drop-down list, select the desired protocol: **S3**.
 
@@ -31,18 +31,17 @@ Use the Servers page in the Audience Manager Admin tool to create a new S3 serve
 
 1. Fill in the fields:
 
-   **Account: **Specify the desired S3 account.
+   **Account:** Specify the desired S3 account.
 
-   **Bucket: **Specify the desired S3 bucket.
+   **Bucket:** Specify the desired S3 bucket.
 
-   **Directory: **Specify the desired S3 directory.
+   **Directory:** Specify the desired S3 directory.
 
-   **Access Key: **Specify the desired S3 access key.
+   **Access Key:** Specify the desired S3 access key.
 
-   **Secret Key: **Specify the desired S3 secret key. 
+   **Secret Key:** Specify the desired S3 secret key.
 1. Click **[!UICONTROL Create]** if you are creating a new server.
 
    Or
 
-   Click **[!UICONTROL Update]** if you are editing an existing server. 
-
+   Click **[!UICONTROL Update]** if you are editing an existing server.

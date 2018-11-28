@@ -28,7 +28,7 @@ Contents:
 
 S3 file names contain the following required and optional elements:
 
-* **S3 prefix: ** `s3n:// *`AWS_directory`*/ *`partner_name`*/date= *`yyyy-mm-dd`*/` 
+* **S3 prefix:**  `s3n:// *`AWS_directory`*/ *`partner_name`*/date= *`yyyy-mm-dd`*/` 
 
 * **File name elements:** `ftp_dpm_ *`DPID`*[ *`_DPID_TARGET_DATA_OWNER`*]_ *`TIMESTAMP`*(.sync|.overwrite)[. *`SPLIT_NUMBER`*][.gz]`
 
