@@ -56,24 +56,24 @@ If your client wants to use [!DNL Adobe Media Optimizer] as a destination in [!D
 
 Fill in the fields in the **[!UICONTROL Basic Settings]** window.
 
-**Name: **(Required) Specify the name of this destination.
+**Name:** (Required) Specify the name of this destination.
 
-**Description: **Specify descriptive information about this destination.
+**Description:** Specify descriptive information about this destination.
 
-**Type: **(Required) Select the desired destination type:
+**Type:** (Required) Select the desired destination type:
 
 * **[!UICONTROL Bulk ID]**: Sync IDs between different platforms. 
 * **[!UICONTROL Bulk Trait]**: Send trait information in bulk to different platforms. 
 * **[!UICONTROL Bulk Segment]**: Send segment information in bulk to different platforms. 
 * **[!UICONTROL S2S]**: Use server-to-server destinations to send real-time and batch data to different platforms.
 
-**Auto-Fill Destination Mapping: **( [!UICONTROL S2S] only) Select an option:
+**Auto-Fill Destination Mapping:** ( [!UICONTROL S2S] only) Select an option:
 
-* **Segment ID: **If you select this setting, the destination value mapping is filled with the [!DNL Audience Manager] Segment ID. 
+* **Segment ID:** If you select this setting, the destination value mapping is filled with the [!DNL Audience Manager] Segment ID. 
 
-* **Integration Code Value: **If you select this setting, the destination value mapping is filled with the [!DNL Audience Manager] Segment integration code.
+* **Integration Code Value:** If you select this setting, the destination value mapping is filled with the [!DNL Audience Manager] Segment integration code.
 
-**User ID Key: **(Required) Select the desired user ID key for this destination from the drop-down list.
+**User ID Key:** (Required) Select the desired user ID key for this destination from the drop-down list.
 
 This ID is used as the master data source ID. This determines the user IDs to be outbounded in the file.
 
@@ -83,11 +83,11 @@ This ID is used as the master data source ID. This determines the user IDs to be
 
 If your data source ID ( [!UICONTROL DPID]) does not display in the drop-down list, you must select the **[!UICONTROL Outbound]** checkbox at the data-source level on the [Data Source Settings page](https://marketing.adobe.com/resources/help/en_US/aam/create-datasource.html).
 
-**Target Data Source: **(Required) Select the desired data source for this destination from the drop-down list. This setting enables labeling of outbounded data, which allows for ingestion into separate systems on the clients' side.
+**Target Data Source:** (Required) Select the desired data source for this destination from the drop-down list. This setting enables labeling of outbounded data, which allows for ingestion into separate systems on the clients' side.
 
-**Foreign Account ID: **Specify the foreign account ID for this destination. This is the identification value in the recipient's system for this outbounded data.
+**Foreign Account ID:** Specify the foreign account ID for this destination. This is the identification value in the recipient's system for this outbounded data.
 
-**Outbound Sample Rate Denominator: **When the total amount of returned data is unknown, use this setting to return only a sample amount of data, rather than the full amount. Adjust the number here to represent a fraction of the data (e.g., a value of '100' returns 1/100th the regular amount of data, a value of '10' returns 1/10th the regular amount of data). The default is '1', which returns all data.
+**Outbound Sample Rate Denominator:** When the total amount of returned data is unknown, use this setting to return only a sample amount of data, rather than the full amount. Adjust the number here to represent a fraction of the data (e.g., a value of '100' returns 1/100th the regular amount of data, a value of '10' returns 1/10th the regular amount of data). The default is '1', which returns all data.
 
 ## Realtime Data (for S2S destinations) {#section_79ABA852B21A4D56961FB076CF4EB0F1}
 

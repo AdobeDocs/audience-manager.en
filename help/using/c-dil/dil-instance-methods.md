@@ -602,9 +602,9 @@ Works with [!UICONTROL DIL] versions 2.10 and 3.1 or higher.
 
 `idSync` accepts the following macros:
 
-* ** `%TIMESTAMP%`: **Generates a timestamp (in milliseconds). Used for cache busting. 
-* ** `%DID%`: **Inserts the Audience Manager ID for the user. 
-* ** `%HTTP_PROTO%`: **Sets the page protocol ( `http` or `https`).
+* **`%TIMESTAMP%`:** Generates a timestamp (in milliseconds). Used for cache busting. 
+* **`%DID%`:** Inserts the Audience Manager ID for the user. 
+* **`%HTTP_PROTO%`:** Sets the page protocol ( `http` or `https`).
 
 **Response**
 

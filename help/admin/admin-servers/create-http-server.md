@@ -26,17 +26,17 @@ Use the Servers page in the Audience Manager Admin tool to create a new HTTP ser
 1. From the **[!UICONTROL Protocol]** drop-down list, select the desired protocol: `HTTP`.
 1. Fill in the fields:
 
-   **Domain: **Specify the desired domain (host) for this server.
+   **Domain:** Specify the desired domain (host) for this server.
 
-   **Port: **Specify the desired port for this server. The default port displays for each encryption type. You can change the default port, if necessary
+   **Port:** Specify the desired port for this server. The default port displays for each encryption type. You can change the default port, if necessary
 
-   **Maximum Users Per Request: **Specify the maximum number of users per request allowed for this server.
+   **Maximum Users Per Request:** Specify the maximum number of users per request allowed for this server.
 
-   **URL Prefix: **Specify the URL prefix to use for this server.
+   **URL Prefix:** Specify the URL prefix to use for this server.
 
-   **Authentication URL: **Specify the Authentication URL for this `HTTP` server.
+   **Authentication URL:** Specify the Authentication URL for this `HTTP` server.
 
-   **Authentication: **Specify the desired authentication method: **[!UICONTROL None]**, **[!UICONTROL Username/Password]**, or **[!UICONTROL SSH Key]**.
+   **Authentication:** Specify the desired authentication method: **[!UICONTROL None]**, **[!UICONTROL Username/Password]**, or **[!UICONTROL SSH Key]**.
 
    **HTTP Signature Header:** The name of the `HTTP` header, provided by the customer, that contains the `HTTP` signature key. The default value is X-Signature, as shown in the example below:
 

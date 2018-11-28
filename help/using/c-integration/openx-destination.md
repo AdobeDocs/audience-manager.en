@@ -79,7 +79,7 @@ To complete the [!UICONTROL Basic Information] section:
 To complete the [!UICONTROL Configuration] section:
 
 1. **Cookie Name:** Provide a short, descriptive name for your cookie. 
-1. **Cookie Domain: **Leave blank to set a cookie in the domain of the user's current page. If you want to specify a domain, prefix the name with a period like this, `.mydomain.com`. 
+1. **Cookie Domain:** Leave blank to set a cookie in the domain of the user's current page. If you want to specify a domain, prefix the name with a period like this, `.mydomain.com`. 
 
 1. Choose a key option in the [!UICONTROL Data Format] section. 
 1. If your keys use data with serialized values, select the **[!UICONTROL Serialize]** control and specify the serial delimiter (the character that separates the serialized values). 

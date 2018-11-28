@@ -74,7 +74,7 @@ t_create_user.xml
 * **[!UICONTROL EDIT_PARTNERS]**: Lets users edit Audience Manager partners using an API call. 
 * **[!UICONTROL VIEW_PARNTERS]**: Lets users view Audience Manager partners using an API call.
 
-   **Status: **Select **[!UICONTROL Active]** to make this user an activated Audience Manager user. 
+   **Status:** Select **[!UICONTROL Active]** to make this user an activated Audience Manager user. 
 1. Click **[!UICONTROL Submit]**.
 
 ## Delete a User {#task_4AE38838D3F2485592A2B4756859AEA6}

@@ -80,7 +80,7 @@ Adobe has enabled processes and offers settings that allow customers to use Audi
 
 The IP address of a visitor to a customer’s website is transmitted to an Adobe Data Processing Center (DPC) where the IP address may be stored. Depending on the network configuration for the visitor, the IP address does not necessarily represent the IP address of the visitor’s computer. For example, the IP address could be the external IP address of a Network Address Translation (NAT) firewall, HTTP proxy, or Internet gateway.
 
-**Replacing the Last Octet of the IP Address: **Adobe has developed a new “privacy by design” setting that can be enabled by Audience Manager Consulting. When this setting is enabled, the last octet (the last portion) of the IP address is immediately hidden when the IP address is collected by Adobe. Audience Manager masks this part of the IP address prior to processing (including before any optional geo-lookup of the IP address). For example:
+**Replacing the Last Octet of the IP Address:** Adobe has developed a new “privacy by design” setting that can be enabled by Audience Manager Consulting. When this setting is enabled, the last octet (the last portion) of the IP address is immediately hidden when the IP address is collected by Adobe. Audience Manager masks this part of the IP address prior to processing (including before any optional geo-lookup of the IP address). For example:
 
 * Before: `123.45.67.89` 
 * After: `123.45.67.0`
@@ -91,5 +91,5 @@ When this feature is enabled, the IP address is altered so that it may no longer
 >
 >Contact your Audience Manager Consulting representative to enable the IP obfuscation feature.
 
-**Geographic Segmentation: **If customers enable the replacement of the last octet of the IP address, the remaining values of the IP address can still be utilized for geo-segmentation and reporting in Audience Manager. If the last octet of the IP address has not been obfuscated, the full IP address is used. Customers can use the Geographic Segmentation feature that allows the customer to map out visitor location by geographic area in either case, but with some slight loss of precision when IP obfuscation is being used. Geographic Segmentation data is granular only to the city level or zip code level, and not to the individual level.
+**Geographic Segmentation:** If customers enable the replacement of the last octet of the IP address, the remaining values of the IP address can still be utilized for geo-segmentation and reporting in Audience Manager. If the last octet of the IP address has not been obfuscated, the full IP address is used. Customers can use the Geographic Segmentation feature that allows the customer to map out visitor location by geographic area in either case, but with some slight loss of precision when IP obfuscation is being used. Geographic Segmentation data is granular only to the city level or zip code level, and not to the individual level.
 
