@@ -52,8 +52,8 @@ Paste the rule into the [!UICONTROL Bulk Management Tools] worksheet and commit 
 
 You can write your own rules outside of [!UICONTROL Rule Builder]. Before you start, be sure to read the documentation that covers things like operators, expression, and required variables. We recommend you review the following:
 
-* [Working With Comparison Operators In Trait Builder](help/using/c-features/traits/trait-comparison-operators.md) 
-* [Order of Operations](help/using/c-features/traits/trait-operator-precedence.md) 
-* [Prefix Requirements for Key Variables](help/using/c-features/traits/trait-variable-prefixes.md) 
-* [Sample Expressions With Boolean and Comparison Operators](help/using/c-features/traits/trait-expression-samples.md)
+* [Working With Comparison Operators In Trait Builder](../../c-features/traits/trait-comparison-operators.md) 
+* [Order of Operations](../../c-features/traits/trait-operator-precedence.md) 
+* [Prefix Requirements for Key Variables](../../c-features/traits/trait-variable-prefixes.md) 
+* [Sample Expressions With Boolean and Comparison Operators](../../c-features/traits/trait-expression-samples.md)
 
