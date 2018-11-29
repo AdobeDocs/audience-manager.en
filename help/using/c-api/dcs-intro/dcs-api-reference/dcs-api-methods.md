@@ -22,7 +22,7 @@ You can send data to the [!UICONTROL DCS] using either one of the `GET` or `POST
 
 ## Send Data via GET {#section_2F18A1D396334429A2F1C732A8CCEAAD}
 
-Note that the maximum allowed content length for `GET` calls is 8K.
+Note that the maximum allowed size for `GET` calls is 8K.
 
 ```
 curl -i " 
@@ -37,7 +37,7 @@ d_uuid=
 
 Note the requirements for sending data using the `POST` method:
 
-* The maximum allowed content length is 32K. 
+* The maximum allowed size is 32K. 
 * Set the content type to **application/x-www-form-urlencoded**.
 
 **Sample call**
