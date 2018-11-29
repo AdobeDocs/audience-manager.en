@@ -82,11 +82,11 @@ Column header labels defined.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> targetKey</span> </p> </td> 
-   <td colname="col2">The key used in the derived signal. See <a href="https://marketing.adobe.com/resources/help/en_US/aam/?f=c_tb_derived_signal.html" format="https" scope="external"> Derived Signals</a>. </td> 
+   <td colname="col2">The key used in the derived signal. See <a href="../../c-features/derived-signals.md#concept_36FF7303F39E4748AC048D08F9E371C6"> Derived Signals</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> targetValue</span> </p> </td> 
-   <td colname="col2"> <p>The value passed in with a derived signal key. See <a href="https://marketing.adobe.com/resources/help/en_US/aam/?f=c_tb_derived_signal.html" format="https" scope="external"> Derived Signals</a>. </p> </td> 
+   <td colname="col2"> <p>The value passed in with a derived signal key. See <a href="../../c-features/derived-signals.md#concept_36FF7303F39E4748AC048D08F9E371C6"> Derived Signals</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitAlias</span> </p> </td> 

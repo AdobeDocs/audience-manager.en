@@ -23,7 +23,7 @@ c_bulk_start.xml
 
 >[!NOTE]
 >
->The [!UICONTROL Bulk Management Tools]* are not* supported by [!DNL Audience Manager]. This tool is provided for convenience and as a courtesy only. For bulk changes, we recommend that you work with the [Audience Manager APIs](https://marketing.adobe.com/resources/help/en_US/aam/?f=c_api.html) instead. [RBAC group permissions](../../c-features/c-administration/administration-overview.md) assigned in the [!DNL Audience Manager] UI are honored in the [!UICONTROL Bulk Management Tools].
+>The [!UICONTROL Bulk Management Tools] *are not* supported by [!DNL Audience Manager]. This tool is provided for convenience and as a courtesy only. For bulk changes, we recommend that you work with the [Audience Manager APIs](https://marketing.adobe.com/resources/help/en_US/aam/?f=c_api.html) instead. [RBAC group permissions](../../c-features/c-administration/administration-overview.md) assigned in the [!DNL Audience Manager] UI are honored in the [!UICONTROL Bulk Management Tools].
 
 ## Overview {#section_A45262A175E84DE1946675A1AB0E8055}
 
@@ -35,7 +35,7 @@ To use the [!DNL Bulk Management Tools], you need the following:
 
 * Your [!DNL Audience Manager] user name and password. As a customer, you should already have these credentials. 
 * An API client ID and secret key. Your account manager can provide you with these. 
-* The [!UICONTROL Bulk Management Tools] worksheet. ** [Download the worksheet](https://marketing.adobe.com/resources/help/en_US/aam/downloads/BAAAM_August_2018.xlsm)** to get the latest verison. 
+* The [!UICONTROL Bulk Management Tools] worksheet. **[Download the worksheet](https://marketing.adobe.com/resources/help/en_US/aam/downloads/BAAAM_August_2018.xlsm)** to get the latest verison. 
 
 * Microsoft Excel running on [!DNL Windows] or in a [!DNL Microsoft Windows] virtual machine running on [!DNL macOS X]. We recommend using a 32-bit version of Microsoft Windows.
 
