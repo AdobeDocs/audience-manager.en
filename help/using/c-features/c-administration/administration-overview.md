@@ -29,6 +29,9 @@ Audience Manager uses groups to assign permissions. Permissions are not assigned
 Create users in Audience Manager and specify user details, login status, and assign users to groups.
 
 1. Click **[!UICONTROL Administration]** > **[!UICONTROL Users]**.
+   <!-- 
+   t_create_groups.xml
+   -->
 1. Click ![](assets/icon_add.png) to display the [!UICONTROL Create New User] page.
 1. Under **[!UICONTROL User Details]**, fill in the fields:
    * **Username:** Specify a unique username for Audience Manager.
