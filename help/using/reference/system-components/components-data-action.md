@@ -63,7 +63,7 @@ Examples of [!UICONTROL IRIS] services and features include:
 
 * Reliable infrastructure that works at scale and is fault tolerant. Systems that power [!UICONTROL IRIS] include Amazon SQS, Amazon EC2, and Cassandra.
 
-** Segment Mapping Rules**
+**Segment Mapping Rules**
 
 To optimize traffic between [!UICONTROL IRIS] and segment destinations, [!UICONTROL IRIS] sends segments to destinations based on a set of rules.
 

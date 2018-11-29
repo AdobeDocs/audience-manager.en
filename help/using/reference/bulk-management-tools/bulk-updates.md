@@ -23,7 +23,7 @@ t_bulk_updates.xml
 
 >[!NOTE]
 >
->The [!UICONTROL Bulk Management Tools]* are not* supported by [!DNL Audience Manager]. This tool is provided for convenience and as a courtesy only. For bulk changes, we recommend that you work with the [Audience Manager APIs](https://marketing.adobe.com/resources/help/en_US/aam/?f=c_api.html) instead. [RBAC group permissions](../../c-features/c-administration/administration-overview.md) assigned in the Audience Manager UI are honored in the Bulk Management Tools.
+>The [!UICONTROL Bulk Management Tools] *are not* supported by [!DNL Audience Manager]. This tool is provided for convenience and as a courtesy only. For bulk changes, we recommend that you work with the [Audience Manager APIs](https://marketing.adobe.com/resources/help/en_US/aam/?f=c_api.html) instead. [RBAC group permissions](../../c-features/c-administration/administration-overview.md) assigned in the Audience Manager UI are honored in the Bulk Management Tools.
 
 To make bulk updates, open the [!UICONTROL Bulk Management Tools] worksheet and: 
 
@@ -35,12 +35,13 @@ To make bulk updates, open the [!UICONTROL Bulk Management Tools] worksheet and:
     * When updating segments or traits, you only need the segment ID (SID) and the header element that needs to be changed. Delete unused headers.
 
 1. Paste or type the data you want to change into a corresponding column based on the header label.
-1. In the worksheet toolbar, click an update button that matches the item you're updating.
+1. In the worksheet toolbar, click an update button that matches the        item you're updating.
+   This action opens the [!UICONTROL Account Information] dialog box. 
 
-   This action opens the [!UICONTROL Account Information] dialog box. 1. Provide the required [log on information](../../reference/bulk-management-tools/bulk-management-intro.md#section_6FE9BADB30254A4FADC77D2DCFB6A1EE) and click **[!UICONTROL Submit]**.
+1. Provide the required [log on information](../../reference/bulk-management-tools/bulk-management-intro.md#section_6FE9BADB30254A4FADC77D2DCFB6A1EE) and click **[!UICONTROL Submit]**.
 
    The worksheet creates a [!UICONTROL Results] column. The [!UICONTROL Results] column returns the JSON response for a successful operation. See the [REST APIs](../../c-api/c-rest-api-main/c-rest-api-main.md#concept_B512E6C3410A4304A672588A60A792B1) for examples. Before entering data, your bulk update worksheet should look similar to the following: 
->
->![](assets/update.png)>
->If your bulk update returns an error or fails, see [Troubleshooting for Bulk Management Tools](../../reference/bulk-management-tools/bulk-troubleshooting.md#reference_1A3E7E0CEF6A4D8D801BC363A3C30C1A). 
 
+![](assets/update.png)
+
+If your bulk update returns an error or fails, see [Troubleshooting for Bulk Management Tools](../../reference/bulk-management-tools/bulk-troubleshooting.md#reference_1A3E7E0CEF6A4D8D801BC363A3C30C1A). 

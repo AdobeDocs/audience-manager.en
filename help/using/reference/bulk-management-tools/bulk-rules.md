@@ -22,7 +22,7 @@ The create and update worksheets accept a traitRule header that lets you apply m
 
 >[!NOTE]
 >
->The [!UICONTROL Bulk Management Tools]* are not* supported by [!DNL Audience Manager]. This tool is provided for convenience and as a courtesy only. For bulk changes, we recommend that you work with the [Audience Manager APIs](https://marketing.adobe.com/resources/help/en_US/aam/?f=c_api.html) instead. [RBAC group permissions](../../c-features/c-administration/administration-overview.md) assigned in the Audience Manager UI are honored in the Bulk Management Tools.
+>The [!UICONTROL Bulk Management Tools] *are not* supported by [!DNL Audience Manager]. This tool is provided for convenience and as a courtesy only. For bulk changes, we recommend that you work with the [Audience Manager APIs](https://marketing.adobe.com/resources/help/en_US/aam/?f=c_api.html) instead. [RBAC group permissions](../../c-features/c-administration/administration-overview.md) assigned in the Audience Manager UI are honored in the Bulk Management Tools.
 
 ## Working with trait rules {#section_D0E125BEC35E40AEA410725C364CEF8E}
 
@@ -52,8 +52,8 @@ Paste the rule into the [!UICONTROL Bulk Management Tools] worksheet and commit 
 
 You can write your own rules outside of [!UICONTROL Rule Builder]. Before you start, be sure to read the documentation that covers things like operators, expression, and required variables. We recommend you review the following:
 
-* [Working With Comparison Operators In Trait Builder](https://marketing.adobe.com/resources/help/en_US/aam/?f=c_tb_comparison_operators.html) 
-* [Order of Operations](https://marketing.adobe.com/resources/help/en_US/aam/c_tb_operator_precedence.html) 
-* [Prefix Requirements for Key Variables](https://marketing.adobe.com/resources/help/en_US/aam/?f=r_tb_variable_prefixes.html) 
-* [Sample Expressions With Boolean and Comparison Operators](https://marketing.adobe.com/resources/help/en_US/aam/?f=r_tb_expression_samples.html)
+* [Working With Comparison Operators In Trait Builder](help/using/c-features/traits/trait-comparison-operators.md) 
+* [Order of Operations](help/using/c-features/traits/trait-operator-precedence.md) 
+* [Prefix Requirements for Key Variables](help/using/c-features/traits/trait-variable-prefixes.md) 
+* [Sample Expressions With Boolean and Comparison Operators](help/using/c-features/traits/trait-expression-samples.md)
 

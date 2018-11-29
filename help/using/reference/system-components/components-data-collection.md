@@ -49,7 +49,7 @@ The [!UICONTROL DCS] is a geographically distributed and load-balanced system. T
 >
 >The [!UICONTROL DCS] only detects web traffic originating from devices that use IPv4.
 
-In an event call, geographic location is captured in a key-value pair returned in a larger body of JSON data. This key-value pair is the `"dcs_region": *`region ID`*` parameter.
+In an event call, geographic location is captured in a key-value pair returned in a larger body of JSON data. This key-value pair is the `"dcs_region": region ID` parameter.
 
 ![](assets/datacenters.png)
 
