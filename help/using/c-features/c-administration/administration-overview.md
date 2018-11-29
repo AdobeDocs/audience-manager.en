@@ -29,31 +29,22 @@ Audience Manager uses groups to assign permissions. Permissions are not assigned
 Create users in Audience Manager and specify user details, login status, and assign users to groups.
 
 1. Click **[!UICONTROL Administration]** > **[!UICONTROL Users]**.
-  <!-- 
-  t_create_users.xml
-  -->
-
 1. Click ![](assets/icon_add.png) to display the [!UICONTROL Create New User] page.
 1. Under **[!UICONTROL User Details]**, fill in the fields:
-
-  * **Username:** Specify a unique username for Audience Manager.
-  * **First Name:** Specify the user's first name.
-  * **Last Name:** Specify the user's last name.
-  * **Email Address:** Specify the user's email address. Audience Manager does not send regular notification to users. Audience Manager administrators have access to users' email addresses and can manually email users as needed. For example, if a user forgets his or her password, the email address specified in this field is used to send a temporary password and instructions to reset the password.
-  * **Phone Number:** Specify the user's phone number.
-  * **Is Admin:** Specify if this user is an Audience Manager administrator. Admin users can manage users (create, edit, etc.) and groups (create, assign permissions, etc.). Non-admin users can control only their own user profiles, including editing their email addresses and resetting their own passwords. For more information, see [Edit Your Account Settings](../../c-features/c-administration/edit-account-settings.md#task_B622BDCE85824926AE88C6D132F9EDAE). 
-
+   * **Username:** Specify a unique username for Audience Manager.
+   * **First Name:** Specify the user's first name.
+   * **Last Name:** Specify the user's last name.
+   * **Email Address:** Specify the user's email address. Audience Manager does not send regular notification to users. Audience Manager administrators have access to users' email addresses and can manually email users as needed. For example, if a user forgets his or her password, the email address specified in this field is used to send a temporary password and instructions to reset the password.
+   * **Phone Number:** Specify the user's phone number.
+   * **Is Admin:** Specify if this user is an Audience Manager administrator. Admin users can manage users (create, edit, etc.) and groups (create, assign permissions, etc.). Non-admin users can control only their own user profiles, including editing their email addresses and resetting their own passwords. For more information, see [Edit Your Account Settings](../../c-features/c-administration/edit-account-settings.md#task_B622BDCE85824926AE88C6D132F9EDAE). 
 1. Under **[!UICONTROL Login]**, select the desired status:
-  * **Active:**  Active users can access Audience Manager and have the permissions granted by group membership.
-  * **Deactivated:**  Deactivated users cannot access Audience Manager and do not have any permissions. If you deactivate users, their user information remains in Audience Manager and you can simple reactivate them, if necessary. If you remove users, you must re-create them if they need to use Audience Manager again in the future.
-  * **Expired:** A user's password is older than 90 days.
-  * **Pending:** The user has a temporary password, either as after a password reset or as a brand new account, and they have not yet set a permanent password. 
-  * **Locked Out:** 5 incorrect login attempts will lock out a user. 
-
+   * **Active:**  Active users can access Audience Manager and have the permissions granted by group membership.
+   * **Deactivated:**  Deactivated users cannot access Audience Manager and do not have any permissions. If you deactivate users, their user information remains in Audience Manager and you can simple reactivate them, if necessary. If you remove users, you must re-create them if they need to use Audience Manager again in the future.
+   * **Expired:** A user's password is older than 90 days.
+   * **Pending:** The user has a temporary password, either as after a password reset or as a brand new account, and they have not yet set a permanent password. 
+   * **Locked Out:** 5 incorrect login attempts will lock out a user. 
 1. Under **[!UICONTROL Assigned Groups]**, from the drop-down list, select the desired groups to which you want to assign this user.
-
   For more information about groups and permissions, see [Create a Group](../../c-features/c-administration/administration-overview.md#task_3327F7C4A9834F1BA5007EDA279D40F2). 
-
 1. Click **[!UICONTROL Save]**.
 
 ## Create a Group {#task_3327F7C4A9834F1BA5007EDA279D40F2}  
@@ -63,21 +54,16 @@ A *`group`* is a collection of users that share access rights to destination, se
 To create a group: 
 
 1. Click **[!UICONTROL Administration]** > **[!UICONTROL Groups]**.
-  <!-- 
-  t_create_groups.xml
-  -->
- 
+   <!-- 
+   t_create_groups.xml
+   -->
 1. Click  ![](assets/icon_add.png) to open the [!UICONTROL Group Settings] page.
 1. In [!UICONTROL Group Details]:
-
-  * Name the group. 
-  * Provide a brief group description.
-
+   * Name the group. 
+   * Provide a brief group description.
 1. In [!UICONTROL Group Members], click a user from **[!UICONTROL Add Users]** options to add them to the group.
 1. In [!UICONTROL Group Permissions], select a [trait](../../c-features/traits/trait-details-page.md), [segment](../../c-features/c-segments/segments-purpose.md#concept_F9E9D1D1EFF34AA2AD025109DD741C86), or [destination](../../c-features/destinations/destinations.md#concept_5BDA346C376C4B719EA394108AB2735A) from **[!UICONTROL Add Object]**.
-
    This opens a permissions window for your selected object. 1. Select the check box for the permissions you want group members to have.
-
 1. *(Optional)* Assign [Wild Card Permissions](../../c-features/c-administration/administration-overview.md#concept_29BA0C02C1864F3BBB1D322F8A400A2D) to the group.
 1. Click **[!UICONTROL Save Group]**.
 
