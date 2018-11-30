@@ -127,7 +127,7 @@ Yes. We can send funnel data, but the DSP must have the technical capability to 
 
 A file has been picked up when the extension changes from `.sync` to `.processed`. When this happens, the file is in the ingestion queue. Also, your account manager can confirm when a file has been uploaded.
 
-**I want to test the functionality of the [DCS API](../c-api/dcs-intro/dcs-event-calls/dcs-event-calls). I am sending event calls like the one shown below. The calls contain [Declared IDs](../c-features/declared-ids.md) and signals, which should realize some traits and segments I have already set up. Can I use the [!UICONTROL General Reports] and [!UICONTROL Trend Reports] to verify if the trait and segment populations are increasing?**
+**I want to test the functionality of the [DCS API](../c-api/dcs-intro/dcs-event-calls/dcs-event-calls.md). I am sending event calls like the one shown below. The calls contain [Declared IDs](../c-features/declared-ids.md) and signals, which should realize some traits and segments I have already set up. Can I use the [!UICONTROL General Reports] and [!UICONTROL Trend Reports] to verify if the trait and segment populations are increasing?**
 
 ```
 https://apse2.demdex.net/event?d_rtbd=json&d_cid=123456%01abc123&c_events=placed-an-order
