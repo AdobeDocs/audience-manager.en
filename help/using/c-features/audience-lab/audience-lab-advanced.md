@@ -14,16 +14,9 @@ snippet: y
 
 This article describes two features which provide advanced functionality for Audience Lab: Duplicate Allocation Template and Segment Holdout.
 
-On this page:
-
-<ul class="simplelist"> 
- <li> <a href="../../c-features/audience-lab/audience-lab-advanced.md#section_520626580ECB48C9A6EFEFC9A5D49D1B"> Duplicate Allocation Template </a> </li> 
- <li> <a href="../../c-features/audience-lab/audience-lab-advanced.md#section_1D72DBA56C2F44ADB38B1BF86A300098"> Test Segment Holdout </a> </li> 
-</ul>
-
 ## Duplicate Allocation Template {#section_520626580ECB48C9A6EFEFC9A5D49D1B}
 
-**Overview**
+### Overview
 
 <!-- 
 
@@ -38,7 +31,7 @@ In Audience Lab, the **Allocation Template** represents the various selections y
 * The conversion trait(s) you use for a test group; 
 * The date range in which the test group publishes to your selected destinations.
 
-By duplicating an allocation template, you can reuse the same distribution of test segments and destinations for a different base segment, in a new test group. An example of an allocation template is illustrated below.
+By duplicating an allocation template, you can reuse the same distribution of test segments and destinations for a different base segment, in a new test group. An example of an allocation template is illustrated below. The image is taken from the Summary & Finalize step in the [Create Test Group](../c-features/audience-lab/audience-lab-manage-test-groups.md#task_B62EF6D2992941FAAEA84BE2EA11A55E) workflow.
 
 ![](assets/allocation_template_3.png)
 
@@ -48,9 +41,9 @@ With the option to duplicate allocation templates, you can increase your product
 
  -->
 
-Create an initial test group, then select **[!UICONTROL Duplicate Allocation Template]** to reuse the same settings across multiple test groups. For example, you can use this feature if you're running a test where you want to determine the efficacy of several destinations for multiple segments.
+### How to use
 
-**How to Use**
+Create an initial test group, then select **[!UICONTROL Duplicate Allocation Template]** to reuse the same settings across multiple test groups. For example, you can use this feature if you're running a test where you want to determine the efficacy of several destinations for multiple segments.
 
 1. In the Audience Lab main view, search for the test group whose allocation template you want to reproduce in a new test group. In the drop-down box, select **[!UICONTROL Duplicate Allocation Template]**.
 
@@ -72,9 +65,9 @@ Create an initial test group, then select **[!UICONTROL Duplicate Allocation Tem
 >
 >Test Segment Holdout is an advanced functionality, activated on customer request. Please contact Customer Care or Adobe Consulting to activate this feature.
 
-**Overview**
+### Overview
 
-Use this feature to shave the audience you are testing by a certain percentage. The percentage you select is left out of the test. This way, you can measure and compare the number of conversions from targeted (activated on destinations) and untargeted (holdout group) audiences.
+Use this feature to withhold part of the audience from being included in the test. The percentage you select is left out of the test. This way, you can measure and compare the number of conversions from targeted (activated on destinations) and untargeted (holdout group) audiences.
 
 <!-- 
 
@@ -82,7 +75,7 @@ Use this feature to shave the audience you are testing by a certain percentage. 
 
  -->
 
-**How to Use**
+### How to Use
 
 1. Create a new test group by using the [Create Test Group](../../c-features/audience-lab/audience-lab-manage-test-groups.md#task_B62EF6D2992941FAAEA84BE2EA11A55E) wizard. 
 1. In the **[!UICONTROL Allocate Test Segment]** step, you can select a part of the audience to be withheld from testing.
@@ -93,5 +86,4 @@ Use this feature to shave the audience you are testing by a certain percentage. 
 
    ![](assets/test-segment-holdout-selected.png)
 
-1. Go through the rest of the steps in the **[!UICONTROL Create Test Group]** workflow and select **[!UICONTROL Finalize Group]** when you're satisfied with your selection.
-
+1. Go through the rest of the steps in the **[!UICONTROL Create Test Group]** workflow and select **[!UICONTROL Finalize Group]** when you're satisfied with your selection. You now have a test group with part of the audience withheld from testing.

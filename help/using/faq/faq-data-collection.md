@@ -127,7 +127,7 @@ Yes. We can send funnel data, but the DSP must have the technical capability to 
 
 A file has been picked up when the extension changes from `.sync` to `.processed`. When this happens, the file is in the ingestion queue. Also, your account manager can confirm when a file has been uploaded.
 
-**I want to test the functionality of the [DCS API](https://marketing.adobe.com/resources/help/en_US/aam/dcs-event-calls.html). I am sending event calls like the one shown below. The calls contain [Declared IDs](https://marketing.adobe.com/resources/help/en_US/aam/c_declared_id_var_syntax.html) and signals, which should realize some traits and segments I have already set up. Can I use the [!UICONTROL General Reports] and [!UICONTROL Trend Reports] to verify if the trait and segment populations are increasing?**
+**I want to test the functionality of the [DCS API](../c-api/dcs-intro/dcs-event-calls/dcs-event-calls). I am sending event calls like the one shown below. The calls contain [Declared IDs](../c-features/declared-ids.md) and signals, which should realize some traits and segments I have already set up. Can I use the [!UICONTROL General Reports] and [!UICONTROL Trend Reports] to verify if the trait and segment populations are increasing?**
 
 ```
 https://apse2.demdex.net/event?d_rtbd=json&d_cid=123456%01abc123&c_events=placed-an-order
@@ -145,7 +145,7 @@ On a first call to the [!UICONTROL DCS], the declared IDs are *not* linked to an
 
 For this reason, the reports will not reflect the events triggered by the declared IDs in your call. We recommend you use UUID, ECID (formerly MID) or mobile device IDs in event test calls to the [!UICONTROL DCS]. Then, you can verify the trait and segment realizations in the [!UICONTROL General Reports] and in the [!UICONTROL Trend Reports].
 
-See also, the [Index of Audience Manager IDs](https://marketing.adobe.com/resources/help/en_US/aam/ids-in-aam.html).
+See also, the [Index of Audience Manager IDs](../reference/ids-in-aam.md).
 
 **How long does it take for user profiles to sync across [regions](../c-api/dcs-intro/dcs-api-reference/dcs-regions.md#concept_01C1E017A6694D1EAF9BF65BFFA54091)?**
 
