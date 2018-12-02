@@ -31,7 +31,7 @@ In Audience Lab, the **Allocation Template** represents the various selections y
 * The conversion trait(s) you use for a test group; 
 * The date range in which the test group publishes to your selected destinations.
 
-By duplicating an allocation template, you can reuse the same distribution of test segments and destinations for a different base segment, in a new test group. An example of an allocation template is illustrated below. The image is taken from the Summary & Finalize step in the [Create Test Group](../c-features/audience-lab/audience-lab-manage-test-groups.md#task_B62EF6D2992941FAAEA84BE2EA11A55E) workflow.
+By duplicating an allocation template, you can reuse the same distribution of test segments and destinations for a different base segment, in a new test group. An example of an allocation template is illustrated below. The image is taken from the Summary & Finalize step in the Create Test Group workflow.
 
 ![](assets/allocation_template_3.png)
 
@@ -49,7 +49,7 @@ Create an initial test group, then select **[!UICONTROL Duplicate Allocation Tem
 
    ![](assets/duplicate-allocation-template.png)
 
-1. In the [Create Test Group](../c-features/audience-lab/audience-lab-manage-test-groups.md#task_B62EF6D2992941FAAEA84BE2EA11A55E) wizard, you can specify a base segment and rename your test segments, if you wish. 
+1. In the Create Test Group wizard, you can specify a base segment and rename your test segments, if you wish. 
 1. You *cannot* modify:
 
     * The distribution of devices between test segments; 
@@ -77,7 +77,7 @@ Use this feature to withhold part of the audience from being included in the tes
 
 ### How to Use
 
-1. Create a new test group by using the [Create Test Group](../c-features/audience-lab/audience-lab-manage-test-groups.md#task_B62EF6D2992941FAAEA84BE2EA11A55E) wizard. 
+1. Create a new test group by using the Create Test Group wizard. 
 1. In the **[!UICONTROL Allocate Test Segment]** step, you can select a part of the audience to be withheld from testing.
 
    ![List Item](assets/test-segment-holdout.png)
