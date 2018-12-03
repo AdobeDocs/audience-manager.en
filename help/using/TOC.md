@@ -8,16 +8,16 @@ user-guide-title: Audience Manager User Guide
 
 + [Audience Manager Product Documentation](c-aam-home.md)
 + Overview{#overview}
-    + [Audience Manager Overview](c-am-overview-intro/aam-overview.md)
-    + [Types of Data Collected](c-am-overview-intro/data-types-collected.md)
+    + [Audience Manager Overview](overview/aam-overview.md)
+    + [Types of Data Collected](overview/data-types-collected.md)
     + Data Security and Privacy {#data-security-and-privacy}
-        + [Data Security](c-am-overview-intro/c-data-security-and-privacy/data-security.md)
-        + [Data Privacy](c-am-overview-intro/c-data-security-and-privacy/data-privacy.md)
-        + [Opt-out Management](c-am-overview-intro/c-data-security-and-privacy/opt-out-management.md)
+        + [Data Security](overview/c-data-security-and-privacy/data-security.md)
+        + [Data Privacy](overview/c-data-security-and-privacy/data-privacy.md)
+        + [Opt-out Management](overview/c-data-security-and-privacy/opt-out-management.md)
     + General Data Protection Regulation (GDPR){#gdpr}
-        + [GDPR in Audience Manager](c-am-overview-intro/aam-gdpr/aam-gdpr-details.md)
-        + [GDPR Considerations for Destinations](c-am-overview-intro/aam-gdpr/aam-gdpr-partners.md)
-        + [GDPR FAQ](c-am-overview-intro/aam-gdpr/aam-gdpr-faq.md)
+        + [GDPR in Audience Manager](overview/aam-gdpr/aam-gdpr-details.md)
+        + [GDPR Considerations for Destinations](overview/aam-gdpr/aam-gdpr-partners.md)
+        + [GDPR FAQ](overview/aam-gdpr/aam-gdpr-faq.md)
 + Features{#features}
     + [Addressable Audiences](c-features/addressable-audiences.md)
     + Administration{#administration}
