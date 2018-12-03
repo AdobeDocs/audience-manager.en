@@ -33,4 +33,4 @@ Search for specific signals and create rule-based or onboarded traits based on t
    >
    >![](assets/signals-used-traits.png)
 
-2. Use the **[Trait Builder](../../../c-features/traits/about-trait-builder.md#concept_13D6537EE5D0459F870C58822AD5400A)** to create your new traits.
+1. Use the **[Trait Builder](../../../c-features/traits/about-trait-builder.md#concept_13D6537EE5D0459F870C58822AD5400A)** to create your new traits.
