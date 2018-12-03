@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 ---
-<!— markdownlint-disable MD045 --> 
+
 # Profile Merge Rule Options Defined{#profile-merge-rule-options-defined}
 
 The merge rule options let you control the type of data Audience Manager uses for segmentation. A merge rule can include device profiles mapped by the Profile Link device graph, the Adobe Experience Cloud Device Co-op, and/or other, third-party device graph providers who are integrated with Audience Manager. You can create a maximum of 3 Profile Merge Rules.
