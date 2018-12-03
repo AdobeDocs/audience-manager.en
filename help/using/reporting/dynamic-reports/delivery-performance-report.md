@@ -55,7 +55,7 @@ r_delivery_data_pop.xml
 
  -->
 
-The popup for the [Delivery and Performance Report](../../reporting/dynamic-reports/delivery-performance-report.md#concept_ED04A45759A6408D95222C7BE0EA301D) report contains the following metrics:
+The popup for the Delivery and Performance Report contains the following metrics:
 
 |  Metric  | Description  |
 |---|---|

@@ -54,15 +54,13 @@ The following illustration provides a high-level overview of key elements in the
 
 This procedure describes how to run a [!UICONTROL Trend] report.
 
-1. 
-
-   <!-- 
+<!-- 
 
 t_working_with_trend_reports.xml
 
  -->
 
-   In the **[!UICONTROL Analytics]** dashboard, click **[!UICONTROL Trend Reports]**.
+1. In the **[!UICONTROL Analytics]** dashboard, click **[!UICONTROL Trend Reports]**.
 1. From the **[!UICONTROL Report Type]** drop-down list, select the desired type: **[!UICONTROL Trait]** or **[!UICONTROL Segment]**.
 1. Click the date boxes to display a calendar, then select the starting and ending dates for your report.
 1. Specify the display interval: by 1, 7, 14, 30, 60, or 90-day.

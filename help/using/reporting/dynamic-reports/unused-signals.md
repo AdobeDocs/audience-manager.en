@@ -20,7 +20,7 @@ c_unused_signals.xml
 
  -->
 
-**Unused Signals Report**
+## Unused Signals Report
 
 A signal is information from your website passed in to [!DNL Audience Manager] in the form of [key-value pairs](../../reference/key-value-pairs-explained.md#concept_E4236E003076483AA939791FE2492B49) (e.g., `color=blue, price>100, gender=female`, etc.). Unused signals consist of data that you collect but have not been mapped to a trait. The [!UICONTROL Unused Signals] report shows data in a table by date, key, value, and frequency count. Any unmapped signal passed in to [!DNL Audience Manager] at least 100 times in a day qualifies for the [!UICONTROL Unused Signals] report. Review this report to help identify orphaned signals that can be mapped to new or existing traits.
 
@@ -28,7 +28,7 @@ A signal is information from your website passed in to [!DNL Audience Manager] i
 >
 >Specify a key or value name in the search fields to limit results to specific records.
 
-**Use Cases**
+## Use Cases
 
 <table id="table_E5EE0EC078E14EF4B197243488517A2D"> 
  <thead> 
@@ -53,7 +53,7 @@ A signal is information from your website passed in to [!DNL Audience Manager] i
  </tbody> 
 </table>
 
-**Best Practices**
+## Best Practices
 
 Run and check the [!UICONTROL Unused Signals] report:
 
@@ -70,6 +70,6 @@ Run and check the [!UICONTROL Unused Signals] report:
 
 * Considering the two different expressions above, let's say you search in the [!UICONTROL Unused Signals Report] for the values that get passed on key a with any value different than 23, you'll only obtain results in the first case because values for key were not sent AT ALL. In the second case, values different than 23 were sent so key a is not unused.
 
-**Bulk Trait Creation**
+## Bulk Trait Creation
 
 Contact your Partner Solutions representative if you need to bulk create a lot of traits based on data obtained from the [!UICONTROL Unused Signals] report. 

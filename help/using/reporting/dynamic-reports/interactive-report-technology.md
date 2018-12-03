@@ -24,7 +24,7 @@ c_report_technology.xml
 
  -->
 
-**Interactive Reports Use Tableau Technology**
+### Interactive Reports Use Tableau Technology
 
 [!DNL Audience Manager] uses [Tableau](https://www.tableausoftware.com/) software to display data in the interactive reports. With [!DNL Tableau], the [!UICONTROL Delivery and Overlap] reports use visual cues and symbols that help you:
 
@@ -33,7 +33,7 @@ c_report_technology.xml
 * Use overlap data to build targeted segments. 
 * Expand reach by identifying related traits with low overlap.
 
-**Data Update Schedule**
+### Data Update Schedule
 
 Report data is updated weekly each Sunday. The update processes data from Saturday (the day before) back to the previous Sunday. 
 
@@ -47,7 +47,7 @@ r_legend.xml
 
  -->
 
-**Report Legend**
+### Report Legend
 
 The following table defines the shapes, sizes, and colors used in the dynamic reports. 
 
@@ -94,13 +94,13 @@ r_icons.xml
 
  -->
 
-**Data Icons and Tools**
+### Data Icons and Tools
 
 The following icons-tools are available at the bottom of each dynamic report window. The following illustration provides more information about these tools.
 
 ![](assets/tools_icons90.png)
 
-**Export Data**
+### Export Data
 
 This tools lets you export data from the report in 4 different formats.  
 
@@ -111,19 +111,19 @@ This tools lets you export data from the report in 4 different formats.
 | **[!UICONTROL Data]** | In a new browser window as numeric data in columns and rows.  |
 | **[!UICONTROL Crosstab]** | As a .csv file.  |
 
-**Revert Changes**
+### Revert Changes
 
 Select this tool to undo any interactive click changes you may have performed on the report.
 
-**Automatic Updates**
+### Automatic Updates
 
 The [!UICONTROL Delivery-Performance] and [!UICONTROL Trait-to-Trait Overlap] reports are dynamic reports that respond and change based on user click actions. For example, say you want to select several advertisers in the [!UICONTROL Overlap] report. When enabled, automatic updates will start to return data as soon as you select a checkbox. This dynamic behavior can interrupt your workflow because you have to wait until the report finishes processing before selecting another advertiser. Use this tool to turn that feature off (and on again) as required.
 
-**Refresh Data**
+### Refresh Data
 
 Click the refresh icon to run a report or reload your data set. When automatic updates are off, click refresh to run or update the report.
 
-**Search**
+### Search
 
 Search is represented by a generic magnifying glass icon (not shown). The search field is hidden until you click on the selection labels on the left side of the screen. The table below describes the location of the search tool for each report.  
 

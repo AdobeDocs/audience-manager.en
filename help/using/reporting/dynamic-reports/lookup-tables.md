@@ -20,15 +20,15 @@ c_lookup_tables.xml
 
  -->
 
-**Log File Metadata Increases File Size and Processing Time**
+## Log File Metadata Increases File Size and Processing Time
 
 A typical log file used by the [!UICONTROL Delivery Performance] report usually contains thousands of rows and dozens of columns. It consists of numeric IDs and human-readable information such as names for creatives, advertisers, insertion orders, etc. This non-ID information is referred to as *`metadata`* (i.e., information about other information) and gets written in each row of the log file. However, the [!UICONTROL Delivery Performance] report mainly works with the IDs in the log file. The metadata is useful, but repetitious. It increases file size and data ingestion times.
 
-**Reduce File Size and Shorten Processing Time With Index Tables**
+## Reduce File Size and Shorten Processing Time With Index Tables
 
 To help improve performance, your main data file should contain IDs only. Put metadata in a separate lookup (or index) table and link those records to the main file with a key variable common to both.
 
-**How Lookup Tables Reduce File Size**
+## How Lookup Tables Reduce File Size
 
 Let's say you have a data file that looks similar to the one below.  
 
@@ -57,7 +57,7 @@ The lookup file below holds the metadata and can be linked back to the main file
 |  111  | Shoe A  | Sneakers  | Company A  |
 |  222  | Shoe B  | Hiking  | Company B  |
 
-**APIs Can Eliminate the Need for Lookup Tables**
+## APIs Can Eliminate the Need for Lookup Tables
 
 If your ad serving system has an API, you might not need to send metadata in a lookup file. We may be able to get that information through the API. When this is the case, your log files should contain IDs only. We'll work with you to determine if metadata can be obtained through an API. 
 

@@ -14,25 +14,19 @@ snippet: y
 
 A metadata file links numeric IDs with names you can read and understand. The Audience Optimization reports display readable names in the various report options menus.
 
-Contents:
-
-* [Overview](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md#section_BDE34D99F18643F1A57D454DE4A7CECC) 
-* [File Mappings](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md#section_92AD346141F3414BA9FEDFE1E9306CFF) 
-* [How Event Call IDs Determine File Names, Contents, and Delivery Paths](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md#section_3FB8AE59CE0149DFAC076D32D792EE0B)
-
 ## Overview {#section_BDE34D99F18643F1A57D454DE4A7CECC}
 
 A review of metadata and how it's used. A metadata file must be accompanied by a data file. The metadata file contents match data file information to related, human-readable labels in the report menus. For more information, see [Data Files for Audience Optimization Reports](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md#concept_76D2C04AA9904203BDC74E4D38D86C89).
 
-**Metadata Files Contain Data About Other Data**
+### Metadata Files Contain Data About Other Data
 
 A metadata file contains information about other types of data. To help you understand how this works, let’s review how [!DNL Audience Manager] receives data. During an impression or click event, [!DNL Audience Manager] receives data in an URL string known as an event call. The event call organizes information into sets of defined key-value pairs. The values in a key-value pair contain of numeric data. The metadata file contains names and other readable information corresponding to the ID in each key-value pair.
 
-**Metadata Links IDs to Readable Names**
+### Metadata Links IDs to Readable Names
 
 The metadata file is required to tie a numeric ID to a readable name. As an example, say an event call contains a creative ID in a key-value pair like this: `d_creative:1234`. Without a metadata file, this creative would show up as 1234 in an options menu. However, a properly formatted metadata file can tie this creative to back to a real name like “Advertiser Creative A,” which is a name you can read and recognize in a report.
 
-**When Do You Need a Metadata File**
+### When Do You Need a Metadata File
 
 First, a metadata file, and all of the parameters listed below, are required in an event call when you want to use the [Audience Optimization Reports](../../../reporting/audience-optimization-reports/audience-optimization-reports.md#concept_D66D2C58493E48BDAFF2F95BBB508946).
 
@@ -103,13 +97,13 @@ The following table lists the key-value pairs that hold data used by the [!UICON
 
 The IDs passed in by these key-value pairs help create the metadata file name and its contents. The following sections and illustrations demonstrate how this works. These examples build a file that contains the name of a creative in a campaign, but other combinations are possible.
 
-**Event Call**
+### Event Call
 
 In this example we'll create a metadata file that brings creative names in to an [!UICONTROL Audience Optimization] report. To do this, we need to extract creative, campaign, and data source IDs from an event call.
 
 ![](assets/metadata_file_event.png)
 
-**File Name**
+### File Name
 
 The file name is based on the creative, campaign, and data source IDs. In this case, compare the differences here between the key-value data in an event call and how it's used in a file name.
 
@@ -123,7 +117,7 @@ In a file name:
 
 See [Naming Conventions for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#concept_729806531D4547A6B5870BEA199FB4A9).
 
-**File Contents**
+### File Contents
 
 In this example, the file contents reflect the creative and campaign IDs passed in on the event call. The new element here is a readable name. Once processed, the name in this file will appear as an option in the Creative menu of an [!UICONTROL Audience Optimization] report.
 
@@ -131,7 +125,7 @@ In this example, the file contents reflect the creative and campaign IDs passed 
 
 See [Content Format for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md#concept_5E422498650E40FD9744ABF290750107).
 
-**File Delivery**
+### File Delivery
 
 After you name and add data to a file, you send it to an Amazon S3 storage directory provided by [!DNL Audience Manager]. See [Delivery Methods for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md#concept_679079B06314446BA34B9F2BE8050D03) and [Status Updates for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-update-status.md#concept_B42172A8E6394E889DCF367AA01B4583). 
 

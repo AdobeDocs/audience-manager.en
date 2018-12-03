@@ -14,15 +14,13 @@ snippet: y
 
 View outbound batch job history information for a specified destination and time period.
 
-1. 
-
-   <!-- 
+<!-- 
 
 t_reports_outbound_history.xml
 
  -->
 
-   Click **[!UICONTROL Analytics]** > **[!UICONTROL Outbound File History]**.
+1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Outbound File History]**.
 
    ![Step Result](assets/outbound_history.png)
 

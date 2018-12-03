@@ -83,15 +83,14 @@ You can add the e-mail addresses of recipients that you want to be notified of t
 
 A [!UICONTROL Sample Error Report] returns the number records in a data source were processed successfully and how many failed. Follow these steps to generate a [!UICONTROL Sample Error Report].
 
-1. 
-
-   <!-- 
+<!-- 
 
 create-onboarding-status-report.xml
 
  -->
 
-   Go to **[!UICONTROL Analytics > Onboarding Status Report]**. Search for a data source or choose one from the list.
+
+1. Go to **[!UICONTROL Analytics > Onboarding Status Report]**. Search for a data source or choose one from the list.
 
 1. Select a date range. Options include:
 
