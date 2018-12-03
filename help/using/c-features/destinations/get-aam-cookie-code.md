@@ -16,28 +16,23 @@ Code required by DART Enterprise (and other destination types) to capture the Au
 
  Define this function at the top of the page, ideally within the `<head>` code block.
 
-<!-- 
-
-r_aam_de_cookie.xml
-
- -->
+<!-- r_aam_de_cookie.xml -->
 
 ```js
-<script type="text/javascript"> 
-function get_aamCookie (c_name) 
-{ 
-var i,x,y,ARRcookies=document.cookie.split(";"); 
-for (i=0;i<ARRcookies.length;i++) 
-   { 
-   x=ARRcookies[i].substr(0,ARRcookies[i].indexOf("=")); 
-   y=ARRcookies[i].substr(ARRcookies[i].indexOf("=")+1); 
-   x=x.replace(/^\s+|\s+$/g,""); 
-   if (x==c_name) 
+<script type="text/javascript">
+function get_aamCookie (c_name)
+{
+var i,x,y,ARRcookies=document.cookie.split(";");
+for (i=0;i<ARRcookies.length;i++)
+   {
+   x=ARRcookies[i].substr(0,ARRcookies[i].indexOf("="));
+   y=ARRcookies[i].substr(ARRcookies[i].indexOf("=")+1);
+   x=x.replace(/^\s+|\s+$/g,"");
+   if (x==c_name)
       { 
-      return unescape(y); 
-      } 
-   } 
-} 
+      return unescape(y);
+      }
+   }
+}
 </script>
 ```
-

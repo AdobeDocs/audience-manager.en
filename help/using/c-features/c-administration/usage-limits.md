@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# Usage Limits{#usage-limits}
+# Usage Limits {#usage-limits}
 
 Audience Manager sets a maximum limit on the number of traits, segments, destinations, and algorithmic models that you can create for an account. Limits apply to these items whether created in the user interface or programmatically through API methods. Usage limits help protect Audience Manager from automated processes that may attempt to compromise our APIs or user interface.
 

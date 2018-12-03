@@ -14,7 +14,7 @@ snippet: y
 
 Segment Builder lets you build trait rules for a segment using a code editor. Click the Segment Expressions (Code View) tab in the Traits panel to access this feature.
 
- **Expression Builder Code Syntax** You can add trait rules to a segment with code instead of using drag and drop features. When coding, replace italicized elements in the example with an actual expression or value. The base code uses following syntax: 
+ **Expression Builder Code Syntax** You can add trait rules to a segment with code instead of using drag and drop features. When coding, replace italicized elements in the example with an actual expression or value. The base code uses following syntax:
 
 ```
 FREQUENCY([ 
@@ -56,9 +56,9 @@ To build groups of segments, wrap the frequency function in parenthesis and set 
 |  Name or Variable  | Description  |
 |---|---|
 |  `FREQUENCY`  | A literal that must precede the expression.  |
-|  ` [ *`&lt;traitID&gt;`*T]`  | An array of trait IDs followed by the letter `T`. Separate multiple traits with a comma. For example, `[123T, 456T]`.  |
-|  ` *<Recency Operator><Numeric Value>*D`  | *(Optional)* Sets recency rules on traits in the segment. The letter `D` indicates recency in days.  |
-|  ` *<Frequency Operator><Numeric Value>*`  | Sets frequency rules on traits in the segment.  |
+|  ` [ `&lt;`traitID`&gt;`T]`  | An array of trait IDs followed by the letter `T`. Separate multiple traits with a comma. For example, `[123T, 456T]`.  |
+|  ` <Recency Operator><Numeric Value>D`  | *(Optional)* Sets recency rules on traits in the segment. The letter `D` indicates recency in days.  |
+|  ` <Frequency Operator><Numeric Value>`  | Sets frequency rules on traits in the segment.  |
 
 **Allowed Recency and Frequency Operators**
 

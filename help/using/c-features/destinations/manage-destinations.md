@@ -10,7 +10,7 @@ internal: n
 snippet: y
 ---
 
-# Manage Destinations{#manage-destinations}
+# Manage Destinations {#manage-destinations}
 
 The Destination landing page lists all of your URL, cookie, and server-to-server destinations. It provides features that let you create, edit, search for, and report on destinations. The landing page is located in Audience Data > Destinations.
 
@@ -20,11 +20,7 @@ The [!UICONTROL Destination] landing page lists all of your URL, cookie, and ser
 
 ## Default Landing Page {#section_6CD57AF083EC43C2BD3AA93D80441017}
 
-<!-- 
-
-destinations-home.xml
-
- -->
+<!-- destinations-home.xml -->
 
 The default landing page lists and helps you manage all of your destinations. You can create, edit, and search for destinations here.
 
@@ -34,7 +30,7 @@ The default landing page lists and helps you manage all of your destinations. Yo
 
 Slide the **[!UICONTROL Show Only Addressable Audience Metrics]** toggle to see audience data and match rates for your server-to-server destinations. When enabled, this feature:
 
-* Lets you filter the report to return audience data and match rates for fixed time intervals. 
+* Lets you filter the report to return audience data and match rates for fixed time intervals.
 * Returns data for server-to-server destinations only. Cookie and URL destinations are excluded from the list. Slide the toggle again to return to the default view.
 
 ![](assets/destination_landing2.png)
@@ -49,11 +45,7 @@ Slide the **[!UICONTROL Show Only Addressable Audience Metrics]** toggle to see 
 
 ## Destination Builder Settings {#section_CD7B38643BA34A4CABE50F24072A9DB3}
 
-<!-- 
-
-destination-builder.xml
-
- -->
+<!-- destination-builder.xml -->
 
 [!UICONTROL Destination Builder] consists of the following sections and settings:  
 
@@ -85,17 +77,17 @@ destination-builder.xml
       <li id="li_37BB2BDD6B2D4E4EA07B494CAE452CBF">Set delivery priorities on individual segments (for cookie-based segments only). </li> 
      </ul> </p> </td> 
   </tr> 
- </tbody> 
+ </tbody>
 </table>
 
 ## Data Delivery Methods {#section_EB5C0D945F7B46F3B860D22F0998F550}
 
 Send information to a destination by passing it in through a URL string, by writing to a browser cookie, or through offline server-to-server data transfers.
 
-* URL and cookie-based destinations transmit data synchronously, as a user takes action on a page. 
+* URL and cookie-based destinations transmit data synchronously, as a user takes action on a page.
 * Server-to-server data transmission is asynchronous and can occur long after a user has left the page. The delivery type you select depends on your business requirements and how a particular data partner wants to, or can, receive data.
 
-See [How to Choose a Destination Type](../../c-features/destinations/destinations.md#concept_88240D03005244DA91182932E9927003) for more information. 
+See [How to Choose a Destination Type](../../c-features/destinations/destinations.md#concept_88240D03005244DA91182932E9927003) for more information.
 
 >[!MORE_LIKE_THIS]
 >
@@ -107,9 +99,7 @@ See [How to Choose a Destination Type](../../c-features/destinations/destination
 A cookie destination returns and writes data to a cookie in the user's browser. The cookie contains data that can be read by other platforms that have access to the page. Follow these instructions to create a cookie destination with [!UICONTROL Destination Builder].
 
 <!-- 
-
 create-cookie-destination.xml
-
  -->
 
 To create a new cookie destination, go to **[!UICONTROL Audience Data > Destinations > Create New Destination]** and complete the sections as described below.
@@ -122,14 +112,10 @@ This section contains fields and options that start the cookie destination creat
 1. Name the destination. Avoid abbreviations and special characters. 
 1. *(Optional)* Describe the destination. A concise description is an effective way to define or provide more information about a destination. 
 1. *(Optional)* In the **[!UICONTROL Platform]** list, leave the default set to **[!UICONTROL All]**. Currently, these options don't do anything. They're designed to support features that may be added at a later date. 
-
 1. In the **[!UICONTROL Type]** list, click **[!UICONTROL Cookie]**. 
-
 1. *(Optional)* Select an **[!UICONTROL Auto-fill Destination Mapping]**. Options include:
-
     * **[!UICONTROL Segment ID]**: Automatically adds and sends the segment ID to the destination. 
     * **[!UICONTROL Integration Code Value]**: Automatically adds and sends the segment integration code to the destination mapping. The integration code is a unique identifier created and used by the customer. It is limited to 255 characters, maximum.
-
 1. Click **[!UICONTROL Next]** to go to the [!UICONTROL Configuration] settings or click **[!UICONTROL Data Export Labels]** to apply export controls to the destination.
 
 ## Data Export Labels {#section_DBA5FEE725E142AEA979BECBA7FE9DD5}
@@ -166,16 +152,16 @@ All other settings are optional. For more information about the **[!UICONTROL Co
 This section lets you search for and add segments to your destination. To complete this section:
 
 1. Click **[!UICONTROL Segment Mappings]** to expose the controls. 
-1. In the **[!UICONTROL Search and Add Segments]** box, start typing the name of a segment or click **[!UICONTROL Browse All Segments]** to browse a list of available segments. 
+1. In the **[!UICONTROL Search and Add Segments]** box, start typing the name of a segment or click **[!UICONTROL Browse All Segments]** to browse a list of available segments.
 
-1. Click **[!UICONTROL Add Selected Segments]** when you find the segment you want to use. Adding a segment opens the [!UICONTROL Edit Mapping] window. 
+1. Click **[!UICONTROL Add Selected Segments]** when you find the segment you want to use. Adding a segment opens the [!UICONTROL Edit Mapping] window.
 
 1. In the [!UICONTROL Edit Mapping] pop:
 
     * **[!UICONTROL Mapping]** lets you set a value for the key specified in the Configuration section above. 
     * **[!UICONTROL Publish from]** lets you set start and end date for the destination. If the end date is blank, the destination never expires.
 
-1. Click **[!UICONTROL Save]**. 
+1. Click **[!UICONTROL Save]**.
 1. Click **[!UICONTROL Done]**.
 
 ## Configure a URL Destination {#concept_51842672DFA943EA982B363E74D42DF8}
@@ -183,10 +169,8 @@ This section lets you search for and add segments to your destination. To comple
 A URL destination makes pixel calls from a page to your destination. Follow these instructions to create a URL destination with [!UICONTROL Destination Builder].
 
 <!-- 
-
 create-url-destination.xml
-
- -->
+-->
 
 To create a new URL destination, go to **[!UICONTROL Audience Data > Destinations > Create New Destination]** and complete the sections as described below.
 
@@ -198,22 +182,18 @@ This section contains fields and options that start the URL destination creation
 1. Name the destination. Avoid abbreviations and special characters. 
 1. *(Optional)* Describe the destination. A concise description is an effective way to define or provide more information about a destination. 
 1. *(Optional)* In the **[!UICONTROL Platform]** list, leave the default set to **[!UICONTROL All]**. Currently, these options don't do anything. They're designed to support features that may be added at a later date. 
-
 1. In the **[!UICONTROL Type]** list, click **[!UICONTROL URL]**. 
-
 1. *(Optional)* Select an **[!UICONTROL Auto-fill Destination Mapping]**. Options include:
-
     * **[!UICONTROL Segment ID]**: Automatically adds and sends the segment ID to the destination. 
     * **[!UICONTROL Integration Code Value]**: Automatically adds and sends the segment integration code to the destination mapping. The integration code is a unique identifier created and used by the customer. It is limited to 255 characters, maximum.
-
 1. Click **[!UICONTROL Next]** to go to the [!UICONTROL Configuration] settings or click **[!UICONTROL Data Export Labels]** to apply export controls to the destination.
 
 ## Data Export Labels {#section_24858C4E36234493ABF33DF39501C1E9}
 
 This section contains options that apply [data export controls](../../c-features/data-export-controls.md#concept_155AAFBA7D804467B6F8279D26C9D05C) to a URL destination. Skip this step if you do not use data export controls. To complete this section:
 
-1. Click **[!UICONTROL Data Export Labels]** to expose the controls. 
-1. Select a label that corresponds to the data export control applied to the destination (see [Add Export Labels to a Destination](../../c-features/destinations/manage-destinations.md#task_A4BA30472E6F4687AC3F1B33F51909D9) for details). 
+1. Click **[!UICONTROL Data Export Labels]** to expose the controls.
+1. Select a label that corresponds to the data export control applied to the destination (see [Add Export Labels to a Destination](../../c-features/destinations/manage-destinations.md#task_A4BA30472E6F4687AC3F1B33F51909D9) for details).
 1. Click **[!UICONTROL Save]**.
 
 ## Configuration {#section_A8AB50168B674B46BE80771B9BAF37DD}
@@ -223,20 +203,20 @@ This section contains options that let you set a base URL and data delimiters pa
 1. Click **[!UICONTROL Configuration]** to expose the controls. 
 1. *(Optional)* Select the **[!UICONTROL Serialize]** check box.
 
-   This lets you send segments to a destination sequentially rather than making separate calls for each segment. Serialization helps make data transfers efficient. Selecting this check box exposes the URL and delimiter fields. For more information, see [Standard and Serial Key-Value Pairs](../../c-features/destinations/key-value-pairs.md#concept_4CAA6E54ECFE4291B8626BEBEE98088A). 
+   This lets you send segments to a destination sequentially rather than making separate calls for each segment. Serialization helps make data transfers efficient. Selecting this check box exposes the URL and delimiter fields. For more information, see [Standard and Serial Key-Value Pairs](../../c-features/destinations/key-value-pairs.md#concept_4CAA6E54ECFE4291B8626BEBEE98088A).
 
-1. If you select **[!UICONTROL Serialize]**, then you must also configure the URL and delimiter fields described below. 
+1. If you select **[!UICONTROL Serialize]**, then you must also configure the URL and delimiter fields described below.
 
 <table id="table_6D14A180300B4EFA8324958CFE9854DA"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Field </th> 
-   <th colname="col2" class="entry"> Description </th> 
+   <th colname="col2" class="entry"> Description </th>
   </tr>
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Base URL</span> </p> </td> 
+   <td colname="col1"> <p><span class="uicontrol"> Base URL</span> </p> </td>
    <td colname="col2"> <p>The base part of a standard HTTP URL that does not change. Also, you need to place the <span class="codeph"> %ALIAS% </span><a href="../../c-features/destinations/destination-macros.md#reference_B2F4AE643702440D879EFFE4A3FAAEDB"> placeholder macro</a> in the base URL. </p> <p>Example: <span class="codeph"> https://www.myCompany.com/?%alias%...</span> </p> </td> 
   </tr> 
   <tr> 
@@ -255,15 +235,11 @@ This section contains options that let you set a base URL and data delimiters pa
 This section lets you search for and add segments to your destination. To complete this section:
 
 1. Click **[!UICONTROL Segment Mappings]** to expose the controls. 
-1. In the **[!UICONTROL Search and Add Segments]**box, start typing the name of a segment or click **[!UICONTROL Browse All Segments]** browse a list of available segments. 
-
+1. In the **[!UICONTROL Search and Add Segments]**box, start typing the name of a segment or click **[!UICONTROL Browse All Segments]** browse a list of available segments.
 1. Click **[!UICONTROL Add Selected Segments]** when you find the segment you want to use. Adding a segment opens the [!UICONTROL Edit Mapping] window. 
-
 1. In [!UICONTROL Edit Mapping]:
-
     * **[!UICONTROL Mappings]**: Provide the key-value pairs used by the segment. 
     * **[!UICONTROL Start Date]** and **[!UICONTROL End Date]**: Choose a start and end date for the destination. If the end date is blank, the destination never expires.
-
 1. Click **[!UICONTROL Done]**.
 
 ## Optional Settings for Cookie Destinations {#concept_DEF2E47F31D44BDA936BBB45EA5B136D}
@@ -273,10 +249,8 @@ In [!UICONTROL Destination Builder], the [!UICONTROL Configuration section] cont
 ## Cookie Domain: Syntax and Examples {#section_FBCBE71119364EDCB7BDA5969BEB5845}
 
 <!-- 
-
 cookie-destination-options.xml
-
- -->
+-->
 
 <table id="table_4F4F7562AFEE49F8917AAE5712B5CCE4"> 
  <thead> 
@@ -364,29 +338,20 @@ The [!UICONTROL Publish Data To] settings return a cookie if the domain meets th
 You can only add or edit segments for a server-to-server (s2s) destination. You cannot create s2s destinations with [!UICONTROL Destination Builder]. Contact your consultant to set up s2s destinations. Follow these instructions to add or edit segments for a s2s destination.
 
 <!-- 
-
 destination-s2s-edit.xml
-
  -->
 
 To add or edit segment mappings for an s2s destination: 
 
 1. Go to **[!UICONTROL Audience Data > Destinations]** and find the s2s destination you want to work with.
 2. In the [!UICONTROL Action] column, click the pencil icon to edit the destination.
-
-   Step Result 1. In the **[!UICONTROL Search and Add Segments]** box, start typing the name of a segment or click **[!UICONTROL Browse All Segments]** browse a list of available segments.
-
-   Step Result 1. Click **[!UICONTROL Add Selected Segments]** when you find the segment you want to use. Adding a segment opens the [!UICONTROL Edit Mapping] window.
-
-   Step Result 1. In [!UICONTROL Edit Mapping]:
-
-    * **[!UICONTROL Mappings]**: Set a value for the [key-value pair](../../c-features/destinations/key-value-pairs.md#concept_4CAA6E54ECFE4291B8626BEBEE98088A) used by this destination. 
-    
-    * **[!UICONTROL Start Date]** and **[!UICONTROL End Date]**: Choose a start and end date for the destination. If the end date is blank, the destination never expires.
-
+   
+   * In the **[!UICONTROL Search and Add Segments]** box, start typing the name of a segment or click **[!UICONTROL Browse All Segments]** browse a list of available segments.
+   * Click **[!UICONTROL Add Selected Segments]** when you find the segment you want to use. Adding a segment opens the [!UICONTROL Edit Mapping] window.
+   * In [!UICONTROL Edit Mapping]:
+        * **[!UICONTROL Mappings]**: Set a value for the [key-value pair](../../c-features/destinations/key-value-pairs.md#concept_4CAA6E54ECFE4291B8626BEBEE98088A) used by this destination.
+        * **[!UICONTROL Start Date]** and **[!UICONTROL End Date]**: Choose a start and end date for the destination. If the end date is blank, the destination never expires.
 3. Click **[!UICONTROL Save]** and then click **[!UICONTROL Done]**.
-
-Step Result 
 
 ## Add Data Export Labels to a Destination {#task_A4BA30472E6F4687AC3F1B33F51909D9}
 
@@ -397,31 +362,28 @@ Step Result
 >To add an export label, you need administrator permissions *or* sufficient privileges to create or edit a destination.
 
 <!-- 
-
 t_export_labels.xml
+-->
 
- -->
-
-To add export labels to a destination: 
+To add export labels to a destination:
 
 1. Click **[!UICONTROL Audience Data]**:
 
-    * For new destinations: Click **[!UICONTROL Create New Destination]**. Complete the [!UICONTROL Basic Information] section before you select a data export label. See [Create a Cookie Destination](../../c-features/destinations/manage-destinations.md#concept_2462AA1321984293A92CB174C41B3496) or [Create a URL Destination](../../c-features/destinations/manage-destinations.md#concept_51842672DFA943EA982B363E74D42DF8) for information. 
-    
+    * For new destinations: Click **[!UICONTROL Create New Destination]**. Complete the [!UICONTROL Basic Information] section before you select a data export label. See [Create a Cookie Destination](../../c-features/destinations/manage-destinations.md#concept_2462AA1321984293A92CB174C41B3496) or [Create a URL Destination](../../c-features/destinations/manage-destinations.md#concept_51842672DFA943EA982B363E74D42DF8) for information.
     * For existing destinations: Use the [!DNL Search] box to find your destination or scroll through the list and click on the destination name to open it.
 
-1. Select a [!DNL Data Export Label]. Leave the check boxes blank if you don't want to set any export restrictions. Export labels include the following options:
+2. Select a [!DNL Data Export Label]. Leave the check boxes blank if you don't want to set any export restrictions. Export labels include the following options:
 
-    * **[!UICONTROL This destination may enable a combination with personally identifiable information (PII)]** 
-    * **[!UICONTROL This destination may be used for on-site ad targeting]** 
-    * **[!UICONTROL This destination may be used for for off-site ad targeting]** 
-    * **[!UICONTROL This destination may be used for for on-site ad personalization]**
+    * **[!UICONTROL This destination may enable a combination with personally identifiable information (PII)]**
+    * **[!UICONTROL This destination may be used for on-site ad targeting]**
+    * **[!UICONTROL This destination may be used for for off-site ad targeting]**
+    * **[!UICONTROL This destination may be used for for on-site ad personalization**
 
    >[!IMPORTANT]
    >
    >Export restrictions will not work unless you set a [matching export control](../../c-features/data-export-controls.md#concept_155AAFBA7D804467B6F8279D26C9D05C) on a data source.
 
-1. Click **[!UICONTROL Save]**.
+3. Click **[!UICONTROL Save]**.
 
 >[!MORE_LIKE_THIS]
 >

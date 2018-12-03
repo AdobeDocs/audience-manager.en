@@ -47,4 +47,4 @@ Due to the large amount of data that Audience Manager processes on a daily basis
 
 ## Related Concepts
 
-[Signals, Traits, and Segments](https://marketing.adobe.com/resources/help/en_US/aam/c_signal_trait_segment.html) 
+[Signals, Traits, and Segments](https://marketing.adobe.com/resources/help/en_US/aam/c_signal_trait_segment.html)

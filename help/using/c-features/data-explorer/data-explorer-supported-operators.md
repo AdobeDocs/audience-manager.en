@@ -37,8 +37,4 @@ Use the following supported logical operators to search for key-value pairs:
 
 ## Supported Operators for Trait Backfilling and Estimation {#section_93A79D83DE3F44FDA37E9707625DBDAF}
 
-You can backfill traits that include expressions containing any of the operators supported by [!UICONTROL Signal Search]. In addition to these operators, trait backfilling and estimation also support the [!UICONTROL AND], [!UICONTROL OR], and [!UICONTROL AND NOT] logical operators, used to combine key-value pairs within the backfilled trait expressions. 
-
->[!MORE_LIKE_THIS]
->
->* Link
+You can backfill traits that include expressions containing any of the operators supported by [!UICONTROL Signal Search]. In addition to these operators, trait backfilling and estimation also support the [!UICONTROL AND], [!UICONTROL OR], and [!UICONTROL AND NOT] logical operators, used to combine key-value pairs within the backfilled trait expressions.

@@ -48,23 +48,18 @@ To create a data feed:
 
    >[!NOTE]
    >
-   >
-   >
-   >
    >* Saved and activated data feeds cannot be deleted. 
-   >* Buyers see active feeds only. 
-   >
-   >
+   >* Buyers see active feeds only.
 
 **Optional: Create a Private Data Feed**
 
 In the [!UICONTROL Settings] section, move the slider to:
 
-* **[!UICONTROL Private]** and **[!UICONTROL Branded]**: The buyer's [!UICONTROL Marketplace] list shows the seller's name in the provider column and all other data is hidden. 
+* **[!UICONTROL Private]** and **[!UICONTROL Branded]**: The buyer's [!UICONTROL Marketplace] list shows the seller's name in the provider column and all other data is hidden.
 
 * **[!UICONTROL Private]** and **[!UICONTROL Unbranded]**: The buyer's [!UICONTROL Marketplace] list shows the data feed name and description only. The data provider name appears as "Private Seller."
 
-To see what a private feed looks like to buyers, see the buyers section in [Private Data Feeds](../../../c-features/audience-marketplace/marketplace-private-feeds.md#concept_68EDE94B558C4B88BBCC994B67726FD2). 
+To see what a private feed looks like to buyers, see the buyers section in [Private Data Feeds](../../../c-features/audience-marketplace/marketplace-private-feeds.md#concept_68EDE94B558C4B88BBCC994B67726FD2).
 
 >[!MORE_LIKE_THIS]
 >
@@ -88,7 +83,7 @@ To revoke a subscriber:
    >
    >Data feeds with overdue accounts are flagged with a triangle/exclamation mark icon.
 
-1. In the [!UICONTROL Subscribers] column, click the blue number that counts subscribers for that feed.
+2. In the [!UICONTROL Subscribers] column, click the blue number that counts subscribers for that feed.
 
    This opens the subscription details page. 1. Move the **[!UICONTROL Subscription]** slider to **[!UICONTROL Off]**.
 
@@ -146,7 +141,7 @@ A **[!UICONTROL Modeling]** use case creates a plan that lets buyers compare you
 
 An **[!UICONTROL Activation]** use case lets buyers send data to a [destination](../../../c-features/destinations/destinations.md#concept_5BDA346C376C4B719EA394108AB2735A). With this use case, buyers cannot compare data with an overlap report or in an algorithmic model. Price this use case as follows:
 
-* Unit of Measure: CPM 
+* Unit of Measure: CPM
 * Price: CPM market rate
 
 ## Billing and Price Options {#section_FAD9EDF933A248D4B762DA1C5D4BF2EF}
@@ -171,11 +166,11 @@ The billing and price options control how buyers pay for your data.
     <ul id="ul_D5F125E0F7364C568D9F3107E090059D"> 
      <li id="li_A79F47FFC1DC4B9DADC014621A9C12A1"> With CPM pricing, data buyers are required to self-report usage. </li> 
      <li id="li_DFED3194854A492F9DD0E7BA1A655E96">Wit flat fee pricing, data buyers do not report usage because they're charged a fixed rate. </li> 
-    </ul> </td> 
+    </ul> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <span class="uicontrol"> Price</span> </td> 
-   <td colname="col2"> The amount a seller charges the buyer as CPM rate or flat fee price, in dollars. </td> 
+   <td colname="col2"> The amount a seller charges the buyer as CPM rate or flat fee price, in dollars. </td>
   </tr> 
  </tbody> 
 </table>
@@ -190,15 +185,11 @@ Provider workflows for managing private feed requests from buyers.
 
 To review, approve, or reject buyer requests, go to [!UICONTROL My Shared Data] and:
 
-<!-- 
+<!-- t_private_feed_workflows.xml -->
 
-t_private_feed_workflows.xml
-
- -->
-
-1. Click the name of the private data feed. 
-1. Click **[!UICONTROL Access Requests]** to review all the buyers who want access to your data feed. 
-1. In the [!UICONTROL Allow Access] section of each request box, click the check mark to approve a request or the X to deny access. 
+1. Click the name of the private data feed.
+1. Click **[!UICONTROL Access Requests]** to review all the buyers who want access to your data feed.
+1. In the [!UICONTROL Allow Access] section of each request box, click the check mark to approve a request or the X to deny access.
 1. Confirm or cancel your selected action in the confirmation pop up.
 
 >[!MORE_LIKE_THIS]
@@ -211,15 +202,11 @@ In [!UICONTROL Audience Marketplace], discounts let you reduce the published pri
 
 ## Apply Discounts to a Data Feed {#section_78B92438EF424B328A4A339236F76D6A}
 
-<!-- 
-
-marketplace-seller-discounts.xml
-
- -->
+<!-- marketplace-seller-discounts.xml -->
 
 To discount a feed, add a discount amount as a % to the discount field and confirm your changes. Data providers can discount a data feeds in [!UICONTROL Audience Marketplace] from either:
 
-* **[!UICONTROL My Shared Data > Potential Subscribers]** 
+* **[!UICONTROL My Shared Data > Potential Subscribers]**
 * **[!UICONTROL My Shared Data > Details Requests]**
 
 In these examples, the seller has added 10% discount to the Software Audience data feed.
@@ -233,4 +220,3 @@ In these examples, the seller has added 10% discount to the Software Audience da
 Data providers can see all of their subscribers and discounted feeds in **[!UICONTROL Audience Marketplace > My Shared Data > Current Subscribers]**.
 
 ![](assets/subscribers.png)
-

@@ -15,9 +15,7 @@ snippet: y
 
 The test group reporting section returns information on test group conversions, allowing an easy comparison of test segment efficacy. Numerous filters and dimensions are available for data visualization.
 
-
-
-[!UICONTROL Audience Lab] returns detailed reporting information for the test segments you created and allows you to save the reporting data as CSV files. You can select between **[!UICONTROL Aggregate Reporting]** and **[!UICONTROL Trend Reporting]**. **[!UICONTROL]**
+[!UICONTROL Audience Lab] returns detailed reporting information for the test segments you created and allows you to save the reporting data as CSV files. You can select between **[!UICONTROL Aggregate Reporting]** and **[!UICONTROL Trend Reporting]**.
 
 **[!UICONTROL Aggregate Reporting]** returns the absolute numbers for your test segments. **[!UICONTROL Trend Reporting]** returns a graph of the trend *over a specific period*. Four tabs enable you to customize the reports:
 
@@ -53,16 +51,12 @@ You can select a specific conversion trait for which to generate the report or y
 >[!NOTE]
 >
 >* Reporting for a test group will populate the day after its start date. 
->* A conversion is only counted for a device after the start date of a test and after the device has been added to a test segment. If a conversion happens for that device before it is assigned a test group, the conversion will not be counted. 
->
+>* A conversion is only counted for a device after the start date of a test and after the device has been added to a test segment. If a conversion happens for that device before it is assigned a test group, the conversion will not be counted.
 
 A returned **[!UICONTROL Aggregate Reporting]** chart could look like this:
 
 ![](assets/aggregate-reporting.PNG)
 
-
-
 A returned **[!UICONTROL Trend Reporting]** chart could look like the one below. Select **[!UICONTROL Normalized]** in the check box if you want to ignore the absolute numbers and simply focus on the test segments trends.
 
 ![](assets/trend-reporting.PNG)
-

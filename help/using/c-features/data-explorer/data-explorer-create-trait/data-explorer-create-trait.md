@@ -9,7 +9,6 @@ internal: n
 snippet: y
 ---
 
-# Create Traits from Signals{#create-traits-from-signals}
+# Create Traits from Signals {#create-traits-from-signals}
 
 Create new traits from all signals, including those that are already used in traits, and capture future audiences that qualify after trait creation.
-

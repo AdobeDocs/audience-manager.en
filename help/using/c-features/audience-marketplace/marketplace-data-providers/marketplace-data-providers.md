@@ -20,42 +20,34 @@ Overview and workflow for data providers who want to sell data from within Audie
 
 Overview and workflow for data providers who want to sell data from within [!DNL Audience Manager].
 
-<!-- 
-
-c_marketplace_provider.xml
-
- -->
+<!-- c_marketplace_provider.xml -->
 
 >[!NOTE]
 >
->[Role-based permissions](../../../reporting/reports-dashboard.md#concept_1F19F03D45164D2391F80A083410DC2E) control access to [!UICONTROL Audience Marketplace] features. >
->* Administrators can create data feeds, manage subscribers, and subscribe to data feeds. 
->* Users can search and view feeds only. 
+>[Role-based permissions](../../../reporting/reports-dashboard.md#concept_1F19F03D45164D2391F80A083410DC2E) control access to [!UICONTROL Audience Marketplace] features.
 >
+>* Administrators can create data feeds, manage subscribers, and subscribe to data feeds.
+>* Users can search and view feeds only.
 
 ## My Shared Data: About {#concept_AA5C5992C0CA40E498AE9D8FA789F00A}
 
-[!UICONTROL My Shared Data] is an [!UICONTROL Audience Marketplace] feature for data providers (sellers). As a provider, it lets you bundle traits into data feeds and sell them for a flat fee or CPM rate to buyers from within [!DNL Audience Manager]. When activated, buyers can subscribe to a feed with a few mouse clicks. Furthermore, simple reporting tools track revenue and manage subscribers. Finally, with [!UICONTROL Audience Marketplace], [!DNL Adobe] takes care of invoice, billing, and fee payments for you. These features let you concentrate on building the effective and profitable data feeds that buyers want. 
+[!UICONTROL My Shared Data] is an [!UICONTROL Audience Marketplace] feature for data providers (sellers). As a provider, it lets you bundle traits into data feeds and sell them for a flat fee or CPM rate to buyers from within [!DNL Audience Manager]. When activated, buyers can subscribe to a feed with a few mouse clicks. Furthermore, simple reporting tools track revenue and manage subscribers. Finally, with [!UICONTROL Audience Marketplace], [!DNL Adobe] takes care of invoice, billing, and fee payments for you. These features let you concentrate on building the effective and profitable data feeds that buyers want.
 
 ![](assets/seller_marketplace.png)
 
-<!-- 
-
-c_myshared_data.xml
-
- -->
+<!-- c_myshared_data.xml -->
 
 Features include:
 
-* **Search:** A search fields helps you find data feeds by name or text descriptions. 
-* **Name:** The name of your data feed. You can hide this from buyers with a private, unbranded data feed. 
-* **Description:** Tell buyers about the contents of your data feed. 
-* **Traits:** The number of traits in each data feed. You can hide this from buyers with a private data feed. 
-* **Last 30 Day Uniques:** The number of unique users seen in the last 30 days. You can hide this from buyers with a private data feed. 
-* **Last Month's Total Fees:** The amount subscribed data buyers owe you. The reporting period ends on the 10th of each month. Overdue accounts get flagged with the triangle/exclamation mark icon. You can [deactivate a subscriber's data feed](../../../c-features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#task_AC7B88F06D1149C39D895C9DFC197F2C) if they misuse your data or if their account is overdue. 
+* **Search:** A search fields helps you find data feeds by name or text descriptions.
+* **Name:** The name of your data feed. You can hide this from buyers with a private, unbranded data feed.
+* **Description:** Tell buyers about the contents of your data feed.
+* **Traits:** The number of traits in each data feed. You can hide this from buyers with a private data feed.
+* **Last 30 Day Uniques:** The number of unique users seen in the last 30 days. You can hide this from buyers with a private data feed.
+* **Last Month's Total Fees:** The amount subscribed data buyers owe you. The reporting period ends on the 10th of each month. Overdue accounts get flagged with the triangle/exclamation mark icon. You can [deactivate a subscriber's data feed](../../../c-features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#task_AC7B88F06D1149C39D895C9DFC197F2C) if they misuse your data or if their account is overdue.
 
 * **Status:**  Shows if a feed is active, inactive, private, or public. 
-* **Subscribers:** Shows how many buyers are using a data feed. Click the number in this column to see a buyer's company name, subscriptions, billing, and subscription status. 
+* **Subscribers:** Shows how many buyers are using a data feed. Click the number in this column to see a buyer's company name, subscriptions, billing, and subscription status.
 * **Requests:** The number of access requests for a data feed.
 
 ## Private Data Feeds {#section_68F9552190694F6193632A6250B199FC}

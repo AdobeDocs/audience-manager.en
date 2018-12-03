@@ -9,7 +9,6 @@ internal: n
 snippet: y
 ---
 
-# Signals Search{#signals-search}
+# Signals Search {#signals-search}
 
 Search for used and unused signals received over specific periods of time. To search for signals, go to Audience Data > Signals > Search.
-

@@ -14,11 +14,7 @@ snippet: y
 
 A private data feed is an option that lets providers limit buyer access to their data. Data providers and buyers should review this information before creating and subscribing to private data feeds.
 
-<!-- 
-
-c_marketplace_privatefeed.xml
-
- -->
+<!-- c_marketplace_privatefeed.xml -->
 
 Contents:
 
@@ -119,4 +115,4 @@ The table describes how these different feed types show or hide data.
 
 **Next Steps**
 
-See [Subscribe to a Private Data Feed](../../c-features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#task_201526273485445EB6DB0FAD196259C5) to request access. 
+See [Subscribe to a Private Data Feed](../../c-features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#task_201526273485445EB6DB0FAD196259C5) to request access.

@@ -10,7 +10,7 @@ internal: n
 snippet: y
 ---
 
-# Create Algorithmic Traits{#create-algorithmic-traits}
+# Create Algorithmic Traits {#create-algorithmic-traits}
 
 Describes set up steps and features unique to the algorithmic trait creation process.
 
@@ -18,36 +18,33 @@ Describes set up steps and features unique to the algorithmic trait creation pro
 
 Describes set up steps and features unique to the algorithmic trait creation process.
 
-<!-- 
-
+<!--
 c_tb_algo_traits.xml
-
- -->
+-->
 
 ## Create an Algorithmic Trait {#task_E9A3F46A50C14450AE263775EECA0353}
 
 Describes the required and optional steps that let you create an algorithmic trait.
 
 <!-- 
-
 t_algo_trait_build.xml
+-->
 
- -->
-
-To create an algorithmic trait, go to [!UICONTROL Traits] and follow the steps below: 
+To create an algorithmic trait, go to [!UICONTROL Traits] and follow the steps below:
 
 1. Click **[!UICONTROL Create New Trait]** and select **[!UICONTROL Algorithmic]** from the drop down menu.
 1. In the [Basic Information](../../c-features/traits/create-onboarded-rule-based-traits.md) section
 
-    * Name the trait. 
-    * Select a data source. 
+    * Name the trait.
+    * Select a data source.
     * Choose a storage folder.
 
 1. Expand the [!UICONTROL Configuration] pane and click **[!UICONTROL Browse All Models]**.
+   This opens a new window that lets you select the model you want to use with the trait.
 
-   This opens a new window that lets you select the model you want to use with the trait. 1. Select a model and click **[!UICONTROL Add Selected Model to Trait]**.
-
-   Adding the model exposes the reach and accuracy settings. 1. Select reach or accuracy as your goal and choose a value from the respective drop down menus. Click **[!UICONTROL Save]** when done.
+1. Select a model and click **[!UICONTROL Add Selected Model to Trait]**.
+   Adding the model exposes the reach and accuracy settings.
+1. Select reach or accuracy as your goal and choose a value from the respective drop down menus. Click **[!UICONTROL Save]** when done.
 
 >[!MORE_LIKE_THIS]
 >

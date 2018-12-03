@@ -20,8 +20,7 @@ Talk to your [!DNL Audience Manager] sales specialist to get started. They can a
 
 >[!NOTE]
 >
->User roles control what you can and cannot do in [!UICONTROL Audience Marketplace]. >
->* Administrators can create data feeds, manage subscribers, and subscribe to data feeds. 
->* Users can search and view feeds only. 
+>User roles control what you can and cannot do in [!UICONTROL Audience Marketplace].
 >
-
+> * Administrators can create data feeds, manage subscribers, and subscribe to data feeds.
+> * Users can search and view feeds only.
