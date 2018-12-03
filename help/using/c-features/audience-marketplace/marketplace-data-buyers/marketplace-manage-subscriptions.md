@@ -19,11 +19,9 @@ The Marketplace is where data buyers go to research and subscribe to public and 
 
 The [!UICONTROL Marketplace] is where data buyers go to research and subscribe to public and private data feeds. Follow these steps to subscribe to a public data feed.
 
-<!-- 
-
+<!--
 t_subscribe_feed.xml
-
- -->
+-->
 
 To subscribe to a public data feed: 
 
@@ -36,17 +34,14 @@ To subscribe to a public data feed:
    ![](assets/subscribe2.png)
 
 1. Choose a use case from the subscriptions table and:
-
-    * Move the **[!UICONTROL Subscription]** slider to **[!UICONTROL On]**. 
-    
+    * Move the **[!UICONTROL Subscription]** slider to **[!UICONTROL On]**.
     * Click **[!UICONTROL Review & Subscribe]**. This opens the [!UICONTROL Terms and Conditions] window.
 
    ![](assets/subscribe3.png)
 
 1. In the [!UICONTROL Terms and Conditions] window:
 
-    * **Important:** Leave the **[!UICONTROL ID sync]** check box checked. This setting helps improve match rates with your data provider. 
-    
+    * **Important:** Leave the **[!UICONTROL ID sync]** check box checked. This setting helps improve match rates with your data provider.
     * Check the terms and conditions box and click **[!UICONTROL Accept]** to complete the subscription process.
 
    ![](assets/subscribe4.png)
@@ -55,7 +50,7 @@ To subscribe to a public data feed:
 
 After you subscribe to a data feed:
 
-* Verify the subscription by checking your [!UICONTROL Traits] folder. See [Storage for Subscribed Data Feeds](../../../c-features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#concept_49FA1D5234784B4A8C5C0D49164714DC). 
+* Verify the subscription by checking your [!UICONTROL Traits] folder. See [Storage for Subscribed Data Feeds](../../../c-features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#concept_49FA1D5234784B4A8C5C0D49164714DC).
 
 * Review the billing and payment documentation. See the related links below.
 
@@ -69,25 +64,22 @@ After you subscribe to a data feed:
 
 Buyers subscribe to private data feeds and plans in **[!UICONTROL Audience Marketplace > Marketplace]**.
 
-<!-- 
-
+<!--
 t_private_feed.xml
-
- -->
+-->
 
 >[!TIP]
 >
 >Sometimes data providers may offer a discount on a private data feed. You might want to ask about a possible discount when submitting your subscription request.
 
-To subscribe to a private data feed: 
+To subscribe to a private data feed:
 
 1. Click the data feed name in the [!UICONTROL Marketplace].
 1. Click **[!UICONTROL Request Access]**.
 
    This opens the request dialog box. 1. In the request dialog box, write the provider a note expressing your interest in their data feed and click **[!UICONTROL Send]**. The seller will review your message and approve or reject your request. While waiting for approval, "Requested" appears in the [!UICONTROL Marketplace] list for that data feed.
 
-    * **Request approved**: The status in the [!UICONTROL Marketplace] list changes to "Access Granted" and you'll receive an automated notification. At this point you can subscribe to the feed. See [Subscribe to a Public Data Feed](../../../c-features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#task_F0E25DBC6326475497D5A086EF9B3182) for instructions. 
-    
+    * **Request approved**: The status in the [!UICONTROL Marketplace] list changes to "Access Granted" and you'll receive an automated notification. At this point you can subscribe to the feed. See [Subscribe to a Public Data Feed](../../../c-features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#task_F0E25DBC6326475497D5A086EF9B3182) for instructions.
     * **Request denied**: The "Requested" text is removed from the [!UICONTROL Marketplace] list for the feed. You can try to subscribe again or choose a different feed.
 
 >[!MORE_LIKE_THIS]
@@ -126,7 +118,7 @@ marketplace-buyer-discounts.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>New Private Data Feed Subscribers</b> </p> </td> 
-   <td colname="col2"> <p>Ask for a discount in your subscription request. See <a href="../../../c-features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#task_201526273485445EB6DB0FAD196259C5"> Subscribe to a Private Data Feed</a>. </p> </td> 
+   <td colname="col2"> <p>Ask for a discount in your subscription request. See <a href="../../../c-features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#task_201526273485445EB6DB0FAD196259C5"> Subscribe to a Private Data Feed</a>. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Potential Subscribers</b> </p> </td> 
@@ -163,11 +155,9 @@ In the example, the buyer gets a 10% discount on the [!UICONTROL Segments and Ov
 
 The data (traits) for your data feeds appears in their own trait storage folders. Go to **[!UICONTROL Audience Data > Traits]** and expand the **[!UICONTROL 3rd-Party Data]** folder to view and work with the traits in your subscribed feeds. Look for the sub-folder named after your data provider. Those contain folders named after the individual data feed and list traits provided by the feed.
 
-<!-- 
-
+<!--
 marketplace-feed-storage.xml
-
- -->
+-->
 
 ![](assets/subscribe5.png)
 
@@ -179,11 +169,9 @@ marketplace-feed-storage.xml
 
 Data buyers unsubscribe from data feeds and plans in **[!UICONTROL Audience Marketplace > Marketplace]. **
 
-<!-- 
-
+<!--
 t_unsubscribe_feed.xml
-
- -->
+-->
 
 To unsubscribe from a data feed: 
 
@@ -196,11 +184,9 @@ In [!UICONTROL Audience Marketplace], data providers can revoke access to your s
 
 ## Common Reasons for Data Feed Deactivation {#section_D35C33B3D1AE467FBC22AFB7B1982EB9}
 
-<!-- 
-
+<!--
 marketplace-subscriber-deactivated.xml
-
- -->
+-->
 
 It may be puzzling or even upsetting if a feed you subscribe to is shut off. However, data providers can deactivate a data feed for a variety of reasons. Some common reasons include:
 
@@ -217,7 +203,7 @@ It may be puzzling or even upsetting if a feed you subscribe to is shut off. How
 
 When a data provider deactivates one of your data feeds, [!DNL Audience Manager] sends an email to the users in your company who have Administrator permissions. Sometimes email filters classify this message as spam. As a result, you may miss this important notification. To help you identify the deactivation message, this email contains the following elements:
 
-* **From:** The deactivation email comes from `aam-noreply@adobe.com`. Pro-tip: Don't reply to this email. 
+* **From:** The deactivation email comes from `aam-noreply@adobe.com`. Pro-tip: Don't reply to this email.
 
 * **Subject line:** Subscription to *name of data feed here* is Cancelled. 
 
@@ -354,11 +340,9 @@ As an [!UICONTROL Audience Marketplace] data buyer, you can purchase data for ov
 
 ## Make Comparisons with Segments and Overlap Plans {#section_162755B0AF3E4604BF579920D364ECD9}
 
-<!-- 
-
+<!--
 c_use_cases_for_buyers.xml
-
- -->
+-->
 
 **Segments and Overlap**
 

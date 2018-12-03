@@ -21,20 +21,16 @@ Build and manage the traits or segments used in algorithmic modeling, also refer
 Build and manage the traits or segments used in algorithmic modeling, also referred to as look-alike modeling. Model features are located in Audience Data > Models.
 
 <!-- 
-
 c_models.xml
-
- -->
+-->
 
 ## Understanding Algorithmic Models {#concept_441E566718B845929880B0823A9ECA9F}
 
 A review of algorithmic modeling in [!DNL Audience Manager]. Describes how modeling works, benefits, and workflow.
 
-<!-- 
-
+<!--
 understanding-models.xml
-
- -->
+-->
 
 ## Find New Users with Algorithmic Modeling {#section_0243382004524AD1B1EEFB2D9F19E49E}
 
@@ -73,11 +69,9 @@ We deactivate any algorithmic model that fails to generate data for three consec
 
 [!UICONTROL TraitWeight] is a proprietary algorithm designed to discover new traits automatically. It compares trait data from your current traits and segments against all other first and third-party data that you have access to through [!DNL Audience Manager]. Refer to this section for a description of the [!UICONTROL TraitWeight] algorithmic discovery process.
 
-<!-- 
-
+<!--
 traitweight.xml
-
- -->
+-->
 
 ![](assets/algo_model.png)
 
@@ -116,11 +110,9 @@ Periodically, TraitWeight re-evaluates the importance of a trait based on the si
 
 Creation and update schedules for new or existing algorithmic models and traits.
 
-<!-- 
-
+<!--
 c_model_update_schedule.xml
-
- -->
+-->
 
 **Algorithmic Model Creation and Update Schedule**
 
@@ -145,10 +137,10 @@ c_model_update_schedule.xml
    <td colname="col2"> <p>Under ideal conditions, existing models run on weekdays, at least once every 7 days. For example, if you create a model (by the deadline) on Monday, it updates the following Monday at the latest. </p> <p>A model will rerun if it meets any of the following conditions: </p> <p> 
      <ul id="ul_7B0442F6E840415B82705C7B7419D079"> 
       <li id="li_27DCB92CE61F4388B5D253C13BD030BE">Its last run was not successful. </li> 
-      <li id="li_9887E50D291446AC868A8FCE6295536E">It has run successfully before AND it has not run at all in the past 7 days AND the model has at least one active trait attached to it. </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
+      <li id="li_9887E50D291446AC868A8FCE6295536E">It has run successfully before AND it has not run at all in the past 7 days AND the model has at least one active trait attached to it. </li>
+     </ul> </p> </td>
+  </tr>
+ </tbody>
 </table>
 
 **Algorithmic Trait Creation and Update Schedule**

@@ -79,4 +79,3 @@ After completing the previous steps, you can use a `GET` method to retrieve segm
 placeholder to insert space
 
  -->
-

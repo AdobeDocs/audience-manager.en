@@ -45,10 +45,8 @@ You can create a new storage folder in the [!UICONTROL Basic Information] sectio
 **To create a new storage folder** 
 
 1. In the [!UICONTROL Trait Storage] window, hover over:
-
-* "All Traits" text to add a new root level folder. 
-* An existing parent folder to add a new subordinate folder.
-
+    * "All Traits" text to add a new root level folder.
+    * An existing parent folder to add a new subordinate folder.
 1. Click the + icon to create the folder.
 1. Name the folder and click **[!UICONTROL Save]**.
 
@@ -62,7 +60,7 @@ t_tb_rename_delete_storage.xml
 
  -->
 
-You can rename or delete storage folders from the [!UICONTROL Trait Storage] section of the main [!UICONTROL Traits] list dashboard. 
+You can rename or delete storage folders from the [!UICONTROL Trait Storage] section of the main [!UICONTROL Traits] list dashboard.
 
 * Rename a folder by hovering over it and clicking the pencil icon.
 * Delete a folder by hovering over it and clicking the X icon.

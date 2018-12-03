@@ -25,7 +25,7 @@ Instant Cross-Device Suppression is the ability to suppress users across multipl
 
 [!UICONTROL Instant Cross-Device Suppression] delivers two key use cases: improved user experience and media efficiency.
 
-* **An improved user experience**: Users that already purchased your product or service will not see the same creatives as before the purchase. Instead, you could display upselling or cross-selling messages for products or services that you know they have not purchased. 
+* **An improved user experience**: Users that already purchased your product or service will not see the same creatives as before the purchase. Instead, you could display upselling or cross-selling messages for products or services that you know they have not purchased.
 * **Media efficiency**: Optimize your campaign spending by applying a global frequency cap across all DSPs. The frequency cap can be actioned in real-time for multiple devices belonging to a user.
 
 The technical details of the real-time unsegmentation are described in length in [Profile Merge Rules and Device Un-Segmentation Processes](../../c-features/profile-merge-rules/merge-rule-unsegment.md#concept_E683A925C0854AF1A63479249734AEB4). Read on for the practical implementation of the use cases described above.
@@ -75,4 +75,3 @@ Keep in mind these aspects related to timing:
 
 * A segment will be stored on the [Edge](../../reference/system-components/components-edge.md#concept_DD36E2B5A23D4CC5A91CA9808B908B8E) for the same time period as a device profile is stored on the [!UICONTROL Edge], namely 14 days since last real-time interaction. Read more about data retention in our [Data Retention FAQ](../../faq/faq-privacy.md#section_20FF2BAAAA504153B36C420A5ECFB458). 
 * It takes approximately 24 hours for the unsegment operation to propagate across [!UICONTROL DCS] regions. Read more about our [!UICONTROL DCS] regions [here](../../reference/system-components/components-data-collection.md#concept_66CFFEBF5E8B41ED94082D562A93506E) and [here](../../c-api/dcs-intro/dcs-api-reference/dcs-regions.md#concept_01C1E017A6694D1EAF9BF65BFFA54091).
-

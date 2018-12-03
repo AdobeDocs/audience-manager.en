@@ -10,7 +10,7 @@ internal: n
 snippet: y
 ---
 
-# Segments: Purpose, Composition, and Rules{#segments-purpose-composition-and-rules}
+# Segments: Purpose, Composition, and Rules {#segments-purpose-composition-and-rules}
 
 Describes segments, their constituent parts, and rule creation with Segment Builder.
 
@@ -18,8 +18,8 @@ Describes segments, their constituent parts, and rule creation with Segment Buil
 
 A *`segment`* (or an *`audience`*) is a set of users who share common attributes. In Audience Manager, you create segments with server-side rules. These rules let you build audience groups based on site visitor attributes such as:
 
-* Behavior. 
-* Demographics (age, gender, income, etc.). 
+* Behavior.
+* Demographics (age, gender, income, etc.).
 * Other characteristics you can define in the user interface.
 
 **Segment Composition**
@@ -38,9 +38,9 @@ Unlike traditional pixels that fire in response to simple yes/no conditions, Seg
 
 Segments improve upon standard pixel-based audience creation/segmentation processes because they let you:
 
-* Build relevant, useful segments with first and third-party traits. 
-* Create sophisticated and complex segmentation rules with Boolean operators, comparison expressions, and recency/frequency criteria. 
-* Send segment data to a destination partner. 
+* Build relevant, useful segments with first and third-party traits.
+* Create sophisticated and complex segmentation rules with Boolean operators, comparison expressions, and recency/frequency criteria.
+* Send segment data to a destination partner.
 * Monitor performance with Audience Manager reports.
 
 >[!MORE_LIKE_THIS]

@@ -9,7 +9,7 @@ internal: n
 snippet: y
 ---
 
-# Important Considerations for Profile Merge Rules with Device Graphs{#important-considerations-for-profile-merge-rules-with-device-graphs}
+# Important Considerations for Profile Merge Rules with Device Graphs {#important-considerations-for-profile-merge-rules-with-device-graphs}
 
 Avoid using Profile Merge Rules with a Device Graph for segments which have little to no real-time segment population.
 
@@ -31,7 +31,6 @@ A low real-time segment population means that very few of the devices qualifying
 
 ![](assets/pmr-considerations-3.png)
 
-Setting the [!UICONTROL Profile Merge Rule] to evaluate the *Current Device* ensures that all devices (not just those seen in real-time) are evaluated for the segment. All devices qualifying for the segment are defined by the total segment population, as shown below. 
+Setting the [!UICONTROL Profile Merge Rule] to evaluate the *Current Device* ensures that all devices (not just those seen in real-time) are evaluated for the segment. All devices qualifying for the segment are defined by the total segment population, as shown below.
 
 ![](assets/pmr-considerations-4.png)
-

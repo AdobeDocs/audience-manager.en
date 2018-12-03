@@ -20,15 +20,15 @@ Contents:
  <li> <a href="../../c-features/profile-merge-rules/external-graph-use-cases.md#section_7C93DAA7927A4203B9617A560CCC1F02"> Recommendations </a> </li> 
  <li> <a href="../../c-features/profile-merge-rules/external-graph-use-cases.md#section_B6877E4AFC194EBDA6153A4719E224E8"> Prospecting/Branding Use Case </a> </li> 
  <li> <a href="../../c-features/profile-merge-rules/external-graph-use-cases.md#section_DDA1F5FC497E47B0BFBF199BA92474F5"> Retargeting or Site Personalization Use Case </a> </li> 
- <li> <a href="../../c-features/profile-merge-rules/external-graph-use-cases.md#section_48CFAB21B82A4C88B0FA2CC69187E2DF"> Profile Merge Rule Options for External Device Graph Use Cases... </a> </li> 
+ <li> <a href="../../c-features/profile-merge-rules/external-graph-use-cases.md#section_48CFAB21B82A4C88B0FA2CC69187E2DF"> Profile Merge Rule Options for External Device Graph Use Cases... </a> </li>
 </ul>
 
 ## Recommendations {#section_7C93DAA7927A4203B9617A560CCC1F02}
 
 Consider the [!DNL Experience Cloud Device Co-op] and third-party device graph options for campaigns that:
 
-* Have a low level of authentication across their digital properties. Use the [Profile Link device graph option](../../c-features/profile-merge-rules/merge-rule-definitions.md#section_E83D68EC2ADA4030B1D0206AE6A6E8BF) if you have a large number of authenticated users. 
-* Target large audiences. The [!DNL Experience Cloud Device Co-op] and third-party device graphs contain authenticated and un-authenticated data. 
+* Have a low level of authentication across their digital properties. Use the [Profile Link device graph option](../../c-features/profile-merge-rules/merge-rule-definitions.md#section_E83D68EC2ADA4030B1D0206AE6A6E8BF) if you have a large number of authenticated users.
+* Target large audiences. The [!DNL Experience Cloud Device Co-op] and third-party device graphs contain authenticated and un-authenticated data.
 * Segment authenticated and/or unauthenticated visitors at the individual and household level.
 
 ![](assets/merge-rule-triangle1.png)
@@ -95,10 +95,10 @@ These strategies are designed to bring an unauthenticated or unknown user back t
      <ul id="ul_301339426B0643B295DC5B17E1939CFB"> 
       <li id="li_7E8BC3B179804F4A929497DE81E76911">Merges the anonymous, unauthenticated activity collected from the current devices and the 3 devices linked by the external device graph (the multiple page views from each device). </li> 
       <li id="li_803EFD58AA124A5BBC8279C4DC695544">Evaluates the unauthenticated user for segment qualification based on a combination of anonymous activity across all 3 devices linked by the external device graph and the current device. </li> 
-      <li id="li_98D749268CC5456CBC9CF3BF5EB91BA8">Sends the segment to any real-time destination to deliver a personalized on-site and/or off-site experience across the current device and all 3 devices linked by the external device graph. </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
+      <li id="li_98D749268CC5456CBC9CF3BF5EB91BA8">Sends the segment to any real-time destination to deliver a personalized on-site and/or off-site experience across the current device and all 3 devices linked by the external device graph. </li>
+     </ul> </p> </td>
+  </tr>
+ </tbody>
 </table>
 
 ## Profile Merge Rule Options for External Device Graph Use Cases {#section_48CFAB21B82A4C88B0FA2CC69187E2DF}
@@ -107,7 +107,7 @@ Your merge rule options for these use cases would look similar to the available 
 
 ![](assets/merge-rules-external.png)
 
-For more information about how these device graph processes work, download our PDF, [Audience Manager and External Device Graphs](https://marketing.adobe.com/resources/help/en_US/aam/downloads/AAM_Device_Graphs.pdf). 
+For more information about how these device graph processes work, download our PDF, [Audience Manager and External Device Graphs](https://marketing.adobe.com/resources/help/en_US/aam/downloads/AAM_Device_Graphs.pdf).
 
 >[!MORE_LIKE_THIS]
 >

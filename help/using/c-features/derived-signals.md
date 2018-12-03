@@ -10,7 +10,7 @@ internal: n
 snippet: y
 ---
 
-# Derived Signals{#derived-signals}
+# Derived Signals {#derived-signals}
 
 A derived signal qualifies site visitors for additional traits based on a trait they've already seen. In other words, additional trait qualification can be derived from a currently exhibited trait even if a user has never seen the new trait before.
 
@@ -18,12 +18,8 @@ A derived signal qualifies site visitors for additional traits based on a trait 
 
 A [!UICONTROL derived signal] qualifies site visitors for additional traits based on a trait they've already seen. In other words, additional trait qualification can be derived from a currently exhibited trait even if a user has never seen the new trait before.
 
-
-
 <!-- 
-
 c_tb_derived_signal.xml
-
  -->
 
 **Purpose of Derived Signals**
@@ -39,22 +35,18 @@ Create and manage [!UICONTROL derived signals] in **[!UICONTROL Tools > Derived 
 ## Create a Derived Signal {#task_5F57826F8EA142C39A91F2FD2332035B}
 
 <!-- 
-
 t_tb_create_derived.xml
-
  -->
 
 **To create a [!UICONTROL derived signal]** 
 
 1. Select **[!UICONTROL Derived Signals]** from the [!UICONTROL Tools] menu.
 1. Provide a:
-
-* *(Optional)* Integration Code 
-* Source Key 
-* Source Value 
-* Target Key 
-* Target Value
-
+    * *(Optional)* Integration Code 
+    * Source Key 
+    * Source Value 
+    * Target Key 
+    * Target Value
 1. Click **[!UICONTROL Add Signal]**.
 
 >[!MORE_LIKE_THIS]
@@ -65,10 +57,8 @@ t_tb_create_derived.xml
 ## Edit a Derived Signal {#task_03A867938CD54F9F9A624C630CCDEC3E}
 
 <!-- 
-
 t_tb_edit_derived.xml
-
- -->
+-->
 
 **To edit a [!UICONTROL derived signal]** 
 
@@ -83,11 +73,7 @@ t_tb_edit_derived.xml
 ## Delete a Derived Signal {#task_956A182EC2A2487EB46A0EABC6768964}
 
 <!-- 
-
 t_tb_delete_derived.xml
+-->
 
- -->
-
-**To delete a [!UICONTROL derived signal]** 
-
-* Hover over the signal, then click **[!UICONTROL Delete]**.
+To delete a [!UICONTROL derived signal], hover over the signal, then click **[!UICONTROL Delete]**.

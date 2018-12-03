@@ -9,13 +9,11 @@ internal: n
 snippet: y
 ---
 
-# Backfill Trait Realizations{#backfill-trait-realizations}
+# Backfill Trait Realizations {#backfill-trait-realizations}
 
 Backfill trait realizations to capture historical audiences and avoid loss of relevant data prior to a trait creation date.
 
-
-
-When you create traits from unused signals, you can choose to backfill the trait realizations over a specific period of time. [!DNL Audience Manager] captures the historical data about audiences that qualify for the new trait and stores them on the corresponding profile. You can see the **[!UICONTROL Backfill Options]** in the [!UICONTROL Trait Expression] section of the ** [Trait Builder](../../c-features/traits/about-trait-builder.md#concept_13D6537EE5D0459F870C58822AD5400A)**.
+When you create traits from unused signals, you can choose to backfill the trait realizations over a specific period of time. [!DNL Audience Manager] captures the historical data about audiences that qualify for the new trait and stores them on the corresponding profile. You can see the **[!UICONTROL Backfill Options]** in the [!UICONTROL Trait Expression] section of the **[Trait Builder](../../c-features/traits/about-trait-builder.md#concept_13D6537EE5D0459F870C58822AD5400A)**.
 
 >[!NOTE]
 >
@@ -23,29 +21,23 @@ When you create traits from unused signals, you can choose to backfill the trait
 
 Here's how to backfill trait realizations:
 
-* Run a [Signals Search](../../c-features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md#concept_B0C0DC44C3EC4CF8926847F9062F0EC0) or use the [Signals Dashboard](../../c-features/data-explorer/data-explorer-signals-dashboard.md#concept_5E4B0FB02D8F4F3DAA5B6F8CF9A4E4C2) to identify the signals to use in the new trait. 
+1. Run a [Signals Search](../../c-features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md#concept_B0C0DC44C3EC4CF8926847F9062F0EC0) or use the [Signals Dashboard](../../c-features/data-explorer/data-explorer-signals-dashboard.md#concept_5E4B0FB02D8F4F3DAA5B6F8CF9A4E4C2) to identify the signals to use in the new trait. 
 
-* Create a new trait based on the desired signals. 
-* Use the **[!UICONTROL Backfill Options]** in the **[!UICONTROL Trait Expression]** section to select the time interval for which you want to backfill trait realizations. Predefined backfill intervals include 1, 7, 14, and 30 days. You can also choose a custom date range of up to 30 days.
-
+1. Create a new trait based on the desired signals. 
+1. Use the **[!UICONTROL Backfill Options]** in the **[!UICONTROL Trait Expression]** section to select the time interval for which you want to backfill trait realizations. Predefined backfill intervals include 1, 7, 14, and 30 days. You can also choose a custom date range of up to 30 days.
   ![](assets/signals-trait-backfill.png)
 
-* (Optional) Click **[!UICONTROL Estimate Realizations]** in the **[!UICONTROL Estimated Trait Realizations]** section to see the estimated [!UICONTROL Unique Trait Realizations] and [!UICONTROL Total Trait Population] values for the backfilled trait over the last 7 days.
-
+1. (Optional) Click **[!UICONTROL Estimate Realizations]** in the **[!UICONTROL Estimated Trait Realizations]** section to see the estimated [!UICONTROL Unique Trait Realizations] and [!UICONTROL Total Trait Population] values for the backfilled trait over the last 7 days.
   ![](assets/estimate-trait-realizations.png)
+    >[!IMPORTANT]
+    >
+    >Trait backfilling and estimation are not available for traits with expressions that use the following operators:
+    >    
+    >    * `!=`
+    >    * `matchesregex`
+    >    * `matcheswords`
 
-  >[!IMPORTANT]
-  >
-  >Trait backfilling and estimation are not available for traits with expressions that use the following operators:   >
-  >    
-  >    
-  >    * `!=` 
-  >    * `matchesregex` 
-  >    * `matcheswords` 
-  >    
-  >
-
-* Create the trait.
+1. Create the trait.
 
 Once you finish creating the trait, you'll see its backfilled realizations included in the realization statistics.
 
@@ -57,7 +49,7 @@ Audience Manager updates the [!UICONTROL Trait Graph] with the backfilled popula
 
 ## Trait Backfilling Limit {#section_3EE78E74377744149CEAD13B27A34FCD}
 
-Data Explorer allows you to backfill up to 50 traits per month, with the backfill counter being reset on the 1 day of each month. 
+Data Explorer allows you to backfill up to 50 traits per month, with the backfill counter being reset on the 1 day of each month.
 
 >[!NOTE]
 >
@@ -67,4 +59,4 @@ Data Explorer allows you to backfill up to 50 traits per month, with the backfil
 
 Backfilled trait realizations are reflected in the [!UICONTROL Unique Trait Realizations] and [!UICONTROL Total Trait Population] metrics, as [!DNL Audience Manager] turns historical signals into trait realizations.
 
-However, the [!UICONTROL Trait Graph], [!UICONTROL General Reports], and [!UICONTROL Trend Reports] are not updated retroactively with historical metrics backfilled before the trait creation date. 
+However, the [!UICONTROL Trait Graph], [!UICONTROL General Reports], and [!UICONTROL Trend Reports] are not updated retroactively with historical metrics backfilled before the trait creation date.

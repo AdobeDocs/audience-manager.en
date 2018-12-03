@@ -10,7 +10,7 @@ internal: n
 snippet: y
 ---
 
-# Standard and Serial Key-Value Pairs{#standard-and-serial-key-value-pairs}
+# Standard and Serial Key-Value Pairs {#standard-and-serial-key-value-pairs}
 
 A key-value pair consists of related elements: A key, which is a constant that defines the data set (e.g., gender, color, price) and a value, which is a variable that belongs to the set (e.g., male/female, green, 100). Destination Builder sends data formatted as key-value pairs.
 
@@ -22,15 +22,15 @@ A key-value pair consists of related elements: A key, which is a constant that d
 
 Fully formed, a basic set of key-value pair could look like these:
 
-* `gender = male` 
-* `color = green` 
+* `gender = male`
+* `color = green`
 * `price > 100`
 
 ## Standard and Serial Key-Value Pairs {#section_5C306C511C654F938790E8D2B3A1DECD}
 
 Destinations accept key-value data in *`standard`* or *`serialized`* format.
 
-* **Standard key-value pairs:** Formats destination data into separate key-value pairs. Each key is stated explicitly, even when used again to define a different value. 
+* **Standard key-value pairs:** Formats destination data into separate key-value pairs. Each key is stated explicitly, even when used again to define a different value.
 * **Serialized key-value pairs:** Condenses multiple values into a single key-value pair. In a serialized key-value pair, a special indicator separates the values within the key-value set.
 
 Both standard and serialized key-values can contain single or multiple values. The following table provides examples of standard and serial key-value formats.
@@ -38,31 +38,31 @@ Both standard and serialized key-values can contain single or multiple values. T
 <table id="table_7895B1E800934117A19A96380F0CF91B"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Formatting </th> 
-   <th colname="col2" class="entry"> Single Key-Value Pairs </th> 
-   <th colname="col3" class="entry"> Multiple Key-Value Pairs </th> 
-  </tr> 
+   <th colname="col1" class="entry"> Formatting </th>
+   <th colname="col2" class="entry"> Single Key-Value Pairs </th>
+   <th colname="col3" class="entry"> Multiple Key-Value Pairs </th>
+  </tr>
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>Standard</b> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> x = 1 &amp; x = 2 </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> x = 1 &amp; x = 2 &amp; y = 3 &amp; y = 4 </span> </p> </td> 
-  </tr> 
+   <td colname="col1"> <p> <b>Standard</b> </p> </td>
+   <td colname="col2"> <p> <span class="codeph"> x = 1 &amp; x = 2 </span> </p> </td>
+   <td colname="col3"> <p> <span class="codeph"> x = 1 &amp; x = 2 &amp; y = 3 &amp; y = 4 </span> </p> </td>
+  </tr>
   <tr> 
    <td colname="col1"> <p> <b>Serialized</b> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> x = 1 ; 2 </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> x = 1 ; 2 &amp; y = 3 ; 4 </span> </p> </td> 
-  </tr> 
- </tbody> 
+   <td colname="col3"> <p> <span class="codeph"> x = 1 ; 2 &amp; y = 3 ; 4 </span> </p> </td>
+  </tr>
+ </tbody>
 </table>
 
 ## Delimiters and Separators {#section_85A700B82CE84233B4CC486C8E5C05C0}
 
 The characters that separate values within and between keys and values are known as *`delimiters`* and *`separators`*. These become particularly important when you send segments to a destination in a serial format. Serialization lets you pass in multiple values with a single key and combine key-value pairs. Delimiters and separators are defined as follows:
 
-* **Key-value separator:** Separates a key and value within a key-value pair. 
-* **Key-value delimiter:** Separates sets of key-value pairs. 
+* **Key-value separator:** Separates a key and value within a key-value pair.
+* **Key-value delimiter:** Separates sets of key-value pairs.
 * **Serial separator:** Separates multiple values within sets of serialized key-value pairs.
 
 ## Examples {#section_50652568A718459DB8FDDC6B6C2581CF}
@@ -130,14 +130,10 @@ With [!UICONTROL Destination Builder] you can format key-value data in several d
 
 A serialized destination combines multiple traits into a single string and sends that information to a destination.
 
-<!-- 
-
-c_dest_serialized.xml
-
- -->
+<!-- c_dest_serialized.xml -->
 
 Serialized data transmission helps improve efficiency because multiple traits fire sequentially, rather than in parallel. This provides the destination server with enough time to receive, process, and return data before responding to additional requests.
 
 **Supported Destinations**
 
-In [!DNL Audience Manager], you can serialize and send data to just about any destination you want to work with. However, before using this feature, you will need to know the destination URL and where to place some required or optional macros. Obtain the information about macro placement from your destination partner. See [Destination Macros Defined](../../c-features/destinations/destination-macros.md#reference_B2F4AE643702440D879EFFE4A3FAAEDB) for more information. 
+In [!DNL Audience Manager], you can serialize and send data to just about any destination you want to work with. However, before using this feature, you will need to know the destination URL and where to place some required or optional macros. Obtain the information about macro placement from your destination partner. See [Destination Macros Defined](../../c-features/destinations/destination-macros.md#reference_B2F4AE643702440D879EFFE4A3FAAEDB) for more information.

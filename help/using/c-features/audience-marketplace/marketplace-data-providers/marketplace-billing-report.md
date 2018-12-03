@@ -19,7 +19,7 @@ Generate an Audience Marketplace billing report to view data feed usage for the 
 
 To download a report:
 
-1. Go to **[!UICONTROL Audience Marketplace > Receivables]**. 
+1. Go to **[!UICONTROL Audience Marketplace > Receivables]**.
 1. Click **[!UICONTROL Generate Billing Report]**.
 
 ## Report Fields Defined {#section_6C0F6F1A98A64D7F83717268DFA87260}
@@ -77,7 +77,7 @@ A billing report contains the following information.
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="uicontrol"> Discounted Price</span> </p> </td> 
-   <td colname="col2"> <p>The subscription fee for a discounted data feed. See <a href="../../../c-features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#concept_A31D926BBA0743BCB7160C7F571930FD"> Discounts for Data Providers</a> . </p> </td> 
+   <td colname="col2"> <p>The subscription fee for a discounted data feed. See <a href="../../../c-features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#concept_A31D926BBA0743BCB7160C7F571930FD"> Discounts for Data Providers</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="uicontrol"> Units</span> </p> </td> 

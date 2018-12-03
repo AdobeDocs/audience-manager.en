@@ -21,8 +21,8 @@ Create mutually exclusive test segments in Segment Test Groups to compare and me
 
 The [!UICONTROL Audience Lab] default view displays a card for each of the test groups. Click a card to access the **[!UICONTROL Test Group]** view. This view includes the following information:
 
-* ** [Test Group Information](../../c-features/audience-lab/audience-lab-information-view.md#concept_C8A8844639CE41E9AE9D6886D829B8E0) ** 
-* ** [Test Group Reporting](../../c-features/audience-lab/audience-lab-reporting-view.md#concept_C8A089E2B1C54D268C4F6475C4D5C9D6) **
+* **[Test Group Information](../../c-features/audience-lab/audience-lab-information-view.md#concept_C8A8844639CE41E9AE9D6886D829B8E0)**
+* **[Test Group Reporting](../../c-features/audience-lab/audience-lab-reporting-view.md#concept_C8A089E2B1C54D268C4F6475C4D5C9D6)**
 
 You are able to create **up to 10 test groups**, each one with **up to 15 test segments**.
 
@@ -32,8 +32,8 @@ You are able to create **up to 10 test groups**, each one with **up to 15 test s
 
 Once you start creating multiple test groups with multiple test segments, it may be easier to use the search box to find a specific test group. You can search for a test group by:
 
-* The name of the test group; 
-* The name of any of the test segments in your test group; 
+* The name of the test group;
+* The name of any of the test segments in your test group;
 * The description of the test group.
 
 ![](assets/search_and_filter_audience_lab.png)

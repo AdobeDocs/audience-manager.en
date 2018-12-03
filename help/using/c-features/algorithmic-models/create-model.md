@@ -12,17 +12,15 @@ internal: n
 snippet: y
 ---
 
-# Create an Algorithmic Model{#create-an-algorithmic-model}
+# Create an Algorithmic Model {#create-an-algorithmic-model}
 
 Describes the required and optional steps that let you create an algorithmic model in Model Builder.
 
 ## Build a Model {#task_71541056B8384EEBB6A3A8B161C71B8A}
 
-<!-- 
-
+<!--
 t_model_build.xml
-
- -->
+-->
 
 **Model Builder Section**
 
@@ -33,35 +31,28 @@ t_model_build.xml
 >* The modeling process runs only once if you create a model and do not build any traits with it. 
 >* Build models from data sources that contain a meaningful amount of information. Models with insufficient data will run, but they will not return results. 
 >* *Do not* create models with other algorithmic traits or segments. 
->* The automated email notification is sent one time only (after the first data run). 
->
+>* The automated email notification is sent one time only (after the first data run).
 
 **Build a Model**
 
-To build a model, go to the [!UICONTROL Models] section and click **[!UICONTROL Add New]** and follow the steps below: 
+To build a model, go to the [!UICONTROL Models] section and click **[!UICONTROL Add New]** and follow the steps below:
 
 1. In the [Basic Information](../../c-features/algorithmic-models/create-model.md#reference_032EEDAE946B491C92BCE61E62AB7369) section
-
-* Name the model. 
-* *(Optional)* Provide a brief description about the model. 
-* Set the status for the model to **[!UICONTROL Active]** or **[!UICONTROL Inactive]**. Inactive models will not run and will not produce any data.
-
+    * Name the model.
+    * *(Optional)* Provide a brief description about the model.
+    * Set the status for the model to **[!UICONTROL Active]** or **[!UICONTROL Inactive]**. Inactive models will not run and will not produce any data.
 1. In the [Configuration](../../c-features/algorithmic-models/create-model.md#reference_E58E9C688E3144BEB2F75BCCDDF80B59) section:
-
-* Click **[!UICONTROL Browse All Traits]** or **[!UICONTROL Browse All Segments]** to select a trait or segment you want to model against. Select an onboarded trait, a rule-based trait, or a segment as baseline. Otherwise, your models will not run. 
-
-* Choose a 30, 60, or 90-day look-back period. This sets a time range for the model. 
-* The [!UICONTROL TraitWeight] algorithm is selected by default. 
-* Select a data source from the [!UICONTROL Available Data] list. 
-* Click **[!UICONTROL Save]** when done.
+    * Click **[!UICONTROL Browse All Traits]** or **[!UICONTROL Browse All Segments]** to select a trait or segment you want to model against. Select an onboarded trait, a rule-based trait, or a segment as baseline. Otherwise, your models will not run.
+    * Choose a 30, 60, or 90-day look-back period. This sets a time range for the model.
+    * The [!UICONTROL TraitWeight] algorithm is selected by default.
+    * Select a data source from the [!UICONTROL Available Data] list.
+    * Click **[!UICONTROL Save]** when done.
 
 ## Basic Information for Algorithmic Models {#reference_032EEDAE946B491C92BCE61E62AB7369}
 
-<!-- 
-
+<!--
 r_model_basic.xml
-
- -->
+-->
 
 In [!UICONTROL Model Builder], the [!UICONTROL Basic Information] settings let you create new or edit existing models. To create a new model, provide a name and move on to the [!UICONTROL Configuration] settings. The description field is optional. 
 
@@ -75,11 +66,9 @@ In [!UICONTROL Model Builder], the [!UICONTROL Basic Information] settings let y
 
 In Model Builder, the [!UICONTROL Configuration] section lets you add traits or segments to the model. In this section, select a baseline trait or segment, a look-back period, and data from your first and third-party data sources.
 
-<!-- 
-
+<!--
 r_model_configuration.xml
-
- -->
+-->
 
 **Prerequisites:** Complete the required fields in the [!UICONTROL Basic Information] section first.
 
@@ -103,17 +92,17 @@ r_model_configuration.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Select Algorithm (3)</b> </p> </td> 
-   <td colname="col2"> <p>At this time, Model Builder works with our proprietary <span class="keyword"> Trait Weight</span> algorithm only. <span class="keyword"> Audience Manager</span> may add other algorithmic functions in subsequent releases. </p> </td> 
-  </tr> 
+   <td colname="col2"> <p>At this time, Model Builder works with our proprietary <span class="keyword"> Trait Weight</span> algorithm only. <span class="keyword"> Audience Manager</span> may add other algorithmic functions in subsequent releases. </p> </td>
+  </tr>
   <tr> 
    <td colname="col1"> <p><b>Select Model Data from Data Source (4)</b> </p> </td> 
-   <td colname="col2"> <p>Lets you select the first and third-party data sources you want to use in the model. </p> </td> 
+   <td colname="col2"> <p>Lets you select the first and third-party data sources you want to use in the model. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Exclusions (5)</b> </p> </td> 
-   <td colname="col2"> <p>You can exclude traits from the data sources you selected for modeling. Use the <span class="wintitle"> Exclusions</span> list and read <a href="../../c-features/algorithmic-models/trait-exclusion-algo-models.md#concept_213A6DC77FCD479AB7FDE62662018F73"> Algorithmic Models: Trait Exclusion</a> to learn more. </p> </td> 
+   <td colname="col2"> <p>You can exclude traits from the data sources you selected for modeling. Use the <span class="wintitle"> Exclusions</span> list and read <a href="../../c-features/algorithmic-models/trait-exclusion-algo-models.md#concept_213A6DC77FCD479AB7FDE62662018F73"> Algorithmic Models: Trait Exclusion</a> to learn more. </p> </td>
   </tr> 
- </tbody> 
+ </tbody>
 </table>
 
 >[!MORE_LIKE_THIS]

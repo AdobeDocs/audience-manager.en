@@ -22,15 +22,14 @@ Optimize signal search efforts by saving up to 10 sets of search criteria to use
 1. (Optional) Enable the **[!UICONTROL Track this search result in the dashboard]** option if you want the signals dashboard to include the signals in the current search set.
 1. Select the **[!UICONTROL Default Sorting]** criteria:
 
-    * **[!UICONTROL Total Counts]** 
+    * **[!UICONTROL Total Counts]**
     * **[!UICONTROL Key Name]**
 
 1. Choose the **[!UICONTROL Default Sorting]** mode:
 
-    * **[!UICONTROL Descending]** 
+    * **[!UICONTROL Descending]**
     * **[!UICONTROL Ascending]**
 
 1. Click **[!UICONTROL Save]**. You can see your saved search in the [!UICONTROL Saved Search] section, and use it whenever you need it.
 
    ![](assets/saved-search.png)
-

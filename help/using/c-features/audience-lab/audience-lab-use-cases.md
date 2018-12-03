@@ -20,10 +20,8 @@ Audience Lab enables several use cases by allowing you to use baseline segments 
 You can use several different types and sources of models in [!DNL Audience Manager]. [!UICONTROL Audience Lab] offers an easy way to compare your customers' conversion rates, across your active models.
 
 <!-- 
-
 audience-lab-compare-models.xml
-
- -->
+-->
 
 In this use case, you are comparing different models. You can either use models created via an in-house data warehouse and import them in [!DNL Audience Manager] as [Onboarded Traits](../../c-features/traits/create-onboarded-rule-based-traits.md#concept_CFCB78FDF44A42BCA69C948A2C8EC3D5) or you can use the [Algorithmic Models](../../c-features/algorithmic-models/understanding-models.md#concept_49FB2DBD4AD041A4ABAAEE9D83BB996E) feature in [!DNL Audience Manager]. 
 
@@ -31,8 +29,7 @@ In this use case, you are comparing different models. You can either use models 
 1. Create [algorithmic traits](../../c-features/traits/create-algorithmic-traits.md#task_E9A3F46A50C14450AE263775EECA0353) from the algorithmic model or import your own models as onboarded traits.
 1. Create mutually exclusive segments so users in both models don't overlap:
 
-    * Create a *Model 1 Segment* and a *Model 2 Segment*. 
-    
+    * Create a *Model 1 Segment* and a *Model 2 Segment*.
     * Have the segment rule for *Model 1 Segment* be model 1 trait AND NOT model 2 trait, and vice-versa for *Model 2 Segment*.
 
 1. [Create two segment test groups](../../c-features/audience-lab/audience-lab-manage-test-groups.md#task_B62EF6D2992941FAAEA84BE2EA11A55E) in [!UICONTROL Audience Lab], one with *Model 1 Segment* as the baseline, the other with *Model 2 Segment* as the baseline.
@@ -48,17 +45,12 @@ In this use case, you are comparing different models. You can either use models 
 
 ## Testing Creatives Across Destinations {#task_7AF1E1FE31034EF5AB77226D9D75E4E6}
 
+<!-- 
+audience-lab-creatives-across-destinations.xml
+-->
 Use Audience Lab to measure the number of conversions a creative is driving across different destinations. This use case also allows you to measure the conversions of the creative against naturally occurring conversions.
 
-1. 
-
-   <!-- 
-
-audience-lab-creatives-across-destinations.xml
-
- -->
-
-   [Create a Segment Test Group](../../c-features/audience-lab/audience-lab-manage-test-groups.md#task_B62EF6D2992941FAAEA84BE2EA11A55E), selecting the segment you want to test the creative against as the baseline segment.
+1. [Create a Segment Test Group](../../c-features/audience-lab/audience-lab-manage-test-groups.md#task_B62EF6D2992941FAAEA84BE2EA11A55E), selecting the segment you want to test the creative against as the baseline segment.
 1. Split the baseline segment into test segments and control segments.
 1. Map the test segments to the different destinations you wish to test.
 1. The control segment can be withheld and not mapped to any destination. The control segment should not be targeted by the test creative to set a results baseline for naturally occurring conversions.

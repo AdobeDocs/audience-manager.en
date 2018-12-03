@@ -9,16 +9,16 @@ internal: n
 snippet: y
 ---
 
-# Algorithmic Models: Trait Exclusion{#algorithmic-models-trait-exclusion}
+# Algorithmic Models: Trait Exclusion {#algorithmic-models-trait-exclusion}
 
 Trait Exclusion provides additional controls in your modeling workflow, allowing you to add the necessary guard rails to the model, based on your domain expertise and regulatory requirements. Use the Exclusions option to select which traits to ignore when creating models from one or more data sources.
 
 On this page:
 
 <ul class="simplelist"> 
- <li> <a href="../../c-features/algorithmic-models/trait-exclusion-algo-models.md#section_6151890E8D4E4654B093EDEFCA5390C2"> Use Cases </a> </li> 
- <li> <a href="../../c-features/algorithmic-models/trait-exclusion-algo-models.md#section_5D40294A28F64C72ABF08E801D751A9E"> How to Use Trait Exclusions </a> </li> 
- <li> <a href="../../c-features/algorithmic-models/trait-exclusion-algo-models.md#section_0C9F978C654C49CBA8BC77523A70E033"> Important Aspects &amp; Limitations </a> </li> 
+ <li> <a href="../../c-features/algorithmic-models/trait-exclusion-algo-models.md#section_6151890E8D4E4654B093EDEFCA5390C2"> Use Cases </a> </li>
+ <li> <a href="../../c-features/algorithmic-models/trait-exclusion-algo-models.md#section_5D40294A28F64C72ABF08E801D751A9E"> How to Use Trait Exclusions </a> </li>
+ <li> <a href="../../c-features/algorithmic-models/trait-exclusion-algo-models.md#section_0C9F978C654C49CBA8BC77523A70E033"> Important Aspects &amp; Limitations </a> </li>
 </ul>
 
 ## Use Cases {#section_6151890E8D4E4654B093EDEFCA5390C2}
@@ -39,10 +39,10 @@ Here are some use cases you can address with [!UICONTROL Trait Exclusion]:
 
 Use the [Build a model](../../c-features/algorithmic-models/create-model.md#task_71541056B8384EEBB6A3A8B161C71B8A) workflow to build new algorithmic models.
 
-1. The Exclusions selection is greyed out until you select one or more data sources for modeling. 
-1. After selecting one or more data sources for modeling, press **[!UICONTROL Browse All Traits]**. 
-1. In the **[!UICONTROL Select Traits to Exclude]** window, you can see all traits associated with the data sources you selected previously. Select the traits you want to exclude. 
-1. You can filter the traits by trait type, or you can browse the trait folders. Note that trait folders only display the traits associated with your selected data sources. 
+1. The Exclusions selection is greyed out until you select one or more data sources for modeling.
+1. After selecting one or more data sources for modeling, press **[!UICONTROL Browse All Traits]**.
+1. In the **[!UICONTROL Select Traits to Exclude]** window, you can see all traits associated with the data sources you selected previously. Select the traits you want to exclude.
+1. You can filter the traits by trait type, or you can browse the trait folders. Note that trait folders only display the traits associated with your selected data sources.
 1. Press **[!UICONTROL Exclude Selected Traits]**.
 
 >[!TIP]
@@ -57,34 +57,33 @@ Please take note of the following aspects and limitations related to [!UICONTROL
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Item </th> 
-   <th colname="col2" class="entry"> Description </th> 
+   <th colname="col2" class="entry"> Description </th>
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Excluded Traits in Models Summary View </p> </td> 
-   <td colname="col2"> <p>The excluded traits <i>do not show up</i> in the Models Summary view. You can see the excluded traits only in the <span class="uicontrol"> Edit Model</span> workflow. </p> </td> 
+   <td colname="col1"> <p>Excluded Traits in Models Summary View </p> </td>
+   <td colname="col2"> <p>The excluded traits <i>do not show up</i> in the Models Summary view. You can see the excluded traits only in the <span class="uicontrol"> Edit Model</span> workflow. </p> </td>
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Role-Based Access Controls (RBAC) </p> </td> 
-   <td colname="col2"> <p>Note the following limitations for companies using <a href="../../c-features/c-administration/administration-overview.md#concept_925BB65910BB41139D4137DBC09415DB"> RBAC</a>: </p> <p> 
+   <td colname="col1"> <p>Role-Based Access Controls (RBAC) </p> </td>
+   <td colname="col2"> <p>Note the following limitations for companies using <a href="../../c-features/c-administration/administration-overview.md#concept_925BB65910BB41139D4137DBC09415DB"> RBAC</a>: </p> <p>
      <ul id="ul_38A4056C235B428C822EA4A353893786"> 
-      <li id="li_2624FB35581F4807B8530910D63FFDBF">If you don't have access to view a trait, you <i>cannot</i> select that trait to be excluded from the model. </li> 
-      <li id="li_3FD7A12AAAA8462EA84A760C05F20379">If you don't have access to view a trait, you <i>cannot</i> view that trait in the excluded traits list. </li> 
-     </ul> </p> </td> 
+      <li id="li_2624FB35581F4807B8530910D63FFDBF">If you don't have access to view a trait, you <i>cannot</i> select that trait to be excluded from the model. </li>
+      <li id="li_3FD7A12AAAA8462EA84A760C05F20379">If you don't have access to view a trait, you <i>cannot</i> view that trait in the excluded traits list. </li>
+     </ul> </p> </td>
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Modify excluded traits after saving model </p> </td> 
-   <td colname="col2"> <p>You cannot modify the excluded traits after you have created and saved a model. If you want to tweak the results, you can clone the model and change the excluded traits. </p> </td> 
+   <td colname="col1"> <p>Modify excluded traits after saving model </p> </td>
+   <td colname="col2"> <p>You cannot modify the excluded traits after you have created and saved a model. If you want to tweak the results, you can clone the model and change the excluded traits. </p> </td>
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Maximum number of traits you can exclude </p> </td> 
-   <td colname="col2"> <p>The maximum number of traits you can exclude from a model is 500. Use folder traits to maximize your exclusions. </p> </td> 
+   <td colname="col1"> <p>Maximum number of traits you can exclude </p> </td>
+   <td colname="col2"> <p>The maximum number of traits you can exclude from a model is 500. Use folder traits to maximize your exclusions. </p> </td>
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Exclude baseline trait </p> </td> 
-   <td colname="col2"> <p>The baseline trait is excluded by default, so it does not show up in the <span class="uicontrol"> Exclusions</span> list, when building the model. </p> </td> 
-  </tr> 
- </tbody> 
+   <td colname="col1"> <p>Exclude baseline trait </p> </td>
+   <td colname="col2"> <p>The baseline trait is excluded by default, so it does not show up in the <span class="uicontrol"> Exclusions</span> list, when building the model. </p> </td>
+  </tr>
+ </tbody>
 </table>
-

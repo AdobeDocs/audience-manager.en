@@ -20,16 +20,15 @@ Audience Marketplace data buyers agree to report all ad impressions served using
 [!UICONTROL Audience Marketplace] data buyers agree to report all ad impressions served using traits contained in the data feed priced on a cost per thousand ad impressions (CPM) basis. CPM usage is due on the 5 day of each calendar month and includes data for previous month. Flat fee subscribers do not need to report usage.
 
 <!-- 
-
 t_marketplace_report_cpm_usage.xml
+-->
 
- -->
-
-To report CPM usage: 
+To report CPM usage:
 
 1. Go to **[!UICONTROL Audience Marketplace > Payables]**.
 1. Enter the CPM usage amount in the [!UICONTROL Usage] column and click **[!UICONTROL Submit]**.
 1. Review the usage in the confirmation window and click **[!UICONTROL Yes]**.
+
 **CPM Reporting Best Practices**
 
 <table id="table_E68FA2130D1C495FAB8982DFB6A31FD9"> 
@@ -63,11 +62,9 @@ To report CPM usage:
 
 In [!UICONTROL Audience Marketplace] you must manually submit impression amounts each month. Also, if you build segments from data feed traits, impressions must be allocated proportionally according to the qualification rules you apply to those traits in [!UICONTROL Segment Builder].
 
-<!-- 
-
+<!--
 marketplace_cpm_billing.xml
-
- -->
+-->
 
 Contents:
 
@@ -81,12 +78,12 @@ Contents:
 
 For a CPM data feed, you must submit impression amounts by the 5 day of each calendar month. To do this properly, you must:
 
-* Compile all advertising impressions delivered for each feed in the previous calendar month. 
+* Compile all advertising impressions delivered for each feed in the previous calendar month.
 * Report CPM usage in **[!UICONTROL Audience Marketplace > Payables]**. See [How to Report CPM Usage](../../../c-features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#task_22D86C3A39544CA8A4BC2360DC115877) for instructions.
 
 After you report CPM number for the previous calendar month, [!DNL Adobe] will do the following:
 
-* Create an invoice and bill you based on the CPM rate for each subscribed data feed. 
+* Create an invoice and bill you based on the CPM rate for each subscribed data feed.
 * Pay data providers (sellers) fees owed based on your reported CPM use.
 
 >[!IMPORTANT]
@@ -112,7 +109,7 @@ The Activation use case lets you use traits in the corresponding data feed to cr
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> OR</span> </p> </td> 
    <td colname="col2"> <p>Apply 75% of the delivered impression totals to all of the providers feeds in a rules-based segment that uses a Boolean <span class="wintitle"> OR</span> condition. </p> <p> <p>Note:  <span class="wintitle"> Audience Marketplace</span> reports impressions at the <span class="wintitle"> Data Feed</span> level, not the trait level. Segments built from traits with a Boolean <span class="wintitle"> OR</span> from multiple traits from different feeds, allocate 75% of impressions to each feed in the segment, not each Trait. See the <a href="../../../c-features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#section_61B684C354944A5CA3BE1A01007B9577"> billing examples</a> below. </p> </p> </td> 
-  </tr> 
+  </tr>
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> NOT</span> </p> </td> 
    <td colname="col2"> <p>Apply 100% of the delivered impression totals to all the provider feeds in a rules-based segment that uses a Boolean <span class="wintitle"> NOT</span> condition. </p> </td> 
@@ -120,8 +117,8 @@ The Activation use case lets you use traits in the corresponding data feed to cr
   <tr> 
    <td colname="col1"> <p>Algorithmic segments </p> </td> 
    <td colname="col2"> <p>Apply 100% of the delivered impression totals to all the provider feeds in an algorithmic segment. </p> </td> 
-  </tr> 
- </tbody> 
+  </tr>
+ </tbody>
 </table>
 
 ## Billing Examples {#section_61B684C354944A5CA3BE1A01007B9577}
@@ -168,11 +165,9 @@ The bill result in this case is identical to example 2 above. We cannot tell whi
 
 A flat fee data feed bills you a fixed amount each month, regardless of when the subscription starts or how many impressions you use. Fees are not prorated for partial month usage or intervals. As with CPM billing, [!DNL Adobe] will generate an invoice and bill you at the monthly, flat fee rate for your subscribed data feeds.
 
-<!-- 
-
+<!--
 marketplace_flat_billing.xml
-
- -->
+-->
 
 For example, let's say you decided to turn on certain traits in a feed in the middle of the month. You will still be billed at the full, monthly rate regardless of when you started the subscription or activated specific traits. 
 

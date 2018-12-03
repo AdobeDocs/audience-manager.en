@@ -10,7 +10,7 @@ internal: n
 snippet: y
 ---
 
-# Audience Lab Advanced Functionality{#audience-lab-advanced-functionality}
+# Audience Lab Advanced Functionality {#audience-lab-advanced-functionality}
 
 This article describes two features which provide advanced functionality for Audience Lab: Duplicate Allocation Template and Segment Holdout.
 
@@ -19,9 +19,7 @@ This article describes two features which provide advanced functionality for Aud
 ### Overview
 
 <!-- 
-
 <p>The <b>Allocation Template</b> represents how you split a test group into test segments and the way the test segments are mapped to destinations. </p>
-
  -->
 
 In Audience Lab, the **Allocation Template** represents the various selections you make when creating a test group:
@@ -35,11 +33,9 @@ By duplicating an allocation template, you can reuse the same distribution of te
 
 ![](assets/allocation_template_3.png)
 
-<!-- 
-
+<!--
 With the option to duplicate allocation templates, you can increase your productivity when running multivariate tests as part of multivariate campaigns.
-
- -->
+-->
 
 ### How to use
 
@@ -49,11 +45,11 @@ Create an initial test group, then select **[!UICONTROL Duplicate Allocation Tem
 
    ![](assets/duplicate-allocation-template.png)
 
-1. In the Create Test Group wizard, you can specify a base segment and rename your test segments, if you wish. 
+1. In the Create Test Group wizard, you can specify a base segment and rename your test segments, if you wish.
 1. You *cannot* modify:
 
-    * The distribution of devices between test segments; 
-    * The conversion trait(s); 
+    * The distribution of devices between test segments;
+    * The conversion trait(s);
     * The mapping of test segments to destinations. You can only fill in the mapping key, for the destinations that require one. 
     * The date range in which your test group will publish to your selected destinations.
 
@@ -69,11 +65,9 @@ Create an initial test group, then select **[!UICONTROL Duplicate Allocation Tem
 
 Use this feature to withhold part of the audience from being included in the test. The percentage you select is left out of the test. This way, you can measure and compare the number of conversions from targeted (activated on destinations) and untargeted (holdout group) audiences.
 
-<!-- 
-
+<!--
 <p>Note that this option is different to the control segment because it subtracts the percentage ................. You can withhold an audience group and still use a control segment. </p>
-
- -->
+-->
 
 ### How to Use
 
