@@ -75,5 +75,5 @@ Click the **[!UICONTROL Forgot password]** link from the login page to reset you
 
 >[!MORE_LIKE_THIS]
 >
->* [Data Security](../c-am-overview-intro/c-data-security-and-privacy/data-security.md)
->* [Data Security](../c-am-overview-intro/c-data-security-and-privacy/data-privacy.md)
+>* [Data Security](../overview/c-data-security-and-privacy/data-security.md)
+>* [Data Security](../overview/c-data-security-and-privacy/data-privacy.md)

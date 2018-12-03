@@ -26,11 +26,11 @@ In Audience Manager, we think about security in three main categories:
 
 This topic contains the following information:
 
-* [Systems, Training, and Access](../../c-am-overview-intro/c-data-security-and-privacy/data-security.md#section_226017634A9945098327561285335D71) 
-* [Privacy and Personally Identifiable Information (PII)](../../c-am-overview-intro/c-data-security-and-privacy/data-security.md#section_3F60A967DDD24592B0349831D4E865A3) 
-* [Data Partitioning](../../c-am-overview-intro/c-data-security-and-privacy/data-security.md#section_0F061AB523EC420D9F9505E5B97F31C1) 
-* [Inbound Server-to-Server (S2S) Transfers](../../c-am-overview-intro/c-data-security-and-privacy/data-security.md#section_1A3DA20297AD4AC08AE8C9D815E22601) 
-* [Protecting Data by Escaping](../../c-am-overview-intro/c-data-security-and-privacy/data-security.md#section_B1F060DCC62A4462A408C76A687BE6BE)
+* [Systems, Training, and Access](../../overview/c-data-security-and-privacy/data-security.md#section_226017634A9945098327561285335D71) 
+* [Privacy and Personally Identifiable Information (PII)](../../overview/c-data-security-and-privacy/data-security.md#section_3F60A967DDD24592B0349831D4E865A3) 
+* [Data Partitioning](../../overview/c-data-security-and-privacy/data-security.md#section_0F061AB523EC420D9F9505E5B97F31C1) 
+* [Inbound Server-to-Server (S2S) Transfers](../../overview/c-data-security-and-privacy/data-security.md#section_1A3DA20297AD4AC08AE8C9D815E22601) 
+* [Protecting Data by Escaping](../../overview/c-data-security-and-privacy/data-security.md#section_B1F060DCC62A4462A408C76A687BE6BE)
 
 ## Systems, Training, and Access {#section_226017634A9945098327561285335D71}
 
