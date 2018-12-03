@@ -16,7 +16,7 @@ Send or update metadata files by sending them to a special Amazon S3 directory f
 
 ## Delivery Path Syntax and Examples {#section_3C380E0C36024812B9AE4F1E2903B398}
 
-Data is stored in separate namespace for each customer in an Amazon S3 directory. The file path follows the syntax shown below. Note, *italics* indicates a variable placeholder. Brackets [ ] indicate optional parameters. The other elements are constants and do not change.
+Data is stored in separate namespace for each customer in an Amazon S3 directory. The file path follows the syntax shown below. Note, *italics* indicates a variable placeholder. Brackets `[ ]` indicate optional parameters. The other elements are constants and do not change.
 
 **Syntax:** `.../log_ingestion/pid= *`AAM ID`*/dpid= *`d_src`*/[meta|status]/ *`yyyymmdd`*_ *`parent ID`*_ *`child ID`*`
 

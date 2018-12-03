@@ -14,15 +14,6 @@ snippet: y
 
 A data file contains impression, click, or conversion data. When formatted properly, you can import this data into Audience Manager and view it in the Audience Optimization reports. Format your data files according to these specifications in this section.
 
-Contents:
-
-<ul class="simplelist"> 
- <li> <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md#section_8BD3D951B1D348ECB46FEDCAE17AC664"> Overview </a> </li> 
- <li> <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md#section_66F3F3588C85407CB33E13DA8D47795D"> Naming Conventions for Data Files </a> </li> 
- <li> <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md#section_CC584987F0BC4C3FA62F6CDA7AE9D3FD"> Content Format for Data Files </a> </li> 
- <li> <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md#section_84A1C548F9084A9C98AAB4349429CBD8"> Delivery Methods for Data Files </a> </li> 
-</ul>
-
 ## Overview {#section_8BD3D951B1D348ECB46FEDCAE17AC664}
 
 A properly named and formatted data file lets you import impression, click, or conversion data into the [Audience Optimization Reports](../../../reporting/audience-optimization-reports/audience-optimization-reports.md#concept_D66D2C58493E48BDAFF2F95BBB508946). This is useful when working with a partner who is not integrated with [!DNL Audience Manager] and you want to work with their data in that report suite. This process requires separate files for impression, click, and conversion data. Do not mix these events in a single file.

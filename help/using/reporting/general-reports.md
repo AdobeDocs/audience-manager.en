@@ -10,7 +10,7 @@ internal: n
 snippet: y
 ---
 
-# General Reports{#general-reports}
+# Overview{#general-reports}
 
 A General report returns performance data on traits, segments, and destinations.
 
@@ -125,12 +125,7 @@ t_run_general_report.xml
 
 1. In the **[!UICONTROL Analytics]** dashboard, click **[!UICONTROL General Reports]**.
 
-1. From the **[!UICONTROL Report Type]** drop-down list, select the desired type:
-
-* Trait 
-* Segment 
-* Destination
-
+1. From the **[!UICONTROL Report Type]** drop-down list, select the desired type: Trait, Segment, or Destination.
 1. (Conditional) Click the date box to display a calendar, then select the ending date for your report if you want to specify a date other than today.
 1. Search for a trait, segment, or destination by name or ID.
 1. From the folder list, drag and drop the traits, segments, or destinations you want to report to the [!UICONTROL Selections] panel on the right side.
