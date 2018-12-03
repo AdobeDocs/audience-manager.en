@@ -15,8 +15,8 @@ snippet: y
 Adobe complies with all industry-wide standards with regard to opt-out management. Read on for complete information on the types of opt-out supported by Audience Manager.
 
 <ul class="simplelist"> 
- <li> <a href="../../c-am-overview-intro/c-data-security-and-privacy/opt-out-management.md#section_7572239987C840969C2B690097BE600C"> Global Opt-out </a> </li> 
- <li> <a href="../../c-am-overview-intro/c-data-security-and-privacy/opt-out-management.md#section_856ABF5E40884012A697C75B0C2DE67C"> Partner-level Opt-out </a> </li> 
+ <li> <a href="../../overview/c-data-security-and-privacy/opt-out-management.md#section_7572239987C840969C2B690097BE600C"> Global Opt-out </a> </li> 
+ <li> <a href="../../overview/c-data-security-and-privacy/opt-out-management.md#section_856ABF5E40884012A697C75B0C2DE67C"> Partner-level Opt-out </a> </li> 
 </ul>
 
 ## Global Opt-Out {#section_7572239987C840969C2B690097BE600C}
@@ -87,7 +87,7 @@ When Audience Manager receives a partner-level opt-out request, the JSON returne
 
 <!-- 
 
-<p>See <a href="../../c-am-overview-intro/c-data-security-and-privacy/data-privacy.md#concept_C1E36C6BF4C0461F9D31687E275DC46A"> Data Privacy </a> for more information about opting-out of data collection. </p>
+<p>See <a href="../../overview/c-data-security-and-privacy/data-privacy.md#concept_C1E36C6BF4C0461F9D31687E275DC46A"> Data Privacy </a> for more information about opting-out of data collection. </p>
 
  -->
 

@@ -19,9 +19,9 @@ Adobe partners own their business processes and may decide to update their integ
 On this page:
 
 <ul class="simplelist"> 
- <li><a href="../../c-am-overview-intro/aam-gdpr/aam-gdpr-partners.md#section_F462002CBE7A4B17B20B758C3F2A05C7"> Audience Manager Partner Updates - ID Syncs</a> </li> 
- <li><a href="../../c-am-overview-intro/aam-gdpr/aam-gdpr-partners.md#section_583C4069B3774EF29A77B2A466DDF944"> Audience Manager UI Update - Yahoo/Oath/DataX Integration</a> </li> 
- <li><a href="../../c-am-overview-intro/aam-gdpr/aam-gdpr-partners.md#section_49E63A6345D648F4AED87CD33B36F5FB"> Audience Manager Partners With Unsegmentation Capabilities</a> </li> 
+ <li><a href="../../overview/aam-gdpr/aam-gdpr-partners.md#section_F462002CBE7A4B17B20B758C3F2A05C7"> Audience Manager Partner Updates - ID Syncs</a> </li> 
+ <li><a href="../../overview/aam-gdpr/aam-gdpr-partners.md#section_583C4069B3774EF29A77B2A466DDF944"> Audience Manager UI Update - Yahoo/Oath/DataX Integration</a> </li> 
+ <li><a href="../../overview/aam-gdpr/aam-gdpr-partners.md#section_49E63A6345D648F4AED87CD33B36F5FB"> Audience Manager Partners With Unsegmentation Capabilities</a> </li> 
 </ul>
 
 ## Audience Manager Partner Updates - ID Syncs {#section_F462002CBE7A4B17B20B758C3F2A05C7}

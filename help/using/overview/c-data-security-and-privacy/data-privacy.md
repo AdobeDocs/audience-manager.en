@@ -16,10 +16,10 @@ Describes Audience Manager integration and compliance with generally accepted be
 
 Contents:
 
-* [Data Privacy](../../c-am-overview-intro/c-data-security-and-privacy/data-privacy.md#section_3C0E97906232432296F2B2200B0BFA4F) 
-* [Consumer Privacy Protection](../../c-am-overview-intro/c-data-security-and-privacy/data-privacy.md#section_8269FC81B9514F62925BA63DFB9BCC1D) 
-* [Opt-Out Management](../../c-am-overview-intro/c-data-security-and-privacy/data-privacy.md#section_FAEB5029359A4AA8A466E3185B9EA04F) 
-* [Collecting IP Addresses](../../c-am-overview-intro/c-data-security-and-privacy/data-privacy.md#section_6E615E8AAE0A4C39A3716115C270569C)
+* [Data Privacy](../../overview/c-data-security-and-privacy/data-privacy.md#section_3C0E97906232432296F2B2200B0BFA4F) 
+* [Consumer Privacy Protection](../../overview/c-data-security-and-privacy/data-privacy.md#section_8269FC81B9514F62925BA63DFB9BCC1D) 
+* [Opt-Out Management](../../overview/c-data-security-and-privacy/data-privacy.md#section_FAEB5029359A4AA8A466E3185B9EA04F) 
+* [Collecting IP Addresses](../../overview/c-data-security-and-privacy/data-privacy.md#section_6E615E8AAE0A4C39A3716115C270569C)
 
 ## Data Privacy {#section_3C0E97906232432296F2B2200B0BFA4F}
 
@@ -36,7 +36,7 @@ In our continuing support of this model, Audience Manager remains committed to p
 
 ## Opt-Out Management {#section_FAEB5029359A4AA8A466E3185B9EA04F}
 
-The opt-out documentation has been extended and moved to a separate part of our documentation. See [Opt-out Management](../../c-am-overview-intro/c-data-security-and-privacy/opt-out-management.md#concept_1EC49431ED7D4012BD930ECF8A6D732F).
+The opt-out documentation has been extended and moved to a separate part of our documentation. See [Opt-out Management](../../overview/c-data-security-and-privacy/opt-out-management.md#concept_1EC49431ED7D4012BD930ECF8A6D732F).
 
 <!-- 
 

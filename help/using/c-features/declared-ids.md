@@ -64,7 +64,7 @@ The [!UICONTROL declared ID] process honors site visitor preferences to opt-out 
 * Audience Manager can pass in a [!UICONTROL declared ID] opt-out alongside an Audience Manager UUID in the URL. 
 * The [!UICONTROL declared ID] opt-out is stored in the Profile Cache Server (PCS) on a per-partner basis. There is no platform-level opt-out using [!UICONTROL declared IDs]. Additionally, Audience Manager opts the user out from that particular region on the edge (the opt-out does not cross DCS regions).
 
-See [Data Privacy](../c-am-overview-intro/c-data-security-and-privacy/data-privacy.md#concept_C1E36C6BF4C0461F9D31687E275DC46A) for more information about opting-out of data collection.
+See [Data Privacy](../overview/c-data-security-and-privacy/data-privacy.md#concept_C1E36C6BF4C0461F9D31687E275DC46A) for more information about opting-out of data collection.
 
 ## Declared ID Opt-Out Examples {#section_C0370B5573CD49408E35356D051B2AD8}
 
