@@ -28,11 +28,11 @@ t_marketplace_report_cpm_usage.xml
 * **Segment-level reporting**: this is the recommended CPM usage reporting method. When you report CPM usage at segment level, the data feed-level reporting section is automatically filled in with the corresponding usage amounts, based on the algorithms described in Cost Attribution for CPM Data Feeds.
 * **Data feed-level reporting**: this method requires you to individually report the CPM usage for each data feed, based on the algorithms described in Cost Attribution for CPM Data Feeds. However, this method is more tedious and prone to error than segment-level reporting.
 
-## Report CPM Usage at Segment Level
+## Report CPM Usage at Segment Level {#segment-level-report}
 
 The [!UICONTROL Segment Usage] tab allows you to report segment-level usage, while displaying the segments grouped by the destinations they are mapped to.
 
-After reporting CPM usage at segment level, Audience Marketplace automatically assigns the corresponding data feeds the correct usage, based on the [Cost Attribution for CPM Data Feeds]().
+After reporting CPM usage at segment level, Audience Marketplace automatically assigns the corresponding data feeds the correct usage, based on the [Cost Attribution for CPM Data Feeds](#concept_E757985A4850400288F1DD9A02B755D5).
 
 To report CPM usage at segment level:
 
@@ -45,9 +45,9 @@ To report CPM usage at segment level:
    ![confirm-segment-usage](assets/confirm-segment-usage.png)
 7. Click [!UICONTROL Confirm].
 
-## Report CPM Usage at Data Feed Level
+## Report CPM Usage at Data Feed Level {#feed-level-report}
 
-Data feed-level reporting is a more tedious and prone to error process, since you must individually calculate CPM usage for each data feed. We recommend that you [Report CPM Usage at Segment Level]() instead.
+Data feed-level reporting is a more tedious and prone to error process, since you must individually calculate CPM usage for each data feed. We recommend that you [Report CPM Usage at Segment Level](#segment-level-report) instead.
 
 To report CPM usage at segment level:
 
@@ -130,7 +130,7 @@ marketplace_cpm_billing.xml
 
 ### Billing Summary {#section_E49C2B4663DB4016B594DB596B66E4E1}
 
-You must submit CPM data feed impression amounts between the 1st and the 5th days of each calendar month. To do this correctly, we recommend that you [Report CPM Usage at Segment Level]().
+You must submit CPM data feed impression amounts between the 1st and the 5th days of each calendar month. To do this correctly, we recommend that you [Report CPM Usage at Segment Level](#segment-level-report).
 
 >[!TIP]
 >When you report CPM usage at segment level, the data feed-level reporting section is automatically filled in with the corresponding usage amounts.
@@ -150,10 +150,10 @@ After you report CPM number for the previous calendar month, [!DNL Adobe] will d
 
 The Activation use case lets you use traits in the corresponding data feed to create segments in [Segment Builder](../../../c-features/c-segments/segment-builder.md#topic_E166819D26B94A868376BA54E10E4B74) and map those segments to a destination. The Boolean operators [!UICONTROL AND], [!UICONTROL OR], and [!UICONTROL NOT] let you set the conditions for trait and segment qualification.
 
-When you [Report CPM Usage at Data Feed Level](), you must allocate impressions proportionally for each data feed, according to the [!DNL Boolean] operators used in the trait qualification rules. The following table lists how to properly allocate impressions by Boolean rule or trait type.
+When you [Report CPM Usage at Data Feed Level](#feed-level-report), you must allocate impressions proportionally for each data feed, according to the [!DNL Boolean] operators used in the trait qualification rules. The following table lists how to properly allocate impressions by Boolean rule or trait type.
 
 >[!TIP]
->[Report CPM Usage at Segment Level]() to have the data feed level reporting done automatically by Audience Manager.
+>[Report CPM Usage at Segment Level](#segment-level-report) to have the data feed level reporting done automatically by Audience Manager.
 
 <table id="table_BF00FE6740D2459DAFA62F2478492586"> 
  <thead> 
@@ -189,7 +189,7 @@ When you [Report CPM Usage at Data Feed Level](), you must allocate impressions 
 The examples below are meant to illustrate how CPM usage allocation is done at data feed level.
 
 >[!MPORTANT]
->We recommend that you [Report CPM Usage at Segment Level]() instead, to have this process done automatically.
+>We recommend that you [Report CPM Usage at Segment Level](#segment-level-report) instead, to have this process done automatically.
 
 Let's consider the following scenario:
 ![billing-examples](assets/billing-examples.png)
