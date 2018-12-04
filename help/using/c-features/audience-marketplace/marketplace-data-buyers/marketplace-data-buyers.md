@@ -11,20 +11,11 @@ internal: n
 snippet: y
 ---
 
-# Audience Marketplace for Data Buyers{#audience-marketplace-for-data-buyers}
+# Audience Marketplace for Data Buyers {#audience-marketplace-for-data-buyers}
 
 Overview and workflow for data buyers who want to purchase third-party data from within Audience Manager
 
-## Audience Marketplace for Data Buyers {#concept_907D3359C1CA49F1B3F275D697A9AD9B}
-
-<!-- 
-c_marketplace_buyer.xml
- -->
-
-Overview and workflow for data buyers who want to purchase third-party data from within [!DNL Audience Manager]
-
 >[!NOTE]
->
 >[Role-based permissions](../../../reporting/reports-dashboard.md#concept_1F19F03D45164D2391F80A083410DC2E) control access to [!UICONTROL Audience Marketplace] features.
 >
 >* Administrators can create data feeds, manage subscribers, and subscribe to data feeds.

@@ -11,25 +11,84 @@ internal: n
 snippet: y
 ---
 
-# Billing for Data Feed Buyers{#billing-for-data-feed-buyers}
+# Billing for Data Feed Buyers {#billing-for-data-feed-buyers}
 
 Audience Marketplace data buyers agree to report all ad impressions served using traits contained in the data feed priced on a cost per thousand ad impressions (CPM) basis. CPM usage is due on the 5th day of each calendar month and includes data for previous month. Flat fee subscribers do not need to report usage.
 
 ## How to Report CPM Usage {#task_22D86C3A39544CA8A4BC2360DC115877}
 
-[!UICONTROL Audience Marketplace] data buyers agree to report all ad impressions served using traits contained in the data feed priced on a cost per thousand ad impressions (CPM) basis. CPM usage is due on the 5 day of each calendar month and includes data for previous month. Flat fee subscribers do not need to report usage.
-
 <!-- 
 t_marketplace_report_cpm_usage.xml
 -->
 
-To report CPM usage:
+[!UICONTROL Audience Marketplace] data buyers agree to report all ad impressions served using traits contained in the data feed priced on a cost per thousand ad impressions (CPM) basis. CPM usage is due on the 5 day of each calendar month and includes data for previous month. Flat fee subscribers do not need to report usage.
 
-1. Go to **[!UICONTROL Audience Marketplace > Payables]**.
-1. Enter the CPM usage amount in the [!UICONTROL Usage] column and click **[!UICONTROL Submit]**.
-1. Review the usage in the confirmation window and click **[!UICONTROL Yes]**.
+[!UICONTROL Audience Marketplace] offers two ways to report CPM usage:
 
-**CPM Reporting Best Practices**
+* **Segment-level reporting**: this is the recommended CPM usage reporting method. When you report CPM usage at segment level, the data feed-level reporting section is automatically filled in with the corresponding usage amounts, based on the algorithms described in Cost Attribution for CPM Data Feeds.
+* **Data feed-level reporting**: this method requires you to individually report the CPM usage for each data feed, based on the algorithms described in Cost Attribution for CPM Data Feeds. However, this method is more tedious and prone to error than segment-level reporting.
+
+## Report CPM Usage at Segment Level
+
+The [!UICONTROL Segment Usage] tab allows you to report segment-level usage, while displaying the segments grouped by the destinations they are mapped to.
+
+After reporting CPM usage at segment level, Audience Marketplace automatically assigns the corresponding data feeds the correct usage, based on the [Cost Attribution for CPM Data Feeds]().
+
+To report CPM usage at segment level:
+
+1. Go to [!UICONTROL Audience Marketplace > Payables].
+2. Select the [!UICONTROL Segment Usage] tab.
+3. Fill in the usage for your segments. You can use the [!UICONTROL Search] box to filter the segments if you only need to report usage for some of them.
+4. Click [!UICONTROL Edit Segments Usage].
+5. Enter the CPM usage amount in the [!UICONTROL Usage] column.
+6. Click [!UICONTROL Save] when you're done and review the confirmation dialog.
+   ![confirm-segment-usage](assets/confirm-segment-usage.png)
+7. Click [!UICONTROL Confirm].
+
+## Report CPM Usage at Data Feed Level
+
+Data feed-level reporting is a more tedious and prone to error process, since you must individually calculate CPM usage for each data feed. We recommend that you [Report CPM Usage at Segment Level]() instead.
+
+To report CPM usage at segment level:
+
+1. Go to [!UICONTROL Audience Marketplace > Payables].
+2. Select the [!UICONTROL Feed Usage] tab.
+3. Use the [!UICONTROL Search] box to filter the data feeds and identify the ones that you need to report usage for.
+4. Click [!UICONTROL Edit Feeds Usage].
+5. Calculate the CPM usage for each data feed based on the Cost Attribution for CPM Data Feeds, and enter it in the [!UICONTROL Usage] column.
+6. Click [!UICONTROL Save] when you're done and review the confirmation dialog.
+   ![confirm-feed-usage](assets/confirm-feed-usage.png)
+7. Click [!UICONTROL Confirm].
+
+## Bulk Reporting
+
+To reduce errors and overhead while reporting CPM usage, you can use the bulk reporting option to download a CSV file containing the data feeds and segments, fill in the usage, and upload it back to Audience Manager. You can use bulk reporting to report both feed and segment usage.
+
+To update CPM usage in bulk:
+
+1. Go to [!UICONTROL Audience Marketplace > Payables].
+1. Select the [!UICONTROL Feed Usage] or [!UICONTROL Segment Usage] tab, depending on the type of reporting that you want to update.
+1. Click [!UICONTROL Edit Feeds Usage] or [!UICONTROL Edit Segments Usage].
+1. Click [!UICONTROL download the current usage] to make sure you use a valid CSV file.
+1. Open the file on your computer and fill in the usage report.
+1. Click [!UICONTROL Choose a CSV file] to upload the updated usage report.
+   ![usage-report-csv](assets/usage-report-csv.png)
+1. Audience Manager validates the file as soon as you upload it and prompts you if it detects any errors in the file.
+
+### Bulk Reporting Validation Errors
+
+| Error Message | Description   |  Fix  |
+| ------------- | -------------| -----|
+| Invalid Input | Audience Manager detected a change in the CSV file schema, such as missing columns or changes to column titles. | Avoid changing the table structure. |
+| Not Found     | For Segment Level Reporting, Audience Manager could not identify the Segment ID and Destination ID combination. For Feed Level Reporting, Audience Manager could not identify the Data Provider Name, Feed Name, and Use Case combination.    |   For Segment Level Reporting, check the validity of the Segment ID and Destination ID combination. For Feed Level Reporting, check the validity of the Data Provider Name, Feed Name, and Use Case combination. |
+| Duplicate Records Found | Audience Manager detected duplicate records with different impression values.      |    Review the report and make sure you don't report different usage values for the same data feed or segment. |
+| Values Not Supported | Audience Manager detected non-numerical values in the Impressions column. | Review the report and make sure you only enter numerical values in the Impressions column.|
+| Headers for Mandatory Fields Missing | Audience Manager detected missing table headers for mandatory fields. For Segment Level Reporting, the mandatory fields are: Segment ID Destination ID For Feed Level Reporting, the mandatory fields are: Data Provider Name Data Feed Name Use Case | Review the report and make sure the table headers have not been tampered with. |
+
+>[!NOTE]
+>Removing rows from the CSV usage report does not have any effect on the existing usage report. Audience Manager only processes the fields included in the report.
+
+## CPM Reporting Best Practices
 
 <table id="table_E68FA2130D1C495FAB8982DFB6A31FD9"> 
  <thead> 
@@ -40,46 +99,43 @@ To report CPM usage:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b>How do I Increment Amounts in CPM Reports</b> </p> </td> 
-   <td colname="col2"> <p>For CPM impression totals: </p> <p> 
-     <ul id="ul_A80B43E1A94842018280494D1DF729FE"> 
-      <li id="li_E694BB3F66514D7992A4587DBBEBDC0A">Report the total number of ad impressions in units of one. </li> 
-      <li id="li_AEBD157C5766443199AF677C55DEFF06">Do not enter the total number of ad impressions in units of a thousand. </li> 
-     </ul> </p> <p> For example, if 1,234,567 ad impressions are allocated to a data feed, then report 1,234,567. Do not report this as 1,234.6. </p> <p>Traits used to optimize your web or app content (Content Optimization) using tools such as <span class="keyword"> Adobe Target</span> or an <a href="../../../c-features/destinations/manage-destinations.md#concept_7B7BC8B8D3AF4AFC884F8632EC5719B8"> Analytics destination</a> do not contribute to the Usage totals for CPM plans. Data providers are typically compensated for Content Optimization using flat fee plans. </p> <p>See <a href="../../../c-features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#concept_E757985A4850400288F1DD9A02B755D5"> Billing and Impression Allocation for CPM Data Feeds</a> for more information. </p> </td> 
+   <td colname="col1"> <p><b>Always report the total number of impressions</b> </p> </td> 
+   <td colname="col2"> <p>For CPM impression totals: </p>
+   <p> Report the total number of impressions, without using decimals. Audience Manager automatically calculates the CPM based on the total number you report.
+   
+   If you need to report 1,234,567 impressions, report it exactly like that. You do not need to divide the total number of impressions by 1,000 to calculate the CPM.
+
+  Traits used to optimize your web or app content (Content Optimization) using tools such as Adobe Target or an Analytics destination do not contribute to the Usage totals for CPM plans. Data providers are typically compensated for Content Optimization using flat fee plans.
+
+See Cost Attribution for CPM Data Feeds for more information. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>How do I Report CPM Usage After the Monthly Deadline</b> </p> </td> 
-   <td colname="col2"> <p>The report system closes after the 10th. If you fail to report CPM usage by the 10th, then you must add that amount to the report for the following month. For example, say you use 1000 impressions in October, miss the October reporting deadline, and use 1000 impressions in November. In this case, you report the October and November total (2000) in December, between 1st and 5th. </p> <p> <p>Tip:  <p>Customers should always try to report CPM usage for the previous month between the 1st and 5th days of the new month. </p> <p>You can report CPM usage as late as the 10th of the new calendar month, but this is not recommended. Reporting CPM usage by the 5th of each month gives <span class="keyword"> Audience Manager</span> time to check and process the data. </p> </p> </p> </td> 
+   <td colname="col1"> <p><b>Stick to the monthly reporting interval</b> </p> </td> 
+   <td colname="col2"> <p>The report system closes after the 5th of each month. If you fail to report CPM usage by then, you must add that amount to the report for the following month. For example, say you use 1000 impressions in October, miss the October reporting deadline, and use 1000 impressions in November. In this case, you report the October and November total (2000) in December, between the 1st and the 5th.
+
+   >[!TIP]
+   >You should always try to report CPM usage for the previous month between the 1st and 5th days of the following month.
+   >You can report CPM usage as late as the 5th of the new calendar month, but this is not recommended. Reporting CPM usage before the 5th of each month gives Audience Manager time to check and process the data.</p> </td>
   </tr> 
  </tbody> 
 </table>
 
->[!MORE_LIKE_THIS]
->
->* [Billing and Impression Allocation for Flat Fee Data Feeds](../../../c-features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#concept_FE781C4C5C044C1F986F1AB6BA4E328F)
+## Cost Attribution for CPM Data Feeds {#concept_E757985A4850400288F1DD9A02B755D5}
 
-## Billing and Impression Allocation for CPM Data Feeds {#concept_E757985A4850400288F1DD9A02B755D5}
-
-In [!UICONTROL Audience Marketplace] you must manually submit impression amounts each month. Also, if you build segments from data feed traits, impressions must be allocated proportionally according to the qualification rules you apply to those traits in [!UICONTROL Segment Builder].
+In [!UICONTROL Audience Marketplace] you must self-report impression amounts each month, for each of your segments. We recommend reporting CPM usage at segment level, so that cost attribution is done automatically.
 
 <!--
 marketplace_cpm_billing.xml
 -->
 
-Contents:
+### Billing Summary {#section_E49C2B4663DB4016B594DB596B66E4E1}
 
-<ul class="simplelist"> 
- <li> <a href="../../../c-features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#section_E49C2B4663DB4016B594DB596B66E4E1"> Billing Summary </a> </li> 
- <li> <a href="../../../c-features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#section_F457C3B07044474CAE3DCEB339D8E120"> Assign Impressions Based on Trait Qualification Rules or Type </a> </li> 
- <li> <a href="../../../c-features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#section_61B684C354944A5CA3BE1A01007B9577"> Billing Examples </a> </li> 
-</ul>
+You must submit CPM data feed impression amounts between the 1st and the 5th days of each calendar month. To do this correctly, we recommend that you [Report CPM Usage at Segment Level]().
 
-## Billing Summary {#section_E49C2B4663DB4016B594DB596B66E4E1}
+>[!TIP]
+>When you report CPM usage at segment level, the data feed-level reporting section is automatically filled in with the corresponding usage amounts.
 
-For a CPM data feed, you must submit impression amounts by the 5 day of each calendar month. To do this properly, you must:
-
-* Compile all advertising impressions delivered for each feed in the previous calendar month.
-* Report CPM usage in **[!UICONTROL Audience Marketplace > Payables]**. See [How to Report CPM Usage](../../../c-features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#task_22D86C3A39544CA8A4BC2360DC115877) for instructions.
+Should you need to [!UICONTROL Report CPM Usage at Data Feed Level], you must individually compile all impressions delivered for each feed in the previous calendar month, and report them according to the billing allocation described in this article.
 
 After you report CPM number for the previous calendar month, [!DNL Adobe] will do the following:
 
@@ -88,11 +144,16 @@ After you report CPM number for the previous calendar month, [!DNL Adobe] will d
 
 >[!IMPORTANT]
 >
->As a buyer, all reported impression totals must be true and accurate. If you fail to report impression totals by the 5 day of each month, you must include totals for the unreported month in the following month.
+>As a buyer, all reported impression totals must be true and accurate. If you fail to report impression totals by the 5th day of each month, you must include totals for the unreported month in the following month.
 
-## Assign Impressions Based on Trait Qualification Rules or Type {#section_F457C3B07044474CAE3DCEB339D8E120}
+## Assign Impressions at Feed Level Based on Trait Qualification Rules {#section_F457C3B07044474CAE3DCEB339D8E120}
 
-The Activation use case lets you use traits in the corresponding data feed to create segments in [Segment Builder](../../../c-features/c-segments/segment-builder.md#topic_E166819D26B94A868376BA54E10E4B74) and map those segments to a destination. The Boolean operators [!UICONTROL AND], [!UICONTROL OR], and [!UICONTROL NOT] let you set the conditions for trait and segment qualification. For billing purposes, you must allocate impression proportionally for segments that use data feed traits. Proportional distribution depends on the Boolean operators you use to create qualification rules. The following table lists how to properly allocate impressions by Boolean rule or trait type.
+The Activation use case lets you use traits in the corresponding data feed to create segments in [Segment Builder](../../../c-features/c-segments/segment-builder.md#topic_E166819D26B94A868376BA54E10E4B74) and map those segments to a destination. The Boolean operators [!UICONTROL AND], [!UICONTROL OR], and [!UICONTROL NOT] let you set the conditions for trait and segment qualification.
+
+When you [Report CPM Usage at Data Feed Level](), you must allocate impressions proportionally for each data feed, according to the [!DNL Boolean] operators used in the trait qualification rules. The following table lists how to properly allocate impressions by Boolean rule or trait type.
+
+>[!TIP]
+>[Report CPM Usage at Segment Level]() to have the data feed level reporting done automatically by Audience Manager.
 
 <table id="table_BF00FE6740D2459DAFA62F2478492586"> 
  <thead> 
@@ -104,74 +165,53 @@ The Activation use case lets you use traits in the corresponding data feed to cr
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> AND</span> </p> </td> 
-   <td colname="col2"> <p>Apply 100% of the delivered impression totals to all the provider feeds in a rules-based segment that uses a Boolean <span class="wintitle"> AND</span> condition. </p> </td> 
+   <td colname="col2"> <p>Apply 100% of the delivered impression totals to all the provider traits in a rules-based segment that uses a Boolean <span class="wintitle"> AND</span> condition. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> OR</span> </p> </td> 
-   <td colname="col2"> <p>Apply 75% of the delivered impression totals to all of the providers feeds in a rules-based segment that uses a Boolean <span class="wintitle"> OR</span> condition. </p> <p> <p>Note:  <span class="wintitle"> Audience Marketplace</span> reports impressions at the <span class="wintitle"> Data Feed</span> level, not the trait level. Segments built from traits with a Boolean <span class="wintitle"> OR</span> from multiple traits from different feeds, allocate 75% of impressions to each feed in the segment, not each Trait. See the <a href="../../../c-features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#section_61B684C354944A5CA3BE1A01007B9577"> billing examples</a> below. </p> </p> </td> 
+   <td colname="col2"> <p>Apply weighted allocation of the delivered impression totals to all the provider traits in a rules-based segment that uses a [!DNL Boolean] [!DNL OR] condition. Weighted allocation is calculated using the following formula:
+
+(Trait Population / Segment Population) * Number of Impressions * Cost of CPM</p> </td> 
   </tr>
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> NOT</span> </p> </td> 
-   <td colname="col2"> <p>Apply 100% of the delivered impression totals to all the provider feeds in a rules-based segment that uses a Boolean <span class="wintitle"> NOT</span> condition. </p> </td> 
+   <td colname="col2"> <p>Apply 100% of the delivered impression totals to all the provider traits in a rules-based segment that uses a Boolean <span class="wintitle"> NOT</span> condition. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Algorithmic segments </p> </td> 
-   <td colname="col2"> <p>Apply 100% of the delivered impression totals to all the provider feeds in an algorithmic segment. </p> </td> 
+   <td colname="col2"> <p>Apply 100% of the delivered impression totals to all the provider feeds in a segment containing algorithmic traits. </p> </td> 
   </tr>
  </tbody>
 </table>
 
 ## Billing Examples {#section_61B684C354944A5CA3BE1A01007B9577}
 
-These example can help you understand how to allocate impressions when you create segments from traits in a data feed. For simplicity, each example assumes 100 impressions for a one month billing period.
+The examples below are meant to illustrate how CPM usage allocation is done at data feed level.
 
-**Case 1: Segments With [!UICONTROL AND] Qualification Rules**
+>[!MPORTANT]
+>We recommend that you [Report CPM Usage at Segment Level]() instead, to have this process done automatically.
 
-This segment contains 2 traits from separate data providers. Because segment qualification is based on an [!UICONTROL AND] condition, visitors have to realize the traits from both feeds to qualify for the segment.
+Let's consider the following scenario:
+![billing-examples](assets/billing-examples.png)
 
-![](assets/AND_segment.png)
+### Case 1: Segments With [!UICONTROL AND] Qualification Rules
 
-With an [!UICONTROL AND] condition, you must assign 100% of the impressions received during the month to both data providers. In the [!UICONTROL Audience Marketplace] [!UICONTROL Payables] section, you credit each provider with 100 impressions.
+This segment contains 3 traits from separate data providers. Since segment qualification is based on an [!UICONTROL AND] condition, visitors have to realize the traits from all three feeds to qualify for the segment.
 
-![](assets/AND_report.png)
+![](assets/billing-segment-and.png)
 
-This example applies to segments that use Boolean [!UICONTROL NOT] operators or for segments that contain algorithmic traits.
+With an [!UICONTROL AND] condition, you must assign 100% of the impressions received during the month to all three data providers. In the [!UICONTROL Audience Marketplace > Payables] section, you credit each provider with 1,000,000 impressions.
 
-**Case 2: Segments With [!UICONTROL OR] Qualification Rules**
+This example applies to segments that use [!DNL Boolean] [!UICONTROL NOT] operators or for segments that contain algorithmic traits.
 
-This segment contains 2 traits from separate data providers. Because segment qualification is based on an [!UICONTROL OR] condition, visitors have to realize either Trait 1 or Trait 2 to qualify for the segment.
+### Case 2: Segments With [!UICONTROL OR] Qualification Rules
 
-![](assets/OR_segment.png)
+This segment contains 3 traits from separate data providers. Since segment qualification is based on an [!UICONTROL OR] condition, visitors have to realize at least one of the three traits to qualify for the segment.
 
-We cannot tell which trait is responsible for an impression because qualification is based on an [!UICONTROL OR] condition. As a result, in the [!UICONTROL Audience Marketplace] [!UICONTROL Payables] section you credit each provider with 75% of the total impressions.
+We cannot tell which trait is responsible for an impression because qualification is based on an [!UICONTROL OR] condition. As a result, in the [!UICONTROL Audience Marketplace > Payables] section you credit each provider with a weighted allocation of the total impressions, based on trait population.
 
-![](assets/OR_report.png)
-
-**Case 3: Single Segment With Multiple Traits**
-
-In this example, we have a single segment that contains 2 traits from separate data providers. Segment qualification in this case is based on an implied Boolean [!UICONTROL OR] condition. The [!UICONTROL OR] is not set explicitly by a menu option selection when you create the segment. Because segment qualification is an implied [!UICONTROL OR] condition, visitors have to realize either Trait 1 or Trait 2 to qualify for the segment.
-
-![](assets/single_segment.png)
-
-The bill result in this case is identical to example 2 above. We cannot tell which trait is responsible for an impression because qualification is based on an implied [!UICONTROL OR] condition. As a result, in the [!UICONTROL Audience Marketplace] [!UICONTROL Payables] section you credit each provider with 75% of the total impressions.
-
-![](assets/single_segment_report.png)
+![billing-segment-or](assets/billing-segment-or.png)
 
 >[!MORE_LIKE_THIS]
 >
 >* [Billing and Impression Allocation for Flat Fee Data Feeds](../../../c-features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#concept_FE781C4C5C044C1F986F1AB6BA4E328F)
-
-## Billing and Impression Allocation for Flat Fee Data Feeds {#concept_FE781C4C5C044C1F986F1AB6BA4E328F}
-
-A flat fee data feed bills you a fixed amount each month, regardless of when the subscription starts or how many impressions you use. Fees are not prorated for partial month usage or intervals. As with CPM billing, [!DNL Adobe] will generate an invoice and bill you at the monthly, flat fee rate for your subscribed data feeds.
-
-<!--
-marketplace_flat_billing.xml
--->
-
-For example, let's say you decided to turn on certain traits in a feed in the middle of the month. You will still be billed at the full, monthly rate regardless of when you started the subscription or activated specific traits. 
-
->[!MORE_LIKE_THIS]
->
->* [Billing and Impression Allocation for CPM Data Feeds](../../../c-features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#concept_E757985A4850400288F1DD9A02B755D5)
->* [How to Report CPM Usage](../../../c-features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#task_22D86C3A39544CA8A4BC2360DC115877)

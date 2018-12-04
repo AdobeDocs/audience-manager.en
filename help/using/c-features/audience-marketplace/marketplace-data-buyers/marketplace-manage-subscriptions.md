@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# Manage Data Feed Subscriptions{#manage-data-feed-subscriptions}
+# Manage Data Feed Subscriptions {#manage-data-feed-subscriptions}
 
 The Marketplace is where data buyers go to research and subscribe to public and private data feeds. Follow these steps to subscribe to a public data feed.
 
@@ -23,7 +23,7 @@ The [!UICONTROL Marketplace] is where data buyers go to research and subscribe t
 t_subscribe_feed.xml
 -->
 
-To subscribe to a public data feed: 
+To subscribe to a public data feed:
 
 1. Go to **[!UICONTROL Audience Marketplace > Marketplace]**. Use the search feature or browse through the list to find a data feed.
 
@@ -136,11 +136,11 @@ marketplace-buyer-discounts.xml
 
 To review your discounted feeds:
 
-1. Go to **[!UICONTROL Audience Marketplace > Marketplace]**. 
-1. Click the name of a feed you're already subscribed to. 
+1. Go to **[!UICONTROL Audience Marketplace > Marketplace]**.
+1. Click the name of a feed you're already subscribed to.
 1. Look at the [!UICONTROL Price] and [!UICONTROL Your Price] columns in the [!UICONTROL Plan Details] table. If the feed is discounted:
 
-    * The original price is marked with a red line. 
+    * The original price is marked with a red line.
     * The fee in the [!UICONTROL Your Price] column will be lower than the fee in the [!UICONTROL Price] column.
 
 In the example, the buyer gets a 10% discount on the [!UICONTROL Segments and Overlap] plan in the **[!UICONTROL Software Audience Feed]**.
@@ -167,13 +167,13 @@ marketplace-feed-storage.xml
 
 ## Unsubscribe from a Data Feed {#task_10D0EA04E9C34F78A69A71AFA25BD40E}
 
-Data buyers unsubscribe from data feeds and plans in **[!UICONTROL Audience Marketplace > Marketplace]. **
+Data buyers unsubscribe from data feeds and plans in **[!UICONTROL Audience Marketplace > Marketplace]**.
 
 <!--
 t_unsubscribe_feed.xml
 -->
 
-To unsubscribe from a data feed: 
+To unsubscribe from a data feed:
 
 1. Click the data feed name in the [!UICONTROL Marketplace].
 1. In the [!UICONTROL Use Case] section find the plan you want to use and move the **[!UICONTROL Subscription]** slider to **[!UICONTROL Off]**.
@@ -190,8 +190,8 @@ marketplace-subscriber-deactivated.xml
 
 It may be puzzling or even upsetting if a feed you subscribe to is shut off. However, data providers can deactivate a data feed for a variety of reasons. Some common reasons include:
 
-* **Billing:** Data providers will deactivate a feed if you're consistently late with fee payments or if you fail to pay your fees. 
-* **Feed Updates:** Data providers need to deactivate feeds when they update their feed taxonomy or cost structures. 
+* **Billing:** Data providers will deactivate a feed if you're consistently late with fee payments or if you fail to pay your fees.
+* **Feed Updates:** Data providers need to deactivate feeds when they update their feed taxonomy or cost structures.
 * **Inactive Buyers:** Data providers reserve the right to deactivate feeds if subscribers show no spending over an extended period of time. 
 * **Inactive Sellers:** Data providers who leave [!UICONTROL Audience Marketplace] will deactivate and delete all their data feeds.
 
