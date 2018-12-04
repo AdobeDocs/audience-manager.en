@@ -22,7 +22,7 @@ Describes the required and optional steps that let you create an algorithmic mod
 t_model_build.xml
 -->
 
-**Model Builder Section**
+### Model Builder Section
 
 [!UICONTROL Model Builder] consists of the [!UICONTROL Basic Information] and [!UICONTROL Configuration] sections. To create a model, complete the required fields in these two sections. Save your model to start the algorithm. [!DNL Audience Manager] sends you an automated notification after the first data run completes. After you receive the email, you can go to [Trait Builder](../../c-features/traits/about-trait-builder.md#concept_13D6537EE5D0459F870C58822AD5400A) and create algorithmic traits. 
 
@@ -33,7 +33,7 @@ t_model_build.xml
 >* *Do not* create models with other algorithmic traits or segments. 
 >* The automated email notification is sent one time only (after the first data run).
 
-**Build a Model**
+### Build a Model
 
 To build a model, go to the [!UICONTROL Models] section and click **[!UICONTROL Add New]** and follow the steps below:
 

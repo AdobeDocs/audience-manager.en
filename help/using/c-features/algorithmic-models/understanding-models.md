@@ -12,10 +12,11 @@ internal: n
 snippet: y
 ---
 
-# About Algorithmic Models{#about-algorithmic-models}
+# About Algorithmic Models {#about-algorithmic-models}
 
 Build and manage the traits or segments used in algorithmic modeling, also referred to as look-alike modeling. Model features are located in Audience Data > Models.
 
+<!-- 
 ## About Algorithmic Models {#concept_49FB2DBD4AD041A4ABAAEE9D83BB996E}
 
 Build and manage the traits or segments used in algorithmic modeling, also referred to as look-alike modeling. Model features are located in Audience Data > Models.
@@ -49,15 +50,15 @@ The major benefits of using [!DNL Audience Manager] modeling include:
 
 You manage models in **[!UICONTROL Audience Data > Models]**. At a high level, the workflow process involves the following:
 
-* Select the baseline data you want the algorithm to evaluate. This includes a trait or segment, time range, and data sources (your own data and third-party data you already have access to through [!DNL Audience Manager]). In the model creation workflow, you can exclude the traits that you don't want to interfere with your model. 
-* Save your model. Once saved, algorithmic evaluation process runs automatically. Note, however, it can take up to 7 days for this process to complete. [!DNL Audience Manager] sends you an email when the algorithm has finished and results are available for trait creation. 
-* Build algorithmic traits in [!UICONTROL Trait Builder]. 
-* Combine traits into segments in [!UICONTROL Segment Builder]. 
+* Select the baseline data you want the algorithm to evaluate. This includes a trait or segment, time range, and data sources (your own data and third-party data you already have access to through [!DNL Audience Manager]). In the model creation workflow, you can exclude the traits that you don't want to interfere with your model.
+* Save your model. Once saved, algorithmic evaluation process runs automatically. Note, however, it can take up to 7 days for this process to complete. [!DNL Audience Manager] sends you an email when the algorithm has finished and results are available for trait creation.
+* Build algorithmic traits in [!UICONTROL Trait Builder].
+* Combine traits into segments in [!UICONTROL Segment Builder].
 * Create and send segment data to a destination.
 
 ## Troubleshooting {#section_356A9E6C33FE4194A70DA6CA2AB511E9}
 
-We deactivate any algorithmic model that fails to generate data for three consecutive runs. Note that you cannot set the status of the model back to active afterwards. To ensure your models generate data, we recommend that you build models from data sources with sufficient traits to accumulate data from. 
+We deactivate any algorithmic model that fails to generate data for three consecutive runs. Note that you cannot set the status of the model back to active afterwards. To ensure your models generate data, we recommend that you build models from data sources with sufficient traits to accumulate data from.
 
 >[!MORE_LIKE_THIS]
 >
@@ -77,27 +78,27 @@ traitweight.xml
 
 The following steps describe the [!UICONTROL TraitWeight] evaluation process.
 
-**Step 1: Build a Baseline for Trait Comparison**
+### Step 1: Build a Baseline for Trait Comparison
 
 To build a baseline, TraitWeight measures all the traits associated with an audience for a 30, 60, or 90-day interval. Next, it ranks traits according to their frequency and their correlation. The frequency count measures commonality. Correlation measures the likelihood of a trait being present only in the baseline audience. Traits that appear often are said to exhibit high commonality, an important characteristic used to set a weighted score when combined with traits discovered in your selected data sources.
 
-**Step 2: Find the Same Traits in the Data Source**
+### Step 2: Find the Same Traits in the Data Source
 
 After it builds a baseline for comparison, the algorithm looks for identical traits in your selected data sources. In this step, TraitWeight performs a frequency count of all discovered traits and compares them to the baseline. However, unlike the baseline, uncommon traits are ranked higher than those that appear more often. Rare traits are said to exhibit a high degree of specificity. TraitWeight assesses combinations of common baseline traits and uncommon (highly specific) data source traits as more influential or desirable than traits common to both data sets. In fact, our model recognizes these large, common traits and does not assign excess priority to data sets with high correlations. Rare traits get higher priority because they are more likely to represent new, unique users than traits with high commonality across the board.
 
-**Step 3: Assign Weight**
+### Step 3: Assign Weight
 
 In this step, TraitWeight ranks newly discovered traits in order of influence or desirability. The weight scale is a percentage that runs from 0% to 100%. Traits ranked closer to 100% means they're more like the audience in your baseline population. Also, heavily weighted traits are valuable because they represent new, unique users who may behave similarly to your established, baseline audience. Remember, TraitWeight considers traits with high commonality in the baseline and high specificity in the compared data sources to be more valuable than traits common in each data set.
 
-**Step 4: Scoring Users**
+### Step 4: Scoring Users
 
 Each user in the selected data sources is given a user score which is equal to the sum of all the weights of the influential traits on that user's profile. The user scores are then normalized between 0 and 100%.
 
-**Step 5: Display and Work with Results**
+### Step 5: Display and Work with Results
 
 Audience Manager displays your weighted model results in [!UICONTROL Trait Builder]. When you want to build an algorithmic trait, [!UICONTROL Trait Builder] lets you create traits based on the weighted score generated by the algorithm during a data run. You can choose a higher accuracy to only qualify users who have very high user scores and therefore are very similar to the baseline audience, rather than the rest of the audience. If you want to reach a larger audience (reach), you can lower the accuracy.
 
-**Step 6: Re-evaluate the Significance of a Trait Across Processing Cycles**
+### Step 6: Re-evaluate the Significance of a Trait Across Processing Cycles
 
 Periodically, TraitWeight re-evaluates the importance of a trait based on the size and change in the population of that trait. This happens as the number of users qualified for that trait increases or decreases over time. This behavior is most clearly seen in traits that become very large. For example, suppose the algorithm uses trait A for modeling. As the population of trait A increases, TraitWeight re-evaluates the importance of that trait and may assign a lower score or ignore it. In this case, trait A is too common or large to say anything significant about its population. After TraitWeight reduces the value of Trait A (or ignores it in the model), the population of the algorithmic trait decreases. The list of influential traits reflects the evolution of the baseline population. Use the list of the influential traits to understand why these changes are occurring. 
 
@@ -114,7 +115,7 @@ Creation and update schedules for new or existing algorithmic models and traits.
 c_model_update_schedule.xml
 -->
 
-**Algorithmic Model Creation and Update Schedule**
+### Algorithmic Model Creation and Update Schedule
 
 <table id="table_E75A2B334A7F47ED9DFFBD6DF8636641"> 
  <thead> 
@@ -143,7 +144,7 @@ c_model_update_schedule.xml
  </tbody>
 </table>
 
-**Algorithmic Trait Creation and Update Schedule**
+### Algorithmic Trait Creation and Update Schedule
 
 <table id="table_92A908818C4F4F2287EA56C786CD0BBD"> 
  <thead> 
@@ -176,9 +177,9 @@ c_models_list_view.xml
 
 The Models list page contains features and tools that help you:
 
-* Create new models. 
-* Manage existing models (edit, pause, delete, or clone). 
-* Search for models by name. 
+* Create new models.
+* Manage existing models (edit, pause, delete, or clone).
+* Search for models by name.
 * Create algorithmic traits using any given model.
 
 ## Models Summary View {#concept_46E124E03A8A4A7C88FA9344E7D57974}
@@ -223,9 +224,8 @@ The model summary page includes the following sections.
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="wintitle"> Traits Using Model</span> </p> </td> 
-   <td colname="col2"> <p>Shows a list of the algorithmic traits based on the selected model. Click a trait name or trait ID for more information on the trait. Select <span class="uicontrol"> Create New Trait with Model</span> to go to the algorithmic trait creation process. </p> <p>The section label changes based on the name of your model. For example, say you create a model and name it Model A. When you load the summary page, the name of this section gets changed to <span class="wintitle"> Traits Using Model A</span>. </p> </td> 
-  </tr> 
- </tbody> 
+   <td colname="col1"> <p> <span class="wintitle"> Traits Using Model</span> </p> </td>
+   <td colname="col2"> <p>Shows a list of the algorithmic traits based on the selected model. Click a trait name or trait ID for more information on the trait. Select <span class="uicontrol"> Create New Trait with Model</span> to go to the algorithmic trait creation process. </p> <p>The section label changes based on the name of your model. For example, say you create a model and name it Model A. When you load the summary page, the name of this section gets changed to <span class="wintitle"> Traits Using Model A</span>. </p> </td>
+  </tr>
+ </tbody>
 </table>
-

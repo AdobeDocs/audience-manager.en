@@ -12,13 +12,9 @@ internal: n
 snippet: y
 ---
 
-# Addressable Audiences{#addressable-audiences}
+# Addressable Audiences {#addressable-audiences}
 
 An overview of the Addressable Audience feature and use cases.
-
-## Addressable Audiences {#concept_8E0BAEF0978F4968B21482E79E601889}
-
-An overview of the [!UICONTROL Addressable Audience] feature and use cases.
 
 ## What is an Addressable Audience? {#section_A1A391DCEBEE4BB789D456CC68B73E88}
 
@@ -36,7 +32,7 @@ The [!UICONTROL Addressable Audience] feature turns this abstract concept into q
 
 Reviewing this data can help you with:
 
-* **Forecasting and planning:** [!UICONTROL Segment Addressable Audience] data gives you more granularity into the segments you are planning to send to a destination for audience targeting and activation. 
+* **Forecasting and planning:** [!UICONTROL Segment Addressable Audience] data gives you more granularity into the segments you are planning to send to a destination for audience targeting and activation.
 
 * **Performance reviews:** The [!UICONTROL Addressable Audiences] feature is also a troubleshooting tool. It lets you review campaign performance, understand campaign reach, and lets you cross-check with targeting/activation partners if you don't see the results you expect.
 
@@ -46,7 +42,7 @@ Before purchasing third-party data for audience acquisition, customers can valid
 
 **Mobile Users and Match Rates**
 
-There are gaps when trying to connect Safari or mobile app users where there are no third-party cookies present. That makes it difficult to sync users with some partners because only those [!DNL Adobe] IDs for synced third-party cookies are provided in the media delivery logs. This is a reason why you might see [low match rates](../c-features/addressable-audiences.md#concept_E89224D00653469A933355160EE667CE) for your destinations. 
+There are gaps when trying to connect Safari or mobile app users where there are no third-party cookies present. That makes it difficult to sync users with some partners because only those [!DNL Adobe] IDs for synced third-party cookies are provided in the media delivery logs. This is a reason why you might see [low match rates](../c-features/addressable-audiences.md#concept_E89224D00653469A933355160EE667CE) for your destinations.
 
 ## Date Ranges in Addressable Audiences and Destinations {#concept_E7BFFFB2930D4E7091C1EF9C1FDB9FD0}
 
@@ -54,11 +50,7 @@ Describes the available date ranges and how data ages out of each interval in th
 
 ## Available Date Ranges and Time Zones {#section_854A764AEC374F5D99DC8331CACFCAAF}
 
-<!-- 
-
-addressable-audience-dates.xml
-
- -->
+<!-- addressable-audience-dates.xml -->
 
 Reports for your [!UICONTROL Addressable Audiences] and [Destinations](../c-features/destinations/destinations.md#concept_5BDA346C376C4B719EA394108AB2735A) use the same date range intervals. The date range options include:
 
@@ -213,11 +205,11 @@ addressable-audiences.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Safari Traffic</b> </p> </td> 
-   <td colname="col2"> <p>Safari blocks third-party cookies. This prevents Audience Manager from synchronizing IDs with the destination. With the introduction of <a href="https://webkit.org/blog/8311/intelligent-tracking-prevention-2-0/" format="https" scope="external"> ITP 2.0</a>, you can expect your addressable audiences not to include Safari users. </p> </td> 
+   <td colname="col2"> <p>Safari blocks third-party cookies. This prevents Audience Manager from synchronizing IDs with the destination. With the introduction of <a href="https://webkit.org/blog/8311/intelligent-tracking-prevention-2-0/" format="https" scope="external"> ITP 2.0</a>, you can expect your addressable audiences not to include Safari users. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Tracked Media Impressions</b> </p> </td> 
-   <td colname="col2"> <p>Due to ad server best practices, ID syncs are not made within ad tags. Customers who do a large amount of offsite advertising will not synchronize users to third-party integrations in those environments. Also, a large amount of collected media impression data could reduce addressable audience numbers. </p> </td> 
+   <td colname="col2"> <p>Due to ad server best practices, ID syncs are not made within ad tags. Customers who do a large amount of offsite advertising will not synchronize users to third-party integrations in those environments. Also, a large amount of collected media impression data could reduce addressable audience numbers. </p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -226,10 +218,6 @@ addressable-audiences.xml
 
 In addition to surfacing match rates, you can also use Addressable Audiences as a troubleshooting tool.
 
-<!-- 
+<!-- addressable-audiences-troubleshooting.xml -->
 
-addressable-audiences-troubleshooting.xml
-
- -->
-
-For example, let's say you send a segment to a destination and that destination shows low reporting numbers. Checking the Addressable Audience results will show you if this is a technical problem or just a case of low match rates. A low match rate shows your destination isn't all that great for your selected segments. However, a difference in the total addressable audience numbers between Audience Manager and the destination indicates an integration, synchronization, or other technical problem. In these cases, contact your account manager. 
+For example, let's say you send a segment to a destination and that destination shows low reporting numbers. Checking the Addressable Audience results will show you if this is a technical problem or just a case of low match rates. A low match rate shows your destination isn't all that great for your selected segments. However, a difference in the total addressable audience numbers between Audience Manager and the destination indicates an integration, synchronization, or other technical problem. In these cases, contact your account manager.

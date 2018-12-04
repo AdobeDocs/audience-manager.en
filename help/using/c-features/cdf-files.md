@@ -11,13 +11,9 @@ internal: n
 snippet: y
 ---
 
-# Customer Data Feeds{#customer-data-feeds}
+# Customer Data Feeds {#customer-data-feeds}
 
 Basic information about Customer Data Feed (CDF) files and instructions on how to get started. Start here if you're interested in receiving CDF files or just want more information.
-
-## Customer Data Feeds {#concept_114B993EC5E246AE8CDD55E695B344FC}
-
-Basic information about [!UICONTROL Customer Data Feed] (CDF) files and instructions on how to get started. Start here if you're interested in receiving CDF files or just want more information.
 
 ## File Contents and Purpose {#section_F0D2FA4C021A4C5EBC1D5308AE2F256F}
 
@@ -37,14 +33,14 @@ A CDF file contains the same data that an [!DNL Audience Manager] event call ( `
 
 There is no self-service process to start CDF file delivery. Contact your [!DNL Audience Manager] consultant or Customer Care to get started. During implementation, your [!DNL Audience Manager] representative will:
 
-* Set up your Amazon S3 storage bucket. 
+* Set up your Amazon S3 storage bucket.
 * Provide read-only S3 authentication credentials to your file storage bucket. You will not be able to see or access directories and files that belong to other customers.
 
-File notifications and CDF files will appear in your S3 bucket when they're ready for download. You're responsible for monitoring and downloading files from your assigned S3 directory. See [Customer Data Feed File Processing Notifications](#concept_00F913A9946A4A10A0F34269AC84A563) .
+File notifications and CDF files will appear in your S3 bucket when they're ready for download. You're responsible for monitoring and downloading files from your assigned S3 directory. See [Customer Data Feed File Processing Notifications](#concept_00F913A9946A4A10A0F34269AC84A563).
 
 ## Next Steps {#section_AB55E04E26D9464D8EB911D51B45E4B8}
 
-The following documentation and the [Customer Data Feed FAQ](../faq/faq-cdf.md#concept_E832A7307FA0475C918F95116C21CBC6) can help you become more familiar with this service. 
+The following documentation and the [Customer Data Feed FAQ](../faq/faq-cdf.md#concept_E832A7307FA0475C918F95116C21CBC6) can help you become more familiar with this service.
 
 ## Customer Data Feed Contents Defined {#reference_6257ACA5665D4820900F111CFED50866}
 
@@ -188,7 +184,7 @@ CDF file data appears in the order shown below.
 
 ![](assets/sequence-map.png)
 
-**Identifying Arrays**
+## Identifying Arrays
 
 Arrays in a CDF file start and end with the `Ctrl + a` field separator. This makes the first element in an array appear like a standalone data field. For example, the realized traits array starts with `^A1234`. The array delimiter and ID `^B5678` follows this entry. As a result, you might be tempted to think that the first element in the realized traits array is ID 5678 (because it starts with `^B`). This is not the case, which is why you need to be familiar with the sequence and structure of a data file. Even though the first element in the realized trait array (or any of the other arrays in a CDF file) starts with `^A`, the order of appearance or position in the file defines the start of an array. And, the first element in an array is always separated from the preceding entry by `^A`.
 
@@ -401,17 +397,17 @@ The following table provides additional details about your CDF file timestamps a
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>File Name</b> </p> </td> 
-   <td colname="col2"> <p>The timestamp in your CDF file name marks the time when <span class="keyword"> Audience Manager</span> started preparing your file for delivery. This timestamp is set in the UTC time zone. It uses the <span class="codeph"> hour=</span> parameter, with time formatted as a 2-digit hour in 24-hour notation. This time can be different than the event time recorded in the file contents. </p> <p>When working with CDF files, sometimes you'll notice that your S3 bucket is empty for a particular hour. An empty bucket means can mean either of the following: </p> <p> 
+   <td colname="col2"> <p>The timestamp in your CDF file name marks the time when <span class="keyword"> Audience Manager</span> started preparing your file for delivery. This timestamp is set in the UTC time zone. It uses the <span class="codeph"> hour=</span> parameter, with time formatted as a 2-digit hour in 24-hour notation. This time can be different than the event time recorded in the file contents. </p> <p>When working with CDF files, sometimes you'll notice that your S3 bucket is empty for a particular hour. An empty bucket means can mean either of the following: </p> <p>
      <ul id="ul_17F1B3AD9D17414EA5D2C976E98D3354"> 
-      <li id="li_E2FE44B220574073B2961F17AE201509">There's no data for that particular hour. </li> 
-      <li id="li_D95E682F50624030815FD75F2A60BE36"> Our servers are under heavy loads and can't process files for a particular hour. When the server catches up, it puts the files that should have gone in an earlier time bucket files into a bucket with a later time value. For example, you'll see this when a file that should have been in the hour 17 bucket appear in the hour 18 bucket (with <span class="codeph"> hour=18</span> in the file name). In this case, the server probably started processing your file in hour 17 but couldn't complete it within that time interval. Instead, the file gets pushed to the next hourly time bucket. </li> 
-     </ul> </p> <p> <p>Important: Do not use the file name timestamp to group events by time. If you need to group by time, use the <span class="codeph"> EventTime</span> timestamp in the file contents. </p> </p> </td> 
-  </tr> 
+      <li id="li_E2FE44B220574073B2961F17AE201509">There's no data for that particular hour. </li>
+      <li id="li_D95E682F50624030815FD75F2A60BE36"> Our servers are under heavy loads and can't process files for a particular hour. When the server catches up, it puts the files that should have gone in an earlier time bucket files into a bucket with a later time value. For example, you'll see this when a file that should have been in the hour 17 bucket appear in the hour 18 bucket (with <span class="codeph"> hour=18</span> in the file name). In this case, the server probably started processing your file in hour 17 but couldn't complete it within that time interval. Instead, the file gets pushed to the next hourly time bucket. </li>
+     </ul> </p> <p> <p>Important: Do not use the file name timestamp to group events by time. If you need to group by time, use the <span class="codeph"> EventTime</span> timestamp in the file contents. </p> </p> </td>
+  </tr>
   <tr> 
-   <td colname="col1"> <p> <b>File Contents</b> </p> </td> 
+   <td colname="col1"> <p> <b>File Contents</b> </p> </td>
    <td colname="col2"> <p>The timestamp in your CDF file contents marks the time the <span class="wintitle"> Data Collection Servers</span> started processing the file. This timestamp is set in the UTC time zone. It uses the <span class="codeph"> EventTime</span> field, with time formatted as <span class="codeph"><span class="varname"> yyyy-mm-dd hh:mm:ss</span></span>. This time is close to the actual time of the event on the page, but it can be different than the hour indicator in the file name. </p> <p> <p>Tip: Unlike the <span class="codeph"> hour=</span> timestamp in the file name, you can use <span class="codeph"> EventTime</span> to group data by time. </p> </p> </td> 
-  </tr> 
- </tbody> 
+  </tr>
+ </tbody>
 </table>
 
 >[!MORE_LIKE_THIS]

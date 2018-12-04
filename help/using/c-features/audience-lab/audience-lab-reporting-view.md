@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# Test Group Reporting{#test-group-reporting}
+# Test Group Reporting {#test-group-reporting}
 
 The test group reporting section returns information on test group conversions, allowing an easy comparison of test segment efficacy. Numerous filters and dimensions are available for data visualization.
 
