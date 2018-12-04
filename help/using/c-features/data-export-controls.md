@@ -10,7 +10,7 @@ internal: n
 snippet: y
 ---
 
-# Data Export Controls{#data-export-controls}
+# Data Export Controls {#data-export-controls}
 
 Data Export Controls prevent you from sending data to destinations when this action violates data privacy or data use agreements.
 
@@ -18,8 +18,8 @@ Data Export Controls prevent you from sending data to destinations when this act
 
 [!UICONTROL Data Export Controls] let you classify [data sources](../c-features/datasources-list-and-settings.md#concept_DC7CC030739C436C947078C7877C15AD) and [destinations](../c-features/destinations/destinations.md#concept_5BDA346C376C4B719EA394108AB2735A). The classifications you apply determine when data can or cannot be exported to a destination. This feature consists of:
 
-* ** [!UICONTROL Data Export Controls] **: When set on a data source, these controls restrict how that data source and its traits can be used. 
-* ** [!UICONTROL Data Export Controls] **: When set on a destination, these labels identify how the destination uses data.
+* **[!UICONTROL Data Export Controls]**: When set on a data source, these controls restrict how that data source and its traits can be used. 
+* **[!UICONTROL Data Export Controls]**: When set on a destination, these labels identify how the destination uses data.
 
 Based on the classifications applied to a data source and destination, the export controls stop you from:
 
@@ -95,4 +95,3 @@ To get started, review the data source and destination documentation. These arti
 
 * [Create a Data Source](../c-features/manage-datasources.md#concept_3B7696B3EC77416492D3B99EBD79EA44) 
 * [Add Data Export Labels to a Destination](../c-features/destinations/manage-destinations.md#task_A4BA30472E6F4687AC3F1B33F51909D9)
-

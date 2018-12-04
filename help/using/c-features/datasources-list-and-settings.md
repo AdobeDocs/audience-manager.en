@@ -10,21 +10,22 @@ internal: n
 snippet: y
 ---
 
-# Data Sources List and Settings{#data-sources-list-and-settings}
-
-View a list of your currently configured data sources, add new data sources, and edit existing sources.
-
-## Data Sources List and Settings {#concept_DC7CC030739C436C947078C7877C15AD}
+# Data Sources List and Settings {#data-sources-list-and-settings}
 
 View a list of your currently configured data sources, add new data sources, and edit existing sources.
 
 <!-- 
+## Data Sources List and Settings {#concept_DC7CC030739C436C947078C7877C15AD}
+
+View a list of your currently configured data sources, add new data sources, and edit existing sources.
+
+<!--
 
 c_datasources.xml
 
  -->
 
-You can also manage data sources using API methods. For more information, see [Data Source API Methods](../c-api/c-rest-api-main/aam-api-data-sources.md#concept_F7602FD030AA4638AF6D045E1009FA47). 
+You can also manage data sources using API methods. For more information, see [Data Source API Methods](../c-api/c-rest-api-main/aam-api-data-sources.md#concept_F7602FD030AA4638AF6D045E1009FA47).
 
 ## Data Sources List View {#concept_0BFDC710F1E145EEB44447F41CDEDA9C}
 
@@ -98,10 +99,10 @@ In addition to text fields, the [!UICONTROL Data Source Details] section contain
 
 Options include:
 
-* **[!UICONTROL No Restriction]** 
-* **[!UICONTROL Cannot be tied to personally identifiable information]** 
-* **[!UICONTROL Cannot be used for on-site ad targeting]** 
-* **[!UICONTROL Cannot be used for off-site ad targeting]** 
+* **[!UICONTROL No Restriction]**
+* **[!UICONTROL Cannot be tied to personally identifiable information]**
+* **[!UICONTROL Cannot be used for on-site ad targeting]**
+* **[!UICONTROL Cannot be used for off-site ad targeting]**
 * **[!UICONTROL Cannot be used for on-site personalization]**
 
 ## Data Source Settings {#section_423704D358D049738DBA4216FEFFF798}
@@ -177,7 +178,6 @@ Select the **[!UICONTROL Inbound]** check box when your data source is designed 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Unique Segment Integration Codes</span> </p> </td> 
    <td colname="col2"> <p>You want to enforce that two segments from the same data source don't have the same integration code. </p> </td> 
-  </tr> 
- </tbody> 
+  </tr>
+ </tbody>
 </table>
-

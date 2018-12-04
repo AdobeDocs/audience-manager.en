@@ -10,7 +10,7 @@ internal: n
 snippet: y
 ---
 
-# Declared IDs{#declared-ids}
+# Declared IDs {#declared-ids}
 
 How declared IDs work, set up procedures, code examples, and variables.
 
@@ -26,7 +26,7 @@ declared_id_about.xml
 
 ## Purpose of Declared ID Targeting {#section_2127B48E659E4D3AB03C698EBE9B589F}
 
-Some browsers, and most mobile devices, do not accept third-party cookies. This makes it difficult to retain information about site visitors or assign persistent IDs. To resolve this issue, Audience Manager uses [!UICONTROL DIL] to let you pass in [!UICONTROL declared IDs] on an event call. Also, a [!UICONTROL declared ID] can act as a universal ID that applies to the same user across all the solutions in the [!DNL Experience Cloud]. The following table describes the ID targeting/matching process: 
+Some browsers, and most mobile devices, do not accept third-party cookies. This makes it difficult to retain information about site visitors or assign persistent IDs. To resolve this issue, Audience Manager uses [!UICONTROL DIL] to let you pass in [!UICONTROL declared IDs] on an event call. Also, a [!UICONTROL declared ID] can act as a universal ID that applies to the same user across all the solutions in the [!DNL Experience Cloud]. The following table describes the ID targeting/matching process:
 
 <table id="table_5D59CD5AF70B44C3B45D279283D4691F"> 
  <thead> 
@@ -52,7 +52,7 @@ Some browsers, and most mobile devices, do not accept third-party cookies. This 
    <td colname="col1"> <b>Subsequent Event Calls</b> </td> 
    <td colname="col2"> <p>Additional event calls read the Audience Manager ID from the client's domain and send that to Audience Manager. </p> </td> 
   </tr> 
- </tbody> 
+ </tbody>
 </table>
 
 To get started, you need to configure the [!DNL Experience Cloud] ID service and [!UICONTROL DIL] across the pages on your site that you want to use for data collection. See [DIL create](../c-dil/dil-class-overview/dil-create.md#reference_F87131F6C1CC4ECCA064B24B91710FD4) and [Declared ID Variables](../c-features/declared-ids.md#reference_F697F0D53E56430D95EC0C408B767F80).
@@ -61,7 +61,7 @@ To get started, you need to configure the [!DNL Experience Cloud] ID service and
 
 The [!UICONTROL declared ID] process honors site visitor preferences to opt-out of Audience Manager targeting by your website. When Audience Manager receives an opt-out request, the JSON returned by the DCS contains the error code 171, with the message "Encountered opt out tag", instead of the Audience Manager user ID.
 
-* Audience Manager can pass in a [!UICONTROL declared ID] opt-out alongside an Audience Manager UUID in the URL. 
+* Audience Manager can pass in a [!UICONTROL declared ID] opt-out alongside an Audience Manager UUID in the URL.
 * The [!UICONTROL declared ID] opt-out is stored in the Profile Cache Server (PCS) on a per-partner basis. There is no platform-level opt-out using [!UICONTROL declared IDs]. Additionally, Audience Manager opts the user out from that particular region on the edge (the opt-out does not cross DCS regions).
 
 See [Data Privacy](../overview/c-data-security-and-privacy/data-privacy.md#concept_C1E36C6BF4C0461F9D31687E275DC46A) for more information about opting-out of data collection.
@@ -70,7 +70,7 @@ See [Data Privacy](../overview/c-data-security-and-privacy/data-privacy.md#conce
 
 You can make a [!UICONTROL declared ID] opt-out requests with the `d_cid` and `d_cid_ic` key-value pairs. The legacy parameters like `d_dpid` and `d_dpuuid` still work, but are considered deprecated. See [CID Replaces DPID and DPUUID](../reference/cid.md#concept_E9DE716F22E8491AB27057DB92B79081). In the examples, *italics* indicates a variable placeholder.
 
-**Opt-Outs With CID and CID_IC**
+### Opt-Outs With CID and CID_IC
 
 For a description and syntax, see [URL Variables and Syntax for Declared IDs](../c-features/declared-ids.md#concept_22E2210AA6604B83B46F5E0CD5504A51).
 
@@ -97,7 +97,7 @@ For a description and syntax, see [URL Variables and Syntax for Declared IDs](..
  </tbody> 
 </table>
 
-**Opt-Outs With DPID, DPUUID, and UUID (Deprecated)**
+### Opt-Outs With DPID, DPUUID, and UUID (Deprecated)
 
 These methods still work but are considered deprecated. This information is provided for legacy purposes and reference. Legacy opt-outs include:
 
@@ -247,7 +247,7 @@ The following table describes the legacy variables used by the `declaredId` obje
 
 **dpid and dpuuid**
 
-Audience Manager compares and matches the combined `dpid` and `dpuuid` to a corresponding user ID in our system. If an ID does not exist, Audience Manager creates a new user ID and synchronizes it to the ` `dpid`` `/dpuuid` combination. Once Audience Manager matches or creates a user ID (the `uuid`) it returns that ID in the JSON response to the cookie in the client's domain (first-party cookie) or other local storage.
+Audience Manager compares and matches the combined `dpid` and `dpuuid` to a corresponding user ID in our system. If an ID does not exist, Audience Manager creates a new user ID and synchronizes it to the `dpid/dpuuid` combination. Once Audience Manager matches or creates a user ID (the `uuid`) it returns that ID in the JSON response to the cookie in the client's domain (first-party cookie) or other local storage.
 
 Call this function when you're using DIL v6.1 or earlier. However, this function has been deprecated in favor of the new version that gets [!UICONTROL declared IDs] from the [!UICONTROL Experience Cloud ID Service].
 
@@ -309,4 +309,4 @@ myCallback({
 
 ## Do Not Target and Opt-Out Calls {#section_BAEA7C88783B4E7096A6B95F4F040652}
 
-The [!UICONTROL declared ID] process honors site visitor preferences to opt-out of Audience Manager targeting by your website. When Audience Manager receives an opt-out request, the DCS returns an empty JSON object instead of the Audience Manager user ID. 
+The [!UICONTROL declared ID] process honors site visitor preferences to opt-out of Audience Manager targeting by your website. When Audience Manager receives an opt-out request, the DCS returns an empty JSON object instead of the Audience Manager user ID.

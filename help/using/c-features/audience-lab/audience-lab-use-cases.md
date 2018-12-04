@@ -23,7 +23,7 @@ You can use several different types and sources of models in [!DNL Audience Mana
 audience-lab-compare-models.xml
 -->
 
-In this use case, you are comparing different models. You can either use models created via an in-house data warehouse and import them in [!DNL Audience Manager] as [Onboarded Traits](../../c-features/traits/create-onboarded-rule-based-traits.md#concept_CFCB78FDF44A42BCA69C948A2C8EC3D5) or you can use the [Algorithmic Models](../../c-features/algorithmic-models/understanding-models.md#concept_49FB2DBD4AD041A4ABAAEE9D83BB996E) feature in [!DNL Audience Manager]. 
+In this use case, you are comparing different models. You can either use models created via an in-house data warehouse and import them in [!DNL Audience Manager] as [Onboarded Traits](../../c-features/traits/create-onboarded-rule-based-traits.md#concept_CFCB78FDF44A42BCA69C948A2C8EC3D5) or you can use the [Algorithmic Models](../../c-features/algorithmic-models/understanding-models.md#concept_49FB2DBD4AD041A4ABAAEE9D83BB996E) feature in [!DNL Audience Manager].
 
 1. Create two models, either in the [Model Builder](../../c-features/algorithmic-models/create-model.md#concept_25287B0C161F4BFCBCCFEB5CC6E613D0), or via an outside platform.
 1. Create [algorithmic traits](../../c-features/traits/create-algorithmic-traits.md#task_E9A3F46A50C14450AE263775EECA0353) from the algorithmic model or import your own models as onboarded traits.
@@ -34,8 +34,8 @@ In this use case, you are comparing different models. You can either use models 
 
 1. [Create two segment test groups](../../c-features/audience-lab/audience-lab-manage-test-groups.md#task_B62EF6D2992941FAAEA84BE2EA11A55E) in [!UICONTROL Audience Lab], one with *Model 1 Segment* as the baseline, the other with *Model 2 Segment* as the baseline.
 
-    * Keep the variables the same for both test groups: same destinations, creative, conversion traits. 
-    * Make sure the test segments have similar numbers of users (e.g. 1.6 million and 1.8 million is alright, 1.6 million and 16 million is not). 
+    * Keep the variables the same for both test groups: same destinations, creative, conversion traits.
+    * Make sure the test segments have similar numbers of users (e.g. 1.6 million and 1.8 million is alright, 1.6 million and 16 million is not).
     * Reserve a control segment in each test segment test group. This way, you can set aside a small part of each segment and not target them explicitly in the test.
 
 1. Examine the results:

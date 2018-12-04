@@ -13,20 +13,12 @@ snippet: y
 
 Trait Exclusion provides additional controls in your modeling workflow, allowing you to add the necessary guard rails to the model, based on your domain expertise and regulatory requirements. Use the Exclusions option to select which traits to ignore when creating models from one or more data sources.
 
-On this page:
-
-<ul class="simplelist"> 
- <li> <a href="../../c-features/algorithmic-models/trait-exclusion-algo-models.md#section_6151890E8D4E4654B093EDEFCA5390C2"> Use Cases </a> </li>
- <li> <a href="../../c-features/algorithmic-models/trait-exclusion-algo-models.md#section_5D40294A28F64C72ABF08E801D751A9E"> How to Use Trait Exclusions </a> </li>
- <li> <a href="../../c-features/algorithmic-models/trait-exclusion-algo-models.md#section_0C9F978C654C49CBA8BC77523A70E033"> Important Aspects &amp; Limitations </a> </li>
-</ul>
-
 ## Use Cases {#section_6151890E8D4E4654B093EDEFCA5390C2}
 
 Here are some use cases you can address with [!UICONTROL Trait Exclusion]:
 
-* [!UICONTROL Trait Exclusion] enables you to exclude certain catch-all traits, such as site visitor traits, so you don't bias the model, leading to flat results. 
-* You can remove traits that you don't know about or you don't trust from a data source, to better understand the influential traits. 
+* [!UICONTROL Trait Exclusion] enables you to exclude certain catch-all traits, such as site visitor traits, so you don't bias the model, leading to flat results.
+* You can remove traits that you don't know about or you don't trust from a data source, to better understand the influential traits.
 * You can exclude certain traits, such as demographic traits, to help with any compliance obligations you may have.
 
 >[!IMPORTANT]

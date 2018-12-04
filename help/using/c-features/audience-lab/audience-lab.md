@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# Audience Lab{#audience-lab}
+# Audience Lab {#audience-lab}
 
 Create mutually exclusive test segments in Segment Test Groups to compare and measure effectiveness of different destinations. You can set aside a control group and divide your segment into percentages of a whole, in order to test efficacy.
 
@@ -70,9 +70,9 @@ The status of a test group can be active, scheduled, paused, draft, or completed
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Completed </span> </p> </td> 
-   <td colname="col2"> <p>A <i>completed</i> test group has reached the end date you selected in the <span class="uicontrol"> Create Test Groups </span> wizard and has stopped sending reporting data. </p> </td> 
-  </tr> 
- </tbody> 
+   <td colname="col2"> <p>A <i>completed</i> test group has reached the end date you selected in the <span class="uicontrol"> Create Test Groups </span> wizard and has stopped sending reporting data. </p> </td>
+  </tr>
+ </tbody>
 </table>
 
 ## Actions {#section_7548C5D56B004377AB330399746F79F7}
@@ -81,34 +81,33 @@ The status of a test group can be active, scheduled, paused, draft, or completed
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Actions </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
+   <th colname="col2" class="entry"> Description </th>
+  </tr>
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Edit </span> </p> </td> 
-   <td colname="col2"> <p>Available <b>only</b> for draft test groups. Allows you to resume the <span class="uicontrol"> Create New Test Group </span> wizard. </p> </td> 
-  </tr> 
+   <td colname="col1"> <p> <span class="uicontrol"> Edit </span> </p> </td>
+   <td colname="col2"> <p>Available <b>only</b> for draft test groups. Allows you to resume the <span class="uicontrol"> Create New Test Group </span> wizard. </p> </td>
+  </tr>
   <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Pause </span> </p> </td> 
-   <td colname="col2"> <p>Available for active test groups. Allows you to pause sending the test segments to destinations. </p> </td> 
-  </tr> 
+   <td colname="col1"> <p> <span class="uicontrol"> Pause </span> </p> </td>
+   <td colname="col2"> <p>Available for active test groups. Allows you to pause sending the test segments to destinations. </p> </td>
+  </tr>
   <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Make Active </span> </p> </td> 
-   <td colname="col2"> <p>Available for paused test groups. Allows you to resume sending the test segments to destinations. </p> </td> 
-  </tr> 
+   <td colname="col1"> <p> <span class="uicontrol"> Make Active </span> </p> </td>
+   <td colname="col2"> <p>Available for paused test groups. Allows you to resume sending the test segments to destinations. </p> </td>
+  </tr>
   <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> View </span> </p> </td> 
-   <td colname="col2"> <p>Available for completed test groups. Allows you to view the reporting information the test has generated. </p> </td> 
-  </tr> 
+   <td colname="col1"> <p> <span class="uicontrol"> View </span> </p> </td>
+   <td colname="col2"> <p>Available for completed test groups. Allows you to view the reporting information the test has generated. </p> </td>
+  </tr>
   <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Duplicate </span> </p> </td> 
-   <td colname="col2"> <p>Allows you to create a new test group with the same configuration as the one you are duplicating. </p> </td> 
-  </tr> 
+   <td colname="col1"> <p> <span class="uicontrol"> Duplicate </span> </p> </td>
+   <td colname="col2"> <p>Allows you to create a new test group with the same configuration as the one you are duplicating. </p> </td>
+  </tr>
   <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Delete </span> </p> </td> 
-   <td colname="col2"> <p>Allows you to delete a test group. The test segments will be unmapped from the destinations, the baseline segment and conversion traits associated to the test group are fully editable. An alert will prompt you to download the CSV file when you delete a test group to save the reporting if you wish. </p> </td> 
-  </tr> 
- </tbody> 
+   <td colname="col1"> <p> <span class="uicontrol"> Delete </span> </p> </td>
+   <td colname="col2"> <p>Allows you to delete a test group. The test segments will be unmapped from the destinations, the baseline segment and conversion traits associated to the test group are fully editable. An alert will prompt you to download the CSV file when you delete a test group to save the reporting if you wish. </p> </td>
+  </tr>
+ </tbody>
 </table>
-

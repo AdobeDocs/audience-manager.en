@@ -16,8 +16,6 @@ This article describes two features which provide advanced functionality for Aud
 
 ## Duplicate Allocation Template {#section_520626580ECB48C9A6EFEFC9A5D49D1B}
 
-### Overview
-
 <!-- 
 <p>The <b>Allocation Template</b> represents how you split a test group into test segments and the way the test segments are mapped to destinations. </p>
  -->
@@ -37,7 +35,7 @@ By duplicating an allocation template, you can reuse the same distribution of te
 With the option to duplicate allocation templates, you can increase your productivity when running multivariate tests as part of multivariate campaigns.
 -->
 
-### How to use
+### Using Duplicate Allocation Template
 
 Create an initial test group, then select **[!UICONTROL Duplicate Allocation Template]** to reuse the same settings across multiple test groups. For example, you can use this feature if you're running a test where you want to determine the efficacy of several destinations for multiple segments.
 
@@ -61,15 +59,13 @@ Create an initial test group, then select **[!UICONTROL Duplicate Allocation Tem
 >
 >Test Segment Holdout is an advanced functionality, activated on customer request. Please contact Customer Care or Adobe Consulting to activate this feature.
 
-### Overview
-
 Use this feature to withhold part of the audience from being included in the test. The percentage you select is left out of the test. This way, you can measure and compare the number of conversions from targeted (activated on destinations) and untargeted (holdout group) audiences.
 
 <!--
 <p>Note that this option is different to the control segment because it subtracts the percentage ................. You can withhold an audience group and still use a control segment. </p>
 -->
 
-### How to Use
+### Using Test Segment Holdout
 
 1. Create a new test group by using the Create Test Group wizard. 
 1. In the **[!UICONTROL Allocate Test Segment]** step, you can select a part of the audience to be withheld from testing.

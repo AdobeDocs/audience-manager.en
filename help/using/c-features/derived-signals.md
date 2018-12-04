@@ -14,7 +14,7 @@ snippet: y
 
 A derived signal qualifies site visitors for additional traits based on a trait they've already seen. In other words, additional trait qualification can be derived from a currently exhibited trait even if a user has never seen the new trait before.
 
-## Derived Signals {#topic_58AB69FE2A194E05A64D0CCB1ACD7C20}
+<!-- ## Derived Signals {#topic_58AB69FE2A194E05A64D0CCB1ACD7C20}
 
 A [!UICONTROL derived signal] qualifies site visitors for additional traits based on a trait they've already seen. In other words, additional trait qualification can be derived from a currently exhibited trait even if a user has never seen the new trait before.
 
@@ -22,15 +22,15 @@ A [!UICONTROL derived signal] qualifies site visitors for additional traits base
 c_tb_derived_signal.xml
  -->
 
-**Purpose of Derived Signals**
+## Purpose of Derived Signals
 
 In [!DNL Audience Manager], you can create a relationship between signals (or trait rules) passed in during an event call to other, specified signals or traits. For example, assume an event call passes in a signal composed of the key-value "product = new_car" ( `https://<domain alias>/event?product=new_car`). [!DNL Audience Manager] would connect that signal to any others created with the [!UICONTROL derived signals] tool. Although the associated signals can be any key-values you specify, they are most useful when linked to existing signals already set up as [!UICONTROL Trait Builder] rules. For example, in the illustration below, when a user action fires the signal "product = new car" that user can also qualify for traits defined by the target key and value signals.
 
 ![](assets/derived_signal_example.png)
 
-**Location of [!UICONTROL Derived Signals]**
+## Location of [!UICONTROL Derived Signals]
 
-Create and manage [!UICONTROL derived signals] in **[!UICONTROL Tools > Derived Signals]** from the sidebar navigation. 
+Create and manage [!UICONTROL derived signals] in **[!UICONTROL Tools > Derived Signals]** from the sidebar navigation.
 
 ## Create a Derived Signal {#task_5F57826F8EA142C39A91F2FD2332035B}
 
@@ -38,7 +38,7 @@ Create and manage [!UICONTROL derived signals] in **[!UICONTROL Tools > Derived 
 t_tb_create_derived.xml
  -->
 
-**To create a [!UICONTROL derived signal]** 
+To create a [!UICONTROL derived signal]:
 
 1. Select **[!UICONTROL Derived Signals]** from the [!UICONTROL Tools] menu.
 1. Provide a:
@@ -60,7 +60,7 @@ t_tb_create_derived.xml
 t_tb_edit_derived.xml
 -->
 
-**To edit a [!UICONTROL derived signal]** 
+To edit a [!UICONTROL derived signal]:
 
 1. Hover over the signal, then click **[!UICONTROL Edit]**.
 1. Make the required code, key, or value changes, then click **[!UICONTROL Save]**.
