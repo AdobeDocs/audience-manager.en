@@ -12,7 +12,7 @@ internal: n
 snippet: y
 ---
 
-# Audience Marketplace{#audience-marketplace}
+# Audience Marketplace {#audience-marketplace}
 
 Audience Marketplace lets data providers and buyers execute data deals in a self-service manner with minimum effort. It does this by providing specialized features that vary depending on your role as a data buyer or data seller. In fact, you can even be a buyer and a seller at the same time. And, if this couldn’t get any better, Audience Marketplace takes care of contracts, billing, and payments between data providers and sellers.
 

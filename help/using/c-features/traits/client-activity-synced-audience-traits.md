@@ -10,9 +10,9 @@ internal: n
 snippet: y
 ---
 
-# Active Audience Traits and Data Source Synced Traits{#active-audience-traits-and-data-source-synced-traits}
+# Active Audience Traits and Data Source Synced Traits {#active-audience-traits-and-data-source-synced-traits}
 
-These are special traits used by Addressable Audiences. Active Audience and Data Source Synced Traits are located in Audience Data > Traits > Audience Traits.
+These are special traits used by Addressable Audiences. Active Audience and Data Source Synced Traits are located in [!UICONTROL Audience Data > Traits > Audience Traits].
 
 >[!NOTE]
 >

@@ -10,18 +10,9 @@ internal: n
 snippet: y
 ---
 
-# External Device Graph Use Cases{#external-device-graph-use-cases}
+# External Device Graph Use Cases {#external-device-graph-use-cases}
 
 Recommendations and use cases for prospecting, retargeting, and personalization for unknown users with an external device graph. An external device graph is defined as a device graph that is separate from Audience Manager. This includes the Adobe Experience Cloud Device Co-op and other integrations Adobe has with third-party deterministic or probabilistic device graph companies.
-
-Contents:
-
-<ul class="simplelist"> 
- <li> <a href="../../c-features/profile-merge-rules/external-graph-use-cases.md#section_7C93DAA7927A4203B9617A560CCC1F02"> Recommendations </a> </li> 
- <li> <a href="../../c-features/profile-merge-rules/external-graph-use-cases.md#section_B6877E4AFC194EBDA6153A4719E224E8"> Prospecting/Branding Use Case </a> </li> 
- <li> <a href="../../c-features/profile-merge-rules/external-graph-use-cases.md#section_DDA1F5FC497E47B0BFBF199BA92474F5"> Retargeting or Site Personalization Use Case </a> </li> 
- <li> <a href="../../c-features/profile-merge-rules/external-graph-use-cases.md#section_48CFAB21B82A4C88B0FA2CC69187E2DF"> Profile Merge Rule Options for External Device Graph Use Cases... </a> </li>
-</ul>
 
 ## Recommendations {#section_7C93DAA7927A4203B9617A560CCC1F02}
 

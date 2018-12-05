@@ -14,15 +14,6 @@ snippet: y
 
 Profile Link metrics provide data about people and devices that authenticate to your site. The data and graphs in Profile Link update dynamically as you create a merge rules or when you click an existing rule from the Profile Merge Rules dashboard. These metrics can include device graph from the Adobe Experience Cloud Device Co-op or other third-party device graph sources.
 
-Contents:
-
-<ul class="simplelist"> 
- <li> <a href="../../c-features/profile-merge-rules/profile-link-metrics.md#section_23F45E4C374241709A246058F4D92A23"> Merge Rule Metrics</a> </li> 
- <li> <a href="../../c-features/profile-merge-rules/profile-link-metrics.md#section_E7862CA6AC9D4E04ADA75A235DC29B64"> Device Graph Metrics</a> </li> 
- <li> <a href="../../c-features/profile-merge-rules/profile-link-metrics.md#section_44086DF2594A4A60916A7077851F75BA"> Sample Reports</a> </li> 
- <li> <a href="../../c-features/profile-merge-rules/profile-link-metrics.md#section_5A834A740513416B8A3533AE24357569"> Profile Link Trend Graphs</a> </li> 
-</ul>
-
 ## Merge Rule Metrics {#section_23F45E4C374241709A246058F4D92A23}
 
 Reports return data in side-by-side bar graphs when your merge rules use data from the [Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/) or other, third-party device graphs you may have access to in [!DNL Audience Manager]. This lets you compare your authenticated, first-party data with cross-device data provided by the [!UICONTROL Experience Cloud Device Co-op] or another, third-party device graph. For information about data returned by the [!UICONTROL Device Co-op], see [The Device Graph: Internal Processes and Output](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-processes.html). This data is updated daily.
@@ -108,13 +99,13 @@ The [!UICONTROL Merge Rules] reports also show data on the total number of peopl
 
 ## Sample Reports {#section_44086DF2594A4A60916A7077851F75BA}
 
-**Standard Profile Link Report**
+### Standard Profile Link Report
 
 A standard [!UICONTROL Profile Link] report looks like the following example. Merge rules that use multiple data sources (up to 3, maximum) show graphs in separate tabs for each data source. This merge rule does not include [!UICONTROL Device Co-op] data.
 
 ![](assets/coop-metrics1.png)
 
-**Profile Link Report With Device Graph Data**
+### Profile Link Report With Device Graph Data
 
 A [!UICONTROL Profile Link] report that includes device graph data from the [!UICONTROL Adobe Experience Cloud Device Co-op] or a third-party device graph shows [!UICONTROL Profile Link] and device graph data with side-by-side bar graphs. Placing these graphs adjacent to each other lets you evaluate the benefits of using the [!UICONTROL Experience Cloud Device Co-op] compared to [!UICONTROL Profile Link] by itself. Merge rules that use multiple data sources (up to 3, maximum) show graphs in separate tabs for each data source. As a reminder, the [!UICONTROL Authenticated Activity] graph and metrics do not return data from the [!DNL Adobe] device graph or other, third-party device graphs you may have access to in [!DNL Audience Manager].
 

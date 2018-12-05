@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# Trait Qualification Reference{#trait-qualification-reference}
+# Trait Qualification Reference {#trait-qualification-reference}
 
 Trait qualification, or trait realization, is treated differently in Audience Manager, depending on trait type. See the table below for detailed information on trait qualification.
 
@@ -70,4 +70,4 @@ To further drive the point home, if you experienced a spike of 10,000 visitors r
 
 ## Trait Qualification Limit {#section_CA54FECC85114000A1907C1D4535AB2D}
 
-We enforce a limit of 150,000 trait qualifications for each user profile, whether it is an authenticated profile ( [DPUUID](../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8)) or a device ID ( [UUID](../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8)). Note that while the DPUUIDs are unique to a specific instance of [!DNL Audience Manager], UUIDs are shared across the [!DNL Audience Manager] platform. For UUIDs, we impose a fairness policy when storing trait qualifications. An algorithm ensures that an equal share of the UUID profile is made available for every instance of [!DNL Audience Manager]. 
+We enforce a limit of 150,000 trait qualifications for each user profile, whether it is an authenticated profile ( [DPUUID](../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8)) or a device ID ( [UUID](../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8)). Note that while the DPUUIDs are unique to a specific instance of [!DNL Audience Manager], UUIDs are shared across the [!DNL Audience Manager] platform. For UUIDs, we impose a fairness policy when storing trait qualifications. An algorithm ensures that an equal share of the UUID profile is made available for every instance of [!DNL Audience Manager].

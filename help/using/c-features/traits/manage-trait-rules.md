@@ -22,13 +22,13 @@ In [!UICONTROL Trait Builder], the [!UICONTROL Expression Builder] lets you crea
 c_tb_rules.xml
 -->
 
-**Main Signal Rules Features Described**
+### Main Signal Rules Features Described
 
 ![](assets/manage-trait-rules.png)
 
 1. The **[!UICONTROL Expression Builder]** or **[!UICONTROL Code View]** tabs provide an overview of the rules in your trait. The **[!UICONTROL Expression Builder]** tab lets you create rules with fields and drop-down menus. The **[!UICONTROL Code View]** lets you create rules by manually writing those expressions as code. The illustration above shows a simple trait composed of a signal that evaluates data for a qualifying condition where a product key equals a specific value, in this case `color == "blue".`
 
-1. The fields and controls in this section let you create signals from key-value pairs and set the relationship between them with a comparison operator. A key, operator, and value are required. 
+1. The fields and controls in this section let you create signals from key-value pairs and set the relationship between them with a comparison operator. A key, operator, and value are required.
 1. The Data Explorer Options allow you to backfill trait realizations for your signals.
    >[!NOTE]
    >
@@ -49,21 +49,19 @@ t_tb_create_rules.xml
 
 Complete the required fields in the **[!UICONTROL Basic Information]** section *before* creating trait rules.
 
-**To create a rule** 
-
 1. Expand the **[!UICONTROL Trait Expression]** section and enter a key and value name. This creates a *`signal`*.
 
    >[!NOTE]
    >
    >Include the `c_` prefix (or any other naming convention) for key variable if your event calls send data to [!DNL Audience Manager] using that syntax.
 
-1. Select a [comparison operator](../../c-features/traits/trait-comparison-operators.md#concept_1A1761AA403341D7B91C0E26DC4294F4) from the **[!UICONTROL Operator]** dropdown. The comparison operator evaluates the relationship between the elements in a signal.
+2. Select a [comparison operator](../../c-features/traits/trait-comparison-operators.md#concept_1A1761AA403341D7B91C0E26DC4294F4) from the **[!UICONTROL Operator]** dropdown. The comparison operator evaluates the relationship between the elements in a signal.
 
    >[!NOTE]
    >
    >The Boolean [!UICONTROL OR] operator establishes the relationship between multiple signals *within* a group and cannot be changed.
 
-1. Click **[!UICONTROL Add Rule]**. The saved rule appears in the traits workspace above the data entry fields.
+3. Click **[!UICONTROL Add Rule]**. The saved rule appears in the traits workspace above the data entry fields.
 
 ### Example {#example_23FEFF7C30884286946785DD33200062}
 
@@ -88,11 +86,10 @@ This procedure describes how to create a new rule group.
 t_tb_new_rule_group.xml
 -->
 
-Your trait must contain at least two rules before you can create a new rule group. 
-**To create a new rule group**
+Your trait must contain at least two rules before you can create a new rule group.
 
 1. Move your cursor over the rule you want to move to highlight it.
-1. Hover over the highlighted rule border.
+2. Hover over the highlighted rule border.
 
    This automatically separates the rule from its current group and moves it into a new group.
 
@@ -100,7 +97,7 @@ Your trait must contain at least two rules before you can create a new rule grou
    >
    >Drag a rule back to its original group if you move it unintentionally.
 
-1. Select a Boolean operator ( [!UICONTROL AND], [!UICONTROL OR], [!UICONTROL AND NOT]) from the drop-down menu to set the relationship between the rule groups.
+3. Select a Boolean operator ( [!UICONTROL AND], [!UICONTROL OR], [!UICONTROL AND NOT]) from the drop-down menu to set the relationship between the rule groups.
 
 >[!MORE_LIKE_THIS]
 >
@@ -126,8 +123,6 @@ This procedure describes how to edit a trait.
 t_tb_edit.xml
 -->
 
-**To edit a trait** 
-
 1. In the [!UICONTROL Traits] dashboard, hover over the **[!UICONTROL Actions]** column for the trait you want to edit.
 
    This brings up the trait management icons. 1. Click the pencil to edit the trait.
@@ -140,10 +135,7 @@ This procedure describes how to delete a trait rule.
 <!-- 
 t_tb_delete_rule.xml
 -->
-
-**To delete a rule** 
-
 1. In the [!UICONTROL Traits] dashboard, hover over the [!UICONTROL Actions] columns for the trait you want to edit and click the pencil icon. This brings up the trait management icons.
-1. Expand the [!UICONTROL Trait Expression] section.
-1. Hover over the rule you want to delete and click the X icon.
+2. Expand the [!UICONTROL Trait Expression] section.
+3. Hover over the rule you want to delete and click the X icon.
    Clicking X deletes the rule immediately.

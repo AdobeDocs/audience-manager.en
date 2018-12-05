@@ -36,11 +36,11 @@ Reviewing this data can help you with:
 
 * **Performance reviews:** The [!UICONTROL Addressable Audiences] feature is also a troubleshooting tool. It lets you review campaign performance, understand campaign reach, and lets you cross-check with targeting/activation partners if you don't see the results you expect.
 
-**Prospecting with Third-Party Data and Implications for Match Rates**
+### Prospecting with Third-Party Data and Implications for Match Rates
 
 Before purchasing third-party data for audience acquisition, customers can validate the overlap with other data providers. This can help you make an informed decision prior to buying new data. The ID syncs for purchased third-party data rely not only on the overlap of your data but also on third-party providers’ footprints with all other [!DNL Audience Manager] customers. Your [!DNL Adobe] consultant can help you identify additional relevant data sources to optimize prospecting campaigns.
 
-**Mobile Users and Match Rates**
+### Mobile Users and Match Rates
 
 There are gaps when trying to connect Safari or mobile app users where there are no third-party cookies present. That makes it difficult to sync users with some partners because only those [!DNL Adobe] IDs for synced third-party cookies are provided in the media delivery logs. This is a reason why you might see [low match rates](../c-features/addressable-audiences.md#concept_E89224D00653469A933355160EE667CE) for your destinations.
 
@@ -54,12 +54,12 @@ Describes the available date ranges and how data ages out of each interval in th
 
 Reports for your [!UICONTROL Addressable Audiences] and [Destinations](../c-features/destinations/destinations.md#concept_5BDA346C376C4B719EA394108AB2735A) use the same date range intervals. The date range options include:
 
-* Last 1 Day (This interval runs from Midnight to Midnight of the previous 24-hour period. It is not a real- or current-time metric.) 
-* Last 7 Days 
-* Last 14 Days 
-* Last 30 Days 
-* Last 60 Days 
-* Last 90 Days 
+* Last 1 Day (This interval runs from Midnight to Midnight of the previous 24-hour period. It is not a real- or current-time metric.)
+* Last 7 Days
+* Last 14 Days
+* Last 30 Days
+* Last 60 Days
+* Last 90 Days
 * Lifetime
 
 All dates and date ranges are set in the UTC time zone. See [Time Zones in Audience Manager](../reference/aam-time-zones.md#concept_9E98F473CB1A4A81A68C68CA552D9507).
@@ -70,10 +70,10 @@ The [!UICONTROL Addressable Audience] and [!UICONTROL Destination] metrics retur
 
 Date ranges contain data for the selected time interval or older. And, the data ages out of each report interval as time passes. For example, let's assume you see 2 visitors after choosing the Last 30 Days option. In the reports, these visitors:
 
-* *Will be* included in the results returned by the longer time intervals (60-days, 90-days, and Lifetime). 
+* *Will be* included in the results returned by the longer time intervals (60-days, 90-days, and Lifetime).
 * *Will not be* included in the shorter intervals that precede the Last 30 Day option (Current, 7-days, and 14-days).
 
-And, on day 31, these visitors only show up in the 60-day, 90-day, and Lifetime results. They have aged out of the 30-day interval. Visitors do not age out of the Lifetime interval. 
+And, on day 31, these visitors only show up in the 60-day, 90-day, and Lifetime results. They have aged out of the 30-day interval. Visitors do not age out of the Lifetime interval.
 
 ## Addressable Audience Metrics {#reference_562FD922213844429A94518EEFCB93EB}
 

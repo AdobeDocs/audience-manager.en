@@ -26,7 +26,7 @@ The following table defines the trait population metrics
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Metric </th> 
-   <th colname="col2" class="entry"> Description </th> 
+   <th colname="col2" class="entry"> Description </th>
   </tr> 
  </thead>
  <tbody> 
@@ -51,7 +51,7 @@ In [!UICONTROL Segment Builder], a blue bar on the estimated population graphs i
 
 [!UICONTROL Segment Builder] shows you segment population data as you create and edit segments.
 
-* For estimated segment population data (real-time and total), [!UICONTROL Segment Builder] does not update the graphs automatically as you add or remove traits in a segment. Click **[!UICONTROL Calculate Estimates]** to see (or refresh) the estimated population numbers. 
+* For estimated segment population data (real-time and total), [!UICONTROL Segment Builder] does not update the graphs automatically as you add or remove traits in a segment. Click **[!UICONTROL Calculate Estimates]** to see (or refresh) the estimated population numbers.
 
 * For actual (real) segment population data (real-time and total), [!UICONTROL Segment Builder] updates the segment graph automatically when you load an existing segment. For new segments, or when you add new traits to an existing segment, actual population data is not updated until 24-hours after the segment is created.
 
@@ -94,7 +94,7 @@ The following table defines the estimated population metrics.
 
 [!UICONTROL Profile Merge Rules] affect the actual real-time and total population numbers. These totals vary depending on if the [!UICONTROL Profile Merge Rule] a segment belongs to uses a device graph option or not. See also, [Profile Merge Rule Options Defined](../../c-features/profile-merge-rules/merge-rule-definitions.md#concept_44FFF67CD9654DB2B43ECA13C2FD1CE0).
 
-**Segment Population Data for Merge Rules Without a Device Graph Option**
+### Segment Population Data for Merge Rules Without a Device Graph Option
 
 The following table defines the actual real-time and total population metrics when your segments are used by a [!UICONTROL Profile Merge Rule] created without a device graph option. These are the device options settings **[!UICONTROL No Device Options]** and **[!UICONTROL Current Device Proflie]**.
 
@@ -121,7 +121,7 @@ The following table defines the actual real-time and total population metrics wh
  </tbody> 
 </table>
 
-**Segment Population Data for Merge Rules With a Device Graph Option**
+### Segment Population Data for Merge Rules With a Device Graph Option
 
 The following table defines the actual real-time and total population metrics when your segments are used by a [!UICONTROL Profile Merge Rule] created with a device graph option. These are the device options settings for the [!UICONTROL Profile Link Device Graph], the [!DNL Adobe] device graph, and other third-party device graph choices that are available to you.
 
@@ -144,7 +144,7 @@ The following table defines the actual real-time and total population metrics wh
  </tbody> 
 </table>
 
-**Limitations due to Merge Rules When Estimating Segment Populations**
+### Limitations due to Merge Rules When Estimating Segment Populations
 
 Presently, there is a known limitation because our segment size estimator does not account for profile merge rules. For example, look at segments with the **No Authenticated Profile + Current Device Profile** [merge rule](../../c-features/profile-merge-rules/merge-rule-definitions.md#concept_44FFF67CD9654DB2B43ECA13C2FD1CE0). Because of the way we currently compute the segment estimation numbers, the estimated populations will include authenticated profiles. However, the existing segment populations will correctly ignore authenticated profiles.
 

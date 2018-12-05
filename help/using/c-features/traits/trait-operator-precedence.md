@@ -10,9 +10,9 @@ internal: n
 snippet: y
 ---
 
-# Order of Operations in Trait Builder{#order-of-operations-in-trait-builder}
+# Order of Operations in Trait Builder {#order-of-operations-in-trait-builder}
 
-Trait Builder evaluates expressions according to the order-of-operations listed below, from high to low precedence. Trait elements defined by high-precedence operators are evaluated first, before other precedence operators. This section ranks each operator according to precedence, from high to low.
+[!UICONTROL Trait Builder] evaluates expressions according to the order-of-operations listed below, from high to low precedence. Trait elements defined by high-precedence operators are evaluated first, before other precedence operators. This section ranks each operator according to precedence, from high to low.
 
 <!-- 
 

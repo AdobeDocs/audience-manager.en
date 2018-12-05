@@ -52,9 +52,9 @@ To create an algorithmic trait, go to [!UICONTROL Traits] and follow the steps b
 
 ## Configuration Settings for Algorithmic Traits {#reference_3A245B6E0888405E986B6C06FB5C9188}
 
-In [!UICONTROL Trait Builder], the [!UICONTROL Configuration] section lets you associate an algorithmic model to a trait. To complete the algorithmic trait creation process, select a model and choose a reach or accuracy goal. 
+In [!UICONTROL Trait Builder], the [!UICONTROL Configuration] section lets you associate an algorithmic model to a trait. To complete the algorithmic trait creation process, select a model and choose a reach or accuracy goal.
 
-**Prerequisites:** 
+### Prerequisites
 
 <!-- 
 
@@ -62,8 +62,8 @@ r_algo_trait_config_section.xml
 
  -->
 
-* [Create an algorithmic model](../../c-features/algorithmic-models/create-model.md#task_71541056B8384EEBB6A3A8B161C71B8A). 
-* Wait for the notification email that lets you know the model data run has finished. 
+* [Create an algorithmic model](../../c-features/algorithmic-models/create-model.md#task_71541056B8384EEBB6A3A8B161C71B8A).
+* Wait for the notification email that lets you know the model data run has finished.
 * Complete the required fields in the [Basic Information](../../c-features/traits/create-onboarded-rule-based-traits.md) section.
 
 **Configuration Fields and Settings**

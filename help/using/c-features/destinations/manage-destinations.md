@@ -141,7 +141,7 @@ This section contains fields and options that let you set up the cookie for your
     * **Single key:** Lets you set the key in a key-value pair. You'll set the value after you select a segment in the Segment Mappings section below. 
     * **Multi key:** Lets you set the key and value for a key-value pair. You'll create the key-value pair after you select a segment in the Segment Mappings section below.
 
-   See [Standard and Serial Key-Value Pairs](../../c-features/destinations/key-value-pairs.md#concept_4CAA6E54ECFE4291B8626BEBEE98088A) for more information about these data elements. 
+   See [Standard and Serial Key-Value Pairs](../../c-features/destinations/key-value-pairs.md#concept_4CAA6E54ECFE4291B8626BEBEE98088A) for more information about these data elements.
 
 1. Click **[!UICONTROL Save]**.
 
@@ -280,7 +280,7 @@ cookie-destination-options.xml
  </tbody> 
 </table>
 
-**Complex Cookie Domain Examples**
+### Complex Cookie Domain Examples
 
 These examples show you if [!DNL Audience Manager] will set a cookie based on how the [!UICONTROL Cookie Domain] option is configured.
 
@@ -325,9 +325,9 @@ These examples show you if [!DNL Audience Manager] will set a cookie based on ho
 
 The [!UICONTROL Publish Data To] settings return a cookie if the domain meets the criteria set by the options you select. Options include:
 
-* **[!UICONTROL All of our domains:]**(Default) Returns a cookie for any domain. 
-* **[!UICONTROL Only the selected domains:]** Returns a cookie only for the domains selected in the domains list. 
-* **[!UICONTROL All of our domains except the selected domains:]** Prevents selected domains from receiving a cookie. All other domains can receive a cookie.
+* **[!UICONTROL All of our domains]**: (Default) Returns a cookie for any domain. 
+* **[!UICONTROL Only the selected domains]**: Returns a cookie only for the domains selected in the domains list.
+* **[!UICONTROL All of our domains except the selected domains]**: Prevents selected domains from receiving a cookie. All other domains can receive a cookie.
 
 >[!MORE_LIKE_THIS]
 >

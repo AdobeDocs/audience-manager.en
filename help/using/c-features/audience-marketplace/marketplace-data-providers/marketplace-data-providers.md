@@ -12,7 +12,7 @@ internal: n
 snippet: y
 ---
 
-# Audience Marketplace for Data Providers{#audience-marketplace-for-data-providers}
+# Audience Marketplace for Data Providers {#audience-marketplace-for-data-providers}
 
 Overview and workflow for data providers who want to sell data from within Audience Manager.
 

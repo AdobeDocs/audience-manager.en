@@ -10,11 +10,7 @@ internal: n
 snippet: y
 ---
 
-# Trait Storage{#trait-storage}
-
-Trait storage folders store and help you organize traits.
-
-## Trait Storage {#concept_492988EC858545AAA5D1B8F06D273BDD}
+# Trait Storage {#concept_492988EC858545AAA5D1B8F06D273BDD}
 
 Trait storage folders store and help you organize traits.
 
@@ -24,7 +20,7 @@ c_tb_storage.xml
 
  -->
 
-**Purpose of Trait Storage Folders**
+## Purpose of Trait Storage Folders
 
 In [!UICONTROL Trait Builder], trait storage folders are directories that hold and organize traits into logical groups that you create. Access the storage folders from the [!UICONTROL Traits] dashboard or when creating a new trait. Remember, you cannot create a new trait without assigning it to a storage folder.
 
@@ -42,7 +38,7 @@ t_tb_create_storage.xml
 
 You can create a new storage folder in the [!UICONTROL Basic Information] section when setting up a new trait. Also, folders can be created in [!UICONTROL Trait Storage] section of the main [!UICONTROL Traits] list dashboard.
 
-**To create a new storage folder** 
+To create a new storage folder:
 
 1. In the [!UICONTROL Trait Storage] window, hover over:
     * "All Traits" text to add a new root level folder.

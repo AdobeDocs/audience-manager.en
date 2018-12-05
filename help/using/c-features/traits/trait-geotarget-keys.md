@@ -10,7 +10,7 @@ internal: n
 snippet: y
 ---
 
-# Geotargeting With Platform-level Keys{#geotargeting-with-platform-level-keys}
+# Geotargeting With Platform-level Keys {#geotargeting-with-platform-level-keys}
 
 Describes the common platform-level key-value pairs you can use to target users with geographic variables across all properties in your Audience Manager account.
 
@@ -45,7 +45,7 @@ You specify the value when building traits with these key-value pairs:
 
 ## Platform Level Keys Defined by IP Address {#section_C1CCBD2C225F4E898CEE01613899B775}
 
-The values for these keys are determined by matching IP addresses to corresponding geographic and demographic data. However, you'll still have to enter the value parameter when creating the key-value pair in [!UICONTROL Trait Builder]. 
+The values for these keys are determined by matching IP addresses to corresponding geographic and demographic data. However, you'll still have to enter the value parameter when creating the key-value pair in [!UICONTROL Trait Builder].
 
 <table id="table_E6E5AEC959D644C698C508775E883BAE"> 
  <thead> 

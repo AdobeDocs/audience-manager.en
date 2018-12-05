@@ -14,7 +14,7 @@ snippet: y
 
 View a list of your currently configured data sources, add new data sources, and edit existing sources.
 
-<!-- 
+<!--
 ## Data Sources List and Settings {#concept_DC7CC030739C436C947078C7877C15AD}
 
 View a list of your currently configured data sources, add new data sources, and edit existing sources.
@@ -109,7 +109,7 @@ Options include:
 
 The [!UICONTROL Data Source Settings] contains the controls and options listed below. Some of these settings have additional sub-options and menu items that you can select to modify a data source.
 
-**Inbound Data Source Settings**
+### Inbound Data Source Settings
 
 Select the **[!UICONTROL Inbound]** check box when your data source is designed to receive inbound data. Selecting the **[!UICONTROL Inbound]** check box exposes 2 additional groups of controls described below.
 
@@ -137,7 +137,7 @@ Select the **[!UICONTROL Inbound]** check box when your data source is designed 
  </tbody> 
 </table>
 
-**Other Data Source Settings**
+### Other Data Source Settings
 
 <table id="table_82FEFA8DC8294FA18FB4C17F02DF5152"> 
  <thead> 

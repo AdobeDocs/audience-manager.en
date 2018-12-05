@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# Create, Price, and Manage Data Feeds{#create-price-and-manage-data-feeds}
+# Create, Price, and Manage Data Feeds {#create-price-and-manage-data-feeds}
 
 A data feed requires a name, description, data source, and a plan type. Feeds are disabled until you save and activate the feed. Set up public or private data feeds in Audience Marketplace > My Shared Data. Available to data sellers only.
 
@@ -26,7 +26,7 @@ t_data_feed.xml
  -->
 
 You must have administrator rights to create a public or private data feed. 
-To create a data feed: 
+To create a data feed:
 
 1. Click **[!UICONTROL New Data Feed]**.
 1. Name the data feed.
@@ -88,11 +88,12 @@ To revoke a subscriber:
    This opens the subscription details page. 1. Move the **[!UICONTROL Subscription]** slider to **[!UICONTROL Off]**.
 
    This opens a confirmation dialog window. 1. In the [!UICONTROL Confirmation] pop, click **[!UICONTROL Yes]** to deactivate a subscription or **[!UICONTROL Cancel]** to quit without making subscription changes.
-**What Happens After You Deactivate a Subscriber**
+
+### What Happens After You Deactivate a Subscriber
 
 Revoking access to a data feed sends a notification email to all administrator users in the data buyer's account. The email includes an attachment that lists revoked traits. This list helps subscribers find and remove deactivated traits from their segments and models.
 
-**Billing and Feed Deactivation**
+### Billing and Feed Deactivation
 
 After you remove access to a data feed, subscribers are responsible for fees for previous or current month, depending on when you deactivated the feed. 
 
@@ -114,7 +115,7 @@ c_feed_options.xml
 
 The [!UICONTROL Use Case] settings let sellers control how buyers can use your data.
 
-**Segments and Overlap**
+### Segments and Overlap
 
 A **[!UICONTROL Segments and Overlap]** use case creates a plan that lets buyers compare trait data in a [trait-to-trait overlap report](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#concept_1FBAED029FFD4AA5A5C6E79F633D9A0D). Furthermore, buyers can add your data to segments and make comparisons with the [segment-to-trait](../../../reporting/dynamic-reports/segment-trait-overlap-report.md#concept_36186B1ABEA34A6AAC7F5CF938A122B7) and [segment-to-segment](../../../reporting/dynamic-reports/segment-segment-overlap-report.md#concept_25E40808056B451BA06502A9527A55AA) reports.
 
@@ -130,14 +131,14 @@ Price this use case as follows:
 * Unit of Measure: Flat fee 
 * Price: Free ($0.00)
 
-**Modeling**
+### Modeling
 
 A **[!UICONTROL Modeling]** use case creates a plan that lets buyers compare your traits to theirs with [algorithmic modeling](../../../c-features/algorithmic-models/understanding-models.md#concept_441E566718B845929880B0823A9ECA9F). Buyers look at the model results to find new audiences in your data that share similar conversion attributes to their own. Price this use case as follows:
 
 * Unit of Measure: Flat fee 
 * Price: Discounted or market rate price
 
-**Activation**
+### Activation
 
 An **[!UICONTROL Activation]** use case lets buyers send data to a [destination](../../../c-features/destinations/destinations.md#concept_5BDA346C376C4B719EA394108AB2735A). With this use case, buyers cannot compare data with an overlap report or in an algorithmic model. Price this use case as follows:
 

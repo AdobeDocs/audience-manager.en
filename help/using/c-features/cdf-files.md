@@ -301,7 +301,7 @@ Each `.info` file contains a `Files` and `Totals` section. The `Files` section c
 
 The following tables list and define the elements in a CDF `.info` file.
 
-**Files Object**
+### Files Object
 
 <table id="table_582101B414864DA991CE813A7937ECC6"> 
  <thead> 
@@ -334,7 +334,7 @@ The following tables list and define the elements in a CDF `.info` file.
  </tbody> 
 </table>
 
-**Totals Object**
+### Totals Object
 
 <table id="table_44F0B2D229E84A5DB3041760B1A50858"> 
  <thead> 

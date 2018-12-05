@@ -17,10 +17,9 @@ Use the Visitor Profile Viewer to display the current state of a user profile fo
 
 >[!NOTE]
 >
->* Access requires Administrator permissions. 
->* There is a 24-hour delay before information about realized segments and onboarded traits appears in the user interface. 
->
->
+>* Access requires Administrator permissions.
+>* There is a 24-hour delay before information about realized segments and onboarded traits appears in the user interface.
+
 <!-- 
 
 Traits that are not part of a segment will not appear in the
@@ -36,6 +35,6 @@ Traits that are not part of a segment will not appear in the
 
 1. *(Optional)* Click the segment name to display that segment in the Segment Builder.
 
-   For more information, see [Segments](../c-features/c-segments/segments-purpose.md). 
+   For more information, see [Segments](../c-features/c-segments/segments-purpose.md).
 
 1. *(Conditional)* In the **[!UICONTROL UUID]** box, specify another Audience Manager profile ID, then click **[!UICONTROL Refresh]** to view the traits and segments for that user.

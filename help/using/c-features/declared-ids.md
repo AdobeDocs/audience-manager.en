@@ -208,11 +208,11 @@ r_dil_declared_id_vars.xml
 When used with the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/), you no longer need to pass in [!UICONTROL declared IDs] with the deprecated `dpid` and `dpuuid` variables. Instead, the current versions of [!UICONTROL DIL] rely on the `visitorService` function to get the [!UICONTROL declared IDs] from the `setCustomerIDs` function in the [!UICONTROL Experience Cloud ID Service]. For more information, see [Customer IDs and Authentication States](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html). You would call `visitorService` in `DIL.create`as shown below.
 
 ```js
-var vDil = DIL.create({ 
-  partner:"partner name", 
-  visitorService:{ 
-    namespace:"INSERT-MCORG-ID-HERE" 
-  } 
+var vDil = DIL.create({
+  partner:"partner name",
+  visitorService:{
+    namespace:"INSERT-MCORG-ID-HERE"
+  }
 });
 ```
 
@@ -221,7 +221,7 @@ In the `namespace` key-value pair, `MCORG` is your [!DNL Experience Cloud] Organ
 ## Deprecated Functions {#section_5CC20964A1D342F7B0CBC3B6120FF78C}
 
 With the latest versions of DIL (6.2+), you don't need to use these key-value pairs to pass in [!UICONTROL declared IDs]. That's because DIL now relies on the `visitorService` function shown in the code sample above. This function gets [!UICONTROL declared IDs] from the [!UICONTROL Experience Cloud ID Service]. However, we're referencing these variables here for historical and legacy purposes. See the code below for an example of how to configure `DIL.create` to get a [!UICONTROL declared ID] from the [!UICONTROL Visitor ID Service]. 
-The following table describes the legacy variables used by the `declaredId` object: 
+The following table describes the legacy variables used by the `declaredId` object:
 
 <table id="table_A1884B72950F4BBDA87F17DDFF173628"> 
  <thead> 
@@ -245,7 +245,7 @@ The following table describes the legacy variables used by the `declaredId` obje
  </tbody> 
 </table>
 
-**dpid and dpuuid**
+### dpid and dpuuid
 
 Audience Manager compares and matches the combined `dpid` and `dpuuid` to a corresponding user ID in our system. If an ID does not exist, Audience Manager creates a new user ID and synchronizes it to the `dpid/dpuuid` combination. Once Audience Manager matches or creates a user ID (the `uuid`) it returns that ID in the JSON response to the cookie in the client's domain (first-party cookie) or other local storage.
 

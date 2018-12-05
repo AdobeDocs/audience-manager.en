@@ -10,7 +10,7 @@ internal: n
 snippet: y
 ---
 
-# Profile Merge Rule Options Defined{#profile-merge-rule-options-defined}
+# Profile Merge Rule Options Defined {#profile-merge-rule-options-defined}
 
 The merge rule options let you control the type of data Audience Manager uses for segmentation. A merge rule can include device profiles mapped by the Profile Link device graph, the Adobe Experience Cloud Device Co-op, and/or other, third-party device graph providers who are integrated with Audience Manager. You can create a maximum of 3 Profile Merge Rules.
 
@@ -46,7 +46,7 @@ The [!UICONTROL Authenticated Options] let you select un-authenticated and authe
    <td colname="col1"> <p> <span class="uicontrol"> Last Authenticated Profile</span> </p> </td> 
    <td colname="col2"> <p>Tells <span class="keyword"> Audience Manager</span> to read data from the authenticated profile of the user who last logged in on the device. </p> <p>When selected, <span class="keyword"> Audience Manager</span> will not write new trait data to the authenticated profile if the user is anonymous. Upon authentication, new trait data gets written to the user's authenticated profile. </p> </td> 
   </tr> 
- </tbody> 
+ </tbody>
 </table>
 
 ## Authenticated Profile Options {#section_C02D70DA90514F58B415AF0EEB69F831}

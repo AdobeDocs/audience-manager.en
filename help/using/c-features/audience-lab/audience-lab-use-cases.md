@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# Audience Lab Use Cases{#audience-lab-use-cases}
+# Audience Lab Use Cases {#audience-lab-use-cases}
 
 Audience Lab enables several use cases by allowing you to use baseline segments for creating test groups. You can divide test groups into several mutually exclusive test segments, map these to different destinations and then determine which of the segments are most effective in driving conversions.
 

@@ -10,9 +10,9 @@ internal: n
 snippet: y
 ---
 
-# Getting Started with Profile Merge Rules{#getting-started-with-profile-merge-rules}
+# Getting Started with Profile Merge Rules {#getting-started-with-profile-merge-rules}
 
-To create Profile Merge Rules review and complete the steps in each of the procedures described in this section.
+To create [!UICONTROL Profile Merge Rules] review and complete the steps in each of the procedures described in this section.
 
 ## Getting Started with Profile Merge Rules {#topic_2EB0F774DC5A4766ACB825A33B9F3B5B}
 
@@ -49,8 +49,7 @@ To complete the Data Source Details section:
 
 1. In the **[!UICONTROL ID Definition]** list, select an option that defines the data source type. Options include:
 
-    * **[!UICONTROL Person]**: An ID that defines a single person. This ID can be mapped to multiple [!DNL Audience Manager] IDs. 
-    
+    * **[!UICONTROL Person]**: An ID that defines a single person. This ID can be mapped to multiple [!DNL Audience Manager] IDs.
     * **[!UICONTROL Household]**: An ID that defines a group of people. This ID can be mapped to multiple [!DNL Audience Manager] IDs.
 
 ## Data Export Controls {#section_895821268F6F42E9A181B717DD6F1D04}
@@ -91,9 +90,8 @@ create-profile-merge-rule.xml
 
 To complete the [!UICONTROL Basic Information] section:
 
-1. Name the [!UICONTROL Profile Merge Rule]. 
-1. *(Optional)* Describe the [!UICONTROL Profile Merge Rule]. A concise description helps you define the role or purpose of your rule. 
-
+1. Name the [!UICONTROL Profile Merge Rule].
+1. *(Optional)* Describe the [!UICONTROL Profile Merge Rule]. A concise description helps you define the role or purpose of your rule.
 1. *(Optional)* Select **[!UICONTROL Set as default]** if you want to make this the default [!UICONTROL Profile Merge Rule]. New segments are automatically associated with the default rule.
 
 ## Data Export Controls {#section_6B22BFF8BA724DC38852D3437A8C171E}
@@ -106,17 +104,17 @@ To complete the [!UICONTROL Proflie Merge Rule Setup] section:
 
 1. Select an **[!UICONTROL Authenticated Option]**. Options include:
 
-    * **[!UICONTROL No Authenticated Profile]** 
-    * **[!UICONTROL Current Authenticated Profile]** 
+    * **[!UICONTROL No Authenticated Profile]**
+    * **[!UICONTROL Current Authenticated Profile]**
     * **[!UICONTROL Last Authenticated Profile]**
 
 1. Select an **[!UICONTROL Authenticated Profile Option]** (up to 3, maximum). These are the [cross-device data sources](../../c-features/profile-merge-rules/merge-rules-start.md#concept_396828374D1B48C988655B2ED817F29B) you have created previously. 
 
 1. Select a **[!UICONTROL Device Option]**. Options include:
 
-    * **[!UICONTROL No Device Profile]** 
-    * **[!UICONTROL Current Device Profile]** 
-    * **[!UICONTROL Profile Link Device Graph]** 
+    * **[!UICONTROL No Device Profile]**
+    * **[!UICONTROL Current Device Profile]**
+    * **[!UICONTROL Profile Link Device Graph]**
     * **[!UICONTROL Device Co-op]**
 
 1. Click **[!UICONTROL Save]**.
@@ -141,17 +139,11 @@ merge-rules-configure-code.xml
 
 **Prerequisites:** You must set up a [cross-device data source](../../c-features/profile-merge-rules/merge-rules-start.md#concept_396828374D1B48C988655B2ED817F29B) and [profile merge rules](../../c-features/profile-merge-rules/merge-rules-start.md#concept_169938D1988447E1B60896908A49C78A) *before* completing these procedures.
 
-Contents:
-
-* [For Experience Cloud ID Service Customers](../../c-features/profile-merge-rules/merge-rules-start.md#section_F88AEB30F2474EFBB477C007CA55E4AA) 
-* [Legacy DIL](../../c-features/profile-merge-rules/merge-rules-start.md#section_70398F3346F0444A821BD62FC86E3C67) 
-* [Configure SDKs](../../c-features/profile-merge-rules/merge-rules-start.md#section_202F3455E6264E97929E12A8F9894788)
-
 ## For Experience Cloud ID Service Customers {#section_F88AEB30F2474EFBB477C007CA55E4AA}
 
 The [!UICONTROL Experience Cloud ID Service] and the latest version of [DIL](../../c-dil/dil-overview.md) are recommended when working with [!UICONTROL Profile Merge Rules]. However, you don't have to use the [!UICONTROL Experience Cloud ID Service] to work with this feature. If you're just using [!UICONTROL DIL], see the [legacy DIL section](../../c-features/profile-merge-rules/merge-rules-start.md#section_70398F3346F0444A821BD62FC86E3C67) below.
 
-**Configure the Set Customer ID Function**
+### Configure the Set Customer ID Function
 
 When working with the [!UICONTROL Experience Cloud ID Service], the `setCustomerIDs` function passes declared IDs to [!DNL Audience Manager]. To use a profile merge rule, you must modify `setCustomerIDs` to use the integration code specified when you created a cross-device data source. For example, say you've created a cross-device data source with the integration code `my_datasource_ic`. To pass in a declared ID, you would add the integration code to the visitor ID function as shown in the modified code sample below. 
 
@@ -190,7 +182,7 @@ When working with the [!UICONTROL Experience Cloud ID Service], the `setCustomer
 
 For more information, see [Create a Cross-Device Data Source](../../c-features/profile-merge-rules/merge-rules-start.md#concept_396828374D1B48C988655B2ED817F29B) and [Customer IDs and Authentication States](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_customer_ids.html).
 
-**Configure DIL.create function**
+### Configure DIL.create function
 
 The latest versions of [!UICONTROL DIL] now automatically pick up the [!UICONTROL declared ID] from the `visitorService` function in `DIL.create` (see [Declared ID Variables](../../c-features/declared-ids.md#reference_F697F0D53E56430D95EC0C408B767F80)). Check your `DIL.create` function to make sure this is set up properly as shown in the code sample below.
 
@@ -206,9 +198,9 @@ var vDil = DIL.create({
 });
 ```
 
-In the namespace key-value pair, the ` *`MCORG`*` variable is your [!DNL Experience Cloud] Organization ID. If you don't have this ID, you can find it in the [!UICONTROL Administration] section of the [!DNL Experience Cloud] dashboard. You need administrator permissions to view this dashboard. See [Administration: Core Services](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html).
+In the namespace key-value pair, the `*`MCORG`*` variable is your [!DNL Experience Cloud] Organization ID. If you don't have this ID, you can find it in the [!UICONTROL Administration] section of the [!DNL Experience Cloud] dashboard. You need administrator permissions to view this dashboard. See [Administration: Core Services](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html).
 
-**Configure SDKs**
+### Configure SDKs
 
 See the [Configure SDKs](../../c-features/profile-merge-rules/merge-rules-start.md#section_202F3455E6264E97929E12A8F9894788) section below.
 
@@ -234,7 +226,7 @@ DIL.create({
 
 For more information, see the legacy [!UICONTROL DIL] section in [Declared ID Variables](../../c-features/declared-ids.md#reference_F697F0D53E56430D95EC0C408B767F80).
 
-**Configure SDKs**
+### Configure SDKs
 
 See the [Configure SDKs](../../c-features/profile-merge-rules/merge-rules-start.md#section_202F3455E6264E97929E12A8F9894788) section below.
 

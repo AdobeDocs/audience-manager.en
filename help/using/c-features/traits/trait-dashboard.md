@@ -10,7 +10,7 @@ internal: n
 snippet: y
 ---
 
-# Traits Dashboard{#traits-dashboard}
+# Traits Dashboard {#traits-dashboard}
 
 The Traits dashboard is a centralized workspace for managing traits.
 
@@ -28,4 +28,3 @@ The [!UICONTROL Traits] dashboard contains features and tools that help you:
 1. View and manage trait storage folders. 
 1. Search for traits by name, ID, description or data source. Click on a folder while searching to limit results to that folder and its subfolders. 
 1. Filter traits by trait type (onboarded, rules-based, algorithmic, folder traits).
-

@@ -28,12 +28,11 @@ Audience Manager uses groups to assign permissions. Permissions are not assigned
 
 Create users in Audience Manager and specify user details, login status, and assign users to groups.
 
-
-
 1. Click **[!UICONTROL Administration]** > **[!UICONTROL Users]**.
    <!-- 
    t_create_groups.xml
    -->
+
 1. Click ![](assets/icon_add.png) to display the [!UICONTROL Create New User] page.
 1. Under **[!UICONTROL User Details]**, fill in the fields:
    * **Username:** Specify a unique username for Audience Manager.
@@ -56,7 +55,7 @@ Create users in Audience Manager and specify user details, login status, and ass
 
 A *`group`* is a collection of users that share access rights to destination, segment, and trait objects. You can limit groups to single objects only or give them broad access to combinations of different objects. 
 
-To create a group: 
+To create a group:
 
 1. Click **[!UICONTROL Administration]** > **[!UICONTROL Groups]**.
    <!-- 
@@ -64,7 +63,7 @@ To create a group:
    -->
 1. Click  ![](assets/icon_add.png) to open the [!UICONTROL Group Settings] page.
 1. In [!UICONTROL Group Details]:
-   * Name the group. 
+   * Name the group.
    * Provide a brief group description.
 1. In [!UICONTROL Group Members], click a user from **[!UICONTROL Add Users]** options to add them to the group.
 1. In [!UICONTROL Group Permissions], select a [trait](../../c-features/traits/trait-details-page.md), [segment](../../c-features/c-segments/segments-purpose.md#concept_F9E9D1D1EFF34AA2AD025109DD741C86), or [destination](../../c-features/destinations/destinations.md#concept_5BDA346C376C4B719EA394108AB2735A) from **[!UICONTROL Add Object]**.

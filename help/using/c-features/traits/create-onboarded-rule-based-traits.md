@@ -11,11 +11,11 @@ internal: n
 snippet: y
 ---
 
-# Create Rules-Based or Onboarded Traits {#create-rules-based-or-onboarded-traits}
+<!-- # Create Rules-Based or Onboarded Traits {#create-rules-based-or-onboarded-traits}
 
-Describes set up steps and features specific to the rules-based and onboarded trait creation process.
+Describes set up steps and features specific to the rules-based and onboarded trait creation process. -->
 
-## Create Rules-Based or Onboarded Traits {#concept_CFCB78FDF44A42BCA69C948A2C8EC3D5}
+# Create Rules-Based or Onboarded Traits {#concept_CFCB78FDF44A42BCA69C948A2C8EC3D5}
 
 Describes set up steps and features specific to the rules-based and onboarded trait creation process.
 
@@ -85,13 +85,13 @@ c_tb_basics.xml
 
 ## Set a Trait Expiration Interval {#task_F17639E26C2744A0942461FCCD4D4DC7}
 
-In [!UICONTROL Trait Builder], the [!UICONTROL Advanced Options] lets you set a time-to-live (TTL) interval for a trait. TTL defines how many days a qualified visitor remains in a trait (120 days is default). When set to 0, trait membership never expires. 
+In [!UICONTROL Trait Builder], the [!UICONTROL Advanced Options] lets you set a time-to-live (TTL) interval for a trait. TTL defines how many days a qualified visitor remains in a trait (120 days is default). When set to 0, trait membership never expires.
 
 <!--
 t_tb_ttl.xml
 -->
 
-**To set the TTL for a trait** 
+### Set the TTL for a trait
 
 1. Expand the [!UICONTROL Advanced Options] section and enter a number to set a TTL value for the trait.
 1. Click **[!UICONTROL Save]**.

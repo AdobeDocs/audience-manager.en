@@ -10,23 +10,15 @@ internal: n
 snippet: y
 ---
 
-# Profile Link Device Graph Use Cases{#profile-link-device-graph-use-cases}
+# Profile Link Device Graph Use Cases {#profile-link-device-graph-use-cases}
 
 Recommendations and use cases for segment retargeting and personalized segment qualification with the Profile Link device graph.
-
-Contents:
-
-<ul class="simplelist"> 
- <li> <a href="../../c-features/profile-merge-rules/profile-link-use-case.md#section_88E3469E94E14453AF6891B8ADA0933B"> Recommendations </a> </li> 
- <li> <a href="../../c-features/profile-merge-rules/profile-link-use-case.md#section_2778EE45F23A4977811B74CDFCF100A9"> Retargeting Use Case and Profile Merge Rule Configuration </a> </li> 
- <li> <a href="../../c-features/profile-merge-rules/profile-link-use-case.md#section_D0479113B03347A0976AEE8617E9CCCB"> Personalization Use Case and Profile Merge Rule Configuration </a> </li> 
-</ul>
 
 ## Recommendations {#section_88E3469E94E14453AF6891B8ADA0933B}
 
 Consider the [!UICONTROL Profile Link] device graph for campaigns that:
 
-* Have a high-level of authentication across their digital properties. Use an [external device graph option](../../c-features/profile-merge-rules/merge-rule-definitions.md#section_E83D68EC2ADA4030B1D0206AE6A6E8BF) if you have a small amount of authenticated users. 
+* Have a high-level of authentication across their digital properties. Use an [external device graph option](../../c-features/profile-merge-rules/merge-rule-definitions.md#section_E83D68EC2ADA4030B1D0206AE6A6E8BF) if you have a small amount of authenticated users.
 * Require accurate targeting of known audiences. The [!UICONTROL Profile Link device graph] is built using first-party, authenticated data. 
 * Target known audiences across their authenticated and unauthenticated states in real-time.
 
@@ -43,7 +35,7 @@ Retarget audiences which have previously authenticated on-site and/or in-app acr
 >
 >Trait information from either profile type can be used to create the segment.
 
-**Retargeting Example**
+### Retargeting Example
 
 Let's take a look at how this works with a sample credit card company. This example uses trait information collected from anonymous activity seen across 3 device profiles only.
 
@@ -81,7 +73,7 @@ Let's take a look at how this works with a sample credit card company. This exam
  </tbody> 
 </table>
 
-**Retargeting Profile Merge Rule Example**
+### Retargeting Profile Merge Rule Example
 
 To set up retargeting with [!UICONTROL Profile Link], your [!UICONTROL Authenticated Options] and [!UICONTROL Device Options] should look like the rule configuration shown below. The [!UICONTROL Authenticated Profile] options will be different from this example because these settings use the names of your cross-device data sources.
 
@@ -98,7 +90,7 @@ Personalize the experience for authenticated audiences on-site and/or in-app bas
 >
 >A user must be in an authenticated state to qualify for a segment.
 
-**Personalization Example**
+### Personalization Example
 
 Let's take a look at how this works with a sample credit card company.
 
@@ -137,13 +129,13 @@ Let's take a look at how this works with a sample credit card company.
  </tbody> 
 </table>
 
-**Personalization Profile Merge Rule Example**
+### Personalization Profile Merge Rule Example
 
 To set up personalization with [!UICONTROL Profile Link], your [!UICONTROL Authenticated Options] and [!UICONTROL Device Options] should look like the rule configuration shown below. The [!UICONTROL Authenticated Profile] options will be different from this example because these settings use the names of your cross-device data sources.
 
 ![](assets/merge-rules-internal4.png)
 
-For more information about how these device graph processes work, download our PDF, [Audience Manager and External Device Graphs](https://marketing.adobe.com/resources/help/en_US/aam/downloads/AAM_Device_Graphs.pdf). 
+For more information about how these device graph processes work, download our PDF, [Audience Manager and External Device Graphs](https://marketing.adobe.com/resources/help/en_US/aam/downloads/AAM_Device_Graphs.pdf).
 
 >[!MORE_LIKE_THIS]
 >

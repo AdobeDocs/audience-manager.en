@@ -12,11 +12,9 @@ snippet: y
 
 # Segment Builder {#segment-builder}
 
-Describes how to create segments with Segment Builder.
+Describes the required and optional steps that create a segment in [!UICONTROL Segment Builder].
 
 ## Create a Segment {#task_FC8DBBF9FA4447F9B60D5AFACA73332B}
-
-Describes the required and optional steps that create a segment in [!UICONTROL Segment Builder].
 
 ### Segment Builder Section
 
@@ -154,7 +152,7 @@ r_segment_destinations_map.xml
 
 **Prerequisites:** Complete the required fields in the Basic Information and Traits sections. Also, the destination must already exist.
 
-**Destination Mappings Search Tools**
+### Destination Mappings Search Tools
 
 The **[!UICONTROL Destination Mappings]** panel contains search tools as described in the table below.  
 
@@ -175,19 +173,19 @@ In [!UICONTROL Segment Builder], the [!UICONTROL Add Destination] pop appears af
 r_add_mappings_pop.xml
 -->
 
-**Cookie Destination Fields**
+### Cookie Destination Fields
 
 In the Destination Mapping fields, specify the key-value pairs used to send data to the destination. Enter the key in the first field and the values in the second. Your cookie destination pop could look similar to this:
 
 ![](assets/cookie_modal.PNG)
 
-**URL Destination Fields**
+### URL Destination Fields
 
 In the URL and Secure URL fields, specify the complete standard or secure address used to send data to the destination.
 
 ![](assets/url_modal.PNG)
 
-**Server-to-Server Destination Fields**
+### Server-to-Server Destination Fields
 
 In the Destination Value field specify the value (part of a key-value pair) used to send data to the destination.
 
