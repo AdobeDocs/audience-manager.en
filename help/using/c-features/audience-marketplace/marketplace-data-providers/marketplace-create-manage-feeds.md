@@ -169,7 +169,7 @@ The billing and price options control how buyers pay for your data.
     </ul> </td>
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="uicontrol"> Price</span> </td> 
+   <td colname="col1"> <span class="uicontrol"> Price</span> </td>
    <td colname="col2"> The amount a seller charges the buyer as CPM rate or flat fee price, in dollars. </td>
   </tr> 
  </tbody> 

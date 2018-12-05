@@ -10,7 +10,7 @@ internal: n
 snippet: y
 ---
 
-# Private Data Feeds{#private-data-feeds}
+# Private Data Feeds {#private-data-feeds}
 
 A private data feed is an option that lets providers limit buyer access to their data. Data providers and buyers should review this information before creating and subscribing to private data feeds.
 
@@ -29,7 +29,7 @@ As a provider, your data feeds can be public or private. A private data feed let
 
 ![](assets/my_shared_data.png)
 
-**Managing Feed Requests**
+### Managing Feed Requests
 
 Clicking the name of a private data feed from [!UICONTROL My Shared Data] takes you to a page that contains several tabs. Click a tab to manage your private data feed requests.
 
@@ -72,7 +72,7 @@ The following table defines the role or functions provided by each action tab.
  </tbody> 
 </table>
 
-**Next Steps**
+### Next Steps
 
 The following documentation can help you get started with private data feeds.
 
@@ -113,6 +113,6 @@ The table describes how these different feed types show or hide data.
  </tbody> 
 </table>
 
-**Next Steps**
+### Next Steps
 
 See [Subscribe to a Private Data Feed](../../c-features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#task_201526273485445EB6DB0FAD196259C5) to request access.
