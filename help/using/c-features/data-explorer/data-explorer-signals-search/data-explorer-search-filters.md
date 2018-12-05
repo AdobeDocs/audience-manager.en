@@ -9,7 +9,7 @@ internal: n
 snippet: y
 ---
 
-# Search Signals by Filters{#search-signals-by-filters}
+# Search Signals by Filters {#search-signals-by-filters}
 
 Leave the key-value fields blank to search for a broader range of signals and use the available filters to narrow down the results.
 

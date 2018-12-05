@@ -42,10 +42,10 @@ To create a [!UICONTROL derived signal]:
 
 1. Select **[!UICONTROL Derived Signals]** from the [!UICONTROL Tools] menu.
 1. Provide a:
-    * *(Optional)* Integration Code 
-    * Source Key 
-    * Source Value 
-    * Target Key 
+    * *(Optional)* Integration Code
+    * Source Key
+    * Source Value
+    * Target Key
     * Target Value
 1. Click **[!UICONTROL Add Signal]**.
 

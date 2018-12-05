@@ -10,7 +10,7 @@ internal: n
 snippet: y
 ---
 
-# Retrieving Segment Metadata{#retrieving-segment-metadata}
+# Retrieving Segment Metadata {#retrieving-segment-metadata}
 
 When Audience Manager sends segment information to a data partner, it identifies these objects with numeric IDs. As a data partner, when you share this information with your customers (or work with it yourself), an actual name and description provide a better experience for customers in reports, dashboards, or other user interfaces (UI). Data partners can make these friendly names available to their customers with either the manual or automated methods described in this section.
 
@@ -22,23 +22,23 @@ As a data partner, you're probably used to getting audience metadata from your c
 
 [!DNL Audience Manager] provides a set of [REST APIs](../../c-api/c-rest-api-main/c-rest-api-main.md#concept_B512E6C3410A4304A672588A60A792B1) that let you retrieve segment metadata automatically. With the API, you can create jobs that retrieve segment metadata at scheduled intervals or automatically, whenever you process [!DNL Audience Manager] data and find a new segment ID. See the steps below for more information.
 
-**Step 1: Review the [!DNL Audience Manager] APIs**
+### Step 1: Review the [!DNL Audience Manager] APIs
 
 The [Getting Started with REST APIs](../../c-api/c-rest-api-main/aam-api-getting-started.md#concept_2745BC64D5BD43A49DA6020E42280863) section contains information about general requirements, authentication, available methods, etc. This is a good place to begin if you haven't worked with the [!DNL Audience Manager] API before.
 
-**Step 2: Request OAuth2 access credentials**
+### Step 2: Request OAuth2 access credentials
 
 You need a client ID and secret to make API calls. You can obtain a client ID and secret from your integration specialist during the integration set up process. You can also send an email request to [!UICONTROL Audience Manager Customer Care] at amsupport@adobe.com.
 
-**Step 3: Collect customer-specific information from each integrated customer**
+### Step 3: Collect customer-specific information from each integrated customer
 
 Request the following from each integrated customer:
 
-* Username: This is for a restricted user that has read-only permissions for the destination associated with a specific integration. 
+* Username: This is for a restricted user that has read-only permissions for the destination associated with a specific integration.
 * Password: The user password. 
 * Destination ID: This is the ID (an integer) associated with the destination created for the specific server-to-server integration.
 
-**Step 4: Retrieve segment metadata with an API call**
+### Step 4: Retrieve segment metadata with an API call
 
 After completing the previous steps, you can use a `GET` method to retrieve segment metadata. For a sample request and response, see [Return Destination Mappings](../../c-api/c-rest-api-main/aam-api-destinations/aam-api-retrieve-destinations.md#reference_2EF17D608D804F2FAC95AE18B3F0DCA3). This call returns segment data formatted as key-value pairs in a JSON object. Some of the important segment attributes returned in the response are listed in the following table.
 
@@ -73,9 +73,3 @@ After completing the previous steps, you can use a `GET` method to retrieve segm
   </tr> 
  </tbody> 
 </table>
-
-<!-- 
-
-placeholder to insert space
-
- -->

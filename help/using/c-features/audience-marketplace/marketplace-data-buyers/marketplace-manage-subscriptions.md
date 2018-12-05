@@ -75,9 +75,8 @@ t_private_feed.xml
 To subscribe to a private data feed:
 
 1. Click the data feed name in the [!UICONTROL Marketplace].
-1. Click **[!UICONTROL Request Access]**.
-
-   This opens the request dialog box. 1. In the request dialog box, write the provider a note expressing your interest in their data feed and click **[!UICONTROL Send]**. The seller will review your message and approve or reject your request. While waiting for approval, "Requested" appears in the [!UICONTROL Marketplace] list for that data feed.
+1. Click **[!UICONTROL Request Access]**. This opens the request dialog box.
+1. In the request dialog box, write the provider a note expressing your interest in their data feed and click **[!UICONTROL Send]**. The seller will review your message and approve or reject your request. While waiting for approval, "Requested" appears in the [!UICONTROL Marketplace] list for that data feed.
 
     * **Request approved**: The status in the [!UICONTROL Marketplace] list changes to "Access Granted" and you'll receive an automated notification. At this point you can subscribe to the feed. See [Subscribe to a Public Data Feed](../../../c-features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#task_F0E25DBC6326475497D5A086EF9B3182) for instructions.
     * **Request denied**: The "Requested" text is removed from the [!UICONTROL Marketplace] list for the feed. You can try to subscribe again or choose a different feed.
@@ -344,17 +343,17 @@ As an [!UICONTROL Audience Marketplace] data buyer, you can purchase data for ov
 c_use_cases_for_buyers.xml
 -->
 
-**Segments and Overlap**
+### Segments and Overlap
 
 This use case lets you compare your traits with provider traits in a [trait-to-trait overlap report.](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#concept_1FBAED029FFD4AA5A5C6E79F633D9A0D) Also, you can create or add provider traits to a segment and make additional comparisons with the [segment-to-trait](../../../reporting/dynamic-reports/segment-trait-overlap-report.md#concept_36186B1ABEA34A6AAC7F5CF938A122B7) and [segment-to-segment](../../../reporting/dynamic-reports/segment-segment-overlap-report.md#concept_25E40808056B451BA06502A9527A55AA) reports. Overlap comparisons can help you:
 
 * **Extend audience reach:** Low overlap suggests your traits contain users you have not seen before. You may want these traits to try and reach new users. 
 * **Enhance existing audiences:** High overlap suggests your traits are similar to those owned by the data provider. You may want these traits to help make targeted, incremental improvements to an already developed audience.
 
-**Algorithmic Models**
+### Algorithmic Models
 
 This use case lets you evaluate supplier traits against your traits with [algorithmic modeling](../../../c-features/algorithmic-models/understanding-models.md#concept_441E566718B845929880B0823A9ECA9F). For example, our algorithmic modeling system uses one of your traits as a basis for comparison against a supplier trait. When the model runs, it can show if audiences in supplier traits share similar conversion attributes to your traits.
 
-**Activation**
+### Activation
 
 This use case lets you send data to a [destination](../../../c-features/destinations/destinations.md#concept_5BDA346C376C4B719EA394108AB2735A). In [!UICONTROL Audience Manager], a destination is any third-party system (ad server, DSP, DMP, exchange, etc.) that you want to share data with. However, with an [!UICONTROL Activation] use case, you cannot run overlap reports or test the data in an algorithmic model. 

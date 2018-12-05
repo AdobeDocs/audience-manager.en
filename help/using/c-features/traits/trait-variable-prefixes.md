@@ -10,7 +10,7 @@ internal: n
 snippet: y
 ---
 
-# Prefix Requirements for Key Variables{#prefix-requirements-for-key-variables}
+# Prefix Requirements for Key Variables {#prefix-requirements-for-key-variables}
 
 This article describes the prefixes you must attach to key variables when creating trait rules.
 
@@ -20,11 +20,11 @@ r_tb_variable_prefixes.xml
 
  -->
 
-**Purpose of Key Variable Prefixes**
+## Purpose of Key Variable Prefixes
 
 When you create [!UICONTROL Trait Builder] rules, it is important to preface the key variable with a recommended prefix. These prefixes identify the type of data passed in and help avoid namespace conflicts within [!DNL Audience Manager]. Generally, you can give a variable any name, but data for a rule will not process if the key variable name does not match the variable name in an event call.
 
-**Prefixes for Key Variables**
+## Prefixes for Key Variables
 
 The following table defines the common prefixes used by [!UICONTROL Trait Builder].  
 

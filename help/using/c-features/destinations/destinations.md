@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# Destinations{#destinations}
+# Destinations {#destinations}
 
 In Audience Manager, a destination is any third-party system (ad server, DSP, ad network, etc.) that you want to share data with. Destination Builder is the tool you used to create and manage cookie, URL, or server-to-server destinations.
 

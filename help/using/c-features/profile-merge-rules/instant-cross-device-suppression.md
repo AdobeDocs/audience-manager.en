@@ -9,17 +9,9 @@ internal: n
 snippet: y
 ---
 
-# Instant Cross-Device Suppression{#instant-cross-device-suppression}
+# Instant Cross-Device Suppression {#instant-cross-device-suppression}
 
 Instant Cross-Device Suppression is the ability to suppress users across multiple devices connected to them when a particular experience occurs on any of these devices. Use the Instant Cross-Device Suppression capability to deliver a consistent experience across devices to your users. This experience is made possible by the real-time unsegment capabilities in Audience Manager.
-
-<ul class="simplelist"> 
- <li><a href="../../c-features/profile-merge-rules/instant-cross-device-suppression.md#section_FC781AE134C143B7B0E3146A536B14B5"> Overview</a> </li> 
- <li><a href="../../c-features/profile-merge-rules/instant-cross-device-suppression.md#section_14BF16980B72499AB800B6B163368DBE"> Do Not Target Once Converted</a> </li> 
- <li><a href="../../c-features/profile-merge-rules/instant-cross-device-suppression.md#section_9A5343E4F9EA4E15B899281423BB1E9C"> Do Not Target After x Impressions</a> </li> 
- <li><a href="../../c-features/profile-merge-rules/instant-cross-device-suppression.md#section_594C7E6E2F7947ED9681214D0AF07287"> Important Aspects to Note - Processing</a> </li> 
- <li><a href="../../c-features/profile-merge-rules/instant-cross-device-suppression.md#section_03B59052F4CA4706B8EF32B05C78A499"> Important Aspects to Note - Timing</a> </li> 
-</ul>
 
 ## Overview {#section_FC781AE134C143B7B0E3146A536B14B5}
 
@@ -36,7 +28,7 @@ Assure that your users that have already converted (purchased a product, acquire
 
 1. Create a segment using two traits, and use the [!UICONTROL AND NOT] logic, as shown in the image below. You must use a rule-based trait to define the conversion event for the unsegment to be triggered in real-time. Read more about how to [create rule-based traits](../../c-features/traits/create-onboarded-rule-based-traits.md#concept_CFCB78FDF44A42BCA69C948A2C8EC3D5). 
 
-1. Map the segment to any number of real-time server-to-server destinations. Read on about how to add segments to [server-to-server destinations](../../c-features/destinations/manage-destinations.md#task_1B9A6418E2F24C9CA5888F09679204C0).
+2. Map the segment to any number of real-time server-to-server destinations. Read on about how to add segments to [server-to-server destinations](../../c-features/destinations/manage-destinations.md#task_1B9A6418E2F24C9CA5888F09679204C0).
 
 Your visitors qualify for the segment as long as they have not converted. As soon as they qualify for the conversion trait, they cease to follow the segment rule and are instantly removed from the segment.
 
@@ -63,7 +55,7 @@ In this scenario, once your users have accumulated more than three impressions, 
 
 Keep in mind these aspects related to processing:
 
-* For the real-time unsegment capability to work, you must map the desired segments to realtime server-to-server destinations. 
+* For the real-time unsegment capability to work, you must map the desired segments to realtime server-to-server destinations.
 * For devices connected to a device by a [device graph](../../c-features/profile-merge-rules/profile-link-use-case.md#section_88E3469E94E14453AF6891B8ADA0933B), we enforce a four-device limit regarding evaluation and unsegmentation. This limitation is described in [Device Graph Options and Device Unsegmentation](../../c-features/profile-merge-rules/merge-rule-unsegment.md#section_23A08D8D7E1541A8B0C701222D5032FC).​ 
 * The unsegment command will be included in a batch file, that is sent to destinations every 24 hours, for multiple devices connected by the device graph. 
 * The device must be seen in real-time (on the [Edge](../../reference/system-components/components-edge.md#concept_DD36E2B5A23D4CC5A91CA9808B908B8E)) to prompt segment evaluation. For traits that have a time-to-live (TTL) value, even if a trait TTL is met, the device will *not* automatically be unsegmented until the device is next seen in real-time.​ Read more about how to [Set a Trait Expiration Interval](../../c-features/traits/create-onboarded-rule-based-traits.md#task_F17639E26C2744A0942461FCCD4D4DC7). 

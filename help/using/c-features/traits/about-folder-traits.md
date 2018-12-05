@@ -11,28 +11,16 @@ internal: n
 snippet: y
 ---
 
-# Folder Traits: About{#folder-traits-about}
+# Folder Traits: About {#folder-traits-about}
 
 Folder traits let you automatically aggregate traits that reside within the same folder and all child folders into a targetable segment.
-
-Contents:
-
-<ul class="simplelist"> 
- <li> <a href="../../c-features/traits/about-folder-traits.md#section_1CF315E0BC734FD69B0725F2ADBA1B1B"> Benefits of Using Folder Traits </a> </li> 
- <li> <a href="../../c-features/traits/about-folder-traits.md#section_7BBCE65C238C467599ECCACC4597D296"> Folder Traits Realization - Recency and Frequency </a> </li> 
- <li> <a href="../../c-features/traits/about-folder-traits.md#section_FF4A75E342A043F3914873CC0657E0EE"> Folder Trait Reporting </a> </li> 
- <li> <a href="../../c-features/traits/about-folder-traits.md#section_FB11C9F6F6F542328A6F1F22C40C2220"> Role-Based Access Controls (RBAC) Permissions </a> </li> 
- <li> <a href="../../c-features/traits/about-folder-traits.md#section_9680EBC0F862495B9E3272D001395794"> Limits and Other Considerations </a> </li> 
-</ul>
 
 ## Benefits of Using Folder Traits {#section_1CF315E0BC734FD69B0725F2ADBA1B1B}
 
 A [!UICONTROL folder trait] contains all the traits in a parent folder and its associated child folders. This lets you automatically segment and target your users at different folder levels. For example, let's say you have a folder structure like this:
 
 * Electronics (parent)
-
     * Laptops (child)
-
         * Brands (grandchild)
 
 [!UICONTROL Folder traits] qualify all the users in these folders in an automatically created Electronics [!UICONTROL Folder Trait] (based on the name of the parent folder). And, this process repeats itself as you move down the file structure. In this case, folder traits capture all of the users in the Laptops and Brands folders in an automatically created Laptops [!UICONTROL Folder Trait].
@@ -45,8 +33,8 @@ A [!UICONTROL folder trait] contains all the traits in a parent folder and its a
 
 The frequency count of a folder trait is the sum of realizations of the traits in its folder and its child folders. The illustration below shows traits A, B and C, which live in the Automobile folder. Consider that each of the traits have the following realizations:
 
-* Trait A: 5 
-* Trait B: 1 
+* Trait A: 5
+* Trait B: 1
 * Trait C: 1
 
 In this case, the Automobile [!UICONTROL Folder Trait] has 7 realizations.
@@ -61,7 +49,7 @@ In this case, the Automobile [!UICONTROL Folder Trait] has 7 realizations.
 
 For companies using [!UICONTROL Role-Based Access Controls (RBAC)], your users with the appropriate [!UICONTROL RBAC] permissions are able to change the data source associated to the [!UICONTROL folder trait]. A user must belong to a group with either of the following:
 
-* READ and WRITE group permissions to a trait data source. 
+* READ and WRITE group permissions to a trait data source.
 * VIEW_ALL_TRAITS and EDIT_ALL_TRAITS wild card permissions for trait data sources.
 
 Learn how to assign RBAC permissions in our [administration documentation](../../c-features/c-administration/administration-overview.md#task_3327F7C4A9834F1BA5007EDA279D40F2).
@@ -74,4 +62,3 @@ Learn how to assign RBAC permissions in our [administration documentation](../..
 |  Moving traits between folders  |Moving a trait from a folder to another will disqualify that trait from the first folder trait and qualify it for the second [!UICONTROL folder trait]. This means that if you delete or move a trait from the folder, the users in the trait's population will be unsegmented from the segments using the folder trait as a segment expression.  |
 |  System variables  | [!UICONTROL Folder traits] cannot be realized in event calls using the `d_sid` parameter.  |
 |  Reporting  | [!UICONTROL Folder traits] are autocalculated traits and do not appear in **[!UICONTROL Overlap Reports]**.  |
-

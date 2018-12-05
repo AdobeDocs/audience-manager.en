@@ -102,13 +102,13 @@ To update CPM usage in bulk:
    <td colname="col1"> <p><b>Always report the total number of impressions</b> </p> </td> 
    <td colname="col2"> <p>For CPM impression totals: </p>
    <p> Report the total number of impressions, without using decimals. Audience Manager automatically calculates the CPM based on the total number you report.
-   
+
    If you need to report 1,234,567 impressions, report it exactly like that. You do not need to divide the total number of impressions by 1,000 to calculate the CPM.
 
   Traits used to optimize your web or app content (Content Optimization) using tools such as Adobe Target or an Analytics destination do not contribute to the Usage totals for CPM plans. Data providers are typically compensated for Content Optimization using flat fee plans.
 
-See Cost Attribution for CPM Data Feeds for more information. </p> </td> 
-  </tr> 
+See Cost Attribution for CPM Data Feeds for more information. </p> </td>
+  </tr>
   <tr> 
    <td colname="col1"> <p><b>Stick to the monthly reporting interval</b> </p> </td> 
    <td colname="col2"> <p>The report system closes after the 5th of each month. If you fail to report CPM usage by then, you must add that amount to the report for the following month. For example, say you use 1000 impressions in October, miss the October reporting deadline, and use 1000 impressions in November. In this case, you report the October and November total (2000) in December, between the 1st and the 5th.

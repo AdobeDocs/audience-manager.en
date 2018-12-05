@@ -10,9 +10,9 @@ internal: n
 snippet: y
 ---
 
-# Sample Expressions With Boolean and Comparison Operators{#sample-expressions-with-boolean-and-comparison-operators}
+# Sample Expressions With Boolean and Comparison Operators {#sample-expressions-with-boolean-and-comparison-operators}
 
-Examples you can refer to for creating expressions in the Expression Builder code editor.
+Examples you can refer to for creating expressions in the [!UICONTROL Expression Builder] code editor.
 
 ## Code Samples Overview {#section_046415174EF84FDAA6E3C92649BFB0F3}
 
@@ -26,7 +26,7 @@ Create your own trait rules with the [!UICONTROL Expression Builder] code editor
 
 ## Boolean Expressions {#section_294C03461BE44795A507BF9A65808CCA}
 
-**AND Example**
+### [!UICONTROL AND] Example
 
 The rule establishes trait qualification requirements using Boolean [!UICONTROL AND] operators.  
 
@@ -52,7 +52,7 @@ The rule establishes trait qualification requirements using Boolean [!UICONTROL 
  </tbody> 
 </table>
 
-** [!UICONTROL OR] Example**
+### [!UICONTROL OR] Example
 
 This rule establishes trait qualification requirements using Boolean [!UICONTROL OR] and [!UICONTROL AND] operators.  
 
@@ -74,7 +74,7 @@ This rule establishes trait qualification requirements using Boolean [!UICONTROL
  </tbody> 
 </table>
 
-**Range Example with Greater Than, Less Than, Equal To**
+## Range Example with Greater Than, Less Than, Equal To
 
 This rule establishes trait qualification requirements using a range.  
 
@@ -95,4 +95,3 @@ This rule establishes trait qualification requirements using a range.
   </tr> 
  </tbody> 
 </table>
-

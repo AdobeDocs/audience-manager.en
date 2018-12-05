@@ -22,9 +22,9 @@ This article describes two features which provide advanced functionality for Aud
 
 In Audience Lab, the **Allocation Template** represents the various selections you make when creating a test group:
 
-* The distribution of devices between test segments; 
-* The mapping of test segments to destinations; 
-* The conversion trait(s) you use for a test group; 
+* The distribution of devices between test segments;
+* The mapping of test segments to destinations;
+* The conversion trait(s) you use for a test group;
 * The date range in which the test group publishes to your selected destinations.
 
 By duplicating an allocation template, you can reuse the same distribution of test segments and destinations for a different base segment, in a new test group. An example of an allocation template is illustrated below. The image is taken from the Summary & Finalize step in the Create Test Group workflow.

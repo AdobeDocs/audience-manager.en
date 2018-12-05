@@ -10,7 +10,7 @@ internal: n
 snippet: y
 ---
 
-# Device Targeting With Platform-level Keys{#device-targeting-with-platform-level-keys}
+# Device Targeting With Platform-level Keys {#device-targeting-with-platform-level-keys}
 
 Describes the common platform-level key-value pairs you can use to target users with device-related variables across all properties in your Audience Manager account.
 

@@ -10,11 +10,11 @@ internal: n
 snippet: y
 ---
 
-# Working with Comparison Operators in Trait Builder{#working-with-comparison-operators-in-trait-builder}
+# Working with Comparison Operators in Trait Builder {#working-with-comparison-operators-in-trait-builder}
 
 This article describes the comparison operators used by Trait Builder.
 
- **Purpose of Comparison Operators**
+## Purpose of Comparison Operators
 
 <!-- 
 
@@ -24,11 +24,11 @@ c_tb_comparison_operators.xml
 
 Comparison operators (or relational operators) are used to compare, test, or evaluate the relationship between different values. In Trait Builder, when building signal rules, comparison operators let you test the relationship between different key-value pairs. For example, you could create a signal rule to define an audience for expensive camera shoppers. In this case, you could create a camera/price key-value pair and qualify a user if they've looked for a camera with a price equal to or greater than a set amount.
 
-**Advantages of Comparison Operators**
+## Advantages of Comparison Operators
 
 Comparison operators are useful when you need to evaluate and create traits based on multiple values. Looking at prices on goods and services can illustrate this condition. For example, your business may want to identify visitors based on the prices of the products they view. However, it can be administratively inefficient to define individual segments based on specific values. Comparison operators help overcome this hurdle by establishing segmentation triggers based on price thresholds or ranges.
 
-**Comparison Operators**
+## Comparison Operators
 
 You can build rules with the following comparison operators:  
 
@@ -41,7 +41,7 @@ You can build rules with the following comparison operators:
 | **=>** | Greater than/equal to  |
 | **<=** | Less than/equal to  |
 
-**Named Operators**
+## Named Operators
 
 You can build rules with the following named operators:  
 

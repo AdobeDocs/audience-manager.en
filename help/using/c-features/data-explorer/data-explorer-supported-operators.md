@@ -17,7 +17,7 @@ Use logical operators to group key-value pairs and backfill traits.
 
 Use the following supported logical operators to search for key-value pairs:
 
-**Comparison Operators**
+### Comparison Operators
 
 |  Operator  | Definition  |
 |---|---|
@@ -27,7 +27,7 @@ Use the following supported logical operators to search for key-value pairs:
 | **=>** | Greater than/equal to  |
 | **<=** | Less than/equal to  |
 
-**Named Operators**
+### Named Operators
 
 |  Operator  | Evaluates to True When  |
 |---|---|

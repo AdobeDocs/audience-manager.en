@@ -10,11 +10,13 @@ internal: n
 snippet: y
 ---
 
-# Code Syntax Used in the Segment Expression Editor{#code-syntax-used-in-the-segment-expression-editor}
+# Code Syntax Used in the Segment Expression Editor {#code-syntax-used-in-the-segment-expression-editor}
 
 Segment Builder lets you build trait rules for a segment using a code editor. Click the Segment Expressions (Code View) tab in the Traits panel to access this feature.
 
- **Expression Builder Code Syntax** You can add trait rules to a segment with code instead of using drag and drop features. When coding, replace italicized elements in the example with an actual expression or value. The base code uses following syntax:
+## Expression Builder Code Syntax
+
+You can add trait rules to a segment with code instead of using drag and drop features. When coding, replace italicized elements in the example with an actual expression or value. The base code uses following syntax:
 
 ```
 FREQUENCY([ 
@@ -43,11 +45,11 @@ FREQUENCY([
 >
 >By default, Boolean [!UICONTROL OR] conditions apply to multiple traits *within* an expression.
 
-**Join Segments with Boolean Operators**
+### Join Segments with Boolean Operators
 
 To build groups of segments, wrap the frequency function in parenthesis and set the relationship *between* each expression with a Boolean operator ( [!UICONTROL AND], [!UICONTROL OR], and [!UICONTROL NOT]).
 
-**Parameters**
+### Parameters
 
 >[!NOTE]
 >
@@ -60,7 +62,7 @@ To build groups of segments, wrap the frequency function in parenthesis and set 
 |  ` <Recency Operator><Numeric Value>D`  | *(Optional)* Sets recency rules on traits in the segment. The letter `D` indicates recency in days.  |
 |  ` <Frequency Operator><Numeric Value>`  | Sets frequency rules on traits in the segment.  |
 
-**Allowed Recency and Frequency Operators**
+### Allowed Recency and Frequency Operators
 
 Set [recency and frequency](../../c-features/c-segments/recency-and-frequency.md#concept_957D9E1977774D28A98ACEE6035E7B37) intervals with a comparison operator and an integer. Segment Builder uses standard expressions like < (less than), > (greater than), == (equal), etc. However, the types of allowed operators vary when you set recency or frequency. The table below lists the allowed recency/frequency operators.  
 

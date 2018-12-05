@@ -68,7 +68,7 @@ To complete the [!UICONTROL Data Source Details] section:
 
 These settings determine how a data source is identified, used, and shared. You can also enable error reporting for inbound data files. To complete the [!UICONTROL Data Source Settings] section:
 
-1. Select a [!UICONTROL Data Source Setting] check box to apply an option to your data source. 
+1. Select a [!UICONTROL Data Source Setting] check box to apply an option to your data source.
 1. Click **[!UICONTROL Save]**.
 
 >[!MORE_LIKE_THIS]

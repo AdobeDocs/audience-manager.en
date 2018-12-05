@@ -10,15 +10,15 @@ internal: n
 snippet: y
 ---
 
-# Paused and Deleted Segments{#paused-and-deleted-segments}
+# Paused and Deleted Segments {#paused-and-deleted-segments}
 
 Describes the effects on segmented users, data, and destinations when you pause or delete an active segment using Segment Builder.
 
-**Access to the Pause and Delete Controls**
+## Access to the Pause and Delete Controls
 
 Hover over a segment name in the segments list to expose the **[!UICONTROL pause]** and **[!UICONTROL delete]** icons (in the Actions column). These features affect segments as described below.
 
-**Paused Segment Functionality**
+## Paused Segment Functionality
 
 A paused (deactivated) segment:
 
@@ -28,7 +28,7 @@ A paused (deactivated) segment:
 * Does not send data to associated destinations.
 * Returns data in the available reports (up to the deactivation date).
 
-**Deleted Segment Functionality**
+## Deleted Segment Functionality
 
 A deleted segment:
 

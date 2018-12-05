@@ -10,9 +10,9 @@ internal: n
 snippet: y
 ---
 
-# Segment Summary View{#segment-summary-view}
+# Segment Summary View {#segment-summary-view}
 
-The segment summary page displays details such as name, traits in the segment, rules, performance data, and destination mapping information.
+The segment summary page displays details such as name, traits in the segment, rules performance data, and destination mapping information.
 
 Click a segment name from the main dashboard to access its summary page. Summary sections include:
 

@@ -10,7 +10,7 @@ internal: n
 snippet: y
 ---
 
-# General Use Cases for Profile Merge Rules{#general-use-cases-for-profile-merge-rules}
+# General Use Cases for Profile Merge Rules {#general-use-cases-for-profile-merge-rules}
 
 Profile Merge Rules options let you expand or tighten audience focus on specific audiences based on business needs or goals. These general use cases explore how to use available options and create merge rules for individual, household, and cross-device targeting. Currently, Profile Merge Rules work with real-time destinations only.
 
@@ -20,14 +20,6 @@ Profile Merge Rules options let you expand or tighten audience focus on specific
 >
 >For definitions and descriptions of these [!UICONTROL Merge Rule] settings, see [Profile Merge Rule Options Defined](../../c-features/profile-merge-rules/merge-rule-definitions.md#concept_44FFF67CD9654DB2B43ECA13C2FD1CE0).
 
-Contents:
-
-<ul class="simplelist"> 
- <li><a href="../../c-features/profile-merge-rules/merge-rule-targeting-options.md#section_DD5CB340BF0C4C6F93C640ACA100EDB6"> Focus targeting</a> </li> 
- <li> <a href="../../c-features/profile-merge-rules/merge-rule-targeting-options.md#section_ADA0946192274869B94BD88BEE8ECFA7"> Expand targeting</a> </li> 
- <li><a href="../../c-features/profile-merge-rules/merge-rule-targeting-options.md#section_F6D35A63A04346EE85DE533A43E5EE0D"> Device Graph Options</a> </li> 
-</ul>
-
 ## Focus targeting {#section_DD5CB340BF0C4C6F93C640ACA100EDB6}
 
 User authentication to a website should trigger a declared ID call to [!DNL Audience Manager]. After this event, [!DNL Audience Manager] writes trait data to (and reads from) an authenticated profile. The authenticated profile lets [!DNL Audience Manager]:
@@ -35,13 +27,13 @@ User authentication to a website should trigger a declared ID call to [!DNL Audi
 * Write traits to the authenticated profile specific to a particular user. 
 * Identify and differentiate between multiple device users for segmentation.
 
-**Reach authenticated users**
+### Reach authenticated users
 
 The authenticated profile options create rules let you reach users who are logged on to a website or app. For example, a financial services company would use this option to target authenticated users with credit card upgrade offers or specialized service offers based on income or account activity. Another example would be an airline targeting authenticated frequent fliers with deals based on accrued mileage.
 
 To create a rule that reaches authenticated users, select **[!UICONTROL Current Authenticated Profile]** + **[!UICONTROL No Device Profile]**. These options tell your rule to use an authenticated profile only. This rule will ignore data in the anonymous device profile.
 
-**Reach users based on previous authentication state**
+### Reach users based on previous authentication state
 
 These options reach specific users when they're browsing but not logged on. You can do this with options that rely on inferred user-level targeting. Inferred targeting helps you reach people who are not explicitly authenticated to your site but may be browsing online. It works by reading (but not writing) data from the last authenticated profile. And, to help keep the authenticated profile clean, [!DNL Audience Manager] writes new trait qualifications to the device profile instead of the authenticated profile. For example, say you're a marketer that wants to test different offers with existing customers who are not logged on to your site or app. As a marketer, you can test these ads with current, un-authenticated customers to see which offers get the most response.
 

@@ -9,9 +9,9 @@ internal: n
 snippet: y
 ---
 
-# Overview, Benefits, and Use Cases{#overview-benefits-and-use-cases}
+# Overview, Benefits, and Use Cases {#overview-benefits-and-use-cases}
 
-Use Data Explorer to capitalize on historical audiences by building traits based on used and unused signals, and backfilling them with historical data to avoid potential loss of relevant audiences.
+Use [!UICONTROL Data Explorer] to capitalize on historical audiences by building traits based on used and unused signals, and backfilling them with historical data to avoid potential loss of relevant audiences.
 
 ## Overview {#section_D495CF7B7F2D45C09869FFF9D655BE01}
 
@@ -33,10 +33,10 @@ Use [!UICONTROL Data Explorer] to optimize your audience building in multiple wa
 
 ## Use Cases {#section_C6DC0FBE310649CD9F4847F31AC4A560}
 
-**Example 1**
+### Example 1
 
 A global electronics retailer has a high volume of visitor traffic, but conversion rates are lower than expected, although they've optimized the content for multiple platforms. Using the [Signals Dashboard](../../c-features/data-explorer/data-explorer-signals-dashboard.md#concept_5E4B0FB02D8F4F3DAA5B6F8CF9A4E4C2), they identify a high volume of unused signals, indicating that visitors are searching for a specific electronics brand not currently in stock. The company can take advantage of this insight by refreshing their stock and targeting those visitors with personalized campaigns.
 
-**Example 2**
+### Example 2
 
 After a travel services provider adds new destinations to their booking website, they want to advertise them to historical audiences, although they don't have any traits created for them. They can use [Signals Search](../../c-features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md#concept_B0C0DC44C3EC4CF8926847F9062F0EC0) to identify the unused signals related to the new destinations, include them in new traits and [backfill](../../c-features/data-explorer/data-explorer-trait-backfill.md#concept_B38A58A417A04AF9B016DC506F9A6F45) them with historical realizations. Then, create new segments with the new traits and immediately target them with dedicated campaigns.

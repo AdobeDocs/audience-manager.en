@@ -10,19 +10,9 @@ internal: n
 snippet: y
 ---
 
-# Trait Details Page{#trait-details-page}
+# Trait Details Page {#trait-details-page}
 
-The details page for an individual trait provides overview of information like the trait name, ID, performance metrics, expressions that define the trait, segments it belongs to, and the trait audit log. To vew these details, go to Audience Data > Traits and click the name of the trait you want to work with.
-
-Contents:
-
-<ul class="simplelist"> 
- <li><a href="../../c-features/traits/trait-details-page.md#section_4437F7E7D981446F8A7789141916528F"> Basic Information</a> </li> 
- <li><a href="../../c-features/traits/trait-details-page.md#section_97532A84A37246ABA7EE6149CF0FBE72"> Trait Graph</a> </li> 
- <li><a href="../../c-features/traits/trait-details-page.md#section_97757AB8844F4466BA5DB1E8356146FC"> Trait Expression</a> </li> 
- <li><a href="../../c-features/traits/trait-details-page.md#section_D44E252E719640DC8A821B697332B4AC"> Trait Segments</a> </li> 
- <li><a href="../../c-features/traits/trait-details-page.md#section_3CA094050D3B4093A336F28D5EF3459F"> Trait Audit/History Log</a> </li> 
-</ul>
+The details page for an individual trait provides overview of information like the trait name, ID, performance metrics, expressions that define the trait, segments it belongs to, and the trait audit log. To vew these details, go to [!UICONTROL Audience Data > Traits] and click the name of the trait you want to work with.
 
 ## Basic Information {#section_4437F7E7D981446F8A7789141916528F}
 
@@ -59,7 +49,6 @@ For rule-based and onboarded traits, the [!UICONTROL Trait Expression Change His
 
 >[!NOTE]
 >
->"Not Available" in the [!UICONTROL By User] column means the account for that user has been deleted.
+>[!UICONTROL Not Available] in the [!UICONTROL By User] column means the account for that user has been deleted.
 
 ![](assets/traitHistory.png)
-

@@ -14,7 +14,7 @@ snippet: y
 
 Describes segments, their constituent parts, and rule creation with Segment Builder.
 
- **Purpose of Segments**
+## Purpose of Segments
 
 A *`segment`* (or an *`audience`*) is a set of users who share common attributes. In Audience Manager, you create segments with server-side rules. These rules let you build audience groups based on site visitor attributes such as:
 
@@ -22,7 +22,7 @@ A *`segment`* (or an *`audience`*) is a set of users who share common attributes
 * Demographics (age, gender, income, etc.).
 * Other characteristics you can define in the user interface.
 
-**Segment Composition**
+## Segment Composition
 
 An Audience Manager segment is a server-side rule that consists of individual or groups of traits. Traits are composed of data elements called key-value pairs. Along with rules you set at the segment level, these key-value pairs contain the criteria that qualify visitors for trait and segment membership.
 
@@ -30,11 +30,11 @@ An Audience Manager segment is a server-side rule that consists of individual or
 >
 >Audience Manager segments are different from Adobe Analytics segments. Read [Understanding Segments in Analytics and Audience Manager](https://marketing.adobe.com/resources/help/en_US/analytics/audiences/aam-analytics-segments.html) for an in-depth description of the differences.
 
-**Create Rules-based Segments With Segment Builder**
+## Create Rules-based Segments With Segment Builder
 
 Unlike traditional pixels that fire in response to simple yes/no conditions, Segment Builder lets you create complex segment requirements. Like traits, segments evaluate data using Boolean expressions (AND, OR, NOT), comparison operators (greater than, less than, equal to, etc.), and recency/frequency criteria. These features help create focused audience segments relevant to your business needs.
 
-**Benefits**
+## Benefits
 
 Segments improve upon standard pixel-based audience creation/segmentation processes because they let you:
 
