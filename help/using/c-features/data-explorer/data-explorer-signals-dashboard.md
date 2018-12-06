@@ -15,7 +15,7 @@ Get an overview of the unused signals received by Audience Manager in the past 7
 
 >[!IMPORTANT]
 >
->The **[!UICONTROL Top Unused Signals]** and **[!UICONTROL New Unused Signals]** sections only display records with more than **100 occurrences/hour**. Signals below that threshold are included in [Signals Search](../../c-features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md#concept_B0C0DC44C3EC4CF8926847F9062F0EC0).
+>The **[!UICONTROL Top Unused Signals]** and **[!UICONTROL New Unused Signals]** sections only display records with more than **100 occurrences/hour**. Signals below that threshold are included in Signals Search.
 
 ## Top Unused Signals {#section_C77331736DC648BDB2B738DDAB8A2191}
 

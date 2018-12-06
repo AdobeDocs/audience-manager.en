@@ -16,12 +16,12 @@ snippet: y
 
 Build and manage the traits or segments used in algorithmic modeling, also referred to as look-alike modeling. Model features are located in Audience Data > Models.
 
-<!-- 
+<!--
 ## About Algorithmic Models {#concept_49FB2DBD4AD041A4ABAAEE9D83BB996E}
 
 Build and manage the traits or segments used in algorithmic modeling, also referred to as look-alike modeling. Model features are located in Audience Data > Models.
 
-<!-- 
+<!--
 c_models.xml
 -->
 
@@ -41,8 +41,8 @@ Algorithmic modeling helps you discover new, unique audiences through automated 
 
 The major benefits of using [!DNL Audience Manager] modeling include:
 
-* **Data accuracy:** The algorithm runs regularly, which helps keep results current and relevant. 
-* **Automation:** You don't have to manage a large set of static rules. The algorithm will find audiences for you. 
+* **Data accuracy:** The algorithm runs regularly, which helps keep results current and relevant.
+* **Automation:** You don't have to manage a large set of static rules. The algorithm will find audiences for you.
 * **Save time and reduce effort:** With our modeling process you don't have to guess at what traits/segments may work or spend time resources on campaigns to discover new audiences. The model can do this for you. 
 * **Reliability:** Modeling works with server-side discovery and qualification processes that evaluate your own data and selected third-party data that you have access to. This means you don't have to see the visitors on your site to qualify them for a trait.
 
@@ -187,10 +187,8 @@ The Models list page contains features and tools that help you:
 The summary page displays model details such as name, reach/accuracy, processing history, and traits created from the model. The page also includes settings that let you create and managing models. Click a model name from the summary list to see its details.
 
 <!-- 
-
 c_models_summary.xml
-
- -->
+-->
 
 The model summary page includes the following sections.
 

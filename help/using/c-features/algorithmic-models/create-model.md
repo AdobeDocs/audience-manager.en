@@ -28,9 +28,9 @@ t_model_build.xml
 
 >[!NOTE]
 >
->* The modeling process runs only once if you create a model and do not build any traits with it. 
->* Build models from data sources that contain a meaningful amount of information. Models with insufficient data will run, but they will not return results. 
->* *Do not* create models with other algorithmic traits or segments. 
+>* The modeling process runs only once if you create a model and do not build any traits with it.
+>* Build models from data sources that contain a meaningful amount of information. Models with insufficient data will run, but they will not return results.
+>* *Do not* create models with other algorithmic traits or segments.
 >* The automated email notification is sent one time only (after the first data run).
 
 ### Build a Model
@@ -58,9 +58,9 @@ In [!UICONTROL Model Builder], the [!UICONTROL Basic Information] settings let y
 
 |  Field  | Description  |
 |---|---|
-|  ****[!UICONTROL Name]**** | Give your model a short, logical name that describes its function or purpose. Avoid abbreviations, special characters, and accent marks.  |
-|  ****[!UICONTROL Description]**** | A field for additional descriptive information about the model.  |
-|  ****[!UICONTROL Status]**** | Activates or deactivates the model (active by default).  |
+|  **[!UICONTROL Name]** | Give your model a short, logical name that describes its function or purpose. Avoid abbreviations, special characters, and accent marks.  |
+|  **[!UICONTROL Description]** | A field for additional descriptive information about the model.  |
+|  **[!UICONTROL Status]** | Activates or deactivates the model (active by default).  |
 
 ## Configuration {#reference_E58E9C688E3144BEB2F75BCCDDF80B59}
 
