@@ -52,7 +52,6 @@ user-guide-title: Audience Manager User Guide
         + [Understanding Signals](c-features/data-explorer/data-explorer-understanding-signals.md)
         + [Signals Dashboard](c-features/data-explorer/data-explorer-signals-dashboard.md)
         + Signals Search{#signals-search}
-            + [Signals Search Overview](c-features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md)
             + [Search Signals by Key-Value Pairs](c-features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md)
             + [Search Signals by Filters](c-features/data-explorer/data-explorer-signals-search/data-explorer-search-filters.md)
             + [Advanced Search for Adobe Analytics](c-features/data-explorer/data-explorer-signals-search/data-explorer-search-analytics.md)

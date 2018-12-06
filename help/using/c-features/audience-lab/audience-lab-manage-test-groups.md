@@ -12,11 +12,11 @@ snippet: y
 
 # Manage Test Groups {#manage-test-groups}
 
-<!-- This procedure walks you through the steps needed to create, edit, or delete a test group in Audience Lab
+This procedure walks you through the steps needed to create, edit, or delete a test group in Audience Lab
+<!-- 
+## Manage Test Groups {#topic_A85450A5B5F34C2694DC2E7154C0C60F}
 
-## Manage Test Groups {#topic_A85450A5B5F34C2694DC2E7154C0C60F} -->
-
-This procedure walks you through the steps needed to create, edit, or delete a test group in [!UICONTROL Audience Lab].
+This procedure walks you through the steps needed to create, edit, or delete a test group in [!UICONTROL Audience Lab]. -->
 
 ## Create Segment Test Group {#task_B62EF6D2992941FAAEA84BE2EA11A55E}
 
@@ -40,32 +40,32 @@ create-test-group.xml
 To create a new Segment Test Group:
 
 1. Select **[!UICONTROL Create New Test Group]** in the [!UICONTROL Audience Lab] dashboard to start the wizard.
-1. **[!UICONTROL Basic Info & Choose Segment]**
+2. **[!UICONTROL Basic Info & Choose Segment]**
 
     * Fill in a **[!UICONTROL Test Group Name]** and a **[!UICONTROL Description]**.
     * Choose the **[!UICONTROL Base Segment]** either by navigating in the file browser or by typing in the search bar, confirm by pressing **[!UICONTROL Choose Segment.]**
     * You can save the test group as a draft and resume working on it later.
     * An alert will show up in case the base segment you selected is already used in other test groups. Using the base segment twice may distort the conversion results for both tests.
 
-1. **[!UICONTROL Allocate Test Segments]**
+3. **[!UICONTROL Allocate Test Segments]**
 
     * You can create **up to 15 test segments** and divide the percentage of devices as you wish.
     * You can edit the name of the test segments by clicking on them.
     * The percentages automatically divide evenly to 100% when new test segments are allocated. You can then manually edit the percentages. Click the checkbox after editing the percentages and make sure they add up to 100%, otherwise you will not be able to proceed to the next step.
 
-1. **[!UICONTROL Set a Control Segment]**
+4. **[!UICONTROL Set a Control Segment]**
 
     * Select a control segment if you want to set aside a certain part of the segment to be used as a control group. Control groups allow you to see the impact of the test segments you created compared to a benchmark.
     * You can select a test segment as control segment in the drop-down list, or you can choose **[!UICONTROL None]** for no control.
     * Click **[!UICONTROL Next]** when you're done.
 
-1. **[!UICONTROL Select Conversion Traits]**
+5. **[!UICONTROL Select Conversion Traits]**
 
     * Add conversion traits by typing in the conversion trait window. This is a **mandatory** step and you cannot proceed to the next step unless you add at least one conversion trait.
     * You can add up to 5 conversion traits if you wish.
     * An alert will show up in case you select a conversion trait already used for other test groups.
 
-1. **[!UICONTROL Choose Destinations & Dates]**
+6. **[!UICONTROL Choose Destinations & Dates]**
 
     * Type in the desired destinations in the search field or use the drop-down arrow. [!UICONTROL Audience Lab] test segments can be sent to URL, cookie, or server-to-server destinations.
     * Drag & drop segments to destinations.
@@ -81,7 +81,7 @@ To create a new Segment Test Group:
 
    Click **[!UICONTROL Next]** to review and finalize your test group.
 
-1. **[!UICONTROL Summary & Finalize]**
+7. **[!UICONTROL Summary & Finalize]**
 
     * Review the information you added in the previous steps and select **[!UICONTROL Finalize Group]**.
     * Remember that once you finalize a test group, it can be duplicated or deleted, but not edited.

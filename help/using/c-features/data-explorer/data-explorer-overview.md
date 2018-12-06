@@ -19,7 +19,7 @@ Creating traits based on existing insights related to your audience is a rather 
 
 [!UICONTROL Data Explorer] simplifies your trait management process while offering you a higher degree of flexibility when it comes to taxonomy curation. Two [!UICONTROL Data Explorer] components help you achieve this:
 
-* [Signals Dashboard](../../c-features/data-explorer/data-explorer-signals-dashboard.md#concept_5E4B0FB02D8F4F3DAA5B6F8CF9A4E4C2) and [Signals Search](../../c-features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md#concept_B0C0DC44C3EC4CF8926847F9062F0EC0) help you keep track of signals received by [!DNL Audience Manager] that you can use to build new traits or add to existing ones.
+* [Signals Dashboard](../../c-features/data-explorer/data-explorer-signals-dashboard.md#concept_5E4B0FB02D8F4F3DAA5B6F8CF9A4E4C2) and Signals Search help you keep track of signals received by [!DNL Audience Manager] that you can use to build new traits or add to existing ones.
 
 * [Trait Realization Backfill](../../c-features/data-explorer/data-explorer-trait-backfill.md#concept_B38A58A417A04AF9B016DC506F9A6F45) helps you qualify historical audiences for newly created traits, so that you can include them in future targeting efforts.
 
@@ -39,4 +39,4 @@ A global electronics retailer has a high volume of visitor traffic, but conversi
 
 ### Example 2
 
-After a travel services provider adds new destinations to their booking website, they want to advertise them to historical audiences, although they don't have any traits created for them. They can use [Signals Search](../../c-features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md#concept_B0C0DC44C3EC4CF8926847F9062F0EC0) to identify the unused signals related to the new destinations, include them in new traits and [backfill](../../c-features/data-explorer/data-explorer-trait-backfill.md#concept_B38A58A417A04AF9B016DC506F9A6F45) them with historical realizations. Then, create new segments with the new traits and immediately target them with dedicated campaigns.
+After a travel services provider adds new destinations to their booking website, they want to advertise them to historical audiences, although they don't have any traits created for them. They can use Signals Search to identify the unused signals related to the new destinations, include them in new traits and [backfill](../../c-features/data-explorer/data-explorer-trait-backfill.md#concept_B38A58A417A04AF9B016DC506F9A6F45) them with historical realizations. Then, create new segments with the new traits and immediately target them with dedicated campaigns.
