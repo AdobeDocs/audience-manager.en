@@ -24,7 +24,7 @@ user-guide-title: Audience Manager User Guide
         + [Administration](c-features/c-administration/administration-overview.md)
         + [Edit Your Account Settings](c-features/c-administration/edit-account-settings.md)
         + [Usage Limits](c-features/c-administration/usage-limits.md)
-    + Algorithmic Models]{#algorithmic-models}
+    + Algorithmic Models{#algorithmic-models}
         + [Algorithmic Models](c-features/algorithmic-models/understanding-models.md)
         + [Create an Algorithmic Model](c-features/algorithmic-models/create-model.md)
         + [Algorithmic Models: Trait Exclusion](c-features/algorithmic-models/trait-exclusion-algo-models.md)
