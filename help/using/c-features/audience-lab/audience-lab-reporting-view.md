@@ -41,9 +41,9 @@ The test group reporting section returns information on test group conversions, 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Test Segment Populations</span> </p> </td> 
-   <td colname="col2"> <p>Returns the number of devices belonging to the test segments. Toggle between <span class="uicontrol"> Total Population</span> or <span class="uicontrol"> Real-time Population</span>. The difference is explained in the <a href="../../faq/faq-reporting.md#concept_8722EA8154E1416CB334FF37E2E955C4"> Reporting FAQ</a> . </p> </td> 
-  </tr> 
- </tbody> 
+   <td colname="col2"> <p>Returns the number of devices belonging to the test segments. Toggle between <span class="uicontrol"> Total Population</span> or <span class="uicontrol"> Real-time Population</span>. The difference is explained in the <a href="../../faq/faq-reporting.md#concept_8722EA8154E1416CB334FF37E2E955C4"> Reporting FAQ</a> . </p> </td>
+  </tr>
+ </tbody>
 </table>
 
 You can select a specific conversion trait for which to generate the report or you can select all traits combined. You can define a date range for which the information should be returned and export the report as a CSV file.

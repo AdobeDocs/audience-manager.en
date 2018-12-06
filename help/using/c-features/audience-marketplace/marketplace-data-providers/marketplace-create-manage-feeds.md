@@ -51,7 +51,7 @@ To create a data feed:
    >* Saved and activated data feeds cannot be deleted. 
    >* Buyers see active feeds only.
 
-**Optional: Create a Private Data Feed**
+### Optional: Create a Private Data Feed
 
 In the [!UICONTROL Settings] section, move the slider to:
 
@@ -75,7 +75,7 @@ marketplace-deactivate-subscribers.xml
 
  -->
 
-To revoke a subscriber: 
+To revoke a subscriber:
 
 1. In [!UICONTROL My Shared Data], find the feed the subscriber is using.
 

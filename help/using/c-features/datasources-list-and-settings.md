@@ -20,9 +20,7 @@ View a list of your currently configured data sources, add new data sources, and
 View a list of your currently configured data sources, add new data sources, and edit existing sources.
 
 <!--
-
 c_datasources.xml
-
  -->
 
 You can also manage data sources using API methods. For more information, see [Data Source API Methods](../c-api/c-rest-api-main/aam-api-data-sources.md#concept_F7602FD030AA4638AF6D045E1009FA47).
@@ -32,9 +30,7 @@ You can also manage data sources using API methods. For more information, see [D
 The [!UICONTROL Data Sources] dashboard is a centralized workspace for managing data sources.
 
 <!-- 
-
 c_datasources_list.xml
-
  -->
 
 The [!UICONTROL Data Sources] dashboard ( **[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]**) contains features and tools that help you:
@@ -50,9 +46,7 @@ The settings in the different sections of the [!UICONTROL Data Source] managemen
 ## Data Source Details {#section_43423119AD0E42A8B4C01747747E49A2}
 
 <!-- 
-
 datasource-settings-definitions.xml
-
  -->
 
 In addition to text fields, the [!UICONTROL Data Source Details] section contains the controls and options listed below.

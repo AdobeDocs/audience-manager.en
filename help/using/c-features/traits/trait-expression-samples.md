@@ -41,7 +41,7 @@ The rule establishes trait qualification requirements using Boolean [!UICONTROL 
   <tr> 
    <td colname="col1"> 
     <codeblock>
-      (c_make=="A")&amp;nbsp;AND&amp;nbsp;(c_model=="B")&amp;nbsp;AND&amp;nbsp;(c_search=="1") 
+      (c_make=="A") [!DNL AND] (c_model=="B") [!DNL AND] (c_search=="1") 
     </codeblock> </td> 
    <td colname="col2"> 
     <ul id="ul_F1BB5084FB794BE7A3569F9C106FC481"> 
@@ -67,7 +67,7 @@ This rule establishes trait qualification requirements using Boolean [!UICONTROL
   <tr> 
    <td colname="col1"> 
     <codeblock>
-      (a==&amp;nbsp;"1"&amp;nbsp;OR&amp;nbsp;b=="1")&amp;nbsp;AND&amp;nbsp;(c==&amp;nbsp;"new") 
+      (a== "1" [!DNL OR] b=="1") [!DNL AND] (c=="new")
     </codeblock> </td> 
    <td colname="col2"> Meet the conditions set by variables <span class="varname"> a </span> or <span class="varname"> b </span> and <span class="varname"> c </span>. </td> 
   </tr> 
@@ -89,7 +89,7 @@ This rule establishes trait qualification requirements using a range.
   <tr> 
    <td colname="col1"> 
     <codeblock>
-      (price&gt;=&amp;nbsp;1.00&amp;nbsp;AND&amp;nbsp;price&lt;=&amp;nbsp;100.00) 
+      (price &gt;= 1.00 [!DNL AND] price &lt;= 100.00) 
     </codeblock> </td> 
    <td colname="col2" valign="middle" align="left"> Meet any price condition between 1.00 and 100.00. </td> 
   </tr> 

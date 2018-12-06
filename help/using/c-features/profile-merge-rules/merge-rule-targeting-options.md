@@ -39,7 +39,7 @@ These options reach specific users when they're browsing but not logged on. You 
 
 Rules that reach users based on previous authentication include:
 
-* **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Current Device Profile]** 
+* **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Current Device Profile]**
 
 * **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Merge Device Graph]**
 

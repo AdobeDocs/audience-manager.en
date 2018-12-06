@@ -18,6 +18,4 @@ APIs and toolkits that let you work programmatically with Audience Manager.
 >
 >These features are not supported by our APIs: >
 >* General, Trend, and Interactive reports. 
->* Deprecated Tag Insertion Manager (TIM) functionality. 
->
-
+>* Deprecated Tag Insertion Manager (TIM) functionality.

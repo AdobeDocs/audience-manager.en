@@ -66,7 +66,7 @@ r_algo_trait_config_section.xml
 * Wait for the notification email that lets you know the model data run has finished.
 * Complete the required fields in the [Basic Information](../../c-features/traits/create-onboarded-rule-based-traits.md) section.
 
-**Configuration Fields and Settings**
+### Configuration Fields and Settings
 
 |  Interface Element  | Explanation  |
 |---|---|

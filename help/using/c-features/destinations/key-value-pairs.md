@@ -134,6 +134,6 @@ A serialized destination combines multiple traits into a single string and sends
 
 Serialized data transmission helps improve efficiency because multiple traits fire sequentially, rather than in parallel. This provides the destination server with enough time to receive, process, and return data before responding to additional requests.
 
-**Supported Destinations**
+### Supported Destinations
 
 In [!DNL Audience Manager], you can serialize and send data to just about any destination you want to work with. However, before using this feature, you will need to know the destination URL and where to place some required or optional macros. Obtain the information about macro placement from your destination partner. See [Destination Macros Defined](../../c-features/destinations/destination-macros.md#reference_B2F4AE643702440D879EFFE4A3FAAEDB) for more information.
