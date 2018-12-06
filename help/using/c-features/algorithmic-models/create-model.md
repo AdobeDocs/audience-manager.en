@@ -54,7 +54,7 @@ To build a model, go to the [!UICONTROL Models] section and click **[!UICONTROL 
 r_model_basic.xml
 -->
 
-In [!UICONTROL Model Builder], the [!UICONTROL Basic Information] settings let you create new or edit existing models. To create a new model, provide a name and move on to the [!UICONTROL Configuration] settings. The description field is optional. 
+In [!UICONTROL Model Builder], the [!UICONTROL Basic Information] settings let you create new or edit existing models. To create a new model, provide a name and move on to the [!UICONTROL Configuration] settings. The description field is optional.
 
 |  Field  | Description  |
 |---|---|

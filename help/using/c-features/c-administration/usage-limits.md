@@ -15,14 +15,6 @@ snippet: y
 
 Audience Manager sets a maximum limit on the number of traits, segments, destinations, and algorithmic models that you can create for an account. Limits apply to these items whether created in the user interface or programmatically through API methods. Usage limits help protect Audience Manager from automated processes that may attempt to compromise our APIs or user interface.
 
-Contents:
-
-<ul class="simplelist"> 
- <li> <a href="../../c-features/c-administration/usage-limits.md#section_7181B0BBC194402BAC55E6846048D78F"> Item Limits </a> </li> 
- <li> <a href="../../c-features/c-administration/usage-limits.md#section_EBE3D23D14F54408911573211E2ED62D"> Monitor Usage </a> </li> 
- <li> <a href="../../c-features/c-administration/usage-limits.md#section_CAB5B9E4ED0D449A9DD97B04ECEF5838"> Increase Item Limits </a> </li> 
-</ul>
-
 ## Item Limits {#section_7181B0BBC194402BAC55E6846048D78F}
 
 The tables list the current limits by item type. You cannot create new traits, segments, destinations, or [!UICONTROL Algorithmic Models] if you reach a specific limit for one of these items. If you do reach a limit, you must delete an older item before you can create a new one.

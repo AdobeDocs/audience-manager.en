@@ -145,7 +145,7 @@ The [!UICONTROL Experience Cloud ID Service] and the latest version of [DIL](../
 
 ### Configure the Set Customer ID Function
 
-When working with the [!UICONTROL Experience Cloud ID Service], the `setCustomerIDs` function passes declared IDs to [!DNL Audience Manager]. To use a profile merge rule, you must modify `setCustomerIDs` to use the integration code specified when you created a cross-device data source. For example, say you've created a cross-device data source with the integration code `my_datasource_ic`. To pass in a declared ID, you would add the integration code to the visitor ID function as shown in the modified code sample below. 
+When working with the [!UICONTROL Experience Cloud ID Service], the `setCustomerIDs` function passes declared IDs to [!DNL Audience Manager]. To use a profile merge rule, you must modify `setCustomerIDs` to use the integration code specified when you created a cross-device data source. For example, say you've created a cross-device data source with the integration code `my_datasource_ic`. To pass in a declared ID, you would add the integration code to the visitor ID function as shown in the modified code sample below.
 
 <table id="table_97F466CE75C446A288908D659516195C"> 
  <thead> 
@@ -234,7 +234,7 @@ See the [Configure SDKs](../../c-features/profile-merge-rules/merge-rules-start.
 
 Check the methods in your SDK code that let you pass [!UICONTROL declared IDs] from Android and iOS mobile devices. The variable names for the Android and iOS code libraries are the same:
 
-* `dpid`: The cross-device data source ID. 
+* `dpid`: The cross-device data source ID.
 * `dpuuid`: The [!UICONTROL declared ID] (i.e., the user ID).
 
 <table id="table_2ACA3E5F316D4413B10A4403B786CC23"> 

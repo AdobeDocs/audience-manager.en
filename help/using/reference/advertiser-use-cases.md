@@ -20,7 +20,7 @@ c_adv_use_case.xml
 
  -->
 
-**Create a Unified View of all Your Users**
+## Create a Unified View of all Your Users
 
 <table id="table_DB2C43F8A8074A229CE23B8772A510BF"> 
  <thead> 
@@ -43,7 +43,7 @@ c_adv_use_case.xml
  </tbody> 
 </table>
 
-**Create High Value Segments and Improve Reach with Look-alike Modeling**
+## Create High Value Segments and Improve Reach with Look-alike Modeling
 
 The [Models](../c-features/algorithmic-models/understanding-models.md#concept_49FB2DBD4AD041A4ABAAEE9D83BB996E) documentation contains details about the [!DNL Audience Manager] algorithmic modeling process.  
 
@@ -66,7 +66,7 @@ The [Models](../c-features/algorithmic-models/understanding-models.md#concept_49
     <ul id="ul_CC5448D2EA0646D4AF3547E81DE31FDE"> 
      <li id="li_8F11E40026404C1380F26F6D03952C8E">Identify new audiences with behaviors and profiles that mirror the original audience. </li> 
      <li id="li_5F67AD849EC145DBB1E52A92BBE2CEE3">Search against your own data and other third-party data that you have access to. This helps you find and identify the most influential data points for high-value audience profiles. </li> 
-    </ul> </td> 
+    </ul> </td>
    <td colname="col3"> 
     <ul id="ul_EB3707C4449E44F195EE5655B724A9B4"> 
      <li id="li_268E6A408C634E5EAF2D536930EE77C7">Identify customers who make expensive purchases. </li> 
@@ -78,7 +78,7 @@ The [Models](../c-features/algorithmic-models/understanding-models.md#concept_49
  </tbody> 
 </table>
 
-**Retarget First-Party Data Through a Demand-side Platform (DSP)**
+## Retarget First-Party Data Through a Demand-side Platform (DSP)
 
 <table id="table_26697DC988BD4A6493B4867B903132D7"> 
  <thead> 
@@ -107,7 +107,7 @@ The [Models](../c-features/algorithmic-models/understanding-models.md#concept_49
  </tbody> 
 </table>
 
-**Use Partner Data to Create Special Offers for Current Customers**
+## Use Partner Data to Create Special Offers for Current Customers
 
 <table id="table_D476EA5CE881431A94B98D27C1697A3B"> 
  <thead> 
@@ -138,7 +138,7 @@ The [Models](../c-features/algorithmic-models/understanding-models.md#concept_49
  </tbody> 
 </table>
 
-**Use CRM Data to Create Special Offers for Current Customers**
+## Use CRM Data to Create Special Offers for Current Customers
 
 <table id="table_A44E3CC858A544ACB875C3FBEEC281CD"> 
  <thead> 
@@ -166,7 +166,7 @@ The [Models](../c-features/algorithmic-models/understanding-models.md#concept_49
  </tbody> 
 </table>
 
-**Run Email Marketing with On-Site Behavioral and Current Customer Data**
+## Run Email Marketing with On-Site Behavioral and Current Customer Data
 
 <table id="table_29276E12EFC94ACDA981A6EEDDAAA335"> 
  <thead> 
@@ -195,7 +195,7 @@ The [Models](../c-features/algorithmic-models/understanding-models.md#concept_49
  </tbody> 
 </table>
 
-**Tailor the Visitor's Purchase Path with Current Customer and Third-party Data**
+## Tailor the Visitor's Purchase Path with Current Customer and Third-party Data
 
 <table id="table_FAAE5C97107244A1B5179DF0FEC604D1"> 
  <thead> 
@@ -219,7 +219,7 @@ The [Models](../c-features/algorithmic-models/understanding-models.md#concept_49
  </tbody> 
 </table>
 
-**Improve First-party Data Monetization**
+## Improve First-party Data Monetization
 
 <table id="table_9253B663D0F8458CBB43C38C212689CF"> 
  <thead> 
