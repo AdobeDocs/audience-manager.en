@@ -58,7 +58,6 @@ user-guide-title: Audience Manager User Guide
             + [Filter Search Results](c-features/data-explorer/data-explorer-signals-search/data-explorer-filter-results.md)
             + [Save Search Criteria](c-features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md)
         + Create Traits from Signals{#create-traits-from-signals}
-            + [Create Traits from Signals](c-features/data-explorer/data-explorer-create-trait/data-explorer-create-trait.md)
             + [Create Traits from Signal Dashboard](c-features/data-explorer/data-explorer-create-trait/data-explorer-create-dashboard.md)
             + [Create Traits from Signal Search](c-features/data-explorer/data-explorer-create-trait/data-explorer-create-search.md)
         + [Backfill Trait Realizations](c-features/data-explorer/data-explorer-trait-backfill.md)
