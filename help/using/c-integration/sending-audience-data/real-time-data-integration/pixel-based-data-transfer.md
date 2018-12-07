@@ -33,7 +33,7 @@ This basic event call sends trait ID 1234 to [!DNL Audience Manager].
 
 ```
 
-https://something.demdex.net/event?d_sid=1234"
+https://something.demdex.net/event?d_sid=1234
 
 ```
 
@@ -41,7 +41,7 @@ You can serialize trait IDs in an event call to help reduce HTTP traffic from th
 
 ```
 
-https://something.demdex.net/event?d_sid=1234,5678,9876,5432"
+https://something.demdex.net/event?d_sid=1234,5678,9876,5432
 
 ```
 

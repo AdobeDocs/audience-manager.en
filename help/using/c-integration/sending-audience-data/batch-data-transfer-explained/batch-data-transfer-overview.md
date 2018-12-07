@@ -14,7 +14,7 @@ snippet: y
 
 An overview for technical and non-technical customers who want to bring data from other systems (offline) into Audience Manager.
 
- **Advantages**
+ ## Advantages
 
 <!-- 
 
@@ -24,7 +24,7 @@ c_offline_to_online.xml
 
 You can make data from other systems available in Audience Manager. Our system can help you unlock value and leverage user data that you've collected previously. This includes information about purchases, customer surveys, registration data, CRM databases, etc. While each integration presents its own challenges, they all share these common steps. Review this material to help reduce the effort required to bring your offline data online.
 
-**Step 1: Synchronize User IDs**
+## Step 1: Synchronize User IDs
 
 During synchronization, Audience Manager assigns unique IDs to clients and their users. These IDs are known as the Data Provider ID (DPID) and Unique User ID (UUID), respectively. Audience Manager uses the DPID and UUID to identify users and qualify them for traits, segments, audience groups, and for reporting. Additionally, our data collection code (DIL) looks for these IDs to capture visitor data from your website. When this step is complete, Audience Manager and your offline repository should contain corresponding IDs for each user record.
 
@@ -49,7 +49,7 @@ See [ID Synchronization for Inbound Data Transfers](../../../c-integration/sendi
 
  -->
 
-**Step 2: Data File Format**
+## Step 2: Data File Format
 
 File names and content follow strict guidelines. You *must* name and organize data files according to these specifications in this guide. See:
 
@@ -57,11 +57,11 @@ File names and content follow strict guidelines. You *must* name and organize da
 * [FTP Name Requirements for Inbound Data Files](../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md#concept_D34898442363415DBF75CEBFC2E86997) 
 * [Inbound Data File Contents: Syntax, Variables, and Examples](../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
 
-**Online Data is Available for Offline Marketing Efforts**
+## Online Data is Available for Offline Marketing Efforts
 
 When you bring offline data online, you can still use this information for offline campaigns. To do this, Audience Manager exports trait and segment information to an FTP or Amazon S3 location of your choice. Contact your Partner Solutions manager for additional information or assistance.
 
-**Environments**
+## Environments
 
 Audience Manager provides the following environments for file drop-off: 
 
@@ -95,6 +95,6 @@ Audience Manager provides the following environments for file drop-off:
  </tbody> 
 </table>
 
-**Further Technical Reading**
+## Further Technical Reading
 
-Systems engineers, developers, or technical/implementation teams should review [Real-Time Inbound Data Integration](../../../c-integration/sending-audience-data/real-time-data-integration/real-time-data-integration.md#concept_D93A558E981243579E853690BB5C07E1) and [Batch Data Transfer Process Described](../../../c-integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md#concept_EC5B2B3B5ED443F0B271400C08B263D3). These sections provide details about transfer protocols, file content, and file name requirements. 
+Systems engineers, developers, or technical/implementation teams should review [Real-Time Inbound Data Integration](../../../c-integration/sending-audience-data/real-time-data-integration/real-time-data-transfer-explained.md) and [Batch Data Transfer Process Described](../../../c-integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md#concept_EC5B2B3B5ED443F0B271400C08B263D3). These sections provide details about transfer protocols, file content, and file name requirements. 

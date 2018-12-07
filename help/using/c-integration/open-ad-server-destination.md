@@ -14,10 +14,6 @@ snippet: y
 
 Set up Open Ad Server as a destination and send Audience Manager data to that platform.
 
-## OAS as an Audience Manager Destination {#topic_97281B7C2B7E464E9B87B556148B6235}
-
-Set up Open Ad Server as a destination and send Audience Manager data to that platform. 
-
 ## OAS Destination Requirements {#concept_B999EF0522C14FF7BB55A8465D29EE0C}
 
 Standards for code placement, supported key-value formats, reports, and the type of segment data sent to OAS.
@@ -70,9 +66,9 @@ In Audience Manager, a *destination* is any other system (ad server, DSP, ad net
 To complete the [!UICONTROL Basic Information] section:
 
 1. Name the destination. 
-1. Select **[!UICONTROL "Cookie"]** from the [!UICONTROL Type] drop-down list. 
+2. Select **[!UICONTROL "Cookie"]** from the [!UICONTROL Type] drop-down list. 
 
-1. Click **[!UICONTROL Save]** and move on to the [!UICONTROL Configuration] and [!UICONTROL Segment Mappings] sections.
+3. Click **[!UICONTROL Save]** and move on to the [!UICONTROL Configuration] and [!UICONTROL Segment Mappings] sections.
 
 **Step 2: Configuration Information**
 
@@ -114,9 +110,9 @@ To set up OAS
 * Create OAS as a cookie destination in Audience Manager. 
 * Place the `get_aamCookie` function at the top of the page, ideally within the `<head>` codeblock. The `get_aamCookie` code is available [here](../c-features/destinations/get-aam-cookie-code.md#reference_0102FABCC96547DE81DFCA0600BBEFD3). 
 
-* Modify your ad tag to call the `get_aamCookie` function and include the cookie name you provided when setting up the OAS destination. For example, if you named the cookie `test_cookie`, then the ad tag should call `get_aamCookie` and reference the cookie name. Your ad tag could look similar example below. 
+* Modify your ad tag to call the `get_aamCookie` function and include the cookie name you provided when setting up the OAS destination. For example, if you named the cookie `test_cookie`, then the ad tag should call `get_aamCookie` and reference the cookie name.
 
-* 
+* Your ad tag could look similar to the example below.
 
   ```js
   <a href= "https://client.adserver.net/?" + get_aamCookie('test_cookie') +

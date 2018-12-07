@@ -14,10 +14,6 @@ snippet: y
 
 Set up OpenX as a destination and send Audience Manager segment data to that platform.
 
-## OpenX as an Audience Manager Destination {#topic_8CCCC636615B441E8899AB98745808C7}
-
-Set up OpenX as a destination and send Audience Manager segment data to that platform.
-
 >[!NOTE]
 >
 >For onsite ad server targeting only.
@@ -39,7 +35,7 @@ Review the following before setting up OpenX as an Audience Manager destination:
 
 * **Send Delivery Logs to Audience Manager:** If you want a segment delivery report (optional), provide Audience Manager with a daily log that contains impression-level delivery data. The data can be in a raw format, but each record must contain the Audience Manager UUID. Audience Manager can pick up or receive these via FTP.
 
-** Key-Value Data: Format Requirements**
+**Key-Value Data: Format Requirements**
 
 Audience Manager sends data in the form of key-value pairs. Create key-value pairs according to the following specifications:
 
@@ -70,9 +66,9 @@ In Audience Manager, a *destination* is any other system (ad server, DSP, ad net
 To complete the [!UICONTROL Basic Information] section:
 
 1. Name the destination. 
-1. Select **[!UICONTROL "Cookie"]** from the [!UICONTROL Type] drop-down list. 
+2. Select **[!UICONTROL "Cookie"]** from the [!UICONTROL Type] drop-down list. 
 
-1. Click **[!UICONTROL Next]** and move on to the [!UICONTROL Configuration] and [!UICONTROL Segment Mappings] sections.
+3. Click **[!UICONTROL Next]** and move on to the [!UICONTROL Configuration] and [!UICONTROL Segment Mappings] sections.
 
 **Step 2: Configuration Information**
 
@@ -114,9 +110,9 @@ To set up OpenX
 * Create OpenX as a cookie destination in Audience Manager. 
 * Place the `get_aamCookie` function at the top of the page, ideally within the `<head>` codeblock. The `get_aamCookie` code is available [here](../c-features/destinations/get-aam-cookie-code.md#reference_0102FABCC96547DE81DFCA0600BBEFD3). 
 
-* Modify your ad tag to call the `get_aamCookie` function and include the cookie name you provided when setting up the OpenX destination. For example, if you named the cookie `test_cookie`, then the ad tag should call `get_aamCookie` and reference the cookie name. Your ad tag could look similar example below. 
+* Modify your ad tag to call the `get_aamCookie` function and include the cookie name you provided when setting up the OpenX destination. For example, if you named the cookie `test_cookie`, then the ad tag should call `get_aamCookie` and reference the cookie name.  
 
-* 
+* Your ad tag could look similar to the example below.
 
   ```
   <a href= "https://client.adserver.net/?" + get_aamCookie('test_cookie') + 
