@@ -14,17 +14,13 @@ snippet: y
 
 Returns data on the number of unique users shared among all your first and third-party traits.
 
-## Trait-to-Trait Overlap Report {#concept_1FBAED029FFD4AA5A5C6E79F633D9A0D}
-
-Returns data on the number of unique users shared among all your first and third-party traits.
-
 <!-- 
 
 c_overlap_reports.xml
 
  -->
 
-### Overview
+## Overview
 
 The [!UICONTROL Trait-to-Trait Overlap] report returns data on the % of unique users shared between all your own traits and your third-party traits. As an optimization tool, this report helps you:
 
@@ -32,7 +28,7 @@ The [!UICONTROL Trait-to-Trait Overlap] report returns data on the % of unique u
 * Validate third-party trait data: Strong overlap between similar first and third-party traits suggests that the trait from your data partner is accurate and trustworthy. Conversely, low overlap can indicate that a third-party trait may not actually contain the same information as your own, similar first-party trait. 
 * Find unexpected overlap between traits and use that information to build innovative segments.
 
-### Sample Report
+## Sample Report
 
 The following illustration provides a high-level overview of elements in the [!UICONTROL Trait-to-Trait Overlap] report. 
 
@@ -42,7 +38,7 @@ The following illustration provides a high-level overview of elements in the [!U
 
 ![](assets/t2t_overlap90.png)
 
-### Drill Down on Individual Data Points
+## Drill Down on Individual Data Points
 
 Select an individual point to view data details in a pop up window. Your click actions automatically update data displayed in the report. 
 
