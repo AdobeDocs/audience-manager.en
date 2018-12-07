@@ -14,7 +14,7 @@ snippet: y
 
 An overview for technical and non-technical customers who want to bring data from other systems (offline) into Audience Manager.
 
- ## Advantages
+## Advantages
 
 <!-- 
 
