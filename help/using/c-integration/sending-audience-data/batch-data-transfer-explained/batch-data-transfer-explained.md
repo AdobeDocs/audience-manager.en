@@ -14,7 +14,7 @@ snippet: y
 
 A general overview of how Audience Manager performs an asynchronous batch data exchange with a third-party vendor.
 
- ## Batch Data Integration
+## Batch Data Integration
 
 <!-- 
 
