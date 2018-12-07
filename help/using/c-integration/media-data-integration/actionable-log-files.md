@@ -33,7 +33,7 @@ Actionable Log Files allow you to capture media data from Google DCM log files a
 
 ## Getting Started {#section_DD0AAAB29999453889CB3C86D2F4EFF5}
 
-To get started with [!UICONTROL Actionable Log Files], and to use our [Audience Optimization Reports](../../reporting/audience-optimization-reports/audience-optimization-reports.md#concept_D66D2C58493E48BDAFF2F95BBB508946), you need to import DCM log data into [!DNL Audience Manager]. See [Import DCM Data Files Into Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md#task_5BBF62BBAA7D43AFA6DCCF53C6DBEF00)* and* contact your [!DNL Audience Manager] consultant.
+To get started with [!UICONTROL Actionable Log Files], and to use our [Audience Optimization Reports](../../reporting/audience-optimization-reports/audience-optimization-reports.md#concept_D66D2C58493E48BDAFF2F95BBB508946), you need to import DCM log data into [!DNL Audience Manager]. See [Import DCM Data Files Into Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md#task_5BBF62BBAA7D43AFA6DCCF53C6DBEF00) *and* contact your [!DNL Audience Manager] consultant.
 
 If you are already importing DCM log data into [!DNL Audience Manager], ask your [!DNL Audience Manager] consultant or [Customer Care](../../help-legal.md#concept_36E2723E9F884387B5F73E151ADC7F28) to enable [!UICONTROL Actionable Log Files] for you.
 
@@ -51,7 +51,7 @@ For an average-sized DCM log file of 2 million lines, any traits created from ac
 
 >[!IMPORTANT] {importance="high"}
 >
->We recommend implementing [!UICONTROL Actionable Log Files] *instead of* [Pixel Calls](../../c-integration/media-data-integration/impression-data-pixels.md#concept_83852AB68E344D4F8933665C895322C2). We discourage the use of both options, as this leads to an increase in frequency counts for traits.
+>We recommend implementing [!UICONTROL Actionable Log Files] *instead of*  [Pixel Calls](../../c-integration/media-data-integration/impression-data-pixels.md#concept_83852AB68E344D4F8933665C895322C2). We discourage the use of both options, as this leads to an increase in frequency counts for traits.
 
 ## Actionable Signals {#section_F23E910753EB4241BFD8B76262526F18}
 
@@ -147,15 +147,15 @@ Retarget users who saw creative 123 but didn't click or convert and show them cr
 
    `d_creative == 123 AND d_event == imp` 
 
-1. Create a trait to capture users who click or convert. Let's say you name this one Click and Converter. Use the trait rule:
+2. Create a trait to capture users who click or convert. Let's say you name this one Click and Converter. Use the trait rule:
 
    `d_event == click OR d_event=conv` 
 
-1. Create a segment to populate with users who saw creative 123 but didn't click or convert. Name it Retarget Users and use the segment rule:
+3. Create a segment to populate with users who saw creative 123 but didn't click or convert. Name it Retarget Users and use the segment rule:
 
    `Creative Trait 123 AND NOT Click and Converter` 
 
-1. Map the segment Retarget Users to a destination and target users in the destination with creative 456.
+4. Map the segment Retarget Users to a destination and target users in the destination with creative 456.
 
 **Use DCM Floodlight Activity in the Audience Optimization Reports or in Audience Lab**
 

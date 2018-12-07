@@ -14,12 +14,6 @@ snippet: y
 
 A high-level overview of how Audience Manager exchanges information with other data providers and systems.
 
-## Data Integration Methods {#topic_0E9E9D3784B046B4A22D1AB5F70C49B6}
-
-Work with data from Experience Cloud solutions or other external systems in Audience Manager.
-
-[!DNL Adobe] data partners who want to receive audiences through a server-to-server integration should see [Audience Manager Targeting Integration](https://helpx.adobe.com/marketing-cloud/partners/partner_aam_targeting_integration.html) to get started. 
-
 ## Supported Data Integration Methods: Real-Time and Server-to-Server {#section_79812B3411654D35AD5C401EA81072A4}
 
 Choosing the right integration method depends on a combination of business requirements and the technical capabilities of your data partner. Audience Manager exchanges visitor information with other data providers by either of the following methods:
@@ -143,10 +137,10 @@ Real-time data transfers send and receive segment IDs as a user visits or takes 
 The real-time data integration process works as follows:
 
 1. A user visits a customer's site that contains Audience Manager code. 
-1. Audience Manager loads an Iframe and makes a call to the Data Collection Server (DCS). 
-1. The DCS calls the third-party server (in real time) to check if the vendor has any segment information about the user. 
-1. The third party returns segment information about that user to Audience Manager. 
-1. Audience Manager ingests segment information and makes it available for targeting.
+2. Audience Manager loads an Iframe and makes a call to the Data Collection Server (DCS). 
+3. The DCS calls the third-party server (in real time) to check if the vendor has any segment information about the user. 
+4. The third party returns segment information about that user to Audience Manager. 
+5. Audience Manager ingests segment information and makes it available for targeting.
 
 ![](assets/rt_reduce70.png)
 

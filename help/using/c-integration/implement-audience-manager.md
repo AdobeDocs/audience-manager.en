@@ -244,7 +244,7 @@ c_code.xml
 
  -->
 
-** Deployment**
+**Deployment**
 
 The Audience Manager code snippet calls Akamai to download the business rules set up previously in the user interface. Furthermore, client browsers cache this information, which helps reduce page and server load times. Our code and data collection methodology is designed to maintain the user experience across your inventory.
 

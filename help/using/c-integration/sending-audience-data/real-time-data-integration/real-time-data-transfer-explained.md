@@ -20,11 +20,11 @@ real-time-data-transfer-explained.xml
 
  -->
 
-**Real-Time Data Transfers**
+## Real-Time Data Transfers
 
 Real-time data transfers send and receive segment IDs as a user visits or takes action on your site. Typically, synchronous data transfers are useful when you need to qualify or segment users right away, as they navigate through your inventory.
 
-** Data Integration Steps**
+## Data Integration Steps
 
 The real-time data integration process works as follows:
 

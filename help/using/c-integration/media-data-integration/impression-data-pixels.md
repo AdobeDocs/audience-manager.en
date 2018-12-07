@@ -16,14 +16,7 @@ One approach for sending media data to Audience Manager uses ad server macros to
 
 This methodology is often referred to as "pixeling the creative." Those data points are dynamically inserted into the [!DNL Audience Manager] pixel code by the third-party ad server macros, which are used to map and report all impressions and clicks based on the key reporting attributes of the campaign. The aggregated data provides a unified view of campaign performance, helps identify custom conversion paths, and helps customers improve the sequence of ad server events that lead to conversions.
 
-
-
-Contents:
-
-<ul class="simplelist"> 
- <li> <a href="../../c-integration/media-data-integration/impression-data-pixels.md#section_76587C364F9C47F7BAB8DB2D2DBE5F8A"> Event Call Syntax </a> </li> 
- <li> <a href="../../c-integration/media-data-integration/impression-data-pixels.md#section_CC46BA48F4544216A73D8E29D0E9C5E6"> Supported Key-Value Pairs </a> </li> 
-</ul>
+## Event Call Syntax
 
 >[!NOTE]
 >

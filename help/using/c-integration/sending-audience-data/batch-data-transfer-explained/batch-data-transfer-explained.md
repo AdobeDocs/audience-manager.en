@@ -14,7 +14,7 @@ snippet: y
 
 A general overview of how Audience Manager performs an asynchronous batch data exchange with a third-party vendor.
 
- **Batch Data Integration**
+ ## Batch Data Integration
 
 <!-- 
 
@@ -30,7 +30,7 @@ The batch data integration process saves visitor information on our servers and 
 
 ![](assets/s2s_70.png)
 
-**Data Integration Steps**
+## Data Integration Steps
 
 1. A user visits a customer site. 
 1. Audience Manager and the third-party data provider assign the visitor a unique ID (usually with a cookie). 
