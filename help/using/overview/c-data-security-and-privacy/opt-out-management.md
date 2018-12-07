@@ -21,7 +21,7 @@ Adobe complies with all industry-wide standards with regard to opt-out managemen
 
 ## Global Opt-Out {#section_7572239987C840969C2B690097BE600C}
 
-The global opt-out represents an opt-out across all Adobe Experience Cloud solutions for all brands. The table below lists the methods used for global opt-out:
+The global opt-out represents an opt-out across Audience Manager and other Adobe Experience Cloud solutions for all brands. The table below lists the methods used for global opt-out:
 
 <table id="table_F1027B9633E948DCBB11C141B381682A"> 
  <thead> 
