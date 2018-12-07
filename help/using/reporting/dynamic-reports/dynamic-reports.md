@@ -14,10 +14,6 @@ snippet: y
 
 Interactive reports display performance and overlap data for traits and segments. Instead of using numbers arranged in columns and rows, these reports return data using different shapes, colors, and sizes. Additionally, you can choose individual or groups of data points and drill down into the report results for more details. These visualization techniques and report interactivity help make large amounts of numeric data easier to understand.
 
-## Interactive and Overlap Reports {#concept_88ADC775F1E9458582A3285B29B76A46}
-
-Interactive reports display performance and overlap data for traits and segments. Instead of using numbers arranged in columns and rows, these reports return data using different shapes, colors, and sizes. Additionally, you can choose individual or groups of data points and drill down into the report results for more details. These visualization techniques and report interactivity help make large amounts of numeric data easier to understand.
-
 <!-- 
 
 c_dynamic_reports.xml
