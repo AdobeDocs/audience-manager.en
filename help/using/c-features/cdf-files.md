@@ -17,11 +17,9 @@ Basic information about Customer Data Feed (CDF) files and instructions on how t
 
 ## File Contents and Purpose {#section_F0D2FA4C021A4C5EBC1D5308AE2F256F}
 
-<!-- 
-
+<!--
 cdf-intro.xml
-
- -->
+-->
 
 A CDF file contains the same data that an [!DNL Audience Manager] event call ( `/event`) sends to our servers. This includes data like user IDs, trait IDs, segment IDs, and all the other parameters captured by an event call. Internal [!DNL Audience Manager] systems processes event data into a CDF file with content organized into fields that appear in a set order. [!DNL Audience Manager] tries to generate CDF files hourly and stores them in a secure, customer-specific bucket on an Amazon S3 server. We provide these files so you can work with [!DNL Audience Manager] data outside of the limits imposed by our user interface.
 

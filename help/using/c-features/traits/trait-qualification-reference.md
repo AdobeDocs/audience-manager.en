@@ -33,7 +33,7 @@ Trait qualification, or trait realization, is treated differently in Audience Ma
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Rule-based Traits </p> </td> 
-   <td colname="col2"> <p>Trait qualification happens in real-time, as users qualify for a trait in their browser. Your users will start qualifying for a rule-based trait approximately 4 hours after you <a href="../../c-features/traits/create-onboarded-rule-based-traits.md#concept_CFCB78FDF44A42BCA69C948A2C8EC3D5"> create the trait</a> in the UI. </p> <p>Rule-based traits allow you to use <a href="../../c-features/c-segments/recency-and-frequency.md#concept_957D9E1977774D28A98ACEE6035E7B37"> recency and frequency</a> controls for ad frequency capping and other use cases. </p> </td> 
+   <td colname="col2"> <p>Trait qualification happens in real-time, as users qualify for a trait in their browser. Your users will start qualifying for a rule-based trait approximately 4 hours after you <a href="../../c-features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits"> create the trait</a> in the UI. </p> <p>Rule-based traits allow you to use <a href="../../c-features/c-segments/recency-and-frequency.md#concept_957D9E1977774D28A98ACEE6035E7B37"> recency and frequency</a> controls for ad frequency capping and other use cases. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Onboarded Traits </p> </td> 

@@ -12,7 +12,7 @@ snippet: y
 # Search Signals by Key-Value Pairs {#search-signals-by-key-value-pairs}
 
 Search for one or multiple signals, based on their respective key-value pairs.
-To search for more than one signal, click the  ![Add](assets/icon_add.png) button. Enter the key-value pairs that you want to search for, then use the following filters to narrow down your results.
+To search for more than one signal, click the ![Add](assets/icon_add.png) button. Enter the key-value pairs that you want to search for, then use the following filters to narrow down your results.
 
 * **Signal status**: search for signals included in traits, unused signals, or both.
 * **View records for**: select the time interval in which to search for received signals.

@@ -14,11 +14,9 @@ snippet: y
 
 This article describes the prefixes you must attach to key variables when creating trait rules.
 
-<!-- 
-
+<!--
 r_tb_variable_prefixes.xml
-
- -->
+-->
 
 ## Purpose of Key Variable Prefixes
 
@@ -58,4 +56,4 @@ The following table defines the common prefixes used by [!UICONTROL Trait Builde
 >[!MORE_LIKE_THIS]
 >
 >* [Basic Information Overview](../../c-features/traits/create-onboarded-rule-based-traits.md)
->* [Managing Trait Rules](../../c-features/traits/manage-trait-rules.md#concept_3A566134D5704002B3713D0909C94389)
+>* [Managing Trait Rules](../../c-features/traits/manage-trait-rules.md#managing-trait-rules)

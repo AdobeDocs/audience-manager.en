@@ -59,7 +59,7 @@ Please take note of the following aspects and limitations related to [!UICONTROL
   </tr> 
   <tr> 
    <td colname="col1"> <p>Role-Based Access Controls (RBAC) </p> </td>
-   <td colname="col2"> <p>Note the following limitations for companies using <a href="../../c-features/c-administration/administration-overview.md#concept_925BB65910BB41139D4137DBC09415DB"> RBAC</a>: </p> <p>
+   <td colname="col2"> <p>Note the following limitations for companies using <a href="../../c-features/c-administration/administration-overview.md#administration"> RBAC</a>: </p> <p>
      <ul id="ul_38A4056C235B428C822EA4A353893786"> 
       <li id="li_2624FB35581F4807B8530910D63FFDBF">If you don't have access to view a trait, you <i>cannot</i> select that trait to be excluded from the model. </li>
       <li id="li_3FD7A12AAAA8462EA84A760C05F20379">If you don't have access to view a trait, you <i>cannot</i> view that trait in the excluded traits list. </li>

@@ -16,10 +16,6 @@ snippet: y
 
 Overview and workflow for data providers who want to sell data from within Audience Manager.
 
-## Audience Marketplace for Data Providers {#concept_7B0A9D7A90BC4FCDBA054B29D9D42278}
-
-Overview and workflow for data providers who want to sell data from within [!DNL Audience Manager].
-
 <!-- c_marketplace_provider.xml -->
 
 >[!NOTE]

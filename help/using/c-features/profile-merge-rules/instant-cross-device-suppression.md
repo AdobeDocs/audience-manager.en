@@ -26,7 +26,7 @@ The technical details of the real-time unsegmentation are described in length in
 
 Assure that your users that have already converted (purchased a product, acquired a subscription, etc.) will not see the same messaging as before the conversion. You can obtain this using the [!UICONTROL AND NOT] logic, as follows.
 
-1. Create a segment using two traits, and use the [!UICONTROL AND NOT] logic, as shown in the image below. You must use a rule-based trait to define the conversion event for the unsegment to be triggered in real-time. Read more about how to [create rule-based traits](../../c-features/traits/create-onboarded-rule-based-traits.md#concept_CFCB78FDF44A42BCA69C948A2C8EC3D5). 
+1. Create a segment using two traits, and use the [!UICONTROL AND NOT] logic, as shown in the image below. You must use a rule-based trait to define the conversion event for the unsegment to be triggered in real-time. Read more about how to [create rule-based traits](../../c-features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits). 
 
 2. Map the segment to any number of real-time server-to-server destinations. Read on about how to add segments to [server-to-server destinations](../../c-features/destinations/manage-destinations.md#task_1B9A6418E2F24C9CA5888F09679204C0).
 
@@ -38,7 +38,7 @@ Your visitors qualify for the segment as long as they have not converted. As soo
 
 You can make sure you are not flooding your users with the same creative by setting recency and frequency controls. In this scenario, create a segment with two traits, as outlined in the steps below.
 
-1. Create a segment using two traits, and use the [!UICONTROL AND] logic, as shown in the image below. You must use a rule-based trait to define the impression event for the unsegment to be triggered in real-time. Read more about how to [create rule-based traits](../../c-features/traits/create-onboarded-rule-based-traits.md#concept_CFCB78FDF44A42BCA69C948A2C8EC3D5).
+1. Create a segment using two traits, and use the [!UICONTROL AND] logic, as shown in the image below. You must use a rule-based trait to define the impression event for the unsegment to be triggered in real-time. Read more about how to [create rule-based traits](../../c-features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits).
 
    >[!NOTE]
    >

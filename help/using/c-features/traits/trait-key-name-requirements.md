@@ -16,11 +16,9 @@ This article describes the naming conventions used by the key variable in a key-
 
 ## Naming Requirements for Keys
 
-<!-- 
-
+<!--
 c_tb_key_name_requirements.xml
-
- -->
+-->
 
 In [!UICONTROL Expression Builder], the name of a key variable in a key-value pair can consist of any number of digits followed by 1 (or more) letters, a dash, an underscore, and additional digits.
 

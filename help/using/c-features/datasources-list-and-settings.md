@@ -15,13 +15,8 @@ snippet: y
 View a list of your currently configured data sources, add new data sources, and edit existing sources.
 
 <!--
-## Data Sources List and Settings {#concept_DC7CC030739C436C947078C7877C15AD}
-
-View a list of your currently configured data sources, add new data sources, and edit existing sources.
-
-<!--
 c_datasources.xml
- -->
+-->
 
 You can also manage data sources using API methods. For more information, see [Data Source API Methods](../c-api/c-rest-api-main/aam-api-data-sources.md#concept_F7602FD030AA4638AF6D045E1009FA47).
 

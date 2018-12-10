@@ -14,11 +14,9 @@ snippet: y
 
 [!UICONTROL Trait Builder] evaluates expressions according to the order-of-operations listed below, from high to low precedence. Trait elements defined by high-precedence operators are evaluated first, before other precedence operators. This section ranks each operator according to precedence, from high to low.
 
-<!-- 
-
+<!--
 c_tb_operator_precedence.xml
-
- -->
+-->
 
 <table id="table_F0FA45B652C7464B90D35526817110FF"> 
  <thead> 

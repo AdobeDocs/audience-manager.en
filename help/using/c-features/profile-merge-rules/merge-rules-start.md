@@ -14,15 +14,9 @@ snippet: y
 
 To create [!UICONTROL Profile Merge Rules] review and complete the steps in each of the procedures described in this section.
 
-## Getting Started with Profile Merge Rules {#topic_2EB0F774DC5A4766ACB825A33B9F3B5B}
-
-To create [!UICONTROL Profile Merge Rules] review and complete the steps in each of the procedures described in this section.
-
 <!-- 
-
 merge-rules-start.xml
-
- -->
+-->
 
 ## Create a Cross-Device Data Source {#concept_3B7696B3EC77416492D3B99EBD79EA44}
 
@@ -43,11 +37,11 @@ create-cross-device-datasource.xml
 To complete the Data Source Details section:
 
 1. Name the data source. 
-1. *(Optional)* Describe the data source. A concise description helps you define the role or purpose of the data source. 
-1. Provide an integration code. An integration code is your own, unique ID for this data source. 
-1. In the **[!UICONTROL ID Type]** list, select **[!UICONTROL Cross Device]**. 
+2. *(Optional)* Describe the data source. A concise description helps you define the role or purpose of the data source. 
+3. Provide an integration code. An integration code is your own, unique ID for this data source. 
+4. In the **[!UICONTROL ID Type]** list, select **[!UICONTROL Cross Device]**. 
 
-1. In the **[!UICONTROL ID Definition]** list, select an option that defines the data source type. Options include:
+5. In the **[!UICONTROL ID Definition]** list, select an option that defines the data source type. Options include:
 
     * **[!UICONTROL Person]**: An ID that defines a single person. This ID can be mapped to multiple [!DNL Audience Manager] IDs.
     * **[!UICONTROL Household]**: An ID that defines a group of people. This ID can be mapped to multiple [!DNL Audience Manager] IDs.

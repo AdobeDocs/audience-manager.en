@@ -45,7 +45,7 @@ If you are already importing DCM log data into [!DNL Audience Manager], ask your
 
 With [!UICONTROL Actionable Log Files], the information from DCM logs is captured in [!DNL Audience Manager] the same way that you would capture data from real-time website interactions. [!DNL Audience Manager] connects to your Google Cloud storage, parses the information from DCM logs, and sends the log data as actionable signals to our [Data Collection Servers](../../reference/system-components/components-data-collection.md#section_DEB68BEDDB4D4BCDAF50653D3F4568E2).
 
-You still need to set up rule-based traits to capture the actionable signals. See how to set up rule-based traits either in the [Audience Manager UI](../../c-features/traits/create-onboarded-rule-based-traits.md#concept_CFCB78FDF44A42BCA69C948A2C8EC3D5) or using our [Bulk Management Tools](../../reference/bulk-management-tools/bulk-create.md#task_E42901E227CE4123B3EE92074B16ACA2). Scroll down to the [Actionable Signals](../../c-integration/media-data-integration/actionable-log-files.md#section_F23E910753EB4241BFD8B76262526F18) section for a list of all the keys you can use in rule-based traits.
+You still need to set up rule-based traits to capture the actionable signals. See how to set up rule-based traits either in the [Audience Manager UI](../../c-features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) or using our [Bulk Management Tools](../../reference/bulk-management-tools/bulk-create.md#task_E42901E227CE4123B3EE92074B16ACA2). Scroll down to the [Actionable Signals](../../c-integration/media-data-integration/actionable-log-files.md#section_F23E910753EB4241BFD8B76262526F18) section for a list of all the keys you can use in rule-based traits.
 
 For an average-sized DCM log file of 2 million lines, any traits created from actionable signals are realized within approximately one hour after we process the logs.
 
@@ -137,7 +137,7 @@ https://sample.demdex.net?d_src=743&d_uuid=0795526165288603295014370250589427213
 
 ## Use Cases {#section_09EB4686F5204452A39A7C2700D44E49}
 
-One benefit of implementing [!UICONTROL Actionable Log Files] is the option to apply [recency and frequency](../../c-features/c-segments/recency-and-frequency.md#concept_957D9E1977774D28A98ACEE6035E7B37) controls to any [rule-based traits](../../c-features/traits/create-onboarded-rule-based-traits.md#concept_CFCB78FDF44A42BCA69C948A2C8EC3D5) that contain actionable signals. This allows you, for example, to frequency cap the number of times a user is shown a particular creative, within a media campaign. Other use cases include:
+One benefit of implementing [!UICONTROL Actionable Log Files] is the option to apply [recency and frequency](../../c-features/c-segments/recency-and-frequency.md#concept_957D9E1977774D28A98ACEE6035E7B37) controls to any [rule-based traits](../../c-features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) that contain actionable signals. This allows you, for example, to frequency cap the number of times a user is shown a particular creative, within a media campaign. Other use cases include:
 
 **Retarget Users**
 

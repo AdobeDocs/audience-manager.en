@@ -12,17 +12,13 @@ snippet: y
 
 # Managing Trait Rules {#managing-trait-rules}
 
-In Trait Builder, the Expression Builder lets you create and test rules that establish audience qualification requirements. Rules consist of key-value pairs such as "color == blue" or "price > 100". Comparison operators establish the relationship between keys and values. Boolean expressions determine the relationship between rule groups.
-
-## Managing Trait Rules {#concept_3A566134D5704002B3713D0909C94389}
-
 In [!UICONTROL Trait Builder], the [!UICONTROL Expression Builder] lets you create and test rules that establish audience qualification requirements. Rules consist of key-value pairs such as "color == blue" or "price > 100". Comparison operators establish the relationship between keys and values. Boolean expressions determine the relationship between rule groups.
 
 <!--
 c_tb_rules.xml
 -->
 
-### Main Signal Rules Features Described
+## Main Signal Rules Features Described
 
 ![](assets/manage-trait-rules.png)
 

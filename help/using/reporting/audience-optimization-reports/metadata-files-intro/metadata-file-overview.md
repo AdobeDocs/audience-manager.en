@@ -80,7 +80,7 @@ The following table lists the key-value pairs that hold data used by the [!UICON
   </tr> 
   <tr> 
    <td colname="col1"> <p>Platform </p> </td> 
-   <td colname="col2"> <p> <span class="codeph">d_src = <span class="varname"> data source ID</span></span> </p> <p>This is the <a href="../../../c-features/datasources-list-and-settings.md#concept_DC7CC030739C436C947078C7877C15AD"> data source</a> ID for the platform providing metadata information (e.g., DFA, Atlas, GBM, MediaMath, etc.). </p> </td> 
+   <td colname="col2"> <p> <span class="codeph">d_src = <span class="varname"> data source ID</span></span> </p> <p>This is the <a href="../../../c-features/datasources-list-and-settings.md#data-sources-list-and-settings"> data source</a> ID for the platform providing metadata information (e.g., DFA, Atlas, GBM, MediaMath, etc.). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Tactic </p> </td> 
