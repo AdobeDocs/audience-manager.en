@@ -3,7 +3,9 @@ cloud: experience-cloud
 solution-title: Audience Manager
 solution-hub-url: https://helpx.adobe.com/support/audience-manager.html
 solution-image: assets/aam-icon-24.png
+getting-started-title: Getting Started
 getting-started-url: https://helpx.adobe.com/audience-manager/get-started.html
+tutorials-title: Tutorials
 tutorials-url: https://helpx.adobe.com/audience-manager/kt/index/aam-videos.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/audience-manager.en
 ---
