@@ -48,6 +48,7 @@ In this use case, you are comparing different models. You can either use models 
 <!-- 
 audience-lab-creatives-across-destinations.xml
 -->
+
 Use Audience Lab to measure the number of conversions a creative is driving across different destinations. This use case also allows you to measure the conversions of the creative against naturally occurring conversions.
 
 1. [Create a Segment Test Group](../../c-features/audience-lab/audience-lab-manage-test-groups.md#task_B62EF6D2992941FAAEA84BE2EA11A55E), selecting the segment you want to test the creative against as the baseline segment.

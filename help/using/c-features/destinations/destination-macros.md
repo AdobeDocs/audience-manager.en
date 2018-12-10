@@ -14,10 +14,6 @@ snippet: y
 
 Describes the macros you can add to a destination URL.
 
-## Destination Macros Defined {#destination-macros-defined}
-
-Describes the macros you can add to a destination URL.
-
 <!-- destination-macros.xml -->
 
 When creating a URL destination, you can insert the following macros into the URL string. Check with your data/destination partner about proper macro placement within the destination URL.
