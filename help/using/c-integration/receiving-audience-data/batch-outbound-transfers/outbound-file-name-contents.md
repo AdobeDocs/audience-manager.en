@@ -32,7 +32,9 @@ c_name_reqs_outbound.xml
 
 Outbound file names contain the following required and optional elements:
 
-` *`SYNC-TYPE`*_ *`DID`*_ *`MASTER-DPID`*_ *`[PID-ALIAS]`*_ *`SYNC-MODE`*_ *`TIMESTAMP`*[- *`SPLIT_NUMBER`*].sync[.gz]`
+```
+SYNC-TYPE_ DID_ MASTER-DPID_ [PID-ALIAS]_ SYNC-MODE_ TIMESTAMP[- SPLIT_NUMBER].sync[.gz]
+```
 
 **Parameters**
 
