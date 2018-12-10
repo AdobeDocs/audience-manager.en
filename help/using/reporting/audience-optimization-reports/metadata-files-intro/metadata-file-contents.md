@@ -29,6 +29,10 @@ In the contents syntax, you'll notice a parent ID variable. Don't confuse it wit
 
 The non-printing ASCII 001 character is the preferred delimiter for separating contents in your file. If you cannot use ASCII 001, then separate file contents with a tab delimiter. As these are non-printing characters, the syntax example above shows a pipe "|" for display purposes only.
 
+>[!IMPORTANT]
+>
+>Do not add header rows to metadata files.
+
 ## Examples {#section_08FE1874E7F64774999335D49011E0B5}
 
 Let's take a look at how you would structure content in a metadata file. Part of this structure depends on the type of information categorized by the parent ID the file title.
