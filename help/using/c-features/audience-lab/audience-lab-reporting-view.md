@@ -50,7 +50,7 @@ You can select a specific conversion trait for which to generate the report or y
 
 >[!NOTE]
 >
->* Reporting for a test group will populate the day after its start date. 
+>* Reporting for a test group will populate the day after its start date.
 >* A conversion is only counted for a device after the start date of a test and after the device has been added to a test segment. If a conversion happens for that device before it is assigned a test group, the conversion will not be counted.
 
 A returned **[!UICONTROL Aggregate Reporting]** chart could look like this:
