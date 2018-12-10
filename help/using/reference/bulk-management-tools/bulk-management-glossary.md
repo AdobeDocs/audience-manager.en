@@ -34,7 +34,7 @@ Column header labels defined.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> dataSourceId</span> </p> </td> 
-   <td colname="col2"> <p>The ID of a <a href="../../c-features/datasources-list-and-settings.md#concept_DC7CC030739C436C947078C7877C15AD"> data source</a> you want to return or assign in bulk. </p> </td> 
+   <td colname="col2"> <p>The ID of a <a href="../../c-features/datasources-list-and-settings.md#data-sources-list-and-settings"> data source</a> you want to return or assign in bulk. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> derivedSignalId</span> </p> </td> 

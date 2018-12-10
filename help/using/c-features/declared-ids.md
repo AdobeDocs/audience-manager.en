@@ -18,11 +18,9 @@ How declared IDs work, set up procedures, code examples, and variables.
 
 Exchange and synchronize user IDs with Audience Manager from devices or browsers that do not use or accept persistent storage mechanisms, such as third-party cookies.
 
-<!-- 
-
+<!--
 declared_id_about.xml
-
- -->
+-->
 
 ## Purpose of Declared ID Targeting {#section_2127B48E659E4D3AB03C698EBE9B589F}
 

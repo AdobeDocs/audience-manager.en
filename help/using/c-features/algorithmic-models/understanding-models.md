@@ -17,11 +17,6 @@ snippet: y
 Build and manage the traits or segments used in algorithmic modeling, also referred to as look-alike modeling. Model features are located in Audience Data > Models.
 
 <!--
-## About Algorithmic Models {#concept_49FB2DBD4AD041A4ABAAEE9D83BB996E}
-
-Build and manage the traits or segments used in algorithmic modeling, also referred to as look-alike modeling. Model features are located in Audience Data > Models.
-
-<!--
 c_models.xml
 -->
 

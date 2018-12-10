@@ -14,11 +14,9 @@ snippet: y
 
 Describes the common platform-level key-value pairs you can use to target users with geographic variables across all properties in your Audience Manager account.
 
-<!-- 
-
+<!--
 c_tb_platform_vars.xml
-
- -->
+-->
 
 This topic contains the following sections:
 

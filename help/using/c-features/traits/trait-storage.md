@@ -14,11 +14,9 @@ snippet: y
 
 Trait storage folders store and help you organize traits.
 
-<!-- 
-
+<!--
 c_tb_storage.xml
-
- -->
+-->
 
 ## Purpose of Trait Storage Folders
 

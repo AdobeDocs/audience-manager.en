@@ -14,7 +14,7 @@ snippet: y
 
 Describes the macros you can add to a destination URL.
 
-## Destination Macros Defined {#reference_B2F4AE643702440D879EFFE4A3FAAEDB}
+## Destination Macros Defined {#destination-macros-defined}
 
 Describes the macros you can add to a destination URL.
 
@@ -106,4 +106,4 @@ Both macros prevent caching, but `%rnd%` may be more efficient. For example, wit
 
 >[!MORE_LIKE_THIS]
 >
->* [Destination Macros Defined](../../c-features/destinations/destination-macros.md#reference_B2F4AE643702440D879EFFE4A3FAAEDB)
+>* [Destination Macros Defined](../../c-features/destinations/destination-macros.md#destination-macros-defined)

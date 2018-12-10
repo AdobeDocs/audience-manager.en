@@ -11,11 +11,7 @@ internal: n
 snippet: y
 ---
 
-<!-- # Create Rules-Based or Onboarded Traits {#create-rules-based-or-onboarded-traits}
-
-Describes set up steps and features specific to the rules-based and onboarded trait creation process. -->
-
-# Create Rules-Based or Onboarded Traits {#concept_CFCB78FDF44A42BCA69C948A2C8EC3D5}
+# Create Rules-Based or Onboarded Traits {#create-rules-based-or-onboarded-traits}
 
 Describes set up steps and features specific to the rules-based and onboarded trait creation process.
 
@@ -94,7 +90,7 @@ t_tb_ttl.xml
 ### Set the TTL for a trait
 
 1. Expand the [!UICONTROL Advanced Options] section and enter a number to set a TTL value for the trait.
-1. Click **[!UICONTROL Save]**.
+2. Click **[!UICONTROL Save]**.
     ![](assets/TTL.png)
 
 >[!MORE_LIKE_THIS]

@@ -23,7 +23,7 @@ You can use several different types and sources of models in [!DNL Audience Mana
 audience-lab-compare-models.xml
 -->
 
-In this use case, you are comparing different models. You can either use models created via an in-house data warehouse and import them in [!DNL Audience Manager] as [Onboarded Traits](../../c-features/traits/create-onboarded-rule-based-traits.md#concept_CFCB78FDF44A42BCA69C948A2C8EC3D5) or you can use the [Algorithmic Models](../../c-features/algorithmic-models/understanding-models.md#concept_49FB2DBD4AD041A4ABAAEE9D83BB996E) feature in [!DNL Audience Manager].
+In this use case, you are comparing different models. You can either use models created via an in-house data warehouse and import them in [!DNL Audience Manager] as [Onboarded Traits](../../c-features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) or you can use the [Algorithmic Models](../../c-features/algorithmic-models/understanding-models.md#concept_49FB2DBD4AD041A4ABAAEE9D83BB996E) feature in [!DNL Audience Manager].
 
 1. Create two models, either in the [Model Builder](../../c-features/algorithmic-models/create-model.md#concept_25287B0C161F4BFCBCCFEB5CC6E613D0), or via an outside platform.
 1. Create [algorithmic traits](../../c-features/traits/create-algorithmic-traits.md#task_E9A3F46A50C14450AE263775EECA0353) from the algorithmic model or import your own models as onboarded traits.

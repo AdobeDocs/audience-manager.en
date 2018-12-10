@@ -14,8 +14,6 @@ snippet: y
 
 In Segment Builder, recency and frequency let you segment visitors based on actions that occur or repeat over a set daily interval.
 
-## Recency and Frequency: About {#section_D42B215B4A324BD897AC042EF962C61D}
-
 Audience Manager defines [!DNL recency] and [!DNL frequency] as follows:
 
 * **Recency:** The number of days during which a user viewed or qualified for one (or more) traits.

@@ -103,7 +103,7 @@ The following table describes the prefixes that identify trait names or IDs in a
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ic= </span> </p> </td> 
-   <td colname="col2"> <p> <a href="../../../c-features/traits/manage-trait-rules.md#concept_3A566134D5704002B3713D0909C94389"> Trait rules </a> let you set criteria for trait qualification. If you format a trait rule as <span class="codeph"> ic == trait ID </span>, you can send in traits in a simple comma formatted list. </p> <p>For example, say you create these 3 trait rules: </p> <p> 
+   <td colname="col2"> <p> <a href="../../../c-features/traits/manage-trait-rules.md#managing-trait-rules"> Trait rules </a> let you set criteria for trait qualification. If you format a trait rule as <span class="codeph"> ic == trait ID </span>, you can send in traits in a simple comma formatted list. </p> <p>For example, say you create these 3 trait rules: </p> <p> 
      <ul class="simplelist"> 
       <li> <span class="codeph"> ic == "123" </span> </li> 
       <li> <span class="codeph"> ic == "456" </span> </li> 

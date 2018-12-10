@@ -68,7 +68,7 @@ The table below lists the operations you can perform and items you can manipulat
      </ul> </p> </td> 
    <td colname="col2"> <p>The objects you can change in bulk are located under the <span class="uicontrol"> Headers</span> tab and include: </p> <p> 
      <ul id="ul_A7A96F2B1B63430B9A1E1184AC5FA8F2"> 
-      <li id="li_E3D9E2E190B04BE685337AC6140C371C"> <a href="../../c-features/datasources-list-and-settings.md#concept_DC7CC030739C436C947078C7877C15AD"> Data sources</a> </li> 
+      <li id="li_E3D9E2E190B04BE685337AC6140C371C"> <a href="../../c-features/datasources-list-and-settings.md#data-sources-list-and-settings"> Data sources</a> </li> 
       <li id="li_B645385E40684FA28770913EAF18CB2C"> <a href="../../c-features/derived-signals.md#concept_36FF7303F39E4748AC048D08F9E371C6"> Derived signals</a> </li> 
       <li id="li_9059F8C4A41A410899BDEFC76D3F5949"> <a href="../../c-features/destinations/destinations.md#concept_5BDA346C376C4B719EA394108AB2735A"> Destinations</a> </li> 
       <li id="li_BB5A445150754E53AA38C78461326932"> <a href="../../c-features/traits/trait-storage.md#concept_492988EC858545AAA5D1B8F06D273BDD"> Trait folders</a> and segment folders </li> 

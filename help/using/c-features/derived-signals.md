@@ -12,10 +12,6 @@ snippet: y
 
 # Derived Signals {#derived-signals}
 
-A derived signal qualifies site visitors for additional traits based on a trait they've already seen. In other words, additional trait qualification can be derived from a currently exhibited trait even if a user has never seen the new trait before.
-
-<!-- ## Derived Signals {#topic_58AB69FE2A194E05A64D0CCB1ACD7C20}
-
 A [!UICONTROL derived signal] qualifies site visitors for additional traits based on a trait they've already seen. In other words, additional trait qualification can be derived from a currently exhibited trait even if a user has never seen the new trait before.
 
 <!-- 

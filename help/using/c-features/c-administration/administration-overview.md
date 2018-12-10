@@ -14,10 +14,6 @@ snippet: y
 
 # Administration {#administration}
 
-The options under the Administration menu let you create Audience Manager users and assign them to groups. You can also view limits (traits, segments, destinations, and AlgoModell).
-
-## Administration {#concept_925BB65910BB41139D4137DBC09415DB}
-
 The options under the [!UICONTROL Administration] menu let you create Audience Manager users and assign them to groups. You can also view limits (traits, segments, destinations, and [!UICONTROL AlgoModel]l).
 
 Enterprise customers using Audience Manager need one data management platform for all of their data, but must be able to control the visibility of the different data elements to specific business units. You can accomplish this using group permissions, also referred to as [!UICONTROL Role-Based Access Control (RBAC)].

@@ -14,11 +14,9 @@ snippet: y
 
 The Traits dashboard is a centralized workspace for managing traits.
 
-<!-- 
-
+<!--
 c_tb_dashboard.xml
-
- -->
+-->
 
 The [!UICONTROL Traits] dashboard contains features and tools that help you:
 

@@ -10,7 +10,7 @@ internal: n
 snippet: y
 ---
 
-# Report Metrics for Profile Merge Rules{#report-metrics-for-profile-merge-rules}
+# Report Metrics for Profile Merge Rules {#report-metrics-for-profile-merge-rules}
 
 Profile Link metrics provide data about people and devices that authenticate to your site. The data and graphs in Profile Link update dynamically as you create a merge rules or when you click an existing rule from the Profile Merge Rules dashboard. These metrics can include device graph from the Adobe Experience Cloud Device Co-op or other third-party device graph sources.
 

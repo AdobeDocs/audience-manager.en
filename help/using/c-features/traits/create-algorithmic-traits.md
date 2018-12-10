@@ -14,10 +14,6 @@ snippet: y
 
 Describes set up steps and features unique to the algorithmic trait creation process.
 
-## Create Algorithmic Traits {#concept_3FB1946A58AC489E822161B2EE4EB95A}
-
-Describes set up steps and features unique to the algorithmic trait creation process.
-
 <!--
 c_tb_algo_traits.xml
 -->

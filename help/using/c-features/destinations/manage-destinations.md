@@ -12,10 +12,6 @@ snippet: y
 
 # Manage Destinations {#manage-destinations}
 
-The Destination landing page lists all of your URL, cookie, and server-to-server destinations. It provides features that let you create, edit, search for, and report on destinations. The landing page is located in Audience Data > Destinations.
-
-## Destinations Home Page {#concept_112CF0292676455592FC3A976D7B2F19}
-
 The [!UICONTROL Destination] landing page lists all of your URL, cookie, and server-to-server destinations. It provides features that let you create, edit, search for, and report on destinations. The landing page is located in **[!UICONTROL Audience Data > Destinations]**.
 
 ## Default Landing Page {#section_6CD57AF083EC43C2BD3AA93D80441017}
@@ -109,14 +105,14 @@ To create a new cookie destination, go to **[!UICONTROL Audience Data > Destinat
 This section contains fields and options that start the cookie destination creation process. To complete this section:
 
 1. Click **[!UICONTROL Basic Information]** to expose the controls. 
-1. Name the destination. Avoid abbreviations and special characters. 
-1. *(Optional)* Describe the destination. A concise description is an effective way to define or provide more information about a destination. 
-1. *(Optional)* In the **[!UICONTROL Platform]** list, leave the default set to **[!UICONTROL All]**. Currently, these options don't do anything. They're designed to support features that may be added at a later date. 
-1. In the **[!UICONTROL Type]** list, click **[!UICONTROL Cookie]**. 
-1. *(Optional)* Select an **[!UICONTROL Auto-fill Destination Mapping]**. Options include:
+2. Name the destination. Avoid abbreviations and special characters. 
+3. *(Optional)* Describe the destination. A concise description is an effective way to define or provide more information about a destination. 
+4. *(Optional)* In the **[!UICONTROL Platform]** list, leave the default set to **[!UICONTROL All]**. Currently, these options don't do anything. They're designed to support features that may be added at a later date. 
+5. In the **[!UICONTROL Type]** list, click **[!UICONTROL Cookie]**. 
+6. *(Optional)* Select an **[!UICONTROL Auto-fill Destination Mapping]**. Options include:
     * **[!UICONTROL Segment ID]**: Automatically adds and sends the segment ID to the destination. 
     * **[!UICONTROL Integration Code Value]**: Automatically adds and sends the segment integration code to the destination mapping. The integration code is a unique identifier created and used by the customer. It is limited to 255 characters, maximum.
-1. Click **[!UICONTROL Next]** to go to the [!UICONTROL Configuration] settings or click **[!UICONTROL Data Export Labels]** to apply export controls to the destination.
+7. Click **[!UICONTROL Next]** to go to the [!UICONTROL Configuration] settings or click **[!UICONTROL Data Export Labels]** to apply export controls to the destination.
 
 ## Data Export Labels {#section_DBA5FEE725E142AEA979BECBA7FE9DD5}
 
@@ -217,11 +213,11 @@ This section contains options that let you set a base URL and data delimiters pa
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="uicontrol"> Base URL</span> </p> </td>
-   <td colname="col2"> <p>The base part of a standard HTTP URL that does not change. Also, you need to place the <span class="codeph"> %ALIAS% </span><a href="../../c-features/destinations/destination-macros.md#reference_B2F4AE643702440D879EFFE4A3FAAEDB"> placeholder macro</a> in the base URL. </p> <p>Example: <span class="codeph"> https://www.myCompany.com/?%alias%...</span> </p> </td> 
+   <td colname="col2"> <p>The base part of a standard HTTP URL that does not change. Also, you need to place the <span class="codeph"> %ALIAS% </span><a href="../../c-features/destinations/destination-macros.md#destination-macros-defined"> placeholder macro</a> in the base URL. </p> <p>Example: <span class="codeph"> https://www.myCompany.com/?%alias%...</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="uicontrol"> Secure URL</span> </p> </td> 
-   <td colname="col2"> <p>The base part of a secure HTTPS URL that does not change. Also, you need to place the <span class="codeph"> %ALIAS% </span><a href="../../c-features/destinations/destination-macros.md#reference_B2F4AE643702440D879EFFE4A3FAAEDB"> placeholder macro</a> in the base URL. </p> <p>Example: <span class="codeph"> https://www.myCompany.com/?%alias%...</span> </p> </td> 
+   <td colname="col2"> <p>The base part of a secure HTTPS URL that does not change. Also, you need to place the <span class="codeph"> %ALIAS% </span><a href="../../c-features/destinations/destination-macros.md#destination-macros-defined"> placeholder macro</a> in the base URL. </p> <p>Example: <span class="codeph"> https://www.myCompany.com/?%alias%...</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="uicontrol"> Delimiter</span> </p> </td> 
