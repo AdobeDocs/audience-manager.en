@@ -104,22 +104,22 @@ To create a new cookie destination, go to **[!UICONTROL Audience Data > Destinat
 
 This section contains fields and options that start the cookie destination creation process. To complete this section:
 
-1. Click **[!UICONTROL Basic Information]** to expose the controls. 
-2. Name the destination. Avoid abbreviations and special characters. 
-3. *(Optional)* Describe the destination. A concise description is an effective way to define or provide more information about a destination. 
-4. *(Optional)* In the **[!UICONTROL Platform]** list, leave the default set to **[!UICONTROL All]**. Currently, these options don't do anything. They're designed to support features that may be added at a later date. 
-5. In the **[!UICONTROL Type]** list, click **[!UICONTROL Cookie]**. 
-6. *(Optional)* Select an **[!UICONTROL Auto-fill Destination Mapping]**. Options include:
-    * **[!UICONTROL Segment ID]**: Automatically adds and sends the segment ID to the destination. 
+1. Click **[!UICONTROL Basic Information]** to expose the controls.
+1. Name the destination. Avoid abbreviations and special characters.
+1. *(Optional)* Describe the destination. A concise description is an effective way to define or provide more information about a destination.
+1. *(Optional)* In the **[!UICONTROL Platform]** list, leave the default set to **[!UICONTROL All]**. Currently, these options don't do anything. They're designed to support features that may be added at a later date.
+1. In the **[!UICONTROL Type]** list, click **[!UICONTROL Cookie]**.
+1. *(Optional)* Select an **[!UICONTROL Auto-fill Destination Mapping]**. Options include:
+    * **[!UICONTROL Segment ID]**: Automatically adds and sends the segment ID to the destination.
     * **[!UICONTROL Integration Code Value]**: Automatically adds and sends the segment integration code to the destination mapping. The integration code is a unique identifier created and used by the customer. It is limited to 255 characters, maximum.
-7. Click **[!UICONTROL Next]** to go to the [!UICONTROL Configuration] settings or click **[!UICONTROL Data Export Labels]** to apply export controls to the destination.
+1. Click **[!UICONTROL Next]** to go to the [!UICONTROL Configuration] settings or click **[!UICONTROL Data Export Labels]** to apply export controls to the destination.
 
 ## Data Export Labels {#section_DBA5FEE725E142AEA979BECBA7FE9DD5}
 
 This section contains options that apply [data export controls](../../c-features/data-export-controls.md#concept_155AAFBA7D804467B6F8279D26C9D05C) to a cookie destination. Skip this step if you do not use data export controls. To complete this section:
 
-1. Click **[!UICONTROL Data Export Labels]** to expose the controls. 
-1. Select a label that corresponds to data export control applied to the destination (see [Add Export Labels to a Destination](../../c-features/destinations/manage-destinations.md#task_A4BA30472E6F4687AC3F1B33F51909D9) for details). 
+1. Click **[!UICONTROL Data Export Labels]** to expose the controls.
+1. Select a label that corresponds to data export control applied to the destination (see [Add Export Labels to a Destination](../../c-features/destinations/manage-destinations.md#task_A4BA30472E6F4687AC3F1B33F51909D9) for details).
 1. Click **[!UICONTROL Save]**.
 
 ## Configuration {#section_51EDD4DAA8164DF996F21DD32485E62D}

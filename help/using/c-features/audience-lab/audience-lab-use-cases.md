@@ -11,11 +11,11 @@ internal: n
 snippet: y
 ---
 
-# Audience Lab Use Cases {#audience-lab-use-cases}
+# [!UICONTROL Audience Lab] Use Cases {#audience-lab-use-cases}
 
-Audience Lab enables several use cases by allowing you to use baseline segments for creating test groups. You can divide test groups into several mutually exclusive test segments, map these to different destinations and then determine which of the segments are most effective in driving conversions.
+[!UICONTROL Audience Lab] enables several use cases by allowing you to use baseline segments for creating test groups. You can divide test groups into several mutually exclusive test segments, map these to different destinations and then determine which of the segments are most effective in driving conversions.
 
-## Compare Models in Audience Lab {#task_DB23E5242DAA4183949E90715F7DAA32}
+## Compare Models in [!UICONTROL Audience Lab] {#task_DB23E5242DAA4183949E90715F7DAA32}
 
 You can use several different types and sources of models in [!DNL Audience Manager]. [!UICONTROL Audience Lab] offers an easy way to compare your customers' conversion rates, across your active models.
 
@@ -49,7 +49,7 @@ In this use case, you are comparing different models. You can either use models 
 audience-lab-creatives-across-destinations.xml
 -->
 
-Use Audience Lab to measure the number of conversions a creative is driving across different destinations. This use case also allows you to measure the conversions of the creative against naturally occurring conversions.
+Use [!UICONTROL Audience Lab] to measure the number of conversions a creative is driving across different destinations. This use case also allows you to measure the conversions of the creative against naturally occurring conversions.
 
 1. [Create a Segment Test Group](../../c-features/audience-lab/audience-lab-manage-test-groups.md#task_B62EF6D2992941FAAEA84BE2EA11A55E), selecting the segment you want to test the creative against as the baseline segment.
 1. Split the baseline segment into test segments and control segments.

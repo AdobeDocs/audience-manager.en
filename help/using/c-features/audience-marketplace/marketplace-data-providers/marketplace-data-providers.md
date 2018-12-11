@@ -12,9 +12,9 @@ internal: n
 snippet: y
 ---
 
-# Audience Marketplace for Data Providers {#audience-marketplace-for-data-providers}
+# [!UICONTROL Audience Marketplace] for Data Providers {#audience-marketplace-for-data-providers}
 
-Overview and workflow for data providers who want to sell data from within Audience Manager.
+Overview and workflow for data providers who want to sell data from within [!DNL Audience Manager].
 
 <!-- c_marketplace_provider.xml -->
 
@@ -48,7 +48,7 @@ Features include:
 
 ## Private Data Feeds {#section_68F9552190694F6193632A6250B199FC}
 
-In [!UICONTROL My Shared Data], sometimes a feed status is marked as private. This indicates a private data feed. A private data feed lets sellers limit buyer access to their data and even the name of the data feed. Sellers can make feeds private when they're offering special deals, discounts, or when privacy and access control are important. With private data feeds, providers review and approve all buyer access requests. For more information, see [Private Data Feeds](../../../c-features/audience-marketplace/marketplace-private-feeds.md#concept_68EDE94B558C4B88BBCC994B67726FD2). To create a public or private data feed, see [Create a Public or Private Data Feed](../../../c-features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#task_31BA4FB8FCD940588E6DCE2E7503DF4D). 
+In [!UICONTROL My Shared Data], sometimes a feed status is marked as private. This indicates a private data feed. A private data feed lets sellers limit buyer access to their data and even the name of the data feed. Sellers can make feeds private when they're offering special deals, discounts, or when privacy and access control are important. With private data feeds, providers review and approve all buyer access requests. For more information, see [Private Data Feeds](../../../c-features/audience-marketplace/marketplace-private-feeds.md#concept_68EDE94B558C4B88BBCC994B67726FD2). To create a public or private data feed, see [Create a Public or Private Data Feed](../../../c-features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#task_31BA4FB8FCD940588E6DCE2E7503DF4D).
 
 >[!MORE_LIKE_THIS]
 >

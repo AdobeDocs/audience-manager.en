@@ -47,7 +47,7 @@ t_create_segment.xml
 
 ## Segment Builder Controls: Basic Information Section {#reference_9FC34B07E1944CE5A23974B8E58B2A18}
 
-In [!UICONTROL Segment Builder], the Basic Information settings let you create new, or edit existing traits. To create a new segment, provide a name, a data source, and select a storage folder. All other fields are optional. Move on to the Traits section when done.
+In [!UICONTROL Segment Builder], [!UICONTROL the Basic Information] settings let you create new, or edit existing traits. To create a new segment, provide a name, a data source, and select a storage folder. All other fields are optional. Move on to the Traits section when done.
 
 <!-- 
 r_segment_basic_info_section.xml
@@ -92,15 +92,15 @@ r_segment_basic_info_section.xml
  </tbody> 
 </table>
 
-## Segment Builder Controls: Traits Section {#reference_131791CC12A6431A8AD5F19F4FB48947}
+## [!UICONTROL Segment Builder] Controls: [!UICONTROL Traits] Section {#reference_131791CC12A6431A8AD5F19F4FB48947}
 
-In Segment Builder, the Traits section lets you manage traits in a segment, create trait groups, and set qualification criteria. To add a trait to a segment, type the trait name in the search field and click Add Trait. Save the trait (if finished) or move on to Destinations Mapping.
+In [!UICONTROL Segment Builder], the [!UICONTROL Traits] section lets you manage traits in a segment, create trait groups, and set qualification criteria. To add a trait to a segment, type the trait name in the search field and click [!UICONTROL Add Trait]. Save the trait (if finished) or move on to [!UICONTROL Destinations Mapping].
 
 <!-- 
 r_segment_traits_section.xml
 -->
 
-**Prerequisites:** Complete the required fields in the Basic Information section.
+**Prerequisites:** Complete the required fields in the [!UICONTROL Basic Information] section.
 
 <table id="table_27644243716E4602B432E2C6C8AD9AA4"> 
  <thead> 
@@ -142,9 +142,9 @@ r_segment_traits_section.xml
  </tbody> 
 </table>
 
-## Segment Builder Controls Destinations Mappings Section {#reference_D4D92F9F114449C9BC2A51A1C746D92F}
+## [!UICONTROL Segment Builder] Controls: [!UICONTROL Destinations Mappings] Section {#reference_D4D92F9F114449C9BC2A51A1C746D92F}
 
-In [!UICONTROL Segment Builder], the optional Destinations Mapping section lets you send segment data to a third-party cookie, URL, or server-to-server destination. To add a destination, search (or browse) for a destination, provide destination specific information, and click Add Destination.
+In [!UICONTROL Segment Builder], the optional [!UICONTROL Destinations Mapping] section lets you send segment data to a third-party cookie, URL, or server-to-server destination. To add a destination, search (or browse) for a destination, provide destination specific information, and click **[!UICONTROL Add Destination]**.
 
 <!-- 
 r_segment_destinations_map.xml
@@ -152,7 +152,7 @@ r_segment_destinations_map.xml
 
 **Prerequisites:** Complete the required fields in the Basic Information and Traits sections. Also, the destination must already exist.
 
-### Destination Mappings Search Tools
+### [!UICONTROL Destination Mappings] Search Tools
 
 The **[!UICONTROL Destination Mappings]** panel contains search tools as described in the table below.  
 
@@ -175,7 +175,7 @@ r_add_mappings_pop.xml
 
 ### Cookie Destination Fields
 
-In the Destination Mapping fields, specify the key-value pairs used to send data to the destination. Enter the key in the first field and the values in the second. Your cookie destination pop could look similar to this:
+In the [!UICONTROL Destination Mapping] fields, specify the key-value pairs used to send data to the destination. Enter the key in the first field and the values in the second. Your cookie destination pop could look similar to this:
 
 ![](assets/cookie_modal.PNG)
 
@@ -187,7 +187,7 @@ In the URL and Secure URL fields, specify the complete standard or secure addres
 
 ### Server-to-Server Destination Fields
 
-In the Destination Value field specify the value (part of a key-value pair) used to send data to the destination.
+In the [!UICONTROL Destination Value] field specify the value (part of a key-value pair) used to send data to the destination.
 
 ![](assets/s2s_modal.PNG)
 

@@ -12,32 +12,32 @@ snippet: y
 
 # Code Syntax Used in the Segment Expression Editor {#code-syntax-used-in-the-segment-expression-editor}
 
-Segment Builder lets you build trait rules for a segment using a code editor. Click the Segment Expressions (Code View) tab in the Traits panel to access this feature.
+[!UICONTROL Segment Builder] lets you build trait rules for a segment using a code editor. Click the **[!UICONTROL Segment Expressions (Code View)]** tab in the [!UICONTROL Traits] panel to access this feature.
 
-## Expression Builder Code Syntax
+## [!UICONTROL Expression Builder] Code Syntax
 
 You can add trait rules to a segment with code instead of using drag and drop features. When coding, replace italicized elements in the example with an actual expression or value. The base code uses following syntax:
 
 ```
-FREQUENCY([ 
+FREQUENCY([
 <varname>
-  <traitID1> 
-</varname>T, 
+  <traitID1>
+</varname>T,
 <varname>
-  <traitID2> 
-</varname>T] 
+  <traitID2>
+</varname>T]
 <varname>
-  <Recency Operator> 
-</varname> 
+  <Recency Operator>
+</varname>
 <varname>
-  <Numeric Value> 
-</varname>D) 
- 
+  <Numeric Value>
+</varname>D)
+
 <varname>
-  <Frequency Operator> 
-</varname> 
+  <Frequency Operator>
+</varname>
 <varname>
-  <Numeric Value> 
+  <Numeric Value>
 </varname>
 ```
 
@@ -47,7 +47,7 @@ FREQUENCY([
 
 ### Join Segments with Boolean Operators
 
-To build groups of segments, wrap the frequency function in parenthesis and set the relationship *between* each expression with a Boolean operator ( [!UICONTROL AND], [!UICONTROL OR], and [!UICONTROL NOT]).
+To build groups of segments, wrap the frequency function in parenthesis and set the relationship *between* each expression with a Boolean operator ([!UICONTROL AND], [!UICONTROL OR], and [!UICONTROL NOT]).
 
 ### Parameters
 
@@ -64,7 +64,7 @@ To build groups of segments, wrap the frequency function in parenthesis and set 
 
 ### Allowed Recency and Frequency Operators
 
-Set [recency and frequency](../../c-features/c-segments/recency-and-frequency.md#concept_957D9E1977774D28A98ACEE6035E7B37) intervals with a comparison operator and an integer. Segment Builder uses standard expressions like < (less than), > (greater than), == (equal), etc. However, the types of allowed operators vary when you set recency or frequency. The table below lists the allowed recency/frequency operators.  
+Set [recency and frequency](../../c-features/c-segments/recency-and-frequency.md#concept_957D9E1977774D28A98ACEE6035E7B37) intervals with a comparison operator and an integer. [!UICONTROL Segment Builder] uses standard expressions like < (less than), > (greater than), == (equal), etc. However, the types of allowed operators vary when you set recency or frequency. The table below lists the allowed recency/frequency operators.  
 
 <table id="table_2F92617CB472442BA5639E24DB4E43D3"> 
  <thead> 

@@ -9,7 +9,7 @@ internal: n
 snippet: y
 ---
 
-# Create Traits from Signal Dashboard {#create-traits-from-signal-dashboard}
+# Create Traits from [!UICONTROL Signal Dashboard] {#create-traits-from-signal-dashboard}
 
 The Signal Dashboard allows you to create new traits from the Top Unused Signals , New Unused Signals, and your saved searches.
 

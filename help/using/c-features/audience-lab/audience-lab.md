@@ -11,9 +11,9 @@ internal: n
 snippet: y
 ---
 
-# Audience Lab {#audience-lab}
+# [!UICONTROL Audience Lab] {#audience-lab}
 
-Create mutually exclusive test segments in Segment Test Groups to compare and measure effectiveness of different destinations. You can set aside a control group and divide your segment into percentages of a whole, in order to test efficacy.
+Create mutually exclusive test segments in [!UICONTROL Segment Test Groups] to compare and measure effectiveness of different destinations. You can set aside a control group and divide your segment into percentages of a whole, in order to test efficacy.
 
 ## Overview {#section_A9160978EA0A47149876315F374202D1}
 

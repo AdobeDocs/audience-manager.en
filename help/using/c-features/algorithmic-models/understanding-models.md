@@ -14,7 +14,7 @@ snippet: y
 
 # About Algorithmic Models {#about-algorithmic-models}
 
-Build and manage the traits or segments used in algorithmic modeling, also referred to as look-alike modeling. Model features are located in Audience Data > Models.
+Build and manage the traits or segments used in algorithmic modeling, also referred to as look-alike modeling. Model features are located in **[!UICONTROL Audience Data > Models]**.
 
 <!--
 c_models.xml
@@ -38,7 +38,7 @@ The major benefits of using [!DNL Audience Manager] modeling include:
 
 * **Data accuracy:** The algorithm runs regularly, which helps keep results current and relevant.
 * **Automation:** You don't have to manage a large set of static rules. The algorithm will find audiences for you.
-* **Save time and reduce effort:** With our modeling process you don't have to guess at what traits/segments may work or spend time resources on campaigns to discover new audiences. The model can do this for you. 
+* **Save time and reduce effort:** With our modeling process you don't have to guess at what traits/segments may work or spend time resources on campaigns to discover new audiences. The model can do this for you.
 * **Reliability:** Modeling works with server-side discovery and qualification processes that evaluate your own data and selected third-party data that you have access to. This means you don't have to see the visitors on your site to qualify them for a trait.
 
 ## Workflow {#section_9F5FFEF73A904D09A2910AE75C67B640}
@@ -75,15 +75,15 @@ The following steps describe the [!UICONTROL TraitWeight] evaluation process.
 
 ### Step 1: Build a Baseline for Trait Comparison
 
-To build a baseline, TraitWeight measures all the traits associated with an audience for a 30, 60, or 90-day interval. Next, it ranks traits according to their frequency and their correlation. The frequency count measures commonality. Correlation measures the likelihood of a trait being present only in the baseline audience. Traits that appear often are said to exhibit high commonality, an important characteristic used to set a weighted score when combined with traits discovered in your selected data sources.
+To build a baseline, [!UICONTROL TraitWeight] measures all the traits associated with an audience for a 30, 60, or 90-day interval. Next, it ranks traits according to their frequency and their correlation. The frequency count measures commonality. Correlation measures the likelihood of a trait being present only in the baseline audience. Traits that appear often are said to exhibit high commonality, an important characteristic used to set a weighted score when combined with traits discovered in your selected data sources.
 
 ### Step 2: Find the Same Traits in the Data Source
 
-After it builds a baseline for comparison, the algorithm looks for identical traits in your selected data sources. In this step, TraitWeight performs a frequency count of all discovered traits and compares them to the baseline. However, unlike the baseline, uncommon traits are ranked higher than those that appear more often. Rare traits are said to exhibit a high degree of specificity. TraitWeight assesses combinations of common baseline traits and uncommon (highly specific) data source traits as more influential or desirable than traits common to both data sets. In fact, our model recognizes these large, common traits and does not assign excess priority to data sets with high correlations. Rare traits get higher priority because they are more likely to represent new, unique users than traits with high commonality across the board.
+After it builds a baseline for comparison, the algorithm looks for identical traits in your selected data sources. In this step, [!UICONTROL TraitWeight] performs a frequency count of all discovered traits and compares them to the baseline. However, unlike the baseline, uncommon traits are ranked higher than those that appear more often. Rare traits are said to exhibit a high degree of specificity. [!UICONTROL TraitWeight] assesses combinations of common baseline traits and uncommon (highly specific) data source traits as more influential or desirable than traits common to both data sets. In fact, our model recognizes these large, common traits and does not assign excess priority to data sets with high correlations. Rare traits get higher priority because they are more likely to represent new, unique users than traits with high commonality across the board.
 
 ### Step 3: Assign Weight
 
-In this step, TraitWeight ranks newly discovered traits in order of influence or desirability. The weight scale is a percentage that runs from 0% to 100%. Traits ranked closer to 100% means they're more like the audience in your baseline population. Also, heavily weighted traits are valuable because they represent new, unique users who may behave similarly to your established, baseline audience. Remember, TraitWeight considers traits with high commonality in the baseline and high specificity in the compared data sources to be more valuable than traits common in each data set.
+In this step, [!UICONTROL TraitWeight] ranks newly discovered traits in order of influence or desirability. The weight scale is a percentage that runs from 0% to 100%. Traits ranked closer to 100% means they're more like the audience in your baseline population. Also, heavily weighted traits are valuable because they represent new, unique users who may behave similarly to your established, baseline audience. Remember, [!UICONTROL TraitWeight] considers traits with high commonality in the baseline and high specificity in the compared data sources to be more valuable than traits common in each data set.
 
 ### Step 4: Scoring Users
 
@@ -95,7 +95,7 @@ Audience Manager displays your weighted model results in [!UICONTROL Trait Build
 
 ### Step 6: Re-evaluate the Significance of a Trait Across Processing Cycles
 
-Periodically, TraitWeight re-evaluates the importance of a trait based on the size and change in the population of that trait. This happens as the number of users qualified for that trait increases or decreases over time. This behavior is most clearly seen in traits that become very large. For example, suppose the algorithm uses trait A for modeling. As the population of trait A increases, TraitWeight re-evaluates the importance of that trait and may assign a lower score or ignore it. In this case, trait A is too common or large to say anything significant about its population. After TraitWeight reduces the value of Trait A (or ignores it in the model), the population of the algorithmic trait decreases. The list of influential traits reflects the evolution of the baseline population. Use the list of the influential traits to understand why these changes are occurring. 
+Periodically, [!UICONTROL TraitWeight] re-evaluates the importance of a trait based on the size and change in the population of that trait. This happens as the number of users qualified for that trait increases or decreases over time. This behavior is most clearly seen in traits that become very large. For example, suppose the algorithm uses trait A for modeling. As the population of trait A increases, [!UICONTROL TraitWeight] re-evaluates the importance of that trait and may assign a lower score or ignore it. In this case, trait A is too common or large to say anything significant about its population. After [!UICONTROL TraitWeight] reduces the value of Trait A (or ignores it in the model), the population of the algorithmic trait decreases. The list of influential traits reflects the evolution of the baseline population. Use the list of the influential traits to understand why these changes are occurring.
 
 >[!MORE_LIKE_THIS]
 >
@@ -113,13 +113,13 @@ c_model_update_schedule.xml
 ### Algorithmic Model Creation and Update Schedule
 
 <table id="table_E75A2B334A7F47ED9DFFBD6DF8636641"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Activity Type </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
+ <thead>
+  <tr>
+   <th colname="col1" class="entry"> Activity Type </th>
+   <th colname="col2" class="entry"> Description </th>
+  </tr>
  </thead>
- <tbody> 
+ <tbody>
   <tr> 
    <td colname="col1"> <b>Create or Clone a Model</b> </td> 
    <td colname="col2"> <p>For new or cloned algorithmic models, the creation process runs once per day at: 
@@ -133,7 +133,7 @@ c_model_update_schedule.xml
    <td colname="col2"> <p>Under ideal conditions, existing models run on weekdays, at least once every 7 days. For example, if you create a model (by the deadline) on Monday, it updates the following Monday at the latest. </p> <p>A model will rerun if it meets any of the following conditions: </p> <p> 
      <ul id="ul_7B0442F6E840415B82705C7B7419D079"> 
       <li id="li_27DCB92CE61F4388B5D253C13BD030BE">Its last run was not successful. </li> 
-      <li id="li_9887E50D291446AC868A8FCE6295536E">It has run successfully before AND it has not run at all in the past 7 days AND the model has at least one active trait attached to it. </li>
+      <li id="li_9887E50D291446AC868A8FCE6295536E">It has run successfully before [!DNL AND] it has not run at all in the past 7 days [!DNL AND] the model has at least one active trait attached to it. </li>
      </ul> </p> </td>
   </tr>
  </tbody>
@@ -164,11 +164,9 @@ c_model_update_schedule.xml
 
 The list view is a central workspace that helps you to create, review, and manage models.
 
-<!-- 
-
+<!--
 c_models_list_view.xml
-
- -->
+-->
 
 The Models list page contains features and tools that help you:
 
@@ -195,17 +193,17 @@ The model summary page includes the following sections.
   </tr> 
  </thead>
  <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="wintitle"> Basic Information</span> </p> </td> 
-   <td colname="col2"> <p>Includes basic information about the model such as its name and when it last ran. </p> </td> 
+  <tr>
+   <td colname="col1"> <p> <span class="wintitle"> Basic Information</span> </p> </td>
+   <td colname="col2"> <p>Includes basic information about the model such as its name and when it last ran. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> Model Reach and Accuracy</span> </p> </td> 
-   <td colname="col2"> <p>Shows <a href="../../c-features/traits/trait-accuracy-reach.md#concept_60F696940483424CA4E8EEDD63F46358"> accuracy and reach</a> data for the last model run. </p> </td> 
+   <td colname="col2"> <p>Shows <a href="../../c-features/traits/trait-accuracy-reach.md#concept_60F696940483424CA4E8EEDD63F46358"> accuracy and reach</a> data for the last model run. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> Model Processing History</span> </p> </td> 
-   <td colname="col2"> <p>Displays the processing date and time for the last 10 runs and whether data was generated on those runs. </p> </td> 
+   <td colname="col2"> <p>Displays the processing date and time for the last 10 runs and whether data was generated on those runs. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> Influential Traits</span> </p> </td> 

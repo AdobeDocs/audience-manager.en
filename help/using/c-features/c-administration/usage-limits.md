@@ -80,4 +80,4 @@ You can see usage and limits for your account by going to **[!UICONTROL Administ
 
 ## Increase Item Limits {#section_CAB5B9E4ED0D449A9DD97B04ECEF5838}
 
-The default limits listed here should provide enough capacity for your business needs. If your organization consistently reaches these limits, contact your account representative to discuss an increase. 
+The default limits listed here should provide enough capacity for your business needs. If your organization consistently reaches these limits, contact your account representative to discuss an increase.
