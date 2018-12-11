@@ -12,14 +12,14 @@ snippet: y
 
 # Profile Merge Rule Options Defined {#profile-merge-rule-options-defined}
 
-The merge rule options let you control the type of data Audience Manager uses for segmentation. A merge rule can include device profiles mapped by the Profile Link device graph, the Adobe Experience Cloud Device Co-op, and/or other, third-party device graph providers who are integrated with Audience Manager. You can create a maximum of 3 Profile Merge Rules.
+The merge rule options let you control the type of data Audience Manager uses for segmentation. A merge rule can include device profiles mapped by the [!UICONTROL Profile Link] device graph, the Adobe Experience Cloud Device Co-op, and/or other, third-party device graph providers who are integrated with Audience Manager. You can create a maximum of 3 [!UICONTROL Profile Merge Rules].
 
 You build a [!UICONTROL Profile Merge Rule] by making a selection from these options:
 
 <ul class="simplelist"> 
- <li> <a href="../../c-features/profile-merge-rules/merge-rule-definitions.md#section_9575406F175F44E7B852F649D7D7260E"> Authenticated Options</a> </li> 
- <li> <a href="../../c-features/profile-merge-rules/merge-rule-definitions.md#section_C02D70DA90514F58B415AF0EEB69F831"> Authenticated Profile Options</a> </li> 
- <li><a href="../../c-features/profile-merge-rules/merge-rule-definitions.md#section_E83D68EC2ADA4030B1D0206AE6A6E8BF"> Device Options</a> </li> 
+ <li> <a href="../../c-features/profile-merge-rules/merge-rule-definitions.md#section_9575406F175F44E7B852F649D7D7260E"> Authenticated Options</a> </li>
+ <li> <a href="../../c-features/profile-merge-rules/merge-rule-definitions.md#section_C02D70DA90514F58B415AF0EEB69F831"> Authenticated Profile Options</a> </li>
+ <li><a href="../../c-features/profile-merge-rules/merge-rule-definitions.md#section_E83D68EC2ADA4030B1D0206AE6A6E8BF"> Device Options</a> </li>
 </ul>
 
 ## Authenticated Options {#section_9575406F175F44E7B852F649D7D7260E}
@@ -44,7 +44,7 @@ The [!UICONTROL Authenticated Options] let you select un-authenticated and authe
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Last Authenticated Profile</span> </p> </td> 
-   <td colname="col2"> <p>Tells <span class="keyword"> Audience Manager</span> to read data from the authenticated profile of the user who last logged in on the device. </p> <p>When selected, <span class="keyword"> Audience Manager</span> will not write new trait data to the authenticated profile if the user is anonymous. Upon authentication, new trait data gets written to the user's authenticated profile. </p> </td> 
+   <td colname="col2"> <p>Tells <span class="keyword"> Audience Manager</span> to read data from the authenticated profile of the user who last logged in on the device. </p> <p>When selected, <span class="keyword"> Audience Manager</span> will not write new trait data to the authenticated profile if the user is anonymous. Upon authentication, new trait data gets written to the user's authenticated profile. </p> </td>
   </tr> 
  </tbody>
 </table>

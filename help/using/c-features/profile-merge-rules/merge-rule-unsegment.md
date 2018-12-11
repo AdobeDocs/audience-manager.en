@@ -10,9 +10,9 @@ internal: n
 snippet: y
 ---
 
-# Profile Merge Rules and Device Un-Segmentation Processes {#profile-merge-rules-and-device-un-segmentation-processes}
+# [!UICONTROL Profile Merge Rules] and Device Un-Segmentation Processes {#profile-merge-rules-and-device-un-segmentation-processes}
 
-Unsegmentation describes processes that disqualify and remove device profiles from segments. Your ability to remove a device profile from a segment depends on the device option used to create a Profile Merge Rule.
+Unsegmentation describes processes that disqualify and remove device profiles from segments. Your ability to remove a device profile from a segment depends on the device option used to create a [!UICONTROL Profile Merge Rule].
 
 ## Available Device Options {#section_33F01A0A49D4435DADB3A94442417C67}
 
@@ -25,7 +25,7 @@ As a reminder, the [!UICONTROL Device Options] are available in the [!UICONTROL 
 **[!UICONTROL Current Device Profile]** is the default device profile option for a [!UICONTROL Profile Merge Rule]. [!DNL Audience Manager] can remove a device profile from a segment when your [!UICONTROL Profile Merge Rule] uses the **[!UICONTROL Current Device Profile]** option. Under these conditions, unsegmentation happens when:
 
 * The device profile has been inactive for 120-days. A weekly data cleanup process removes inactive device profiles from your segments.
-* The device no longer qualifies for a segment because updates or changes to the device profile disqualify it. This happens when segment qualification criteria change, or you apply an AND NOT operator to a segment rule, or specify [recency and frequency](../../c-features/c-segments/recency-and-frequency.md#concept_957D9E1977774D28A98ACEE6035E7B37) conditions that use the less than/equal to settings. Use cases are described in the [Instant Cross-Device Suppression](../../c-features/profile-merge-rules/instant-cross-device-suppression.md#concept_898F67FED4BC40A3A56549C7EB4EE4C3) documentation.
+* The device no longer qualifies for a segment because updates or changes to the device profile disqualify it. This happens when segment qualification criteria change, or you apply an [!DNL AND NOT] operator to a segment rule, or specify [recency and frequency](../../c-features/c-segments/recency-and-frequency.md#concept_957D9E1977774D28A98ACEE6035E7B37) conditions that use the less than/equal to settings. Use cases are described in the [Instant Cross-Device Suppression](../../c-features/profile-merge-rules/instant-cross-device-suppression.md#concept_898F67FED4BC40A3A56549C7EB4EE4C3) documentation.
 
 ![](assets/single_device_use_case.png)
 

@@ -92,7 +92,7 @@ These strategies are designed to bring an unauthenticated or unknown user back t
  </tbody>
 </table>
 
-## Profile Merge Rule Options for External Device Graph Use Cases {#section_48CFAB21B82A4C88B0FA2CC69187E2DF}
+## [!UICONTROL Profile Merge Rule] Options for [!UICONTROL External Device Graph] Use Cases {#section_48CFAB21B82A4C88B0FA2CC69187E2DF}
 
 Your merge rule options for these use cases would look similar to the available options shown below. The [!UICONTROL Authenticated Profile] options are deactivated because these settings are only available when you select **[!UICONTROL Current Authenticated Profile]** or **[!UICONTROL Last Authenticated Profile]**. Your [!UICONTROL Device Options] will vary depending on the type of device graph setting that you want to use or that is available to you.
 
