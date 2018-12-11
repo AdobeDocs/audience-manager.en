@@ -11,7 +11,7 @@ snippet: y
 
 # Important Considerations for Profile Merge Rules with Device Graphs {#important-considerations-for-profile-merge-rules-with-device-graphs}
 
-Avoid using Profile Merge Rules with a Device Graph for segments which have little to no real-time segment population.
+Avoid using [!UICONTROL Profile Merge Rules] with a [!UICONTROL Device Graph] for segments which have little to no real-time segment population.
 
 >[!IMPORTANT]
 >

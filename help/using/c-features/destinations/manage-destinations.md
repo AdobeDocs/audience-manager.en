@@ -130,11 +130,11 @@ This section contains fields and options that let you set up the cookie for your
 >
 >[!DNL Audience Manager] encodes data written to the destination cookie. For example, spaces are encoded as `%20` and semicolons are encoded as `%3B`. To complete this section:
 
-1. Click **[!UICONTROL Configuration]** to expose the controls 
-1. Name the cookie. Avoid abbreviations and special characters. 
+1. Click **[!UICONTROL Configuration]** to expose the controls
+1. Name the cookie. Avoid abbreviations and special characters.
 1. Choose a data format option. These options let you choose the delimiters and separators for the key-value pairs that send segment data to a destination. Format options include:
 
-    * **Single key:** Lets you set the key in a key-value pair. You'll set the value after you select a segment in the Segment Mappings section below. 
+    * **Single key:** Lets you set the key in a key-value pair. You'll set the value after you select a segment in the Segment Mappings section below.
     * **Multi key:** Lets you set the key and value for a key-value pair. You'll create the key-value pair after you select a segment in the Segment Mappings section below.
 
    See [Standard and Serial Key-Value Pairs](../../c-features/destinations/key-value-pairs.md#concept_4CAA6E54ECFE4291B8626BEBEE98088A) for more information about these data elements.
@@ -147,14 +147,14 @@ All other settings are optional. For more information about the **[!UICONTROL Co
 
 This section lets you search for and add segments to your destination. To complete this section:
 
-1. Click **[!UICONTROL Segment Mappings]** to expose the controls. 
+1. Click **[!UICONTROL Segment Mappings]** to expose the controls.
 1. In the **[!UICONTROL Search and Add Segments]** box, start typing the name of a segment or click **[!UICONTROL Browse All Segments]** to browse a list of available segments.
 
 1. Click **[!UICONTROL Add Selected Segments]** when you find the segment you want to use. Adding a segment opens the [!UICONTROL Edit Mapping] window.
 
 1. In the [!UICONTROL Edit Mapping] pop:
 
-    * **[!UICONTROL Mapping]** lets you set a value for the key specified in the Configuration section above. 
+    * **[!UICONTROL Mapping]** lets you set a value for the key specified in the Configuration section above.
     * **[!UICONTROL Publish from]** lets you set start and end date for the destination. If the end date is blank, the destination never expires.
 
 1. Click **[!UICONTROL Save]**.
@@ -174,13 +174,13 @@ To create a new URL destination, go to **[!UICONTROL Audience Data > Destination
 
 This section contains fields and options that start the URL destination creation process. To complete this section:
 
-1. Click **[!UICONTROL Basic Information]** to expose the controls. 
-1. Name the destination. Avoid abbreviations and special characters. 
-1. *(Optional)* Describe the destination. A concise description is an effective way to define or provide more information about a destination. 
-1. *(Optional)* In the **[!UICONTROL Platform]** list, leave the default set to **[!UICONTROL All]**. Currently, these options don't do anything. They're designed to support features that may be added at a later date. 
-1. In the **[!UICONTROL Type]** list, click **[!UICONTROL URL]**. 
+1. Click **[!UICONTROL Basic Information]** to expose the controls.
+1. Name the destination. Avoid abbreviations and special characters.
+1. *(Optional)* Describe the destination. A concise description is an effective way to define or provide more information about a destination.
+1. *(Optional)* In the **[!UICONTROL Platform]** list, leave the default set to **[!UICONTROL All]**. Currently, these options don't do anything. They're designed to support features that may be added at a later date.
+1. In the **[!UICONTROL Type]** list, click **[!UICONTROL URL]**.
 1. *(Optional)* Select an **[!UICONTROL Auto-fill Destination Mapping]**. Options include:
-    * **[!UICONTROL Segment ID]**: Automatically adds and sends the segment ID to the destination. 
+    * **[!UICONTROL Segment ID]**: Automatically adds and sends the segment ID to the destination.
     * **[!UICONTROL Integration Code Value]**: Automatically adds and sends the segment integration code to the destination mapping. The integration code is a unique identifier created and used by the customer. It is limited to 255 characters, maximum.
 1. Click **[!UICONTROL Next]** to go to the [!UICONTROL Configuration] settings or click **[!UICONTROL Data Export Labels]** to apply export controls to the destination.
 
@@ -196,7 +196,7 @@ This section contains options that apply [data export controls](../../c-features
 
 This section contains options that let you set a base URL and data delimiters passed in by the URL string. This section is optional. To complete this section:
 
-1. Click **[!UICONTROL Configuration]** to expose the controls. 
+1. Click **[!UICONTROL Configuration]** to expose the controls.
 1. *(Optional)* Select the **[!UICONTROL Serialize]** check box.
 
    This lets you send segments to a destination sequentially rather than making separate calls for each segment. Serialization helps make data transfers efficient. Selecting this check box exposes the URL and delimiter fields. For more information, see [Standard and Serial Key-Value Pairs](../../c-features/destinations/key-value-pairs.md#concept_4CAA6E54ECFE4291B8626BEBEE98088A).
@@ -230,9 +230,9 @@ This section contains options that let you set a base URL and data delimiters pa
 
 This section lets you search for and add segments to your destination. To complete this section:
 
-1. Click **[!UICONTROL Segment Mappings]** to expose the controls. 
+1. Click **[!UICONTROL Segment Mappings]** to expose the controls.
 1. In the **[!UICONTROL Search and Add Segments]**box, start typing the name of a segment or click **[!UICONTROL Browse All Segments]** browse a list of available segments.
-1. Click **[!UICONTROL Add Selected Segments]** when you find the segment you want to use. Adding a segment opens the [!UICONTROL Edit Mapping] window. 
+1. Click **[!UICONTROL Add Selected Segments]** when you find the segment you want to use. Adding a segment opens the [!UICONTROL Edit Mapping] window.
 1. In [!UICONTROL Edit Mapping]:
     * **[!UICONTROL Mappings]**: Provide the key-value pairs used by the segment. 
     * **[!UICONTROL Start Date]** and **[!UICONTROL End Date]**: Choose a start and end date for the destination. If the end date is blank, the destination never expires.
@@ -337,7 +337,7 @@ You can only add or edit segments for a server-to-server (s2s) destination. You 
 destination-s2s-edit.xml
  -->
 
-To add or edit segment mappings for an s2s destination: 
+To add or edit segment mappings for an s2s destination:
 
 1. Go to **[!UICONTROL Audience Data > Destinations]** and find the s2s destination you want to work with.
 2. In the [!UICONTROL Action] column, click the pencil icon to edit the destination.

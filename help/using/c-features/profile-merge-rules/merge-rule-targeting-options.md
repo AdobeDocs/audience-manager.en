@@ -10,7 +10,7 @@ internal: n
 snippet: y
 ---
 
-# General Use Cases for Profile Merge Rules {#general-use-cases-for-profile-merge-rules}
+# General Use Cases for [!UICONTROL Profile Merge Rules] {#general-use-cases-for-profile-merge-rules}
 
 Profile Merge Rules options let you expand or tighten audience focus on specific audiences based on business needs or goals. These general use cases explore how to use available options and create merge rules for individual, household, and cross-device targeting. Currently, Profile Merge Rules work with real-time destinations only.
 
