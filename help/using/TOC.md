@@ -6,7 +6,7 @@ user-guide-title: Audience Manager User Guide
 
 # Audience Manager User Guide {#user-guide}
 
-+ [Audience Manager Product Documentation](c-aam-home.md)
++ [Audience Manager Product Documentation](aam-home.md)
 + Overview{#overview}
     + [Audience Manager Overview](overview/aam-overview.md)
     + [Types of Data Collected](overview/data-types-collected.md)

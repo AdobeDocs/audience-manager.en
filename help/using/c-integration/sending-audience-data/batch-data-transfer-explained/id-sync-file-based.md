@@ -109,6 +109,8 @@ The purpose of an ID sync file is to sync the [DPUUIDs](../../../reference/ids-i
 
 * **File 2:**  `adobe_id_12345_67890_1476312876.sync`
 
+<br/>
+
 Given the sample name and contents, the IDs map together like this:
 
 **File 1** ( [Download sample file](https://marketing.adobe.com/resources/help/en_US/aam/downloads/adobe_id_0_12345_1476312152.sync))
@@ -123,6 +125,8 @@ Given the sample name and contents, the IDs map together like this:
 
 Step 1: the ID sync process will sync the DPUUIDs from DPID 12345 with the [!DNL Audience Manager] UUIDs in the left column. Note that the DPID "0" in the file name represents [!DNL Audience Manager] UUIDs.
 
+<br/>
+
 **File 2** ( [Download sample file](https://marketing.adobe.com/resources/help/en_US/aam/downloads/adobe_id_12345_67890_1477846458.sync))
 
 |  DPID 12345  | DPID 67890  |
@@ -134,6 +138,8 @@ Step 1: the ID sync process will sync the DPUUIDs from DPID 12345 with the [!DNL
 |  XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw  | 4601584763  |
 
 Step 2: the DPUUIDs from DPID 12345 have been synced in step 1 with the Audience Manager UUIDs. What this ID sync will do is sync the DPUUIDs from DPID 67890 with the Audience Manager UUIDs from step 1.
+
+<br/>
 
 ## Other Format Requirements {#section_86EFF8C6AE40444A83F42411957CD809}
 
