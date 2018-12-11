@@ -12,13 +12,9 @@ snippet: y
 
 # Manage Test Groups {#manage-test-groups}
 
-This procedure walks you through the steps needed to create, edit, or delete a test group in Audience Lab
-<!-- 
-## Manage Test Groups {#topic_A85450A5B5F34C2694DC2E7154C0C60F}
+This procedure walks you through the steps needed to create, edit, or delete a test group in [!UICONTROL Audience Lab].
 
-This procedure walks you through the steps needed to create, edit, or delete a test group in [!UICONTROL Audience Lab]. -->
-
-## Create Segment Test Group {#task_B62EF6D2992941FAAEA84BE2EA11A55E}
+## Create Segment Test Groups {#task_B62EF6D2992941FAAEA84BE2EA11A55E}
 
 ### Prerequisites
 
@@ -37,7 +33,7 @@ create-test-group.xml
   * access to read and map relevant segments for tests;
   * access to relevant destinations.
   
-To create a new Segment Test Group:
+To create a new [!UICONTROL Segment Test Group]:
 
 1. Select **[!UICONTROL Create New Test Group]** in the [!UICONTROL Audience Lab] dashboard to start the wizard.
 2. **[!UICONTROL Basic Info & Choose Segment]**
@@ -90,7 +86,7 @@ To create a new Segment Test Group:
    >* You can save the test groups at any point in the creation process and return to the wizard at a later time. The test group status will be **[!UICONTROL Draft]** and the test group will not send any data to destinations until you finalize the segment test group.
    >* For draft tests, you can go back and edit the test groups by clicking **[!UICONTROL Edit]** in the test group card in the main [!UICONTROL Audience Lab] view.
 
-## Edit Segment Test Group {#task_F24DC69FC0AA45D9AB604DA7638799E9}
+## Edit Segment Test Groups {#task_F24DC69FC0AA45D9AB604DA7638799E9}
 
 In [!UICONTROL Audience Lab], you are only able to edit draft test groups. In the [!UICONTROL Create Segment Test Group] wizard, you can save your test group as a draft and resume working on it later.
 

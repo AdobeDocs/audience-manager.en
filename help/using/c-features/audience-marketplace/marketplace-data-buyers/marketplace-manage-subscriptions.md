@@ -46,7 +46,7 @@ To subscribe to a public data feed:
 
    ![](assets/subscribe4.png)
 
-**Next Steps**
+### Next Steps
 
 After you subscribe to a data feed:
 
@@ -191,7 +191,7 @@ It may be puzzling or even upsetting if a feed you subscribe to is shut off. How
 
 * **Billing:** Data providers will deactivate a feed if you're consistently late with fee payments or if you fail to pay your fees.
 * **Feed Updates:** Data providers need to deactivate feeds when they update their feed taxonomy or cost structures.
-* **Inactive Buyers:** Data providers reserve the right to deactivate feeds if subscribers show no spending over an extended period of time. 
+* **Inactive Buyers:** Data providers reserve the right to deactivate feeds if subscribers show no spending over an extended period of time.
 * **Inactive Sellers:** Data providers who leave [!UICONTROL Audience Marketplace] will deactivate and delete all their data feeds.
 
 >[!TIP]
@@ -200,7 +200,7 @@ It may be puzzling or even upsetting if a feed you subscribe to is shut off. How
 
 ## Deactivation Email {#section_B195EA48C18B4F978070F7F198995CB5}
 
-When a data provider deactivates one of your data feeds, [!DNL Audience Manager] sends an email to the users in your company who have Administrator permissions. Sometimes email filters classify this message as spam. As a result, you may miss this important notification. To help you identify the deactivation message, this email contains the following elements:
+When a data provider deactivates one of your data feeds, [!DNL Audience Manager] sends an email to the users in your company who have [!UICONTROL Administrator] permissions. Sometimes email filters classify this message as spam. As a result, you may miss this important notification. To help you identify the deactivation message, this email contains the following elements:
 
 * **From:** The deactivation email comes from `aam-noreply@adobe.com`. Pro-tip: Don't reply to this email.
 
@@ -267,7 +267,7 @@ As a data buyer, you're responsible for removing the traits in a cancelled feed 
 >
 >Removing traits from active algorithmic models or destinations affects scale and targeting accuracy. Try to replace revoked traits with new, active traits if possible.
 
-[Unsubscribe from the deactivated data feed](../../../c-features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#task_10D0EA04E9C34F78A69A71AFA25BD40E) after you remove all the revoked traits from your account. If this is a temporary deactivation, you can re-subscribe after the data provider finishes making their required changes and reactivates the feed. As with most things, good communication with your partners (the data provider and [!DNL Adobe]) can help you work through this process. 
+[Unsubscribe from the deactivated data feed](../../../c-features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#task_10D0EA04E9C34F78A69A71AFA25BD40E) after you remove all the revoked traits from your account. If this is a temporary deactivation, you can re-subscribe after the data provider finishes making their required changes and reactivates the feed. As with most things, good communication with your partners (the data provider and [!DNL Adobe]) can help you work through this process.
 
 ## Understanding the Plan Details Page in Audience Marketplace {#concept_61D21E5C524940FCA28FB5D515C3065D}
 
@@ -356,4 +356,4 @@ This use case lets you evaluate supplier traits against your traits with [algori
 
 ### Activation
 
-This use case lets you send data to a [destination](../../../c-features/destinations/destinations.md#concept_5BDA346C376C4B719EA394108AB2735A). In [!UICONTROL Audience Manager], a destination is any third-party system (ad server, DSP, DMP, exchange, etc.) that you want to share data with. However, with an [!UICONTROL Activation] use case, you cannot run overlap reports or test the data in an algorithmic model. 
+This use case lets you send data to a [destination](../../../c-features/destinations/destinations.md#concept_5BDA346C376C4B719EA394108AB2735A). In [!UICONTROL Audience Manager], a destination is any third-party system (ad server, DSP, DMP, exchange, etc.) that you want to share data with. However, with an [!UICONTROL Activation] use case, you cannot run overlap reports or test the data in an algorithmic model.

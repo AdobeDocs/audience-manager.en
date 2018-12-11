@@ -13,7 +13,7 @@ snippet: y
 
 # Billing for Data Feed Providers {#billing-for-data-feed-providers}
 
-Generate an Audience Marketplace billing report to view data feed usage for the previous month for each of your subscribers. You can create a report for the previous month at any time. However, the report is more accurate when you generate it on or after the 10th day of the current month.
+Generate an [!DNL Audience Marketplace] billing report to view data feed usage for the previous month for each of your subscribers. You can create a report for the previous month at any time. However, the report is more accurate when you generate it on or after the 10th day of the current month.
 
 ## Download a Billing Report {#section_6FE05229D78A4778930D46C7F35FE2F0}
 

@@ -60,7 +60,7 @@ In [!UICONTROL Model Builder], the [!UICONTROL Basic Information] settings let y
 |---|---|
 |  **[!UICONTROL Name]** | Give your model a short, logical name that describes its function or purpose. Avoid abbreviations, special characters, and accent marks.  |
 |  **[!UICONTROL Description]** | A field for additional descriptive information about the model.  |
-|  **[!UICONTROL Status]** | Activates or deactivates the model (active by default).  |
+|  **[!UICONTROL Status]** | Activates or deactivates the model (active by default). |
 
 ## Configuration {#reference_E58E9C688E3144BEB2F75BCCDDF80B59}
 

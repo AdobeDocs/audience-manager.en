@@ -10,9 +10,9 @@ internal: n
 snippet: y
 ---
 
-# get_aamCookie Code{#get-aamcookie-code}
+# get_aamCookie Code {#get-aamcookie-code}
 
-Code required by DART Enterprise (and other destination types) to capture the Audience Manager unique user ID (UUID) value.
+Code required by [!DNL DART Enterprise] (and other destination types) to capture the Audience Manager unique user ID (UUID) value.
 
  Define this function at the top of the page, ideally within the `<head>` code block.
 

@@ -25,25 +25,25 @@ t_marketplace_report_cpm_usage.xml
 
 [!UICONTROL Audience Marketplace] offers two ways to report CPM usage:
 
-* **Segment-level reporting**: this is the recommended CPM usage reporting method. When you report CPM usage at segment level, the data feed-level reporting section is automatically filled in with the corresponding usage amounts, based on the algorithms described in Cost Attribution for CPM Data Feeds.
-* **Data feed-level reporting**: this method requires you to individually report the CPM usage for each data feed, based on the algorithms described in Cost Attribution for CPM Data Feeds. However, this method is more tedious and prone to error than segment-level reporting.
+* **Segment-level reporting**: this is the recommended CPM usage reporting method. When you report CPM usage at segment level, the data feed-level reporting section is automatically filled in with the corresponding usage amounts, based on the algorithms described in [Cost Attribution for CPM Data Feeds](#concept_E757985A4850400288F1DD9A02B755D5).
+* **Data feed-level reporting**: this method requires you to individually report the CPM usage for each data feed, based on the algorithms described in [Cost Attribution for CPM Data Feeds](#concept_E757985A4850400288F1DD9A02B755D5). However, this method is more tedious and prone to error than segment-level reporting.
 
 ## Report CPM Usage at Segment Level {#segment-level-report}
 
 The [!UICONTROL Segment Usage] tab allows you to report segment-level usage, while displaying the segments grouped by the destinations they are mapped to.
 
-After reporting CPM usage at segment level, Audience Marketplace automatically assigns the corresponding data feeds the correct usage, based on the [Cost Attribution for CPM Data Feeds](#concept_E757985A4850400288F1DD9A02B755D5).
+After reporting CPM usage at segment level, [!UICONTROL Audience Marketplace] automatically assigns the corresponding data feeds the correct usage, based on the [Cost Attribution for CPM Data Feeds](#concept_E757985A4850400288F1DD9A02B755D5).
 
 To report CPM usage at segment level:
 
-1. Go to [!UICONTROL Audience Marketplace > Payables].
-2. Select the [!UICONTROL Segment Usage] tab.
+1. Go to **[!UICONTROL Audience Marketplace > Payables]**.
+2. Select the **[!UICONTROL Segment Usage]** tab.
 3. Fill in the usage for your segments. You can use the [!UICONTROL Search] box to filter the segments if you only need to report usage for some of them.
-4. Click [!UICONTROL Edit Segments Usage].
+4. Click **[!UICONTROL Edit Segments Usage]**.
 5. Enter the CPM usage amount in the [!UICONTROL Usage] column.
-6. Click [!UICONTROL Save] when you're done and review the confirmation dialog.
+6. Click **[!UICONTROL Save]** when you're done and review the confirmation dialog.
    ![confirm-segment-usage](assets/confirm-segment-usage.png)
-7. Click [!UICONTROL Confirm].
+7. Click **[!UICONTROL Confirm]**.
 
 ## Report CPM Usage at Data Feed Level {#feed-level-report}
 
@@ -51,42 +51,42 @@ Data feed-level reporting is a more tedious and prone to error process, since yo
 
 To report CPM usage at segment level:
 
-1. Go to [!UICONTROL Audience Marketplace > Payables].
-2. Select the [!UICONTROL Feed Usage] tab.
+1. Go to **[!UICONTROL Audience Marketplace > Payables]**.
+2. Select the **[!UICONTROL Feed Usage]** tab.
 3. Use the [!UICONTROL Search] box to filter the data feeds and identify the ones that you need to report usage for.
-4. Click [!UICONTROL Edit Feeds Usage].
+4. Click **[!UICONTROL Edit Feeds Usage]**.
 5. Calculate the CPM usage for each data feed based on the Cost Attribution for CPM Data Feeds, and enter it in the [!UICONTROL Usage] column.
-6. Click [!UICONTROL Save] when you're done and review the confirmation dialog.
+6. Click **[!UICONTROL Save]** when you're done and review the confirmation dialog.
    ![confirm-feed-usage](assets/confirm-feed-usage.png)
-7. Click [!UICONTROL Confirm].
+7. Click **[!UICONTROL Confirm]**.
 
 ## Bulk Reporting
 
-To reduce errors and overhead while reporting CPM usage, you can use the bulk reporting option to download a CSV file containing the data feeds and segments, fill in the usage, and upload it back to Audience Manager. You can use bulk reporting to report both feed and segment usage.
+To reduce errors and overhead while reporting CPM usage, you can use the bulk reporting option to download a CSV file containing the data feeds and segments, fill in the usage, and upload it back to [!DNL Audience Manager]. You can use bulk reporting to report both feed and segment usage.
 
 To update CPM usage in bulk:
 
-1. Go to [!UICONTROL Audience Marketplace > Payables].
-1. Select the [!UICONTROL Feed Usage] or [!UICONTROL Segment Usage] tab, depending on the type of reporting that you want to update.
-1. Click [!UICONTROL Edit Feeds Usage] or [!UICONTROL Edit Segments Usage].
-1. Click [!UICONTROL download the current usage] to make sure you use a valid CSV file.
+1. Go to **[!UICONTROL Audience Marketplace > Payables]**.
+1. Select the **[!UICONTROL Feed Usage]** or **[!UICONTROL Segment Usage]** tab, depending on the type of reporting that you want to update.
+1. Click **[!UICONTROL Edit Feeds Usage]** or **[!UICONTROL Edit Segments Usage]**.
+1. Click **[!UICONTROL download the current usage]** to make sure you use a valid CSV file.
 1. Open the file on your computer and fill in the usage report.
-1. Click [!UICONTROL Choose a CSV file] to upload the updated usage report.
+1. Click **[!UICONTROL Choose a CSV file]** to upload the updated usage report.
    ![usage-report-csv](assets/usage-report-csv.png)
-1. Audience Manager validates the file as soon as you upload it and prompts you if it detects any errors in the file.
+1. [!DNL Audience Manager] validates the file as soon as you upload it and prompts you if it detects any errors in the file.
 
 ### Bulk Reporting Validation Errors
 
 | Error Message | Description   |  Fix  |
 | ------------- | -------------| -----|
-| Invalid Input | Audience Manager detected a change in the CSV file schema, such as missing columns or changes to column titles. | Avoid changing the table structure. |
-| Not Found     | For Segment Level Reporting, Audience Manager could not identify the Segment ID and Destination ID combination. For Feed Level Reporting, Audience Manager could not identify the Data Provider Name, Feed Name, and Use Case combination.    |   For Segment Level Reporting, check the validity of the Segment ID and Destination ID combination. For Feed Level Reporting, check the validity of the Data Provider Name, Feed Name, and Use Case combination. |
-| Duplicate Records Found | Audience Manager detected duplicate records with different impression values.      |    Review the report and make sure you don't report different usage values for the same data feed or segment. |
-| Values Not Supported | Audience Manager detected non-numerical values in the Impressions column. | Review the report and make sure you only enter numerical values in the Impressions column.|
-| Headers for Mandatory Fields Missing | Audience Manager detected missing table headers for mandatory fields. For Segment Level Reporting, the mandatory fields are: Segment ID Destination ID For Feed Level Reporting, the mandatory fields are: Data Provider Name Data Feed Name Use Case | Review the report and make sure the table headers have not been tampered with. |
+| Invalid Input | [!DNL Audience Manager] detected a change in the CSV file schema, such as missing columns or changes to column titles. | Avoid changing the table structure. |
+| Not Found     | For [!UICONTROL Segment Level Reporting], [!DNL Audience Manager] could not identify the [!UICONTROL Segment ID] and [!UICONTROL Destination ID] combination. For [!UICONTROL Feed Level Reporting], [!DNL Audience Manager] could not identify the [!UICONTROL Data Provider Name], [!UICONTROL Feed Name], and [!UICONTROL Use Case] combination.    |   For [!UICONTROL Segment Level Reporting], check the validity of the [!UICONTROL Segment ID] and [!UICONTROL Destination ID] combination. For [!UICONTROL Feed Level Reporting], check the validity of the [!UICONTROL Data Provider Name], [!UICONTROL Feed Name], and [!UICONTROL Use Case] combination. |
+| Duplicate Records Found | [!DNL Audience Manager] detected duplicate records with different impression values.      |    Review the report and make sure you don't report different usage values for the same data feed or segment. |
+| Values Not Supported | [!DNL Audience Manager] detected non-numerical values in the [!DNL Audience Manager] column. | Review the report and make sure you only enter numerical values in the [!DNL Audience Manager] column.|
+| Headers for Mandatory Fields Missing | [!DNL Audience Manager] detected missing table headers for mandatory fields. For [!UICONTROL Segment Level Reporting], the mandatory fields are: [!UICONTROL Segment ID], [!UICONTROL Destination ID]. For [!UICONTROL Feed Level Reporting], the mandatory fields are: [!UICONTROL Data Provider Name], [!UICONTROL Data Feed Name],  [!UICONTROL Use Case] | Review the report and make sure the table headers have not been tampered with. |
 
 >[!NOTE]
->Removing rows from the CSV usage report does not have any effect on the existing usage report. Audience Manager only processes the fields included in the report.
+>Removing rows from the CSV usage report does not have any effect on the existing usage report. [!DNL Audience Manager] only processes the fields included in the report.
 
 ## CPM Reporting Best Practices
 
@@ -101,13 +101,13 @@ To update CPM usage in bulk:
   <tr> 
    <td colname="col1"> <p><b>Always report the total number of impressions</b> </p> </td> 
    <td colname="col2"> <p>For CPM impression totals: </p>
-   <p> Report the total number of impressions, without using decimals. Audience Manager automatically calculates the CPM based on the total number you report.
+   <p> Report the total number of impressions, without using decimals. [!DNL Audience Manager] automatically calculates the CPM based on the total number you report.
 
    If you need to report 1,234,567 impressions, report it exactly like that. You do not need to divide the total number of impressions by 1,000 to calculate the CPM.
 
-  Traits used to optimize your web or app content (Content Optimization) using tools such as Adobe Target or an Analytics destination do not contribute to the Usage totals for CPM plans. Data providers are typically compensated for Content Optimization using flat fee plans.
+  Traits used to optimize your web or app content (Content Optimization) using tools such as [!DNL Adobe Target] or an [!DNL Analytics] destination do not contribute to the [!UICONTROL Usage] totals for CPM plans. Data providers are typically compensated for Content Optimization using flat fee plans.
 
-See Cost Attribution for CPM Data Feeds for more information. </p> </td>
+See [Cost Attribution for CPM Data Feeds](#concept_E757985A4850400288F1DD9A02B755D5) for more information. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><b>Stick to the monthly reporting interval</b> </p> </td> 
@@ -115,7 +115,7 @@ See Cost Attribution for CPM Data Feeds for more information. </p> </td>
 
    >[!TIP]
    >You should always try to report CPM usage for the previous month between the 1st and 5th days of the following month.
-   >You can report CPM usage as late as the 5th of the new calendar month, but this is not recommended. Reporting CPM usage before the 5th of each month gives Audience Manager time to check and process the data.</p> </td>
+   >You can report CPM usage as late as the 5th of the new calendar month, but this is not recommended. Reporting CPM usage before the 5th of each month gives [!DNL Audience Manager] time to check and process the data.</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -148,7 +148,7 @@ After you report CPM number for the previous calendar month, [!DNL Adobe] will d
 
 ## Assign Impressions at Feed Level Based on Trait Qualification Rules {#section_F457C3B07044474CAE3DCEB339D8E120}
 
-The Activation use case lets you use traits in the corresponding data feed to create segments in [Segment Builder](../../../c-features/c-segments/segment-builder.md#topic_E166819D26B94A868376BA54E10E4B74) and map those segments to a destination. The Boolean operators [!UICONTROL AND], [!UICONTROL OR], and [!UICONTROL NOT] let you set the conditions for trait and segment qualification.
+The [!UICONTROL Activation] use case lets you use traits in the corresponding data feed to create segments in [Segment Builder](../../../c-features/c-segments/segment-builder.md#topic_E166819D26B94A868376BA54E10E4B74) and map those segments to a destination. The Boolean operators [!UICONTROL AND], [!UICONTROL OR], and [!UICONTROL NOT] let you set the conditions for trait and segment qualification.
 
 When you [Report CPM Usage at Data Feed Level](#feed-level-report), you must allocate impressions proportionally for each data feed, according to the [!DNL Boolean] operators used in the trait qualification rules. The following table lists how to properly allocate impressions by Boolean rule or trait type.
 

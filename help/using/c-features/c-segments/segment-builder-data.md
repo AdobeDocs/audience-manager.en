@@ -135,13 +135,13 @@ The following table defines the actual real-time and total population metrics wh
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> Real-Time Population (Existing)</span> </p> </td> 
-   <td colname="col2"> <p>The actual number of devices seen in real-time with current profiles that, when merged with up to 3-other device profiles connected by the device graph, contains the traits to qualify for the segment the moment it was seen by <span class="keyword"> Audience Manager</span>. </p> </td> 
-  </tr> 
+   <td colname="col2"> <p>The actual number of devices seen in real-time with current profiles that, when merged with up to 3-other device profiles connected by the device graph, contains the traits to qualify for the segment the moment it was seen by <span class="keyword"> Audience Manager</span>. </p> </td>
+  </tr>
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> Total Population (Existing)</span> </p> </td> 
-   <td colname="col2"> <p>The total number of devices with profiles that, when merged with up to 3-other device profiles connected by the device graph, were all qualified for the segment. </p> </td> 
-  </tr> 
- </tbody> 
+   <td colname="col2"> <p>The total number of devices with profiles that, when merged with up to 3-other device profiles connected by the device graph, were all qualified for the segment. </p> </td>
+  </tr>
+ </tbody>
 </table>
 
 ### Limitations due to Merge Rules When Estimating Segment Populations

@@ -36,7 +36,7 @@ The [Signals Dashboard](../../c-features/data-explorer/data-explorer-signals-das
 
   <!-- Percentage Change is removed for GA. To be updated maybe for Phase 2 when it will likely be replaced with a graph. **Percentage Change** shows you the variation of the total counts in the current interval compared to the previous 7 days interval.-->
 
-* *Included in Traits* shows you whether the signal is part of any trait. Click the arrow to see the traits that include the corresponding signal. For signals that are not part of any trait, the column value changes to [!UICONTROL Create Onboarded Trait] or [!UICONTROL Create Rule-Based Trait]
+* *Included in Traits* shows you whether the signal is part of any trait. Click the arrow to see the traits that include the corresponding signal. For signals that are not part of any trait, the column value changes to [!UICONTROL Create Onboarded Trait] or [!UICONTROL Create Rule-Based Trait].
 
 ## Signal Data Refresh Frequency
 

@@ -11,7 +11,7 @@ snippet: y
 
 # Advanced Search for Adobe Analytics {#advanced-search-for-adobe-analytics}
 
-Audience Manager customers who also use [!DNL Adobe Analytics] can leverage the tight integration between the two solutions by enabling the Advanced Search for Adobe Analytics option.
+Audience Manager customers who also use [!DNL Adobe Analytics] can leverage the tight integration between the two solutions by enabling the [!UICONTROL Advanced Search for Adobe Analytics] option.
 
 This integration allows you to see the friendly names for key-value pairs derived from [!DNL Adobe Analytics] report suites. Here's how to do this:
 

@@ -19,13 +19,11 @@ A data feed requires a name, description, data source, and a plan type. Feeds ar
 
 A data feed requires a name, description, data source, and a plan type. Feeds are disabled until you save and activate the feed. Set up public or private data feeds in **[!UICONTROL Audience Marketplace > My Shared Data]**. Available to data sellers only.
 
-<!-- 
-
+<!--
 t_data_feed.xml
+-->
 
- -->
-
-You must have administrator rights to create a public or private data feed. 
+You must have administrator rights to create a public or private data feed.
 To create a data feed:
 
 1. Click **[!UICONTROL New Data Feed]**.
@@ -48,7 +46,7 @@ To create a data feed:
 
    >[!NOTE]
    >
-   >* Saved and activated data feeds cannot be deleted. 
+   >* Saved and activated data feeds cannot be deleted.
    >* Buyers see active feeds only.
 
 ### Optional: Create a Private Data Feed
@@ -57,7 +55,7 @@ In the [!UICONTROL Settings] section, move the slider to:
 
 * **[!UICONTROL Private]** and **[!UICONTROL Branded]**: The buyer's [!UICONTROL Marketplace] list shows the seller's name in the provider column and all other data is hidden.
 
-* **[!UICONTROL Private]** and **[!UICONTROL Unbranded]**: The buyer's [!UICONTROL Marketplace] list shows the data feed name and description only. The data provider name appears as "Private Seller."
+* **[!UICONTROL Private]** and **[!UICONTROL Unbranded]**: The buyer's [!UICONTROL Marketplace] list shows the data feed name and description only. The data provider name appears as [!UICONTROL Private Seller].
 
 To see what a private feed looks like to buyers, see the buyers section in [Private Data Feeds](../../../c-features/audience-marketplace/marketplace-private-feeds.md#concept_68EDE94B558C4B88BBCC994B67726FD2).
 
@@ -69,11 +67,9 @@ To see what a private feed looks like to buyers, see the buyers section in [Priv
 
 As an [!UICONTROL Audience Marketplace] data provider, you can revoke buyer access to a subscribed data feed. You may want to remove a buyer from a feed for reasons such as late payment / non-payment of fees or if they use trait data improperly.
 
-<!-- 
-
-marketplace-deactivate-subscribers.xml
-
- -->
+<!--
+marketplace-deactiva4te-subscribers.xml
+-->
 
 To revoke a subscriber:
 
@@ -95,11 +91,11 @@ Revoking access to a data feed sends a notification email to all administrator u
 
 ### Billing and Feed Deactivation
 
-After you remove access to a data feed, subscribers are responsible for fees for previous or current month, depending on when you deactivated the feed. 
+After you remove access to a data feed, subscribers are responsible for fees for previous or current month, depending on when you deactivated the feed.
 
 ## Plan Types for Data Feeds {#concept_54DDE4186D0045F386F94BB8C56A5DEA}
 
-[!DNL Plan types] are essential components in an [!UICONTROL Audience Marketplace] data feed. As a data provider, they let you create multiple use cases and price options for your feeds. Furthermore, it can be a good strategy to create a few plans for each data feed. This gives buyers different options to choose from when they're looking for data to model or send to a destination. 
+[!DNL Plan types] are essential components in an [!UICONTROL Audience Marketplace] data feed. As a data provider, they let you create multiple use cases and price options for your feeds. Furthermore, it can be a good strategy to create a few plans for each data feed. This gives buyers different options to choose from when they're looking for data to model or send to a destination.
 
 [Create a data feed](../../../c-features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#task_31BA4FB8FCD940588E6DCE2E7503DF4D) to select [!UICONTROL Plan Types].
 
@@ -107,11 +103,9 @@ After you remove access to a data feed, subscribers are responsible for fees for
 
 ## Plan Types and Use Case Options {#section_2DDDBB94B8814B80AAF85CB2ABA4DF99}
 
-<!-- 
-
+<!--
 c_feed_options.xml
-
- -->
+-->
 
 The [!UICONTROL Use Case] settings let sellers control how buyers can use your data.
 
@@ -119,23 +113,23 @@ The [!UICONTROL Use Case] settings let sellers control how buyers can use your d
 
 A **[!UICONTROL Segments and Overlap]** use case creates a plan that lets buyers compare trait data in a [trait-to-trait overlap report](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report). Furthermore, buyers can add your data to segments and make comparisons with the [segment-to-trait](../../../reporting/dynamic-reports/segment-trait-overlap-report.md#concept_36186B1ABEA34A6AAC7F5CF938A122B7) and [segment-to-segment](../../../reporting/dynamic-reports/segment-segment-overlap-report.md#concept_25E40808056B451BA06502A9527A55AA) reports.
 
-Each data feed must include at least 1 [!UICONTROL Segments and Overlap] use case. Buyers cannot subscribe to other plans in a data feed if the feed does not contain a [!UICONTROL Segments and Overlap] use case, either by itself or in combination with another use case.
+Each data feed must include at least one [!UICONTROL Segments and Overlap] use case. Buyers cannot subscribe to other plans in a data feed if the feed does not contain a [!UICONTROL Segments and Overlap] use case, either by itself or in combination with another use case.
 
 Overlap comparisons can help buyers:
 
-* **Extend audience reach:** Low overlap suggest your traits contain users the buyer has not seen before. As a result, buyers may want these traits to add new users to their audience segments. 
+* **Extend audience reach:** Low overlap suggest your traits contain users the buyer has not seen before. As a result, buyers may want these traits to add new users to their audience segments.
 * **Enhance existing audiences:** High overlap suggests your traits contain users similar to those a buyer already knows about. As a result, buyers may want these traits to help make targeted, incremental improvements to developed audiences.
 
 Price this use case as follows:
 
-* Unit of Measure: Flat fee 
+* Unit of Measure: Flat fee
 * Price: Free ($0.00)
 
 ### Modeling
 
 A **[!UICONTROL Modeling]** use case creates a plan that lets buyers compare your traits to theirs with [algorithmic modeling](../../../c-features/algorithmic-models/understanding-models.md#concept_441E566718B845929880B0823A9ECA9F). Buyers look at the model results to find new audiences in your data that share similar conversion attributes to their own. Price this use case as follows:
 
-* Unit of Measure: Flat fee 
+* Unit of Measure: Flat fee
 * Price: Discounted or market rate price
 
 ### Activation
@@ -178,11 +172,11 @@ The billing and price options control how buyers pay for your data.
 
 ## Plan Notes {#section_1DC56D7CCD574C1BAB1ABA033842E1CA}
 
-In the **[!UICONTROL Additional Notes]** field, take some time to describe each data plan in a feed. A good, brief description helps buyers understand the content or purpose of each plan in a data feed. Buyers can read data feed and plan descriptions as they search for or evaluate new data sources. 
+In the **[!UICONTROL Additional Notes]** field, take some time to describe each data plan in a feed. A good, brief description helps buyers understand the content or purpose of each plan in a data feed. Buyers can read data feed and plan descriptions as they search for or evaluate new data sources.
 
 ## Manage Private Data Feed Requests {#concept_4932D95774CF49FA92DE1E1BCDC0FDDA}
 
-Provider workflows for managing private feed requests from buyers. 
+Provider workflows for managing private feed requests from buyers.
 
 To review, approve, or reject buyer requests, go to [!UICONTROL My Shared Data] and:
 
@@ -210,7 +204,7 @@ To discount a feed, add a discount amount as a % to the discount field and confi
 * **[!UICONTROL My Shared Data > Potential Subscribers]**
 * **[!UICONTROL My Shared Data > Details Requests]**
 
-In these examples, the seller has added 10% discount to the Software Audience data feed.
+In these examples, the seller has added 10% discount to the [!UICONTROL Software Audience] data feed.
 
 ![](assets/potential_subscribers.png)
 

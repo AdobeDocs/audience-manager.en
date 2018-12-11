@@ -11,9 +11,9 @@ internal: n
 snippet: y
 ---
 
-# Audience Marketplace for Data Buyers {#audience-marketplace-for-data-buyers}
+# [!UICONTROL Audience Marketplace] for Data Buyers {#audience-marketplace-for-data-buyers}
 
-Overview and workflow for data buyers who want to purchase third-party data from within Audience Manager
+Overview and workflow for data buyers who want to purchase third-party data from within [!DNL Audience Manager].
 
 >[!NOTE]
 >[Role-based permissions](../../../reporting/reports-dashboard.md#concept_1F19F03D45164D2391F80A083410DC2E) control access to [!UICONTROL Audience Marketplace] features.
@@ -33,13 +33,13 @@ The [!UICONTROL Marketplace] is an [!DNL Audience Manager] feature for data buye
 
 The [!UICONTROL Marketplace] list contains information that you can sort and search to find the data feed that's right for you. Items in the [!UICONTROL Marketplace] buyer's list include:
 
-* **Search:** Find data feeds by name or text description. 
-* **Name:** Name of the data feed. 
-* **Description:** Information about the contents of a data feed. 
-* **Provider:** Name of the data provider. 
-* **Traits:** The number of traits in a data feed. 
-* **30 Day Uniques:** The number of unique users seen in the last 30 days. 
-* **30 Day Overlapped Uniques:** The number of users in your account that overlap with the users in the provider’s account. The % value is calculated as (30-day Overlapped Uniques/Provider's total 30-day uniques) x 100. 
+* **Search:** Find data feeds by name or text description.
+* **Name:** Name of the data feed.
+* **Description:** Information about the contents of a data feed.
+* **Provider:** Name of the data provider.
+* **Traits:** The number of traits in a data feed.
+* **30 Day Uniques:** The number of unique users seen in the last 30 days.
+* **30 Day Overlapped Uniques:** The number of users in your account that overlap with the users in the provider’s account. The % value is calculated as (30-day Overlapped Uniques/Provider's total 30-day uniques) x 100.
 * **Private Feeds:** See [Private Data Feeds](../../../c-features/audience-marketplace/marketplace-private-feeds.md#concept_68EDE94B558C4B88BBCC994B67726FD2).
 * **Currently Subscribed Plan Count:** The number of subscriptions you have with a data provider.
 

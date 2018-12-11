@@ -26,16 +26,16 @@ As a data partner, you're probably used to getting audience metadata from your c
 
 The [Getting Started with REST APIs](../../c-api/c-rest-api-main/aam-api-getting-started.md#concept_2745BC64D5BD43A49DA6020E42280863) section contains information about general requirements, authentication, available methods, etc. This is a good place to begin if you haven't worked with the [!DNL Audience Manager] API before.
 
-### Step 2: Request OAuth2 access credentials
+### Step 2: Request [!DNL OAuth2] access credentials
 
-You need a client ID and secret to make API calls. You can obtain a client ID and secret from your integration specialist during the integration set up process. You can also send an email request to [!UICONTROL Audience Manager Customer Care] at amsupport@adobe.com.
+You need a client ID and secret to make API calls. You can obtain a client ID and secret from your integration specialist during the integration set up process. You can also send an email request to [!UICONTROL Audience Manager Customer Care] at [!DNL amsupport@adobe.com].
 
 ### Step 3: Collect customer-specific information from each integrated customer
 
 Request the following from each integrated customer:
 
 * Username: This is for a restricted user that has read-only permissions for the destination associated with a specific integration.
-* Password: The user password. 
+* Password: The user password.
 * Destination ID: This is the ID (an integer) associated with the destination created for the specific server-to-server integration.
 
 ### Step 4: Retrieve segment metadata with an API call
