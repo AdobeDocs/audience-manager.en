@@ -28,9 +28,9 @@ Contents:
 
 S3 file names contain the following required and optional elements:
 
-* **S3 prefix:**  `s3n:// *`AWS_directory`*/ *`partner_name`*/date= *`yyyy-mm-dd`*/` 
+* **S3 prefix:**  `s3n://AWS_directory/partner_name/date=yyyy-mm-dd/` 
 
-* **File name elements:** `ftp_dpm_ *`DPID`*[ *`_DPID_TARGET_DATA_OWNER`*]_ *`TIMESTAMP`*(.sync|.overwrite)[. *`SPLIT_NUMBER`*][.gz]`
+* **File name elements:** `ftp_dpm_DPID[_DPID_TARGET_DATA_OWNER]_TIMESTAMP(.sync|.overwrite)[.SPLIT_NUMBER][.gz]`
 
 >[!NOTE] {importance="high"}
 >
@@ -77,7 +77,7 @@ The table defines the elements in an S3 file name.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> parnter_name</span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> partner_name</span> </span> </p> </td> 
    <td colname="col2"> <p>The company or organization name you use in <span class="keyword"> Audience Manager</span>. </p> </td> 
   </tr> 
   <tr> 
@@ -105,7 +105,7 @@ The table defines the elements in an S3 file name.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> [.gz]</span> </p> </td> 
-   <td colname="col2"> <p>When sending files to Amazon S3, use gzip compression only. When compressed, these files get the <span class="codeph"> .gz</span> extension. Do not use .zip compression. </p> <p>Compressed files must be 1 GB or smaller. If your files files are larger, please talk to Customer Care. Although Audience Manager can handle large files, we may be able to help you reduce the size of your files and make data transfers more efficient. See <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md#concept_7D6FA8BA759143EFBEDB16589BF6EC40"> File Compression for Inbound Data Transfer Files</a>. </p> </td> 
+   <td colname="col2"> <p>When sending files to Amazon S3, use gzip compression only. When compressed, these files get the <span class="codeph"> .gz</span> extension. Do not use .zip compression. </p> <p>Compressed files must be 1 GB or smaller. If your files are larger, please talk to Customer Care. Although Audience Manager can handle large files, we may be able to help you reduce the size of your files and make data transfers more efficient. See <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md#concept_7D6FA8BA759143EFBEDB16589BF6EC40"> File Compression for Inbound Data Transfer Files</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -120,7 +120,6 @@ The following examples show properly formatted file names. Your file names could
  <li> <span class="codeph"> s3n://&lt;AWS_Bucket&gt;/&lt;partner_name&gt;/date=2016-05-09/ftp_dpm_478_1366545717.sync</span> </li> 
  <li> <span class="codeph"> s3n://&lt;AWS_Bucket&gt;/&lt;partner_name&gt;/date=2016-05-09/ftp_dpm_478_567_1366545717.sync.gz</span> </li> 
  <li> <span class="codeph"> s3n://&lt;AWS_Bucket&gt;/&lt;partner_name&gt;/date=2016-05-09/ftp_dpm_478_1366545717.overwrite</span> </li> 
- <li> <span class="codeph"></span> </li> 
 </ul>
 
 You can [download](https://marketing.adobe.com/resources/help/en_US/aam/downloads/ftp_dpm_1234_1445374061.overwrite) the sample file if you want additional examples. This file has been saved with the `.overwrite` file extension. Open it with a simple text editor.
