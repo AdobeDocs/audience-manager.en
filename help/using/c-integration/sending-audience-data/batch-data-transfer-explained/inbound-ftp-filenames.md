@@ -14,29 +14,15 @@ snippet: y
 
 Describes the required fields, syntax, naming conventions and file sizes you need to follow when sending data to Audience Manager. Set the names and sizes of your files according to these specifications when you send data to an Audience Manager FTP directory.
 
-Contents:
-
-<ul class="simplelist"> 
- <li> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md#section_8E0F0FCC8FCB484E89F09654A03295FB"> File Name Syntax </a> </li> 
- <li> <a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md#section_0BBFF96B9DEB48F0B863A109DD3AED99"> File Name Examples</a> </li> 
- <li><a href="../../../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md#section_758E1B942B334DE1B76F0EBC846303E2"> Accepted File Sizes</a> </li> 
-</ul>
-
 >[!NOTE]
 >
->The text styles ( `monospaced text`, *italics*, brackets [ ] ( ), etc.) in this document indicate code elements and options. See [Style Conventions for Code and Text Elements](../../../reference/code-style-elements.md#reference_59D0BD0EDB424A65853460D91CCA35D9) for more information >
-><!-- 
-
-sample comment
-
- -->
->.
+>The text styles ( `monospaced text`, *italics*, brackets [ ] ( ), etc.) in this document indicate code elements and options. See [Style Conventions for Code and Text Elements](../../../reference/code-style-elements.md#reference_59D0BD0EDB424A65853460D91CCA35D9) for more information.
 
 ## File Name Syntax {#section_8E0F0FCC8FCB484E89F09654A03295FB}
 
 FTP file names contain the following required and optional elements:
 
-`ftp_dpm_ *`DPID`*[_ *`DPID_TARGET_DATA_OWNER`*]_ *`TIMESTAMP`*(.sync|.overwrite)[. *`SPLIT_NUMBER`*][.gz]`
+`fftp_dpm_DPID[_DPID_TARGET_DATA_OWNER]_TIMESTAMP(.sync|.overwrite)[.SPLIT_NUMBER][.gz]`
 
 >[!NOTE] {importance="high"}
 >
@@ -73,7 +59,7 @@ The table defines the elements in an FTP file name.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> (.sync|.overwrite)</span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> (.sync |.overwrite)</span> </p> </td> 
    <td colname="col2"> <p>Synchronization options that include: </p> <p> 
      <ul id="ul_DAAF61EC636C4456BECDDC34C3F86E83"> 
       <li id="li_6EC6DE442B4546AA9F4F800D65C8A4EC"> <span class="codeph"> sync</span>: Normal scenario when third-party data providers send traits on a per-user basis to be added or removed in the Audience Manager system. </li> 

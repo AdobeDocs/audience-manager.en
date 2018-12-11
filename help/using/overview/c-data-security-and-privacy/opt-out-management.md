@@ -69,7 +69,7 @@ The partner-level opt-out permits opting out from data collection by specific Au
 * Audience Manager will cease all data collection, segmentation or activation going forward for the last device ID linked to the CRM ID. 
 * No historical data is deleted.
 
-
+<br/>
 
 **Opt-out Calls**
 

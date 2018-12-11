@@ -14,16 +14,6 @@ snippet: y
 
 This document covers the technicalities related to the General Data Protection Regulation (GDPR) for Audience Manager and shows you how to submit GDPR requests to Audience Manager.
 
-<ul class="simplelist"> 
- <li><a href="../../overview/aam-gdpr/aam-gdpr-details.md#section_A1195B5542E945958F231AD4CD6DD472"> GDPR Documentation in the Experience Cloud</a> </li> 
- <li><a href="../../overview/aam-gdpr/aam-gdpr-details.md#section_67F84F0B0BF740759EE9416C8AE8596D"> Types of GDPR Requests and How to Make a GDPR... </a> </li> 
- <li> <a href="../../overview/aam-gdpr/aam-gdpr-details.md#section_8121E046363C4658A1FF041D43E0B021"> Access Data</a> </li> 
- <li> <a href="../../overview/aam-gdpr/aam-gdpr-details.md#section_23A5D62E04F741A7987581691FE992B4"> Delete Data</a> </li> 
- <li> <a href="../../overview/aam-gdpr/aam-gdpr-details.md#section_9DED20FD776C4108A1AD44E48CABA800"> Opt-out Request </a> </li> 
- <li> <a href="../../overview/aam-gdpr/aam-gdpr-details.md#section_DF7B9F8D922F4F4C9B08E8B9A4813DCA"> Audience Manager Identifiers</a> </li> 
- <li> </li> 
-</ul>
-
 ## GDPR Documentation in the Experience Cloud {#section_A1195B5542E945958F231AD4CD6DD472}
 
 Before reading the Audience Manager specifics, we advise you go through the Experience Cloud material for the European General Data Protection Regulation (GDPR), linked below:
