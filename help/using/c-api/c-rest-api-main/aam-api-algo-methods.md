@@ -610,6 +610,7 @@ r_return_model_timestamp.xml
  -->
 
 ### Request
+
 ` GET https://api.demdex.com/v1/models/ *<model-id>*/processing-history/`
 
 ### Sample Response

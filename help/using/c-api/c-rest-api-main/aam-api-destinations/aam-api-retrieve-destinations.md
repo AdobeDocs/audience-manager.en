@@ -18,7 +18,7 @@ A `GET` method that returns the destination for the specified `destinationId`.
 r_get_all_destinations_order_id.xml
 -->
 
-### Request
+## Request
 
 `GET https://api.demdex.com/v1/destinations/<destinationId>`
 
@@ -26,7 +26,7 @@ r_get_all_destinations_order_id.xml
 >
 >To populate the `mappings` field pass in `includeMappings=true` in the URL.
 
-### Response
+## Response
 
 ```
 {
