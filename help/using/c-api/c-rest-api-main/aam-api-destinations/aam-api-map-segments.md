@@ -10,47 +10,39 @@ internal: n
 snippet: y
 ---
 
-# Map Segments to a Destination{#map-segments-to-a-destination}
-
-Map segments to destinations with these RESTful API methods.
-
-## Map Segments to a Destination {#concept_E7A1A9A4ACD4441DA3D61BB00F597702}
+# Map Segments to a Destination {#map-segments-to-a-destination}
 
 Map segments to destinations with these [!DNL RESTful API] methods.
 
-<!-- 
-
+<!--
 c_api_map_seg_dest.xml
+-->
 
- -->
+## Supported Destination Types: [!UICONTROL URL] and [!UICONTROL Cookie] Only
 
-**Supported Destination Types: [!UICONTROL URL] and [!UICONTROL Cookie] Only**
-
-The available `POST` methods let you map segments to [!UICONTROL URL] and [!UICONTROL cookie destinations] only. Currently, you cannot map segments to [!UICONTROL server-to-server destinations] with these [!DNL REST API] methods. Use the user interface instead. However, the related destination `GET` methods let you retrieve information about [!UICONTROL server-to-server destinations] created in the user interface. 
+The available `POST` methods let you map segments to [!UICONTROL URL] and [!UICONTROL cookie destinations] only. Currently, you cannot map segments to [!UICONTROL server-to-server destinations] with these [!DNL REST API] methods. Use the user interface instead. However, the related destination `GET` methods let you retrieve information about [!UICONTROL server-to-server destinations] created in the user interface.
 
 >[!MORE_LIKE_THIS]
 >
->* [Destinations](../../../c-features/destinations/destinations.md#concept_5BDA346C376C4B719EA394108AB2735A)
+>* [Destinations](../../../c-features/destinations/destinations.md#destination-api-methods)
 >* [Destination Serialization](../../../c-features/destinations/key-value-pairs.md#concept_02436A7C6C574C799F079EB731A63262)
 >* [Key-Value Pairs Explained](../../../reference/key-value-pairs-explained.md#concept_E4236E003076483AA939791FE2492B49)
 
-## Map a Segment to a Non-Serialized <wintitle> URL Destination </wintitle> {#reference_0BFD55096FD845EC9970012C53CFE643}
+## Map a Segment to a Non-Serialized [!UICONTROL URL] Destination {#reference_0BFD55096FD845EC9970012C53CFE643}
 
 A `POST` method that lets you map a segment to a non-serial [!UICONTROL URL destination].
 
 <!-- 
-
 r_map_noserial_url.xml
+-->
 
- -->
-
-**Request**
+### Request
 
 `POST https://api.demdex.com/v1/destinations/ *<destinationId>*/mappings/`
 
-**Sample Request**
+### Sample Request
 
-All request values are required unless otherwise indicated. 
+All request values are required unless otherwise indicated.
 
 ```
 {
@@ -61,7 +53,7 @@ All request values are required unless otherwise indicated.
 }
 ```
 
-**Sample Response** 
+### Response
 
 ```
 {
@@ -88,7 +80,7 @@ All request values are required unless otherwise indicated.
 }
 ```
 
-## Map a Segment to a Serialized <wintitle> URL Destination </wintitle> {#reference_658AB62CA686491FB9D0E53458801343}
+## Map a Segment to a Serialized [!UICONTROL URL] Destination {#reference_658AB62CA686491FB9D0E53458801343}
 
 A `POST` method that lets you map a segment to a serialized [!UICONTROL URL destination].
 
@@ -98,11 +90,11 @@ r_map_serialized_url.xml
 
  -->
 
-**Request**
+### Request
 
 `POST https://api.demdex.com/v1/destinations/ *<dataOrderId>*/traits/`
 
-**Sample Request**
+### Sample Request
 
 In the request, the `traitAlias` corresponds to the key in a key-value pair. All request values are required unless otherwise indicated. 
 
@@ -115,7 +107,7 @@ In the request, the `traitAlias` corresponds to the key in a key-value pair. All
 }
 ```
 
-**Sample Response** 
+### Response 
 
 ```
 {
@@ -142,7 +134,7 @@ In the request, the `traitAlias` corresponds to the key in a key-value pair. All
 }
 ```
 
-## Map a Segment to a <wintitle> Cookie Destination </wintitle>: Single-Key, Non-Serialized {#reference_612B2A53AE8E4262A36F73601151CFDD}
+## Map a Segment to a [!UICONTROL Cookie] Destination: Single-Key, Non-Serialized {#reference_612B2A53AE8E4262A36F73601151CFDD}
 
 A `POST` method that lets you map a segment to single-key, non-serialized [!UICONTROL cookie destination].
 
@@ -152,11 +144,11 @@ r_map_cookie_noserial.xml
 
  -->
 
-**Request**
+### Request
 
 `POST https://api.demdex.com/v1/destinations/ *<destinationId>*/mappings/`
 
-**Sample Request**
+### Sample Request
 
 In the request, the `valueAlias` corresponds to the value in a key-value pair. All request values are required unless otherwise indicated. 
 
@@ -169,7 +161,7 @@ In the request, the `valueAlias` corresponds to the value in a key-value pair. A
 }
 ```
 
-**Sample Response** 
+### Response 
 
 ```
 {
@@ -193,23 +185,21 @@ In the request, the `valueAlias` corresponds to the value in a key-value pair. A
 }
 ```
 
-## Map a Segment to a <wintitle> Cookie Destination </wintitle>: Multi-Key, Non-Serialized {#reference_139815314E1446BB9E335DCCDD1CEE6E}
+## Map a Segment to a [!UICONTROL Cookie] Destination: Multi-Key, Non-Serialized {#reference_139815314E1446BB9E335DCCDD1CEE6E}
 
 A `POST` method that lets you map a segment to multi-key, non-serialized [!UICONTROL cookie destination].
 
-<!-- 
-
+<!--
 r_map_cookie_multikey_noserial.xml
+-->
 
- -->
-
-**Request**
+### Request
 
 `POST https://api.demdex.com/v1/destinations/ *<destinationId>*/mappings/`
 
-**Sample Request**
+### Sample Request
 
-In the request, the `traitAlias` and `valueAlias` set the key and the value respectively in a key-value pair. All request values are required unless otherwise indicated. 
+In the request, the `traitAlias` and `valueAlias` set the key and the value respectively in a key-value pair. All request values are required unless otherwise indicated.
 
 ```
 {
@@ -221,7 +211,7 @@ In the request, the `traitAlias` and `valueAlias` set the key and the value resp
 }
 ```
 
-**Sample Response** 
+### Response 
 
 ```
 {
@@ -245,7 +235,7 @@ In the request, the `traitAlias` and `valueAlias` set the key and the value resp
 }
 ```
 
-## Map a Segment to a <wintitle> Cookie Destination </wintitle>: Multi-Key, Serialized {#reference_C0FA140B45B844CE8EE6E5E0487D7EB8}
+## Map a Segment to a [!UICONTROL Cookie] Destination: Multi-Key, Serialized {#reference_C0FA140B45B844CE8EE6E5E0487D7EB8}
 
 A `POST` method that lets you map a segment to a multi-key, serialized [!UICONTROL cookie destination].
 
@@ -255,11 +245,11 @@ r_map_cookie_multikey_serialized.xml
 
  -->
 
-**Request**
+### Request
 
 `POST https://api.demdex.com/v1/destinations/ *<destinationId>*/mappings/`
 
-**Sample Request**
+### Sample Request
 
 In the request, the `traitAlias` and `valueAlias` set the key and the value in a key-value pair. All request values are required unless otherwise indicated. 
 
@@ -273,7 +263,7 @@ In the request, the `traitAlias` and `valueAlias` set the key and the value in a
 }
 ```
 
-**Sample Response** 
+### Response
 
 ```
 {
@@ -297,23 +287,21 @@ In the request, the `traitAlias` and `valueAlias` set the key and the value in a
 }
 ```
 
-## Map a Segment to a <wintitle> Server-to-Server Destination </wintitle> {#reference_1F6C3A534C234BE4B01C32B09EC93101}
+## Map a Segment to a [!UICONTROL Server-to-Server] Destination {#reference_1F6C3A534C234BE4B01C32B09EC93101}
 
-A `POST` method that lets you map a segment to an existing [!UICONTROL server-to-server destination]. Note, however, that you cannot create [!UICONTROL server-to-server destinations] with these currently available API methods.
+A `POST` method that lets you map a segment to an existing [!UICONTROL server-to-server] destination. Note, however, that you cannot create [!UICONTROL server-to-server] destinations with these currently available API methods.
 
 <!-- 
-
 r_map_segment_s2s.xml
+-->
 
- -->
-
-**Request**
+### Request
 
 `POST https://api.demdex.com/v1/destinations/ *<destinationId>*/mappings/`
 
-**Sample Request**
+### Sample Request
 
-In the request, the `traitAlias` corresponds to the key in a key-value pair. All request values are required unless otherwise indicated. 
+In the request, the `traitAlias` corresponds to the key in a key-value pair. All request values are required unless otherwise indicated.
 
 ```
 {
@@ -324,7 +312,7 @@ In the request, the `traitAlias` corresponds to the key in a key-value pair. All
 }
 ```
 
-**Sample Response** 
+### Response
 
 ```
 {
@@ -352,18 +340,16 @@ In the request, the `traitAlias` corresponds to the key in a key-value pair. All
 A `POST` method that lets you pass in an array of [!UICONTROL cookie] or [!UICONTROL URL] destination mappings.
 
 <!-- 
-
 r_bulk_create.xml
+-->
 
- -->
-
-**Request**
+### Request
 
 `POST https://api.demdex.com/v1/destinations/ *<destinationId>*/bulk-create`
 
-**Sample Request**
+### Sample Request
 
-All request values are required unless otherwise indicated. 
+All request values are required unless otherwise indicated.
 
 ```
 [
@@ -382,9 +368,9 @@ All request values are required unless otherwise indicated.
 ]
 ```
 
-**Sample Response**
+### Response
 
-A successful response returns the array of created mappings. 
+A successful response returns the array of created mappings.
 
 ```
 [
@@ -440,19 +426,17 @@ A successful response returns the array of created mappings.
 
 A `POST` method that lets you map multiple segments to a destination.
 
-<!-- 
-
+<!--
 r_add_segments_to_destination.xml
+-->
 
- -->
-
-**Request**
+### Request
 
 `POST https://api.demdex.com/v1/destinations/ *<destinationId>*/bulk-create`
 
-**Sample Request**
+### Sample Request
 
-Create multiple destination mappings in an array. All request values are required unless otherwise indicated. 
+Create multiple destination mappings in an array. All request values are required unless otherwise indicated.
 
 ```
 [
@@ -471,9 +455,9 @@ Create multiple destination mappings in an array. All request values are require
 ]
 ```
 
-**Sample Response**
+### Response
 
-Returns an array of created mappings. 
+Returns an array of created mappings.
 
 ```
 [
@@ -528,17 +512,15 @@ Returns an array of created mappings.
 
 A `PUT` method that lets you update an existing destination by `destinationId`.
 
-<!-- 
-
+<!--
 r_update_destination_data_order_id.xml
+-->
 
- -->
-
-**Request**
+### Request
 
 `PUT https://api.demdex.com/v1/destinations/ *<destinationId>*`
 
-**Sample Request**
+### Sample Request
 
 All request values are required unless otherwise indicated. 
 
@@ -551,7 +533,7 @@ All request values are required unless otherwise indicated.
 }
 ```
 
-**Sample Response** 
+### Response
 
 ```
 {
@@ -582,17 +564,15 @@ All request values are required unless otherwise indicated.
 
 A `PUT` method that lets you update a mapping to a destination by the specified `mappingId`.
 
-<!-- 
-
+<!--
 r_update_destination_trait_data_order_id.xml
+-->
 
- -->
-
-**Request**
+### Request
 
 `PUT https://api.demdex.com/v1/destinations/mappings/ *<mappingId>*`
 
-**Sample Request**
+### Sample Request
 
 All request values are required unless otherwise indicated. 
 
@@ -605,7 +585,7 @@ All request values are required unless otherwise indicated.
 }
 ```
 
-**Sample Response** 
+### Response
 
 ```
 {
@@ -631,4 +611,3 @@ All request values are required unless otherwise indicated.
     "traitAlias": null
 }
 ```
-

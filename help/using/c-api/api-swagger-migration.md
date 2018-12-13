@@ -10,17 +10,15 @@ internal: n
 snippet: y
 ---
 
-# Audience Manager API Code Migration{#audience-manager-api-code-migration}
+# Audience Manager API Code Migration {#audience-manager-api-code-migration}
 
-Here at Audience Manager, we're engineers, developers, and code ninjas just like you. And, like you, we want to work with reliable, accurate API documentation. As a result, we're re-writing our API content in Swagger and moving it to a new location. These changes are designed to help improve your experience with the Audience Manager API code.
+Here at Audience Manager, we're engineers, developers, and code ninjas just like you. And, like you, we want to work with reliable, accurate API documentation. As a result, we're re-writing our API content in [!DNL Swagger] and moving it to a new location. These changes are designed to help improve your experience with the Audience Manager API code.
 
 ## Movin' On Up {#section_744CB94390AE4155BC9A24A9F555E579}
 
-<!-- 
-
+<!--
 api-swagger-migration.xml#
-
- -->
+-->
 
 The [Adobe Audience Manager API Docs](https://bank.demdex.com/portal/swagger/index.html) site is the new home for our revised API content. We'll try to re-write and move a few sets of API methods with each release. This means you'll have to check in both the new location and the [REST API](../c-api/c-rest-api-main/c-rest-api-main.md#concept_B512E6C3410A4304A672588A60A792B1) documentation to find all of the available methods. Eventually, all of the public APIs will be on the [!DNL Audience Manager] API docs site. The following table lists the revised and migrated APIs.
 
@@ -71,7 +69,6 @@ The [Adobe Audience Manager API Docs](https://bank.demdex.com/portal/swagger/ind
   <tr> 
    <td colname="col1"> <p> <b>Traits</b> </p> </td> 
    <td colname="col2"> <p> <a href="https://bank.demdex.com/portal/swagger/index.html#!/Traits_API" format="https" scope="external"> Traits</a> </p> </td> 
-  </tr> 
- </tbody> 
+  </tr>
+ </tbody>
 </table>
-

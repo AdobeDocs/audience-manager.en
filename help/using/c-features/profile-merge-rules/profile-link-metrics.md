@@ -10,9 +10,9 @@ internal: n
 snippet: y
 ---
 
-# Report Metrics for Profile Merge Rules {#report-metrics-for-profile-merge-rules}
+# Report Metrics for [!UICONTROL Profile Merge Rules] {#report-metrics-for-profile-merge-rules}
 
-Profile Link metrics provide data about people and devices that authenticate to your site. The data and graphs in Profile Link update dynamically as you create a merge rules or when you click an existing rule from the Profile Merge Rules dashboard. These metrics can include device graph from the Adobe Experience Cloud Device Co-op or other third-party device graph sources.
+[!UICONTROL Profile Link] metrics provide data about people and devices that authenticate to your site. The data and graphs in [!UICONTROL Profile Link] update dynamically as you create a merge rules or when you click an existing rule from the [!UICONTROL Profile Merge Rules] dashboard. These metrics can include device graph from the Adobe Experience Cloud Device Co-op or other third-party device graph sources.
 
 ## Merge Rule Metrics {#section_23F45E4C374241709A246058F4D92A23}
 
@@ -105,13 +105,13 @@ A standard [!UICONTROL Profile Link] report looks like the following example. Me
 
 ![](assets/coop-metrics1.png)
 
-### Profile Link Report With Device Graph Data
+### [!UICONTROL Profile Link] Report With Device Graph Data
 
 A [!UICONTROL Profile Link] report that includes device graph data from the [!UICONTROL Adobe Experience Cloud Device Co-op] or a third-party device graph shows [!UICONTROL Profile Link] and device graph data with side-by-side bar graphs. Placing these graphs adjacent to each other lets you evaluate the benefits of using the [!UICONTROL Experience Cloud Device Co-op] compared to [!UICONTROL Profile Link] by itself. Merge rules that use multiple data sources (up to 3, maximum) show graphs in separate tabs for each data source. As a reminder, the [!UICONTROL Authenticated Activity] graph and metrics do not return data from the [!DNL Adobe] device graph or other, third-party device graphs you may have access to in [!DNL Audience Manager].
 
 ![](assets/coop-metrics2.png)
 
-## Profile Link Trend Graphs {#section_5A834A740513416B8A3533AE24357569}
+## [!UICONTROL Profile Link] Trend Graphs {#section_5A834A740513416B8A3533AE24357569}
 
 In addition to the other data visualizations, [!UICONTROL Profile Link] reports include a line graph. The line graph is designed to show you trends over time for your profile rules. Trend graphs (and the other reports) are available when you click a rule from the [!UICONTROL Profile Merge Rules] landing page ( **[!UICONTROL Audience Data > Profile Merge Rules]**). These graphs include device graph data if you're a member of the [!UICONTROL Device Co-op] or other, third-party device graphs you may have access to in [!DNL Audience Manager]. Click on a trend line to see underlying data.
 

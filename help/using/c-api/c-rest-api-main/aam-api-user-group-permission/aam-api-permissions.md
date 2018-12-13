@@ -14,15 +14,9 @@ snippet: y
 
 Rest API methods to manage permissions for objects and groups.
 
-## Permissions Management API Methods {#concept_592038BE9A2A4B7C9310AFAC9BAC0CB1}
-
-Rest API methods to manage permissions for objects and groups.
-
 <!-- 
-
 c_rest_api_perm_man.xml
-
- -->
+-->
 
 ## List Available Object Types {#reference_065FE71054DA4ABD985A6A0FAEEDF212}
 
@@ -34,11 +28,11 @@ r_rest_api_perm_list.xml
 
  -->
 
-**Request**
+### Request
 
 `GET /api/v1/permissionable-object-types/`
 
-**Sample Response**
+### Response
 
 ```
 [ "SEGMENT", "TRAIT", "DESTINATION", "DERIVED_SIGNALS", "TAGS" ]
@@ -48,26 +42,23 @@ r_rest_api_perm_list.xml
 
 A `GET` method to list available permissions for an object type.
 
-<!-- 
-
+<!--
 r_rest_api_perm_list_perms.xml
+-->
 
- -->
-
-**Request**
+### Request
 
 `GET /api/v1/permissionable-object-types/SEGMENT/`
 
-**Sample Response**
+### Response
 
 ```
 { 
  "wildcard" : [ "VIEW_ALL_SEGMENTS", "EDIT_ALL_SEGMENTS", "CREATE_ALL_SEGMENTS", "DELETE_ALL_SEGMENTS", "MAP_ALL_SEGMENTS_TO_MODELS", "MAP_ALL_TO_DESTINATIONS" ], 
- "perObject" : [ "READ", "WRITE", "CREATE", "DELETE", "MAP_TO_MODELS", "MAP_TO_DESTINATION" ] 
+ "perObject" : [ "READ", "WRITE", "CREATE", "DELETE", "MAP_TO_MODELS", "MAP_TO_DESTINATION" ]
 }
 ```
 
 >[!NOTE]
 >
 >The object types TAGS and DERIVED SIGNALS have no regular permissions to use. Controls on these object types are changed by the All or Nothing Wild Card Permissions only.
-

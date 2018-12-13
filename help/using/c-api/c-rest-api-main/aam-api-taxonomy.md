@@ -10,19 +10,13 @@ internal: n
 snippet: y
 ---
 
-# Taxonomic API Methods{#taxonomic-api-methods}
+# Taxonomic API Methods {#taxonomic-api-methods}
 
 Methods that let you view the Audience Manager common taxonomy. This optional classification scheme organizes traits into industry standard categories.
 
-## Taxonomic API Methods {#concept_A3A8F6F90394453AB0D16F692479D45B}
-
-Methods that let you view the Audience Manager common taxonomy. This optional classification scheme organizes traits into industry standard categories.
-
-<!-- 
-
+<!--
 c_rest_api_taxonomy.xml
-
- -->
+-->
 
 >[!NOTE]
 >
@@ -32,17 +26,15 @@ c_rest_api_taxonomy.xml
 
 A `GET` method that returns details about the specified taxonomic category.
 
-<!-- 
-
+<!--
 r_rest_api_taxonomy.xml
+-->
 
- -->
+### Request
 
-**Request**
+`GET https://api.demdex.com/v1/taxonomies/0/<categoryId>`
 
-`GET https://api.demdex.com/v1/taxonomies/0/ *<categoryId>*`
-
-**Sample Response**
+### Response
 
 A successful response returns `200 OK` and the category for the specified ID. An unsuccessful request returns `404 No Content` if the ID does not exist.
 
@@ -62,18 +54,16 @@ A successful response returns `200 OK` and the category for the specified ID. An
 A `GET` method that returns a list of the top-level categories in an array.
 
 <!-- 
-
 r_rest_api_taxonomies.xml
+-->
 
- -->
-
-**Request**
+### Request
 
 `GET https://api.demdex.com/v1/taxonomies/0/`
 
-**Sample Response**
+### Response
 
-Truncated for brevity. 
+Truncated for brevity.
 
 ```
 [
@@ -108,17 +98,15 @@ Truncated for brevity.
 
 A `GET` method that returns sub-categories for the specified parent category in an array.
 
-<!-- 
-
+<!--
 r_rest_api_taxonomy_sub.xml
+-->
 
- -->
-
-**Request**
+### Request
 
 `GET https://api.demdex.com/v1/taxonomies/0/ *<categoryId>*/childCategories/`
 
-**Sample Response**
+### Response
 
 A successful response returns `200 OK` and the category for the specified ID. An unsuccessful request returns `404 No Content` if the ID does not exist. Truncated for brevity. 
 

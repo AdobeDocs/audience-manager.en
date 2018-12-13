@@ -10,7 +10,7 @@ internal: n
 snippet: y
 ---
 
-# Folder API Methods{#folder-api-methods}
+# Folder API Methods {#folder-api-methods}
 
 Methods that let you work programmatically with trait and segment folders. Folders are directories that hold and organize traits and segments in logical groups.
 
@@ -24,6 +24,4 @@ api-folders.xml
 >
 >The folder API methods have been rewritten with [!DNL Swagger] and migrated. See:  >
 >* [Adobe Audience Manager API Docs `Swaggerized REST API docs.`](https://bank.demdex.com/portal/swagger/index.html) 
->* [Audience Manager API Code Migration](../../c-api/api-swagger-migration.md#concept_99C4AEF678E94AFE9B29F9B663200BAD) 
->
-
+>* [Audience Manager API Code Migration](../../c-api/api-swagger-migration.md#concept_99C4AEF678E94AFE9B29F9B663200BAD)

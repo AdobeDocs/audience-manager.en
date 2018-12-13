@@ -10,9 +10,9 @@ internal: n
 snippet: y
 ---
 
-# Send Data to the DCS{#send-data-to-the-dcs}
+# Send Data to the [!UICONTROL DCS] {#send-data-to-the-dcs}
 
-Start here for information about making /event calls to the DCS. This section includes information about call syntax, parameters, formatting, and a request example.
+Start here for information about making `/event` calls to the [!UICONTROL DCS]. This section includes information about call syntax, parameters, formatting, and a request example.
 
 >[!NOTE]
 >
@@ -20,7 +20,7 @@ Start here for information about making /event calls to the DCS. This section in
 
 ## Call Syntax {#section_9D6FDD2547174B03B89DBFECBFE53008}
 
-A basic URL string that sends data to the [!UICONTROL DCS] uses the syntax shown below.
+A basic `URL` string that sends data to the [!UICONTROL DCS] uses the syntax shown below.
 
 `https:// *`domain alias`*.demdex.net/event? *`key1`*= *`val1`*,& *`key2`*= *`val2`*&d_dst=1&d_rtbd=json&d_cb= *`callback`*`
 
@@ -73,16 +73,16 @@ The following table defines the basic components of a simple [!UICONTROL DCS] ca
      <ul id="ul_36E2C1A0538D4D2C94DFC1335720A524"> 
       <li id="li_8902EED431CE4F0189A94868FA52DB1F"> <span class="codeph"> d_dst=1</span> </li> 
       <li id="li_4B6B29499D444E31808DE0A9AA0442D0"> <span class="codeph"> d_rtbd=json</span> </li> 
-      <li id="li_3430CD0438604B83BE6437E6EC480816"> <span class="codeph">d_cb=<span class="varname"> callback</span></span> </li> 
+      <li id="li_3430CD0438604B83BE6437E6EC480816"> <span class="codeph">d_cb=<span class="varname"> callback</span></span> </li>
      </ul> </p> </td> 
    <td colname="col2"> <p>Optional response parameters. </p> <p> None of these are required to send data to the <span class="wintitle"> DCS</span>. However, if you want the <span class="wintitle"> DCS</span> to return a response, you must include <span class="codeph"> d_rtbd=json</span> in your request. </p> <p>See <a href="../../../c-api/dcs-intro/dcs-api-reference/dcs-keys.md#section_B5B16D42E2004AF3ABCE25FFFEB0FF28"> d_ Key-Value Pairs Defined</a>. </p> </td> 
-  </tr> 
- </tbody> 
+  </tr>
+ </tbody>
 </table>
 
 ## Sample Call {#section_6ADCBC45C4A64B09A216AC0882162D99}
 
-This example shows the fictional company Acme, Inc. sending data to the [!UICONTROL DCS] via an HTTP call. Note that this call includes the optional parameters `d_dst=1`, `d_rtbd=json`, and ` d_cb= *`callback`*`. These indicate that Acme wants to receive a `JSON` response from the [!UICONTROL DCS] with a call back function. Remember, this is just an example. Do not cut and paste this code.
+This example shows the fictional company [!DNL Acme, Inc.] sending data to the [!UICONTROL DCS] via an HTTP call. Note that this call includes the optional parameters `d_dst=1`, `d_rtbd=json`, and `d_cb=callback`. These indicate that Acme wants to receive a `JSON` response from the [!UICONTROL DCS] with a call back function. Remember, this is just an example. Do not cut and paste this code.
 
 `https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_rtbd=json&d_cb=acme_callback`
 

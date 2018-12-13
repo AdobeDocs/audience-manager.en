@@ -10,15 +10,14 @@ internal: n
 snippet: y
 ---
 
-# Segment API Methods{#segment-api-methods}
+# Segment API Methods {#segment-api-methods}
 
 Methods that let you work programmatically with segments.
 
 >[!IMPORTANT]
 >
->The segment API methods have been rewritten with Swagger and migrated. See: 
+>The segment API methods have been rewritten with [!DNL Swagger] and migrated. See: 
 >
 >* [Adobe Audience Manager API Docs](https://bank.demdex.com/portal/swagger/index.html) 
 >* [Audience Manager API Code Migration](https://marketing.adobe.com/resources/help/en_US/aam/c_api_swagger.html) 
 >
-

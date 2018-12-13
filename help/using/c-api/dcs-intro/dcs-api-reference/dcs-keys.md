@@ -10,9 +10,9 @@ internal: n
 snippet: y
 ---
 
-# Supported Attributes for DCS API Calls{#supported-attributes-for-dcs-api-calls}
+# Supported Attributes for [!UICONTROL DCS] API Calls {#supported-attributes-for-dcs-api-calls}
 
-Lists and describes the syntax and supported attributes (or key-value pairs) you can pass in to the Data Collection Servers (DCS). This information can help you format your DCS requests and understand the parameters returned by this system.
+Lists and describes the syntax and supported attributes (or key-value pairs) you can pass in to the Data Collection Servers ([!UICONTROL DCS]). This information can help you format your DCS requests and understand the parameters returned by this system.
 
 ## Attribute Prefixes {#section_C40587830EFD4669AE9DAB5C6513CD9A}
 
@@ -40,7 +40,7 @@ The [!UICONTROL DCS] relies on specific prefixes added to the keys in key-value 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> p_</span> </p> </td> 
-   <td colname="col2"> <p>Private, customer-defined attributes. </p> <p> The DCS accepts your own, private data when the key has a <span class="codeph"> p_</span> prefix. Private data is used for trait evaluation, but it will not be logged or stored in our system. For example, lets say you have a trait defined as <span class="codeph"> customers = p_age&lt;25</span> and you pass in <span class="codeph"> p_age=23</span> in an event call. Given these conditions, the user who meets the age-based qualification criteria qualifies for the trait, but the key-value pair is dropped after <span class="keyword"> Audience Manager</span> receives the request and is not logged. </p> </td> 
+   <td colname="col2"> <p>Private, customer-defined attributes. </p> <p> The [!UICONTROL DCS] accepts your own, private data when the key has a <span class="codeph"> p_</span> prefix. Private data is used for trait evaluation, but it will not be logged or stored in our system. For example, lets say you have a trait defined as <span class="codeph"> customers = p_age&lt;25</span> and you pass in <span class="codeph"> p_age=23</span> in an event call. Given these conditions, the user who meets the age-based qualification criteria qualifies for the trait, but the key-value pair is dropped after <span class="keyword"> Audience Manager</span> receives the request and is not logged. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -192,7 +192,7 @@ All of these are optional, unless you want a response from the [!UICONTROL DCS].
   <tr> 
    <td colname="col1"> <p><span class="codeph"> d_uuid</span> </p> </td> 
    <td colname="col2"> <p>Unique user ID. Identifies a visitor when this value is not available from a cookie. </p> </td> 
-  </tr> 
- </tbody> 
+  </tr>
+ </tbody>
 </table>
 

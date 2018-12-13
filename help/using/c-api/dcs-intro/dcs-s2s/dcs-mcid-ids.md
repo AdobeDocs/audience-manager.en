@@ -12,14 +12,14 @@ snippet: y
 
 # Get User IDs and Regions Through the Experience Cloud ID Service{#get-user-ids-and-regions-through-the-experience-cloud-id-service}
 
-ID service customers should refer to this section for information on how to read the visitor cookie for the IDs required to make DCS API calls.
+ID service customers should refer to this section for information on how to read the visitor cookie for the IDs required to make [!UICONTROL DCS] API calls.
 
 ## Get the User ID from the ID Service Cookie {#section_F28F94780FEC4918B37B62AC9A64AF23}
 
 The [Experience Cloud ID service](https://marketing.adobe.com/resources/help/en_US/mcvid/) assigns visitor and region IDs to users who come to your website. These IDs identify users across all the solutions in the [!DNL Experience Cloud] and they are required if you want to make [!UICONTROL DCS] calls.
 
-* The user ID is required to identify and associate data with a particular visitor. 
-* The region ID is required because it is tied to a regional server name, which you need to send data to the [!UICONTROL DCS]. The [!UICONTROL DCS] stores information in data centers that are geographically closest to site visitors. See [DCS Region IDs, Locations, and Host Names](../../../c-api/dcs-intro/dcs-api-reference/dcs-regions.md#concept_01C1E017A6694D1EAF9BF65BFFA54091).
+* The [!UICONTROL user ID] is required to identify and associate data with a particular visitor.
+* The [!UICONTROL region ID] is required because it is tied to a regional server name, which you need to send data to the [!UICONTROL DCS]. The [!UICONTROL DCS] stores information in data centers that are geographically closest to site visitors. See [DCS Region IDs, Locations, and Host Names](../../../c-api/dcs-intro/dcs-api-reference/dcs-regions.md#concept_01C1E017A6694D1EAF9BF65BFFA54091).
 
 ID service customers can extract this information from the ID service cookie or by calling a function. The table below describes the tasks or steps you need to complete to get started.
 
@@ -58,11 +58,11 @@ Code in *italics* represents a variable placeholder.
 
 ## Working With getMarketingCloudVisitorID {#section_0D6CAAA7A2404EB59274CA35DCB5E65B}
 
-Another way to get the visitor ID is with the `getMarketingCloudVisitorID` function. When invoked, this function queries the [!DNL ID service] and returns an ID. `getMarketingCloudVisitorID` accepts the optional `callback` argument as shown:
+Another way to get the [!UICONTROL visitor ID] is with the `getMarketingCloudVisitorID` function. When invoked, this function queries the [!DNL ID service] and returns an ID. `getMarketingCloudVisitorID` accepts the optional `callback` argument as shown:
 
 `var analyticsID = visitor.getAnalyticsVisitorID(callback)`
 
-**Callback Usage and Purpose**
+### Callback Usage and Purpose
 
 `callback` is optional. This function works without it, but returns an ID only when a visitor has a [!DNL Experience Cloud] cookie in their browser. If the visitor cookie is missing, or a visitor doesn't have an ID, the function returns an empty `()` object. This can happen even after the page loads and the visitor receives a new ID. To avoid this, `callback` forces this function to check for a visitor ID after the page loads. Without `callback`, the visitor ID function won't return an ID even if it's written to the visitor's browser later.
 
