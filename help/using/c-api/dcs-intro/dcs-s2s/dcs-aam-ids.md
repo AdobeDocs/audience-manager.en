@@ -10,15 +10,15 @@ internal: n
 snippet: y
 ---
 
-# Get User IDs and Regions From a DCS Response{#get-user-ids-and-regions-from-a-dcs-response}
+# Get User [!UICONTROL DCS] and Regions From a [!UICONTROL DCS] Response{#get-user-ids-and-regions-from-a-dcs-response}
 
-This section describes how to parse a DCS response to retrieve the visitor and region IDs required to make real-time calls to the DCS.
+This section describes how to parse a [!UICONTROL DCS] response to retrieve the visitor and region IDs required to make real-time calls to the [!UICONTROL DCS].
 
 ## User and Region IDs {#section_B823FA32B7634AB3820CD30264284150}
 
 A [!UICONTROL DCS] response contains data about your site visitors. You need the visitor and region ID before you can make server-to-server calls to the [!UICONTROL DCS].
 
-* The user ID is required to identify and associate data with a particular visitor. 
+* The user ID is required to identify and associate data with a particular visitor.
 * The region ID is required because it is tied to a regional server name, which you need to send data to the [!UICONTROL DCS]. The [!UICONTROL DCS] stores information in data centers that are geographically closest to site visitors. See [DCS Region IDs, Locations, and Host Names](../../../c-api/dcs-intro/dcs-api-reference/dcs-regions.md#concept_01C1E017A6694D1EAF9BF65BFFA54091).
 
 These parameters are described below. Code in *italics* represents a variable placeholder.
@@ -47,7 +47,7 @@ These parameters are described below. Code in *italics* represents a variable pl
 
 ## Sample Response {#section_0D29A02C954C407596E75DD8174E5705}
 
-This simple response shows the UUID and region ID. Note, this is sample data only. Your log files may be longer and more complex.
+This simple response shows the `UUID` and region `ID`. Note, this is sample data only. Your log files may be longer and more complex.
 
 ```js
 {

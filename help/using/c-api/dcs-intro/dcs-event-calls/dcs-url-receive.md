@@ -10,13 +10,13 @@ internal: n
 snippet: y
 ---
 
-# Receive Data From the DCS{#receive-data-from-the-dcs}
+# Receive Data From the [!UICONTROL DCS] {#receive-data-from-the-dcs}
 
-Continue here for information about how to request a DCS response in a /event call. This section includes a response example and definitions for common data elements in a response.
+Continue here for information about how to request a [!UICONTROL DCS] response in a `/event` call. This section includes a response example and definitions for common data elements in a response.
 
 Before reviewing this content, see [Send Data to the DCS](../../../c-api/dcs-intro/dcs-event-calls/dcs-url-send.md#concept_9F6C569C1E444002ADF2A43516A9F284).
 
-## DCS Response Parameters: A Review {#section_8D64FBDE90CC4B6582D3E45759392DE9}
+## [!UICONTROL DCS] Response Parameters: A Review {#section_8D64FBDE90CC4B6582D3E45759392DE9}
 
 Your [!UICONTROL DCS] request must include `d_rtbd=json` if you want to receive a response from the [!UICONTROL DCS]. The [!UICONTROL DCS] will not return data if you omit this parameter. A basic call to the [!UICONTROL DCS] to request data uses this syntax:
 

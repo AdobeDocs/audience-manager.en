@@ -10,9 +10,9 @@ internal: n
 snippet: y
 ---
 
-# Formatting Key-Value Pairs in DCS Calls{#formatting-key-value-pairs-in-dcs-calls}
+# Formatting Key-Value Pairs in [!UICONTROL DCS] Calls {#formatting-key-value-pairs-in-dcs-calls}
 
-When making a call, the DCS accepts key-value data in standard or serialized format. Review this section for information about how to format standard and serialized key-value data.
+When making a call, the [!UICONTROL DCS] accepts key-value data in standard or serialized format. Review this section for information about how to format standard and serialized key-value data.
 
 ## Standard and Serialized Key-Value Pairs {#section_ED54A051F8CD43798C50CAFA438D6B51}
 

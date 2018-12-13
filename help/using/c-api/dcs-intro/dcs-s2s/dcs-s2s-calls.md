@@ -8,7 +8,7 @@ internal: n
 snippet: y
 ---
 
-# Making Server-to-Server DCS API Calls{#making-server-to-server-dcs-api-calls}
+# Making [!UICONTROL Server-to-Server] [!UICONTROL DCS] API Calls{#making-server-to-server-dcs-api-calls}
 
 >[!NOTE]
 >
@@ -18,7 +18,7 @@ snippet: y
 
 A basic server-to-server request that sends data to the [!UICONTROL DCS] uses the syntax shown below.
 
-`"Host: *`domain alias`*.demdex.net" "https:// *`DCS host name`*.demdex.net/event?d_rtbd=json&d_jsonv=1& d_uuid= *`user ID`*`
+`"Host:`*domain alias*`.demdex.net" "https://`*DCS host name*`.demdex.net/event?d_rtbd=json&d_jsonv=1& d_uuid= `*user ID*.
 
 A sample call looks similar to the following example.
 

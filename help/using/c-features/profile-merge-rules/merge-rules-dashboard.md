@@ -10,7 +10,7 @@ internal: n
 snippet: y
 ---
 
-# Profile Merge Rules Dashboard {#profile-merge-rules-dashboard}
+# [!UICONTROL Profile Merge Rules] Dashboard {#profile-merge-rules-dashboard}
 
 Create and manage all your merge rules from the dashboard. You can create a maximum of 3 Profile Merge Rules.
 

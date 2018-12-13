@@ -10,41 +10,33 @@ internal: n
 snippet: y
 ---
 
-# Trait Type Methods{#trait-type-methods}
-
-Optional methods that let you to assign traits to a user-defined type or category, usually according to function or for your own internal reporting processes.
-
-## Trait Type Methods {#concept_57A49363C0074BA9A93B2FB7AD41C80B}
+# Trait Type Methods {#trait-type-methods}
 
 Optional methods that let you to assign traits to a user-defined type or category, usually according to function or for your own internal reporting processes.
 
 <!-- 
-
 c_rest_api_trait_types_intro.xml
-
- -->
+-->
 
 >[!NOTE]
 >
->Trait type methods do not assign traits to categories used by the [common taxonomy](../../c-api/c-rest-api-main/aam-api-taxonomy.md#concept_A3A8F6F90394453AB0D16F692479D45B). Think of these as labels that are separate from the common taxonomy.
+>Trait type methods do not assign traits to categories used by the [common taxonomy](../../c-api/c-rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods). Think of these as labels that are separate from the common taxonomy.
 
-For visual reference, [!UICONTROL Trait Types] is a dropdown control located in the UI under **[!UICONTROL Traits > Create new trait > Basic Information]**. 
+For visual reference, [!UICONTROL Trait Types] is a dropdown control located in the UI under **[!UICONTROL Traits > Create new trait > Basic Information]**.
 
 ## Create a New Trait Type {#reference_ADC6A3D2B2E146E88906003FC05FDEF6}
 
 A `POST` method that lets you create a new trait type.
 
 <!-- 
-
 r_rest_api_create_trait_type.xml
+-->
 
- -->
-
-**Request**
+### Request
 
 `POST https://api.demdex.com/v1/customer-trait-types`
 
-**Sample Request** 
+### Sample Request
 
 ```
 {
@@ -52,7 +44,7 @@ r_rest_api_create_trait_type.xml
 }
 ```
 
-**Sample Response** 
+### Response
 
 ```
 {
@@ -72,16 +64,14 @@ r_rest_api_create_trait_type.xml
 A `GET` method that returns details about the specified trait type.
 
 <!-- 
-
 r_rest_api_get_trait_type.xml
+-->
 
- -->
-
-**Request**
+### Request
 
 `GET https://api.demdex.com/v1/customer-trait-types/ *<customerTraitTypeId>*`
 
-**Sample Response** 
+### Response 
 
 ```
 {
@@ -106,11 +96,11 @@ r_rest_api_get_trait_types.xml
 
  -->
 
-**Request**
+### Request
 
 `GET https://api.demdex.com/v1/customer-trait-types/`
 
-**Sample Response** 
+### Response 
 
 ```
 [
@@ -146,4 +136,3 @@ r_rest_api_get_trait_types.xml
     }
 ]
 ```
-

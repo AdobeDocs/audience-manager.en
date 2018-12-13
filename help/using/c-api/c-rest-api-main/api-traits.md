@@ -10,7 +10,7 @@ internal: n
 snippet: y
 ---
 
-# Trait API Methods{#trait-api-methods}
+# Trait API Methods {#trait-api-methods}
 
 Methods that let you work programmatically with traits.
 
@@ -20,4 +20,3 @@ Methods that let you work programmatically with traits.
 >* [Adobe Audience Manager API Docs `Swaggerized REST API docs.`](https://bank.demdex.com/portal/swagger/index.html)
 >* [Audience Manager API Code Migration](../../c-api/api-swagger-migration.md#concept_99C4AEF678E94AFE9B29F9B663200BAD)
 >
-

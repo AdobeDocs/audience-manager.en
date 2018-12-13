@@ -10,11 +10,11 @@ internal: n
 snippet: y
 ---
 
-# DCS Region API Methods{#dcs-region-api-methods}
+# [!UICONTROL DCS] Region API Methods {#dcs-region-api-methods}
 
-Methods that let you programmatically list Audience Manager DCS regions.
+Methods that let you programmatically list Audience Manager [!UICONTROL DCS] regions.
 
-## <wintitle> DCS </wintitle> Region API Methods {#concept_C1EF1A07C73D489FAD2AECA39B113DC6}
+## [!UICONTROL DCS] Region API Methods {#concept_C1EF1A07C73D489FAD2AECA39B113DC6}
 
 Methods that let you programmatically list Audience Manager [!UICONTROL DCS] regions.
 
@@ -26,7 +26,7 @@ c_rest_api_regions.xml
 
 For a list of regions and their corresponding integers, see [DCS Region IDs, Locations, and Host Names](../../c-api/dcs-intro/dcs-api-reference/dcs-regions.md#concept_01C1E017A6694D1EAF9BF65BFFA54091). 
 
-## List a Specific <wintitle> DCS </wintitle> Region {#reference_8FCE1F7F285E4EEC94EB37954E146F7B}
+## List a Specific [!UICONTROL DCS] Region {#reference_8FCE1F7F285E4EEC94EB37954E146F7B}
 
 A `GET` method to list a specific [!UICONTROL DCS] region.
 
@@ -36,11 +36,11 @@ r_rest_api_regions_list_specific.xml
 
  -->
 
-**Request**
+### Request
 
 `GET /v1/dcs-regions/<id>`
 
-**Sample Response**
+### Sample Response
 
 ```
 { 
@@ -60,7 +60,7 @@ Returns `200 OK` if successful.
 
 For a list of regions and their corresponding integers, see [DCS Region IDs, Locations, and Host Names](../../c-api/dcs-intro/dcs-api-reference/dcs-regions.md#concept_01C1E017A6694D1EAF9BF65BFFA54091). 
 
-## List <wintitle> DCS </wintitle> Regions {#reference_D9532CB364824BCFABE58F39EA6928F6}
+## List [!UICONTROL DCS] Regions {#reference_D9532CB364824BCFABE58F39EA6928F6}
 
 A `GET` method to list [!UICONTROL DCS] regions.
 
@@ -70,11 +70,11 @@ r_rest_api_regions_list.xml
 
  -->
 
-**Request**
+### Request
 
 `GET /v1/dcs-regions/`
 
-**Sample Response**
+### Sample Response
 
 ```
 [

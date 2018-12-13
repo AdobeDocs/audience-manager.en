@@ -10,35 +10,27 @@ internal: n
 snippet: y
 ---
 
-# User Management API Methods{#user-management-api-methods}
+# User Management API Methods {#user-management-api-methods}
 
 Rest API methods to manage users, including creating, updating, listing, deleting, and returning user objects.
 
-## User Management API Methods {#concept_0F264139AB49413EAF8ECBE437933EF5}
-
-Rest API methods to manage users, including creating, updating, listing, deleting, and returning user objects.
-
-<!-- 
-
+<!--
 c_rest_api_user_man_user.xml
-
- -->
+-->
 
 ## Create a User {#reference_791EAD47150C4112AAC3D687E91666CF}
 
 A `POST` method to create a new user.
 
-<!-- 
-
+<!--
 r_rest_api_user_create.xml
+-->
 
- -->
-
-**Request**
+### Request
 
 `POST /api/v1/users/`
 
-**Sample Request Body**
+### Sample Request Body
 
 ```
 { 
@@ -54,7 +46,7 @@ r_rest_api_user_create.xml
 }
 ```
 
-**Sample Response**
+### Response
 
 ```
 { 
@@ -73,9 +65,9 @@ r_rest_api_user_create.xml
 }
 ```
 
-If isAdmin is set to true, the user is created as a partner admin. This property also lets you know whether a user is a partner admin.
+If `isAdmin` is set to true, the user is created as a partner admin. This property also lets you know whether a user is a partner admin.
 
-Returns `409 Conflict` if the username is already taken. 
+Returns `409 Conflict` if the username is already taken.
 
 ## Update a User {#reference_48437AAB1C224812BB506C79201A0CE2}
 
@@ -87,11 +79,11 @@ r_rest_api_user_update.xml
 
  -->
 
-**Request**
+### Request
 
 `PUT /api/v1/users/<userId>`
 
-**Sample Request Body**
+### Sample Request Body
 
 ```
 { 
@@ -106,7 +98,7 @@ r_rest_api_user_update.xml
 }
 ```
 
-**Sample Response**
+### Response
 
 ```
 { 
@@ -128,21 +120,19 @@ Returns `409 Conflict` if the username is already taken.
 
 A `PUT` method to update the currently logged-in user.
 
-<!-- 
-
+<!--
 r_rest_api_user_update_self.xml
-
- -->
+-->
 
 >[!NOTE]
 >
 >Whereas most API methods are only callable by partner admins, this method is callable by non-admin users.
 
-**Request**
+### Request
 
 `PUT /self/update`
 
-**Sample Request Body**
+### Sample Request Body
 
 ```
 {  
@@ -155,7 +145,7 @@ r_rest_api_user_update_self.xml
 }
 ```
 
-**Sample Response**
+### Response
 
 ```
 { 
@@ -175,63 +165,57 @@ Returns `409 Conflict` if the username is already taken.
 
 A `PUT` method to update the currently logged-in user.
 
-<!-- 
-
+<!--
 r_rest_api_user_password.xml
-
- -->
+-->
 
 >[!NOTE]
 >
 >Whereas most API methods are only callable by partner admins, this method is callable by non-admin users.
 
-**Request**
+### Request
 
 `POST /users/self/update-password`
 
-**Sample Request Body**
+### Sample Request Body
 
 ```
 { "oldPassword" : "old password", "newPassword" : "new password" }
 ```
 
-Returns `200 OK` if successful. Returns `400 Bad Request` if something is wrong with either password. 
+Returns `200 OK` if successful. Returns `400 Bad Request` if something is wrong with either password.
 
 ## Reset Logged-In User Password {#reference_B8B26AC89832485D95509DAFB9F84C12}
 
 A `PUT` method to reset the currently logged-in user. Audience Management sends the user a system-generated password.
 
-<!-- 
-
+<!--
 r_rest_api_user_password_reset.xml
-
- -->
+-->
 
 >[!NOTE]
 >
 >Whereas most API methods are only callable by partner admins, this method is callable by non-admin users.
 
-**Request**
+### Request
 
 `POST /self/reset-password`
 
-Returns `200 OK` if successful. 
+Returns `200 OK` if successful.
 
 ## Return User Object for a User ID {#reference_A88F770E70CE450BB861A48A422D5F83}
 
 A `Get` method to return the user object for a User ID.
 
-<!-- 
-
+<!--
 r_rest_api_user_get_user_obj.xml
+-->
 
- -->
-
-**Request**
+### Request
 
 `GET /api/v1/users/<userId>`
 
-**Sample Response**
+### Response
 
 ```
 { 
@@ -263,11 +247,11 @@ r_rest_api_user_get_self.xml
 >
 >Whereas most API methods are only callable by partner admins, this method is callable by non-admin users.
 
-**Request**
+### Request
 
 `GET /api/v1/users/self`
 
-**Sample Response**
+### Response
 
 ```
 { 
@@ -295,7 +279,7 @@ r_rest_api_user_list.xml
 
  -->
 
-**Request**
+### Request
 
 `GET /api/v1/users/`
 
@@ -305,7 +289,7 @@ You can specify multiple group IDs in the query parameters:
 
 This query returns a list of all users in the specified groups.
 
-**Sample Response**
+### Response
 
 ```
 { 
@@ -333,7 +317,7 @@ r_rest_api_user_delete.xml
 
  -->
 
-**Request**
+### Request
 
 `DELETE /api/v1/users/<user_id>`
 
@@ -344,18 +328,15 @@ Returns `204 No Content` if successful. In case of conflict returns `409 Conflic
 A `POST` method to delete multiple users in bulk.
 
 <!-- 
-
 r_rest_api_user_delete_bulk.xml
+-->
 
- -->
-
-**Request**
+### Request
 
 `POST /api/v1/users/bulk-delete`
 
-**Sample Request Body**
+### Sample Request Body
 
 ```
 {[<user_id_1>, <user_id_2>, ...]}
 ```
-

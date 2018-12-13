@@ -10,29 +10,23 @@ internal: n
 snippet: y
 ---
 
-# Return A Destination by Destination ID{#return-a-destination-by-destination-id}
-
-A GET method that returns the destination for the specified destinationId.
-
-## Return A Destination by Destination ID {#reference_B2E7C36DF636497893E5493680771AA1}
+# Return A Destination by Destination ID {#return-a-destination-by-destination-id}
 
 A `GET` method that returns the destination for the specified `destinationId`.
 
-<!-- 
-
+<!--
 r_get_all_destinations_order_id.xml
+-->
 
- -->
+### Request
 
-**Request**
-
-`GET https://api.demdex.com/v1/destinations/<destinationId>` 
+`GET https://api.demdex.com/v1/destinations/<destinationId>`
 
 >[!NOTE]
 >
 >To populate the `mappings` field pass in `includeMappings=true` in the URL.
 
-**Sample Response** 
+### Response
 
 ```
 {
@@ -64,24 +58,21 @@ r_get_all_destinations_order_id.xml
 
 A `GET` method that returns all destinations for the specified partner.
 
-<!-- 
-
+<!--
 r_get_all_destinations.xml
+-->
 
- -->
-
-**Request**
+### Request
 
 `GET https://api.demdex.com/v1/destinations` 
 
 >[!NOTE]
 >
->* *(Optional)* Pass in `containsSegment= *<sid>*` to return an array of all destinations mapped to the specified segment. For example, your query could look similar to this: `GET .../destinations/?containsSegment=4321`. 
+>* *(Optional)* Pass in `containsSegment=<sid>` to return an array of all destinations mapped to the specified segment. For example, your query could look similar to this: `GET .../destinations/?containsSegment=4321`. 
 >
->* Does not return the full destination object. Get the destination by data order if you need fully populated object. 
->
+>* Does not return the full destination object. Get the destination by data order if you need fully populated object.
 
-**Optional Query Parameters**
+### Optional Query Parameters
 
 You can use these optional parameters with API methods that return *all* properties for an object. Set these options in the request string when passing that query in to the API. See [Optional Parameters](../../../c-api/c-rest-api-main/aam-api-getting-started.md#concept_BB1E73AE736F4F54830E6CAF28089608).  
 
@@ -116,7 +107,7 @@ You can use these optional parameters with API methods that return *all* propert
  </tbody> 
 </table>
 
-**Sample Response** 
+### Response 
 
 ```
 [
@@ -153,16 +144,14 @@ You can use these optional parameters with API methods that return *all* propert
 A `GET` method that returns an individual destination mapping based on the `mappingId`.
 
 <!-- 
-
 r_get_destination_trait_data_order.xml
+-->
 
- -->
+### Request
 
-**Request**
+`GET https://api.demdex.com/v1/destinations/<destinationId>/mappings/ <destinationMappingId>`
 
-`GET https://api.demdex.com/v1/destinations/ *<destinationId>*/mappings/ *<destinationMappingId>*`
-
-**Sample Response** 
+### Response
 
 ```
 {
@@ -193,25 +182,23 @@ r_get_destination_trait_data_order.xml
 
 A `GET` method that returns the mappings for a destination.
 
-<!-- 
-
+<!--
 r_get_destination_mappings.xml
-
- -->
+-->
 
 >[!NOTE]
 >
 >The returned mapping is specific to the destination type and configuration.
 
-**Request**
+### Request
 
-`GET https://api.demdex.com/v1/destinations/ *<destinationId>*/mappings` 
+`GET https://api.demdex.com/v1/destinations/ *<destinationId>*/mappings`
 
 >[!NOTE]
 >
 >Supports paging parameters.
 
-**Sample Response** 
+### Response
 
 ```
 {
@@ -272,16 +259,14 @@ r_get_destination_mappings.xml
 A `GET` method that returns all available device platforms for destinations.
 
 <!-- 
-
 r_get_dest_platforms.xml
+-->
 
- -->
-
-**Request**
+### Request
 
 `GET /destinations/configurations/available-platforms/`
 
-**Sample Response**
+### Response
 
 ```
 [
@@ -289,23 +274,21 @@ BROWSER, ANDROID, iOS, ALL
 ]
 ```
 
-## Return <wintitle> S2S </wintitle> and Bulk <wintitle> S2S Destination </wintitle> Job History {#reference_DAAAAE296B1248CAA347D9344EB182F2}
+## Return [!UICONTROL S2S] and Bulk [!UICONTROL S2S] Destination Job History {#reference_DAAAAE296B1248CAA347D9344EB182F2}
 
 A `GET` method that returns outbound [!UICONTROL Server-to-Server] ( [!UICONTROL S2S]) and bulk [!UICONTROL S2S] destination job history information.
 
-<!-- 
-
+<!--
 r_get_job_history.xml
+-->
 
- -->
-
-**Request**
+### Request
 
 `GET https://api.demdex.com/v1/destinations/655/history/outbound?startDate=1000000000&endDate=1403034473000`
 
-Required query parameters: `startDate`=< *`epochtime`*> and *`endDate`*=< [!UICONTROL epochtime]>.
+Required query parameters: `startDate` =< *`epochtime`*> and *`endDate`* =< [!UICONTROL epochtime]>.
 
-**Sample Response**
+### Response
 
 ```
 [
@@ -353,4 +336,3 @@ Required query parameters: `startDate`=< *`epochtime`*> and *`endDate`*=< [!UICO
    }
 ]
 ```
-

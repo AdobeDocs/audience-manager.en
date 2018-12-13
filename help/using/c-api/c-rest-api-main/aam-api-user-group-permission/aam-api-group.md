@@ -10,35 +10,27 @@ internal: n
 snippet: y
 ---
 
-# Group Management API Methods{#group-management-api-methods}
+# Group Management API Methods {#group-management-api-methods}
 
 Rest API methods to manage groups, including creating, updating, listing, deleting groups.
 
-## Group Management API Methods {#concept_A825981027924A589F1C6C12FEFEFCC1}
-
-Rest API methods to manage groups, including creating, updating, listing, deleting groups.
-
-<!-- 
-
+<!--
 c_rest_api_user_man_group.xml
-
- -->
+-->
 
 ## Create a Group {#reference_1CEABC94762F451CBE7ADE64F11A0D87}
 
 A `POST` method to create a new user group.
 
 <!-- 
-
 r_rest_api_group_create.xml
+-->
 
- -->
-
-**Request**
+### Request
 
 `POST /api/v1/groups/`
 
-**Sample Request Body**
+### Sample Request Body
 
 ```
  {
@@ -47,7 +39,7 @@ r_rest_api_group_create.xml
  }
 ```
 
-**Sample Response**
+### Response
 
 ```
   {
@@ -71,11 +63,11 @@ r_rest_api_group_update.xml
 
  -->
 
-**Request**
+### Request
 
 `PUT /api/v1/groups/<groupId>`
 
-**Sample Request Body**
+### Sample Request Body
 
 ```
  {
@@ -84,7 +76,7 @@ r_rest_api_group_update.xml
  }
 ```
 
-**Sample Response**
+### Response
 
 ```
   {
@@ -108,11 +100,11 @@ r_rest_api_group_list.xml
 
  -->
 
-**Request**
+### Request
 
 `GET /api/v1/groups/`
 
-**Sample Response**
+### Response
 
 ```
 [
@@ -138,7 +130,7 @@ r_rest_api_group_delete.xml
 
  -->
 
-**Request**
+### Request
 
 `DELETE /api/v1/groups/<groupId>`
 
@@ -154,11 +146,11 @@ r_rest_api_group_delete_bulk.xml
 
  -->
 
-**Request**
+### Request
 
 `DELETE /api/v1/groups/bulk-delete`
 
-Returns `204 No Content` if successful. In case of conflict returns `409 Conflict`. 
+Returns `204 No Content` if successful. In case of conflict returns `409 Conflict`.
 
 ## List All Permissions for a Group {#reference_9696B6B2AB3F457895FE4B50EBC5BE28}
 
@@ -170,11 +162,11 @@ r_rest_api_perm_list_group.xml
 
  -->
 
-**Request**
+### Request
 
 `GET /api/v1/groups/{groupId}/permissions`
 
-**Sample Response**
+### Response
 
 ```
 [{
@@ -208,11 +200,11 @@ r_rest_api_perm_set.xml
 
  -->
 
-**Request**
+### Request
 
 `PUT /api/v1/groups/{groupId}/permissions/`
 
-**Sample Response**
+### Response
 
 ```
 [ 
@@ -237,4 +229,4 @@ r_rest_api_perm_set.xml
 
 The sample response represents the updated list of permission objects.
 
-Returns `200 OK` if successful. Returns `400` if any given permission is invalid. Can also return `403` if the object is not accessible by the logged-in user. 
+Returns `200 OK` if successful. Returns `400` if any given permission is invalid. Can also return `403` if the object is not accessible by the logged-in user.

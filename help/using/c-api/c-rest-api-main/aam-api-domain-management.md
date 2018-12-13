@@ -10,7 +10,7 @@ internal: n
 snippet: y
 ---
 
-# Domain Management API Methods{#domain-management-api-methods}
+# Domain Management API Methods {#domain-management-api-methods}
 
 Domain management methods that let you create and manage the domains to which you want to send data (for cookie destinations only).
 
@@ -28,17 +28,15 @@ c_partner_site.xml
 
 A `POST` method that lets you create a new domain for (cookie destinations only).
 
-<!-- 
-
+<!--
 r_post_new_partner_site.xml
+-->
 
- -->
-
-**Request**
+### Request
 
 `POST` `https://api.demdex.com/v1/partner-sites/`
 
-**Sample Request** 
+### Sample Request
 
 ```
 {
@@ -46,7 +44,9 @@ r_post_new_partner_site.xml
 }
 ```
 
-**Sample Response** A successful response returns `201 created` and the partner site, including its unique ID. 
+### Response
+
+A successful response returns `201 created` and the partner site, including its unique ID.
 
 ```
 {
@@ -66,15 +66,17 @@ r_delete_partner_site.xml
 
  -->
 
-**Request**
+### Request
 
 `DELETE` `https://api.demdex.com/v1/partner-sites/<site-Id>`
 
-**Sample Response** A successful response returns `204 no content`. Returns `404 not found` if the partner site cannot be found. 
+### Response
+
+A successful response returns `204 no content`. Returns `404 not found` if the partner site cannot be found.
 
 ## Return Properties for a Domain {#reference_6B9BD9A4B15040429F3F9AE0BC6787FE}
 
-A GET method that returns details about the specified domain (for cookie destinations only).
+A `GET` method that returns details about the specified domain (for cookie destinations only).
 
 <!-- 
 
@@ -82,11 +84,11 @@ r_get_partner_site.xml
 
  -->
 
-**Request**
+### Request
 
 `GET` `https://api.demdex.com/v1/partner-sites/<siteId>`
 
-**Sample Response**
+### Response
 
 A successful response returns `200 OK` and data as shown in the sample below. Returns `404 Not found` if the site ID or partner is not found. 
 
@@ -108,11 +110,11 @@ r_get_partner_sites.xml
 
  -->
 
-**Request**
+### Request
 
 `GET` `https://api.demdex.com/v1/partner-sites/`
 
-**Optional Query Parameters**
+### Optional Query Parameters
 
 You can use these optional parameters with API methods that return *all* properties for an object. Set these options in the request string when passing that query in to the API. See [Optional Parameters](../../c-api/c-rest-api-main/aam-api-getting-started.md#concept_BB1E73AE736F4F54830E6CAF28089608).  
 
@@ -147,9 +149,9 @@ You can use these optional parameters with API methods that return *all* propert
  </tbody> 
 </table>
 
-**Sample Response**
+### Response
 
-A successful response returns `200 OK` and data in an array as shown in the sample below. Returns `404 Not found` if the site ID or partner is not found. 
+A successful response returns `200 OK` and data in an array as shown in the sample below. Returns `404 Not found` if the site ID or partner is not found.
 
 ```
 [
@@ -171,4 +173,3 @@ A successful response returns `200 OK` and data in an array as shown in the samp
 ]
 
 ```
-

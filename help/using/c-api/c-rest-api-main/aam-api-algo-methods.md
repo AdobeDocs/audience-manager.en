@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# Algorithmic API Methods{#algorithmic-api-methods}
+# Algorithmic API Methods {#algorithmic-api-methods}
 
 Methods that let you work programmatically with algorithmic modeling features.
 
@@ -19,11 +19,9 @@ Methods that let you work programmatically with algorithmic modeling features.
 
 Methods that let you work programmatically with algorithmic modeling features.
 
-<!-- 
-
+<!--
 c_algo_models.xml
-
- -->
+-->
 
 >[!MORE_LIKE_THIS]
 >
@@ -33,17 +31,15 @@ c_algo_models.xml
 
 A `POST` method that lets you create a new algorithmic model.
 
-<!-- 
-
+<!--
 r_create_new_model.xml
+-->
 
- -->
-
-**Request**
+### Request
 
 `POST https://api.demdex.com/v1/models/`
 
-**Request Parameters**
+### Request Parameters
 
 <table id="table_B333D90E22144BD0B83A65C8129444AF"> 
  <thead> 
@@ -97,7 +93,7 @@ r_create_new_model.xml
  </tbody> 
 </table>
 
-**Sample Request**
+### Sample Request
 
 ```
 { 
@@ -112,7 +108,7 @@ r_create_new_model.xml
 }
 ```
 
-**Sample Response**
+### Sample Response
 
 ```
 { 
@@ -152,11 +148,11 @@ r_update_model.xml
 
  -->
 
-**Request**
+### Request
 
 ` PUT https://api.demdex.com/v1/models/ *<model-id>*/`
 
-**Sample Request**
+### Sample Request
 
 All request values are required unless otherwise indicated. Model status settings include `active` and `inactive` only. 
 
@@ -172,7 +168,7 @@ All request values are required unless otherwise indicated. Model status setting
 }
 ```
 
-**Sample Response** 
+### Sample Response
 
 ```
 { 
@@ -207,11 +203,11 @@ r_delete_model.xml
 
  -->
 
-**Request**
+### Request
 
 ` DELETE https://api.demdex.com/v1/models/ *<model-id>*`
 
-**Sample Response**
+### Sample Response
 
 Returns response code `204 No Content` if successful. Returns `400 Bad Request` if there are any active traits created with this model and returns those trait IDs in an array. Remove traits from the model (or delete them) before you delete a model. 
 
@@ -225,13 +221,13 @@ r_rest_api_bulk_delete_models.xml
 
  -->
 
-**Request**
+### Request
 
 `POST https://api.demdex.com/v1/models/bulk-delete/`
 
-**Sample Request**
+### Sample Request
 
-In the request body, pass in a JSON array that includes the model IDs you want to delete. 
+In the request body, pass in a JSON array that includes the model IDs you want to delete.
 
 ```
 [ 
@@ -240,9 +236,9 @@ In the request body, pass in a JSON array that includes the model IDs you want t
 ]
 ```
 
-**Sample Response**
+### Sample Response
 
-Returns `204 No Content`. 
+Returns `204 No Content`.
 
 ## Return Properties for an Algorithm {#reference_6F3A6281F0224E4C879678B54155362E}
 
@@ -254,21 +250,21 @@ r_get_algorithm.xml
 
  -->
 
-**Request**
+### Request
 
 `GET https://api.demdex.com/v1/algorithms/`
 
-**Sample Response**
+### Sample Response
 
-A successful response returns response code `200 OK` and the list of algorithm IDs, name, and a brief description. 
+A successful response returns response code `200 OK` and the list of algorithm IDs, name, and a brief description.
 
 ```
-[ 
-{ 
-  "algoTypeId": 1, 
-  "name": "Trait Weight", 
-  "description": "Trait Weight" 
-} 
+[
+{
+  "algoTypeId": 1,
+  "name": "Trait Weight",
+  "description": "Trait Weight"
+}
 ]
 ```
 
@@ -282,11 +278,11 @@ r_get_algorithm_by_id.xml
 
  -->
 
-**Request**
+### Request
 
 ` GET https://api.demdex.com/v1/algorithms/ *<algotype-id>*/`
 
-**Sample Response**
+### Sample Response
 
 A successful response returns response code `200 OK` and the algorithm ID, name, and a brief description. 
 
@@ -308,11 +304,11 @@ r_get_all_models.xml
 
  -->
 
-**Request**
+### Request
 
 `GET https://api.demdex.com/v1/models/`
 
-**Optional Query Parameters**
+### Optional Query Parameters
 
 You can use these optional parameters with API methods that return *all* properties for an object. Set these options in the request string when passing that query in to the API. See [Optional Parameters](../../c-api/c-rest-api-main/aam-api-getting-started.md#concept_BB1E73AE736F4F54830E6CAF28089608).  
 
@@ -347,13 +343,13 @@ You can use these optional parameters with API methods that return *all* propert
  </tbody> 
 </table>
 
-**Sample Request**
+### Sample Request
 
 ```
 GET https://api.demdex.com/v1/models/?page=1&pageSize=2&search=Test
 ```
 
-**Sample Response** 
+### Sample Response
 
 ```
 ["total": 43, 
@@ -413,11 +409,11 @@ r_get_models_id.xml
 
  -->
 
-**Request**
+### Request
 
 ` GET https://api.demdex.com/v1/models/ *<model-id>*`
 
-**Sample Response**
+### Sample Response
 
 A successful request returns details for the model. An unsuccessful request throws an exception and related [error code](../../c-api/c-rest-api-main/aam-api-getting-started.md#reference_2AC89154A26E49A48E0DDD8DA520757F). 
 
@@ -457,11 +453,11 @@ r_get_traits_by_accuracy.xml
 
  -->
 
-**Request**
+### Request
 
 ` GET https://api.demdex.com/v1/models/ *<model-id>*/runs/latest/traits/`
 
-**Optional Query Parameters**
+### Optional Query Parameters
 
 You can use these optional parameters with API methods that return *all* properties for an object. Set these options in the request string when passing that query in to the API. See also [Optional Parameters](../../c-api/c-rest-api-main/aam-api-getting-started.md#concept_BB1E73AE736F4F54830E6CAF28089608).  
 
@@ -500,7 +496,7 @@ You can use these optional parameters with API methods that return *all* propert
  </tbody> 
 </table>
 
-**Sample Response** 
+### Sample Response
 
 ```
 { 
@@ -576,11 +572,11 @@ r_get_accuracy_reach.xml
 
  -->
 
-**Request**
+### Request
 
 ` GET https://api.demdex.com/v1/models/ *<model-id>*/runs/latest/stats`/
 
-**Sample Response** 
+### Sample Response
 
 ```
 [ 
@@ -613,13 +609,13 @@ r_return_model_timestamp.xml
 
  -->
 
-**Request** ` GET https://api.demdex.com/v1/models/ *<model-id>*/processing-history/`
+### Request
+` GET https://api.demdex.com/v1/models/ *<model-id>*/processing-history/`
 
-**Sample Response** 
+### Sample Response
 
 ```
 [ 
    102032939, 1223030409, 1346236373 
 ]
 ```
-

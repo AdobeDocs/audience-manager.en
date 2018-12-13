@@ -19,7 +19,7 @@ Recommendations and use cases for segment retargeting and personalized segment q
 Consider the [!UICONTROL Profile Link] device graph for campaigns that:
 
 * Have a high-level of authentication across their digital properties. Use an [external device graph option](../../c-features/profile-merge-rules/merge-rule-definitions.md#section_E83D68EC2ADA4030B1D0206AE6A6E8BF) if you have a small amount of authenticated users.
-* Require accurate targeting of known audiences. The [!UICONTROL Profile Link device graph] is built using first-party, authenticated data. 
+* Require accurate targeting of known audiences. The [!UICONTROL Profile Link device graph] is built using first-party, authenticated data.
 * Target known audiences across their authenticated and unauthenticated states in real-time.
 
 ![](assets/merge-rule-triangle2.png)
@@ -28,7 +28,7 @@ Consider the [!UICONTROL Profile Link] device graph for campaigns that:
 
 Retarget audiences which have previously authenticated on-site and/or in-app across multiple devices. Segments can be composed of the following profiles:
 
-* Last known authenticated device profile. 
+* Last known authenticated device profile.
 * Anonymous activity across each device profile.
 
 >[!NOTE]
@@ -83,7 +83,7 @@ To set up retargeting with [!UICONTROL Profile Link], your [!UICONTROL Authentic
 
 Personalize the experience for authenticated audiences on-site and/or in-app based on activity across multiple devices. Segments can be composed of the following profiles:
 
-* Currently authenticated device profile. 
+* Currently authenticated device profile.
 * Anonymous device profiles.
 
 >[!NOTE]

@@ -10,35 +10,31 @@ internal: n
 snippet: y
 ---
 
-# Data Integration Library API Methods{#data-integration-library-api-methods}
+# Data Integration Library API Methods {#data-integration-library-api-methods}
 
-Methods that let you work programmatically with the Data Integration Library (DIL).
+Methods that let you work programmatically with the [!UICONTROL Data Integration Library (DIL)].
 
 ## Data Integration Library API Methods {#concept_7E58F1CAD0D6464280D6181256B5FF41}
 
 Methods that let you work programmatically with the [!UICONTROL Data Integration Library] ( [!UICONTROL DIL]).
 
-<!-- 
-
+<!--
 c_data_integr_library_api.xml
+-->
 
- -->
-
-## Return Versions for <wintitle> DIL </wintitle> {#reference_114BABEDE84B47D393BB3C3E05613468}
+## Return Versions for [!UICONTROL DIL] {#reference_114BABEDE84B47D393BB3C3E05613468}
 
 A `GET` method that returns a list of versions ordered from oldest to newest.
 
-<!-- 
-
+<!--
 r_api_return_versions_dil.xml
+-->
 
- -->
-
-**Request**
+### Request
 
 `GET https://api.demdex.com/v1/dil/`
 
-**Sample Response**
+### Response
 
 A successful request returns response code `["4.0", "4.1"]` as shown below.
 
@@ -56,11 +52,11 @@ r_api_return_json_schema_for_version.xml
 
  -->
 
-**Request**
+### Request
 
 `GET https://api.demdex.com/v1/dil/<version>`
 
-**Sample Response**
+### Response
 
 A successful request returns response code `["4.0", "4.1"]` and data as shown below.
 
@@ -387,7 +383,7 @@ A successful request returns response code `["4.0", "4.1"]` and data as shown be
 
 ```
 
-## Generate <wintitle> DIL </wintitle> {#reference_E7EE4AA367D44E06A71C67CF025CD88B}
+## Generate [!UICONTROL DIL] {#reference_E7EE4AA367D44E06A71C67CF025CD88B}
 
 A `GET` method that generates [!UICONTROL DIL] based on passed in request body using the specified version of [!UICONTROL DIL]. If the alias LATEST is used for version in the URL, the latest version of [!UICONTROL DIL] is generated.
 
@@ -397,11 +393,11 @@ r_api_generate_dil.xml
 
  -->
 
-**Request**
+### Request
 
 `POST https://api.demdex.com/v1/dil/<version>/generate`
 
-**Sample Request**
+### Sample Request
 
 ```
 { 
@@ -476,6 +472,6 @@ r_api_generate_dil.xml
 
 ```
 
-**Sample Response**
+### Response
 
-A successful update returns response code `201 created` along with the [!UICONTROL DIL] JavaScript code. 
+A successful update returns response code `201 created` along with the [!UICONTROL DIL] JavaScript code.

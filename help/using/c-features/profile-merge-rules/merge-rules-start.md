@@ -22,11 +22,9 @@ merge-rules-start.xml
 
 To create a cross-device data source, go to **[!UICONTROL Audience Data > Data Sources > Add New]** and complete the steps for each section described here. Administrator permissions are required to create or edit a cross-device data source.
 
-<!-- 
-
+<!--
 create-cross-device-datasource.xml
-
- -->
+-->
 
 >[!TIP]
 >
@@ -36,12 +34,11 @@ create-cross-device-datasource.xml
 
 To complete the Data Source Details section:
 
-1. Name the data source. 
-2. *(Optional)* Describe the data source. A concise description helps you define the role or purpose of the data source. 
-3. Provide an integration code. An integration code is your own, unique ID for this data source. 
-4. In the **[!UICONTROL ID Type]** list, select **[!UICONTROL Cross Device]**. 
-
-5. In the **[!UICONTROL ID Definition]** list, select an option that defines the data source type. Options include:
+1. Name the data source.
+1. *(Optional)* Describe the data source. A concise description helps you define the role or purpose of the data source.
+1. Provide an integration code. An integration code is your own, unique ID for this data source.
+1. In the **[!UICONTROL ID Type]** list, select **[!UICONTROL Cross Device]**.
+1. In the **[!UICONTROL ID Definition]** list, select an option that defines the data source type. Options include:
 
     * **[!UICONTROL Person]**: An ID that defines a single person. This ID can be mapped to multiple [!DNL Audience Manager] IDs.
     * **[!UICONTROL Household]**: An ID that defines a group of people. This ID can be mapped to multiple [!DNL Audience Manager] IDs.
@@ -58,21 +55,19 @@ To complete the Data Source Details section:
 
 * **[!UICONTROL Use as a Device Graph]**: This control is available only to accounts listed as a data provider. Selecting this check box creates your data source as a device graph and lets you share it with other [!DNL Audience Manager] customers. Work with your [!DNL Audience Manager] consultant to get set up as a data provider and to specify which customers this [!UICONTROL Data Source] should be shared with. Your consultant will provision your account and device graph sharing through an internal provisioning processes.
 
-The text fields associated with these settings let you rename the [!UICONTROL Data Source] with an alias that appears in the [Profile Merge Rule options](../../c-features/profile-merge-rules/merge-rule-definitions.md#concept_44FFF67CD9654DB2B43ECA13C2FD1CE0). For example, if you add an alias to **[!UICONTROL Use as Authenticated Profile]**, that name appears in the [!UICONTROL Authenticated Profile Options] list. If you add an alias to **[!UICONTROL Use as a Device Graph]**, that name appears in the [!UICONTROL Device Options] list. 
+The text fields associated with these settings let you rename the [!UICONTROL Data Source] with an alias that appears in the [Profile Merge Rule options](../../c-features/profile-merge-rules/merge-rule-definitions.md#concept_44FFF67CD9654DB2B43ECA13C2FD1CE0). For example, if you add an alias to **[!UICONTROL Use as Authenticated Profile]**, that name appears in the [!UICONTROL Authenticated Profile Options] list. If you add an alias to **[!UICONTROL Use as a Device Graph]**, that name appears in the [!UICONTROL Device Options] list.
 
 >[!MORE_LIKE_THIS]
 >
 >* [Create a Data Source](../../c-features/manage-datasources.md#concept_3B7696B3EC77416492D3B99EBD79EA44)
 
-## Create a Profile Merge Rule {#concept_55706E2521944DF1A5C7B0E19C7436D0}
+## Create a [!UICONTROL Profile Merge Rule] {#concept_55706E2521944DF1A5C7B0E19C7436D0}
 
 To create a [!UICONTROL Profile Merge Rule], go to **[!UICONTROL Audience Data > Profile Merge Rules > Add New Rule]** and complete the steps for each section described here. You can create up to 3 merge rules after setting up a cross-device data source. Administrator permissions are required to create, edit, or delete a rule. All users can view and use existing [!UICONTROL Profile Merge Rules].
 
-<!-- 
-
+<!--
 create-profile-merge-rule.xml
-
- -->
+-->
 
 **Prerequisites:** A cross-device data source is required to build a [!UICONTROL Profile Merge Rule]. See [Create a Data Source](../../c-features/manage-datasources.md#concept_3B7696B3EC77416492D3B99EBD79EA44).
 
@@ -102,7 +97,7 @@ To complete the [!UICONTROL Proflie Merge Rule Setup] section:
     * **[!UICONTROL Current Authenticated Profile]**
     * **[!UICONTROL Last Authenticated Profile]**
 
-1. Select an **[!UICONTROL Authenticated Profile Option]** (up to 3, maximum). These are the [cross-device data sources](../../c-features/profile-merge-rules/merge-rules-start.md#concept_396828374D1B48C988655B2ED817F29B) you have created previously. 
+1. Select an **[!UICONTROL Authenticated Profile Option]** (up to 3, maximum). These are the [cross-device data sources](../../c-features/profile-merge-rules/merge-rules-start.md#concept_396828374D1B48C988655B2ED817F29B) you have created previously.
 
 1. Select a **[!UICONTROL Device Option]**. Options include:
 
@@ -115,7 +110,7 @@ To complete the [!UICONTROL Proflie Merge Rule Setup] section:
 
 ## Next Steps {#section_0A2D9E025E9646B89BE2B7634BCE743F}
 
-Review and complete the procedures described in [Configure Merge Rule Code](../../c-features/profile-merge-rules/merge-rules-start.md#concept_169938D1988447E1B60896908A49C78A). 
+Review and complete the procedures described in [Configure Merge Rule Code](../../c-features/profile-merge-rules/merge-rules-start.md#concept_169938D1988447E1B60896908A49C78A).
 
 >[!MORE_LIKE_THIS]
 >
@@ -125,11 +120,9 @@ Review and complete the procedures described in [Configure Merge Rule Code](../.
 
 Follow these instructions to set up the [!UICONTROL Experience Cloud ID Service], [!UICONTROL DIL], and mobile SDK code to work with your merge rules.
 
-<!-- 
-
+<!--
 merge-rules-configure-code.xml
-
- -->
+-->
 
 **Prerequisites:** You must set up a [cross-device data source](../../c-features/profile-merge-rules/merge-rules-start.md#concept_396828374D1B48C988655B2ED817F29B) and [profile merge rules](../../c-features/profile-merge-rules/merge-rules-start.md#concept_169938D1988447E1B60896908A49C78A) *before* completing these procedures.
 
@@ -181,14 +174,14 @@ For more information, see [Create a Cross-Device Data Source](../../c-features/p
 The latest versions of [!UICONTROL DIL] now automatically pick up the [!UICONTROL declared ID] from the `visitorService` function in `DIL.create` (see [Declared ID Variables](../../c-features/declared-ids.md#reference_F697F0D53E56430D95EC0C408B767F80)). Check your `DIL.create` function to make sure this is set up properly as shown in the code sample below.
 
 ```js
-var vDil = DIL.create({ 
-   partner:"partner name", 
-   visitorService:{ 
-      namespace:" 
+var vDil = DIL.create({
+   partner:"partner name",
+   visitorService:{
+      namespace:"
 <varname>
-  INSERT-MCORG-ID-HERE 
-</varname>" 
-   } 
+  INSERT-MCORG-ID-HERE
+</varname>"
+   }
 });
 ```
 
@@ -203,18 +196,18 @@ See the [Configure SDKs](../../c-features/profile-merge-rules/merge-rules-start.
 If you're not using [!DNL Experience Cloud ID Service] yet, you really ought to. But, we understand that moving to new code requires careful thought and testing. In these cases, check your `DIL.create` function to make sure this is set up properly as shown in the code sample below.
 
 ```js
-DIL.create({ 
-   partner:"partner name", 
-   declaredId:{ 
-      dpuuid: 
+DIL.create({
+   partner:"partner name",
+   declaredId:{
+      dpuuid:
 <varname>
-  dpuuid 
-</varname>, 
-      dpid: 
+  dpuuid
+</varname>,
+      dpid:
 <varname>
-  dpid 
-</varname> 
-   } 
+  dpid
+</varname>
+   }
 });
 ```
 

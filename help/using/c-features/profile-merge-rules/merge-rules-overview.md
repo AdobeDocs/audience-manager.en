@@ -10,9 +10,9 @@ internal: n
 snippet: y
 ---
 
-# Profile Merge Rules Overview {#profile-merge-rules-overview}
+# [!UICONTROL Profile Merge Rules] Overview {#profile-merge-rules-overview}
 
-With Profile Merge Rules you get control over the data sets used for segmentation and can target a person accurately across multiple devices.
+With [!UICONTROL Profile Merge Rules] you get control over the data sets used for segmentation and can target a person accurately across multiple devices.
 
 ## Data collection and targeting with anonymous and authenticated profiles {#section_BD3D99245BE049CDA00FD0371C008407}
 

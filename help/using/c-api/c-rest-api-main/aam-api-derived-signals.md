@@ -10,7 +10,7 @@ internal: n
 snippet: y
 ---
 
-# Derived Signals API Methods{#derived-signals-api-methods}
+# Derived Signals API Methods {#derived-signals-api-methods}
 
 API methods that let you work with derived signals. A derived signal qualifies site visitors for additional traits based on a trait they've already seen.
 
@@ -38,10 +38,11 @@ r_create_new_derived_signal.xml
 
  -->
 
-**Request**
+### Request
 
 `POST https://api.demdex.com/v1/signals/derived/` 
-**Sample Request Body**
+
+### Sample Request Body
 
 The [!DNL JSON] request body contains a source key and source value. These parameters are used to associate the source key-value pair with other traits that are associated (derived) from those values. For example, in this request the key-value pair `product SKU=1234` are also associated with a related target key-value pair. Note, source key and value variables must be unique. All request values are required unless otherwise indicated. 
 
@@ -54,7 +55,7 @@ The [!DNL JSON] request body contains a source key and source value. These param
 }
 ```
 
-**Sample Response**
+### Response
 
 A successful update returns response code `201 Created` and data as shown below. An unsuccessful attempt returns response code `409 Conflict` if the source/target mapping already exists. 
 
@@ -85,10 +86,11 @@ r_delete_derived_signal.xml
 
  -->
 
-**Request** 
-`DELETE https://api.demdex.com/v1/signals/derived/<derivedSignalId>`  **Sample Response**
+### Request
 
-Returns response code `204 No Content` if successful. 
+`DELETE https://api.demdex.com/v1/signals/derived/<derivedSignalId>`  ### Response
+
+Returns response code `204 No Content` if successful.
 
 ## Return Properties for a Derived Signal {#reference_B9CCCB0A72BF4D6D9DB71A17C1165771}
 
@@ -100,11 +102,11 @@ r_get_derived_signal_details.xml
 
  -->
 
-**Request**
+### Request
 
 `GET https://api.demdex.com/v1/signals/derived/<derivedSignalId>`
 
-**Sample Response**
+### Response
 
 A successful request returns response code `200 OK` and data as shown below. 
 
@@ -129,19 +131,15 @@ A successful request returns response code `200 OK` and data as shown below.
 
 A `GET` method that returns details for all your derived signals.
 
-
-
 <!-- 
-
 r_return_all_derived_signals.xml
+-->
 
- -->
-
-**Request**
+### Request
 
 `GET https://api.demdex.com/v1/signals/derived/`
 
-**Optional Query Parameters**
+### Optional Query Parameters
 
 You can use these optional parameters with API methods that return *all* properties for an object. Set these options in the request string when passing that query in to the API. See [Optional Parameters](../../c-api/c-rest-api-main/aam-api-getting-started.md#concept_BB1E73AE736F4F54830E6CAF28089608).  
 
@@ -176,7 +174,7 @@ You can use these optional parameters with API methods that return *all* propert
  </tbody> 
 </table>
 
-**Sample Response**
+### Response
 
 A successful update returns response code `200 OK` and data (in an array) as shown below. All request values are required unless otherwise indicated. 
 

@@ -10,12 +10,11 @@ internal: n
 snippet: y
 ---
 
-# SDK Code{#sdk-code}
+# [!DNL SDK] Code {#sdk-code}
 
-Audience Manager provides software development kits (SDKs) for Android and iOS.
+Audience Manager provides software development kits (SDKs) for [!DNL Android] and [!DNL iOS].
 
-For SDK code libraries, see:
+For [!DNL SDK] code libraries, see:
 
 * [Android SDK](https://marketing.adobe.com/resources/help/en_US/mobile/android/?f=audience_manager.html) 
 * [iOS SDK](https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=amm.html)
-
