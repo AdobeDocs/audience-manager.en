@@ -15,10 +15,8 @@ snippet: y
 Methods that let you work programmatically with trait and segment folders. Folders are directories that hold and organize traits and segments in logical groups.
 
 <!-- 
-
 api-folders.xml
-
- -->
+-->
 
 >[!IMPORTANT]
 >

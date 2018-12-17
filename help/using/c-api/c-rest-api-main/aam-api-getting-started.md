@@ -33,7 +33,7 @@ Note the following when working with [ [!DNL Audience Manager] API ](https://ban
 * **Request parameters:** All request parameters are required unless specified otherwise.
 * **JSON content type:** Specify `content-type: application/json` *and* `accept: application/json` in your code.
 
-* **Requests and responses:** Send requests as a properly formatted JSON object. [!DNL Audience Manager] responds with JSON formatted data. Server responses can contain requested data, a status code, or both.
+* **Requests and responses:** Send requests as a properly formatted JSON object. [!DNL Audience Manager] responds with `JSON` formatted data. Server responses can contain requested data, a status code, or both.
 
 * **Access:** Your [!DNL Audience Manager] consultant will provide you with a client ID and key that lets you make [!DNL API] requests.
 
@@ -80,7 +80,7 @@ Pass in a token request with your preferred [!DNL JSON] client. When you build t
 * Convert your client ID and secret to a base-64 encoded string. Separate the ID and secret with a colon during the conversion process. For example, the credentials `testId : testSecret` convert to `dGVzdElkOnRlc3RTZWNyZXQ=`.
 * Pass in the [!DNL HTTP] headers `Authorization:Basic <base-64 clientID:clientSecret>` and `Content-Type: application/x-www-form-urlencoded` . For example, your header could look like this: <br/>`Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=` <br/>`Content-Type: application/x-www-form-urlencoded`
 * Set up the request body as follows:
-  <br/> `grant\_type=password&username = <your AudienceManager user name> & password = <your AudienceManager password>`
+  <br/> `grant\_type=password&username=<your-AudienceManager-user-name>&password=<your-AudienceManager-password>`
 
 ### Step 3: Receive the Token
 
@@ -146,11 +146,9 @@ The Audience Manager [!DNL REST API] supports authorization code and implicit au
 
 Requirements for calling API methods after you receive an authentication token.
 
-<!-- 
-
+<!--
 c_oauth_call_methods.xml
-
- -->
+-->
 
 To make calls against the available API methods:
 
@@ -169,7 +167,7 @@ Set the optional parameters available to methods that return all properties for 
 c_rest_api_optional.xml
 -->
 
-You can use these optional parameters with API methods that return *all* properties for an object. Set these options in the request string when passing that query in to the API.  
+You can use these optional parameters with API methods that return *all* properties for an object. Set these options in the request string when passing that query in to the API.
 
 | Parameter | Description |
 |--- |--- |
@@ -194,11 +192,9 @@ GET https://api.demdex.com/v1/models/?page=1&pageSize=2&search=Test
 
 URLs for requests, staging and production environments, and versions.
 
-<!-- 
-
+<!--
 r_rest_urls.xml
-
- -->
+-->
 
 ## Request URLS {#section_2DBA5BD10E8B4E0DBD51BD36055C5013}
 

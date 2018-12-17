@@ -12,7 +12,7 @@ snippet: y
 
 # Supported Attributes for [!UICONTROL DCS] API Calls {#supported-attributes-for-dcs-api-calls}
 
-Lists and describes the syntax and supported attributes (or key-value pairs) you can pass in to the Data Collection Servers ([!UICONTROL DCS]). This information can help you format your DCS requests and understand the parameters returned by this system.
+Lists and describes the syntax and supported attributes (or key-value pairs) you can pass in to the Data Collection Servers ([!UICONTROL DCS]). This information can help you format your [!UICONTROL DCS] requests and understand the parameters returned by this system.
 
 ## Attribute Prefixes {#section_C40587830EFD4669AE9DAB5C6513CD9A}
 

@@ -14,11 +14,9 @@ snippet: y
 
 API methods that let you manage data sources associated with your account.
 
-<!-- 
-
+<!--
 c_rest_data_sources.xml
-
- -->
+-->
 
 >[!IMPORTANT]
 >

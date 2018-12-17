@@ -68,7 +68,7 @@ r_get_all_destinations.xml
 
 >[!NOTE]
 >
->* *(Optional)* Pass in `containsSegment=<sid>` to return an array of all destinations mapped to the specified segment. For example, your query could look similar to this: `GET .../destinations/?containsSegment=4321`. 
+>* *(Optional)* Pass in `containsSegment=<sid>` to return an array of all destinations mapped to the specified segment. For example, your query could look similar to this: `GET .../destinations/?containsSegment=4321`.
 >
 >* Does not return the full destination object. Get the destination by data order if you need fully populated object.
 
@@ -79,30 +79,30 @@ You can use these optional parameters with API methods that return *all* propert
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Parameter </th> 
-   <th colname="col2" class="entry"> Description </th> 
+   <th colname="col1" class="entry"> Parameter </th>
+   <th colname="col2" class="entry"> Description </th>
   </tr>
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td colname="col1"><span class="codeph"> page</span> </td> 
-   <td colname="col2"> Returns results by page number. Numbering starts at 0. </td> 
-  </tr> 
+   <td colname="col1"><span class="codeph"> page</span> </td>
+   <td colname="col2"> Returns results by page number. Numbering starts at 0. </td>
+  </tr>
   <tr valign="top"> 
-   <td colname="col1"><span class="codeph"> pageSize</span> </td> 
-   <td colname="col2"> Sets the number of response results returned by the request (10 is default). </td> 
-  </tr> 
+   <td colname="col1"><span class="codeph"> pageSize</span> </td>
+   <td colname="col2"> Sets the number of response results returned by the request (10 is default). </td>
+  </tr>
   <tr valign="top"> 
-   <td colname="col1"><span class="codeph"> sortBy</span> </td> 
-   <td colname="col2">Sorts and returns results according to the specified <span class="keyword"> JSON</span> property. </td> 
-  </tr> 
+   <td colname="col1"><span class="codeph"> sortBy</span> </td>
+   <td colname="col2">Sorts and returns results according to the specified <span class="keyword"> JSON</span> property. </td>
+  </tr>
   <tr valign="top"> 
-   <td colname="col1"><span class="codeph"> descending</span> </td> 
-   <td colname="col2"> Sorts and returns results in descending order. Ascending is default. </td> 
-  </tr> 
+   <td colname="col1"><span class="codeph"> descending</span> </td>
+   <td colname="col2"> Sorts and returns results in descending order. Ascending is default. </td>
+  </tr>
   <tr valign="top"> 
-   <td colname="col1"><span class="codeph"> search</span> </td> 
-   <td colname="col2">Returns results based on the specified string you want to use as a search parameter. For example, let's say you want to find results for all models that have the word "Test" in any of the value fields for that item. Your sample request could look like this: <p><span class="codeph"> GET https://api.demdex.com/v1/models/?search=Test</span>. </p> <p>You can search on any value returned by a "get all" method. </p> </td> 
+   <td colname="col1"><span class="codeph"> search</span> </td>
+   <td colname="col2">Returns results based on the specified string you want to use as a search parameter. For example, let's say you want to find results for all models that have the word "Test" in any of the value fields for that item. Your sample request could look like this: <p><span class="codeph"> GET https://api.demdex.com/v1/models/?search=Test</span>. </p> <p>You can search on any value returned by a "get all" method. </p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -192,7 +192,7 @@ r_get_destination_mappings.xml
 
 ### Request
 
-`GET https://api.demdex.com/v1/destinations/ *<destinationId>*/mappings`
+`GET https://api.demdex.com/v1/destinations/<destinationId>/mappings`
 
 >[!NOTE]
 >
@@ -286,7 +286,7 @@ r_get_job_history.xml
 
 `GET https://api.demdex.com/v1/destinations/655/history/outbound?startDate=1000000000&endDate=1403034473000`
 
-Required query parameters: `startDate` =< *`epochtime`*> and *`endDate`* =< [!UICONTROL epochtime]>.
+Required query parameters: `startDate` = *<`epochtime`>* and `endDate` = *<`epochtime`>*.
 
 ### Response
 

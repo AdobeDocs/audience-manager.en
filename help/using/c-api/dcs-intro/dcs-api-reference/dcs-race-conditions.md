@@ -23,10 +23,10 @@ A race condition can occur if you send multiple calls simultaneously (or in rapi
 
 ## Error Handling {#section_BA7880213216436B835884E753710AC4}
 
-Error handling is limited for invalid or poorly formed queries. An invalid request returns an HTTP 200 OK response and no data. Also, the [!UICONTROL DCS] stops processing a request, discards trait data, and returns an HTTP 200 OK response when a user:
+Error handling is limited for invalid or poorly formed queries. An invalid request returns an [!DNL HTTP 200 OK] response and no data. Also, the [!UICONTROL DCS] stops processing a request, discards trait data, and returns an [!DNL HTTP 200 OK] response when a user:
 
 * Opts out of tracking at the Audience Manager or partner level.
 * Comes from an invalid/unselected geographic region.
 * Disables browser cookies (either all or third-party).
 
-See also, [DCS Error Codes, Messages, and Examples](../../../c-api/dcs-intro/dcs-api-reference/dcs-error-codes.md#reference_8C64917F3A584F61BF3B908F8129DE5F). 
+See also, [DCS Error Codes, Messages, and Examples](../../../c-api/dcs-intro/dcs-api-reference/dcs-error-codes.md#reference_8C64917F3A584F61BF3B908F8129DE5F).

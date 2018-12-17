@@ -14,15 +14,9 @@ snippet: y
 
 API methods that let you work with derived signals. A derived signal qualifies site visitors for additional traits based on a trait they've already seen.
 
-## Derived Signals API Methods {#concept_FE09D6E417E0459A94917E0F44D21CCC}
-
-API methods that let you work with derived signals. A derived signal qualifies site visitors for additional traits based on a trait they've already seen.
-
-<!-- 
-
+<!--
 c_separator.xml
-
- -->
+-->
 
 For more information about derived signals, see [Derived Signals](../../c-features/derived-signals.md#concept_36FF7303F39E4748AC048D08F9E371C6). 
 
@@ -30,13 +24,9 @@ For more information about derived signals, see [Derived Signals](../../c-featur
 
 A `POST` method that lets you create a new derived signal.
 
-
-
-<!-- 
-
+<!--
 r_create_new_derived_signal.xml
-
- -->
+-->
 
 ### Request
 
@@ -57,7 +47,7 @@ The [!DNL JSON] request body contains a source key and source value. These param
 
 ### Response
 
-A successful update returns response code `201 Created` and data as shown below. An unsuccessful attempt returns response code `409 Conflict` if the source/target mapping already exists. 
+A successful update returns response code `201 Created` and data as shown below. An unsuccessful attempt returns response code `409 Conflict` if the source/target mapping already exists.
 
 ```
 {
@@ -80,11 +70,9 @@ A successful update returns response code `201 Created` and data as shown below.
 
 A `DELETE` method that lets you remove a derived signal from your collection.
 
-<!-- 
-
+<!--
 r_delete_derived_signal.xml
-
- -->
+-->
 
 ### Request
 
@@ -96,11 +84,9 @@ Returns response code `204 No Content` if successful.
 
 A `GET` method that returns details for an individual derived signal.
 
-<!-- 
-
+<!--
 r_get_derived_signal_details.xml
-
- -->
+-->
 
 ### Request
 
@@ -176,7 +162,7 @@ You can use these optional parameters with API methods that return *all* propert
 
 ### Response
 
-A successful update returns response code `200 OK` and data (in an array) as shown below. All request values are required unless otherwise indicated. 
+A successful update returns response code `200 OK` and data (in an array) as shown below. All request values are required unless otherwise indicated.
 
 ```
 [

@@ -30,7 +30,7 @@ The available `POST` methods let you map segments to [!UICONTROL URL] and [!UICO
 
 ## Map a Segment to a Non-Serialized [!UICONTROL URL] Destination {#reference_0BFD55096FD845EC9970012C53CFE643}
 
-A `POST` method that lets you map a segment to a non-serial [!UICONTROL URL destination].
+A `POST` method that lets you map a segment to a non-serial [!UICONTROL URL] destination.
 
 <!-- 
 r_map_noserial_url.xml
@@ -82,13 +82,11 @@ All request values are required unless otherwise indicated.
 
 ## Map a Segment to a Serialized [!UICONTROL URL] Destination {#reference_658AB62CA686491FB9D0E53458801343}
 
-A `POST` method that lets you map a segment to a serialized [!UICONTROL URL destination].
+A `POST` method that lets you map a segment to a serialized [!UICONTROL URL] destination.
 
-<!-- 
-
+<!--
 r_map_serialized_url.xml
-
- -->
+-->
 
 ### Request
 
@@ -96,7 +94,7 @@ r_map_serialized_url.xml
 
 ### Sample Request
 
-In the request, the `traitAlias` corresponds to the key in a key-value pair. All request values are required unless otherwise indicated. 
+In the request, the `traitAlias` corresponds to the key in a key-value pair. All request values are required unless otherwise indicated.
 
 ```
 {
@@ -136,17 +134,15 @@ In the request, the `traitAlias` corresponds to the key in a key-value pair. All
 
 ## Map a Segment to a [!UICONTROL Cookie] Destination: Single-Key, Non-Serialized {#reference_612B2A53AE8E4262A36F73601151CFDD}
 
-A `POST` method that lets you map a segment to single-key, non-serialized [!UICONTROL cookie destination].
+A `POST` method that lets you map a segment to single-key, non-serialized [!UICONTROL cookie] destination.
 
-<!-- 
-
+<!--
 r_map_cookie_noserial.xml
-
- -->
+-->
 
 ### Request
 
-`POST https://api.demdex.com/v1/destinations/ *<destinationId>*/mappings/`
+`POST https://api.demdex.com/v1/destinations/<destinationId>/mappings/`
 
 ### Sample Request
 
@@ -187,7 +183,7 @@ In the request, the `valueAlias` corresponds to the value in a key-value pair. A
 
 ## Map a Segment to a [!UICONTROL Cookie] Destination: Multi-Key, Non-Serialized {#reference_139815314E1446BB9E335DCCDD1CEE6E}
 
-A `POST` method that lets you map a segment to multi-key, non-serialized [!UICONTROL cookie destination].
+A `POST` method that lets you map a segment to multi-key, non-serialized [!UICONTROL cookie] destination.
 
 <!--
 r_map_cookie_multikey_noserial.xml

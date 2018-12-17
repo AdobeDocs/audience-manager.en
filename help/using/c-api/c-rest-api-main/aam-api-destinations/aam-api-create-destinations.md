@@ -47,9 +47,9 @@ This request creates a single destination. All request values are required unles
 ```
 { 
    "name":"Sample URL Destination (not serialized)",
-   "description":"", 
-   "destinationType":"PUSH", 
-   "serializationEnabled":false 
+   "description":"",
+   "destinationType":"PUSH",
+   "serializationEnabled":false
 }
 ```
 
@@ -78,8 +78,8 @@ A successful request returns `201 created` and the destination.
    "serializationEnabled":false, 
    "urlFormatString":"https://www.adobe.com/send?%ALIAS%", 
    "secureUrlFormatString":"https://www.adobe.com/send?%ALIAS%", 
-   "delimiter":null, 
-   "mappings":null 
+   "delimiter":null,
+   "mappings":null
 } 
 
 ```
@@ -106,13 +106,13 @@ Specify the secure URL and delimiter for the key-value pair passed in to the des
 
 ```
 { 
-   "name":"Sample URL Destination (Serialized)", 
-   "description":"", 
-   "destinationType":"PUSH", 
-   "serializationEnabled":true, 
-   "urlFormatString":"https://www.adobe.com/send?data=%ALIAS%", 
-   "secureUrlFormatString":"https://www.adobe.com/%ALIAS%", 
-   "delimiter":"," 
+   "name":"Sample URL Destination (Serialized)",
+   "description":"",
+   "destinationType":"PUSH",
+   "serializationEnabled":true,
+   "urlFormatString":"https://www.adobe.com/send?data=%ALIAS%",
+   "secureUrlFormatString":"https://www.adobe.com/%ALIAS%",
+   "delimiter":","
 }
 ```
 
@@ -154,11 +154,9 @@ A successful update returns response code `201 created` and the destination.
 
 A `POST` method that lets you create a [!UICONTROL cookie destination] that accepts segments composed of single key-value pairs (e.g., `gender=male` or `gender=female`).
 
-<!-- 
-
+<!--
 r_cookie_destination_singlekey_noserial.xml
-
- -->
+-->
 
 ### Request
 
@@ -298,7 +296,7 @@ A successful update returns response code `201 created` and the destination.
    "siteIDs":[ 
  
    ], 
-   "uparamEnabled":false 
+   "uparamEnabled":false
 }
 ```
 
@@ -311,11 +309,9 @@ A successful update returns response code `201 created` and the destination.
 
 A `POST` method that lets you create a destination that accepts segments that contain multiple keys with different values (e.g., `gender=male; gender=female; color=blue; color=red`).
 
-<!-- 
-
+<!--
 r_create_cookie_multikey_noserial.xml
-
- -->
+-->
 
 ### Request
 

@@ -12,7 +12,7 @@ snippet: y
 
 # [!DNL SDK] Code {#sdk-code}
 
-Audience Manager provides software development kits (SDKs) for [!DNL Android] and [!DNL iOS].
+Audience Manager provides software development kits ([!DNL SDK]s) for [!DNL Android] and [!DNL iOS].
 
 For [!DNL SDK] code libraries, see:
 

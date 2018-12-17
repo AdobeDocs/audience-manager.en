@@ -18,11 +18,9 @@ Methods that let you programmatically list Audience Manager [!UICONTROL DCS] reg
 
 Methods that let you programmatically list Audience Manager [!UICONTROL DCS] regions.
 
-<!-- 
-
+<!--
 c_rest_api_regions.xml
-
- -->
+-->
 
 For a list of regions and their corresponding integers, see [DCS Region IDs, Locations, and Host Names](../../c-api/dcs-intro/dcs-api-reference/dcs-regions.md#concept_01C1E017A6694D1EAF9BF65BFFA54091). 
 
@@ -30,11 +28,9 @@ For a list of regions and their corresponding integers, see [DCS Region IDs, Loc
 
 A `GET` method to list a specific [!UICONTROL DCS] region.
 
-<!-- 
-
+<!--
 r_rest_api_regions_list_specific.xml
-
- -->
+-->
 
 ### Request
 
@@ -65,10 +61,8 @@ For a list of regions and their corresponding integers, see [DCS Region IDs, Loc
 A `GET` method to list [!UICONTROL DCS] regions.
 
 <!-- 
-
 r_rest_api_regions_list.xml
-
- -->
+-->
 
 ### Request
 
@@ -95,4 +89,4 @@ r_rest_api_regions_list.xml
 
 Returns `200 OK` if successful.
 
-For a list of regions and their corresponding integers, see [DCS Region IDs, Locations, and Host Names](../../c-api/dcs-intro/dcs-api-reference/dcs-regions.md#concept_01C1E017A6694D1EAF9BF65BFFA54091). 
+For a list of regions and their corresponding integers, see [DCS Region IDs, Locations, and Host Names](../../c-api/dcs-intro/dcs-api-reference/dcs-regions.md#concept_01C1E017A6694D1EAF9BF65BFFA54091).

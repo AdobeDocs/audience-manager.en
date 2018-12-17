@@ -142,15 +142,13 @@ r_create_new_model.xml
 
 A `PUT` method that lets you revise the model's name, description, and status.
 
-<!-- 
-
+<!--
 r_update_model.xml
-
- -->
+-->
 
 ### Request
 
-` PUT https://api.demdex.com/v1/models/ *<model-id>*/`
+` PUT https://api.demdex.com/v1/models/ <model-id>/`
 
 ### Sample Request
 
@@ -205,21 +203,19 @@ r_delete_model.xml
 
 ### Request
 
-` DELETE https://api.demdex.com/v1/models/ *<model-id>*`
+` DELETE https://api.demdex.com/v1/models/<model-id>`
 
 ### Sample Response
 
-Returns response code `204 No Content` if successful. Returns `400 Bad Request` if there are any active traits created with this model and returns those trait IDs in an array. Remove traits from the model (or delete them) before you delete a model. 
+Returns response code `204 No Content` if successful. Returns `400 Bad Request` if there are any active traits created with this model and returns those trait IDs in an array. Remove traits from the model (or delete them) before you delete a model.
 
 ## Delete Models {#reference_CD68FC107BB445F0946D337355B5482B}
 
 A `POST` method that lets you bulk delete multiple models.
 
-<!-- 
-
+<!--
 r_rest_api_bulk_delete_models.xml
-
- -->
+-->
 
 ### Request
 
@@ -227,7 +223,7 @@ r_rest_api_bulk_delete_models.xml
 
 ### Sample Request
 
-In the request body, pass in a JSON array that includes the model IDs you want to delete.
+In the request body, pass in a `JSON` array that includes the model IDs you want to delete.
 
 ```
 [ 
@@ -245,10 +241,8 @@ Returns `204 No Content`.
 A `GET` method that returns ID, name, and description for the available algorithms. Currently, [!UICONTROL TraitWeight] (ID 1) is the only available algorithm.
 
 <!-- 
-
 r_get_algorithm.xml
-
- -->
+-->
 
 ### Request
 
@@ -272,19 +266,17 @@ A successful response returns response code `200 OK` and the list of algorithm I
 
 A `GET` method that returns algorithm details (ID, name, and description) based on the passed in algorithm ID. Currently, [!UICONTROL TraitWeight] (ID 1) is the only available algorithm.
 
-<!-- 
-
+<!--
 r_get_algorithm_by_id.xml
-
- -->
+-->
 
 ### Request
 
-` GET https://api.demdex.com/v1/algorithms/ *<algotype-id>*/`
+` GET https://api.demdex.com/v1/algorithms/<algotype-id>/`
 
 ### Sample Response
 
-A successful response returns response code `200 OK` and the algorithm ID, name, and a brief description. 
+A successful response returns response code `200 OK` and the algorithm ID, name, and a brief description.
 
 ```
 { 
@@ -298,11 +290,9 @@ A successful response returns response code `200 OK` and the algorithm ID, name,
 
 A `GET` method that returns details about all your models.
 
-<!-- 
-
+<!--
 r_get_all_models.xml
-
- -->
+-->
 
 ### Request
 
@@ -403,19 +393,17 @@ GET https://api.demdex.com/v1/models/?page=1&pageSize=2&search=Test
 
 A `GET` method that returns algorithmic model details based on the passed in model ID.
 
-<!-- 
-
+<!--
 r_get_models_id.xml
-
- -->
+-->
 
 ### Request
 
-` GET https://api.demdex.com/v1/models/ *<model-id>*`
+` GET https://api.demdex.com/v1/models/<model-id>`
 
 ### Sample Response
 
-A successful request returns details for the model. An unsuccessful request throws an exception and related [error code](../../c-api/c-rest-api-main/aam-api-getting-started.md#reference_2AC89154A26E49A48E0DDD8DA520757F). 
+A successful request returns details for the model. An unsuccessful request throws an exception and related [error code](../../c-api/c-rest-api-main/aam-api-getting-started.md#reference_2AC89154A26E49A48E0DDD8DA520757F).
 
 ```
 { 
@@ -447,15 +435,13 @@ A successful request returns details for the model. An unsuccessful request thro
 
 A `GET` method that returns a list of your most influential (accurate) traits.
 
-<!-- 
-
+<!--
 r_get_traits_by_accuracy.xml
-
- -->
+-->
 
 ### Request
 
-` GET https://api.demdex.com/v1/models/ *<model-id>*/runs/latest/traits/`
+` GET https://api.demdex.com/v1/models/<model-id>/runs/latest/traits/`
 
 ### Optional Query Parameters
 
@@ -566,15 +552,13 @@ You can use these optional parameters with API methods that return *all* propert
 
 A `GET` method that returns accuracy and reach values for your algorithmic model.
 
-<!-- 
-
+<!--
 r_get_accuracy_reach.xml
-
- -->
+-->
 
 ### Request
 
-` GET https://api.demdex.com/v1/models/ *<model-id>*/runs/latest/stats`/
+` GET https://api.demdex.com/v1/models/<model-id>/runs/latest/stats`/
 
 ### Sample Response
 
@@ -603,15 +587,13 @@ r_get_accuracy_reach.xml
 
 A `GET` method that returns an array of [!DNL UNIX] time stamps (UTC) of successful data runs for your model.
 
-<!-- 
-
+<!--
 r_return_model_timestamp.xml
-
- -->
+-->
 
 ### Request
 
-` GET https://api.demdex.com/v1/models/ *<model-id>*/processing-history/`
+` GET https://api.demdex.com/v1/models/<model-id>/processing-history/`
 
 ### Sample Response
 

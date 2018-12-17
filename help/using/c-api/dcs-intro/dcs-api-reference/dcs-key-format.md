@@ -34,8 +34,8 @@ When making a call, the [!UICONTROL DCS] accepts key-value data in standard or s
    <td colname="col1"> <b>Serialized</b> </td> 
    <td colname="col2"> <p>A serialized key-value pair consists of a single key and multiple values. This can be an efficient way to organize data, but serialized key-value pairs require specific symbols to separate each key and each key-value set. </p> </td> 
    <td colname="col3"> <span class="codeph"> key1=val1,val2,val3</span> </td> 
-  </tr> 
- </tbody> 
+  </tr>
+ </tbody>
 </table>
 
 ## Delimiters and Separators for Serialized Key-Value Pairs {#section_81AE5DBD34D64B6ABF40521FCA0C9733}

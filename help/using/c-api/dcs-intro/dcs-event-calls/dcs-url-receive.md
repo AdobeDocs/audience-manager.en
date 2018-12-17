@@ -24,7 +24,7 @@ Your [!UICONTROL DCS] request must include `d_rtbd=json` if you want to receive 
 
 ## Sample Response {#section_E98B77488F8345B7BE5085F1DE38E05B}
 
-Recall that from the [Send Data to the DCS](../../../c-api/dcs-intro/dcs-event-calls/dcs-url-send.md#concept_9F6C569C1E444002ADF2A43516A9F284) documentation, the fictional company Acme, Inc. made this call:
+Recall that from the [Send Data to the DCS](../../../c-api/dcs-intro/dcs-event-calls/dcs-url-send.md#concept_9F6C569C1E444002ADF2A43516A9F284) documentation, the fictional company [!DNL Acme, Inc.] made this call:
 
 `https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_rtbd=json&d_cb=acme_callback`
 
