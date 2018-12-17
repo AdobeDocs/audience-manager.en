@@ -73,11 +73,9 @@ Returns `409 Conflict` if the username is already taken.
 
 A `PUT` method to update a user.
 
-<!-- 
-
+<!--
 r_rest_api_user_update.xml
-
- -->
+-->
 
 ### Request
 
@@ -237,11 +235,9 @@ r_rest_api_user_get_user_obj.xml
 
 A `Get` method to return the user object for the currently logged-in user.
 
-<!-- 
-
+<!--
 r_rest_api_user_get_self.xml
-
- -->
+-->
 
 >[!NOTE]
 >
@@ -273,11 +269,9 @@ r_rest_api_user_get_self.xml
 
 A `GET` method to list users.
 
-<!-- 
-
+<!--
 r_rest_api_user_list.xml
-
- -->
+-->
 
 ### Request
 
@@ -311,17 +305,15 @@ This query returns a list of all users in the specified groups.
 
 A `DELETE` method to delete a user.
 
-<!-- 
-
+<!--
 r_rest_api_user_delete.xml
-
- -->
+-->
 
 ### Request
 
 `DELETE /api/v1/users/<user_id>`
 
-Returns `204 No Content` if successful. In case of conflict returns `409 Conflict`. 
+Returns `204 No Content` if successful. In case of conflict returns `409 Conflict`.
 
 ## Delete Users in Bulk {#reference_3F0D4F1E2FFC4AF1A53C33D1FC929CE2}
 

@@ -57,11 +57,9 @@ r_rest_api_group_create.xml
 
 A `PUT` method to update a user group.
 
-<!-- 
-
+<!--
 r_rest_api_group_update.xml
-
- -->
+-->
 
 ### Request
 
@@ -94,11 +92,9 @@ r_rest_api_group_update.xml
 
 A `GET` method to list user groups.
 
-<!-- 
-
+<!--
 r_rest_api_group_list.xml
-
- -->
+-->
 
 ### Request
 
@@ -124,11 +120,9 @@ r_rest_api_group_list.xml
 
 A `DELETE` method to delete a user group and remove all members from that group.
 
-<!-- 
-
+<!--
 r_rest_api_group_delete.xml
-
- -->
+-->
 
 ### Request
 
@@ -140,11 +134,9 @@ Returns `204 No Content` if successful. In case of conflict returns `409 Conflic
 
 A `DELETE` method to delete multiple groups in bulk and remove all members from that group.
 
-<!-- 
-
+<!--
 r_rest_api_group_delete_bulk.xml
-
- -->
+-->
 
 ### Request
 
@@ -156,11 +148,9 @@ Returns `204 No Content` if successful. In case of conflict returns `409 Conflic
 
 A `GET` method to list the permission objects on a group.
 
-<!-- 
-
+<!--
 r_rest_api_perm_list_group.xml
-
- -->
+-->
 
 ### Request
 
@@ -194,11 +184,9 @@ Returns `400 Bad Request` if the group is inaccessible.
 
 A `PUT` method to update group permissions. This method overwrites the old permissions with the new permissions.
 
-<!-- 
-
+<!--
 r_rest_api_perm_set.xml
-
- -->
+-->
 
 ### Request
 

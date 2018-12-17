@@ -241,7 +241,7 @@ In the tables below, *italics* represents a variable placeholder.
 
 ## Sample Error Code Messages {#section_09C2F90C385A4EFB989A3C518102A32E}
 
-The [!UICONTROL DCS] returns error codes and messages in a JSON object or in an X- header in the HTTP response string.
+The [!UICONTROL DCS] returns error codes and messages in a [!DNL JSON] object or in an X- header in the HTTP response string.
 
 <table id="table_31FB21A203034FECBC675A19CA117854"> 
  <thead> 

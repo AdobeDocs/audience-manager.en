@@ -10,7 +10,7 @@ internal: n
 snippet: y
 ---
 
-# Permissions Management API Methods{#permissions-management-api-methods}
+# Permissions Management API Methods {#permissions-management-api-methods}
 
 Rest API methods to manage permissions for objects and groups.
 
@@ -22,11 +22,9 @@ c_rest_api_perm_man.xml
 
 A `GET` method to list available object types on which role-based access controls can be set.
 
-<!-- 
-
+<!--
 r_rest_api_perm_list.xml
-
- -->
+-->
 
 ### Request
 

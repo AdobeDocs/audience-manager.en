@@ -14,15 +14,9 @@ snippet: y
 
 Domain management methods that let you create and manage the domains to which you want to send data (for cookie destinations only).
 
-## Domain Management API Methods {#concept_CD8440D4C25B4CE78C8A3885FF71A536}
-
-Domain management methods that let you create and manage the domains to which you want to send data (for cookie destinations only).
-
-<!-- 
-
+<!--
 c_partner_site.xml
-
- -->
+-->
 
 ## Create a New Domain {#reference_C332B8E339504884999ECC5314EF68A1}
 
@@ -60,11 +54,9 @@ A successful response returns `201 created` and the partner site, including its 
 
 A `DELETE` method that lets you remove a domain (for cookie destinations only).
 
-<!-- 
-
+<!--
 r_delete_partner_site.xml
-
- -->
+-->
 
 ### Request
 
@@ -78,11 +70,9 @@ A successful response returns `204 no content`. Returns `404 not found` if the p
 
 A `GET` method that returns details about the specified domain (for cookie destinations only).
 
-<!-- 
-
+<!--
 r_get_partner_site.xml
-
- -->
+-->
 
 ### Request
 
@@ -90,7 +80,7 @@ r_get_partner_site.xml
 
 ### Response
 
-A successful response returns `200 OK` and data as shown in the sample below. Returns `404 Not found` if the site ID or partner is not found. 
+A successful response returns `200 OK` and data as shown in the sample below. Returns `404 Not found` if the site ID or partner is not found.
 
 ```
 {
@@ -104,11 +94,9 @@ A successful response returns `200 OK` and data as shown in the sample below. Re
 
 A `GET` method that returns information about all your domains (for cookie destinations only).
 
-<!-- 
-
+<!--
 r_get_partner_sites.xml
-
- -->
+-->
 
 ### Request
 
@@ -132,19 +120,19 @@ You can use these optional parameters with API methods that return *all* propert
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><span class="codeph"> pageSize</span> </td> 
-   <td colname="col2"> Sets the number of response results returned by the request (10 is default). </td> 
-  </tr> 
+   <td colname="col2"> Sets the number of response results returned by the request (10 is default). </td>
+  </tr>
   <tr valign="top"> 
    <td colname="col1"><span class="codeph"> sortBy</span> </td> 
-   <td colname="col2"> Sorts and returns results according to the specified JSON property. </td> 
-  </tr> 
+   <td colname="col2"> Sorts and returns results according to the specified JSON property. </td>
+  </tr>
   <tr valign="top"> 
-   <td colname="col1"><span class="codeph"> descending</span> </td> 
-   <td colname="col2"> Sorts and returns results in descending order. Ascending is default. </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td colname="col1"><span class="codeph"> search</span> </td> 
-   <td colname="col2">Returns results based on the specified string you want to use as a search parameter. For example, let's say you want to find results for all models that have the word "Test" in any of the value fields for that item. Your sample request could look like this: <p><span class="codeph"> `GET` `https://api.demdex.com/v1/models/?search=Test`</span>. </p> <p>You can search on any value returned by a "get all" method. </p> </td> 
+   <td colname="col1"><span class="codeph"> descending</span> </td>
+   <td colname="col2"> Sorts and returns results in descending order. Ascending is default. </td>
+  </tr>
+  <tr valign="top">
+   <td colname="col1"><span class="codeph"> search</span> </td>
+   <td colname="col2">Returns results based on the specified string you want to use as a search parameter. For example, let's say you want to find results for all models that have the word "Test" in any of the value fields for that item. Your sample request could look like this: <p><span class="codeph"> `GET` `https://api.demdex.com/v1/models/?search=Test`</span>. </p> <p>You can search on any value returned by a "get all" method. </p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -171,5 +159,4 @@ A successful response returns `200 OK` and data in an array as shown in the samp
         "url": "example3.com"
     }
 ]
-
 ```

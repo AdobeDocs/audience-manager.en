@@ -10,7 +10,7 @@ internal: n
 snippet: y
 ---
 
-# Get User IDs and Regions Through the Experience Cloud ID Service{#get-user-ids-and-regions-through-the-experience-cloud-id-service}
+# Get User IDs and Regions Through the Experience Cloud ID Service {#get-user-ids-and-regions-through-the-experience-cloud-id-service}
 
 ID service customers should refer to this section for information on how to read the visitor cookie for the IDs required to make [!UICONTROL DCS] API calls.
 

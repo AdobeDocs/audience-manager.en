@@ -108,7 +108,7 @@ r_rest_api_taxonomy_sub.xml
 
 ### Response
 
-A successful response returns `200 OK` and the category for the specified ID. An unsuccessful request returns `404 No Content` if the ID does not exist. Truncated for brevity. 
+A successful response returns `200 OK` and the category for the specified ID. An unsuccessful request returns `404 No Content` if the ID does not exist. Truncated for brevity.
 
 ```
 [
