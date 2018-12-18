@@ -22,37 +22,12 @@ beta_environment_admin.xml
 
  -->
 
-<table id="table_6F388D1F7EC74D859D32ACAB56788412"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Service </th> 
-   <th colname="col2" class="entry"> URL/Hostname </th> 
-   <th colname="col3" class="entry"> Steps to Provision </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> FTP </td> 
-   <td colname="col2"> <span class="filepath"> sandbox-ftp-in.demdex.com</span> </td> 
-   <td colname="col3"> <p>See <a href="admin-beta-environment.md#section_59499FFC55834D50B9A9105B405BAC9D"> Provision Amazon S3 Buckets and FTP / SFTP for Inbound and Outbound Data</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"><span class="wintitle"> DCS </span> </td> 
-   <td colname="col2"> <span class="filepath"> https://dcs-beta.demdex.net/...</span> </td> 
-   <td colname="col3"> <p>No extra steps needed from our side. See <a href="admin-beta-environment.md#section_89A9CAB8A0784BF5A7DBA1C8F596CB82"> Access the DCS in the Beta Environment</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> UI </td> 
-   <td colname="col2"> <span class="filepath"> https://bank-beta.demdex.com </span> </td> 
-   <td colname="col3"> <p>Data is copied from the production to the beta environment on a monthly basis. Production credentials are valid for beta. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> API </td> 
-   <td colname="col2"> <span class="filepath"> https://api-beta.demdex.com/...</span> </td> 
-   <td colname="col3"> <p>Data is copied from the production to the beta environment on a monthly basis. Production credentials are valid for beta. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+|Service|URL/Hostname|Steps to Provision|
+|--- |--- |--- |
+|FTP|`sandbox-ftp-in.demdex.com`|See [Provision Amazon S3 Buckets and FTP / SFTP for Inbound and Outbound Data](admin-beta-environment.md#section_59499FFC55834D50B9A9105B405BAC9D).|
+|DCS|`https://dcs-beta.demdex.net/...`|No extra steps needed from our side. See [Access the DCS in the Beta Environment](admin-beta-environment.md#section_89A9CAB8A0784BF5A7DBA1C8F596CB82).|
+|UI|`https://bank-beta.demdex.com`|Data is copied from the production to the beta environment on a monthly basis. Production credentials are valid for beta.|
+|API|`https://api-beta.demdex.com/...`|Data is copied from the production to the beta environment on a monthly basis. Production credentials are valid for beta.|
 
 >[!NOTE]
 >
@@ -88,13 +63,13 @@ beta_environment_admin.xml
    dcs-sandbox-1754093861.us-east-1.elb.amazonaws.com. 60 IN A 52.2.228.100
    ```
 
-1. Using one of the addresses in the above table, add a static DNS entry in the [!DNL /etc/hosts] file.
+1. Using one of the addresses in the above table, add a static DNS entry in the [!DNL `/etc/hosts`] file.
 
-   On Windows, modify [!DNL c:\WINDOWS\system32\drivers\etc\hosts].
+   On Windows, modify [!DNL `c:\WINDOWS\system32\drivers\etc\hosts`].
 
    For example:
 
-[!DNL 52.87.15.51 *`samplepartner`*.demdex.net]
+[!DNL `52.87.15.51 samplepartner.demdex.net`]
 
    >[!NOTE]
    >
@@ -102,13 +77,13 @@ beta_environment_admin.xml
 
    Additionally, if you need to set up ID synchronization, you must add a similar entry for [!DNL dpm.demdex.net.]
 
-[!DNL 52.87.15.51 dpm.demdex.net] [!DNL]. 
+[!DNL `52.87.15.51 dpm.demdex.net`] [!DNL]. 
 
 1. Make a [!UICONTROL DCS] call, using the `curl` [command](https://curl.haxx.se/docs/manpage.html). Curl is a tool to transfer data from or to a server, using one of many supported protocols.
 
    For example:
 
-[!DNL https://<domain>/event?product=camera] 
+[!DNL `https://<domain>/event?product=camera`] 
 
 1. Verify that your request was served by the beta [!UICONTROL DCS] by looking for "sandbox" in the [!UICONTROL DCS] response header.
 
@@ -120,4 +95,3 @@ beta_environment_admin.xml
    < DCS: va6-sandbox-dcs-3.sandbox.demdex.com <release_number>
    [...]
    ```
-
