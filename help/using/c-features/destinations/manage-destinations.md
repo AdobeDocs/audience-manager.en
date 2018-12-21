@@ -176,28 +176,11 @@ This section contains options that let you set a base URL and data delimiters pa
 
 1. If you select **[!UICONTROL Serialize]**, then you must also configure the URL and delimiter fields described below.
 
-<table id="table_6D14A180300B4EFA8324958CFE9854DA"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Field </th> 
-   <th colname="col2" class="entry"> Description </th>
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Base URL</span> </p> </td>
-   <td colname="col2"> <p>The base part of a standard HTTP URL that does not change. Also, you need to place the <span class="codeph"> %ALIAS% </span><a href="../../c-features/destinations/destination-macros.md#destination-macros-defined"> placeholder macro</a> in the base URL. </p> <p>Example: <span class="codeph"> https://www.myCompany.com/?%alias%...</span> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Secure URL</span> </p> </td> 
-   <td colname="col2"> <p>The base part of a secure HTTPS URL that does not change. Also, you need to place the <span class="codeph"> %ALIAS% </span><a href="../../c-features/destinations/destination-macros.md#destination-macros-defined"> placeholder macro</a> in the base URL. </p> <p>Example: <span class="codeph"> https://www.myCompany.com/?%alias%...</span> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Delimiter</span> </p> </td> 
-   <td colname="col2"> <p>The symbol that separates the segment variables in the URL string. This is usually a comma or semi-colon. Get this information from your destination partner. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Field | Description |
+|--- |--- |
+|Base URL|The base part of a standard HTTP URL that does not change. Also, you need to place the `%ALIAS%` [placeholder macro](../../c-features/destinations/destination-macros.md#destination-macros-defined) in the base URL. Example: `https://www.myCompany.com/%alias%...`|
+|Secure URL|The base part of a secure HTTPS URL that does not change. Also, you need to place the `%ALIAS%` [placeholder macro](../../c-features/destinations/destination-macros.md#destination-macros-defined) in the base URL. Example:  `https://www.myCompany.com/%alias%...`|
+|Delimiter|The symbol that separates the segment variables in the URL string. This is usually a comma or semi-colon. Get this information from your destination partner.|
 
 ## Segment Mappings {#section_45FF2A8E4EB648488578365DB5D15219}
 
@@ -244,7 +227,7 @@ cookie-destination-options.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Example</b> </p> </td> 
-   <td colname="col2"> <p>As a simple example, let's say we have a fictitious site called sports.com. Sports.com has domains for golf, baseball, and football. To set a cookie in all the sports domains, you would type that in the <span class="wintitle"> Cookie Domain</span> box as shown below: </p> <p> <img href="assets/sports-domain.png" id="image_8883477BB3B543648C97A441AD34C6DE" /> </p> <p>This tells <span class="keyword"> Audience Manager</span> to set a cookie in any domain that contains the pattern <span class="varname"> something</span>.sports.com. See below for a more complex set of examples. </p> </td> 
+   <td colname="col2"> <p>As a simple example, let's say we have a fictitious site called sports.com. Sports.com has domains for golf, baseball, and football. To set a cookie in all the sports domains, you would type that in the <span class="wintitle"> Cookie Domain</span> box as shown below: </p> <p> <img src="assets/sports-domain.png" id="image_8883477BB3B543648C97A441AD34C6DE" /> </p> <p>This tells <span class="keyword"> Audience Manager</span> to set a cookie in any domain that contains the pattern <span class="varname"> something</span>.sports.com. See below for a more complex set of examples. </p> </td> 
   </tr> 
  </tbody> 
 </table>
