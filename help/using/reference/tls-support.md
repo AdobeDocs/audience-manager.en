@@ -5,9 +5,6 @@ seo-title: TLS 1.0 Deprecation
 solution: Audience Manager
 title: TLS 1.0 Deprecation
 uuid: 6a820e63-dd49-4689-9596-940aabba18ec
-index: y
-internal: n
-snippet: y
 ---
 
 # TLS 1.0 Deprecation{#tls-deprecation}

@@ -5,9 +5,6 @@ seo-title: Trait-to-Trait Overlap Report
 solution: Audience Manager
 title: Trait-to-Trait Overlap Report
 uuid: 7fb3fc9e-0e0b-492a-9c3a-04356afb19c7
-index: y
-internal: n
-snippet: y
 ---
 
 # Trait-to-Trait Overlap Report{#trait-to-trait-overlap-report}

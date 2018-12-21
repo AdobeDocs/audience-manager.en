@@ -5,9 +5,6 @@ seo-title: Flash DIL
 solution: Audience Manager
 title: Flash DIL
 uuid: 65833cfd-768e-4b16-95c5-debd8411df38
-index: y
-internal: n
-snippet: y
 ---
 
 # Flash DIL{#flash-dil}

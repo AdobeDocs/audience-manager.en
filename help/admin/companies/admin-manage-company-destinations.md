@@ -4,9 +4,6 @@ seo-description: Create, edit, and delete Audience Manager destinations.
 seo-title: Manage Company Destinations
 title: Manage Company Destinations
 uuid: d9a6bfb1-7629-44e0-b7d7-ece44f65ea2b
-index: y
-internal: n
-snippet: y
 ---
 
 # Manage Company Destinations{#manage-company-destinations}

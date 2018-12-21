@@ -5,9 +5,6 @@ seo-title: DCS Region IDs, Locations, and Host Names
 solution: Audience Manager
 title: DCS Region IDs, Locations, and Host Names
 uuid: ad150ffe-4583-472b-ac8b-fb900a7966e4
-index: y
-internal: n
-snippet: y
 ---
 
 # [!UICONTROL DCS] Region IDs, Locations, and Host Names{#dcs-region-ids-locations-and-host-names}

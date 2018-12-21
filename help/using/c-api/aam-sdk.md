@@ -5,9 +5,6 @@ seo-title: SDK Code
 solution: Audience Manager
 title: SDK Code
 uuid: 7d0b40ce-9cee-41f1-8253-dcfc77a89c72
-index: y
-internal: n
-snippet: y
 ---
 
 # [!DNL SDK] Code {#sdk-code}

@@ -4,9 +4,6 @@ seo-description: The Audience Manager Admin tool lets you add and configure comp
 seo-title: Audience Manager Admin Home
 title: Audience Manager Admin Home
 uuid: 4534b622-4c8d-4c42-8019-1614faaba9d6
-index: y
-internal: n
-snippet: y
 ---
 
 # Audience Manager Admin Home{#audience-manager-admin-home}

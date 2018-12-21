@@ -5,9 +5,6 @@ seo-title: Real-Time Outbound Data Transfers
 solution: Audience Manager
 title: Real-Time Outbound Data Transfers
 uuid: 1895e818-7ab8-4569-a920-4b0a4c8b83d2
-index: y
-internal: n
-snippet: y
 ---
 
 # Real-Time Outbound Data Transfers{#real-time-outbound-data-transfers}

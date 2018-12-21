@@ -6,9 +6,6 @@ solution: Audience Manager
 title: Audience Lab
 topic: DIL API
 uuid: aaee820c-1e78-4fd4-bd8f-2629085d78e9
-index: y
-internal: n
-snippet: y
 ---
 
 # [!UICONTROL Audience Lab] {#audience-lab}

@@ -5,9 +5,6 @@ seo-title: Working with Comparison Operators in Trait Builder
 solution: Audience Manager
 title: Working with Comparison Operators in Trait Builder
 uuid: 41bec3b3-e5df-4a6f-abb0-80ce4c75f5e7
-index: y
-internal: n
-snippet: y
 ---
 
 # Working with Comparison Operators in Trait Builder {#working-with-comparison-operators-in-trait-builder}

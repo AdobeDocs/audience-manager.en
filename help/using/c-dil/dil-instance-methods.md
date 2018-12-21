@@ -6,9 +6,6 @@ seo-title: Instance-level DIL Methods
 solution: Audience Manager
 title: Instance-level DIL Methods
 uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
-index: y
-internal: n
-snippet: y
 ---
 
 # Instance-level DIL Methods{#instance-level-dil-methods}

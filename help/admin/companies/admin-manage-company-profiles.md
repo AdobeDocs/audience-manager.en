@@ -4,9 +4,6 @@ seo-description: Use the Companies page in the Audience Manager Admin tool to cr
 seo-title: Create a Company Profile
 title: Create a Company Profile
 uuid: 55de18f8-883d-43fe-b37f-e8805bb92f7a
-index: y
-internal: n
-snippet: y
 ---
 
 # Create a Company Profile{#create-a-company-profile}

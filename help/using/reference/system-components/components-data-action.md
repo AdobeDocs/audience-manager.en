@@ -5,9 +5,6 @@ seo-title: Data Action Components
 solution: Audience Manager
 title: Data Action Components
 uuid: c4c4cc46-8c96-4ef5-8269-571cc5ac9276
-index: y
-internal: n
-snippet: y
 ---
 
 # Data Action Components{#data-action-components}

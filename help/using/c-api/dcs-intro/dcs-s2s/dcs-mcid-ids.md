@@ -5,9 +5,6 @@ seo-title: Get User IDs and Regions Through the Experience Cloud ID Service
 solution: Audience Manager
 title: Get User IDs and Regions Through the Experience Cloud ID Service
 uuid: 80de6cf2-5d9e-4ef8-a0f2-d53b5d574c89
-index: y
-internal: n
-snippet: y
 ---
 
 # Get User IDs and Regions Through the Experience Cloud ID Service {#get-user-ids-and-regions-through-the-experience-cloud-id-service}

@@ -4,9 +4,6 @@ seo-description: Use the Servers page to view a list of servers in your Audience
 seo-title: Servers Overview
 title: Servers Overview
 uuid: 49488bd7-1bea-4863-ba98-73087a2bb6b2
-index: y
-internal: n
-snippet: y
 ---
 
 # Servers Overview{#servers-overview}

@@ -4,9 +4,6 @@ seo-description: Use the Companies page to view a list of companies in your Audi
 seo-title: Companies
 title: Companies
 uuid: 64b467f4-5e2f-4637-a62d-9c70c8a1a5be
-index: y
-internal: n
-snippet: y
 ---
 
 # Companies{#companies}

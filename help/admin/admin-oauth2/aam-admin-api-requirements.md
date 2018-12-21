@@ -4,9 +4,6 @@ seo-description: Things you should encourage your clients to be aware of when th
 seo-title: API Requirements and Recommendations
 title: API Requirements and Recommendations
 uuid: eba9cf92-f0c8-4394-8532-0de9a2e7b103
-index: y
-internal: n
-snippet: y
 ---
 
 # API Requirements and Recommendations{#api-requirements-and-recommendations}

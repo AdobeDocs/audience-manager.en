@@ -5,9 +5,6 @@ seo-title: Bulk Estimates
 solution: Audience Manager
 title: Bulk Estimates
 uuid: 63b2f06a-8ba0-47a2-bd0b-8039b2d4c95d
-index: y
-internal: n
-snippet: y
 ---
 
 # Bulk Estimates{#bulk-estimates}

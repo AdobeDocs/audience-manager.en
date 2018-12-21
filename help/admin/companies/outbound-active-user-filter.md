@@ -4,9 +4,6 @@ seo-description: Follow these instructions to generate a full synchronization fi
 seo-title: Filter Outbound Data by Active Users Only
 title: Filter Outbound Data by Active Users Only
 uuid: a2b4a385-eee3-458c-b978-09509cacb397
-index: y
-internal: n
-snippet: y
 ---
 
 # Filter Outbound Data by Active Users Only{#filter-outbound-data-by-active-users-only}

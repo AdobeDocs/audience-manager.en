@@ -4,9 +4,6 @@ seo-description: Optimize signal search efforts by saving up to 10 sets of searc
 seo-title: Save Search Criteria
 title: Save Search Criteria
 uuid: c17b26e0-f489-47c9-b41b-bf895ca9d8a5
-index: y
-internal: n
-snippet: y
 ---
 
 # Save Search Criteria {#save-search-criteria}

@@ -5,9 +5,6 @@ seo-title: DCS Event Call APIs
 solution: Audience Manager
 title: DCS Event Call APIs
 uuid: 84754960-9ef0-454d-8f5c-33846e2494f6
-index: y
-internal: n
-snippet: y
 ---
 
 # [!UICONTROL DCS] Event Call APIs {#dcs-event-call-apis}

@@ -4,9 +4,6 @@ seo-description: Backfill trait realizations to capture historical audiences and
 seo-title: Backfill Trait Realizations
 title: Backfill Trait Realizations
 uuid: 8b0ef4e6-d16a-4d1d-94f1-b84eebffa9a5
-index: y
-internal: n
-snippet: y
 ---
 
 # Backfill Trait Realizations {#backfill-trait-realizations}

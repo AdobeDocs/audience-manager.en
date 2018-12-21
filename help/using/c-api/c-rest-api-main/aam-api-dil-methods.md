@@ -5,9 +5,6 @@ seo-title: Data Integration Library API Methods
 solution: Audience Manager
 title: Data Integration Library API Methods
 uuid: 507e7afd-3ae7-44de-98b0-589d699c453b
-index: y
-internal: n
-snippet: y
 ---
 
 # Data Integration Library API Methods {#data-integration-library-api-methods}

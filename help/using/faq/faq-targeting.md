@@ -5,9 +5,6 @@ seo-title: Targeting FAQ
 solution: Audience Manager
 title: Targeting FAQ
 uuid: ee96ef71-b903-4953-afc4-8ec8e48bd49e
-index: y
-internal: n
-snippet: y
 ---
 
 # Targeting FAQ{#targeting-faq}

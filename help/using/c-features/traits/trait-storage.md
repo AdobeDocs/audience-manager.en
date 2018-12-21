@@ -5,9 +5,6 @@ seo-title: Trait Storage
 solution: Audience Manager
 title: Trait Storage
 uuid: e72685ee-0c64-44a4-a8e2-d6ee5c968ba0
-index: y
-internal: n
-snippet: y
 ---
 
 # Trait Storage {#concept_492988EC858545AAA5D1B8F06D273BDD}

@@ -6,9 +6,6 @@ solution: Audience Manager
 title: Manage Data Feed Subscriptions
 topic: DIL API
 uuid: 7305adb6-cbb8-4430-8204-2243095c0ba5
-index: y
-internal: n
-snippet: y
 ---
 
 # Manage Data Feed Subscriptions {#manage-data-feed-subscriptions}

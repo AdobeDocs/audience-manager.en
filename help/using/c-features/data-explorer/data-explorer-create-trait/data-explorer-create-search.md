@@ -4,9 +4,6 @@ seo-description: Create traits based on used or unused signals that are not show
 seo-title: Create Traits from Signal Search
 title: Create Traits from Signal Search
 uuid: 2e2fda82-16f4-4a24-b26c-01a1c0d03ce6
-index: y
-internal: n
-snippet: y
 ---
 
 # Create Traits from [!UICONTROL Signal Search] {#create-traits-from-signal-search}

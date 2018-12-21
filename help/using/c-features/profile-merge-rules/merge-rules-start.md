@@ -5,9 +5,6 @@ seo-title: Getting Started with Profile Merge Rules
 solution: Audience Manager
 title: Getting Started with Profile Merge Rules
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
-index: y
-internal: n
-snippet: y
 ---
 
 # Getting Started with Profile Merge Rules {#getting-started-with-profile-merge-rules}

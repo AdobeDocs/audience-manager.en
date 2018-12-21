@@ -5,9 +5,6 @@ seo-title: Overlap Reports  Update Schedule and Minimum Segment Size
 solution: Audience Manager
 title: Overlap Reports  Update Schedule and Minimum Segment Size
 uuid: 35c1cb39-e28d-4d20-88c9-5ff4fe154e9e
-index: y
-internal: n
-snippet: y
 ---
 
 # Overlap Reports: Update Schedule and Minimum Segment Size{#overlap-reports-update-schedule-and-minimum-segment-size}

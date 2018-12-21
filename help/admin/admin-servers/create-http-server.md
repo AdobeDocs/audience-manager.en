@@ -4,9 +4,6 @@ seo-description: Use the Servers page in the Audience Manager Admin tool to crea
 seo-title: Create or Edit an HTTP Server
 title: Create or Edit an HTTP Server
 uuid: 1ef0e751-e239-4dc6-a4f6-73cc05686807
-index: y
-internal: n
-snippet: y
 ---
 
 # Create or Edit an HTTP Server

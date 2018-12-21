@@ -4,9 +4,6 @@ seo-description: Manage Audience Manager reports by creating new reports or by e
 seo-title: Reporting
 title: Reporting
 uuid: d857044b-926d-4862-b8bc-799cb3ecca56
-index: y
-internal: n
-snippet: y
 ---
 
 # Reporting{#reporting}

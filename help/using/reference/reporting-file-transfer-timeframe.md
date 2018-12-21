@@ -5,9 +5,6 @@ seo-title: How Data Delivery and File Processing Times Affect Reports
 solution: Audience Manager
 title: How Data Delivery and File Processing Times Affect Reports
 uuid: 4b975512-f67e-4749-a7ef-168415597682
-index: y
-internal: n
-snippet: y
 ---
 
 # How Data Delivery and File Processing Times Affect Reports{#how-data-delivery-and-file-processing-times-affect-reports}

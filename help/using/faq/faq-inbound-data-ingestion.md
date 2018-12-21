@@ -6,9 +6,6 @@ seo-title: Inbound Customer Data Ingestion FAQ
 solution: Audience Manager
 title: Inbound Customer Data Ingestion FAQ
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
-index: y
-internal: n
-snippet: y
 ---
 
 # Inbound Customer Data Ingestion FAQ{#inbound-customer-data-ingestion-faq}

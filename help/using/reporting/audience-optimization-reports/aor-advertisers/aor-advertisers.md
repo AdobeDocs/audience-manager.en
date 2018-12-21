@@ -5,9 +5,6 @@ seo-title: Audience Optimization for Advertisers
 solution: Audience Manager
 title: Audience Optimization for Advertisers
 uuid: 852d550e-3c7f-4750-9abc-365c3a6f7883
-index: y
-internal: n
-snippet: y
 ---
 
 # Audience Optimization for Advertisers{#audience-optimization-for-advertisers}

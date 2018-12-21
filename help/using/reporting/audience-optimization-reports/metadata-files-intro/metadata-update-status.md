@@ -5,9 +5,6 @@ seo-title: Status Updates for Metadata Files
 solution: Audience Manager
 title: Status Updates for Metadata Files
 uuid: 56a1e88a-41da-4d51-a21e-2be98cca7fa2
-index: y
-internal: n
-snippet: y
 ---
 
 # Status Updates for Metadata Files{#status-updates-for-metadata-files}

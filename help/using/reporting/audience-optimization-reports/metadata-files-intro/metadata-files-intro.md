@@ -5,9 +5,6 @@ seo-title: Data and Metadata Files for Audience Optimization Reports
 solution: Audience Manager
 title: Data and Metadata Files for Audience Optimization Reports
 uuid: 80aa4bc3-c660-4e65-8c22-2ddbb7bddd4f
-index: y
-internal: n
-snippet: y
 ---
 
 # Data and Metadata Files for Audience Optimization Reports{#data-and-metadata-files-for-audience-optimization-reports}

@@ -6,9 +6,6 @@ seo-title: Profile Merge Rules and Device Graph FAQ
 solution: Audience Manager
 title: Profile Merge Rules and Device Graph FAQ
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
-index: y
-internal: n
-snippet: y
 ---
 
 # Profile Merge Rules and Device Graph FAQ{#profile-merge-rules-and-device-graph-faq}

@@ -5,9 +5,6 @@ seo-title: Media Data Integration
 solution: Audience Manager
 title: Media Data Integration
 uuid: 6f6bbd03-084b-4226-8809-3b00b467606f
-index: y
-internal: n
-snippet: y
 ---
 
 # Media Data Integration{#media-data-integration}

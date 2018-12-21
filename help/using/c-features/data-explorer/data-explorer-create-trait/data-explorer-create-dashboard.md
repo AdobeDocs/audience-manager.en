@@ -4,9 +4,6 @@ seo-description: The Signal Dashboard allows you to create new traits from the T
 seo-title: Create Traits from Signal Dashboard
 title: Create Traits from Signal Dashboard
 uuid: 4f324404-0c24-4e3b-96c1-7c1b28a4536d
-index: y
-internal: n
-snippet: y
 ---
 
 # Create Traits from [!UICONTROL Signal Dashboard] {#create-traits-from-signal-dashboard}

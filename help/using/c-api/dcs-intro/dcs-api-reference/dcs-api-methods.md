@@ -5,9 +5,6 @@ seo-title: DCS API Methods
 solution: Audience Manager
 title: DCS API Methods
 uuid: 6e407458-11d4-4342-a84a-512afa5fc183
-index: y
-internal: n
-snippet: y
 ---
 
 # [!UICONTROL DCS] [!UICONTROL API] Methods {#dcs-api-methods}

@@ -5,9 +5,6 @@ seo-title: Segment-to-Segment Overlap Report
 solution: Audience Manager
 title: Segment-to-Segment Overlap Report
 uuid: 0339eb6c-6355-44a3-9c46-f159485449d1
-index: y
-internal: n
-snippet: y
 ---
 
 # Segment-to-Segment Overlap Report{#segment-to-segment-overlap-report}

@@ -5,9 +5,6 @@ seo-title: API and SDK Code
 solution: Audience Manager
 title: API and SDK Code
 uuid: bf801e84-f914-4efd-8807-c4972474894a
-index: y
-internal: n
-snippet: y
 ---
 
 # API and SDK Code {#api-and-sdk-code}

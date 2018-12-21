@@ -5,9 +5,6 @@ seo-title: API FAQ
 solution: Audience Manager
 title: API FAQ
 uuid: 8222ebf0-b50e-4f48-8021-dbfca2828b7c
-index: y
-internal: n
-snippet: y
 ---
 
 # API FAQ{#api-faq}

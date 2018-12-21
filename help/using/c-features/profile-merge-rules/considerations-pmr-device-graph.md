@@ -4,9 +4,6 @@ seo-description: Avoid using Profile Merge Rules with a Device Graph for segment
 seo-title: Important Considerations for Profile Merge Rules with Device Graphs
 title: Important Considerations for Profile Merge Rules with Device Graphs
 uuid: 93cd8861-210d-4c52-9cb7-6f2dd7dc018a
-index: y
-internal: n
-snippet: y
 ---
 
 # Important Considerations for Profile Merge Rules with Device Graphs {#important-considerations-for-profile-merge-rules-with-device-graphs}

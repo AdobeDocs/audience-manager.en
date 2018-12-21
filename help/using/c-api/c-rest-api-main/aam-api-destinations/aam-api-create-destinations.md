@@ -5,9 +5,6 @@ seo-title: Create Destinations
 solution: Audience Manager
 title: Create Destinations
 uuid: 12f04151-ad0e-4cb6-8f3b-b5c427dc2cef
-index: y
-internal: n
-snippet: y
 ---
 
 # Create Destinations {#create-destinations}

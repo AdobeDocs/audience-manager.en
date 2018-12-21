@@ -6,9 +6,6 @@ seo-title: Trait Qualification Reference
 solution: Audience Manager
 title: Trait Qualification Reference
 uuid: 07e0a639-2fb2-45d8-bad7-10fb46b08ba9
-index: y
-internal: n
-snippet: y
 ---
 
 # Trait Qualification Reference {#trait-qualification-reference}

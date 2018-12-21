@@ -5,9 +5,6 @@ seo-title: Manage Test Groups
 solution: Audience Manager
 title: Manage Test Groups
 uuid: 2fadddeb-7574-4853-8c52-c58456582c62
-index: y
-internal: n
-snippet: y
 ---
 
 # Manage Test Groups {#manage-test-groups}

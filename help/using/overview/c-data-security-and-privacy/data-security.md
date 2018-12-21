@@ -5,9 +5,6 @@ seo-title: Data Security
 solution: Audience Manager
 title: Data Security
 uuid: 33ad19ca-4690-4d97-853b-1882d7d4ac01
-index: y
-internal: n
-snippet: y
 ---
 
 # Data Security{#data-security}

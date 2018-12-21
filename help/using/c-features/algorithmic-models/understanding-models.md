@@ -7,9 +7,6 @@ solution: Audience Manager
 title: About Algorithmic Models
 topic: DIL API
 uuid: 39441e72-5316-453d-9aff-0e0b633aabcd
-index: y
-internal: n
-snippet: y
 ---
 
 # About Algorithmic Models {#about-algorithmic-models}

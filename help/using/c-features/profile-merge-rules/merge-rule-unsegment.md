@@ -5,9 +5,6 @@ seo-title: Profile Merge Rules and Device Un-Segmentation Processes
 solution: Audience Manager
 title: Profile Merge Rules and Device Un-Segmentation Processes
 uuid: b61c6de3-5fe4-4892-a05a-96a4cb35af34
-index: y
-internal: n
-snippet: y
 ---
 
 # [!UICONTROL Profile Merge Rules] and Device Un-Segmentation Processes {#profile-merge-rules-and-device-un-segmentation-processes}

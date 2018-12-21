@@ -5,9 +5,6 @@ seo-title: Counting Unique Users in Overlap and General Reports
 solution: Audience Manager
 title: Counting Unique Users in Overlap and General Reports
 uuid: 450f6a8c-f363-43de-b2d8-0a156f14ecae
-index: y
-internal: n
-snippet: y
 ---
 
 # Counting Unique Users in Overlap and General Reports{#counting-unique-users-in-overlap-and-general-reports}

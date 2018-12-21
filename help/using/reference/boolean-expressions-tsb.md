@@ -5,9 +5,6 @@ seo-title: Boolean Expressions in Trait and Segment Builder
 solution: Audience Manager
 title: Boolean Expressions in Trait and Segment Builder
 uuid: 14f02d3f-4c84-41fe-bc91-b34f0d49574a
-index: y
-internal: n
-snippet: y
 ---
 
 # Boolean Expressions in Trait and Segment Builder{#boolean-expressions-in-trait-and-segment-builder}

@@ -4,9 +4,6 @@ seo-description: View or edit data providers for containers.
 seo-title: Manage Containers
 title: Manage Containers
 uuid: 7dfcac5e-5502-4701-97f4-ae8015c3f0a6
-index: y
-internal: n
-snippet: y
 ---
 
 # Manage Containers{#manage-containers}

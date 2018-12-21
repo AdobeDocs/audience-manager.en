@@ -4,9 +4,6 @@ seo-description: View or edit containers and mappings for third-party data provi
 seo-title: Manage Third-Party Data Providers
 title: Manage Third-Party Data Providers
 uuid: e41dc7b2-8b06-4e81-9b3b-0f70e2fd3275
-index: y
-internal: n
-snippet: y
 ---
 
 # Manage Third-Party Data Providers{#manage-third-party-data-providers}

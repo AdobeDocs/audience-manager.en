@@ -5,9 +5,6 @@ seo-title: Segment API Methods
 solution: Audience Manager
 title: Segment API Methods
 uuid: a3ab199f-6181-4b36-a1d1-5c2dba7539d3
-index: y
-internal: n
-snippet: y
 ---
 
 # Segment API Methods {#segment-api-methods}

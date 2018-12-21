@@ -4,9 +4,6 @@ seo-description: Log in to the Account Management portal in Inside Adobe to requ
 seo-title: How to Request Functional Admin Access
 title: How to Request Functional Admin Access
 uuid: 261494ab-74e6-4465-b599-7a3e9c39e1e6
-index: y
-internal: n
-snippet: y
 ---
 
 # How to Request Functional Admin Access{#how-to-request-functional-admin-access}

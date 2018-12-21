@@ -4,9 +4,6 @@ seo-description: Lists the macros you can use to create FTP-based data files. So
 seo-title: File Format Macros
 title: File Format Macros
 uuid: f91c91b6-6581-4ed7-8d7f-f8532bd41df9
-index: y
-internal: n
-snippet: y
 ---
 
 # File Format Macros{#file-format-macros}

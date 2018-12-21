@@ -4,9 +4,6 @@ seo-description: Create new Audience Manager users or edit and delete existing u
 seo-title: Manage Company Users
 title: Manage Company Users
 uuid: 32c8a4e1-c29c-44d2-8cd4-f4f1be707492
-index: y
-internal: n
-snippet: y
 ---
 
 # Manage Company Users{#manage-company-users}

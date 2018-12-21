@@ -5,9 +5,6 @@ seo-title: Name and Content Requirements for ID Synchronization Files
 solution: Audience Manager
 title: Name and Content Requirements for ID Synchronization Files
 uuid: bfe42af9-9149-4da3-830e-f227c4e610c2
-index: y
-internal: n
-snippet: y
 ---
 
 # Name and Content Requirements for ID Synchronization Files{#name-and-content-requirements-for-id-synchronization-files}

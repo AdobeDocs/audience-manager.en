@@ -5,9 +5,6 @@ seo-title: Name Requirements for Key Variables
 solution: Audience Manager
 title: Name Requirements for Key Variables
 uuid: fa72e732-895d-4cf6-bea0-66b404c2b059
-index: y
-internal: n
-snippet: y
 ---
 
 # Name Requirements for Key Variables {#name-requirements-for-key-variables}

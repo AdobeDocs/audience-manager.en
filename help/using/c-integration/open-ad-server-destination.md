@@ -5,9 +5,6 @@ seo-title: OAS as an Audience Manager Destination
 solution: Audience Manager
 title: OAS as an Audience Manager Destination
 uuid: 5891a063-5a4b-4ea7-865f-b24e17ca735f
-index: y
-internal: n
-snippet: y
 ---
 
 # OAS as an Audience Manager Destination{#oas-as-an-audience-manager-destination}

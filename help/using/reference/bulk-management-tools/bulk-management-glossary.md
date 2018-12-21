@@ -5,9 +5,6 @@ seo-title: Bulk Management Tools Glossary
 solution: Audience Manager
 title: Bulk Management Tools Glossary
 uuid: 4658a6bc-9515-4d31-9715-0084760b0cea
-index: y
-internal: n
-snippet: y
 ---
 
 # Bulk Management Tools Glossary{#bulk-management-tools-glossary}

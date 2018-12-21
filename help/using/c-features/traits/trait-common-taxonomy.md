@@ -6,9 +6,6 @@ seo-title: Classifying Traits with a Common Taxonomy
 solution: Audience Manager
 title: Classifying Traits with a Common Taxonomy
 uuid: 2e177344-07d9-40a7-8c99-c6c6518b9d97
-index: y
-internal: n
-snippet: y
 ---
 
 # Classifying Traits with a Common Taxonomy {#classifying-traits-with-a-common-taxonomy}

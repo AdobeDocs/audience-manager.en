@@ -5,9 +5,6 @@ seo-title: Segments List View
 solution: Audience Manager
 title: Segments List View
 uuid: aa69877b-1d52-4b87-8734-b4bff39935a5
-index: y
-internal: n
-snippet: y
 ---
 
 # Segments List View {#segments-list-view}

@@ -5,9 +5,6 @@ seo-title: Capturing Campaign Impression Data via Pixel Calls
 solution: Audience Manager
 title: Capturing Campaign Impression Data via Pixel Calls
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
-index: y
-internal: n
-snippet: y
 ---
 
 # Capturing Campaign Impression Data via Pixel Calls{#capturing-campaign-impression-data-via-pixel-calls}

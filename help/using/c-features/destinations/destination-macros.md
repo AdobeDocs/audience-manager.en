@@ -5,9 +5,6 @@ seo-title: Destination Macros Defined
 solution: Audience Manager
 title: Destination Macros Defined
 uuid: 982cab05-8a3f-4f96-b4d0-291709712ad1
-index: y
-internal: n
-snippet: y
 ---
 
 # Destination Macros Defined {#destination-macros-defined}

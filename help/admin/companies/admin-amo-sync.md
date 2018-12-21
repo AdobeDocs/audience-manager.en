@@ -4,9 +4,6 @@ seo-description: By default, all companies sync data with Adobe Media Optimizer 
 seo-title: ID Syncing with Media Optimizer
 title: ID Syncing with Media Optimizer
 uuid: b741dfa7-2947-4288-b214-79eccf18d53a
-index: y
-internal: n
-snippet: y
 ---
 
 # ID Syncing with Media Optimizer{#id-syncing-with-media-optimizer}

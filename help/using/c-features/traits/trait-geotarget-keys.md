@@ -5,9 +5,6 @@ seo-title: Geotargeting With Platform-level Keys
 solution: Audience Manager
 title: Geotargeting With Platform-level Keys
 uuid: c7e4cbfe-e564-404e-a565-bbe5fd2fb519
-index: y
-internal: n
-snippet: y
 ---
 
 # Geotargeting With Platform-level Keys {#geotargeting-with-platform-level-keys}

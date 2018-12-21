@@ -5,9 +5,6 @@ seo-title: Unused Signals Report
 solution: Audience Manager
 title: Unused Signals Report
 uuid: 04334a5c-3e21-44db-b971-0b4457685e9a
-index: y
-internal: n
-snippet: y
 ---
 
 # Unused Signals Report{#unused-signals-report}

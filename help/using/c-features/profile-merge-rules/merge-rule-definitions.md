@@ -5,9 +5,6 @@ seo-title: Profile Merge Rule Options Defined
 solution: Audience Manager
 title: Profile Merge Rule Options Defined
 uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
-index: y
-internal: n
-snippet: y
 ---
 
 # Profile Merge Rule Options Defined {#profile-merge-rule-options-defined}

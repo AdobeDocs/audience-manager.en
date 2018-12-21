@@ -4,9 +4,6 @@ seo-description: A format is a saved template (or file) that uses macros to orga
 seo-title: Formats Overview
 title: Formats Overview
 uuid: ec80ac49-6ec5-4cd4-a881-a05240675c00
-index: y
-internal: n
-snippet: y
 ---
 
 # Formats Overview{#formats-overview}

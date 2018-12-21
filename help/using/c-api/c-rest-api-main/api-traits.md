@@ -5,9 +5,6 @@ seo-title: Trait API Methods
 solution: Audience Manager
 title: Trait API Methods
 uuid: 7359070c-0d7b-4dd9-8b8b-028e41bb5a4e
-index: y
-internal: n
-snippet: y
 ---
 
 # Trait API Methods {#trait-api-methods}

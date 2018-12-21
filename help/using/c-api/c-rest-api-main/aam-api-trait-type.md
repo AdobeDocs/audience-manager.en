@@ -5,9 +5,6 @@ seo-title: Trait Type Methods
 solution: Audience Manager
 title: Trait Type Methods
 uuid: 082931d5-457b-4622-817b-86303f38c26a
-index: y
-internal: n
-snippet: y
 ---
 
 # Trait Type Methods {#trait-type-methods}
