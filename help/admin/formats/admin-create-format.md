@@ -74,4 +74,3 @@ t_create_format.xml
 1. Click **[!UICONTROL Formats]**. 
 1. Click  ![](assets/icon_delete.png) in the **[!UICONTROL Actions]** column of the desired format. 
 1. Click **[!UICONTROL OK]** to confirm the deletion.
-
