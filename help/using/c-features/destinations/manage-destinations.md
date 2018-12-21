@@ -227,7 +227,7 @@ cookie-destination-options.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Example</b> </p> </td> 
-   <td colname="col2"> <p>As a simple example, let's say we have a fictitious site called sports.com. Sports.com has domains for golf, baseball, and football. To set a cookie in all the sports domains, you would type that in the <span class="wintitle"> Cookie Domain</span> box as shown below: </p> <p> <img href="assets/sports-domain.png" id="image_8883477BB3B543648C97A441AD34C6DE" /> </p> <p>This tells <span class="keyword"> Audience Manager</span> to set a cookie in any domain that contains the pattern <span class="varname"> something</span>.sports.com. See below for a more complex set of examples. </p> </td> 
+   <td colname="col2"> <p>As a simple example, let's say we have a fictitious site called sports.com. Sports.com has domains for golf, baseball, and football. To set a cookie in all the sports domains, you would type that in the <span class="wintitle"> Cookie Domain</span> box as shown below: </p> <p> <img src="assets/sports-domain.png" id="image_8883477BB3B543648C97A441AD34C6DE" /> </p> <p>This tells <span class="keyword"> Audience Manager</span> to set a cookie in any domain that contains the pattern <span class="varname"> something</span>.sports.com. See below for a more complex set of examples. </p> </td> 
   </tr> 
  </tbody> 
 </table>
