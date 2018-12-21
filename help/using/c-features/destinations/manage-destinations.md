@@ -176,28 +176,11 @@ This section contains options that let you set a base URL and data delimiters pa
 
 1. If you select **[!UICONTROL Serialize]**, then you must also configure the URL and delimiter fields described below.
 
-<table id="table_6D14A180300B4EFA8324958CFE9854DA"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Field </th> 
-   <th colname="col2" class="entry"> Description </th>
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Base URL</span> </p> </td>
-   <td colname="col2"> <p>The base part of a standard HTTP URL that does not change. Also, you need to place the <span class="codeph"> %ALIAS% </span><a href="../../c-features/destinations/destination-macros.md#destination-macros-defined"> placeholder macro</a> in the base URL. </p> <p>Example: <span class="codeph"> https://www.myCompany.com/?%alias%...</span> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Secure URL</span> </p> </td> 
-   <td colname="col2"> <p>The base part of a secure HTTPS URL that does not change. Also, you need to place the <span class="codeph"> %ALIAS% </span><a href="../../c-features/destinations/destination-macros.md#destination-macros-defined"> placeholder macro</a> in the base URL. </p> <p>Example: <span class="codeph"> https://www.myCompany.com/?%alias%...</span> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Delimiter</span> </p> </td> 
-   <td colname="col2"> <p>The symbol that separates the segment variables in the URL string. This is usually a comma or semi-colon. Get this information from your destination partner. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Field | Description |
+|--- |--- |
+|Base URL|The base part of a standard HTTP URL that does not change. Also, you need to place the `%ALIAS%` [placeholder macro](../../c-features/destinations/destination-macros.md#destination-macros-defined) in the base URL. Example: `https://www.myCompany.com/%alias%...`|
+|Secure URL|The base part of a secure HTTPS URL that does not change. Also, you need to place the `%ALIAS%` [placeholder macro](../../c-features/destinations/destination-macros.md#destination-macros-defined) in the base URL. Example:  `https://www.myCompany.com/%alias%...`|
+|Delimiter|The symbol that separates the segment variables in the URL string. This is usually a comma or semi-colon. Get this information from your destination partner.|
 
 ## Segment Mappings {#section_45FF2A8E4EB648488578365DB5D15219}
 
