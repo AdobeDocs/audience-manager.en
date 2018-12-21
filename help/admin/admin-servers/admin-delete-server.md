@@ -4,9 +4,6 @@ seo-description: Use the Servers page in the Audience Manager Admin tool to dele
 seo-title: Delete a Server
 title: Delete a Server
 uuid: 21d8feeb-a205-43bb-9bc1-9048c918a80a
-index: y
-internal: n
-snippet: y
 ---
 
 # Delete a Server{#delete-a-server}

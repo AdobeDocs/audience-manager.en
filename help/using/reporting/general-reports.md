@@ -5,9 +5,6 @@ seo-title: General Reports
 solution: Audience Manager
 title: General Reports
 uuid: 0cea75a0-969e-4ee3-971a-60b911711e52
-index: y
-internal: n
-snippet: y
 ---
 
 # Overview{#general-reports}

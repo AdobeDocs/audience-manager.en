@@ -5,9 +5,6 @@ seo-title: Getting Started with REST APIs
 solution: Audience Manager
 title: Getting Started with REST APIs
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
-index: y
-internal: n
-snippet: y
 ---
 
 # Getting Started with [!UICONTROL REST APIs] {#getting-started-with-rest-apis}

@@ -5,9 +5,6 @@ seo-title: Data Integration Methods
 solution: Audience Manager
 title: Data Integration Methods
 uuid: 17a4179a-e99b-49eb-8f45-f2946afbd27f
-index: y
-internal: n
-snippet: y
 ---
 
 # Data Integration Methods{#data-integration-methods}

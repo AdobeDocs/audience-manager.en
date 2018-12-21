@@ -5,9 +5,6 @@ seo-title: GDPR in Audience Manager
 solution: Audience Manager
 title: GDPR in Audience Manager
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
-index: y
-internal: n
-snippet: y
 ---
 
 # GDPR in Audience Manager{#gdpr-in-audience-manager}

@@ -5,9 +5,6 @@ seo-title: Content Format for Metadata Files
 solution: Audience Manager
 title: Content Format for Metadata Files
 uuid: 9ba44738-3e17-40c7-9e8c-5abd8361e16d
-index: y
-internal: n
-snippet: y
 ---
 
 # Content Format for Metadata Files{#content-format-for-metadata-files}

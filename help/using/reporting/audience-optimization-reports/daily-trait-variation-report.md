@@ -5,9 +5,6 @@ seo-title: Daily Trait Variation Report
 solution: Audience Manager
 title: Daily Trait Variation Report
 uuid: 4e82bb17-d447-4ed1-a4fc-e15b0f1b47f0
-index: y
-internal: n
-snippet: y
 ---
 
 # Daily Trait Variation Report{#daily-trait-variation-report}

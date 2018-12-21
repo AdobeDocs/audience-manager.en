@@ -5,9 +5,6 @@ seo-title: Supported Attributes for DCS API Calls
 solution: Audience Manager
 title: Supported Attributes for DCS API Calls
 uuid: 0b98ed11-314b-4500-afde-45a041112150
-index: y
-internal: n
-snippet: y
 ---
 
 # Supported Attributes for [!UICONTROL DCS] API Calls {#supported-attributes-for-dcs-api-calls}

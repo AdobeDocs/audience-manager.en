@@ -5,9 +5,6 @@ seo-title: Create or Update Trait Rules and Segment Rules
 solution: Audience Manager
 title: Create or Update Trait Rules and Segment Rules
 uuid: bdd5f8f1-bb83-4844-b681-654e45ace3e1
-index: y
-internal: n
-snippet: y
 ---
 
 # Create or Update Trait Rules and Segment Rules{#create-or-update-trait-rules-and-segment-rules}

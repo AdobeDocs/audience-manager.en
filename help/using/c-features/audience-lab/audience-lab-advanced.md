@@ -5,9 +5,6 @@ seo-title: Audience Lab Advanced Functionality
 solution: Audience Manager
 title: Audience Lab Advanced Functionality
 uuid: 0f57d634-caa0-40da-81a2-c23fbd299bfd
-index: y
-internal: n
-snippet: y
 ---
 
 # [!DNL Audience Lab] Advanced Functionality {#audience-lab-advanced-functionality}

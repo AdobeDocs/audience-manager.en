@@ -6,9 +6,6 @@ seo-title: Folder Traits  About
 solution: Audience Manager
 title: Folder Traits  About
 uuid: e561ce8f-6c90-44a7-b034-685533f29030
-index: y
-internal: n
-snippet: y
 ---
 
 # Folder Traits: About {#folder-traits-about}

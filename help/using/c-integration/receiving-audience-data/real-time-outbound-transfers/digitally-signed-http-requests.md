@@ -5,9 +5,6 @@ seo-title: Digitally Signed HTTP Requests
 solution: Audience Manager
 title: Digitally Signed HTTP Requests
 uuid: 1183a70f-0c96-42cf-a4f5-37a83ffa1286
-index: y
-internal: n
-snippet: y
 ---
 
 # Digitally Signed HTTP Requests{#digitally-signed-http-requests}

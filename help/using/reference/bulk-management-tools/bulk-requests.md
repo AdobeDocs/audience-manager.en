@@ -5,9 +5,6 @@ seo-title: Bulk Requests
 solution: Audience Manager
 title: Bulk Requests
 uuid: 0192d26a-4cea-4e12-9fea-388b92b382f1
-index: y
-internal: n
-snippet: y
 ---
 
 # Bulk Requests{#bulk-requests}

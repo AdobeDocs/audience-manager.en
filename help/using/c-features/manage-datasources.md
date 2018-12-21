@@ -6,9 +6,6 @@ seo-title: Create a Data Source
 solution: Audience Manager
 title: Create a Data Source
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
-index: y
-internal: n
-snippet: y
 ---
 
 # Manage Data Sources {#manage-data-sources}

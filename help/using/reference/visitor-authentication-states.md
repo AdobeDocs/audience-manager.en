@@ -6,9 +6,6 @@ seo-title: Visitor Authentication States in Audience Manager
 solution: Audience Manager
 title: Visitor Authentication States in Audience Manager
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
-index: y
-internal: n
-snippet: y
 ---
 
 # Visitor Authentication States in Audience Manager{#visitor-authentication-states-in-audience-manager}

@@ -5,9 +5,6 @@ seo-title: File PGP Encryption for Inbound Data Types
 solution: Audience Manager
 title: File PGP Encryption for Inbound Data Types
 uuid: 89caace1-0259-48fc-865b-d525ec7822f7
-index: y
-internal: n
-snippet: y
 ---
 
 # File PGP Encryption for Inbound Data Types{#file-pgp-encryption-for-inbound-data-types}

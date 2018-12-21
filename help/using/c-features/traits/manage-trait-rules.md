@@ -5,9 +5,6 @@ seo-title: Managing Trait Rules
 solution: Audience Manager
 title: Managing Trait Rules
 uuid: 827d4567-2b6f-411e-bd5c-9735c916291a
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing Trait Rules {#managing-trait-rules}

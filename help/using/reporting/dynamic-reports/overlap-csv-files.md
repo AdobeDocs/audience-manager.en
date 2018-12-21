@@ -5,9 +5,6 @@ seo-title: CSV Files for Overlap Reports
 solution: Audience Manager
 title: CSV Files for Overlap Reports
 uuid: 047e440e-00c5-4d06-a809-51d776326cd6
-index: y
-internal: n
-snippet: y
 ---
 
 # CSV Files for Overlap Reports{#csv-files-for-overlap-reports}

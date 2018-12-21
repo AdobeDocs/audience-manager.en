@@ -4,9 +4,6 @@ seo-description: Manage the following limits for the company  algorithmic models
 seo-title: Manage Company Limits
 title: Manage Company Limits
 uuid: 67a19fb2-8322-47ce-afa4-f6b78c52f814
-index: y
-internal: n
-snippet: y
 ---
 
 # Manage Company Limits{#manage-company-limits}

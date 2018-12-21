@@ -5,9 +5,6 @@ seo-title: GDPR FAQ
 solution: Audience Manager
 title: GDPR FAQ
 uuid: e52cad27-6a44-45ee-8524-6080adb86cc8
-index: y
-internal: n
-snippet: y
 ---
 
 # GDPR FAQ{#gdpr-faq}

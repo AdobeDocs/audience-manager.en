@@ -5,9 +5,6 @@ seo-title: Bulk Delete
 solution: Audience Manager
 title: Bulk Delete
 uuid: 679cde46-09fb-45c6-b84d-47e00e0e7c0a
-index: y
-internal: n
-snippet: y
 ---
 
 # Bulk Delete{#bulk-delete}

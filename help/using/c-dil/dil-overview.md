@@ -5,9 +5,6 @@ seo-title: Understanding the Data Integration Library (DIL)
 solution: Audience Manager
 title: Understanding the Data Integration Library (DIL)
 uuid: 77b12f35-81e4-4639-ada6-bf982f27b36e
-index: y
-internal: n
-snippet: y
 ---
 
 # Understanding the Data Integration Library (DIL){#understanding-the-data-integration-library-dil}

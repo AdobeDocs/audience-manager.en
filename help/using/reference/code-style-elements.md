@@ -5,9 +5,6 @@ seo-title: Style Conventions for Code and Text Elements
 solution: Audience Manager
 title: Style Conventions for Code and Text Elements
 uuid: 7605604d-bc76-4063-ba92-52c88bd69e3c
-index: y
-internal: n
-snippet: y
 ---
 
 # Style Conventions for Code and Text Elements{#style-conventions-for-code-and-text-elements}

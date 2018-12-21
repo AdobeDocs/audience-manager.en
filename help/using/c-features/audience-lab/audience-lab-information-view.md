@@ -6,9 +6,6 @@ solution: Audience Manager
 title: Test Group Information
 topic: DIL API
 uuid: a49dfdb3-21e1-4c3d-b957-4d445f890124
-index: y
-internal: n
-snippet: y
 ---
 
 # Test Group Information {#test-group-information}

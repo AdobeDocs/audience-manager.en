@@ -5,9 +5,6 @@ seo-title: Reporting FAQ
 solution: Audience Manager
 title: Reporting FAQ
 uuid: 78cd6c86-8a4a-4748-ab71-b6e8d6078c94
-index: y
-internal: n
-snippet: y
 ---
 
 # Reporting FAQ{#reporting-faq}

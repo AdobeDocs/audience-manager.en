@@ -5,9 +5,6 @@ seo-title: Recency and Frequency
 solution: Audience Manager
 title: Recency and Frequency
 uuid: faadd18a-bf27-4b73-995e-9809f52f5350
-index: y
-internal: n
-snippet: y
 ---
 
 # Recency and Frequency {#recency-and-frequency}

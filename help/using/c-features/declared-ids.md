@@ -5,9 +5,6 @@ seo-title: Declared IDs
 solution: Audience Manager
 title: Declared IDs
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
-index: y
-internal: n
-snippet: y
 ---
 
 # Declared IDs {#declared-ids}

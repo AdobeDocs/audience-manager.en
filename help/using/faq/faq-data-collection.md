@@ -5,9 +5,6 @@ seo-title: Data Collection and Product Integration FAQ
 solution: Audience Manager
 title: Data Collection and Product Integration FAQ
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
-index: y
-internal: n
-snippet: y
 ---
 
 # Data Collection and Product Integration FAQ{#data-collection-and-product-integration-faq}

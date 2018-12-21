@@ -4,9 +4,6 @@ seo-description: Lists the macros you can use to create HTTP data files. HTTP se
 seo-title: HTTP Format Macros
 title: HTTP Format Macros
 uuid: 91021f60-75d0-4b1d-86ca-91c9dadafac1
-index: y
-internal: n
-snippet: y
 ---
 
 # HTTP Format Macros{#http-format-macros}

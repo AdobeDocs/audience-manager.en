@@ -5,9 +5,6 @@ seo-title: Audience Manager Product Documentation
 solution: Audience Manager
 title: Audience Manager Product Documentation
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
-index: y
-internal: n
-snippet: y
 ---
 
 # Audience Manager Product Documentation{#audience-manager-product-documentation}

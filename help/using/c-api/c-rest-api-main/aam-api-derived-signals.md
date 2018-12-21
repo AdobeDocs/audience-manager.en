@@ -5,9 +5,6 @@ seo-title: Derived Signals API Methods
 solution: Audience Manager
 title: Derived Signals API Methods
 uuid: 698019bc-d7f6-41e0-a78a-1ab0bf0e65a0
-index: y
-internal: n
-snippet: y
 ---
 
 # Derived Signals API Methods {#derived-signals-api-methods}

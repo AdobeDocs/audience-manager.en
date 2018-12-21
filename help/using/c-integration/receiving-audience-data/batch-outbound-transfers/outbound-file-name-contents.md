@@ -5,9 +5,6 @@ seo-title: Outbound Data File Name  Syntax and Examples
 solution: Audience Manager
 title: Outbound Data File Name  Syntax and Examples
 uuid: effdcaf6-c37c-45f3-9d2f-a938a9da47a6
-index: y
-internal: n
-snippet: y
 ---
 
 # Outbound Data File Name: Syntax and Examples{#outbound-data-file-name-syntax-and-examples}

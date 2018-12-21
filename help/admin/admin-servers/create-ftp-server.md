@@ -4,9 +4,6 @@ seo-description: Use the Servers page in the Audience Manager Admin tool to crea
 seo-title: Create or Edit an FTP Server
 title: Create or Edit an FTP Server
 uuid: 9273abb2-963d-4d83-bf5a-b3817f0b90e6
-index: y
-internal: n
-snippet: y
 ---
 
 # Create or Edit an FTP Server{#create-or-edit-an-ftp-server}

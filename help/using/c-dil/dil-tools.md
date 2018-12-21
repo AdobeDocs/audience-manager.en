@@ -5,9 +5,6 @@ seo-title: DIL Tools
 solution: Audience Manager
 title: DIL Tools
 uuid: 2bc62ce2-16bd-4e80-b493-c816ba643b59
-index: y
-internal: n
-snippet: y
 ---
 
 # DIL Tools

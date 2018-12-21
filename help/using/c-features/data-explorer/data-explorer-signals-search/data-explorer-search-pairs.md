@@ -4,9 +4,6 @@ seo-description: Search for one or multiple signals, based on their respective k
 seo-title: Search Signals by Key-Value Pairs
 title: Search Signals by Key-Value Pairs
 uuid: 2a38d0d4-4a2e-4ca5-b9ec-af9d4963d876
-index: y
-internal: n
-snippet: y
 ---
 
 # Search Signals by Key-Value Pairs {#search-signals-by-key-value-pairs}

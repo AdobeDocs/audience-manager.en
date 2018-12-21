@@ -6,9 +6,6 @@ seo-title: Actionable Log Files
 solution: Audience Manager
 title: Actionable Log Files
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
-index: y
-internal: n
-snippet: y
 ---
 
 # Actionable Log Files{#actionable-log-files}

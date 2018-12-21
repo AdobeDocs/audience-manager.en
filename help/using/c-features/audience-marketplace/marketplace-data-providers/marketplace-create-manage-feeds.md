@@ -6,9 +6,6 @@ solution: Audience Manager
 title: Create, Price, and Manage Data Feeds
 topic: DIL API
 uuid: e28c20b3-33fc-4485-8ee9-8530d126f741
-index: y
-internal: n
-snippet: y
 ---
 
 # Create, Price, and Manage Data Feeds {#create-price-and-manage-data-feeds}

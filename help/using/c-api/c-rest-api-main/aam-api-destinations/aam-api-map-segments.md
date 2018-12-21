@@ -5,9 +5,6 @@ seo-title: Map Segments to a Destination
 solution: Audience Manager
 title: Map Segments to a Destination
 uuid: 35358ace-3082-4e86-a6eb-d77281af6d7e
-index: y
-internal: n
-snippet: y
 ---
 
 # Map Segments to a Destination {#map-segments-to-a-destination}

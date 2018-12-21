@@ -5,9 +5,6 @@ seo-title: Supported Browsers
 solution: Audience Manager
 title: Supported Browsers
 uuid: dffecdb5-d94d-4001-8f2a-9d1d77ce2213
-index: y
-internal: n
-snippet: y
 ---
 
 # Supported Browsers{#supported-browsers}

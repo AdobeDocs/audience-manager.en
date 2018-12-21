@@ -5,9 +5,6 @@ seo-title: Data Privacy
 solution: Audience Manager
 title: Data Privacy
 uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
-index: y
-internal: n
-snippet: y
 ---
 
 # Data Privacy{#data-privacy}

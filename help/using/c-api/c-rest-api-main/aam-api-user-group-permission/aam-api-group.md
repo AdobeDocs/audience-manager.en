@@ -5,9 +5,6 @@ seo-title: Group Management API Methods
 solution: Audience Manager
 title: Group Management API Methods
 uuid: fe042eb5-ea12-42fe-be98-d721f987a914
-index: y
-internal: n
-snippet: y
 ---
 
 # Group Management API Methods {#group-management-api-methods}

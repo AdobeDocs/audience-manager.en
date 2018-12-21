@@ -5,9 +5,6 @@ seo-title: Taxonomic API Methods
 solution: Audience Manager
 title: Taxonomic API Methods
 uuid: 4ee29ba5-e9ba-4498-a6ee-7343227dd7ba
-index: y
-internal: n
-snippet: y
 ---
 
 # Taxonomic API Methods {#taxonomic-api-methods}

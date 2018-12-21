@@ -7,9 +7,6 @@ solution: Audience Manager
 title: Addressable Audiences
 topic: DIL API
 uuid: 3eb1335a-6949-452b-b77a-697c22856cb3
-index: y
-internal: n
-snippet: y
 ---
 
 # Addressable Audiences {#addressable-audiences}

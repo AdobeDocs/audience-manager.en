@@ -6,9 +6,6 @@ seo-title: Create Rules-Based or Onboarded Traits
 solution: Audience Manager
 title: Create Rules-Based or Onboarded Traits
 uuid: 4243e09f-1f96-443a-864a-d6e6918079fa
-index: y
-internal: n
-snippet: y
 ---
 
 # Create Rules-Based or Onboarded Traits {#create-rules-based-or-onboarded-traits}

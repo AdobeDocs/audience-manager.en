@@ -5,9 +5,6 @@ seo-title: DCS Error Codes, Messages, and Examples
 solution: Audience Manager
 title: DCS Error Codes, Messages, and Examples
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
-index: y
-internal: n
-snippet: y
 ---
 
 # [!UICONTROL DCS] Error Codes, Messages, and Examples{#dcs-error-codes-messages-and-examples}

@@ -4,9 +4,6 @@ seo-description: Use the Integration Users page to view a list of users in your 
 seo-title: Integration Users
 title: Integration Users
 uuid: 13dcb3fb-4561-409c-84da-943d0d390cf3
-index: y
-internal: n
-snippet: y
 ---
 
 # Integration Users{#integration-users}

@@ -5,9 +5,6 @@ seo-title: Data Files for Audience Optimization Reports
 solution: Audience Manager
 title: Data Files for Audience Optimization Reports
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
-index: y
-internal: n
-snippet: y
 ---
 
 # Data Files for Audience Optimization Reports{#data-files-for-audience-optimization-reports}

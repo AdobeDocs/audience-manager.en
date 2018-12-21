@@ -5,9 +5,6 @@ seo-title: Send Segments to a Google AdWords Remarketing List
 solution: Audience Manager
 title: Send Segments to a Google AdWords Remarketing List
 uuid: 5ad821c6-48b4-42c0-b912-1563331e93a2
-index: y
-internal: n
-snippet: y
 ---
 
 # Send Segments to a Google AdWords Remarketing List{#send-segments-to-a-google-adwords-remarketing-list}

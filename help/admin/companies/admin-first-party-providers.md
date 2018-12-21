@@ -4,9 +4,6 @@ seo-description: View or edit containers and mappings for first-party data provi
 seo-title: Manage First Party Data Providers
 title: Manage First Party Data Providers
 uuid: 222890cb-2ebd-4e16-a516-51000891ed34
-index: y
-internal: n
-snippet: y
 ---
 
 # Manage First Party Data Providers{#manage-first-party-data-providers}

@@ -5,9 +5,6 @@ seo-title: Private Data Feeds
 solution: Audience Manager
 title: Private Data Feeds
 uuid: e4ca59ca-bbc9-4897-9374-8f3d54b2beee
-index: y
-internal: n
-snippet: y
 ---
 
 # Private Data Feeds {#private-data-feeds}

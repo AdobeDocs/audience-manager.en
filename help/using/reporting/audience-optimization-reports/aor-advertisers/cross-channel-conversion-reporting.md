@@ -5,9 +5,6 @@ seo-title: Cross Channel Conversion
 solution: Audience Manager
 title: Cross Channel Conversion
 uuid: 0fecec23-e502-490b-b7dd-47a3753a3f75
-index: y
-internal: n
-snippet: y
 ---
 
 # Cross Channel Conversion{#cross-channel-conversion}

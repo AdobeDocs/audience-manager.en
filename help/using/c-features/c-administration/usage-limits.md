@@ -6,9 +6,6 @@ solution: Audience Manager
 title: Usage Limits
 topic: DIL API
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
-index: y
-internal: n
-snippet: y
 ---
 
 # Usage Limits {#usage-limits}

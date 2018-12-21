@@ -5,9 +5,6 @@ seo-title: Segment Trend Report
 solution: Audience Manager
 title: Segment Trend Report
 uuid: f84e8d0a-74e5-430c-b61c-efb696faee93
-index: y
-internal: n
-snippet: y
 ---
 
 # Segment Trend Report{#segment-trend-report}

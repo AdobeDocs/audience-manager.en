@@ -5,9 +5,6 @@ seo-title: Modify the GPT setTargeting API Call
 solution: Audience Manager
 title: Modify the GPT setTargeting API Call
 uuid: 0cd38f30-5d29-4511-a779-d32587f1dafb
-index: y
-internal: n
-snippet: y
 ---
 
 # Modify the GPT setTargeting API Call{#modify-the-gpt-settargeting-api-call}

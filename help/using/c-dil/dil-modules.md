@@ -5,9 +5,6 @@ seo-title: DIL Modules
 solution: Audience Manager
 title: DIL Modules
 uuid: d4c0d8dd-79f8-448e-b17c-c935415dd449
-index: y
-internal: n
-snippet: y
 ---
 
 # DIL Modules{#dil-modules}

@@ -5,9 +5,6 @@ seo-title: Send Data to the DCS
 solution: Audience Manager
 title: Send Data to the DCS
 uuid: 024e307d-bfcb-46cf-ac3a-fc71df0248fe
-index: y
-internal: n
-snippet: y
 ---
 
 # Send Data to the [!UICONTROL DCS] {#send-data-to-the-dcs}

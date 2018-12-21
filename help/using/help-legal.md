@@ -5,9 +5,6 @@ seo-title: Help and Legal
 solution: Audience Manager
 title: Help and Legal
 uuid: 522c9b17-3712-4619-9197-15d50eb97045
-index: y
-internal: n
-snippet: y
 ---
 
 # Help and Legal{#help-and-legal}

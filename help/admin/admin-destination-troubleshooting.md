@@ -4,9 +4,6 @@ seo-description: Information to help you set up destinations in Audience Manager
 seo-title: Destination Setup Troubleshooting
 title: Destination Setup Troubleshooting
 uuid: 04080fb9-6c7b-4de7-960e-54482be2de83
-index: y
-internal: n
-snippet: y
 ---
 
 # Destination Setup Troubleshooting{#destination-setup-troubleshooting}

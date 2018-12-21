@@ -7,9 +7,6 @@ solution: Audience Manager
 title: Create an Algorithmic Model
 topic: DIL API
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
-index: y
-internal: n
-snippet: y
 ---
 
 # Create an Algorithmic Model {#create-an-algorithmic-model}

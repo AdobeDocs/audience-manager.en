@@ -5,9 +5,6 @@ seo-title: Onboarding Status Report  About
 solution: Audience Manager
 title: Onboarding Status Report  About
 uuid: 6ca8a90a-436b-4fce-adf1-48f3b96b3ed2
-index: y
-internal: n
-snippet: y
 ---
 
 # Onboarding Status Report: About{#onboarding-status-report-about}

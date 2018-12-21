@@ -5,9 +5,6 @@ seo-title: Integrate Audience Manager With Target
 solution: Audience Manager
 title: Integrate Audience Manager With Target
 uuid: c5ca2101-99fb-4178-9839-3ec5b605c040
-index: y
-internal: n
-snippet: y
 ---
 
 # Integrate Audience Manager With Target{#integrate-audience-manager-with-target}

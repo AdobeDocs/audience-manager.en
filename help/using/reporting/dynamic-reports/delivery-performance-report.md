@@ -5,9 +5,6 @@ seo-title: Delivery and Performance Report
 solution: Audience Manager
 title: Delivery and Performance Report
 uuid: c8daa6bc-50d6-4c2c-a45a-5b7065fd88f9
-index: y
-internal: n
-snippet: y
 ---
 
 # Delivery and Performance Report{#delivery-and-performance-report}

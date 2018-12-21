@@ -5,9 +5,6 @@ seo-title: Manage Destinations
 solution: Audience Manager
 title: Manage Destinations
 uuid: 6b66ff42-0075-49a7-a58f-7f8ea2295fdc
-index: y
-internal: n
-snippet: y
 ---
 
 # Manage Destinations {#manage-destinations}

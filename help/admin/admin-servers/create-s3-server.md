@@ -4,9 +4,6 @@ seo-description: Use the Servers page in the Audience Manager Admin tool to crea
 seo-title: Create or Edit an S3 Server
 title: Create or Edit an S3 Server
 uuid: 94fee787-eb26-45aa-b602-d61ab12969ea
-index: y
-internal: n
-snippet: y
 ---
 
 # Create or Edit an S3 Server{#create-or-edit-an-s-server}

@@ -5,9 +5,6 @@ seo-title: Audience Manager API Code Migration
 solution: Audience Manager
 title: Audience Manager API Code Migration
 uuid: 93cc28c4-4b91-4c79-93d5-ece9bb4cc9d5
-index: y
-internal: n
-snippet: y
 ---
 
 # Audience Manager API Code Migration {#audience-manager-api-code-migration}

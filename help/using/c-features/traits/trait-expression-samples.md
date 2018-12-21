@@ -5,9 +5,6 @@ seo-title: Sample Expressions With Boolean and Comparison Operators
 solution: Audience Manager
 title: Sample Expressions With Boolean and Comparison Operators
 uuid: ee74c376-2099-4816-8694-43f58845a0ac
-index: y
-internal: n
-snippet: y
 ---
 
 # Sample Expressions With Boolean and Comparison Operators {#sample-expressions-with-boolean-and-comparison-operators}

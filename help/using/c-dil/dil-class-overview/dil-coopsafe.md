@@ -5,9 +5,6 @@ seo-title: isCoopSafe
 solution: Audience Manager
 title: isCoopSafe
 uuid: c5362a38-93c0-4edb-bdcb-106e43f33a92
-index: y
-internal: n
-snippet: y
 ---
 
 # isCoopSafe{#iscoopsafe}

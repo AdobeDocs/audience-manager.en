@@ -4,9 +4,6 @@ seo-description: Use the Reporting page to make a portal user a Tableau user. Th
 seo-title: Assign a Portal User to Tableau User
 title: Assign a Portal User to Tableau User
 uuid: aa2cc6b5-6467-48ba-9367-0be6fde6a883
-index: y
-internal: n
-snippet: y
 ---
 
 # Assign a Portal User to Tableau User{#assign-a-portal-user-to-tableau-user}

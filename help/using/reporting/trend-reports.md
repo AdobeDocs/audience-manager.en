@@ -5,9 +5,6 @@ seo-title: Trend Reports
 solution: Audience Manager
 title: Trend Reports
 uuid: bedbe7d4-7cbb-4403-9104-312f9230aea1
-index: y
-internal: n
-snippet: y
 ---
 
 # Trend Reports{#trend-reports}

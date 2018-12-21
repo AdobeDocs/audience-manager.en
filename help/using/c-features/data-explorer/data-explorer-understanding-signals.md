@@ -4,9 +4,6 @@ seo-description: Signals are the smallest unit of information within Audience Ma
 seo-title: Understanding Signals
 title: Understanding Signals
 uuid: 04a0554e-954e-484a-8838-9161ef416872
-index: y
-internal: n
-snippet: y
 ---
 
 # Understanding Signals

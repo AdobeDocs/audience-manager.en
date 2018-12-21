@@ -6,9 +6,6 @@ solution: Audience Manager
 title: Audience Lab FAQ
 topic: DIL API
 uuid: b1daf99d-af60-4f65-987d-794a6d45d566
-index: y
-internal: n
-snippet: y
 ---
 
 # Audience Lab FAQ{#audience-lab-faq}

@@ -5,9 +5,6 @@ seo-title: Segment Builder
 solution: Audience Manager
 title: Segment Builder
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
-index: y
-internal: n
-snippet: y
 ---
 
 # Segment Builder {#segment-builder}

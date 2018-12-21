@@ -6,9 +6,6 @@ solution: Audience Manager
 title: Billing for Data Feed Providers
 topic: DIL API
 uuid: 4e11dbd2-91fd-4b59-a66d-86a92e0de655
-index: y
-internal: n
-snippet: y
 ---
 
 # Billing for Data Feed Providers {#billing-for-data-feed-providers}

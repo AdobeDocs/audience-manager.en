@@ -4,9 +4,6 @@ seo-description: Edit the details of your Audience Manager Admin tool profile or
 seo-title: My Profile
 title: My Profile
 uuid: ccaa611d-c855-484e-9696-081d9b4e0935
-index: y
-internal: n
-snippet: y
 ---
 
 # My Profile{#my-profile}

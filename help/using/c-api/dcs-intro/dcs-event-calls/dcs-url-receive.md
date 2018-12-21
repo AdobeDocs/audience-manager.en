@@ -5,9 +5,6 @@ seo-title: Receive Data From the DCS
 solution: Audience Manager
 title: Receive Data From the DCS
 uuid: fbb77197-8530-48a8-b708-d785f7214494
-index: y
-internal: n
-snippet: y
 ---
 
 # Receive Data From the [!UICONTROL DCS] {#receive-data-from-the-dcs}

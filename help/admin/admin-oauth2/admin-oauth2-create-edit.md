@@ -4,9 +4,6 @@ seo-description: Use the OAuth2 Clients page to view a list of OAuth2 clients in
 seo-title: OAuth2 Clients
 title: OAuth2 Clients
 uuid: 3e654053-fb2f-4d8f-a53c-b5c3b8dbdaaa
-index: y
-internal: n
-snippet: y
 ---
 
 # OAuth2 Clients{#oauth-clients}

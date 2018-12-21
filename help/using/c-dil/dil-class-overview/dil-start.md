@@ -5,9 +5,6 @@ seo-title: Getting Started With Class-level DIL APIs
 solution: Audience Manager
 title: Getting Started With Class-level DIL APIs
 uuid: 00c1136a-5f08-4104-b0ed-3de847cecd16
-index: y
-internal: n
-snippet: y
 ---
 
 # Getting Started With Class-level DIL APIs{#getting-started-with-class-level-dil-apis}

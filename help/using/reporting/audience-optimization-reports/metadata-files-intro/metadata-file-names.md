@@ -5,9 +5,6 @@ seo-title: Naming Conventions for Metadata Files
 solution: Audience Manager
 title: Naming Conventions for Metadata Files
 uuid: cab55b2a-2e54-45f6-aeea-3735b911f821
-index: y
-internal: n
-snippet: y
 ---
 
 # Naming Conventions for Metadata Files{#naming-conventions-for-metadata-files}

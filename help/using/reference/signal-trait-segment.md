@@ -5,9 +5,6 @@ seo-title: Signals, Traits, and Segments
 solution: Audience Manager
 title: Signals, Traits, and Segments
 uuid: 485fcc5c-b289-463b-a610-0d727df90f3c
-index: y
-internal: n
-snippet: y
 ---
 
 # Signals, Traits, and Segments{#signals-traits-and-segments}

@@ -4,9 +4,6 @@ seo-description: Examples of some commonly used HTTP macro combinations.
 seo-title: HTTP Format Macro Examples
 title: HTTP Format Macro Examples
 uuid: a81a2e2a-de7e-4b6a-8771-fcfa0dc74570
-index: y
-internal: n
-snippet: y
 ---
 
 # HTTP Format Macro Examples{#http-format-macro-examples}

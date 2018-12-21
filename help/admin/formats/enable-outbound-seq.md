@@ -4,9 +4,6 @@ seo-description: You can enable binary Hadoop Sequence Files (SEQ) outbound batc
 seo-title: Enable Hadoop Sequence File Transfers for Outbound
 title: Enable Hadoop Sequence File Transfers for Outbound
 uuid: 301985b1-5ff6-4112-a353-2e5a97e7eec0
-index: y
-internal: n
-snippet: y
 ---
 
 # Enable Hadoop Sequence File Transfers for Outbound{#enable-hadoop-sequence-file-transfers-for-outbound}

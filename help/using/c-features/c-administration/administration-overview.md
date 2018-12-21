@@ -7,9 +7,6 @@ solution: Audience Manager
 title: Administration
 topic: DIL API
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
-index: y
-internal: n
-snippet: y
 ---
 
 # Administration {#administration}

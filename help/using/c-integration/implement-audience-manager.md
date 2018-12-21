@@ -5,9 +5,6 @@ seo-title: Implementing Audience Manager
 solution: Audience Manager
 title: Implementing Audience Manager
 uuid: 89369224-3b21-45a9-a4ed-a0a977410520
-index: y
-internal: n
-snippet: y
 ---
 
 # Implementing Audience Manager{#implementing-audience-manager}

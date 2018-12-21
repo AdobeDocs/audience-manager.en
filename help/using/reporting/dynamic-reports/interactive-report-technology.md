@@ -5,9 +5,6 @@ seo-title: Report Technology
 solution: Audience Manager
 title: Report Technology
 uuid: 5f3d815b-e1e6-42f2-b848-ac035a5aa77d
-index: y
-internal: n
-snippet: y
 ---
 
 # Report Technology{#report-technology}

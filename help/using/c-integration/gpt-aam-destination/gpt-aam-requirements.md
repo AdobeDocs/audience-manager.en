@@ -5,9 +5,6 @@ seo-title: Requirements and Methods of Sending Segments to DFP Using Google Publ
 solution: Audience Manager
 title: Requirements and Methods of Sending Segments to DFP Using Google Publisher Tags (GPT)
 uuid: 4b2ea81c-29bb-42d3-93d3-1d8e677790b6
-index: y
-internal: n
-snippet: y
 ---
 
 # Requirements and Methods of Sending Segments to DFP Using Google Publisher Tags (GPT){#requirements-and-methods-of-sending-segments-to-dfp-using-google-publisher-tags-gpt}

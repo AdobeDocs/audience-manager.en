@@ -6,9 +6,6 @@ seo-title: Manage Folder Traits
 solution: Audience Manager
 title: Manage Folder Traits
 uuid: 287ac280-bd58-4985-85bd-b6501eb64b7f
-index: y
-internal: n
-snippet: y
 ---
 
 # Manage Folder Traits {#manage-folder-traits}

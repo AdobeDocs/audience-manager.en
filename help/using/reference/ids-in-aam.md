@@ -6,9 +6,6 @@ seo-title: Index of IDs in Audience Manager
 solution: Audience Manager
 title: Index of IDs in Audience Manager
 uuid: 292185ec-7c6a-414b-ab17-800c21cb1f01
-index: y
-internal: n
-snippet: y
 ---
 
 # Index of IDs in Audience Manager{#index-of-ids-in-audience-manager}

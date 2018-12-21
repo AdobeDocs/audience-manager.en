@@ -4,9 +4,6 @@ seo-description: Examples of how macros are used to create outbound, FTP file te
 seo-title: File Format Macro Examples
 title: File Format Macro Examples
 uuid: f00d431d-7e43-457a-b633-c79cbc4c8f10
-index: y
-internal: n
-snippet: y
 ---
 
 # File Format Macro Examples{#file-format-macro-examples}

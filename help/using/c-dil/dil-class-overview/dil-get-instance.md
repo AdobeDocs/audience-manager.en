@@ -6,9 +6,6 @@ seo-title: getDil
 solution: Audience Manager
 title: getDil
 uuid: 7b95f9bf-14c0-4c74-b6b9-d6b38513d487
-index: y
-internal: n
-snippet: y
 ---
 
 # getDil{#getdil}

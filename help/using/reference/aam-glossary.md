@@ -5,9 +5,6 @@ seo-title: Glossary
 solution: Audience Manager
 title: Glossary
 uuid: 01fc26f5-db9d-4e90-b4c1-27c6a510accc
-index: y
-internal: n
-snippet: y
 ---
 
 # Glossary{#glossary}

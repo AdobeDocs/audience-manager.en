@@ -5,9 +5,6 @@ seo-title: Audience Manager Code for Google Publisher Tags
 solution: Audience Manager
 title: Audience Manager Code for Google Publisher Tags
 uuid: 24ff5d16-b360-46cc-a4c6-6db34d7fda75
-index: y
-internal: n
-snippet: y
 ---
 
 # Audience Manager Code for Google Publisher Tags{#audience-manager-code-for-google-publisher-tags}

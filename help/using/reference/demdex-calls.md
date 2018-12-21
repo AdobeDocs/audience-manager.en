@@ -5,9 +5,6 @@ seo-title: Understanding Calls to the Demdex Domain
 solution: Audience Manager
 title: Understanding Calls to the Demdex Domain
 uuid: c06dae3a-f169-4712-80fb-d6d448dce51a
-index: y
-internal: n
-snippet: y
 ---
 
 # Understanding Calls to the Demdex Domain{#understanding-calls-to-the-demdex-domain}

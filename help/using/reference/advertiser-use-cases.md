@@ -5,9 +5,6 @@ seo-title: Advertiser Use Cases
 solution: Audience Manager
 title: Advertiser Use Cases
 uuid: ceb06f86-1f9b-4e02-b179-116ec635ce5d
-index: y
-internal: n
-snippet: y
 ---
 
 # Advertiser Use Cases{#advertiser-use-cases}

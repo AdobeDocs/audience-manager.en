@@ -5,9 +5,6 @@ seo-title: Opt-out Management
 solution: Audience Manager
 title: Opt-out Management
 uuid: 61b43e0e-bfe3-497e-ade2-6a942a98407e
-index: y
-internal: n
-snippet: y
 ---
 
 # Opt-out Management{#opt-out-management}

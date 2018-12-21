@@ -4,9 +4,6 @@ seo-description: Some customers may not want to provide their Amazon Simple Stor
 seo-title: How To  Authorize Cross-Account Amazon S3 Bucket Access for Batch Destinations
 title: How To  Authorize Cross-Account Amazon S3 Bucket Access for Batch Destinations
 uuid: da2bcbda-a765-437a-bfe9-4355383a4730
-index: y
-internal: n
-snippet: y
 ---
 
 # How To: Authorize Cross-Account Amazon S3 Bucket Access for Batch Destinations{#how-to-authorize-cross-account-amazon-s-bucket-access-for-batch-destinations}

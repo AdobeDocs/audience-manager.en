@@ -5,9 +5,6 @@ seo-title: DIL create
 solution: Audience Manager
 title: DIL create
 uuid: 6e054600-703c-4a97-af2a-8207c50013db
-index: y
-internal: n
-snippet: y
 ---
 
 # DIL create{#dil-create}

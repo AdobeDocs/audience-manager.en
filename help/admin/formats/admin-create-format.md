@@ -4,9 +4,6 @@ seo-description: Use the Formats page in the Audience Manager Admin tool to crea
 seo-title: Create or Edit a Format
 title: Create or Edit a Format
 uuid: ca1b1feb-bcd3-4a41-b1e8-80565f6c23ae
-index: y
-internal: n
-snippet: y
 ---
 
 # Create or Edit a Format{#create-or-edit-a-format}
@@ -77,4 +74,3 @@ t_create_format.xml
 1. Click **[!UICONTROL Formats]**. 
 1. Click  ![](assets/icon_delete.png) in the **[!UICONTROL Actions]** column of the desired format. 
 1. Click **[!UICONTROL OK]** to confirm the deletion.
-

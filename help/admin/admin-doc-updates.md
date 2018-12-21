@@ -4,9 +4,6 @@ seo-description: All updates (additions, deletions, and corrections) to the Audi
 seo-title: Documentation Updates
 title: Documentation Updates
 uuid: 1c02dff5-8e3f-42bf-a50c-03b75e121ac7
-index: y
-internal: n
-snippet: y
 ---
 
 # Documentation Updates{#documentation-updates}

@@ -5,9 +5,6 @@ seo-title: Top Unused Traits
 solution: Audience Manager
 title: Top Unused Traits
 uuid: 90bcd333-41b8-416e-aa4e-a8661891df50
-index: y
-internal: n
-snippet: y
 ---
 
 # Top Unused Traits{#top-unused-traits}
