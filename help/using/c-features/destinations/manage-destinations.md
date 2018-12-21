@@ -42,36 +42,12 @@ Slide the **[!UICONTROL Show Only Addressable Audience Metrics]** toggle to see 
 
 [!UICONTROL Destination Builder] consists of the following sections and settings:  
 
-<table id="table_64B5929CFEC84A308BBFC9FFCBAF1358"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Destination Builder Section </th> 
-   <th colname="col2" class="entry"> Purpose </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"><b>Basic Information</b> </td> 
-   <td colname="col2"> Used to name the destination, describe it, and select destination type (URL or cookie), and platform (all, Android, browser, or iOS). </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"><b>Configuration</b> </td> 
-   <td colname="col2"> <p>Includes controls for: </p> 
-    <ul id="ul_2E6AB51D5DEA44059CABDFA985E4C3D1"> 
-     <li id="li_F8076EDA9D6243A4A4FF50BC3394FB3A">Passing in key-value data to URL destinations. You can send data as individual or serialized key-value pairs. For details see, <a href="../../c-features/destinations/key-value-pairs.md#concept_02436A7C6C574C799F079EB731A63262"> Destination Serialization</a> and <a href="../../c-features/destinations/key-value-pairs.md#concept_4CAA6E54ECFE4291B8626BEBEE98088A"> Standard and Serial Key-Value Pairs</a>. </li> 
-     <li id="li_4DE7A032B315450CAE791D1A0C56774C">Elements of a cookie destination such as cookie name, domain, size, expiration interval, data format, etc. </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"><b>Segment Mappings</b> </td> 
-   <td colname="col2"> <p>Lets you: 
-     <ul id="ul_98A6E9B5C74341ACA00D807B728A88B7"> 
-      <li id="li_578629E9962F46EC921EA75A2057FE95">Search for, add, and manage segments associated with <i>all</i> destination types. </li> 
-      <li id="li_37BB2BDD6B2D4E4EA07B494CAE452CBF">Set delivery priorities on individual segments (for cookie-based segments only). </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody>
-</table>
+|Destination Builder Section|Purpose|
+|--- |--- |
+|Basic Information|Used to name the destination, describe it, and select destination type (URL or cookie), and platform (all, Android, browser, or iOS).|
+|Configuration|Includes controls for: <br/><ul><li>Passing in key-value data to URL destinations. You can send data as individual or serialized key-value pairs. For details see, [Destination Serialization](../../c-features/destinations/key-value-pairs.md#concept_02436A7C6C574C799F079EB731A63262)] and [Standard and Serial Key-Value Pairs](../../c-features/destinations/key-value-pairs.md#concept_4CAA6E54ECFE4291B8626BEBEE98088A). </li><li>Elements of a cookie destination such as cookie name, domain, size, expiration interval, data format, etc.</li></ul>|
+|Segment Mappings|Lets you: <br/><ul><li>Search for, add, and manage segments associated with all destination types. </li><li>Set delivery priorities on individual segments (for cookie-based segments only).</li></ul>|
+
 
 ## Data Delivery Methods {#section_EB5C0D945F7B46F3B860D22F0998F550}
 
