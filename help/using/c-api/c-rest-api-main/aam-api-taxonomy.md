@@ -32,7 +32,7 @@ r_rest_api_taxonomy.xml
 
 ### Request
 
-`GET https://api.demdex.com/v1/taxonomies/0/<categoryId>`
+`GET https://api.demdex.com/v1/taxonomies/0/`*`<categoryId>`*
 
 ### Response
 
@@ -104,7 +104,7 @@ r_rest_api_taxonomy_sub.xml
 
 ### Request
 
-`GET https://api.demdex.com/v1/taxonomies/0/ *<categoryId>*/childCategories/`
+`GET https://api.demdex.com/v1/taxonomies/0/`*`<categoryId>`*`/childCategories/`
 
 ### Response
 

@@ -18,7 +18,7 @@ snippet: y
 
 A basic server-to-server request that sends data to the [!UICONTROL DCS] uses the syntax shown below.
 
-`"Host:`*domain alias*`.demdex.net" "https://`*DCS host name*`.demdex.net/event?d_rtbd=json&d_jsonv=1& d_uuid= `*user ID*.
+`"Host:`*domain alias*`.demdex.net" "https://`*DCS host name*`.demdex.net/event?d_rtbd=json&d_jsonv=1&d_uuid= `*user ID*.
 
 A sample call looks similar to the following example.
 

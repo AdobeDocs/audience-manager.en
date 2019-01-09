@@ -52,7 +52,7 @@ r_api_return_json_schema_for_version.xml
 
 ### Request
 
-`GET https://api.demdex.com/v1/dil/<version>`
+`GET https://api.demdex.com/v1/dil/`*`<version>`*
 
 ### Response
 
@@ -383,7 +383,7 @@ A successful request returns response code `["4.0", "4.1"]` and data as shown be
 
 ## Generate [!UICONTROL DIL] {#reference_E7EE4AA367D44E06A71C67CF025CD88B}
 
-A `GET` method that generates [!UICONTROL DIL] based on passed in request body using the specified version of [!UICONTROL DIL]. If the alias LATEST is used for version in the URL, the latest version of [!UICONTROL DIL] is generated.
+A `GET` method that generates [!UICONTROL DIL] based on passed in request body using the specified version of [!UICONTROL DIL]. If the alias `LATEST` is used for version in the URL, the latest version of [!UICONTROL DIL] is generated.
 
 <!--
 r_api_generate_dil.xml
@@ -391,7 +391,7 @@ r_api_generate_dil.xml
 
 ### Request
 
-`POST https://api.demdex.com/v1/dil/<version>/generate`
+`POST https://api.demdex.com/v1/dil/`*`<version>`*`/generate`
 
 ### Sample Request
 

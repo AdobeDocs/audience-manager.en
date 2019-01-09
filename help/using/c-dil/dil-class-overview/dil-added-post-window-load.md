@@ -16,15 +16,12 @@ Used to let DIL know that it is loaded after the window loads.
 
  **Function Signature:** `isAddedPostWindowLoad: function()`
 
-<!-- 
-
+<!--
 r_dil_added_post_window_load.xml
+-->
 
- -->
-
-**Sample Code** 
+## Sample Code
 
 ```
 DIL.isAddedPostWindowLoad();
 ```
-

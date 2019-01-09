@@ -18,5 +18,5 @@ APIs and toolkits that let you work programmatically with Audience Manager.
 >
 >These features are not supported by our APIs:
 >
->* [!UICONTROL General], [!UICONTROL Trend], and [!UICONTROL Interactive] reports. 
+>* [!UICONTROL General], [!UICONTROL Trend], and [!UICONTROL Interactive] reports.
 >* Deprecated Tag Insertion Manager ([!DNL TIM]) functionality.

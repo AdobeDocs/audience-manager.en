@@ -79,7 +79,7 @@ r_rest_api_user_update.xml
 
 ### Request
 
-`PUT /api/v1/users/<userId>`
+`PUT /api/v1/users/`*`<userId>`*
 
 ### Sample Request Body
 
@@ -211,7 +211,7 @@ r_rest_api_user_get_user_obj.xml
 
 ### Request
 
-`GET /api/v1/users/<userId>`
+`GET /api/v1/users/`*`<userId>`*
 
 ### Response
 
@@ -311,7 +311,7 @@ r_rest_api_user_delete.xml
 
 ### Request
 
-`DELETE /api/v1/users/<user_id>`
+`DELETE /api/v1/users/`*`<user_id>`*
 
 Returns `204 No Content` if successful. In case of conflict returns `409 Conflict`.
 

@@ -60,7 +60,7 @@ r_delete_partner_site.xml
 
 ### Request
 
-`DELETE` `https://api.demdex.com/v1/partner-sites/<site-Id>`
+`DELETE` `https://api.demdex.com/v1/partner-sites/`*`<site-Id>`*
 
 ### Response
 
@@ -76,7 +76,7 @@ r_get_partner_site.xml
 
 ### Request
 
-`GET` `https://api.demdex.com/v1/partner-sites/<siteId>`
+`GET` `https://api.demdex.com/v1/partner-sites/`*`<siteId>`*
 
 ### Response
 
@@ -100,7 +100,7 @@ r_get_partner_sites.xml
 
 ### Request
 
-`GET` `https://api.demdex.com/v1/partner-sites/`
+`GET https://api.demdex.com/v1/partner-sites/`
 
 ### Optional Query Parameters
 

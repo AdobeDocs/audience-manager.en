@@ -41,8 +41,8 @@ In the tables below, *italics* represents a variable placeholder.
    <td colname="col1"> <p>2 </p> </td> 
    <td colname="col2"> <p>Invalid <span class="codeph"> d_orgid</span> value (could not find a config for this org id): <span class="varname"> ID</span> </p> </td> 
    <td colname="col3"> <p>The Organization ID is incorrect. </p> <p>Check your ID and try the request again. If you do not know or have your Organization ID, see the "Administration Page" section in <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html" format="https" scope="external"> Experience Cloud Administration</a> for information about how to find it. </p> </td> 
-  </tr> 
- </tbody> 
+  </tr>
+ </tbody>
 </table>
 
 ## Integration Error Codes {#section_291BF783E35B4AE087248D9444007E39}
@@ -75,13 +75,13 @@ In the tables below, *italics* represents a variable placeholder.
    <td colname="col1"> <p>104 </p> </td> 
    <td colname="col2"> <p>All customer ids are invalid </p> </td> 
    <td colname="col3"> <p>All of the customer IDs in your call are invalid. Check your IDs and try again. </p> </td> 
-  </tr> 
+  </tr>
   <tr> 
    <td colname="col1"> <p>111 </p> </td> 
    <td colname="col2"> <p>Invalid <span class="wintitle"> IMS</span> token received </p> </td> 
-   <td colname="col3"> <p>Returned for Audience Manager - Adobe Target integrations. The error is thrown when a call is made to the DCS, containing an invalid IMS token. The token might be malformed, expired or the user might not be authorized to access the required resource. </p> </td> 
-  </tr> 
- </tbody> 
+   <td colname="col3"> <p>Returned for Audience Manager - Adobe Target integrations. The error is thrown when a call is made to the DCS, containing an invalid IMS token. The token might be malformed, expired or the user might not be authorized to access the required resource. </p> </td>
+  </tr>
+ </tbody>
 </table>
 
 ## Opt-Out Error Codes {#section_B6DDE03D9255430A92730E29B889023A}
@@ -91,7 +91,7 @@ In the tables below, *italics* represents a variable placeholder.
   <tr> 
    <th colname="col1" class="entry"> Code ID </th> 
    <th colname="col2" class="entry"> Message </th> 
-   <th colname="col3" class="entry"> Description </th> 
+   <th colname="col3" class="entry"> Description </th>
   </tr> 
  </thead>
  <tbody> 
@@ -160,7 +160,7 @@ In the tables below, *italics* represents a variable placeholder.
   <tr> 
    <td colname="col1"> <p>203 </p> </td> 
    <td colname="col2"> <p> Cannot read device cluster for id: <span class="varname"> ID</span> </p> </td> 
-   <td colname="col3"> <p>The linked device IDs from the same device graph cluster cannot be returned for this device ID. </p> </td> 
+   <td colname="col3"> <p>The linked device IDs from the same device graph cluster cannot be returned for this device ID. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p>204 </p> </td> 
@@ -169,7 +169,7 @@ In the tables below, *italics* represents a variable placeholder.
   </tr> 
   <tr> 
    <td colname="col1"> <p>205 </p> </td> 
-   <td colname="col2"> <p>Could not perform migration from <span class="varname"> ID</span> to <span class="varname"> ID</span>, because profile read failed for <span class="varname"> ID</span> </p> </td> 
+   <td colname="col2"> <p>Could not perform migration from <span class="varname"> ID</span> to <span class="varname"> ID</span>, because profile read failed for <span class="varname"> ID</span> </p> </td>
    <td colname="col3"> <p>If you receive this error, we may be experiencing scalability issues with our data store (<span class="wintitle"> PCS</span>). Contact your Adobe representative if the problem persists. </p> </td> 
   </tr> 
  </tbody> 
@@ -193,8 +193,8 @@ In the tables below, *italics* represents a variable placeholder.
   </tr> 
   <tr> 
    <td colname="col1"> <p>301 </p> </td> 
-   <td colname="col2"> <p>Maximum number of customer ids exceeded. Maximum allowed is <span class="varname"> maximum allowed</span>. Found is <span class="varname"> maximum found</span> </p> </td> 
-   <td colname="col3"> <p>The number of customer IDs associated with a cross-device data source exceed the allowed number of cross-device IDs per request. These IDs include cross device, mobile, or cookie IDs. The limit is currently set to 10. </p> </td> 
+   <td colname="col2"> <p>Maximum number of customer ids exceeded. Maximum allowed is <span class="varname"> maximum allowed</span>. Found is <span class="varname"> maximum found</span>.</p> </td> 
+   <td colname="col3"> <p>The number of customer IDs associated with a cross-device data source exceed the allowed number of cross-device IDs per request. These IDs include cross device, mobile, or cookie IDs. The limit is currently set to 10. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p>302 </p> </td> 
@@ -214,8 +214,8 @@ In the tables below, *italics* represents a variable placeholder.
   <tr> 
    <td colname="col1"> <p>306 </p> </td> 
    <td colname="col2"> <p>Blocked declared device id <span class="varname"> ID</span> </p> </td> 
-   <td colname="col3"> <p>The device ID has been identified as malicious and has been blacklisted. This can happen when we receive an extreme amount of <span class="wintitle"> DCS</span> requests containing this device ID in a short amount of time. </p> </td> 
-  </tr> 
+   <td colname="col3"> <p>The device ID has been identified as malicious and has been blacklisted. This can happen when we receive an extreme amount of <span class="wintitle"> DCS</span> requests containing this device ID in a short amount of time. </p> </td>
+  </tr>
   <tr> 
    <td colname="col1"> <p>307 </p> </td> 
    <td colname="col2"> <p>Blocked profile operation for <span class="varname"> ID</span> </p> </td> 
@@ -224,8 +224,8 @@ In the tables below, *italics* represents a variable placeholder.
   <tr> 
    <td colname="col1"> <p>309 </p> </td> 
    <td colname="col2"> <p>Customer id <span class="varname"> ID</span> was discarded because it exceeded the limit of declared customer ids per request </p> </td> 
-   <td colname="col3"> <p>Related to error 301. This error specifies which customer ID was discarded because the limit was exceeded. </p> <p>For example, If there are 12 customer IDs declared on the <span class="wintitle"> DCS</span> call, two of them will be discarded. In order to relay which ones were discarded, this error will appear twice in the response (once for each of discarded customer ID ). </p> </td> 
-  </tr> 
+   <td colname="col3"> <p>Related to error 301. This error specifies which customer ID was discarded because the limit was exceeded. </p> <p>For example, If there are 12 customer IDs declared on the <span class="wintitle"> DCS</span> call, two of them will be discarded. In order to relay which ones were discarded, this error will appear twice in the response (once for each of discarded customer ID ). </p> </td>
+  </tr>
   <tr> 
    <td colname="col1"> <p>310 </p> </td> 
    <td colname="col2"> <p>Customer id was discarded because it exceeded the limit for a given namespace. Namespace id is <span class="varname"> ID</span>, customer id is <span class="varname"> ID</span>. </p> </td> 

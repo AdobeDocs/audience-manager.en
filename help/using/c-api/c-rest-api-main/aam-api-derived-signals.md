@@ -34,7 +34,7 @@ r_create_new_derived_signal.xml
 
 ### Sample Request Body
 
-The [!DNL JSON] request body contains a source key and source value. These parameters are used to associate the source key-value pair with other traits that are associated (derived) from those values. For example, in this request the key-value pair `product SKU=1234` are also associated with a related target key-value pair. Note, source key and value variables must be unique. All request values are required unless otherwise indicated. 
+The [!DNL JSON] request body contains a source key and source value. These parameters are used to associate the source key-value pair with other traits that are associated (derived) from those values. For example, in this request the key-value pair `product SKU=1234` are also associated with a related target key-value pair. Note, source key and value variables must be unique. All request values are required unless otherwise indicated.
 
 ```
 {
@@ -76,7 +76,9 @@ r_delete_derived_signal.xml
 
 ### Request
 
-`DELETE https://api.demdex.com/v1/signals/derived/<derivedSignalId>`  ### Response
+`DELETE https://api.demdex.com/v1/signals/derived/`*`<derivedSignalId>`*
+
+### Response
 
 Returns response code `204 No Content` if successful.
 
@@ -90,7 +92,7 @@ r_get_derived_signal_details.xml
 
 ### Request
 
-`GET https://api.demdex.com/v1/signals/derived/<derivedSignalId>`
+`GET https://api.demdex.com/v1/signals/derived/`*`<derivedSignalId>`*
 
 ### Response
 
