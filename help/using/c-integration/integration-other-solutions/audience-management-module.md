@@ -7,7 +7,7 @@ title: Implement the Audience Management Module
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 ---
 
-# Implement the Audience Management Module{#implement-the-audience-management-module}
+# Implement the Audience Management Module {#implement-the-audience-management-module}
 
 Add the Audience Management Module to Adobe Analytics AppMeasurement to forward Analytics data to Audience Manager instead of having the Audience Manager Data Integration Library (DIL) code send a pixel from the page.
 
@@ -15,14 +15,14 @@ Add the Audience Management Module to Adobe Analytics AppMeasurement to forward 
 
 In addition to implementing the code described in this document, you must also:
 
-* Implement the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/). 
+* Implement the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
 * Enable [!UICONTROL Server-Side Forwarding] for report suites in the Adobe Analytics Admin Console.
 
 ## Implementation {#section_36DFAE407B1D49E5A21079BF2C6C3627}
 
 To implement the [!UICONTROL Audience Management Module]:
 
-1. Download [!UICONTROL AppMeasurement] using the [Analytics Code Manager](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html) (requires version 1.5 or later). 
+1. Download [!UICONTROL AppMeasurement] using the [Analytics Code Manager](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html) (requires version 1.5 or later).
 
 1. Update your [!UICONTROL AppMeasurement] code to the version included in the downloaded zip file. 
 1. Copy all of the code from `AppMeasurement_Module_AudienceManagement.js` from the zip file. Paste it into the `appMeasurement.js` file just above the text, `"DO NOT ALTER ANYTHING BELOW THIS LINE."` 
@@ -47,7 +47,7 @@ s.AudienceManagement.setup({
 
 >[!TIP]
 >
->The `audienceManagement.setup` function shares parameters with the Audience Manager `DIL.create` function, which you can configure in this code. For more information about these parameters, see [DIL create](../c-dil/dil-class-overview/dil-create.md#reference_F87131F6C1CC4ECCA064B24B91710FD4).
+>The `audienceManagement.setup` function shares parameters with the Audience Manager `DIL.create` function, which you can configure in this code. For more information about these parameters, see [DIL create](../../c-dil/dil-class-overview/dil-create.md#reference_F87131F6C1CC4ECCA064B24B91710FD4).
 
 ## Code Elements Defined {#section_C96852A88A0E449090E83A0D65E8129C}
 
@@ -71,7 +71,7 @@ The following table defines important variables in the code sample.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> uuidCookie </span> </p> </td> 
-   <td colname="col2"> <p>Optional. This configuration lets you set an <span class="keyword"> Adobe </span> cookie in the first-party domain. This cookie contains the <a href="../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8"> UUID </a>. </p> </td> 
+   <td colname="col2"> <p>Optional. This configuration lets you set an <span class="keyword"> Adobe </span> cookie in the first-party domain. This cookie contains the <a href="../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8"> UUID </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -92,5 +92,5 @@ This process sends data to [!DNL Audience Manager]:
 
 >[!NOTE]
 >
->The variables sent to Audience Manager from Analytics use special prefixes. You need understand and take these prefixes into account when creating Audience Manager traits. For more information on these prefixes, see [Prefix Requirements for Key Variables](../c-features/traits/trait-variable-prefixes.md#reference_E6F1E4257F664FC2A797C406BF147ABC).
+>The variables sent to Audience Manager from Analytics use special prefixes. You need understand and take these prefixes into account when creating Audience Manager traits. For more information on these prefixes, see [Prefix Requirements for Key Variables](../../c-features/traits/trait-variable-prefixes.md#reference_E6F1E4257F664FC2A797C406BF147ABC).
 
