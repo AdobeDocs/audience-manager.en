@@ -19,16 +19,14 @@ Set up OpenX as a destination and send Audience Manager segment data to that pla
 
 Standards for code placement, supported key-value formats, reports, and the type of segment data sent to OpenX.
 
-<!-- 
-
+<!--
 aam-openx-requirements.xml
-
- -->
+-->
 
 Review the following before setting up OpenX as an Audience Manager destination:
 
-* **DIL:** Data Integration Library code should be deployed on your site. DIL helps eliminate the need to write special code for data collection, integration, reading cookie values, and recovering page data. 
-* **get_aamCookie Function:** Code that captures the Audience Manager user ID and cookie data. Place [this code](../c-features/destinations/get-aam-cookie-code.md#reference_0102FABCC96547DE81DFCA0600BBEFD3) on the top of the page or inside the `<head>` codeblock. 
+* **DIL:** Data Integration Library code should be deployed on your site. DIL helps eliminate the need to write special code for data collection, integration, reading cookie values, and recovering page data.
+* **get_aamCookie Function:** Code that captures the Audience Manager user ID and cookie data. Place [this code](../../c-features/destinations/get-aam-cookie-code.md#reference_0102FABCC96547DE81DFCA0600BBEFD3) on the top of the page or inside the `<head>` codeblock.
 
 * **Send Delivery Logs to Audience Manager:** If you want a segment delivery report (optional), provide Audience Manager with a daily log that contains impression-level delivery data. The data can be in a raw format, but each record must contain the Audience Manager UUID. Audience Manager can pick up or receive these via FTP.
 
@@ -105,7 +103,7 @@ To set up OpenX
 
 * Install DIL code across your site. 
 * Create OpenX as a cookie destination in Audience Manager. 
-* Place the `get_aamCookie` function at the top of the page, ideally within the `<head>` codeblock. The `get_aamCookie` code is available [here](../c-features/destinations/get-aam-cookie-code.md#reference_0102FABCC96547DE81DFCA0600BBEFD3). 
+* Place the `get_aamCookie` function at the top of the page, ideally within the `<head>` codeblock. The `get_aamCookie` code is available [here](../../c-features/destinations/get-aam-cookie-code.md#reference_0102FABCC96547DE81DFCA0600BBEFD3). 
 
 * Modify your ad tag to call the `get_aamCookie` function and include the cookie name you provided when setting up the OpenX destination. For example, if you named the cookie `test_cookie`, then the ad tag should call `get_aamCookie` and reference the cookie name.  
 

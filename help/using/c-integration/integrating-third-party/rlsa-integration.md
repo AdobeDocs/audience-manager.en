@@ -34,7 +34,7 @@ To set up an AdWords remarketing list as an [!DNL Audience Manager] URL destinat
    value=0&guid=ON&script=0
    ```
 
-1. [Create a URL destination](../c-features/destinations/manage-destinations.md#concept_51842672DFA943EA982B363E74D42DF8) or edit an existing destination.
+1. [Create a URL destination](../../c-features/destinations/manage-destinations.md#concept_51842672DFA943EA982B363E74D42DF8) or edit an existing destination.
 1. In the [!UICONTROL Segment Mappings] section of your URL destination, add the edited code to the **[!UICONTROL URL]** and **[!UICONTROL Secure URL]** boxes. Prefix the code with `https:` and `https:` in the URL and Secure URL boxes, respectively.
 
    >[!IMPORTANT]
@@ -68,6 +68,6 @@ A completed mapping could look similar to this:
 >[!MORE_LIKE_THIS]
 >
 >* [Destinations](../c-features/destinations/destinations.md#concept_5BDA346C376C4B719EA394108AB2735A)
->* [Create a URL Destination](../c-features/destinations/manage-destinations.md#concept_51842672DFA943EA982B363E74D42DF8)
+>* [Create a URL Destination](../../c-features/destinations/manage-destinations.md#concept_51842672DFA943EA982B363E74D42DF8)
 >* [About AdWords Remarketing Lists](https://support.google.com/adwords/answer/2472738)
 >* [How AdWords Remarketing Works](https://support.google.com/adwords/answer/2454000)

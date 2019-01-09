@@ -47,7 +47,7 @@ s.AudienceManagement.setup({
 
 >[!TIP]
 >
->The `audienceManagement.setup` function shares parameters with the Audience Manager `DIL.create` function, which you can configure in this code. For more information about these parameters, see [DIL create](../c-dil/dil-class-overview/dil-create.md#reference_F87131F6C1CC4ECCA064B24B91710FD4).
+>The `audienceManagement.setup` function shares parameters with the Audience Manager `DIL.create` function, which you can configure in this code. For more information about these parameters, see [DIL create](../../c-dil/dil-class-overview/dil-create.md#reference_F87131F6C1CC4ECCA064B24B91710FD4).
 
 ## Code Elements Defined {#section_C96852A88A0E449090E83A0D65E8129C}
 
@@ -92,5 +92,5 @@ This process sends data to [!DNL Audience Manager]:
 
 >[!NOTE]
 >
->The variables sent to Audience Manager from Analytics use special prefixes. You need understand and take these prefixes into account when creating Audience Manager traits. For more information on these prefixes, see [Prefix Requirements for Key Variables](../c-features/traits/trait-variable-prefixes.md#reference_E6F1E4257F664FC2A797C406BF147ABC).
+>The variables sent to Audience Manager from Analytics use special prefixes. You need understand and take these prefixes into account when creating Audience Manager traits. For more information on these prefixes, see [Prefix Requirements for Key Variables](../../c-features/traits/trait-variable-prefixes.md#reference_E6F1E4257F664FC2A797C406BF147ABC).
 

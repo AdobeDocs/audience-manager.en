@@ -19,5 +19,4 @@ An Audience Manager - Target integration requires:
 
 All of your Audience Manager segments will appear in Target shortly after you complete these steps in the implementation process. Look in **[!UICONTROL Audiences > Audience List]** to see your Audience Manager segments in Target.
 
-![](assets/target.png)
-
+![](../assets/target.png)
