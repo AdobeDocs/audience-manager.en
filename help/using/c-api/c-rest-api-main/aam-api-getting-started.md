@@ -25,7 +25,7 @@ Things you must and should do when working with the Audience Manager APIs.
 aam-api-requirements.xml
 -->
 
-Note the following when working with [ [!DNL Audience Manager] API ](https://bank.demdex.com/portal/swagger/index.html#/) code:
+Note the following when working with [Audience Manager API](https://bank.demdex.com/portal/swagger/index.html#/) code:
 
 * **Request parameters:** All request parameters are required unless specified otherwise.
 * **JSON content type:** Specify `content-type: application/json` *and* `accept: application/json` in your code.
@@ -43,9 +43,9 @@ We recommend you create a separate, technical user account for working with the 
 * Identify what service is calling the [!DNL API] (e.g., calls from your apps that use our APIs or from other tools that make API requests). 
 * Provide uninterrupted access to the APIs. An account tied to a specific person may be deleted when they leave your company. This will prevent you from working with the available API code. A generic account that's not tied to a particular employee helps you avoid this problem.
 
-As an example or use case for this type of account, let's say you want to change a lot of segments at once with the [Bulk Management Tools](../../reference/bulk-management-tools/bulk-management-intro.md). Well, to do this, your user account needs [!DNL API] access. Rather than add permissions to a specific user, create a non-specific, [!DNL API] user account that has the appropriate credentials, key, and secret to make [!DNL API] calls. This is also useful if you develop your own applications that use the [!DNL Audience Manager] [!DNL API]s.
+As an example or use case for this type of account, let's say you want to change a lot of segments at once with the [Bulk Management Tools](../../reference/bulk-management-tools/bulk-management-intro.md). Well, to do this, your user account needs [!DNL API] access. Rather than add permissions to a specific user, create a non-specific, [!DNL API] user account that has the appropriate credentials, key, and secret to make [!DNL API] calls. This is also useful if you develop your own applications that use the Audience Manager [!DNL API]s.
 
-Work with your [!DNL Audience Manager] consultant to set up a generic, [!DNL API]-only user account.
+Work with your Audience Manager consultant to set up a generic, [!DNL API]-only user account.
 
 ## [!DNL OAuth] Authentication {#concept_426EEF5C102049B08C8ECF90FCB41796}
 
@@ -149,7 +149,7 @@ c_oauth_call_methods.xml
 
 To make calls against the available API methods:
 
-* In the HTTP header, set `Authorization: Bearer <token>`.
+* In the `HTTP` header, set `Authorization: Bearer <token>`.
 * Call the required API method.
 
 >[!MORE_LIKE_THIS]

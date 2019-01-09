@@ -35,7 +35,7 @@ r_map_noserial_url.xml
 
 ### Request
 
-`POST https://api.demdex.com/v1/destinations/ *<destinationId>*/mappings/`
+`POST https://api.demdex.com/v1/destinations/`*`<destinationId>`*`/mappings/`
 
 ### Sample Request
 
@@ -87,7 +87,7 @@ r_map_serialized_url.xml
 
 ### Request
 
-`POST https://api.demdex.com/v1/destinations/ *<dataOrderId>*/traits/`
+`POST https://api.demdex.com/v1/destinations/`*`<dataOrderId>`*`/traits/`
 
 ### Sample Request
 
@@ -139,11 +139,11 @@ r_map_cookie_noserial.xml
 
 ### Request
 
-`POST https://api.demdex.com/v1/destinations/<destinationId>/mappings/`
+`POST https://api.demdex.com/v1/destinations/`*`<destinationId>`*`/mappings/`
 
 ### Sample Request
 
-In the request, the `valueAlias` corresponds to the value in a key-value pair. All request values are required unless otherwise indicated. 
+In the request, the `valueAlias` corresponds to the value in a key-value pair. All request values are required unless otherwise indicated.
 
 ```
 {
@@ -188,7 +188,7 @@ r_map_cookie_multikey_noserial.xml
 
 ### Request
 
-`POST https://api.demdex.com/v1/destinations/ *<destinationId>*/mappings/`
+`POST https://api.demdex.com/v1/destinations/`*`<destinationId>`*`/mappings/`
 
 ### Sample Request
 
@@ -240,7 +240,7 @@ r_map_cookie_multikey_serialized.xml
 
 ### Request
 
-`POST https://api.demdex.com/v1/destinations/ *<destinationId>*/mappings/`
+`POST https://api.demdex.com/v1/destinations/`*`<destinationId>`*`/mappings/`
 
 ### Sample Request
 
@@ -290,7 +290,7 @@ r_map_segment_s2s.xml
 
 ### Request
 
-`POST https://api.demdex.com/v1/destinations/ *<destinationId>*/mappings/`
+`POST https://api.demdex.com/v1/destinations/`*`<destinationId>`*`/mappings/`
 
 ### Sample Request
 
@@ -338,7 +338,7 @@ r_bulk_create.xml
 
 ### Request
 
-`POST https://api.demdex.com/v1/destinations/ *<destinationId>*/bulk-create`
+`POST https://api.demdex.com/v1/destinations/`*`<destinationId>`*`/bulk-create`
 
 ### Sample Request
 
@@ -425,7 +425,7 @@ r_add_segments_to_destination.xml
 
 ### Request
 
-`POST https://api.demdex.com/v1/destinations/ *<destinationId>*/bulk-create`
+`POST https://api.demdex.com/v1/destinations/`*`<destinationId>`*`bulk-create`
 
 ### Sample Request
 
@@ -511,11 +511,11 @@ r_update_destination_data_order_id.xml
 
 ### Request
 
-`PUT https://api.demdex.com/v1/destinations/ *<destinationId>*`
+`PUT https://api.demdex.com/v1/destinations/`*`<destinationId>`*
 
 ### Sample Request
 
-All request values are required unless otherwise indicated. 
+All request values are required unless otherwise indicated.
 
 ```
 {

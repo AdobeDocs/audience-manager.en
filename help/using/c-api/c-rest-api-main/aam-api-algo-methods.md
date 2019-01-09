@@ -12,10 +12,6 @@ uuid: 8d5304d7-c1cf-42df-94e7-3f583944bd62
 
 Methods that let you work programmatically with algorithmic modeling features.
 
-## Algorithmic API Methods {#concept_C42BA3BD2FC44C5D8F1F8402AA9C44A5}
-
-Methods that let you work programmatically with algorithmic modeling features.
-
 <!--
 c_algo_models.xml
 -->
@@ -145,11 +141,11 @@ r_update_model.xml
 
 ### Request
 
-` PUT https://api.demdex.com/v1/models/ <model-id>/`
+` PUT https://api.demdex.com/v1/models/`*`<model-id>/`*
 
 ### Sample Request
 
-All request values are required unless otherwise indicated. Model status settings include `active` and `inactive` only. 
+All request values are required unless otherwise indicated. Model status settings include `active` and `inactive` only.
 
 ```
 { 
@@ -192,15 +188,13 @@ All request values are required unless otherwise indicated. Model status setting
 
 A `DELETE` method that removes a model from your collection.
 
-<!-- 
-
+<!--
 r_delete_model.xml
-
- -->
+-->
 
 ### Request
 
-` DELETE https://api.demdex.com/v1/models/<model-id>`
+` DELETE https://api.demdex.com/v1/models/`*`<model-id>`*
 
 ### Sample Response
 
@@ -269,7 +263,7 @@ r_get_algorithm_by_id.xml
 
 ### Request
 
-` GET https://api.demdex.com/v1/algorithms/<algotype-id>/`
+`GET https://api.demdex.com/v1/algorithms/`*`<algotype-id>/`*
 
 ### Sample Response
 
@@ -396,7 +390,7 @@ r_get_models_id.xml
 
 ### Request
 
-` GET https://api.demdex.com/v1/models/<model-id>`
+` GET https://api.demdex.com/v1/models/`*`<model-id>`*
 
 ### Sample Response
 
@@ -438,7 +432,7 @@ r_get_traits_by_accuracy.xml
 
 ### Request
 
-` GET https://api.demdex.com/v1/models/<model-id>/runs/latest/traits/`
+` GET https://api.demdex.com/v1/models/`*`<model-id>`*`/runs/latest/traits/`
 
 ### Optional Query Parameters
 
@@ -555,7 +549,7 @@ r_get_accuracy_reach.xml
 
 ### Request
 
-` GET https://api.demdex.com/v1/models/<model-id>/runs/latest/stats`/
+` GET https://api.demdex.com/v1/models/`*`<model-id>`*`/runs/latest/stats/`
 
 ### Sample Response
 
@@ -590,12 +584,12 @@ r_return_model_timestamp.xml
 
 ### Request
 
-` GET https://api.demdex.com/v1/models/<model-id>/processing-history/`
+` GET https://api.demdex.com/v1/models/`*`<model-id>`*`/processing-history/`
 
 ### Sample Response
 
 ```
 [ 
-   102032939, 1223030409, 1346236373 
+   102032939, 1223030409, 1346236373
 ]
 ```

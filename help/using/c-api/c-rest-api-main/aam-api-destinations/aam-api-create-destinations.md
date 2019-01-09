@@ -214,7 +214,7 @@ A successful update returns response code `201 created` and the destination.
    "siteIDs":[ 
       312 
    ], 
-   "uparamEnabled":false 
+   "uparamEnabled":false
 } 
 
 ```
@@ -238,7 +238,7 @@ r_cookie_destination_singlekey_serial.xml
 
 ### Sample Request
 
-All request values are required unless otherwise indicated. 
+All request values are required unless otherwise indicated.
 
 ```
 { 
@@ -316,7 +316,7 @@ r_create_cookie_multikey_noserial.xml
 
 ### Sample Request
 
-All request values are required unless otherwise indicated. 
+All request values are required unless otherwise indicated.
 
 ```
 { 
@@ -396,7 +396,7 @@ All request values are required unless otherwise indicated.
    "cnameDomain":"adobe.com", 
    "maxSize":"2048", 
    "ttl":"0", 
-   "domainRestrictions":"all_domains", 
+   "domainRestrictions":"all_domains",
    "siteIDs":[ 
  
    ], 

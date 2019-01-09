@@ -8,7 +8,7 @@ title: Beta Environment
 uuid: de4a1a46-cfa4-4f64-8569-48a7650fd8cf
 ---
 
-# Beta Environment{#beta-environment}
+# Beta Environment {#beta-environment}
 
 The beta environment is for testing your Audience Manager implementation. Changes made in beta do not affect production data. Contact your Audience Manager Partner Solutions representative if you're interested in using the beta environment.
 
@@ -101,4 +101,3 @@ Added re: AAM-30826.
    < DCS: va6-sandbox-dcs-3.sandbox.demdex.com <release_number>
    [...]
    ```
-

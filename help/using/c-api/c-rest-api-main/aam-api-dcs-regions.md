@@ -31,7 +31,7 @@ r_rest_api_regions_list_specific.xml
 
 ### Request
 
-`GET /v1/dcs-regions/<id>`
+`GET /v1/dcs-regions/`*`<id>`*
 
 ### Sample Response
 

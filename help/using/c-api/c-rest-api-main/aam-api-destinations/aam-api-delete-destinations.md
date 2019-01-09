@@ -11,7 +11,7 @@ uuid: 38fb2228-e564-49a3-9930-3139f8799a8f
 
 `DELETE` and `POST` methods that let you remove destinations and segment mappings.
 
-<!-- 
+<!--
 r_delete_destinations_all.xml
 -->
 
@@ -23,7 +23,7 @@ A `DELETE` method that removes a destination.
 >
 >You must remove all segment mappings before you can delete a destination.
 
-* Request: `DELETE https://api.demdex.com/v1/destinations/<destinationId>`
+* Request: `DELETE https://api.demdex.com/v1/destinations/`*`<destinationId>`*
 * Response: Returns code `204 No Content` if successful.
 
 ## Bulk Delete Destinations
@@ -37,5 +37,5 @@ Remove multiple destinations with this `POST` method. Pass in destination IDs ( 
 
 A `POST` method that removes destination mappings according to the specified segment ID.
 
-* Request: `DELETE https://api.demdex.com/v1/destinations/ *<destinationId>*/segments/<mappingId>`
+* Request: `DELETE https://api.demdex.com/v1/destinations/` *`<destinationId>`*`/segments/`*`<mappingId>`*
 * Response: Returns code `204 No Content` if successful.

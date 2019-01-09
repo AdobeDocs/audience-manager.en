@@ -35,7 +35,7 @@ d_uuid=
 Note the requirements for sending data using the `POST` method:
 
 * The maximum allowed size is 32K.
-* Set the content type to **application/x-www-form-urlencoded**.
+* Set the content type to `application/x-www-form-urlencoded`.
 
 ### Sample call
 

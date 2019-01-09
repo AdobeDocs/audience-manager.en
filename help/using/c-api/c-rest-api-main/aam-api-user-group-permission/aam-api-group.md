@@ -60,7 +60,7 @@ r_rest_api_group_update.xml
 
 ### Request
 
-`PUT /api/v1/groups/<groupId>`
+`PUT /api/v1/groups/`*`<groupId>`*
 
 ### Sample Request Body
 
@@ -123,9 +123,9 @@ r_rest_api_group_delete.xml
 
 ### Request
 
-`DELETE /api/v1/groups/<groupId>`
+`DELETE /api/v1/groups/`*`<groupId>`*
 
-Returns `204 No Content` if successful. In case of conflict returns `409 Conflict`. 
+Returns `204 No Content` if successful. In case of conflict returns `409 Conflict`.
 
 ## Delete Groups in Bulk {#reference_B27B1CD22BA0475A870E251AAB8D7764}
 

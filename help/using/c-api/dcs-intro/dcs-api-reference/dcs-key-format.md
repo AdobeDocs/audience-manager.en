@@ -25,8 +25,8 @@ When making a call, the [!UICONTROL DCS] accepts key-value data in standard or s
   <tr> 
    <td colname="col1"> <b>Standard</b> </td> 
    <td colname="col2"> <p>A standard key-value pair consists of a single key and value. This structure organizes data into separate key-value pairs. Each key is stated explicitly, even when it’s used again to define a different value. This is the most common way to send data to the <span class="wintitle"> DCS</span>. </p> </td> 
-   <td colname="col3"> <span class="codeph"> key1=val1&amp;key2=val2&amp;key3=val3</span> </td> 
-  </tr> 
+   <td colname="col3"> <span class="codeph"> key1=val1&amp;key2=val2&amp;key3=val3</span> </td>
+  </tr>
   <tr> 
    <td colname="col1"> <b>Serialized</b> </td> 
    <td colname="col2"> <p>A serialized key-value pair consists of a single key and multiple values. This can be an efficient way to organize data, but serialized key-value pairs require specific symbols to separate each key and each key-value set. </p> </td> 

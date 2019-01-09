@@ -7,7 +7,7 @@ title: DCS Region IDs, Locations, and Host Names
 uuid: ad150ffe-4583-472b-ac8b-fb900a7966e4
 ---
 
-# [!UICONTROL DCS] Region IDs, Locations, and Host Names{#dcs-region-ids-locations-and-host-names}
+# [!UICONTROL DCS] Region IDs, Locations, and Host Names {#dcs-region-ids-locations-and-host-names}
 
 The regional [!UICONTROL DCS] server host name is required to make calls to the [!UICONTROL DCS]. This is because the [!UICONTROL DCS] stores information in data centers that are geographically close to site visitors. Your queries will work if you send them to the wrong [!UICONTROL DCS], but these calls are inefficient and can delay the response. To make a [!UICONTROL DCS] request, match the region ID to its corresponding regional host name and form your query with the proper host name.
 

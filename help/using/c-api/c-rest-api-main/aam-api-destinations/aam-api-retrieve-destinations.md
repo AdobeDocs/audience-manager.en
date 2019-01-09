@@ -17,7 +17,7 @@ r_get_all_destinations_order_id.xml
 
 ## Request
 
-`GET https://api.demdex.com/v1/destinations/<destinationId>`
+`GET https://api.demdex.com/v1/destinations/`*`<destinationId>`*
 
 >[!NOTE]
 >
@@ -146,7 +146,7 @@ r_get_destination_trait_data_order.xml
 
 ### Request
 
-`GET https://api.demdex.com/v1/destinations/<destinationId>/mappings/ <destinationMappingId>`
+`GET https://api.demdex.com/v1/destinations/`*`<destinationId>`*`/mappings/`*`<destinationMappingId>`*
 
 ### Response
 
@@ -189,7 +189,7 @@ r_get_destination_mappings.xml
 
 ### Request
 
-`GET https://api.demdex.com/v1/destinations/<destinationId>/mappings`
+`GET https://api.demdex.com/v1/destinations/`*`<destinationId>`*`/mappings`
 
 >[!NOTE]
 >

@@ -19,7 +19,7 @@ Start here for information about making `/event` calls to the [!UICONTROL DCS]. 
 
 A basic `URL` string that sends data to the [!UICONTROL DCS] uses the syntax shown below.
 
-`https:// *`domain alias`*.demdex.net/event? *`key1`*= *`val1`*,& *`key2`*= *`val2`*&d_dst=1&d_rtbd=json&d_cb= *`callback`*`
+`https://`*`domain alias`*.demdex.net/event?*`key1`*=*`val1`*,&*`key2`*= *`val2`*&`d_dst=1&d_rtbd=json&d_cb=`*`callback`*
 
 >[!NOTE]
 >

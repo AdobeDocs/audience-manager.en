@@ -66,7 +66,7 @@ r_rest_api_get_trait_type.xml
 
 ### Request
 
-`GET https://api.demdex.com/v1/customer-trait-types/<customerTraitTypeId>`
+`GET https://api.demdex.com/v1/customer-trait-types/`*`<customerTraitTypeId>`*
 
 ### Response
 
