@@ -7,7 +7,7 @@ title: Implement the Audience Management Module
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 ---
 
-# Implement the Audience Management Module{#implement-the-audience-management-module}
+# Implement the Audience Management Module {#implement-the-audience-management-module}
 
 Add the Audience Management Module to Adobe Analytics AppMeasurement to forward Analytics data to Audience Manager instead of having the Audience Manager Data Integration Library (DIL) code send a pixel from the page.
 
@@ -15,14 +15,14 @@ Add the Audience Management Module to Adobe Analytics AppMeasurement to forward 
 
 In addition to implementing the code described in this document, you must also:
 
-* Implement the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/). 
+* Implement the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
 * Enable [!UICONTROL Server-Side Forwarding] for report suites in the Adobe Analytics Admin Console.
 
 ## Implementation {#section_36DFAE407B1D49E5A21079BF2C6C3627}
 
 To implement the [!UICONTROL Audience Management Module]:
 
-1. Download [!UICONTROL AppMeasurement] using the [Analytics Code Manager](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html) (requires version 1.5 or later). 
+1. Download [!UICONTROL AppMeasurement] using the [Analytics Code Manager](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html) (requires version 1.5 or later).
 
 1. Update your [!UICONTROL AppMeasurement] code to the version included in the downloaded zip file. 
 1. Copy all of the code from `AppMeasurement_Module_AudienceManagement.js` from the zip file. Paste it into the `appMeasurement.js` file just above the text, `"DO NOT ALTER ANYTHING BELOW THIS LINE."` 

@@ -235,16 +235,16 @@ user-guide-title: Audience Manager User Guide
         + [Create a GPT Destination](c-integration/gpt-aam-destination/gpt-aam-create-destination.md)
         + [Modify the GPT setTargeting API Call](c-integration/gpt-aam-destination/gpt-aam-modify-api.md)
         + [Audience Manager Code for    Google Publisher Tags](c-integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
+    + Integrating with Third-Party Destinations {#integrating-third-party}
+      + [OAS as an Audience Manager Destination](c-integration/integrating-third-party/open-ad-server-destination.md)
+      + [OpenX as an Audience Manager Destination](c-integration/integrating-third-party/openx-destination.md)
+      + [Send Segments to a Google AdWords Remarketing List](c-integration/integrating-third-party/rlsa-integration.md)
     + [Implementing Audience Manager](c-integration/implement-audience-manager.md)
-    + [Implement the Audience Management Module](c-integration/audience-management-module.md)
-    + [Integrate Audience Manager With Target](c-integration/aam-target-integration.md)
     + Media Data Integration{#media-data-integration}
         + [Media Data Integration Overview](c-integration/media-data-integration/media-data-integration.md)
         + [Actionable Log Files](c-integration/media-data-integration/actionable-log-files.md)
         + [Capturing Campaign Impression Data via Pixel Calls](c-integration/media-data-integration/impression-data-pixels.md)
         + [Capturing Campaign Click Data via Pixel Calls](c-integration/media-data-integration/click-data-pixels.md)
-    + [OAS as an Audience Manager Destination](c-integration/open-ad-server-destination.md)
-    + [OpenX as an Audience Manager Destination](c-integration/openx-destination.md)
     + Receiving Audience Data{#receiving-audience-data}
         + [ID Synchronization for Outbound Data Transfers](c-integration/receiving-audience-data/id-sync-outbound.md)
         + Real-Time Outbound Data Transfers{#real-time-outbound-transfers}
@@ -274,7 +274,9 @@ user-guide-title: Audience Manager User Guide
             + [File PGP Encryption for Inbound Data Types](c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)
             + [File Compression for Inbound Data Transfer Files](c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
             + [Sample Message to Partners after Inbound Processing](c-integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)
-    + [Send Segments to a Google AdWords Remarketing List](c-integration/rlsa-integration.md)
+    + Integration with Other Solutions {#integration-other-solutions}
+      + [Integrate Audience Manager With Target](c-integration/integration-other-solutions/aam-target-integration.md)
+      + [Implement the Audience Management Module](c-integration/integration-other-solutions/audience-management-module.md)
     + [https://marketing.adobe.com/resources/help/en_US/reference/ssf.html](https://marketing.adobe.com/resources/help/en_US/reference/ssf.html)
 + Reference{#reference.md}
     + [Amazon S3: About](reference/amazon-s3.md)
