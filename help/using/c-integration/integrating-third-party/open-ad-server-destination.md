@@ -44,7 +44,7 @@ The amount data passed in to OAS depends on how many segments a particular user 
 >[!MORE_LIKE_THIS]
 >
 >* [get_aamCookie Code](../../c-features/destinations/get-aam-cookie-code.md#reference_0102FABCC96547DE81DFCA0600BBEFD3)
->* [Key-Value Pairs Explained](../reference/key-value-pairs-explained.md#concept_E4236E003076483AA939791FE2492B49)
+>* [Key-Value Pairs Explained](../../reference/key-value-pairs-explained.md#concept_E4236E003076483AA939791FE2492B49)
 
 ## Create an OAS Destination {#concept_340EB01FB985459799AAD322303C2A8C}
 
