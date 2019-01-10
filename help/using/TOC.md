@@ -277,7 +277,7 @@ user-guide-title: Audience Manager User Guide
     + Integration with Other Solutions {#integration-other-solutions}
       + [Integrate Audience Manager With Target](c-integration/integration-other-solutions/aam-target-integration.md)
       + [Implement the Audience Management Module](c-integration/integration-other-solutions/audience-management-module.md)
-    + [https://marketing.adobe.com/resources/help/en_US/reference/ssf.html](https://marketing.adobe.com/resources/help/en_US/reference/ssf.html)
+    + [Server-Side Forwarding](https://docs.adobe.com/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html)
 + Reference{#reference.md}
     + [Amazon S3: About](reference/amazon-s3.md)
     + [Advertiser Use Cases](reference/advertiser-use-cases.md)
