@@ -67,7 +67,7 @@ The following table lists the retention times for different data types and stora
   </tr> 
   <tr> 
    <td colname="col1"> <p>Raw logs </p> </td> 
-   <td colname="col2"> <p>90-days (removed after 90-days of no activity). </p> <p>Raw logs are data received by an edge server via HTTP calls or from onboarded files sent in to <span class="keyword"> Audience Manager</span>. </p> </td> 
+   <td colname="col2"> <p>180-days (removed after 180-days of no activity). </p> <p>Raw logs are data received by an edge server via HTTP calls or from onboarded files sent in to <span class="keyword"> Audience Manager</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ad Server Logs </p> </td> 
