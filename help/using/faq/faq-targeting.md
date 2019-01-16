@@ -39,11 +39,11 @@ No. ID synchs are not made on the page for on-site publishers or servers. The Au
 
 **Does Audience Manager count a user who logs on from different devices as one unique user or different unique users?**
 
-[Declared ID Targeting](../c-features/declared-ids.md#concept_CB958007B9DA4251BA724B5607AD9FC3) helps Audience Manager identify a visitor across multiple devices with a single unique identifier. However, from a targeting or destination perspective, this is still 2 (or more) users because DSPs cannot reconcile those multiple IDs.
+[Declared ID Targeting](../features/declared-ids.md#concept_CB958007B9DA4251BA724B5607AD9FC3) helps Audience Manager identify a visitor across multiple devices with a single unique identifier. However, from a targeting or destination perspective, this is still 2 (or more) users because DSPs cannot reconcile those multiple IDs.
 
 **Can Audience Manager identify a user from display and mobile devices.**
 
-Yes. See [Declared ID Targeting](../c-features/declared-ids.md#concept_CB958007B9DA4251BA724B5607AD9FC3).
+Yes. See [Declared ID Targeting](../features/declared-ids.md#concept_CB958007B9DA4251BA724B5607AD9FC3).
 
 **Can I score users with data collected online and retarget them based on this model score?**
 

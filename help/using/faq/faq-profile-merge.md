@@ -26,11 +26,11 @@ A device graph is a set of ID mappings that defines groups of anonymous devices.
 
 **What is an external device graph?**
 
-An external device graph is any device graph in [!DNL Audience Manager] that has not been created exclusively from your own cross-device data sources. For example, when you create a [Profile Merge Rule](../c-features/profile-merge-rules/merge-rules-start.md#concept_34A9CEA00B24447EBF7EA8DA2928E1DD) and choose the [!UICONTROL Co-op Device Graph] or third-party device graph options, you're working with an external device graph. See [Device Options](../c-features/profile-merge-rules/merge-rule-definitions.md#section_E83D68EC2ADA4030B1D0206AE6A6E8BF).
+An external device graph is any device graph in [!DNL Audience Manager] that has not been created exclusively from your own cross-device data sources. For example, when you create a [Profile Merge Rule](../features/profile-merge-rules/merge-rules-start.md#concept_34A9CEA00B24447EBF7EA8DA2928E1DD) and choose the [!UICONTROL Co-op Device Graph] or third-party device graph options, you're working with an external device graph. See [Device Options](../features/profile-merge-rules/merge-rule-definitions.md#section_E83D68EC2ADA4030B1D0206AE6A6E8BF).
 
 **What are some common use cases for using an external device graph in a [!UICONTROL Profile Merge Rule]?**
 
-The main objective of using a device graph in a [!UICONTROL Profile Merge Rule] is to evaluate and qualify multiple devices belonging to a single person or household for a specific segment. The segment itself may have multiple uses for example, targeting an audience of prospects with and ad served by a DSP or personalizing a customer’s on-site experience via an on-site personalization platform. See [External Device Graph Use Cases](../c-features/profile-merge-rules/external-graph-use-cases.md#concept_7C0BDBFB3392415286B624F45E8883E5).
+The main objective of using a device graph in a [!UICONTROL Profile Merge Rule] is to evaluate and qualify multiple devices belonging to a single person or household for a specific segment. The segment itself may have multiple uses for example, targeting an audience of prospects with and ad served by a DSP or personalizing a customer’s on-site experience via an on-site personalization platform. See [External Device Graph Use Cases](../features/profile-merge-rules/external-graph-use-cases.md#concept_7C0BDBFB3392415286B624F45E8883E5).
 
 **Does Audience Manager provide global support for external device graphs?**
 
@@ -44,7 +44,7 @@ Once a week.
 
 **How does [!DNL Audience Manager] use a device graph?**
 
-In [!DNL Audience Manager], device graphs appear as configuration options when you [create a Profile Merge Rule](../c-features/profile-merge-rules/merge-rules-start.md#concept_34A9CEA00B24447EBF7EA8DA2928E1DD). Through your [!UICONTROL Profile Merge Rules], these device graphs help [!DNL Audience Manager]:
+In [!DNL Audience Manager], device graphs appear as configuration options when you [create a Profile Merge Rule](../features/profile-merge-rules/merge-rules-start.md#concept_34A9CEA00B24447EBF7EA8DA2928E1DD). Through your [!UICONTROL Profile Merge Rules], these device graphs help [!DNL Audience Manager]:
 
 * Merge multiple device profiles together. This creates a single superset of traits. 
 * Evaluate the trait superset for segment qualification (rather than evaluating each device profile individually). 
@@ -96,7 +96,7 @@ No. Currently, [!DNL Audience Manager] evaluates segments with a [!UICONTROL Pro
 
 **Do segment size estimates include devices that qualify for a segment based on connections provided by a [!UICONTROL Profile Merge Rule] that uses a device graph option?**
 
-No. See the definitions for the [!UICONTROL Estimated Real-Time Population] and [!UICONTROL Estimated Total Population] in [Trait and Segment Population Data in Segment Builder](../c-features/c-segments/segment-builder-data.md#concept_05EE3010E67F446E8818351292EF7372).
+No. See the definitions for the [!UICONTROL Estimated Real-Time Population] and [!UICONTROL Estimated Total Population] in [Trait and Segment Population Data in Segment Builder](../features/segments/segment-builder-data.md#concept_05EE3010E67F446E8818351292EF7372).
 
 **Does [!UICONTROL Addressable Audiences] include devices that qualify for a segment based on connections provided by a [!UICONTROL Profile Merge Rule] that uses a device graph option?**
 
@@ -148,7 +148,7 @@ The trait frequency is defined by the sum of the number of qualifications for a 
 
 **Can I see the number of devices that can be reached by a [!UICONTROL Profile Merge Rule] that uses a device graph?**
 
-Yes. Reports return data at the [!UICONTROL Profile Merge Rule] level. Report data is updated daily. Data is based on the devices seen in your account, not those linked by a device graph. See [Report Metrics for Profile Merge Rules](../c-features/profile-merge-rules/profile-link-metrics.md#concept_FBA9E3FB4E3C46EE83DB9BD4D288A0CE).
+Yes. Reports return data at the [!UICONTROL Profile Merge Rule] level. Report data is updated daily. Data is based on the devices seen in your account, not those linked by a device graph. See [Report Metrics for Profile Merge Rules](../features/profile-merge-rules/profile-link-metrics.md#concept_FBA9E3FB4E3C46EE83DB9BD4D288A0CE).
 
 **Can I see the number of devices qualified for a specific segment in *real-time* with [!UICONTROL Profile Merge Rules] that use a device graph?**
 
@@ -232,4 +232,4 @@ No
 
 >[!MORE_LIKE_THIS]
 >
->* [Profile Link](../c-features/profile-merge-rules/merge-rules-overview.md#concept_5FCB08A53C4D4C2B82800BC9FD2B8EC9)
+>* [Profile Link](../features/profile-merge-rules/merge-rules-overview.md#concept_5FCB08A53C4D4C2B82800BC9FD2B8EC9)

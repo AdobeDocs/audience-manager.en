@@ -83,7 +83,7 @@ The following table lists the retention times for different data types and stora
   </tr> 
   <tr> 
    <td colname="col1"> <p>Customer Data Feeds (CDF) </p> </td> 
-   <td colname="col2"> <p>A CDF file contains the same data that an <span class="keyword"> Audience Manager</span> event call (/event) sends to our servers. The retention period is 8 days. For more details about CDF, please refer to <a href="../c-features/cdf-files.md#concept_114B993EC5E246AE8CDD55E695B344FC"> CDF Intro</a> and <a href="../faq/faq-cdf.md#concept_E832A7307FA0475C918F95116C21CBC6"> CDF FAQ</a>. </p> </td> 
+   <td colname="col2"> <p>A CDF file contains the same data that an <span class="keyword"> Audience Manager</span> event call (/event) sends to our servers. The retention period is 8 days. For more details about CDF, please refer to <a href="../features/cdf-files.md#concept_114B993EC5E246AE8CDD55E695B344FC"> CDF Intro</a> and <a href="../faq/faq-cdf.md#concept_E832A7307FA0475C918F95116C21CBC6"> CDF FAQ</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mappings between synchronized IDs </p> </td> 
@@ -95,7 +95,7 @@ The following table lists the retention times for different data types and stora
   </tr> 
   <tr> 
    <td colname="col1"> <p>Outbound data </p> </td> 
-   <td colname="col2"> <p>This is the batch data that <span class="keyword"> Audience Manager</span> sends to third party activation partners. The retention period is 8 days. For more details about Outbound data, please refer to <a href="../c-integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md"> Outbound Batch Transfers</a>. </p> </td> 
+   <td colname="col2"> <p>This is the batch data that <span class="keyword"> Audience Manager</span> sends to third party activation partners. The retention period is 8 days. For more details about Outbound data, please refer to <a href="../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md"> Outbound Batch Transfers</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -118,7 +118,7 @@ The table below lists the retention options for trait qualifications.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Trait limit reached </p> </td> 
-   <td colname="col2"> <p>We impose a limit of 100,000 trait qualifications for each user profile. The limit applies to authenticated profiles and device profiles. If a user profile reaches this limit, we will delete the oldest trait qualifications, on a first-in, first-out basis. </p> <p>For more details, read our <a href="../c-features/traits/trait-qualification-reference.md#section_CA54FECC85114000A1907C1D4535AB2D"> Trait Qualification Limit</a>. </p> </td> 
+   <td colname="col2"> <p>We impose a limit of 100,000 trait qualifications for each user profile. The limit applies to authenticated profiles and device profiles. If a user profile reaches this limit, we will delete the oldest trait qualifications, on a first-in, first-out basis. </p> <p>For more details, read our <a href="../features/traits/trait-qualification-reference.md#section_CA54FECC85114000A1907C1D4535AB2D"> Trait Qualification Limit</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

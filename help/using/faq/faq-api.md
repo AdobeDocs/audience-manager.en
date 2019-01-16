@@ -17,7 +17,7 @@ faq_api.xml
 
  -->
 
-The [REST API](../c-api/c-rest-api-main/c-rest-api-main.md#concept_B512E6C3410A4304A672588A60A792B1) documentation contains details about specific methods and code samples.
+The [REST API](../api/rest-api-main/c-rest-api-main.md#concept_B512E6C3410A4304A672588A60A792B1) documentation contains details about specific methods and code samples.
 
 **Why does [!UICONTROL DIL] make event calls with [!UICONTROL GET] and [!UICONTROL POST] methods?**
 
@@ -35,4 +35,4 @@ The [!UICONTROL REST API]s let you work programmatically with most [!DNL Audienc
 
 **How do I obtain a [!UICONTROL REST API] client ID and secret?**
 
-Contact your Partner Solutions representative to obtain [!UICONTROL API] access credentials. Our APIs use [OAuth 2.0](https://oauth.net/2/) standards for token authentication, authorization, and renewal. See [OAuth Authentication](../c-api/c-rest-api-main/aam-api-getting-started.md#concept_426EEF5C102049B08C8ECF90FCB41796) for more information. 
+Contact your Partner Solutions representative to obtain [!UICONTROL API] access credentials. Our APIs use [OAuth 2.0](https://oauth.net/2/) standards for token authentication, authorization, and renewal. See [OAuth Authentication](../api/rest-api-main/aam-api-getting-started.md#concept_426EEF5C102049B08C8ECF90FCB41796) for more information. 

@@ -75,16 +75,16 @@ The CID and CID_IC key-value pairs replace DPID and DPUUID. They provide the sam
   </tr> 
   <tr> 
    <td colname="col1"> <p>Customer ID Integration Code (CID_IC) </p> </td> 
-   <td colname="col2"> <p> <span class="codeph">d_cid_ic=<span class="varname"> integration code</span>%01<span class="varname"> user ID</span></span> </p> <p> An <span class="term"> integration code</span> is an alternate ID you can use instead of the Data Source ID, assigned by <span class="keyword"> Audience Manager</span>. See <a href="../c-features/manage-datasources.md#concept_3B7696B3EC77416492D3B99EBD79EA44"> Create a Data Source</a> if you need to configure an integration code. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph">d_cid_ic=<span class="varname"> integration code</span>%01<span class="varname"> user ID</span></span> </p> <p> An <span class="term"> integration code</span> is an alternate ID you can use instead of the Data Source ID, assigned by <span class="keyword"> Audience Manager</span>. See <a href="../features/manage-datasources.md#concept_3B7696B3EC77416492D3B99EBD79EA44"> Create a Data Source</a> if you need to configure an integration code. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-See also, [URL Variables and Syntax for Declared IDs](../c-features/declared-ids.md#concept_22E2210AA6604B83B46F5E0CD5504A51).
+See also, [URL Variables and Syntax for Declared IDs](../features/declared-ids.md#concept_22E2210AA6604B83B46F5E0CD5504A51).
 
 >[!NOTE]
 >
->You can use integration codes for your own data sources and for global [shared data sources](../c-features/datasources-list-and-settings.md#reference_A87B381067E04C26A426514AF3B64E64), which you have access to. For example, you can use integration codes when working with mobile identifiers data sources. Use the following integration codes, exactly as specified below:
+>You can use integration codes for your own data sources and for global [shared data sources](../features/datasources-list-and-settings.md#reference_A87B381067E04C26A426514AF3B64E64), which you have access to. For example, you can use integration codes when working with mobile identifiers data sources. Use the following integration codes, exactly as specified below:
 
 * **DSID_20914** for GAID, representing devices running the Android operating system. 
 * **DSID_20915** for IDFA, representing devices running the iOS operating system.
@@ -154,7 +154,7 @@ Each call can also include multiple `d_cid` and `d_cid_ic` key value pairs like 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Using integration codes for global shared data sources </p> </td> 
-   <td colname="col2"> <p>You can use integration codes for your own data sources and for global <a href="../c-features/datasources-list-and-settings.md#reference_A87B381067E04C26A426514AF3B64E64"> shared data sources</a>, which you have access to. For example, you can use integration codes when working with mobile identifiers data sources. Use the following integration codes, exactly as specified below: </p> <p> 
+   <td colname="col2"> <p>You can use integration codes for your own data sources and for global <a href="../features/datasources-list-and-settings.md#reference_A87B381067E04C26A426514AF3B64E64"> shared data sources</a>, which you have access to. For example, you can use integration codes when working with mobile identifiers data sources. Use the following integration codes, exactly as specified below: </p> <p> 
      <ul id="ul_B306EE96A3BD4CE982E113D5E23826CF"> 
       <li id="li_3340C7AFA9AB4105A2CCF3E476EC7552"> <b>DSID_20914</b> for GAID, representing devices running the Android operating system. </li> 
       <li id="li_779D9F08021043FCB233A0ABF5160C76"> <b>DSID_20915</b> for IDFA, representing devices running the iOS operating system. </li> 

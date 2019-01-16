@@ -20,7 +20,7 @@ faq_features_functions.xml
 
 **What is my Organization ID and how do I find it?**
 
-The *`Organization ID`* is a unique ID that identifies your organization to [!DNL Audience Manager] and the [!DNL Adobe Experience Cloud]. It consists of a case-sensitive, 24-character alphanumeric string followed by [!UICONTROL @AdobeOrg]. For example, an *`Organization ID`* looks like this: `1FD6776A524453CC0A490D44@AdobeOrg`. The *`Organization ID`* is used by Audience Manager's [DIL](../c-dil/dil-overview.md) API, the [Experience Cloud ID service](https://marketing.adobe.com/resources/help/en_US/mcvid/), and other [!DNL Experience Cloud] solutions. Users with Administrator permissions can find the *`Organization ID`* on the [!DNL Adobe Admin Console]. See the [Administration - User Management FAQ](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html).
+The *`Organization ID`* is a unique ID that identifies your organization to [!DNL Audience Manager] and the [!DNL Adobe Experience Cloud]. It consists of a case-sensitive, 24-character alphanumeric string followed by [!UICONTROL @AdobeOrg]. For example, an *`Organization ID`* looks like this: `1FD6776A524453CC0A490D44@AdobeOrg`. The *`Organization ID`* is used by Audience Manager's [DIL](../dil/dil-overview.md) API, the [Experience Cloud ID service](https://marketing.adobe.com/resources/help/en_US/mcvid/), and other [!DNL Experience Cloud] solutions. Users with Administrator permissions can find the *`Organization ID`* on the [!DNL Adobe Admin Console]. See the [Administration - User Management FAQ](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html).
 
 **Can I create traits or destinations in bulk?**
 
@@ -28,7 +28,7 @@ Yes. See [Bulk Management Tools](../reference/bulk-management-tools/bulk-managem
 
 >[!NOTE]
 >
->The [!UICONTROL Bulk Management Tools] tools *are not* supported by [!DNL Audience Manager]. They're provided for convenience and as a courtesy only. For bulk changes, we recommend you work with the [Audience Manager APIs](../c-api/c-api.md#concept_8C41AAD825A24A01806E64C32F71472A) instead.
+>The [!UICONTROL Bulk Management Tools] tools *are not* supported by [!DNL Audience Manager]. They're provided for convenience and as a courtesy only. For bulk changes, we recommend you work with the [Audience Manager APIs](../api/api.md#concept_8C41AAD825A24A01806E64C32F71472A) instead.
 
 **Can [!DNL Audience Manager] reduce the need for third-party tags or pixels and improve page load times?**
 

@@ -71,4 +71,4 @@ https://<domain>/event?product=camera&price>100
 
 >[!MORE_LIKE_THIS]
 >
->* [Segments: Purpose, Composition, and Rules](../c-features/c-segments/segments-purpose.md#concept_F9E9D1D1EFF34AA2AD025109DD741C86)
+>* [Segments: Purpose, Composition, and Rules](../features/segments/segments-purpose.md#concept_F9E9D1D1EFF34AA2AD025109DD741C86)

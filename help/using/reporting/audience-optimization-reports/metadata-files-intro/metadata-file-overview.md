@@ -49,7 +49,7 @@ The following table lists the key-value pairs that hold data used by the [!UICON
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Advertiser </p> </td> 
-   <td colname="col2"> <p> <span class="codeph">d_adsrc = <span class="varname"> data source ID or integration code</span></span> </p> <p>This is the advertiser's data source ID or integration code provided when creating a data source. See <a href="../../../c-features/manage-datasources.md#concept_3B7696B3EC77416492D3B99EBD79EA44"> Create a Data Source</a>. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph">d_adsrc = <span class="varname"> data source ID or integration code</span></span> </p> <p>This is the advertiser's data source ID or integration code provided when creating a data source. See <a href="../../../features/manage-datasources.md#concept_3B7696B3EC77416492D3B99EBD79EA44"> Create a Data Source</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Business Unit (BU) </p> </td> 
@@ -77,7 +77,7 @@ The following table lists the key-value pairs that hold data used by the [!UICON
   </tr> 
   <tr> 
    <td colname="col1"> <p>Platform </p> </td> 
-   <td colname="col2"> <p> <span class="codeph">d_src = <span class="varname"> data source ID</span></span> </p> <p>This is the <a href="../../../c-features/datasources-list-and-settings.md#data-sources-list-and-settings"> data source</a> ID for the platform providing metadata information (e.g., DFA, Atlas, GBM, MediaMath, etc.). </p> </td> 
+   <td colname="col2"> <p> <span class="codeph">d_src = <span class="varname"> data source ID</span></span> </p> <p>This is the <a href="../../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> data source</a> ID for the platform providing metadata information (e.g., DFA, Atlas, GBM, MediaMath, etc.). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Tactic </p> </td> 
@@ -129,5 +129,5 @@ After you name and add data to a file, you send it to an Amazon S3 storage direc
 >[!MORE_LIKE_THIS]
 >
 >* [Data Files for Audience Optimization Reports](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md#concept_76D2C04AA9904203BDC74E4D38D86C89)
->* [Capturing Campaign Click Data via Pixel Calls](../../../c-integration/media-data-integration/click-data-pixels.md#concept_E487584D9DBF4D7A8A16B745DAD818CD)
->* [Capturing Campaign Impression Data via Pixel Calls](../../../c-integration/media-data-integration/impression-data-pixels.md#concept_83852AB68E344D4F8933665C895322C2)
+>* [Capturing Campaign Click Data via Pixel Calls](../../../integration/media-data-integration/click-data-pixels.md#concept_E487584D9DBF4D7A8A16B745DAD818CD)
+>* [Capturing Campaign Impression Data via Pixel Calls](../../../integration/media-data-integration/impression-data-pixels.md#concept_83852AB68E344D4F8933665C895322C2)

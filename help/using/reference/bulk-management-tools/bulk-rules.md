@@ -19,7 +19,7 @@ The create and update worksheets accept a traitRule header that lets you apply m
 
 >[!NOTE]
 >
->The [!UICONTROL Bulk Management Tools] *are not* supported by [!DNL Audience Manager]. This tool is provided for convenience and as a courtesy only. For bulk changes, we recommend that you work with the [Audience Manager APIs](https://marketing.adobe.com/resources/help/en_US/aam/?f=c_api.html) instead. [RBAC group permissions](../../c-features/c-administration/administration-overview.md) assigned in the Audience Manager UI are honored in the Bulk Management Tools.
+>The [!UICONTROL Bulk Management Tools] *are not* supported by [!DNL Audience Manager]. This tool is provided for convenience and as a courtesy only. For bulk changes, we recommend that you work with the [Audience Manager APIs](https://marketing.adobe.com/resources/help/en_US/aam/?f=c_api.html) instead. [RBAC group permissions](../../features/administration/administration-overview.md) assigned in the Audience Manager UI are honored in the Bulk Management Tools.
 
 ## Working with trait rules {#section_D0E125BEC35E40AEA410725C364CEF8E}
 
@@ -27,7 +27,7 @@ In your worksheet, the trait rule column returns and accepts rules that consist 
 
 ## Rule builder example {#section_F4E7928A68FA41708B8C29525689A80C}
 
-Let's take a look at an example that demonstrates how to use [!UICONTROL Segment Builder] to create a rule you can to the bulk worksheet. However, this isn't a set of step-by-step instructions for those tools. Instead we're going to start with a simple rule that's already been created. For instructions about how to use the rule builders see [Segment Builder](../../c-features/c-segments/segment-builder.md#concept_FABA1F399CFD4E83B874043638D0FA54) and [Trait Builder](../../c-features/traits/about-trait-builder.md#concept_BCDC4BCAEB4A4879AFA4A9B98D9ED369).
+Let's take a look at an example that demonstrates how to use [!UICONTROL Segment Builder] to create a rule you can to the bulk worksheet. However, this isn't a set of step-by-step instructions for those tools. Instead we're going to start with a simple rule that's already been created. For instructions about how to use the rule builders see [Segment Builder](../../features/segments/segment-builder.md#concept_FABA1F399CFD4E83B874043638D0FA54) and [Trait Builder](../../features/traits/about-trait-builder.md#concept_BCDC4BCAEB4A4879AFA4A9B98D9ED369).
 
 With the visual rule builder, we've created a segment rule with 3 traits and a Boolean [!UICONTROL AND] operator.
 
@@ -49,8 +49,8 @@ Paste the rule into the [!UICONTROL Bulk Management Tools] worksheet and commit 
 
 You can write your own rules outside of [!UICONTROL Rule Builder]. Before you start, be sure to read the documentation that covers things like operators, expression, and required variables. We recommend you review the following:
 
-* [Working With Comparison Operators In Trait Builder](../../c-features/traits/trait-comparison-operators.md) 
-* [Order of Operations](../../c-features/traits/trait-operator-precedence.md) 
-* [Prefix Requirements for Key Variables](../../c-features/traits/trait-variable-prefixes.md) 
-* [Sample Expressions With Boolean and Comparison Operators](../../c-features/traits/trait-expression-samples.md)
+* [Working With Comparison Operators In Trait Builder](../../features/traits/trait-comparison-operators.md) 
+* [Order of Operations](../../features/traits/trait-operator-precedence.md) 
+* [Prefix Requirements for Key Variables](../../features/traits/trait-variable-prefixes.md) 
+* [Sample Expressions With Boolean and Comparison Operators](../../features/traits/trait-expression-samples.md)
 

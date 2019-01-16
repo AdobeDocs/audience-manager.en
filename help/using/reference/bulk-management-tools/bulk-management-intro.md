@@ -20,7 +20,7 @@ c_bulk_start.xml
 
 >[!NOTE]
 >
->The [!UICONTROL Bulk Management Tools] *are not* supported by [!DNL Audience Manager]. This tool is provided for convenience and as a courtesy only. For bulk changes, we recommend that you work with the [Audience Manager APIs](https://marketing.adobe.com/resources/help/en_US/aam/?f=c_api.html) instead. [RBAC group permissions](../../c-features/c-administration/administration-overview.md) assigned in the [!DNL Audience Manager] UI are honored in the [!UICONTROL Bulk Management Tools].
+>The [!UICONTROL Bulk Management Tools] *are not* supported by [!DNL Audience Manager]. This tool is provided for convenience and as a courtesy only. For bulk changes, we recommend that you work with the [Audience Manager APIs](https://marketing.adobe.com/resources/help/en_US/aam/?f=c_api.html) instead. [RBAC group permissions](../../features/administration/administration-overview.md) assigned in the [!DNL Audience Manager] UI are honored in the [!UICONTROL Bulk Management Tools].
 
 ## Overview {#section_A45262A175E84DE1946675A1AB0E8055}
 
@@ -65,12 +65,12 @@ The table below lists the operations you can perform and items you can manipulat
      </ul> </p> </td> 
    <td colname="col2"> <p>The objects you can change in bulk are located under the <span class="uicontrol"> Headers</span> tab and include: </p> <p> 
      <ul id="ul_A7A96F2B1B63430B9A1E1184AC5FA8F2"> 
-      <li id="li_E3D9E2E190B04BE685337AC6140C371C"> <a href="../../c-features/datasources-list-and-settings.md#data-sources-list-and-settings"> Data sources</a> </li> 
-      <li id="li_B645385E40684FA28770913EAF18CB2C"> <a href="../../c-features/derived-signals.md#concept_36FF7303F39E4748AC048D08F9E371C6"> Derived signals</a> </li> 
-      <li id="li_9059F8C4A41A410899BDEFC76D3F5949"> <a href="../../c-features/destinations/destinations.md#concept_5BDA346C376C4B719EA394108AB2735A"> Destinations</a> </li> 
-      <li id="li_BB5A445150754E53AA38C78461326932"> <a href="../../c-features/traits/trait-storage.md#concept_492988EC858545AAA5D1B8F06D273BDD"> Trait folders</a> and segment folders </li> 
-      <li id="li_7A27DBF64E0945CF8AE8C96E8C6EDA09"> <a href="../../c-features/c-segments/segments-purpose.md"> Segments</a> </li> 
-      <li id="li_A4640A34930040DEA8555EAF0AE2A702"> <a href="../../c-features/traits/trait-details-page.md"> Traits</a> </li> 
+      <li id="li_E3D9E2E190B04BE685337AC6140C371C"> <a href="../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> Data sources</a> </li> 
+      <li id="li_B645385E40684FA28770913EAF18CB2C"> <a href="../../features/derived-signals.md#concept_36FF7303F39E4748AC048D08F9E371C6"> Derived signals</a> </li> 
+      <li id="li_9059F8C4A41A410899BDEFC76D3F5949"> <a href="../../features/destinations/destinations.md#concept_5BDA346C376C4B719EA394108AB2735A"> Destinations</a> </li> 
+      <li id="li_BB5A445150754E53AA38C78461326932"> <a href="../../features/traits/trait-storage.md#concept_492988EC858545AAA5D1B8F06D273BDD"> Trait folders</a> and segment folders </li> 
+      <li id="li_7A27DBF64E0945CF8AE8C96E8C6EDA09"> <a href="../../features/segments/segments-purpose.md"> Segments</a> </li> 
+      <li id="li_A4640A34930040DEA8555EAF0AE2A702"> <a href="../../features/traits/trait-details-page.md"> Traits</a> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
