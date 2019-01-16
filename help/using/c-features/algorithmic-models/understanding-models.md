@@ -60,7 +60,7 @@ We deactivate any algorithmic model that fails to generate data for three consec
 
 ## Understanding TraitWeight {#concept_1E21CF71FBD04C3EA59554909828DAD5}
 
-[!UICONTROL TraitWeight] is a proprietary algorithm designed to discover new traits automatically. It compares trait data from your current traits and segments against all other first and third-party data that you have access to through [!DNL Audience Manager]. Refer to this section for a description of the [!UICONTROL TraitWeight] algorithmic discovery process.
+[!UICONTROL TraitWeight] is a proprietary algorithm designed to discover new traits automatically. It comcpares trait data from your current traits and segments against all other first and third-party data that you have access to through [!DNL Audience Manager]. Refer to this section for a description of the [!UICONTROL TraitWeight] algorithmic discovery process.
 
 <!--
 traitweight.xml

@@ -244,7 +244,7 @@ r_map_cookie_multikey_serialized.xml
 
 ### Sample Request
 
-In the request, the `traitAlias` and `valueAlias` set the key and the value in a key-value pair. All request values are required unless otherwise indicated. 
+In the request, the `traitAlias` and `valueAlias` set the key and the value in a key-value pair. All request values are required unless otherwise indicated.
 
 ```
 {

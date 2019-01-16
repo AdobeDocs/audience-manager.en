@@ -61,7 +61,7 @@ r_get_all_destinations.xml
 
 ### Request
 
-`GET https://api.demdex.com/v1/destinations` 
+`GET https://api.demdex.com/v1/destinations`
 
 >[!NOTE]
 >
@@ -100,11 +100,11 @@ You can use these optional parameters with API methods that return *all* propert
   <tr valign="top"> 
    <td colname="col1"><span class="codeph"> search</span> </td>
    <td colname="col2">Returns results based on the specified string you want to use as a search parameter. For example, let's say you want to find results for all models that have the word "Test" in any of the value fields for that item. Your sample request could look like this: <p><span class="codeph"> GET https://api.demdex.com/v1/models/?search=Test</span>. </p> <p>You can search on any value returned by a "get all" method. </p> </td>
-  </tr> 
- </tbody> 
+  </tr>
+ </tbody>
 </table>
 
-### Response 
+### Response
 
 ```
 [

@@ -15,11 +15,9 @@ Set up Open Ad Server as a destination and send Audience Manager data to that pl
 
 Standards for code placement, supported key-value formats, reports, and the type of segment data sent to OAS.
 
-<!-- 
-
+<!--
 aam-oas-requirements.xml
-
- -->
+-->
 
 This destination type requires the following:
 
@@ -50,11 +48,9 @@ The amount data passed in to OAS depends on how many segments a particular user 
 
 Create a cookie-based destination for OAS in Audience Manager.
 
-<!-- 
-
+<!--
 aam-oas-destination-setup.xml
-
- -->
+-->
 
 In Audience Manager, a *destination* is any other system (ad server, DSP, ad network, etc.) that you want to share data with. [!UICONTROL Destination Builder] provides the tools that let you create and manage these data delivery processes. Audience Manager destination features are located in *Audience Data > Destinations*. To get started, click **[!UICONTROL Add New Destination]** and follow the steps below.
 
@@ -95,11 +91,9 @@ To add a segment to a cookie destination:
 
 Modify OAS settings to work with Audience Manager segment data.
 
-<!-- 
-
+<!--
 aam-oas-code.xml
-
- -->
+-->
 
 To set up OAS
 
