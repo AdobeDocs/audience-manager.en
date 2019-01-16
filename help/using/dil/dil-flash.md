@@ -128,7 +128,7 @@ See the table for examples:
 
 ** [!UICONTROL Flash DIL]/Analytics Data as Unused Signals**
 
-Audience Manager accepts Analytics [!UICONTROL Props], [!UICONTROL eVars], and events even without a corresponding trait. In this case, the data is unavailable for trait creation and appears in the [Unused Signals report](../reporting/dynamireports/unused-signals.md#concept_D3A6A3AD84AE47589699A13A8F971BE0) instead. To make the most of this information, create Audience Manager traits that match the Analytics data passed in by the [!UICONTROL Flash DIL] library. 
+Audience Manager accepts Analytics [!UICONTROL Props], [!UICONTROL eVars], and events even without a corresponding trait. In this case, the data is unavailable for trait creation and appears in the [Unused Signals report](../reporting/dynamic-reports/unused-signals.md#concept_D3A6A3AD84AE47589699A13A8F971BE0) instead. To make the most of this information, create Audience Manager traits that match the Analytics data passed in by the [!UICONTROL Flash DIL] library. 
 
 >[!MORE_LIKE_THIS]
 >

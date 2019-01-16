@@ -189,7 +189,7 @@ user-guide-title: Audience Manager User Guide
             + [Race Conditions and Error Handling](api/dcs-intro/dcs-api-reference/dcs-race-conditions.md)
             + [Supported Attributes for    DCS API Calls](api/dcs-intro/dcs-api-reference/dcs-keys.md)
     + REST APIs{#rest-apis}
-        + [REST APIs Overview](api/rest-api-main/c-rest-api-main.md)
+        + [REST APIs Overview](api/rest-api-main/rest-api-main.md)
         + [Getting Started with REST APIs](api/rest-api-main/aam-api-getting-started.md)
         + [Algorithmic API Methods](api/rest-api-main/aam-api-algo-methods.md)
         + [Data Integration Library API Methods](api/rest-api-main/aam-api-dil-methods.md)

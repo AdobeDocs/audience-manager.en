@@ -17,7 +17,7 @@ Here at Audience Manager, we're engineers, developers, and code ninjas just like
 api-swagger-migration.xml#
 -->
 
-The [Adobe Audience Manager API Docs](https://bank.demdex.com/portal/swagger/index.html) site is the new home for our revised API content. We'll try to re-write and move a few sets of API methods with each release. This means you'll have to check in both the new location and the [REST API](../api/rest-api-main/c-rest-api-main.md#concept_B512E6C3410A4304A672588A60A792B1) documentation to find all of the available methods. Eventually, all of the public APIs will be on the [!DNL Audience Manager] API docs site. The following table lists the revised and migrated APIs.
+The [Adobe Audience Manager API Docs](https://bank.demdex.com/portal/swagger/index.html) site is the new home for our revised API content. We'll try to re-write and move a few sets of API methods with each release. This means you'll have to check in both the new location and the [REST API](../api/rest-api-main/rest-api-main.md#concept_B512E6C3410A4304A672588A60A792B1) documentation to find all of the available methods. Eventually, all of the public APIs will be on the [!DNL Audience Manager] API docs site. The following table lists the revised and migrated APIs.
 
 <table id="table_CD3C244CB02C48C898745FB982EC828C"> 
  <thead> 
