@@ -15,16 +15,20 @@ Name your Audience Optimization metadata file according to these specifications.
 
 The following syntax defines the structure of a well-formed metadata file name. Note, *italics* indicates a variable placeholder. The other elements are constants and do not change.
 
-**Syntax:** ` *`yyyymmdd`*_ *`parentID`*_ *`childID`*`
+**Syntax:** *yyyymmdd_0_childID*
 
-In the name syntax, you'll notice a parent ID variable. Don't confuse it with the parent ID used in the [metadata file contents](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md#concept_5E422498650E40FD9744ABF290750107). These 2 variables seem similar, but they represent different things:
+>[!NOTE]
+>
+>*Do not* use file extensions in your metadata files (.txt or other).
 
-* In the file name, the parent ID corresponds to a category like "campaign" (ID 1), "placement" (ID 3), or "tactic" (ID 9), etc. 
-* In the file body, the parent ID is the actual ID of the object that the contents belong to. For example, if your file contains creatives that are part of a campaign, the parent ID is the actual ID of the campaigns these creatives belong to.
+<!--In the name syntax, you'll notice a parent ID variable. Don't confuse it with the parent ID used in the [metadata file contents](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md#concept_5E422498650E40FD9744ABF290750107). These 2 variables seem similar, but they represent different things:-->
 
-**Metadata File ID and Categories**
+* The middle component **0** is technically the Parent ID, which is a legacy field. The value should always be set as **0**. 
+* The child ID can have a value between 1 and 9, depending on the dimension. See below:
 
-In the metadata file name, the parent and child IDs are identifiers that classify the type of data in a file and place it into a hierarchy. You can tag the parent and child elements in file name with the following category IDs:
+**Child ID dimensions**
+
+In the metadata file name, the child ID is an identifier that classifies the type of data in a file and places it into a hierarchy. You can tag the child ID in file name with the following category IDs:
 
 * 0: No parent 
 * 1: Campaign 
@@ -40,11 +44,13 @@ In the metadata file name, the parent and child IDs are identifiers that classif
 
 ## Example {#section_A613DDC627444B2EBA6D5D6AAB42ACD6}
 
-Let's take a look at how you would use these IDs in a metadata file name. As an example, say your data file consists of campaign creatives. In this case, the campaign is a parent object and the creatives are child objects because they belong to, or are contained by, the campaign. As a result, you'd choose the following IDs for the metadata file name:
+For a Creative metadata file, the file name could be 20190115_0_2.
+
+<!--Let's take a look at how you would use these IDs in a metadata file name. As an example, say your data file consists of campaign creatives. In this case, the campaign is a parent object and the creatives are child objects because they belong to, or are contained by, the campaign. As a result, you'd choose the following IDs for the metadata file name:
 
 * Parent ID: `1` 
 * Child ID: `2`
 
 Your metadata file name would look like this: `20150827_1_2`
 
-Sometimes, you might have data that does not belong to a parent object. Whenever this is the case, select ID 0 for the parent ID. In this case, your file title would look like this: `20150827_0_2`. 
+Sometimes, you might have data that does not belong to a parent object. Whenever this is the case, select ID 0 for the parent ID. In this case, your file title would look like this: `20150827_0_2`. -->

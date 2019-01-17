@@ -15,16 +15,18 @@ Format the contents of your Audience Optimization metadata file according to the
 
 The following syntax defines the structure of well-formed contents in a metadata file. Note, *italics* indicates a variable placeholder.
 
-**Syntax:** ` *`content ID`* | *`name`* | *`parent ID`*`
+**Syntax:**  *content ID* | *name* | *-1*
 
-In the contents syntax, you'll notice a parent ID variable. Don't confuse it with the parent ID used in the [metadata file name](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#concept_729806531D4547A6B5870BEA199FB4A9). These 2 variables seem similar, but they represent different things. In the file name, the parent ID corresponds to a category like "campaign" (ID 1), "placement" (ID 3), or "tactic" (ID 9), etc. In the file body:
+<!--In the contents syntax, you'll notice a parent ID variable. Don't confuse it with the parent ID used in the [metadata file name](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#concept_729806531D4547A6B5870BEA199FB4A9). These 2 variables seem similar, but they represent different things. In the file name, the parent ID corresponds to a category like "campaign" (ID 1), "placement" (ID 3), or "tactic" (ID 9), etc. In the file body:-->
 
-* The parent ID is the numeric ID of the object that the file contents belong to. For example, if your file contains creatives in a campaign, this value is the campaign ID. 
+* The last column **-1** is technically the Parent ID, which is a legacy field. The value should always be set as **-1**.
 * If your file content *does not* have a parent ID, then use the `NULL` object (i.e., the non-printing programming object) or `-1`. You would use `NULL` or `-1` when the parent ID in the file name is set to ID 0.
 
-**Separate File Entries With ASCII 001 or Tab**
+**Separate File Entries With ^a (control-A or ASCII 001)**
 
-The non-printing ASCII 001 character is the preferred delimiter for separating contents in your file. If you cannot use ASCII 001, then separate file contents with a tab delimiter. As these are non-printing characters, the syntax example above shows a pipe "|" for display purposes only.
+Use ^a (control-A or ASCII 001) to separate content in your metadata files. As these are non-printing characters, the syntax example above shows a pipe "|" for display purposes only.
+
+If needed, you may download this example file ![(20181105_0_1)](assets/20181105_0_1) in your editor of choice and adjust according to your actual metadata contents, as it already contains the required delimiter.
 
 >[!IMPORTANT]
 >
