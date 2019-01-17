@@ -60,7 +60,7 @@ To be valid, your [!DNL Audience Manager] password must meet the following requi
  </tbody> 
 </table>
 
-For information about resetting your password, see [Edit Your Account Settings](../c-features/c-administration/edit-account-settings.md#task_B622BDCE85824926AE88C6D132F9EDAE).
+For information about resetting your password, see [Edit Your Account Settings](../features/administration/edit-account-settings.md#task_B622BDCE85824926AE88C6D132F9EDAE).
 
 **Account Lockout**
 
@@ -72,5 +72,5 @@ Click the **[!UICONTROL Forgot password]** link from the login page to reset you
 
 >[!MORE_LIKE_THIS]
 >
->* [Data Security](../overview/c-data-security-and-privacy/data-security.md)
->* [Data Security](../overview/c-data-security-and-privacy/data-privacy.md)
+>* [Data Security](../overview/data-security-and-privacy/data-security.md)
+>* [Data Security](../overview/data-security-and-privacy/data-privacy.md)

@@ -47,7 +47,7 @@ Append a campaign-specific query string to the URL of the site section you want 
 
 **I have a segment consisting of just one trait. When I look at Reporting metrics, their counts don't match. Why is that?**
 
-See [Trait and Segment Population Data in Segment Builder](../c-features/c-segments/segment-builder-data.md#concept_05EE3010E67F446E8818351292EF7372).
+See [Trait and Segment Population Data in Segment Builder](../features/segments/segment-builder-data.md#concept_05EE3010E67F446E8818351292EF7372).
 
 <!-- 
 

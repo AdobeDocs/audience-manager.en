@@ -36,7 +36,7 @@ In this case, [!UICONTROL Audience Lab] counts three conversions, one for each d
 
 **Can a user have [!UICONTROL Segment: Read-Only] access, yet also [!UICONTROL Audience Lab] test segment creation access?**
 
-See [Create Segment Test Group](../c-features/audience-lab/audience-lab-manage-test-groups.md#task_B62EF6D2992941FAAEA84BE2EA11A55E) for information on how to use [!UICONTROL Audience Lab] with [!UICONTROL RBAC] privileges.
+See [Create Segment Test Group](../features/audience-lab/audience-lab-manage-test-groups.md#task_B62EF6D2992941FAAEA84BE2EA11A55E) for information on how to use [!UICONTROL Audience Lab] with [!UICONTROL RBAC] privileges.
 
 **Can I use [!UICONTROL Audience Lab] in conjunction with the [!UICONTROL Profile Link Device Graph] and External Device Graphs ( [Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-overview.html), Tapad Device Graph, Liveramp Device Graph)?**
 

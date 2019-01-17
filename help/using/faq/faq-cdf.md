@@ -15,7 +15,7 @@ Frequently asked questions about Customer Data Feed (CDF) files.
 
 **Where is my CDF file stored on [!DNL Amazon]?**
 
-Your CDF file is stored in the `aam-cdf` root directory on an [!DNL Amazon S3] server. This default bucket is managed by [!DNL Audience Manager]. See also [Customer Data Feed File Naming Conventions](../c-features/cdf-files.md#reference_DAC53BEEA60B426588D1B66B3B92E8C1).
+Your CDF file is stored in the `aam-cdf` root directory on an [!DNL Amazon S3] server. This default bucket is managed by [!DNL Audience Manager]. See also [Customer Data Feed File Naming Conventions](../features/cdf-files.md#reference_DAC53BEEA60B426588D1B66B3B92E8C1).
 
 **Is my storage bucket secure?**
 
@@ -27,11 +27,11 @@ No. Customization and alternate storage options are not available.
 
 **My directory is missing a file for particular hour. Where is it?**
 
-A missing file means [!DNL Audience Manager] was not able to process your CDF files for that hour. This usually happens when our servers get behind in processing CDF files. In this case, your file is not lost. It will appear in a later hourly directory after our system has a chance to catch up. See also, [Customer Data Feed File Processing Notifications](../c-features/cdf-files.md#concept_00F913A9946A4A10A0F34269AC84A563).
+A missing file means [!DNL Audience Manager] was not able to process your CDF files for that hour. This usually happens when our servers get behind in processing CDF files. In this case, your file is not lost. It will appear in a later hourly directory after our system has a chance to catch up. See also, [Customer Data Feed File Processing Notifications](../features/cdf-files.md#concept_00F913A9946A4A10A0F34269AC84A563).
 
 **How do I know when my CDF files are ready?**
 
-See [Customer Data Feed File Processing Notifications](../c-features/cdf-files.md#concept_00F913A9946A4A10A0F34269AC84A563).
+See [Customer Data Feed File Processing Notifications](../features/cdf-files.md#concept_00F913A9946A4A10A0F34269AC84A563).
 
 ## File Sizes {#section_3469175E380844559B95B78BB4727D4E}
 
@@ -63,4 +63,4 @@ You can only generate CDF files for the past 8 days. CDF files for intervals old
 
 >[!MORE_LIKE_THIS]
 >
->* [Customer Data Feeds](../c-features/cdf-files.md#concept_114B993EC5E246AE8CDD55E695B344FC)
+>* [Customer Data Feeds](../features/cdf-files.md#concept_114B993EC5E246AE8CDD55E695B344FC)

@@ -24,7 +24,7 @@ The benefits of using Amazon S3 include:
 
     * All directories are accessible only to the appropriate customer or client. 
     * HTTPS protocol support for uploads and downloads. You should always use HTTPS when transferring files in [!DNL Audience Manager]. 
-    * Amazon S3 provides encryption-at-rest for encrypting [outbound data files](../c-integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md). We use the [SSE-S3](https://docs.aws.amazon.com/AmazonS3/latest/dev/serv-side-encryption.html) encryption method, which allows encryption keys to be automatically generated and managed by Amazon S3.
+    * Amazon S3 provides encryption-at-rest for encrypting [outbound data files](../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md). We use the [SSE-S3](https://docs.aws.amazon.com/AmazonS3/latest/dev/serv-side-encryption.html) encryption method, which allows encryption keys to be automatically generated and managed by Amazon S3.
 
 * **Debug and Backup Support:** Amazon S3 allows [!DNL Audience Manager] to retain exact copies of files to make debugging or re-transfers easier.
 

@@ -72,5 +72,5 @@ The [!UICONTROL AND NOT] operator is useful when it’s easier to define an audi
 
 >[!MORE_LIKE_THIS]
 >
->* [Working with Comparison Operators in TraitBuilder](../c-features/traits/trait-comparison-operators.md#concept_1A1761AA403341D7B91C0E26DC4294F4)
->* [Order of Operations in TraitBuilder Expressions](../c-features/traits/trait-operator-precedence.md#concept_F8A8B8B8E4814A86B34493B104D44464)
+>* [Working with Comparison Operators in TraitBuilder](../features/traits/trait-comparison-operators.md#concept_1A1761AA403341D7B91C0E26DC4294F4)
+>* [Order of Operations in TraitBuilder Expressions](../features/traits/trait-operator-precedence.md#concept_F8A8B8B8E4814A86B34493B104D44464)

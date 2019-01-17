@@ -49,7 +49,7 @@ As a best practice, set up your [!DNL Audience Manager]- [!DNL Analytics] integr
 
 * Serve [!UICONTROL DIL] and the `s_code` through [!DNL Adobe Tag Manager].
 
-See [Data Integration Library (DIL) API](../c-dil/dil-overview.md).
+See [Data Integration Library (DIL) API](../dil/dil-overview.md).
 
 **Why are my [!DNL Analytics] variables missing from an [!DNL Audience Manager] event call?**
 
@@ -91,8 +91,8 @@ Additionally, clients can deploy a simple onsite object and populate it with key
 
 Yes. [!UICONTROL DIL] can collect some [!DNL Google Analytics] (GA) elements and pass that data to [!DNL Audience Manager]. See:
 
-* [GA.submitUniversalAnalytics](../c-dil/dil-modules.md#reference_FF7F8513BEC5457ABE2902BC854C7C18) 
-* [GA.init](../c-dil/dil-modules.md#reference_C3DB78CE5C774887AA4FC5629568B651)
+* [GA.submitUniversalAnalytics](../dil/dil-modules.md#reference_FF7F8513BEC5457ABE2902BC854C7C18) 
+* [GA.init](../dil/dil-modules.md#reference_C3DB78CE5C774887AA4FC5629568B651)
 
 **Can I get raw data from [!DNL Audience Manager] and how granular is it?**
 
@@ -124,7 +124,7 @@ Yes. We can send funnel data, but the DSP must have the technical capability to 
 
 A file has been picked up when the extension changes from `.sync` to `.processed`. When this happens, the file is in the ingestion queue. Also, your account manager can confirm when a file has been uploaded.
 
-**I want to test the functionality of the [DCS API](../c-api/dcs-intro/dcs-event-calls/dcs-event-calls.md). I am sending event calls like the one shown below. The calls contain [Declared IDs](../c-features/declared-ids.md) and signals, which should realize some traits and segments I have already set up. Can I use the [!UICONTROL General Reports] and [!UICONTROL Trend Reports] to verify if the trait and segment populations are increasing?**
+**I want to test the functionality of the [DCS API](../api/dcs-intro/dcs-event-calls/dcs-event-calls.md). I am sending event calls like the one shown below. The calls contain [Declared IDs](../features/declared-ids.md) and signals, which should realize some traits and segments I have already set up. Can I use the [!UICONTROL General Reports] and [!UICONTROL Trend Reports] to verify if the trait and segment populations are increasing?**
 
 ```
 https://apse2.demdex.net/event?d_rtbd=json&d_cid=123456%01abc123&c_events=placed-an-order
@@ -144,6 +144,6 @@ For this reason, the reports will not reflect the events triggered by the declar
 
 See also, the [Index of Audience Manager IDs](../reference/ids-in-aam.md).
 
-**How long does it take for user profiles to sync across [regions](../c-api/dcs-intro/dcs-api-reference/dcs-regions.md#concept_01C1E017A6694D1EAF9BF65BFFA54091)?**
+**How long does it take for user profiles to sync across [regions](../api/dcs-intro/dcs-api-reference/dcs-regions.md#concept_01C1E017A6694D1EAF9BF65BFFA54091)?**
 
 It usually takes up to 24 hours for a user profile to sync across regions. However, in rare cases, the process can take up to 48 hours. 

@@ -20,7 +20,7 @@ c_inbound_crm_data_ingestion.xml
 
 **Can you summarize the onboarding process?**
 
-The onboarding process consists of 2 core components described in [Batch Data Transfer Process Described](../c-integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md#concept_EC5B2B3B5ED443F0B271400C08B263D3). These involve:
+The onboarding process consists of 2 core components described in [Batch Data Transfer Process Described](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md#concept_EC5B2B3B5ED443F0B271400C08B263D3). These involve:
 
 * ID synchronization 
 * Inbound Data File ( [!DNL .sync] file or [!DNL .overwrite] file)
@@ -50,11 +50,11 @@ We recommend the following:
 
 **What FTP mode should I use to transfer compressed or encrypted files?**
 
-See [File Compression for Inbound Data Transfer Files](../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md#concept_7D6FA8BA759143EFBEDB16589BF6EC40).
+See [File Compression for Inbound Data Transfer Files](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md#concept_7D6FA8BA759143EFBEDB16589BF6EC40).
 
 **Can I upload an inbound data file ([!DNL .sync] or [!DNL .overwrite] file) before deploying [!DNL Audience Manager] code into production?**
 
-* If the data provider is configured to use [Profile Link](../c-features/profile-merge-rules/merge-rules-overview.md#concept_5FCB08A53C4D4C2B82800BC9FD2B8EC9) for cross-device targeting, the data available for targeting shortly after an ID sync identifies to the matching [!DNL Audience Manager] visitor ID. 
+* If the data provider is configured to use [Profile Link](../features/profile-merge-rules/merge-rules-overview.md#concept_5FCB08A53C4D4C2B82800BC9FD2B8EC9) for cross-device targeting, the data available for targeting shortly after an ID sync identifies to the matching [!DNL Audience Manager] visitor ID. 
 
 * If the data provider is not configured to use the [!UICONTROL Profile Link] feature, [!DNL Audience Manager] processes only the data for visitor IDs in the inbound data file that have been previously synced/matched back to an [!DNL Audience Manager] visitor ID.
 
@@ -171,8 +171,8 @@ The following use cases demonstrate how these file types affect stored visitor p
 
 For more information about full and incremental file types, see:
 
-* [Amazon S3 Name and File Size Requirements for Inbound Data...](../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md#concept_B3CAF442BFFE4823B76A5D0D91DF9942) 
-* [FTP Name and File Size Requirements for Inbound Data Files...](../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md#concept_D34898442363415DBF75CEBFC2E86997)
+* [Amazon S3 Name and File Size Requirements for Inbound Data...](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md#concept_B3CAF442BFFE4823B76A5D0D91DF9942) 
+* [FTP Name and File Size Requirements for Inbound Data Files...](../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md#concept_D34898442363415DBF75CEBFC2E86997)
 
 **What happens if I send in a file with IDs for visitors that have never performed the on-page ID sync?**
 
@@ -182,8 +182,8 @@ During processing, [!DNL Audience Manager] simply skips that record and moves on
 
 Time stamps are used for logging and record keeping. They are required by the syntax used for a properly formatted inbound file name. See:
 
-* [Amazon S3 Name Requirements for Inbound Data Files](../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md#concept_B3CAF442BFFE4823B76A5D0D91DF9942) 
-* [FTP Name and File Size Requirements for Inbound Data Files...](../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md#concept_D34898442363415DBF75CEBFC2E86997)
+* [Amazon S3 Name Requirements for Inbound Data Files](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md#concept_B3CAF442BFFE4823B76A5D0D91DF9942) 
+* [FTP Name and File Size Requirements for Inbound Data Files...](../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md#concept_D34898442363415DBF75CEBFC2E86997)
 
 **What is a Data Provider ID (DPID) and how do I get it?**
 
@@ -191,15 +191,15 @@ Your Adobe consultant will assign a three-digit or four-digit DPID to your parti
 
 **How large can the daily data files be?**
 
-See [File Compression for Inbound Data Transfer Files](../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md#concept_7D6FA8BA759143EFBEDB16589BF6EC40).
+See [File Compression for Inbound Data Transfer Files](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md#concept_7D6FA8BA759143EFBEDB16589BF6EC40).
 
 **Does Audience Manager support file compression?**
 
 Yes, see:
 
-* [File Compression for Inbound Data Transfer Files](../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md#concept_7D6FA8BA759143EFBEDB16589BF6EC40) 
-* [Amazon S3 Name Requirements for Inbound Data Files](../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md#concept_B3CAF442BFFE4823B76A5D0D91DF9942) 
-* [FTP Name Requirements for Inbound Data Files](../c-integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md#concept_D34898442363415DBF75CEBFC2E86997)
+* [File Compression for Inbound Data Transfer Files](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md#concept_7D6FA8BA759143EFBEDB16589BF6EC40) 
+* [Amazon S3 Name Requirements for Inbound Data Files](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md#concept_B3CAF442BFFE4823B76A5D0D91DF9942) 
+* [FTP Name Requirements for Inbound Data Files](../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md#concept_D34898442363415DBF75CEBFC2E86997)
 
 **The primary key in my data source database is an email address. Is that considered personally identifiable information?**
 
@@ -229,4 +229,4 @@ It depends. [!DNL Audience Manager] reads up to 119000 entries from the [!DNL Am
 
 >[!MORE_LIKE_THIS]
 >
->* [Batch Data Transfer Process Described](../c-integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md#concept_EC5B2B3B5ED443F0B271400C08B263D3)
+>* [Batch Data Transfer Process Described](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md#concept_EC5B2B3B5ED443F0B271400C08B263D3)
