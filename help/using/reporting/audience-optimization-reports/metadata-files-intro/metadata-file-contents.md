@@ -58,13 +58,13 @@ Let's take a look at how you would structure content in a metadata file. Part of
 **Creative**
 
 ```
-//file title
-20150827_0_2
+//File Title
+20180921_0_2
 
-//file contents: creative IDs, names, and campaign IDs
-888 Creative X NULL
-777 Creative Y NULL
-666 Creative Z NULL
+//Creative ID, Name, and Parent ID
+111 Creative A -1
+222 Creative B -1
+333 Creative C -1
 ```
 
 **Site**

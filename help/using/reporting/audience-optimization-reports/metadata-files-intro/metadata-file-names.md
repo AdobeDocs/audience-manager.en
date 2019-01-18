@@ -24,7 +24,7 @@ The following syntax defines the structure of a well-formed metadata file name. 
 <!--In the name syntax, you'll notice a parent ID variable. Don't confuse it with the parent ID used in the [metadata file contents](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md#concept_5E422498650E40FD9744ABF290750107). These 2 variables seem similar, but they represent different things:-->
 
 * The middle component **0** is technically the Parent ID, which is a legacy field. The value should always be set as **0**. 
-* The child ID can have a value between 1 and 9, depending on the dimension. See below:
+* The child ID can have a value between 1 and 10, depending on the dimension. See below:
 
 ## Child ID dimensions {#child-dimension}
 
