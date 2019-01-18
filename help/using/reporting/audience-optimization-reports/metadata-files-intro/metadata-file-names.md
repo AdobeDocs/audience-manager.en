@@ -26,7 +26,7 @@ The following syntax defines the structure of a well-formed metadata file name. 
 * The middle component **0** is technically the Parent ID, which is a legacy field. The value should always be set as **0**. 
 * The child ID can have a value between 1 and 9, depending on the dimension. See below:
 
-**Child ID dimensions**
+## Child ID dimensions {#child-dimension}
 
 In the metadata file name, the child ID is an identifier that classifies the type of data in a file and places it into a hierarchy. You can tag the child ID in file name with the following category IDs:
 
