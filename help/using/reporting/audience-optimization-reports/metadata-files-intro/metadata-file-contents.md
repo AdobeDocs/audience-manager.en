@@ -30,7 +30,7 @@ The third column **-1** is technically the Parent ID, which is a legacy field. T
 
 Use ^a (control-A or ASCII 001) to separate content in your metadata files. As these are non-printing characters, the syntax example above shows a pipe "|" for display purposes only.
 
-If needed, you may download this example file **![(20181105_0_1)](assets/20181105_0_1)** in your editor of choice and adjust according to your actual metadata contents, as it already contains the required delimiter.
+If needed, you may download this example file ![(20181105_0_1)](assets/20181105_0_1) in your editor of choice and adjust according to your actual metadata contents, as it already contains the required delimiter.
 
 >[!IMPORTANT]
 >
@@ -48,7 +48,7 @@ Let's take a look at how you would structure content in a metadata file. Part of
 //File Title
 20180921_0_1
 
-//Campaign ID, Name, and Parent ID
+//File Contents: Campaign ID, Name, and Parent ID
 111 Campaign A -1
 222 Campaign B -1
 333 Campaign C -1
@@ -61,7 +61,7 @@ Let's take a look at how you would structure content in a metadata file. Part of
 //File Title
 20180921_0_2
 
-//Creative ID, Name, and Parent ID
+//File Contents: Creative ID, Name, and Parent ID
 111 Creative A -1
 222 Creative B -1
 333 Creative C -1
@@ -74,7 +74,7 @@ Let's take a look at how you would structure content in a metadata file. Part of
 //File Title
 20180921_0_5
 
-//Site ID, Name, and Parent ID
+//File Contents: Site ID, Name, and Parent ID
 111 Site A -1
 222 Site B -1
 333 Site C -1
