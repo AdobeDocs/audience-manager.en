@@ -29,7 +29,7 @@ As an optimization tool, the [!UICONTROL Segment to Trait Overlap] reports helps
 
 The following illustration provides a high-level overview of the [!UICONTROL Segment-to-Trait Overlap] report.
 
-![](assets/segment_trait_overview90.png)
+![](assets/segment-to-trait-overlap.png)
 
 ### Drill Down on Individual Data Points
 

@@ -36,7 +36,7 @@ The following illustration provides a high-level overview of the [!UICONTROL Seg
 >
 >The [!UICONTROL Segment-to-Segment Overlap] report returns an empty field when it compares the same segment to itself.
 
-![](assets/s2s_overlap90.png)
+![](assets/segment-to-segment-overlap.png)
 
 ### Drill Down on Individual Data Points
 

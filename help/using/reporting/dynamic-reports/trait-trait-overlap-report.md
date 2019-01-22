@@ -33,7 +33,7 @@ The following illustration provides a high-level overview of elements in the [!U
 >
 >The [!UICONTROL Trait-to-Trait Overlap] report returns an empty field when it compares the same trait to itself.
 
-![](assets/t2t_overlap90.png)
+![](assets/trait-to-trait-overlap.png)
 
 ## Drill Down on Individual Data Points
 
