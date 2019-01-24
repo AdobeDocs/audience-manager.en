@@ -40,12 +40,12 @@ To create a [!UICONTROL derived signal]:
     * Source Value
     * Target Key
     * Target Value
-1. Click **[!UICONTROL Add Signal]**.
 
->[!MORE_LIKE_THIS]
->
->* [Edit a Derived Signal](../features/derived-signals.md#task_03A867938CD54F9F9A624C630CCDEC3E)
->* [Delete a Derived Signal](../features/derived-signals.md#task_956A182EC2A2487EB46A0EABC6768964)
+ >[!NOTE]
+ >
+ >The character limit for the Source Key, Source Value, Target Key, and Target Value fields is 228 characters.
+
+1. Click **[!UICONTROL Add Signal]**.
 
 ## Edit a Derived Signal {#task_03A867938CD54F9F9A624C630CCDEC3E}
 
@@ -56,12 +56,7 @@ t_tb_edit_derived.xml
 To edit a [!UICONTROL derived signal]:
 
 1. Hover over the signal, then click **[!UICONTROL Edit]**.
-1. Make the required code, key, or value changes, then click **[!UICONTROL Save]**.
-
->[!MORE_LIKE_THIS]
->
->* [Create a Derived Signal](../features/derived-signals.md#task_5F57826F8EA142C39A91F2FD2332035B)
->* [Delete a Derived Signal](../features/derived-signals.md#task_956A182EC2A2487EB46A0EABC6768964)
+2. Make the required code, key, or value changes, then click **[!UICONTROL Save]**.
 
 ## Delete a Derived Signal {#task_956A182EC2A2487EB46A0EABC6768964}
 
