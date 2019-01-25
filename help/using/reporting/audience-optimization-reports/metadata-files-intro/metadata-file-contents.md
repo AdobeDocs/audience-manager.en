@@ -42,13 +42,14 @@ Let's take a look at how you would structure content in a metadata file. Part of
 
 **Campaign**
 
+In this example, the file title is 20180921_0_1 and the three columns in the file are: Campaign ID, Name, and Parent ID.
+
 <!--Let's say you want to populate the creative drop down menu with creative names from a particular campaign. In this case, your metadata file name would include ID 1 (campaign) and ID 2 (creative). Following the content syntax, your metadata file would contain the creative ID, creative name, and actual campaign ID.-->
 
 ```
 //File Title
 20180921_0_1
 
-//File Contents: Campaign ID, Name, and Parent ID
 111 Campaign A -1
 222 Campaign B -1
 333 Campaign C -1
@@ -57,11 +58,12 @@ Let's take a look at how you would structure content in a metadata file. Part of
 
 **Creative**
 
+In this example, the file title is 20180827_0_2 and the three columns in the file are: Creative ID, Name, and Parent ID.
+
 ```
 //File Title
 20180921_0_2
 
-//File Contents: Creative ID, Name, and Parent ID
 111 Creative A -1
 222 Creative B -1
 333 Creative C -1
@@ -69,12 +71,13 @@ Let's take a look at how you would structure content in a metadata file. Part of
 
 **Site**
 
+In this example, the file title is 20180921_0_5 and the three columns in the file are: Site ID, Name, and Parent ID.
+
 ```
 
 //File Title
 20180921_0_5
 
-//File Contents: Site ID, Name, and Parent ID
 111 Site A -1
 222 Site B -1
 333 Site C -1
