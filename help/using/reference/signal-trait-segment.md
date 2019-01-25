@@ -57,6 +57,10 @@ c_signal_trait_segment.xml
  </tbody> 
 </table>
 
+Use the diagram below to keep a mental note of the relationship between signals, traits, and segments.
+
+![](assets/signals-traits-segments.png)
+
 **Build Traits and Segment Rules With Visual Tools and Code Editors**
 
 Clients manage traits and segments with visual tools and code editors in the [!DNL Audience Manager] user interface. The visual tools let you create rules using search features, pop-up options, drop-down menus, and drag and drop functionality. The code editors provide advanced users with a way to programmatically develop audience segmentation criteria.
