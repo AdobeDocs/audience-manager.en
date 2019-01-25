@@ -29,6 +29,4 @@ c_dynamic_reports.xml
 
  -->
 
->[!MORE_LIKE_THIS]
->
->* [Data Sampling and Error Rates in Selected Audience Manager Reports...](../../reporting/report-sampling.md#concept_624BB1069F8A4CBD948ABD87105329E4)
+
