@@ -22,8 +22,8 @@ This section contains information and related reference that shows you how to:
 
 To get started, see the sections below. Start with [Send Data to the DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md#concept_9F6C569C1E444002ADF2A43516A9F284). After that, move on to [Receive Data From the DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md#concept_1219EE35E91548F899E2FFE60C107841).
 
-+ [Send Data to the DCS](dcs-url-send.md)
-+ [Receive Data From the DCS](dcs-url-receive.md)
+* [Send Data to the DCS](dcs-url-send.md)
+* [Receive Data From the DCS](dcs-url-receive.md)
 
 >[!MORE_LIKE_THIS]
 >
