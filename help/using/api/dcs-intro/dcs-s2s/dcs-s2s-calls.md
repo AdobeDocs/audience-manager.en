@@ -15,11 +15,30 @@ uuid: bdfe3430-e27f-4a5c-88d9-ae164d28f601
 
 A basic server-to-server request that sends data to the [!UICONTROL DCS] uses the syntax shown below.
 
+<pre>
+
+"Host:<i>domain alias</i>.demdex.net" "https://<i>DCS host name</i>.demdex.net/event?d_rtbd=json&d_jsonv=1&d_uuid=<i>user ID</i>.
+
+</pre>
+
+<!-- 
 `"Host:`*domain alias*`.demdex.net" "https://`*DCS host name*`.demdex.net/event?d_rtbd=json&d_jsonv=1&d_uuid= `*user ID*.
+
+-->
 
 A sample call looks similar to the following example.
 
+<pre>
+
+"Host:foo.demdex.net" "https://usw2.demdex.net/event?d_rtbd=json&d_jsonv=1& d_uuid=123456789"`
+
+</pre>
+
+<!--
+
 `"Host:foo.demdex.net" "https://usw2.demdex.net/event?d_rtbd=json&d_jsonv=1& d_uuid=123456789"`
+
+-->
 
 ## Call Parameters {#section_B34BDE82D2E14CD4B59DE4B7AFDCDA27}
 
