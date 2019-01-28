@@ -27,11 +27,11 @@ The [REST API](../api/rest-api-main/rest-api-main.md#concept_B512E6C3410A4304A67
 
 * [!UICONTROL DIL] makes event calls with `POST` when a URL contains more than 2048 characters. A `POST` event call includes data in the body of the request. [!UICONTROL DIL] puts data into key-value pairs and passes information as form data rather than in the URL query string.
 
-Although each method passes data in a different way, this does not affect functionality. For example, with either method, [!DNL Audience Manager] still sends data to destinations, ID syncs works normally, and you can create traits from data signals.
+Although each method passes data in a different way, this does not affect functionality. For example, with either method, [!DNL Audience Manager] still sends data to destinations, ID syncs works normally, and you can create traits from data signals.  
 
 **What do the [!UICONTROL REST API]s allow me to do?**
 
-The [!UICONTROL REST API]s let you work programmatically with most [!DNL Audience Manager] features and functions that are available in the user interface.
+The [!UICONTROL REST API]s let you work programmatically with most [!DNL Audience Manager] features and functions that are available in the user interface.  
 
 **How do I obtain a [!UICONTROL REST API] client ID and secret?**
 
