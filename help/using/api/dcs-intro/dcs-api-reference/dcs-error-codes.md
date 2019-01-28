@@ -240,48 +240,25 @@ In the tables below, *italics* represents a variable placeholder.
 
 The [!UICONTROL DCS] returns error codes and messages in a [!DNL JSON] object or in an X- header in the HTTP response string.
 
-<table id="table_31FB21A203034FECBC675A19CA117854"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Message Type </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Sample DCS Error Code and Message </p> </td> 
-   <td colname="col2"> <p> 
-     <codeblock class="syntax javascript">
-      {&nbsp;
-      
-&nbsp;&nbsp;&nbsp;"errors":[&nbsp;
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"code":101,
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"msg":"Invalid&nbsp;Experience&nbsp;Cloud&nbsp;id&nbsp;passed&nbsp;in"
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"code":102,
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"msg":"Invalid&nbsp;aam&nbsp;id&nbsp;passed&nbsp;in&nbsp;request"
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
-      
-&nbsp;&nbsp;&nbsp;]
-      
+### Sample DCS Error Code and Message
+
+```{ 
+   "errors":[ 
+      { 
+         "code":101,
+         "msg":"Invalid Experience Cloud id passed in"
+      },
+      { 
+         "code":102,
+         "msg":"Invalid aam id passed in request"
+      }
+   ]
 }
-     </codeblock> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>X-Error </p> </td> 
-   <td colname="col2"> <p>Error codes captured by the X- header appear in the URL string like this, <span class="codeph"> X-Error: 101,102</span>. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+
+```
+
+### X-Error
+
+Error codes captured by the X- header appear in the URL string like this, `X-Error: 101,102`.
 
 [Race Conditions and Error Handling](../../../api/dcs-intro/dcs-api-reference/dcs-race-conditions.md#concept_7C79A33DE6A241B392CE35D7AB673EB5)  

@@ -5,13 +5,13 @@
 ## TOC
 
 + `TOC.md` at the root of the user guide provides the organization of the topics that are contained in the guide for this solution. 
-+ Each user guide will have it's own unique `TOC.md`, in which you can order all the pages/topics as necessary.
++ Each user guide will have its own unique `TOC.md`, in which you can order all the pages/topics as necessary.
 + The first page of all user guides is `overview.md`.
 
 ## User Guide
 
 + The introduction to the user guide is called `overview.md`
-+ Each topic in the user guide has it's own distinct directory.
++ Each topic in the user guide has its own distinct directory.
     + If there is a topic in the guide called *Implementation*, the corresponding directory is `/implementation`
 + All image assets are stored in `/assets` at the root of the user guide.
     + All images in the `/assets` directory will be localized.
