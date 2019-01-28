@@ -30,7 +30,6 @@ The following syntax defines the structure of a well-formed metadata file name. 
 
 In the metadata file name, the child ID is an identifier that classifies the type of data in a file and places it into a hierarchy. You can tag the child ID in file name with the following category IDs:
 
-* 0: No parent 
 * 1: Campaign 
 * 2: Creative 
 * 3: Placement 
