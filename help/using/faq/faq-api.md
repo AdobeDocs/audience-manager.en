@@ -19,6 +19,8 @@ faq_api.xml
 
 The [REST API](../api/rest-api-main/rest-api-main.md#concept_B512E6C3410A4304A672588A60A792B1) documentation contains details about specific methods and code samples.
 
+</br>
+
 **Why does [!UICONTROL DIL] make event calls with [!UICONTROL GET] and [!UICONTROL POST] methods?**
 
 [!UICONTROL DIL] passes data to [!DNL Audience Manager] with a `GET` or `POST` method based on the length of the query string of the event call. This behavior is built in to `GET` and `POST` methods by default. It is not specific to [!DNL Audience Manager].
@@ -29,9 +31,13 @@ The [REST API](../api/rest-api-main/rest-api-main.md#concept_B512E6C3410A4304A67
 
 Although each method passes data in a different way, this does not affect functionality. For example, with either method, [!DNL Audience Manager] still sends data to destinations, ID syncs works normally, and you can create traits from data signals.  
 
+</br>
+
 **What do the [!UICONTROL REST API]s allow me to do?**
 
 The [!UICONTROL REST API]s let you work programmatically with most [!DNL Audience Manager] features and functions that are available in the user interface.  
+
+</br>
 
 **How do I obtain a [!UICONTROL REST API] client ID and secret?**
 
