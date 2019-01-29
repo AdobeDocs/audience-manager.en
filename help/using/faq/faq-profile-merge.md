@@ -24,21 +24,31 @@ profile-merge-faq.xml
 
 A device graph is a set of ID mappings that defines groups of anonymous devices. It associates these devices to a person or household based on common elements in the signals collected from each device. These signals help identify devices at the individual or household level.
 
+<br>&nbsp;
+
 **What is an external device graph?**
 
 An external device graph is any device graph in [!DNL Audience Manager] that has not been created exclusively from your own cross-device data sources. For example, when you create a [Profile Merge Rule](../features/profile-merge-rules/merge-rules-start.md#concept_34A9CEA00B24447EBF7EA8DA2928E1DD) and choose the [!UICONTROL Co-op Device Graph] or third-party device graph options, you're working with an external device graph. See [Device Options](../features/profile-merge-rules/merge-rule-definitions.md#section_E83D68EC2ADA4030B1D0206AE6A6E8BF).
+
+<br>&nbsp;
 
 **What are some common use cases for using an external device graph in a [!UICONTROL Profile Merge Rule]?**
 
 The main objective of using a device graph in a [!UICONTROL Profile Merge Rule] is to evaluate and qualify multiple devices belonging to a single person or household for a specific segment. The segment itself may have multiple uses for example, targeting an audience of prospects with and ad served by a DSP or personalizing a customer’s on-site experience via an on-site personalization platform. See [External Device Graph Use Cases](../features/profile-merge-rules/external-graph-use-cases.md#concept_7C0BDBFB3392415286B624F45E8883E5).
 
+<br>&nbsp;
+
 **Does Audience Manager provide global support for external device graphs?**
 
 No. External device graphs are available in the United States and Canada only.
 
+<br>&nbsp;
+
 **How often does [!DNL Audience Manager] update external device graph data?**
 
 Once a week.
+
+<br>&nbsp;
 
 ## Device Graphs and Profile Merge Rules {#section_486E3950547545329D8290D2AFA7CC50}
 
@@ -50,13 +60,19 @@ In [!DNL Audience Manager], device graphs appear as configuration options when y
 * Evaluate the trait superset for segment qualification (rather than evaluating each device profile individually). 
 * Add qualified devices to available segments.
 
+<br>&nbsp;
+
 **How many [!UICONTROL Profile Merge Rules] can I create?**
 
 Currently, you can create a maximum of 3 [!UICONTROL Profile Merge Rules].
 
+<br>&nbsp;
+
 **How many device profiles does [!DNL Audience Manager] merge and read when using a device graph in a [!UICONTROL Profile Merge Rule]?**
 
 When qualifying a device for a segment using a [!UICONTROL Profile Merge Rule], Audience Manager merges and reads the current device profile and a maximum of 3 additional device profiles linked by your selected device graph option.
+
+<br>&nbsp;
 
 **Which devices qualify for a segment when using a device graph in a [!UICONTROL Profile Merge Rule]?**
 
@@ -65,6 +81,8 @@ The devices [!DNL Audience Manager] merges and reads are the same devices that a
 >[!NOTE]
 >
 >For external device graphs, [!DNL Audience Manager] stores the mapping between devices at the platform level and selects 3 without evaluating their relationship to the devices seen in your instance of [!DNL Audience Manager].
+
+<br>&nbsp;
 
 **Which devices *can* qualify for a segment using a [!UICONTROL Profile Merge Rule] that contains a device graph?**
 
@@ -76,9 +94,13 @@ To qualify for a segment, devices must have been seen by Audience Manager on our
 
 See also, [Data Collection Components](../reference/system-components/components-data-collection.md#concept_66CFFEBF5E8B41ED94082D562A93506E).
 
+<br>&nbsp;
+
 **Where can [!DNL Audience Manager] send segments that have been qualified by a [!UICONTROL Profile Merge Rule] that uses a device graph?**
 
 [!DNL Audience Manager] can send segments to a destination in batch files or in real-time. And, as noted in the FAQ entry above, To qualify for a segment, devices must have been seen by [!DNL Audience Manager] on our [edge data servers](../reference/system-components/components-edge.md#concept_DD36E2B5A23D4CC5A91CA9808B908B8E) after the segment was created.
+
+<br>&nbsp;
 
 ## Segments, Device Graphs, and Profile Merge Rules {#section_0C43F01C09AD42DA999EBBE6B0FDE9DA}
 
@@ -86,25 +108,37 @@ See also, [Data Collection Components](../reference/system-components/components
 
 Audience Manager merges up to four devices when evaluating segments with a [!UICONTROL Profile Merge Rule] that uses a device graph. If the unsegment signal is issued, the current device and three additional devices seen in real-time will be removed from the segment in the destination. For example, in a six-device cluster, up to four devices are merged, evaluated, and qualified for a segment. Similarly, up to four devices are merged, evaluated and unsegmented.
 
+<br>&nbsp;
+
 **If a destination can un-segment devices, will devices be removed from segments by [!UICONTROL Profile Merge Rules] that use a device graph?**
 
 Yes. See the explanation above.
+
+<br>&nbsp;
 
 **If I build a segment with a [!UICONTROL Profile Merge Rule] that uses a device graph and the segment is using both real-time and on-boarded data, will my segment be updated as the on-boarded data changes?**
 
 No. Currently, [!DNL Audience Manager] evaluates segments with a [!UICONTROL Profile Merge Rule] that uses a device graph in real-time only. Updates made to on-boarded traits after the segment has been evaluated will be used to qualify the segment when the device is next seen by our [edge data servers](../reference/system-components/components-edge.md#concept_DD36E2B5A23D4CC5A91CA9808B908B8E). This assumes the device profile is still active in the edge servers and the on-boarded data has been made available to those systems. See also, the [Privacy and Data Retention FAQ](../faq/faq-privacy.md#concept_19A401AFC8414994810290011AA10595).
 
+<br>&nbsp;
+
 **Do segment size estimates include devices that qualify for a segment based on connections provided by a [!UICONTROL Profile Merge Rule] that uses a device graph option?**
 
 No. See the definitions for the [!UICONTROL Estimated Real-Time Population] and [!UICONTROL Estimated Total Population] in [Trait and Segment Population Data in Segment Builder](../features/segments/segment-builder-data.md#concept_05EE3010E67F446E8818351292EF7372).
+
+<br>&nbsp;
 
 **Does [!UICONTROL Addressable Audiences] include devices that qualify for a segment based on connections provided by a [!UICONTROL Profile Merge Rule] that uses a device graph option?**
 
 Yes.
 
+<br>&nbsp;
+
 **If a segment uses a [!UICONTROL Profile Merge Rule] with [!UICONTROL No Authenticated Profile] and the traits which qualify devices for the segment are only stored against the authenticated profile, will the total population of the segment be 0?**
 
 No. Today, Audience Manager counts the devices which are mapped to the authenticated profile as qualifying for the segment.
+
+<br>&nbsp;
 
 ## Trait Frequency, Device Graphs, and Profile Merge Rules {#section_05A3000A36AE43A187526241D99EFD85}
 
@@ -144,11 +178,15 @@ The trait frequency is defined by the sum of the number of qualifications for a 
  </tbody> 
 </table>
 
+<br>&nbsp;
+
 ## Reports, Device Graphs, and Profile Merge Rules {#section_D687C43F1AE748A097243CE75CD4DF68}
 
 **Can I see the number of devices that can be reached by a [!UICONTROL Profile Merge Rule] that uses a device graph?**
 
 Yes. Reports return data at the [!UICONTROL Profile Merge Rule] level. Report data is updated daily. Data is based on the devices seen in your account, not those linked by a device graph. See [Report Metrics for Profile Merge Rules](../features/profile-merge-rules/profile-link-metrics.md#concept_FBA9E3FB4E3C46EE83DB9BD4D288A0CE).
+
+<br>&nbsp;
 
 **Can I see the number of devices qualified for a specific segment in *real-time* with [!UICONTROL Profile Merge Rules] that use a device graph?**
 
@@ -190,6 +228,8 @@ Yes. The real-time population metric captures segment qualifications for the cur
  </tbody> 
 </table>
 
+<br>&nbsp;
+
 **Can I see the total number of devices qualified for a specific segment with a [!UICONTROL Profile Merge Rule] that uses a device graph?**
 
 Yes. The total segment population metric includes the additional devices that have qualified for a segment based on the connections from a device graph.
@@ -225,6 +265,8 @@ Yes. The total segment population metric includes the additional devices that ha
   </tr> 
  </tbody> 
 </table>
+
+<br>&nbsp;
 
 **Are devices that qualify for a segment with a [!UICONTROL Profile Merge Rule] that uses a device graph included in the [!UICONTROL Interactive] reports, [!UICONTROL Overlap] reports and [!UICONTROL Audience Optimization] reports?**
 

@@ -11,6 +11,8 @@ uuid: 78cd6c86-8a4a-4748-ab71-b6e8d6078c94
 
 Common reporting-related questions and issues.
 
+<br>&nbsp;
+
 <!-- 
 
 faq_reports.xml
@@ -21,6 +23,8 @@ faq_reports.xml
 
 Sometimes, after you upload traits, the [!UICONTROL Trait Graph] doesn't show any results or shows lower than expected numbers. This happens when the volume of data we receive is so great that the inbound processing job cannot finish ingesting this information until after the reporting deadline for that day. As a result, this data is sent to the reporting system late and won't show up in the 1-day reporting interval which is used for plotting the [!UICONTROL Trait Graph]. However, you can view this data in the 7, 14, 30, and 60-day report intervals in a [Trend](../reporting/trend-reports.md#concept_BE18204086E04825925E99B7DB6ED717) or [General Report](../reporting/general-reports.md#concept_E4686B9B4BE54DFE9599E0868224E027) on the following day.
 
+<br>&nbsp;
+
 **Some segments are missing from an [!UICONTROL Overlap] report. Where are they?**
 
 To help reduce computational demand, these reports omit statistically insignificant data from the results. Your segments are not missing, they're just dropped because they do not yield meaningful results or useful pools of users that you can target. See also:
@@ -28,9 +32,13 @@ To help reduce computational demand, these reports omit statistically insignific
 * [Reports and Data Sampling Methodologies](../reporting/report-sampling.md#concept_624BB1069F8A4CBD948ABD87105329E4) 
 * [Counting Unique Users in Overlap and General Reports](../reporting/unique-user-counts.md#concept_4D029582FBEA45B39352A05AF7E3CA37).
 
+<br>&nbsp;
+
 **If I run an email marketing campaign, how can I determine if redirected users come to my site from that campaign or from other sources?**
 
 Append a campaign-specific query string to the URL of the site section you want to monitor. Next, set up a trait rule to capture this variable. For example, if your URL passes in a campaign ID like this, `www.test123.com/electronics?campaign=123`, then create a trait rule to capture that data from the `h_referer` variable with a trait rule that looks for a header like `h_referer = 'campaign=123'`).
+
+<br>&nbsp;
 
 **What is the difference between real-time and total segment population counts?**
 
@@ -45,9 +53,13 @@ Append a campaign-specific query string to the URL of the site section you want 
 
  -->
 
+ <br>&nbsp;
+
 **I have a segment consisting of just one trait. When I look at Reporting metrics, their counts don't match. Why is that?**
 
 See [Trait and Segment Population Data in Segment Builder](../features/segments/segment-builder-data.md#concept_05EE3010E67F446E8818351292EF7372).
+
+<br>&nbsp;
 
 <!-- 
 
@@ -64,6 +76,8 @@ See [Trait and Segment Population Data in Segment Builder](../features/segments/
 
 In the backend, onboarded data gets attached only to users that are still active in AAM (user must have had recent [!UICONTROL DCS] activity in the past 120 days). Therefore, if you onboard data for users that have already expired in [!DNL Audience Manager], [!UICONTROL Inbound] might tell you that a certain number of user records were onboarded, but if these users have not had any recent activity, this data is dropped when it reaches our [!UICONTROL User Profile Store] and reporting will surface that.
 
+<br>&nbsp;
+
 **Why are the trait uniques for my cross-device onboarded traits much higher than the total number of onboarded records?**
 
 If you onboard a file for a cross-device data provider keyed off the customer ID, Audience Manager performs a lookup to get all device IDs that are associated with each of the onboarded customer IDs. Audience Manager then assigns the onboarded traits to the device ID associated with the customer ID.
@@ -75,10 +89,14 @@ There are two reasons why a single cross-device customer ID can be associated wi
 * Users are logging in to the same cross-device account from multiple computers/browsers. 
 * Users are clearing their cookies. Note: “Abandoned” cookies are deleted after 120 days of user inactivity.
 
+<br>&nbsp;
+
 **Why are [!UICONTROL Total Trait Realizations] for my onboared traits always 0?**
 
 [!UICONTROL Total Trait Realizations] correspond to page loads. [!UICONTROL Total Trait Realizations] provide the number of times that specific trait has fired in realtime. This number is calculated for rule-based traits only. Onboarded traits always show [!UICONTROL Total Trait Realizations] as 0.
 
-**I created a trait and the [!UICONTROL Trait Graph] shows a larger number of [!UICONTROL Unique Trait Realizations] than the [!UICONTROL Total Trait Population]. Is this normal? **
+<br>&nbsp;
+
+**I created a trait and the [!UICONTROL Trait Graph] shows a larger number of [!UICONTROL Unique Trait Realizations] than the [!UICONTROL Total Trait Population]. Is this normal?**
 
 You are seeing this because the [!UICONTROL Unique Trait Realizations] are real-time metrics, but the reporting jobs we do to calculate the [!UICONTROL Total Trait Population] are not real-time. The [!UICONTROL Total Trait Population] should be larger than the [!UICONTROL Unique Trait Realizations] within a couple of days. 
