@@ -9,11 +9,10 @@ uuid: 0cea75a0-969e-4ee3-971a-60b911711e52
 
 # Overview{#general-reports}
 
-A General report returns performance data on traits, segments, and destinations.
+A [!UICONTROL General] report returns performance data on traits, segments, and destinations.
 
 ## General Reports {#concept_E4686B9B4BE54DFE9599E0868224E027}
 
-A [!UICONTROL General] report returns performance data on traits, segments, and destinations.
 
 <!-- 
 
@@ -42,9 +41,9 @@ The following illustration provides a high-level overview of key elements in the
 
    **For Dates Through:** Specify the date range for the report. 
 
-1. Search for a trait, segment, or destination by name or ID. 
-1. From the folder list, drag and drop the traits, segments, or destinations you want to report to the [!UICONTROL Selections] panel on the right side. 
-1. Generate the report to display in an exportable table.
+2. Search for a trait, segment, or destination by name or ID. 
+3. From the folder list, drag and drop the traits, segments, or destinations you want to report to the [!UICONTROL Selections] panel on the right side. 
+4. Generate the report to display in an exportable table.
 
 ## General Reports Results Explained {#section_7169BE04E8FB47C9BE9C6651C45D4C8B}
 
