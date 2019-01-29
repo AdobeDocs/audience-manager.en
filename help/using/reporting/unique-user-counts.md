@@ -9,7 +9,7 @@ uuid: 450f6a8c-f363-43de-b2d8-0a156f14ecae
 
 # Counting Unique Users in Overlap and General Reports{#counting-unique-users-in-overlap-and-general-reports}
 
-Describes the variation in unique user totals between reports for the same trait and time period.
+This page describes the variation in unique user totals between reports for the same trait and time period.
 
 <!-- 
 

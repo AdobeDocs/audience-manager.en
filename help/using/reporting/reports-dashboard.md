@@ -9,7 +9,7 @@ uuid: 350eee2d-72f7-42a7-916b-60f9a362c5cf
 
 # Reports Dashboard{#reports-dashboard}
 
-Use the Dashboard to view information about your partners' unique visitor counts broken down by trait types and segments for a specified time frame.
+Use the Dashboard to view information about your unique visitor counts broken down by trait types and segments, for a specified time frame.
 
 <!-- 
 
@@ -23,8 +23,8 @@ This dashboard can be used to troubleshoot data-delivery issues. For example, if
 
 **To access the Dashboard:**
 
-1. In the **[!UICONTROL Analytics]** menu, click **[!UICONTROL Dashboard]**. 
-1. (Optional) Select the desired time frame from the last reporting date from the drop-down list (7 Days, 14 Days (the default), 30 Day, or 60 Days).
+1. In the top navigation menu, click **[!UICONTROL Dashboard]**. 
+2. (Optional) Select the desired time frame from the last reporting date from the drop-down list (7 Days, 14 Days (the default), 30 Day, or 60 Days).
 
    Depending on the period selected, the delta change in the [!UICONTROL Largest Traits]/ [!UICONTROL Most Changed Traits] and [!UICONTROL Largest Segments]/ [!UICONTROL Most Changed Segments] panels displays the change in unique visitors in the audience over the period ending today vs. the prior period of the same length. For example, if you select 7 Days, the delta compares the unique visitors over the prior seven days ending today against the unique visitors for the seven days ending seven days ago.
 
@@ -38,7 +38,7 @@ This dashboard can be used to troubleshoot data-delivery issues. For example, if
     * [Largest Traits/Most Changed Traits](../reporting/reports-dashboard.md#section_E8970FD9FEF44C43A921D313698C843E) 
     * [Largest Segments/Most Changed Segments](../reporting/reports-dashboard.md#section_7AADC2775D9B46F69F84218CA535D287)
 
-1. (Optional) Click **[!UICONTROL Normalize]** above any graph to show all of the data on the same scale. You can also mouse over any data point to see more information.
+3. (Optional) Click **[!UICONTROL Normalize]** above any graph to show all of the data on the same scale. You can also mouse over any data point to see more information.
 
 ## Partner Uniques {#section_E3B46BB8073747539F76AD75B5A5430E}
 

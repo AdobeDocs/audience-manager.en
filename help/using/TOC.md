@@ -120,6 +120,9 @@ user-guide-title: Audience Manager User Guide
         + [Using Regular Expressions in Trait Builder](features/traits/trait-builder-regex.md)
     + [Visitor Profile Viewer](features/visitor-profile-viewer.md)
 + Reporting{#reporting}
+    + [Reports Dashboard](reporting/reports-dashboard.md)
+    + [General Reports](reporting/general-reports.md)
+    + [Trend Reports](reporting/trend-reports.md)
     + Audience Optimization Reports {#audience-optimization-reports}
         + [Audience Optimization Reports](reporting/audience-optimization-reports/audience-optimization-reports.md)
         + Audience Optimization for Advertisers {#audience-optimization-advertisers}
@@ -149,7 +152,6 @@ user-guide-title: Audience Manager User Guide
             + [Delivery Methods for Metadata Files](reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md)
             + [Status Updates for Metadata Files](reporting/audience-optimization-reports/metadata-files-intro/metadata-update-status.md)
         + [Daily Trait Variation Report](reporting/audience-optimization-reports/daily-trait-variation-report.md)
-    + [General Reports](reporting/general-reports.md)
     + Interactive and Overlap Reports {#interactive-and-overlap-reports}
         + [Interactive and Overlap Reports Overview](reporting/dynamic-reports/dynamic-reports.md)
         + [Report Technology](reporting/dynamic-reports/interactive-report-technology.md)
@@ -164,9 +166,7 @@ user-guide-title: Audience Manager User Guide
         + [CSV Files for Overlap Reports](reporting/dynamic-reports/overlap-csv-files.md)
     + [Onboarding Status Report Overview](reporting/onboarding-status-report.md)
     + [Outbound File History](reporting/outbound-history-report.md)
-    + [Trend Reports](reporting/trend-reports.md)
     + [Counting Unique Users in Overlap and General Reports](reporting/unique-user-counts.md)
-    + [Reports Dashboard](reporting/reports-dashboard.md)
     + [Data Sampling and Error Rates in Selected Audience Manager   Reports...](reporting/report-sampling.md)
 + API and SDK Code{#api-and-sdk-code}
     + [API and SDK Code Overview](api/api.md)
