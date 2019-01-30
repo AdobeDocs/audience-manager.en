@@ -34,18 +34,17 @@ t_tb_create_derived.xml
 To create a [!UICONTROL derived signal]:
 
 1. Select **[!UICONTROL Derived Signals]** from the [!UICONTROL Tools] menu.
-2. Provide a:
+1. Provide a:
     * *(Optional)* Integration Code
     * Source Key
     * Source Value
     * Target Key
     * Target Value
+1. Click **[!UICONTROL Add Signal]**.
 
- >[!NOTE]
- >
- >The character limit for the Source Key, Source Value, Target Key, and Target Value fields is 228 characters.
-
-3. Click **[!UICONTROL Add Signal]**.
+>[!NOTE]
+>
+>The character limit for the Source Key, Source Value, Target Key, and Target Value fields is 228 characters.
 
 ## Edit a Derived Signal {#task_03A867938CD54F9F9A624C630CCDEC3E}
 
