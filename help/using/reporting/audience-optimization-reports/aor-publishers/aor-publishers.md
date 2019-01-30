@@ -13,7 +13,7 @@ Audience Optimization for Publishers can help you identify potential performance
 
 ## Overview {#section_A7F25E2A1DD44D25A13DB272C9A2E50F}
 
-[!UICONTROL Audience Optimization for Publishers] juxtaposes log-level campaign performance data from [!UICONTROL DFP] with [!DNL Audience Manager] segment metrics. The reports are available for customers that have set up log ingestion from [!UICONTROL DFP] into [!DNL Audience Manager]. If you haven't yet set up log ingestion, read [Import DFP Data Files Into Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md#concept_32EC89A543BA4333B62DD4C0B3E7060A) for information on how to do it.
+[!UICONTROL Audience Optimization for Publishers] juxtaposes log-level campaign performance data from [!UICONTROL DFP] with [!DNL Audience Manager] segment metrics. The reports are available for customers that have set up log ingestion from [!UICONTROL DFP] into [!DNL Audience Manager]. If you haven't yet set up log ingestion, read [Import DFP Data Files Into Audience Manager](../../../import-dfp.md#concept_32EC89A543BA4333B62DD4C0B3E7060A) for information on how to do it.
 
 ## Metadata {#section_6A915FB7948F47D3A8D200334A680F2A}
 
@@ -23,9 +23,9 @@ The performance information displayed in the reports is imported from your [!UIC
 
 [!UICONTROL Audience Optimization for Publishers] offers six distinct views that layer ad server performance against segmentation created in [!DNL Audience Manager] to solve for publisher centric business objectives.
 
-+ [Segment Performance Report](reporting/audience-optimization-reports/aor-publishers/publisher-segment-performance.md)
-+ [Segment Trend Report](reporting/audience-optimization-reports/aor-publishers/publisher-segment-trends.md)
-+ [Top Unused Traits](reporting/audience-optimization-reports/aor-publishers/publisher-top-unused-traits.md)
-+ [Ad Unit Overlap](reporting/audience-optimization-reports/aor-publishers/publisher-ad-unit-overlap.md)
-+ [Segment to Ad Unit Overlap](reporting/audience-optimization-reports/aor-publishers/publisher-segment-ad-unit-overlap.md)
-+ [Unique User Reach](reporting/audience-optimization-reports/aor-publishers/publisher-unique-reach.md)
++ [Segment Performance Report](publisher-segment-performance.md)
++ [Segment Trend Report](publisher-segment-trends.md)
++ [Top Unused Traits](publisher-top-unused-traits.md)
++ [Ad Unit Overlap](publisher-ad-unit-overlap.md)
++ [Segment to Ad Unit Overlap](publisher-segment-ad-unit-overlap.md)
++ [Unique User Reach](publisher-unique-reach.md)
