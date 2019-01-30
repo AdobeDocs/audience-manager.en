@@ -29,7 +29,7 @@ Common destination configuration problems include the following issues:
 * **Incorrect UserID Key:** The UserID key is the MasterDPID of this destination and is the basis for the ID values that will be outbounded. Even if a UserID key is selectable via the drop-down list, it doesn't necessarily mean that there are IDs/traits/segments mapped to this value. If the Outbound process (which runs after destinations are created) does not find any users mapped to this UserID key, no data will be outbounded. 
 * **No In File Data Sources Selected:** When choosing any destination type other than [!UICONTROL S2S], a section appears at the bottom of the screen labeled [!UICONTROL Configure Data Sources]. When this section first appears, no values are selected. If you forget to click the [!UICONTROL All First Party] checkbox or individually select data sources from the [!UICONTROL Available Data Sources] window, no data will be outbounded.
 
-**Misconfigured Format **
+**Misconfigured Format**
 
 When selecting a format for your outbounded data, it's best, if possible, to re-use an existing format. Using an already-proven format ensures that your outbound data will be generated successfully. To see exactly how an existing format is formatted, click the [!UICONTROL Formats] option in the menu bar and search for your format either by name or by ID number. Malformed formats or macros used in formats will provide incorrectly formatted output or will prevent information from being output entirely.
 
@@ -37,7 +37,7 @@ For more information on setting up formats and using macros, see [File Format Ma
 
 **Misconfigured Server**
 
-* **FTP **
+* **FTP**
 
     * **Domain**
 
@@ -62,7 +62,7 @@ For more information on setting up formats and using macros, see [File Format Ma
 * **S3**
 
     * S3 is the preferred transfer protocol (over FTP or HTTP). 
-    * ** Bucket **
+    * **Bucket**
 
         * The bucket name should be listed with no slashes, prefixes, suffixes, etc. If you're given the address [!DNL s3://your-bucket] you should simply add [!DNL your-bucket] to this field.
 
@@ -92,7 +92,7 @@ For more information on setting up formats and using macros, see [File Format Ma
 
         * Enter the full SSH PRIVATE key value in this box, including headers, footers, and line breaks to ensure accurate encryption/key storage.
 
-** Not Enough Time for Outbound Generation**
+**Not Enough Time for Outbound Generation**
 
 * The outbounding process runs twice daily, and multiple processes (outbounding, publishing, pushing to external locations, etc.) must run before a file is pushed to its final destination. A good rule of thumb is that a destination should be fully configured at least 24 hours before you can expect data to be pushed to an external location.
 

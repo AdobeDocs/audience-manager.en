@@ -11,13 +11,6 @@ uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
 
 Describes Audience Manager integration and compliance with generally accepted best practices related to consumer privacy and opt-out procedures.
 
-Contents:
-
-* [Data Privacy](../../overview/data-security-and-privacy/data-privacy.md#section_3C0E97906232432296F2B2200B0BFA4F) 
-* [Consumer Privacy Protection](../../overview/data-security-and-privacy/data-privacy.md#section_8269FC81B9514F62925BA63DFB9BCC1D) 
-* [Opt-Out Management](../../overview/data-security-and-privacy/data-privacy.md#section_FAEB5029359A4AA8A466E3185B9EA04F) 
-* [Collecting IP Addresses](../../overview/data-security-and-privacy/data-privacy.md#section_6E615E8AAE0A4C39A3716115C270569C)
-
 ## Data Privacy {#section_3C0E97906232432296F2B2200B0BFA4F}
 
 See the [Adobe Privacy Center](https://www.adobe.com/privacy/opt-out.html).
