@@ -1,0 +1,14 @@
+Hi Customer Care,
+ 
+I would like to set up DFP log ingestion for [Insert Customer Name] and have completed the prerequisite steps to enable.
+ 
+Please refer to the details below:
+ 
+1.Confirm that the steps to set the Audience Manager UUID are completed
+	a. Confirm that 'aamid' is the key used as the identifier
+	b. Provide sample UserID value
+	c. Provide field containing the UserID (e.g., CustomTargeting field)
+	d. Confirm that the field uses comma delimiters (',')
+2. Service Account ID
+3. JSON Key
+4. Network ID

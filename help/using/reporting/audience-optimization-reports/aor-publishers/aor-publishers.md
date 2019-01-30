@@ -22,3 +22,10 @@ The performance information displayed in the reports is imported from your [!UIC
 ## Available Reports {#section_32070A064130420D8F4F062A93AEECFD}
 
 [!UICONTROL Audience Optimization for Publishers] offers six distinct views that layer ad server performance against segmentation created in [!DNL Audience Manager] to solve for publisher centric business objectives.
+
++ [Segment Performance Report](reporting/audience-optimization-reports/aor-publishers/publisher-segment-performance.md)
++ [Segment Trend Report](reporting/audience-optimization-reports/aor-publishers/publisher-segment-trends.md)
++ [Top Unused Traits](reporting/audience-optimization-reports/aor-publishers/publisher-top-unused-traits.md)
++ [Ad Unit Overlap](reporting/audience-optimization-reports/aor-publishers/publisher-ad-unit-overlap.md)
++ [Segment to Ad Unit Overlap](reporting/audience-optimization-reports/aor-publishers/publisher-segment-ad-unit-overlap.md)
++ [Unique User Reach](reporting/audience-optimization-reports/aor-publishers/publisher-unique-reach.md)

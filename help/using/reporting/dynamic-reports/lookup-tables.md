@@ -37,6 +37,8 @@ Let's say you have a data file that looks similar to the one below.
 |  4  | 222  | Shoe B  | 789  | Hiking  | 14  | Company B  |
 |  5  | 222  | Shoe B  | 789  | Hiking  | 14  | Company B  |
 
+<br>&nbsp;
+
 Here's the same log file with the metadata removed. The file is smaller and easier to process when it consists of IDs only.  
 
 |  User ID  | Ad ID  | Order ID  | Advertiser ID  |
@@ -46,6 +48,8 @@ Here's the same log file with the metadata removed. The file is smaller and easi
 |  3  | 111  | 456  | 27  |
 |  4  | 222  | 789  | 14  |
 |  5  | 222  | 789  | 14  |
+
+<br>&nbsp;
 
 The lookup file below holds the metadata and can be linked back to the main file with the Ad ID. Note the size as well. Instead of repeating each advertiser several times, you only need one reference for each.  
 
