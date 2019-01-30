@@ -33,7 +33,6 @@ Run a [!UICONTROL General] report when you need to:
 
 The following illustration provides a high-level overview of key elements in the [!UICONTROL General] report.
 
-![](assets/general_reports_border.png)
 ![](assets/general_reports_border.jpg)
 
 1. Configure the following options:

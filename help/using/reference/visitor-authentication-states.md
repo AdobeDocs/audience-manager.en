@@ -14,14 +14,6 @@ The visitor authentication status in Audience Manager determines if the new trai
 
 Beginning with [!DNL Experience Cloud] ID service v1.5+, the `setCustomerID` method includes the optional `AuthState` object. `AuthState` identifies visitors according to their [authentication status](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html). [!DNL Audience Manager] handles the realized traits differently, depending on the authentication status passed in the call and the [Profile Merge Rule](../features/profile-merge-rules/merge-rules-dashboard.md#concept_0D5FDF17A17B400598B787099A48F865) you use for segmentation.
 
-Contents:
-
-<ul class="simplelist"> 
- <li> <a href="../reference/visitor-authentication-states.md#section_E6AD10451B9842C7A0EB25063F3654C1"> Authentication Status: UNKNOWN </a> </li> 
- <li> <a href="../reference/visitor-authentication-states.md#section_C77AD0AD90DE4986804B97B120FD1819"> Authentication Status: AUTHENTICATED </a> </li> 
- <li> <a href="../reference/visitor-authentication-states.md#section_2FD4E68CF67944AE8B580A74206E0FC1"> Authentication Status: LOGGED_OUT </a> </li> 
-</ul>
-
 ## Authentication Status: UNKNOWN {#section_E6AD10451B9842C7A0EB25063F3654C1}
 
 <table id="table_E1EA51533FAE4BBFB338D6F6116BC1F9"> 

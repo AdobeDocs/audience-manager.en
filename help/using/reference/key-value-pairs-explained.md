@@ -24,12 +24,6 @@ A key-value pair consists of two related data elements: A key, which is a consta
 * `color = green` 
 * `price > 100`
 
-The following sections contain more information:
-
-* [Standard and Serialized Key-Value Pairs](../reference/key-value-pairs-explained.md#section_8EB30E223EE2482693933012418CC842) 
-* [Keys, Delimiters, and Separators](../reference/key-value-pairs-explained.md#section_BF135864D25C43DCB19B871A4CD6B202) 
-* [Standard and Serialized Key-Value Elements](../reference/key-value-pairs-explained.md#section_54E6025C5B8E497B918BF2F6A8DC8042)
-
 ## Standard and Serialized Key-Value Pairs {#section_8EB30E223EE2482693933012418CC842}
 
 Destinations accept key-value data in *`standard`* or *`serialized`* format. Standard formatting organizes data into separate key-value pairs. Each key is stated explicitly, even when used again to define a different value. By contrast, serialized formatting condenses multiple values into one set defined by a single key. Also, in a serialized pair, a special indicator is used to separate the values within the key-value set. Finally, standard and serialized key-values can contain single or multiple values. The following table provides examples of standard and serial key-value formats.  

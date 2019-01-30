@@ -34,6 +34,8 @@ Use [!UICONTROL Algorithmic Modeling] as a means of extending reach beyond the c
 
 See [Understanding Algorithmic Models](../features/algorithmic-models/understanding-models.md#concept_441E566718B845929880B0823A9ECA9F).
 
+<br>&nbsp;
+
 **BAAAM**
 
 [!UICONTROL Bulk Management Tools]. The [!UICONTROL Bulk Management Tools] in [!DNL Audience Manager] are a Microsoft Excel-based set of tools that let you create, modify or delete multiple objects at once with a single operation. You can work with data sources, derived signals, destinations, folders, segments, and traits. The feature uses a Microsoft Excel spreadsheet with macros that make secure, authenticated calls to the [!DNL Audience Manager] APIs.
@@ -48,15 +50,21 @@ See [Bulk Management Tools](../reference/bulk-management-tools/bulk-management-i
 
 See [Customer Data Feeds](../features/cdf-files.md#concept_114B993EC5E246AE8CDD55E695B344FC).
 
+<br>&nbsp;
+
 **CRM ID**
 
 The CRM ID is the ID by which customers identify users in their own CRM system. Instead of CRM ID, we use the term DPUUID in Audience Manager.
 
 See DPUUID in the [Index of IDs in Audience Manager](../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8).
 
+<br>&nbsp;
+
 **Customer Attributes**
 
 See [Customer Attributes](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html) in the [!DNL Experience Cloud Core Services] product documentation.
+
+<br>&nbsp;
 
 **demdex.net**
 
@@ -64,19 +72,27 @@ Demdex.net is a legacy domain controlled by [!DNL Adobe]. It reflects [!DNL Audi
 
 See [Understanding Calls to the Demdex Domain](../reference/demdex-calls.md#concept_77B3D5A068AE413FA78D190D65AD799F).
 
+<br>&nbsp;
+
 **DAID**
 
 [!UICONTROL Device Advertising IDs] are unique device identifiers, used to identify a mobile device. These IDs are assigned by the device manufacturer, not by Adobe. We support iOS and Android device IDs in [!DNL Audience Manager].
 
 See the [Index of IDs in Audience Manager](../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8).
 
+<br>&nbsp;
+
 **Destination**
 
 In [!DNL Audience Manager], a destination is any other system (ad server, DSP, ad network, etc.) that you want to share data with. The [!UICONTROL Destination Builder] in our UI provides the tools that let you create and manage these data delivery processes. [!DNL Audience Manager] destination features are located in **[!UICONTROL Audience Data > Destinations]**.
 
+<br>&nbsp;
+
 **DIL**
 
 The [!UICONTROL Data Integration Library] is an API library used by [!DNL Audience Manager] to collect user interaction data. See [Data Integration Library (DIL) API](../dil/dil-overview.md).
+
+<br>&nbsp;
 
 **dpm**
 
@@ -88,11 +104,15 @@ The [!UICONTROL Data Integration Library] is an API library used by [!DNL Audien
 
 Previously named the [!DNL Marketing Cloud] ID (MID or MCID). The [!DNL Experience Cloud] ID is central to the ID Service. It is a unique and persistent identifier for your site visitors. See Cookies and the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html).
 
+<br>&nbsp;
+
 **Folder Trait**
 
 Automatic grouping of traits inside your folder taxonomy. Each folder in your hierarchy automatically creates a trait which can be used to define segments.
 
 See [Folder Traits: About](../features/traits/about-folder-traits.md#concept_D68F33E7F99243CEB9D11D354ECB53AD).
+
+<br>&nbsp;
 
 **Frequency Capping**
 
@@ -106,6 +126,8 @@ See [Recency and Frequency](../features/segments/recency-and-frequency.md#concep
 
 Google Advertising ID, the unique device ID that Google assigns to hardware devices running the Android operating system. See the [Index of IDs in Audience Manager](../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8).
 
+<br>&nbsp;
+
 **GUID**
 
 An acronym for Globally Unique Identifier. We don't use the term GUID in [!DNL Audience Manager]. In our case, the GUID is the [!DNL Audience Manager] UUID. 
@@ -117,9 +139,13 @@ See [Index of IDs in Audience Manager](../reference/ids-in-aam.md#reference_D55E
 
 Identifier for Advertisers, the unique device ID Apple assigns to its products. See the [Index of IDs in Audience Manager](../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8).
 
+<br>&nbsp;
+
 **Inbound**
 
 The process by which you can send audience data from other sources to [!DNL Audience Manager]. See [Sending Audience Data](../integration/sending-audience-data/real-time-data-integration/real-time-data-integration.md).
+
+<br>&nbsp;
 
 **Integration Code**
 
@@ -149,9 +175,13 @@ See the [Experience Cloud ID](../reference/aam-glossary.md#section_F194A310914E4
 
 See [Data Collection Components](../reference/system-components/components-data-collection.md#concept_66CFFEBF5E8B41ED94082D562A93506E).
 
+<br>&nbsp;
+
 **Profile Link**
 
 See [Profile Merge Rule Options Defined](../features/profile-merge-rules/merge-rule-definitions.md#concept_44FFF67CD9654DB2B43ECA13C2FD1CE0).
+
+<br>&nbsp;
 
 **Profile Merge Rules**
 
@@ -173,15 +203,21 @@ A segment (or an audience) is a set of users who share common attributes.
 
 See [Segments: Purpose, Composition, and Rules](../features/segments/segments-purpose.md#concept_F9E9D1D1EFF34AA2AD025109DD741C86).
 
+<br>&nbsp;
+
 **Signal**
 
 Signals are the smallest data units in [!DNL Audience Manager] and are expressed as key-value pairs.
 
 See [Signals, Traits, and Segments](../reference/signal-trait-segment.md#concept_7550A48FE3F1415FACF0E077CFAB155F).
 
+<br>&nbsp;
+
 **Trait**
 
 A trait is a combination of one or more signals. See [Signals, Traits, and Segments](../reference/signal-trait-segment.md#concept_7550A48FE3F1415FACF0E077CFAB155F).
+
+<br>&nbsp;
 
 **Trait Population**
 
@@ -192,6 +228,8 @@ See [Trait and Segment Population Data in Segment Builder](../features/segments/
 **UUID**
 
 [!DNL Audience Manager] Unique User ID. See the [Index of IDs in Audience Manager](../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8).
+
+<br>&nbsp;
 
 **Visitor ID**
 
