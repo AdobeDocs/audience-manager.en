@@ -33,7 +33,7 @@ Run a [!UICONTROL Trend] report when you need to:
 
 The following illustration provides a high-level overview of key elements in the [!UICONTROL Trend] report.
 
-![](assets/trend_reports_border.jpg)
+![](assets/trend_reports_border.png)
 
 1. Configure the following options:
 
