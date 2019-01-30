@@ -85,13 +85,13 @@ Added re: AAM-30826.
 
    [!DNL 52.87.15.51 dpm.demdex.net]. 
 
-2. Make a DCS call, using the `curl` [command](https://curl.haxx.se/docs/manpage.html). Curl is a tool to transfer data from or to a server, using one of many supported protocols.
+1. Make a DCS call, using the `curl` [command](https://curl.haxx.se/docs/manpage.html). Curl is a tool to transfer data from or to a server, using one of many supported protocols.
 
    For example:
 
    [!DNL https://<domain>/event?product=camera] 
 
-3. Verify that your request was served by the beta DCS by looking for "sandbox" in the DCS response header.
+1. Verify that your request was served by the beta DCS by looking for "sandbox" in the DCS response header.
 
    For example:
 
