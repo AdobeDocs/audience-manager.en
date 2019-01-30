@@ -68,8 +68,8 @@ The [Models](../features/algorithmic-models/understanding-models.md#concept_49FB
     <ul id="ul_EB3707C4449E44F195EE5655B724A9B4"> 
      <li id="li_268E6A408C634E5EAF2D536930EE77C7">Identify customers who make expensive purchases. </li> 
      <li id="li_217F8D97449D40E798601C904D66FE5A">Run an <span class="keyword"> Audience Manager</span> look-alike model to identify the most influential audience members in that segment. </li> 
-     <li id="li_FC9CF9B3FE554032AF66E1C3721C83C9">Target those segments to improve current display advertising or through on-site personalization via Test&amp;Target. </li> 
-     <li id="li_14F94E368C5142718BF6707622D3D8DE">Include the new data in future display campaigns through Test&amp;Target. </li> 
+     <li id="li_FC9CF9B3FE554032AF66E1C3721C83C9">Target those segments to improve current display advertising or through on-site personalization via [!DNL Adobe Target]. </li> 
+     <li id="li_14F94E368C5142718BF6707622D3D8DE">Include the new data in future display campaigns through [!DNL Adobe Target]. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -98,7 +98,7 @@ The [Models](../features/algorithmic-models/understanding-models.md#concept_49FB
      <li id="li_40B53340C38743A785159D886392EFD6">Create a "Vacations - Searchers No Conversion" segment. </li> 
      <li id="li_10366F799CDC483BA9B6AAD9CAD68EA2">Add a rule to exclude recent converters. </li> 
      <li id="li_65B5C367AFBB4C3394AFBB07138320A8">Retarget through a DSP with a special offer and subsequent on-site personalization. </li> 
-     <li id="li_C88D7C3D72504BBBAA24B09CB805A38F">Continue to show required content through Test&amp;Target. </li> 
+     <li id="li_C88D7C3D72504BBBAA24B09CB805A38F">Continue to show required content through [!DNL Adobe Target]. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -128,7 +128,7 @@ The [Models](../features/algorithmic-models/understanding-models.md#concept_49FB
     </ul> </td> 
    <td colname="col3"> 
     <ul id="ul_12770CC183E5433999ED8C055E91DC78"> 
-     <li id="li_4CAFD2A7F0F54225ADDCD3C94E8CCEF7">Import partner data segments, combine them with your own, and offer relevant experiences with Test&amp;Target. </li> 
+     <li id="li_4CAFD2A7F0F54225ADDCD3C94E8CCEF7">Import partner data segments, combine them with your own, and offer relevant experiences with [!DNL Adobe Target]. </li> 
      <li id="li_65F1C7812FC24D44BB41DE6B7276F6AF">Increase the scale of email marketing initiatives or DSP campaign alignment. </li> 
     </ul> </td> 
   </tr> 
@@ -156,7 +156,7 @@ The [Models](../features/algorithmic-models/understanding-models.md#concept_49FB
    <td colname="col3"> 
     <ul id="ul_739F56A9703F418BBD6F391C2A8A25CA"> 
      <li id="li_24C0DF2B23284764B48B0B4FC2808248">In <span class="keyword"> Audience Manager</span>, create a segment for Fall vacation travelers. </li> 
-     <li id="li_C8FE060793AA400CBDF33251B21B79C7">In Test&amp;Target, create a campaign to offer airline points for seasonal purchases. </li> 
+     <li id="li_C8FE060793AA400CBDF33251B21B79C7">In [!DNL Adobe Target], create a campaign to offer airline points for seasonal purchases. </li> 
      <li id="li_84D729B9AA2E40F8B3EFF6E53C8AA39A">Use Analytics to track customer activity through the conversion funnel. If a customer does not convert, retarget with email marketing. </li> 
     </ul> </td> 
   </tr> 
@@ -186,7 +186,7 @@ The [Models](../features/algorithmic-models/understanding-models.md#concept_49FB
     <ul id="ul_018543C7DACD47849F303BC8C26A0A08"> 
      <li id="li_37AB19716B3D4C7BA4106C007A534689">Create a "Purchase Intenders - No Conversion" segment. </li> 
      <li id="li_DA5EA7CC922C47788D4D0AED5FEC5164">Target that segment with related emails. </li> 
-     <li id="li_40085E5A5E2744EEBC38CD19F0F77076">Continue to offer content on-site through Test&amp;Target. </li> 
+     <li id="li_40085E5A5E2744EEBC38CD19F0F77076">Continue to offer content on-site through [!DNL Adobe Target]. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -209,7 +209,7 @@ The [Models](../features/algorithmic-models/understanding-models.md#concept_49FB
    <td colname="col3"> 
     <ul id="ul_837B290D45DB412CA0CA3457EDCC4125"> 
      <li id="li_CA85D32FD7F54490859B92B1E4A2DACB">In <span class="keyword"> Audience Manager</span>, ingest third-party segment data targeted to small business owners. </li> 
-     <li id="li_E8FDBD2D67724FE497A496E907EDC45A">In Test&amp;Target, create an on-site campaign that offers small business owners targeted messages and offers. </li> 
+     <li id="li_E8FDBD2D67724FE497A496E907EDC45A">In [!DNL Adobe Target], create an on-site campaign that offers small business owners targeted messages and offers. </li> 
      <li id="li_B303975755D44E03A8C22832D8198564">Track performance with <span class="keyword"> Audience Manager</span> reports. </li> 
     </ul> </td> 
   </tr> 
