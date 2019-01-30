@@ -154,7 +154,6 @@ user-guide-title: Audience Manager User Guide
         + [Daily Trait Variation Report](reporting/audience-optimization-reports/daily-trait-variation-report.md)
     + Interactive and Overlap Reports {#interactive-and-overlap-reports}
         + [Interactive and Overlap Reports Overview](reporting/dynamic-reports/dynamic-reports.md)
-        + [Report Technology](reporting/dynamic-reports/interactive-report-technology.md)
         + [Delivery and Performance Report](reporting/dynamic-reports/delivery-performance-report.md)
         + [Trait-to-Trait Overlap Report](reporting/dynamic-reports/trait-trait-overlap-report.md)
         + [Segment-to-Trait Overlap Report](reporting/dynamic-reports/segment-trait-overlap-report.md)
@@ -164,6 +163,7 @@ user-guide-title: Audience Manager User Guide
         + [Filter Report Results With the Data Sliders](reporting/dynamic-reports/data-sliders.md)
         + [Overlap Reports: Update Schedule and Minimum Segment Size](reporting/dynamic-reports/overlap-minimum-segment-size.md)
         + [CSV Files for Overlap Reports](reporting/dynamic-reports/overlap-csv-files.md)
+        + [Report Technology](reporting/dynamic-reports/interactive-report-technology.md)
     + [Onboarding Status Report Overview](reporting/onboarding-status-report.md)
     + [Outbound File History](reporting/outbound-history-report.md)
     + [Counting Unique Users in Overlap and General Reports](reporting/unique-user-counts.md)
@@ -328,6 +328,7 @@ user-guide-title: Audience Manager User Guide
     + [Targeting FAQ](faq/faq-targeting.md)
     + [Reporting FAQ](faq/faq-reporting.md)
 + Documentation Updates{#documentation-updates}
+    + [2019 Documentation Updates](docs-2018/docs-2019.md)
     + [2018 Documentation Updates](docs-2018/docs-2018.md)
     + [2017 Documentation Updates](docs-2018/docs-2017.md)
     + [2016 Documentation Updates](docs-2018/docs-2016.md)
