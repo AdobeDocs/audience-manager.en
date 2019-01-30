@@ -21,6 +21,8 @@ c_tb_boolean.xml
 
 Boolean logic is a branch of algebra that uses a few basic expressions (or operators) to determine if a statement is true or false. The most common operators are [!UICONTROL AND], [!UICONTROL OR], and [!UICONTROL NOT]. Combinations of these expressions help you make focused trait or segment qualification rules uniquely suited to your data requirements. The following illustration shows how basic Boolean expressions work.
 
+<br>&nbsp;
+
 ![](assets/BooleanOverview_small.png)
 
 >[!NOTE]

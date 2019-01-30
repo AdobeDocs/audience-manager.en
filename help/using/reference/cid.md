@@ -11,14 +11,6 @@ uuid: 3641eac5-b19e-45d5-bc1c-35a23b4bab8c
 
 Update your code to use d_cid or d_cid_ic instead of d_dpid and d_dpuuid. The DPID and DPUUID variables will continue to work, but you should consider them deprecated. This includes DPID and DPUUID variants without the d_ prefix.
 
-Contents:
-
-<ul class="simplelist"> 
- <li> <a href="../reference/cid.md#section_8C6B7D86771448A08EC14F527E6687F5"> DPID and DPUUID: A Review </a> </li> 
- <li> <a href="../reference/cid.md#section_CCFCB503887044FE9E87024943CE939A"> CID and CID_IC: About </a> </li> 
- <li><a href="../reference/cid.md#section_D5D6F182DEFB4C7D9F2274BE63C6B2D4"> Important Considerations for Development Teams</a> </li> 
-</ul>
-
 ## DPID and DPUUID: A Review {#section_8C6B7D86771448A08EC14F527E6687F5}
 
 The DPID and the DPUUID are key-value pairs that contain a data provider ID and a user ID. These key-value pairs link provider IDs to user IDs. They send in data during event calls, for inbound synchronization events, and for ID calls. Without them, [!DNL Audience Manager], and other services or features, would not have a way to match and synchronize IDs. These variables are sometimes expressed with or without the `d_` prefix as shown below. Note, in the code, *italics* indicates a variable placeholder.
