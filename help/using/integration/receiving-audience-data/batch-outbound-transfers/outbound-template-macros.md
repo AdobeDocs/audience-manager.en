@@ -7,7 +7,7 @@ title: Outbound Template Macros
 uuid: dec082d3-306b-4ff5-afb2-418bd543d8d0
 ---
 
-# Outbound Template Macros{#outbound-template-macros}
+# Outbound Template Macros {#outbound-template-macros}
 
 Lists the macros you can use to create outbound templates. These include file name macros, header macros, and content macros.
 

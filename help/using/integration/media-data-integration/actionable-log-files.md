@@ -8,7 +8,7 @@ title: Actionable Log Files
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 ---
 
-# Actionable Log Files{#actionable-log-files}
+# Actionable Log Files {#actionable-log-files}
 
 Actionable Log Files allow you to capture media data from Google DCM log files and use the data to create traits in Audience Manager. Capture impressions, clicks, and conversions from ad servers as traits without having to use pixel calls.
 
@@ -114,8 +114,8 @@ Remember, in order to use this information for audience creation and segmentatio
    <td colname="col1"> <p> <span class="codeph"> d_src</span> </p> </td> 
    <td colname="col2"> <p>The ID of the data source you use to capture DCM data. See <a href="../../features/manage-datasources.md#concept_3B7696B3EC77416492D3B99EBD79EA44"> How to Create a Data Source</a>. </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> 743</span> </p> </td> 
-  </tr> 
- </tbody> 
+  </tr>
+ </tbody>
 </table>
 
 The signals described in the table are captured in [!DNL Audience Manager] like a real-time HTTP call. The example call below contains information on a conversion event from DCM. Calls do not necessarily have to include *all* the signals in the example call.
@@ -126,17 +126,16 @@ https://sample.demdex.net?d_src=743&d_uuid=0795526165288603295014370250589427213
 
 >[!NOTE] {importance="high"}
 >
->The event timestamp provided in the DCM logs will be honored and passed to the Data Collection Servers. 
+>The event timestamp provided in the DCM logs will be honored and passed to the Data Collection Servers.
 >
->* If a timestamp isn't available for a data row in the DCM log file, we use the time of the HTTP call as the event timestamp. 
->* If the data row in the DCM log file contains a malformed timestamp, we ignore the entire row. 
->
+>* If a timestamp isn't available for a data row in the DCM log file, we use the time of the HTTP call as the event timestamp.
+>* If the data row in the DCM log file contains a malformed timestamp, we ignore the entire row.
 
 ## Use Cases {#section_09EB4686F5204452A39A7C2700D44E49}
 
 One benefit of implementing [!UICONTROL Actionable Log Files] is the option to apply [recency and frequency](../../features/segments/recency-and-frequency.md#concept_957D9E1977774D28A98ACEE6035E7B37) controls to any [rule-based traits](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) that contain actionable signals. This allows you, for example, to frequency cap the number of times a user is shown a particular creative, within a media campaign. Other use cases include:
 
-**Retarget Users**
+### Retarget Users
 
 Retarget users who saw creative 123 but didn't click or convert and show them creative 456. Do this:
 
@@ -144,17 +143,17 @@ Retarget users who saw creative 123 but didn't click or convert and show them cr
 
    `d_creative == 123 AND d_event == imp` 
 
-2. Create a trait to capture users who click or convert. Let's say you name this one Click and Converter. Use the trait rule:
+1. Create a trait to capture users who click or convert. Let's say you name this one Click and Converter. Use the trait rule:
 
    `d_event == click OR d_event=conv` 
 
-3. Create a segment to populate with users who saw creative 123 but didn't click or convert. Name it Retarget Users and use the segment rule:
+1. Create a segment to populate with users who saw creative 123 but didn't click or convert. Name it Retarget Users and use the segment rule:
 
    `Creative Trait 123 AND NOT Click and Converter` 
 
-4. Map the segment Retarget Users to a destination and target users in the destination with creative 456.
+1. Map the segment Retarget Users to a destination and target users in the destination with creative 456.
 
-**Use DCM Floodlight Activity in the Audience Optimization Reports or in Audience Lab**
+### Use DCM Floodlight Activity in the Audience Optimization Reports or in Audience Lab
 
 [Floodlight tags](https://support.google.com/dcm/partner/answer/4293719?hl=en) enable advertisers to track user conversions. With [!UICONTROL Actionable Log Files], you can track the DCM conversions in the [Audience Optimization Reports](../../reporting/audience-optimization-reports/audience-optimization-reports.md#concept_D66D2C58493E48BDAFF2F95BBB508946) or in [Audience Lab](../../features/audience-lab/audience-lab.md#concept_CEAEE1C751CE405DB99041FC57CC17E0):
 
@@ -162,7 +161,7 @@ Retarget users who saw creative 123 but didn't click or convert and show them cr
 
    `d_event == conv AND d_conversion == 123`
 
-   When creating the trait in the Audience Manager UI, select Conversion as the Event Type. 
+   When creating the trait in the Audience Manager UI, select [!UICONTROL Conversion] as the [!UICONTROL Event Type].
 
 1. Once you have created the trait, the conversion will begin to be reported against in the Audience Optimization reports and in Audience Lab.
 

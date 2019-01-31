@@ -7,49 +7,42 @@ title: Send Segments to a Google AdWords Remarketing List
 uuid: 5ad821c6-48b4-42c0-b912-1563331e93a2
 ---
 
-# Send Segments to a Google AdWords Remarketing List{#send-segments-to-a-google-adwords-remarketing-list}
+# Send Segments to a [!DNL Google AdWords] Remarketing List {#send-segments-to-a-google-adwords-remarketing-list}
 
-This procedure requires an AdWords remarketing list, pixel code, and an Audience Manager URL destination. It is also known as a remarketing list for search ads (RLSA) integration. Applies to paid search only.
+This procedure requires an [!DNL AdWords] remarketing list, pixel code, and an Audience Manager URL destination. It is also known as a remarketing list for search ads (RLSA) integration. Applies to paid search only.
 
-To set up an AdWords remarketing list as an [!DNL Audience Manager] URL destination: 
+To set up an [!DNL AdWords] remarketing list as an [!DNL Audience Manager] URL destination:
 
-1. In AdWords, [create a website re-marketing list](https://support.google.com/adwords/answer/2454064?hl=en).
-
-1. Copy the pixel code from the [dynamic remarketing tag](https://support.google.com/adwords/answer/3103357). Do not copy the code this example.
-
-   Your pixel code / image request will look similar to this:
+1. In [!DNL Google AdWords], [create a website re-marketing list](https://support.google.com/adwords/answer/2454064?hl=en).
+1. Copy the pixel code from the [dynamic remarketing tag](https://support.google.com/adwords/answer/3103357). Do not copy the code this example.Your pixel code / image request will look similar to this:
 
    ```
-      <img height="1" width="1" style="border-style:none;" alt="" 
-   src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/xxxxxxxx/? 
+   <img height="1" width="1" style="border-style:none;" alt=""
+   src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/xxxxxxxx/?
    value=0&guid=ON&script=0"/>
    ```
 
 1. Remove all the image and source metadata from the pixel code.
-
    Your edited code snippet should look similar to this:
 
    ```
-   //googleads.g.doubleclick.net/pagead/viewthroughconversion/xxxxxxxx/? 
+   //googleads.g.doubleclick.net/pagead/viewthroughconversion/xxxxxxxx/?
    value=0&guid=ON&script=0
    ```
 
 1. [Create a URL destination](../../features/destinations/manage-destinations.md#concept_51842672DFA943EA982B363E74D42DF8) or edit an existing destination.
 1. In the [!UICONTROL Segment Mappings] section of your URL destination, add the edited code to the **[!UICONTROL URL]** and **[!UICONTROL Secure URL]** boxes. Prefix the code with `https:` and `https:` in the URL and Secure URL boxes, respectively.
-
    >[!IMPORTANT]
    >
    >Replace encoded ampersands `&` with un-encoded ampersands `&`
 
-   Unsecure URL code: 
-
+   Unsecure URL code:
    ```
    https://googleads.g.doubleclick.net/pagead/viewthroughconversion/xxxxxxxx/? 
    value=0&guid=ON&script=0
    ```
 
    Secure URL code: 
-
    ```
    https://googleads.g.doubleclick.net/pagead/viewthroughconversion/xxxxxxxx/? 
    value=0&guid=ON&script=0

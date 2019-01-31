@@ -7,7 +7,7 @@ title: Capturing Campaign Click Data via Pixel Calls
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 ---
 
-# Capturing Campaign Click Data via Pixel Calls{#capturing-campaign-click-data-via-pixel-calls}
+# Capturing Campaign Click Data via Pixel Calls {#capturing-campaign-click-data-via-pixel-calls}
 
 Click tracking enables measurement of visitor engagement throughout your campaign, as it records click-based activity for third-party creatives. Similar to impressions collection, an event call is sent to the Audience Manager data collection servers (DCS) for processing. The visitor is then redirected to the intended web address.
 
@@ -34,7 +34,7 @@ Based on the above example, the browser is redirected to the following URL:
 
 ## Supported Macros
 
-Click events support the macros listed in the following table. A macro is a small unit of self contained code that activates when the ad tag loads for campaign and user tracking. The macros will be passed along with the destination URL, as long as they are marked with the following format: `%macro%`. Some keys do not have macros and accept a hard coded ID value instead. Keys that accept hard coded values are required if you want to analyze data in the [Audience Optimization Reports](../../reporting/audience-optimization-reports/audience-optimization-reports.md#concept_D66D2C58493E48BDAFF2F95BBB508946). 
+Click events support the macros listed in the following table. A macro is a small unit of self contained code that activates when the ad tag loads for campaign and user tracking. The macros will be passed along with the destination URL, as long as they are marked with the following format: `%macro%`. Some keys do not have macros and accept a hard coded ID value instead. Keys that accept hard coded values are required if you want to analyze data in the [Audience Optimization Reports](../../reporting/audience-optimization-reports/audience-optimization-reports.md#concept_D66D2C58493E48BDAFF2F95BBB508946).
 
 <table id="table_6EB65C3B7D0E49C59AA6C932549E33FC"> 
  <thead> 

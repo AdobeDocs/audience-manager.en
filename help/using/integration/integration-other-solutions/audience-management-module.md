@@ -7,7 +7,7 @@ title: Implement the Audience Management Module
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 ---
 
-# Implement the Audience Management Module {#implement-the-audience-management-module}
+# Implement the Audience Management Module  {#implement-the-audience-management-module}
 
 Add the Audience Management Module to Adobe Analytics AppMeasurement to forward Analytics data to Audience Manager instead of having the Audience Manager Data Integration Library (DIL) code send a pixel from the page.
 
@@ -23,12 +23,9 @@ In addition to implementing the code described in this document, you must also:
 To implement the [!UICONTROL Audience Management Module]:
 
 1. Download [!UICONTROL AppMeasurement] using the [Analytics Code Manager](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html) (requires version 1.5 or later).
-
-1. Update your [!UICONTROL AppMeasurement] code to the version included in the downloaded zip file. 
-1. Copy all of the code from `AppMeasurement_Module_AudienceManagement.js` from the zip file. Paste it into the `appMeasurement.js` file just above the text, `"DO NOT ALTER ANYTHING BELOW THIS LINE."` 
-
-1. Add the code, `s.loadModule("AudienceManagement");`, just above the `AppMeasurement_Module_AudienceManagement.js` code you just added in the previous step. 
-
+1. Update your [!UICONTROL AppMeasurement] code to the version included in the downloaded zip file.
+1. Copy all of the code from `AppMeasurement_Module_AudienceManagement.js` from the zip file. Paste it into the `appMeasurement.js` file just above the text, `"DO NOT ALTER ANYTHING BELOW THIS LINE."`
+1. Add the code, `s.loadModule("AudienceManagement");`, just above the `AppMeasurement_Module_AudienceManagement.js` code you just added in the previous step.
 1. Update and copy the code below and add it to the `doPlugins` function in your `AppMeasurement.js` file.
 
 ```js
@@ -71,26 +68,25 @@ The following table defines important variables in the code sample.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> uuidCookie </span> </p> </td> 
-   <td colname="col2"> <p>Optional. This configuration lets you set an <span class="keyword"> Adobe </span> cookie in the first-party domain. This cookie contains the <a href="../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8"> UUID </a>. </p> </td> 
-  </tr> 
- </tbody> 
+   <td colname="col2"> <p>Optional. This configuration lets you set an <span class="keyword"> Adobe </span> cookie in the first-party domain. This cookie contains the <a href="../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8"> UUID </a>. </p> </td>
+  </tr>
+ </tbody>
 </table>
 
 ## Results: Data Forwarding to Audience Manager {#section_5878A0C32F844C9DB9C2D009CB717708}
 
 Your Analytics implementation sends data to Audience Manager after you have:
 
-* Enabled [!UICONTROL Server-Side Forwarding] (talk to your consultant about this feature). 
-* Implemented the ID service. 
+* Enabled [!UICONTROL Server-Side Forwarding] (talk to your consultant about this feature);
+* Implemented the ID service;
 * Installed the Audience Management Module.
 
 This process sends data to [!DNL Audience Manager]:
 
-* On page view calls. 
-* From tracked links. 
+* On page view calls;
+* From tracked links;
 * From video milestone and heartbeat video views.
 
 >[!NOTE]
 >
 >The variables sent to Audience Manager from Analytics use special prefixes. You need understand and take these prefixes into account when creating Audience Manager traits. For more information on these prefixes, see [Prefix Requirements for Key Variables](../../features/traits/trait-variable-prefixes.md#reference_E6F1E4257F664FC2A797C406BF147ABC).
-

@@ -7,34 +7,26 @@ title: Implementing Audience Manager
 uuid: 89369224-3b21-45a9-a4ed-a0a977410520
 ---
 
-# Implementing Audience Manager{#implementing-audience-manager}
+# Implementing Audience Manager {#implementing-audience-manager}
 
 This section outlines and explains the processes related to getting started with the Audience Manager data management platform (DMP). This section is designed to help business teams, project managers, and technology managers understand the Audience Manager implementation process. Getting started with Audience Manager can take approximately six weeks to three months, depending on your data collection needs.
 
-## Implementing Audience Manager {#topic_A069C84E922F4ED6A30BBA2012A57A4C}
-
-This section outlines and explains the processes related to getting started with the Audience Manager data management platform (DMP). This section is designed to help business teams, project managers, and technology managers understand the Audience Manager implementation process. Getting started with Audience Manager can take approximately six weeks to three months, depending on your data collection needs. 
-
 Our implementation techniques help create consultative partnership with new clients. This process is designed to:
 
-* Discover and understand your business requirements 
-* Produce an actionable plan to address those demands 
-* Develop custom solutions to help meet unique requirements or use cases 
-* Ensure that your proprietary data is imported and made available in the Audience Manager
+* Discover and understand your business requirements;
+* Produce an actionable plan to address those demands;
+* Develop custom solutions to help meet unique requirements or use cases;
+* Ensure that your proprietary data is imported and made available in the Audience Manager.
 
 Our Partner Solutions and Account Management teams will work closely with you before, during, and after the implementation process.
 
-Audience Manager takes a phased approach to setup and implementation. 
+Audience Manager takes a phased approach to setup and implementation.
 
 ## Define Phase {#concept_115C7442BFB14A2386E3E2EABA63B885}
 
 The define phase introduces you to our Partner Solutions project leads and begins the project management process.
 
-<!-- 
-
-c_define.xml
-
- -->
+<!-- c_define.xml -->
 
 This step is designed to help potential clients define and agree on project scope, understand custom requirements, establish milestones, and set up communications.
 
@@ -76,20 +68,16 @@ The following table describes key activities that take place during this phase:
 
 Deliverables for this phase can include the following:
 
-* Documents that identify roles and responsibilities 
-* Documents that establish the scope of work 
-* A plan to schedule project meetings and calls 
-* A process to share resources and access
+* Documents that identify roles and responsibilities;
+* Documents that establish the scope of work;
+* A plan to schedule project meetings and calls;
+* A process to share resources and access.
 
 ## Discovery Phase {#concept_366455D01BDF4AD5A9294E63B16909E5}
 
 The discovery phase is dedicated to gathering requirements, conducting research, and working toward a deeper understanding of your business needs and data-collection strategies.
 
-<!-- 
-
-c_discovery.xml
-
- -->
+<!-- c_discovery.xml -->
 
 The following table describes key activities that take place during this phase:
 
@@ -140,21 +128,17 @@ The following table describes key activities that take place during this phase:
 
 Deliverables for this phase can include:
 
-* A completed first-party, second-party, and third-party data collection strategy 
-* A completed CRM or data warehouse ingestion plan 
-* Defined audience-segmentation requirements 
-* a completed data taxonomy 
-* A developed third-party data-integration plan
+* A completed first-party, second-party, and third-party data collection strategy;
+* A completed CRM or data warehouse ingestion plan;
+* Defined audience-segmentation requirements;
+* a completed data taxonomy;
+* A developed third-party data-integration plan.
 
 ## Build, Test, and Train Phase {#concept_12FFB684B89344EDB41AEE2E2F9FEA0A}
 
 During the build, test, and train phase, you will review the data collection strategy and prototype with a designated Partner Solutions lead.
 
-<!-- 
-
-c_build_test_train.xml
-
- -->
+<!-- c_build_test_train.xml -->
 
 Your data collection strategy will undergo end-to-end QA testing. Partner Solutions will track discovered bugs and coordinate problem resolutions with our systems engineers. Customer training can start in parallel with these other efforts.
 
@@ -169,20 +153,16 @@ The following table describes key activities that take place during this phase:
 
 Deliverables for this phase can include:
 
-* A completed and accepted data-collection plan 
-* End-to-end QA testing 
-* Basic instruction on Audience Manager user interface features 
-* Acceptance and sign-off
+* A completed and accepted data-collection plan;
+* End-to-end QA testing;
+* Basic instruction on Audience Manager user interface features;
+* Acceptance and sign-off.
 
 ## Launch, Support, and Optimize Phase {#concept_C0DC100F94BF415B8664F70942656FF2}
 
 During the launch, support, and optimize phase, your data-collection and prototyped implementation moves from development to a live, production environment. We’ll continue training on product familiarization and strategies that can help increase your ROI through data-driven optimization.
 
-<!-- 
-
-c_launch_support_optimize.xml
-
- -->
+<!-- c_launch_support_optimize.xml -->
 
 The following table describes key activities that take place during this phase:
 
@@ -225,27 +205,23 @@ The following table describes key activities that take place during this phase:
 
 Tasks for this phase can include:
 
-* Generating and interpreting report data 
-* Understanding custom reports 
-* How to get product support 
-* Responding to or soliciting feature requests, bugs, and user feedback 
-* Deepening familiarity with Audience Manager features and reports
+* Generating and interpreting report data;
+* Understanding custom reports;
+* How to get product support
+* Responding to or soliciting feature requests, bugs, and user feedback;
+* Deepening familiarity with Audience Manager features and reports.
 
 ## Code Implementation {#concept_D54ABC567FB14135AA82CCA6FEDF8AA2}
 
 Though the deployment process may seem complex, the code implementation is as simple as adding a few lines of JavaScript adjacent to the closing `</body>` tag of your website.
 
-<!-- 
+<!-- c_code.xml -->
 
-c_code.xml
-
- -->
-
-**Deployment**
+### Deployment
 
 The Audience Manager code snippet calls Akamai to download the business rules set up previously in the user interface. Furthermore, client browsers cache this information, which helps reduce page and server load times. Our code and data collection methodology is designed to maintain the user experience across your inventory.
 
-**Participants**
+### Participants
 
 Partner Solutions can work directly with your technical teams to help deploy code, address final concerns, and fulfill other requirements. 
 
@@ -253,12 +229,8 @@ Partner Solutions can work directly with your technical teams to help deploy cod
 
 Our collaborative efforts don'’t stop with final deployment. After implementation is complete, our Account Management team takes over.
 
-<!-- 
-
-c_post_implement_support.xml
-
- -->
+<!-- c_post_implement_support.xml -->
 
 Account managers provide continuing support and consultation services after the product implementation process is complete. You can expect to have regular meetings with your account manager. These meetings ensure that you get the maximum amount of use and value from Audience Manager.
 
-Contact us [here](https://www.adobe.com/products/audiencemanager.html) for more information and to get started with Audience Manager. 
+Contact us [here](https://www.adobe.com/products/audiencemanager.html) for more information and to get started with Audience Manager.

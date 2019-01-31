@@ -7,13 +7,8 @@ title: Media Data Integration
 uuid: 6f6bbd03-084b-4226-8809-3b00b467606f
 ---
 
-# Media Data Integration{#media-data-integration}
+# Media Data Integration {#media-data-integration}
 
 You can capture data from media campaigns using pixel calls to Audience Manager (often called pixeling the creative) or by ingesting log files. Read the articles in this section to understand the process.
 
-<!-- 
-
-c_camp_data_int.xml
-
- -->
-
+<!-- c_camp_data_int.xml -->

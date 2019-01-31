@@ -7,7 +7,7 @@ title: Transfer-Control Files for Log File Transfers
 uuid: ef58213e-7b37-4c5a-8556-0de695706793
 ---
 
-# Transfer-Control Files for Log File Transfers{#transfer-control-files-for-log-file-transfers}
+# Transfer-Control Files for Log File Transfers {#transfer-control-files-for-log-file-transfers}
 
 Transfer-control (.info) files provide metadata information about file transfers so that partners can verify that Audience Manager handled file transfers correctly.
 
@@ -15,9 +15,9 @@ Transfer-control (.info) files provide metadata information about file transfers
 
 The metadata in the [!DNL .info] file lets partners:
 
-* Determine when a full transfer cycle is complete (the total number of files in the sequence have been delivered) 
-* Determine whether any given file in the sequence is complete/correct (by examining the size of the file in bytes and the total number of lines) 
-* Validate the number of rows in raw files verses the number of rows after the files have been loaded in the database on the receiving end (size of file in lines)
+* Determine when a full transfer cycle is complete (the total number of files in the sequence have been delivered);
+* Determine whether any given file in the sequence is complete/correct (by examining the size of the file in bytes and the total number of lines);
+* Validate the number of rows in raw files verses the number of rows after the files have been loaded in the database on the receiving end (size of file in lines).
 
 ## File Naming Conventions {#section_6C0CE366AABD4870B5E34FA6FC8EF9AE}
 
@@ -68,10 +68,10 @@ For example, if the first file in the sequence were named: [!DNL ftp_12345_67890
 }
 ```
 
-**Notes:**
-
-The batch total numbers are exclusive of the [!DNL .info] file itself. That is, the totals do not include the [!DNL .info] file, its byte size, or its line count.
-
-Byte sizes of files and line counts are inclusive of any header and spacer (blank) lines/rows. In order to get the count of actual data lines/rows, subtract headers.
-
-Total lines in batch and total byte size are inclusive of any header and space rows. 
+>[NOTE]
+>
+> The batch total numbers are exclusive of the [!DNL .info] file itself. That is, the totals do not include the [!DNL .info] file, its byte size, or its line count.
+>
+> Byte sizes of files and line counts are inclusive of any header and spacer (blank) lines/rows. In order to get the count of actual data lines/rows, subtract headers.
+>
+> Total lines in batch and total byte size are inclusive of any header and space rows.
