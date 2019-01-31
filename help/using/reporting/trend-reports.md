@@ -11,7 +11,7 @@ uuid: bedbe7d4-7cbb-4403-9104-312f9230aea1
 
 A Trend report returns trend data on traits and segments.
 
-## Trend Reports {#concept_BE18204086E04825925E99B7DB6ED717}
+## Overview {#concept_BE18204086E04825925E99B7DB6ED717}
 
 A [!UICONTROL Trend] report returns trend data on traits and segments.
 

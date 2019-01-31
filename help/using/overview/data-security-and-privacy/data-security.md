@@ -21,7 +21,9 @@ In Audience Manager, we think about security in three main categories:
 | **Data leakage/transparency** | Deep and actionable insight into on-site activities that constitute or contribute to data leakage  |
 | **Process/policy enhancements** | Clients, by working with industry best practices for privacy and data security  |
 
-This topic contains the following information:
+<br>&nbsp;
+
+This page contains the following information:
 
 * [Systems, Training, and Access](../../overview/data-security-and-privacy/data-security.md#section_226017634A9945098327561285335D71) 
 * [Privacy and Personally Identifiable Information (PII)](../../overview/data-security-and-privacy/data-security.md#section_3F60A967DDD24592B0349831D4E865A3) 

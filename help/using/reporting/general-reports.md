@@ -7,11 +7,11 @@ title: General Reports
 uuid: 0cea75a0-969e-4ee3-971a-60b911711e52
 ---
 
-# Overview{#general-reports}
+# General Reports{#general-reports}
 
 A [!UICONTROL General] report returns performance data on traits, segments, and destinations.
 
-## General Reports {#concept_E4686B9B4BE54DFE9599E0868224E027}
+## Overview {#concept_E4686B9B4BE54DFE9599E0868224E027}
 
 
 <!-- 

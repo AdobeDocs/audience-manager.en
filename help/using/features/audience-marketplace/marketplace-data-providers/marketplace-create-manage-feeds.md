@@ -108,7 +108,7 @@ The [!UICONTROL Use Case] settings let sellers control how buyers can use your d
 
 ### Segments and Overlap
 
-A **[!UICONTROL Segments and Overlap]** use case creates a plan that lets buyers compare trait data in a [trait-to-trait overlap report](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report). Furthermore, buyers can add your data to segments and make comparisons with the [segment-to-trait](../../../reporting/dynamic-reports/segment-trait-overlap-report.md#concept_36186B1ABEA34A6AAC7F5CF938A122B7) and [segment-to-segment](../../../reporting/dynamic-reports/segment-segment-overlap-report.md#concept_25E40808056B451BA06502A9527A55AA) reports.
+A **[!UICONTROL Segments and Overlap]** use case creates a plan that lets buyers compare trait data in a [trait-to-trait overlap report](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report). Furthermore, buyers can add your data to segments and make comparisons with the [segment-to-trait](../../../reporting/dynamic-reports/segment-trait-overlap-report.md#concept_36186B1ABEA34A6AAC7F5CF938A122B7) and [segment-to-segment](../../../reporting/dynamic-reports/segment-segment-overlap-report.md) reports.
 
 Each data feed must include at least one [!UICONTROL Segments and Overlap] use case. Buyers cannot subscribe to other plans in a data feed if the feed does not contain a [!UICONTROL Segments and Overlap] use case, either by itself or in combination with another use case.
 
@@ -180,9 +180,9 @@ To review, approve, or reject buyer requests, go to [!UICONTROL My Shared Data] 
 <!-- t_private_feed_workflows.xml -->
 
 1. Click the name of the private data feed.
-1. Click **[!UICONTROL Access Requests]** to review all the buyers who want access to your data feed.
-1. In the [!UICONTROL Allow Access] section of each request box, click the check mark to approve a request or the X to deny access.
-1. Confirm or cancel your selected action in the confirmation pop up.
+2. Click **[!UICONTROL Access Requests]** to review all the buyers who want access to your data feed.
+3. In the [!UICONTROL Allow Access] section of each request box, click the check mark to approve a request or the X to deny access.
+4. Confirm or cancel your selected action in the confirmation pop up.
 
 >[!MORE_LIKE_THIS]
 >

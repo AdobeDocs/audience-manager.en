@@ -11,24 +11,20 @@ uuid: 0339eb6c-6355-44a3-9c46-f159485449d1
 
 Returns data on how many unique users are shared between your segments.
 
-## Segment-to-Segment Overlap Report {#concept_25E40808056B451BA06502A9527A55AA}
-
-Returns data on how many unique users are shared between your segments.
-
 <!-- 
 
 c_segment_segment_overlap.xml
 
  -->
 
-### Overview
+## Overview
 
 The [!UICONTROL Segment-to-Segment Overlap] report can help you:
 
 * Identify segments with high or low overlap, depending on your needs. Traits with high overlap give you a targeted audience, but fewer unique visitors. Traits with low overlap can be useful to reach a larger, unique visitor set. 
 * Find unexpected overlap and use that information to build new, high-performance segments.
 
-### Sample Report
+## Sample Report
 
 The following illustration provides a high-level overview of the [!UICONTROL Segment-to-Segment Overlap] report. 
 
@@ -38,7 +34,7 @@ The following illustration provides a high-level overview of the [!UICONTROL Seg
 
 ![](assets/segment-to-segment-overlap.png)
 
-### Drill Down on Individual Data Points
+## Drill Down on Individual Data Points
 
 Select an individual point to view data details in a pop up window. Your click actions automatically update data displayed in the report. 
 
