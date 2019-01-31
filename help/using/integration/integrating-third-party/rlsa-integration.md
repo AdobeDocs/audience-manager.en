@@ -37,12 +37,14 @@ To set up an [!DNL AdWords] remarketing list as an [!DNL Audience Manager] URL d
    >Replace encoded ampersands `&` with un-encoded ampersands `&`
 
    Unsecure URL code:
+
    ```
    https://googleads.g.doubleclick.net/pagead/viewthroughconversion/xxxxxxxx/? 
    value=0&guid=ON&script=0
    ```
 
-   Secure URL code: 
+   Secure URL code:
+
    ```
    https://googleads.g.doubleclick.net/pagead/viewthroughconversion/xxxxxxxx/? 
    value=0&guid=ON&script=0
