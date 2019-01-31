@@ -15,11 +15,7 @@ Describes the required fields, syntax, and conventions used to name an outbound 
 
 Describes the required fields, syntax, and conventions used to name an outbound data file.
 
-<!-- 
-
-c_name_reqs_outbound.xml
-
- -->
+<!-- c_name_reqs_outbound.xml -->
 
 >[!NOTE]
 >
@@ -33,7 +29,7 @@ Outbound file names contain the following required and optional elements:
 SYNC-TYPE_ DID_ MASTER-DPID_ [PID-ALIAS]_ SYNC-MODE_ TIMESTAMP[- SPLIT_NUMBER].sync[.gz]
 ```
 
-**Parameters**
+### Parameters
 
 The table defines the elements in an outbound data file name.
 
@@ -95,9 +91,11 @@ The table defines the elements in an outbound data file name.
 
 ## File Name Examples {#section_487D914CF82043C6A4ADDD772CC0B769}
 
-**Scenario 1**: files sent over to an [!DNL Amazon S3] location, with *`PID-ALIAS="XYZCustomer"`* and with [!DNL Google Advertiser IDs] in the file content.
+### Scenario 1
 
-E.g. incremental files: 
+Files sent over to an [!DNL Amazon S3] location, with *`PID-ALIAS="XYZCustomer"`* and with [!DNL Google Advertiser IDs] in the file content.
+
+E.g. incremental files:
 
 <ul class="simplelist"> 
  <li> <span class="codeph"> S3_1234_20914_XYZCustomer_iter_1486140844000.sync.gz </span> </li> 
@@ -105,23 +103,25 @@ E.g. incremental files:
  <li> <span class="codeph"> S3_1234_20914_XYZCustomer_iter_1486140844000-10.sync.gz </span> </li> 
 </ul>
 
-E.g. full files: 
+E.g. full files:
 
 <ul class="simplelist"> 
  <li> <span class="codeph"> S3_1234_20914_XYZCustomer_full_1486140844000.sync.gz </span> </li> 
  <li> <span class="codeph"> S3_1234_20914_XYZCustomer_full_1486140844000-1.sync.gz </span> </li> 
 </ul>
 
-**Scenario 2**: files sent over to FTP location, without *`PID-ALIAS`* and with [!DNL Apple Advertiser IDs] in the file content:
+### Scenario 2
 
-E.g. incremental files: 
+Files sent over to FTP location, without *`PID-ALIAS`* and with [!DNL Apple Advertiser IDs] in the file content:
+
+E.g. incremental files:
 
 <ul class="simplelist"> 
  <li> <span class="codeph"> ftp_1234_20915_iter_1486140843000.sync.gz </span> </li> 
  <li> <span class="codeph"> ftp_1234_20915_iter_1486140843000-1.sync.gz </span> </li> 
 </ul>
 
-E.g. full files: 
+E.g. full files:
 
 <ul class="simplelist"> 
  <li> <span class="codeph"> ftp_1234_20915_full_1486140843000.sync.gz </span> </li> 
@@ -130,7 +130,7 @@ E.g. full files:
 
 **Scenario 3**: Files sent over to FTP location, with *`PID-ALIAS="XYZCustomer"`* and with 3rd party User ID in the file content ( *`Vendor ID=45454`*):
 
-E.g. incremental files: 
+E.g. incremental files:
 
 <ul class="simplelist"> 
  <li> <span class="codeph"> ftp_1234_45454_XYZCustomer_iter_1486140843000.sync.gz </span> </li> 
@@ -138,7 +138,7 @@ E.g. incremental files:
  <li> <span class="codeph"> ftp_1234_45454_XYZCustomer_iter_1486140843000-10.sync.gz </span> </li> 
 </ul>
 
-E.g. full files: 
+E.g. full files:
 
 <ul class="simplelist"> 
  <li> <span class="codeph"> ftp_1234_45454_XYZCustomer_full_1486140843200.sync.gz </span> </li> 
@@ -149,21 +149,17 @@ E.g. full files:
 
 Describes the required fields, syntax, and conventions used to organize information in an outbound data file. Format your data according to these specifications.
 
-<!-- 
-
-c_outbound_data_file.xml
-
- -->
+<!-- c_outbound_data_file.xml -->
 
 Note: The style elements ( `monospace text`, *italics*, brackets [ ] ( ), etc.) in this document indicate code elements and options. See [Style Conventions for Code and Text Elements](../../../reference/code-style-elements.md#reference_59D0BD0EDB424A65853460D91CCA35D9) for more information.
 
-**Syntax**
+### Syntax
 
 Fields in the data file appear in this order:
 
 ` *`UUID`*<SPACE> *`SEGMENT_1,SEGMENT_2`*<SPACE> *`REMOVED_SEGMENT_1`*,...`
 
-**Parameters**
+### Parameters
 
 The table lists variables that define the contents of a data file.
 
@@ -194,11 +190,10 @@ The table lists variables that define the contents of a data file.
  </tbody> 
 </table>
 
-**Example: Basic File Format**
+### Example: Basic File Format
 
 A properly formatted data file could look similar to the following sample. This file entry indicates a user qualifies for segments 24, 26, and 27. As required, a space separates the UUID and segment IDs. Another space separates the sets of segment IDs. In this example, a user belongs to segments 24, 26, and 27. They've been removed from segments 25 and 28.
 
 ```
 59767559181262060060278870901087098252  24,26,27  25,28
 ```
-

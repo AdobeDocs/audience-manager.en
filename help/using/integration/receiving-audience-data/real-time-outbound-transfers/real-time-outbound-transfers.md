@@ -7,33 +7,29 @@ title: Real-Time Outbound Data Transfers
 uuid: 1895e818-7ab8-4569-a920-4b0a4c8b83d2
 ---
 
-# Real-Time Outbound Data Transfers{#real-time-outbound-data-transfers}
+# Real-Time Outbound Data Transfers {#real-time-outbound-data-transfers}
 
 The outbound real-time data transfer process returns user data as a series of JSON objects passed in with a POST method.
 
-<!-- 
+<!-- c_outbound_json.xml -->
 
-c_outbound_json.xml
-
- -->
-
-**Recommendations**
+## Recommendations
 
 To use this method, we recommend that your data partner:
 
-* Accepts data in JSON format. 
+* Accepts data in JSON format.
 * Provides a URL that can be used by the `POST` call to return data. 
 * Accepts secure HTTPS data transfers. [!DNL Audience Manager] will not send this file with the unsecure HTTP protocol.
 
-**Frequency**
+## Frequency
 
 This data transfer method can send data in near real-time as users qualify for segments. Additionally, this method can send batches of offline or onboarded data as frequently as every 24-hours.
 
-**Required Responses**
+## Required Responses
 
 By default, the recipient server must return the `200 OK` code to indicate successful receipt. Other codes will be interpreted as failures. This response is expected within 3000 milliseconds. In response to a failure, [!DNL Audience Manager] will make 1 retry attempt only.
 
-**Parameters**
+## Parameters
 
 The following table defines the elements in the returned JSON data file.  
 
@@ -127,11 +123,11 @@ The following table defines the elements in the returned JSON data file.
  </tbody> 
 </table>
 
-**Security**
+## Security
 
 You can secure your real-time outbound data transfer process by [encrypting HTTP requests](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md#concept_1E0F79C0142B4CA38CE03B173022A31C) with private keys or by having [!DNL Audience Manager] authenticate through the [OAuth 2.0](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md#concept_CA17FEF807BE48D8BAC17243234E50A1) protocol.
 
-**Code Sample**
+## Code Sample
 
 A real-time data response can look similar to the following: 
 
@@ -174,4 +170,3 @@ A real-time data response can look similar to the following:
 }
 
 ```
-

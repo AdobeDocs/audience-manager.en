@@ -7,15 +7,15 @@ title: Modify the GPT setTargeting API Call
 uuid: 0cd38f30-5d29-4511-a779-d32587f1dafb
 ---
 
-# Modify the GPT setTargeting API Call{#modify-the-gpt-settargeting-api-call}
+# Modify the GPT setTargeting API Call {#modify-the-gpt-settargeting-api-call}
 
-Add an if statement to check for Audience Manager cookies before calling the Google Publisher Tag .setTargeting method.
+Add an if statement to check for Audience Manager cookies before calling the Google Publisher Tag `.setTargeting` method.
 
- **Check for Audience Manager Cookies With an IF Statement**
+## Check for Audience Manager Cookies With an IF Statement
 
 The `.setTargeting` method gets data from the Audience Manager destination cookie and the unique user ID cookie ( `aam_uuid`). However, if `.setTargeting` gets invoked before [!UICONTROL DIL] writes these cookies, or the cookies are empty, you may see errors when the page loads. To help avoid this, wrap the `.setTargeting` method in an `if` statement that checks for these cookies. If they're not set, this statement prevents `.setTargeting` from calling the `AamGpt` function.
 
-**IF Statement Code Sample**
+### IF Statement Code Sample
 
 In this example, the Audience Manager destination cookie name is `Sample`. You set this name when you create the destination cookie in the Audience Manager UI. [!UICONTROL DIL] sets the `aam_uuid` cookie and the name cannot be changed. 
 
@@ -35,9 +35,8 @@ if(typeof AamGpt.getCookie("aam_uuid") != "undefined" ){
 >* Client-side integration: use lines 1-3 only.
 >* Server-side integration: none of the lines are needed.
 >* Ingest [!DNL DFP] log files for reporting in [!DNL Audience Manager]: use lines 4-6 only. This code inserts the value of the `aam_uuid` cookie into the logs so they can be ingested for reporting.
->
 
-**AamGpt Functions and Data Types**
+### `AamGpt` Functions and Data Types
 
 Defines the key variables used in the `if` statement.  
 
@@ -64,8 +63,8 @@ Defines the key variables used in the `if` statement.
    <td colname="col1"> <p> <span class="codeph"> AamGpt.getCookie </span> </p> </td> 
    <td colname="col2"> <p>Int </p> </td> 
    <td colname="col3"> <p>Returns the Audience Manager user ID, e.g., <span class="codeph"> 12345 </span>. </p> </td> 
-  </tr> 
- </tbody> 
+  </tr>
+ </tbody>
 </table>
 
 >[!MORE_LIKE_THIS]

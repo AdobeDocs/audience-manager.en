@@ -7,7 +7,7 @@ title: Outbound Macro Examples
 uuid: 823d85d4-d683-45cf-9e60-c12b7d52a498
 ---
 
-# Outbound Macro Examples{#outbound-macro-examples}
+# Outbound Macro Examples {#outbound-macro-examples}
 
 Examples of how some of the common macros are used to create outbound file templates.
 
@@ -78,8 +78,8 @@ For a list of available macros and definitions, see [Outbound Template Macros](.
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TAB </span> </p> </td> 
    <td colname="col2"> <p>Format: <span class="codeph"> &lt;ORDER_ID&gt; &lt;TAB&gt;&lt;SYNC_TYPE&gt; </span> </p> <p>Output: <span class="codeph"> 888 full.sync </span> </p> <p>In the output, the non-printing tab character separates each element. </p> </td> 
-  </tr> 
- </tbody> 
+  </tr>
+ </tbody>
 </table>
 
 ## File Content Macros {#section_EFD1F85D181A4F9E8CF65F5386EAC438}
@@ -150,20 +150,19 @@ separator=","&gt;&lt;if(SEGMENT_LIST&nbsp;&amp;&amp;&nbsp;REMOVED_SEGMENT_LIST)&
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TAB </span> </p> </td> 
    <td colname="col2"> <p>Format: <span class="codeph"> &lt;DP_UUID&gt;&lt;TAB&gt;&lt;DP_UUID_LIST;separator=TAB&gt; </span> </p> <p>Output: <span class="codeph"> 123456 UUID1 UUID2 UUID3 </span> </p> <p>In the output, the non-printing tab character separates each element. </p> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td colname="col1"> <p> <span class="codeph"> TRAIT_LIST </span> </p> </td> 
    <td colname="col2"> <p>Format: <span class="codeph"> &lt;PID&gt;&lt;TAB&gt;&lt;DP_UUID&gt;&lt;TAB&gt;&lt;SET_ATTRIBUTES&gt;&lt;TAB&gt; &lt;TRAIT_LIST;separator="|"&gt; </span> </p> <p>Output: <span class="codeph"> 1131 12345 1 123|456|789 </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**DPUUID Examples**
+### DPUUID Examples
 
 To help you understand how the `DPUUID` macro outputs data, lets assume we have 2 DPIDs mapped to DPUUIDs as shown below:
 
-* DPID `1111` maps to DPUUIDs `AAAA` (timestamp = 1) and `BBBB` (timestamp = 2). 
-
+* DPID `1111` maps to DPUUIDs `AAAA` (timestamp = 1) and `BBBB` (timestamp = 2).
 * DPID `2222` maps to DPUUID `CCCC`.
 
 Given these conditions, the following table enumerates some possible format strings and their output.
