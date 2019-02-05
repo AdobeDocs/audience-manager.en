@@ -21,16 +21,6 @@ In Audience Manager, we think about security in three main categories:
 | **Data leakage/transparency** | Deep and actionable insight into on-site activities that constitute or contribute to data leakage  |
 | **Process/policy enhancements** | Clients, by working with industry best practices for privacy and data security  |
 
-<br>&nbsp;
-
-This page contains the following information:
-
-* [Systems, Training, and Access](../../overview/data-security-and-privacy/data-security.md#section_226017634A9945098327561285335D71) 
-* [Privacy and Personally Identifiable Information (PII)](../../overview/data-security-and-privacy/data-security.md#section_3F60A967DDD24592B0349831D4E865A3) 
-* [Data Partitioning](../../overview/data-security-and-privacy/data-security.md#section_0F061AB523EC420D9F9505E5B97F31C1) 
-* [Inbound Server-to-Server (S2S) Transfers](../../overview/data-security-and-privacy/data-security.md#section_1A3DA20297AD4AC08AE8C9D815E22601) 
-* [Protecting Data by Escaping](../../overview/data-security-and-privacy/data-security.md#section_B1F060DCC62A4462A408C76A687BE6BE)
-
 ## Systems, Training, and Access {#section_226017634A9945098327561285335D71}
 
 Processes that help keep our system and your data secure.

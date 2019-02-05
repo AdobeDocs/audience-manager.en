@@ -11,10 +11,6 @@ uuid: a2ddf470-32e6-41ec-a1d7-a6232ef084b9
 
 Audience Manager helps you collect and manage first-party, second-party, and third-party data.
 
-## Types of Data Collected {#concept_5B20F1DFE0FC48218C43AD1B0D001D96}
-
-Audience Manager helps you collect and manage first-party, second-party, and third-party data. 
-
 Unlocking customer information assets stored in multiple silos is one of the biggest data challenges faced by companies today. From CRM databases, to registration systems, to ad servers, and so forth, companies require tools that help centralize valuable data and manage customer/audience information as a single strategic data asset. Audience Manager helps you unlock isolated customer information and manage data collection from multiple sources. Collected data can be managed based on data element time-to-live (TTL) values, which helps the publisher control data expiration across all sources. Audience Manager is designed to help you manage the following types of data:  
 
 |  Data Type  | Where Data Comes From  |

@@ -98,26 +98,10 @@ You can make a declared ID opt-out request with the `d_cid` and `d_cid_ic` key-v
 
 For a description and syntax, see [URL Variables and Syntax for Declared IDs](../../features/declared-ids.md#concept_22E2210AA6604B83B46F5E0CD5504A51).
 
-<table id="table_159D92242D8F4FCBAC733295DE474CA6"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Opt-Out Using </th> 
-   <th colname="col2" class="entry"> Code Sample </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>A data provider ID and user ID. </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> https:// <span class="varname"> domain name </span>/demoptout.jpg?d_cid=123%01987... </span> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>An integration code and user ID. </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> https:// <span class="varname"> domain name </span>/demoptout?d_cid_ic=456%01321... </span> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Multiple <span class="codeph"> d_cid </span> and <span class="codeph"> d_cid_ic </span> key-value pairs. </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> https:// <span class="varname"> domain name </span>/demoptout?d_cid=123%01987&amp;d_cid_ic=456%01321... </span> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Opt-Out Using | Code Sample |
+|--- |--- |
+|A data provider ID and user ID.|`https://  domain name /demoptout.jpg?d_cid=123%01987...`|
+|An integration code and user ID.|`https://  domain name /demoptout?d_cid_ic=456%01321...`|
+|Multiple  d_cid  and  d_cid_ic  key-value pairs.|`https://  domain name /demoptout?d_cid=123%01987&d_cid_ic=456%01321...`|
+
 
