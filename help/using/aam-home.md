@@ -24,7 +24,7 @@ Audience Manager provides industry-leading services for online audience data man
       <li id="li_CB91AE2E11AB4F95971D24781CDD816E"><a href="overview/aam-gdpr/aam-gdpr-details.md"> General Data Protection Regulation (GDPR)</a> </li> 
       <li id="li_5599D71B52CF4ABE91EDE84520014426"><a href="reference/tls-support.md#concept_69F1532E7D4E4433A62AC85B662773CF"> TLS 1.0 Deprecation</a> </li> 
       <li id="li_E1FF067AEC48490BBBDE9613E9220312"><a href="api/dcs-intro/dcs-api-reference/dcs-api-methods.md#concept_084D7A3E30C94145B3BAE305D30640B7"> DCS API Methods</a> </li> 
-     </ul> </p> <p>See also, <a href="docs-2018/docs-2018.md#concept_B04C4C4F8F8A44948127209781F0EC9C"> 2018 Documentation Updates</a>. </p> </td> 
+     </ul> </p> <p>See also, <a href="docs-2018/docs-2019.md#concept_B04C4C4F8F8A44948127209781F0EC9C"> 2019 Documentation Updates</a>. </p> </td> 
    <td colname="col2"> <p> <b>Release Notes</b> </p> <p> 
      <ul id="ul_713F3E9DF0F84FE5981AC63D05948864"> 
       <li id="li_09C1CD15823E4AD7856CE40BE848E03F">See the latest <a href="https://marketing.adobe.com/resources/help/en_US/whatsnew/" format="https" scope="external"> Experience Cloud Release Notes</a> for new features and fixes. </li> 

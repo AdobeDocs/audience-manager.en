@@ -44,7 +44,7 @@ The values for these keys are determined by matching IP addresses to correspondi
 |d_lat|Latitude (e.g.  d_lat=40.75). Download the [latitudes list](assets/d_lat.txt).|
 |d_long|Longitude (e.g.  d_long=73.98). Download the [longitudes list](assets/d_long.txt).|
 |d_postal_code|ZIP codes (exclude the extended +4 code). Download the  [postal codes list](assets/d_postal_code.txt).  For example: <ul><li>Trait:  d_postal_code=84004 </li><li>Trait Name: Alpine</li></ul>|
-|d_state|2-character abbreviation for a US state. Download the [states codes list](assets/d_state.txt).  For example: <ul><li>Trait:  d_state=NY </li><li>Trait Name: New York</li></ul>[!NOTE] d_state contains repeated values for different states in different countries. For example, d_state == "on" matches multiple states: Ontario (in Canada), Ondo (in Nigeria), Oshana (in Namibia). We recommend to couple this signal with others such as d_country for more specific geotargeting.|
+|d_state|2-character abbreviation for a US state. Download the [states codes list](assets/d_state.txt).  For example: <ul><li>Trait:  d_state=NY </li><li>Trait Name: New York</li></ul>d_state contains repeated values for different states in different countries. For example, d_state == "on" matches multiple states: Ontario (in Canada), Ondo (in Nigeria), Oshana (in Namibia). We recommend to couple this signal with others such as d_country for more specific geotargeting.|
 |d_region|Regional alphanumeric IDs. Download the [region list](assets/Country_RegionCodes_City.csv).  Then, you can use  this list to match region IDs to region names.|
 |d_isp|ISP/organization. Download the [ISP List](assets/d_isp.txt).|
 

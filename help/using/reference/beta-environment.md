@@ -36,7 +36,7 @@ Added re: AAM-30826.
 
 | Service | URL/Hostname | How to obtain access |
 |--- |--- | --- |
-|FTP|`sandbox-ftp-in.demdex.com`|` We encourage our customers to use Amazon S3 instead of FTP. Contact your Audience Manager Partner Solutions representative or Customer Care to set up an Amazon S3 bucket for your beta instance. Read about the [advantages of using Amazon S3](../reference/amazon-s3.md). |
+|FTP|`sandbox-ftp-in.demdex.com`| We encourage our customers to use Amazon S3 instead of FTP. Contact your Audience Manager Partner Solutions representative or Customer Care to set up an Amazon S3 bucket for your beta instance. Read about the [advantages of using Amazon S3](../reference/amazon-s3.md). |
 |DCS|`https://dcs-beta.demdex.net/...`| See [Accessing the DCS in the Beta Environment](../reference/beta-environment.md#access-dcs-beta-environment). |
 |UI|`https://bank-beta.demdex.com`| Your production environment credentials are valid for the beta environment. |
 |API|`https://api-beta.demdex.com/...`| Your production environment credentials are valid for the beta environment. We recommend that you create a generic API user, [see details](../api/rest-api-main/aam-api-getting-started.md#section_F520E4C007904BB78EC694E5A9A46E0A). |
@@ -45,7 +45,7 @@ Added re: AAM-30826.
 
 1. Determine the load balancer's endpoint IP addresses.
 
-   Run the `dig` [command](https://en.wikipedia.org/wiki/Dig_(command)) to determine the IP address of the nearest load balancer. The `dig` command queries the Domain Name System and returns the name and IP addresses of the [!DNL Audience Manager] [!UICONTROL Data Collection Servers (DCS)].
+   Run the `dig`  [command](https://en.wikipedia.org/wiki/Dig_(command)) to determine the IP address of the nearest load balancer. The `dig` command queries the Domain Name System and returns the name and IP addresses of the [!DNL Audience Manager] [!UICONTROL Data Collection Servers (DCS)].
 
    ```
    dig dcs-beta.demdex.net
