@@ -68,7 +68,7 @@ Refer to this document for the complete list of Adobe Audience Manager IDs.
   </tr> 
   <tr> 
    <td colname="col1"> <p>ImsOrgId </p> </td> 
-   <td colname="col2"> <p> <b>Organization ID</b> </p> <p>This is the ID that a company is provided with upon signing up for the Experience Cloud. </p> </td> 
+   <td colname="col2"> <p> <b>Organization ID</b> </p> <p>This is the ID that a company is provided with upon signing up for the Experience Cloud. To learn how you can find your company's Organization ID, read <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html"> Organizations and Account Linking</a> and scroll down to Find your Organization ID.</p> </td> 
    <td colname="col3"> <p><span class="codeph"> 5DC5123F5245B1D20A490D46@AdobeOrg</span> </p> </td> 
   </tr> 
   <tr> 
