@@ -196,7 +196,7 @@ In the tables below, *italics* represents a variable placeholder.
   <tr> 
    <td colname="col1"> <p>302 </p> </td> 
    <td colname="col2"> <p>Unauthorized customer id <span class="varname"> ID</span> </p> </td> 
-   <td colname="col3"> <p>Returned when the customer ID data source is not owned by the current Organization ID. If you do not know or have your Organization ID, see the "Administration Page" section in <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html" format="https" scope="external"> Experience Cloud Administration</a> for information about how to find it. </p> </td> 
+   <td colname="col3"> <p>Returned when the customer ID data source is not owned by the current Organization ID. If you do not know or have your Organization ID, see the "Find your Organization ID" section in <a href="https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html" format="https" scope="external"> Organizations and Account Linking</a> for information about how to find it. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>303 </p> </td> 
