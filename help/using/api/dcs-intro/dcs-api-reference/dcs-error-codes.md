@@ -232,8 +232,17 @@ In the tables below, *italics* represents a variable placeholder.
    <td colname="col1"> <p>311 </p> </td> 
    <td colname="col2"> <p>Request contains invalid parameters </p> </td> 
    <td colname="col3"> <p>The <span class="wintitle"> DCS</span> returns this error code when at least one URL parameter is not properly encoded. In this case, the <span class="wintitle"> DCS</span> disregards the entire request. </p> <p><span class="codeph">http(s)://partner.demdex.net/event?d_event=imp&amp;d_rtbd=json&amp;d_src=38454&amp;d_site=%esid!&amp;d_creative=%ecid!&amp;d_adgroup=%eaid!&amp;d_placement=%epid!&amp;d_campaign=%ebuy!&amp;d_adsrc=48123</span> </p> <p>In the sample request above, the <span class="codeph"> %</span> sequence is incorrectly encoded. Consequently, the <span class="wintitle"> DCS</span> will disregard it. </p> <p>The correctly encoded sample should look like this: </p> <p><span class="codeph">http(s)://partner.demdex.net/event?d_event=imp&amp;d_rtbd=json&amp;d_src=38454&amp;d_site=%25esid!&amp;d_creative=%25ecid!&amp;d_adgroup=%25eaid!&amp;d_placement=%25epid!&amp;d_campaign=%25ebuy!&amp;d_adsrc=48123</span> </p> </td> 
-  </tr> 
- </tbody> 
+  </tr>
+  <tr> 
+   <td colname="col1"> <p>312 </p> </td> 
+   <td colname="col2"> <p>Request contains an invalid Global Device ID </p> </td> 
+   <td colname="col3"> <p>The <span class="wintitle">DCS</span> returns this error code when  the request contains an invalid Global Device ID. DCS ignores the invalid ID and throws a 312 error along with the specific errors of the invalid ID. Refer to <a href="../../../features/global-data-sources.md#topic_A083014ABB9B4D60BA69BB97EFDD97EB" format="dita" scope="local">Global Data Sources</a> and <a href="../../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8" format="dita" scope="local">Index of IDs in Audience Manager</a> for detailed information on the correct device advertising ID formats and corresponding global data sources.</p>
+   <p>Example of an incorrect call: <span class="codeph">"http://partner.demdex.net/event?d_rtbd=json&amp;d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"</span></p>
+   <p>Explanation: An IDFA (DPID 20915) must be an uppercase ID. The ID provided in the request is lowercase.</p>
+   </td>
+  </tr>
+
+ </tbody>
 </table>
 
 ## Sample Error Code Messages {#section_09C2F90C385A4EFB989A3C518102A32E}
