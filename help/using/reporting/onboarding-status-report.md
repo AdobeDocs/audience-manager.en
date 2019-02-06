@@ -127,7 +127,21 @@ A reference guide for the labels and terms used in this report.
      <li id="li_B100B4C2623B4E099E022869A4978357">Did not match the expected 38-digit format. </li> 
      <li id="li_44E8A9AD13174A20A5742E56ED786634">Contain alphabetical characters. IDs should be numbers only. </li> 
     </ul> </td> 
-  </tr> 
+  </tr>
+
+<tr> 
+   <td colname="col1"> <p> <b>Invalid Device ID</b> </p> </td> 
+   <td colname="col2"> <p>Lists the number of improperly formatted Global Device IDs. See <a href="../reference/ids-in-aam.md">Index of IDs in Audience Manager</a> and <a href="../features/global-data-sources.md">Global Data Sources</a>  for details on how device IDs should be formatted and what global data sources you should use, based on the device type.</p>
+  <p>The error sampling section of the report includes detailed information about the invalid device IDs, such as:</p>
+   <ul>
+    <li>The data source ID corresponding to the invalid device ID;</li>
+    <li>The invalid device ID;</li>
+    <li>The type of expected device ID, based on the data source.</li>
+   </ul>
+  </tr>
+
+
+
   <tr> 
    <td colname="col1"> <p> <b>No Matching AAM ID</b> </p> </td> 
    <td colname="col2"> <p>These are onboarded IDs <span class="keyword"> Audience Manager</span> cannot match to an existing ID. Onboarded IDs can have this status when <span class="keyword"> Audience Manager</span> has not yet performed an ID sync or it still can't match the ID even after a synch. </p> <p>In the case of unmatched mobile IDs, <span class="keyword"> Audience Manager</span> will: </p> 
