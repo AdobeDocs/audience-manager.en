@@ -21,24 +21,20 @@ beta_environment_admin.xml
 
 |Service|URL/Hostname|Steps to Provision|
 |--- |--- |--- |
-|FTP|`sandbox-ftp-in.demdex.com`|See [Provision Amazon S3 Buckets and FTP / SFTP for Inbound and Outbound Data](admin-beta-environment.md#section_59499FFC55834D50B9A9105B405BAC9D).|
+|S3||See [Provision Amazon S3 Buckets](admin-beta-environment.md#section_59499FFC55834D50B9A9105B405BAC9D).|
 |DCS|`https://dcs-beta.demdex.net/...`|No extra steps needed from our side. See [Access the DCS in the Beta Environment](admin-beta-environment.md#section_89A9CAB8A0784BF5A7DBA1C8F596CB82).|
 |UI|`https://bank-beta.demdex.com`|Data is copied from the production to the beta environment on a monthly basis. Production credentials are valid for beta.|
 |API|`https://api-beta.demdex.com/...`|Data is copied from the production to the beta environment on a monthly basis. Production credentials are valid for beta.|
 
->[!NOTE]
->
->The FTP is used for both inbound and outbound traffic, there is no dedicated FTP for outbound data.
+## Provision Amazon S3 Buckets {#section_59499FFC55834D50B9A9105B405BAC9D}
 
-## Provision Amazon S3 Buckets and FTP / SFTP for Inbound and Outbound Data {#section_59499FFC55834D50B9A9105B405BAC9D}
-
-**To provision FTP / SFTP accounts and S3 bucket for inbound/outbound data:**
+**We are moving away from using FTP/SFTP. Also, please note that Outbound data transfers do not work for the beta environment. To provision S3 buckets for inbound data:**
 
 1. Use the [**SKMS Request TechOps Help**](https://skms.adobe.com/) feature. 
-1. Go to **[!UICONTROL Request TechOps Help]** in the left navigation rail. 
-1. In **[!UICONTROL Request Search]**, type in Audience Manager in the search field. 
-1. Scroll down in the search results and click into **Audience Manager - S3 Inbound / Outbound Account Provisioning**. 
-1. Fill in the fields in the provisioning window and specify **Sandbox environment** in the **[!UICONTROL Environment]** field.
+2. Go to **[!UICONTROL Request TechOps Help]** in the left navigation rail. 
+3. In **[!UICONTROL Request Search]**, type in Audience Manager in the search field. 
+4. Scroll down in the search results and click into **Audience Manager - S3 Inbound / Outbound Account Provisioning**. 
+5. Fill in the fields in the provisioning window and specify **Sandbox environment** in the **[!UICONTROL Environment]** field.
 
 >[!NOTE]
 >
@@ -48,6 +44,24 @@ beta_environment_admin.xml
 
 **To access the [!UICONTROL DCS] in the beta environment:**
 
+1. Make a DCS call, using the curl [command](https://curl.haxx.se/docs/manpage.html). Curl is a tool to transfer data from or to a server, using one of many supported protocols.
+
+For example:
+
+`curl -v https://dcs-beta.demdex.net/event`
+
+2. Verify that your request was served by the beta DCS by looking for "sandbox" in the DCS response header.
+
+For example:
+
+```
+curl -v http://dcs-beta.demdex.net/?event
+[...]
+< DCS: va6-sandbox-dcs-3.sandbox.demdex.com <release_number>
+[...]
+```
+
+<!--
 1. Determine the load balancer's endpoint IP addresses.
 
    Run the `dig` [command](https://en.wikipedia.org/wiki/Dig_(command)) to determine the IP address of the nearest load balancer. The `dig` command queries the Domain Name System and returns the name and IP addresses of the Audience Manager [!UICONTROL Data Collection Servers (DCS)].
@@ -92,3 +106,4 @@ beta_environment_admin.xml
    < DCS: va6-sandbox-dcs-3.sandbox.demdex.com <release_number>
    [...]
    ```
+-->

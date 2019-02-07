@@ -43,6 +43,25 @@ Added re: AAM-30826.
 
 ## Accessing the DCS in the Beta Environment {#access-dcs-beta-environment}
 
+1. Make a DCS call, using the curl [command](https://curl.haxx.se/docs/manpage.html). Curl is a tool to transfer data from or to a server, using one of many supported protocols.
+
+For example:
+
+`curl -v https://dcs-beta.demdex.net/event`
+
+2. Verify that your request was served by the beta DCS by looking for "sandbox" in the DCS response header.
+
+For example:
+
+```
+curl -v http://dcs-beta.demdex.net/?event
+[...]
+< DCS: va6-sandbox-dcs-3.sandbox.demdex.com <release_number>
+[...]
+```
+
+<!--
+
 1. Determine the load balancer's endpoint IP addresses.
 
    Run the `dig`  [command](https://en.wikipedia.org/wiki/Dig_(command)) to determine the IP address of the nearest load balancer. The `dig` command queries the Domain Name System and returns the name and IP addresses of the [!DNL Audience Manager] [!UICONTROL Data Collection Servers (DCS)].
@@ -87,3 +106,5 @@ Added re: AAM-30826.
    < DCS: va6-sandbox-dcs-3.sandbox.demdex.com <release_number>
    [...]
    ```
+
+   -->
