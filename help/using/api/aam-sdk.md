@@ -13,5 +13,5 @@ Audience Manager provides software development kits ([!DNL SDK]s) for [!DNL Andr
 
 For [!DNL SDK] code libraries, see:
 
-* [Android SDK](https://marketing.adobe.com/resources/help/en_US/mobile/android/?f=audience_manager.html) 
-* [iOS SDK](https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=amm.html)
+* [Android SDK](https://experiencecloud.adobe.com/resources/help/en_US/mobile/android/?f=audience_manager.html)
+* [iOS SDK](https://experiencecloud.adobe.com/resources/help/en_US/mobile/ios/?f=amm.html)
