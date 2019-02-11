@@ -7,9 +7,9 @@ title: Audience Manager API Code Migration
 uuid: 93cc28c4-4b91-4c79-93d5-ece9bb4cc9d5
 ---
 
-# Audience Manager API Code Migration {#audience-manager-api-code-migration}
+# Audience Manager [!UICONTROL API] Code Migration {#audience-manager-api-code-migration}
 
-Here at Audience Manager, we're engineers, developers, and code ninjas just like you. And, like you, we want to work with reliable, accurate API documentation. As a result, we're re-writing our API content in [!DNL Swagger] and moving it to a new location. These changes are designed to help improve your experience with the Audience Manager API code.
+Here at Audience Manager, we're engineers, developers, and code ninjas just like you. And, like you, we want to work with reliable, accurate [!UICONTROL API] documentation. As a result, we're re-writing our [!UICONTROL API] content in [!DNL Swagger] and moving it to a new location. These changes are designed to help improve your experience with the Audience Manager [!UICONTROL API] code.
 
 ## Movin' On Up {#section_744CB94390AE4155BC9A24A9F555E579}
 
@@ -17,7 +17,7 @@ Here at Audience Manager, we're engineers, developers, and code ninjas just like
 api-swagger-migration.xml#
 -->
 
-The [Adobe Audience Manager API Docs](https://bank.demdex.com/portal/swagger/index.html) site is the new home for our revised API content. We'll try to re-write and move a few sets of API methods with each release. This means you'll have to check in both the new location and the [REST API](../api/rest-api-main/rest-api-main.md#concept_B512E6C3410A4304A672588A60A792B1) documentation to find all of the available methods. Eventually, all of the public APIs will be on the [!DNL Audience Manager] API docs site. The following table lists the revised and migrated APIs.
+The [Adobe Audience Manager API Docs](https://bank.demdex.com/portal/swagger/index.html) site is the new home for our revised [!UICONTROL API] content. We'll try to re-write and move a few sets of [!UICONTROL API] methods with each release. This means you'll have to check in both the new location and the [REST API](../api/rest-api-main/rest-api-main.md#concept_B512E6C3410A4304A672588A60A792B1) documentation to find all of the available methods. Eventually, all of the public [!UICONTROL API]s will be on the [!DNL Audience Manager] [!UICONTROL API] docs site. The following table lists the revised and migrated [!UICONTROL API]s.
 
 <table id="table_CD3C244CB02C48C898745FB982EC828C"> 
  <thead> 

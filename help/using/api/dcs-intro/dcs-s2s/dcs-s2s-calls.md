@@ -5,7 +5,7 @@ title: Making Server-to-Server DCS API Calls
 uuid: bdfe3430-e27f-4a5c-88d9-ae164d28f601
 ---
 
-# Making [!UICONTROL Server-to-Server] [!UICONTROL DCS] API Calls{#making-server-to-server-dcs-api-calls}
+# Making [!UICONTROL Server-to-Server] [!UICONTROL DCS API] Calls{#making-server-to-server-dcs-api-calls}
 
 >[!NOTE]
 >
@@ -16,9 +16,7 @@ uuid: bdfe3430-e27f-4a5c-88d9-ae164d28f601
 A basic server-to-server request that sends data to the [!UICONTROL DCS] uses the syntax shown below.
 
 <pre>
-
 "Host:<i>domain alias</i>.demdex.net" "https://<i>DCS host name</i>.demdex.net/event?d_rtbd=json&d_jsonv=1&d_uuid=<i>user ID</i>.
-
 </pre>
 
 <!-- 
@@ -29,9 +27,7 @@ A basic server-to-server request that sends data to the [!UICONTROL DCS] uses th
 A sample call looks similar to the following example.
 
 <pre>
-
 "Host:foo.demdex.net" "https://usw2.demdex.net/event?d_rtbd=json&d_jsonv=1& d_uuid=123456789"`
-
 </pre>
 
 <!--

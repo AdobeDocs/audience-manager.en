@@ -7,7 +7,7 @@ title: Supported Attributes for DCS API Calls
 uuid: 0b98ed11-314b-4500-afde-45a041112150
 ---
 
-# Supported Attributes for [!UICONTROL DCS] API Calls {#supported-attributes-for-dcs-api-calls}
+# Supported Attributes for [!UICONTROL DCS API] Calls {#supported-attributes-for-dcs-api-calls}
 
 Lists and describes the syntax and supported attributes (or key-value pairs) you can pass in to the Data Collection Servers ([!UICONTROL DCS]). This information can help you format your [!UICONTROL DCS] requests and understand the parameters returned by this system.
 
@@ -192,4 +192,3 @@ All of these are optional, unless you want a response from the [!UICONTROL DCS].
   </tr>
  </tbody>
 </table>
-

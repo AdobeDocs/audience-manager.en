@@ -17,7 +17,7 @@ c_rest_data_sources.xml
 
 >[!IMPORTANT]
 >
->The data source API methods have been rewritten with [!DNL Swagger] and migrated. See:
+>The data source [!UICONTROL API] methods have been rewritten with [!DNL Swagger] and migrated. See:
 >
 >* [Adobe Audience Manager API Docs `Swaggerized REST API docs.`](https://bank.demdex.com/portal/swagger/index.html)
 >* [Audience Manager API Code Migration](../../api/api-swagger-migration.md#concept_99C4AEF678E94AFE9B29F9B663200BAD)

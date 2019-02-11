@@ -7,9 +7,9 @@ title: DCS APIs for Server-to-Server Data Transfers
 uuid: 8c369166-c8a7-46b0-9913-4c027f5b1df9
 ---
 
-# [!UICONTROL DCS] APIs for [!UICONTROL Server-to-Server] Data Transfers{#dcs-apis-for-server-to-server-data-transfers}
+# [!UICONTROL DCS API]s for [!UICONTROL Server-to-Server] Data Transfers{#dcs-apis-for-server-to-server-data-transfers}
 
-Server-to-server ([!UICONTROL S2S]) APIs provide code and methods that let you send and receive [!UICONTROL DCS] user data and work with this information in your own systems or applications.
+Server-to-server ([!UICONTROL S2S]) [!UICONTROL API]s provide code and methods that let you send and receive [!UICONTROL DCS] user data and work with this information in your own systems or applications.
 
 ## Common Use Cases {#section_76B12DEC71604E978F7CF6DD9D979F79}
 
@@ -20,7 +20,7 @@ Server-to-server ([!UICONTROL S2S]) APIs provide code and methods that let you s
 
 ## Requirements: User IDs and Regional Server Names {#section_0AEA56B3B3EA4AD1A461804E936A03FE}
 
-The [!UICONTROL DCS] API requires user IDs and region IDs to validate and make data requests.
+The [!UICONTROL DCS API] requires user IDs and region IDs to validate and make data requests.
 
 * The user ID is required because you need to associate data with a particular visitor.
 * The region ID is required to tie calls back to a server name and because user data is stored in data centers that are geographically closest to site visitors.

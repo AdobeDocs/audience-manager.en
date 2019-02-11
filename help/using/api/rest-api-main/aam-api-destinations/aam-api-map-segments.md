@@ -563,7 +563,7 @@ r_update_destination_trait_data_order_id.xml
 
 ### Request
 
-`PUT https://api.demdex.com/v1/destinations/mappings/ *<mappingId>*`
+`PUT https://api.demdex.com/v1/destinations/mappings/`*`<mappingId>`*
 
 ### Sample Request
 
