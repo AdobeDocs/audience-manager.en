@@ -17,7 +17,7 @@ Describes the required fields, syntax, naming conventions and file sizes you nee
 
 ## File Name Syntax {#section_8E0F0FCC8FCB484E89F09654A03295FB}
 
-FTP file names contain the following required and optional elements:
+[!DNL FTP] file names contain the following required and optional elements:
 
 `fftp_dpm_DPID[_DPID_TARGET_DATA_OWNER]_TIMESTAMP(.sync|.overwrite)[.SPLIT_NUMBER][.gz]`
 
@@ -25,7 +25,7 @@ FTP file names contain the following required and optional elements:
 >
 >[!DNL Audience Manager] only processes ASCII and UTF-8 encoded files.
 
-**Name Elements**
+### Name Elements
 
 The table defines the elements in an FTP file name.
 
@@ -103,7 +103,7 @@ The following examples show properly formatted file names. Your file names could
 
 ## Accepted File Sizes {#section_758E1B942B334DE1B76F0EBC846303E2}
 
-Consider the figures below for fastest/earliest processing of your files as well as for file size limitations when you send data to an [!DNL Audience Manager] / FTP directory.  
+Consider the figures below for fastest/earliest processing of your files as well as for file size limitations when you send data to an [!DNL Audience Manager] / [!DNL FTP] directory.
 
 <table id="table_59FCC63806684DF8BE54A1EAF224A234"> 
  <thead> 

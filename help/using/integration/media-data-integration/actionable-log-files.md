@@ -10,7 +10,7 @@ uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 
 # Actionable Log Files {#actionable-log-files}
 
-Actionable Log Files allow you to capture media data from Google DCM log files and use the data to create traits in Audience Manager. Capture impressions, clicks, and conversions from ad servers as traits without having to use pixel calls.
+[!UICONTROL Actionable Log Files] allow you to capture media data from [!DNL Google DCM] log files and use the data to create traits in Audience Manager. Capture impressions, clicks, and conversions from ad servers as traits without having to use pixel calls.
 
 <ul class="simplelist"> 
  <li> <a href="../../integration/media-data-integration/actionable-log-files.md#section_42B595E75E7A42E589F5E166968A1311"> Purpose </a> </li> 
@@ -36,15 +36,15 @@ If you are already importing DCM log data into [!DNL Audience Manager], ask your
 
 >[!NOTE] {importance="high"}
 >
->[!UICONTROL Actionable Log Files] work only with Google DCM log files.
+>[!UICONTROL Actionable Log Files] work only with [!DNL Google DCM] log files.
 
 ## Working with Actionable Log Files {#section_4608990C8D0D43AE8FDC33081543E5E2}
 
-With [!UICONTROL Actionable Log Files], the information from DCM logs is captured in [!DNL Audience Manager] the same way that you would capture data from real-time website interactions. [!DNL Audience Manager] connects to your Google Cloud storage, parses the information from DCM logs, and sends the log data as actionable signals to our [Data Collection Servers](../../reference/system-components/components-data-collection.md#section_DEB68BEDDB4D4BCDAF50653D3F4568E2).
+With [!UICONTROL Actionable Log Files], the information from [!DNL DCM] logs is captured in [!DNL Audience Manager] the same way that you would capture data from real-time website interactions. [!DNL Audience Manager] connects to your [!DNL Google Cloud] storage, parses the information from [!DNL DCM] logs, and sends the log data as actionable signals to our [Data Collection Servers](../../reference/system-components/components-data-collection.md#section_DEB68BEDDB4D4BCDAF50653D3F4568E2).
 
 You still need to set up rule-based traits to capture the actionable signals. See how to set up rule-based traits either in the [Audience Manager UI](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) or using our [Bulk Management Tools](../../reference/bulk-management-tools/bulk-create.md#task_E42901E227CE4123B3EE92074B16ACA2). Scroll down to the [Actionable Signals](../../integration/media-data-integration/actionable-log-files.md#section_F23E910753EB4241BFD8B76262526F18) section for a list of all the keys you can use in rule-based traits.
 
-For an average-sized DCM log file of 2 million lines, any traits created from actionable signals are realized within approximately one hour after we process the logs.
+For an average-sized [!DNL DCM] log file of 2 million lines, any traits created from actionable signals are realized within approximately one hour after we process the logs.
 
 >[!IMPORTANT] {importance="high"}
 >
@@ -52,9 +52,9 @@ For an average-sized DCM log file of 2 million lines, any traits created from ac
 
 ## Actionable Signals {#section_F23E910753EB4241BFD8B76262526F18}
 
-Signals are the [smallest data units](../../reference/signal-trait-segment.md#concept_7550A48FE3F1415FACF0E077CFAB155F) in [!DNL Audience Manager]. [!UICONTROL Actionable Log Files] allow you to capture advertiser, business unit, creative, and campaign values in impression events, click events, and conversion events as signals from DCM logs.
+Signals are the [smallest data units](../../reference/signal-trait-segment.md#concept_7550A48FE3F1415FACF0E077CFAB155F) in [!DNL Audience Manager]. [!UICONTROL Actionable Log Files] allow you to capture advertiser, business unit, creative, and campaign values in impression events, click events, and conversion events as signals from [!DNL DCM] logs.
 
-Remember, in order to use this information for audience creation and segmentation, you need to set up the rule-based traits yourself. The table lists the actionable signals from DCM log files:
+Remember, in order to use this information for audience creation and segmentation, you need to set up the rule-based traits yourself. The table lists the actionable signals from [!DNL DCM] log files:
 
 <table id="table_A5A2A10D471C4C9D8DCD88F9C017040C"> 
  <thead> 
@@ -77,12 +77,12 @@ Remember, in order to use this information for audience creation and segmentatio
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_conversion</span> </p> </td> 
-   <td colname="col2"> <p>Available only for conversion events. </p> <p>Represents the numerical ID for the conversion activity in DCM. This field maps to the Activity ID from DCM. </p> <p> <p>Tip: You can capture multiple or specific conversion activities from DCM. Create traits using <span class="codeph"> d_conversion = activity ID</span> for each conversion activity from DCM. </p> </p> </td> 
+   <td colname="col2"> <p>Available only for conversion events. </p> <p>Represents the numerical ID for the conversion activity in [!DNL DCM]. This field maps to the Activity ID from [!DNL DCM]. </p> <p> <p>Tip: You can capture multiple or specific conversion activities from [!DNL DCM]. Create traits using <span class="codeph"> d_conversion = activity ID</span> for each conversion activity from [!DNL DCM]. </p> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> 24122</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_conversionType</span> </p> </td> 
-   <td colname="col2"> <p>Available only for conversion events. </p> <p>This field maps to the Conversion ID in DCM. Indicates the activity preceding the user conversion from DCM. </p> <p>Accepted values are: </p> <p> 
+   <td colname="col2"> <p>Available only for conversion events. </p> <p>This field maps to the Conversion ID in [!DNL DCM]. Indicates the activity preceding the user conversion from [!DNL DCM]. </p> <p>Accepted values are: </p> <p> 
      <ul id="ul_2256294F1C6F448B9F269D00D4DFEE65"> 
       <li id="li_29D3FF8919B7404297E80BACA913117A"> <span class="codeph"> 1</span> for post-click conversions. </li> 
       <li id="li_B5250A63A2C1413FAF1FDC8272BFFB97"> <span class="codeph"> 2</span> for post-impression conversions. </li> 
@@ -92,33 +92,33 @@ Remember, in order to use this information for audience creation and segmentatio
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_adsrc</span> </p> </td> 
-   <td colname="col2"> <p>Advertiser ID. This field maps to the Advertiser Group ID from DCM. </p> </td> 
+   <td colname="col2"> <p>Advertiser ID. This field maps to the Advertiser Group ID from [!DNL DCM]. </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> 134243</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_bu</span> </p> </td> 
-   <td colname="col2"> <p>Business Unit ID. This field maps to the Advertiser ID from DCM. </p> </td> 
+   <td colname="col2"> <p>Business Unit ID. This field maps to the Advertiser ID from [!DNL DCM]. </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> 563332</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_campaign</span> </p> </td> 
-   <td colname="col2"> <p>The Campaign ID provided by DCM. </p> </td> 
+   <td colname="col2"> <p>The Campaign ID provided by [!DNL DCM]. </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> 7892520</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_creative</span> </p> </td> 
-   <td colname="col2"> <p>The Creative ID provided by DCM. </p> </td> 
+   <td colname="col2"> <p>The Creative ID provided by [!DNL DCM]. </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> 224221</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_src</span> </p> </td> 
-   <td colname="col2"> <p>The ID of the data source you use to capture DCM data. See <a href="../../features/manage-datasources.md#concept_3B7696B3EC77416492D3B99EBD79EA44"> How to Create a Data Source</a>. </p> </td> 
+   <td colname="col2"> <p>The ID of the data source you use to capture [!DNL DCM] data. See <a href="../../features/manage-datasources.md#concept_3B7696B3EC77416492D3B99EBD79EA44"> How to Create a Data Source</a>. </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> 743</span> </p> </td> 
   </tr>
  </tbody>
 </table>
 
-The signals described in the table are captured in [!DNL Audience Manager] like a real-time HTTP call. The example call below contains information on a conversion event from DCM. Calls do not necessarily have to include *all* the signals in the example call.
+The signals described in the table are captured in [!DNL Audience Manager] like a real-time `HTTP` call. The example call below contains information on a conversion event from [!DNL DCM]. Calls do not necessarily have to include *all* the signals in the example call.
 
 ```
 https://sample.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_event=conv&d_conversion=24122&d_conversionType=2&d_bu=3983524&d_campaign=7321391&d_adsrc=11111&d_creative=123456
@@ -126,10 +126,10 @@ https://sample.demdex.net?d_src=743&d_uuid=0795526165288603295014370250589427213
 
 >[!NOTE] {importance="high"}
 >
->The event timestamp provided in the DCM logs will be honored and passed to the Data Collection Servers.
+>The event timestamp provided in the [!DNL DCM] logs will be honored and passed to the [!UICONTROL Data Collection Servers].
 >
->* If a timestamp isn't available for a data row in the DCM log file, we use the time of the HTTP call as the event timestamp.
->* If the data row in the DCM log file contains a malformed timestamp, we ignore the entire row.
+>* If a timestamp isn't available for a data row in the DCM log file, we use the time of the `HTTP` call as the event timestamp.
+>* If the data row in the [!DNL DCM] log file contains a malformed timestamp, we ignore the entire row.
 
 ## Use Cases {#section_09EB4686F5204452A39A7C2700D44E49}
 
@@ -141,21 +141,21 @@ Retarget users who saw creative 123 but didn't click or convert and show them cr
 
 1. Create a trait to capture users who saw the creative. Let's say you name the trait Creative Trait 123. Use the trait rule:
 
-   `d_creative == 123 AND d_event == imp` 
+   `d_creative == 123 AND d_event == imp`
 
 1. Create a trait to capture users who click or convert. Let's say you name this one Click and Converter. Use the trait rule:
 
-   `d_event == click OR d_event=conv` 
+   `d_event == click OR d_event=conv`
 
 1. Create a segment to populate with users who saw creative 123 but didn't click or convert. Name it Retarget Users and use the segment rule:
 
-   `Creative Trait 123 AND NOT Click and Converter` 
+   `Creative Trait 123 AND NOT Click and Converter`
 
 1. Map the segment Retarget Users to a destination and target users in the destination with creative 456.
 
-### Use DCM Floodlight Activity in the Audience Optimization Reports or in Audience Lab
+### Use [!DNL DCM] [!UICONTROL Floodlight Activity] in the [!UICONTROL Audience Optimization Reports] or in [!UICONTROL Audience Lab]
 
-[Floodlight tags](https://support.google.com/dcm/partner/answer/4293719?hl=en) enable advertisers to track user conversions. With [!UICONTROL Actionable Log Files], you can track the DCM conversions in the [Audience Optimization Reports](../../reporting/audience-optimization-reports/audience-optimization-reports.md#concept_D66D2C58493E48BDAFF2F95BBB508946) or in [Audience Lab](../../features/audience-lab/audience-lab.md#concept_CEAEE1C751CE405DB99041FC57CC17E0):
+[Floodlight tags](https://support.google.com/dcm/partner/answer/4293719?hl=en) enable advertisers to track user conversions. With [!UICONTROL Actionable Log Files], you can track the [!DNL DCM] conversions in the [Audience Optimization Reports](../../reporting/audience-optimization-reports/audience-optimization-reports.md#concept_D66D2C58493E48BDAFF2F95BBB508946) or in [Audience Lab](../../features/audience-lab/audience-lab.md#concept_CEAEE1C751CE405DB99041FC57CC17E0):
 
 1. Create a trait and use the following trait rule to capture a conversion from the ad server logs:
 

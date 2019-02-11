@@ -7,9 +7,9 @@ title: Create a GPT Destination
 uuid: e3bbf327-a7e0-48da-bc84-8f531b7f6750
 ---
 
-# Create a GPT Destination {#create-a-gpt-destination}
+# Create a [!DNL GPT] Destination {#create-a-gpt-destination}
 
-You can send qualified segments to DFP through a client-side (browser-side) integration, or a server-side integration. If you choose the client-side integration, you must create a cookie-based destination for Google Publisher Tags in Audience Manager.
+You can send qualified segments to [!DNL DFP] through a client-side (browser-side) integration, or a server-side integration. If you choose the client-side integration, you must create a cookie-based destination for [!DNL Google Publisher Tags] in Audience Manager.
 
 ## Destinations
 

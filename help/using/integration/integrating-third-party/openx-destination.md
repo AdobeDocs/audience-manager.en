@@ -21,11 +21,11 @@ Standards for code placement, supported key-value formats, reports, and the type
 
 <!-- aam-openx-requirements.xml -->
 
-Review the following before setting up OpenX as an Audience Manager destination:
+Review the following before setting up [!DNL OpenX] as an Audience Manager destination:
 
-* **DIL:** Data Integration Library code should be deployed on your site. DIL helps eliminate the need to write special code for data collection, integration, reading cookie values, and recovering page data.
-* **get_aamCookie Function:** Code that captures the Audience Manager user ID and cookie data. Place [this code](../../features/destinations/get-aam-cookie-code.md#reference_0102FABCC96547DE81DFCA0600BBEFD3) on the top of the page or inside the `<head>` codeblock.
-* **Send Delivery Logs to Audience Manager:** If you want a segment delivery report (optional), provide Audience Manager with a daily log that contains impression-level delivery data. The data can be in a raw format, but each record must contain the Audience Manager UUID. Audience Manager can pick up or receive these via FTP.
+* **[!UICONTROL DIL]:** [!UICONTROL Data Integration Library] code should be deployed on your site. [!UICONTROL DIL] helps eliminate the need to write special code for data collection, integration, reading cookie values, and recovering page data.
+* **`get_aamCookie` Function:** Code that captures the Audience Manager user ID and cookie data. Place [this code](../../features/destinations/get-aam-cookie-code.md#reference_0102FABCC96547DE81DFCA0600BBEFD3) on the top of the page or inside the `<head>` codeblock.
+* **Send Delivery Logs to Audience Manager:** If you want a segment delivery report (optional), provide Audience Manager with a daily log that contains impression-level delivery data. The data can be in a raw format, but each record must contain the Audience Manager UUID. Audience Manager can pick up or receive these via [!DNL FTP].
 
 ### Key-Value Data: Format Requirements
 
@@ -40,13 +40,13 @@ Audience Manager sends data in the form of key-value pairs. Create key-value pai
 
 The amount data passed in to [!DNL OpenX] depends on how many segments a particular user qualifies for. For example, say you set up 100 Audience Management segments. If a site visitor qualifies for five of them, then only those five segments get sent to OpenX (not all 100).
 
-## Create an OpenX Destination {#concept_4A93689DF98A42368CF11A97F7522E8A}
+## Create an [!DNL OpenX] Destination {#concept_4A93689DF98A42368CF11A97F7522E8A}
 
-Create a cookie-based destination for OpenX in Audience Management.
+Create a cookie-based destination for [!DNL OpenX] in Audience Management.
 
 <!-- aam-openx-destination.xml -->
 
-In Audience Manager, a *destination* is any other system (ad server, DSP, ad network, etc.) that you want to share data with. [!UICONTROL Destination Builder] provides the tools that let you create and manage these data delivery processes. Audience Manager destination features are located in *Audience Data > Destinations*. To get started, click **[!UICONTROL Add New Destination]** and follow the steps below.
+In Audience Manager, a *destination* is any other system (ad server, [!DNL DSP], ad network, etc.) that you want to share data with. [!UICONTROL Destination Builder] provides the tools that let you create and manage these data delivery processes. Audience Manager destination features are located in *Audience Data > Destinations*. To get started, click **[!UICONTROL Add New Destination]** and follow the steps below.
 
 ### Step 1: Basic Information
 
@@ -82,12 +82,12 @@ Modify [!DNL OpenX] settings to work with Audience Manager segment data.
 
 <!-- aam-openx-code.xml -->
 
-To set up [!DNL OpenX]
+To set up [!DNL OpenX]:
 
-* Install DIL code across your site.
-* Create OpenX as a cookie destination in Audience Manager.
+* Install [!UICONTROL DIL] code across your site.
+* Create [!DNL OpenX] as a cookie destination in Audience Manager.
 * Place the `get_aamCookie` function at the top of the page, ideally within the `<head>` codeblock. The `get_aamCookie` code is available [here](../../features/destinations/get-aam-cookie-code.md#reference_0102FABCC96547DE81DFCA0600BBEFD3).
-* Modify your ad tag to call the `get_aamCookie` function and include the cookie name you provided when setting up the OpenX destination. For example, if you named the cookie `test_cookie`, then the ad tag should call `get_aamCookie` and reference the cookie name.
+* Modify your ad tag to call the `get_aamCookie` function and include the cookie name you provided when setting up the [!DNL OpenX] destination. For example, if you named the cookie `test_cookie`, then the ad tag should call `get_aamCookie` and reference the cookie name.
 * Your ad tag could look similar to the example below.
 
   ```

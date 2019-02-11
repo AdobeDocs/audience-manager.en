@@ -9,14 +9,14 @@ uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 
 # Implement the Audience Management Module  {#implement-the-audience-management-module}
 
-Add the Audience Management Module to Adobe Analytics AppMeasurement to forward Analytics data to Audience Manager instead of having the Audience Manager Data Integration Library (DIL) code send a pixel from the page.
+Add the [!UICONTROL Audience Management Module] to [!DNL Adobe Analytics] [!UICONTROL AppMeasurement] to forward [!DNL Analytics] data to Audience Manager instead of having the Audience Manager [!UICONTROL Data Integration Library] ([!UICONTROL DIL]) code send a pixel from the page.
 
 ## Prerequisites {#section_06C407634FCA45079D12E7C6CFA13169}
 
 In addition to implementing the code described in this document, you must also:
 
 * Implement the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
-* Enable [!UICONTROL Server-Side Forwarding] for report suites in the Adobe Analytics Admin Console.
+* Enable [!UICONTROL Server-Side Forwarding] for report suites in the [!UICONTROL Adobe Analytics Admin Console].
 
 ## Implementation {#section_36DFAE407B1D49E5A21079BF2C6C3627}
 
@@ -64,7 +64,7 @@ The following table defines important variables in the code sample.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> containerNSID </span> </p> </td> 
-   <td colname="col2"> <p>Required. Most customers can just set <span class="codeph"> "containerNSID":0 </span>. However, if your company needs to customize ID syncs with a different container, you can specify that container ID here. </p> </td> 
+   <td colname="col2"> <p>Required. Most customers can just set <span class="codeph"> "containerNSID":0 </span>. However, if your company needs to customize ID syncs with a different container, you can specify that container ID here. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> uuidCookie </span> </p> </td> 
@@ -79,7 +79,7 @@ Your Analytics implementation sends data to Audience Manager after you have:
 
 * Enabled [!UICONTROL Server-Side Forwarding] (talk to your consultant about this feature);
 * Implemented the ID service;
-* Installed the Audience Management Module.
+* Installed the [!UICONTROL Audience Management Module].
 
 This process sends data to [!DNL Audience Manager]:
 
@@ -89,4 +89,4 @@ This process sends data to [!DNL Audience Manager]:
 
 >[!NOTE]
 >
->The variables sent to Audience Manager from Analytics use special prefixes. You need understand and take these prefixes into account when creating Audience Manager traits. For more information on these prefixes, see [Prefix Requirements for Key Variables](../../features/traits/trait-variable-prefixes.md#reference_E6F1E4257F664FC2A797C406BF147ABC).
+>The variables sent to Audience Manager from [!DNL Analytics] use special prefixes. You need understand and take these prefixes into account when creating Audience Manager traits. For more information on these prefixes, see [Prefix Requirements for Key Variables](../../features/traits/trait-variable-prefixes.md#reference_E6F1E4257F664FC2A797C406BF147ABC).

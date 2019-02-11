@@ -15,19 +15,19 @@ Audience Manager requires the `HTTP` server-to-server requests to be digitally s
 
 <!-- digitally_signed_http_requests.xml -->
 
-Using a private key provided by you and shared with [!DNL Audience Manager], we can digitally sign the HTTP requests that are sent between [IRIS](../../../reference/system-components/components-data-action.md#section_1966DC17FD14419E943CEF04F13A005B) and your HTTP server. This ensures:
+Using a private key provided by you and shared with [!DNL Audience Manager], we can digitally sign the `HTTP` requests that are sent between [IRIS](../../../reference/system-components/components-data-action.md#section_1966DC17FD14419E943CEF04F13A005B) and your HTTP server. This ensures:
 
-* **Authenticity**: only the sender that has the private key ( [!UICONTROL IRIS]) can send valid HTTP(S) messages to the partner.
-* **Message integrity**: with this approach, even on HTTP, you are protected from a man in the middle attack where the messages get distorted.
+* **Authenticity**: only the sender that has the private key ([!UICONTROL IRIS]) can send valid `HTTP(S)` messages to the partner.
+* **Message integrity**: with this approach, even on `HTTP`, you are protected from a man in the middle attack where the messages get distorted.
 
 [!UICONTROL IRIS] has built-in support to rotate the keys with zero downtime, as shown in the [Rotating the private key](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md#section_9DDDA6F101784AF0AE7431E99BECAB2A) section below.
 
 ## Information you need to provide {#section_E4A3F5F71908439FA12401C2686A65E6}
 
-For an HTTP real-time server-to-server destination, contact your [!DNL Audience Manager] consultant and specify:
+For an `HTTP` real-time server-to-server destination, contact your [!DNL Audience Manager] consultant and specify:
 
 * The key used to sign the request.
-* The name of the HTTP header that will hold the generated signature (X-Signature in the example header below).
+* The name of the `HTTP` header that will hold the generated signature (X-Signature in the example header below).
 * Optional: the type of hash used for the signature (md5, sha1, sha256).
 
 ```
@@ -46,7 +46,7 @@ POST message content
 1. [!UICONTROL IRIS] creates the `HTTP` message to be sent to the partner.
 1. [!UICONTROL IRIS] creates a signature based on the `HTTP` message and the private key communicated by the partner.
 1. [!UICONTROL IRIS] sends the `HTTP(S)` request to the partner. This message contains the signature and the actual message, as seen in the example above.
-1. The partner server receives the HTTP(S) request. It reads the message body and the signature received from [!UICONTROL IRIS].
+1. The partner server receives the `HTTP(S)` request. It reads the message body and the signature received from [!UICONTROL IRIS].
 1. Based on the message body received and the private key, the partner server recalculates the signature. See the [How to calculate the signature](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md#section_FFEC0FA7C3274AC5AB492ADD77128E9D) section just below on how to achieve this.
 1. Compare the signature created on the partner server (receiver) with the one received from [!UICONTROL IRIS] (sender).
 1. If the signatures match, then the **authenticity** and **message integrity** have been validated. Only the sender, who has the private key, can send a valid signature (authenticity). Moreover, a man in the middle can't modify the message and generate a new valid signature, since they don't have the private key (message integrity).
@@ -55,7 +55,7 @@ POST message content
 
 ## How to calculate the signature {#section_FFEC0FA7C3274AC5AB492ADD77128E9D}
 
-[!DNL HMAC] (Hash-based message authentication code) is the method used by [!UICONTROL IRIS] for message signing. Implementations and libraries are available basically in every programming language. [!DNL HMAC] has no known extension attacks. See an example in Java below:
+[!DNL HMAC] (Hash-based message authentication code) is the method used by [!UICONTROL IRIS] for message signing. Implementations and libraries are available basically in every programming language. [!DNL HMAC] has no known extension attacks. See an example in [!DNL Java] below:
 
 ```
 // Message to be signed.
@@ -91,6 +91,6 @@ For security reasons, it's recommended to periodically rotate the private key. I
 
 ## Data used for signing {#section_E68FCC330B3D416FAAB0C4E385EAB116}
 
-For `GET` type destinations, the message used for signing will be the *REQUEST_PATH + QUERY STRING* (e.g. */from-aam-s2s?sids=1,2,3*). IRIS does not take into account the hostname or HTTP headers - these can be modified / misconfigured along the path or reported incorrectly.
+For `GET` type destinations, the message used for signing will be the *REQUEST_PATH + QUERY STRING* (e.g. */from-aam-s2s?sids=1,2,3*). IRIS does not take into account the hostname or `HTTP` headers - these can be modified / misconfigured along the path or reported incorrectly.
 
 For `POST` type destinations, the message used for signing is the *REQUEST BODY*. Again, headers or other request parameters are ignored.

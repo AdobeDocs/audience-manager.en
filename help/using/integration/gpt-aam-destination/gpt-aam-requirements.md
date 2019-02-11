@@ -7,7 +7,7 @@ title: Requirements and Methods of Sending Segments to DFP Using Google Publishe
 uuid: 4b2ea81c-29bb-42d3-93d3-1d8e677790b6
 ---
 
-# Requirements and Methods of Sending Segments to DFP Using Google Publisher Tags (GPT) {#requirements-and-methods-of-sending-segments-to-dfp-using-google-publisher-tags-gpt}
+# Requirements and Methods of Sending Segments to [!DNL DFP] Using [!DNL Google Publisher Tags] ([!DNL GPT]) {#requirements-and-methods-of-sending-segments-to-dfp-using-google-publisher-tags-gpt}
 
 You can send qualified segments to DFP either through a client-side or through a server-side integration. Requirements and related information about both methods are listed below.
 
@@ -26,15 +26,15 @@ For a client-side integration, you need to set up a [!DNL GPT] destination in Au
 
 * **Implement Cookie Checking Code:** Wrap the [!DNL GPT] `.setTargeting` API method in our recommended [cookie checking code](../../integration/gpt-aam-destination/gpt-aam-modify-api.md#concept_276DF2F702BE4D6180C855A7DE304097). This code helps prevent errors by looking for valid AAM cookies before the `.setTargeting` method gets invoked.
 
-* **Add the AamGpt Function:** The `AamGpt` code captures data from Audience Manager cookies and sends it to [!DNL GPT]. Place the [Audience Manager Code for Google Publisher Tags](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md#concept_C47C21701F0F437E823BABF4EB89E1DB) ( `AamGpt`) at the top of the page or inside the `<head>` code block.
+* **Add the `AamGpt` Function:** The `AamGpt` code captures data from Audience Manager cookies and sends it to [!DNL GPT]. Place the [Audience Manager Code for Google Publisher Tags](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md#concept_C47C21701F0F437E823BABF4EB89E1DB) ( `AamGpt`) at the top of the page or inside the `<head>` code block.
 
   >[!NOTE]
   >
   >The `AamGpt` function is not required if you use your own code to read Audience Manager cookie data.
 
-* **Send Delivery Logs to Audience Manager:** If you want a segment delivery report (optional), provide Audience Manager with a daily log that contains impression-level delivery data. The data can be in a raw format, but each record must contain the Audience Manager UUID. Audience Manager can pick up or receive these via FTP.
+* **Send Delivery Logs to Audience Manager:** If you want a segment delivery report (optional), provide Audience Manager with a daily log that contains impression-level delivery data. The data can be in a raw format, but each record must contain the Audience Manager UUID. Audience Manager can pick up or receive these via [!DNL FTP].
 
-### Only Qualified Segments are Sent to GPT
+### Only Qualified Segments are Sent to [!DNL GPT]
 
 The amount of data passed in to [!DNL GPT] depends on how many segments a particular user qualifies for. For example, say you set up 100 Audience Manager segments. If a site visitor qualifies for five of them, then only those five segments get sent to [!DNL GPT] (not all 100).
 
@@ -48,7 +48,7 @@ Talk to your Audience Manager consultant or Customer Care if you want to set up 
 
 >[!IMPORTANT]
 >
->If your web pages are running the [Accelerated Media Pages](https://www.ampproject.org/) ( [!DNL AMP]) library, you must use the server-side integration with Audience Manager. If you are on [!DNL AMP] and have a client-side integration with [!DNL AMP], you must migrate to the server-side integration. Please contact your Audience Manager consultant or Customer Care to discuss migration.
+>If your web pages are running the [Accelerated Media Pages](https://www.ampproject.org/) ([!DNL AMP]) library, you must use the server-side integration with Audience Manager. If you are on [!DNL AMP] and have a client-side integration with [!DNL AMP], you must migrate to the server-side integration. Please contact your Audience Manager consultant or Customer Care to discuss migration.
 
 >[!MORE_LIKE_THIS]
 >

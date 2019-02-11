@@ -111,4 +111,4 @@ The credentials presented by the partner and the tokens obtained by [!DNL Audien
 
 ### SSL is required
 
-SSL must be used in order to maintain a secure authentication process. All requests, including the ones used to obtain and use the tokens must use HTTPS endpoints.
+SSL must be used in order to maintain a secure authentication process. All requests, including the ones used to obtain and use the tokens must use `HTTPS` endpoints.

@@ -9,7 +9,7 @@ uuid: 69e3a8b3-8465-4f4c-8005-8a9ff15ae19a
 
 # Sample Message to Partners after Inbound Processing{#sample-message-to-partners-after-inbound-processing}
 
-Whenever an inbound Server-to-Server file is processed, a receipt is sent via email to partner solutions and, if configured, to the partner.
+Whenever an inbound [!UICONTROL Server-to-Server] file is processed, a receipt is sent via email to partner solutions and, if configured, to the partner.
 
 <!-- 
 
@@ -17,7 +17,7 @@ r_inbound_message.xml
 
  -->
 
-The following example is a sample email message. The table below the message describes the various lines in the message. 
+The following example is a sample email message. The table below the message describes the various lines in the message.
 
 <table id="table_F579C2278A044213BFCEF97F3BEC2C0C"> 
  <tbody> 

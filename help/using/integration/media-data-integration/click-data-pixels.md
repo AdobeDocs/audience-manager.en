@@ -9,13 +9,13 @@ uuid: 7c3797f7-9674-493d-972b-38be0584fede
 
 # Capturing Campaign Click Data via Pixel Calls {#capturing-campaign-click-data-via-pixel-calls}
 
-Click tracking enables measurement of visitor engagement throughout your campaign, as it records click-based activity for third-party creatives. Similar to impressions collection, an event call is sent to the Audience Manager data collection servers (DCS) for processing. The visitor is then redirected to the intended web address.
+Click tracking enables measurement of visitor engagement throughout your campaign, as it records click-based activity for third-party creatives. Similar to impressions collection, an event call is sent to the Audience Manager data collection servers ([!UICONTROL DCS]) for processing. The visitor is then redirected to the intended web address.
 
 ## Requirements
 
 Click tracking calls require the following parameters:
 
-* `d_event=click`: A key-value pair that identifies an event call as a click event. 
+* `d_event=click`: A key-value pair that identifies an event call as a click event.
 * `d_rd= *`redirect URL`*`: A key-value pair that contains an encoded redirect URL.
 
 In addition, the call can contain key-value pairs that can be used for trait qualification or to provide data and metadata for other reports.

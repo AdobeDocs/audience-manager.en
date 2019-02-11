@@ -14,7 +14,7 @@ This procedure requires an [!DNL AdWords] remarketing list, pixel code, and an A
 To set up an [!DNL AdWords] remarketing list as an [!DNL Audience Manager] URL destination:
 
 1. In [!DNL Google AdWords], [create a website re-marketing list](https://support.google.com/adwords/answer/2454064?hl=en).
-1. Copy the pixel code from the [dynamic remarketing tag](https://support.google.com/adwords/answer/3103357). Do not copy the code this example.Your pixel code / image request will look similar to this:
+1. Copy the pixel code from the [dynamic remarketing tag](https://support.google.com/adwords/answer/3103357). Do not copy the code this example. Your pixel code / image request will look similar to this:
 
    ```
    <img height="1" width="1" style="border-style:none;" alt=""

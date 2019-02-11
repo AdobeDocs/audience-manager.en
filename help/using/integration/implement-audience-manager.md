@@ -213,21 +213,21 @@ Tasks for this phase can include:
 
 ## Code Implementation {#concept_D54ABC567FB14135AA82CCA6FEDF8AA2}
 
-Though the deployment process may seem complex, the code implementation is as simple as adding a few lines of JavaScript adjacent to the closing `</body>` tag of your website.
+Though the deployment process may seem complex, the code implementation is as simple as adding a few lines of [!DNL JavaScript] adjacent to the closing `</body>` tag of your website.
 
 <!-- c_code.xml -->
 
 ### Deployment
 
-The Audience Manager code snippet calls Akamai to download the business rules set up previously in the user interface. Furthermore, client browsers cache this information, which helps reduce page and server load times. Our code and data collection methodology is designed to maintain the user experience across your inventory.
+The Audience Manager code snippet calls [!DNL Akamai] to download the business rules set up previously in the user interface. Furthermore, client browsers cache this information, which helps reduce page and server load times. Our code and data collection methodology is designed to maintain the user experience across your inventory.
 
 ### Participants
 
-Partner Solutions can work directly with your technical teams to help deploy code, address final concerns, and fulfill other requirements. 
+Partner Solutions can work directly with your technical teams to help deploy code, address final concerns, and fulfill other requirements.
 
 ## Post-Implementation Support {#concept_600952DE5E2C47A290C118F55FEDC897}
 
-Our collaborative efforts don'’t stop with final deployment. After implementation is complete, our Account Management team takes over.
+Our collaborative efforts don't stop with final deployment. After implementation is complete, our Account Management team takes over.
 
 <!-- c_post_implement_support.xml -->
 

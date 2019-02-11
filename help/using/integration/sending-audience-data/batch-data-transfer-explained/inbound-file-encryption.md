@@ -7,15 +7,11 @@ title: File PGP Encryption for Inbound Data Types
 uuid: 89caace1-0259-48fc-865b-d525ec7822f7
 ---
 
-# File PGP Encryption for Inbound Data Types{#file-pgp-encryption-for-inbound-data-types}
+# File [!DNL PGP] Encryption for Inbound Data Types{#file-pgp-encryption-for-inbound-data-types}
 
-As an option, you can encrypt data files with PGP encryption when sending them to Audience Manager.
+As an option, you can encrypt data files with [!DNL PGP] encryption when sending them to Audience Manager.
 
-<!-- 
-
-c_encryption.xml
-
- -->
+<!-- c_encryption.xml -->
 
 >[!IMPORTANT]
 >
@@ -23,16 +19,16 @@ c_encryption.xml
 
 Follow the steps outlined below to encrypt inbound data files.
 
-1. Download the [Audience Manager public key](./assets/adobe_pgp.pub). 
+1. Download the [Audience Manager public key](./assets/adobe_pgp.pub).
 1. Import the public key to your trusted store.
 
 For example, if you use GPG, the command could be similar to the following:
 
-[!DNL gpg --import adobe_pgp.pub] 
+[!DNL `gpg --import adobe_pgp.pub`]
 
 1. Validate that the key has been imported correctly by running the following command:
 
-    [!DNL gpg --list-keys]
+    [!DNL `gpg --list-keys`]
 
     You should see a message similar to the following:
 
@@ -45,11 +41,10 @@ For example, if you use GPG, the command could be similar to the following:
 
 1. Encrypt the inbound data using the following command:
 
-   [!DNL gpg --recipient "Adobe AudienceManager" --cipher-algo AES --output $output.gpg --encrypt $inbound]
+   [!DNL `gpg --recipient "Adobe AudienceManager" --cipher-algo AES --output $output.gpg --encrypt $inbound`]
 
-   All encrypted data must use [!DNL .pgp] or [!DNL .gpg] as the file extension (e.g. [!DNL ftp_dpm_100_123456789.sync.pgp] or [!DNL ftp_dpm_100_123456789.overwrite.gpg]).
+   All encrypted data must use [!DNL `.pgp`] or [!DNL `.gpg`] as the file extension (e.g. [!DNL `ftp_dpm_100_123456789.sync.pgp`] or [!DNL `ftp_dpm_100_123456789.overwrite.gpg`]).
 
    >[!NOTE]
    >
-   >Audience Manager supports only the Advanced Encryption Standard (AES) data-encryption algorithm. Audience Manager supports any key size.
-
+   >Audience Manager supports only the [!DNL Advanced Encryption Standard (AES)] data-encryption algorithm. Audience Manager supports any key size.

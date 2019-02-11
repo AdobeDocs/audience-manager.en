@@ -13,13 +13,9 @@ An overview for technical and non-technical customers who want to bring data fro
 
 ## Advantages
 
-<!-- 
+<!-- c_offline_to_online.xml -->
 
-c_offline_to_online.xml
-
- -->
-
-You can make data from other systems available in Audience Manager. Our system can help you unlock value and leverage user data that you've collected previously. This includes information about purchases, customer surveys, registration data, CRM databases, etc. While each integration presents its own challenges, they all share these common steps. Review this material to help reduce the effort required to bring your offline data online.
+You can make data from other systems available in Audience Manager. Our system can help you unlock value and leverage user data that you've collected previously. This includes information about purchases, customer surveys, registration data, [!DNL CRM] databases, etc. While each integration presents its own challenges, they all share these common steps. Review this material to help reduce the effort required to bring your offline data online.
 
 ## Step 1: Synchronize User IDs
 
@@ -27,8 +23,8 @@ During synchronization, Audience Manager assigns unique IDs to clients and their
 
 Important considerations about this step:
 
-* **Client ID placement:** Audience Manager needs to know where your client ID appears on your website (e.g., is it stored in a cookie, an Analytics variable, in page code, etc.). 
-* **Exclude PII:** User IDs must not contain personally identifiable information (PII). 
+* **Client ID placement:** Audience Manager needs to know where your client ID appears on your website (e.g., is it stored in a cookie, an Analytics variable, in page code, etc.).
+* **Exclude [!DNL PII]:** User IDs must not contain personally identifiable information ([!DNL PII]).
 * **Case and content sensitivity:** During a real-time data sync, user IDs captured from your site by Audience Manager must correspond to IDs passed in from your offline repository. For example, if offline records hold information about User123, but your site renders that ID as USER123, Audience Manager sees these as different visitors. As a result, online information for this visitor cannot be associated with the corresponding records in your offline database. IDs must match exactly.
 
 See [ID Synchronization for Inbound Data Transfers](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md#concept_8749F04CACF64B6CA2132D9F9887364A).
@@ -56,11 +52,11 @@ File names and content follow strict guidelines. You *must* name and organize da
 
 ## Online Data is Available for Offline Marketing Efforts
 
-When you bring offline data online, you can still use this information for offline campaigns. To do this, Audience Manager exports trait and segment information to an FTP or Amazon S3 location of your choice. Contact your Partner Solutions manager for additional information or assistance.
+When you bring offline data online, you can still use this information for offline campaigns. To do this, Audience Manager exports trait and segment information to an [!DNL FTP] or [!DNL Amazon S3] location of your choice. Contact your Partner Solutions manager for additional information or assistance.
 
 ## Environments
 
-Audience Manager provides the following environments for file drop-off: 
+Audience Manager provides the following environments for file drop-off:
 
 <table id="table_A61AA64578944B23B5A7355F2A76E882"> 
  <thead> 
@@ -94,4 +90,4 @@ Audience Manager provides the following environments for file drop-off:
 
 ## Further Technical Reading
 
-Systems engineers, developers, or technical/implementation teams should review [Real-Time Inbound Data Integration](../../../integration/sending-audience-data/real-time-data-integration/real-time-data-transfer-explained.md) and [Batch Data Transfer Process Described](../../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md#concept_EC5B2B3B5ED443F0B271400C08B263D3). These sections provide details about transfer protocols, file content, and file name requirements. 
+Systems engineers, developers, or technical/implementation teams should review [Real-Time Inbound Data Integration](../../../integration/sending-audience-data/real-time-data-integration/real-time-data-transfer-explained.md) and [Batch Data Transfer Process Described](../../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md#concept_EC5B2B3B5ED443F0B271400C08B263D3). These sections provide details about transfer protocols, file content, and file name requirements.

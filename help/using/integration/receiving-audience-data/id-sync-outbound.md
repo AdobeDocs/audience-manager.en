@@ -9,29 +9,25 @@ uuid: f3849be8-1094-47db-9296-7482f020af18
 
 # ID Synchronization for Outbound Data Transfers{#id-synchronization-for-outbound-data-transfers}
 
-Describes the syntax and parameters used in the initial HTTP call to synchronize user IDs between Audience Manager and a third-party data provider. Contact your Adobe Audience Manager consultant before attempting your first ID synchronization.
+Describes the syntax and parameters used in the initial `HTTP` call to synchronize user IDs between Audience Manager and a third-party data provider. Contact your Adobe Audience Manager consultant before attempting your first ID synchronization.
 
-<!-- 
+<!-- c_id_sync_out.xml -->
 
-c_id_sync_out.xml
-
- -->
-
-**Purpose of ID Synchronization**
+## Purpose of ID Synchronization
 
 ID synchronization is the first step in the outbound, asynchronous data transfer process. In this step, [!DNL Audience Manager] and the vendor compare and match IDs for their respective site visitors. For example, an [!DNL Audience Manager] customer may know a user by ID 123. However, your data partner could identify this user with ID 456. The synchronization process allows [!DNL Audience Manager] and a data vendor to reconcile these different IDs and identify users in their respective systems. Once complete, [!DNL Audience Manager] and the third-party data provider should have corresponding IDs for each unique user seen on our networks.
 
-**URL Syntax**
+## URL Syntax
 
-In an ID exchange, a properly formatted URL string should look like this: 
+In an ID exchange, a properly formatted URL string should look like this:
 
 ```
 https://dpm.demdex.net/ibs:dpid=<VENDOR_ID>&dpuuid=<VENDOR_UUID>&redir=<REDIRECT_URL>
 ```
 
-**URL Parameters**
+## URL Parameters
 
-The URL for your inbound ID synchronization call should contain variables described in the table below. 
+The URL for your inbound ID synchronization call should contain variables described in the table below.
 
 >[!NOTE]
 >

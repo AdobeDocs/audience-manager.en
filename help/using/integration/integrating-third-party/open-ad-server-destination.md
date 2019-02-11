@@ -7,21 +7,21 @@ title: OAS as an Audience Manager Destination
 uuid: 5891a063-5a4b-4ea7-865f-b24e17ca735f
 ---
 
-# OAS as an Audience Manager Destination {#oas-as-an-audience-manager-destination}
+# [!DNL OAS] as an Audience Manager Destination {#oas-as-an-audience-manager-destination}
 
 Set up [!DNL Open Ad Server] as a destination and send Audience Manager data to that platform.
 
 ## [!DNL OAS] Destination Requirements {#concept_B999EF0522C14FF7BB55A8465D29EE0C}
 
-Standards for code placement, supported key-value formats, reports, and the type of segment data sent to OAS.
+Standards for code placement, supported key-value formats, reports, and the type of segment data sent to [!DNL OAS].
 
 <!-- aam-oas-requirements.xml -->
 
 This destination type requires the following:
 
-* **DIL:** Data Integration Library code should be deployed on your inventory. DIL helps eliminate the need to write special code for data collection, integration, reading cookie values, and recovering page data.
-* **get_aamCookie Function:** Code that captures the Audience Manager user ID and cookie data. Place [this code](../../features/destinations/get-aam-cookie-code.md#reference_0102FABCC96547DE81DFCA0600BBEFD3) on the top of the page or inside the `<head>` codeblock.
-* **Send Delivery Logs to Audience Manager:** If you want a segment delivery report (optional), provide Audience Manager with a daily log that contains impression-level delivery data. The data can be in a raw format, but each record must contain the Audience Manager UUID. Audience Manager can pick up or receive these via FTP.
+* **[!UICONTROL DIL]:** [!UICONTROL Data Integration Library] code should be deployed on your inventory. [!UICONTROL DIL] helps eliminate the need to write special code for data collection, integration, reading cookie values, and recovering page data.
+* **`get_aamCookie` Function:** Code that captures the Audience Manager user ID and cookie data. Place [this code](../../features/destinations/get-aam-cookie-code.md#reference_0102FABCC96547DE81DFCA0600BBEFD3) on the top of the page or inside the `<head>` codeblock.
+* **Send Delivery Logs to Audience Manager:** If you want a segment delivery report (optional), provide Audience Manager with a daily log that contains impression-level delivery data. The data can be in a raw format, but each record must contain the Audience Manager UUID. Audience Manager can pick up or receive these via [!DNL FTP].
 
 ### Cookie Format and Key-Value Data
 
@@ -47,7 +47,7 @@ Create a cookie-based destination for [!DNL OAS] in Audience Manager.
 
 <!-- aam-oas-destination-setup.xml -->
 
-In Audience Manager, a *destination* is any other system (ad server, DSP, ad network, etc.) that you want to share data with. [!UICONTROL Destination Builder] provides the tools that let you create and manage these data delivery processes. Audience Manager destination features are located in *Audience Data > Destinations*. To get started, click **[!UICONTROL Add New Destination]** and follow the steps below.
+In Audience Manager, a *destination* is any other system (ad server, [!DNL DSP], ad network, etc.) that you want to share data with. [!UICONTROL Destination Builder] provides the tools that let you create and manage these data delivery processes. Audience Manager destination features are located in *Audience Data > Destinations*. To get started, click **[!UICONTROL Add New Destination]** and follow the steps below.
 
 ### Step 1: Basic Information
 
@@ -85,10 +85,10 @@ Modify [!DNL OAS] settings to work with Audience Manager segment data.
 
 To set up [!DNL OAS]
 
-* Install DIL code across your site.
+* Install [!UICONTROL DIL] code across your site.
 * Create OAS as a cookie destination in Audience Manager.
 * Place the `get_aamCookie` function at the top of the page, ideally within the `<head>` codeblock. The `get_aamCookie` code is available [here](../../features/destinations/get-aam-cookie-code.md#reference_0102FABCC96547DE81DFCA0600BBEFD3).
-* Modify your ad tag to call the `get_aamCookie` function and include the cookie name you provided when setting up the OAS destination. For example, if you named the cookie `test_cookie`, then the ad tag should call `get_aamCookie` and reference the cookie name.
+* Modify your ad tag to call the `get_aamCookie` function and include the cookie name you provided when setting up the [!DNL OAS] destination. For example, if you named the cookie `test_cookie`, then the ad tag should call `get_aamCookie` and reference the cookie name.
 * Your ad tag could look similar to the example below.
 
   ```js
