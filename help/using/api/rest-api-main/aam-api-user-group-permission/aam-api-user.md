@@ -109,7 +109,7 @@ r_rest_api_user_update.xml
 }
 ```
 
-Returns `409 Conflict` if the username is already taken. 
+Returns `409 Conflict` if the username is already taken.
 
 ## Update Logged-In User {#reference_FFDBAF743D7848ADBA2D659F487E5063}
 
@@ -154,7 +154,7 @@ r_rest_api_user_update_self.xml
 }
 ```
 
-Returns `409 Conflict` if the username is already taken. 
+Returns `409 Conflict` if the username is already taken.
 
 ## Update Logged-In User Password {#reference_FD6C65E07E6A4D619C466328BC46574A}
 
@@ -190,7 +190,7 @@ r_rest_api_user_password_reset.xml
 
 >[!NOTE]
 >
->Whereas most API methods are only callable by partner admins, this method is callable by non-admin users.
+>Whereas most [!UICONTROL API] methods are only callable by partner admins, this method is callable by non-admin users.
 
 ### Request
 
@@ -238,7 +238,7 @@ r_rest_api_user_get_self.xml
 
 >[!NOTE]
 >
->Whereas most API methods are only callable by partner admins, this method is callable by non-admin users.
+>Whereas most [!UICONTROL API] methods are only callable by partner admins, this method is callable by non-admin users.
 
 ### Request
 

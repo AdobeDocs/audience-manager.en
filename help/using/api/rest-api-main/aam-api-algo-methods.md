@@ -291,7 +291,7 @@ r_get_all_models.xml
 
 ### Optional Query Parameters
 
-You can use these optional parameters with API methods that return *all* properties for an object. Set these options in the request string when passing that query in to the API. See [Optional Parameters](../../api/rest-api-main/aam-api-getting-started.md#concept_BB1E73AE736F4F54830E6CAF28089608).  
+You can use these optional parameters with [!UICONTROL API] methods that return *all* properties for an object. Set these options in the request string when passing that query in to the [!UICONTROL API]. See [Optional Parameters](../../api/rest-api-main/aam-api-getting-started.md#concept_BB1E73AE736F4F54830E6CAF28089608).  
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -436,7 +436,7 @@ r_get_traits_by_accuracy.xml
 
 ### Optional Query Parameters
 
-You can use these optional parameters with API methods that return *all* properties for an object. Set these options in the request string when passing that query in to the API. See also [Optional Parameters](../../api/rest-api-main/aam-api-getting-started.md#concept_BB1E73AE736F4F54830E6CAF28089608).  
+You can use these optional parameters with [!UICONTROL API] methods that return *all* properties for an object. Set these options in the request string when passing that query in to the [!UICONTROL API]. See also [Optional Parameters](../../api/rest-api-main/aam-api-getting-started.md#concept_BB1E73AE736F4F54830E6CAF28089608).  
 
 <table id="table_0627C325E6FF4FE28ED8A0458C7ECB48"> 
  <thead> 

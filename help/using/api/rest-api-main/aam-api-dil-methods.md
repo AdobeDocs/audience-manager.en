@@ -7,13 +7,9 @@ title: Data Integration Library API Methods
 uuid: 507e7afd-3ae7-44de-98b0-589d699c453b
 ---
 
-# Data Integration Library API Methods {#data-integration-library-api-methods}
+# [!UICONTROL Data Integration Library] [!UICONTROL API] Methods {#data-integration-library-api-methods}
 
 Methods that let you work programmatically with the [!UICONTROL Data Integration Library] ([!UICONTROL DIL].
-
-## Data Integration Library API Methods {#concept_7E58F1CAD0D6464280D6181256B5FF41}
-
-Methods that let you work programmatically with the [!UICONTROL Data Integration Library] ([!UICONTROL DIL]).
 
 <!--
 c_data_integr_library_api.xml

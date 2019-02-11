@@ -17,7 +17,7 @@ c_rest_api_overview.xml
 
 ## API Requirements and Recommendations {#concept_A7FAC9443CF34974A873E6B787616421}
 
-Things you must and should do when working with the Audience Manager APIs.
+Things you must and should do when working with the Audience Manager [!UICONTROL API]s.
 
 ## Requirements {#section_42B2E4780AD440C58A25ED0FBC50B78A}
 
@@ -32,24 +32,24 @@ Note the following when working with [Audience Manager API](https://bank.demdex.
 
 * **Requests and responses:** Send requests as a properly formatted JSON object. [!DNL Audience Manager] responds with `JSON` formatted data. Server responses can contain requested data, a status code, or both.
 
-* **Access:** Your [!DNL Audience Manager] consultant will provide you with a client ID and key that lets you make [!DNL API] requests.
+* **Access:** Your [!DNL Audience Manager] consultant will provide you with a client ID and key that lets you make [!UICONTROL API] requests.
 
-* **Documentation and code samples:** Text in *italics* represents a variable that you provide or pass in when making or receiving [!DNL API] data. Replace *italicised* text with your own code, parameters, or other required information.
+* **Documentation and code samples:** Text in *italics* represents a variable that you provide or pass in when making or receiving [!UICONTROL API] data. Replace *italicised* text with your own code, parameters, or other required information.
 
-## Recommendations: Create a Generic API User {#section_F520E4C007904BB78EC694E5A9A46E0A}
+## Recommendations: Create a Generic [!UICONTROL API] User {#section_F520E4C007904BB78EC694E5A9A46E0A}
 
-We recommend you create a separate, technical user account for working with the Audience Manager [!DNL APIs]. This is a generic account that is not tied to or associated with a specific user in your organization. This type of API user account helps you accomplish 2 things:
+We recommend you create a separate, technical user account for working with the Audience Manager [!UICONTROL API]s. This is a generic account that is not tied to or associated with a specific user in your organization. This type of [!UICONTROL API] user account helps you accomplish 2 things:
 
-* Identify what service is calling the [!DNL API] (e.g., calls from your apps that use our APIs or from other tools that make API requests). 
-* Provide uninterrupted access to the APIs. An account tied to a specific person may be deleted when they leave your company. This will prevent you from working with the available API code. A generic account that's not tied to a particular employee helps you avoid this problem.
+* Identify what service is calling the [!UICONTROL API] (e.g., calls from your apps that use our [!UICONTROL API]s or from other tools that make [!UICONTROL API] requests).
+* Provide uninterrupted access to the [!UICONTROL API]s. An account tied to a specific person may be deleted when they leave your company. This will prevent you from working with the available [!UICONTROL API] code. A generic account that's not tied to a particular employee helps you avoid this problem.
 
-As an example or use case for this type of account, let's say you want to change a lot of segments at once with the [Bulk Management Tools](../../reference/bulk-management-tools/bulk-management-intro.md). Well, to do this, your user account needs [!DNL API] access. Rather than add permissions to a specific user, create a non-specific, [!DNL API] user account that has the appropriate credentials, key, and secret to make [!DNL API] calls. This is also useful if you develop your own applications that use the Audience Manager [!DNL API]s.
+As an example or use case for this type of account, let's say you want to change a lot of segments at once with the [Bulk Management Tools](../../reference/bulk-management-tools/bulk-management-intro.md). Well, to do this, your user account needs [!UICONTROL API] access. Rather than add permissions to a specific user, create a non-specific, [!UICONTROL API] user account that has the appropriate credentials, key, and secret to make [!UICONTROL API] calls. This is also useful if you develop your own applications that use the Audience Manager [!UICONTROL API]s.
 
-Work with your Audience Manager consultant to set up a generic, [!DNL API]-only user account.
+Work with your Audience Manager consultant to set up a generic, [!UICONTROL API]-only user account.
 
 ## [!DNL OAuth] Authentication {#concept_426EEF5C102049B08C8ECF90FCB41796}
 
-The Audience Manager REST API follows [!DNL OAuth] 2.0 standards for token authentication and renewal. The sections below describe how to authenticate and start working with the APIs.
+The Audience Manager [!UICONTROL REST API] follows [!DNL OAuth] 2.0 standards for token authentication and renewal. The sections below describe how to authenticate and start working with the [!UICONTROL API]s.
 
 ## Password Authentication Workflow {#section_E8C9602AFAAC45D782D72E8ED7F5EFB1}
 
@@ -65,9 +65,9 @@ Password authentication secure access our [!DNL REST API]. The following table o
 
 ### Step 1: Request API Access
 
-Contact your Partner Solutions manager. They will provide you with an API client ID and secret. The ID and secret authenticate you to the API.
+Contact your Partner Solutions manager. They will provide you with an [!UICONTROL API] client ID and secret. The ID and secret authenticate you to the [!UICONTROL API].
 
-Note: If you'd like to receive a refresh token, specify that when you request API access.
+Note: If you'd like to receive a refresh token, specify that when you request [!UICONTROL API] access.
 
 ### Step 2: Request the Token
 
@@ -132,31 +132,31 @@ The [!DNL JSON] response contains your new access token. The response should loo
 
 ## Authorization Code and Implicit Authentication {#section_315C16DF045C4E73B81426CD98EA730B}
 
-The Audience Manager [!DNL REST API] supports authorization code and implicit authentication. To use these access methods, your users need to log in to `https://api.demdex.com/oauth/authorize` to get access and refresh tokens.
+The Audience Manager [!UICONTROL REST API] supports authorization code and implicit authentication. To use these access methods, your users need to log in to `https://api.demdex.com/oauth/authorize` to get access and refresh tokens.
 
 >[!MORE_LIKE_THIS]
 >
 >* [OAuth 2.0](https://oauth.net/2/)
 >* [OAuth 2 Simplified](https://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified#browser-based-apps)
 
-## Make Authenticated API Requests {#concept_1A4B53C4554C4B0396499997EECCBDB9}
+## Make Authenticated [!UICONTROL API] Requests {#concept_1A4B53C4554C4B0396499997EECCBDB9}
 
-Requirements for calling API methods after you receive an authentication token.
+Requirements for calling [!UICONTROL API] methods after you receive an authentication token.
 
 <!--
 c_oauth_call_methods.xml
 -->
 
-To make calls against the available API methods:
+To make calls against the available [!UICONTROL API] methods:
 
 * In the `HTTP` header, set `Authorization: Bearer <token>`.
-* Call the required API method.
+* Call the required [!UICONTROL API] method.
 
 >[!MORE_LIKE_THIS]
 >
 >* [OAuth Authentication](../../api/rest-api-main/aam-api-getting-started.md#concept_426EEF5C102049B08C8ECF90FCB41796)
 
-## Optional API Query Parameters {#concept_BB1E73AE736F4F54830E6CAF28089608}
+## Optional [!UICONTROL API] Query Parameters {#concept_BB1E73AE736F4F54830E6CAF28089608}
 
 Set the optional parameters available to methods that return all properties for an object.
 
@@ -164,28 +164,28 @@ Set the optional parameters available to methods that return all properties for 
 c_rest_api_optional.xml
 -->
 
-You can use these optional parameters with API methods that return *all* properties for an object. Set these options in the request string when passing that query in to the API.
+You can use these optional parameters with [!UICONTROL API] methods that return *all* properties for an object. Set these options in the request string when passing that query in to the [!UICONTROL API].
 
 | Parameter | Description |
 |--- |--- |
 |page|Returns results by page number. Numbering starts at 0.|
 |pageSize|Sets the number of response results returned by the request (10 is default).|
-|sortBy|Sorts and returns results according to the specified JSON property.|
+|sortBy|Sorts and returns results according to the specified [!DNL JSON] property.|
 |descending|Sorts and returns results in descending order. Ascending is default.|
-|search|Returns results based on the specified string you want to use as a search parameter. For example, let's say you want to find results for all models that have the word "Test" in any of the value fields for that item. Your sample request could look like this:   GET `https://api.demdex.com/v1/models/?search=Test`.  You can search on any value returned by a "get all" method.|
+|search|Returns results based on the specified string you want to use as a search parameter. For example, let's say you want to find results for all models that have the word "Test" in any of the value fields for that item. Your sample request could look like this:   `GET https://api.demdex.com/v1/models/?search=Test`.  You can search on any value returned by a "get all" method.|
 |folderId|Returns all the IDs for traits inside the specified folder. Not available to all methods.|
 |permissions|Returns a list of segments based on the specified permission.  READ  is default. Permissions include:<ul><li>`READ` : Return and view information about a segment.</li><li>`WRITE` : Use  `PUT`  to update a segment.</li><li>`CREATE` : Use  `POST`  to create a segment.</li><li>`DELETE` : Delete a segment. Requires access to underlying traits, if any. For example, you'll need rights to delete the traits that belong to a segment if you want to remove it.</li></ul><br>Specify multiple permissions with separate key-value pairs. For example, to return a list of segments with  `READ`  and  `WRITE`  permissions only, pass in  `"permissions":"READ"`, `"permissions":"WRITE"` .|
 |includePermissions|(Boolean) Set to  true  to return your permissions for the segment. Default is  false.|
 
 ### A Note About Page Options
 
-When page information *is not* specified, the request returns plain JSON results in an array. If page information *is* specified, then the returned list is wrapped in a JSON object that contains information about the total result and current page. Your sample request using page options could look similar to this:
+When page information *is not* specified, the request returns plain [!DNL JSON] results in an array. If page information *is* specified, then the returned list is wrapped in a [!DNL JSON] object that contains information about the total result and current page. Your sample request using page options could look similar to this:
 
 ```
 GET https://api.demdex.com/v1/models/?page=1&pageSize=2&search=Test
 ```
 
-## API URLs {#reference_B6E2ECCB46834DF597BBAE3BEBD7BE4D}
+## [!UICONTROL API] URLs {#reference_B6E2ECCB46834DF597BBAE3BEBD7BE4D}
 
 URLs for requests, staging and production environments, and versions.
 
@@ -195,7 +195,7 @@ r_rest_urls.xml
 
 ## Request URLS {#section_2DBA5BD10E8B4E0DBD51BD36055C5013}
 
-The following table lists the request URLs used to pass in API requests, by method.
+The following table lists the request URLs used to pass in [!UICONTROL API] requests, by method.
 
 | API Methods | Request URL |
 |--- |--- |
@@ -213,7 +213,7 @@ The following table lists the request URLs used to pass in API requests, by meth
 
 ## Environments {#section_5B33F1445F9C49C896C4E9240B5F0CCD}
 
-The [!DNL Audience Manager] APIs provide access to different working environments. These environments help you test code against separate databases without affecting live, production data. The following table lists the available API environments and corresponding resource hostnames.
+The [!DNL Audience Manager] [!UICONTROL API]s provide access to different working environments. These environments help you test code against separate databases without affecting live, production data. The following table lists the available [!UICONTROL API] environments and corresponding resource hostnames.
 
 |  Environment  | Hostname  |
 |---|---|
@@ -226,13 +226,13 @@ The [!DNL Audience Manager] APIs provide access to different working environment
 
 ## Versions {#section_473AE7014EE949E7AD868AB357452673}
 
-New versions of these APIs are released on a regular schedule. A new release increments the API version number. The version number is referenced in the request URL as `v<version number>` as shown in the following example:
+New versions of these [!UICONTROL API]s are released on a regular schedule. A new release increments the [!UICONTROL API] version number. The version number is referenced in the request URL as `v<version number>` as shown in the following example:
 
 `https:// <host>/v1/...`
 
 ## Response Codes Defined {#reference_2AC89154A26E49A48E0DDD8DA520757F}
 
-HTTP status codes and response text returned by the Audience Manager REST API.
+`HTTP` status codes and response text returned by the Audience Manager [!UICONTROL REST API].
 
 <!--
 r_api_http_response_codes.xml

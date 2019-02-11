@@ -9,7 +9,7 @@ uuid: 84754960-9ef0-454d-8f5c-33846e2494f6
 
 # [!UICONTROL DCS] Event Call APIs {#dcs-event-call-apis}
 
-Event calls send information to the [!UICONTROL DCS] in a URL string. In a typical Audience Manager deployment, customers use our [!DNL JavaScript] data collection code ([!UICONTROL DIL]) to send data to the [!UICONTROL DCS]. However, sometimes customers cannot put our [!DNL JavaScript] code on their pages. If company policies or other technical issues prevent you from placing our [!DNL JavaScript] code on your pages, you can still work with Audience Manager to send and return data from [!UICONTROL DCS] with these event call APIs.
+Event calls send information to the [!UICONTROL DCS] in a URL string. In a typical Audience Manager deployment, customers use our [!DNL JavaScript] data collection code ([!UICONTROL DIL]) to send data to the [!UICONTROL DCS]. However, sometimes customers cannot put our [!DNL JavaScript] code on their pages. If company policies or other technical issues prevent you from placing our [!DNL JavaScript] code on your pages, you can still work with Audience Manager to send and return data from [!UICONTROL DCS] with these event call [!UICONTROL API]s.
 
 ## Getting Started {#section_8C67D1FCC3BC4A6FA98282589E709414}
 

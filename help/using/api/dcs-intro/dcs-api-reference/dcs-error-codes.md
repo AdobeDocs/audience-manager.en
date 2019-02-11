@@ -100,8 +100,7 @@ In the tables below, *italics* represents a variable placeholder.
   <tr> 
    <td colname="col1"> <p>172 </p> </td> 
    <td colname="col2"> <p>Blocked cookies </p> </td> 
-   <td colname="col3"> <p>Returned when the user's browser blocks third-party cookies. 
-     <userinput></userinput> </p> </td> 
+   <td colname="col3"> <p>Returned when the user's browser blocks third-party cookies.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>173 </p> </td> 

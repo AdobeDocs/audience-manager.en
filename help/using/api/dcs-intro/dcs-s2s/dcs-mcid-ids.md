@@ -55,7 +55,7 @@ Code in *italics* represents a variable placeholder.
 
 ## Working With getMarketingCloudVisitorID {#section_0D6CAAA7A2404EB59274CA35DCB5E65B}
 
-Another way to get the [!UICONTROL visitor ID] is with the `getMarketingCloudVisitorID` function. When invoked, this function queries the [!DNL ID service] and returns an ID. `getMarketingCloudVisitorID` accepts the optional `callback` argument as shown:
+Another way to get the visitor ID is with the `getMarketingCloudVisitorID` function. When invoked, this function queries the [!DNL ID service] and returns an ID. `getMarketingCloudVisitorID` accepts the optional `callback` argument as shown:
 
 `var analyticsID = visitor.getAnalyticsVisitorID(callback)`
 
@@ -65,4 +65,4 @@ Another way to get the [!UICONTROL visitor ID] is with the `getMarketingCloudVis
 
 ## Next Steps {#section_66EF69EF07CB48D487DA5C7A510ABDA0}
 
-Once you have the user and region ID, you can start sending and receiving [!UICONTROL DCS] data. See [Making DCS API Calls](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md#concept_57686178E4174EE1A952E0E51BC8A52C). 
+Once you have the user and region ID, you can start sending and receiving [!UICONTROL DCS] data. See [Making DCS API Calls](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md#concept_57686178E4174EE1A952E0E51BC8A52C).

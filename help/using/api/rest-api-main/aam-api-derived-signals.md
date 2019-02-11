@@ -7,15 +7,15 @@ title: Derived Signals API Methods
 uuid: 698019bc-d7f6-41e0-a78a-1ab0bf0e65a0
 ---
 
-# Derived Signals API Methods {#derived-signals-api-methods}
+# Derived Signals [!UICONTROL API] Methods {#derived-signals-api-methods}
 
-API methods that let you work with derived signals. A derived signal qualifies site visitors for additional traits based on a trait they've already seen.
+[!UICONTROL API] methods that let you work with derived signals. A derived signal qualifies site visitors for additional traits based on a trait they've already seen.
 
 <!--
 c_separator.xml
 -->
 
-For more information about derived signals, see [Derived Signals](../../features/derived-signals.md#concept_36FF7303F39E4748AC048D08F9E371C6). 
+For more information about derived signals, see [Derived Signals](../../features/derived-signals.md#concept_36FF7303F39E4748AC048D08F9E371C6).
 
 ## Create a New Derived Signal {#reference_A27DB94B1F5C4A6AA55CAA301612D4CA}
 
@@ -27,7 +27,7 @@ r_create_new_derived_signal.xml
 
 ### Request
 
-`POST https://api.demdex.com/v1/signals/derived/` 
+`POST https://api.demdex.com/v1/signals/derived/`
 
 ### Sample Request Body
 
@@ -126,7 +126,7 @@ r_return_all_derived_signals.xml
 
 ### Optional Query Parameters
 
-You can use these optional parameters with API methods that return *all* properties for an object. Set these options in the request string when passing that query in to the API. See [Optional Parameters](../../api/rest-api-main/aam-api-getting-started.md#concept_BB1E73AE736F4F54830E6CAF28089608).  
+You can use these optional parameters with [!UICONTROL API] methods that return *all* properties for an object. Set these options in the request string when passing that query in to the [!UICONTROL API]. See [Optional Parameters](../../api/rest-api-main/aam-api-getting-started.md#concept_BB1E73AE736F4F54830E6CAF28089608).  
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 

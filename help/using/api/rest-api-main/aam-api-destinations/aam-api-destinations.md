@@ -7,7 +7,7 @@ title: Destination API Methods
 uuid: 048bcdb9-2b31-46f4-8b80-4ba25bf06640
 ---
 
-# Destination API Methods {#destination-api-methods}
+# Destination [!UICONTROL API] Methods {#destination-api-methods}
 
 Methods that let you work programmatically with destination features.
 

@@ -7,7 +7,7 @@ title: DCS Region API Methods
 uuid: 00b70927-b3b7-46bb-8be1-37c6100ecf80
 ---
 
-# [!UICONTROL DCS] Region API Methods {#dcs-region-api-methods}
+# [!UICONTROL DCS] Region [!UICONTROL API] Methods {#dcs-region-api-methods}
 
 Methods that let you programmatically list Audience Manager [!UICONTROL DCS] regions.
 
