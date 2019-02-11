@@ -19,7 +19,7 @@ This methodology is often referred to as "pixeling the creative." Those data poi
 >
 >The text styles ( `monospaced text`, *italics*, brackets [ ] ( ), etc.) indicate code elements and options. See [Style Conventions for Code and Text Elements](../../reference/code-style-elements.md#reference_59D0BD0EDB424A65853460D91CCA35D9) for more information.
 
-The event call collects impression and conversion data and sends it to the [!DNL Audience Manager] [data collection servers](https://marketing.adobe.com/resources/help/en_US/aam/c_compcollect.html) (DCS). This process relies on third-party ad servers that place the call in the creative to control what content gets inserted into the code. The third-party ad servers (for example, DFA) can place this code within each ad impression. Furthermore, an ad call does not use JavaScript or employ frame-busting techniques to access publisher data outside of the ad tag.
+The event call collects impression and conversion data and sends it to the [!DNL Audience Manager] [data collection servers](https://marketing.adobe.com/resources/help/en_US/aam/c_compcollect.html) ([!UICONTROL DCS]). This process relies on third-party ad servers that place the call in the creative to control what content gets inserted into the code. The third-party ad servers (for example, [!DNL DFA]) can place this code within each ad impression. Furthermore, an ad call does not use [!DNL JavaScript] or employ frame-busting techniques to access publisher data outside of the ad tag.
 
 Event calls consist of key-value pairs that use the following syntax:
 
@@ -113,7 +113,7 @@ Impression event calls accept data formed into key-value pairs. The following ta
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> d_src </span> </td> 
-   <td colname="col2"> <p>Data source ID or integration code of the platform providing the metadata (e.g., DFA, Atlas, GBM, Media Math, etc.). </p> <p>Required for <span class="wintitle"> Audience Optimization </span> reports. </p> </td> 
+   <td colname="col2"> <p>Data source ID or integration code of the platform providing the metadata (e.g., [!DNL DFA], [!DNL Atlas], [!DNL GBM], [!DNL Media Math], etc.). </p> <p>Required for <span class="wintitle"> Audience Optimization </span> reports. </p> </td> 
   </tr> 
  </tbody> 
 </table>

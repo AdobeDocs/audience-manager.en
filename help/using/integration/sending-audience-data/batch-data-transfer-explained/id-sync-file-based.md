@@ -75,7 +75,7 @@ ID file names contain the following required and optional elements:
  </tbody> 
 </table>
 
-**File Name Examples**
+### File Name Examples
 
 The following examples show properly formatted files names. Your file names could look similar.
 
@@ -89,7 +89,7 @@ The following examples show properly formatted files names. Your file names coul
 
 The contents of an ID file include the following elements:
 
-` *`UUID`* <tab> *`UUID`* <tab> *`UUID`* <tab> *`UUID`*`
+*`UUID`* <tab> *`UUID`* <tab> *`UUID`* <tab> *`UUID`*
 
 The file contains user IDs (UUID). In each row, separate the IDs with a tab. The following example shows a properly formatted ID file. Your contents could look similar.
 
@@ -102,7 +102,7 @@ abc123 def456 ghi789 xyz987
 
 The purpose of an ID sync file is to sync the [DPUUIDs](../../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8) from your own Data Sources with [!DNL Audience Manager] UUIDs. Synchronization maps the DPUUIDs from the master DPID and its related DPIDs to the [!DNL Audience Manager] UUIDs. Where you put the IDs in the file name and body determines how these identifiers are mapped to each other. For example, take the two sample files shown here:
 
-* **File 1:** `adobe_id_0_12345_1476312152.sync` 
+* **File 1:** `adobe_id_0_12345_1476312152.sync`
 
 * **File 2:**  `adobe_id_12345_67890_1476312876.sync`
 
@@ -142,9 +142,8 @@ Step 2: the DPUUIDs from DPID 12345 have been synced in step 1 with the Audience
 
 * User IDs cannot
 
-    * Have tabs in the ID itself. Tabs are used only to separate individual IDs in the data file. 
-    * Contain personally identifiable information (PII). 
+    * Have tabs in the ID itself. Tabs are used only to separate individual IDs in the data file.
+    * Contain personally identifiable information (PII).
     * Use URL encoding. Pass in unencoded IDs only.
 
 * Any rows that end with tabs or spaces will not be processed or realized. As a rule, make sure you keep the end of the rows clear.
-

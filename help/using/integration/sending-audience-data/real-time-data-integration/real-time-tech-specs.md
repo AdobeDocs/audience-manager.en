@@ -11,9 +11,4 @@ uuid: 722aaf40-c60f-451c-99ce-aa773f7f301d
 
 Third-party content providers can expect to exchange data with Audience Manager according to these technical specifications. A real-time (synchronous) integration transfers data in near-real time as a user visits or takes actions on your site. Technical, engineering, or development teams should use this material to help set up real-time data transfers with Audience Manager.
 
-<!-- 
-
-c_rt_realtime_intro.xml
-
- -->
-
+<!-- c_rt_realtime_intro.xml -->

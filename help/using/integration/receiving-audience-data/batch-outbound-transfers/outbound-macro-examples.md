@@ -13,7 +13,7 @@ Examples of how some of the common macros are used to create outbound file templ
 
 >[!NOTE]
 >
->In the tables, **boldface** type identifies each macro with its related output. For the format examples, the < > symbols have been added to help visually separate each macro.
+>In the tables, **boldface** type identifies each macro with its related output. For the format examples, the `<` `>` symbols have been added to help visually separate each macro.
 
 ## File Name Macros {#section_65E394A8A471425CAF8803834F51DE93}
 
@@ -77,7 +77,7 @@ For a list of available macros and definitions, see [Outbound Template Macros](.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TAB </span> </p> </td> 
-   <td colname="col2"> <p>Format: <span class="codeph"> &lt;ORDER_ID&gt; &lt;TAB&gt;&lt;SYNC_TYPE&gt; </span> </p> <p>Output: <span class="codeph"> 888 full.sync </span> </p> <p>In the output, the non-printing tab character separates each element. </p> </td> 
+   <td colname="col2"> <p>Format: <span class="codeph"> &lt;ORDER_ID&gt; &lt;TAB&gt;&lt;SYNC_TYPE&gt; </span> </p> <p>Output: <span class="codeph"> 888 full.sync </span> </p> <p>In the output, the non-printing tab character separates each element. </p> </td>
   </tr>
  </tbody>
 </table>

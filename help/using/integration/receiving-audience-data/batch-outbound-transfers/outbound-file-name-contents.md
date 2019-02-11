@@ -11,15 +11,11 @@ uuid: effdcaf6-c37c-45f3-9d2f-a938a9da47a6
 
 Describes the required fields, syntax, and conventions used to name an outbound data file.
 
-## Outbound Data File Name: Syntax and Examples {#concept_C049B849113544CA92EC194A60D0F722}
-
-Describes the required fields, syntax, and conventions used to name an outbound data file.
-
 <!-- c_name_reqs_outbound.xml -->
 
 >[!NOTE]
 >
->The style elements ( `monospaced text`, *italics*, brackets [ ] ( ), etc.) in this document indicate code elements and options. See [Style Conventions for Code and Text Elements](../../../reference/code-style-elements.md#reference_59D0BD0EDB424A65853460D91CCA35D9) for more information.
+>The style elements (`monospaced text`, *italics*, brackets [ ] ( ), etc.) in this document indicate code elements and options. See [Style Conventions for Code and Text Elements](../../../reference/code-style-elements.md#reference_59D0BD0EDB424A65853460D91CCA35D9) for more information.
 
 ## Syntax and File Name Elements {#section_9CD8DFD99A994D669103195E25AE968A}
 
@@ -185,7 +181,7 @@ The table lists variables that define the contents of a data file.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="varname"> REMOVED_SEGMENT_N </span> </p> </td> 
-   <td colname="col2"> <p>The segment ID from which the user was disqualified. Separate multiple segments with a comma. With a full synchronization, you can ignore the removed segments because the data file will contain the complete list of current segments for the user. Usually, you want to know about segments a user belongs to rather than those they've been removed from. See also <a href="../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md#concept_C049B849113544CA92EC194A60D0F722"> Outbound Data File Name: Syntax and Examples </a>. </p> </td> 
+   <td colname="col2"> <p>The segment ID from which the user was disqualified. Separate multiple segments with a comma. With a full synchronization, you can ignore the removed segments because the data file will contain the complete list of current segments for the user. Usually, you want to know about segments a user belongs to rather than those they've been removed from. See also <a href="../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md#outbound-data-file-name-syntax-and-examples"> Outbound Data File Name: Syntax and Examples </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

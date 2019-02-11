@@ -17,9 +17,9 @@ The outbound real-time data transfer process returns user data as a series of JS
 
 To use this method, we recommend that your data partner:
 
-* Accepts data in JSON format.
-* Provides a URL that can be used by the `POST` call to return data. 
-* Accepts secure HTTPS data transfers. [!DNL Audience Manager] will not send this file with the unsecure HTTP protocol.
+* Accepts data in [!DNL JSON] format.
+* Provides a URL that can be used by the `POST` call to return data.
+* Accepts secure `HTTPS` data transfers. [!DNL Audience Manager] will not send this file with the unsecure `HTTP` protocol.
 
 ## Frequency
 
@@ -31,7 +31,7 @@ By default, the recipient server must return the `200 OK` code to indicate succe
 
 ## Parameters
 
-The following table defines the elements in the returned JSON data file.  
+The following table defines the elements in the returned [!DNL JSON] data file.  
 
 <table id="table_68475F9D01ED4A44B5909234114AEDE2"> 
  <thead> 
@@ -129,7 +129,7 @@ You can secure your real-time outbound data transfer process by [encrypting HTTP
 
 ## Code Sample
 
-A real-time data response can look similar to the following: 
+A real-time data response can look similar to the following:
 
 ```js
 {

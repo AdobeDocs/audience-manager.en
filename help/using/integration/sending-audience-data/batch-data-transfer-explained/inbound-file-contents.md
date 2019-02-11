@@ -24,7 +24,7 @@ Contents:
 
 ## File Content Syntax {#section_524652571283434B93EF2BA5AEC2962B}
 
-Fields in the inbound data file must appear in the order shown below. In this example, the < > symbols have been added to help separate each element visually. You do not need to include these in your data file.
+Fields in the inbound data file must appear in the order shown below. In this example, the `<` `>` symbols have been added to help separate each element visually. You do not need to include these in your data file.
 
 ```
 <user ID><TAB><trait ID>,<trait ID>,<trait ID>,...
@@ -130,11 +130,11 @@ The following table describes the prefixes that identify trait names or IDs in a
 
 ## Invalid Characters in Trait IDs, User IDs and Key-Value Pairs {#section_A52AFA31CCA54EF2A89CEF17BFCCB879}
 
-**Trait IDs**
+### Trait IDs
 
 Trait IDs consist only of numerical characters. We ask that you include *only onboarded traits* in inbound data files. We do not process any other trait types in the inbound data transfer.
 
-**User IDs**
+### User IDs
 
 <table id="table_8C5C7271B813441EA2D45CA2FE2A6C59"> 
  <thead> 
@@ -159,7 +159,7 @@ Trait IDs consist only of numerical characters. We ask that you include *only on
  </tbody> 
 </table>
 
-**Key-Value Pairs**
+### Key-Value Pairs
 
 Improperly formatted value names in a key-value pair also cause problems. Follow these rules when creating or naming the value in a key-value pair:
 

@@ -9,9 +9,9 @@ uuid: ef58213e-7b37-4c5a-8556-0de695706793
 
 # Transfer-Control Files for Log File Transfers {#transfer-control-files-for-log-file-transfers}
 
-Transfer-control (.info) files provide metadata information about file transfers so that partners can verify that Audience Manager handled file transfers correctly.
+Transfer-control ([!DNL .info]) files provide metadata information about file transfers so that partners can verify that Audience Manager handled file transfers correctly.
 
-[!DNL Audience Manager] sends a transfer-control file to a partner with every file transfer. Due to the multi-thread nature of the FTP publisher, the transfer-control file might be sent before the actual files are finished transferring.
+[!DNL Audience Manager] sends a transfer-control file to a partner with every file transfer. Due to the multi-thread nature of the [!DNL FTP] publisher, the transfer-control file might be sent before the actual files are finished transferring.
 
 The metadata in the [!DNL .info] file lets partners:
 

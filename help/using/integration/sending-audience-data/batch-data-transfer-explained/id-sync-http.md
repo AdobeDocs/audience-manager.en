@@ -9,31 +9,27 @@ uuid: 037e74a6-acfd-4cef-b693-16b7aaa8e976
 
 # ID Synchronization for Inbound Data Transfers{#id-synchronization-for-inbound-data-transfers}
 
-Describes the syntax and parameters used in the initial HTTP call to synchronize user IDs between a vendor and Audience Manager. ID synchronization can begin after you send your data taxonomy to Audience Manager.
+Describes the syntax and parameters used in the initial `HTTP` call to synchronize user IDs between a vendor and Audience Manager. ID synchronization can begin after you send your data taxonomy to Audience Manager.
 
-<!-- 
-
-c_id_sync_in.xml
-
- -->
+<!-- c_id_sync_in.xml -->
 
 ID synchronization is the first step in the inbound, asynchronous data transfer process. In this step, Audience Manager and the vendor compare and match IDs for their respective site visitors. For example, an [!DNL Audience Manager] customer may know a user by ID 123. However, your data partner could identify this user with ID 456. The synchronization process allows [!DNL Audience Manager] and a data vendor to reconcile these different IDs and identify users in their respective systems. Once complete, [!DNL Audience Manager] and your third-party partner should have corresponding IDs for each unique user seen on our networks.
 
 You can use the following methods to get your data into [!DNL Audience Manager]:
 
-* [ID Synchronization HTTP Request](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md#section_0FF82F1DBA8E46A39FA65BD3A45004CA) 
-* [Declared ID Event](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md#section_22AC5DB0340B4EB9B1A4CF9075743878) 
+* [ID Synchronization HTTP Request](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md#section_0FF82F1DBA8E46A39FA65BD3A45004CA)
+* [Declared ID Event](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md#section_22AC5DB0340B4EB9B1A4CF9075743878)
 * [ID Synchronization From an Email Embedded Image](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md#section_DE58B1A4BD454EBB85FA146D19BAB9EE)
 
-## ID Synchronization HTTP Request {#section_0FF82F1DBA8E46A39FA65BD3A45004CA}
+## ID Synchronization `HTTP` Request {#section_0FF82F1DBA8E46A39FA65BD3A45004CA}
 
-In an ID exchange, a properly formatted URL string should look like this: 
+In an ID exchange, a properly formatted URL string should look like this:
 
 ```
 https://dpm.demdex.net/ibs:dpid=<VENDOR_ID>&dpuuid=<VENDOR_UUID>&redir=<REDIRECT_URL>
 ```
 
-The URL for your inbound ID synchronization call should contain variables described in the table below. 
+The URL for your inbound ID synchronization call should contain variables described in the table below.
 
 >[!NOTE]
 >
@@ -68,7 +64,7 @@ For more information, see [Declared IDs](../../../features/declared-ids.md#conce
 
 ## ID Synchronization From an Email Embedded Image {#section_DE58B1A4BD454EBB85FA146D19BAB9EE}
 
-The format for matching IDs via an email image is the same as shown above. Note, however, that images in an email must be enabled for this to work. This can affect ID synchronization via email because most mail systems disable images by default. 
+The format for matching IDs via an email image is the same as shown above. Note, however, that images in an email must be enabled for this to work. This can affect ID synchronization via email because most mail systems disable images by default.
 
 >[!MORE_LIKE_THIS]
 >

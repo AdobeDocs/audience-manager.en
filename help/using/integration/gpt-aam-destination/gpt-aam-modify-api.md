@@ -7,15 +7,15 @@ title: Modify the GPT setTargeting API Call
 uuid: 0cd38f30-5d29-4511-a779-d32587f1dafb
 ---
 
-# Modify the GPT setTargeting API Call {#modify-the-gpt-settargeting-api-call}
+# Modify the [!DNL GPT] `setTargeting` [!UICONTROL API] Call {#modify-the-gpt-settargeting-api-call}
 
-Add an if statement to check for Audience Manager cookies before calling the Google Publisher Tag `.setTargeting` method.
+Add an if statement to check for Audience Manager cookies before calling the [!DNL Google Publisher Tag] `.setTargeting` method.
 
-## Check for Audience Manager Cookies With an IF Statement
+## Check for Audience Manager Cookies With an `IF` Statement
 
 The `.setTargeting` method gets data from the Audience Manager destination cookie and the unique user ID cookie ( `aam_uuid`). However, if `.setTargeting` gets invoked before [!UICONTROL DIL] writes these cookies, or the cookies are empty, you may see errors when the page loads. To help avoid this, wrap the `.setTargeting` method in an `if` statement that checks for these cookies. If they're not set, this statement prevents `.setTargeting` from calling the `AamGpt` function.
 
-### IF Statement Code Sample
+### `IF` Statement Code Sample
 
 In this example, the Audience Manager destination cookie name is `Sample`. You set this name when you create the destination cookie in the Audience Manager UI. [!UICONTROL DIL] sets the `aam_uuid` cookie and the name cannot be changed. 
 

@@ -9,7 +9,7 @@ uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
 
 # Amazon S3 Name and File Size Requirements for Inbound Data Files{#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
 
-Describes the required fields, syntax, naming conventions and file sizes you need to follow when sending data to Audience Manager. Set the names and sizes of your files according to these specifications when you send data to an Audience Manager / Amazon S3 directory.
+Describes the required fields, syntax, naming conventions and file sizes you need to follow when sending data to Audience Manager. Set the names and sizes of your files according to these specifications when you send data to an Audience Manager / [!DNL Amazon S3] directory.
 
 Contents:
 
@@ -23,9 +23,9 @@ Contents:
 
 ## File Name Syntax {#section_A572A6BC39D34462BE9CEA184FE9E556}
 
-S3 file names contain the following required and optional elements:
+[!DNL S3] file names contain the following required and optional elements:
 
-* **S3 prefix:**  `s3n://AWS_directory/partner_name/date=yyyy-mm-dd/` 
+* **[!DNL S3] prefix:**  `s3n://AWS_directory/partner_name/date=yyyy-mm-dd/` 
 
 * **File name elements:** `ftp_dpm_DPID[_DPID_TARGET_DATA_OWNER]_TIMESTAMP(.sync|.overwrite)[.SPLIT_NUMBER][.gz]`
 
@@ -33,7 +33,7 @@ S3 file names contain the following required and optional elements:
 >
 >[!DNL Audience Manager] only processes ASCII and UTF-8 encoded files.
 
-**Name Elements**
+### Name Elements
 
 The table defines the elements in an S3 file name.
 
