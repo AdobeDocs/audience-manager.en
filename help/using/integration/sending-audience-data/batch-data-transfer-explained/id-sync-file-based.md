@@ -80,7 +80,7 @@ The following examples show properly formatted files names. Your file names coul
 
 The contents of an ID file include the following elements:
 
-*`UUID`* <tab> *`UUID`* <tab> *`UUID`* <tab> *`UUID`*
+*`UUID`* `<tab>` *`UUID`* `<tab>` *`UUID`* `<tab>` *`UUID`*
 
 The file contains user IDs (UUID). In each row, separate the IDs with a tab. The following example shows a properly formatted ID file. Your contents could look similar.
 
