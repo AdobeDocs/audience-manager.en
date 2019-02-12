@@ -48,7 +48,7 @@ Refer to this document for the complete list of Adobe Audience Manager IDs.
   </tr> 
   <tr> 
    <td colname="col1"> <p>DPUUID </p> </td> 
-   <td colname="col2"> <p> <b>Data Provider Unique User ID </b> <b>(also referred to as CRM ID)</b> </p> <p>A third-party ID. This is the ID by which you identify end users in your own CRM system. You can sync DPUUIDs with <span class="keyword"> Audience Manager</span> UUIDs and you can sync DPUUIDs from your different <span class="wintitle"> Data Sources</span> (DPIDs) in the <a href="../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md#concept_98150C1616624D928BA8519031142160"> ID synchronization process</a>. </p> </td> 
+   <td colname="col2"> <p> <b>Data Provider Unique User ID </b> <b>(also referred to as CRM ID)</b> </p> <p>A third-party ID. This is the ID by which you identify end users in your own CRM system. You can sync DPUUIDs with <span class="keyword"> Audience Manager</span> UUIDs and you can sync DPUUIDs from your different <span class="wintitle"> Data Sources</span> (DPIDs) in the <a href="../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md#name-and-content-requirements-for-id-synchronization-files"> ID synchronization process</a>. </p> </td> 
    <td colname="col3"> <p><span class="codeph"> 2132-3423vn-343fds-3432r</span> </p> </td> 
   </tr> 
   <tr> 
