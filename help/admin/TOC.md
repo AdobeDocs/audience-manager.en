@@ -43,6 +43,7 @@ user-guide-title: Audience Manager Admin Guide
     + [OAuth2 Clients](admin-oauth2/admin-oauth2-create-edit.md)
     + [API Requirements and Recommendations](admin-oauth2/aam-admin-api-requirements.md)
 + [Integration Users](admin-manage-integration-users.md)
++ [Audit Logging](admin-audit-logging.md) 
 + [My Profile](admin-my-profile.md)
 + [Destination Setup Troubleshooting](admin-destination-troubleshooting.md)
 + [Beta Environment](admin-beta-environment.md)
