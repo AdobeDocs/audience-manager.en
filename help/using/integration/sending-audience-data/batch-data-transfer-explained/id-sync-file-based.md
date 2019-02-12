@@ -11,15 +11,6 @@ uuid: bfe42af9-9149-4da3-830e-f227c4e610c2
 
 Describes the required fields, syntax, and naming conventions used for file-based ID synchronization. Name and organize your file contents according to these specifications.
 
-Contents:
-
-<ul class="simplelist"> 
- <li> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md#section_0AB70A4265EC478CB9C3540A6DD16000"> File Name Syntax and Examples </a> </li> 
- <li> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md#section_1DA6C74107E34CC0A4DCCFEDDDDDBCFF"> File Content Syntax and Examples </a> </li> 
- <li> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md#section_41255CCDC02440C285C03E8001FB7E90"> Synchronization Matches DPIDs to UUIDs </a> </li> 
- <li> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md#section_86EFF8C6AE40444A83F42411957CD809"> Other Format Requirements </a> </li> 
-</ul>
-
 >[!NOTE]
 >
 >The text styles ( `monospaced text`, *italics*, brackets [ ] ( ), etc.) in this document indicate code elements and options. See [Style Conventions for Code and Text Elements](https://marketing.adobe.com/resources/help/en_US/aam/code-style-elements.html) for more information.
@@ -140,9 +131,10 @@ Step 2: the DPUUIDs from DPID 12345 have been synced in step 1 with the Audience
 
 ## Other Format Requirements {#section_86EFF8C6AE40444A83F42411957CD809}
 
-* User IDs cannot
-  * Have tabs in the ID itself. Tabs are used only to separate individual IDs in the data file.
-  * Contain personally identifiable information (PII).
-  * Use URL encoding. Pass in unencoded IDs only.
+User IDs cannot:
 
-* Any rows that end with tabs or spaces will not be processed or realized. As a rule, make sure you keep the end of the rows clear.
+* Have tabs in the ID itself. Tabs are used only to separate individual IDs in the data file.
+* Contain personally identifiable information (PII).
+* Use URL encoding. Pass in unencoded IDs only.
+
+Any rows that end with tabs or spaces will not be processed or realized. As a rule, make sure you keep the end of the rows clear.
