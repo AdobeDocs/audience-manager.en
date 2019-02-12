@@ -141,9 +141,8 @@ Step 2: the DPUUIDs from DPID 12345 have been synced in step 1 with the Audience
 ## Other Format Requirements {#section_86EFF8C6AE40444A83F42411957CD809}
 
 * User IDs cannot
-
-    * Have tabs in the ID itself. Tabs are used only to separate individual IDs in the data file.
-    * Contain personally identifiable information (PII).
-    * Use URL encoding. Pass in unencoded IDs only.
+  * Have tabs in the ID itself. Tabs are used only to separate individual IDs in the data file.
+  * Contain personally identifiable information (PII).
+  * Use URL encoding. Pass in unencoded IDs only.
 
 * Any rows that end with tabs or spaces will not be processed or realized. As a rule, make sure you keep the end of the rows clear.
