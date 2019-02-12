@@ -30,14 +30,14 @@ To implement the [!UICONTROL Audience Management Module]:
 
 ```js
 s.AudienceManagement.setup({ 
-     "partner":" 
-<varname>
-  partner name 
-</varname>", 
+     "partner":"partner name", 
      "containerNSID":0, 
      "uuidCookie": { 
           "name":"aam_uuid", 
-          "days":30 
+          "days":30
+     }
+     "visitorService": {
+          "namespace": "INSERT-EXPERIENCE-CLOUD-ORGID-HERE" 
      } 
 });
 ```
@@ -50,28 +50,13 @@ s.AudienceManagement.setup({
 
 The following table defines important variables in the code sample.
 
-<table id="table_A7EA5A61EE47483BA6F160183959A3A5"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Parameter </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> partner </span> </p> </td> 
-   <td colname="col2"> <p>Required. This is a partner name assigned to you by Adobe. It is sometimes referred to as your "partner ID" or "partner subdomain." </p> <p>Contact your Adobe consultant or <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html" format="https" scope="external"> Customer Care </a> if you don't know your partner name. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> containerNSID </span> </p> </td> 
-   <td colname="col2"> <p>Required. Most customers can just set <span class="codeph"> "containerNSID":0 </span>. However, if your company needs to customize ID syncs with a different container, you can specify that container ID here. </p> </td>
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> uuidCookie </span> </p> </td> 
-   <td colname="col2"> <p>Optional. This configuration lets you set an <span class="keyword"> Adobe </span> cookie in the first-party domain. This cookie contains the <a href="../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8"> UUID </a>. </p> </td>
-  </tr>
- </tbody>
-</table>
+| Parameter | Description |
+|--- |--- |
+|`partner`|Required. This is a partner name assigned to you by Adobe. It is sometimes referred to as your "partner ID" or "partner subdomain."  Contact your Adobe consultant or [Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html) if you don't know your partner name.|
+|`containerNSID`|Required. Most customers can just set  `"containerNSID":0` . However, if your company needs to customize ID syncs with a different container, you can specify that container ID here.|
+|`uuidCookie`|Optional. This configuration lets you set an Adobe  cookie in the first-party domain. This cookie contains the [UUID](../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8) .|
+| `visitorService` - `namespace`| Required. The `namespace` parameter is required if you use the AudienceManagement module bundled with AppMeasurement version 2.10 or newer. This AudienceManagement module requires that you use Experience Cloud ID Service 3.3 or newer. <br>&nbsp;The Experience Cloud Organization ID is the ID that a company is provided with upon signing up for the Experience Cloud. Find out your company's Organization ID in [Organizations and Account Linking](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html). |
+
 
 ## Results: Data Forwarding to Audience Manager {#section_5878A0C32F844C9DB9C2D009CB717708}
 

@@ -194,7 +194,7 @@ Defines the properties used by the `visitorService` variable. This variable is p
 var vDil = DIL.create({ 
     partner: 'demofirst', 
     visitorService: { 
-        namespace: "INSERT-MCORG-ID-HERE" 
+        namespace: "INSERT-EXPCLOUD-ORG-ID-HERE" 
     } 
 });
 ```
