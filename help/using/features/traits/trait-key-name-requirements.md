@@ -13,9 +13,7 @@ This article describes the naming conventions used by the key variable in a key-
 
 ## Naming Requirements for Keys
 
-<!--
-c_tb_key_name_requirements.xml
--->
+<!-- c_tb_key_name_requirements.xml -->
 
 In [!UICONTROL Expression Builder], the name of a key variable in a key-value pair can consist of any number of digits followed by 1 (or more) letters, a dash, an underscore, and additional digits.
 
@@ -25,4 +23,4 @@ In [!UICONTROL Expression Builder], the name of a key variable in a key-value pa
 
 ## Prefixing Key Variables with c_
 
-The `c_` prefix is *always* required if the parameters that send in data on an event call URL use that syntax. 
+The `c_` prefix is *always* required if the parameters that send in data on an event call URL use that syntax.

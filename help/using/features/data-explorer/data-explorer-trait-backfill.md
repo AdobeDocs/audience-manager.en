@@ -10,7 +10,7 @@ uuid: 8b0ef4e6-d16a-4d1d-94f1-b84eebffa9a5
 
 Backfill trait realizations to capture historical audiences and avoid loss of relevant data prior to a trait creation date.
 
-Data Explorer Trait Backfill is a premium capability that enhances the Audience Manager experience by unlocking additional use cases. Backfill requires additional processing power and is available to all Audience Manager customers at an incremental cost. Please contact your Adobe sales representative for additional details.
+[!UICONTROL Data Explorer Trait Backfill] is a premium capability that enhances the Audience Manager experience by unlocking additional use cases. Backfill requires additional processing power and is available to all Audience Manager customers at an incremental cost. Please contact your Adobe sales representative for additional details.
 
 When you create traits from unused signals, you can choose to backfill the trait realizations over a specific period of time. [!DNL Audience Manager] captures the historical data about audiences that qualify for the new trait and stores them on the corresponding profile. You can see the **[!UICONTROL Backfill Options]** in the [!UICONTROL Trait Expression] section of the **[Trait Builder](../../features/traits/about-trait-builder.md#concept_13D6537EE5D0459F870C58822AD5400A)**.
 
@@ -44,7 +44,7 @@ Audience Manager updates the [!UICONTROL Trait Graph] with the backfilled popula
 
 ## Trait Backfilling Limit {#section_3EE78E74377744149CEAD13B27A34FCD}
 
-Data Explorer allows you to backfill up to 50 traits per month, with the backfill counter being reset on the 1 day of each month.
+[!UICONTROL Data Explorer] allows you to backfill up to 50 traits per month, with the backfill counter being reset on the 1 day of each month.
 
 >[!NOTE]
 >

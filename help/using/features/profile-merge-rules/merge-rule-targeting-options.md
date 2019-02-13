@@ -9,7 +9,7 @@ uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
 
 # General Use Cases for [!UICONTROL Profile Merge Rules] {#general-use-cases-for-profile-merge-rules}
 
-Profile Merge Rules options let you expand or tighten audience focus on specific audiences based on business needs or goals. These general use cases explore how to use available options and create merge rules for individual, household, and cross-device targeting. Currently, Profile Merge Rules work with real-time destinations only.
+[!UICONTROL Profile Merge Rules] options let you expand or tighten audience focus on specific audiences based on business needs or goals. These general use cases explore how to use available options and create merge rules for individual, household, and cross-device targeting. Currently, Profile Merge Rules work with real-time destinations only.
 
  ![](assets/merge-rules-options.png)
 
@@ -37,7 +37,6 @@ These options reach specific users when they're browsing but not logged on. You 
 Rules that reach users based on previous authentication include:
 
 * **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Current Device Profile]**
-
 * **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Merge Device Graph]**
 
 ## Expand targeting {#section_ADA0946192274869B94BD88BEE8ECFA7}
@@ -63,9 +62,9 @@ To create a rule that expands the targeting data set, select **[!UICONTROL Curre
 
  -->
 
-## Device Graph Options {#section_F6D35A63A04346EE85DE533A43E5EE0D}
+## [!UICONTROL Device Graph] Options {#section_F6D35A63A04346EE85DE533A43E5EE0D}
 
-Choosing a device graph option for a [!UICONTROL Profile Merge] rule depends on conditions unique to your digital properties and business goals. These general guidelines can help you understand when to use one type of graph vs another. Note, you must be a member of the [!DNL Adobe Experience Cloud Device Co-op] or have a contractual relationship with an external device graph to use these options. Refer to the table below for general guidance on when to choose a device graph option. For specific use cases, see [Profile Link Device Graph Use Cases](../../features/profile-merge-rules/profile-link-use-case.md#concept_5D9D32E18BB94F318A8BA0229335F1B9) and [External Device Graph Use Cases](../../features/profile-merge-rules/external-graph-use-cases.md#concept_7C0BDBFB3392415286B624F45E8883E5).
+Choosing a [!UICONTROL device graph] option for a [!UICONTROL Profile Merge] rule depends on conditions unique to your digital properties and business goals. These general guidelines can help you understand when to use one type of graph vs another. Note, you must be a member of the [!DNL Adobe Experience Cloud Device Co-op] or have a contractual relationship with an external device graph to use these options. Refer to the table below for general guidance on when to choose a device graph option. For specific use cases, see [Profile Link Device Graph Use Cases](../../features/profile-merge-rules/profile-link-use-case.md#concept_5D9D32E18BB94F318A8BA0229335F1B9) and [External Device Graph Use Cases](../../features/profile-merge-rules/external-graph-use-cases.md#concept_7C0BDBFB3392415286B624F45E8883E5).
 
 <table id="table_66D9152D4FF040A186003272D456625D"> 
  <thead> 

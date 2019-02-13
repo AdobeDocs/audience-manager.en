@@ -26,13 +26,13 @@ In Audience Manager, a destination is any third-party system (ad server, DSP, ad
 
 <!-- destination-delivery-methods.xml -->
 
-Data delivery depends on how your data partner wants to, or can, receive destination information. Technical or engineering constraints may prevent a destination from receiving data via URL, cookie, or server-to-server processes. Work with your third-party partner to determine which method they can use.
+Data delivery depends on how your data partner wants to, or can, receive destination information. Technical or engineering constraints may prevent a destination from receiving data via [!DNL URL], cookie, or server-to-server processes. Work with your third-party partner to determine which method they can use.
 
 ## Business Considerations {#section_F666F33012EA4EA883190102E295AF5F}
 
 Business decisions for selecting one delivery method over another depend on the technical capabilities of your destination partner and what you want to do with qualified user information. For example, technical constraints can limit your options if a destination cannot receive data by a particular delivery method. However, if there are no technical issues, you can send information based on how you want to take action on that data. For example:
 
-* URLs and cookie-based destinations work almost synchronously with user actions on a page.
+* [!DNL URL]s and cookie-based destinations work almost synchronously with user actions on a page.
 * Server-to-server methods are good for building deep audience segments over time.
 
 ## Destination Types and Typical Uses {#section_84C13A0A9BEC430AA16CB6E7A6438049}

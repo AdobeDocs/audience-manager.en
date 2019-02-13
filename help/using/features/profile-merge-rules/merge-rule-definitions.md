@@ -9,7 +9,7 @@ uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
 
 # Profile Merge Rule Options Defined {#profile-merge-rule-options-defined}
 
-The merge rule options let you control the type of data Audience Manager uses for segmentation. A merge rule can include device profiles mapped by the [!UICONTROL Profile Link] device graph, the Adobe Experience Cloud Device Co-op, and/or other, third-party device graph providers who are integrated with Audience Manager. You can create a maximum of 3 [!UICONTROL Profile Merge Rules].
+The merge rule options let you control the type of data Audience Manager uses for segmentation. A merge rule can include device profiles mapped by the [!UICONTROL Profile Link] device graph, the [!UICONTROL Adobe Experience Cloud Device Co-op], and/or other, third-party device graph providers who are integrated with Audience Manager. You can create a maximum of 3 [!UICONTROL Profile Merge Rules].
 
 You build a [!UICONTROL Profile Merge Rule] by making a selection from these options:
 

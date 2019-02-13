@@ -23,19 +23,19 @@ audience-lab-compare-models.xml
 In this use case, you are comparing different models. You can either use models created via an in-house data warehouse and import them in [!DNL Audience Manager] as [Onboarded Traits](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) or you can use the [Algorithmic Models](../../features/algorithmic-models/understanding-models.md#concept_49FB2DBD4AD041A4ABAAEE9D83BB996E) feature in [!DNL Audience Manager].
 
 1. Create two models, either in the [Model Builder](../../features/algorithmic-models/create-model.md#concept_25287B0C161F4BFCBCCFEB5CC6E613D0), or via an outside platform.
-1. Create [algorithmic traits](../../features/traits/create-algorithmic-traits.md#task_E9A3F46A50C14450AE263775EECA0353) from the algorithmic model or import your own models as onboarded traits.
-1. Create mutually exclusive segments so users in both models don't overlap:
+2. Create [algorithmic traits](../../features/traits/create-algorithmic-traits.md) from the algorithmic model or import your own models as onboarded traits.
+3. Create mutually exclusive segments so users in both models don't overlap:
 
     * Create a *Model 1 Segment* and a *Model 2 Segment*.
     * Have the segment rule for *Model 1 Segment* be model 1 trait AND NOT model 2 trait, and vice-versa for *Model 2 Segment*.
 
-1. [Create two segment test groups](../../features/audience-lab/audience-lab-manage-test-groups.md#task_B62EF6D2992941FAAEA84BE2EA11A55E) in [!UICONTROL Audience Lab], one with *Model 1 Segment* as the baseline, the other with *Model 2 Segment* as the baseline.
+4. [Create two segment test groups](../../features/audience-lab/audience-lab-manage-test-groups.md#task_B62EF6D2992941FAAEA84BE2EA11A55E) in [!UICONTROL Audience Lab], one with *Model 1 Segment* as the baseline, the other with *Model 2 Segment* as the baseline.
 
     * Keep the variables the same for both test groups: same destinations, creative, conversion traits.
     * Make sure the test segments have similar numbers of users (e.g. 1.6 million and 1.8 million is alright, 1.6 million and 16 million is not).
     * Reserve a control segment in each test segment test group. This way, you can set aside a small part of each segment and not target them explicitly in the test.
 
-1. Examine the results:
+5. Examine the results:
 
     * The [Audience Lab reporting view](../../features/audience-lab/audience-lab-reporting-view.md#concept_C8A089E2B1C54D268C4F6475C4D5C9D6) will show the number of conversions each model is driving. For conversion based campaigns, the test segment that drives the most conversions will signify the model that is performing best. 
     * Because you have control segments, you can also evaluate how the model did against "standard targeting." You are not only just testing one model versus the other, but testing the question of "did this model do better than normal practices?"

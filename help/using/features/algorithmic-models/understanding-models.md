@@ -13,17 +13,13 @@ uuid: 39441e72-5316-453d-9aff-0e0b633aabcd
 
 Build and manage the traits or segments used in algorithmic modeling, also referred to as look-alike modeling. Model features are located in **[!UICONTROL Audience Data > Models]**.
 
-<!--
-c_models.xml
--->
+<!-- c_models.xml -->
 
 ## Understanding Algorithmic Models {#concept_441E566718B845929880B0823A9ECA9F}
 
 A review of algorithmic modeling in [!DNL Audience Manager]. Describes how modeling works, benefits, and workflow.
 
-<!--
-understanding-models.xml
--->
+<!-- understanding-models.xml -->
 
 ## Find New Users with Algorithmic Modeling {#section_0243382004524AD1B1EEFB2D9F19E49E}
 
@@ -58,13 +54,11 @@ We deactivate any algorithmic model that fails to generate data for three consec
 >* [Traits](../../features/traits/trait-details-page.md)
 >* [Segments](../../features/segments/segments-purpose.md)
 
-## Understanding TraitWeight {#concept_1E21CF71FBD04C3EA59554909828DAD5}
+## Understanding [!UICONTROL TraitWeight] {#concept_1E21CF71FBD04C3EA59554909828DAD5}
 
 [!UICONTROL TraitWeight] is a proprietary algorithm designed to discover new traits automatically. It comcpares trait data from your current traits and segments against all other first and third-party data that you have access to through [!DNL Audience Manager]. Refer to this section for a description of the [!UICONTROL TraitWeight] algorithmic discovery process.
 
-<!--
-traitweight.xml
--->
+<!-- traitweight.xml -->
 
 ![](assets/algo_model.png)
 
@@ -103,9 +97,7 @@ Periodically, [!UICONTROL TraitWeight] re-evaluates the importance of a trait ba
 
 Creation and update schedules for new or existing algorithmic models and traits.
 
-<!--
-c_model_update_schedule.xml
--->
+<!-- c_model_update_schedule.xml -->
 
 ### Algorithmic Model Creation and Update Schedule
 
@@ -118,16 +110,16 @@ c_model_update_schedule.xml
  </thead>
  <tbody>
   <tr> 
-   <td colname="col1"> <b>Create or Clone a Model</b> </td> 
+   <td colname="col1"> <b>Create or Clone a Model</b> </td>
    <td colname="col2"> <p>For new or cloned algorithmic models, the creation process runs once per day at: 
      <ul id="ul_97333AC409AF4760A91D90A06050122B"> 
       <li id="li_3A43809F924341FCAC3A85E3825E0F61"> 5 PM EST (November - March) </li> 
       <li id="li_C07D22AB192D4E0191D9EBF6426EC73D"> 6 PM EDT (March - November) </li> 
-     </ul> </p> <p>Models built or cloned after the creation deadline are processed the following day. </p> <p>If the first run of a model generates no data it will run a second time, the next day. If the second attempt also doesn't generate any data, there will be a third attempt, the next day. The model will stop running if the third attempt also doesn't generate any data. In this case, we will deactivate the model. See more in <a href="../../features/algorithmic-models/understanding-models.md#section_356A9E6C33FE4194A70DA6CA2AB511E9"> Troubleshooting Algorithmic Models</a>. </p> </td> 
-  </tr> 
+     </ul> </p> <p>Models built or cloned after the creation deadline are processed the following day. </p> <p>If the first run of a model generates no data it will run a second time, the next day. If the second attempt also doesn't generate any data, there will be a third attempt, the next day. The model will stop running if the third attempt also doesn't generate any data. In this case, we will deactivate the model. See more in <a href="../../features/algorithmic-models/understanding-models.md#section_356A9E6C33FE4194A70DA6CA2AB511E9"> Troubleshooting Algorithmic Models</a>. </p> </td>
+  </tr>
   <tr> 
    <td colname="col1"> <b>Update a Model</b> </td> 
-   <td colname="col2"> <p>Under ideal conditions, existing models run on weekdays, at least once every 7 days. For example, if you create a model (by the deadline) on Monday, it updates the following Monday at the latest. </p> <p>A model will rerun if it meets any of the following conditions: </p> <p> 
+   <td colname="col2"> <p>Under ideal conditions, existing models run on weekdays, at least once every 7 days. For example, if you create a model (by the deadline) on Monday, it updates the following Monday at the latest. </p> <p>A model will rerun if it meets any of the following conditions: </p> <p>
      <ul id="ul_7B0442F6E840415B82705C7B7419D079"> 
       <li id="li_27DCB92CE61F4388B5D253C13BD030BE">Its last run was not successful. </li> 
       <li id="li_9887E50D291446AC868A8FCE6295536E">It has run successfully before [!DNL AND] it has not run at all in the past 7 days [!DNL AND] the model has at least one active trait attached to it. </li>
@@ -161,9 +153,7 @@ c_model_update_schedule.xml
 
 The list view is a central workspace that helps you to create, review, and manage models.
 
-<!--
-c_models_list_view.xml
--->
+<!-- c_models_list_view.xml -->
 
 The Models list page contains features and tools that help you:
 
@@ -176,9 +166,7 @@ The Models list page contains features and tools that help you:
 
 The summary page displays model details such as name, reach/accuracy, processing history, and traits created from the model. The page also includes settings that let you create and managing models. Click a model name from the summary list to see its details.
 
-<!-- 
-c_models_summary.xml
--->
+<!-- c_models_summary.xml -->
 
 The model summary page includes the following sections.
 

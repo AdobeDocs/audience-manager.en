@@ -8,7 +8,7 @@ uuid: 4f324404-0c24-4e3b-96c1-7c1b28a4536d
 
 # Create Traits from [!UICONTROL Signal Dashboard] {#create-traits-from-signal-dashboard}
 
-The Signal Dashboard allows you to create new traits from the Top Unused Signals , New Unused Signals, and your saved searches.
+The [!UICONTROL Signal Dashboard] allows you to create new traits from the [!UICONTROL Top Unused Signals], [!UICONTROL New Unused Signals], and your saved searches.
 
 When you create a new trait, the trait type is pre-set based on the signal type:
 

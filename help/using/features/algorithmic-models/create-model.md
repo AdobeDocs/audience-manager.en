@@ -11,17 +11,15 @@ uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 
 # Create an Algorithmic Model {#create-an-algorithmic-model}
 
-Describes the required and optional steps that let you create an algorithmic model in Model Builder.
+Describes the required and optional steps that let you create an algorithmic model in [!UICONTROL Model Builder].
 
 ## Build a Model {#task_71541056B8384EEBB6A3A8B161C71B8A}
 
-<!--
-t_model_build.xml
--->
+<!-- t_model_build.xml -->
 
 ### Model Builder Section
 
-[!UICONTROL Model Builder] consists of the [!UICONTROL Basic Information] and [!UICONTROL Configuration] sections. To create a model, complete the required fields in these two sections. Save your model to start the algorithm. [!DNL Audience Manager] sends you an automated notification after the first data run completes. After you receive the email, you can go to [Trait Builder](../../features/traits/about-trait-builder.md#concept_13D6537EE5D0459F870C58822AD5400A) and create algorithmic traits. 
+[!UICONTROL Model Builder] consists of the [!UICONTROL Basic Information] and [!UICONTROL Configuration] sections. To create a model, complete the required fields in these two sections. Save your model to start the algorithm. [!DNL Audience Manager] sends you an automated notification after the first data run completes. After you receive the email, you can go to [Trait Builder](../../features/traits/about-trait-builder.md#concept_13D6537EE5D0459F870C58822AD5400A) and create algorithmic traits.
 
 >[!NOTE]
 >
@@ -47,9 +45,7 @@ To build a model, go to the [!UICONTROL Models] section and click **[!UICONTROL 
 
 ## Basic Information for Algorithmic Models {#reference_032EEDAE946B491C92BCE61E62AB7369}
 
-<!--
-r_model_basic.xml
--->
+<!-- r_model_basic.xml -->
 
 In [!UICONTROL Model Builder], the [!UICONTROL Basic Information] settings let you create new or edit existing models. To create a new model, provide a name and move on to the [!UICONTROL Configuration] settings. The description field is optional.
 
@@ -61,13 +57,13 @@ In [!UICONTROL Model Builder], the [!UICONTROL Basic Information] settings let y
 
 ## Configuration {#reference_E58E9C688E3144BEB2F75BCCDDF80B59}
 
-In Model Builder, the [!UICONTROL Configuration] section lets you add traits or segments to the model. In this section, select a baseline trait or segment, a look-back period, and data from your first and third-party data sources.
+In [!UICONTROL Model Builder], the [!UICONTROL Configuration] section lets you add traits or segments to the model. In this section, select a baseline trait or segment, a look-back period, and data from your first and third-party data sources.
 
-<!--
-r_model_configuration.xml
--->
+<!-- r_model_configuration.xml -->
 
-**Prerequisites:** Complete the required fields in the [!UICONTROL Basic Information] section first.
+### Prerequisites
+
+Complete the required fields in the [!UICONTROL Basic Information] section first.
 
 ![](assets/lam_exclude_traits_numbered.png)
 
@@ -80,7 +76,7 @@ r_model_configuration.xml
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b>Select a Baseline Trait or Segment (1)</b> </p> </td> 
+   <td colname="col1"> <p><b>Select a [!UICONTROL Baseline Trait] or Segment (1)</b> </p> </td> 
    <td colname="col2"> <p>Click the trait or segment button to see a list of all your traits or segments. Your selected segment or trait becomes the baseline that the system algorithms use for modeling. </p> <p> <p>Note:  Select an onboarded trait, a rule-based trait, or a segment as baseline. Otherwise, your models will not run. </p> </p> </td> 
   </tr> 
   <tr> 

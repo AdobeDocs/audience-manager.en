@@ -11,9 +11,7 @@ uuid: df2ef9c8-606a-45f9-a836-859f856a7d4b
 
 This article describes the prefixes you must attach to key variables when creating trait rules.
 
-<!--
-r_tb_variable_prefixes.xml
--->
+<!-- r_tb_variable_prefixes.xml -->
 
 ## Purpose of Key Variable Prefixes
 

@@ -7,20 +7,20 @@ title: Recency and Frequency
 uuid: faadd18a-bf27-4b73-995e-9809f52f5350
 ---
 
-# Recency and Frequency {#recency-and-frequency}
+# [!UICONTROL Recency] and [!UICONTROL Frequency] {#recency-and-frequency}
 
-In Segment Builder, recency and frequency let you segment visitors based on actions that occur or repeat over a set daily interval.
+In [!UICONTROL Segment Builder], recency and frequency let you segment visitors based on actions that occur or repeat over a set daily interval.
 
 Audience Manager defines [!DNL recency] and [!DNL frequency] as follows:
 
-* **Recency:** The number of days during which a user viewed or qualified for one (or more) traits.
-* **Frequency:** The rate at which a user viewed or qualified for one (or more) traits.
+* **[!UICONTROL Recency]:** The number of days during which a user viewed or qualified for one (or more) traits.
+* **[!UICONTROL Frequency]:** The rate at which a user viewed or qualified for one (or more) traits.
 
-Recency and frequency settings help you segment visitors based on their real (or perceived) level of interest in a site, section, or particular creative. For example, users who qualify for a segment with high recency/frequency requirements may be more interested in a site or product than users who visit less often or less frequently.
+[!UICONTROL Recency] and [!UICONTROL Frequency] settings help you segment visitors based on their real (or perceived) level of interest in a site, section, or particular creative. For example, users who qualify for a segment with high recency/frequency requirements may be more interested in a site or product than users who visit less often or less frequently.
 
-## Location of Recency and Frequency Settings {#section_49C03FF5D0554A7EB40AC42D46E17E09}
+## Location of [!UICONTROL Recency] and [!UICONTROL Frequency] Settings {#section_49C03FF5D0554A7EB40AC42D46E17E09}
 
-In [!UICONTROL Segment Builder], recency and frequency settings are located in the [!UICONTROL Basic View] section of the [!UICONTROL Traits] panel. Click the clock icon to expose these controls.
+In [!UICONTROL Segment Builder], [!UICONTROL Recency] and [!UICONTROL Frequency] settings are located in the [!UICONTROL Basic View] section of the [!UICONTROL Traits] panel. Click the clock icon to expose these controls.
 
 ![](assets/recency_frequency.png)
 
@@ -28,7 +28,7 @@ In [!UICONTROL Segment Builder], recency and frequency settings are located in t
 
 Review and understand these limits and rules when you want to apply recency and frequency to traits in your segments.
 
-### Recency
+### [!UICONTROL Recency]
 
 <table id="table_026064124C694D75B7A960457D50170B"> 
  <thead> 
@@ -49,7 +49,7 @@ Review and understand these limits and rules when you want to apply recency and 
  </tbody> 
 </table>
 
-### Frequency
+### [!UICONTROL Frequency]
 
 <table id="table_EBD621D26C8B4D03933E8C0753C892A7"> 
  <thead> 
@@ -74,7 +74,7 @@ Review and understand these limits and rules when you want to apply recency and 
  </tbody> 
 </table>
 
-## Frequency Capping Examples {#section_61D796D4E5764D49B4FF2DCC52021D2E}
+## [!UICONTROL Frequency] Capping Examples {#section_61D796D4E5764D49B4FF2DCC52021D2E}
 
 Frequency-capping expressions include all the users whose number of trait realizations is below a desired value. Here are a few examples:
 

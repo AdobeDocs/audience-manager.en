@@ -8,23 +8,19 @@ title: Create Rules-Based or Onboarded Traits
 uuid: 4243e09f-1f96-443a-864a-d6e6918079fa
 ---
 
-# Create Rules-Based or Onboarded Traits {#create-rules-based-or-onboarded-traits}
+# Create [!UICONTROL Rules-Based] or [!UICONTROL Onboarded] Traits {#create-rules-based-or-onboarded-traits}
 
-Describes set up steps and features specific to the rules-based and onboarded trait creation process.
+Describes set up steps and features specific to the [!UICONTROL rules-based] and [!UICONTROL onboarded] trait creation process.
 
-<!-- 
-c_tb_rules_traits.xml
--->
+<!-- c_tb_rules_traits.xml -->
 
 ## Basic Information for Traits {#concept_D80233EF56764376B0F4C4FF882BAD2E}
 
 In [!UICONTROL Trait Builder], the [!UICONTROL Basic Information] settings let you create new, or edit existing traits. The [!UICONTROL Basic Information] settings are the same for rules-based, onboarded and algorithmic traits. To create a new trait, provide a name (avoid special characters), a data source, and select a storage folder. Other [!UICONTROL Basic Information] fields are optional.
 
-<!-- 
-c_tb_basics.xml
--->
+<!-- c_tb_basics.xml -->
 
-**Basic Information Fields Defined** 
+### Basic Information Fields Defined
 
 <table id="table_42AEC7A5B22346C5BB996D2D36C56229"> 
  <thead> 
@@ -78,15 +74,13 @@ c_tb_basics.xml
 
 ## Set a Trait Expiration Interval {#task_F17639E26C2744A0942461FCCD4D4DC7}
 
-In [!UICONTROL Trait Builder], the [!UICONTROL Advanced Options] lets you set a time-to-live (TTL) interval for a trait. TTL defines how many days a qualified visitor remains in a trait (120 days is default). When set to 0, trait membership never expires.
+In [!UICONTROL Trait Builder], the [!UICONTROL Advanced Options] lets you set a time-to-live ([!DNL TTL]) interval for a trait. [!DNL TTL] defines how many days a qualified visitor remains in a trait (120 days is default). When set to 0, trait membership never expires.
 
-<!--
-t_tb_ttl.xml
--->
+<!-- t_tb_ttl.xml -->
 
-### Set the TTL for a trait
+### Set the [!DNL TTL] for a trait
 
-1. Expand the [!UICONTROL Advanced Options] section and enter a number to set a TTL value for the trait.
+1. Expand the [!UICONTROL Advanced Options] section and enter a number to set a [!DNL TTL] value for the trait.
 2. Click **[!UICONTROL Save]**.
     ![](assets/TTL.png)
 

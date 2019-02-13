@@ -8,7 +8,7 @@ uuid: cb11b9cb-6d7d-4aa9-91b0-c2715857d821
 
 # [!UICONTROL Instant Cross-Device Suppression] {#instant-cross-device-suppression}
 
-[!UICONTROL Instant Cross-Device Suppression] is the ability to suppress users across multiple devices connected to them when a particular experience occurs on any of these devices. Use the Instant Cross-Device Suppression capability to deliver a consistent experience across devices to your users. This experience is made possible by the real-time unsegment capabilities in Audience Manager.
+[!UICONTROL Instant Cross-Device Suppression] is the ability to suppress users across multiple devices connected to them when a particular experience occurs on any of these devices. Use the [!UICONTROL Instant Cross-Device Suppression] capability to deliver a consistent experience across devices to your users. This experience is made possible by the real-time unsegment capabilities in Audience Manager.
 
 ## Overview {#section_FC781AE134C143B7B0E3146A536B14B5}
 
@@ -24,7 +24,6 @@ The technical details of the real-time unsegmentation are described in length in
 Assure that your users that have already converted (purchased a product, acquired a subscription, etc.) will not see the same messaging as before the conversion. You can obtain this using the [!UICONTROL AND NOT] logic, as follows.
 
 1. Create a segment using two traits, and use the [!UICONTROL AND NOT] logic, as shown in the image below. You must use a rule-based trait to define the conversion event for the unsegment to be triggered in real-time. Read more about how to [create rule-based traits](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits).
-
 1. Map the segment to any number of real-time server-to-server destinations. Read on about how to add segments to [server-to-server destinations](../../features/destinations/manage-destinations.md#task_1B9A6418E2F24C9CA5888F09679204C0).
 
 Your visitors qualify for the segment as long as they have not converted. As soon as they qualify for the conversion trait, they cease to follow the segment rule and are instantly removed from the segment.
@@ -36,11 +35,9 @@ Your visitors qualify for the segment as long as they have not converted. As soo
 You can make sure you are not flooding your users with the same creative by setting recency and frequency controls. In this scenario, create a segment with two traits, as outlined in the steps below.
 
 1. Create a segment using two traits, and use the [!UICONTROL AND] logic, as shown in the image below. You must use a rule-based trait to define the impression event for the unsegment to be triggered in real-time. Read more about how to [create rule-based traits](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits).
-
    >[!NOTE]
    >
    >You can use [!UICONTROL Actionable Log Files] or [!UICONTROL Pixel Calls] to create traits based on user impressions. Read more about [Actionable Log Files](../../integration/media-data-integration/actionable-log-files.md#concept_464D49C698A04E26AFD8AA0F640E5EB3) and [Pixel Calls](../../integration/media-data-integration/impression-data-pixels.md#concept_83852AB68E344D4F8933665C895322C2).
-
 1. Apply frequency controls to the second trait. If you wish, you can add recency controls, as well. Read more about [how to apply recency and frequency controls](../../features/segments/recency-and-frequency.md#concept_957D9E1977774D28A98ACEE6035E7B37).
 1. Map the segment to any number of real-time server-to-server destinations. Read on about how to add segments to [server-to-server destinations](../../features/destinations/manage-destinations.md#task_1B9A6418E2F24C9CA5888F09679204C0).
 

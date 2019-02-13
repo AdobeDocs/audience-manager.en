@@ -64,7 +64,7 @@ Use this feature to withhold part of the audience from being included in the tes
 
 ### Using [!UICONTROL Test Segment Holdout]
 
-1. Create a new test group by using the Create Test Group wizard. 
+1. Create a new test group by using the [!UICONTROL Create Test Group] wizard.
 1. In the **[!UICONTROL Allocate Test Segment]** step, you can select a part of the audience to be withheld from testing.
 
    ![List Item](assets/test-segment-holdout.png)

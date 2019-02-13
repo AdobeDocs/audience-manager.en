@@ -11,9 +11,7 @@ uuid: c7e4cbfe-e564-404e-a565-bbe5fd2fb519
 
 Describes the common platform-level key-value pairs you can use to target users with geographic variables across all properties in your Audience Manager account.
 
-<!--
-c_tb_platform_vars.xml
--->
+<!-- c_tb_platform_vars.xml -->
 
 ## Purpose of Platform-level Variables {#section_57C422B2079C480B907279D5B57A6AEF}
 
@@ -21,7 +19,7 @@ Platform-level variables let you take data passed in from a particular site and 
 
 ## Adding Values to Platform Level Keys {#section_1BAF23A099FF40CEB67DFC330BCB8D53}
 
-For some platform-level keys, you can specify the value yourself. With others, the keys are associated with corresponding IP addresses passed in on an event call. In either case, you still need to specify the value when building traits in [!UICONTROL Trait Builder].
+For some platform-level keys, you can specify the value yourself. With others, the keys are associated with corresponding [!DNL IP] addresses passed in on an event call. In either case, you still need to specify the value when building traits in [!UICONTROL Trait Builder].
 
 ## User Defined Platform-Level Keys {#section_532CE169CFF648BCABEF17A7B0EF1C8C}
 
@@ -31,9 +29,9 @@ You specify the value when building traits with these key-value pairs:
 |---|---|
 | `d_zx`  |ZIP code (e.g., `d_zx=10022`).  |
 
-## Platform Level Keys Defined by IP Address {#section_C1CCBD2C225F4E898CEE01613899B775}
+## Platform Level Keys Defined by [!DNL IP] Address {#section_C1CCBD2C225F4E898CEE01613899B775}
 
-The values for these keys are determined by matching IP addresses to corresponding geographic and demographic data. However, you'll still have to enter the value parameter when creating the key-value pair in [!UICONTROL Trait Builder].
+The values for these keys are determined by matching [!DNL IP] addresses to corresponding geographic and demographic data. However, you'll still have to enter the value parameter when creating the key-value pair in [!UICONTROL Trait Builder].
 
 | Key | For Targeting |
 |--- |--- |

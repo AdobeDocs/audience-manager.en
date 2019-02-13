@@ -9,11 +9,7 @@ uuid: 43789419-5b3f-4e62-b2e0-2722340bdd41
 
 # Standard and Serial Key-Value Pairs {#standard-and-serial-key-value-pairs}
 
-A key-value pair consists of related elements: A key, which is a constant that defines the data set (e.g., gender, color, price) and a value, which is a variable that belongs to the set (e.g., male/female, green, 100). Destination Builder sends data formatted as key-value pairs.
-
-## Standard and Serial Key-Value Pairs {#concept_4CAA6E54ECFE4291B8626BEBEE98088A}
-
-A key-value pair consists of related elements: A key, which is a constant that defines the data set (e.g., gender, color, price) and a value, which is a variable that belongs to the set (e.g., male/female, green, 100). Destination Builder sends data formatted as key-value pairs.
+A key-value pair consists of related elements: A key, which is a constant that defines the data set (e.g., gender, color, price) and a value, which is a variable that belongs to the set (e.g., male/female, green, 100). [!UICONTROL Destination Builder] sends data formatted as key-value pairs.
 
 ## Basic Key-Value Pairs {#section_34AFF52B513A45AB860775E1E932BB84}
 
@@ -133,4 +129,4 @@ Serialized data transmission helps improve efficiency because multiple traits fi
 
 ### Supported Destinations
 
-In [!DNL Audience Manager], you can serialize and send data to just about any destination you want to work with. However, before using this feature, you will need to know the destination URL and where to place some required or optional macros. Obtain the information about macro placement from your destination partner. See [Destination Macros Defined](../../features/destinations/destination-macros.md#destination-macros-defined) for more information.
+In [!DNL Audience Manager], you can serialize and send data to just about any destination you want to work with. However, before using this feature, you will need to know the destination [!DNL URL] and where to place some required or optional macros. Obtain the information about macro placement from your destination partner. See [Destination Macros Defined](../../features/destinations/destination-macros.md#destination-macros-defined) for more information.

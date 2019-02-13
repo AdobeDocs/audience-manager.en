@@ -7,7 +7,7 @@ title: Segment Builder
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 ---
 
-# Segment Builder {#segment-builder}
+# [!UICONTROL Segment Builder] {#segment-builder}
 
 Describes the required and optional steps that create a segment in [!UICONTROL Segment Builder].
 
@@ -15,11 +15,9 @@ Describes the required and optional steps that create a segment in [!UICONTROL S
 
 ### Segment Builder Section
 
-<!-- 
-t_create_segment.xml
--->
+<!-- t_create_segment.xml -->
 
-[!UICONTROL Segment Builder] consists of 3 separate sections: Basic Information, Traits, and Destinations Mapping. To create a segment, complete the required fields in the Basic Information and Traits sections. Destinations Mapping settings are optional. See the instructions below for additional help.
+[!UICONTROL Segment Builder] consists of 3 separate sections: [!UICONTROL Basic Information], [!UICONTROL Traits], and [!UICONTROL Destinations Mapping]. To create a segment, complete the required fields in the [!UICONTROL Basic Information] and [!UICONTROL Traits] sections. [!UICONTROL Destinations Mapping] settings are optional. See the instructions below for additional help.
 
 1. In the [Basic Information](../../features/segments/segment-builder.md#reference_9FC34B07E1944CE5A23974B8E58B2A18) section:
     * Name the segment. The maximum length of a segment name is 255 characters.
@@ -27,8 +25,7 @@ t_create_segment.xml
     * Choose a data source.
     * Select a profile merge rule to use for segment qualification.
     * Assign the segment to a storage folder.
-
-2. In the [Traits](../../features/segments/segment-builder.md#reference_131791CC12A6431A8AD5F19F4FB48947) section:
+1. In the [Traits](../../features/segments/segment-builder.md#reference_131791CC12A6431A8AD5F19F4FB48947) section:
     * Search for the trait you want to add to a segment and click **[!UICONTROL Add Trait]**. Add another trait to create a trait group.
     * Bring up the Advanced Search modal by clicking **[!UICONTROL Browse All Traits]**. Search for traits by name, ID, description or data source. Click on a folder while searching to limit results to that folder and its subfolders. You can also filter traits by trait type.
     * Click and drag traits to create separate groups.
@@ -36,19 +33,15 @@ t_create_segment.xml
     * Hover over the clock icon to add [recency and frequency](../../features/segments/recency-and-frequency.md#concept_957D9E1977774D28A98ACEE6035E7B37) rules to the trait.
     * View segment population data as you add or remove traits. Click **[!UICONTROL Calculate Estimates]** to see (or refresh) the estimated population numbers. Read more about [segment population data](../../features/segments/segment-builder-data.md#section_ED9F6B29E9D541499E3FC7C0A1753FCE) in the Segment Builder.
     * Click **[!UICONTROL Save]** when done.
-
-3. *(Optional)* Map a segment to a destination in the [Destination Mapping](../../features/segments/segment-builder.md#reference_D4D92F9F114449C9BC2A51A1C746D92F) section:
-
+1. *(Optional)* Map a segment to a destination in the [Destination Mapping](../../features/segments/segment-builder.md#reference_D4D92F9F114449C9BC2A51A1C746D92F) section:
     * Search for the destination and click **[!UICONTROL Add Destination]**. Note, the destination must already exist before you can add it to a segment.
     * Click **[!UICONTROL Save]** when done.
 
-## Segment Builder Controls: Basic Information Section {#reference_9FC34B07E1944CE5A23974B8E58B2A18}
+## [!UICONTROL Segment Builder] Controls: [!UICONTROL Basic Information] Section {#reference_9FC34B07E1944CE5A23974B8E58B2A18}
 
-In [!UICONTROL Segment Builder], [!UICONTROL the Basic Information] settings let you create new, or edit existing traits. To create a new segment, provide a name, a data source, and select a storage folder. All other fields are optional. Move on to the Traits section when done.
+In [!UICONTROL Segment Builder], [!UICONTROL the Basic Information] settings let you create new, or edit existing traits. To create a new segment, provide a name, a data source, and select a storage folder. All other fields are optional. Move on to the [!UICONTROL Traits] section when done.
 
-<!-- 
-r_segment_basic_info_section.xml
--->
+<!-- r_segment_basic_info_section.xml -->
 
 <table id="table_39DA4BC9470448B48F6654F2774EE0D5"> 
  <thead> 
@@ -93,9 +86,7 @@ r_segment_basic_info_section.xml
 
 In [!UICONTROL Segment Builder], the [!UICONTROL Traits] section lets you manage traits in a segment, create trait groups, and set qualification criteria. To add a trait to a segment, type the trait name in the search field and click [!UICONTROL Add Trait]. Save the trait (if finished) or move on to [!UICONTROL Destinations Mapping].
 
-<!-- 
-r_segment_traits_section.xml
--->
+<!-- r_segment_traits_section.xml -->
 
 **Prerequisites:** Complete the required fields in the [!UICONTROL Basic Information] section.
 
@@ -141,13 +132,13 @@ r_segment_traits_section.xml
 
 ## [!UICONTROL Segment Builder] Controls: [!UICONTROL Destinations Mappings] Section {#reference_D4D92F9F114449C9BC2A51A1C746D92F}
 
-In [!UICONTROL Segment Builder], the optional [!UICONTROL Destinations Mapping] section lets you send segment data to a third-party cookie, URL, or server-to-server destination. To add a destination, search (or browse) for a destination, provide destination specific information, and click **[!UICONTROL Add Destination]**.
+In [!UICONTROL Segment Builder], the optional [!UICONTROL Destinations Mapping] section lets you send segment data to a third-party cookie, [!DNL URL], or server-to-server destination. To add a destination, search (or browse) for a destination, provide destination specific information, and click **[!UICONTROL Add Destination]**.
 
-<!-- 
-r_segment_destinations_map.xml
--->
+<!-- r_segment_destinations_map.xml -->
 
-**Prerequisites:** Complete the required fields in the Basic Information and Traits sections. Also, the destination must already exist.
+### Prerequisites
+
+Complete the required fields in the [!UICONTROL Basic Information] and [!UICONTROL Traits] sections. Also, the destination must already exist.
 
 ### [!UICONTROL Destination Mappings] Search Tools
 
@@ -155,20 +146,18 @@ The **[!UICONTROL Destination Mappings]** panel contains search tools as describ
 
 |  Search Type  | Description  |
 |---|---|
-| **Search by Destination Name** |Lets you search for a specific destination by name. To search, start typing. The field will auto-complete based on your search terms. Click **[!UICONTROL Add Destination]** when done.  |
+| **Search by Destination Name** |Lets you search for a specific destination by name. To search, start typing. The field will auto-complete based on your search terms. Click **[!UICONTROL Add Destination]** when done.
 | **Browse All Destinations** |Browse a list of *all* destinations available to you. Select and add destinations to your segment from the popup list.  |
 
-## Fields in the Destination Mappings Pop-up Windows {#reference_D3871A197C21474091F940AB5498F98A}
+## Fields in the [!UICONTROL Destination Mappings] Pop-up Windows {#reference_D3871A197C21474091F940AB5498F98A}
 
-In [!UICONTROL Segment Builder], the [!UICONTROL Add Destination] pop appears after you select a destination. This window displays static information about the destination and fields that vary depending on the destination type. Provide the required information in the empty fields to set up a destination mapping.
+In [!UICONTROL Segment Builder], the [!UICONTROL Add Destination] dialog appears after you select a destination. This window displays static information about the destination and fields that vary depending on the destination type. Provide the required information in the empty fields to set up a destination mapping.
 
 >[!NOTE]
 >
 >Publication dates are optional. When blank, the destination becomes active and never expires.
 
-<!-- 
-r_add_mappings_pop.xml
--->
+<!-- r_add_mappings_pop.xml -->
 
 ### Cookie Destination Fields
 
@@ -176,9 +165,9 @@ In the [!UICONTROL Destination Mapping] fields, specify the key-value pairs used
 
 ![](assets/cookie_modal.PNG)
 
-### URL Destination Fields
+### [!DNL URL] Destination Fields
 
-In the URL and Secure URL fields, specify the complete standard or secure address used to send data to the destination.
+In the [!UICONTROL URL] and [!UICONTROL Secure URL] fields, specify the complete standard or secure address used to send data to the destination.
 
 ![](assets/url_modal.PNG)
 

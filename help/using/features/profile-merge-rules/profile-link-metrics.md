@@ -9,7 +9,7 @@ uuid: 76a86ff0-4c64-4734-aec0-0a8828942096
 
 # Report Metrics for [!UICONTROL Profile Merge Rules] {#report-metrics-for-profile-merge-rules}
 
-[!UICONTROL Profile Link] metrics provide data about people and devices that authenticate to your site. The data and graphs in [!UICONTROL Profile Link] update dynamically as you create a merge rules or when you click an existing rule from the [!UICONTROL Profile Merge Rules] dashboard. These metrics can include device graph from the Adobe Experience Cloud Device Co-op or other third-party device graph sources.
+[!UICONTROL Profile Link] metrics provide data about people and devices that authenticate to your site. The data and graphs in [!UICONTROL Profile Link] update dynamically as you create a merge rules or when you click an existing rule from the [!UICONTROL Profile Merge Rules] dashboard. These metrics can include device graph from the [!DNL Adobe Experience Cloud Device Co-op] or other third-party device graph sources.
 
 ## Merge Rule Metrics {#section_23F45E4C374241709A246058F4D92A23}
 
@@ -96,7 +96,7 @@ The [!UICONTROL Merge Rules] reports also show data on the total number of peopl
 
 ## Sample Reports {#section_44086DF2594A4A60916A7077851F75BA}
 
-### Standard Profile Link Report
+### [!UICONTROL Standard Profile Link] Report
 
 A standard [!UICONTROL Profile Link] report looks like the following example. Merge rules that use multiple data sources (up to 3, maximum) show graphs in separate tabs for each data source. This merge rule does not include [!UICONTROL Device Co-op] data.
 
