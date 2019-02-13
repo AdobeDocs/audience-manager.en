@@ -146,7 +146,7 @@ The **[!UICONTROL Destination Mappings]** panel contains search tools as describ
 
 |  Search Type  | Description  |
 |---|---|
-| **Search by Destination Name** |Lets you search for a specific destination by name. To search, start typing. The field will auto-complete based on your search terms. Click **[!UICONTROL Add Destination]** when done.
+| **Search by Destination Name** |Lets you search for a specific destination by name. To search, start typing. The field will auto-complete based on your search terms. Click **[!UICONTROL Add Destination]** when done.|
 | **Browse All Destinations** |Browse a list of *all* destinations available to you. Select and add destinations to your segment from the popup list.  |
 
 ## Fields in the [!UICONTROL Destination Mappings] Pop-up Windows {#reference_D3871A197C21474091F940AB5498F98A}
