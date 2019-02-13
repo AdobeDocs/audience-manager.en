@@ -9,7 +9,7 @@ uuid: f4bc822d-39d2-4680-90ed-7ee2ead6db6f
 
 # External Device Graph Use Cases {#external-device-graph-use-cases}
 
-Recommendations and use cases for prospecting, retargeting, and personalization for unknown users with an external device graph. An external device graph is defined as a device graph that is separate from Audience Manager. This includes the Adobe Experience Cloud Device Co-op and other integrations Adobe has with third-party deterministic or probabilistic device graph companies.
+Recommendations and use cases for prospecting, retargeting, and personalization for unknown users with an external device graph. An external device graph is defined as a device graph that is separate from Audience Manager. This includes the [!DNL Adobe Experience Cloud Device Co-op] and other integrations Adobe has with third-party deterministic or probabilistic device graph companies.
 
 ## Recommendations {#section_7C93DAA7927A4203B9617A560CCC1F02}
 

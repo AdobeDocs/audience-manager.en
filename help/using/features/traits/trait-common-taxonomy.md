@@ -14,11 +14,7 @@ This article provides general overview about classifying traits with a common ta
 
 ## The Audience Manager Taxonomy
 
-<!-- 
-
-c_common_taxonomy_about.xml
-
- -->
+<!-- c_common_taxonomy_about.xml -->
 
 The [!DNL Audience Manager] taxonomy is an optional feature that classifies traits using uniform, logical, and commonly understood naming conventions. It operates at the platform level to help ensure naming consistency throughout the [!DNL Audience Manager] ecosystem. Ultimately, the common taxonomy is designed to bring our product into greater alignment with industry standards regarding consumer privacy and opt-out processes.
 
@@ -28,7 +24,7 @@ Enabling our customers to build custom segments and data models is core to the [
 
 ## The Taxonomy Uses Industry Standard Classification Categories
 
-The common taxonomy is based on the classifications created by the Interactive Advertising Bureau (IAB). Refer to the IAB's [website](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines) for more information about quality assurance guidelines for networks and exchanges.
+The common taxonomy is based on the classifications created by the [!DNL Interactive Advertising Bureau (IAB)]. Refer to the [!DNL IAB]'s [website](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines) for more information about quality assurance guidelines for networks and exchanges.
 
 ## Taxonomic Organization
 
@@ -42,6 +38,6 @@ You assign taxonomic classifications when creating or editing traits in the [!UI
 
 If you decide to classify traits according to our common taxonomy, it's important to remember:
 
-* Classification is *optional*. 
-* Traits *are not* assigned to a taxonomic category by default (i.e., traits are not classified as "unknown" or "uncategorized" etc.). 
+* Classification is *optional*.
+* Traits *are not* assigned to a taxonomic category by default (i.e., traits are not classified as "unknown" or "uncategorized" etc.).
 * Traits can belong to *one* taxonomic category only (multiple and cross-category classifications are not allowed).

@@ -7,13 +7,11 @@ title: Order of Operations in Trait Builder
 uuid: df325047-af62-45ad-9ca1-046bfcbe5341
 ---
 
-# Order of Operations in Trait Builder {#order-of-operations-in-trait-builder}
+# Order of Operations in [!UICONTROL Trait Builder] {#order-of-operations-in-trait-builder}
 
 [!UICONTROL Trait Builder] evaluates expressions according to the order-of-operations listed below, from high to low precedence. Trait elements defined by high-precedence operators are evaluated first, before other precedence operators. This section ranks each operator according to precedence, from high to low.
 
-<!--
-c_tb_operator_precedence.xml
--->
+<!-- c_tb_operator_precedence.xml -->
 
 <table id="table_F0FA45B652C7464B90D35526817110FF"> 
  <thead> 
@@ -48,7 +46,7 @@ c_tb_operator_precedence.xml
    <td colname="col1">Boolean <span class="wintitle"> OR</span> </td> 
    <td colname="col2"><span class="wintitle"> OR</span> </td> 
   </tr> 
- </tbody> 
+ </tbody>
 </table>
 
 >[!MORE_LIKE_THIS]

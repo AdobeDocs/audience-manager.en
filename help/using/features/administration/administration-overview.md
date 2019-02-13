@@ -19,9 +19,7 @@ Enterprise customers using [!DNL Audience Manager] need one data management plat
 
 ## Create Users {#task_89D190BA6A394B719A35CDA76899B957}
 
-<!--
-t_create_groups.xml
--->
+<!-- t_create_groups.xml -->
 
 Create users in [!DNL Audience Manager] and specify user details, login status, and assign users to groups.
 
@@ -39,18 +37,16 @@ Create users in [!DNL Audience Manager] and specify user details, login status, 
    * **Deactivated:**  Deactivated users cannot access [!DNL Audience Manager] and do not have any permissions. If you deactivate users, their user information remains in [!DNL Audience Manager] and you can simple reactivate them, if necessary. If you remove users, you must re-create them if they need to use [!DNL Audience Manager] again in the future.
    * **Expired:** A user's password is older than 90 days.
    * **Pending:** The user has a temporary password, either as after a password reset or as a brand new account, and they have not yet set a permanent password.
-   * **Locked Out:** 5 incorrect login attempts will lock out a user. 
+   * **Locked Out:** 5 incorrect login attempts will lock out a user.
 1. Under **[!UICONTROL Assigned Groups]**, from the drop-down list, select the desired groups to which you want to assign this user.
   For more information about groups and permissions, see [Create a Group](../../features/administration/administration-overview.md#task_3327F7C4A9834F1BA5007EDA279D40F2).
 1. Click **[!UICONTROL Save]**.
 
 ## Create a Group {#task_3327F7C4A9834F1BA5007EDA279D40F2}  
 
-A *`group`* is a collection of users that share access rights to destination, segment, and trait objects. You can limit groups to single objects only or give them broad access to combinations of different objects.
+A *group* is a collection of users that share access rights to destination, segment, and trait objects. You can limit groups to single objects only or give them broad access to combinations of different objects.
 
-<!--
-t_create_groups.xml
--->
+<!-- t_create_groups.xml -->
 
 To create a group:
 
@@ -70,9 +66,7 @@ To create a group:
 
 Simplify group rights management with [!UICONTROL Wild Card Permissions].
 
-<!--
-c_wildcard_permissions.xml
--->
+<!-- c_wildcard_permissions.xml -->
 
 [!UICONTROL Wild Card Permissions] give group members automatic access to each data source associated to a segment, destination, or trait. By comparison, regular permissions only lets you assign specific data sources to the one of these objects. And, when you add new data sources, group members don't get access to those new sources.
 

@@ -40,11 +40,11 @@ FREQUENCY([
 
 >[!NOTE]
 >
->By default, Boolean [!UICONTROL OR] conditions apply to multiple traits *within* an expression.
+>By default, [!DNL Boolean] [!UICONTROL OR] conditions apply to multiple traits *within* an expression.
 
-### Join Segments with Boolean Operators
+### Join Segments with [!DNL Boolean] Operators
 
-To build groups of segments, wrap the frequency function in parenthesis and set the relationship *between* each expression with a Boolean operator ([!UICONTROL AND], [!UICONTROL OR], and [!UICONTROL NOT]).
+To build groups of segments, wrap the frequency function in parenthesis and set the relationship *between* each expression with a [!DNL Boolean] operator ([!UICONTROL AND], [!UICONTROL OR], and [!UICONTROL NOT]).
 
 ### Parameters
 

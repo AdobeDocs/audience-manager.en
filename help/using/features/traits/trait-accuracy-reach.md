@@ -11,11 +11,7 @@ uuid: d121e099-6642-4003-ad4f-507d21e478d8
 
 Describes the relationship between accuracy and reach in algorithmic traits.
 
-<!-- 
-
-c_accuracy_reach.xml
-
- -->
+<!-- c_accuracy_reach.xml -->
 
 ## Accuracy vs Reach: About
 

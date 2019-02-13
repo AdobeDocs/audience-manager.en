@@ -7,19 +7,19 @@ title: Active Audience Traits and Data Source Synced Traits
 uuid: b4f145ab-f343-4d71-86d1-5d03f7b03809
 ---
 
-# Active Audience Traits and Data Source Synced Traits {#active-audience-traits-and-data-source-synced-traits}
+# [!UICONTROL Active Audience Traits] and [!UICONTROL Data Source Synced Traits] {#active-audience-traits-and-data-source-synced-traits}
 
-These are special traits used by Addressable Audiences. Active Audience and Data Source Synced Traits are located in [!UICONTROL Audience Data > Traits > Audience Traits].
+These are special traits used by [!UICONTROL Addressable Audiences]. [!UICONTROL Active Audience] and [!UICONTROL Data Source Synced Traits] are located in [!UICONTROL Audience Data > Traits > Audience Traits].
 
 >[!NOTE]
 >
 >Access requires administrator permissions.
 
-## Active Audience Traits {#section_B83B287B477C4B94B2E83818869D8186}
+## [!UICONTROL Active Audience Traits] {#section_B83B287B477C4B94B2E83818869D8186}
 
 An [!UICONTROL Active Audience] trait contains all of the devices under management in your [!DNL Audience Manager] account. You can use an [!UICONTROL Active Audience Trait] like other traits when you build or edit segments. Also, [Addressable Audiences](../../features/addressable-audiences.md#concept_8E0BAEF0978F4968B21482E79E601889) requires this trait to generate overlap data. All accounts have an [!UICONTROL Active Audience] trait by default. This trait cannot be deleted.
 
-## Data Source Synced Traits {#section_12FD915CE3734194AB3F56B427BFE88A}
+## [!UICONTROL Data Source Synced Traits] {#section_12FD915CE3734194AB3F56B427BFE88A}
 
 [!UICONTROL Data Source Synced Traits] appear in the [!UICONTROL Audience Traits] folder when you [create or edit a datasource](../../features/manage-datasources.md#concept_3B7696B3EC77416492D3B99EBD79EA44) and apply either of these settings:
 

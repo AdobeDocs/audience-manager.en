@@ -7,21 +7,17 @@ title: Sample Expressions With Boolean and Comparison Operators
 uuid: ee74c376-2099-4816-8694-43f58845a0ac
 ---
 
-# Sample Expressions With Boolean and Comparison Operators {#sample-expressions-with-boolean-and-comparison-operators}
+# Sample Expressions With [!DNL Boolean] and Comparison Operators {#sample-expressions-with-boolean-and-comparison-operators}
 
 Examples you can refer to for creating expressions in the [!UICONTROL Expression Builder] code editor.
 
 ## Code Samples Overview {#section_046415174EF84FDAA6E3C92649BFB0F3}
 
-<!-- 
-
-r_tb_expression_samples.xml
-
- -->
+<!-- r_tb_expression_samples.xml -->
 
 Create your own trait rules with the [!UICONTROL Expression Builder] code editor. The following examples can help you get started. Some of the examples preface the *`key`* variable with `c_` to identify it as a user-defined variable. Include the `c_` prefix (or any other naming convention) for *`key`* variable if your event calls send data to [!DNL Audience Manager] using that syntax.
 
-## Boolean Expressions {#section_294C03461BE44795A507BF9A65808CCA}
+## [!DNL Boolean] Expressions {#section_294C03461BE44795A507BF9A65808CCA}
 
 ### [!UICONTROL AND] Example
 
@@ -51,7 +47,7 @@ The rule establishes trait qualification requirements using Boolean [!UICONTROL 
 
 ### [!UICONTROL OR] Example
 
-This rule establishes trait qualification requirements using Boolean [!UICONTROL OR] and [!UICONTROL AND] operators.  
+This rule establishes trait qualification requirements using [!DNL Boolean] [!UICONTROL OR] and [!UICONTROL AND] operators.  
 
 <table id="table_6E8BA5EE1D7F4DCC9A92074D0C2C050E"> 
  <thead> 

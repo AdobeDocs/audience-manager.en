@@ -7,9 +7,9 @@ title: Trait and Segment Population Data in Segment Builder
 uuid: e1e59c0a-b4c7-4cad-8485-3667e0a95e83
 ---
 
-# Trait and Segment Population Data in Segment Builder {#trait-and-segment-population-data-in-segment-builder}
+# Trait and Segment Population Data in [!UICONTROL Segment Builder] {#trait-and-segment-population-data-in-segment-builder}
 
-Add and remove traits in Segment Builder to see actual trait populations along with actual and estimated segment population data. The estimated population size data helps you build the right segment for your campaign.
+Add and remove traits in [!UICONTROL Segment Builder] to see actual trait populations along with actual and estimated segment population data. The estimated population size data helps you build the right segment for your campaign.
 
 ## Trait Population Data {#section_FF2BA58491ED4BEDB112F6A482AFD716}
 
@@ -28,8 +28,8 @@ The following table defines the trait population metrics
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="wintitle"> Total Trait Population</span> </p> </td> 
-   <td colname="col2"> <p>The number of unique IDs that have the selected trait in their profile. </p> </td> 
+   <td colname="col1"> <p> <span class="wintitle"> Total Trait Population</span> </p> </td>
+   <td colname="col2"> <p>The number of unique IDs that have the selected trait in their profile. </p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -118,7 +118,7 @@ The following table defines the actual real-time and total population metrics wh
  </tbody> 
 </table>
 
-### Segment Population Data for Merge Rules With a Device Graph Option
+### Segment Population Data for [!UICONTROL Merge Rules] With a Device Graph Option
 
 The following table defines the actual real-time and total population metrics when your segments are used by a [!UICONTROL Profile Merge Rule] created with a device graph option. These are the device options settings for the [!UICONTROL Profile Link Device Graph], the [!DNL Adobe] device graph, and other third-party device graph choices that are available to you.
 
@@ -141,7 +141,7 @@ The following table defines the actual real-time and total population metrics wh
  </tbody>
 </table>
 
-### Limitations due to Recency and Frequency Expressions When Estimating Segment Populations
+### Limitations due to [!UICONTROL Recency] and [!UICONTROL Frequency] Expressions When Estimating Segment Populations
 
 [!UICONTROL Segment Builder] supports segment size estimations for segment rules that contain up to 4 recency and frequency expressions. Choosing more than 4 recency and frequency expressions when building a segment rule causes the segment estimator to show an error when estimating population.
 
