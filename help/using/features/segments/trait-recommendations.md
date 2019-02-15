@@ -33,28 +33,28 @@ When building or editing a segment in [Segment Builder](segment-builder.md), you
 ### New Segments
 
 1. In **Audience Data > Segments**, select **Add New**.
-2. In the **Traits** drop-down box, add at least one trait to the segment rule.
-3. You can now see recommended traits that are similar to the traits you added to the segment rule.
-4. (Optional) To exclude recommended traits from certain data sources, click the **X** symbol for the data sources you want to exclude.
+1. In the **Traits** drop-down box, add at least one trait to the segment rule.
+1. You can now see recommended traits that are similar to the traits you added to the segment rule.
+1. (Optional) To exclude recommended traits from certain data sources, click the **X** symbol for the data sources you want to exclude.
 
 > [!NOTE]
 > 
 >The excluded data sources are shown just above the list of recommended traits. Press **X** in the grey box to remove the exclusions and see results from the respective data sources again.
 
-5. To add recommended traits to the segment rule, click the **+** symbol.
+1. To add recommended traits to the segment rule, click the **+** symbol.
 
 ### Existing Segments
 
 1. In Audience Data > Segments, select the segment you want to edit and press ![Edit](assets/edit-button.png).
-2. Scroll down to the Traits drop-down box.
-3. You can see recommended traits, that are similar to the traits already in the segment rule.
-4. (Optional) To exclude recommended traits from certain data sources, click the **X** symbol for the data sources you want to exclude.
+1. Scroll down to the Traits drop-down box.
+1. You can see recommended traits, that are similar to the traits already in the segment rule.
+1. (Optional) To exclude recommended traits from certain data sources, click the **X** symbol for the data sources you want to exclude.
 
 > [!NOTE]
 > 
 >The excluded data sources are shown just above the list of recommended traits. Press **X** in the grey box to remove the exclusions and see results from the respective data sources again.
 
-5. To add recommended traits to the segment rule, click the **+** symbol.
+1. To add recommended traits to the segment rule, click the **+** symbol.
 
 When you create or edit a segment and add a trait to the segment rule, you see a maximum of five recommended traits, similar to the one you have added. If the segment rule contains more than one trait, we use a round robin method to show the best match for each trait, then the second-best match for each trait, and so on, for the largest five traits by population, in the segment rule.
 
