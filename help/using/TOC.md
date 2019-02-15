@@ -96,6 +96,7 @@ user-guide-title: Audience Manager User Guide
         + [Segment Builder](features/segments/segment-builder.md)
         + [Code Syntax Used in the Segment Expression Editor](features/segments/segment-code-syntax.md)
         + [Trait and Segment Population Data in Segment Builder](features/segments/segment-builder-data.md)
+        + [Trait Recommendations](features/segments/trait-recommendations.md)
     + Traits{#traits}
         + [Trait Details Page](features/traits/trait-details-page.md)
         + [Traits Dashboard](features/traits/trait-dashboard.md)
