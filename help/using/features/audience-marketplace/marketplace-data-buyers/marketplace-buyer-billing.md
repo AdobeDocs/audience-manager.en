@@ -54,7 +54,9 @@ To report CPM usage at segment level:
 4. Click **[!UICONTROL Edit Feeds Usage]**.
 5. Calculate the CPM usage for each data feed based on the Cost Attribution for CPM Data Feeds, and enter it in the [!UICONTROL Usage] column.
 6. Click **[!UICONTROL Save]** when you're done and review the confirmation dialog.
+
    ![confirm-feed-usage](assets/confirm-feed-usage.png)
+
 7. Click **[!UICONTROL Confirm]**.
 
 ## Bulk Reporting
@@ -69,7 +71,9 @@ To update CPM usage in bulk:
 1. Click **[!UICONTROL download the current usage]** to make sure you use a valid CSV file.
 1. Open the file on your computer and fill in the usage report.
 1. Click **[!UICONTROL Choose a CSV file]** to upload the updated usage report.
+
    ![usage-report-csv](assets/usage-report-csv.png)
+
 1. [!DNL Audience Manager] validates the file as soon as you upload it and prompts you if it detects any errors in the file.
 
 ### Bulk Reporting Validation Errors
