@@ -186,6 +186,7 @@ user-guide-title: Audience Manager User Guide
         + DCS API Reference{#dcs-api-reference}
             + [DCS API Methods](api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
             + [DCS Error Codes, Messages, and Examples](api/dcs-intro/dcs-api-reference/dcs-error-codes.md)
+            + [ID Monitoring and Blacklisting](api/dcs-intro/dcs-api-reference/id-monitoring-blacklisting.md)
             + [DCS Region IDs, Locations, and Host Names](api/dcs-intro/dcs-api-reference/dcs-regions.md)
             + [Formatting Key-Value Pairs in    DCS Calls](api/dcs-intro/dcs-api-reference/dcs-key-format.md)
             + [Race Conditions and Error Handling](api/dcs-intro/dcs-api-reference/dcs-race-conditions.md)
