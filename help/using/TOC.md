@@ -262,7 +262,6 @@ user-guide-title: Audience Manager User Guide
             + [Leverage Amazon S3 Cross-Account Bucket Permissions for Your Outbound   Files](integration/receiving-audience-data/batch-outbound-transfers/authorize-s3-cross-bucket.md)
     + Sending Audience Data{#sending-audience-data}
         + Real-Time Inbound Data Integration {#real-time-inbound-data-integration}
-            + [Real-Time Data Transfer Process Described](integration/sending-audience-data/real-time-data-integration/real-time-data-transfer-explained.md)
             + [Technical Specifications for Inbound, Real-Time Data Transfers](integration/sending-audience-data/real-time-data-integration/real-time-tech-specs.md)
             + [Pixel-based Data Transfers](integration/sending-audience-data/real-time-data-integration/pixel-based-data-transfer.md)
             + [Real-Time Inbound Data Ingestion](integration/sending-audience-data/real-time-data-integration/real-time-data-transfer.md)
