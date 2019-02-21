@@ -58,6 +58,8 @@ When building or editing a segment in [Segment Builder](segment-builder.md), you
 
 When you create or edit a segment and add a trait to the segment rule, you see a maximum of five recommended traits, similar to the one you have added. If the segment rule contains more than one trait, we use a round robin method to show the best match for each trait, then the second-best match for each trait, and so on, for the largest five traits by population, in the segment rule.
 
+![Three Base Traits](assets/three-base-traits.png)
+
 For example, when there are three traits in the segment rule, as shown below, the recommended traits are:
 
 1. Best match for trait 3 (the trait with the largest population);
@@ -66,21 +68,17 @@ For example, when there are three traits in the segment rule, as shown below, th
 4. Second-best match for trait 3;
 5. Second-best match for trait 1.
 
-![Three Base Traits](assets/three-base-traits.png)
-
 To get recommendations for a specific trait, you can click on the traits in the segment rule (1) or in the recommended traits view (2).
 
 ![](assets/three-base-traits-numbered.png)
 
-If the recommended traits are not part of the segment, you can add them to the segment by pressing **+**.
+Clicking on a trait opens a pop-up window, as shown in the image below. If the recommended traits are not part of the segment, you can add them to the segment by pressing **+**.
+
+![](assets/add_to_segments.png)
 
 > [!TIP]
 > 
 >The excluded data sources from the main page are considered while generating recommendations within the trait information pop-up window. And, if you exclude data sources in this view, the exclusions apply to the main page.
-
-<br>&nbsp;
-
-![](assets/add_to_segments.png)
 
 > [!NOTE]
 > 
