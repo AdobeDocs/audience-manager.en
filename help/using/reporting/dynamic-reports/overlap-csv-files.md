@@ -77,7 +77,7 @@ In the file, string data is enclosed in double quotes. See the mock data below. 
 
 ## Segment-to-Segment Report Records {#section_2D0602508803416E999A36F271AFF2F5}
 
-A data file for your [Segment-to-Segment Overlap Report](https://marketing.adobe.com/resources/help/en_US/aam/c_segment_segment_overlap.html) contains the following records.
+A data file for your [Segment-to-Segment Overlap Report](segment-segment-overlap-report.md) contains the following records.
 
 <table id="table_1BDC7019DF2543069D7AE229C5E2454E"> 
  <thead> 
@@ -136,7 +136,7 @@ A data file for your [Segment-to-Segment Overlap Report](https://marketing.adobe
 
 ## Segment-to-Trait Report Records {#section_D8D7E1BD977C41D184B277A394B950EA}
 
-A data file for your [Segment-to-Trait Overlap Report](https://marketing.adobe.com/resources/help/en_US/aam/c_segment_trait_overlap.html) contains the following records.
+A data file for your [Segment-to-Trait Overlap Report](segment-trait-overlap-report.md) contains the following records.
 
 <table id="table_45270B5D01014AD99921B320D3A32DB6"> 
  <thead> 
@@ -203,7 +203,7 @@ A data file for your [Segment-to-Trait Overlap Report](https://marketing.adobe.c
 
 ## Trait-to-Trait Report Records {#section_850319D1EAC34410B958E967C38FF72E}
 
-A data file for your [Trait-to-Trait Overlap Report](https://marketing.adobe.com/resources/help/en_US/aam/c_overlap_reports.html) contains the following records.
+A data file for your [Trait-to-Trait Overlap Report](trait-trait-overlap-report.md) contains the following records.
 
 <table id="table_603216E6AFE4439A87C91DDFF2989F53"> 
  <thead> 
