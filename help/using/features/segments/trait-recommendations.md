@@ -26,6 +26,35 @@ With Trait Recommendations, when you build or edit a segment in [Segment Builder
 * When calculating similarities, Audience Manager considers [UUIDs](../../reference/ids-in-aam.md) that qualified for the trait during the last 30 days.
 * If you see the error message "No similar traits found. Trait(s) may be too new.", this means that either there was no activity for that trait in the last 30 days, or Audience Manager has not yet updated the recommendations for that trait. Please try again in 24 hours.
 
+## Use Cases
+
+With Trait Recommendations, you can improve your workflows, depending on how you use Audience Manager:
+
+* As a marketer, you can quickly find audiences interested in complementary products with the help of similar traits, so that you can increase your reach.
+* If you use Audience Manager as a publisher, with Trait Recommendations, you can understand audience behavior and build better segments for ad sales or user acquisition.
+
+## Differences Between Trait Recommendations and Algorithmic Models
+
+**Algorithmic Models**
+
+Algorithmic Models not only finds the most influential traits, but also scores users based on those traits and assigns each user an individual score. You then create algorithmic traits to target your users. With accuracy and reach controls in the Trait Builder, you can specify which users amongst all those who have the influential traits you want to target.
+
+Algorithmic Models enables you to select users at different accuracy levels and test in Audience Lab which group of users converts better. See the detailed use case in [Compare Models in Audience Lab](../../features/audience-lab/audience-lab-use-cases.md#task_DB23E5242DAA4183949E90715F7DAA32).
+
+In Algorithmic Models, the model runs every 8 days and refreshes the users qualified for algorithmic traits.
+
+**Trait Recommendations**
+
+Trait Recommendations is a quick way to get insights on other traits which are similar to the ones you are using in a segment.
+
+You should use Trait Recommendations when:
+
+* You need quick insights while building a segment;
+* You are using the segments for short campaigns or when you want to quickly suppress audience who converts;
+* You are trying to maximize reach.
+
+
+
 ## Workflow
 
 When building or editing a segment in [Segment Builder](segment-builder.md), you can explore traits similar to the traits in the segment rule. The Segment builder workflow is very similar for new and existing segments:
@@ -33,9 +62,9 @@ When building or editing a segment in [Segment Builder](segment-builder.md), you
 ### New Segments
 
 1. In **Audience Data > Segments**, select **Add New**.
-1. In the **Traits** drop-down box, add at least one trait to the segment rule.
-1. You can now see recommended traits that are similar to the traits you added to the segment rule.
-1. (Optional) To exclude recommended traits from certain data sources, click the **X** symbol for the data sources you want to exclude.
+2. In the **Traits** drop-down box, add at least one trait to the segment rule.
+3. You can now see recommended traits that are similar to the traits you added to the segment rule.
+4. (Optional) To exclude recommended traits from certain data sources, click the **X** symbol for the data sources you want to exclude.
 
 > [!NOTE]
 > 
