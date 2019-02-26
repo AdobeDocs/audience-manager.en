@@ -13,7 +13,7 @@ The details page for an individual trait provides overview of information like t
 
 ## Basic Information {#section_4437F7E7D981446F8A7789141916528F}
 
-The [!UICONTROL Basic Information] section shows details about required and optional fields you completed when building the trait. This includes things like the trait ID, description, data source, and other metadata. These details vary depending on trait type (folder, onboarded, or rule-based).
+The [!UICONTROL Basic Information] section shows details about required and optional fields you completed when building the trait. This includes things like the trait type, trait ID, description, data source, and other metadata. These details vary depending on trait type (folder, onboarded, or rule-based).
 
 ![](assets/basicInfo.png)
 
