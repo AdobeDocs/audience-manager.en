@@ -18,12 +18,11 @@ Audience Manager provides industry-leading services for online audience data man
   <tr> 
    <td colname="col1"> <p> <b>New and Featured Items</b> </p> <p>Hover over each title to read a brief description. </p> <p> 
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369"> 
-      <li id="li_B41C333AF39441B39570428EEA19BAB6"><a href="features/profile-merge-rules/instant-cross-device-suppression.md#concept_898F67FED4BC40A3A56549C7EB4EE4C3"> Instant Cross-Device Suppression</a> </li> 
-      <li id="li_A260B70FDB7341F0B40201AE03DA1439"><a href="reporting/audience-optimization-reports/aor-publishers/aor-publishers.md#concept_60810D8DF1CA4DB0896A1AF961DDD762"> Audience Optimization for Publishers</a> </li> 
-      <li id="li_859B4BB35E2B49A3906486E1054943EF"><a href="reporting/audience-optimization-reports/aor-publishers/import-dfp.md#concept_32EC89A543BA4333B62DD4C0B3E7060A"> Import DFP Data Files Into Audience Manager</a> </li> 
-      <li id="li_CB91AE2E11AB4F95971D24781CDD816E"><a href="overview/aam-gdpr/aam-gdpr-details.md"> General Data Protection Regulation (GDPR)</a> </li> 
-      <li id="li_5599D71B52CF4ABE91EDE84520014426"><a href="reference/tls-support.md#concept_69F1532E7D4E4433A62AC85B662773CF"> TLS 1.0 Deprecation</a> </li> 
-      <li id="li_E1FF067AEC48490BBBDE9613E9220312"><a href="api/dcs-intro/dcs-api-reference/dcs-api-methods.md#concept_084D7A3E30C94145B3BAE305D30640B7"> DCS API Methods</a> </li> 
+      <li id="li_B41C333AF39441B39570428EEA19BAB6"><a href="features/segments/trait-recommendations.md"> Trait Recommendations</a> </li> 
+      <li id="li_A260B70FDB7341F0B40201AE03DA1439"><a href="reporting/dynamic-reports/trait-trait-overlap-report.md"> Trait-to-Trait Overlap Report</a> </li> 
+      <li id="li_859B4BB35E2B49A3906486E1054943EF"><a href="reporting/dynamic-reports/segment-trait-overlap-report.md"> Segment-to-Trait Overlap Report</a> </li> 
+      <li id="li_CB91AE2E11AB4F95971D24781CDD816E"><a href="reporting/dynamic-reports/segment-segment-overlap-report.md"> Segment-to-Segment Overlap Report</a> </li> 
+      <li id="li_5599D71B52CF4ABE91EDE84520014426"><a href="features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#segment-level-report"> Segment-level reporting in Audience Marketplace</a> </li>
      </ul> </p> <p>See also, <a href="docs-2018/docs-2019.md#concept_B04C4C4F8F8A44948127209781F0EC9C"> 2019 Documentation Updates</a>. </p> </td> 
    <td colname="col2"> <p> <b>Release Notes</b> </p> <p> 
      <ul id="ul_713F3E9DF0F84FE5981AC63D05948864"> 
@@ -41,3 +40,11 @@ Audience Manager provides industry-leading services for online audience data man
  </tbody> 
 </table>
 
+
+<!--
+
+| | |
+|-|-|
+|**New and Featured Items** <br>&nbsp; Hover over each title to read a brief description. <br>&nbsp; <ul><li>Instant Cross-Device Suppression</li><li>Audience Optimization for Publishers</li><li>Import DFP Data Files Into Audience Manager</li><li>General Data Protection Regulation (GDPR)</li><li>TLS 1.0 Deprecation</li> <li>DCS API Methods</li></ul> <br>&nbsp;See also, 2019 Documentation Updates.|**Release Notes** <ul><li>See the latest Experience Cloud Release Notes for new features and fixes.</li> <li>See the  previous release notes for older announcements. </li> <br>&nbsp;**Experience Cloud Resources** <ul><li>Audience Manager Community Forums</li> <li>Adobe Privacy Center</li> <li>Adobe Training and Tutorials</li> <li>Product Documentation Home </li> <li>Audience Manager Learn & Support</li></ul>|
+
+-->

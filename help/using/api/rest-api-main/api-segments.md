@@ -16,4 +16,4 @@ Methods that let you work programmatically with segments.
 >The segment API methods have been rewritten with [!DNL Swagger] and migrated. See:
 >
 >* [Adobe Audience Manager API Docs](https://bank.demdex.com/portal/swagger/index.html) 
->* [Audience Manager API Code Migration](https://marketing.adobe.com/resources/help/en_US/aam/c_api_swagger.html)
+>* [Audience Manager API Code Migration](../../api/api-swagger-migration.md)
