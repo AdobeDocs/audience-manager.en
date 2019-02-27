@@ -35,8 +35,9 @@ The [!UICONTROL Marketplace] list contains information that you can sort and sea
 * **Description:** Information about the contents of a data feed.
 * **Provider:** Name of the data provider.
 * **Traits:** The number of traits in a data feed.
-* **30 Day Uniques:** The number of unique users seen in the last 30 days.
-* **30 Day Overlapped Uniques:** The number of users in your account that overlap with the users in the provider’s account. The % value is calculated as (30-day Overlapped Uniques/Provider's total 30-day uniques) x 100.
+* **30 Day Provider Unique Users:** The number of unique users seen in the last 30 days.
+* **30 Day Overlapped Uniques:** The number of users in your account that overlap with the users in the provider’s account.
+* **Feed Overlap:** The 30 day overlapped uniques value, displayed in percentages, calculated as: Data buyer 30 day overlapped uniques / Data buyer 30 day uniques) x 100.
 * **Private Feeds:** See [Private Data Feeds](../../../features/audience-marketplace/marketplace-private-feeds.md#concept_68EDE94B558C4B88BBCC994B67726FD2).
 * **Currently Subscribed Plan Count:** The number of subscriptions you have with a data provider.
 
