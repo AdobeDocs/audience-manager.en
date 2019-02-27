@@ -82,4 +82,3 @@ When this feature is enabled, the IP address is altered so that it may no longer
 >Contact your Audience Manager Consulting representative to enable the IP obfuscation feature.
 
 **Geographic Segmentation:** If customers enable the replacement of the last octet of the IP address, the remaining values of the IP address can still be utilized for geo-segmentation and reporting in Audience Manager. If the last octet of the IP address has not been obfuscated, the full IP address is used. Customers can use the Geographic Segmentation feature that allows the customer to map out visitor location by geographic area in either case, but with some slight loss of precision when IP obfuscation is being used. Geographic Segmentation data is granular only to the city level or zip code level, and not to the individual level.
-
