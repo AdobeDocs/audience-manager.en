@@ -62,12 +62,29 @@ d_rtbd=json
 </code>
 <br>
 See also:
-<ul>
-<li>Prefix Requirements for Key Variables</li>
-<li>Supported Attributes for DCS API Calls</li>
+
+[Prefix Requirements for Key Variables](../features/traits/trait-variable-prefixes.md)
+[Supported Attributes for DCS API Calls](../api/dcs-intro/dcs-api-reference/dcs-keys.md)
 </ul>
   </td> 
   </tr> 
  </tbody> 
 </table>
+
+| Event Call Element | Description |
+|--- |--- |
+|URL|DIL event calls use the following syntax: `https://adobe.demdex.net/event?_ts=`|
+|Body|As shown in sample below,  DIL passes data as key-value pairs. Special prefix characters identify the key-value pairs as  Audience Manager or partner variables.|
+```d_dst=1
+d_jsonv=1
+d_ld=_ts=1473693143821
+d_mid=54192285857942994142875423154873503351
+d_nsid=0
+d_rtbd=json
+```
+
+See also:
+
+[Prefix Requirements for Key Variables](../features/traits/trait-variable-prefixes.md)
+[Supported Attributes for DCS API Calls](../api/dcs-intro/dcs-api-reference/dcs-keys.md)
 
