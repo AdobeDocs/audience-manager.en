@@ -9,10 +9,6 @@ uuid: 2bc62ce2-16bd-4e80-b493-c816ba643b59
 
 # DIL Tools
 
-Describes methods in the DIL.tools namespace. These utility functions help you perform specific tasks.
-
-## DIL Tools
-
 Describes methods in the `DIL.tools` namespace. These utility functions help you perform specific tasks.
 
 <!-- 
