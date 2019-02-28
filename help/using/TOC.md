@@ -330,9 +330,9 @@ user-guide-title: Audience Manager User Guide
     + [Targeting FAQ](faq/faq-targeting.md)
     + [Reporting FAQ](faq/faq-reporting.md)
 + Documentation Updates{#documentation-updates}
-    + [2019 Documentation Updates](docs-2018/docs-2019.md)
-    + [2018 Documentation Updates](docs-2018/docs-2018.md)
-    + [2017 Documentation Updates](docs-2018/docs-2017.md)
-    + [2016 Documentation Updates](docs-2018/docs-2016.md)
-    + [2015 Documentation Updates](docs-2018/docs-2015.md)
+    + [2019 Documentation Updates](docs-updates/docs-2019.md)
+    + [2018 Documentation Updates](docs-updates/docs-2018.md)
+    + [2017 Documentation Updates](docs-updates/docs-2017.md)
+    + [2016 Documentation Updates](docs-updates/docs-2016.md)
+    + [2015 Documentation Updates](docs-updates/docs-2015.md)
     
