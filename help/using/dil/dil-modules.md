@@ -140,13 +140,15 @@ DIL.modules.siteCatalyst.init(s, scDil);
 
 The `GA.submitUniversalAnalytics();` function sends data from Google's [!DNL Universal Analytics] to Audience Manager. This [!UICONTROL DIL] function is designed to work with `analytics.js`, which is the latest code library for Google [!DNL Universal Analytics].
 
->[!IMPORTANT]
->
-><!-- 
+<!-- 
 
 dil-google-universal-analytics.xml
 
  -->
+
+>[!IMPORTANT]
+>
+>
 >* [!DNL Audience Manager] does not have any insight into or control over the Google `analytics.js` code library. You should verify that [!UICONTROL DIL] data collection is still working if or when Google releases new versions of `analytics.js`. 
 >
 >* You cannot use `GA.submitUniversalAnalytics();` if you're still working with Google's legacy analytics tracking code (e.g., `ga.js` or `dc.js`). See [GA.init](../dil/dil-modules.md#reference_C3DB78CE5C774887AA4FC5629568B651) instead. 
