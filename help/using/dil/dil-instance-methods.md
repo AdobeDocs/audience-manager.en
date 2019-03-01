@@ -49,7 +49,6 @@ r_dil_signals.xml
 >
 >* You can chain other API calls to this method. 
 >* If the Adobe Experience Cloud JavaScript library is on the page, `submit()` waits for the Cloud to set a cookie before sending a request. 
->
 
 **Reserved Request Keys**
 
@@ -76,7 +75,7 @@ Returns the API object of the current [!UICONTROL DIL] instance.
 
 **Sample Code** 
 
-```
+<pre><code>
 var dataLib = DIL.create({ 
      partner: ' 
 <i>partnerName</i>' 
@@ -95,7 +94,7 @@ dataLib.api.signals({c_zdid: 54321}).submit();
 // Will send 'c_key=a&c_key=2&c_key=3' to Audience Manager 
 var obj = { key : ['a', 'b', 'c'] }; 
 dataLib.api.signals(obj, 'c_').submit(); 
-```
+</code></pre>
 
 >[!MORE_LIKE_THIS]
 >
@@ -129,7 +128,7 @@ Returns the API object of the current [!UICONTROL DIL] instance.
 
 **Sample Code** 
 
-```
+<pre><code>
 var partnerObject = DIL.create({ 
      partner: ' 
 <i>partner name</i>', 
@@ -138,8 +137,7 @@ var partnerObject = DIL.create({
 }); 
 partnerObject.api.traits( 
 <i>[123, 456, 789]</i>); 
-
-```
+</code></pre>
 
 ## logs {#reference_51420BDD8C5A4BB28E1AE03727CA2120}
 
@@ -159,7 +157,7 @@ Returns the API object of the current [!UICONTROL DIL] instance.
 
 **Sample Code**
 
-```
+<pre><code>
 var partnerObject = DIL.create({ 
      partner: ' 
 <i>partner</i>', 
@@ -170,7 +168,7 @@ partnerObject.api.logs({
      file: 'dil.js', 
      message: 'This is the first request' 
 });
-```
+</code></pre>
 
 ## submit {#reference_9FC05E3D69EC43B192A7F7BB1F3818C1}
 
@@ -194,7 +192,7 @@ Returns the API object of the current [!UICONTROL DIL] instance.
 
 **Sample Code** 
 
-```
+<pre><code>
 var dataLib = DIL.create({ 
      partner: ' 
 <i>partnerName</i>', 
@@ -212,7 +210,7 @@ dataLib.api.traits([
      d_dma: ' 
 <i>default</i>' 
 }).submit();
-```
+</code></pre>
 
 >[!MORE_LIKE_THIS]
 >
@@ -246,7 +244,7 @@ Returns an API object of the current [!UICONTROL DIL] instance.
 
 **Sample Code** 
 
-```
+<pre><code>
 var dataLib = DIL.create({ 
      partner: ' 
 <i>partnerName</i>', 
@@ -262,7 +260,7 @@ dataLib.api.signals({
 }).afterResult(function(json){ 
      //Do something with the JSON data returned from the server. 
 }).submit();
-```
+</code></pre>
 
 ## clearData {#reference_C24ED9AD176247DF82F7E4DAAE9EA295}
 
@@ -286,7 +284,7 @@ Returns the API object of the current [!UICONTROL DIL] instance.
 
 **Sample Code** 
 
-```
+<pre><code>
 var dataLib = DIL.create({ 
      partner: ' 
 <i>partnerName</i>', 
@@ -307,7 +305,7 @@ dataLib.api.traits([
  
 //Reset the pending data 
 dataLib.clearData();
-```
+</code></pre>
 
 ## customQueryParams {#reference_4080F4679B96430585153A7DDC264CE7}
 
@@ -342,7 +340,7 @@ Returns the API object of the current DIL instance.
 
 **Sample Code** 
 
-```
+<pre><code>
 var partnerObject = DIL.create({ 
      partner: ' 
 <i>partner</i>', 
@@ -354,7 +352,7 @@ partnerObject.api.customQueryParams({
      ntype: 'default' 
 }); 
 
-```
+</code></pre>
 
 ## getContainerNSID {#reference_CD2FF603078A47D8BCC40D2DDBCD6031}
 
@@ -370,7 +368,7 @@ r_dil_get_container_nsid.xml
 
 **Sample Code** 
 
-```
+<pre><code>
 var dataLib = DIL.create({ 
      partner: ' 
 <i>partnerName</i>', 
@@ -380,7 +378,7 @@ var dataLib = DIL.create({
  
 //Verify the container NSID 
 var nsid = dataLib.api.getContainerNSID();
-```
+</code></pre>
 
 ## getEventLog {#reference_05CA25F0692A40E298948C51476FCEFE}
 
@@ -396,7 +394,7 @@ r_dil_get_event_log.xml
 
 **Sample Code** 
 
-```
+<pre><code>
 var dataLib = DIL.create({ 
      partner: ' 
 <i>partnerName</i>', 
@@ -422,7 +420,7 @@ if (log && log.length) {
 }else{ 
      alert('No log messages'); 
 }
-```
+</code></pre>
 
 ## getPartner {#reference_EC0682F497DC43798ACD9DD25DBD4683}
 
@@ -438,7 +436,7 @@ r_dil_get_partner.xml
 
 **Sample Code** 
 
-```
+<pre><code>
 var dataLib = DIL.create({ 
      partner: ' 
 <i>partnerName</i>' 
@@ -448,7 +446,7 @@ var dataLib = DIL.create({
  
 //Verify the partner name 
 var partner = dataLib.api.getPartner();
-```
+</code></pre>
 
 ## getState {#reference_476646B9602144C09B5B422731E93FAB}
 
@@ -464,7 +462,7 @@ r_dil_get_state.xml
 
 **Sample Code** 
 
-```
+<pre><code>
 var dataLib = DIL.create({ 
      partner: ' 
 <i>partnerName</i>', 
@@ -524,7 +522,7 @@ state = {
      } 
 } 
 */
-```
+</code></pre>
 
 ## idSync {#reference_B01B88C083434CF8ABBEABD3C6956C48}
 
@@ -611,7 +609,7 @@ Both functions return `Successfully queued` if successful. They return an error 
 
 `dilInstance.api.idSync(initConfig)` 
 
-```js
+<pre><code class="js">
 // Fires url with macros replaced 
 dilInstance.api.idSync({ 
  dpid: '23', // must be a string 
@@ -619,18 +617,18 @@ dilInstance.api.idSync({
 %2Fibs%3Adpid%3D420%26dpuuid%3D%7B%7Buid%7D%7D', 
  minutesToLive: 20160 // optional, defaults to 20160 minutes (14 days)  
 });
-```
+</code></pre>
 
 `dilInstance.api.aamIdSync(initConfig)` 
 
-```js
-// Fires 'https:/https:' + '//dpm.demdex.net/ibs:dpid=<dpid>&dpuuid=<dpuuid>' 
+<pre><code class="js">
+// Fires 'https:/https:' + '//dpm.demdex.net/ibs:dpid=&lt;dpid&gt;&dpuuid=&lt;dpuuid&gt;' 
 dilInstance.api.aamIdSync({ 
  dpid: '23', // must be a string 
  dpuuid: '98765', // must be a string 
  minutesToLive: 20160 // optional, defaults to 20160 minutes (14 days)  
 });
-```
+</code></pre>
 
 >[!MORE_LIKE_THIS]
 >
@@ -666,7 +664,7 @@ Returns the API object of the current [!UICONTROL DIL] instance.
 
 **Sample Code** 
 
-```
+<pre><code>
 var dataLib = DIL.create({ 
      partner: ' 
 <i>partnerName</i>', 
@@ -678,7 +676,7 @@ dataLib.api.traits([
 <i>123, 456, 789</i>]).result(function(json){ 
      //Do something, possibly with the JSON data returned from the server. 
 });.submit();
-```
+</code></pre>
 
 ## secureDataCollection {#concept_F23D61F930874D26AAA136972B0206AC}
 
@@ -698,12 +696,12 @@ dil-secure-data-collection.xml
 >
 >Set `secureDataCollection= false` if you use visitorAPI.js and [!UICONTROL DIL] on the same page. See the code sample below.
 
-```js
+<pre><code class="js">
 var dilInstance = DIL.create({ 
      ... 
      secureDataCollection: false 
 });
-```
+</code></pre>
 
 >[!MORE_LIKE_THIS]
 >
@@ -725,12 +723,12 @@ dil-use-cors-only.xml
 
 **Code Sample**
 
-```js
+<pre><code class="js">
 var dilInstance = DIL.create({ 
      ... 
      useCORSOnly: true 
 });
-```
+</code></pre>
 
 >[!IMPORTANT]
 >
@@ -766,7 +764,7 @@ Returns an API object of the current [!UICONTROL DIL] instance.
 
 **Sample Code** 
 
-```
+<pre><code>
 var dataLib = DIL.create({ 
      partner:' 
 <i>partnerName</i>', 
@@ -776,5 +774,5 @@ var dataLib = DIL.create({
  
 dataLib.api.traits([ 
 <i>123, 456, 789</i>]).useImageRequest().submit();
-```
+</code></pre>
 
