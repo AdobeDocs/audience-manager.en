@@ -28,7 +28,7 @@ To subscribe to a public data feed:
 
 1. Click the name of the data feed you want to use. This opens the [plan details page](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#concept_61D21E5C524940FCA28FB5D515C3065D) for the selected feed.
 
-   ![](assets/subscribe2.png)
+   ![](assets/plan-details.png)
 
 1. Choose a use case from the subscriptions table and:
     * Move the **[!UICONTROL Subscription]** slider to **[!UICONTROL On]**.
@@ -276,55 +276,31 @@ marketplace-buyer-details.xml
 
  -->
 
-![](assets/subscribe2.png)
+![](assets/plan-details-numbered.png)
 
-Refer to the following table for details about different elements of the plan details page.
+This page gives you the following information:
 
-<table id="table_033AC2632FEC45AFAA28D9B0B36A45A2"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Page Element </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Basic Plan Information </p> </td> 
-   <td colname="col2"> <p>This includes feed information such as the: </p> <p> 
-     <ul id="ul_DE020897DF9644599A12EAB28BEBB2F4"> 
-      <li id="li_2708CCC5FFC642D7AC87EEDC6CD9A9BE">Data feed name. For example, as shown above, the name of this feed is "Cross Pixel - Demographics." </li> 
-      <li id="li_A38FB0BA75D84324AD639F4DA9024417">The name of the data provider. </li> 
-      <li id="li_8FD44C8DBD97451FB8A2248933DAD064">Feed ID </li> 
-      <li id="li_8A054691D89441CAA1BCD7D1464DD12D">Description </li> 
-      <li id="li_D37A8EA0FB134B83A9289260EAD2BA7D">Number of traits in the feed. </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Plan Information Buttons </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_ACDA08D3C7304CBDA0896C5E70A7FFD8"> 
-      <li id="li_5FF34641C2364F90A80AEDD0ADB64BC9">Click <span class="uicontrol"> Explore All Traits</span> to see details about all the traits in the selected data feed. </li> 
-      <li id="li_3B3924ADA7B54979B3AE6E6522BB3761">Click <span class="uicontrol"> Request Details</span> to ask the data provider questions about the selected data feed or to <a href="../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#concept_DB7031710F254277A5297D98A13EFEC9"> request a discount</a>. This feature sends your comments and questions directly to the data provider. </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Data Feed Report Metrics </p> </td> 
-   <td colname="col2"> <p>The Venn diagram (and related metrics) shows you trait overlap data for the last 30-days. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Use Case / Subscription Table </p> </td> 
-   <td colname="col2"> <p>See <a href="../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#concept_BF17D148E9BA4A2FBCCA4576F00046C9"> Understanding Data Feed Use Cases</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Plan Action Buttons </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_114F013A38A54F1592CEA30CB06A6F58"> 
-      <li id="li_37B60217EFBF447ABF136508BD483C7D">Click <span class="uicontrol"> Cancel</span> to leave the page without making changes. </li> 
-      <li id="li_7356FE918192433EAC42FAB398223F4D">Click <span class="uicontrol"> Review &amp; Subscribe</span> to subscribe to a data feed. See also <a href="../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#task_F0E25DBC6326475497D5A086EF9B3182"> Subscribe to a Public Data Feed</a> and <a href="../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#task_201526273485445EB6DB0FAD196259C5"> Subscribe to a Private Data Feed</a>. </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+1. **Basic Plan Information**. This includes feed information such as:
+   * Data feed name. For example, as shown above, the name of this feed is "Sample Data Feed."
+   * The name of the data provider;
+   * Data Feed ID;
+   * Description;
+   * Number of traits in the feed;
+
+1. Plan Information Buttons.
+   * Click **[!UICONTROL Explore All Traits]** to see details about all the traits in the selected data feed.
+   * Click **[!UICONTROL Request More Details]** to ask the data provider questions about the selected data feed or to request a discount. This feature sends your comments and questions directly to the data provider.
+  
+1. Data Feed Report Metrics. The Venn diagram (and related metrics) shows you trait overlap data for the last 30 days. See [The Marketplace: About](marketplace-data-buyers.md#concept_47C5946409634F8F8DF885977A705B8C) for details.
+   * **[!UICONTROL 30 Day Overlapped Uniques]**: The number of unique users in your account that overlap with the users in the provider’s account.
+   * **[!UICONTROL 30 Day Provider Unique Users]**: The number of unique users coming from the provider's account.
+   * **[!UICONTROL Your Unique Users]**: The number of unique users coming from your account.
+
+1. **[!UICONTROL Plan Details]** Table. This table shows you the use cases that you can subscribe to the data feed for, as well as its pricing model. See [Understanding Data Feed Use Cases](#concept_BF17D148E9BA4A2FBCCA4576F00046C9).
+
+1. Plan Action Buttons.
+   * Click **[!UICONTROL Cancel]** to leave the page without making changes.
+   * Click **[!UICONTROL Review & Subscribe]** to subscribe to a data feed. This button is greyed out until you switch a [!UICONTROL Subscription] toggle to [!UICONTROL On]. See also [Subscribe to a Public Data Feed](#task_F0E25DBC6326475497D5A086EF9B3182) and [Subscribe to a Private Data Feed](#task_201526273485445EB6DB0FAD196259C5).
 
 >[!MORE_LIKE_THIS]
 >
