@@ -19,7 +19,7 @@ Enterprise customers using [!DNL Audience Manager] need one data management plat
 
 ## Create Users {#task_89D190BA6A394B719A35CDA76899B957}
 
-<!-- t_create_groups.xml -->
+<!-- t_create_users.xml -->
 
 Create users in [!DNL Audience Manager] and specify user details, login status, and assign users to groups.
 
