@@ -11,10 +11,6 @@ uuid: 27995c2d-6572-438e-af99-b5477f090ae9
 
 Code samples and descriptions for specific DIL use cases.
 
-## <wintitle> DIL </wintitle> Use Cases and Code Samples {#concept_5351627A61C24F9C979721E908E2E6C9}
-
-Code samples and descriptions for specific [!UICONTROL DIL] use cases.
-
 <!-- 
 
 c_dil_use_case.xml
@@ -241,8 +237,8 @@ This procedure assumes you have a [!DNL Google Tag Manager] account, some workin
 To traffic the `dil.js` file in GTM: 
 
 1. Create a new container or open an existing container.
-1. Add a new tag to the container.
-1. Open the tag to edit it and:
+2. Add a new tag to the container.
+3. Open the tag to edit it and:
 
     * Name the tag. 
     * Select **[!UICONTROL Custom HTML Tag]**from the **[!UICONTROL Tag Type]** drop-down list. 
@@ -251,8 +247,8 @@ To traffic the `dil.js` file in GTM:
     
     * Click **[!UICONTROL Save]**.
 
-1. Publish the container.
-1. Generate container tag code and place it on your inventory.
+4. Publish the container.
+5. Generate container tag code and place it on your inventory.
 
 >[!MORE_LIKE_THIS]
 >
