@@ -77,8 +77,7 @@ Returns the API object of the current [!UICONTROL DIL] instance.
 
 <pre><code>
 var dataLib = DIL.create({ 
-     partner: ' 
-<i>partnerName</i>' 
+     partner: '<i>partnerName</i>' 
      containerNSID:  
 <i>containerNSID</i> 
 }); 
@@ -130,13 +129,10 @@ Returns the API object of the current [!UICONTROL DIL] instance.
 
 <pre><code>
 var partnerObject = DIL.create({ 
-     partner: ' 
-<i>partner name</i>', 
-     containerNSID:  
-<i>NSID</i> 
+     partner: '<i>partner name</i>', 
+     containerNSID: <i>NSID</i> 
 }); 
-partnerObject.api.traits( 
-<i>[123, 456, 789]</i>); 
+partnerObject.api.traits(<i>[123, 456, 789]</i>); 
 </code></pre>
 
 ## logs {#reference_51420BDD8C5A4BB28E1AE03727CA2120}
@@ -159,8 +155,7 @@ Returns the API object of the current [!UICONTROL DIL] instance.
 
 <pre><code>
 var partnerObject = DIL.create({ 
-     partner: ' 
-<i>partner</i>', 
+     partner: '<i>partner</i>', 
      containerNSID:  
 <i>NSID</i> 
 }); 
@@ -194,8 +189,7 @@ Returns the API object of the current [!UICONTROL DIL] instance.
 
 <pre><code>
 var dataLib = DIL.create({ 
-     partner: ' 
-<i>partnerName</i>', 
+     partner: '<i>partnerName</i>', 
      containerNSID:  
 <i>containerNSID</i> 
 }); 
@@ -205,10 +199,8 @@ dataLib.api.traits([
      file: 'dil.js', 
      message: 'This is the first request' 
 }).signals({ 
-     c_zdid:  
-<i>1111</i> 
-     d_dma: ' 
-<i>default</i>' 
+     c_zdid: <i>1111</i> 
+     d_dma: '<i>default</i>' 
 }).submit();
 </code></pre>
 
@@ -246,17 +238,13 @@ Returns an API object of the current [!UICONTROL DIL] instance.
 
 <pre><code>
 var dataLib = DIL.create({ 
-     partner: ' 
-<i>partnerName</i>', 
-     containerNSID:  
-<i>containerNSID</i> 
+     partner: '<i>partnerName</i>', 
+     containerNSID: <i>containerNSID</i> 
 }); 
  
 dataLib.api.signals({ 
-     c_zdid:  
-<i>54321</i> 
-     d_dma: ' 
-<i>default</i>' 
+     c_zdid: <i>54321</i> 
+     d_dma: '<i>default</i>' 
 }).afterResult(function(json){ 
      //Do something with the JSON data returned from the server. 
 }).submit();
@@ -286,21 +274,16 @@ Returns the API object of the current [!UICONTROL DIL] instance.
 
 <pre><code>
 var dataLib = DIL.create({ 
-     partner: ' 
-<i>partnerName</i>', 
-     containerNSID:  
-<i>containerNSID</i> 
+     partner: '<i>partnerName</i>', 
+     containerNSID: <i>containerNSID</i> 
 }); 
  
-dataLib.api.traits([ 
-<i>123,456, 789</i>]).logs({ 
+dataLib.api.traits([<i>123,456, 789</i>]).logs({ 
      file: 'dil.js' 
      message: 'This is the first request' 
 }).signals({ 
-     c_zdid:  
-<i>1111</i> 
-     d_dma: ' 
-<i>default</i>' 
+     c_zdid: <i>1111</i> 
+     d_dma: '<i>default</i>' 
 }); 
  
 //Reset the pending data 
@@ -342,16 +325,13 @@ Returns the API object of the current DIL instance.
 
 <pre><code>
 var partnerObject = DIL.create({ 
-     partner: ' 
-<i>partner</i>', 
-     containerNSID:  
-<i>NSID</i> 
+     partner: '<i>partner</i>', 
+     containerNSID: <i>NSID</i> 
 }); 
 partnerObject.api.customQueryParams({ 
      nid: 54231, 
      ntype: 'default' 
 }); 
-
 </code></pre>
 
 ## getContainerNSID {#reference_CD2FF603078A47D8BCC40D2DDBCD6031}
@@ -370,10 +350,8 @@ r_dil_get_container_nsid.xml
 
 <pre><code>
 var dataLib = DIL.create({ 
-     partner: ' 
-<i>partnerName</i>', 
-     containerNSID:  
-<i>containerNSID</i> 
+     partner: '<i>partnerName</i>', 
+     containerNSID: <i>containerNSID</i> 
 }); 
  
 //Verify the container NSID 
@@ -396,21 +374,16 @@ r_dil_get_event_log.xml
 
 <pre><code>
 var dataLib = DIL.create({ 
-     partner: ' 
-<i>partnerName</i>', 
-     containerNSID:  
-<i>containerNSID</i> 
+     partner: '<i>partnerName</i>', 
+     containerNSID: <i>containerNSID</i> 
 }); 
  
-dataLib.api.traits([ 
-<i>123, 456, 789</i>]).logs({ 
+dataLib.api.traits([<i>123, 456, 789</i>]).logs({ 
      file: 'dil.js', 
      message: 'This is the first request' 
 });.signals({ 
-     c_zdid:  
-<i>1111</i> 
-     d_dma: ' 
-<i>default</i>' 
+     c_zdid: <i>1111</i> 
+     d_dma: '<i>default</i>' 
 });.submit(); 
  
 //Check log for messages 
@@ -438,10 +411,8 @@ r_dil_get_partner.xml
 
 <pre><code>
 var dataLib = DIL.create({ 
-     partner: ' 
-<i>partnerName</i>' 
-     containerNSID:  
-<i>containerNSID</i> 
+     partner: '<i>partnerName</i>' 
+     containerNSID: <i>containerNSID</i> 
 }); 
  
 //Verify the partner name 
@@ -464,29 +435,23 @@ r_dil_get_state.xml
 
 <pre><code>
 var dataLib = DIL.create({ 
-     partner: ' 
-<i>partnerName</i>', 
-     containerNSID:  
-<i>containerNSID</i> 
+     partner: '<i>partnerName</i>', 
+     containerNSID: <i>containerNSID</i> 
 }); 
  
-dataLib.api.traits([ 
-<i>123, 456, 789</i>]).logs({ 
+dataLib.api.traits([<i>123, 456, 789</i>]).logs({ 
      file: 'dil.js', 
      message:'This is the first request' 
 });.signals({ 
-     c.zdid:  
-<i>1111</i> 
-     d_dma: ' 
-<i>default</i>' 
+     c.zdid: <i>1111</i> 
+     d_dma: '<i>default</i>' 
 });.submit(); 
  
 var state = dataLib.api.getState(); 
  
 /*Object outline of state 
 state = { 
-     pendingRequest: { 
-<i>pending data for call to server</i>}, 
+     pendingRequest: {<i>pending data for call to server</i>}, 
      otherRequestInfo:{ 
           firingQueue: [], 
           fired: [], 
@@ -666,14 +631,11 @@ Returns the API object of the current [!UICONTROL DIL] instance.
 
 <pre><code>
 var dataLib = DIL.create({ 
-     partner: ' 
-<i>partnerName</i>', 
-     containerNSID:  
-<i>containerNSID</i> 
+     partner: '<i>partnerName</i>', 
+     containerNSID: <i>containerNSID</i> 
 }); 
  
-dataLib.api.traits([ 
-<i>123, 456, 789</i>]).result(function(json){ 
+dataLib.api.traits([<i>123, 456, 789</i>]).result(function(json){ 
      //Do something, possibly with the JSON data returned from the server. 
 });.submit();
 </code></pre>
@@ -766,13 +728,10 @@ Returns an API object of the current [!UICONTROL DIL] instance.
 
 <pre><code>
 var dataLib = DIL.create({ 
-     partner:' 
-<i>partnerName</i>', 
-     containerNSID:  
-<i>containerNSID</i> 
+     partner:'<i>partnerName</i>', 
+     containerNSID: <i>containerNSID</i> 
 }); 
  
-dataLib.api.traits([ 
-<i>123, 456, 789</i>]).useImageRequest().submit();
+dataLib.api.traits([<i>123, 456, 789</i>]).useImageRequest().submit();
 </code></pre>
 
