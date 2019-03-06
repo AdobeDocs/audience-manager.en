@@ -7,21 +7,17 @@ title: Permissions Management API Methods
 uuid: 111d0f92-d92c-4d4b-b0d6-10dd3fa466ad
 ---
 
-# Permissions Management API Methods {#permissions-management-api-methods}
+# Permissions Management [!DNL API] Methods {#permissions-management-api-methods}
 
-Rest API methods to manage permissions for objects and groups.
+Rest [!DNL API] methods to manage permissions for objects and groups.
 
-<!-- 
-c_rest_api_perm_man.xml
--->
+<!-- c_rest_api_perm_man.xml -->
 
 ## List Available Object Types {#reference_065FE71054DA4ABD985A6A0FAEEDF212}
 
 A `GET` method to list available object types on which role-based access controls can be set.
 
-<!--
-r_rest_api_perm_list.xml
--->
+<!-- r_rest_api_perm_list.xml -->
 
 ### Request
 
@@ -37,9 +33,7 @@ r_rest_api_perm_list.xml
 
 A `GET` method to list available permissions for an object type.
 
-<!--
-r_rest_api_perm_list_perms.xml
--->
+<!-- r_rest_api_perm_list_perms.xml -->
 
 ### Request
 

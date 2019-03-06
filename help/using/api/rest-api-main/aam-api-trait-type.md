@@ -11,23 +11,19 @@ uuid: 082931d5-457b-4622-817b-86303f38c26a
 
 Optional methods that let you to assign traits to a user-defined type or category, usually according to function or for your own internal reporting processes.
 
-<!-- 
-c_rest_api_trait_types_intro.xml
--->
+<!-- c_rest_api_trait_types_intro.xml -->
 
 >[!NOTE]
 >
 >Trait type methods do not assign traits to categories used by the [common taxonomy](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods). Think of these as labels that are separate from the common taxonomy.
 
-For visual reference, [!UICONTROL Trait Types] is a dropdown control located in the UI under **[!UICONTROL Traits > Create new trait > Basic Information]**.
+For visual reference, [!UICONTROL Trait Types] is a dropdown control located in the [!DNL UI] under **[!UICONTROL Traits > Create new trait > Basic Information]**.
 
 ## Create a New Trait Type {#reference_ADC6A3D2B2E146E88906003FC05FDEF6}
 
 A `POST` method that lets you create a new trait type.
 
-<!-- 
-r_rest_api_create_trait_type.xml
--->
+<!-- r_rest_api_create_trait_type.xml -->
 
 ### Request
 
@@ -60,9 +56,7 @@ r_rest_api_create_trait_type.xml
 
 A `GET` method that returns details about the specified trait type.
 
-<!-- 
-r_rest_api_get_trait_type.xml
--->
+<!-- r_rest_api_get_trait_type.xml -->
 
 ### Request
 
@@ -87,9 +81,7 @@ r_rest_api_get_trait_type.xml
 
 A `GET` method that returns details about all your trait types in an array.
 
-<!--
-r_rest_api_get_trait_types.xml
--->
+<!-- r_rest_api_get_trait_types.xml -->
 
 ### Request
 

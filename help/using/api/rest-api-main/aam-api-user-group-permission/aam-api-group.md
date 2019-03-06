@@ -9,19 +9,15 @@ uuid: fe042eb5-ea12-42fe-be98-d721f987a914
 
 # Group Management API Methods {#group-management-api-methods}
 
-Rest API methods to manage groups, including creating, updating, listing, deleting groups.
+Rest [!DNL API] methods to manage groups, including creating, updating, listing, deleting groups.
 
-<!--
-c_rest_api_user_man_group.xml
--->
+<!-- c_rest_api_user_man_group.xml -->
 
 ## Create a Group {#reference_1CEABC94762F451CBE7ADE64F11A0D87}
 
 A `POST` method to create a new user group.
 
-<!-- 
-r_rest_api_group_create.xml
--->
+<!-- r_rest_api_group_create.xml -->
 
 ### Request
 
@@ -117,9 +113,7 @@ r_rest_api_group_list.xml
 
 A `DELETE` method to delete a user group and remove all members from that group.
 
-<!--
-r_rest_api_group_delete.xml
--->
+<!-- r_rest_api_group_delete.xml -->
 
 ### Request
 
@@ -131,9 +125,7 @@ Returns `204 No Content` if successful. In case of conflict returns `409 Conflic
 
 A `DELETE` method to delete multiple groups in bulk and remove all members from that group.
 
-<!--
-r_rest_api_group_delete_bulk.xml
--->
+<!-- r_rest_api_group_delete_bulk.xml -->
 
 ### Request
 
@@ -145,9 +137,7 @@ Returns `204 No Content` if successful. In case of conflict returns `409 Conflic
 
 A `GET` method to list the permission objects on a group.
 
-<!--
-r_rest_api_perm_list_group.xml
--->
+<!-- r_rest_api_perm_list_group.xml -->
 
 ### Request
 
@@ -181,9 +171,7 @@ Returns `400 Bad Request` if the group is inaccessible.
 
 A `PUT` method to update group permissions. This method overwrites the old permissions with the new permissions.
 
-<!--
-r_rest_api_perm_set.xml
--->
+<!-- r_rest_api_perm_set.xml -->
 
 ### Request
 

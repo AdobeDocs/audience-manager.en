@@ -7,9 +7,9 @@ title: DCS API Methods
 uuid: 6e407458-11d4-4342-a84a-512afa5fc183
 ---
 
-# [!UICONTROL DCS] [!UICONTROL API] Methods {#dcs-api-methods}
+# [!UICONTROL DCS] [!DNL API] Methods {#dcs-api-methods}
 
-Send data to the [!UICONTROL DCS] [!UICONTROL API] using `GET` or `POST` methods.
+Send data to the [!UICONTROL DCS] [!DNL API] using `GET` or `POST` methods.
 
 You can send data to the [!UICONTROL DCS] using either one of the `GET` or `POST` methods. Take a look at the sample calls below, using [curl](https://curl.haxx.se/). In all three sample calls, we are adding the signals `c_likes = famous popstar` and `c_loves = famous actress` to the device profile `12345678901234567890123456789012345678`.
 

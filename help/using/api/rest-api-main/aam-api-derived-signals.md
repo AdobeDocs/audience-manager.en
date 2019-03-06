@@ -7,13 +7,11 @@ title: Derived Signals API Methods
 uuid: 698019bc-d7f6-41e0-a78a-1ab0bf0e65a0
 ---
 
-# Derived Signals [!UICONTROL API] Methods {#derived-signals-api-methods}
+# Derived Signals [!DNL API] Methods {#derived-signals-api-methods}
 
-[!UICONTROL API] methods that let you work with derived signals. A derived signal qualifies site visitors for additional traits based on a trait they've already seen.
+[!DNL API] methods that let you work with derived signals. A derived signal qualifies site visitors for additional traits based on a trait they've already seen.
 
-<!--
-c_separator.xml
--->
+<!-- c_separator.xml -->
 
 For more information about derived signals, see [Derived Signals](../../features/derived-signals.md#concept_36FF7303F39E4748AC048D08F9E371C6).
 
@@ -21,9 +19,7 @@ For more information about derived signals, see [Derived Signals](../../features
 
 A `POST` method that lets you create a new derived signal.
 
-<!--
-r_create_new_derived_signal.xml
--->
+<!-- r_create_new_derived_signal.xml -->
 
 ### Request
 
@@ -67,9 +63,7 @@ A successful update returns response code `201 Created` and data as shown below.
 
 A `DELETE` method that lets you remove a derived signal from your collection.
 
-<!--
-r_delete_derived_signal.xml
--->
+<!-- r_delete_derived_signal.xml -->
 
 ### Request
 
@@ -83,9 +77,7 @@ Returns response code `204 No Content` if successful.
 
 A `GET` method that returns details for an individual derived signal.
 
-<!--
-r_get_derived_signal_details.xml
--->
+<!-- r_get_derived_signal_details.xml -->
 
 ### Request
 
@@ -116,9 +108,7 @@ A successful request returns response code `200 OK` and data as shown below.
 
 A `GET` method that returns details for all your derived signals.
 
-<!-- 
-r_return_all_derived_signals.xml
--->
+<!-- r_return_all_derived_signals.xml -->
 
 ### Request
 
@@ -126,7 +116,7 @@ r_return_all_derived_signals.xml
 
 ### Optional Query Parameters
 
-You can use these optional parameters with [!UICONTROL API] methods that return *all* properties for an object. Set these options in the request string when passing that query in to the [!UICONTROL API]. See [Optional Parameters](../../api/rest-api-main/aam-api-getting-started.md#concept_BB1E73AE736F4F54830E6CAF28089608).  
+You can use these optional parameters with [!DNL API] methods that return *all* properties for an object. Set these options in the request string when passing that query in to the [!DNL API]. See [Optional Parameters](../../api/rest-api-main/aam-api-getting-started.md#concept_BB1E73AE736F4F54830E6CAF28089608).  
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -154,9 +144,9 @@ You can use these optional parameters with [!UICONTROL API] methods that return 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><span class="codeph"> search</span> </td> 
-   <td colname="col2">Returns results based on the specified string you want to use as a search parameter. For example, let's say you want to find results for all models that have the word "Test" in any of the value fields for that item. Your sample request could look like this: <p><span class="codeph"> GET https://api.demdex.com/v1/models/?search=Test</span>. </p> <p>You can search on any value returned by a "get all" method. </p> </td> 
-  </tr> 
- </tbody> 
+   <td colname="col2">Returns results based on the specified string you want to use as a search parameter. For example, let's say you want to find results for all models that have the word "Test" in any of the value fields for that item. Your sample request could look like this: <p><span class="codeph"> GET https://api.demdex.com/v1/models/?search=Test</span>. </p> <p>You can search on any value returned by a "get all" method. </p> </td>
+  </tr>
+ </tbody>
 </table>
 
 ### Response
@@ -195,4 +185,3 @@ A successful update returns response code `200 OK` and data (in an array) as sho
     }
 ]
 ```
-

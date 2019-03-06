@@ -7,7 +7,7 @@ title: Audience Manager Overview
 uuid: 9334da91-3691-4223-a433-cca35a980a6e
 ---
 
-# Audience Manager Overview{#audience-manager-overview}
+# Audience Manager Overview {#audience-manager-overview}
 
 Information about the history of Adobe Audience Manager, the types of data collected, segmentation, reporting, and more.
 

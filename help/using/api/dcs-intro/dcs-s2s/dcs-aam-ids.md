@@ -7,7 +7,7 @@ title: Get User IDs and Regions From a DCS Response
 uuid: 08036045-3b26-4d40-8e94-7d0884048683
 ---
 
-# Get User [!UICONTROL DCS] and Regions From a [!UICONTROL DCS] Response{#get-user-ids-and-regions-from-a-dcs-response}
+# Get User [!UICONTROL DCS] and Regions From a [!UICONTROL DCS] Response {#get-user-ids-and-regions-from-a-dcs-response}
 
 This section describes how to parse a [!UICONTROL DCS] response to retrieve the visitor and region IDs required to make real-time calls to the [!UICONTROL DCS].
 

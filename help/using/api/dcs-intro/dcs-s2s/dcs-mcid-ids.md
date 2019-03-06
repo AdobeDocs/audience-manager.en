@@ -53,7 +53,7 @@ Code in *italics* represents a variable placeholder.
  </tbody> 
 </table>
 
-## Working With getMarketingCloudVisitorID {#section_0D6CAAA7A2404EB59274CA35DCB5E65B}
+## Working With `getMarketingCloudVisitorID` {#section_0D6CAAA7A2404EB59274CA35DCB5E65B}
 
 Another way to get the visitor ID is with the `getMarketingCloudVisitorID` function. When invoked, this function queries the [!DNL ID service] and returns an ID. `getMarketingCloudVisitorID` accepts the optional `callback` argument as shown:
 
