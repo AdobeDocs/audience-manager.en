@@ -11,9 +11,7 @@ uuid: abce7426-55a5-4045-93a7-0487652a7189
 
 A `GET` method that returns the destination for the specified `destinationId`.
 
-<!--
-r_get_all_destinations_order_id.xml
--->
+<!-- r_get_all_destinations_order_id.xml -->
 
 ## Request
 
@@ -55,9 +53,7 @@ r_get_all_destinations_order_id.xml
 
 A `GET` method that returns all destinations for the specified partner.
 
-<!--
-r_get_all_destinations.xml
--->
+<!-- r_get_all_destinations.xml -->
 
 ### Request
 
@@ -71,7 +67,7 @@ r_get_all_destinations.xml
 
 ### Optional Query Parameters
 
-You can use these optional parameters with API methods that return *all* properties for an object. Set these options in the request string when passing that query in to the API. See [Optional Parameters](../../../api/rest-api-main/aam-api-getting-started.md#concept_BB1E73AE736F4F54830E6CAF28089608).  
+You can use these optional parameters with API methods that return *all* properties for an object. Set these options in the request string when passing that query in to the [!DNL API]. See [Optional Parameters](../../../api/rest-api-main/aam-api-getting-started.md#concept_BB1E73AE736F4F54830E6CAF28089608).  
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -140,9 +136,7 @@ You can use these optional parameters with API methods that return *all* propert
 
 A `GET` method that returns an individual destination mapping based on the `mappingId`.
 
-<!-- 
-r_get_destination_trait_data_order.xml
--->
+<!-- r_get_destination_trait_data_order.xml -->
 
 ### Request
 
@@ -179,9 +173,7 @@ r_get_destination_trait_data_order.xml
 
 A `GET` method that returns the mappings for a destination.
 
-<!--
-r_get_destination_mappings.xml
--->
+<!-- r_get_destination_mappings.xml -->
 
 >[!NOTE]
 >
@@ -255,9 +247,7 @@ r_get_destination_mappings.xml
 
 A `GET` method that returns all available device platforms for destinations.
 
-<!-- 
-r_get_dest_platforms.xml
--->
+<!-- r_get_dest_platforms.xml -->
 
 ### Request
 
@@ -275,9 +265,7 @@ BROWSER, ANDROID, iOS, ALL
 
 A `GET` method that returns outbound [!UICONTROL Server-to-Server] ( [!UICONTROL S2S]) and bulk [!UICONTROL S2S] destination job history information.
 
-<!--
-r_get_job_history.xml
--->
+<!-- r_get_job_history.xml -->
 
 ### Request
 

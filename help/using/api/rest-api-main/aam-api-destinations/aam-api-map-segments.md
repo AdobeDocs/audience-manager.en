@@ -11,9 +11,7 @@ uuid: 35358ace-3082-4e86-a6eb-d77281af6d7e
 
 Map segments to destinations with these [!DNL RESTful API] methods.
 
-<!--
-c_api_map_seg_dest.xml
--->
+<!-- c_api_map_seg_dest.xml -->
 
 ## Supported Destination Types: [!UICONTROL URL] and [!UICONTROL Cookie] Only
 
@@ -29,9 +27,7 @@ The available `POST` methods let you map segments to [!UICONTROL URL] and [!UICO
 
 A `POST` method that lets you map a segment to a non-serial [!UICONTROL URL] destination.
 
-<!-- 
-r_map_noserial_url.xml
--->
+<!-- r_map_noserial_url.xml -->
 
 ### Request
 
@@ -81,9 +77,7 @@ All request values are required unless otherwise indicated.
 
 A `POST` method that lets you map a segment to a serialized [!UICONTROL URL] destination.
 
-<!--
-r_map_serialized_url.xml
--->
+<!-- r_map_serialized_url.xml -->
 
 ### Request
 
@@ -133,9 +127,7 @@ In the request, the `traitAlias` corresponds to the key in a key-value pair. All
 
 A `POST` method that lets you map a segment to single-key, non-serialized [!UICONTROL cookie] destination.
 
-<!--
-r_map_cookie_noserial.xml
--->
+<!-- r_map_cookie_noserial.xml -->
 
 ### Request
 
@@ -182,9 +174,7 @@ In the request, the `valueAlias` corresponds to the value in a key-value pair. A
 
 A `POST` method that lets you map a segment to multi-key, non-serialized [!UICONTROL cookie] destination.
 
-<!--
-r_map_cookie_multikey_noserial.xml
--->
+<!-- r_map_cookie_multikey_noserial.xml -->
 
 ### Request
 
@@ -232,11 +222,7 @@ In the request, the `traitAlias` and `valueAlias` set the key and the value resp
 
 A `POST` method that lets you map a segment to a multi-key, serialized [!UICONTROL cookie destination].
 
-<!-- 
-
-r_map_cookie_multikey_serialized.xml
-
- -->
+<!-- r_map_cookie_multikey_serialized.xml -->
 
 ### Request
 
@@ -282,11 +268,9 @@ In the request, the `traitAlias` and `valueAlias` set the key and the value in a
 
 ## Map a Segment to a [!UICONTROL Server-to-Server] Destination {#reference_1F6C3A534C234BE4B01C32B09EC93101}
 
-A `POST` method that lets you map a segment to an existing [!UICONTROL server-to-server] destination. Note, however, that you cannot create [!UICONTROL server-to-server] destinations with these currently available API methods.
+A `POST` method that lets you map a segment to an existing [!UICONTROL server-to-server] destination. Note, however, that you cannot create [!UICONTROL server-to-server] destinations with these currently available [!DNL API] methods.
 
-<!-- 
-r_map_segment_s2s.xml
--->
+<!-- r_map_segment_s2s.xml -->
 
 ### Request
 
@@ -332,9 +316,7 @@ In the request, the `traitAlias` corresponds to the key in a key-value pair. All
 
 A `POST` method that lets you pass in an array of [!UICONTROL cookie] or [!UICONTROL URL] destination mappings.
 
-<!-- 
-r_bulk_create.xml
--->
+<!-- r_bulk_create.xml -->
 
 ### Request
 
@@ -419,9 +401,7 @@ A successful response returns the array of created mappings.
 
 A `POST` method that lets you map multiple segments to a destination.
 
-<!--
-r_add_segments_to_destination.xml
--->
+<!-- r_add_segments_to_destination.xml -->
 
 ### Request
 
@@ -505,9 +485,7 @@ Returns an array of created mappings.
 
 A `PUT` method that lets you update an existing destination by `destinationId`.
 
-<!--
-r_update_destination_data_order_id.xml
--->
+<!-- r_update_destination_data_order_id.xml -->
 
 ### Request
 
@@ -557,9 +535,7 @@ All request values are required unless otherwise indicated.
 
 A `PUT` method that lets you update a mapping to a destination by the specified `mappingId`.
 
-<!--
-r_update_destination_trait_data_order_id.xml
--->
+<!-- r_update_destination_trait_data_order_id.xml -->
 
 ### Request
 

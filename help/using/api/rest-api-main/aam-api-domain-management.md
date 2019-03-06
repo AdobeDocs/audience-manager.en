@@ -7,21 +7,17 @@ title: Domain Management API Methods
 uuid: f2f08bc5-ea42-4171-9a43-0b20976f0cb0
 ---
 
-# Domain Management API Methods {#domain-management-api-methods}
+# Domain Management [!DNL API] Methods {#domain-management-api-methods}
 
 Domain management methods that let you create and manage the domains to which you want to send data (for cookie destinations only).
 
-<!--
-c_partner_site.xml
--->
+<!-- c_partner_site.xml -->
 
 ## Create a New Domain {#reference_C332B8E339504884999ECC5314EF68A1}
 
 A `POST` method that lets you create a new domain for (cookie destinations only).
 
-<!--
-r_post_new_partner_site.xml
--->
+<!-- r_post_new_partner_site.xml -->
 
 ### Request
 
@@ -51,9 +47,7 @@ A successful response returns `201 created` and the partner site, including its 
 
 A `DELETE` method that lets you remove a domain (for cookie destinations only).
 
-<!--
-r_delete_partner_site.xml
--->
+<!-- r_delete_partner_site.xml -->
 
 ### Request
 
@@ -67,9 +61,7 @@ A successful response returns `204 no content`. Returns `404 not found` if the p
 
 A `GET` method that returns details about the specified domain (for cookie destinations only).
 
-<!--
-r_get_partner_site.xml
--->
+<!-- r_get_partner_site.xml -->
 
 ### Request
 
@@ -91,9 +83,7 @@ A successful response returns `200 OK` and data as shown in the sample below. Re
 
 A `GET` method that returns information about all your domains (for cookie destinations only).
 
-<!--
-r_get_partner_sites.xml
--->
+<!-- r_get_partner_sites.xml -->
 
 ### Request
 
@@ -101,7 +91,7 @@ r_get_partner_sites.xml
 
 ### Optional Query Parameters
 
-You can use these optional parameters with [!UICONTROL API] methods that return *all* properties for an object. Set these options in the request string when passing that query in to the API. See [Optional Parameters](../../api/rest-api-main/aam-api-getting-started.md#concept_BB1E73AE736F4F54830E6CAF28089608).  
+You can use these optional parameters with [!DNL API] methods that return *all* properties for an object. Set these options in the request string when passing that query in to the [!DNL API]. See [Optional Parameters](../../api/rest-api-main/aam-api-getting-started.md#concept_BB1E73AE736F4F54830E6CAF28089608).  
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 

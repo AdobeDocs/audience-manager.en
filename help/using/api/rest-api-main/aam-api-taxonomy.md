@@ -7,13 +7,11 @@ title: Taxonomic API Methods
 uuid: 4ee29ba5-e9ba-4498-a6ee-7343227dd7ba
 ---
 
-# Taxonomic [!UICONTROL API] Methods {#taxonomic-api-methods}
+# Taxonomic [!DNL API] Methods {#taxonomic-api-methods}
 
 Methods that let you view the Audience Manager common taxonomy. This optional classification scheme organizes traits into industry standard categories.
 
-<!--
-c_rest_api_taxonomy.xml
--->
+<!-- c_rest_api_taxonomy.xml -->
 
 >[!NOTE]
 >
@@ -23,9 +21,7 @@ c_rest_api_taxonomy.xml
 
 A `GET` method that returns details about the specified taxonomic category.
 
-<!--
-r_rest_api_taxonomy.xml
--->
+<!-- r_rest_api_taxonomy.xml -->
 
 ### Request
 
@@ -50,9 +46,7 @@ A successful response returns `200 OK` and the category for the specified ID. An
 
 A `GET` method that returns a list of the top-level categories in an array.
 
-<!-- 
-r_rest_api_taxonomies.xml
--->
+<!-- r_rest_api_taxonomies.xml -->
 
 ### Request
 
@@ -95,9 +89,7 @@ Truncated for brevity.
 
 A `GET` method that returns sub-categories for the specified parent category in an array.
 
-<!--
-r_rest_api_taxonomy_sub.xml
--->
+<!-- r_rest_api_taxonomy_sub.xml -->
 
 ### Request
 
@@ -135,4 +127,3 @@ A successful response returns `200 OK` and the category for the specified ID. An
     }
 ]
 ```
-

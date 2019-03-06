@@ -5,7 +5,7 @@ title: Making Server-to-Server DCS API Calls
 uuid: bdfe3430-e27f-4a5c-88d9-ae164d28f601
 ---
 
-# Making [!UICONTROL Server-to-Server] [!UICONTROL DCS API] Calls{#making-server-to-server-dcs-api-calls}
+# Making [!UICONTROL Server-to-Server] [!UICONTROL DCS API] Calls {#making-server-to-server-dcs-api-calls}
 
 >[!NOTE]
 >
@@ -68,7 +68,7 @@ A sample call looks similar to the following example.
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph">d_uuid=<span class="varname"> Audience Manager user ID</span></span> </p> </td> 
-   <td colname="col2"> <p>This is the unique user ID key that holds the <span class="keyword"> Audience Manager</span> user ID value in a key-value pair. </p> <p>Use <span class="codeph"> d_uuid</span> if you're passing in the <span class="keyword"> Audience Manager</span> user ID. </p> </td> 
+   <td colname="col2"> <p>This is the unique user ID key that holds the <span class="keyword"> Audience Manager</span> user ID value in a key-value pair. </p> <p>Use <span class="codeph"> d_uuid</span> if you're passing in the <span class="keyword"> Audience Manager</span> user ID. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph">d_mid=<span class="varname"> Experience Cloud user ID</span></span> </p> </td> 

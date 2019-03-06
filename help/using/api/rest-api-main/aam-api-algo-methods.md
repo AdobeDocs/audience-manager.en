@@ -8,13 +8,11 @@ title: Algorithmic API Methods
 uuid: 8d5304d7-c1cf-42df-94e7-3f583944bd62
 ---
 
-# Algorithmic API Methods {#algorithmic-api-methods}
+# Algorithmic [!DNL API] Methods {#algorithmic-api-methods}
 
 Methods that let you work programmatically with algorithmic modeling features.
 
-<!--
-c_algo_models.xml
--->
+<!-- c_algo_models.xml -->
 
 >[!MORE_LIKE_THIS]
 >
@@ -24,9 +22,7 @@ c_algo_models.xml
 
 A `POST` method that lets you create a new algorithmic model.
 
-<!--
-r_create_new_model.xml
--->
+<!-- r_create_new_model.xml -->
 
 ### Request
 
@@ -135,9 +131,7 @@ r_create_new_model.xml
 
 A `PUT` method that lets you revise the model's name, description, and status.
 
-<!--
-r_update_model.xml
--->
+<!-- r_update_model.xml -->
 
 ### Request
 
@@ -188,9 +182,7 @@ All request values are required unless otherwise indicated. Model status setting
 
 A `DELETE` method that removes a model from your collection.
 
-<!--
-r_delete_model.xml
--->
+<!-- r_delete_model.xml -->
 
 ### Request
 
@@ -204,9 +196,7 @@ Returns response code `204 No Content` if successful. Returns `400 Bad Request` 
 
 A `POST` method that lets you bulk delete multiple models.
 
-<!--
-r_rest_api_bulk_delete_models.xml
--->
+<!-- r_rest_api_bulk_delete_models.xml -->
 
 ### Request
 
@@ -214,7 +204,7 @@ r_rest_api_bulk_delete_models.xml
 
 ### Sample Request
 
-In the request body, pass in a `JSON` array that includes the model IDs you want to delete.
+In the request body, pass in a [!DNL JSON] array that includes the model IDs you want to delete.
 
 ```
 [ 
@@ -231,9 +221,7 @@ Returns `204 No Content`.
 
 A `GET` method that returns ID, name, and description for the available algorithms. Currently, [!UICONTROL TraitWeight] (ID 1) is the only available algorithm.
 
-<!-- 
-r_get_algorithm.xml
--->
+<!-- r_get_algorithm.xml -->
 
 ### Request
 
@@ -257,9 +245,7 @@ A successful response returns response code `200 OK` and the list of algorithm I
 
 A `GET` method that returns algorithm details (ID, name, and description) based on the passed in algorithm ID. Currently, [!UICONTROL TraitWeight] (ID 1) is the only available algorithm.
 
-<!--
-r_get_algorithm_by_id.xml
--->
+<!-- r_get_algorithm_by_id.xml -->
 
 ### Request
 
@@ -281,9 +267,7 @@ A successful response returns response code `200 OK` and the algorithm ID, name,
 
 A `GET` method that returns details about all your models.
 
-<!--
-r_get_all_models.xml
--->
+<!-- r_get_all_models.xml -->
 
 ### Request
 
@@ -291,7 +275,7 @@ r_get_all_models.xml
 
 ### Optional Query Parameters
 
-You can use these optional parameters with [!UICONTROL API] methods that return *all* properties for an object. Set these options in the request string when passing that query in to the [!UICONTROL API]. See [Optional Parameters](../../api/rest-api-main/aam-api-getting-started.md#concept_BB1E73AE736F4F54830E6CAF28089608).  
+You can use these optional parameters with [!DNL API] methods that return *all* properties for an object. Set these options in the request string when passing that query in to the [!DNL API]. See [Optional Parameters](../../api/rest-api-main/aam-api-getting-started.md#concept_BB1E73AE736F4F54830E6CAF28089608).  
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -384,9 +368,7 @@ GET https://api.demdex.com/v1/models/?page=1&pageSize=2&search=Test
 
 A `GET` method that returns algorithmic model details based on the passed in model ID.
 
-<!--
-r_get_models_id.xml
--->
+<!-- r_get_models_id.xml -->
 
 ### Request
 
@@ -426,9 +408,7 @@ A successful request returns details for the model. An unsuccessful request thro
 
 A `GET` method that returns a list of your most influential (accurate) traits.
 
-<!--
-r_get_traits_by_accuracy.xml
--->
+<!-- r_get_traits_by_accuracy.xml -->
 
 ### Request
 
@@ -436,7 +416,7 @@ r_get_traits_by_accuracy.xml
 
 ### Optional Query Parameters
 
-You can use these optional parameters with [!UICONTROL API] methods that return *all* properties for an object. Set these options in the request string when passing that query in to the [!UICONTROL API]. See also [Optional Parameters](../../api/rest-api-main/aam-api-getting-started.md#concept_BB1E73AE736F4F54830E6CAF28089608).  
+You can use these optional parameters with [!DNL API] methods that return *all* properties for an object. Set these options in the request string when passing that query in to the [!DNL API]. See also [Optional Parameters](../../api/rest-api-main/aam-api-getting-started.md#concept_BB1E73AE736F4F54830E6CAF28089608).  
 
 <table id="table_0627C325E6FF4FE28ED8A0458C7ECB48"> 
  <thead> 
@@ -543,9 +523,7 @@ You can use these optional parameters with [!UICONTROL API] methods that return 
 
 A `GET` method that returns accuracy and reach values for your algorithmic model.
 
-<!--
-r_get_accuracy_reach.xml
--->
+<!-- r_get_accuracy_reach.xml -->
 
 ### Request
 
@@ -576,11 +554,9 @@ r_get_accuracy_reach.xml
 
 ## Return Processing Timestamp {#reference_CB6EAF4D9090428C9E6949A9AE14BD1E}
 
-A `GET` method that returns an array of [!DNL UNIX] time stamps (UTC) of successful data runs for your model.
+A `GET` method that returns an array of [!DNL UNIX] time stamps ([!DNL UTC]) of successful data runs for your model.
 
-<!--
-r_return_model_timestamp.xml
--->
+<!-- r_return_model_timestamp.xml -->
 
 ### Request
 

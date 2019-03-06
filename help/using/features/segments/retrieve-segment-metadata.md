@@ -37,7 +37,7 @@ Request the following from each integrated customer:
 
 ### Step 4: Retrieve segment metadata with an [!DNL API] call
 
-After completing the previous steps, you can use a `GET` method to retrieve segment metadata. For a sample request and response, see [Return Destination Mappings](../../api/rest-api-main/aam-api-destinations/aam-api-retrieve-destinations.md#reference_2EF17D608D804F2FAC95AE18B3F0DCA3). This call returns segment data formatted as key-value pairs in a `JSON` object. Some of the important segment attributes returned in the response are listed in the following table.
+After completing the previous steps, you can use a `GET` method to retrieve segment metadata. For a sample request and response, see [Return Destination Mappings](../../api/rest-api-main/aam-api-destinations/aam-api-retrieve-destinations.md#reference_2EF17D608D804F2FAC95AE18B3F0DCA3). This call returns segment data formatted as key-value pairs in a [!DNL JSON] object. Some of the important segment attributes returned in the response are listed in the following table.
 
 <table id="table_446384AE9A36408A9C570CB7DB72C3D6"> 
  <thead> 

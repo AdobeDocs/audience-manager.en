@@ -11,9 +11,7 @@ uuid: 12f04151-ad0e-4cb6-8f3b-b5c427dc2cef
 
 Create destinations with these [!UICONTROL RESTful API] methods.
 
-<!-- 
-c_create_destinations.xml
--->
+<!-- c_create_destinations.xml -->
 
 ## Supported Destination Types: [!DNL URL] and [!DNL Cookie] Only
 
@@ -29,9 +27,7 @@ The available `POST` methods let you create [!UICONTROL URL] and [!UICONTROL coo
 
 A `POST` method that lets you create a destination that accepts segments composed of single key-value pairs (e.g., `gender=male` or `gender=female`).
 
-<!-- 
-r_create_nonserial_destination.xml
--->
+<!-- r_create_nonserial_destination.xml -->
 
 ### Request
 
@@ -89,9 +85,7 @@ A successful request returns `201 created` and the destination.
 
 A `POST` method that lets you create a destination that accepts multiple values associated with a single key (e.g., `color=blue, red, green`).
 
-<!-- 
-r_create_serial_url_destination.xml
--->
+<!-- r_create_serial_url_destination.xml -->
 
 ### Request
 
@@ -99,7 +93,7 @@ r_create_serial_url_destination.xml
 
 ### Sample Request
 
-Specify the secure URL and delimiter for the key-value pair passed in to the destination. All request values are required unless otherwise indicated.
+Specify the secure [!DNL URL] and delimiter for the key-value pair passed in to the destination. All request values are required unless otherwise indicated.
 
 ```
 { 
@@ -115,7 +109,7 @@ Specify the secure URL and delimiter for the key-value pair passed in to the des
 
 ### Response
 
-A successful update returns response code `201 created` and the destination. 
+A successful update returns response code `201 created` and the destination.
 
 ```
 { 
@@ -151,9 +145,7 @@ A successful update returns response code `201 created` and the destination.
 
 A `POST` method that lets you create a [!UICONTROL cookie destination] that accepts segments composed of single key-value pairs (e.g., `gender=male` or `gender=female`).
 
-<!--
-r_cookie_destination_singlekey_noserial.xml
--->
+<!-- r_cookie_destination_singlekey_noserial.xml -->
 
 ### Request
 
@@ -228,9 +220,7 @@ A successful update returns response code `201 created` and the destination.
 
 A `POST` method that lets you create a destination that accepts multiple values associated with a single key (e.g., `color=blue, red, green`).
 
-<!--
-r_cookie_destination_singlekey_serial.xml
--->
+<!-- r_cookie_destination_singlekey_serial.xml -->
 
 ### Request
 
@@ -306,9 +296,7 @@ A successful update returns response code `201 created` and the destination.
 
 A `POST` method that lets you create a destination that accepts segments that contain multiple keys with different values (e.g., `gender=male; gender=female; color=blue; color=red`).
 
-<!--
-r_create_cookie_multikey_noserial.xml
--->
+<!-- r_create_cookie_multikey_noserial.xml -->
 
 ### Request
 
@@ -375,9 +363,7 @@ A successful update returns response code `201 created` and the destination.
 
 A `POST` method that lets you create a destination that accepts segments that contain multiple keys and values (e.g., `gender=male, female; color=blue, red, green`).
 
-<!-- 
-r_cookie_destination_multikey_serial.xml
--->
+<!-- r_cookie_destination_multikey_serial.xml -->
 
 ### Request
 

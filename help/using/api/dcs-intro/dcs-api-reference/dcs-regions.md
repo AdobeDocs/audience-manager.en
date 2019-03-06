@@ -58,4 +58,4 @@ The regional [!UICONTROL DCS] server host name is required to make calls to the 
  </tbody> 
 </table>
 
-You can also use API methods to get a list of the available [!UICONTROL DCS] regions. See [DCS Region API Methods](../../../api/rest-api-main/aam-api-dcs-regions.md#concept_C1EF1A07C73D489FAD2AECA39B113DC6).
+You can also use [!DNL API] methods to get a list of the available [!UICONTROL DCS] regions. See [DCS Region API Methods](../../../api/rest-api-main/aam-api-dcs-regions.md).

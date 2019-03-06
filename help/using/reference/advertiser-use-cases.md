@@ -7,15 +7,11 @@ title: Advertiser Use Cases
 uuid: ceb06f86-1f9b-4e02-b179-116ec635ce5d
 ---
 
-# Advertiser Use Cases{#advertiser-use-cases}
+# Advertiser Use Cases {#advertiser-use-cases}
 
 A look at some common advertiser needs met by Adobe Audience Manager.
 
-<!-- 
-
-c_adv_use_case.xml
-
- -->
+<!-- c_adv_use_case.xml -->
 
 ## Create a Unified View of all Your Users
 

@@ -25,7 +25,7 @@ Recall that from the [Send Data to the DCS](../../../api/dcs-intro/dcs-event-cal
 
 `https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_rtbd=json&d_cb=acme_callback`
 
-As this call includes the required response parameter, the [!UICONTROL DCS] sent back the `JSON` object shown below. Yours may be similar or more complex.
+As this call includes the required response parameter, the [!UICONTROL DCS] sent back the [!DNL JSON] object shown below. Yours may be similar or more complex.
 
 ```js
 {
@@ -38,7 +38,7 @@ As this call includes the required response parameter, the [!UICONTROL DCS] sent
 
 ## Response Parameters {#section_7276ED2DFC754BA892C6F3E079494E63}
 
-The table below lists and defines the more common parameters you may see in a response from the [!UICONTROL DCS]. This applies to event calls or other [!UICONTROL DCS] API queries that return data.
+The table below lists and defines the more common parameters you may see in a response from the [!UICONTROL DCS]. This applies to event calls or other [!UICONTROL DCS] [!DNL API] queries that return data.
 
 <table id="table_7D12E6454E7D4AADB05E829ABF7549E5"> 
  <thead> 

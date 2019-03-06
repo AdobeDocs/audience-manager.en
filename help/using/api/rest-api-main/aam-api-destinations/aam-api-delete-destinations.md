@@ -11,9 +11,7 @@ uuid: 38fb2228-e564-49a3-9930-3139f8799a8f
 
 `DELETE` and `POST` methods that let you remove destinations and segment mappings.
 
-<!--
-r_delete_destinations_all.xml
--->
+<!-- r_delete_destinations_all.xml -->
 
 ## Delete a Destination
 

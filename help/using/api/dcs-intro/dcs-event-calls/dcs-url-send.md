@@ -79,7 +79,7 @@ The following table defines the basic components of a simple [!UICONTROL DCS] ca
 
 ## Sample Call {#section_6ADCBC45C4A64B09A216AC0882162D99}
 
-This example shows the fictional company [!DNL Acme, Inc.] sending data to the [!UICONTROL DCS] via an HTTP call. Note that this call includes the optional parameters `d_dst=1`, `d_rtbd=json`, and `d_cb=callback`. These indicate that [!DNL Acme] wants to receive a `JSON` response from the [!UICONTROL DCS] with a call back function. Remember, this is just an example. Do not cut and paste this code.
+This example shows the fictional company [!DNL Acme, Inc.] sending data to the [!UICONTROL DCS] via an HTTP call. Note that this call includes the optional parameters `d_dst=1`, `d_rtbd=json`, and `d_cb=callback`. These indicate that [!DNL Acme] wants to receive a [!DNL JSON] response from the [!UICONTROL DCS] with a call back function. Remember, this is just an example. Do not cut and paste this code.
 
 `https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_rtbd=json&d_cb=acme_callback`
 

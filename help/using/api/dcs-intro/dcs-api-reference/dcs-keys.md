@@ -9,7 +9,7 @@ uuid: 0b98ed11-314b-4500-afde-45a041112150
 
 # Supported Attributes for [!UICONTROL DCS API] Calls {#supported-attributes-for-dcs-api-calls}
 
-Lists and describes the syntax and supported attributes (or key-value pairs) you can pass in to the Data Collection Servers ([!UICONTROL DCS]). This information can help you format your [!UICONTROL DCS] requests and understand the parameters returned by this system.
+Lists and describes the syntax and supported attributes (or key-value pairs) you can pass in to the [!UICONTROL Data Collection Servers] ([!UICONTROL DCS]). This information can help you format your [!UICONTROL DCS] requests and understand the parameters returned by this system.
 
 ## Attribute Prefixes {#section_C40587830EFD4669AE9DAB5C6513CD9A}
 
@@ -64,23 +64,23 @@ All of these are optional, unless you want a response from the [!UICONTROL DCS].
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> d_cid</span> </p> </td> 
-   <td colname="col2"> <p>Contains one or more pairs of data provider IDs (<span class="codeph"> DPID</span>) and data provider user IDs (<span class="codeph"> DPUUID</span>) assigned by <span class="keyword"> Audience Manager</span>. If you use multiple pairs of <span class="codeph"> DPID</span>s and <span class="codeph"> DPUUID</span>s, separate each pair with the non-printing character <span class="codeph"> %01</span>. For example: <span class="codeph"><span class="varname"> DPID</span>%01<span class="varname"> DPUUUID</span></span>. </p> <p><span class="codeph"> d_cid</span> replaces <span class="codeph"> d_dpid</span> and <span class="codeph"> d_dpuuid</span>, which are deprecated but still supported. See <a href="../../../reference/cid.md#concept_E9DE716F22E8491AB27057DB92B79081"> CID Replaces DPID and DPUUID</a>. </p> </td> 
-  </tr> 
+   <td colname="col2"> <p>Contains one or more pairs of data provider IDs (<span class="codeph"> DPID</span>) and data provider user IDs (<span class="codeph"> DPUUID</span>) assigned by <span class="keyword"> Audience Manager</span>. If you use multiple pairs of <span class="codeph"> DPID</span>s and <span class="codeph"> DPUUID</span>s, separate each pair with the non-printing character <span class="codeph"> %01</span>. For example: <span class="codeph"><span class="varname"> DPID</span>%01<span class="varname"> DPUUUID</span></span>. </p> <p><span class="codeph"> d_cid</span> replaces <span class="codeph"> d_dpid</span> and <span class="codeph"> d_dpuuid</span>, which are deprecated but still supported. See <a href="../../../reference/cid.md#concept_E9DE716F22E8491AB27057DB92B79081"> CID Replaces DPID and DPUUID</a>. </p> </td>
+  </tr>
   <tr> 
    <td colname="col1"> <p><span class="codeph"> d_cid_ic</span> </p> </td> 
-   <td colname="col2"> <p>Contains an integration code and an associated unique user ID in a single key-value pair. </p> <p><span class="codeph"> d_cid_ic</span> replaces <span class="codeph"> d_dpid</span> and <span class="codeph"> d_dpuuid</span>, which are deprecated but still supported. See <a href="../../../reference/cid.md#concept_E9DE716F22E8491AB27057DB92B79081"> CID Replaces DPID and DPUUID</a>. </p> </td> 
+   <td colname="col2"> <p>Contains an integration code and an associated unique user ID in a single key-value pair. </p> <p><span class="codeph"> d_cid_ic</span> replaces <span class="codeph"> d_dpid</span> and <span class="codeph"> d_dpuuid</span>, which are deprecated but still supported. See <a href="../../../reference/cid.md#concept_E9DE716F22E8491AB27057DB92B79081"> CID Replaces DPID and DPUUID</a>. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> d_coppa</span> </p> </td> 
-   <td colname="col2"> <p>Disable usage of third party cookies in order to comply with child protection regulations. This parameter is dynamically set by the Adobe Experience Cloud ID service and depends on the <span class="codeph"> idSyncDisable3rdPartySyncing</span> configuration. See <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_coppa.html" format="https" scope="external"> COPPA Support in the Experience Cloud ID Service</a>. </p> </td> 
-  </tr> 
+   <td colname="col2"> <p>Disable usage of third party cookies in order to comply with child protection regulations. This parameter is dynamically set by the Adobe Experience Cloud ID service and depends on the <span class="codeph"> idSyncDisable3rdPartySyncing</span> configuration. See <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_coppa.html" format="https" scope="external"> COPPA Support in the Experience Cloud ID Service</a>. </p> </td>
+  </tr>
   <tr> 
    <td colname="col1"> <p><span class="codeph"> d_cts=1</span> </p> <p><span class="codeph"> d_cts=2</span> </p> </td> 
    <td colname="col2"> <p>Optional. Enabled on customer request. Contact your Adobe Audience Manager consultant or Customer Care. </p> <p>Indicates that traits and segments should be returned inside the <span class="codeph"> JSON</span> response. </p> <p> 
      <ul id="ul_8B936ACB18724681B959783421ACF026"> 
-      <li id="li_792A6248F49141C0B4B214C754D5F5C5"> <p><span class="codeph"> d_cts=1</span> returns <a href="../../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8"> legacy segment IDs</a> for the segments. </p> </li> 
-      <li id="li_F304CA651F3C444A9A24576726925D87"> <p><span class="codeph"> d_cts=2</span> returns segment IDs for the segments. </p> </li> 
-     </ul> </p> <p>A sample response could look like the one below: </p> <p> 
+      <li id="li_792A6248F49141C0B4B214C754D5F5C5"> <p><span class="codeph"> d_cts=1</span> returns <a href="../../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8"> legacy segment IDs</a> for the segments. </p> </li>
+      <li id="li_F304CA651F3C444A9A24576726925D87"> <p><span class="codeph"> d_cts=2</span> returns segment IDs for the segments. </p> </li>
+     </ul> </p> <p>A sample response could look like the one below: </p> <p>
      <codeblock class="syntax javascript">
       {
       
