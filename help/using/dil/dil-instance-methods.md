@@ -10,11 +10,9 @@ uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
 
 # Instance-level DIL Methods{#instance-level-dil-methods}
 
-The instance-level DIL APIs let you programmatically create and work with Audience Manager objects. The instance-level methods enhance API functionality established by the class-level methods.
+The instance-level [!UICONTROL DIL] APIs let you programmatically create and work with Audience Manager objects. The instance-level methods enhance API functionality established by the class-level methods.
 
 ## Instance-level DIL Methods {#concept_BFC21CC3204C4743ABF7EB3C7FA78C92}
-
-The instance-level [!UICONTROL DIL] APIs let you programmatically create and work with Audience Manager objects. The instance-level methods enhance API functionality established by the class-level methods.
 
 <!-- 
 
