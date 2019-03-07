@@ -27,11 +27,11 @@ For delivery to [!DNL Amazon S3], you must use `.gz` or uncompressed files. Comp
 
 >[!IMPORTANT]
 >
->Your [!DNL FTP] client must use binary mode to transfer compressed or encrypted files. Compressed or encrypted files sent in ASCII mode will corrupt the data transfer file.
+>Your [!DNL FTP] client must use binary mode to transfer compressed or encrypted files. Compressed or encrypted files sent in [!DNL ASCII] mode will corrupt the data transfer file.
 
 ## Best Practices
 
-* Files should be gzip compressed (and have a [!DNL .gz] file extension.)
+* Files should be [!DNL .gzip] compressed (and have a [!DNL .gz] file extension.)
 * The maximum compressed file size for a `.gz` compressed file is 1 GB.
 * Optimal split sizes, for fastest/earliest processing of your files, is approximately 1 GB uncompressed or 200-300 MB compressed.
 * [!DNL Amazon S3] imposes its own, 5 GB file size limit on uploaded files.

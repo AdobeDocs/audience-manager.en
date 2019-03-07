@@ -8,7 +8,7 @@ title: Actionable Log Files
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 ---
 
-# Actionable Log Files {#actionable-log-files}
+# [!UICONTROL Actionable Log Files] {#actionable-log-files}
 
 [!UICONTROL Actionable Log Files] allow you to capture media data from [!DNL Google DCM] log files and use the data to create traits in Audience Manager. Capture impressions, clicks, and conversions from ad servers as traits without having to use pixel calls.
 
@@ -32,7 +32,7 @@ uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 
 To get started with [!UICONTROL Actionable Log Files], and to use our [Audience Optimization Reports](../../reporting/audience-optimization-reports/audience-optimization-reports.md#concept_D66D2C58493E48BDAFF2F95BBB508946), you need to import DCM log data into [!DNL Audience Manager]. See [Import DCM Data Files Into Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md#task_5BBF62BBAA7D43AFA6DCCF53C6DBEF00) *and* contact your [!DNL Audience Manager] consultant.
 
-If you are already importing DCM log data into [!DNL Audience Manager], ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to enable [!UICONTROL Actionable Log Files] for you.
+If you are already importing [!UICONTROL DCM] log data into [!DNL Audience Manager], ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to enable [!UICONTROL Actionable Log Files] for you.
 
 >[!NOTE] {importance="high"}
 >
@@ -48,7 +48,7 @@ For an average-sized [!DNL DCM] log file of 2 million lines, any traits created 
 
 >[!IMPORTANT] {importance="high"}
 >
->We recommend implementing [!UICONTROL Actionable Log Files] *instead of*  [Pixel Calls](../../integration/media-data-integration/impression-data-pixels.md#concept_83852AB68E344D4F8933665C895322C2). We discourage the use of both options, as this leads to an increase in frequency counts for traits.
+>We recommend implementing [!UICONTROL Actionable Log Files] *instead of* [Pixel Calls](../../integration/media-data-integration/impression-data-pixels.md#concept_83852AB68E344D4F8933665C895322C2). We discourage the use of both options, as this leads to an increase in frequency counts for traits.
 
 ## Actionable Signals {#section_F23E910753EB4241BFD8B76262526F18}
 
@@ -139,19 +139,19 @@ One benefit of implementing [!UICONTROL Actionable Log Files] is the option to a
 
 Retarget users who saw creative 123 but didn't click or convert and show them creative 456. Do this:
 
-1. Create a trait to capture users who saw the creative. Let's say you name the trait Creative Trait 123. Use the trait rule:
+1. Create a trait to capture users who saw the creative. Let's say you name the trait [!DNL Creative Trait 123]. Use the trait rule:
 
    `d_creative == 123 AND d_event == imp`
 
-1. Create a trait to capture users who click or convert. Let's say you name this one Click and Converter. Use the trait rule:
+1. Create a trait to capture users who click or convert. Let's say you name this one [!DNL Click and Converter]. Use the trait rule:
 
    `d_event == click OR d_event=conv`
 
-1. Create a segment to populate with users who saw creative 123 but didn't click or convert. Name it Retarget Users and use the segment rule:
+1. Create a segment to populate with users who saw creative 123 but didn't click or convert. Name it [!DNL Retarget Users] and use the segment rule:
 
    `Creative Trait 123 AND NOT Click and Converter`
 
-1. Map the segment Retarget Users to a destination and target users in the destination with creative 456.
+1. Map the segment [!DNL Retarget Users] to a destination and target users in the destination with creative 456.
 
 ### Use [!DNL DCM] [!UICONTROL Floodlight Activity] in the [!UICONTROL Audience Optimization Reports] or in [!UICONTROL Audience Lab]
 
@@ -163,7 +163,7 @@ Retarget users who saw creative 123 but didn't click or convert and show them cr
 
    When creating the trait in the Audience Manager UI, select [!UICONTROL Conversion] as the [!UICONTROL Event Type].
 
-1. Once you have created the trait, the conversion will begin to be reported against in the Audience Optimization reports and in Audience Lab.
+1. Once you have created the trait, the conversion will begin to be reported against in the [!UICONTROL Audience Optimization Reports] and in [!UICONTROL Audience Lab].
 
 >[!MORE_LIKE_THIS]
 >

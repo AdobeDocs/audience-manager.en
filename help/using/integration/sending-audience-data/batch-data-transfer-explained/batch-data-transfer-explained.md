@@ -19,7 +19,7 @@ The batch data integration process saves visitor information on our servers and 
 
 * Immediate data transfers are not required.
 * Collecting data to build a large pool of segmented users.
-* You want to reduce data discrepancies and HTTP calls from the browser.
+* You want to reduce data discrepancies and `HTTP` calls from the browser.
 
 ![](assets/s2s_70.png)
 

@@ -9,7 +9,7 @@ uuid: 4b2ea81c-29bb-42d3-93d3-1d8e677790b6
 
 # Requirements and Methods of Sending Segments to [!DNL DFP] Using [!DNL Google Publisher Tags] ([!DNL GPT]) {#requirements-and-methods-of-sending-segments-to-dfp-using-google-publisher-tags-gpt}
 
-You can send qualified segments to DFP either through a client-side or through a server-side integration. Requirements and related information about both methods are listed below.
+You can send qualified segments to [!DNL DFP] either through a client-side or through a server-side integration. Requirements and related information about both methods are listed below.
 
 <ul class="simplelist"> 
  <li><a href="../../integration/gpt-aam-destination/gpt-aam-requirements.md#section_8F4B25C64A914B3A9A6FEEA95F5CEF9B"> Client-Side Integration</a> </li> 
@@ -32,7 +32,7 @@ For a client-side integration, you need to set up a [!DNL GPT] destination in Au
   >
   >The `AamGpt` function is not required if you use your own code to read Audience Manager cookie data.
 
-* **Send Delivery Logs to Audience Manager:** If you want a segment delivery report (optional), provide Audience Manager with a daily log that contains impression-level delivery data. The data can be in a raw format, but each record must contain the Audience Manager UUID. Audience Manager can pick up or receive these via [!DNL FTP].
+* **Send Delivery Logs to Audience Manager:** If you want a segment delivery report (optional), provide Audience Manager with a daily log that contains impression-level delivery data. The data can be in a raw format, but each record must contain the Audience Manager `UUID`. Audience Manager can pick up or receive these via [!DNL FTP].
 
 ### Only Qualified Segments are Sent to [!DNL GPT]
 
@@ -40,11 +40,11 @@ The amount of data passed in to [!DNL GPT] depends on how many segments a partic
 
 >[!NOTE]
 >
->There are no limits to the number of key-values you can send, but the Google request URL does have limits to the number of characters it can accept. See [Setting targeting and sizes with GPT](https://support.google.com/dfp_premium/bin/answer.py?hl=en&answer=1697712).
+>There are no limits to the number of key-values you can send, but the [!DNL Google] request [!DNL URL] does have limits to the number of characters it can accept. See [Setting targeting and sizes with GPT](https://support.google.com/dfp_premium/bin/answer.py?hl=en&answer=1697712).
 
 ## Server-Side Integration {#section_3E1127403A184C7D84B3FA1A1B917A62}
 
-Talk to your Audience Manager consultant or Customer Care if you want to set up a server-side integration with [!DNL DFP], using [!DNL GPT]. You'll need to provide your [!DNL DFP] account Network Id and Audience Link Id.
+Talk to your Audience Manager consultant or Customer Care if you want to set up a server-side integration with [!DNL DFP], using [!DNL GPT]. You'll need to provide your [!DNL DFP] account Network ID and Audience Link ID.
 
 >[!IMPORTANT]
 >

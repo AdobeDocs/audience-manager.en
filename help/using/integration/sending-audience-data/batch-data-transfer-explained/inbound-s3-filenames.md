@@ -7,7 +7,7 @@ title: Amazon S3 Name and File Size Requirements for Inbound Data Files
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
 ---
 
-# Amazon S3 Name and File Size Requirements for Inbound Data Files{#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
+# [!DNL Amazon S3] Name and File Size Requirements for Inbound Data Files{#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
 
 Describes the required fields, syntax, naming conventions and file sizes you need to follow when sending data to Audience Manager. Set the names and sizes of your files according to these specifications when you send data to an Audience Manager / [!DNL Amazon S3] directory.
 
@@ -31,11 +31,11 @@ Contents:
 
 >[!NOTE] {importance="high"}
 >
->[!DNL Audience Manager] only processes ASCII and UTF-8 encoded files.
+>[!DNL Audience Manager] only processes [!DNL ASCII] and [!DNL UTF-8] encoded files.
 
 ### Name Elements
 
-The table defines the elements in an S3 file name.
+The table defines the elements in an [!DNL S3] file name.
 
 <table id="table_455D174BAB9B494D973DA1023F22B962"> 
  <thead> 
@@ -123,7 +123,7 @@ You can [download](https://marketing.adobe.com/resources/help/en_US/aam/download
 
 ## Accepted File Sizes {#section_2E2BE21030A34BA1AE67288F333780A0}
 
-Consider the figures below for fastest/earliest processing of your files as well as for file size limitations when you send data to an [!DNL Audience Manager] / Amazon S3 directory.  
+Consider the figures below for fastest/earliest processing of your files as well as for file size limitations when you send data to an [!DNL Audience Manager] / [!DNL Amazon S3] directory.  
 
 <table id="table_59FCC63806684DF8BE54A1EAF224A234"> 
  <thead> 

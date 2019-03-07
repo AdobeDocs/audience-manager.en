@@ -55,12 +55,11 @@ The following table defines important variables in the code sample.
 |`partner`|Required. This is a partner name assigned to you by Adobe. It is sometimes referred to as your "partner ID" or "partner subdomain."  Contact your Adobe consultant or [Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html) if you don't know your partner name.|
 |`containerNSID`|Required. Most customers can just set  `"containerNSID":0` . However, if your company needs to customize ID syncs with a different container, you can specify that container ID here.|
 |`uuidCookie`|Optional. This configuration lets you set an Adobe  cookie in the first-party domain. This cookie contains the [UUID](../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8) .|
-| `visitorService` - `namespace`| Required. The `namespace` parameter is required if you use the AudienceManagement module bundled with AppMeasurement version 2.10 or newer. This AudienceManagement module requires that you use Experience Cloud ID Service 3.3 or newer. <br>&nbsp;The Experience Cloud Organization ID is the ID that a company is provided with upon signing up for the Experience Cloud. Find out your company's Organization ID in [Organizations and Account Linking](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html). |
-
+| `visitorService` - `namespace`| Required. The `namespace` parameter is required if you use the AudienceManagement module bundled with [!UICONTROL AppMeasurement] version 2.10 or newer. This [!UICONTROL AudienceManagement] module requires that you use [!UICONTROL Experience Cloud ID Service] 3.3 or newer. <br>&nbsp;The [!UICONTROL Experience Cloud Organization ID] is the ID that a company is provided with upon signing up for the [!UICONTROL Experience Cloud]. Find out your company's Organization ID in [Organizations and Account Linking](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html). |
 
 ## Results: Data Forwarding to Audience Manager {#section_5878A0C32F844C9DB9C2D009CB717708}
 
-Your Analytics implementation sends data to Audience Manager after you have:
+Your [!DNL Analytics] implementation sends data to Audience Manager after you have:
 
 * Enabled [!UICONTROL Server-Side Forwarding] (talk to your consultant about this feature);
 * Implemented the ID service;

@@ -158,9 +158,9 @@ separator=","&gt;&lt;if(SEGMENT_LIST&nbsp;&amp;&amp;&nbsp;REMOVED_SEGMENT_LIST)&
  </tbody> 
 </table>
 
-### DPUUID Examples
+### `DPUUID` Examples
 
-To help you understand how the `DPUUID` macro outputs data, lets assume we have 2 DPIDs mapped to DPUUIDs as shown below:
+To help you understand how the `DPUUID` macro outputs data, lets assume we have 2 `DPID`s mapped to `DPUUID`s as shown below:
 
 * DPID `1111` maps to DPUUIDs `AAAA` (timestamp = 1) and `BBBB` (timestamp = 2).
 * DPID `2222` maps to DPUUID `CCCC`.

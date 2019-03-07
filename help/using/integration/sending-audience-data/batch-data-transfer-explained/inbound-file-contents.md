@@ -34,11 +34,11 @@ Fields in the inbound data file must appear in the order shown below. In this ex
 >
 >We have a limit of 200 lines we can process for each user ID sent in the inbound data file. For example, if you send 300 lines for a user ID, the first 200 lines are kept and the additional 100 lines are discarded. In the example below, you're good because you are sending 3 lines each for user ID 1 and user ID 2. We don't enforce a limit on the number of traits or key-value pairs you include in a line. >
 >```>
-><user ID1><TAB><trait ID>,<trait ID>,<trait ID> 
-><user ID1><TAB><trait ID>,<trait ID>,<trait ID> 
-><user ID1><TAB><trait ID>,<trait ID>,<trait ID> 
-><user ID2><TAB><trait ID>,<trait ID>,<trait ID> 
-><user ID2><TAB><trait ID>,<trait ID>,<trait ID> 
+><user ID1><TAB><trait ID>,<trait ID>,<trait ID>
+><user ID1><TAB><trait ID>,<trait ID>,<trait ID>
+><user ID1><TAB><trait ID>,<trait ID>,<trait ID>
+><user ID2><TAB><trait ID>,<trait ID>,<trait ID>
+><user ID2><TAB><trait ID>,<trait ID>,<trait ID>
 ><user ID2><TAB><trait ID>,<trait ID>,<trait ID>
 >```>
 
@@ -80,7 +80,7 @@ The table lists and defines the variables used in a properly formatted inbound d
 
 ## Formatting Trait IDs {#section_0D84D4DD995D444598AF8AE9FC8A3810}
 
-The following table describes the prefixes that identify trait names or IDs in an inbound data file. See the [sample files](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#section_9C29AF9142B2426BA7209E1281AE4C36) for examples. 
+The following table describes the prefixes that identify trait names or IDs in an inbound data file. See the [sample files](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#section_9C29AF9142B2426BA7209E1281AE4C36) for examples.
 
 <table id="table_AD54B3E5487E47C481A4E5FD3A93FDA5"> 
  <thead> 
@@ -92,20 +92,20 @@ The following table describes the prefixes that identify trait names or IDs in a
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_sid= </span> </p> </td> 
-   <td colname="col2"> <p>The <span class="codeph"> d_sid </span> prefix tells our system that the ID is an <span class="keyword"> Audience Manager </span> trait ID. This is the same ID that's shown in the user interface. You can also return trait IDs with the API <span class="codeph"> GET </span> method. See <a href="../../../api/rest-api-main/api-traits.md#concept_9DDE7873366644E38E2C58F2CAE8B62D"> Trait API Methods </a>. </p> </td> 
-  </tr> 
+   <td colname="col2"> <p>The <span class="codeph"> d_sid </span> prefix tells our system that the ID is an <span class="keyword"> Audience Manager </span> trait ID. This is the same ID that's shown in the user interface. You can also return trait IDs with the API <span class="codeph"> GET </span> method. See <a href="../../../api/rest-api-main/api-traits.md#concept_9DDE7873366644E38E2C58F2CAE8B62D"> Trait API Methods </a>. </p> </td>
+  </tr>
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_unsid= </span> </p> </td> 
-   <td colname="col2"> <p>Data prefixed with <span class="codeph"> d_unsid </span> removes users from that trait. The <span class="codeph"> d_unsid </span> prefix is ignored in an <span class="codeph"> overwrite </span> file. </p> <p>The <span class="codeph"> d_unsid= </span> prefix tells our system that the ID is an <span class="keyword"> Audience Manager </span> trait ID. This is the same ID that's shown in the user interface. You can also return trait IDs with the API <span class="codeph"> GET </span> method. See <a href="../../../api/rest-api-main/api-traits.md#concept_9DDE7873366644E38E2C58F2CAE8B62D"> Trait API Methods </a>. </p> </td> 
+   <td colname="col2"> <p>Data prefixed with <span class="codeph"> d_unsid </span> removes users from that trait. The <span class="codeph"> d_unsid </span> prefix is ignored in an <span class="codeph"> overwrite </span> file. </p> <p>The <span class="codeph"> d_unsid= </span> prefix tells our system that the ID is an <span class="keyword"> Audience Manager </span> trait ID. This is the same ID that's shown in the user interface. You can also return trait IDs with the API <span class="codeph"> GET </span> method. See <a href="../../../api/rest-api-main/api-traits.md#concept_9DDE7873366644E38E2C58F2CAE8B62D"> Trait API Methods </a>. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ic= </span> </p> </td> 
    <td colname="col2"> <p> <a href="../../../features/traits/manage-trait-rules.md#managing-trait-rules"> Trait rules </a> let you set criteria for trait qualification. If you format a trait rule as <span class="codeph"> ic == trait ID </span>, you can send in traits in a simple comma formatted list. </p> <p>For example, say you create these 3 trait rules: </p> <p> 
      <ul class="simplelist"> 
-      <li> <span class="codeph"> ic == "123" </span> </li> 
-      <li> <span class="codeph"> ic == "456" </span> </li> 
-      <li> <span class="codeph"> ic == "789" </span> </li> 
-     </ul> </p> <p>These traits are associated with the <span class="codeph"> ic </span> key. This lets you create a simpler trait list in the data file. And, you do not need to include the <span class="codeph"> ic </span> prefix. As a result, the contents of your data file could look like this: </p> <p> 
+      <li> <span class="codeph"> ic == "123" </span> </li>
+      <li> <span class="codeph"> ic == "456" </span> </li>
+      <li> <span class="codeph"> ic == "789" </span> </li>
+     </ul> </p> <p>These traits are associated with the <span class="codeph"> ic </span> key. This lets you create a simpler trait list in the data file. And, you do not need to include the <span class="codeph"> ic </span> prefix. As a result, the contents of your data file could look like this: </p> <p>
      <codeblock> 
       
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
@@ -124,8 +124,8 @@ The following table describes the prefixes that identify trait names or IDs in a
       <li id="li_DCECE281D245438FB01F8D0BA932B3CC"> <span class="codeph"> "key" = "value" </span> </li> 
      </ul> 
 <codeblock> "age"="32" </codeblock> , <codeblock> "gender"=m </codeblock> , <codeblock> model = "pickup truck" </codeblock> , <codeblock> product = tablet </codeblock> are all examples of correctly formatted key-value pairs. </p> </td> 
-  </tr> 
- </tbody> 
+  </tr>
+ </tbody>
 </table>
 
 ## Invalid Characters in Trait IDs, User IDs and Key-Value Pairs {#section_A52AFA31CCA54EF2A89CEF17BFCCB879}
@@ -154,9 +154,9 @@ Trait IDs consist only of numerical characters. We ask that you include *only on
      <ul id="ul_6AEFB6CFA54444D9B75F03BCE7916696"> 
       <li id="li_45B272D5EEE944FC9D5C89A0924465F7">IDFA format: IDs must be upper case and not hashed. For example, <span class="codeph"> 6D92078A-8246-4BA4-AE5B-76104861E7DC </span> </li> 
       <li id="li_2DA0347293814C70ADCD253BF01A81F5">Android format: IDs must be lower case and not hashed. For example, <span class="codeph"> 97987bca-ae59-4c7d-94ba-ee4f19ab8c21 </span> </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
+     </ul> </p> </td>
+  </tr>
+ </tbody>
 </table>
 
 ### Key-Value Pairs
@@ -190,8 +190,8 @@ Improperly formatted value names in a key-value pair also cause problems. Follow
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> \n, \t </span> </p> </td> 
    <td colname="col2"> <p>Do not use the new line or tab characters ( <span class="codeph"> \n, \t </span>) in keys or in values. </p> </td> 
-  </tr> 
- </tbody> 
+  </tr>
+ </tbody>
 </table>
 
 ## Data File Examples {#section_9C29AF9142B2426BA7209E1281AE4C36}

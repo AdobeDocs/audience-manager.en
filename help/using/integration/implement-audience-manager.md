@@ -9,7 +9,7 @@ uuid: 89369224-3b21-45a9-a4ed-a0a977410520
 
 # Implementing Audience Manager {#implementing-audience-manager}
 
-This section outlines and explains the processes related to getting started with the Audience Manager data management platform (DMP). This section is designed to help business teams, project managers, and technology managers understand the Audience Manager implementation process. Getting started with Audience Manager can take approximately six weeks to three months, depending on your data collection needs.
+This section outlines and explains the processes related to getting started with the Audience Manager data management platform ([!DNL DMP]). This section is designed to help business teams, project managers, and technology managers understand the Audience Manager implementation process. Getting started with Audience Manager can take approximately six weeks to three months, depending on your data collection needs.
 
 Our implementation techniques help create consultative partnership with new clients. This process is designed to:
 
@@ -129,7 +129,7 @@ The following table describes key activities that take place during this phase:
 Deliverables for this phase can include:
 
 * A completed first-party, second-party, and third-party data collection strategy;
-* A completed CRM or data warehouse ingestion plan;
+* A completed [!DNL CRM] or data warehouse ingestion plan;
 * Defined audience-segmentation requirements;
 * a completed data taxonomy;
 * A developed third-party data-integration plan.
@@ -140,7 +140,7 @@ During the build, test, and train phase, you will review the data collection str
 
 <!-- c_build_test_train.xml -->
 
-Your data collection strategy will undergo end-to-end QA testing. Partner Solutions will track discovered bugs and coordinate problem resolutions with our systems engineers. Customer training can start in parallel with these other efforts.
+Your data collection strategy will undergo end-to-end [!DNL QA] testing. Partner Solutions will track discovered bugs and coordinate problem resolutions with our systems engineers. Customer training can start in parallel with these other efforts.
 
 The following table describes key activities that take place during this phase:
 
@@ -154,13 +154,13 @@ The following table describes key activities that take place during this phase:
 Deliverables for this phase can include:
 
 * A completed and accepted data-collection plan;
-* End-to-end QA testing;
+* End-to-end [!DNL QA] testing;
 * Basic instruction on Audience Manager user interface features;
 * Acceptance and sign-off.
 
 ## Launch, Support, and Optimize Phase {#concept_C0DC100F94BF415B8664F70942656FF2}
 
-During the launch, support, and optimize phase, your data-collection and prototyped implementation moves from development to a live, production environment. We’ll continue training on product familiarization and strategies that can help increase your ROI through data-driven optimization.
+During the launch, support, and optimize phase, your data-collection and prototyped implementation moves from development to a live, production environment. We’ll continue training on product familiarization and strategies that can help increase your [!DNL ROI] through data-driven optimization.
 
 <!-- c_launch_support_optimize.xml -->
 

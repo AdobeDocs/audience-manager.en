@@ -17,7 +17,7 @@ The `.setTargeting` method gets data from the Audience Manager destination cooki
 
 ### `IF` Statement Code Sample
 
-In this example, the Audience Manager destination cookie name is `Sample`. You set this name when you create the destination cookie in the Audience Manager UI. [!UICONTROL DIL] sets the `aam_uuid` cookie and the name cannot be changed. 
+In this example, the Audience Manager destination cookie name is `Sample`. You set this name when you create the destination cookie in the Audience Manager UI. [!UICONTROL DIL] sets the `aam_uuid` cookie and the name cannot be changed.
 
 ```js
 if(typeof AamGpt.getCookie("Sample") != "undefined"){ 

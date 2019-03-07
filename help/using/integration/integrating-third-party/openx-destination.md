@@ -25,7 +25,7 @@ Review the following before setting up [!DNL OpenX] as an Audience Manager desti
 
 * **[!UICONTROL DIL]:** [!UICONTROL Data Integration Library] code should be deployed on your site. [!UICONTROL DIL] helps eliminate the need to write special code for data collection, integration, reading cookie values, and recovering page data.
 * **`get_aamCookie` Function:** Code that captures the Audience Manager user ID and cookie data. Place [this code](../../features/destinations/get-aam-cookie-code.md#reference_0102FABCC96547DE81DFCA0600BBEFD3) on the top of the page or inside the `<head>` codeblock.
-* **Send Delivery Logs to Audience Manager:** If you want a segment delivery report (optional), provide Audience Manager with a daily log that contains impression-level delivery data. The data can be in a raw format, but each record must contain the Audience Manager UUID. Audience Manager can pick up or receive these via [!DNL FTP].
+* **Send Delivery Logs to Audience Manager:** If you want a segment delivery report (optional), provide Audience Manager with a daily log that contains impression-level delivery data. The data can be in a raw format, but each record must contain the Audience Manager `UUID`. Audience Manager can pick up or receive these via [!DNL FTP].
 
 ### Key-Value Data: Format Requirements
 

@@ -17,11 +17,7 @@ Describes the required fields, syntax, and naming conventions used for file-base
 
 ## File Name Syntax and Examples {#section_0AB70A4265EC478CB9C3540A6DD16000}
 
-<!-- 
-
-c_file_based_id_sync.xml
-
- -->
+<!-- c_file_based_id_sync.xml -->
 
 ID file names contain the following required and optional elements:
 
@@ -82,16 +78,15 @@ The contents of an ID file include the following elements:
 
 *`UUID`* `<tab>` *`UUID`* `<tab>` *`UUID`* `<tab>` *`UUID`*
 
-The file contains user IDs (UUID). In each row, separate the IDs with a tab. The following example shows a properly formatted ID file. Your contents could look similar.
+The file contains user IDs ([!DNL UUID]). In each row, separate the IDs with a tab. The following example shows a properly formatted ID file. Your contents could look similar.
 
 ```
 abc123 def456 ghi789 xyz987
-
 ```
 
-## Synchronization Matches DPUUIDs to UUIDs {#section_41255CCDC02440C285C03E8001FB7E90}
+## Synchronization Matches [!UICONTROL DPUUID]s to [!UICONTROL UUID]s {#section_41255CCDC02440C285C03E8001FB7E90}
 
-The purpose of an ID sync file is to sync the [DPUUIDs](../../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8) from your own Data Sources with [!DNL Audience Manager] UUIDs. Synchronization maps the DPUUIDs from the master DPID and its related DPIDs to the [!DNL Audience Manager] UUIDs. Where you put the IDs in the file name and body determines how these identifiers are mapped to each other. For example, take the two sample files shown here:
+The purpose of an ID sync file is to sync the [DPUUIDs](../../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8) from your own Data Sources with [!DNL Audience Manager] UUIDs. Synchronization maps the [!DNL DPUUID]s from the master [!DNL DPID] and its related [!DNL DPID]s to the [!DNL Audience Manager] [!DNL UUID]s. Where you put the IDs in the file name and body determines how these identifiers are mapped to each other. For example, take the two sample files shown here:
 
 * **File 1:** `adobe_id_0_12345_1476312152.sync`
 
@@ -111,13 +106,13 @@ Given the sample name and contents, the IDs map together like this:
 |  66552757407517449462805881945288602094  | XYZ3017QvBddD-bLJS28DPxiqUfmIBxE3_55bvQJMLwregJU2M  |
 |  66184778222667870903738139438735041506  | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw  |
 
-Step 1: the ID sync process will sync the DPUUIDs from DPID 12345 with the [!DNL Audience Manager] UUIDs in the left column. Note that the DPID "0" in the file name represents [!DNL Audience Manager] UUIDs.
 
+Step 1: the ID sync process will sync the [!DNL DPUUID]s from [!DNL DPID] 12345 with the [!DNL Audience Manager] [!DNL UUID]s in the left column. Note that the [!DNL DPID] "0" in the file name represents [!DNL Audience Manager] [!DNL UUID]s.
 <br/>
 
 **File 2** ( [Download sample file](assets/adobe_id_12345_67890_1477846458.sync))
 
-|  DPID 12345  | DPID 67890  |
+|  [!DNL DPID] 12345  | [!DNL DPID] 67890  |
 |---|---|
 |  XYZ3017D_2kzkTOXkFYIAgwbajoqWRcqkXl-TTrj6E4njaMR38  | 4598060374  |
 |  XYZ3017BBR4DAFJWfM6D4Gb4lN_T5jk_f7rdEcqNs9wfnA7h70  | 4581274262  |
@@ -125,7 +120,7 @@ Step 1: the ID sync process will sync the DPUUIDs from DPID 12345 with the [!DNL
 |  XYZ3017QvBddD-bLJS28DPxiqUfmIBxE3_55bvQJMLwregJU2M  | 2351382994  |
 |  XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw  | 4601584763  |
 
-Step 2: the DPUUIDs from DPID 12345 have been synced in step 1 with the Audience Manager UUIDs. What this ID sync will do is sync the DPUUIDs from DPID 67890 with the Audience Manager UUIDs from step 1.
+Step 2: the [!DNL DPUUID]s from [!DNL DPID] 12345 have been synced in step 1 with the Audience Manager [!DNL UUID]s. What this ID sync will do is sync the [!DNL DPUUID]s from [!DNL DPID] 67890 with the Audience Manager [!DNL UUID]s from step 1.
 
 <br/>
 
@@ -134,7 +129,7 @@ Step 2: the DPUUIDs from DPID 12345 have been synced in step 1 with the Audience
 User IDs cannot:
 
 * Have tabs in the ID itself. Tabs are used only to separate individual IDs in the data file.
-* Contain personally identifiable information (PII).
-* Use URL encoding. Pass in unencoded IDs only.
+* Contain personally identifiable information ([!UICONTROL PII]).
+* Use [!DNL URL] encoding. Pass in unencoded IDs only.
 
 Any rows that end with tabs or spaces will not be processed or realized. As a rule, make sure you keep the end of the rows clear.

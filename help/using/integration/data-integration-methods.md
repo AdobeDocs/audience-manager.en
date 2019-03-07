@@ -37,16 +37,16 @@ A real-time server-to-server data integration rapidly synchronizes user data bet
   <td class="stentry"> <p>Advantages: </p></td>
   <td class="stentry"> 
    <ul id="ul_F251AFF8A2FA49D0849E36D7FAE87DE7"> 
-    <li id="li_1737EBB1AD8844BD87E736BB4D8080EF">Lets you qualify users for segments without seeing them again on the page, in a video player, etc. </li> 
-    <li id="li_1C1F346CB7BD40508AA5A6918C6B8514"> Reduces the number of HTTP calls from the page. Fewer calls helps preserve the user experience. </li> 
-    <li id="li_046BF4568B104F53A0E5372568C957CD">Helps with time sensitive targeting so you can take action on a qualified user quickly. </li> 
-    <li id="li_70F7AB19AC5D4A9AB80216A2B05163B8">Useful when moving to a DSP for offsite targeting. </li> 
-   </ul></td> 
- </tr> 
+    <li id="li_1737EBB1AD8844BD87E736BB4D8080EF">Lets you qualify users for segments without seeing them again on the page, in a video player, etc. </li>
+    <li id="li_1C1F346CB7BD40508AA5A6918C6B8514"> Reduces the number of HTTP calls from the page. Fewer calls helps preserve the user experience. </li>
+    <li id="li_046BF4568B104F53A0E5372568C957CD">Helps with time sensitive targeting so you can take action on a qualified user quickly. </li>
+    <li id="li_70F7AB19AC5D4A9AB80216A2B05163B8">Useful when moving to a DSP for offsite targeting. </li>
+   </ul></td>
+ </tr>
  <tr class="strow">
   <td class="stentry"> Disadvantages:</td>
-  <td class="stentry"> Less useful for onsite targeting when you need to target the user on the same page, or the next page, based on qualifying a user for that segment.</td> 
- </tr> 
+  <td class="stentry"> Less useful for onsite targeting when you need to target the user on the same page, or the next page, based on qualifying a user for that segment.</td>
+ </tr>
 </table>
 
 ### Server-to-Server Batch Integrations
@@ -59,9 +59,9 @@ A server-to-server batch integration bundles data and sends it to other systems 
   <td class="stentry"> 
    <ul id="ul_1E9B48B06E764D3AB6F2D702EB4922DC"> 
     <li id="li_1CF0E018660347B3A5AF79160F74FBDB">Lets you qualify users for segments without seeing them again on the page, in a video player, etc. </li> 
-    <li id="li_B6A9DF9C0D8B44A48F032F2FDB5B3956">Useful for targeting that is not time sensitive. </li> 
-   </ul></td> 
- </tr> 
+    <li id="li_B6A9DF9C0D8B44A48F032F2FDB5B3956">Useful for targeting that is not time sensitive. </li>
+   </ul></td>
+ </tr>
  <tr class="strow">
   <td class="stentry"> Disadvantages:</td>
   <td class="stentry"> The synchronization interval can delay targeting against the most current data.</td>
@@ -89,9 +89,9 @@ Pixel synchronization maps segments to pixels on the page. The pixel fires and t
   <td class="stentry"> <p>Disadvantages: </p></td>
   <td class="stentry"> 
    <ul id="ul_5217EDC82434401493C2C96823C068E9"> 
-    <li id="li_26EB0458CA1844908C005A47F55E50AC">Can add a lot of client-side calls from the page. </li> 
-    <li id="li_CD91F3DC92F2429293787D61506E5E04">Unreliable for data transmission. 5% to 20% loss is normal. </li> 
-   </ul></td> 
+    <li id="li_26EB0458CA1844908C005A47F55E50AC">Can add a lot of client-side calls from the page. </li>
+    <li id="li_CD91F3DC92F2429293787D61506E5E04">Unreliable for data transmission. 5% to 20% loss is normal. </li>
+   </ul></td>
  </tr> 
 </table>
 
@@ -121,8 +121,8 @@ Real-time data transfers send and receive segment IDs as a user visits or takes 
 The real-time data integration process works as follows:
 
 1. A user visits a customer's site that contains Audience Manager code.
-1. Audience Manager loads an Iframe and makes a call to the Data Collection Server (DCS).
-1. The DCS calls the third-party server (in real time) to check if the vendor has any segment information about the user.
+1. Audience Manager loads an Iframe and makes a call to the [!UICONTROL Data Collection Server] ([!UICONTROL DCS]).
+1. The [!UICONTROL DCS] calls the third-party server (in real time) to check if the vendor has any segment information about the user.
 1. The third party returns segment information about that user to Audience Manager.
 1. Audience Manager ingests segment information and makes it available for targeting.
 
@@ -140,7 +140,7 @@ The batch (server-to-server) data integration process follows most of the steps 
 
 * Immediate data transfers are not required.
 * Collecting data to build a large pool of segmented users.
-* You want to reduce data discrepancies and HTTP calls from the browser.
+* You want to reduce data discrepancies and `HTTP` calls from the browser.
 
 ### Batch Data Integration Steps
 
@@ -151,4 +151,4 @@ The batch (server-to-server) data integration process follows most of the steps 
 
 ![](assets/s2s_70.png)
 
-For information describing the time frames when Audience Manager processes inbound and outbound Server-to-Server (S2S) file transfers, see [Reporting and File Transfer Time-Frame Guidelines](../reference/reporting-file-transfer-timeframe.md#concept_B4863966B22949C19F12A269C4BC2719).
+For information describing the time frames when Audience Manager processes inbound and outbound Server-to-Server ([!UICONTROL S2S]) file transfers, see [Reporting and File Transfer Time-Frame Guidelines](../reference/reporting-file-transfer-timeframe.md#concept_B4863966B22949C19F12A269C4BC2719).
