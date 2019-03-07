@@ -31,7 +31,7 @@ A `POST` method to create a new user.
   "status" : <"ACTIVE"|"INACTIVE"|"LOCKED"> 
   "firstName" : <string>, 
   "lastName" : <string>, 
-  "emailAddress" : <string>, 
+  "email" : <string>, 
   "title" : <string_may_be_null>, 
   "phoneNumber" : <string_may_be_null>, 
   "groups" : [<group_1_id>, ...], 
@@ -49,7 +49,7 @@ A `POST` method to create a new user.
   "status" : <"ACTIVE"|"INACTIVE"|"LOCKED"> 
   "firstName" : <string>, 
   "lastName" : <string>, 
-  "emailAddress" : <string>, 
+  "email" : <string>, 
   "title" : <string_may_be_null>, 
   "phoneNumber" : <string_may_be_null>, 
   "groups" : [<group_1_id>, ...], 
@@ -80,7 +80,7 @@ A `PUT` method to update a user.
   "status" : <"ACTIVE"|"INACTIVE"|"LOCKED"> 
   "firstName" : <string>, 
   "lastName" : <string>, 
-  "emailAddress" : <string>, 
+  "email" : <string>, 
   "title" : <string_may_be_null>, 
   "phoneNumber" : <string_may_be_null>, 
   "groups" : [<group_1_id>, ...] 
@@ -97,7 +97,7 @@ A `PUT` method to update a user.
   "status" : <"ACTIVE"|"INACTIVE"|"LOCKED"> 
   "firstName" : <string>, 
   "lastName" : <string>, 
-  "emailAddress" : <string>, 
+  "email" : <string>, 
   "groups" : [<group_1_id>, ...] 
  
 }
@@ -126,7 +126,7 @@ A `PUT` method to update the currently logged-in user.
   "status" : <"ACTIVE"|"INACTIVE"|"LOCKED"> 
   "firstName" : <string>, 
   "lastName" : <string>, 
-  "emailAddress" : <string>, 
+  "email" : <string>, 
   "title" : <string_may_be_null>, 
   "phoneNumber" : <string_may_be_null> 
 }
@@ -140,7 +140,7 @@ A `PUT` method to update the currently logged-in user.
   "status" : <"ACTIVE"|"INACTIVE"|"LOCKED"> 
   "firstName" : <string>, 
   "lastName" : <string>, 
-  "emailAddress" : <string> 
+  "email" : <string> 
   "title" : <string_may_be_null>, 
   "phoneNumber" : <string_may_be_null> 
 }
@@ -206,7 +206,7 @@ A `Get` method to return the user object for a User ID.
   "status" : <"ACTIVE"|"INACTIVE"|"LOCKED"> 
   "firstName" : <string>, 
   "lastName" : <string>, 
-  "emailAddress" : <string>, 
+  "email" : <string>, 
   "title" : <string_may_be_null>, 
   "phoneNumber" : <string_may_be_null>, 
   "groups" : [<groupd_id_1>, ...] 
@@ -238,7 +238,7 @@ A `Get` method to return the user object for the currently logged-in user.
   "status" : <"ACTIVE"|"INACTIVE"|"LOCKED"> 
   "firstName" : <string>, 
   "lastName" : <string>, 
-  "emailAddress" : <string>, 
+  "email" : <string>, 
   "title" : <string_may_be_null>, 
   "phoneNumber" : <string_may_be_null>, 
   "groups" : [<groupd_id_1>, ...] 
@@ -272,7 +272,7 @@ This query returns a list of all users in the specified groups.
   "status" : <"ACTIVE"|"INACTIVE"|"LOCKED"> 
   "firstName" : <string>, 
   "lastName" : <string>, 
-  "emailAddress" : <string>, 
+  "email : <string>, 
   "title" : <string_may_be_null>, 
   "phoneNumber" : <string_may_be_null>, 
   "groups" : [<group_1_id>, ...] 
