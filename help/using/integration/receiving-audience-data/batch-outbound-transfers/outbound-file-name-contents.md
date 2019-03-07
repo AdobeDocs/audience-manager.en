@@ -108,7 +108,7 @@ E.g. full files:
 
 ### Scenario 2
 
-Files sent over to FTP location, without *`PID-ALIAS`* and with [!DNL Apple Advertiser IDs] in the file content:
+Files sent over to [!DNL FTP] location, without *`PID-ALIAS`* and with [!DNL Apple Advertiser IDs] in the file content:
 
 E.g. incremental files:
 
@@ -124,7 +124,7 @@ E.g. full files:
  <li> <span class="codeph"> ftp_1234_20915_full_1486140843000-1.sync.gz </span> </li> 
 </ul>
 
-**Scenario 3**: Files sent over to FTP location, with *`PID-ALIAS="XYZCustomer"`* and with 3rd party User ID in the file content ( *`Vendor ID=45454`*):
+**Scenario 3**: Files sent over to [!DNL FTP] location, with *`PID-ALIAS="XYZCustomer"`* and with 3rd party User ID in the file content ( *`Vendor ID=45454`*):
 
 E.g. incremental files:
 
@@ -188,7 +188,7 @@ The table lists variables that define the contents of a data file.
 
 ### Example: Basic File Format
 
-A properly formatted data file could look similar to the following sample. This file entry indicates a user qualifies for segments 24, 26, and 27. As required, a space separates the UUID and segment IDs. Another space separates the sets of segment IDs. In this example, a user belongs to segments 24, 26, and 27. They've been removed from segments 25 and 28.
+A properly formatted data file could look similar to the following sample. This file entry indicates a user qualifies for segments 24, 26, and 27. As required, a space separates the `UUID` and segment IDs. Another space separates the sets of segment IDs. In this example, a user belongs to segments 24, 26, and 27. They've been removed from segments 25 and 28.
 
 ```
 59767559181262060060278870901087098252  24,26,27  25,28

@@ -9,7 +9,7 @@ uuid: 1895e818-7ab8-4569-a920-4b0a4c8b83d2
 
 # Real-Time Outbound Data Transfers {#real-time-outbound-data-transfers}
 
-The outbound real-time data transfer process returns user data as a series of JSON objects passed in with a POST method.
+The outbound real-time data transfer process returns user data as a series of [!DNL JSON] objects passed in with a `POST` method.
 
 <!-- c_outbound_json.xml -->
 

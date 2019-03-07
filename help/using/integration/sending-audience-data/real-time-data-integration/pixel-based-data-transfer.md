@@ -17,11 +17,11 @@ To enable inbound data transfers, the vendor and client would:
 
 1. Determine which traits you wish the vendor or partner to fire.
 1. Get the pixel for the trait. In the traits list screen, hover over the **[!UICONTROL Actions]** column and click the **[!UICONTROL Get trait URL]** symbol for the desired trait.
-1. Provide the URL to the vendor or partner.
+1. Provide the [!DNL URL] to the vendor or partner.
 
 ## Examples
 
-This basic event call sends trait ID 1234 to [!DNL Audience Manager]. 
+This basic event call sends trait ID 1234 to [!DNL Audience Manager].
 
 ```
 

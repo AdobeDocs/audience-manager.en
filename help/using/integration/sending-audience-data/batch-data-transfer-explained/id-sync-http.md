@@ -23,13 +23,13 @@ You can use the following methods to get your data into [!DNL Audience Manager]:
 
 ## ID Synchronization `HTTP` Request {#section_0FF82F1DBA8E46A39FA65BD3A45004CA}
 
-In an ID exchange, a properly formatted URL string should look like this:
+In an ID exchange, a properly formatted [!DNL URL] string should look like this:
 
 ```
 https://dpm.demdex.net/ibs:dpid=<VENDOR_ID>&dpuuid=<VENDOR_UUID>&redir=<REDIRECT_URL>
 ```
 
-The URL for your inbound ID synchronization call should contain variables described in the table below.
+The [!DNL URL] for your inbound ID synchronization call should contain variables described in the table below.
 
 >[!NOTE]
 >

@@ -7,54 +7,55 @@ title: Send Segments to a Google AdWords Remarketing List
 uuid: 5ad821c6-48b4-42c0-b912-1563331e93a2
 ---
 
-# Send Segments to a [!DNL Google AdWords] Remarketing List {#send-segments-to-a-google-adwords-remarketing-list}
+# Send Segments to a [!DNL Google Ads] Remarketing List {#send-segments-to-a-google-adwords-remarketing-list}
 
-This procedure requires an [!DNL AdWords] remarketing list, pixel code, and an Audience Manager URL destination. It is also known as a remarketing list for search ads (RLSA) integration. Applies to paid search only.
+This procedure requires a [!DNL Google Ads] remarketing list, pixel code, and an Audience Manager [!DNL URL] destination. It is also known as a remarketing list for search ads ([!DNL RLSA]) integration. Applies to paid search only.
 
-To set up an [!DNL AdWords] remarketing list as an [!DNL Audience Manager] URL destination:
+>[!IMPORTANT]
+>Please note that this is not a productized integration of the two systems.
 
-1. In [!DNL Google AdWords], [create a website re-marketing list](https://support.google.com/adwords/answer/2454064?hl=en).
-1. Copy the pixel code from the [dynamic remarketing tag](https://support.google.com/adwords/answer/3103357). Do not copy the code this example. Your pixel code / image request will look similar to this:
+To set up a [!DNL Google Ads] remarketing list as an [!DNL Audience Manager] URL destination:
 
-   ```
-   <img height="1" width="1" style="border-style:none;" alt=""
-   src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/xxxxxxxx/?
-   value=0&guid=ON&script=0"/>
-   ```
-
-1. Remove all the image and source metadata from the pixel code.
-   Your edited code snippet should look similar to this:
+1. In your [!DNL Google Ads] account, [create a website re-marketing list](https://support.google.com/adwords/answer/2454064?hl=en) and write down your conversion ID.
+1. Use the following URL as a template for the Base URL and Secure URL. Replace the xxxxxxxx section with your conversion ID.
 
    ```
-   //googleads.g.doubleclick.net/pagead/viewthroughconversion/xxxxxxxx/?
-   value=0&guid=ON&script=0
+    //googleads.g.doubleclick.net/pagead/viewthroughconversion/xxxxxxxx/?value=0&guid=ON&script=0&data=%ALIAS%
    ```
 
-1. [Create a URL destination](../../features/destinations/manage-destinations.md#concept_51842672DFA943EA982B363E74D42DF8) or edit an existing destination.
-1. In the [!UICONTROL Segment Mappings] section of your URL destination, add the edited code to the **[!UICONTROL URL]** and **[!UICONTROL Secure URL]** boxes. Prefix the code with `https:` and `https:` in the URL and Secure URL boxes, respectively.
+1. In Audience Manager, [Create a URL destination](../../features/destinations/manage-destinations.md#concept_51842672DFA943EA982B363E74D42DF8) or edit an existing destination. Use the following settings when creating the destination:
+   * Type: URL
+   * Serialize: Enabled
+   * Delimiter: Semicolon (;)
+
+1. In the [!UICONTROl Segment Mappings] section of your [!DNL URL] destination, add the code from step 2 to the [!DNL URL] and [!DNL Secure URL] fields. Prefix the code with `http:` and `https:` in the [!DNL URL] and [!DNL Secure URL] fields, respectively.
+
    >[!IMPORTANT]
    >
    >Replace encoded ampersands `&` with un-encoded ampersands `&`
 
-   Unsecure URL code:
+   Unsecure [!DNL URL] code:
 
    ```
-   https://googleads.g.doubleclick.net/pagead/viewthroughconversion/xxxxxxxx/? 
-   value=0&guid=ON&script=0
+    http://googleads.g.doubleclick.net/pagead/viewthroughconversion/xxxxxxxx/?
+    value=0&guid=ON&script=0&data=%ALIAS%
    ```
 
-   Secure URL code:
+   Secure [!DNL URL] code:
 
    ```
-   https://googleads.g.doubleclick.net/pagead/viewthroughconversion/xxxxxxxx/? 
-   value=0&guid=ON&script=0
+    https://googleads.g.doubleclick.net/pagead/viewthroughconversion/xxxxxxxx/?
+    value=0&guid=ON&script=0&data=%ALIAS%
    ```
 
 1. Click **[!UICONTROL Save]**.
 
    >[!NOTE]
    >
-   >If you're working with multiple segments, get a new pixel for each segment you want to map to an AdWords destination. This ensures the data is applied to the appropriate remarketing list.
+   >If you're working with multiple segments, get a new pixel for each segment you want to map to a Google Ads destination. This ensures the data is applied to the appropriate remarketing list.
+
+1. When mapping a new segment to this destination in Audience Manager, define the mapping as `aam=segmentID` and replace `segmentID` with the ID of your segment.
+1. When defining a bucket in [!DNL Google Ads], create a rule that matches the mapping defined at step 6.
 
 A completed mapping could look similar to this:
 

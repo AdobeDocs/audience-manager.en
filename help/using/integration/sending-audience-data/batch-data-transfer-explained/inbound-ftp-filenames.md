@@ -9,7 +9,7 @@ uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 
 # FTP Name and File Size Requirements for Inbound Data Files{#ftp-name-and-file-size-requirements-for-inbound-data-files}
 
-Describes the required fields, syntax, naming conventions and file sizes you need to follow when sending data to Audience Manager. Set the names and sizes of your files according to these specifications when you send data to an Audience Manager FTP directory.
+Describes the required fields, syntax, naming conventions and file sizes you need to follow when sending data to Audience Manager. Set the names and sizes of your files according to these specifications when you send data to an Audience Manager [!DNL FTP] directory.
 
 >[!NOTE]
 >
@@ -23,11 +23,11 @@ Describes the required fields, syntax, naming conventions and file sizes you nee
 
 >[!NOTE] {importance="high"}
 >
->[!DNL Audience Manager] only processes ASCII and UTF-8 encoded files.
+>[!DNL Audience Manager] only processes [!DNL ASCII] and [!DNL UTF-8] encoded files.
 
 ### Name Elements
 
-The table defines the elements in an FTP file name.
+The table defines the elements in an [!DNL FTP] file name.
 
 <table id="table_1EA97D75004148CE85F702427DB7E97A"> 
  <thead> 

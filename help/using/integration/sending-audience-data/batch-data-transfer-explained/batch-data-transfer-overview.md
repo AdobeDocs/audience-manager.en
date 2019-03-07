@@ -19,13 +19,13 @@ You can make data from other systems available in Audience Manager. Our system c
 
 ## Step 1: Synchronize User IDs
 
-During synchronization, Audience Manager assigns unique IDs to clients and their users. These IDs are known as the Data Provider ID (DPID) and Unique User ID (UUID), respectively. Audience Manager uses the DPID and UUID to identify users and qualify them for traits, segments, audience groups, and for reporting. Additionally, our data collection code (DIL) looks for these IDs to capture visitor data from your website. When this step is complete, Audience Manager and your offline repository should contain corresponding IDs for each user record.
+During synchronization, Audience Manager assigns unique IDs to clients and their users. These IDs are known as the [!UICONTROL Data Provider ID] ([!UICONTROL DPID]) and [!UICONTROL Unique User ID] ([!UICONTROL UUID]), respectively. Audience Manager uses the [!UICONTROL DPID] and [!UICONTROL UUID] to identify users and qualify them for traits, segments, audience groups, and for reporting. Additionally, our data collection code ([!UICONTROL DIL]) looks for these IDs to capture visitor data from your website. When this step is complete, Audience Manager and your offline repository should contain corresponding IDs for each user record.
 
 Important considerations about this step:
 
 * **Client ID placement:** Audience Manager needs to know where your client ID appears on your website (e.g., is it stored in a cookie, an Analytics variable, in page code, etc.).
 * **Exclude [!DNL PII]:** User IDs must not contain personally identifiable information ([!DNL PII]).
-* **Case and content sensitivity:** During a real-time data sync, user IDs captured from your site by Audience Manager must correspond to IDs passed in from your offline repository. For example, if offline records hold information about User123, but your site renders that ID as USER123, Audience Manager sees these as different visitors. As a result, online information for this visitor cannot be associated with the corresponding records in your offline database. IDs must match exactly.
+* **Case and content sensitivity:** During a real-time data sync, user IDs captured from your site by Audience Manager must correspond to IDs passed in from your offline repository. For example, if offline records hold information about [!DNL User123], but your site renders that ID as [!DNL USER123], Audience Manager sees these as different visitors. As a result, online information for this visitor cannot be associated with the corresponding records in your offline database. IDs must match exactly.
 
 See [ID Synchronization for Inbound Data Transfers](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md#concept_8749F04CACF64B6CA2132D9F9887364A).
 
