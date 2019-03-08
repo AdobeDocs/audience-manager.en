@@ -30,16 +30,16 @@ The [!UICONTROL Marketplace] is an [!DNL Audience Manager] feature for data buye
 
 The [!UICONTROL Marketplace] list contains information that you can sort and search to find the data feed that's right for you. Items in the [!UICONTROL Marketplace] buyer's list include:
 
-* **Search:** Find data feeds by name or text description.
-* **Name:** Name of the data feed.
-* **Description:** Information about the contents of a data feed.
-* **Provider:** Name of the data provider.
-* **Traits:** The number of traits in a data feed.
-* **30 Day Provider Unique Users:** The number of unique users seen in the last 30 days.
-* **30 Day Overlapped Uniques:** The number of users in your account that overlap with the users in the provider’s account.
-* **Feed Overlap:** The 30 day overlapped uniques value, displayed in percentages, calculated as: Data buyer 30 day overlapped uniques / Data buyer 30 day uniques) x 100.
-* **Private Feeds:** See [Private Data Feeds](../../../features/audience-marketplace/marketplace-private-feeds.md#concept_68EDE94B558C4B88BBCC994B67726FD2).
-* **Currently Subscribed Plan Count:** The number of subscriptions you have with a data provider.
+* **[!UICONTROL Search]:** Find data feeds by name or text description.
+* **[!UICONTROL Name]:** Name of the data feed.
+* **[!UICONTROL Description]:** Information about the contents of a data feed.
+* **[!UICONTROL Provider]:** Name of the data provider.
+* **[!UICONTROL Traits]:** The number of traits in a data feed.
+* **[!UICONTROL 30 Day Provider Unique Users]:** The number of unique users seen in the last 30 days.
+* **[!UICONTROL 30 Day Overlapped Uniques]:** The number of users in your account that overlap with the users in the provider’s account.
+* **[!UICONTROL Feed Overlap]:** The 30 day overlapped uniques value, displayed in percentages, calculated as: Data buyer 30 day overlapped uniques / Data buyer 30 day uniques) x 100.
+* **[!UICONTROL Private Feeds]:** See [Private Data Feeds](../../../features/audience-marketplace/marketplace-private-feeds.md#concept_68EDE94B558C4B88BBCC994B67726FD2).
+* **[!UICONTROL Currently Subscribed Plan Count]:** The number of subscriptions you have with a data provider.
 
 ## Private Data Feeds {#section_FF7054C8EF3D4BC8A005FACBDFFB3AC1}
 

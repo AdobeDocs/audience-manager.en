@@ -21,9 +21,9 @@ To search for more than one signal, click the ![Add](assets/icon_add.png) button
 
 When searching for signals using multiple key-value pairs, [!DNL Audience Manager] links the pairs using the logical **AND** operator. For instance, let's say you're performing a search with the following key-value pairs:
 
-* c_creative == "12345"
-* c_product == "smartphone"
-* c_location == "europe"
+* [!DNL c_creative == "12345"]
+* [!DNL c_product == "smartphone"]
+* [!DNL c_location == "europe"]
 
 This search will return only results that qualify for all three filters on the same call: `c_creative == "12345"` `AND` `c_product == "smartphone"` `AND` `c_location == "europe"`.
 

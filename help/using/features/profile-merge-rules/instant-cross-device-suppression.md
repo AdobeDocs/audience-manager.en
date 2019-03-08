@@ -15,7 +15,7 @@ uuid: cb11b9cb-6d7d-4aa9-91b0-c2715857d821
 [!UICONTROL Instant Cross-Device Suppression] delivers two key use cases: improved user experience and media efficiency.
 
 * **An improved user experience**: Users that already purchased your product or service will not see the same creatives as before the purchase. Instead, you could display upselling or cross-selling messages for products or services that you know they have not purchased.
-* **Media efficiency**: Optimize your campaign spending by applying a global frequency cap across all DSPs. The frequency cap can be actioned in real-time for multiple devices belonging to a user.
+* **Media efficiency**: Optimize your campaign spending by applying a global frequency cap across all [!DNL DSP]s. The frequency cap can be actioned in real-time for multiple devices belonging to a user.
 
 The technical details of the real-time unsegmentation are described in length in [Profile Merge Rules and Device Un-Segmentation Processes](../../features/profile-merge-rules/merge-rule-unsegment.md#concept_E683A925C0854AF1A63479249734AEB4). Read on for the practical implementation of the use cases described above.
 
@@ -52,7 +52,7 @@ Keep in mind these aspects related to processing:
 * For the real-time unsegment capability to work, you must map the desired segments to realtime server-to-server destinations.
 * For devices connected to a device by a [device graph](../../features/profile-merge-rules/profile-link-use-case.md#section_88E3469E94E14453AF6891B8ADA0933B), we enforce a four-device limit regarding evaluation and unsegmentation. This limitation is described in [Device Graph Options and Device Unsegmentation](../../features/profile-merge-rules/merge-rule-unsegment.md#section_23A08D8D7E1541A8B0C701222D5032FC).​
 * The unsegment command will be included in a batch file, that is sent to destinations every 24 hours, for multiple devices connected by the device graph. 
-* The device must be seen in real-time (on the [Edge](../../reference/system-components/components-edge.md#concept_DD36E2B5A23D4CC5A91CA9808B908B8E)) to prompt segment evaluation. For traits that have a [!UICONTROL time-to-live (TTL)] value, even if a trait TTL is met, the device will *not* automatically be unsegmented until the device is next seen in real-time.​ Read more about how to [Set a Trait Expiration Interval](../../features/traits/create-onboarded-rule-based-traits.md#task_F17639E26C2744A0942461FCCD4D4DC7).
+* The device must be seen in real-time (on the [Edge](../../reference/system-components/components-edge.md#concept_DD36E2B5A23D4CC5A91CA9808B908B8E)) to prompt segment evaluation. For traits that have a [!UICONTROL time-to-live (TTL)] value, even if a trait [!DNL TTL] is met, the device will *not* automatically be unsegmented until the device is next seen in real-time.​ Read more about how to [Set a Trait Expiration Interval](../../features/traits/create-onboarded-rule-based-traits.md#task_F17639E26C2744A0942461FCCD4D4DC7).
 * If you are using the [!UICONTROL DCS API] to on-board rule-based traits in real-time, you can trigger the unsegment with the use of the [!UICONTROL AND NOT] logic. Read more about [sending data to the DCS API](../../api/dcs-intro/dcs-event-calls/dcs-url-send.md#concept_9F6C569C1E444002ADF2A43516A9F284).​
 
 ## Important Aspects to Note - Timing {#section_03B59052F4CA4706B8EF32B05C78A499}

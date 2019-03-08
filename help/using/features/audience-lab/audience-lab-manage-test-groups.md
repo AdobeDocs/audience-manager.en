@@ -15,9 +15,7 @@ This procedure walks you through the steps needed to create, edit, or delete a t
 
 ### Prerequisites
 
-<!--
-create-test-group.xml
--->
+<!-- create-test-group.xml -->
 
 * You need to have at least one **conversion trait** set up. You can set up conversion traits in the [Trait Builder](../../features/traits/create-onboarded-rule-based-traits.md), by selecting **conversion** as the event type. For more information on what conversion traits are and how to set them up, we prepared a [video](https://helpx.adobe.com/audience-manager/kt/using/creating-conversion-traits-feature-video-use.html) for you.
 
@@ -33,32 +31,32 @@ create-test-group.xml
 To create a new [!UICONTROL Segment Test Group]:
 
 1. Select **[!UICONTROL Create New Test Group]** in the [!UICONTROL Audience Lab] dashboard to start the wizard.
-2. **[!UICONTROL Basic Info & Choose Segment]**
+1. **[!UICONTROL Basic Info & Choose Segment]**
 
     * Fill in a **[!UICONTROL Test Group Name]** and a **[!UICONTROL Description]**.
     * Choose the **[!UICONTROL Base Segment]** either by navigating in the file browser or by typing in the search bar, confirm by pressing **[!UICONTROL Choose Segment.]**
     * You can save the test group as a draft and resume working on it later.
     * An alert will show up in case the base segment you selected is already used in other test groups. Using the base segment twice may distort the conversion results for both tests.
 
-3. **[!UICONTROL Allocate Test Segments]**
+1. **[!UICONTROL Allocate Test Segments]**
 
     * You can create **up to 15 test segments** and divide the percentage of devices as you wish.
     * You can edit the name of the test segments by clicking on them.
     * The percentages automatically divide evenly to 100% when new test segments are allocated. You can then manually edit the percentages. Click the checkbox after editing the percentages and make sure they add up to 100%, otherwise you will not be able to proceed to the next step.
 
-4. **[!UICONTROL Set a Control Segment]**
+1. **[!UICONTROL Set a Control Segment]**
 
     * Select a control segment if you want to set aside a certain part of the segment to be used as a control group. Control groups allow you to see the impact of the test segments you created compared to a benchmark.
     * You can select a test segment as control segment in the drop-down list, or you can choose **[!UICONTROL None]** for no control.
     * Click **[!UICONTROL Next]** when you're done.
 
-5. **[!UICONTROL Select Conversion Traits]**
+1. **[!UICONTROL Select Conversion Traits]**
 
     * Add conversion traits by typing in the conversion trait window. This is a **mandatory** step and you cannot proceed to the next step unless you add at least one conversion trait.
     * You can add up to 5 conversion traits if you wish.
     * An alert will show up in case you select a conversion trait already used for other test groups.
 
-6. **[!UICONTROL Choose Destinations & Dates]**
+1. **[!UICONTROL Choose Destinations & Dates]**
 
     * Type in the desired destinations in the search field or use the drop-down arrow. [!UICONTROL Audience Lab] test segments can be sent to URL, cookie, or server-to-server destinations.
     * Drag & drop segments to destinations.
@@ -74,7 +72,7 @@ To create a new [!UICONTROL Segment Test Group]:
 
    Click **[!UICONTROL Next]** to review and finalize your test group.
 
-7. **[!UICONTROL Summary & Finalize]**
+1. **[!UICONTROL Summary & Finalize]**
 
     * Review the information you added in the previous steps and select **[!UICONTROL Finalize Group]**.
     * Remember that once you finalize a test group, it can be duplicated or deleted, but not edited.
@@ -88,8 +86,8 @@ To create a new [!UICONTROL Segment Test Group]:
 In [!UICONTROL Audience Lab], you are only able to edit draft test groups. In the [!UICONTROL Create Segment Test Group] wizard, you can save your test group as a draft and resume working on it later.
 
 1. Navigate to the [!UICONTROL Audience Lab] main view.
-1. Search for your draft test groups and select the **[!UICONTROL Edit]** control in the test group card.
-1. Resume the [Create Segment Test Group](../../features/audience-lab/audience-lab-manage-test-groups.md#task_B62EF6D2992941FAAEA84BE2EA11A55E) wizard and select **[!UICONTROL Finalize Group]** when you're done.
+2. Search for your draft test groups and select the **[!UICONTROL Edit]** control in the test group card.
+3. Resume the [Create Segment Test Group](../../features/audience-lab/audience-lab-manage-test-groups.md#task_B62EF6D2992941FAAEA84BE2EA11A55E) wizard and select **[!UICONTROL Finalize Group]** when you're done.
 
 ## Delete Segment Test Groups {#task_4EDCDE99FF8C4107BA916C3D0DC281BE}
 

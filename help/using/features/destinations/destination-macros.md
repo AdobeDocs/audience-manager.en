@@ -86,7 +86,7 @@ The `%rnd%` and `%timestamp%` macros insert unique values into a [!DNL URL] stri
 
 <!-- c_dest_cache_busting.xml -->
 
-Browsers cache (save) save frequently requested content in memory. When a page loads, saved content serves from the cache rather than from a remote server. This process helps maintain efficient download times because data serves locally rather than from another location. However, because caching does not require a server call, it can skew reporting by artificially lowering the number of unique requests.
+Browsers cache (save) frequently requested content in memory. When a page loads, saved content serves from the cache rather than from a remote server. This process helps maintain efficient download times because data serves locally rather than from another location. However, because caching does not require a server call, it can skew reporting by artificially lowering the number of unique requests.
 
 Cache busting prevents browsers from saving and reusing content. This technique uses code that inserts a random number or time stamp into a URL string, which makes it look unique to the browser. As a result, each `HTTP` call is counted as a separate request to the server. Forcing a new server call for each request helps maintain reporting accuracy and reduce discrepancies. [!DNL Audience Manager] provides two macros for cache busting:
 

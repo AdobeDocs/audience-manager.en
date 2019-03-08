@@ -11,11 +11,7 @@ uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
 
 Answers to common privacy- and data-related questions or issues.
 
-<!-- 
-
-faq_privacy.xml
-
- -->
+<!-- faq_privacy.xml -->
 
 Contents:
 

@@ -51,7 +51,7 @@ Describes the available date ranges and how data ages out of each interval in th
 
 Reports for your [!UICONTROL Addressable Audiences] and [Destinations](../features/destinations/destinations.md#concept_5BDA346C376C4B719EA394108AB2735A) use the same date range intervals. The date range options include:
 
-* Last 1 Day (This interval runs from Midnight to Midnight of the previous 24-hour period. It is not a real- or current-time metric.)
+* Last 1 Day (This interval runs from Midnight to Midnight of the previous 24-hour period. It is not a real or current-time metric.)
 * Last 7 Days
 * Last 14 Days
 * Last 30 Days
@@ -59,7 +59,7 @@ Reports for your [!UICONTROL Addressable Audiences] and [Destinations](../featur
 * Last 90 Days
 * Lifetime
 
-All dates and date ranges are set in the UTC time zone. See [Time Zones in Audience Manager](../reference/aam-time-zones.md#concept_9E98F473CB1A4A81A68C68CA552D9507).
+All dates and date ranges are set in the [!DNL UTC] time zone. See [Time Zones in Audience Manager](../reference/aam-time-zones.md#concept_9E98F473CB1A4A81A68C68CA552D9507).
 
 ## Data in Date Range Intervals {#section_E2A4667E701846E896E1003829C2FEDF}
 
@@ -78,11 +78,7 @@ Lists and defines metrics provided by Addressable Audiences.
 
 ## Customer-Level Metrics {#section_0816B56BF5A14CEF8578674DB33D08F3}
 
-<!-- 
-
-addressable-audience-metrics.xml
-
- -->
+<!-- addressable-audience-metrics.xml -->
 
 These metrics return data for traits realized when visitors come to your site or when you send inbound data files to [!DNL Audience Manager]. These metric provide a comprehensive view of audience size for your account.
 
@@ -122,7 +118,7 @@ These metrics return data on segment membership. They help provide a more granul
 
 >[!NOTE]
 >
->The way the look-back window is applied at the segment level is different from that at the customer level. Visitors can come to the site and realize a trait 10 days ago, and they could qualify for a segment since then and dropped out of the segment 2 days ago. When the 7-day look-back is applied, these visitors will be counted at the segment level but not at the customer level.
+>The way the look-back window is applied at the segment level is different from that at the customer level. Visitors can come to the site and realize a trait 10 days ago, and they could qualify for a segment since then and dropped out of the segment 2 days ago. When the 7 day look-back is applied, these visitors will be counted at the segment level but not at the customer level.
 
 <table id="table_4185AA02CC774B6C93B02E45F88BBBD9"> 
  <thead> 
@@ -174,7 +170,7 @@ This metric returns data on activities collected across all Audience Manager cus
 
 You shouldn't compare the [!UICONTROL Customer Addressable Audience] and [!UICONTROL Segment Addressable Audience] metrics to determine if one is more significant than the other. These are separate, different, and independent metrics. As described in the definitions above, each of these is derived from different data sets. Given this, you should avoid deriving any conclusions if one metric is larger than the other. All you can say when comparing these is that:
 
-* [!UICONTROL Customer Addressable Audiences] is based on trait realizations *for your own, first-party data*. This metric provides a broad, comprehensive view of your integration with a data partner. 
+* [!UICONTROL Customer Addressable Audiences] is based on trait realizations *for your own, first-party data*. This metric provides a broad, comprehensive view of your integration with a data partner.
 
 * [!UICONTROL Segment Addressable Audiences] is based on segment qualifications *for your own first-party data, plus second and third-party data*. This metric provides a granular, more accurate view of your addressable audiences in a targeting platform.
 
@@ -182,11 +178,7 @@ You shouldn't compare the [!UICONTROL Customer Addressable Audience] and [!UICON
 
 Common elements responsible for low Addressable Audience match rates or discrepancies in reported numbers.
 
-<!-- 
-
-addressable-audiences.xml
-
- -->
+<!-- addressable-audiences.xml -->
 
 <table id="table_895D536F69134330A4F13887ECAFD4F5"> 
  <thead> 

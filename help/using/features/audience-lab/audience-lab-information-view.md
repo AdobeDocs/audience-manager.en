@@ -23,7 +23,7 @@ The **[!UICONTROL Destinations]** card is collapsible. Press the arrows to open 
 * the number of devices from the base segment's total population allocated to each destination.
 * mapping key;
 * mapping value;
-* URL & secure URL for URL destinations.
+* [!DNL URL] & secure [!DNL URL] for [!DNL URL] destinations.
 
 >[!NOTE]
 >
