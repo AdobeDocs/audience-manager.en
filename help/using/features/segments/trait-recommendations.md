@@ -85,7 +85,7 @@ When building or editing a segment in [Segment Builder](segment-builder.md), you
 
 1. To add recommended traits to the segment rule, click the **+** symbol.
 
-When you create or edit a segment and add a trait to the segment rule, you see a maximum of five recommended traits, similar to the one you have added. If the segment rule contains more than one trait, we use a round robin method to show the best match for each trait, then the second-best match for each trait, and so on, for the largest five traits by population, in the segment rule.
+When you create or edit a segment and add a trait to the segment rule, you see a maximum of five recommended traits, similar to the one you have added. If the segment rule contains more than one trait, Audience Manager uses a round robin method to show the best match for each trait, then the second-best match for each trait, and so on, for the largest five traits by population, in the segment rule.
 
 ![Three Base Traits](assets/three-base-traits.png)
 
@@ -115,11 +115,11 @@ Clicking on a trait opens a pop-up window, as shown in the image below. If the r
 
 ## How it Works
 
-To produce trait recommendations, we compute the [Jaccard similarity](https://en.wikipedia.org/wiki/Jaccard_index) between the target trait and every other trait that your account has access to, including third-party data. We then display up to five traits that have the highest similarity. 
+To produce trait recommendations, Audience Manager computes the [Jaccard similarity](https://en.wikipedia.org/wiki/Jaccard_index) between the target trait and every other trait that your account has access to, including third-party data. Audience Manager then displays up to five traits that have the highest similarity. 
 
 ## Trait Similarity Score
 
-We calculate the Trait Similarity Score between two traits by computing the intersection and union in terms of the number of UUIDs and then divide the two. For two traits A and B, the calculation looks like this:
+Audience Manager calculate the Trait Similarity Score between two traits by computing the intersection and union in terms of the number of UUIDs and then divide the two. For two traits A and B, the calculation looks like this:
 
 ![](assets/jaccard_similarity.png)
 
@@ -128,7 +128,7 @@ See, also, the two examples below.
 **Example 1 - Low Trait Similarity Score**
 
 Given two traits A and B, let's say each of the traits has a population of 1,000,000 UUIDs, 25,000 UUIDs of which qualify for both traits.
-Using the formula above, we'll have: 25,000 / 1,975,000 = 0.012. This is a low Trait Similarity Score, the two traits are very dissimilar.
+Using the formula above, this will result in: 25,000 / 1,975,000 = 0.012. This is a low Trait Similarity Score, the two traits are very dissimilar.
 
 ![](assets/Trait-Recommendations-Low-overlap.png)
 
@@ -141,7 +141,7 @@ If the same traits A and B had 400,000 UUIDs that qualify for both traits, the T
 
 **How to Interpret the Trait Similarity Score**
 
-Use the table below as a rough guide to trait similarity. This guide is based on the similarity scores we have observed across a majority of the traits.
+Use the table below as a rough guide to trait similarity. This guide is based on the similarity scores observed across a majority of the traits.
 
 
 Trait Similarity Score | Significance |
