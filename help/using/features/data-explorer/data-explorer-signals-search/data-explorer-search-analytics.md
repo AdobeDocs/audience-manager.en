@@ -18,6 +18,6 @@ This integration allows you to see the friendly names for key-value pairs derive
    >[!NOTE]
    >
    >The **[!UICONTROL Key or Key Name]** field shows auto-completed suggestions based on your input, as well as friendly names for the keys that you enter.
-   
+
    ![](assets/signals-search-analytics.png)
 1. The search results will now show you the friendly names for the key-value pairs entered in the **[!UICONTROL Key or Key Name]** column, or for all of the signals in the report suite, if you left the key-value fields blank.

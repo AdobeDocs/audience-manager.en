@@ -19,8 +19,10 @@ Search for specific signals and create rule-based or onboarded traits based on t
 
    >[!NOTE]
    >You can only create traits from signals of the same type. You cannot create a trait based on a combination of a real-time signal and an onboarded one.
-   >![](assets/signals-create-trait-search.png)
+   >
+   > ![](assets/signals-create-trait-search.png)
    >You can create traits from used signals, too. Signals that are already used in traits have the number of traits displayed in the **[!UICONTROL Included in Traits]** column. Click the arrow to see the traits that include the signal.
+   >
    >![](assets/signals-used-traits.png)
 
 1. Use the **[Trait Builder](../../../features/traits/about-trait-builder.md#concept_13D6537EE5D0459F870C58822AD5400A)** to create your new traits.

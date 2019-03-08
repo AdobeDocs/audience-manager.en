@@ -38,8 +38,7 @@ Features include:
 * **Traits:** The number of traits in each data feed. You can hide this from buyers with a private data feed.
 * **Last 30 Day Uniques:** The number of unique users seen in the last 30 days. You can hide this from buyers with a private data feed.
 * **Last Month's Total Fees:** The amount subscribed data buyers owe you. The reporting period ends on the 10th of each month. Overdue accounts get flagged with the triangle/exclamation mark icon. You can [deactivate a subscriber's data feed](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#task_AC7B88F06D1149C39D895C9DFC197F2C) if they misuse your data or if their account is overdue.
-
-* **Status:**  Shows if a feed is active, inactive, private, or public. 
+* **Status:**  Shows if a feed is active, inactive, private, or public.
 * **Subscribers:** Shows how many buyers are using a data feed. Click the number in this column to see a buyer's company name, subscriptions, billing, and subscription status.
 * **Requests:** The number of access requests for a data feed.
 

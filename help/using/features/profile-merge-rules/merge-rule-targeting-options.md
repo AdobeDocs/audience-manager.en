@@ -21,7 +21,7 @@ uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
 
 User authentication to a website should trigger a declared ID call to [!DNL Audience Manager]. After this event, [!DNL Audience Manager] writes trait data to (and reads from) an authenticated profile. The authenticated profile lets [!DNL Audience Manager]:
 
-* Write traits to the authenticated profile specific to a particular user. 
+* Write traits to the authenticated profile specific to a particular user.
 * Identify and differentiate between multiple device users for segmentation.
 
 ### Reach authenticated users

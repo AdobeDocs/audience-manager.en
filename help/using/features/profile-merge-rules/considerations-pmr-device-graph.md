@@ -24,10 +24,10 @@ Devices that qualify for a segment in real-time are measured by the [segment’s
 
 ![](assets/pmr-considerations-2.png)
 
-A low real-time segment population means that very few of the devices qualifying for the segment are being seen in real-time. For best performance, segments with little to no real-time population should use a [!UICONTROL Profile Merge Rule] set to evaluate the *Current Device*, like in the image below.
+A low real-time segment population means that very few of the devices qualifying for the segment are being seen in real-time. For best performance, segments with little to no real-time population should use a [!UICONTROL Profile Merge Rule] set to evaluate the *[!UICONTROL Current Device]*, like in the image below.
 
 ![](assets/pmr-considerations-3.png)
 
-Setting the [!UICONTROL Profile Merge Rule] to evaluate the *Current Device* ensures that all devices (not just those seen in real-time) are evaluated for the segment. All devices qualifying for the segment are defined by the total segment population, as shown below.
+Setting the [!UICONTROL Profile Merge Rule] to evaluate the *[!UICONTROL Current Device]* ensures that all devices (not just those seen in real-time) are evaluated for the segment. All devices qualifying for the segment are defined by the total segment population, as shown below.
 
 ![](assets/pmr-considerations-4.png)

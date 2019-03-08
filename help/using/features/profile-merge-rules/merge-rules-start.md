@@ -225,14 +225,14 @@ Check the methods in your [!DNL SDK] code that let you pass [!UICONTROL declared
      
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dpuuid:(NSString&nbsp;*)dpuuid; 
     ```
-    <p> <b>Example:</b> </p> 
+    <p> <b>Example:</b> </p>
     ````javascript
-      [ADBMobile&nbsp;audienceSetDpid:@"290" 
-      dpuuid:@"99301393923940"]; 
+      [ADBMobile&nbsp;audienceSetDpid:@"290"
+      dpuuid:@"99301393923940"];
     ```
-    </td> 
-  </tr> 
- </tbody> 
+    </td>
+  </tr>
+ </tbody>
 </table>
 
-See also, [Audience Manager Methods for Android](https://marketing.adobe.com/resources/help/en_US/mobile/android/?f=c_audience_manager_methods.html) and [Audience Manager Methods for iOS](https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=aam_methods.html). 
+See also, [Audience Manager Methods for Android](https://marketing.adobe.com/resources/help/en_US/mobile/android/?f=c_audience_manager_methods.html) and [Audience Manager Methods for iOS](https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=aam_methods.html).

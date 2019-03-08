@@ -10,15 +10,13 @@ uuid: e28c20b3-33fc-4485-8ee9-8530d126f741
 
 # Create, Price, and Manage Data Feeds {#create-price-and-manage-data-feeds}
 
-A data feed requires a name, description, data source, and a plan type. Feeds are disabled until you save and activate the feed. Set up public or private data feeds in Audience Marketplace > My Shared Data. Available to data sellers only.
+A data feed requires a name, description, data source, and a plan type. Feeds are disabled until you save and activate the feed. Set up public or private data feeds in [!UICONTROL Audience Marketplace] > [!UICONTROL My Shared Data]. Available to data sellers only.
 
 ## Create a Public or Private Data Feed {#task_31BA4FB8FCD940588E6DCE2E7503DF4D}
 
 A data feed requires a name, description, data source, and a plan type. Feeds are disabled until you save and activate the feed. Set up public or private data feeds in **[!UICONTROL Audience Marketplace > My Shared Data]**. Available to data sellers only.
 
-<!--
-t_data_feed.xml
--->
+<!-- t_data_feed.xml -->
 
 You must have administrator rights to create a public or private data feed.
 To create a data feed:
@@ -64,9 +62,7 @@ To see what a private feed looks like to buyers, see the buyers section in [Priv
 
 As an [!UICONTROL Audience Marketplace] data provider, you can revoke buyer access to a subscribed data feed. You may want to remove a buyer from a feed for reasons such as late payment / non-payment of fees or if they use trait data improperly.
 
-<!--
-marketplace-deactiva4te-subscribers.xml
--->
+<!-- marketplace-deactiva4te-subscribers.xml -->
 
 To revoke a subscriber:
 
@@ -100,9 +96,7 @@ After you remove access to a data feed, subscribers are responsible for fees for
 
 ## Plan Types and Use Case Options {#section_2DDDBB94B8814B80AAF85CB2ABA4DF99}
 
-<!--
-c_feed_options.xml
--->
+<!-- c_feed_options.xml -->
 
 The [!UICONTROL Use Case] settings let sellers control how buyers can use your data.
 
@@ -133,8 +127,8 @@ A **[!UICONTROL Modeling]** use case creates a plan that lets buyers compare you
 
 An **[!UICONTROL Activation]** use case lets buyers send data to a [destination](../../../features/destinations/destinations.md#concept_5BDA346C376C4B719EA394108AB2735A). With this use case, buyers cannot compare data with an overlap report or in an algorithmic model. Price this use case as follows:
 
-* Unit of Measure: CPM
-* Price: CPM market rate
+* Unit of Measure: [!DNL CPM]
+* Price: [!DNL CPM] market rate
 
 ## Billing and Price Options {#section_FAD9EDF933A248D4B762DA1C5D4BF2EF}
 

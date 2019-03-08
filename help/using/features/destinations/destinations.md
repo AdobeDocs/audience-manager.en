@@ -10,7 +10,7 @@ uuid: 5c7dbdec-f73f-46fe-9f12-7685e8d7334f
 
 # Destinations {#destinations}
 
-In Audience Manager, a destination is any third-party system (ad server, DSP, ad network, etc.) that you want to share data with. Destination Builder is the tool you used to create and manage cookie, URL, or server-to-server destinations.
+In Audience Manager, a destination is any third-party system (ad server, [!DNL DSP], ad network, etc.) that you want to share data with. Destination Builder is the tool you used to create and manage cookie, [!DNL URL], or server-to-server destinations.
 
 ## Purpose and Advantages {#section_D26ED9B4C55F4FAF9406C518ED41C5E6}
 

@@ -34,7 +34,7 @@ Slide the **[!UICONTROL Show Only Addressable Audience Metrics]** toggle to see 
 
 ## Destination Builder {#concept_4E07561F454E48DD986400E2B25A2224}
 
-[!UICONTROL Destination Builder] lets you create cookie-based or URL destinations. You cannot create server-to-server (S2S) destinations with [!UICONTROL Destination Builder], but you can manage their segment mappings. Contact your consultant to set up a S2S destination. [!UICONTROL Destination Builder] is located in **[!UICONTROL Audience Data > Destinations]**.
+[!UICONTROL Destination Builder] lets you create cookie-based or URL destinations. You cannot create server-to-server ([!DNL S2S]) destinations with [!UICONTROL Destination Builder], but you can manage their segment mappings. Contact your consultant to set up a [!DNL S2S] destination. [!UICONTROL Destination Builder] is located in **[!UICONTROL Audience Data > Destinations]**.
 
 ## Destination Builder Settings {#section_CD7B38643BA34A4CABE50F24072A9DB3}
 
@@ -50,7 +50,7 @@ Slide the **[!UICONTROL Show Only Addressable Audience Metrics]** toggle to see 
 
 ## Data Delivery Methods {#section_EB5C0D945F7B46F3B860D22F0998F550}
 
-Send information to a destination by passing it in through a URL string, by writing to a browser cookie, or through offline server-to-server data transfers.
+Send information to a destination by passing it in through a [!DNL URL] string, by writing to a browser cookie, or through offline server-to-server data transfers.
 
 * [!DNL URL] and cookie-based destinations transmit data synchronously, as a user takes action on a page.
 * Server-to-server data transmission is asynchronous and can occur long after a user has left the page. The delivery type you select depends on your business requirements and how a particular data partner wants to, or can, receive data.
@@ -164,9 +164,9 @@ This section contains options that let you set a base URL and data delimiters pa
 
 | Field | Description |
 |--- |--- |
-|Base URL|The base part of a standard HTTP URL that does not change. Also, you need to place the `%ALIAS%` [placeholder macro](../../features/destinations/destination-macros.md#destination-macros-defined) in the base URL. Example: `https://www.myCompany.com/%alias%...`|
-|Secure URL|The base part of a secure HTTPS URL that does not change. Also, you need to place the `%ALIAS%` [placeholder macro](../../features/destinations/destination-macros.md#destination-macros-defined) in the base URL. Example:  `https://www.myCompany.com/%alias%...`|
-|Delimiter|The symbol that separates the segment variables in the URL string. This is usually a comma or semi-colon. Get this information from your destination partner.|
+|Base [!DNL URL]|The base part of a standard `HTTP` [!DNL URL] that does not change. Also, you need to place the `%ALIAS%` [placeholder macro](../../features/destinations/destination-macros.md#destination-macros-defined) in the base [!DNL URL]. Example: `https://www.myCompany.com/%alias%...`|
+|Secure [!DNL URL]|The base part of a secure `HTTPS` [!DNL URL] that does not change. Also, you need to place the `%ALIAS%` [placeholder macro](../../features/destinations/destination-macros.md#destination-macros-defined) in the base [!DNL URL]. Example:  `https://www.myCompany.com/%alias%...`|
+|Delimiter|The symbol that separates the segment variables in the [!DNL URL] string. This is usually a comma or semi-colon. Get this information from your destination partner.|
 
 ## Segment Mappings {#section_45FF2A8E4EB648488578365DB5D15219}
 
@@ -271,13 +271,13 @@ The [!UICONTROL Publish Data To] settings return a cookie if the domain meets th
 
 ## Add or Edit Segments for Server-to-Server Destinations {#task_1B9A6418E2F24C9CA5888F09679204C0}
 
-You can only add or edit segments for a server-to-server (s2s) destination. You cannot create s2s destinations with [!UICONTROL Destination Builder]. Contact your consultant to set up s2s destinations. Follow these instructions to add or edit segments for a s2s destination.
+You can only add or edit segments for a server-to-server ([!DNL S2S]) destination. You cannot create [!DNL S2S] destinations with [!UICONTROL Destination Builder]. Contact your consultant to set up [!DNL S2S] destinations. Follow these instructions to add or edit segments for an [!DNL S2S] destination.
 
 <!-- destination-s2s-edit.xml -->
 
-To add or edit segment mappings for an s2s destination:
+To add or edit segment mappings for an [!DNL S2S] destination:
 
-1. Go to **[!UICONTROL Audience Data > Destinations]** and find the s2s destination you want to work with.
+1. Go to **[!UICONTROL Audience Data > Destinations]** and find the [!DNL S2S] destination you want to work with.
 1. In the [!UICONTROL Action] column, click the pencil icon to edit the destination.
    * In the **[!UICONTROL Search and Add Segments]** box, start typing the name of a segment or click **[!UICONTROL Browse All Segments]** browse a list of available segments.
    * Click **[!UICONTROL Add Selected Segments]** when you find the segment you want to use. Adding a segment opens the [!UICONTROL Edit Mapping] window.

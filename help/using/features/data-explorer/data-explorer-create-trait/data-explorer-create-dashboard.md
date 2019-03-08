@@ -12,9 +12,9 @@ The [!UICONTROL Signal Dashboard] allows you to create new traits from the [!UIC
 
 When you create a new trait, the trait type is pre-set based on the signal type:
 
-* **Rule-based** traits for real-time signals, actionable log files and [!DNL Adobe Analytics] signals;
+* **[!UICONTROL Rule-based]** traits for real-time signals, actionable log files and [!DNL Adobe Analytics] signals;
 
-* **Onboarded** traits for onboarded signals.
+* **[!UICONTROL Onboarded]** traits for onboarded signals.
 
 To create new traits from the **[!UICONTROL Signal Dashboard]**, identify the signal that you want to use in the trait, then click the corresponding **[!UICONTROL Create Rule-Based Trait]** or **[!UICONTROL Create Onboarded Trait]** link.
 

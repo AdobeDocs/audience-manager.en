@@ -11,24 +11,20 @@ uuid: 280a6acd-fef0-4737-a96d-9e22fbc8bfaf
 
 View a list of your currently configured data sources, add new data sources, and edit existing sources.
 
-<!--
-c_datasources.xml
--->
+<!-- c_datasources.xml -->
 
-You can also manage data sources using API methods. For more information, see [Data Source API Methods](../api/rest-api-main/aam-api-data-sources.md#concept_F7602FD030AA4638AF6D045E1009FA47).
+You can also manage data sources using [!DNL API] methods. For more information, see [Data Source API Methods](../api/rest-api-main/aam-api-data-sources.md#concept_F7602FD030AA4638AF6D045E1009FA47).
 
 ## Data Sources List View {#concept_0BFDC710F1E145EEB44447F41CDEDA9C}
 
 The [!UICONTROL Data Sources] dashboard is a centralized workspace for managing data sources.
 
-<!-- 
-c_datasources_list.xml
- -->
+<!-- c_datasources_list.xml -->
 
 The [!UICONTROL Data Sources] dashboard ( **[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]**) contains features and tools that help you:
 
-* See all your existing data sources, including each data source's description, status, and whether it is Inbound, Outbound, both, or a Share Provider. 
-* Search for data sources by name. 
+* See all your existing data sources, including each data source's description, status, and whether it is Inbound, Outbound, both, or a Share Provider.
+* Search for data sources by name.
 * Create, edit, and delete data sources.
 
 ## Data Source Settings and Menu Options {#reference_A87B381067E04C26A426514AF3B64E64}
@@ -37,9 +33,7 @@ The settings in the different sections of the [!UICONTROL Data Source] managemen
 
 ## Data Source Details {#section_43423119AD0E42A8B4C01747747E49A2}
 
-<!-- 
-datasource-settings-definitions.xml
- -->
+<!-- datasource-settings-definitions.xml -->
 
 In addition to text fields, the [!UICONTROL Data Source Details] section contains the controls and options listed below.
 

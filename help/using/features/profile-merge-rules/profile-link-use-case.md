@@ -64,7 +64,7 @@ Let's take a look at how this works with a sample credit card company. This exam
         <li id="li_541762056ECF4BC1ABF1F5116B5FED6C">A combination of anonymous activity across all 3 devices. </li> 
         <li id="li_C386CB62E5234E10AFEDE900ADC0E261">The last authenticated profile on the current device. </li> 
        </ul> </li> 
-      <li id="li_5C9BDC8FF886494589F005C9658A923C">Sends the segment to any real-time destination for retargeting across all 3 devices. </li> 
+      <li id="li_5C9BDC8FF886494589F005C9658A923C">Sends the segment to any real-time destination for retargeting across all 3 devices. </li>
      </ul> </p> </td> 
   </tr> 
  </tbody> 
