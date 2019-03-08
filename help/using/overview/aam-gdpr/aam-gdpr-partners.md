@@ -72,4 +72,4 @@ However, some of our activation partners:
 1. Cannot support unsegment requests from Adobe and/or 
 1. Are not able to receive updates from us more frequently than once in 30 days.
 
-In those cases, you are not able to send delete requests to activation partners in an automated way through Audience Manager. Download our [Partner Excel sheet](assets/AAM-Partners-Jan2019.xlsx) to see which Audience Manager activation partners support unsegment. 
+In those cases, you are not able to send delete requests to activation partners in an automated way through Audience Manager. Download our [Partner Excel sheet](assets/AAM-Partners-March2019.xlsx) to see which Audience Manager activation partners support unsegment. 
