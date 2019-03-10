@@ -153,7 +153,6 @@ var partnerObject2 = DIL.create({
   containerNSID:  
 <i>3</i> 
 }); 
-
 ```
 
 A successful response returns the [!UICONTROL DIL] instance. An unsuccessful attempt returns an error object (not thrown) if your code is configured improperly or whenever an error is encountered. 
