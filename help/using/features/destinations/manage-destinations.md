@@ -309,7 +309,7 @@ To add export labels to a destination:
    >[!IMPORTANT]
    >
    >Export restrictions will not work unless you set a [matching export control](../../features/data-export-controls.md) on a data source.
-2. Click **[!UICONTROL Save]**.
+1. Click **[!UICONTROL Save]**.
 
 >[!MORE_LIKE_THIS]
 >
