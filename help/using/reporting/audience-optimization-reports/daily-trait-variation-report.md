@@ -7,7 +7,7 @@ title: Daily Trait Variation Report
 uuid: 4e82bb17-d447-4ed1-a4fc-e15b0f1b47f0
 ---
 
-# Daily Trait Variation Report{#daily-trait-variation-report}
+# Daily Trait Variation Report {#daily-trait-variation-report}
 
 This report returns a list of traits that have been realized at least 10,000 times in the 30 days prior to the selected date(s) and have a standard deviation greater or equal to 1.7 in either direction over the same time interval. The report helps you evaluate how the number of impressions from unique users in a trait fluctuate over time.
 
@@ -31,7 +31,7 @@ Icons display at the bottom of the report that let you export data in various fo
 
 **Example #1**: this report can be highly useful in situations where you have traits with a high seasonality level. For instance, let's say your online store is testing seasonal promotions of various types and prices. You have the following traits defined in [!DNL Audience Manager]:
 
-* `productPage == "December Promotion"` 
+* `productPage == "December Promotion"`
 * `price > "500"`
 
 Say you run the [!UICONTROL Daily Trait Variation] report on the 20th of December and you notice a solid positive deviation on the above mentioned traits in the past 30 days. This can suggest that your visitors are looking for the products mentioned in your seasonal promotion. To capitalize on this trend, you can then invest more effort into targeting creatives for that specific product category on visitors that are interested in them.
@@ -44,8 +44,8 @@ Due to a reconfiguration of your store, you're splitting the smartphones page in
 
 One month later, you run the [!UICONTROL Daily Trait Variation] report and notice a large negative deviation on the `productPage == "smartphones"` trait, although your visitor number has increased, according to your site analytics. Based on this information, you realize that you haven't updated the traits in [!DNL Audience Manager] for your new product pages, so you know that you need to create the following traits:
 
-* productPage == "samsung" 
-* productPage == "apple" 
+* productPage == "samsung"
+* productPage == "apple"
 * productPage == "huawei"
 
-Once you do this, you'll see your audience qualifying for the newly created traits. 
+Once you do this, you'll see your audience qualifying for the newly created traits.

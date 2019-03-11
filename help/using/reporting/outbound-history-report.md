@@ -7,7 +7,7 @@ title: Outbound File History
 uuid: 3621a59d-2bb5-4828-86f6-4c9bfa580764
 ---
 
-# Outbound File History{#outbound-file-history}
+# Outbound File History {#outbound-file-history}
 
 View outbound batch job history information for a specified destination and time period.
 
@@ -26,7 +26,7 @@ t_reports_outbound_history.xml
 
    ![Step Result](assets/outbound_history_stats.png)
 
-   The following table contains information corresponding to columns in the report: 
+   The following table contains information corresponding to columns in the report:
 
 <table id="table_93076D46AC50411395E72B9B987E99BE"> 
  <thead> 
@@ -54,4 +54,3 @@ t_reports_outbound_history.xml
   </tr> 
  </tbody> 
 </table>
-
