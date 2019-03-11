@@ -44,4 +44,4 @@ This procedure describes how to rename or delete a storage folder.
 You can rename or delete storage folders from the [!UICONTROL Trait Storage] section of the main [!UICONTROL Traits] list dashboard.
 
 * Rename a folder by hovering over it and clicking the pencil icon.
-* Delete a folder by hovering over it and clicking the X icon.
+* Delete a folder by hovering over it and clicking the **X** icon.

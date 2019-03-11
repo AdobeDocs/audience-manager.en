@@ -9,7 +9,7 @@ uuid: d6725218-7b36-4653-9900-d67b5f7702a0
 
 # [!UICONTROL Profile Merge Rules] Dashboard {#profile-merge-rules-dashboard}
 
-Create and manage all your merge rules from the dashboard. You can create a maximum of 3 Profile Merge Rules.
+Create and manage all your merge rules from the dashboard. You can create a maximum of 3 [!UICONTROL Profile Merge Rules].
 
 The [!UICONTROL Profile Merge Rules] dashboard provides a unified workspace that lets you manage your [!UICONTROL Profile Merge Rules]. The dashboard is located at **[!UICONTROL Audience Data]** > **[!UICONTROL Profile Merge Rules]**. Your rules dashboard could look similar to the example shown below.
 

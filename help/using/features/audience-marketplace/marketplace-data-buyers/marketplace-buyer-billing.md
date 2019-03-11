@@ -35,7 +35,7 @@ To report [!DNL CPM] usage at segment level:
 2. Select the **[!UICONTROL Segment Usage]** tab.
 3. Fill in the usage for your segments. You can use the [!UICONTROL Search] box to filter the segments if you only need to report usage for some of them.
 4. Click **[!UICONTROL Edit Segments Usage]**.
-5. Enter the CPM usage amount in the [!UICONTROL Usage] column.
+5. Enter the [!DNL CPM] usage amount in the [!UICONTROL Usage] column.
 6. Click **[!UICONTROL Save]** when you're done and review the confirmation dialog.
    ![confirm-segment-usage](assets/confirm-segment-usage.png)
 7. Click **[!UICONTROL Confirm]**.
@@ -50,7 +50,7 @@ To report [!DNL CPM] usage at segment level:
 2. Select the **[!UICONTROL Feed Usage]** tab.
 3. Use the [!UICONTROL Search] box to filter the data feeds and identify the ones that you need to report usage for.
 4. Click **[!UICONTROL Edit Feeds Usage]**.
-5. Calculate the [!DNL CPM] usage for each data feed based on the Cost Attribution for CPM Data Feeds, and enter it in the [!UICONTROL Usage] column.
+5. Calculate the [!DNL CPM] usage for each data feed based on the [Cost Attribution for CPM Data Feeds](#concept_E757985A4850400288F1DD9A02B755D5), and enter it in the [!UICONTROL Usage] column.
 6. Click **[!UICONTROL Save]** when you're done and review the confirmation dialog.
 
    ![confirm-feed-usage](assets/confirm-feed-usage.png)
@@ -78,7 +78,7 @@ To update [!DNL CPM] usage in bulk:
 
 | Error Message | Description   |  Fix  |
 | ------------- | -------------| -----|
-| Invalid Input | [!DNL Audience Manager] detected a change in the CSV file schema, such as missing columns or changes to column titles. | Avoid changing the table structure. |
+| Invalid Input | [!DNL Audience Manager] detected a change in the [!DNL CSV] file schema, such as missing columns or changes to column titles. | Avoid changing the table structure. |
 | Not Found     | For [!UICONTROL Segment Level Reporting], [!DNL Audience Manager] could not identify the [!UICONTROL Segment ID] and [!UICONTROL Destination ID] combination. For [!UICONTROL Feed Level Reporting], [!DNL Audience Manager] could not identify the [!UICONTROL Data Provider Name], [!UICONTROL Feed Name], and [!UICONTROL Use Case] combination.    |   For [!UICONTROL Segment Level Reporting], check the validity of the [!UICONTROL Segment ID] and [!UICONTROL Destination ID] combination. For [!UICONTROL Feed Level Reporting], check the validity of the [!UICONTROL Data Provider Name], [!UICONTROL Feed Name], and [!UICONTROL Use Case] combination. |
 | Duplicate Records Found | [!DNL Audience Manager] detected duplicate records with different impression values.      |    Review the report and make sure you don't report different usage values for the same data feed or segment. |
 | Values Not Supported | [!DNL Audience Manager] detected non-numerical values in the [!DNL Audience Manager] column. | Review the report and make sure you only enter numerical values in the [!DNL Audience Manager] column.|
@@ -87,7 +87,7 @@ To update [!DNL CPM] usage in bulk:
 >[!NOTE]
 >Removing rows from the [!DNL CSV] usage report does not have any effect on the existing usage report. [!DNL Audience Manager] only processes the fields included in the report.
 
-## CPM Reporting Best Practices
+## [!DNL CPM] Reporting Best Practices
 
 <table id="table_E68FA2130D1C495FAB8982DFB6A31FD9"> 
  <thead> 
@@ -118,27 +118,25 @@ To update [!DNL CPM] usage in bulk:
  </tbody> 
 </table>
 
-## Cost Attribution for CPM Data Feeds {#concept_E757985A4850400288F1DD9A02B755D5}
+## Cost Attribution for [!UICONTROL CPM Data Feeds] {#concept_E757985A4850400288F1DD9A02B755D5}
 
-In [!UICONTROL Audience Marketplace] you must self-report impression amounts each month, for each of your segments. We recommend reporting CPM usage at segment level, so that cost attribution is done automatically.
+In [!UICONTROL Audience Marketplace] you must self-report impression amounts each month, for each of your segments. We recommend reporting [!DNL CPM] usage at segment level, so that cost attribution is done automatically.
 
-<!--
-marketplace_cpm_billing.xml
--->
+<!-- marketplace_cpm_billing.xml -->
 
 ### Billing Summary {#section_E49C2B4663DB4016B594DB596B66E4E1}
 
-You must submit CPM data feed impression amounts between the 1st and the 5th days of each calendar month. To do this correctly, we recommend that you [Report CPM Usage at Segment Level](#segment-level-report).
+You must submit [!DNL CPM] data feed impression amounts between the 1st and the 5th days of each calendar month. To do this correctly, we recommend that you [Report CPM Usage at Segment Level](#segment-level-report).
 
 >[!TIP]
->When you report CPM usage at segment level, the data feed-level reporting section is automatically filled in with the corresponding usage amounts.
+>When you report [!DNL CPM] usage at segment level, the data feed-level reporting section is automatically filled in with the corresponding usage amounts.
 
 Should you need to [!UICONTROL Report CPM Usage at Data Feed Level], you must individually compile all impressions delivered for each feed in the previous calendar month, and report them according to the billing allocation described in this article.
 
-After you report CPM number for the previous calendar month, [!DNL Adobe] will do the following:
+After you report [!DNL CPM] number for the previous calendar month, [!DNL Adobe] will do the following:
 
-* Create an invoice and bill you based on the CPM rate for each subscribed data feed.
-* Pay data providers (sellers) fees owed based on your reported CPM use.
+* Create an invoice and bill you based on the [!DNL CPM] rate for each subscribed data feed.
+* Pay data providers (sellers) fees owed based on your reported [!DNL CPM] use.
 
 >[!IMPORTANT]
 >
@@ -184,7 +182,7 @@ When you [Report CPM Usage at Data Feed Level](#feed-level-report), you must all
 
 ## Billing Examples {#section_61B684C354944A5CA3BE1A01007B9577}
 
-The examples below are meant to illustrate how CPM usage allocation is done at data feed level.
+The examples below are meant to illustrate how [!DNL CPM] usage allocation is done at data feed level.
 
 >[!MPORTANT]
 >We recommend that you [Report CPM Usage at Segment Level](#segment-level-report) instead, to have this process done automatically.

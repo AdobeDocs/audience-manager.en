@@ -31,7 +31,7 @@ The [!DNL TTL] resets, and the user remains in a segment, if they see that segme
 
 ## [!DNL Audience Manager] [!DNL TTL]s are Independent of Third-Party [!DNL TTL] Settings
 
-Remember, the [!DNL TTL] set on your [!DNL Audience Manager] pixel operates independently from the [!DNL TTL] set on other pixels used by third parties (DSPs, ad networks, etc.).
+Remember, the [!DNL TTL] set on your [!DNL Audience Manager] pixel operates independently from the [!DNL TTL] set on other pixels used by third parties ([!DNL DSP]s, ad networks, etc.).
 
 >[!MORE_LIKE_THIS]
 >

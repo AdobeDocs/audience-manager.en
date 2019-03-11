@@ -8,7 +8,7 @@ title: Customer Data Feeds
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 ---
 
-# Customer Data Feeds {#customer-data-feeds}
+# [!UICONTROL Customer Data Feeds] {#customer-data-feeds}
 
 Basic information about [!UICONTROL Customer Data Feed] ([!UICONTROL CDF]) files and instructions on how to get started. Start here if you're interested in receiving [!UICONTROL CDF] files or just want more information.
 
@@ -16,7 +16,7 @@ Basic information about [!UICONTROL Customer Data Feed] ([!UICONTROL CDF]) files
 
 <!-- cdf-intro.xml -->
 
-A [!UICONTROL CDF] file contains the same data that an [!DNL Audience Manager] event call ( `/event`) sends to our servers. This includes data like user IDs, trait IDs, segment IDs, and all the other parameters captured by an event call. Internal [!DNL Audience Manager] systems processes event data into a CDF file with content organized into fields that appear in a set order. [!DNL Audience Manager] tries to generate CDF files hourly and stores them in a secure, customer-specific bucket on an [!DNL Amazon S3] server. We provide these files so you can work with [!DNL Audience Manager] data outside of the limits imposed by our user interface.
+A [!UICONTROL CDF] file contains the same data that an [!DNL Audience Manager] event call ( `/event`) sends to our servers. This includes data like user IDs, trait IDs, segment IDs, and all the other parameters captured by an event call. Internal [!DNL Audience Manager] systems processes event data into a [!UICONTROL CDF] file with content organized into fields that appear in a set order. [!DNL Audience Manager] tries to generate [!UICONTROL CDF] files hourly and stores them in a secure, customer-specific bucket on an [!DNL Amazon S3] server. We provide these files so you can work with [!DNL Audience Manager] data outside of the limits imposed by our user interface.
 
 >[!NOTE]
 >
@@ -116,7 +116,7 @@ A [!UICONTROL CDF] file includes some or all of the fields defined below. For in
  </tbody> 
 </table>
 
-## Customer Data Feed File Structure {#concept_4F215D39A64A43CCAE8791FCD3D5232D}
+## [!UICONTROL Customer Data Feed] File Structure {#concept_4F215D39A64A43CCAE8791FCD3D5232D}
 
 Lists and defines the data structure of a [!UICONTROL Customer Data Feed] ([!UICONTROL CDF]) file. This includes data sequence, field delimiters and separators, a data file map, and sample file.
 
@@ -241,7 +241,7 @@ The following table lists and defines the elements in a [!UICONTROL CDF] file na
 
 ## [!UICONTROL Customer Data Feed] File Processing Notifications {#concept_00F913A9946A4A10A0F34269AC84A563}
 
-[!DNL Audience Manager] writes a `.info` file to your [!DNL S3] directory to let you know when your [!UICONTROL Customer Data File] ([!UICONTROL CDF]) is ready for download. The `.info` file also includes JSON-formatted metadata about the contents of your [!UICONTROL CDF] files. Review this section for information about the syntax and fields used by this notification file.
+[!DNL Audience Manager] writes a `.info` file to your [!DNL S3] directory to let you know when your [!UICONTROL Customer Data File] ([!UICONTROL CDF]) is ready for download. The `.info` file also includes [!DNL JSON] formatted metadata about the contents of your [!UICONTROL CDF] files. Review this section for information about the syntax and fields used by this notification file.
 
 ## Sample Info File {#section_BC331FC87C5A4BC9AE799B53F4FAA3E7}
 
@@ -378,7 +378,7 @@ The following table provides additional details about your [!UICONTROL CDF] file
   </tr>
   <tr> 
    <td colname="col1"> <p> <b>File Contents</b> </p> </td>
-   <td colname="col2"> <p>The timestamp in your CDF file contents marks the time the <span class="wintitle"> Data Collection Servers</span> started processing the file. This timestamp is set in the UTC time zone. It uses the <span class="codeph"> EventTime</span> field, with time formatted as <span class="codeph"><span class="varname"> yyyy-mm-dd hh:mm:ss</span></span>. This time is close to the actual time of the event on the page, but it can be different than the hour indicator in the file name. </p> <p> <p>Tip: Unlike the <span class="codeph"> hour=</span> timestamp in the file name, you can use <span class="codeph"> EventTime</span> to group data by time. </p> </p> </td> 
+   <td colname="col2"> <p>The timestamp in your CDF file contents marks the time the <span class="wintitle"> Data Collection Servers</span> started processing the file. This timestamp is set in the UTC time zone. It uses the <span class="codeph"> EventTime</span> field, with time formatted as <span class="codeph"><span class="varname"> yyyy-mm-dd hh:mm:ss</span></span>. This time is close to the actual time of the event on the page, but it can be different than the hour indicator in the file name. </p> <p> <p>Tip: Unlike the <span class="codeph"> hour=</span> timestamp in the file name, you can use <span class="codeph"> EventTime</span> to group data by time. </p> </p> </td>
   </tr>
  </tbody>
 </table>

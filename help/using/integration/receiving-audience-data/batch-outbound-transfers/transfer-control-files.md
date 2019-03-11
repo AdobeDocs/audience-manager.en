@@ -21,7 +21,7 @@ The metadata in the [!DNL .info] file lets partners:
 
 ## File Naming Conventions {#section_6C0CE366AABD4870B5E34FA6FC8EF9AE}
 
-The transfer-control file has the same name as the root of the batch/sequence with a [!DNL .info] file extension.
+The transfer-control file has the same name as the root of the batch/sequence with a [!DNL .info] file extension.s
 
 For example, if the first file in the sequence were named: [!DNL ftp_12345_67890_full_1500727351632-1.sync], the control file would be named [!DNL ftp_12345_67890_iter_1500727351632.info].
 

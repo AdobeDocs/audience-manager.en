@@ -99,10 +99,9 @@ In [!UICONTROL Segment Builder], the [!UICONTROL Traits] section lets you manage
 |Recommendations|Get live recommendations for similar traits to add to the segment rule. Read more in [Trait Recommendations](trait-recommendations.md).|
 |Real and Estimated Segment Size Data|See [Trait and Segment Population Data in Segment Builder](segment-builder-data.md).|
 
-
 ## [!UICONTROL Segment Builder] Controls: [!UICONTROL Destinations Mappings] Section {#reference_D4D92F9F114449C9BC2A51A1C746D92F}
 
-In [!UICONTROL Segment Builder], the optional [!UICONTROL Destinations Mapping] section lets you send segment data to a third-party cookie, [!DNL URL], or server-to-server destination. To add a destination, search (or browse) for a destination, provide destination specific information, and click **[!UICONTROL Add Destination]**.
+In [!UICONTROL Segment Builder], the optional [!UICONTROL Destinations Mapping] section lets you send segment data to a third-party [!DNL cookie], [!DNL URL], or server-to-server destination. To add a destination, search (or browse) for a destination, provide destination specific information, and click **[!UICONTROL Add Destination]**.
 
 <!-- r_segment_destinations_map.xml -->
 

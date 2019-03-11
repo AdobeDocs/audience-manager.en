@@ -24,33 +24,9 @@ The event call collects impression and conversion data and sends it to the [!DNL
 Event calls consist of key-value pairs that use the following syntax:
 
 ```
-https://clientname.demdex.net/event?d_event=imp&d_src= 
-<varname>
-  datasource_id 
-</varname>&d_site= 
-<varname>
-  siteID 
-</varname>& 
-d_creative= 
-<varname>
-  creative_id 
-</varname>&d_adgroup= 
-<varname>
-  adgroup_id 
-</varname>&d_placement= 
-<varname>
-  placement_id 
-</varname> 
-&d_campaign= 
-<varname>
-  campaign_id 
-</varname>[&d_cid=(GAID|IDFA)%01  
-<varname>
-  DPUUID 
-</varname>]&d_bust= 
-<varname>
-  cache buster value 
-</varname>
+http://clientname.demdex.net/event?d_event=imp&d_src=datasource_id&d_site=siteID&
+d_creative=creative_id&d_adgroup=adgroup_id&d_placement=placement_id
+&d_campaign=campaign_id[&d_cid=(GAID|IDFA)%01 DPUUID]&d_bust=cache buster value
 ```
 
 In the key-value pair, the value variable is an ID or macro inserted by the ad server. When the ad tag loads, that `%macro%` gets replaced with the required, corresponding values. This call does not return a response.

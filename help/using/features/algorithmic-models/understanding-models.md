@@ -9,13 +9,13 @@ topic: DIL API
 uuid: 39441e72-5316-453d-9aff-0e0b633aabcd
 ---
 
-# About Algorithmic Models {#about-algorithmic-models}
+# About [!UICONTROL Algorithmic Models] {#about-algorithmic-models}
 
 Build and manage the traits or segments used in algorithmic modeling, also referred to as look-alike modeling. Model features are located in **[!UICONTROL Audience Data > Models]**.
 
 <!-- c_models.xml -->
 
-## Understanding Algorithmic Models {#concept_441E566718B845929880B0823A9ECA9F}
+## Understanding [!UICONTROL Algorithmic Models] {#concept_441E566718B845929880B0823A9ECA9F}
 
 A review of algorithmic modeling in [!DNL Audience Manager]. Describes how modeling works, benefits, and workflow.
 
@@ -66,7 +66,7 @@ The following steps describe the [!UICONTROL TraitWeight] evaluation process.
 
 ### Step 1: Build a Baseline for Trait Comparison
 
-To build a baseline, [!UICONTROL TraitWeight] measures all the traits associated with an audience for a 30, 60, or 90-day interval. Next, it ranks traits according to their frequency and their correlation. The frequency count measures commonality. Correlation measures the likelihood of a trait being present only in the baseline audience. Traits that appear often are said to exhibit high commonality, an important characteristic used to set a weighted score when combined with traits discovered in your selected data sources.
+To build a baseline, [!UICONTROL TraitWeight] measures all the traits associated with an audience for a 30, 60, or 90 day interval. Next, it ranks traits according to their frequency and their correlation. The frequency count measures commonality. Correlation measures the likelihood of a trait being present only in the baseline audience. Traits that appear often are said to exhibit high commonality, an important characteristic used to set a weighted score when combined with traits discovered in your selected data sources.
 
 ### Step 2: Find the Same Traits in the Data Source
 

@@ -7,7 +7,7 @@ title: Declared IDs
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
 ---
 
-# Declared IDs {#declared-ids}
+# [!UICONTROL Declared IDs] {#declared-ids}
 
 How declared IDs work, set up procedures, code examples, and variables.
 
@@ -17,7 +17,7 @@ Exchange and synchronize user IDs with Audience Manager from devices or browsers
 
 <!-- declared_id_about.xml -->
 
-## Purpose of Declared ID Targeting {#section_2127B48E659E4D3AB03C698EBE9B589F}
+## Purpose of [!UICONTROL Declared ID] Targeting {#section_2127B48E659E4D3AB03C698EBE9B589F}
 
 Some browsers, and most mobile devices, do not accept third-party cookies. This makes it difficult to retain information about site visitors or assign persistent IDs. To resolve this issue, Audience Manager uses [!UICONTROL DIL] to let you pass in [!UICONTROL declared IDs] on an event call. Also, a [!UICONTROL declared ID] can act as a universal ID that applies to the same user across all the solutions in the [!DNL Experience Cloud]. The following table describes the ID targeting/matching process:
 
@@ -39,11 +39,11 @@ Some browsers, and most mobile devices, do not accept third-party cookies. This 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Return ID</b> </td> 
-   <td colname="col2"> <p>Audience Manager writes its synchronized ID to a first-party cookie (or other addressable storage space) in the client domain or application. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <b>Subsequent Event Calls</b> </td> 
-   <td colname="col2"> <p>Additional event calls read the Audience Manager ID from the client's domain and send that to Audience Manager. </p> </td> 
+   <td colname="col2"> <p>Audience Manager writes its synchronized ID to a first-party cookie (or other addressable storage space) in the client domain or application. </p> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> <b>Subsequent Event Calls</b> </td>
+   <td colname="col2"> <p>Additional event calls read the Audience Manager ID from the client's domain and send that to Audience Manager. </p> </td>
   </tr> 
  </tbody>
 </table>
@@ -59,7 +59,7 @@ The [!UICONTROL declared ID] process honors site visitor preferences to opt-out 
 
 See [Data Privacy](../overview/data-security-and-privacy/data-privacy.md#concept_C1E36C6BF4C0461F9D31687E275DC46A) for more information about opting-out of data collection.
 
-## Declared ID Opt-Out Examples {#section_C0370B5573CD49408E35356D051B2AD8}
+## [!UICONTROL Declared ID] Opt-Out Examples {#section_C0370B5573CD49408E35356D051B2AD8}
 
 You can make a [!UICONTROL declared ID] opt-out requests with the `d_cid` and `d_cid_ic` key-value pairs. The legacy parameters like `d_dpid` and `d_dpuuid` still work, but are considered deprecated. See [CID Replaces DPID and DPUUID](../reference/cid.md#concept_E9DE716F22E8491AB27057DB92B79081). In the examples, *italics* indicates a variable placeholder.
 
@@ -117,7 +117,7 @@ These methods still work but are considered deprecated. This information is prov
  </tbody> 
 </table>
 
-## URL Variables and Syntax for Declared IDs {#concept_22E2210AA6604B83B46F5E0CD5504A51}
+## [!DNL URL] Variables and Syntax for Declared IDs {#concept_22E2210AA6604B83B46F5E0CD5504A51}
 
 Describes the variables and event call [!DNL URL]s that send IDs directly to Audience Manager.
 
@@ -129,7 +129,7 @@ The following table lists the key-value pairs that pass in your [!DNL Audience M
 
 In each key-value pair:
 
-* The = symbol separates the key from its related values. 
+* The `=` symbol separates the key from its related values.
 * The non-printing [!DNL ASCII] character `%01` separates the values.
 
 <table id="table_DFA9A584A5DE40669EAF0DB62DDC5AAF"> 
@@ -182,11 +182,11 @@ Given these key-value pairs and their required syntax, you would make event call
 >
 >* [CID Replaces DPID and DPUUID](../reference/cid.md#concept_E9DE716F22E8491AB27057DB92B79081)
 
-## Declared ID Variables {#reference_F697F0D53E56430D95EC0C408B767F80}
+## [!UICONTROL Declared ID] Variables {#reference_F697F0D53E56430D95EC0C408B767F80}
 
 Describes the configuration variables used to pass declared IDs through [!UICONTROL DIL] to [!DNL Audience Manager.]
 
-## [!UICONTROL DIL] Uses the Experience Cloud ID Service to Pass Declared IDs {#section_2BF6DF66A50747BAB77C1427DDCCC218}
+## [!UICONTROL DIL] Uses the [!DNL Experience Cloud ID Service] to Pass [!UICONTROL Declared IDs] {#section_2BF6DF66A50747BAB77C1427DDCCC218}
 
 <!-- r_dil_declared_id_vars.xml -->
 
@@ -205,7 +205,7 @@ In the `namespace` key-value pair, `MCORG` is your [!DNL Experience Cloud] Organ
 
 ## Deprecated Functions {#section_5CC20964A1D342F7B0CBC3B6120FF78C}
 
-With the latest versions of [!UICONTROL DIL] (6.2+), you don't need to use these key-value pairs to pass in [!UICONTROL declared IDs]. That's because DIL now relies on the `visitorService` function shown in the code sample above. This function gets [!UICONTROL declared IDs] from the [!UICONTROL Experience Cloud ID Service]. However, we're referencing these variables here for historical and legacy purposes. See the code below for an example of how to configure `DIL.create` to get a [!UICONTROL declared ID] from the [!UICONTROL Visitor ID Service]. 
+With the latest versions of [!UICONTROL DIL] (6.2+), you don't need to use these key-value pairs to pass in [!UICONTROL declared IDs]. That's because [!UICONTROL DIL] now relies on the `visitorService` function shown in the code sample above. This function gets [!UICONTROL declared IDs] from the [!UICONTROL Experience Cloud ID Service]. However, we're referencing these variables here for historical and legacy purposes. See the code below for an example of how to configure `DIL.create` to get a [!UICONTROL declared ID] from the [!UICONTROL Visitor ID Service].
 The following table describes the legacy variables used by the `declaredId` object:
 
 <table id="table_A1884B72950F4BBDA87F17DDFF173628"> 
@@ -230,9 +230,9 @@ The following table describes the legacy variables used by the `declaredId` obje
  </tbody> 
 </table>
 
-### dpid and dpuuid
+### `DPID` and `DPUUID`
 
-Audience Manager compares and matches the combined `dpid` and `dpuuid` to a corresponding user ID in our system. If an ID does not exist, Audience Manager creates a new user ID and synchronizes it to the `dpid/dpuuid` combination. Once Audience Manager matches or creates a user ID (the `uuid`) it returns that ID in the JSON response to the cookie in the client's domain (first-party cookie) or other local storage.
+Audience Manager compares and matches the combined `DPID` and `DPUUID` to a corresponding user ID in our system. If an ID does not exist, Audience Manager creates a new user ID and synchronizes it to the `DPID/DPUUID` combination. Once Audience Manager matches or creates a user ID (the `UUID`) it returns that ID in the [!DNL JSON] response to the cookie in the client's domain (first-party cookie) or other local storage.
 
 Call this function when you're using [!UICONTROL DIL] v6.1 or earlier. However, this function has been deprecated in favor of the new version that gets [!UICONTROL declared IDs] from the [!UICONTROL Experience Cloud ID Service].
 
@@ -244,7 +244,7 @@ DIL.create({
 <varname>
   <dpuuid> 
 </varname>, 
-       dpid :  
+       DPID :  
 <varname>
   <dpid> 
 </varname> 
@@ -283,7 +283,7 @@ The request sends a data provider and user ID to Audience Manager:
 https://my_domain.net/event?d_rtbd=json&d_cb=myCallback&key=val&d_dpuuid=1234&d_dpid=5678
 ```
 
-The response returns the Audience Manager ID (e.g., uuid) which is written to a first-party cookie in the page domain.
+The response returns the Audience Manager ID (e.g., `UUID`) which is written to a first-party cookie in the page domain.
 
 ```js
 myCallback({

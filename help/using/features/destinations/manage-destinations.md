@@ -24,7 +24,7 @@ The default landing page lists and helps you manage all of your destinations. Yo
 Slide the **[!UICONTROL Show Only Addressable Audience Metrics]** toggle to see audience data and match rates for your server-to-server destinations. When enabled, this feature:
 
 * Lets you filter the report to return audience data and match rates for fixed time intervals.
-* Returns data for server-to-server destinations only. Cookie and URL destinations are excluded from the list. Slide the toggle again to return to the default view.
+* Returns data for server-to-server destinations only. Cookie and [!DNL URL] destinations are excluded from the list. Slide the toggle again to return to the default view.
 
 ![](assets/destination_landing2.png)
 
@@ -34,7 +34,7 @@ Slide the **[!UICONTROL Show Only Addressable Audience Metrics]** toggle to see 
 
 ## Destination Builder {#concept_4E07561F454E48DD986400E2B25A2224}
 
-[!UICONTROL Destination Builder] lets you create cookie-based or URL destinations. You cannot create server-to-server ([!DNL S2S]) destinations with [!UICONTROL Destination Builder], but you can manage their segment mappings. Contact your consultant to set up a [!DNL S2S] destination. [!UICONTROL Destination Builder] is located in **[!UICONTROL Audience Data > Destinations]**.
+[!UICONTROL Destination Builder] lets you create cookie-based or [!DNL URL] destinations. You cannot create server-to-server ([!DNL S2S]) destinations with [!UICONTROL Destination Builder], but you can manage their segment mappings. Contact your consultant to set up a [!DNL S2S] destination. [!UICONTROL Destination Builder] is located in **[!UICONTROL Audience Data > Destinations]**.
 
 ## Destination Builder Settings {#section_CD7B38643BA34A4CABE50F24072A9DB3}
 
@@ -44,13 +44,13 @@ Slide the **[!UICONTROL Show Only Addressable Audience Metrics]** toggle to see 
 
 |[!UICONTROL Destination Builder] Section|Purpose|
 |--- |--- |
-|Basic Information|Used to name the destination, describe it, and select destination type (URL or cookie), and platform (all, Android, browser, or iOS).|
-|Configuration|Includes controls for: <br/><ul><li>Passing in key-value data to URL destinations. You can send data as individual or serialized key-value pairs. For details see, [Destination Serialization](../../features/destinations/key-value-pairs.md#concept_02436A7C6C574C799F079EB731A63262)] and [Standard and Serial Key-Value Pairs](../../features/destinations/key-value-pairs.md). </li><li>Elements of a cookie destination such as cookie name, domain, size, expiration interval, data format, etc.</li></ul>|
-|Segment Mappings|Lets you: <br/><ul><li>Search for, add, and manage segments associated with all destination types. </li><li>Set delivery priorities on individual segments (for cookie-based segments only).</li></ul>|
+|Basic Information|Used to name the destination, describe it, and select destination type ([!DNL URL] or [!DNL cookie]), and platform (all, [!DNL Android], browser, or [!DNL iOS]).|
+|Configuration|Includes controls for: <br/><ul><li>Passing in key-value data to [!DNL URL] destinations. You can send data as individual or serialized key-value pairs. For details see, [Destination Serialization](../../features/destinations/key-value-pairs.md#concept_02436A7C6C574C799F079EB731A63262)] and [Standard and Serial Key-Value Pairs](../../features/destinations/key-value-pairs.md). </li><li>Elements of a cookie destination such as cookie name, domain, size, expiration interval, data format, etc.</li></ul>|
+|Segment Mappings|Lets you: <br/><ul><li>Search for, add, and manage segments associated with all destination types. </li><li>Set delivery priorities on individual segments (for [!DNL cookie]-based segments only).</li></ul>|
 
 ## Data Delivery Methods {#section_EB5C0D945F7B46F3B860D22F0998F550}
 
-Send information to a destination by passing it in through a [!DNL URL] string, by writing to a browser cookie, or through offline server-to-server data transfers.
+Send information to a destination by passing it in through a [!DNL URL] string, by writing to a browser [!DNL cookie], or through offline server-to-server data transfers.
 
 * [!DNL URL] and cookie-based destinations transmit data synchronously, as a user takes action on a page.
 * Server-to-server data transmission is asynchronous and can occur long after a user has left the page. The delivery type you select depends on your business requirements and how a particular data partner wants to, or can, receive data.
@@ -147,7 +147,7 @@ This section contains fields and options that start the URL destination creation
 
 ## Data Export Labels {#section_24858C4E36234493ABF33DF39501C1E9}
 
-This section contains options that apply [data export controls](../../features/data-export-controls.md#concept_155AAFBA7D804467B6F8279D26C9D05C) to a URL destination. Skip this step if you do not use data export controls. To complete this section:
+This section contains options that apply [data export controls](../../features/data-export-controls.md#concept_155AAFBA7D804467B6F8279D26C9D05C) to a [!DNL URL] destination. Skip this step if you do not use data export controls. To complete this section:
 
 1. Click **[!UICONTROL Data Export Labels]** to expose the controls.
 1. Select a label that corresponds to the data export control applied to the destination (see [Add Export Labels to a Destination](../../features/destinations/manage-destinations.md#task_A4BA30472E6F4687AC3F1B33F51909D9) for details).
@@ -155,7 +155,7 @@ This section contains options that apply [data export controls](../../features/d
 
 ## Configuration {#section_A8AB50168B674B46BE80771B9BAF37DD}
 
-This section contains options that let you set a base URL and data delimiters passed in by the URL string. This section is optional. To complete this section:
+This section contains options that let you set a base [!DNL URL] and data delimiters passed in by the [!DNL URL] string. This section is optional. To complete this section:
 
 1. Click **[!UICONTROL Configuration]** to expose the controls.
 1. *(Optional)* Select the **[!UICONTROL Serialize]** check box.
@@ -216,7 +216,7 @@ In [!UICONTROL Destination Builder], the [!UICONTROL Configuration section] cont
  </tbody> 
 </table>
 
-### Complex Cookie Domain Examples
+### Complex [!DNL Cookie] Domain Examples
 
 These examples show you if [!DNL Audience Manager] will set a cookie based on how the [!UICONTROL Cookie Domain] option is configured.
 
@@ -261,9 +261,9 @@ These examples show you if [!DNL Audience Manager] will set a cookie based on ho
 
 The [!UICONTROL Publish Data To] settings return a cookie if the domain meets the criteria set by the options you select. Options include:
 
-* **[!UICONTROL All of our domains]**: (Default) Returns a cookie for any domain. 
+* **[!UICONTROL All of our domains]**: (Default) Returns a [!DNL cookie] for any domain.
 * **[!UICONTROL Only the selected domains]**: Returns a cookie only for the domains selected in the domains list.
-* **[!UICONTROL All of our domains except the selected domains]**: Prevents selected domains from receiving a cookie. All other domains can receive a cookie.
+* **[!UICONTROL All of our domains except the selected domains]**: Prevents selected domains from receiving a [!DNL cookie]. All other domains can receive a [!DNL cookie].
 
 >[!MORE_LIKE_THIS]
 >
@@ -288,7 +288,7 @@ To add or edit segment mappings for an [!DNL S2S] destination:
 
 ## Add Data Export Labels to a Destination {#task_A4BA30472E6F4687AC3F1B33F51909D9}
 
-[!DNL Data Export Labels] work with the [!DNL Export Controls] you set on a data source. [!DNL Data Export Labels] prevent you from adding restricted traits to a segment and from sending segment data to a destination. You can set multiple export labels to a new or existing cookie or [!DNL URL] destination.
+[!DNL Data Export Labels] work with the [!DNL Export Controls] you set on a data source. [!DNL Data Export Labels] prevent you from adding restricted traits to a segment and from sending segment data to a destination. You can set multiple export labels to a new or existing [!DNL cookie] or [!DNL URL] destination.
 
 >[!NOTE]
 >

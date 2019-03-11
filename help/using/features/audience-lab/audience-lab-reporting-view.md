@@ -12,7 +12,7 @@ uuid: 21303c3e-4c05-4728-a759-96c2a1d99b69
 
 The test group reporting section returns information on test group conversions, allowing an easy comparison of test segment efficacy. Numerous filters and dimensions are available for data visualization.
 
-[!UICONTROL Audience Lab] returns detailed reporting information for the test segments you created and allows you to save the reporting data as CSV files. You can select between **[!UICONTROL Aggregate Reporting]** and **[!UICONTROL Trend Reporting]**.
+[!UICONTROL Audience Lab] returns detailed reporting information for the test segments you created and allows you to save the reporting data as [!DNL CSV] files. You can select between **[!UICONTROL Aggregate Reporting]** and **[!UICONTROL Trend Reporting]**.
 
 **[!UICONTROL Aggregate Reporting]** returns the absolute numbers for your test segments. **[!UICONTROL Trend Reporting]** returns a graph of the trend *over a specific period*. Four tabs enable you to customize the reports:
 
@@ -43,7 +43,7 @@ The test group reporting section returns information on test group conversions, 
  </tbody>
 </table>
 
-You can select a specific conversion trait for which to generate the report or you can select all traits combined. You can define a date range for which the information should be returned and export the report as a CSV file.
+You can select a specific conversion trait for which to generate the report or you can select all traits combined. You can define a date range for which the information should be returned and export the report as a [!DNL CSV] file.
 
 >[!NOTE]
 >

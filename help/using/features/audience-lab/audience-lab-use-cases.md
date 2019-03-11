@@ -25,7 +25,7 @@ In this use case, you are comparing different models. You can either use models 
 1. Create mutually exclusive segments so users in both models don't overlap:
 
     * Create a *Model 1 Segment* and a *Model 2 Segment*.
-    * Have the segment rule for *Model 1 Segment* be model 1 trait AND NOT model 2 trait, and vice-versa for *Model 2 Segment*.
+    * Have the segment rule for *Model 1 Segment* be model 1 trait [!DNL AND NOT] model 2 trait, and vice-versa for *Model 2 Segment*.
 
 1. [Create two segment test groups](../../features/audience-lab/audience-lab-manage-test-groups.md#task_B62EF6D2992941FAAEA84BE2EA11A55E) in [!UICONTROL Audience Lab], one with *Model 1 Segment* as the baseline, the other with *Model 2 Segment* as the baseline.
 

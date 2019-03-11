@@ -43,12 +43,12 @@ Trait qualification, or trait realization, is treated differently in Audience Ma
   <tr> 
    <td colname="col1"> <p>Folder Traits </p> </td> 
    <td colname="col2"> <p>A folder trait sums up the trait qualifications of the traits it contains. </p> <p>Read <a href="../../features/traits/about-folder-traits.md#concept_D68F33E7F99243CEB9D11D354ECB53AD"> Folder Traits: About</a> for more information. </p> </td> 
-  </tr> 
+  </tr>
   <tr> 
    <td colname="col1"> <p>Active Audience Traits and Data Source Synced Traits </p> </td> 
-   <td colname="col2"> <p>An <span class="wintitle"> Active Audience</span> trait contains all of the devices under management in your <span class="wintitle"> Audience Manager</span> account. </p> <p><span class="wintitle"> Data Source Synced Traits</span> track all of the users associated with a data source. </p> <p>Read more about <a href="../../features/traits/client-activity-synced-audience-traits.md#concept_7D3F4AF1FAD440509956632B8A51E64D"> Active Audience Traits and Data Source Synced Traits</a>. </p> </td> 
-  </tr> 
- </tbody> 
+   <td colname="col2"> <p>An <span class="wintitle"> Active Audience</span> trait contains all of the devices under management in your <span class="wintitle"> Audience Manager</span> account. </p> <p><span class="wintitle"> Data Source Synced Traits</span> track all of the users associated with a data source. </p> <p>Read more about <a href="../../features/traits/client-activity-synced-audience-traits.md#concept_7D3F4AF1FAD440509956632B8A51E64D"> Active Audience Traits and Data Source Synced Traits</a>. </p> </td>
+  </tr>
+ </tbody>
 </table>
 
 ## Unique Trait Realizations and Total Trait Population {#section_37003E4C35A8484D8096C9970CB12E56}
@@ -67,4 +67,4 @@ To further drive the point home, if you experienced a spike of 10,000 visitors r
 
 ## Trait Qualification Limit {#section_CA54FECC85114000A1907C1D4535AB2D}
 
-We enforce a limit of 150,000 trait qualifications for each user profile, whether it is an authenticated profile ( [DPUUID](../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8)) or a device ID ( [UUID](../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8)). Note that while the DPUUIDs are unique to a specific instance of [!DNL Audience Manager], UUIDs are shared across the [!DNL Audience Manager] platform. For UUIDs, we impose a fairness policy when storing trait qualifications. An algorithm ensures that an equal share of the UUID profile is made available for every instance of [!DNL Audience Manager].
+We enforce a limit of 150,000 trait qualifications for each user profile, whether it is an authenticated profile ( [DPUUID](../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8)) or a device ID ( [UUID](../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8)). Note that while the DPUUIDs are unique to a specific instance of [!DNL Audience Manager], UUIDs are shared across the [!DNL Audience Manager] platform. For [!UICONTROL UUID]s, we impose a fairness policy when storing trait qualifications. An algorithm ensures that an equal share of the [!UICONTROL UUID] profile is made available for every instance of [!DNL Audience Manager].

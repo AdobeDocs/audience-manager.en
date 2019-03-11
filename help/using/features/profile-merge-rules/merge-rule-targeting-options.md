@@ -9,7 +9,7 @@ uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
 
 # General Use Cases for [!UICONTROL Profile Merge Rules] {#general-use-cases-for-profile-merge-rules}
 
-[!UICONTROL Profile Merge Rules] options let you expand or tighten audience focus on specific audiences based on business needs or goals. These general use cases explore how to use available options and create merge rules for individual, household, and cross-device targeting. Currently, Profile Merge Rules work with real-time destinations only.
+[!UICONTROL Profile Merge Rules] options let you expand or tighten audience focus on specific audiences based on business needs or goals. These general use cases explore how to use available options and create merge rules for individual, household, and cross-device targeting. Currently, [!UICONTROL Profile Merge Rules] work with real-time destinations only.
 
  ![](assets/merge-rules-options.png)
 

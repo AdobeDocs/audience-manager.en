@@ -106,7 +106,6 @@ Given the sample name and contents, the IDs map together like this:
 |  66552757407517449462805881945288602094  | XYZ3017QvBddD-bLJS28DPxiqUfmIBxE3_55bvQJMLwregJU2M  |
 |  66184778222667870903738139438735041506  | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw  |
 
-
 Step 1: the ID sync process will sync the [!DNL DPUUID]s from [!DNL DPID] 12345 with the [!DNL Audience Manager] [!DNL UUID]s in the left column. Note that the [!DNL DPID] "0" in the file name represents [!DNL Audience Manager] [!DNL UUID]s.
 <br/>
 

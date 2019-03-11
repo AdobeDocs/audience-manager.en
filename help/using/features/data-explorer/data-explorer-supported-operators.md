@@ -26,11 +26,11 @@ Use the following supported logical operators to search for key-value pairs:
 
 ### Named Operators
 
-|  Operator  | Evaluates to True When  |
+|  Operator  | Evaluates to [!DNL True] When  |
 |---|---|
-| **Contains** |The value in a key-value pair *contains* characters specified by this operator.  |
-| **Startswith** |The value in a key-value pair *starts with* characters specified by this operator.  |
-| **Endswith** |The value in a key-value pair *ends with* the characters specified by this operator.  |
+| **[!UICONTROL Contains]** |The value in a key-value pair *contains* characters specified by this operator.  |
+| **[!UICONTROL Startswith]** |The value in a key-value pair *starts with* characters specified by this operator.  |
+| **[!UICONTROL Endswith]** |The value in a key-value pair *ends with* the characters specified by this operator.  |
 
 ## Supported Operators for Trait Backfilling and Estimation {#section_93A79D83DE3F44FDA37E9707625DBDAF}
 

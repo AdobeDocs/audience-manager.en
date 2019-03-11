@@ -38,13 +38,13 @@ You can build rules with the following comparison operators:
 
 You can build rules with the following named operators:  
 
-|  Operator  | Evaluates to True When  |
+|  Operator  | Evaluates to [!DNL True] When  |
 |---|---|
 | **[!UICONTROL Contains]** |The value in a key-value pair *contains* characters specified by this operator.  |
 | **[!UICONTROL Matcheswords]** |The value in a key-value pair *matches* the pattern specified by this operator.  |
 | **[!UICONTROL Startswith]** |The value in a key-value pair *starts with* characters specified by this operator.  |
 | **[!UICONTROL Endswith]** |The value in a key-value pair *ends with* the characters specified by this operator.  |
-| **[!UICONTROL Matchesregex]** |The value in a key-value pair *matches* the pattern specified by a regular expression. [Learn more](../../features/traits/trait-builder-regex.md#concept_2C756EBE4C8F40C7B6C8A84918CF7D8E) about using regular expressions in Trait Builder.  |
+| **[!UICONTROL Matchesregex]** |The value in a key-value pair *matches* the pattern specified by a regular expression. [Learn more](../../features/traits/trait-builder-regex.md#concept_2C756EBE4C8F40C7B6C8A84918CF7D8E) about using regular expressions in [!UICONTROL Trait Builder].  |
 
 >[!MORE_LIKE_THIS]
 >

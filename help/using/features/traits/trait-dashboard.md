@@ -11,9 +11,7 @@ uuid: 31b8f958-f67d-4af2-8d78-e37e2dfe810d
 
 The [!UICONTROL Traits] dashboard is a centralized workspace for managing traits.
 
-<!--
-c_tb_dashboard.xml
--->
+<!-- c_tb_dashboard.xml -->
 
 The [!UICONTROL Traits] dashboard contains features and tools that help you:
 

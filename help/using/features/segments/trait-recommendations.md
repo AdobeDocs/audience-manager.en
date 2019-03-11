@@ -13,8 +13,8 @@ Get live trait recommendations as you build your segments.
 
 ## Overview
 
-Trait Recommendations, powered by Adobe Sensei, brings data science into your Audience Manager day-to-day workflows.
-With Trait Recommendations, when you build or edit a segment in [Segment Builder](segment-builder.md), you get recommendations on additional traits you can include, that are similar to the traits in the segment rule. Add the recommended traits to your segment to increase your target audience.
+[!UICONTROL Trait Recommendations], powered by [!DNL Adobe Sensei], brings data science into your Audience Manager day-to-day workflows.
+With [!UICONTROL Trait Recommendations], when you build or edit a segment in [Segment Builder](segment-builder.md), you get recommendations on additional traits you can include, that are similar to the traits in the segment rule. Add the recommended traits to your segment to increase your target audience.
 
 ![Trait Recommendations Overview](assets/trait-recommendations-overview.png)
 
@@ -28,32 +28,30 @@ With Trait Recommendations, when you build or edit a segment in [Segment Builder
 
 ## Use Cases
 
-With Trait Recommendations, you can improve your workflows, depending on how you use Audience Manager:
+With [!UICONTROL Trait Recommendations], you can improve your workflows, depending on how you use Audience Manager:
 
 * As a marketer, you can quickly find audiences interested in complementary products with the help of similar traits, so that you can increase your reach.
-* If you use Audience Manager as a publisher, with Trait Recommendations, you can understand audience behavior and build better segments for ad sales or user acquisition.
+* If you use Audience Manager as a publisher, with [!UICONTROL Trait Recommendations], you can understand audience behavior and build better segments for ad sales or user acquisition.
 
 ## Differences Between Trait Recommendations and Algorithmic Models
 
-**Algorithmic Models**
+### [!UICONTROL Algorithmic Models]
 
-Algorithmic Models not only finds the most influential traits, but also scores users based on those traits and assigns each user an individual score. You then create algorithmic traits to target your users. With accuracy and reach controls in the Trait Builder, you can specify which users amongst all those who have the influential traits you want to target.
+[!UICONTROL Algorithmic Models] not only finds the most influential traits, but also scores users based on those traits and assigns each user an individual score. You then create algorithmic traits to target your users. With accuracy and reach controls in the [!UICONTROL Trait Builder], you can specify which users amongst all those who have the influential traits you want to target.
 
-Algorithmic Models enables you to select users at different accuracy levels and test in Audience Lab which group of users converts better. See the detailed use case in [Compare Models in Audience Lab](../../features/audience-lab/audience-lab-use-cases.md#task_DB23E5242DAA4183949E90715F7DAA32).
+[!UICONTROL Algorithmic Models] enables you to select users at different accuracy levels and test in [!UICONTROL Audience Lab] which group of users converts better. See the detailed use case in [Compare Models in Audience Lab](../../features/audience-lab/audience-lab-use-cases.md#task_DB23E5242DAA4183949E90715F7DAA32).
 
-In Algorithmic Models, the model runs every 8 days and refreshes the users qualified for algorithmic traits.
+In [!UICONTROL Algorithmic Models], the model runs every 8 days and refreshes the users qualified for algorithmic traits.
 
-**Trait Recommendations**
+### [!UICONTROL Trait Recommendations]
 
-Trait Recommendations is a quick way to get insights on other traits which are similar to the ones you are using in a segment.
+[!UICONTROL Trait Recommendations] is a quick way to get insights on other traits which are similar to the ones you are using in a segment.
 
-You should use Trait Recommendations when:
+You should use [!UICONTROL Trait Recommendations] when:
 
 * You need quick insights while building a segment;
 * You are using the segments for short campaigns or when you want to quickly suppress audience who converts;
 * You are trying to maximize reach.
-
-
 
 ## Workflow
 
@@ -62,27 +60,23 @@ When building or editing a segment in [Segment Builder](segment-builder.md), you
 ### New Segments
 
 1. In **Audience Data > Segments**, select **Add New**.
-2. In the **Traits** drop-down box, add at least one trait to the segment rule.
-3. You can now see recommended traits that are similar to the traits you added to the segment rule.
-4. (Optional) To exclude recommended traits from certain data sources, click the **X** symbol for the data sources you want to exclude.
-
-> [!NOTE]
-> 
->The excluded data sources are shown just above the list of recommended traits. Press **X** in the grey box to remove the exclusions and see results from the respective data sources again.
-
+1. In the **Traits** drop-down box, add at least one trait to the segment rule.
+1. You can now see recommended traits that are similar to the traits you added to the segment rule.
+1. (Optional) To exclude recommended traits from certain data sources, click the **X** symbol for the data sources you want to exclude.
+    > [!NOTE]
+    > 
+    >The excluded data sources are shown just above the list of recommended traits. Press **X** in the grey box to remove the exclusions and see results from the respective data sources again.
 1. To add recommended traits to the segment rule, click the **+** symbol.
 
 ### Existing Segments
 
-1. In Audience Data > Segments, select the segment you want to edit and press ![Edit](assets/edit-button.png).
-1. Scroll down to the Traits drop-down box.
+1. Go to **[!UICONTROL Audience Data] > [!UICONTROL Segments]**, select the segment you want to edit and press ![Edit](assets/edit-button.png).
+1. Scroll down to the [!UICONTROL Traits] drop-down box.
 1. You can see recommended traits, that are similar to the traits already in the segment rule.
 1. (Optional) To exclude recommended traits from certain data sources, click the **X** symbol for the data sources you want to exclude.
-
-> [!NOTE]
-> 
->The excluded data sources are shown just above the list of recommended traits. Press **X** in the grey box to remove the exclusions and see results from the respective data sources again.
-
+    > [!NOTE]
+    > 
+    >The excluded data sources are shown just above the list of recommended traits. Press **X** in the grey box to remove the exclusions and see results from the respective data sources again.
 1. To add recommended traits to the segment rule, click the **+** symbol.
 
 When you create or edit a segment and add a trait to the segment rule, you see a maximum of five recommended traits, similar to the one you have added. If the segment rule contains more than one trait, Audience Manager uses a round robin method to show the best match for each trait, then the second-best match for each trait, and so on, for the largest five traits by population, in the segment rule.
@@ -92,10 +86,10 @@ When you create or edit a segment and add a trait to the segment rule, you see a
 For example, when there are three traits in the segment rule, as shown below, the recommended traits are:
 
 1. Best match for trait 3 (the trait with the largest population);
-2. Best match for trait 1;
-3. Best match for trait 2;
-4. Second-best match for trait 3;
-5. Second-best match for trait 1.
+1. Best match for trait 1;
+1. Best match for trait 2;
+1. Second-best match for trait 3;
+1. Second-best match for trait 1.
 
 To get recommendations for a specific trait, you can click on the traits in the segment rule (1) or in the recommended traits view (2).
 
@@ -106,56 +100,55 @@ Clicking on a trait opens a pop-up window, as shown in the image below. If the r
 ![](assets/add_to_segments.png)
 
 > [!TIP]
-> 
+>
 >The excluded data sources from the main page are considered while generating recommendations within the trait information pop-up window. And, if you exclude data sources in this view, the exclusions apply to the main page.
 
 > [!NOTE]
-> 
+>
 > Recommended traits can be your first-party traits or third party traits from feeds that you are subscribed to.
 
 ## How it Works
 
-To produce trait recommendations, Audience Manager computes the [Jaccard similarity](https://en.wikipedia.org/wiki/Jaccard_index) between the target trait and every other trait that your account has access to, including third-party data. Audience Manager then displays up to five traits that have the highest similarity. 
+To produce trait recommendations, Audience Manager computes the [Jaccard similarity](https://en.wikipedia.org/wiki/Jaccard_index) between the target trait and every other trait that your account has access to, including third-party data. Audience Manager then displays up to five traits that have the highest similarity.
 
-## Trait Similarity Score
+## [!UICONTROL Trait Similarity Score]
 
-Audience Manager calculate the Trait Similarity Score between two traits by computing the intersection and union in terms of the number of UUIDs and then divide the two. For two traits A and B, the calculation looks like this:
+Audience Manager calculate the [!UICONTROL Trait Similarity Score] between two traits by computing the intersection and union in terms of the number of [!UICONTROL UUID]s and then divide the two. For two traits A and B, the calculation looks like this:
 
 ![](assets/jaccard_similarity.png)
 
 See, also, the two examples below.
 
-**Example 1 - Low Trait Similarity Score**
+### Example 1 - Low [!UICONTROL Trait Similarity Score]
 
-Given two traits A and B, let's say each of the traits has a population of 1,000,000 UUIDs, 25,000 UUIDs of which qualify for both traits.
-Using the formula above, this will result in: 25,000 / 1,975,000 = 0.012. This is a low Trait Similarity Score, the two traits are very dissimilar.
+Given two traits A and B, let's say each of the traits has a population of 1,000,000 [!UICONTROL UUID]s, 25,000 [!UICONTROL UUID]s of which qualify for both traits.
+Using the formula above, this will result in: 25,000 / 1,975,000 = 0.012. This is a low [!UICONTROL Trait Similarity Score], the two traits are very dissimilar.
 
 ![](assets/Trait-Recommendations-Low-overlap.png)
 
-**Example 2 - High Trait Similarity Score** 
+### Example 2 - [!UICONTROL Trait Similarity Score]
 
-If the same traits A and B had 400,000 UUIDs that qualify for both traits, the Trait Similarity Score is much higher:
+If the same traits A and B had 400,000 [!UICONTRL UUID]s that qualify for both traits, the [!UICONTROL Trait Similarity Score] is much higher:
 400,000 / 1,600,000 = 0.25
 
 ![](assets/Trait-Recommendations-High-overlap.png)
 
-**How to Interpret the Trait Similarity Score**
+### How to Interpret the [!UICONTROL Trait Similarity Score]
 
 Use the table below as a rough guide to trait similarity. This guide is based on the similarity scores observed across a majority of the traits.
 
-
-Trait Similarity Score | Significance |
+| [!UICONTROL Trait Similarity Score] | Significance |
 ---------|----------|
  0.1 and above | High similarity between traits |
  0.03 - 0.1 | Medium similarity between traits |
  0.01 - 0.03 | Low similarity between traits |
  0 - 0.01 | Very low similarity between traits |
 
-## Role-Based Access Control (RBAC) 
+## Role-Based Access Control ([!UICONTROL RBAC])
 
-For companies using Role-Based Access Controls (RBAC), you need to have permission to create and edit segments in order to see recommended traits. And, the recommended traits you see are only the ones from data sources that you have access to via RBAC. Read more about RBAC controls [here](../administration/administration-overview.md).
+For companies using [!UICONTROL Role-Based Access Controls] ([!UICONTROL RBAC]), you need to have permission to create and edit segments in order to see recommended traits. And, the recommended traits you see are only the ones from data sources that you have access to via [!UICONTROL RBAC]. Read more about [!UICONTROL RBAC] controls [here](../administration/administration-overview.md).
 
 ## Limitations
 
 * Currently, Audience Manager does not show folder traits as recommended traits. Read more about folder traits [here](../traits/manage-folder-traits.md).
-* When displaying Trait Recommendations, Audience Manager does not take into account Boolean operators (AND, OR, NOT) in segment rules.
+* When displaying Trait Recommendations, Audience Manager does not take into account [!DNL Boolean] operators ([!DNL AND], [!DNL OR], [!DNL NOT]) in segment rules.
