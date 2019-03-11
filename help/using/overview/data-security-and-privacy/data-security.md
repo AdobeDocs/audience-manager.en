@@ -21,7 +21,7 @@ In Audience Manager, we think about security in three main categories:
 | **Data leakage/transparency** | Deep and actionable insight into on-site activities that constitute or contribute to data leakage  |
 | **Process/policy enhancements** | Clients, by working with industry best practices for privacy and data security  |
 
-## Systems, Training, and Access {#section_226017634A9945098327561285335D71}
+## Systems, Training, and Access {#systems-training-access}
 
 Processes that help keep our system and your data secure.
 
@@ -42,7 +42,7 @@ Processes that help keep our system and your data secure.
 
 **Secure Access:**  Audience Manager requires strong passwords to log on to the system. See [password requirements](../../reference/password-requirements.md#concept_0B501857C23944DCAE4875D3F9455F5F).
 
-## Privacy and Personally Identifiable Information (PII) {#section_3F60A967DDD24592B0349831D4E865A3}
+## Privacy and Personally Identifiable Information (PII) {#pii}
 
 Processes that help keep personal information safe. For additional privacy information, see the [Adobe Privacy Center](https://www.adobe.com/privacy/advertising-services.html).
 
@@ -50,7 +50,7 @@ Processes that help keep personal information safe. For additional privacy infor
 
 **IP Addresses:**  Audience Manager does collect IP addresses. IP addresses are used in data-processing and log-aggregation processes. They are also required for geographic/location look-ups and targeting. Additionally, all IP addresses within retained log files are obfuscated within 90 days.
 
-## Data Partitioning {#section_0F061AB523EC420D9F9505E5B97F31C1}
+## Data Partitioning {#data-partitioning}
 
 Processes that help protect data owned by individual clients.
 
@@ -58,7 +58,7 @@ Processes that help protect data owned by individual clients.
 
 **Data Partitioning in Reports:**  Client IDs are part of the identifying key in all reporting tables and report queries are filtered by ID. This helps prevent your data from appearing in the reports of another Audience Manager customer.
 
-## Inbound Server-to-Server (S2S) Transfers {#section_1A3DA20297AD4AC08AE8C9D815E22601}
+## Inbound Server-to-Server (S2S) Transfers {#inbound-s2s}
 
 Adobe Audience Manager supports two main methods of transferring S2S on-boarded data files to our systems:
 
@@ -70,6 +70,6 @@ Both methods are designed with the security of our customer and partner data in 
 
 To add PGP encryption to your data files, see [File PGP Encryption for Inbound Data Types](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md#concept_94660DC77BAB4D558B793D59988B0A21).
 
-## Protecting Data by Escaping {#section_B1F060DCC62A4462A408C76A687BE6BE}
+## Protecting Data by Escaping {#escaping-data}
 
 Note that [!DNL Audience Manager] does not escape outgoing data to secure it against possible cross-site scripting (XSS), etc. It is the responsibility of the client to escape incoming data. 

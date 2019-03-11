@@ -11,12 +11,7 @@ uuid: 61b43e0e-bfe3-497e-ade2-6a942a98407e
 
 Adobe complies with all industry-wide standards with regard to opt-out management. Read on for complete information on the types of opt-out supported by Audience Manager.
 
-<ul class="simplelist"> 
- <li> <a href="../../overview/data-security-and-privacy/opt-out-management.md#section_7572239987C840969C2B690097BE600C"> Global Opt-out </a> </li> 
- <li> <a href="../../overview/data-security-and-privacy/opt-out-management.md#section_856ABF5E40884012A697C75B0C2DE67C"> Partner-level Opt-out </a> </li> 
-</ul>
-
-## Global Opt-Out {#section_7572239987C840969C2B690097BE600C}
+## Global Opt-Out {#global-opt-out}
 
 The global opt-out represents an opt-out across Audience Manager and other Adobe Experience Cloud solutions for all brands. The table below lists the methods used for global opt-out:
 
@@ -34,7 +29,7 @@ The global opt-out represents an opt-out across Audience Manager and other Adobe
   </tr> 
   <tr> 
    <td colname="col1"> <p>Direct API calls to Audience Manager </p> </td> 
-   <td colname="col2"> <p>You can opt-out from data collection by all Audience Manager brands by making a call to the DCS API below and include the <a href="../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8"> Audience Manager User ID </a>: </p> <p> <span class="codeph"> curl -i "https://www.demdex.net/demoptout.jpg" --cookie "demdex=12345678901234567890123456789012345678;dextp=12;DST=12" </span> </p> <p>As a result, we will set demdex=NOTARGET and dextp=NOTARGET cookies for the submitted Audience Manager User ID. </p> </td> 
+   <td colname="col2"> <p>You can opt-out from data collection by all Audience Manager brands by making a call to the DCS API below and include the <a href="../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8"> Audience Manager User ID </a>: </p> <p> <pre> curl -i "https://www.demdex.net/demoptout.jpg" --cookie "demdex=12345678901234567890123456789012345678;dextp=12;DST=12" </pre> </p> <p>As a result, we will set <code>demdex=NOTARGET</code> and <code>dextp=NOTARGET</code> cookies for the submitted Audience Manager User ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mobile devices </p> </td> 
@@ -57,11 +52,11 @@ Following the opt-out requests described above:
 * Audience Manager will cease all data collection, segmentation or activation going forward. 
 * Historical data is removed from the user profile after 120 days.
 
-## Partner Level Opt-Out {#section_856ABF5E40884012A697C75B0C2DE67C}
+## Partner Level Opt-Out {#partner-opt-out}
 
 The partner-level opt-out permits opting out from data collection by specific Audience Manager partners. The partner-level opt-out works with [Declared ID](../../features/declared-ids.md#concept_2CD1CC1558354F38B3DEDBE09AE8E869) calls, as described in the sections below. Following a partner-level opt-out:
 
-* The last device ID ( [Audience Manager Unique User ID](../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8)) linked to the [CRM ID](../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8) is opted out of data collection. 
+* The last device ID ([Audience Manager Unique User ID](../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8)) linked to the [CRM ID](../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8) is opted out of data collection. 
 
 * Audience Manager will cease all data collection, segmentation or activation going forward for the last device ID linked to the CRM ID. 
 * No historical data is deleted.
