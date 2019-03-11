@@ -13,7 +13,9 @@ The [!UICONTROL Segment Performance] report compares mapped and unmapped segment
 
 ## How to Read Your Mapped Segment Results {#section_991CFF12639B4E3B8E97B6289261E563}
 
-The mapped [!UICONTROL Segment Performance] report displays all the segments you created and sent to a destination for targeting.The position of your mapped segments in a report can tell you a lot about which segments are performing well and where you might need to make some adjustments. To read the report, it helps divide the results into 4 sections with imaginary lines (in red) and the categories shown in the sample report below.
+The mapped [!UICONTROL Segment Performance] report displays all the segments you created and sent to a destination for targeting.The position of your mapped segments in a report can tell you a lot about which segments are performing well and where you might need to make some adjustments. 
+
+To read the report, it helps divide the results into 4 sections with imaginary lines (in red) and the categories shown in the sample report below.
 
 ![](assets/mapped-segment-performance.png)
 
@@ -50,7 +52,7 @@ The labels in the example and the following table can help you understand segmen
 
 Looking at unmapped segments in a [!UICONTROL Segment Performance] report is a great way to find new segments you haven't considered for targeting. In fact, some of these segments may outperform your mapped segments. This is because an unmapped segment has to meet a set of qualification criteria to be included in this report. To be included in this report, an unmapped segment must:
 
-* Have conversions greater than the average of all your mapped segments. 
+* Have conversions greater than the average of all your mapped segments.
 * Be in the top 100 unmapped segments by conversion rate.
 
 To read this report, it helps divide the results into 4 sections with imaginary lines (in red) and categories shown in the sample report below.
@@ -62,4 +64,3 @@ In this report, you just want to focus on those unmapped segments in the top lef
 >[!NOTE]
 >
 >7-day and 30-day look-back periods are only available for Sunday **[!UICONTROL Date Through]** dates.
-

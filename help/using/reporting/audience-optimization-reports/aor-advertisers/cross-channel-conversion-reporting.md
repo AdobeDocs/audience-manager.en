@@ -11,7 +11,9 @@ uuid: 0fecec23-e502-490b-b7dd-47a3753a3f75
 
 The Cross Channel Conversion option in the Audience Optimization reports allows you to attribute offline conversions to served online impressions or clicks.
 
-The [!UICONTROL Cross Channel Conversion] reports combine results from the [!DNL DoubleClick Campaign Manager] (DCM) platform with [!DNL Audience Manager] conversion traits. This lets you link offline conversions to online impressions or clicks. You can use the [!UICONTROL Cross Channel Conversion] for the [Segment Performance](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md#concept_16474D96F85C44BEBBE767E66F79D8DE) and [Optimal Frequency](../../../reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md#concept_147AF0587D6546FA814C7870DBAA81EB) reports.
+The [!UICONTROL Cross Channel Conversion] reports combine results from the [!DNL DoubleClick Campaign Manager] (DCM) platform with [!DNL Audience Manager] conversion traits. This lets you link offline conversions to online impressions or clicks. 
+
+You can use the [!UICONTROL Cross Channel Conversion] for the [Segment Performance](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md#concept_16474D96F85C44BEBBE767E66F79D8DE) and [Optimal Frequency](../../../reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md#concept_147AF0587D6546FA814C7870DBAA81EB) reports.
 
 To view the [!UICONTROL Cross Channel Conversion] reports, select the **[!UICONTROL AAM+DCM]** item in the **[!UICONTROL Platform]** drop-down list.
 
@@ -51,4 +53,3 @@ The following table lists important considerations when setting up [!UICONTROL C
   </tr> 
  </tbody> 
 </table>
-

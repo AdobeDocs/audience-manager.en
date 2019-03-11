@@ -28,11 +28,11 @@ Error reporting and error sampling are 2 separate features of the [!UICONTROL On
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>Error Reporting</b> </p> </td> 
+   <td colname="col1"> <p> <b>Error Reporting</b> </p> </td>
    <td colname="col2"> <p>Error reporting shows you the success and failure rates for the number of records processed in an inbound data source. It returns data in an interactive, stacked bar graph and as summary metrics in tables below the graph. </p> <p>Error reporting is automatic. It runs continuously for all of your inbound data sources. It returns data based on range of preset time intervals or a customized time interval that you set with a calendar widget. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Error Sampling</b> </p> </td> 
+   <td colname="col1"> <p> <b>Error Sampling</b> </p> </td>
    <td colname="col2"> <p>Error sampling parses the contents of your data files and returns the 10 most common errors for each error type. The errors in your inbound data files prevent individual records from being processed. Use this report as a troubleshooting tool to help reduce the number of file errors and improve processing rates. </p> <p>You must activate error sampling manually. It runs for 14-days from the day of activation and then turns itself off. You can turn error sampling back on after the 14-day interval expires. You activate error sampling when you <a href="../features/manage-datasources.md#concept_3B7696B3EC77416492D3B99EBD79EA44"> create an inbound data source</a> or by checking the <span class="uicontrol"> Error Sampling</span> check box from the <span class="wintitle"> Data Source Settings</span> section of an existing inbound data source. </p> <p>Error sampling is a computationally demanding process. As a result, it only returns first 10 errors for each error category. It is not designed to return every error contained in an inbound data source. These errors are a representative sample of a potentially larger group of similar errors. Review your entire file for the types of errors this report flags, reformat the file, and send it in again. </p> <p>See <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> Inbound Data File Contents: Syntax, Variables, and Examples</a> for more information about how to properly format an data file for an inbound data source. </p> </td> 
   </tr> 
  </tbody> 
@@ -180,4 +180,3 @@ A reference guide for the labels and terms used in this report.
   </tr> 
  </tbody> 
 </table>
-
