@@ -20,7 +20,7 @@ Here are some use cases you can address with [!UICONTROL Trait Exclusion]:
 
 >[!IMPORTANT]
 >
->An important note on the third use case. If the third-party data provider adds a new demographic trait to the data feed* after you created the model*, the trait is automatically picked up by the model. You cannot exclude traits from modeling after creating the model. See [Important Aspects & Limitations](../../features/algorithmic-models/trait-exclusion-algo-models.md##important-aspects-and-limitations). Please exercise caution when using this feature and work with the data provider to ensure you are informed of any changes to the feed structure.
+>An important note on the third use case. If the third-party data provider adds a new demographic trait to the data feed* after you created the model*, the trait is automatically picked up by the model. You cannot exclude traits from modeling after creating the model. See [Important Aspects & Limitations](../../features/algorithmic-models/trait-exclusion-algo-models.md#important-aspects-and-limitations). Please exercise caution when using this feature and work with the data provider to ensure you are informed of any changes to the feed structure.
 
 ![](assets/lam_exclude_traits.png)
 
