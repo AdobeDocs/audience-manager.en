@@ -26,7 +26,7 @@ The table below lists the [ID mapping](../../integration/sending-audience-data/b
 >
 > Device IDs can be cookie/browser IDs or device advertising IDs ([!DNL IDFA], [!DNL GAID], etc).
 
-## Item Limits {#section_7181B0BBC194402BAC55E6846048D78F}
+## Item Limits {#item-limits}
 
 The tables list the current limits by item type. You cannot create new traits, segments, destinations, or [!UICONTROL Algorithmic Models] if you reach a specific limit for one of these items. If you do reach a limit, you must delete an older item before you can create a new one.
 
@@ -59,16 +59,16 @@ The tables list the current limits by item type. You cannot create new traits, s
 
 ### Algorithmic Model Limits
 
-| Item                                          | Maximum Limit                                                                                                                                                                   |
-| --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Item  | Maximum Limit |
+| -------- | ----- |
 | Total Algorithmic Models                      | 20                                                                                                                                                                              |
 | Algorithmic Models maximum audience size      | 25,000,000  Note that this limit cannot be increased. You can decrease audience sizes by selecting fewer data sources for the model or by selecting a shorter look-back window. |
 | Maximum number of excluded traits for a model | 500                                                                                                                                                                             |
 
 ### Folder Limits
 
-| Item          | Maximum Limit                                               |
-| ------------- | ----------------------------------------------------------- |
+| Item | Maximum Limit|
+| ------------- | ------------------ |
 | Trait Folders | 2,000.  Your folder structure can be maximum 5 levels deep. |
 
 ### Derived Signals Limits
@@ -79,16 +79,16 @@ The tables list the current limits by item type. You cannot create new traits, s
 
 ### Company User Accounts Limit
 
-| Item                                          | Maximum Limit |
-| --------------------------------------------- | ------------- |
-| Maximum number of user accounts for a company | 1,000.        |
+| Item  | Maximum Limit |
+| ----------- | ------------- |
+| Maximum number of user accounts for a company | 1,000.  |
 
-## Monitor Usage {#section_EBE3D23D14F54408911573211E2ED62D}
+## Monitor Usage {#monitor-usage}
 
 You can see usage and limits for your account by going to **[!UICONTROL Administration > Limits]**. Access requires administrator permissions.
 
 ![](assets/usage_limits.jpg)
 
-## Increase Item Limits {#section_CAB5B9E4ED0D449A9DD97B04ECEF5838}
+## Increase Item Limits {#increase-item-limits}
 
 The default limits listed here should provide enough capacity for your business needs. If your organization consistently reaches these limits, contact your account representative to discuss an increase.

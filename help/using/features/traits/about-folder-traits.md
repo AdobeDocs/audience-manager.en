@@ -49,7 +49,7 @@ For companies using [!UICONTROL Role-Based Access Controls] ([!UICONTROL RBAC]),
 * `READ` and `WRITE` group permissions to a trait data source.
 * `VIEW_ALL_TRAITS` and `EDIT_ALL_TRAITS` wild card permissions for trait data sources.
 
-Learn how to assign [!UICONTROL RBAC] permissions in our [administration documentation](../../features/administration/administration-overview.md#task_3327F7C4A9834F1BA5007EDA279D40F2).
+Learn how to assign [!UICONTROL RBAC] permissions in our [administration documentation](../../features/administration/administration-overview.md#create-group).
 
 ## Limits and Other Considerations {#section_9680EBC0F862495B9E3272D001395794}
 

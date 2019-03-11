@@ -9,17 +9,17 @@ topic: DIL API
 uuid: 3eb1335a-6949-452b-b77a-697c22856cb3
 ---
 
-# Addressable Audiences {#addressable-audiences}
+# Addressable Audience {#addressable-audiences}
 
 An overview of the Addressable Audience feature and use cases.
 
-## What is an Addressable Audience? {#section_A1A391DCEBEE4BB789D456CC68B73E88}
+## What is an Addressable Audience? {#addressable-audience-description}
 
 The [!UICONTROL Addressable Audiences] feature shows you the overlap between the audiences you see across all of your properties where [!DNL Audience Manager] collects data and your selected destination. To help you understand this concept, take a look at the illustration below. The overlap between each circle represents the different types of addressable audiences.
 
 ![](assets/addressableAudienceVenn.png)
 
-## Addressable Audience Interface {#section_292E9D636EA340A28B5AAD25F9670B3B}
+## Addressable Audience Interface {#addressable-audience-interface}
 
 The [!UICONTROL Addressable Audience] feature turns this abstract concept into quantifiable data. In [!DNL Audience Manager], this feature displays audience overlap with data visualizations that provide at-a-glance information along with numeric data in tabular form.
 
@@ -39,13 +39,13 @@ Before purchasing third-party data for audience acquisition, customers can valid
 
 ### Mobile Users and Match Rates
 
-There are gaps when trying to connect [!DNL Safari] or mobile app users where there are no third-party cookies present. That makes it difficult to sync users with some partners because only those [!DNL Adobe] IDs for synced third-party cookies are provided in the media delivery logs. This is a reason why you might see [low match rates](../features/addressable-audiences.md#concept_E89224D00653469A933355160EE667CE) for your destinations.
+There are gaps when trying to connect [!DNL Safari] or mobile app users where there are no third-party cookies present. That makes it difficult to sync users with some partners because only those [!DNL Adobe] IDs for synced third-party cookies are provided in the media delivery logs. This is a reason why you might see [low match rates](../features/addressable-audiences.md#low-match-rates) for your destinations.
 
-## Date Ranges in Addressable Audiences and Destinations {#concept_E7BFFFB2930D4E7091C1EF9C1FDB9FD0}
+## Date Ranges in Addressable Audiences and Destinations {#date-ranges}
 
-Describes the available date ranges and how data ages out of each interval in the reports for an [!UICONTROL Addressable Audience] or [!UICONTROL Destination].
+Read the sections below for available date ranges and how data ages out of each interval in the reports for an [!UICONTROL Addressable Audience] or [!UICONTROL Destination].
 
-## Available Date Ranges and Time Zones {#section_854A764AEC374F5D99DC8331CACFCAAF}
+## Available Date Ranges and Time Zones {#available-date-ranges}
 
 <!-- addressable-audience-dates.xml -->
 
@@ -61,7 +61,7 @@ Reports for your [!UICONTROL Addressable Audiences] and [Destinations](../featur
 
 All dates and date ranges are set in the [!DNL UTC] time zone. See [Time Zones in Audience Manager](../reference/aam-time-zones.md#concept_9E98F473CB1A4A81A68C68CA552D9507).
 
-## Data in Date Range Intervals {#section_E2A4667E701846E896E1003829C2FEDF}
+## Data in Date Range Intervals {#date-range-intervals}
 
 The [!UICONTROL Addressable Audience] and [!UICONTROL Destination] metrics return a count of unique users for the selected time interval. For example, a visitor is only counted once, even if they come to your site multiple times. The first visit is the unique visit and gets recorded. The subsequent visits are returning visits and are not counted because they're not unique.
 
@@ -72,11 +72,11 @@ Date ranges contain data for the selected time interval or older. And, the data 
 
 And, on day 31, these visitors only show up in the 60 day, 90 day, and [!UICONTROL Lifetime] results. They have aged out of the 30 day interval. Visitors do not age out of the [!UICONTROL Lifetime] interval.
 
-## [!UICONTROL Addressable Audience] Metrics {#reference_562FD922213844429A94518EEFCB93EB}
+## [!UICONTROL Addressable Audience] Metrics {#addressable-audience-metrics}
 
-Lists and defines metrics provided by [!UICONTROL Addressable Audiences].
+This section describes the types of metrics provided by [!UICONTROL Addressable Audiences].
 
-## Customer-Level Metrics {#section_0816B56BF5A14CEF8578674DB33D08F3}
+### Customer-Level Metrics {#customer-level-metrics}
 
 <!-- addressable-audience-metrics.xml -->
 
@@ -112,7 +112,7 @@ These metrics return data for traits realized when visitors come to your site or
  </tbody> 
 </table>
 
-## Segment-Level Match Metrics {#section_DDA700BBD12141D384E104E673E551D9}
+### Segment-Level Match Metrics {#segment-level-metrics}
 
 These metrics return data on segment membership. They help provide a more granular and accurate view of the audience size for each of your segments.
 
@@ -143,7 +143,7 @@ These metrics return data on segment membership. They help provide a more granul
  </tbody> 
 </table>
 
-## Platform-Level Metrics {#section_DC2CD74AE4D645A7BCD8F90398D1A376}
+### Platform-Level Metrics {#platform-level-metrics}
 
 This metric returns data on activities collected across all Audience Manager customers. They can provide a broader view of the customer's audience compared with the aggregated Audience Manager customers.
 
@@ -166,7 +166,7 @@ This metric returns data on activities collected across all Audience Manager cus
  </tbody> 
 </table>
 
-## Comparing Customer and Segment [!UICONTROL Addressable Audiences]{#section_A7178ED5709646C1BBC0A19114E8B1E7}
+## Comparing Customer and Segment [!UICONTROL Addressable Audiences]{#comparing-metrics}
 
 You shouldn't compare the [!UICONTROL Customer Addressable Audience] and [!UICONTROL Segment Addressable Audience] metrics to determine if one is more significant than the other. These are separate, different, and independent metrics. As described in the definitions above, each of these is derived from different data sets. Given this, you should avoid deriving any conclusions if one metric is larger than the other. All you can say when comparing these is that:
 
@@ -174,7 +174,7 @@ You shouldn't compare the [!UICONTROL Customer Addressable Audience] and [!UICON
 
 * [!UICONTROL Segment Addressable Audiences] is based on segment qualifications *for your own first-party data, plus second and third-party data*. This metric provides a granular, more accurate view of your addressable audiences in a targeting platform.
 
-## Causes of Low Match Rates for [!UICONTROL Addressable Audiences] {#concept_E89224D00653469A933355160EE667CE}
+## Causes of Low Match Rates for [!UICONTROL Addressable Audiences] {#low-match-rates}
 
 Common elements responsible for low [!UICONTROL Addressable Audience] match rates or discrepancies in reported numbers.
 
@@ -190,7 +190,7 @@ Common elements responsible for low [!UICONTROL Addressable Audience] match rate
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Mobile Traffic</b> </p> </td> 
-   <td colname="col2"> <p>Most server-to-server integrations rely on synchronization processes facilitated by third-party cookies. However, mobile environments do not use third-party cookies. As a result, your Addressable Audience numbers may seem low compared to segment size. </p> <p>As of January 2018, you can activate mobile audiences in the same Google and Adobe Advertising Cloud destinations set up for cookie-based audiences. While this means that you can send segments with combined cookie and mobile ID membership to your Google and Advertising Cloud destinations, keep in mind that Addressable Audiences only display the overlap between cookie IDs and destinations. Audience Manager sends 100% of mobile audiences to destinations, but mobile audiences are not measured by the Addressable Audience metric. </p> <p> <p>Note:  For example, take a segment with a population of 1,000,000. If you map this segment to a Google or Adobe Advertising Cloud destination, you might see an Addressable Audience of 700,000 devices and a Match Rate of 70%. The membership of 700,000 consists of cookie IDs which have an ID sync with the destination. Your Addressable Audience might, in fact, be much higher, because addressable mobile IDs do not appear in this metric. </p> </p> </td> 
+   <td colname="col2"> <p>Most server-to-server integrations rely on synchronization processes facilitated by third-party cookies. However, mobile environments do not use third-party cookies. As a result, your Addressable Audience numbers may seem low compared to segment size. </p> <p>As of January 2018, you can activate mobile audiences in the same Google and Adobe Advertising Cloud destinations set up for cookie-based audiences. While this means that you can send segments with combined cookie and mobile ID membership to your Google and Advertising Cloud destinations, keep in mind that Addressable Audiences only display the overlap between cookie IDs and destinations. Audience Manager sends 100% of mobile audiences to destinations, but mobile audiences are not measured by the Addressable Audience metric. </p> <p> <p>**Note**:  For example, take a segment with a population of 1,000,000. If you map this segment to a Google or Adobe Advertising Cloud destination, you might see an Addressable Audience of 700,000 devices and a Match Rate of 70%. The membership of 700,000 consists of cookie IDs which have an ID sync with the destination. Your Addressable Audience might, in fact, be much higher, because addressable mobile IDs do not appear in this metric. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Safari Traffic</b> </p> </td> 
@@ -203,7 +203,7 @@ Common elements responsible for low [!UICONTROL Addressable Audience] match rate
  </tbody> 
 </table>
 
-## Troubleshooting with [!UICONTROL Addressable Audiences] {#concept_22DACEC796894D04B94D6BF047F94EB4}
+## Troubleshooting with [!UICONTROL Addressable Audiences] {#troubleshooting}
 
 In addition to surfacing match rates, you can also use [!UICONTROL Addressable Audiences] as a troubleshooting tool.
 

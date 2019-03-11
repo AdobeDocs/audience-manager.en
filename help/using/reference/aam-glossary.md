@@ -32,7 +32,7 @@ Definitions and links to further reading.
 
 Use [!UICONTROL Algorithmic Modeling] as a means of extending reach beyond the core of users you've identified. The feature helps you discover new, unique audiences through automated data analysis. Manage your [!UICONTROL Algorithmic Models] in **[!UICONTROL Audience Data > Models]**.
 
-See [Understanding Algorithmic Models](../features/algorithmic-models/understanding-models.md#concept_441E566718B845929880B0823A9ECA9F).
+See [Understanding Algorithmic Models](../features/algorithmic-models/understanding-models.md#understanding-models).
 
 <br>&nbsp;
 

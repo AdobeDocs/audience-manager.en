@@ -13,7 +13,7 @@ uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 
 Describes the required and optional steps that let you create an algorithmic model in [!UICONTROL Model Builder].
 
-## Build a Model {#task_71541056B8384EEBB6A3A8B161C71B8A}
+## Build a Model {#build-model}
 
 <!-- t_model_build.xml -->
 
@@ -28,22 +28,22 @@ Describes the required and optional steps that let you create an algorithmic mod
 >* *Do not* create models with other algorithmic traits or segments.
 >* The automated email notification is sent one time only (after the first data run).
 
-### Build a Model
+### Build the Model
 
 To build a model, go to the [!UICONTROL Models] section and click **[!UICONTROL Add New]** and follow the steps below:
 
-1. In the [Basic Information](../../features/algorithmic-models/create-model.md#reference_032EEDAE946B491C92BCE61E62AB7369) section
+1. In the [Basic Information](../../features/algorithmic-models/create-model.md#basic-information) section
     * Name the model.
     * *(Optional)* Provide a brief description about the model.
     * Set the status for the model to **[!UICONTROL Active]** or **[!UICONTROL Inactive]**. Inactive models will not run and will not produce any data.
-1. In the [Configuration](../../features/algorithmic-models/create-model.md#reference_E58E9C688E3144BEB2F75BCCDDF80B59) section:
+1. In the [Configuration](../../features/algorithmic-models/create-model.md#configuration) section:
     * Click **[!UICONTROL Browse All Traits]** or **[!UICONTROL Browse All Segments]** to select a trait or segment you want to model against. Select an onboarded trait, a rule-based trait, or a segment as baseline. Otherwise, your models will not run.
     * Choose a 30, 60, or 90 day look-back period. This sets a time range for the model.
     * The [!UICONTROL TraitWeight] algorithm is selected by default.
     * Select a data source from the [!UICONTROL Available Data] list.
     * Click **[!UICONTROL Save]** when done.
 
-## Basic Information for Algorithmic Models {#reference_032EEDAE946B491C92BCE61E62AB7369}
+## Basic Information for Algorithmic Models {#basic-information}
 
 <!-- r_model_basic.xml -->
 
@@ -55,7 +55,7 @@ In [!UICONTROL Model Builder], the [!UICONTROL Basic Information] settings let y
 |  **[!UICONTROL Description]** | A field for additional descriptive information about the model.  |
 |  **[!UICONTROL Status]** | Activates or deactivates the model (active by default). |
 
-## Configuration {#reference_E58E9C688E3144BEB2F75BCCDDF80B59}
+## Configuration {#configuration}
 
 In [!UICONTROL Model Builder], the [!UICONTROL Configuration] section lets you add traits or segments to the model. In this section, select a baseline trait or segment, a look-back period, and data from your first and third-party data sources.
 
@@ -76,7 +76,7 @@ Complete the required fields in the [!UICONTROL Basic Information] section first
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b>Select a [!UICONTROL Baseline Trait] or Segment (1)</b> </p> </td> 
+   <td colname="col1"> <p><b>Select a Baseline Trait or Segment (1)</b> </p> </td> 
    <td colname="col2"> <p>Click the trait or segment button to see a list of all your traits or segments. Your selected segment or trait becomes the baseline that the system algorithms use for modeling. </p> <p> <p>Note:  Select an onboarded trait, a rule-based trait, or a segment as baseline. Otherwise, your models will not run. </p> </p> </td> 
   </tr> 
   <tr> 
@@ -100,4 +100,4 @@ Complete the required fields in the [!UICONTROL Basic Information] section first
 
 >[!MORE_LIKE_THIS]
 >
->* [Understanding TraitWeight](../../features/algorithmic-models/understanding-models.md#concept_1E21CF71FBD04C3EA59554909828DAD5)
+>* [Understanding TraitWeight](../../features/algorithmic-models/understanding-models.md#understanding-traitweight)

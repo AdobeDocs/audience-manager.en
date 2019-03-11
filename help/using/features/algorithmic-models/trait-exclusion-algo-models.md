@@ -10,7 +10,7 @@ uuid: 1359800b-6e6c-41e1-88b4-23d31952abb3
 
 [!UICONTROL Trait Exclusion] provides additional controls in your modeling workflow, allowing you to add the necessary guard rails to the model, based on your domain expertise and regulatory requirements. Use the [!UICONTROL Exclusions] option to select which traits to ignore when creating models from one or more data sources.
 
-## Use Cases {#section_6151890E8D4E4654B093EDEFCA5390C2}
+## Use Cases {#use-cases}
 
 Here are some use cases you can address with [!UICONTROL Trait Exclusion]:
 
@@ -20,13 +20,13 @@ Here are some use cases you can address with [!UICONTROL Trait Exclusion]:
 
 >[!IMPORTANT]
 >
->An important note on the third use case. If the third-party data provider adds a new demographic trait to the data feed* after you created the model*, the trait is automatically picked up by the model. You cannot exclude traits from modeling after creating the model. See [Important Aspects & Limitations](../../features/algorithmic-models/trait-exclusion-algo-models.md#section_0C9F978C654C49CBA8BC77523A70E033). Please exercise caution when using this feature and work with the data provider to ensure you are informed of any changes to the feed structure.
+>An important note on the third use case. If the third-party data provider adds a new demographic trait to the data feed* after you created the model*, the trait is automatically picked up by the model. You cannot exclude traits from modeling after creating the model. See [Important Aspects & Limitations](../../features/algorithmic-models/trait-exclusion-algo-models.md##important-aspects-and-limitations). Please exercise caution when using this feature and work with the data provider to ensure you are informed of any changes to the feed structure.
 
 ![](assets/lam_exclude_traits.png)
 
-## How to Use [!UICONTROL Trait Exclusions] {#section_5D40294A28F64C72ABF08E801D751A9E}
+## How to Use [!UICONTROL Trait Exclusions] {#how-to-use}
 
-Use the [Build a model](../../features/algorithmic-models/create-model.md#task_71541056B8384EEBB6A3A8B161C71B8A) workflow to build new algorithmic models.
+Use the [Build a model](../../features/algorithmic-models/create-model.md#build-model) workflow to build new algorithmic models.
 
 1. The [!UICONTROL Exclusions] selection is greyed out until you select one or more data sources for modeling.
 1. After selecting one or more data sources for modeling, press **[!UICONTROL Browse All Traits]**.
@@ -38,7 +38,7 @@ Use the [Build a model](../../features/algorithmic-models/create-model.md#task_7
 >
 >You can exclude entire folders by excluding the folder trait instead of excluding the traits in the folder, one by one. For example, in a folder with 20 traits, you would only need to exclude the folder trait instead of excluding all the traits one by one.
 
-## Important Aspects & Limitations {#section_0C9F978C654C49CBA8BC77523A70E033}
+## Important Aspects & Limitations {#important-aspects-and-limitations}
 
 Please take note of the following aspects and limitations related to [!UICONTROL Trait Exclusion]:
 

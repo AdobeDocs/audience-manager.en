@@ -36,7 +36,7 @@ In [!UICONTROL Trait Builder], the [!UICONTROL Configuration] section lets you a
 
 <!-- r_algo_trait_config_section.xml -->
 
-* [Create an algorithmic model](../../features/algorithmic-models/create-model.md#task_71541056B8384EEBB6A3A8B161C71B8A).
+* [Create an algorithmic model](../../features/algorithmic-models/create-model.md#build-model).
 * Wait for the notification email that lets you know the model data run has finished.
 * Complete the required fields in the [Basic Information](../../features/traits/create-onboarded-rule-based-traits.md) section.
 

@@ -118,7 +118,7 @@ Price this use case as follows:
 
 ### Modeling
 
-A **[!UICONTROL Modeling]** use case creates a plan that lets buyers compare your traits to theirs with [algorithmic modeling](../../../features/algorithmic-models/understanding-models.md#concept_441E566718B845929880B0823A9ECA9F). Buyers look at the model results to find new audiences in your data that share similar conversion attributes to their own. Price this use case as follows:
+A **[!UICONTROL Modeling]** use case creates a plan that lets buyers compare your traits to theirs with [algorithmic modeling](../../../features/algorithmic-models/understanding-models.md#understanding-models). Buyers look at the model results to find new audiences in your data that share similar conversion attributes to their own. Price this use case as follows:
 
 * Unit of Measure: Flat fee
 * Price: Discounted or market rate price
