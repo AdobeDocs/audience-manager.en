@@ -19,7 +19,7 @@ Unlocking customer information assets stored in multiple silos is one of the big
 | **Second-party** | Strategic partners and advertisers.  |
 | **Third-party** | Data providers and/or exchanges. Data can include information such as intent, demography, social/lifestyle, psychographic, and more.  |
 
-## First-Party Data Collection {#concept_367DCE3F32A0465DB105C2DAEF2B2B2C}
+## First-Party Data Collection {#first-party-data}
 
 First-party data collection is a main Audience Manager feature. This core competency addresses the needs of our customers (publishers or advertisers) who want to use proprietary data as the cornerstone of their marketing programs or for targeting and modeling against other data sources.
 
@@ -37,7 +37,7 @@ The following example illustrates how potential data elements can be captured fr
 
 After the raw data is collected, it gets mapped back to customer-defined traits within the Audience Manager platform. Both the taxonomy and data mappings can be adjusted at any time without making changes to the data collection code. 
 
-## Second-Party Data Collection {#concept_0705AA14F8EB4F6E9BCD216E6327F70C}
+## Second-Party Data Collection {#second-party-data}
 
 Second-party data comes from a strategic business partner (it's not publisher data). This information is collected and managed just like first-party data.
 
@@ -53,7 +53,7 @@ An example of second-party-data collection and remarketing could involve an auto
 
 ![](assets/2nd_party_700px.png)
 
-## Third-Party Data Collection {#concept_6FBA24EED6864CB59D38BFA53BADDBDA}
+## Third-Party Data Collection {#third-party-data}
 
 Third-party data is information collected and shared by vendors outside of Audience Manager.
 
@@ -67,11 +67,11 @@ Third-party data can be used to qualify existing data segments (for example, age
 
 >[!NOTE]
 >
->For a full list of third-party data providers supported by [!DNL Audience Manager], see the [Adobe Exchange Marketplace](https://marketing.adobe.com/resources/content/resources/en/exchange/marketplace/audience.html) (https://marketing.adobe.com/resources/content/resources/en/exchange/marketplace/audience.html).
+>For a full list of third-party data providers supported by [!DNL Audience Manager], see the [Adobe Audience Finder](https://www.adobe-audience-finder.com/).
 
 Audience Manager integrates with other data providers based on their available APIs and data sets. Data collection works in real-time, as a user browses your site, or via out-of-band methodologies where IDs are synchronized between partners and data is transferred between servers after a user has left your site. In either case, Audience Manager clients get the benefit of having third-party data synchronized on our platform, which means each client, or domain, does not have to perform its own synchronization. This helps increase reach and reduces server calls from the page.
 
-## Match Partners {#section_7B00640D332146AA96353689F4EC24C3}
+## Match Partners {#match-partners}
 
 Many clients choose to work with third-party data-match partners. These entities have relationships with sites that have registration requirements and can process customer data files by matching them (in real-time) based on their registration network.
 
