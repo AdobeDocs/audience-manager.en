@@ -202,7 +202,7 @@ The table below contains descriptions for all the returned fields in the data ac
    <td colname="col2"> <p>The trait type. The possible values are: </p> <p> 
      <ul id="ul_DBAC618D9FE94B17B2494B83832A969F"> 
       <li id="li_740F2DCA8F2A4A22A7D9988ECD2FC976"> <i>First party</i> for your own traits. </li> 
-      <li id="li_D9354F40FD114802819191450F2375C8"> <i>Second party</i> for traits that belong to your partners. Read our <a href="../../overview/data-types-collected.md#concept_0705AA14F8EB4F6E9BCD216E6327F70C"> Second Party Data</a> article for more information. </li> 
+      <li id="li_D9354F40FD114802819191450F2375C8"> <i>Second party</i> for traits that belong to your partners. Read our <a href="../../overview/data-types-collected.md#second-party-data"> Second Party Data</a> article for more information. </li> 
       <li id="li_C321D8B8256F4102AE64CD40DC57C948"> <i>Third party</i> for traits obtained from data partners, via the <a href="../../features/audience-marketplace/audience-marketplace.md#concept_3FEC387E18E0492C9ADCB9B4CB11731B"> Audience Marketplace</a>. </li> 
      </ul> </p> </td> 
   </tr> 
