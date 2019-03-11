@@ -61,7 +61,7 @@ The following request keys are reserved and cannot be overwritten by this method
 
 **Parameters** 
 
-|  Name  | Type  | Description **** |
+|  Name  | Type  | Description |
 |---|---|---|
 |  `obj`  | Object  | An object representing the key-value pairs for platform-level mappings. Parameter accepts strings and arrays as property values in the object.  |
 |  `prefix`  | String  | Optional. The string value prefixed to each object key (replaces original key).  |
@@ -76,8 +76,7 @@ Returns the API object of the current [!UICONTROL DIL] instance.
 <pre><code>
 var dataLib = DIL.create({ 
      partner: '<i>partnerName</i>' 
-     containerNSID:  
-<i>containerNSID</i> 
+     containerNSID: <i>containerNSID</i> 
 }); 
  
 // Method 1 

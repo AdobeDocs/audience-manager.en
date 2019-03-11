@@ -150,10 +150,8 @@ var partnerObject2 = DIL.create({
   visitorService:{ 
     namespace: "INSERT-MCORG-ID-HERE" 
   }, 
-  containerNSID:  
-<i>3</i> 
+  containerNSID: 3 
 }); 
-
 ```
 
 A successful response returns the [!UICONTROL DIL] instance. An unsuccessful attempt returns an error object (not thrown) if your code is configured improperly or whenever an error is encountered. 

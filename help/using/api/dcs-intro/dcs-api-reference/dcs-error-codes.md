@@ -250,7 +250,8 @@ The [!UICONTROL DCS] returns error codes and messages in a [!DNL JSON] object or
 
 ### Sample DCS Error Code and Message
 
-```{ 
+```
+{ 
    "errors":[ 
       { 
          "code":101,
@@ -262,7 +263,6 @@ The [!UICONTROL DCS] returns error codes and messages in a [!DNL JSON] object or
       }
    ]
 }
-
 ```
 
 ### X-Error

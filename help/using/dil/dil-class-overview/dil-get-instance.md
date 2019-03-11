@@ -29,11 +29,7 @@ A successful partner and container NSID match returns a partner-specific [!UICON
 
 ## Sample Code
 
-```java
-DIL.getDil(' 
-<i><partner></i>',  
-<i><containerNSID></i>); 
-DIL.getDil(' 
-<i><partner></i>');
-```
-
+<pre class="java"><code>
+DIL.getDil('<i>partner</i>', <i>containerNSID</i>); 
+DIL.getDil('<i>partner</i>');
+</code></pre>

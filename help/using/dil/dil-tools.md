@@ -78,30 +78,27 @@ And returns:
    <td> <b>Match URL Hostname with a Custom Regex</b></td> 
    <td> Pass in a custom regex to match the host name of the referring URL. </td> 
    <td> 
-<pre>
+  <pre>
       var results = 
         DIL.tools.getSearchReferrer("https://www.ehow.com/
       search.aspx?q=adobe+rules",{ 
       &nbsp;&nbsp;&nbsp;hostPattern:/ehow\./, 
       &nbsp;&nbsp;&nbsp;queryParam:"p" 
       }); 
-</pre>
+  </pre>
   </td></tr> 
   <tr> 
    <td> <b>Match Search Patterns with a Custom Regex</b> </td> 
    <td> Pass in a custom regex to perform a custom search. </td> 
    <td> 
-
-<pre>
-
+  <pre>
       var&nbsp;results&nbsp;= 
-      DIL.tools.getSearchReferrer("https://www.ehow.com/
-search.aspx?q=adobe+rules,{ 
-&nbsp;&nbsp;&nbsp;hostPattern:/ehow\./, 
-&nbsp;&nbsp;&nbsp;search_pattern:/[&amp;\?]p=([^&amp;]+/ 
-});
-</pre>
-
+      DIL.tools.getSearchReferrer("https://www.ehow.com/search.aspx?q=adobe+rules,
+      {
+        &nbsp;&nbsp;&nbsp;hostPattern:/ehow\./, 
+        &nbsp;&nbsp;&nbsp;search_pattern:/[&amp;\?]p=([^&amp;]+/ 
+      });
+  </pre>
  </td> 
   </tr> 
  </tbody> 
@@ -169,30 +166,20 @@ Function signature: `DIL.tools.getMetaTags( 1 or more parameters)`
 
 ### Sample Code
 
-```javascript
-
+<pre class=“javascript”><code>
 var dataLib = DIL.create({ 
-     partner: ' 
-<i>partnerName'</i>, 
-     containerNSID:  
-<i>containerNSID</i> 
+     partner: '<i>partnerName'</i>, 
+     containerNSID: <i>containerNSID</i> 
 }); 
- 
-dataLib.api.signals(DIL.tools.getMetaTags(' 
-<i>application</i>', ' 
-<i>keywords</i>', 
-' 
-<i>description</i>'), 'c_').submit();
 
-```
+dataLib.api.signals(DIL.tools.getMetaTags('<i>application</i>', '<i>keywords</i>',  '<i>description</i>'), 'c_').submit();
+</code></pre>
 
-<pre>
-
+<pre><code>
 var dataLib = DIL.create({ 
      partner: <i>`partnerName'</i>, 
      containerNSID: <i>containerNSID</i> 
 }); 
- 
-dataLib.api.signals(DIL.tools.getMetaTags('<i>application</i>','<i>keywords</i>', '<i>description</i>'), 'c_').submit();
 
-</pre>
+dataLib.api.signals(DIL.tools.getMetaTags('<i>application</i>','<i>keywords</i>', '<i>description</i>'), 'c_').submit();
+</code></pre>

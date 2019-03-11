@@ -39,15 +39,14 @@ Remember to keep the value properties the same when passing in data. For example
 
 This basic example sends color and price data to Audience Manager in the form of key-value pairs. Your code could look similar to the following: 
 
-```java
-var sample_dil = DIL.create({partner:" 
-<i>partner name</i>"}); 
+<pre class=“java”><code>
+var sample_dil = DIL.create({partner:"<i>partner name</i>"}); 
 sample_dil.api.signals({ 
    c_color:"blue", 
    c_price:"900" 
 }); 
 sample_dil.api.submit();
-```
+</code></pre>
 
 **Example 2: Send Data in an Object**
 

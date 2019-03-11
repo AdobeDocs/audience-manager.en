@@ -21,14 +21,10 @@ You can send data to the [!UICONTROL DCS] using either one of the `GET` or `POST
 
 Note that the maximum allowed size for `GET` calls is 8K.
 
-```
-curl -i "
-<i>yourcompany</i>.demdex.net/event?
-d_uuid=
-<i>12345678901234567890123456789012345678</i>&d_rtbd=json& 
-<i>c_likes=famous%20popstar</i>&
-<i>c_loves=famous%20actress</i>"
-```
+<pre><code>
+curl -i "<i>yourcompany</i>.demdex.net/event?
+d_uuid=<i>12345678901234567890123456789012345678</i>&d_rtbd=json&<i>c_likes=famous%20popstar</i>&<i>c_loves=famous%20actress</i>"
+</code></pre>
 
 ## Send Data via POST {#section_AE1A6623F98B44DBB90AA8257D08E2D2}
 
@@ -39,24 +35,19 @@ Note the requirements for sending data using the `POST` method:
 
 ### Sample call
 
-```
+<pre><code>
 curl -X POST \ 
-  https:// 
-<i>yourcompany</i>.demdex.net/event \ 
+  https://<i>yourcompany</i>.demdex.net/event \ 
   -H 'content-type: application/x-www-form-urlencoded' \ 
-  -d ' 
-<i>c_likes=famous%20popstar</i>& 
-<i>c_loves=famous%20actress</i>& 
-<i>d_uuid=12345678901234567890123456789012345678</i>'
-```
+  -d '<i>c_likes=famous%20popstar</i>&<i>c_loves=famous%20actress</i>&<i>d_uuid=12345678901234567890123456789012345678</i>'
+</code></pre>
 
-<pre>
+<pre><code>
 curl -X POST \ 
   https:// <i>yourcompany</i>.demdex.net/event \ 
   -H 'content-type: application/x-www-form-urlencoded' \ 
-  -d ' <i>c_likes=famous%20popstar</i>& <i>c_loves=famous%20actress</i>&<i>d_uuid=12345678901234567890123456789012345678</i>'
-</pre>
-
+  -d '<i>c_likes=famous%20popstar</i>& <i>c_loves=famous%20actress</i>&<i>d_uuid=12345678901234567890123456789012345678</i>'
+</code></pre>
 
 
 <!-- 
