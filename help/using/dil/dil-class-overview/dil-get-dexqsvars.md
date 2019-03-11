@@ -33,10 +33,6 @@ Returns the variable value for a [!UICONTROL DIL] instance.
 
 **Sample Code** 
 
-```java
-var value = DIL.dexGetQSVars(' 
-<i>variableName</i>',' 
-<i>partnerName</i>', 
-<i>containerNSID</i>);
-```
-
+<pre class="java"><code>
+var value = DIL.dexGetQSVars('<i>variableName</i>','<i>partnerName</i>',<i>containerNSID</i>);
+</code></pre>

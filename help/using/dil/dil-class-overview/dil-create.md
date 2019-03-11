@@ -150,8 +150,7 @@ var partnerObject2 = DIL.create({
   visitorService:{ 
     namespace: "INSERT-MCORG-ID-HERE" 
   }, 
-  containerNSID:  
-<i>3</i> 
+  containerNSID: 3 
 }); 
 ```
 
