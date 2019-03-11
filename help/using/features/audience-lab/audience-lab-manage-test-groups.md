@@ -72,7 +72,7 @@ To create a new [!UICONTROL Segment Test Group]:
 
    Click **[!UICONTROL Next]** to review and finalize your test group.
 
-2. **[!UICONTROL Summary & Finalize]**
+1. **[!UICONTROL Summary & Finalize]**
 
     * Review the information you added in the previous steps and select **[!UICONTROL Finalize Group]**.
     * Remember that once you finalize a test group, it can be duplicated or deleted, but not edited.
