@@ -182,4 +182,4 @@ var dataLib = DIL.create({
 }); 
 
 dataLib.api.signals(DIL.tools.getMetaTags('<i>application</i>','<i>keywords</i>', '<i>description</i>'), 'c_').submit();
-<code></pre>
+</code></pre>
