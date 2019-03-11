@@ -78,30 +78,27 @@ And returns:
    <td> <b>Match URL Hostname with a Custom Regex</b></td> 
    <td> Pass in a custom regex to match the host name of the referring URL. </td> 
    <td> 
-<pre>
+  <pre>
       var results = 
         DIL.tools.getSearchReferrer("https://www.ehow.com/
       search.aspx?q=adobe+rules",{ 
       &nbsp;&nbsp;&nbsp;hostPattern:/ehow\./, 
       &nbsp;&nbsp;&nbsp;queryParam:"p" 
       }); 
-</pre>
+  </pre>
   </td></tr> 
   <tr> 
    <td> <b>Match Search Patterns with a Custom Regex</b> </td> 
    <td> Pass in a custom regex to perform a custom search. </td> 
    <td> 
-
-<pre>
-
+  <pre>
       var&nbsp;results&nbsp;= 
-      DIL.tools.getSearchReferrer("https://www.ehow.com/
-search.aspx?q=adobe+rules,{ 
-&nbsp;&nbsp;&nbsp;hostPattern:/ehow\./, 
-&nbsp;&nbsp;&nbsp;search_pattern:/[&amp;\?]p=([^&amp;]+/ 
-});
-</pre>
-
+      DIL.tools.getSearchReferrer("https://www.ehow.com/search.aspx?q=adobe+rules,
+      {
+        &nbsp;&nbsp;&nbsp;hostPattern:/ehow\./, 
+        &nbsp;&nbsp;&nbsp;search_pattern:/[&amp;\?]p=([^&amp;]+/ 
+      });
+  </pre>
  </td> 
   </tr> 
  </tbody> 
