@@ -15,12 +15,6 @@ In this article, we address questions on GDPR readiness in Audience Manager. Mak
 
 GDPR came into effect on May 25, 2018 with primary objectives of giving individuals in the EU (Data Subjects) more control of their personal data while simplifying the regulatory environment for international businesses by better unifying regulation within the EU. As part of Adobe's GDPR readiness, the Adobe Audience Manager team has enhanced services and processes as necessary to support access and delete requests from Data Subjects, your consumers.
 
-<ul class="simplelist"> 
- <li> <a href="../../overview/aam-gdpr/aam-gdpr-faq.md#section_F408776849134AD08D35471BE7C07808"> GDPR Glossary </a> </li> 
- <li> <a href="../../overview/aam-gdpr/aam-gdpr-faq.md#section_FBB8EC4CE3284716A575D7F7A9F2D5D1"> Managing Individual GDPR Rights </a> </li> 
- <li> <a href="../../overview/aam-gdpr/aam-gdpr-faq.md#section_311BBEF5DBF6481BA73985A5AA5EA76D"> GDPR Readiness Guidance for Audience Manager Customers (Data Controllers) </a> </li> 
-</ul>
-
 ## GDPR Glossary {#section_F408776849134AD08D35471BE7C07808}
 
 Get familiar with key terms used related to GDPR. We’ve highlighted some of the most commonly used terms below.
@@ -67,7 +61,7 @@ Get familiar with key terms used related to GDPR. We’ve highlighted some of th
 
 <br>&nbsp;
 
-## Managing Individual GDPR Rights {#section_FBB8EC4CE3284716A575D7F7A9F2D5D1}
+## Managing Individual GDPR Rights {#manage-ind-gdpr-rights}
 
 **Managing Opt-In / Obtaining Consent**
 
@@ -139,7 +133,7 @@ GDPR doesn’t prohibit transfer of data outside of Europe. It requires that the
 
 <br>&nbsp;
 
-## GDPR Readiness Guidance for Audience Manager Customers (Data Controllers) {#section_311BBEF5DBF6481BA73985A5AA5EA76D}
+## GDPR Readiness Guidance for Audience Manager Customers (Data Controllers) {#gdpr-readiness-guidance}
 
 We recommend being proactive in the areas of data governance and organizational readiness. This ensures that your consumer data will be organized for processes related to access or delete requests, your teams will be enabled and empowered to manage these requests, and your consumers (Data Subjects) will have a positive, differentiated experience with your brand.
 
