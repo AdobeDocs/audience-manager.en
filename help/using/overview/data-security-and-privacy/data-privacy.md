@@ -11,11 +11,11 @@ uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
 
 Describes Audience Manager integration and compliance with generally accepted best practices related to consumer privacy and opt-out procedures.
 
-## Data Privacy {#section_3C0E97906232432296F2B2200B0BFA4F}
+## Data Privacy {#data-privacy-center}
 
 See the [Adobe Privacy Center](https://www.adobe.com/privacy/opt-out.html).
 
-## Consumer Privacy Protection {#section_8269FC81B9514F62925BA63DFB9BCC1D}
+## Consumer Privacy Protection {#consumer-privacy-protection}
 
 Audience Manager recognizes the implicit pact between consumers and the online brands with which they interact. Both parties benefit from the transparent exchange of anonymous data elements:
 
@@ -24,7 +24,7 @@ Audience Manager recognizes the implicit pact between consumers and the online b
 
 In our continuing support of this model, Audience Manager remains committed to providing transparency and control to consumers, and meeting or exceeding the Online Behavioral Advertising (OBA) Self-Regulatory Principles.
 
-## Opt-Out Management {#section_FAEB5029359A4AA8A466E3185B9EA04F}
+## Opt-Out Management {#opt-out-management}
 
 The opt-out documentation has been extended and moved to a separate part of our documentation. See [Opt-out Management](../../overview/data-security-and-privacy/opt-out-management.md#concept_1EC49431ED7D4012BD930ECF8A6D732F).
 
@@ -64,7 +64,7 @@ The opt-out documentation has been extended and moved to a separate part of our 
 
  -->
 
-## Collecting IP Addresses {#section_6E615E8AAE0A4C39A3716115C270569C}
+## Collecting IP Addresses {#collecting-ip-addresses}
 
 Adobe has enabled processes and offers settings that allow customers to use Audience Manager in compliance with applicable data privacy laws.
 

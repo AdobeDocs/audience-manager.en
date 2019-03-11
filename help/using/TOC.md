@@ -11,6 +11,7 @@ user-guide-title: Audience Manager User Guide
     + [Audience Manager Overview](overview/aam-overview.md)
     + [Types of Data Collected](overview/data-types-collected.md)
     + Data Security and Privacy {#data-security-and-privacy}
+        + [Overview](overview/data-security-and-privacy/data-security-privacy-overview.md)
         + [Data Security](overview/data-security-and-privacy/data-security.md)
         + [Data Privacy](overview/data-security-and-privacy/data-privacy.md)
         + [Opt-out Management](overview/data-security-and-privacy/opt-out-management.md)
