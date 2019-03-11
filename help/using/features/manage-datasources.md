@@ -57,14 +57,14 @@ To complete the [!UICONTROL Data Source Details] section:
 
 ## Data Export Controls {#section_895821268F6F42E9A181B717DD6F1D04}
 
-[Data Export Controls](../features/data-export-controls.md#concept_155AAFBA7D804467B6F8279D26C9D05C) are optional classification rules you can apply to a data source and destination. They prevent you from sending data to a destination when that action violates a data privacy or use agreement. Skip this section if you do not use [!UICONTROL Data Export Controls].
+[Data Export Controls](../features/data-export-controls.md) are optional classification rules you can apply to a data source and destination. They prevent you from sending data to a destination when that action violates a data privacy or use agreement. Skip this section if you do not use [!UICONTROL Data Export Controls].
 
 ## Data Source Settings {#section_928E1EB8EE7149A88F46ABD3B6FE5BAF}
 
 These settings determine how a data source is identified, used, and shared. You can also enable error reporting for inbound data files. To complete the [!UICONTROL Data Source Settings] section:
 
 1. Select a [!UICONTROL Data Source Setting] check box to apply an option to your data source.
-1. Click **[!UICONTROL Save]**.
+2. Click **[!UICONTROL Save]**.
 
 >[!MORE_LIKE_THIS]
 >

@@ -71,7 +71,7 @@ In addition to text fields, the [!UICONTROL Data Source Details] section contain
 
 ## [!UICONTROL Data Export Controls] {#section_38F7E2A550A44A079BA8C26148B25349}
 
-[Data Export Controls](../features/data-export-controls.md#concept_155AAFBA7D804467B6F8279D26C9D05C) are optional classification rules you can apply to a data source and destination. They prevent you from sending data to a destination when that action violates a data privacy or use agreement. Skip this section if you do not use [!UICONTROL Data Export Controls].
+[Data Export Controls](../features/data-export-controls.md) are optional classification rules you can apply to a data source and destination. They prevent you from sending data to a destination when that action violates a data privacy or use agreement. Skip this section if you do not use [!UICONTROL Data Export Controls].
 
 >[!IMPORTANT]
 >

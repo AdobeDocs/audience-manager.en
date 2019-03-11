@@ -7,7 +7,7 @@ title: Data Export Controls
 uuid: de7f3608-c0cb-4049-973a-8be54525c600
 ---
 
-# [!UICONTROl Data Export Controls] {#data-export-controls}
+# [!UICONTROL Data Export Controls] {#data-export-controls}
 
 [!UICONTROL Data Export Controls] prevent you from sending data to destinations when this action violates data privacy or data use agreements.
 
