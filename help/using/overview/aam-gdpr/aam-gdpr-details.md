@@ -212,7 +212,7 @@ The table below contains descriptions for all the returned fields in the data ac
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> data export controls</span> </p> </td> 
-   <td colname="col2"> <p>The <a href="../../features/data-export-controls.md#concept_155AAFBA7D804467B6F8279D26C9D05C"> data export controls</a> applied to this trait's data source. </p> </td> 
+   <td colname="col2"> <p>The <a href="../../features/data-export-controls.md"> data export controls</a> applied to this trait's data source. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> data provider name</span> </p> </td> 
@@ -241,7 +241,7 @@ The table below contains descriptions for all the returned fields in the data ac
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> data export controls</span> </p> </td> 
-   <td colname="col2"> <p>The <a href="../../features/data-export-controls.md#concept_155AAFBA7D804467B6F8279D26C9D05C"> data export controls</a> applied to this segment's data source. </p> </td> 
+   <td colname="col2"> <p>The <a href="../../features/data-export-controls.md"> data export controls</a> applied to this segment's data source. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> data provider name</span> </p> </td> 

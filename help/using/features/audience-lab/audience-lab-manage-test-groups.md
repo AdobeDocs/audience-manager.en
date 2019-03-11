@@ -62,7 +62,7 @@ To create a new [!UICONTROL Segment Test Group]:
     * Drag & drop segments to destinations.
     * After dropping a segment in a destination, fill in the **[!UICONTROL Destination Mapping Value]** in the blind.
     * You can send the same test segment to multiple destinations and you can add multiple test segments to a single destination.
-    * Destinations are grayed out if they are not available for a certain test segment based on [Data Export Controls](../../features/data-export-controls.md#concept_155AAFBA7D804467B6F8279D26C9D05C).
+    * Destinations are grayed out if they are not available for a certain test segment based on [Data Export Controls](../../features/data-export-controls.md).
     * Users will only see the destinations they have access to based on the [RBAC User Group](../../features/administration/administration-overview.md#concept_A606A162611E4256BB80F60715282296) they belong to.
     * Finally, you are required to select a start date for your test group. This date marks the start of the period in which your test group will be published to destinations. Select **No End Date** for an indefinite comparison of the test segments.
 
@@ -72,7 +72,7 @@ To create a new [!UICONTROL Segment Test Group]:
 
    Click **[!UICONTROL Next]** to review and finalize your test group.
 
-1. **[!UICONTROL Summary & Finalize]**
+2. **[!UICONTROL Summary & Finalize]**
 
     * Review the information you added in the previous steps and select **[!UICONTROL Finalize Group]**.
     * Remember that once you finalize a test group, it can be duplicated or deleted, but not edited.

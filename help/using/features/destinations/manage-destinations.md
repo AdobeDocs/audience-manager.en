@@ -86,11 +86,11 @@ This section contains fields and options that start the cookie destination creat
 
 ## Data Export Labels {#section_DBA5FEE725E142AEA979BECBA7FE9DD5}
 
-This section contains options that apply [data export controls](../../features/data-export-controls.md#concept_155AAFBA7D804467B6F8279D26C9D05C) to a cookie destination. Skip this step if you do not use data export controls. To complete this section:
+This section contains options that apply [data export controls](../../features/data-export-controls.md) to a cookie destination. Skip this step if you do not use data export controls. To complete this section:
 
 1. Click **[!UICONTROL Data Export Labels]** to expose the controls.
-1. Select a label that corresponds to data export control applied to the destination (see [Add Export Labels to a Destination](../../features/destinations/manage-destinations.md#task_A4BA30472E6F4687AC3F1B33F51909D9) for details).
-1. Click **[!UICONTROL Save]**.
+2. Select a label that corresponds to data export control applied to the destination (see [Add Export Labels to a Destination](../../features/destinations/manage-destinations.md#task_A4BA30472E6F4687AC3F1B33F51909D9) for details).
+3. Click **[!UICONTROL Save]**.
 
 ## Configuration {#section_51EDD4DAA8164DF996F21DD32485E62D}
 
@@ -147,11 +147,11 @@ This section contains fields and options that start the URL destination creation
 
 ## Data Export Labels {#section_24858C4E36234493ABF33DF39501C1E9}
 
-This section contains options that apply [data export controls](../../features/data-export-controls.md#concept_155AAFBA7D804467B6F8279D26C9D05C) to a [!DNL URL] destination. Skip this step if you do not use data export controls. To complete this section:
+This section contains options that apply [data export controls](../../features/data-export-controls.md) to a [!DNL URL] destination. Skip this step if you do not use data export controls. To complete this section:
 
 1. Click **[!UICONTROL Data Export Labels]** to expose the controls.
-1. Select a label that corresponds to the data export control applied to the destination (see [Add Export Labels to a Destination](../../features/destinations/manage-destinations.md#task_A4BA30472E6F4687AC3F1B33F51909D9) for details).
-1. Click **[!UICONTROL Save]**.
+2. Select a label that corresponds to the data export control applied to the destination (see [Add Export Labels to a Destination](../../features/destinations/manage-destinations.md#task_A4BA30472E6F4687AC3F1B33F51909D9) for details).
+3. Click **[!UICONTROL Save]**.
 
 ## Configuration {#section_A8AB50168B674B46BE80771B9BAF37DD}
 
@@ -308,8 +308,8 @@ To add export labels to a destination:
     * **[!UICONTROL This destination may be used for for on-site ad personalization**
    >[!IMPORTANT]
    >
-   >Export restrictions will not work unless you set a [matching export control](../../features/data-export-controls.md#concept_155AAFBA7D804467B6F8279D26C9D05C) on a data source.
-1. Click **[!UICONTROL Save]**.
+   >Export restrictions will not work unless you set a [matching export control](../../features/data-export-controls.md) on a data source.
+2. Click **[!UICONTROL Save]**.
 
 >[!MORE_LIKE_THIS]
 >

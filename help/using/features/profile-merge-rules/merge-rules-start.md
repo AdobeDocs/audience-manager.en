@@ -37,7 +37,7 @@ To complete the [!UICONTROL Data Source Details] section:
 
 ## Data Export Controls {#section_895821268F6F42E9A181B717DD6F1D04}
 
-[Data Export Controls](../../features/data-export-controls.md#concept_155AAFBA7D804467B6F8279D26C9D05C) are optional classification rules you can apply to a data source and destination. They prevent you from sending data to a destination when that action violates a data privacy or use agreement. Skip this section if you do not use [!UICONTROL Data Export Controls].
+[Data Export Controls](../../features/data-export-controls.md) are optional classification rules you can apply to a data source and destination. They prevent you from sending data to a destination when that action violates a data privacy or use agreement. Skip this section if you do not use [!UICONTROL Data Export Controls].
 
 ## Data Source Settings {#section_928E1EB8EE7149A88F46ABD3B6FE5BAF}
 
@@ -70,12 +70,12 @@ To create a [!UICONTROL Profile Merge Rule], go to **[!UICONTROL Audience Data >
 To complete the [!UICONTROL Basic Information] section:
 
 1. Name the [!UICONTROL Profile Merge Rule].
-1. *(Optional)* Describe the [!UICONTROL Profile Merge Rule]. A concise description helps you define the role or purpose of your rule.
-1. *(Optional)* Select **[!UICONTROL Set as default]** if you want to make this the default [!UICONTROL Profile Merge Rule]. New segments are automatically associated with the default rule.
+2. *(Optional)* Describe the [!UICONTROL Profile Merge Rule]. A concise description helps you define the role or purpose of your rule.
+3. *(Optional)* Select **[!UICONTROL Set as default]** if you want to make this the default [!UICONTROL Profile Merge Rule]. New segments are automatically associated with the default rule.
 
 ## Data Export Controls {#section_6B22BFF8BA724DC38852D3437A8C171E}
 
-[Data Export Controls](../../features/data-export-controls.md#concept_155AAFBA7D804467B6F8279D26C9D05C) are optional classification rules you can apply to your [!UICONTROL Profile Merge Rule]. They prevent you from sending data to a destination when that action violates a data privacy or use agreement. Skip this section if you do not use [!UICONTROL Data Export Controls].
+[Data Export Controls](../../features/data-export-controls.md) are optional classification rules you can apply to your [!UICONTROL Profile Merge Rule]. They prevent you from sending data to a destination when that action violates a data privacy or use agreement. Skip this section if you do not use [!UICONTROL Data Export Controls].
 
 ## [!UICONTROL Profile Merge Rule Setup] {#section_61EEF440AC384395B86C222EFA5EB9EF}
 
@@ -85,13 +85,13 @@ To complete the [!UICONTROL Proflie Merge Rule Setup] section:
     * **[!UICONTROL No Authenticated Profile]**
     * **[!UICONTROL Current Authenticated Profile]**
     * **[!UICONTROL Last Authenticated Profile]**
-1. Select an **[!UICONTROL Authenticated Profile Option]** (up to 3, maximum). These are the [cross-device data sources](../../features/profile-merge-rules/merge-rules-start.md#concept_396828374D1B48C988655B2ED817F29B) you have created previously.
-1. Select a **[!UICONTROL Device Option]**. Options include:
+2. Select an **[!UICONTROL Authenticated Profile Option]** (up to 3, maximum). These are the [cross-device data sources](../../features/profile-merge-rules/merge-rules-start.md#concept_396828374D1B48C988655B2ED817F29B) you have created previously.
+3. Select a **[!UICONTROL Device Option]**. Options include:
     * **[!UICONTROL No Device Profile]**
     * **[!UICONTROL Current Device Profile]**
     * **[!UICONTROL Profile Link Device Graph]**
     * **[!UICONTROL Device Co-op]**
-1. Click **[!UICONTROL Save]**.
+4. Click **[!UICONTROL Save]**.
 
 ## Next Steps {#section_0A2D9E025E9646B89BE2B7634BCE743F}
 
