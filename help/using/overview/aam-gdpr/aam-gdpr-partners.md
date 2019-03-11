@@ -13,15 +13,7 @@ This page outlines information provided directly by our partners, as it becomes 
 
 Adobe partners own their business processes and may decide to update their integration requirements with Audience Manager from time to time. We are proactively working with our Audience Manager partner ecosystem to keep our customers apprised of changes.
 
-On this page:
-
-<ul class="simplelist"> 
- <li><a href="../../overview/aam-gdpr/aam-gdpr-partners.md#section_F462002CBE7A4B17B20B758C3F2A05C7"> Audience Manager Partner Updates - ID Syncs</a> </li> 
- <li><a href="../../overview/aam-gdpr/aam-gdpr-partners.md#section_583C4069B3774EF29A77B2A466DDF944"> Audience Manager UI Update - Yahoo/Oath/DataX Integration</a> </li> 
- <li><a href="../../overview/aam-gdpr/aam-gdpr-partners.md#section_49E63A6345D648F4AED87CD33B36F5FB"> Audience Manager Partners With Unsegmentation Capabilities</a> </li> 
-</ul>
-
-## Audience Manager Partner Updates - ID Syncs {#section_F462002CBE7A4B17B20B758C3F2A05C7}
+## Audience Manager Partner Updates - ID Syncs {#partner-updates-id-syncs}
 
 Some partners, as listed in the table below, have changed their integration requirements with Audience Manager to include support based on the IAB Framework, in order to comply with GDPR standards.
 
@@ -57,13 +49,13 @@ Some partners, as listed in the table below, have changed their integration requ
  </tbody> 
 </table>
 
-## Audience Manager UI Update - Yahoo/Oath/DataX Integration {#section_583C4069B3774EF29A77B2A466DDF944}
+## Audience Manager UI Update - Yahoo/Oath/DataX Integration {#ui-update}
 
 In addition to the updates to the IAB Framework mentioned above, Yahoo/Oath/DataX has added new parameters, **gdpr** and **gdpr_mode**, to their taxonomy and Audience APIs. Their parameters inform Yahoo/Oath/DataX that they have the rights to process a certain segment as a Data Processor or as a Data Controller. As a result, Audience Manager customers sending segments to a Yahoo/Oath/DataX destination must designate the appropriate parameter (Processor or Controller), based on their agreement with Oath.
 
 Please reach out to your Consultant or Client Care to set the correct parameter. Adobe cannot make this update on behalf of a customer unless we receive written correspondence, requesting this update. Please reach out to your Yahoo/Oath/DataX representative to understand the full definition of these parameters.
 
-## Audience Manager Partners With Unsegmentation Capabilities {#section_49E63A6345D648F4AED87CD33B36F5FB}
+## Audience Manager Partners With Unsegmentation Capabilities {#aam-partners-with-unsegmentation}
 
 In order to help our customers automate GDPR requests, Audience Manager notifies our activation partners about deletion requests from Data Subjects by sending them unsegment (or remove segment) information.
 

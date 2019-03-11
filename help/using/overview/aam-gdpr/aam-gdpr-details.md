@@ -11,7 +11,7 @@ uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 
 This document covers the technicalities related to the General Data Protection Regulation (GDPR) for Audience Manager and shows you how to submit GDPR requests to Audience Manager.
 
-## GDPR Documentation in the Experience Cloud {#section_A1195B5542E945958F231AD4CD6DD472}
+## GDPR Documentation in the Experience Cloud {#gdpr-documentation}
 
 Before reading the Audience Manager specifics, we advise you go through the Experience Cloud material for the European General Data Protection Regulation (GDPR), linked below:
 
@@ -21,7 +21,7 @@ Before reading the Audience Manager specifics, we advise you go through the Expe
 
 The sections below explain what GDPR means for Audience Manager and how you can submit GDPR requests to Audience Manager.
 
-## Types of GDPR Requests and How to Make a GDPR Request {#section_67F84F0B0BF740759EE9416C8AE8596D}
+## Types of GDPR Requests and How to Make a GDPR Request {#types-of-gdpr-requests}
 
 As an Audience Manager customer, you can submit individual GDPR requests to access and delete customer data, either through the [ [!UICONTROL GDPR Client Services UI]](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/using-gdpr-ui.md) or by calling the [GDPR API](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md). You can submit any Audience Manager identifiers (IDs), as described in the section [Audience Manager Identifiers](../../overview/aam-gdpr/aam-gdpr-details.md#section_DF7B9F8D922F4F4C9B08E8B9A4813DCA), in the requests along with their respective namespace IDs (data source IDs). If you have questions, please reach out to Customer Care at gdprsupport@adobe.com.
 
@@ -332,326 +332,171 @@ When submitting GDPR requests to Adobe Audience Manager, you must include one of
    <td colname="col2"> <p>0 </p> <p> <p>Note:  You can also use the CORE namespace. See the second JSON example. </p> </p> </td> 
    <td colname="col3"> <p>Adobe Audience Manager Unique User ID </p> </td> 
    <td colname="col4"> <p> 
-     <codeblock>
+     <code>
       &nbsp;"users":&nbsp;[
-      
-&nbsp;&nbsp;{
-      
-&nbsp;&nbsp;&nbsp;&nbsp;"key":&nbsp;"Example&nbsp;user&nbsp;1",
-      
-&nbsp;&nbsp;&nbsp;&nbsp;"action":&nbsp;[
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"access"
-      
-&nbsp;&nbsp;&nbsp;&nbsp;],
-      
-&nbsp;&nbsp;&nbsp;&nbsp;"userIDs":&nbsp;[
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"namespace":&nbsp;"0",
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"type":&nbsp;"namespaceId",
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value":&nbsp;"85302821933904870272023537812382806531"
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"namespace":&nbsp;"0",
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"type":&nbsp;"namespaceId",
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value":&nbsp;"85690090981158357332062532910972162921"
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
-      
-&nbsp;&nbsp;&nbsp;&nbsp;]
-      
-&nbsp;&nbsp;}
-      
-]
-      &nbsp;"users":&nbsp;[
-      
-&nbsp;&nbsp;{
-      
-&nbsp;&nbsp;&nbsp;&nbsp;"key":&nbsp;"Example&nbsp;user&nbsp;1",
-      
-&nbsp;&nbsp;&nbsp;&nbsp;"action":&nbsp;[
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"access"
-      
-&nbsp;&nbsp;&nbsp;&nbsp;],
-      
-&nbsp;&nbsp;&nbsp;&nbsp;"userIDs":&nbsp;[
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"namespace":&nbsp;"CORE",
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"type":&nbsp;"standard",
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value":&nbsp;"85302821933904870272023537812382806531"
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"namespace":&nbsp;"CORE",
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"type":&nbsp;"standard",
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value":&nbsp;"85690090981158357332062532910972162921"
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
-      
-&nbsp;&nbsp;&nbsp;&nbsp;]
-      
-&nbsp;&nbsp;}
-      
-]
-     </codeblock> </p> </td> 
+      &nbsp;&nbsp;{
+      &nbsp;&nbsp;&nbsp;&nbsp;"key":&nbsp;"Example&nbsp;user&nbsp;1",
+      &nbsp;&nbsp;&nbsp;&nbsp;"action":&nbsp;[
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"access"
+      &nbsp;&nbsp;&nbsp;&nbsp;],
+      &nbsp;&nbsp;&nbsp;&nbsp;"userIDs":&nbsp;[
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"namespace":&nbsp;"0",
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"type":&nbsp;"namespaceId",
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value":&nbsp;"85302821933904870272023537812382806531"
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"namespace":&nbsp;"0",
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"type":&nbsp;"namespaceId",
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value":&nbsp;"85690090981158357332062532910972162921"
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+      &nbsp;&nbsp;&nbsp;&nbsp;]
+      &nbsp;&nbsp;}
+      ]
+      &nbsp;"users":&nbsp;[=&nbsp;&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;"key":&nbsp;"Example&nbsp;user&nbsp;1",&nbsp;&nbsp;&nbsp;&nbsp;"action":&nbsp;[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"access"&nbsp;&nbsp;&nbsp;&nbsp;],&nbsp;&nbsp;&nbsp;&nbsp;"userIDs":&nbsp;[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"namespace":&nbsp;"CORE",&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"type":&nbsp;"standard",&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value":&nbsp;"85302821933904870272023537812382806531"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"namespace":&nbsp;"CORE",&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"type":&nbsp;"standard",&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value":&nbsp;"85690090981158357332062532910972162921"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+      &nbsp;&nbsp;&nbsp;&nbsp;]
+      &nbsp;&nbsp;}
+      ]
+     </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>mid </p> </td> 
    <td colname="col2"> <p>4 </p> <p> <p>Note:  You can also use the ECID namespace. See the second JSON example. </p> </p> </td> 
    <td colname="col3"> <p>Adobe Experience Cloud ID, formerly known as Visitor ID or Marketing Cloud ID </p> </td> 
    <td colname="col4"> <p> 
-     <codeblock>
+     <code>
+      &nbsp;"users":&nbsp;
+      [
+      &nbsp;&nbsp;{
+      &nbsp;&nbsp;&nbsp;&nbsp;"key":&nbsp;"Example&nbsp;user&nbsp;1",
+      &nbsp;&nbsp;&nbsp;&nbsp;"action":&nbsp;[
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"access"
+      &nbsp;&nbsp;&nbsp;&nbsp;],
+      &nbsp;&nbsp;&nbsp;&nbsp;"userIDs":&nbsp;[
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"namespace":&nbsp;"4",
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"type":&nbsp;"namespaceId",
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value":&nbsp;"54893990981158357332062532910972162921"
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"namespace":&nbsp;"4",
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"type":&nbsp;"namespaceId",
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value":&nbsp;"46990090981158357332062532910972162921"
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+      &nbsp;&nbsp;&nbsp;&nbsp;]
+      &nbsp;&nbsp;}
+      ]
       &nbsp;"users":&nbsp;[
-      
-&nbsp;&nbsp;{
-      
-&nbsp;&nbsp;&nbsp;&nbsp;"key":&nbsp;"Example&nbsp;user&nbsp;1",
-      
-&nbsp;&nbsp;&nbsp;&nbsp;"action":&nbsp;[
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"access"
-      
-&nbsp;&nbsp;&nbsp;&nbsp;],
-      
-&nbsp;&nbsp;&nbsp;&nbsp;"userIDs":&nbsp;[
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"namespace":&nbsp;"4",
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"type":&nbsp;"namespaceId",
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value":&nbsp;"54893990981158357332062532910972162921"
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"namespace":&nbsp;"4",
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"type":&nbsp;"namespaceId",
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value":&nbsp;"46990090981158357332062532910972162921"
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
-      
-&nbsp;&nbsp;&nbsp;&nbsp;]
-      
-&nbsp;&nbsp;}
-      
-]
-      &nbsp;"users":&nbsp;[
-      
-&nbsp;&nbsp;{
-      
-&nbsp;&nbsp;&nbsp;&nbsp;"key":&nbsp;"Example&nbsp;user&nbsp;1",
-      
-&nbsp;&nbsp;&nbsp;&nbsp;"action":&nbsp;[
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"access"
-      
-&nbsp;&nbsp;&nbsp;&nbsp;],
-      
-&nbsp;&nbsp;&nbsp;&nbsp;"userIDs":&nbsp;[
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"namespace":&nbsp;"ECID",
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"type":&nbsp;"standard",
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value":&nbsp;"54893990981158357332062532910972162921"
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"namespace":&nbsp;"ECID",
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"type":&nbsp;"standard",
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value":&nbsp;"46990090981158357332062532910972162921"
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
-      
-&nbsp;&nbsp;&nbsp;&nbsp;]
-      
-&nbsp;&nbsp;}
-      
-]
-     </codeblock> </p> </td> 
+      &nbsp;&nbsp;{
+      &nbsp;&nbsp;&nbsp;&nbsp;"key":&nbsp;"Example&nbsp;user&nbsp;1",
+      &nbsp;&nbsp;&nbsp;&nbsp;"action":&nbsp;[
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"access"
+      &nbsp;&nbsp;&nbsp;&nbsp;],
+      &nbsp;&nbsp;&nbsp;&nbsp;"userIDs":&nbsp;[
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"namespace":&nbsp;"ECID",
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"type":&nbsp;"standard",
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value":&nbsp;"54893990981158357332062532910972162921"
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"namespace":&nbsp;"ECID",
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"type":&nbsp;"standard",
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value":&nbsp;"46990090981158357332062532910972162921"
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+      &nbsp;&nbsp;&nbsp;&nbsp;]
+      &nbsp;&nbsp;}
+      ]
+     </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>d_cid </p> </td> 
    <td colname="col2"> <p>Customer-specific. Please find it from your Audience Manager instance. </p> </td> 
    <td colname="col3"> <p>Customer ID, such as a cookie you set for anonymous site visitors or a CRM ID from an offline system or a hashed username </p> </td> 
    <td colname="col4"> <p> 
-     <codeblock>
+     <code>
       "users":&nbsp;[
-      
-&nbsp;&nbsp;{
-      
-&nbsp;&nbsp;&nbsp;&nbsp;"key":&nbsp;"Example&nbsp;user&nbsp;1",
-      
-&nbsp;&nbsp;&nbsp;&nbsp;"action":&nbsp;[
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"access"
-      
-&nbsp;&nbsp;&nbsp;&nbsp;],
-      
-&nbsp;&nbsp;&nbsp;&nbsp;"userIDs":&nbsp;[
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"namespace":"1234567",
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"type":&nbsp;"namespaceId",
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value":&nbsp;"unique-user-id-for-datasource-1234567"
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"namespace":&nbsp;"1234567",
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"type":&nbsp;"namespaceId",
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value":&nbsp;"another-unique-user-id-for-datasource-1234567"
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"namespace":"54321",
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"type":&nbsp;"namespaceId",
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value":&nbsp;"unique-user-id-for-datasource-54321"
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
-      
-&nbsp;&nbsp;&nbsp;&nbsp;]
-      
-&nbsp;&nbsp;}
-      
-]
-     </codeblock> </p> </td> 
+      &nbsp;&nbsp;{
+      &nbsp;&nbsp;&nbsp;&nbsp;"key":&nbsp;"Example&nbsp;user&nbsp;1",
+      &nbsp;&nbsp;&nbsp;&nbsp;"action":&nbsp;[
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"access"
+      &nbsp;&nbsp;&nbsp;&nbsp;],
+      &nbsp;&nbsp;&nbsp;&nbsp;"userIDs":&nbsp;[
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"namespace":"1234567",
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"type":&nbsp;"namespaceId",
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value":&nbsp;"unique-user-id-for-datasource-1234567"
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"namespace":&nbsp;"1234567",
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"type":&nbsp;"namespaceId",
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value":&nbsp;"another-unique-user-id-for-datasource-1234567"
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"namespace":"54321",
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"type":&nbsp;"namespaceId",
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value":&nbsp;  "unique-user-id-for-datasource-54321"
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+      &nbsp;&nbsp;&nbsp;&nbsp;]
+      &nbsp;&nbsp;}
+      ]
+     </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>d_cid </p> </td> 
    <td colname="col2"> <p>IDFA: 20915 </p> <p>GAID: 20914 </p> </td> 
    <td colname="col3"> <p>Mobile advertising IDs. </p> <p> <p>Important:  If you are using the Mobile SDK, then you should also send the Experience Cloud ID (MID) along with mobile advertising IDs for complete GDPR Access and Delete responses. </p> </p> </td> 
    <td colname="col4"> <p> 
-     <codeblock>
+     <code>
       "users":&nbsp;[
-      
-&nbsp;&nbsp;{
-      
-&nbsp;&nbsp;&nbsp;&nbsp;"key":&nbsp;"Example&nbsp;user&nbsp;1",
-      
-&nbsp;&nbsp;&nbsp;&nbsp;"action":&nbsp;[
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"access"
-      
-&nbsp;&nbsp;&nbsp;&nbsp;],
-      
-&nbsp;&nbsp;&nbsp;&nbsp;"userIDs":&nbsp;[
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"namespace":"20914",
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"type":&nbsp;"namespaceId",
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value":&nbsp;"e4fe9bde-caa0-47b6-908d-ffba3fa184f2"
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"namespace":"20915",
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"type":&nbsp;"namespaceId",
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value":&nbsp;"AEBE52E7-03EE-455A-B3C4-E57283966239"
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
-      
-&nbsp;&nbsp;&nbsp;&nbsp;]
-      
-&nbsp;&nbsp;}
-      
-]
-     </codeblock> </p> </td> 
+      &nbsp;&nbsp;{
+      &nbsp;&nbsp;&nbsp;&nbsp;"key":&nbsp;"Example&nbsp;user&nbsp;1",
+      &nbsp;&nbsp;&nbsp;&nbsp;"action":&nbsp;[
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"access"
+      &nbsp;&nbsp;&nbsp;&nbsp;],
+      &nbsp;&nbsp;&nbsp;&nbsp;"userIDs":&nbsp;[
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"namespace":"20914",
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"type":&nbsp;"namespaceId",
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value":&nbsp;"e4fe9bde-caa0-47b6-908d-ffba3fa184f2"
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"namespace":"20915",
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"type":&nbsp;"namespaceId",
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value":&nbsp;"AEBE52E7-03EE-455A-B3C4-E57283966239"
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+      &nbsp;&nbsp;&nbsp;&nbsp;]
+      &nbsp;&nbsp;}
+      ]
+     </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>d_cid_ic </p> </td> 
    <td colname="col2"> <p>Not applicable. </p> </td> 
    <td colname="col3"> <p>An integration code for the data source. This can be used instead of data source ID / namespace ID in the API request to Adobe Experience Cloud Privacy Core Service. </p> </td> 
    <td colname="col4"> <p> 
-     <codeblock>
+     <code>
       "users":&nbsp;[
-      
-&nbsp;&nbsp;{
-      
-&nbsp;&nbsp;&nbsp;&nbsp;"key":&nbsp;"Example&nbsp;user&nbsp;1",
-      
-&nbsp;&nbsp;&nbsp;&nbsp;"action":&nbsp;[
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"access"
-      
-&nbsp;&nbsp;&nbsp;&nbsp;],
-      
-&nbsp;&nbsp;&nbsp;&nbsp;"userIDs":&nbsp;[
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"namespace":&nbsp;"loyaltyCard",
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"type":&nbsp;"integrationCode",
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value":&nbsp;"272023537812"
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"namespace":"offlineCampaign",
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"type":&nbsp;"integrationCode",
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value":&nbsp;"9546673332"
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
-      
-&nbsp;&nbsp;&nbsp;&nbsp;]
-      
-&nbsp;&nbsp;}
-      
-]
-     </codeblock> </p> </td> 
+      &nbsp;&nbsp;{
+      &nbsp;&nbsp;&nbsp;&nbsp;"key":&nbsp;"Example&nbsp;user&nbsp;1",
+      &nbsp;&nbsp;&nbsp;&nbsp;"action":&nbsp;[
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"access"
+      &nbsp;&nbsp;&nbsp;&nbsp;],
+      &nbsp;&nbsp;&nbsp;&nbsp;"userIDs":&nbsp;[
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"namespace":&nbsp;"loyaltyCard",
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"type":&nbsp;"integrationCode",
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value":&nbsp;"272023537812"
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"namespace":"offlineCampaign",
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"type":&nbsp;"integrationCode",
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"value":&nbsp;"9546673332"
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+      &nbsp;&nbsp;&nbsp;&nbsp;]
+      &nbsp;&nbsp;}
+      ]
+     </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
