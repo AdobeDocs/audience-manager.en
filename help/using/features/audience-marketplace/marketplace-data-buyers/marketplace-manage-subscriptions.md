@@ -305,7 +305,7 @@ This use case lets you compare your traits with provider traits in a [trait-to-t
 
 ### Algorithmic Models
 
-This use case lets you evaluate supplier traits against your traits with [algorithmic modeling](../../../features/algorithmic-models/understanding-models.md#concept_441E566718B845929880B0823A9ECA9F). For example, our algorithmic modeling system uses one of your traits as a basis for comparison against a supplier trait. When the model runs, it can show if audiences in supplier traits share similar conversion attributes to your traits.
+This use case lets you evaluate supplier traits against your traits with [algorithmic modeling](../../../features/algorithmic-models/understanding-models.md#understanding-models). For example, our algorithmic modeling system uses one of your traits as a basis for comparison against a supplier trait. When the model runs, it can show if audiences in supplier traits share similar conversion attributes to your traits.
 
 ### Activation
 

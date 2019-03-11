@@ -17,7 +17,7 @@ Enterprise customers using [!DNL Audience Manager] need one data management plat
 
 [!DNL Audience Manager] uses groups to assign permissions. Permissions are not assigned at the user level. Group permissions are tied to objects (traits, segments, etc.) and to actions you can perform on those objects (edit, view, etc.).
 
-## Create Users {#task_89D190BA6A394B719A35CDA76899B957}
+## Create Users {#create-users}
 
 <!-- t_create_users.xml -->
 
@@ -39,10 +39,10 @@ Create users in [!DNL Audience Manager] and specify user details, login status, 
    * **Pending:** The user has a temporary password, either as after a password reset or as a brand new account, and they have not yet set a permanent password.
    * **Locked Out:** 5 incorrect login attempts will lock out a user.
 1. Under **[!UICONTROL Assigned Groups]**, from the drop-down list, select the desired groups to which you want to assign this user.
-  For more information about groups and permissions, see [Create a Group](../../features/administration/administration-overview.md#task_3327F7C4A9834F1BA5007EDA279D40F2).
+  For more information about groups and permissions, see [Create a Group](../../features/administration/administration-overview.md#create-group).
 1. Click **[!UICONTROL Save]**.
 
-## Create a Group {#task_3327F7C4A9834F1BA5007EDA279D40F2}  
+## Create a Group {#create-group}  
 
 A *group* is a collection of users that share access rights to destination, segment, and trait objects. You can limit groups to single objects only or give them broad access to combinations of different objects.
 
@@ -59,10 +59,10 @@ To create a group:
 1. In [!UICONTROL Group Permissions], select a [trait](../../features/traits/trait-details-page.md), [segment](../../features/segments/segments-purpose.md#concept_F9E9D1D1EFF34AA2AD025109DD741C86), or [destination](../../features/destinations/destinations.md#concept_5BDA346C376C4B719EA394108AB2735A) from **[!UICONTROL Add Object]**.
    This opens a permissions window for your selected object.
 1. Select the check box for the permissions you want group members to have.
-1. *(Optional)* Assign [Wild Card Permissions](../../features/administration/administration-overview.md#concept_29BA0C02C1864F3BBB1D322F8A400A2D) to the group.
+1. *(Optional)* Assign [Wild Card Permissions](../../features/administration/administration-overview.md#wild-card-permissions) to the group.
 1. Click **[!UICONTROL Save Group]**.
 
-## Understanding [!UICONTROL Wild Card Permissions] {#concept_29BA0C02C1864F3BBB1D322F8A400A2D}
+## Understanding [!UICONTROL Wild Card Permissions] {#wild-card-permissions}
 
 Simplify group rights management with [!UICONTROL Wild Card Permissions].
 

@@ -14,7 +14,7 @@ Non-admin users can edit their own profiles, including changing their email addr
 
 <!-- t_edit_account_settings.xml -->
 
-Admin users can create users and add them to groups for permission purposes, as explained in [Create Users](../../features/administration/administration-overview.md#task_89D190BA6A394B719A35CDA76899B957) and [Create a Group](../../features/administration/administration-overview.md#task_3327F7C4A9834F1BA5007EDA279D40F2).
+Admin users can create users and add them to groups for permission purposes, as explained in [Create Users](../../features/administration/administration-overview.md#create-users) and [Create a Group](../../features/administration/administration-overview.md#create-group).
 
 1. In the Audience Manager header, click ![](assets/icon_profile.png).
 1. Click **[!UICONTROL Account Settings]**, then click **[!UICONTROL Edit]** to display the [!UICONTROL My Account] page.

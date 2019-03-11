@@ -15,17 +15,17 @@ Build and manage the traits or segments used in algorithmic modeling, also refer
 
 <!-- c_models.xml -->
 
-## Understanding [!UICONTROL Algorithmic Models] {#concept_441E566718B845929880B0823A9ECA9F}
+## Understanding [!UICONTROL Algorithmic Models] {#understanding-models}
 
-A review of algorithmic modeling in [!DNL Audience Manager]. Describes how modeling works, benefits, and workflow.
+The sections below represent a review of algorithmic modeling in [!DNL Audience Manager]. They describe how modeling works, the benefits, and the workflow.
 
 <!-- understanding-models.xml -->
 
-## Find New Users with Algorithmic Modeling {#section_0243382004524AD1B1EEFB2D9F19E49E}
+## Find New Users with Algorithmic Modeling {#find-new-users}
 
 Algorithmic modeling helps you discover new, unique audiences through automated data analysis. The process starts when you select a trait or segment, a time interval, and first and third-party data sources. Your choices provide the inputs for the algorithmic model. When the analytics process runs, it looks for eligible users based on shared characteristics from the selected population. Upon completion, this data is available in [Trait Builder](../../features/traits/about-trait-builder.md#concept_13D6537EE5D0459F870C58822AD5400A) where you can use it to create traits based on [accuracy and reach](../../features/traits/trait-accuracy-reach.md#concept_60F696940483424CA4E8EEDD63F46358). Additionally, you can build segments that combine algorithmic traits with rules-based traits and add other qualification requirements with Boolean expressions and comparison operators. Algorithmic modeling gives you a dynamic way to extract value from all your available trait data.
 
-## Advantages {#section_029CA57DD883400AA92018D07FB890B2}
+## Advantages {#advantages}
 
 The major benefits of using [!DNL Audience Manager] modeling include:
 
@@ -34,7 +34,7 @@ The major benefits of using [!DNL Audience Manager] modeling include:
 * **Save time and reduce effort:** With our modeling process you don't have to guess at what traits/segments may work or spend time resources on campaigns to discover new audiences. The model can do this for you.
 * **Reliability:** Modeling works with server-side discovery and qualification processes that evaluate your own data and selected third-party data that you have access to. This means you don't have to see the visitors on your site to qualify them for a trait.
 
-## Workflow {#section_9F5FFEF73A904D09A2910AE75C67B640}
+## Workflow {#workflow}
 
 You manage models in **[!UICONTROL Audience Data > Models]**. At a high level, the workflow process involves the following:
 
@@ -44,7 +44,7 @@ You manage models in **[!UICONTROL Audience Data > Models]**. At a high level, t
 * Combine traits into segments in [!UICONTROL Segment Builder].
 * Create and send segment data to a destination.
 
-## Troubleshooting {#section_356A9E6C33FE4194A70DA6CA2AB511E9}
+## Troubleshooting {#troubleshooting}
 
 We deactivate any algorithmic model that fails to generate data for three consecutive runs. Note that you cannot set the status of the model back to active afterwards. To ensure your models generate data, we recommend that you build models from data sources with sufficient traits to accumulate data from.
 
@@ -54,9 +54,9 @@ We deactivate any algorithmic model that fails to generate data for three consec
 >* [Traits](../../features/traits/trait-details-page.md)
 >* [Segments](../../features/segments/segments-purpose.md)
 
-## Understanding [!UICONTROL TraitWeight] {#concept_1E21CF71FBD04C3EA59554909828DAD5}
+## Understanding [!UICONTROL TraitWeight] {#understanding-traitweight}
 
-[!UICONTROL TraitWeight] is a proprietary algorithm designed to discover new traits automatically. It comcpares trait data from your current traits and segments against all other first and third-party data that you have access to through [!DNL Audience Manager]. Refer to this section for a description of the [!UICONTROL TraitWeight] algorithmic discovery process.
+[!UICONTROL TraitWeight] is a proprietary algorithm designed to discover new traits automatically. It compares trait data from your current traits and segments against all other first and third-party data that you have access to through [!DNL Audience Manager]. Refer to this section for a description of the [!UICONTROL TraitWeight] algorithmic discovery process.
 
 <!-- traitweight.xml -->
 
@@ -88,12 +88,12 @@ Audience Manager displays your weighted model results in [!UICONTROL Trait Build
 
 Periodically, [!UICONTROL TraitWeight] re-evaluates the importance of a trait based on the size and change in the population of that trait. This happens as the number of users qualified for that trait increases or decreases over time. This behavior is most clearly seen in traits that become very large. For example, suppose the algorithm uses trait A for modeling. As the population of trait A increases, [!UICONTROL TraitWeight] re-evaluates the importance of that trait and may assign a lower score or ignore it. In this case, trait A is too common or large to say anything significant about its population. After [!UICONTROL TraitWeight] reduces the value of Trait A (or ignores it in the model), the population of the algorithmic trait decreases. The list of influential traits reflects the evolution of the baseline population. Use the list of the influential traits to understand why these changes are occurring.
 
->[!MORE_LIKE_THIS]
->
->* [Model Builder](../../features/algorithmic-models/create-model.md#concept_25287B0C161F4BFCBCCFEB5CC6E613D0)
->* [Accuracy and Reach](../../features/traits/trait-accuracy-reach.md#concept_60F696940483424CA4E8EEDD63F46358)
+Related links:
 
-## Update Schedule for Algorithmic Models and Traits {#concept_55C98FC0E4C749F5A2FE8B2BA2EA9D6A}
+* [Model Builder](../../features/algorithmic-models/create-model.md#concept_25287B0C161F4BFCBCCFEB5CC6E613D0)
+* [Accuracy and Reach](../../features/traits/trait-accuracy-reach.md#concept_60F696940483424CA4E8EEDD63F46358)
+
+## Update Schedule for Algorithmic Models and Traits {#update-schedule}
 
 Creation and update schedules for new or existing algorithmic models and traits.
 
@@ -115,14 +115,14 @@ Creation and update schedules for new or existing algorithmic models and traits.
      <ul id="ul_97333AC409AF4760A91D90A06050122B"> 
       <li id="li_3A43809F924341FCAC3A85E3825E0F61"> 5 PM EST (November - March) </li> 
       <li id="li_C07D22AB192D4E0191D9EBF6426EC73D"> 6 PM EDT (March - November) </li> 
-     </ul> </p> <p>Models built or cloned after the creation deadline are processed the following day. </p> <p>If the first run of a model generates no data it will run a second time, the next day. If the second attempt also doesn't generate any data, there will be a third attempt, the next day. The model will stop running if the third attempt also doesn't generate any data. In this case, we will deactivate the model. See more in <a href="../../features/algorithmic-models/understanding-models.md#section_356A9E6C33FE4194A70DA6CA2AB511E9"> Troubleshooting Algorithmic Models</a>. </p> </td>
+     </ul> </p> <p>Models built or cloned after the creation deadline are processed the following day. </p> <p>If the first run of a model generates no data it will run a second time, the next day. If the second attempt also doesn't generate any data, there will be a third attempt, the next day. The model will stop running if the third attempt also doesn't generate any data. In this case, we will deactivate the model. See more in <a href="../../features/algorithmic-models/understanding-models.md#troubleshooting"> Troubleshooting Algorithmic Models</a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <b>Update a Model</b> </td> 
    <td colname="col2"> <p>Under ideal conditions, existing models run on weekdays, at least once every 7 days. For example, if you create a model (by the deadline) on Monday, it updates the following Monday at the latest. </p> <p>A model will rerun if it meets any of the following conditions: </p> <p>
      <ul id="ul_7B0442F6E840415B82705C7B7419D079"> 
       <li id="li_27DCB92CE61F4388B5D253C13BD030BE">Its last run was not successful. </li> 
-      <li id="li_9887E50D291446AC868A8FCE6295536E">It has run successfully before [!DNL AND] it has not run at all in the past 7 days [!DNL AND] the model has at least one active trait attached to it. </li>
+      <li id="li_9887E50D291446AC868A8FCE6295536E">It has run successfully before AND it has not run at all in the past 7 days AND the model has at least one active trait attached to it. </li>
      </ul> </p> </td>
   </tr>
  </tbody>
@@ -149,7 +149,7 @@ Creation and update schedules for new or existing algorithmic models and traits.
  </tbody> 
 </table>
 
-## Models List View {#concept_E24227A375164638929A42FEA533B1E7}
+## Models List View {#models-list-view}
 
 The list view is a central workspace that helps you to create, review, and manage models.
 
@@ -162,7 +162,7 @@ The Models list page contains features and tools that help you:
 * Search for models by name.
 * Create algorithmic traits using any given model.
 
-## Models Summary View {#concept_46E124E03A8A4A7C88FA9344E7D57974}
+## Models Summary View {#models-summary-view}
 
 The summary page displays model details such as name, reach/accuracy, processing history, and traits created from the model. The page also includes settings that let you create and managing models. Click a model name from the summary list to see its details.
 
@@ -195,7 +195,7 @@ The model summary page includes the following sections.
    <td colname="col2"> <p>The <span class="wintitle"> Influential Traits</span> table: </p> <p> 
      <ul id="ul_FB15A554CADC40D09F9AC6D384D54ECD"> 
       <li id="li_343E25E8B3584D38B1E2BCB211033DBF"> Lists the top 50 influential traits that are best represented in the model's baseline population. </li> 
-      <li id="li_44957F46C0744A84A987D8F25D93E24E">Ranks each trait in order of its <span class="wintitle"> Relative Weight</span> rank. The <span class="wintitle"> Relative Weight</span> sorts newly discovered traits in order of influence or desirability. The weight scale is a percentage that runs from 0% to 100%. Traits ranked closer to 100% means they're more like the audience in your baseline population. See <a href="../../features/algorithmic-models/understanding-models.md#concept_1E21CF71FBD04C3EA59554909828DAD5"> Understanding TraitWeight</a>. </li> 
+      <li id="li_44957F46C0744A84A987D8F25D93E24E">Ranks each trait in order of its <span class="wintitle"> Relative Weight</span> rank. The <span class="wintitle"> Relative Weight</span> sorts newly discovered traits in order of influence or desirability. The weight scale is a percentage that runs from 0% to 100%. Traits ranked closer to 100% means they're more like the audience in your baseline population. See <a href="../../features/algorithmic-models/understanding-models.md#understanding-traitweight"> Understanding TraitWeight</a>. </li> 
       <li id="li_260151E23B1E484BA06C8494552A04F0">Shows the 30-Day uniques and the total trait population for each trait. </li> 
      </ul> </p> </td> 
   </tr> 
