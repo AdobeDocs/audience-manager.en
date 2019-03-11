@@ -16,7 +16,7 @@ Click tracking enables measurement of visitor engagement throughout your campaig
 Click tracking calls require the following parameters:
 
 * `d_event=click`: A key-value pair that identifies an event call as a click event.
-* `d_rd= *`redirect URL`*`: A key-value pair that contains an encoded redirect URL.
+* `d_rd= *`redirect URL`*`: A key-value pair that contains an encoded redirect [!DNL URL].
 
 In addition, the call can contain key-value pairs that can be used for trait qualification or to provide data and metadata for other reports.
 
@@ -140,7 +140,7 @@ d_adgroup%25%26d_placement%3D%25placement%25%26src%3D%25d_src%25
 
 ## Response
 
-Based on the above example, the browser is redirected to the following URL:
+Based on the above example, the browser is redirected to the following [!DNL URL]:
 
 [!DNL `https://adobe.com/callback?creative=1235&campaign=4709&adgroup=3408&placement=1001`]
 

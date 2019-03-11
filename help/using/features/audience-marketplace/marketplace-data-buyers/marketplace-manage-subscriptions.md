@@ -16,9 +16,7 @@ The [!UICONTROL Marketplace] is where data buyers go to research and subscribe t
 
 The [!UICONTROL Marketplace] is where data buyers go to research and subscribe to public and private data feeds. Follow these steps to subscribe to a public data feed.
 
-<!--
-t_subscribe_feed.xml
--->
+<!-- t_subscribe_feed.xml -->
 
 To subscribe to a public data feed:
 
@@ -244,7 +242,7 @@ The list that accompanies a deactivation email contains the fields as shown belo
 
 As a data buyer, you're responsible for removing the traits in a cancelled feed from all your active/in-use or inactive segments. Removal options include:
 
-* Bulk removal with the [REST APIs](../../../api/rest-api-main/rest-api-main.md#concept_B512E6C3410A4304A672588A60A792B1) or the [Bulk Management Tools](../../../reference/bulk-management-tools/bulk-management-intro.md). 
+* Bulk removal with the [REST APIs](../../../api/rest-api-main/rest-api-main.md#concept_B512E6C3410A4304A672588A60A792B1) or the [Bulk Management Tools](../../../reference/bulk-management-tools/bulk-management-intro.md).
 
 * Manually search for affected segments and remove deactivated traits using [!UICONTROL Segment Builder]. See [Remove Traits from a Segment](../../../features/segments/segment-builder.md#task_D165E279D55A43C7952D936B207FD78A).
 
@@ -302,7 +300,7 @@ As an [!UICONTROL Audience Marketplace] data buyer, you can purchase data for ov
 
 This use case lets you compare your traits with provider traits in a [trait-to-trait overlap report.](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report) Also, you can create or add provider traits to a segment and make additional comparisons with the [segment-to-trait](../../../reporting/dynamic-reports/segment-trait-overlap-report.md#concept_36186B1ABEA34A6AAC7F5CF938A122B7) and [segment-to-segment](../../../reporting/dynamic-reports/segment-segment-overlap-report.md) reports. Overlap comparisons can help you:
 
-* **Extend audience reach:** Low overlap suggests your traits contain users you have not seen before. You may want these traits to try and reach new users. 
+* **Extend audience reach:** Low overlap suggests your traits contain users you have not seen before. You may want these traits to try and reach new users.
 * **Enhance existing audiences:** High overlap suggests your traits are similar to those owned by the data provider. You may want these traits to help make targeted, incremental improvements to an already developed audience.
 
 ### Algorithmic Models
@@ -311,4 +309,4 @@ This use case lets you evaluate supplier traits against your traits with [algori
 
 ### Activation
 
-This use case lets you send data to a [destination](../../../features/destinations/destinations.md#concept_5BDA346C376C4B719EA394108AB2735A). In [!UICONTROL Audience Manager], a destination is any third-party system (ad server, DSP, DMP, exchange, etc.) that you want to share data with. However, with an [!UICONTROL Activation] use case, you cannot run overlap reports or test the data in an algorithmic model.
+This use case lets you send data to a [destination](../../../features/destinations/destinations.md#concept_5BDA346C376C4B719EA394108AB2735A). In [!UICONTROL Audience Manager], a destination is any third-party system (ad server, [!DNL DSP], [!DNL DMP], exchange, etc.) that you want to share data with. However, with an [!UICONTROL Activation] use case, you cannot run overlap reports or test the data in an algorithmic model.

@@ -6,7 +6,7 @@ title: Algorithmic Models  Trait Exclusion
 uuid: 1359800b-6e6c-41e1-88b4-23d31952abb3
 ---
 
-# Algorithmic Models: Trait Exclusion {#algorithmic-models-trait-exclusion}
+# [!UICONTROL Algorithmic Models]: [!UICONTROL Trait Exclusion] {#algorithmic-models-trait-exclusion}
 
 [!UICONTROL Trait Exclusion] provides additional controls in your modeling workflow, allowing you to add the necessary guard rails to the model, based on your domain expertise and regulatory requirements. Use the [!UICONTROL Exclusions] option to select which traits to ignore when creating models from one or more data sources.
 
@@ -24,7 +24,7 @@ Here are some use cases you can address with [!UICONTROL Trait Exclusion]:
 
 ![](assets/lam_exclude_traits.png)
 
-## How to Use Trait Exclusions {#section_5D40294A28F64C72ABF08E801D751A9E}
+## How to Use [!UICONTROL Trait Exclusions] {#section_5D40294A28F64C72ABF08E801D751A9E}
 
 Use the [Build a model](../../features/algorithmic-models/create-model.md#task_71541056B8384EEBB6A3A8B161C71B8A) workflow to build new algorithmic models.
 

@@ -33,7 +33,7 @@ The [Signals Dashboard](../../features/data-explorer/data-explorer-signals-dashb
 
 Due to the large amount of data that Audience Manager processes on a daily basis, [!UICONTROL Data Explorer] refreshes the displayed signal data at fixed time intervals, depending on the signal type:
 
-* Real-time signal data (actionable log files, Adobe Analytics data, and general on-line data) is refreshed every 4 to 6 hours.
+* Real-time signal data (actionable log files, [!DNL Adobe Analytics] data, and general on-line data) is refreshed every 4 to 6 hours.
 * On-boarded signal data is refreshed every 24 hours.
 
 ## Related Concepts

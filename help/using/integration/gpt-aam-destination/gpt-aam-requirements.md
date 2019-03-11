@@ -22,7 +22,7 @@ For a client-side integration, you need to set up a [!DNL GPT] destination in Au
 
 * **Add [!UICONTROL DIL]:** Deploy [!UICONTROL Data Integration Library (DIL)] code on all the pages you want to target. [!UICONTROL DIL] writes Audience Manager segment data and user IDs to cookies that get used by [!DNL GPT] for targeting.
 
-* **Create a Cookie Destination:** [!DNL GPT] must be set up as a cookie-based destination in Audience Manager.
+* **Create a [!UICONTROL Cookie Destination]:** [!DNL GPT] must be set up as a cookie-based destination in Audience Manager.
 
 * **Implement Cookie Checking Code:** Wrap the [!DNL GPT] `.setTargeting` API method in our recommended [cookie checking code](../../integration/gpt-aam-destination/gpt-aam-modify-api.md#concept_276DF2F702BE4D6180C855A7DE304097). This code helps prevent errors by looking for valid AAM cookies before the `.setTargeting` method gets invoked.
 

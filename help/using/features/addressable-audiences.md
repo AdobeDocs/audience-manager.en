@@ -39,7 +39,7 @@ Before purchasing third-party data for audience acquisition, customers can valid
 
 ### Mobile Users and Match Rates
 
-There are gaps when trying to connect Safari or mobile app users where there are no third-party cookies present. That makes it difficult to sync users with some partners because only those [!DNL Adobe] IDs for synced third-party cookies are provided in the media delivery logs. This is a reason why you might see [low match rates](../features/addressable-audiences.md#concept_E89224D00653469A933355160EE667CE) for your destinations.
+There are gaps when trying to connect [!DNL Safari] or mobile app users where there are no third-party cookies present. That makes it difficult to sync users with some partners because only those [!DNL Adobe] IDs for synced third-party cookies are provided in the media delivery logs. This is a reason why you might see [low match rates](../features/addressable-audiences.md#concept_E89224D00653469A933355160EE667CE) for your destinations.
 
 ## Date Ranges in Addressable Audiences and Destinations {#concept_E7BFFFB2930D4E7091C1EF9C1FDB9FD0}
 
@@ -51,13 +51,13 @@ Describes the available date ranges and how data ages out of each interval in th
 
 Reports for your [!UICONTROL Addressable Audiences] and [Destinations](../features/destinations/destinations.md#concept_5BDA346C376C4B719EA394108AB2735A) use the same date range intervals. The date range options include:
 
-* Last 1 Day (This interval runs from Midnight to Midnight of the previous 24-hour period. It is not a real or current-time metric.)
-* Last 7 Days
-* Last 14 Days
-* Last 30 Days
-* Last 60 Days
-* Last 90 Days
-* Lifetime
+* [!UICONTROL Last 1 Day] (This interval runs from Midnight to Midnight of the previous 24-hour period. It is not a real or current-time metric.)
+* [!UICONTROL Last 7 Days]
+* [!UICONTROL Last 14 Days]
+* [!UICONTROL Last 30 Days]
+* [!UICONTROL Last 60 Days]
+* [!UICONTROL Last 90 Days]
+* [!UICONTROL Lifetime]
 
 All dates and date ranges are set in the [!DNL UTC] time zone. See [Time Zones in Audience Manager](../reference/aam-time-zones.md#concept_9E98F473CB1A4A81A68C68CA552D9507).
 
@@ -65,16 +65,16 @@ All dates and date ranges are set in the [!DNL UTC] time zone. See [Time Zones i
 
 The [!UICONTROL Addressable Audience] and [!UICONTROL Destination] metrics return a count of unique users for the selected time interval. For example, a visitor is only counted once, even if they come to your site multiple times. The first visit is the unique visit and gets recorded. The subsequent visits are returning visits and are not counted because they're not unique.
 
-Date ranges contain data for the selected time interval or older. And, the data ages out of each report interval as time passes. For example, let's assume you see 2 visitors after choosing the Last 30 Days option. In the reports, these visitors:
+Date ranges contain data for the selected time interval or older. And, the data ages out of each report interval as time passes. For example, let's assume you see 2 visitors after choosing the [!UICONTROL Last 30 Days] option. In the reports, these visitors:
 
-* *Will be* included in the results returned by the longer time intervals (60-days, 90-days, and Lifetime).
-* *Will not be* included in the shorter intervals that precede the Last 30 Day option (Current, 7-days, and 14-days).
+* *Will be* included in the results returned by the longer time intervals (60 days, 90 days, and Lifetime).
+* *Will not be* included in the shorter intervals that precede the [!UICONTROL Last 30 Day] option (Current, 7 days, and 14 days).
 
-And, on day 31, these visitors only show up in the 60-day, 90-day, and Lifetime results. They have aged out of the 30-day interval. Visitors do not age out of the Lifetime interval.
+And, on day 31, these visitors only show up in the 60 day, 90 day, and [!UICONTROL Lifetime] results. They have aged out of the 30 day interval. Visitors do not age out of the [!UICONTROL Lifetime] interval.
 
-## Addressable Audience Metrics {#reference_562FD922213844429A94518EEFCB93EB}
+## [!UICONTROL Addressable Audience] Metrics {#reference_562FD922213844429A94518EEFCB93EB}
 
-Lists and defines metrics provided by Addressable Audiences.
+Lists and defines metrics provided by [!UICONTROL Addressable Audiences].
 
 ## Customer-Level Metrics {#section_0816B56BF5A14CEF8578674DB33D08F3}
 
@@ -166,7 +166,7 @@ This metric returns data on activities collected across all Audience Manager cus
  </tbody> 
 </table>
 
-## Comparing Customer and Segment Addressable Audiences {#section_A7178ED5709646C1BBC0A19114E8B1E7}
+## Comparing Customer and Segment [!UICONTROL Addressable Audiences]{#section_A7178ED5709646C1BBC0A19114E8B1E7}
 
 You shouldn't compare the [!UICONTROL Customer Addressable Audience] and [!UICONTROL Segment Addressable Audience] metrics to determine if one is more significant than the other. These are separate, different, and independent metrics. As described in the definitions above, each of these is derived from different data sets. Given this, you should avoid deriving any conclusions if one metric is larger than the other. All you can say when comparing these is that:
 
@@ -174,9 +174,9 @@ You shouldn't compare the [!UICONTROL Customer Addressable Audience] and [!UICON
 
 * [!UICONTROL Segment Addressable Audiences] is based on segment qualifications *for your own first-party data, plus second and third-party data*. This metric provides a granular, more accurate view of your addressable audiences in a targeting platform.
 
-## Causes of Low Match Rates for Addressable Audiences {#concept_E89224D00653469A933355160EE667CE}
+## Causes of Low Match Rates for [!UICONTROL Addressable Audiences] {#concept_E89224D00653469A933355160EE667CE}
 
-Common elements responsible for low Addressable Audience match rates or discrepancies in reported numbers.
+Common elements responsible for low [!UICONTROL Addressable Audience] match rates or discrepancies in reported numbers.
 
 <!-- addressable-audiences.xml -->
 
@@ -203,10 +203,10 @@ Common elements responsible for low Addressable Audience match rates or discrepa
  </tbody> 
 </table>
 
-## Troubleshooting with Addressable Audiences {#concept_22DACEC796894D04B94D6BF047F94EB4}
+## Troubleshooting with [!UICONTROL Addressable Audiences] {#concept_22DACEC796894D04B94D6BF047F94EB4}
 
-In addition to surfacing match rates, you can also use Addressable Audiences as a troubleshooting tool.
+In addition to surfacing match rates, you can also use [!UICONTROL Addressable Audiences] as a troubleshooting tool.
 
 <!-- addressable-audiences-troubleshooting.xml -->
 
-For example, let's say you send a segment to a destination and that destination shows low reporting numbers. Checking the Addressable Audience results will show you if this is a technical problem or just a case of low match rates. A low match rate shows your destination isn't all that great for your selected segments. However, a difference in the total addressable audience numbers between Audience Manager and the destination indicates an integration, synchronization, or other technical problem. In these cases, contact your account manager.
+For example, let's say you send a segment to a destination and that destination shows low reporting numbers. Checking the [!UICONTROL Addressable Audience] results will show you if this is a technical problem or just a case of low match rates. A low match rate shows your destination isn't all that great for your selected segments. However, a difference in the total addressable audience numbers between Audience Manager and the destination indicates an integration, synchronization, or other technical problem. In these cases, contact your account manager.

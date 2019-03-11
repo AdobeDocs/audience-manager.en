@@ -86,8 +86,8 @@ To create a new [!UICONTROL Segment Test Group]:
 In [!UICONTROL Audience Lab], you are only able to edit draft test groups. In the [!UICONTROL Create Segment Test Group] wizard, you can save your test group as a draft and resume working on it later.
 
 1. Navigate to the [!UICONTROL Audience Lab] main view.
-2. Search for your draft test groups and select the **[!UICONTROL Edit]** control in the test group card.
-3. Resume the [Create Segment Test Group](../../features/audience-lab/audience-lab-manage-test-groups.md#task_B62EF6D2992941FAAEA84BE2EA11A55E) wizard and select **[!UICONTROL Finalize Group]** when you're done.
+1. Search for your draft test groups and select the **[!UICONTROL Edit]** control in the test group card.
+1. Resume the [Create Segment Test Group](../../features/audience-lab/audience-lab-manage-test-groups.md#task_B62EF6D2992941FAAEA84BE2EA11A55E) wizard and select **[!UICONTROL Finalize Group]** when you're done.
 
 ## Delete Segment Test Groups {#task_4EDCDE99FF8C4107BA916C3D0DC281BE}
 

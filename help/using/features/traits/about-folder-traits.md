@@ -44,7 +44,7 @@ In this case, the [!DNL ]Automobile [!UICONTROL Folder Trait] has 7 realizations
 
 ## [!UICONTROL Role-Based Access Controls] ([!UICONTROL RBAC]) Permissions {#section_FB11C9F6F6F542328A6F1F22C40C2220}
 
-For companies using [!UICONTROL Role-Based Access Controls (RBAC)], your users with the appropriate [!UICONTROL RBAC] permissions are able to change the data source associated to the [!UICONTROL folder trait]. A user must belong to a group with either of the following:
+For companies using [!UICONTROL Role-Based Access Controls] ([!UICONTROL RBAC]), your users with the appropriate [!UICONTROL RBAC] permissions are able to change the data source associated to the [!UICONTROL folder trait]. A user must belong to a group with either of the following:
 
 * `READ` and `WRITE` group permissions to a trait data source.
 * `VIEW_ALL_TRAITS` and `EDIT_ALL_TRAITS` wild card permissions for trait data sources.

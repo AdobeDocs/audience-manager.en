@@ -128,7 +128,7 @@ https://sample.demdex.net?d_src=743&d_uuid=0795526165288603295014370250589427213
 >
 >The event timestamp provided in the [!DNL DCM] logs will be honored and passed to the [!UICONTROL Data Collection Servers].
 >
->* If a timestamp isn't available for a data row in the DCM log file, we use the time of the `HTTP` call as the event timestamp.
+>* If a timestamp isn't available for a data row in the [!DNL DCM] log file, we use the time of the `HTTP` call as the event timestamp.
 >* If the data row in the [!DNL DCM] log file contains a malformed timestamp, we ignore the entire row.
 
 ## Use Cases {#section_09EB4686F5204452A39A7C2700D44E49}
@@ -161,9 +161,9 @@ Retarget users who saw creative 123 but didn't click or convert and show them cr
 
    `d_event == conv AND d_conversion == 123`
 
-   When creating the trait in the Audience Manager UI, select [!UICONTROL Conversion] as the [!UICONTROL Event Type].
+   When creating the trait in the Audience Manager [!UICONTROL UI], select [!UICONTROL Conversion] as the [!UICONTROL Event Type].
 
-1. Once you have created the trait, the conversion will begin to be reported against in the [!UICONTROL Audience Optimization Reports] and in [!UICONTROL Audience Lab].
+2. Once you have created the trait, the conversion will begin to be reported against in the [!UICONTROL Audience Optimization Reports] and in [!UICONTROL Audience Lab].
 
 >[!MORE_LIKE_THIS]
 >

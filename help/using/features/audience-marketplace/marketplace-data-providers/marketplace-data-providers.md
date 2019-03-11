@@ -24,7 +24,7 @@ Overview and workflow for data providers who want to sell data from within [!DNL
 
 ## My Shared Data: About {#concept_AA5C5992C0CA40E498AE9D8FA789F00A}
 
-[!UICONTROL My Shared Data] is an [!UICONTROL Audience Marketplace] feature for data providers (sellers). As a provider, it lets you bundle traits into data feeds and sell them for a flat fee or CPM rate to buyers from within [!DNL Audience Manager]. When activated, buyers can subscribe to a feed with a few mouse clicks. Furthermore, simple reporting tools track revenue and manage subscribers. Finally, with [!UICONTROL Audience Marketplace], [!DNL Adobe] takes care of invoice, billing, and fee payments for you. These features let you concentrate on building the effective and profitable data feeds that buyers want.
+[!UICONTROL My Shared Data] is an [!UICONTROL Audience Marketplace] feature for data providers (sellers). As a provider, it lets you bundle traits into data feeds and sell them for a flat fee or [!DNL CPM] rate to buyers from within [!DNL Audience Manager]. When activated, buyers can subscribe to a feed with a few mouse clicks. Furthermore, simple reporting tools track revenue and manage subscribers. Finally, with [!UICONTROL Audience Marketplace], [!DNL Adobe] takes care of invoice, billing, and fee payments for you. These features let you concentrate on building the effective and profitable data feeds that buyers want.
 
 ![](assets/seller_marketplace.png)
 

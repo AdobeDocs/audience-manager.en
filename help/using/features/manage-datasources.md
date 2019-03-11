@@ -14,9 +14,7 @@ uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
 
 To create a new data source, go to **[!UICONTROL Audience Data > Data Sources > Add New]** and complete the steps for each section described here. Administrator permissions are required to create a data source.
 
-<!-- 
-create-datasource.xml
- -->
+<!-- create-datasource.xml -->
 
 >[!TIP]
 >
@@ -27,7 +25,7 @@ create-datasource.xml
 To complete the [!UICONTROL Data Source Details] section:
 
 1. Name the data source.
-1. *(Optional)* Describe the data source. A concise description helps you define the role or purpose of the data source. 
+1. *(Optional)* Describe the data source. A concise description helps you define the role or purpose of the data source.
 1. Provide an integration code. Generally, integration codes are optional. They are required when you want to:
 
     * [Create a cross-device data source](../features/profile-merge-rules/merge-rules-start.md#concept_3B7696B3EC77416492D3B99EBD79EA44). 
@@ -36,13 +34,13 @@ To complete the [!UICONTROL Data Source Details] section:
 
 1. Choose an **[!UICONTROL ID Type]**. ID Type options include:
 
-    * **[!UICONTROL Cookie]** 
-    * **[!UICONTROL Device Advertising ID]** 
+    * **[!UICONTROL Cookie]**
+    * **[!UICONTROL Device Advertising ID]**
     * **[!UICONTROL Cross-device]** (Required to create a [!UICONTROL Profile Merge Rule]). Note, for some customers, this selection exposes the **[!UICONTROL ID Definition]** options.
 
 1. Choose an **[!UICONTROL ID Definition]** option. Options include:
 
-    * **[!UICONTROL Person]** 
+    * **[!UICONTROL Person]**
     * **[!UICONTROL Household]**
 
 <!-- 
@@ -74,18 +72,16 @@ These settings determine how a data source is identified, used, and shared. You 
 
 ## Delete a Data Source {#task_740BACDEAA184B489B92C386DE7211BE}
 
-<!-- 
-t_datasource_delete.xml
- -->
+<!-- t_datasource_delete.xml -->
 
 Delete a data source that you no longer need.
 
 >[!NOTE]
 >
->Please note the following restrictions: 
+>Please note the following restrictions:
 >
 >* You cannot delete an [Active Audience or Data Source Synced Trait](../features/traits/client-activity-synced-audience-traits.md#concept_7D3F4AF1FAD440509956632B8A51E64D). 
->* For customers using Adobe Analytics: Audience Manager does not allow you to delete data sources created automatically from your Analytics report suites. Use the [Core Service](https://marketing.adobe.com/resources/help/en_US/mcloud/) to unmap these data sources.
+>* For customers using Adobe Analytics: Audience Manager does not allow you to delete data sources created automatically from your [!DNL Analytics] report suites. Use the [Core Service](https://marketing.adobe.com/resources/help/en_US/mcloud/) to unmap these data sources.
 
 1. Click **[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]**.
 1. Select the check box next to one or more data sources.

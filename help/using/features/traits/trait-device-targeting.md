@@ -21,15 +21,15 @@ Platform-level variables let you take data passed in from a particular site and 
 
 The [!UICONTROL Data Collection Servers] extract the values for these keys from the [user agent header](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43) in `HTTP` requests. The values represent device-level information from the [!UICONTROL Device Atlas] database. The signals in the table below are available, as extracted from the user agent example. [Download a list of the most common keys](https://marketing.adobe.com/resources/help/en_US/aam/downloads/device_keys.csv), according to [!UICONTROL Device Atlas] measurements.
 
-|  Signal  | Type  | Example  |
+|  [!DNL Signal]  | [!DNL Type]  | [!DNL Example]  |
 |---|---|---|
-|  `d_device_vendor`  | VENDOR  | apple  |
-|  `d_device_hardware_type`  | HARDWARE  | mobile phone  |
-|  `d_device_os_version`  | OS VERSION  | 5_0  |
-|  `d_device_os_name`  | OS NAME  | ios  |
-|  `d_device_model`  | MODEL  | iphone  |
-|  `d_device_marketing_name`  | MARKETING NAME  | iphone  |
-|  `d_device_manufacturer`  | MANUFACTURER  | apple  |
+|  `d_device_vendor`  | [!DNL VENDOR]  | [!DNL apple] |
+|  `d_device_hardware_type`  | [!DNL HARDWARE]  | [!DNL mobile phone]  |
+|  `d_device_os_version`  | [!DNL OS VERSION]  | [!DNL 5_0]  |
+|  `d_device_os_name`  | [!DNL OS NAME]  | [!DNL ios]  |
+|  `d_device_model`  | [!DNL MODEL]  | [!DNL iphone]  |
+|  `d_device_marketing_name`  | [!DNL MARKETING NAME]  | [!DNL iphone]  |
+|  `d_device_manufacturer`  | [!DNL MANUFACTURER]  | [!DNL apple]  |
 
 ```
  Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3

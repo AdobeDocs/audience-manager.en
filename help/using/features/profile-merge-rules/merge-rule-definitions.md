@@ -81,18 +81,18 @@ The [!UICONTROL Device Options] let you select the type of *`device profile`* us
       <li id="li_323BC5993D6A4BA3962169BF0ED37C55"> <a href="https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-overview.html" format="https" scope="external"> Device Co-op Overview</a> </li> 
       <li id="li_0BDB2144EC584002B3B9F1D64B6CD580"> <a href="https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-requirements.html" format="https" scope="external"> Membership Requirements</a> </li> 
       <li id="li_632D1014909146758F07CFAC79B90CFE"> <a href="https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-processes.html" format="https" scope="external"> Device Graph: Internal Processes and Output</a> </li> 
-      <li id="li_9DF8876BFBC043948D3E82BD081AAF9F"><a href="https://marketing.adobe.com/resources/help/en_US/aam/downloads/AAM_Device_Graphs.pdf" format="https" scope="external"> Audience Manager and External Device Graphs</a> (PDF download). </li> 
-     </ul> </p> </td> 
+      <li id="li_9DF8876BFBC043948D3E82BD081AAF9F"><a href="https://marketing.adobe.com/resources/help/en_US/aam/downloads/AAM_Device_Graphs.pdf" format="https" scope="external"> Audience Manager and External Device Graphs</a> (PDF download). </li>
+     </ul> </p> </td>
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Third-Party Device Graph Options</b> (Person and Household) </p> </td> 
+   <td colname="col1"> <p><b>Third-Party Device Graph Options</b> (Person and Household) </p> </td>
    <td colname="col2"> <p>These options let you build merge rules based on device graph technology provided by a third-party vendor. A third-party device graph provides: </p> <p> 
      <ul id="ul_5BA0D940BA15484FADF134A5A73815D5"> 
       <li id="li_389ACEBBF79A47499B6119B0F9CB3B5D"> Probabilistic and/or deterministic data. </li> 
       <li id="li_E8606D3871A145A68E87BDC3554AC4EF">Data at the person or household level. </li> 
-     </ul> </p> <p>To use these options, you must be a customer of a device graph provides who is already integrated with <span class="keyword"> Audience Manager</span>. Contact your account manager for more information or to get started. </p> <p>See also <a href="../../features/profile-merge-rules/external-graph-use-cases.md#concept_7C0BDBFB3392415286B624F45E8883E5"> External Device Graph Use Cases</a> and <a href="https://marketing.adobe.com/resources/help/en_US/aam/downloads/AAM_Device_Graphs.pdf" format="https" scope="external"> Audience Manager and External Device Graphs</a> (PDF download). </p> </td> 
-  </tr> 
- </tbody> 
+     </ul> </p> <p>To use these options, you must be a customer of a device graph provides who is already integrated with <span class="keyword"> Audience Manager</span>. Contact your account manager for more information or to get started. </p> <p>See also <a href="../../features/profile-merge-rules/external-graph-use-cases.md#concept_7C0BDBFB3392415286B624F45E8883E5"> External Device Graph Use Cases</a> and <a href="https://marketing.adobe.com/resources/help/en_US/aam/downloads/AAM_Device_Graphs.pdf" format="https" scope="external"> Audience Manager and External Device Graphs</a> (PDF download). </p> </td>
+  </tr>
+ </tbody>
 </table>
 
 >[!MORE_LIKE_THIS]

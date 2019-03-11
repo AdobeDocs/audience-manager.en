@@ -7,9 +7,9 @@ title: Data Export Controls
 uuid: de7f3608-c0cb-4049-973a-8be54525c600
 ---
 
-# Data Export Controls {#data-export-controls}
+# [!UICONTROl Data Export Controls] {#data-export-controls}
 
-Data Export Controls prevent you from sending data to destinations when this action violates data privacy or data use agreements.
+[!UICONTROL Data Export Controls] prevent you from sending data to destinations when this action violates data privacy or data use agreements.
 
 ## Overview {#section_496DA531EFED46E4BF7EEDE878746FB1}
 
@@ -31,7 +31,7 @@ Based on the classifications applied to a data source and destination, the expor
 
 To block data delivery, you must classify a data source with an export control and add an export label to a destination. If you apply export controls to a data source or destination only, this feature will not restrict data delivery. When set on both the data source *and* destination, the export controls will limit the traits you can add to a segment and prevent the segment from sending data to a destination.
 
-Additionally, at least one export label must match an export control before data delivery restrictions take effect. For example, say you add the PII export control to a data source. Next, you add the on-site targeting label to a destination. In this case, export controls will not limit data delivery because the settings do not match. However, if you add the PII export label to the destination, the export controls will work.
+Additionally, at least one export label must match an export control before data delivery restrictions take effect. For example, say you add the [!UICONTROL PII] export control to a data source. Next, you add the on-site targeting label to a destination. In this case, export controls will not limit data delivery because the settings do not match. However, if you add the [!UICONTROL PII] export label to the destination, the export controls will work.
 
 <table id="table_7D1F0270B5604A82B96A13CC49C937C0"> 
  <thead> 

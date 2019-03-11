@@ -7,7 +7,7 @@ title: Code Syntax Used in the Segment Expression Editor
 uuid: 7b4b06ca-7879-4501-8ba7-b2b6467b8a3b
 ---
 
-# Code Syntax Used in the Segment Expression Editor {#code-syntax-used-in-the-segment-expression-editor}
+# Code Syntax Used in the [!UICONTROL Segment Expression Editor] {#code-syntax-used-in-the-segment-expression-editor}
 
 [!UICONTROL Segment Builder] lets you build trait rules for a segment using a code editor. Click the **[!UICONTROL Segment Expressions (Code View)]** tab in the [!UICONTROL Traits] panel to access this feature.
 
@@ -16,26 +16,8 @@ uuid: 7b4b06ca-7879-4501-8ba7-b2b6467b8a3b
 You can add trait rules to a segment with code instead of using drag and drop features. When coding, replace italicized elements in the example with an actual expression or value. The base code uses following syntax:
 
 ```
-FREQUENCY([
-<varname>
-  <traitID1>
-</varname>T,
-<varname>
-  <traitID2>
-</varname>T]
-<varname>
-  <Recency Operator>
-</varname>
-<varname>
-  <Numeric Value>
-</varname>D)
-
-<varname>
-  <Frequency Operator>
-</varname>
-<varname>
-  <Numeric Value>
-</varname>
+FREQUENCY([<traitID1>T,<traitID2>T]<Recency Operator><Numeric Value>D)
+<Frequency Operator><Numeric Value>
 ```
 
 >[!NOTE]

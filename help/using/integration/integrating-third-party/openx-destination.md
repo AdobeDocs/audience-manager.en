@@ -15,7 +15,7 @@ Set up [!DNL OpenX] as a destination and send Audience Manager segment data to t
 >
 >For onsite ad server targeting only.
 
-## OpenX Destination Requirements {#concept_0C2345ECE98F4AB3957502AD1C888555}
+## [!DNL OpenX] Destination Requirements {#concept_0C2345ECE98F4AB3957502AD1C888555}
 
 Standards for code placement, supported key-value formats, reports, and the type of segment data sent to [!DNL OpenX].
 
@@ -38,11 +38,11 @@ Audience Manager sends data in the form of key-value pairs. Create key-value pai
 
 ### Only Qualified Segments are Sent to OpenX
 
-The amount data passed in to [!DNL OpenX] depends on how many segments a particular user qualifies for. For example, say you set up 100 Audience Management segments. If a site visitor qualifies for five of them, then only those five segments get sent to OpenX (not all 100).
+The amount data passed in to [!DNL OpenX] depends on how many segments a particular user qualifies for. For example, say you set up 100 Audience Management segments. If a site visitor qualifies for five of them, then only those five segments get sent to [!DNL OpenX] (not all 100).
 
 ## Create an [!DNL OpenX] Destination {#concept_4A93689DF98A42368CF11A97F7522E8A}
 
-Create a cookie-based destination for [!DNL OpenX] in Audience Management.
+Create a cookie destination for [!DNL OpenX] in Audience Management.
 
 <!-- aam-openx-destination.xml -->
 
@@ -95,7 +95,7 @@ To set up [!DNL OpenX]:
    "&etc&xid=" + get_aamCookie('aam_uuid')
   ```
 
-Remember to include `xid=` . It holds the actual unique user ID (UUID) passed in during an ad call.
+Remember to include `xid=` . It holds the actual unique user ID ([!UICONTROL UUID]) passed in during an ad call.
 
 The fully formed ad call could look similar to this:
 

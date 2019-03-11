@@ -38,7 +38,7 @@ To build a model, go to the [!UICONTROL Models] section and click **[!UICONTROL 
     * Set the status for the model to **[!UICONTROL Active]** or **[!UICONTROL Inactive]**. Inactive models will not run and will not produce any data.
 1. In the [Configuration](../../features/algorithmic-models/create-model.md#reference_E58E9C688E3144BEB2F75BCCDDF80B59) section:
     * Click **[!UICONTROL Browse All Traits]** or **[!UICONTROL Browse All Segments]** to select a trait or segment you want to model against. Select an onboarded trait, a rule-based trait, or a segment as baseline. Otherwise, your models will not run.
-    * Choose a 30, 60, or 90-day look-back period. This sets a time range for the model.
+    * Choose a 30, 60, or 90 day look-back period. This sets a time range for the model.
     * The [!UICONTROL TraitWeight] algorithm is selected by default.
     * Select a data source from the [!UICONTROL Available Data] list.
     * Click **[!UICONTROL Save]** when done.

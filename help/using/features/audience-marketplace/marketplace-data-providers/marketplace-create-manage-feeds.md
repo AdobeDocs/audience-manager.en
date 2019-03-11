@@ -22,11 +22,11 @@ You must have administrator rights to create a public or private data feed.
 To create a data feed:
 
 1. Click **[!UICONTROL New Data Feed]**.
-1. Name the data feed.
+1. Name the data feed. Data buyers can search for your feed based on the name.
+1. Provide a brief description (255 characters maximum).
 
-   Data buyers can search for your feed based on the name. 1. Provide a brief description (255 characters maximum).
-
-   A good description should describe your feed accurately. For example, you could include text for marketing categories, demographics, and geographic coverage (e.g., "US" or "North America). Description text is searchable and helps buyers find or evaluate your feed. A good description is an important part of attracting subscribers to your data feed. 1. Select a data source from the **[!UICONTROL Data Source]** options.
+   A good description should describe your feed accurately. For example, you could include text for marketing categories, demographics, and geographic coverage (e.g., [!DNL US] or North America). Description text is searchable and helps buyers find or evaluate your feed. A good description is an important part of attracting subscribers to your data feed.
+1. Select a data source from the **[!UICONTROL Data Source]** options.
 
    >[!IMPORTANT]
    >
@@ -34,7 +34,9 @@ To create a data feed:
 
 1. In [!UICONTROL Plan Types], select the options you want to use and click **[!UICONTROL Add Plan]**.
 
-   Feeds can contain multiple plans. Plans can contain multiple use cases. For details, see [Plan Types for Data Feeds](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#concept_54DDE4186D0045F386F94BB8C56A5DEA). 1. Click **[!UICONTROL Save]** to save your data fee *without* activating it.
+   Feeds can contain multiple plans. Plans can contain multiple use cases. For details, see [Plan Types for Data Feeds](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#concept_54DDE4186D0045F386F94BB8C56A5DEA).
+
+1. Click **[!UICONTROL Save]** to save your data fee *without* activating it.
 1. To save and activate a data feed:
    1. Move the **[!UICONTROL Availability]** slider to **[!UICONTROL Active]**.
    1. Click **[!UICONTROL Save]**.
@@ -72,11 +74,9 @@ To revoke a subscriber:
    >
    >Data feeds with overdue accounts are flagged with a triangle/exclamation mark icon.
 
-2. In the [!UICONTROL Subscribers] column, click the blue number that counts subscribers for that feed.
-
-   This opens the subscription details page. 1. Move the **[!UICONTROL Subscription]** slider to **[!UICONTROL Off]**.
-
-   This opens a confirmation dialog window. 1. In the [!UICONTROL Confirmation] pop, click **[!UICONTROL Yes]** to deactivate a subscription or **[!UICONTROL Cancel]** to quit without making subscription changes.
+1. In the [!UICONTROL Subscribers] column, click the blue number that counts subscribers for that feed. This opens the subscription details page.
+1. Move the **[!UICONTROL Subscription]** slider to **[!UICONTROL Off]**. This opens a confirmation dialog window.
+1. In the [!UICONTROL Confirmation] pop, click **[!UICONTROL Yes]** to deactivate a subscription or **[!UICONTROL Cancel]** to quit without making subscription changes.
 
 ### What Happens After You Deactivate a Subscriber
 
@@ -138,7 +138,7 @@ The billing and price options control how buyers pay for your data.
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Option </th> 
-   <th colname="col2" class="entry"> Description </th> 
+   <th colname="col2" class="entry"> Description </th>
   </tr> 
  </thead>
  <tbody> 
@@ -184,7 +184,7 @@ To review, approve, or reject buyer requests, go to [!UICONTROL My Shared Data] 
 
 ## Discounts for Data Providers {#concept_A31D926BBA0743BCB7160C7F571930FD}
 
-In [!UICONTROL Audience Marketplace], discounts let you reduce the published price of a data feed for individual subscribers. You can offer discounts to subscribers who have submitted a subscription request or to subscribers who have requested details about a data feed. Discounts apply to CPM and flat rate feeds. Discounts can be helpful when you want to provide subscription incentives for new customers or to reward customer loyalty.
+In [!UICONTROL Audience Marketplace], discounts let you reduce the published price of a data feed for individual subscribers. You can offer discounts to subscribers who have submitted a subscription request or to subscribers who have requested details about a data feed. Discounts apply to [!DNL CPM] and flat rate feeds. Discounts can be helpful when you want to provide subscription incentives for new customers or to reward customer loyalty.
 
 ## Apply Discounts to a Data Feed {#section_78B92438EF424B328A4A339236F76D6A}
 

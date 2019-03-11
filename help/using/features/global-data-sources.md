@@ -29,15 +29,15 @@ You can import device IDs from global data sources through both [real-time data 
 
 >[!IMPORTANT]
 >
->When sending data to Audience Manager using a global device ID, make sure to use the corresponding data source for the device ID in question. Example: to import data for Apple IDFA, use the data source ID 20915.
+>When sending data to Audience Manager using a global device ID, make sure to use the corresponding data source for the device ID in question. Example: to import data for [!DNL Apple IDFA], use the data source ID 20915.
 
 ## Limitations
 
-On devices running iOS and Android operating systems, only native applications can retrieve and use device advertising IDs (DAIDs). Web applications running in mobile browsers do not have access to device advertising IDs.
+On devices running [!DNL iOS] and [!DNL Android] operating systems, only native applications can retrieve and use device advertising IDs ([!UICONTROL DAID]s). Web applications running in mobile browsers do not have access to device advertising IDs.
 
 ## Global Device ID Validation
 
-Audience Manager validates the device advertising IDs (DAID) imported by customers, based on their format, to ensure they match the standard format outlined by device manufacturers. See [Index of IDs in Audience Manager](../reference/ids-in-aam.md) for a detailed mapping of device advertising IDs to global data sources and the proper format for each ID. Make sure you are importing device IDs in the correct format, based on the device type. Audience Manager rejects device IDs that do not meet the proper format and returns an error message to indicate the ID was rejected.
+Audience Manager validates the device advertising IDs ([!UICONTROL DAID]) imported by customers, based on their format, to ensure they match the standard format outlined by device manufacturers. See [Index of IDs in Audience Manager](../reference/ids-in-aam.md) for a detailed mapping of device advertising IDs to global data sources and the proper format for each ID. Make sure you are importing device IDs in the correct format, based on the device type. Audience Manager rejects device IDs that do not meet the proper format and returns an error message to indicate the ID was rejected.
 
 * Error messaging for batch data transfers is outlined here: [Onboarding Status Report Terms and Definitions](../reporting/onboarding-status-report.md#reference_2667529DB42D4DE5856F84EA1EB9A911).
 * Error messaging for real-time data transfers is outlined here: [DCS Error Codes, Messages, and Examples](../api/dcs-intro/dcs-api-reference/dcs-error-codes.md).
@@ -50,6 +50,6 @@ Audience Manager automatically discards device advertising IDs after 120 days of
 
 To request new global data sources to be added to Audience Manager, contact Adobe Consulting or Adobe Customer Care and provide detailed information about the required data sources:
 
-* The name of the requested platform (e.g., Apple IDFA);
-* The name of the company/organization that manages the platform (e.g., Apple Inc.);
+* The name of the requested platform (e.g., [!UICONTROL Apple IDFA]);
+* The name of the company/organization that manages the platform (e.g., [!UICONTROL Apple Inc.]);
 * Links to the technical specifications for the device advertising ID namespace (e.g., [AdSupport Documentation](https://developer.apple.com/documentation/adsupport)).
