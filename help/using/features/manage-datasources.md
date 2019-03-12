@@ -43,18 +43,6 @@ To complete the [!UICONTROL Data Source Details] section:
     * **[!UICONTROL Person]**
     * **[!UICONTROL Household]**
 
-<!-- 
-
-<p> 
- <note>
-  Selecting 
-  <span class="uicontrol"> Device Advertising ID</span> or 
-  <span class="uicontrol"> Cross Device</span> limits the inbound ID options in the Data Source Settings section to 
-  <span class="uicontrol"> Customer ID</span> only. 
- </note> </p>
-
- -->
-
 ## Data Export Controls {#section_895821268F6F42E9A181B717DD6F1D04}
 
 [Data Export Controls](../features/data-export-controls.md) are optional classification rules you can apply to a data source and destination. They prevent you from sending data to a destination when that action violates a data privacy or use agreement. Skip this section if you do not use [!UICONTROL Data Export Controls].

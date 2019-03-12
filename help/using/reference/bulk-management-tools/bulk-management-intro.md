@@ -63,7 +63,7 @@ The table below lists the operations you can perform and items you can manipulat
       <li id="li_C7D36D2BDF0448CEAF3A5EABE41038E8">Estimate </li> 
       <li id="li_07A3E94326124A3092362D9896EB7732">Delete </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p>The objects you can change in bulk are located under the <span class="uicontrol"> Headers</span> tab and include: </p> <p> 
+   <td colname="col2"> <p>The objects you can change in bulk are located under the <b><span class="uicontrol"> Headers</span></b> tab and include: </p> <p> 
      <ul id="ul_A7A96F2B1B63430B9A1E1184AC5FA8F2"> 
       <li id="li_E3D9E2E190B04BE685337AC6140C371C"> <a href="../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> Data sources</a> </li> 
       <li id="li_B645385E40684FA28770913EAF18CB2C"> <a href="../../features/derived-signals.md#concept_36FF7303F39E4748AC048D08F9E371C6"> Derived signals</a> </li> 

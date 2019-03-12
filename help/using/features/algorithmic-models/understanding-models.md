@@ -201,7 +201,7 @@ The model summary page includes the following sections.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> Traits Using Model</span> </p> </td>
-   <td colname="col2"> <p>Shows a list of the algorithmic traits based on the selected model. Click a trait name or trait ID for more information on the trait. Select <span class="uicontrol"> Create New Trait with Model</span> to go to the algorithmic trait creation process. </p> <p>The section label changes based on the name of your model. For example, say you create a model and name it Model A. When you load the summary page, the name of this section gets changed to <span class="wintitle"> Traits Using Model A</span>. </p> </td>
+   <td colname="col2"> <p>Shows a list of the algorithmic traits based on the selected model. Click a trait name or trait ID for more information on the trait. Select <b><span class="uicontrol"> Create New Trait with Model</span></b> to go to the algorithmic trait creation process. </p> <p>The section label changes based on the name of your model. For example, say you create a model and name it Model A. When you load the summary page, the name of this section gets changed to <span class="wintitle"> Traits Using Model A</span>. </p> </td>
   </tr>
  </tbody>
 </table>

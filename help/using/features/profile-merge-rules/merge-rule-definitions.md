@@ -32,15 +32,15 @@ The [!UICONTROL Authenticated Options] let you select un-authenticated and authe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> No Authenticated Profile</span> </p> </td> 
+   <td colname="col1"> <p> <b><span class="uicontrol"> No Authenticated Profile</span></b> </p> </td> 
    <td colname="col2"> <p>Tells <span class="keyword"> Audience Manager</span> not to use data collected from authenticated users. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Current Authenticated Profile</span> </p> </td> 
+   <td colname="col1"> <p> <b><span class="uicontrol"> Current Authenticated Profile</span></b> </p> </td> 
    <td colname="col2"> <p>Tells <span class="keyword"> Audience Manager</span> to read and write data to the authenticated profile if a visitor has logged in to your site. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Last Authenticated Profile</span> </p> </td> 
+   <td colname="col1"> <p> <b><span class="uicontrol"> Last Authenticated Profile</span></b> </p> </td> 
    <td colname="col2"> <p>Tells <span class="keyword"> Audience Manager</span> to read data from the authenticated profile of the user who last logged in on the device. </p> <p>When selected, <span class="keyword"> Audience Manager</span> will not write new trait data to the authenticated profile if the user is anonymous. Upon authentication, new trait data gets written to the user's authenticated profile. </p> </td>
   </tr> 
  </tbody>
@@ -63,19 +63,19 @@ The [!UICONTROL Device Options] let you select the type of *`device profile`* us
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> No Device Profile</span> </p> </td> 
+   <td colname="col1"> <p> <b><span class="uicontrol"> No Device Profile</span></b> </p> </td> 
    <td colname="col2"> <p>Tells <span class="keyword"> Audience Manager</span> not to use the traits contained in the anonymous profile for segmentation. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Current Device Profile</span> </p> </td> 
+   <td colname="col1"> <p> <b><span class="uicontrol"> Current Device Profile</span></b> </p> </td> 
    <td colname="col2"> <p>Tells <span class="keyword"> Audience Manager</span> to use the anonymous device profile for segmentation. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Profile Link Device Graph</span> </p> </td> 
-   <td colname="col2"> <p>Tells <span class="keyword"> Audience Manager</span> to read the profiles from the current device and the last 3 devices that the user has authenticated from. This device graph is built on your own, first-party data in <span class="keyword"> Audience Manager</span>. It is ideal for customers who have a high level of authentication across their digital properties. The <span class="wintitle"> Profile Link</span> device graph is updated in real time. This option is available when you select <span class="uicontrol"> Current Authenticated Profile</span> or <span class="uicontrol"> Last Authenticated Profile</span>. When using this option, you can only choose a single authenticated profile (<span class="keyword"> Audience Manager</span> automatically grays out the others). See also, <a href="../../features/profile-merge-rules/profile-link-use-case.md#concept_5D9D32E18BB94F318A8BA0229335F1B9"> Profile Link Device Graph Use Cases</a>. </p> </td>
+   <td colname="col1"> <p> <b><span class="uicontrol"> Profile Link Device Graph</span></b> </p> </td> 
+   <td colname="col2"> <p>Tells <span class="keyword"> Audience Manager</span> to read the profiles from the current device and the last 3 devices that the user has authenticated from. This device graph is built on your own, first-party data in <span class="keyword"> Audience Manager</span>. It is ideal for customers who have a high level of authentication across their digital properties. The <span class="wintitle"> Profile Link</span> device graph is updated in real time. This option is available when you select <b><span class="uicontrol"> Current Authenticated Profile</span></b> or <b><span class="uicontrol"> Last Authenticated Profile</span></b>. When using this option, you can only choose a single authenticated profile (<span class="keyword"> Audience Manager</span> automatically grays out the others). See also, <a href="../../features/profile-merge-rules/profile-link-use-case.md#concept_5D9D32E18BB94F318A8BA0229335F1B9"> Profile Link Device Graph Use Cases</a>. </p> </td>
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Co-op Device Graph</span> </p> </td> 
+   <td colname="col1"> <p> <b><span class="uicontrol"> Co-op Device Graph</span></b> </p> </td> 
    <td colname="col2"> <p>Tells <span class="keyword"> Audience Manager</span> to merge device profiles using the links provided by the <a href="https://marketing.adobe.com/resources/help/en_US/mcdc/" format="https" scope="external"> Experience Cloud Device Co-op</a>. </p> <p>The <span class="keyword"> Device Co-op</span> is a digital cooperative where participating customers share device link information. The <span class="keyword"> Device Co-op</span> processes this data in a <span class="term"> device graph</span>. A device graph links devices together form device clusters. These links are built from <a href="https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-links.html" format="https" scope="external"> probabilistic and deterministic data</a>. The clusters represent a group of devices used by an unknown person. The <span class="keyword"> Device Co-op</span> shares these clusters among its members, which helps them deliver valuable and consistent cross-device experiences to their customers. </p> <p> For more information about the <span class="wintitle"> Device Co-op</span>, see the: </p> <p> 
      <ul id="ul_8EDA7D092ECD444C8C19CDC7534D84DE"> 
       <li id="li_323BC5993D6A4BA3962169BF0ED37C55"> <a href="https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-overview.html" format="https" scope="external"> Device Co-op Overview</a> </li> 

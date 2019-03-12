@@ -50,14 +50,14 @@ To create a rule that expands the targeting data set, select **[!UICONTROL Curre
 <p>Rules that use the device graph option extend your data set even further. With the device graph option, <span class="keyword"> Audience Manager</span> relies on the device profiles aggregated from the last 3 devices that a visitor used for authentication to your site. The device graph rules include: </p> 
 <p> 
  <ul id="ul_3008B6AF16EC408F98EC4088111281FB"> 
-  <li id="li_FA2087F1ED454CD0B9E09656B79ED23B"> <span class="uicontrol"> Current Authenticated Profiles</span> + <span class="uicontrol"> Profile Merge Device Graph</span> or a Co-op device graph option </li> 
-  <li id="li_001A8DB517CB4EE394DBD530F2080FD5"> <span class="uicontrol"> Last Authenticated Profiles</span> + <span class="uicontrol"> Profile Merge Device Graph</span> or a Co-op device graph option </li> 
+  <li id="li_FA2087F1ED454CD0B9E09656B79ED23B"> <b><span class="uicontrol"> Current Authenticated Profiles</span></b> + <b><span class="uicontrol"> Profile Merge Device Graph</span></b> or a Co-op device graph option </li> 
+  <li id="li_001A8DB517CB4EE394DBD530F2080FD5"> <b><span class="uicontrol"> Last Authenticated Profiles</span></b> + <b><span class="uicontrol"> Profile Merge Device Graph</span></b> or a Co-op device graph option </li> 
  </ul> </p> 
 <p> 
  <note type="tip">
   Create a simple rule with 
-  <span class="uicontrol"> No Authenticated Profile</span> + 
-  <span class="uicontrol"> Current Device Profile</span> when you're still developing a strategy and are unsure about which options to choose or if your site doesn't use authentication. 
+  <b><span class="uicontrol"> No Authenticated Profile</span></b> + 
+  <b><span class="uicontrol"> Current Device Profile</span></b> when you're still developing a strategy and are unsure about which options to choose or if your site doesn't use authentication. 
  </note> </p>
 
  -->

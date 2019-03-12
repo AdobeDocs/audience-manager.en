@@ -143,11 +143,11 @@ The billing and price options control how buyers pay for your data.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="uicontrol"> Billing Cycle</span> </td> 
-   <td colname="col2"> <span class="uicontrol"> Monthly in Arrears</span> is the only option. The billing cycle ends on the 10th day of each month. </td> 
+   <td colname="col1"> <b><span class="uicontrol"> Billing Cycle</span></b> </td> 
+   <td colname="col2"> <b><span class="uicontrol"> Monthly in Arrears</span></b> is the only option. The billing cycle ends on the 10th day of each month. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="uicontrol"> Unit of Measure</span> </td> 
+   <td colname="col1"> <b><span class="uicontrol"> Unit of Measure</span></b> </td> 
    <td colname="col2">Charge data buyers on a CPM rate or flat fee. 
     <ul id="ul_D5F125E0F7364C568D9F3107E090059D"> 
      <li id="li_A79F47FFC1DC4B9DADC014621A9C12A1"> With CPM pricing, data buyers are required to self-report usage. </li> 
@@ -155,7 +155,7 @@ The billing and price options control how buyers pay for your data.
     </ul> </td>
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="uicontrol"> Price</span> </td>
+   <td colname="col1"> <b><span class="uicontrol"> Price</span></b> </td>
    <td colname="col2"> The amount a seller charges the buyer as CPM rate or flat fee price, in dollars. </td>
   </tr> 
  </tbody> 
