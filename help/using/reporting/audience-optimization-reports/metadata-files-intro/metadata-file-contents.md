@@ -29,7 +29,7 @@ The third column **-1** is technically the Parent ID, which is a legacy field. T
 
 Use `^a` (control-A or ASCII 001) to separate content in your metadata files. As these are non-printing characters, the syntax example above shows a pipe "|" for display purposes only.
 
-If needed, you may [download the example file - (20181105_0_1)](assets/20181105_0_1) in your editor of choice and adjust according to your actual metadata contents, as it already contains the required delimiter.
+If needed, you may download the example file - [20181105-0-1](assets/20181105-0-1) in your editor of choice and adjust according to your actual metadata contents, as it already contains the required delimiter.
 
 >[!IMPORTANT]
 >
@@ -37,7 +37,7 @@ If needed, you may [download the example file - (20181105_0_1)](assets/20181105_
 
 ## Examples {#section_08FE1874E7F64774999335D49011E0B5}
 
-Let's take a look at how you would structure content in a metadata file. Part of this structure depends on the dimension. The dimensions are listed in the article [Naming Conventions for Metadata File](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#child-dimension). 
+Let's take a look at how you would structure content in a metadata file. Part of this structure depends on the dimension. The dimensions are listed in the article [Naming Conventions for Metadata File](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#child-dimension).
 
 **Campaign**
 
