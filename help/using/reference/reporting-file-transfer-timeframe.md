@@ -35,7 +35,7 @@ The following table lists and describes the time intervals in our general and re
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>General Report Data</b> </p> </td> 
-   <td colname="col2"> <p>The data in the <a href="../reporting/general-reports.md#concept_E4686B9B4BE54DFE9599E0868224E027"> General Reports</a> depends on the successful completion of other job processes and the amount of data received for a particular day. Most of the time, <span class="wintitle"> General Report</span> data should be updated by 18:00 UTC each day. </p> </td> 
+   <td colname="col2"> <p>The data in the <a href="../reporting/general-reports.md#general-reports-overview"> General Reports</a> depends on the successful completion of other job processes and the amount of data received for a particular day. Most of the time, <span class="wintitle"> General Report</span> data should be updated by 18:00 UTC each day. </p> </td> 
   </tr> 
  </tbody> 
 </table>

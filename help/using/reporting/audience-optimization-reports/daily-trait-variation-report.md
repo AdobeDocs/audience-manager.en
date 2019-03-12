@@ -25,9 +25,9 @@ The middle column contains a list of traits, identified by [!UICONTROL Trait ID]
 
 The [!UICONTROL Standard Deviation] column displays color-coded bar charts that display the standard deviation for each trait over the selected interval. Red bars indicate traits with a negative standard deviation (data points tend to be below the mean). Green bars indicate traits with a positive standard deviation (data points tend to be above the mean). Mouse over any bar to display a pop-up dialog box with more information and options to keep or exclude that trait and view more information.
 
-Icons display at the bottom of the report that let you export data in various formats, revert any changes you might have made to the report (such as excluding traits), enable or disable automatic updates, and refresh the report's data. See [Report Icons and Tools Explained](../../reporting/dynamic-reports/interactive-report-technology.md#reference_8D90E6C1F0AE46D4AC0911707395BED6).
+Icons display at the bottom of the report that let you export data in various formats, revert any changes you might have made to the report (such as excluding traits), enable or disable automatic updates, and refresh the report's data. See [Report Icons and Tools Explained](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained).
 
-## Use Cases {#example_DE5A4007B1454C22A5E134B0A04FDB7A}
+## Use Cases {#use-cases}
 
 **Example #1**: this report can be highly useful in situations where you have traits with a high seasonality level. For instance, let's say your online store is testing seasonal promotions of various types and prices. You have the following traits defined in [!DNL Audience Manager]:
 

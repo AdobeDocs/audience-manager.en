@@ -11,7 +11,7 @@ uuid: 0cea75a0-969e-4ee3-971a-60b911711e52
 
 A [!UICONTROL General] report returns performance data on traits, segments, and destinations.
 
-## Overview {#concept_E4686B9B4BE54DFE9599E0868224E027}
+## Overview {#general-reports-overview}
 
 <!-- 
 
@@ -44,7 +44,7 @@ The following illustration provides a high-level overview of key elements in the
 3. From the folder list, drag and drop the traits, segments, or destinations you want to report to the [!UICONTROL Selections] panel on the right side.
 4. Generate the report to display in an exportable table.
 
-## Run a General Report {#task_3E1EDB91F9C24FD6B356B2D181533BBE}
+## Run a General Report {#run-general-report}
 
 This section describes how to run a [!UICONTROL General] report and set time and other performance options. 
 
@@ -70,7 +70,7 @@ t_run_general_report.xml
 
 1. *Optional* Click **[!UICONTROL Export to CSV]**. This exports the [!UICONTROL Unique Trait Realizations], [!UICONTROL Total Trait Realizations], and [!UICONTROL Total Trait Population] for all day ranges.
 
-## General Reports Results Explained {#section_7169BE04E8FB47C9BE9C6651C45D4C8B}
+## General Reports Results Explained {#general-reports-explained}
 
 The numbers in the [!UICONTROL General Reports] are generated directly from our [!UICONTROL User Profile Store]. The results reflect the number of users that [!DNL Audience Manager] contained in the backend at the time these reporting numbers were generated.
 
@@ -78,7 +78,7 @@ The numbers in the [!UICONTROL General Reports] are generated directly from our 
 * If you onboard data via inbound processing keyed off the [!DNL Audience Manager] UUID, and these IDs include users that are no longer active in our system, these inactive [!DNL Audience Manager] UUIDs never reach the [!UICONTROL User Profile Store] and are not reported.
 * [!UICONTROL Total Trait Realizations] are calculated for [!UICONTROL Rule-based Traits] only.
 
-## General Reports Results for Traits {#section_AD587E80721646D0B092D6FCD5561F00}
+## General Reports Results for Traits {#general-report-results-traits}
 
 The metrics below are available when you run a General report and select **[!UICONTROL Trait]** as the report type:
 
@@ -98,7 +98,7 @@ The illustration below shows the results of running a general report for the Tra
 
 ![](assets/general_reports_metrics.png)
 
-## General Reports Results for Segments {#section_E2A963BC0E0E4AC9BF343E556B172FDE}
+## General Reports Results for Segments {#general-report-results-segments}
 
 The metrics below are available when you run a General report and select **[!UICONTROL Segment]** as the report type:
 
@@ -118,7 +118,7 @@ The illustration below shows the results of running a general report for the Seg
 
 ![](assets/general_reports_segment_metrics.png)
 
-## General Reports Results for Destinations {#section_01EDDD60097A464AA61D7F848E6CFF9E}
+## General Reports Results for Destinations {#general-report-results-destinations}
 
 The metrics below are available when you run a General report and select **[!UICONTROL Destination]** as the report type:
 

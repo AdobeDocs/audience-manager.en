@@ -11,7 +11,7 @@ uuid: 9ba44738-3e17-40c7-9e8c-5abd8361e16d
 
 Format the contents of your Audience Optimization metadata file according to these specifications.
 
-## Syntax {#section_FA6B6FE02D93456EB3A64488E0FA8DC7}
+## Syntax {#syntax}
 
 The following syntax defines the structure of well-formed contents in a metadata file. Note, *italics* indicates a variable placeholder.
 
@@ -36,7 +36,7 @@ If needed, you may download this example file ![(20181105_0_1)](assets/20181105_
 >
 >Do not add header rows to metadata files.
 
-## Examples {#section_08FE1874E7F64774999335D49011E0B5}
+## Examples {#examples}
 
 Let's take a look at how you would structure content in a metadata file. Part of this structure depends on the dimension. The dimensions are listed in the article [Naming Conventions for Metadata File](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#child-dimension). 
 

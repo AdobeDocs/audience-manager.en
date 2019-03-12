@@ -11,7 +11,7 @@ uuid: 047e440e-00c5-4d06-a809-51d776326cd6
 
 You can request a .csv file for an Overlap Report when that report reaches its 1-million record limit. A report may have reached this limit when you see an "Unexpected error has occurred" message. Contact Customer Care to request a compressed .csv file, which you can import and work with in your own database system. Files are available for segment-to-segment, segment-to-trait, and trait-to-trait overlap reports.
 
-## File Name Metadata {#section_F4F001E5849147D0AF4AA3AAAAC56ECE}
+## File Name Metadata {#file-name-metadata}
 
 The following table list and describes the file naming conventions and file extensions use in an overlap .csv file. In the examples, *italics* indicates a variable placeholder.
 
@@ -64,7 +64,7 @@ The following table list and describes the file naming conventions and file exte
  </tbody> 
 </table>
 
-## File Contents {#section_D2E3E3398CA2494581273D6A950D7172}
+## File Contents {#file-contents}
 
 In the file, string data is enclosed in double quotes. See the mock data below. This has been truncated for brevity and to fit the screen.
 
@@ -75,7 +75,7 @@ In the file, string data is enclosed in double quotes. See the mock data below. 
 "123456","segmentA","654321","segmentB","30","yyyy-mm-dd","98765",...
 ```
 
-## Segment-to-Segment Report Records {#section_2D0602508803416E999A36F271AFF2F5}
+## Segment-to-Segment Report Records {#segment-segment-records}
 
 A data file for your [Segment-to-Segment Overlap Report](segment-segment-overlap-report.md) contains the following records.
 
@@ -134,7 +134,7 @@ A data file for your [Segment-to-Segment Overlap Report](segment-segment-overlap
  </tbody> 
 </table>
 
-## Segment-to-Trait Report Records {#section_D8D7E1BD977C41D184B277A394B950EA}
+## Segment-to-Trait Report Records {#segment-trait-records}
 
 A data file for your [Segment-to-Trait Overlap Report](segment-trait-overlap-report.md) contains the following records.
 
@@ -201,7 +201,7 @@ A data file for your [Segment-to-Trait Overlap Report](segment-trait-overlap-rep
  </tbody> 
 </table>
 
-## Trait-to-Trait Report Records {#section_850319D1EAC34410B958E967C38FF72E}
+## Trait-to-Trait Report Records {#trait-trait-records}
 
 A data file for your [Trait-to-Trait Overlap Report](trait-trait-overlap-report.md) contains the following records.
 

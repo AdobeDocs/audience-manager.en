@@ -39,7 +39,7 @@ On devices running [!DNL iOS] and [!DNL Android] operating systems, only native 
 
 Audience Manager validates the device advertising IDs ([!UICONTROL DAID]) imported by customers, based on their format, to ensure they match the standard format outlined by device manufacturers. See [Index of IDs in Audience Manager](../reference/ids-in-aam.md) for a detailed mapping of device advertising IDs to global data sources and the proper format for each ID. Make sure you are importing device IDs in the correct format, based on the device type. Audience Manager rejects device IDs that do not meet the proper format and returns an error message to indicate the ID was rejected.
 
-* Error messaging for batch data transfers is outlined here: [Onboarding Status Report Terms and Definitions](../reporting/onboarding-status-report.md#reference_2667529DB42D4DE5856F84EA1EB9A911).
+* Error messaging for batch data transfers is outlined here: [Onboarding Status Report Terms and Definitions](../reporting/onboarding-status-report.md#report-terms-conditions).
 * Error messaging for real-time data transfers is outlined here: [DCS Error Codes, Messages, and Examples](../api/dcs-intro/dcs-api-reference/dcs-error-codes.md).
 
 ## Device ID Expiration Policy
