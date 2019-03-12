@@ -18,7 +18,7 @@ With the [!UICONTROL Segment Performance] report, you can:
 * Identify mapped audience segments that are driving scale or performance. 
 * Identify unmapped segments to introduce in future campaigns, based on the contribution of an audience to past performance.
 
-## Using the Segment Performance Report {#segment-performance-report}
+## Using the Segment Performance Report {#using-segment-performance-report}
 
 Toggle between **[!UICONTROL Mapped]** and **[!UICONTROL Unmapped]** to select segments that are mapped to a destination or not. Select **[!UICONTROL All]** to include all your segments in the report.
 
