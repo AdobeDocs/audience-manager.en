@@ -11,7 +11,7 @@ uuid: bedbe7d4-7cbb-4403-9104-312f9230aea1
 
 A Trend report returns trend data on traits and segments.
 
-## Overview {#concept_BE18204086E04825925E99B7DB6ED717}
+## Overview {#trend-report-overview}
 
 A [!UICONTROL Trend] report returns trend data on traits and segments.
 
@@ -49,7 +49,7 @@ The following illustration provides a high-level overview of key elements in the
 1. From the folder list, drag and drop the traits or segments you want to report to the [!UICONTROL Selections] panel on the right side.
 1. Generate the report to display in data in graphical format or export the report to CSV format.
 
-## Run a Trend Report {#task_1FDC709F23E34B9FB5B6752BB6C7E886}
+## Run a Trend Report {#run-trend-report}
 
 This procedure describes how to run a [!UICONTROL Trend] report.
 

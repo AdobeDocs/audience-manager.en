@@ -21,7 +21,7 @@ faq_reports.xml
 
 **For new onboarded traits, why does the [!UICONTROL Trait Graph] sometimes display lower than expected numbers or 0?**
 
-Sometimes, after you upload traits, the [!UICONTROL Trait Graph] doesn't show any results or shows lower than expected numbers. This happens when the volume of data we receive is so great that the inbound processing job cannot finish ingesting this information until after the reporting deadline for that day. As a result, this data is sent to the reporting system late and won't show up in the 1-day reporting interval which is used for plotting the [!UICONTROL Trait Graph]. However, you can view this data in the 7, 14, 30, and 60-day report intervals in a [Trend](../reporting/trend-reports.md#concept_BE18204086E04825925E99B7DB6ED717) or [General Report](../reporting/general-reports.md#concept_E4686B9B4BE54DFE9599E0868224E027) on the following day.
+Sometimes, after you upload traits, the [!UICONTROL Trait Graph] doesn't show any results or shows lower than expected numbers. This happens when the volume of data we receive is so great that the inbound processing job cannot finish ingesting this information until after the reporting deadline for that day. As a result, this data is sent to the reporting system late and won't show up in the 1-day reporting interval which is used for plotting the [!UICONTROL Trait Graph]. However, you can view this data in the 7, 14, 30, and 60-day report intervals in a [Trend](../reporting/trend-reports.md#trend-report-overview) or [General Report](../reporting/general-reports.md#general-reports-overview) on the following day.
 
 <br>&nbsp;
 

@@ -11,7 +11,7 @@ uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
 
 A summary of the sampling methodology used for some reports, sampling error rates, and a list of reports that return information based on sampled data.
 
-## Data Sampling Ratio and Minimum Requirements {#section_C0A9E607D6E643E792347A146811ACB4}
+## Data Sampling Ratio and Minimum Requirements {#data-sampling-ratio}
 
 Some [!DNL Audience Manager] reports display results based on a sampled set of the total amount of available data. The sampled data ratio is 1:54. For reports that use sampled data, this means your results are based on 1 record out of every set of 54 records.
 
@@ -22,7 +22,7 @@ Reports that use sampling exclude traits and segments when they do not meet the 
 * Traits: 28,000 over a 14-day period.
 * Segments: 70,000 real-time users over a 14-day period.
 
-## Error Rates {#section_9C05B57627924E08954ACF1928C102E7}
+## Error Rates {#error-rates}
 
 Errors can occur in reports that generate overlap data. An error is defined as the percentage of records that:
 
@@ -40,7 +40,7 @@ It's important to note that our tests and models show that the error rate *decre
 |100,000|95% are under a 4% error rate.|
 |500,000 (or more)|95% are under a 2% error rate.|
 
-## Reports That Use Sampled Data {#section_F6ECF42C292B4989B9E778B6A9628C05}
+## Reports That Use Sampled Data {#reports-using-sampled-data}
 
 The [!DNL Audience Manager] reports that use sampled data include:
 
