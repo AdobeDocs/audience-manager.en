@@ -65,7 +65,7 @@ The partner-level opt-out permits opting out from data collection by specific Au
 
 **Opt-out Calls**
 
-When Audience Manager receives a partner-level opt-out request, the JSON returned by the DCS contains the [error code 171](../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md#section_B6DDE03D9255430A92730E29B889023A), with the message [!UICONTROL "Encountered opt out tag"], instead of the Audience Manager user ID.
+When Audience Manager receives a partner-level opt-out request, the JSON returned by the DCS contains the [error code 171](../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md#opt-out-error-codes), with the message [!UICONTROL "Encountered opt out tag"], instead of the Audience Manager user ID.
 
 <!-- 
 

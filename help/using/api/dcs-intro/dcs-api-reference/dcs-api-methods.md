@@ -17,7 +17,7 @@ You can send data to the [!UICONTROL DCS] using either one of the `GET` or `POST
 >
 >In the code and examples, *italics* represents a variable placeholder. Substitute a real value for the placeholder when you send data to the [!UICONTROL DCS] with this method.
 
-## Send Data via GET {#section_2F18A1D396334429A2F1C732A8CCEAAD}
+## Send Data via GET {#send-data-via-get}
 
 Note that the maximum allowed size for `GET` calls is 8K.
 
@@ -26,7 +26,7 @@ curl -i "<i>yourcompany</i>.demdex.net/event?
 d_uuid=<i>12345678901234567890123456789012345678</i>&d_rtbd=json&<i>c_likes=famous%20popstar</i>&<i>c_loves=famous%20actress</i>"
 </code></pre>
 
-## Send Data via POST {#section_AE1A6623F98B44DBB90AA8257D08E2D2}
+## Send Data via POST {#send-data-via-post}
 
 Note the requirements for sending data using the `POST` method:
 
@@ -48,21 +48,3 @@ curl -X POST \
   -H 'content-type: application/x-www-form-urlencoded' \ 
   -d '<i>c_likes=famous%20popstar</i>& <i>c_loves=famous%20actress</i>&<i>d_uuid=12345678901234567890123456789012345678</i>'
 </code></pre>
-
-
-<!-- 
-
-<p> <b>Sample call with content type application/json</b> </p> 
-<p> 
- <codeblock>
-   curl&nbsp;-X&nbsp;POST&nbsp;\ 
-  <discoiqbr />&nbsp;&nbsp;https:// 
-  <i>yourcompany</i>.demdex.net/event&nbsp;\ 
-  <discoiqbr />&nbsp;&nbsp;-H&nbsp;'content-type:&nbsp;application/json'&nbsp;\ 
-  <discoiqbr />&nbsp;&nbsp;-d&nbsp;'{ 
-  <i>"c_likes":"famous&nbsp;popstar"</i>, 
-  <i>"c_loves":"famous&nbsp;actress"</i>," 
-  <i>d_uuid":"12345678901234567890123456789012345678"}</i>' 
- </codeblock> </p>
-
- -->
