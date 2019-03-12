@@ -31,7 +31,7 @@ The following illustration provides a high-level overview of the [!UICONTROL Seg
 
 Select an individual point to view data details in a pop up window. Your click actions automatically update data displayed in the report.
 
-## Comparing Segments to Traits {#concept_9E8FF2A83C194962991B129E783C23B2}
+## Comparing Segments to Traits {#comparing-segments-to-traits}
 
 Describes how you can compare segments and traits to derive meaningful information from the results.
 
@@ -101,7 +101,7 @@ The following diagram illustrates the difference between the trait uniques % and
 
 ![](assets/s2t.png)
 
-## Segment-to-Trait Data Pop Fields Defined {#reference_674BE59D7C6B45C6B653233F69CFC656}
+## Segment-to-Trait Data Pop Fields Defined {#fields-defined}
 
 Describes the metrics displayed in the popup window when you click an individual data point.
 
@@ -171,8 +171,8 @@ The popup for the [!UICONTROL Segment-to-Trait Overlap] report contains the metr
 >[!MORE_LIKE_THIS]
 >
 >* [Filter Report Results With the Data Sliders](../../reporting/dynamic-reports/data-sliders.md#concept_00E60A0BDB274B07A1DD342EE5554C37)
->* [Shapes, Colors, and Sizes Used in Interactive Reports](../../reporting/dynamic-reports/interactive-report-technology.md#reference_25F1411379B34946B5AB8156A0F87626)
->* [Report Icons and Tools Explained](../../reporting/dynamic-reports/interactive-report-technology.md#reference_8D90E6C1F0AE46D4AC0911707395BED6)
+>* [Shapes, Colors, and Sizes Used in Interactive Reports](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
+>* [Report Icons and Tools Explained](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
 >* [Overlap Reports: Update Schedule and Minimum Segment Size](../../reporting/dynamic-reports/overlap-minimum-segment-size.md#concept_6C439B845E684C40A726C546F9AF0AFD)
 >* [Data Sampling and Error Rates in Selected Audience Manager Reports...](../../reporting/report-sampling.md#concept_624BB1069F8A4CBD948ABD87105329E4)
 >* [CSV Files for Overlap Reports](../../reporting/dynamic-reports/overlap-csv-files.md#concept_440C76BFFAC74669972CE538F8B5040F)

@@ -12,7 +12,7 @@ uuid: 727bec8a-df9a-40cc-b8a7-e1980d146a84
 
 [!UICONTROL Audience Lab] enables several use cases by allowing you to use baseline segments for creating test groups. You can divide test groups into several mutually exclusive test segments, map these to different destinations and then determine which of the segments are most effective in driving conversions.
 
-## Compare Models in [!UICONTROL Audience Lab] {#task_DB23E5242DAA4183949E90715F7DAA32}
+## Compare Models in [!UICONTROL Audience Lab] {#compare-models}
 
 You can use several different types and sources of models in [!DNL Audience Manager]. [!UICONTROL Audience Lab] offers an easy way to compare your customers' conversion rates, across your active models.
 
@@ -27,7 +27,7 @@ In this use case, you are comparing different models. You can either use models 
     * Create a *Model 1 Segment* and a *Model 2 Segment*.
     * Have the segment rule for *Model 1 Segment* be model 1 trait [!DNL AND NOT] model 2 trait, and vice-versa for *Model 2 Segment*.
 
-1. [Create two segment test groups](../../features/audience-lab/audience-lab-manage-test-groups.md#task_B62EF6D2992941FAAEA84BE2EA11A55E) in [!UICONTROL Audience Lab], one with *Model 1 Segment* as the baseline, the other with *Model 2 Segment* as the baseline.
+1. [Create two segment test groups](../../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups) in [!UICONTROL Audience Lab], one with *Model 1 Segment* as the baseline, the other with *Model 2 Segment* as the baseline.
 
     * Keep the variables the same for both test groups: same destinations, creative, conversion traits.
     * Make sure the test segments have similar numbers of users (e.g. 1.6 million and 1.8 million is alright, 1.6 million and 16 million is not).
@@ -38,13 +38,13 @@ In this use case, you are comparing different models. You can either use models 
     * The [Audience Lab reporting view](../../features/audience-lab/audience-lab-reporting-view.md#concept_C8A089E2B1C54D268C4F6475C4D5C9D6) will show the number of conversions each model is driving. For conversion based campaigns, the test segment that drives the most conversions will signify the model that is performing best.
     * Because you have control segments, you can also evaluate how the model did against "standard targeting." You are not only just testing one model versus the other, but testing the question of "did this model do better than normal practices?"
 
-## Testing Creatives Across Destinations {#task_7AF1E1FE31034EF5AB77226D9D75E4E6}
+## Testing Creatives Across Destinations {#testing-creatives}
 
 <!-- audience-lab-creatives-across-destinations.xml -->
 
 Use [!UICONTROL Audience Lab] to measure the number of conversions a creative is driving across different destinations. This use case also allows you to measure the conversions of the creative against naturally occurring conversions.
 
-1. [Create a Segment Test Group](../../features/audience-lab/audience-lab-manage-test-groups.md#task_B62EF6D2992941FAAEA84BE2EA11A55E), selecting the segment you want to test the creative against as the baseline segment.
+1. [Create a Segment Test Group](../../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups), selecting the segment you want to test the creative against as the baseline segment.
 1. Split the baseline segment into test segments and control segments.
 1. Map the test segments to the different destinations you wish to test.
 1. The control segment can be withheld and not mapped to any destination. The control segment should not be targeted by the test creative to set a results baseline for naturally occurring conversions.

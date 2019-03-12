@@ -28,7 +28,7 @@ As a reminder, the [!UICONTROL Device Options] are available in the [!UICONTROL 
 
 <!-- 
 
-<p> <span class="keyword"> Audience Manager</span> can remove a device profile from a segment when your <span class="wintitle"> Profile Merge Rule</span> uses the <span class="uicontrol"> Current Device Profile</span> option. Under these conditions, unsegmentation happens when: </p> 
+<p> <span class="keyword"> Audience Manager</span> can remove a device profile from a segment when your <span class="wintitle"> Profile Merge Rule</span> uses the <b><span class="uicontrol"> Current Device Profile</span></b> option. Under these conditions, unsegmentation happens when: </p> 
 <p> 
  <ul id="ul_596501272A224228BD330DD56E01D973"> 
   <li id="li_E4FA1A5C722748CD82AE3A49FCBE86F6">The device profile has been inactive for 120-days. A weekly data cleanup process removes inactive device profiles from your segments. </li> 

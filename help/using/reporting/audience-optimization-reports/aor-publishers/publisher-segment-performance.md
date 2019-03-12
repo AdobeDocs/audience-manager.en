@@ -15,14 +15,14 @@ A mapped segment is a segment you create and send to a destination for targeting
 
 Comparing these different segment types within and between reports helps you optimize existing campaigns and find overlooked segments that you may want to send to a destination for targeting.
 
-## Use Cases {#section_2DD668C39D32463C9330FF68E713C6F5}
+## Use Cases {#use-cases}
 
 With the [!UICONTROL Segment Performance] report, you can:
 
 * Identify mapped audience segments that are driving scale or performance.
 * Identify unmapped segments to introduce in future campaigns, based on the contribution of an audience to past performance.
 
-## Using the Segment Performance Report {#section_5C9691CCC0F54276BF90641F27ADB657}
+## Using the Segment Performance Report {#using-segment-performance-report}
 
 Toggle between **[!UICONTROL Mapped]** and **[!UICONTROL Unmapped]** to select segments that are mapped to a destination or not. Select **[!UICONTROL All]** to include all your segments in the report.
 
@@ -38,7 +38,7 @@ Use the **[!UICONTROL Segment]** drop-down box to select which segments you want
 >
 >When enabling [!UICONTROL Audience Optimization for Publishers], you must include descriptive metadata for [!UICONTROL Line Item IDs], as described in Step 3 of [Import DFP Data Files Into Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md#concept_32EC89A543BA4333B62DD4C0B3E7060A). By doing this, you assure that the report details the web property as [!UICONTROL Line Item] instead of the [!UICONTROL Line Item ID].
 
-## Interpreting the Results {#section_1B6327768A9D46FFB24DB9D5888B102D}
+## Interpreting the Results {#interpreting-results}
 
 Your [!UICONTROL Segment Performance] report could look similar to the one below. In your report, click on a bubble to view the underlying data. See descriptions for the additional information in the table below the sample report.
 
@@ -83,7 +83,7 @@ Your [!UICONTROL Segment Performance] report could look similar to the one below
  </tbody> 
 </table>
 
-## How to Read Your Mapped Segment Results {#section_C26B00478D2F4B06BADF8624C5C62677}
+## How to Read Your Mapped Segment Results {#read-mapped-segment}
 
 The position of your mapped segments in a report can tell you a lot about which segments are performing well and where you might need to make some adjustments.
 
@@ -91,7 +91,7 @@ To read the report, it helps to divide the results into four sections with imagi
 
 ![](assets/publisher_segment_performance_mapped.png)
 
-## How to Read Your Unmapped Segment Results {#section_915F11CF3E7A4A66B0D0E679F4126101}
+## How to Read Your Unmapped Segment Results {#read-unmapped-segment}
 
 Looking at unmapped segments in a [!UICONTROL Segment Performance] report is a great way to find new segments you haven't considered for targeting. In fact, some of these segments may outperform your mapped segments.
 

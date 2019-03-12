@@ -36,13 +36,13 @@ For example, if you notice a dip, or spike, in total unique users with the break
 
    Depending on the logged-in user's permissions, the following panels display:
 
-    * [Partner Uniques](../reporting/reports-dashboard.md#section_E3B46BB8073747539F76AD75B5A5430E) 
-    * [Largest Traits/Most Changed Traits](../reporting/reports-dashboard.md#section_E8970FD9FEF44C43A921D313698C843E) 
-    * [Largest Segments/Most Changed Segments](../reporting/reports-dashboard.md#section_7AADC2775D9B46F69F84218CA535D287)
+    * [Partner Uniques](../reporting/reports-dashboard.md#partner-uniques) 
+    * [Largest Traits/Most Changed Traits](../reporting/reports-dashboard.md#largest-traits) 
+    * [Largest Segments/Most Changed Segments](../reporting/reports-dashboard.md#most-changed-segments)
 
 3. *Optional* Click **[!UICONTROL Normalize]** above any graph to show all of the data on the same scale. You can also mouse over any data point to see more information.
 
-## Partner Uniques {#section_E3B46BB8073747539F76AD75B5A5430E}
+## Partner Uniques {#partner-uniques}
 
 Permission Required to View: [!UICONTROL View All Traits].
 
@@ -54,7 +54,7 @@ This panel displays the number of unique visitors during the specified time fram
 >
 >The total number of unique visitors represents visitors captured via rule-based or on-boarded traits. However, the total number of unique visitors does not equal the sum of unique visitors captured using the rule-based and onboarded traits. The same unique user might be represented in either of these two trait types.
 
-## Largest Traits/Most Changed Traits {#section_E8970FD9FEF44C43A921D313698C843E}
+## Largest Traits/Most Changed Traits {#largest-traits}
 
 Permission Required to View: [!UICONTROL View Traits].
 
@@ -85,7 +85,7 @@ This panel contains the following tabs:
  </tbody> 
 </table>
 
-## Largest Segments/Most Changed Segments {#section_7AADC2775D9B46F69F84218CA535D287}
+## Largest Segments/Most Changed Segments {#most-changed-segments}
 
 Permission Required to View: [!UICONTROL View Segments].
 

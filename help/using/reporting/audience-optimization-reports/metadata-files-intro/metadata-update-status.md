@@ -52,7 +52,7 @@ The S3 status directory holds a `.info` file with success and failure informatio
 }
 ```
 
-## Metadata Key-Value Pairs Defined {#section_E20C2F050A964E0A9503A607E348CE6C}
+## Metadata Key-Value Pairs Defined {#key-value-pairs}
 
 The following tables list and define the keys in the `Files` and `Summary` sections of a metadata status file.
 

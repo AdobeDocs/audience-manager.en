@@ -39,7 +39,7 @@ With [!UICONTROL Trait Recommendations], you can improve your workflows, dependi
 
 [!UICONTROL Algorithmic Models] not only finds the most influential traits, but also scores users based on those traits and assigns each user an individual score. You then create algorithmic traits to target your users. With accuracy and reach controls in the [!UICONTROL Trait Builder], you can specify which users amongst all those who have the influential traits you want to target.
 
-[!UICONTROL Algorithmic Models] enables you to select users at different accuracy levels and test in [!UICONTROL Audience Lab] which group of users converts better. See the detailed use case in [Compare Models in Audience Lab](../../features/audience-lab/audience-lab-use-cases.md#task_DB23E5242DAA4183949E90715F7DAA32).
+[!UICONTROL Algorithmic Models] enables you to select users at different accuracy levels and test in [!UICONTROL Audience Lab] which group of users converts better. See the detailed use case in [Compare Models in Audience Lab](../../features/audience-lab/audience-lab-use-cases.md#compare-models).
 
 In [!UICONTROL Algorithmic Models], the model runs every 8 days and refreshes the users qualified for algorithmic traits.
 

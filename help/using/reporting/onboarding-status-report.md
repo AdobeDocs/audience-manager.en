@@ -11,11 +11,11 @@ uuid: 6ca8a90a-436b-4fce-adf1-48f3b96b3ed2
 
 The Onboarding Status Report checks success and failure rates for processing records in your inbound data source files. This report displays data in an interactive bar chart and provides summary metrics in tabular form. And, it includes an option that samples files for a fixed time interval and displays the most common errors for each error type. You can find this report in Analytics > Onboarding Status Report. This report is also available when you create an inbound data source.
 
-## Onboarding Status Report: About {#concept_3231613176F44D87AAA05D3528DD294C}
+## Onboarding Status Report: About {#onboarding-status-about}
 
 The [!UICONTROL Onboarding Status Report] checks success and failure rates for processing records in your inbound data source files. This report displays data in an interactive bar chart and provides summary metrics in tabular form. And, it includes an option that samples files for a fixed time interval and displays the most common errors for each error type. You can find this report in **[!UICONTROL Analytics > Onboarding Status Report]**. This report is also available when you create an inbound data source.
 
-## Error Reporting and Error Sampling {#section_9DCD3EA6E38E4206A81196512C632627}
+## Error Reporting and Error Sampling {#error-reporting-sampling}
 
 Error reporting and error sampling are 2 separate features of the [!UICONTROL Onboarding Status] report.
 
@@ -33,18 +33,18 @@ Error reporting and error sampling are 2 separate features of the [!UICONTROL On
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Error Sampling</b> </p> </td>
-   <td colname="col2"> <p>Error sampling parses the contents of your data files and returns the 10 most common errors for each error type. The errors in your inbound data files prevent individual records from being processed. Use this report as a troubleshooting tool to help reduce the number of file errors and improve processing rates. </p> <p>You must activate error sampling manually. It runs for 14-days from the day of activation and then turns itself off. You can turn error sampling back on after the 14-day interval expires. You activate error sampling when you <a href="../features/manage-datasources.md#concept_3B7696B3EC77416492D3B99EBD79EA44"> create an inbound data source</a> or by checking the <span class="uicontrol"> Error Sampling</span> check box from the <span class="wintitle"> Data Source Settings</span> section of an existing inbound data source. </p> <p>Error sampling is a computationally demanding process. As a result, it only returns first 10 errors for each error category. It is not designed to return every error contained in an inbound data source. These errors are a representative sample of a potentially larger group of similar errors. Review your entire file for the types of errors this report flags, reformat the file, and send it in again. </p> <p>See <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> Inbound Data File Contents: Syntax, Variables, and Examples</a> for more information about how to properly format an data file for an inbound data source. </p> </td> 
+   <td colname="col2"> <p>Error sampling parses the contents of your data files and returns the 10 most common errors for each error type. The errors in your inbound data files prevent individual records from being processed. Use this report as a troubleshooting tool to help reduce the number of file errors and improve processing rates. </p> <p>You must activate error sampling manually. It runs for 14-days from the day of activation and then turns itself off. You can turn error sampling back on after the 14-day interval expires. You activate error sampling when you <a href="../features/manage-datasources.md#concept_3B7696B3EC77416492D3B99EBD79EA44"> create an inbound data source</a> or by checking the <b><span class="uicontrol"> Error Sampling</span></b> check box from the <span class="wintitle"> Data Source Settings</span> section of an existing inbound data source. </p> <p>Error sampling is a computationally demanding process. As a result, it only returns first 10 errors for each error category. It is not designed to return every error contained in an inbound data source. These errors are a representative sample of a potentially larger group of similar errors. Review your entire file for the types of errors this report flags, reformat the file, and send it in again. </p> <p>See <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> Inbound Data File Contents: Syntax, Variables, and Examples</a> for more information about how to properly format an data file for an inbound data source. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Error Report Bar Chart {#section_73F30DCBD44E43D8999E13A407A7D64E}
+## Error Report Bar Chart {#error-report-bar-chart}
 
 The error report graphs the success and failure rates for record processing in a stacked bar graph as shown in the following example. The graph is interactive. Clicking on a bar shows summary metrics for that day in a table below the graph.
 
 ![](assets/stacked-graph.png)
 
-## Error Report Tables {#section_BA5FE52E2D664CD8826234EF0A7BBDF5}
+## Error Report Tables {#error-report-tables}
 
 The error report displays tabular data below the bar graph. The table shows success and failure rates along with totals and percentages.
 
@@ -60,7 +60,7 @@ Click **[!UICONTROL Totals & Percentages]** to see what % of your files were pro
 
 ![](assets/totals-percentages.png)
 
-## Error Sampling Report for 14 Days {#section_996F57B843054F19A2EA928D7873FD51}
+## Error Sampling Report for 14 Days {#error-reporting-14-days}
 
 With error sampling active, the report will show you the top 10 errors for each error type. Click on an error type button at the top of the report to see each set of sampled data.
 
@@ -70,13 +70,13 @@ With error sampling active, the report will show you the top 10 errors for each 
 
 ![](assets/error-samples.png)
 
-## Receive E-mail Notifications {#section_5C4F7330AD494F1D823ADC9D25788AA3}
+## Receive E-mail Notifications {#receive-email-notifications}
 
 You can add the e-mail addresses of recipients that you want to be notified of the uploaded inbound files' status. Note that you can select different recipients for different data sources.
 
 ![](assets/mail-notifications.png)
 
-## Create an Onboarding Status Report {#task_36838AF77E9E424FB74E0EC2DF282360}
+## Create an Onboarding Status Report {#create-onboard-status-report}
 
 A [!UICONTROL Sample Error Report] returns the number records in a data source were processed successfully and how many failed. Follow these steps to generate a [!UICONTROL Sample Error Report].
 
@@ -96,7 +96,7 @@ create-onboarding-status-report.xml
 
 1. Click **[!UICONTROL OK]**.
 
-## Onboarding Status Report Terms and Definitions {#reference_2667529DB42D4DE5856F84EA1EB9A911}
+## Onboarding Status Report Terms and Definitions {#report-terms-conditions}
 
 A reference guide for the labels and terms used in this report.
 

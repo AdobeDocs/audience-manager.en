@@ -11,17 +11,17 @@ uuid: 64e75fad-f4cb-4d47-a162-34e663f3966f
 
 The Unique User Reach report returns data in a bubble chart. Each bubble is sized in direct proportion to the number of unique users for your selected ad units. A larger bubble indicates greater reach than a smaller bubble. The Unique User Reach report helps you find the ad unit that provides the broadest reach against your targeted users.
 
-## Use Case {#section_E96FC1FCEA9E49328E6A102E34B55D45}
+## Use Case {#use-cases}
 
 With the [!UICONTROL Unique User Reach] report, you can identify the properties in your portfolio that attract a high volume of unique users.
 
-## Using the Unique Reach Report {#section_A5F13FAD3088494A9EA0D4B663B03D4C}
+## Using the Unique Reach Report {#using-the-report}
 
 Use the **[!UICONTROL Dimension Value]** box to select the ad units you want to display in the report. Click **[!UICONTROL All]** to display all your properties in the bubble chart.
 
 Use the **Day Range** and **Date Through** controls to adjust your look-back range.
 
-## Interpreting the Results {#section_2A53FC626E4F49BE979CECC73C33CA93}
+## Interpreting the Results {#interpreting-results}
 
 **Sample Report**
 

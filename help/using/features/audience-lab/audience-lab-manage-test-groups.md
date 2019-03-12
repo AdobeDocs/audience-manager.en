@@ -11,7 +11,7 @@ uuid: 2fadddeb-7574-4853-8c52-c58456582c62
 
 This procedure walks you through the steps needed to create, edit, or delete a test group in [!UICONTROL Audience Lab].
 
-## Create Segment Test Groups {#task_B62EF6D2992941FAAEA84BE2EA11A55E}
+## Create Segment Test Groups {#create-test-groups}
 
 ### Prerequisites
 
@@ -81,15 +81,15 @@ To create a new [!UICONTROL Segment Test Group]:
    >* You can save the test groups at any point in the creation process and return to the wizard at a later time. The test group status will be **[!UICONTROL Draft]** and the test group will not send any data to destinations until you finalize the segment test group.
    >* For draft tests, you can go back and edit the test groups by clicking **[!UICONTROL Edit]** in the test group card in the main [!UICONTROL Audience Lab] view.
 
-## Edit Segment Test Groups {#task_F24DC69FC0AA45D9AB604DA7638799E9}
+## Edit Segment Test Groups {#edit-test-groups}
 
 In [!UICONTROL Audience Lab], you are only able to edit draft test groups. In the [!UICONTROL Create Segment Test Group] wizard, you can save your test group as a draft and resume working on it later.
 
 1. Navigate to the [!UICONTROL Audience Lab] main view.
 1. Search for your draft test groups and select the **[!UICONTROL Edit]** control in the test group card.
-1. Resume the [Create Segment Test Group](../../features/audience-lab/audience-lab-manage-test-groups.md#task_B62EF6D2992941FAAEA84BE2EA11A55E) wizard and select **[!UICONTROL Finalize Group]** when you're done.
+1. Resume the [Create Segment Test Group](../../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups) wizard and select **[!UICONTROL Finalize Group]** when you're done.
 
-## Delete Segment Test Groups {#task_4EDCDE99FF8C4107BA916C3D0DC281BE}
+## Delete Segment Test Groups {#delete-test-groups}
 
 1. Navigate to the [!UICONTROL Audience Lab] main view.
 1. Find the test group you want to delete. You can either:
@@ -97,4 +97,4 @@ In [!UICONTROL Audience Lab], you are only able to edit draft test groups. In th
     * press the **[!UICONTROL Delete]** control in the test group card, or
     * press the test group title in the test group card to go to the [Test Group Information](../../features/audience-lab/audience-lab-information-view.md#concept_C8A8844639CE41E9AE9D6886D829B8E0) view and press the **[!UICONTROL Delete]** control in the title bar.
 
-1. For [completed test segments](../../features/audience-lab/audience-lab.md#section_4A6E6FC7095B4F13A8CEC8E2EBC01EBF), an alert will prompt you to download the CSV file to save the reporting if you wish.
+1. For [completed test segments](../../features/audience-lab/audience-lab.md#status), an alert will prompt you to download the CSV file to save the reporting if you wish.

@@ -11,11 +11,11 @@ uuid: e4467e81-acbf-474e-b501-89d57395651f
 
 The **[!UICONTROL Ad Unit Overlap]** report is displayed as a heat chart that highlights high and low overlaps between your Ad Units.
 
-## Use Case {#section_23446DAFA3424CDBA8834816832EC2B0}
+## Use Case {#use-cases}
 
 With the **[!UICONTROL Ad Unit Overlap]** report, you can gain insight into where your audience overlaps across your web properties. The report considers your 100 top related properties and shows you the overlap between them.
 
-## Using the Ad Unit Overlap Report {#section_62E5C43C88EE4AE688285F759810F57F}
+## Using the Ad Unit Overlap Report {#using-the-report}
 
 Use the **[!UICONTROL Top N Base Ad Units]** and **[!UICONTROL Top N Overlapping Ad Units]** controls to select your desired number of ad units for the overlap. You can select a maximum number of 100 items for each.
 
@@ -27,7 +27,7 @@ Use the **[!UICONTROL Base Ad Unit]** and the **[!UICONTROL Overlap Ad Unit]** c
 >
 >When enabling [!UICONTROL Audience Optimization for Publishers], you must include descriptive metadata for [!UICONTROL Ad Unit IDs], as described in Step 3 of [Import DFP Data Files Into Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md#concept_32EC89A543BA4333B62DD4C0B3E7060A). By doing this, you assure that the report details the web property as [!UICONTROL Ad Unit] instead of the [!UICONTROL Ad Unit ID].
 
-## Interpreting the Results {#section_CC66FBF6E9F349B8B0F3F70B05C411F0}
+## Interpreting the Results {#interpreting-results}
 
 Your [!UICONTROL Ad Unit Overlap] report could look similar to the one below. Hover over any cell to obtain more information about that particular overlap. See descriptions for the additional information in the table below the sample report.
 

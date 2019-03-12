@@ -11,7 +11,7 @@ uuid: cab55b2a-2e54-45f6-aeea-3735b911f821
 
 Name your Audience Optimization metadata file according to these specifications.
 
-## Syntax and ID Categories {#section_9CBA80B3F506437586F8CE48F4F6ECBC}
+## Syntax and ID Categories {#syntax}
 
 The following syntax defines the structure of a well-formed metadata file name. Note, *italics* indicates a variable placeholder. The other elements are constants and do not change.
 
@@ -41,7 +41,7 @@ In the metadata file name, the child ID is an identifier that classifies the typ
 1. Tactic
 1. Business unit or brand
 
-## Example {#section_A613DDC627444B2EBA6D5D6AAB42ACD6}
+## Example {#example}
 
 For a Creative metadata file, the file name could be 20190115_0_2.
 

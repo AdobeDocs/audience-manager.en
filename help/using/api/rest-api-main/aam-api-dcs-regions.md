@@ -15,7 +15,7 @@ Methods that let you programmatically list Audience Manager [!UICONTROL DCS] reg
 
 For a list of regions and their corresponding integers, see [DCS Region IDs, Locations, and Host Names](../../api/dcs-intro/dcs-api-reference/dcs-regions.md#concept_01C1E017A6694D1EAF9BF65BFFA54091).
 
-## List a Specific [!UICONTROL DCS] Region {#reference_8FCE1F7F285E4EEC94EB37954E146F7B}
+## List a Specific [!UICONTROL DCS] Region {#list-specific-dcs-region}
 
 A `GET` method to list a specific [!UICONTROL DCS] region.
 

@@ -11,7 +11,7 @@ uuid: 0f57d634-caa0-40da-81a2-c23fbd299bfd
 
 This article describes two features which provide advanced functionality for [!DNL Audience Lab]: [!DNL Duplicate Allocation Template] and [!DNL Segment Holdout].
 
-## Duplicate Allocation Template {#section_520626580ECB48C9A6EFEFC9A5D49D1B}
+## Duplicate Allocation Template {#duplicate-allocation-template}
 
 <!-- 
 <p>The <b>Allocation Template</b> represents how you split a test group into test segments and the way the test segments are mapped to destinations. </p>
@@ -24,7 +24,7 @@ In [!DNL Audience Lab], the [!DNL Allocation Template] represents the various se
 * The conversion trait(s) you use for a test group;
 * The date range in which the test group publishes to your selected destinations.
 
-By duplicating an allocation template, you can reuse the same distribution of test segments and destinations for a different base segment, in a new test group. An example of an allocation template is illustrated below. The image is taken from the [!UICONTROl Summary & Finalize] step in the [!UICONTROL Create Test Group] workflow.
+By duplicating an allocation template, you can reuse the same distribution of test segments and destinations for a different base segment, in a new test group. An example of an allocation template is illustrated below. The image is taken from the [!UICONTROL Summary & Finalize] step in the **Create Test Group** workflow.
 
 ![](assets/allocation_template_3.png)
 
@@ -40,17 +40,17 @@ Create an initial test group, then select **[!UICONTROL Duplicate Allocation Tem
 
    ![](assets/duplicate-allocation-template.png)
 
-1. In the [!UICONTROL Create Test Group] wizard, you can specify a base segment and rename your test segments, if you wish.
-1. You *cannot* modify:
+2. In the [!UICONTROL Create Test Group] wizard, you can specify a base segment and rename your test segments, if you wish.
+3. You *cannot* modify:
 
     * The distribution of devices between test segments;
     * The conversion trait(s);
     * The mapping of test segments to destinations. You can only fill in the mapping key, for the destinations that require one.
     * The date range in which your test group will publish to your selected destinations.
 
-1. Review the information you added in the previous steps and select **[!UICONTROL Finalize Group]**.
+4. Review the information you added in the previous steps and select **[!UICONTROL Finalize Group]**.
 
-## [!UICONTROL Test Segment Holdout] {#section_1D72DBA56C2F44ADB38B1BF86A300098}
+## [!UICONTROL Test Segment Holdout] {#test-segment-holdout}
 
 >[!NOTE]
 >

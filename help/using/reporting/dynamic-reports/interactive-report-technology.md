@@ -30,7 +30,7 @@ c_report_technology.xml
 
 Report data is updated weekly each Sunday. The update processes data from Saturday (the day before) back to the previous Sunday. 
 
-## Shapes, Colors, and Sizes Used in Interactive Reports {#reference_25F1411379B34946B5AB8156A0F87626}
+## Shapes, Colors, and Sizes Used in Interactive Reports {#shapes-colors-sizes}
 
 Most of the interactive reports display results using shapes of different sizes and colors. This display format is designed to help you make sense of the data visually, without having to wade through rows and columns of numbers.
 
@@ -75,7 +75,7 @@ The following table defines the shapes, sizes, and colors used in the dynamic re
  </tbody> 
 </table>
 
-## Report Icons and Tools Explained {#reference_8D90E6C1F0AE46D4AC0911707395BED6}
+## Report Icons and Tools Explained {#icons-tools-explained}
 
 Describes how to search and use the various icon-tools used in the dynamic reports.
 

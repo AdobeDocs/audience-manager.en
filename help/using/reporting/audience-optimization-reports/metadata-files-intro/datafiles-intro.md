@@ -11,13 +11,13 @@ uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 
 A data file contains impression, click, or conversion data. When formatted properly, you can import this data into Audience Manager and view it in the Audience Optimization reports. Format your data files according to these specifications in this section.
 
-## Overview {#section_8BD3D951B1D348ECB46FEDCAE17AC664}
+## Overview {#overview}
 
 A properly named and formatted data file lets you import impression, click, or conversion data into the [Audience Optimization Reports](../../../reporting/audience-optimization-reports/audience-optimization-reports.md#concept_D66D2C58493E48BDAFF2F95BBB508946). This is useful when working with a partner who is not integrated with [!DNL Audience Manager] and you want to work with their data in that report suite. This process requires separate files for impression, click, and conversion data. Do not mix these events in a single file.
 
 A data file must be accompanied by a metadata file. The metadata file contents match data file information to related, human-readable labels in the report menus. For more information, see [Overview and Mappings for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md#concept_548097F263114FC1811B1EEA21D9C461).
 
-## Naming Conventions for Data Files {#section_66F3F3588C85407CB33E13DA8D47795D}
+## Naming Conventions for Data Files {#naming-conventions}
 
 The following syntax defines the structure of a well-formed data file name. Note, *italics* indicates a variable placeholder that changes depending on the file contents.
 
@@ -35,7 +35,7 @@ Given these requirements, name your data files based on their contents like this
 * Click data: <pre><code>clicks_<i>yyyymmdd</i>.gz</code></pre>
 * Conversion data: <pre><code>conversions_<i>yyyymmdd</i>.gz</code></pre>
 
-## Content Format for Data Files {#section_CC584987F0BC4C3FA62F6CDA7AE9D3FD}
+## Content Format for Data Files {#content-format}
 
 The following syntax defines the content structure in well-formed data file. Note, *italics* indicates a variable placeholder and is replaced with an label in an actual data file.
 
@@ -133,7 +133,7 @@ The table below lists and describes the column headers for your data file. Heade
  </tbody> 
 </table>
 
-## Delivery Methods for Data Files {#section_84A1C548F9084A9C98AAB4349429CBD8}
+## Delivery Methods for Data Files {#delivery-methods}
 
 Upload your impression, click, or conversion data files to an Amazon S3 directory for your [!DNL Audience Manager] account. Refer to this section for information about delivery/directory paths, file processing times, and updates.
 
@@ -188,6 +188,6 @@ Data files are processed four times a day, at regular intervals.
 
 To update your data, send in a file that contains all of the impressions, clicks, or conversions for a particular day. In this case, a day is the 24-hour period from one midnight to the next. As a best practice, you may want to use UTC time to define your day interval.
 
-## Next Steps {#section_559B4463EB81436BA77BD855A7AB9CD4}
+## Next Steps {#next-steps}
 
 Review the requirements for naming and creating metadata files. To get started, see [Overview and Mappings for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md#concept_548097F263114FC1811B1EEA21D9C461). 

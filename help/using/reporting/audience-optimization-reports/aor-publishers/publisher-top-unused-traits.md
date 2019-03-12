@@ -11,11 +11,11 @@ uuid: 90bcd333-41b8-416e-aa4e-a8661891df50
 
 Top Unused Traits are represented as a scatter diagram of traits that are not yet members of a segment, based on trait type, data source, and performance.
 
-## Use Case {#section_5B48C977983A4F3088D213814AF97C60}
+## Use Case {#use-cases}
 
 With the [!UICONTROL Top Unused Traits] report, you can analyze and compare the performance of first and third party traits that are currently not mapped to a segment. This view can point out the best traits to use in an audience segment for either campaign optimization or net new opportunities.
 
-## Using the Top Unused Traits Report {#section_C20A8CB8C5FF4EDE9B55BBD6F46A4ED6}
+## Using the Top Unused Traits Report {#using-the-report}
 
 Use the **[!UICONTROL Data Provider Type]** controls to toggle between first party and third party traits. Select **[!UICONTROL All]** to return first and third party traits in the report.
 
@@ -33,7 +33,7 @@ Use the **[!UICONTROL Traits]** drop-down box to select which traits you want to
 >
 >When enabling [!UICONTROL Audience Optimization for Publishers], you must include descriptive metadata for [!UICONTROL Order IDs], as described in Step 3 of [Import DFP Data Files Into Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md#concept_32EC89A543BA4333B62DD4C0B3E7060A). By doing this, you assure that the report details the web property as [!UICONTROL Order] instead of the [!UICONTROL Order ID].
 
-## Interpreting the Results {#section_EB9FE9917C4748F9BE6AF694D5141365}
+## Interpreting the Results {#interpreting-results}
 
 **Sample Report**
 

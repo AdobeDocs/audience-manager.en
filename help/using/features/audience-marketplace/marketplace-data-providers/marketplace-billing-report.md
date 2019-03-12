@@ -32,31 +32,31 @@ A billing report contains the following information.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Data Provider PID</span> </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol"> Data Provider PID</span></b> </p> </td> 
    <td colname="col2"> <p>Your <span class="keyword"> Audience Manager</span> data provider ID. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Data Provider Name</span> </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol"> Data Provider Name</span></b> </p> </td> 
    <td colname="col2"> <p>Your company or organization name. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Buyer PID</span> </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol"> Buyer PID</span></b> </p> </td> 
    <td colname="col2"> <p>Buyer (subscriber) ID. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Buyer Name</span> </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol"> Buyer Name</span></b> </p> </td> 
    <td colname="col2"> <p>The buyer's company or organization name. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Feed ID</span> </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol"> Feed ID</span></b> </p> </td> 
    <td colname="col2"> <p>The ID of the data feed </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Feed Name</span> </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol"> Feed Name</span></b> </p> </td> 
    <td colname="col2"> <p>The name of the data feed. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Plan Use Cases</span> </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol"> Plan Use Cases</span></b> </p> </td> 
    <td colname="col2"> <p>Use cases let sellers control how buyers use data. Options include: </p> 
     <ul id="ul_8230A93B5DCE4C10B025D3C761F72CEF"> 
      <li id="li_3400C6475F6D43D7AF54D9A0ED9C09E0">Segments and overlap </li> 
@@ -65,19 +65,19 @@ A billing report contains the following information.
     </ul> <p>See <a href="../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#concept_54DDE4186D0045F386F94BB8C56A5DEA"> Plan Types for Data Feeds</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Unit of Measure</span> </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol"> Unit of Measure</span></b> </p> </td> 
    <td colname="col2"> <p>Indicates CPM or flat fee billing. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> List Price</span> </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol"> List Price</span></b> </p> </td> 
    <td colname="col2"> <p>The subscription fee for each data feed. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Discounted Price</span> </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol"> Discounted Price</span></b> </p> </td> 
    <td colname="col2"> <p>The subscription fee for a discounted data feed. See <a href="../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#concept_A31D926BBA0743BCB7160C7F571930FD"> Discounts for Data Providers</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Units</span> </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol"> Units</span></b> </p> </td> 
    <td colname="col2"> <p>Varies by feed price type: </p> 
     <ul id="ul_01550B436EEE4FBC8C9945E08E3CE2C6"> 
      <li id="li_C589F6A751AB407E853AC6F726A47F14">Flat fee data feeds: Returns 1 only. </li> 
@@ -85,27 +85,27 @@ A billing report contains the following information.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Total Cost</span> </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol"> Total Cost</span></b> </p> </td> 
    <td colname="col2"> <p>The amount <span class="keyword"> Audience Manager</span> bills a buyer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Billing Period</span> </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol"> Billing Period</span></b> </p> </td> 
    <td colname="col2"> <p> In the report, this is the last day of the previous month. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Entry Date</span> </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol"> Entry Date</span></b> </p> </td> 
    <td colname="col2"> <p>The date a buyer entered subscription / usage information. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Subscription Start Date</span> </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol"> Subscription Start Date</span></b> </p> </td> 
    <td colname="col2"> <p>The date a buyer started their data feed subscription. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Subscription End Date</span> </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol"> Subscription End Date</span></b> </p> </td> 
    <td colname="col2"> <p>The date a buyer ended their data feed subscription. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Flag</span> </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol"> Flag</span></b> </p> </td> 
    <td colname="col2"> <p> <i>For CPM feeds only</i>. Flag options include: </p> 
     <ul id="ul_509BC73B754A43299F8D719AB0805ABD"> 
      <li id="li_AB35E33B68EC49A187495DF6B9D86563">0: Indicates a subscriber has reported usage information to <span class="keyword"> Audience Manager</span>. </li> 

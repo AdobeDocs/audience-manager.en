@@ -112,9 +112,9 @@ In [!UICONTROL Audience Marketplace], providers can offer buyers a discount on t
    <td colname="col1"> <p> <b>Potential Subscribers</b> </p> </td> 
    <td colname="col2"> <p>A <a href="../../../features/audience-marketplace/marketplace-private-feeds.md#concept_68EDE94B558C4B88BBCC994B67726FD2"> potential subscriber</a> is a data buyer who has requested access to a private data feed, received seller approval, but has not subscribed to the feed. To request a discount as a potential subscriber: </p> 
     <ol id="ol_9CECDA92E7894B20AC8A777D78962188"> 
-     <li id="li_618B64160CF24549AFCA73E006DCA35A">Go to <span class="uicontrol"> Audience Marketplace &gt; Marketplace</span>. </li> 
+     <li id="li_618B64160CF24549AFCA73E006DCA35A">Go to <b><span class="uicontrol"> Audience Marketplace &gt; Marketplace</span></b>. </li> 
      <li id="li_FE52A06B30FC4858B48AF81954365FE9">Click the name of the feed you've been approved for. </li> 
-     <li id="li_763C050AC9464BE380D00F6085B6E540">Click <span class="uicontrol"> Request More Details</span>. Ask for a discount in your details request to the seller. </li> 
+     <li id="li_763C050AC9464BE380D00F6085B6E540">Click <b><span class="uicontrol"> Request More Details</span></b>. Ask for a discount in your details request to the seller. </li> 
     </ol> </td> 
   </tr> 
  </tbody> 
@@ -204,35 +204,35 @@ The list that accompanies a deactivation email contains the fields as shown belo
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Data Feed ID</span> </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol"> Data Feed ID</span></b> </p> </td> 
    <td colname="col2"> <p>ID of the deactivated data feed. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Data Feed Name</span> </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol"> Data Feed Name</span></b> </p> </td> 
    <td colname="col2"> <p>Name of the deactivated data feed. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Trait SID</span> </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol"> Trait SID</span></b> </p> </td> 
    <td colname="col2"> <p>Deactivated trait IDs. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Trait Name</span> </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol"> Trait Name</span></b> </p> </td> 
    <td colname="col2"> <p>Deactivated trait names. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Segment SID</span> </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol"> Segment SID</span></b> </p> </td> 
    <td colname="col2"> <p>ID of the segment that contains deactivated traits. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Segment Name</span> </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol"> Segment Name</span></b> </p> </td> 
    <td colname="col2"> <p>Name of the segment that contains deactivated traits. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Algo Model ID</span> </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol"> Algo Model ID</span></b> </p> </td> 
    <td colname="col2"> <p>The ID of the algorithmic model that contain deactivated traits. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Algo Model Name</span> </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol"> Algo Model Name</span></b> </p> </td> 
    <td colname="col2"> <p>The names of algorithmic models that contain deactivated traits. </p> </td> 
   </tr> 
  </tbody> 

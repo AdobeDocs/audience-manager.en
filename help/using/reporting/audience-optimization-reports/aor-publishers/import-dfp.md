@@ -11,7 +11,7 @@ uuid: c685f34f-3e50-4c4b-99fa-d8bbafe0b268
 
 Before Audience Manager can enable Audience Optimization for Publishers, you must ensure that all prerequisites outlined in this article are met. Contact Customer Care after checking off all prerequisites.
 
-## Prerequisites for DFP Log Ingestion {#section_BCF5B581A7234CEE8DC9D4F578D34EDF}
+## Prerequisites for DFP Log Ingestion {#prereqs-dfp-ingestion}
 
 Note that the process described in this section must be completed *before* you move on to the prerequisites for log ingestion enablement.
 
@@ -28,7 +28,7 @@ You need to set the [!DNL Audience Manager] ID yourself, and can work with [!DNL
 * The User ID value is correctly formatted as the [!DNL Audience Manager] UUID, as described in our [Index of IDs in Audience Manager](../../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8). 
 * You have included the [!DNL Audience Manager] UUID in a defined field in your DFP logs (e.g. CustomTargeting).
 
-## Prerequisites for Log Ingestion Enablement {#section_C9F2432E46B04C89B52752825650DADE}
+## Prerequisites for Log Ingestion Enablement {#prereqs-ingestion-enablement}
 
 <table id="table_C980A9F9B0FB4157B4908A64768B1571"> 
  <thead> 
@@ -81,6 +81,6 @@ You need to set the [!DNL Audience Manager] ID yourself, and can work with [!DNL
  </tbody> 
 </table>
 
-## E-Mail Template {#section_36708E8B91C84BB19E7FC5C6B9B81428}
+## E-Mail Template {#email-template}
 
 To finalize the log ingestion enablement, send us an e-mail to aamsupport@adobe.com. Please use the [attached e-mail template](assets/enable_dfp_ingestion.txt).

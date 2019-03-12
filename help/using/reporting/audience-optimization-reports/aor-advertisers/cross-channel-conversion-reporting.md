@@ -37,7 +37,7 @@ The following table lists important considerations when setting up [!UICONTROL C
   </tr> 
   <tr> 
    <td> <p>Attribution window </p> </td> 
-   <td> <p> <span class="uicontrol"> The AAM+DCM</span> attribution window is 14 days, meaning that only conversion traits exhibited in the last two weeks are considered. </p> </td> 
+   <td> <p> <b><span class="uicontrol"> The AAM+DCM</span></b> attribution window is 14 days, meaning that only conversion traits exhibited in the last two weeks are considered. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Last-touch methodology </p> </td> 

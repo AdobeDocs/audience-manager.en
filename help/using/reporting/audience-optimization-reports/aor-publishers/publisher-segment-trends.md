@@ -15,13 +15,13 @@ A mapped segment is a segment you create and send to a destination for targeting
 
 Compare trends and volume for your selected metrics to get a better picture of how your audiences behave over time.
 
-## Use Case {#section_04C3713B9FFD417CAE5E07AD13AB3084}
+## Use Case {#use-cases}
 
 Use the [!UICONTROL Segment Trend] report to validate a segment's performance over time and to pinpoint trends based on strong performance or scale.
 
 With this report, you can understand which of your web properties show a dip or faulty increase and troubleshoot as necessary. This report is the next step after you identify your audience of interest in the [!UICONTROL Segment Performance] report, to ensure that the strong or poor performance you saw in the [!UICONTROL Segment Performance] tab is consistent over time.
 
-## Using the Segment Trend Report {#section_63CF42BDE429427A82BAEDF435A768D4}
+## Using the Segment Trend Report {#using-the-report}
 
 Toggle between **[!UICONTROL Mapped]** and **[!UICONTROL Unmapped]** to select segments that are mapped to a destination or not. Select **[!UICONTROL All]** to include all your segments in the report.
 
@@ -39,7 +39,7 @@ Use the **[!UICONTROL Segment]** drop-down box to select which segments you want
 >
 >When enabling [!UICONTROL Audience Optimization for Publishers], you must include descriptive metadata for [!UICONTROL Line Item] IDs, as described in Step 3 of [Import DFP Data Files Into Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md#concept_32EC89A543BA4333B62DD4C0B3E7060A). By doing this, you assure that the report details the web property as [!UICONTROL Line Item] instead of the [!UICONTROL Line Item] ID.
 
-## Interpreting the Results {#section_BE8FAF66993F4471A2C2A90720F911F4}
+## Interpreting the Results {#interpreting-results}
 
 The [!UICONTROL Segment Trend] report returns data in a line graph for a 14-day interval only. In this example, the report shows impression and click-through trends for a set of mapped and unmapped segments.
 
