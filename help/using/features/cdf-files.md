@@ -12,7 +12,7 @@ uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 
 Basic information about [!UICONTROL Customer Data Feed] ([!UICONTROL CDF]) files and instructions on how to get started. Start here if you're interested in receiving [!UICONTROL CDF] files or just want more information.
 
-## File Contents and Purpose {#section_F0D2FA4C021A4C5EBC1D5308AE2F256F}
+## File Contents and Purpose {#file-contents-purpose}
 
 <!-- cdf-intro.xml -->
 
@@ -22,28 +22,28 @@ A [!UICONTROL CDF] file contains the same data that an [!DNL Audience Manager] e
 >
 >You should not use [!UICONTROL CDF] files as a proxy to monitor page traffic, reconcile report discrepancies, or for billing, etc.
 
-## Getting Started {#section_5DCA2FA476E048A797C1021E5C75AA92}
+## Getting Started {#getting-started}
 
 There is no self-service process to start [!UICONTROL CDF] file delivery. Contact your [!DNL Audience Manager] consultant or Customer Care to get started. During implementation, your [!DNL Audience Manager] representative will:
 
 * Set up your [!DNL Amazon S3] storage bucket.
 * Provide read-only [!DNL S3] authentication credentials to your file storage bucket. You will not be able to see or access directories and files that belong to other customers.
 
-File notifications and [!UICONTROL CDF] files will appear in your [!DNL S3] bucket when they're ready for download. You're responsible for monitoring and downloading files from your assigned [!DNL S3] directory. See [Customer Data Feed File Processing Notifications](#concept_00F913A9946A4A10A0F34269AC84A563).
+File notifications and [!UICONTROL CDF] files will appear in your [!DNL S3] bucket when they're ready for download. You're responsible for monitoring and downloading files from your assigned [!DNL S3] directory. See [Customer Data Feed File Processing Notifications](#cdf-file-processing-notifications).
 
-## Next Steps {#section_AB55E04E26D9464D8EB911D51B45E4B8}
+## Next Steps {#next-steps}
 
-The following documentation and the [Customer Data Feed FAQ](../faq/faq-cdf.md#concept_E832A7307FA0475C918F95116C21CBC6) can help you become more familiar with this service.
+The sections below and the [Customer Data Feed FAQ](../faq/faq-cdf.md#concept_E832A7307FA0475C918F95116C21CBC6) can help you become more familiar with this service.
 
-## Customer Data Feed Contents Defined {#reference_6257ACA5665D4820900F111CFED50866}
+## Customer Data Feed Contents Defined {#cdf-defined}
 
-Lists and defines the data elements and arrays in a [!UICONTROL Customer Data Feed] ([!UICONTROL CDF]) file, by order of appearance. Definitions include data types, but this information is not part of a [!UICONTROL CDF] file.
+Lists and defines the data elements and arrays in a [!UICONTROL CDF] file, by order of appearance. Definitions include data types, but this information is not part of a [!UICONTROL CDF] file.
 
-## Definitions {#section_DB2A76D38BCD4FE3832B84FD835F153C}
+## Definitions {#definitions}
 
 <!-- cdf-contents-defined.xml -->
 
-A [!UICONTROL CDF] file includes some or all of the fields defined below. For information about internal file organization, see [Customer Data Feed File Structure](#concept_4F215D39A64A43CCAE8791FCD3D5232D).
+A [!UICONTROL CDF] file includes some or all of the fields defined below. For information about internal file organization, see [Customer Data Feed File Structure](#cdf-file-structure).
 
 <table id="table_46BC897A30C2469AB5911F5B85A3FAA7"> 
  <thead> 
@@ -60,7 +60,7 @@ A [!UICONTROL CDF] file includes some or all of the fields defined below. For in
    <td colname="col3"> <p>The time a CDF file was processed by the <span class="wintitle"> Data Collection Servers</span> (DCS). The timestamp uses the <i>yyyy-mm-dd hh:mm:ss</i> format and is set in the UTC time zone. </p> <p> <p>Note: The Event Time <i>is not</i>: <p> 
        <ul id="ul_41ABC813FAAC4659AC8DA13F4A6DD7EB"> 
         <li id="li_0192D253EA4C49C4BF2E8BA62CEE028E">The time of the page event or the event call itself, although it may be close to those times. </li> 
-        <li id="li_271DF14395BC495FBF17186588A554A8">Related to the DCS hour in the file name. See also, <a href="#concept_C907608AC1ED44BA8EF870F45E5A9CB9"> Customer Data Feed File Name Times and File Content Times...</a>. </li> 
+        <li id="li_271DF14395BC495FBF17186588A554A8">Related to the DCS hour in the file name. See also, <a href="#different-processing-times"> Customer Data Feed File Name Times and File Content Times...</a>. </li> 
        </ul> </p> </p> </p> </td> 
   </tr> 
   <tr> 
@@ -86,7 +86,7 @@ A [!UICONTROL CDF] file includes some or all of the fields defined below. For in
   <tr> 
    <td colname="col1"> <p><span class="codeph"> Request Parameters</span> </p> </td> 
    <td colname="col2"> <p>String </p> </td> 
-   <td colname="col3"> <p>A string that captures all the parameters (variables, IDs, key-value pairs, etc.) passed in on the event call. </p> <p>Shortened example: </p> <p> <span class="codeph"> d_rtbd:json,c_contextData.a.CarrierName:mobile,c_contextData.a.adid:92D56353-49C5-431E-B474-FC528D585810,c_contextData.a,RunMode:Application,c_contextData.a.DaysSinceLastUpgrade:61,d_cid_ic:xid%01EACB6E40-AC65-4012-9FE9-ABD59965E9C4%011,c_contextData.a.PrevSessionLength:583</span> </p> </td> 
+   <td colname="col3"> <p>A string that captures all the parameters (variables, IDs, key-value pairs, etc.) passed in on the event call. </p> <p>Shortened example: </p> <p> <code> d_rtbd:json,c_contextData.a.CarrierName:mobile,c_contextData.a.adid:92D56353-49C5-431E-B474-FC528D585810,c_contextData.a,RunMode:Application,c_contextData.a.DaysSinceLastUpgrade:61,d_cid_ic:xid%01EACB6E40-AC65-4012-9FE9-ABD59965E9C4%011,c_contextData.a.PrevSessionLength:583</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> Referer Data Type</span> </p> </td> 
@@ -116,11 +116,11 @@ A [!UICONTROL CDF] file includes some or all of the fields defined below. For in
  </tbody> 
 </table>
 
-## [!UICONTROL Customer Data Feed] File Structure {#concept_4F215D39A64A43CCAE8791FCD3D5232D}
+## [!UICONTROL Customer Data Feed] File Structure {#cdf-file-structure}
 
-Lists and defines the data structure of a [!UICONTROL Customer Data Feed] ([!UICONTROL CDF]) file. This includes data sequence, field delimiters and separators, a data file map, and sample file.
+Lists and defines the data structure of a [!UICONTROL CDF] file. This includes data sequence, field delimiters and separators, a data file map, and sample file.
 
-## Data Field Identifiers and Sequence {#section_FBE42884A7714114BC5D434C105BCCEF}
+## Data Field Identifiers and Sequence {#identifiers-and-sequence}
 
 <!-- cdf-file-structure.xml -->
 
@@ -158,12 +158,12 @@ Lists and defines the data structure of a [!UICONTROL Customer Data Feed] ([!UIC
       <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud Device ID (or MID). See also, <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID Service</a> </li> 
       <li id="li_7A05AF4790A1425A90D019681DF4A595">All Segments </li> 
       <li id="li_1B5A6F076A354BA0A931CB260E6D2675">All Traits </li> 
-     </ol> </p> <p>For field descriptions, see <a href="#reference_6257ACA5665D4820900F111CFED50866"> Customer Data Feed Contents Defined</a>. </p> </td> 
+     </ol> </p> <p>For field descriptions, see <a href="#cdf-defined"> Customer Data Feed Contents Defined</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## [!UICONTROL CDF] File Map {#section_E57453FBC4D4489484F122BE75EECBDE}
+## [!UICONTROL CDF] File Map {#cdf-file-map}
 
 [!UICONTROL CDF] file data appears in the order shown below.
 
@@ -173,17 +173,17 @@ Lists and defines the data structure of a [!UICONTROL Customer Data Feed] ([!UIC
 
 Arrays in a [!UICONTROL CDF] file start and end with the `Ctrl + a` field separator. This makes the first element in an array appear like a standalone data field. For example, the realized traits array starts with `^A1234`. The array delimiter and ID `^B5678` follows this entry. As a result, you might be tempted to think that the first element in the realized traits array is ID 5678 (because it starts with `^B`). This is not the case, which is why you need to be familiar with the sequence and structure of a data file. Even though the first element in the realized trait array (or any of the other arrays in a [!UICONTROL CDF] file) starts with `^A`, the order of appearance or position in the file defines the start of an array. And, the first element in an array is always separated from the preceding entry by `^A`.
 
-## Sample [!UICONTROL CDF] File {#section_8DD0364915C8428B8BCEF02C981779EA}
+## Sample [!UICONTROL CDF] File {#sample-file}
 
 A sample [!UICONTROL CDF] file could look similar to the following. We've inserted line breaks into this example to help it fit the page.
 
 ![](assets/CDF-sample.png)
 
-## [!UICONTROL Customer Data Feed] File Naming Conventions {#reference_DAC53BEEA60B426588D1B66B3B92E8C1}
+## [!UICONTROL Customer Data Feed] File Naming Conventions {#cdf-naming-conventions}
 
-Lists and defines the elements in your [!UICONTROL Customer Data File] ([!UICONTROL CDF]) file name.
+The sections below list and define the elements in your [!UICONTROL CDF] file name.
 
-## [!UICONTROL CDF] File Name: Syntax and Example {#section_C06A94AD48E84B758645FB74BAEFAB34}
+## [!UICONTROL CDF] File Name: Syntax and Example {#cdf-file-name}
 
 <!-- cdf-file-name.xml -->
 
@@ -196,7 +196,7 @@ A typical [!UICONTROL CDF] file name contains the elements listed below. Note, *
 
 In your [!DNL S3] storage bucket, files are sorted in ascending order by Partner ID ([!UICONTROL PID]), day, and hour.
 
-## [!UICONTROL CDF] File Name Elements Defined {#section_D8D955D05105486EB77C4F5DA08C7CBD}
+## [!UICONTROL CDF] File Name Elements Defined {#cdf-file-name-elements}
 
 The following table lists and defines the elements in a [!UICONTROL CDF] file name.
 
@@ -222,7 +222,7 @@ The following table lists and defines the elements in a [!UICONTROL CDF] file na
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">hour=<span class="varname"> hh</span></span> </p> </td> 
-   <td colname="col2"> <p>A time value expressed in 24-hour notation and set in the UTC time zone. See also, <a href="#concept_C907608AC1ED44BA8EF870F45E5A9CB9"> Customer Data Feed File Name Times and File Content Times...</a>. </p> </td> 
+   <td colname="col2"> <p>A time value expressed in 24-hour notation and set in the UTC time zone. See also, <a href="#different-processing-times"> Customer Data Feed File Name Times and File Content Times...</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> partner ID</span> </span> </p> </td> 
@@ -239,11 +239,11 @@ The following table lists and defines the elements in a [!UICONTROL CDF] file na
  </tbody> 
 </table>
 
-## [!UICONTROL Customer Data Feed] File Processing Notifications {#concept_00F913A9946A4A10A0F34269AC84A563}
+## [!UICONTROL Customer Data Feed] File Processing Notifications {#cdf-file-processing-notifications}
 
 [!DNL Audience Manager] writes a `.info` file to your [!DNL S3] directory to let you know when your [!UICONTROL Customer Data File] ([!UICONTROL CDF]) is ready for download. The `.info` file also includes [!DNL JSON] formatted metadata about the contents of your [!UICONTROL CDF] files. Review this section for information about the syntax and fields used by this notification file.
 
-## Sample Info File {#section_BC331FC87C5A4BC9AE799B53F4FAA3E7}
+## Sample Info File {#sample-info-file}
 
 <!-- cdf-notifications.xml -->
 
@@ -274,7 +274,7 @@ Each `.info` file contains a `Files` and `Totals` section. The `Files` section c
 }
 ```
 
-## Info File Fields Defined {#section_24CE58EEA37347B58C4C02E1B7BF5278}
+## Info File Fields Defined {#info-file-fields-defined}
 
 The following tables list and define the elements in a [!UICONTROL CDF] `.info` file.
 
@@ -302,7 +302,7 @@ The following tables list and define the elements in a [!UICONTROL CDF] `.info` 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FileName</span> </p> </td> 
-   <td colname="col2"> <p>The file name. See <a href="#reference_DAC53BEEA60B426588D1B66B3B92E8C1"> Customer Data Feed File Naming Conventions</a>. </p> </td> 
+   <td colname="col2"> <p>The file name. See <a href="#cdf-naming-conventions"> Customer Data Feed File Naming Conventions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FileSequenceNumber</span> </p> </td> 
@@ -344,11 +344,11 @@ The following tables list and define the elements in a [!UICONTROL CDF] `.info` 
  </tbody> 
 </table>
 
-## [!UICONTROL Customer Data Feed] File Name Times and File Content Times are Different {#concept_C907608AC1ED44BA8EF870F45E5A9CB9}
+## [!UICONTROL Customer Data Feed] File Name Times and File Content Times are Different {#different-processing-times}
 
-Your [!UICONTROL Customer Data Feed] ([!UICONTROL CDF]) file contains timestamps in the file name and file contents. These timestamps record different event processes for the same [!UICONTROL CDF] file. It is not uncommon to see different timestamps in the name and contents of the same file. Understanding each timestamp can help you avoid common mistakes when working with this data or trying to sort it by time.
+Your [!UICONTROL CDF] file contains timestamps in the file name and file contents. These timestamps record different event processes for the same [!UICONTROL CDF] file. It is not uncommon to see different timestamps in the name and contents of the same file. Understanding each timestamp can help you avoid common mistakes when working with this data or trying to sort it by time.
 
-## Locating [!UICONTROL CDF] File Timestamps {#section_215B6A745B85476BA5DB2CDD8CD5C170}
+## Locating [!UICONTROL CDF] File Timestamps {#locating-timestamps}
 
 <!-- cdf-time-differences.xml -->
 
@@ -356,7 +356,7 @@ Your [!UICONTROL Customer Data Feed] ([!UICONTROL CDF]) file contains timestamps
 
 ![](assets/cdf-timestamp.png)
 
-## Understanding the Difference Between Timestamps {#section_A8747AB22CF440C4805E9B0D9B9D2AB7}
+## Understanding the Difference Between Timestamps {#understanding-timestamps}
 
 The following table provides additional details about your [!UICONTROL CDF] file timestamps along with information about how to use them properly.
 
