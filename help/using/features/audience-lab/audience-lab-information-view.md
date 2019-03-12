@@ -12,7 +12,7 @@ uuid: a49dfdb3-21e1-4c3d-b957-4d445f890124
 
 This section displays general information on the test group and the test segments it is divided into, the selected conversion traits and mapped destinations. The section also provides controls for duplicating or deleting the test group.
 
-The page displays information on the baseline segment you used for the test group and how the test segments are divided.
+You can also see information on the baseline segment you used for the test group and how the test segments are divided.
 
 The **[!UICONTROL Test Segments]** are populated randomly with users from the baseline segment you used for the test group. The overview shows the percentages of users you allotted to each test segment.
 

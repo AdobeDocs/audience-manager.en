@@ -60,7 +60,7 @@ Audience Manager used [!UICONTROL Tag Insertion Manager] (TIM) to create and man
 
 Algorithmic Models not only finds the most influential traits, but also scores users based on those traits and assigns each user an individual score. You then create algorithmic traits to target your users. With accuracy and reach controls in the Trait Builder, you can specify which users amongst all those who have the influential traits you want to target.
 
-Algorithmic Models enables you to select users at different accuracy levels and test in Audience Lab which group of users converts better. See the detailed use case in [Compare Models in Audience Lab](../features/audience-lab/audience-lab-use-cases.md#task_DB23E5242DAA4183949E90715F7DAA32).
+Algorithmic Models enables you to select users at different accuracy levels and test in Audience Lab which group of users converts better. See the detailed use case in [Compare Models in Audience Lab](../features/audience-lab/audience-lab-use-cases.md#compare-models).
 
 In Algorithmic Models, the model runs every 8 days and refreshes the users qualified for algorithmic traits.
 
