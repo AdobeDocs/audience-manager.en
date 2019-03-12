@@ -43,28 +43,28 @@ The following table defines the role or functions provided by each action tab.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Current Subscribers</span> </p> </td> 
+   <td colname="col1"> <p> <b><span class="uicontrol"> Current Subscribers</span></b> </p> </td> 
    <td colname="col2"> <p>Lists approved buyers who have subscribed to a private data feed. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Potential Subscribers</span> </p> </td> 
-   <td colname="col2"> <p>Lists approved buyers who have not subscribed to a private data feed. </p> <p>An approval lets buyers view a data feed as if it were public. This gives them a chance to review and evaluate your feeds before subscribing. You can also offer discounts on data feeds to buyers listed as potential subscribers. Once the buyer subscribes, their profile moves to <span class="uicontrol"> Current Subscribers</span>. </p> </td>
+   <td colname="col1"> <p> <b><span class="uicontrol"> Potential Subscribers</span></b> </p> </td> 
+   <td colname="col2"> <p>Lists approved buyers who have not subscribed to a private data feed. </p> <p>An approval lets buyers view a data feed as if it were public. This gives them a chance to review and evaluate your feeds before subscribing. You can also offer discounts on data feeds to buyers listed as potential subscribers. Once the buyer subscribes, their profile moves to <b><span class="uicontrol"> Current Subscribers</span></b>. </p> </td>
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Access Requests</span> </p> </td>
+   <td colname="col1"> <p> <b><span class="uicontrol"> Access Requests</span></b> </p> </td>
    <td colname="col2"> <p>Lists new subscription requests for a private data feed. Click this tab to review, approve, or reject buyer requests. </p>
     <ul id="ul_BE0A835A90B14C05B3F63226B79D052D"> 
-     <li id="li_2C5686CEB6F4430BA18AED5AD75C330A">Approved buyers move to <span class="uicontrol"> Potential Subscribers</span>. </li>
-     <li id="li_929591FCF81E43A3881813BDBD3AC278">Rejected buyers move to <span class="uicontrol"> Denied Access</span>. </li>
+     <li id="li_2C5686CEB6F4430BA18AED5AD75C330A">Approved buyers move to <b><span class="uicontrol"> Potential Subscribers</span></b>. </li>
+     <li id="li_929591FCF81E43A3881813BDBD3AC278">Rejected buyers move to <b><span class="uicontrol"> Denied Access</span></b>. </li>
     </ul> </td>
   </tr>
   <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Details Requests</span> </p> </td>
-   <td colname="col2"> <p>Lists approved buyers who have not yet subscribed to a data feed and have requested more information about your feeds. </p> <p>An approval lets buyers view a data feed as if it were public. This gives them a chance to review and evaluate your feeds before subscribing. You can also offer discounts on data feeds to buyers requesting access. Responding to a details request removes the buyer profile from this tab. If they haven't subscribed, the buyer profile is still in <span class="uicontrol"> Potential Subscribers</span>. </p> </td>
+   <td colname="col1"> <p> <b><span class="uicontrol"> Details Requests</span></b> </p> </td>
+   <td colname="col2"> <p>Lists approved buyers who have not yet subscribed to a data feed and have requested more information about your feeds. </p> <p>An approval lets buyers view a data feed as if it were public. This gives them a chance to review and evaluate your feeds before subscribing. You can also offer discounts on data feeds to buyers requesting access. Responding to a details request removes the buyer profile from this tab. If they haven't subscribed, the buyer profile is still in <b><span class="uicontrol"> Potential Subscribers</span></b>. </p> </td>
   </tr>
   <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Denied Access</span> </p> </td> 
-   <td colname="col2"> <p>Lists rejected subscription requests for a private data feed. </p> <p>To re-approve denied buyers, change the <span class="wintitle"> Rejection Status</span> to <span class="uicontrol"> Allow</span>. This moves the buyer to <span class="uicontrol"> Potential Subscribers</span>. </p> </td> 
+   <td colname="col1"> <p> <b><span class="uicontrol"> Denied Access</span></b> </p> </td> 
+   <td colname="col2"> <p>Lists rejected subscription requests for a private data feed. </p> <p>To re-approve denied buyers, change the <span class="wintitle"> Rejection Status</span> to <b><span class="uicontrol"> Allow</span></b>. This moves the buyer to <b><span class="uicontrol"> Potential Subscribers</span></b>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -96,15 +96,15 @@ The table describes how these different feed types show or hide data.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Public</span> </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol"> Public</span></b> </p> </td> 
    <td colname="col2"> <p>The provider's name, trait, and unique data appears in the list. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Private Without Branding</span> </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol"> Private Without Branding</span></b> </p> </td> 
    <td colname="col2"> <p>The provider's name is set to "Private Seller," and you cannot see trait counts, unique data, and trait overlap data. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Private With Branding</span> </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol"> Private With Branding</span></b> </p> </td> 
    <td colname="col2"> <p>The provider's name appears in the list but you cannot see trait counts, unique data, and trait overlap data. </p> </td> 
   </tr> 
  </tbody> 

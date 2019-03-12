@@ -52,7 +52,7 @@ Please take note of the following aspects and limitations related to [!UICONTROL
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Excluded Traits in Models Summary View </p> </td>
-   <td colname="col2"> <p>The excluded traits <i>do not show up</i> in the Models Summary view. You can see the excluded traits only in the <span class="uicontrol"> Edit Model</span> workflow. </p> </td>
+   <td colname="col2"> <p>The excluded traits <i>do not show up</i> in the Models Summary view. You can see the excluded traits only in the <b><span class="uicontrol"> Edit Model</span></b> workflow. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p>Role-Based Access Controls (RBAC) </p> </td>
@@ -72,7 +72,7 @@ Please take note of the following aspects and limitations related to [!UICONTROL
   </tr> 
   <tr> 
    <td colname="col1"> <p>Exclude baseline trait </p> </td>
-   <td colname="col2"> <p>The baseline trait is excluded by default, so it does not show up in the <span class="uicontrol"> Exclusions</span> list, when building the model. </p> </td>
+   <td colname="col2"> <p>The baseline trait is excluded by default, so it does not show up in the <b><span class="uicontrol"> Exclusions</span></b> list, when building the model. </p> </td>
   </tr>
  </tbody>
 </table>

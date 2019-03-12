@@ -43,13 +43,13 @@ Additionally, at least one export label must match an export control before data
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="uicontrol"> No restriction</span> </td> 
+   <td colname="col1"> <b><span class="uicontrol"> No restriction</span></b> </td> 
    <td colname="col2"> n/a </td> 
    <td colname="col3"> By default, export restrictions are not set on new data sources and destinations. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="uicontrol"> Cannot be tied to personally identifiable information</span> (PII) </td> 
-   <td colname="col2"> <span class="uicontrol"> This destination may enable a combination with personally identifiable information (PII)</span> </td> 
+   <td colname="col1"> <b><span class="uicontrol"> Cannot be tied to personally identifiable information</span></b> (PII) </td> 
+   <td colname="col2"> <b><span class="uicontrol"> This destination may enable a combination with personally identifiable information (PII)</span></b> </td> 
    <td colname="col3">When selected, you cannot: 
     <ul id="ul_0D5A4D0373374217A4BACDFC3BB2F79D"> 
      <li id="li_C32FC26C6E814412A1C73B840E81BB68">Add traits to segments mapped to destinations that use PII. </li> 
@@ -57,8 +57,8 @@ Additionally, at least one export label must match an export control before data
     </ul> <p>This is often required by third-party data providers and when using data sources that contain ad/media tracking information. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="uicontrol"> Cannot be used for on-site ad targeting</span> </td> 
-   <td colname="col2"> <span class="uicontrol"> This destination may be used for on-site ad targeting</span> </td> 
+   <td colname="col1"> <b><span class="uicontrol"> Cannot be used for on-site ad targeting</span></b> </td> 
+   <td colname="col2"> <b><span class="uicontrol"> This destination may be used for on-site ad targeting</span></b> </td> 
    <td colname="col3">When selected, you cannot: 
     <ul id="ul_5B17972E7E0C424A833AD540DFF3CBF2"> 
      <li id="li_05810CEAC8CB4616BB2D52DDDADA84A8">Add traits to segments mapped to destinations that customize ad delivery based on a visitor's web-browsing history. </li> 
@@ -66,8 +66,8 @@ Additionally, at least one export label must match an export control before data
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="uicontrol"> Cannot be used for off-site ad targeting</span> </td> 
-   <td colname="col2"> <span class="uicontrol"> This destination may be used for off-site ad targeting</span> </td> 
+   <td colname="col1"> <b><span class="uicontrol"> Cannot be used for off-site ad targeting</span></b> </td> 
+   <td colname="col2"> <b><span class="uicontrol"> This destination may be used for off-site ad targeting</span></b> </td> 
    <td colname="col3">These restrictions are used generally with When selected, you cannot: 
     <ul id="ul_B9352FF5282C481BA3A24C581217A156"> 
      <li id="li_0F89583A603D4CD8804724954CFD52C6">Add traits to segments mapped to destinations that re-target users on other sites. </li> 
@@ -75,8 +75,8 @@ Additionally, at least one export label must match an export control before data
     </ul> <p>Often required when working with data from social media platforms. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="uicontrol"> Cannot be used for on-site personalization</span> </td> 
-   <td colname="col2"> <span class="uicontrol"> This destination may be used for on-site ad personalization</span> </td> 
+   <td colname="col1"> <b><span class="uicontrol"> Cannot be used for on-site personalization</span></b> </td> 
+   <td colname="col2"> <b><span class="uicontrol"> This destination may be used for on-site ad personalization</span></b> </td> 
    <td colname="col3">When selected, you cannot: 
     <ul id="ul_3360EB209E07402A863F0E7473B99D3F"> 
      <li id="li_88B3842B67E040EB9DC0BBEB8E5EC251">Add traits to segments mapped to destinations that customize content based on user interests or web-browsing history. </li> 

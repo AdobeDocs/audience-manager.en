@@ -50,24 +50,24 @@ The status of a test group can be active, scheduled, paused, draft, or completed
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Active </span> </p> </td> 
-   <td colname="col2"> <p>An <i>active</i> test group means that data is currently being sent to destinations. Press <span class="uicontrol"> Pause Test </span> in the <span class="uicontrol"> Test Group </span> card to suspend sending data to destinations. </p> </td> 
+   <td colname="col1"> <p> <b><span class="uicontrol"> Active </span></b> </p> </td> 
+   <td colname="col2"> <p>An <i>active</i> test group means that data is currently being sent to destinations. Press <b><span class="uicontrol"> Pause Test </span></b> in the <b><span class="uicontrol"> Test Group </span></b> card to suspend sending data to destinations. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Scheduled </span> </p> </td> 
+   <td colname="col1"> <p> <b><span class="uicontrol"> Scheduled </span></b> </p> </td> 
    <td colname="col2"> <p>A <i>scheduled</i> test group is not yet active but cannot be edited anymore. It will become active at the start date you selected in the <b>Create Test Groups</b> wizard. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Paused </span> </p> </td> 
-   <td colname="col2"> <p>A <i>paused</i> test group does not currently send data to destinations. Press <span class="uicontrol"> Make Active </span> in the <span class="uicontrol"> Test Group </span> card to resume sending traits. </p> </td> 
+   <td colname="col1"> <p> <b><span class="uicontrol"> Paused </span></b> </p> </td> 
+   <td colname="col2"> <p>A <i>paused</i> test group does not currently send data to destinations. Press <b><span class="uicontrol"> Make Active </span></b> in the <b><span class="uicontrol"> Test Group </span></b> card to resume sending traits. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Draft </span> </p> </td> 
+   <td colname="col1"> <p> <b><span class="uicontrol"> Draft </span></b> </p> </td> 
    <td colname="col2"> <p>A <i>draft</i> test group is not yet active and can still be edited. It does not yet send data to the mapped destinations. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Completed </span> </p> </td> 
-   <td colname="col2"> <p>A <i>completed</i> test group has reached the end date you selected in the <span class="uicontrol"> Create Test Groups </span> wizard and has stopped sending reporting data. </p> </td>
+   <td colname="col1"> <p> <b><span class="uicontrol"> Completed </span></b> </p> </td> 
+   <td colname="col2"> <p>A <i>completed</i> test group has reached the end date you selected in the <b><span class="uicontrol"> Create Test Groups </span></b> wizard and has stopped sending reporting data. </p> </td>
   </tr>
  </tbody>
 </table>
@@ -83,27 +83,27 @@ The status of a test group can be active, scheduled, paused, draft, or completed
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Edit </span> </p> </td>
-   <td colname="col2"> <p>Available <b>only</b> for draft test groups. Allows you to resume the <span class="uicontrol"> Create New Test Group </span> wizard. </p> </td>
+   <td colname="col1"> <p> <b><span class="uicontrol"> Edit </span></b> </p> </td>
+   <td colname="col2"> <p>Available <b>only</b> for draft test groups. Allows you to resume the <b><span class="uicontrol"> Create New Test Group </span></b> wizard. </p> </td>
   </tr>
   <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Pause </span> </p> </td>
+   <td colname="col1"> <p> <b><span class="uicontrol"> Pause </span></b> </p> </td>
    <td colname="col2"> <p>Available for active test groups. Allows you to pause sending the test segments to destinations. </p> </td>
   </tr>
   <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Make Active </span> </p> </td>
+   <td colname="col1"> <p> <b><span class="uicontrol"> Make Active </span></b> </p> </td>
    <td colname="col2"> <p>Available for paused test groups. Allows you to resume sending the test segments to destinations. </p> </td>
   </tr>
   <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> View </span> </p> </td>
+   <td colname="col1"> <p> <b><span class="uicontrol"> View </span></b> </p> </td>
    <td colname="col2"> <p>Available for completed test groups. Allows you to view the reporting information the test has generated. </p> </td>
   </tr>
   <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Duplicate </span> </p> </td>
+   <td colname="col1"> <p> <b><span class="uicontrol"> Duplicate </span></b> </p> </td>
    <td colname="col2"> <p>Allows you to create a new test group with the same configuration as the one you are duplicating. </p> </td>
   </tr>
   <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Delete </span> </p> </td>
+   <td colname="col1"> <p> <b><span class="uicontrol"> Delete </span></b> </p> </td>
    <td colname="col2"> <p>Allows you to delete a test group. The test segments will be unmapped from the destinations, the baseline segment and conversion traits associated to the test group are fully editable. An alert will prompt you to download the CSV file when you delete a test group to save the reporting if you wish. </p> </td>
   </tr>
  </tbody>
