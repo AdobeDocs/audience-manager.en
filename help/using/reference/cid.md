@@ -27,16 +27,16 @@ The DPID and the DPUUID are key-value pairs that contain a data provider ID and 
    <td colname="col1"> <p>Data Provider ID (DPID) </p> </td> 
    <td colname="col2"> 
     <ul id="ul_0567D39DCE784C20A81EC0845C7B1C6B"> 
-     <li id="li_DDD8C18266314987A7C802918F4892A8"> <span class="codeph">d_dpid=<span class="varname"> data provider ID</span></span> </li> 
-     <li id="li_80185558932E416698ABD71158303EA8"> <span class="codeph">dpid=<span class="varname"> data provider ID</span></span> </li> 
+     <li id="li_DDD8C18266314987A7C802918F4892A8"> <code>d_dpid=<i>data provider ID</i></code> </li> 
+     <li id="li_80185558932E416698ABD71158303EA8"> <code>dpid=<i>data provider ID</i></code> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Data Provider Unique User ID (DPUUID) </p> </td> 
    <td colname="col2"> 
     <ul id="ul_EA7F769523B142CE8FF5886E5CDFF2D9"> 
-     <li id="li_C984E2FF0A83495880BB87C610FA3F79"> <span class="codeph">d_dpuuid=<span class="varname"> data provider unique user ID</span></span> </li> 
-     <li id="li_DCFFAC995DCC49F489ACEFD97A06F877"> <span class="codeph">dpuuid=<span class="varname"> data provider unique user ID</span></span> </li> 
+     <li id="li_C984E2FF0A83495880BB87C610FA3F79"> <code>d_dpuuid=<i>data provider unique user ID</i></code> </li> 
+     <li id="li_DCFFAC995DCC49F489ACEFD97A06F877"> <code>dpuuid=<i>data provider unique user ID</i></code> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -63,11 +63,11 @@ The CID and CID_IC key-value pairs replace DPID and DPUUID. They provide the sam
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Customer ID (CID) </p> </td> 
-   <td colname="col2"> <p> <span class="codeph">d_cid=<span class="varname"> data provider ID</span>%01<span class="varname"> user ID</span></span> </p> </td> 
+   <td colname="col2"> <p> <code>d_cid=<i>data provider ID</i>%01<i>user ID</i></code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Customer ID Integration Code (CID_IC) </p> </td> 
-   <td colname="col2"> <p> <span class="codeph">d_cid_ic=<span class="varname"> integration code</span>%01<span class="varname"> user ID</span></span> </p> <p> An <span class="term"> integration code</span> is an alternate ID you can use instead of the Data Source ID, assigned by <span class="keyword"> Audience Manager</span>. See <a href="../features/manage-datasources.md#concept_3B7696B3EC77416492D3B99EBD79EA44"> Create a Data Source</a> if you need to configure an integration code. </p> </td> 
+   <td colname="col2"> <p> <code>d_cid_ic=<i>integration code</i>%01<i>user ID</i></code> </p> <p> An <span class="term"> integration code</span> is an alternate ID you can use instead of the Data Source ID, assigned by <span class="keyword"> Audience Manager</span>. See <a href="../features/manage-datasources.md#concept_3B7696B3EC77416492D3B99EBD79EA44"> Create a Data Source</a> if you need to configure an integration code. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -97,24 +97,24 @@ The following table provides examples by event type.
    <td colname="col1"> <p>Event </p> </td> 
    <td colname="col2"> 
     <ul id="ul_6EAB4188C6954512A28D1A8328794BCB"> 
-     <li id="li_344AAEF1622343489E2AD6E2929CEA98">New: <span class="codeph"> .../event?d_cid=123%01987...</span> </li> 
-     <li id="li_B673C1BA5AD24C46AB8F8232EF89CE89">Deprecated: <span class="codeph"> .../event?d_dpid=123&amp;d_dpuuid=987...</span> </li> 
+     <li id="li_344AAEF1622343489E2AD6E2929CEA98">New: <code> .../event?d_cid=123%01987...</code> </li> 
+     <li id="li_B673C1BA5AD24C46AB8F8232EF89CE89">Deprecated: <code> .../event?d_dpid=123&amp;d_dpuuid=987...</code> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Inbound Synchronization (IBS) </p> </td> 
    <td colname="col2"> 
     <ul id="ul_78270745CBC2469B8CA9EDB7032B8F92"> 
-     <li id="li_8C4620A04504442185F013F74E6B0647">New: <span class="codeph"> .../ibs:d_cid=123%01987...</span> </li> 
-     <li id="li_2A8F761C76334C1BB097CF1A9D7E8429">Deprecated: <span class="codeph"> .../ibs:d_dpid=123&amp;d_dpuuid=987</span> </li> 
+     <li id="li_8C4620A04504442185F013F74E6B0647">New: <code> .../ibs:d_cid=123%01987...</code> </li> 
+     <li id="li_2A8F761C76334C1BB097CF1A9D7E8429">Deprecated: <code> .../ibs:d_dpid=123&amp;d_dpuuid=987</code> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Generate Audience Manager UUID (ID) </p> </td> 
    <td colname="col2"> 
     <ul id="ul_EAA764DCFF7244F69ABF67ACEE13E579"> 
-     <li id="li_18467A531FAF454A881CBD157BBFD6D2">New: <span class="codeph"> .../id?d_cid=123%01987...</span> </li> 
-     <li id="li_433C33F7BC284362AC7CC3C9DC0BF471">Deprecated: <span class="codeph"> .../id?d_dpid=123&amp;d_dpuuid=987</span> </li> 
+     <li id="li_18467A531FAF454A881CBD157BBFD6D2">New: <code> .../id?d_cid=123%01987...</code> </li> 
+     <li id="li_433C33F7BC284362AC7CC3C9DC0BF471">Deprecated: <code> .../id?d_dpid=123&amp;d_dpuuid=987</code> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -140,8 +140,8 @@ Each call can also include multiple `d_cid` and `d_cid_ic` key value pairs like 
    <td colname="col1"> <p>URL encoding </p> </td> 
    <td colname="col2"> <p>Your development teams <i>must</i> apply URL encoding to the following variables in the CID key-value pair: </p> <p> 
      <ul id="ul_66DCB63C60914057B2BE21F49D9A36CA"> 
-      <li id="li_6D82B4DB40BB4BB0B8FAF5841577FAAC"><span class="codeph"> user ID</span> <span class="codeph"> (dpuuid)</span> </li> 
-      <li id="li_D2F94B07B0D84B09A5CDFA48518DDD62"><span class="codeph"> integration code</span> </li> 
+      <li id="li_6D82B4DB40BB4BB0B8FAF5841577FAAC"><code> user ID</code> <code> (dpuuid)</code> </li> 
+      <li id="li_D2F94B07B0D84B09A5CDFA48518DDD62"><code> integration code</code> </li> 
      </ul> </p> <p> <p>Note: You must URL encode the user ID and integration code <i>before</i> concatenating them into a string. This is because the ASCII character %01 that separates the two variables must not be captured in the URL encoding. </p> </p> <p>URL encoding assures that your user IDs and integration codes that contain reserved or unsafe characters such as, but not limited to, + or = are transmitted correctly to our servers. </p> <p>Use the <a href="https://www.w3schools.com/tags/ref_urlencode.asp" format="https" scope="external"> ASCII encoding table</a> for reference. </p> </td> 
   </tr> 
   <tr> 

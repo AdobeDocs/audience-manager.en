@@ -32,31 +32,31 @@ ID file names contain the following required and optional elements:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> adobe_id</span> </p> </td> 
+   <td colname="col1"> <p> <code> adobe_id</code> </p> </td> 
    <td colname="col2"> <p>A static prefix that identifies the file as an ID file. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"> <span class="varname"> MASTERDPID</span> </span> </td> 
+   <td colname="col1"><code><i>MASTERDPID</i></code> </td> 
    <td colname="col2"> The master data provider ID is the parent ID of the DPIDs in the file name. Also, the first user ID in the data file corresponds to the master ID. The subsequent DPIDs are other identifiers that belong to the master. Synchronization maps DPIDs in the file name to UUIDs in the file. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> DPID</span> </span> </p> </td> 
+   <td colname="col1"> <p> <code><i>DPID</i></code> </p> </td> 
    <td colname="col2"> <p>Data provider IDs. These IDs represent entities or data sources associated with the master DPID. Synchronization maps DPIDs in the file name to UUIDs in the file. </p> <p>The number of DPIDs in the file name must match the number of UUIDs in the data file. For example, say your file name contains a master DPID and 3 DPIDs. Your data file must include 4 corresponding columns of UUIDs, formatted as described in the file content section below. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"> <span class="varname"> timestamp</span> </span> </td> 
+   <td colname="col1"><code><i>timestamp</i></code> </td> 
    <td colname="col2"> <p>A 10-digit, UNIX timestamp in seconds. The timestamp helps make each file name unique. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> .sync</span> </p> </td> 
+   <td colname="col1"> <p> <code> .sync</code> </p> </td> 
    <td colname="col2"> <p>Indicates a normal, full synchronization. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph">[<span class="varname"> .SPLIT_NUMBER</span>]</span> </p> </td> 
+   <td colname="col1"> <p> <code>[<i>.SPLIT_NUMBER</i>]</code> </p> </td> 
    <td colname="col2"> <p>An integer. Used when you split large files into multiple smaller files. This helps improve processing times. The number indicates which part of the original file you're sending in. See the file name examples below. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> [.gz]</span> </p> </td> 
+   <td colname="col1"> <p> <code> [.gz]</code> </p> </td> 
    <td colname="col2"> <p>Specifies that your file is compressed with optional gzip compression. </p> </td> 
   </tr> 
  </tbody> 
@@ -67,9 +67,9 @@ ID file names contain the following required and optional elements:
 The following examples show properly formatted files names. Your file names could look similar.
 
 <ul class="simplelist"> 
- <li> <span class="codeph"> adobe_id_111_222_333_444_1454442149.sync</span> </li> 
- <li> <span class="codeph"> adobe_id_123_898_456_1454442149.sync.1.gz</span> </li> 
- <li> <span class="codeph"> adobe_id_123_898_456_1454442149.sync.2.gz</span> </li> 
+ <li> <code> adobe_id_111_222_333_444_1454442149.sync</code> </li> 
+ <li> <code> adobe_id_123_898_456_1454442149.sync.1.gz</code> </li> 
+ <li> <code> adobe_id_123_898_456_1454442149.sync.2.gz</code> </li> 
 </ul>
 
 ## File Content Syntax and Examples {#section_1DA6C74107E34CC0A4DCCFEDDDDDBCFF}
