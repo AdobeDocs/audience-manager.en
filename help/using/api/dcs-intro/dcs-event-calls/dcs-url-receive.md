@@ -13,13 +13,15 @@ Continue here for information about how to request a [!UICONTROL DCS] response i
 
 Before reviewing this content, see [Send Data to the DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md#concept_9F6C569C1E444002ADF2A43516A9F284).
 
-## [!UICONTROL DCS] Response Parameters: A Review {#section_8D64FBDE90CC4B6582D3E45759392DE9}
+## DCS Response Parameters: A Review {#dcs-response-parameters}
 
 Your [!UICONTROL DCS] request must include `d_rtbd=json` if you want to receive a response from the [!UICONTROL DCS]. The [!UICONTROL DCS] will not return data if you omit this parameter. A basic call to the [!UICONTROL DCS] to request data uses this syntax:
 
-`https:// *`domain alias`*.demdex.net/event? *`key1`*= *`val1`*,& *`key2`*= *`val2`*&d_dst=1&d_rtbd=json&d_cb= *`callback`*`
+<pre><code>
+https://<i>domain alias</i>.demdex.net/event?<i>key1</i>= <i>val1</i>,&<i>key2</i>= <i>val2</i>&d_dst=1&d_rtbd=json&d_cb=<i>callback</i>
+</code></pre>
 
-## Sample Response {#section_E98B77488F8345B7BE5085F1DE38E05B}
+## Sample Response {#sample-response}
 
 Recall that from the [Send Data to the DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md#concept_9F6C569C1E444002ADF2A43516A9F284) documentation, the fictional company [!DNL Acme, Inc.] made this call:
 
@@ -36,7 +38,7 @@ As this call includes the required response parameter, the [!UICONTROL DCS] sent
 }
 ```
 
-## Response Parameters {#section_7276ED2DFC754BA892C6F3E079494E63}
+## Response Parameters {#response-parameters}
 
 The table below lists and defines the more common parameters you may see in a response from the [!UICONTROL DCS]. This applies to event calls or other [!UICONTROL DCS] [!DNL API] queries that return data.
 
