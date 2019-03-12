@@ -17,3 +17,10 @@ uuid: bf801e84-f914-4efd-8807-c4972474894a
 >
 >* [!UICONTROL General], [!UICONTROL Trend], and [!UICONTROL Interactive] reports.
 >* Deprecated Tag Insertion Manager ([!DNL TIM]) functionality.
+
+Details:
+
+* [Audience Manager API Code Migration](api-swagger-migration.md)
+* [DCS Event Call APIs](dcs-intro/dcs-event-calls/dcs-event-calls.md)
+* [DCS APIs for Server-to-Server Data Transfers](dcs-intro/dcs-s2s/dcs-s2s.md)
+* [DCS API Methods](dcs-intro/dcs-api-reference/dcs-api-methods.md)

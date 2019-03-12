@@ -175,6 +175,7 @@ user-guide-title: Audience Manager User Guide
     + [API and SDK Code Overview](api/api.md)
     + [Audience Manager API Code Migration](api/api-swagger-migration.md)
     + Data Collection Server (DCS) API Methods and Code{#dcs}
+        + [DCS API Methods and Code](api/dcs-intro/dcs-intro.md)
         + DCS Event Calls{#dcs-event-calls}
             + [DCS Event Call APIs](api/dcs-intro/dcs-event-calls/dcs-event-calls.md)
             + [Send Data to the DCS](api/dcs-intro/dcs-event-calls/dcs-url-send.md)

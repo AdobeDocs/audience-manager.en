@@ -15,17 +15,19 @@ Start here for information about making `/event` calls to the [!UICONTROL DCS]. 
 >
 >In the code and examples, *italics* represents a variable placeholder. Substitute a real value for the placeholder when you send data to the [!UICONTROL DCS] with this method.
 
-## Call Syntax {#section_9D6FDD2547174B03B89DBFECBFE53008}
+## Call Syntax {#dcs-call-syntax}
 
 A basic `URL` string that sends data to the [!UICONTROL DCS] uses the syntax shown below.
 
-`https://`*`domain alias`*.demdex.net/event?*`key1`*=*`val1`*,&*`key2`*= *`val2`*&`d_dst=1&d_rtbd=json&d_cb=`*`callback`*
+<pre><code>
+https://<i>domain alias</i>.demdex.net/event?<i>key1</i>=<i>val1</i>,&<i>key2</i>=<i>val2</i>&d_dst=1&d_rtbd=json&d_cb=<i>callback</i>
+</code></pre>
 
 >[!NOTE]
 >
 >You can also send data to the [!UICONTROL DCS] by using the `POST` method. The call syntax is described in [DCS API Methods](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md#concept_084D7A3E30C94145B3BAE305D30640B7).
 
-## Call Parameters {#section_B6F540658D394E24B8B3A649D1AAEA15}
+## Call Parameters {#dcs-call-parameters}
 
 The following table defines the basic components of a simple [!UICONTROL DCS] call.
 
@@ -62,8 +64,8 @@ The following table defines the basic components of a simple [!UICONTROL DCS] ca
    <td colname="col2"> <p>A variable value that belongs to a set defined by a key in the key-value pair. </p> <p>When working with values: </p> <p> 
      <ul id="ul_624DC78759F74AD8920220058E54E083"> 
       <li id="li_091E5B4820EC4A93B775433E428E74AB">Enclose string data in double quotes (e.g., <span class="codeph"><span class="codeph"> age="41 to 55"</span>)</span>. </li> 
-      <li id="li_C558E3BA6EE34413BBBB962D4CD0D10E">You can pass multiple keys in on a single value (e.g., <span class="codeph"><span class="varname"> key</span>=<span class="varname"> val1,val2,val3</span></span>). </li> 
-     </ul> </p> <p>See <a href="../../../api/dcs-intro/dcs-api-reference/dcs-key-format.md#reference_D20E71D7090F4F2690F6DFBD5389B000"> Formatting Key-Value Pairs in DCS Calls</a>. </p> </td> 
+      <li id="li_C558E3BA6EE34413BBBB962D4CD0D10E">You can pass multiple keys in on a single value (e.g., <i><span class="codeph"><span class="varname"> key</span>=<span class="varname"> val1,val2,val3</span></span></i>). </li> 
+     </ul> </p> <p>See <a href="../../../api/dcs-intro/dcs-api-reference/dcs-key-format.md#reference_D20E71D7090F4F2690F6DFBD5389B000"> Formatting Key-Value Pairs in DCS Calls</a>. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> 
@@ -77,13 +79,13 @@ The following table defines the basic components of a simple [!UICONTROL DCS] ca
  </tbody>
 </table>
 
-## Sample Call {#section_6ADCBC45C4A64B09A216AC0882162D99}
+## Sample Call {#dcs-sample-call}
 
 This example shows the fictional company [!DNL Acme, Inc.] sending data to the [!UICONTROL DCS] via an HTTP call. Note that this call includes the optional parameters `d_dst=1`, `d_rtbd=json`, and `d_cb=callback`. These indicate that [!DNL Acme] wants to receive a [!DNL JSON] response from the [!UICONTROL DCS] with a call back function. Remember, this is just an example. Do not cut and paste this code.
 
 `https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_rtbd=json&d_cb=acme_callback`
 
-## Next Steps {#section_36E9E3B86F4C42CDAED4B9B69E317F82}
+## Next Steps {#dcs-next-steps}
 
 Now that you're familiar with sending data to the [!UICONTROL DCS], it's time to look at how to get data back from it and parse that information. See [Receive Data From the DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md#concept_1219EE35E91548F899E2FFE60C107841). 
 
