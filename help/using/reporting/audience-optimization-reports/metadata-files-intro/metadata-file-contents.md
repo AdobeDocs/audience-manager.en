@@ -29,7 +29,7 @@ The third column **-1** is technically the Parent ID, which is a legacy field. T
 
 Use `^a` (control-A or ASCII 001) to separate content in your metadata files. As these are non-printing characters, the syntax example above shows a pipe "|" for display purposes only.
 
-If needed, you may download the example file - [20181105-0-1](assets/20181105-0-1) in your editor of choice and adjust according to your actual metadata contents, as it already contains the required delimiter.
+If needed, you may download the example file - [20181105_0_1](assets/20181105_0_1.zip). Unzip it and edit in your editor of choice and adjust according to your actual metadata contents, as it already contains the required delimiter.
 
 >[!IMPORTANT]
 >
