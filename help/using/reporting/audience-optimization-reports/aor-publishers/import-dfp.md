@@ -83,4 +83,4 @@ You need to set the [!DNL Audience Manager] ID yourself, and can work with [!DNL
 
 ## E-Mail Template {#section_36708E8B91C84BB19E7FC5C6B9B81428}
 
-To finalize the log ingestion enablement, send us an e-mail to aamsupport@adobe.com. Please use the [attached e-mail template](assets/enable_dfp_ingestion.txt). 
+To finalize the log ingestion enablement, send us an e-mail to aamsupport@adobe.com. Please use the [attached e-mail template](assets/enable_dfp_ingestion.txt).

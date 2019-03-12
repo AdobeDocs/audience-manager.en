@@ -15,7 +15,7 @@ Name your Audience Optimization metadata file according to these specifications.
 
 The following syntax defines the structure of a well-formed metadata file name. Note, *italics* indicates a variable placeholder. The other elements are constants and do not change.
 
-**Syntax:** *yyyymmdd_0_childID*
+**Syntax:** *`yyyymmdd_0_childID`*
 
 >[!NOTE]
 >
@@ -23,23 +23,23 @@ The following syntax defines the structure of a well-formed metadata file name. 
 
 <!--In the name syntax, you'll notice a parent ID variable. Don't confuse it with the parent ID used in the [metadata file contents](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md#concept_5E422498650E40FD9744ABF290750107). These 2 variables seem similar, but they represent different things:-->
 
-* The middle component **0** is technically the Parent ID, which is a legacy field. The value should always be set as **0**. 
+* The middle component **0** is technically the Parent ID, which is a legacy field. The value should always be set as **0**.
 * The child ID can have a value between 1 and 10, depending on the dimension. See below:
 
 ## Child ID dimensions {#child-dimension}
 
 In the metadata file name, the child ID is an identifier that classifies the type of data in a file and places it into a hierarchy. You can tag the child ID in file name with the following category IDs:
 
-* 1: Campaign 
-* 2: Creative 
-* 3: Placement 
-* 4: Exchange 
-* 5: Site 
-* 6: Advertiser (if using integration codes in a [data source](../../../features/manage-datasources.md#section_D359CAAE0BEA4527B3A04855486033DE)) 
-* 7: Insertion Order (IO) 
-* 8: Vertical (i.e., a specific industry or business category like "computers," "automobiles," "real estate," etc.) 
-* 9: Tactic 
-* 10: Business unit or brand
+1. Campaign
+1. Creative
+1. Placement
+1. Exchange
+1. Site
+1. Advertiser (if using integration codes in a [data source](../../../features/manage-datasources.md#section_D359CAAE0BEA4527B3A04855486033DE))
+1. Insertion Order (IO)
+1. Vertical (i.e., a specific industry or business category like "computers," "automobiles," "real estate," etc.)
+1. Tactic
+1. Business unit or brand
 
 ## Example {#section_A613DDC627444B2EBA6D5D6AAB42ACD6}
 

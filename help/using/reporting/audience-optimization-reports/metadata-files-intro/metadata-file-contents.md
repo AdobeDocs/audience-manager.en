@@ -25,12 +25,11 @@ The third column **-1** is technically the Parent ID, which is a legacy field. T
 >
 >Note that one metadata file per dimension is needed, so multiple metadata files are expected in the bucket. The dimensions are listed in the article [Naming Conventions for Metadata File](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#child-dimension).
   
-
 **Separate File Entries With ^a (control-A or ASCII 001)**
 
-Use ^a (control-A or ASCII 001) to separate content in your metadata files. As these are non-printing characters, the syntax example above shows a pipe "|" for display purposes only.
+Use `^a` (control-A or ASCII 001) to separate content in your metadata files. As these are non-printing characters, the syntax example above shows a pipe "|" for display purposes only.
 
-If needed, you may download this example file ![(20181105_0_1)](assets/20181105_0_1) in your editor of choice and adjust according to your actual metadata contents, as it already contains the required delimiter.
+If needed, you may [download the example file - (20181105_0_1)](assets/20181105_0_1) in your editor of choice and adjust according to your actual metadata contents, as it already contains the required delimiter.
 
 >[!IMPORTANT]
 >
@@ -74,7 +73,6 @@ In this example, the file title is 20180827_0_2 and the three columns in the fil
 In this example, the file title is 20180921_0_5 and the three columns in the file are: Site ID, Name, and Parent ID.
 
 ```
-
 //File Title
 20180921_0_5
 
@@ -83,4 +81,3 @@ In this example, the file title is 20180921_0_5 and the three columns in the fil
 333 Site C -1
 
 ```
-

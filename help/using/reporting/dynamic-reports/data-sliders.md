@@ -21,7 +21,7 @@ c_reach_slider.xml
 
 The report sliders let you set limits on the data returned by an interactive report. Move the left slider to exclude data below a specific value. Move the right slider to exclude data above a specific value. The report updates and returns data that falls within the desired range. Use the sliders to:
 
-* Reduce the overall amount of data returned by the reports. 
+* Reduce the overall amount of data returned by the reports.
 * Focus on traits or segments that fall within a particular size range.
 
 >[!MORE_LIKE_THIS]

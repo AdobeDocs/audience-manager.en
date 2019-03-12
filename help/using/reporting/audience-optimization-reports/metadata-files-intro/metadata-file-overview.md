@@ -17,11 +17,17 @@ A review of metadata and how it's used. A metadata file must be accompanied by a
 
 ### Metadata Files Contain Data About Other Data
 
-A metadata file contains information about other types of data. To help you understand how this works, let’s review how [!DNL Audience Manager] receives data. During an impression or click event, [!DNL Audience Manager] receives data in an URL string known as an event call. The event call organizes information into sets of defined key-value pairs. The values in a key-value pair contain of numeric data. The metadata file contains names and other readable information corresponding to the ID in each key-value pair.
+A metadata file contains information about other types of data. To help you understand how this works, let’s review how [!DNL Audience Manager] receives data. 
+
+During an impression or click event, [!DNL Audience Manager] receives data in an URL string known as an *event call*. 
+
+The event call organizes information into sets of defined key-value pairs. The values in a key-value pair contain of numeric data. The metadata file contains names and other readable information corresponding to the ID in each key-value pair.
 
 ### Metadata Links IDs to Readable Names
 
-The metadata file is required to tie a numeric ID to a readable name. As an example, say an event call contains a creative ID in a key-value pair like this: `d_creative:1234`. Without a metadata file, this creative would show up as 1234 in an options menu. However, a properly formatted metadata file can tie this creative to back to a real name like “Advertiser Creative A,” which is a name you can read and recognize in a report.
+The metadata file is required to tie a numeric ID to a readable name. As an example, say an event call contains a creative ID in a key-value pair like this: `d_creative:1234`. Without a metadata file, this creative would show up as 1234 in an options menu. 
+
+However, a properly formatted metadata file can tie this creative to back to a real name like “Advertiser Creative A,” which is a name you can read and recognize in a report.
 
 ### When Do You Need a Metadata File
 
@@ -106,7 +112,7 @@ The file name is based on the creative, campaign, and data source IDs. In this c
 
 In a file name:
 
-* The data source key changes to `dpid` from `d_src`. 
+* The data source key changes to `dpid` from `d_src`.
 
 * The creative and campaign IDs represent a category rather than an actual identifier.
 

@@ -29,30 +29,9 @@ Your [!UICONTROL Unique User Reach] report could look similar to the one below. 
 
 ![](assets/publisher_unique_user_reach.png)
 
-<table id="table_22340F45B1B94D3796174CB30A60E212"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Item </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Dimension Value</span> </p> </td> 
-   <td colname="col2"> <p>The name of your web property. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Dimension Type</span> </p> </td> 
-   <td colname="col2"> <p>The type of publisher dimension. We currently only support Ad Unit as a dimension type. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Impressions</span> </p> </td> 
-   <td colname="col2"> <p>The number of impressions that were served for your web property within the specified look-back range. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Unique Reach</span> </p> </td> 
-   <td colname="col2"> <p>The unique number of users who were reached by the impressions on your web properties. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+|Item|Description|
+|--- |--- |
+|Dimension Value|The name of your web property.|
+|Dimension Type|The type of publisher dimension. We currently only support Ad Unit as a dimension type.|
+|Impressions|The number of impressions that were served for your web property within the specified look-back range.|
+|Unique Reach|The unique number of users who were reached by the impressions on your web properties.|

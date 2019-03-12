@@ -9,7 +9,11 @@ uuid: f84e8d0a-74e5-430c-b61c-efb696faee93
 
 # Segment Trend Report{#segment-trend-report}
 
-The Segment Trend report returns data on impressions and click-through rates of mapped and unmapped segments over time. A mapped segment is a segment you create and send to a destination for targeting. An unmapped segment is a segment that you've created but have not sent to a destination for targeting. Compare trends and volume for your selected metrics to get a better picture of how your audiences behave over time.
+The Segment Trend report returns data on impressions and click-through rates of mapped and unmapped segments over time. 
+
+A mapped segment is a segment you create and send to a destination for targeting. An unmapped segment is a segment that you've created but have not sent to a destination for targeting. 
+
+Compare trends and volume for your selected metrics to get a better picture of how your audiences behave over time.
 
 ## Use Case {#section_04C3713B9FFD417CAE5E07AD13AB3084}
 
@@ -37,7 +41,9 @@ Use the **[!UICONTROL Segment]** drop-down box to select which segments you want
 
 ## Interpreting the Results {#section_BE8FAF66993F4471A2C2A90720F911F4}
 
-The [!UICONTROL Segment Trend] report returns data in a line graph for a 14-day interval only. In this example, the report shows impression and click-through trends for a set of mapped and unmapped segments. Hover over any line to obtain more information about that particular segment trend. See descriptions for the additional information in the table below the sample report.
+The [!UICONTROL Segment Trend] report returns data in a line graph for a 14-day interval only. In this example, the report shows impression and click-through trends for a set of mapped and unmapped segments.
+
+Hover over any line to obtain more information about that particular segment trend. See descriptions for the additional information in the table below the sample report.
 
 ![](assets/publisher_segment_trend.png)
 
@@ -79,4 +85,3 @@ The [!UICONTROL Segment Trend] report returns data in a line graph for a 14-day 
   </tr> 
  </tbody> 
 </table>
-

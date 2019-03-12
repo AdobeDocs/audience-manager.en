@@ -15,7 +15,8 @@ Send or update metadata files by sending them to a special Amazon S3 directory f
 
 Data is stored in separate namespace for each customer in an Amazon S3 directory. The file path follows the syntax shown below. Note, *italics* indicates a variable placeholder. Brackets `[ ]` indicate optional parameters. The other elements are constants and do not change.
 
-**Syntax:** `.../log_ingestion/pid= *`AAM ID`*/dpid= *`d_src`*/[meta|status]/ *`yyyymmdd`*_ *`parent ID`*_ *`child ID`*`
+**Syntax:**
+<pre><code>.../log_ingestion/pid=<i>AAM ID</i>/dpid= <i>d_src</i>/[meta|status]/ <i>yyyymmdd</i>_ <i>parent ID</i>_ <i>child ID</i></code></pre>
 
 The following table defines each of these elements in a file delivery path.
 

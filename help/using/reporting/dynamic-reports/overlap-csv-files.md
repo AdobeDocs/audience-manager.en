@@ -275,4 +275,3 @@ A data file for your [Trait-to-Trait Overlap Report](trait-trait-overlap-report.
   </tr> 
  </tbody> 
 </table>
-
