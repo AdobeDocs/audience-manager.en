@@ -56,8 +56,8 @@ Once a week.
 
 In [!DNL Audience Manager], device graphs appear as configuration options when you [create a Profile Merge Rule](../features/profile-merge-rules/merge-rules-start.md#concept_34A9CEA00B24447EBF7EA8DA2928E1DD). Through your [!UICONTROL Profile Merge Rules], these device graphs help [!DNL Audience Manager]:
 
-* Merge multiple device profiles together. This creates a single superset of traits. 
-* Evaluate the trait superset for segment qualification (rather than evaluating each device profile individually). 
+* Merge multiple device profiles together. This creates a single superset of traits.
+* Evaluate the trait superset for segment qualification (rather than evaluating each device profile individually).
 * Add qualified devices to available segments.
 
 <br>&nbsp;

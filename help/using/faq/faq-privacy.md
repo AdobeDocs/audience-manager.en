@@ -13,14 +13,7 @@ Answers to common privacy- and data-related questions or issues.
 
 <!-- faq_privacy.xml -->
 
-Contents:
-
-<ul class="simplelist"> 
- <li> <a href="../faq/faq-privacy.md#section_F3C1DAF4F16F43B9AE817B8828C3DD74"> Privacy FAQ </a> </li> 
- <li> <a href="../faq/faq-privacy.md#section_20FF2BAAAA504153B36C420A5ECFB458"> Data Retention FAQ </a> </li> 
-</ul>
-
-## Privacy FAQ {#section_F3C1DAF4F16F43B9AE817B8828C3DD74}
+## Privacy FAQ {#privacy-faq}
 
 >[!TIP]
 >

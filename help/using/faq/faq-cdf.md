@@ -71,13 +71,13 @@ Files exceeding 16MiB in size are split into 16MiB chunks and uploaded to [!DNL 
 
 **How long do you store CDF files?**
 
-Data is deleted after 8 days.
+Data is deleted after 8 (eight) days.
 
 <br>&nbsp;
 
 **Can I get CDF files retroactively or for previous days?**
 
-You can only generate CDF files for the past 8 days. CDF files for intervals older than the past 8 days cannot be re-generated. 
+You can only generate CDF files for the past 8 days. CDF files for intervals older than the past 8 days cannot be re-generated.
 
 >[!MORE_LIKE_THIS]
 >

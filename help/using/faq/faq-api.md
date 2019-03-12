@@ -25,7 +25,7 @@ The [REST API](../api/rest-api-main/rest-api-main.md#concept_B512E6C3410A4304A67
 
 [!UICONTROL DIL] passes data to [!DNL Audience Manager] with a `GET` or `POST` method based on the length of the query string of the event call. This behavior is built in to `GET` and `POST` methods by default. It is not specific to [!DNL Audience Manager].
 
-* [!UICONTROL DIL] makes event calls with `GET` when a URL contains 2048 characters or less. A `GET` event call includes data in the URL as query string parameters, which are passed in as key-value pairs. 
+* [!UICONTROL DIL] makes event calls with `GET` when a URL contains 2048 characters or less. A `GET` event call includes data in the URL as query string parameters, which are passed in as key-value pairs.
 
 * [!UICONTROL DIL] makes event calls with `POST` when a URL contains more than 2048 characters. A `POST` event call includes data in the body of the request. [!UICONTROL DIL] puts data into key-value pairs and passes information as form data rather than in the URL query string.
 
@@ -41,4 +41,4 @@ The [!UICONTROL REST API]s let you work programmatically with most [!DNL Audienc
 
 **How do I obtain a [!UICONTROL REST API] client ID and secret?**
 
-Contact your Partner Solutions representative to obtain [!DNL API] access credentials. Our APIs use [OAuth 2.0](https://oauth.net/2/) standards for token authentication, authorization, and renewal. See [OAuth Authentication](../api/rest-api-main/aam-api-getting-started.md#concept_426EEF5C102049B08C8ECF90FCB41796) for more information. 
+Contact your Partner Solutions representative to obtain [!DNL API] access credentials. Our APIs use [OAuth 2.0](https://oauth.net/2/) standards for token authentication, authorization, and renewal. See [OAuth Authentication](../api/rest-api-main/aam-api-getting-started.md#concept_426EEF5C102049B08C8ECF90FCB41796) for more information.
