@@ -12,7 +12,7 @@ uuid: aaee820c-1e78-4fd4-bd8f-2629085d78e9
 
 Create mutually exclusive test segments in [!UICONTROL Segment Test Groups] to compare and measure effectiveness of different destinations. You can set aside a control group and divide your segment into percentages of a whole, in order to test efficacy.
 
-## Overview {#section_A9160978EA0A47149876315F374202D1}
+## Overview {#audience-lab-overview}
 
 [!UICONTROL Audience Lab] uses [Profile Link](../../features/profile-merge-rules/merge-rules-overview.md#concept_5FCB08A53C4D4C2B82800BC9FD2B8EC9) to power cross-device testing. This helps ensure a user qualifies for the same test segment and receives the same treatment across devices. The test segments in test groups will inherit the [Profile Merge Rule](../../features/profile-merge-rules/merge-rules-dashboard.md#concept_0D5FDF17A17B400598B787099A48F865) the base segment has assigned to it.
 
@@ -25,7 +25,7 @@ You are able to create **up to 10 test groups**, each one with **up to 15 test s
 
 ![](assets/test-groups-view.PNG)
 
-## Search and Filter Test Groups {#section_92FC799944D5438FA411B84E0D56075E}
+## Search and Filter Test Groups {#search-and-filter}
 
 Once you start creating multiple test groups with multiple test segments, it may be easier to use the search box to find a specific test group. You can search for a test group by:
 
@@ -35,9 +35,9 @@ Once you start creating multiple test groups with multiple test segments, it may
 
 ![](assets/search_and_filter_audience_lab.png)
 
-You can also filter your test groups by status. All available statuses are described in the [Status](../../features/audience-lab/audience-lab.md#section_4A6E6FC7095B4F13A8CEC8E2EBC01EBF) section below.
+You can also filter your test groups by status. All available statuses are described in the [Status](../../features/audience-lab/audience-lab.md#status) section below.
 
-## Status {#section_4A6E6FC7095B4F13A8CEC8E2EBC01EBF}
+## Status {#status}
 
 The status of a test group can be active, scheduled, paused, draft, or completed. More information on each of them in the table below:
 
@@ -72,7 +72,7 @@ The status of a test group can be active, scheduled, paused, draft, or completed
  </tbody>
 </table>
 
-## Actions {#section_7548C5D56B004377AB330399746F79F7}
+## Actions {#actions}
 
 <table id="table_481A411E2D2F4FE891595D00E775CF60"> 
  <thead> 

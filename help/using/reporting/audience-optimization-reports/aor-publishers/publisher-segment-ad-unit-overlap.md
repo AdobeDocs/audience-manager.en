@@ -11,11 +11,11 @@ uuid: aaa20163-58aa-42c9-8f72-a1dfb0d20e57
 
 The Segment to Ad Unit Overlap report is displayed as a heat chart that highlights high and low overlaps between your Ad Units and Audience Manager segments.
 
-## Use Case {#section_23446DAFA3424CDBA8834816832EC2B0}
+## Use Case {#use-cases}
 
 With the [!UICONTROL Segment to Ad Unit Overlap] report, you can understand which audiences visit your web properties. The report displays the overlap between members of your [!DNL Audience Manager] segments and the number of visitors to your web properties. A higher overlap means that many members of a segment visit your web property.
 
-## Using the Segment to Ad Unit Overlap Report {#section_62E5C43C88EE4AE688285F759810F57F}
+## Using the Segment to Ad Unit Overlap Report {#using-the-report}
 
 Use the **[!UICONTROL Top N Ad Units]** and **[!UICONTROL Top N Segments]** controls to select your desired number of ad units and segments for the overlap. You can select a maximum number of 100 items for each.
 
@@ -27,7 +27,7 @@ Use the **[!UICONTROL Segment Name]** and the **[!UICONTROL Ad Unit]** boxes to 
 >
 >When enabling [!UICONTROL Audience Optimization for Publishers], you must include descriptive metadata for [!UICONTROL Ad Unit IDs], as described in Step 3 of [Import DFP Data Files Into Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md#concept_32EC89A543BA4333B62DD4C0B3E7060A). By doing this, you assure that the report details the web property as [!UICONTROL Ad Unit] instead of the [!UICONTROL Ad Unit ID].
 
-## Interpreting the Results {#section_CC66FBF6E9F349B8B0F3F70B05C411F0}
+## Interpreting the Results {#interpreting-results}
 
 Your [!UICONTROL Segment to Ad Unit Overlap] report could look similar to the one below. Hover over any cell to obtain more information about that particular overlap. See descriptions for the additional information in the table below the sample report.
 

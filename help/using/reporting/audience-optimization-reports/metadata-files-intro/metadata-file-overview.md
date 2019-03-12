@@ -11,7 +11,7 @@ uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
 
 A metadata file links numeric IDs with names you can read and understand. The Audience Optimization reports display readable names in the various report options menus.
 
-## Overview {#section_BDE34D99F18643F1A57D454DE4A7CECC}
+## Overview {#overview}
 
 A review of metadata and how it's used. A metadata file must be accompanied by a data file. The metadata file contents match data file information to related, human-readable labels in the report menus. For more information, see [Data Files for Audience Optimization Reports](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md#concept_76D2C04AA9904203BDC74E4D38D86C89).
 
@@ -31,7 +31,7 @@ Second, you need a metadata file if you’re sending your own data to [!DNL Audi
 
 ![](assets/metadata_menu.png)
 
-## File Mappings {#section_92AD346141F3414BA9FEDFE1E9306CFF}
+## File Mappings {#file-mappings}
 
 The following table lists the key-value pairs that hold data used by the [!UICONTROL Audience Optimization] reports. If you need to use a metadata file, it would contain human-readable information that corresponds to the values in these key-value pairs. The values for these keys accept integers only (data type INT). Note, *italics* indicates a variable placeholder. Other elements are constants or keys and do not change.
 
@@ -90,7 +90,7 @@ The following table lists the key-value pairs that hold data used by the [!UICON
  </tbody> 
 </table>
 
-## How Event Call IDs Shape File Names, Contents, and Delivery Paths {#section_3FB8AE59CE0149DFAC076D32D792EE0B}
+## How Event Call IDs Shape File Names, Contents, and Delivery Paths {#how-ids-shape-file-names}
 
 The IDs passed in by these key-value pairs help create the metadata file name and its contents. The following sections and illustrations demonstrate how this works. These examples build a file that contains the name of a creative in a campaign, but other combinations are possible.
 

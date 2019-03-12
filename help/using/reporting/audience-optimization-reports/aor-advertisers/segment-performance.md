@@ -11,7 +11,7 @@ uuid: 5156a4c7-831d-4a95-a1be-eb516f0d91b7
 
 The [!UICONTROL Segment Performance] report compares mapped and unmapped segments by impressions and conversion rates. A mapped segment is a segment you create and send to a destination for targeting. An unmapped segment is a segment that you've created but have not sent to a destination for targeting. Comparing these different segment types within and between reports helps you optimize existing campaigns and find overlooked segments that you may want to send to a destination for targeting.
 
-## How to Read Your Mapped Segment Results {#section_991CFF12639B4E3B8E97B6289261E563}
+## How to Read Your Mapped Segment Results {#read-mapped-segment-results}
 
 The mapped [!UICONTROL Segment Performance] report displays all the segments you created and sent to a destination for targeting.The position of your mapped segments in a report can tell you a lot about which segments are performing well and where you might need to make some adjustments. 
 
@@ -48,7 +48,7 @@ The labels in the example and the following table can help you understand segmen
  </tbody> 
 </table>
 
-## How to Read Your Unmapped Segment Results {#section_6EA5BF86702840ECB94C349DA7AAE3AA}
+## How to Read Your Unmapped Segment Results {#read-unmapped-segment-results}
 
 Looking at unmapped segments in a [!UICONTROL Segment Performance] report is a great way to find new segments you haven't considered for targeting. In fact, some of these segments may outperform your mapped segments. This is because an unmapped segment has to meet a set of qualification criteria to be included in this report. To be included in this report, an unmapped segment must:
 

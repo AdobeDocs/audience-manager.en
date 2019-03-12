@@ -32,4 +32,4 @@ The General report counts site visitors as unique if they qualified for the trai
 >[!MORE_LIKE_THIS]
 >
 >* [Interactive Reports](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports)
->* [General Reports](../reporting/general-reports.md#concept_E4686B9B4BE54DFE9599E0868224E027)
+>* [General Reports](../reporting/general-reports.md#general-reports-overview)

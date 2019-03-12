@@ -112,7 +112,7 @@ Select the **[!UICONTROL Inbound]** check box when your data source is designed 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> File Format Troubleshooting</span></b> </p> </td> 
-   <td colname="col2"> <p>Select <b><span class="uicontrol"> Enable file error sampling</span></b> when you need to troubleshoot problems with inbound file processing. This feature generates an error sample report that shows you file format and syntax errors. </p> <p>See <a href="../reporting/onboarding-status-report.md#concept_3231613176F44D87AAA05D3528DD294C"> Onboarding Status Report: About</a> for information about error reporting and error sampling. </p> </td> 
+   <td colname="col2"> <p>Select <b><span class="uicontrol"> Enable file error sampling</span></b> when you need to troubleshoot problems with inbound file processing. This feature generates an error sample report that shows you file format and syntax errors. </p> <p>See <a href="../reporting/onboarding-status-report.md##onboarding-status-about"> Onboarding Status Report: About</a> for information about error reporting and error sampling. </p> </td> 
   </tr> 
  </tbody> 
 </table>
