@@ -9,7 +9,7 @@ uuid: 56a1e88a-41da-4d51-a21e-2be98cca7fa2
 
 # Status Updates for Metadata Files{#status-updates-for-metadata-files}
 
-The S3 status directory holds a .info file with success and failure information about your uploaded files. The file contains JSON-formatted data with status results in an array.
+The S3 status directory holds a `.info` file with success and failure information about your uploaded files. The file contains JSON-formatted data with status results in an array.
 
  The contents of your `.info` file will look similar to this example.
 
@@ -149,4 +149,3 @@ The following tables list and define the keys in the `Files` and `Summary` secti
   </tr> 
  </tbody> 
 </table>
-

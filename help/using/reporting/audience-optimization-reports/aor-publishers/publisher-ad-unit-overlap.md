@@ -9,11 +9,11 @@ uuid: e4467e81-acbf-474e-b501-89d57395651f
 
 # Ad Unit Overlap{#ad-unit-overlap}
 
-The Ad Unit Overlap report is displayed as a heat chart that highlights high and low overlaps between your Ad Units.
+The **[!UICONTROL Ad Unit Overlap]** report is displayed as a heat chart that highlights high and low overlaps between your Ad Units.
 
 ## Use Case {#use-cases}
 
-With the [!UICONTROL Ad Unit Overlap] report, you can gain insight into where your audience overlaps across your web properties. The report considers your 100 top related properties and shows you the overlap between them.
+With the **[!UICONTROL Ad Unit Overlap]** report, you can gain insight into where your audience overlaps across your web properties. The report considers your 100 top related properties and shows you the overlap between them.
 
 ## Using the Ad Unit Overlap Report {#using-the-report}
 
@@ -67,4 +67,3 @@ Your [!UICONTROL Ad Unit Overlap] report could look similar to the one below. Ho
   </tr> 
  </tbody> 
 </table>
-

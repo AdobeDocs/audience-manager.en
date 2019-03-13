@@ -24,7 +24,7 @@ c_inbound_crm_data_ingestion.xml
 
 The onboarding process consists of 2 core components described in [Batch Data Transfer Process Described](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md#concept_EC5B2B3B5ED443F0B271400C08B263D3). These involve:
 
-* ID synchronization 
+* ID synchronization
 * Inbound Data File ( [!DNL .sync] file or [!DNL .overwrite] file)
 
 <!-- 
@@ -45,11 +45,11 @@ Below is a list of questions and answers you might find helpful after reviewing 
 
 We recommend the following:
 
-* Work with your data provider to format the daily inbound data file according to [!DNL Adobe] specifications. 
-* Transfer a test data file to [!DNL Adobe] for format verification. 
-* Work with your [!DNL Adobe] consultant to produce a taxonomy suitable for interpreting the contents of the data file. 
-* In the staging/development environment, confirm that the ID sync is configured to properly pick up the data provider's visitor ID and transfer it to the [!DNL Audience Manager] servers in realtime. 
-* Deploy DIL/ID sync to production. The ID sync will already be configured as a module within the DIL code by your Adobe consultant. 
+* Work with your data provider to format the daily inbound data file according to [!DNL Adobe] specifications.
+* Transfer a test data file to [!DNL Adobe] for format verification.
+* Work with your [!DNL Adobe] consultant to produce a taxonomy suitable for interpreting the contents of the data file.
+* In the staging/development environment, confirm that the ID sync is configured to properly pick up the data provider's visitor ID and transfer it to the [!DNL Audience Manager] servers in realtime.
+* Deploy DIL/ID sync to production. The ID sync will already be configured as a module within the DIL code by your Adobe consultant.
 * Transfer production data files to [!DNL Audience Manager]. Given the dependencies on ID sync mappings, it might make sense to begin transferring data up to one week after production-code deployment, although you can start transferring the data files as soon as code goes into production.
 
 <br>&nbsp;
@@ -62,7 +62,7 @@ See [File Compression for Inbound Data Transfer Files](../integration/sending-au
 
 **Can I upload an inbound data file ([!DNL .sync] or [!DNL .overwrite] file) before deploying [!DNL Audience Manager] code into production?**
 
-* If the data provider is configured to use [Profile Link](../features/profile-merge-rules/merge-rules-overview.md#concept_5FCB08A53C4D4C2B82800BC9FD2B8EC9) for cross-device targeting, the data available for targeting shortly after an ID sync identifies to the matching [!DNL Audience Manager] visitor ID. 
+* If the data provider is configured to use [Profile Link](../features/profile-merge-rules/merge-rules-overview.md#concept_5FCB08A53C4D4C2B82800BC9FD2B8EC9) for cross-device targeting, the data available for targeting shortly after an ID sync identifies to the matching [!DNL Audience Manager] visitor ID.
 
 * If the data provider is not configured to use the [!UICONTROL Profile Link] feature, [!DNL Audience Manager] processes only the data for visitor IDs in the inbound data file that have been previously synced/matched back to an [!DNL Audience Manager] visitor ID.
 
@@ -148,7 +148,7 @@ FTP files are removed after they've been processed. [!DNL S3] files are removed 
 
 **What's the difference between full and incremental files?**
 
-* **Full:** A full file overwrites all of your existing visitor profiles and replaces them with the data in your file. Full files are identified by the `.overwrite` tag appended to the file name. You can use a `.overwrite` file to reset visitor traits or remove stale, obsolete traits. 
+* **Full:** A full file overwrites all of your existing visitor profiles and replaces them with the data in your file. Full files are identified by the `.overwrite` tag appended to the file name. You can use a `.overwrite` file to reset visitor traits or remove stale, obsolete traits.
 
   >[!NOTE]
   >
@@ -253,9 +253,9 @@ As best practice, we recommend [!DNL Amazon S3] because the process is simpler. 
 
 [!DNL Audience Manager] uses [!DNL Amazon Simple Queue Service (SQS)] for inbound data processing. Here is how this works:
 
-1. [!DNL Audience Manager] customers upload their inbound data to an [!DNL Amazon S3] bucket. 
+1. [!DNL Audience Manager] customers upload their inbound data to an [!DNL Amazon S3] bucket.
 
-2. The data enters the [!DNL Amazon SQS] queue, waiting to be processed by [!DNL Audience Manager]. 
+2. The data enters the [!DNL Amazon SQS] queue, waiting to be processed by [!DNL Audience Manager].
 
 3. [!DNL Audience Manager] reads up to 119000 entries from the [!DNL Amazon SQS] queue and splits them in up to 3 batches. Files in each batch get processed simultaneously.
 
@@ -263,7 +263,7 @@ As best practice, we recommend [!DNL Amazon S3] because the process is simpler. 
 
 **I need to upload multiple files at the same time. Will the files be processed simultaneously?**
 
-It depends. [!DNL Audience Manager] reads up to 119000 entries from the [!DNL Amazon SQS] queue and splits them in up to 3 batches. Your files will be processed simultaneously only if they end up in the same batch. However, due to the high amount of data ingested by [!DNL Audience Manager] on a daily basis, we cannot guarantee any file processing order. 
+It depends. [!DNL Audience Manager] reads up to 119000 entries from the [!DNL Amazon SQS] queue and splits them in up to 3 batches. Your files will be processed simultaneously only if they end up in the same batch. However, due to the high amount of data ingested by [!DNL Audience Manager] on a daily basis, we cannot guarantee any file processing order.
 
 >[!MORE_LIKE_THIS]
 >

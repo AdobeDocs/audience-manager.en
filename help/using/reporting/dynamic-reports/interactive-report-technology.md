@@ -11,17 +11,13 @@ uuid: 5f3d815b-e1e6-42f2-b848-ac035a5aa77d
 
 Describes the underlying software that powers the interactive reports and the data update schedule.
 
-## Report Technology {#concept_377F4AB3212D4637A7086BFAAD07B4B7}
-
-Describes the underlying software that powers the interactive reports and the data update schedule.
-
 <!-- 
 
 c_report_technology.xml
 
  -->
 
-### Interactive Reports Use Tableau Technology
+## Interactive Reports Use Tableau Technology
 
 [!DNL Audience Manager] uses [Tableau](https://www.tableausoftware.com/) software to display data in the interactive reports. With [!DNL Tableau], the [!UICONTROL Delivery and Overlap] reports use visual cues and symbols that help you:
 
@@ -30,7 +26,7 @@ c_report_technology.xml
 * Use overlap data to build targeted segments. 
 * Expand reach by identifying related traits with low overlap.
 
-### Data Update Schedule
+## Data Update Schedule
 
 Report data is updated weekly each Sunday. The update processes data from Saturday (the day before) back to the previous Sunday. 
 
@@ -46,7 +42,7 @@ r_legend.xml
 
 ### Report Legend
 
-The following table defines the shapes, sizes, and colors used in the dynamic reports. 
+The following table defines the shapes, sizes, and colors used in the dynamic reports.
 
 <table id="table_EC180A96E3784FC6B81FCFB546C4A3FA"> 
  <thead> 
@@ -83,8 +79,6 @@ The following table defines the shapes, sizes, and colors used in the dynamic re
 
 Describes how to search and use the various icon-tools used in the dynamic reports.
 
-
-
 <!-- 
 
 r_icons.xml
@@ -114,7 +108,9 @@ Select this tool to undo any interactive click changes you may have performed on
 
 ### Automatic Updates
 
-The [!UICONTROL Delivery-Performance] and [!UICONTROL Trait-to-Trait Overlap] reports are dynamic reports that respond and change based on user click actions. For example, say you want to select several advertisers in the [!UICONTROL Overlap] report. When enabled, automatic updates will start to return data as soon as you select a checkbox. This dynamic behavior can interrupt your workflow because you have to wait until the report finishes processing before selecting another advertiser. Use this tool to turn that feature off (and on again) as required.
+The [!UICONTROL Delivery-Performance] and [!UICONTROL Trait-to-Trait Overlap] reports are dynamic reports that respond and change based on user click actions. 
+
+For example, say you want to select several advertisers in the [!UICONTROL Overlap] report. When enabled, automatic updates will start to return data as soon as you select a checkbox. This dynamic behavior can interrupt your workflow because you have to wait until the report finishes processing before selecting another advertiser. Use this tool to turn that feature off (and on again) as required.
 
 ### Refresh Data
 
@@ -128,4 +124,3 @@ Search is represented by a generic magnifying glass icon (not shown). The search
 |---|---|
 | [!UICONTROL Delivery and Performance] report  | The "Advertiser Name" label.  |
 | [!UICONTROL Overlap] reports  | The "SID Name" label.  |
-

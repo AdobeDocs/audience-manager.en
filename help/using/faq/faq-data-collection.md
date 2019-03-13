@@ -23,8 +23,8 @@ faq_data_collection_integration.xml
 
 Traits onboarded via [!UICONTROL Inbound] are populated by [!UICONTROL Inbound] the same way they get populated by [!UICONTROL DCS]. There are a few different ways to tell that traffic came from [!UICONTROL Inbound]:
 
-* Remote IP will be set to 68.67.173.18 
-* DomainID will be set to 5325 
+* Remote IP will be set to 68.67.173.18
+* DomainID will be set to 5325
 * Region will be set to 0
 
 <br>&nbsp;
@@ -45,15 +45,15 @@ Yes. The egress FTP IP address is 52.44.29.204.
 
 To bring [!DNL Analytics] data into [!DNL Audience Manager], load [!UICONTROL DIL] after the `s_code` module but *before* the `s.t()` function. For example, place your code, or make sure it loads, in this order:
 
-1. [!DNL Analytics] `s_code` 
+1. [!DNL Analytics] `s_code`
 
-2. [!DNL Audience Manager] [!UICONTROL DIL] module 
+2. [!DNL Audience Manager] [!UICONTROL DIL] module
 
 3. [!DNL Analytics] `s.t()` function
 
 As a best practice, set up your [!DNL Audience Manager]- [!DNL Analytics] integration with either of these 2 methods:
 
-* Put [!UICONTROL DIL] directly in the `s_code`. 
+* Put [!UICONTROL DIL] directly in the `s_code`.
 
 * Serve [!UICONTROL DIL] and the `s_code` through [!DNL Adobe Launch] or [!DNL Adobe DTM].
 
@@ -74,13 +74,13 @@ This usually happens when:
 
 You must use [!DNL Analytics] version 20.2 (or higher) and the [!DNL Adobe AppMeasurement AS] library version 3.5.2 (or higher) to work with [!UICONTROL DIL]. If you don't know your [!DNL Analytics] or [!DNL AppMeasurement] version, check the [!DNL Analytics] call that gets made from the page. Version information shown below:
 
-This customer uses [!DNL Analytics] version 24.4: 
+This customer uses [!DNL Analytics] version 24.4:
 
 ```
 https://112.2o7.net/b/ss/.../1/H.24.4/...
 ```
 
-This customer uses [!DNL AppMeasurement] version 3.5.2: 
+This customer uses [!DNL AppMeasurement] version 3.5.2:
 
 ```
 https://112.2o7.net/b/ss/.../0/FAS-3.5.2-AS3/...
@@ -92,9 +92,9 @@ https://112.2o7.net/b/ss/.../0/FAS-3.5.2-AS3/...
 
 Yes. The [!UICONTROL DIL] module helps you collect page data even if you're not using [!DNL Analytics]. When set up properly, [!UICONTROL DIL] can capture data from and about:
 
-* Meta tags 
-* URLs and URL headers 
-* Search engine types 
+* Meta tags
+* URLs and URL headers
+* Search engine types
 * Keywords
 
 Additionally, clients can deploy a simple onsite object and populate it with key-value pairs that you want [!UICONTROL DIL] to collect data on. This lets you add and remove specific audience data points on your site without any [!DNL Audience Management] updates. Work with your Partner Solutions representative to properly set this up and ensure the [!DNL DIL] module references the page object correctly.
@@ -114,10 +114,10 @@ Yes. [!UICONTROL DIL] can collect some [!DNL Google Analytics] (GA) elements and
 
 Yes, [!DNL Audience Manager] can provide you with data collected for users we've seen on your inventory. This includes:
 
-* The unique user ID (UUID) assigned by [!DNL Audience Manager] 
-* Trait and segment IDs 
-* Unused signals 
-* Time stamps 
+* The unique user ID (UUID) assigned by [!DNL Audience Manager]
+* Trait and segment IDs
+* Unused signals
+* Time stamps
 * Page URLs
 
 <br>&nbsp;
@@ -176,4 +176,4 @@ See also, the [Index of Audience Manager IDs](../reference/ids-in-aam.md).
 
 **How long does it take for user profiles to sync across [regions](../api/dcs-intro/dcs-api-reference/dcs-regions.md#concept_01C1E017A6694D1EAF9BF65BFFA54091)?**
 
-It usually takes up to 24 hours for a user profile to sync across regions. However, in rare cases, the process can take up to 48 hours. 
+It usually takes up to 24 hours for a user profile to sync across regions. However, in rare cases, the process can take up to 48 hours.

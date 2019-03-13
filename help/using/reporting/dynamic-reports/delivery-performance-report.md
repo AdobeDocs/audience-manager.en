@@ -11,10 +11,6 @@ uuid: c8daa6bc-50d6-4c2c-a45a-5b7065fd88f9
 
 Returns segment-level data on impressions and click-through rates.
 
-## Delivery and Performance Report {#concept_ED04A45759A6408D95222C7BE0EA301D}
-
-Returns segment-level data on impressions and click-through rates.
-
 <!-- 
 
 c_delivery_reports.xml
@@ -44,7 +40,7 @@ Select an individual point to view data details in a pop up window. Also, you ca
 
 ## Delivery and Performance Data Pop Fields Defined {#field-definitions}
 
-Describes the metrics displayed in the popup window when you click an individual data point. 
+Describes the metrics displayed in the popup window when you click an individual data point.
 
 <!-- 
 

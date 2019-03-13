@@ -11,17 +11,13 @@ uuid: a6b3dd21-332e-449f-aa01-2beb47f1794e
 
 Returns data on the number of unique users shared between a particular trait and an entire segment.
 
-## Segment-to-Trait Overlap Report {#concept_36186B1ABEA34A6AAC7F5CF938A122B7}
-
-Returns data on the number of unique users shared between a particular trait and an entire segment.
-
 <!-- 
 
 c_segment_trait_overlap.xml
 
  -->
 
-### Overview
+## Overview
 
 As an optimization tool, the [!UICONTROL Segment to Trait Overlap] reports helps you build highly focused segments or expand segment reach. For example, you can create focused segments and traits with high overlap to reach a particular audience. However, a lot of overlap may mean fewer unique users (less reach). Running this report to help expand reach by removing traits with a lot of segment overlap and replacing them with traits that have less overlap.
 
@@ -33,7 +29,7 @@ The following illustration provides a high-level overview of the [!UICONTROL Seg
 
 ### Drill Down on Individual Data Points
 
-Select an individual point to view data details in a pop up window. Your click actions automatically update data displayed in the report. 
+Select an individual point to view data details in a pop up window. Your click actions automatically update data displayed in the report.
 
 ## Comparing Segments to Traits {#comparing-segments-to-traits}
 

@@ -27,5 +27,3 @@ Interactive reports display performance and overlap data for traits and segments
 c_dynamic_reports.xml
 
  -->
-
-

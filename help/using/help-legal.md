@@ -11,7 +11,7 @@ uuid: 522c9b17-3712-4619-9197-15d50eb97045
 
 Resources for customer care and legal issues related to the use of this product and documentation.
 
-## Help and Legal {#concept_36E2723E9F884387B5F73E151ADC7F28}
+## Help and Legal {#help-legal}
 
 Resources for customer care and legal issues related to the use of this product and documentation.
 
@@ -21,11 +21,11 @@ c_legal.xml
 
  -->
 
-## If There's a Problem {#reference_ACA3391A00EF467B87930A450050077C}
+## If There's a Problem {#problem}
 
 Customer Care is prepared to help you solve any issues that might arise. Provide as much of this information as you can when contacting Customer Care. This will help the team understand and resolve your issue.
 
-## Basic Information {#section_CC8B206F58D6495C9372D5C0D4055CF6}
+## Basic Information {#basic-information}
 
 <!-- 
 
@@ -37,7 +37,7 @@ For technical issues or to log a bug, contact [Customer Care](https://helpx.adob
 
 * **Telephone:** 1-800-497-0335
 
-  For toll-free numbers outside the United States, see our [regional Customer Care contact numbers](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html) site. When asked to select an option for your product, press 4 to contact the [!DNL Audience Manager] team. 
+  For toll-free numbers outside the United States, see our [regional Customer Care contact numbers](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html) site. When asked to select an option for your product, press 4 to contact the [!DNL Audience Manager] team.
 
 * **Email:** amsupport@adobe.com
 
@@ -82,20 +82,20 @@ Please have the following information ready before contacting us.
  </tbody> 
 </table>
 
-## In Case of an Outage {#section_2CB3BC53E4C641F38D50949E2E7A2886}
+## In Case of an Outage {#outage}
 
 If you suspect there is an outage, first check the [Experience Cloud System Status page](https://status.adobe.com) ( [!DNL https://status.adobe.com]) This has a record of all outages, incidents and maintenance for Experience Cloud Solutions, including Audience Manager, and includes latest updates from our Tech Ops team. If you still require assistance, please ensure you know the following in addition to the information listed above when you contact Customer Care:
 
-* Time outage started 
-* Explanation of what is occurring 
-* Scope 
+* Time outage started
+* Explanation of what is occurring
+* Scope
 * Expectation of resolution (ETA, severity, and so on)
 
-## Contact and Legal Information {#concept_34A1CA16F2244D42930BB77846A5ABBB}
+## Contact and Legal Information {#legal-contact}
 
 Information to help you contact Adobe and to understand the legal issues concerning your use of this product and documentation.
 
-## Help & Technical Support {#section_354AC2658BA84A2A96E64C5B2C43B73B}
+## Help & Technical Support {#technical-support}
 
 <!-- 
 
@@ -105,20 +105,20 @@ c_contact_and_legal.xml
 
 The Adobe Experience Cloud Customer Care team is here to assist you and provides a number of mechanisms by which they can be engaged:
 
-* [Check the Experience Cloud help pages for advice, tips, and FAQs](https://helpx.adobe.com/marketing-cloud.html) 
-* [Ask us a quick question on Twitter @AdobeMktgCare](https://twitter.com/AdobeMktgCare) 
-* [Contact the Customer Care team directly](https://helpx.adobe.com/marketing-cloud/contact-support.html) 
+* [Check the Experience Cloud help pages for advice, tips, and FAQs](https://helpx.adobe.com/support.ec.html)
+* [Ask us a quick question on Twitter @AdobeExpCare](https://twitter.com/AdobeExpCare)
+* [Contact the Customer Care team directly](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Check availability and status of Experience Cloud Solutions](https://status.adobe.com/)
 
-## Service, Capability & Billing {#section_FA4F5274FDFE4DF7BB079E575877DFC2}
+## Service, Capability & Billing {#billing}
 
 Dependent on your solution configuration, some options described in this documentation might not be available to you. As each account is unique, please refer to your contract for pricing, due dates, terms, and conditions. If you would like to add to or otherwise change your service level, or if you have questions regarding your current service, please contact your Account Manager.
 
-## Legal {#section_A6E1844D4AC2485CADBF6D05116E3D59}
+## Legal {#legal}
 
 Published by Adobe Systems Incorporated.
 
-[Terms of Use](https://www.adobe.com/go/marketingcloud_terms_of_use) | [Privacy Center](https://www.adobe.com/privacy.html)
+[Terms of Use](https://marketing.adobe.com/resources/help/en_US/terms.html) | [Privacy Center](https://www.adobe.com/privacy.html)
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 

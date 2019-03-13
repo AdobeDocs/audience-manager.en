@@ -91,4 +91,4 @@ It depends. Cost is based on unique users. If a campaign results in net new user
 
 It comes down to ID syncs. For [!UICONTROL Server-to-Server] destinations, we transfer data offline (either real-time or batch) and we need to send the ID that the destination partner understands, so they can map it back to the browser. The segment addressable number is a subset of the total segment population.
 
-In the case of Cookie and URL destinations, the user is already on the browser, and what [!DNL Audience Manager] sends is just the segments that the user qualified for. The destination partner can just pick up the segment mappings and work with that information. So consider the match rates for Cookie and URL destinations always 100%. 
+In the case of Cookie and URL destinations, the user is already on the browser, and what [!DNL Audience Manager] sends is just the segments that the user qualified for. The destination partner can just pick up the segment mappings and work with that information. So consider the match rates for Cookie and URL destinations always 100%.

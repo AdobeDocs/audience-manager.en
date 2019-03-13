@@ -21,33 +21,33 @@ A data file must be accompanied by a metadata file. The metadata file contents m
 
 The following syntax defines the structure of a well-formed data file name. Note, *italics* indicates a variable placeholder that changes depending on the file contents.
 
-**Syntax:** ` *`event type`*_ *`yyyymmdd`*`
+**Syntax:** <pre><code><i>event type</i>_<i>yyyymmdd</i></code></pre>
 
 In a file name:
 
 * The event type indicates the file contains impressions, clicks, or conversions. Create a separate file for each event type. 
-* An underscore separates the event type and a year-month-date timestamp. 
+* An underscore separates the event type and a year-month-date timestamp.
 * Before uploading, compress your files using gzip and save them with the `.gz` file extension.
 
 Given these requirements, name your data files based on their contents like this:
 
-* Impression data: `impressions_ *`yyyymmdd`*.gz` 
-* Click data: `clicks_ *`yyyymmdd`*.gz` 
-* Conversion data: `conversions_ *`yyyymmdd`*.gz`
+* Impression data: <pre><code>impressions_<i>yyyymmdd<i>.gz</code></pre>
+* Click data: <pre><code>clicks_<i>yyyymmdd</i>.gz</code></pre>
+* Conversion data: <pre><code>conversions_<i>yyyymmdd</i>.gz</code></pre>
 
 ## Content Format for Data Files {#content-format}
 
 The following syntax defines the content structure in well-formed data file. Note, *italics* indicates a variable placeholder and is replaced with an label in an actual data file.
 
-**Syntax:** ` *`header label 1`* | *`header label 2`* ... *`header label n`* | *`version`*`
+**Syntax:** <pre><code><i>header label 1</i> | <i>header label 2</i> ... <i>header label n</i> | <i>version</i></code></pre>
 
 In the file contents:
 
 * The header labels must appear in the order as shown in the table below. Impressions and clicks use the same labels. Conversion files contain extra headers. 
 * If you don't have data for a particular column, populate that field with a `NULL` object or `-1`. 
 
-* Files *must * end with a version number. The current version is 1.1. 
-* Separate file headers and contents with the non-printing ASCII 001 character. If you cannot use ASCII 001, then separate the headers and data with a tab delimiter. As these are non-printing characters, the syntax example above shows a pipe "|" for display purposes only.
+* Files *must* end with a version number. The current version is 1.1.
+* Separate file headers and contents with the non-printing ASCII 001 character. If you cannot use ASCII 001, then separate the headers and data with a tab delimiter. As these are non-printing characters, the syntax example above shows a pipe `"|"` for display purposes only.
 
 **Field Labels**
 
@@ -141,7 +141,7 @@ Upload your impression, click, or conversion data files to an Amazon S3 director
 
 Data is stored in a separate namespace for each customer in an Amazon S3 directory. The file path follows the syntax shown below. Note, *italics* indicates a variable placeholder. Other elements are constants or keys and do not change.
 
-**Syntax:** `.../log_ingestion/pid= *`AAM ID`*/dpid= *`d_src`*/logs/ *`file type`*_ *`yyyymmdd`*`
+**Syntax:** <pre><code>.../log_ingestion/pid= <i>AAM ID<i>/dpid= <i>d_src</i>/logs/ <i>file type</i>_<i>yyyymmdd</i></code></pre>
 
 The following table defines each of these elements in a file delivery path.
 

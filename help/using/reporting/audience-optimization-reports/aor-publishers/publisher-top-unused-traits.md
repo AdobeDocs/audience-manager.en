@@ -37,7 +37,9 @@ Use the **[!UICONTROL Traits]** drop-down box to select which traits you want to
 
 **Sample Report**
 
-Your [!UICONTROL Top Unused Traits] report could look similar to the one below. In your report, click on a bubble to view the underlying data. See descriptions for the additional information in the table below the sample report.
+Your [!UICONTROL Top Unused Traits] report could look similar to the one below. In your report, click on a bubble to view the underlying data.
+
+See descriptions for the additional information in the table below the sample report.
 
 ![](assets/publisher_unused_traits.png)
 
@@ -78,7 +80,11 @@ Your [!UICONTROL Top Unused Traits] report could look similar to the one below. 
 
 ![](assets/publisher_unused_traits_final.png)
 
-The position of your traits in a report can tell you a lot about which traits you could use to optimize existing audience segments. The traits situated higher on the Impressions axis are the ones you want to use in your campaigns. For traits with a low number of impressions, it is unlikely that you're reaching this audience on your web property, based on your DFP data. Look to the left of the [!UICONTROL Unique Trait Realizations] axis for highly accurate traits and to the right for traits that can drive scale.
+The position of your traits in a report can tell you a lot about which traits you could use to optimize existing audience segments. 
+
+The traits situated higher on the Impressions axis are the ones you want to use in your campaigns. For traits with a low number of impressions, it is unlikely that you're reaching this audience on your web property, based on your DFP data. 
+
+Look to the left of the [!UICONTROL Unique Trait Realizations] axis for highly accurate traits and to the right for traits that can drive scale.
 
 <table id="table_A29253B30DFA4CD7B3B7C320DE0BDEA4"> 
  <thead> 
@@ -106,4 +112,3 @@ The position of your traits in a report can tell you a lot about which traits yo
   </tr> 
  </tbody> 
 </table>
-

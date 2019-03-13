@@ -21,7 +21,9 @@ faq_reports.xml
 
 **For new onboarded traits, why does the [!UICONTROL Trait Graph] sometimes display lower than expected numbers or 0?**
 
-Sometimes, after you upload traits, the [!UICONTROL Trait Graph] doesn't show any results or shows lower than expected numbers. This happens when the volume of data we receive is so great that the inbound processing job cannot finish ingesting this information until after the reporting deadline for that day. As a result, this data is sent to the reporting system late and won't show up in the 1-day reporting interval which is used for plotting the [!UICONTROL Trait Graph]. However, you can view this data in the 7, 14, 30, and 60-day report intervals in a [Trend](../reporting/trend-reports.md#trend-report-overview) or [General Report](../reporting/general-reports.md#general-reports-overview) on the following day.
+Sometimes, after you upload traits, the [!UICONTROL Trait Graph] doesn't show any results or shows lower than expected numbers. This happens when the volume of data we receive is so great that the inbound processing job cannot finish ingesting this information until after the reporting deadline for that day. 
+
+As a result, this data is sent to the reporting system late and won't show up in the 1-day reporting interval which is used for plotting the [!UICONTROL Trait Graph]. However, you can view this data in the 7, 14, 30, and 60-day report intervals in a [Trend](../reporting/trend-reports.md#trend-report-overview) or [General Report](../reporting/general-reports.md#general-reports-overview) on the following day.
 
 <br>&nbsp;
 
@@ -86,17 +88,17 @@ As an example, suppose you have onboarded 100 records. For each of these custome
 
 There are two reasons why a single cross-device customer ID can be associated with multiple device IDs:
 
-* Users are logging in to the same cross-device account from multiple computers/browsers. 
+* Users are logging in to the same cross-device account from multiple computers/browsers.
 * Users are clearing their cookies. Note: “Abandoned” cookies are deleted after 120 days of user inactivity.
 
 <br>&nbsp;
 
 **Why are [!UICONTROL Total Trait Realizations] for my onboared traits always 0?**
 
-[!UICONTROL Total Trait Realizations] correspond to page loads. [!UICONTROL Total Trait Realizations] provide the number of times that specific trait has fired in realtime. This number is calculated for rule-based traits only. Onboarded traits always show [!UICONTROL Total Trait Realizations] as 0.
+[!UICONTROL Total Trait Realizations] correspond to page loads. [!UICONTROL Total Trait Realizations] provide the number of times that specific trait has fired in real-time. This number is calculated for rule-based traits only. Onboarded traits always show [!UICONTROL Total Trait Realizations] as 0.
 
 <br>&nbsp;
 
 **I created a trait and the [!UICONTROL Trait Graph] shows a larger number of [!UICONTROL Unique Trait Realizations] than the [!UICONTROL Total Trait Population]. Is this normal?**
 
-You are seeing this because the [!UICONTROL Unique Trait Realizations] are real-time metrics, but the reporting jobs we do to calculate the [!UICONTROL Total Trait Population] are not real-time. The [!UICONTROL Total Trait Population] should be larger than the [!UICONTROL Unique Trait Realizations] within a couple of days. 
+You are seeing this because the [!UICONTROL Unique Trait Realizations] are real-time metrics, but the reporting jobs we do to calculate the [!UICONTROL Total Trait Population] are not real-time. The [!UICONTROL Total Trait Population] should be larger than the [!UICONTROL Unique Trait Realizations] within a couple of days.

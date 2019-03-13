@@ -9,13 +9,17 @@ uuid: c9a1e9ad-4f3f-4334-a3ff-0f241c7303c4
 
 # Segment Performance Report{#segment-performance-report}
 
-The Segment Performance report compares mapped and unmapped segments by impressions and Real-Time Segment Uniques. A mapped segment is a segment you create and send to a destination for targeting. An unmapped segment is a segment that you've created but have not sent to a destination for targeting. Comparing these different segment types within and between reports helps you optimize existing campaigns and find overlooked segments that you may want to send to a destination for targeting.
+The Segment Performance report compares mapped and unmapped segments by impressions and Real-Time Segment Uniques.
+
+A mapped segment is a segment you create and send to a destination for targeting. An unmapped segment is a segment that you've created but have not sent to a destination for targeting.
+
+Comparing these different segment types within and between reports helps you optimize existing campaigns and find overlooked segments that you may want to send to a destination for targeting.
 
 ## Use Cases {#use-cases}
 
 With the [!UICONTROL Segment Performance] report, you can:
 
-* Identify mapped audience segments that are driving scale or performance. 
+* Identify mapped audience segments that are driving scale or performance.
 * Identify unmapped segments to introduce in future campaigns, based on the contribution of an audience to past performance.
 
 ## Using the Segment Performance Report {#using-segment-performance-report}
@@ -81,7 +85,9 @@ Your [!UICONTROL Segment Performance] report could look similar to the one below
 
 ## How to Read Your Mapped Segment Results {#read-mapped-segment}
 
-The position of your mapped segments in a report can tell you a lot about which segments are performing well and where you might need to make some adjustments. To read the report, it helps to divide the results into four sections with imaginary lines (in red) and the categories shown in the sample report below. The labels in the example can help you understand segment performance and how to respond to these results.
+The position of your mapped segments in a report can tell you a lot about which segments are performing well and where you might need to make some adjustments.
+
+To read the report, it helps to divide the results into four sections with imaginary lines (in red) and the categories shown in the sample report below. The labels in the example can help you understand segment performance and how to respond to these results.
 
 ![](assets/publisher_segment_performance_mapped.png)
 
@@ -92,4 +98,3 @@ Looking at unmapped segments in a [!UICONTROL Segment Performance] report is a g
 To read this report, it helps to divide the results into four sections with imaginary lines (in red) and categories shown in the sample report below.
 
 ![](assets/publisher_segment_performance_unmapped.png)
-
