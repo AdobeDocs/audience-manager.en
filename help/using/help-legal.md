@@ -60,7 +60,7 @@ Please have the following information ready before contacting us.
    <td colname="col2"> <p>Provide your: </p> <p> 
      <ul id="ul_6ACF6EF2165C4041A891FF36D78BBA63"> 
       <li id="li_86573CAAE8454BE6BDF44F9A8281FF95">Company name. </li> 
-      <li id="li_8259BB738BA84A13982A8E84BCF56B2A"><span class="keyword"> Audience Manager</span> sub-domain (if known). The sub-domain is the URL of the domain that sends data collection events to <span class="keyword"> Adobe</span> (e.g., <span class="codeph">https://<span class="varname"> myCompany</span>.demdex.net</span>). </li> 
+      <li id="li_8259BB738BA84A13982A8E84BCF56B2A"><span class="keyword"> Audience Manager</span> sub-domain (if known). The sub-domain is the URL of the domain that sends data collection events to <span class="keyword"> Adobe</span> (e.g., <code>https://<i>myCompany</i>.demdex.net</code>). </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 

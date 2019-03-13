@@ -48,24 +48,24 @@ After completing the previous steps, you can use a `GET` method to retrieve segm
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> destinationMappingId</span> </p> </td> 
+   <td colname="col1"> <p> <code> destinationMappingId</code> </p> </td> 
    <td colname="col2"> <p>The <span class="keyword"> Audience Manager</span> segment ID. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> elementName</span> </p> </td> 
+   <td colname="col1"> <p> <code> elementName</code> </p> </td> 
    <td colname="col2"> <p>The segment name. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> elementDescription</span> </p> </td> 
+   <td colname="col1"> <p> <code> elementDescription</code> </p> </td> 
    <td colname="col2"> <p>Some text that briefly describes the segment. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> elementStatus</span> </p> </td> 
+   <td colname="col1"> <p> <code> elementStatus</code> </p> </td> 
    <td colname="col2"> <p>The current status of the segment mapping. Returned status options include: </p> 
     <ul id="ul_BA3A1F5A773D4ECD9A1A3A1118BDDA8A"> 
-     <li id="li_A12B858BD0AD4F35BCD50A4D113D86FF"> <span class="codeph"> active</span> </li> 
-     <li id="li_98C04A861C2D4364B5FBD24498E8E9C5"> <span class="codeph"> inactive</span> </li> 
-     <li id="li_1913A10948894FF3B507C0A3FE775CC1"> <span class="codeph"> deleted</span> </li> 
+     <li id="li_A12B858BD0AD4F35BCD50A4D113D86FF"> <code> active</code> </li> 
+     <li id="li_98C04A861C2D4364B5FBD24498E8E9C5"> <code> inactive</code> </li> 
+     <li id="li_1913A10948894FF3B507C0A3FE775CC1"> <code> deleted</code> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

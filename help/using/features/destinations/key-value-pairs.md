@@ -39,13 +39,13 @@ Both standard and serialized key-values can contain single or multiple values. T
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Standard</b> </p> </td>
-   <td colname="col2"> <p> <span class="codeph"> x = 1 &amp; x = 2 </span> </p> </td>
-   <td colname="col3"> <p> <span class="codeph"> x = 1 &amp; x = 2 &amp; y = 3 &amp; y = 4 </span> </p> </td>
+   <td colname="col2"> <p> <code> x = 1 &amp; x = 2 </code> </p> </td>
+   <td colname="col3"> <p> <code> x = 1 &amp; x = 2 &amp; y = 3 &amp; y = 4 </code> </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <b>Serialized</b> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> x = 1 ; 2 </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> x = 1 ; 2 &amp; y = 3 ; 4 </span> </p> </td>
+   <td colname="col2"> <p> <code> x = 1 ; 2 </code> </p> </td> 
+   <td colname="col3"> <p> <code> x = 1 ; 2 &amp; y = 3 ; 4 </code> </p> </td>
   </tr>
  </tbody>
 </table>
@@ -73,7 +73,7 @@ With [!UICONTROL Destination Builder] you can format key-value data in several d
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Standard single key</b> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> X = 1 &amp; X = 2 </span> </p> </td> 
+   <td colname="col2"> <p> <code> X = 1 &amp; X = 2 </code> </p> </td> 
    <td colname="col3"> <p>A simple set of key-value pairs. The example contains these elements: </p> 
     <ul id="ul_28C0CB005B264373926CA5D7418EE845"> 
      <li id="li_B6D300DBA9064F0BA743BA9B04339511">Key: X </li> 
@@ -84,7 +84,7 @@ With [!UICONTROL Destination Builder] you can format key-value data in several d
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Multiple key-value pairs</b> (non-serial) </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> X = 1 &amp; X = 2 &amp; Y = 3 &amp; Y = 4 </span> </p> </td> 
+   <td colname="col2"> <p> <code> X = 1 &amp; X = 2 &amp; Y = 3 &amp; Y = 4 </code> </p> </td> 
    <td colname="col3"> <p>A set of multiple key-value pairs that pass in values with separate key-value sets. The example contains these elements: </p> 
     <ul id="ul_7FB22A43B435463D9F209067FF2C3619"> 
      <li id="li_7487657F6C2F48F5A4C4C9F9E8FB3B4B">Keys: X, Y </li> 
@@ -95,7 +95,7 @@ With [!UICONTROL Destination Builder] you can format key-value data in several d
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Serial single key</b> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> X = 1 ; 2 ; 3 </span> </p> </td> 
+   <td colname="col2"> <p> <code> X = 1 ; 2 ; 3 </code> </p> </td> 
    <td colname="col3"> <p>A key-value set that passes in multiple values with a single key. Because this key has multiple values, it is known as a serialized key-value pair. The example contains these elements: </p> 
     <ul id="ul_69C4C662B9BD4F77BB940D921B316CCF"> 
      <li id="li_718BEC527E69417C9F88D3DBD3357A28">Key: X </li> 
@@ -106,7 +106,7 @@ With [!UICONTROL Destination Builder] you can format key-value data in several d
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Multiple key-value pairs</b> (serial) </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> X = 1 ; 2 &amp; Y = 3 ; 4 </span> </p> </td> 
+   <td colname="col2"> <p> <code> X = 1 ; 2 &amp; Y = 3 ; 4 </code> </p> </td> 
    <td colname="col3"> <p>A set of multiple key-value pairs that pass in multiple values on separate keys. The example contains these elements: </p> 
     <ul id="ul_CB50133B2E944818B9F2A0586EF69774"> 
      <li id="li_FD3D7ECC2BF046E99B1ED0B73EFE341F">Keys: X, Y </li> 

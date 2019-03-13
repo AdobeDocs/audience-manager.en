@@ -26,7 +26,7 @@ Beginning with [!DNL Experience Cloud] ID service v1.5+, the `setCustomerID` met
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1" morerows="1"> <p> <span class="codeph"> 0 </span> </p> </td> 
+   <td colname="col1" morerows="1"> <p> <code> 0 </code> </p> </td> 
    <td colname="col2"> <p>Yes, if the Authenticated Option Merge Rule = "Last Authenticated Profiles". </p> </td> 
    <td colname="col3" morerows="1"> <p>No, the trait data is added to the device profile. </p> </td> 
   </tr> 
@@ -52,7 +52,7 @@ Sample call (the request value corresponding to the authentication status is hig
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1" morerows="1"> <p> <span class="codeph"> 1 </span> </p> </td> 
+   <td colname="col1" morerows="1"> <p> <code> 1 </code> </p> </td> 
    <td colname="col2"> <p>Yes, if the Authenticated Option Merge Rule = "Current Authenticated Profiles" or "Last Authenticated Profiles". </p> </td> 
    <td colname="col3" morerows="1"> <p>Yes, the trait data is added to the authenticated profile. </p> </td> 
   </tr> 
@@ -78,7 +78,7 @@ Sample call (the request value corresponding to the authentication status is hig
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1" morerows="1"> <p> <span class="codeph"> 2 </span> </p> </td> 
+   <td colname="col1" morerows="1"> <p> <code> 2 </code> </p> </td> 
    <td colname="col2"> Yes, if the Authenticated Option Merge Rule = "Last Authenticated Profiles" </td> 
    <td colname="col3" morerows="1"> <p>No, the trait data is written to the device profile. </p> </td> 
   </tr> 

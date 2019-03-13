@@ -70,20 +70,20 @@ Audience Manager provides the following environments for file drop-off:
   <tr> 
    <td colname="col1" morerows="1"> <b>Production</b> </td> 
    <td colname="col02"> FTP </td> 
-   <td colname="col2"> <p> <span class="codeph"> ftp-in.demdex.com</span> </p> </td> 
+   <td colname="col2"> <p> <code> ftp-in.demdex.com</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col02"> S3 </td> 
-   <td colname="col2"> <p> <span class="codeph"> demdex-s2s-clients</span> </p> </td> 
+   <td colname="col2"> <p> <code> demdex-s2s-clients</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" morerows="1"> <b>Beta Environment</b> </td> 
    <td colname="col02"> FTP </td> 
-   <td colname="col2"> <p><span class="codeph"> sandbox-ftp-in.demdex.com</span> </p> </td> 
+   <td colname="col2"> <p><code> sandbox-ftp-in.demdex.com</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col02"> S3 </td> 
-   <td colname="col2"> <p> <span class="codeph"> demdex-s2s-clients-sandbox-us-east-1</span> </p> </td> 
+   <td colname="col2"> <p> <code> demdex-s2s-clients-sandbox-us-east-1</code> </p> </td> 
   </tr> 
  </tbody> 
 </table>

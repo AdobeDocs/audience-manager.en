@@ -30,14 +30,14 @@ These parameters are described below. Code in *italics* represents a variable pl
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><i><span class="codeph">"uuid":<span class="varname"></i> user ID</span></span> </p> </td> 
+   <td colname="col1"> <p><code>"uuid": <i>user ID</i></code></span> </p> </td> 
    <td colname="col2"> <p>String </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> "uuid":"123456789"</span> </p> </td> 
+   <td colname="col3"> <p> <code> "uuid":"123456789"</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph">"dcs_region":<i><span class="varname"> region ID</span></i></span> </p> </td> 
+   <td colname="col1"> <p><code>"dcs_region":<i>region ID</i></code> </p> </td> 
    <td colname="col2"> <p>Int </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> "dcs_region":9</span> </p> </td> 
+   <td colname="col3"> <p> <code> "dcs_region":9</code> </p> </td> 
   </tr> 
  </tbody> 
 </table>

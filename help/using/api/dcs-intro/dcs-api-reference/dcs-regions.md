@@ -23,37 +23,37 @@ The regional [!UICONTROL DCS] server host name is required to make calls to the 
   <tr> 
    <td colname="col1"> <p>ID 3 </p> </td> 
    <td colname="col2"> <p>Southeast Asia (Singapore) </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> apse.demdex.net</span> </p> </td> 
+   <td colname="col3"> <p> <code> apse.demdex.net</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID 4 </p> </td> 
    <td colname="col2"> <p>South America (São Paulo, Brazil) </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> sae.demdex.net</span> </p> </td> 
+   <td colname="col3"> <p> <code> sae.demdex.net</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID 6 </p> </td> 
    <td colname="col2"> <p>Europe (Dublin, Ireland) </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> irl1.demdex.net</span> </p> </td> 
+   <td colname="col3"> <p> <code> irl1.demdex.net</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID 7 </p> </td> 
    <td colname="col2"> <p>US East (Virginia, USA) </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> use.demdex.net</span> </p> </td> 
+   <td colname="col3"> <p> <code> use.demdex.net</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID 8 </p> </td> 
    <td colname="col2"> <p>South Pacific / Oceania (Sydney, Australia) </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> apse2.demdex.net</span> </p> </td> 
+   <td colname="col3"> <p> <code> apse2.demdex.net</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID 9 </p> </td> 
    <td colname="col2"> <p>US West (Oregon, USA) </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> usw2.demdex.net</span> </p> </td> 
+   <td colname="col3"> <p> <code> usw2.demdex.net</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID 11 </p> </td> 
    <td colname="col2"> <p>Asia (Tokyo, Japan) </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> tyo3.demdex.net</span> </p> </td> 
+   <td colname="col3"> <p> <code> tyo3.demdex.net</code> </p> </td> 
   </tr> 
  </tbody> 
 </table>

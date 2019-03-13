@@ -37,7 +37,7 @@ A signal is information from your website passed in to [!DNL Audience Manager] i
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Ensure Trait Uniformity or Add Related Values to a Single Key</b> </p> </td> 
-   <td colname="col2"> <p>Review the report to account for different value variations for a particular signal. </p> <p>For example, say you have a trait for the state "North Carolina" defined in a key-value pair as <span class="codeph"> c_state = North Carolina</span>. The report can help you find name variants and add those to the trait (e.g., <span class="codeph"> c_state = North Carolina, NC, N.C., NCarolina</span>). Alternatively, you could spot name variants with the report and replace those with a uniform value across all sites. </p> <p> </p> </td> 
+   <td colname="col2"> <p>Review the report to account for different value variations for a particular signal. </p> <p>For example, say you have a trait for the state "North Carolina" defined in a key-value pair as <code> c_state = North Carolina</code>. The report can help you find name variants and add those to the trait (e.g., <code> c_state = North Carolina, NC, N.C., NCarolina</code>). Alternatively, you could spot name variants with the report and replace those with a uniform value across all sites. </p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Create New Traits</b> </p> </td> 

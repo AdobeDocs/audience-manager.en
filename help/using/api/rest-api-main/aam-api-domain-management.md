@@ -102,24 +102,24 @@ You can use these optional parameters with [!DNL API] methods that return *all* 
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td colname="col1"><span class="codeph"> page</span> </td> 
+   <td colname="col1"><code> page</code> </td> 
    <td colname="col2"> Returns results by page number. Numbering starts at 0. </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"><span class="codeph"> pageSize</span> </td> 
+   <td colname="col1"><code> pageSize</code> </td> 
    <td colname="col2"> Sets the number of response results returned by the request (10 is default). </td>
   </tr>
   <tr valign="top"> 
-   <td colname="col1"><span class="codeph"> sortBy</span> </td> 
+   <td colname="col1"><code> sortBy</code> </td> 
    <td colname="col2"> Sorts and returns results according to the specified JSON property. </td>
   </tr>
   <tr valign="top"> 
-   <td colname="col1"><span class="codeph"> descending</span> </td>
+   <td colname="col1"><code> descending</code> </td>
    <td colname="col2"> Sorts and returns results in descending order. Ascending is default. </td>
   </tr>
   <tr valign="top">
-   <td colname="col1"><span class="codeph"> search</span> </td>
-   <td colname="col2">Returns results based on the specified string you want to use as a search parameter. For example, let's say you want to find results for all models that have the word "Test" in any of the value fields for that item. Your sample request could look like this: <p><span class="codeph"> `GET` `https://api.demdex.com/v1/models/?search=Test`</span>. </p> <p>You can search on any value returned by a "get all" method. </p> </td>
+   <td colname="col1"><code> search</code> </td>
+   <td colname="col2">Returns results based on the specified string you want to use as a search parameter. For example, let's say you want to find results for all models that have the word "Test" in any of the value fields for that item. Your sample request could look like this: <p><code> `GET` `https://api.demdex.com/v1/models/?search=Test`</code>. </p> <p>You can search on any value returned by a "get all" method. </p> </td>
   </tr> 
  </tbody> 
 </table>

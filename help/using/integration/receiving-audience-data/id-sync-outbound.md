@@ -42,16 +42,16 @@ The [!DNL URL] for your inbound ID synchronization call should contain variables
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> &lt;VENDOR_ID&gt;</span> </span> </td> 
+   <td colname="col1"> <code> <i>&lt;VENDOR_ID&gt;</i> </code> </td> 
    <td colname="col2">Unique ID for the data provider (assigned by <span class="keyword"> Audience Manager</span>). </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> &lt;VENDOR_UUID&gt;</span> </span> </td> 
+   <td colname="col1"> <code> <i>&lt;VENDOR_UUID&gt;</i> </code> </td> 
    <td colname="col2"> Unique user ID. </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> &lt;REDIRECT_URL&gt;</span> </span> </td> 
-   <td colname="col2">An encoded URL redirect with the macro <span class="codeph"> ${DD_UUID}</span> embedded within it. <p>Note:  Added only when the data provider initiates the call. </p> </td> 
+   <td colname="col1"> <code> <i>&lt;REDIRECT_URL&gt;</i> </code> </td> 
+   <td colname="col2">An encoded URL redirect with the macro <code> ${DD_UUID}</code> embedded within it. <p>Note:  Added only when the data provider initiates the call. </p> </td> 
   </tr> 
  </tbody> 
 </table>

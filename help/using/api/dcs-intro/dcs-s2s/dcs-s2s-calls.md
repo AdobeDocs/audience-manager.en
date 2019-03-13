@@ -36,19 +36,19 @@ A sample call looks similar to the following example.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <i><span class="varname"> domain alias</span></i>.demdex.net</span> </p> </td> 
+   <td colname="col1"> <p><code> <i>domain alias</i>.demdex.net</code> </p> </td> 
    <td colname="col2"> <p>This part of the call contains: </p> <p> 
      <ul id="ul_3EDA9C7BA6794D06BCB07A75A9BD2372"> 
-      <li id="li_74624CA78D6F4536A8164AE1FA1DECB9">Your domain alias assigned by <span class="keyword"> Audience Manager</span> (e.g., <i><span class="codeph"> my_domain.demdex.net</span></i>). </li> 
-      <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">The destination domain, which is always <i><span class="codeph"> demdex.net</span></i>. See <a href="../../../reference/demdex-calls.md#concept_77B3D5A068AE413FA78D190D65AD799F"> Understanding Calls to the Demdex Domain</a>. </li> 
+      <li id="li_74624CA78D6F4536A8164AE1FA1DECB9">Your domain alias assigned by <span class="keyword"> Audience Manager</span> (e.g., <i><code> my_domain.demdex.net</code></i>). </li> 
+      <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">The destination domain, which is always <i><code> demdex.net</code></i>. See <a href="../../../reference/demdex-calls.md#concept_77B3D5A068AE413FA78D190D65AD799F"> Understanding Calls to the Demdex Domain</a>. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <i><span class="varname"> DCS host name</span></i>.demdex.net</span> </p> </td> 
+   <td colname="col1"> <p><code> <i>DCS host name</i>.demdex.net</code> </p> </td> 
    <td colname="col2"> <p>The http header host parameter which shows the name of the regional <span class="wintitle"> DCS</span> server. The host name is tied to a region ID, which is why you need this before making these types of calls. See <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md#concept_01C1E017A6694D1EAF9BF65BFFA54091"> DCS Region IDs, Locations, and Host Names</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> /event?</span> </p> </td> 
+   <td colname="col1"> <p><code> /event?</code> </p> </td> 
    <td colname="col2"> <p>This part of the call: </p> <p> 
      <ul id="ul_6332444A305A4F12A7CBE471CA508516"> 
       <li id="li_1C5C111B2B0E4621B3FC0C20D6516041">Identifies the call as an event call. </li> 
@@ -56,21 +56,21 @@ A sample call looks similar to the following example.
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><i><span class="codeph">d_uuid=<span class="varname"></i> Audience Manager user ID</span></span> </p> </td> 
-   <td colname="col2"> <p>This is the unique user ID key that holds the <span class="keyword"> Audience Manager</span> user ID value in a key-value pair. </p> <p>Use <i><span class="codeph"> d_uuid</span></i> if you're passing in the <span class="keyword"> Audience Manager</span> user ID. </p> </td>
+   <td colname="col1"> <p><code>d_uuid= <i>Audience Manager user ID</i></code> </p> </td> 
+   <td colname="col2"> <p>This is the unique user ID key that holds the <span class="keyword"> Audience Manager</span> user ID value in a key-value pair. </p> <p>Use <code><i>d_uuid</i></code> if you're passing in the <span class="keyword"> Audience Manager</span> user ID. </p> </td>
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph">d_mid=<i><span class="varname"> Experience Cloud user ID</span></i></span> </p> </td> 
-   <td colname="col2"> <p>This is the unique user ID key that holds the <span class="keyword"> Experience Cloud</span> user ID value in a key-value pair. See also <a href="../../../api/dcs-intro/dcs-s2s/dcs-mcid-ids.md#section_F28F94780FEC4918B37B62AC9A64AF23"> Get the User ID from the ID Service Cookie</a>. </p> <p>Use <i><span class="codeph"> d_mid</span></i> if you're passing in a <span class="keyword"> Experience Cloud</span> ID captured from the <span class="keyword"> Experience Cloud</span> ID service. </p> </td> 
+   <td colname="col1"> <p><code>d_mid=<i>Experience Cloud user ID</i></code> </p> </td> 
+   <td colname="col2"> <p>This is the unique user ID key that holds the <span class="keyword"> Experience Cloud</span> user ID value in a key-value pair. See also <a href="../../../api/dcs-intro/dcs-s2s/dcs-mcid-ids.md#section_F28F94780FEC4918B37B62AC9A64AF23"> Get the User ID from the ID Service Cookie</a>. </p> <p>Use <i><code> d_mid</code></i> if you're passing in a <span class="keyword"> Experience Cloud</span> ID captured from the <span class="keyword"> Experience Cloud</span> ID service. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 
      <ul id="ul_36E2C1A0538D4D2C94DFC1335720A524"> 
-      <li id="li_8902EED431CE4F0189A94868FA52DB1F"><span class="codeph"> d_dst=1</span> </li> 
-      <li id="li_4B6B29499D444E31808DE0A9AA0442D0"><span class="codeph"> d_rtbd=json</span> </li> 
-      <li id="li_3430CD0438604B83BE6437E6EC480816"><span class="codeph">d_cb=<i><span class="varname"> callback</span></i></span> </li> 
+      <li id="li_8902EED431CE4F0189A94868FA52DB1F"><code> d_dst=1</code> </li> 
+      <li id="li_4B6B29499D444E31808DE0A9AA0442D0"><code> d_rtbd=json</code> </li> 
+      <li id="li_3430CD0438604B83BE6437E6EC480816"><code>d_cb=<i>callback</i></code> </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p>Optional response parameters. </p> <p> None of these are required to send data to the <span class="wintitle"> DCS</span>. However, if you want the <span class="wintitle"> DCS</span> to return a response, you must include <i><span class="codeph"> d_rtbd=json</span></i> in your request. </p> </td> 
+   <td colname="col2"> <p>Optional response parameters. </p> <p> None of these are required to send data to the <span class="wintitle"> DCS</span>. However, if you want the <span class="wintitle"> DCS</span> to return a response, you must include <i><code> d_rtbd=json</code></i> in your request. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -80,41 +80,41 @@ Consider the following use cases in which the data provider is not configured to
    <td colname="col1"> <p><b>Case 1</b> </p> </td> 
    <td colname="col2"> <p>On Monday, a visitor identified in the CRM database as visitor ABC logs in, which initiates a client-side ID sync. <span class="keyword"> Audience Manager</span> stores the mapping of visitor ABC to <span class="keyword"> Audience Manager</span> visitor 123. </p> <p>On Tuesday, the CRM database transfers a data file (<span class="filepath"> .sync</span>) to the <span class="keyword"> Audience Manager </span>server with the following record: </p> <p> 
      <ul class="simplelist"> 
-      <li><span class="codeph"> ABC "gender"="male","luxury_shopper"="yes"</span> </li> 
+      <li><code> ABC "gender"="male","luxury_shopper"="yes"</code> </li> 
      </ul> </p> <p>In this case, <span class="keyword"> Audience Manager</span>: </p> <p> 
      <ul id="ul_7616432BF9874E7D94F3101C71F73C81"> 
       <li id="li_DC4F5E63D8134A29B703BDF264F02F65">Recognizes visitor ABC from the stored ID sync mapping. </li> 
-      <li id="li_62E085FC184D41C3863B1CE832F77946"> Associates the traits <span class="codeph"> male</span> and <span class="codeph"> luxury_shopper</span> with the visitor 123 profile. </li> 
+      <li id="li_62E085FC184D41C3863B1CE832F77946"> Associates the traits <code> male</code> and <code> luxury_shopper</code> with the visitor 123 profile. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Case 2</b> </p> </td> 
    <td colname="col2"> <p>On Monday, the CRM database pushes a data file (<span class="filepath"> .sync</span>) to the <span class="keyword"> Audience Manager</span> server with the following record: </p> <p> 
      <ul class="simplelist"> 
-      <li><span class="codeph"> DEF "gender"="female","wine_enthusiast"="yes"</span> </li> 
+      <li><code> DEF "gender"="female","wine_enthusiast"="yes"</code> </li> 
      </ul> </p> <p> <span class="keyword"> Audience Manager</span> does not have a record of this visitor (or an associated visitor ID) so this record is not processed. </p> <p>On Tuesday, visitor DEF logs in. This action initiates the first client-side ID sync for that visitor. This action maps visitor DEF to <span class="keyword"> Audience Manager</span> ID 456. However, this visitor does not have CRM data associated with their profile. As a result, <span class="keyword"> Audience Manager</span> does not go back and reprocess old files. </p> <p>On Wednesday, the CRM database pushes another data file to the <span class="keyword"> Audience Manager</span> server with the following record: </p> <p> 
      <ul class="simplelist"> 
-      <li><span class="codeph"> DEF "gender"="female","wine_enthusiast"="yes","dma"="paris"</span> </li> 
+      <li><code> DEF "gender"="female","wine_enthusiast"="yes","dma"="paris"</code> </li> 
      </ul> </p> <p>In this case, <span class="keyword"> Audience Manager</span>: </p> 
     <ul id="ul_E853DA091D9042DAB19774383841D3A3"> 
      <li id="li_64D64A16E99E492BAAE1080867F854A9">Recognizes visitor DEF from the stored ID sync mapping. </li> 
-     <li id="li_9CEE7A7B1A954FF6AEEBF8844074CFBB">Associates the traits <span class="codeph"> female</span>, <span class="codeph"> paris</span>, and <span class="codeph"> wine_enthusiast</span> with the visitor 456 profile. </li> 
+     <li id="li_9CEE7A7B1A954FF6AEEBF8844074CFBB">Associates the traits <code> female</code>, <code> paris</code>, and <code> wine_enthusiast</code> with the visitor 456 profile. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Case 3</b> </p> </td> 
-   <td colname="col2"> <p>On Monday, the <span class="keyword"> Audience Manager</span> server receives two files with the following records: </p> <p> <span class="codeph"> .sync</span> file containing: </p> <p> 
+   <td colname="col2"> <p>On Monday, the <span class="keyword"> Audience Manager</span> server receives two files with the following records: </p> <p> <code> .sync</code> file containing: </p> <p> 
      <ul class="simplelist"> 
-      <li><span class="codeph"> GHI 123456789</span> </li> 
-     </ul> </p> <p> <span class="codeph"> .overwrite</span> file containing: </p> 
+      <li><code> GHI 123456789</code> </li> 
+     </ul> </p> <p> <code> .overwrite</code> file containing: </p> 
     <ul id="ul_084AE448C60447ACA9B1E0C30EAA3E3E"> 
-     <li id="li_C68B7BBFE7CA4D22B606D939E32FF4FB"><span class="codeph"> GHI "gender"="male" "wine_enthusiast"="no"</span> </li> 
-     <li id="li_FDBCAAFBD606477E8690EA80AD455A81"><span class="codeph"> JKL "gender"="female" "wine_enthusiast"="yes"</span> </li> 
+     <li id="li_C68B7BBFE7CA4D22B606D939E32FF4FB"><code> GHI "gender"="male" "wine_enthusiast"="no"</code> </li> 
+     <li id="li_FDBCAAFBD606477E8690EA80AD455A81"><code> JKL "gender"="female" "wine_enthusiast"="yes"</code> </li> 
     </ul> <p><span class="keyword"> Audience Manager</span> holds a mapped record of visitor JKL to ID 789, from a previous ID sync. </p> <p>In this case, <span class="keyword"> Audience Manager</span>: </p> 
     <ul id="ul_4D083CEA7F1B4F6BBBBB841C21293751"> 
      <li id="li_6DABD380311D49738DAD98F5E6DE45B8">Recognizes visitor JKL from the stored ID sync mapping. </li> 
-     <li id="li_CCEF77240E5C4A03AAE347440D73F0BB">Associates the traits <span class="codeph"> female</span> and <span class="codeph"> wine_enthusiast</span> with visitor ID 789's profile. </li> 
-     <li id="li_273F8FD7C6214488A26AAFFA6DE043E5">Ignores the trait association for visitor GHI, since its ID was only synced in the current batch. To associate traits with visitor GHI, you need to include them in future <span class="codeph"> .overwrite</span> files. </li> 
+     <li id="li_CCEF77240E5C4A03AAE347440D73F0BB">Associates the traits <code> female</code> and <code> wine_enthusiast</code> with visitor ID 789's profile. </li> 
+     <li id="li_273F8FD7C6214488A26AAFFA6DE043E5">Ignores the trait association for visitor GHI, since its ID was only synced in the current batch. To associate traits with visitor GHI, you need to include them in future <code> .overwrite</code> files. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -170,18 +170,18 @@ The following use cases demonstrate how these file types affect stored visitor p
    <td colname="col1"> <p><b>Incremental and Full</b> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_E89301D815174D45B9B238F2CDE6CCC6"> 
-      <li id="li_FA841FEEC0534AD59D1AB61DD5B9DEC4">Day 1 <span class="codeph"> .sync</span> file contents: <span class="codeph"> visitor123 = a,b,c</span> </li> 
-      <li id="li_0E1A57B04D26481C8C41EBA63ACBEFE0">Day 2 <span class="codeph"> .overwrite</span> file contents: <span class="codeph"> visitor123 = c,d,e</span> </li> 
-      <li id="li_497A5604AD9A49A2ADE548C7CE158F0E"> Day 3 visitor profile ID 123 contains <span class="codeph"> c,d,e </span> </li> 
+      <li id="li_FA841FEEC0534AD59D1AB61DD5B9DEC4">Day 1 <code> .sync</code> file contents: <code> visitor123 = a,b,c</code> </li> 
+      <li id="li_0E1A57B04D26481C8C41EBA63ACBEFE0">Day 2 <code> .overwrite</code> file contents: <code> visitor123 = c,d,e</code> </li> 
+      <li id="li_497A5604AD9A49A2ADE548C7CE158F0E"> Day 3 visitor profile ID 123 contains <code> c,d,e </code> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Incremental Only</b> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_8271C9796BD040E4B8DC64DCE4FE2AD3"> 
-      <li id="li_347959BDE83549F794E6661C95097891">Day 1 <span class="codeph"> .sync</span> file contents: <span class="codeph"> visitor123 = a,b,c </span> </li> 
-      <li id="li_B25D96526DE94171A3A5DC8DB7A19415">Day 2 <span class="codeph"> .sync</span> file contents: <span class="codeph"> visitor123 = c,d,e</span> </li> 
-      <li id="li_6E17809D49C74F4991B0B445469055E6">Day 3 visitor profile ID 123 contains <span class="codeph"> a,b,c,d,e</span> </li> 
+      <li id="li_347959BDE83549F794E6661C95097891">Day 1 <code> .sync</code> file contents: <code> visitor123 = a,b,c </code> </li> 
+      <li id="li_B25D96526DE94171A3A5DC8DB7A19415">Day 2 <code> .sync</code> file contents: <code> visitor123 = c,d,e</code> </li> 
+      <li id="li_6E17809D49C74F4991B0B445469055E6">Day 3 visitor profile ID 123 contains <code> a,b,c,d,e</code> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 

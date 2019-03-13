@@ -63,7 +63,7 @@ The table below lists and describes the column headers for your data file. Heade
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Time-Stamp </p> </td> 
-   <td colname="col2"> <p>A UTC date and time for the impression, click, or conversion event. Use the <span class="codeph"> yyyy-dd-mm hh:mm:ss</span> format. </p> </td> 
+   <td colname="col2"> <p>A UTC date and time for the impression, click, or conversion event. Use the <code> yyyy-dd-mm hh:mm:ss</code> format. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>User-ID </p> </td> 
@@ -121,9 +121,9 @@ The table below lists and describes the column headers for your data file. Heade
    <td colname="col1"> <p>Event-Type </p> </td> 
    <td colname="col2"> <p>Conversion type. Indicates whether a conversion is matched or not. Options include: </p> 
     <ul id="ul_DA8230D167F241F2B53F29367874D4B1"> 
-     <li id="li_2BC2EBCAE12541029A5F62AC0785E7FE"> <span class="codeph"> 0</span>: Impression </li> 
-     <li id="li_2A4B1354891144D587624228D8FB5E77"> <span class="codeph"> 1</span>: Click </li> 
-     <li id="li_44E61419DB56471EB2091072595D3E5C"> <span class="codeph"> -1</span>: Unattributed or unknown </li> 
+     <li id="li_2BC2EBCAE12541029A5F62AC0785E7FE"> <code> 0</code>: Impression </li> 
+     <li id="li_2A4B1354891144D587624228D8FB5E77"> <code> 1</code>: Click </li> 
+     <li id="li_44E61419DB56471EB2091072595D3E5C"> <code> -1</code>: Unattributed or unknown </li> 
     </ul> <p> <i>For conversion data files only.</i> </p> </td> 
   </tr> 
   <tr> 
@@ -154,23 +154,23 @@ The following table defines each of these elements in a file delivery path.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> .../log_ingestion/</span> </p> </td> 
+   <td colname="col1"> <p> <code> .../log_ingestion/</code> </p> </td> 
    <td colname="col2"> <p>This is the start of the directory storage path. You'll receive the full path when everything is set up. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph">pid=<span class="varname"> AAM ID</span></span> </p> </td> 
+   <td colname="col1"> <p> <code>pid=<i>AAM ID</i></code> </p> </td> 
    <td colname="col2"> <p>This key-value pair that contains your <span class="keyword"> Audience Manager</span> customer ID. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph">dpid=<span class="varname"> d_src</span></span> </p> </td> 
+   <td colname="col1"> <p> <code>dpid=<i>d_src</i></code> </p> </td> 
    <td colname="col2"> <p>This key-value pair contains the data source ID passed in on an event call. It identifies the agency the data comes from and ties that data to a supporting metadata file. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> logs</span> </p> </td> 
+   <td colname="col1"> <p> <code> logs</code> </p> </td> 
    <td colname="col2"> <p> A higher level directory for data files. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> file type</span>_<span class="varname"> yyyymmdd</span></span> </p> </td> 
+   <td colname="col1"> <p> <code> <i>file type</i>_<i>yyyymmdd</i></code> </p> </td> 
    <td colname="col2"> <p>A file type name that indicates what sort of data it contains and a delivery timestamp. </p> </td> 
   </tr> 
  </tbody> 

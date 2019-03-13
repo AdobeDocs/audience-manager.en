@@ -137,23 +137,23 @@ The table below contains descriptions for all the returned fields in the data ac
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> id</span> </p> </td> 
+   <td colname="col1"> <p> <code> id</code> </p> </td> 
    <td colname="col2"> <p>The user ID for the data that follows. This is either an id you provided in the GDPR data access request, or an ID that is linked to one of the declared IDs you provided. The ID types are described in the <a href="../../overview/aam-gdpr/aam-gdpr-details.md#section_DF7B9F8D922F4F4C9B08E8B9A4813DCA"> Audience Manager Identifiers</a> section. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> namespace</span> </p> </td> 
+   <td colname="col1"> <p> <code> namespace</code> </p> </td> 
    <td colname="col2"> <p>Also referred to as data source. See the <a href="../../overview/aam-gdpr/aam-gdpr-details.md#section_DF7B9F8D922F4F4C9B08E8B9A4813DCA"> Audience Manager Identifiers</a> section. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> id</span> </p> </td> 
+   <td colname="col1"> <p> <code> id</code> </p> </td> 
    <td colname="col2"> <p>The ID of the namespace/data source. See <a href="../../overview/aam-gdpr/aam-gdpr-details.md#section_DF7B9F8D922F4F4C9B08E8B9A4813DCA"> Audience Manager Identifiers (IDs)</a> for all the accepted values. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> integration code </span> </p> </td> 
+   <td colname="col1"> <p> <code> integration code </code> </p> </td> 
    <td colname="col2"> <p>Integration codes are friendly names for your data sources, and help you track your data sources easier than using data source IDs. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> data provider name </span> </p> </td> 
+   <td colname="col1"> <p> <code> data provider name </code> </p> </td> 
    <td colname="col2"> <p>The name of the owner of the data source. 
      <ul id="ul_5CEAF23C28154662AFC443D3494107D3"> 
       <li id="li_EC2DA09F618D4225B655ADF455C0D654">For first party data, this is the customer's own company name. </li> 
@@ -162,15 +162,15 @@ The table below contains descriptions for all the returned fields in the data ac
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> type </span> </p> </td> 
+   <td colname="col1"> <p> <code> type </code> </p> </td> 
    <td colname="col2"> <p>The type of ID for which you requested the GDPR data access. Accepted types are listed in the <a href="../../overview/aam-gdpr/aam-gdpr-details.md#section_DF7B9F8D922F4F4C9B08E8B9A4813DCA"> Audience Manager Identifiers</a> section. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> warnings</span> </p> </td> 
+   <td colname="col1"> <p> <code> warnings</code> </p> </td> 
    <td colname="col2"> <p>Warnings return further information related to the data access request. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> title </span> </p> </td> 
+   <td colname="col1"> <p> <code> title </code> </p> </td> 
    <td colname="col2"> <p>Brief information about the warning. </p> <p>The two warnings you may receive are: </p> <p> 
      <ul id="ul_34019A1529594DC7B2566913937EAF0C"> 
       <li id="li_F0104BE3D5FE4DB7BA54195504E260E9">Device Data </li> 
@@ -178,7 +178,7 @@ The table below contains descriptions for all the returned fields in the data ac
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> description </span> </p> </td> 
+   <td colname="col1"> <p> <code> description </code> </p> </td> 
    <td colname="col2"> <p>A more detailed description of the warning you received: </p> <p> 
      <ul id="ul_78E03ABA52674E07A48835FDD3431FF8"> 
       <li id="li_6BB6D58660594CA0B1A89804F2FC6274">Device Data - Contains data from all users of this device </li> 
@@ -186,19 +186,19 @@ The table below contains descriptions for all the returned fields in the data ac
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> data </span> </p> </td> 
+   <td colname="col1"> <p> <code> data </code> </p> </td> 
    <td colname="col2"> <p>The traits and segments associated with this user ID. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> traits </span> </p> </td> 
+   <td colname="col1"> <p> <code> traits </code> </p> </td> 
    <td colname="col2"> <p>Traits associated with the user ID. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> name</span> </p> </td> 
+   <td colname="col1"> <p> <code> name</code> </p> </td> 
    <td colname="col2"> <p>The name of the trait. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> type</span> </p> </td> 
+   <td colname="col1"> <p> <code> type</code> </p> </td> 
    <td colname="col2"> <p>The trait type. The possible values are: </p> <p> 
      <ul id="ul_DBAC618D9FE94B17B2494B83832A969F"> 
       <li id="li_740F2DCA8F2A4A22A7D9988ECD2FC976"> <i>First party</i> for your own traits. </li> 
@@ -207,15 +207,15 @@ The table below contains descriptions for all the returned fields in the data ac
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> description</span> </p> </td> 
+   <td colname="col1"> <p> <code> description</code> </p> </td> 
    <td colname="col2"> <p>A few words to help describe the trait's purpose or function. This is an optional field. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> data export controls</span> </p> </td> 
+   <td colname="col1"> <p> <code> data export controls</code> </p> </td> 
    <td colname="col2"> <p>The <a href="../../features/data-export-controls.md"> data export controls</a> applied to this trait's data source. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> data provider name</span> </p> </td> 
+   <td colname="col1"> <p> <code> data provider name</code> </p> </td> 
    <td colname="col2"> <p>The name of the owner of the data source that this trait belongs to. 
      <ul id="ul_D2D424E903A143779342D35D6F625656"> 
       <li id="li_55B3A40A6CD24A25B5AAFD07AD28F662">For first party data, this is the customer's own company name. </li> 
@@ -224,27 +224,27 @@ The table below contains descriptions for all the returned fields in the data ac
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> last realization</span> </p> </td> 
+   <td colname="col1"> <p> <code> last realization</code> </p> </td> 
    <td colname="col2"> <p>The exact time that the Data Subject last qualified for this trait. The date format is YYYY-MM-DD. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> segments </span> </p> </td> 
+   <td colname="col1"> <p> <code> segments </code> </p> </td> 
    <td colname="col2"> <p>Segments that this user belongs to. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> name</span> </p> </td> 
+   <td colname="col1"> <p> <code> name</code> </p> </td> 
    <td colname="col2"> <p>The name of the segment. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> description</span> </p> </td> 
+   <td colname="col1"> <p> <code> description</code> </p> </td> 
    <td colname="col2"> <p>A few words to help describe this segment. This is an optional field. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> data export controls</span> </p> </td> 
+   <td colname="col1"> <p> <code> data export controls</code> </p> </td> 
    <td colname="col2"> <p>The <a href="../../features/data-export-controls.md"> data export controls</a> applied to this segment's data source. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> data provider name</span> </p> </td> 
+   <td colname="col1"> <p> <code> data provider name</code> </p> </td> 
    <td colname="col2"> <p>The name of the owner of the data source that this segment belongs to. 
      <ul id="ul_D437D149BDBE470489D1DD03CF47841C"> 
       <li id="li_90133644911A49AEB0DB209BCAC8E789">For first party data, this is the customer's own company name. </li> 
@@ -253,15 +253,15 @@ The table below contains descriptions for all the returned fields in the data ac
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> last realization</span> </p> </td> 
+   <td colname="col1"> <p> <code> last realization</code> </p> </td> 
    <td colname="col2"> <p>The exact time that the Data Subject last qualified for this segment. The date format is YYYY-MM-DD. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> active</span> </p> </td> 
-   <td colname="col2"> <p>Indicates whether the Data Subject is currently qualified for this segment. Returns <span class="varname"> true</span> or <span class="varname"> false</span>. </p> </td> 
+   <td colname="col1"> <p> <code> active</code> </p> </td> 
+   <td colname="col2"> <p>Indicates whether the Data Subject is currently qualified for this segment. Returns <code><i>true</i></code> or <code><i>false</i></code>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> links </span> </p> </td> 
+   <td colname="col1"> <p> <code> links </code> </p> </td> 
    <td colname="col2"> <p>Additional ID that this ID has been linked to. Information is returned on: </p> <p> 
      <ul id="ul_679F372A83164CC8B6BFE5A833347B9E"> 
       <li id="li_BCBF4F4C6C4049519BDE9186EE84868A">ID </li> 
@@ -273,11 +273,11 @@ The table below contains descriptions for all the returned fields in the data ac
      </ul> </p> <p>All these fields are described in the first rows of this table. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> linking datetime</span> </p> </td> 
+   <td colname="col1"> <p> <code> linking datetime</code> </p> </td> 
    <td colname="col2"> <p>The exact time that an ID sync event made the link between IDs. The date format is YYYY-MM-DD. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> device metadata </span> </p> </td> 
+   <td colname="col1"> <p> <code> device metadata </code> </p> </td> 
    <td colname="col2"> <p>Information about the device. This information includes the fields below. Note that not all fields are returned for all device types. </p> <p> 
      <ul id="ul_F0031D50DF074634A428DBC73F958159"> 
       <li id="li_4E26042A6B8D4397829F30B7BC7A2D6E"> <p>Hardware information </p> </li> 

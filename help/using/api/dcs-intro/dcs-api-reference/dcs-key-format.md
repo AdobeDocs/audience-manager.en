@@ -25,12 +25,12 @@ When making a call, the [!UICONTROL DCS] accepts key-value data in standard or s
   <tr> 
    <td colname="col1"> <b>Standard</b> </td> 
    <td colname="col2"> <p>A standard key-value pair consists of a single key and value. This structure organizes data into separate key-value pairs. Each key is stated explicitly, even when it’s used again to define a different value. This is the most common way to send data to the [!UICONTROL DCS]. </p> </td>
-   <td colname="col3"> <span class="codeph"> key1=val1&amp;key2=val2&amp;key3=val3</span> </td>
+   <td colname="col3"> <code> key1=val1&amp;key2=val2&amp;key3=val3</code> </td>
   </tr>
   <tr> 
    <td colname="col1"> <b>Serialized</b> </td> 
    <td colname="col2"> <p>A serialized key-value pair consists of a single key and multiple values. This can be an efficient way to organize data, but serialized key-value pairs require specific symbols to separate each key and each key-value set. </p> </td> 
-   <td colname="col3"> <span class="codeph"> key1=val1,val2,val3</span> </td> 
+   <td colname="col3"> <code> key1=val1,val2,val3</code> </td> 
   </tr>
  </tbody>
 </table>
@@ -51,12 +51,12 @@ With serialized key-value pairs, you must specify the markers that separate valu
   <tr> 
    <td colname="col1"><b>Delimiters</b> </td> 
    <td colname="col2"> Ampersand &amp; </td> 
-   <td colname="col3"> <p>Key-value pairs: </p> <p><span class="codeph"> key1=val1&amp;key2=val2,val3</span> </p> </td> 
+   <td colname="col3"> <p>Key-value pairs: </p> <p><code> key1=val1&amp;key2=val2,val3</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b>Separators</b> </td> 
    <td colname="col2"> Comma , </td> 
-   <td colname="col3"> <p>Values within key-value pairs: </p> <p><span class="codeph"> key1=val1,val2,val3&amp;key2=valA,valB,valC</span> </p> </td> 
+   <td colname="col3"> <p>Values within key-value pairs: </p> <p><code> key1=val1,val2,val3&amp;key2=valA,valB,valC</code> </p> </td> 
   </tr> 
  </tbody> 
 </table>

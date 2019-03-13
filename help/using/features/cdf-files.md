@@ -55,7 +55,7 @@ A [!UICONTROL CDF] file includes some or all of the fields defined below. For in
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> Event Time</span> </p> </td> 
+   <td colname="col1"> <p><code> Event Time</code> </p> </td> 
    <td colname="col2"> <p>Timestamp </p> </td> 
    <td colname="col3"> <p>The time a CDF file was processed by the <span class="wintitle"> Data Collection Servers</span> (DCS). The timestamp uses the <i>yyyy-mm-dd hh:mm:ss</i> format and is set in the UTC time zone. </p> <p> <p>Note: The Event Time <i>is not</i>: <p> 
        <ul id="ul_41ABC813FAAC4659AC8DA13F4A6DD7EB"> 
@@ -64,52 +64,52 @@ A [!UICONTROL CDF] file includes some or all of the fields defined below. For in
        </ul> </p> </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> Device</span> </p> </td> 
+   <td colname="col1"> <p><code> Device</code> </p> </td> 
    <td colname="col2"> <p>String </p> </td> 
    <td colname="col3"> <p>This is the <span class="wintitle"> Unique User ID</span> (UUID), which is a 38-digit device ID for your site visitor. See also, <a href="../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8"> Index of IDs in Audience Manager</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> Container ID</span> </p> </td> 
+   <td colname="col1"> <p><code> Container ID</code> </p> </td> 
    <td colname="col2"> <p>Numeric </p> </td> 
    <td colname="col3"> <p>The ID of the container that fires ID syncs. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> Realized Traits</span> </p> </td> 
+   <td colname="col1"> <p><code> Realized Traits</code> </p> </td> 
    <td colname="col2"> <p>Numeric Array </p> </td> 
    <td colname="col3"> <p>An array of trait IDs that contains all the traits a visitor realized (qualified for) in the event call. </p> <p>Note that the array can contain traits for which the visitor had qualified before and for which they re-qualify through this event call. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> Realized Segments</span> </p> </td> 
+   <td colname="col1"> <p><code> Realized Segments</code> </p> </td> 
    <td colname="col2"> <p>Numeric Array </p> </td> 
    <td colname="col3"> <p>An array of segment IDs that contains all the segments a visitor realized (qualified for) in the event call. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> Request Parameters</span> </p> </td> 
+   <td colname="col1"> <p><code> Request Parameters</code> </p> </td> 
    <td colname="col2"> <p>String </p> </td> 
    <td colname="col3"> <p>A string that captures all the parameters (variables, IDs, key-value pairs, etc.) passed in on the event call. </p> <p>Shortened example: </p> <p> <code> d_rtbd:json,c_contextData.a.CarrierName:mobile,c_contextData.a.adid:92D56353-49C5-431E-B474-FC528D585810,c_contextData.a,RunMode:Application,c_contextData.a.DaysSinceLastUpgrade:61,d_cid_ic:xid%01EACB6E40-AC65-4012-9FE9-ABD59965E9C4%011,c_contextData.a.PrevSessionLength:583</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> Referer Data Type</span> </p> </td> 
+   <td colname="col1"> <p><code> Referer Data Type</code> </p> </td> 
    <td colname="col2"> <p>String </p> </td> 
    <td colname="col3"> <p>The unencoded URL of the referring page (if any). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> IP Data Type</span> </p> </td> 
+   <td colname="col1"> <p><code> IP Data Type</code> </p> </td> 
    <td colname="col2"> <p>String </p> </td> 
    <td colname="col3"> <p>The IP address for the visitor captured in the event call. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> MCDevice </span> </p> </td> 
+   <td colname="col1"> <p><code> MCDevice </code> </p> </td> 
    <td colname="col2"> <p>String </p> </td> 
    <td colname="col3"> <p>The <span class="keyword"> Experience Cloud</span> ID (MID) assigned to the site visitor. See also, <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies and theExperience Cloud ID service</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> All Segments</span> </p> </td> 
+   <td colname="col1"> <p><code> All Segments</code> </p> </td> 
    <td colname="col2"> <p>Numeric Array </p> </td> 
    <td colname="col3"> <p>An array of segment IDs that contains previously realized segments and new segments the visitor is qualified for. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> All Traits</span> </p> </td> 
+   <td colname="col1"> <p><code> All Traits</code> </p> </td> 
    <td colname="col2"> <p>Numeric Array </p> </td> 
    <td colname="col3"> <p>An array of first and third-party trait IDs that contains previously realized traits and new traits the visitor has qualified for since the last generated data feed. </p> </td> 
   </tr> 
@@ -138,9 +138,9 @@ Lists and defines the data structure of a [!UICONTROL CDF] file. This includes d
    <td colname="col1"> <p>Field Separators and Delimiters </p> </td> 
    <td colname="col2"> <p>These non-printing characters define the elements and structure of your CDF file: </p> <p> 
      <ul id="ul_056A9B90AC88405CBB5F81A56CD6E4C9"> 
-      <li id="li_B9DA15DCB6A445D781B8753C1C4262B0">Ctrl + a (ASCII <span class="codeph"> 001</span> or <span class="codeph"> ^A</span>) separates data in individual fields with a non-printing space indicator. </li> 
-      <li id="li_E68D0CC065B34AC9AF91F166CAA2A67C">Ctrl + b (ASCII <span class="codeph"> 002</span> or <span class="codeph"> ^B</span>) separates data an array and request parameters. </li> 
-      <li id="li_6C32D927FEF04CDE9887374E8C2688E7">Ctrl + c (ASCII <span class="codeph"> 003</span> or <span class="codeph"> ^C</span>) defines key-value pairs. </li> 
+      <li id="li_B9DA15DCB6A445D781B8753C1C4262B0">Ctrl + a (ASCII <code> 001</code> or <code> ^A</code>) separates data in individual fields with a non-printing space indicator. </li> 
+      <li id="li_E68D0CC065B34AC9AF91F166CAA2A67C">Ctrl + b (ASCII <code> 002</code> or <code> ^B</code>) separates data an array and request parameters. </li> 
+      <li id="li_6C32D927FEF04CDE9887374E8C2688E7">Ctrl + c (ASCII <code> 003</code> or <code> ^C</code>) defines key-value pairs. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -189,10 +189,17 @@ The sections below list and define the elements in your [!UICONTROL CDF] file na
 
 A typical [!UICONTROL CDF] file name contains the elements listed below. Note, *italics* indicates a variable placeholder:
 
-<ul class="simplelist"> 
- <li> <b>Syntax:</b> <span class="codeph"> s3://aam-cdf/<span class="varname"> your s3 bucket name</span>/day=<span class="varname"> yyyy-mm-dd</span>/hour=<span class="varname"> hh</span>/<span class="varname"> AAM_CDF_partner ID_AAM process ID</span>_0.gz</span> </li> 
- <li> <b>Example:</b> <span class="codeph"> s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_000058_0.gz</span> </li> 
-</ul>
+* **Syntax** 
+
+<pre><code>
+s3://aam-cdf/<i>your s3 bucket name</i>/day=<i>yyyy-mm-dd</i>/hour=<i>hh</i>/<i>AAM_CDF_partner ID_AAM process ID<i>\_0.gz
+</code></pre>
+
+* **Example** 
+
+```
+s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_000058_0.gz
+```
 
 In your [!DNL S3] storage bucket, files are sorted in ascending order by Partner ID ([!UICONTROL PID]), day, and hour.
 
@@ -209,31 +216,31 @@ The following table lists and defines the elements in a [!UICONTROL CDF] file na
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> s3://aam-cdf/</span> </p> </td> 
+   <td colname="col1"> <p> <code> s3://aam-cdf/</code> </p> </td> 
    <td colname="col2"> <p>This is the default, root storage bucket for your CDF file on an Amazon S3 server. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> your S3 bucket name</span> </span> </p> </td> 
+   <td colname="col1"> <p> <code> <i>your S3 bucket name</i> </code> </p> </td> 
    <td colname="col2"> <p>The name of the read-only, S3 bucket that holds your CDF files. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph">day=<span class="varname"> yyyy-mm-dd</span></span> </p> </td> 
+   <td colname="col1"> <p> <code>day=<i>yyyy-mm-dd</i></code> </p> </td> 
    <td colname="col2"> <p>The date your file was processed. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph">hour=<span class="varname"> hh</span></span> </p> </td> 
+   <td colname="col1"> <p> <code>hour=<i>hh</i></code> </p> </td> 
    <td colname="col2"> <p>A time value expressed in 24-hour notation and set in the UTC time zone. See also, <a href="#different-processing-times"> Customer Data Feed File Name Times and File Content Times...</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> partner ID</span> </span> </p> </td> 
+   <td colname="col1"> <p> <code> <i>partner ID</i> </code> </p> </td> 
    <td colname="col2"> <p>Your partner ID. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> AAM process ID</span>_0</span> </p> </td> 
+   <td colname="col1"> <p> <code> <i>AAM process ID</i>_0</code> </p> </td> 
    <td colname="col2"> <p>An internal, <span class="keyword"> Audience Manager</span> process ID. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> .gz</span> </p> </td> 
+   <td colname="col1"> <p> <code> .gz</code> </p> </td> 
    <td colname="col2"> <p>A gzip file extension. CDF files are gzip compressed. </p> </td> 
   </tr> 
  </tbody> 
@@ -289,23 +296,23 @@ The following tables list and define the elements in a [!UICONTROL CDF] `.info` 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Files</span> </p> </td> 
+   <td colname="col1"> <p> <code> Files</code> </p> </td> 
    <td colname="col2"> <p>Starts the array that contains metadata about your CDF files. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FileByteSize</span> </p> </td> 
+   <td colname="col1"> <p> <code> FileByteSize</code> </p> </td> 
    <td colname="col2"> <p>File size in bytes. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FileChecksumMD5</span> </p> </td> 
-   <td colname="col2"> <p>The Amazon S3 ETag. The number following the hyphen shows the number of parts used to build the file during the multi-part upload. The <span class="codeph"> ETag</span> is not identical to the MD5 checksum of the file. </p> </td> 
+   <td colname="col1"> <p> <code> FileChecksumMD5</code> </p> </td> 
+   <td colname="col2"> <p>The Amazon S3 ETag. The number following the hyphen shows the number of parts used to build the file during the multi-part upload. The <code> ETag</code> is not identical to the MD5 checksum of the file. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FileName</span> </p> </td> 
+   <td colname="col1"> <p> <code> FileName</code> </p> </td> 
    <td colname="col2"> <p>The file name. See <a href="#cdf-naming-conventions"> Customer Data Feed File Naming Conventions</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FileSequenceNumber</span> </p> </td> 
+   <td colname="col1"> <p> <code> FileSequenceNumber</code> </p> </td> 
    <td colname="col2"> <p>An index number for each file. </p> </td> 
   </tr> 
  </tbody> 
@@ -322,23 +329,23 @@ The following tables list and define the elements in a [!UICONTROL CDF] `.info` 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Totals</span> </p> </td> 
+   <td colname="col1"> <p> <code> Totals</code> </p> </td> 
    <td colname="col2"> <p>Starts the object that contains aggregated data about all your CDF files. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Day</span> </p> </td> 
+   <td colname="col1"> <p> <code> Day</code> </p> </td> 
    <td colname="col2"> <p>The day for which the data is available. Uses <i>yyyy-mm-dd</i> format. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Hour</span> </p> </td> 
+   <td colname="col1"> <p> <code> Hour</code> </p> </td> 
    <td colname="col2"> <p>The hour for which data is available. Uses 24-hour format set in UTC time zone. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> TotalByteSize</span> </p> </td> 
+   <td colname="col1"> <p> <code> TotalByteSize</code> </p> </td> 
    <td colname="col2"> <p>Total size of all your CDF files for that date in bytes. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> TotalNumberFiles</span> </p> </td> 
+   <td colname="col1"> <p> <code> TotalNumberFiles</code> </p> </td> 
    <td colname="col2"> <p>Total number of files uploaded to your S3 directory. </p> </td> 
   </tr> 
  </tbody> 
@@ -370,15 +377,15 @@ The following table provides additional details about your [!UICONTROL CDF] file
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>File Name</b> </p> </td> 
-   <td colname="col2"> <p>The timestamp in your CDF file name marks the time when <span class="keyword"> Audience Manager</span> started preparing your file for delivery. This timestamp is set in the UTC time zone. It uses the <span class="codeph"> hour=</span> parameter, with time formatted as a 2-digit hour in 24-hour notation. This time can be different than the event time recorded in the file contents. </p> <p>When working with CDF files, sometimes you'll notice that your S3 bucket is empty for a particular hour. An empty bucket means can mean either of the following: </p> <p>
+   <td colname="col2"> <p>The timestamp in your CDF file name marks the time when <span class="keyword"> Audience Manager</span> started preparing your file for delivery. This timestamp is set in the UTC time zone. It uses the <code> hour=</code> parameter, with time formatted as a 2-digit hour in 24-hour notation. This time can be different than the event time recorded in the file contents. </p> <p>When working with CDF files, sometimes you'll notice that your S3 bucket is empty for a particular hour. An empty bucket means can mean either of the following: </p> <p>
      <ul id="ul_17F1B3AD9D17414EA5D2C976E98D3354"> 
       <li id="li_E2FE44B220574073B2961F17AE201509">There's no data for that particular hour. </li>
-      <li id="li_D95E682F50624030815FD75F2A60BE36"> Our servers are under heavy loads and can't process files for a particular hour. When the server catches up, it puts the files that should have gone in an earlier time bucket files into a bucket with a later time value. For example, you'll see this when a file that should have been in the hour 17 bucket appear in the hour 18 bucket (with <span class="codeph"> hour=18</span> in the file name). In this case, the server probably started processing your file in hour 17 but couldn't complete it within that time interval. Instead, the file gets pushed to the next hourly time bucket. </li>
-     </ul> </p> <p> <p>Important: Do not use the file name timestamp to group events by time. If you need to group by time, use the <span class="codeph"> EventTime</span> timestamp in the file contents. </p> </p> </td>
+      <li id="li_D95E682F50624030815FD75F2A60BE36"> Our servers are under heavy loads and can't process files for a particular hour. When the server catches up, it puts the files that should have gone in an earlier time bucket files into a bucket with a later time value. For example, you'll see this when a file that should have been in the hour 17 bucket appear in the hour 18 bucket (with <code> hour=18</code> in the file name). In this case, the server probably started processing your file in hour 17 but couldn't complete it within that time interval. Instead, the file gets pushed to the next hourly time bucket. </li>
+     </ul> </p> <p> <p>Important: Do not use the file name timestamp to group events by time. If you need to group by time, use the <code> EventTime</code> timestamp in the file contents. </p> </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <b>File Contents</b> </p> </td>
-   <td colname="col2"> <p>The timestamp in your CDF file contents marks the time the <span class="wintitle"> Data Collection Servers</span> started processing the file. This timestamp is set in the UTC time zone. It uses the <span class="codeph"> EventTime</span> field, with time formatted as <span class="codeph"><span class="varname"> yyyy-mm-dd hh:mm:ss</span></span>. This time is close to the actual time of the event on the page, but it can be different than the hour indicator in the file name. </p> <p> <p>Tip: Unlike the <span class="codeph"> hour=</span> timestamp in the file name, you can use <span class="codeph"> EventTime</span> to group data by time. </p> </p> </td>
+   <td colname="col2"> <p>The timestamp in your CDF file contents marks the time the <span class="wintitle"> Data Collection Servers</span> started processing the file. This timestamp is set in the UTC time zone. It uses the <code> EventTime</code> field, with time formatted as <code><i>yyyy-mm-dd hh:mm:ss</i></code>. This time is close to the actual time of the event on the page, but it can be different than the hour indicator in the file name. </p> <p> <p>Tip: Unlike the <code> hour=</code> timestamp in the file name, you can use <code> EventTime</code> to group data by time. </p> </p> </td>
   </tr>
  </tbody>
 </table>

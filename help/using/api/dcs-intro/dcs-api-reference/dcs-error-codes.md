@@ -36,7 +36,7 @@ In the tables below, *italics* represents a variable placeholder.
   </tr> 
   <tr> 
    <td colname="col1"> <p>2 </p> </td> 
-   <td colname="col2"> <p>Invalid <span class="codeph"> d_orgid</span> value (could not find a config for this org id): <code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p>Invalid <code> d_orgid</code> value (could not find a config for this org id): <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>The Organization ID is incorrect. </p> <p>Check your ID and try the request again. If you do not know or have your Organization ID, see the "Administration Page" section in <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html" format="https" scope="external"> Experience Cloud Administration</a> for information about how to find it. </p> </td> 
   </tr>
  </tbody>
@@ -61,12 +61,12 @@ In the tables below, *italics* represents a variable placeholder.
   <tr> 
    <td colname="col1"> <p>101 </p> </td> 
    <td colname="col2"> <p>Invalid Experience Cloud id passed in <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>The <span class="wintitle"> DCS</span> call contains an invalid <span class="keyword"> Experience Cloud</span> ID. </p> <p>Check the <span class="codeph"> d_mid=</span> key-value pair in the header string. Make sure you're passing in the correct <span class="keyword"> Experience Cloud</span> ID and try the request again. </p> </td> 
+   <td colname="col3"> <p>The <span class="wintitle"> DCS</span> call contains an invalid <span class="keyword"> Experience Cloud</span> ID. </p> <p>Check the <code> d_mid=</code> key-value pair in the header string. Make sure you're passing in the correct <span class="keyword"> Experience Cloud</span> ID and try the request again. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>102 </p> </td> 
    <td colname="col2"> <p>Invalid aam id passed in request <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>The <span class="wintitle"> DCS</span> call contains an invalid <span class="keyword"> Audience Manager</span> ID. </p> <p>Check the <span class="codeph"> d_uuid=</span> key-value pair in the header string. Make sure you're passing in the correct <span class="keyword"> Audience Manager</span> ID and try the request again. </p> </td> 
+   <td colname="col3"> <p>The <span class="wintitle"> DCS</span> call contains an invalid <span class="keyword"> Audience Manager</span> ID. </p> <p>Check the <code> d_uuid=</code> key-value pair in the header string. Make sure you're passing in the correct <span class="keyword"> Audience Manager</span> ID and try the request again. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>104 </p> </td> 
@@ -225,18 +225,18 @@ In the tables below, *italics* represents a variable placeholder.
   <tr> 
    <td colname="col1"> <p>310 </p> </td> 
    <td colname="col2"> <p>Customer id was discarded because it exceeded the limit for a given namespace. Namespace id is <code><i>ID</i></code>, customer id is <code><i>ID</i></code>. </p> </td> 
-   <td colname="col3"> <p>This error code is returned if there are more than 3 customer IDs declared for the same namespace (<span class="codeph"> DPID</span>) on a <span class="wintitle"> DCS</span> call. </p> <p><span class="codeph"> https://partner.demdex.net/event?d_rtbd=json&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one </span> </p> <p>In this sample <span class="wintitle"> DCS</span> request, there are 4 ids declared for the same namespace (with the integration code one). One of the IDs is discarded and error 310 is returned. </p> </td> 
+   <td colname="col3"> <p>This error code is returned if there are more than 3 customer IDs declared for the same namespace (<code> DPID</code>) on a <span class="wintitle"> DCS</span> call. </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one </code> </p> <p>In this sample <span class="wintitle"> DCS</span> request, there are 4 ids declared for the same namespace (with the integration code one). One of the IDs is discarded and error 310 is returned. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>311 </p> </td> 
    <td colname="col2"> <p>Request contains invalid parameters </p> </td> 
-   <td colname="col3"> <p>The <span class="wintitle"> DCS</span> returns this error code when at least one URL parameter is not properly encoded. In this case, the <span class="wintitle"> DCS</span> disregards the entire request. </p> <p><span class="codeph">http(s)://partner.demdex.net/event?d_event=imp&amp;d_rtbd=json&amp;d_src=38454&amp;d_site=%esid!&amp;d_creative=%ecid!&amp;d_adgroup=%eaid!&amp;d_placement=%epid!&amp;d_campaign=%ebuy!&amp;d_adsrc=48123</span> </p> <p>In the sample request above, the <span class="codeph"> %</span> sequence is incorrectly encoded. Consequently, the <span class="wintitle"> DCS</span> will disregard it. </p> <p>The correctly encoded sample should look like this: </p> <p><span class="codeph">http(s)://partner.demdex.net/event?d_event=imp&amp;d_rtbd=json&amp;d_src=38454&amp;d_site=%25esid!&amp;d_creative=%25ecid!&amp;d_adgroup=%25eaid!&amp;d_placement=%25epid!&amp;d_campaign=%25ebuy!&amp;d_adsrc=48123</span> </p> </td> 
+   <td colname="col3"> <p>The <span class="wintitle"> DCS</span> returns this error code when at least one URL parameter is not properly encoded. In this case, the <span class="wintitle"> DCS</span> disregards the entire request. </p> <p><code>http(s)://partner.demdex.net/event?d_event=imp&amp;d_rtbd=json&amp;d_src=38454&amp;d_site=%esid!&amp;d_creative=%ecid!&amp;d_adgroup=%eaid!&amp;d_placement=%epid!&amp;d_campaign=%ebuy!&amp;d_adsrc=48123</code> </p> <p>In the sample request above, the <code> %</code> sequence is incorrectly encoded. Consequently, the <span class="wintitle"> DCS</span> will disregard it. </p> <p>The correctly encoded sample should look like this: </p> <p><code>http(s)://partner.demdex.net/event?d_event=imp&amp;d_rtbd=json&amp;d_src=38454&amp;d_site=%25esid!&amp;d_creative=%25ecid!&amp;d_adgroup=%25eaid!&amp;d_placement=%25epid!&amp;d_campaign=%25ebuy!&amp;d_adsrc=48123</code> </p> </td> 
   </tr>
   <tr> 
    <td colname="col1"> <p>312 </p> </td> 
    <td colname="col2"> <p>Request contains an invalid Global Device ID </p> </td> 
    <td colname="col3"> <p>The <span class="wintitle">DCS</span> returns this error code when  the request contains an invalid Global Device ID. DCS ignores the invalid ID and throws a 312 error along with the specific errors of the invalid ID. Refer to <a href="../../../features/global-data-sources.md#topic_A083014ABB9B4D60BA69BB97EFDD97EB" format="dita" scope="local">Global Data Sources</a> and <a href="../../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8" format="dita" scope="local">Index of IDs in Audience Manager</a> for detailed information on the correct device advertising ID formats and corresponding global data sources.</p>
-   <p>Example of an incorrect call: <span class="codeph">"http://partner.demdex.net/event?d_rtbd=json&amp;d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"</span></p>
+   <p>Example of an incorrect call: <code>"http://partner.demdex.net/event?d_rtbd=json&amp;d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"</code></p>
    <p>Explanation: An [!DNL IDFA] ([!UICONTROL DPID] 20915) must be an uppercase ID. The ID provided in the request is lowercase.</p>
    </td>
   </tr>
