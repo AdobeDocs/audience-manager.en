@@ -40,7 +40,7 @@ Function signature: `DIL.tools.getSearchReferrer(uri, initConfig)`
 `getSearchReferrer` accepts:
 
 * *`{string}`*: *(Optional)* A string containing the search URL (uses `document.referrer` if undefined). 
-* *`{object}`**(Optional)* An object containing the configuration for the `hostPattern`, `queryParam`, or `queryPattern`.
+* *`{object}`*: *(Optional)* An object containing the configuration for the `hostPattern`, `queryParam`, or `queryPattern`.
 
 And returns:
 
@@ -68,10 +68,10 @@ And returns:
    <td>Pass in a Custom URL</td> 
    <td>Returns the search referrer based on a custom URL.</td> 
    <td> 
-  <pre>
+  <code>
         var&nbsp;results&nbsp;= 
         DIL.tools.getSearchReferrer("https://www.ehow.com/search.aspx?q=adobe+rules");
-  </pre>
+  </code>
 </td> 
   </tr> 
   <tr> 

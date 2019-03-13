@@ -76,8 +76,7 @@ var my_objects = [{
    model : "tl" 
 }]; 
  
-var sample_dil = DIL.create({ partner : " 
-<i>partner name</i>" }); 
+var sample_dil = DIL.create({ partner : "<i>partner name</i>" }); 
  
 for (var i = 0; i < my_objects.length; i++) 
 //Load the object and append "c_" to all the keys in the key-value pairs.  
@@ -109,11 +108,10 @@ c_dil_hrefer_over_https.xml
 
 Your code could look similar to the following: 
 
-```java
-var adobe_dil = DIL.create({ partner : " 
-<i>partner name</i>" }); 
+<pre class="java"><code>
+var adobe_dil = DIL.create({ partner : "<i>partner name</i>" }); 
 adobe_dil.api.signals({ d_referer : document.referrer }).submit();
-```
+</code></pre>
 
 ## Capture Search Engine Types and Keyword Search Terms {#concept_146568B1C16B45138E24EA0340737DA9}
 
@@ -151,9 +149,8 @@ var search_referrer = DIL.tools.getSearchReferrer();
 
 In this case, let's assume that a user searched for the term "homes" from [!DNL Google] Canada ( `www.google.ca`). Note how the code prefixes the required `c_` parameter to search engine ( `c_se`) and search term ( `c_st`). `c_` is a [required prefix](../features/traits/trait-variable-prefixes.md#reference_E6F1E4257F664FC2A797C406BF147ABC) that identifies these as customer-defined variables to Audience Manager. 
 
-```java
-var adobe_dil = DIL.create({partner:" 
-<i>partner name</i>"}); 
+<pre class="java"><code>
+var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
 var search_referrer = DIL.tools.getSearchReferrer(); 
  
 if (search_referrer && search_referrer.valid) { 
@@ -162,15 +159,14 @@ if (search_referrer && search_referrer.valid) {
     c_st : se.keywords 
   }).submit(); 
 }
-```
+</code></pre>
 
 **Unlisted Search Engine Code Sample**
 
 In this case, let's assume that a user searched for the term "homes" from `dogpile.com`. Because [!DNL Dogpile] is not supported by default, you can configure DIL to recognize this search engine and return the search terms to Audience Manager. Your code could look similar to the following: 
 
-```java
-var adobe_dil = DIL.create({partner:" 
-<i>partner name</i>"}); 
+<pre class="java"><code>
+var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
 var search_referrer = DIL.tools.getSearchReferrer(document.referrer, {  
     hostPattern:/dogpile\./, 
     queryParam:"q" 
@@ -182,7 +178,7 @@ if (search_referrer && search_referrer.valid) {
     c_st : se.keywords 
   }).submit(); 
 }
-```
+</code></pre>
 
 ## Map Key Values to Other Keys {#concept_7FE441F32458474286DB9582DF791F1B}
 
