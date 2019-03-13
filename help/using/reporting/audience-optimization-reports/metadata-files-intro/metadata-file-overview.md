@@ -55,43 +55,43 @@ The following table lists the key-value pairs that hold data used by the [!UICON
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Advertiser </p> </td> 
-   <td colname="col2"> <p> <span class="codeph">d_adsrc = <span class="varname"> data source ID or integration code</span></span> </p> <p>This is the advertiser's data source ID or integration code provided when creating a data source. See <a href="../../../features/manage-datasources.md#concept_3B7696B3EC77416492D3B99EBD79EA44"> Create a Data Source</a>. </p> </td> 
+   <td colname="col2"> <p> <code>d_adsrc = <i>data source ID or integration code</i></code> </p> <p>This is the advertiser's data source ID or integration code provided when creating a data source. See <a href="../../../features/manage-datasources.md#concept_3B7696B3EC77416492D3B99EBD79EA44"> Create a Data Source</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Business Unit (BU) </p> </td> 
-   <td colname="col2"> <p> <span class="codeph">d_bu = <span class="varname"> business unit ID</span></span> </p> </td> 
+   <td colname="col2"> <p> <code>d_bu = <i>business unit ID</i></code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Campaign </p> </td> 
-   <td colname="col2"> <p> <span class="codeph">d_campaign = <span class="varname"> campaign ID</span></span> </p> </td> 
+   <td colname="col2"> <p> <code>d_campaign = <i>campaign ID</i></code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Creative </p> </td> 
-   <td colname="col2"> <p> <span class="codeph">d_creative = <span class="varname"> creative ID</span></span> </p> </td> 
+   <td colname="col2"> <p> <code>d_creative = <i>creative ID</i></code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Exchange </p> </td> 
    <td colname="col2"> <p>Accepts 2 different key-value pairs: </p> 
     <ul id="ul_3B3B751A8A134096B0912E81A0983B9D"> 
-     <li id="li_57BAC45A7B274AB695945E174A4D8A35"> <span class="codeph">d_exchange = <span class="varname"> ID for the exchange that served the ad</span></span> </li> 
-     <li id="li_CCDF00DE59D3451C8EF590DD3E1A806D"> <span class="codeph">d_site = <span class="varname"> ID for the site an ad served on</span></span> </li> 
+     <li id="li_57BAC45A7B274AB695945E174A4D8A35"> <code>d_exchange = <i>ID for the exchange that served the ad</i></code> </li> 
+     <li id="li_CCDF00DE59D3451C8EF590DD3E1A806D"> <code>d_site = <i>ID for the site an ad served on</i></code> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Insertion Order (IO) </p> </td> 
-   <td colname="col2"> <p> <span class="codeph">d_io = <span class="varname"> insertion order ID</span></span> </p> </td> 
+   <td colname="col2"> <p> <code>d_io = <i>insertion order ID</i></code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Platform </p> </td> 
-   <td colname="col2"> <p> <span class="codeph">d_src = <span class="varname"> data source ID</span></span> </p> <p>This is the <a href="../../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> data source</a> ID for the platform providing metadata information (e.g., DFA, Atlas, GBM, MediaMath, etc.). </p> </td> 
+   <td colname="col2"> <p> <code>d_src = <i>data source ID</i></code> </p> <p>This is the <a href="../../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> data source</a> ID for the platform providing metadata information (e.g., DFA, Atlas, GBM, MediaMath, etc.). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Tactic </p> </td> 
-   <td colname="col2"> <p> <span class="codeph">d_tactic = <span class="varname"> tactic ID</span></span> </p> </td> 
+   <td colname="col2"> <p> <code>d_tactic = <i>tactic ID</i></code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Vertical </p> </td> 
-   <td colname="col2"> <p> <span class="codeph">d_vert = <span class="varname"> vertical ID</span></span> </p> </td> 
+   <td colname="col2"> <p> <code>d_vert = <i>vertical ID</i></code> </p> </td> 
   </tr> 
  </tbody> 
 </table>

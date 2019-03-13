@@ -40,44 +40,44 @@ A `POST` method that lets you create a new algorithmic model.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> name </span> </p> </td> 
+   <td colname="col1"> <p> <code> name </code> </p> </td> 
    <td colname="col2"> <p>Give your model a short, logical name that describes its function or purpose. Avoid abbreviations, special characters, and accent marks. </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> Interested in Footwear Model </span> </p> </td> 
+   <td colname="col3"> <p> <code> Interested in Footwear Model </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> description </span> </p> </td> 
+   <td colname="col1"> <p> <code> description </code> </p> </td> 
    <td colname="col2"> <p>A field for additional descriptive information about the model. </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> This model is created to find traits similar to Interested in Footwear </span> </p> </td> 
+   <td colname="col3"> <p> <code> This model is created to find traits similar to Interested in Footwear </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> dataSources </span> </p> </td> 
+   <td colname="col1"> <p> <code> dataSources </code> </p> </td> 
    <td colname="col2"> <p>Select the first and third-party data sources you want to use in the model. </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> [11212, 33421, 55431] </span> </p> </td> 
+   <td colname="col3"> <p> <code> [11212, 33421, 55431] </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> sid </span> </p> </td> 
+   <td colname="col1"> <p> <code> sid </code> </p> </td> 
    <td colname="col2"> <p>Select a trait or segment as the baseline that the system algorithms use for modeling. </p> <p> <p>Note:  Select an onboarded trait, a rule-based trait, or a segment as baseline. Otherwise, your models will not run. </p> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> 4324 </span> </p> </td> 
+   <td colname="col3"> <p> <code> 4324 </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> algoTypeId </span> </p> </td> 
+   <td colname="col1"> <p> <code> algoTypeId </code> </p> </td> 
    <td colname="col2"> <p>Algorithm ID. Currently, only ID 1 is available </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> 1 </span> </p> </td> 
+   <td colname="col3"> <p> <code> 1 </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> lookBackPeriod </span> </p> </td> 
+   <td colname="col1"> <p> <code> lookBackPeriod </code> </p> </td> 
    <td colname="col2"> <p>Sets a time range for the model. Based on your input, the algorithm includes and evaluates data from the previous 30, 60, or 90 days. </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> 60 </span> </p> </td> 
+   <td colname="col3"> <p> <code> 60 </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> status </span> </p> </td> 
-   <td colname="col2"> <p>Activates or deactivates the model. Select <span class="codeph"> active </span> when creating a model </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> active </span> </p> </td> 
+   <td colname="col1"> <p> <code> status </code> </p> </td> 
+   <td colname="col2"> <p>Activates or deactivates the model. Select <code> active </code> when creating a model </p> </td> 
+   <td colname="col3"> <p> <code> active </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> excludedTraits </span> </p> </td> 
+   <td colname="col1"> <p> <code> excludedTraits </code> </p> </td> 
    <td colname="col2"> <p>Specify the SID for traits you want to exclude from modeling. Separate the traits with commas to exclude multiple traits. </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> [110,111] </span> </p> </td> 
+   <td colname="col3"> <p> <code> [110,111] </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -286,24 +286,24 @@ You can use these optional parameters with [!DNL API] methods that return *all* 
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td colname="col1"> <span class="codeph"> page </span> </td> 
+   <td colname="col1"> <code> page </code> </td> 
    <td colname="col2"> Returns results by page number. Numbering starts at 0. </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <span class="codeph"> pageSize </span> </td> 
+   <td colname="col1"> <code> pageSize </code> </td> 
    <td colname="col2"> Sets the number of response results returned by the request (10 is default). </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <span class="codeph"> sortBy </span> </td> 
+   <td colname="col1"> <code> sortBy </code> </td> 
    <td colname="col2"> Sorts and returns results according to the specified <span class="keyword"> JSON </span> property. </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <span class="codeph"> descending </span> </td> 
+   <td colname="col1"> <code> descending </code> </td> 
    <td colname="col2"> Sorts and returns results in descending order. Ascending is default. </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <span class="codeph"> search </span> </td> 
-   <td colname="col2"> Returns results based on the specified string you want to use as a search parameter. For example, let's say you want to find results for all models that have the word "Test" in any of the value fields for that item. Your sample request could look like this: <p> <span class="codeph"> GET https://api.demdex.com/v1/models/?search=Test </span>. </p> <p>You can search on any value returned by a "get all" method. </p> </td> 
+   <td colname="col1"> <code> search </code> </td> 
+   <td colname="col2"> Returns results based on the specified string you want to use as a search parameter. For example, let's say you want to find results for all models that have the word "Test" in any of the value fields for that item. Your sample request could look like this: <p> <code> GET https://api.demdex.com/v1/models/?search=Test </code>. </p> <p>You can search on any value returned by a "get all" method. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -427,27 +427,27 @@ You can use these optional parameters with [!DNL API] methods that return *all* 
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td colname="col1"> <span class="codeph"> page </span> </td> 
+   <td colname="col1"> <code> page </code> </td> 
    <td colname="col2"> Returns results by page number. Numbering starts at 0. </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <span class="codeph"> pageSize </span> </td> 
+   <td colname="col1"> <code> pageSize </code> </td> 
    <td colname="col2"> Sets the number of response results returned by the request (10 is default). </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <span class="codeph"> sortBy </span> </td> 
+   <td colname="col1"> <code> sortBy </code> </td> 
    <td colname="col2"> Sorts and returns results according to the specified <span class="keyword"> JSON </span> property. </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <span class="codeph"> descending </span> </td> 
+   <td colname="col1"> <code> descending </code> </td> 
    <td colname="col2"> Sorts and returns results in descending order. Ascending is default. </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <span class="codeph"> search </span> </td> 
-   <td colname="col2"> Returns results based on the specified string you want to use as a search parameter. For example, let's say you want to find results for all models that have the word "Test" in any of the value fields for that item. Your sample request could look like this: <p> <span class="codeph"> GET https://api.demdex.com/v1/models/?search=Test </span>. </p> <p>You can search on any value returned by a "get all" method. </p> </td> 
+   <td colname="col1"> <code> search </code> </td> 
+   <td colname="col2"> Returns results based on the specified string you want to use as a search parameter. For example, let's say you want to find results for all models that have the word "Test" in any of the value fields for that item. Your sample request could look like this: <p> <code> GET https://api.demdex.com/v1/models/?search=Test </code>. </p> <p>You can search on any value returned by a "get all" method. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <span class="codeph"> folderId </span> </td> 
+   <td colname="col1"> <code> folderId </code> </td> 
    <td colname="col2"> Returns all the IDs for traits inside the specified folder. Not available to all methods. </td> 
   </tr> 
  </tbody> 

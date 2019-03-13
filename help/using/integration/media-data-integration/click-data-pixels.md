@@ -46,73 +46,73 @@ Click events support the macros listed in the following table. A macro is a smal
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> d_adgroup</span> </p> </td> 
-   <td colname="col02"> <p> <span class="codeph"> %d_adgroup%</span> </p> </td> 
+   <td colname="col1"> <p> <code> d_adgroup</code> </p> </td> 
+   <td colname="col02"> <p> <code> %d_adgroup%</code> </p> </td> 
    <td colname="col2"> <p>Numeric ad group ID from the ad server. </p> <p>Optional. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> d_adsrc</span> </p> </td> 
+   <td colname="col1"> <p> <code> d_adsrc</code> </p> </td> 
    <td colname="col02"> <p>No macro. </p> <p>Accepts a hard coded ID value. </p> </td> 
    <td colname="col2"> <p> <a href="../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> Data source</a> ID or integration code for your advertiser. </p> <p> Required for <span class="wintitle"> Audience Optimization</span> reports. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> d_bu</span> </p> </td> 
-   <td colname="col02"> <p> <span class="codeph"> %d_bu%</span> </p> </td> 
+   <td colname="col1"> <p> <code> d_bu</code> </p> </td> 
+   <td colname="col02"> <p> <code> %d_bu%</code> </p> </td> 
    <td colname="col2"> <p>Numeric ID for the business unit. </p> <p> Required for <span class="wintitle"> Audience Optimization</span> reports. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> d_campaign</span> </p> </td> 
-   <td colname="col02"> <p> <span class="codeph"> %d_campaign%</span> </p> </td> 
+   <td colname="col1"> <p> <code> d_campaign</code> </p> </td> 
+   <td colname="col02"> <p> <code> %d_campaign%</code> </p> </td> 
    <td colname="col2"> <p>Numeric campaign ID from the ad server. </p> <p> Required for <span class="wintitle"> Audience Optimization</span> reports. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> d_creative</span> </p> </td> 
-   <td colname="col02"> <p> <span class="codeph"> %d_creative%</span> </p> </td> 
+   <td colname="col1"> <p> <code> d_creative</code> </p> </td> 
+   <td colname="col02"> <p> <code> %d_creative%</code> </p> </td> 
    <td colname="col2"> <p>Numeric creative ID from the ad server. </p> <p>Required. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> d_dpid</span> </p> </td> 
-   <td colname="col02"> <p> <span class="codeph"> %d_id%</span> </p> </td> 
-   <td colname="col2"> <p>Data provider ID. </p> <p>Often used with <span class="codeph"> d_dpuuid</span> to link a data provider ID to a user ID. </p> <p>Optional. </p> </td> 
+   <td colname="col1"> <p> <code> d_dpid</code> </p> </td> 
+   <td colname="col02"> <p> <code> %d_id%</code> </p> </td> 
+   <td colname="col2"> <p>Data provider ID. </p> <p>Often used with <code> d_dpuuid</code> to link a data provider ID to a user ID. </p> <p>Optional. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> d_dpuuid</span> </p> </td> 
-   <td colname="col02"> <p> <span class="codeph"> %d_dpuuid%</span> </p> </td> 
-   <td colname="col2"> <p>Unique user ID supplied by the data provider. </p> <p>Often used with <span class="codeph"> d_dpid</span> to link a user ID to a data provider ID. </p> </td> 
+   <td colname="col1"> <p> <code> d_dpuuid</code> </p> </td> 
+   <td colname="col02"> <p> <code> %d_dpuuid%</code> </p> </td> 
+   <td colname="col2"> <p>Unique user ID supplied by the data provider. </p> <p>Often used with <code> d_dpid</code> to link a user ID to a data provider ID. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> d_mid</span> </p> </td> 
-   <td colname="col02"> <p> <span class="codeph"> %d_mid%</span> </p> </td> 
+   <td colname="col1"> <p> <code> d_mid</code> </p> </td> 
+   <td colname="col02"> <p> <code> %d_mid%</code> </p> </td> 
    <td colname="col2"> <p> <span class="keyword"> Experience Cloud</span> ID (ECID). For more information about the ECID, see <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a>. </p> <p>Optional. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> d_placement</span> </p> </td> 
-   <td colname="col02"> <p> <span class="codeph"> %d_placement%</span> </p> </td> 
+   <td colname="col1"> <p> <code> d_placement</code> </p> </td> 
+   <td colname="col02"> <p> <code> %d_placement%</code> </p> </td> 
    <td colname="col2"> <p>Numeric placement ID from the ad server. </p> <p>Optional. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> d_region</span> </p> </td> 
-   <td colname="col02"> <p> <span class="codeph"> %d_region%</span> </p> </td> 
+   <td colname="col1"> <p> <code> d_region</code> </p> </td> 
+   <td colname="col02"> <p> <code> %d_region%</code> </p> </td> 
    <td colname="col2"> <p>The numeric region ID for the DCS cluster that services a request. For more information about the DCS, see <a href="../../reference/system-components/components-data-collection.md#concept_66CFFEBF5E8B41ED94082D562A93506E"> Data Collection Components</a>. </p> <p>Optional. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> r_rand</span> </p> </td> 
-   <td colname="col02"> <p> <span class="codeph"> %r_rand%</span> </p> </td> 
+   <td colname="col1"> <p> <code> r_rand</code> </p> </td> 
+   <td colname="col02"> <p> <code> %r_rand%</code> </p> </td> 
    <td colname="col2"> <p>Random number used for cache busting. </p> <p>Optional. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> d_site</span> </p> </td> 
-   <td colname="col02"> <p> <span class="codeph"> %d_site%</span> </p> </td> 
+   <td colname="col1"> <p> <code> d_site</code> </p> </td> 
+   <td colname="col02"> <p> <code> %d_site%</code> </p> </td> 
    <td colname="col2"> <p>Numeric site ID from the ad server. </p> <p>Optional. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> d_src</span> </p> </td> 
-   <td colname="col02"> <p> <span class="codeph"> %d_src%</span> </p> </td> 
+   <td colname="col1"> <p> <code> d_src</code> </p> </td> 
+   <td colname="col02"> <p> <code> %d_src%</code> </p> </td> 
    <td colname="col2"> <p>DPID of the source from where Audience Manager pulls the metadata. </p> <p>Required. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> d_uuid</span> </p> </td> 
-   <td colname="col02"> <p> <span class="codeph"> %d_uuid%</span> </p> </td> 
+   <td colname="col1"> <p> <code> d_uuid</code> </p> </td> 
+   <td colname="col02"> <p> <code> %d_uuid%</code> </p> </td> 
    <td colname="col2"> <p>Specify the ID of the visitor directly in the [!DNL URL] instead of relying on [!DNL Demdex] cookie. </p> <p>Optional. </p> </td> 
   </tr> 
  </tbody> 
@@ -123,11 +123,11 @@ Click events support the macros listed in the following table. A macro is a smal
 This example demonstrates passing the creative, adgroup, and placement macros. It assumes the values for each parameter are passed in the non-redirect portion of the click-tracking call.
 
 <ul class="simplelist"> 
- <li> <span class="codeph"> creative=1235 </span> </li> 
- <li> <span class="codeph"> campaign=4709 </span> </li> 
- <li> <span class="codeph"> adgroup=3408 </span> </li> 
- <li> <span class="codeph"> placement=1001 </span> </li> 
- <li> <span class="codeph"> src=203 </span> </li> 
+ <li> <code> creative=1235 </code> </li> 
+ <li> <code> campaign=4709 </code> </li> 
+ <li> <code> adgroup=3408 </code> </li> 
+ <li> <code> placement=1001 </code> </li> 
+ <li> <code> src=203 </code> </li> 
 </ul>
 
 ## Request

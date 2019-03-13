@@ -39,20 +39,20 @@ c_signal_trait_segment.xml
     </ul> <p>Comparison operators join the key-value pair and set the relationship between them. </p> </td> 
    <td colname="col3"> 
     <ul id="ul_A6D8D30A37C94437A7BF38736C6F8556"> 
-     <li id="li_74C87C34FA254783AC0DEBBC69B35AC4"><span class="codeph"> product=camera</span> </li> 
-     <li id="li_C1727B9136024E56B60374597A7DCA00"><span class="codeph"> price&gt;1000</span> </li> 
-     <li id="li_B2E7798768EE444AB978F3F27B0BC0B5"><span class="codeph"> type=digital SLR</span> </li> 
+     <li id="li_74C87C34FA254783AC0DEBBC69B35AC4"><code> product=camera</code> </li> 
+     <li id="li_C1727B9136024E56B60374597A7DCA00"><code> price&gt;1000</code> </li> 
+     <li id="li_B2E7798768EE444AB978F3F27B0BC0B5"><code> type=digital SLR</code> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b>Trait</b> </td> 
    <td colname="col2"> <p>Combinations of one or more signals. </p> <p>Boolean expressions and comparison operators let you create trait qualification rules. </p> <p>Create precise qualification requirements with combinations of traits and trait groups. </p> </td> 
-   <td colname="col3"> <p>From the available signals, you could create a "High End Camera Browser" rule expressed as: </p> <p><span class="codeph"> product=camera AND price&gt;1000</span> </p> </td> 
+   <td colname="col3"> <p>From the available signals, you could create a "High End Camera Browser" rule expressed as: </p> <p><code> product=camera AND price&gt;1000</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b>Segment</b> </td> 
    <td colname="col2"> <p>Users who share a set of common attributes and qualify for related traits. </p> <p>Boolean expressions, along with recency/frequency requirements, let you create segment qualification rules. </p> <p>Create precise qualification requirements with combinations of trait and segment rules. </p> </td> 
-   <td colname="col3"> <p>From the available traits and signals, you could create a segment rule expressed as: </p> <p><span class="codeph"> (product=camera AND type=digital SLR) OR (price&gt;1000)</span> </p> </td> 
+   <td colname="col3"> <p>From the available traits and signals, you could create a segment rule expressed as: </p> <p><code> (product=camera AND type=digital SLR) OR (price&gt;1000)</code> </p> </td> 
   </tr> 
  </tbody> 
 </table>

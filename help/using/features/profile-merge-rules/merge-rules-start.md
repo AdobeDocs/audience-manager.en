@@ -215,11 +215,11 @@ Check the methods in your [!DNL SDK] code that let you pass [!UICONTROL declared
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="keyword"> Android </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> setDpidAndDpuuid </span> </p> <p> <b>Syntax:</b> </p> <p> <span class="syntax javascript codeph"> public static void setDpidAndDpuuid(String dpid, String dpuuid); </span> </p> <p> <b>Example:</b> </p> <p> <span class="syntax javascript codeph"> AudienceManager.setDpidAndDpuuid("myDpid","myDpuuid"); </span> </p> </td> 
+   <td colname="col2"> <p> <code> setDpidAndDpuuid </code> </p> <p> <b>Syntax:</b> </p> <p> <span class="syntax javascript codeph"> public static void setDpidAndDpuuid(String dpid, String dpuuid); </span> </p> <p> <b>Example:</b> </p> <p> <span class="syntax javascript codeph"> AudienceManager.setDpidAndDpuuid("myDpid","myDpuuid"); </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="keyword"> iOS </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> audienceSetDpid:dpuuid </span> </p> <p> <b>Syntax:</b> </p> 
+   <td colname="col2"> <p> <code> audienceSetDpid:dpuuid </code> </p> <p> <b>Syntax:</b> </p> 
     ```javascript
       +&nbsp;(void)&nbsp;audienceSetDpid:(NSString&nbsp;*)dpid 
      

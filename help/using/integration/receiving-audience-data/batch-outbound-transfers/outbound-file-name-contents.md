@@ -38,7 +38,7 @@ The table defines the elements in an outbound data file name.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="varname"> SYNC-TYPE </span> </p> </td> 
+   <td colname="col1"> <p> <code><i>SYNC-TYPE </i></code> </p> </td> 
    <td colname="col2"> <p>Refers to the data transfer methods. Transfer methods include: </p> 
     <ul id="ul_4E0CFC7A34E04E2FA216A07E3654D6EE"> 
      <li id="li_0066B99222A64BE9975AE2E91511FB77">FTP - Transfer using SFTP </li> 
@@ -46,11 +46,11 @@ The table defines the elements in an outbound data file name.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="varname"> DID </span> </p> </td> 
+   <td colname="col1"> <p> <code><i>DID </i></code> </p> </td> 
    <td colname="col2"> <p>Destination ID. </p> <p>In <span class="keyword"> Audience Manager </span>, a destination is the instance of the integration where you can map your targetable segments. Customers can have multiple destinations, depending on the business requirement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="varname"> MASTER-DPID </span> </p> </td> 
+   <td colname="col1"> <p> <code><i>MASTER-DPID </i></code> </p> </td> 
    <td colname="col2"> <p>Data-provider or data source ID. This ID identifies the type of User ID present in the file content. Most common User ID keys are: </p> <p> 
      <ul id="ul_CC22D019ECED4B17A7695708001F2C1B"> 
       <li id="li_94DAFA169380405981AFEF1B581997E6">20914 - <span class="keyword"> Google Advertiser ID </span> (raw, unhashed) </li> 
@@ -59,27 +59,27 @@ The table defines the elements in an outbound data file name.
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="varname"> PID-ALIAS </span> </p> </td> 
+   <td colname="col1"> <p> <code><i>PID-ALIAS </i></code> </p> </td> 
    <td colname="col2"> The customer identifier from the 3rd party platform. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="varname"> SYNC-MODE </span> </p> </td> 
-   <td colname="col2"> <p>Sync mode is a macro placeholder that adds a label to the file name based on synchronization type. Synchronization types include full and incremental. They'll appear in the file name as <span class="codeph"> iter </span> or <span class="codeph"> full </span>. </p> 
+   <td colname="col1"> <p> <code><i>SYNC-MODE </i></code> </p> </td> 
+   <td colname="col2"> <p>Sync mode is a macro placeholder that adds a label to the file name based on synchronization type. Synchronization types include full and incremental. They'll appear in the file name as <code> iter </code> or <code> full </code>. </p> 
     <ul id="ul_3B3585CEF1434951B6FDCDD29E5013CD"> 
-     <li id="li_947D94E9CFAC4041AC1AAEB191805529"> <span class="codeph"> iter </span>: Indicates an "iterative" or incremental synchronization. An incremental file contains only new data collected since the last synchronization.. </li> 
-     <li id="li_13ADB3B3346943DAA767A1F416482D3C"> <span class="codeph"> full </span>: Indicates a "full" synchronization. A fully synchronized file contains old data and any new data collected since the last synchronization. </li> 
+     <li id="li_947D94E9CFAC4041AC1AAEB191805529"> <code> iter </code>: Indicates an "iterative" or incremental synchronization. An incremental file contains only new data collected since the last synchronization.. </li> 
+     <li id="li_13ADB3B3346943DAA767A1F416482D3C"> <code> full </code>: Indicates a "full" synchronization. A fully synchronized file contains old data and any new data collected since the last synchronization. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="varname"> TIMESTAMP </span> </p> </td> 
+   <td colname="col1"> <p> <code><i>TIMESTAMP </i></code> </p> </td> 
    <td colname="col2"> <p>A 13-digit UNIX timestamp in milliseconds, in the UTC time zone. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> [ <span class="varname"> -SPLIT_NUMBER </span>] </p> </td> 
+   <td colname="col1"> <p> [ <code><i>-SPLIT_NUMBER </i></code>] </p> </td> 
    <td colname="col2"> <p>An integer. Identifies part of a file that's been split into multiple parts to improve processing times. The number indicates which part of the original file the data belongs to. </p> <p>The original file will not have any split number. The first split file will start with 1. See examples below. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="varname"> .gz (optional) </span> </p> </td> 
+   <td colname="col1"> <p> <code><i>.gz (optional) </i></code> </p> </td> 
    <td colname="col2"> <p>GZIP compression. </p> </td> 
   </tr> 
  </tbody> 
@@ -94,16 +94,16 @@ Files sent over to an [!DNL Amazon S3] location, with *`PID-ALIAS="XYZCustomer"`
 E.g. incremental files:
 
 <ul class="simplelist"> 
- <li> <span class="codeph"> S3_1234_20914_XYZCustomer_iter_1486140844000.sync.gz </span> </li> 
- <li> <span class="codeph"> S3_1234_20914_XYZCustomer_iter_1486140844000-1.sync.gz </span> </li> 
- <li> <span class="codeph"> S3_1234_20914_XYZCustomer_iter_1486140844000-10.sync.gz </span> </li> 
+ <li> <code> S3_1234_20914_XYZCustomer_iter_1486140844000.sync.gz </code> </li> 
+ <li> <code> S3_1234_20914_XYZCustomer_iter_1486140844000-1.sync.gz </code> </li> 
+ <li> <code> S3_1234_20914_XYZCustomer_iter_1486140844000-10.sync.gz </code> </li> 
 </ul>
 
 E.g. full files:
 
 <ul class="simplelist"> 
- <li> <span class="codeph"> S3_1234_20914_XYZCustomer_full_1486140844000.sync.gz </span> </li> 
- <li> <span class="codeph"> S3_1234_20914_XYZCustomer_full_1486140844000-1.sync.gz </span> </li> 
+ <li> <code> S3_1234_20914_XYZCustomer_full_1486140844000.sync.gz </code> </li> 
+ <li> <code> S3_1234_20914_XYZCustomer_full_1486140844000-1.sync.gz </code> </li> 
 </ul>
 
 ### Scenario 2
@@ -113,15 +113,15 @@ Files sent over to [!DNL FTP] location, without *`PID-ALIAS`* and with [!DNL App
 E.g. incremental files:
 
 <ul class="simplelist"> 
- <li> <span class="codeph"> ftp_1234_20915_iter_1486140843000.sync.gz </span> </li> 
- <li> <span class="codeph"> ftp_1234_20915_iter_1486140843000-1.sync.gz </span> </li> 
+ <li> <code> ftp_1234_20915_iter_1486140843000.sync.gz </code> </li> 
+ <li> <code> ftp_1234_20915_iter_1486140843000-1.sync.gz </code> </li> 
 </ul>
 
 E.g. full files:
 
 <ul class="simplelist"> 
- <li> <span class="codeph"> ftp_1234_20915_full_1486140843000.sync.gz </span> </li> 
- <li> <span class="codeph"> ftp_1234_20915_full_1486140843000-1.sync.gz </span> </li> 
+ <li> <code> ftp_1234_20915_full_1486140843000.sync.gz </code> </li> 
+ <li> <code> ftp_1234_20915_full_1486140843000-1.sync.gz </code> </li> 
 </ul>
 
 **Scenario 3**: Files sent over to [!DNL FTP] location, with *`PID-ALIAS="XYZCustomer"`* and with 3rd party User ID in the file content ( *`Vendor ID=45454`*):
@@ -129,16 +129,16 @@ E.g. full files:
 E.g. incremental files:
 
 <ul class="simplelist"> 
- <li> <span class="codeph"> ftp_1234_45454_XYZCustomer_iter_1486140843000.sync.gz </span> </li> 
- <li> <span class="codeph"> ftp_1234_45454_XYZCustomer_iter_1486140843000-1.sync.gz </span> </li> 
- <li> <span class="codeph"> ftp_1234_45454_XYZCustomer_iter_1486140843000-10.sync.gz </span> </li> 
+ <li> <code> ftp_1234_45454_XYZCustomer_iter_1486140843000.sync.gz </code> </li> 
+ <li> <code> ftp_1234_45454_XYZCustomer_iter_1486140843000-1.sync.gz </code> </li> 
+ <li> <code> ftp_1234_45454_XYZCustomer_iter_1486140843000-10.sync.gz </code> </li> 
 </ul>
 
 E.g. full files:
 
 <ul class="simplelist"> 
- <li> <span class="codeph"> ftp_1234_45454_XYZCustomer_full_1486140843200.sync.gz </span> </li> 
- <li> <span class="codeph"> ftp_1234_45454_XYZCustomer_full_1486140843200-1.sync.gz </span> </li> 
+ <li> <code> ftp_1234_45454_XYZCustomer_full_1486140843200.sync.gz </code> </li> 
+ <li> <code> ftp_1234_45454_XYZCustomer_full_1486140843200-1.sync.gz </code> </li> 
 </ul>
 
 ## Outbound Data File Contents: Syntax and Parameters {#concept_6D02DD0812A449388359C11D86D619B5}
@@ -168,19 +168,19 @@ The table lists variables that define the contents of a data file.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="varname"> UUID </span> </p> </td> 
+   <td colname="col1"> <p> <code><i>UUID </i></code> </p> </td> 
    <td colname="col2"> <p>A unique user ID assigned by <span class="keyword"> Audience Manager </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="varname"> &lt;SPACE&gt; </span> </p> </td> 
+   <td colname="col1"> <p> <code><i>&lt;SPACE&gt; </i></code> </p> </td> 
    <td colname="col2"> <p>Separate the UUID and segment data with a space </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="varname"> SEGMENT_N </span> </p> </td> 
+   <td colname="col1"> <p> <code><i>SEGMENT_N </i></code> </p> </td> 
    <td colname="col2"> <p>The segment ID that a visitor belongs to. Separate multiple segments with a comma. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="varname"> REMOVED_SEGMENT_N </span> </p> </td> 
+   <td colname="col1"> <p> <code><i>REMOVED_SEGMENT_N </i></code> </p> </td> 
    <td colname="col2"> <p>The segment ID from which the user was disqualified. Separate multiple segments with a comma. With a full synchronization, you can ignore the removed segments because the data file will contain the complete list of current segments for the user. Usually, you want to know about segments a user belongs to rather than those they've been removed from. See also <a href="../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md#outbound-data-file-name-syntax-and-examples"> Outbound Data File Name: Syntax and Examples </a>. </p> </td> 
   </tr> 
  </tbody> 

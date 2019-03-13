@@ -44,51 +44,51 @@ Impression event calls accept data formed into key-value pairs. The following ta
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> d_adgroup </span> </td> 
+   <td colname="col1"> <code> d_adgroup </code> </td> 
    <td colname="col2"> <p>Numeric ad group ID from the ad server. </p> <p>Optional. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> d_adsrc </span> </td> 
+   <td colname="col1"> <code> d_adsrc </code> </td> 
    <td colname="col2"> <p>Data source ID or integration code for your advertiser. </p> <p>Required for <span class="wintitle"> Audience Optimization </span> reports. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> d_bu </span> </td> 
+   <td colname="col1"> <code> d_bu </code> </td> 
    <td colname="col2"> <p>Data source ID or integration code for your business unit. </p> <p>Required for <span class="wintitle"> Audience Optimization </span> reports. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> d_bust </span> </p> </td> 
+   <td colname="col1"> <p> <code> d_bust </code> </p> </td> 
    <td colname="col2"> <p>Cache-busting value. <span class="keyword"> Audience Manager </span> automatically sends cache-control headers that are honored by most browsers and proxies. If you want to perform additional cache busting, include this parameter in an event call, followed by a random string. </p> <p> Optional. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> d_campaign </span> </td> 
+   <td colname="col1"> <code> d_campaign </code> </td> 
    <td colname="col2"> <p>Numeric campaign ID from the ad server. </p> <p>Required for <span class="wintitle"> Audience Optimization </span> reports. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> d_cid </span> </td> 
-   <td colname="col2"> <p>In this context, <span class="codeph"> d_cid </span> instantiates a key-value pair that lets you associate a mobile device type to a unique user ID (DPUUID). A fixed ID determines the mobile device type. The value, which is the user ID, can vary. Separate the key-value pair with <span class="codeph"> %01 </span>, which is a non-printing control character. This parameter accepts the following keys: </p> 
+   <td colname="col1"> <code> d_cid </code> </td> 
+   <td colname="col2"> <p>In this context, <code> d_cid </code> instantiates a key-value pair that lets you associate a mobile device type to a unique user ID (DPUUID). A fixed ID determines the mobile device type. The value, which is the user ID, can vary. Separate the key-value pair with <code> %01 </code>, which is a non-printing control character. This parameter accepts the following keys: </p> 
     <ul id="ul_4D5D696D10B34615867AF3B64A938878"> 
-     <li id="li_A4BD4B0C8C9443BF99075CDFACC013F6">20914: Identifies an Android (GAID) device. For example, <span class="codeph"> d_cid = 20914 %01 1234 </span> says that user 1234 is associated with an Android device. </li> 
-     <li id="li_F83D7B3EC4D24D0187BFE639E2812B36">20915: Identifies an iOS (IDFA) device. For example, <span class="codeph"> d_cid = 20915 %01 5678 </span> says that user 5678 is associated with an iOS device. </li> 
+     <li id="li_A4BD4B0C8C9443BF99075CDFACC013F6">20914: Identifies an Android (GAID) device. For example, <code> d_cid = 20914 %01 1234 </code> says that user 1234 is associated with an Android device. </li> 
+     <li id="li_F83D7B3EC4D24D0187BFE639E2812B36">20915: Identifies an iOS (IDFA) device. For example, <code> d_cid = 20915 %01 5678 </code> says that user 5678 is associated with an iOS device. </li> 
     </ul> <p>Optional. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> d_creative </span> </td> 
+   <td colname="col1"> <code> d_creative </code> </td> 
    <td colname="col2"> <p>Numeric creative ID from the ad server. </p> <p>Required for <span class="wintitle"> Audience Optimization </span> reports. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> d_event=imp </span> </td> 
+   <td colname="col1"> <code> d_event=imp </code> </td> 
    <td colname="col2"> <p>Identifies an event call as an impression event. </p> <p>Required. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> d_placement </span> </td> 
+   <td colname="col1"> <code> d_placement </code> </td> 
    <td colname="col2"> <p>Numeric placement ID from the ad server. </p> <p> Optional. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> d_site </span> </td> 
+   <td colname="col1"> <code> d_site </code> </td> 
    <td colname="col2"> <p>Numeric site ID from the ad server. </p> <p>Required for <span class="wintitle"> Audience Optimization </span> reports. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> d_src </span> </td> 
+   <td colname="col1"> <code> d_src </code> </td> 
    <td colname="col2"> <p>Data source ID or integration code of the platform providing the metadata (e.g., [!DNL DFA], [!DNL Atlas], [!DNL GBM], [!DNL Media Math], etc.). </p> <p>Required for <span class="wintitle"> Audience Optimization </span> reports. </p> </td> 
   </tr> 
  </tbody> 

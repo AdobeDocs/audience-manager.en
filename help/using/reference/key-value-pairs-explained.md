@@ -60,7 +60,7 @@ When working with serialized data, you must specify the characters that separate
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Single key</b> <p>(standard) </p> </td> 
-   <td colname="col2"> <span class="codeph"> x=1&amp;x=2 </span> </td> 
+   <td colname="col2"> <code> x=1&amp;x=2 </code> </td> 
    <td colname="col3"> x </td> 
    <td colname="col4" morerows="3"> = </td> 
    <td colname="col5" morerows="1"> &amp; </td> 
@@ -68,19 +68,19 @@ When working with serialized data, you must specify the characters that separate
   </tr> 
   <tr> 
    <td colname="col1"> <b>Key-value pairs</b> <p>(standard) </p> </td> 
-   <td colname="col2"> <span class="codeph"> x=1&amp;x=2&amp;y=3&amp;y=4 </span> </td> 
+   <td colname="col2"> <code> x=1&amp;x=2&amp;y=3&amp;y=4 </code> </td> 
    <td colname="col3"> x, y </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Single key</b> <p>(serial) </p> </td> 
-   <td colname="col2"> <span class="codeph"> x=1;2;3 </span> </td> 
+   <td colname="col2"> <code> x=1;2;3 </code> </td> 
    <td colname="col3"> x </td> 
    <td colname="col5"> n/a </td> 
    <td colname="col6" morerows="1"> ; </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Key-value pairs</b> (serial) </td> 
-   <td colname="col2"> <span class="codeph"> x=1;2&amp;y=3;4 </span> </td> 
+   <td colname="col2"> <code> x=1;2&amp;y=3;4 </code> </td> 
    <td colname="col3"> x, y </td> 
    <td colname="col5"> &amp; </td> 
   </tr> 

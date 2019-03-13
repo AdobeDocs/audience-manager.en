@@ -67,35 +67,35 @@ The following tables list and define the keys in the `Files` and `Summary` secti
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Description</span> </p> </td> 
+   <td colname="col1"> <p> <code> Description</code> </p> </td> 
    <td colname="col2"> <p>Contains a brief description of why processing failed. This field is empty when processing is successful. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FileByteSize</span> </p> </td> 
+   <td colname="col1"> <p> <code> FileByteSize</code> </p> </td> 
    <td colname="col2"> <p>File size in bytes. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FileChecksumMD5</span> </p> </td> 
-   <td colname="col2"> <p>The MD 5 checksum for the metadata file uploaded to your <span class="codeph"> meta</span> directory. </p> </td> 
+   <td colname="col1"> <p> <code> FileChecksumMD5</code> </p> </td> 
+   <td colname="col2"> <p>The MD 5 checksum for the metadata file uploaded to your <code> meta</code> directory. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FileName</span> </p> </td> 
-   <td colname="col2"> <p>The name of the metadata file uploaded to your <span class="codeph"> meta</span> directory. </p> </td> 
+   <td colname="col1"> <p> <code> FileName</code> </p> </td> 
+   <td colname="col2"> <p>The name of the metadata file uploaded to your <code> meta</code> directory. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> MetadataType</span> </p> </td> 
+   <td colname="col1"> <p> <code> MetadataType</code> </p> </td> 
    <td colname="col2"> <p>The human-readable name for the type of data your file contains. It is based on the child ID in your file name. </p> <p>See <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#concept_729806531D4547A6B5870BEA199FB4A9"> Naming Conventions for Metadata Files</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Parent</span> </p> </td> 
+   <td colname="col1"> <p> <code> Parent</code> </p> </td> 
    <td colname="col2"> <p>The human-readable name for the type of data your file contains. It is based on the parent ID in your file name. </p> <p>See <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#concept_729806531D4547A6B5870BEA199FB4A9"> Naming Conventions for Metadata Files</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Status</span> </p> </td> 
+   <td colname="col1"> <p> <code> Status</code> </p> </td> 
    <td colname="col2"> <p>Returns 2 text values that describe the processing status of your metadata file: </p> 
     <ul id="ul_3814EBB6B42B4EB294B1ABA5782190B6"> 
-     <li id="li_92AAECE7E9A44B1193A1D93ABBCE46B0"> <span class="codeph"> SUCCESS</span> </li> 
-     <li id="li_3109F4E254374117A89CB989F221CB18"> <span class="codeph"> FAILURE</span> </li> 
+     <li id="li_92AAECE7E9A44B1193A1D93ABBCE46B0"> <code> SUCCESS</code> </li> 
+     <li id="li_3109F4E254374117A89CB989F221CB18"> <code> FAILURE</code> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -112,39 +112,39 @@ The following tables list and define the keys in the `Files` and `Summary` secti
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Day</span> </p> </td> 
-   <td colname="col2"> <p>File processing date in <span class="codeph"><span class="varname"> yyyy-mm-dd</span></span> format. </p> </td> 
+   <td colname="col1"> <p> <code> Day</code> </p> </td> 
+   <td colname="col2"> <p>File processing date in <code><i>yyyy-mm-dd</i></code> format. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> GlobalStatus</span> </p> </td> 
+   <td colname="col1"> <p> <code> GlobalStatus</code> </p> </td> 
    <td colname="col2"> <p>Returns 2 text values that describe the processing status for all your files for an entire day: </p> 
     <ul id="ul_3FC092CA043A486C9C79FECF71FAF8FB"> 
-     <li id="li_754B32D8267D44BBBD6EC354C459C566"> <span class="codeph"> SUCCESS</span> </li> 
-     <li id="li_8B64E39C80424AC2B95DF9B53D62864E"> <span class="codeph"> FAILURE</span> </li> 
+     <li id="li_754B32D8267D44BBBD6EC354C459C566"> <code> SUCCESS</code> </li> 
+     <li id="li_8B64E39C80424AC2B95DF9B53D62864E"> <code> FAILURE</code> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> NumberFailure</span> </p> </td> 
+   <td colname="col1"> <p> <code> NumberFailure</code> </p> </td> 
    <td colname="col2"> <p>The number of files that were processed unsuccessfully. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> NumberSuccess</span> </p> </td> 
+   <td colname="col1"> <p> <code> NumberSuccess</code> </p> </td> 
    <td colname="col2"> <p>The number of files processed successfully. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ProcessingTimeRFC2822</span> </p> </td> 
+   <td colname="col1"> <p> <code> ProcessingTimeRFC2822</code> </p> </td> 
    <td colname="col2"> <p>Returns a human-readable time stamp for processing start times. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ProcessingTimePOSIX</span> </p> </td> 
+   <td colname="col1"> <p> <code> ProcessingTimePOSIX</code> </p> </td> 
    <td colname="col2"> <p>A UNIX time stamp for processing start times. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> TotalByteSize</span> </p> </td> 
+   <td colname="col1"> <p> <code> TotalByteSize</code> </p> </td> 
    <td colname="col2"> <p>Total number of bytes for all your metadata files for the day. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> TotalNumberFiles</span> </p> </td> 
+   <td colname="col1"> <p> <code> TotalNumberFiles</code> </p> </td> 
    <td colname="col2"> <p>Total number of all your files processed for the day. </p> </td> 
   </tr> 
  </tbody> 

@@ -509,12 +509,12 @@ Works with [!UICONTROL DIL] versions 2.10 and 3.1 or higher.
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td colname="col1"> <span class="codeph"> dil.Instance.api.idSync(initConfig) </span> </td> 
-   <td colname="col2"> <p>Between different data partners and Audience Manager. For example, partner x would use this to synchronize a user ID with partner y and then send that to Audience Manager. </p> <p> <p>Important:  This method is deprecated. Please use the <span class="codeph"> idSyncByURL </span> method of the Experience Cloud ID Service instance. </p> </p> </td> 
+   <td colname="col1"> <code> dil.Instance.api.idSync(initConfig) </code> </td> 
+   <td colname="col2"> <p>Between different data partners and Audience Manager. For example, partner x would use this to synchronize a user ID with partner y and then send that to Audience Manager. </p> <p> <p>Important:  This method is deprecated. Please use the <code> idSyncByURL </code> method of the Experience Cloud ID Service instance. </p> </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <span class="codeph"> dil.Instance.api.aamIdSync(initConfig) </span> </td> 
-   <td colname="col2"> <p>When you already know the user ID and want to send it to Audience Manager. </p> <p> <p>Important:  This method is deprecated. Please use the <span class="codeph"> idSyncByDataSource </span> method of the Experience Cloud ID Service instance. </p> </p> </td> 
+   <td colname="col1"> <code> dil.Instance.api.aamIdSync(initConfig) </code> </td> 
+   <td colname="col2"> <p>When you already know the user ID and want to send it to Audience Manager. </p> <p> <p>Important:  This method is deprecated. Please use the <code> idSyncByDataSource </code> method of the Experience Cloud ID Service instance. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -533,22 +533,22 @@ Works with [!UICONTROL DIL] versions 2.10 and 3.1 or higher.
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td colname="col1"> <span class="codeph"> dpid </span> </td> 
+   <td colname="col1"> <code> dpid </code> </td> 
    <td colname="col2"> String </td> 
    <td colname="col3"> <p>Data provider ID assigned by Audience Manager. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <span class="codeph"> dpuuid </span> </td> 
+   <td colname="col1"> <code> dpuuid </code> </td> 
    <td colname="col2"> String </td> 
    <td colname="col3"> <p>The data provider's unique ID for the user. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <span class="codeph"> minutesToLive </span> </td> 
+   <td colname="col1"> <code> minutesToLive </code> </td> 
    <td colname="col2"> Number </td> 
    <td colname="col3"> <p><i>(Optional)</i> Sets the cookie expiration time. Must be an integer. Default is 20160 minutes (14 days). </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <span class="codeph"> url </span> </td> 
+   <td colname="col1"> <code> url </code> </td> 
    <td colname="col2"> String </td> 
    <td colname="col3"> <p>Destination URL. </p> </td> 
   </tr> 

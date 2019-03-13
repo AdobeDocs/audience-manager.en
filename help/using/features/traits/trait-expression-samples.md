@@ -59,10 +59,10 @@ This rule establishes trait qualification requirements using [!DNL Boolean] [!UI
  <tbody> 
   <tr> 
    <td colname="col1"> 
-    <codeblock>
+    <code>
       (a== "1" [!DNL OR] b=="1") [!DNL AND] (c=="new")
-    </codeblock> </td> 
-   <td colname="col2"> Meet the conditions set by variables <span class="varname"> a </span> or <span class="varname"> b </span> and <span class="varname"> c </span>. </td> 
+    </code> </td> 
+   <td colname="col2"> Meet the conditions set by variables <code><i>a </i></code> or <code><i>b </i></code> and <code><i>c </i></code>. </td> 
   </tr> 
  </tbody> 
 </table>

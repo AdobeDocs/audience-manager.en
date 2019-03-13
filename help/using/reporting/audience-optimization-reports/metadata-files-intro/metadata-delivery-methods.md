@@ -29,31 +29,31 @@ The following table defines each of these elements in a file delivery path.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> .../log_ingestion/</span> </p> </td> 
+   <td colname="col1"> <p> <code> .../log_ingestion/</code> </p> </td> 
    <td colname="col2"> <p>This is the start of the directory storage path. You'll receive the full path when everything is set up. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph">pid=<span class="varname"> AAM ID</span></span> </p> </td> 
+   <td colname="col1"> <p> <code>pid=<i>AAM ID</i></code> </p> </td> 
    <td colname="col2"> <p>This key-value pair that contains your <span class="keyword"> Audience Manager</span> customer ID. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph">dpid=<span class="varname"> d_src</span></span> </p> </td> 
+   <td colname="col1"> <p> <code>dpid=<i>d_src</i></code> </p> </td> 
    <td colname="col2"> <p>This key-value pair contains the data source ID passed in on an event call. The data source ID is the value that ties all the contents in your file to the actual data it belongs to. </p> <p>For example, say you have a creative with the ID 123 and the name "Advertiser Creative A." As an event call only passes in the ID you need to include "Advertiser Creative A" in the metadata file. The campaign and creative belong to a data source. The data source ID is what ties these together and lets us accurately associate file contents to an ID sent in on an event call. See <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md#how-ids-shape-file-names"> How Event Call IDs Determine File Names, Contents, and Delivery Paths</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <ul id="ul_8AFA4E7FCE984789AF05EA31718F39CD"> 
-     <li id="li_A493880F6ECB467DBB590226CC7A5847"> <span class="codeph"> meta</span> </li> 
-     <li id="li_2D6DAC956D084A1DB43C9C5B2C821F87"> <span class="codeph"> status</span> </li> 
+     <li id="li_A493880F6ECB467DBB590226CC7A5847"> <code> meta</code> </li> 
+     <li id="li_2D6DAC956D084A1DB43C9C5B2C821F87"> <code> status</code> </li> 
     </ul> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_5907ADF5B20C4FEC94EF5A09BE02F2CD"> 
-      <li id="li_AE70B44FEDCF4A05ADAFF4E49296F67D"> <span class="codeph"> meta</span> is a file upload/storage directory. </li> 
-      <li id="li_2ADEA90E01364E888CAAAB8A65A6383F"> <span class="codeph"> status</span> is a path to a directory that holds success or failure information about your processed files. After your file is processed, you'll see a <span class="codeph"> .info</span> file with <span class="codeph"> yyyymmdd</span> timestamp title. Status files contain data in a JSON object. See <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-update-status.md#concept_B42172A8E6394E889DCF367AA01B4583"> Status Updates for Metadata Files</a>. </li> 
+      <li id="li_AE70B44FEDCF4A05ADAFF4E49296F67D"> <code> meta</code> is a file upload/storage directory. </li> 
+      <li id="li_2ADEA90E01364E888CAAAB8A65A6383F"> <code> status</code> is a path to a directory that holds success or failure information about your processed files. After your file is processed, you'll see a <code> .info</code> file with <code> yyyymmdd</code> timestamp title. Status files contain data in a JSON object. See <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-update-status.md#concept_B42172A8E6394E889DCF367AA01B4583"> Status Updates for Metadata Files</a>. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> yyyymmdd</span>_<span class="varname"> parent ID</span>_<span class="varname"> child ID</span></span> </p> </td> 
+   <td colname="col1"> <p> <code> <i>yyyymmdd</i>_<i>parent ID</i>_<i>child ID</i></code> </p> </td> 
    <td colname="col2"> <p>This is the file name. See <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#concept_729806531D4547A6B5870BEA199FB4A9"> Naming Conventions for Metadata Files</a>. </p> </td> 
   </tr> 
  </tbody> 

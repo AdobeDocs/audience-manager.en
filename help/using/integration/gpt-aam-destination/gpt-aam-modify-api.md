@@ -50,19 +50,19 @@ Defines the key variables used in the `if` statement.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> AamGpt.getKey </span> </p> </td> 
+   <td colname="col1"> <p> <code> AamGpt.getKey </code> </p> </td> 
    <td colname="col2"> <p>String </p> </td> 
-   <td colname="col3"> <p>Returns the key in the key-value segment pair. For example, if your key-value pair consisted of <span class="codeph"> color=blue </span>, this returns <span class="codeph"> color </span>. </p> </td> 
+   <td colname="col3"> <p>Returns the key in the key-value segment pair. For example, if your key-value pair consisted of <code> color=blue </code>, this returns <code> color </code>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> AamGpt.getValues </span> </p> </td> 
+   <td colname="col1"> <p> <code> AamGpt.getValues </code> </p> </td> 
    <td colname="col2"> <p>Array of strings </p> </td> 
-   <td colname="col3"> <p>Returns values in an array, e.g., <span class="codeph"> ["value1","value2"] </span>. </p> </td> 
+   <td colname="col3"> <p>Returns values in an array, e.g., <code> ["value1","value2"] </code>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> AamGpt.getCookie </span> </p> </td> 
+   <td colname="col1"> <p> <code> AamGpt.getCookie </code> </p> </td> 
    <td colname="col2"> <p>Int </p> </td> 
-   <td colname="col3"> <p>Returns the Audience Manager user ID, e.g., <span class="codeph"> 12345 </span>. </p> </td> 
+   <td colname="col3"> <p>Returns the Audience Manager user ID, e.g., <code> 12345 </code>. </p> </td> 
   </tr>
  </tbody>
 </table>

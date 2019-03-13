@@ -44,11 +44,11 @@ To use `isCoopSafe` you must:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Authenticated Visitors</b> </p> </td> 
-   <td colname="col2"> <p>Add <span class="codeph"> isCoopSafe </span> to your <span class="wintitle"> DIL </span> code to control how data for authenticated visitors who have or have not accepted term-of-use agreements is used by the Device Co-op to build the device graph. </p> </td> 
+   <td colname="col2"> <p>Add <code> isCoopSafe </code> to your <span class="wintitle"> DIL </span> code to control how data for authenticated visitors who have or have not accepted term-of-use agreements is used by the Device Co-op to build the device graph. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>DIL on Third-Party Sites</b> </p> </td> 
-   <td colname="col2"> <p>Add <span class="codeph"> isCoopSafe </span> to your <span class="wintitle"> DIL </span> code for use on third-party sites where you: </p> <p> 
+   <td colname="col2"> <p>Add <code> isCoopSafe </code> to your <span class="wintitle"> DIL </span> code for use on third-party sites where you: </p> <p> 
      <ul id="ul_C27BB26510314834A2A7CD99D46DA4AC"> 
       <li id="li_4E6AE574F18646F09C0CF4553EEA1A9E">Cannot ensure that authenticated visitors have or have not accepted term-of-use agreements. </li> 
       <li id="li_26D0561BF32B4278B0A6B5082C17FED8">Need to control how that data is used by the Device Co-op to build the device graph. </li> 
@@ -96,12 +96,12 @@ The POST parameters tell the [!DNL Experience Cloud] Device Co-op if it can or c
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> isCoopSafe: true </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> d_coop_safe=1 </span> </p> <p>The Device Co-op can use visitor data to help build the device graph. </p> </td> 
+   <td colname="col1"> <p> <code> isCoopSafe: true </code> </p> </td> 
+   <td colname="col2"> <p> <code> d_coop_safe=1 </code> </p> <p>The Device Co-op can use visitor data to help build the device graph. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> isCoopSafe: false </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> d_coop_unsafe=1 </span> </p> <p>The Device Co-op cannot use visitor data to help build the device graph. </p> </td> 
+   <td colname="col1"> <p> <code> isCoopSafe: false </code> </p> </td> 
+   <td colname="col2"> <p> <code> d_coop_unsafe=1 </code> </p> <p>The Device Co-op cannot use visitor data to help build the device graph. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -119,12 +119,12 @@ These APIs allow you to override the `isCoopSafe` status. These are necessary be
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> dilInstance.api.setAsCoopSafe(); </span> </p> </td> 
-   <td colname="col2"> <p>Sets POST parameter <span class="codeph"> d_coop_safe=1 </span> in all subsequent event calls. </p> </td> 
+   <td colname="col1"> <p> <code> dilInstance.api.setAsCoopSafe(); </code> </p> </td> 
+   <td colname="col2"> <p>Sets POST parameter <code> d_coop_safe=1 </code> in all subsequent event calls. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> dilInstance.api.setAsCoopUnsafe(); </span> </p> </td> 
-   <td colname="col2"> <p>Sets POST parameter <span class="codeph"> d_coop_unsafe=1 </span> in all subsequent event calls. </p> </td> 
+   <td colname="col1"> <p> <code> dilInstance.api.setAsCoopUnsafe(); </code> </p> </td> 
+   <td colname="col2"> <p>Sets POST parameter <code> d_coop_unsafe=1 </code> in all subsequent event calls. </p> </td> 
   </tr> 
  </tbody> 
 </table>

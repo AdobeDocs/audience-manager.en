@@ -28,30 +28,30 @@ When creating a [!DNL URL] destination, you can insert the following macros into
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> %alias%</span> </p> </td> 
-   <td colname="col2"> <p>Required. </p> <p>Defines the location of the mapped segment value in a destination URL. Usually this is the <span class="varname"> Segment ID</span>, but could also be the integration code. </p> </td> 
+   <td colname="col1"> <p> <code> %alias%</code> </p> </td> 
+   <td colname="col2"> <p>Required. </p> <p>Defines the location of the mapped segment value in a destination URL. Usually this is the <i>Segment ID</i>, but could also be the integration code. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> %did%</span> </p> </td> 
+   <td colname="col1"> <p> <code> %did%</code> </p> </td> 
    <td colname="col2"> <p>Inserts the user's <span class="keyword"> Audience Manager</span> ID into the destination URL. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph">%dpid_<span class="varname"> data source id</span>%</span> </p> </td> 
-   <td colname="col2"> <p>The <span class="varname"> data source id</span> corresponds to the identifier for a data source passed in to the macro. </p> <p>Let's look at how this works in a simple example. In this case, we have an <span class="keyword"> Audience Manager</span> partner with the following IDs and conditions: </p> 
+   <td colname="col1"> <p> <code>%dpid_<i>data source id</i>%</code> </p> </td> 
+   <td colname="col2"> <p>The <i>data source id</i> corresponds to the identifier for a data source passed in to the macro. </p> <p>Let's look at how this works in a simple example. In this case, we have an <span class="keyword"> Audience Manager</span> partner with the following IDs and conditions: </p> 
     <ul id="ul_697508B437EB4090B121AFA5D519AFBE"> 
-     <li id="li_32D9F72A7D1543A892DC7E1529E98A96">Data source ID: <span class="codeph"> 1</span> </li> 
-     <li id="li_099F5B63D2244B5AADA9B26CB6152E6B">An internal customer ID: <span class="codeph"> CustomerABC</span> </li> 
-     <li id="li_0D9FE501C16444DDB388C8E934E5A8C6">Declared ID: The partner wants to pass in these values as the declared ID <span class="codeph"> 1:CustomerABC</span>. </li> 
-    </ul> <p>To do this with the <span class="codeph">%dpid_<span class="varname"> data source id</span>%</span>, the <span class="keyword"> Audience Manager</span> partner would format the macro like this: </p> 
+     <li id="li_32D9F72A7D1543A892DC7E1529E98A96">Data source ID: <code> 1</code> </li> 
+     <li id="li_099F5B63D2244B5AADA9B26CB6152E6B">An internal customer ID: <code> CustomerABC</code> </li> 
+     <li id="li_0D9FE501C16444DDB388C8E934E5A8C6">Declared ID: The partner wants to pass in these values as the declared ID <code> 1:CustomerABC</code>. </li> 
+    </ul> <p>To do this with the <code>%dpid_<i>data source id</i>%</code>, the <span class="keyword"> Audience Manager</span> partner would format the macro like this: </p> 
     <ul class="simplelist"> 
-     <li> <span class="codeph"> %dpid_1%</span> </li> 
-    </ul> <p>The macro will replace <span class="codeph"> 1</span> with <span class="codeph"> CustomerABC</span>. </p> <p> 
+     <li> <code> %dpid_1%</code> </li> 
+    </ul> <p>The macro will replace <code> 1</code> with <code> CustomerABC</code>. </p> <p> 
      <draft-comment>
        Based on AAM-22193 https://jira.corp.adobe.com/browse/AAM-22193 
      </draft-comment> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> %http_proto%</span> </p> </td> 
+   <td colname="col1"> <p><code> %http_proto%</code> </p> </td> 
    <td colname="col2"> <p>Detects the protocol used in the parent webpage and inserts it into the destination URL. For example: 
      <lines></lines> 
      <ul id="ul_026F56EC46E94D9EB1153557C0F65325"> 
@@ -60,19 +60,19 @@ When creating a [!DNL URL] destination, you can insert the following macros into
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> %mcid%</span> </p> </td> 
+   <td colname="col1"> <p><code> %mcid%</code> </p> </td> 
    <td colname="col2"> <p>Inserts the <span class="keyword"> Experience Cloud</span> ID into the destination URL. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> %region%</span> </p> </td> 
+   <td colname="col1"> <p><code> %region%</code> </p> </td> 
    <td colname="col2"> <p>Inserts the <span class="wintitle"> Data Collection Server (DCS)</span> region into the destination URL. In order to minimize latency, when the visitor makes an HTTP call to <span class="keyword"> Audience Manager</span>, they are being redirected to the closest <span class="wintitle"> DCS</span> datacenter. This is achieved through DNS, which is able to detect the visitor's location and direct them to the appropriate datacenter. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> %rnd%</span> </p> </td> 
+   <td colname="col1"> <p> <code> %rnd%</code> </p> </td> 
    <td colname="col2"> <p>Performs a cache busting function by inserting a random number into the destination URL. This prevents browsers from serving cached content. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> %timestamp%</span> </p> </td> 
+   <td colname="col1"> <p> <code> %timestamp%</code> </p> </td> 
    <td colname="col2"> <p>Inserts a UNIX timestamp into the destination URL to prevent browsers from serving cached content. </p> </td> 
   </tr> 
  </tbody> 

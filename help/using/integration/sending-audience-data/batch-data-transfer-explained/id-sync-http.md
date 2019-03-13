@@ -44,16 +44,16 @@ The [!DNL URL] for your inbound ID synchronization call should contain variables
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> &lt;VENDOR_ID&gt;</span> </span> </td> 
+   <td colname="col1"> <code> <i>&lt;VENDOR_ID&gt;</i> </code> </td> 
    <td colname="col2"> <p>Unique ID for the content provider (assigned by <span class="keyword"> Audience Manager</span>). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> &lt;VENDOR_UUID&gt;</span> </span> </td> 
+   <td colname="col1"> <code> <i>&lt;VENDOR_UUID&gt;</i> </code> </td> 
    <td colname="col2"> <p>URL (Percent) Encoded representation of your Unique User ID. In addition to encoding reserved ASCII characters, any non-ASCII characters should be percent encoded based on the UTF-8 character encoding table. </p> <p>For more information, see the <a href="https://www.url-encode-decode.com" format="http" scope="external"> URL Encode/Decode Online</a> website. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> &lt;REDIRECT_URL&gt;</span> </span> </td> 
-   <td colname="col2"> <p>An encoded URL redirect with the macro <span class="codeph"> ${DD_UUID}</span> embedded within it. </p> <p>Note:  Added only when the content provider initiates the call. </p> </td> 
+   <td colname="col1"> <code> <i>&lt;REDIRECT_URL&gt;</i> </code> </td> 
+   <td colname="col2"> <p>An encoded URL redirect with the macro <code> ${DD_UUID}</code> embedded within it. </p> <p>Note:  Added only when the content provider initiates the call. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -97,9 +97,9 @@ Column header labels defined.
    <td colname="col1"> <p> <span class="term"> traitType</span> </p> </td> 
    <td colname="col2"> <p>A string that identifies the trait type. Options include: </p> 
     <ul id="ul_AB5B4F87B14241DCBBE44B0B7BD4EF72"> 
-     <li id="li_21F9412CDDC64FAA888C6542E284C436"> <span class="codeph"> RULE_BASED_TRAIT</span> </li> 
-     <li id="li_5A5EA9A1EC5C45C991875EBBE7979A5A"> <span class="codeph"> ON_BOARDED_TRAIT </span> </li> 
-     <li id="li_F38B58ADE3324E97A71E3F94F11945BE"> <span class="codeph"> SEGMENT</span> </li> 
+     <li id="li_21F9412CDDC64FAA888C6542E284C436"> <code> RULE_BASED_TRAIT</code> </li> 
+     <li id="li_5A5EA9A1EC5C45C991875EBBE7979A5A"> <code> ON_BOARDED_TRAIT </code> </li> 
+     <li id="li_F38B58ADE3324E97A71E3F94F11945BE"> <code> SEGMENT</code> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

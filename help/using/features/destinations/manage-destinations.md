@@ -205,13 +205,13 @@ In [!UICONTROL Destination Builder], the [!UICONTROL Configuration section] cont
      </ul> </p> <p> Leave the <span class="wintitle"> Cookie Domain</span> field blank to set a cookie on all domains. This is the default setting. </p> <p>To set cookies on a specific domain and sub-domains: </p> <p> 
      <ul id="ul_F25BC0D8C40641A2A5CA338E5C258435"> 
       <li id="li_E236D8DEE4F24F9BBA36074F7049C12C">Type the name of the domain in the <span class="wintitle"> Cookie Domain</span> field. </li> 
-      <li id="li_0471C198EE344DE5963A3C2F70B9E78B">Start the domain name with a period. For example, <span class="codeph"> .somedomain.com</span>. </li> 
-      <li id="li_73D06F2BEF45487280C2245E1F6B8ED0">The <span class="codeph"> https://www</span> prefix is not required. </li> 
+      <li id="li_0471C198EE344DE5963A3C2F70B9E78B">Start the domain name with a period. For example, <code> .somedomain.com</code>. </li> 
+      <li id="li_73D06F2BEF45487280C2245E1F6B8ED0">The <code> https://www</code> prefix is not required. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Example</b> </p> </td> 
-   <td colname="col2"> <p>As a simple example, let's say we have a fictitious site called sports.com. Sports.com has domains for golf, baseball, and football. To set a cookie in all the sports domains, you would type that in the <span class="wintitle"> Cookie Domain</span> box as shown below: </p> <p> <img src="assets/sports-domain.png" id="image_8883477BB3B543648C97A441AD34C6DE" /> </p> <p>This tells <span class="keyword"> Audience Manager</span> to set a cookie in any domain that contains the pattern <span class="varname"> something</span>.sports.com. See below for a more complex set of examples. </p> </td> 
+   <td colname="col2"> <p>As a simple example, let's say we have a fictitious site called sports.com. Sports.com has domains for golf, baseball, and football. To set a cookie in all the sports domains, you would type that in the <span class="wintitle"> Cookie Domain</span> box as shown below: </p> <p> <img src="assets/sports-domain.png" id="image_8883477BB3B543648C97A441AD34C6DE" /> </p> <p>This tells <span class="keyword"> Audience Manager</span> to set a cookie in any domain that contains the pattern <code><i>something</i></code>.sports.com. See below for a more complex set of examples. </p> </td> 
   </tr> 
  </tbody> 
 </table>

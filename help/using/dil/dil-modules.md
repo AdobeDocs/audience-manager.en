@@ -49,37 +49,37 @@ r_dil_sc_init.xml
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td colname="col1"> <span class="codeph"> names </span> </td> 
+   <td colname="col1"> <code> names </code> </td> 
    <td colname="col2"> String </td> 
-   <td colname="col3"> <p>An array of strings that contains un-enumerated <span class="keyword"> Analytics </span> variables like <span class="codeph"> pageName </span>, <span class="codeph"> channel </span>, <span class="codeph"> campaign </span>, <span class="codeph"> product </span>, etc. </p> </td> 
+   <td colname="col3"> <p>An array of strings that contains un-enumerated <span class="keyword"> Analytics </span> variables like <code> pageName </code>, <code> channel </code>, <code> campaign </code>, <code> product </code>, etc. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <span class="codeph"> iteratedNames </span> </td> 
+   <td colname="col1"> <code> iteratedNames </code> </td> 
    <td colname="col2"> Object </td> 
-   <td colname="col3"> <p>An array of objects that contains enumerated <span class="keyword"> Analytics </span> variables like props and evars (e.g. <span class="codeph"> prop1 </span>, <span class="codeph"> prop2 </span>, <span class="codeph"> evar3 </span>, <span class="codeph"> evar4 </span>). </p> </td> 
+   <td colname="col3"> <p>An array of objects that contains enumerated <span class="keyword"> Analytics </span> variables like props and evars (e.g. <code> prop1 </code>, <code> prop2 </code>, <code> evar3 </code>, <code> evar4 </code>). </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <span class="codeph"> maxIndex </span> </td> 
+   <td colname="col1"> <code> maxIndex </code> </td> 
    <td colname="col2"> Integer </td> 
-   <td colname="col3"> <p>Indicates how many iterated names you want to return. For example, to return two props or evars, set <span class="codeph"> maxIndex:2 </span>. </p> </td> 
+   <td colname="col3"> <p>Indicates how many iterated names you want to return. For example, to return two props or evars, set <code> maxIndex:2 </code>. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <span class="codeph"> siteCatalystReportingSuite </span> </td> 
+   <td colname="col1"> <code> siteCatalystReportingSuite </code> </td> 
    <td colname="col2"> Object </td> 
    <td colname="col3"> <p>An object that represents the <span class="keyword"> Analytics </span> object. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <span class="codeph"> dilInstance </span> </td> 
+   <td colname="col1"> <code> dilInstance </code> </td> 
    <td colname="col2"> Object </td> 
    <td colname="col3"> <p>An object that represents <span class="wintitle"> DIL </span>. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <span class="codeph"> options </span> </td> 
+   <td colname="col1"> <code> options </code> </td> 
    <td colname="col2"> Object </td> 
    <td colname="col3"> <p>Additional options: </p> 
     <ul id="ul_F4DFA5351BB5427B8CBF600A0A4A21A9"> 
-     <li id="li_659ECE5E63834A21A2D9698A1444FCA6"> <p> <span class="codeph"> replaceContextDataPeriodsWith </span> </p> <p>If you do not specify something else, periods are replaced with the default underscore ( _ ). </p> <p>For example <span class="codeph"> s.contextData = {abc.def = '123'} </span>would result in <span class="codeph"> c_contextData_abc_def=123 </span> in the event call query string. </p> <p>This option is available only in <span class="wintitle"> DIL </span> version 5.0 or later. </p> </li> 
-     <li id="li_1C969DD8FC2F43A0A9281D9810A70C3A"> <p> <span class="codeph"> filterFromContextVariables </span> </p> <p>For example, <span class="codeph"> filterFromContextVariables: ['email', 'zip', 'accountNumber'] </span> would result in the array of strings being filtered from the data collection of context data. This option excludes Personally Identifiable Information (PII). </p> </li> 
+     <li id="li_659ECE5E63834A21A2D9698A1444FCA6"> <p> <code> replaceContextDataPeriodsWith </code> </p> <p>If you do not specify something else, periods are replaced with the default underscore ( _ ). </p> <p>For example <code> s.contextData = {abc.def = '123'} </code>would result in <code> c_contextData_abc_def=123 </code> in the event call query string. </p> <p>This option is available only in <span class="wintitle"> DIL </span> version 5.0 or later. </p> </li> 
+     <li id="li_1C969DD8FC2F43A0A9281D9810A70C3A"> <p> <code> filterFromContextVariables </code> </p> <p>For example, <code> filterFromContextVariables: ['email', 'zip', 'accountNumber'] </code> would result in the array of strings being filtered from the data collection of context data. This option excludes Personally Identifiable Information (PII). </p> </li> 
     </ul> <p> </p> </td> 
   </tr> 
  </tbody> 
@@ -169,16 +169,16 @@ The `GA.submitUniversalAnalytics();` function accepts the following properties.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> gaObject </span> </p> </td> 
-   <td colname="col2"> <p>The global variable for your instance of <span class="keyword"> Google Analytics </span>. This is usually <span class="codeph"> ga </span> by default, unless you've customized your <span class="keyword"> Google Analytics </span> code. </p> </td> 
+   <td colname="col1"> <p> <code> gaObject </code> </p> </td> 
+   <td colname="col2"> <p>The global variable for your instance of <span class="keyword"> Google Analytics </span>. This is usually <code> ga </code> by default, unless you've customized your <span class="keyword"> Google Analytics </span> code. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> dilInstance </span> </p> </td> 
+   <td colname="col1"> <p> <code> dilInstance </code> </p> </td> 
    <td colname="col2"> <p>The variable that represents your instance of <span class="wintitle"> DIL </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> internalPropertyName </span> </p> </td> 
-   <td colname="col2"> <p> <i>(Optional)</i> In the <span class="codeph"> analytics.js </span> library, the internal property is the minified variable <span class="codeph"> 'b' </span>. This variable holds <span class="keyword"> Google Analytics </span> data. </p> <p>This property is optional because you don't need to set it unless Google changes the name of their internal variable. For example, if this minified variable changed to <span class="codeph"> 'a' </span>, you would call <span class="codeph"> GA.submitUniversalAnalytics(); </span> like this: </p> <p> <span class="codeph"> DIL.modules.GAsubmitUniversalAnalytics(ga, DilInstance, 'a'); </span> </p> </td> 
+   <td colname="col1"> <p> <code> internalPropertyName </code> </p> </td> 
+   <td colname="col2"> <p> <i>(Optional)</i> In the <code> analytics.js </code> library, the internal property is the minified variable <code> 'b' </code>. This variable holds <span class="keyword"> Google Analytics </span> data. </p> <p>This property is optional because you don't need to set it unless Google changes the name of their internal variable. For example, if this minified variable changed to <code> 'a' </code>, you would call <code> GA.submitUniversalAnalytics(); </code> like this: </p> <p> <code> DIL.modules.GAsubmitUniversalAnalytics(ga, DilInstance, 'a'); </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>

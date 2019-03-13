@@ -66,54 +66,54 @@ Remember, in order to use this information for audience creation and segmentatio
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> d_event</span> </p> </td> 
+   <td colname="col1"> <p> <code> d_event</code> </p> </td> 
    <td colname="col2"> <p>Indicates the event type from DCM. </p> <p>Accepted values are: </p> <p> 
      <ul id="ul_58EB40E458844DA185ABAF160ADAF03E"> 
-      <li id="li_71772CC106F74F4788E1784CC3D70BD3"> <span class="codeph"> d_event = imp</span> for impressions. </li> 
-      <li id="li_33A629A32B87400F93269581154D566F"> <span class="codeph"> d_event = click</span> for clicks. </li> 
-      <li id="li_553B0C0F3D304193929230D54830EBCA"> <span class="codeph"> d_event = conv</span> for conversions. </li> 
+      <li id="li_71772CC106F74F4788E1784CC3D70BD3"> <code> d_event = imp</code> for impressions. </li> 
+      <li id="li_33A629A32B87400F93269581154D566F"> <code> d_event = click</code> for clicks. </li> 
+      <li id="li_553B0C0F3D304193929230D54830EBCA"> <code> d_event = conv</code> for conversions. </li> 
      </ul> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> imp, click, conv</span> </p> </td> 
+   <td colname="col3"> <p> <code> imp, click, conv</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> d_conversion</span> </p> </td> 
-   <td colname="col2"> <p>Available only for conversion events. </p> <p>Represents the numerical ID for the conversion activity in [!DNL DCM]. This field maps to the Activity ID from [!DNL DCM]. </p> <p> <p>Tip: You can capture multiple or specific conversion activities from [!DNL DCM]. Create traits using <span class="codeph"> d_conversion = activity ID</span> for each conversion activity from [!DNL DCM]. </p> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> 24122</span> </p> </td> 
+   <td colname="col1"> <p> <code> d_conversion</code> </p> </td> 
+   <td colname="col2"> <p>Available only for conversion events. </p> <p>Represents the numerical ID for the conversion activity in [!DNL DCM]. This field maps to the Activity ID from [!DNL DCM]. </p> <p> <p>Tip: You can capture multiple or specific conversion activities from [!DNL DCM]. Create traits using <code> d_conversion = activity ID</code> for each conversion activity from [!DNL DCM]. </p> </p> </td> 
+   <td colname="col3"> <p> <code> 24122</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> d_conversionType</span> </p> </td> 
+   <td colname="col1"> <p> <code> d_conversionType</code> </p> </td> 
    <td colname="col2"> <p>Available only for conversion events. </p> <p>This field maps to the Conversion ID in [!DNL DCM]. Indicates the activity preceding the user conversion from [!DNL DCM]. </p> <p>Accepted values are: </p> <p> 
      <ul id="ul_2256294F1C6F448B9F269D00D4DFEE65"> 
-      <li id="li_29D3FF8919B7404297E80BACA913117A"> <span class="codeph"> 1</span> for post-click conversions. </li> 
-      <li id="li_B5250A63A2C1413FAF1FDC8272BFFB97"> <span class="codeph"> 2</span> for post-impression conversions. </li> 
-      <li id="li_81007A984F554932AC3354E41A42D57B"> <span class="codeph"> 0</span> for un-matched conversions. The conversion cannot be matched to a previous activity. </li> 
+      <li id="li_29D3FF8919B7404297E80BACA913117A"> <code> 1</code> for post-click conversions. </li> 
+      <li id="li_B5250A63A2C1413FAF1FDC8272BFFB97"> <code> 2</code> for post-impression conversions. </li> 
+      <li id="li_81007A984F554932AC3354E41A42D57B"> <code> 0</code> for un-matched conversions. The conversion cannot be matched to a previous activity. </li> 
      </ul> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> 0,1,2</span> </p> </td> 
+   <td colname="col3"> <p> <code> 0,1,2</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> d_adsrc</span> </p> </td> 
+   <td colname="col1"> <p> <code> d_adsrc</code> </p> </td> 
    <td colname="col2"> <p>Advertiser ID. This field maps to the Advertiser Group ID from [!DNL DCM]. </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> 134243</span> </p> </td> 
+   <td colname="col3"> <p> <code> 134243</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> d_bu</span> </p> </td> 
+   <td colname="col1"> <p> <code> d_bu</code> </p> </td> 
    <td colname="col2"> <p>Business Unit ID. This field maps to the Advertiser ID from [!DNL DCM]. </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> 563332</span> </p> </td> 
+   <td colname="col3"> <p> <code> 563332</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> d_campaign</span> </p> </td> 
+   <td colname="col1"> <p> <code> d_campaign</code> </p> </td> 
    <td colname="col2"> <p>The Campaign ID provided by [!DNL DCM]. </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> 7892520</span> </p> </td> 
+   <td colname="col3"> <p> <code> 7892520</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> d_creative</span> </p> </td> 
+   <td colname="col1"> <p> <code> d_creative</code> </p> </td> 
    <td colname="col2"> <p>The Creative ID provided by [!DNL DCM]. </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> 224221</span> </p> </td> 
+   <td colname="col3"> <p> <code> 224221</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> d_src</span> </p> </td> 
+   <td colname="col1"> <p> <code> d_src</code> </p> </td> 
    <td colname="col2"> <p>The ID of the data source you use to capture [!DNL DCM] data. See <a href="../../features/manage-datasources.md#concept_3B7696B3EC77416492D3B99EBD79EA44"> How to Create a Data Source</a>. </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> 743</span> </p> </td> 
+   <td colname="col3"> <p> <code> 743</code> </p> </td> 
   </tr>
  </tbody>
 </table>

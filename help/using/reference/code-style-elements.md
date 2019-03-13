@@ -20,23 +20,23 @@ These elements identify code options and variables used throughout the help docu
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> variable</span> </span> </p> </td> 
+   <td colname="col1"> <p> <code> <i>variable</i> </code> </p> </td> 
    <td colname="col2"> <p>Variables appear in <i>italics</i>. Substitute the appropriate value for the variable name. </p> <p>For visual clarity, sometimes variables and other code elements appear between &lt; &gt; brackets. You do not need to use these symbols in your code. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> [optional]</span> </p> </td> 
+   <td colname="col1"> <p> <code> [optional]</code> </p> </td> 
    <td colname="col2"> <p>Items in square brackets are optional. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> (this|that) </span> </p> </td> 
+   <td colname="col1"> <p> <code> (this|that) </code> </p> </td> 
    <td colname="col2"> <p>Items in parenthesis indicate a Boolean <span class="wintitle"> OR</span> choice. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> literal</span> </p> </td> 
+   <td colname="col1"> <p> <code> literal</code> </p> </td> 
    <td colname="col2"> <p>Include text or code exactly as shown. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt; &gt;</span> </p> </td> 
+   <td colname="col1"> <p> <code> &lt; &gt;</code> </p> </td> 
    <td colname="col2"> <p>Sometimes variables and other code elements appear between &lt; &gt; brackets. These are used to improve clarity in long code blocks. Unless specified, do not include these symbols in a data file name or its contents. </p> </td> 
   </tr> 
  </tbody> 

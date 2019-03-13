@@ -31,7 +31,7 @@ Some browsers, and most mobile devices, do not accept third-party cookies. This 
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Event Call</b> </td> 
-   <td colname="col2"> <p>To work, you need <span class="wintitle"> DIL </span> and the <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Experience Cloud ID service </a> code on the page. <span class="wintitle"> DIL </span> gets <span class="wintitle"> declared IDs </span> from the <span class="codeph"> setVisitorID </span> function provided by the <span class="keyword"> Experience Cloud ID service </span> and passes that on to <span class="keyword"> Audience Manager </span>. </p> </td> 
+   <td colname="col2"> <p>To work, you need <span class="wintitle"> DIL </span> and the <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Experience Cloud ID service </a> code on the page. <span class="wintitle"> DIL </span> gets <span class="wintitle"> declared IDs </span> from the <code> setVisitorID </code> function provided by the <span class="keyword"> Experience Cloud ID service </span> and passes that on to <span class="keyword"> Audience Manager </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Match ID</b> </td> 
@@ -77,15 +77,15 @@ For a description and syntax, see [URL Variables and Syntax for Declared IDs](..
  <tbody> 
   <tr> 
    <td colname="col1"> <p>A data provider ID and user ID. </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> https:// <span class="varname"> domain name </span>/demoptout.jpg?d_cid=123%01987... </span> </p> </td> 
+   <td colname="col2"> <p> <code> https://<i>domain name</i>/demoptout.jpg?d_cid=123%01987... </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>An integration code and user ID. </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> https:// <span class="varname"> domain name </span>/demoptout?d_cid_ic=456%01321... </span> </p> </td> 
+   <td colname="col2"> <p> <code> https://<i>domain name</i>/demoptout?d_cid_ic=456%01321... </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Multiple <span class="codeph"> d_cid </span> and <span class="codeph"> d_cid_ic </span> key-value pairs. </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> https:// <span class="varname"> domain name </span>/demoptout?d_cid=123%01987&amp;d_cid_ic=456%01321... </span> </p> </td> 
+   <td colname="col1"> <p>Multiple <code> d_cid </code> and <code> d_cid_ic </code> key-value pairs. </p> </td> 
+   <td colname="col2"> <p> <code> https://<i>domain name</i>/demoptout?d_cid=123%01987&amp;d_cid_ic=456%01321... </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -103,16 +103,16 @@ These methods still work but are considered deprecated. This information is prov
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> d_uuid </span> only </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> https:// domain/demoptout.jpg?d_uuid= AAM ID </span> </p> </td> 
+   <td colname="col1"> <p> <code> d_uuid </code> only </p> </td> 
+   <td colname="col2"> <p> <code> https://<i>domain</i>/demoptout.jpg?d_uuid=AAM ID </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Partner level opt-out </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> https:// /demoptout.jpg?d_dpuuid= user ID&amp;d_dpid= data provider ID </span> </p> <p>A partner level opt-out gets stored for the latest mapping of this <span class="codeph"> dpid </span> + <span class="codeph"> dpuuid </span> pair to an AAM UUID. If there is no previously existing mapping, Audience Manager checks whether the request contains an AAM UUID in the cookie, and if it does, uses that for storing the opt-out. Otherwise, Audience Manager generates a new AAM UUID and stores the opt-out under it. </p> </td> 
+   <td colname="col2"> <p> <code> https://demoptout.jpg?d_dpuuid= user ID&amp;d_dpid= data provider ID </code> </p> <p>A partner level opt-out gets stored for the latest mapping of this <code> dpid </code> + <code> dpuuid </code> pair to an AAM UUID. If there is no previously existing mapping, Audience Manager checks whether the request contains an AAM UUID in the cookie, and if it does, uses that for storing the opt-out. Otherwise, Audience Manager generates a new AAM UUID and stores the opt-out under it. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> d_dpuuid </span> + <span class="codeph"> d_dpid </span> and explicit <span class="codeph"> d_uuid </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> https:// domain/demoptout.jpg?d_uuid= user ID&amp;d_dpuuid= data provider's user ID&amp; <span class="varname"> d_dpid=data provider ID </span> </span> </p> <p> <span class="codeph"> d_uuid </span> always takes precedence. If the <span class="codeph"> dpid </span> + <span class="codeph"> dpuuid </span> combination maps to another AAM UUID, the opt-out is stored under the AAM UUID passed in the request ( <span class="codeph"> d_uuid </span>). </p> </td> 
+   <td colname="col1"> <p> <code> d_dpuuid </code> + <code> d_dpid </code> and explicit <code> d_uuid </code> </p> </td> 
+   <td colname="col2"> <p> <code> https://<i>domain</i>/demoptout.jpg?d_uuid= user ID&amp;d_dpuuid= data provider's user ID&amp;<i>d_dpid=data provider ID</i> </code> </p> <p> <code> d_uuid </code> always takes precedence. If the <code> dpid </code> + <code> dpuuid </code> combination maps to another AAM UUID, the opt-out is stored under the AAM UUID passed in the request ( <code> d_uuid </code>). </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -141,12 +141,12 @@ In each key-value pair:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> d_cid = <span class="varname"> data provider ID </span> %01 <span class="varname"> user ID </span> </span> </p> </td> 
-   <td colname="col2"> <p>Contains a data provider ID and an associated unique user ID in a single key-value pair. <span class="codeph"> d_cid </span> replaces <span class="codeph"> d_dpid </span> and <span class="codeph"> d_dpuuid </span>, which are considered deprecated, but still supported. See <a href="../reference/cid.md#concept_E9DE716F22E8491AB27057DB92B79081"> CID Replaces DPID and DPUUID </a>. </p> </td> 
+   <td colname="col1"> <p> <code> d_cid =<i>data provider ID</i> %01<i>user ID</i> </code> </p> </td> 
+   <td colname="col2"> <p>Contains a data provider ID and an associated unique user ID in a single key-value pair. <code> d_cid </code> replaces <code> d_dpid </code> and <code> d_dpuuid </code>, which are considered deprecated, but still supported. See <a href="../reference/cid.md#concept_E9DE716F22E8491AB27057DB92B79081"> CID Replaces DPID and DPUUID </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> d_cid_ic = <span class="varname"> integration code </span> %01 <span class="varname"> user ID </span> </span> </p> </td> 
-   <td colname="col2"> <p>Contains an integration code and an associated unique user ID in a single key-value pair. <span class="codeph"> d_cid_ic </span> replaces <span class="codeph"> d_dpid </span> and <span class="codeph"> d_dpuuid </span>, which are deprecated, but still supported. See <a href="../reference/cid.md#concept_E9DE716F22E8491AB27057DB92B79081"> CID Replaces DPID and DPUUID </a>. </p> </td> 
+   <td colname="col1"> <p> <code> d_cid_ic =<i>integration code</i> %01<i>user ID</i> </code> </p> </td> 
+   <td colname="col2"> <p>Contains an integration code and an associated unique user ID in a single key-value pair. <code> d_cid_ic </code> replaces <code> d_dpid </code> and <code> d_dpuuid </code>, which are deprecated, but still supported. See <a href="../reference/cid.md#concept_E9DE716F22E8491AB27057DB92B79081"> CID Replaces DPID and DPUUID </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -165,15 +165,15 @@ Given these key-value pairs and their required syntax, you would make event call
  <tbody> 
   <tr> 
    <td colname="col1"> <p>A data provider ID and user ID. </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> https:// <span class="varname"> domain name </span>/event?d_cid=123%01987... </span> </p> </td> 
+   <td colname="col2"> <p> <code> https://<i>domain name</i>/event?d_cid=123%01987... </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>An integration code and user ID. </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> https:// <span class="varname"> domain name </span>/event?d_cid_ic=456%01321... </span> </p> </td> 
+   <td colname="col2"> <p> <code> https://<i>domain name</i>/event?d_cid_ic=456%01321... </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Multiple <span class="codeph"> d_cid </span> and <span class="codeph"> d_cid_ic </span> key-value pairs. </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> https:// <span class="varname"> domain name </span>/event?d_cid=123%01987&amp;d_cid_ic=456%01321... </span> </p> </td> 
+   <td colname="col1"> <p>Multiple <code> d_cid </code> and <code> d_cid_ic </code> key-value pairs. </p> </td> 
+   <td colname="col2"> <p> <code> https://<i>domain name</i>/event?d_cid=123%01987&amp;d_cid_ic=456%01321... </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -218,12 +218,12 @@ The following table describes the legacy variables used by the `declaredId` obje
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> dpid </span> </td> 
+   <td colname="col1"> <code> dpid </code> </td> 
    <td colname="col2"> String </td> 
    <td colname="col3"> <p>Data partner ID assigned by Audience Manager. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> dpuuid </span> </td> 
+   <td colname="col1"> <code> dpuuid </code> </td> 
    <td colname="col2"> String </td> 
    <td colname="col3"> <p>The data provider's unique ID for the user. </p> </td> 
   </tr> 

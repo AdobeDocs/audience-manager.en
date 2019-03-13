@@ -40,10 +40,10 @@ Code in *italics* represents a variable placeholder.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>3. Read the <span class="keyword"> ID service</span> cookie</b> </p> </td> 
-   <td colname="col2"> <p>The <span class="keyword"> ID service</span> stores the user and region ID in the AMCV cookie. The full cookie name is <span class="codeph">AMCV_<i><span class="varname"> ###</span></i>@AdobeOrg</span>. The <span class="codeph"><span class="varname"> ###</span></span> elements are placeholders for your organization ID. See <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a> for details. </p> <p>Parse the AMCV cookie for these key-value pairs: </p> <p> 
+   <td colname="col2"> <p>The <span class="keyword"> ID service</span> stores the user and region ID in the AMCV cookie. The full cookie name is <code>AMCV_<i>###</i>@AdobeOrg</code>. The <code><i>###</i></code> elements are placeholders for your organization ID. See <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a> for details. </p> <p>Parse the AMCV cookie for these key-value pairs: </p> <p> 
      <ul id="ul_502ECFCDDD084D448B5EDC4E5C0909C1"> 
-      <li id="li_662FFA36AC854E699D50A183B161D654"> <span class="codeph">mid=<span class="varname"> user ID</span></span>: This key-value pair holds the <span class="keyword"> Experience Cloud</span> user ID. </li> 
-      <li id="li_65422233187B4217B50DC52DBD58F404"> <span class="codeph">aamlh=<span class="varname"> region ID</span></span>: This key-value pair holds the region ID (sometimes called a <span class="term"> location hint</span>) which is associated with a regional server name. </li> 
+      <li id="li_662FFA36AC854E699D50A183B161D654"> <code>mid=<i>user ID</i></code>: This key-value pair holds the <span class="keyword"> Experience Cloud</span> user ID. </li> 
+      <li id="li_65422233187B4217B50DC52DBD58F404"> <code>aamlh=<i>region ID</i></code>: This key-value pair holds the region ID (sometimes called a <span class="term"> location hint</span>) which is associated with a regional server name. </li> 
      </ul> </p> <p>You can make calls to the <span class="wintitle"> DCS</span> once you have the user and region IDs. </p> </td> 
   </tr> 
   <tr> 

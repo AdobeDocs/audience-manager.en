@@ -40,15 +40,15 @@ The following table defines the basic components of a simple [!UICONTROL DCS] ca
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> domain alias.demdex.net</span> </p> </td> 
+   <td colname="col1"> <p> <code> domain alias.demdex.net</code> </p> </td> 
    <td colname="col2"> <p>This part of the call contains: </p> <p> 
      <ul id="ul_3EDA9C7BA6794D06BCB07A75A9BD2372"> 
-      <li id="li_74624CA78D6F4536A8164AE1FA1DECB9">Your domain alias assigned by <span class="keyword"> Audience Manager</span> (e.g., <span class="codeph"> my_domain.demdex.net</span>). </li> 
-      <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">The destination domain, which is always <span class="codeph"> demdex.net</span>. See <a href="../../../reference/demdex-calls.md#concept_77B3D5A068AE413FA78D190D65AD799F"> Understanding Calls to the Demdex Domain</a>. </li> 
+      <li id="li_74624CA78D6F4536A8164AE1FA1DECB9">Your domain alias assigned by <span class="keyword"> Audience Manager</span> (e.g., <code> my_domain.demdex.net</code>). </li> 
+      <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">The destination domain, which is always <code> demdex.net</code>. See <a href="../../../reference/demdex-calls.md#concept_77B3D5A068AE413FA78D190D65AD799F"> Understanding Calls to the Demdex Domain</a>. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> /event?</span> </p> </td> 
+   <td colname="col1"> <p> <code> /event?</code> </p> </td> 
    <td colname="col2"> <p>This part of the call: </p> <p> 
      <ul id="ul_6332444A305A4F12A7CBE471CA508516"> 
       <li id="li_1C5C111B2B0E4621B3FC0C20D6516041">Identifies the call as an event call. </li> 
@@ -56,25 +56,25 @@ The following table defines the basic components of a simple [!UICONTROL DCS] ca
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> key</span> </p> </td> 
+   <td colname="col1"> <p> <code> key</code> </p> </td> 
    <td colname="col2"> <p>A unique identifier in the key-value pair. </p> <p>These key-value pairs use a specific prefix to identify the type of data you're sending to the <span class="wintitle"> DCS</span>. For more information, see <a href="../../../api/dcs-intro/dcs-api-reference/dcs-keys.md#concept_5ACDD7D09D0441A6AC26F7D345CD19D5"> Supported Attributes for DCS API Calls</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> val</span> </p> </td> 
+   <td colname="col1"> <p> <code> val</code> </p> </td> 
    <td colname="col2"> <p>A variable value that belongs to a set defined by a key in the key-value pair. </p> <p>When working with values: </p> <p> 
      <ul id="ul_624DC78759F74AD8920220058E54E083"> 
-      <li id="li_091E5B4820EC4A93B775433E428E74AB">Enclose string data in double quotes (e.g., <span class="codeph"><span class="codeph"> age="41 to 55"</span>)</span>. </li> 
-      <li id="li_C558E3BA6EE34413BBBB962D4CD0D10E">You can pass multiple keys in on a single value (e.g., <i><span class="codeph"><span class="varname"> key</span>=<span class="varname"> val1,val2,val3</span></span></i>). </li> 
+      <li id="li_091E5B4820EC4A93B775433E428E74AB">Enclose string data in double quotes (e.g., <code> age="41 to 55"</code>). </li> 
+      <li id="li_C558E3BA6EE34413BBBB962D4CD0D10E">You can pass multiple keys in on a single value (e.g., <i><code>key</i>=<i>val1,val2,val3</i></code></i>). </li> 
      </ul> </p> <p>See <a href="../../../api/dcs-intro/dcs-api-reference/dcs-key-format.md#reference_D20E71D7090F4F2690F6DFBD5389B000"> Formatting Key-Value Pairs in DCS Calls</a>. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> 
      <ul id="ul_36E2C1A0538D4D2C94DFC1335720A524"> 
-      <li id="li_8902EED431CE4F0189A94868FA52DB1F"> <span class="codeph"> d_dst=1</span> </li> 
-      <li id="li_4B6B29499D444E31808DE0A9AA0442D0"> <span class="codeph"> d_rtbd=json</span> </li> 
-      <li id="li_3430CD0438604B83BE6437E6EC480816"> <span class="codeph">d_cb=<span class="varname"> callback</span></span> </li>
+      <li id="li_8902EED431CE4F0189A94868FA52DB1F"> <code> d_dst=1</code> </li> 
+      <li id="li_4B6B29499D444E31808DE0A9AA0442D0"> <code> d_rtbd=json</code> </li> 
+      <li id="li_3430CD0438604B83BE6437E6EC480816"> <code>d_cb=<i>callback</i></code> </li>
      </ul> </p> </td> 
-   <td colname="col2"> <p>Optional response parameters. </p> <p> None of these are required to send data to the <span class="wintitle"> DCS</span>. However, if you want the <span class="wintitle"> DCS</span> to return a response, you must include <span class="codeph"> d_rtbd=json</span> in your request. </p> <p>See <a href="../../../api/dcs-intro/dcs-api-reference/dcs-keys.md#section_B5B16D42E2004AF3ABCE25FFFEB0FF28"> d_ Key-Value Pairs Defined</a>. </p> </td> 
+   <td colname="col2"> <p>Optional response parameters. </p> <p> None of these are required to send data to the <span class="wintitle"> DCS</span>. However, if you want the <span class="wintitle"> DCS</span> to return a response, you must include <code> d_rtbd=json</code> in your request. </p> <p>See <a href="../../../api/dcs-intro/dcs-api-reference/dcs-keys.md#section_B5B16D42E2004AF3ABCE25FFFEB0FF28"> d_ Key-Value Pairs Defined</a>. </p> </td> 
   </tr>
  </tbody>
 </table>
