@@ -9,7 +9,7 @@ uuid: 3641eac5-b19e-45d5-bc1c-35a23b4bab8c
 
 # CID Replaces DPID and DPUUID{#cid-replaces-dpid-and-dpuuid}
 
-Update your code to use d_cid or d_cid_ic instead of d_dpid and d_dpuuid. The DPID and DPUUID variables will continue to work, but you should consider them deprecated. This includes DPID and DPUUID variants without the d_ prefix.
+Update your code to use `d_cid` or `d_cid_ic` instead of `d_dpid` and `d_dpuuid`. The DPID and DPUUID variables will continue to work, but you should consider them deprecated. This includes DPID and DPUUID variants without the `d_ prefix`.
 
 ## DPID and DPUUID: A Review {#section_8C6B7D86771448A08EC14F527E6687F5}
 

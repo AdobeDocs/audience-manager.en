@@ -57,7 +57,7 @@ Refer to this document for the complete list of Adobe Audience Manager IDs.
    <td colname="col3"> <p><code> 2132-3423vn-343fds-3432r</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>CID, CID_IC </p> </td> 
+   <td colname="col1"> <p>CID, CID_IC </p> </td>
    <td colname="col2"> <p> <b>Customer ID, Customer ID Integration Code</b> </p> <p> <b>The CID and CID_IC key-value pairs <a href="../reference/cid.md#concept_E9DE716F22E8491AB27057DB92B79081"> replace DPID and DPUUID</a>.</b> They provide the same functions as the DPID and DPUUID, but are more efficient because they include the data provider ID and user ID (or integration code) in a single key-value pair. </p> </td> 
    <td colname="col3"> <p><code> 81841%013ad2948b1570a7e408a7cfb7ff4879e4 </code> </p> </td> 
   </tr> 
