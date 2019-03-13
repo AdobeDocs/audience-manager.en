@@ -11,7 +11,7 @@ uuid: 65833cfd-768e-4b16-95c5-debd8411df38
 
 Collect data sent from FLA files to Analytics and work with that information in Audience Manager.
 
-## <wintitle> Flash DIL </wintitle> {#concept_4DEAEE702A344431960F4CD5549E64A5}
+## Flash DIL {#concept_4DEAEE702A344431960F4CD5549E64A5}
 
 Collect data sent from FLA files to Analytics and work with that information in Audience Manager.
 
@@ -23,7 +23,7 @@ c_flash_dil_toc.xml
 
 [!UICONTROL Flash DIL] is an [!DNL ActionScript] code library that lets you work with video playback data in Audience Manager. [!DNL Flash DIL] works by capturing SWF content the Adobe [!UICONTROL AppMeasurement] library passes in to Analytics. [!DNL Flash DIL] sends that data to the separate [!UICONTROL DIL] JavaScript data collection module, which passes that information to Audience Manager. Analytics data ( [!UICONTROL Props], [!UICONTROL eVars], events, etc.) captured from the [!DNL FLA] file is available in Audience Manager as traits or unused signals. 
 
-## Requirements for <wintitle> Flash DIL </wintitle> Data Collection {#concept_4ABD8B608CCE4920B65DDD7C8319D2A3}
+## Requirements for Flash DIL Data Collection {#concept_4ABD8B608CCE4920B65DDD7C8319D2A3}
 
 General implementation and code-related requirements.
 
@@ -51,7 +51,7 @@ The `AllowScriptAccess` in HTML code that loads a SWF file controls the ability 
 
 Try to place the JS [!UICONTROL DIL] data collection module on the page so it loads before the [!DNL FLA] file. When the [!DNL FLA] file loads first, before [!UICONTROL DIL] data collection is ready, you can miss the initial data signals that [!UICONTROL Flash DIL] sends to that module. However, once instantiated, the [!UICONTROL DIL] data collection module will capture all subsequent SWF file data passed in by [!UICONTROL Flash DIL]. 
 
-## Data Collected by <wintitle> Flash DIL </wintitle> {#reference_C04E633B1E5A4674A808C4CD8A35B48A}
+## Data Collected by Flash DIL {#reference_C04E633B1E5A4674A808C4CD8A35B48A}
 
 [!UICONTROL Flash DIL] captures page view, link tracking, media tracking, and other media view events from the Adobe [!UICONTROL AppMeasurement] library.
 
@@ -99,7 +99,7 @@ Data from these parameters is collected by default:
 >
 >* [AppMeasurement Flash, Flex, and OSMF Implementation Guide](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/flash/)
 
-## <wintitle> Flash DIL </wintitle> Data in Audience Manager {#concept_6CB7727B74A5432DA2FE3B8386441F12}
+## Flash DIL Data in Audience Manager {#concept_6CB7727B74A5432DA2FE3B8386441F12}
 
 The [!UICONTROL Flash DIL] module turns Adobe AppMeasurement data into Audience Management traits and unused signals.
 
@@ -137,7 +137,7 @@ Audience Manager accepts Analytics [!UICONTROL Props], [!UICONTROL eVars], and e
 >* [Key-Value Pairs Explained](../reference/key-value-pairs-explained.md#concept_E4236E003076483AA939791FE2492B49)
 >* [Prefix Requirements for Key Variables](../features/traits/trait-variable-prefixes.md#reference_E6F1E4257F664FC2A797C406BF147ABC)
 
-## <wintitle> Flash DIL </wintitle> <keyword> ActionScript </keyword> Library {#reference_601A61BDC2A946048AD308ECFDF7F1F5}
+## Flash DIL ActionScript Library {#reference_601A61BDC2A946048AD308ECFDF7F1F5}
 
 Code for your [!DNL Flash] object to send Analytics data to Audience Management.
 
