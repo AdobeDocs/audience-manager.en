@@ -153,8 +153,7 @@ Returns the API object of the current [!UICONTROL DIL] instance.
 <pre><code>
 var partnerObject = DIL.create({ 
      partner: '<i>partner</i>', 
-     containerNSID:  
-<i>NSID</i> 
+     containerNSID: <i>NSID</i> 
 }); 
 partnerObject.api.logs({ 
      file: 'dil.js', 
@@ -187,8 +186,7 @@ Returns the API object of the current [!UICONTROL DIL] instance.
 <pre><code>
 var dataLib = DIL.create({ 
      partner: '<i>partnerName</i>', 
-     containerNSID:  
-<i>containerNSID</i> 
+     containerNSID: <i>containerNSID</i> 
 }); 
  
 dataLib.api.traits([ 
