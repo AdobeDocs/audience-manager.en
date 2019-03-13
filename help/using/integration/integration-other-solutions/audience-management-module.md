@@ -35,7 +35,7 @@ s.AudienceManagement.setup({
      "uuidCookie": { 
           "name":"aam_uuid", 
           "days":30
-     }
+     },
      "visitorService": {
           "namespace": "INSERT-EXPERIENCE-CLOUD-ORGID-HERE" 
      } 
