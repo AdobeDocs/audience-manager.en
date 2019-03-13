@@ -52,23 +52,22 @@ sample_dil.api.submit();
 
 This advanced example demonstrates how to send data in an object to Audience Manager. When working with this method, [!UICONTROL DIL] lets you pass an object as a function parameter into the [!DNL signals()] method. [!UICONTROL DIL] Your code could look similar to the following: 
 
-```java
+<pre class="java"><code>
 var my_object = { 
    color : "blue", 
    price : "900" 
 }; 
  
-var sample_dil = DIL.create({ partner : " 
-<i>partner name</i>" }); 
+var sample_dil = DIL.create({ partner : "<i>partner name</i>" }); 
 //Load the object and append "c_" to all keys in the key-value pairs and send data to AudienceManager. 
 sample_dil.api.signals(my_object,"c_").submit();
-```
+</code></pre>
 
 **Example 3: Send Page Data in an Array**
 
 In this case, the variable `my_object` uses an array to hold data. This example builds on the information passed in by the recommended method above, but adds an additional layer to accommodate a product type and model. Your code could look similar to the following: 
 
-```java
+<pre class="java"><code>
 var my_objects = [{ 
    color : "blue", 
    price : "900" 
@@ -86,7 +85,7 @@ for (var i = 0; i < my_objects.length; i++)
     sample_dil.api.signals(my_objects[i], "c_"); 
 } 
 sample_dil.api.submit();
-```
+</code></pre>
 
 >[!MORE_LIKE_THIS]
 >
