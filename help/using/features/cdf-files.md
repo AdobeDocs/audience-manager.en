@@ -192,7 +192,7 @@ A typical [!UICONTROL CDF] file name contains the elements listed below. Note, *
 * **Syntax** 
 
 <pre><code>
-s3://aam-cdf/<i>your s3 bucket name</i>/day=<i>yyyy-mm-dd</i>/hour=<i>hh</i>/<i>AAM_CDF_partner ID_AAM process ID<i>\_0.gz
+s3://aam-cdf/<i>your s3 bucket name</i>/day=<i>yyyy-mm-dd</i>/hour=<i>hh</i>/<i>AAM_CDF_partner ID_AAM process ID</i>\_0.gz
 </code></pre>
 
 * **Example** 
