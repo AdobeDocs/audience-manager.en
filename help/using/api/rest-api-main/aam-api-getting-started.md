@@ -79,10 +79,10 @@ The [!DNL JSON] response contains your access token. The response should look li
 
 ```json
 {
-    "access\_token": "28fed402-eafd-456c-9341-ac753f25bbbc",
-    "token\_type": "bearer",
-    "refresh\_token": "b27122c0-b0c7-4b39-a71b-1547a3b3b88e",
-    "expires\_in": 21922,
+    "access_token": "28fed402-eafd-456c-9341-ac753f25bbbc",
+    "token_type": "bearer",
+    "refresh_token": "b27122c0-b0c7-4b39-a71b-1547a3b3b88e",
+    "expires_in": 21922,
     "scope": "read write"
 }
 ```
@@ -116,10 +116,10 @@ The [!DNL JSON] response contains your new access token. The response should loo
 
 ```json
 {
-    "access\_token": "4fdfc261-2ffc-4fb7-8dbd-64221714c45f",
-    "token\_type": "bearer",
-    "refresh\_token": "295fa487-1825-4caa-a715-80b81ac17dae",
-    "expires\_in": 21922,
+    "access_token": "4fdfc261-2ffc-4fb7-8dbd-64221714c45f",
+    "token_type": "bearer",
+    "refresh_token": "295fa487-1825-4caa-a715-80b81ac17dae",
+    "expires_in": 21922,
     "scope": "read write"
 }
 ```

@@ -93,14 +93,6 @@ To complete the [!UICONTROL Proflie Merge Rule Setup] section:
     * **[!UICONTROL Device Co-op]**
 4. Click **[!UICONTROL Save]**.
 
-## Next Steps {#section_0A2D9E025E9646B89BE2B7634BCE743F}
-
-Review and complete the procedures described in [Configure Merge Rule Code](../../features/profile-merge-rules/merge-rules-start.md#concept_169938D1988447E1B60896908A49C78A).
-
->[!MORE_LIKE_THIS]
->
->* [Profile Merge Rule Options Defined](../../features/profile-merge-rules/merge-rule-definitions.md#concept_44FFF67CD9654DB2B43ECA13C2FD1CE0)
-
 ## Configure Merge Rule Code {#concept_169938D1988447E1B60896908A49C78A}
 
 Follow these instructions to set up the [!UICONTROL Experience Cloud ID Service], [!UICONTROL DIL], and mobile [!DNL SDK] code to work with your merge rules.
@@ -119,32 +111,23 @@ The [!UICONTROL Experience Cloud ID Service] and the latest version of [DIL](../
 
 When working with the [!UICONTROL Experience Cloud ID Service], the `setCustomerIDs` function passes declared IDs to [!DNL Audience Manager]. To use a profile merge rule, you must modify `setCustomerIDs` to use the integration code specified when you created a cross-device data source. For example, say you've created a cross-device data source with the integration code `my_datasource_ic`. To pass in a declared ID, you would add the integration code to the visitor ID function as shown in the modified code sample below.
 
-<table id="table_97F466CE75C446A288908D659516195C"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Generic code sample </th> 
-   <th colname="col2" class="entry"> Modified code sample </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> 
-     <code class="syntax javascript">
-       visitor.setCustomerIDs({ 
-      &nbsp;"userid":{ 
-      &nbsp;&nbsp;&nbsp;&nbsp;"id":"12345", 
-      &nbsp;&nbsp;&nbsp;&nbsp;"authState":Visitor.AuthState.AUTHENTICATED 
-     </code> </p> </td> 
-   <td colname="col2"> <p> 
-     <code class="syntax javascript">
-       visitor.setCustomerIDs({ 
-      &nbsp;"my_datasource_ic":{ 
-      &nbsp;&nbsp;&nbsp;&nbsp;"id":"12345", 
-      &nbsp;&nbsp;&nbsp;&nbsp;"authState":Visitor.AuthState.AUTHENTICATED 
-     </code> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+#### Generic code sample
+
+```javascript
+visitor.setCustomerIDs({
+  "userid":{
+      "id":"12345",
+      "authState":Visitor.AuthState.AUTHENTICATED
+```
+
+#### Modified code sample
+
+```javascript
+visitor.setCustomerIDs({
+  "my_datasource_ic":{
+     "id":"12345",
+     "authState":Visitor.AuthState.AUTHENTICATED
+```
 
 For more information, see [Create a Cross-Device Data Source](../../features/profile-merge-rules/merge-rules-start.md#concept_396828374D1B48C988655B2ED817F29B) and [Customer IDs and Authentication States](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_customer_ids.html).
 
@@ -152,17 +135,14 @@ For more information, see [Create a Cross-Device Data Source](../../features/pro
 
 The latest versions of [!UICONTROL DIL] now automatically pick up the [!UICONTROL declared ID] from the `visitorService` function in `DIL.create` (see [Declared ID Variables](../../features/declared-ids.md#reference_F697F0D53E56430D95EC0C408B767F80)). Check your `DIL.create` function to make sure this is set up properly as shown in the code sample below.
 
-```js
+<pre class="js"><code>
 var vDil = DIL.create({
    partner:"partner name",
    visitorService:{
-      namespace:"
-<varname>
-  INSERT-MCORG-ID-HERE
-</varname>"
+      namespace:"<i>INSERT-MCORG-ID-HERE</i>"
    }
 });
-```
+</code></pre>
 
 In the namespace key-value pair, the `*`MCORG`*` variable is your [!DNL Experience Cloud] Organization ID. If you don't have this ID, you can find it in the [!UICONTROL Administration] section of the [!DNL Experience Cloud] dashboard. You need administrator permissions to view this dashboard. See [Administration: Core Services](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html).
 
@@ -174,21 +154,15 @@ See the [Configure SDKs](../../features/profile-merge-rules/merge-rules-start.md
 
 If you're not using [!DNL Experience Cloud ID Service] yet, you really ought to. But, we understand that moving to new code requires careful thought and testing. In these cases, check your `DIL.create` function to make sure this is set up properly as shown in the code sample below.
 
-```js
+<pre class="js"><code>
 DIL.create({
    partner:"partner name",
    declaredId:{
-      dpuuid:
-<varname>
-  dpuuid
-</varname>,
-      dpid:
-<varname>
-  dpid
-</varname>
+      dpuuid:<i>dpuuid</i>,
+      dpid:<i>dpid</i>
    }
 });
-```
+</code></pre>
 
 For more information, see the legacy [!UICONTROL DIL] section in [Declared ID Variables](../../features/declared-ids.md#reference_F697F0D53E56430D95EC0C408B767F80).
 
@@ -208,22 +182,21 @@ Check the methods in your [!DNL SDK] code that let you pass [!UICONTROL declared
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="keyword"> Android </span> </p> </td> 
-   <td colname="col2"> <p> <code> setDpidAndDpuuid </code> </p> <p> <b>Syntax:</b> </p> <p> <span class="syntax javascript codeph"> public static void setDpidAndDpuuid(String dpid, String dpuuid); </span> </p> <p> <b>Example:</b> </p> <p> <span class="syntax javascript codeph"> AudienceManager.setDpidAndDpuuid("myDpid","myDpuuid"); </span> </p> </td> 
+   <td colname="col1"> <p> <b> Android </b> </p> </td> 
+   <td colname="col2"> <p> <code> setDpidAndDpuuid </code> </p> <p> <b>Syntax:</b> </p> <p> <pre> public static void setDpidAndDpuuid(String dpid, String dpuuid); </pre> </p> <p> <b>Example:</b> </p> <p> <pre> AudienceManager.setDpidAndDpuuid("myDpid","myDpuuid"); </pre> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="keyword"> iOS </span> </p> </td> 
-   <td colname="col2"> <p> <code> audienceSetDpid:dpuuid </code> </p> <p> <b>Syntax:</b> </p> 
-    ```javascript
+   <td colname="col1"> <p> <b> iOS </b> </p> </td> 
+   <td colname="col2"> <p> <code> audienceSetDpid:dpuuid </code> </p> <p> <b>Syntax:</b> </p><p>
+    <code class="javascript">
       +&nbsp;(void)&nbsp;audienceSetDpid:(NSString&nbsp;*)dpid 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dpuuid:(NSString&nbsp;*)dpuuid; 
-    ```
-    <p> <b>Example:</b> </p>
-    ````javascript
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dpuuid:(NSString&nbsp;*)dpuuid; 
+    </code></p>
+    <p> <b>Example:</b> </p><p>
+    <code class="javascript">
       [ADBMobile&nbsp;audienceSetDpid:@"290"
-      dpuuid:@"99301393923940"];
-    ```
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dpuuid:@"99301393923940"];
+    </code></p>
     </td>
   </tr>
  </tbody>

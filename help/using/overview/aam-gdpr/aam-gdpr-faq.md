@@ -150,7 +150,7 @@ Please note, as your Data Processor, Adobe cannot provide legal advice on GDPR r
 * Consider using [Data Export Controls](../../features/data-export-controls.md) to block audience activation to technologies that house personal data. For example, segments with third-party data should not syndicated to email service providers. Set a [!UICONTROL Data Export Control] to ensure that no one in your organization can accidentally activate this data. 
 * Begin utilizing [Role Based Access Controls](../../features/administration/administration-overview.md) to ensure the right teams have access to intended data. 
 * Consider appropriate [retention periods](../../faq/faq-privacy.md#section_20FF2BAAAA504153B36C420A5ECFB458) for the data. 
-* Review identity linkage and privacy policies and legal requirements to see when and where it is appropriate to tie identity sets together; use appropriately via Audience Manager’s [ [!UICONTROL Profile Merge Rules] ](../../features/profile-merge-rules/merge-rules-overview.md#concept_5FCB08A53C4D4C2B82800BC9FD2B8EC9).
+* Review identity linkage and privacy policies and legal requirements to see when and where it is appropriate to tie identity sets together; use appropriately via Audience Manager’s [Profile Merge Rules](../../features/profile-merge-rules/merge-rules-overview.md#concept_5FCB08A53C4D4C2B82800BC9FD2B8EC9).
 
 <br>&nbsp;
 
