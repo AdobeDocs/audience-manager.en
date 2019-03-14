@@ -190,7 +190,7 @@ Describes the configuration variables used to pass declared IDs through [!UICONT
 
 <!-- r_dil_declared_id_vars.xml -->
 
-When used with the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/), you no longer need to pass in [!UICONTROL declared IDs] with the deprecated `dpid` and `dpuuid` variables. Instead, the current versions of [!UICONTROL DIL] rely on the `visitorService` function to get the [!UICONTROL declared IDs] from the `setCustomerIDs` function in the [!UICONTROL Experience Cloud ID Service]. For more information, see [Customer IDs and Authentication States](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html). You would call `visitorService` in `DIL.create`as shown below.
+When used with the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/), you no longer need to pass in [!UICONTROL declared IDs] with the deprecated `dpid` and `dpuuid` variables. Instead, the current versions of [!UICONTROL DIL] rely on the `visitorService` function to get the [!UICONTROL declared IDs] from the `setCustomerIDs` function in the [!UICONTROL Experience Cloud ID Service]. For more information, see [Customer IDs and Authentication States](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html). You would call `visitorService` in `DIL.create` as shown below.
 
 ```js
 var vDil = DIL.create({
@@ -236,21 +236,15 @@ Audience Manager compares and matches the combined `DPID` and `DPUUID` to a corr
 
 Call this function when you're using [!UICONTROL DIL] v6.1 or earlier. However, this function has been deprecated in favor of the new version that gets [!UICONTROL declared IDs] from the [!UICONTROL Experience Cloud ID Service].
 
-```js
+<pre class="js"><code>
 DIL.create({ 
     partner : "partner name", 
     declaredId : { 
-       dpuuid :  
-<varname>
-  <dpuuid> 
-</varname>, 
-       DPID :  
-<varname>
-  <dpid> 
-</varname> 
+       dpuuid : <i>dpuuid</i>, 
+       DPID : <i>dpid</i> 
     } 
  });
-```
+</code></pre>
 
 >[!NOTE]
 >
@@ -262,18 +256,12 @@ DIL.create({
 >
 >If you make an [!DNL API] call with a different `declaredID` combination, the new combination will be used for that call only. Further regular event calls will use the original `DIL.create` `declaredID` combination.
 
-```js
+<pre class="js"><code>
 DIL.getDil('partner name').api.signals({...}).declaredId({ 
-  dpuuid :  
-<varname>
-  <dpuuid> 
-</varname> 
-  dpid :  
-<varname>
-  <dpid> 
-</varname> 
+  dpuuid :<i>dpuuid</i> 
+  dpid :<i>dpid</i> 
 }).submit();
-```
+</code></pre>
 
 ## Request/Response Examples {#section_04668DDC7A83447C8B24F8D3C009ACB3}
 

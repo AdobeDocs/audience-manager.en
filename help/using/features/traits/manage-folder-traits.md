@@ -20,9 +20,12 @@ A [!UICONTROL folder trait] is created automatically when you create a new folde
 
 1. Go to **[!UICONTROL Audience Data > Traits]** to navigate to the **Traits** dashboard.
 1. In the [!UICONTROL Trait Storage] window, hover over:
+    
     * "All Traits" text to add a new root level folder.
     * An existing parent folder to add a new subordinate folder.
+    
     ![](assets/folder_traits_create.PNG)
+    
 1. Click the + icon to create the folder. Note that you can create a maximum of 2.000 folders in your taxonomy. See the [usage limits](../../features/administration/usage-limits.md#concept_54772E0557C74849812CE54ACB4B0511) documentation for more information.
 1. Name the folder and click **Save**. For example, a folder named Electronics will have a folder trait named 'Electronics Folder Trait'. You can view and select the new folder trait in the traits dashboard.
 1. The new folder trait is automatically assigned to the [!DNL Audience Manager] generated data source. Your users with appropriate [!UICONTROL Role-Based Access Control ([!DNL RBAC])] permissions can change the data source in the edit folder trait workflow. See [Edit a Folder Trait](../../features/traits/manage-folder-traits.md#task_7B1959B7BCFA4409BECDBAAC94A65771).

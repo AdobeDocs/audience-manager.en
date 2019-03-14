@@ -45,6 +45,7 @@ uuid: df325047-af62-45ad-9ca1-046bfcbe5341
   <tr> 
    <td colname="col1">Boolean <span class="wintitle"> OR</span> </td> 
    <td colname="col2"><span class="wintitle"> OR</span> </td> 
+   <td colname="col3" morerows="1"> n/a </td> 
   </tr> 
  </tbody>
 </table>

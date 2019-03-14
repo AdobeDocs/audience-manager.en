@@ -31,7 +31,7 @@ The [!UICONTROL Data Sources] dashboard (**[!UICONTROL Audience Data]** > **[!UI
 
 The settings in the different sections of the [!UICONTROL Data Source] management interface identify your data source, determine how it is used or shared, and let you enable error reporting for the [!UICONTROL Onboarding Status Report].
 
-## Data Source Details] {#section_43423119AD0E42A8B4C01747747E49A2}
+## Data Source Details {#section_43423119AD0E42A8B4C01747747E49A2}
 
 <!-- datasource-settings-definitions.xml -->
 

@@ -155,7 +155,7 @@ Describes the required fields, syntax, and conventions used to organize informat
 
 Fields in the data file appear in this order:
 
-` *`UUID`*<SPACE> *`SEGMENT_1,SEGMENT_2`*<SPACE> *`REMOVED_SEGMENT_1`*,...`
+`*UUID*<SPACE>`*`SEGMENT_1,SEGMENT_2`*`<SPACE>`*`REMOVED_SEGMENT_1`*`,...`
 
 ### Parameters
 

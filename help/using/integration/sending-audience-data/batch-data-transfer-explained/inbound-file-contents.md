@@ -21,15 +21,16 @@ Fields in the inbound data file must appear in the order shown below. In this ex
 
 >[!NOTE]
 >
->We have a limit of 200 lines we can process for each user ID sent in the inbound data file. For example, if you send 300 lines for a user ID, the first 200 lines are kept and the additional 100 lines are discarded. In the example below, you're good because you are sending 3 lines each for user ID 1 and user ID 2. We don't enforce a limit on the number of traits or key-value pairs you include in a line. >
->```>
+>We have a limit of 200 lines we can process for each user ID sent in the inbound data file. For example, if you send 300 lines for a user ID, the first 200 lines are kept and the additional 100 lines are discarded. In the example below, you're good because you are sending 3 lines each for user ID 1 and user ID 2. We don't enforce a limit on the number of traits or key-value pairs you include in a line.
+>
+>```
 ><user ID1><TAB><trait ID>,<trait ID>,<trait ID>
 ><user ID1><TAB><trait ID>,<trait ID>,<trait ID>
 ><user ID1><TAB><trait ID>,<trait ID>,<trait ID>
 ><user ID2><TAB><trait ID>,<trait ID>,<trait ID>
 ><user ID2><TAB><trait ID>,<trait ID>,<trait ID>
 ><user ID2><TAB><trait ID>,<trait ID>,<trait ID>
->```>
+>```
 
 ## File Variables Defined {#section_D024F453127141B6852B6CFB7F5CD2C8}
 
@@ -95,13 +96,11 @@ The following table describes the prefixes that identify trait names or IDs in a
       <li> <code> ic == "456" </code> </li>
       <li> <code> ic == "789" </code> </li>
      </ul> </p> <p>These traits are associated with the <code> ic </code> key. This lets you create a simpler trait list in the data file. And, you do not need to include the <code> ic </code> prefix. As a result, the contents of your data file could look like this: </p> <p>
-     <codeblock> 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-      <varname>
-        user&amp;nbsp;ID 
-      </varname>&nbsp;&lt;TAB&gt;&nbsp;123,456,789 
-     </codeblock> </p> </td> 
+     <code> 
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      <i>user&amp;nbsp;ID</i>
+      &nbsp;&lt;TAB&gt;&nbsp;123,456,789 
+     </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Key-value pairs </p> </td> 
@@ -111,8 +110,7 @@ The following table describes the prefixes that identify trait names or IDs in a
       <li id="li_1F3ACA27C5794931B430298B27AB8BCC"> <code> "key" = value </code> </li> 
       <li id="li_8910539EB4F0431E8CF63983D30D9B08"> <code> key = "value" </code> </li> 
       <li id="li_DCECE281D245438FB01F8D0BA932B3CC"> <code> "key" = "value" </code> </li> 
-     </ul> 
-<codeblock> "age"="32" </codeblock> , <codeblock> "gender"=m </codeblock> , <codeblock> model = "pickup truck" </codeblock> , <codeblock> product = tablet </codeblock> are all examples of correctly formatted key-value pairs. </p> </td> 
+     </ul><code> "age"="32" </code> , <code> "gender"=m </code> , <code> model = "pickup truck" </code> , <code> product = tablet </code> are all examples of correctly formatted key-value pairs. </p> </td> 
   </tr>
  </tbody>
 </table>
@@ -196,32 +194,32 @@ Improperly formatted value names in a key-value pair also cause problems. Follow
   <tr> 
    <td colname="col1"> <p>With <code> d_sid </code> or <code> d_unsid </code> </p> </td> 
    <td colname="col2"> <p>This data file shows a user qualified for traits 24, 26, 27 and has been removed from trait 28 and 29. </p> <p> 
-     <codeblock>
+     <code>
        59767559181262060060278870901087098252&amp;nbsp;&amp;nbsp;d_sid=24,d_sid=26,d_sid=27,d_unsid=28,d_unsid=29 
-     </codeblock> </p> <p>Note:  <p>Instead of using d_unsid, you can also remove traits from user profiles by using the following syntax: </p> <p> 
-      <codeblock>
+     </code> </p> <p>Note:  <p>Instead of using d_unsid, you can also remove traits from user profiles by using the following syntax: </p> <p> 
+      <code>
         59767559181262060060278870901087098252&amp;nbsp;28:0,&amp;nbsp;29:0 
-      </codeblock> </p> <p> 
-      <codeblock>
+      </code> </p> <p> 
+      <code>
         59767559181262060060278870901087098252&amp;nbsp;28:-1,&amp;nbsp;29:-1 
-      </codeblock> </p> </p> </td> 
+      </code> </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>With <code> ic== </code> </p> </td> 
    <td colname="col2"> <p>These traits have been added to a trait rule with the <code> ic </code> prefix. As such, you can add them to the data file separated by commas as shown. A tab separates the UUID and the trait IDs. The <code> ic </code> prefix is not required in the file. </p> <p><b>Numeric IDs</b> </p> <p> 
-     <codeblock spectitle="Numeric IDs">
+     <code>
        DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&amp;nbsp;&amp;nbsp;30608,50354,50338,50352,30626 
-     </codeblock> </p> <p><b>String IDs</b> </p> <p> 
-     <codeblock spectitle="String IDs">
+     </code> </p> <p><b>String IDs</b> </p> <p> 
+     <code>
        DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&amp;nbsp;&amp;nbsp;ic=52,ic=55 
-     </codeblock> </p> </td> 
+     </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>With key-value pairs </p> </td> 
    <td colname="col2"> This file data uses key-value pairs to pass in data to <span class="keyword"> Audience Manager </span>. <p> 
-     <codeblock>
+     <code>
        59767559181262060060278870901087098252&amp;nbsp;“gender”=”female”,“luxury_shopper”=”yes” 
-     </codeblock> </p> </td> 
+     </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>

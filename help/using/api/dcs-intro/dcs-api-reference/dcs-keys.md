@@ -81,23 +81,16 @@ All of these are optional, unless you want a response from the [!UICONTROL DCS].
       <li id="li_792A6248F49141C0B4B214C754D5F5C5"> <p><code> d_cts=1</code> returns <a href="../../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8"> legacy segment IDs</a> for the segments. </p> </li>
       <li id="li_F304CA651F3C444A9A24576726925D87"> <p><code> d_cts=2</code> returns segment IDs for the segments. </p> </li>
      </ul> </p> <p>A sample response could look like the one below: </p> <p>
-     <codeblock class="syntax javascript">
+     <code class="syntax javascript">
       {
-      
-&nbsp;&nbsp;&nbsp;&nbsp;"stuff":&nbsp;[],
-      
-&nbsp;&nbsp;&nbsp;&nbsp;"uuid":&nbsp;"07955261652886032950143702505894272138",
-      
-&nbsp;&nbsp;&nbsp;&nbsp;"dcs_region":&nbsp;7,
-      
-&nbsp;&nbsp;&nbsp;&nbsp;"traits":&nbsp;[420020,&nbsp;5421506],
-      
-&nbsp;&nbsp;&nbsp;&nbsp;"segments":&nbsp;[984263,&nbsp;985264],
-      
-&nbsp;&nbsp;&nbsp;&nbsp;"tid":&nbsp;"ss3OTqPiQp0="
-      
-}
-     </codeblock> </p> </td> 
+      &nbsp;&nbsp;&nbsp;&nbsp;"stuff":&nbsp;[],
+      &nbsp;&nbsp;&nbsp;&nbsp;"uuid":&nbsp;"07955261652886032950143702505894272138",
+      &nbsp;&nbsp;&nbsp;&nbsp;"dcs_region":&nbsp;7,
+      &nbsp;&nbsp;&nbsp;&nbsp;"traits":&nbsp;[420020,&nbsp;5421506],
+      &nbsp;&nbsp;&nbsp;&nbsp;"segments":&nbsp;[984263,&nbsp;985264],
+      &nbsp;&nbsp;&nbsp;&nbsp;"tid":&nbsp;"ss3OTqPiQp0="
+      }
+     </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_dpid</code> </p> </td> 
@@ -148,19 +141,14 @@ All of these are optional, unless you want a response from the [!UICONTROL DCS].
       <li id="li_7CB890F92C4A4C6AA8B4EE32E1AD4564">If you omit this, the <span class="wintitle"> DCS</span> returns a pixel in the header. </li> 
       <li id="li_824C23B4C7AA4B5EBADF73D26016A18E">If you include this, the <span class="wintitle"> DCS</span> returns a <code> JSON</code> object in the body of the response. See the example below. Your response could be more complex. </li> 
      </ul> </p> <p> 
-     <codeblock class="syntax javascript">
+     <code class="syntax javascript">
       {
-      
-&nbsp;&nbsp;&nbsp;&nbsp;"stuff":&nbsp;[],
-      
-&nbsp;&nbsp;&nbsp;&nbsp;"uuid":&nbsp;"22920112968019678612904394744954398990",
-      
-&nbsp;&nbsp;&nbsp;&nbsp;"dcs_region":&nbsp;7,
-      
-&nbsp;&nbsp;&nbsp;&nbsp;"tid":&nbsp;"ss3OTqPiQp0="
-      
-}
-     </codeblock> </p> </td> 
+      &nbsp;&nbsp;&nbsp;&nbsp;"stuff":&nbsp;[],
+      &nbsp;&nbsp;&nbsp;&nbsp;"uuid":&nbsp;"22920112968019678612904394744954398990",
+      &nbsp;&nbsp;&nbsp;&nbsp;"dcs_region":&nbsp;7,
+      &nbsp;&nbsp;&nbsp;&nbsp;"tid":&nbsp;"ss3OTqPiQp0="
+      }
+     </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_sid</code> </p> </td> 

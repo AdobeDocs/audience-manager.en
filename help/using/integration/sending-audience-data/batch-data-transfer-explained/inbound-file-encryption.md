@@ -22,28 +22,27 @@ Follow the steps outlined below to encrypt inbound data files.
 1. Download the [Audience Manager public key](./assets/adobe_pgp.pub).
 1. Import the public key to your trusted store.
 
-For example, if you use [!DNL GPG], the command could be similar to the following:
-
-[!DNL `gpg --import adobe_pgp.pub`]
-
+   For example, if you use [!DNL GPG], the command could be similar to the following:
+   
+   `gpg --import adobe_pgp.pub`
+   
 1. Validate that the key has been imported correctly by running the following command:
 
-    [!DNL `gpg --list-keys`]
+    `gpg --list-keys`
 
     You should see a message similar to the following:
 
-      ```
-      pub   4096R/8496CE32 2013-11-01
-      uid                  Adobe AudienceManager
-      sub   4096R/E3F2A363 2013-11-01
-      
-      ```
+    ```
+    pub   4096R/8496CE32 2013-11-01
+    uid                  Adobe AudienceManager
+    sub   4096R/E3F2A363 2013-11-01
+    ```
 
 1. Encrypt the inbound data using the following command:
 
    [!DNL `gpg --recipient "Adobe AudienceManager" --cipher-algo AES --output $output.gpg --encrypt $inbound`]
 
-   All encrypted data must use [!DNL `.pgp`] or [!DNL `.gpg`] as the file extension (e.g. [!DNL `ftp_dpm_100_123456789.sync.pgp`] or [!DNL `ftp_dpm_100_123456789.overwrite.gpg`]).
+   All encrypted data must use `.pgp` or `.gpg` as the file extension (e.g. `ftp_dpm_100_123456789.sync.pgp` or `ftp_dpm_100_123456789.overwrite.gpg`).
 
    >[!NOTE]
    >
