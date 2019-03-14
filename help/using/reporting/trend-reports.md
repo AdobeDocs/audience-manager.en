@@ -13,8 +13,6 @@ A Trend report returns trend data on traits and segments.
 
 ## Overview {#trend-report-overview}
 
-A [!UICONTROL Trend] report returns trend data on traits and segments.
-
 <!-- 
 
 c_trend_reports.xml
@@ -45,9 +43,9 @@ The following illustration provides a high-level overview of key elements in the
 
    **Display Interval:** Specify the display interval (1, 7, 14, 30, 60, and 90-day intervals).
 
-1. Search for a trait or segment by name or ID.
-1. From the folder list, drag and drop the traits or segments you want to report to the [!UICONTROL Selections] panel on the right side.
-1. Generate the report to display in data in graphical format or export the report to CSV format.
+2. Search for a trait or segment by name or ID.
+3. From the folder list, drag and drop the traits or segments you want to report to the [!UICONTROL Selections] panel on the right side.
+4. Generate the report to display in data in graphical format or export the report to CSV format.
 
 ## Run a Trend Report {#run-trend-report}
 
