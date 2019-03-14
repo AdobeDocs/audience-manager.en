@@ -11,15 +11,9 @@ uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
 
 Describes the required fields, syntax, naming conventions and file sizes you need to follow when sending data to Audience Manager. Set the names and sizes of your files according to these specifications when you send data to an Audience Manager / [!DNL Amazon S3] directory.
 
-Contents:
-
-* [File Name Syntax](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md#section_A572A6BC39D34462BE9CEA184FE9E556) 
-* [File Name Examples](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md#section_310A0F2330FD4E109F54227736BFEA89) 
-* [Accepted File Sizes](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md#section_2E2BE21030A34BA1AE67288F333780A0)
-
 >[!NOTE]
 >
->The text styles ( `monospaced text`, *italics*, brackets [ ] ( ), etc.) in this document indicate code elements and options. See [Style Conventions for Code and Text Elements](../../../reference/code-style-elements.md#reference_59D0BD0EDB424A65853460D91CCA35D9) for more information.
+>The text styles ( `monospaced text`, *italics*, brackets `[ ]` `( )`, etc.) in this document indicate code elements and options. See [Style Conventions for Code and Text Elements](../../../reference/code-style-elements.md#reference_59D0BD0EDB424A65853460D91CCA35D9) for more information.
 
 ## File Name Syntax {#section_A572A6BC39D34462BE9CEA184FE9E556}
 

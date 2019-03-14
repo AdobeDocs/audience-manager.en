@@ -12,17 +12,9 @@ uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 
 [!UICONTROL Actionable Log Files] allow you to capture media data from [!DNL Google DCM] log files and use the data to create traits in Audience Manager. Capture impressions, clicks, and conversions from ad servers as traits without having to use pixel calls.
 
-<ul class="simplelist"> 
- <li> <a href="../../integration/media-data-integration/actionable-log-files.md#section_42B595E75E7A42E589F5E166968A1311"> Purpose </a> </li> 
- <li> <a href="../../integration/media-data-integration/actionable-log-files.md#section_DD0AAAB29999453889CB3C86D2F4EFF5"> Getting Started </a> </li> 
- <li> <a href="../../integration/media-data-integration/actionable-log-files.md#section_4608990C8D0D43AE8FDC33081543E5E2"> Working with Actionable Log Files </a> </li> 
- <li> <a href="../../integration/media-data-integration/actionable-log-files.md#section_F23E910753EB4241BFD8B76262526F18"> Actionable Signals </a> </li> 
- <li> <a href="../../integration/media-data-integration/actionable-log-files.md#section_09EB4686F5204452A39A7C2700D44E49"> Use Cases </a> </li> 
-</ul>
-
 >[!NOTE]
 >
->The text styles ( `monospaced text`, *italics*, brackets [ ] ( ), etc.) in this document indicate code elements and options. See [Style Conventions for Code and Text Elements](../../reference/code-style-elements.md#reference_59D0BD0EDB424A65853460D91CCA35D9) for more information.
+>The text styles ( `monospaced text`, *italics*, brackets `[ ]` `( )`, etc.) in this document indicate code elements and options. See [Style Conventions for Code and Text Elements](../../reference/code-style-elements.md#reference_59D0BD0EDB424A65853460D91CCA35D9) for more information.
 
 ## Purpose {#section_42B595E75E7A42E589F5E166968A1311}
 
@@ -48,7 +40,7 @@ For an average-sized [!DNL DCM] log file of 2 million lines, any traits created 
 
 >[!IMPORTANT] {importance="high"}
 >
->We recommend implementing [!UICONTROL Actionable Log Files] *instead of* [Pixel Calls](../../integration/media-data-integration/impression-data-pixels.md#concept_83852AB68E344D4F8933665C895322C2). We discourage the use of both options, as this leads to an increase in frequency counts for traits.
+>We recommend implementing [!UICONTROL Actionable Log Files] *instead of*  [Pixel Calls](../../integration/media-data-integration/impression-data-pixels.md#concept_83852AB68E344D4F8933665C895322C2). We discourage the use of both options, as this leads to an increase in frequency counts for traits.
 
 ## Actionable Signals {#section_F23E910753EB4241BFD8B76262526F18}
 

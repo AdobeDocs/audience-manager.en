@@ -87,7 +87,7 @@ The tables list the current limits by item type. You cannot create new traits, s
 
 You can see usage and limits for your account by going to **[!UICONTROL Administration > Limits]**. Access requires administrator permissions.
 
-![](assets/usage_limits.jpg)
+![usage limits image](assets/usage_limits.jpg)
 
 ## Increase Item Limits {#increase-item-limits}
 

@@ -7,9 +7,7 @@ title: DIL create
 uuid: 6e054600-703c-4a97-af2a-8207c50013db
 ---
 
-# DIL create{#dil-create}
-
-Creates a partner-specific DIL instance.
+# DIL create method{#dil-create}
 
 ## DIL create {#reference_F87131F6C1CC4ECCA064B24B91710FD4}
 
@@ -196,52 +194,3 @@ var vDil = DIL.create({
     } 
 });
 ```
-
->[!MORE_LIKE_THIS]
->
->* [ID Service Implementation Guides](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-implementation-guides.html)
-
-## uuidCookie Properties {#reference_F2E2F1F83B464935BE4942B46274FB77}
-
-Defines the properties used by the `uuidCookie` variable. This variable is part of the `DIL.create` method. 
-
-`uuidCookie` has the following properties:
-
-<!-- 
-
-r_dil_visitor_service.xml
-
- -->
-
-|  Name  | Description  |
-|---|---|
-|  `name`  | The cookie name ( `aam_did` is default).  |
-|  `days`  | Cookie lifetime (100 days is default).  |
-|  `path`  | Cookie path, e.g., `'/test'` ( `/` is default).  |
-|  `domain`  | The domain the cookie is set in, e.g., `'adobe.com'` ( `'.'+document.domain` is default).  |
-|  `secure`  | Sets a flag to send data over an HTTPS connection only.  |
-
-## visitorService Properties {#reference_89BBE552FE2445209A3E6080A9B8E080}
-
-Defines the properties used by the `visitorService` variable. This variable is part of the `DIL.create` method. 
-
-`visitorService` has the following properties:
-
-|  Name  | Type  | Description  |
-|---|---|---|
-|  `namespace`  | String  | Required. Represents The Experience Cloud Org ID. This is needed for Experience Cloud Core Service functionality. Same parameter used to instantiate the Visitor ID functionality.  |
-
-**Code Sample:**
-
-```
-var vDil = DIL.create({ 
-    partner: 'demofirst', 
-    visitorService: { 
-        namespace: "INSERT-MCORG-ID-HERE" 
-    } 
-});
-```
-
->[!MORE_LIKE_THIS]
->
->* [ID Service Implementation Guides](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-implementation-guides.html)

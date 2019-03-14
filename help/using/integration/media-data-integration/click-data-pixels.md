@@ -22,7 +22,9 @@ In addition, the call can contain key-value pairs that can be used for trait qua
 
 ## Request Sample
 
-`https://client.demdex.net/event?d_event=click&d_creative=123&d_rd=http%3A%2F%2Fadobe.com%2Fcallback%3Fcreative%3D%25d_creative%25`
+```
+https://client.demdex.net/event?d_event=click&d_creative=123&d_rd=http%3A%2F%2Fadobe.com%2Fcallback%3Fcreative%3D%25d_creative%25
+```
 
 ## Response
 

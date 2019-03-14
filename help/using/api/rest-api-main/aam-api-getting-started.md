@@ -51,7 +51,7 @@ The Audience Manager [!UICONTROL REST API] follows [!DNL OAuth 2.0] standards fo
 
 <!-- oath-authentication.xml -->
 
-Password authentication secure access our [!DNL REST API]. The following table outlines the workflow for password authentication from a [!DNL JSON] client in your browser.
+Password authentication secure access our [!DNL REST API]. The steps below outline the workflow for password authentication from a [!DNL JSON] client in your browser.
 
 >[!TIP]
 >

@@ -9,10 +9,6 @@ uuid: d4c0d8dd-79f8-448e-b17c-c935415dd449
 
 # DIL Modules{#dil-modules}
 
-Describes methods in the DIL.modules namespace. These modules let you programmatically collect data and work with Audience Manager objects.
-
-## DIL Modules {#concept_8DB3CEF5BCF24F9F88D26AA1026CF24D}
-
 Describes methods in the `DIL.modules` namespace. These modules let you programmatically collect data and work with Audience Manager objects.
 
 <!-- 

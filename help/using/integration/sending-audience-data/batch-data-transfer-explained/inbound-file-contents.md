@@ -11,17 +11,6 @@ uuid: 88699b29-1502-4183-a9a4-be70692a02bb
 
 Required fields, syntax, and rules you should follow when formatting an inbound trait data file.
 
-Contents:
-
-<ul class="simplelist"> 
- <li> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#section_524652571283434B93EF2BA5AEC2962B"> File Content Syntax </a> </li> 
- <li> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#section_D024F453127141B6852B6CFB7F5CD2C8"> File Variables Defined </a> </li> 
- <li> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#section_A52AFA31CCA54EF2A89CEF17BFCCB879"> Invalid Characters in Trait IDs and Key-Value Pairs </a> </li> 
- <li> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#section_0D84D4DD995D444598AF8AE9FC8A3810"> Formatting Trait IDs </a> </li> 
- <li> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#section_9C29AF9142B2426BA7209E1281AE4C36"> Data File Examples </a> </li> 
- <li> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#section_BA72EA253B3E418AA8F597B1BC73360A"> Examples Matrix </a> </li> 
-</ul>
-
 ## File Content Syntax {#section_524652571283434B93EF2BA5AEC2962B}
 
 Fields in the inbound data file must appear in the order shown below. In this example, the `<` `>` symbols have been added to help separate each element visually. You do not need to include these in your data file.

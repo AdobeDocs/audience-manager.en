@@ -235,7 +235,6 @@ user-guide-title: Audience Manager User Guide
 + Implementation and Integration Guides{#implemenation-integration-guides}
     + [Implementation and Integration Guides](integration/implementation-and-integration.md)
     + [Data Integration Methods](integration/data-integration-methods.md)
-    + [DFP as an Audience Manager Destination](integration/aam-dfp.md)
     + Integrate DFP using Google Publisher Tags (GPT){#integrate-dfp-using-gpt}
         + [Requirements and Methods of Sending Segments to    DFP Using    Google...](integration/gpt-aam-destination/gpt-aam-requirements.md)
         + [Create a GPT Destination](integration/gpt-aam-destination/gpt-aam-create-destination.md)
@@ -244,6 +243,7 @@ user-guide-title: Audience Manager User Guide
     + Integrating with Third-Party Destinations {#integrating-third-party}
       + [OAS as an Audience Manager Destination](integration/integrating-third-party/open-ad-server-destination.md)
       + [OpenX as an Audience Manager Destination](integration/integrating-third-party/openx-destination.md)
+      + [DFP as an Audience Manager Destination](integration/aam-dfp.md)
       + [Send Segments to a Google AdWords Remarketing List](integration/integrating-third-party/rlsa-integration.md)
     + [Implementing Audience Manager](integration/implement-audience-manager.md)
     + Media Data Integration{#media-data-integration}

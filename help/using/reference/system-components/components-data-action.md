@@ -19,12 +19,6 @@ c_compact.xml
 
 Action components are systems and processes that let you move data in and out of [!DNL Audience Manager] and (for the lack of a better phrase) do things with it. These [!DNL Audience Manager] components include:
 
-* [Custom Data Feeds (CDF)](../../reference/system-components/components-data-action.md#section_865029F74D96496D8AECAB69D95F4D6C) 
-* [Data Collection Server (DCS)](../../reference/system-components/components-data-action.md#section_8C3E60777E6B47EABD4CACAB49B3F89B) 
-* [SFTP/S3](../../reference/system-components/components-data-action.md#section_4E34FE0337534E5A84C6531330573085) 
-* [IRIS](../../reference/system-components/components-data-action.md#section_1966DC17FD14419E943CEF04F13A005B) 
-* [Profile Cache Server (PCS)](../../reference/system-components/components-data-action.md#section_5CB821F4E94947C5928D3154490EDD32)
-
 ## Customer Data Feeds (CDF) {#section_865029F74D96496D8AECAB69D95F4D6C}
 
 [!UICONTROL CDF] are files sent hourly to customers. These contain user IDs along with associated segment IDs, trait IDs, and other data. For more information, see [Customer Data Feed Overview](../../features/cdf-files.md#concept_114B993EC5E246AE8CDD55E695B344FC).
