@@ -28,7 +28,7 @@ The [!DNL Adobe Audience Manager] [OAuth 2.0](https://tools.ietf.org/html/rfc674
 
 As an [!DNL Audience Manager] partner, the following endpoints are needed to receive authenticated requests:
 
-### Endpoint 1 used by [!UICONTROL IRIS] to obtain a bearer token
+### Endpoint 1 used by IRIS to obtain a bearer token
 
 This endpoint will accept the credentials provided at step 1 and generate a bearer token which will be used on subsequent requests.
 
@@ -37,7 +37,7 @@ This endpoint will accept the credentials provided at step 1 and generate a bear
 * The endpoint must look at the [!DNL Content-type] header and validate that its value is `application/x-www-form-urlencoded ; charset=UTF-8`.
 * The body of the request will be `grant_type=client_credentials`.
 
-### Example request made by [!DNL Audience Manager] to the partner endpoint in order to obtain a bearer token
+### Example request made by Audience Manager to the partner endpoint in order to obtain a bearer token
 
 ```
 POST /oauth2/token HTTP/1.1
@@ -64,7 +64,7 @@ Content-Length: 121
 {"token_type":"bearer","access_token":"glIbBVohK8d86alDEnllPWi6IpjZvJC6kwBRuuawts6YMkw4tZkt84rEZYU2ZKHCQP3TT7PnzCQPI0yY"}
 ```
 
-### Endpoint 2 used by [!UICONTROL IRIS] to publish segments using the bearer token
+### Endpoint 2 used by IRIS to publish segments using the bearer token
 
 [!DNL Audience Manager] sends data to this endpoint in near real-time as users qualify for segments. Additionally, this method can send batches of offline or onboarded data as frequently as every 24 hours.
 

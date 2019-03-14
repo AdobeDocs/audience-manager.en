@@ -7,7 +7,7 @@ title: Declared IDs
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
 ---
 
-# [!UICONTROL Declared IDs] {#declared-ids}
+# Declared IDs {#declared-ids}
 
 How declared IDs work, set up procedures, code examples, and variables.
 
@@ -17,7 +17,7 @@ Exchange and synchronize user IDs with Audience Manager from devices or browsers
 
 <!-- declared_id_about.xml -->
 
-## Purpose of [!UICONTROL Declared ID] Targeting {#section_2127B48E659E4D3AB03C698EBE9B589F}
+## Purpose of Declared ID Targeting {#section_2127B48E659E4D3AB03C698EBE9B589F}
 
 Some browsers, and most mobile devices, do not accept third-party cookies. This makes it difficult to retain information about site visitors or assign persistent IDs. To resolve this issue, Audience Manager uses [!UICONTROL DIL] to let you pass in [!UICONTROL declared IDs] on an event call. Also, a [!UICONTROL declared ID] can act as a universal ID that applies to the same user across all the solutions in the [!DNL Experience Cloud]. The following table describes the ID targeting/matching process:
 
@@ -59,11 +59,11 @@ The [!UICONTROL declared ID] process honors site visitor preferences to opt-out 
 
 See [Data Privacy](../overview/data-security-and-privacy/data-privacy.md#concept_C1E36C6BF4C0461F9D31687E275DC46A) for more information about opting-out of data collection.
 
-## [!UICONTROL Declared ID] Opt-Out Examples {#section_C0370B5573CD49408E35356D051B2AD8}
+## Declared ID Opt-Out Examples {#section_C0370B5573CD49408E35356D051B2AD8}
 
 You can make a [!UICONTROL declared ID] opt-out requests with the `d_cid` and `d_cid_ic` key-value pairs. The legacy parameters like `d_dpid` and `d_dpuuid` still work, but are considered deprecated. See [CID Replaces DPID and DPUUID](../reference/cid.md#concept_E9DE716F22E8491AB27057DB92B79081). In the examples, *italics* indicates a variable placeholder.
 
-### Opt-Outs With [!UICONTROL CID] and [!UICONTROL CID_IC]
+### Opt-Outs With CID and CID_IC
 
 For a description and syntax, see [URL Variables and Syntax for Declared IDs](../features/declared-ids.md#concept_22E2210AA6604B83B46F5E0CD5504A51).
 
@@ -90,7 +90,7 @@ For a description and syntax, see [URL Variables and Syntax for Declared IDs](..
  </tbody> 
 </table>
 
-### Opt-Outs With [!UICONTROL DPID], [!UICONTROL DPUUID], and [!UICONTROL UUID] (Deprecated)
+### Opt-Outs With DPID, DPUUID, and UUID (Deprecated)
 
 These methods still work but are considered deprecated. This information is provided for legacy purposes and reference. Legacy opt-outs include:
 
@@ -182,11 +182,11 @@ Given these key-value pairs and their required syntax, you would make event call
 >
 >* [CID Replaces DPID and DPUUID](../reference/cid.md#concept_E9DE716F22E8491AB27057DB92B79081)
 
-## [!UICONTROL Declared ID] Variables {#reference_F697F0D53E56430D95EC0C408B767F80}
+## Declared ID Variables {#reference_F697F0D53E56430D95EC0C408B767F80}
 
 Describes the configuration variables used to pass declared IDs through [!UICONTROL DIL] to [!DNL Audience Manager.]
 
-## [!UICONTROL DIL] Uses the [!DNL Experience Cloud ID Service] to Pass [!UICONTROL Declared IDs] {#section_2BF6DF66A50747BAB77C1427DDCCC218}
+## DIL Uses the Experience Cloud ID Service to Pass Declared IDs {#section_2BF6DF66A50747BAB77C1427DDCCC218}
 
 <!-- r_dil_declared_id_vars.xml -->
 
@@ -256,7 +256,7 @@ DIL.create({
 >
 >Note, you need to programmatically develop the code that supplies the ID values for the `d_dpuuid` and `d_dpid` keys.
 
-### Pass In IDs After [!UICONTROL DIL] Instantiates
+### Pass In IDs After DIL Instantiates
 
 >[!NOTE]
 >

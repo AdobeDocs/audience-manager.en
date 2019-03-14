@@ -7,7 +7,7 @@ title: Trait API Methods
 uuid: 7359070c-0d7b-4dd9-8b8b-028e41bb5a4e
 ---
 
-# Trait [!DNL API] Methods {#trait-api-methods}
+# Trait API Methods {#trait-api-methods}
 
 Methods that let you work programmatically with traits.
 

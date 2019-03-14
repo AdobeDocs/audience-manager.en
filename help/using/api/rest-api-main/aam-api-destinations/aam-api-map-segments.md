@@ -13,7 +13,7 @@ Map segments to destinations with these [!DNL RESTful API] methods.
 
 <!-- c_api_map_seg_dest.xml -->
 
-## Supported Destination Types: [!UICONTROL URL] and [!UICONTROL Cookie] Only
+## Supported Destination Types: URL and Cookie Only
 
 The available `POST` methods let you map segments to [!UICONTROL URL] and [!UICONTROL cookie destinations] only. Currently, you cannot map segments to [!UICONTROL server-to-server destinations] with these [!DNL REST API] methods. Use the user interface instead. However, the related destination `GET` methods let you retrieve information about [!UICONTROL server-to-server destinations] created in the user interface.
 
@@ -23,7 +23,7 @@ The available `POST` methods let you map segments to [!UICONTROL URL] and [!UICO
 >* [Destination Serialization](../../../features/destinations/key-value-pairs.md#concept_02436A7C6C574C799F079EB731A63262)
 >* [Key-Value Pairs Explained](../../../reference/key-value-pairs-explained.md#concept_E4236E003076483AA939791FE2492B49)
 
-## Map a Segment to a Non-Serialized [!UICONTROL URL] Destination {#reference_0BFD55096FD845EC9970012C53CFE643}
+## Map a Segment to a Non-Serialized URL Destination {#reference_0BFD55096FD845EC9970012C53CFE643}
 
 A `POST` method that lets you map a segment to a non-serial [!UICONTROL URL] destination.
 
@@ -73,7 +73,7 @@ All request values are required unless otherwise indicated.
 }
 ```
 
-## Map a Segment to a Serialized [!UICONTROL URL] Destination {#reference_658AB62CA686491FB9D0E53458801343}
+## Map a Segment to a Serialized URL Destination {#reference_658AB62CA686491FB9D0E53458801343}
 
 A `POST` method that lets you map a segment to a serialized [!UICONTROL URL] destination.
 
@@ -123,7 +123,7 @@ In the request, the `traitAlias` corresponds to the key in a key-value pair. All
 }
 ```
 
-## Map a Segment to a [!UICONTROL Cookie] Destination: Single-Key, Non-Serialized {#reference_612B2A53AE8E4262A36F73601151CFDD}
+## Map a Segment to a Cookie Destination: Single-Key, Non-Serialized {#reference_612B2A53AE8E4262A36F73601151CFDD}
 
 A `POST` method that lets you map a segment to single-key, non-serialized [!UICONTROL cookie] destination.
 
@@ -170,7 +170,7 @@ In the request, the `valueAlias` corresponds to the value in a key-value pair. A
 }
 ```
 
-## Map a Segment to a [!UICONTROL Cookie] Destination: Multi-Key, Non-Serialized {#reference_139815314E1446BB9E335DCCDD1CEE6E}
+## Map a Segment to a Cookie Destination: Multi-Key, Non-Serialized {#reference_139815314E1446BB9E335DCCDD1CEE6E}
 
 A `POST` method that lets you map a segment to multi-key, non-serialized [!UICONTROL cookie] destination.
 
@@ -218,7 +218,7 @@ In the request, the `traitAlias` and `valueAlias` set the key and the value resp
 }
 ```
 
-## Map a Segment to a [!UICONTROL Cookie] Destination: Multi-Key, Serialized {#reference_C0FA140B45B844CE8EE6E5E0487D7EB8}
+## Map a Segment to a Cookie Destination: Multi-Key, Serialized {#reference_C0FA140B45B844CE8EE6E5E0487D7EB8}
 
 A `POST` method that lets you map a segment to a multi-key, serialized [!UICONTROL cookie destination].
 
@@ -266,7 +266,7 @@ In the request, the `traitAlias` and `valueAlias` set the key and the value in a
 }
 ```
 
-## Map a Segment to a [!UICONTROL Server-to-Server] Destination {#reference_1F6C3A534C234BE4B01C32B09EC93101}
+## Map a Segment to a Server-to-Server Destination {#reference_1F6C3A534C234BE4B01C32B09EC93101}
 
 A `POST` method that lets you map a segment to an existing [!UICONTROL server-to-server] destination. Note, however, that you cannot create [!UICONTROL server-to-server] destinations with these currently available [!DNL API] methods.
 

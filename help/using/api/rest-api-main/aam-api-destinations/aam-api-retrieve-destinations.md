@@ -261,7 +261,7 @@ BROWSER, ANDROID, iOS, ALL
 ]
 ```
 
-## Return [!UICONTROL S2S] and Bulk [!UICONTROL S2S] Destination Job History {#reference_DAAAAE296B1248CAA347D9344EB182F2}
+## Return S2S and Bulk S2S Destination Job History {#reference_DAAAAE296B1248CAA347D9344EB182F2}
 
 A `GET` method that returns outbound [!UICONTROL Server-to-Server] ( [!UICONTROL S2S]) and bulk [!UICONTROL S2S] destination job history information.
 

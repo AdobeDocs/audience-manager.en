@@ -7,7 +7,7 @@ title: DCS Region API Methods
 uuid: 00b70927-b3b7-46bb-8be1-37c6100ecf80
 ---
 
-# [!UICONTROL DCS] Region [!DNL API] Methods {#dcs-region-api-methods}
+# DCS Region API Methods {#dcs-region-api-methods}
 
 Methods that let you programmatically list Audience Manager [!UICONTROL DCS] regions.
 
@@ -15,7 +15,7 @@ Methods that let you programmatically list Audience Manager [!UICONTROL DCS] reg
 
 For a list of regions and their corresponding integers, see [DCS Region IDs, Locations, and Host Names](../../api/dcs-intro/dcs-api-reference/dcs-regions.md#concept_01C1E017A6694D1EAF9BF65BFFA54091).
 
-## List a Specific [!UICONTROL DCS] Region {#list-specific-dcs-region}
+## List a Specific DCS Region {#list-specific-dcs-region}
 
 A `GET` method to list a specific [!UICONTROL DCS] region.
 
@@ -45,7 +45,7 @@ Returns `200 OK` if successful.
 
 For a list of regions and their corresponding integers, see [DCS Region IDs, Locations, and Host Names](../../api/dcs-intro/dcs-api-reference/dcs-regions.md#concept_01C1E017A6694D1EAF9BF65BFFA54091). 
 
-## List [!UICONTROL DCS] Regions {#reference_D9532CB364824BCFABE58F39EA6928F6}
+## List DCS Regions {#reference_D9532CB364824BCFABE58F39EA6928F6}
 
 A `GET` method to list [!UICONTROL DCS] regions.
 

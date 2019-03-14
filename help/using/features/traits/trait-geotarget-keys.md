@@ -29,7 +29,7 @@ You specify the value when building traits with these key-value pairs:
 |---|---|
 | `d_zx`  |ZIP code (e.g., `d_zx=10022`).  |
 
-## Platform Level Keys Defined by [!DNL IP] Address {#section_C1CCBD2C225F4E898CEE01613899B775}
+## Platform Level Keys Defined by IP Address {#section_C1CCBD2C225F4E898CEE01613899B775}
 
 The values for these keys are determined by matching [!DNL IP] addresses to corresponding geographic and demographic data. However, you'll still have to enter the value parameter when creating the key-value pair in [!UICONTROL Trait Builder].
 

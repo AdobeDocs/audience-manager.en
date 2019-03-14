@@ -7,7 +7,7 @@ title: Profile Link Device Graph Use Cases
 uuid: bd5567fd-fcd5-40ba-b6f1-035d2ddbcd3a
 ---
 
-# [!UICONTROL Profile Link] Device Graph Use Cases {#profile-link-device-graph-use-cases}
+# Profile Link Device Graph Use Cases {#profile-link-device-graph-use-cases}
 
 Recommendations and use cases for segment retargeting and personalized segment qualification with the [!UICONTROL Profile Link] device graph.
 
@@ -21,7 +21,7 @@ Consider the [!UICONTROL Profile Link] device graph for campaigns that:
 
 ![](assets/merge-rule-triangle2.png)
 
-## Retargeting Use Case and [!UICONTROL Profile Merge Rule] Configuration {#section_2778EE45F23A4977811B74CDFCF100A9}
+## Retargeting Use Case and Profile Merge Rule Configuration {#section_2778EE45F23A4977811B74CDFCF100A9}
 
 Retarget audiences which have previously authenticated on-site and/or in-app across multiple devices. Segments can be composed of the following profiles:
 
@@ -70,13 +70,13 @@ Let's take a look at how this works with a sample credit card company. This exam
  </tbody> 
 </table>
 
-### Retargeting [!UICONTROL Profile Merge Rule] Example
+### Retargeting Profile Merge Rule Example
 
 To set up retargeting with [!UICONTROL Profile Link], your [!UICONTROL Authenticated Options] and [!UICONTROL Device Options] should look like the rule configuration shown below. The [!UICONTROL Authenticated Profile] options will be different from this example because these settings use the names of your cross-device data sources.
 
 ![Profile merge rule setup](assets/merge-rules-internal3.png)
 
-## Personalization Use Case and [!UICONTROL Profile Merge Rule] Configuration {#section_D0479113B03347A0976AEE8617E9CCCB}
+## Personalization Use Case and Profile Merge Rule Configuration {#section_D0479113B03347A0976AEE8617E9CCCB}
 
 Personalize the experience for authenticated audiences on-site and/or in-app based on activity across multiple devices. Segments can be composed of the following profiles:
 
@@ -126,7 +126,7 @@ Let's take a look at how this works with a sample credit card company.
  </tbody> 
 </table>
 
-### Personalization [!UICONTROL Profile Merge Rule] Example
+### Personalization Profile Merge Rule Example
 
 To set up personalization with [!UICONTROL Profile Link], your [!UICONTROL Authenticated Options] and [!UICONTROL Device Options] should look like the rule configuration shown below. The [!UICONTROL Authenticated Profile] options will be different from this example because these settings use the names of your cross-device data sources.
 

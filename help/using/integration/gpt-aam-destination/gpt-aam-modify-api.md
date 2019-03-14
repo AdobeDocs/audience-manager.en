@@ -7,7 +7,7 @@ title: Modify the GPT setTargeting API Call
 uuid: 0cd38f30-5d29-4511-a779-d32587f1dafb
 ---
 
-# Modify the [!DNL GPT] `setTargeting` [!DNL API] Call {#modify-the-gpt-settargeting-api-call}
+# Modify the GPT `setTargeting` API Call {#modify-the-gpt-settargeting-api-call}
 
 Add an if statement to check for Audience Manager cookies before calling the [!DNL Google Publisher Tag] `.setTargeting` method.
 

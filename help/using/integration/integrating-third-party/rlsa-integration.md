@@ -7,7 +7,7 @@ title: Send Segments to a Google AdWords Remarketing List
 uuid: 5ad821c6-48b4-42c0-b912-1563331e93a2
 ---
 
-# Send Segments to a [!DNL Google Ads] Remarketing List {#send-segments-to-a-google-adwords-remarketing-list}
+# Send Segments to a Google Ads Remarketing List {#send-segments-to-a-google-adwords-remarketing-list}
 
 This procedure requires a [!DNL Google Ads] remarketing list, pixel code, and an Audience Manager [!DNL URL] destination. It is also known as a remarketing list for search ads ([!DNL RLSA]) integration. Applies to paid search only.
 

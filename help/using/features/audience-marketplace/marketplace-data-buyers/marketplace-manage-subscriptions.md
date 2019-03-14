@@ -189,7 +189,7 @@ When a data provider deactivates one of your data feeds, [!DNL Audience Manager]
 
 * **Subject line:** Subscription to *name of data feed here* is Cancelled. 
 
-* **Attachments:**The email includes an attachment titled, " `list-of-affected-entities-by-feed-revocation.csv`." That is a convoluted way of saying the attachment lists all the traits included in the cancelled feed. As a data buyer, you should review this attachment. It will help you find and remove deactivated traits from your segments and [algorithmic models](../../../features/algorithmic-models/understanding-models.md#concept_49FB2DBD4AD041A4ABAAEE9D83BB996E).
+* **Attachments:** The email includes an attachment titled, " `list-of-affected-entities-by-feed-revocation.csv`." That is a convoluted way of saying the attachment lists all the traits included in the cancelled feed. As a data buyer, you should review this attachment. It will help you find and remove deactivated traits from your segments and [algorithmic models](../../../features/algorithmic-models/understanding-models.md#concept_49FB2DBD4AD041A4ABAAEE9D83BB996E).
 
 ## Deactivated Trait List {#section_36CECC9A202A43AD94202EE03B8FA5FC}
 

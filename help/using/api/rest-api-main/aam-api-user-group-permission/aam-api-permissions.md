@@ -7,7 +7,7 @@ title: Permissions Management API Methods
 uuid: 111d0f92-d92c-4d4b-b0d6-10dd3fa466ad
 ---
 
-# Permissions Management [!DNL API] Methods {#permissions-management-api-methods}
+# Permissions Management API Methods {#permissions-management-api-methods}
 
 Rest [!DNL API] methods to manage permissions for objects and groups.
 

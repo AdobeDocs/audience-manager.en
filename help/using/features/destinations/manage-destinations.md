@@ -123,7 +123,7 @@ This section lets you search for and add segments to your destination. To comple
 1. Click **[!UICONTROL Save]**.
 1. Click **[!UICONTROL Done]**.
 
-## Configure a [!DNL URL] Destination {#concept_51842672DFA943EA982B363E74D42DF8}
+## Configure a URL Destination {#concept_51842672DFA943EA982B363E74D42DF8}
 
 A [!DNL URL] destination makes pixel calls from a page to your destination. Follow these instructions to create a [!DNL URL] destination with [!UICONTROL Destination Builder].
 
@@ -216,7 +216,7 @@ In [!UICONTROL Destination Builder], the [!UICONTROL Configuration section] cont
  </tbody> 
 </table>
 
-### Complex [!DNL Cookie] Domain Examples
+### Complex Cookie Domain Examples
 
 These examples show you if [!DNL Audience Manager] will set a cookie based on how the [!UICONTROL Cookie Domain] option is configured.
 

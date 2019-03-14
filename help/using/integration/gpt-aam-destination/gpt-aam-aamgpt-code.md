@@ -7,7 +7,7 @@ title: Audience Manager Code for Google Publisher Tags
 uuid: 24ff5d16-b360-46cc-a4c6-6db34d7fda75
 ---
 
-# Audience Manager Code for [!DNL Google Publisher Tags] {#audience-manager-code-for-google-publisher-tags}
+# Audience Manager Code for Google Publisher Tags {#audience-manager-code-for-google-publisher-tags}
 
 `AamGpt` is a [!DNL JavaScript] function that reads Audience Manager cookie data and sends that information to [!DNL Google Publisher Tags].
 

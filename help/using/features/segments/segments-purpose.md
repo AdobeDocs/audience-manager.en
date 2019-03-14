@@ -27,7 +27,7 @@ An Audience Manager segment is a server-side rule that consists of individual or
 >
 >Audience Manager segments are different from [!DNL Adobe Analytics] segments. Read [Understanding Segments in Analytics and Audience Manager](https://marketing.adobe.com/resources/help/en_US/analytics/audiences/aam-analytics-segments.html) for an in-depth description of the differences.
 
-## Create Rules-based Segments With [!UICONTROL Segment Builder]
+## Create Rules-based Segments With Segment Builder
 
 Unlike traditional pixels that fire in response to simple yes/no conditions, Segment Builder lets you create complex segment requirements. Like traits, segments evaluate data using [!DNL Boolean] expressions ([!DNL AND], [!DNL OR], [!DNL NOT]), comparison operators (greater than, less than, equal to, etc.), and recency/frequency criteria. These features help create focused audience segments relevant to your business needs.
 

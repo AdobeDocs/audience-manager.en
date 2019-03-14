@@ -8,7 +8,7 @@ topic: DIL API
 uuid: aaee820c-1e78-4fd4-bd8f-2629085d78e9
 ---
 
-# [!UICONTROL Audience Lab] {#audience-lab}
+# Audience Lab {#audience-lab}
 
 Create mutually exclusive test segments in [!UICONTROL Segment Test Groups] to compare and measure effectiveness of different destinations. You can set aside a control group and divide your segment into percentages of a whole, in order to test efficacy.
 

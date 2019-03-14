@@ -8,7 +8,7 @@ title: Actionable Log Files
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 ---
 
-# [!UICONTROL Actionable Log Files] {#actionable-log-files}
+# Actionable Log Files {#actionable-log-files}
 
 [!UICONTROL Actionable Log Files] allow you to capture media data from [!DNL Google DCM] log files and use the data to create traits in Audience Manager. Capture impressions, clicks, and conversions from ad servers as traits without having to use pixel calls.
 
@@ -145,7 +145,7 @@ Retarget users who saw creative 123 but didn't click or convert and show them cr
 
 1. Map the segment [!DNL Retarget Users] to a destination and target users in the destination with creative 456.
 
-### Use [!DNL DCM] [!UICONTROL Floodlight Activity] in the [!UICONTROL Audience Optimization Reports] or in [!UICONTROL Audience Lab]
+### Use DCM Floodlight Activity in the Audience Optimization Reports or in Audience Lab
 
 [Floodlight tags](https://support.google.com/dcm/partner/answer/4293719?hl=en) enable advertisers to track user conversions. With [!UICONTROL Actionable Log Files], you can track the [!DNL DCM] conversions in the [Audience Optimization Reports](../../reporting/audience-optimization-reports/audience-optimization-reports.md#concept_D66D2C58493E48BDAFF2F95BBB508946) or in [Audience Lab](../../features/audience-lab/audience-lab.md#concept_CEAEE1C751CE405DB99041FC57CC17E0):
 

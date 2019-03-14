@@ -7,7 +7,7 @@ title: File PGP Encryption for Inbound Data Types
 uuid: 89caace1-0259-48fc-865b-d525ec7822f7
 ---
 
-# File [!DNL PGP] Encryption for Inbound Data Types{#file-pgp-encryption-for-inbound-data-types}
+# File PGP Encryption for Inbound Data Types{#file-pgp-encryption-for-inbound-data-types}
 
 As an option, you can encrypt data files with [!DNL PGP] encryption when sending them to Audience Manager.
 

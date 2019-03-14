@@ -7,7 +7,7 @@ title: Segment Builder
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 ---
 
-# [!UICONTROL Segment Builder] {#segment-builder}
+# Segment Builder {#segment-builder}
 
 Describes the required and optional steps that create a segment in [!UICONTROL Segment Builder].
 
@@ -38,7 +38,7 @@ Describes the required and optional steps that create a segment in [!UICONTROL S
     * Search for the destination and click **[!UICONTROL Add Destination]**. Note, the destination must already exist before you can add it to a segment.
     * Click **[!UICONTROL Save]** when done.
 
-## [!UICONTROL Segment Builder] Controls: [!UICONTROL Basic Information] Section {#reference_9FC34B07E1944CE5A23974B8E58B2A18}
+## Segment Builder Controls: Basic Information Section {#reference_9FC34B07E1944CE5A23974B8E58B2A18}
 
 In [!UICONTROL Segment Builder], [!UICONTROL the Basic Information] settings let you create new, or edit existing traits. To create a new segment, provide a name, a data source, and select a storage folder. All other fields are optional. Move on to the [!UICONTROL Traits] section when done.
 
@@ -83,7 +83,7 @@ In [!UICONTROL Segment Builder], [!UICONTROL the Basic Information] settings let
  </tbody> 
 </table>
 
-## [!UICONTROL Segment Builder] Controls: [!UICONTROL Traits] Section {#reference_131791CC12A6431A8AD5F19F4FB48947}
+## Segment Builder Controls: Traits Section {#reference_131791CC12A6431A8AD5F19F4FB48947}
 
 In [!UICONTROL Segment Builder], the [!UICONTROL Traits] section lets you manage traits in a segment, create trait groups, and set qualification criteria. To add a trait to a segment, type the trait name in the search field and click [!UICONTROL Add Trait]. Save the trait (if finished) or move on to [!UICONTROL Destinations Mapping].
 
@@ -99,7 +99,7 @@ In [!UICONTROL Segment Builder], the [!UICONTROL Traits] section lets you manage
 |Recommendations|Get live recommendations for similar traits to add to the segment rule. Read more in [Trait Recommendations](trait-recommendations.md).|
 |Real and Estimated Segment Size Data|See [Trait and Segment Population Data in Segment Builder](segment-builder-data.md).|
 
-## [!UICONTROL Segment Builder] Controls: [!UICONTROL Destinations Mappings] Section {#reference_D4D92F9F114449C9BC2A51A1C746D92F}
+## Segment Builder Controls: Destinations Mappings Section {#reference_D4D92F9F114449C9BC2A51A1C746D92F}
 
 In [!UICONTROL Segment Builder], the optional [!UICONTROL Destinations Mapping] section lets you send segment data to a third-party [!DNL cookie], [!DNL URL], or server-to-server destination. To add a destination, search (or browse) for a destination, provide destination specific information, and click **[!UICONTROL Add Destination]**.
 
@@ -109,7 +109,7 @@ In [!UICONTROL Segment Builder], the optional [!UICONTROL Destinations Mapping] 
 
 Complete the required fields in the [!UICONTROL Basic Information] and [!UICONTROL Traits] sections. Also, the destination must already exist.
 
-### [!UICONTROL Destination Mappings] Search Tools
+### Destination Mappings Search Tools
 
 The **[!UICONTROL Destination Mappings]** panel contains search tools as described in the table below.  
 
@@ -118,7 +118,7 @@ The **[!UICONTROL Destination Mappings]** panel contains search tools as describ
 | **Search by Destination Name** |Lets you search for a specific destination by name. To search, start typing. The field will auto-complete based on your search terms. Click **[!UICONTROL Add Destination]** when done.|
 | **Browse All Destinations** |Browse a list of *all* destinations available to you. Select and add destinations to your segment from the popup list.  |
 
-## Fields in the [!UICONTROL Destination Mappings] Pop-up Windows {#reference_D3871A197C21474091F940AB5498F98A}
+## Fields in the Destination Mappings Pop-up Windows {#reference_D3871A197C21474091F940AB5498F98A}
 
 In [!UICONTROL Segment Builder], the [!UICONTROL Add Destination] dialog appears after you select a destination. This window displays static information about the destination and fields that vary depending on the destination type. Provide the required information in the empty fields to set up a destination mapping.
 

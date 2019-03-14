@@ -7,7 +7,7 @@ title: Leverage Amazon S3 Cross-Account Bucket Permissions for Your Outbound Fil
 uuid: 400a8d67-ebf3-48be-aa3f-498a5441f498
 ---
 
-# Leverage [!DNL Amazon S3] Cross-Account Bucket Permissions for Your Outbound Files {#leverage-amazon-s-cross-account-bucket-permissions-for-your-outbound-files}
+# Leverage Amazon S3 Cross-Account Bucket Permissions for Your Outbound Files {#leverage-amazon-s-cross-account-bucket-permissions-for-your-outbound-files}
 
 The [!UICONTROL Outbound Data Transfer] process for customers using [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]) requires us to ask for your [!DNL Amazon S3] access key and secret key, in order to deliver the outbound data files to your bucket.
 

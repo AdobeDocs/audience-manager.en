@@ -8,7 +8,7 @@ title: Algorithmic API Methods
 uuid: 8d5304d7-c1cf-42df-94e7-3f583944bd62
 ---
 
-# Algorithmic [!DNL API] Methods {#algorithmic-api-methods}
+# Algorithmic API Methods {#algorithmic-api-methods}
 
 Methods that let you work programmatically with algorithmic modeling features.
 

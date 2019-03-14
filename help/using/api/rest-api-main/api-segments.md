@@ -7,7 +7,7 @@ title: Segment API Methods
 uuid: a3ab199f-6181-4b36-a1d1-5c2dba7539d3
 ---
 
-# Segment [!DNL API] Methods {#segment-api-methods}
+# Segment API Methods {#segment-api-methods}
 
 Methods that let you work programmatically with segments.
 

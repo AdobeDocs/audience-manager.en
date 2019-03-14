@@ -7,13 +7,13 @@ title: Data Integration Library API Methods
 uuid: 507e7afd-3ae7-44de-98b0-589d699c453b
 ---
 
-# [!UICONTROL Data Integration Library] [!DNL API] Methods {#data-integration-library-api-methods}
+# Data Integration Library API Methods {#data-integration-library-api-methods}
 
 Methods that let you work programmatically with the [!UICONTROL Data Integration Library] ([!UICONTROL DIL].
 
 <!-- c_data_integr_library_api.xml -->
 
-## Return Versions for [!UICONTROL DIL] {#reference_114BABEDE84B47D393BB3C3E05613468}
+## Return Versions for DIL {#reference_114BABEDE84B47D393BB3C3E05613468}
 
 A `GET` method that returns a list of versions ordered from oldest to newest.
 
@@ -31,7 +31,7 @@ A successful request returns response code `["4.0", "4.1"]` as shown below.
 ["4.0", "4.1"]
 ```
 
-## Return [!DNL JSON] Schema for Version {#reference_5CBA3F53ED1643D584A25A6CAEA30871}
+## Return JSON Schema for Version {#reference_5CBA3F53ED1643D584A25A6CAEA30871}
 
 A `GET` method that returns the [!DNL JSON] schema for the [!UICONTROL DIL] version. Supports using alias [!UICONTROL LATEST] for version to get the latest version of [!UICONTROL DIL].
 
@@ -368,7 +368,7 @@ A successful request returns response code `["4.0", "4.1"]` and data as shown be
 
 ```
 
-## Generate [!UICONTROL DIL] {#reference_E7EE4AA367D44E06A71C67CF025CD88B}
+## Generate DIL {#reference_E7EE4AA367D44E06A71C67CF025CD88B}
 
 A `GET` method that generates [!UICONTROL DIL] based on passed in request body using the specified version of [!UICONTROL DIL]. If the alias `LATEST` is used for version in the URL, the latest version of [!UICONTROL DIL] is generated.
 

@@ -7,7 +7,7 @@ title: Getting Started with REST APIs
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 ---
 
-# Getting Started with [!UICONTROL REST APIs] {#getting-started-with-rest-apis}
+# Getting Started with REST APIs {#getting-started-with-rest-apis}
 
 Information about general requirements, authentication, optional query parameters, request URLs, and other references.
 
@@ -32,7 +32,7 @@ Note the following when working with [Audience Manager API](https://bank.demdex.
 
 * **Documentation and code samples:** Text in *italics* represents a variable that you provide or pass in when making or receiving [!DNL API] data. Replace *italicised* text with your own code, parameters, or other required information.
 
-## Recommendations: Create a Generic [!DNL API] User {#section_F520E4C007904BB78EC694E5A9A46E0A}
+## Recommendations: Create a Generic API User {#section_F520E4C007904BB78EC694E5A9A46E0A}
 
 We recommend you create a separate, technical user account for working with the Audience Manager [!DNL API]s. This is a generic account that is not tied to or associated with a specific user in your organization. This type of [!DNL API] user account helps you accomplish 2 things:
 
@@ -57,7 +57,7 @@ Password authentication secure access our [!DNL REST API]. The steps below outli
 >
 >Encrypt access and refresh tokens if you store them in a database.
 
-### Step 1: Request [!DNL API] Access
+### Step 1: Request API Access
 
 Contact your Partner Solutions manager. They will provide you with an [!DNL API] client ID and secret. The ID and secret authenticate you to the [!DNL API].
 
@@ -133,7 +133,7 @@ The Audience Manager [!UICONTROL REST API] supports authorization code and impli
 >* [OAuth 2.0](https://oauth.net/2/)
 >* [OAuth 2 Simplified](https://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified#browser-based-apps)
 
-## Make Authenticated [!DNL API] Requests {#concept_1A4B53C4554C4B0396499997EECCBDB9}
+## Make Authenticated API Requests {#concept_1A4B53C4554C4B0396499997EECCBDB9}
 
 Requirements for calling [!DNL API] methods after you receive an authentication token.
 
@@ -148,7 +148,7 @@ To make calls against the available [!DNL API] methods:
 >
 >* [OAuth Authentication](../../api/rest-api-main/aam-api-getting-started.md#concept_426EEF5C102049B08C8ECF90FCB41796)
 
-## Optional [!DNL API] Query Parameters {#concept_BB1E73AE736F4F54830E6CAF28089608}
+## Optional API Query Parameters {#concept_BB1E73AE736F4F54830E6CAF28089608}
 
 Set the optional parameters available to methods that return all properties for an object.
 
@@ -175,13 +175,13 @@ When page information *is not* specified, the request returns plain [!DNL JSON] 
 GET https://api.demdex.com/v1/models/?page=1&pageSize=2&search=Test
 ```
 
-## [!DNL API] [!DNL URLs] {#reference_B6E2ECCB46834DF597BBAE3BEBD7BE4D}
+## [!DNL API] URLs {#reference_B6E2ECCB46834DF597BBAE3BEBD7BE4D}
 
 [!DNL URLs] for requests, staging and production environments, and versions.
 
 <!-- r_rest_urls.xml -->
 
-## Request [!DNL URLs] {#section_2DBA5BD10E8B4E0DBD51BD36055C5013}
+## Request URLs {#section_2DBA5BD10E8B4E0DBD51BD36055C5013}
 
 The following table lists the request URLs used to pass in [!DNL API] requests, by method.
 

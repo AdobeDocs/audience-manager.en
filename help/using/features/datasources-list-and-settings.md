@@ -7,7 +7,7 @@ title: Data Sources List and Settings
 uuid: 280a6acd-fef0-4737-a96d-9e22fbc8bfaf
 ---
 
-# [!UICONTROL Data Sources] List and Settings {#data-sources-list-and-settings}
+# Data Sources List and Settings {#data-sources-list-and-settings}
 
 View a list of your currently configured data sources, add new data sources, and edit existing sources.
 
@@ -27,11 +27,11 @@ The [!UICONTROL Data Sources] dashboard (**[!UICONTROL Audience Data]** > **[!UI
 * Search for data sources by name.
 * Create, edit, and delete data sources.
 
-## [!UICONTROL Data Source] Settings and Menu Options {#reference_A87B381067E04C26A426514AF3B64E64}
+## Data Source Settings and Menu Options {#reference_A87B381067E04C26A426514AF3B64E64}
 
 The settings in the different sections of the [!UICONTROL Data Source] management interface identify your data source, determine how it is used or shared, and let you enable error reporting for the [!UICONTROL Onboarding Status Report].
 
-## [!UICONTROL Data Source] Details] {#section_43423119AD0E42A8B4C01747747E49A2}
+## Data Source Details] {#section_43423119AD0E42A8B4C01747747E49A2}
 
 <!-- datasource-settings-definitions.xml -->
 
@@ -69,7 +69,7 @@ In addition to text fields, the [!UICONTROL Data Source Details] section contain
  </tbody> 
 </table>
 
-## [!UICONTROL Data Export Controls] {#section_38F7E2A550A44A079BA8C26148B25349}
+## Data Export Controls {#section_38F7E2A550A44A079BA8C26148B25349}
 
 [Data Export Controls](../features/data-export-controls.md) are optional classification rules you can apply to a data source and destination. They prevent you from sending data to a destination when that action violates a data privacy or use agreement. Skip this section if you do not use [!UICONTROL Data Export Controls].
 
@@ -85,11 +85,11 @@ Options include:
 * **[!UICONTROL Cannot be used for off-site ad targeting]**
 * **[!UICONTROL Cannot be used for on-site personalization]**
 
-## [!UICONTROL Data Source] Settings {#section_423704D358D049738DBA4216FEFFF798}
+## Data Source Settings {#section_423704D358D049738DBA4216FEFFF798}
 
 The [!UICONTROL Data Source Settings] contains the controls and options listed below. Some of these settings have additional sub-options and menu items that you can select to modify a data source.
 
-### [!UICONTROL Inbound Data Source] Settings
+### Inbound Data Source Settings
 
 Select the **[!UICONTROL Inbound]** check box when your data source is designed to receive inbound data. Selecting the **[!UICONTROL Inbound]** check box exposes 2 additional groups of controls described below.
 
@@ -117,7 +117,7 @@ Select the **[!UICONTROL Inbound]** check box when your data source is designed 
  </tbody> 
 </table>
 
-### Other [!UICONTROL Data Source] Settings
+### Other Data Source Settings
 
 <table id="table_82FEFA8DC8294FA18FB4C17F02DF5152"> 
  <thead> 

@@ -8,7 +8,7 @@ title: Customer Data Feeds
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 ---
 
-# [!UICONTROL Customer Data Feeds] {#customer-data-feeds}
+# Customer Data Feeds {#customer-data-feeds}
 
 Basic information about [!UICONTROL Customer Data Feed] ([!UICONTROL CDF]) files and instructions on how to get started. Start here if you're interested in receiving [!UICONTROL CDF] files or just want more information.
 
@@ -116,7 +116,7 @@ A [!UICONTROL CDF] file includes some or all of the fields defined below. For in
  </tbody> 
 </table>
 
-## [!UICONTROL Customer Data Feed] File Structure {#cdf-file-structure}
+## Customer Data Feed File Structure {#cdf-file-structure}
 
 Lists and defines the data structure of a [!UICONTROL CDF] file. This includes data sequence, field delimiters and separators, a data file map, and sample file.
 
@@ -163,7 +163,7 @@ Lists and defines the data structure of a [!UICONTROL CDF] file. This includes d
  </tbody> 
 </table>
 
-## [!UICONTROL CDF] File Map {#cdf-file-map}
+## CDF File Map {#cdf-file-map}
 
 [!UICONTROL CDF] file data appears in the order shown below.
 
@@ -173,17 +173,17 @@ Lists and defines the data structure of a [!UICONTROL CDF] file. This includes d
 
 Arrays in a [!UICONTROL CDF] file start and end with the `Ctrl + a` field separator. This makes the first element in an array appear like a standalone data field. For example, the realized traits array starts with `^A1234`. The array delimiter and ID `^B5678` follows this entry. As a result, you might be tempted to think that the first element in the realized traits array is ID 5678 (because it starts with `^B`). This is not the case, which is why you need to be familiar with the sequence and structure of a data file. Even though the first element in the realized trait array (or any of the other arrays in a [!UICONTROL CDF] file) starts with `^A`, the order of appearance or position in the file defines the start of an array. And, the first element in an array is always separated from the preceding entry by `^A`.
 
-## Sample [!UICONTROL CDF] File {#sample-file}
+## Sample CDF File {#sample-file}
 
 A sample [!UICONTROL CDF] file could look similar to the following. We've inserted line breaks into this example to help it fit the page.
 
 ![](assets/CDF-sample.png)
 
-## [!UICONTROL Customer Data Feed] File Naming Conventions {#cdf-naming-conventions}
+## Customer Data Feed File Naming Conventions {#cdf-naming-conventions}
 
 The sections below list and define the elements in your [!UICONTROL CDF] file name.
 
-## [!UICONTROL CDF] File Name: Syntax and Example {#cdf-file-name}
+## CDF File Name: Syntax and Example {#cdf-file-name}
 
 <!-- cdf-file-name.xml -->
 
@@ -192,7 +192,7 @@ A typical [!UICONTROL CDF] file name contains the elements listed below. Note, *
 * **Syntax** 
 
 <pre><code>
-s3://aam-cdf/<i>your s3 bucket name</i>/day=<i>yyyy-mm-dd</i>/hour=<i>hh</i>/<i>AAM_CDF_partner ID_AAM process ID</i>\_0.gz
+s3://aam-cdf/<i>your s3 bucket name</i>/day=<i>yyyy-mm-dd</i>/hour=<i>hh</i>/<i>AAM_CDF_partner ID_AAM process ID</i>_0.gz
 </code></pre>
 
 * **Example** 
@@ -203,7 +203,7 @@ s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_000058_0.gz
 
 In your [!DNL S3] storage bucket, files are sorted in ascending order by Partner ID ([!UICONTROL PID]), day, and hour.
 
-## [!UICONTROL CDF] File Name Elements Defined {#cdf-file-name-elements}
+## CDF File Name Elements Defined {#cdf-file-name-elements}
 
 The following table lists and defines the elements in a [!UICONTROL CDF] file name.
 
@@ -246,7 +246,7 @@ The following table lists and defines the elements in a [!UICONTROL CDF] file na
  </tbody> 
 </table>
 
-## [!UICONTROL Customer Data Feed] File Processing Notifications {#cdf-file-processing-notifications}
+## Customer Data Feed File Processing Notifications {#cdf-file-processing-notifications}
 
 [!DNL Audience Manager] writes a `.info` file to your [!DNL S3] directory to let you know when your [!UICONTROL Customer Data File] ([!UICONTROL CDF]) is ready for download. The `.info` file also includes [!DNL JSON] formatted metadata about the contents of your [!UICONTROL CDF] files. Review this section for information about the syntax and fields used by this notification file.
 
@@ -351,11 +351,11 @@ The following tables list and define the elements in a [!UICONTROL CDF] `.info` 
  </tbody> 
 </table>
 
-## [!UICONTROL Customer Data Feed] File Name Times and File Content Times are Different {#different-processing-times}
+## Customer Data Feed File Name Times and File Content Times are Different {#different-processing-times}
 
 Your [!UICONTROL CDF] file contains timestamps in the file name and file contents. These timestamps record different event processes for the same [!UICONTROL CDF] file. It is not uncommon to see different timestamps in the name and contents of the same file. Understanding each timestamp can help you avoid common mistakes when working with this data or trying to sort it by time.
 
-## Locating [!UICONTROL CDF] File Timestamps {#locating-timestamps}
+## Locating CDF File Timestamps {#locating-timestamps}
 
 <!-- cdf-time-differences.xml -->
 
@@ -367,28 +367,10 @@ Your [!UICONTROL CDF] file contains timestamps in the file name and file content
 
 The following table provides additional details about your [!UICONTROL CDF] file timestamps along with information about how to use them properly.
 
-<table id="table_77F52DDF37F549209D9DE19272F2E57E"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Timestamp Location </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <b>File Name</b> </p> </td> 
-   <td colname="col2"> <p>The timestamp in your CDF file name marks the time when <span class="keyword"> Audience Manager</span> started preparing your file for delivery. This timestamp is set in the UTC time zone. It uses the <code> hour=</code> parameter, with time formatted as a 2-digit hour in 24-hour notation. This time can be different than the event time recorded in the file contents. </p> <p>When working with CDF files, sometimes you'll notice that your S3 bucket is empty for a particular hour. An empty bucket means can mean either of the following: </p> <p>
-     <ul id="ul_17F1B3AD9D17414EA5D2C976E98D3354"> 
-      <li id="li_E2FE44B220574073B2961F17AE201509">There's no data for that particular hour. </li>
-      <li id="li_D95E682F50624030815FD75F2A60BE36"> Our servers are under heavy loads and can't process files for a particular hour. When the server catches up, it puts the files that should have gone in an earlier time bucket files into a bucket with a later time value. For example, you'll see this when a file that should have been in the hour 17 bucket appear in the hour 18 bucket (with <code> hour=18</code> in the file name). In this case, the server probably started processing your file in hour 17 but couldn't complete it within that time interval. Instead, the file gets pushed to the next hourly time bucket. </li>
-     </ul> </p> <p> <p>Important: Do not use the file name timestamp to group events by time. If you need to group by time, use the <code> EventTime</code> timestamp in the file contents. </p> </p> </td>
-  </tr>
-  <tr> 
-   <td colname="col1"> <p> <b>File Contents</b> </p> </td>
-   <td colname="col2"> <p>The timestamp in your CDF file contents marks the time the <span class="wintitle"> Data Collection Servers</span> started processing the file. This timestamp is set in the UTC time zone. It uses the <code> EventTime</code> field, with time formatted as <code><i>yyyy-mm-dd hh:mm:ss</i></code>. This time is close to the actual time of the event on the page, but it can be different than the hour indicator in the file name. </p> <p> <p>Tip: Unlike the <code> hour=</code> timestamp in the file name, you can use <code> EventTime</code> to group data by time. </p> </p> </td>
-  </tr>
- </tbody>
-</table>
+| Timestamp Location | Description |
+|--- |--- |
+|File Name|The timestamp in your CDF file name marks the time when [!DNL Audience Manager] started preparing your file for delivery. This timestamp is set in the UTC time zone. It uses the `hour=` parameter, with time formatted as a 2-digit hour in 24-hour notation. This time can be different than the event time recorded in the file contents. BREAKWhen working with CDF files, sometimes you'll notice that your S3 bucket is empty for a particular hour. An empty bucket means can mean either of the following:<ul><li>There's no data for that particular hour. </li><li> Our servers are under heavy loads and can't process files for a particular hour. When the server catches up, it puts the files that should have gone in an earlier time bucket files into a bucket with a later time value. For example, you'll see this when a file that should have been in the hour 17 bucket appear in the hour 18 bucket (with `hour=18` in the file name). In this case, the server probably started processing your file in hour 17 but couldn't complete it within that time interval. Instead, the file gets pushed to the next hourly time bucket.</li></ul><br>**Important**: Do not use the file name timestamp to group events by time. If you need to group by time, use the `EventTime` timestamp in the file contents.|
+|File Contents|The timestamp in your CDF file contents marks the time the  Data Collection Servers started processing the file. This timestamp is set in the UTC time zone. It uses the `EventTime` field, with time formatted as *`yyyy-mm-dd hh:mm:ss`*. This time is close to the actual time of the event on the page, but it can be different than the hour indicator in the file name. <br> **Tip**: Unlike the `hour=` timestamp in the file name, you can use `EventTime` to group data by time.|
 
 >[!MORE_LIKE_THIS]
 >

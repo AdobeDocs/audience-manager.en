@@ -7,7 +7,7 @@ title: Traits Dashboard
 uuid: 31b8f958-f67d-4af2-8d78-e37e2dfe810d
 ---
 
-# [!UICONTROL Traits] Dashboard {#traits-dashboard}
+# Traits Dashboard {#traits-dashboard}
 
 The [!UICONTROL Traits] dashboard is a centralized workspace for managing traits.
 

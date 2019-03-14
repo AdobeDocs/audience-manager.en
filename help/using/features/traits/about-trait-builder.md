@@ -7,7 +7,7 @@ title: About Trait Builder
 uuid: 4258616c-7a9f-4fe9-95e2-9f51896a14ab
 ---
 
-# About [!UICONTROL Trait Builder] {#about-trait-builder}
+# About Trait Builder {#about-trait-builder}
 
 [!UICONTROL Trait Builder] is a feature that improves upon traditional pixel-based data collection and audience creation/segmentation processes. It works by processing page data with server-side rules you create in the user interface.
 

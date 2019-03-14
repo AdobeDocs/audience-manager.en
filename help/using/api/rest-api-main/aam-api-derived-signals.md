@@ -7,7 +7,7 @@ title: Derived Signals API Methods
 uuid: 698019bc-d7f6-41e0-a78a-1ab0bf0e65a0
 ---
 
-# Derived Signals [!DNL API] Methods {#derived-signals-api-methods}
+# Derived Signals API Methods {#derived-signals-api-methods}
 
 [!DNL API] methods that let you work with derived signals. A derived signal qualifies site visitors for additional traits based on a trait they've already seen.
 

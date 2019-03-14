@@ -6,7 +6,7 @@ title: Important Considerations for Profile Merge Rules with Device Graphs
 uuid: 93cd8861-210d-4c52-9cb7-6f2dd7dc018a
 ---
 
-# Important Considerations for [!UICONTROL Profile Merge Rules] with [!UICONTROL Device Graphs] {#important-considerations-for-profile-merge-rules-with-device-graphs}
+# Important Considerations for Profile Merge Rules with Device Graphs {#important-considerations-for-profile-merge-rules-with-device-graphs}
 
 Avoid using [!UICONTROL Profile Merge Rules] with a [!UICONTROL Device Graph] for segments which have little to no real-time segment population.
 

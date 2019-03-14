@@ -7,7 +7,7 @@ title: Send Data to the DCS
 uuid: 024e307d-bfcb-46cf-ac3a-fc71df0248fe
 ---
 
-# Send Data to the [!UICONTROL DCS] {#send-data-to-the-dcs}
+# Send Data to the DCS {#send-data-to-the-dcs}
 
 Start here for information about making `/event` calls to the [!UICONTROL DCS]. This section includes information about call syntax, parameters, formatting, and a request example.
 

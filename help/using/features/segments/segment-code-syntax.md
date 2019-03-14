@@ -7,11 +7,11 @@ title: Code Syntax Used in the Segment Expression Editor
 uuid: 7b4b06ca-7879-4501-8ba7-b2b6467b8a3b
 ---
 
-# Code Syntax Used in the [!UICONTROL Segment Expression Editor] {#code-syntax-used-in-the-segment-expression-editor}
+# Code Syntax Used in the Segment Expression Editor {#code-syntax-used-in-the-segment-expression-editor}
 
 [!UICONTROL Segment Builder] lets you build trait rules for a segment using a code editor. Click the **[!UICONTROL Segment Expressions (Code View)]** tab in the [!UICONTROL Traits] panel to access this feature.
 
-## [!UICONTROL Expression Builder] Code Syntax
+## Expression Builder Code Syntax
 
 You can add trait rules to a segment with code instead of using drag and drop features. When coding, replace italicized elements in the example with an actual expression or value. The base code uses following syntax:
 
@@ -24,7 +24,7 @@ FREQUENCY([<traitID1>T,<traitID2>T]<Recency Operator><Numeric Value>D)
 >
 >By default, [!DNL Boolean] [!UICONTROL OR] conditions apply to multiple traits *within* an expression.
 
-### Join Segments with [!DNL Boolean] Operators
+### Join Segments with Boolean Operators
 
 To build groups of segments, wrap the frequency function in parenthesis and set the relationship *between* each expression with a [!DNL Boolean] operator ([!UICONTROL AND], [!UICONTROL OR], and [!UICONTROL NOT]).
 

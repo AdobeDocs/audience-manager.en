@@ -7,7 +7,7 @@ title: Segment Summary View
 uuid: e844e423-9701-42d4-9ba5-d82f41358adc
 ---
 
-# [!UICONTROL Segment Summary] View {#segment-summary-view}
+# Segment Summary View {#segment-summary-view}
 
 The [!UICONTROL Segment Summary] page displays details such as name, traits in the segment, rules performance data, and destination mapping information.
 

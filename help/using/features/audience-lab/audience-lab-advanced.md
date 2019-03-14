@@ -32,7 +32,7 @@ By duplicating an allocation template, you can reuse the same distribution of te
 With the option to duplicate allocation templates, you can increase your productivity when running multivariate tests as part of multivariate campaigns.
 -->
 
-### Using [!UICONTROL Duplicate Allocation Template]
+### Using Duplicate Allocation Template
 
 Create an initial test group, then select **[!UICONTROL Duplicate Allocation Template]** to reuse the same settings across multiple test groups. For example, you can use this feature if you're running a test where you want to determine the efficacy of several destinations for multiple segments.
 
@@ -50,7 +50,7 @@ Create an initial test group, then select **[!UICONTROL Duplicate Allocation Tem
 
 4. Review the information you added in the previous steps and select **[!UICONTROL Finalize Group]**.
 
-## [!UICONTROL Test Segment Holdout] {#test-segment-holdout}
+## Test Segment Holdout {#test-segment-holdout}
 
 >[!NOTE]
 >
@@ -62,7 +62,7 @@ Use this feature to withhold part of the audience from being included in the tes
 <p>Note that this option is different to the control segment because it subtracts the percentage ................. You can withhold an audience group and still use a control segment. </p>
 -->
 
-### Using [!UICONTROL Test Segment Holdout]
+### Using Test Segment Holdout
 
 1. Create a new test group by using the [!UICONTROL Create Test Group] wizard.
 1. In the **[!UICONTROL Allocate Test Segment]** step, you can select a part of the audience to be withheld from testing.

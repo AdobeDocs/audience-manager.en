@@ -8,11 +8,11 @@ title: Manage Folder Traits
 uuid: 287ac280-bd58-4985-85bd-b6501eb64b7f
 ---
 
-# Manage [!UICONTROL Folder Traits] {#manage-folder-traits}
+# Manage Folder Traits {#manage-folder-traits}
 
 Create, edit, and delete folder traits.
 
-## Create a [!UICONTROL Folder Trait] {#task_08E0B888675440AB9418E47ED0A7A771}
+## Create a Folder Trait {#task_08E0B888675440AB9418E47ED0A7A771}
 
 A [!UICONTROL folder trait] is created automatically when you create a new folder in your taxonomy.
 
@@ -27,7 +27,7 @@ A [!UICONTROL folder trait] is created automatically when you create a new folde
 1. Name the folder and click **Save**. For example, a folder named Electronics will have a folder trait named 'Electronics Folder Trait'. You can view and select the new folder trait in the traits dashboard.
 1. The new folder trait is automatically assigned to the [!DNL Audience Manager] generated data source. Your users with appropriate [!UICONTROL Role-Based Access Control ([!DNL RBAC])] permissions can change the data source in the edit folder trait workflow. See [Edit a Folder Trait](../../features/traits/manage-folder-traits.md#task_7B1959B7BCFA4409BECDBAAC94A65771).
 
-## Edit a [!UICONTROL Folder Trait] {#task_7B1959B7BCFA4409BECDBAAC94A65771}
+## Edit a Folder Trait {#task_7B1959B7BCFA4409BECDBAAC94A65771}
 
 Describes how you can edit a [!UICONTROL folder trait].
 
@@ -46,7 +46,7 @@ Describes how you can edit a [!UICONTROL folder trait].
 >
 >You cannot directly rename a folder trait. [Rename its associated storage folder](../../features/traits/trait-storage.md#task_0A123EBA0E7D4DC68C027936CBC77711) in order to change the name of the folder trait.
 
-## Delete a [!UICONTROL Folder Trait] {#task_D8C06B8EB28A4EB98A37747638490368}
+## Delete a Folder Trait {#task_D8C06B8EB28A4EB98A37747638490368}
 
 Delete a folder trait by deleting the storage folder that the trait belongs to.
 

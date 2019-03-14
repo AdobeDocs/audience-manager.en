@@ -7,7 +7,7 @@ title: Folder API Methods
 uuid: ebb6290e-98c0-472e-ba04-eb5dac036425
 ---
 
-# [!UICONTROL Folder API] Methods {#folder-api-methods}
+# Folder API Methods {#folder-api-methods}
 
 Methods that let you work programmatically with trait and segment folders. Folders are directories that hold and organize traits and segments in logical groups.
 

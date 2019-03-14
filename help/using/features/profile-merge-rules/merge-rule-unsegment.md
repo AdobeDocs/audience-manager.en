@@ -7,7 +7,7 @@ title: Profile Merge Rules and Device Un-Segmentation Processes
 uuid: b61c6de3-5fe4-4892-a05a-96a4cb35af34
 ---
 
-# [!UICONTROL Profile Merge Rules] and Device Un-Segmentation Processes {#profile-merge-rules-and-device-un-segmentation-processes}
+# Profile Merge Rules and Device Un-Segmentation Processes {#profile-merge-rules-and-device-un-segmentation-processes}
 
 Unsegmentation describes processes that disqualify and remove device profiles from segments. Your ability to remove a device profile from a segment depends on the device option used to create a [!UICONTROL Profile Merge Rule].
 
