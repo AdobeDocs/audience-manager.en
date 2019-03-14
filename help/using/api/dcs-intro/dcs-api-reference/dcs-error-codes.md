@@ -22,6 +22,7 @@ In the tables below, *italics* represents a variable placeholder.
 |2|Invalid `d_orgid` value (could not find a config for this org id): *`ID`*|The Organization ID is incorrect. <br>Check your ID and try the request again. If you do not know or have your Organization ID, see the "Administration Page" section in [Experience Cloud Administration](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html) for information about how to find it.|
 
 ## Integration Error Codes {#integration-error-codes}
+
 | Code ID | Message | Description |
 |--- |--- |--- |
 |100|Could not retrieve host name for the request|An API call did not send the host HTTP header in the request.<br>Add host header to the call and try again. Note, most browsers and API clients do this automatically.|
@@ -39,7 +40,6 @@ In the tables below, *italics* represents a variable placeholder.
 |173|Encountered trust relationship via [NAI](https://www.networkadvertising.org/)|The user has initiated an opt-out process through NAI.|
 |198|Requests from this country are blocked by partner|Based on the IP address, the [!UICONTROL DCS] blocks requests from countries where the partner has deliberately limited the traffic.|
 |199|Requests from this country are not allowed|Based on the IP address, the [!UICONTROL DCS] blocks requests from the following countries:<ul><li>Cuba (CU)</li><li>Iran (IR)</li><li>North Korea (KP)</li><li>Sudan (SD)</li><li>Syria (SY)</li></ul>|
-
 
 ## Profile Retrieval Error Codes {#profile-retrieval-error-codes}
 
