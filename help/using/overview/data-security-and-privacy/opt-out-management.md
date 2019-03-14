@@ -95,8 +95,6 @@ For a description and syntax, see [URL Variables and Syntax for Declared IDs](..
 
 | Opt-Out Using | Code Sample |
 |--- |--- |
-|A data provider ID and user ID.|`https://  domain name /demoptout.jpg?d_cid=123%01987...`|
-|An integration code and user ID.|`https://  domain name /demoptout?d_cid_ic=456%01321...`|
-|Multiple  d_cid  and  d_cid_ic  key-value pairs.|`https://  domain name /demoptout?d_cid=123%01987&d_cid_ic=456%01321...`|
-
-
+|A data provider ID and user ID.|`https://domain name/demoptout.jpg?d_cid=123%01987...`|
+|An integration code and user ID.|`https://domain name/demoptout?d_cid_ic=456%01321...`|
+|Multiple  d_cid  and  d_cid_ic  key-value pairs.|`https://domain name/demoptout?d_cid=123%01987&d_cid_ic=456%01321...`|

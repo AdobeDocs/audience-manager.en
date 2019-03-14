@@ -14,7 +14,7 @@ uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 
 >[!NOTE]
 >
->The text styles ( `monospaced text`, *italics*, brackets `[ ]` `( )`, etc.) in this document indicate code elements and options. See [Style Conventions for Code and Text Elements](../../reference/code-style-elements.md#reference_59D0BD0EDB424A65853460D91CCA35D9) for more information.
+>The text styles (`monospaced text`, *italics*, brackets `[ ]` `( )`, etc.) in this document indicate code elements and options. See [Style Conventions for Code and Text Elements](../../reference/code-style-elements.md#reference_59D0BD0EDB424A65853460D91CCA35D9) for more information.
 
 ## Purpose {#section_42B595E75E7A42E589F5E166968A1311}
 
@@ -69,12 +69,12 @@ Remember, in order to use this information for audience creation and segmentatio
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_conversion</code> </p> </td> 
-   <td colname="col2"> <p>Available only for conversion events. </p> <p>Represents the numerical ID for the conversion activity in [!DNL DCM]. This field maps to the Activity ID from [!DNL DCM]. </p> <p> <p>Tip: You can capture multiple or specific conversion activities from [!DNL DCM]. Create traits using <code> d_conversion = activity ID</code> for each conversion activity from [!DNL DCM]. </p> </p> </td> 
+   <td colname="col2"> <p>Available only for conversion events. </p> <p>Represents the numerical ID for the conversion activity in DCM. This field maps to the Activity ID from DCM. </p> <p> <p>Tip: You can capture multiple or specific conversion activities from DCM. Create traits using <code> d_conversion = activity ID</code> for each conversion activity from DCM. </p> </p> </td> 
    <td colname="col3"> <p> <code> 24122</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_conversionType</code> </p> </td> 
-   <td colname="col2"> <p>Available only for conversion events. </p> <p>This field maps to the Conversion ID in [!DNL DCM]. Indicates the activity preceding the user conversion from [!DNL DCM]. </p> <p>Accepted values are: </p> <p> 
+   <td colname="col2"> <p>Available only for conversion events. </p> <p>This field maps to the Conversion ID in DCM. Indicates the activity preceding the user conversion from DCM. </p> <p>Accepted values are: </p> <p> 
      <ul id="ul_2256294F1C6F448B9F269D00D4DFEE65"> 
       <li id="li_29D3FF8919B7404297E80BACA913117A"> <code> 1</code> for post-click conversions. </li> 
       <li id="li_B5250A63A2C1413FAF1FDC8272BFFB97"> <code> 2</code> for post-impression conversions. </li> 
@@ -84,27 +84,27 @@ Remember, in order to use this information for audience creation and segmentatio
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_adsrc</code> </p> </td> 
-   <td colname="col2"> <p>Advertiser ID. This field maps to the Advertiser Group ID from [!DNL DCM]. </p> </td> 
+   <td colname="col2"> <p>Advertiser ID. This field maps to the Advertiser Group ID from DCM. </p> </td> 
    <td colname="col3"> <p> <code> 134243</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_bu</code> </p> </td> 
-   <td colname="col2"> <p>Business Unit ID. This field maps to the Advertiser ID from [!DNL DCM]. </p> </td> 
+   <td colname="col2"> <p>Business Unit ID. This field maps to the Advertiser ID from DCM. </p> </td> 
    <td colname="col3"> <p> <code> 563332</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_campaign</code> </p> </td> 
-   <td colname="col2"> <p>The Campaign ID provided by [!DNL DCM]. </p> </td> 
+   <td colname="col2"> <p>The Campaign ID provided by DCM. </p> </td> 
    <td colname="col3"> <p> <code> 7892520</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_creative</code> </p> </td> 
-   <td colname="col2"> <p>The Creative ID provided by [!DNL DCM]. </p> </td> 
+   <td colname="col2"> <p>The Creative ID provided by DCM. </p> </td> 
    <td colname="col3"> <p> <code> 224221</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_src</code> </p> </td> 
-   <td colname="col2"> <p>The ID of the data source you use to capture [!DNL DCM] data. See <a href="../../features/manage-datasources.md#concept_3B7696B3EC77416492D3B99EBD79EA44"> How to Create a Data Source</a>. </p> </td> 
+   <td colname="col2"> <p>The ID of the data source you use to capture DCM data. See <a href="../../features/manage-datasources.md#concept_3B7696B3EC77416492D3B99EBD79EA44"> How to Create a Data Source</a>. </p> </td> 
    <td colname="col3"> <p> <code> 743</code> </p> </td> 
   </tr>
  </tbody>

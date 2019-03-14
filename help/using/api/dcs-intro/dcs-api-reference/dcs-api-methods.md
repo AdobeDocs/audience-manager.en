@@ -44,7 +44,7 @@ curl -X POST \
 
 <pre><code>
 curl -X POST \ 
-  https:// <i>yourcompany</i>.demdex.net/event \ 
+  https://<i>yourcompany</i>.demdex.net/event \ 
   -H 'content-type: application/x-www-form-urlencoded' \ 
   -d '<i>c_likes=famous%20popstar</i>& <i>c_loves=famous%20actress</i>&<i>d_uuid=12345678901234567890123456789012345678</i>'
 </code></pre>

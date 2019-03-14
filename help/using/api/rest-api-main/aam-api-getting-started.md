@@ -216,7 +216,7 @@ The [!DNL Audience Manager] [!DNL API]s provide access to different working envi
 
 New versions of these [!DNL API]s are released on a regular schedule. A new release increments the [!DNL API] version number. The version number is referenced in the request URL as `v<version number>` as shown in the following example:
 
-`https:// <host>/v1/...`
+`https://<host>/v1/...`
 
 ## Response Codes Defined {#reference_2AC89154A26E49A48E0DDD8DA520757F}
 

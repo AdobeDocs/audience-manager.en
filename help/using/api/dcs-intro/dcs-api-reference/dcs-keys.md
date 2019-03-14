@@ -37,7 +37,7 @@ The [!UICONTROL DCS] relies on specific prefixes added to the keys in key-value 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> p_</code> </p> </td> 
-   <td colname="col2"> <p>Private, customer-defined attributes. </p> <p> The [!UICONTROL DCS] accepts your own, private data when the key has a <code> p_</code> prefix. Private data is used for trait evaluation, but it will not be logged or stored in our system. For example, lets say you have a trait defined as <code> customers = p_age&lt;25</code> and you pass in <code> p_age=23</code> in an event call. Given these conditions, the user who meets the age-based qualification criteria qualifies for the trait, but the key-value pair is dropped after <span class="keyword"> Audience Manager</span> receives the request and is not logged. </p> </td>
+   <td colname="col2"> <p>Private, customer-defined attributes. </p> <p> The DCS accepts your own, private data when the key has a <code> p_</code> prefix. Private data is used for trait evaluation, but it will not be logged or stored in our system. For example, lets say you have a trait defined as <code> customers = p_age&lt;25</code> and you pass in <code> p_age=23</code> in an event call. Given these conditions, the user who meets the age-based qualification criteria qualifies for the trait, but the key-value pair is dropped after <span class="keyword"> Audience Manager</span> receives the request and is not logged. </p> </td>
   </tr> 
  </tbody> 
 </table>

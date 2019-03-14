@@ -115,7 +115,7 @@ Click events support the macros listed in the following table. A macro is a smal
   <tr> 
    <td colname="col1"> <p> <code> d_uuid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_uuid%</code> </p> </td> 
-   <td colname="col2"> <p>Specify the ID of the visitor directly in the [!DNL URL] instead of relying on [!DNL Demdex] cookie. </p> <p>Optional. </p> </td> 
+   <td colname="col2"> <p>Specify the ID of the visitor directly in the URL instead of relying on Demdex cookie. </p> <p>Optional. </p> </td> 
   </tr> 
  </tbody> 
 </table>

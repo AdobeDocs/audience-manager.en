@@ -100,7 +100,7 @@ To update [!DNL CPM] usage in bulk:
   <tr> 
    <td colname="col1"> <p><b>Always report the total number of impressions</b> </p> </td> 
    <td colname="col2"> <p>For CPM impression totals: </p>
-   <p> Report the total number of impressions, without using decimals. [!DNL Audience Manager] automatically calculates the CPM based on the total number you report.
+   <p> Report the total number of impressions, without using decimals. Audience Manager automatically calculates the CPM based on the total number you report.
 
    If you need to report 1,234,567 impressions, report it exactly like that. You do not need to divide the total number of impressions by 1,000 to calculate the CPM.
 
@@ -109,11 +109,7 @@ To update [!DNL CPM] usage in bulk:
   </tr>
   <tr> 
    <td colname="col1"> <p><b>Stick to the monthly reporting interval</b> </p> </td> 
-   <td colname="col2"> <p>The report system closes after the 5th of each month. If you fail to report CPM usage by then, you must add that amount to the report for the following month. For example, say you use 1000 impressions in October, miss the October reporting deadline, and use 1000 impressions in November. In this case, you report the October and November total (2000) in December, between the 1st and the 5th.
-
-   >[!TIP]
-   >You should always try to report CPM usage for the previous month between the 1st and 5th days of the following month.
-   >You can report CPM usage as late as the 5th of the new calendar month, but this is not recommended. Reporting CPM usage before the 5th of each month gives [!DNL Audience Manager] time to check and process the data.</p> </td>
+   <td colname="col2"> <p>The report system closes after the 5th of each month. If you fail to report CPM usage by then, you must add that amount to the report for the following month. For example, say you use 1000 impressions in October, miss the October reporting deadline, and use 1000 impressions in November. In this case, you report the October and November total (2000) in December, between the 1st and the 5th.</p><p><b>Tip</b>: You should always try to report CPM usage for the previous month between the 1st and 5th days of the following month.</p><p>You can report CPM usage as late as the 5th of the new calendar month, but this is not recommended. Reporting CPM usage before the 5th of each month gives Audience Manager time to check and process the data.</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -165,9 +161,7 @@ When you [Report CPM Usage at Data Feed Level](#feed-level-report), you must all
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> OR</span> </p> </td> 
-   <td colname="col2"> <p>Apply weighted allocation of the delivered impression totals to all the provider traits in a rules-based segment that uses a [!DNL Boolean] [!DNL OR] condition. Weighted allocation is calculated using the following formula:
-
-(Trait Population / Segment Population) * Number of Impressions * Cost of CPM</p> </td> 
+   <td colname="col2"> <p>Apply weighted allocation of the delivered impression totals to all the provider traits in a rules-based segment that uses a Boolean OR condition. Weighted allocation is calculated using the following formula:</p><p><code>(Trait Population / Segment Population) * Number of Impressions * Cost of CPM</code></p> </td> 
   </tr>
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> NOT</span> </p> </td> 
