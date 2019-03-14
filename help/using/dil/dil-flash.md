@@ -11,10 +11,6 @@ uuid: 65833cfd-768e-4b16-95c5-debd8411df38
 
 Collect data sent from FLA files to Analytics and work with that information in Audience Manager.
 
-## Flash DIL {#concept_4DEAEE702A344431960F4CD5549E64A5}
-
-Collect data sent from FLA files to Analytics and work with that information in Audience Manager.
-
 <!-- 
 
 c_flash_dil_toc.xml
@@ -126,7 +122,7 @@ See the table for examples:
 |  **evar** | `v35=bar`  | `c_evar=bar`  |
 |  **events** | `events=event10`  | `c_events=event10`  |
 
-** [!UICONTROL Flash DIL]/Analytics Data as Unused Signals**
+**[!UICONTROL Flash DIL]/Analytics Data as Unused Signals**
 
 Audience Manager accepts Analytics [!UICONTROL Props], [!UICONTROL eVars], and events even without a corresponding trait. In this case, the data is unavailable for trait creation and appears in the [Unused Signals report](../reporting/dynamic-reports/unused-signals.md#concept_D3A6A3AD84AE47589699A13A8F971BE0) instead. To make the most of this information, create Audience Manager traits that match the Analytics data passed in by the [!UICONTROL Flash DIL] library. 
 

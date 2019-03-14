@@ -11,16 +11,6 @@ uuid: c5362a38-93c0-4edb-bdcb-106e43f33a92
 
 An optional, Boolean configuration that determines if DIL sends (or does not send) data to the Adobe Experience Cloud Device Co-op.
 
-Contents:
-
-<ul class="simplelist"> 
- <li> <a href="../../dil/dil-class-overview/dil-coopsafe.md#section_4883EDA6BEB8437182BCC82BB58FAE41"> Requirements </a> </li> 
- <li> <a href="../../dil/dil-class-overview/dil-coopsafe.md#section_D18AF2B903F248E18AE8108AAF0A8EBB"> Use Cases </a> </li> 
- <li> <a href="../../dil/dil-class-overview/dil-coopsafe.md#section_952F56724A2B4D349340E26FBAF33DDD"> Syntax and Code Sample </a> </li> 
- <li> <a href="../../dil/dil-class-overview/dil-coopsafe.md#section_FCD441933506493FAEFAA6B51F194A17"> Event Call POST Parameters </a> </li> 
- <li> <a href="../../dil/dil-class-overview/dil-coopsafe.md#section_9281C39C8B6249D7864100B5CBCA7DC6"> Post-Instantiation APIs </a> </li> 
-</ul>
-
 ## Requirements {#section_4883EDA6BEB8437182BCC82BB58FAE41}
 
 To use `isCoopSafe` you must:

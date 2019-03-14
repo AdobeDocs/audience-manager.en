@@ -13,7 +13,7 @@ Describes the required fields, syntax, and naming conventions used for file-base
 
 >[!NOTE]
 >
->The text styles ( `monospaced text`, *italics*, brackets [ ] ( ), etc.) in this document indicate code elements and options. See [Style Conventions for Code and Text Elements](https://marketing.adobe.com/resources/help/en_US/aam/code-style-elements.html) for more information.
+>The text styles ( `monospaced text`, *italics*, brackets `[ ]` `( )`, etc.) in this document indicate code elements and options. See [Style Conventions for Code and Text Elements](https://marketing.adobe.com/resources/help/en_US/aam/code-style-elements.html) for more information.
 
 ## File Name Syntax and Examples {#section_0AB70A4265EC478CB9C3540A6DD16000}
 

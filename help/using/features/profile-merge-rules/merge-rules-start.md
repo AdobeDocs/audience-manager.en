@@ -129,25 +129,19 @@ When working with the [!UICONTROL Experience Cloud ID Service], the `setCustomer
  <tbody> 
   <tr> 
    <td colname="col1"> <p> 
-     <codeblock class="syntax javascript">
+     <code class="syntax javascript">
        visitor.setCustomerIDs({ 
-      
-&nbsp;"userid":{ 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;"id":"12345", 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;"authState":Visitor.AuthState.AUTHENTICATED 
-     </codeblock> </p> </td> 
+      &nbsp;"userid":{ 
+      &nbsp;&nbsp;&nbsp;&nbsp;"id":"12345", 
+      &nbsp;&nbsp;&nbsp;&nbsp;"authState":Visitor.AuthState.AUTHENTICATED 
+     </code> </p> </td> 
    <td colname="col2"> <p> 
-     <codeblock class="syntax javascript">
+     <code class="syntax javascript">
        visitor.setCustomerIDs({ 
-      
-&nbsp;"my_datasource_ic":{ 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;"id":"12345", 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;"authState":Visitor.AuthState.AUTHENTICATED 
-     </codeblock> </p> </td> 
+      &nbsp;"my_datasource_ic":{ 
+      &nbsp;&nbsp;&nbsp;&nbsp;"id":"12345", 
+      &nbsp;&nbsp;&nbsp;&nbsp;"authState":Visitor.AuthState.AUTHENTICATED 
+     </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>

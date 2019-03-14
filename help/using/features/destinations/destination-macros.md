@@ -53,7 +53,7 @@ When creating a [!DNL URL] destination, you can insert the following macros into
   <tr> 
    <td colname="col1"> <p><code> %http_proto%</code> </p> </td> 
    <td colname="col2"> <p>Detects the protocol used in the parent webpage and inserts it into the destination URL. For example: 
-     <lines></lines> 
+     <br>&nbsp;
      <ul id="ul_026F56EC46E94D9EB1153557C0F65325"> 
       <li id="li_B41EF140CC274CB68FE7213DD8B908C0">if the webpage is <b>https</b>://aam_client.com, this macro will be replaced with <b>https</b>://url-destination.com </li> 
       <li id="li_BDCD6EA69B004A92BA6981952341BD77">if the webpage is <b>http</b>://aam_client.com, this macro will be replaced with <b>http</b>://url-destination.com </li> 

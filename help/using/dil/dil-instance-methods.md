@@ -12,7 +12,7 @@ uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
 
 The instance-level [!UICONTROL DIL] APIs let you programmatically create and work with Audience Manager objects. The instance-level methods enhance API functionality established by the class-level methods.
 
-## Instance-level DIL Methods {#concept_BFC21CC3204C4743ABF7EB3C7FA78C92}
+## Getting started with Instance-level DIL Methods {#concept_BFC21CC3204C4743ABF7EB3C7FA78C92}
 
 <!-- 
 
@@ -508,11 +508,11 @@ Works with [!UICONTROL DIL] versions 2.10 and 3.1 or higher.
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.idSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>Between different data partners and Audience Manager. For example, partner x would use this to synchronize a user ID with partner y and then send that to Audience Manager. </p> <p> <p>Important:  This method is deprecated. Please use the <code> idSyncByURL </code> method of the Experience Cloud ID Service instance. </p> </p> </td> 
+   <td colname="col2"> <p>Between different data partners and Audience Manager. For example, partner x would use this to synchronize a user ID with partner y and then send that to Audience Manager. </p> <p> <p><b>Important:</b>  This method is deprecated. Please use the <code> idSyncByURL </code> method of the Experience Cloud ID Service instance. </p> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.aamIdSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>When you already know the user ID and want to send it to Audience Manager. </p> <p> <p>Important:  This method is deprecated. Please use the <code> idSyncByDataSource </code> method of the Experience Cloud ID Service instance. </p> </p> </td> 
+   <td colname="col2"> <p>When you already know the user ID and want to send it to Audience Manager. </p> <p> <p><b>Important:</b>  This method is deprecated. Please use the <code> idSyncByDataSource </code> method of the Experience Cloud ID Service instance. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

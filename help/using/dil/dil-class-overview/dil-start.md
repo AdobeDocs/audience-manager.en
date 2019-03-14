@@ -9,7 +9,7 @@ uuid: 00c1136a-5f08-4104-b0ed-3de847cecd16
 
 # Getting Started With Class-level DIL APIs{#getting-started-with-class-level-dil-apis}
 
-Describes authentication requirements and the text formatting used in the class-level DIL documentation.
+The class-level DIL APIs let you programmatically create and work with Audience Manager objects. The class-level APIs work with the other instance-level functions to set values or return data.
 
 ## Getting Started With Class-level DIL APIs {#concept_B7A4B8B8F34440AF805BC426453B78FD}
 
