@@ -13,7 +13,7 @@ Describes the required fields, syntax, naming conventions and file sizes you nee
 
 >[!NOTE]
 >
->The text styles ( `monospaced text`, *italics*, brackets `[ ]` `( )`, etc.) in this document indicate code elements and options. See [Style Conventions for Code and Text Elements](../../../reference/code-style-elements.md#reference_59D0BD0EDB424A65853460D91CCA35D9) for more information.
+>The text styles (`monospaced text`, *italics*, brackets `[ ]` `( )`, etc.) in this document indicate code elements and options. See [Style Conventions for Code and Text Elements](../../../reference/code-style-elements.md#reference_59D0BD0EDB424A65853460D91CCA35D9) for more information.
 
 ## File Name Syntax {#section_8E0F0FCC8FCB484E89F09654A03295FB}
 

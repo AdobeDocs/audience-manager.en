@@ -77,7 +77,7 @@ Complete the required fields in the [!UICONTROL Basic Information] section first
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Select a Baseline Trait or Segment (1)</b> </p> </td> 
-   <td colname="col2"> <p>Click the trait or segment button to see a list of all your traits or segments. Your selected segment or trait becomes the baseline that the system algorithms use for modeling. </p> <p> <p>**Note**:  Select an onboarded trait, a rule-based trait, or a segment as baseline. Otherwise, your models will not run. </p> </p> </td> 
+   <td colname="col2"> <p>Click the trait or segment button to see a list of all your traits or segments. Your selected segment or trait becomes the baseline that the system algorithms use for modeling. </p> <p> <p><b>Note</b>:  Select an onboarded trait, a rule-based trait, or a segment as baseline. Otherwise, your models will not run. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Select Look Back Period (2)</b> </p> </td> 
