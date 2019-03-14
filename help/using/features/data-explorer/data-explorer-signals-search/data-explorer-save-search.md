@@ -12,6 +12,7 @@ Optimize signal search efforts by saving up to 10 sets of search criteria to use
 
 1. Go to **[!UICONTROL Audience Data > Signals > Search]** and run a **[!UICONTROL Signals Search]** with the key-value pairs and/or the filters that you want to save for future searches.
 1. Click **[!UICONTROL Save this Search]** once you get the search results.
+
    ![Step Result](assets/save-search-criteria.png)
 1. Enter a suggestive name for the search, so you can identify it later.
 1. (Optional) Enable the **[!UICONTROL Track this search result in the dashboard]** option if you want the signals dashboard to include the signals in the current search set.
@@ -22,4 +23,5 @@ Optimize signal search efforts by saving up to 10 sets of search criteria to use
     * **[!UICONTROL Descending]**
     * **[!UICONTROL Ascending]**
 1. Click **[!UICONTROL Save]**. You can see your saved search in the [!UICONTROL Saved Search] section, and use it whenever you need it.
-   ![](assets/saved-search.png)
+
+  ![saved search](assets/saved-search.png)
