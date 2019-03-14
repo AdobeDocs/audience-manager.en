@@ -17,7 +17,7 @@ uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
 >
 >For definitions and descriptions of these [!UICONTROL Merge Rule] settings, see [Profile Merge Rule Options Defined](../../features/profile-merge-rules/merge-rule-definitions.md#concept_44FFF67CD9654DB2B43ECA13C2FD1CE0).
 
-## Focus targeting {#section_DD5CB340BF0C4C6F93C640ACA100EDB6}
+## Focused targeting {#section_DD5CB340BF0C4C6F93C640ACA100EDB6}
 
 User authentication to a website should trigger a declared ID call to [!DNL Audience Manager]. After this event, [!DNL Audience Manager] writes trait data to (and reads from) an authenticated profile. The authenticated profile lets [!DNL Audience Manager]:
 
@@ -26,24 +26,25 @@ User authentication to a website should trigger a declared ID call to [!DNL Audi
 
 ### Reach authenticated users
 
-The authenticated profile options create rules let you reach users who are logged on to a website or app. For example, a financial services company would use this option to target authenticated users with credit card upgrade offers or specialized service offers based on income or account activity. Another example would be an airline targeting authenticated frequent fliers with deals based on accrued mileage.
+The authenticated profile options create rules which let you target users who are logged on to a website or app based on offline attributes. For example, a financial services company would use this option to target authenticated users with targeted credit card upgrade offers or specialized service offers based on income or offline activity. Another example would be an airline targeting authenticated frequent fliers with deals based on accrued mileage.
 
-To create a rule that reaches authenticated users, select **[!UICONTROL Current Authenticated Profile]** + **[!UICONTROL No Device Profile]**. These options tell your rule to use an authenticated profile only. This rule will ignore data in the anonymous device profile.
+To create a rule that reaches only authenticated users, select **[!UICONTROL Current Authenticated Profile]** + **[!UICONTROL No Device Profile]**. This option will evaluate a segment using only authenticated profile data. This rule will ignore data in the anonymous device profile.
+
+To also include data in the anonymous device profile, use the **[!UICONTROL Current Authenticated Profile]** + **[!UICONTROL Current Device Profile]** rule.
 
 ### Reach users based on previous authentication state
 
 These options reach specific users when they're browsing but not logged on. You can do this with options that rely on inferred user-level targeting. Inferred targeting helps you reach people who are not explicitly authenticated to your site but may be browsing online. It works by reading (but not writing) data from the last authenticated profile. And, to help keep the authenticated profile clean, [!DNL Audience Manager] writes new trait qualifications to the device profile instead of the authenticated profile. For example, say you're a marketer that wants to test different offers with existing customers who are not logged on to your site or app. As a marketer, you can test these ads with current, un-authenticated customers to see which offers get the most response.
 
-Rules that reach users based on previous authentication include:
+An example of a rule that reaches users based on preivous authentication is:
 
 * **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Current Device Profile]**
-* **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Merge Device Graph]**
 
-## Expand targeting {#section_ADA0946192274869B94BD88BEE8ECFA7}
+## Expanded targeting {#section_ADA0946192274869B94BD88BEE8ECFA7}
 
-Along with rules that help reach specific customers, marketers also need rules that increase the size of data sets available for targeting. [!UICONTROL Profile Merge] lets you do this with the device profile options. The device options expand the data set eligible for segmentation because they draw on traits realized while a user was in an unauthenticated state on the device. For example, this could be useful when you're trying to reach everyone in a household (household-level targeting) or all the users who share a device. A use case for these options could include advertising a family vacation offer. In this case, you'll want to reach everyone using a device or in a household.
+Along with rules that help reach specific customers, marketers also need rules that increase the size of data sets available for targeting. [!UICONTROL Profile Merge Rules] let you do this with the device profile option. The device options expand the data set eligible for segmentation because they draw on traits realized while a user was in an anonymous state on one or many devices. This could be useful when you're trying to reach a user across all of their devices using a person device graph or all devices in a household using a household device graph. A use case for this option could include advertising a family vacation offer. In this case, you'll want to reach every device in a household with the offer if a user on any device has shown interest in the offer.
 
-To create a rule that expands the targeting data set, select **[!UICONTROL Current Authenticated Profiles]** + **[!UICONTROL Current Device Profile]**.
+To create a rule that expands the targeting data set, select the **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Device Graph]** rule.
 
 <!-- 
 
