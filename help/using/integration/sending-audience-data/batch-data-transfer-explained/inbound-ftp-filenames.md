@@ -99,7 +99,7 @@ The following examples show properly formatted file names. Your file names could
  <li> <code> ftp_dpm_478_1366545717.overwrite</code> </li> 
 </ul>
 
-[Download](https://marketing.adobe.com/resources/help/en_US/aam/downloads/ftp_dpm_1234_1445374061.overwrite) the sample file if you need additional examples. This file is saved with the `.overwrite` file extension. Open it with a simple text editor.
+[Download](assets/ftp_dpm_1234_1445374061.overwrite) the sample file if you need additional examples. This file is saved with the `.overwrite` file extension. Open it with a simple text editor.
 
 ## Accepted File Sizes {#section_758E1B942B334DE1B76F0EBC846303E2}
 

@@ -113,7 +113,7 @@ The following examples show properly formatted file names. Your file names could
  <li> <code> s3n://&lt;AWS_Bucket&gt;/&lt;partner_name&gt;/date=2016-05-09/ftp_dpm_478_1366545717.overwrite</code> </li> 
 </ul>
 
-You can [download](https://marketing.adobe.com/resources/help/en_US/aam/downloads/ftp_dpm_1234_1445374061.overwrite) the sample file if you want additional examples. This file has been saved with the `.overwrite` file extension. Open it with a simple text editor.
+You can [download](assets/ftp_dpm_1234_1445374061.overwrite) the sample file if you want additional examples. This file has been saved with the `.overwrite` file extension. Open it with a simple text editor.
 
 ## Accepted File Sizes {#section_2E2BE21030A34BA1AE67288F333780A0}
 

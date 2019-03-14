@@ -224,7 +224,7 @@ Improperly formatted value names in a key-value pair also cause problems. Follow
  </tbody> 
 </table>
 
-[Download](https://marketing.adobe.com/resources/help/en_US/aam/downloads/ftp_dpm_1234_1445374061.overwrite) the sample data file if you need additional examples. The download file has a `.overwrite` file extension. You can open it with a simple text editor.
+[Download](assets/ftp_dpm_1234_1445374061.overwrite) the sample data file if you need additional examples. The download file has a `.overwrite` file extension. You can open it with a simple text editor.
 
 ## Examples Matrix {#section_BA72EA253B3E418AA8F597B1BC73360A}
 

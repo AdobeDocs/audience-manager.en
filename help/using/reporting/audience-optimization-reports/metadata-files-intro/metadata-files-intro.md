@@ -15,3 +15,13 @@ A data file contains impression, click, or conversion data that you can import i
 >
 >To use metadata files, your event calls must include *all* of the parameters listed in the [overview and mappings](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md#concept_548097F263114FC1811B1EEA21D9C461) section.
 
+* [Data Files for Audience Optimization Reports](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
+* [Overview and Mappings for Metadata Files](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)
+* [Naming Conventions for Metadata Files](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)
+* [Content Format for Metadata Files](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md)
+* [Delivery Methods for Metadata Files](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md)
+* [Status Updates for Metadata Files](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-update-status.md)
+
+
+
+
