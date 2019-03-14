@@ -35,7 +35,7 @@ With [!UICONTROL Trait Recommendations], you can improve your workflows, dependi
 
 ## Differences Between Trait Recommendations and Algorithmic Models
 
-### [!UICONTROL Algorithmic Models]
+### Algorithmic Models
 
 [!UICONTROL Algorithmic Models] not only finds the most influential traits, but also scores users based on those traits and assigns each user an individual score. You then create algorithmic traits to target your users. With accuracy and reach controls in the [!UICONTROL Trait Builder], you can specify which users amongst all those who have the influential traits you want to target.
 
@@ -43,7 +43,7 @@ With [!UICONTROL Trait Recommendations], you can improve your workflows, dependi
 
 In [!UICONTROL Algorithmic Models], the model runs every 8 days and refreshes the users qualified for algorithmic traits.
 
-### [!UICONTROL Trait Recommendations]
+### Trait Recommendations
 
 [!UICONTROL Trait Recommendations] is a quick way to get insights on other traits which are similar to the ones you are using in a segment.
 
@@ -111,7 +111,7 @@ Clicking on a trait opens a pop-up window, as shown in the image below. If the r
 
 To produce trait recommendations, Audience Manager computes the [Jaccard similarity](https://en.wikipedia.org/wiki/Jaccard_index) between the target trait and every other trait that your account has access to, including third-party data. Audience Manager then displays up to five traits that have the highest similarity.
 
-## [!UICONTROL Trait Similarity Score]
+## Trait Similarity Score
 
 Audience Manager calculate the [!UICONTROL Trait Similarity Score] between two traits by computing the intersection and union in terms of the number of [!UICONTROL UUID]s and then divide the two. For two traits A and B, the calculation looks like this:
 
@@ -119,21 +119,21 @@ Audience Manager calculate the [!UICONTROL Trait Similarity Score] between two t
 
 See, also, the two examples below.
 
-### Example 1 - Low [!UICONTROL Trait Similarity Score]
+### Example 1 - Low Trait Similarity Score
 
 Given two traits A and B, let's say each of the traits has a population of 1,000,000 [!UICONTROL UUID]s, 25,000 [!UICONTROL UUID]s of which qualify for both traits.
 Using the formula above, this will result in: 25,000 / 1,975,000 = 0.012. This is a low [!UICONTROL Trait Similarity Score], the two traits are very dissimilar.
 
 ![](assets/Trait-Recommendations-Low-overlap.png)
 
-### Example 2 - [!UICONTROL Trait Similarity Score]
+### Example 2 - Trait Similarity Score
 
 If the same traits A and B had 400,000 [!UICONTRL UUID]s that qualify for both traits, the [!UICONTROL Trait Similarity Score] is much higher:
 400,000 / 1,600,000 = 0.25
 
 ![](assets/Trait-Recommendations-High-overlap.png)
 
-### How to Interpret the [!UICONTROL Trait Similarity Score]
+### How to Interpret the Trait Similarity Score
 
 Use the table below as a rough guide to trait similarity. This guide is based on the similarity scores observed across a majority of the traits.
 
@@ -144,7 +144,7 @@ Use the table below as a rough guide to trait similarity. This guide is based on
  0.01 - 0.03 | Low similarity between traits |
  0 - 0.01 | Very low similarity between traits |
 
-## Role-Based Access Control ([!UICONTROL RBAC])
+## Role-Based Access Control ( RBAC)
 
 For companies using [!UICONTROL Role-Based Access Controls] ([!UICONTROL RBAC]), you need to have permission to create and edit segments in order to see recommended traits. And, the recommended traits you see are only the ones from data sources that you have access to via [!UICONTROL RBAC]. Read more about [!UICONTROL RBAC] controls [here](../administration/administration-overview.md).
 

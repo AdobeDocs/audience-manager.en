@@ -17,7 +17,7 @@ The [!UICONTROL Basic Information] section shows details about required and opti
 
 ![](assets/basicInfo.png)
 
-## [!UICONTROL Trait Graph] {#section_97532A84A37246ABA7EE6149CF0FBE72}
+## Trait Graph {#section_97532A84A37246ABA7EE6149CF0FBE72}
 
 The [!UICONTROL Trait Graph] provides at-a-glance performance metrics for your selected trait. Hold your cursor over a trend line to see additional data for the selected trait.
 
@@ -28,13 +28,13 @@ The [!UICONTROL Trait Graph] provides at-a-glance performance metrics for your s
 
 ![](assets/traitGraph.png)
 
-## [!UICONTROL Trait Expression] {#section_97757AB8844F4466BA5DB1E8356146FC}
+## Trait Expression {#section_97757AB8844F4466BA5DB1E8356146FC}
 
 The [!UICONTROL Trait Expression] section shows you the criteria users must meet to qualify for the trait. These rules are set when you [create or edit a trait](../../features/traits/about-trait-builder.md#concept_BCDC4BCAEB4A4879AFA4A9B98D9ED369).
 
 ![](assets/traitExpression.png)
 
-## [!UICONTROL Trait Segments] {#section_D44E252E719640DC8A821B697332B4AC}
+## Trait Segments {#section_D44E252E719640DC8A821B697332B4AC}
 
 The [!UICONTROL Segments with this Trait] section lists all the segments the selected trait belongs to. You can click on a segment name to see details about that segment.
 

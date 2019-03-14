@@ -8,7 +8,7 @@ title: Create Rules-Based or Onboarded Traits
 uuid: 4243e09f-1f96-443a-864a-d6e6918079fa
 ---
 
-# Create [!UICONTROL Rules-Based] or [!UICONTROL Onboarded] Traits {#create-rules-based-or-onboarded-traits}
+# Create Rules-Based or Onboarded Traits {#create-rules-based-or-onboarded-traits}
 
 Describes set up steps and features specific to the [!UICONTROL rules-based] and [!UICONTROL onboarded] trait creation process.
 
@@ -78,7 +78,7 @@ In [!UICONTROL Trait Builder], the [!UICONTROL Advanced Options] lets you set a 
 
 <!-- t_tb_ttl.xml -->
 
-### Set the [!DNL TTL] for a trait
+### Set the TTL for a trait
 
 1. Expand the [!UICONTROL Advanced Options] section and enter a number to set a [!DNL TTL] value for the trait.
 1. Click **[!UICONTROL Save]**.

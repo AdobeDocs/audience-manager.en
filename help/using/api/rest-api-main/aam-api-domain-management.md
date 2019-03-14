@@ -7,7 +7,7 @@ title: Domain Management API Methods
 uuid: f2f08bc5-ea42-4171-9a43-0b20976f0cb0
 ---
 
-# Domain Management [!DNL API] Methods {#domain-management-api-methods}
+# Domain Management API Methods {#domain-management-api-methods}
 
 Domain management methods that let you create and manage the domains to which you want to send data (for cookie destinations only).
 

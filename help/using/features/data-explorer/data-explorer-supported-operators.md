@@ -10,7 +10,7 @@ uuid: 645fcb6f-50ac-49bc-8df9-c699c749cf8f
 
 Use logical operators to group key-value pairs and backfill traits.
 
-## Supported Operators for [!UICONTROL Signal Search] {#section_694E53CA51144359B9777C70B4347181}
+## Supported Operators for Signal Search {#section_694E53CA51144359B9777C70B4347181}
 
 Use the following supported logical operators to search for key-value pairs:
 

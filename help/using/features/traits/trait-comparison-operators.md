@@ -7,7 +7,7 @@ title: Working with Comparison Operators in Trait Builder
 uuid: 41bec3b3-e5df-4a6f-abb0-80ce4c75f5e7
 ---
 
-# Working with Comparison Operators in [!UICONTROL Trait Builder] {#working-with-comparison-operators-in-trait-builder}
+# Working with Comparison Operators in Trait Builder {#working-with-comparison-operators-in-trait-builder}
 
 This article describes the comparison operators used by [!UICONTROL Trait Builder].
 

@@ -7,7 +7,7 @@ title: Requirements and Methods of Sending Segments to DFP Using Google Publishe
 uuid: 4b2ea81c-29bb-42d3-93d3-1d8e677790b6
 ---
 
-# Requirements and Methods of Sending Segments to [!DNL DFP] Using [!DNL Google Publisher Tags] ([!DNL GPT]) {#requirements-and-methods-of-sending-segments-to-dfp-using-google-publisher-tags-gpt}
+# Requirements and Methods of Sending Segments to DFP Using Google Publisher Tags ( GPT) {#requirements-and-methods-of-sending-segments-to-dfp-using-google-publisher-tags-gpt}
 
 You can send qualified segments to [!DNL DFP] either through a client-side or through a server-side integration. Requirements and related information about both methods are listed below.
 
@@ -34,7 +34,7 @@ For a client-side integration, you need to set up a [!DNL GPT] destination in Au
 
 * **Send Delivery Logs to Audience Manager:** If you want a segment delivery report (optional), provide Audience Manager with a daily log that contains impression-level delivery data. The data can be in a raw format, but each record must contain the Audience Manager `UUID`. Audience Manager can pick up or receive these via [!DNL FTP].
 
-### Only Qualified Segments are Sent to [!DNL GPT]
+### Only Qualified Segments are Sent to GPT
 
 The amount of data passed in to [!DNL GPT] depends on how many segments a particular user qualifies for. For example, say you set up 100 Audience Manager segments. If a site visitor qualifies for five of them, then only those five segments get sent to [!DNL GPT] (not all 100).
 

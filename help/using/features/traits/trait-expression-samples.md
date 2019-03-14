@@ -7,7 +7,7 @@ title: Sample Expressions With Boolean and Comparison Operators
 uuid: ee74c376-2099-4816-8694-43f58845a0ac
 ---
 
-# Sample Expressions With [!DNL Boolean] and Comparison Operators {#sample-expressions-with-boolean-and-comparison-operators}
+# Sample Expressions With Boolean and Comparison Operators {#sample-expressions-with-boolean-and-comparison-operators}
 
 Examples you can refer to for creating expressions in the [!UICONTROL Expression Builder] code editor.
 
@@ -19,7 +19,7 @@ Create your own trait rules with the [!UICONTROL Expression Builder] code editor
 
 ## [!DNL Boolean] Expressions {#section_294C03461BE44795A507BF9A65808CCA}
 
-### [!UICONTROL AND] Example
+### AND Example
 
 The rule establishes trait qualification requirements using Boolean [!UICONTROL AND] operators.  
 
@@ -45,7 +45,7 @@ The rule establishes trait qualification requirements using Boolean [!UICONTROL 
  </tbody> 
 </table>
 
-### [!UICONTROL OR] Example
+### OR Example
 
 This rule establishes trait qualification requirements using [!DNL Boolean] [!UICONTROL OR] and [!UICONTROL AND] operators.  
 

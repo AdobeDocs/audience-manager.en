@@ -8,11 +8,11 @@ topic: DIL API
 uuid: 727bec8a-df9a-40cc-b8a7-e1980d146a84
 ---
 
-# [!UICONTROL Audience Lab] Use Cases {#audience-lab-use-cases}
+# Audience Lab Use Cases {#audience-lab-use-cases}
 
 [!UICONTROL Audience Lab] enables several use cases by allowing you to use baseline segments for creating test groups. You can divide test groups into several mutually exclusive test segments, map these to different destinations and then determine which of the segments are most effective in driving conversions.
 
-## Compare Models in [!UICONTROL Audience Lab] {#compare-models}
+## Compare Models in Audience Lab {#compare-models}
 
 You can use several different types and sources of models in [!DNL Audience Manager]. [!UICONTROL Audience Lab] offers an easy way to compare your customers' conversion rates, across your active models.
 

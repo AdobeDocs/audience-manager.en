@@ -7,7 +7,7 @@ title: Data Source API Methods
 uuid: 92ab725d-6f0a-497b-8302-39a34dc58636
 ---
 
-# Data Source [!DNL API] Methods {#data-source-api-methods}
+# Data Source API Methods {#data-source-api-methods}
 
 [!DNL API] methods that let you manage data sources associated with your account.
 

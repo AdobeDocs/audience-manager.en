@@ -7,7 +7,7 @@ title: User Management API Methods
 uuid: 6e1f2c35-bb9d-4166-b7d4-d9c5518a61ad
 ---
 
-# User Management [!DNL API] Methods {#user-management-api-methods}
+# User Management API Methods {#user-management-api-methods}
 
 Rest [!DNL API] methods to manage users, including creating, updating, listing, deleting, and returning user objects.
 

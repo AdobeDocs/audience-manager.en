@@ -9,13 +9,13 @@ topic: DIL API
 uuid: 39441e72-5316-453d-9aff-0e0b633aabcd
 ---
 
-# About [!UICONTROL Algorithmic Models] {#about-algorithmic-models}
+# About Algorithmic Models {#about-algorithmic-models}
 
 Build and manage the traits or segments used in algorithmic modeling, also referred to as look-alike modeling. Model features are located in **[!UICONTROL Audience Data > Models]**.
 
 <!-- c_models.xml -->
 
-## Understanding [!UICONTROL Algorithmic Models] {#understanding-models}
+## Understanding Algorithmic Models {#understanding-models}
 
 The sections below represent a review of algorithmic modeling in [!DNL Audience Manager]. They describe how modeling works, the benefits, and the workflow.
 
@@ -54,7 +54,7 @@ We deactivate any algorithmic model that fails to generate data for three consec
 >* [Traits](../../features/traits/trait-details-page.md)
 >* [Segments](../../features/segments/segments-purpose.md)
 
-## Understanding [!UICONTROL TraitWeight] {#understanding-traitweight}
+## Understanding TraitWeight {#understanding-traitweight}
 
 [!UICONTROL TraitWeight] is a proprietary algorithm designed to discover new traits automatically. It compares trait data from your current traits and segments against all other first and third-party data that you have access to through [!DNL Audience Manager]. Refer to this section for a description of the [!UICONTROL TraitWeight] algorithmic discovery process.
 

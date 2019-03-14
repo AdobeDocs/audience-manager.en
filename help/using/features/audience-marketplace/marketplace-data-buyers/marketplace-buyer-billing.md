@@ -12,7 +12,7 @@ uuid: d7236667-282b-4160-9909-579721af4016
 
 Audience Marketplace data buyers agree to report all ad impressions served using traits contained in the data feed priced on a cost per thousand ad impressions ([!DNL CPM]) basis. [!DNL CPM] usage is due on the 5th day of each calendar month and includes data for previous month. Flat fee subscribers do not need to report usage.
 
-## How to Report [!DNL CPM] Usage {#task_22D86C3A39544CA8A4BC2360DC115877}
+## How to Report CPM Usage {#task_22D86C3A39544CA8A4BC2360DC115877}
 
 <!-- t_marketplace_report_cpm_usage.xml -->
 
@@ -23,7 +23,7 @@ Audience Marketplace data buyers agree to report all ad impressions served using
 * **Segment-level reporting**: this is the recommended [!DNL CPM] usage reporting method. When you report [!DNL CPM] usage at segment level, the data feed-level reporting section is automatically filled in with the corresponding usage amounts, based on the algorithms described in [Cost Attribution for CPM Data Feeds](#concept_E757985A4850400288F1DD9A02B755D5).
 * **Data feed-level reporting**: this method requires you to individually report the [!DNL CPM] usage for each data feed, based on the algorithms described in [Cost Attribution for CPM Data Feeds](#concept_E757985A4850400288F1DD9A02B755D5). However, this method is more tedious and prone to error than segment-level reporting.
 
-## Report [!DNL CPM] Usage at Segment Level {#segment-level-report}
+## Report CPM Usage at Segment Level {#segment-level-report}
 
 The [!UICONTROL Segment Usage] tab allows you to report segment-level usage, while displaying the segments grouped by the destinations they are mapped to.
 
@@ -40,7 +40,7 @@ To report [!DNL CPM] usage at segment level:
    ![confirm-segment-usage](assets/confirm-segment-usage.png)
 7. Click **[!UICONTROL Confirm]**.
 
-## Report [!DNL CPM] Usage at Data Feed Level {#feed-level-report}
+## Report CPM Usage at Data Feed Level {#feed-level-report}
 
 Data feed-level reporting is a more tedious and prone to error process, since you must individually calculate [!DNL CPM] usage for each data feed. We recommend that you [Report CPM Usage at Segment Level](#segment-level-report) instead.
 
@@ -100,12 +100,7 @@ To update [!DNL CPM] usage in bulk:
   <tr> 
    <td colname="col1"> <p><b>Always report the total number of impressions</b> </p> </td> 
    <td colname="col2"> <p>For CPM impression totals: </p>
-   <p> Report the total number of impressions, without using decimals. Audience Manager automatically calculates the CPM based on the total number you report.
-
-   If you need to report 1,234,567 impressions, report it exactly like that. You do not need to divide the total number of impressions by 1,000 to calculate the CPM.
-
-  Traits used to optimize your web or app content (Content Optimization) using tools such as [!DNL Adobe Target] or an [!DNL Analytics] destination do not contribute to the [!UICONTROL Usage] totals for CPM plans. Data providers are typically compensated for Content Optimization using flat fee plans.
-  See [Cost Attribution for CPM Data Feeds](#concept_E757985A4850400288F1DD9A02B755D5) for more information. </p> </td>
+   <p> Report the total number of impressions, without using decimals. Audience Manager automatically calculates the CPM based on the total number you report.</p><p>If you need to report 1,234,567 impressions, report it exactly like that. You do not need to divide the total number of impressions by 1,000 to calculate the CPM.</p><p>Traits used to optimize your web or app content (Content Optimization) using tools such as Adobe Target or an Analytics destination do not contribute to the Usage totals for CPM plans. Data providers are typically compensated for Content Optimization using flat fee plans.</p><p>See <a href="#concept_E757985A4850400288F1DD9A02B755D5">Cost Attribution for CPM Data Feeds</a> for more information. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><b>Stick to the monthly reporting interval</b> </p> </td> 
@@ -114,7 +109,7 @@ To update [!DNL CPM] usage in bulk:
  </tbody> 
 </table>
 
-## Cost Attribution for [!UICONTROL CPM Data Feeds] {#concept_E757985A4850400288F1DD9A02B755D5}
+## Cost Attribution for CPM Data Feeds {#concept_E757985A4850400288F1DD9A02B755D5}
 
 In [!UICONTROL Audience Marketplace] you must self-report impression amounts each month, for each of your segments. We recommend reporting [!DNL CPM] usage at segment level, so that cost attribution is done automatically.
 
@@ -182,9 +177,10 @@ The examples below are meant to illustrate how [!DNL CPM] usage allocation is do
 >We recommend that you [Report CPM Usage at Segment Level](#segment-level-report) instead, to have this process done automatically.
 
 Let's consider the following scenario:
+
 ![billing-examples](assets/billing-examples.png)
 
-### Case 1: Segments With [!UICONTROL AND] Qualification Rules
+### Case 1: Segments With AND Qualification Rules
 
 This segment contains 3 traits from separate data providers. Since segment qualification is based on an [!UICONTROL AND] condition, visitors have to realize the traits from all three feeds to qualify for the segment.
 
@@ -194,7 +190,7 @@ With an [!UICONTROL AND] condition, you must assign 100% of the impressions rece
 
 This example applies to segments that use [!DNL Boolean] [!UICONTROL NOT] operators or for segments that contain algorithmic traits.
 
-### Case 2: Segments With [!UICONTROL OR] Qualification Rules
+### Case 2: Segments With OR Qualification Rules
 
 This segment contains 3 traits from separate data providers. Since segment qualification is based on an [!UICONTROL OR] condition, visitors have to realize at least one of the three traits to qualify for the segment.
 

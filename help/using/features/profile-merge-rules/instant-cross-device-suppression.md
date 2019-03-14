@@ -6,7 +6,7 @@ title: Instant Cross-Device Suppression
 uuid: cb11b9cb-6d7d-4aa9-91b0-c2715857d821
 ---
 
-# [!UICONTROL Instant Cross-Device Suppression] {#instant-cross-device-suppression}
+# Instant Cross-Device Suppression {#instant-cross-device-suppression}
 
 [!UICONTROL Instant Cross-Device Suppression] is the ability to suppress users across multiple devices connected to them when a particular experience occurs on any of these devices. Use the [!UICONTROL Instant Cross-Device Suppression] capability to deliver a consistent experience across devices to your users. This experience is made possible by the real-time unsegment capabilities in Audience Manager.
 

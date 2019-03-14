@@ -84,7 +84,7 @@ The file contains user IDs ([!DNL UUID]). In each row, separate the IDs with a t
 abc123 def456 ghi789 xyz987
 ```
 
-## Synchronization Matches [!UICONTROL DPUUID]s to [!UICONTROL UUID]s {#section_41255CCDC02440C285C03E8001FB7E90}
+## Synchronization Matches DPUUIDs to UUIDs {#section_41255CCDC02440C285C03E8001FB7E90}
 
 The purpose of an ID sync file is to sync the [DPUUIDs](../../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8) from your own Data Sources with [!DNL Audience Manager] UUIDs. Synchronization maps the [!DNL DPUUID]s from the master [!DNL DPID] and its related [!DNL DPID]s to the [!DNL Audience Manager] [!DNL UUID]s. Where you put the IDs in the file name and body determines how these identifiers are mapped to each other. For example, take the two sample files shown here:
 

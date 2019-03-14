@@ -72,7 +72,7 @@ Date ranges contain data for the selected time interval or older. And, the data 
 
 And, on day 31, these visitors only show up in the 60 day, 90 day, and [!UICONTROL Lifetime] results. They have aged out of the 30 day interval. Visitors do not age out of the [!UICONTROL Lifetime] interval.
 
-## [!UICONTROL Addressable Audience] Metrics {#addressable-audience-metrics}
+## Addressable Audience Metrics {#addressable-audience-metrics}
 
 This section describes the types of metrics provided by [!UICONTROL Addressable Audiences].
 
@@ -166,7 +166,7 @@ This metric returns data on activities collected across all Audience Manager cus
  </tbody> 
 </table>
 
-## Comparing Customer and Segment [!UICONTROL Addressable Audiences]{#comparing-metrics}
+## Comparing Customer and Segment Addressable Audiences{#comparing-metrics}
 
 You shouldn't compare the [!UICONTROL Customer Addressable Audience] and [!UICONTROL Segment Addressable Audience] metrics to determine if one is more significant than the other. These are separate, different, and independent metrics. As described in the definitions above, each of these is derived from different data sets. Given this, you should avoid deriving any conclusions if one metric is larger than the other. All you can say when comparing these is that:
 
@@ -174,7 +174,7 @@ You shouldn't compare the [!UICONTROL Customer Addressable Audience] and [!UICON
 
 * [!UICONTROL Segment Addressable Audiences] is based on segment qualifications *for your own first-party data, plus second and third-party data*. This metric provides a granular, more accurate view of your addressable audiences in a targeting platform.
 
-## Causes of Low Match Rates for [!UICONTROL Addressable Audiences] {#low-match-rates}
+## Causes of Low Match Rates for Addressable Audiences {#low-match-rates}
 
 Common elements responsible for low [!UICONTROL Addressable Audience] match rates or discrepancies in reported numbers.
 
@@ -203,7 +203,7 @@ Common elements responsible for low [!UICONTROL Addressable Audience] match rate
  </tbody> 
 </table>
 
-## Troubleshooting with [!UICONTROL Addressable Audiences] {#troubleshooting}
+## Troubleshooting with Addressable Audiences {#troubleshooting}
 
 In addition to surfacing match rates, you can also use [!UICONTROL Addressable Audiences] as a troubleshooting tool.
 

@@ -7,7 +7,7 @@ title: Getting Started with Profile Merge Rules
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 ---
 
-# Getting Started with [!UICONTROL Profile Merge Rules] {#getting-started-with-profile-merge-rules}
+# Getting Started with Profile Merge Rules {#getting-started-with-profile-merge-rules}
 
 To create [!UICONTROL Profile Merge Rules], review and complete the steps in each of the procedures described in this section.
 
@@ -53,7 +53,7 @@ The text fields associated with these settings let you rename the [!UICONTROL Da
 >
 >* [Create a Data Source](../../features/manage-datasources.md#concept_3B7696B3EC77416492D3B99EBD79EA44)
 
-## Create a [!UICONTROL Profile Merge Rule] {#concept_55706E2521944DF1A5C7B0E19C7436D0}
+## Create a Profile Merge Rule {#concept_55706E2521944DF1A5C7B0E19C7436D0}
 
 To create a [!UICONTROL Profile Merge Rule], go to **[!UICONTROL Audience Data > Profile Merge Rules > Add New Rule]** and complete the steps for each section described here. You can create up to 3 merge rules after setting up a cross-device data source. Administrator permissions are required to create, edit, or delete a rule. All users can view and use existing [!UICONTROL Profile Merge Rules].
 
@@ -77,7 +77,7 @@ To complete the [!UICONTROL Basic Information] section:
 
 [Data Export Controls](../../features/data-export-controls.md) are optional classification rules you can apply to your [!UICONTROL Profile Merge Rule]. They prevent you from sending data to a destination when that action violates a data privacy or use agreement. Skip this section if you do not use [!UICONTROL Data Export Controls].
 
-## [!UICONTROL Profile Merge Rule Setup] {#section_61EEF440AC384395B86C222EFA5EB9EF}
+## Profile Merge Rule Setup {#section_61EEF440AC384395B86C222EFA5EB9EF}
 
 To complete the [!UICONTROL Proflie Merge Rule Setup] section:
 
@@ -166,11 +166,11 @@ var vDil = DIL.create({
 
 In the namespace key-value pair, the `*`MCORG`*` variable is your [!DNL Experience Cloud] Organization ID. If you don't have this ID, you can find it in the [!UICONTROL Administration] section of the [!DNL Experience Cloud] dashboard. You need administrator permissions to view this dashboard. See [Administration: Core Services](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html).
 
-### Configure [!DNL SDK]s
+### Configure SDKs
 
 See the [Configure SDKs](../../features/profile-merge-rules/merge-rules-start.md#section_202F3455E6264E97929E12A8F9894788) section below.
 
-## Legacy [!UICONTROL DIL] {#section_70398F3346F0444A821BD62FC86E3C67}
+## Legacy DIL {#section_70398F3346F0444A821BD62FC86E3C67}
 
 If you're not using [!DNL Experience Cloud ID Service] yet, you really ought to. But, we understand that moving to new code requires careful thought and testing. In these cases, check your `DIL.create` function to make sure this is set up properly as shown in the code sample below.
 
@@ -192,7 +192,7 @@ DIL.create({
 
 For more information, see the legacy [!UICONTROL DIL] section in [Declared ID Variables](../../features/declared-ids.md#reference_F697F0D53E56430D95EC0C408B767F80).
 
-### Configure [!DNL SDK]s {#section_202F3455E6264E97929E12A8F9894788}
+### Configure SDKs {#section_202F3455E6264E97929E12A8F9894788}
 
 Check the methods in your [!DNL SDK] code that let you pass [!UICONTROL declared IDs] from [!DNL Android] and [!DNL iOS] mobile devices. The variable names for the [!DNL Android] and [!DNL iOS] code libraries are the same:
 

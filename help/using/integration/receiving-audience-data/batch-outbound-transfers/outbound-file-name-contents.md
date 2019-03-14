@@ -75,7 +75,7 @@ The table defines the elements in an outbound data file name.
    <td colname="col2"> <p>A 13-digit UNIX timestamp in milliseconds, in the UTC time zone. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> [ <code><i>-SPLIT_NUMBER </i></code>] </p> </td> 
+   <td colname="col1"> <p> [<code><i>-SPLIT_NUMBER </i></code>] </p> </td> 
    <td colname="col2"> <p>An integer. Identifies part of a file that's been split into multiple parts to improve processing times. The number indicates which part of the original file the data belongs to. </p> <p>The original file will not have any split number. The first split file will start with 1. See examples below. </p> </td> 
   </tr> 
   <tr> 

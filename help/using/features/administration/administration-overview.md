@@ -42,7 +42,7 @@ Create users in [!DNL Audience Manager] and specify user details, login status, 
   For more information about groups and permissions, see [Create a Group](../../features/administration/administration-overview.md#create-group).
 1. Click **[!UICONTROL Save]**.
 
-## Create a Group {#create-group}  
+## Create a Group {#create-group} 
 
 A *group* is a collection of users that share access rights to destination, segment, and trait objects. You can limit groups to single objects only or give them broad access to combinations of different objects.
 
@@ -62,7 +62,7 @@ To create a group:
 1. *(Optional)* Assign [Wild Card Permissions](../../features/administration/administration-overview.md#wild-card-permissions) to the group.
 1. Click **[!UICONTROL Save Group]**.
 
-## Understanding [!UICONTROL Wild Card Permissions] {#wild-card-permissions}
+## Understanding Wild Card Permissions {#wild-card-permissions}
 
 Simplify group rights management with [!UICONTROL Wild Card Permissions].
 

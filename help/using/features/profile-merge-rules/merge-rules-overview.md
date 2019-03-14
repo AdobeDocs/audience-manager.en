@@ -7,7 +7,7 @@ title: Profile Merge Rules Overview
 uuid: 9e7988cc-9145-432b-840a-54fbd8657b3b
 ---
 
-# [!UICONTROL Profile Merge Rules] Overview {#profile-merge-rules-overview}
+# Profile Merge Rules Overview {#profile-merge-rules-overview}
 
 With [!UICONTROL Profile Merge Rules] you get control over the data sets used for segmentation and can target a person accurately across multiple devices.
 

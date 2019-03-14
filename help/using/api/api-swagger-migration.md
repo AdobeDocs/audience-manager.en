@@ -7,7 +7,7 @@ title: Audience Manager API Code Migration
 uuid: 93cc28c4-4b91-4c79-93d5-ece9bb4cc9d5
 ---
 
-# Audience Manager [!DNL API] Code Migration {#audience-manager-api-code-migration}
+# Audience Manager DNL API Code Migration {#audience-manager-api-code-migration}
 
 Here at Audience Manager, we're engineers, developers, and code ninjas just like you. And, like you, we want to work with reliable, accurate [!DNL API] documentation. As a result, we're re-writing our [!DNL API] content in [!DNL Swagger] and moving it to a new location. These changes are designed to help improve your experience with the Audience Manager [!DNL API] code.
 

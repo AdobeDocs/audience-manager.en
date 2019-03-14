@@ -32,7 +32,7 @@ Audience Manager can send segment data to a browser cookie as follows:
 * Serialized values (`x=1,2,3`);
 * A standard value delimiter used to separate individual key-value pairs.
 
-### Only Qualified Segments are Sent to [!DNL OAS]
+### Only Qualified Segments are Sent to OAS
 
 The amount data passed in to [!DNL OAS] depends on how many segments a particular user qualifies for. For example, say you set up 100 Audience Management segments. If a site visitor qualifies for five of them, then only those five segments get sent to OAS (not all 100).
 
@@ -41,7 +41,7 @@ The amount data passed in to [!DNL OAS] depends on how many segments a particula
 >* [get_aamCookie Code](../../features/destinations/get-aam-cookie-code.md#reference_0102FABCC96547DE81DFCA0600BBEFD3)
 >* [Key-Value Pairs Explained](../../reference/key-value-pairs-explained.md#concept_E4236E003076483AA939791FE2492B49)
 
-## Create an [!DNL OAS] Destination {#concept_340EB01FB985459799AAD322303C2A8C}
+## Create an OAS Destination {#concept_340EB01FB985459799AAD322303C2A8C}
 
 Create a cookie-based destination for [!DNL OAS] in Audience Manager.
 

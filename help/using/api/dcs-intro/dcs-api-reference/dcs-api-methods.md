@@ -7,7 +7,7 @@ title: DCS API Methods
 uuid: 6e407458-11d4-4342-a84a-512afa5fc183
 ---
 
-# [!UICONTROL DCS] [!DNL API] Methods {#dcs-api-methods}
+# DCS API Methods {#dcs-api-methods}
 
 Send data to the [!UICONTROL DCS] [!DNL API] using `GET` or `POST` methods.
 
