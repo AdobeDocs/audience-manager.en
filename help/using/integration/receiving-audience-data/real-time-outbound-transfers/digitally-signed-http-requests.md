@@ -1,6 +1,6 @@
 ---
-description: Audience Manager requires the HTTP server-to-server requests to be digitally signed for validity. This document describes how you can encrypt HTTP requests with private keys.
-seo-description: Audience Manager requires the HTTP server-to-server requests to be digitally signed for validity. This document describes how you can encrypt HTTP requests with private keys.
+description: Audience Manager requires the HTTP server-to-server requests to be digitally signed for validity. This document describes how you can sign HTTP requests with private keys.
+seo-description: Audience Manager requires the HTTP server-to-server requests to be digitally signed for validity. This document describes how you can sign HTTP requests with private keys.
 seo-title: Digitally Signed HTTP Requests
 solution: Audience Manager
 title: Digitally Signed HTTP Requests
@@ -9,7 +9,7 @@ uuid: 1183a70f-0c96-42cf-a4f5-37a83ffa1286
 
 # Digitally Signed `HTTP` Requests {#digitally-signed-http-requests}
 
-Audience Manager requires the `HTTP` server-to-server requests to be digitally signed for validity. This document describes how you can encrypt `HTTP` requests with private keys.
+Audience Manager requires the `HTTP` server-to-server requests to be digitally signed for validity. This document describes how you can sign `HTTP` requests with private keys.
 
 ## Overview {#section_466067C48E9C48AEB2134D9F93DB12A7}
 

@@ -125,7 +125,7 @@ The following table defines the elements in the returned [!DNL JSON] data file.
 
 ## Security
 
-You can secure your real-time outbound data transfer process by [encrypting HTTP requests](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md#concept_1E0F79C0142B4CA38CE03B173022A31C) with private keys or by having [!DNL Audience Manager] authenticate through the [OAuth 2.0](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md#concept_CA17FEF807BE48D8BAC17243234E50A1) protocol.
+You can secure your real-time outbound data transfer process by [signing HTTP requests](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md#concept_1E0F79C0142B4CA38CE03B173022A31C) using private keys or by having [!DNL Audience Manager] authenticate through the [OAuth 2.0](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md#concept_CA17FEF807BE48D8BAC17243234E50A1) protocol.
 
 ## Code Sample
 
