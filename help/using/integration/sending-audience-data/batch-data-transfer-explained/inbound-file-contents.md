@@ -207,10 +207,10 @@ Improperly formatted value names in a key-value pair also cause problems. Follow
   <tr> 
    <td colname="col1"> <p>With <code> ic== </code> </p> </td> 
    <td colname="col2"> <p>These traits have been added to a trait rule with the <code> ic </code> prefix. As such, you can add them to the data file separated by commas as shown. A tab separates the UUID and the trait IDs. The <code> ic </code> prefix is not required in the file. </p> <p><b>Numeric IDs</b> </p> <p> 
-     <code spectitle="Numeric IDs">
+     <code>
        DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&amp;nbsp;&amp;nbsp;30608,50354,50338,50352,30626 
      </code> </p> <p><b>String IDs</b> </p> <p> 
-     <code spectitle="String IDs">
+     <code>
        DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&amp;nbsp;&amp;nbsp;ic=52,ic=55 
      </code> </p> </td> 
   </tr> 
