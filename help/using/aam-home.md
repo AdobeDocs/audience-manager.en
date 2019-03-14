@@ -7,17 +7,18 @@ title: Audience Manager Product Documentation
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 ---
 
-# Audience Manager Product Documentation{#audience-manager-product-documentation}
+# Audience Manager Product Documentation {#audience-manager-product-documentation}
 
 Audience Manager provides industry-leading services for online audience data management. Our product and services give digital advertisers and publishers the tools they need to control and leverage their data assets to help drive sales success.
-
-
 
 <table id="table_5E612F746A704FE095B809A013EE977F" class="simpletable"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>New and Featured Items</b> </p> <p>Hover over each title to read a brief description. </p> <p> 
-     <ul id="ul_47C012F6AB3E4B73BA357027F4D15369"> 
+     <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
+     <li><a href="features/administration/usage-limits.md#id-mapping-limits">ID Mapping Limits</a> </li>
+     <li><a href="features/global-data-sources.md">Global Data Sources</a> </li> 
+     <li><a href="api/dcs-intro/dcs-api-reference/id-monitoring-blacklisting.md"> ID Monitoring and Blacklisting</a> </li> 
       <li id="li_B41C333AF39441B39570428EEA19BAB6"><a href="features/segments/trait-recommendations.md"> Trait Recommendations</a> </li> 
       <li id="li_A260B70FDB7341F0B40201AE03DA1439"><a href="reporting/dynamic-reports/trait-trait-overlap-report.md"> Trait-to-Trait Overlap Report</a> </li> 
       <li id="li_859B4BB35E2B49A3906486E1054943EF"><a href="reporting/dynamic-reports/segment-trait-overlap-report.md"> Segment-to-Trait Overlap Report</a> </li> 
