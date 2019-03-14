@@ -72,9 +72,17 @@ A server-to-server batch integration bundles data and sends it to other systems 
 
 Real-time calls exchange data with Audience Manager immediately, as a user visits your site or takes action on the page. With this method, targeting systems get the most updated segment qualification data and can take that information into account during a content or ad delivery decision. Also, this process works with publisher ad servers where we update qualified segments to a first-party cookie that is read into an ad call as key-value pairs. Currently, Audience Manager uses real-time calls to integrate with [!DNL Target] and other content management systems.
 
-|  Advantages: | Lets you target the next page, content area, or ad impression based the most recent segment qualification. |
-|---|---|
-|  Disadvantages: | Adds a call to Audience Manager from the page. |
+<table> 
+ <tr>
+  <td> <p>Advantages: </p></td>
+  <td> <p> Lets you target the next page, content area, or ad impression based the most recent segment qualification. </p></td> 
+ </tr> 
+ <tr>
+  <td> <p>Disadvantages: </p></td>
+  <td> <p>Adds a call to Audience Manager from the page.</p></td>
+ </tr> 
+</table>
+
 
 ### Pixels Syncs to Targeting Systems
 

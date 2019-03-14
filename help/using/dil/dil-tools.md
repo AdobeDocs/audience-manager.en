@@ -61,7 +61,7 @@ And returns:
    <td> Default Search</td> 
    <td> Returns keyword search terms used by the AOL, Ask, Bing, Google, and Yahoo search engines. </td> 
    <td>
-      <pre>var&amp;nbsp;results&amp;nbsp;=&amp;nbsp;DIL.tools.getSearchReferrer();</pre> 
+      <code>var&amp;nbsp;results&amp;nbsp;=&amp;nbsp;DIL.tools.getSearchReferrer();</code> 
   </td>
   </tr> 
   <tr> 
@@ -78,28 +78,28 @@ And returns:
    <td> <b>Match URL Hostname with a Custom Regex</b></td> 
    <td> Pass in a custom regex to match the host name of the referring URL. </td> 
    <td> 
-  <pre>
+  <code>
       var results = 
         DIL.tools.getSearchReferrer("https://www.ehow.com/
       search.aspx?q=adobe+rules",{ 
       &nbsp;&nbsp;&nbsp;hostPattern:/ehow\./, 
       &nbsp;&nbsp;&nbsp;queryParam:"p" 
       }); 
-  </pre>
+  </code>
   </td></tr> 
   <tr> 
    <td> <b>Match Search Patterns with a Custom Regex</b> </td> 
    <td> Pass in a custom regex to perform a custom search. </td> 
    <td> 
-  <pre>
+    <code>
       var&nbsp;results&nbsp;= 
       DIL.tools.getSearchReferrer("https://www.ehow.com/search.aspx?q=adobe+rules,
       {
         &nbsp;&nbsp;&nbsp;hostPattern:/ehow\./, 
         &nbsp;&nbsp;&nbsp;search_pattern:/[&amp;\?]p=([^&amp;]+/ 
       });
-  </pre>
- </td> 
+    </code>
+   </td> 
   </tr> 
  </tbody> 
 </table>

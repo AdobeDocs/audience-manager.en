@@ -164,8 +164,8 @@ This section contains options that let you set a base [!DNL URL] and data delimi
 
 | Field | Description |
 |--- |--- |
-|Base [!DNL URL]|The base part of a standard `HTTP` [!DNL URL] that does not change. Also, you need to place the `%ALIAS%` [placeholder macro](../../features/destinations/destination-macros.md#destination-macros-defined) in the base [!DNL URL]. Example: `https://www.myCompany.com/%alias%...`|
-|Secure [!DNL URL]|The base part of a secure `HTTPS` [!DNL URL] that does not change. Also, you need to place the `%ALIAS%` [placeholder macro](../../features/destinations/destination-macros.md#destination-macros-defined) in the base [!DNL URL]. Example:  `https://www.myCompany.com/%alias%...`|
+|Base URL|The base part of a standard `HTTP` [!DNL URL] that does not change. Also, you need to place the `%ALIAS%` [placeholder macro](../../features/destinations/destination-macros.md#destination-macros-defined) in the base URL. Example: `https://www.myCompany.com/%alias%...`|
+|Secure URL|The base part of a secure `HTTPS` [!DNL URL] that does not change. Also, you need to place the `%ALIAS%`  [placeholder macro](../../features/destinations/destination-macros.md#destination-macros-defined) in the base URL. Example: `https://www.myCompany.com/%alias%...`|
 |Delimiter|The symbol that separates the segment variables in the [!DNL URL] string. This is usually a comma or semi-colon. Get this information from your destination partner.|
 
 ## Segment Mappings {#section_45FF2A8E4EB648488578365DB5D15219}
@@ -173,7 +173,7 @@ This section contains options that let you set a base [!DNL URL] and data delimi
 This section lets you search for and add segments to your destination. To complete this section:
 
 1. Click **[!UICONTROL Segment Mappings]** to expose the controls.
-1. In the **[!UICONTROL Search and Add Segments]**box, start typing the name of a segment or click **[!UICONTROL Browse All Segments]** browse a list of available segments.
+1. In the **[!UICONTROL Search and Add Segments]** box, start typing the name of a segment or click **[!UICONTROL Browse All Segments]** browse a list of available segments.
 1. Click **[!UICONTROL Add Selected Segments]** when you find the segment you want to use. Adding a segment opens the [!UICONTROL Edit Mapping] window.
 1. In [!UICONTROL Edit Mapping]:
     * **[!UICONTROL Mappings]**: Provide the key-value pairs used by the segment. 

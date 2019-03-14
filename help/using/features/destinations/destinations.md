@@ -50,7 +50,7 @@ The examples in the following table can help you understand when to use a partic
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <b>URL</b> </td> 
+   <td colname="col1"> <b>URL</b><br> or<br> <b>Cookie</b> </td> 
    <td colname="col2" morerows="1"> You need to transfer data immediately so a destination can take action on a qualified user right away. </td>
    <td colname="col3" morerows="1"> Sending data from a ticket purchasing site. Use a URL or cookie destination to qualify user and immediately re-target. </td> 
    <td colname="col4" morerows="1"> 
@@ -58,9 +58,6 @@ The examples in the following table can help you understand when to use a partic
      <li id="li_1857F829FD634F68BB6DCCE2FF7FBFA7">Transfers data about new visitors only. </li>
      <li id="li_C0541B2ABB6F4DC49DF1373E62E8BD20">Visitors must be seen again to qualify for the segment. </li>
     </ul> </td>
-  </tr>
-  <tr> 
-   <td colname="col1"> <b>Cookie</b> </td> 
   </tr>
   <tr> 
    <td colname="col1"> <b>Server-to-server</b> </td>
