@@ -17,7 +17,7 @@ To search for more than one signal, click the ![Add](assets/icon_add.png) button
 
 >[!IMPORTANT]
 >
->For a streamlined user experience, key-value pair search results are based on data sampling. See [Data Sampling and Error Rates](https://marketing.adobe.com/resources/help/en_US/aam/report-sampling.html) for details on how [!DNL Audience Manager] uses data sampling and why slight result variations may appear when comparing key-value search to general searches.
+>For a streamlined user experience, key-value pair search results are based on data sampling. See [Data Sampling and Error Rates](/help/using/reporting/report-sampling.md) for details on how [!DNL Audience Manager] uses data sampling and why slight result variations may appear when comparing key-value search to general searches.
 
 When searching for signals using multiple key-value pairs, [!DNL Audience Manager] links the pairs using the logical **AND** operator. For instance, let's say you're performing a search with the following key-value pairs:
 

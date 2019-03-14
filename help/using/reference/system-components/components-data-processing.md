@@ -39,10 +39,10 @@ Customers do not have direct access to these systems. However, customers do work
 
 This is by no means a comprehensive list, but some common dashboard reports that [!UICONTROL Snowflake] is responsible for include:
 
-* [Daily Trait Variation Report](https://marketing.adobe.com/resources/help/en_US/aam/?f=c_daily_trait_variation.html) 
-* [Delivery and Performance Report](https://marketing.adobe.com/resources/help/en_US/aam/?f=c_delivery_reports.html) 
-* All the overlap reports (see the [Interactive Reports](https://marketing.adobe.com/resources/help/en_US/aam/?f=c_dynamic_reports.html) section for information about each overlap report). 
-* [Unused Signals Report](https://marketing.adobe.com/resources/help/en_US/aam/?f=c_unused_signals.html)
+* [Daily Trait Variation Report](/help/using/reporting/audience-optimization-reports/daily-trait-variation-report.md) 
+* [Delivery and Performance Report](/help/using/reporting/dynamic-reports/delivery-performance-report.md) 
+* All the overlap reports (see the [Interactive Reports](/help/using/reporting/dynamic-reports/dynamic-reports.md) section for information about each overlap report). 
+* [Unused Signals Report](/help/using/reporting/dynamic-reports/unused-signals.md)
 
 ## SOLR {#section_ED495D6C57D2498DAB1F3C99F9EACD39}
 
