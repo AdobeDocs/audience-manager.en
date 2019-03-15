@@ -11,17 +11,17 @@ uuid: f4bc822d-39d2-4680-90ed-7ee2ead6db6f
 
 Recommendations and use cases for prospecting, retargeting, and personalization for unknown users with an external device graph. An external device graph is defined as a device graph that is separate from Audience Manager. This includes the [!DNL Adobe Experience Cloud Device Co-op] and other integrations Adobe has with third-party deterministic or probabilistic device graph companies.
 
-## Recommendations {#section_7C93DAA7927A4203B9617A560CCC1F02}
+## Recommendations {#recommendations}
 
 Consider the [!DNL Experience Cloud Device Co-op] and third-party device graph options for campaigns that:
 
-* Have a low level of authentication across their digital properties. Use the [Profile Link device graph option](../../features/profile-merge-rules/merge-rule-definitions.md#section_E83D68EC2ADA4030B1D0206AE6A6E8BF) if you have a large number of authenticated users.
+* Have a low level of authentication across their digital properties. Use the [Profile Link device graph option](../../features/profile-merge-rules/merge-rule-definitions.md#device-options) if you have a large number of authenticated users.
 * Target large audiences. The [!DNL Experience Cloud Device Co-op] and third-party device graphs contain authenticated and un-authenticated data.
 * Segment authenticated and/or unauthenticated visitors at the individual and household level.
 
 ![](assets/merge-rule-triangle1.png)
 
-## Prospecting/Branding Use Case {#section_B6877E4AFC194EBDA6153A4719E224E8}
+## Prospecting/Branding Use Case {#prospecting-branding-use-cases}
 
 A branding campaign is designed to reach as many people as possible. It places few limits on segment qualification. But, these campaigns can waste budget and impressions by constantly targeting people who see your content multiple times and don't convert. A [!UICONTROL Profile Merge] rule that uses the [!DNL Device Co-op] or third-party option can help you create an efficient branding campaign. For example, you can add these unknown users to a "not in-market" segment after seeing them across multiple devices for your set frequency cap.
 
@@ -55,7 +55,7 @@ A branding campaign is designed to reach as many people as possible. It places f
  </tbody> 
 </table>
 
-## Retargeting or Site Personalization Use Case {#section_DDA1F5FC497E47B0BFBF199BA92474F5}
+## Retargeting or Site Personalization Use Case {#retargeting-use-case}
 
 These strategies are designed to bring an unauthenticated or unknown user back to your site or personalize their browsing experience while they're on-site.
 
@@ -89,7 +89,7 @@ These strategies are designed to bring an unauthenticated or unknown user back t
  </tbody>
 </table>
 
-## Profile Merge Rule Options for External Device Graph Use Cases {#section_48CFAB21B82A4C88B0FA2CC69187E2DF}
+## Profile Merge Rule Options for External Device Graph Use Cases {#profile-merge}
 
 Your merge rule options for these use cases would look similar to the available options shown below. The [!UICONTROL Authenticated Profile] options are deactivated because these settings are only available when you select **[!UICONTROL Current Authenticated Profile]** or **[!UICONTROL Last Authenticated Profile]**. Your [!UICONTROL Device Options] will vary depending on the type of device graph setting that you want to use or that is available to you.
 

@@ -20,7 +20,7 @@ The available `POST` methods let you create [!UICONTROL URL] and [!UICONTROL coo
 >[!MORE_LIKE_THIS]
 >
 >* [Destinations](../../../features/destinations/destinations.md#destination-api-methods)
->* [Destination Serialization](../../../features/destinations/key-value-pairs.md#concept_02436A7C6C574C799F079EB731A63262)
+>* [Destination Serialization](../../../features/destinations/key-value-pairs.md#destination-serialized)
 >* [Key-Value Pairs Explained](../../../reference/key-value-pairs-explained.md#concept_E4236E003076483AA939791FE2492B49)
 
 ## Create a Non-Serial URL Destination {#reference_CD17C3E3D02143C89A00B28CBB2A9EE9}
@@ -79,7 +79,7 @@ A successful request returns `201 created` and the destination.
 
 >[!MORE_LIKE_THIS]
 >
->* [Destination Serialization](../../../features/destinations/key-value-pairs.md#concept_02436A7C6C574C799F079EB731A63262)
+>* [Destination Serialization](../../../features/destinations/key-value-pairs.md#destination-serialized)
 
 ## Create a Serialized URL Destination {#reference_5F0A43A3FE8E4014B1F1010E39FD8EC3}
 
@@ -139,7 +139,7 @@ A successful update returns response code `201 created` and the destination.
 
 >[!MORE_LIKE_THIS]
 >
->* [Destination Serialization](../../../features/destinations/key-value-pairs.md#concept_02436A7C6C574C799F079EB731A63262)
+>* [Destination Serialization](../../../features/destinations/key-value-pairs.md#destination-serialized)
 
 ## Create a Cookie Destination: Single-Key, Non-Serialized {#reference_1CFA380EE9E740099E43B28E985BF23D}
 
@@ -213,7 +213,7 @@ A successful update returns response code `201 created` and the destination.
 
 >[!MORE_LIKE_THIS]
 >
->* [Destination Serialization](../../../features/destinations/key-value-pairs.md#concept_02436A7C6C574C799F079EB731A63262)
+>* [Destination Serialization](../../../features/destinations/key-value-pairs.md#destination-serialized)
 >* [Key-Value Pairs Explained](../../../reference/key-value-pairs-explained.md#concept_E4236E003076483AA939791FE2492B49)
 
 ## Create a Cookie Destination: Single Key, Serialized {#reference_D83C9F35928E4226AA89E7A089971147}
@@ -289,7 +289,7 @@ A successful update returns response code `201 created` and the destination.
 
 >[!MORE_LIKE_THIS]
 >
->* [Destination Serialization](../../../features/destinations/key-value-pairs.md#concept_02436A7C6C574C799F079EB731A63262)
+>* [Destination Serialization](../../../features/destinations/key-value-pairs.md#destination-serialized)
 >* [Key-Value Pairs Explained](../../../reference/key-value-pairs-explained.md#concept_E4236E003076483AA939791FE2492B49)
 
 ## Create a Cookie Destination: Multi-Key, Non-Serialized {#reference_DA9D74FD834C463FBC9B28E4C1BD05CC}
@@ -430,5 +430,5 @@ A successful update returns response code `201 created` and the destination.
 
 >[!MORE_LIKE_THIS]
 >
->* [Destination Serialization](../../../features/destinations/key-value-pairs.md#concept_02436A7C6C574C799F079EB731A63262)
+>* [Destination Serialization](../../../features/destinations/key-value-pairs.md#destination-serialized)
 >* [Key-Value Pairs Explained](../../../reference/key-value-pairs-explained.md#concept_E4236E003076483AA939791FE2492B49)

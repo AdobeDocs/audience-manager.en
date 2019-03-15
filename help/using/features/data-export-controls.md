@@ -90,5 +90,5 @@ Additionally, at least one export label must match an export control before data
 
 To get started, review the data source and destination documentation. These articles provide instructions about how to add export controls and labels to your data sources and destinations.
 
-* [Create a Data Source](../features/manage-datasources.md#concept_3B7696B3EC77416492D3B99EBD79EA44) 
-* [Add Data Export Labels to a Destination](../features/destinations/manage-destinations.md#task_A4BA30472E6F4687AC3F1B33F51909D9)
+* [Create a Data Source](../features/manage-datasources.md#create-data-source) 
+* [Add Data Export Labels to a Destination](../features/destinations/manage-destinations.md#add-data-export-labels)

@@ -11,7 +11,7 @@ uuid: 76a86ff0-4c64-4734-aec0-0a8828942096
 
 [!UICONTROL Profile Link] metrics provide data about people and devices that authenticate to your site. The data and graphs in [!UICONTROL Profile Link] update dynamically as you create a merge rules or when you click an existing rule from the [!UICONTROL Profile Merge Rules] dashboard. These metrics can include device graph from the [!DNL Adobe Experience Cloud Device Co-op] or other third-party device graph sources.
 
-## Merge Rule Metrics {#section_23F45E4C374241709A246058F4D92A23}
+## Merge Rule Metrics {#merge-rule-metrics}
 
 Reports return data in side-by-side bar graphs when your merge rules use data from the [Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/) or other, third-party device graphs you may have access to in [!DNL Audience Manager]. This lets you compare your authenticated, first-party data with cross-device data provided by the [!UICONTROL Experience Cloud Device Co-op] or another, third-party device graph. For information about data returned by the [!UICONTROL Device Co-op], see [The Device Graph: Internal Processes and Output](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-processes.html). This data is updated daily.
 
@@ -28,7 +28,7 @@ Reports return data in side-by-side bar graphs when your merge rules use data fr
    <td colname="col2"> <p>Shows: </p> 
     <ul id="ul_7F7373919A4A49028EF4BF7B28D9F8E9"> 
      <li id="li_FE2F93C496D64ED8928B3E522C9585EA"> <span class="wintitle"> Active People</span>: The number of people who have authenticated to your site for the last 60-days. </li> 
-     <li id="li_60CFD26EE68B442683C0ED5FED1A79C8"> <span class="wintitle"> Cross Device</span>: The total number of <a href="../../features/profile-merge-rules/merge-rules-start.md#concept_3B7696B3EC77416492D3B99EBD79EA44"> Cross Device IDs</a> stored in the <a href="../../features/manage-datasources.md#concept_3B7696B3EC77416492D3B99EBD79EA44"> Data Source</a> of the selected <a href="../../features/profile-merge-rules/merge-rule-definitions.md#concept_44FFF67CD9654DB2B43ECA13C2FD1CE0"> Authenticated Profile</a> for the lifetime that the data source has existed. </li> 
+     <li id="li_60CFD26EE68B442683C0ED5FED1A79C8"> <span class="wintitle"> Cross Device</span>: The total number of <a href="../../features/profile-merge-rules/merge-rules-start.md#create-data-source"> Cross Device IDs</a> stored in the <a href="../../features/manage-datasources.md#create-data-source"> Data Source</a> of the selected <a href="../../features/profile-merge-rules/merge-rule-definitions.md#concept_44FFF67CD9654DB2B43ECA13C2FD1CE0"> Authenticated Profile</a> for the lifetime that the data source has existed. </li> 
      <li id="li_F2F07B6A326C4A18B79A0CF2C47D9677"> <span class="wintitle"> % Active People</span>: Shows <span class="wintitle"> Active People</span> as a %. </li> 
     </ul> <p> <span class="wintitle"> Authenticated Activity</span> lets you compare data sources by activity, volume, and percent. It can help you find a data source that has a lot of people and a high percentage of active users. Or, you may find value in comparing data sources with high proportion of active users compared to the total audience size. For example, sometimes a data source with low total lifetime numbers and high activity are more valuable than those with high lifetime results and low activity numbers. </p> <p> <p>Note: The <span class="wintitle"> Authenticated Activity</span> metrics contain <span class="wintitle"> Profile Link</span> data only. This report does not include <span class="wintitle"> Device Graph</span> data. </p> </p> </td> 
   </tr> 
@@ -47,7 +47,7 @@ Reports return data in side-by-side bar graphs when your merge rules use data fr
  </tbody> 
 </table>
 
-## Device Graph Metrics {#section_E7862CA6AC9D4E04ADA75A235DC29B64}
+## Device Graph Metrics {#device-graph-metrics}
 
 The [!UICONTROL Merge Rules] reports also show data on the total number of people and devices who have visited your site for the selected data source and device graph. These metrics return data based on pre-set time intervals (the look-back period) that vary depending on the device option you select when creating a rule. The following table lists these report intervals for each of the device graph options.
 
@@ -94,7 +94,7 @@ The [!UICONTROL Merge Rules] reports also show data on the total number of peopl
  </tbody> 
 </table>
 
-## Sample Reports {#section_44086DF2594A4A60916A7077851F75BA}
+## Sample Reports {#sample-reports}
 
 ### Standard Profile Link Report
 
@@ -108,7 +108,7 @@ A [!UICONTROL Profile Link] report that includes device graph data from the [!UI
 
 ![](assets/coop-metrics2.png)
 
-## Profile Link Trend Graphs {#section_5A834A740513416B8A3533AE24357569}
+## Profile Link Trend Graphs {#profile-link-trend}
 
 In addition to the other data visualizations, [!UICONTROL Profile Link] reports include a line graph. The line graph is designed to show you trends over time for your profile rules. Trend graphs (and the other reports) are available when you click a rule from the [!UICONTROL Profile Merge Rules] landing page ( **[!UICONTROL Audience Data > Profile Merge Rules]**). These graphs include device graph data if you're a member of the [!UICONTROL Device Co-op] or other, third-party device graphs you may have access to in [!DNL Audience Manager]. Click on a trend line to see underlying data.
 

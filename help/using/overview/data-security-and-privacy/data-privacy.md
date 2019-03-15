@@ -48,7 +48,7 @@ The opt-out documentation has been extended and moved to a separate part of our 
    </tr> 
    <tr> 
     <td colname="col1"> <p>Browsers that do not support third-party cookies </p> </td> 
-    <td colname="col2"> <p>See <a href="../../features/declared-ids.md#concept_CB958007B9DA4251BA724B5607AD9FC3"> Declared ID Targeting</a>. </p> </td> 
+    <td colname="col2"> <p>See <a href="../../features/declared-ids.md#declared-id-targeting"> Declared ID Targeting</a>. </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p>Mobile devices </p> </td> 

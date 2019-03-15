@@ -11,13 +11,13 @@ uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
 
 How declared IDs work, set up procedures, code examples, and variables.
 
-## Declared ID Targeting {#concept_CB958007B9DA4251BA724B5607AD9FC3}
+## Declared ID Targeting {#declared-id-targeting}
 
 Exchange and synchronize user IDs with Audience Manager from devices or browsers that do not use or accept persistent storage mechanisms, such as third-party cookies.
 
 <!-- declared_id_about.xml -->
 
-## Purpose of Declared ID Targeting {#section_2127B48E659E4D3AB03C698EBE9B589F}
+## Purpose of Declared ID Targeting {#declared-id-targeting-purpose}
 
 Some browsers, and most mobile devices, do not accept third-party cookies. This makes it difficult to retain information about site visitors or assign persistent IDs. To resolve this issue, Audience Manager uses [!UICONTROL DIL] to let you pass in [!UICONTROL declared IDs] on an event call. Also, a [!UICONTROL declared ID] can act as a universal ID that applies to the same user across all the solutions in the [!DNL Experience Cloud]. The following table describes the ID targeting/matching process:
 
@@ -48,9 +48,9 @@ Some browsers, and most mobile devices, do not accept third-party cookies. This 
  </tbody>
 </table>
 
-To get started, you need to configure the [!DNL Experience Cloud] ID service and [!UICONTROL DIL] across the pages on your site that you want to use for data collection. See [DIL create](../dil/dil-class-overview/dil-create.md#reference_F87131F6C1CC4ECCA064B24B91710FD4) and [Declared ID Variables](../features/declared-ids.md#reference_F697F0D53E56430D95EC0C408B767F80).
+To get started, you need to configure the [!DNL Experience Cloud] ID service and [!UICONTROL DIL] across the pages on your site that you want to use for data collection. See [DIL create](../dil/dil-class-overview/dil-create.md#reference_F87131F6C1CC4ECCA064B24B91710FD4) and [Declared ID Variables](../features/declared-ids.md#declared-id-variables).
 
-## Opt-out Calls {#section_0C8341CD240945829F87D652DDF70BEC}
+## Opt-out Calls {#opt-out-calls}
 
 The [!UICONTROL declared ID] process honors site visitor preferences to opt-out of Audience Manager targeting by your website. When Audience Manager receives an opt-out request, the [!DNL JSON] returned by the [!UICONTROL DCS] contains the error code 171, with the message "Encountered opt out tag", instead of the Audience Manager user ID.
 
@@ -59,13 +59,13 @@ The [!UICONTROL declared ID] process honors site visitor preferences to opt-out 
 
 See [Data Privacy](../overview/data-security-and-privacy/data-privacy.md#concept_C1E36C6BF4C0461F9D31687E275DC46A) for more information about opting-out of data collection.
 
-## Declared ID Opt-Out Examples {#section_C0370B5573CD49408E35356D051B2AD8}
+## Declared ID Opt-Out Examples {#opt-out-examples}
 
 You can make a [!UICONTROL declared ID] opt-out requests with the `d_cid` and `d_cid_ic` key-value pairs. The legacy parameters like `d_dpid` and `d_dpuuid` still work, but are considered deprecated. See [CID Replaces DPID and DPUUID](../reference/cid.md#concept_E9DE716F22E8491AB27057DB92B79081). In the examples, *italics* indicates a variable placeholder.
 
 ### Opt-Outs With CID and CID_IC
 
-For a description and syntax, see [URL Variables and Syntax for Declared IDs](../features/declared-ids.md#concept_22E2210AA6604B83B46F5E0CD5504A51).
+For a description and syntax, see [URL Variables and Syntax for Declared IDs](../features/declared-ids.md#variables-and-syntax).
 
 <table id="table_159D92242D8F4FCBAC733295DE474CA6"> 
  <thead> 
@@ -117,11 +117,7 @@ These methods still work but are considered deprecated. This information is prov
  </tbody> 
 </table>
 
-## [!DNL URL] Variables and Syntax for Declared IDs {#concept_22E2210AA6604B83B46F5E0CD5504A51}
-
-Describes the variables and event call [!DNL URL]s that send IDs directly to Audience Manager.
-
-## Variables and Syntax {#section_27D6F136B4094764BE71045354F50B3D}
+## Variables and Syntax for Declared IDs {#variables-and-syntax}
 
 <!-- c_declared_id_var_syntax.xml -->
 
@@ -151,7 +147,7 @@ In each key-value pair:
  </tbody> 
 </table>
 
-## Sample Event Calls {#section_E7B2BD77EFA540CC968D981048900AA6}
+## Sample Event Calls {#sample-event-calls}
 
 Given these key-value pairs and their required syntax, you would make event calls as shown below.
 
@@ -182,11 +178,11 @@ Given these key-value pairs and their required syntax, you would make event call
 >
 >* [CID Replaces DPID and DPUUID](../reference/cid.md#concept_E9DE716F22E8491AB27057DB92B79081)
 
-## Declared ID Variables {#reference_F697F0D53E56430D95EC0C408B767F80}
+## Declared ID Variables {#declared-id-variables}
 
 Describes the configuration variables used to pass declared IDs through [!UICONTROL DIL] to [!DNL Audience Manager.]
 
-## DIL Uses the Experience Cloud ID Service to Pass Declared IDs {#section_2BF6DF66A50747BAB77C1427DDCCC218}
+## DIL Uses the Experience Cloud ID Service to Pass Declared IDs {#dil-id-service-pass-declared-ids}
 
 <!-- r_dil_declared_id_vars.xml -->
 
@@ -203,7 +199,7 @@ var vDil = DIL.create({
 
 In the `namespace` key-value pair, `MCORG` is your [!DNL Experience Cloud] Organization ID. If you don't have this ID, you can find it in the [!UICONTROL Administration] section of the [!DNL Experience Cloud] dashboard. You need administrator permissions to view this dashboard. See [Administration: Core Services](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html).
 
-## Deprecated Functions {#section_5CC20964A1D342F7B0CBC3B6120FF78C}
+## Deprecated Functions {#deprecated-functions}
 
 With the latest versions of [!UICONTROL DIL] (6.2+), you don't need to use these key-value pairs to pass in [!UICONTROL declared IDs]. That's because [!UICONTROL DIL] now relies on the `visitorService` function shown in the code sample above. This function gets [!UICONTROL declared IDs] from the [!UICONTROL Experience Cloud ID Service]. However, we're referencing these variables here for historical and legacy purposes. See the code below for an example of how to configure `DIL.create` to get a [!UICONTROL declared ID] from the [!UICONTROL Visitor ID Service].
 The following table describes the legacy variables used by the `declaredId` object:
@@ -263,7 +259,7 @@ DIL.getDil('partner name').api.signals({...}).declaredId({
 }).submit();
 </code></pre>
 
-## Request/Response Examples {#section_04668DDC7A83447C8B24F8D3C009ACB3}
+## Request/Response Examples {#request-response-examples}
 
 The request sends a data provider and user ID to Audience Manager:
 
@@ -280,6 +276,6 @@ myCallback({
 })
 ```
 
-## Do Not Target and Opt-Out Calls {#section_BAEA7C88783B4E7096A6B95F4F040652}
+## Do Not Target and Opt-Out Calls {#do-not-target}
 
 The [!UICONTROL declared ID] process honors site visitor preferences to opt-out of Audience Manager targeting by your website. When Audience Manager receives an opt-out request, the [!UICONTROL DCS] returns an empty [!DNL JSON] object instead of the Audience Manager user ID.

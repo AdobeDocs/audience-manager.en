@@ -91,7 +91,7 @@ You can make a declared ID opt-out request with the `d_cid` and `d_cid_ic` key-v
 
 **Opt-Outs With CID and CID_IC**
 
-For a description and syntax, see [URL Variables and Syntax for Declared IDs](../../features/declared-ids.md#concept_22E2210AA6604B83B46F5E0CD5504A51).
+For a description and syntax, see [URL Variables and Syntax for Declared IDs](../../features/declared-ids.md#variables-and-syntax).
 
 | Opt-Out Using | Code Sample |
 |--- |--- |

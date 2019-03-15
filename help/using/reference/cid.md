@@ -67,12 +67,12 @@ The CID and CID_IC key-value pairs replace DPID and DPUUID. They provide the sam
   </tr> 
   <tr> 
    <td colname="col1"> <p>Customer ID Integration Code (CID_IC) </p> </td> 
-   <td colname="col2"> <p> <code>d_cid_ic=<i>integration code</i>%01<i>user ID</i></code> </p> <p> An <span class="term"> integration code</span> is an alternate ID you can use instead of the Data Source ID, assigned by <span class="keyword"> Audience Manager</span>. See <a href="../features/manage-datasources.md#concept_3B7696B3EC77416492D3B99EBD79EA44"> Create a Data Source</a> if you need to configure an integration code. </p> </td> 
+   <td colname="col2"> <p> <code>d_cid_ic=<i>integration code</i>%01<i>user ID</i></code> </p> <p> An <span class="term"> integration code</span> is an alternate ID you can use instead of the Data Source ID, assigned by <span class="keyword"> Audience Manager</span>. See <a href="../features/manage-datasources.md#create-data-source"> Create a Data Source</a> if you need to configure an integration code. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-See also, [URL Variables and Syntax for Declared IDs](../features/declared-ids.md#concept_22E2210AA6604B83B46F5E0CD5504A51).
+See also, [URL Variables and Syntax for Declared IDs](../features/declared-ids.md#variables-and-syntax).
 
 >[!NOTE]
 >

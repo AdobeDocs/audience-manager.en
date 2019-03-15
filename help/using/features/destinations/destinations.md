@@ -12,7 +12,7 @@ uuid: 5c7dbdec-f73f-46fe-9f12-7685e8d7334f
 
 In Audience Manager, a destination is any third-party system (ad server, [!DNL DSP], ad network, etc.) that you want to share data with. [!UICONTROL Destination Builder] is the tool you used to create and manage cookie, [!DNL URL], or server-to-server destinations.
 
-## Purpose and Advantages {#section_D26ED9B4C55F4FAF9406C518ED41C5E6}
+## Purpose and Advantages {#purposes}
 
 <!-- c_destinations.xml -->
 
@@ -22,20 +22,20 @@ In Audience Manager, a destination is any third-party system (ad server, [!DNL D
 * **Take action on your data:** Sending data to a destination partner helps them quickly develop and target qualified audience segments.
 * **Reduce technical overhead:** Business users can set up destinations safely in the [!UICONTROL Destination Builder] interface. This helps reduce the time required for pre-deployment testing. With [!UICONTROL Destination Builder], you create, manage, and delete destinations as your business needs change, all without working through a long development cycle.
 
-## Technical Considerations {#section_62E0C3764C86476683D5F8F6CE2F6DC9}
+## Technical Considerations {#technical-considerations}
 
 <!-- destination-delivery-methods.xml -->
 
 Data delivery depends on how your data partner wants to, or can, receive destination information. Technical or engineering constraints may prevent a destination from receiving data via [!DNL URL], cookie, or server-to-server processes. Work with your third-party partner to determine which method they can use.
 
-## Business Considerations {#section_F666F33012EA4EA883190102E295AF5F}
+## Business Considerations {#business-considerations}
 
 Business decisions for selecting one delivery method over another depend on the technical capabilities of your destination partner and what you want to do with qualified user information. For example, technical constraints can limit your options if a destination cannot receive data by a particular delivery method. However, if there are no technical issues, you can send information based on how you want to take action on that data. For example:
 
 * [!DNL URL]s and cookie-based destinations work almost synchronously with user actions on a page.
 * Server-to-server methods are good for building deep audience segments over time.
 
-## Destination Types and Typical Uses {#section_84C13A0A9BEC430AA16CB6E7A6438049}
+## Destination Types and Typical Uses {#destination-types}
 
 The examples in the following table can help you understand when to use a particular destination and the differences between each type.
 

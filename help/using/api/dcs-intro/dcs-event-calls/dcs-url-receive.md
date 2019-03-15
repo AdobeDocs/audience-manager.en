@@ -44,12 +44,12 @@ The table below lists and defines the more common parameters you may see in a re
 
 | Parameter | Description |
 |--- |--- |
-|`c`|A URL that has been set as a [URL destination](../../../features/destinations/manage-destinations.md#concept_51842672DFA943EA982B363E74D42DF8).|
-|`cn`|The name or ID set in the cookie name field of a [cookie destination](../../../features/destinations/manage-destinations.md#concept_2462AA1321984293A92CB174C41B3496).|
+|`c`|A URL that has been set as a [URL destination](../../../features/destinations/manage-destinations.md#configure-url-destination).|
+|`cn`|The name or ID set in the cookie name field of a [cookie destination](../../../features/destinations/manage-destinations.md#create-cookie-destination).|
 |`cv`|The values sent to the destination defined by the "cn":" destinaton name" parameter.|
 |`dcs_region`|The [server-to-server DCS calls](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md#concept_01C1E017A6694D1EAF9BF65BFFA54091).|
 |`dests`|This object contains information for all URL destinations which are configured in the UI. This object’s list is dynamic based on the user’s actions.|
-|`dmn`|This is the domain specified in the  Cookie Domain field for a cookie destination. See [Optional Settings for Cookie Destinations](../../../features/destinations/manage-destinations.md#concept_DEF2E47F31D44BDA936BBB45EA5B136D).  For  Server to Server integrations we recommend using a domain like `aam-api.com`.|
+|`dmn`|This is the domain specified in the  Cookie Domain field for a cookie destination. See [Optional Settings for Cookie Destinations](../../../features/destinations/manage-destinations.md#optional-settings-cookies).  For  Server to Server integrations we recommend using a domain like `aam-api.com`.|
 |`e`|The secure URL that has been set in a URL destination.|
 |`stuff`|This object contains information for all  Cookie destinations. This object’s list is dynamic based on the user’s actions.|
 |`tid`|Transaction ID, which is a unique 12-character ID used for debugging purposes. Each /event call to the  DCS receives a tid that you can reference in support enquiries for a better and faster response.|
