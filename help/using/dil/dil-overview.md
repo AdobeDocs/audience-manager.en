@@ -41,3 +41,12 @@ Adobe Launch is the successor to [Adobe Dynamic Tag Manager](https://marketing.a
 |--- |--- |
 |URL|DIL event calls use the following syntax: `https://adobe.demdex.net/event?_ts =` *`UNIX UTC timestamp`*|
 |Body|As shown in sample below,  DIL passes data as key-value pairs. Special prefix characters identify the key-value pairs as Audience Manager or partner variables.<br>`d_dst=1`<br>`d_jsonv=1`<br>`d_ld=_ts=1473693143821`<br>`d_mid=54192285857942994142875423154873503351`<br>`d_nsid=0`<br>`d_rtbd=json`<br>See also:<ul><li>[Prefix Requirements for Key Variables](../features/traits/trait-variable-prefixes.md)</li><li>[Supported Attributes for DCS API Calls](../api/dcs-intro/dcs-api-reference/dcs-keys.md)</li></ul>|
+
+## Related Links
+
+* [DIL Use Cases and Code Samples](/help/using/dil/dil-use-cases.md)
+* [Class-level DIL Methods](/help/using/dil/dil-class-overview/dil-class-overview.md)
+* [Instance-level DIL Methods](/help/using/dil/dil-instance-methods.md)
+* [DIL Modules](/help/using/dil/dil-modules.md)
+* [DIL Tools](/help/using/dil/dil-tools.md)
+* [Flash DIL](/help/using/dil/dil-flash.md)
