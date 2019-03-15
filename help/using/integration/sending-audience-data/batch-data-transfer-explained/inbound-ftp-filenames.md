@@ -11,6 +11,10 @@ uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 
 Describes the required fields, syntax, naming conventions and file sizes you need to follow when sending data to Audience Manager. Set the names and sizes of your files according to these specifications when you send data to an Audience Manager [!DNL FTP] directory.
 
+>[!WARNING]
+>
+>FTP transfer for inbound data files is not supported anymore. Please use Amazon S3 to onboard offline data. See [Amazon S3 Name and File Size Requirements for Inbound Data Files](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) for details.
+
 >[!NOTE]
 >
 >The text styles (`monospaced text`, *italics*, brackets `[ ]` `( )`, etc.) in this document indicate code elements and options. See [Style Conventions for Code and Text Elements](../../../reference/code-style-elements.md#reference_59D0BD0EDB424A65853460D91CCA35D9) for more information.

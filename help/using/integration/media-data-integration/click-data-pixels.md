@@ -16,7 +16,7 @@ Click tracking enables measurement of visitor engagement throughout your campaig
 Click tracking calls require the following parameters:
 
 * `d_event=click`: A key-value pair that identifies an event call as a click event.
-* `d_rd= *`redirect URL`*`: A key-value pair that contains an encoded redirect [!DNL URL].
+* `d_rd=redirect URL`: A key-value pair that contains an encoded redirect [!DNL URL].
 
 In addition, the call can contain key-value pairs that can be used for trait qualification or to provide data and metadata for other reports.
 
