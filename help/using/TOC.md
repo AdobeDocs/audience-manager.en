@@ -122,6 +122,13 @@ user-guide-title: Audience Manager User Guide
         + [Device Targeting With Platform-level Keys](features/traits/trait-device-targeting.md)
         + [Sample Expressions With Boolean and Comparison Operators](features/traits/trait-expression-samples.md)
         + [Trait Qualification Reference](features/traits/trait-qualification-reference.md)
+        + [About Trait Builder](features/traits/about-trait-builder.md)
+        + [Create Rules-Based or Onboarded Traits](features/traits/create-onboarded-rule-based-traits.md)
+        + [Managing Trait Rules](features/traits/manage-trait-rules.md)
+        + [Create Algorithmic Traits](features/traits/create-algorithmic-traits.md)
+        + [Working with Comparison Operators in Trait Builder](features/traits/trait-comparison-operators.md)
+        + [Order of Operations in Trait Builder](features/traits/trait-operator-precedence.md)
+        + [Using Regular Expressions in Trait Builder](features/traits/trait-builder-regex.md)
     + [Visitor Profile Viewer](features/visitor-profile-viewer.md)
 + Reporting{#reporting}
     + [Reports Dashboard](reporting/reports-dashboard.md)
