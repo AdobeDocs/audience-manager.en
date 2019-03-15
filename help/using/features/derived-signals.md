@@ -23,7 +23,7 @@ In [!DNL Audience Manager], you can create a relationship between signals (or tr
 
 Create and manage [!UICONTROL derived signals] in **[!UICONTROL Tools > Derived Signals]** from the sidebar navigation.
 
-## Create a Derived Signal {#task_5F57826F8EA142C39A91F2FD2332035B}
+## Create a Derived Signal {#create}
 
 <!-- t_tb_create_derived.xml -->
 
@@ -42,7 +42,7 @@ To create a [!UICONTROL derived signal]:
 >
 >The character limit for the [!UICONTROL Source Key], [!UICONTROL Source Value], [!UICONTROL Target Key], and [!UICONTROL Target Value] fields is 228 characters.
 
-## Edit a Derived Signal {#task_03A867938CD54F9F9A624C630CCDEC3E}
+## Edit a Derived Signal {#edit}
 
 <!-- t_tb_edit_derived.xml -->
 
@@ -51,7 +51,7 @@ To edit a [!UICONTROL derived signal]:
 1. Hover over the signal, then click **[!UICONTROL Edit]**.
 2. Make the required code, key, or value changes, then click **[!UICONTROL Save]**.
 
-## Delete a Derived Signal {#task_956A182EC2A2487EB46A0EABC6768964}
+## Delete a Derived Signal {#delete}
 
 <!-- t_tb_delete_derived.xml -->
 

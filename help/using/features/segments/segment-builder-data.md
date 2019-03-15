@@ -11,7 +11,7 @@ uuid: e1e59c0a-b4c7-4cad-8485-3667e0a95e83
 
 Add and remove traits in [!UICONTROL Segment Builder] to see actual trait populations along with actual and estimated segment population data. The estimated population size data helps you build the right segment for your campaign.
 
-## Trait Population Data {#section_FF2BA58491ED4BEDB112F6A482AFD716}
+## Trait Population Data {#trait-population-data}
 
 [!UICONTROL Segment Builder] shows you [!UICONTROL Total Trait Population] for the last day when you add a trait to a segment. This data appears in the blue field around your selected trait in the [!UICONTROL Basic View] section.
 
@@ -34,7 +34,7 @@ The following table defines the trait population metrics
  </tbody> 
 </table>
 
-## Calculating Real and Estimated Segment Populations {#section_9AE6ADE1934E42DDB10B63E2EB3C5DE6}
+## Calculating Real and Estimated Segment Populations {#calculating-real-estimated-populations}
 
 When you create a new segment, or change an existing segment, Audience Manager takes up to 24-hours to display results for actual real-time and total segment populations.
 
@@ -44,7 +44,7 @@ However, Audience Manager can immediately estimate the real-time and total popul
 
 In [!UICONTROL Segment Builder], a blue bar on the estimated population graphs indicates the possible upper and lower ranges for segment size. Although past performance does not guarantee future results, the estimated data can help you understand the potential size of a new or edited segment.
 
-## Segment Population Data Overview {#section_ED9F6B29E9D541499E3FC7C0A1753FCE}
+## Segment Population Data Overview {#segment-populations}
 
 [!UICONTROL Segment Builder] shows you segment population data as you create and edit segments.
 
@@ -56,7 +56,7 @@ In [!UICONTROL Segment Builder], a blue bar on the estimated population graphs i
 
 See the definitions below for more information about estimated and actual segment population data.
 
-## Estimated Segment Population Data Defined {#section_EF725FC5D0A34C60B27A93E40EB820D1}
+## Estimated Segment Population Data Defined {#estimated-segment-population}
 
 The following table defines the estimated population metrics.
 
@@ -74,7 +74,7 @@ The following table defines the estimated population metrics.
      <ul id="ul_CAE803D09913462CAD413A665D85C1A2"> 
       <li id="li_3E64330D6F5B4D2F8F3456730A86894F">For traits, the last 30-day metric counts the number of unique users who qualified for that trait during the last 30-days. </li>
       <li id="li_FF3CACD0B6C742CDB94D66200D77CE06">For segments evaluated in real-time, the last 30-day metric counts the number of users who have qualified for a trait (in that segment) at some point in the past and have been seen again by Audience Manager within the last 30-days. For example, say you have a user who qualified for a trait 60-days ago and was seen again 10-days ago. In the data, this user won't be added to the trait count because they first qualified for the trait more than 30-days ago. However, they will be included in the last 30-day count for the segments evaluated in real-time. This is because they've qualified for the segment within the 30-day time interval. </li>
-     </ul> </p> <p> <p>Note: The <span class="wintitle"> Estimated Real-Time Population</span> metric does not include devices that have qualified for a segment based on connections provided by a <span class="wintitle"> Profile Merge Rule</span> that uses a <a href="../../features/profile-merge-rules/merge-rule-definitions.md#section_E83D68EC2ADA4030B1D0206AE6A6E8BF"> device graph option</a>. </p> </p> </td> 
+     </ul> </p> <p> <p>Note: The <span class="wintitle"> Estimated Real-Time Population</span> metric does not include devices that have qualified for a segment based on connections provided by a <span class="wintitle"> Profile Merge Rule</span> that uses a <a href="../../features/profile-merge-rules/merge-rule-definitions.md#device-options"> device graph option</a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> Estimated Total Population (Potential)</span> </p> </td> 
@@ -82,12 +82,12 @@ The following table defines the estimated population metrics.
      <ul id="ul_0490DD08C7C8493DADFB11B5872A73BC"> 
       <li id="li_AE38C8C8A4B24021BAC724B51A4799E2">See how many people a new or revised segment might reach as you build a segment. </li> 
       <li id="li_E830EC2B12DC46D4B0A4DD807A8936F6">Tune the segment depending on your goals. For example, large segments are useful for brand-awareness campaigns and smaller segments are useful for focused targeting or re-targeting campaigns. </li> 
-     </ul> </p> <p> <p>Note: The <span class="wintitle"> Estimated Total Population</span> metric does not include devices that have qualified for a segment based on connections provided by a <span class="wintitle"> Profile Merge Rule</span> that uses a <a href="../../features/profile-merge-rules/merge-rule-definitions.md#section_E83D68EC2ADA4030B1D0206AE6A6E8BF"> device graph option</a>. </p> </p> </td> 
+     </ul> </p> <p> <p>Note: The <span class="wintitle"> Estimated Total Population</span> metric does not include devices that have qualified for a segment based on connections provided by a <span class="wintitle"> Profile Merge Rule</span> that uses a <a href="../../features/profile-merge-rules/merge-rule-definitions.md#device-options"> device graph option</a>. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Existing (Actual) Segment Population Data Defined {#section_D837A7AE024D43FC977E118D753E548A}
+## Existing (Actual) Segment Population Data Defined {#existing-segment-population}
 
 [!UICONTROL Profile Merge Rules] affect the actual real-time and total population numbers. These totals vary depending on if the [!UICONTROL Profile Merge Rule] a segment belongs to uses a device graph option or not. See also, [Profile Merge Rule Options Defined](../../features/profile-merge-rules/merge-rule-definitions.md#concept_44FFF67CD9654DB2B43ECA13C2FD1CE0).
 
@@ -147,7 +147,7 @@ The following table defines the actual real-time and total population metrics wh
 
 ### Limitations due to Merge Rules When Estimating Segment Populations
 
-Presently, there is a known limitation because our segment size estimator does not account for profile merge rules. For example, look at segments with the **No Authenticated Profile + Current Device Profile**  [merge rule](../../features/profile-merge-rules/merge-rule-definitions.md#concept_44FFF67CD9654DB2B43ECA13C2FD1CE0). Because of the way we currently compute the segment estimation numbers, the estimated populations will include authenticated profiles. However, the existing segment populations will correctly ignore authenticated profiles.
+Presently, there is a known limitation because our segment size estimator does not account for profile merge rules. For example, look at segments with the **No Authenticated Profile + Current Device Profile**&nbsp;[merge rule](../../features/profile-merge-rules/merge-rule-definitions.md#concept_44FFF67CD9654DB2B43ECA13C2FD1CE0). Because of the way we currently compute the segment estimation numbers, the estimated populations will include authenticated profiles. However, the existing segment populations will correctly ignore authenticated profiles.
 
 >[!MORE_LIKE_THIS]
 >

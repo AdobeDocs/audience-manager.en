@@ -17,7 +17,7 @@ The [!UICONTROL Profile Merge Rules] dashboard provides a unified workspace that
 
 When working with [!UICONTROL Profile Merge Rules], you can:
 
-* Create a maximum of 3 rules from your cross-device data sources. See [Create a Cross-Device Data Source](../../features/profile-merge-rules/merge-rules-start.md#concept_3B7696B3EC77416492D3B99EBD79EA44).
+* Create a maximum of 3 rules from your cross-device data sources. See [Create a Cross-Device Data Source](../../features/profile-merge-rules/merge-rules-start.md#create-data-source).
 * Designate a default merge rule. [Segment Builder](../../features/segments/segment-builder.md#concept_FABA1F399CFD4E83B874043638D0FA54) automatically applies the default rule to any new segments you create.
 * Apply [Data Export Controls](../../features/data-export-controls.md#) to a merge rule. [!UICONTROL Data Export Controls] prevent you from sending data to destinations when that would violate data privacy or use agreements.
 * Track the average number of devices for each user.

@@ -11,7 +11,7 @@ uuid: 43789419-5b3f-4e62-b2e0-2722340bdd41
 
 A key-value pair consists of related elements: A key, which is a constant that defines the data set (e.g., gender, color, price) and a value, which is a variable that belongs to the set (e.g., male/female, green, 100). [!UICONTROL Destination Builder] sends data formatted as key-value pairs.
 
-## Basic Key-Value Pairs {#section_34AFF52B513A45AB860775E1E932BB84}
+## Basic Key-Value Pairs {#basic-key-value-pairs}
 
 Fully formed, a basic set of key-value pair could look like these:
 
@@ -19,7 +19,7 @@ Fully formed, a basic set of key-value pair could look like these:
 * `color = green`
 * `price > 100`
 
-## Standard and Serial Key-Value Pairs {#section_5C306C511C654F938790E8D2B3A1DECD}
+## Standard and Serial Key-Value Pairs {#standard-serial-key-value-pairs}
 
 Destinations accept key-value data in *`standard`* or *`serialized`* format.
 
@@ -50,7 +50,7 @@ Both standard and serialized key-values can contain single or multiple values. T
  </tbody>
 </table>
 
-## Delimiters and Separators {#section_85A700B82CE84233B4CC486C8E5C05C0}
+## Delimiters and Separators {#delimiters-separators}
 
 The characters that separate values within and between keys and values are known as *`delimiters`* and *`separators`*. These become particularly important when you send segments to a destination in a serial format. Serialization lets you pass in multiple values with a single key and combine key-value pairs. Delimiters and separators are defined as follows:
 
@@ -58,7 +58,7 @@ The characters that separate values within and between keys and values are known
 * **Key-value delimiter:** Separates sets of key-value pairs.
 * **Serial separator:** Separates multiple values within sets of serialized key-value pairs.
 
-## Examples {#section_50652568A718459DB8FDDC6B6C2581CF}
+## Examples {#examples}
 
 With [!UICONTROL Destination Builder] you can format key-value data in several different ways. Let's take a look at some examples of each type.
 
@@ -119,7 +119,7 @@ With [!UICONTROL Destination Builder] you can format key-value data in several d
  </tbody> 
 </table>
 
-## Destination Serialization {#concept_02436A7C6C574C799F079EB731A63262}
+## Destination Serialization {#destination-serialized}
 
 A serialized destination combines multiple traits into a single string and sends that information to a destination.
 

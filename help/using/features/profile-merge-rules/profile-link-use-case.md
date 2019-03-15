@@ -11,17 +11,17 @@ uuid: bd5567fd-fcd5-40ba-b6f1-035d2ddbcd3a
 
 Recommendations and use cases for segment retargeting and personalized segment qualification with the [!UICONTROL Profile Link] device graph.
 
-## Recommendations {#section_88E3469E94E14453AF6891B8ADA0933B}
+## Recommendations {#recommendations}
 
 Consider the [!UICONTROL Profile Link] device graph for campaigns that:
 
-* Have a high-level of authentication across their digital properties. Use an [external device graph option](../../features/profile-merge-rules/merge-rule-definitions.md#section_E83D68EC2ADA4030B1D0206AE6A6E8BF) if you have a small amount of authenticated users.
+* Have a high-level of authentication across their digital properties. Use an [external device graph option](../../features/profile-merge-rules/merge-rule-definitions.md#device-options) if you have a small amount of authenticated users.
 * Require accurate targeting of known audiences. The [!UICONTROL Profile Link device graph] is built using first-party, authenticated data.
 * Target known audiences across their authenticated and unauthenticated states in real-time.
 
 ![](assets/merge-rule-triangle2.png)
 
-## Retargeting Use Case and Profile Merge Rule Configuration {#section_2778EE45F23A4977811B74CDFCF100A9}
+## Retargeting Use Case and Profile Merge Rule Configuration {#retargeting-use-cases}
 
 Retarget audiences which have previously authenticated on-site and/or in-app across multiple devices. Segments can be composed of the following profiles:
 
@@ -76,7 +76,7 @@ To set up retargeting with [!UICONTROL Profile Link], your [!UICONTROL Authentic
 
 ![Profile merge rule setup](assets/merge-rules-internal3.png)
 
-## Personalization Use Case and Profile Merge Rule Configuration {#section_D0479113B03347A0976AEE8617E9CCCB}
+## Personalization Use Case and Profile Merge Rule Configuration {#personalization-use-case}
 
 Personalize the experience for authenticated audiences on-site and/or in-app based on activity across multiple devices. Segments can be composed of the following profiles:
 

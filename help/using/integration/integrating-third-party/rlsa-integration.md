@@ -23,7 +23,7 @@ To set up a [!DNL Google Ads] remarketing list as an [!DNL Audience Manager] URL
     //googleads.g.doubleclick.net/pagead/viewthroughconversion/xxxxxxxx/?value=0&guid=ON&script=0&data=%ALIAS%
    ```
 
-1. In Audience Manager, [Create a URL destination](../../features/destinations/manage-destinations.md#concept_51842672DFA943EA982B363E74D42DF8) or edit an existing destination. Use the following settings when creating the destination:
+1. In Audience Manager, [Create a URL destination](../../features/destinations/manage-destinations.md#configure-url-destination) or edit an existing destination. Use the following settings when creating the destination:
    * Type: URL
    * Serialize: Enabled
    * Delimiter: Semicolon (;)
@@ -64,6 +64,6 @@ A completed mapping could look similar to this:
 >[!MORE_LIKE_THIS]
 >
 >* [Destinations](../../features/destinations/destinations.md#concept_5BDA346C376C4B719EA394108AB2735A)
->* [Create a URL Destination](../../features/destinations/manage-destinations.md#concept_51842672DFA943EA982B363E74D42DF8)
+>* [Create a URL Destination](../../features/destinations/manage-destinations.md#configure-url-destination)
 >* [About AdWords Remarketing Lists](https://support.google.com/adwords/answer/2472738)
 >* [How AdWords Remarketing Works](https://support.google.com/adwords/answer/2454000)

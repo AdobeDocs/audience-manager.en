@@ -104,7 +104,7 @@ Remember, in order to use this information for audience creation and segmentatio
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_src</code> </p> </td> 
-   <td colname="col2"> <p>The ID of the data source you use to capture DCM data. See <a href="../../features/manage-datasources.md#concept_3B7696B3EC77416492D3B99EBD79EA44"> How to Create a Data Source</a>. </p> </td> 
+   <td colname="col2"> <p>The ID of the data source you use to capture DCM data. See <a href="../../features/manage-datasources.md#create-data-source"> How to Create a Data Source</a>. </p> </td> 
    <td colname="col3"> <p> <code> 743</code> </p> </td> 
   </tr>
  </tbody>

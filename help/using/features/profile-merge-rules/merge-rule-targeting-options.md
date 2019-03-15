@@ -17,7 +17,7 @@ uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
 >
 >For definitions and descriptions of these [!UICONTROL Merge Rule] settings, see [Profile Merge Rule Options Defined](../../features/profile-merge-rules/merge-rule-definitions.md#concept_44FFF67CD9654DB2B43ECA13C2FD1CE0).
 
-## Focused targeting {#section_DD5CB340BF0C4C6F93C640ACA100EDB6}
+## Focused targeting {#focused-targeting}
 
 User authentication to a website should trigger a declared ID call to [!DNL Audience Manager]. After this event, [!DNL Audience Manager] writes trait data to (and reads from) an authenticated profile. The authenticated profile lets [!DNL Audience Manager]:
 
@@ -40,7 +40,7 @@ An example of a rule that reaches users based on preivous authentication is:
 
 * **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Current Device Profile]**
 
-## Expanded targeting {#section_ADA0946192274869B94BD88BEE8ECFA7}
+## Expanded targeting {#expanded-targeting}
 
 Along with rules that help reach specific customers, marketers also need rules that increase the size of data sets available for targeting. [!UICONTROL Profile Merge Rules] let you do this with the device profile option. The device options expand the data set eligible for segmentation because they draw on traits realized while a user was in an anonymous state on one or many devices. This could be useful when you're trying to reach a user across all of their devices using a person device graph or all devices in a household using a household device graph. A use case for this option could include advertising a family vacation offer. In this case, you'll want to reach every device in a household with the offer if a user on any device has shown interest in the offer.
 
@@ -63,7 +63,7 @@ To create a rule that expands the targeting data set, select the **[!UICONTROL L
 
  -->
 
-## Device Graph Options {#section_F6D35A63A04346EE85DE533A43E5EE0D}
+## Device Graph Options {#device-graph-options}
 
 Choosing a [!UICONTROL device graph] option for a [!UICONTROL Profile Merge] rule depends on conditions unique to your digital properties and business goals. These general guidelines can help you understand when to use one type of graph vs another. Note, you must be a member of the [!DNL Adobe Experience Cloud Device Co-op] or have a contractual relationship with an external device graph to use these options. Refer to the table below for general guidance on when to choose a device graph option. For specific use cases, see [Profile Link Device Graph Use Cases](../../features/profile-merge-rules/profile-link-use-case.md#concept_5D9D32E18BB94F318A8BA0229335F1B9) and [External Device Graph Use Cases](../../features/profile-merge-rules/external-graph-use-cases.md#concept_7C0BDBFB3392415286B624F45E8883E5).
 

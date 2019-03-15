@@ -18,13 +18,13 @@ Audience Manager defines [!DNL recency] and [!DNL frequency] as follows:
 
 [!UICONTROL Recency] and [!UICONTROL Frequency] settings help you segment visitors based on their real (or perceived) level of interest in a site, section, or particular creative. For example, users who qualify for a segment with high recency/frequency requirements may be more interested in a site or product than users who visit less often or less frequently.
 
-## Location of Recency and Frequency Settings {#section_49C03FF5D0554A7EB40AC42D46E17E09}
+## Location of Recency and Frequency Settings {#location}
 
 In [!UICONTROL Segment Builder], [!UICONTROL Recency] and [!UICONTROL Frequency] settings are located in the [!UICONTROL Basic View] section of the [!UICONTROL Traits] panel. Click the clock icon to expose these controls.
 
 ![](assets/recency_frequency.png)
 
-## Limitations and Rules {#section_19CA9E5DEAE7455EB512D541B9B612DE}
+## Limitations and Rules {#limitations-rules}
 
 Review and understand these limits and rules when you want to apply recency and frequency to traits in your segments.
 
@@ -74,7 +74,7 @@ Review and understand these limits and rules when you want to apply recency and 
  </tbody> 
 </table>
 
-## Frequency Capping Examples {#section_61D796D4E5764D49B4FF2DCC52021D2E}
+## Frequency Capping Examples {#frequency-capping}
 
 Frequency-capping expressions include all the users whose number of trait realizations is below a desired value. Here are a few examples:
 
@@ -85,5 +85,5 @@ Frequency-capping expressions include all the users whose number of trait realiz
 
 >[!MORE_LIKE_THIS]
 >
->* [Segment Builder Controls: Traits Section](../../features/segments/segment-builder.md#reference_131791CC12A6431A8AD5F19F4FB48947)
+>* [Segment Builder Controls: Traits Section](../../features/segments/segment-builder.md#segment-builder-controls-traits)
 >* [Code Syntax Used in the Segment Expression Editor](../../features/segments/segment-code-syntax.md#reference_22B665FB13BA473EBDD6668A9966AAD9)

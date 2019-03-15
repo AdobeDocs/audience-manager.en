@@ -86,7 +86,7 @@ user-guide-title: Audience Manager User Guide
         + [Report Metrics for Profile Merge Rules](features/profile-merge-rules/profile-link-metrics.md)
         + [Profile Merge Rules and Device Un-Segmentation Processes](features/profile-merge-rules/merge-rule-unsegment.md)
         + [Instant Cross-Device Suppression](features/profile-merge-rules/instant-cross-device-suppression.md)
-        + [Important Considerations for Profile Merge Rules with Device   Graphs](features/profile-merge-rules/considerations-pmr-device-graph.md)
+        + [Important Considerations for Profile Merge Rules with Device Graphs](features/profile-merge-rules/considerations-pmr-device-graph.md)
     + Segments{#segments}
         + [Segments: Purpose, Composition, and Rules](features/segments/segments-purpose.md)
         + [Segments List View](features/segments/segments-dashboard.md)

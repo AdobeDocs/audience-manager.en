@@ -11,11 +11,11 @@ uuid: 719e2c41-8788-4e8a-967a-e367421f9f84
 
 When Audience Manager sends segment information to a data partner, it identifies these objects with numeric IDs. As a data partner, when you share this information with your customers (or work with it yourself), an actual name and description provide a better experience for customers in reports, dashboards, or other user interfaces ([!DNL UI]). Data partners can make these friendly names available to their customers with either the manual or automated methods described in this section.
 
-## Manual method {#section_FC3DBF37844B4A6C8D3E933DA81AACE9}
+## Manual method {#manual-method}
 
 As a data partner, you're probably used to getting audience metadata from your customers through manual processes. This could include files attached to emails or from customers adding that data through a [!DNL UI] you've built and maintained for this purpose. These processes work, but they're often cumbersome, time consuming, and may require manual data entry work. These methods are often used to help get an integration up and running quickly, but they do not provide the best customer experience in the long run. As an alternative, you can use the [!DNL Audience Manager] [!DNL API] to get segment metadata automatically.
 
-## Automated method {#section_286D2B80BD034D06A26CD88FDD2B232B}
+## Automated method {#automated-method}
 
 [!DNL Audience Manager] provides a set of [REST APIs](../../api/rest-api-main/rest-api-main.md#concept_B512E6C3410A4304A672588A60A792B1) that let you retrieve segment metadata automatically. With the [!DNL API], you can create jobs that retrieve segment metadata at scheduled intervals or automatically, whenever you process [!DNL Audience Manager] data and find a new segment ID. See the steps below for more information.
 

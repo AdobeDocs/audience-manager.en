@@ -11,7 +11,7 @@ uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 
 Describes the required and optional steps that create a segment in [!UICONTROL Segment Builder].
 
-## Create a Segment {#task_FC8DBBF9FA4447F9B60D5AFACA73332B}
+## Create a Segment {#create-segment}
 
 ### Segment Builder Section
 
@@ -19,26 +19,26 @@ Describes the required and optional steps that create a segment in [!UICONTROL S
 
 [!UICONTROL Segment Builder] consists of 3 separate sections: [!UICONTROL Basic Information], [!UICONTROL Traits], and [!UICONTROL Destinations Mapping]. To create a segment, complete the required fields in the [!UICONTROL Basic Information] and [!UICONTROL Traits] sections. [!UICONTROL Destinations Mapping] settings are optional. See the instructions below for additional help.
 
-1. In the [Basic Information](../../features/segments/segment-builder.md#reference_9FC34B07E1944CE5A23974B8E58B2A18) section:
+1. In the [Basic Information](../../features/segments/segment-builder.md#segment-builder-controls-basics) section:
     * Name the segment. The maximum length of a segment name is 255 characters.
     * Set the segment status (active is default).
     * Choose a data source.
     * Select a profile merge rule to use for segment qualification.
     * Assign the segment to a storage folder.
-1. In the [Traits](../../features/segments/segment-builder.md#reference_131791CC12A6431A8AD5F19F4FB48947) section:
+1. In the [Traits](../../features/segments/segment-builder.md#segment-builder-controls-traits) section:
     * Search for the trait you want to add to a segment and click **[!UICONTROL Add Trait]**. Add another trait to create a trait group.
     * Bring up the Advanced Search modal by clicking **[!UICONTROL Browse All Traits]**. Search for traits by name, ID, description or data source. Click on a folder while searching to limit results to that folder and its subfolders. You can also filter traits by trait type.
     * Get live [trait recommendations](trait-recommendations.md) as you build your segment.
     * Click and drag traits to create separate groups.
     * Hover between groups to set relationships with Boolean [!UICONTROL AND], [!UICONTROL OR], [!UICONTROL AND NOT] values.
     * Hover over the clock icon to add [recency and frequency](../../features/segments/recency-and-frequency.md#concept_957D9E1977774D28A98ACEE6035E7B37) rules to the trait.
-    * View segment population data as you add or remove traits. Click **[!UICONTROL Calculate Estimates]** to see (or refresh) the estimated population numbers. Read more about [segment population data](../../features/segments/segment-builder-data.md#section_ED9F6B29E9D541499E3FC7C0A1753FCE) in the Segment Builder.
+    * View segment population data as you add or remove traits. Click **[!UICONTROL Calculate Estimates]** to see (or refresh) the estimated population numbers. Read more about [segment population data](../../features/segments/segment-builder-data.md#segment-populations) in the Segment Builder.
     * Click **[!UICONTROL Save]** when done.
-1. *(Optional)* Map a segment to a destination in the [Destination Mapping](../../features/segments/segment-builder.md#reference_D4D92F9F114449C9BC2A51A1C746D92F) section:
+1. *(Optional)* Map a segment to a destination in the [Destination Mapping](../../features/segments/segment-builder.md#segment-builder-controls-destinations) section:
     * Search for the destination and click **[!UICONTROL Add Destination]**. Note, the destination must already exist before you can add it to a segment.
     * Click **[!UICONTROL Save]** when done.
 
-## Segment Builder Controls: Basic Information Section {#reference_9FC34B07E1944CE5A23974B8E58B2A18}
+## Segment Builder Controls: Basic Information Section {#segment-builder-controls-basics}
 
 In [!UICONTROL Segment Builder], [!UICONTROL the Basic Information] settings let you create new, or edit existing traits. To create a new segment, provide a name, a data source, and select a storage folder. All other fields are optional. Move on to the [!UICONTROL Traits] section when done.
 
@@ -83,7 +83,7 @@ In [!UICONTROL Segment Builder], [!UICONTROL the Basic Information] settings let
  </tbody> 
 </table>
 
-## Segment Builder Controls: Traits Section {#reference_131791CC12A6431A8AD5F19F4FB48947}
+## Segment Builder Controls: Traits Section {#segment-builder-controls-traits}
 
 In [!UICONTROL Segment Builder], the [!UICONTROL Traits] section lets you manage traits in a segment, create trait groups, and set qualification criteria. To add a trait to a segment, type the trait name in the search field and click [!UICONTROL Add Trait]. Save the trait (if finished) or move on to [!UICONTROL Destinations Mapping].
 
@@ -99,7 +99,7 @@ In [!UICONTROL Segment Builder], the [!UICONTROL Traits] section lets you manage
 |Recommendations|Get live recommendations for similar traits to add to the segment rule. Read more in [Trait Recommendations](trait-recommendations.md).|
 |Real and Estimated Segment Size Data|See [Trait and Segment Population Data in Segment Builder](segment-builder-data.md).|
 
-## Segment Builder Controls: Destinations Mappings Section {#reference_D4D92F9F114449C9BC2A51A1C746D92F}
+## Segment Builder Controls: Destinations Mappings Section {#segment-builder-controls-destinations}
 
 In [!UICONTROL Segment Builder], the optional [!UICONTROL Destinations Mapping] section lets you send segment data to a third-party [!DNL cookie], [!DNL URL], or server-to-server destination. To add a destination, search (or browse) for a destination, provide destination specific information, and click **[!UICONTROL Add Destination]**.
 
@@ -148,5 +148,5 @@ In the [!UICONTROL Destination Value] field specify the value (part of a key-val
 
 >[!MORE_LIKE_THIS]
 >
->* [Create a Cookie Destination](../../features/destinations/manage-destinations.md#concept_2462AA1321984293A92CB174C41B3496)
->* [Create a URL Destination](../../features/destinations/manage-destinations.md#concept_51842672DFA943EA982B363E74D42DF8)
+>* [Create a Cookie Destination](../../features/destinations/manage-destinations.md#create-cookie-destination)
+>* [Create a URL Destination](../../features/destinations/manage-destinations.md#configure-url-destination)

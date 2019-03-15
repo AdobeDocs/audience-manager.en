@@ -10,7 +10,7 @@ uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
 
 # Manage Data Sources {#manage-data-sources}
 
-## Create a Data Source {#concept_3B7696B3EC77416492D3B99EBD79EA44}
+## Create a Data Source {#create-data-source}
 
 To create a new data source, go to **[!UICONTROL Audience Data > Data Sources > Add New]** and complete the steps for each section described here. Administrator permissions are required to create a data source.
 
@@ -20,7 +20,7 @@ To create a new data source, go to **[!UICONTROL Audience Data > Data Sources > 
 >
 >See [Data Source Settings and Menu Options](../features/datasources-list-and-settings.md#settings-menu-options) for descriptions of these different controls.
 
-## Data Source Details {#section_D359CAAE0BEA4527B3A04855486033DE}
+## Data Source Details {##details}
 
 To complete the [!UICONTROL Data Source Details] section:
 
@@ -28,7 +28,7 @@ To complete the [!UICONTROL Data Source Details] section:
 1. *(Optional)* Describe the data source. A concise description helps you define the role or purpose of the data source.
 1. Provide an integration code. Generally, integration codes are optional. They are required when you want to:
 
-    * [Create a cross-device data source](../features/profile-merge-rules/merge-rules-start.md#concept_3B7696B3EC77416492D3B99EBD79EA44). 
+    * [Create a cross-device data source](../features/profile-merge-rules/merge-rules-start.md#create-data-source). 
     * Use the [Experience Cloud ID service](https://marketing.adobe.com/resources/help/en_US/mcvid/). 
     * Work with [Profile Merge Rules](../features/profile-merge-rules/merge-rules-start.md#concept_34A9CEA00B24447EBF7EA8DA2928E1DD).
 
@@ -43,11 +43,11 @@ To complete the [!UICONTROL Data Source Details] section:
     * **[!UICONTROL Person]**
     * **[!UICONTROL Household]**
 
-## Data Export Controls {#section_895821268F6F42E9A181B717DD6F1D04}
+## Data Export Controls {#export-controls}
 
 [Data Export Controls](../features/data-export-controls.md) are optional classification rules you can apply to a data source and destination. They prevent you from sending data to a destination when that action violates a data privacy or use agreement. Skip this section if you do not use [!UICONTROL Data Export Controls].
 
-## Data Source Settings {#section_928E1EB8EE7149A88F46ABD3B6FE5BAF}
+## Data Source Settings {#settings}
 
 These settings determine how a data source is identified, used, and shared. You can also enable error reporting for inbound data files. To complete the [!UICONTROL Data Source Settings] section:
 
@@ -58,7 +58,7 @@ These settings determine how a data source is identified, used, and shared. You 
 >
 >* [Data Source Settings and Menu Options](../features/datasources-list-and-settings.md#settings-menu-options)
 
-## Delete a Data Source {#task_740BACDEAA184B489B92C386DE7211BE}
+## Delete a Data Source {#delete-data-source}
 
 <!-- t_datasource_delete.xml -->
 

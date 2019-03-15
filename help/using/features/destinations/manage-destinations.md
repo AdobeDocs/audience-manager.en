@@ -11,7 +11,7 @@ uuid: 6b66ff42-0075-49a7-a58f-7f8ea2295fdc
 
 The [!UICONTROL Destination] landing page lists all of your [!DNL URL], cookie, and server-to-server destinations. It provides features that let you create, edit, search for, and report on destinations. The landing page is located in **[!UICONTROL Audience Data > Destinations]**.
 
-## Default Landing Page {#section_6CD57AF083EC43C2BD3AA93D80441017}
+## Default Landing Page {#default-landing-page}
 
 <!-- destinations-home.xml -->
 
@@ -19,7 +19,7 @@ The default landing page lists and helps you manage all of your destinations. Yo
 
 ![](assets/destination_landing1.png)
 
-## Addressable Audiences Landing Page {#section_35CB44028A3B45B6B25FE1D05A5F16A5}
+## Addressable Audiences Landing Page {#audiences-landing-page}
 
 Slide the **[!UICONTROL Show Only Addressable Audience Metrics]** toggle to see audience data and match rates for your server-to-server destinations. When enabled, this feature:
 
@@ -32,11 +32,11 @@ Slide the **[!UICONTROL Show Only Addressable Audience Metrics]** toggle to see 
 >
 >* [Addressable Audiences](../../features/addressable-audiences.md#concept_8E0BAEF0978F4968B21482E79E601889)
 
-## Destination Builder {#concept_4E07561F454E48DD986400E2B25A2224}
+## Destination Builder {#destination-builder}
 
 [!UICONTROL Destination Builder] lets you create cookie-based or [!DNL URL] destinations. You cannot create server-to-server ([!DNL S2S]) destinations with [!UICONTROL Destination Builder], but you can manage their segment mappings. Contact your consultant to set up a [!DNL S2S] destination. [!UICONTROL Destination Builder] is located in **[!UICONTROL Audience Data > Destinations]**.
 
-## Destination Builder Settings {#section_CD7B38643BA34A4CABE50F24072A9DB3}
+## Destination Builder Settings {#destination-builder-settings}
 
 <!-- destination-builder.xml -->
 
@@ -45,10 +45,10 @@ Slide the **[!UICONTROL Show Only Addressable Audience Metrics]** toggle to see 
 |[!UICONTROL Destination Builder] Section|Purpose|
 |--- |--- |
 |Basic Information|Used to name the destination, describe it, and select destination type ([!DNL URL] or [!DNL cookie]), and platform (all, [!DNL Android], browser, or [!DNL iOS]).|
-|Configuration|Includes controls for: <br/><ul><li>Passing in key-value data to [!DNL URL] destinations. You can send data as individual or serialized key-value pairs. For details see, [Destination Serialization](../../features/destinations/key-value-pairs.md#concept_02436A7C6C574C799F079EB731A63262)] and [Standard and Serial Key-Value Pairs](../../features/destinations/key-value-pairs.md). </li><li>Elements of a cookie destination such as cookie name, domain, size, expiration interval, data format, etc.</li></ul>|
+|Configuration|Includes controls for: <br/><ul><li>Passing in key-value data to [!DNL URL] destinations. You can send data as individual or serialized key-value pairs. For details see, [Destination Serialization](../../features/destinations/key-value-pairs.md#destination-serialized)] and [Standard and Serial Key-Value Pairs](../../features/destinations/key-value-pairs.md). </li><li>Elements of a cookie destination such as cookie name, domain, size, expiration interval, data format, etc.</li></ul>|
 |Segment Mappings|Lets you: <br/><ul><li>Search for, add, and manage segments associated with all destination types. </li><li>Set delivery priorities on individual segments (for [!DNL cookie]-based segments only).</li></ul>|
 
-## Data Delivery Methods {#section_EB5C0D945F7B46F3B860D22F0998F550}
+## Data Delivery Methods {#data-delivery-methods}
 
 Send information to a destination by passing it in through a [!DNL URL] string, by writing to a browser [!DNL cookie], or through offline server-to-server data transfers.
 
@@ -59,10 +59,10 @@ See [How to Choose a Destination Type](../../features/destinations/destinations.
 
 >[!MORE_LIKE_THIS]
 >
->* [Create a Cookie Destination](../../features/destinations/manage-destinations.md#concept_2462AA1321984293A92CB174C41B3496)
->* [Create a URL Destination](../../features/destinations/manage-destinations.md#concept_51842672DFA943EA982B363E74D42DF8)
+>* [Create a Cookie Destination](../../features/destinations/manage-destinations.md#create-cookie-destination)
+>* [Create a URL Destination](../../features/destinations/manage-destinations.md#configure-url-destination)
 
-## Configure a Cookie Destination {#concept_2462AA1321984293A92CB174C41B3496}
+## Configure a Cookie Destination {#create-cookie-destination}
 
 A cookie destination returns and writes data to a cookie in the user's browser. The cookie contains data that can be read by other platforms that have access to the page. Follow these instructions to create a cookie destination with [!UICONTROL Destination Builder].
 
@@ -89,10 +89,10 @@ This section contains fields and options that start the cookie destination creat
 This section contains options that apply [data export controls](../../features/data-export-controls.md) to a cookie destination. Skip this step if you do not use data export controls. To complete this section:
 
 1. Click **[!UICONTROL Data Export Labels]** to expose the controls.
-2. Select a label that corresponds to data export control applied to the destination (see [Add Export Labels to a Destination](../../features/destinations/manage-destinations.md#task_A4BA30472E6F4687AC3F1B33F51909D9) for details).
+2. Select a label that corresponds to data export control applied to the destination (see [Add Export Labels to a Destination](../../features/destinations/manage-destinations.md#add-data-export-labels) for details).
 3. Click **[!UICONTROL Save]**.
 
-## Configuration {#section_51EDD4DAA8164DF996F21DD32485E62D}
+## Configuration {#configuration}
 
 This section contains fields and options that let you set up the cookie for your destination.
 
@@ -108,9 +108,9 @@ This section contains fields and options that let you set up the cookie for your
    See [Standard and Serial Key-Value Pairs](../../features/destinations/key-value-pairs.md) for more information about these data elements.
 1. Click **[!UICONTROL Save]**.
 
-All other settings are optional. For more information about the **[!UICONTROL Cookie Domain]** and **[!UICONTROL Publish data to]** settings, see [Optional Settings for Cookie Destinations](../../features/destinations/manage-destinations.md#concept_DEF2E47F31D44BDA936BBB45EA5B136D).
+All other settings are optional. For more information about the **[!UICONTROL Cookie Domain]** and **[!UICONTROL Publish data to]** settings, see [Optional Settings for Cookie Destinations](../../features/destinations/manage-destinations.md#optional-settings-cookies).
 
-## Segment Mappings {#section_E6CB4938AAB44C8C8EDD816516E6AE24}
+## Segment Mappings {#segments-mapping}
 
 This section lets you search for and add segments to your destination. To complete this section:
 
@@ -123,7 +123,7 @@ This section lets you search for and add segments to your destination. To comple
 1. Click **[!UICONTROL Save]**.
 1. Click **[!UICONTROL Done]**.
 
-## Configure a URL Destination {#concept_51842672DFA943EA982B363E74D42DF8}
+## Configure a URL Destination {#configure-url-destination}
 
 A [!DNL URL] destination makes pixel calls from a page to your destination. Follow these instructions to create a [!DNL URL] destination with [!UICONTROL Destination Builder].
 
@@ -131,7 +131,7 @@ A [!DNL URL] destination makes pixel calls from a page to your destination. Foll
 
 To create a new [!DNL URL] destination, go to **[!UICONTROL Audience Data > Destinations > Create New Destination]** and complete the sections as described below.
 
-## Basic Information {#section_7B13F3A2FD73432886D8FFCB377CBE8C}
+## Basic Information {#basic-info}
 
 This section contains fields and options that start the URL destination creation process. To complete this section:
 
@@ -145,15 +145,15 @@ This section contains fields and options that start the URL destination creation
     * **[!UICONTROL Integration Code Value]**: Automatically adds and sends the segment integration code to the destination mapping. The integration code is a unique identifier created and used by the customer. It is limited to 255 characters, maximum.
 1. Click **[!UICONTROL Next]** to go to the [!UICONTROL Configuration] settings or click **[!UICONTROL Data Export Labels]** to apply export controls to the destination.
 
-## Data Export Labels {#section_24858C4E36234493ABF33DF39501C1E9}
+## Data Export Labels {#data-export-labels}
 
 This section contains options that apply [data export controls](../../features/data-export-controls.md) to a [!DNL URL] destination. Skip this step if you do not use data export controls. To complete this section:
 
 1. Click **[!UICONTROL Data Export Labels]** to expose the controls.
-2. Select a label that corresponds to the data export control applied to the destination (see [Add Export Labels to a Destination](../../features/destinations/manage-destinations.md#task_A4BA30472E6F4687AC3F1B33F51909D9) for details).
+2. Select a label that corresponds to the data export control applied to the destination (see [Add Export Labels to a Destination](../../features/destinations/manage-destinations.md#add-data-export-labels) for details).
 3. Click **[!UICONTROL Save]**.
 
-## Configuration {#section_A8AB50168B674B46BE80771B9BAF37DD}
+## Configuration {#configure-base-data}
 
 This section contains options that let you set a base [!DNL URL] and data delimiters passed in by the [!DNL URL] string. This section is optional. To complete this section:
 
@@ -168,7 +168,7 @@ This section contains options that let you set a base [!DNL URL] and data delimi
 |Secure URL|The base part of a secure `HTTPS` [!DNL URL] that does not change. Also, you need to place the `%ALIAS%`  [placeholder macro](../../features/destinations/destination-macros.md#destination-macros-defined) in the base URL. Example: `https://www.myCompany.com/%alias%...`|
 |Delimiter|The symbol that separates the segment variables in the [!DNL URL] string. This is usually a comma or semi-colon. Get this information from your destination partner.|
 
-## Segment Mappings {#section_45FF2A8E4EB648488578365DB5D15219}
+## Segment Mappings {#segment-mappings}
 
 This section lets you search for and add segments to your destination. To complete this section:
 
@@ -180,11 +180,11 @@ This section lets you search for and add segments to your destination. To comple
     * **[!UICONTROL Start Date]** and **[!UICONTROL End Date]**: Choose a start and end date for the destination. If the end date is blank, the destination never expires.
 1. Click **[!UICONTROL Done]**.
 
-## Optional Settings for Cookie Destinations {#concept_DEF2E47F31D44BDA936BBB45EA5B136D}
+## Optional Settings for Cookie Destinations {#optional-settings-cookies}
 
 In [!UICONTROL Destination Builder], the [!UICONTROL Configuration section] contains the [!UICONTROL Cookie Domain] and [!UICONTROL Publish Data To] fields. These let you create rules to determine if a destination sets a cookie or returns a cookie. [!UICONTROL Cookie Domain] and [!UICONTROL Publish Data To] work independently of each other and are optional. You can create a cookie destination without using either of them.
 
-## Cookie Domain: Syntax and Examples {#section_FBCBE71119364EDCB7BDA5969BEB5845}
+## Cookie Domain: Syntax and Examples {#cookie-domain-syntax}
 
 <!-- cookie-destination-options.xml -->
 
@@ -257,7 +257,7 @@ These examples show you if [!DNL Audience Manager] will set a cookie based on ho
  </tbody> 
 </table>
 
-## Publish Data To {#section_EA7859C18BF641E18136E5FE84401B0C}
+## Publish Data To {#publish-data-to}
 
 The [!UICONTROL Publish Data To] settings return a cookie if the domain meets the criteria set by the options you select. Options include:
 
@@ -267,9 +267,9 @@ The [!UICONTROL Publish Data To] settings return a cookie if the domain meets th
 
 >[!MORE_LIKE_THIS]
 >
->* [Create a Cookie Destination](../../features/destinations/manage-destinations.md#concept_2462AA1321984293A92CB174C41B3496)
+>* [Create a Cookie Destination](../../features/destinations/manage-destinations.md#create-cookie-destination)
 
-## Add or Edit Segments for Server-to-Server Destinations {#task_1B9A6418E2F24C9CA5888F09679204C0}
+## Add or Edit Segments for Server-to-Server Destinations {#add-edit-segments}
 
 You can only add or edit segments for a server-to-server ([!DNL S2S]) destination. You cannot create [!DNL S2S] destinations with [!UICONTROL Destination Builder]. Contact your consultant to set up [!DNL S2S] destinations. Follow these instructions to add or edit segments for an [!DNL S2S] destination.
 
@@ -286,7 +286,7 @@ To add or edit segment mappings for an [!DNL S2S] destination:
         * **[!UICONTROL Start Date]** and **[!UICONTROL End Date]**: Choose a start and end date for the destination. If the end date is blank, the destination never expires.
 1. Click **[!UICONTROL Save]** and then click **[!UICONTROL Done]**.
 
-## Add Data Export Labels to a Destination {#task_A4BA30472E6F4687AC3F1B33F51909D9}
+## Add Data Export Labels to a Destination {#add-data-export-labels}
 
 [!DNL Data Export Labels] work with the [!DNL Export Controls] you set on a data source. [!DNL Data Export Labels] prevent you from adding restricted traits to a segment and from sending segment data to a destination. You can set multiple export labels to a new or existing [!DNL cookie] or [!DNL URL] destination.
 
@@ -299,7 +299,7 @@ To add or edit segment mappings for an [!DNL S2S] destination:
 To add export labels to a destination:
 
 1. Click **[!UICONTROL Audience Data]**:
-    * For new destinations: Click **[!UICONTROL Create New Destination]**. Complete the [!UICONTROL Basic Information] section before you select a data export label. See [Create a Cookie Destination](../../features/destinations/manage-destinations.md#concept_2462AA1321984293A92CB174C41B3496) or [Create a URL Destination](../../features/destinations/manage-destinations.md#concept_51842672DFA943EA982B363E74D42DF8) for information.
+    * For new destinations: Click **[!UICONTROL Create New Destination]**. Complete the [!UICONTROL Basic Information] section before you select a data export label. See [Create a Cookie Destination](../../features/destinations/manage-destinations.md#create-cookie-destination) or [Create a URL Destination](../../features/destinations/manage-destinations.md#configure-url-destination) for information.
     * For existing destinations: Use the [!DNL Search] box to find your destination or scroll through the list and click on the destination name to open it.
 1. Select a [!DNL Data Export Label]. Leave the check boxes blank if you don't want to set any export restrictions. Export labels include the following options:
     * **[!UICONTROL This destination may enable a combination with personally identifiable information (PII)]**
@@ -313,4 +313,4 @@ To add export labels to a destination:
 
 >[!MORE_LIKE_THIS]
 >
->* [Create a Data Source](../../features/manage-datasources.md#concept_3B7696B3EC77416492D3B99EBD79EA44)
+>* [Create a Data Source](../../features/manage-datasources.md#create-data-source)

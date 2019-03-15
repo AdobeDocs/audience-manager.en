@@ -21,3 +21,7 @@ Talk to your [!DNL Audience Manager] sales specialist to get started. They can a
 >
 > * Administrators can create data feeds, manage subscribers, and subscribe to data feeds.
 > * Users can search and view feeds only.
+
+* [Audience Marketplace for Data Providers](marketplace-data-providers/marketplace-data-providers.md)
+* [Audience Marketplace for Data Buyers](marketplace-data-buyers/marketplace-data-buyers.md)
+* [Private Data Feeds](marketplace-private-feeds.md)

@@ -20,7 +20,7 @@ The available `POST` methods let you map segments to [!UICONTROL URL] and [!UICO
 >[!MORE_LIKE_THIS]
 >
 >* [Destinations](../../../features/destinations/destinations.md#destination-api-methods)
->* [Destination Serialization](../../../features/destinations/key-value-pairs.md#concept_02436A7C6C574C799F079EB731A63262)
+>* [Destination Serialization](../../../features/destinations/key-value-pairs.md#destination-serialized)
 >* [Key-Value Pairs Explained](../../../reference/key-value-pairs-explained.md#concept_E4236E003076483AA939791FE2492B49)
 
 ## Map a Segment to a Non-Serialized URL Destination {#reference_0BFD55096FD845EC9970012C53CFE643}

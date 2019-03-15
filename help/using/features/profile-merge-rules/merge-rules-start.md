@@ -13,7 +13,7 @@ To create [!UICONTROL Profile Merge Rules], review and complete the steps in eac
 
 <!-- merge-rules-start.xml -->
 
-## Create a Cross-Device Data Source {#concept_3B7696B3EC77416492D3B99EBD79EA44}
+## Create a Cross-Device Data Source {#create-data-source}
 
 To create a cross-device data source, go to **[!UICONTROL Audience Data > Data Sources > Add New]** and complete the steps for each section described here. Administrator permissions are required to create or edit a cross-device data source.
 
@@ -23,7 +23,7 @@ To create a cross-device data source, go to **[!UICONTROL Audience Data > Data S
 >
 >See [Data Source Settings and Menu Options](../../features/datasources-list-and-settings.md#settings-menu-options) for descriptions of these different controls.
 
-## Data Source Details {#section_D359CAAE0BEA4527B3A04855486033DE}
+## Data Source Details {##details}
 
 To complete the [!UICONTROL Data Source Details] section:
 
@@ -35,11 +35,11 @@ To complete the [!UICONTROL Data Source Details] section:
     * **[!UICONTROL Person]**: An ID that defines a single person. This ID can be mapped to multiple [!DNL Audience Manager] IDs.
     * **[!UICONTROL Household]**: An ID that defines a group of people. This ID can be mapped to multiple [!DNL Audience Manager] IDs.
 
-## Data Export Controls {#section_895821268F6F42E9A181B717DD6F1D04}
+## Data Export Controls {#export-controls}
 
 [Data Export Controls](../../features/data-export-controls.md) are optional classification rules you can apply to a data source and destination. They prevent you from sending data to a destination when that action violates a data privacy or use agreement. Skip this section if you do not use [!UICONTROL Data Export Controls].
 
-## Data Source Settings {#section_928E1EB8EE7149A88F46ABD3B6FE5BAF}
+## Data Source Settings {#settings}
 
 [!UICONTROL Data Source Settings] section provides multiple options, but these 2 are important for creating a cross-device data source:
 
@@ -51,7 +51,7 @@ The text fields associated with these settings let you rename the [!UICONTROL Da
 
 >[!MORE_LIKE_THIS]
 >
->* [Create a Data Source](../../features/manage-datasources.md#concept_3B7696B3EC77416492D3B99EBD79EA44)
+>* [Create a Data Source](../../features/manage-datasources.md#create-data-source)
 
 ## Create a Profile Merge Rule {#concept_55706E2521944DF1A5C7B0E19C7436D0}
 
@@ -59,7 +59,7 @@ To create a [!UICONTROL Profile Merge Rule], go to **[!UICONTROL Audience Data >
 
 <!-- create-profile-merge-rule.xml -->
 
-**Prerequisites:** A cross-device data source is required to build a [!UICONTROL Profile Merge Rule]. See [Create a Data Source](../../features/manage-datasources.md#concept_3B7696B3EC77416492D3B99EBD79EA44).
+**Prerequisites:** A cross-device data source is required to build a [!UICONTROL Profile Merge Rule]. See [Create a Data Source](../../features/manage-datasources.md#create-data-source).
 
 >[!TIP]
 >
@@ -133,7 +133,7 @@ For more information, see [Create a Cross-Device Data Source](../../features/pro
 
 ### Configure `DIL.create` function
 
-The latest versions of [!UICONTROL DIL] now automatically pick up the [!UICONTROL declared ID] from the `visitorService` function in `DIL.create` (see [Declared ID Variables](../../features/declared-ids.md#reference_F697F0D53E56430D95EC0C408B767F80)). Check your `DIL.create` function to make sure this is set up properly as shown in the code sample below.
+The latest versions of [!UICONTROL DIL] now automatically pick up the [!UICONTROL declared ID] from the `visitorService` function in `DIL.create` (see [Declared ID Variables](../../features/declared-ids.md#declared-id-variables)). Check your `DIL.create` function to make sure this is set up properly as shown in the code sample below.
 
 <pre class="js"><code>
 var vDil = DIL.create({
@@ -164,7 +164,7 @@ DIL.create({
 });
 </code></pre>
 
-For more information, see the legacy [!UICONTROL DIL] section in [Declared ID Variables](../../features/declared-ids.md#reference_F697F0D53E56430D95EC0C408B767F80).
+For more information, see the legacy [!UICONTROL DIL] section in [Declared ID Variables](../../features/declared-ids.md#declared-id-variables).
 
 ### Configure SDKs {#section_202F3455E6264E97929E12A8F9894788}
 

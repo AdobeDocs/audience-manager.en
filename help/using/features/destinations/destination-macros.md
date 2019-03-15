@@ -82,7 +82,7 @@ When creating a [!DNL URL] destination, you can insert the following macros into
 
 The `%rnd%` and `%timestamp%` macros insert unique values into a [!DNL URL] string to prevent browser caching.
 
-## Cache Busting with `%rnd%` and `%timestamp%` {#section_4A1CBFBCB1F74E55BB3A8345E5174332}
+## Cache Busting with `%rnd%` and `%timestamp%` {#dest-cache-busting}
 
 <!-- c_dest_cache_busting.xml -->
 
@@ -93,7 +93,7 @@ Cache busting prevents browsers from saving and reusing content. This technique 
 * `%rnd%`: Inserts a random number into a URL.
 * `%timestamp%`: Inserts the Unix date/time into a URL.
 
-## Comparing `%rnd%` and `%timestamp%` {#section_DA7D8DD8FCB74C259C621121C50BF0FB}
+## Comparing `%rnd%` and `%timestamp%` {#compare-rnd-timestamp}
 
 Both macros prevent caching, but `%rnd%` may be more efficient. For example, with `%timestamp%`, if several users view a page simultaneously they'll get the same date/time value. As a result, the [!DNL URL] is not unique and multiple calls are counted only once. However, `%rnd%` generates a unique numeric value for each call (even when users see the same page simultaneously). This means the [!DNL URL] string contains different values and is counted as unique.
 

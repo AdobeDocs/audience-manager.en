@@ -14,12 +14,12 @@ The merge rule options let you control the type of data Audience Manager uses fo
 You build a [!UICONTROL Profile Merge Rule] by making a selection from these options:
 
 <ul class="simplelist"> 
- <li> <a href="../../features/profile-merge-rules/merge-rule-definitions.md#section_9575406F175F44E7B852F649D7D7260E"> Authenticated Options</a> </li>
- <li> <a href="../../features/profile-merge-rules/merge-rule-definitions.md#section_C02D70DA90514F58B415AF0EEB69F831"> Authenticated Profile Options</a> </li>
- <li><a href="../../features/profile-merge-rules/merge-rule-definitions.md#section_E83D68EC2ADA4030B1D0206AE6A6E8BF"> Device Options</a> </li>
+ <li> <a href="../../features/profile-merge-rules/merge-rule-definitions.md#auth-options"> Authenticated Options</a> </li>
+ <li> <a href="../../features/profile-merge-rules/merge-rule-definitions.md#profile-options"> Authenticated Profile Options</a> </li>
+ <li><a href="../../features/profile-merge-rules/merge-rule-definitions.md#device-options"> Device Options</a> </li>
 </ul>
 
-## Authenticated Options {#section_9575406F175F44E7B852F649D7D7260E}
+## Authenticated Options {#auth-options}
 
 The [!UICONTROL Authenticated Options] let you select un-authenticated and authenticated users and leverage their cross-device profile for segmentation. These options help you identify and reach specific users on a shared device. For more information on anonymous and authenticated users, see [Visitor Authentication States in Audience Manager](../../reference/visitor-authentication-states.md#concept_53744EE5EE824BA68535B84E0D1DF820).
 
@@ -46,11 +46,11 @@ The [!UICONTROL Authenticated Options] let you select un-authenticated and authe
  </tbody>
 </table>
 
-## Authenticated Profile Options {#section_C02D70DA90514F58B415AF0EEB69F831}
+## Authenticated Profile Options {#profile-options}
 
-The [!UICONTROL Authenticated Profile Options] lists your cross-device data sources. These options use the names you provided when you created a cross-device data source (see [Create a Cross-Device Data Source](../../features/profile-merge-rules/merge-rules-start.md#concept_3B7696B3EC77416492D3B99EBD79EA44)). You can select up to 3 cross-device data sources to use with each profile rule. The [!UICONTROL Authenticated Profile Options] are available when you choose **[!UICONTROL Current Authenticated Profile]** or **[!UICONTROL Last Authenticated Profile]**.
+The [!UICONTROL Authenticated Profile Options] lists your cross-device data sources. These options use the names you provided when you created a cross-device data source (see [Create a Cross-Device Data Source](../../features/profile-merge-rules/merge-rules-start.md#create-data-source)). You can select up to 3 cross-device data sources to use with each profile rule. The [!UICONTROL Authenticated Profile Options] are available when you choose **[!UICONTROL Current Authenticated Profile]** or **[!UICONTROL Last Authenticated Profile]**.
 
-## Device Options {#section_E83D68EC2ADA4030B1D0206AE6A6E8BF}
+## Device Options {#device-options}
 
 The [!UICONTROL Device Options] let you select the type of *`device profile`* used by a [!UICONTROL Profile Merge Rule]. A device profile is composed of traits collected by users as they anonymously browse the web. At a minimum, a profile merge rule includes an authenticated option and a device option.
 

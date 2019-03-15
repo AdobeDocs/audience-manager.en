@@ -11,7 +11,7 @@ uuid: 9e7988cc-9145-432b-840a-54fbd8657b3b
 
 With [!UICONTROL Profile Merge Rules] you get control over the data sets used for segmentation and can target a person accurately across multiple devices.
 
-## Data collection and targeting with anonymous and authenticated profiles {#section_BD3D99245BE049CDA00FD0371C008407}
+## Data collection and targeting with anonymous and authenticated profiles {#data-collection-targeting}
 
 Typically, audience segmentation and targeting relies on data collected from all users on a device. Data collection and targeting based on device-level data has some disadvantages. For example, you cannot distinguish between multiple users who share a device or accurately target users across multiple devices. Device-centered data collection is no longer sufficient for digital marketing campaigns or cross-device targeting.
 
@@ -50,7 +50,7 @@ These different profiles control the data you can use for segmentation. For exam
 
 ![](assets/authenticated2.png)
 
-## Advantages {#section_F1435624BCBD478AACD13F11BB6A8840}
+## Advantages {#advantages}
 
 With [!UICONTROL Profile Merge Rules] you can:
 
@@ -60,7 +60,7 @@ With [!UICONTROL Profile Merge Rules] you can:
 * Fine tune the data in your segments based on different profiles.
 * Gain additional insight into your audience.
 
-## Getting started {#section_37AC1FDD30E74B1FB97367026FC72461}
+## Getting started {#getting-started}
 
 See the following sections and the [FAQ](../../faq/faq-profile-merge.md#concept_C8E29A974E194B62B0BAC1CCDD0DF4FF) for more information about [!UICONTROL Profile Merge Rules].
 

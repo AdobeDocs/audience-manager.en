@@ -55,7 +55,7 @@ The following table lists the key-value pairs that hold data used by the [!UICON
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Advertiser </p> </td> 
-   <td colname="col2"> <p> <code>d_adsrc = <i>data source ID or integration code</i></code> </p> <p>This is the advertiser's data source ID or integration code provided when creating a data source. See <a href="../../../features/manage-datasources.md#concept_3B7696B3EC77416492D3B99EBD79EA44"> Create a Data Source</a>. </p> </td> 
+   <td colname="col2"> <p> <code>d_adsrc = <i>data source ID or integration code</i></code> </p> <p>This is the advertiser's data source ID or integration code provided when creating a data source. See <a href="../../../features/manage-datasources.md#create-data-source"> Create a Data Source</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Business Unit (BU) </p> </td> 
