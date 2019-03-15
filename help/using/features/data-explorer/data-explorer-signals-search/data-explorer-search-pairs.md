@@ -29,7 +29,7 @@ This search will return only results that qualify for all three filters on the s
 
 ![](assets/signals-search.png)
 
-## Case Insensitivity and Search Auto-Completion {#section_122412F04E7047EF82679DD5A1E614FF}
+## Case Insensitivity and Search Auto-Completion {#case-insensitivity}
 
 The key and value search fields are case insensitive. The key search field includes auto-completed suggestions.
 

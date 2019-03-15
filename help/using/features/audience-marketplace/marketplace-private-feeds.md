@@ -17,7 +17,7 @@ Contents:
 
 <ul class="simplelist"> 
  <li> <a href="../../features/audience-marketplace/marketplace-private-feeds.md#section_0CB3038BC5AC4279B99BD414C5D7AF44"> Private Data Feeds for Providers </a> </li> 
- <li> <a href="../../features/audience-marketplace/marketplace-private-feeds.md#section_13E0F80D034143FAA89D72418A76AC26"> Private Data Feeds for Buyers </a> </li> 
+ <li> <a href="../../features/audience-marketplace/marketplace-private-feeds.md#private-data-feeds-for-buyers"> Private Data Feeds for Buyers </a> </li> 
 </ul>
 
 ## Private Data Feeds for Providers {#section_0CB3038BC5AC4279B99BD414C5D7AF44}
@@ -73,13 +73,13 @@ The following table defines the role or functions provided by each action tab.
 
 The following documentation can help you get started with private data feeds.
 
-* [Create a Public or Private Data Feed](../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#task_31BA4FB8FCD940588E6DCE2E7503DF4D) 
-* [Review, Approve, or Reject Private Feed Requests](../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#concept_4932D95774CF49FA92DE1E1BCDC0FDDA) 
-* [Private Data Feeds for Buyers](../../features/audience-marketplace/marketplace-private-feeds.md#section_13E0F80D034143FAA89D72418A76AC26)
+* [Create a Public or Private Data Feed](../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#create-public-private-data-feed) 
+* [Review, Approve, or Reject Private Feed Requests](../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#manage-private-requests) 
+* [Private Data Feeds for Buyers](../../features/audience-marketplace/marketplace-private-feeds.md#private-data-feeds-for-buyers)
 
-## Private Data Feeds for Buyers {#section_13E0F80D034143FAA89D72418A76AC26}
+## Private Data Feeds for Buyers {#private-data-feeds-for-buyers}
 
-As a buyer, private data feeds appear in the [Marketplace](../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#concept_47C5946409634F8F8DF885977A705B8C) like any other offer. However, in this case, the feed list does not show summary information for traits, unique users, and user overlap. Also, the data seller has an option to show or hide their name in the [!UICONTROL Provider] column of the [!UICONTROL Marketplace] list. After the seller approves your subscription request, all the data in a private feed becomes available to you (it works just like a public feed). The [!UICONTROL Marketplace] example below lists the 3 different feed types available to you as a buyer.
+As a buyer, private data feeds appear in the [Marketplace](../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace) like any other offer. However, in this case, the feed list does not show summary information for traits, unique users, and user overlap. Also, the data seller has an option to show or hide their name in the [!UICONTROL Provider] column of the [!UICONTROL Marketplace] list. After the seller approves your subscription request, all the data in a private feed becomes available to you (it works just like a public feed). The [!UICONTROL Marketplace] example below lists the 3 different feed types available to you as a buyer.
 
 ![](assets/buyer_marketplace.png)
 
@@ -112,4 +112,4 @@ The table describes how these different feed types show or hide data.
 
 ### Next Steps
 
-See [Subscribe to a Private Data Feed](../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#task_201526273485445EB6DB0FAD196259C5) to request access.
+See [Subscribe to a Private Data Feed](../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed) to request access.

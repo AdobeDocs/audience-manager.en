@@ -15,7 +15,7 @@ View a list of your currently configured data sources, add new data sources, and
 
 You can also manage data sources using [!DNL API] methods. For more information, see [Data Source API Methods](../api/rest-api-main/aam-api-data-sources.md#concept_F7602FD030AA4638AF6D045E1009FA47).
 
-## Data Sources List View {#concept_0BFDC710F1E145EEB44447F41CDEDA9C}
+## Data Sources List View {#list-view}
 
 The [!UICONTROL Data Sources] dashboard is a centralized workspace for managing data sources.
 
@@ -27,11 +27,11 @@ The [!UICONTROL Data Sources] dashboard (**[!UICONTROL Audience Data]** > **[!UI
 * Search for data sources by name.
 * Create, edit, and delete data sources.
 
-## Data Source Settings and Menu Options {#reference_A87B381067E04C26A426514AF3B64E64}
+## Data Source Settings and Menu Options {#settings-menu-options}
 
 The settings in the different sections of the [!UICONTROL Data Source] management interface identify your data source, determine how it is used or shared, and let you enable error reporting for the [!UICONTROL Onboarding Status Report].
 
-## Data Source Details {#section_43423119AD0E42A8B4C01747747E49A2}
+## Data Source Details {#details}
 
 <!-- datasource-settings-definitions.xml -->
 
@@ -69,7 +69,7 @@ In addition to text fields, the [!UICONTROL Data Source Details] section contain
  </tbody> 
 </table>
 
-## Data Export Controls {#section_38F7E2A550A44A079BA8C26148B25349}
+## Data Export Controls {#export-controls}
 
 [Data Export Controls](../features/data-export-controls.md) are optional classification rules you can apply to a data source and destination. They prevent you from sending data to a destination when that action violates a data privacy or use agreement. Skip this section if you do not use [!UICONTROL Data Export Controls].
 

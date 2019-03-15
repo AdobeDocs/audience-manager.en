@@ -10,7 +10,7 @@ uuid: 645fcb6f-50ac-49bc-8df9-c699c749cf8f
 
 Use logical operators to group key-value pairs and backfill traits.
 
-## Supported Operators for Signal Search {#section_694E53CA51144359B9777C70B4347181}
+## Supported Operators for Signal Search {#supported-operators-search}
 
 Use the following supported logical operators to search for key-value pairs:
 
@@ -32,6 +32,6 @@ Use the following supported logical operators to search for key-value pairs:
 | **[!UICONTROL Startswith]** |The value in a key-value pair *starts with* characters specified by this operator.  |
 | **[!UICONTROL Endswith]** |The value in a key-value pair *ends with* the characters specified by this operator.  |
 
-## Supported Operators for Trait Backfilling and Estimation {#section_93A79D83DE3F44FDA37E9707625DBDAF}
+## Supported Operators for Trait Backfilling and Estimation {#supported-operators-backfilling}
 
 You can backfill traits that include expressions containing any of the operators supported by [!UICONTROL Signal Search]. In addition to these operators, trait backfilling and estimation also support the [!UICONTROL AND], [!UICONTROL OR], and [!UICONTROL AND NOT] logical operators, used to combine key-value pairs within the backfilled trait expressions.

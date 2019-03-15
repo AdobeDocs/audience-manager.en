@@ -309,7 +309,7 @@ You can log data deletion requests through the [GDPR Client Services UI](https:/
 
 In response to data deletion requests, we delete traits and segments associated with the respective Audience Manager identifier. In addition, the respective Audience Manager identifiers for the Data Subject will be permanently opted out of further data collection by Audience Manager and the respective Id mappings will be removed. When declared IDs such as cross device CRM Ids or customer cookie ids are sent in GDPR requests, Audience Manager will perform the necessary Delete actions on all the linked devices (up to 100 devices per declared ID).
 
-## Opt-out Request {#section_9DED20FD776C4108A1AD44E48CABA800}
+## Opt-out Request {#opt-out-request}
 
 For opt-out requests, please refer to our documentation on [Opt-out Management](../../overview/data-security-and-privacy/opt-out-management.md#concept_1EC49431ED7D4012BD930ECF8A6D732F).
 

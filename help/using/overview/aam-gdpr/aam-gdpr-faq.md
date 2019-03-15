@@ -15,7 +15,7 @@ In this article, we address questions on GDPR readiness in Audience Manager. Mak
 
 GDPR came into effect on May 25, 2018 with primary objectives of giving individuals in the EU (Data Subjects) more control of their personal data while simplifying the regulatory environment for international businesses by better unifying regulation within the EU. As part of Adobe's GDPR readiness, the Adobe Audience Manager team has enhanced services and processes as necessary to support access and delete requests from Data Subjects, your consumers.
 
-## GDPR Glossary {#section_F408776849134AD08D35471BE7C07808}
+## GDPR Glossary {#gdpr-glossay}
 
 Get familiar with key terms used related to GDPR. We’ve highlighted some of the most commonly used terms below.
 
