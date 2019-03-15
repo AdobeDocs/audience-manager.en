@@ -20,7 +20,7 @@ To create a new data source, go to **[!UICONTROL Audience Data > Data Sources > 
 >
 >See [Data Source Settings and Menu Options](../features/datasources-list-and-settings.md#settings-menu-options) for descriptions of these different controls.
 
-## Data Source Details {##details}
+## Data Source Details {#details}
 
 To complete the [!UICONTROL Data Source Details] section:
 
