@@ -12,14 +12,14 @@ uuid: 4e11dbd2-91fd-4b59-a66d-86a92e0de655
 
 Generate an [!DNL Audience Marketplace] billing report to view data feed usage for the previous month for each of your subscribers. You can create a report for the previous month at any time. However, the report is more accurate when you generate it on or after the 10th day of the current month.
 
-## Download a Billing Report {#section_6FE05229D78A4778930D46C7F35FE2F0}
+## Download a Billing Report {#download-billing-report}
 
 To download a report:
 
 1. Go to **[!UICONTROL Audience Marketplace > Receivables]**.
 1. Click **[!UICONTROL Generate Billing Report]**.
 
-## Report Fields Defined {#section_6C0F6F1A98A64D7F83717268DFA87260}
+## Report Fields Defined {#report-fields-defined}
 
 A billing report contains the following information.
 
@@ -62,7 +62,7 @@ A billing report contains the following information.
      <li id="li_3400C6475F6D43D7AF54D9A0ED9C09E0">Segments and overlap </li> 
      <li id="li_65DFEF1EA6C341ACB5B72FF629F10AFC">Modeling </li> 
      <li id="li_B84935B93ADE4D299732CE7E099DF7B3">Activation </li> 
-    </ul> <p>See <a href="../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#concept_54DDE4186D0045F386F94BB8C56A5DEA"> Plan Types for Data Feeds</a>. </p> </td> 
+    </ul> <p>See <a href="../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#plan-types"> Plan Types for Data Feeds</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Unit of Measure</span></b> </p> </td> 
@@ -74,7 +74,7 @@ A billing report contains the following information.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Discounted Price</span></b> </p> </td> 
-   <td colname="col2"> <p>The subscription fee for a discounted data feed. See <a href="../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#concept_A31D926BBA0743BCB7160C7F571930FD"> Discounts for Data Providers</a>. </p> </td> 
+   <td colname="col2"> <p>The subscription fee for a discounted data feed. See <a href="../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#discounts"> Discounts for Data Providers</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Units</span></b> </p> </td> 
@@ -117,6 +117,6 @@ A billing report contains the following information.
 
 >[!MORE_LIKE_THIS]
 >
->* [Billing and Impression Allocation for CPM Data Feeds](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#concept_E757985A4850400288F1DD9A02B755D5)
+>* [Billing and Impression Allocation for CPM Data Feeds](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
 >* [Billing and Impression Allocation for Flat Fee Data Feeds](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#concept_FE781C4C5C044C1F986F1AB6BA4E328F)
->* [How to Report CPM Usage](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#task_22D86C3A39544CA8A4BC2360DC115877)
+>* [How to Report CPM Usage](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)

@@ -21,7 +21,7 @@ To create a cross-device data source, go to **[!UICONTROL Audience Data > Data S
 
 >[!TIP]
 >
->See [Data Source Settings and Menu Options](../../features/datasources-list-and-settings.md#reference_A87B381067E04C26A426514AF3B64E64) for descriptions of these different controls.
+>See [Data Source Settings and Menu Options](../../features/datasources-list-and-settings.md#settings-menu-options) for descriptions of these different controls.
 
 ## Data Source Details {#section_D359CAAE0BEA4527B3A04855486033DE}
 

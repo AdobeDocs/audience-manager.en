@@ -36,13 +36,13 @@ Here's how to backfill trait realizations:
 
 Once you finish creating the trait, you'll see its backfilled realizations included in the realization statistics.
 
-## Trait Backfilling Latency {#section_834679B1592F436391DB8B1409551563}
+## Trait Backfilling Latency {#trait-backfilling-latency}
 
 Newly created traits start capturing audiences two to three hours after creation. However, due to the large volume of data that [!DNL Audience Manager] performs on a daily basis, the backfilled population is not immediately reflected in the [!UICONTROL Unique Trait Realizations] and [!UICONTROL Total Trait Population] graphs.
 
 Audience Manager updates the [!UICONTROL Trait Graph] with the backfilled population within 48 hours from trait creation.
 
-## Trait Backfilling Limit {#section_3EE78E74377744149CEAD13B27A34FCD}
+## Trait Backfilling Limit {#trait-backfilling-limit}
 
 [!UICONTROL Data Explorer] allows you to backfill up to 50 traits per month, with the backfill counter being reset on the 1 day of each month.
 
@@ -50,7 +50,7 @@ Audience Manager updates the [!UICONTROL Trait Graph] with the backfilled popula
 >
 >Trait backfilling quota does not carry over from previous months. E.g., if you backfill 30 traits this month, the trait backfill quota for the next month is reset to 50, not 70.
 
-## Impact on Reporting {#section_7B9BADB64AFE49C488DE9ED2B54EE05E}
+## Impact on Reporting {#reporting-impact}
 
 Backfilled trait realizations are reflected in the [!UICONTROL Unique Trait Realizations] and [!UICONTROL Total Trait Population] metrics, as [!DNL Audience Manager] turns historical signals into trait realizations.
 

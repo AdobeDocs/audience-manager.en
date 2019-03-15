@@ -18,7 +18,7 @@ Overview and workflow for data buyers who want to purchase third-party data from
 >* Administrators can create data feeds, manage subscribers, and subscribe to data feeds.
 >* Users can search and view feeds only.
 
-## The Marketplace: About {#concept_47C5946409634F8F8DF885977A705B8C}
+## The Marketplace: About {#about-marketplace}
 
 <!-- c_marketplace_about.xml -->
 
@@ -39,11 +39,11 @@ The [!UICONTROL Marketplace] list contains information that you can sort and sea
 * **[!UICONTROL Private Feeds]:** See [Private Data Feeds](../../../features/audience-marketplace/marketplace-private-feeds.md#concept_68EDE94B558C4B88BBCC994B67726FD2).
 * **[!UICONTROL Currently Subscribed Plan Count]:** The number of subscriptions you have with a data provider.
 
-## Private Data Feeds {#section_FF7054C8EF3D4BC8A005FACBDFFB3AC1}
+## Private Data Feeds {#private-data-feeds}
 
-In the [!UICONTROL Marketplace] list, sometimes the provider's name and trait data are marked as private. This indicates a [private data feed](../../../features/audience-marketplace/marketplace-private-feeds.md#concept_68EDE94B558C4B88BBCC994B67726FD2). A private data feed lets sellers limit buyer access to their data. Sellers can make feeds private when they're offering special deals, discounts, or when privacy and access control are important to them. As a buyer, you have to send a subscription request to the seller if you want access to a private feed. See [Subscribe to a Private Data Feed](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#task_201526273485445EB6DB0FAD196259C5) for details.
+In the [!UICONTROL Marketplace] list, sometimes the provider's name and trait data are marked as private. This indicates a [private data feed](../../../features/audience-marketplace/marketplace-private-feeds.md#concept_68EDE94B558C4B88BBCC994B67726FD2). A private data feed lets sellers limit buyer access to their data. Sellers can make feeds private when they're offering special deals, discounts, or when privacy and access control are important to them. As a buyer, you have to send a subscription request to the seller if you want access to a private feed. See [Subscribe to a Private Data Feed](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed) for details.
 
 >[!MORE_LIKE_THIS]
 >
->* [Understanding the Plan Details Page in Audience Marketplace](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#concept_61D21E5C524940FCA28FB5D515C3065D)
->* [Discounts for Data Buyers](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#concept_DB7031710F254277A5297D98A13EFEC9)
+>* [Understanding the Plan Details Page in Audience Marketplace](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#marketplace-buyer-details)
+>* [Discounts for Data Buyers](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#buyer-discount)

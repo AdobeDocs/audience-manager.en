@@ -14,19 +14,19 @@ Get an overview of the unused signals received by Audience Manager in the past 7
 >
 >The **[!UICONTROL Top Unused Signals]** and **[!UICONTROL New Unused Signals]** sections only display records with more than **100 occurrences/hour**. Signals below that threshold are included in [!UICONTROL Signals Search].
 
-## Top Unused Signals {#section_C77331736DC648BDB2B738DDAB8A2191}
+## Top Unused Signals {#top-unused-signals}
 
 This section shows you the top 50 unused signals (both new and old) sent to [!DNL Audience Manager] in the past 7 days, based on their total count. Depending on the data [!DNL Audience Manager] receives, this table can include some or all of the entries in the **New Unused Signals** table.
 
 ![](assets/signals-top-unused.png)
 
-## New Unused Signals {#section_1D4BDFA0C07040B6B6E674BDC435F7B4}
+## New Unused Signals {#new-unused-signals}
 
 This section shows you the top 50 new unused signals received in the past 7 days.
 
 ![](assets/signals-new-unused.png)
 
-## Saved Searches {#section_F6E8033CDBE9496C90A6AAA7A4E92B35}
+## Saved Searches {#saved-searches}
 
 [!DNL Audience Manager] shows all your [saved searches](../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md#task_F78A67C962D94C1D828B2A4941EAFB6A) on the [!UICONTROL Dashboard] and reloads them every time you load the [!UICONTROL Dashboard].
 

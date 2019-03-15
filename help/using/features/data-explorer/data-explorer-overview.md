@@ -10,7 +10,7 @@ uuid: 3bd32d4a-ade3-413d-837a-9edd14d415a5
 
 Use [!UICONTROL Data Explorer] to capitalize on historical audiences by building traits based on used and unused signals, and backfilling them with historical data to avoid potential loss of relevant audiences.
 
-## Overview {#section_D495CF7B7F2D45C09869FFF9D655BE01}
+## Overview {#overview}
 
 Creating traits based on existing insights related to your audience is a rather straightforward process, as long as you always know who your audience is. But how often does that happen?
 
@@ -20,7 +20,7 @@ Creating traits based on existing insights related to your audience is a rather 
 
 * [Trait Realization Backfill](../../features/data-explorer/data-explorer-trait-backfill.md#concept_B38A58A417A04AF9B016DC506F9A6F45) helps you qualify historical audiences for newly created traits, so that you can include them in future targeting efforts.
 
-## Benefits {#section_DAA70DBE16CF46B39163E23CE98572B1}
+## Benefits {#benefits}
 
 Use [!UICONTROL Data Explorer] to optimize your audience building in multiple ways:
 

@@ -12,7 +12,7 @@ uuid: e28c20b3-33fc-4485-8ee9-8530d126f741
 
 A data feed requires a name, description, data source, and a plan type. Feeds are disabled until you save and activate the feed. Set up public or private data feeds in [!UICONTROL Audience Marketplace] > [!UICONTROL My Shared Data]. Available to data sellers only.
 
-## Create a Public or Private Data Feed {#task_31BA4FB8FCD940588E6DCE2E7503DF4D}
+## Create a Public or Private Data Feed {#create-public-private-data-feed}
 
 A data feed requires a name, description, data source, and a plan type. Feeds are disabled until you save and activate the feed. Set up public or private data feeds in **[!UICONTROL Audience Marketplace > My Shared Data]**. Available to data sellers only.
 
@@ -34,7 +34,7 @@ To create a data feed:
 
 1. In [!UICONTROL Plan Types], select the options you want to use and click **[!UICONTROL Add Plan]**.
 
-   Feeds can contain multiple plans. Plans can contain multiple use cases. For details, see [Plan Types for Data Feeds](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#concept_54DDE4186D0045F386F94BB8C56A5DEA).
+   Feeds can contain multiple plans. Plans can contain multiple use cases. For details, see [Plan Types for Data Feeds](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#plan-types).
 
 1. Click **[!UICONTROL Save]** to save your data fee *without* activating it.
 1. To save and activate a data feed:
@@ -60,7 +60,7 @@ To see what a private feed looks like to buyers, see the buyers section in [Priv
 >
 >* [Private Data Feeds](../../../features/audience-marketplace/marketplace-private-feeds.md#concept_68EDE94B558C4B88BBCC994B67726FD2)
 
-## Deactivate a Subscriber's Data Feed {#task_AC7B88F06D1149C39D895C9DFC197F2C}
+## Deactivate a Subscriber's Data Feed {#deactivate-data-feed}
 
 As an [!UICONTROL Audience Marketplace] data provider, you can revoke buyer access to a subscribed data feed. You may want to remove a buyer from a feed for reasons such as late payment / non-payment of fees or if they use trait data improperly.
 
@@ -86,15 +86,15 @@ Revoking access to a data feed sends a notification email to all administrator u
 
 After you remove access to a data feed, subscribers are responsible for fees for previous or current month, depending on when you deactivated the feed.
 
-## Plan Types for Data Feeds {#concept_54DDE4186D0045F386F94BB8C56A5DEA}
+## Plan Types for Data Feeds {#plan-types}
 
 [!DNL Plan types] are essential components in an [!UICONTROL Audience Marketplace] data feed. As a data provider, they let you create multiple use cases and price options for your feeds. Furthermore, it can be a good strategy to create a few plans for each data feed. This gives buyers different options to choose from when they're looking for data to model or send to a destination.
 
-[Create a data feed](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#task_31BA4FB8FCD940588E6DCE2E7503DF4D) to select [!UICONTROL Plan Types].
+[Create a data feed](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#create-public-private-data-feed) to select [!UICONTROL Plan Types].
 
 ![](assets/plan_types.png)
 
-## Plan Types and Use Case Options {#section_2DDDBB94B8814B80AAF85CB2ABA4DF99}
+## Plan Types and Use Case Options {#plan-types-use-cases}
 
 <!-- c_feed_options.xml -->
 
@@ -130,7 +130,7 @@ An **[!UICONTROL Activation]** use case lets buyers send data to a [destination]
 * Unit of Measure: [!DNL CPM]
 * Price: [!DNL CPM] market rate
 
-## Billing and Price Options {#section_FAD9EDF933A248D4B762DA1C5D4BF2EF}
+## Billing and Price Options {#billing}
 
 The billing and price options control how buyers pay for your data.
 
@@ -161,11 +161,11 @@ The billing and price options control how buyers pay for your data.
  </tbody> 
 </table>
 
-## Plan Notes {#section_1DC56D7CCD574C1BAB1ABA033842E1CA}
+## Plan Notes {#plan-notes}
 
 In the **[!UICONTROL Additional Notes]** field, take some time to describe each data plan in a feed. A good, brief description helps buyers understand the content or purpose of each plan in a data feed. Buyers can read data feed and plan descriptions as they search for or evaluate new data sources.
 
-## Manage Private Data Feed Requests {#concept_4932D95774CF49FA92DE1E1BCDC0FDDA}
+## Manage Private Data Feed Requests {#manage-private-requests}
 
 Provider workflows for managing private feed requests from buyers.
 
@@ -182,11 +182,11 @@ To review, approve, or reject buyer requests, go to [!UICONTROL My Shared Data] 
 >
 >* [Private Data Feeds](../../../features/audience-marketplace/marketplace-private-feeds.md#concept_68EDE94B558C4B88BBCC994B67726FD2)
 
-## Discounts for Data Providers {#concept_A31D926BBA0743BCB7160C7F571930FD}
+## Discounts for Data Providers {#discounts}
 
 In [!UICONTROL Audience Marketplace], discounts let you reduce the published price of a data feed for individual subscribers. You can offer discounts to subscribers who have submitted a subscription request or to subscribers who have requested details about a data feed. Discounts apply to [!DNL CPM] and flat rate feeds. Discounts can be helpful when you want to provide subscription incentives for new customers or to reward customer loyalty.
 
-## Apply Discounts to a Data Feed {#section_78B92438EF424B328A4A339236F76D6A}
+## Apply Discounts to a Data Feed {#apply-discounts}
 
 <!-- marketplace-seller-discounts.xml -->
 
@@ -201,7 +201,7 @@ In these examples, the seller has added 10% discount to the [!UICONTROL Software
 
 ![](assets/detail_requests.png)
 
-## Review Discounted Feeds {#section_1E01A755F11F4824A3D294C2BF03B957}
+## Review Discounted Feeds {#review-discounted-feeds}
 
 Data providers can see all of their subscribers and discounted feeds in **[!UICONTROL Audience Marketplace > My Shared Data > Current Subscribers]**.
 
