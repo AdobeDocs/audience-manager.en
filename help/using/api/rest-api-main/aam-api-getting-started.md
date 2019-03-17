@@ -13,7 +13,7 @@ Information about general requirements, authentication, optional query parameter
 
 <!-- c_rest_api_overview.xml -->
 
-## API Requirements and Recommendations {#requirements}
+## API Requirements and Recommendations {#api-requirements-recommendations}
 
 Things you must and should do when working with the Audience Manager [!DNL API]s.
 
@@ -210,7 +210,7 @@ The [!DNL Audience Manager] [!DNL API]s provide access to different working envi
 >
 >The Audience Manager beta environment is a smaller-scale, standalone version of the production environment. All the data that you want to test must be entered and collected in this environment.
 
-## Versions {#section_473AE7014EE949E7AD868AB357452673}
+## Versions {#versions}
 
 New versions of these [!DNL API]s are released on a regular schedule. A new release increments the [!DNL API] version number. The version number is referenced in the request URL as `v<version number>` as shown in the following example:
 
