@@ -12,21 +12,23 @@ uuid: e561ce8f-6c90-44a7-b034-685533f29030
 
 [!UICONTROL Folder traits] let you automatically aggregate traits that reside within the same folder and all child folders into a targetable segment.
 
-## Benefits of Using Folder Traits {#section_1CF315E0BC734FD69B0725F2ADBA1B1B}
+## Benefits of Using Folder Traits {#benefits}
 
 A [!UICONTROL folder trait] contains all the traits in a parent folder and its associated child folders. This lets you automatically segment and target your users at different folder levels. For example, let's say you have a folder structure like this:
 
-* Electronics (parent)
-    * Laptops (child)
-        * Brands (grandchild)
+`*` Electronics (parent)
+
+&nbsp;&nbsp;&nbsp;&nbsp;`*` Laptops (child)
+    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`*` Brands (grandchild)
 
 [!UICONTROL Folder traits] qualify all the users in these folders in an automatically created [!DNL Electronics] [!UICONTROL Folder Trait] (based on the name of the parent folder). And, this process repeats itself as you move down the file structure. In this case, folder traits capture all of the users in the Laptops and Brands folders in an automatically created Laptops [!UICONTROL Folder Trait].
 
 [!UICONTROL Folder traits] are selectable in segment expressions. Selecting a [!UICONTROL folder trait] is equivalent to selecting all the traits within that folder and its subfolders with an [!UICONTROL OR] grouping.
 
-![](assets/folder_traits_compare_border.jpg)
+![](assets/folder-traits-compare-border.jpg)
 
-## Folder Traits Realization - Recency and Frequency {#section_7BBCE65C238C467599ECCACC4597D296}
+## Folder Traits Realization - Recency and Frequency {#folder-traits-realization}
 
 The frequency count of a folder trait is the sum of realizations of the traits in its folder and its child folders. The illustration below shows traits A, B and C, which live in the Automobile folder. Consider that each of the traits have the following realizations:
 
@@ -38,11 +40,11 @@ In this case, the [!DNL ]Automobile [!UICONTROL Folder Trait] has 7 realizations
 
 ![](assets/folder_traits_rollup_border.png)
 
-## Folder Trait Reporting {#section_FF4A75E342A043F3914873CC0657E0EE}
+## Folder Trait Reporting {#folder-traits-reporting}
 
 [!UICONTROL Folder traits] capture all the users from the traits in the folder structure below them. If you move a trait from a folder to another folder, the change propagates to our [data collection servers](../../reference/system-components/components-data-collection.md#concept_66CFFEBF5E8B41ED94082D562A93506E) just like a trait rule change. The reporting updates in the next reporting run to reflect this change across the reporting date ranges (1, 7, 14, 30, 60, 90, lifetime). The old reporting numbers from the previous days will not change.
 
-## Role-Based Access Controls ( RBAC) Permissions {#section_FB11C9F6F6F542328A6F1F22C40C2220}
+## Role-Based Access Controls (RBAC) Permissions {#role-based-access-controls}
 
 For companies using [!UICONTROL Role-Based Access Controls] ([!UICONTROL RBAC]), your users with the appropriate [!UICONTROL RBAC] permissions are able to change the data source associated to the [!UICONTROL folder trait]. A user must belong to a group with either of the following:
 
@@ -51,7 +53,7 @@ For companies using [!UICONTROL Role-Based Access Controls] ([!UICONTROL RBAC]),
 
 Learn how to assign [!UICONTROL RBAC] permissions in our [administration documentation](../../features/administration/administration-overview.md#create-group).
 
-## Limits and Other Considerations {#section_9680EBC0F862495B9E3272D001395794}
+## Limits and Other Considerations {#limits}
 
 |  Item  | Description  |
 |---|---|

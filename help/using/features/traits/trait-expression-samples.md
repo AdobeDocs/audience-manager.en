@@ -11,13 +11,13 @@ uuid: ee74c376-2099-4816-8694-43f58845a0ac
 
 Examples you can refer to for creating expressions in the [!UICONTROL Expression Builder] code editor.
 
-## Code Samples Overview {#section_046415174EF84FDAA6E3C92649BFB0F3}
+## Code Samples Overview {#code-samples-overview}
 
 <!-- r_tb_expression_samples.xml -->
 
 Create your own trait rules with the [!UICONTROL Expression Builder] code editor. The following examples can help you get started. Some of the examples preface the *`key`* variable with `c_` to identify it as a user-defined variable. Include the `c_` prefix (or any other naming convention) for *`key`* variable if your event calls send data to [!DNL Audience Manager] using that syntax.
 
-## [!DNL Boolean] Expressions {#section_294C03461BE44795A507BF9A65808CCA}
+## Boolean Expressions {#boolean-expressions}
 
 ### AND Example
 

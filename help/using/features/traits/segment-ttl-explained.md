@@ -15,7 +15,7 @@ How trait [!UICONTROL time-to-live] ([!DNL TTL]) interval affects segment member
 
 ## Time to Live
 
-[!DNL TTL] defines how long a site visitor remains in a segment after the last trait qualification event. [!DNL TTL] is set on traits and not on segments. Visitors fall out of a segment if they do not see a qualifying trait before the end of the [!DNL TTL] interval. The default [!DNL TTL] for new traits is 120 days. When set to 0 days, the trait never expires. [Set the TTL value](../../features/traits/create-onboarded-rule-based-traits.md#task_F17639E26C2744A0942461FCCD4D4DC7) when you create or edit a trait in the [!UICONTROL Advanced Options] section of the trait creation interface.
+[!DNL TTL] defines how long a site visitor remains in a segment after the last trait qualification event. [!DNL TTL] is set on traits and not on segments. Visitors fall out of a segment if they do not see a qualifying trait before the end of the [!DNL TTL] interval. The default [!DNL TTL] for new traits is 120 days. When set to 0 days, the trait never expires. [Set the TTL value](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval) when you create or edit a trait in the [!UICONTROL Advanced Options] section of the trait creation interface.
 
 ## [!DNL TTL] and Dropping Out of a Segment
 
@@ -35,4 +35,4 @@ Remember, the [!DNL TTL] set on your [!DNL Audience Manager] pixel operates inde
 
 >[!MORE_LIKE_THIS]
 >
->* [Set a Trait Expiration Interval](../../features/traits/create-onboarded-rule-based-traits.md#task_F17639E26C2744A0942461FCCD4D4DC7)
+>* [Set a Trait Expiration Interval](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval)
