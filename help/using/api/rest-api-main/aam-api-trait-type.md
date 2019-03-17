@@ -19,7 +19,7 @@ Optional methods that let you to assign traits to a user-defined type or categor
 
 For visual reference, [!UICONTROL Trait Types] is a dropdown control located in the [!DNL UI] under **[!UICONTROL Traits > Create new trait > Basic Information]**.
 
-## Create a New Trait Type {#reference_ADC6A3D2B2E146E88906003FC05FDEF6}
+## Create a New Trait Type {#create-trait-type}
 
 A `POST` method that lets you create a new trait type.
 
@@ -52,7 +52,7 @@ A `POST` method that lets you create a new trait type.
 }
 ```
 
-## Return Properties for a Trait Type {#reference_6434DDEA7B4647CAAFFAECF3667C8331}
+## Return Properties for a Trait Type {#return-props}
 
 A `GET` method that returns details about the specified trait type.
 
@@ -77,7 +77,7 @@ A `GET` method that returns details about the specified trait type.
 }
 ```
 
-## Return Properties for all Trait Types {#reference_109CEE62B3044C189B032C51CE6EC7B2}
+## Return Properties for all Trait Types {#return-props-all}
 
 A `GET` method that returns details about all your trait types in an array.
 

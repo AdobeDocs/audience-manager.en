@@ -17,7 +17,7 @@ Methods that let you view the Audience Manager common taxonomy. This optional cl
 >
 >You cannot create new taxonomic categories or classify traits with these methods. To classify a trait, specify the appropriate `categoryId` with a trait create or update method.
 
-## Return a Specific Taxonomy {#reference_6128837552DB48CB8C88EB258ED6982E}
+## Return a Specific Taxonomy {#return-specific-taxonomy}
 
 A `GET` method that returns details about the specified taxonomic category.
 
@@ -42,7 +42,7 @@ A successful response returns `200 OK` and the category for the specified ID. An
 }
 ```
 
-## Return all Taxonomic Categories {#reference_EADE10DD29194326998E9B618EC6263A}
+## Return all Taxonomic Categories {#return-all-taxonomy-categories}
 
 A `GET` method that returns a list of the top-level categories in an array.
 
@@ -85,7 +85,7 @@ Truncated for brevity.
 ]
 ```
 
-## Return Taxonomic Sub-Categories {#reference_360E2113C0A940368A56A4D261F101F5}
+## Return Taxonomic Sub-Categories {#return-taxonomy-sub-categories}
 
 A `GET` method that returns sub-categories for the specified parent category in an array.
 

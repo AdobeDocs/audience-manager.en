@@ -12,7 +12,7 @@ uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
 
 The instance-level [!UICONTROL DIL] APIs let you programmatically create and work with Audience Manager objects. The instance-level methods enhance API functionality established by the class-level methods.
 
-## Getting started with Instance-level DIL Methods {#concept_BFC21CC3204C4743ABF7EB3C7FA78C92}
+## Getting started with Instance-level DIL Methods {#get-started-dil-methods}
 
 <!-- 
 
@@ -31,7 +31,7 @@ c_instance_start.xml
 
  -->
 
-## signals {#reference_A651EFE4FB244E748F6E0FB8A4969D08}
+## signals {#signals}
 
 Adds customer and platform-level mappings to the query string of a pending request.
 
@@ -96,7 +96,7 @@ dataLib.api.signals(obj, 'c_').submit();
 >
 >* [Name Requirements for Key Variables](../features/traits/trait-key-name-requirements.md#concept_85B8BA18517D468DA23E8DCC6E935680)
 
-## traits {#reference_8135B30189B844DAB34768A12980C850}
+## traits {#traits}
 
 Adds SIDs to the query string of a pending request.
 
@@ -132,7 +132,7 @@ var partnerObject = DIL.create({
 partnerObject.api.traits(<i>[123, 456, 789]</i>); 
 </code></pre>
 
-## logs {#reference_51420BDD8C5A4BB28E1AE03727CA2120}
+## logs {#logs}
 
 Add data to log files in the pending request.
 
@@ -161,7 +161,7 @@ partnerObject.api.logs({
 });
 </code></pre>
 
-## submit {#reference_9FC05E3D69EC43B192A7F7BB1F3818C1}
+## submit {#submit}
 
 Submits all pending data to Audience Manager for the [!UICONTROL DIL] instance.
 
@@ -203,7 +203,7 @@ dataLib.api.traits([
 >
 >* [Prefix Requirements for Key Variables](../features/traits/trait-variable-prefixes.md#reference_E6F1E4257F664FC2A797C406BF147ABC)
 
-## afterResult {#reference_920C134051C84E09AFE0050C501C46AB}
+## afterResult {#afterresult}
 
 A function that executes after the default destination publishing callback.
 
@@ -245,7 +245,7 @@ dataLib.api.signals({
 }).submit();
 </code></pre>
 
-## clearData {#reference_C24ED9AD176247DF82F7E4DAAE9EA295}
+## clearData {#cleardata}
 
 Clears all data in a pending request.
 
@@ -285,7 +285,7 @@ dataLib.api.traits([<i>123,456, 789</i>]).logs({
 dataLib.clearData();
 </code></pre>
 
-## customQueryParams {#reference_4080F4679B96430585153A7DDC264CE7}
+## customQueryParams {#customqueryparams}
 
 Adds custom query parameters that are not explicitly defined by the data collection server to a pending request.
 
@@ -329,7 +329,7 @@ partnerObject.api.customQueryParams({
 }); 
 </code></pre>
 
-## getContainerNSID {#reference_CD2FF603078A47D8BCC40D2DDBCD6031}
+## getContainerNSID {#getcontainernsid}
 
 Returns the value of the container NSID for the [!UICONTROL DIL] instance. Useful for debugging and troubleshooting.
 
@@ -353,7 +353,7 @@ var dataLib = DIL.create({
 var nsid = dataLib.api.getContainerNSID();
 </code></pre>
 
-## getEventLog {#reference_05CA25F0692A40E298948C51476FCEFE}
+## getEventLog {#geteventlog}
 
 Returns chronologically sorted event log data as an array of strings. Useful for debugging and troubleshooting.
 
@@ -390,7 +390,7 @@ if (log && log.length) {
 }
 </code></pre>
 
-## getPartner {#reference_EC0682F497DC43798ACD9DD25DBD4683}
+## getPartner {#getpartner}
 
 Returns the partner name for a [!UICONTROL DIL] instance. Useful for debugging and troubleshooting.
 
@@ -414,7 +414,7 @@ var dataLib = DIL.create({
 var partner = dataLib.api.getPartner();
 </code></pre>
 
-## getState {#reference_476646B9602144C09B5B422731E93FAB}
+## getState {#getstate}
 
 Returns the state of the current [!UICONTROL DIL] instance. Useful for debugging and troubleshooting.
 
@@ -484,7 +484,7 @@ state = {
 */
 </code></pre>
 
-## idSync {#reference_B01B88C083434CF8ABBEABD3C6956C48}
+## idSync {#idsync}
 
 Consists of two functions that let data partners exchange and synchronize user IDs among themselves and Audience Manager.
 
@@ -594,7 +594,7 @@ dilInstance.api.aamIdSync({
 >
 >* [Synchronization Functions in the Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-idsync.html)
 
-## result {#reference_82EC4BB8EE5F4DFF9BBAE2BC813A4DD5}
+## result {#result}
 
 Adds a callback (that receives JSON) to the pending request.
 
@@ -635,7 +635,7 @@ dataLib.api.traits([<i>123, 456, 789</i>]).result(function(json){
 });.submit();
 </code></pre>
 
-## secureDataCollection {#concept_F23D61F930874D26AAA136972B0206AC}
+## secureDataCollection {#securedatacollection}
 
 `secureDataCollection` is a boolean parameter that controls how [!UICONTROL DIL] makes calls to the [!UICONTROL Data Collection Servers (DCS)] and Akamai.
 
@@ -662,9 +662,9 @@ var dilInstance = DIL.create({
 
 >[!MORE_LIKE_THIS]
 >
->* [DIL create](../dil/dil-class-overview/dil-create.md#reference_F87131F6C1CC4ECCA064B24B91710FD4)
+>* [DIL create](../dil/dil-class-overview/dil-create.md#dil-create)
 
-## useCORSOnly {#concept_A9E83ED77E3B4BB6B22DD435F5604482}
+## useCORSOnly {#usecorsonly}
 
 `useCORSOnly` is a boolean true/false parameter that controls how the browser requests resources from other domains.
 
@@ -695,11 +695,11 @@ var dilInstance = DIL.create({
 
 >[!MORE_LIKE_THIS]
 >
->* [DIL create](../dil/dil-class-overview/dil-create.md#reference_F87131F6C1CC4ECCA064B24B91710FD4)
+>* [DIL create](../dil/dil-class-overview/dil-create.md#dil-create)
 >* [Experience Cloud ID Service: UseCORSOnly](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-use-cors-only.html)
 >* [CORS Support in the Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-cors.html)
 
-## useImageRequest {#reference_381E8A53ADDB41F2BBA2816AB11D3DF7}
+## useImageRequest {#useimagerequest}
 
 Changes the request type to image `<img>` from script `<src>`.
 

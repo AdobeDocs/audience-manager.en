@@ -11,7 +11,7 @@ uuid: c5362a38-93c0-4edb-bdcb-106e43f33a92
 
 An optional, Boolean configuration that determines if DIL sends (or does not send) data to the Adobe Experience Cloud Device Co-op.
 
-## Requirements {#section_4883EDA6BEB8437182BCC82BB58FAE41}
+## Requirements {#requirements}
 
 To use `isCoopSafe` you must:
 
@@ -20,7 +20,7 @@ To use `isCoopSafe` you must:
 
 * Work with your [!DNL Adobe] consultant to set a whitelist or a blacklist flag on your Device Co-op account. There is no self-service path to enable these flags.
 
-## Use Cases {#section_D18AF2B903F248E18AE8108AAF0A8EBB}
+## Use Cases {#use-cases}
 
 `isCoopSafe` helps resolve 2 use cases related to data collection by current or prospective members of the Device Co-op. These use cases relate to how site visitor data is passed on to the Device co-op to help build the device graph. The following table describes how `isCoopSafe` works with these use cases to block or send data to the device graph
 
@@ -47,7 +47,7 @@ To use `isCoopSafe` you must:
  </tbody> 
 </table>
 
-## Syntax and Code Sample {#section_952F56724A2B4D349340E26FBAF33DDD}
+## Syntax and Code Sample {#syntax-code-sample}
 
 **Syntax:** `isCoopSafe: true | false`
 
@@ -68,7 +68,7 @@ var dilInstance = DIL.create({
 });
 ```
 
-## Event Call POST Parameters {#section_FCD441933506493FAEFAA6B51F194A17}
+## Event Call POST Parameters {#post-parameters}
 
 Depending on the flag you set ( `true` or `false`), [!UICONTROL DIL] translates `isCoopSafe` into these POST parameters and sends them to [!DNL Adobe] in an event call:
 
@@ -96,7 +96,7 @@ The POST parameters tell the [!DNL Experience Cloud] Device Co-op if it can or c
  </tbody> 
 </table>
 
-## Post-Instantiation APIs {#section_9281C39C8B6249D7864100B5CBCA7DC6}
+## Post-Instantiation APIs {#post-instantiation}
 
 These APIs allow you to override the `isCoopSafe` status. These are necessary because they let you change a visitor's post-instantiation/post-login status on a site or in a single page app where the page does not refresh. For example, you would need to call these APIs if a user authenticates to your site or app and later accepts a terms-of-use policy that allows the Device Co-op to use their data.
 

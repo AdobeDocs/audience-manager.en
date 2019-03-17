@@ -13,7 +13,7 @@ Rest [!DNL API] methods to manage permissions for objects and groups.
 
 <!-- c_rest_api_perm_man.xml -->
 
-## List Available Object Types {#reference_065FE71054DA4ABD985A6A0FAEEDF212}
+## List Available Object Types {#list-object-types}
 
 A `GET` method to list available object types on which role-based access controls can be set.
 
@@ -29,7 +29,7 @@ A `GET` method to list available object types on which role-based access control
 [ "SEGMENT", "TRAIT", "DESTINATION", "DERIVED_SIGNALS", "TAGS" ]
 ```
 
-## List Available Permissions for an Object Type {#reference_7C8368419A414757BE014999E8B476DB}
+## List Available Permissions for an Object Type {#list-permissions-object-type}
 
 A `GET` method to list available permissions for an object type.
 

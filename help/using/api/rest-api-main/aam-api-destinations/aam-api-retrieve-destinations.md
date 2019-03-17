@@ -49,7 +49,7 @@ A `GET` method that returns the destination for the specified `destinationId`.
 }
 ```
 
-## Return All Destinations {#reference_74F0AAA5324B4B6CA6463CB634AC7FF5}
+## Return All Destinations {#return-all-destinations}
 
 A `GET` method that returns all destinations for the specified partner.
 
@@ -67,7 +67,7 @@ A `GET` method that returns all destinations for the specified partner.
 
 ### Optional Query Parameters
 
-You can use these optional parameters with API methods that return *all* properties for an object. Set these options in the request string when passing that query in to the [!DNL API]. See [Optional Parameters](../../../api/rest-api-main/aam-api-getting-started.md#concept_BB1E73AE736F4F54830E6CAF28089608).  
+You can use these optional parameters with API methods that return *all* properties for an object. Set these options in the request string when passing that query in to the [!DNL API]. See [Optional Parameters](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).  
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -132,7 +132,7 @@ You can use these optional parameters with API methods that return *all* propert
 ]
 ```
 
-## Return a Destination Mapping With the Mapping ID {#reference_B763509781914A5CB8FC89012C56F56D}
+## Return a Destination Mapping With the Mapping ID {#return-dest-mapping-id}
 
 A `GET` method that returns an individual destination mapping based on the `mappingId`.
 
@@ -169,7 +169,7 @@ A `GET` method that returns an individual destination mapping based on the `mapp
 }
 ```
 
-## Return Destination Mappings {#reference_2EF17D608D804F2FAC95AE18B3F0DCA3}
+## Return Destination Mappings {#return-dest-mappings}
 
 A `GET` method that returns the mappings for a destination.
 
@@ -243,7 +243,7 @@ A `GET` method that returns the mappings for a destination.
 {
 ```
 
-## Return All Available Destination Platforms {#reference_279D5A95143C499EA9A1B8C1B601DB7B}
+## Return All Available Destination Platforms {#return-dest-platforms}
 
 A `GET` method that returns all available device platforms for destinations.
 
@@ -261,7 +261,7 @@ BROWSER, ANDROID, iOS, ALL
 ]
 ```
 
-## Return S2S and Bulk S2S Destination Job History {#reference_DAAAAE296B1248CAA347D9344EB182F2}
+## Return S2S and Bulk S2S Destination Job History {#return-job-history}
 
 A `GET` method that returns outbound [!UICONTROL Server-to-Server] ( [!UICONTROL S2S]) and bulk [!UICONTROL S2S] destination job history information.
 

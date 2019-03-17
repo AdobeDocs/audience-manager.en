@@ -17,7 +17,7 @@ c_dil_use_case.xml
 
  -->
 
-## Send Data Elements to Audience Manager with DIL {#concept_83E72615C37B4E4498652C7C1E7EB802}
+## Send Data Elements to Audience Manager with DIL {#send-data-elements-dil}
 
 Create an object variable that sends information about page elements to Audience Manager. This is useful for general data collection or as an alternative to gathering data with Analytics variables.
 
@@ -88,9 +88,9 @@ sample_dil.api.submit();
 
 >[!MORE_LIKE_THIS]
 >
->* [signals](../dil/dil-instance-methods.md#reference_A651EFE4FB244E748F6E0FB8A4969D08)
+>* [signals](../dil/dil-instance-methods.md#signals)
 
-## Capture Referring URL {#concept_A362B6D8665A41B8A6E0D4085358FC2D}
+## Capture Referring URL {#capture-referring-url}
 
 Capture and send a referring URL to Audience Manager.
 
@@ -113,7 +113,7 @@ var adobe_dil = DIL.create({ partner : "<i>partner name</i>" });
 adobe_dil.api.signals({ d_referer : document.referrer }).submit();
 </code></pre>
 
-## Capture Search Engine Types and Keyword Search Terms {#concept_146568B1C16B45138E24EA0340737DA9}
+## Capture Search Engine Types and Keyword Search Terms {#capture-search-engine-types}
 
 Send information about search engine type and keyword searches to Audience Manager.
 
@@ -180,7 +180,7 @@ if (search_referrer && search_referrer.valid) {
 }
 </code></pre>
 
-## Map Key Values to Other Keys {#concept_7FE441F32458474286DB9582DF791F1B}
+## Map Key Values to Other Keys {#map-key-values}
 
 Associate the value from a key-value pair to another key.
 
@@ -216,7 +216,7 @@ adobe_dil.api.signals({c_zip : '10010'}).submit();
 >
 >* [Prefix Requirements for Key Variables](https://marketing.adobe.com/resources/help/en_US/aam/r_tb_variable_prefixes.html)
 
-## Traffic DIL in Google Tag Manager (GTM) {#task_3B7B03F0BA834FDDB3DA9452D1F3318D}
+## Traffic DIL in Google Tag Manager (GTM) {#traffic-dil-gtm}
 
 Set up and serve DIL with a GTM tag.
 
@@ -231,16 +231,16 @@ This procedure assumes you have a [!DNL Google Tag Manager] account, some workin
 To traffic the `dil.js` file in GTM: 
 
 1. Create a new container or open an existing container.
-2. Add a new tag to the container.
-3. Open the tag to edit it and:
+1. Add a new tag to the container.
+1. Open the tag to edit it and:
 
     * Name the tag. 
     * Select **[!UICONTROL Custom HTML Tag]**from the **[!UICONTROL Tag Type]** drop-down list. 
     * In the HTML field, place the [!UICONTROL DIL] code (library + the custom code) within script tags `<script>DIL code</script>`. 
     * Click **[!UICONTROL Save]**.
 
-4. Publish the container.
-5. Generate container tag code and place it on your inventory.
+1. Publish the container.
+1. Generate container tag code and place it on your inventory.
 
 >[!MORE_LIKE_THIS]
 >

@@ -105,8 +105,8 @@ Additionally, clients can deploy a simple onsite object and populate it with key
 
 Yes. [!UICONTROL DIL] can collect some [!DNL Google Analytics] (GA) elements and pass that data to [!DNL Audience Manager]. See:
 
-* [GA.submitUniversalAnalytics](../dil/dil-modules.md#reference_FF7F8513BEC5457ABE2902BC854C7C18) 
-* [GA.init](../dil/dil-modules.md#reference_C3DB78CE5C774887AA4FC5629568B651)
+* [GA.submitUniversalAnalytics](../dil/dil-modules.md#ga-submit-universal-analytics) 
+* [GA.init](../dil/dil-modules.md#ga-init)
 
 <br>&nbsp;
 

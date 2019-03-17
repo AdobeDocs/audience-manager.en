@@ -23,7 +23,7 @@ The available `POST` methods let you create [!UICONTROL URL] and [!UICONTROL coo
 >* [Destination Serialization](../../../features/destinations/key-value-pairs.md#destination-serialized)
 >* [Key-Value Pairs Explained](../../../reference/key-value-pairs-explained.md#concept_E4236E003076483AA939791FE2492B49)
 
-## Create a Non-Serial URL Destination {#reference_CD17C3E3D02143C89A00B28CBB2A9EE9}
+## Create a Non-Serial URL Destination {#create-nonserial-dest}
 
 A `POST` method that lets you create a destination that accepts segments composed of single key-value pairs (e.g., `gender=male` or `gender=female`).
 
@@ -81,7 +81,7 @@ A successful request returns `201 created` and the destination.
 >
 >* [Destination Serialization](../../../features/destinations/key-value-pairs.md#destination-serialized)
 
-## Create a Serialized URL Destination {#reference_5F0A43A3FE8E4014B1F1010E39FD8EC3}
+## Create a Serialized URL Destination {#create-serial-url-dest}
 
 A `POST` method that lets you create a destination that accepts multiple values associated with a single key (e.g., `color=blue, red, green`).
 
@@ -141,7 +141,7 @@ A successful update returns response code `201 created` and the destination.
 >
 >* [Destination Serialization](../../../features/destinations/key-value-pairs.md#destination-serialized)
 
-## Create a Cookie Destination: Single-Key, Non-Serialized {#reference_1CFA380EE9E740099E43B28E985BF23D}
+## Create a Cookie Destination: Single-Key, Non-Serialized {#create-cookie-dest-single}
 
 A `POST` method that lets you create a [!UICONTROL cookie destination] that accepts segments composed of single key-value pairs (e.g., `gender=male` or `gender=female`).
 
@@ -216,7 +216,7 @@ A successful update returns response code `201 created` and the destination.
 >* [Destination Serialization](../../../features/destinations/key-value-pairs.md#destination-serialized)
 >* [Key-Value Pairs Explained](../../../reference/key-value-pairs-explained.md#concept_E4236E003076483AA939791FE2492B49)
 
-## Create a Cookie Destination: Single Key, Serialized {#reference_D83C9F35928E4226AA89E7A089971147}
+## Create a Cookie Destination: Single Key, Serialized {#create-cookie-dest-single-serial}
 
 A `POST` method that lets you create a destination that accepts multiple values associated with a single key (e.g., `color=blue, red, green`).
 
@@ -292,7 +292,7 @@ A successful update returns response code `201 created` and the destination.
 >* [Destination Serialization](../../../features/destinations/key-value-pairs.md#destination-serialized)
 >* [Key-Value Pairs Explained](../../../reference/key-value-pairs-explained.md#concept_E4236E003076483AA939791FE2492B49)
 
-## Create a Cookie Destination: Multi-Key, Non-Serialized {#reference_DA9D74FD834C463FBC9B28E4C1BD05CC}
+## Create a Cookie Destination: Multi-Key, Non-Serialized {#create-cookie-dest-multi}
 
 A `POST` method that lets you create a destination that accepts segments that contain multiple keys with different values (e.g., `gender=male; gender=female; color=blue; color=red`).
 
@@ -359,7 +359,7 @@ A successful update returns response code `201 created` and the destination.
 }
 ```
 
-## Create a Cookie Destination: Multi-Key, Serialized {#reference_DD9EC8757B504F9D9F2D0512D25269A3}
+## Create a Cookie Destination: Multi-Key, Serialized {#create-cookie-dest-multi-serial}
 
 A `POST` method that lets you create a destination that accepts segments that contain multiple keys and values (e.g., `gender=male, female; color=blue, red, green`).
 

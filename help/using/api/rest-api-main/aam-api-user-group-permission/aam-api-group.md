@@ -13,7 +13,7 @@ Rest [!DNL API] methods to manage groups, including creating, updating, listing,
 
 <!-- c_rest_api_user_man_group.xml -->
 
-## Create a Group {#reference_1CEABC94762F451CBE7ADE64F11A0D87}
+## Create a Group {#create-group}
 
 A `POST` method to create a new user group.
 
@@ -46,7 +46,7 @@ A `POST` method to create a new user group.
   }
 ```
 
-## Update a Group {#reference_0C9F9C5F67DA416AA7F01DF24DC9B878}
+## Update a Group {#update-group}
 
 A `PUT` method to update a user group.
 
@@ -81,7 +81,7 @@ r_rest_api_group_update.xml
   }
 ```
 
-## List Groups {#reference_E96FB3181F9842478EF30C9CF330A46B}
+## List Groups {#list-groups}
 
 A `GET` method to list user groups.
 
@@ -109,7 +109,7 @@ r_rest_api_group_list.xml
 ]
 ```
 
-## Delete a Group {#reference_4482423037DB4E71BF5BFDA8C4458038}
+## Delete a Group {#delete-groups}
 
 A `DELETE` method to delete a user group and remove all members from that group.
 
@@ -121,7 +121,7 @@ A `DELETE` method to delete a user group and remove all members from that group.
 
 Returns `204 No Content` if successful. In case of conflict returns `409 Conflict`.
 
-## Delete Groups in Bulk {#reference_B27B1CD22BA0475A870E251AAB8D7764}
+## Delete Groups in Bulk {#delete-groups-bulk}
 
 A `DELETE` method to delete multiple groups in bulk and remove all members from that group.
 
@@ -133,7 +133,7 @@ A `DELETE` method to delete multiple groups in bulk and remove all members from 
 
 Returns `204 No Content` if successful. In case of conflict returns `409 Conflict`.
 
-## List All Permissions for a Group {#reference_9696B6B2AB3F457895FE4B50EBC5BE28}
+## List All Permissions for a Group {#list-permissions-group}
 
 A `GET` method to list the permission objects on a group.
 
@@ -167,7 +167,7 @@ A `GET` method to list the permission objects on a group.
 
 Returns `400 Bad Request` if the group is inaccessible. 
 
-## Set Permissions for a Group {#reference_404422A21AEF4E59B05D639E10CDADF6}
+## Set Permissions for a Group {#set-permissions-group}
 
 A `PUT` method to update group permissions. This method overwrites the old permissions with the new permissions.
 

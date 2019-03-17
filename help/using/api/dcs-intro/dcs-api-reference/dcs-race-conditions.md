@@ -11,14 +11,14 @@ uuid: b0aac960-6732-4e96-87a5-40ba2755e02d
 
 Describes how to prevent race conditions and [!UICONTROL DCS] error handling.
 
-## Preventing Race Conditions {#section_0F9D28831F6243A3B174450DD1B9635D}
+## Preventing Race Conditions {#prevent-race-conditions}
 
 A race condition can occur if you send multiple calls simultaneously (or in rapid succession) to the [!UICONTROL DCS] before it finishes responding to the initial queries and writing data to the user’s cookie. A race condition is undesirable because it can corrupt or improperly overwrite cookie data. As a best practice, consider the following methods to help avoid this problem:
 
 * Don't make simultaneous calls, or calls in rapid succession, to the [!UICONTROL DCS] from the same user.
 * Wait for each response to come back before making subsequent calls.
 
-## Error Handling {#section_BA7880213216436B835884E753710AC4}
+## Error Handling {#error-handling}
 
 Error handling is limited for invalid or poorly formed queries. An invalid request returns an `HTTP 200 OK` response and no data. Also, the [!UICONTROL DCS] stops processing a request, discards trait data, and returns an `HTTP 200 OK` response when a user:
 

@@ -15,7 +15,7 @@ uuid: 698019bc-d7f6-41e0-a78a-1ab0bf0e65a0
 
 For more information about derived signals, see [Derived Signals](../../features/derived-signals.md#concept_36FF7303F39E4748AC048D08F9E371C6).
 
-## Create a New Derived Signal {#reference_A27DB94B1F5C4A6AA55CAA301612D4CA}
+## Create a New Derived Signal {#create-new-derived-signal}
 
 A `POST` method that lets you create a new derived signal.
 
@@ -59,7 +59,7 @@ A successful update returns response code `201 Created` and data as shown below.
 }
 ```
 
-## Delete a Derived Signal {#reference_6EBC0874E6F8438393585BEE6DC95294}
+## Delete a Derived Signal {#delete-derived-signal}
 
 A `DELETE` method that lets you remove a derived signal from your collection.
 
@@ -73,7 +73,7 @@ A `DELETE` method that lets you remove a derived signal from your collection.
 
 Returns response code `204 No Content` if successful.
 
-## Return Properties for a Derived Signal {#reference_B9CCCB0A72BF4D6D9DB71A17C1165771}
+## Return Properties for a Derived Signal {#return-properties-derived-signal}
 
 A `GET` method that returns details for an individual derived signal.
 
@@ -104,7 +104,7 @@ A successful request returns response code `200 OK` and data as shown below.
 }
 ```
 
-## Return Properties for all Derived Signals {#reference_3346F7C5605B4C08BFEFDA56BE2851C4}
+## Return Properties for all Derived Signals {#return-properties-all-sderived-signals}
 
 A `GET` method that returns details for all your derived signals.
 
@@ -116,7 +116,7 @@ A `GET` method that returns details for all your derived signals.
 
 ### Optional Query Parameters
 
-You can use these optional parameters with [!DNL API] methods that return *all* properties for an object. Set these options in the request string when passing that query in to the [!DNL API]. See [Optional Parameters](../../api/rest-api-main/aam-api-getting-started.md#concept_BB1E73AE736F4F54830E6CAF28089608).  
+You can use these optional parameters with [!DNL API] methods that return *all* properties for an object. Set these options in the request string when passing that query in to the [!DNL API]. See [Optional Parameters](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).  
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 

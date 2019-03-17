@@ -17,7 +17,7 @@ c_dil_mods.xml
 
  -->
 
-## siteCatalyst.init {#reference_26B0A55C6F5E40C39057EBA95A1E638E}
+## siteCatalyst.init {#sitecat-init}
 
 Works with [!UICONTROL DIL] to send [!DNL Analytics] tag elements (variables, props, eVars, etc.) to Audience Manager. Returns data in a comma separated list. Available in version 2.6. 
 
@@ -132,7 +132,7 @@ To track all the monitored [!DNL Analytics] data points without the additional f
 DIL.modules.siteCatalyst.init(s, scDil);
 ```
 
-## GA.submitUniversalAnalytics {#reference_FF7F8513BEC5457ABE2902BC854C7C18}
+## GA.submitUniversalAnalytics {#ga-submit-universal-analytics}
 
 The `GA.submitUniversalAnalytics();` function sends data from Google's [!DNL Universal Analytics] to Audience Manager. This [!UICONTROL DIL] function is designed to work with `analytics.js`, which is the latest code library for Google [!DNL Universal Analytics].
 
@@ -147,7 +147,7 @@ dil-google-universal-analytics.xml
 >
 >* [!DNL Audience Manager] does not have any insight into or control over the Google `analytics.js` code library. You should verify that [!UICONTROL DIL] data collection is still working if or when Google releases new versions of `analytics.js`. 
 >
->* You cannot use `GA.submitUniversalAnalytics();` if you're still working with Google's legacy analytics tracking code (e.g., `ga.js` or `dc.js`). See [GA.init](../dil/dil-modules.md#reference_C3DB78CE5C774887AA4FC5629568B651) instead. 
+>* You cannot use `GA.submitUniversalAnalytics();` if you're still working with Google's legacy analytics tracking code (e.g., `ga.js` or `dc.js`). See [GA.init](../dil/dil-modules.md#ga-init) instead. 
 >
 
 **Function Signature:** `DIL.modules.GA.submitUniversalAnalytics(gaObject, dilInstance, internalPropertyName);`
@@ -197,7 +197,7 @@ DIL.modules.GA.submitUniversalAnalytics(ga, dilInstance);
 >
 >* [ga Object Methods Reference](https://developers.google.com/analytics/devguides/collection/analyticsjs/ga-object-methods-reference)
 
-## GA.init {#reference_C3DB78CE5C774887AA4FC5629568B651}
+## GA.init {#ga-init}
 
 The `GA.init()` function sends data from the legacy/deprecated version of [!DNL Google Analytics] to Audience Manager.
 
@@ -209,7 +209,7 @@ r_dil_ga_init.xml
 
 >[!IMPORTANT]
 >
->`GA.init()` only works with Google's legacy analytics tracking code, `ga.js` or `dc.js`. You cannot invoke this [!UICONTROL DIL] function if you use `analytics.js`, which is the latest code library for Google [!DNL Universal Analytics]. [!DNL Audience Manager] customers who use [!UICONTROL DIL] and [!DNL Universal Analytics] should see [GA.submitUniversalAnalytics](../dil/dil-modules.md#reference_FF7F8513BEC5457ABE2902BC854C7C18).
+>`GA.init()` only works with Google's legacy analytics tracking code, `ga.js` or `dc.js`. You cannot invoke this [!UICONTROL DIL] function if you use `analytics.js`, which is the latest code library for Google [!DNL Universal Analytics]. [!DNL Audience Manager] customers who use [!UICONTROL DIL] and [!DNL Universal Analytics] should see [GA.submitUniversalAnalytics](../dil/dil-modules.md#ga-submit-universal-analytics).
 
 **Function Signature:** `DIL.modules.GA.init(_gaq, dilInstance, trackVars);`
 

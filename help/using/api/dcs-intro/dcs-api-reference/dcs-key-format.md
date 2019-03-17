@@ -11,7 +11,7 @@ uuid: af02f2a1-4388-4074-ab4e-66ee82023f1c
 
 When making a call, the [!UICONTROL DCS] accepts key-value data in standard or serialized format. Review this section for information about how to format standard and serialized key-value data.
 
-## Standard and Serialized Key-Value Pairs {#section_ED54A051F8CD43798C50CAFA438D6B51}
+## Standard and Serialized Key-Value Pairs {#standard-serialized}
 
 <table id="table_A220F9B359F34C6EA7B83618FC22EE3A"> 
  <thead> 
@@ -35,7 +35,7 @@ When making a call, the [!UICONTROL DCS] accepts key-value data in standard or s
  </tbody>
 </table>
 
-## Delimiters and Separators for Serialized Key-Value Pairs {#section_81AE5DBD34D64B6ABF40521FCA0C9733}
+## Delimiters and Separators for Serialized Key-Value Pairs {#delimiters-separators}
 
 With serialized key-value pairs, you must specify the markers that separate values within and between these variables. Audience Manager requires the following delimiters and separators:
 

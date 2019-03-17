@@ -23,7 +23,7 @@ The available `POST` methods let you map segments to [!UICONTROL URL] and [!UICO
 >* [Destination Serialization](../../../features/destinations/key-value-pairs.md#destination-serialized)
 >* [Key-Value Pairs Explained](../../../reference/key-value-pairs-explained.md#concept_E4236E003076483AA939791FE2492B49)
 
-## Map a Segment to a Non-Serialized URL Destination {#reference_0BFD55096FD845EC9970012C53CFE643}
+## Map a Segment to a Non-Serialized URL Destination {#map-segment-non-serial}
 
 A `POST` method that lets you map a segment to a non-serial [!UICONTROL URL] destination.
 
@@ -73,7 +73,7 @@ All request values are required unless otherwise indicated.
 }
 ```
 
-## Map a Segment to a Serialized URL Destination {#reference_658AB62CA686491FB9D0E53458801343}
+## Map a Segment to a Serialized URL Destination {#map-segment-serial}
 
 A `POST` method that lets you map a segment to a serialized [!UICONTROL URL] destination.
 
@@ -123,7 +123,7 @@ In the request, the `traitAlias` corresponds to the key in a key-value pair. All
 }
 ```
 
-## Map a Segment to a Cookie Destination: Single-Key, Non-Serialized {#reference_612B2A53AE8E4262A36F73601151CFDD}
+## Map a Segment to a Cookie Destination: Single-Key, Non-Serialized {#map-segment-cookie-noserial}
 
 A `POST` method that lets you map a segment to single-key, non-serialized [!UICONTROL cookie] destination.
 
@@ -170,7 +170,7 @@ In the request, the `valueAlias` corresponds to the value in a key-value pair. A
 }
 ```
 
-## Map a Segment to a Cookie Destination: Multi-Key, Non-Serialized {#reference_139815314E1446BB9E335DCCDD1CEE6E}
+## Map a Segment to a Cookie Destination: Multi-Key, Non-Serialized {#map-segment-cookie-multi-noserial}
 
 A `POST` method that lets you map a segment to multi-key, non-serialized [!UICONTROL cookie] destination.
 
@@ -218,7 +218,7 @@ In the request, the `traitAlias` and `valueAlias` set the key and the value resp
 }
 ```
 
-## Map a Segment to a Cookie Destination: Multi-Key, Serialized {#reference_C0FA140B45B844CE8EE6E5E0487D7EB8}
+## Map a Segment to a Cookie Destination: Multi-Key, Serialized {#map-segment-cookie-multi-serial}
 
 A `POST` method that lets you map a segment to a multi-key, serialized [!UICONTROL cookie destination].
 
@@ -266,7 +266,7 @@ In the request, the `traitAlias` and `valueAlias` set the key and the value in a
 }
 ```
 
-## Map a Segment to a Server-to-Server Destination {#reference_1F6C3A534C234BE4B01C32B09EC93101}
+## Map a Segment to a Server-to-Server Destination {#map-segment-s2s}
 
 A `POST` method that lets you map a segment to an existing [!UICONTROL server-to-server] destination. Note, however, that you cannot create [!UICONTROL server-to-server] destinations with these currently available [!DNL API] methods.
 
@@ -312,7 +312,7 @@ In the request, the `traitAlias` corresponds to the key in a key-value pair. All
 }
 ```
 
-## Bulk Create Destination Mappings {#reference_606B59C76501457F9F816AFB617FCF77}
+## Bulk Create Destination Mappings {#bulk-create}
 
 A `POST` method that lets you pass in an array of [!UICONTROL cookie] or [!UICONTROL URL] destination mappings.
 
@@ -397,7 +397,7 @@ A successful response returns the array of created mappings.
 
 ```
 
-## Add Multiple Segments to a Destination {#reference_99061353A1BE4722B0CD469E9B598E4B}
+## Add Multiple Segments to a Destination {#add-segments-dest}
 
 A `POST` method that lets you map multiple segments to a destination.
 
@@ -481,7 +481,7 @@ Returns an array of created mappings.
 ]
 ```
 
-## Update a Destination by Destination ID {#reference_BECDC0988B5F45C4B8EF75836EA63A48}
+## Update a Destination by Destination ID {#update-dest-data-order}
 
 A `PUT` method that lets you update an existing destination by `destinationId`.
 
@@ -531,7 +531,7 @@ All request values are required unless otherwise indicated.
 }
 ```
 
-## Update a Mapping to a Destination by Mapping ID {#reference_F1C48667B3DA4299BC6E291D7B113281}
+## Update a Mapping to a Destination by Mapping ID {#update-mapping-dest-id}
 
 A `PUT` method that lets you update a mapping to a destination by the specified `mappingId`.
 
