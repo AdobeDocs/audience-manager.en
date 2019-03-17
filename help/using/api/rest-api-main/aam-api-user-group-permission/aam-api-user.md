@@ -13,7 +13,7 @@ Rest [!DNL API] methods to manage users, including creating, updating, listing, 
 
 <!-- c_rest_api_user_man_user.xml -->
 
-## Create a User {#reference_791EAD47150C4112AAC3D687E91666CF}
+## Create a User {#create-user}
 
 A `POST` method to create a new user.
 
@@ -62,7 +62,7 @@ If `isAdmin` is set to true, the user is created as a partner admin. This proper
 
 Returns `409 Conflict` if the username is already taken.
 
-## Update a User {#reference_48437AAB1C224812BB506C79201A0CE2}
+## Update a User {#update-user}
 
 A `PUT` method to update a user.
 
@@ -105,7 +105,7 @@ A `PUT` method to update a user.
 
 Returns `409 Conflict` if the username is already taken.
 
-## Update Logged-In User {#reference_FFDBAF743D7848ADBA2D659F487E5063}
+## Update Logged-In User {#update-logged-in-user}
 
 A `PUT` method to update the currently logged-in user.
 
@@ -148,7 +148,7 @@ A `PUT` method to update the currently logged-in user.
 
 Returns `409 Conflict` if the username is already taken.
 
-## Update Logged-In User Password {#reference_FD6C65E07E6A4D619C466328BC46574A}
+## Update Logged-In User Password {#update-logged-in-user-pw}
 
 A `PUT` method to update the currently logged-in user.
 
@@ -170,7 +170,7 @@ A `PUT` method to update the currently logged-in user.
 
 Returns `200 OK` if successful. Returns `400 Bad Request` if something is wrong with either password.
 
-## Reset Logged-In User Password {#reference_B8B26AC89832485D95509DAFB9F84C12}
+## Reset Logged-In User Password {#reset-logged-in-user-pw}
 
 A `PUT` method to reset the currently logged-in user. [!UICONTROL Audience Management] sends the user a system-generated password.
 
@@ -186,7 +186,7 @@ A `PUT` method to reset the currently logged-in user. [!UICONTROL Audience Manag
 
 Returns `200 OK` if successful.
 
-## Return User Object for a User ID {#reference_A88F770E70CE450BB861A48A422D5F83}
+## Return User Object for a User ID {#return-user-object-for-id}
 
 A `Get` method to return the user object for a User ID.
 
@@ -214,7 +214,7 @@ A `Get` method to return the user object for a User ID.
 }
 ```
 
-## Return User Object for Logged-In User {#reference_09DA0C887F144D66AFEE2358A168C9A3}
+## Return User Object for Logged-In User {#return-user-object-for-logged-in-user}
 
 A `Get` method to return the user object for the currently logged-in user.
 
@@ -246,7 +246,7 @@ A `Get` method to return the user object for the currently logged-in user.
 }
 ```
 
-## List Users {#reference_B8F8C13E96A64699B17D43E0F68F1202}
+## List Users {#list-users}
 
 A `GET` method to list users.
 
@@ -280,7 +280,7 @@ This query returns a list of all users in the specified groups.
 }
 ```
 
-## Delete a User {#reference_21157FBE8CAC4827853B0E4A2639890F}
+## Delete a User {#delete-users}
 
 A `DELETE` method to delete a user.
 

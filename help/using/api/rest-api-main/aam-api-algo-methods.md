@@ -18,7 +18,7 @@ Methods that let you work programmatically with algorithmic modeling features.
 >
 >* [Models](../../features/algorithmic-models/understanding-models.md#concept_49FB2DBD4AD041A4ABAAEE9D83BB996E)
 
-## Create a New Model {#reference_B4FB46FD007B44C382C132A694478022}
+## Create a New Model {#create-new-model}
 
 A `POST` method that lets you create a new algorithmic model.
 
@@ -127,7 +127,7 @@ A `POST` method that lets you create a new algorithmic model.
 >
 >* [Model Builder](../../features/algorithmic-models/create-model.md#concept_25287B0C161F4BFCBCCFEB5CC6E613D0)
 
-## Update a Model {#reference_96C246F8B89343D1A5120BAB1F42AFFF}
+## Update a Model {#update-model}
 
 A `PUT` method that lets you revise the model's name, description, and status.
 
@@ -178,7 +178,7 @@ All request values are required unless otherwise indicated. Model status setting
   }
 ```
 
-## Delete a Model {#reference_43224194DF444077BEA71BCBC99EA162}
+## Delete a Model {#delete-model}
 
 A `DELETE` method that removes a model from your collection.
 
@@ -192,7 +192,7 @@ A `DELETE` method that removes a model from your collection.
 
 Returns response code `204 No Content` if successful. Returns `400 Bad Request` if there are any active traits created with this model and returns those trait IDs in an array. Remove traits from the model (or delete them) before you delete a model.
 
-## Delete Models {#reference_CD68FC107BB445F0946D337355B5482B}
+## Delete Models {#bulk-delete-models}
 
 A `POST` method that lets you bulk delete multiple models.
 
@@ -241,7 +241,7 @@ A successful response returns response code `200 OK` and the list of algorithm I
 ]
 ```
 
-## Return Properties for an Algorithm by ID {#reference_4A08BA06F91B4DF7B0CDC307FD9B6425}
+## Return Properties for an Algorithm by ID {#get-algorithm-by-id}
 
 A `GET` method that returns algorithm details (ID, name, and description) based on the passed in algorithm ID. Currently, [!UICONTROL TraitWeight] (ID 1) is the only available algorithm.
 
@@ -263,7 +263,7 @@ A successful response returns response code `200 OK` and the algorithm ID, name,
 }
 ```
 
-## Return Properties for all Models {#reference_7F78115A684B46039F3D103B955D7215}
+## Return Properties for all Models {#get-all-models}
 
 A `GET` method that returns details about all your models.
 
@@ -275,7 +275,7 @@ A `GET` method that returns details about all your models.
 
 ### Optional Query Parameters
 
-You can use these optional parameters with [!DNL API] methods that return *all* properties for an object. Set these options in the request string when passing that query in to the [!DNL API]. See [Optional Parameters](../../api/rest-api-main/aam-api-getting-started.md#concept_BB1E73AE736F4F54830E6CAF28089608).  
+You can use these optional parameters with [!DNL API] methods that return *all* properties for an object. Set these options in the request string when passing that query in to the [!DNL API]. See [Optional Parameters](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).  
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -364,7 +364,7 @@ GET https://api.demdex.com/v1/models/?page=1&pageSize=2&search=Test
 ]
 ```
 
-## Return Properties for a Model by ID {#reference_D45022005DF74328BE53E83229ED5902}
+## Return Properties for a Model by ID {#get-models-id}
 
 A `GET` method that returns algorithmic model details based on the passed in model ID.
 
@@ -376,7 +376,7 @@ A `GET` method that returns algorithmic model details based on the passed in mod
 
 ### Sample Response
 
-A successful request returns details for the model. An unsuccessful request throws an exception and related [error code](../../api/rest-api-main/aam-api-getting-started.md#reference_2AC89154A26E49A48E0DDD8DA520757F).
+A successful request returns details for the model. An unsuccessful request throws an exception and related [error code](../../api/rest-api-main/aam-api-getting-started.md#response-codes-defined).
 
 ```
 { 
@@ -404,7 +404,7 @@ A successful request returns details for the model. An unsuccessful request thro
 
 ```
 
-## Return Properties for Your Most Accurate Traits {#reference_CD65B34911AD42A9AD3B92568607FFC3}
+## Return Properties for Your Most Accurate Traits {#get-traits-accuracy}
 
 A `GET` method that returns a list of your most influential (accurate) traits.
 
@@ -416,7 +416,7 @@ A `GET` method that returns a list of your most influential (accurate) traits.
 
 ### Optional Query Parameters
 
-You can use these optional parameters with [!DNL API] methods that return *all* properties for an object. Set these options in the request string when passing that query in to the [!DNL API]. See also [Optional Parameters](../../api/rest-api-main/aam-api-getting-started.md#concept_BB1E73AE736F4F54830E6CAF28089608).  
+You can use these optional parameters with [!DNL API] methods that return *all* properties for an object. Set these options in the request string when passing that query in to the [!DNL API]. See also [Optional Parameters](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).  
 
 <table id="table_0627C325E6FF4FE28ED8A0458C7ECB48"> 
  <thead> 
@@ -519,7 +519,7 @@ You can use these optional parameters with [!DNL API] methods that return *all* 
 }
 ```
 
-## Return Accuracy and Reach Values for a Model {#reference_306F74B5E24347A19BFC54AB0D4FF169}
+## Return Accuracy and Reach Values for a Model {#get-accuracy-reach}
 
 A `GET` method that returns accuracy and reach values for your algorithmic model.
 
@@ -552,7 +552,7 @@ A `GET` method that returns accuracy and reach values for your algorithmic model
 ]
 ```
 
-## Return Processing Timestamp {#reference_CB6EAF4D9090428C9E6949A9AE14BD1E}
+## Return Processing Timestamp {#return-processing-timestamp}
 
 A `GET` method that returns an array of [!DNL UNIX] time stamps ([!DNL UTC]) of successful data runs for your model.
 

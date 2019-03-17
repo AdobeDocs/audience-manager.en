@@ -11,7 +11,7 @@ uuid: 0b98ed11-314b-4500-afde-45a041112150
 
 Lists and describes the syntax and supported attributes (or key-value pairs) you can pass in to the [!UICONTROL Data Collection Servers] ([!UICONTROL DCS]). This information can help you format your [!UICONTROL DCS] requests and understand the parameters returned by this system.
 
-## Attribute Prefixes {#section_C40587830EFD4669AE9DAB5C6513CD9A}
+## Attribute Prefixes {#attribute-prefixes}
 
 The [!UICONTROL DCS] relies on specific prefixes added to the keys in key-value pairs to classify the type of data you're passing in.
 
@@ -42,7 +42,7 @@ The [!UICONTROL DCS] relies on specific prefixes added to the keys in key-value 
  </tbody> 
 </table>
 
-## d_ Attributes {#section_B5B16D42E2004AF3ABCE25FFFEB0FF28}
+## d_ Attributes {#d-attributes}
 
 All of these are optional, unless you want a response from the [!UICONTROL DCS]. If you want the [!UICONTROL DCS] to return a response, then `d_rtbd=json` is required.
 

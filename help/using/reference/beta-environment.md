@@ -39,7 +39,7 @@ Added re: AAM-30826.
 |S3|Contact your Audience Manager Partner Solutions representative or Customer Care| Contact your Audience Manager Partner Solutions representative or Customer Care to set up an Amazon S3 bucket for your beta instance. Read about the [advantages of using Amazon S3](../reference/amazon-s3.md). |
 |DCS|`https://dcs-beta.demdex.net/...`| See [Accessing the DCS in the Beta Environment](../reference/beta-environment.md#access-dcs-beta-environment). |
 |UI|`https://bank-beta.demdex.com`| Your production environment credentials are valid for the beta environment. |
-|API|`https://api-beta.demdex.com/...`| Your production environment credentials are valid for the beta environment. We recommend that you create a generic API user, [see details](../api/rest-api-main/aam-api-getting-started.md#section_F520E4C007904BB78EC694E5A9A46E0A). |
+|API|`https://api-beta.demdex.com/...`| Your production environment credentials are valid for the beta environment. We recommend that you create a generic API user, [see details](../api/rest-api-main/aam-api-getting-started.md#requirements). |
 
 ## Accessing the DCS in the Beta Environment {#access-dcs-beta-environment}
 

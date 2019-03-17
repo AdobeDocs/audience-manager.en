@@ -44,7 +44,7 @@ s.AudienceManagement.setup({
 
 >[!TIP]
 >
->The `audienceManagement.setup` function shares parameters with the Audience Manager `DIL.create` function, which you can configure in this code. For more information about these parameters, see [DIL create](../../dil/dil-class-overview/dil-create.md#reference_F87131F6C1CC4ECCA064B24B91710FD4).
+>The `audienceManagement.setup` function shares parameters with the Audience Manager `DIL.create` function, which you can configure in this code. For more information about these parameters, see [DIL create](../../dil/dil-class-overview/dil-create.md#dil-create).
 
 ## Code Elements Defined {#section_C96852A88A0E449090E83A0D65E8129C}
 

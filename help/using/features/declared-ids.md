@@ -48,7 +48,7 @@ Some browsers, and most mobile devices, do not accept third-party cookies. This 
  </tbody>
 </table>
 
-To get started, you need to configure the [!DNL Experience Cloud] ID service and [!UICONTROL DIL] across the pages on your site that you want to use for data collection. See [DIL create](../dil/dil-class-overview/dil-create.md#reference_F87131F6C1CC4ECCA064B24B91710FD4) and [Declared ID Variables](../features/declared-ids.md#declared-id-variables).
+To get started, you need to configure the [!DNL Experience Cloud] ID service and [!UICONTROL DIL] across the pages on your site that you want to use for data collection. See [DIL create](../dil/dil-class-overview/dil-create.md#dil-create) and [Declared ID Variables](../features/declared-ids.md#declared-id-variables).
 
 ## Opt-out Calls {#opt-out-calls}
 

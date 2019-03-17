@@ -13,7 +13,7 @@ Domain management methods that let you create and manage the domains to which yo
 
 <!-- c_partner_site.xml -->
 
-## Create a New Domain {#reference_C332B8E339504884999ECC5314EF68A1}
+## Create a New Domain {#create-new-domain}
 
 A `POST` method that lets you create a new domain for (cookie destinations only).
 
@@ -57,7 +57,7 @@ A `DELETE` method that lets you remove a domain (for cookie destinations only).
 
 A successful response returns `204 no content`. Returns `404 not found` if the partner site cannot be found.
 
-## Return Properties for a Domain {#reference_6B9BD9A4B15040429F3F9AE0BC6787FE}
+## Return Properties for a Domain {#return-props-domain}
 
 A `GET` method that returns details about the specified domain (for cookie destinations only).
 
@@ -79,7 +79,7 @@ A successful response returns `200 OK` and data as shown in the sample below. Re
 }
 ```
 
-## Return Properties for all Domains {#reference_9EF522F1270E4AD1AC84F862716750DD}
+## Return Properties for all Domains {#return-props-all-domains}
 
 A `GET` method that returns information about all your domains (for cookie destinations only).
 
@@ -91,7 +91,7 @@ A `GET` method that returns information about all your domains (for cookie desti
 
 ### Optional Query Parameters
 
-You can use these optional parameters with [!DNL API] methods that return *all* properties for an object. Set these options in the request string when passing that query in to the [!DNL API]. See [Optional Parameters](../../api/rest-api-main/aam-api-getting-started.md#concept_BB1E73AE736F4F54830E6CAF28089608).  
+You can use these optional parameters with [!DNL API] methods that return *all* properties for an object. Set these options in the request string when passing that query in to the [!DNL API]. See [Optional Parameters](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).  
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 

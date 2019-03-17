@@ -45,7 +45,7 @@ Returns `200 OK` if successful.
 
 For a list of regions and their corresponding integers, see [DCS Region IDs, Locations, and Host Names](../../api/dcs-intro/dcs-api-reference/dcs-regions.md#concept_01C1E017A6694D1EAF9BF65BFFA54091). 
 
-## List DCS Regions {#reference_D9532CB364824BCFABE58F39EA6928F6}
+## List DCS Regions {#list-dcs-regions}
 
 A `GET` method to list [!UICONTROL DCS] regions.
 

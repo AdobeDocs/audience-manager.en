@@ -13,11 +13,9 @@ Information about general requirements, authentication, optional query parameter
 
 <!-- c_rest_api_overview.xml -->
 
-## [!DNL API] Requirements and Recommendations {#concept_A7FAC9443CF34974A873E6B787616421}
+## API Requirements and Recommendations {#requirements}
 
 Things you must and should do when working with the Audience Manager [!DNL API]s.
-
-## Requirements {#section_42B2E4780AD440C58A25ED0FBC50B78A}
 
 <!-- aam-api-requirements.xml -->
 
@@ -32,7 +30,7 @@ Note the following when working with [Audience Manager API](https://bank.demdex.
 
 * **Documentation and code samples:** Text in *italics* represents a variable that you provide or pass in when making or receiving [!DNL API] data. Replace *italicised* text with your own code, parameters, or other required information.
 
-## Recommendations: Create a Generic API User {#section_F520E4C007904BB78EC694E5A9A46E0A}
+## Recommendations: Create a Generic API User {#requirements}
 
 We recommend you create a separate, technical user account for working with the Audience Manager [!DNL API]s. This is a generic account that is not tied to or associated with a specific user in your organization. This type of [!DNL API] user account helps you accomplish 2 things:
 
@@ -43,11 +41,11 @@ As an example or use case for this type of account, let's say you want to change
 
 Work with your Audience Manager consultant to set up a generic, [!DNL API]-only user account.
 
-## [!DNL OAuth] Authentication {#concept_426EEF5C102049B08C8ECF90FCB41796}
+## OAuth Authentication {#oauth}
 
 The Audience Manager [!UICONTROL REST API] follows [!DNL OAuth 2.0] standards for token authentication and renewal. The sections below describe how to authenticate and start working with the [!DNL API]s.
 
-## Password Authentication Workflow {#section_E8C9602AFAAC45D782D72E8ED7F5EFB1}
+## Password Authentication Workflow {#password-authentication-workflow}
 
 <!-- oath-authentication.xml -->
 
@@ -89,7 +87,7 @@ The [!DNL JSON] response contains your access token. The response should look li
 
 The "expires\_in" key represents the number of seconds until the access token expires. As best practice, use short expiration times to limit exposure if the token is ever exposed.
 
-## Refresh Token {#section_6671766BA28A4EADB5925F56267B343E}
+## Refresh Token {#refresh-token}
 
 Refresh tokens renew [!DNL API] access after the original token expires. If requested, the response [!DNL JSON] in the password workflow includes a refresh token. If you don't receive a refresh token, create a new one through the password authentication process.
 
@@ -124,7 +122,7 @@ The [!DNL JSON] response contains your new access token. The response should loo
 }
 ```
 
-## Authorization Code and Implicit Authentication {#section_315C16DF045C4E73B81426CD98EA730B}
+## Authorization Code and Implicit Authentication {#authentication-code-implicit}
 
 The Audience Manager [!UICONTROL REST API] supports authorization code and implicit authentication. To use these access methods, your users need to log in to `https://api.demdex.com/oauth/authorize` to get access and refresh tokens.
 
@@ -133,7 +131,7 @@ The Audience Manager [!UICONTROL REST API] supports authorization code and impli
 >* [OAuth 2.0](https://oauth.net/2/)
 >* [OAuth 2 Simplified](https://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified#browser-based-apps)
 
-## Make Authenticated API Requests {#concept_1A4B53C4554C4B0396499997EECCBDB9}
+## Make Authenticated API Requests {#authenticated-api-requests}
 
 Requirements for calling [!DNL API] methods after you receive an authentication token.
 
@@ -146,9 +144,9 @@ To make calls against the available [!DNL API] methods:
 
 >[!MORE_LIKE_THIS]
 >
->* [OAuth Authentication](../../api/rest-api-main/aam-api-getting-started.md#concept_426EEF5C102049B08C8ECF90FCB41796)
+>* [OAuth Authentication](../../api/rest-api-main/aam-api-getting-started.md#oauth)
 
-## Optional API Query Parameters {#concept_BB1E73AE736F4F54830E6CAF28089608}
+## Optional API Query Parameters {#optional-api-query-parameters}
 
 Set the optional parameters available to methods that return all properties for an object.
 
@@ -175,13 +173,13 @@ When page information *is not* specified, the request returns plain [!DNL JSON] 
 GET https://api.demdex.com/v1/models/?page=1&pageSize=2&search=Test
 ```
 
-## [!DNL API] URLs {#reference_B6E2ECCB46834DF597BBAE3BEBD7BE4D}
+## API URLs {#api-urls}
 
 [!DNL URLs] for requests, staging and production environments, and versions.
 
 <!-- r_rest_urls.xml -->
 
-## Request URLs {#section_2DBA5BD10E8B4E0DBD51BD36055C5013}
+## Request URLs {#request-urls}
 
 The following table lists the request URLs used to pass in [!DNL API] requests, by method.
 
@@ -199,7 +197,7 @@ The following table lists the request URLs used to pass in [!DNL API] requests, 
 |Trait Types|`https://api.demdex.com/v1/customer-trait-types`|
 |Taxonomy|`https://api.demdex.com/v1/taxonomies/0/`|
 
-## Environments {#section_5B33F1445F9C49C896C4E9240B5F0CCD}
+## Environments {#environments}
 
 The [!DNL Audience Manager] [!DNL API]s provide access to different working environments. These environments help you test code against separate databases without affecting live, production data. The following table lists the available [!DNL API] environments and corresponding resource hostnames.
 
@@ -218,7 +216,7 @@ New versions of these [!DNL API]s are released on a regular schedule. A new rele
 
 `https://<host>/v1/...`
 
-## Response Codes Defined {#reference_2AC89154A26E49A48E0DDD8DA520757F}
+## Response Codes Defined {#response-codes-defined}
 
 `HTTP` status codes and response text returned by the Audience Manager [!UICONTROL REST API].
 

@@ -186,15 +186,15 @@ user-guide-title: Audience Manager User Guide
             + [DCS APIs for Server-to-Server Data Transfers](api/dcs-intro/dcs-s2s/dcs-s2s.md)
             + [Get User IDs and Regions From a DCS   Response](api/dcs-intro/dcs-s2s/dcs-aam-ids.md)
             + [Get User IDs and Regions Through the Experience Cloud ID...](api/dcs-intro/dcs-s2s/dcs-mcid-ids.md)
-            + [Making    Server-to-Server   DCS API Calls](api/dcs-intro/dcs-s2s/dcs-s2s-calls.md)
+            + [Making Server-to-Server DCS API Calls](api/dcs-intro/dcs-s2s/dcs-s2s-calls.md)
         + DCS API Reference{#dcs-api-reference}
             + [DCS API Methods](api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
             + [DCS Error Codes, Messages, and Examples](api/dcs-intro/dcs-api-reference/dcs-error-codes.md)
             + [ID Monitoring and Blacklisting](api/dcs-intro/dcs-api-reference/id-monitoring-blacklisting.md)
             + [DCS Region IDs, Locations, and Host Names](api/dcs-intro/dcs-api-reference/dcs-regions.md)
-            + [Formatting Key-Value Pairs in    DCS Calls](api/dcs-intro/dcs-api-reference/dcs-key-format.md)
+            + [Formatting Key-Value Pairs in DCS Calls](api/dcs-intro/dcs-api-reference/dcs-key-format.md)
             + [Race Conditions and Error Handling](api/dcs-intro/dcs-api-reference/dcs-race-conditions.md)
-            + [Supported Attributes for    DCS API Calls](api/dcs-intro/dcs-api-reference/dcs-keys.md)
+            + [Supported Attributes for DCS API Calls](api/dcs-intro/dcs-api-reference/dcs-keys.md)
     + REST APIs{#rest-apis}
         + [REST APIs Overview](api/rest-api-main/rest-api-main.md)
         + [Getting Started with REST APIs](api/rest-api-main/aam-api-getting-started.md)

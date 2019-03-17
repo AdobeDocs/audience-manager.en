@@ -9,7 +9,7 @@ uuid: 6e054600-703c-4a97-af2a-8207c50013db
 
 # DIL create method{#dil-create}
 
-## DIL create {#reference_F87131F6C1CC4ECCA064B24B91710FD4}
+## DIL create {#dil-create}
 
 Creates a partner-specific [!UICONTROL DIL] instance. 
 
@@ -93,7 +93,7 @@ r_dil_create.xml
   <tr> 
    <td colname="col1"> <p> <code> mappings </code> </p> </td> 
    <td colname="col2"> <p>Object </p> </td> 
-   <td colname="col3"> <p>Associates the value from one key-value pair to another. See <a href="../../dil/dil-use-cases.md#concept_7FE441F32458474286DB9582DF791F1B"> Map Key Values to Other Keys </a>. Released with v2.4. </p> </td> 
+   <td colname="col3"> <p>Associates the value from one key-value pair to another. See <a href="../../dil/dil-use-cases.md#map-key-values"> Map Key Values to Other Keys </a>. Released with v2.4. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> namespace </code> </p> </td> 

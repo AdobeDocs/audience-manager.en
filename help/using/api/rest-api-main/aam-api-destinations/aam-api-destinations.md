@@ -15,7 +15,7 @@ Methods that let you work programmatically with destination features.
 
 In Audience Manager, a destination is any other system (ad server, [!DNL DSP], ad network, exchange, your own first-party cookie, etc.) that you want to share data with.
 
-## Destination Types: URL and Cookie {#reference_279437B2EC9143B6B653874C80A79B54}
+## Destination Types: URL and Cookie {#destination-types}
 
 Lists the variables used by the `destinationType` parameter. Specify `push` or `ADS` to work with a [!UICONTROL URL] or [!UICONTROL cookie destination]. You cannot create [!UICONTROL server-to-server destinations] with the available destination [!DNL API] methods.
 

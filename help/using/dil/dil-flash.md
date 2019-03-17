@@ -19,7 +19,7 @@ c_flash_dil_toc.xml
 
 [!UICONTROL Flash DIL] is an [!DNL ActionScript] code library that lets you work with video playback data in Audience Manager. [!DNL Flash DIL] works by capturing SWF content the Adobe [!UICONTROL AppMeasurement] library passes in to Analytics. [!DNL Flash DIL] sends that data to the separate [!UICONTROL DIL] JavaScript data collection module, which passes that information to Audience Manager. Analytics data ( [!UICONTROL Props], [!UICONTROL eVars], events, etc.) captured from the [!DNL FLA] file is available in Audience Manager as traits or unused signals. 
 
-## Requirements for Flash DIL Data Collection {#concept_4ABD8B608CCE4920B65DDD7C8319D2A3}
+## Requirements for Flash DIL Data Collection {#requirements}
 
 General implementation and code-related requirements.
 
@@ -36,7 +36,7 @@ c_flash_dil_intro.xml
 * The [!UICONTROL DIL] class library ( `dil.swc`). Obtain the [!UICONTROL DIL] class library from your Partner Solutions contact. 
 
 * JavaScript [!UICONTROL DIL] data collection code on the page. 
-* [DIL ActionScript library](../dil/dil-flash.md#reference_601A61BDC2A946048AD308ECFDF7F1F5) loaded in the Flash object you want to collect data from. 
+* [DIL ActionScript library](../dil/dil-flash.md#flash-dil-actionscript) loaded in the Flash object you want to collect data from. 
 * Adobe [!DNL AppMeasurement] [!DNL AS] library (version 3.5.2, or later) loaded the [!DNL Flash] object you want to collect data from.
 
 **Set AllowScriptAccess to `Always` or `sameDomain`**
@@ -47,7 +47,7 @@ The `AllowScriptAccess` in HTML code that loads a SWF file controls the ability 
 
 Try to place the JS [!UICONTROL DIL] data collection module on the page so it loads before the [!DNL FLA] file. When the [!DNL FLA] file loads first, before [!UICONTROL DIL] data collection is ready, you can miss the initial data signals that [!UICONTROL Flash DIL] sends to that module. However, once instantiated, the [!UICONTROL DIL] data collection module will capture all subsequent SWF file data passed in by [!UICONTROL Flash DIL]. 
 
-## Data Collected by Flash DIL {#reference_C04E633B1E5A4674A808C4CD8A35B48A}
+## Data Collected by Flash DIL {#data-collected}
 
 [!UICONTROL Flash DIL] captures page view, link tracking, media tracking, and other media view events from the Adobe [!UICONTROL AppMeasurement] library.
 
@@ -95,7 +95,7 @@ Data from these parameters is collected by default:
 >
 >* [AppMeasurement Flash, Flex, and OSMF Implementation Guide](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/flash/)
 
-## Flash DIL Data in Audience Manager {#concept_6CB7727B74A5432DA2FE3B8386441F12}
+## Flash DIL Data in Audience Manager {#flash-dil-data}
 
 The [!UICONTROL Flash DIL] module turns Adobe AppMeasurement data into Audience Management traits and unused signals.
 
@@ -122,7 +122,7 @@ See the table for examples:
 |  **evar** | `v35=bar`  | `c_evar=bar`  |
 |  **events** | `events=event10`  | `c_events=event10`  |
 
-**[!UICONTROL Flash DIL]/Analytics Data as Unused Signals**
+**DIL/Analytics Data as Unused Signals**
 
 Audience Manager accepts Analytics [!UICONTROL Props], [!UICONTROL eVars], and events even without a corresponding trait. In this case, the data is unavailable for trait creation and appears in the [Unused Signals report](../reporting/dynamic-reports/unused-signals.md#concept_D3A6A3AD84AE47589699A13A8F971BE0) instead. To make the most of this information, create Audience Manager traits that match the Analytics data passed in by the [!UICONTROL Flash DIL] library. 
 
@@ -133,7 +133,7 @@ Audience Manager accepts Analytics [!UICONTROL Props], [!UICONTROL eVars], and e
 >* [Key-Value Pairs Explained](../reference/key-value-pairs-explained.md#concept_E4236E003076483AA939791FE2492B49)
 >* [Prefix Requirements for Key Variables](../features/traits/trait-variable-prefixes.md#reference_E6F1E4257F664FC2A797C406BF147ABC)
 
-## Flash DIL ActionScript Library {#reference_601A61BDC2A946048AD308ECFDF7F1F5}
+## Flash DIL ActionScript Library {#flash-dil-actionscript}
 
 Code for your [!DNL Flash] object to send Analytics data to Audience Management.
 
