@@ -9,7 +9,7 @@ uuid: 6e054600-703c-4a97-af2a-8207c50013db
 
 # DIL create method{#dil-create}
 
-## DIL create {#dil-create}
+## DIL create {#dil-create-new}
 
 Creates a partner-specific [!UICONTROL DIL] instance. 
 
@@ -113,7 +113,7 @@ r_dil_create.xml
   <tr> 
    <td colname="col1"> <p> <code> uuidCookie </code> </p> </td> 
    <td colname="col2"> <p>Object </p> </td> 
-   <td colname="col3"> <p>Sets a cookie with the unique user ID returned from <span class="keyword"> Audience Manager </span>. See <a href="../../dil/dil-class-overview/dil-create.md#reference_37603D122464476BBC1CCF8B047AF0C6"> uuidCookie Properties </a>. </p> </td> 
+   <td colname="col3"> <p>Sets a cookie with the unique user ID returned from <span class="keyword"> Audience Manager </span>. See <a href="../../dil/dil-class-overview/dil-create.md#uuidcookie-props"> uuidCookie Properties </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> visitorService </code> </p> </td> 
@@ -154,7 +154,7 @@ var partnerObject2 = DIL.create({
 
 A successful response returns the [!UICONTROL DIL] instance. An unsuccessful attempt returns an error object (not thrown) if your code is configured improperly or whenever an error is encountered. 
 
-## uuidCookie Properties {#reference_37603D122464476BBC1CCF8B047AF0C6}
+## uuidCookie Properties {#uuidcookie-props}
 
 Defines the properties used by the `uuidCookie` variable. This variable is part of the `DIL.create` method. 
 
@@ -174,7 +174,7 @@ r_dil_uuid_cookie.xml
 |  `domain`  | The domain the cookie is set in, e.g., `'adobe.com'` ( `'.'+document.domain` is default).  |
 |  `secure`  | Sets a flag to send data over an HTTPS connection only.  |
 
-## visitorService Properties {#reference_963F24971BE340AFB077583DABF55C40}
+## visitorService Properties {#visitor-service-props}
 
 Defines the properties used by the `visitorService` variable. This variable is part of the `DIL.create` method. 
 
