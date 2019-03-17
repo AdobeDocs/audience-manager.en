@@ -20,7 +20,7 @@ Choosing the right integration method depends on a combination of business requi
 
 ## Prerequisites: Create a Trait Taxonomy {#section_DE0B17CD8E7A494EA27D10C5394D6F14}
 
-Before the integration process begins, remember to [create traits](../features/traits/create-onboarded-rule-based-traits.md#concept_98DD94EF9AA24422BA17B8D0760542DF) and a [folder structure](../features/traits/trait-storage.md#task_5DC0C9CC9BAD4698A830EB04679C116E) in the [!DNL Audience Manager] UI. The taxonomy will contain all your traits organized in a logical hierarchy.
+Before the integration process begins, remember to [create traits](../features/traits/create-onboarded-rule-based-traits.md#concept_98DD94EF9AA24422BA17B8D0760542DF) and a [folder structure](../features/traits/trait-storage.md#create-trait-storage-folder) in the [!DNL Audience Manager] UI. The taxonomy will contain all your traits organized in a logical hierarchy.
 
 ## Integration Use Cases {#concept_F75CB26BC3B64FBC9732F24563055466}
 

@@ -13,12 +13,12 @@ uuid: 07e0a639-2fb2-45d8-bad7-10fb46b08ba9
 Trait qualification, or trait realization, is treated differently in Audience Manager, depending on trait type. See the table below for detailed information on trait qualification.
 
 <ul class="simplelist"> 
- <li> <a href="../../features/traits/trait-qualification-reference.md#section_0659B10780B74120BCB41C01B0CDC7FF"> Trait Qualification by Trait Type </a> </li> 
- <li><a href="../../features/traits/trait-qualification-reference.md#section_37003E4C35A8484D8096C9970CB12E56"> Unique Trait Realizations and Total Trait Population</a> </li> 
- <li><a href="../../features/traits/trait-qualification-reference.md#section_CA54FECC85114000A1907C1D4535AB2D"> Trait Qualification Limit </a> </li> 
+ <li> <a href="../../features/traits/trait-qualification-reference.md#trait-type"> Trait Qualification by Trait Type </a> </li> 
+ <li><a href="../../features/traits/trait-qualification-reference.md#unique-trait-realizations"> Unique Trait Realizations and Total Trait Population</a> </li> 
+ <li><a href="../../features/traits/trait-qualification-reference.md#trait-qualification-limit"> Trait Qualification Limit </a> </li> 
 </ul>
 
-## Trait Qualification by Trait Type {#section_0659B10780B74120BCB41C01B0CDC7FF}
+## Trait Qualification by Trait Type {#trait-type}
 
 <table id="table_14CD705F376B44EEA9A6C011984356F0"> 
  <thead> 
@@ -51,7 +51,7 @@ Trait qualification, or trait realization, is treated differently in Audience Ma
  </tbody>
 </table>
 
-## Unique Trait Realizations and Total Trait Population {#section_37003E4C35A8484D8096C9970CB12E56}
+## Unique Trait Realizations and Total Trait Population {#unique-trait-realizations}
 
 ![](assets/utr-ttp1.png)
 
@@ -65,6 +65,6 @@ Because we run two different computational jobs to calculate the two populations
 
 To further drive the point home, if you experienced a spike of 10,000 visitors right now, they would show up in tomorrow's [!UICONTROL Unique Trait Realizations], but would only show up 24 hours later in the [!UICONTROL Total Trait Population].
 
-## Trait Qualification Limit {#section_CA54FECC85114000A1907C1D4535AB2D}
+## Trait Qualification Limit {#trait-qualification-limit}
 
 We enforce a limit of 150,000 trait qualifications for each user profile, whether it is an authenticated profile ( [DPUUID](../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8)) or a device ID ( [UUID](../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8)). Note that while the DPUUIDs are unique to a specific instance of [!DNL Audience Manager], UUIDs are shared across the [!DNL Audience Manager] platform. For [!UICONTROL UUID]s, we impose a fairness policy when storing trait qualifications. An algorithm ensures that an equal share of the [!UICONTROL UUID] profile is made available for every instance of [!DNL Audience Manager].

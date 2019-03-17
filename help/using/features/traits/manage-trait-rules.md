@@ -30,7 +30,7 @@ In [!UICONTROL Trait Builder], the [!UICONTROL Expression Builder] lets you crea
    >This option is only available for [!UICONTROL Data Explorer] customers. Contact your Adobe consultant for details.
 1. The test fields let you validate combinations of signal rules or the [!DNL URL]s that you want to use when sending data to Audience Manager.
 
-## Create a Trait Rule {#task_5A20AA9D87284DB49BE5D1DF0717F949}
+## Create a Trait Rule {#create-trait-rule}
 
 Rules (or expressions) consist of individual or groups of key-value pairs. Comparison operators set the relationship between key-value pairs. To create a rule,provide a key, a value, select an operator, and click **[!UICONTROL Add Rule]**.
 
@@ -48,7 +48,7 @@ Complete the required fields in the **[!UICONTROL Basic Information]** section *
    >The [!DNL Boolean] [!UICONTROL OR] operator establishes the relationship between multiple signals *within* a group and cannot be changed.
 1. Click **[!UICONTROL Add Rule]**. The saved rule appears in the traits workspace above the data entry fields.
 
-### Example {#example_23FEFF7C30884286946785DD33200062}
+### Example {#example-trait-rule}
 
 In the example below, a user has created a new trait rule based on the product ID. To build this rule, the user provided the key `productkey` linked with an equals operator ( `==`) to the value `2093`.
 ![](assets/tb_sample_rule1.png)
@@ -59,11 +59,11 @@ Clicking **[!UICONTROL Add Rule]** saves and moves the trait into the [!UICONTRO
 
 >[!MORE_LIKE_THIS]
 >
->* [Create a New Rule Group](../../features/traits/manage-trait-rules.md#task_9BEF4C9F33504DB8B78A6C4E1C7D0A3D)
->* [Move Rules Between Groups](../../features/traits/manage-trait-rules.md#task_4225B7CB164C4ECFB30F1315C60EC4B3)
->* [Delete a Trait Rule](../../features/traits/manage-trait-rules.md#task_59C7044CC983478E979566BEC5F793A8)
+>* [Create a New Rule Group](../../features/traits/manage-trait-rules.md#create-rule-group)
+>* [Move Rules Between Groups](../../features/traits/manage-trait-rules.md#move-rules-between-groups)
+>* [Delete a Trait Rule](../../features/traits/manage-trait-rules.md#delete-trait)
 
-## Create a New Rule Group {#task_9BEF4C9F33504DB8B78A6C4E1C7D0A3D}
+## Create a New Rule Group {#create-rule-group}
 
 This procedure describes how to create a new rule group.
 
@@ -81,21 +81,21 @@ Your trait must contain at least two rules before you can create a new rule grou
 
 >[!MORE_LIKE_THIS]
 >
->* [Create a Trait Rule](../../features/traits/manage-trait-rules.md#task_5A20AA9D87284DB49BE5D1DF0717F949)
->* [Move Rules Between Groups](../../features/traits/manage-trait-rules.md#task_4225B7CB164C4ECFB30F1315C60EC4B3)
->* [Delete a Trait Rule](../../features/traits/manage-trait-rules.md#task_59C7044CC983478E979566BEC5F793A8)
+>* [Create a Trait Rule](../../features/traits/manage-trait-rules.md#create-trait-rule)
+>* [Move Rules Between Groups](../../features/traits/manage-trait-rules.md#move-rules-between-groups)
+>* [Delete a Trait Rule](../../features/traits/manage-trait-rules.md#delete-trait)
 
-## Move Rules Between Groups {#task_4225B7CB164C4ECFB30F1315C60EC4B3}
+## Move Rules Between Groups {#move-rules-between-groups}
 
 To move a rule, click and drag it to another group.
 
 >[!MORE_LIKE_THIS]
 >
->* [Create a Trait Rule](../../features/traits/manage-trait-rules.md#task_5A20AA9D87284DB49BE5D1DF0717F949)
->* [Create a New Rule Group](../../features/traits/manage-trait-rules.md#task_9BEF4C9F33504DB8B78A6C4E1C7D0A3D)
->* [Delete a Trait Rule](../../features/traits/manage-trait-rules.md#task_59C7044CC983478E979566BEC5F793A8)
+>* [Create a Trait Rule](../../features/traits/manage-trait-rules.md#create-trait-rule)
+>* [Create a New Rule Group](../../features/traits/manage-trait-rules.md#create-rule-group)
+>* [Delete a Trait Rule](../../features/traits/manage-trait-rules.md#delete-trait)
 
-## Edit a Trait {#task_F8858067BFEF47CB95C892B94CC39CD1}
+## Edit a Trait {#edit-trait}
 
 This procedure describes how to edit a trait.
 
@@ -106,7 +106,7 @@ This procedure describes how to edit a trait.
 
    ![](assets/tb_edit_trait.png)
 
-## Delete a Trait Rule {#task_59C7044CC983478E979566BEC5F793A8}
+## Delete a Trait Rule {#delete-trait}
 
 This procedure describes how to delete a trait rule.
 

@@ -14,7 +14,7 @@ Describes set up steps and features specific to the [!UICONTROL rules-based] and
 
 <!-- c_tb_rules_traits.xml -->
 
-## Basic Information for Traits {#concept_D80233EF56764376B0F4C4FF882BAD2E}
+## Basic Information for Traits {#basics}
 
 In [!UICONTROL Trait Builder], the [!UICONTROL Basic Information] settings let you create new, or edit existing traits. The [!UICONTROL Basic Information] settings are the same for rules-based, onboarded and algorithmic traits. To create a new trait, provide a name (avoid special characters), a data source, and select a storage folder. Other [!UICONTROL Basic Information] fields are optional.
 
@@ -72,7 +72,7 @@ In [!UICONTROL Trait Builder], the [!UICONTROL Basic Information] settings let y
  </tbody> 
 </table>
 
-## Set a Trait Expiration Interval {#task_F17639E26C2744A0942461FCCD4D4DC7}
+## Set a Trait Expiration Interval {#set-expiration-interval}
 
 In [!UICONTROL Trait Builder], the [!UICONTROL Advanced Options] lets you set a time-to-live ([!DNL TTL]) interval for a trait. [!DNL TTL] defines how many days a qualified visitor remains in a trait (120 days is default). When set to 0, trait membership never expires.
 

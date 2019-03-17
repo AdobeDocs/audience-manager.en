@@ -7,7 +7,7 @@ title: Trait Storage
 uuid: e72685ee-0c64-44a4-a8e2-d6ee5c968ba0
 ---
 
-# Trait Storage {#concept_492988EC858545AAA5D1B8F06D273BDD}
+# Trait Storage {#trait-storage}
 
 Trait storage folders store and help you organize traits.
 
@@ -19,7 +19,7 @@ In [!UICONTROL Trait Builder], trait storage folders are directories that hold a
 
 ![](assets/tb_storage.png)
 
-## Create a Trait Storage Folder {#task_5DC0C9CC9BAD4698A830EB04679C116E}
+## Create a Trait Storage Folder {#create-trait-storage-folder}
 
 This procedure describes how to create a storage folder for your traits.
 
@@ -35,7 +35,7 @@ To create a new storage folder:
 1. Click the + icon to create the folder.
 1. Name the folder and click **[!UICONTROL Save]**.
 
-## Rename or Delete a Trait Storage Folder {#task_0A123EBA0E7D4DC68C027936CBC77711}
+## Rename or Delete a Trait Storage Folder {#rename-delete-trait-storage-folder}
 
 This procedure describes how to rename or delete a storage folder.
 

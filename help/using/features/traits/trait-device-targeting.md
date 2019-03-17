@@ -11,13 +11,13 @@ uuid: bc048cc5-3df1-49bc-ac78-0ea5d7edd9cc
 
 Describes the common platform-level key-value pairs you can use to target users with device-related variables across all properties in your Audience Manager account.
 
-## Purpose of Platform-level Variables {#section_57C422B2079C480B907279D5B57A6AEF}
+## Purpose of Platform-level Variables {#platform-variables}
 
 <!-- c_tb_device_targeting.xml -->
 
 Platform-level variables let you take data passed in from a particular site and make it available for targeting across all the properties in your [!DNL Audience Manager] account. These variables are formed by [key-value pairs](../../reference/key-value-pairs-explained.md#concept_E4236E003076483AA939791FE2492B49) with the key prefixed by `d_` as shown below.
 
-## Platform-level Keys Defined by User Agent {#section_BF1FD752F0CF4C8E9326F25F2B9D2136}
+## Platform-level Keys Defined by User Agent {#keys-user-agent}
 
 The [!UICONTROL Data Collection Servers] extract the values for these keys from the [user agent header](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43) in `HTTP` requests. The values represent device-level information from the [!UICONTROL Device Atlas] database. The signals in the table below are available, as extracted from the user agent example. [Download a list of the most common keys](assets/device_keys.csv), according to [!UICONTROL Device Atlas] measurements.
 

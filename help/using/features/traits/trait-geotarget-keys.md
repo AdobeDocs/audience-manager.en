@@ -13,15 +13,15 @@ Describes the common platform-level key-value pairs you can use to target users 
 
 <!-- c_tb_platform_vars.xml -->
 
-## Purpose of Platform-level Variables {#section_57C422B2079C480B907279D5B57A6AEF}
+## Purpose of Platform-level Variables {#platform-variables}
 
 Platform-level variables let you take data passed in from a particular site and make it available for targeting across all the properties in your [!DNL Audience Manager] account. These variables are formed by [key-value pairs](../../reference/key-value-pairs-explained.md#concept_E4236E003076483AA939791FE2492B49) with the key prefixed by `d_` as shown below.
 
-## Adding Values to Platform Level Keys {#section_1BAF23A099FF40CEB67DFC330BCB8D53}
+## Adding Values to Platform Level Keys {#adding-values}
 
 For some platform-level keys, you can specify the value yourself. With others, the keys are associated with corresponding [!DNL IP] addresses passed in on an event call. In either case, you still need to specify the value when building traits in [!UICONTROL Trait Builder].
 
-## User Defined Platform-Level Keys {#section_532CE169CFF648BCABEF17A7B0EF1C8C}
+## User Defined Platform-Level Keys {#user-defined-keys}
 
 You specify the value when building traits with these key-value pairs:  
 
@@ -29,7 +29,7 @@ You specify the value when building traits with these key-value pairs:
 |---|---|
 | `d_zx`  |ZIP code (e.g., `d_zx=10022`).  |
 
-## Platform Level Keys Defined by IP Address {#section_C1CCBD2C225F4E898CEE01613899B775}
+## Platform Level Keys Defined by IP Address {#keys-ip-address}
 
 The values for these keys are determined by matching [!DNL IP] addresses to corresponding geographic and demographic data. However, you'll still have to enter the value parameter when creating the key-value pair in [!UICONTROL Trait Builder].
 
