@@ -30,7 +30,7 @@ If you are already importing [!UICONTROL DCM] log data into [!DNL Audience Manag
 >
 >[!UICONTROL Actionable Log Files] work only with [!DNL Google DCM] log files.
 
-## Working with Actionable Log Files {#actionable-log-files}
+## Working with Actionable Log Files {#working-with-actionable-log-files}
 
 With [!UICONTROL Actionable Log Files], the information from [!DNL DCM] logs is captured in [!DNL Audience Manager] the same way that you would capture data from real-time website interactions. [!DNL Audience Manager] connects to your [!DNL Google Cloud] storage, parses the information from [!DNL DCM] logs, and sends the log data as actionable signals to our [Data Collection Servers](../../reference/system-components/components-data-collection.md#section_DEB68BEDDB4D4BCDAF50653D3F4568E2).
 
