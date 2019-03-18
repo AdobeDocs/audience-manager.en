@@ -22,7 +22,7 @@ Things you must and should do when working with the Audience Manager [!DNL API]s
 Note the following when working with [Audience Manager API](https://bank.demdex.com/portal/swagger/index.html#/) code:
 
 * **Request parameters:** All request parameters are required unless specified otherwise.
-* **[!DNL JSON] content type:** Specify `content-type: application/json` *and* `accept: application/json` in your code.
+* **[!DNL JSON] content type:** Specify `content-type: application/json`  *and*  `accept: application/json` in your code.
 
 * **Requests and responses:** Send requests as a properly formatted [!DNL JSON] object. [!DNL Audience Manager] responds with [!DNL JSON] formatted data. Server responses can contain requested data, a status code, or both.
 
@@ -69,7 +69,7 @@ Pass in a token request with your preferred [!DNL JSON] client. When you build t
 * Convert your client ID and secret to a base-64 encoded string. Separate the ID and secret with a colon during the conversion process. For example, the credentials `testId : testSecret` convert to `dGVzdElkOnRlc3RTZWNyZXQ=`.
 * Pass in the [!DNL HTTP] headers `Authorization:Basic <base-64 clientID:clientSecret>` and `Content-Type: application/x-www-form-urlencoded` . For example, your header could look like this: <br/>`Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=` <br/>`Content-Type: application/x-www-form-urlencoded`
 * Set up the request body as follows:
-  <br/> `grant\_type=password&username=<your-AudienceManager-user-name>&password=<your-AudienceManager-password>`
+  <br/> `grant_type=password&username=<your-AudienceManager-user-name>&password=<your-AudienceManager-password>`
 
 ### Step 3: Receive the Token
 
@@ -85,7 +85,7 @@ The [!DNL JSON] response contains your access token. The response should look li
 }
 ```
 
-The "expires\_in" key represents the number of seconds until the access token expires. As best practice, use short expiration times to limit exposure if the token is ever exposed.
+The `expires_in` key represents the number of seconds until the access token expires. As best practice, use short expiration times to limit exposure if the token is ever exposed.
 
 ## Refresh Token {#refresh-token}
 
@@ -106,7 +106,7 @@ Pass in a refresh token request with your preferred [!DNL JSON] client. When you
 * Use a `POST` method to call `https://api.demdex.com/oauth/token`.
 * Convert your client ID and secret to a base-64 encoded string. Separate the ID and secret with a colon during the conversion process. For example, the credentials `testId : testSecret` convert to `dGVzdElkOnRlc3RTZWNyZXQ=`.
 * Pass in the HTTP headers `Authorization:Basic <base-64 clientID:clientSecret>` and `Content-Type: application/x-www-form-urlencoded`. For example, your header could look like this: <br/> `Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=` <br/> `Content-Type: application/x-www-form-urlencoded`
-* In the request body, specify the `grant\_type:refresh\_token` and pass in the refresh token you received in your previous access request. The request should look like this: <br/> `grant\_type=refresh\_token&refresh\_token=b27122c0-b0c7-4b39-a71b-1547a3b3b88e`
+* In the request body, specify the `grant_type:refresh_token` and pass in the refresh token you received in your previous access request. The request should look like this: <br/> `grant_type=refresh_token&refresh_token=b27122c0-b0c7-4b39-a71b-1547a3b3b88e`
 
 ### Step 2: Receive the New Token
 
