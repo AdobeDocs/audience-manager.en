@@ -120,7 +120,7 @@ In [!UICONTROL Audience Marketplace], providers can offer buyers a discount on t
  </tbody> 
 </table>
 
-## Review Discounted Feeds {#section_2D0DBBCB217748CBA33A9B087A936095}
+## Review Discounted Feeds {#review-discounted-feeds}
 
 To review your discounted feeds:
 
@@ -238,7 +238,7 @@ The list that accompanies a deactivation email contains the fields as shown belo
  </tbody> 
 </table>
 
-## Remove Deactivated Traits {#section_69CBB45889874E1182E4A8A92D1BE709}
+## Remove Deactivated Traits {#remove-deactivated-traits}
 
 As a data buyer, you're responsible for removing the traits in a cancelled feed from all your active/in-use or inactive segments. Removal options include:
 

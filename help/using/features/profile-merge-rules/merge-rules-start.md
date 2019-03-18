@@ -53,7 +53,7 @@ The text fields associated with these settings let you rename the [!UICONTROL Da
 >
 >* [Create a Data Source](../../features/manage-datasources.md#create-data-source)
 
-## Create a Profile Merge Rule {#concept_55706E2521944DF1A5C7B0E19C7436D0}
+## Create a Profile Merge Rule {#create-profile-merge-rule}
 
 To create a [!UICONTROL Profile Merge Rule], go to **[!UICONTROL Audience Data > Profile Merge Rules > Add New Rule]** and complete the steps for each section described here. You can create up to 3 merge rules after setting up a cross-device data source. Administrator permissions are required to create, edit, or delete a rule. All users can view and use existing [!UICONTROL Profile Merge Rules].
 
@@ -65,7 +65,7 @@ To create a [!UICONTROL Profile Merge Rule], go to **[!UICONTROL Audience Data >
 >
 >See [Profile Merge Rule Options Defined](../../features/profile-merge-rules/merge-rule-definitions.md#concept_44FFF67CD9654DB2B43ECA13C2FD1CE0) for descriptions of these different controls.
 
-## Basic Information {#section_A57B424647D647CF9687E99F21C318D7}
+## Basic Information {#basic-info}
 
 To complete the [!UICONTROL Basic Information] section:
 
@@ -73,11 +73,11 @@ To complete the [!UICONTROL Basic Information] section:
 2. *(Optional)* Describe the [!UICONTROL Profile Merge Rule]. A concise description helps you define the role or purpose of your rule.
 3. *(Optional)* Select **[!UICONTROL Set as default]** if you want to make this the default [!UICONTROL Profile Merge Rule]. New segments are automatically associated with the default rule.
 
-## Data Export Controls {#section_6B22BFF8BA724DC38852D3437A8C171E}
+## Data Export Controls {#data-export-controls}
 
 [Data Export Controls](../../features/data-export-controls.md) are optional classification rules you can apply to your [!UICONTROL Profile Merge Rule]. They prevent you from sending data to a destination when that action violates a data privacy or use agreement. Skip this section if you do not use [!UICONTROL Data Export Controls].
 
-## Profile Merge Rule Setup {#section_61EEF440AC384395B86C222EFA5EB9EF}
+## Profile Merge Rule Setup {#profile-merge-rule-setup}
 
 To complete the [!UICONTROL Proflie Merge Rule Setup] section:
 
@@ -93,7 +93,7 @@ To complete the [!UICONTROL Proflie Merge Rule Setup] section:
     * **[!UICONTROL Device Co-op]**
 4. Click **[!UICONTROL Save]**.
 
-## Configure Merge Rule Code {#concept_169938D1988447E1B60896908A49C78A}
+## Configure Merge Rule Code {#configure-merge-rule-code}
 
 Follow these instructions to set up the [!UICONTROL Experience Cloud ID Service], [!UICONTROL DIL], and mobile [!DNL SDK] code to work with your merge rules.
 
@@ -101,11 +101,11 @@ Follow these instructions to set up the [!UICONTROL Experience Cloud ID Service]
 
 ### Prerequisites
 
-You must set up a [cross-device data source](../../features/profile-merge-rules/merge-rules-start.md#concept_396828374D1B48C988655B2ED817F29B) and [profile merge rules](../../features/profile-merge-rules/merge-rules-start.md#concept_169938D1988447E1B60896908A49C78A) *before* completing these procedures.
+You must set up a [cross-device data source](../../features/profile-merge-rules/merge-rules-start.md#concept_396828374D1B48C988655B2ED817F29B) and [profile merge rules](../../features/profile-merge-rules/merge-rules-start.md#configure-merge-rule-code) *before* completing these procedures.
 
-## For Experience Cloud ID Service Customers {#section_F88AEB30F2474EFBB477C007CA55E4AA}
+## For Experience Cloud ID Service Customers {#id-service-customers}
 
-The [!UICONTROL Experience Cloud ID Service] and the latest version of [DIL](../../dil/dil-overview.md) are recommended when working with [!UICONTROL Profile Merge Rules]. However, you don't have to use the [!UICONTROL Experience Cloud ID Service] to work with this feature. If you're just using [!UICONTROL DIL], see the [legacy DIL section](../../features/profile-merge-rules/merge-rules-start.md#section_70398F3346F0444A821BD62FC86E3C67) below.
+The [!UICONTROL Experience Cloud ID Service] and the latest version of [DIL](../../dil/dil-overview.md) are recommended when working with [!UICONTROL Profile Merge Rules]. However, you don't have to use the [!UICONTROL Experience Cloud ID Service] to work with this feature. If you're just using [!UICONTROL DIL], see the [legacy DIL section](../../features/profile-merge-rules/merge-rules-start.md#legacy-dil) below.
 
 ### Configure the Set Customer ID Function
 
@@ -148,9 +148,9 @@ In the namespace key-value pair, the `*`MCORG`*` variable is your [!DNL Experien
 
 ### Configure SDKs
 
-See the [Configure SDKs](../../features/profile-merge-rules/merge-rules-start.md#section_202F3455E6264E97929E12A8F9894788) section below.
+See the [Configure SDKs](../../features/profile-merge-rules/merge-rules-start.md#configure-sdks) section below.
 
-## Legacy DIL {#section_70398F3346F0444A821BD62FC86E3C67}
+## Legacy DIL {#legacy-dil}
 
 If you're not using [!DNL Experience Cloud ID Service] yet, you really ought to. But, we understand that moving to new code requires careful thought and testing. In these cases, check your `DIL.create` function to make sure this is set up properly as shown in the code sample below.
 
@@ -166,7 +166,7 @@ DIL.create({
 
 For more information, see the legacy [!UICONTROL DIL] section in [Declared ID Variables](../../features/declared-ids.md#declared-id-variables).
 
-### Configure SDKs {#section_202F3455E6264E97929E12A8F9894788}
+### Configure SDKs {#configure-sdks}
 
 Check the methods in your [!DNL SDK] code that let you pass [!UICONTROL declared IDs] from [!DNL Android] and [!DNL iOS] mobile devices. The variable names for the [!DNL Android] and [!DNL iOS] code libraries are the same:
 

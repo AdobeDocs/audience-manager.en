@@ -70,7 +70,7 @@ A cookie destination returns and writes data to a cookie in the user's browser. 
 
 To create a new cookie destination, go to **[!UICONTROL Audience Data > Destinations > Create New Destination]** and complete the sections as described below.
 
-## Basic Information {#section_2CA42BC9306E41D6B2CD310C35CB8F65}
+## Basic Information {#basic-information}
 
 This section contains fields and options that start the cookie destination creation process. To complete this section:
 
@@ -84,7 +84,7 @@ This section contains fields and options that start the cookie destination creat
     * **[!UICONTROL Integration Code Value]**: Automatically adds and sends the segment integration code to the destination mapping. The integration code is a unique identifier created and used by the customer. It is limited to 255 characters, maximum.
 1. Click **[!UICONTROL Next]** to go to the [!UICONTROL Configuration] settings or click **[!UICONTROL Data Export Labels]** to apply export controls to the destination.
 
-## Data Export Labels {#section_DBA5FEE725E142AEA979BECBA7FE9DD5}
+## Data Export Labels {#data-export-labels}
 
 This section contains options that apply [data export controls](../../features/data-export-controls.md) to a cookie destination. Skip this step if you do not use data export controls. To complete this section:
 

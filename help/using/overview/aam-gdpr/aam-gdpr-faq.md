@@ -49,7 +49,7 @@ Get familiar with key terms used related to GDPR. We’ve highlighted some of th
 
 <br>&nbsp;
 
-**Audience Manager Identifiers (IDs):** Adobe Audience Manager stores various types of IDs. The [GDPR in Audience Manager](../../overview/aam-gdpr/aam-gdpr-details.md#section_DF7B9F8D922F4F4C9B08E8B9A4813DCA) page provides a summary of these IDs, their corresponding data sources, and brief descriptions. When providing requests to Adobe, reference these IDs to make delete or access requests for your data subjects.
+**Audience Manager Identifiers (IDs):** Adobe Audience Manager stores various types of IDs. The [GDPR in Audience Manager](../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids) page provides a summary of these IDs, their corresponding data sources, and brief descriptions. When providing requests to Adobe, reference these IDs to make delete or access requests for your data subjects.
 
 <br>&nbsp;
 
@@ -81,19 +81,19 @@ Opt out can be managed for the Adobe Experience Cloud via the [Your Privacy Choi
 
 **Submitting Audience Manager GDPR Access and Delete Requests to Adobe**
 
-You can submit Individual GDPR requests for Access and Delete either through the [GDPR Client Services UI](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/using-gdpr-ui.md) or by calling the [GDPR API](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-id-onboarding.md). Any [Audience Manager identifiers](../../overview/aam-gdpr/aam-gdpr-details.md#section_DF7B9F8D922F4F4C9B08E8B9A4813DCA), can be submitted in the requests along with their respective namespace IDs (data source IDs). If you submit cross device identifiers such as CRM IDs, Audience Manager will take action on the authenticated profile as well as the device ids linked to it. It is recommended that customers use the Audience Manager Unique User ID (AAM UUID) whenever possible.
+You can submit Individual GDPR requests for Access and Delete either through the [GDPR Client Services UI](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/using-gdpr-ui.md) or by calling the [GDPR API](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-id-onboarding.md). Any [Audience Manager identifiers](../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids), can be submitted in the requests along with their respective namespace IDs (data source IDs). If you submit cross device identifiers such as CRM IDs, Audience Manager will take action on the authenticated profile as well as the device ids linked to it. It is recommended that customers use the Audience Manager Unique User ID (AAM UUID) whenever possible.
 
 <br>&nbsp;
 
 **Managing Access Requests**
 
-Before May 25th, 2018, Audience Manager supported accessing traits, Customer IDs and segments associated with a unique ID within Audience Manager, manually. As of May 25, 2018, we support these requests in the manner described above with various product and services enhancements. In addition to traits, Customer IDs, segments, a response to Access request includes a summary of total number of traits and segments, trait type, descriptions of traits and segments along with the respective data source names. The Access response also includes second party and third-party data accessible to the Data Controller along with the first party data. See more in [Data Access Requests](../../overview/aam-gdpr/aam-gdpr-details.md#section_8121E046363C4658A1FF041D43E0B021).
+Before May 25th, 2018, Audience Manager supported accessing traits, Customer IDs and segments associated with a unique ID within Audience Manager, manually. As of May 25, 2018, we support these requests in the manner described above with various product and services enhancements. In addition to traits, Customer IDs, segments, a response to Access request includes a summary of total number of traits and segments, trait type, descriptions of traits and segments along with the respective data source names. The Access response also includes second party and third-party data accessible to the Data Controller along with the first party data. See more in [Data Access Requests](../../overview/aam-gdpr/aam-gdpr-details.md#access-data).
 
 <br>&nbsp;
 
 **Managing Requests for Deletion**
 
-Before May 25th, 2018, Audience Manager supported the manual deletion of traits, Customer IDs and segments associated with a unique ID within Audience Manager. Upon GDPR coming into effect, we support these requests in the manner described above with various product and service enhancements. In addition to the delete operation, the respective Audience Manager identifiers for the Data Subject will be opted out of further data collection and the respective ID mappings will be removed. See more in [Data Deletion Requests](../../overview/aam-gdpr/aam-gdpr-details.md#section_23A5D62E04F741A7987581691FE992B4).
+Before May 25th, 2018, Audience Manager supported the manual deletion of traits, Customer IDs and segments associated with a unique ID within Audience Manager. Upon GDPR coming into effect, we support these requests in the manner described above with various product and service enhancements. In addition to the delete operation, the respective Audience Manager identifiers for the Data Subject will be opted out of further data collection and the respective ID mappings will be removed. See more in [Data Deletion Requests](../../overview/aam-gdpr/aam-gdpr-details.md#delete-data).
 
 <br>&nbsp;
 

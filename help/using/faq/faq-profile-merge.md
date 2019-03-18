@@ -140,7 +140,7 @@ No. Today, Audience Manager counts the devices which are mapped to the authentic
 
 <br>&nbsp;
 
-## Trait Frequency, Device Graphs, and Profile Merge Rules {#section_05A3000A36AE43A187526241D99EFD85}
+## Trait Frequency, Device Graphs, and Profile Merge Rules {#trait-freq-device-rules}
 
 **How does [!DNL Audience Manager] calculate trait frequency with a [!UICONTROL Profile Merge Rule] that uses a device graph?**
 
