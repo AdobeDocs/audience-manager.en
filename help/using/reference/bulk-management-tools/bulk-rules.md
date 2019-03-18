@@ -21,11 +21,11 @@ The create and update worksheets accept a traitRule header that lets you apply m
 >
 >The [!UICONTROL Bulk Management Tools] *are not* supported by [!DNL Audience Manager]. This tool is provided for convenience and as a courtesy only. For bulk changes, we recommend that you work with the [Audience Manager APIs](../../api/rest-api-main/aam-api-getting-started.md) instead. [RBAC group permissions](../../features/administration/administration-overview.md) assigned in the [!DNL Audience Manager] UI are honored in the [!UICONTROL Bulk Management Tools].
 
-## Working with trait rules {#section_D0E125BEC35E40AEA410725C364CEF8E}
+## Working with trait rules {#trait-rules}
 
 In your worksheet, the trait rule column returns and accepts rules that consist of Boolean expressions, comparison operators, and regular expressions. You can create rules with trait or segment builder in [!DNL Audience Manager] and copy them to your worksheet. Or, if you're familiar with rule syntax, you can write expressions directly in the worksheets.
 
-## Rule builder example {#section_F4E7928A68FA41708B8C29525689A80C}
+## Rule builder example {#rule-builder-example}
 
 Let's take a look at an example that demonstrates how to use [!UICONTROL Segment Builder] to create a rule you can to the bulk worksheet. However, this isn't a set of step-by-step instructions for those tools. Instead we're going to start with a simple rule that's already been created. For instructions about how to use the rule builders see [Segment Builder](../../features/segments/segment-builder.md#concept_FABA1F399CFD4E83B874043638D0FA54) and [Trait Builder](../../features/traits/about-trait-builder.md#concept_BCDC4BCAEB4A4879AFA4A9B98D9ED369).
 
@@ -45,7 +45,7 @@ Paste the rule into the [!UICONTROL Bulk Management Tools] worksheet and commit 
 
 ![](assets/segmentrule.png)
 
-## Creating your own rules {#section_62D0280B95E644B4B92D6AC5387FBD5F}
+## Creating your own rules {#create-rules}
 
 You can write your own rules outside of [!UICONTROL Rule Builder]. Before you start, be sure to read the documentation that covers things like operators, expression, and required variables. We recommend you review the following:
 

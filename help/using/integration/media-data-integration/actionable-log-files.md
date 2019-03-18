@@ -32,7 +32,7 @@ If you are already importing [!UICONTROL DCM] log data into [!DNL Audience Manag
 
 ## Working with Actionable Log Files {#working-with-actionable-log-files}
 
-With [!UICONTROL Actionable Log Files], the information from [!DNL DCM] logs is captured in [!DNL Audience Manager] the same way that you would capture data from real-time website interactions. [!DNL Audience Manager] connects to your [!DNL Google Cloud] storage, parses the information from [!DNL DCM] logs, and sends the log data as actionable signals to our [Data Collection Servers](../../reference/system-components/components-data-collection.md#section_DEB68BEDDB4D4BCDAF50653D3F4568E2).
+With [!UICONTROL Actionable Log Files], the information from [!DNL DCM] logs is captured in [!DNL Audience Manager] the same way that you would capture data from real-time website interactions. [!DNL Audience Manager] connects to your [!DNL Google Cloud] storage, parses the information from [!DNL DCM] logs, and sends the log data as actionable signals to our [Data Collection Servers](../../reference/system-components/components-data-collection.md#dcs-pcs).
 
 You still need to set up rule-based traits to capture the actionable signals. See how to set up rule-based traits either in the [Audience Manager UI](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) or using our [Bulk Management Tools](../../reference/bulk-management-tools/bulk-create.md#task_E42901E227CE4123B3EE92074B16ACA2). Scroll down to the [Actionable Signals](../../integration/media-data-integration/actionable-log-files.md#actionable-signals) section for a list of all the keys you can use in rule-based traits.
 

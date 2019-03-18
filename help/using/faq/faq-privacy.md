@@ -34,7 +34,7 @@ Yes. Audience Manager works with clients who have international properties and i
 
  -->
 
-## Data Retention FAQ {#section_20FF2BAAAA504153B36C420A5ECFB458}
+## Data Retention FAQ {#data-retention-faq}
 
 The following table lists the retention times for different data types and storage systems.
 
@@ -89,7 +89,7 @@ The following table lists the retention times for different data types and stora
  </tbody> 
 </table>
 
-## Trait Qualification Data Retention {#section_73A6DFBF24EA464C9544DA9B02ED6845}
+## Trait Qualification Data Retention {#trait-qual}
 
 The table below lists the retention options for trait qualifications.
 

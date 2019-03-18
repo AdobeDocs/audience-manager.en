@@ -18,7 +18,7 @@ profile-merge-faq.xml
 
  -->
 
-## Device Graph Basics {#section_CD53C44198DC489B8493E698D75C0BFD}
+## Device Graph Basics {#device-graph-basics}
 
 **What is a device graph?**
 
@@ -50,7 +50,7 @@ Once a week.
 
 <br>&nbsp;
 
-## Device Graphs and Profile Merge Rules {#section_486E3950547545329D8290D2AFA7CC50}
+## Device Graphs and Profile Merge Rules {#device-graph-profile-merge-rules}
 
 **How does [!DNL Audience Manager] use a device graph?**
 
@@ -102,7 +102,7 @@ See also, [Data Collection Components](../reference/system-components/components
 
 <br>&nbsp;
 
-## Segments, Device Graphs, and Profile Merge Rules {#section_0C43F01C09AD42DA999EBBE6B0FDE9DA}
+## Segments, Device Graphs, and Profile Merge Rules {#segments-device-graphs-rules}
 
 **How does [!DNL Audience Manager] un-segment a device when it is no longer qualified for a segment with a [!UICONTROL Profile Merge Rule] that uses a device graph?**
 
@@ -180,7 +180,7 @@ The trait frequency is defined by the sum of the number of qualifications for a 
 
 <br>&nbsp;
 
-## Reports, Device Graphs, and Profile Merge Rules {#section_D687C43F1AE748A097243CE75CD4DF68}
+## Reports, Device Graphs, and Profile Merge Rules {#reports-device-graphs-rules}
 
 **Can I see the number of devices that can be reached by a [!UICONTROL Profile Merge Rule] that uses a device graph?**
 

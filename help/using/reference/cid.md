@@ -11,7 +11,7 @@ uuid: 3641eac5-b19e-45d5-bc1c-35a23b4bab8c
 
 Update your code to use `d_cid` or `d_cid_ic` instead of `d_dpid` and `d_dpuuid`. The DPID and DPUUID variables will continue to work, but you should consider them deprecated. This includes DPID and DPUUID variants without the `d_ prefix`.
 
-## DPID and DPUUID: A Review {#section_8C6B7D86771448A08EC14F527E6687F5}
+## DPID and DPUUID: A Review {#dpid-dpuuid-review}
 
 The DPID and the DPUUID are key-value pairs that contain a data provider ID and a user ID. These key-value pairs link provider IDs to user IDs. They send in data during event calls, for inbound synchronization events, and for ID calls. Without them, [!DNL Audience Manager], and other services or features, would not have a way to match and synchronize IDs. These variables are sometimes expressed with or without the `d_` prefix as shown below. Note, in the code, *italics* indicates a variable placeholder.
 
@@ -44,7 +44,7 @@ The DPID and the DPUUID are key-value pairs that contain a data provider ID and 
 
 These key-value pairs still work, but they are deprecated. You should update your code to use CID or CID_IC instead.
 
-## CID and CID_IC: About {#section_CCFCB503887044FE9E87024943CE939A}
+## CID and CID_IC: About {#cid-cidic-about}
 
 The CID and CID_IC key-value pairs replace DPID and DPUUID. They provide the same functions as the DPID and DPUUID, but are more efficient because they include the data provider ID (or integration code) and user ID in a single key-value pair. In each key-value pair:
 
@@ -126,7 +126,7 @@ Each call can also include multiple `d_cid` and `d_cid_ic` key value pairs like 
 ...?d_cid=123%01456&d_cid=123%01789&d_cid_ic=543%01333...
 ```
 
-## Important Considerations for Development Teams {#section_D5D6F182DEFB4C7D9F2274BE63C6B2D4}
+## Important Considerations for Development Teams {#dev-considerations}
 
 <table id="table_5DD068FAE68A42CDB49B6C064706802A"> 
  <thead> 

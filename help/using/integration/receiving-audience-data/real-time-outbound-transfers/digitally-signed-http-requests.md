@@ -15,7 +15,7 @@ Audience Manager requires the `HTTP` server-to-server requests to be digitally s
 
 <!-- digitally_signed_http_requests.xml -->
 
-Using a private key provided by you and shared with [!DNL Audience Manager], we can digitally sign the `HTTP` requests that are sent between [IRIS](../../../reference/system-components/components-data-action.md#section_1966DC17FD14419E943CEF04F13A005B) and your HTTP server. This ensures:
+Using a private key provided by you and shared with [!DNL Audience Manager], we can digitally sign the `HTTP` requests that are sent between [IRIS](../../../reference/system-components/components-data-action.md#iris) and your HTTP server. This ensures:
 
 * **Authenticity**: only the sender that has the private key ([!UICONTROL IRIS]) can send valid `HTTP(S)` messages to the partner.
 * **Message integrity**: with this approach, even on `HTTP`, you are protected from a man in the middle attack where the messages get distorted.

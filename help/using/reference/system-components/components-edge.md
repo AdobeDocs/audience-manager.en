@@ -11,7 +11,7 @@ uuid: 4177e666-99f4-453d-94dd-058c6182c8d2
 
 Audience Manager uses distributed, edge-computing topologies to meet the demands placed on our systems by external sources.
 
-## Edge Data Center Basics {#section_9813253A088D46C186BAE6C5E54ECBB4}
+## Edge Data Center Basics {#edge-data-center-basics}
 
 <!-- 
 
@@ -33,6 +33,6 @@ The following diagram illustrates the Audience Manager edge data center environm
 
 ![](assets/edge_data_center.png)
 
-## Geographic Distribution and Load Balancing {#section_CBBD2FC7971545DA94332E7E32CF2915}
+## Geographic Distribution and Load Balancing {#geo-dist-balance}
 
 See the [!UICONTROL DCS] section in [Data Collection Components](../../reference/system-components/components-data-collection.md#concept_66CFFEBF5E8B41ED94082D562A93506E). 
