@@ -19,7 +19,7 @@ Describes the required fields, syntax, naming conventions and file sizes you nee
 >
 >The text styles (`monospaced text`, *italics*, brackets `[ ]` `( )`, etc.) in this document indicate code elements and options. See [Style Conventions for Code and Text Elements](../../../reference/code-style-elements.md#reference_59D0BD0EDB424A65853460D91CCA35D9) for more information.
 
-## File Name Syntax {#section_8E0F0FCC8FCB484E89F09654A03295FB}
+## File Name Syntax {#file-name-syntax}
 
 [!DNL FTP] file names contain the following required and optional elements:
 
@@ -77,7 +77,7 @@ The table defines the elements in an [!DNL FTP] file name.
     <ul id="ul_E9446C5CA42649658093904D49D4369C"> 
      <li id="li_B275708DFE3F49E29EFAE6B838429E39">Uncompressed: 1 GB </li> 
      <li id="li_A9638EB46ED14E0680B6575D5457E32F">Compressed: 200-300 MB </li> 
-    </ul> <p>See the first 2 <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md#section_0BBFF96B9DEB48F0B863A109DD3AED99"> file name examples</a> below. </p> </td> 
+    </ul> <p>See the first 2 <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md#file-name-examples"> file name examples</a> below. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>TIMESTAMP</i> </code> </p> </td> 
@@ -93,7 +93,7 @@ The table defines the elements in an [!DNL FTP] file name.
  </tbody> 
 </table>
 
-## File Name Examples {#section_0BBFF96B9DEB48F0B863A109DD3AED99}
+## File Name Examples {#file-name-examples}
 
 The following examples show properly formatted file names. Your file names could look similar.
 
@@ -105,7 +105,7 @@ The following examples show properly formatted file names. Your file names could
 
 [Download](assets/ftp_dpm_1234_1445374061.overwrite) the sample file if you need additional examples. This file is saved with the `.overwrite` file extension. Open it with a simple text editor.
 
-## Accepted File Sizes {#section_758E1B942B334DE1B76F0EBC846303E2}
+## Accepted File Sizes {#accepted-file-sizes}
 
 Consider the figures below for fastest/earliest processing of your files as well as for file size limitations when you send data to an [!DNL Audience Manager] / [!DNL FTP] directory.
 

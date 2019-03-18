@@ -22,7 +22,7 @@ Our Partner Solutions and Account Management teams will work closely with you be
 
 Audience Manager takes a phased approach to setup and implementation.
 
-## Define Phase {#concept_115C7442BFB14A2386E3E2EABA63B885}
+## Define Phase {#define-phase}
 
 The define phase introduces you to our Partner Solutions project leads and begins the project management process.
 
@@ -73,7 +73,7 @@ Deliverables for this phase can include the following:
 * A plan to schedule project meetings and calls;
 * A process to share resources and access.
 
-## Discovery Phase {#concept_366455D01BDF4AD5A9294E63B16909E5}
+## Discovery Phase {#discovery-phase}
 
 The discovery phase is dedicated to gathering requirements, conducting research, and working toward a deeper understanding of your business needs and data-collection strategies.
 
@@ -134,7 +134,7 @@ Deliverables for this phase can include:
 * a completed data taxonomy;
 * A developed third-party data-integration plan.
 
-## Build, Test, and Train Phase {#concept_12FFB684B89344EDB41AEE2E2F9FEA0A}
+## Build, Test, and Train Phase {#build-test-train-phase}
 
 During the build, test, and train phase, you will review the data collection strategy and prototype with a designated Partner Solutions lead.
 
@@ -158,7 +158,7 @@ Deliverables for this phase can include:
 * Basic instruction on Audience Manager user interface features;
 * Acceptance and sign-off.
 
-## Launch, Support, and Optimize Phase {#concept_C0DC100F94BF415B8664F70942656FF2}
+## Launch, Support, and Optimize Phase {#launch-support-optimize-phase}
 
 During the launch, support, and optimize phase, your data-collection and prototyped implementation moves from development to a live, production environment. We’ll continue training on product familiarization and strategies that can help increase your [!DNL ROI] through data-driven optimization.
 
@@ -211,7 +211,7 @@ Tasks for this phase can include:
 * Responding to or soliciting feature requests, bugs, and user feedback;
 * Deepening familiarity with Audience Manager features and reports.
 
-## Code Implementation {#concept_D54ABC567FB14135AA82CCA6FEDF8AA2}
+## Code Implementation {#code-implementation}
 
 Though the deployment process may seem complex, the code implementation is as simple as adding a few lines of [!DNL JavaScript] adjacent to the closing `</body>` tag of your website.
 
@@ -225,7 +225,7 @@ The Audience Manager code snippet calls [!DNL Akamai] to download the business r
 
 Partner Solutions can work directly with your technical teams to help deploy code, address final concerns, and fulfill other requirements.
 
-## Post-Implementation Support {#concept_600952DE5E2C47A290C118F55FEDC897}
+## Post-Implementation Support {#post-implementation-support}
 
 Our collaborative efforts don't stop with final deployment. After implementation is complete, our Account Management team takes over.
 

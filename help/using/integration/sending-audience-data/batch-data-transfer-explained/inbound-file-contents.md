@@ -11,7 +11,7 @@ uuid: 88699b29-1502-4183-a9a4-be70692a02bb
 
 Required fields, syntax, and rules you should follow when formatting an inbound trait data file.
 
-## File Content Syntax {#section_524652571283434B93EF2BA5AEC2962B}
+## File Content Syntax {#file-content-syntax}
 
 Fields in the inbound data file must appear in the order shown below. In this example, the `<` `>` symbols have been added to help separate each element visually. You do not need to include these in your data file.
 
@@ -32,7 +32,7 @@ Fields in the inbound data file must appear in the order shown below. In this ex
 ><user ID2><TAB><trait ID>,<trait ID>,<trait ID>
 >```
 
-## File Variables Defined {#section_D024F453127141B6852B6CFB7F5CD2C8}
+## File Variables Defined {#file-variables-defined}
 
 The table lists and defines the variables used in a properly formatted inbound data file. *Italics* indicates a variable placeholder.
 
@@ -68,9 +68,9 @@ The table lists and defines the variables used in a properly formatted inbound d
  </tbody> 
 </table>
 
-## Formatting Trait IDs {#section_0D84D4DD995D444598AF8AE9FC8A3810}
+## Formatting Trait IDs {#formatting-trait-ids}
 
-The following table describes the prefixes that identify trait names or IDs in an inbound data file. See the [sample files](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#section_9C29AF9142B2426BA7209E1281AE4C36) for examples.
+The following table describes the prefixes that identify trait names or IDs in an inbound data file. See the [sample files](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#data-file-examples) for examples.
 
 <table id="table_AD54B3E5487E47C481A4E5FD3A93FDA5"> 
  <thead> 
@@ -115,7 +115,7 @@ The following table describes the prefixes that identify trait names or IDs in a
  </tbody>
 </table>
 
-## Invalid Characters in Trait IDs, User IDs and Key-Value Pairs {#section_A52AFA31CCA54EF2A89CEF17BFCCB879}
+## Invalid Characters in Trait IDs, User IDs and Key-Value Pairs {#invalid-chars}
 
 ### Trait IDs
 
@@ -181,7 +181,7 @@ Improperly formatted value names in a key-value pair also cause problems. Follow
  </tbody>
 </table>
 
-## Data File Examples {#section_9C29AF9142B2426BA7209E1281AE4C36}
+## Data File Examples {#data-file-examples}
 
 <table id="table_8017E070F7A54143A82CA153CBAEB5DA"> 
  <thead> 
@@ -226,7 +226,7 @@ Improperly formatted value names in a key-value pair also cause problems. Follow
 
 [Download](assets/ftp_dpm_1234_1445374061.overwrite) the sample data file if you need additional examples. The download file has a `.overwrite` file extension. You can open it with a simple text editor.
 
-## Examples Matrix {#section_BA72EA253B3E418AA8F597B1BC73360A}
+## Examples Matrix {#examples-matrix}
 
 The chart below shows examples of the correct way to format your Inbound files, depending on the [type of IDs](../../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8) and the method by which you want to add traits to profiles. 
 
@@ -243,36 +243,36 @@ The chart below shows examples of the correct way to format your Inbound files, 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Audience Manager UUID </p> </td> 
-   <td colname="col2"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example_2E62E4E7F46448268C9EB9AEB9E60D3F"> Example 1 </a> </p> </td> 
-   <td colname="col3"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example_C16FCBA11ECE40BA98E8774ABB7A66A4"> Example 2 </a> </p> </td> 
-   <td colname="col4"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example_87901E3B17A444C0B033FABCBA2C0D2B"> Example 3 </a> </p> </td> 
-   <td colname="col5"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example_1DF79B9D7A9840CBBD51C2360B3CBDE9"> Example 4 </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-1"> Example 1 </a> </p> </td> 
+   <td colname="col3"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-2"> Example 2 </a> </p> </td> 
+   <td colname="col4"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-3"> Example 3 </a> </p> </td> 
+   <td colname="col5"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-4"> Example 4 </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Google Advertising ID for Android Devices </p> </td> 
-   <td colname="col2"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example_7857F8C615554FBC9FBA2084C64EEBDD"> Example 5 </a> </p> </td> 
-   <td colname="col3"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example_F634761D66C24D849DCEF6919482B30D"> Example 6 </a> </p> </td> 
-   <td colname="col4"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example_4870547D5808450CAAE2648CDB64F561"> Example 7 </a> </p> </td> 
-   <td colname="col5"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example_5FB2F32FF7324BE0B8697784031680F4"> Example 8 </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-5"> Example 5 </a> </p> </td> 
+   <td colname="col3"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-6"> Example 6 </a> </p> </td> 
+   <td colname="col4"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-7"> Example 7 </a> </p> </td> 
+   <td colname="col5"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-8"> Example 8 </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Apple IDFA for iOS devices </p> </td> 
-   <td colname="col2"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example_7073A4D3DC9F4CA0B464F83933509410"> Example 9 </a> </p> </td> 
-   <td colname="col3"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example_2F02A355D1E4452AB9C85B41FF6F4436"> Example 10 </a> </p> </td> 
-   <td colname="col4"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example_6698940C1F87453A9C21D8A08DC21B25"> Example 11 </a> </p> </td> 
-   <td colname="col5"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example_72EFCD3713F74A91A8B37A5046CDE532"> Example 12 </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-9"> Example 9 </a> </p> </td> 
+   <td colname="col3"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-10"> Example 10 </a> </p> </td> 
+   <td colname="col4"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-11"> Example 11 </a> </p> </td> 
+   <td colname="col5"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-12"> Example 12 </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Your own CRM ID (DPUUID) </p> </td> 
-   <td colname="col2"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example_31EA1C2A9B3A4A75B00B648DDA65635B"> Example 13 </a> </p> </td> 
-   <td colname="col3"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example_3DAA1D2CDD274BD2BBAAAA62C50412EC"> Example 14 </a> </p> </td> 
-   <td colname="col4"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example_21B159FD9EC5455B99A6339CB497644B"> Example 15 </a> </p> </td> 
-   <td colname="col5"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example_5832A7F48BB747E1994C4FEFE68D5640"> Example 16 </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-13"> Example 13 </a> </p> </td> 
+   <td colname="col3"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-14"> Example 14 </a> </p> </td> 
+   <td colname="col4"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-15"> Example 15 </a> </p> </td> 
+   <td colname="col5"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-16"> Example 16 </a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Example 1 {#example_2E62E4E7F46448268C9EB9AEB9E60D3F}
+### Example 1 {#example-1}
 
 Use trait IDs to send trait qualification information for Audience Manager UUIDs.
 
@@ -280,7 +280,7 @@ Use trait IDs to send trait qualification information for Audience Manager UUIDs
 59767559181262060060278870901087098252 <TAB> d_sid=24, d_sid=26, d_sid=27
 ```
 
-### Example 2 {#example_C16FCBA11ECE40BA98E8774ABB7A66A4}
+### Example 2 {#example-2}
 
 Use trait IDs to send trait disqualification information for Audience Manager UUIDs.
 
@@ -300,7 +300,7 @@ or
 59767559181262060060278870901087098252 <TAB> 24:-1, 26:-1, 27:-1
 ```
 
-### Example 3 {#example_87901E3B17A444C0B033FABCBA2C0D2B}
+### Example 3 {#example-3}
 
 Send in key-value pairs to add trait qualification information for Audience Manager UUIDs.
 
@@ -314,7 +314,7 @@ or
 59767559181262060060278870901087098252 <TAB> "product" = "tablet", "product" = "phone"
 ```
 
-### Example 4 {#example_1DF79B9D7A9840CBBD51C2360B3CBDE9}
+### Example 4 {#example-4}
 
 Use the ic prefix to send trait qualification information for Audience Manager UUIDs.
 
@@ -328,7 +328,7 @@ or
 59767559181262060060278870901087098252 <TAB> ic=52,ic=55
 ```
 
-### Example 5 {#example_7857F8C615554FBC9FBA2084C64EEBDD}
+### Example 5 {#example-5}
 
 Use trait IDs to send trait qualification information for Android devices.
 
@@ -336,7 +336,7 @@ Use trait IDs to send trait qualification information for Android devices.
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_sid=24, d_sid=25, d_sid=26
 ```
 
-### Example 6 {#example_F634761D66C24D849DCEF6919482B30D}
+### Example 6 {#example-6}
 
 Use trait IDs to send trait disqualification information for Android devices.
 
@@ -356,7 +356,7 @@ or
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> 24:-1, 26:-1, 27:-1
 ```
 
-### Example 7 {#example_4870547D5808450CAAE2648CDB64F561}
+### Example 7 {#example-7}
 
 Send in key-value pairs to add trait qualification information for Android devices.
 
@@ -370,7 +370,7 @@ or
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> "product" = "tablet", "product" = "phone"
 ```
 
-### Example 8 {#example_5FB2F32FF7324BE0B8697784031680F4}
+### Example 8 {#example-8}
 
 Use the ic prefix to send trait qualification information for Android devices.
 
@@ -384,7 +384,7 @@ or
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> ic=52,ic=55
 ```
 
-### Example 9 {#example_7073A4D3DC9F4CA0B464F83933509410}
+### Example 9 {#example-9}
 
 Use trait IDs to send trait qualification information for iOS devices.
 
@@ -392,7 +392,7 @@ Use trait IDs to send trait qualification information for iOS devices.
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> d_sid=24, d_sid=25, d_sid=26
 ```
 
-### Example 10 {#example_2F02A355D1E4452AB9C85B41FF6F4436}
+### Example 10 {#example-10}
 
 Use trait IDs to send trait disqualification information for iOS devices.
 
@@ -412,7 +412,7 @@ or
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> 24:-1, 26:-1, 27:-1
 ```
 
-### Example 11 {#example_6698940C1F87453A9C21D8A08DC21B25}
+### Example 11 {#example-11}
 
 Send in key-value pairs to add trait qualification information for iOS devices.
 
@@ -426,7 +426,7 @@ or
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> "product" = "tablet", "product" = "phone"
 ```
 
-### Example 12 {#example_72EFCD3713F74A91A8B37A5046CDE532}
+### Example 12 {#example-12}
 
 Use the ic prefix to send trait qualification information for iOS devices.
 
@@ -440,7 +440,7 @@ or
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> ic=52,ic=55
 ```
 
-### Example 13 {#example_31EA1C2A9B3A4A75B00B648DDA65635B}
+### Example 13 {#example-13}
 
 Use trait IDs to send trait qualification information for DPUUIDs.
 
@@ -448,7 +448,7 @@ Use trait IDs to send trait qualification information for DPUUIDs.
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_sid=24, d_sid=25, d_sid=26
 ```
 
-### Example 14 {#example_3DAA1D2CDD274BD2BBAAAA62C50412EC}
+### Example 14 {#example-14}
 
 Use trait IDs to send trait disqualification information for DPUUIDs.
 
@@ -468,7 +468,7 @@ or
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 24:-1, 26:-1, 27:-1
 ```
 
-### Example 15 {#example_21B159FD9EC5455B99A6339CB497644B}
+### Example 15 {#example-15}
 
 Send in key-value pairs to add trait qualification information for DPUUIDs.
 
@@ -482,7 +482,7 @@ or
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> "product" = "tablet", "product" = "phone"
 ```
 
-### Example 16 {#example_5832A7F48BB747E1994C4FEFE68D5640}
+### Example 16 {#example-16}
 
 Use the ic prefix to send trait qualification information for DPUUIDs.
 

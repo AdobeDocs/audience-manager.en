@@ -31,7 +31,7 @@ d_creative=<i>creative_id</i>&d_adgroup=<i>adgroup_id</i>&d_placement=<i>placeme
 
 In the key-value pair, the value variable is an ID or macro inserted by the ad server. When the ad tag loads, that `%macro%` gets replaced with the required, corresponding values. This call does not return a response.
 
-## Supported Key-Value Pairs {#section_CC46BA48F4544216A73D8E29D0E9C5E6}
+## Supported Key-Value Pairs {#supported-key-value-pairs}
 
 Impression event calls accept data formed into key-value pairs. The following table lists and describes the keys used to hold these variables. Many of these are required if you want to capture and analyze data in the [Audience Optimization Reports](../../reporting/audience-optimization-reports/audience-optimization-reports.md#concept_D66D2C58493E48BDAFF2F95BBB508946).
 

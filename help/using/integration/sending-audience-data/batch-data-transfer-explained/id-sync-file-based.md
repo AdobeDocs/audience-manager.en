@@ -15,7 +15,7 @@ Describes the required fields, syntax, and naming conventions used for file-base
 >
 >The text styles (`monospaced text`, *italics*, brackets `[ ]` `( )`, etc.) in this document indicate code elements and options. See [Style Conventions for Code and Text Elements](https://marketing.adobe.com/resources/help/en_US/aam/code-style-elements.html) for more information.
 
-## File Name Syntax and Examples {#section_0AB70A4265EC478CB9C3540A6DD16000}
+## File Name Syntax and Examples {#file-name-syntax}
 
 <!-- c_file_based_id_sync.xml -->
 
@@ -72,7 +72,7 @@ The following examples show properly formatted files names. Your file names coul
  <li> <code> adobe_id_123_898_456_1454442149.sync.2.gz</code> </li> 
 </ul>
 
-## File Content Syntax and Examples {#section_1DA6C74107E34CC0A4DCCFEDDDDDBCFF}
+## File Content Syntax and Examples {#file-content-syntax}
 
 The contents of an ID file include the following elements:
 
@@ -84,7 +84,7 @@ The file contains user IDs ([!DNL UUID]). In each row, separate the IDs with a t
 abc123 def456 ghi789 xyz987
 ```
 
-## Synchronization Matches DPUUIDs to UUIDs {#section_41255CCDC02440C285C03E8001FB7E90}
+## Synchronization Matches DPUUIDs to UUIDs {#sync-matches-dpuuids-uuids}
 
 The purpose of an ID sync file is to sync the [DPUUIDs](../../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8) from your own Data Sources with [!DNL Audience Manager] UUIDs. Synchronization maps the [!DNL DPUUID]s from the master [!DNL DPID] and its related [!DNL DPID]s to the [!DNL Audience Manager] [!DNL UUID]s. Where you put the IDs in the file name and body determines how these identifiers are mapped to each other. For example, take the two sample files shown here:
 
@@ -123,7 +123,7 @@ Step 2: the [!DNL DPUUID]s from [!DNL DPID] 12345 have been synced in step 1 wit
 
 <br/>
 
-## Other Format Requirements {#section_86EFF8C6AE40444A83F42411957CD809}
+## Other Format Requirements {#other-format-reqs}
 
 User IDs cannot:
 

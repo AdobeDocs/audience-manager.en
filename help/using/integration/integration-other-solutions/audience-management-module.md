@@ -11,14 +11,14 @@ uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 
 Add the [!UICONTROL Audience Management Module] to [!DNL Adobe Analytics] [!UICONTROL AppMeasurement] to forward [!DNL Analytics] data to Audience Manager instead of having the Audience Manager [!UICONTROL Data Integration Library] ([!UICONTROL DIL]) code send a pixel from the page.
 
-## Prerequisites {#section_06C407634FCA45079D12E7C6CFA13169}
+## Prerequisites {#prereqs}
 
 In addition to implementing the code described in this document, you must also:
 
 * Implement the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
 * Enable [!UICONTROL Server-Side Forwarding] for report suites in the [!UICONTROL Adobe Analytics Admin Console].
 
-## Implementation {#section_36DFAE407B1D49E5A21079BF2C6C3627}
+## Implementation {#implementation}
 
 To implement the [!UICONTROL Audience Management Module]:
 
@@ -46,7 +46,7 @@ s.AudienceManagement.setup({
 >
 >The `audienceManagement.setup` function shares parameters with the Audience Manager `DIL.create` function, which you can configure in this code. For more information about these parameters, see [DIL create](../../dil/dil-class-overview/dil-create.md#dil-create).
 
-## Code Elements Defined {#section_C96852A88A0E449090E83A0D65E8129C}
+## Code Elements Defined {#code-elements-defined}
 
 The following table defines important variables in the code sample.
 
@@ -57,7 +57,7 @@ The following table defines important variables in the code sample.
 |`uuidCookie`|Optional. This configuration lets you set an Adobe  cookie in the first-party domain. This cookie contains the [UUID](../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8) .|
 | `visitorService` - `namespace`| Required. The `namespace` parameter is required if you use the AudienceManagement module bundled with [!UICONTROL AppMeasurement] version 2.10 or newer. This [!UICONTROL AudienceManagement] module requires that you use [!UICONTROL Experience Cloud ID Service] 3.3 or newer. <br>&nbsp;The [!UICONTROL Experience Cloud Organization ID] is the ID that a company is provided with upon signing up for the [!UICONTROL Experience Cloud]. Find out your company's Organization ID in [Organizations and Account Linking](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html). |
 
-## Results: Data Forwarding to Audience Manager {#section_5878A0C32F844C9DB9C2D009CB717708}
+## Results: Data Forwarding to Audience Manager {#results-data-forwarding}
 
 Your [!DNL Analytics] implementation sends data to Audience Manager after you have:
 

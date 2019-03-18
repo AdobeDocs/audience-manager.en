@@ -16,11 +16,11 @@ uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 >
 >The text styles (`monospaced text`, *italics*, brackets `[ ]` `( )`, etc.) in this document indicate code elements and options. See [Style Conventions for Code and Text Elements](../../reference/code-style-elements.md#reference_59D0BD0EDB424A65853460D91CCA35D9) for more information.
 
-## Purpose {#section_42B595E75E7A42E589F5E166968A1311}
+## Purpose {#purpose}
 
 [!UICONTROL Actionable Log Files] streamline the way you capture impressions, clicks, and conversions from ad servers. Use this information for user segmentation without having to manually pixel media to send campaign attributes to [!DNL Audience Manager].
 
-## Getting Started {#section_DD0AAAB29999453889CB3C86D2F4EFF5}
+## Getting Started {#getting-started}
 
 To get started with [!UICONTROL Actionable Log Files], and to use our [Audience Optimization Reports](../../reporting/audience-optimization-reports/audience-optimization-reports.md#concept_D66D2C58493E48BDAFF2F95BBB508946), you need to import DCM log data into [!DNL Audience Manager]. See [Import DCM Data Files Into Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md#task_5BBF62BBAA7D43AFA6DCCF53C6DBEF00) *and* contact your [!DNL Audience Manager] consultant.
 
@@ -30,11 +30,11 @@ If you are already importing [!UICONTROL DCM] log data into [!DNL Audience Manag
 >
 >[!UICONTROL Actionable Log Files] work only with [!DNL Google DCM] log files.
 
-## Working with Actionable Log Files {#section_4608990C8D0D43AE8FDC33081543E5E2}
+## Working with Actionable Log Files {#working-with-actionable-log-files}
 
 With [!UICONTROL Actionable Log Files], the information from [!DNL DCM] logs is captured in [!DNL Audience Manager] the same way that you would capture data from real-time website interactions. [!DNL Audience Manager] connects to your [!DNL Google Cloud] storage, parses the information from [!DNL DCM] logs, and sends the log data as actionable signals to our [Data Collection Servers](../../reference/system-components/components-data-collection.md#section_DEB68BEDDB4D4BCDAF50653D3F4568E2).
 
-You still need to set up rule-based traits to capture the actionable signals. See how to set up rule-based traits either in the [Audience Manager UI](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) or using our [Bulk Management Tools](../../reference/bulk-management-tools/bulk-create.md#task_E42901E227CE4123B3EE92074B16ACA2). Scroll down to the [Actionable Signals](../../integration/media-data-integration/actionable-log-files.md#section_F23E910753EB4241BFD8B76262526F18) section for a list of all the keys you can use in rule-based traits.
+You still need to set up rule-based traits to capture the actionable signals. See how to set up rule-based traits either in the [Audience Manager UI](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) or using our [Bulk Management Tools](../../reference/bulk-management-tools/bulk-create.md#task_E42901E227CE4123B3EE92074B16ACA2). Scroll down to the [Actionable Signals](../../integration/media-data-integration/actionable-log-files.md#actionable-signals) section for a list of all the keys you can use in rule-based traits.
 
 For an average-sized [!DNL DCM] log file of 2 million lines, any traits created from actionable signals are realized within approximately one hour after we process the logs.
 
@@ -42,7 +42,7 @@ For an average-sized [!DNL DCM] log file of 2 million lines, any traits created 
 >
 >We recommend implementing [!UICONTROL Actionable Log Files] *instead of*  [Pixel Calls](../../integration/media-data-integration/impression-data-pixels.md#concept_83852AB68E344D4F8933665C895322C2). We discourage the use of both options, as this leads to an increase in frequency counts for traits.
 
-## Actionable Signals {#section_F23E910753EB4241BFD8B76262526F18}
+## Actionable Signals {#actionable-signals}
 
 Signals are the [smallest data units](../../reference/signal-trait-segment.md#concept_7550A48FE3F1415FACF0E077CFAB155F) in [!DNL Audience Manager]. [!UICONTROL Actionable Log Files] allow you to capture advertiser, business unit, creative, and campaign values in impression events, click events, and conversion events as signals from [!DNL DCM] logs.
 
@@ -123,7 +123,7 @@ https://sample.demdex.net?d_src=743&d_uuid=0795526165288603295014370250589427213
 >* If a timestamp isn't available for a data row in the [!DNL DCM] log file, we use the time of the `HTTP` call as the event timestamp.
 >* If the data row in the [!DNL DCM] log file contains a malformed timestamp, we ignore the entire row.
 
-## Use Cases {#section_09EB4686F5204452A39A7C2700D44E49}
+## Use Cases {#use-cases}
 
 One benefit of implementing [!UICONTROL Actionable Log Files] is the option to apply [recency and frequency](../../features/segments/recency-and-frequency.md#concept_957D9E1977774D28A98ACEE6035E7B37) controls to any [rule-based traits](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) that contain actionable signals. This allows you, for example, to frequency cap the number of times a user is shown a particular creative, within a media campaign. Other use cases include:
 

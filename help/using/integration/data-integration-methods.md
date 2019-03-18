@@ -11,18 +11,18 @@ uuid: 17a4179a-e99b-49eb-8f45-f2946afbd27f
 
 A high-level overview of how Audience Manager exchanges information with other data providers and systems.
 
-## Supported Data Integration Methods: Real-Time and Server-to-Server {#section_79812B3411654D35AD5C401EA81072A4}
+## Supported Data Integration Methods: Real-Time and Server-to-Server {#supported-methods}
 
 Choosing the right integration method depends on a combination of business requirements and the technical capabilities of your data partner. Audience Manager exchanges visitor information with other data providers by either of the following methods:
 
 * **Real-Time:** Transfers data immediately as a user visits your site. This method is also known as a *`synchronous`* integration.
 * **Batch (Server-to-Server):** Transfers data between servers on a set schedule after a visitor has left the page. This method is also known as an *`out-of-band`* or *`asynchronous`* integration.
 
-## Prerequisites: Create a Trait Taxonomy {#section_DE0B17CD8E7A494EA27D10C5394D6F14}
+## Prerequisites: Create a Trait Taxonomy {#prereqs}
 
 Before the integration process begins, remember to [create traits](../features/traits/create-onboarded-rule-based-traits.md#concept_98DD94EF9AA24422BA17B8D0760542DF) and a [folder structure](../features/traits/trait-storage.md#create-trait-storage-folder) in the [!DNL Audience Manager] UI. The taxonomy will contain all your traits organized in a logical hierarchy.
 
-## Integration Use Cases {#concept_F75CB26BC3B64FBC9732F24563055466}
+## Integration Use Cases {#integration-use-cases}
 
 A use-case summary of Audience Manager data integration methods along with the advantages and disadvantages of each.
 
@@ -103,7 +103,7 @@ Pixel synchronization maps segments to pixels on the page. The pixel fires and t
  </tr> 
 </table>
 
-## How to Choose a Data Delivery Method {#concept_4CCB9A4D0E0748DA8D6EA200ABBD20FC}
+## How to Choose a Data Delivery Method {#data-delivery-choices}
 
 Describes technical and business reasons for sending data via synchronous (real-time) or asynchronous (server-to-server) methodologies.
 
@@ -114,7 +114,7 @@ Describes technical and business reasons for sending data via synchronous (real-
 * **Technical Considerations:** Data delivery depends on the technical capabilities of the data partner. Audience Manager can send/receive data in real-time from the browser or by batch updates through offline, server-to-server communication processes.
 * **Business Considerations:** The business reasons for selecting one delivery method or another depend on the technical capabilities of your destination partner and how you want to use this data. Typically, synchronous data transfers are useful when you need to take action on user data immediately. Asynchronous data transfers may be useful when immediate action is not required and when you have time to build deeper user profiles for later use.
 
-## Real-Time Data Transfer Process {#concept_24E25472CC034AEBAEC8FC4F3421BB98}
+## Real-Time Data Transfer Process {#real-time-data-transfer-process}
 
 A general overview of how Audience Manager performs a synchronous data exchange with a third-party vendor.
 
@@ -136,7 +136,7 @@ The real-time data integration process works as follows:
 
 ![](assets/rt_reduce70.png)
 
-## Batch Data Transfer Process {#concept_EC5B2B3B5ED443F0B271400C08B263D3}
+## Batch Data Transfer Process {#batch-data-transfer-process}
 
 A general overview of how Audience Manager exchanges data synchronously (in real time) with a third-party vendor.
 

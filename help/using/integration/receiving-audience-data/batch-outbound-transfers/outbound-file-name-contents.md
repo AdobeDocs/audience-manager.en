@@ -17,7 +17,7 @@ Describes the required fields, syntax, and conventions used to name an outbound 
 >
 >The style elements (`monospaced text`, *italics*, brackets `[ ]` `( )`, etc.) in this document indicate code elements and options. See [Style Conventions for Code and Text Elements](../../../reference/code-style-elements.md#reference_59D0BD0EDB424A65853460D91CCA35D9) for more information.
 
-## Syntax and File Name Elements {#section_9CD8DFD99A994D669103195E25AE968A}
+## Syntax and File Name Elements {#syntax-file-name}
 
 Outbound file names contain the following required and optional elements:
 
@@ -85,7 +85,7 @@ The table defines the elements in an outbound data file name.
  </tbody> 
 </table>
 
-## File Name Examples {#section_487D914CF82043C6A4ADDD772CC0B769}
+## File Name Examples {#file-name-examples}
 
 ### Scenario 1
 
@@ -141,7 +141,7 @@ E.g. full files:
  <li> <code> ftp_1234_45454_XYZCustomer_full_1486140843200-1.sync.gz </code> </li> 
 </ul>
 
-## Outbound Data File Contents: Syntax and Parameters {#concept_6D02DD0812A449388359C11D86D619B5}
+## Outbound Data File Contents: Syntax and Parameters {#outbound-contents-syntax}
 
 Describes the required fields, syntax, and conventions used to organize information in an outbound data file. Format your data according to these specifications.
 

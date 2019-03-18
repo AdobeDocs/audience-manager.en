@@ -11,12 +11,7 @@ uuid: 4b2ea81c-29bb-42d3-93d3-1d8e677790b6
 
 You can send qualified segments to [!DNL DFP] either through a client-side or through a server-side integration. Requirements and related information about both methods are listed below.
 
-<ul class="simplelist"> 
- <li><a href="../../integration/gpt-aam-destination/gpt-aam-requirements.md#section_8F4B25C64A914B3A9A6FEEA95F5CEF9B"> Client-Side Integration</a> </li> 
- <li><a href="../../integration/gpt-aam-destination/gpt-aam-requirements.md#section_3E1127403A184C7D84B3FA1A1B917A62"> Server-Side Integration</a> </li> 
-</ul>
-
-## Client-Side Integration {#section_8F4B25C64A914B3A9A6FEEA95F5CEF9B}
+## Client-Side Integration {#client-side-integration}
 
 For a client-side integration, you need to set up a [!DNL GPT] destination in Audience Manager. Consider the following points when you want to set up [!DNL GPT] as an Audience Manager destination:
 
@@ -42,7 +37,7 @@ The amount of data passed in to [!DNL GPT] depends on how many segments a partic
 >
 >There are no limits to the number of key-values you can send, but the [!DNL Google] request [!DNL URL] does have limits to the number of characters it can accept. See [Setting targeting and sizes with GPT](https://support.google.com/dfp_premium/bin/answer.py?hl=en&answer=1697712).
 
-## Server-Side Integration {#section_3E1127403A184C7D84B3FA1A1B917A62}
+## Server-Side Integration {#server-side-integration}
 
 Talk to your Audience Manager consultant or Customer Care if you want to set up a server-side integration with [!DNL DFP], using [!DNL GPT]. You'll need to provide your [!DNL DFP] account Network ID and Audience Link ID.
 

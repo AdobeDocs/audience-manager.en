@@ -11,7 +11,7 @@ uuid: dec082d3-306b-4ff5-afb2-418bd543d8d0
 
 Lists the macros you can use to create outbound templates. These include file name macros, header macros, and content macros.
 
-## File Name and File Header Macros {#section_B070DE5085CE4E65AA2B815F681890C7}
+## File Name and File Header Macros {#file-name-header-macros}
 
 The table lists and describes the macros you can use in the file name and to define header fields. For code samples, see [Outbound Macro Examples](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md).
 
@@ -71,7 +71,7 @@ The table lists and describes the macros you can use in the file name and to def
  </tbody> 
 </table>
 
-## Content Macros {#section_A32C5FE93FEF492A80C09047E5F53272}
+## Content Macros {#content-macros}
 
 Macros used to format the contents of a data file. For code samples, see [Outbound Macro Examples](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md).
 
