@@ -7,11 +7,11 @@ title: OAS as an Audience Manager Destination
 uuid: 5891a063-5a4b-4ea7-865f-b24e17ca735f
 ---
 
-# [!DNL OAS] as an Audience Manager Destination {#oas-as-an-audience-manager-destination}
+# OAS as an Audience Manager Destination {#oas-as-an-audience-manager-destination}
 
 Set up [!DNL Open Ad Server] as a destination and send Audience Manager data to that platform.
 
-## [!DNL OAS] Destination Requirements {#concept_B999EF0522C14FF7BB55A8465D29EE0C}
+## OAS Destination Requirements {#oas-requirements}
 
 Standards for code placement, supported key-value formats, reports, and the type of segment data sent to [!DNL OAS].
 
@@ -41,7 +41,7 @@ The amount data passed in to [!DNL OAS] depends on how many segments a particula
 >* [get_aamCookie Code](../../features/destinations/get-aam-cookie-code.md#reference_0102FABCC96547DE81DFCA0600BBEFD3)
 >* [Key-Value Pairs Explained](../../reference/key-value-pairs-explained.md#concept_E4236E003076483AA939791FE2492B49)
 
-## Create an OAS Destination {#concept_340EB01FB985459799AAD322303C2A8C}
+## Create an OAS Destination {#oas-dest-setup}
 
 Create a cookie-based destination for [!DNL OAS] in Audience Manager.
 
@@ -77,7 +77,7 @@ To add a segment to a cookie destination:
 1. **Add Mappings:** In the mappings pop, enter the segment ID in the mappings field and click **[!UICONTROL Save]**.
 1. Click **[!UICONTROL Done]**.
 
-## [!DNL OAS] Setup {#concept_B7ADD24B44B24BB18E7445475EFECB11}
+## OAS Setup {#oas-code-setup}
 
 Modify [!DNL OAS] settings to work with Audience Manager segment data.
 

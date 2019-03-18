@@ -15,7 +15,7 @@ Examples of how some of the common macros are used to create outbound file templ
 >
 >In the tables, **boldface** type identifies each macro with its related output. For the format examples, the `<` `>` symbols have been added to help visually separate each macro.
 
-## File Name Macros {#section_65E394A8A471425CAF8803834F51DE93}
+## File Name Macros {#file-name-macros}
 
 For a list of available macros and definitions, see [Outbound Template Macros](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md#concept_91784732DF6148CF993C3C574270FE2F).
 
@@ -63,7 +63,7 @@ For a list of available macros and definitions, see [Outbound Template Macros](.
  </tbody> 
 </table>
 
-## Header Row Macros {#section_96958B51FC8D49F48C773ECA410F8D67}
+## Header Row Macros {#header-macros}
 
 For a list of available macros and definitions, see [Outbound Template Macros](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md#concept_91784732DF6148CF993C3C574270FE2F).
 
@@ -82,7 +82,7 @@ For a list of available macros and definitions, see [Outbound Template Macros](.
  </tbody>
 </table>
 
-## File Content Macros {#section_EFD1F85D181A4F9E8CF65F5386EAC438}
+## File Content Macros {#file-content-macros}
 
 For a list of available macros and definitions, see [Outbound Template Macros](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md#concept_91784732DF6148CF993C3C574270FE2F).
 

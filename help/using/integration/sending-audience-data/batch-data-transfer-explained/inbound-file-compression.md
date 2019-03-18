@@ -21,7 +21,7 @@ Audience Manager also supports uncompressed files.
 >
 >We currently don't support encryption and compression on the same inbound data file. You can select to either [encrypt](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md#concept_94660DC77BAB4D558B793D59988B0A21) or compress your inbound files.
 
-## [!DNL Amazon S3] Compression
+## Amazon S3 Compression
 
 For delivery to [!DNL Amazon S3], you must use `.gz` or uncompressed files. Compressed files must be 1 GB or smaller. If the files are larger, please discuss the file and transfer process with Customer Care. Although [!DNL Audience Manager] can handle very large files, there may be ways to reduce the file size or make transfer of data more efficient.
 

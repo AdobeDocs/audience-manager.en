@@ -7,7 +7,7 @@ title: OpenX as an Audience Manager Destination
 uuid: 5e86ba73-281c-403b-af06-64a1d427526a
 ---
 
-# [!DNL OpenX] as an Audience Manager Destination{#openx-as-an-audience-manager-destination}
+# OpenX as an Audience Manager Destination{#openx-as-an-audience-manager-destination}
 
 Set up [!DNL OpenX] as a destination and send Audience Manager segment data to that platform.
 
@@ -15,7 +15,7 @@ Set up [!DNL OpenX] as a destination and send Audience Manager segment data to t
 >
 >For onsite ad server targeting only.
 
-## [!DNL OpenX] Destination Requirements {#concept_0C2345ECE98F4AB3957502AD1C888555}
+## OpenX Destination Requirements {#openx-requirements}
 
 Standards for code placement, supported key-value formats, reports, and the type of segment data sent to [!DNL OpenX].
 
@@ -40,7 +40,7 @@ Audience Manager sends data in the form of key-value pairs. Create key-value pai
 
 The amount data passed in to [!DNL OpenX] depends on how many segments a particular user qualifies for. For example, say you set up 100 Audience Management segments. If a site visitor qualifies for five of them, then only those five segments get sent to [!DNL OpenX] (not all 100).
 
-## Create an OpenX Destination {#concept_4A93689DF98A42368CF11A97F7522E8A}
+## Create an OpenX Destination {#openx-destination}
 
 Create a cookie destination for [!DNL OpenX] in Audience Management.
 
@@ -76,7 +76,7 @@ To add a segment to a cookie destination:
 1. **Add Mappings:** In the mappings pop, enter the segment ID in the mappings field and click **[!UICONTROL Save]**.
 1. Click **[!UICONTROL Done]**.
 
-## [!DNL OpenX] Setup {#concept_07C3C67B234E4BE585E4B2BBD32C2D2B}
+## OpenX Setup {#openx-code-setup}
 
 Modify [!DNL OpenX] settings to work with Audience Manager segment data.
 

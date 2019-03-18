@@ -17,7 +17,7 @@ Describes the syntax and parameters used in the initial `HTTP` call to synchroni
 
 ID synchronization is the first step in the outbound, asynchronous data transfer process. In this step, [!DNL Audience Manager] and the vendor compare and match IDs for their respective site visitors. For example, an [!DNL Audience Manager] customer may know a user by ID 123. However, your data partner could identify this user with ID 456. The synchronization process allows [!DNL Audience Manager] and a data vendor to reconcile these different IDs and identify users in their respective systems. Once complete, [!DNL Audience Manager] and the third-party data provider should have corresponding IDs for each unique user seen on our networks.
 
-## [!DNL URL] Syntax
+## URL Syntax
 
 In an ID exchange, a properly formatted [!DNL URL] string should look like this:
 
@@ -25,7 +25,7 @@ In an ID exchange, a properly formatted [!DNL URL] string should look like this:
 https://dpm.demdex.net/ibs:dpid=<VENDOR_ID>&dpuuid=<VENDOR_UUID>&redir=<REDIRECT_URL>
 ```
 
-## [!DNL URL] Parameters
+## URL Parameters
 
 The [!DNL URL] for your inbound ID synchronization call should contain variables described in the table below.
 

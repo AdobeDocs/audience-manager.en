@@ -19,13 +19,13 @@ The metadata in the [!DNL .info] file lets partners:
 * Determine whether any given file in the sequence is complete/correct (by examining the size of the file in bytes and the total number of lines);
 * Validate the number of rows in raw files verses the number of rows after the files have been loaded in the database on the receiving end (size of file in lines).
 
-## File Naming Conventions {#section_6C0CE366AABD4870B5E34FA6FC8EF9AE}
+## File Naming Conventions {#file-naming-conventions}
 
 The transfer-control file has the same name as the root of the batch/sequence with a [!DNL .info] file extension.s
 
 For example, if the first file in the sequence were named: [!DNL ftp_12345_67890_full_1500727351632-1.sync], the control file would be named [!DNL ftp_12345_67890_iter_1500727351632.info].
 
-## File Format {#section_5D988BA77A014EFD805A6A010311A98D}
+## File Format {#file-format}
 
 ```
 {

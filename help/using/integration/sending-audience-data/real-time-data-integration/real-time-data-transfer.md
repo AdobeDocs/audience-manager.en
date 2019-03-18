@@ -15,7 +15,7 @@ The real-time inbound data ingestion process uses a series of `HTTP` requests fr
 
 Inbound data should be formatted as key-value pairs called signals. Typically, each signal is mapped to a segment created or managed through the user interface or [!DNL API].
 
-## [!DNL URL] String Parameters and Syntax {#section_B804B3485D61445BB3908870EF7C60BF}
+## URL String Parameters and Syntax {#url-string-syntax}
 
 The [!DNL URL] for an inbound data transfer should contain the variables described below. Remember to [create traits](../../../features/traits/create-onboarded-rule-based-traits.md#concept_98DD94EF9AA24422BA17B8D0760542DF) and a [folder structure](../../../features/traits/trait-storage.md#create-trait-storage-folder) in the [!DNL Audience Manager] UI before setting up real-time data transfers.
 
@@ -28,7 +28,7 @@ The [!DNL URL] for an inbound data transfer should contain the variables describ
 | `<KEY>`  | A unique identifier in a key-value pair (e.g., gender, color, price).  |
 | `<VAL>`  | A variable that belongs to the data set defined by the key (e.g., gender=male, color=green, price=100)  |
 
-### [!DNL URL] Syntax
+### URL Syntax
 
 During a real-time inbound data ingestion process, a properly formatted [!DNL URL] string uses the following syntax:
 

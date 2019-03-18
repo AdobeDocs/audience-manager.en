@@ -17,11 +17,11 @@ ID synchronization is the first step in the inbound, asynchronous data transfer 
 
 You can use the following methods to get your data into [!DNL Audience Manager]:
 
-* [ID Synchronization HTTP Request](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md#section_0FF82F1DBA8E46A39FA65BD3A45004CA)
-* [Declared ID Event](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md#section_22AC5DB0340B4EB9B1A4CF9075743878)
-* [ID Synchronization From an Email Embedded Image](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md#section_DE58B1A4BD454EBB85FA146D19BAB9EE)
+* [ID Synchronization HTTP Request](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md#id-sync-http)
+* [Declared ID Event](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md#declared-id-event)
+* [ID Synchronization From an Email Embedded Image](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md#id-sync-email-image)
 
-## ID Synchronization `HTTP` Request {#section_0FF82F1DBA8E46A39FA65BD3A45004CA}
+## ID Synchronization `HTTP` Request {#id-sync-http}
 
 In an ID exchange, a properly formatted [!DNL URL] string should look like this:
 
@@ -58,11 +58,11 @@ The [!DNL URL] for your inbound ID synchronization call should contain variables
  </tbody> 
 </table>
 
-## Declared ID Event {#section_22AC5DB0340B4EB9B1A4CF9075743878}
+## Declared ID Event {#declared-id-event}
 
 For more information, see [Declared IDs](../../../features/declared-ids.md#concept_2CD1CC1558354F38B3DEDBE09AE8E869).
 
-## ID Synchronization From an Email Embedded Image {#section_DE58B1A4BD454EBB85FA146D19BAB9EE}
+## ID Synchronization From an Email Embedded Image {#id-sync-email-image}
 
 The format for matching IDs via an email image is the same as shown above. Note, however, that images in an email must be enabled for this to work. This can affect ID synchronization via email because most mail systems disable images by default.
 

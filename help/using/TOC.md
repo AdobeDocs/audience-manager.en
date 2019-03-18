@@ -238,10 +238,10 @@ user-guide-title: Audience Manager User Guide
     + [Implementation and Integration Guides](integration/implementation-and-integration.md)
     + [Data Integration Methods](integration/data-integration-methods.md)
     + Integrate DFP using Google Publisher Tags (GPT){#integrate-dfp-using-gpt}
-        + [Requirements and Methods of Sending Segments to    DFP Using    Google...](integration/gpt-aam-destination/gpt-aam-requirements.md)
+        + [Sending Segments to DFP Using GPT](integration/gpt-aam-destination/gpt-aam-requirements.md)
         + [Create a GPT Destination](integration/gpt-aam-destination/gpt-aam-create-destination.md)
         + [Modify the GPT setTargeting API Call](integration/gpt-aam-destination/gpt-aam-modify-api.md)
-        + [Audience Manager Code for    Google Publisher Tags](integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
+        + [Audience Manager Code for Google Publisher Tags](integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
     + Integrating with Third-Party Destinations {#integrating-third-party}
       + [OAS as an Audience Manager Destination](integration/integrating-third-party/open-ad-server-destination.md)
       + [OpenX as an Audience Manager Destination](integration/integrating-third-party/openx-destination.md)
@@ -284,7 +284,7 @@ user-guide-title: Audience Manager User Guide
     + Integration with Other Solutions {#integration-other-solutions}
       + [Integrate Audience Manager With Target](integration/integration-other-solutions/aam-target-integration.md)
       + [Implement the Audience Management Module](integration/integration-other-solutions/audience-management-module.md)
-    + [Server-Side Forwarding](https://docs.adobe.com/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html)
+    + [Server-Side Forwarding (Admin Guide)](https://docs.adobe.com/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html)
 + Reference{#reference.md}
     + [Amazon S3: About](reference/amazon-s3.md)
     + [Advertiser Use Cases](reference/advertiser-use-cases.md)
