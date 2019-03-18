@@ -114,7 +114,7 @@ Describes technical and business reasons for sending data via synchronous (real-
 * **Technical Considerations:** Data delivery depends on the technical capabilities of the data partner. Audience Manager can send/receive data in real-time from the browser or by batch updates through offline, server-to-server communication processes.
 * **Business Considerations:** The business reasons for selecting one delivery method or another depend on the technical capabilities of your destination partner and how you want to use this data. Typically, synchronous data transfers are useful when you need to take action on user data immediately. Asynchronous data transfers may be useful when immediate action is not required and when you have time to build deeper user profiles for later use.
 
-## Real-Time Data Transfer Process {#real-time-data-transfer}
+## Real-Time Data Transfer Process {#real-time-data-transfer-process}
 
 A general overview of how Audience Manager performs a synchronous data exchange with a third-party vendor.
 
