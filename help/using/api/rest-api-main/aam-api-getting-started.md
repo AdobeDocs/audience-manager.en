@@ -22,7 +22,7 @@ Things you must and should do when working with the Audience Manager [!DNL API]s
 Note the following when working with [Audience Manager API](https://bank.demdex.com/portal/swagger/index.html#/) code:
 
 * **Request parameters:** All request parameters are required unless specified otherwise.
-* **[!DNL JSON] content type:** Specify `content-type: application/json` *and* `accept: application/json` in your code.
+* **[!DNL JSON] content type:** Specify `content-type: application/json`  *and*  `accept: application/json` in your code.
 
 * **Requests and responses:** Send requests as a properly formatted [!DNL JSON] object. [!DNL Audience Manager] responds with [!DNL JSON] formatted data. Server responses can contain requested data, a status code, or both.
 
@@ -85,7 +85,7 @@ The [!DNL JSON] response contains your access token. The response should look li
 }
 ```
 
-The "expires_in" key represents the number of seconds until the access token expires. As best practice, use short expiration times to limit exposure if the token is ever exposed.
+The `expires_in` key represents the number of seconds until the access token expires. As best practice, use short expiration times to limit exposure if the token is ever exposed.
 
 ## Refresh Token {#refresh-token}
 

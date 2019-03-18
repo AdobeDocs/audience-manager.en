@@ -49,7 +49,7 @@ For example:
 
 `curl -v https://dcs-beta.demdex.net/event`
 
-2. Verify that your request was served by the beta DCS by looking for "sandbox" in the DCS response header.
+1. Verify that your request was served by the beta DCS by looking for "sandbox" in the DCS response header.
 
 For example:
 
