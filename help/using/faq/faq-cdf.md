@@ -11,7 +11,7 @@ uuid: 7183b3e2-e999-4e1e-892f-2bab335c13b6
 
 Frequently asked questions about Customer Data Feed (CDF) files.
 
-## Amazon S3 Storage {#section_1FBC4A7E4166488BAA9C74E8A8BB73C3}
+## Amazon S3 Storage {#amazon-s3-storage}
 
 **Where is my CDF file stored on [!DNL Amazon]?**
 
@@ -43,7 +43,7 @@ See [Customer Data Feed File Processing Notifications](../features/cdf-files.md#
 
 <br>&nbsp;
 
-## File Sizes {#section_3469175E380844559B95B78BB4727D4E}
+## File Sizes {#file-sizes}
 
 **What sort of file sizes should I expect? How big is an average CDF file?**
 
@@ -57,7 +57,7 @@ Again, it is difficult to estimate this. However, if you're going to receive CDF
 
 <br>&nbsp;
 
-## Data Integrity {#section_588180928BB044F5A556638EFF875453}
+## Data Integrity {#data-integrity}
 
 **How can I check the integrity of the data uploaded to Amazon S3?**
 
@@ -67,7 +67,7 @@ Files exceeding 16MiB in size are split into 16MiB chunks and uploaded to [!DNL 
 
 <br>&nbsp;
 
-## Data Retention {#section_CCC63714F3E046C6A4C8FF8D0AAA88BD}
+## Data Retention {#data-retension}
 
 **How long do you store CDF files?**
 

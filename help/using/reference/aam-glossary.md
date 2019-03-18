@@ -11,7 +11,7 @@ uuid: 01fc26f5-db9d-4e90-b4c1-27c6a510accc
 
 Definitions and links to further reading.
 
-## A-B {#section_5190D1D9ED4B4EEAA659BF6C5C68ABF5}
+## A-B {#a-b}
 
 **Algorithmic Modeling**
 
@@ -27,7 +27,7 @@ See [Understanding Algorithmic Models](../features/algorithmic-models/understand
 
 See [Bulk Management Tools](../reference/bulk-management-tools/bulk-management-intro.md).
 
-## C-D {#section_0CE339FB571E4179887ADBF0E68D4E53}
+## C-D {#c-d}
 
 **CDF**
 
@@ -83,7 +83,7 @@ The [!UICONTROL Data Integration Library] is an API library used by [!DNL Audien
 
 [!UICONTROL Data Provider Match]. It tells internal [!DNL Adobe] systems that a call from [!DNL Audience Manager] or the ID service is passing in customer data for synchronization or requesting an ID. See [Understanding Calls to the Demdex Domain](../reference/demdex-calls.md#concept_77B3D5A068AE413FA78D190D65AD799F).
 
-## E-F {#section_F194A310914E4B8CB602ADD3F49BE2A9}
+## E-F {#e-f}
 
 **Experience Cloud ID (ECID)**
 
@@ -105,7 +105,7 @@ A limit of a number of times that an advertiser wants to display a given creativ
 
 See [Recency and Frequency](../features/segments/recency-and-frequency.md#concept_957D9E1977774D28A98ACEE6035E7B37).
 
-## G-H {#section_DD8254D949314C4FB11CEEB0A557F358}
+## G-H {#g-h}
 
 **GAID**
 
@@ -118,7 +118,7 @@ Google Advertising ID, the unique device ID that Google assigns to hardware devi
 An acronym for Globally Unique Identifier. We don't use the term GUID in [!DNL Audience Manager]. In our case, the GUID is the [!DNL Audience Manager] UUID. 
 See [Index of IDs in Audience Manager](../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8).  
 
-## I-J {#section_DCC59C1DB41F47CCA79F8280DE85F009}
+## I-J {#i-j}
 
 **IDFA**
 
@@ -140,19 +140,19 @@ When working with the [!DNL Audience Manager] UI or API, you have the option of 
 * [!UICONTROL Segments]: an integration code is a field for a user-defined ID or other company-specific information. Optional. 
 * [!UICONTROL Data Sources]: integration codes are required when you want to create cross-device data sources, use the Experience Cloud ID service, or work with [!UICONTROL Profile Merge Rules]. See [Create a Data Source](../features/manage-datasources.md#create-data-source) for more information.
 
-## K-L {#section_0ECCC82944BD4C8AB43DD630623BAEE0}
+## K-L {#k-l}
 
 **[!UICONTROL Look-alike modeling]**
 
-See [Algorithmic Modeling](../reference/aam-glossary.md#section_5190D1D9ED4B4EEAA659BF6C5C68ABF5).
+See [Algorithmic Modeling](../reference/aam-glossary.md#a-b).
 
-## M-N {#section_462142BF40094D9E98AEE2B6AD287968}
+## M-N {#m-n}
 
 **MCID**, **MID**
 
 See the [Experience Cloud ID](../reference/aam-glossary.md#section_F194A310914E4B8CB602ADD3F49BE2A9).
 
-## O-P {#section_1815E005834B44919F411B1F0CD4D2F3}
+## O-P {#o-p}
 
 **PCS**
 
@@ -174,13 +174,13 @@ See [Profile Merge Rule Options Defined](../features/profile-merge-rules/merge-r
 
 See [Profile Merge Rule Options Defined](../features/profile-merge-rules/merge-rule-definitions.md#concept_44FFF67CD9654DB2B43ECA13C2FD1CE0).
 
-## Q-R {#section_D45EEE2C46AA4B409ABA101ECD50BBC5}
+## Q-R {#q-r}
 
 **Realization**
 
 The action by which a visitor on your site qualifies for a trait. You can use the [Visitor Profile Viewer](../features/visitor-profile-viewer.md#task_768E234139D9498A91B293106939EF4B) tool to obtain information on trait realization by a specific user.
 
-## S-T {#section_D5B8CE5E4224452A9BBF3F3BFEA1771B}
+## S-T {#s-t}
 
 **Segment**
 
@@ -208,7 +208,7 @@ A trait is a combination of one or more signals. See [Signals, Traits, and Segme
 
 See [Trait and Segment Population Data in Segment Builder](../features/segments/segment-builder-data.md#concept_05EE3010E67F446E8818351292EF7372).
 
-## U-V {#section_E56481AB69BD414DA40DBBCF8C3DBD4C}
+## U-V {#u-v}
 
 **UUID**
 
@@ -222,5 +222,5 @@ The [!DNL Experience Cloud] ID Service (formerly visitor ID) provides a universa
 
 See the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/reference/marketing-cloud-id-service.html) documentation.
 
-## W-X-Y-Z {#section_EE34BF8266F444ECA01A056070F2B17C}
+## W-X-Y-Z {#w-x-y-z}
 
