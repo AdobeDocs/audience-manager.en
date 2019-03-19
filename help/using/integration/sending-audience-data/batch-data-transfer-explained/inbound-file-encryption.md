@@ -40,7 +40,7 @@ Follow the steps outlined below to encrypt inbound data files.
 
 1. Encrypt the inbound data using the following command:
 
-   [!DNL `gpg --recipient "Adobe AudienceManager" --cipher-algo AES --output $output.gpg --encrypt $inbound`]
+   `gpg --recipient "Adobe AudienceManager" --cipher-algo AES --output $output.gpg --encrypt $inbound`
 
    All encrypted data must use `.pgp` or `.gpg` as the file extension (e.g. `ftp_dpm_100_123456789.sync.pgp` or `ftp_dpm_100_123456789.overwrite.gpg`).
 
