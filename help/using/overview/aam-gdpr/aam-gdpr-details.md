@@ -23,9 +23,9 @@ The sections below explain what GDPR means for Audience Manager and how you can 
 
 ## Types of GDPR Requests and How to Make a GDPR Request {#types-of-gdpr-requests}
 
-As an Audience Manager customer, you can submit individual GDPR requests to access and delete customer data, either through the **[GDPR Client Services UI](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/using-gdpr-ui.md)** or by calling the **[GDPR API](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md)**. You can submit any Audience Manager identifiers (IDs), as described in the section **[Audience Manager Identifiers](../../overview/aam-gdpr/aam-gdpr-details.md#section_DF7B9F8D922F4F4C9B08E8B9A4813DCA)**, in the requests along with their respective namespace IDs (data source IDs). If you have questions, please reach out to Customer Care at gdprsupport@adobe.com.
+As an Audience Manager customer, you can submit individual GDPR requests to access and delete customer data, either through the **[GDPR Client Services UI](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/using-gdpr-ui.md)** or by calling the **[GDPR API](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md)**. You can submit any Audience Manager identifiers (IDs), as described in the section **[Audience Manager Identifiers](../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids)**, in the requests along with their respective namespace IDs (data source IDs). If you have questions, please reach out to Customer Care at gdprsupport@adobe.com.
 
-## Access Data {#section_8121E046363C4658A1FF041D43E0B021}
+## Access Data {#access-data}
 
 We understand your commitment to honoring your GDPR customer requests within 30 days of reception. For that reason, we try to process your data access request as soon as possible.
 
@@ -138,15 +138,15 @@ The table below contains descriptions for all the returned fields in the data ac
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> id</code> </p> </td> 
-   <td colname="col2"> <p>The user ID for the data that follows. This is either an id you provided in the GDPR data access request, or an ID that is linked to one of the declared IDs you provided. The ID types are described in the <a href="../../overview/aam-gdpr/aam-gdpr-details.md#section_DF7B9F8D922F4F4C9B08E8B9A4813DCA"> Audience Manager Identifiers</a> section. </p> </td> 
+   <td colname="col2"> <p>The user ID for the data that follows. This is either an id you provided in the GDPR data access request, or an ID that is linked to one of the declared IDs you provided. The ID types are described in the <a href="../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids"> Audience Manager Identifiers</a> section. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> namespace</code> </p> </td> 
-   <td colname="col2"> <p>Also referred to as data source. See the <a href="../../overview/aam-gdpr/aam-gdpr-details.md#section_DF7B9F8D922F4F4C9B08E8B9A4813DCA"> Audience Manager Identifiers</a> section. </p> </td> 
+   <td colname="col2"> <p>Also referred to as data source. See the <a href="../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids"> Audience Manager Identifiers</a> section. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> id</code> </p> </td> 
-   <td colname="col2"> <p>The ID of the namespace/data source. See <a href="../../overview/aam-gdpr/aam-gdpr-details.md#section_DF7B9F8D922F4F4C9B08E8B9A4813DCA"> Audience Manager Identifiers (IDs)</a> for all the accepted values. </p> </td> 
+   <td colname="col2"> <p>The ID of the namespace/data source. See <a href="../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids"> Audience Manager Identifiers (IDs)</a> for all the accepted values. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> integration code </code> </p> </td> 
@@ -163,7 +163,7 @@ The table below contains descriptions for all the returned fields in the data ac
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> type </code> </p> </td> 
-   <td colname="col2"> <p>The type of ID for which you requested the GDPR data access. Accepted types are listed in the <a href="../../overview/aam-gdpr/aam-gdpr-details.md#section_DF7B9F8D922F4F4C9B08E8B9A4813DCA"> Audience Manager Identifiers</a> section. </p> </td> 
+   <td colname="col2"> <p>The type of ID for which you requested the GDPR data access. Accepted types are listed in the <a href="../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids"> Audience Manager Identifiers</a> section. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> warnings</code> </p> </td> 
@@ -297,7 +297,7 @@ The table below contains descriptions for all the returned fields in the data ac
  </tbody> 
 </table>
 
-## Delete Data {#section_23A5D62E04F741A7987581691FE992B4}
+## Delete Data {#delete-data}
 
 We understand your commitment to honoring your GDPR customer requests within 30 days of reception. For that reason, we try to process your data deletion request as soon as possible.
 
@@ -313,9 +313,9 @@ In response to data deletion requests, we delete traits and segments associated 
 
 For opt-out requests, please refer to our documentation on [Opt-out Management](../../overview/data-security-and-privacy/opt-out-management.md#concept_1EC49431ED7D4012BD930ECF8A6D732F).
 
-## Audience Manager Identifiers (IDs) {#section_DF7B9F8D922F4F4C9B08E8B9A4813DCA}
+## Audience Manager Identifiers (IDs) {#aam-ids}
 
-When submitting GDPR requests to Adobe Audience Manager, you must include one of the identifiers (IDs) listed below. You can find more information on the ID formats in our [Index of Audience Manager IDs](../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8).
+When submitting GDPR requests to Adobe Audience Manager, you must include one of the identifiers (IDs) listed below. You can find more information on the ID formats in our [Index of Audience Manager IDs](../../reference/ids-in-aam.md).
 
 ### Adobe Audience Manager Unique User ID
 

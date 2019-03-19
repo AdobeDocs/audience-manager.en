@@ -28,7 +28,7 @@ Use [!UICONTROL Data Explorer] to optimize your audience building in multiple wa
 * **Avoid data loss**. Backfill traits with historical realizations so you don't miss out on audience segments because you didn't create traits before receiving the signals.
 * **Improve your workflow**. Discover trending signals and quickly turn them into actionable traits.
 
-## Use Cases {#section_C6DC0FBE310649CD9F4847F31AC4A560}
+## Use Cases {#use-cases-data-explorer}
 
 ### Example 1
 

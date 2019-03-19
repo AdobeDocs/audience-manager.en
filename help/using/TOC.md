@@ -341,4 +341,3 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
     + [2017 Documentation Updates](docs-updates/docs-2017.md)
     + [2016 Documentation Updates](docs-updates/docs-2016.md)
     + [2015 Documentation Updates](docs-updates/docs-2015.md)
-    

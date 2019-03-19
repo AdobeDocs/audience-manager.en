@@ -118,7 +118,7 @@ The **[!UICONTROL Destination Mappings]** panel contains search tools as describ
 | **Search by Destination Name** |Lets you search for a specific destination by name. To search, start typing. The field will auto-complete based on your search terms. Click **[!UICONTROL Add Destination]** when done.|
 | **Browse All Destinations** |Browse a list of *all* destinations available to you. Select and add destinations to your segment from the popup list.  |
 
-## Fields in the Destination Mappings Pop-up Windows {#reference_D3871A197C21474091F940AB5498F98A}
+## Fields in the Destination Mappings Pop-up Windows {#fields-in-dest-mappings}
 
 In [!UICONTROL Segment Builder], the [!UICONTROL Add Destination] dialog appears after you select a destination. This window displays static information about the destination and fields that vary depending on the destination type. Provide the required information in the empty fields to set up a destination mapping.
 
@@ -134,7 +134,7 @@ In the [!UICONTROL Destination Mapping] fields, specify the key-value pairs used
 
 ![](assets/cookie_modal.PNG)
 
-### [!DNL URL] Destination Fields
+### URL Destination Fields
 
 In the [!UICONTROL URL] and [!UICONTROL Secure URL] fields, specify the complete standard or secure address used to send data to the destination.
 

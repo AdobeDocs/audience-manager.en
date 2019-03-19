@@ -28,6 +28,6 @@ This section shows you the top 50 new unused signals received in the past 7 days
 
 ## Saved Searches {#saved-searches}
 
-[!DNL Audience Manager] shows all your [saved searches](../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md#task_F78A67C962D94C1D828B2A4941EAFB6A) on the [!UICONTROL Dashboard] and reloads them every time you load the [!UICONTROL Dashboard].
+[!DNL Audience Manager] shows all your [saved searches](../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md) on the [!UICONTROL Dashboard] and reloads them every time you load the [!UICONTROL Dashboard].
 
 Saved searches display the top 50 results for the corresponding criteria.
