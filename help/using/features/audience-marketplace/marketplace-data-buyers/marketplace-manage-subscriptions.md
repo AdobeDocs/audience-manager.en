@@ -120,7 +120,7 @@ In [!UICONTROL Audience Marketplace], providers can offer buyers a discount on t
  </tbody> 
 </table>
 
-## Review Discounted Feeds {#section_2D0DBBCB217748CBA33A9B087A936095}
+## Review Discounted Feeds {#review-discounted-feeds}
 
 To review your discounted feeds:
 
@@ -238,13 +238,13 @@ The list that accompanies a deactivation email contains the fields as shown belo
  </tbody> 
 </table>
 
-## Remove Deactivated Traits {#section_69CBB45889874E1182E4A8A92D1BE709}
+## Remove Deactivated Traits {#remove-deactivated-traits}
 
 As a data buyer, you're responsible for removing the traits in a cancelled feed from all your active/in-use or inactive segments. Removal options include:
 
 * Bulk removal with the [REST APIs](../../../api/rest-api-main/rest-api-main.md#concept_B512E6C3410A4304A672588A60A792B1) or the [Bulk Management Tools](../../../reference/bulk-management-tools/bulk-management-intro.md).
 
-* Manually search for affected segments and remove deactivated traits using [!UICONTROL Segment Builder]. See [Remove Traits from a Segment](../../../features/segments/segment-builder.md#task_D165E279D55A43C7952D936B207FD78A).
+* Manually search for affected segments and remove deactivated traits using [!UICONTROL Segment Builder]. See [Remove Traits from a Segment](../../../features/segments/segment-builder.md#segment-builder-controls-traits).
 
 >[!NOTE]
 >

@@ -60,7 +60,7 @@ To be valid, your [!DNL Audience Manager] password must meet the following requi
  </tbody> 
 </table>
 
-For information about resetting your password, see [Edit Your Account Settings](../features/administration/edit-account-settings.md#task_B622BDCE85824926AE88C6D132F9EDAE).
+For information about resetting your password, see [Edit Your Account Settings](../features/administration/edit-account-settings.md).
 
 **Account Lockout**
 

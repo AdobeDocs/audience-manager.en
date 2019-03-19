@@ -30,7 +30,7 @@ Factors like heavy network traffic, server usage, and large data sets can cause 
 * Delete all the rows that have been already updated. 
 * Try the bulk request again.
 
-## Long delays or unresponsive behavior {#section_E19810347A6641A089F529BCDCBDE667}
+## Long delays or unresponsive behavior {#delays-behavior}
 
 The following table lists some common problems you may encounter when making bulk requests with the worksheets. Try to fix these issues with the recommended solutions. If the recommended solutions do not resolve the problem, you should save your work, restart your computer, and try the request again without launching or working with other applications.
 

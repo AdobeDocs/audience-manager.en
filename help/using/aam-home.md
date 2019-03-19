@@ -24,7 +24,7 @@ Audience Manager provides industry-leading services for online audience data man
       <li id="li_859B4BB35E2B49A3906486E1054943EF"><a href="reporting/dynamic-reports/segment-trait-overlap-report.md"> Segment-to-Trait Overlap Report</a> </li> 
       <li id="li_CB91AE2E11AB4F95971D24781CDD816E"><a href="reporting/dynamic-reports/segment-segment-overlap-report.md"> Segment-to-Segment Overlap Report</a> </li> 
       <li id="li_5599D71B52CF4ABE91EDE84520014426"><a href="features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#segment-level-report"> Segment-level reporting in Audience Marketplace</a> </li>
-     </ul> </p> <p>See also, <a href="docs-updates/docs-2019.md#concept_B04C4C4F8F8A44948127209781F0EC9C"> 2019 Documentation Updates</a>. </p> </td> 
+     </ul> </p> <p>See also, <a href="docs-updates/docs-2019.md"> 2019 Documentation Updates</a>. </p> </td>
    <td colname="col2"> <p> <b>Release Notes</b> </p> <p> 
      <ul id="ul_713F3E9DF0F84FE5981AC63D05948864"> 
       <li id="li_09C1CD15823E4AD7856CE40BE848E03F">See the latest <a href="https://marketing.adobe.com/resources/help/en_US/whatsnew/" format="https" scope="external"> Experience Cloud Release Notes</a> for new features and fixes. </li> 

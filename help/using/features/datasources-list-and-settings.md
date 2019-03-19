@@ -85,7 +85,7 @@ Options include:
 * **[!UICONTROL Cannot be used for off-site ad targeting]**
 * **[!UICONTROL Cannot be used for on-site personalization]**
 
-## Data Source Settings {#section_423704D358D049738DBA4216FEFFF798}
+## Data Source Settings {#data-source-settings}
 
 The [!UICONTROL Data Source Settings] contains the controls and options listed below. Some of these settings have additional sub-options and menu items that you can select to modify a data source.
 
@@ -137,11 +137,11 @@ Select the **[!UICONTROL Inbound]** check box when your data source is designed 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Use as an Authenticated Profile</span></b> </p> </td> 
-   <td colname="col2"> <p>Your cross-device data source contains an Authenticated ID. An Authenticated ID is collected and synced to an <span class="keyword"> Audience Manager</span> ID during an authentication event (e.g, a user logs in on-site, in-app, etc.). The Authenticated ID can be used to on-board data from other sources which store this ID. It can also be used to link multiple device IDs in <span class="wintitle"> Profile Link</span>. </p> <p>This option exposes a text field which lets you rename the data source with an alias. If you use an alias, this new name overrides the data source name and appears in the <span class="wintitle"> Authenticated Profile Options</span> when you <a href="../features/profile-merge-rules/merge-rules-start.md#concept_55706E2521944DF1A5C7B0E19C7436D0"> create a Profile Merge rule</a>. </p> </td> 
+   <td colname="col2"> <p>Your cross-device data source contains an Authenticated ID. An Authenticated ID is collected and synced to an <span class="keyword"> Audience Manager</span> ID during an authentication event (e.g, a user logs in on-site, in-app, etc.). The Authenticated ID can be used to on-board data from other sources which store this ID. It can also be used to link multiple device IDs in <span class="wintitle"> Profile Link</span>. </p> <p>This option exposes a text field which lets you rename the data source with an alias. If you use an alias, this new name overrides the data source name and appears in the <span class="wintitle"> Authenticated Profile Options</span> when you <a href="../features/profile-merge-rules/merge-rules-start.md#create-profile-merge-rule"> create a Profile Merge rule</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Use as a Device Graph</span></b> </p> </td> 
-   <td colname="col2"> <p>Creates a data source as a device graph which you can provide to other <span class="keyword"> Audience Manager</span> customers. Before you select this option, tell with your <span class="keyword"> Audience Manager</span> consultant which customers this <span class="wintitle"> Data Source</span> should be shared with. Your consultant will have to provision those companies through our internal processes. </p> <p>This option exposes a text field which lets you rename the data source with an alias. If you use an alias, this new name overrides the data source name and appears in the <span class="wintitle"> Device Options</span> when you <a href="../features/profile-merge-rules/merge-rules-start.md#concept_55706E2521944DF1A5C7B0E19C7436D0"> create a Profile Merge rule</a>. </p> </td> 
+   <td colname="col2"> <p>Creates a data source as a device graph which you can provide to other <span class="keyword"> Audience Manager</span> customers. Before you select this option, tell with your <span class="keyword"> Audience Manager</span> consultant which customers this <span class="wintitle"> Data Source</span> should be shared with. Your consultant will have to provision those companies through our internal processes. </p> <p>This option exposes a text field which lets you rename the data source with an alias. If you use an alias, this new name overrides the data source name and appears in the <span class="wintitle"> Device Options</span> when you <a href="../features/profile-merge-rules/merge-rules-start.md#create-profile-merge-rule"> create a Profile Merge rule</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Share associated visitor or device IDs with specific Audience Manager Customers</span></b> </p> </td> 

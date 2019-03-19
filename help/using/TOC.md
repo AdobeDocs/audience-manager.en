@@ -2,6 +2,7 @@
 product: audience-manager
 audience: end-user
 user-guide-title: Audience Manager User Guide
+user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 ---
 
 # Audience Manager User Guide {#user-guide}
@@ -306,7 +307,7 @@ user-guide-title: Audience Manager User Guide
     + [How Data Delivery and File Processing Times Affect Reports](reference/reporting-file-transfer-timeframe.md)
     + [Index of IDs in Audience Manager](reference/ids-in-aam.md)
     + [Key-Value Pairs Explained](reference/key-value-pairs-explained.md)
-    + [Password Requirements, Locked Accounts, and Forgotten   Passwords](reference/password-requirements.md)
+    + [Password Requirements, Locked Accounts, and Forgotten Passwords](reference/password-requirements.md)
     + [Signals, Traits, and Segments](reference/signal-trait-segment.md)
     + [Supported Browsers](reference/supported-browsers.md)
     + System Components{#system-components}
@@ -322,7 +323,7 @@ user-guide-title: Audience Manager User Guide
     + [Time Zones in Audience Manager](reference/aam-time-zones.md)
     + [TLS 1.0 Deprecation](reference/tls-support.md)
     + [Understanding Calls to the Demdex Domain](reference/demdex-calls.md)
-    + [Visitor Authentication States in    Audience Manager](reference/visitor-authentication-states.md)
+    + [Visitor Authentication States in Audience Manager](reference/visitor-authentication-states.md)
 + FAQs{#faqs}
     + [API FAQ](faq/faq-api.md)
     + [Audience Lab FAQ](faq/faq-audience-lab.md)
@@ -340,4 +341,3 @@ user-guide-title: Audience Manager User Guide
     + [2017 Documentation Updates](docs-updates/docs-2017.md)
     + [2016 Documentation Updates](docs-updates/docs-2016.md)
     + [2015 Documentation Updates](docs-updates/docs-2015.md)
-    

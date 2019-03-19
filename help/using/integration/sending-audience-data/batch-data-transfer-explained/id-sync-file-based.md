@@ -86,7 +86,7 @@ abc123 def456 ghi789 xyz987
 
 ## Synchronization Matches DPUUIDs to UUIDs {#sync-matches-dpuuids-uuids}
 
-The purpose of an ID sync file is to sync the [DPUUIDs](../../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8) from your own Data Sources with [!DNL Audience Manager] UUIDs. Synchronization maps the [!DNL DPUUID]s from the master [!DNL DPID] and its related [!DNL DPID]s to the [!DNL Audience Manager] [!DNL UUID]s. Where you put the IDs in the file name and body determines how these identifiers are mapped to each other. For example, take the two sample files shown here:
+The purpose of an ID sync file is to sync the [DPUUIDs](../../../reference/ids-in-aam.md) from your own Data Sources with [!DNL Audience Manager] UUIDs. Synchronization maps the [!DNL DPUUID]s from the master [!DNL DPID] and its related [!DNL DPID]s to the [!DNL Audience Manager] [!DNL UUID]s. Where you put the IDs in the file name and body determines how these identifiers are mapped to each other. For example, take the two sample files shown here:
 
 * **File 1:** `adobe_id_0_12345_1476312152.sync`
 

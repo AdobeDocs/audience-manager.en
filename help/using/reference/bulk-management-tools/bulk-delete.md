@@ -31,7 +31,7 @@ To delete multiple items, open the [!UICONTROL Bulk Management Tools] worksheet 
 2. Click the **[!UICONTROL Delete]** tab.
 3. Paste the delete headers into the first row of the update worksheet.
 4. Paste or type the IDs for the objects you want to delete in the column below the header.
-5. Provide the required [log on information](../../reference/bulk-management-tools/bulk-management-intro.md#section_6FE9BADB30254A4FADC77D2DCFB6A1EE) and click **[!UICONTROL Submit]**.
+5. Provide the required [log on information](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) and click **[!UICONTROL Submit]**.
 
    The worksheet creates a [!UICONTROL Results] column. The [!UICONTROL Results] column returns a message that indicates if the item has been deleted or an error message. 
    Before entering data, your bulk update worksheet should look similar to the following:

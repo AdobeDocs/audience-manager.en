@@ -19,12 +19,12 @@ c_compcollect.xml
 
 Audience Manager contains the following data-collection components:
 
-* [Data Collection Servers (DCS) and Profile Cache Servers (PCS)](../../reference/system-components/components-data-collection.md#section_DEB68BEDDB4D4BCDAF50653D3F4568E2) 
-* [Data Integration Library (DIL)](../../reference/system-components/components-data-collection.md#section_71E528B4528742BA9F6CA69D1AF26C1D) 
-* [Inbound Server-to-Server](../../reference/system-components/components-data-collection.md#section_0CC5BA6F15CE4379AA3144D201B11F87) 
-* [Log Files](../../reference/system-components/components-data-collection.md#section_7900899D0DAB4F278A964F129E7E7A19)
+* [Data Collection Servers (DCS) and Profile Cache Servers (PCS)](../../reference/system-components/components-data-collection.md#dcs-pcs) 
+* [Data Integration Library (DIL)](../../reference/system-components/components-data-collection.md#dil) 
+* [Inbound Server-to-Server](../../reference/system-components/components-data-collection.md#inbound-outbound-server) 
+* [Log Files](../../reference/system-components/components-data-collection.md#log-files)
 
-## Data Collection Servers (DCS) and Profile Cache Servers (PCS) {#section_DEB68BEDDB4D4BCDAF50653D3F4568E2}
+## Data Collection Servers (DCS) and Profile Cache Servers (PCS) {#dcs-pcs}
 
 The DCS and PCS work together and separately provide services related to trait realization, audience segmentation, and data storage.
 
@@ -77,15 +77,15 @@ The [!UICONTROL PCS] flushes traits if they're inactive for 17-days. These trait
 
 These server systems handle privacy and user opt-out requests. User cookie information is not collected in the log file if a user has opted out of data collection. For more information about our privacy policies see the [Adobe Privacy Center](https://www.adobe.com/privacy/advertising-services.html).
 
-## Data Integration Library (DIL) {#section_71E528B4528742BA9F6CA69D1AF26C1D}
+## Data Integration Library (DIL) {#dil}
 
 [!UICONTROL DIL] is code you place on the page for data collection. See the [DIL API](../../dil/dil-overview.md) for more information about available services and methods.
 
-## Inbound Server-to-Server {#section_0CC5BA6F15CE4379AA3144D201B11F87}
+## Inbound Server-to-Server {#inbound-outbound-server}
 
 These are systems that receive data sent in by various server-to-server integrations with our clients. See the documentation on [sending audience data](../../integration/sending-audience-data/real-time-data-integration/real-time-data-integration.md) for more information.
 
-## Log Files {#section_7900899D0DAB4F278A964F129E7E7A19}
+## Log Files {#log-files}
 
 The [!UICONTROL PCS] creates and writes data to the log files. These are sent to other database systems for processing, reporting, and storage. 
 

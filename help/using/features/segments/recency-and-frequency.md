@@ -69,7 +69,7 @@ Review and understand these limits and rules when you want to apply recency and 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Profile Merge Rules</b> </p> </td> 
-   <td colname="col2"> <p>See <a href="../../faq/faq-profile-merge.md#section_05A3000A36AE43A187526241D99EFD85"> Trait Frequency, External Device Graphs, and Profile Merge Rules</a>. </p> </td> 
+   <td colname="col2"> <p>See <a href="../../faq/faq-profile-merge.md#trait-freq-device-rules"> Trait Frequency, External Device Graphs, and Profile Merge Rules</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

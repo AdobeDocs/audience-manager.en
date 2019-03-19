@@ -22,11 +22,11 @@ c_bulk_start.xml
 >
 >The [!UICONTROL Bulk Management Tools] *are not* supported by [!DNL Audience Manager]. This tool is provided for convenience and as a courtesy only. For bulk changes, we recommend that you work with the [Audience Manager APIs](../../api/rest-api-main/aam-api-getting-started.md) instead. [RBAC group permissions](../../features/administration/administration-overview.md) assigned in the [!DNL Audience Manager] UI are honored in the [!UICONTROL Bulk Management Tools].
 
-## Overview {#section_A45262A175E84DE1946675A1AB0E8055}
+## Overview {#overview}
 
 This feature uses a Microsoft Excel spreadsheet with macros that make secure, authenticated calls to the [!DNL Audience Manager] APIs. The API provides the methods and services that let you make changes in bulk. You don't have to know how to code or work with our APIs to use it. The worksheet contains column headers and tabs that perform specific bulk change functions. To make bulk changes, all you do is add the pre-defined headers to specific worksheets, provide the information you want to change in bulk, and click an action button. The worksheet and the APIs do the rest of the work for you.
 
-## Prerequisites {#section_856E85FA4A3145009FD71DA2EF8E17D9}
+## Prerequisites {#prereqs}
 
 To use the [!DNL Bulk Management Tools], you need the following:
 
@@ -36,7 +36,7 @@ To use the [!DNL Bulk Management Tools], you need the following:
 
 * Microsoft Excel running on [!DNL Windows] or in a [!DNL Microsoft Windows] virtual machine running on [!DNL macOS X]. We recommend using a 32-bit version of Microsoft Windows.
 
-## Actions and operations {#section_A4E146C4ADB44AFAA049C048E07240A0}
+## Actions and operations {#actions-ops}
 
 The [!UICONTROL Bulk Management Tools] worksheet consists of action tabs, action buttons, and a **[!UICONTROL Headers]** tab. The **[!UICONTROL Headers]** tab contains the pre-formatted column headers used by the action tabs. The action tabs contain macros that perform your selected bulk operation. To perform a bulk operation, you copy a set of headers into the appropriate action tab, enter header data, and click an action button.
 
@@ -83,13 +83,13 @@ As an example, let's take a look at how to create multiple traits at one time. T
 1. Click the **[!UICONTROL Headers]** tab and copy all the labels under the [!UICONTROL Create a Trait] option. 
 
 2. Click the **[!UICONTROL Create]** tab and paste the labels starting in row 1, column A. 
-3. Provide information related to each column header and click **[!UICONTROL Create Traits]**. This action prompts you to log on. Your bulk job runs after you successfully authenticate (see the [authentication requirements](../../reference/bulk-management-tools/bulk-management-intro.md#section_6FE9BADB30254A4FADC77D2DCFB6A1EE) below). Check the lower left corner of the worksheet for a job status notification.
+3. Provide information related to each column header and click **[!UICONTROL Create Traits]**. This action prompts you to log on. Your bulk job runs after you successfully authenticate (see the [authentication requirements](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) below). Check the lower left corner of the worksheet for a job status notification.
 
 >[!NOTE]
 >
 >When working with large requests, the worksheet might become unresponsive and appear to be inactive. In these cases, just leave it alone. The worksheet will become responsive when the bulk request is complete. If the worksheet does not respond for a long period of time, see the [troubleshooting section](../../reference/bulk-management-tools/bulk-troubleshooting.md#reference_1A3E7E0CEF6A4D8D801BC363A3C30C1A).
 
-## Authentication requirements and options {#section_6FE9BADB30254A4FADC77D2DCFB6A1EE}
+## Authentication requirements and options {#auth-reqs}
 
 Bulk changes require authentication. When you select an action, the worksheet prompts you to log in. Because the worksheet makes API calls, you need to configure it to read your secret key. And, the **[!UICONTROL Domain]** field lets you make bulk changes in a staging/test environment or against your live, production account.
 

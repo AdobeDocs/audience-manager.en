@@ -19,15 +19,15 @@ c_compact.xml
 
 Action components are systems and processes that let you move data in and out of [!DNL Audience Manager] and (for the lack of a better phrase) do things with it. These [!DNL Audience Manager] components include:
 
-## Customer Data Feeds (CDF) {#section_865029F74D96496D8AECAB69D95F4D6C}
+## Customer Data Feeds (CDF) {#cdf}
 
 [!UICONTROL CDF] are files sent hourly to customers. These contain user IDs along with associated segment IDs, trait IDs, and other data. For more information, see [Customer Data Feed Overview](../../features/cdf-files.md#concept_114B993EC5E246AE8CDD55E695B344FC).
 
-## Data Collection Server (DCS) {#section_8C3E60777E6B47EABD4CACAB49B3F89B}
+## Data Collection Server (DCS) {#dcs}
 
 See [Data Collection Components](../../reference/system-components/components-data-collection.md#concept_66CFFEBF5E8B41ED94082D562A93506E).
 
-## SFTP/S3 {#section_4E34FE0337534E5A84C6531330573085}
+## SFTP/S3 {#sftp-s3}
 
 The [!UICONTROL SFTP/S3] publishers receive synchronized ID data from the [!UICONTROL Outbound Feed Converter]. When these files are ready, the [!UICONTROL SFTP/S3 publishers] send this data to a destination specified by the client. These files contain synchronized ID data with a one-to-many mapping of [!DNL Audience Manager] user IDs (UUID) to:
 
@@ -37,7 +37,7 @@ The [!UICONTROL SFTP/S3] publishers receive synchronized ID data from the [!UICO
 
 [!DNL Audience Manager] customers do not have access to features that directly control the [!UICONTROL SFPT/S3 publishers]. Customers use this service indirectly when they create and send data to destinations. The [!UICONTROL SFTP/S3] system is, essentially, an automated job process that runs at scheduled intervals.
 
-## IRIS {#section_1966DC17FD14419E943CEF04F13A005B}
+## IRIS {#iris}
 
 In Greek mythology, [!UICONTROL Iris] is a figure who travels and delivers messages rapidly. The [!UICONTROL IRIS] system is a namesake that reflects the characteristics of this figure from the ancient world. In modern terms, [!UICONTROL IRIS] is a low-latency, high-frequency cookie synchronization and data transfer service.
 
@@ -140,6 +140,6 @@ The following example contains real-time segment data from [!UICONTROL IRIS]. Ke
 }
 ```
 
-## Profile Cache Server (PCS) {#section_5CB821F4E94947C5928D3154490EDD32}
+## Profile Cache Server (PCS) {#pcs}
 
 See [Data Collection Components](../../reference/system-components/components-data-collection.md#concept_66CFFEBF5E8B41ED94082D562A93506E). 

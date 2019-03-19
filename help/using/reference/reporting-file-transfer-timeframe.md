@@ -11,7 +11,7 @@ uuid: 4b975512-f67e-4749-a7ef-168415597682
 
 Audience Manager receives a tremendous amount of data every day. This affects the amount of time it takes to process your data and generate report results. The content in this section describes how these time intervals affect your Audience Manager account. Also, the time frames and schedules described here are general guidelines only. These schedules do not constitute Service-Level Agreements (SLAs) or commitments related to data delivery. Adobe reserves the right to change the time frames and schedules at any time without notice.
 
-## Reporting Numbers {#section_0EFE4CA4909343A3B53CA5449FEE4605}
+## Reporting Numbers {#reporting-numbers}
 
 <!-- 
 
@@ -40,7 +40,7 @@ The following table lists and describes the time intervals in our general and re
  </tbody> 
 </table>
 
-## Inbound and Outbound File Transfers {#section_EC91E25F4C3E44F2BFDB81D5EB99C968}
+## Inbound and Outbound File Transfers {#inbound-outbound-file-transfers}
 
 [!DNL Audience Manager] processes and sends inbound and outbound [!UICONTROL Server-to-Server (S2S)] file transfers according to the schedules described in this section. Given these schedules and the cut-off times, you might see discrepancies with new segments between real-time and total segment numbers.
 

@@ -11,7 +11,7 @@ uuid: d845af1d-f448-4f4c-948e-b2c89f125086
 
 This map contains the major Audience Manager systems. It visually represents how data flows into, out of, and among Audience Manager components.
 
-## How to read this map {#section_EF516077AB4E433DB63776BAA2A56DF5}
+## How to read this map {#compmap}
 
 <!-- 
 
