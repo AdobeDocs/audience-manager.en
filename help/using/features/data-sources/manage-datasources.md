@@ -18,7 +18,7 @@ To create a new data source, go to **[!UICONTROL Audience Data > Data Sources > 
 
 >[!TIP]
 >
->See [Data Source Settings and Menu Options](../features/data-sources/datasources-list-and-settings.md#settings-menu-options) for descriptions of these different controls.
+>See [Data Source Settings and Menu Options](../features/datasources-list-and-settings.md#settings-menu-options) for descriptions of these different controls.
 
 ## Data Source Details {#details}
 
@@ -56,7 +56,7 @@ These settings determine how a data source is identified, used, and shared. You 
 
 >[!MORE_LIKE_THIS]
 >
->* [Data Source Settings and Menu Options](../features/data-sources/datasources-list-and-settings.md#settings-menu-options)
+>* [Data Source Settings and Menu Options](../features/datasources-list-and-settings.md#settings-menu-options)
 
 ## Delete a Data Source {#delete-data-source}
 

@@ -21,7 +21,7 @@ To create a cross-device data source, go to **[!UICONTROL Audience Data > Data S
 
 >[!TIP]
 >
->See [Data Source Settings and Menu Options](../../features/data-sources/datasources-list-and-settings.md#settings-menu-options) for descriptions of these different controls.
+>See [Data Source Settings and Menu Options](../../features/datasources-list-and-settings.md#settings-menu-options) for descriptions of these different controls.
 
 ## Data Source Details {#details}
 
@@ -51,7 +51,7 @@ The text fields associated with these settings let you rename the [!UICONTROL Da
 
 >[!MORE_LIKE_THIS]
 >
->* [Create a Data Source](../../features/data-sources/manage-datasources.md#create-data-source)
+>* [Create a Data Source](../../features/manage-datasources.md#create-data-source)
 
 ## Create a Profile Merge Rule {#create-profile-merge-rule}
 
@@ -59,7 +59,7 @@ To create a [!UICONTROL Profile Merge Rule], go to **[!UICONTROL Audience Data >
 
 <!-- create-profile-merge-rule.xml -->
 
-**Prerequisites:** A cross-device data source is required to build a [!UICONTROL Profile Merge Rule]. See [Create a Data Source](../../features/data-sources/manage-datasources.md#create-data-source).
+**Prerequisites:** A cross-device data source is required to build a [!UICONTROL Profile Merge Rule]. See [Create a Data Source](../../features/manage-datasources.md#create-data-source).
 
 >[!TIP]
 >

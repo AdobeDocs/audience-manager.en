@@ -21,7 +21,7 @@ An [!UICONTROL Active Audience] trait contains all of the devices under manageme
 
 ## Data Source Synced Traits {#data-source-synced-traits}
 
-[!UICONTROL Data Source Synced Traits] appear in the [!UICONTROL Audience Traits] folder when you [create or edit a datasource](../../features/data-sources/manage-datasources.md#create-data-source) and apply either of these settings:
+[!UICONTROL Data Source Synced Traits] appear in the [!UICONTROL Audience Traits] folder when you [create or edit a datasource](../../features/manage-datasources.md#create-data-source) and apply either of these settings:
 
 ![](assets/datasource_synced.png)
 
