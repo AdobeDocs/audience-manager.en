@@ -33,7 +33,7 @@ See [Bulk Management Tools](../reference/bulk-management-tools/bulk-management-i
 
 [!UICONTROL Customer Data Feed]. A [!UICONTROL CDF] file represents a bulk download of data collected by [!DNL Audience Manager] and enables you to work with [!DNL Audience Manager] data outside of the limits imposed by our user interface. A [!UICONTROL CDF] file contains the same data that an [!DNL Audience Manager] event call ( `/event`) sends to our servers. This includes data like user IDs, trait IDs, segment IDs, and all the other parameters captured by an event call.
 
-See [Customer Data Feeds](../features/cdf-files.md#concept_114B993EC5E246AE8CDD55E695B344FC).
+See [Customer Data Feeds](../features/cdf-files.md).
 
 <br>&nbsp;
 
@@ -41,7 +41,7 @@ See [Customer Data Feeds](../features/cdf-files.md#concept_114B993EC5E246AE8CDD5
 
 The CRM ID is the ID by which customers identify users in their own CRM system. Instead of CRM ID, we use the term DPUUID in Audience Manager.
 
-See DPUUID in the [Index of IDs in Audience Manager](../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8).
+See DPUUID in the [Index of IDs in Audience Manager](../reference/ids-in-aam.md).
 
 <br>&nbsp;
 
@@ -55,7 +55,7 @@ See [Customer Attributes](https://marketing.adobe.com/resources/help/en_US/mclou
 
 Demdex.net is a legacy domain controlled by [!DNL Adobe]. It reflects [!DNL Audience Manager]'s original, pre-acquisition name ( [!DNL Demdex]). [!DNL Adobe] acquired [!DNL Demdex] in 2011 and re-branded the company as [!DNL Audience Manager]. All HTTP calls to `demdex.net` domains are calls sent in to [!DNL Adobe].
 
-See [Understanding Calls to the Demdex Domain](../reference/demdex-calls.md#concept_77B3D5A068AE413FA78D190D65AD799F).
+See [Understanding Calls to the Demdex Domain](../reference/demdex-calls.md).
 
 <br>&nbsp;
 
@@ -63,7 +63,7 @@ See [Understanding Calls to the Demdex Domain](../reference/demdex-calls.md#conc
 
 [!UICONTROL Device Advertising IDs] are unique device identifiers, used to identify a mobile device. These IDs are assigned by the device manufacturer, not by Adobe. We support iOS and Android device IDs in [!DNL Audience Manager].
 
-See the [Index of IDs in Audience Manager](../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8).
+See the [Index of IDs in Audience Manager](../reference/ids-in-aam.md).
 
 <br>&nbsp;
 
@@ -81,7 +81,7 @@ The [!UICONTROL Data Integration Library] is an API library used by [!DNL Audien
 
 **dpm**
 
-[!UICONTROL Data Provider Match]. It tells internal [!DNL Adobe] systems that a call from [!DNL Audience Manager] or the ID service is passing in customer data for synchronization or requesting an ID. See [Understanding Calls to the Demdex Domain](../reference/demdex-calls.md#concept_77B3D5A068AE413FA78D190D65AD799F).
+[!UICONTROL Data Provider Match]. It tells internal [!DNL Adobe] systems that a call from [!DNL Audience Manager] or the ID service is passing in customer data for synchronization or requesting an ID. See [Understanding Calls to the Demdex Domain](../reference/demdex-calls.md).
 
 ## E-F {#e-f}
 
@@ -95,7 +95,7 @@ Previously named the [!DNL Marketing Cloud] ID (MID or MCID). The [!DNL Experien
 
 Automatic grouping of traits inside your folder taxonomy. Each folder in your hierarchy automatically creates a trait which can be used to define segments.
 
-See [Folder Traits: About](../features/traits/about-folder-traits.md#concept_D68F33E7F99243CEB9D11D354ECB53AD).
+See [Folder Traits: About](../features/traits/about-folder-traits.md).
 
 <br>&nbsp;
 
@@ -103,26 +103,26 @@ See [Folder Traits: About](../features/traits/about-folder-traits.md#concept_D68
 
 A limit of a number of times that an advertiser wants to display a given creative to an end user. You can configure various frequency capping expressions in [!UICONTROL Segment Builder].
 
-See [Recency and Frequency](../features/segments/recency-and-frequency.md#concept_957D9E1977774D28A98ACEE6035E7B37).
+See [Recency and Frequency](../features/segments/recency-and-frequency.md).
 
 ## G-H {#g-h}
 
 **GAID**
 
-Google Advertising ID, the unique device ID that Google assigns to hardware devices running the Android operating system. See the [Index of IDs in Audience Manager](../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8).
+Google Advertising ID, the unique device ID that Google assigns to hardware devices running the Android operating system. See the [Index of IDs in Audience Manager](../reference/ids-in-aam.md).
 
 <br>&nbsp;
 
 **GUID**
 
 An acronym for Globally Unique Identifier. We don't use the term GUID in [!DNL Audience Manager]. In our case, the GUID is the [!DNL Audience Manager] UUID. 
-See [Index of IDs in Audience Manager](../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8).  
+See [Index of IDs in Audience Manager](../reference/ids-in-aam.md).  
 
 ## I-J {#i-j}
 
 **IDFA**
 
-Identifier for Advertisers, the unique device ID Apple assigns to its products. See the [Index of IDs in Audience Manager](../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8).
+Identifier for Advertisers, the unique device ID Apple assigns to its products. See the [Index of IDs in Audience Manager](../reference/ids-in-aam.md).
 
 <br>&nbsp;
 
@@ -150,7 +150,7 @@ See [Algorithmic Modeling](../reference/aam-glossary.md#a-b).
 
 **MCID**, **MID**
 
-See the [Experience Cloud ID](../reference/aam-glossary.md#section_F194A310914E4B8CB602ADD3F49BE2A9).
+See the [Experience Cloud ID](../reference/aam-glossary.md#e-f).
 
 ## O-P {#o-p}
 
@@ -158,13 +158,13 @@ See the [Experience Cloud ID](../reference/aam-glossary.md#section_F194A310914E4
 
 [!UICONTROL Profile Cache Server]. The [!UICONTROL PCS] is a large database, running on Apache Cassandra. It stores data received for active users from server-to-server transfers and the [!UICONTROL DCS]. [!UICONTROL PCS] data consists of device IDs, authenticated profile IDs, and their associated traits.
 
-See [Data Collection Components](../reference/system-components/components-data-collection.md#concept_66CFFEBF5E8B41ED94082D562A93506E).
+See [Data Collection Components](../reference/system-components/components-data-collection.md).
 
 <br>&nbsp;
 
 **Profile Link**
 
-See [Profile Merge Rule Options Defined](../features/profile-merge-rules/merge-rule-definitions.md#concept_44FFF67CD9654DB2B43ECA13C2FD1CE0).
+See [Profile Merge Rule Options Defined](../features/profile-merge-rules/merge-rule-definitions.md).
 
 <br>&nbsp;
 
@@ -172,13 +172,13 @@ See [Profile Merge Rule Options Defined](../features/profile-merge-rules/merge-r
 
 [!UICONTROL Profile Merge Rules] let you control the type of data [!DNL Audience Manager] uses for segmentation.
 
-See [Profile Merge Rule Options Defined](../features/profile-merge-rules/merge-rule-definitions.md#concept_44FFF67CD9654DB2B43ECA13C2FD1CE0).
+See [Profile Merge Rule Options Defined](../features/profile-merge-rules/merge-rule-definitions.md).
 
 ## Q-R {#q-r}
 
 **Realization**
 
-The action by which a visitor on your site qualifies for a trait. You can use the [Visitor Profile Viewer](../features/visitor-profile-viewer.md#task_768E234139D9498A91B293106939EF4B) tool to obtain information on trait realization by a specific user.
+The action by which a visitor on your site qualifies for a trait. You can use the [Visitor Profile Viewer](../features/visitor-profile-viewer.md) tool to obtain information on trait realization by a specific user.
 
 ## S-T {#s-t}
 
@@ -186,7 +186,7 @@ The action by which a visitor on your site qualifies for a trait. You can use th
 
 A segment (or an audience) is a set of users who share common attributes.
 
-See [Segments: Purpose, Composition, and Rules](../features/segments/segments-purpose.md#concept_F9E9D1D1EFF34AA2AD025109DD741C86).
+See [Segments: Purpose, Composition, and Rules](../features/segments/segments-purpose.md).
 
 <br>&nbsp;
 
@@ -194,25 +194,25 @@ See [Segments: Purpose, Composition, and Rules](../features/segments/segments-pu
 
 Signals are the smallest data units in [!DNL Audience Manager] and are expressed as key-value pairs.
 
-See [Signals, Traits, and Segments](../reference/signal-trait-segment.md#concept_7550A48FE3F1415FACF0E077CFAB155F).
+See [Signals, Traits, and Segments](../reference/signal-trait-segment.md).
 
 <br>&nbsp;
 
 **Trait**
 
-A trait is a combination of one or more signals. See [Signals, Traits, and Segments](../reference/signal-trait-segment.md#concept_7550A48FE3F1415FACF0E077CFAB155F).
+A trait is a combination of one or more signals. See [Signals, Traits, and Segments](../reference/signal-trait-segment.md).
 
 <br>&nbsp;
 
 **Trait Population**
 
-See [Trait and Segment Population Data in Segment Builder](../features/segments/segment-builder-data.md#concept_05EE3010E67F446E8818351292EF7372).
+See [Trait and Segment Population Data in Segment Builder](../features/segments/segment-builder-data.md).
 
 ## U-V {#u-v}
 
 **UUID**
 
-[!DNL Audience Manager] Unique User ID. See the [Index of IDs in Audience Manager](../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8).
+[!DNL Audience Manager] Unique User ID. See the [Index of IDs in Audience Manager](../reference/ids-in-aam.md).
 
 <br>&nbsp;
 
@@ -222,5 +222,5 @@ The [!DNL Experience Cloud] ID Service (formerly visitor ID) provides a universa
 
 See the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/reference/marketing-cloud-id-service.html) documentation.
 
-## W-X-Y-Z {#w-x-y-z}
+## W-X-Y-Z {#w-z}
 

@@ -315,7 +315,7 @@ For opt-out requests, please refer to our documentation on [Opt-out Management](
 
 ## Audience Manager Identifiers (IDs) {#aam-ids}
 
-When submitting GDPR requests to Adobe Audience Manager, you must include one of the identifiers (IDs) listed below. You can find more information on the ID formats in our [Index of Audience Manager IDs](../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8).
+When submitting GDPR requests to Adobe Audience Manager, you must include one of the identifiers (IDs) listed below. You can find more information on the ID formats in our [Index of Audience Manager IDs](../../reference/ids-in-aam.md).
 
 ### Adobe Audience Manager Unique User ID
 

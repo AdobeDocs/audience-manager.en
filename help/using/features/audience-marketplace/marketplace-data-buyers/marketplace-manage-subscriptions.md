@@ -244,7 +244,7 @@ As a data buyer, you're responsible for removing the traits in a cancelled feed 
 
 * Bulk removal with the [REST APIs](../../../api/rest-api-main/rest-api-main.md#concept_B512E6C3410A4304A672588A60A792B1) or the [Bulk Management Tools](../../../reference/bulk-management-tools/bulk-management-intro.md).
 
-* Manually search for affected segments and remove deactivated traits using [!UICONTROL Segment Builder]. See [Remove Traits from a Segment](../../../features/segments/segment-builder.md#task_D165E279D55A43C7952D936B207FD78A).
+* Manually search for affected segments and remove deactivated traits using [!UICONTROL Segment Builder]. See [Remove Traits from a Segment](../../../features/segments/segment-builder.md#segment-builder-controls-traits).
 
 >[!NOTE]
 >
