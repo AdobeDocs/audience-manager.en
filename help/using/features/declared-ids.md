@@ -250,7 +250,7 @@ DIL.create({
 
 >[!NOTE]
 >
->If you make an [!DNL API] call with a different `declaredID` combination, the new combination will be used for that call only. Further regular event calls will use the original `DIL.create` `declaredID` combination.
+>If you make an [!DNL API] call with a different `declaredID` combination, the new combination will be used for that call only. Further regular event calls will use the original `DIL.create`  `declaredID` combination.
 
 <pre class="js"><code>
 DIL.getDil('partner name').api.signals({...}).declaredId({ 
