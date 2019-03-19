@@ -304,12 +304,12 @@ To add export labels to a destination:
 1. Select a [!DNL Data Export Label]. Leave the check boxes blank if you don't want to set any export restrictions. Export labels include the following options:
     * **[!UICONTROL This destination may enable a combination with personally identifiable information (PII)]**
     * **[!UICONTROL This destination may be used for on-site ad targeting]**
-    * **[!UICONTROL This destination may be used for for off-site ad targeting]**
-    * **[!UICONTROL This destination may be used for for on-site ad personalization**
+    * **[!UICONTROL This destination may be used for off-site ad targeting]**
+    * **[!UICONTROL This destination may be used for on-site ad personalization]**
    >[!IMPORTANT]
    >
    >Export restrictions will not work unless you set a [matching export control](../../features/data-export-controls.md) on a data source.
-1. Click **[!UICONTROL Save]**.
+2. Click **[!UICONTROL Save]**.
 
 >[!MORE_LIKE_THIS]
 >
