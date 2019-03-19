@@ -166,7 +166,7 @@ DIL.create({
 
 For more information, see the legacy [!UICONTROL DIL] section in [Declared ID Variables](../../features/declared-ids.md#declared-id-variables).
 
-### Configure SDKs {#configure-sdks}
+### Configure SDKs {#configure-sdks-legacy-dil}
 
 Check the methods in your [!DNL SDK] code that let you pass [!UICONTROL declared IDs] from [!DNL Android] and [!DNL iOS] mobile devices. The variable names for the [!DNL Android] and [!DNL iOS] code libraries are the same:
 
