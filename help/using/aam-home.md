@@ -17,7 +17,7 @@ Audience Manager provides industry-leading services for online audience data man
    <td colname="col1"> <p> <b>New and Featured Items</b> </p> <p>Hover over each title to read a brief description. </p> <p> 
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
      <li><a href="features/administration/usage-limits.md#id-mapping-limits">ID Mapping Limits</a> </li>
-     <li><a href="features/data-sources/global-data-sources.md">Global Data Sources</a> </li> 
+     <li><a href="features/global-data-sources.md">Global Data Sources</a> </li> 
      <li><a href="api/dcs-intro/dcs-api-reference/id-monitoring-blacklisting.md"> ID Monitoring and Blacklisting</a> </li> 
       <li id="li_B41C333AF39441B39570428EEA19BAB6"><a href="features/segments/trait-recommendations.md"> Trait Recommendations</a> </li> 
       <li id="li_A260B70FDB7341F0B40201AE03DA1439"><a href="reporting/dynamic-reports/trait-trait-overlap-report.md"> Trait-to-Trait Overlap Report</a> </li> 
