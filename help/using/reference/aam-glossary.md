@@ -138,7 +138,7 @@ When working with the [!DNL Audience Manager] UI or API, you have the option of 
 
 * [!UICONTROL Traits]: an integration code is a field for an ID, SKU, or other value used by your internal business processes. Optional. 
 * [!UICONTROL Segments]: an integration code is a field for a user-defined ID or other company-specific information. Optional. 
-* [!UICONTROL Data Sources]: integration codes are required when you want to create cross-device data sources, use the Experience Cloud ID service, or work with [!UICONTROL Profile Merge Rules]. See [Create a Data Source](../features/manage-datasources.md#create-data-source) for more information.
+* [!UICONTROL Data Sources]: integration codes are required when you want to create cross-device data sources, use the Experience Cloud ID service, or work with [!UICONTROL Profile Merge Rules]. See [Create a Data Source](../features/data-sources/manage-datasources.md#create-data-source) for more information.
 
 ## K-L {#k-l}
 

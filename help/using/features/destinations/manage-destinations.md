@@ -313,4 +313,4 @@ To add export labels to a destination:
 
 >[!MORE_LIKE_THIS]
 >
->* [Create a Data Source](../../features/manage-datasources.md#create-data-source)
+>* [Create a Data Source](../../features/data-sources/manage-datasources.md#create-data-source)

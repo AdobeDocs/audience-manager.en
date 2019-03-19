@@ -13,7 +13,7 @@ uuid: de7f3608-c0cb-4049-973a-8be54525c600
 
 ## Overview {#overview}
 
-[!UICONTROL Data Export Controls] let you classify [data sources](../features/datasources-list-and-settings.md#data-sources-list-and-settings) and [destinations](../features/destinations/destinations.md#concept_5BDA346C376C4B719EA394108AB2735A). The classifications you apply determine when data can or cannot be exported to a destination. This feature consists of:
+[!UICONTROL Data Export Controls] let you classify [data sources](../features/data-sources/datasources-list-and-settings.md#data-sources-list-and-settings) and [destinations](../features/destinations/destinations.md#concept_5BDA346C376C4B719EA394108AB2735A). The classifications you apply determine when data can or cannot be exported to a destination. This feature consists of:
 
 * **[!UICONTROL Data Export Controls]**: When set on a data source, these controls restrict how that data source and its traits can be used.
 * **[!UICONTROL Data Export Controls]**: When set on a destination, these labels identify how the destination uses data.
@@ -90,5 +90,5 @@ Additionally, at least one export label must match an export control before data
 
 To get started, review the data source and destination documentation. These articles provide instructions about how to add export controls and labels to your data sources and destinations.
 
-* [Create a Data Source](../features/manage-datasources.md#create-data-source) 
+* [Create a Data Source](../features/data-sources/manage-datasources.md#create-data-source) 
 * [Add Data Export Labels to a Destination](../features/destinations/manage-destinations.md#add-data-export-labels)

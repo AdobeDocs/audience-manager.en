@@ -35,7 +35,7 @@ In the metadata file name, the child ID is an identifier that classifies the typ
 1. Placement
 1. Exchange
 1. Site
-1. Advertiser (if using integration codes in a [data source](../../../features/manage-datasources.md#details))
+1. Advertiser (if using integration codes in a [data source](../../../features/data-sources/manage-datasources.md#details))
 1. Insertion Order (IO)
 1. Vertical (i.e., a specific industry or business category like "computers," "automobiles," "real estate," etc.)
 1. Tactic

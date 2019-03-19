@@ -66,9 +66,9 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
         + [Supported Logical Operators](features/data-explorer/data-explorer-supported-operators.md)
     + [Data Export Controls](features/data-export-controls.md)
     + Data Sources {#data-sources}
-        + [Data Sources List and Settings](features/datasources-list-and-settings.md)
-        + [Create a Data Source](features/manage-datasources.md)
-        + [Global Data Sources](features/global-data-sources.md)
+        + [Data Sources List and Settings](features/data-sources/datasources-list-and-settings.md)
+        + [Create a Data Source](features/data-sources/manage-datasources.md)
+        + [Global Data Sources](features/data-sources/global-data-sources.md)
     + [Declared IDs](features/declared-ids.md)
     + [Derived Signals](features/derived-signals.md)
     + Destinations{#destinations}
