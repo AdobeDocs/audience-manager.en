@@ -235,7 +235,7 @@ To traffic the `dil.js` file in GTM:
 1. Open the tag to edit it and:
 
     * Name the tag. 
-    * Select **[!UICONTROL Custom HTML Tag]**from the **[!UICONTROL Tag Type]** drop-down list. 
+    * Select **[!UICONTROL Custom HTML Tag]** from the **[!UICONTROL Tag Type]** drop-down list. 
     * In the HTML field, place the [!UICONTROL DIL] code (library + the custom code) within script tags `<script>DIL code</script>`. 
     * Click **[!UICONTROL Save]**.
 

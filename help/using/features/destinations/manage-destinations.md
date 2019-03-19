@@ -164,8 +164,8 @@ This section contains options that let you set a base [!DNL URL] and data delimi
 
 | Field | Description |
 |--- |--- |
-|Base URL|The base part of a standard `HTTP` [!DNL URL] that does not change. Also, you need to place the `%ALIAS%` [placeholder macro](../../features/destinations/destination-macros.md#destination-macros-defined) in the base URL. Example: `https://www.myCompany.com/%alias%...`|
-|Secure URL|The base part of a secure `HTTPS` [!DNL URL] that does not change. Also, you need to place the `%ALIAS%`  [placeholder macro](../../features/destinations/destination-macros.md#destination-macros-defined) in the base URL. Example: `https://www.myCompany.com/%alias%...`|
+|Base URL|The base part of a standard `HTTP` [!DNL URL] that does not change. Also, you need to place the `%ALIAS%`  [placeholder macro](../../features/destinations/destination-macros.md#destination-macros-defined) in the base URL. Example: `https://www.myCompany.com/%alias%...`|
+|Secure URL|The base part of a secure `HTTPS` [!DNL URL] that does not change. Also, you need to place the `%ALIAS%`   [placeholder macro](../../features/destinations/destination-macros.md#destination-macros-defined) in the base URL. Example: `https://www.myCompany.com/%alias%...`|
 |Delimiter|The symbol that separates the segment variables in the [!DNL URL] string. This is usually a comma or semi-colon. Get this information from your destination partner.|
 
 ### Segment Mappings {#segment-mappings}
