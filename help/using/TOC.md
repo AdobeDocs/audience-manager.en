@@ -237,6 +237,9 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
     + [Flash DIL](dil/dil-flash.md)
 + Implementation and Integration Guides{#implemenation-integration-guides}
     + [GHOST DFP Activate Delete](integration/aam-dfp.md)
+    + [GHOST OAS as an Audience Manager Destination](integration/integrating-third-party/open-ad-server-destination.md)
+    + [GHOST OpenX as an Audience Manager Destination](integration/integrating-third-party/openx-destination.md)
+    + [GHOST Send Segments to a Google AdWords Remarketing List](integration/integrating-third-party/rlsa-integration.md)
     + [Implementation and Integration Guides](integration/implementation-and-integration.md)
     + [Data Integration Methods](integration/data-integration-methods.md)
     + Integrate DFP using Google Publisher Tags (GPT){#integrate-dfp-using-gpt}
@@ -283,6 +286,8 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
             + [File PGP Encryption for Inbound Data Types](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)
             + [File Compression for Inbound Data Transfer Files](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
             + [Sample Message to Partners after Inbound Processing](integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)
+    + [GHOST Integrate Audience Manager With Target](integration/integration-other-solutions/aam-target-integration.md)
+    + [GHOST Implement the Audience Management Module](integration/integration-other-solutions/audience-management-module.md)
     + Integration with Other Solutions {#integration-other-solutions}
       + [Integrate Audience Manager With Target](integration/integration-other-solutions/aam-target-integration.md)
       + [Implement the Audience Management Module](integration/integration-other-solutions/audience-management-module.md)
