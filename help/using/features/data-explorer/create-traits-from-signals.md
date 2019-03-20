@@ -24,9 +24,7 @@ To create new traits from the **[!UICONTROL Signal Dashboard]**, identify the si
 
 ![](assets/signals-create-trait.png)
 
-You'll be redirected to the **[Trait Builder](../../../features/traits/about-trait-builder.md#concept_13D6537EE5D0459F870C58822AD5400A)** to create your new trait(s).
-
-To create traits from multiple signals, use **[Signal Search](../../../features/data-explorer/create-traits-from-signals.md#create-traits-from-signal-search#concept_D7D8B9F4A7844324952DD893DD9D851F)**.
+You'll be redirected to the **[Trait Builder](../../features/traits/about-trait-builder.md)** to create your new trait(s).
 
 ## Create Traits from Signal Search {#create-traits-from-signal-search}
 
@@ -47,4 +45,4 @@ Search for specific signals and create rule-based or onboarded traits based on t
    >
    >![](assets/signals-used-traits.png)
 
-1. Use the **[Trait Builder](../../../features/traits/about-trait-builder.md#concept_13D6537EE5D0459F870C58822AD5400A)** to create your new traits.
+1. Use the **[Trait Builder](../../features/traits/about-trait-builder.md)** to create your new traits.
