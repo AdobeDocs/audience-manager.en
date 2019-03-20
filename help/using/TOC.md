@@ -59,9 +59,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
             + [Advanced Search for Adobe Analytics](features/data-explorer/data-explorer-signals-search/data-explorer-search-analytics.md)
             + [Filter Search Results](features/data-explorer/data-explorer-signals-search/data-explorer-filter-results.md)
             + [Save Search Criteria](features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md)
-        + Create Traits from Signals{#create-traits-from-signals}
-            + [Create Traits from Signal Dashboard](features/data-explorer/data-explorer-create-trait/data-explorer-create-dashboard.md)
-            + [Create Traits from Signal Search](features/data-explorer/data-explorer-create-trait/data-explorer-create-search.md)
+        + [Create Traits from Signals](features/data-explorer/create-traits-from-signals.md)
         + [Backfill Trait Realizations](features/data-explorer/data-explorer-trait-backfill.md)
         + [Supported Logical Operators](features/data-explorer/data-explorer-supported-operators.md)
     + [Data Export Controls](features/data-export-controls.md)
