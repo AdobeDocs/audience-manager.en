@@ -23,7 +23,7 @@ Describes the required fields, syntax, naming conventions and file sizes you nee
 
 [!DNL FTP] file names contain the following required and optional elements:
 
-`fftp_dpm_DPID[_DPID_TARGET_DATA_OWNER]_TIMESTAMP(.sync|.overwrite)[.SPLIT_NUMBER][.gz]`
+`ftp_dpm_DPID[_DPID_TARGET_DATA_OWNER]_TIMESTAMP(.sync|.overwrite)[.SPLIT_NUMBER][.gz]`
 
 >[!NOTE] {importance="high"}
 >
