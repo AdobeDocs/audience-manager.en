@@ -116,7 +116,7 @@ For example, say you want to select several advertisers in the [!UICONTROL Overl
 
 Click the refresh icon to run a report or reload your data set. When automatic updates are off, click refresh to run or update the report.
 
-### Search
+### Search {#search}
 
 Search is represented by a generic magnifying glass icon (not shown). The search field is hidden until you click on the selection labels on the left side of the screen. The table below describes the location of the search tool for each report.  
 

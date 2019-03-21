@@ -32,14 +32,14 @@ The tables list the current limits by item type. You cannot create new traits, s
 
 ### Trait Limits
 
-| Trait Type                 | Maximum Limit                                                                                  |
-| -------------------------- | ---------------------------------------------------------------------------------------------- |
-| Total Traits               | 100,000                                                                                        |
+| Trait Type    | Maximum Limit   |
+| -------------------------- | ------------------------------------- |
+| Total Traits               | 100,000   |
 | Total Trait Qualifications | 100,000. For more information on trait qualification, see the  Trait Qualifications Reference. |
-| Algorithmic                | 50                                                                                             |
-| Rule Based                 | 100,000                                                                                        |
-| Onboarded                  | 100,000                                                                                        |
-| Folder Traits              | 2,000                                                                                          |
+| Algorithmic                | 50       |
+| Rule Based                 | 100,000  |
+| Onboarded                  | 100,000  |
+| Folder Traits              | 2,000    |
 
 ### Segment Limits
 
@@ -61,9 +61,9 @@ The tables list the current limits by item type. You cannot create new traits, s
 
 | Item  | Maximum Limit |
 | -------- | ----- |
-| Total Algorithmic Models                      | 20                                                                                                                                                                              |
-| Algorithmic Models maximum audience size      | 25,000,000  Note that this limit cannot be increased. You can decrease audience sizes by selecting fewer data sources for the model or by selecting a shorter look-back window. |
-| Maximum number of excluded traits for a model | 500                                                                                                                                                                             |
+| Total Algorithmic Models  | 20 |
+| Algorithmic Models maximum audience size | 25,000,000  Note that this limit cannot be increased. You can decrease audience sizes by selecting fewer data sources for the model or by selecting a shorter look-back window. |
+| Maximum number of excluded traits for a model | 500 |
 
 ### Folder Limits
 
