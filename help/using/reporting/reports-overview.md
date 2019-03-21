@@ -11,7 +11,7 @@ Individual sections describe available reports, their purposes, and typical uses
 
 For information describing the time frames when Audience Manager receives information to populate reports, see [How Data Delivery and File Processing Times Affect Reports](/help/using/reference/reporting-file-transfer-timeframe.md).
 
-* [Audience Optimization Reports](/help/using/reporting/audience-optimization-reports)
+* [Audience Optimization Reports](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)
 
   The Audience Optimization reports use data visualization methods to return information on the destinations in your Audience Manager account. In each report, you can click on almost any data point to return detailed information about that item. These audience optimization insights can be applied to several use cases across advertising and publishing channels, but are not available by default. Contact your Audience Manager consultant to get started.
 
