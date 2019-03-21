@@ -297,7 +297,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
     + [Publisher Use Cases](reference/publisher-use-cases.md)
     + [Beta Environment](reference/beta-environment.md)
     + [Boolean Expressions in Trait and Segment Builder](reference/boolean-expressions-tsb.md)
-    + Bulk Management Tools{#bulk-management-tools}
+    + Bulk Management Tools{#bult-management-tools}
         + [Getting Started With Bulk Management](reference/bulk-management-tools/bulk-management-intro.md)
         + [Bulk Requests](reference/bulk-management-tools/bulk-requests.md)
         + [Bulk Updates](reference/bulk-management-tools/bulk-updates.md)
