@@ -59,9 +59,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
             + [Advanced Search for Adobe Analytics](features/data-explorer/data-explorer-signals-search/data-explorer-search-analytics.md)
             + [Filter Search Results](features/data-explorer/data-explorer-signals-search/data-explorer-filter-results.md)
             + [Save Search Criteria](features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md)
-        + Create Traits from Signals{#create-traits-from-signals}
-            + [Create Traits from Signal Dashboard](features/data-explorer/data-explorer-create-trait/data-explorer-create-dashboard.md)
-            + [Create Traits from Signal Search](features/data-explorer/data-explorer-create-trait/data-explorer-create-search.md)
+        + [Create Traits from Signals](features/data-explorer/create-traits-from-signals.md)
         + [Backfill Trait Realizations](features/data-explorer/data-explorer-trait-backfill.md)
         + [Supported Logical Operators](features/data-explorer/data-explorer-supported-operators.md)
     + [Data Export Controls](features/data-export-controls.md)
@@ -126,6 +124,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
         + [Trait Qualification Reference](features/traits/trait-qualification-reference.md)
     + [Visitor Profile Viewer](features/visitor-profile-viewer.md)
 + Reporting{#reporting}
+    + [Reports Overview](reporting/reports-overview.md)
     + [Reports Dashboard](reporting/reports-dashboard.md)
     + [General Reports](reporting/general-reports.md)
     + [Trend Reports](reporting/trend-reports.md)
@@ -173,7 +172,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
     + [Onboarding Status Report Overview](reporting/onboarding-status-report.md)
     + [Outbound File History](reporting/outbound-history-report.md)
     + [Counting Unique Users in Overlap and General Reports](reporting/unique-user-counts.md)
-    + [Data Sampling and Error Rates in Selected Audience Manager   Reports...](reporting/report-sampling.md)
+    + [Data Sampling and Error Rates in Selected Audience Manager Reports](reporting/report-sampling.md)
 + API and SDK Code{#api-and-sdk-code}
     + [API and SDK Code Overview](api/api.md)
     + [Audience Manager API Code Migration](api/api-swagger-migration.md)
@@ -185,10 +184,11 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
             + [Receive Data From the DCS](api/dcs-intro/dcs-event-calls/dcs-url-receive.md)
         + DCS APIs{#dcs-apis}
             + [DCS APIs for Server-to-Server Data Transfers](api/dcs-intro/dcs-s2s/dcs-s2s.md)
-            + [Get User IDs and Regions From a DCS   Response](api/dcs-intro/dcs-s2s/dcs-aam-ids.md)
-            + [Get User IDs and Regions Through the Experience Cloud ID...](api/dcs-intro/dcs-s2s/dcs-mcid-ids.md)
+            + [Get User IDs and Regions From a DCS Response](api/dcs-intro/dcs-s2s/dcs-aam-ids.md)
+            + [Get User IDs and Regions Through the Experience Cloud ID Service](api/dcs-intro/dcs-s2s/dcs-mcid-ids.md)
             + [Making Server-to-Server DCS API Calls](api/dcs-intro/dcs-s2s/dcs-s2s-calls.md)
         + DCS API Reference{#dcs-api-reference}
+            + [DCS API Reference Overview](api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md)
             + [DCS API Methods](api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
             + [DCS Error Codes, Messages, and Examples](api/dcs-intro/dcs-api-reference/dcs-error-codes.md)
             + [ID Monitoring and Blacklisting](api/dcs-intro/dcs-api-reference/id-monitoring-blacklisting.md)
@@ -239,6 +239,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
     + [Implementation and Integration Guides](integration/implementation-and-integration.md)
     + [Data Integration Methods](integration/data-integration-methods.md)
     + Integrate DFP using Google Publisher Tags (GPT){#integrate-dfp-using-gpt}
+        + [Integrate DFP using GPT Overview](integration/gpt-aam-destination/gpt-aam-overview.md)
         + [Sending Segments to DFP Using GPT](integration/gpt-aam-destination/gpt-aam-requirements.md)
         + [Create a GPT Destination](integration/gpt-aam-destination/gpt-aam-create-destination.md)
         + [Modify the GPT setTargeting API Call](integration/gpt-aam-destination/gpt-aam-modify-api.md)
@@ -255,18 +256,21 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
         + [Capturing Campaign Impression Data via Pixel Calls](integration/media-data-integration/impression-data-pixels.md)
         + [Capturing Campaign Click Data via Pixel Calls](integration/media-data-integration/click-data-pixels.md)
     + Receiving Audience Data{#receiving-audience-data}
+        + [Receiving Audience Data Overview](integration/receiving-audience-data/receiving-audience-data-overview.md)
         + [ID Synchronization for Outbound Data Transfers](integration/receiving-audience-data/id-sync-outbound.md)
         + Real-Time Outbound Data Transfers{#real-time-outbound-transfers}
             + [Real-Time Outbound Data Transfers](integration/receiving-audience-data/real-time-outbound-transfers/real-time-outbound-transfers.md)
             + [Digitally Signed HTTP Requests](integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md)
             + [OAuth 2.0 Integration for Real-Time Outbound Transfers](integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md)
         + Batch Outbound Data Transfers{#batch-outbound-data-transfers}
+            + [Batch Outbound Data Transfers overview](integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md)
             + [Outbound Data File Name: Syntax and Examples](integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md)
             + [Transfer-Control Files for Log File Transfers](integration/receiving-audience-data/batch-outbound-transfers/transfer-control-files.md)
             + [Outbound Template Macros](integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)
             + [Outbound Macro Examples](integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md)
             + [Leverage Amazon S3 Cross-Account Bucket Permissions for Your Outbound   Files](integration/receiving-audience-data/batch-outbound-transfers/authorize-s3-cross-bucket.md)
     + Sending Audience Data{#sending-audience-data}
+        + [Sending Audience Data](integration/sending-audience-data/send-audience-data.md)
         + Real-Time Inbound Data Integration {#real-time-inbound-data-integration}
             + [Technical Specifications for Inbound, Real-Time Data Transfers](integration/sending-audience-data/real-time-data-integration/real-time-tech-specs.md)
             + [Pixel-based Data Transfers](integration/sending-audience-data/real-time-data-integration/pixel-based-data-transfer.md)
@@ -277,8 +281,8 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
             + [ID Synchronization for Inbound Data Transfers](integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md)
             + [Name and Content Requirements for ID Synchronization Files](integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md)
             + [Inbound Data File Contents: Syntax, Invalid Characters, Variables, and   Examples](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
-            + [Amazon S3 Name and File Size Requirements for Inbound Data...](integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
-            + [FTP Name and File Size Requirements for Inbound Data Files...](integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
+            + [Amazon S3 Name and File Size Requirements for Inbound Data Files](integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
+            + [FTP Name and File Size Requirements for Inbound Data Files](integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
             + [File PGP Encryption for Inbound Data Types](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)
             + [File Compression for Inbound Data Transfer Files](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
             + [Sample Message to Partners after Inbound Processing](integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)
@@ -287,12 +291,13 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
       + [Implement the Audience Management Module](integration/integration-other-solutions/audience-management-module.md)
     + [Server-Side Forwarding (Admin Guide)](https://docs.adobe.com/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html)
 + Reference{#reference.md}
+    + [Reference Overview](reference/reference.md)
     + [Amazon S3: About](reference/amazon-s3.md)
     + [Advertiser Use Cases](reference/advertiser-use-cases.md)
     + [Publisher Use Cases](reference/publisher-use-cases.md)
     + [Beta Environment](reference/beta-environment.md)
     + [Boolean Expressions in Trait and Segment Builder](reference/boolean-expressions-tsb.md)
-    + Bulk Management Tools{#bult-management-tools}
+    + Bulk Management Tools{#bulk-management-tools}
         + [Getting Started With Bulk Management](reference/bulk-management-tools/bulk-management-intro.md)
         + [Bulk Requests](reference/bulk-management-tools/bulk-requests.md)
         + [Bulk Updates](reference/bulk-management-tools/bulk-updates.md)
