@@ -171,7 +171,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
     + [Onboarding Status Report Overview](reporting/onboarding-status-report.md)
     + [Outbound File History](reporting/outbound-history-report.md)
     + [Counting Unique Users in Overlap and General Reports](reporting/unique-user-counts.md)
-    + [Data Sampling and Error Rates in Selected Audience Manager   Reports...](reporting/report-sampling.md)
+    + [Data Sampling and Error Rates in Selected Audience Manager Reports](reporting/report-sampling.md)
 + API and SDK Code{#api-and-sdk-code}
     + [API and SDK Code Overview](api/api.md)
     + [Audience Manager API Code Migration](api/api-swagger-migration.md)
@@ -183,8 +183,8 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
             + [Receive Data From the DCS](api/dcs-intro/dcs-event-calls/dcs-url-receive.md)
         + DCS APIs{#dcs-apis}
             + [DCS APIs for Server-to-Server Data Transfers](api/dcs-intro/dcs-s2s/dcs-s2s.md)
-            + [Get User IDs and Regions From a DCS   Response](api/dcs-intro/dcs-s2s/dcs-aam-ids.md)
-            + [Get User IDs and Regions Through the Experience Cloud ID...](api/dcs-intro/dcs-s2s/dcs-mcid-ids.md)
+            + [Get User IDs and Regions From a DCS Response](api/dcs-intro/dcs-s2s/dcs-aam-ids.md)
+            + [Get User IDs and Regions Through the Experience Cloud ID Service](api/dcs-intro/dcs-s2s/dcs-mcid-ids.md)
             + [Making Server-to-Server DCS API Calls](api/dcs-intro/dcs-s2s/dcs-s2s-calls.md)
         + DCS API Reference{#dcs-api-reference}
             + [DCS API Methods](api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
@@ -275,8 +275,8 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
             + [ID Synchronization for Inbound Data Transfers](integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md)
             + [Name and Content Requirements for ID Synchronization Files](integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md)
             + [Inbound Data File Contents: Syntax, Invalid Characters, Variables, and   Examples](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
-            + [Amazon S3 Name and File Size Requirements for Inbound Data...](integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
-            + [FTP Name and File Size Requirements for Inbound Data Files...](integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
+            + [Amazon S3 Name and File Size Requirements for Inbound Data Files](integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
+            + [FTP Name and File Size Requirements for Inbound Data Files](integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
             + [File PGP Encryption for Inbound Data Types](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)
             + [File Compression for Inbound Data Transfer Files](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
             + [Sample Message to Partners after Inbound Processing](integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)
@@ -291,7 +291,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
     + [Publisher Use Cases](reference/publisher-use-cases.md)
     + [Beta Environment](reference/beta-environment.md)
     + [Boolean Expressions in Trait and Segment Builder](reference/boolean-expressions-tsb.md)
-    + Bulk Management Tools{#bult-management-tools}
+    + Bulk Management Tools{#bulk-management-tools}
         + [Getting Started With Bulk Management](reference/bulk-management-tools/bulk-management-intro.md)
         + [Bulk Requests](reference/bulk-management-tools/bulk-requests.md)
         + [Bulk Updates](reference/bulk-management-tools/bulk-updates.md)
