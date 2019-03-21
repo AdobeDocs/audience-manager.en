@@ -21,7 +21,7 @@ With [!UICONTROL Trait Recommendations], when you build or edit a segment in [Se
 **In a nutshell:**
 
 * Audience Manager shows first party traits and third party traits from your currently subscribed data feeds as recommended traits.
-* Audience Manager shows a maximum of five traits similar to the one in the segment rule.
+* Audience Manager shows a maximum of fifty traits similar to the one in the segment rule.
 * You can filter out the data sources from which you don't want to see any recommendations.
 * When calculating similarities, Audience Manager considers [UUIDs](../../reference/ids-in-aam.md) that qualified for the trait during the last 30 days.
 * If you see the error message "No similar traits found. Trait(s) may be too new.", this means that either there was no activity for that trait in the last 30 days, or Audience Manager has not yet updated the recommendations for that trait. Please try again in 24 hours.
@@ -61,7 +61,7 @@ When building or editing a segment in [Segment Builder](segment-builder.md), you
 
 1. In **Audience Data > Segments**, select **Add New**.
 1. In the **Traits** drop-down box, add at least one trait to the segment rule.
-1. You can now see recommended traits that are similar to the traits you added to the segment rule.
+1. You can now see recommended traits that are similar to the traits you added to the segment rule. Scroll down to see all recommended traits.
 1. (Optional) To exclude recommended traits from certain data sources, click the **X** symbol for the data sources you want to exclude.
     > [!NOTE]
     > 
@@ -72,24 +72,24 @@ When building or editing a segment in [Segment Builder](segment-builder.md), you
 
 1. Go to **[!UICONTROL Audience Data] > [!UICONTROL Segments]**, select the segment you want to edit and press ![Edit](assets/edit-button.png).
 1. Scroll down to the [!UICONTROL Traits] drop-down box.
-1. You can see recommended traits, that are similar to the traits already in the segment rule.
+1. You can see recommended traits, that are similar to the traits already in the segment rule. Scroll down to see all recommended traits.
 1. (Optional) To exclude recommended traits from certain data sources, click the **X** symbol for the data sources you want to exclude.
     > [!NOTE]
     > 
     >The excluded data sources are shown just above the list of recommended traits. Press **X** in the grey box to remove the exclusions and see results from the respective data sources again.
 1. To add recommended traits to the segment rule, click the **+** symbol.
 
-When you create or edit a segment and add a trait to the segment rule, you see a maximum of five recommended traits, similar to the one you have added. If the segment rule contains more than one trait, Audience Manager uses a round robin method to show the best match for each trait, then the second-best match for each trait, and so on, for the largest five traits by population, in the segment rule.
+When you create or edit a segment and add a trait to the segment rule, you see a maximum of fifty recommended traits,similar to the one you have added. If the segment rule contains more than one trait, Audience Manager uses a round robin method to show the best match for each trait, then the second-best match for each trait, and so on, for the largest fifty traits by population, in the segment rule.
 
 ![Three Base Traits](assets/three-base-traits.png)
 
 For example, when there are three traits in the segment rule, as shown below, the recommended traits are:
 
 1. Best match for trait 3 (the trait with the largest population);
-1. Best match for trait 1;
-1. Best match for trait 2;
-1. Second-best match for trait 3;
-1. Second-best match for trait 1.
+2. Best match for trait 1;
+3. Best match for trait 2;
+4. Second-best match for trait 3;
+5. Second-best match for trait 1, and so on until you get to fifty traits.
 
 To get recommendations for a specific trait, you can click on the traits in the segment rule (1) or in the recommended traits view (2).
 
@@ -109,7 +109,7 @@ Clicking on a trait opens a pop-up window, as shown in the image below. If the r
 
 ## How it Works
 
-To produce trait recommendations, Audience Manager computes the [Jaccard similarity](https://en.wikipedia.org/wiki/Jaccard_index) between the target trait and every other trait that your account has access to, including third-party data. Audience Manager then displays up to five traits that have the highest similarity.
+To produce trait recommendations, Audience Manager computes the [Jaccard similarity](https://en.wikipedia.org/wiki/Jaccard_index) between the target trait and every other trait that your account has access to, including third-party data. Audience Manager then displays up to fifty traits that have the highest similarity.
 
 ## Trait Similarity Score
 
