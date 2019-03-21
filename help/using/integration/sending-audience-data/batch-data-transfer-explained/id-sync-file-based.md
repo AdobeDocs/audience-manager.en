@@ -21,7 +21,7 @@ Describes the required fields, syntax, and naming conventions used for file-base
 
 ID file names contain the following required and optional elements:
 
-`adobe_id_ *`MASTERDPID`*_ *`DPID[_DPID_DPID`*]_ *`TIMESTAMP`*.sync[. *`SPLIT_NUMBER`*][.gz]`
+`adobe_id_`*`MASTERDPID_DPID[_DPID_DPID`*`]_`*`TIMESTAMP`*`.sync[.`*`SPLIT_NUMBER`*`][.gz]`
 
 <table id="table_727A465D7C38419CA0750EF32DEDA2FD"> 
  <thead> 
@@ -76,7 +76,7 @@ The following examples show properly formatted files names. Your file names coul
 
 The contents of an ID file include the following elements:
 
-*`UUID`*`<tab>`*`UUID`*`<tab>`*`UUID`*`<tab>`*`UUID`*
+*`UUID`* `<tab>`*`UUID`* `<tab>`*`UUID`*`<tab>` *`UUID`*
 
 The file contains user IDs ([!DNL UUID]). In each row, separate the IDs with a tab. The following example shows a properly formatted ID file. Your contents could look similar.
 
