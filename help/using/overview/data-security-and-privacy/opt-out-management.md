@@ -29,7 +29,7 @@ The global opt-out represents an opt-out across Audience Manager and other Adobe
   </tr> 
   <tr> 
    <td colname="col1"> <p>Direct API calls to Audience Manager </p> </td> 
-   <td colname="col2"> <p>You can opt-out from data collection by all Audience Manager brands by making a call to the DCS API below and include the <a href="../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8"> Audience Manager User ID </a>: </p> <p> <code> curl -i "https://www.demdex.net/demoptout.jpg" --cookie "demdex=12345678901234567890123456789012345678;dextp=12;DST=12" </code> </p> <p>As a result, we will set <code>demdex=NOTARGET</code> and <code>dextp=NOTARGET</code> cookies for the submitted Audience Manager User ID. </p> </td> 
+   <td colname="col2"> <p>You can opt-out from data collection by all Audience Manager brands by making a call to the DCS API below and include the <a href="../../reference/ids-in-aam.md"> Audience Manager User ID </a>: </p> <p> <code> curl -i "https://www.demdex.net/demoptout.jpg" --cookie "demdex=12345678901234567890123456789012345678;dextp=12;DST=12" </code> </p> <p>As a result, we will set <code>demdex=NOTARGET</code> and <code>dextp=NOTARGET</code> cookies for the submitted Audience Manager User ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mobile devices </p> </td> 
@@ -54,9 +54,9 @@ Following the opt-out requests described above:
 
 ## Partner Level Opt-Out {#partner-opt-out}
 
-The partner-level opt-out permits opting out from data collection by specific Audience Manager partners. The partner-level opt-out works with [Declared ID](../../features/declared-ids.md#concept_2CD1CC1558354F38B3DEDBE09AE8E869) calls, as described in the sections below. Following a partner-level opt-out:
+The partner-level opt-out permits opting out from data collection by specific Audience Manager partners. The partner-level opt-out works with [Declared ID](../../features/declared-ids.md) calls, as described in the sections below. Following a partner-level opt-out:
 
-* The last device ID ([Audience Manager Unique User ID](../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8)) linked to the [CRM ID](../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8) is opted out of data collection. 
+* The last device ID ([Audience Manager Unique User ID](../../reference/ids-in-aam.md)) linked to the [CRM ID](../../reference/ids-in-aam.md) is opted out of data collection. 
 
 * Audience Manager will cease all data collection, segmentation or activation going forward for the last device ID linked to the CRM ID. 
 * No historical data is deleted.
@@ -79,7 +79,7 @@ When Audience Manager receives a partner-level opt-out request, the JSON returne
 
 <!-- 
 
-<p>See <a href="../../overview/data-security-and-privacy/data-privacy.md#concept_C1E36C6BF4C0461F9D31687E275DC46A"> Data Privacy </a> for more information about opting-out of data collection. </p>
+<p>See <a href="../../overview/data-security-and-privacy/data-privacy.md"> Data Privacy </a> for more information about opting-out of data collection. </p>
 
  -->
 
@@ -87,7 +87,7 @@ When Audience Manager receives a partner-level opt-out request, the JSON returne
 
 **Examples**
 
-You can make a declared ID opt-out request with the `d_cid` and `d_cid_ic` key-value pairs. The legacy parameters like `d_dpid` and `d_dpuuid` still work, but are considered deprecated. See [CID Replaces DPID and DPUUID](../../reference/cid.md#concept_E9DE716F22E8491AB27057DB92B79081). In the examples, *italics* indicates a variable placeholder.
+You can make a declared ID opt-out request with the `d_cid` and `d_cid_ic` key-value pairs. The legacy parameters like `d_dpid` and `d_dpuuid` still work, but are considered deprecated. See [CID Replaces DPID and DPUUID](../../reference/cid.md). In the examples, *italics* indicates a variable placeholder.
 
 **Opt-Outs With CID and CID_IC**
 

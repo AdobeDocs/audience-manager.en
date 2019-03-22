@@ -63,6 +63,6 @@ With serialized key-value pairs, you must specify the markers that separate valu
 
 >[!MORE_LIKE_THIS]
 >
->* [Send Data to the DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md#concept_9F6C569C1E444002ADF2A43516A9F284)
->* [Key-Value Prefixes and Variables Supported by the DCS](../../../api/dcs-intro/dcs-api-reference/dcs-keys.md#concept_5ACDD7D09D0441A6AC26F7D345CD19D5)
->* [Key-Value Pairs Explained](../../../reference/key-value-pairs-explained.md#concept_E4236E003076483AA939791FE2492B49)
+>* [Send Data to the DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md)
+>* [Key-Value Prefixes and Variables Supported by the DCS](../../../api/dcs-intro/dcs-api-reference/dcs-keys.md)
+>* [Key-Value Pairs Explained](../../../reference/key-value-pairs-explained.md)

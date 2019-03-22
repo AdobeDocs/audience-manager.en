@@ -63,7 +63,7 @@ A completed mapping could look similar to this:
 
 >[!MORE_LIKE_THIS]
 >
->* [Destinations](../../features/destinations/destinations.md#concept_5BDA346C376C4B719EA394108AB2735A)
+>* [Destinations](../../features/destinations/destinations.md)
 >* [Create a URL Destination](../../features/destinations/manage-destinations.md#configure-url-destination)
 >* [About AdWords Remarketing Lists](https://support.google.com/adwords/answer/2472738)
 >* [How AdWords Remarketing Works](https://support.google.com/adwords/answer/2454000)

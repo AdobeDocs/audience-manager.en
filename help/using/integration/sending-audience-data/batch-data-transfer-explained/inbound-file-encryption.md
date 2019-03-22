@@ -15,7 +15,7 @@ As an option, you can encrypt data files with [!DNL PGP] encryption when sending
 
 >[!IMPORTANT]
 >
->We currently don't support encryption and compression on the same inbound data file. You can select to either encrypt or [compress](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md#concept_7D6FA8BA759143EFBEDB16589BF6EC40) your inbound files.
+>We currently don't support encryption and compression on the same inbound data file. You can select to either encrypt or [compress](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) your inbound files.
 
 Follow the steps outlined below to encrypt inbound data files.
 

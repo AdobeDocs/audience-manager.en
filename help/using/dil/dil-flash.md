@@ -124,14 +124,14 @@ See the table for examples:
 
 **DIL/Analytics Data as Unused Signals**
 
-Audience Manager accepts Analytics [!UICONTROL Props], [!UICONTROL eVars], and events even without a corresponding trait. In this case, the data is unavailable for trait creation and appears in the [Unused Signals report](../reporting/dynamic-reports/unused-signals.md#concept_D3A6A3AD84AE47589699A13A8F971BE0) instead. To make the most of this information, create Audience Manager traits that match the Analytics data passed in by the [!UICONTROL Flash DIL] library. 
+Audience Manager accepts Analytics [!UICONTROL Props], [!UICONTROL eVars], and events even without a corresponding trait. In this case, the data is unavailable for trait creation and appears in the [Unused Signals report](../reporting/dynamic-reports/unused-signals.md) instead. To make the most of this information, create Audience Manager traits that match the Analytics data passed in by the [!UICONTROL Flash DIL] library. 
 
 >[!MORE_LIKE_THIS]
 >
 >* [Traits](../features/traits/trait-details-page.md)
->* [Signals, Traits, and Segments](../reference/signal-trait-segment.md#concept_7550A48FE3F1415FACF0E077CFAB155F)
->* [Key-Value Pairs Explained](../reference/key-value-pairs-explained.md#concept_E4236E003076483AA939791FE2492B49)
->* [Prefix Requirements for Key Variables](../features/traits/trait-variable-prefixes.md#reference_E6F1E4257F664FC2A797C406BF147ABC)
+>* [Signals, Traits, and Segments](../reference/signal-trait-segment.md)
+>* [Key-Value Pairs Explained](../reference/key-value-pairs-explained.md)
+>* [Prefix Requirements for Key Variables](../features/traits/trait-variable-prefixes.md)
 
 ## Flash DIL ActionScript Library {#flash-dil-actionscript}
 

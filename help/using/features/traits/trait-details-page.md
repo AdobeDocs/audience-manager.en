@@ -24,13 +24,13 @@ The [!UICONTROL Trait Graph] provides at-a-glance performance metrics for your s
 [!UICONTROL Unique Trait Realizations] represent a count of unique users that added this trait to their profile over the given time range. The [!UICONTROL Total Trait Population] indicates the number of unique users currently qualified for this trait.
 
 * For rule-based traits, trait qualification happens in real-time, as users qualify for a trait in their browser.
-* For onboarded traits, trait qualification happens after an inbound file is processed, i.e. the inbound file is [fed into Audience Manager](../../faq/faq-inbound-data-ingestion.md#concept_CA81A40C5DD643F899490355C737CE9C) and that is when the trait qualification happens.
+* For onboarded traits, trait qualification happens after an inbound file is processed, i.e. the inbound file is [fed into Audience Manager](../../faq/faq-inbound-data-ingestion.md) and that is when the trait qualification happens.
 
 ![](assets/traitGraph.png)
 
 ## Trait Expression {#trait-expression}
 
-The [!UICONTROL Trait Expression] section shows you the criteria users must meet to qualify for the trait. These rules are set when you [create or edit a trait](../../features/traits/about-trait-builder.md#concept_BCDC4BCAEB4A4879AFA4A9B98D9ED369).
+The [!UICONTROL Trait Expression] section shows you the criteria users must meet to qualify for the trait. These rules are set when you [create or edit a trait](../../features/traits/about-trait-builder.md).
 
 ![](assets/traitExpression.png)
 

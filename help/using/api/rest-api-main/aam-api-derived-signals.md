@@ -13,7 +13,7 @@ uuid: 698019bc-d7f6-41e0-a78a-1ab0bf0e65a0
 
 <!-- c_separator.xml -->
 
-For more information about derived signals, see [Derived Signals](../../features/derived-signals.md#concept_36FF7303F39E4748AC048D08F9E371C6).
+For more information about derived signals, see [Derived Signals](../../features/derived-signals.md).
 
 ## Create a New Derived Signal {#create-new-derived-signal}
 

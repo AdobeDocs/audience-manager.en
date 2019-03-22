@@ -19,7 +19,7 @@ Describes the required and optional steps that let you create an algorithmic mod
 
 ### Model Builder Section
 
-[!UICONTROL Model Builder] consists of the [!UICONTROL Basic Information] and [!UICONTROL Configuration] sections. To create a model, complete the required fields in these two sections. Save your model to start the algorithm. [!DNL Audience Manager] sends you an automated notification after the first data run completes. After you receive the email, you can go to [Trait Builder](../../features/traits/about-trait-builder.md#concept_13D6537EE5D0459F870C58822AD5400A) and create algorithmic traits.
+[!UICONTROL Model Builder] consists of the [!UICONTROL Basic Information] and [!UICONTROL Configuration] sections. To create a model, complete the required fields in these two sections. Save your model to start the algorithm. [!DNL Audience Manager] sends you an automated notification after the first data run completes. After you receive the email, you can go to [Trait Builder](../../features/traits/about-trait-builder.md) and create algorithmic traits.
 
 >[!NOTE]
 >
@@ -93,7 +93,7 @@ Complete the required fields in the [!UICONTROL Basic Information] section first
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Exclusions (5)</b> </p> </td> 
-   <td colname="col2"> <p>You can exclude traits from the data sources you selected for modeling. Use the <span class="wintitle"> Exclusions</span> list and read <a href="../../features/algorithmic-models/trait-exclusion-algo-models.md#concept_213A6DC77FCD479AB7FDE62662018F73"> Algorithmic Models: Trait Exclusion</a> to learn more. </p> </td>
+   <td colname="col2"> <p>You can exclude traits from the data sources you selected for modeling. Use the <span class="wintitle"> Exclusions</span> list and read <a href="../../features/algorithmic-models/trait-exclusion-algo-models.md"> Algorithmic Models: Trait Exclusion</a> to learn more. </p> </td>
   </tr> 
  </tbody>
 </table>

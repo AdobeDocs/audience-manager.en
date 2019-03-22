@@ -12,7 +12,7 @@ uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
 
 The visitor authentication status in Audience Manager determines if the new trait information is written to the visitor's authenticated profile or to the device profile, where the data was collected from. Audience Manager handles the visitor ID authentication statuses UNKNOWN and LOGGED_OUT in event calls in the same way.
 
-Beginning with [!DNL Experience Cloud] ID service v1.5+, the `setCustomerID` method includes the optional `AuthState` object. `AuthState` identifies visitors according to their [authentication status](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html). [!DNL Audience Manager] handles the realized traits differently, depending on the authentication status passed in the call and the [Profile Merge Rule](../features/profile-merge-rules/merge-rules-dashboard.md#concept_0D5FDF17A17B400598B787099A48F865) you use for segmentation.
+Beginning with [!DNL Experience Cloud] ID service v1.5+, the `setCustomerID` method includes the optional `AuthState` object. `AuthState` identifies visitors according to their [authentication status](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html). [!DNL Audience Manager] handles the realized traits differently, depending on the authentication status passed in the call and the [Profile Merge Rule](../features/profile-merge-rules/merge-rules-dashboard.md) you use for segmentation.
 
 ## Authentication Status: UNKNOWN {#auth-status-unknown}
 
@@ -94,7 +94,7 @@ Sample call (the request value corresponding to the authentication status is hig
 
 >[!NOTE]
 >
->[!DNL Audience Manager] performs an ID synchronization between [CID and UUID](../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8) in all three cases.
+>[!DNL Audience Manager] performs an ID synchronization between [CID and UUID](../reference/ids-in-aam.md) in all three cases.
 
 >[!MORE_LIKE_THIS]
 >

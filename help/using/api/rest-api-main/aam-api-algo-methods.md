@@ -16,7 +16,7 @@ Methods that let you work programmatically with algorithmic modeling features.
 
 >[!MORE_LIKE_THIS]
 >
->* [Models](../../features/algorithmic-models/understanding-models.md#concept_49FB2DBD4AD041A4ABAAEE9D83BB996E)
+>* [Models](../../features/algorithmic-models/understanding-models.md)
 
 ## Create a New Model {#create-new-model}
 
@@ -125,7 +125,7 @@ A `POST` method that lets you create a new algorithmic model.
 
 >[!MORE_LIKE_THIS]
 >
->* [Model Builder](../../features/algorithmic-models/create-model.md#concept_25287B0C161F4BFCBCCFEB5CC6E613D0)
+>* [Model Builder](../../features/algorithmic-models/create-model.md)
 
 ## Update a Model {#update-model}
 
@@ -217,7 +217,7 @@ In the request body, pass in a [!DNL JSON] array that includes the model IDs you
 
 Returns `204 No Content`.
 
-## Return Properties for an Algorithm {#reference_6F3A6281F0224E4C879678B54155362E}
+## Return Properties for an Algorithm {#get-algorithm}
 
 A `GET` method that returns ID, name, and description for the available algorithms. Currently, [!UICONTROL TraitWeight] (ID 1) is the only available algorithm.
 

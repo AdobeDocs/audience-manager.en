@@ -174,6 +174,6 @@ See also, the [Index of Audience Manager IDs](../reference/ids-in-aam.md).
 
 <br>&nbsp;
 
-**How long does it take for user profiles to sync across [regions](../api/dcs-intro/dcs-api-reference/dcs-regions.md#concept_01C1E017A6694D1EAF9BF65BFFA54091)?**
+**How long does it take for user profiles to sync across [regions](../api/dcs-intro/dcs-api-reference/dcs-regions.md)?**
 
 It usually takes up to 24 hours for a user profile to sync across regions. However, in rare cases, the process can take up to 48 hours.

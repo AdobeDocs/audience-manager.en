@@ -17,7 +17,7 @@ These are special traits used by [!UICONTROL Addressable Audiences]. [!UICONTROL
 
 ## Active Audience Traits {#active-audience-traits}
 
-An [!UICONTROL Active Audience] trait contains all of the devices under management in your [!DNL Audience Manager] account. You can use an [!UICONTROL Active Audience Trait] like other traits when you build or edit segments. Also, [Addressable Audiences](../../features/addressable-audiences.md#concept_8E0BAEF0978F4968B21482E79E601889) requires this trait to generate overlap data. All accounts have an [!UICONTROL Active Audience] trait by default. This trait cannot be deleted.
+An [!UICONTROL Active Audience] trait contains all of the devices under management in your [!DNL Audience Manager] account. You can use an [!UICONTROL Active Audience Trait] like other traits when you build or edit segments. Also, [Addressable Audiences](../../features/addressable-audiences.md) requires this trait to generate overlap data. All accounts have an [!UICONTROL Active Audience] trait by default. This trait cannot be deleted.
 
 ## Data Source Synced Traits {#data-source-synced-traits}
 
@@ -33,4 +33,4 @@ An [!UICONTROL Active Audience] trait contains all of the devices under manageme
 
 >[!MORE_LIKE_THIS]
 >
->* [Addressable Audiences](../../features/addressable-audiences.md#concept_8E0BAEF0978F4968B21482E79E601889)
+>* [Addressable Audiences](../../features/addressable-audiences.md)

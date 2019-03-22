@@ -146,12 +146,12 @@ In the tables below, *italics* represents a variable placeholder.
   <tr> 
    <td colname="col1"> <p>201 </p> </td> 
    <td colname="col2"> <p> Cannot read device ids from profile cache for customer id: <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Returned when the <a href="../../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8"> device ID</a> cannot be retrieved for a Profile Link merge rule. </p> </td> 
+   <td colname="col3"> <p>Returned when the <a href="../../../reference/ids-in-aam.md"> device ID</a> cannot be retrieved for a Profile Link merge rule. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>202 </p> </td> 
    <td colname="col2"> <p>Cannot read related customer for device id: <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Returned when the <a href="../../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8"> customer ID (UUID)</a> associated to a device ID cannot be retrieved for a Last Authenticated merge rule from our internal storage. </p> </td> 
+   <td colname="col3"> <p>Returned when the <a href="../../../reference/ids-in-aam.md"> customer ID (UUID)</a> associated to a device ID cannot be retrieved for a Last Authenticated merge rule from our internal storage. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>203 </p> </td> 
@@ -235,7 +235,7 @@ In the tables below, *italics* represents a variable placeholder.
   <tr> 
    <td colname="col1"> <p>312 </p> </td> 
    <td colname="col2"> <p>Request contains an invalid Global Device ID </p> </td> 
-   <td colname="col3"> <p>The <span class="wintitle">DCS</span> returns this error code when  the request contains an invalid Global Device ID. DCS ignores the invalid ID and throws a 312 error along with the specific errors of the invalid ID. Refer to <a href="../../../features/global-data-sources.md#topic_A083014ABB9B4D60BA69BB97EFDD97EB" format="dita" scope="local">Global Data Sources</a> and <a href="../../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8" format="dita" scope="local">Index of IDs in Audience Manager</a> for detailed information on the correct device advertising ID formats and corresponding global data sources.</p>
+   <td colname="col3"> <p>The <span class="wintitle">DCS</span> returns this error code when  the request contains an invalid Global Device ID. DCS ignores the invalid ID and throws a 312 error along with the specific errors of the invalid ID. Refer to <a href="../../../features/global-data-sources.md" format="dita" scope="local">Global Data Sources</a> and <a href="../../../reference/ids-in-aam.md" format="dita" scope="local">Index of IDs in Audience Manager</a> for detailed information on the correct device advertising ID formats and corresponding global data sources.</p>
    <p>Example of an incorrect call: <code>"http://partner.demdex.net/event?d_rtbd=json&amp;d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"</code></p>
    <p>Explanation: An <span class="keyword">IDFA (DPID 20915)</span> must be an uppercase ID. The ID provided in the request is lowercase.</p>
    </td>
@@ -269,4 +269,4 @@ The [!UICONTROL DCS] returns error codes and messages in a [!DNL JSON] object or
 
 Error codes captured by the X- header appear in the URL string like this, `X-Error: 101,102`.
 
-[Race Conditions and Error Handling](../../../api/dcs-intro/dcs-api-reference/dcs-race-conditions.md#concept_7C79A33DE6A241B392CE35D7AB673EB5)  
+[Race Conditions and Error Handling](../../../api/dcs-intro/dcs-api-reference/dcs-race-conditions.md) 

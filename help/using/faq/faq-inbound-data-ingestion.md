@@ -56,13 +56,13 @@ We recommend the following:
 
 **What FTP mode should I use to transfer compressed or encrypted files?**
 
-See [File Compression for Inbound Data Transfer Files](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md#concept_7D6FA8BA759143EFBEDB16589BF6EC40).
+See [File Compression for Inbound Data Transfer Files](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md).
 
 <br>&nbsp;
 
 **Can I upload an inbound data file ([!DNL .sync] or [!DNL .overwrite] file) before deploying [!DNL Audience Manager] code into production?**
 
-* If the data provider is configured to use [Profile Link](../features/profile-merge-rules/merge-rules-overview.md#concept_5FCB08A53C4D4C2B82800BC9FD2B8EC9) for cross-device targeting, the data available for targeting shortly after an ID sync identifies to the matching [!DNL Audience Manager] visitor ID.
+* If the data provider is configured to use [Profile Link](../features/profile-merge-rules/merge-rules-overview.md) for cross-device targeting, the data available for targeting shortly after an ID sync identifies to the matching [!DNL Audience Manager] visitor ID.
 
 * If the data provider is not configured to use the [!UICONTROL Profile Link] feature, [!DNL Audience Manager] processes only the data for visitor IDs in the inbound data file that have been previously synced/matched back to an [!DNL Audience Manager] visitor ID.
 
@@ -142,7 +142,7 @@ As a best practice, send an incremental file once per day for new visitors and f
 
 **How long does Audience Manager keep my files on the server?**
 
-FTP files are removed after they've been processed. [!DNL S3] files are removed after 30-days. Files that cannot be processed due to format, syntax, or other errors are removed. See also, [Privacy and Data Retention FAQ](../faq/faq-privacy.md#concept_19A401AFC8414994810290011AA10595).
+FTP files are removed after they've been processed. [!DNL S3] files are removed after 30-days. Files that cannot be processed due to format, syntax, or other errors are removed. See also, [Privacy and Data Retention FAQ](../faq/faq-privacy.md).
 
 <br>&nbsp;
 
@@ -189,8 +189,8 @@ The following use cases demonstrate how these file types affect stored visitor p
 
 For more information about full and incremental file types, see:
 
-* [Amazon S3 Name and File Size Requirements for Inbound Data...](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md#concept_B3CAF442BFFE4823B76A5D0D91DF9942) 
-* [FTP Name and File Size Requirements for Inbound Data Files...](../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md#concept_D34898442363415DBF75CEBFC2E86997)
+* [Amazon S3 Name and File Size Requirements for Inbound Data...](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) 
+* [FTP Name and File Size Requirements for Inbound Data Files...](../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
 
 <br>&nbsp;
 
@@ -204,8 +204,8 @@ During processing, [!DNL Audience Manager] simply skips that record and moves on
 
 Time stamps are used for logging and record keeping. They are required by the syntax used for a properly formatted inbound file name. See:
 
-* [Amazon S3 Name Requirements for Inbound Data Files](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md#concept_B3CAF442BFFE4823B76A5D0D91DF9942) 
-* [FTP Name and File Size Requirements for Inbound Data Files...](../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md#concept_D34898442363415DBF75CEBFC2E86997)
+* [Amazon S3 Name Requirements for Inbound Data Files](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) 
+* [FTP Name and File Size Requirements for Inbound Data Files...](../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
 
 <br>&nbsp;
 
@@ -217,7 +217,7 @@ Your Adobe consultant will assign a three-digit or four-digit DPID to your parti
 
 **How large can the daily data files be?**
 
-See [File Compression for Inbound Data Transfer Files](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md#concept_7D6FA8BA759143EFBEDB16589BF6EC40).
+See [File Compression for Inbound Data Transfer Files](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md).
 
 <br>&nbsp;
 
@@ -225,9 +225,9 @@ See [File Compression for Inbound Data Transfer Files](../integration/sending-au
 
 Yes, see:
 
-* [File Compression for Inbound Data Transfer Files](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md#concept_7D6FA8BA759143EFBEDB16589BF6EC40) 
-* [Amazon S3 Name Requirements for Inbound Data Files](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md#concept_B3CAF442BFFE4823B76A5D0D91DF9942) 
-* [FTP Name Requirements for Inbound Data Files](../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md#concept_D34898442363415DBF75CEBFC2E86997)
+* [File Compression for Inbound Data Transfer Files](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) 
+* [Amazon S3 Name Requirements for Inbound Data Files](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) 
+* [FTP Name Requirements for Inbound Data Files](../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
 
 <br>&nbsp;
 
@@ -245,7 +245,7 @@ There are two basic components of a data file: A Unique User ID (UUID) and profi
 
 **Should I use FTP or [!DNL Amazon S3] to transfer files?**
 
-As best practice, we recommend [!DNL Amazon S3] because the process is simpler. [!DNL Audience Manager] transfers FTP files to [!DNL S3] regardless, so the process is more streamlined if you drop the files on [!DNL Amazon S3] yourself. What's more, customers uploading simultaneously to FTP share the FTP's bandwidth, so they should expect slower upload speeds. [!DNL Amazon S3] is also replicated and distributed, so it is generally safer and more reliable than an FTP server. For more information, see [About Amazon S3](../reference/amazon-s3.md#concept_EF5A728C7B3E4A3A89F80A14571A304A).
+As best practice, we recommend [!DNL Amazon S3] because the process is simpler. [!DNL Audience Manager] transfers FTP files to [!DNL S3] regardless, so the process is more streamlined if you drop the files on [!DNL Amazon S3] yourself. What's more, customers uploading simultaneously to FTP share the FTP's bandwidth, so they should expect slower upload speeds. [!DNL Amazon S3] is also replicated and distributed, so it is generally safer and more reliable than an FTP server. For more information, see [About Amazon S3](../reference/amazon-s3.md).
 
 <br>&nbsp;
 

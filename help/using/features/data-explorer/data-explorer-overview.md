@@ -16,9 +16,9 @@ Creating traits based on existing insights related to your audience is a rather 
 
 [!UICONTROL Data Explorer] simplifies your trait management process while offering you a higher degree of flexibility when it comes to taxonomy curation. Two [!UICONTROL Data Explorer] components help you achieve this:
 
-* [Signals Dashboard](../../features/data-explorer/data-explorer-signals-dashboard.md#concept_5E4B0FB02D8F4F3DAA5B6F8CF9A4E4C2) and [!UICONTROL Signals Search] help you keep track of signals received by [!DNL Audience Manager] that you can use to build new traits or add to existing ones.
+* [Signals Dashboard](../../features/data-explorer/data-explorer-signals-dashboard.md) and [!UICONTROL Signals Search] help you keep track of signals received by [!DNL Audience Manager] that you can use to build new traits or add to existing ones.
 
-* [Trait Realization Backfill](../../features/data-explorer/data-explorer-trait-backfill.md#concept_B38A58A417A04AF9B016DC506F9A6F45) helps you qualify historical audiences for newly created traits, so that you can include them in future targeting efforts.
+* [Trait Realization Backfill](../../features/data-explorer/data-explorer-trait-backfill.md) helps you qualify historical audiences for newly created traits, so that you can include them in future targeting efforts.
 
 ## Benefits {#benefits}
 
@@ -32,8 +32,8 @@ Use [!UICONTROL Data Explorer] to optimize your audience building in multiple wa
 
 ### Example 1
 
-A global electronics retailer has a high volume of visitor traffic, but conversion rates are lower than expected, although they've optimized the content for multiple platforms. Using the [Signals Dashboard](../../features/data-explorer/data-explorer-signals-dashboard.md#concept_5E4B0FB02D8F4F3DAA5B6F8CF9A4E4C2), they identify a high volume of unused signals, indicating that visitors are searching for a specific electronics brand not currently in stock. The company can take advantage of this insight by refreshing their stock and targeting those visitors with personalized campaigns.
+A global electronics retailer has a high volume of visitor traffic, but conversion rates are lower than expected, although they've optimized the content for multiple platforms. Using the [Signals Dashboard](../../features/data-explorer/data-explorer-signals-dashboard.md), they identify a high volume of unused signals, indicating that visitors are searching for a specific electronics brand not currently in stock. The company can take advantage of this insight by refreshing their stock and targeting those visitors with personalized campaigns.
 
 ### Example 2
 
-After a travel services provider adds new destinations to their booking website, they want to advertise them to historical audiences, although they don't have any traits created for them. They can use Signals Search to identify the unused signals related to the new destinations, include them in new traits and [backfill](../../features/data-explorer/data-explorer-trait-backfill.md#concept_B38A58A417A04AF9B016DC506F9A6F45) them with historical realizations. Then, create new segments with the new traits and immediately target them with dedicated campaigns.
+After a travel services provider adds new destinations to their booking website, they want to advertise them to historical audiences, although they don't have any traits created for them. They can use Signals Search to identify the unused signals related to the new destinations, include them in new traits and [backfill](../../features/data-explorer/data-explorer-trait-backfill.md) them with historical realizations. Then, create new segments with the new traits and immediately target them with dedicated campaigns.

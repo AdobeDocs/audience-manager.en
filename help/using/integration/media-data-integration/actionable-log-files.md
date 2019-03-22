@@ -14,7 +14,7 @@ uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 
 >[!NOTE]
 >
->The text styles (`monospaced text`, *italics*, brackets `[ ]` `( )`, etc.) in this document indicate code elements and options. See [Style Conventions for Code and Text Elements](../../reference/code-style-elements.md#reference_59D0BD0EDB424A65853460D91CCA35D9) for more information.
+>The text styles (`monospaced text`, *italics*, brackets `[ ]` `( )`, etc.) in this document indicate code elements and options. See [Style Conventions for Code and Text Elements](../../reference/code-style-elements.md) for more information.
 
 ## Purpose {#purpose}
 
@@ -22,7 +22,7 @@ uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 
 ## Getting Started {#getting-started}
 
-To get started with [!UICONTROL Actionable Log Files], and to use our [Audience Optimization Reports](../../reporting/audience-optimization-reports/audience-optimization-reports.md#concept_D66D2C58493E48BDAFF2F95BBB508946), you need to import DCM log data into [!DNL Audience Manager]. See [Import DCM Data Files Into Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) *and* contact your [!DNL Audience Manager] consultant.
+To get started with [!UICONTROL Actionable Log Files], and to use our [Audience Optimization Reports](../../reporting/audience-optimization-reports/audience-optimization-reports.md), you need to import DCM log data into [!DNL Audience Manager]. See [Import DCM Data Files Into Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) *and* contact your [!DNL Audience Manager] consultant.
 
 If you are already importing [!UICONTROL DCM] log data into [!DNL Audience Manager], ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to enable [!UICONTROL Actionable Log Files] for you.
 
@@ -40,11 +40,11 @@ For an average-sized [!DNL DCM] log file of 2 million lines, any traits created 
 
 >[!IMPORTANT] {importance="high"}
 >
->We recommend implementing [!UICONTROL Actionable Log Files] *instead of*  [Pixel Calls](../../integration/media-data-integration/impression-data-pixels.md#concept_83852AB68E344D4F8933665C895322C2). We discourage the use of both options, as this leads to an increase in frequency counts for traits.
+>We recommend implementing [!UICONTROL Actionable Log Files] *instead of*  [Pixel Calls](../../integration/media-data-integration/impression-data-pixels.md). We discourage the use of both options, as this leads to an increase in frequency counts for traits.
 
 ## Actionable Signals {#actionable-signals}
 
-Signals are the [smallest data units](../../reference/signal-trait-segment.md#concept_7550A48FE3F1415FACF0E077CFAB155F) in [!DNL Audience Manager]. [!UICONTROL Actionable Log Files] allow you to capture advertiser, business unit, creative, and campaign values in impression events, click events, and conversion events as signals from [!DNL DCM] logs.
+Signals are the [smallest data units](../../reference/signal-trait-segment.md) in [!DNL Audience Manager]. [!UICONTROL Actionable Log Files] allow you to capture advertiser, business unit, creative, and campaign values in impression events, click events, and conversion events as signals from [!DNL DCM] logs.
 
 Remember, in order to use this information for audience creation and segmentation, you need to set up the rule-based traits yourself. The table lists the actionable signals from [!DNL DCM] log files:
 
@@ -125,7 +125,7 @@ https://sample.demdex.net?d_src=743&d_uuid=0795526165288603295014370250589427213
 
 ## Use Cases {#use-cases}
 
-One benefit of implementing [!UICONTROL Actionable Log Files] is the option to apply [recency and frequency](../../features/segments/recency-and-frequency.md#concept_957D9E1977774D28A98ACEE6035E7B37) controls to any [rule-based traits](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) that contain actionable signals. This allows you, for example, to frequency cap the number of times a user is shown a particular creative, within a media campaign. Other use cases include:
+One benefit of implementing [!UICONTROL Actionable Log Files] is the option to apply [recency and frequency](../../features/segments/recency-and-frequency.md) controls to any [rule-based traits](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) that contain actionable signals. This allows you, for example, to frequency cap the number of times a user is shown a particular creative, within a media campaign. Other use cases include:
 
 ### Retarget Users
 
@@ -147,7 +147,7 @@ Retarget users who saw creative 123 but didn't click or convert and show them cr
 
 ### Use DCM Floodlight Activity in the Audience Optimization Reports or in Audience Lab
 
-[Floodlight tags](https://support.google.com/dcm/partner/answer/4293719?hl=en) enable advertisers to track user conversions. With [!UICONTROL Actionable Log Files], you can track the [!DNL DCM] conversions in the [Audience Optimization Reports](../../reporting/audience-optimization-reports/audience-optimization-reports.md#concept_D66D2C58493E48BDAFF2F95BBB508946) or in [Audience Lab](../../features/audience-lab/audience-lab.md#concept_CEAEE1C751CE405DB99041FC57CC17E0):
+[Floodlight tags](https://support.google.com/dcm/partner/answer/4293719?hl=en) enable advertisers to track user conversions. With [!UICONTROL Actionable Log Files], you can track the [!DNL DCM] conversions in the [Audience Optimization Reports](../../reporting/audience-optimization-reports/audience-optimization-reports.md) or in [Audience Lab](../../features/audience-lab/audience-lab.md):
 
 1. Create a trait and use the following trait rule to capture a conversion from the ad server logs:
 

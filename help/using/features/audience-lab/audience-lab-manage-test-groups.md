@@ -21,9 +21,9 @@ This procedure walks you through the steps needed to create, edit, or delete a t
 
   >[!IMPORTANT]
   >
-  >[Folder traits](../../features/traits/about-folder-traits.md#concept_D68F33E7F99243CEB9D11D354ECB53AD) are **not supported** by [!UICONTROL Audience Lab]. Setting the [Event Type](../../features/traits/create-onboarded-rule-based-traits.md) of a folder trait to **conversion** will not generate any data in [!UICONTROL Audience Lab] for that specific folder trait.
+  >[Folder traits](../../features/traits/about-folder-traits.md) are **not supported** by [!UICONTROL Audience Lab]. Setting the [Event Type](../../features/traits/create-onboarded-rule-based-traits.md) of a folder trait to **conversion** will not generate any data in [!UICONTROL Audience Lab] for that specific folder trait.
 
-* For companies using [Role-Based Access Control](../../features/administration/administration-overview.md#concept_A606A162611E4256BB80F60715282296): Assign the [!UICONTROL Audience Lab] [wildcard permission](../../features/administration/administration-overview.md#wild-card-permissions) to **[!UICONTROL User Groups]** to provide access. This permission allows the user to create and view the results of a test. A user will only be able to use segments from a data source they have **read** and **map to destination** privileges for. The user will only be able to use conversion traits from a data source for which they have **"read"** permissions. A user will only be able to see destinations they have access to as well. So, before adding the [!DNL Audience Lab] wildcard permission to a group, make sure the group has:
+* For companies using [Role-Based Access Control](../../features/administration/administration-overview.md): Assign the [!UICONTROL Audience Lab] [wildcard permission](../../features/administration/administration-overview.md#wild-card-permissions) to **[!UICONTROL User Groups]** to provide access. This permission allows the user to create and view the results of a test. A user will only be able to use segments from a data source they have **read** and **map to destination** privileges for. The user will only be able to use conversion traits from a data source for which they have **"read"** permissions. A user will only be able to see destinations they have access to as well. So, before adding the [!DNL Audience Lab] wildcard permission to a group, make sure the group has:
   * access to read relevant conversion traits;
   * access to read and map relevant segments for tests;
   * access to relevant destinations.
@@ -63,7 +63,7 @@ To create a new [!UICONTROL Segment Test Group]:
     * After dropping a segment in a destination, fill in the **[!UICONTROL Destination Mapping Value]** in the blind.
     * You can send the same test segment to multiple destinations and you can add multiple test segments to a single destination.
     * Destinations are grayed out if they are not available for a certain test segment based on [Data Export Controls](../../features/data-export-controls.md).
-    * Users will only see the destinations they have access to based on the [RBAC User Group](../../features/administration/administration-overview.md#concept_A606A162611E4256BB80F60715282296) they belong to.
+    * Users will only see the destinations they have access to based on the [RBAC User Group](../../features/administration/administration-overview.md) they belong to.
     * Finally, you are required to select a start date for your test group. This date marks the start of the period in which your test group will be published to destinations. Select **No End Date** for an indefinite comparison of the test segments.
 
    >[!NOTE]
@@ -95,6 +95,6 @@ In [!UICONTROL Audience Lab], you are only able to edit draft test groups. In th
 1. Find the test group you want to delete. You can either:
 
     * press the **[!UICONTROL Delete]** control in the test group card, or
-    * press the test group title in the test group card to go to the [Test Group Information](../../features/audience-lab/audience-lab-information-view.md#concept_C8A8844639CE41E9AE9D6886D829B8E0) view and press the **[!UICONTROL Delete]** control in the title bar.
+    * press the test group title in the test group card to go to the [Test Group Information](../../features/audience-lab/audience-lab-information-view.md) view and press the **[!UICONTROL Delete]** control in the title bar.
 
 1. For [completed test segments](../../features/audience-lab/audience-lab.md#status), an alert will prompt you to download the CSV file to save the reporting if you wish.

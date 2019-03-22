@@ -48,8 +48,8 @@ The table lists and defines the variables used in a properly formatted inbound d
    <td colname="col1"> <p> <code> <i>User ID </i> </code> </p> </td> 
    <td colname="col2"> <p>A User ID can be: </p> <p> 
      <ul id="ul_25168355353545A9A049D0083403025E"> 
-      <li id="li_23829FE2F6464E33859B3E388FCD106B">A unique user ID assigned by <span class="keyword"> Audience Manager </span> ( <a href="../../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8"> Audience Manager UUID </a>). </li> 
-      <li id="li_76961F20DD3F4554AD2ADFB773F975DB">A unique user ID assigned in your CRM system ( <a href="../../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8"> DPUUID, in Audience Manager </a>). </li> 
+      <li id="li_23829FE2F6464E33859B3E388FCD106B">A unique user ID assigned by <span class="keyword"> Audience Manager </span> ( <a href="../../../reference/ids-in-aam.md"> Audience Manager UUID </a>). </li> 
+      <li id="li_76961F20DD3F4554AD2ADFB773F975DB">A unique user ID assigned in your CRM system ( <a href="../../../reference/ids-in-aam.md"> DPUUID, in Audience Manager </a>). </li> 
       <li id="li_52ABF6CCBCD147E2BD84D056F7461BA0">A mobile Android or iOS device ID in its original, unmodified form as exposed by the mobile operating system. </li> 
      </ul> </p> <p>For mobile IDs: </p> <p> 
      <ul id="ul_717A17E11565427E9E2D9D7554BB231B"> 
@@ -63,7 +63,7 @@ The table lists and defines the variables used in a properly formatted inbound d
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>trait ID </i> </code> </p> </td> 
-   <td colname="col2"> <p>The <span class="keyword"> Audience Manager </span> trait ID. We ask that you include <i>only onboarded traits</i> in inbound data files. We do not process any other trait types in the inbound data transfer. </p> <p> <p>Note:  The Trait ID can be found by using the GET method that returns details about all your traits. For more information, see <a href="../../../api/rest-api-main/api-traits.md#concept_9DDE7873366644E38E2C58F2CAE8B62D"> Trait API Methods </a>. </p> </p> </td> 
+   <td colname="col2"> <p>The <span class="keyword"> Audience Manager </span> trait ID. We ask that you include <i>only onboarded traits</i> in inbound data files. We do not process any other trait types in the inbound data transfer. </p> <p> <p>Note:  The Trait ID can be found by using the GET method that returns details about all your traits. For more information, see <a href="../../../api/rest-api-main/api-traits.md"> Trait API Methods </a>. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -82,11 +82,11 @@ The following table describes the prefixes that identify trait names or IDs in a
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> d_sid= </code> </p> </td> 
-   <td colname="col2"> <p>The <code> d_sid </code> prefix tells our system that the ID is an <span class="keyword"> Audience Manager </span> trait ID. This is the same ID that's shown in the user interface. You can also return trait IDs with the API <code> GET </code> method. See <a href="../../../api/rest-api-main/api-traits.md#concept_9DDE7873366644E38E2C58F2CAE8B62D"> Trait API Methods </a>. </p> </td>
+   <td colname="col2"> <p>The <code> d_sid </code> prefix tells our system that the ID is an <span class="keyword"> Audience Manager </span> trait ID. This is the same ID that's shown in the user interface. You can also return trait IDs with the API <code> GET </code> method. See <a href="../../../api/rest-api-main/api-traits.md"> Trait API Methods </a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <code> d_unsid= </code> </p> </td> 
-   <td colname="col2"> <p>Data prefixed with <code> d_unsid </code> removes users from that trait. The <code> d_unsid </code> prefix is ignored in an <code> overwrite </code> file. </p> <p>The <code> d_unsid= </code> prefix tells our system that the ID is an <span class="keyword"> Audience Manager </span> trait ID. This is the same ID that's shown in the user interface. You can also return trait IDs with the API <code> GET </code> method. See <a href="../../../api/rest-api-main/api-traits.md#concept_9DDE7873366644E38E2C58F2CAE8B62D"> Trait API Methods </a>. </p> </td>
+   <td colname="col2"> <p>Data prefixed with <code> d_unsid </code> removes users from that trait. The <code> d_unsid </code> prefix is ignored in an <code> overwrite </code> file. </p> <p>The <code> d_unsid= </code> prefix tells our system that the ID is an <span class="keyword"> Audience Manager </span> trait ID. This is the same ID that's shown in the user interface. You can also return trait IDs with the API <code> GET </code> method. See <a href="../../../api/rest-api-main/api-traits.md"> Trait API Methods </a>. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> ic= </code> </p> </td> 
@@ -228,7 +228,7 @@ Improperly formatted value names in a key-value pair also cause problems. Follow
 
 ## Examples Matrix {#examples-matrix}
 
-The chart below shows examples of the correct way to format your Inbound files, depending on the [type of IDs](../../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8) and the method by which you want to add traits to profiles. 
+The chart below shows examples of the correct way to format your Inbound files, depending on the [type of IDs](../../../reference/ids-in-aam.md) and the method by which you want to add traits to profiles. 
 
 <table id="table_FE6D97A1F5074E4A8EFC723AF0C5E707"> 
  <thead> 
@@ -498,4 +498,4 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> ic=52,ic=55
 
 >[!MORE_LIKE_THIS]
 >
->* [Trait Builder](../../../features/traits/about-trait-builder.md#concept_BCDC4BCAEB4A4879AFA4A9B98D9ED369)
+>* [Trait Builder](../../../features/traits/about-trait-builder.md)

@@ -30,7 +30,7 @@ To complete the [!UICONTROL Data Source Details] section:
 
     * [Create a cross-device data source](../features/profile-merge-rules/merge-rules-start.md#create-data-source). 
     * Use the [Experience Cloud ID service](https://marketing.adobe.com/resources/help/en_US/mcvid/). 
-    * Work with [Profile Merge Rules](../features/profile-merge-rules/merge-rules-start.md#concept_34A9CEA00B24447EBF7EA8DA2928E1DD).
+    * Work with [Profile Merge Rules](../features/profile-merge-rules/merge-rules-start.md).
 
 1. Choose an **[!UICONTROL ID Type]**. ID Type options include:
 
@@ -68,7 +68,7 @@ Delete a data source that you no longer need.
 >
 >Please note the following restrictions:
 >
->* You cannot delete an [Active Audience or Data Source Synced Trait](../features/traits/client-activity-synced-audience-traits.md#concept_7D3F4AF1FAD440509956632B8A51E64D). 
+>* You cannot delete an [Active Audience or Data Source Synced Trait](../features/traits/client-activity-synced-audience-traits.md). 
 >* For customers using Adobe Analytics: Audience Manager does not allow you to delete data sources created automatically from your [!DNL Analytics] report suites. Use the [Core Service](https://marketing.adobe.com/resources/help/en_US/mcloud/) to unmap these data sources.
 
 1. Click **[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]**.

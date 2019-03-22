@@ -26,4 +26,4 @@ Error handling is limited for invalid or poorly formed queries. An invalid reque
 * Comes from an invalid/unselected geographic region.
 * Disables browser cookies (either all or third-party).
 
-See also, [DCS Error Codes, Messages, and Examples](../../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md#reference_8C64917F3A584F61BF3B908F8129DE5F).
+See also, [DCS Error Codes, Messages, and Examples](../../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md).

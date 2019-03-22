@@ -62,8 +62,8 @@ With [!UICONTROL Profile Merge Rules] you can:
 
 ## Getting started {#getting-started}
 
-See the following sections and the [FAQ](../../faq/faq-profile-merge.md#concept_C8E29A974E194B62B0BAC1CCDD0DF4FF) for more information about [!UICONTROL Profile Merge Rules].
+See the following sections and the [FAQ](../../faq/faq-profile-merge.md) for more information about [!UICONTROL Profile Merge Rules].
 
 >[!MORE_LIKE_THIS]
 >
->* [Profile Merge Rules FAQ](../../faq/faq-profile-merge.md#concept_C8E29A974E194B62B0BAC1CCDD0DF4FF)
+>* [Profile Merge Rules FAQ](../../faq/faq-profile-merge.md)

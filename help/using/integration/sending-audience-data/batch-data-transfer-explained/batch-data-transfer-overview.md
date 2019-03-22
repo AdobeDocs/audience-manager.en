@@ -27,7 +27,7 @@ Important considerations about this step:
 * **Exclude [!DNL PII]:** User IDs must not contain personally identifiable information ([!DNL PII]).
 * **Case and content sensitivity:** During a real-time data sync, user IDs captured from your site by Audience Manager must correspond to IDs passed in from your offline repository. For example, if offline records hold information about [!DNL User123], but your site renders that ID as [!DNL USER123], Audience Manager sees these as different visitors. As a result, online information for this visitor cannot be associated with the corresponding records in your offline database. IDs must match exactly.
 
-See [ID Synchronization for Inbound Data Transfers](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md#concept_8749F04CACF64B6CA2132D9F9887364A).
+See [ID Synchronization for Inbound Data Transfers](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md).
 
 <!-- 
 
@@ -46,8 +46,8 @@ See [ID Synchronization for Inbound Data Transfers](../../../integration/sending
 
 File names and content follow strict guidelines. You *must* name and organize data files according to these specifications in this guide. See:
 
-* [Amazon S3 Name Requirements for Inbound Data Files](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md#concept_B3CAF442BFFE4823B76A5D0D91DF9942) 
-* [FTP Name Requirements for Inbound Data Files](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md#concept_D34898442363415DBF75CEBFC2E86997) 
+* [Amazon S3 Name Requirements for Inbound Data Files](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) 
+* [FTP Name Requirements for Inbound Data Files](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md) 
 * [Inbound Data File Contents: Syntax, Variables, and Examples](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
 
 ## Online Data is Available for Offline Marketing Efforts

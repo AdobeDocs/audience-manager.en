@@ -19,7 +19,7 @@ Audience Manager also supports uncompressed files.
 
 >[!IMPORTANT]
 >
->We currently don't support encryption and compression on the same inbound data file. You can select to either [encrypt](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md#concept_94660DC77BAB4D558B793D59988B0A21) or compress your inbound files.
+>We currently don't support encryption and compression on the same inbound data file. You can select to either [encrypt](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md) or compress your inbound files.
 
 ## Amazon S3 Compression
 

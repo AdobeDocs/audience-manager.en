@@ -23,7 +23,7 @@ The sections below represent a review of algorithmic modeling in [!DNL Audience 
 
 ## Find New Users with Algorithmic Modeling {#find-new-users}
 
-Algorithmic modeling helps you discover new, unique audiences through automated data analysis. The process starts when you select a trait or segment, a time interval, and first and third-party data sources. Your choices provide the inputs for the algorithmic model. When the analytics process runs, it looks for eligible users based on shared characteristics from the selected population. Upon completion, this data is available in [Trait Builder](../../features/traits/about-trait-builder.md#concept_13D6537EE5D0459F870C58822AD5400A) where you can use it to create traits based on [accuracy and reach](../../features/traits/trait-accuracy-reach.md#concept_60F696940483424CA4E8EEDD63F46358). Additionally, you can build segments that combine algorithmic traits with rules-based traits and add other qualification requirements with Boolean expressions and comparison operators. Algorithmic modeling gives you a dynamic way to extract value from all your available trait data.
+Algorithmic modeling helps you discover new, unique audiences through automated data analysis. The process starts when you select a trait or segment, a time interval, and first and third-party data sources. Your choices provide the inputs for the algorithmic model. When the analytics process runs, it looks for eligible users based on shared characteristics from the selected population. Upon completion, this data is available in [Trait Builder](../../features/traits/about-trait-builder.md) where you can use it to create traits based on [accuracy and reach](../../features/traits/trait-accuracy-reach.md). Additionally, you can build segments that combine algorithmic traits with rules-based traits and add other qualification requirements with Boolean expressions and comparison operators. Algorithmic modeling gives you a dynamic way to extract value from all your available trait data.
 
 ## Advantages {#advantages}
 
@@ -50,7 +50,7 @@ We deactivate any algorithmic model that fails to generate data for three consec
 
 >[!MORE_LIKE_THIS]
 >
->* [Destinations](../../features/destinations/destinations.md#concept_5BDA346C376C4B719EA394108AB2735A)
+>* [Destinations](../../features/destinations/destinations.md)
 >* [Traits](../../features/traits/trait-details-page.md)
 >* [Segments](../../features/segments/segments-purpose.md)
 
@@ -90,8 +90,8 @@ Periodically, [!UICONTROL TraitWeight] re-evaluates the importance of a trait ba
 
 Related links:
 
-* [Model Builder](../../features/algorithmic-models/create-model.md#concept_25287B0C161F4BFCBCCFEB5CC6E613D0)
-* [Accuracy and Reach](../../features/traits/trait-accuracy-reach.md#concept_60F696940483424CA4E8EEDD63F46358)
+* [Model Builder](../../features/algorithmic-models/create-model.md)
+* [Accuracy and Reach](../../features/traits/trait-accuracy-reach.md)
 
 ## Update Schedule for Algorithmic Models and Traits {#update-schedule}
 
@@ -184,7 +184,7 @@ The model summary page includes the following sections.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> Model Reach and Accuracy</span> </p> </td> 
-   <td colname="col2"> <p>Shows <a href="../../features/traits/trait-accuracy-reach.md#concept_60F696940483424CA4E8EEDD63F46358"> accuracy and reach</a> data for the last model run. </p> </td>
+   <td colname="col2"> <p>Shows <a href="../../features/traits/trait-accuracy-reach.md"> accuracy and reach</a> data for the last model run. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> Model Processing History</span> </p> </td> 

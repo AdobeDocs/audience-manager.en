@@ -28,4 +28,4 @@ Lists the variables used by the `destinationType` parameter. Specify `push` or `
 
 >[!MORE_LIKE_THIS]
 >
->* [How to Choose a Destination Type](../../../features/destinations/destinations.md#concept_88240D03005244DA91182932E9927003)
+>* [How to Choose a Destination Type](../../../features/destinations/destinations.md)

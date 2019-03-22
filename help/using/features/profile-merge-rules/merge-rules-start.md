@@ -47,7 +47,7 @@ To complete the [!UICONTROL Data Source Details] section:
 
 * **[!UICONTROL Use as a Device Graph]**: This control is available only to accounts listed as a data provider. Selecting this check box creates your data source as a device graph and lets you share it with other [!DNL Audience Manager] customers. Work with your [!DNL Audience Manager] consultant to get set up as a data provider and to specify which customers this [!UICONTROL Data Source] should be shared with. Your consultant will provision your account and device graph sharing through an internal provisioning processes.
 
-The text fields associated with these settings let you rename the [!UICONTROL Data Source] with an alias that appears in the [Profile Merge Rule options](../../features/profile-merge-rules/merge-rule-definitions.md#concept_44FFF67CD9654DB2B43ECA13C2FD1CE0). For example, if you add an alias to **[!UICONTROL Use as Authenticated Profile]**, that name appears in the [!UICONTROL Authenticated Profile Options] list. If you add an alias to **[!UICONTROL Use as a Device Graph]**, that name appears in the [!UICONTROL Device Options] list.
+The text fields associated with these settings let you rename the [!UICONTROL Data Source] with an alias that appears in the [Profile Merge Rule options](../../features/profile-merge-rules/merge-rule-definitions.md). For example, if you add an alias to **[!UICONTROL Use as Authenticated Profile]**, that name appears in the [!UICONTROL Authenticated Profile Options] list. If you add an alias to **[!UICONTROL Use as a Device Graph]**, that name appears in the [!UICONTROL Device Options] list.
 
 >[!MORE_LIKE_THIS]
 >
@@ -63,7 +63,7 @@ To create a [!UICONTROL Profile Merge Rule], go to **[!UICONTROL Audience Data >
 
 >[!TIP]
 >
->See [Profile Merge Rule Options Defined](../../features/profile-merge-rules/merge-rule-definitions.md#concept_44FFF67CD9654DB2B43ECA13C2FD1CE0) for descriptions of these different controls.
+>See [Profile Merge Rule Options Defined](../../features/profile-merge-rules/merge-rule-definitions.md) for descriptions of these different controls.
 
 ## Basic Information {#basic-info}
 
@@ -85,7 +85,7 @@ To complete the [!UICONTROL Proflie Merge Rule Setup] section:
     * **[!UICONTROL No Authenticated Profile]**
     * **[!UICONTROL Current Authenticated Profile]**
     * **[!UICONTROL Last Authenticated Profile]**
-2. Select an **[!UICONTROL Authenticated Profile Option]** (up to 3, maximum). These are the [cross-device data sources](../../features/profile-merge-rules/merge-rules-start.md#concept_396828374D1B48C988655B2ED817F29B) you have created previously.
+2. Select an **[!UICONTROL Authenticated Profile Option]** (up to 3, maximum). These are the [cross-device data sources](../../features/profile-merge-rules/merge-rules-start.md) you have created previously.
 3. Select a **[!UICONTROL Device Option]**. Options include:
     * **[!UICONTROL No Device Profile]**
     * **[!UICONTROL Current Device Profile]**
@@ -101,7 +101,7 @@ Follow these instructions to set up the [!UICONTROL Experience Cloud ID Service]
 
 ### Prerequisites
 
-You must set up a [cross-device data source](../../features/profile-merge-rules/merge-rules-start.md#concept_396828374D1B48C988655B2ED817F29B) and [profile merge rules](../../features/profile-merge-rules/merge-rules-start.md#configure-merge-rule-code) *before* completing these procedures.
+You must set up a [cross-device data source](#create-data-source) and [profile merge rules](#create-profile-merge-rule) *before* completing these procedures.
 
 ## For Experience Cloud ID Service Customers {#id-service-customers}
 
@@ -129,7 +129,7 @@ visitor.setCustomerIDs({
      "authState":Visitor.AuthState.AUTHENTICATED
 ```
 
-For more information, see [Create a Cross-Device Data Source](../../features/profile-merge-rules/merge-rules-start.md#concept_396828374D1B48C988655B2ED817F29B) and [Customer IDs and Authentication States](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_customer_ids.html).
+For more information, see [Create a Cross-Device Data Source](#create-data-source) and [Customer IDs and Authentication States](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_customer_ids.html).
 
 ### Configure `DIL.create` function
 

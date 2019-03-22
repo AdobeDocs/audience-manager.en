@@ -22,7 +22,7 @@ As a reminder, the [!UICONTROL Device Options] are available in the [!UICONTROL 
 **[!UICONTROL Current Device Profile]** is the default device profile option for a [!UICONTROL Profile Merge Rule]. [!DNL Audience Manager] can remove a device profile from a segment when your [!UICONTROL Profile Merge Rule] uses the **[!UICONTROL Current Device Profile]** option. Under these conditions, unsegmentation happens when:
 
 * The device profile has been inactive for 120 days. A weekly data cleanup process removes inactive device profiles from your segments.
-* The device no longer qualifies for a segment because updates or changes to the device profile disqualify it. This happens when segment qualification criteria change, or you apply an [!DNL AND NOT] operator to a segment rule, or specify [recency and frequency](../../features/segments/recency-and-frequency.md#concept_957D9E1977774D28A98ACEE6035E7B37) conditions that use the less than/equal to settings. Use cases are described in the [Instant Cross-Device Suppression](../../features/profile-merge-rules/instant-cross-device-suppression.md#concept_898F67FED4BC40A3A56549C7EB4EE4C3) documentation.
+* The device no longer qualifies for a segment because updates or changes to the device profile disqualify it. This happens when segment qualification criteria change, or you apply an [!DNL AND NOT] operator to a segment rule, or specify [recency and frequency](../../features/segments/recency-and-frequency.md) conditions that use the less than/equal to settings. Use cases are described in the [Instant Cross-Device Suppression](../../features/profile-merge-rules/instant-cross-device-suppression.md) documentation.
 
 ![](assets/single_device_use_case.png)
 
@@ -32,7 +32,7 @@ As a reminder, the [!UICONTROL Device Options] are available in the [!UICONTROL 
 <p> 
  <ul id="ul_596501272A224228BD330DD56E01D973"> 
   <li id="li_E4FA1A5C722748CD82AE3A49FCBE86F6">The device profile has been inactive for 120-days. A weekly data cleanup process removes inactive device profiles from your segments. </li> 
-  <li id="li_DB0CCD28425048D5B35309B8C2C384F9">The device no longer qualifies for a segment because updates or changes to the device profile disqualify it. This happens when segment qualification criteria change, or you apply an AND NOT operator to a segment rule, or specify <a href="../../features/segments/recency-and-frequency.md#concept_957D9E1977774D28A98ACEE6035E7B37"> recency and frequency</a> conditions that use the less than/equal to settings. </li> 
+  <li id="li_DB0CCD28425048D5B35309B8C2C384F9">The device no longer qualifies for a segment because updates or changes to the device profile disqualify it. This happens when segment qualification criteria change, or you apply an AND NOT operator to a segment rule, or specify <a href="../../features/segments/recency-and-frequency.md"> recency and frequency</a> conditions that use the less than/equal to settings. </li> 
  </ul> </p> 
 <p style="text-align: center;"> <img src="assets/unsegment3.png" id="image_B55E5A5EB1964AA08C817211006294E1" /> </p>
 
@@ -40,13 +40,13 @@ As a reminder, the [!UICONTROL Device Options] are available in the [!UICONTROL 
 
 ## No Device Option and Device Unsegmentation {#no-device-option}
 
-[!DNL Audience Manager] can remove a cross-device ID from a segment when your [!UICONTROL Profile Merge Rule] uses the **[!UICONTROL No Device Profile]** + **[!UICONTROL Current Authenticated]** option. Under these conditions, unsegmentation happens when the cross-device ID no longer qualifies for a segment because updates or changes to the cross-device profile disqualify it. This happens when segment qualification criteria change, or you apply an [!UICONTROL AND NOT] operator to a segment rule, or specify [recency and frequency](../../features/segments/recency-and-frequency.md#concept_957D9E1977774D28A98ACEE6035E7B37) conditions that use the less than/equal to settings. Use cases are described in the [Instant Cross-Device Suppression](../../features/profile-merge-rules/instant-cross-device-suppression.md#concept_898F67FED4BC40A3A56549C7EB4EE4C3) documentation.
+[!DNL Audience Manager] can remove a cross-device ID from a segment when your [!UICONTROL Profile Merge Rule] uses the **[!UICONTROL No Device Profile]** + **[!UICONTROL Current Authenticated]** option. Under these conditions, unsegmentation happens when the cross-device ID no longer qualifies for a segment because updates or changes to the cross-device profile disqualify it. This happens when segment qualification criteria change, or you apply an [!UICONTROL AND NOT] operator to a segment rule, or specify [recency and frequency](../../features/segments/recency-and-frequency.md) conditions that use the less than/equal to settings. Use cases are described in the [Instant Cross-Device Suppression](../../features/profile-merge-rules/instant-cross-device-suppression.md) documentation.
 
 ![](assets/no_device_use_case.png)
 
 ## Device Graph Options and Device Unsegmentation {#device-graph-options-unsegmentation}
 
-[!DNL Audience Manager] can remove multiple device profiles from a segment when your [!UICONTROL Profile Merge Rule] uses a device graph option. Unsegmentation happens when the merged profile of the device from the device graph no longer qualifies for the segment because updates or changes to this merged profile disqualify it from the segment. This happens when segment qualification criteria change, or you apply an [!UICONTROL AND NOT] operator to a segment rule, or specify [recency and frequency](../../features/segments/recency-and-frequency.md#concept_957D9E1977774D28A98ACEE6035E7B37) conditions that use the less than/equal to settings. Use cases are described in the [Instant Cross-Device Suppression](../../features/profile-merge-rules/instant-cross-device-suppression.md#concept_898F67FED4BC40A3A56549C7EB4EE4C3) documentation.
+[!DNL Audience Manager] can remove multiple device profiles from a segment when your [!UICONTROL Profile Merge Rule] uses a device graph option. Unsegmentation happens when the merged profile of the device from the device graph no longer qualifies for the segment because updates or changes to this merged profile disqualify it from the segment. This happens when segment qualification criteria change, or you apply an [!UICONTROL AND NOT] operator to a segment rule, or specify [recency and frequency](../../features/segments/recency-and-frequency.md) conditions that use the less than/equal to settings. Use cases are described in the [Instant Cross-Device Suppression](../../features/profile-merge-rules/instant-cross-device-suppression.md) documentation.
 
 >[!NOTE]
 >
@@ -99,6 +99,6 @@ As a reminder, the [!UICONTROL Device Options] are available in the [!UICONTROL 
 
 >[!MORE_LIKE_THIS]
 >
->* [Profile Merge Rules and Device Graph FAQ](../../faq/faq-profile-merge.md#concept_C8E29A974E194B62B0BAC1CCDD0DF4FF)
->* [Instant Cross-Device Suppression](../../features/profile-merge-rules/instant-cross-device-suppression.md#concept_898F67FED4BC40A3A56549C7EB4EE4C3)
->* [Important Considerations for Profile Merge Rules with Device Graphs](../../features/profile-merge-rules/considerations-pmr-device-graph.md#concept_2D689EEB5C6D402F90364E3CE23939D3)
+>* [Profile Merge Rules and Device Graph FAQ](../../faq/faq-profile-merge.md)
+>* [Instant Cross-Device Suppression](../../features/profile-merge-rules/instant-cross-device-suppression.md)
+>* [Important Considerations for Profile Merge Rules with Device Graphs](../../features/profile-merge-rules/considerations-pmr-device-graph.md)

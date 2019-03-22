@@ -23,7 +23,7 @@ In the map, the gray box contains [!DNL Audience Manager] systems. Some componen
 
 Colors define the type of data that flows in and out of [!DNL Audience Manager]. Green is client data, blue is customer data (people visiting your site), and orange is data used for reporting.
 
-For system descriptions and summaries see the data [action](../../reference/system-components/components-data-action.md#concept_7A6F1335AA634CC4887A2F39E903E507), [collection](../../reference/system-components/components-data-collection.md#concept_66CFFEBF5E8B41ED94082D562A93506E), [processing](../../reference/system-components/components-data-processing.md#concept_C17B304DDBB8425C9D9F4E94672BCC8F), and [tag management](../../reference/system-components/components-tag-management.md#concept_C48BDB96376D4410B0565FC5F01F8F66) sections.
+For system descriptions and summaries see the data [action](../../reference/system-components/components-data-action.md), [collection](../../reference/system-components/components-data-collection.md), [processing](../../reference/system-components/components-data-processing.md), and [tag management](../../reference/system-components/components-tag-management.md) sections.
 
 ![](assets/flowmap.png)
 

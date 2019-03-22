@@ -94,7 +94,7 @@ dataLib.api.signals(obj, 'c_').submit();
 
 >[!MORE_LIKE_THIS]
 >
->* [Name Requirements for Key Variables](../features/traits/trait-key-name-requirements.md#concept_85B8BA18517D468DA23E8DCC6E935680)
+>* [Name Requirements for Key Variables](../features/traits/trait-key-name-requirements.md)
 
 ## traits {#traits}
 
@@ -201,7 +201,7 @@ dataLib.api.traits([
 
 >[!MORE_LIKE_THIS]
 >
->* [Prefix Requirements for Key Variables](../features/traits/trait-variable-prefixes.md#reference_E6F1E4257F664FC2A797C406BF147ABC)
+>* [Prefix Requirements for Key Variables](../features/traits/trait-variable-prefixes.md)
 
 ## afterResult {#afterresult}
 

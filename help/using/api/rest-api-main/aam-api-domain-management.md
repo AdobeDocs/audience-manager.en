@@ -43,7 +43,7 @@ A successful response returns `201 created` and the partner site, including its 
 }
 ```
 
-## Delete a Domain {#reference_C3738EA2162547BE996CCFE22EF0F3B0}
+## Delete a Domain {#delete-domain}
 
 A `DELETE` method that lets you remove a domain (for cookie destinations only).
 

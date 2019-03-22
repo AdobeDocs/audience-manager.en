@@ -17,7 +17,7 @@ Overview and workflow for data providers who want to sell data from within [!DNL
 
 >[!NOTE]
 >
->[Role-based permissions](../../../reporting/reports-dashboard.md#concept_1F19F03D45164D2391F80A083410DC2E) control access to [!UICONTROL Audience Marketplace] features.
+>[Role-based permissions](../../../reporting/reports-dashboard.md) control access to [!UICONTROL Audience Marketplace] features.
 >
 >* Administrators can create data feeds, manage subscribers, and subscribe to data feeds.
 >* Users can search and view feeds only.
@@ -44,7 +44,7 @@ Features include:
 
 ## Private Data Feeds {#private-data-feeds}
 
-In [!UICONTROL My Shared Data], sometimes a feed status is marked as private. This indicates a private data feed. A private data feed lets sellers limit buyer access to their data and even the name of the data feed. Sellers can make feeds private when they're offering special deals, discounts, or when privacy and access control are important. With private data feeds, providers review and approve all buyer access requests. For more information, see [Private Data Feeds](../../../features/audience-marketplace/marketplace-private-feeds.md#concept_68EDE94B558C4B88BBCC994B67726FD2). To create a public or private data feed, see [Create a Public or Private Data Feed](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#create-public-private-data-feed).
+In [!UICONTROL My Shared Data], sometimes a feed status is marked as private. This indicates a private data feed. A private data feed lets sellers limit buyer access to their data and even the name of the data feed. Sellers can make feeds private when they're offering special deals, discounts, or when privacy and access control are important. With private data feeds, providers review and approve all buyer access requests. For more information, see [Private Data Feeds](../../../features/audience-marketplace/marketplace-private-feeds.md). To create a public or private data feed, see [Create a Public or Private Data Feed](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#create-public-private-data-feed).
 
 >[!MORE_LIKE_THIS]
 >

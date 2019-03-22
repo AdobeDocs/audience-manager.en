@@ -42,12 +42,12 @@ A sample call looks similar to the following example.
    <td colname="col2"> <p>This part of the call contains: </p> <p> 
      <ul id="ul_3EDA9C7BA6794D06BCB07A75A9BD2372"> 
       <li id="li_74624CA78D6F4536A8164AE1FA1DECB9">Your domain alias assigned by <span class="keyword"> Audience Manager</span> (e.g., <i><code> my_domain.demdex.net</code></i>). </li> 
-      <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">The destination domain, which is always <i><code> demdex.net</code></i>. See <a href="../../../reference/demdex-calls.md#concept_77B3D5A068AE413FA78D190D65AD799F"> Understanding Calls to the Demdex Domain</a>. </li> 
+      <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">The destination domain, which is always <i><code> demdex.net</code></i>. See <a href="../../../reference/demdex-calls.md"> Understanding Calls to the Demdex Domain</a>. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> <i>DCS host name</i>.demdex.net</code> </p> </td> 
-   <td colname="col2"> <p>The http header host parameter which shows the name of the regional <span class="wintitle"> DCS</span> server. The host name is tied to a region ID, which is why you need this before making these types of calls. See <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md#concept_01C1E017A6694D1EAF9BF65BFFA54091"> DCS Region IDs, Locations, and Host Names</a>. </p> </td> 
+   <td colname="col2"> <p>The http header host parameter which shows the name of the regional <span class="wintitle"> DCS</span> server. The host name is tied to a region ID, which is why you need this before making these types of calls. See <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md"> DCS Region IDs, Locations, and Host Names</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> /event?</code> </p> </td> 
@@ -79,4 +79,4 @@ A sample call looks similar to the following example.
 
 ## Sample Response {#sample-response}
 
-See [Receive Data From the DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md#concept_1219EE35E91548F899E2FFE60C107841). 
+See [Receive Data From the DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md). 

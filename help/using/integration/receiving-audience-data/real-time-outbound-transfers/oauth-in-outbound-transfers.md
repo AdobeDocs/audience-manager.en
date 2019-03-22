@@ -18,7 +18,7 @@ The [!DNL Adobe Audience Manager] [OAuth 2.0](https://tools.ietf.org/html/rfc674
 1. You must provide us with:
     * The [!DNL OAuth 2.0] endpoint that generates the authentication token.
     * The credentials used to generate a token.
-1. An [!DNL Audience Manager] consultant sets up the [destination](../../../features/destinations/destinations.md#concept_5BDA346C376C4B719EA394108AB2735A) using the information you provided.
+1. An [!DNL Audience Manager] consultant sets up the [destination](../../../features/destinations/destinations.md) using the information you provided.
 1. Once a segment is mapped to this destination, our real-time data transfer system, [IRIS](../../../reference/system-components/components-data-action.md#iris), makes a `POST` request to the token endpoint to exchange the credentials for a bearer token.
 1. For each segment publishing request to the partner endpoint, [!UICONTROL IRIS] uses the bearer token to authenticate.
 
