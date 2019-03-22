@@ -78,7 +78,7 @@ When creating a [!DNL URL] destination, you can insert the following macros into
  </tbody> 
 </table>
 
-## Cache Busting with Destination Macros {#concept_247813563F26479296AF44B250968BBB}
+## Cache Busting with Destination Macros {#destination-cache-busting}
 
 The `%rnd%` and `%timestamp%` macros insert unique values into a [!DNL URL] string to prevent browser caching.
 

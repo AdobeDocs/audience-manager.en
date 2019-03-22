@@ -32,7 +32,7 @@ Yes, this is allowed. Think of a case of one test using a male segment associate
 
 <br>&nbsp;
 
-**Let's say a test group is using an authenticated profile for the test segment split. The authenticated profile is linked to 4 [Audience Manager UUIDs](../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8). When the visitor exhibits a conversion trait from one of the four UUIDs, does [!UICONTROL Audience Lab] count this as one or four conversions?**
+**Let's say a test group is using an authenticated profile for the test segment split. The authenticated profile is linked to 4 [Audience Manager UUIDs](../reference/ids-in-aam.md). When the visitor exhibits a conversion trait from one of the four UUIDs, does [!UICONTROL Audience Lab] count this as one or four conversions?**
 
 In this case, [!UICONTROL Audience Lab] only counts one conversion.
 

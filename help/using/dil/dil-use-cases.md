@@ -29,7 +29,7 @@ c_dil_send_page_objects.xml
 
 **Description**
 
-The following code demonstrates how to collect page data and send it to Audience Manager with [!UICONTROL DIL]. These examples use a variable to hold data elements in a flat list or an array. Remember, pass in variables as [key-value pairs](../reference/key-value-pairs-explained.md#concept_E4236E003076483AA939791FE2492B49). Also, note the `c_` prefix before the key in the key-value pair. This [required prefix](../features/traits/trait-variable-prefixes.md#reference_E6F1E4257F664FC2A797C406BF147ABC) identifies information as user-defined data. In the first example, you need to manually append `c_` to the key. In the second example, [!UICONTROL DIL] does this for you automatically.
+The following code demonstrates how to collect page data and send it to Audience Manager with [!UICONTROL DIL]. These examples use a variable to hold data elements in a flat list or an array. Remember, pass in variables as [key-value pairs](../reference/key-value-pairs-explained.md). Also, note the `c_` prefix before the key in the key-value pair. This [required prefix](../features/traits/trait-variable-prefixes.md) identifies information as user-defined data. In the first example, you need to manually append `c_` to the key. In the second example, [!UICONTROL DIL] does this for you automatically.
 
 **Keep Value Properties Consistent**
 
@@ -147,7 +147,7 @@ var search_referrer = DIL.tools.getSearchReferrer();
 
 **Listed Search Engine Code Sample**
 
-In this case, let's assume that a user searched for the term "homes" from [!DNL Google] Canada ( `www.google.ca`). Note how the code prefixes the required `c_` parameter to search engine ( `c_se`) and search term ( `c_st`). `c_` is a [required prefix](../features/traits/trait-variable-prefixes.md#reference_E6F1E4257F664FC2A797C406BF147ABC) that identifies these as customer-defined variables to Audience Manager. 
+In this case, let's assume that a user searched for the term "homes" from [!DNL Google] Canada ( `www.google.ca`). Note how the code prefixes the required `c_` parameter to search engine ( `c_se`) and search term ( `c_st`). `c_` is a [required prefix](../features/traits/trait-variable-prefixes.md) that identifies these as customer-defined variables to Audience Manager. 
 
 <pre class="java"><code>
 var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 

@@ -38,7 +38,7 @@ The test group reporting section returns information on test group conversions, 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Test Segment Populations</span></b> </p> </td> 
-   <td colname="col2"> <p>Returns the number of devices belonging to the test segments. Toggle between <b><span class="uicontrol"> Total Population</span></b> or <b><span class="uicontrol"> Real-time Population</span></b>. The difference is explained in the <a href="../../faq/faq-reporting.md#concept_8722EA8154E1416CB334FF37E2E955C4"> Reporting FAQ</a> . </p> </td>
+   <td colname="col2"> <p>Returns the number of devices belonging to the test segments. Toggle between <b><span class="uicontrol"> Total Population</span></b> or <b><span class="uicontrol"> Real-time Population</span></b>. The difference is explained in the <a href="../../faq/faq-reporting.md"> Reporting FAQ</a> . </p> </td>
   </tr>
  </tbody>
 </table>

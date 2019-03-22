@@ -68,4 +68,4 @@ If your ad serving system has an API, you might not need to send metadata in a l
 
 >[!MORE_LIKE_THIS]
 >
->* [Delivery and Performance Report](../../reporting/dynamic-reports/delivery-performance-report.md#concept_ED04A45759A6408D95222C7BE0EA301D)
+>* [Delivery and Performance Report](../../reporting/dynamic-reports/delivery-performance-report.md)

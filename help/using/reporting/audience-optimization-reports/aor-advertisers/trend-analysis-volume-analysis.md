@@ -29,5 +29,5 @@ The [!UICONTROL Volume Analysis] report returns data in a bar graph for your sel
 
 >[!TIP]
 >
->For information about mapped and unmapped segments, see the [Segment Performance Report](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md#concept_16474D96F85C44BEBBE767E66F79D8DE) documentation.
+>For information about mapped and unmapped segments, see the [Segment Performance Report](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) documentation.
 

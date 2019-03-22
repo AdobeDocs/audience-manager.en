@@ -39,7 +39,7 @@ Responses to access data requests contain a summary of total number of traits an
 
 **Response Status**
 
-If there are any errors from Audience Manager in the response, these are surfaced as error codes in the response. We have a [list of error codes](../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md#reference_8C64917F3A584F61BF3B908F8129DE5F), where you can find more information about the returned errors.
+If there are any errors from Audience Manager in the response, these are surfaced as error codes in the response. We have a [list of error codes](../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md), where you can find more information about the returned errors.
 
 **Example Response**
 
@@ -203,7 +203,7 @@ The table below contains descriptions for all the returned fields in the data ac
      <ul id="ul_DBAC618D9FE94B17B2494B83832A969F"> 
       <li id="li_740F2DCA8F2A4A22A7D9988ECD2FC976"> <i>First party</i> for your own traits. </li> 
       <li id="li_D9354F40FD114802819191450F2375C8"> <i>Second party</i> for traits that belong to your partners. Read our <a href="../../overview/data-types-collected.md#second-party-data"> Second Party Data</a> article for more information. </li> 
-      <li id="li_C321D8B8256F4102AE64CD40DC57C948"> <i>Third party</i> for traits obtained from data partners, via the <a href="../../features/audience-marketplace/audience-marketplace.md#concept_3FEC387E18E0492C9ADCB9B4CB11731B"> Audience Marketplace</a>. </li> 
+      <li id="li_C321D8B8256F4102AE64CD40DC57C948"> <i>Third party</i> for traits obtained from data partners, via the <a href="../../features/audience-marketplace/audience-marketplace.md"> Audience Marketplace</a>. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -311,7 +311,7 @@ In response to data deletion requests, we delete traits and segments associated 
 
 ## Opt-out Request {#opt-out-request}
 
-For opt-out requests, please refer to our documentation on [Opt-out Management](../../overview/data-security-and-privacy/opt-out-management.md#concept_1EC49431ED7D4012BD930ECF8A6D732F).
+For opt-out requests, please refer to our documentation on [Opt-out Management](../../overview/data-security-and-privacy/opt-out-management.md).
 
 ## Audience Manager Identifiers (IDs) {#aam-ids}
 

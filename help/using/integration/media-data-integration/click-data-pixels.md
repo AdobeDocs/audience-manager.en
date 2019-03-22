@@ -36,7 +36,7 @@ Based on the above example, the browser is redirected to the following [!DNL URL
 
 ## Supported Macros
 
-Click events support the macros listed in the following table. A macro is a small unit of self contained code that activates when the ad tag loads for campaign and user tracking. The macros will be passed along with the destination [!DNL URL], as long as they are marked with the following format: `%macro%`. Some keys do not have macros and accept a hard coded ID value instead. Keys that accept hard coded values are required if you want to analyze data in the [Audience Optimization Reports](../../reporting/audience-optimization-reports/audience-optimization-reports.md#concept_D66D2C58493E48BDAFF2F95BBB508946).
+Click events support the macros listed in the following table. A macro is a small unit of self contained code that activates when the ad tag loads for campaign and user tracking. The macros will be passed along with the destination [!DNL URL], as long as they are marked with the following format: `%macro%`. Some keys do not have macros and accept a hard coded ID value instead. Keys that accept hard coded values are required if you want to analyze data in the [Audience Optimization Reports](../../reporting/audience-optimization-reports/audience-optimization-reports.md).
 
 <table id="table_6EB65C3B7D0E49C59AA6C932549E33FC"> 
  <thead> 
@@ -95,7 +95,7 @@ Click events support the macros listed in the following table. A macro is a smal
   <tr> 
    <td colname="col1"> <p> <code> d_region</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_region%</code> </p> </td> 
-   <td colname="col2"> <p>The numeric region ID for the DCS cluster that services a request. For more information about the DCS, see <a href="../../reference/system-components/components-data-collection.md#concept_66CFFEBF5E8B41ED94082D562A93506E"> Data Collection Components</a>. </p> <p>Optional. </p> </td> 
+   <td colname="col2"> <p>The numeric region ID for the DCS cluster that services a request. For more information about the DCS, see <a href="../../reference/system-components/components-data-collection.md"> Data Collection Components</a>. </p> <p>Optional. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> r_rand</code> </p> </td> 
@@ -148,4 +148,4 @@ Based on the above example, the browser is redirected to the following [!DNL URL
 
 >[!MORE_LIKE_THIS]
 >
->* [Data and Metadata Files for Audience Optimization Reports](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md#concept_CD250EF8D3744CC4A722422970886D87)
+>* [Data and Metadata Files for Audience Optimization Reports](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)

@@ -21,11 +21,11 @@ Action components are systems and processes that let you move data in and out of
 
 ## Customer Data Feeds (CDF) {#cdf}
 
-[!UICONTROL CDF] are files sent hourly to customers. These contain user IDs along with associated segment IDs, trait IDs, and other data. For more information, see [Customer Data Feed Overview](../../features/cdf-files.md#concept_114B993EC5E246AE8CDD55E695B344FC).
+[!UICONTROL CDF] are files sent hourly to customers. These contain user IDs along with associated segment IDs, trait IDs, and other data. For more information, see [Customer Data Feed Overview](../../features/cdf-files.md).
 
 ## Data Collection Server (DCS) {#dcs}
 
-See [Data Collection Components](../../reference/system-components/components-data-collection.md#concept_66CFFEBF5E8B41ED94082D562A93506E).
+See [Data Collection Components](../../reference/system-components/components-data-collection.md).
 
 ## SFTP/S3 {#sftp-s3}
 
@@ -142,4 +142,4 @@ The following example contains real-time segment data from [!UICONTROL IRIS]. Ke
 
 ## Profile Cache Server (PCS) {#pcs}
 
-See [Data Collection Components](../../reference/system-components/components-data-collection.md#concept_66CFFEBF5E8B41ED94082D562A93506E). 
+See [Data Collection Components](../../reference/system-components/components-data-collection.md). 

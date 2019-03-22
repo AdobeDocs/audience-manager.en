@@ -35,4 +35,4 @@ The following diagram illustrates the Audience Manager edge data center environm
 
 ## Geographic Distribution and Load Balancing {#geo-dist-balance}
 
-See the [!UICONTROL DCS] section in [Data Collection Components](../../reference/system-components/components-data-collection.md#concept_66CFFEBF5E8B41ED94082D562A93506E). 
+See the [!UICONTROL DCS] section in [Data Collection Components](../../reference/system-components/components-data-collection.md). 

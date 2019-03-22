@@ -22,8 +22,8 @@ Overview, getting started, and code methods available in the Audience Manager DI
 
 [!UICONTROL DIL] is an API library. You can think it as a body of helper code for [!DNL Adobe Audience Manager]. It is not required to use [!DNL Audience Manager], but the methods and functions [!UICONTROL DIL] provides means you don't have to develop your own code to send data to [!DNL Audience Manager]. Also, [!UICONTROL DIL] is different than the API provided by the [Experience Cloud ID service](https://marketing.adobe.com/resources/help/en_US/mcvid/). That service is designed to manage visitor identity across different [!DNL Experience Cloud] solutions. By contrast, [!UICONTROL DIL] is designed to:
 
-* Make event calls and send data to the [Data Collection Server](../reference/system-components/components-data-collection.md#concept_66CFFEBF5E8B41ED94082D562A93506E). 
-* Send data to [destinations](../features/destinations/destinations.md#concept_5BDA346C376C4B719EA394108AB2735A).
+* Make event calls and send data to the [Data Collection Server](../reference/system-components/components-data-collection.md). 
+* Send data to [destinations](../features/destinations/destinations.md).
 
 ## Getting and Implementing DIL Code {#get-implement-dil-code}
 

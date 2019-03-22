@@ -292,7 +292,7 @@ A `DELETE` method to delete a user.
 
 Returns `204 No Content` if successful. In case of conflict returns `409 Conflict`.
 
-## Delete Users in Bulk {#reference_3F0D4F1E2FFC4AF1A53C33D1FC929CE2}
+## Delete Users in Bulk {#delete-users-bulk}
 
 A `POST` method to delete multiple users in bulk.
 

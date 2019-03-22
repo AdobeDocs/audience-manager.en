@@ -17,11 +17,11 @@ As a data partner, you're probably used to getting audience metadata from your c
 
 ## Automated method {#automated-method}
 
-[!DNL Audience Manager] provides a set of [REST APIs](../../api/rest-api-main/rest-api-main.md#concept_B512E6C3410A4304A672588A60A792B1) that let you retrieve segment metadata automatically. With the [!DNL API], you can create jobs that retrieve segment metadata at scheduled intervals or automatically, whenever you process [!DNL Audience Manager] data and find a new segment ID. See the steps below for more information.
+[!DNL Audience Manager] provides a set of [REST APIs](../../api/rest-api-main/rest-api-main.md) that let you retrieve segment metadata automatically. With the [!DNL API], you can create jobs that retrieve segment metadata at scheduled intervals or automatically, whenever you process [!DNL Audience Manager] data and find a new segment ID. See the steps below for more information.
 
 ### Step 1: Review the Audience Manager APIs
 
-The [Getting Started with REST APIs](../../api/rest-api-main/aam-api-getting-started.md#concept_2745BC64D5BD43A49DA6020E42280863) section contains information about general requirements, authentication, available methods, etc. This is a good place to begin if you haven't worked with the [!DNL Audience Manager] [!DNL API] before.
+The [Getting Started with REST APIs](../../api/rest-api-main/aam-api-getting-started.md) section contains information about general requirements, authentication, available methods, etc. This is a good place to begin if you haven't worked with the [!DNL Audience Manager] [!DNL API] before.
 
 ### Step 2: Request OAuth2 access credentials
 

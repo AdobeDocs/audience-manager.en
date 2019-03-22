@@ -13,7 +13,7 @@ View a list of your currently configured data sources, add new data sources, and
 
 <!-- c_datasources.xml -->
 
-You can also manage data sources using [!DNL API] methods. For more information, see [Data Source API Methods](../api/rest-api-main/aam-api-data-sources.md#concept_F7602FD030AA4638AF6D045E1009FA47).
+You can also manage data sources using [!DNL API] methods. For more information, see [Data Source API Methods](../api/rest-api-main/aam-api-data-sources.md).
 
 ## Data Sources List View {#list-view}
 

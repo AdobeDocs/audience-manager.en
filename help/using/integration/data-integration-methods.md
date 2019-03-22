@@ -20,7 +20,7 @@ Choosing the right integration method depends on a combination of business requi
 
 ## Prerequisites: Create a Trait Taxonomy {#prereqs}
 
-Before the integration process begins, remember to [create traits](../features/traits/create-onboarded-rule-based-traits.md#concept_98DD94EF9AA24422BA17B8D0760542DF) and a [folder structure](../features/traits/trait-storage.md#create-trait-storage-folder) in the [!DNL Audience Manager] UI. The taxonomy will contain all your traits organized in a logical hierarchy.
+Before the integration process begins, remember to [create traits](../features/traits/create-onboarded-rule-based-traits.md) and a [folder structure](../features/traits/trait-storage.md#create-trait-storage-folder) in the [!DNL Audience Manager] UI. The taxonomy will contain all your traits organized in a logical hierarchy.
 
 ## Integration Use Cases {#integration-use-cases}
 
@@ -159,4 +159,4 @@ The batch (server-to-server) data integration process follows most of the steps 
 
 ![](assets/s2s_70.png)
 
-For information describing the time frames when Audience Manager processes inbound and outbound Server-to-Server ([!UICONTROL S2S]) file transfers, see [Reporting and File Transfer Time-Frame Guidelines](../reference/reporting-file-transfer-timeframe.md#concept_B4863966B22949C19F12A269C4BC2719).
+For information describing the time frames when Audience Manager processes inbound and outbound Server-to-Server ([!UICONTROL S2S]) file transfers, see [Reporting and File Transfer Time-Frame Guidelines](../reference/reporting-file-transfer-timeframe.md).

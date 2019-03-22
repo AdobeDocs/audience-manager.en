@@ -32,7 +32,7 @@ c_signal_trait_segment.xml
  <tbody> 
   <tr> 
    <td colname="col1"><b>Signal</b> </td> 
-   <td colname="col2"> <p>Signals are the smallest data units in <span class="keyword"> Audience Manager</span> and are expressed as <a href="../reference/key-value-pairs-explained.md#concept_E4236E003076483AA939791FE2492B49"> key-value pairs</a>. </p> 
+   <td colname="col2"> <p>Signals are the smallest data units in <span class="keyword"> Audience Manager</span> and are expressed as <a href="../reference/key-value-pairs-explained.md"> key-value pairs</a>. </p> 
     <ul id="ul_728347E325284B9FA0B4E05DE8CF4570"> 
      <li id="li_89574A3B4A734726AD43405AE6D85FF5">The key is a constant that defines a data set (e.g., gender, color, price). </li> 
      <li id="li_D35601B33EE24EC5857F45D9577254D4">The value is a variable related to the constant (e.g., male/female, green, 100). </li> 
@@ -75,4 +75,4 @@ https://<domain>/event?product=camera&price>100
 
 >[!MORE_LIKE_THIS]
 >
->* [Segments: Purpose, Composition, and Rules](../features/segments/segments-purpose.md#concept_F9E9D1D1EFF34AA2AD025109DD741C86)
+>* [Segments: Purpose, Composition, and Rules](../features/segments/segments-purpose.md)

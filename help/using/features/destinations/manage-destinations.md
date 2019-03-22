@@ -30,7 +30,7 @@ Slide the **[!UICONTROL Show Only Addressable Audience Metrics]** toggle to see 
 
 >[!MORE_LIKE_THIS]
 >
->* [Addressable Audiences](../../features/addressable-audiences.md#concept_8E0BAEF0978F4968B21482E79E601889)
+>* [Addressable Audiences](../../features/addressable-audiences.md)
 
 ## Destination Builder {#destination-builder}
 
@@ -55,7 +55,7 @@ Send information to a destination by passing it in through a [!DNL URL] string, 
 * [!DNL URL] and cookie-based destinations transmit data synchronously, as a user takes action on a page.
 * Server-to-server data transmission is asynchronous and can occur long after a user has left the page. The delivery type you select depends on your business requirements and how a particular data partner wants to, or can, receive data.
 
-See [How to Choose a Destination Type](../../features/destinations/destinations.md#concept_88240D03005244DA91182932E9927003) for more information.
+See [How to Choose a Destination Type](../../features/destinations/destinations.md) for more information.
 
 >[!MORE_LIKE_THIS]
 >

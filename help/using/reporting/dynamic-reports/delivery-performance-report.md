@@ -33,8 +33,8 @@ Select an individual point to view data details in a pop up window. Also, you ca
 
 >[!MORE_LIKE_THIS]
 >
->* [Improve Log File Processing Times with Lookup Tables](../../reporting/dynamic-reports/lookup-tables.md#concept_53C119A83E6F49D28451828C54CF4FC1)
->* [Filter Report Results With the Data Sliders](../../reporting/dynamic-reports/data-sliders.md#concept_00E60A0BDB274B07A1DD342EE5554C37)
+>* [Improve Log File Processing Times with Lookup Tables](../../reporting/dynamic-reports/lookup-tables.md)
+>* [Filter Report Results With the Data Sliders](../../reporting/dynamic-reports/data-sliders.md)
 >* [Delivery and Performance Data Pop Fields Defined](../../reporting/dynamic-reports/delivery-performance-report.md#field-definitions)
 >* [Shapes, Colors, and Sizes Used in Interactive Reports](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
 
@@ -63,4 +63,4 @@ The popup for the Delivery and Performance Report contains the following metrics
 
 >[!MORE_LIKE_THIS]
 >
->* [Improve Log File Processing Times with Lookup Tables](../../reporting/dynamic-reports/lookup-tables.md#concept_53C119A83E6F49D28451828C54CF4FC1)
+>* [Improve Log File Processing Times with Lookup Tables](../../reporting/dynamic-reports/lookup-tables.md)

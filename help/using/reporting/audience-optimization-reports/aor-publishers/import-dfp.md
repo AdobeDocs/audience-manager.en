@@ -15,17 +15,17 @@ Before Audience Manager can enable Audience Optimization for Publishers, you mus
 
 Note that the process described in this section must be completed *before* you move on to the prerequisites for log ingestion enablement.
 
-In order to use DFP ( [!DNL DoubleClick For Publishers]) log files in [!DNL Audience Manager], you must first set our [Audience Manager Unique User ID (UUID)](../../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8) in the ad tag call. By doing this, our ID is included in the DFP logs and we can match IDs between DFP and [!DNL Audience Manager]. Use [!DNL Audience Manager] [!UICONTROL DIL] code or the [!UICONTROL Audience Management Module] to set the [!DNL Audience Manager] UUID in a first party cookie.
+In order to use DFP ( [!DNL DoubleClick For Publishers]) log files in [!DNL Audience Manager], you must first set our [Audience Manager Unique User ID (UUID)](../../../reference/ids-in-aam.md) in the ad tag call. By doing this, our ID is included in the DFP logs and we can match IDs between DFP and [!DNL Audience Manager]. Use [!DNL Audience Manager] [!UICONTROL DIL] code or the [!UICONTROL Audience Management Module] to set the [!DNL Audience Manager] UUID in a first party cookie.
 
 Here is how to set the [!DNL Audience Manager] ID in the ad tag call, as explained in our documentation:
 
-* [Via Google Publisher Tag (GPT)](../../../integration/gpt-aam-destination/gpt-aam-create-destination.md#concept_CD39E47404A541719119E9F354EB274C) 
-* [Via a Cookie Destination](../../../integration/gpt-aam-destination/gpt-aam-modify-api.md#concept_276DF2F702BE4D6180C855A7DE304097)
+* [Via Google Publisher Tag (GPT)](../../../integration/gpt-aam-destination/gpt-aam-create-destination.md) 
+* [Via a Cookie Destination](../../../integration/gpt-aam-destination/gpt-aam-modify-api.md)
 
 You need to set the [!DNL Audience Manager] ID yourself, and can work with [!DNL Audience Manager] consulting to check if everything works. You have set the [!DNL Audience Manager] ID correctly if:
 
 * `'aamid'` is the key used as the identifier. 
-* The User ID value is correctly formatted as the [!DNL Audience Manager] UUID, as described in our [Index of IDs in Audience Manager](../../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8). 
+* The User ID value is correctly formatted as the [!DNL Audience Manager] UUID, as described in our [Index of IDs in Audience Manager](../../../reference/ids-in-aam.md). 
 * You have included the [!DNL Audience Manager] UUID in a defined field in your DFP logs (e.g. CustomTargeting).
 
 ## Prerequisites for Log Ingestion Enablement {#prereqs-ingestion-enablement}

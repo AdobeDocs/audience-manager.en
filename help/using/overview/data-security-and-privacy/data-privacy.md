@@ -26,7 +26,7 @@ In our continuing support of this model, Audience Manager remains committed to p
 
 ## Opt-Out Management {#opt-out-management}
 
-The opt-out documentation has been extended and moved to a separate part of our documentation. See [Opt-out Management](../../overview/data-security-and-privacy/opt-out-management.md#concept_1EC49431ED7D4012BD930ECF8A6D732F).
+The opt-out documentation has been extended and moved to a separate part of our documentation. See [Opt-out Management](../../overview/data-security-and-privacy/opt-out-management.md).
 
 <!-- 
 

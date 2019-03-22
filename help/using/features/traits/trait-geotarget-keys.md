@@ -15,7 +15,7 @@ Describes the common platform-level key-value pairs you can use to target users 
 
 ## Purpose of Platform-level Variables {#platform-variables}
 
-Platform-level variables let you take data passed in from a particular site and make it available for targeting across all the properties in your [!DNL Audience Manager] account. These variables are formed by [key-value pairs](../../reference/key-value-pairs-explained.md#concept_E4236E003076483AA939791FE2492B49) with the key prefixed by `d_` as shown below.
+Platform-level variables let you take data passed in from a particular site and make it available for targeting across all the properties in your [!DNL Audience Manager] account. These variables are formed by [key-value pairs](../../reference/key-value-pairs-explained.md) with the key prefixed by `d_` as shown below.
 
 ## Adding Values to Platform Level Keys {#adding-values}
 
@@ -50,4 +50,4 @@ The list of [all location-based signals](assets/all.csv) comprises all the signa
 
 >[!MORE_LIKE_THIS]
 >
->* [Prefix Requirements for Key Variables](../../features/traits/trait-variable-prefixes.md#reference_E6F1E4257F664FC2A797C406BF147ABC)
+>* [Prefix Requirements for Key Variables](../../features/traits/trait-variable-prefixes.md)

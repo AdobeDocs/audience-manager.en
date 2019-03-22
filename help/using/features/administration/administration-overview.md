@@ -56,7 +56,7 @@ To create a group:
    * Name the group.
    * Provide a brief group description.
 1. In [!UICONTROL Group Members], click a user from **[!UICONTROL Add Users]** options to add them to the group.
-1. In [!UICONTROL Group Permissions], select a [trait](../../features/traits/trait-details-page.md), [segment](../../features/segments/segments-purpose.md#concept_F9E9D1D1EFF34AA2AD025109DD741C86), or [destination](../../features/destinations/destinations.md#concept_5BDA346C376C4B719EA394108AB2735A) from **[!UICONTROL Add Object]**.
+1. In [!UICONTROL Group Permissions], select a [trait](../../features/traits/trait-details-page.md), [segment](../../features/segments/segments-purpose.md), or [destination](../../features/destinations/destinations.md) from **[!UICONTROL Add Object]**.
    This opens a permissions window for your selected object.
 1. Select the check box for the permissions you want group members to have.
 1. *(Optional)* Assign [Wild Card Permissions](../../features/administration/administration-overview.md#wild-card-permissions) to the group.

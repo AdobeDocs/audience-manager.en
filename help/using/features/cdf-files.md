@@ -33,7 +33,7 @@ File notifications and [!UICONTROL CDF] files will appear in your [!DNL S3] buck
 
 ## Next Steps {#next-steps}
 
-The sections below and the [Customer Data Feed FAQ](../faq/faq-cdf.md#concept_E832A7307FA0475C918F95116C21CBC6) can help you become more familiar with this service.
+The sections below and the [Customer Data Feed FAQ](../faq/faq-cdf.md) can help you become more familiar with this service.
 
 ## Customer Data Feed Contents Defined {#cdf-defined}
 
@@ -374,4 +374,4 @@ The following table provides additional details about your [!UICONTROL CDF] file
 
 >[!MORE_LIKE_THIS]
 >
->* [Customer Data Feed FAQ](../faq/faq-cdf.md#concept_E832A7307FA0475C918F95116C21CBC6)
+>* [Customer Data Feed FAQ](../faq/faq-cdf.md)

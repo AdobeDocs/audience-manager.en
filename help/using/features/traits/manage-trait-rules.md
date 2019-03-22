@@ -42,7 +42,7 @@ Complete the required fields in the **[!UICONTROL Basic Information]** section *
    >[!NOTE]
    >
    >Include the `c_` prefix (or any other naming convention) for key variable if your event calls send data to [!DNL Audience Manager] using that syntax.
-1. Select a [comparison operator](../../features/traits/trait-comparison-operators.md#concept_1A1761AA403341D7B91C0E26DC4294F4) from the **[!UICONTROL Operator]** dropdown. The comparison operator evaluates the relationship between the elements in a signal.
+1. Select a [comparison operator](../../features/traits/trait-comparison-operators.md) from the **[!UICONTROL Operator]** dropdown. The comparison operator evaluates the relationship between the elements in a signal.
    >[!NOTE]
    >
    >The [!DNL Boolean] [!UICONTROL OR] operator establishes the relationship between multiple signals *within* a group and cannot be changed.

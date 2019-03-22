@@ -60,7 +60,7 @@ The [!DNL URL] for your inbound ID synchronization call should contain variables
 
 ## Declared ID Event {#declared-id-event}
 
-For more information, see [Declared IDs](../../../features/declared-ids.md#concept_2CD1CC1558354F38B3DEDBE09AE8E869).
+For more information, see [Declared IDs](../../../features/declared-ids.md).
 
 ## ID Synchronization From an Email Embedded Image {#id-sync-email-image}
 
@@ -68,4 +68,4 @@ The format for matching IDs via an email image is the same as shown above. Note,
 
 >[!MORE_LIKE_THIS]
 >
->* [Data Collection Components](../../../reference/system-components/components-data-collection.md#concept_66CFFEBF5E8B41ED94082D562A93506E)
+>* [Data Collection Components](../../../reference/system-components/components-data-collection.md)

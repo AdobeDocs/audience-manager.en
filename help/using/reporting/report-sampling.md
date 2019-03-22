@@ -45,5 +45,5 @@ It's important to note that our tests and models show that the error rate *decre
 The [!DNL Audience Manager] reports that use sampled data include:
 
 * [Overlap reports](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) (trait-to-trait, segment-to-trait, and segment-to-segment).
-* [Addressable Audience](../features/addressable-audiences.md#concept_8E0BAEF0978F4968B21482E79E601889) data (customer- and segment-level data). 
+* [Addressable Audience](../features/addressable-audiences.md) data (customer- and segment-level data). 
 * The [Total Devices](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) metric for a [!UICONTROL Profile Merge Rule].

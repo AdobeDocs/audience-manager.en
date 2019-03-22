@@ -112,8 +112,8 @@ A reference guide for the labels and terms used in this report.
    <td colname="col1"> <p> <b>Data Sync File Name</b> </p> </td> 
    <td colname="col2"> <p>Lists files that <span class="keyword"> Audience Manager</span> received and processed from you selected inbound data source. </p> <p>File processing will fail if the file name is formatted improperly. File name requirements vary depending on how you send this data to <span class="keyword"> Audience Manager</span>. Delivery methods include <span class="keyword"> Amazon S3</span> and FTP. For instructions on how to name your files, see: </p> <p> 
      <ul id="ul_9A32906A14CA41C5AED0E13930DB31BA"> 
-      <li id="li_A5A0E6ED711D4002B52092619F87C7D6"> <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md#concept_B3CAF442BFFE4823B76A5D0D91DF9942"> Amazon S3 Name Requirements for Inbound Data Files </a> </li> 
-      <li id="li_9590241AEC0C482D91C64DB760B32B0D"> <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md#concept_D34898442363415DBF75CEBFC2E86997"> FTP Name Requirements for Inbound Data Files </a> </li> 
+      <li id="li_A5A0E6ED711D4002B52092619F87C7D6"> <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md"> Amazon S3 Name Requirements for Inbound Data Files </a> </li> 
+      <li id="li_9590241AEC0C482D91C64DB760B32B0D"> <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md"> FTP Name Requirements for Inbound Data Files </a> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -176,7 +176,7 @@ A reference guide for the labels and terms used in this report.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Total Unused Signals</b> </p> </td> 
-   <td colname="col2"> <p>Total number of unused signals received in the report. This total is based on the total number of successfully stored records. </p> <p>See <a href="../reporting/dynamic-reports/unused-signals.md#concept_D3A6A3AD84AE47589699A13A8F971BE0"> Unused Signals Report</a> for more information. </p> </td> 
+   <td colname="col2"> <p>Total number of unused signals received in the report. This total is based on the total number of successfully stored records. </p> <p>See <a href="../reporting/dynamic-reports/unused-signals.md"> Unused Signals Report</a> for more information. </p> </td> 
   </tr> 
  </tbody> 
 </table>

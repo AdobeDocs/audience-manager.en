@@ -52,7 +52,7 @@ After you subscribe to a data feed:
 >[!MORE_LIKE_THIS]
 >
 >* [Billing and Impression Allocation for CPM Data Feeds](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
->* [Billing and Impression Allocation for Flat Fee Data Feeds](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#concept_FE781C4C5C044C1F986F1AB6BA4E328F)
+>* [Billing and Impression Allocation for Flat Fee Data Feeds](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
 >* [How to Report CPM Usage](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)
 
 ## Subscribe to a Private Data Feed {#subscript-private-data-feed}
@@ -110,7 +110,7 @@ In [!UICONTROL Audience Marketplace], providers can offer buyers a discount on t
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Potential Subscribers</b> </p> </td> 
-   <td colname="col2"> <p>A <a href="../../../features/audience-marketplace/marketplace-private-feeds.md#concept_68EDE94B558C4B88BBCC994B67726FD2"> potential subscriber</a> is a data buyer who has requested access to a private data feed, received seller approval, but has not subscribed to the feed. To request a discount as a potential subscriber: </p> 
+   <td colname="col2"> <p>A <a href="../../../features/audience-marketplace/marketplace-private-feeds.md"> potential subscriber</a> is a data buyer who has requested access to a private data feed, received seller approval, but has not subscribed to the feed. To request a discount as a potential subscriber: </p> 
     <ol id="ol_9CECDA92E7894B20AC8A777D78962188"> 
      <li id="li_618B64160CF24549AFCA73E006DCA35A">Go to <b><span class="uicontrol"> Audience Marketplace &gt; Marketplace</span></b>. </li> 
      <li id="li_FE52A06B30FC4858B48AF81954365FE9">Click the name of the feed you've been approved for. </li> 
@@ -162,7 +162,7 @@ To unsubscribe from a data feed:
 1. Click the data feed name in the [!UICONTROL Marketplace].
 1. In the [!UICONTROL Use Case] section find the plan you want to use and move the **[!UICONTROL Subscription]** slider to **[!UICONTROL Off]**.
 
-## Data Feed Deactivation: Why It Happens and How to Respond {#concept_DE8E36D2B96B484482C317DAD20E7F61}
+## Data Feed Deactivation: Why It Happens and How to Respond {#data-feed-deactivation-reasons}
 
 In [!UICONTROL Audience Marketplace], data providers can revoke access to your subscribed data feeds. Don't be alarmed if this happens to you. We've got you covered. Review this section for processes and procedures related to data feed deactivations.
 
@@ -189,7 +189,7 @@ When a data provider deactivates one of your data feeds, [!DNL Audience Manager]
 
 * **Subject line:** Subscription to *name of data feed here* is Cancelled. 
 
-* **Attachments:** The email includes an attachment titled, " `list-of-affected-entities-by-feed-revocation.csv`." That is a convoluted way of saying the attachment lists all the traits included in the cancelled feed. As a data buyer, you should review this attachment. It will help you find and remove deactivated traits from your segments and [algorithmic models](../../../features/algorithmic-models/understanding-models.md#concept_49FB2DBD4AD041A4ABAAEE9D83BB996E).
+* **Attachments:** The email includes an attachment titled, " `list-of-affected-entities-by-feed-revocation.csv`." That is a convoluted way of saying the attachment lists all the traits included in the cancelled feed. As a data buyer, you should review this attachment. It will help you find and remove deactivated traits from your segments and [algorithmic models](../../../features/algorithmic-models/understanding-models.md).
 
 ## Deactivated Trait List {#deactivation-trait-list}
 
@@ -242,7 +242,7 @@ The list that accompanies a deactivation email contains the fields as shown belo
 
 As a data buyer, you're responsible for removing the traits in a cancelled feed from all your active/in-use or inactive segments. Removal options include:
 
-* Bulk removal with the [REST APIs](../../../api/rest-api-main/rest-api-main.md#concept_B512E6C3410A4304A672588A60A792B1) or the [Bulk Management Tools](../../../reference/bulk-management-tools/bulk-management-intro.md).
+* Bulk removal with the [REST APIs](../../../api/rest-api-main/rest-api-main.md) or the [Bulk Management Tools](../../../reference/bulk-management-tools/bulk-management-intro.md).
 
 * Manually search for affected segments and remove deactivated traits using [!UICONTROL Segment Builder]. See [Remove Traits from a Segment](../../../features/segments/segment-builder.md#segment-builder-controls-traits).
 
@@ -298,7 +298,7 @@ As an [!UICONTROL Audience Marketplace] data buyer, you can purchase data for ov
 
 ### Segments and Overlap
 
-This use case lets you compare your traits with provider traits in a [trait-to-trait overlap report.](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report) Also, you can create or add provider traits to a segment and make additional comparisons with the [segment-to-trait](../../../reporting/dynamic-reports/segment-trait-overlap-report.md#concept_36186B1ABEA34A6AAC7F5CF938A122B7) and [segment-to-segment](../../../reporting/dynamic-reports/segment-segment-overlap-report.md) reports. Overlap comparisons can help you:
+This use case lets you compare your traits with provider traits in a [trait-to-trait overlap report.](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report) Also, you can create or add provider traits to a segment and make additional comparisons with the [segment-to-trait](../../../reporting/dynamic-reports/segment-trait-overlap-report.md) and [segment-to-segment](../../../reporting/dynamic-reports/segment-segment-overlap-report.md) reports. Overlap comparisons can help you:
 
 * **Extend audience reach:** Low overlap suggests your traits contain users you have not seen before. You may want these traits to try and reach new users.
 * **Enhance existing audiences:** High overlap suggests your traits are similar to those owned by the data provider. You may want these traits to help make targeted, incremental improvements to an already developed audience.
@@ -309,4 +309,4 @@ This use case lets you evaluate supplier traits against your traits with [algori
 
 ### Activation
 
-This use case lets you send data to a [destination](../../../features/destinations/destinations.md#concept_5BDA346C376C4B719EA394108AB2735A). In [!UICONTROL Audience Manager], a destination is any third-party system (ad server, [!DNL DSP], [!DNL DMP], exchange, etc.) that you want to share data with. However, with an [!UICONTROL Activation] use case, you cannot run overlap reports or test the data in an algorithmic model.
+This use case lets you send data to a [destination](../../../features/destinations/destinations.md). In [!UICONTROL Audience Manager], a destination is any third-party system (ad server, [!DNL DSP], [!DNL DMP], exchange, etc.) that you want to share data with. However, with an [!UICONTROL Activation] use case, you cannot run overlap reports or test the data in an algorithmic model.

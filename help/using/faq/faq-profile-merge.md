@@ -28,13 +28,13 @@ A device graph is a set of ID mappings that defines groups of anonymous devices.
 
 **What is an external device graph?**
 
-An external device graph is any device graph in [!DNL Audience Manager] that has not been created exclusively from your own cross-device data sources. For example, when you create a [Profile Merge Rule](../features/profile-merge-rules/merge-rules-start.md#concept_34A9CEA00B24447EBF7EA8DA2928E1DD) and choose the [!UICONTROL Co-op Device Graph] or third-party device graph options, you're working with an external device graph. See [Device Options](../features/profile-merge-rules/merge-rule-definitions.md#device-options).
+An external device graph is any device graph in [!DNL Audience Manager] that has not been created exclusively from your own cross-device data sources. For example, when you create a [Profile Merge Rule](../features/profile-merge-rules/merge-rules-start.md) and choose the [!UICONTROL Co-op Device Graph] or third-party device graph options, you're working with an external device graph. See [Device Options](../features/profile-merge-rules/merge-rule-definitions.md#device-options).
 
 <br>&nbsp;
 
 **What are some common use cases for using an external device graph in a [!UICONTROL Profile Merge Rule]?**
 
-The main objective of using a device graph in a [!UICONTROL Profile Merge Rule] is to evaluate and qualify multiple devices belonging to a single person or household for a specific segment. The segment itself may have multiple uses for example, targeting an audience of prospects with and ad served by a DSP or personalizing a customer’s on-site experience via an on-site personalization platform. See [External Device Graph Use Cases](../features/profile-merge-rules/external-graph-use-cases.md#concept_7C0BDBFB3392415286B624F45E8883E5).
+The main objective of using a device graph in a [!UICONTROL Profile Merge Rule] is to evaluate and qualify multiple devices belonging to a single person or household for a specific segment. The segment itself may have multiple uses for example, targeting an audience of prospects with and ad served by a DSP or personalizing a customer’s on-site experience via an on-site personalization platform. See [External Device Graph Use Cases](../features/profile-merge-rules/external-graph-use-cases.md).
 
 <br>&nbsp;
 
@@ -54,7 +54,7 @@ Once a week.
 
 **How does [!DNL Audience Manager] use a device graph?**
 
-In [!DNL Audience Manager], device graphs appear as configuration options when you [create a Profile Merge Rule](../features/profile-merge-rules/merge-rules-start.md#concept_34A9CEA00B24447EBF7EA8DA2928E1DD). Through your [!UICONTROL Profile Merge Rules], these device graphs help [!DNL Audience Manager]:
+In [!DNL Audience Manager], device graphs appear as configuration options when you [create a Profile Merge Rule](../features/profile-merge-rules/merge-rules-start.md). Through your [!UICONTROL Profile Merge Rules], these device graphs help [!DNL Audience Manager]:
 
 * Merge multiple device profiles together. This creates a single superset of traits.
 * Evaluate the trait superset for segment qualification (rather than evaluating each device profile individually).
@@ -86,19 +86,19 @@ The devices [!DNL Audience Manager] merges and reads are the same devices that a
 
 **Which devices *can* qualify for a segment using a [!UICONTROL Profile Merge Rule] that contains a device graph?**
 
-To qualify for a segment, devices must have been seen by Audience Manager on our [edge data servers](../reference/system-components/components-edge.md#concept_DD36E2B5A23D4CC5A91CA9808B908B8E) after the segment was created. Additionally, the edge servers:
+To qualify for a segment, devices must have been seen by Audience Manager on our [edge data servers](../reference/system-components/components-edge.md) after the segment was created. Additionally, the edge servers:
 
 * Store profile data for a maximum of 14-days. 
-* Delete a device profile if it has been inactive for more than 14-days. Note: This action only removes data from the edge. Other systems will retain records for longer time intervals. See the [Privacy and Data Retention FAQ](../faq/faq-privacy.md#concept_19A401AFC8414994810290011AA10595). 
+* Delete a device profile if it has been inactive for more than 14-days. Note: This action only removes data from the edge. Other systems will retain records for longer time intervals. See the [Privacy and Data Retention FAQ](../faq/faq-privacy.md). 
 * Reset the 14-day interval if [!DNL Audience Manager] records any activity for that profile across the entire platform.
 
-See also, [Data Collection Components](../reference/system-components/components-data-collection.md#concept_66CFFEBF5E8B41ED94082D562A93506E).
+See also, [Data Collection Components](../reference/system-components/components-data-collection.md).
 
 <br>&nbsp;
 
 **Where can [!DNL Audience Manager] send segments that have been qualified by a [!UICONTROL Profile Merge Rule] that uses a device graph?**
 
-[!DNL Audience Manager] can send segments to a destination in batch files or in real-time. And, as noted in the FAQ entry above, To qualify for a segment, devices must have been seen by [!DNL Audience Manager] on our [edge data servers](../reference/system-components/components-edge.md#concept_DD36E2B5A23D4CC5A91CA9808B908B8E) after the segment was created.
+[!DNL Audience Manager] can send segments to a destination in batch files or in real-time. And, as noted in the FAQ entry above, To qualify for a segment, devices must have been seen by [!DNL Audience Manager] on our [edge data servers](../reference/system-components/components-edge.md) after the segment was created.
 
 <br>&nbsp;
 
@@ -118,13 +118,13 @@ Yes. See the explanation above.
 
 **If I build a segment with a [!UICONTROL Profile Merge Rule] that uses a device graph and the segment is using both real-time and on-boarded data, will my segment be updated as the on-boarded data changes?**
 
-No. Currently, [!DNL Audience Manager] evaluates segments with a [!UICONTROL Profile Merge Rule] that uses a device graph in real-time only. Updates made to on-boarded traits after the segment has been evaluated will be used to qualify the segment when the device is next seen by our [edge data servers](../reference/system-components/components-edge.md#concept_DD36E2B5A23D4CC5A91CA9808B908B8E). This assumes the device profile is still active in the edge servers and the on-boarded data has been made available to those systems. See also, the [Privacy and Data Retention FAQ](../faq/faq-privacy.md#concept_19A401AFC8414994810290011AA10595).
+No. Currently, [!DNL Audience Manager] evaluates segments with a [!UICONTROL Profile Merge Rule] that uses a device graph in real-time only. Updates made to on-boarded traits after the segment has been evaluated will be used to qualify the segment when the device is next seen by our [edge data servers](../reference/system-components/components-edge.md). This assumes the device profile is still active in the edge servers and the on-boarded data has been made available to those systems. See also, the [Privacy and Data Retention FAQ](../faq/faq-privacy.md).
 
 <br>&nbsp;
 
 **Do segment size estimates include devices that qualify for a segment based on connections provided by a [!UICONTROL Profile Merge Rule] that uses a device graph option?**
 
-No. See the definitions for the [!UICONTROL Estimated Real-Time Population] and [!UICONTROL Estimated Total Population] in [Trait and Segment Population Data in Segment Builder](../features/segments/segment-builder-data.md#concept_05EE3010E67F446E8818351292EF7372).
+No. See the definitions for the [!UICONTROL Estimated Real-Time Population] and [!UICONTROL Estimated Total Population] in [Trait and Segment Population Data in Segment Builder](../features/segments/segment-builder-data.md).
 
 <br>&nbsp;
 
@@ -184,7 +184,7 @@ The trait frequency is defined by the sum of the number of qualifications for a 
 
 **Can I see the number of devices that can be reached by a [!UICONTROL Profile Merge Rule] that uses a device graph?**
 
-Yes. Reports return data at the [!UICONTROL Profile Merge Rule] level. Report data is updated daily. Data is based on the devices seen in your account, not those linked by a device graph. See [Report Metrics for Profile Merge Rules](../features/profile-merge-rules/profile-link-metrics.md#concept_FBA9E3FB4E3C46EE83DB9BD4D288A0CE).
+Yes. Reports return data at the [!UICONTROL Profile Merge Rule] level. Report data is updated daily. Data is based on the devices seen in your account, not those linked by a device graph. See [Report Metrics for Profile Merge Rules](../features/profile-merge-rules/profile-link-metrics.md).
 
 <br>&nbsp;
 
@@ -274,4 +274,4 @@ No
 
 >[!MORE_LIKE_THIS]
 >
->* [Profile Link](../features/profile-merge-rules/merge-rules-overview.md#concept_5FCB08A53C4D4C2B82800BC9FD2B8EC9)
+>* [Profile Link](../features/profile-merge-rules/merge-rules-overview.md)

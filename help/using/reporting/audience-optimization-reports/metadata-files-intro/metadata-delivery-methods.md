@@ -49,19 +49,19 @@ The following table defines each of these elements in a file delivery path.
    <td colname="col2"> <p> 
      <ul id="ul_5907ADF5B20C4FEC94EF5A09BE02F2CD"> 
       <li id="li_AE70B44FEDCF4A05ADAFF4E49296F67D"> <code> meta</code> is a file upload/storage directory. </li> 
-      <li id="li_2ADEA90E01364E888CAAAB8A65A6383F"> <code> status</code> is a path to a directory that holds success or failure information about your processed files. After your file is processed, you'll see a <code> .info</code> file with <code> yyyymmdd</code> timestamp title. Status files contain data in a JSON object. See <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-update-status.md#concept_B42172A8E6394E889DCF367AA01B4583"> Status Updates for Metadata Files</a>. </li> 
+      <li id="li_2ADEA90E01364E888CAAAB8A65A6383F"> <code> status</code> is a path to a directory that holds success or failure information about your processed files. After your file is processed, you'll see a <code> .info</code> file with <code> yyyymmdd</code> timestamp title. Status files contain data in a JSON object. See <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-update-status.md"> Status Updates for Metadata Files</a>. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>yyyymmdd</i>_<i>parent ID</i>_<i>child ID</i></code> </p> </td> 
-   <td colname="col2"> <p>This is the file name. See <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#concept_729806531D4547A6B5870BEA199FB4A9"> Naming Conventions for Metadata Files</a>. </p> </td> 
+   <td colname="col2"> <p>This is the file name. See <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Naming Conventions for Metadata Files</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Sample Upload and Status Paths**
 
-To upload a metadata file or to [check its status](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-update-status.md#concept_B42172A8E6394E889DCF367AA01B4583), the file paths will look similar to these:
+To upload a metadata file or to [check its status](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-update-status.md), the file paths will look similar to these:
 
 * Upload path: `/log_ingestion/pid=1234/dpid=567/meta/20150827_1_2` 
 * Processing status path: `/log_ingestion/pid=1234/dpid=567/status/20150827.info`.

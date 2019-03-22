@@ -38,7 +38,7 @@ A look at some common advertiser needs met by Adobe Audience Manager.
 
 ## Create High Value Segments and Improve Reach with Look-alike Modeling
 
-The [Models](../features/algorithmic-models/understanding-models.md#concept_49FB2DBD4AD041A4ABAAEE9D83BB996E) documentation contains details about the [!DNL Audience Manager] algorithmic modeling process.  
+The [Models](../features/algorithmic-models/understanding-models.md) documentation contains details about the [!DNL Audience Manager] algorithmic modeling process.  
 
 <table id="table_47456520CA99459B92DACD2047951D2D"> 
  <thead> 

@@ -66,8 +66,8 @@ The table below lists the operations you can perform and items you can manipulat
    <td colname="col2"> <p>The objects you can change in bulk are located under the <b><span class="uicontrol"> Headers</span></b> tab and include: </p> <p> 
      <ul id="ul_A7A96F2B1B63430B9A1E1184AC5FA8F2"> 
       <li id="li_E3D9E2E190B04BE685337AC6140C371C"> <a href="../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> Data sources</a> </li> 
-      <li id="li_B645385E40684FA28770913EAF18CB2C"> <a href="../../features/derived-signals.md#concept_36FF7303F39E4748AC048D08F9E371C6"> Derived signals</a> </li> 
-      <li id="li_9059F8C4A41A410899BDEFC76D3F5949"> <a href="../../features/destinations/destinations.md#concept_5BDA346C376C4B719EA394108AB2735A"> Destinations</a> </li> 
+      <li id="li_B645385E40684FA28770913EAF18CB2C"> <a href="../../features/derived-signals.md"> Derived signals</a> </li> 
+      <li id="li_9059F8C4A41A410899BDEFC76D3F5949"> <a href="../../features/destinations/destinations.md"> Destinations</a> </li> 
       <li id="li_BB5A445150754E53AA38C78461326932"> <a href="../../features/traits/trait-storage.md#trait-storage"> Trait folders</a> and segment folders </li> 
       <li id="li_7A27DBF64E0945CF8AE8C96E8C6EDA09"> <a href="../../features/segments/segments-purpose.md"> Segments</a> </li> 
       <li id="li_A4640A34930040DEA8555EAF0AE2A702"> <a href="../../features/traits/trait-details-page.md"> Traits</a> </li> 
@@ -87,7 +87,7 @@ As an example, let's take a look at how to create multiple traits at one time. T
 
 >[!NOTE]
 >
->When working with large requests, the worksheet might become unresponsive and appear to be inactive. In these cases, just leave it alone. The worksheet will become responsive when the bulk request is complete. If the worksheet does not respond for a long period of time, see the [troubleshooting section](../../reference/bulk-management-tools/bulk-troubleshooting.md#reference_1A3E7E0CEF6A4D8D801BC363A3C30C1A).
+>When working with large requests, the worksheet might become unresponsive and appear to be inactive. In these cases, just leave it alone. The worksheet will become responsive when the bulk request is complete. If the worksheet does not respond for a long period of time, see the [troubleshooting section](../../reference/bulk-management-tools/bulk-troubleshooting.md).
 
 ## Authentication requirements and options {#auth-reqs}
 

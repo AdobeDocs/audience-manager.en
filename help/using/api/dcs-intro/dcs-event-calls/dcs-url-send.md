@@ -25,7 +25,7 @@ https://<i>domain alias</i>.demdex.net/event?<i>key1</i>=<i>val1</i>,&<i>key2</i
 
 >[!NOTE]
 >
->You can also send data to the [!UICONTROL DCS] by using the `POST` method. The call syntax is described in [DCS API Methods](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md#concept_084D7A3E30C94145B3BAE305D30640B7).
+>You can also send data to the [!UICONTROL DCS] by using the `POST` method. The call syntax is described in [DCS API Methods](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md).
 
 ## Call Parameters {#dcs-call-parameters}
 
@@ -44,7 +44,7 @@ The following table defines the basic components of a simple [!UICONTROL DCS] ca
    <td colname="col2"> <p>This part of the call contains: </p> <p> 
      <ul id="ul_3EDA9C7BA6794D06BCB07A75A9BD2372"> 
       <li id="li_74624CA78D6F4536A8164AE1FA1DECB9">Your domain alias assigned by <span class="keyword"> Audience Manager</span> (e.g., <code> my_domain.demdex.net</code>). </li> 
-      <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">The destination domain, which is always <code> demdex.net</code>. See <a href="../../../reference/demdex-calls.md#concept_77B3D5A068AE413FA78D190D65AD799F"> Understanding Calls to the Demdex Domain</a>. </li> 
+      <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">The destination domain, which is always <code> demdex.net</code>. See <a href="../../../reference/demdex-calls.md"> Understanding Calls to the Demdex Domain</a>. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -57,7 +57,7 @@ The following table defines the basic components of a simple [!UICONTROL DCS] ca
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> key</code> </p> </td> 
-   <td colname="col2"> <p>A unique identifier in the key-value pair. </p> <p>These key-value pairs use a specific prefix to identify the type of data you're sending to the <span class="wintitle"> DCS</span>. For more information, see <a href="../../../api/dcs-intro/dcs-api-reference/dcs-keys.md#concept_5ACDD7D09D0441A6AC26F7D345CD19D5"> Supported Attributes for DCS API Calls</a>. </p> </td> 
+   <td colname="col2"> <p>A unique identifier in the key-value pair. </p> <p>These key-value pairs use a specific prefix to identify the type of data you're sending to the <span class="wintitle"> DCS</span>. For more information, see <a href="../../../api/dcs-intro/dcs-api-reference/dcs-keys.md"> Supported Attributes for DCS API Calls</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> val</code> </p> </td> 
@@ -65,7 +65,7 @@ The following table defines the basic components of a simple [!UICONTROL DCS] ca
      <ul id="ul_624DC78759F74AD8920220058E54E083"> 
       <li id="li_091E5B4820EC4A93B775433E428E74AB">Enclose string data in double quotes (e.g., <code> age="41 to 55"</code>). </li> 
       <li id="li_C558E3BA6EE34413BBBB962D4CD0D10E">You can pass multiple keys in on a single value (e.g., <i><code>key</i>=<i>val1,val2,val3</i></code></i>). </li> 
-     </ul> </p> <p>See <a href="../../../api/dcs-intro/dcs-api-reference/dcs-key-format.md#reference_D20E71D7090F4F2690F6DFBD5389B000"> Formatting Key-Value Pairs in DCS Calls</a>. </p> </td>
+     </ul> </p> <p>See <a href="../../../api/dcs-intro/dcs-api-reference/dcs-key-format.md"> Formatting Key-Value Pairs in DCS Calls</a>. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> 
@@ -87,8 +87,8 @@ This example shows the fictional company [!DNL Acme, Inc.] sending data to the [
 
 ## Next Steps {#dcs-next-steps}
 
-Now that you're familiar with sending data to the [!UICONTROL DCS], it's time to look at how to get data back from it and parse that information. See [Receive Data From the DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md#concept_1219EE35E91548F899E2FFE60C107841). 
+Now that you're familiar with sending data to the [!UICONTROL DCS], it's time to look at how to get data back from it and parse that information. See [Receive Data From the DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md). 
 
 >[!MORE_LIKE_THIS]
 >
->* [Key-Value Pairs Explained](../../../reference/key-value-pairs-explained.md#concept_E4236E003076483AA939791FE2492B49)
+>* [Key-Value Pairs Explained](../../../reference/key-value-pairs-explained.md)

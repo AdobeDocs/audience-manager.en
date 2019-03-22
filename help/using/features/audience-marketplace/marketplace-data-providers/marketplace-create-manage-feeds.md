@@ -54,11 +54,11 @@ In the [!UICONTROL Settings] section, move the slider to:
 
 * **[!UICONTROL Private]** and **[!UICONTROL Unbranded]**: The buyer's [!UICONTROL Marketplace] list shows the data feed name and description only. The data provider name appears as [!UICONTROL Private Seller].
 
-To see what a private feed looks like to buyers, see the buyers section in [Private Data Feeds](../../../features/audience-marketplace/marketplace-private-feeds.md#concept_68EDE94B558C4B88BBCC994B67726FD2).
+To see what a private feed looks like to buyers, see the buyers section in [Private Data Feeds](../../../features/audience-marketplace/marketplace-private-feeds.md).
 
 >[!MORE_LIKE_THIS]
 >
->* [Private Data Feeds](../../../features/audience-marketplace/marketplace-private-feeds.md#concept_68EDE94B558C4B88BBCC994B67726FD2)
+>* [Private Data Feeds](../../../features/audience-marketplace/marketplace-private-feeds.md)
 
 ## Deactivate a Subscriber's Data Feed {#deactivate-data-feed}
 
@@ -102,7 +102,7 @@ The [!UICONTROL Use Case] settings let sellers control how buyers can use your d
 
 ### Segments and Overlap
 
-A **[!UICONTROL Segments and Overlap]** use case creates a plan that lets buyers compare trait data in a [trait-to-trait overlap report](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report). Furthermore, buyers can add your data to segments and make comparisons with the [segment-to-trait](../../../reporting/dynamic-reports/segment-trait-overlap-report.md#concept_36186B1ABEA34A6AAC7F5CF938A122B7) and [segment-to-segment](../../../reporting/dynamic-reports/segment-segment-overlap-report.md) reports.
+A **[!UICONTROL Segments and Overlap]** use case creates a plan that lets buyers compare trait data in a [trait-to-trait overlap report](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report). Furthermore, buyers can add your data to segments and make comparisons with the [segment-to-trait](../../../reporting/dynamic-reports/segment-trait-overlap-report.md) and [segment-to-segment](../../../reporting/dynamic-reports/segment-segment-overlap-report.md) reports.
 
 Each data feed must include at least one [!UICONTROL Segments and Overlap] use case. Buyers cannot subscribe to other plans in a data feed if the feed does not contain a [!UICONTROL Segments and Overlap] use case, either by itself or in combination with another use case.
 
@@ -125,7 +125,7 @@ A **[!UICONTROL Modeling]** use case creates a plan that lets buyers compare you
 
 ### Activation
 
-An **[!UICONTROL Activation]** use case lets buyers send data to a [destination](../../../features/destinations/destinations.md#concept_5BDA346C376C4B719EA394108AB2735A). With this use case, buyers cannot compare data with an overlap report or in an algorithmic model. Price this use case as follows:
+An **[!UICONTROL Activation]** use case lets buyers send data to a [destination](../../../features/destinations/destinations.md). With this use case, buyers cannot compare data with an overlap report or in an algorithmic model. Price this use case as follows:
 
 * Unit of Measure: [!DNL CPM]
 * Price: [!DNL CPM] market rate
@@ -180,7 +180,7 @@ To review, approve, or reject buyer requests, go to [!UICONTROL My Shared Data] 
 
 >[!MORE_LIKE_THIS]
 >
->* [Private Data Feeds](../../../features/audience-marketplace/marketplace-private-feeds.md#concept_68EDE94B558C4B88BBCC994B67726FD2)
+>* [Private Data Feeds](../../../features/audience-marketplace/marketplace-private-feeds.md)
 
 ## Discounts for Data Providers {#discounts}
 

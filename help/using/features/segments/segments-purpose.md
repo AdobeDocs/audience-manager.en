@@ -42,4 +42,4 @@ Segments improve upon standard pixel-based audience creation/segmentation proces
 
 >[!MORE_LIKE_THIS]
 >
->* [Signals, Traits, and Segments](../../reference/signal-trait-segment.md#concept_7550A48FE3F1415FACF0E077CFAB155F)
+>* [Signals, Traits, and Segments](../../reference/signal-trait-segment.md)

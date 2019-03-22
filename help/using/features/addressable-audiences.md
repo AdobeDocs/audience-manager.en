@@ -49,7 +49,7 @@ Read the sections below for available date ranges and how data ages out of each 
 
 <!-- addressable-audience-dates.xml -->
 
-Reports for your [!UICONTROL Addressable Audiences] and [Destinations](../features/destinations/destinations.md#concept_5BDA346C376C4B719EA394108AB2735A) use the same date range intervals. The date range options include:
+Reports for your [!UICONTROL Addressable Audiences] and [Destinations](../features/destinations/destinations.md) use the same date range intervals. The date range options include:
 
 * [!UICONTROL Last 1 Day] (This interval runs from Midnight to Midnight of the previous 24-hour period. It is not a real or current-time metric.)
 * [!UICONTROL Last 7 Days]
@@ -59,7 +59,7 @@ Reports for your [!UICONTROL Addressable Audiences] and [Destinations](../featur
 * [!UICONTROL Last 90 Days]
 * [!UICONTROL Lifetime]
 
-All dates and date ranges are set in the [!DNL UTC] time zone. See [Time Zones in Audience Manager](../reference/aam-time-zones.md#concept_9E98F473CB1A4A81A68C68CA552D9507).
+All dates and date ranges are set in the [!DNL UTC] time zone. See [Time Zones in Audience Manager](../reference/aam-time-zones.md).
 
 ## Data in Date Range Intervals {#date-range-intervals}
 
@@ -130,7 +130,7 @@ These metrics return data on segment membership. They help provide a more granul
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Segment Addressable Audience</b> </p> </td> 
-   <td colname="col2"> <p>The number of users who have belonged to the segment during the report look-back period and have an active ID sync on your site. Segments can include your own first-party data and second party and third party data, via traits acquired in the <a href="../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#concept_907D3359C1CA49F1B3F275D697A9AD9B"> Audience Marketplace</a>. </p> <p> <p>Tip: When used with the 1-day look-back period, this metric can help you understand the current state of your segments. This is because the <span class="wintitle"> Segment Addressable Audience</span> metric represents the users who stayed in a segment throughout the previous day. Combine this with the fact that <span class="keyword"> Audience Manager</span> refreshes <span class="wintitle"> Addressable Audiences</span> daily, combining this metric and lookback period provides the most up-to-date snapshot of your segments. </p> </p> </td> 
+   <td colname="col2"> <p>The number of users who have belonged to the segment during the report look-back period and have an active ID sync on your site. Segments can include your own first-party data and second party and third party data, via traits acquired in the <a href="../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md"> Audience Marketplace</a>. </p> <p> <p>Tip: When used with the 1-day look-back period, this metric can help you understand the current state of your segments. This is because the <span class="wintitle"> Segment Addressable Audience</span> metric represents the users who stayed in a segment throughout the previous day. Combine this with the fact that <span class="keyword"> Audience Manager</span> refreshes <span class="wintitle"> Addressable Audiences</span> daily, combining this metric and lookback period provides the most up-to-date snapshot of your segments. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Total Segment Population</b> </p> </td> 

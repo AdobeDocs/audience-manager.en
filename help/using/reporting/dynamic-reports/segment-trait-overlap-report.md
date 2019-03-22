@@ -77,7 +77,7 @@ Looking at the overlap between traits and segments can help you estimate the tot
  </tbody> 
 </table>
 
-## Understanding the Data Filters in the Segment-to-Trait Overlap Report {#reference_38D7AB743DC346AC8588BA85DA92C754}
+## Understanding the Data Filters in the Segment-to-Trait Overlap Report {#data-filters-s2t-report}
 
 Describes how the trait and segment unique overlap % sliders work.
 
@@ -170,9 +170,9 @@ The popup for the [!UICONTROL Segment-to-Trait Overlap] report contains the metr
 
 >[!MORE_LIKE_THIS]
 >
->* [Filter Report Results With the Data Sliders](../../reporting/dynamic-reports/data-sliders.md#concept_00E60A0BDB274B07A1DD342EE5554C37)
+>* [Filter Report Results With the Data Sliders](../../reporting/dynamic-reports/data-sliders.md)
 >* [Shapes, Colors, and Sizes Used in Interactive Reports](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
 >* [Report Icons and Tools Explained](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
->* [Overlap Reports: Update Schedule and Minimum Segment Size](../../reporting/dynamic-reports/overlap-minimum-segment-size.md#concept_6C439B845E684C40A726C546F9AF0AFD)
->* [Data Sampling and Error Rates in Selected Audience Manager Reports...](../../reporting/report-sampling.md#concept_624BB1069F8A4CBD948ABD87105329E4)
->* [CSV Files for Overlap Reports](../../reporting/dynamic-reports/overlap-csv-files.md#concept_440C76BFFAC74669972CE538F8B5040F)
+>* [Overlap Reports: Update Schedule and Minimum Segment Size](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
+>* [Data Sampling and Error Rates in Selected Audience Manager Reports...](../../reporting/report-sampling.md)
+>* [CSV Files for Overlap Reports](../../reporting/dynamic-reports/overlap-csv-files.md)

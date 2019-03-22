@@ -43,7 +43,7 @@ To build groups of segments, wrap the frequency function in parenthesis and set 
 
 ### Allowed Recency and Frequency Operators
 
-Set [recency and frequency](../../features/segments/recency-and-frequency.md#concept_957D9E1977774D28A98ACEE6035E7B37) intervals with a comparison operator and an integer. [!UICONTROL Segment Builder] uses standard expressions like < (less than), > (greater than), == (equal), etc. However, the types of allowed operators vary when you set recency or frequency. The table below lists the allowed recency/frequency operators.  
+Set [recency and frequency](../../features/segments/recency-and-frequency.md) intervals with a comparison operator and an integer. [!UICONTROL Segment Builder] uses standard expressions like < (less than), > (greater than), == (equal), etc. However, the types of allowed operators vary when you set recency or frequency. The table below lists the allowed recency/frequency operators.  
 
 <table id="table_2F92617CB472442BA5639E24DB4E43D3"> 
  <thead> 
@@ -71,7 +71,7 @@ Set [recency and frequency](../../features/segments/recency-and-frequency.md#con
 
 >[!MORE_LIKE_THIS]
 >
->* [Recency and Frequency](../../features/segments/recency-and-frequency.md#concept_957D9E1977774D28A98ACEE6035E7B37)
->* [Boolean Expressions in Trait and Segment Builder](../../reference/boolean-expressions-tsb.md#concept_B7537516B5D04CEBB9CFB4F4B780630F)
->* [Working with Comparison Operators in TraitBuilder](../../features/traits/trait-comparison-operators.md#concept_1A1761AA403341D7B91C0E26DC4294F4)
->* [Order of Operations in TraitBuilder Expressions](../../features/traits/trait-operator-precedence.md#concept_F8A8B8B8E4814A86B34493B104D44464)
+>* [Recency and Frequency](../../features/segments/recency-and-frequency.md)
+>* [Boolean Expressions in Trait and Segment Builder](../../reference/boolean-expressions-tsb.md)
+>* [Working with Comparison Operators in TraitBuilder](../../features/traits/trait-comparison-operators.md)
+>* [Order of Operations in TraitBuilder Expressions](../../features/traits/trait-operator-precedence.md)

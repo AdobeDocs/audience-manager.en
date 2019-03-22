@@ -21,7 +21,7 @@ The available `POST` methods let you create [!UICONTROL URL] and [!UICONTROL coo
 >
 >* [Destinations](../../../features/destinations/destinations.md#destination-api-methods)
 >* [Destination Serialization](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [Key-Value Pairs Explained](../../../reference/key-value-pairs-explained.md#concept_E4236E003076483AA939791FE2492B49)
+>* [Key-Value Pairs Explained](../../../reference/key-value-pairs-explained.md)
 
 ## Create a Non-Serial URL Destination {#create-nonserial-dest}
 
@@ -214,7 +214,7 @@ A successful update returns response code `201 created` and the destination.
 >[!MORE_LIKE_THIS]
 >
 >* [Destination Serialization](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [Key-Value Pairs Explained](../../../reference/key-value-pairs-explained.md#concept_E4236E003076483AA939791FE2492B49)
+>* [Key-Value Pairs Explained](../../../reference/key-value-pairs-explained.md)
 
 ## Create a Cookie Destination: Single Key, Serialized {#create-cookie-dest-single-serial}
 
@@ -290,7 +290,7 @@ A successful update returns response code `201 created` and the destination.
 >[!MORE_LIKE_THIS]
 >
 >* [Destination Serialization](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [Key-Value Pairs Explained](../../../reference/key-value-pairs-explained.md#concept_E4236E003076483AA939791FE2492B49)
+>* [Key-Value Pairs Explained](../../../reference/key-value-pairs-explained.md)
 
 ## Create a Cookie Destination: Multi-Key, Non-Serialized {#create-cookie-dest-multi}
 
@@ -431,4 +431,4 @@ A successful update returns response code `201 created` and the destination.
 >[!MORE_LIKE_THIS]
 >
 >* [Destination Serialization](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [Key-Value Pairs Explained](../../../reference/key-value-pairs-explained.md#concept_E4236E003076483AA939791FE2492B49)
+>* [Key-Value Pairs Explained](../../../reference/key-value-pairs-explained.md)

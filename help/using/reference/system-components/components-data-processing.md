@@ -21,7 +21,7 @@ Audience Manager uses the following components to process data:
 
 ## Hadoop {#hadoop}
 
-In [!DNL Audience Manager], Hadoop is the master database that contains everything [!DNL Audience Manager] knows about a user. For example, when the [Profile Cache Servers](../../reference/system-components/components-data-collection.md#concept_66CFFEBF5E8B41ED94082D562A93506E) create log files that contain data about your users, it sends that data to Hadoop for storage. Other important Hadoop elements include:
+In [!DNL Audience Manager], Hadoop is the master database that contains everything [!DNL Audience Manager] knows about a user. For example, when the [Profile Cache Servers](../../reference/system-components/components-data-collection.md) create log files that contain data about your users, it sends that data to Hadoop for storage. Other important Hadoop elements include:
 
 * **Hive:** A data warehouse for Hadoop. Hive manages ad hoc queries to the data stored in Hadoop. 
 
@@ -54,7 +54,7 @@ SOLR is an open-source database and server system from Apache. It provides robus
 
 ## Tableau {#tableau}
 
-[!DNL Audience Manager] uses [Tableau](https://www.tableausoftware.com/) to display data in the [Interactive Reports](../../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) and the [Audience Optimization Reports](../../reporting/audience-optimization-reports/audience-optimization-reports.md#concept_D66D2C58493E48BDAFF2F95BBB508946). The interactive reports display performance and overlap data for traits and segments. Instead of using numbers arranged in columns and rows, they return data using different shapes, colors, and sizes. Additionally, you can choose individual or groups of data points and drill down into the report results for more details. These visualization techniques and report interactivity help make large amounts of numeric data easier to understand.
+[!DNL Audience Manager] uses [Tableau](https://www.tableausoftware.com/) to display data in the [Interactive Reports](../../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) and the [Audience Optimization Reports](../../reporting/audience-optimization-reports/audience-optimization-reports.md). The interactive reports display performance and overlap data for traits and segments. Instead of using numbers arranged in columns and rows, they return data using different shapes, colors, and sizes. Additionally, you can choose individual or groups of data points and drill down into the report results for more details. These visualization techniques and report interactivity help make large amounts of numeric data easier to understand.
 
 
 

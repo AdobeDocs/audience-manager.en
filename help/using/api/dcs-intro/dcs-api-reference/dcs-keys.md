@@ -64,11 +64,11 @@ All of these are optional, unless you want a response from the [!UICONTROL DCS].
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_cid</code> </p> </td> 
-   <td colname="col2"> <p>Contains one or more pairs of data provider IDs (<code> DPID</code>) and data provider user IDs (<code> DPUUID</code>) assigned by <span class="keyword"> Audience Manager</span>. If you use multiple pairs of <code> DPID</code>s and <code> DPUUID</code>s, separate each pair with the non-printing character <code> %01</code>. For example: <code><i>DPID</i>%01<i>DPUUUID</i></code>. </p> <p><code> d_cid</code> replaces <code> d_dpid</code> and <code> d_dpuuid</code>, which are deprecated but still supported. See <a href="../../../reference/cid.md#concept_E9DE716F22E8491AB27057DB92B79081"> CID Replaces DPID and DPUUID</a>. </p> </td>
+   <td colname="col2"> <p>Contains one or more pairs of data provider IDs (<code> DPID</code>) and data provider user IDs (<code> DPUUID</code>) assigned by <span class="keyword"> Audience Manager</span>. If you use multiple pairs of <code> DPID</code>s and <code> DPUUID</code>s, separate each pair with the non-printing character <code> %01</code>. For example: <code><i>DPID</i>%01<i>DPUUUID</i></code>. </p> <p><code> d_cid</code> replaces <code> d_dpid</code> and <code> d_dpuuid</code>, which are deprecated but still supported. See <a href="../../../reference/cid.md"> CID Replaces DPID and DPUUID</a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_cid_ic</code> </p> </td> 
-   <td colname="col2"> <p>Contains an integration code and an associated unique user ID in a single key-value pair. </p> <p><code> d_cid_ic</code> replaces <code> d_dpid</code> and <code> d_dpuuid</code>, which are deprecated but still supported. See <a href="../../../reference/cid.md#concept_E9DE716F22E8491AB27057DB92B79081"> CID Replaces DPID and DPUUID</a>. </p> </td>
+   <td colname="col2"> <p>Contains an integration code and an associated unique user ID in a single key-value pair. </p> <p><code> d_cid_ic</code> replaces <code> d_dpid</code> and <code> d_dpuuid</code>, which are deprecated but still supported. See <a href="../../../reference/cid.md"> CID Replaces DPID and DPUUID</a>. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_coppa</code> </p> </td> 
@@ -78,7 +78,7 @@ All of these are optional, unless you want a response from the [!UICONTROL DCS].
    <td colname="col1"> <p><code> d_cts=1</code> </p> <p><code> d_cts=2</code> </p> </td> 
    <td colname="col2"> <p>Optional. Enabled on customer request. Contact your Adobe Audience Manager consultant or Customer Care. </p> <p>Indicates that traits and segments should be returned inside the <code> JSON</code> response. </p> <p> 
      <ul id="ul_8B936ACB18724681B959783421ACF026"> 
-      <li id="li_792A6248F49141C0B4B214C754D5F5C5"> <p><code> d_cts=1</code> returns <a href="../../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8"> legacy segment IDs</a> for the segments. </p> </li>
+      <li id="li_792A6248F49141C0B4B214C754D5F5C5"> <p><code> d_cts=1</code> returns <a href="../../../reference/ids-in-aam.md"> legacy segment IDs</a> for the segments. </p> </li>
       <li id="li_F304CA651F3C444A9A24576726925D87"> <p><code> d_cts=2</code> returns segment IDs for the segments. </p> </li>
      </ul> </p> <p>A sample response could look like the one below: </p> <p>
      <code class="syntax javascript">
@@ -160,7 +160,7 @@ All of these are optional, unless you want a response from the [!UICONTROL DCS].
      <ul id="ul_6230777E16C14DCB83025A101A4ECA14"> 
       <li id="li_71F3970417BC4B93881A3E12DADE4120"><b>Trait T1</b> with: </li> 
       <li id="li_66125E035F524A958C6F4BFAABA2A0D2">Trait rule: "<code> key1 == val1</code>" </li> 
-      <li id="li_4EE486E02CF54AEA876ABC005094E9E4">Data Source (<a href="../../../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8"> DPID</a>): 1 </li> 
+      <li id="li_4EE486E02CF54AEA876ABC005094E9E4">Data Source (<a href="../../../reference/ids-in-aam.md"> DPID</a>): 1 </li> 
       <li id="li_3E6BBDEAE5C644C6A96CB49766CDA988">DPID integration code: ic1 </li> 
      </ul> 
      <ul id="ul_0C30A8AE349D43A08490DA76CB4B06FA"> 

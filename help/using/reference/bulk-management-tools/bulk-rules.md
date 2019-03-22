@@ -27,7 +27,7 @@ In your worksheet, the trait rule column returns and accepts rules that consist 
 
 ## Rule builder example {#rule-builder-example}
 
-Let's take a look at an example that demonstrates how to use [!UICONTROL Segment Builder] to create a rule you can to the bulk worksheet. However, this isn't a set of step-by-step instructions for those tools. Instead we're going to start with a simple rule that's already been created. For instructions about how to use the rule builders see [Segment Builder](../../features/segments/segment-builder.md#concept_FABA1F399CFD4E83B874043638D0FA54) and [Trait Builder](../../features/traits/about-trait-builder.md#concept_BCDC4BCAEB4A4879AFA4A9B98D9ED369).
+Let's take a look at an example that demonstrates how to use [!UICONTROL Segment Builder] to create a rule you can to the bulk worksheet. However, this isn't a set of step-by-step instructions for those tools. Instead we're going to start with a simple rule that's already been created. For instructions about how to use the rule builders see [Segment Builder](../../features/segments/segment-builder.md) and [Trait Builder](../../features/traits/about-trait-builder.md).
 
 With the visual rule builder, we've created a segment rule with 3 traits and a Boolean [!UICONTROL AND] operator.
 

@@ -57,11 +57,11 @@ The [!UICONTROL declared ID] process honors site visitor preferences to opt-out 
 * Audience Manager can pass in a [!UICONTROL declared ID] opt-out alongside an Audience Manager [!UICONTROL UUID] in the [!DNL URL].
 * The [!UICONTROL declared ID] opt-out is stored in the [!UICONTROL Profile Cache Serveîr ([!UICONTROL PCS]) on a per-partner basis. There is no platform-level opt-out using [!UICONTROL declared IDs]. Additionally, Audience Manager opts the user out from that particular region on the edge (the opt-out does not cross [!UICONTROL DCS] regions).
 
-See [Data Privacy](../overview/data-security-and-privacy/data-privacy.md#concept_C1E36C6BF4C0461F9D31687E275DC46A) for more information about opting-out of data collection.
+See [Data Privacy](../overview/data-security-and-privacy/data-privacy.md) for more information about opting-out of data collection.
 
 ## Declared ID Opt-Out Examples {#opt-out-examples}
 
-You can make a [!UICONTROL declared ID] opt-out requests with the `d_cid` and `d_cid_ic` key-value pairs. The legacy parameters like `d_dpid` and `d_dpuuid` still work, but are considered deprecated. See [CID Replaces DPID and DPUUID](../reference/cid.md#concept_E9DE716F22E8491AB27057DB92B79081). In the examples, *italics* indicates a variable placeholder.
+You can make a [!UICONTROL declared ID] opt-out requests with the `d_cid` and `d_cid_ic` key-value pairs. The legacy parameters like `d_dpid` and `d_dpuuid` still work, but are considered deprecated. See [CID Replaces DPID and DPUUID](../reference/cid.md). In the examples, *italics* indicates a variable placeholder.
 
 ### Opt-Outs With CID and CID_IC
 
@@ -138,11 +138,11 @@ In each key-value pair:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> d_cid =<i>data provider ID</i> %01<i>user ID</i> </code> </p> </td> 
-   <td colname="col2"> <p>Contains a data provider ID and an associated unique user ID in a single key-value pair. <code> d_cid </code> replaces <code> d_dpid </code> and <code> d_dpuuid </code>, which are considered deprecated, but still supported. See <a href="../reference/cid.md#concept_E9DE716F22E8491AB27057DB92B79081"> CID Replaces DPID and DPUUID </a>. </p> </td> 
+   <td colname="col2"> <p>Contains a data provider ID and an associated unique user ID in a single key-value pair. <code> d_cid </code> replaces <code> d_dpid </code> and <code> d_dpuuid </code>, which are considered deprecated, but still supported. See <a href="../reference/cid.md"> CID Replaces DPID and DPUUID </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_cid_ic =<i>integration code</i> %01<i>user ID</i> </code> </p> </td> 
-   <td colname="col2"> <p>Contains an integration code and an associated unique user ID in a single key-value pair. <code> d_cid_ic </code> replaces <code> d_dpid </code> and <code> d_dpuuid </code>, which are deprecated, but still supported. See <a href="../reference/cid.md#concept_E9DE716F22E8491AB27057DB92B79081"> CID Replaces DPID and DPUUID </a>. </p> </td> 
+   <td colname="col2"> <p>Contains an integration code and an associated unique user ID in a single key-value pair. <code> d_cid_ic </code> replaces <code> d_dpid </code> and <code> d_dpuuid </code>, which are deprecated, but still supported. See <a href="../reference/cid.md"> CID Replaces DPID and DPUUID </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -176,7 +176,7 @@ Given these key-value pairs and their required syntax, you would make event call
 
 >[!MORE_LIKE_THIS]
 >
->* [CID Replaces DPID and DPUUID](../reference/cid.md#concept_E9DE716F22E8491AB27057DB92B79081)
+>* [CID Replaces DPID and DPUUID](../reference/cid.md)
 
 ## Declared ID Variables {#declared-id-variables}
 
