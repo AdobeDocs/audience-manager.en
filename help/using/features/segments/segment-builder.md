@@ -110,8 +110,6 @@ To remove traits from a segment:
 3. Click **Edit** to open Segment Builder and then click **Traits** to open the traits panel.
 4. Hover over the trait you want to delete and then click the X. This action immediately removes the trait from your segment.
 
-![](assets/deleteTraits.PNG)
-
 ## Segment Builder Controls: Destinations Mappings Section {#segment-builder-controls-destinations}
 
 In [!UICONTROL Segment Builder], the optional [!UICONTROL Destinations Mapping] section lets you send segment data to a third-party [!DNL cookie], [!DNL URL], or server-to-server destination. To add a destination, search (or browse) for a destination, provide destination specific information, and click **[!UICONTROL Add Destination]**.
