@@ -172,7 +172,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
         + [Overlap Reports: Update Schedule and Minimum Segment Size](reporting/dynamic-reports/overlap-minimum-segment-size.md)
         + [CSV Files for Overlap Reports](reporting/dynamic-reports/overlap-csv-files.md)
         + [Report Technology](reporting/dynamic-reports/interactive-report-technology.md)
-    + [Onboarding Status Report Overview](reporting/onboarding-status-report.md)
+    + [Onboarding Status Report](reporting/onboarding-status-report.md)
     + [Outbound File History](reporting/outbound-history-report.md)
     + [Counting Unique Users in Overlap and General Reports](reporting/unique-user-counts.md)
     + [Data Sampling and Error Rates in Selected Audience Manager Reports](reporting/report-sampling.md)
