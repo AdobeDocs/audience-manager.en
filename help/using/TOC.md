@@ -54,6 +54,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
         + [Understanding Signals](features/data-explorer/data-explorer-understanding-signals.md)
         + [Signals Dashboard](features/data-explorer/data-explorer-signals-dashboard.md)
         + Signals Search{#signals-search}
+            + [Signals Search Overview](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md)
             + [Search Signals by Key-Value Pairs](features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md)
             + [Search Signals by Filters](features/data-explorer/data-explorer-signals-search/data-explorer-search-filters.md)
             + [Advanced Search for Adobe Analytics](features/data-explorer/data-explorer-signals-search/data-explorer-search-analytics.md)
@@ -100,6 +101,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
         + [Trait and Segment Population Data in Segment Builder](features/segments/segment-builder-data.md)
         + [Trait Recommendations](features/segments/trait-recommendations.md)
     + Traits{#traits}
+        + [Traits Overview](/help/using/features/traits/traits-overview.md)
         + [Trait Details Page](features/traits/trait-details-page.md)
         + [Traits Dashboard](features/traits/trait-dashboard.md)
         + [Active Audience Traits and Data Source Synced Traits](features/traits/client-activity-synced-audience-traits.md)

@@ -201,3 +201,9 @@ We cannot tell which trait is responsible for an impression because qualificatio
 >[!MORE_LIKE_THIS]
 >
 >* [Billing and Impression Allocation for Flat Fee Data Feeds](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
+
+## Billing and Impression Allocation for Flat Fee Data Feeds {#billing-flat-fee}
+
+A flat fee data feed bills you a fixed amount each month, regardless of when the subscription starts or how many impressions you use. Fees are not prorated for partial month usage or intervals. As with CPM billing, Adobe will generate an invoice and bill you at the monthly, flat fee rate for your subscribed data feeds.
+
+For example, let's say you decided to turn on certain traits in a feed in the middle of the month. You will still be billed at the full, monthly rate regardless of when you started the subscription or activated specific traits.
