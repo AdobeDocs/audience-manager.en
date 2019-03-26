@@ -25,6 +25,8 @@ The [!UICONTROL Trait Graph] provides at-a-glance performance metrics for your s
 
 * For rule-based traits, trait qualification happens in real-time, as users qualify for a trait in their browser.
 * For onboarded traits, trait qualification happens after an inbound file is processed, i.e. the inbound file is [fed into Audience Manager](../../faq/faq-inbound-data-ingestion.md) and that is when the trait qualification happens.
+* **Unique Trait Realizations**: A count of unique users that added this trait to their profile over the given time range.
+* **Total Trait Population**: The number of unique users currently qualified for this trait.
 
 ![](assets/traitGraph.png)
 

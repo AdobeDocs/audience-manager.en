@@ -64,6 +64,13 @@ With [!UICONTROL Profile Merge Rules] you can:
 
 See the following sections and the [FAQ](../../faq/faq-profile-merge.md) for more information about [!UICONTROL Profile Merge Rules].
 
->[!MORE_LIKE_THIS]
->
->* [Profile Merge Rules FAQ](../../faq/faq-profile-merge.md)
+* [Getting Started with Profile Merge Rules](/help/using/features/profile-merge-rules/merge-rules-start.md)
+* [Profile Merge Rules Dashboard](/help/using/features/profile-merge-rules/merge-rules-dashboard.md)
+* [Profile Merge Rule Options Defined](/help/using/features/profile-merge-rules/merge-rule-definitions.md)
+* [General Use Cases for Profile Merge Rules](/help/using/features/profile-merge-rules/merge-rule-targeting-options.md)
+* [Profile Link Device Graph Use Cases](/help/using/features/profile-merge-rules/profile-link-use-case.md)
+* [External Device Graph Use Cases](/help/using/features/profile-merge-rules/external-graph-use-cases.md)
+* [Report Metrics for Profile Merge Rules](/help/using/features/profile-merge-rules/profile-link-metrics.md)
+* [Profile Merge Rules and Device Un-Segmentation Processes](/help/using/features/profile-merge-rules/merge-rule-unsegment.md)
+* [Instant Cross-Device Suppression](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md)
+* [Important Considerations for Profile Merge Rules with Device Graphs](/help/using/features/profile-merge-rules/considerations-pmr-device-graph.md)

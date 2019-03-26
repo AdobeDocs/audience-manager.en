@@ -99,6 +99,17 @@ In [!UICONTROL Segment Builder], the [!UICONTROL Traits] section lets you manage
 |Recommendations|Get live recommendations for similar traits to add to the segment rule. Read more in [Trait Recommendations](trait-recommendations.md).|
 |Real and Estimated Segment Size Data|See [Trait and Segment Population Data in Segment Builder](segment-builder-data.md).|
 
+## Remove Traits from a Segment {#remove-traits}
+
+Managing the traits in your segments is an important part of keeping segments viable. Follow these steps if you need to remove traits from a segment.
+
+To remove traits from a segment:
+
+1. Go to **Audience Data > Segments**. Scroll through the list or use the search feature to find the segment you want to work with.
+2. Click the segment name to open the segment details screen.
+3. Click **Edit** to open Segment Builder and then click **Traits** to open the traits panel.
+4. Hover over the trait you want to delete and then click the X. This action immediately removes the trait from your segment.
+
 ## Segment Builder Controls: Destinations Mappings Section {#segment-builder-controls-destinations}
 
 In [!UICONTROL Segment Builder], the optional [!UICONTROL Destinations Mapping] section lets you send segment data to a third-party [!DNL cookie], [!DNL URL], or server-to-server destination. To add a destination, search (or browse) for a destination, provide destination specific information, and click **[!UICONTROL Add Destination]**.
