@@ -7,7 +7,7 @@ title: Onboarding Status Report  About
 uuid: 6ca8a90a-436b-4fce-adf1-48f3b96b3ed2
 ---
 
-# Onboarding Status Report: About{#onboarding-status-report-about}
+# Onboarding Status Report{#onboarding-status-report-about}
 
 The Onboarding Status Report checks success and failure rates for processing records in your inbound data source files. This report displays data in an interactive bar chart and provides summary metrics in tabular form. And, it includes an option that samples files for a fixed time interval and displays the most common errors for each error type. You can find this report in Analytics > Onboarding Status Report. This report is also available when you create an inbound data source.
 
@@ -89,12 +89,12 @@ create-onboarding-status-report.xml
 
 1. Go to **[!UICONTROL Analytics > Onboarding Status Report]**. Search for a data source or choose one from the list.
 
-1. Select a date range. Options include:
+2. Select a date range. Options include:
 
     * A set of fixed report intervals. 
     * Calendar widgets that let you create a custom date range.
 
-1. Click **[!UICONTROL OK]**.
+3. Click **[!UICONTROL OK]**.
 
 ## Onboarding Status Report Terms and Definitions {#report-terms-conditions}
 
