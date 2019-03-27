@@ -11,6 +11,10 @@ uuid: a6b3dd21-332e-449f-aa01-2beb47f1794e
 
 Returns data on the number of unique users shared between a particular trait and an entire segment.
 
+>[!NOTE]
+>
+>The Overlap reports in Audience Manager adhere to RBAC principles. You can only see segments and traits from data sources that you have access to based on the [RBAC User Group](/help/using/features/administration/administration-overview.md) that you belong to.
+
 <!-- 
 
 c_segment_trait_overlap.xml
