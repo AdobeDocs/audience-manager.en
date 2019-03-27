@@ -122,9 +122,9 @@ Yes, [!DNL Audience Manager] can provide you with data collected for users we've
 
 <br>&nbsp;
 
-**I want to collect data on one site and target users via a DFP on a different site. Do I need to deploy code on the other property if I don't want to collect data from that location?**
+**I want to collect data on one site and target users via DFP on a different site. Do I need to deploy code on the other property if I don't want to collect data from that location?**
 
-Yes. [!DNL Audience Manager] [!UICONTROL DIL] code must be on the other site's page to target ads to a user. To target a user in the ad server, we need to send segment information to DFP before the creative loads. To do this, [!DNL Audience Management] code must be on the page where you want to target the user. The code identifies the user and sends that information to DFP. If [!DNL Audience Manager] code is absent from the target page, then we cannot send segments to DFP and target the user based on that data. Without [!UICONTROL DIL], [!DNL Audience Manager] cannot get segment information to DFP.
+No. If data collection on the second site is not a requirement, you don't need to deploy DIL there. As long as you have access to the inventory on the second site via DFP, you can use the data collection from the initial site and target via DFP.
 
 <br>&nbsp;
 
