@@ -11,6 +11,10 @@ uuid: 7fb3fc9e-0e0b-492a-9c3a-04356afb19c7
 
 Returns data on the number of unique users shared among all your first and third-party traits.
 
+>[!NOTE]
+>
+>The Overlap reports in Audience Manager adhere to RBAC principles. You can only see traits from data sources that you have access to based on the [RBAC User Group](/help/using/features/administration/administration-overview.md) that you belong to.
+
 <!-- 
 
 c_overlap_reports.xml

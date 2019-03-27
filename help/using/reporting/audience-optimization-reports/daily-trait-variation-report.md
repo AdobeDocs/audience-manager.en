@@ -11,6 +11,10 @@ uuid: 4e82bb17-d447-4ed1-a4fc-e15b0f1b47f0
 
 This report returns a list of traits that have been realized at least 10,000 times in the 30 days prior to the selected date(s) and have a standard deviation greater or equal to 1.7 in either direction over the same time interval. The report helps you evaluate how the number of impressions from unique users in a trait fluctuate over time.
 
+>[!NOTE]
+>
+>The Daily Trait Variation report in Audience Manager adheres to RBAC principles. You can only see traits from data sources that you have access to based on the [RBAC User Group](/help/using/features/administration/administration-overview.md) that you belong to.
+
 Standard deviation measures the amount of variation or dispersion from the mean (or average/expected value). A low standard deviation indicates that the data points tend to be very close to the mean. A high standard deviation indicates that the data points are spread out over a large range of values.
 
 ![](assets/daily_trait_variation.png)

@@ -11,6 +11,10 @@ uuid: 0339eb6c-6355-44a3-9c46-f159485449d1
 
 Returns data on how many unique users are shared between your segments.
 
+>[!NOTE]
+>
+>The Overlap reports in Audience Manager adhere to RBAC principles. You can only see segments from data sources that you have access to based on the [RBAC User Group](/help/using/features/administration/administration-overview.md) that you belong to.
+
 <!-- 
 
 c_segment_segment_overlap.xml
