@@ -1,27 +1,12 @@
 ---
-description: Resources for customer care and legal issues related to the use of this product and documentation.
-seo-description: Resources for customer care and legal issues related to the use of this product and documentation.
-seo-title: Help and Legal
+description: Customer Care is prepared to help you solve any issues that might arise. Provide as much of this information as you can when contacting Customer Care. This will help the team understand and resolve your issue.
+seo-description: Customer Care is prepared to help you solve any issues that might arise. Provide as much of this information as you can when contacting Customer Care. This will help the team understand and resolve your issue.
+seo-title: If There's a Problem
 solution: Audience Manager
-title: Help and Legal
-uuid: 522c9b17-3712-4619-9197-15d50eb97045
+title: If There's a Problem
 ---
 
-# Help and Legal{#help-and-legal}
-
-Resources for customer care and legal issues related to the use of this product and documentation.
-
-## Help and Legal {#help-legal}
-
-Resources for customer care and legal issues related to the use of this product and documentation.
-
-<!-- 
-
-c_legal.xml
-
- -->
-
-## If There's a Problem {#problem}
+# If There's a Problem {#problem}
 
 Customer Care is prepared to help you solve any issues that might arise. Provide as much of this information as you can when contacting Customer Care. This will help the team understand and resolve your issue.
 
@@ -90,36 +75,3 @@ If you suspect there is an outage, first check the [Experience Cloud System Stat
 * Explanation of what is occurring
 * Scope
 * Expectation of resolution (ETA, severity, and so on)
-
-## Contact and Legal Information {#legal-contact}
-
-Information to help you contact Adobe and to understand the legal issues concerning your use of this product and documentation.
-
-## Help & Technical Support {#technical-support}
-
-<!-- 
-
-c_contact_and_legal.xml
-
- -->
-
-The Adobe Experience Cloud Customer Care team is here to assist you and provides a number of mechanisms by which they can be engaged:
-
-* [Check the Experience Cloud help pages for advice, tips, and FAQs](https://helpx.adobe.com/support.ec.html)
-* [Ask us a quick question on Twitter @AdobeExpCare](https://twitter.com/AdobeExpCare)
-* [Contact the Customer Care team directly](https://helpx.adobe.com/contact/enterprise-support.ec.html)
-* [Check availability and status of Experience Cloud Solutions](https://status.adobe.com/)
-
-## Service, Capability & Billing {#billing}
-
-Dependent on your solution configuration, some options described in this documentation might not be available to you. As each account is unique, please refer to your contract for pricing, due dates, terms, and conditions. If you would like to add to or otherwise change your service level, or if you have questions regarding your current service, please contact your Account Manager.
-
-## Legal {#legal}
-
-Published by Adobe Systems Incorporated.
-
-[Terms of Use](https://marketing.adobe.com/resources/help/en_US/terms.html) | [Privacy Center](https://www.adobe.com/privacy.html)
-
-Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
-
-All third-party trademarks are the property of their respective owners. Updated Information/Additional Third Party Code Information available at [https://www.adobe.com/go/thirdparty](https://www.adobe.com/products/eula/third_party/). 
