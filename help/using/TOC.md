@@ -344,6 +344,10 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
     + [Profile Merge Rules and Device Graph FAQ](faq/faq-profile-merge.md)
     + [Targeting FAQ](faq/faq-targeting.md)
     + [Reporting FAQ](faq/faq-reporting.md)
++ Help and Legal{#help-and-legal}
+    + [Overview](/help/using/help-legal/help-legal-overview.md)
+    + [If There's a Problem](/help/using/help-legal/help-problem.md)
+    + [Contact and Legal Information](/help/using/help-legal/help-legal-contact.md)
 + Documentation Updates{#documentation-updates}
     + [2019 Documentation Updates](docs-updates/docs-2019.md)
     + [2018 Documentation Updates](docs-updates/docs-2018.md)
