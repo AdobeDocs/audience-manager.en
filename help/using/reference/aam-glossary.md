@@ -45,9 +45,30 @@ See DPUUID in the [Index of IDs in Audience Manager](../reference/ids-in-aam.md)
 
 <br>&nbsp;
 
+**Customer Addressable Audience**
+
+In [Addressable Audience](/help/using/features/addressable-audiences.md), this metric represents devices that:
+* Have realized either a rule-based or an onboarded trait during the look-back window 
+  **AND**
+* Have an ID sync with the chosen destination regardless of the time of syncs.
+
+<br>&nbsp;
+
 **Customer Attributes**
 
 See [Customer Attributes](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html) in the [!DNL Experience Cloud Core Services] product documentation.
+
+<br>&nbsp;
+
+**Customer Match Rate**
+
+Customer Addressable Audience ÷ Customer Total Audience expressed as a %. See [Addressable Audience](/help/using/features/addressable-audiences.md).
+
+<br>&nbsp;
+
+**Customer Total Audience**
+
+In [Addressable Audience](/help/using/features/addressable-audiences.md), this metric represents a count of devices that have realized either a rule-based trait on your properties or an onboarded trait from your offline files during the look-back window.
 
 <br>&nbsp;
 
@@ -187,6 +208,24 @@ The action by which a visitor on your site qualifies for a trait. You can use th
 A segment (or an audience) is a set of users who share common attributes.
 
 See [Segments: Purpose, Composition, and Rules](../features/segments/segments-purpose.md).
+
+<br>&nbsp;
+
+**Segment Addressable Audience**
+
+In [Addressable Audience](/help/using/features/addressable-audiences.md), this metric represents the number of users who have belonged to the segment during the report look-back period and have an active ID sync on your site. Segments can include your own first-party data and second party and third party data, via traits acquired in the [Audience Marketplace](/help/using/features/audience-marketplace/audience-marketplace.md).
+
+<br>&nbsp;
+
+**Segment Total Population**
+
+In [Addressable Audience](/help/using/features/addressable-audiences.md), this metric represents a count of all the devices that were a member of your segment during the report look-back period.
+
+<br>&nbsp;
+
+**Segment Match Rate**
+
+Segment Addressable Audience ÷ Total Segment Population expressed as a %. See [Addressable Audience](/help/using/features/addressable-audiences.md).
 
 <br>&nbsp;
 
