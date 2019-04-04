@@ -96,7 +96,7 @@ The table defines the elements in an [!DNL S3] file name.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> [.gz]</code> </p> </td> 
-   <td colname="col2"> <p>When sending files to Amazon S3, use gzip compression only. When compressed, these files get the <code> .gz</code> extension. Do not use .zip compression. </p> <p>Compressed files must be 1 GB or smaller. If your files are larger, please talk to Customer Care. Although Audience Manager can handle large files, we may be able to help you reduce the size of your files and make data transfers more efficient. See <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md"> File Compression for Inbound Data Transfer Files</a>. </p> </td> 
+   <td colname="col2"> <p>When sending files to Amazon S3, use gzip compression only. When compressed, these files get the <code> .gz</code> extension. Do not use .zip compression. </p> <p>Compressed files must be 3 GB or smaller. If your files are larger, please talk to Customer Care. Although Audience Manager can handle large files, we may be able to help you reduce the size of your files and make data transfers more efficient. See <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md"> File Compression for Inbound Data Transfer Files</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -131,7 +131,7 @@ Consider the figures below for fastest/earliest processing of your files as well
   <tr> 
    <td colname="col1"><b>Compressed</b> </td> 
    <td colname="col2"> <p>200-300 MB </p> </td> 
-   <td colname="col3"> <p>1 GB </p> </td> 
+   <td colname="col3"> <p>3 GB </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b>Uncompressed</b> </td> 
