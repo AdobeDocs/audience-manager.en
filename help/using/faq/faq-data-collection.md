@@ -29,15 +29,20 @@ Traits onboarded via [!UICONTROL Inbound] are populated by [!UICONTROL Inbound] 
 
 <br>&nbsp;
 
-**Can you provide me with a list of IP addresses I can white-list for dpm.demdex.net?**
+**Can you provide me with a list of IP addresses I can whitelist for dpm.demdex.net?**
 
 Unfortunately, we cannot. These IPs are assigned dynamically, by geographic region, through [!DNL Amazon Web Services]. As a result, [!DNL Audience Manager] does not control the range of IPs that can be assigned to this address.
 
 <br>&nbsp;
 
-**Can you provide me with an IP address I can whitelist for your outbound FTP server?**
+**Can you provide me with an IP address I can whitelist for your inbound and outbound FTP server?**
 
-Yes. The egress FTP IP address is 52.44.29.204.
+Yes, see below.
+
+Item| Address |
+---------|----------|
+ ftp-in.demdex.com | 54.225.117.163 |
+ ftp-out.demdex.com | 23.23.188.76 |
 
 <br>&nbsp;
 

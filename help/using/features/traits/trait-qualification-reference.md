@@ -12,12 +12,6 @@ uuid: 07e0a639-2fb2-45d8-bad7-10fb46b08ba9
 
 Trait qualification, or trait realization, is treated differently in Audience Manager, depending on trait type. See the table below for detailed information on trait qualification.
 
-<ul class="simplelist"> 
- <li> <a href="../../features/traits/trait-qualification-reference.md#trait-type"> Trait Qualification by Trait Type </a> </li> 
- <li><a href="../../features/traits/trait-qualification-reference.md#unique-trait-realizations"> Unique Trait Realizations and Total Trait Population</a> </li> 
- <li><a href="../../features/traits/trait-qualification-reference.md#trait-qualification-limit"> Trait Qualification Limit </a> </li> 
-</ul>
-
 ## Trait Qualification by Trait Type {#trait-type}
 
 <table id="table_14CD705F376B44EEA9A6C011984356F0"> 
