@@ -13,10 +13,9 @@ Overview, getting started, and code methods available in the Audience Manager DI
 
 >[!IMPORTANT]
 >
->Starting with version 8.0 (released August 2018), [!UICONTROL DIL] has a hard dependency on the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/), version 3.3 or higher. It relies on the ID Service to fire ID syncs and URL destinations. An error occurs if the ID Service is missing, old, or not configured. 
+>Starting with version 8.0 (released August 2018), [!UICONTROL DIL] has a hard dependency on the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/), version 3.3 or higher ([download here](https://github.com/Adobe-Marketing-Cloud/id-service/releases)). It relies on the ID Service to fire ID syncs and URL destinations. An error occurs if the ID Service is missing, old, or not configured. 
 >
->We recommend you use Adobe Launch to implement and manage your DIL and Experience Cloud ID Service libraries. However, you can also [download the latest Experience Cloud ID Service release](https://github.com/Adobe-Marketing-Cloud/id-service/releases) from our GitHub page. DIL is not available for public download. Contact your Audience Manager consultant or Customer Care to get the latest DIL version.
-
+>We recommend you use Adobe Launch to implement and manage your DIL and Experience Cloud ID Service libraries. 
 
 ## Purpose of DIL {#purpose-dil}
 
