@@ -290,10 +290,10 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
             + [File PGP Encryption for Inbound Data Types](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)
             + [File Compression for Inbound Data Transfer Files](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
             + [Sample Message to Partners after Inbound Processing](integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)
-    + Integration with Other Solutions {#integration-other-solutions}
-      + [Integrate Audience Manager With Target](integration/integration-other-solutions/aam-target-integration.md)
+    + Integration with Other Experience Cloud Solutions {#integration-other-solutions}
+      + [Integrate Audience Manager With Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
       + [Implement the Audience Management Module](integration/integration-other-solutions/audience-management-module.md)
-    + [Server-Side Forwarding (Admin Guide)](https://docs.adobe.com/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html)
+      + [Server-Side Forwarding (Admin Guide)](https://docs.adobe.com/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html)
 + Reference{#reference.md}
     + [Reference Overview](reference/reference.md)
     + [Amazon S3: About](reference/amazon-s3.md)

@@ -9,7 +9,7 @@ uuid: c5ca2101-99fb-4178-9839-3ec5b605c040
 
 # Integrate Audience Manager With Target {#integrate-audience-manager-with-target}
 
-This integration lets you send Audience Manager segments to [!DNL Target].
+This integration lets you send Audience Manager segments to Adobe [!DNL Target].
 
 An Audience Manager - [!DNL Target] integration requires:
 
