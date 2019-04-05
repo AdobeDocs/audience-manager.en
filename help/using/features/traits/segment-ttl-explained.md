@@ -1,13 +1,13 @@
 ---
 description: How trait time-to-live (TTL) interval affects segment membership.
 seo-description: How trait time-to-live (TTL) interval affects segment membership.
-seo-title: Segment Time to Live Explained
+seo-title: Segment and Trait Time to Live Explained
 solution: Audience Manager
 title: Segment Time to Live Explained
 uuid: 5b2c6911-50b9-4b68-9dd4-21128d112eab
 ---
 
-# Segment Time to Live Explained {#segment-time-to-live-explained}
+# Segment and Trait Time-to-Live Explained {#segment-time-to-live-explained}
 
 How trait [!UICONTROL time-to-live] ([!DNL TTL]) interval affects segment membership.
 

@@ -247,6 +247,12 @@ A trait is a combination of one or more signals. See [Signals, Traits, and Segme
 
 See [Trait and Segment Population Data in Segment Builder](../features/segments/segment-builder-data.md).
 
+**TTL (Time-to-Live)**
+
+TTL defines how many days a qualified visitor remains in a trait. TTL is set on traits and not on segments. Visitors fall out of a segment if they do not see a qualifying trait before the end of the TTL interval. Read more in [Segment and Trait Time-to-Live Explained](/help/using/features/traits/segment-ttl-explained.md).
+
+<br>&nbsp;
+
 ## U-V {#u-v}
 
 **UUID**
