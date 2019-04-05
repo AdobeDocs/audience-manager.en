@@ -119,7 +119,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
         + [Accuracy and Reach](features/traits/trait-accuracy-reach.md)
         + [Classifying Traits with a Common Taxonomy](features/traits/trait-common-taxonomy.md)
         + [Name Requirements for Key Variables](features/traits/trait-key-name-requirements.md)
-        + [Segment Time to Live Explained](features/traits/segment-ttl-explained.md)
+        + [Segment and Trait Time-to-Live Explained](features/traits/segment-ttl-explained.md)
         + [Prefix Requirements for Key Variables](features/traits/trait-variable-prefixes.md)
         + [Geotargeting With Platform-level Keys](features/traits/trait-geotarget-keys.md)
         + [Device Targeting With Platform-level Keys](features/traits/trait-device-targeting.md)
