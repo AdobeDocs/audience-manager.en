@@ -77,7 +77,6 @@ This section contains fields and options that start the cookie destination creat
 1. Click **[!UICONTROL Basic Information]** to expose the controls.
 1. Name the destination. Avoid abbreviations and special characters.
 1. *(Optional)* Describe the destination. A concise description is an effective way to define or provide more information about a destination.
-1. *(Optional)* In the **[!UICONTROL Platform]** list, leave the default set to **[!UICONTROL All]**. Currently, these options don't do anything. They're designed to support features that may be added at a later date.
 1. In the **[!UICONTROL Type]** list, click **[!UICONTROL Cookie]**.
 1. *(Optional)* Select an **[!UICONTROL Auto-fill Destination Mapping]**. Options include:
     * **[!UICONTROL Segment ID]**: Automatically adds and sends the segment ID to the destination.
@@ -138,7 +137,6 @@ This section contains fields and options that start the URL destination creation
 1. Click **[!UICONTROL Basic Information]** to expose the controls.
 1. Name the destination. Avoid abbreviations and special characters.
 1. *(Optional)* Describe the destination. A concise description is an effective way to define or provide more information about a destination.
-1. *(Optional)* In the **[!UICONTROL Platform]** list, leave the default set to **[!UICONTROL All]**. Currently, these options don't do anything. They're designed to support features that may be added at a later date.
 1. In the **[!UICONTROL Type]** list, click **[!UICONTROL URL]**.
 1. *(Optional)* Select an **[!UICONTROL Auto-fill Destination Mapping]**. Options include:
     * **[!UICONTROL Segment ID]**: Automatically adds and sends the segment ID to the destination.
