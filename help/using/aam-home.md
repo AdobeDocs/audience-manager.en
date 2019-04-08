@@ -16,7 +16,7 @@ Audience Manager provides industry-leading services for online audience data man
   <tr> 
    <td colname="col1"> <p> <b>New and Featured Items</b> </p> <p>Read about the latest Audience Manager features:</p> <p> 
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
-     <li><a href="overview/gdpr/aam-iab-plugin.md">Audience Manager Plug-in for IAB TCF</a> </li>
+     <li><a href="overview/aam-gdpr/aam-iab-plugin.md">Audience Manager Plug-in for IAB TCF</a> </li>
      <li><a href="features/administration/usage-limits.md#id-mapping-limits">ID Mapping Limits</a> </li>
      <li><a href="features/global-data-sources.md">Global Data Sources</a> </li> 
      <li><a href="api/dcs-intro/dcs-api-reference/id-monitoring-blacklisting.md"> ID Monitoring and Blacklisting</a> </li> 
