@@ -14,16 +14,13 @@ Audience Manager provides industry-leading services for online audience data man
 <table id="table_5E612F746A704FE095B809A013EE977F" class="simpletable"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>New and Featured Items</b> </p> <p>Hover over each title to read a brief description. </p> <p> 
+   <td colname="col1"> <p> <b>New and Featured Items</b> </p> <p>Read about the latest Audience Manager features:</p> <p> 
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
+     <li><a href="features/administration/usage-limits.md#aam-iab-plugin">Audience Manager Plug-in for IAB TCF</a> </li>
      <li><a href="features/administration/usage-limits.md#id-mapping-limits">ID Mapping Limits</a> </li>
      <li><a href="features/global-data-sources.md">Global Data Sources</a> </li> 
      <li><a href="api/dcs-intro/dcs-api-reference/id-monitoring-blacklisting.md"> ID Monitoring and Blacklisting</a> </li> 
       <li id="li_B41C333AF39441B39570428EEA19BAB6"><a href="features/segments/trait-recommendations.md"> Trait Recommendations</a> </li> 
-      <li id="li_A260B70FDB7341F0B40201AE03DA1439"><a href="reporting/dynamic-reports/trait-trait-overlap-report.md"> Trait-to-Trait Overlap Report</a> </li> 
-      <li id="li_859B4BB35E2B49A3906486E1054943EF"><a href="reporting/dynamic-reports/segment-trait-overlap-report.md"> Segment-to-Trait Overlap Report</a> </li> 
-      <li id="li_CB91AE2E11AB4F95971D24781CDD816E"><a href="reporting/dynamic-reports/segment-segment-overlap-report.md"> Segment-to-Segment Overlap Report</a> </li> 
-      <li id="li_5599D71B52CF4ABE91EDE84520014426"><a href="features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#segment-level-report"> Segment-level reporting in Audience Marketplace</a> </li>
      </ul> </p> <p>See also, <a href="docs-updates/docs-2019.md"> 2019 Documentation Updates</a>. </p> </td>
    <td colname="col2"> <p> <b>Release Notes</b> </p> <p> 
      <ul id="ul_713F3E9DF0F84FE5981AC63D05948864"> 
