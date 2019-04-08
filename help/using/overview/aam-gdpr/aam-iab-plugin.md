@@ -83,7 +83,7 @@ Audience Manager evaluates the users' choices stored in the IAB TFC consent stri
 Audience Manager works differently depending on whether Audience Manager detects in the IAB TCF consent string that the user has provided consent for the three purposes (storage, personalization, measurement) or not.
 
 
-When your user *provides consent*, Audience Manager: | When your user *declines* consent, Audience Manager: |
+| When your user *provides consent*, Audience Manager: | When your user *declines* consent, Audience Manager: |
 ---------|----------|
 <ul><li>Carries out all the Audience Manager use cases you have requested.</li><li>Conveys consent to third parties in ID syncs (by passing gdpr = 1 and the consent string as gdpr_consent on ID sync calls).</li><li>Evaluates and honors consent passed from ad server pixels.</li><li>Honors partner-initiated ID syncs.</li></ul> | <ul><li>Does not store any new user data in your instance. This includes partner IDs, signals, traits, or pixel data.</li><li>Does not initiate 3rd party ID syncs.</li><li>Does not honor partner-initiated ID syncs.</li></ul>|
 
