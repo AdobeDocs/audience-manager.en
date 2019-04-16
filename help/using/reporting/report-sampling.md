@@ -19,7 +19,7 @@ These reports use sampled data because they need a tremendous amount of computin
 
 Reports that use sampling exclude traits and segments when they do not meet the minimum unique visitor requirements. These minimum requirements are as follows:
 
-* Traits: 28,000 over a 14-day period.
+* Traits: 28,000 [unique trait realizations](/help/using/features/traits/trait-qualification-reference.md#unique-trait-realizations) over a 14-day period.
 * Segments: 70,000 real-time users over a 14-day period.
 
 ## Error Rates {#error-rates}
