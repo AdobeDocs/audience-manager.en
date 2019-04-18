@@ -109,10 +109,7 @@ Analytics [!UICONTROL Props], [!UICONTROL eVars], and events work like traits in
 
 **Match Audience Manager Traits to Analytics Variables**
 
-To use the Analytics data passed by [!UICONTROL Flash DIL], you should create Audience Manager traits that have:
-
-* The same names as their Analytics equivalents. 
-* A key value prefixed with `c_`.
+To use the Analytics data passed by [!UICONTROL Flash DIL], you should create Audience Manager traits that have the key value prefixed with `c_`.
 
 See the table for examples:  
 
