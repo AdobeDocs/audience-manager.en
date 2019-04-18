@@ -52,6 +52,14 @@ The [!DNL URL] for your inbound ID synchronization call should contain variables
   <tr valign="top"> 
    <td colname="col1"> <code> <i>&lt;REDIRECT_URL&gt;</i> </code> </td> 
    <td colname="col2">An encoded URL redirect with the macro <code> ${DD_UUID}</code> embedded within it. <p>Note:  Added only when the data provider initiates the call. </p> </td> 
+  </tr>
+  <tr> 
+   <td colname="col1"> <code> <i>gdpr = &lt;0|1&gt;</i> </code> </td> 
+   <td colname="col2">  <p><code>gdpr</code> can be 0 (GDPR does not apply) or 1 (GDPR applies). </p> <p><b>Note:</b> The <code>gdpr</code> and <code>gdpr_consent</code> parameters are being gradually rolled out in ID sync URLs with activation partners. See <B>Activation partners that support IAB TCF</b> in <a href="../../../using/overview/aam-gdpr/aam-iab-plugin.md#aam-activation-partners">Audience Manager Plug-in for IAB TCF.</a></p></td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <code><i>gdpr_consent=&lt;ENCODED STRING&gt;</i> </code> </td> 
+   <td colname="col2"><p><code>gdpr_consent</code> is the URL-safe base64-encoded GDPR consent string (see <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> IAB specification</a>). </p> </td> 
   </tr> 
  </tbody> 
 </table>
