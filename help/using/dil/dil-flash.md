@@ -97,7 +97,7 @@ Data from these parameters is collected by default:
 
 ## Flash DIL Data in Audience Manager {#flash-dil-data}
 
-The [!UICONTROL Flash DIL] module turns Adobe AppMeasurement data into Audience Management traits and unused signals.
+The [!UICONTROL Flash DIL] module turns Adobe AppMeasurement data into Audience Manager traits and unused signals.
 
 <!-- 
 
@@ -105,21 +105,18 @@ c_flash_dil_in_aam.xml
 
  -->
 
-Analytics [!UICONTROL Props], [!UICONTROL eVars], and events work like traits in Audience Management. Traits are key-value pairs and are used to build segments. For example, in an Analytics prop like `prop35=foo`, `prop35` is the key (a constant) and `foo` is the value (a variable).
+Analytics [!UICONTROL Props], [!UICONTROL eVars], and events work like traits in Audience Manager. Traits are key-value pairs and are used to build segments. For example, in an Analytics prop like `c30=foo`, `c30` is the key (a constant) and `foo` is the value (a variable).
 
 **Match Audience Manager Traits to Analytics Variables**
 
-To use the Analytics data passed by [!UICONTROL Flash DIL], you should create Audience Manager traits that have:
-
-* The same names as their Analytics equivalents. 
-* A key value prefixed with `c_`.
+To use the Analytics data passed by [!UICONTROL Flash DIL], you should create Audience Manager traits that have the key value prefixed with `c_`.
 
 See the table for examples:  
 
 |  Analytics Data Element  | Analytics Example  | As Audience Manager Trait  |
 |---|---|---|
-|  **prop** | `c30=foo`  | `c_prop35=foo`  |
-|  **evar** | `v35=bar`  | `c_evar=bar`  |
+|  **prop** | `c30=foo`  | `c_prop30=foo`  |
+|  **evar** | `v35=bar`  | `c_evar35=bar`  |
 |  **events** | `events=event10`  | `c_events=event10`  |
 
 **DIL/Analytics Data as Unused Signals**
@@ -135,7 +132,7 @@ Audience Manager accepts Analytics [!UICONTROL Props], [!UICONTROL eVars], and e
 
 ## Flash DIL ActionScript Library {#flash-dil-actionscript}
 
-Code for your [!DNL Flash] object to send Analytics data to Audience Management.
+Code for your [!DNL Flash] object to send Analytics data to Audience Manager.
 
 <!-- 
 
