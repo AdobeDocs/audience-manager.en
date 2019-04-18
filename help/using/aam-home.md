@@ -22,7 +22,7 @@ Audience Manager provides industry-leading services for online audience data man
      <li><a href="api/dcs-intro/dcs-api-reference/id-monitoring-blacklisting.md"> ID Monitoring and Blacklisting</a> </li> 
       <li id="li_B41C333AF39441B39570428EEA19BAB6"><a href="features/segments/trait-recommendations.md"> Trait Recommendations</a> </li> 
      </ul> </p> <p>See also, <a href="docs-updates/docs-2019.md"> 2019 Documentation Updates</a>. </p> 
-     <p>If you are new to Audience Manager, see our <a href="help/using/reference/aam-glossary.md"> glossary</a> and <a href= "help/using/reference/ids-in-aam.md">index of IDs.</a></p></td>
+     <p>If you are new to Audience Manager, see our <a href="reference/aam-glossary.md"> glossary</a> and <a href= "reference/ids-in-aam.md">index of IDs.</a></p></td>
    <td colname="col2"> <p> <b>Release Notes</b> </p> <p> 
      <ul id="ul_713F3E9DF0F84FE5981AC63D05948864"> 
       <li id="li_09C1CD15823E4AD7856CE40BE848E03F">See the latest <a href="https://marketing.adobe.com/resources/help/en_US/whatsnew/" format="https" scope="external"> Experience Cloud Release Notes</a> for new features and fixes. </li> 
