@@ -11,6 +11,10 @@ uuid: 507e7afd-3ae7-44de-98b0-589d699c453b
 
 Methods that let you work programmatically with the [!UICONTROL Data Integration Library] ([!UICONTROL DIL].
 
+>[!IMPORTANT]
+>
+>The Data Integration Library API has been deprecated. This API used to generate DIL, which you can now self-download here: [DIL download](https://github.com/Adobe-Marketing-Cloud/dil/releases).
+
 <!-- c_data_integr_library_api.xml -->
 
 ## Return Versions for DIL {#return-version-dil}
