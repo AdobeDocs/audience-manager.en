@@ -66,7 +66,11 @@ The opt-out documentation has been extended and moved to a separate part of our 
 
 ## Collecting IP Addresses {#collecting-ip-addresses}
 
+<!-- 
+
 Adobe has enabled processes and offers settings that allow customers to use Audience Manager in compliance with applicable data privacy laws.
+
+-->
 
 The IP address of a visitor to a customer’s website is transmitted to an Adobe Data Processing Center (DPC) where the IP address may be stored. Depending on the network configuration for the visitor, the IP address does not necessarily represent the IP address of the visitor’s computer. For example, the IP address could be the external IP address of a Network Address Translation (NAT) firewall, HTTP proxy, or Internet gateway.
 
