@@ -76,7 +76,7 @@ The following table lists the retention times for different data types and stora
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mappings between synchronized IDs </p> </td> 
-   <td colname="col2"> <p>Data is kept indefinitely. </p> </td> 
+   <td colname="col2"> <p>Mappings between synchronized IDs may be kept for the life of the associated <a href="../reference/ids-in-aam.md"> Audience Manager Unique User ID (AAM UUID)</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Inbound data </p> </td> 
