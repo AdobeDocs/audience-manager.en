@@ -42,6 +42,10 @@ The table defines the elements in an [!DNL FTP] file name.
  </thead>
  <tbody> 
   <tr> 
+   <td colname="col1"> <p> <code> ftp_dpm_</code> </p> </td> 
+   <td colname="col2"> <p>The path to and name of your <span class="keyword"> Audience Manager</span> FTP directory. Contact your Account Manager for the FTP directory and credentials. </p> </td> 
+  </tr> 
+  <tr> 
    <td colname="col1"> <p> <code> <i>DPID</i> </code> </p> </td> 
    <td colname="col2"> <p>An lD that tells <span class="keyword"> Audience Manager</span> if a data file contains your own user IDs or Android or iOS IDs. Accepts the following options: </p> 
     <ul id="ul_818EB3EB2E5543F0B048BCEBB6699562"> 
@@ -66,10 +70,6 @@ The table defines the elements in an [!DNL FTP] file name.
       <li id="li_6EC6DE442B4546AA9F4F800D65C8A4EC"> <code> sync</code>: Normal scenario when third-party data providers send traits on a per-user basis to be added or removed in the Audience Manager system. </li> 
       <li id="li_8FE8430C2C004F87835D55231A0D99C9"> <code> overwrite</code>: Lets customers and data providers send a list of traits on a per-user basis that should overwrite all of this user's existing traits for a given data source in Audience Manager. You do not need to include all of your users in an overwrite file. Include only those users that you want to change. Traits that are not assigned to the target data source will not be erased. </li> 
      </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <code> ftp_dpm_</code> </p> </td> 
-   <td colname="col2"> <p>The path to and name of your <span class="keyword"> Audience Manager</span> FTP directory. Contact your Account Manager for the FTP directory and credentials. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>[<i>SPLIT_NUMBER</i></code>] </p> </td> 
