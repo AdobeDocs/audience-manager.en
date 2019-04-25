@@ -295,7 +295,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
       + [Integrate Audience Manager With Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
       + [Implement the Audience Management Module](integration/integration-other-solutions/audience-management-module.md)
       + [Server-Side Forwarding (Admin Guide)](https://docs.adobe.com/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html)
-+ Reference{#reference.md}
++ Reference{#reference}
     + [Reference Overview](reference/reference.md)
     + [Amazon S3: About](reference/amazon-s3.md)
     + [Advertiser Use Cases](reference/advertiser-use-cases.md)
