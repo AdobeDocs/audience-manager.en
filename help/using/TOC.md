@@ -26,6 +26,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
     + Administration{#administration}
         + [Administration](features/administration/administration-overview.md)
         + [Edit Your Account Settings](features/administration/edit-account-settings.md)
+        + [IP Address Obfuscation](features/administration/ip-obfuscation.md)
         + [Usage Limits](features/administration/usage-limits.md)
     + Algorithmic Models{#algorithmic-models}
         + [Algorithmic Models](features/algorithmic-models/understanding-models.md)
