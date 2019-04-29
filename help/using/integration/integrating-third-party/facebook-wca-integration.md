@@ -88,6 +88,20 @@ See [Create a Website Custom Audience](https://www.facebook.com/business/help/66
 Item | Description |
 ---------|----------|
  Website traffic | Custom Combination |
- Include | <ul><li>Select **Event** > Select **Adobe-Audience-Manager-Segment**. This was the value of the ev parameter in the example pixel in step 1. Note that if the pixel is yet to fire, the **Event** option or **Adobe-Audience-Manager-Segment** may not appear in the Facebook UI.</li><li>Add a parameter: Select `segID`.</li></ul> |
- A3 | B3 |
- A4 | B4 |
+ Include | <ul><li>Select **Event** > Select **Adobe-Audience-Manager-Segment**. This was the value of the ev parameter in the example pixel in step 1. Note that if the pixel is yet to fire, the **Event** option or **Adobe-Audience-Manager-Segment** may not appear in the Facebook UI.</li><li>Add a parameter: Select `segID`.</li><li><p>Select the **contains** operator.</p><p>This is important, considering that visitors may qualify for multiple segments, there may be multiple segment IDs in the pixel parameter. Using the equals (=) operator may not qualify your visitors for the audience, and you will observe a lower volume.</p></li><li>Add a value: Enter the Audience Manager segment ID.</li></ul> |
+ Add New Condition | Optional setting. |
+ In the Last | Optional setting. |
+ Audience Name | We recommend you use the same Audience Manager segment name for consistency, unless you are adding additional conditions to this Audience. |
+
+## Step 4 - Assign the Audience to a Campaign in Facebook Ads Manager {#step-4-assign-audience-to-campaign}
+
+After creating the Custom Audience, assign it to an ad campaign. Create a new campaign or edit an existing one and you will find your newly created Audience is listed in the Facebook UI. Your ad campaign will target users who have seen the pixel fire on their browser when visiting your site, if Audience Manager includes them in the segment.
+
+## Summary {#summary}
+
+Now that you have assigned your Audience Manager segment to the Facebook WCA destination, Audience Manager will selectively fire the Facebook WCA pixel to users of a given segment with the respective segment ID in the pixel to populate the Facebook Audience. This results in a gradual increase in the Facebook Audience the more the tag is fired to the applicable audience on your site.
+
+>[!NOTE]
+>
+> If a user falls out of the Audience Manager segment, there is currently no way for Audience Manager to inform Facebook to remove the user from the Custom Audience.
+
