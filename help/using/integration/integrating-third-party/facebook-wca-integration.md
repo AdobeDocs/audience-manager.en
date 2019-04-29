@@ -93,7 +93,7 @@ Item | Description |
  In the Last | Optional setting. |
  Audience Name | We recommend you use the same Audience Manager segment name for consistency, unless you are adding additional conditions to this Audience. |
 
- ## Step 4 - Assign the Audience to a Campaign in Facebook Ads Manager {#step-4-assign-audience-to-campaign}
+## Step 4 - Assign the Audience to a Campaign in Facebook Ads Manager {#step-4-assign-audience-to-campaign}
 
 After creating the Custom Audience, assign it to an ad campaign. Create a new campaign or edit an existing one and you will find your newly created Audience is listed in the Facebook UI. Your ad campaign will target users who have seen the pixel fire on their browser when visiting your site, if Audience Manager includes them in the segment.
 
