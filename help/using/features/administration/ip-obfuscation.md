@@ -13,7 +13,9 @@ Use this feature to obfuscate IP addresses collected in Audience Manager.
 
 Your company may desire to obfuscate IP address in many countries due to global privacy regulations. Audience Manager allows you to obfuscate visitor IP addresses on a global or country-by-country basis.
 
-**IP Obfuscation Methodology**: Following the principles of "Privacy By Design", Adobe Audience Manager allows customers to enable IP obfuscation from the UI, either globally across all geographic regions or for specific countries. When you enable this setting, the last octet (the last portion) of the IP address is immediately discarded when the IP address is ingested into Audience Manager. Audience Manager discards this part of the IP address prior to processing (including before any optional geographic lookup or logging of the IP address). For example:
+### IP Obfuscation Methodology 
+ 
+Following the principles of "Privacy By Design",Adobe Audience Manager allows customers to enable IP obfuscation from the UI, either globally across all geographic regions or for specific countries. When you enable this setting, the last octet (the last portion) of the IP address is immediately discarded when the IP address is ingested into Audience Manager. Audience Manager discards this part of the IP address prior to processing (including before any optional geographic lookup or logging of the IP address). For example:
 
 * Before obfuscation: `255.255.255.255`
 * After obfuscation: `255.255.255.0`
@@ -37,7 +39,7 @@ Follow the steps below to configure IP address obfuscation.
    1. **Obfuscate all IP addresses:** select this option to have Audience Manager obfuscate the last octet of all visitor IP addresses, regardless of the region they originate from.
    2. **Obfuscate IP addresses for specific countries:** select this option to have Audience Manager obfuscate the last octet of visitor IP addresses for specific countries. Use the **List of Countries** or the corresponding **Search** field to find the countries to enable IP obfuscation for, and click the + icon to add them to the **Selected for Obfuscation** list. Once you've added all the required countries to the **Selected for Obfuscation** list, click **Save**.
 
-![](assets/ip-obfuscation.png)
+![](assets/ip-obfuscation.png) 
 
 ## Disable IP Address Obfuscation {#disable-ip-obfuscation}
 
@@ -47,5 +49,8 @@ To disable IP address obfuscation for specific countries, find the countries in 
 
 ## Related concepts {#related-concepts}
 
-[Data Privacy](/help/using/overview/data-security-and-privacy/data-privacy.md)
+* IP Address Obfuscation Video Demonstration
+>[!VIDEO](https://video.tv.adobe.com/v/27218/)
+
+* [Data Privacy](/help/using/overview/data-security-and-privacy/data-privacy.md)
 
