@@ -49,8 +49,7 @@ To disable IP address obfuscation for specific countries, find the countries in 
 
 ## Related concepts {#related-concepts}
 
+* [Data Privacy](/help/using/overview/data-security-and-privacy/data-privacy.md) 
 * IP Address Obfuscation Video Demonstration
 >[!VIDEO](https://video.tv.adobe.com/v/27218/)
-
-* [Data Privacy](/help/using/overview/data-security-and-privacy/data-privacy.md) 
 
