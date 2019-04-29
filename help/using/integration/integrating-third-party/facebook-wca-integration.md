@@ -83,3 +83,11 @@ Enter an end date if applicable, otherwise leave blank for no end date.
 ## Step 3 - Create an Audience within Facebook Ads Manager {#step-3-create-audience}
 
 See [Create a Website Custom Audience](https://www.facebook.com/business/help/666509013483225) in the Facebook help documentation. Select the Create Audience options in the table below:
+
+
+Item | Description |
+---------|----------|
+ Website traffic | Custom Combination |
+ Include | <ul><li>Select **Event** > Select **Adobe-Audience-Manager-Segment**. This was the value of the ev parameter in the example pixel in step 1. Note that if the pixel is yet to fire, the **Event** option or **Adobe-Audience-Manager-Segment** may not appear in the Facebook UI.</li><li>Add a parameter: Select `segID`.</li></ul> |
+ A3 | B3 |
+ A4 | B4 |

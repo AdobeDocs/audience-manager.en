@@ -251,6 +251,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
         + [Modify the GPT setTargeting API Call](integration/gpt-aam-destination/gpt-aam-modify-api.md)
         + [Audience Manager Code for Google Publisher Tags](integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
     + Integrating with Third-Party Destinations {#integrating-third-party}
+      + [Facebook WCA Integration](/help/using/integration/integrating-third-party/facebook-wca-integration.md)
       + [OAS as an Audience Manager Destination](integration/integrating-third-party/open-ad-server-destination.md)
       + [OpenX as an Audience Manager Destination](integration/integrating-third-party/openx-destination.md)
       + [DFP as an Audience Manager Destination](integration/aam-dfp.md)
