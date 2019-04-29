@@ -47,7 +47,7 @@ This page includes current server-to-server integrations only.  For more inform
 | Crosswise                                         | 27/02/2017 | Yes       | No                                | No   | No                |
 | D.A.C. AudienceOne                                | 27/02/2017 | Yes       | No                                | No   | No                |
 | DataXu                                            | 11/20/207  | No        | No                                | No   | Yes               |
-| Digilant                                          | 02/03/2017 |           | No                                | No   | No                |
+| Digilant                                          | 02/03/2017 | Maybe          | No                                | No   | No                |
 | DistrictM                                         | 02/03/2017 | Yes       | No                                | No   | No                |
 | DoubleVerify                                      | 06/09/2017 | Yes       | No                                | No   | No                |
 | Drawbridge                                        | 02/03/2017 | No        | No                                | No   | Yes               |
