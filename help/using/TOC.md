@@ -79,6 +79,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
         + [Standard and Serial Key-Value Pairs](features/destinations/key-value-pairs.md)
         + [get_aamCookie Code](features/destinations/get-aam-cookie-code.md)
         + [Configure an Analytics Destination](/help/using/features/destinations/create-analytics-destination.md)
+        + [Audience Manager Technology Partners](/help/using/features/destinations/audience-manager-technology-partners.md)
     + Profile Merge Rules{#profile-merge-rules}
         + [Profile Merge Rules Overview](features/profile-merge-rules/merge-rules-overview.md)
         + [Getting Started with Profile Merge Rules](features/profile-merge-rules/merge-rules-start.md)
