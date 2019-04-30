@@ -1,6 +1,6 @@
 ---
-description: testing			
-seo-description: testing	
+description: dfs
+seo-description: testing
 seo-title: Adobe Audience Manager Technology Partners
 solution: Audience Manager
 title: Adobe Audience Manager Technology Partners
