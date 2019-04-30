@@ -1,6 +1,6 @@
 ---
-description: This page includes current server-to-server integrations only.  For more information on an integration refer to its Adobe Exchange listing (where available), your Adobe Consultant or your partner contact.			
-seo-description: This page includes current server-to-server integrations only.  For more information on an integration refer to its Adobe Exchange listing (where available), your Adobe Consultant or your partner contact.	
+description: testing			
+seo-description: testing	
 seo-title: Adobe Audience Manager Technology Partners
 solution: Audience Manager
 title: Adobe Audience Manager Technology Partners
