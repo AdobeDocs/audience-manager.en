@@ -44,11 +44,11 @@ You can build rules with the following named operators:
 | **[!UICONTROL Matcheswords]** |The value in a key-value pair *matches* the pattern specified by this operator.  |
 | **[!UICONTROL Startswith]** |The value in a key-value pair *starts with* characters specified by this operator.  |
 | **[!UICONTROL Endswith]** |The value in a key-value pair *ends with* the characters specified by this operator.  |
-| **[!UICONTROL Matchesregex]** |The value in a key-value pair *matches* the pattern specified by a regular expression. [Learn more](../../features/traits/trait-builder-regex.md#concept_2C756EBE4C8F40C7B6C8A84918CF7D8E) about using regular expressions in [!UICONTROL Trait Builder].  |
+| **[!UICONTROL Matchesregex]** |The value in a key-value pair *matches* the pattern specified by a regular expression. [Learn more](../../features/traits/trait-builder-regex.md) about using regular expressions in [!UICONTROL Trait Builder].  |
 
 >[!MORE_LIKE_THIS]
 >
->* [Boolean Expressions in Trait and Segment Builder](../../reference/boolean-expressions-tsb.md#concept_B7537516B5D04CEBB9CFB4F4B780630F)
->* [Understanding Boolean Expressions in TraitBuilder](../../reference/boolean-expressions-tsb.md#concept_B7537516B5D04CEBB9CFB4F4B780630F)
->* [Order of Operations in TraitBuilder Expressions](../../features/traits/trait-operator-precedence.md#concept_F8A8B8B8E4814A86B34493B104D44464)
->* [Sample Expressions With Boolean and Comparison Operators](../../features/traits/trait-expression-samples.md#reference_747A7CE52BB641A2A3F51CB17369A364)
+>* [Boolean Expressions in Trait and Segment Builder](../../reference/boolean-expressions-tsb.md)
+>* [Understanding Boolean Expressions in TraitBuilder](../../reference/boolean-expressions-tsb.md)
+>* [Order of Operations in TraitBuilder Expressions](../../features/traits/trait-operator-precedence.md)
+>* [Sample Expressions With Boolean and Comparison Operators](../../features/traits/trait-expression-samples.md)

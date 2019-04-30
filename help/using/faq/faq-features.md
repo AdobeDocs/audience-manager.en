@@ -36,7 +36,7 @@ Yes. See [Bulk Management Tools](../reference/bulk-management-tools/bulk-managem
 
 >[!NOTE]
 >
->The [!UICONTROL Bulk Management Tools] tools *are not* supported by [!DNL Audience Manager]. They're provided for convenience and as a courtesy only. For bulk changes, we recommend you work with the [Audience Manager APIs](../api/api.md#concept_8C41AAD825A24A01806E64C32F71472A) instead.
+>The [!UICONTROL Bulk Management Tools] tools *are not* supported by [!DNL Audience Manager]. They're provided for convenience and as a courtesy only. For bulk changes, we recommend you work with the [Audience Manager APIs](../api/api.md) instead.
 
 <br>&nbsp;
 

@@ -17,7 +17,7 @@ This methodology is often referred to as "pixeling the creative." Those data poi
 
 >[!NOTE]
 >
->The text styles (`monospaced text`, *italics*, brackets `[ ]` `( )`, etc.) indicate code elements and options. See [Style Conventions for Code and Text Elements](../../reference/code-style-elements.md#reference_59D0BD0EDB424A65853460D91CCA35D9) for more information.
+>The text styles (`monospaced text`, *italics*, brackets `[ ]` `( )`, etc.) indicate code elements and options. See [Style Conventions for Code and Text Elements](../../reference/code-style-elements.md) for more information.
 
 The event call collects impression and conversion data and sends it to the [!DNL Audience Manager] [data collection servers](/help/using/reference/system-components/components-data-collection.md) ([!UICONTROL DCS]). This process relies on third-party ad servers that place the call in the creative to control what content gets inserted into the code. The third-party ad servers (for example, [!DNL DFA]) can place this code within each ad impression. Furthermore, an ad call does not use [!DNL JavaScript] or employ frame-busting techniques to access publisher data outside of the ad tag.
 
@@ -33,7 +33,7 @@ In the key-value pair, the value variable is an ID or macro inserted by the ad s
 
 ## Supported Key-Value Pairs {#supported-key-value-pairs}
 
-Impression event calls accept data formed into key-value pairs. The following table lists and describes the keys used to hold these variables. Many of these are required if you want to capture and analyze data in the [Audience Optimization Reports](../../reporting/audience-optimization-reports/audience-optimization-reports.md#concept_D66D2C58493E48BDAFF2F95BBB508946).
+Impression event calls accept data formed into key-value pairs. The following table lists and describes the keys used to hold these variables. Many of these are required if you want to capture and analyze data in the [Audience Optimization Reports](../../reporting/audience-optimization-reports/audience-optimization-reports.md).
 
 <table id="table_F068C4D49F7D4775924D3CA712BF15BA"> 
  <thead> 
@@ -91,6 +91,14 @@ Impression event calls accept data formed into key-value pairs. The following ta
    <td colname="col1"> <code> d_src </code> </td> 
    <td colname="col2"> <p>Data source ID or integration code of the platform providing the metadata (e.g., DFA,  Atlas, GBM, Media Math, etc.). </p> <p>Required for <span class="wintitle"> Audience Optimization </span> reports. </p> </td> 
   </tr> 
+   <tr> 
+   <td colname="col1"> <code><i>gdpr</i></code>  </td> 
+   <td colname="col2"> <p>Related to the <a href="../../overview/aam-gdpr/aam-iab-plugin.md">Audience Manager Plug-in for IAB TCF.</a></p> <p><code>gdpr</code> can be 0 (GDPR does not apply) or 1 (GDPR applies).</p> <p>Default value is 0.</p><p>Optional.</p> </td> 
+  </tr>
+   <tr> 
+   <td colname="col1"> <code>gdpr_consent</code> </td> 
+   <td colname="col2"> <p>Related to the <a href="../../overview/aam-gdpr/aam-iab-plugin.md">Audience Manager Plug-in for IAB TCF.</a></p><p> If <code>gdpr=1</code>, then <code>%gdpr_consent%</code> is replaced by the <code>gdpr_consent</code> string (see <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> IAB specification</a>).</p> <p>Default value is 0.</p><p>Optional.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -100,4 +108,4 @@ Impression event calls accept data formed into key-value pairs. The following ta
 
 >[!MORE_LIKE_THIS]
 >
->* [Data and Metadata Files for Audience Optimization Reports](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md#concept_CD250EF8D3744CC4A722422970886D87)
+>* [Data and Metadata Files for Audience Optimization Reports](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)

@@ -55,12 +55,20 @@ The [!DNL URL] for your inbound ID synchronization call should contain variables
    <td colname="col1"> <code> <i>&lt;REDIRECT_URL&gt;</i> </code> </td> 
    <td colname="col2"> <p>An encoded URL redirect with the macro <code> ${DD_UUID}</code> embedded within it. </p> <p>Note:  Added only when the content provider initiates the call. </p> </td> 
   </tr> 
+  <tr> 
+   <td colname="col1"> <code> <i>gdpr = &lt;0|1&gt;</i> </code> </td> 
+   <td colname="col2"> <p>Optional. Add this parameter if you are using the <a href="../../../overview/aam-gdpr/aam-iab-plugin.md">Audience Manager Plug-in for IAB TCF.</a></p> <p><code> gdpr</code> can be 0 (GDPR does not apply) or 1 (GDPR applies). </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <code><i>gdpr_consent=&lt;ENCODED STRING&gt;</i> </code> </td> 
+   <td colname="col2"> <p>Optional. Add this parameter if you are using the <a href="../../../overview/aam-gdpr/aam-iab-plugin.md">Audience Manager Plug-in for IAB TCF.</a></p> <p><code>gdpr_consent</code> is the URL-safe base64-encoded GDPR consent string (see <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> IAB specification</a>). </p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
 ## Declared ID Event {#declared-id-event}
 
-For more information, see [Declared IDs](../../../features/declared-ids.md#concept_2CD1CC1558354F38B3DEDBE09AE8E869).
+For more information, see [Declared IDs](../../../features/declared-ids.md).
 
 ## ID Synchronization From an Email Embedded Image {#id-sync-email-image}
 
@@ -68,4 +76,4 @@ The format for matching IDs via an email image is the same as shown above. Note,
 
 >[!MORE_LIKE_THIS]
 >
->* [Data Collection Components](../../../reference/system-components/components-data-collection.md#concept_66CFFEBF5E8B41ED94082D562A93506E)
+>* [Data Collection Components](../../../reference/system-components/components-data-collection.md)

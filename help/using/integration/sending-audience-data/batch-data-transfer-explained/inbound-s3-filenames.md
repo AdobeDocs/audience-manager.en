@@ -13,7 +13,7 @@ Describes the required fields, syntax, naming conventions and file sizes you nee
 
 >[!NOTE]
 >
->The text styles (`monospaced text`, *italics*, brackets `[ ]` `( )`, etc.) in this document indicate code elements and options. See [Style Conventions for Code and Text Elements](../../../reference/code-style-elements.md#reference_59D0BD0EDB424A65853460D91CCA35D9) for more information.
+>The text styles (`monospaced text`, *italics*, brackets `[ ]` `( )`, etc.) in this document indicate code elements and options. See [Style Conventions for Code and Text Elements](../../../reference/code-style-elements.md) for more information.
 
 ## File Name Syntax {#file-name-syntax}
 
@@ -96,7 +96,7 @@ The table defines the elements in an [!DNL S3] file name.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> [.gz]</code> </p> </td> 
-   <td colname="col2"> <p>When sending files to Amazon S3, use gzip compression only. When compressed, these files get the <code> .gz</code> extension. Do not use .zip compression. </p> <p>Compressed files must be 1 GB or smaller. If your files are larger, please talk to Customer Care. Although Audience Manager can handle large files, we may be able to help you reduce the size of your files and make data transfers more efficient. See <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md#concept_7D6FA8BA759143EFBEDB16589BF6EC40"> File Compression for Inbound Data Transfer Files</a>. </p> </td> 
+   <td colname="col2"> <p>When sending files to Amazon S3, use gzip compression only. When compressed, these files get the <code> .gz</code> extension. Do not use .zip compression. </p> <p>Compressed files must be 3 GB or smaller. If your files are larger, please talk to Customer Care. Although Audience Manager can handle large files, we may be able to help you reduce the size of your files and make data transfers more efficient. See <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md"> File Compression for Inbound Data Transfer Files</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -131,7 +131,7 @@ Consider the figures below for fastest/earliest processing of your files as well
   <tr> 
    <td colname="col1"><b>Compressed</b> </td> 
    <td colname="col2"> <p>200-300 MB </p> </td> 
-   <td colname="col3"> <p>1 GB </p> </td> 
+   <td colname="col3"> <p>3 GB </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b>Uncompressed</b> </td> 
@@ -147,4 +147,4 @@ Consider the figures below for fastest/earliest processing of your files as well
 
 >[!MORE_LIKE_THIS]
 >
->* [FTP Name Requirements for Inbound Data Files](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md#concept_D34898442363415DBF75CEBFC2E86997)
+>* [FTP Name Requirements for Inbound Data Files](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)

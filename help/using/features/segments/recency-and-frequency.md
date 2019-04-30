@@ -86,4 +86,4 @@ Frequency-capping expressions include all the users whose number of trait realiz
 >[!MORE_LIKE_THIS]
 >
 >* [Segment Builder Controls: Traits Section](../../features/segments/segment-builder.md#segment-builder-controls-traits)
->* [Code Syntax Used in the Segment Expression Editor](../../features/segments/segment-code-syntax.md#reference_22B665FB13BA473EBDD6668A9966AAD9)
+>* [Code Syntax Used in the Segment Expression Editor](../../features/segments/segment-code-syntax.md)

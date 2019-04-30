@@ -68,19 +68,19 @@ The following table lists the retention times for different data types and stora
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mobile Device IDs </p> </td> 
-   <td colname="col2"> <p>The retention conditions for mobile device IDs (<a href="../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8"> IDFA, GAID</a>) follow the cadence described in the first two rows, back-end servers and edge servers. </p> </td> 
+   <td colname="col2"> <p>The retention conditions for mobile device IDs (<a href="../reference/ids-in-aam.md"> IDFA, GAID</a>) follow the cadence described in the first two rows, back-end servers and edge servers. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Customer Data Feeds (CDF) </p> </td> 
-   <td colname="col2"> <p>A CDF file contains the same data that an <span class="keyword"> Audience Manager</span> event call (/event) sends to our servers. The retention period is 8 days. For more details about CDF, please refer to <a href="../features/cdf-files.md#concept_114B993EC5E246AE8CDD55E695B344FC"> CDF Intro</a> and <a href="../faq/faq-cdf.md#concept_E832A7307FA0475C918F95116C21CBC6"> CDF FAQ</a>. </p> </td> 
+   <td colname="col2"> <p>A CDF file contains the same data that an <span class="keyword"> Audience Manager</span> event call (/event) sends to our servers. The retention period is 8 days. For more details about CDF, please refer to <a href="../features/cdf-files.md"> CDF Intro</a> and <a href="../faq/faq-cdf.md"> CDF FAQ</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mappings between synchronized IDs </p> </td> 
-   <td colname="col2"> <p>Data is kept indefinitely. </p> </td> 
+   <td colname="col2"> <p>Mappings between synchronized IDs may be kept for the life of the associated <a href="../reference/ids-in-aam.md"> Audience Manager Unique User ID (AAM UUID)</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Inbound data </p> </td> 
-   <td colname="col2"> <p>This is inbound data you send to <span class="keyword"> Audience Manager</span> by FTP or directly to an <span class="keyword"> Amazon S3</span> directory. See the <a href="../faq/faq-inbound-data-ingestion.md#concept_CA81A40C5DD643F899490355C737CE9C"> Inbound Customer Data Ingestion FAQ</a>. </p> </td> 
+   <td colname="col2"> <p>This is inbound data you send to <span class="keyword"> Audience Manager</span> by FTP or directly to an <span class="keyword"> Amazon S3</span> directory. See the <a href="../faq/faq-inbound-data-ingestion.md"> Inbound Customer Data Ingestion FAQ</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Outbound data </p> </td> 

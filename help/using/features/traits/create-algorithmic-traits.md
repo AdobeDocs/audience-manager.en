@@ -26,7 +26,7 @@ To create an algorithmic trait, go to [!UICONTROL Traits] and follow the steps b
 
 >[!MORE_LIKE_THIS]
 >
->* [Accuracy and Reach](../../features/traits/trait-accuracy-reach.md#concept_60F696940483424CA4E8EEDD63F46358)
+>* [Accuracy and Reach](../../features/traits/trait-accuracy-reach.md)
 
 ## Configuration Settings for Algorithmic Traits {#configure-settings}
 
@@ -51,4 +51,4 @@ In [!UICONTROL Trait Builder], the [!UICONTROL Configuration] section lets you a
 
 >[!MORE_LIKE_THIS]
 >
->* [Accuracy and Reach](../../features/traits/trait-accuracy-reach.md#concept_60F696940483424CA4E8EEDD63F46358)
+>* [Accuracy and Reach](../../features/traits/trait-accuracy-reach.md)

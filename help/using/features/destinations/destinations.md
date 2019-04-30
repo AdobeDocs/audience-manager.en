@@ -39,39 +39,7 @@ Business decisions for selecting one delivery method over another depend on the 
 
 The examples in the following table can help you understand when to use a particular destination and the differences between each type.
 
-<table id="table_1510DBC812BB4DABAB3E009583C6B423"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Destination Type </th> 
-   <th colname="col2" class="entry"> Typically Used When </th> 
-   <th colname="col3" class="entry"> Example </th> 
-   <th colname="col4" class="entry"> Considerations </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <b>URL</b><br> or<br> <b>Cookie</b> </td> 
-   <td colname="col2" morerows="1"> You need to transfer data immediately so a destination can take action on a qualified user right away. </td>
-   <td colname="col3" morerows="1"> Sending data from a ticket purchasing site. Use a URL or cookie destination to qualify user and immediately re-target. </td> 
-   <td colname="col4" morerows="1"> 
-    <ul id="ul_92FF3164AEA749D58938784BAA5CFA17"> 
-     <li id="li_1857F829FD634F68BB6DCCE2FF7FBFA7">Transfers data about new visitors only. </li>
-     <li id="li_C0541B2ABB6F4DC49DF1373E62E8BD20">Visitors must be seen again to qualify for the segment. </li>
-    </ul> </td>
-  </tr>
-  <tr> 
-   <td colname="col1"> <b>Server-to-server</b> </td>
-   <td colname="col2"> 
-    <ul id="ul_64F3938944EA4BD98F26BE60DB51D585"> 
-     <li id="li_AF63E5AE8E0747FA8A8EAD84B26FE20A">Immediate data transfer is not required. </li> 
-     <li id="li_90C7CEE7871844619462D19781A4E567">Collecting data to build a large audience pool of qualified users. </li>
-    </ul> </td> 
-   <td colname="col3"> Collecting data over time (hours or days) to use it in a campaign set to run at a later date. </td>
-   <td colname="col4"> 
-    <ul id="ul_0F15F2A88888466F8DBEFE3BCADDE28E"> 
-     <li id="li_D16F682745124A71BF127D118077C99B">Transfers data about new and previous site visitors. </li>
-     <li id="li_E58366168184443DA69B430B7ABBCE9A">Visitors don't have to be seen again to qualify for other segments. </li>
-    </ul> </td>
-  </tr>
- </tbody>
-</table>
+| Destination Type | Typically Used When | Example | Considerations |
+|--- |--- |--- |--- |
+|**URL** or **Cookie**|You need to transfer data immediately so a destination can take action on a qualified user right away.|Sending data from a ticket purchasing site. Use a URL or cookie destination to qualify user and immediately re-target.|<ul><li>Transfers data about new visitors only. </li><li>Visitors must be seen again to qualify for the segment.</li></ul>|
+|**Server-to-server**|<ul><li>Immediate data transfer is not required.</li><li>Collecting data to build a large audience pool of qualified users.</li></ul>|Collecting data over time (hours or days) to use it in a campaign set to run at a later date.|<ul><li>Transfers data about new and previous site visitors. </li><li>Visitors don't have to be seen again to qualify for other segments.</li></ul>|

@@ -89,7 +89,7 @@ The following table defines the estimated population metrics.
 
 ## Existing (Actual) Segment Population Data Defined {#existing-segment-population}
 
-[!UICONTROL Profile Merge Rules] affect the actual real-time and total population numbers. These totals vary depending on if the [!UICONTROL Profile Merge Rule] a segment belongs to uses a device graph option or not. See also, [Profile Merge Rule Options Defined](../../features/profile-merge-rules/merge-rule-definitions.md#concept_44FFF67CD9654DB2B43ECA13C2FD1CE0).
+[!UICONTROL Profile Merge Rules] affect the actual real-time and total population numbers. These totals vary depending on if the [!UICONTROL Profile Merge Rule] a segment belongs to uses a device graph option or not. See also, [Profile Merge Rule Options Defined](../../features/profile-merge-rules/merge-rule-definitions.md).
 
 ### Segment Population Data for Merge Rules Without a Device Graph Option
 
@@ -147,9 +147,9 @@ The following table defines the actual real-time and total population metrics wh
 
 ### Limitations due to Merge Rules When Estimating Segment Populations
 
-Presently, there is a known limitation because our segment size estimator does not account for profile merge rules. For example, look at segments with the **No Authenticated Profile + Current Device Profile**&nbsp;[merge rule](../../features/profile-merge-rules/merge-rule-definitions.md#concept_44FFF67CD9654DB2B43ECA13C2FD1CE0). Because of the way we currently compute the segment estimation numbers, the estimated populations will include authenticated profiles. However, the existing segment populations will correctly ignore authenticated profiles.
+Presently, there is a known limitation because our segment size estimator does not account for profile merge rules. For example, look at segments with the **No Authenticated Profile + Current Device Profile**&nbsp;[merge rule](../../features/profile-merge-rules/merge-rule-definitions.md). Because of the way we currently compute the segment estimation numbers, the estimated populations will include authenticated profiles. However, the existing segment populations will correctly ignore authenticated profiles.
 
 >[!MORE_LIKE_THIS]
 >
->* [Profile Merge Rules and Device Graph FAQ](../../faq/faq-profile-merge.md#concept_C8E29A974E194B62B0BAC1CCDD0DF4FF)
->* [Profile Link](../../features/profile-merge-rules/merge-rules-overview.md#concept_5FCB08A53C4D4C2B82800BC9FD2B8EC9)
+>* [Profile Merge Rules and Device Graph FAQ](../../faq/faq-profile-merge.md)
+>* [Profile Link](../../features/profile-merge-rules/merge-rules-overview.md)

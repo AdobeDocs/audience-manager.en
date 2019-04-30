@@ -17,7 +17,7 @@ Examples of how some of the common macros are used to create outbound file templ
 
 ## File Name Macros {#file-name-macros}
 
-For a list of available macros and definitions, see [Outbound Template Macros](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md#concept_91784732DF6148CF993C3C574270FE2F).
+For a list of available macros and definitions, see [Outbound Template Macros](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
 
 <table id="table_B5073597219B470298EE614902DACAE8"> 
  <thead> 
@@ -65,7 +65,7 @@ For a list of available macros and definitions, see [Outbound Template Macros](.
 
 ## Header Row Macros {#header-macros}
 
-For a list of available macros and definitions, see [Outbound Template Macros](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md#concept_91784732DF6148CF993C3C574270FE2F).
+For a list of available macros and definitions, see [Outbound Template Macros](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
 
 <table id="table_ABC31B3D660D47969E111EBC734D5BBC"> 
  <thead> 
@@ -84,7 +84,7 @@ For a list of available macros and definitions, see [Outbound Template Macros](.
 
 ## File Content Macros {#file-content-macros}
 
-For a list of available macros and definitions, see [Outbound Template Macros](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md#concept_91784732DF6148CF993C3C574270FE2F).
+For a list of available macros and definitions, see [Outbound Template Macros](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
 
 <table id="table_408C6DD2B9D54550B003EAC93562E64F"> 
  <thead> 
@@ -174,4 +174,4 @@ Given these conditions, the following table enumerates some possible format stri
  </tbody> 
 </table>
 
-[Outbound Template Macros](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md#concept_91784732DF6148CF993C3C574270FE2F)  
+[Outbound Template Macros](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)  

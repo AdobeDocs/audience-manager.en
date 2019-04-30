@@ -81,4 +81,4 @@ You can only generate CDF files for the past 8 days. CDF files for intervals old
 
 >[!MORE_LIKE_THIS]
 >
->* [Customer Data Feeds](../features/cdf-files.md#concept_114B993EC5E246AE8CDD55E695B344FC)
+>* [Customer Data Feeds](../features/cdf-files.md)

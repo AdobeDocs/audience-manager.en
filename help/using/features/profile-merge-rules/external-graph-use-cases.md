@@ -99,6 +99,6 @@ For more information about how these device graph processes work, download our P
 
 >[!MORE_LIKE_THIS]
 >
->* [Profile Link Device Graph Use Cases](../../features/profile-merge-rules/profile-link-use-case.md#concept_5D9D32E18BB94F318A8BA0229335F1B9)
->* [General Use Cases for Profile Merge Rules](../../features/profile-merge-rules/merge-rule-targeting-options.md#concept_7F8EC9D100AE442185B2C3EE65814DD2)
->* [Profile Merge Rules FAQ](../../faq/faq-profile-merge.md#concept_C8E29A974E194B62B0BAC1CCDD0DF4FF)
+>* [Profile Link Device Graph Use Cases](../../features/profile-merge-rules/profile-link-use-case.md)
+>* [General Use Cases for Profile Merge Rules](../../features/profile-merge-rules/merge-rule-targeting-options.md)
+>* [Profile Merge Rules FAQ](../../faq/faq-profile-merge.md)

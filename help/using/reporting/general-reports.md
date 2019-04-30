@@ -32,7 +32,7 @@ Run a [!UICONTROL General] report when you need to:
 
 The following illustration provides a high-level overview of key elements in the [!UICONTROL General] report.
 
-![](assets/general_reports_border.jpg)
+![](assets/general_reports.png)
 
 1. Configure the following options:
 
@@ -84,7 +84,7 @@ The metrics below are available when you run a General report and select **[!UIC
 
 **Unique Trait Realizations**
 
-This metric represents the unique number of [Audience Manager Unique User IDs (UUID)](../reference/ids-in-aam.md#reference_D55EC67D86664B7499F3257BB870FEC8) that qualified for the trait in your selected time range. For example, if a user visited your homepage three times on 10/1, you would see one Unique Trait Realization.
+This metric represents the unique number of [Audience Manager Unique User IDs (UUID)](../reference/ids-in-aam.md) that qualified for the trait in your selected time range. For example, if a user visited your homepage three times on 10/1, you would see one Unique Trait Realization.
 
 **Total Trait Realizations**
 
@@ -92,7 +92,7 @@ This metric represents the total amount of trait fires for the trait in your sel
 
 **Total Trait Population**
 
-This metric represents the total amount of Audience Manager UUIDs that are currently qualified for the trait. Use this number to understand the total amount of users you could use for segmentation and targeting. Typically, users remain part of a trait for [120 days](../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval). For example, a user visiting your homepage three times today and never returning afterwards, would remain as a user in this population every day until 120 days from now. At the 120 day mark, they would be removed from the population. Read our [Trait Qualification Reference](../features/traits/trait-qualification-reference.md#concept_C27644821296475A84A7522847D92C9D) for more examples on the difference between Unique Trait Realizations and Total Trait Population.
+This metric represents the total amount of Audience Manager UUIDs that are currently qualified for the trait. Use this number to understand the total amount of users you could use for segmentation and targeting. Typically, users remain part of a trait for [120 days](../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval). For example, a user visiting your homepage three times today and never returning afterwards, would remain as a user in this population every day until 120 days from now. At the 120 day mark, they would be removed from the population. Read our [Trait Qualification Reference](../features/traits/trait-qualification-reference.md) for more examples on the difference between Unique Trait Realizations and Total Trait Population.
 
 The illustration below shows the results of running a general report for the Trait report type.
 

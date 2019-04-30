@@ -14,12 +14,12 @@ Create mutually exclusive test segments in [!UICONTROL Segment Test Groups] to c
 
 ## Overview {#audience-lab-overview}
 
-[!UICONTROL Audience Lab] uses [Profile Link](../../features/profile-merge-rules/merge-rules-overview.md#concept_5FCB08A53C4D4C2B82800BC9FD2B8EC9) to power cross-device testing. This helps ensure a user qualifies for the same test segment and receives the same treatment across devices. The test segments in test groups will inherit the [Profile Merge Rule](../../features/profile-merge-rules/merge-rules-dashboard.md#concept_0D5FDF17A17B400598B787099A48F865) the base segment has assigned to it.
+[!UICONTROL Audience Lab] uses [Profile Link](../../features/profile-merge-rules/merge-rules-overview.md) to power cross-device testing. This helps ensure a user qualifies for the same test segment and receives the same treatment across devices. The test segments in test groups will inherit the [Profile Merge Rule](../../features/profile-merge-rules/merge-rules-dashboard.md) the base segment has assigned to it.
 
 The [!UICONTROL Audience Lab] default view displays a card for each of the test groups. Click a card to access the **[!UICONTROL Test Group]** view. This view includes the following information:
 
-* **[Test Group Information](../../features/audience-lab/audience-lab-information-view.md#concept_C8A8844639CE41E9AE9D6886D829B8E0)**
-* **[Test Group Reporting](../../features/audience-lab/audience-lab-reporting-view.md#concept_C8A089E2B1C54D268C4F6475C4D5C9D6)**
+* **[Test Group Information](../../features/audience-lab/audience-lab-information-view.md)**
+* **[Test Group Reporting](../../features/audience-lab/audience-lab-reporting-view.md)**
 
 You are able to create **up to 10 test groups**, each one with **up to 15 test segments**.
 

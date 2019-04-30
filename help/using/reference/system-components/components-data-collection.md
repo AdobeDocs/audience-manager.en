@@ -60,7 +60,7 @@ There are no UI controls that lets our customers work directly with the [!UICONT
 
 **Purging inactive IDs from the [!UICONTROL PCS]**
 
-As indicated previously, the [!UICONTROL PCS] stores trait IDs for active users. An active user is any user who has been seen by the [edge data servers](../../reference/system-components/components-edge.md#concept_DD36E2B5A23D4CC5A91CA9808B908B8E) from any domain during the last 14-days. These calls to the [!UICONTROL PCS] keep a user in an active state:
+As indicated previously, the [!UICONTROL PCS] stores trait IDs for active users. An active user is any user who has been seen by the [edge data servers](../../reference/system-components/components-edge.md) from any domain during the last 14-days. These calls to the [!UICONTROL PCS] keep a user in an active state:
 
 * [!DNL /event] calls 
 * [!DNL /ibs] calls (ID syncs)

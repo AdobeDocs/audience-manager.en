@@ -36,7 +36,7 @@ Based on the above example, the browser is redirected to the following [!DNL URL
 
 ## Supported Macros
 
-Click events support the macros listed in the following table. A macro is a small unit of self contained code that activates when the ad tag loads for campaign and user tracking. The macros will be passed along with the destination [!DNL URL], as long as they are marked with the following format: `%macro%`. Some keys do not have macros and accept a hard coded ID value instead. Keys that accept hard coded values are required if you want to analyze data in the [Audience Optimization Reports](../../reporting/audience-optimization-reports/audience-optimization-reports.md#concept_D66D2C58493E48BDAFF2F95BBB508946).
+Click events support the macros listed in the following table. A macro is a small unit of self contained code that activates when the ad tag loads for campaign and user tracking. The macros will be passed along with the destination [!DNL URL], as long as they are marked with the following format: `%macro%`. Some keys do not have macros and accept a hard coded ID value instead. Keys that accept hard coded values are required if you want to analyze data in the [Audience Optimization Reports](../../reporting/audience-optimization-reports/audience-optimization-reports.md).
 
 <table id="table_6EB65C3B7D0E49C59AA6C932549E33FC"> 
  <thead> 
@@ -95,7 +95,7 @@ Click events support the macros listed in the following table. A macro is a smal
   <tr> 
    <td colname="col1"> <p> <code> d_region</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_region%</code> </p> </td> 
-   <td colname="col2"> <p>The numeric region ID for the DCS cluster that services a request. For more information about the DCS, see <a href="../../reference/system-components/components-data-collection.md#concept_66CFFEBF5E8B41ED94082D562A93506E"> Data Collection Components</a>. </p> <p>Optional. </p> </td> 
+   <td colname="col2"> <p>The numeric region ID for the DCS cluster that services a request. For more information about the DCS, see <a href="../../reference/system-components/components-data-collection.md"> Data Collection Components</a>. </p> <p>Optional. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> r_rand</code> </p> </td> 
@@ -116,6 +116,16 @@ Click events support the macros listed in the following table. A macro is a smal
    <td colname="col1"> <p> <code> d_uuid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_uuid%</code> </p> </td> 
    <td colname="col2"> <p>Specify the ID of the visitor directly in the URL instead of relying on Demdex cookie. </p> <p>Optional. </p> </td> 
+  </tr> 
+   <tr> 
+   <td colname="col1"> <p> <code>gdpr</code> </p> </td> 
+   <td colname="col02"> <p> <code>%gdpr_applies%</code> </p> </td> 
+   <td colname="col2"> <p>Related to the <a href="../../overview/aam-gdpr/aam-iab-plugin.md">Audience Manager Plug-in for IAB TCF.</a> </p><p><code>gdpr</code> can be 0 (GDPR does not apply) or 1 (GDPR applies).</p> <p>Default value is 0.</p><p>Optional.</p></td> 
+  </tr> 
+   <tr> 
+   <td colname="col1"> <p> <code>gdpr_consent</code> </p> </td> 
+   <td colname="col02"> <p> <code>%gdpr_consent%</code> </p> </td> 
+   <td colname="col2"> <p>Related to the <a href="../../overview/aam-gdpr/aam-iab-plugin.md">Audience Manager Plug-in for IAB TCF.</a></p><p> If <code>gdpr=1</code>, then <code>%gdpr_consent%</code> is replaced by the <code>gdpr_consent</code> string (see <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> IAB specification</a>).</p> <p>Default value is 0.</p><p>Optional.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -148,4 +158,4 @@ Based on the above example, the browser is redirected to the following [!DNL URL
 
 >[!MORE_LIKE_THIS]
 >
->* [Data and Metadata Files for Audience Optimization Reports](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md#concept_CD250EF8D3744CC4A722422970886D87)
+>* [Data and Metadata Files for Audience Optimization Reports](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)

@@ -19,9 +19,9 @@ For a client-side integration, you need to set up a [!DNL GPT] destination in Au
 
 * **Create a [!UICONTROL Cookie Destination]:** [!DNL GPT] must be set up as a cookie-based destination in Audience Manager.
 
-* **Implement Cookie Checking Code:** Wrap the [!DNL GPT] `.setTargeting` API method in our recommended [cookie checking code](../../integration/gpt-aam-destination/gpt-aam-modify-api.md#concept_276DF2F702BE4D6180C855A7DE304097). This code helps prevent errors by looking for valid AAM cookies before the `.setTargeting` method gets invoked.
+* **Implement Cookie Checking Code:** Wrap the [!DNL GPT] `.setTargeting` API method in our recommended [cookie checking code](../../integration/gpt-aam-destination/gpt-aam-modify-api.md). This code helps prevent errors by looking for valid AAM cookies before the `.setTargeting` method gets invoked.
 
-* **Add the `AamGpt` Function:** The `AamGpt` code captures data from Audience Manager cookies and sends it to [!DNL GPT]. Place the [Audience Manager Code for Google Publisher Tags](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md#concept_C47C21701F0F437E823BABF4EB89E1DB) ( `AamGpt`) at the top of the page or inside the `<head>` code block.
+* **Add the `AamGpt` Function:** The `AamGpt` code captures data from Audience Manager cookies and sends it to [!DNL GPT]. Place the [Audience Manager Code for Google Publisher Tags](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md) ( `AamGpt`) at the top of the page or inside the `<head>` code block.
 
   >[!NOTE]
   >

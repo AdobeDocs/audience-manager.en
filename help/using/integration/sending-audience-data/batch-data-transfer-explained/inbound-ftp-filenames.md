@@ -17,7 +17,7 @@ Describes the required fields, syntax, naming conventions and file sizes you nee
 
 >[!NOTE]
 >
->The text styles (`monospaced text`, *italics*, brackets `[ ]` `( )`, etc.) in this document indicate code elements and options. See [Style Conventions for Code and Text Elements](../../../reference/code-style-elements.md#reference_59D0BD0EDB424A65853460D91CCA35D9) for more information.
+>The text styles (`monospaced text`, *italics*, brackets `[ ]` `( )`, etc.) in this document indicate code elements and options. See [Style Conventions for Code and Text Elements](../../../reference/code-style-elements.md) for more information.
 
 ## File Name Syntax {#file-name-syntax}
 
@@ -41,6 +41,10 @@ The table defines the elements in an [!DNL FTP] file name.
   </tr> 
  </thead>
  <tbody> 
+  <tr> 
+   <td colname="col1"> <p> <code> ftp_dpm_</code> </p> </td> 
+   <td colname="col2"> <p>The path to and name of your <span class="keyword"> Audience Manager</span> FTP directory. Contact your Account Manager for the FTP directory and credentials. </p> </td> 
+  </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>DPID</i> </code> </p> </td> 
    <td colname="col2"> <p>An lD that tells <span class="keyword"> Audience Manager</span> if a data file contains your own user IDs or Android or iOS IDs. Accepts the following options: </p> 
@@ -68,10 +72,6 @@ The table defines the elements in an [!DNL FTP] file name.
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> ftp_dpm_</code> </p> </td> 
-   <td colname="col2"> <p>The path to and name of your <span class="keyword"> Audience Manager</span> FTP directory. Contact your Account Manager for the FTP directory and credentials. </p> </td> 
-  </tr> 
-  <tr> 
    <td colname="col1"> <p> <code>[<i>SPLIT_NUMBER</i></code>] </p> </td> 
    <td colname="col2"> <p>An integer. Used when you split large files into multiple parts to improve processing times. The number indicates which part of the original file you're sending in. </p> <p>For efficient file processing, split your data files as indicated: </p> 
     <ul id="ul_E9446C5CA42649658093904D49D4369C"> 
@@ -88,7 +88,7 @@ The table defines the elements in an [!DNL FTP] file name.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> [.gz]</code> </p> </td> 
-   <td colname="col2"> <p>Gzip is the allowed compression format for an FTP file name. If you use file compression, make sure the file name has the proper extension. </p> <p>Compressed files must be 1 GB or smaller. If your files files are larger, please talk to Customer Care. Although Audience Manager can handle large files, we may be able to help you reduce the size of your files and make data transfers more efficient. See <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md#concept_7D6FA8BA759143EFBEDB16589BF6EC40"> File Compression for Inbound Data Transfer Files</a> . </p> </td> 
+   <td colname="col2"> <p>Gzip is the allowed compression format for an FTP file name. If you use file compression, make sure the file name has the proper extension. </p> <p>Compressed files must be 3 GB or smaller. If your files files are larger, please talk to Customer Care. Although Audience Manager can handle large files, we may be able to help you reduce the size of your files and make data transfers more efficient. See <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md"> File Compression for Inbound Data Transfer Files</a> . </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -121,7 +121,7 @@ Consider the figures below for fastest/earliest processing of your files as well
   <tr> 
    <td colname="col1"><b>Compressed</b> </td> 
    <td colname="col2"> <p>200-300 MB </p> </td> 
-   <td colname="col3"> <p>1 GB </p> </td> 
+   <td colname="col3"> <p>3 GB </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b>Uncompressed</b> </td> 
@@ -133,4 +133,4 @@ Consider the figures below for fastest/earliest processing of your files as well
 
 >[!MORE_LIKE_THIS]
 >
->* [Amazon S3 Name Requirements for Inbound Data Files](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md#concept_B3CAF442BFFE4823B76A5D0D91DF9942)
+>* [Amazon S3 Name Requirements for Inbound Data Files](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)

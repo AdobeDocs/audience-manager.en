@@ -40,7 +40,7 @@ Processes that help keep our system and your data secure.
 
 **Security Training:**  Internally, our commitment to security extends to developers who work on our product. Adobe provides formal training to developers on how to build secure applications and services.
 
-**Secure Access:**  Audience Manager requires strong passwords to log on to the system. See [password requirements](../../reference/password-requirements.md#concept_0B501857C23944DCAE4875D3F9455F5F).
+**Secure Access:**  Audience Manager requires strong passwords to log on to the system. See [password requirements](../../reference/password-requirements.md).
 
 ## Privacy and Personally Identifiable Information (PII) {#pii}
 
@@ -68,7 +68,7 @@ Both methods are designed with the security of our customer and partner data in 
 
 **Amazon Web Services S3 via HTTPS:** For the S3 delivery option, we recommend that all customers configure their S3 clients to use the HTTPS encryption method for file transfers (this is not the default, so it must be explicitly configured). The HTTPS option is supported both by the s3cmd command line tool as well as the S3 libraries available in every major programming language. With this HTTPS option enabled, customer's data is encrypted while in flight to our systems. For each customer, we create a separate S3 bucket sub-directory that can be accessed only by that customer's credentials and those of our internal system users.
 
-To add PGP encryption to your data files, see [File PGP Encryption for Inbound Data Types](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md#concept_94660DC77BAB4D558B793D59988B0A21).
+To add PGP encryption to your data files, see [File PGP Encryption for Inbound Data Types](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md).
 
 ## Protecting Data by Escaping {#escaping-data}
 

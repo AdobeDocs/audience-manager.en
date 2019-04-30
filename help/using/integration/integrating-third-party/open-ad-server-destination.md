@@ -20,7 +20,7 @@ Standards for code placement, supported key-value formats, reports, and the type
 This destination type requires the following:
 
 * **[!UICONTROL DIL]:** [!UICONTROL Data Integration Library] code should be deployed on your inventory. [!UICONTROL DIL] helps eliminate the need to write special code for data collection, integration, reading cookie values, and recovering page data.
-* **`get_aamCookie` Function:** Code that captures the Audience Manager user ID and cookie data. Place [this code](../../features/destinations/get-aam-cookie-code.md#reference_0102FABCC96547DE81DFCA0600BBEFD3) on the top of the page or inside the `<head>` codeblock.
+* **`get_aamCookie` Function:** Code that captures the Audience Manager user ID and cookie data. Place [this code](../../features/destinations/get-aam-cookie-code.md) on the top of the page or inside the `<head>` codeblock.
 * **Send Delivery Logs to Audience Manager:** If you want a segment delivery report (optional), provide Audience Manager with a daily log that contains impression-level delivery data. The data can be in a raw format, but each record must contain the Audience Manager [!UICONTROL UUID]. Audience Manager can pick up or receive these via [!DNL FTP].
 
 ### Cookie Format and Key-Value Data
@@ -38,8 +38,8 @@ The amount data passed in to [!DNL OAS] depends on how many segments a particula
 
 >[!MORE_LIKE_THIS]
 >
->* [get_aamCookie Code](../../features/destinations/get-aam-cookie-code.md#reference_0102FABCC96547DE81DFCA0600BBEFD3)
->* [Key-Value Pairs Explained](../../reference/key-value-pairs-explained.md#concept_E4236E003076483AA939791FE2492B49)
+>* [get_aamCookie Code](../../features/destinations/get-aam-cookie-code.md)
+>* [Key-Value Pairs Explained](../../reference/key-value-pairs-explained.md)
 
 ## Create an OAS Destination {#oas-dest-setup}
 
@@ -87,7 +87,7 @@ To set up [!DNL OAS]
 
 * Install [!UICONTROL DIL] code across your site.
 * Create OAS as a cookie destination in Audience Manager.
-* Place the `get_aamCookie` function at the top of the page, ideally within the `<head>` codeblock. The `get_aamCookie` code is available [here](../../features/destinations/get-aam-cookie-code.md#reference_0102FABCC96547DE81DFCA0600BBEFD3).
+* Place the `get_aamCookie` function at the top of the page, ideally within the `<head>` codeblock. The `get_aamCookie` code is available [here](../../features/destinations/get-aam-cookie-code.md).
 * Modify your ad tag to call the `get_aamCookie` function and include the cookie name you provided when setting up the [!DNL OAS] destination. For example, if you named the cookie `test_cookie`, then the ad tag should call `get_aamCookie` and reference the cookie name.
 * Your ad tag could look similar to the example below.
 

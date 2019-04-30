@@ -97,7 +97,7 @@ Data from these parameters is collected by default:
 
 ## Flash DIL Data in Audience Manager {#flash-dil-data}
 
-The [!UICONTROL Flash DIL] module turns Adobe AppMeasurement data into Audience Management traits and unused signals.
+The [!UICONTROL Flash DIL] module turns Adobe AppMeasurement data into Audience Manager traits and unused signals.
 
 <!-- 
 
@@ -105,37 +105,34 @@ c_flash_dil_in_aam.xml
 
  -->
 
-Analytics [!UICONTROL Props], [!UICONTROL eVars], and events work like traits in Audience Management. Traits are key-value pairs and are used to build segments. For example, in an Analytics prop like `prop35=foo`, `prop35` is the key (a constant) and `foo` is the value (a variable).
+Analytics [!UICONTROL Props], [!UICONTROL eVars], and events work like traits in Audience Manager. Traits are key-value pairs and are used to build segments. For example, in an Analytics prop like `c30=foo`, `c30` is the key (a constant) and `foo` is the value (a variable).
 
 **Match Audience Manager Traits to Analytics Variables**
 
-To use the Analytics data passed by [!UICONTROL Flash DIL], you should create Audience Manager traits that have:
-
-* The same names as their Analytics equivalents. 
-* A key value prefixed with `c_`.
+To use the Analytics data passed by [!UICONTROL Flash DIL], you should create Audience Manager traits that have the key value prefixed with `c_`.
 
 See the table for examples:  
 
 |  Analytics Data Element  | Analytics Example  | As Audience Manager Trait  |
 |---|---|---|
-|  **prop** | `c30=foo`  | `c_prop35=foo`  |
-|  **evar** | `v35=bar`  | `c_evar=bar`  |
+|  **prop** | `c30=foo`  | `c_prop30=foo`  |
+|  **evar** | `v35=bar`  | `c_evar35=bar`  |
 |  **events** | `events=event10`  | `c_events=event10`  |
 
 **DIL/Analytics Data as Unused Signals**
 
-Audience Manager accepts Analytics [!UICONTROL Props], [!UICONTROL eVars], and events even without a corresponding trait. In this case, the data is unavailable for trait creation and appears in the [Unused Signals report](../reporting/dynamic-reports/unused-signals.md#concept_D3A6A3AD84AE47589699A13A8F971BE0) instead. To make the most of this information, create Audience Manager traits that match the Analytics data passed in by the [!UICONTROL Flash DIL] library. 
+Audience Manager accepts Analytics [!UICONTROL Props], [!UICONTROL eVars], and events even without a corresponding trait. In this case, the data is unavailable for trait creation and appears in the [Unused Signals report](../reporting/dynamic-reports/unused-signals.md) instead. To make the most of this information, create Audience Manager traits that match the Analytics data passed in by the [!UICONTROL Flash DIL] library. 
 
 >[!MORE_LIKE_THIS]
 >
 >* [Traits](../features/traits/trait-details-page.md)
->* [Signals, Traits, and Segments](../reference/signal-trait-segment.md#concept_7550A48FE3F1415FACF0E077CFAB155F)
->* [Key-Value Pairs Explained](../reference/key-value-pairs-explained.md#concept_E4236E003076483AA939791FE2492B49)
->* [Prefix Requirements for Key Variables](../features/traits/trait-variable-prefixes.md#reference_E6F1E4257F664FC2A797C406BF147ABC)
+>* [Signals, Traits, and Segments](../reference/signal-trait-segment.md)
+>* [Key-Value Pairs Explained](../reference/key-value-pairs-explained.md)
+>* [Prefix Requirements for Key Variables](../features/traits/trait-variable-prefixes.md)
 
 ## Flash DIL ActionScript Library {#flash-dil-actionscript}
 
-Code for your [!DNL Flash] object to send Analytics data to Audience Management.
+Code for your [!DNL Flash] object to send Analytics data to Audience Manager.
 
 <!-- 
 

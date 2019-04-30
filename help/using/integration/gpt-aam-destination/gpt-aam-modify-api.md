@@ -69,5 +69,5 @@ Defines the key variables used in the `if` statement.
 
 >[!MORE_LIKE_THIS]
 >
->* [Create a GPT Destination](../../integration/gpt-aam-destination/gpt-aam-create-destination.md#concept_CD39E47404A541719119E9F354EB274C)
->* [Audience Manager Code for Google Publisher Tags](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md#concept_C47C21701F0F437E823BABF4EB89E1DB)
+>* [Create a GPT Destination](../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
+>* [Audience Manager Code for Google Publisher Tags](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)

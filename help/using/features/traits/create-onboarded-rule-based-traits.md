@@ -86,4 +86,4 @@ In [!UICONTROL Trait Builder], the [!UICONTROL Advanced Options] lets you set a 
 
 >[!MORE_LIKE_THIS]
 >
->* [Segment Time to Live Explained](../../features/traits/segment-ttl-explained.md#concept_2F85D4E738754EF387328A9754E125B3)
+>* [Segment Time to Live Explained](../../features/traits/segment-ttl-explained.md)

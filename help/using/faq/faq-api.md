@@ -17,7 +17,7 @@ faq_api.xml
 
  -->
 
-The [REST API](../api/rest-api-main/rest-api-main.md#concept_B512E6C3410A4304A672588A60A792B1) documentation contains details about specific methods and code samples.
+The [REST API](../api/rest-api-main/rest-api-main.md) documentation contains details about specific methods and code samples.
 
 <br>&nbsp;
 

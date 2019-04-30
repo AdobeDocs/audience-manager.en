@@ -119,7 +119,7 @@ This use case works with first-party, Analytics data sent to a demand-side platf
 
 **Create High Value Segments and Improve Reach with Look-alike Modeling**
 
-The [Models documentation](../features/algorithmic-models/understanding-models.md#concept_49FB2DBD4AD041A4ABAAEE9D83BB996E) contains details about the [!DNL Audience Manager] algorithmic modeling process.  
+The [Models documentation](../features/algorithmic-models/understanding-models.md) contains details about the [!DNL Audience Manager] algorithmic modeling process.  
 
 <table id="table_A10E4656E2A74EF5BCCA42A7AAA94416"> 
  <thead> 

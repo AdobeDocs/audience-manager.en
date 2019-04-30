@@ -30,7 +30,7 @@ Slide the **[!UICONTROL Show Only Addressable Audience Metrics]** toggle to see 
 
 >[!MORE_LIKE_THIS]
 >
->* [Addressable Audiences](../../features/addressable-audiences.md#concept_8E0BAEF0978F4968B21482E79E601889)
+>* [Addressable Audiences](../../features/addressable-audiences.md)
 
 ## Destination Builder {#destination-builder}
 
@@ -55,7 +55,7 @@ Send information to a destination by passing it in through a [!DNL URL] string, 
 * [!DNL URL] and cookie-based destinations transmit data synchronously, as a user takes action on a page.
 * Server-to-server data transmission is asynchronous and can occur long after a user has left the page. The delivery type you select depends on your business requirements and how a particular data partner wants to, or can, receive data.
 
-See [How to Choose a Destination Type](../../features/destinations/destinations.md#concept_88240D03005244DA91182932E9927003) for more information.
+See [How to Choose a Destination Type](../../features/destinations/destinations.md) for more information.
 
 >[!MORE_LIKE_THIS]
 >
@@ -77,7 +77,6 @@ This section contains fields and options that start the cookie destination creat
 1. Click **[!UICONTROL Basic Information]** to expose the controls.
 1. Name the destination. Avoid abbreviations and special characters.
 1. *(Optional)* Describe the destination. A concise description is an effective way to define or provide more information about a destination.
-1. *(Optional)* In the **[!UICONTROL Platform]** list, leave the default set to **[!UICONTROL All]**. Currently, these options don't do anything. They're designed to support features that may be added at a later date.
 1. In the **[!UICONTROL Type]** list, click **[!UICONTROL Cookie]**.
 1. *(Optional)* Select an **[!UICONTROL Auto-fill Destination Mapping]**. Options include:
     * **[!UICONTROL Segment ID]**: Automatically adds and sends the segment ID to the destination.
@@ -138,7 +137,6 @@ This section contains fields and options that start the URL destination creation
 1. Click **[!UICONTROL Basic Information]** to expose the controls.
 1. Name the destination. Avoid abbreviations and special characters.
 1. *(Optional)* Describe the destination. A concise description is an effective way to define or provide more information about a destination.
-1. *(Optional)* In the **[!UICONTROL Platform]** list, leave the default set to **[!UICONTROL All]**. Currently, these options don't do anything. They're designed to support features that may be added at a later date.
 1. In the **[!UICONTROL Type]** list, click **[!UICONTROL URL]**.
 1. *(Optional)* Select an **[!UICONTROL Auto-fill Destination Mapping]**. Options include:
     * **[!UICONTROL Segment ID]**: Automatically adds and sends the segment ID to the destination.

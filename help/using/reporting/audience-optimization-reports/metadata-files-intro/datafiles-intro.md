@@ -13,9 +13,9 @@ A data file contains impression, click, or conversion data. When formatted prope
 
 ## Overview {#overview}
 
-A properly named and formatted data file lets you import impression, click, or conversion data into the [Audience Optimization Reports](../../../reporting/audience-optimization-reports/audience-optimization-reports.md#concept_D66D2C58493E48BDAFF2F95BBB508946). This is useful when working with a partner who is not integrated with [!DNL Audience Manager] and you want to work with their data in that report suite. This process requires separate files for impression, click, and conversion data. Do not mix these events in a single file.
+A properly named and formatted data file lets you import impression, click, or conversion data into the [Audience Optimization Reports](../../../reporting/audience-optimization-reports/audience-optimization-reports.md). This is useful when working with a partner who is not integrated with [!DNL Audience Manager] and you want to work with their data in that report suite. This process requires separate files for impression, click, and conversion data. Do not mix these events in a single file.
 
-A data file must be accompanied by a metadata file. The metadata file contents match data file information to related, human-readable labels in the report menus. For more information, see [Overview and Mappings for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md#concept_548097F263114FC1811B1EEA21D9C461).
+A data file must be accompanied by a metadata file. The metadata file contents match data file information to related, human-readable labels in the report menus. For more information, see [Overview and Mappings for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).
 
 ## Naming Conventions for Data Files {#naming-conventions}
 
@@ -190,4 +190,4 @@ To update your data, send in a file that contains all of the impressions, clicks
 
 ## Next Steps {#next-steps}
 
-Review the requirements for naming and creating metadata files. To get started, see [Overview and Mappings for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md#concept_548097F263114FC1811B1EEA21D9C461). 
+Review the requirements for naming and creating metadata files. To get started, see [Overview and Mappings for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md). 

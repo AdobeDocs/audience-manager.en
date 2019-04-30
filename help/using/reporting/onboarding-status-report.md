@@ -7,7 +7,7 @@ title: Onboarding Status Report  About
 uuid: 6ca8a90a-436b-4fce-adf1-48f3b96b3ed2
 ---
 
-# Onboarding Status Report: About{#onboarding-status-report-about}
+# Onboarding Status Report{#onboarding-status-report-about}
 
 The Onboarding Status Report checks success and failure rates for processing records in your inbound data source files. This report displays data in an interactive bar chart and provides summary metrics in tabular form. And, it includes an option that samples files for a fixed time interval and displays the most common errors for each error type. You can find this report in Analytics > Onboarding Status Report. This report is also available when you create an inbound data source.
 
@@ -89,12 +89,12 @@ create-onboarding-status-report.xml
 
 1. Go to **[!UICONTROL Analytics > Onboarding Status Report]**. Search for a data source or choose one from the list.
 
-1. Select a date range. Options include:
+2. Select a date range. Options include:
 
     * A set of fixed report intervals. 
     * Calendar widgets that let you create a custom date range.
 
-1. Click **[!UICONTROL OK]**.
+3. Click **[!UICONTROL OK]**.
 
 ## Onboarding Status Report Terms and Definitions {#report-terms-conditions}
 
@@ -112,8 +112,8 @@ A reference guide for the labels and terms used in this report.
    <td colname="col1"> <p> <b>Data Sync File Name</b> </p> </td> 
    <td colname="col2"> <p>Lists files that <span class="keyword"> Audience Manager</span> received and processed from you selected inbound data source. </p> <p>File processing will fail if the file name is formatted improperly. File name requirements vary depending on how you send this data to <span class="keyword"> Audience Manager</span>. Delivery methods include <span class="keyword"> Amazon S3</span> and FTP. For instructions on how to name your files, see: </p> <p> 
      <ul id="ul_9A32906A14CA41C5AED0E13930DB31BA"> 
-      <li id="li_A5A0E6ED711D4002B52092619F87C7D6"> <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md#concept_B3CAF442BFFE4823B76A5D0D91DF9942"> Amazon S3 Name Requirements for Inbound Data Files </a> </li> 
-      <li id="li_9590241AEC0C482D91C64DB760B32B0D"> <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md#concept_D34898442363415DBF75CEBFC2E86997"> FTP Name Requirements for Inbound Data Files </a> </li> 
+      <li id="li_A5A0E6ED711D4002B52092619F87C7D6"> <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md"> Amazon S3 Name Requirements for Inbound Data Files </a> </li> 
+      <li id="li_9590241AEC0C482D91C64DB760B32B0D"> <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md"> FTP Name Requirements for Inbound Data Files </a> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -176,7 +176,7 @@ A reference guide for the labels and terms used in this report.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Total Unused Signals</b> </p> </td> 
-   <td colname="col2"> <p>Total number of unused signals received in the report. This total is based on the total number of successfully stored records. </p> <p>See <a href="../reporting/dynamic-reports/unused-signals.md#concept_D3A6A3AD84AE47589699A13A8F971BE0"> Unused Signals Report</a> for more information. </p> </td> 
+   <td colname="col2"> <p>Total number of unused signals received in the report. This total is based on the total number of successfully stored records. </p> <p>See <a href="../reporting/dynamic-reports/unused-signals.md"> Unused Signals Report</a> for more information. </p> </td> 
   </tr> 
  </tbody> 
 </table>

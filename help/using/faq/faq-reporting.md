@@ -31,8 +31,8 @@ As a result, this data is sent to the reporting system late and won't show up in
 
 To help reduce computational demand, these reports omit statistically insignificant data from the results. Your segments are not missing, they're just dropped because they do not yield meaningful results or useful pools of users that you can target. See also:
 
-* [Reports and Data Sampling Methodologies](../reporting/report-sampling.md#concept_624BB1069F8A4CBD948ABD87105329E4) 
-* [Counting Unique Users in Overlap and General Reports](../reporting/unique-user-counts.md#concept_4D029582FBEA45B39352A05AF7E3CA37).
+* [Reports and Data Sampling Methodologies](../reporting/report-sampling.md) 
+* [Counting Unique Users in Overlap and General Reports](../reporting/unique-user-counts.md).
 
 <br>&nbsp;
 
@@ -59,7 +59,7 @@ Append a campaign-specific query string to the URL of the site section you want 
 
 **I have a segment consisting of just one trait. When I look at Reporting metrics, their counts don't match. Why is that?**
 
-See [Trait and Segment Population Data in Segment Builder](../features/segments/segment-builder-data.md#concept_05EE3010E67F446E8818351292EF7372).
+See [Trait and Segment Population Data in Segment Builder](../features/segments/segment-builder-data.md).
 
 <br>&nbsp;
 

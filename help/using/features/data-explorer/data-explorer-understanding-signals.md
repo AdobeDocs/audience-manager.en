@@ -14,7 +14,7 @@ Signals are the smallest unit of information within Audience Manager. They repre
 
 * `page = electronics`
 
-The [Signals Dashboard](../../features/data-explorer/data-explorer-signals-dashboard.md#concept_5E4B0FB02D8F4F3DAA5B6F8CF9A4E4C2) shows you multiple types of signal attributes that you can use to create new traits. Here's a detailed view of the available signal properties:
+The [Signals Dashboard](../../features/data-explorer/data-explorer-signals-dashboard.md) shows you multiple types of signal attributes that you can use to create new traits. Here's a detailed view of the available signal properties:
 
 * *Key-value pair* shows you the key-value pair of the signal received by [!DNL Audience Manager].
 * *Signal type* describes the category of each signal. Signals fall into one of the following categories:

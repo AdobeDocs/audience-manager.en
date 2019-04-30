@@ -15,7 +15,7 @@ Describes the required fields, syntax, and conventions used to name an outbound 
 
 >[!NOTE]
 >
->The style elements (`monospaced text`, *italics*, brackets `[ ]` `( )`, etc.) in this document indicate code elements and options. See [Style Conventions for Code and Text Elements](../../../reference/code-style-elements.md#reference_59D0BD0EDB424A65853460D91CCA35D9) for more information.
+>The style elements (`monospaced text`, *italics*, brackets `[ ]` `( )`, etc.) in this document indicate code elements and options. See [Style Conventions for Code and Text Elements](../../../reference/code-style-elements.md) for more information.
 
 ## Syntax and File Name Elements {#syntax-file-name}
 
@@ -149,7 +149,7 @@ Describes the required fields, syntax, and conventions used to organize informat
 
 >[!NOTE]
 >
->The style elements (`monospaced text`, *italics*, brackets `[ ]` `( )`, etc.) in this document indicate code elements and options. See [Style Conventions for Code and Text Elements](../../../reference/code-style-elements.md#reference_59D0BD0EDB424A65853460D91CCA35D9) for more information.
+>The style elements (`monospaced text`, *italics*, brackets `[ ]` `( )`, etc.) in this document indicate code elements and options. See [Style Conventions for Code and Text Elements](../../../reference/code-style-elements.md) for more information.
 
 ### Syntax
 

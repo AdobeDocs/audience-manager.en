@@ -11,6 +11,10 @@ uuid: 0339eb6c-6355-44a3-9c46-f159485449d1
 
 Returns data on how many unique users are shared between your segments.
 
+>[!NOTE]
+>
+>The Overlap reports in Audience Manager adhere to RBAC principles. You can only see segments from data sources that you have access to based on the [RBAC User Group](/help/using/features/administration/administration-overview.md) that you belong to.
+
 <!-- 
 
 c_segment_segment_overlap.xml
@@ -61,9 +65,9 @@ The popup for the [!UICONTROL Segment-to-Segment Overlap] report contains the me
 
 >[!MORE_LIKE_THIS]
 >
->* [Filter Report Results With the Data Sliders](../../reporting/dynamic-reports/data-sliders.md#concept_00E60A0BDB274B07A1DD342EE5554C37)
+>* [Filter Report Results With the Data Sliders](../../reporting/dynamic-reports/data-sliders.md)
 >* [Shapes, Colors, and Sizes Used in Interactive Reports](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
 >* [Report Icons and Tools Explained](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
->* [Overlap Reports: Update Schedule and Minimum Segment Size](../../reporting/dynamic-reports/overlap-minimum-segment-size.md#concept_6C439B845E684C40A726C546F9AF0AFD)
->* [Data Sampling and Error Rates in Selected Audience Manager Reports...](../../reporting/report-sampling.md#concept_624BB1069F8A4CBD948ABD87105329E4)
->* [CSV Files for Overlap Reports](../../reporting/dynamic-reports/overlap-csv-files.md#concept_440C76BFFAC74669972CE538F8B5040F)
+>* [Overlap Reports: Update Schedule and Minimum Segment Size](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
+>* [Data Sampling and Error Rates in Selected Audience Manager Reports...](../../reporting/report-sampling.md)
+>* [CSV Files for Overlap Reports](../../reporting/dynamic-reports/overlap-csv-files.md)

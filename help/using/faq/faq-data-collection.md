@@ -29,15 +29,20 @@ Traits onboarded via [!UICONTROL Inbound] are populated by [!UICONTROL Inbound] 
 
 <br>&nbsp;
 
-**Can you provide me with a list of IP addresses I can white-list for dpm.demdex.net?**
+**Can you provide me with a list of IP addresses I can whitelist for dpm.demdex.net?**
 
 Unfortunately, we cannot. These IPs are assigned dynamically, by geographic region, through [!DNL Amazon Web Services]. As a result, [!DNL Audience Manager] does not control the range of IPs that can be assigned to this address.
 
 <br>&nbsp;
 
-**Can you provide me with an IP address I can whitelist for your outbound FTP server?**
+**Can you provide me with an IP address I can whitelist for your inbound and outbound FTP server?**
 
-Yes. The egress FTP IP address is 52.44.29.204.
+Yes, see below.
+
+Item| Address |
+---------|----------|
+ ftp-in.demdex.com | 54.225.117.163 |
+ ftp-out.demdex.com | 23.23.188.76 |
 
 <br>&nbsp;
 
@@ -122,9 +127,9 @@ Yes, [!DNL Audience Manager] can provide you with data collected for users we've
 
 <br>&nbsp;
 
-**I want to collect data on one site and target users via a DFP on a different site. Do I need to deploy code on the other property if I don't want to collect data from that location?**
+**I want to collect data on one site and target users via DFP on a different site. Do I need to deploy code on the other property if I don't want to collect data from that location?**
 
-Yes. [!DNL Audience Manager] [!UICONTROL DIL] code must be on the other site's page to target ads to a user. To target a user in the ad server, we need to send segment information to DFP before the creative loads. To do this, [!DNL Audience Management] code must be on the page where you want to target the user. The code identifies the user and sends that information to DFP. If [!DNL Audience Manager] code is absent from the target page, then we cannot send segments to DFP and target the user based on that data. Without [!UICONTROL DIL], [!DNL Audience Manager] cannot get segment information to DFP.
+No. If data collection on the second site is not a requirement, you don't need to deploy DIL there. As long as you have access to the inventory on the second site via DFP, you can use the data collection from the initial site and target via DFP.
 
 <br>&nbsp;
 
@@ -174,6 +179,6 @@ See also, the [Index of Audience Manager IDs](../reference/ids-in-aam.md).
 
 <br>&nbsp;
 
-**How long does it take for user profiles to sync across [regions](../api/dcs-intro/dcs-api-reference/dcs-regions.md#concept_01C1E017A6694D1EAF9BF65BFFA54091)?**
+**How long does it take for user profiles to sync across [regions](../api/dcs-intro/dcs-api-reference/dcs-regions.md)?**
 
 It usually takes up to 24 hours for a user profile to sync across regions. However, in rare cases, the process can take up to 48 hours.

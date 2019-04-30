@@ -31,7 +31,7 @@ Describes the required and optional steps that create a segment in [!UICONTROL S
     * Get live [trait recommendations](trait-recommendations.md) as you build your segment.
     * Click and drag traits to create separate groups.
     * Hover between groups to set relationships with Boolean [!UICONTROL AND], [!UICONTROL OR], [!UICONTROL AND NOT] values.
-    * Hover over the clock icon to add [recency and frequency](../../features/segments/recency-and-frequency.md#concept_957D9E1977774D28A98ACEE6035E7B37) rules to the trait.
+    * Hover over the clock icon to add [recency and frequency](../../features/segments/recency-and-frequency.md) rules to the trait.
     * View segment population data as you add or remove traits. Click **[!UICONTROL Calculate Estimates]** to see (or refresh) the estimated population numbers. Read more about [segment population data](../../features/segments/segment-builder-data.md#segment-populations) in the Segment Builder.
     * Click **[!UICONTROL Save]** when done.
 1. *(Optional)* Map a segment to a destination in the [Destination Mapping](../../features/segments/segment-builder.md#segment-builder-controls-destinations) section:
@@ -98,6 +98,17 @@ In [!UICONTROL Segment Builder], the [!UICONTROL Traits] section lets you manage
 |Search|Helps you find traits to add to a segment.|
 |Recommendations|Get live recommendations for similar traits to add to the segment rule. Read more in [Trait Recommendations](trait-recommendations.md).|
 |Real and Estimated Segment Size Data|See [Trait and Segment Population Data in Segment Builder](segment-builder-data.md).|
+
+## Remove Traits from a Segment {#remove-traits}
+
+Managing the traits in your segments is an important part of keeping segments viable. Follow these steps if you need to remove traits from a segment.
+
+To remove traits from a segment:
+
+1. Go to **Audience Data > Segments**. Scroll through the list or use the search feature to find the segment you want to work with.
+2. Click the segment name to open the segment details screen.
+3. Click **Edit** to open Segment Builder and then click **Traits** to open the traits panel.
+4. Hover over the trait you want to delete and then click the X. This action immediately removes the trait from your segment.
 
 ## Segment Builder Controls: Destinations Mappings Section {#segment-builder-controls-destinations}
 

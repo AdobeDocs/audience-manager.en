@@ -37,7 +37,7 @@ For an `HTTP` real-time server-to-server destination, contact your [!DNL Audienc
 > Accept: */*
 > Content-Type: application/json
 > Content-Length: 20
-> X-Signature: wxa2ByMWhhP328EvHQsVlOD5jTc=
+> X-Signature: +wFdR/afZNoVqtGl8/e1KJ4ykPU=
 POST message content
 ```
 
@@ -75,7 +75,7 @@ mac.init(signingKey);
 byte[] result = mac.doFinal(postData.getBytes());
   
 String signature = Base64.encodeBase64String(result).trim(); 
-// signature = wxa2ByMWhhP328EvHQsVlOD5jTc=
+// signature = +wFdR/afZNoVqtGl8/e1KJ4ykPU=
 ```
 
 The RFC for the [!DNL HMAC] hash implementation is [https://www.ietf.org/rfc/rfc2104.txt](https://www.ietf.org/rfc/rfc2104.txt). A test site: [https://asecuritysite.com/encryption/hmac](https://asecuritysite.com/encryption/hmac) (note that you have to [convert](https://tomeko.net/online_tools/hex_to_base64.php?lang=en) the hex encoding to base64).

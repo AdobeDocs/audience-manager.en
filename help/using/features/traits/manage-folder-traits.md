@@ -26,7 +26,7 @@ A [!UICONTROL folder trait] is created automatically when you create a new folde
     
     ![](assets/folder_traits_create.PNG)
     
-1. Click the + icon to create the folder. Note that you can create a maximum of 2.000 folders in your taxonomy. See the [usage limits](../../features/administration/usage-limits.md#concept_54772E0557C74849812CE54ACB4B0511) documentation for more information.
+1. Click the + icon to create the folder. Note that you can create a maximum of 2.000 folders in your taxonomy. See the [usage limits](../../features/administration/usage-limits.md) documentation for more information.
 1. Name the folder and click **Save**. For example, a folder named Electronics will have a folder trait named 'Electronics Folder Trait'. You can view and select the new folder trait in the traits dashboard.
 1. The new folder trait is automatically assigned to the [!DNL Audience Manager] generated data source. Your users with appropriate [!UICONTROL Role-Based Access Control ([!DNL RBAC])] permissions can change the data source in the edit folder trait workflow. See [Edit a Folder Trait](../../features/traits/manage-folder-traits.md#edit-folder-trait).
 
@@ -62,4 +62,4 @@ Delete a folder trait by deleting the storage folder that the trait belongs to.
 
 >[!NOTE]
 >
->You cannot delete a folder trait, if it is used in a segment expression. Navigate to the [trait view](../../features/traits/trait-details-page.md#concept_1117822DC9D94E25888A9D41DE01B1D9) section to see which segments use the folder trait. Then, click on the segment name to open the [segment summary view](../../features/segments/segment-summary-view.md#concept_D0C06175AB1C4220A407187D85FE6AFA), which allows you to remove traits from segment expressions.
+>You cannot delete a folder trait, if it is used in a segment expression. Navigate to the [trait view](../../features/traits/trait-details-page.md) section to see which segments use the folder trait. Then, click on the segment name to open the [segment summary view](../../features/segments/segment-summary-view.md), which allows you to remove traits from segment expressions.

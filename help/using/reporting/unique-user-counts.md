@@ -22,7 +22,7 @@ c_unique_user_counts.xml
 The overlap reports count users as unique when they qualify for a trait:
 
 * During the selected time interval for the report.
-* That has a [time-to-live](../features/traits/segment-ttl-explained.md#concept_2F85D4E738754EF387328A9754E125B3) value longer than the selected time interval for the report.
+* That has a [time-to-live](../features/traits/segment-ttl-explained.md) value longer than the selected time interval for the report.
 * If they're seen as active in our system (i.e, qualified for any other trait, had an ID sync, etc.) within the past 60 days.
 
 ## General Report: Unique User Count
