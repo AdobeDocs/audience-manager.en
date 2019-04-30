@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Adobe Audience Manager Technology Partners
 ---
 
-# Adobe Audience Manager Technology Partners
+# Adobe Audience Manager Activation Partners
 
 This page includes current Audience Manager [server-to-server integrations](/help/using/features/destinations/manage-destinations.md#add-edit-segments) only.  For more information on an integration refer to its [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) listing (where available) or contact your Adobe Consultant or Customer Care.
 
