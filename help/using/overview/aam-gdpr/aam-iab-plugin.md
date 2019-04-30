@@ -49,7 +49,7 @@ This is easiest done by using [Adobe Launch](https://docs.adobelaunch.com/) to i
 
 When visiting a web property, your users can provide their choices regarding how their data is to be used by the publisher and by the third-party vendors that the publisher works with. Users provide their choices in the form of *standard purposes* and permissions to *third-party vendors* registered in the global vendor list. The image below represents an example of a CMP dialogue, displayed to a first-time visitor of a website. Keep in mind that this dialogue can look very different, based on customer implementation.
 
-![](assets/cmp.png)
+![CMP dialogue](/help/using/overview/aam-gdpr/assets/cmp.png)
 
 The standard purposes in the IAB framework are:
 
@@ -100,7 +100,7 @@ By implementing the IAB TCF, you are not required to maintain custom code for co
 6. Audience Manager responds by setting a [demdex cookie](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_am.html) on the browser. Audience Manager also initiates and honors 3rd party ID syncs.
 7. Alternatively, if the IAB TCF consent string passed in step 5 does not contain all the needed permissions, Audience Manager does not collect, process, or activate data and does not honor or initiate ID syncs.
 
-![](assets/publisher-use-case.png)
+![Publisher Use Case](assets/publisher-use-case.png)
 
 ## Advertiser Use Case {#advertiser-use-case}
 
@@ -124,7 +124,7 @@ The use case is described in the image and in the steps below. Start from the le
 1. If the consent string is present and it contains the required permissions, Audience Manager stores the data passed in macro variables in pixel calls.
 1. If the consent string is missing or lacks the required permissions, Audience Manager drops the data passed in macro variables in pixel calls.
 
-![](assets/advertiser-use-case.png)
+![Advertiser Use Case](assets/advertiser-use-case.png)
 
 ## Activation partners that support IAB TCF {#aam-activation-partners}
 
