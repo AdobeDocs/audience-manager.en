@@ -8,7 +8,7 @@ title: Adobe Audience Manager Technology Partners
 
 # Adobe Audience Manager Technology Partners
 
-This page includes current server-to-server integrations only.  For more information on an integration refer to its Adobe Exchange listing (where available), your Adobe Consultant or Customer Care.	
+This page includes current server-to-server integrations only. For more information on an integration refer to its Adobe Exchange listing (where available), your Adobe Consultant or Customer Care.	
 
 | Integration                                       | Updated    | Unsegment | Receiving IAB TCF consent signals | ICDS | Mobile Device IDs |
 |---------------------------------------------------|------------|-----------|-----------------------------------|------|-------------------|
