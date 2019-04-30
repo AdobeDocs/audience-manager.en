@@ -8,7 +8,9 @@ uuid: 4f324404-0c24-4e3b-96c1-7c1b28a4536d
 
 # Create Traits from Signals
 
-Create new traits from all signals, including those that are already used in traits, and capture future audiences that qualify after trait creation.
+Create new traits from all signals, including those that are already used in traits, and capture future audiences that qualify after trait creation. Watch the video for a quick demonstration or read on for detailed information:
+
+[!VIDEO](https://video.tv.adobe.com/v/25169/?quality=12)
 
 ## Create Traits from Signal Dashboard {#create-traits-from-signal-dashboard}
 
@@ -33,7 +35,7 @@ Create traits based on used or unused signals that are not shown in the [!UICONT
 Search for specific signals and create rule-based or onboarded traits based on the results. Here's how to do this:
 
 1. Go to **[!UICONTROL Audience Data > Signals > Search]** and run a search based on the key-value pairs that you are looking for, or click **[!UICONTROL Search]** without entering any key-value pair to display all results.
-1. Identify the signal(s) that you want to use in the trait, in the results list.
+2. Identify the signal(s) that you want to use in the trait, in the results list.
     * To create a trait from one signal, click the corresponding **[!UICONTROL Create Rule-Based Trait]** or **[!UICONTROL Create Onboarded Trait]** link.
     * To create a trait from multiple signals, click the corresponding check box of each signal, then click **[!UICONTROL Create Trait from Multiple Signals]**.
 
@@ -45,4 +47,4 @@ Search for specific signals and create rule-based or onboarded traits based on t
    >
    >![](assets/signals-used-traits.png)
 
-1. Use the **[Trait Builder](../../features/traits/about-trait-builder.md)** to create your new traits.
+3. Use the **[Trait Builder](../../features/traits/about-trait-builder.md)** to create your new traits.
