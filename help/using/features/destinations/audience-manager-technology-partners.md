@@ -1,6 +1,6 @@
 ---
-description: dfs
-seo-description: testing
+description: This page includes current server-to-server integrations only.  For more information on an integration refer to its Adobe Exchange listing (where available) or contact your Adobe Consultant or Customer Care.
+seo-description: This page includes current server-to-server integrations only.  For more information on an integration refer to its Adobe Exchange listing (where available) or contact your Adobe Consultant or Customer Care.
 seo-title: Adobe Audience Manager Technology Partners
 solution: Audience Manager
 title: Adobe Audience Manager Technology Partners
@@ -8,7 +8,7 @@ title: Adobe Audience Manager Technology Partners
 
 # Adobe Audience Manager Technology Partners
 
-testing stuff
+This page includes current server-to-server integrations only.  For more information on an integration refer to its [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) listing (where available) or contact your Adobe Consultant or Customer Care.
 
 | Integration                                       | Updated    | Unsegment | Receiving IAB TCF consent signals | ICDS | Mobile Device IDs |
 |---------------------------------------------------|------------|-----------|-----------------------------------|------|-------------------|
@@ -46,8 +46,8 @@ testing stuff
 | Criteo                                            | 27/02/2017 | No        | Yes                               | No   | Yes               |
 | Crosswise                                         | 27/02/2017 | Yes       | No                                | No   | No                |
 | D.A.C. AudienceOne                                | 27/02/2017 | Yes       | No                                | No   | No                |
-| DataXu                                            | 11/20/207  | No        | No                                | No   | Yes               |
-| Digilant                                          | 02/03/2017 | Maybe          | No                                | No   | No                |
+| DataXu                                            | 11/20/2017  | No        | No                                | No   | Yes               |
+| Digilant                                          | 02/03/2017 |           | No                                | No   | No                |
 | DistrictM                                         | 02/03/2017 | Yes       | No                                | No   | No                |
 | DoubleVerify                                      | 06/09/2017 | Yes       | No                                | No   | No                |
 | Drawbridge                                        | 02/03/2017 | No        | No                                | No   | Yes               |
