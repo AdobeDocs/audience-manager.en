@@ -83,7 +83,7 @@ These server systems handle privacy and user opt-out requests. User cookie infor
 
 ## Inbound Server-to-Server {#inbound-outbound-server}
 
-These are systems that receive data sent in by various server-to-server integrations with our clients. See the documentation on [sending audience data](../../integration/sending-audience-data/real-time-data-integration/real-time-data-integration.md) for more information.
+These are systems that receive data sent in by various server-to-server integrations with our clients. See the documentation on [sending audience data](/help/using/integration/sending-audience-data/real-time-data-integration/real-time-tech-specs.md) for more information.
 
 ## Log Files {#log-files}
 

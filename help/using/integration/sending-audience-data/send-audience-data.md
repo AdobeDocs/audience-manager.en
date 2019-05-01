@@ -9,7 +9,7 @@ title: Sending Audience Data
 
 Send audience data from other sources to Audience Manager.
 
-* [Real-Time Inbound Data Integration](/help/using/integration/sending-audience-data/real-time-data-integration/real-time-data-transfer-explained.md)
+* [Real-Time Inbound Data Integration](/help/using/integration/sending-audience-data/real-time-data-integration/real-time-tech-specs.md)
 
   Information about the Real-Time Audience Manager integration.
 
