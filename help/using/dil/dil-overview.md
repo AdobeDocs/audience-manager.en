@@ -48,7 +48,7 @@ See also:
 ## Related Links
 
 * [DIL Use Cases and Code Samples](/help/using/dil/dil-use-cases.md)
-* [Class-level DIL Methods](/help/using/dil/dil-class-overview/dil-class-overview.md)
+* [Class-level DIL Methods](/help/using/dil/dil-class-overview/dil-start.md)
 * [Instance-level DIL Methods](/help/using/dil/dil-instance-methods.md)
 * [DIL Modules](/help/using/dil/dil-modules.md)
 * [DIL Tools](/help/using/dil/dil-tools.md)
