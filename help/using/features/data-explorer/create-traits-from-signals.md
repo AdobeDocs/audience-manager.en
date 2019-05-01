@@ -10,7 +10,7 @@ uuid: 4f324404-0c24-4e3b-96c1-7c1b28a4536d
 
 Create new traits from all signals, including those that are already used in traits, and capture future audiences that qualify after trait creation. Watch the video for a quick demonstration or read on for detailed information:
 
-[!VIDEO](https://video.tv.adobe.com/v/25169/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25169/?quality=12)
 
 ## Create Traits from Signal Dashboard {#create-traits-from-signal-dashboard}
 

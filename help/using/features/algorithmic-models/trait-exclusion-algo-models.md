@@ -40,7 +40,7 @@ Use the [Build a model](../../features/algorithmic-models/create-model.md#build-
 
 If you prefer video tutorials, watch our video demonstration for Trait Exclusion: 
 
-[!VIDEO](https://video.tv.adobe.com/v/25569/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25569/?quality=12)
 
 ## Important Aspects & Limitations {#important-aspects-and-limitations}
 
