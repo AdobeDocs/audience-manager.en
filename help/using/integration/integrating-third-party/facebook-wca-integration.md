@@ -15,7 +15,7 @@ This page illustrates the process of creating Facebook Website Custom Audiences 
 [Facebook Website Custom Audiences (WCA)](https://www.facebook.com/business/help/449542958510885) allows you to create a list of people who have visited certain pages or taken particular actions on your website. Audience Manager enables activation in WCA using URL destinations, with which you can configure a custom pixel-based integration to send web-based audiences to Facebook for targeting.
 
 ![Facebook WCA Integration](assets/facebook-wca-integration.png)
-
+ 
 >[!IMPORTANT]
 >
 > This capability requires that you select the Website audience for social platforms option in [URL destinations](/help/using/features/destinations/manage-destinations.md#configure-url-destination). Social platforms require that referrer information be unmasked when sent to their platform. Please be aware that this means that the destination platform/partner will be able to see information in your referrer URL.
