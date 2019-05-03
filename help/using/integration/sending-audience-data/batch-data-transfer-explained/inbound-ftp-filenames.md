@@ -25,6 +25,8 @@ Describes the required fields, syntax, naming conventions and file sizes you nee
 
 `ftp_dpm_DPID[_DPID_TARGET_DATA_OWNER]_TIMESTAMP(.sync|.overwrite)[.SPLIT_NUMBER][.gz]`
 
+For other accepted file name formats, see [Custom Partner Integrations](/help/using/integration/sending-audience-data/custom-partner-integrations.md).
+
 >[!NOTE] {importance="high"}
 >
 >[!DNL Audience Manager] only processes [!DNL ASCII] and [!DNL UTF-8] encoded files.

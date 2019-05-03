@@ -19,6 +19,8 @@ Fields in the inbound data file must appear in the order shown below. In this ex
 <user ID><TAB><trait ID>,<trait ID>,<trait ID>,...
 ```
 
+For other accepted file content formats, see [Custom Partner Integrations](/help/using/integration/sending-audience-data/custom-partner-integrations.md).
+
 >[!NOTE]
 >
 >We have a limit of 200 lines we can process for each user ID sent in the inbound data file. For example, if you send 300 lines for a user ID, the first 200 lines are kept and the additional 100 lines are discarded. In the example below, you're good because you are sending 3 lines each for user ID 1 and user ID 2. We don't enforce a limit on the number of traits or key-value pairs you include in a line.
