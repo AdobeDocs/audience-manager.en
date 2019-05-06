@@ -16,6 +16,7 @@ This page lists custom integrations between Audience Manager and data partners.
 
 Audience Manager ingests cookie and mobile ID data from the Oracle Data Cloud for Audience Marketplace via inbound data files. The custom integration specifications described below refer only to inbound data files that contain mobile IDs (IDFA and Android Device IDs).
 
+<br>&nbsp;
 
 **Integration specifics**
 
@@ -23,6 +24,7 @@ Inbound Data Files received from the Oracle Data Cloud differ from the standard 
 
 The elements highlighted below are required, in addition to the standard implementation fields for inbound data files. For descriptions of all other standard fields and file name elements, see File Name Syntax and File Content Syntax in the two pages linked above.
 
+<br>&nbsp;
 
 **File naming**
 
@@ -32,6 +34,7 @@ ODC file names are structured as:
 
 The `odc` file name element identifies the file as being imported from the Oracle Data Cloud and instructs the Audience Manager inbound file validator to process it as such.
 
+<br>&nbsp;
 
 **File contents**
 
@@ -48,6 +51,7 @@ The `ID type` can be:
 >
 >Do not send IDFA and Android Device IDs in the same inbound data file.
 
+<br>&nbsp;
 
 **Sample ODC inbound file**
 
