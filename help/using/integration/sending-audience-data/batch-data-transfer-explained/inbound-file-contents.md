@@ -99,9 +99,8 @@ The following table describes the prefixes that identify trait names or IDs in a
       <li> <code> ic == "789" </code> </li>
      </ul> </p> <p>These traits are associated with the <code> ic </code> key. This lets you create a simpler trait list in the data file. And, you do not need to include the <code> ic </code> prefix. As a result, the contents of your data file could look like this: </p> <p>
      <code> 
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-      <i>user ID</i>
-      &nbsp;&lt;TAB&gt;&nbsp;123,456,789 
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      <i>user ID</i>&nbsp;&lt;TAB&gt;&nbsp;123,456,789 
      </code> </p> </td> 
   </tr> 
   <tr> 
