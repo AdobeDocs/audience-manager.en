@@ -35,7 +35,7 @@ The tables list the current limits by item type. You cannot create new traits, s
 | Trait Type    | Maximum Limit   |
 | -------------------------- | ------------------------------------- |
 | Total Traits               | 100,000   |
-| Total Trait Qualifications | 100,000. For more information on trait qualification, see the  Trait Qualifications Reference. |
+| Total Trait Qualifications | 150,000. For more information on trait qualification, see Trait Qualification Limit in [Trait Qualifications Reference](/help/using/features/traits/trait-qualification-reference.md#trait-qualification-limit). |
 | Algorithmic                | 50       |
 | Rule Based                 | 100,000  |
 | Onboarded                  | 100,000  |
@@ -61,9 +61,9 @@ The tables list the current limits by item type. You cannot create new traits, s
 
 | Item  | Maximum Limit |
 | -------- | ----- |
-| Total Algorithmic Models  | 20 |
-| Algorithmic Models maximum audience size | 25,000,000  Note that this limit cannot be increased. You can decrease audience sizes by selecting fewer data sources for the model or by selecting a shorter look-back window. |
-| Maximum number of excluded traits for a model | 500 |
+| Active Algorithmic Models  | 20. Audience Manager only counts *active* algorithmic models against the limit.|
+| Algorithmic Models maximum audience size | 25,000,000.  Note that this limit cannot be increased. You can decrease audience sizes by selecting fewer data sources for the model or by selecting a shorter look-back window. |
+| Maximum number of excluded traits for a model | 500. See [Trait Exclusion in Algorithmic Modeling](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md). |
 
 ### Folder Limits
 
