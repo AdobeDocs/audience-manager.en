@@ -18,13 +18,9 @@ The table below lists the [ID mapping](../../integration/sending-audience-data/b
 
 |ID Mapping | Maximum Limit |
 |-----------|-------------- |
-|Device ID to cross-device ID | 100 device IDs to 1 cross-device ID |
-|Cross-device ID to device ID | 10 cross-device IDs to 1 device ID |
-|Device ID to device ID | 1000 device IDs to 1 device ID |
-
->[!NOTE]
->
-> Device IDs can be cookie/browser IDs or device advertising IDs ([!DNL IDFA], [!DNL GAID], etc).
+|Device Advertising ID (DAID) to Cross-device ID (CRM ID) | 100 Device Advertising IDs (DAIDs) to 1 Cross-device ID (CRM ID) |
+|Cross-device ID (CRM ID) to Device Advertising ID (DAID) | 10 Cross-device IDs (CRM IDs) to 1 Device Advertising ID (DAID) |
+|Cookie/browser ID to cookie/browser ID | 1000 cookie/browser  IDs to 1 cookie/browser ID |
 
 ## Item Limits {#item-limits}
 
