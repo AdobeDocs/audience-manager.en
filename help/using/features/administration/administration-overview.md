@@ -9,13 +9,15 @@ topic: DIL API
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
 ---
 
-# Administration {#administration}
+# Administration (RBAC Controls) {#administration}
+
+![](assets/rbac-controls.png)
 
 The options under the [!UICONTROL Administration] menu let you create Audience Manager users and assign them to groups. You can also view limits (traits, segments, destinations, and [!UICONTROL AlgoModels]).
 
 Enterprise customers using [!DNL Audience Manager] need one data management platform for all of their data, but must be able to control the visibility of the different data elements to specific business units. You can accomplish this using group permissions, also referred to as [!UICONTROL Role-Based Access Control] ([!UICONTROL RBAC]).
 
-[!DNL Audience Manager] uses groups to assign permissions. Permissions are not assigned at the user level. Group permissions are tied to objects (traits, segments, etc.) and to actions you can perform on those objects (edit, view, etc.).
+[!DNL Audience Manager] uses groups to assign permissions. Permissions are not assigned at the user level. Group permissions are tied to objects (traits, segments, etc.) and to actions you can perform on those objects (edit, view, etc.). These controls are also available through the Audience Manager REST APIs. See [User Management](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-user.md), [Group Management](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-group.md), and [Permissions Management](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-permissions.md) API methods.
 
 ## Create Users {#create-users}
 
@@ -68,6 +70,8 @@ Simplify group rights management with [!UICONTROL Wild Card Permissions].
 
 <!-- c_wildcard_permissions.xml -->
 
-[!UICONTROL Wild Card Permissions] give group members automatic access to each data source associated to a segment, destination, or trait. By comparison, regular permissions only lets you assign specific data sources to the one of these objects. And, when you add new data sources, group members don't get access to those new sources.
+[!UICONTROL Wild Card Permissions] give group members automatic access to each data source associated to a segment, destination, or trait. By comparison, regular permissions only let you assign specific data sources to the one of these objects. And, when you add new data sources, group members don't get access to those new sources.
 
 You have to open the group permissions and assign those new data sources to the group. [!UICONTROL Wild Card Permissions] let you avoid this manual data source update process. Groups with [!UICONTROL Wild Card Permissions] get access to new data sources without explicit authorization.
+
+![](assets/wild-card.png) 
