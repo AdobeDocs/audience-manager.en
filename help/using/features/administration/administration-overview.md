@@ -74,4 +74,4 @@ Simplify group rights management with [!UICONTROL Wild Card Permissions].
 
 You have to open the group permissions and assign those new data sources to the group. [!UICONTROL Wild Card Permissions] let you avoid this manual data source update process. Groups with [!UICONTROL Wild Card Permissions] get access to new data sources without explicit authorization.
 
-![](assets/wild-card.png)
+![](assets/wild-card.png) 
