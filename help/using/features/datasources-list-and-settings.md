@@ -150,6 +150,10 @@ Select the **[!UICONTROL Inbound]** check box when your data source is designed 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Share associated visitor or device IDs across the Audience Manager Platform</span></b> </p> </td> 
    <td colname="col2"> <p>Your data source contains visitor or device IDs that can be shared across other <span class="keyword"> Experience Cloud</span> solutions. </p> </td> 
+  </tr>
+  <tr> 
+   <td colname="col1"> <p> <b><span class="uicontrol"> Data retention for inactive Customer IDs</span></b> </p> </td> 
+   <td colname="col2"> <p>Allows you to set the data retention period for inactive Customer IDs. This determines how long Audience Manager keeps Customer IDs in our database after they were last seen on the Audience Manager platform.</p> <p>The default value is 24 months (720 days). The minimum value you can set is 1 month and the maximum value is 5 years. Note that we count all months as 30-days.</p> <p>Audience Manager runs a process that deletes inactive Customer IDs once a week, in accordance with the data retention you set for inactive Customer IDs.</p> <p>Audience Manager runs a process that deletes inactive Customer IDs once a week, in accordance with the data retention you set for inactive Customer IDs.</p> <p><b>Note</b>: This control is available only for cross-device data sources. See also, <a href="../features/profile-merge-rules/merge-rules-start.md#settings"> Create a Cross-Device Data Source </a>.</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Unique Trait Integration Codes</span></b> </p> </td> 
