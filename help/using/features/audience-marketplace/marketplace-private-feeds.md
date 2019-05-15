@@ -13,13 +13,6 @@ A private data feed is an option that lets providers limit buyer access to their
 
 <!-- c_marketplace_privatefeed.xml -->
 
-Contents:
-
-<ul class="simplelist"> 
- <li> <a href="../../features/audience-marketplace/marketplace-private-feeds.md#private-data-feeds-providers"> Private Data Feeds for Providers </a> </li> 
- <li> <a href="../../features/audience-marketplace/marketplace-private-feeds.md#private-data-feeds-for-buyers"> Private Data Feeds for Buyers </a> </li> 
-</ul>
-
 ## Private Data Feeds for Providers {#private-data-feeds-providers}
 
 As a provider, your data feeds can be public or private. A private data feed lets you limit buyer access to your data, including the name of the data seller. You may want to create a private data feed to offer special deals, discounts, or when privacy and access control are important. With a private data feed, you get to review and approve buyer requests. After you approve a request, the feed looks just like a public data feed to the buyer. You can view and manage all your feeds in **[!UICONTROL Audience Marketplace > My Shared Data]**. As shown below, this type of feed is marked "Private" in the status column.
