@@ -52,7 +52,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
         + [Private Data Feeds](features/audience-marketplace/marketplace-private-feeds.md)
     + [Customer Data Feeds](features/cdf-files.md)
     + Data Explorer{#data-explorer}
-        + [Overview, Benefits, and Use Cases](features/data-explorer/data-explorer-overview.md)
+        + [Data Explorer - Overview, Benefits, and Use Cases](features/data-explorer/data-explorer-overview.md)
         + [Understanding Signals](features/data-explorer/data-explorer-understanding-signals.md)
         + [Signals Dashboard](features/data-explorer/data-explorer-signals-dashboard.md)
         + Signals Search{#signals-search}
