@@ -54,6 +54,11 @@ The regional [!UICONTROL DCS] server host name is required to make calls to the 
    <td colname="col1"> <p>ID 11 </p> </td> 
    <td colname="col2"> <p>Asia (Tokyo, Japan) </p> </td> 
    <td colname="col3"> <p> <code> tyo3.demdex.net</code> </p> </td> 
+  </tr>
+  <tr> 
+   <td colname="col1"> <p>ID 12 </p> </td> 
+   <td colname="col2"> <p>India </p> </td> 
+   <td colname="col3"> <p> <code> ind1.demdex.net</code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
