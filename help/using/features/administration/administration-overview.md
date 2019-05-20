@@ -1,7 +1,7 @@
 ---
-description: The options under the Administration menu let you create Audience Manager users and assign them to groups. You can also view limits (traits, segments, destinations, and AlgoModell).
+description: The options under the Administration menu let you create Audience Manager users and assign them to groups. You can also view limits (traits, segments, destinations, and models).
 keywords: rbac;RBAC;role based;role-based;role-based access controls
-seo-description: The options under the Administration menu let you create Audience Manager users and assign them to groups. You can also view limits (traits, segments, destinations, and AlgoModell).
+seo-description: The options under the Administration menu let you create Audience Manager users and assign them to groups. You can also view limits (traits, segments, destinations, and models).
 seo-title: Administration
 solution: Audience Manager
 title: Administration
@@ -13,7 +13,7 @@ uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
 
 ![](assets/rbac-controls.png)
 
-The options under the [!UICONTROL Administration] menu let you create Audience Manager users and assign them to groups. You can also view limits (traits, segments, destinations, and [!UICONTROL AlgoModels]).
+The options under the [!UICONTROL Administration] menu let you create Audience Manager users and assign them to groups. You can also view limits (traits, segments, destinations, and models).
 
 Enterprise customers using [!DNL Audience Manager] need one data management platform for all of their data, but must be able to control the visibility of the different data elements to specific business units. You can accomplish this using group permissions, also referred to as [!UICONTROL Role-Based Access Control] ([!UICONTROL RBAC]).
 
