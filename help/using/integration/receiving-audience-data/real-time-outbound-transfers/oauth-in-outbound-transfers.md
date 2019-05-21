@@ -61,7 +61,7 @@ Content-Type: application/json; charset=utf-8
 Content-Encoding: gzip
 Content-Length: 121
   
-{"token_type":"bearer","access_token":"glIbBVohK8d86alDEnllPWi6IpjZvJC6kwBRuuawts6YMkw4tZkt84rEZYU2ZKHCQP3TT7PnzCQPI0yY"}
+{"token_type":"Bearer","access_token":"glIbBVohK8d86alDEnllPWi6IpjZvJC6kwBRuuawts6YMkw4tZkt84rEZYU2ZKHCQP3TT7PnzCQPI0yY"}
 ```
 
 ### Endpoint 2 used by IRIS to publish segments using the bearer token
