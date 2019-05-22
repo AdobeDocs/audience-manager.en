@@ -1,6 +1,6 @@
 ---
 description: Build and manage the traits or segments used in algorithmic modeling, also referred to as look-alike modeling. Model features are located in Audience Data > Models.
-keywords: RBAC;rbac
+keywords: relative weight
 seo-description: Build and manage the traits or segments used in algorithmic modeling, also referred to as look-alike modeling. Model features are located in Audience Data > Models.
 seo-title: About Algorithmic Models
 solution: Audience Manager
