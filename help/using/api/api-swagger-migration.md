@@ -7,7 +7,7 @@ title: Audience Manager API Code Migration
 uuid: 93cc28c4-4b91-4c79-93d5-ece9bb4cc9d5
 ---
 
-# Audience Manager DNL API Code Migration {#audience-manager-api-code-migration}
+# Audience Manager API Code Migration {#audience-manager-api-code-migration}
 
 Here at Audience Manager, we're engineers, developers, and code ninjas just like you. And, like you, we want to work with reliable, accurate [!DNL API] documentation. As a result, we're re-writing our [!DNL API] content in [!DNL Swagger] and moving it to a new location. These changes are designed to help improve your experience with the Audience Manager [!DNL API] code.
 
@@ -24,7 +24,11 @@ The [Adobe Audience Manager API Docs](https://bank.demdex.com/portal/swagger/ind
    <th colname="col2" class="entry"> API Methods </th> 
   </tr> 
  </thead>
- <tbody> 
+ <tbody>
+ <tr> 
+   <td colname="col1"> <p> <b>Algorithmic Models</b> </p> </td> 
+   <td colname="col2"> <p> <a href="https://bank.demdex.com/portal/swagger/index.html#/Algorithmic_Models_API" format="https" scope="external"> Algorithmic Models</a> </p> </td> 
+  </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Audience Marketplace</b> </p> </td> 
    <td colname="col2"> <p> 
@@ -40,6 +44,9 @@ The [Adobe Audience Manager API Docs](https://bank.demdex.com/portal/swagger/ind
    <td colname="col1"> <p> <b>Data Source</b> </p> </td> 
    <td colname="col2"> <p> <a href="https://bank.demdex.com/portal/swagger/index.html#!/Data_Source_API" format="https" scope="external"> Data Sources</a> </p> </td> 
   </tr> 
+   <td colname="col1"> <p> <b>Derived Signals</b> </p> </td> 
+   <td colname="col2"> <p> <a href="https://bank.demdex.com/portal/swagger/index.html#/Derived_Signals_API" format="https" scope="external"> Derived Signals</a> </p> </td> 
+  </tr>   
   <tr> 
    <td colname="col1"> <p> <b>Folders</b> </p> </td> 
    <td colname="col2"> <p> 
