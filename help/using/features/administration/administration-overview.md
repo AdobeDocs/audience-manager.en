@@ -11,7 +11,7 @@ uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
 
 # Administration (RBAC Controls) {#administration}
 
-![](assets/rbac-controls.png)
+![](assets/rbac-controls.png) 
 
 The options under the [!UICONTROL Administration] menu let you create Audience Manager users and assign them to groups. You can also view limits (traits, segments, destinations, and models).
 
