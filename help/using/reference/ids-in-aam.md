@@ -1,6 +1,6 @@
 ---
 description: Refer to this document for the complete list of Adobe Audience Manager IDs.
-keywords: DPID;DPUUID;CID;UUID
+keywords: DPID;DPUUID;CID;UUID;uuid;uuid
 seo-description: Refer to this document for the complete list of Adobe Audience Manager IDs.
 seo-title: Index of IDs in Audience Manager
 solution: Audience Manager

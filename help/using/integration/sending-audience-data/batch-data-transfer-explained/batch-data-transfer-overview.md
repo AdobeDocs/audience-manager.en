@@ -1,5 +1,6 @@
 ---
 description: An overview for technical and non-technical customers who want to bring data from other systems (offline) into Audience Manager.
+keywords: inbound
 seo-description: An overview for technical and non-technical customers who want to bring data from other systems (offline) into Audience Manager.
 seo-title: Send Batch Data to Audience Manager Overview
 solution: Audience Manager
