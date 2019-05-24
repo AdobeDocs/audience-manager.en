@@ -1,5 +1,6 @@
 ---
 description: How declared IDs work, set up procedures, code examples, and variables.
+keywords: id sync
 seo-description: How declared IDs work, set up procedures, code examples, and variables.
 seo-title: Declared IDs
 solution: Audience Manager
