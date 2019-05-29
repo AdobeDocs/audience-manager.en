@@ -2,13 +2,20 @@
 description: This page includes current server-to-server integrations only. For more information on an integration refer to its Adobe Exchange listing (where available) or contact your Adobe Consultant or Customer Care.
 seo-description: This page includes current server-to-server integrations only. For more information on an integration refer to its Adobe Exchange listing (where available) or contact your Adobe Consultant or Customer Care.
 seo-title: Adobe Audience Manager Technology Partners
+keywords: activation; activation partners, destination, destinations
 solution: Audience Manager
 title: Adobe Audience Manager Technology Partners
 ---
 
-# Adobe Audience Manager Activation Partners
+# Audience Manager Activation Partners
 
 This page includes current Audience Manager [server-to-server integrations](/help/using/features/destinations/manage-destinations.md#add-edit-segments) only.  For more information on an integration refer to its [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) listing (where available) or contact your Adobe Consultant or Customer Care.
+
+* **Updated** = shows the last date there was an update for this activation partner
+* **Unsegment** = Unsegmentation describes processes that disqualify and remove device profiles from segments. Your ability to remove a device profile from a segment depends on the device option used to create a Profile Merge Rule. Unsegmentation is also used in the context of GDPR delete requests Read [Profile Merge Rules and Device Unsegmentation Processes](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) and [Audience Manager Partners With Unsegmentation Capabilities](/help/using/overview/aam-gdpr/aam-gdpr-partners.md#aam-partners-with-unsegmentation). Audience Manager sends unsegment information to the destinations marked with Yes below.
+* **Receiving IAB TCF consent signals** = The Audience Manager Plug-in for IAB TCF enables you to forward the IAB TCF consent string to activation partners while respecting users’ privacy choices. Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/aam-gdpr/aam-iab-plugin.md#aam-activation-partners).
+* **ICDS** = This column lists the partners that support Instant Cross-Device Suppression. Read [Instant Cross-Device Suppression](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
+* **Mobile Device IDs** = This column lists partners that can receive mobile device IDs from Audience Manager.
 
 | Integration                                       | Updated    | Unsegment | Receiving IAB TCF consent signals | ICDS | Mobile Device IDs |
 |---------------------------------------------------|------------|-----------|-----------------------------------|------|-------------------|
