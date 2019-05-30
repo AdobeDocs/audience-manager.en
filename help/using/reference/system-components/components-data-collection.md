@@ -48,7 +48,7 @@ The [!UICONTROL DCS] is a geographically distributed and load-balanced system. T
 
 In an event call, geographic location is captured in a key-value pair returned in a larger body of JSON data. This key-value pair is the `"dcs_region": region ID` parameter.
 
-![](assets/datacenters.png)
+![](assets/dcs-map.png)
 
 As a customer, you engage with the [!UICONTROL DCS] indirectly through our data collection code. You can also work directly with the [!UICONTROL DCS] through a set of APIs. See [Data Collection Server (DCS) API Methods and Code](../../api/dcs-intro/dcs-event-calls/dcs-event-calls.md).
 
