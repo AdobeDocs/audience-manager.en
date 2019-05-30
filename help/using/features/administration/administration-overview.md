@@ -75,3 +75,58 @@ Simplify group rights management with [!UICONTROL Wild Card Permissions].
 You have to open the group permissions and assign those new data sources to the group. [!UICONTROL Wild Card Permissions] let you avoid this manual data source update process. Groups with [!UICONTROL Wild Card Permissions] get access to new data sources without explicit authorization.
 
 ![](assets/wild-card.png) 
+
+Read below for a description of what each wildcard permission means:
+
+**Trait**
+
+* `MAP_ALL_TRAITS_TO_MODELS` - need to clarify?
+* `EDIT_ALL_TRAITS` - Users can edit all traits belonging to their company (PID)
+* `VIEW_ALL_TRAITS` - Users can view all traits belonging to their company (PID)
+* `DELETE_ALL_TRAITS` - Users can delete all traits belonging to their company (PID).
+* `CREATE_ALL_ALGO_TRAITS` - need to clarify
+* `MAP_ALL_TO_SEGMENTS` - Users can add any of the traits belonging to their company to segments.
+* `CREATE_ALL_TRAITS` - Users can create traits.
+
+**Reports**
+
+* `PTRREPORTS` - This wildcard permission refers to outdated functionality and will be removed from the Audience Manager UI shortly.
+
+**Models**
+
+* `VIEW_MODELS` - Users have permission to view models belonging to their company.
+
+**Derived Signals**
+
+* `VIEW_DERIVED_SIGNALS` - Users can view all the derived signals belonging to their company.
+* `CREATE_DERIVED_SIGNALS` - Users can create derived signals.
+* `EDIT_DERIVED_SIGNALS` - Users can edit all the derived signals belonging to their company.
+* `DELETE_DERIVED_SIGNALS` - Users can delete any of the derived signals belonging to their company.
+
+**Destination**
+
+* `EDIT_ALL_DESTINATIONS` - Users can edit all the destination set up within their company account.
+* `CREATE_DESTINATIONS` - Users can create destinations.
+* `VIEW_ALL_DESTINATIONS` - Users can view all the destinations set up within their company account.
+* `DELETE_ALL_DESTINATIONS` - Users can delete all the destinations set up within their company account.
+
+**Tags**
+
+* `VIEW_TAGS` - Users can do everything (view, create, edit, delete) on their Tag Containers.
+
+**Audience Lab**
+
+* `MANAGE_SEGMENT_TEST_GROUPS` - Users can do everything (view, create, edit, delete) on their Audience Lab test groups.
+
+**Segment**
+
+* `CREATE_ALL_SEGMENTS` - Users can create segments.
+* `DELETE_ALL_SEGMENTS` - Users can delete all the segments set up within their company account.
+* `MAP_ALL_TO_DESTINATIONS` - Users can map any of the segments belonging to their company to destinations.
+* `EDIT_ALL_SEGMENTS` - Users can edit all the segments set up within their company account.
+* `MAP_ALL_SEGMENTS_TO_MODELS` - need to clarify?
+* `VIEW_ALL_SEGMENTS` - Users can view all the segments set up within their company account.
+
+**Signals**
+
+* `VIEW_ALL_SIGNALS` - Users can view all signals captured in [Data Explorer](/help/using/features/data-explorer/data-explorer-overview.md).
