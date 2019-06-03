@@ -18,7 +18,7 @@ This article describes the Audience Manager use cases that support the IAB TCF a
 
 The Audience Manager Plug-in for IAB TCF utilizes the [Opt-in functionality](https://marketing.adobe.com/resources/help/en_US/mcvid/iab.html), which is, in turn, part of the Adobe [Experience Cloud ID Service (ECID)](https://marketing.adobe.com/resources/help/en_US/mcvid/) library.
 
-## Scope and Limitations {scope-and-limitations}
+## Scope and Limitations {#scope-and-limitations}
 
 As a Publisher or Advertiser working with Audience Manager, you are able to convey user choices to Audience Manager as per IAB TCF. This provides you with an easy and consistent way of communicating user choices to all partners you work with and Audience Manager can help you respect your users' privacy choices.
 
