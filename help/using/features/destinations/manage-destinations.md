@@ -97,7 +97,9 @@ This section contains fields and options that let you set up the cookie for your
 
 >[!NOTE]
 >
->[!DNL Audience Manager] encodes data written to the destination cookie. For example, spaces are encoded as `%20` and semicolons are encoded as `%3B`. To complete this section:
+>[!DNL Audience Manager] encodes data written to the destination cookie. For example, spaces are encoded as `%20` and semicolons are encoded as `%3B`. 
+
+To complete this section:
 
 1. Click **[!UICONTROL Configuration]** to expose the controls
 1. Name the cookie. Avoid abbreviations and special characters.
