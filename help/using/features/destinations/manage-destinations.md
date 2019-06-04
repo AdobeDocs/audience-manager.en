@@ -15,22 +15,23 @@ The [!UICONTROL Destination] landing page lists all of your [!DNL URL], cookie, 
 
 <!-- destinations-home.xml -->
 
-The default landing page lists and helps you manage all of your destinations. You can create, edit, and search for destinations here.
+The default landing page lists your destinations, based on type. You can filter the destinations by using the four available tabs:
 
-![](assets/destination_landing1.png)
+* **All**: shows all types of destinations.
+* **Adobe Experience Cloud**: shows destinations which send data to other Adobe Experience Cloud solutions. Currently, the only supported option is Adobe Analytics. See [Configure an Analytics Destination](/help/using/features/destinations/create-analytics-destination.md).
+* **Integrated Platforms**: shows people-based and device-based destinations (also named server-to-server destinations). Note that people-based destinations are currently a beta feature only available to selected customers.
+* **Custom**: shows cookie and URL destinations.
+
+
+![](assets/destinations-landing.png)
 
 ## Addressable Audiences Landing Page {#audiences-landing-page}
 
-Slide the **[!UICONTROL Show Only Addressable Audience Metrics]** toggle to see audience data and match rates for your server-to-server destinations. When enabled, this feature:
+To see audience data and match rates for your server-to-server destination, select **[!UICONTROL Integrated Platforms > Device-Based]**.
 
-* Lets you filter the report to return audience data and match rates for fixed time intervals.
-* Returns data for server-to-server destinations only. Cookie and [!DNL URL] destinations are excluded from the list. Slide the toggle again to return to the default view.
+For more information about the displayed information, see [Addressable Audiences](/help/using/features/addressable-audiences.md).
 
-![](assets/destination_landing2.png)
-
->[!MORE_LIKE_THIS]
->
->* [Addressable Audiences](../../features/addressable-audiences.md)
+![](/help/using/features/assets/addressable-audiences-landing.png)
 
 ## Destination Builder {#destination-builder}
 
@@ -75,13 +76,13 @@ To create a new cookie destination, go to **[!UICONTROL Audience Data > Destinat
 This section contains fields and options that start the cookie destination creation process. To complete this section:
 
 1. Click **[!UICONTROL Basic Information]** to expose the controls.
-1. Name the destination. Avoid abbreviations and special characters.
-1. *(Optional)* Describe the destination. A concise description is an effective way to define or provide more information about a destination.
-1. In the **[!UICONTROL Type]** list, click **[!UICONTROL Cookie]**.
-1. *(Optional)* Select an **[!UICONTROL Auto-fill Destination Mapping]**. Options include:
+2. Name the destination. Avoid abbreviations and special characters.
+3. *(Optional)* Describe the destination. A concise description is an effective way to define or provide more information about a destination.
+4. In the **[!UICONTROL Type]** list, click **[!UICONTROL Cookie]**.
+5. *(Optional)* Select an **[!UICONTROL Auto-fill Destination Mapping]**. Options include:
     * **[!UICONTROL Segment ID]**: Automatically adds and sends the segment ID to the destination.
     * **[!UICONTROL Integration Code Value]**: Automatically adds and sends the segment integration code to the destination mapping. The integration code is a unique identifier created and used by the customer. It is limited to 255 characters, maximum.
-1. Click **[!UICONTROL Next]** to go to the [!UICONTROL Configuration] settings or click **[!UICONTROL Data Export Labels]** to apply export controls to the destination.
+6. Click **[!UICONTROL Next]** to go to the [!UICONTROL Configuration] settings or click **[!UICONTROL Data Export Labels]** to apply export controls to the destination.
 
 ### Data Export Labels {#data-export-labels-cookies}
 
@@ -277,7 +278,7 @@ You can only add or edit segments for a server-to-server ([!DNL S2S]) destinatio
 
 To add or edit segment mappings for an [!DNL S2S] destination:
 
-1. Go to **[!UICONTROL Audience Data > Destinations]** and find the [!DNL S2S] destination you want to work with.
+1. Go to **[!UICONTROL Audience Data > Destinations]**. Select **Integrated Platforms > Device-Based** and find the [!DNL S2S] destination you want to work with.
 1. In the [!UICONTROL Action] column, click the pencil icon to edit the destination.
    * In the **[!UICONTROL Search and Add Segments]** box, start typing the name of a segment or click **[!UICONTROL Browse All Segments]** browse a list of available segments.
    * Click **[!UICONTROL Add Selected Segments]** when you find the segment you want to use. Adding a segment opens the [!UICONTROL Edit Mapping] window.

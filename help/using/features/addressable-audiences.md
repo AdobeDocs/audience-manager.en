@@ -73,7 +73,11 @@ The [!UICONTROL Addressable Audiences] feature shows you the overlap between the
 
 The [!UICONTROL Addressable Audience] feature turns this abstract concept into quantifiable data. In [!DNL Audience Manager], this feature displays audience overlap with data visualizations that provide at-a-glance information along with numeric data in tabular form.
 
-[!UICONTROL Addressable Audiences] is located in **[!UICONTROL Audience Data > Destinations]**. Click on the name of a server-to-server destination to view your addressable audience data. Note, this feature returns data for server-to-server destinations only and access requires administrator permissions.
+[!UICONTROL Addressable Audiences] is located in **[!UICONTROL Audience Data > Destinations]**. Select **[!UICONTROL Integrated Platforms > Device-Based]** to see addressable audiences metrics.
+
+![](assets/addressable-audiences-landing.png)
+
+ Click on the name of a server-to-server destination to view your addressable audience data. Note, this feature returns data for server-to-server destinations only and access requires administrator permissions.
 
 ![](assets/addressableAudiences.png)
 
