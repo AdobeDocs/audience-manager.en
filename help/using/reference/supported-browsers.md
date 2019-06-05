@@ -26,6 +26,6 @@ Get the latest Edge version from [https://www.microsoft.com/windows/microsoft-ed
 * **Mozilla Firefox**  <br />
 Get the latest Firefox version from [http://www.mozilla.com/en-US/firefox](http://www.mozilla.com/en-US/firefox).
 * **Safari**  <br />
-Get the latest Safari version from [http://www.apple.com/safari/download](http://www.apple.com/safari/download).
+Get the latest Safari version from [http://www.apple.com/safari/download](http://www.apple.com/safari/download). 
 
 Other browsers may work, but are not supported by our technical and product teams. If you're having trouble working with [!DNL Audience Manager], make sure you're using an up to date and supported browser.
