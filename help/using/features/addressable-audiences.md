@@ -40,7 +40,7 @@ The [!UICONTROL Addressable Audiences] feature shows you the overlap between the
    <td colname="col2"> <p>A count of devices that have realized either a rule-based trait on your properties or an onboarded trait from your offline files during the look-back window. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Customer Addressable Audience</b> </p> </td> 
+   <td colname="col1"> <p> <b>Addressable Audience Match Rate</b> </p> </td> 
    <td colname="col2"> 
     <draft-comment> 
      <p>A count of overlap of devices that have realized either a rule-based trait or an onboarded trait during the look-back window and devices that we have an ID sync with the chosen destination regardless of the time of syncs. </p> 
@@ -74,6 +74,15 @@ The [!UICONTROL Addressable Audiences] feature shows you the overlap between the
 The [!UICONTROL Addressable Audience] feature turns this abstract concept into quantifiable data. In [!DNL Audience Manager], this feature displays audience overlap with data visualizations that provide at-a-glance information along with numeric data in tabular form.
 
 [!UICONTROL Addressable Audiences] is located in **[!UICONTROL Audience Data > Destinations]**. Select **[!UICONTROL Integrated Platforms > Device-Based]** to see addressable audiences metrics.
+
+The three metrics you can see on the Addressable Audiences landing page represent:
+
+
+Metric | Description |
+---------|----------|
+ **Addressable Audience (devices)** | This metric represents the Customer Addressable Audience (described in the table above) *for the last 30 days.* |
+ **Match Rate** | This metric represents the Addressable Audience Match Rate (described in the table above) *for the last 30 days*. |
+ **Lifetime Addressable Audience (devices)** | A count of all devices that have interacted with all Audience Manager customers at the platform-level during the report look-back period and that could be matched with this destination. See [Platform-Level Metrics](/help/using/features/addressable-audiences.md#platform-level-metrics) for more information. |
 
 ![](assets/addressable-audiences-landing.png)
 

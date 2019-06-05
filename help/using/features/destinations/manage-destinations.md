@@ -46,7 +46,7 @@ For more information about the displayed information, see [Addressable Audiences
 |[!UICONTROL Destination Builder] Section|Purpose|
 |--- |--- |
 |Basic Information|Used to name the destination, describe it, and select destination type ([!DNL URL] or [!DNL cookie]), and platform (all, [!DNL Android], browser, or [!DNL iOS]).|
-|Configuration|Includes controls for: <br/><ul><li>Passing in key-value data to [!DNL URL] destinations. You can send data as individual or serialized key-value pairs. For details see, [Destination Serialization](../../features/destinations/key-value-pairs.md#destination-serialized)] and [Standard and Serial Key-Value Pairs](../../features/destinations/key-value-pairs.md). </li><li>Elements of a cookie destination such as cookie name, domain, size, expiration interval, data format, etc.</li></ul>|
+|Configuration|Includes controls for: <br/><ul><li>Passing in key-value data to [!DNL URL] destinations. You can send data as individual or serialized key-value pairs. For details see, [Destination Serialization](../../features/destinations/key-value-pairs.md#destination-serialized) and [Standard and Serial Key-Value Pairs](../../features/destinations/key-value-pairs.md). </li><li>Elements of a cookie destination such as cookie name, domain, size, expiration interval, data format, etc.</li></ul>|
 |Segment Mappings|Lets you: <br/><ul><li>Search for, add, and manage segments associated with all destination types. </li><li>Set delivery priorities on individual segments (for [!DNL cookie]-based segments only).</li></ul>|
 
 ### Data Delivery Methods {#data-delivery-methods}
@@ -78,11 +78,13 @@ This section contains fields and options that start the cookie destination creat
 1. Click **[!UICONTROL Basic Information]** to expose the controls.
 2. Name the destination. Avoid abbreviations and special characters.
 3. *(Optional)* Describe the destination. A concise description is an effective way to define or provide more information about a destination.
-4. In the **[!UICONTROL Type]** list, click **[!UICONTROL Cookie]**.
-5. *(Optional)* Select an **[!UICONTROL Auto-fill Destination Mapping]**. Options include:
+4. In the **[!UICONTROL Category]** list, choose **[!UICONTROL Custom]**.
+5. In the **[!UICONTROL Environment]** list, select **[!UICONTROL Browser]**. You cannot configure cookie destinations for native mobile environments, such as Android or iOS apps.
+6. In the **[!UICONTROL Type]** list, click **[!UICONTROL Cookie]**.
+7. *(Optional)* Select an **[!UICONTROL Auto-fill Destination Mapping]**. Options include:
     * **[!UICONTROL Segment ID]**: Automatically adds and sends the segment ID to the destination.
     * **[!UICONTROL Integration Code Value]**: Automatically adds and sends the segment integration code to the destination mapping. The integration code is a unique identifier created and used by the customer. It is limited to 255 characters, maximum.
-6. Click **[!UICONTROL Next]** to go to the [!UICONTROL Configuration] settings or click **[!UICONTROL Data Export Labels]** to apply export controls to the destination.
+8. Click **[!UICONTROL Next]** to go to the [!UICONTROL Configuration] settings or click **[!UICONTROL Data Export Labels]** to apply export controls to the destination.
 
 ### Data Export Labels {#data-export-labels-cookies}
 
@@ -140,6 +142,8 @@ This section contains fields and options that start the URL destination creation
 1. Click **[!UICONTROL Basic Information]** to expose the controls.
 1. Name the destination. Avoid abbreviations and special characters.
 1. *(Optional)* Describe the destination. A concise description is an effective way to define or provide more information about a destination.
+1. In the **[!UICONTROL Category]** list, choose **[!UICONTROL Custom]**.
+1. In the **[!UICONTROL Environment]** list, select the environment in which to trigger the URL destination.
 1. In the **[!UICONTROL Type]** list, click **[!UICONTROL URL]**.
 1. *(Optional)* Select an **[!UICONTROL Auto-fill Destination Mapping]**. Options include:
     * **[!UICONTROL Segment ID]**: Automatically adds and sends the segment ID to the destination.
