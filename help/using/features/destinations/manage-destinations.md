@@ -29,7 +29,7 @@ The default landing page lists your destinations, based on type. You can filter 
 
 To see audience data and match rates for your server-to-server destination, select **[!UICONTROL Integrated Platforms > Device-Based]**.
 
-For more information about the displayed information, see [Addressable Audiences](/help/using/features/addressable-audiences.md).
+For more information about the displayed information, see [Addressable Audiences Interface](/help/using/features/addressable-audiences.md#addressable-audience-interface).
 
 ![](/help/using/features/assets/addressable-audiences-landing.png)
 

@@ -75,16 +75,15 @@ The [!UICONTROL Addressable Audience] feature turns this abstract concept into q
 
 [!UICONTROL Addressable Audiences] is located in **[!UICONTROL Audience Data > Destinations]**. Select **[!UICONTROL Integrated Platforms > Device-Based]** to see addressable audiences metrics.
 
-The three metrics you can see on the Addressable Audiences landing page represent:
+![](assets/addressable-audiences-landing.png)
 
+The three metrics you can see on the Addressable Audiences landing page represent:
 
 Metric | Description |
 ---------|----------|
  **Addressable Audience (devices)** | This metric represents the Customer Addressable Audience (described in the table above) *for the last 30 days.* |
  **Match Rate** | This metric represents the Addressable Audience Match Rate (described in the table above) *for the last 30 days*. |
  **Lifetime Addressable Audience (devices)** | A count of all devices that have interacted with all Audience Manager customers at the platform-level during the report look-back period and that could be matched with this destination. See [Platform-Level Metrics](/help/using/features/addressable-audiences.md#platform-level-metrics) for more information. |
-
-![](assets/addressable-audiences-landing.png)
 
  Click on the name of a server-to-server destination to view your addressable audience data. Note, this feature returns data for server-to-server destinations only and access requires administrator permissions.
 
