@@ -9,7 +9,7 @@ uuid: 6b66ff42-0075-49a7-a58f-7f8ea2295fdc
 
 # Manage Destinations {#manage-destinations}
 
-The [!UICONTROL Destination] landing page lists all of your [!DNL URL], cookie, and server-to-server destinations. It provides features that let you create, edit, search for, and report on destinations. The landing page is located in **[!UICONTROL Audience Data > Destinations]**.
+The [!UICONTROL Destination] landing page lists all of your [!DNL URL], cookie, and server-to-server destinations. It provides features that let you create, edit, search for, and report on destinations. The landing page is located in **[!UICONTROL Audience Data > Destinations]**. 
 
 ## Default Landing Page {#default-landing-page}
 
