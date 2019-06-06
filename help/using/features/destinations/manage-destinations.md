@@ -9,7 +9,7 @@ uuid: 6b66ff42-0075-49a7-a58f-7f8ea2295fdc
 
 # Manage Destinations {#manage-destinations}
 
-The [!UICONTROL Destination] landing page lists all of your [!DNL URL], cookie, and server-to-server destinations. It provides features that let you create, edit, search for, and report on destinations. The landing page is located in **[!UICONTROL Audience Data > Destinations]**.
+The [!UICONTROL Destination] landing page lists all of your [!DNL URL], cookie, and server-to-server destinations. It provides features that let you create, edit, search for, and report on destinations. The landing page is located in **[!UICONTROL Audience Data > Destinations]**. 
 
 ## Default Landing Page {#default-landing-page}
 
@@ -20,7 +20,7 @@ The default landing page lists your destinations, based on type. You can filter 
 * **All**: shows all types of destinations.
 * **Adobe Experience Cloud**: shows destinations which send data to other Adobe Experience Cloud solutions. Currently, the only supported option is Adobe Analytics. See [Configure an Analytics Destination](/help/using/features/destinations/create-analytics-destination.md).
 * **Integrated Platforms**: shows people-based and device-based destinations (also named server-to-server destinations). Note that people-based destinations are currently a beta feature only available to selected customers.
-* **Custom**: shows cookie and URL destinations.
+* **Custom**: shows cookie and URL destinations. 
 
 
 ![](assets/destinations-landing.png)
@@ -29,7 +29,7 @@ The default landing page lists your destinations, based on type. You can filter 
 
 To see audience data and match rates for your server-to-server destination, select **[!UICONTROL Integrated Platforms > Device-Based]**.
 
-For more information about the displayed information, see [Addressable Audiences](/help/using/features/addressable-audiences.md).
+For more information about the displayed information, see [Addressable Audiences Interface](/help/using/features/addressable-audiences.md#addressable-audience-interface).
 
 ![](/help/using/features/assets/addressable-audiences-landing.png)
 
