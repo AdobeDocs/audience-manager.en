@@ -58,7 +58,7 @@ The popup for the [!UICONTROL Segment-to-Segment Overlap] report contains the me
 | **[!UICONTROL Segment ID2]** | Unique numeric ID for the segment you select when running the report. Appears as the column ID for the segment.  |
 | **[!UICONTROL Segment Name1]** | Name of the segment that appears in the report results row.  |
 | **[!UICONTROL Segment Name2]** | Name of the segment you select when running the report. Appears in the report results column.  |
-| **[!UICONTROL Overlap %]** | Shows the % of unique overlap between compared segments (overlap uniques/segment uniques 1).  |
+| **[!UICONTROL Overlap %]** | <p>To get the overlap %, Audience Manager uses the following formula:</p> <p>Overlapping Uniques / (Base Segment Uniques + Overlapping Segment Uniques – Overlapping Uniques)</p> |
 | **[!UICONTROL Overlap Uniques]** | The number of unique visitors shared between compared segments.  |
 | **[!UICONTROL Segment Uniques1]** | The number of unique visitors in segment 1. |
 | **[!UICONTROL Segment Uniques2]** | The number of unique visitors in segment 2.  |
