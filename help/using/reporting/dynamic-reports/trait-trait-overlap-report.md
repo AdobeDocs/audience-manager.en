@@ -89,7 +89,7 @@ The popup for the [!UICONTROL Trait-to-Trait Overlap] report contains the metric
   </tr> 
   <tr> 
    <td colname="col1"><b><span class="wintitle"> Overlap Uniques</span></b> </td> 
-   <td colname="col2"> The number of unique visitors shared between the compared traits. </td> 
+   <td colname="col2"> <p>To get the overlap %, Audience Manager uses the following formula:</p> <p>Overlapping Uniques / (Base Segment Uniques + Overlapping Segment Uniques – Overlapping Uniques)</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b><span class="wintitle"> Trait Uniques</span></b> </td> 
