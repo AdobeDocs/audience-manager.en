@@ -34,7 +34,7 @@ To use the [!DNL Bulk Management Tools], you need the following:
 * An API client ID and secret key. Your account manager can provide you with these. 
 * The [!UICONTROL Bulk Management Tools] worksheet. **[Download the worksheet](assets/BAAAM_August_2018.xlsm)** to get the latest verison. 
 
-* Microsoft Excel running on [!DNL Windows] or in a [!DNL Microsoft Windows] virtual machine running on [!DNL macOS X]. You must use 32-bit Excel and 32-bit Windows for the [!UICONTROL Bulk Management Tools] to work.
+* Microsoft Excel running on [!DNL Windows] or in a [!DNL Microsoft Windows] virtual machine running on [!DNL macOS X]. You must use 32-bit Excel for the [!UICONTROL Bulk Management Tools] to work.
 
 ## Actions and operations {#actions-ops}
 
