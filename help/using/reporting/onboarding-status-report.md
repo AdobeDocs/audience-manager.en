@@ -117,7 +117,6 @@ A reference guide for the labels and terms used in this report.
    <td colname="col2"> <p>Lists files that <span class="keyword"> Audience Manager</span> received and processed from you selected inbound data source. </p> <p>File processing will fail if the file name is formatted improperly. File name requirements vary depending on how you send this data to <span class="keyword"> Audience Manager</span>. Delivery methods include <span class="keyword"> Amazon S3</span> and FTP. For instructions on how to name your files, see: </p> <p> 
      <ul id="ul_9A32906A14CA41C5AED0E13930DB31BA"> 
       <li id="li_A5A0E6ED711D4002B52092619F87C7D6"> <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md"> Amazon S3 Name Requirements for Inbound Data Files </a> </li> 
-      <li id="li_9590241AEC0C482D91C64DB760B32B0D"> <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md"> FTP Name Requirements for Inbound Data Files </a> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
