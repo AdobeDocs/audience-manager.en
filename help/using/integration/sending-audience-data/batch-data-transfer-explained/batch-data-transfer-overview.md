@@ -48,7 +48,6 @@ See [ID Synchronization for Inbound Data Transfers](../../../integration/sending
 File names and content follow strict guidelines. You *must* name and organize data files according to these specifications in this guide. See:
 
 * [Amazon S3 Name Requirements for Inbound Data Files](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) 
-* [FTP Name Requirements for Inbound Data Files](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md) 
 * [Inbound Data File Contents: Syntax, Variables, and Examples](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
 
 ## Online Data is Available for Offline Marketing Efforts

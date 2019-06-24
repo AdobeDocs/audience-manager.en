@@ -189,8 +189,7 @@ The following use cases demonstrate how these file types affect stored visitor p
 
 For more information about full and incremental file types, see:
 
-* [Amazon S3 Name and File Size Requirements for Inbound Data...](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) 
-* [FTP Name and File Size Requirements for Inbound Data Files...](../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
+* [Amazon S3 Name and File Size Requirements for Inbound Data...](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 
 <br>&nbsp;
 
@@ -205,7 +204,7 @@ During processing, [!DNL Audience Manager] simply skips that record and moves on
 Time stamps are used for logging and record keeping. They are required by the syntax used for a properly formatted inbound file name. See:
 
 * [Amazon S3 Name Requirements for Inbound Data Files](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) 
-* [FTP Name and File Size Requirements for Inbound Data Files...](../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
+
 
 <br>&nbsp;
 
@@ -227,7 +226,7 @@ Yes, see:
 
 * [File Compression for Inbound Data Transfer Files](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) 
 * [Amazon S3 Name Requirements for Inbound Data Files](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) 
-* [FTP Name Requirements for Inbound Data Files](../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
+
 
 <br>&nbsp;
 
