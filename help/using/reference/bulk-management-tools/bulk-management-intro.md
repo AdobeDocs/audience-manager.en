@@ -32,7 +32,7 @@ To use the [!DNL Bulk Management Tools], you need the following:
 
 * Your [!DNL Audience Manager] user name and password. As a customer, you should already have these credentials. 
 * An API client ID and secret key. Your account manager can provide you with these. 
-* The [!UICONTROL Bulk Management Tools] worksheet. **[Download the worksheet](assets/BAAAM_August_2018.xlsm)** to get the latest verison. 
+* The [!UICONTROL Bulk Management Tools] worksheet. **[Download the worksheet](assets/BAAAM_August_2018.xlsm)** to get the latest version. 
 
 * Microsoft Excel running on [!DNL Windows] or in a [!DNL Microsoft Windows] virtual machine running on [!DNL macOS X]. You must use 32-bit Excel for the [!UICONTROL Bulk Management Tools] to work.
 
