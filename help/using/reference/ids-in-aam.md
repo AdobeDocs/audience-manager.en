@@ -22,6 +22,26 @@ Refer to this document for the complete list of Adobe Audience Manager IDs.
  </thead>
  <tbody> 
   <tr> 
+   <td colname="col1"> <p>AAM UUID </p> </td> 
+   <td colname="col2"> <p> <b><span class="keyword"> Audience Manager</span> Unique User ID </b> </p> <p> A numerical, 38-digit device ID that <span class="keyword"> Audience Manager</span> associates to each device it interacts with. Think of this ID whenever you see a mention of unique users in the Audience Manager UI.<p><span class="keyword"> Audience Manager</span> tries to save this ID as a cookie in the "demdex.net" 3rd party domain.</p> </p> <p>The Audience Manager UUID is sent in event calls as the d_uuid signal. </p> </td> 
+   <td colname="col3"> <p><code> demdex = 07955261652886032950143702505894272138</code> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>ImsOrgId </p> </td> 
+   <td colname="col2"> <p> <b>Organization ID</b> </p> <p>This is the ID that a company is provided with upon signing up for the Experience Cloud. To learn how you can find your company's Organization ID, read <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html"> Organizations and Account Linking</a> and scroll down to Find your Organization ID.</p> </td> 
+   <td colname="col3"> <p><code> 5DC5123F5245B1D20A490D46@AdobeOrg</code> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>PID </p> </td> 
+   <td colname="col2"> <p> <b>Partner ID</b> </p> <p> The PID is a company's ID in <span class="keyword"> Audience Manager</span>. <span class="keyword"> Audience Manager</span> associates an imsOrgId to a PID. </p> </td> 
+   <td colname="col3"> <p><code> 1352</code> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>ECID, MID </p> </td> 
+   <td colname="col2"> <p> <b>Experience Cloud ID</b> </p> <p>The Experience Cloud ID (ECID, legacy abbreviations MID or MCID) is derived mathematically from your Organization ID and the <span class="keyword"> Audience Manager</span> Unique User ID. As long as these IDs remain constant, generating the right ECID for a specific user is simply a math problem. With the same organization ID and Audience Manager UUID you get the same ECID value every time. You can read more about the ECID in the <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies and Experience Cloud ID</a> document. </p> </td> 
+   <td colname="col3"> <p><code> mid = 08382830887934830189014177072406221371 </code> </p> </td> 
+  </tr> 
+  <tr> 
    <td colname="col1"> <p>SID </p> </td> 
    <td colname="col2"> <p> <b>Trait ID</b> </p> <p>The Trait ID uniquely identifies traits in the <span class="keyword"> Audience Manager</span> environment. A Trait ID is assigned to each trait in the user interface (UI). </p> </td> 
    <td colname="col3"> <p><code> 289983</code> </p> </td> 
@@ -60,26 +80,6 @@ Refer to this document for the complete list of Adobe Audience Manager IDs.
    <td colname="col1"> <p>CID, CID_IC </p> </td>
    <td colname="col2"> <p> <b>Customer ID, Customer ID Integration Code</b> </p> <p> <b>The CID and CID_IC key-value pairs <a href="../reference/cid.md"> replace DPID and DPUUID</a>.</b> They provide the same functions as the DPID and DPUUID, but are more efficient because they include the data provider ID and user ID (or integration code) in a single key-value pair. </p> </td> 
    <td colname="col3"> <p><code> 81841%013ad2948b1570a7e408a7cfb7ff4879e4 </code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>AAM UUID </p> </td> 
-   <td colname="col2"> <p> <b><span class="keyword"> Audience Manager</span> Unique User ID </b> </p> <p> A numerical, 38-digit device ID that <span class="keyword"> Audience Manager</span> associates to each device it interacts with. <span class="keyword"> Audience Manager</span> tries to save this ID as a cookie in the "demdex.net" 3rd party domain. </p> <p>The Audience Manager UUID is sent in event calls as the d_uuid signal. </p> </td> 
-   <td colname="col3"> <p><code> demdex = 07955261652886032950143702505894272138</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>ImsOrgId </p> </td> 
-   <td colname="col2"> <p> <b>Organization ID</b> </p> <p>This is the ID that a company is provided with upon signing up for the Experience Cloud. To learn how you can find your company's Organization ID, read <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html"> Organizations and Account Linking</a> and scroll down to Find your Organization ID.</p> </td> 
-   <td colname="col3"> <p><code> 5DC5123F5245B1D20A490D46@AdobeOrg</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>PID </p> </td> 
-   <td colname="col2"> <p> <b>Partner ID</b> </p> <p> The PID is a company's ID in <span class="keyword"> Audience Manager</span>. <span class="keyword"> Audience Manager</span> associates an imsOrgId to a PID. </p> </td> 
-   <td colname="col3"> <p><code> 1352</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>ECID, MID </p> </td> 
-   <td colname="col2"> <p> <b>Experience Cloud ID</b> </p> <p>The Experience Cloud ID (ECID, legacy abbreviations MID or MCID) is derived mathematically from your Organization ID and the <span class="keyword"> Audience Manager</span> Unique User ID. As long as these IDs remain constant, generating the right ECID for a specific user is simply a math problem. With the same organization ID and Audience Manager UUID you get the same ECID value every time. You can read more about the ECID in the <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies and Experience Cloud ID</a> document. </p> </td> 
-   <td colname="col3"> <p><code> mid = 08382830887934830189014177072406221371 </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" morerows="2"> <p>DAID </p> <p> 
