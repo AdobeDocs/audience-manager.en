@@ -4,7 +4,7 @@ seo-description: Audience Marketplace data buyers agree to report all ad impress
 seo-title: Billing for Data Feed Buyers
 solution: Audience Manager
 title: Billing for Data Feed Buyers
-topic: DIL API
+keywords: Segment-level Reporting, segment-level, segment level
 uuid: d7236667-282b-4160-9909-579721af4016
 ---
 
