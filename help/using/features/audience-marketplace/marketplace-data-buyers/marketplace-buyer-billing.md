@@ -44,6 +44,8 @@ To report [!DNL CPM] usage at segment level:
    ![confirm-segment-usage](assets/confirm-segment-usage.png)
 7. Click **[!UICONTROL Confirm]**.
 
+<br>&nbsp;
+
 ## Report CPM Usage at Data Feed Level {#feed-level-report}
 
 Data feed-level reporting is a more tedious and prone to error process, since you must individually calculate [!DNL CPM] usage for each data feed. We recommend that you [Report CPM Usage at Segment Level](#segment-level-report) instead.
@@ -217,6 +219,8 @@ This segment contains 3 traits from separate data providers. Since segment quali
 We cannot tell which trait is responsible for an impression because qualification is based on an [!UICONTROL OR] condition. As a result, in the [!UICONTROL Audience Marketplace > Payables] section you credit each provider with a weighted allocation of the total impressions, based on trait population.
 
 ![billing-segment-or](assets/billing-segment-or.png)
+
+<br>&nbsp;
 
 ### Case 3: Segments with Modeling and Activation Use Cases
 
