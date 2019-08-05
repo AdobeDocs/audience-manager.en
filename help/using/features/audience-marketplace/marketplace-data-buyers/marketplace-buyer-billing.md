@@ -247,7 +247,7 @@ At a data feed level, the way the impressions are allocated is:
 
 The at-a-glance breakdown by data feed and use case is as follows:
 
-![feed-breakdown](assets/feed-breakdown.png)
+![feed-breakdown](assets/feed-breakdown-alt.png)
 
 <br>&nbsp;
 
