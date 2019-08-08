@@ -7,7 +7,7 @@ title: Configure a URL Destination
 ---
 
 
-## Configure a URL Destination {#configure-url-destination}
+# Configure a URL Destination {#configure-url-destination}
 
 A [!DNL URL] destination makes pixel calls from a page to your destination. Follow these instructions to create a [!DNL URL] destination with [!UICONTROL Destination Builder].
 
@@ -15,7 +15,7 @@ A [!DNL URL] destination makes pixel calls from a page to your destination. Foll
 
 To create a new [!DNL URL] destination, go to **[!UICONTROL Audience Data > Destinations > Create New Destination]** and complete the sections as described below.
 
-### Basic Information {#basic-info}
+## Basic Information {#basic-info}
 
 This section contains fields and options that start the URL destination creation process. To complete this section:
 
@@ -30,7 +30,7 @@ This section contains fields and options that start the URL destination creation
     * **[!UICONTROL Integration Code Value]**: Automatically adds and sends the segment integration code to the destination mapping. The integration code is a unique identifier created and used by the customer. It is limited to 255 characters, maximum.
 8. Click **[!UICONTROL Next]** to go to the [!UICONTROL Configuration] settings or click **[!UICONTROL Data Export Labels]** to apply export controls to the destination.
 
-### Data Export Labels {#data-export-labels-dest}
+## Data Export Labels {#data-export-labels-dest}
 
 This section contains options that apply [data export controls](../../features/data-export-controls.md) to a [!DNL URL] destination. Skip this step if you do not use data export controls. To complete this section:
 
@@ -38,7 +38,7 @@ This section contains options that apply [data export controls](../../features/d
 2. Select a label that corresponds to the data export control applied to the destination (see [Add Export Labels to a Destination](/help/using/features/destinations/add-data-export-labels.md) for details).
 3. Click **[!UICONTROL Save]**.
 
-### Configuration {#configure-base-data}
+## Configuration {#configure-base-data}
 
 This section contains options that let you set a base [!DNL URL] and data delimiters passed in by the [!DNL URL] string. This section is optional. To complete this section:
 
@@ -53,7 +53,7 @@ This section contains options that let you set a base [!DNL URL] and data delimi
 |Secure URL|The base part of a secure `HTTPS` [!DNL URL] that does not change. Also, you need to place the `%ALIAS%`   [placeholder macro](../../features/destinations/destination-macros.md#destination-macros-defined) in the base URL. Example: `https://www.myCompany.com/%alias%...`|
 |Delimiter|The symbol that separates the segment variables in the [!DNL URL] string. This is usually a comma or semi-colon. Get this information from your destination partner.|
 
-### Segment Mappings {#segment-mappings}
+## Segment Mappings {#segment-mappings}
 
 This section lets you search for and add segments to your destination. To complete this section:
 
