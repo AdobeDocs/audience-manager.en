@@ -85,6 +85,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
           + [Configure a Cookie Destination]()
           + [Optional Settings for Cookie Destinations]()
         + Destinations Reference {#destinations-reference}
+          + [Destination Builder](/help/using/features/destinations/destination-builder.md)
           + [get_aamCookie Code](features/destinations/get-aam-cookie-code.md)
           + [Destination Macros Defined](features/destinations/destination-macros.md)
           + [Standard and Serial Key-Value Pairs](features/destinations/key-value-pairs.md)
