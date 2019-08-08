@@ -73,13 +73,22 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
     + [Declared IDs](features/declared-ids.md)
     + [Derived Signals](features/derived-signals.md)
     + Destinations{#destinations}
-        + [Destinations](features/destinations/destinations.md)
+        + [Destinations Overview](features/destinations/destinations.md) 
+        + [Destinations Home Page]()
+        + Adobe Experience Cloud Destinations{#experience-cloud-destinations}
+          + [Configure an Analytics Destination](/help/using/features/destinations/create-analytics-destination.md)
+        + People-Based Destinations {#pbd}
+        + Device-Based Destinations (Server-to-Server) {#device-based}
+          + [Add or Edit Segments for Server-to-Server Destinations]()
+        + Custom Destinations {#custom-destinations}
+          + [Configure a URL Destination]()
+          + [Configure a Cookie Destination]()
+          + [Optional Settings for Cookie Destinations]()
+        + Destinations Reference {#destinations-reference}
+          + [get_aamCookie Code](features/destinations/get-aam-cookie-code.md)
+          + [Destination Macros Defined](features/destinations/destination-macros.md)
+          + [Standard and Serial Key-Value Pairs](features/destinations/key-value-pairs.md)
         + [Manage Destinations](features/destinations/manage-destinations.md)
-        + [Destination Macros Defined](features/destinations/destination-macros.md)
-        + [Standard and Serial Key-Value Pairs](features/destinations/key-value-pairs.md)
-        + [get_aamCookie Code](features/destinations/get-aam-cookie-code.md)
-        + [Configure an Analytics Destination](/help/using/features/destinations/create-analytics-destination.md)
-        + [Audience Manager Technology Partners](/help/using/features/destinations/audience-manager-technology-partners.md)
     + Profile Merge Rules{#profile-merge-rules}
         + [Profile Merge Rules Overview](features/profile-merge-rules/merge-rules-overview.md)
         + [Getting Started with Profile Merge Rules](features/profile-merge-rules/merge-rules-start.md)
@@ -252,6 +261,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
         + [Modify the GPT setTargeting API Call](integration/gpt-aam-destination/gpt-aam-modify-api.md)
         + [Audience Manager Code for Google Publisher Tags](integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
     + Integrating with Third-Party Destinations {#integrating-third-party}
+      + [Audience Manager Technology Partners](/help/using/integration/integrating-third-party/audience-manager-technology-partners.md)
       + [Facebook WCA Integration](/help/using/integration/integrating-third-party/facebook-wca-integration.md)
       + [OAS as an Audience Manager Destination](integration/integrating-third-party/open-ad-server-destination.md)
       + [OpenX as an Audience Manager Destination](integration/integrating-third-party/openx-destination.md)
