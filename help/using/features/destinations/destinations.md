@@ -8,7 +8,7 @@ title: Destinations
 uuid: 5c7dbdec-f73f-46fe-9f12-7685e8d7334f
 ---
 
-# Destinations {#destinations}
+# Destinations Overview {#destinations}
 
 In Audience Manager, a destination is any third-party system (ad server, [!DNL DSP], ad network, etc.) that you want to share data with. [!UICONTROL Destination Builder] is the tool you used to create and manage cookie, [!DNL URL], or server-to-server destinations.
 
