@@ -79,11 +79,15 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
         + People-Based Destinations {#pbd}
         + Device-Based Destinations (Server-to-Server) {#device-based}
         + Custom Destinations {#custom-destinations}
+          + [Configure a URL Destination](/help/using/features/destinations/create-url-destination.md)
+          + [Configure a Cookie Destination](/help/using/features/destinations/create-cookie-destination.md)
+          + [Optional Settings for Cookie Destinations](/help/using/features/destinations/cookie-destination-options.md)
         + Destinations Reference {#destinations-reference}
           + [Destination Builder](/help/using/features/destinations/destination-builder.md)
           + [get_aamCookie Code](features/destinations/get-aam-cookie-code.md)
           + [Destination Macros Defined](features/destinations/destination-macros.md)
           + [Standard and Serial Key-Value Pairs](features/destinations/key-value-pairs.md)
+          + [Add Data Export Controls to a Destination](/help/using/features/destinations/add-data-export-labels.md)
         + [Manage Destinations](features/destinations/manage-destinations.md)
     + Profile Merge Rules{#profile-merge-rules}
         + [Profile Merge Rules Overview](features/profile-merge-rules/merge-rules-overview.md)
