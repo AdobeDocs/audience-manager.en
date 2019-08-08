@@ -73,11 +73,13 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
     + [Declared IDs](features/declared-ids.md)
     + [Derived Signals](features/derived-signals.md)
     + Destinations{#destinations}
-        + [Destinations Overview](features/destinations/destinations.md) 
+        + [Destinations Overview](features/destinations/destinations.md)
+        + [Destinations Home Page](/help/using/features/destinations/destinations-home.md)
         + Adobe Experience Cloud Destinations{#experience-cloud-destinations}
           + [Configure an Analytics Destination](/help/using/features/destinations/create-analytics-destination.md)
         + People-Based Destinations {#pbd}
         + Device-Based Destinations (Server-to-Server) {#device-based}
+          + [Add or Edit Segments for Server-to-Server Destinations](/help/using/features/destinations/add-edit-segments.md)
         + Custom Destinations {#custom-destinations}
           + [Configure a URL Destination](/help/using/features/destinations/create-url-destination.md)
           + [Configure a Cookie Destination](/help/using/features/destinations/create-cookie-destination.md)
