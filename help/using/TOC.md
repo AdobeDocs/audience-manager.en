@@ -90,7 +90,6 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
           + [Destination Macros Defined](features/destinations/destination-macros.md)
           + [Standard and Serial Key-Value Pairs](features/destinations/key-value-pairs.md)
           + [Add Data Export Controls to a Destination](/help/using/features/destinations/add-data-export-labels.md)
-        + [Manage Destinations](features/destinations/manage-destinations.md)
     + Profile Merge Rules{#profile-merge-rules}
         + [Profile Merge Rules Overview](features/profile-merge-rules/merge-rules-overview.md)
         + [Getting Started with Profile Merge Rules](features/profile-merge-rules/merge-rules-start.md)

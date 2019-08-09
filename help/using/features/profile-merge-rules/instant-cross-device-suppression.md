@@ -39,7 +39,7 @@ You can make sure you are not flooding your users with the same creative by sett
    >
    >You can use [!UICONTROL Actionable Log Files] or [!UICONTROL Pixel Calls] to create traits based on user impressions. Read more about [Actionable Log Files](../../integration/media-data-integration/actionable-log-files.md) and [Pixel Calls](../../integration/media-data-integration/impression-data-pixels.md).
 1. Apply frequency controls to the second trait. If you wish, you can add recency controls, as well. Read more about [how to apply recency and frequency controls](../../features/segments/recency-and-frequency.md).
-2. Map the segment to any number of real-time server-to-server destinations. Read on about how to add segments to [server-to-server destinations](../../features/destinations/add-edit-segments.md).
+1. Map the segment to any number of real-time server-to-server destinations. Read on about how to add segments to [server-to-server destinations](../../features/destinations/add-edit-segments.md).
 
 In this scenario, once your users have accumulated more than three impressions, they will be removed from this segment and will not see this particular creative anymore.
 
