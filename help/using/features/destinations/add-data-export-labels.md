@@ -20,7 +20,7 @@ title: Add Data Export Controls to a Destination
 To add export labels to a destination:
 
 1. Click **[!UICONTROL Audience Data]**:
-    * For new destinations: Click **[!UICONTROL Create New Destination]**. Complete the [!UICONTROL Basic Information] section before you select a data export label. See [Create a Cookie Destination](../../features/destinations/manage-destinations.md#create-cookie-destination) or [Create a URL Destination](../../features/destinations/manage-destinations.md#configure-url-destination) for information.
+    * For new destinations: Click **[!UICONTROL Create New Destination]**. Complete the [!UICONTROL Basic Information] section before you select a data export label. See [Create a Cookie Destination](../../features/destinations/create-cookie-destination.md) or [Create a URL Destination](../../features/destinations/create-url-destination.md) for information.
     * For existing destinations: Use the [!DNL Search] box to find your destination or scroll through the list and click on the destination name to open it.
 1. Select a [!DNL Data Export Label]. Leave the check boxes blank if you don't want to set any export restrictions. Export labels include the following options:
     * **[!UICONTROL This destination may enable a combination with personally identifiable information (PII)]**

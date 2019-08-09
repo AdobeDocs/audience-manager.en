@@ -24,7 +24,7 @@ The technical details of the real-time unsegmentation are described in length in
 Assure that your users that have already converted (purchased a product, acquired a subscription, etc.) will not see the same messaging as before the conversion. You can obtain this using the [!UICONTROL AND NOT] logic, as follows.
 
 1. Create a segment using two traits, and use the [!UICONTROL AND NOT] logic, as shown in the image below. You must use a rule-based trait to define the conversion event for the unsegment to be triggered in real-time. Read more about how to [create rule-based traits](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits).
-1. Map the segment to any number of real-time server-to-server destinations. Read on about how to add segments to [server-to-server destinations](../../features/destinations/manage-destinations.md#add-edit-segments).
+1. Map the segment to any number of real-time server-to-server destinations. Read on about how to add segments to [server-to-server destinations](../../features/destinations/add-edit-segments.md).
 
 Your visitors qualify for the segment as long as they have not converted. As soon as they qualify for the conversion trait, they cease to follow the segment rule and are instantly removed from the segment.
 
@@ -39,7 +39,7 @@ You can make sure you are not flooding your users with the same creative by sett
    >
    >You can use [!UICONTROL Actionable Log Files] or [!UICONTROL Pixel Calls] to create traits based on user impressions. Read more about [Actionable Log Files](../../integration/media-data-integration/actionable-log-files.md) and [Pixel Calls](../../integration/media-data-integration/impression-data-pixels.md).
 1. Apply frequency controls to the second trait. If you wish, you can add recency controls, as well. Read more about [how to apply recency and frequency controls](../../features/segments/recency-and-frequency.md).
-1. Map the segment to any number of real-time server-to-server destinations. Read on about how to add segments to [server-to-server destinations](../../features/destinations/manage-destinations.md#add-edit-segments).
+1. Map the segment to any number of real-time server-to-server destinations. Read on about how to add segments to [server-to-server destinations](../../features/destinations/add-edit-segments.md).
 
 In this scenario, once your users have accumulated more than three impressions, they will be removed from this segment and will not see this particular creative anymore.
 

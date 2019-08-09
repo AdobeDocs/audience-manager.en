@@ -159,5 +159,5 @@ In the [!UICONTROL Destination Value] field specify the value (part of a key-val
 
 >[!MORE_LIKE_THIS]
 >
->* [Create a Cookie Destination](../../features/destinations/manage-destinations.md#create-cookie-destination)
->* [Create a URL Destination](../../features/destinations/manage-destinations.md#configure-url-destination)
+>* [Create a Cookie Destination](../../features/destinations/create-cookie-destination.md)
+>* [Create a URL Destination](../../features/destinations/create-url-destination.md)

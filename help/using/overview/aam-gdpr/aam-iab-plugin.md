@@ -26,7 +26,7 @@ The IAB TCF support described in this article represents the first phase in Audi
 
 * Mobile device workflows;
 * Cross-device consent management;
-* Appending consent to URLs sent to [URL destinations](/help/using/features/destinations/manage-destinations.md#configure-url-destination);
+* Appending consent to URLs sent to [URL destinations](/help/using/features/destinations/create-url-destination.md);
 * Appending consent to segments.
 
 ## Prerequisites {#prerequisites}

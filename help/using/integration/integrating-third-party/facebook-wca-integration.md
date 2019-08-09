@@ -18,7 +18,7 @@ This page illustrates the process of creating Facebook Website Custom Audiences 
  
 >[!IMPORTANT]
 >
-> This capability requires that you select the Website audience for social platforms option in [URL destinations](/help/using/features/destinations/manage-destinations.md#configure-url-destination). Social platforms require that referrer information be unmasked when sent to their platform. Please be aware that this means that the destination platform/partner will be able to see information in your referrer URL.
+> This capability requires that you select the Website audience for social platforms option in [URL destinations](/help/using/features/destinations/create-url-destination.md). Social platforms require that referrer information be unmasked when sent to their platform. Please be aware that this means that the destination platform/partner will be able to see information in your referrer URL.
 
 ## Prerequisites {#prerequisites}
 
@@ -31,7 +31,7 @@ We recommend that you install or upgrade the libraries in steps 3 and 4 using [A
 
 ## Step 1 - Create a Facebook Destination in Audience Manager {#step-1-create-facebook-destination}
 
-Create a new URL Destination in Audience Manager and name it Facebook Website Custom Audiences. Use the settings below when creating the destination. You can also refer to the [Configure a URL Destination](/help/using/features/destinations/manage-destinations.md#configure-url-destination) page.
+Create a new URL Destination in Audience Manager and name it Facebook Website Custom Audiences. Use the settings below when creating the destination. You can also refer to the [Configure a URL Destination](/help/using/features/destinations/create-url-destination.md) page.
 
 **Basic Information**
 
@@ -76,7 +76,7 @@ Save the destination. Then, you can proceed to the **Segment Mappings** step.
 
 ## Step 2 - Segment Mappings - Map Segment to Destination {#step-2-segment-mappings}
 
-In the [Configure URL destination](/help/using/features/destinations/manage-destinations.md#configure-url-destination) workflow, map the applicable segment to your newly created destination. Notice the mapping value is auto-populated with the Audience Manager segment ID.
+In the [Configure URL destination](/help/using/features/destinations/create-url-destination.md#) workflow, map the applicable segment to your newly created destination. Notice the mapping value is auto-populated with the Audience Manager segment ID.
 
 Enter an end date if applicable, otherwise leave blank for no end date.
 
