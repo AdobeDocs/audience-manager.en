@@ -16,7 +16,7 @@ Audience Manager provides industry-leading services for online audience data man
   <tr> 
    <td colname="col1"> <p> <b>New and Featured Items</b> </p> <p>Read about the latest Audience Manager features:</p> <p> 
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
-     <li><a href="features/destinations/manage-destinations.md#default-landing-page">Destinations Home Page</a> </li>
+     <li><a href="features/destinations/destinations-home.md">Destinations Home Page</a> </li>
      <li><a href="features/administration/ip-obfuscation.md">IP Address Obfuscation</a> </li>
      <li><a href="overview/aam-gdpr/aam-iab-plugin.md">Audience Manager Plug-in for IAB TCF</a> </li>
      <li><a href="features/administration/usage-limits.md#id-mapping-limits">ID Mapping Limits</a> </li>

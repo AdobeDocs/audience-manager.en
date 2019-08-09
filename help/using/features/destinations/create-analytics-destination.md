@@ -42,7 +42,7 @@ This section contains fields and options that start the Analytics destination cr
 This section contains options that apply [Data Export Controls](/help/using/features/data-export-controls.md) to an Analytics destination. Skip this step if you do not use data export controls. To complete this section:
 
 1. Click **Data Export Controls** to expose the controls.
-2. Select a label that corresponds to the data export control applied to the destination (see [Add Data Export Labels to a Destination](/help/using/features/destinations/manage-destinations.md#add-data-export-labels) ). For Analytics destinations, the PII check box is selected by default.
+2. Select a label that corresponds to the data export control applied to the destination (see [Add Data Export Labels to a Destination](/help/using/features/destinations/add-data-export-labels.md) ). For Analytics destinations, the PII check box is selected by default.
 3. Click **Save**.
 
 ![exportcontrols](assets/exportControls.png)
