@@ -81,9 +81,9 @@ Read below for a description of what each wildcard permission means:
 **Trait**
 
 * `MAP_ALL_TRAITS_TO_MODELS` - Users can select traits as the baseline for models.
-* `EDIT_ALL_TRAITS` - Users can edit all traits belonging to their company (PID).
-* `VIEW_ALL_TRAITS` - Users can view all traits belonging to their company (PID).
-* `DELETE_ALL_TRAITS` - Users can delete all traits belonging to their company (PID).
+* `EDIT_ALL_TRAITS` - Users can edit all traits set up within their company account.
+* `VIEW_ALL_TRAITS` - Users can view all traits set up within their company account.
+* `DELETE_ALL_TRAITS` - Users can delete all traits set up within their company account.
 * `CREATE_ALL_ALGO_TRAITS` - Users can create algorithmic traits.
 * `MAP_ALL_TO_SEGMENTS` - Users can add any of the traits belonging to their company to segments.
 * `CREATE_ALL_TRAITS` - Users can create traits.
