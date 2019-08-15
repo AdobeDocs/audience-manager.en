@@ -24,10 +24,7 @@ Before you can create a new device-based destination, you need to configure the 
 
 1. Log in to your Audience Manager account and go to **[!DNL Administration > Integrated Accounts]**. If you have a previously configured integration with a destination platform, you should see it listed in this page. Otherwise, the page is empty.
 2. Click **[!DNL Add Account]**.
-3. Select the destination platform that you want to authenticate with and click **[!DNL Confirm]** to be redirected to the authentication page of the selected platform.
-
-![integrated-platforms](assets/dbd-integrated-platforms.png)
-
+3. Select the destination platform that you want to authenticate with and click **[!DNL Confirm]** to be redirected to the authentication page of the selected platform. ![integrated-platforms](assets/dbd-integrated-platforms.png)
 4. Once you've authenticated to your destination platform account, you are redirected to Audience Manager where you should see your associated advertiser accounts. Select the advertiser account that you want to use and click **[!DNL Confirm]**.
 
 ## Step 2. Create a New Device-Based Destination {#step2}
@@ -41,10 +38,10 @@ After you have configured the destination platform integration, you can create t
 >
 >You cannot change the name of an existing device-based destination. Make sure to provide a name that will help you identify the destination correctly.
 
-* **[!DNL Category]**: [!DNL Integrated Platforms];
-* **[!DNL Type]**: [!DNL Device-Based];
-* **[!DNL Platform]**: select the destination platform that you want to send audience segments to.
-* **[!DNL Account]**: select the desired advertiser account associated with the selected platform.
+   * **[!DNL Category]**: [!DNL Integrated Platforms];
+   * **[!DNL Type]**: [!DNL Device-Based];
+   * **[!DNL Platform]**: select the destination platform that you want to send audience segments to.
+   * **[!DNL Account]**: select the desired advertiser account associated with the selected platform.
 
 ![setup](assets/dbd-new-basic.png)
 
