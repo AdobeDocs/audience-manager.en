@@ -79,6 +79,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
           + [Configure an Analytics Destination](/help/using/features/destinations/create-analytics-destination.md)
         + People-Based Destinations {#pbd}
         + Device-Based Destinations (Server-to-Server) {#device-based}
+          + [Add New Device-Based Destinations](/help/using/features/destinations/add-device-based-destinations.md)
           + [Add or Edit Segments for Server-to-Server Destinations](/help/using/features/destinations/add-edit-segments.md)
         + Custom Destinations {#custom-destinations}
           + [Configure a URL Destination](/help/using/features/destinations/create-url-destination.md)
