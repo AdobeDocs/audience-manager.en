@@ -46,4 +46,4 @@ After you have configured the destination platform integration, you can create t
 * **[!DNL Category]**: [!DNL Integrated Platforms];
 * **[!DNL Type]**: [!DNL Device-Based];
 * **[!DNL Platform]**: select the destination platform that you want to send audience segments to.
-* **[!DNL Account]**: select the desired advertiser account associated with the selected platform.
+* **[!DNL Account]**: select the desired advertiser account associated with the selected platform. 
