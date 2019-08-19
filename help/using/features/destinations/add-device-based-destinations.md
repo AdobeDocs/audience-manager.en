@@ -37,13 +37,13 @@ After you have configured the destination platform integration, you can create t
 
 1. Log in to your Audience Manager account, go to **[!DNL Audience Data > Destinations]**, and click **[!DNL Create Destination]**.
 2. In the **[!DNL Basic Information]** section, enter a **[!DNL Name]** and **[!DNL Description]** for your new destination, and use the settings in the list below: ![setup](assets/dbd-new-basic.png)
+   * **[!DNL Category]**: [!DNL Integrated Platforms];
+   * **[!DNL Type]**: [!DNL Device-Based];
+   * **[!DNL Platform]**: select the destination platform that you want to send audience segments to.
+   * **[!DNL Account]**: select the desired advertiser account associated with the selected platform.
 3. Click **[!DNL Next]**.
 4. Choose the [Data Export Labels](/help/using/features/data-export-controls.md#controls-labels) that you want to set for this destination.
 5. Click **[!DNL Save]**.
 6. In the **[!DNL Segment Mappings]** section, select the audience segments that you want to send to this destination.
 7. Save the destination.
 
-* **[!DNL Category]**: [!DNL Integrated Platforms];
-* **[!DNL Type]**: [!DNL Device-Based];
-* **[!DNL Platform]**: select the destination platform that you want to send audience segments to.
-* **[!DNL Account]**: select the desired advertiser account associated with the selected platform. 
