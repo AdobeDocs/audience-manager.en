@@ -111,6 +111,7 @@ To create new audience segments, use the [Segment Builder](../segments/segment-b
 1. Audience Manager displays a notification at the top of the page to let you know whether the account was successfully added. The notification also allows you to add a contact email address to receive notifications when the social platform authentication is about to expire.
 
 >[!IMPORTANT]
+>
 >A udience Manager handles the integration with social platforms through authentication tokens that expire after a certain amount of time. See Authentication Token Renewal for details on how to renew the expired tokens.
 
 ## Step 6 - Create a People-Based Destination {create-destination}
