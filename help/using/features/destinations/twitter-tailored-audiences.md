@@ -18,13 +18,11 @@ Before you configure your [!DNL Twitter Tailored Audiences] destination, make su
 2. Your Twitter user account that you authorized access for in Audience Manager must have the [Partner audience manager](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) permission enabled.
 3. If you are [updating your existing Twitter integration to self-service administration](#update-existing-twitter-integrations), your Twitter user account must have the [Ad manager](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) permission enabled.
 
-
-
 ## Add a New [!DNL Twitter Tailored Audiences] Destination {#add-new-twitter-destination}
 
 This section describes the steps you need to follow when configuring a new device-based destination for [!DNL Twitter Tailored Audiences]. This scenario assumes that you have no existing [!DNL Twitter Tailored Audiences] destination configured via your Adobe consultant or Customer Care.
 
-### Step 1. Authenticate with [!DNL Twitter Tailored Audiences] {#step1-authenticate-with-twitter} 
+### Step 1. Authenticate with [!DNL Twitter Tailored Audiences] {#step1-authenticate-with-twitter}
 
 Before you can add the device-based destination, you need to link Audience Manager and your [!DNL Twitter Tailored Audiences] account. Here's how to do this:
 
@@ -72,7 +70,7 @@ When mapping audience segments to Twitter, make sure to meet the following segme
 * Provide human-readable segment mapping names. We recommend using the same name that you used for the Audience Manager segments.
 * Do not use commas in segment and segment mapping names.
 
-**Example**
+### Example
 
 * Correct segment or mapping name: "US and European Shoppers";
 * Incorrect segment or mapping name: "US, European 5h0pP3rs".
