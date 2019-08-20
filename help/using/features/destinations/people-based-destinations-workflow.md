@@ -6,11 +6,11 @@ solution: Audience Manager
 title: Implementation Guidance
 ---
 
-# Implementation Guidance {implementation-guidance}
+# Implementation Guidance {#implementation-guidance}
 
 [!DNL People-Based Destinations] offers multiple implementation strategies, depending on how your customer data is structured. This article provides an overview of the implementation steps that you need to follow for [!DNL People-Based Destinations], depending on your scenario.
 
-## Overview {overview}
+## Overview {#overview}
 
 The configuration of [!DNL People-Based Destinations] takes you through multiple sections of Audience Manager and requires different settings and data onboarding methods, depending on what kind of customer data you already have in Audience Manager, and what kind of audience targeting you want to perform.
 
@@ -21,7 +21,7 @@ There are six implementation aspects that you need to clarify before using [!DNL
 
 ![pbd-implementation](assets/pbd-implementation.png)
 
-## 1. Defining Your Use Case {defining-your-use-case}
+## 1. Defining Your Use Case {#defining-your-use-case}
 
 Before your begin implementing [!DNL People-Based Destinations], you need to clearly define the use case that you will be using this feature for. You can use [!DNL People-Based Destinations] to target audiences in two ways, based on audience activity:
 
@@ -35,7 +35,7 @@ To target them across social media and similar people-based channels, you can br
 
 Your company, a telecom services provider, keeps customer data like email addresses and purchased telecom plans in an internal [!DNL CRM]. You want to target existing customers in social platforms to offer them upgrade packages based on their existing subscriptions. To do this, you can ingest hashed customer email addresses into Audience Manager, and create segments based on the existing customer subscriptions. Then, you can send these segments to [!DNL People-Based Destinations] to target your customers with personalized offers.
 
-## 2. Define the Type of Targeted Email Addresses {define-target-email}
+## 2. Define the Type of Targeted Email Addresses {#define-target-email}
 
 The second step in defining your implementation strategy is deciding what type of customer email addresses you want to target.
 
@@ -43,7 +43,7 @@ The second step in defining your implementation strategy is deciding what type o
 
 **B) Audience targeting based on all associated email addresses**. In this scenario, your users have multiple accounts associated with multiple email addresses, and you want to target them across all of their associated email addresses, regardless of authenticated activity.
 
-## 3. Identify the Type of Customer IDs (CRM IDs) That You Have {identify-customer-id}
+## 3. Identify the Type of Customer IDs (CRM IDs) That You Have {#identify-customer-id}
 
 Targeting audiences in [!DNL People-Based Destinations] requires you to send [SHA256 hashed](people-based-destinations-prerequisites.md) versions of your customer email addresses. Depending on your existing Audience Manager configuration, you may find yourself in one of the following two scenarios:
 
@@ -51,7 +51,7 @@ Targeting audiences in [!DNL People-Based Destinations] requires you to send [SH
 
 **B) Your Audience Manager customer IDs ([DPUUIDs](../../reference/ids-in-aam.md)) are not lowercase, hashed email addresses**. In this scenario, your existing customer IDs cannot be sent to [!DNL People-Based Destinations]. To use [!DNL People-Based Destinations], you need to perform an ID synchronization between your existing customer IDs and lowercase, hashed versions of your customer email addresses. You do this either through [file-based ID synchronization](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) or by using [declared IDs](../declared-ids.md).
 
-## 4. Trait Qualification {trait-qualification}
+## 4. Trait Qualification {#trait-qualification}
 
 To accurately target your audience in [!DNL People-Based Destinations], your users need to qualify for either rule-based or onboarded traits, depending on the type of audience targeting that you want to perform.
 
@@ -59,7 +59,7 @@ To accurately target your audience in [!DNL People-Based Destinations], your use
 
 **B) Onboard traits against customer IDs via inbound data files**. This option applies to use case B from [1. Defining Your Use Case](people-based-destinations-workflow.md#defining-your-use-case). When targeting your audience based on purely offline activity, you need to qualify customer IDs for onboarded traits through [inbound data files](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md).
 
-## 5. Create or Label Data Sources and Onboard Hashed Email Addresses {create-label-data-sources}
+## 5. Create or Label Data Sources and Onboard Hashed Email Addresses {#create-label-data-sources}
 
 Depending on the type of customer IDs that you have in Audience Manager (see [3. Identify the Type of Customer IDs (CRM IDs) That You Have](people-based-destinations-workflow.md#identify-customer-id), you will find yourself in one of the following scenarios:
 
@@ -70,7 +70,7 @@ Depending on the type of customer IDs that you have in Audience Manager (see [3.
 * Use file-based ID synchronization. See [Name and Content Requirements for ID Synchronization Files](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) for details on what ID synchronization files should look like. When using this method, you can target all of the hashed email addresses from your [!DNL CRM] database.
 * Use [declared IDs](../declared-ids.md) to declare hashed email addresses when passing in authenticated customer IDs. When using this method, Audience Manager only targets the hashed email addresses from users who have authenticated online. The email addresses targeted through Facebook are only the ones in the declared ID event calls. Other email addresses associated with the customer ID are not activated in real-time.
 
-## 6. Use a Profile Merge Rule for Segmentation {use-profile-merge-rules}
+## 6. Use a Profile Merge Rule for Segmentation {#use-profile-merge-rules}
 
 Depending on your use case (see [1. Defining Your Use Case](people-based-destinations-workflow.md#defining-your-use-case)), there are two ways to use [!DNL Profile Merge Rules] for segmentation.
 

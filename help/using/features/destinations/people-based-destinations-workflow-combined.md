@@ -6,11 +6,11 @@ solution: Audience Manager
 title: Workflow A - Personalization Based on All Online Activity Combined with Offline Data
 ---
 
-# Workflow A - Personalization Based on All Online Activity Combined with Offline Data {workflow-all-online-combined}
+# Workflow A - Personalization Based on All Online Activity Combined with Offline Data {#workflow-all-online-combined}
 
 This page includes step-by-step guidance on how to combine offline [!DNL CRM] data with behavioral data that you already have in Audience Manager to create new audience segments, then send these audience segments to [!DNL People-Based Destinations].
 
-## Step 1 - Configure Data Source Settings {configure-data-source-settings}
+## Step 1 - Configure Data Source Settings {#configure-data-source-settings}
 
 Depending on whether your [DPUUIDs](../../reference/ids-in-aam.md) are lowercase, hashed email addresses, you might need to configure the data source that will store the hashed email addresses.
 
@@ -41,7 +41,7 @@ In this case, you need to create a new cross-device data source that will store 
 >[!Note]
 > See [Data Onboarding](people-based-destinations-prerequisites.md#data-onboarding) for frequently asked questions about how you should bring your offline data into Audience Manager for People-Based Destinations.
 
-## Step 2 - Match DPUUIDs to Hashed Email Addresses via File-Based ID Synchronization {match-ids-emails}
+## Step 2 - Match DPUUIDs to Hashed Email Addresses via File-Based ID Synchronization {#match-ids-emails}
 
 >[!IMPORTANT]
 >
@@ -81,7 +81,7 @@ In the example above, the file name would look like this:
 
 [Download example file here](https://marketing.adobe.com/resources/help/en_US/aam/downloads/c2c_id_999999_987654_1560431657.sync).
 
-## Step 3 - Create a Profile Merge Rule for Segmentation {create-merge-rule}
+## Step 3 - Create a Profile Merge Rule for Segmentation {#create-merge-rule}
 
 The next step is creating a new merge rule that will help you create the audience segments to send to your people-based destinations.
 
@@ -95,11 +95,11 @@ The next step is creating a new merge rule that will help you create the audienc
 1. In the **[!UICONTROL Profile Merge Rule Setup]** section, select the **[!UICONTROL Current Authenticated Profiles]** or **[!UICONTROL Last Authenticated Profiles]** options.
 1. In the **[!UICONTROL Cross-Device Profile Options]** list, select the data sources that you want to run the segmentation on. These should be the data sources containing your existing [DPUUIDs](../../reference/ids-in-aam.md).
 
-## Step 4 - Create Audience Segments {create-audience-segments}
+## Step 4 - Create Audience Segments {#create-audience-segments}
 
 To create new audience segments, use the [Segment Builder](../segments/segment-builder.md). If you have existing audience segments that you want to send to [!DNL People-Based Destinations], skip to [Step 5 - Configure People-Based Platform Authentication](people-based-destinations-workflow-combined.md#configure-authentication).
 
-## Step 5 - Configure People-Based Platform Authentication {configure-authentication}
+## Step 5 - Configure People-Based Platform Authentication {#configure-authentication}
 
 1. Log in to your Audience Manager account and go to **[!UICONTROL Administration]** > **[!UICONTROL Integrated Accounts]**. If you have a previously configured integration with a social platform, you should see it listed in this page. Otherwise, the page is empty.
     ![people-based-integration](assets/pbd-config.png)
@@ -114,7 +114,7 @@ To create new audience segments, use the [Segment Builder](../segments/segment-b
 >
 >A udience Manager handles the integration with social platforms through authentication tokens that expire after a certain amount of time. See Authentication Token Renewal for details on how to renew the expired tokens.
 
-## Step 6 - Create a People-Based Destination {create-destination}
+## Step 6 - Create a People-Based Destination {#create-destination}
 
 1. Log in to your Audience Manager account, go to **[!UICONTROL Audience Data]** > **[!UICONTROL Destinations]**, and click **[!UICONTROL Create Destination]**.
 1. In the **[!UICONTROL Basic Information]** section, enter a **[!UICONTROL Name]** and **[!UICONTROL Description]** for your new data source, and use the following settings:
