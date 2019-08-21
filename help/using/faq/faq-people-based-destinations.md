@@ -27,7 +27,7 @@ There are two ways you can bring your offline data to Audience Manager for [!DNL
 
 **Can I collect hashed email addresses through a web form or mobile app or do they have to come through on a batch file?**
 
-You can collect hashed email addresses through web authentication using [!DNL ECID] with [Declared IDs](../declared-ids.md). The batch file allows you to also collect hashed email addresses that can’t be sent through authentication (e.g. dormant users in your ([!DNL CRM]) and activate them in people-based destinations.
+You can collect hashed email addresses through web authentication using [!DNL ECID] with [Declared IDs](../features/declared-ids.md). The batch file allows you to also collect hashed email addresses that can’t be sent through authentication (e.g. dormant users in your ([!DNL CRM]) and activate them in people-based destinations.
 
 **How is ingesting hashed email addresses via web forms different from uploading hashed email addresses via batch files?**
 
@@ -40,7 +40,7 @@ Offline data ingestion is designed to support use cases without authentication, 
 
 **How do I know if the email address hashing is done correctly?**
 
-Audience Manager is not ingesting the raw email address and we cannot validate that the hash was done correctly. See [Prerequisites and Considerations](people-based-destinations-prerequisites.md) for details on how you should hash the onboarded data.
+Audience Manager is not ingesting the raw email address and we cannot validate that the hash was done correctly. See [Prerequisites and Considerations](../features/destinations/people-based-destinations-prerequisites.md) for details on how you should hash the onboarded data.
 
 ## Profile Merge Rules
 

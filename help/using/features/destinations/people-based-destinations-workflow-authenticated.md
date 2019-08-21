@@ -73,7 +73,7 @@ The next step is creating a new merge rule that will help you create the audienc
 
 >[!IMPORTANT]
 >
->If you already have a rule defined with the **[!UICONTROL Current Authenticated Profiles]** or **[!UICONTROL Last Authenticated Profiles]** options, you can skip to [Step 4 - Create Audience Segments](#step-4---create-audience-segments).
+>If you already have a rule defined with the **[!UICONTROL Current Authenticated Profiles]** or **[!UICONTROL Last Authenticated Profiles]** options, you can skip to [Step 4 - Create Audience Segments](#create-audience-segments).
 
 1. Log in to your Audience Manager account and go to **[!UICONTROL Audience Data]** -> **[!UICONTROL Profile Merge Rules]**.
 2. Click **[!UICONTROL Add New Rule]**.
@@ -82,7 +82,7 @@ The next step is creating a new merge rule that will help you create the audienc
 5. In the **[!UICONTROL Cross-Device Profile Options]** list, select the data sources that you want to run the segmentation on. These should be the data sources containing your existing DPUUIDs.
     ![merge-rule-setup](assets/pbd-pmr-combined.png)
 
-## Step 4 - Create Audience Segments 
+## Step 4 - Create Audience Segments {#create-audience-segments}
 
 To create new segments, use the [Segment Builder](../segments/segment-builder.md). If you have existing audience segments that you want to send to [!DNL People-Based Destinations], skip to [Step 5 - Configure People-Based Platform Authentication](#step-5---configure-people-based-platform-authentication-configure-authentication).
 
@@ -113,6 +113,5 @@ To create new segments, use the [Segment Builder](../segments/segment-builder.md
 1. Click **[!UICONTROL Next]**.
 1. Choose the **[!UICONTROL Data Export Labels]** that you want to set for this destination.
 1. In the **[!UICONTROL Configuration]** section, select the data source that contains your hashed data sources.
-1. In the **[!UICONTROL Segment Mappings]** section, select the segments that you want to send to this destination. This would be the segments that you created at [Step 4 - Create Audience Segments](people-based-destinations-workflow-authenticated.md#create-audience-segments).
+1. In the **[!UICONTROL Segment Mappings]** section, select the segments that you want to send to this destination. This would be the segments that you created at [Step 4 - Create Audience Segments](#create-audience-segments).
 1. Save the destination.
-

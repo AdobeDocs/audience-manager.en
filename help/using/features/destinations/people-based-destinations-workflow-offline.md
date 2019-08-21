@@ -77,9 +77,9 @@ In this case, you need to create a new cross-device data source that will store 
 
 >[!IMPORTANT]
 >
-> This step only applies to [Scenario 2](people-based-destinations-workflow-offline.md#configure-data-source-settings) described above. If your existing [DPUUIDs](../../reference/ids-in-aam.md) are already hashed email addresses, skip to [Step 4 - Create a Profile Merge Rule for Segmentation](people-based-destinations-workflow-offline.md#create-merge-rule).
+> This step only applies to [Scenario 2](people-based-destinations-workflow-offline.md#configure-data-source-settings) described above. If your existing [DPUUIDs](../../reference/ids-in-aam.md) are already hashed email addresses, skip to [Step 4 - Create a Profile Merge Rule for Segmentation](#create-profile-merge-rule).
 
-Let's say you want to match your existing [DPUUIDs](../../reference/ids-in-aam.md) from the example at Step 1 to the hashed email addresses from the table below (right column), and store the hashed email addresses in the new data source that you created at [Step 2 - Configure Data Source Settings](people-based-destinations-workflow-offline.md#configure-data-source-settings).
+Let's say you want to match your existing [DPUUIDs](../../reference/ids-in-aam.md) from the example at Step 1 to the hashed email addresses from the table below (right column), and store the hashed email addresses in the new data source that you created at [Step 2 - Configure Data Source Settings](#configure-data-source-settings).
 
 As a reminder, you would now have two data sources:
 
@@ -110,15 +110,15 @@ In the example above, the file name would look like this: `c2c_id_999999_987654_
 
 [Download example file here](https://marketing.adobe.com/resources/help/en_US/aam/downloads/c2c_id_999999_987654_1560431657.sync).
 
-## Step 4 - Create a Profile Merge Rule for Segmentation {#create-profile-merge-rule-segmentation}
+## Step 4 - Create a Profile Merge Rule for Segmentation {#create-profile-merge-rule}
 
 The next step is creating a new merge rule that will help you create the audience segments to send to your [!DNL People-Based Destinations].
 
 1. Log in to your Audience Manager account and go to **[!UICONTROL Audience Data]** -> **[!UICONTROL Profile Merge Rules]**.
-1. Click [!UICONTROL Add New Rule].
-1. Enter a profile merge rule **[!UICONTROL Name]** and **[!UICONTROL Description]**.
-1. In the **[!UICONTROL Profile Merge Rule Setup]** section, select the **[!UICONTROL All Cross-Device Profiles]** rule from the **[!UICONTROL Cross-Device Options]** list.
-1. In the **[!UICONTROL Cross-Device Profile Options]** list, select the data source that your traits are onboarded against.
+2. Click [!UICONTROL Add New Rule].
+3. Enter a profile merge rule **[!UICONTROL Name]** and **[!UICONTROL Description]**.
+4. In the **[!UICONTROL Profile Merge Rule Setup]** section, select the **[!UICONTROL All Cross-Device Profiles]** rule from the **[!UICONTROL Cross-Device Options]** list.
+5. In the **[!UICONTROL Cross-Device Profile Options]** list, select the data source that your traits are onboarded against.
     ![merge-rule-setup](assets/pbd-pmr.png)
 
 ## Step 5 - Create Audience Segments {#create-audience-segments}
