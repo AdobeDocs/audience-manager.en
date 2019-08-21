@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Workflow A - Personalization Based on All Online Activity Combined with Offline Data
 ---
 
-# Workflow A - Personalization Based on All Online Activity Combined with Offline Data {#workflow-all-online-combined}
+# Workflow A - Personalization Based on All Online Activity Combined with Offline Data {#workflow-a}
 
 This page includes step-by-step guidance on how to combine offline [!DNL CRM] data with behavioral data that you already have in Audience Manager to create new audience segments, then send these audience segments to [!DNL People-Based Destinations].
 
@@ -38,7 +38,8 @@ In this case, you need to create a new cross-device data source that will store 
 
     ![pbd-datasource-settings](assets/pbd-ds-config.png)
 
->[!Note]
+>[!NOTE]
+>
 > See [Data Onboarding](people-based-destinations-prerequisites.md#data-onboarding) for frequently asked questions about how you should bring your offline data into Audience Manager for People-Based Destinations.
 
 ## Step 2 - Match DPUUIDs to Hashed Email Addresses via File-Based ID Synchronization {#match-ids-emails}
@@ -104,7 +105,7 @@ To create new audience segments, use the [Segment Builder](../segments/segment-b
 1. Log in to your Audience Manager account and go to **[!UICONTROL Administration]** > **[!UICONTROL Integrated Accounts]**. If you have a previously configured integration with a social platform, you should see it listed in this page. Otherwise, the page is empty.
     ![people-based-integration](assets/pbd-config.png)
 1. Click **[!UICONTROL Add Account]**.
-1. Use the [!UICONTROL People-Based Platform] drop-down menu to select the platform that you want to configure the integration with.
+1. Use the **[!UICONTROL People-Based Platform]** drop-down menu to select the platform that you want to configure the integration with.
     ![people-based-platform](assets/pbd-add.png)
 1. Click **[!UICONTROL Confirm]** to be redirected to the authentication page of the selected platform.
 1. Once you've authenticated to your social platform account, you are redirected to Audience Manager where you should see your associated advertiser accounts. Select the advertiser account that you want to use and click **[!UICONTROL Confirm]**.
