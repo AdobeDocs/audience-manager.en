@@ -101,6 +101,7 @@ Your [ID synchronization file](../../integration/sending-audience-data/batch-dat
 67412682083411995725538770443620307584<TAB>16d72e3edbeb089b299e0d12fc09522fdc5ece2d11dcb1304ecdd6fab4f7193a
 89159024796760343733111707646026765593<TAB>feec5debcea411f54462a345a0d90c9975415d2d4862745ff8af00c49b6b4ae6
 ```
+
 The [ID synchronization file](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) must follow this naming structure:
 
 `c2c_id_<DPUUID_DATA_SOURCE_ID>_<HASHED_EMAIL_DATA_SOURCE_ID>_TIMESTAMP.sync`
@@ -109,7 +110,7 @@ In the example above, the file name would look like this: `c2c_id_999999_987654_
 
 [Download example file here](https://marketing.adobe.com/resources/help/en_US/aam/downloads/c2c_id_999999_987654_1560431657.sync).
 
-# Step 4 - Create a Profile Merge Rule for Segmentation {#create-profile-merge-rule-segmentation}
+## Step 4 - Create a Profile Merge Rule for Segmentation {#create-profile-merge-rule-segmentation}
 
 The next step is creating a new merge rule that will help you create the audience segments to send to your [!DNL People-Based Destinations].
 

@@ -73,16 +73,16 @@ The next step is creating a new merge rule that will help you create the audienc
 
 >[!IMPORTANT]
 >
->If you already have a rule defined with the **[!UICONTROL Current Authenticated Profiles]** or **[!UICONTROL Last Authenticated Profiles]** options, you can skip to [Step 4 - Create Audience Segments]().
+>If you already have a rule defined with the **[!UICONTROL Current Authenticated Profiles]** or **[!UICONTROL Last Authenticated Profiles]** options, you can skip to [Step 4 - Create Audience Segments](#step-4---create-audience-segments).
 
 1. Log in to your Audience Manager account and go to **[!UICONTROL Audience Data]** -> **[!UICONTROL Profile Merge Rules]**.
-1. Click **[!UICONTROL Add New Rule]**.
-1. Enter a profile merge rule **[!UICONTROL Name]** and **[!UICONTROL Description]**.
-1. In the **[!UICONTROL Profile Merge Rule Setup]** section, select the **[!UICONTROL All Cross-Device Profiles]** rule from the **[!UICONTROL Cross-Device Options]** list.
-1. In the **[!UICONTROL Cross-Device Profile Options]** list, select the data sources that you want to run the segmentation on. These should be the data sources containing your existing DPUUIDs.
+2. Click **[!UICONTROL Add New Rule]**.
+3. Enter a profile merge rule **[!UICONTROL Name]** and **[!UICONTROL Description]**.
+4. In the **[!UICONTROL Profile Merge Rule Setup]** section, select the **[!UICONTROL All Cross-Device Profiles]** rule from the **[!UICONTROL Cross-Device Options]** list.
+5. In the **[!UICONTROL Cross-Device Profile Options]** list, select the data sources that you want to run the segmentation on. These should be the data sources containing your existing DPUUIDs.
     ![merge-rule-setup](assets/pbd-pmr-combined.png)
 
-## Step 4 - Create Audience Segments {#create-audience-segments}
+## Step 4 - Create Audience Segments 
 
 To create new segments, use the [Segment Builder](../segments/segment-builder.md). If you have existing audience segments that you want to send to [!DNL People-Based Destinations], skip to [Step 5 - Configure People-Based Platform Authentication](#step-5---configure-people-based-platform-authentication-configure-authentication).
 
@@ -90,12 +90,12 @@ To create new segments, use the [Segment Builder](../segments/segment-builder.md
 
 1. Log in to your Audience Manager account and go to **[!UICONTROL Administration]** > **[!UICONTROL Integrated Accounts]**. If you have a previously configured integration with a social platform, you should see it listed in this page. Otherwise, the page is empty.
     ![people-based-integration](assets/pbd-config.png)
-1. Click **[!UICONTROL Add Account]**.
-1. Use the **[!UICONTROL People-Based Platform]** drop-down menu to select the platform that you want to configure the integration with.
+2. Click **[!UICONTROL Add Account]**.
+3. Use the **[!UICONTROL People-Based Platform]** drop-down menu to select the platform that you want to configure the integration with.
     ![people-based-platform](assets/pbd-add.png)
-1. Click **[!UICONTROL Confirm]** to be redirected to the authentication page of the selected platform.
-1. Once you've authenticated to your social platform account, you are redirected to Audience Manager where you should see your associated advertiser accounts. Select the advertiser account that you want to use and click **[!UICONTROL Confirm]**.
-1. Audience Manager displays a notification at the top of the page to let you know whether the account was successfully added. The notification also allows you to add a contact email address to receive notifications when the social platform authentication is about to expire.
+4. Click **[!UICONTROL Confirm]** to be redirected to the authentication page of the selected platform.
+5. Once you've authenticated to your social platform account, you are redirected to Audience Manager where you should see your associated advertiser accounts. Select the advertiser account that you want to use and click **[!UICONTROL Confirm]**.
+6. Audience Manager displays a notification at the top of the page to let you know whether the account was successfully added. The notification also allows you to add a contact email address to receive notifications when the social platform authentication is about to expire.
 
 >[!IMPORTANT]
 >
