@@ -78,8 +78,17 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
         + Adobe Experience Cloud Destinations{#experience-cloud-destinations}
           + [Configure an Analytics Destination](/help/using/features/destinations/create-analytics-destination.md)
         + People-Based Destinations {#pbd}
+          + [Overview and Use Cases](/using/features/destinations/people-based-destinations-overview.md)
+          + [Prerequisites and Considerations](/using/features/destinations/people-based-destinations-prerequisites.md)
+          + [Implementation Guide]{#pbd-implementation}
+            + [Implementation Overview](using/features/destinations/people-based-destinations-workflow.md)
+            + [Workflow A - Personalization Based on All Online Activity Combined with Offline Data](using/features/destinations/people-based-destinations-workflow-combined.md)
+            + [Workflow B - Personalization Based on Offline-Only Data](using/features/destinations/people-based-destinations-workflow-offline.md)
+            + [Workflow C - Personalization Based on Authenticated Activity Combined with Offline Data](using/features/destinations/people-based-destinations-workflow-authenticated.md)
+          + [Authentication with People-Based Platforms](using/features/destinations/people-based-destinations-authentication.md)
+          + [Shareable Audiences](using/features/destinations/people-based-destinations-reporting.md)
         + Device-Based Destinations (Server-to-Server) {#device-based}
-          + [Add New Device-Based Destinations](/help/using/features/destinations/add-device-based-destinations.md)
+          + [Add New Device-Based Destinations](/using/features/destinations/add-device-based-destinations.md)
           + [Add or Edit Segments for Server-to-Server Destinations](/help/using/features/destinations/add-edit-segments.md)
           + [Configure Twitter Tailored Audiences as a Self-Service Device-Based Destination](/help/using/features/destinations/twitter-tailored-audiences.md)
         + Custom Destinations {#custom-destinations}
@@ -358,6 +367,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
     + [Data Collection and Product Integration FAQ](faq/faq-data-collection.md)
     + [Inbound Customer Data Ingestion FAQ](faq/faq-inbound-data-ingestion.md)
     + [Privacy and Data Retention FAQ](faq/faq-privacy.md)
+    + [People-Based Destinations FAQ](using/faq/faq-people-based-destinations.md)
     + [Product Features and Functions FAQ](faq/faq-features.md)
     + [Profile Merge Rules and Device Graph FAQ](faq/faq-profile-merge.md)
     + [Targeting FAQ](faq/faq-targeting.md)
