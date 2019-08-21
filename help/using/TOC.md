@@ -86,7 +86,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
             + [Workflow B - Personalization Based on Offline-Only Data](features/destinations/people-based-destinations-workflow-offline.md)
             + [Workflow C - Personalization Based on Authenticated Activity Combined with Offline Data](features/destinations/people-based-destinations-workflow-authenticated.md)
           + [Authentication with People-Based Platforms](features/destinations/people-based-destinations-authentication.md)
-          + [Shareable Audiences](/features/destinations/people-based-destinations-reporting.md)
+          + [Shareable Audiences](/help/using/features/destinations/people-based-destinations-reporting.md)
         + Device-Based Destinations (Server-to-Server) {#device-based}
           + [Add New Device-Based Destinations](features/destinations/add-device-based-destinations.md)
           + [Add or Edit Segments for Server-to-Server Destinations](features/destinations/add-edit-segments.md)
