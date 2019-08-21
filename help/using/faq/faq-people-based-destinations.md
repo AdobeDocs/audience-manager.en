@@ -22,7 +22,7 @@ Answers to common questions about [!DNL People-Based Destinations].
 
 There are two ways you can bring your offline data to Audience Manager for [!DNL People-Based Destinations].
 
-* **Use file-based ID synchronization**. See [Name and Content Requirements for ID Synchronization Files]() for details on what ID synchronization files should look like. When using this method, you can target all of the hashed email addresses from your [!DNL CRM] database.
+* **Use file-based ID synchronization**. See [Name and Content Requirements for ID Synchronization Files](../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) for details on what ID synchronization files should look like. When using this method, you can target all of the hashed email addresses from your [!DNL CRM] database.
 * **Use Declared IDs** to declare hashed email addresses when passing in authenticated customer IDs. When using this method, Audience Manager only activates the hashed email addresses from users who have authenticated online. The email addresses activated through Facebook are only the ones in the declared ID event calls. Other email addresses associated with the customer ID are not activated in real-time.
 
 **Can I collect hashed email addresses through a web form or mobile app or do they have to come through on a batch file?**
