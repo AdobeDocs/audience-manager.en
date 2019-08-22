@@ -57,7 +57,7 @@ Then, you want to qualify the CRM IDs below for the trait in the table.
 
 |DPUUID (CRM ID)|Email address|Hashed email address|Trait|
 |-|-|-|-|
-|68079982765673198504052656074456196039|johndoe@example.com|55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149|location = US|
+|68079982765673198504052656074456196039|`johndoe@example.com`|55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149|location = US|
 
 Your declared ID should follow this syntax:
 
