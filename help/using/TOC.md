@@ -77,7 +77,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
         + [Destinations Home Page](features/destinations/destinations-home.md)
         + Adobe Experience Cloud Destinations{#experience-cloud-destinations}
           + [Configure an Analytics Destination](features/destinations/create-analytics-destination.md)
-        + People-Based Destinations {#pbd}
+        + People-Based Destinations {#people-based-destinations}
           + [Overview and Use Cases](features/destinations/people-based-destinations-overview.md)
           + [Prerequisites and Considerations](features/destinations/people-based-destinations-prerequisites.md)
           + Implementation Guide {#pbd-implementation}
