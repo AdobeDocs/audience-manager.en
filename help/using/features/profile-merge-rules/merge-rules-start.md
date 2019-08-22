@@ -150,7 +150,7 @@ In the namespace key-value pair, the `*`MCORG`*` variable is your [!DNL Experien
 
 ### Configure SDKs
 
-See the [Configure SDKs](../../features/profile-merge-rules/merge-rules-start.md#configure-sdks) section below.
+See the [Configure SDKs](#configure-sdks-legacy-dil) section below.
 
 ## Legacy DIL {#legacy-dil}
 

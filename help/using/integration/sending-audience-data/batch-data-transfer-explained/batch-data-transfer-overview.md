@@ -90,4 +90,4 @@ Audience Manager provides the following environments for file drop-off:
 
 ## Further Technical Reading
 
-Systems engineers, developers, or technical/implementation teams should review [Batch Data Transfer Process Described](../../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md#batch-data-transfer-process) and the other articles in this section. These articles provide details about transfer protocols, file content, and file name requirements.
+Systems engineers, developers, or technical/implementation teams should review [Batch Data Transfer Process Described](../../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md) and the other articles in this section. These articles provide details about transfer protocols, file content, and file name requirements.

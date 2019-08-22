@@ -22,7 +22,7 @@ c_inbound_crm_data_ingestion.xml
 
 **Can you summarize the onboarding process?**
 
-The onboarding process consists of 2 core components described in [Batch Data Transfer Process Described](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md#batch-data-transfer-process). These involve:
+The onboarding process consists of 2 core components described in [Batch Data Transfer Process Described](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md). These involve:
 
 * ID synchronization
 * Inbound Data File ( [!DNL .sync] file or [!DNL .overwrite] file)
@@ -266,4 +266,4 @@ It depends. [!DNL Audience Manager] reads up to 119000 entries from the [!DNL Am
 
 >[!MORE_LIKE_THIS]
 >
->* [Batch Data Transfer Process Described](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md#batch-data-transfer-process)
+>* [Batch Data Transfer Process Described](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md)

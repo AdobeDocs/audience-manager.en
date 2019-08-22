@@ -76,7 +76,7 @@ Save the destination. Then, you can proceed to the **Segment Mappings** step.
 
 ## Step 2 - Segment Mappings - Map Segment to Destination {#step-2-segment-mappings}
 
-In the [Configure URL destination](/help/using/features/destinations/create-url-destination.md#) workflow, map the applicable segment to your newly created destination. Notice the mapping value is auto-populated with the Audience Manager segment ID.
+In the [Configure URL destination](/help/using/features/destinations/create-url-destination.md) workflow, map the applicable segment to your newly created destination. Notice the mapping value is auto-populated with the Audience Manager segment ID.
 
 Enter an end date if applicable, otherwise leave blank for no end date.
 

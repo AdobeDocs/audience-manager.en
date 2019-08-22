@@ -74,20 +74,29 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
     + [Derived Signals](features/derived-signals.md)
     + Destinations{#destinations}
         + [Destinations Overview](features/destinations/destinations.md)
-        + [Destinations Home Page](/help/using/features/destinations/destinations-home.md)
+        + [Destinations Home Page](features/destinations/destinations-home.md)
         + Adobe Experience Cloud Destinations{#experience-cloud-destinations}
-          + [Configure an Analytics Destination](/help/using/features/destinations/create-analytics-destination.md)
+          + [Configure an Analytics Destination](features/destinations/create-analytics-destination.md)
         + People-Based Destinations {#pbd}
+          + [Overview and Use Cases](features/destinations/people-based-destinations-overview.md)
+          + [Prerequisites and Considerations](features/destinations/people-based-destinations-prerequisites.md)
+          + Implementation Guide {#pbd-implementation}
+            + [Implementation Overview](features/destinations/people-based-destinations-workflow.md)
+            + [Workflow A - Personalization Based on All Online Activity Combined with Offline Data](features/destinations/people-based-destinations-workflow-combined.md)
+            + [Workflow B - Personalization Based on Offline-Only Data](features/destinations/people-based-destinations-workflow-offline.md)
+            + [Workflow C - Personalization Based on Authenticated Activity Combined with Offline Data](features/destinations/people-based-destinations-workflow-authenticated.md)
+          + [Authentication with People-Based Platforms](features/destinations/people-based-destinations-authentication.md)
+          + [Shareable Audiences](/help/using/features/destinations/people-based-destinations-reporting.md)
         + Device-Based Destinations (Server-to-Server) {#device-based}
-          + [Add New Device-Based Destinations](/help/using/features/destinations/add-device-based-destinations.md)
-          + [Add or Edit Segments for Server-to-Server Destinations](/help/using/features/destinations/add-edit-segments.md)
-          + [Configure Twitter Tailored Audiences as a Self-Service Device-Based Destination](/help/using/features/destinations/twitter-tailored-audiences.md)
+          + [Add New Device-Based Destinations](features/destinations/add-device-based-destinations.md)
+          + [Add or Edit Segments for Server-to-Server Destinations](features/destinations/add-edit-segments.md)
+          + [Configure Twitter Tailored Audiences as a Self-Service Device-Based Destination](features/destinations/twitter-tailored-audiences.md)
         + Custom Destinations {#custom-destinations}
-          + [Configure a URL Destination](/help/using/features/destinations/create-url-destination.md)
-          + [Configure a Cookie Destination](/help/using/features/destinations/create-cookie-destination.md)
-          + [Optional Settings for Cookie Destinations](/help/using/features/destinations/cookie-destination-options.md)
+          + [Configure a URL Destination](features/destinations/create-url-destination.md)
+          + [Configure a Cookie Destination](features/destinations/create-cookie-destination.md)
+          + [Optional Settings for Cookie Destinations](features/destinations/cookie-destination-options.md)
         + Destinations Reference {#destinations-reference}
-          + [Destination Builder](/help/using/features/destinations/destination-builder.md)
+          + [Destination Builder](features/destinations/destination-builder.md)
           + [get_aamCookie Code](features/destinations/get-aam-cookie-code.md)
           + [Destination Macros Defined](features/destinations/destination-macros.md)
           + [Standard and Serial Key-Value Pairs](features/destinations/key-value-pairs.md)
@@ -358,6 +367,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
     + [Data Collection and Product Integration FAQ](faq/faq-data-collection.md)
     + [Inbound Customer Data Ingestion FAQ](faq/faq-inbound-data-ingestion.md)
     + [Privacy and Data Retention FAQ](faq/faq-privacy.md)
+    + [People-Based Destinations FAQ](faq/faq-people-based-destinations.md)
     + [Product Features and Functions FAQ](faq/faq-features.md)
     + [Profile Merge Rules and Device Graph FAQ](faq/faq-profile-merge.md)
     + [Targeting FAQ](faq/faq-targeting.md)
