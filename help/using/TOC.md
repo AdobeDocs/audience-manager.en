@@ -70,7 +70,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
         + [Data Sources List and Settings](features/datasources-list-and-settings.md)
         + [Create a Data Source](features/manage-datasources.md)
         + [Global Data Sources](features/global-data-sources.md)
-    + [Declared IDs](help/using/features/declared-ids.md)
+    + [Declared IDs](features/declared-ids.md)
     + [Derived Signals](features/derived-signals.md)
     + Destinations{#destinations}
         + [Destinations Overview](features/destinations/destinations.md)

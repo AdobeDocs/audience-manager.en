@@ -84,7 +84,7 @@ The next step is creating a new merge rule that will help you create the audienc
 
 ## Step 4 - Create Audience Segments {#create-audience-segments}
 
-To create new segments, use the [Segment Builder](../segments/segment-builder.md). If you have existing audience segments that you want to send to [!DNL People-Based Destinations], skip to [Step 5 - Configure People-Based Platform Authentication](#step-5---configure-people-based-platform-authentication-configure-authentication).
+To create new segments, use the [Segment Builder](../segments/segment-builder.md). If you have existing audience segments that you want to send to [!DNL People-Based Destinations], skip to [Step 5 - Configure People-Based Platform Authentication](#configure-authentication).
 
 ## Step 5 - Configure People-Based Platform Authentication {#configure-authentication}
 
