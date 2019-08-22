@@ -80,7 +80,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
         + People-Based Destinations {#pbd}
           + [Overview and Use Cases](features/destinations/people-based-destinations-overview.md)
           + [Prerequisites and Considerations](features/destinations/people-based-destinations-prerequisites.md)
-          + [Implementation Guide]{#pbd-implementation}
+          + Implementation Guide {#pbd-implementation}
             + [Implementation Overview](features/destinations/people-based-destinations-workflow.md)
             + [Workflow A - Personalization Based on All Online Activity Combined with Offline Data](features/destinations/people-based-destinations-workflow-combined.md)
             + [Workflow B - Personalization Based on Offline-Only Data](features/destinations/people-based-destinations-workflow-offline.md)
