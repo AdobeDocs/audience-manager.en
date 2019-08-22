@@ -33,7 +33,7 @@ The DCS and PCS work together and separately provide services related to trait r
 In [!DNL Audience Manager], the DCS:
 
 * Receives and evaluates trait data from an event call. This includes information used for real-time segmentation and data passed in at scheduled intervals by server-to-server transfers. 
-* Segments users based on their realized traits and the qualification rules you create with [Segment Builder](../../features/segments/segment-builder.md#topic_E166819D26B94A868376BA54E10E4B74). 
+* Segments users based on their realized traits and the qualification rules you create with [Segment Builder](../../features/segments/segment-builder.md). 
 * Creates and manages device IDs and authenticated profile IDs. This includes identifiers such as data provider IDs, user IDs, declared IDs, integration codes, etc. 
 * Checks the PCS for additional traits a user has already realized prior to a real-time event call. This lets the DCS qualify users based on real-time data and historical data. 
 * Writes log files and sends those to analytics systems for storage and processing.

@@ -367,7 +367,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
     + [Data Collection and Product Integration FAQ](faq/faq-data-collection.md)
     + [Inbound Customer Data Ingestion FAQ](faq/faq-inbound-data-ingestion.md)
     + [Privacy and Data Retention FAQ](faq/faq-privacy.md)
-    + [People-Based Destinations FAQ](using/faq/faq-people-based-destinations.md)
+    + [People-Based Destinations FAQ](faq/faq-people-based-destinations.md)
     + [Product Features and Functions FAQ](faq/faq-features.md)
     + [Profile Merge Rules and Device Graph FAQ](faq/faq-profile-merge.md)
     + [Targeting FAQ](faq/faq-targeting.md)
