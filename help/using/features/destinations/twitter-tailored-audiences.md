@@ -59,10 +59,19 @@ To improve the user experience and streamline the configuration process, we are 
 Follow the steps below to migrate your existing [!DNL Twitter Tailored Audiences] destination to the self-service model.
 
 1. Log in to your Audience Manager account and go to **[!DNL Administration > Integrated Accounts]**.
-2. Click **[!DNL Add Account]**.
-3. Select [!DNL Twitter Tailored Audiences] and click **[!DNL Confirm]** to be redirected to the authentication page. ![integrated-platforms](assets/dbd-integrated-platforms.png)
-4. Once you've authenticated with your Twitter account, you are redirected to Audience Manager where you should see your associated advertiser accounts. Select the advertiser account that you want to use and click **[!DNL Confirm]**.
+1. Click **[!DNL Add Account]**.
+1. Select [!DNL Twitter Tailored Audiences] and click **[!DNL Confirm]** to be redirected to the authentication page. ![integrated-platforms](assets/dbd-integrated-platforms.png)
+1. Once you've authenticated with your [!DNL Twitter] account, you are redirected to Audience Manager where you should see your associated advertiser accounts. Select the advertiser account that you want to use and click **[!DNL Confirm]**.
+1. Go to **[!UICONTROL Audience Data]** > **[!UICONTROL Destinations]** and click the Twitter destination that you need to configure.
+1. Click **[!UICONTROL Edit]**. In the **[!UICONTROL Basic Information]** section, click the **[!UICONTROL Integrated Account]** drop-down menu and select the [!DNL Twitter] account that you have authenticated with at Step 4.
+1. **[!UICONTROL Save]** the destination.
 
+## Validating the Migration to Self-Service Administration {#migration-validation}
+
+The complete migration of existing [!DNL Twitter] integrations to self-service administration can take up to 7 days. Once the migration is complete, Audience Manager shows you a notification in the UI.
+
+You will also see a new set of audiences in your [!DNL Twitter] account, with their names prefixed by [!DNL [Adobe DMP Audience]]. Please allow up to 7 days for the audience population to be completely backfilled. Once the migration is complete, you should use these new audiences instead of the old ones.
+    
 ## Segment Mapping Considerations {#segment-mapping-considerations}
 
 When mapping audience segments to Twitter, make sure to meet the following segment naming requirements:
