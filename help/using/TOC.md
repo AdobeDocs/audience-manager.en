@@ -77,10 +77,14 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
         + [Destinations Home Page](features/destinations/destinations-home.md)
         + Adobe Experience Cloud Destinations{#experience-cloud-destinations}
           + [Configure an Analytics Destination](features/destinations/create-analytics-destination.md)
+<<<<<<< Updated upstream
         + People-Based Destinations {#pbd}
+=======
+        + People-Based Destinations {#people-based}
+>>>>>>> Stashed changes
           + [Overview and Use Cases](features/destinations/people-based-destinations-overview.md)
           + [Prerequisites and Considerations](features/destinations/people-based-destinations-prerequisites.md)
-          + Implementation Guide {#pbd-implementation}
+          + Implementation Guide {#implementation-guide}
             + [Implementation Overview](features/destinations/people-based-destinations-workflow.md)
             + [Workflow A - Personalization Based on All Online Activity Combined with Offline Data](features/destinations/people-based-destinations-workflow-combined.md)
             + [Workflow B - Personalization Based on Offline-Only Data](features/destinations/people-based-destinations-workflow-offline.md)
