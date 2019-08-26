@@ -20,9 +20,6 @@ Audience Manager provides industry-leading services for online audience data man
      <li><a href="features/destinations/twitter-tailored-audiences.md">Configure Twitter Tailored Audiences as a Self-Service Device-Based Destination</a> </li>
      <li><a href="features/destinations/destinations-home.md">Destinations Home Page</a> </li>
      <li><a href="features/administration/ip-obfuscation.md">IP Address Obfuscation</a> </li>
-     <li><a href="overview/aam-gdpr/aam-iab-plugin.md">Audience Manager Plug-in for IAB TCF</a> </li>
-     <li><a href="features/administration/usage-limits.md#id-mapping-limits">ID Mapping Limits</a> </li>
-     <li><a href="features/global-data-sources.md">Global Data Sources</a> </li> 
      </ul> </p> <p>See also, <a href="docs-updates/docs-2019.md"> 2019 Documentation Updates</a>. </p> 
      <p>If you are new to Audience Manager, see our <a href="reference/aam-glossary.md"> Glossary</a> and <a href= "reference/ids-in-aam.md">Index of IDs.</a></p></td>
    <td colname="col2"> <p> <b>Release Notes</b> </p> <p> 
