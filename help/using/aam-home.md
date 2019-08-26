@@ -33,7 +33,7 @@ Audience Manager provides industry-leading services for online audience data man
       <li id="li_1938F7044F544481A6CC0F45CC22B80A"> <a href="https://helpx.adobe.com/learning.html?promoid=KAUDK" scope="external" format="http"> Adobe Training and Tutorials</a> </li> 
       <li id="li_C71459E0D1464C05B8B9387C43541F17"> <a href="https://marketing.adobe.com/resources/help/en_US/home/index.html" scope="external" format="https"> Product Documentation Home</a> </li> 
       <li id="li_0DB1997FEB87484EBC07E03FD40AA39F"><a href="https://helpx.adobe.com/support/audience-manager.html" format="https" scope="external"> Audience Manager Learn &amp; Support</a> </li> 
-     </ul> </p> </td> 
+     </ul> </p> </td>
   </tr> 
  </tbody> 
 </table>
