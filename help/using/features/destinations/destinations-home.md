@@ -19,7 +19,7 @@ The default landing page lists your destinations, based on type. You can filter 
 
 * **All**: shows all types of destinations.
 * **Adobe Experience Cloud**: shows destinations which send data to other Adobe Experience Cloud solutions. Currently, the only supported option is Adobe Analytics. See [Configure an Analytics Destination](/help/using/features/destinations/create-analytics-destination.md).
-* **Integrated Platforms**: shows people-based and device-based destinations (also named server-to-server destinations). Note that people-based destinations are currently a beta feature only available to selected customers.
+* **Integrated Platforms**: shows people-based and device-based destinations (also named server-to-server destinations).
 * **Custom**: shows cookie and URL destinations. 
 
 

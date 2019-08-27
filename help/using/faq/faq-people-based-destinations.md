@@ -10,13 +10,13 @@ title: People-Based Destinations FAQ
 
 Answers to common questions about [!DNL People-Based Destinations].
 
-## Availability
+## Availability {#availability}
 
 **I cannot see [!DNL People-Based Destinations] in my Audience Manager account. What do I need to know about availability?**
 
 [!DNL People-Based Destinations] is a premium Audience Manager feature that is available upon purchase. Please contact your Adobe sales representative for details about pricing and availability.
 
-## Data Onboarding
+## Data Onboarding {#data-onboarding}
 
 **How can I onboard customer email addresses into Audience Manager, so that I can use them in [!DNL People-Based Destinations]?**
 
@@ -33,7 +33,7 @@ You can collect hashed email addresses through web authentication using [!DNL EC
 
 Offline data ingestion is designed to support use cases without authentication, and a new profile merge rule ([!UICONTROL All Cross-Device Profiles]) that runs on all of the offline [!DNL CRM] profiles irrespective of authentication is available as part of [!DNL People-Based Destinations]. This method is meant to complement the ingestion of authenticated audiences from online sources.
 
-**What is the maximum frequency at which I can send/update hashed email addresses?​**
+**What is the maximum frequency at which I can send/update hashed email addresses?**
 
 * When using Declared IDs, Audience Manager sends the hashed email addresses to the destination in real time.
 * When ingesting data through ID synchronization files, Audience Manager processes them on a daily basis.
@@ -42,7 +42,7 @@ Offline data ingestion is designed to support use cases without authentication, 
 
 Audience Manager is not ingesting the raw email address and we cannot validate that the hash was done correctly. See [Prerequisites and Considerations](../features/destinations/people-based-destinations-prerequisites.md) for details on how you should hash the onboarded data.
 
-## Profile Merge Rules
+## Profile Merge Rules {#profile-merge-rules}
 
 **Is there a new profile merge rule that I can use with [!DNL People-Based Destinations]?**
 
@@ -54,10 +54,10 @@ It depends on your use case. If you plan on activating existing first-party segm
 
 If you plan on activating new offline audiences in people-based channels, you need to create new first-party segments using the [!DNL All Cross-Device Profiles] merge rule.
 >[!NOTE]
-> 
+>
 > You can only map segments with first-party data to [!DNL People-Based Destinations]. Our destination platforms do not accept segments with second- and third-party data.
 
-## Match Rates
+## Match Rates {#match-rates}
 
 **Do [!DNL People-Based Destinations] have visibility into match rates or addressable audiences?**
 
@@ -71,13 +71,13 @@ As long as the email address is hashed and ingested correctly, there should be n
 
 Audience Manager can collect and send up to 10 emails per user to destination platforms, but the email addresses need to be captured through synchronization files. After Audience Manager sends the email addresses to destination platforms, it is up to the platforms to match the email addresses against their own user base. Some platforms may have additional email address graphs to match addresses sent from Audience Manager to user profiles.
 
-## Data Export Controls
+## Data Export Controls {#data-export-controls}
 
 **How do [!DNL Data Export Controls] work with [!DNL People-Based Destinations]?**
 
 [!DNL Data Export Controls] will block any segments containing second- and third-party data that users attempt to send to [!DNL People-Based Destinations]. [!DNL People-Based Destinations] only allow first-party data to be used for targeting. [!DNL Data Export Controls] also block segments using [!DNL Profile Merge Rules] with device graphs. [!DNL People-Based Destinations] are created with the appropriate data export labels checked and you cannot overwrite the export settings.
 
-## Partner Specific Questions
+## Partner Specific Questions {#partner-specific-questions}
 
 ### [!DNL Facebook]
 
@@ -86,11 +86,11 @@ Audience Manager can collect and send up to 10 emails per user to destination pl
 Before you can use [!DNL People-Based Destinations] to send audience segments to [!DNL Facebook], you need to perform the following configuration tasks:
 
 1. Add the Adobe Experience Cloud business account as an advertising partner in your [!DNL Facebook Ad Account]. Use `business ID=206617933627973`. See Add Partners to Your Business Manager for details.
-    
+
     >[!IMPORTANT]
     >
     > When configuring the permissions for Adobe Experience Cloud, you must enable the Manage campaigns permission. This is required for the [!DNL People-Based Destinations] integration.
- 
+
 1. Read and sign the [!DNL Facebook Custom Audiences Terms of Service]. To do this, go to `https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]`, where `accountID` is your [!DNL Facebook Ad Account ID].
 
 **Do [!DNL People-Based Destinations] support audience targeting in other [!DNL Facebook] apps, such as [!DNL Instagram]?**
@@ -104,6 +104,3 @@ You can use [!DNL People-Based Destinations] across [!DNL Facebook]’s family o
 You can use Audience Manager’s [!DNL Facebook] [!DNL WCA] integration via the [!DNL URL Destinations] feature at no extra cost.
 
 These two integrations are complementary; you can use both to ensure better audience coverage. As an example, [!DNL WCA] can be used for prospecting when a company is looking to target website visitors who have not registered an account, whereas [!DNL People-Based Destinations] can help you target existing customers who have supplied their email address but maybe not visited the website.
-
-
-

@@ -10,16 +10,13 @@ title: Workflow C - Personalization Based on Authenticated Activity Combined wit
 
 This page includes step-by-step guidance on how to combine offline [!DNL CRM] data with real-time behavioral data for authenticated users to create audience segments, then send these audience segments to [!DNL People-Based Destinations].
 
-
 ## Step 1 - Configure Data Source Settings {#configure-data-source-settings}
 
 Depending on whether your [DPUUIDs](../../reference/ids-in-aam.md) are lowercase, hashed email addresses, you might need to configure the data source that will store the hashed email addresses.
 
 **Scenario 1: your [DPUUIDs](../../reference/ids-in-aam.md) are already lowercase, hashed email addresses.**
 
-In this case, skip to Step 5 - Configure People-Based Platform Authentication.
-
-
+In this case, skip to [Step 5 - Configure People-Based Platform Authentication](#configure-authentication).
 
 **Scenario 2: your [DPUUIDs](../../reference/ids-in-aam.md) are not lowercase, hashed email addresses.**
 

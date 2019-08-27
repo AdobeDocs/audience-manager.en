@@ -20,7 +20,7 @@ This metric has a 1 day look-back period. This helps you understand the audience
 
 ## Destination Shareable Audience {#destination-shareable-audience}
 
-The [!DNL Destination Shareable Audience] metric in a people-based destination page indicates the total number of hashed email addresses from the data source with matching DPUUIDs, that Audience Manager can share with the destination platform, from all segments mapped to that destination.
+The [!DNL Destination Shareable Audience] metric in a people-based destination page indicates the total number of hashed email addresses from the data source with matching [DPUUIDs](../../reference/ids-in-aam.md), that Audience Manager can share with the destination platform, from all segments mapped to that destination.
 
 ![shareable-audiences](assets/dest-shareable-audiences.png)
 
@@ -46,4 +46,4 @@ In this scenario:
 
 > [!NOTE]
 >
-> In the example above, it does not mean that all the 80,000 hashed email addresses from the three segments match existing accounts in the destination platforms. It only means that Audience Manager sends the hashed identifiers from the three segments to their respective destinations. When sending audience segments to people-based destinations, audience matching happens on the partner side. Destination A may have up to 30,000 matching user accounts, whereas Destination B may have up to 50,000 matching user accounts, but there is no guarantee of match rates. Adobe does not have access to partner-specific metrics. See Match Rates for frequently asked questions about People-Based Destinations visibility in match rates.
+> In the example above, it does not mean that all the 80,000 hashed email addresses from the three segments match existing accounts in the destination platforms. It only means that Audience Manager sends the hashed identifiers from the three segments to their respective destinations. When sending audience segments to people-based destinations, audience matching happens on the partner side. Destination A may have up to 30,000 matching user accounts, whereas Destination B may have up to 50,000 matching user accounts, but there is no guarantee of match rates. Adobe does not have access to partner-specific metrics. See [Match Rates](../../faq/faq-people-based-destinations.md#match-rates) for frequently asked questions about People-Based Destinations visibility in match rates.
