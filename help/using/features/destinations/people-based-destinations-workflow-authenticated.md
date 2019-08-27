@@ -45,15 +45,15 @@ To qualify authenticated users for rule-based traits, you need to send the trait
 
 Let's say you have created the following two data sources.
 
-|Data source ID |Data source contents |
-|-|-|
+| Data source ID | Data source contents |
+|---|---|
 |999999|Existing DPUUIDs (CRM IDs)|
 |987654|Hashed email addresses|
 
 Then, you want to qualify the CRM IDs below for the trait in the table.
 
 |DPUUID (CRM ID)|Email address|Hashed email address|Trait|
-|-|-|-|-|
+|---|---|---|---|
 |68079982765673198504052656074456196039|`johndoe@example.com`|55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149|location = US|
 
 Your declared ID should follow this syntax:
