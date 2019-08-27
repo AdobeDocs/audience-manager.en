@@ -89,7 +89,7 @@ The table defines the elements in an outbound data file name.
 
 ### Scenario 1
 
-Files sent over to an [!DNL Amazon S3] location, with *`PID-ALIAS="XYZCustomer"`* and with [!DNL Google Advertiser IDs] in the file content.
+Files sent over to an [!DNL Amazon S3] location, with *`PID_ALIAS="XYZCustomer"`* and with [!DNL Google Advertiser IDs] in the file content.
 
 E.g. incremental files:
 
@@ -108,7 +108,7 @@ E.g. full files:
 
 ### Scenario 2
 
-Files sent over to [!DNL FTP] location, without *`PID-ALIAS`* and with [!DNL Apple Advertiser IDs] in the file content:
+Files sent over to [!DNL FTP] location, without *`PID_ALIAS`* and with [!DNL Apple Advertiser IDs] in the file content:
 
 E.g. incremental files:
 
@@ -124,7 +124,7 @@ E.g. full files:
  <li> <code> ftp_1234_20915_full_1486140843000001.sync.gz </code> </li> 
 </ul>
 
-**Scenario 3**: Files sent over to [!DNL FTP] location, with *`PID-ALIAS="XYZCustomer"`* and with 3rd party User ID in the file content ( *`Vendor ID=45454`*):
+**Scenario 3**: Files sent over to [!DNL FTP] location, with *`PID_ALIAS="XYZCustomer"`* and with 3rd party User ID in the file content ( *`Vendor ID=45454`*):
 
 E.g. incremental files:
 
