@@ -1,6 +1,6 @@
 ---
-description: Use people-based destinations to send first-party audience segments to people-based environments. These environments are closed ecosystems belonging to one entity that controls the content that is being displayed within it. They include social platforms such as Facebook, email marketing, mobile messaging, and other platforms that rely on customer accounts to personalize the displayed content. 
-seo-description: Use people-based destinations to send first-party audience segments to people-based environments. These environments are closed ecosystems belonging to one entity that controls the content that is being displayed within it. They include social platforms such as Facebook, email marketing, mobile messaging, and other platforms that rely on customer accounts to personalize the displayed content.  
+description: Use people-based destinations to send first-party audience segments to people-based environments. These environments are closed ecosystems belonging to one entity that controls the content that is being displayed within it. They include social platforms such as Facebook, and other platforms that rely on customer accounts to personalize the displayed content. 
+seo-description: Use people-based destinations to send first-party audience segments to people-based environments. These environments are closed ecosystems belonging to one entity that controls the content that is being displayed within it. They include social platforms such as Facebook, and other platforms that rely on customer accounts to personalize the displayed content.  
 seo-title: People-Based Destinations Overview and Use Cases
 solution: Audience Manager
 title: Overview and Use Cases
@@ -8,7 +8,7 @@ title: Overview and Use Cases
 
 # Overview and Use Cases {#overview-use-cases}
 
-Use [!DNL People-Based Destinations] to send first-party audience segments to people-based environments. These environments are closed ecosystems belonging to one entity that controls the content that is being displayed within it. They include social platforms such as [!DNL Facebook], email marketing, mobile messaging, and other platforms that rely on customer accounts to personalize the displayed content.
+Use [!DNL People-Based Destinations] to send first-party audience segments to people-based environments. These environments are closed ecosystems belonging to one entity that controls the content that is being displayed within it. They include social platforms such as [!DNL Facebook], and other platforms that rely on customer accounts to personalize the displayed content.
 
 ## Overview {#overview}
 
