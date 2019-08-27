@@ -70,7 +70,7 @@ Follow the steps below to migrate your existing [!DNL Twitter Tailored Audiences
 
 The complete migration of existing [!DNL Twitter] integrations to self-service administration can take up to 7 days. Once the migration is complete, Audience Manager shows you a notification in the UI.
 
-You will also see a new set of audiences in your [!DNL Twitter] account, with their names prefixed by [!DNL [Adobe DMP Audience]]. Please allow up to 7 days for the audience population to be completely backfilled. Once the migration is complete, you should use these new audiences instead of the old ones.
+You will also see a new set of audiences in your [!DNL Twitter] account, with their names prefixed by [[!DNL Adobe DMP Audience]]. Please allow up to 7 days for the audience population to be completely backfilled. Once the migration is complete, you should use these new audiences instead of the old ones.
     
 ## Segment Mapping Considerations {#segment-mapping-considerations}
 
