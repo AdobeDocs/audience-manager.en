@@ -7,8 +7,8 @@ getting-started-title: Getting Started
 getting-started-url: https://helpx.adobe.com/audience-manager/get-started.html
 tutorials-title: Tutorials
 tutorials-url: https://helpx.adobe.com/audience-manager/kt/index/aam-videos.html
-git-repo: https://git.corp.adobe.com/AdobeDocs/audience-manager.en
-index: no
+git-repo: https://github.com/AdobeDocs/audience-manager.en
+index: y
 ---
 
 # Metadata for internal use
