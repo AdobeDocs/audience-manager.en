@@ -52,9 +52,9 @@ Let's say you want to match your existing [DPUUIDs](../../reference/ids-in-aam.m
 
 | DPUUID (CRM ID) | Email address | Hashed email address |
 | --- | --- | --- |
-68079982765673198504052656074456196039 | `johndoe@example.com` | 55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149
-67412682083411995725538770443620307584 | `janedoe@email.com` | 16d72e3edbeb089b299e0d12fc09522fdc5ece2d11dcb1304ecdd6fab4f7193a
-89159024796760343733111707646026765593 | `name@mydomain.com` |feec5debcea411f54462a345a0d90c9975415d2d4862745ff8af00c49b6b4ae6
+| 68079982765673198504052656074456196039 | `johndoe@example.com` | 55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149 |
+| 67412682083411995725538770443620307584 | `janedoe@email.com` | 16d72e3edbeb089b299e0d12fc09522fdc5ece2d11dcb1304ecdd6fab4f7193a |
+| 89159024796760343733111707646026765593 | `name@mydomain.com` |feec5debcea411f54462a345a0d90c9975415d2d4862745ff8af00c49b6b4ae6 |
 
 You can link up to 10 hashed email addresses to a single [DPUUID](../../reference/ids-in-aam.md). To do this, separate the hashed email addresses with a comma, inside the synchronization file.
 
