@@ -28,7 +28,12 @@ The [!UICONTROL Trait Graph] provides at-a-glance performance metrics for your s
 * **Unique Trait Realizations**: A count of unique users that added this trait to their profile over the given time range.
 * **Total Trait Population**: The number of unique users currently qualified for this trait.
 
-![](assets/traitGraph.png)
+    ![trait-graph](assets/trait-summary.png)
+
+* **Identity Type Breakdown**: The first three entries show the top three cross-device data sources with the highest population count that have qualified for the trait, in descending order. The fourth entry shows the sum of all the other [!DNL DPUUIDs] ([!DNL CRM IDs]) that qualified for the trait, from the cross-device data sources that are not in the top three. This report appears only if you select Cross-device ID in the [!UICONTROL Show Results By] drop-down menu at the top right side of the page. The default drop-down option is [!UICONTROL Device ID], where this report is not displayed.
+
+    ![trait-graph](assets/trait-identity.png)
+
 
 ## Trait Expression {#trait-expression}
 
