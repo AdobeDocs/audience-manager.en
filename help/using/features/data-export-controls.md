@@ -40,7 +40,7 @@ Additionally, at least one export label must match an export control before data
 
 >[!IMPORTANT]
 >
->[You can not block the export of a segment by placing a data export control on the data source of the segment, you must set the control on either of:
+>You can not block the export of a segment by placing a data export control on the data source of the segment, you must set the control on either of:
 > * The data sources of the traits used in the segment;
 > * The profile merge rule leveraged by the segment;
 > * Any of the data sources that the segment's profile merge rule uses.
