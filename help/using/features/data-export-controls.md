@@ -21,7 +21,7 @@ uuid: de7f3608-c0cb-4049-973a-8be54525c600
 Based on the classifications applied to a data source and destination, the export controls stop you from:
 
 * Adding a trait to a segment when the trait belongs to a data source that has a data export control that is incompatible with a data export label on one or more of the destinations that the segment is mapped to.
-For example, say a segment is mapped to a destination with the export label **[UICONTROL! This destination may enable a combination with personally identifiable information (PII)]**. Export controls stop you from adding a trait to that segment if the data source that the trait belongs to has a data export control that says **[UICONTROL! Cannot be tied to personally identifiable information (PII)]**.
+For example, say a segment is mapped to a destination with the export label **[!DNL This destination may enable a combination with personally identifiable information (PII)]**. Export controls stop you from adding a trait to that segment if the data source that the trait belongs to has a data export control that says **[!DNL Cannot be tied to personally identifiable information (PII)]**. 
 * Sending any data to a destination destination has a data export label that is blocked by a data export control on any of:
   * The data source of an included trait;
   * The data source of a trait that is used in an included segment;
@@ -40,7 +40,7 @@ Additionally, at least one export label must match an export control before data
 
 >[!IMPORTANT]
 >
->[You can not block the export of a segment by placing a data export control on the data source of the segment, you must set the control on either of:
+>You can not block the export of a segment by placing a data export control on the data source of the segment, you must set the control on either of:
 > * The data sources of the traits used in the segment;
 > * The profile merge rule leveraged by the segment;
 > * Any of the data sources that the segment's profile merge rule uses.
