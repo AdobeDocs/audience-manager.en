@@ -24,11 +24,11 @@ Regardless of whether your existing Audience Manager customer IDs ([DPUUIDs](../
 
 You want to qualify the customer IDs from the table below for the corresponding onboarded trait IDs. Let's consider that your [DPUUIDs](../../reference/ids-in-aam.md) are stored in a data source with the ID 999999, and your Audience Manager Partner ID is 123.
 
-|Customer ID (DPUUID)| Onboarded Trait ID |
-|-|-|
-|68079982765673198504052656074456196039|12345, 23456 |
-|67412682083411995725538770443620307584 |45678|
-|89159024796760343733111707646026765593 |11223, 93342, 27341|
+| Customer ID (DPUUID)                   | Onboarded Trait ID  |
+| -------------------------------------- | ------------------- |
+| 68079982765673198504052656074456196039 | 12345, 23456        |
+| 67412682083411995725538770443620307584 | 45678               |
+| 89159024796760343733111707646026765593 | 11223, 93342, 27341 |
 
 To qualify the customer IDs in the example above for the corresponding onboarded traits, you must upload an [inbound data file](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) with the following contents:
 
@@ -83,16 +83,18 @@ Let's say you want to match your existing [DPUUIDs](../../reference/ids-in-aam.m
 
 As a reminder, you would now have two data sources:
 
-|Data source ID |Data source contents |
-|---|---|
-|999999|Existing DPUUIDs (CRM IDs)|
-|987654|Hashed email addresses|
+| Data source ID | Data source contents       |
+| -------------- | -------------------------- |
+| 999999         | Existing DPUUIDs (CRM IDs) |
+| 987654         | Hashed email addresses     |
 
-|DPUUIDs (CRM IDs)|Email address|Hashed email address|
-|---|---|---|
-|68079982765673198504052656074456196039 |`johndoe@example.com` |55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149|
-|67412682083411995725538770443620307584 |`janedoe@email.com`|16d72e3edbeb089b299e0d12fc09522fdc5ece2d11dcb1304ecdd6fab4f7193a|
-|89159024796760343733111707646026765593 |`name@mydomain.com`|feec5debcea411f54462a345a0d90c9975415d2d4862745ff8af00c49b6b4ae6|
+| DPUUIDs (CRM IDs)                      | Email address         | Hashed email address                                             |
+| -------------------------------------- | --------------------- | ---------------------------------------------------------------- |
+| 68079982765673198504052656074456196039 | `johndoe@example.com` | 55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149 |
+| 67412682083411995725538770443620307584 | `janedoe@email.com`   | 16d72e3edbeb089b299e0d12fc09522fdc5ece2d11dcb1304ecdd6fab4f7193a |
+| 89159024796760343733111707646026765593 | `name@mydomain.com`   | feec5debcea411f54462a345a0d90c9975415d2d4862745ff8af00c49b6b4ae6 |
+
+<br/>
 
 Your [ID synchronization file](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) would have the following contents:
 
@@ -102,9 +104,13 @@ Your [ID synchronization file](../../integration/sending-audience-data/batch-dat
 89159024796760343733111707646026765593<TAB>feec5debcea411f54462a345a0d90c9975415d2d4862745ff8af00c49b6b4ae6
 ```
 
+<br/>
+
 The [ID synchronization file](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) must follow this naming structure:
 
 `c2c_id_<DPUUID_DATA_SOURCE_ID>_<HASHED_EMAIL_DATA_SOURCE_ID>_TIMESTAMP.sync`
+
+<br/>
 
 In the example above, the file name would look like this: `c2c_id_999999_987654_1560431657.sync`
 
