@@ -14,6 +14,8 @@ This page includes step-by-step guidance on how to combine offline [!DNL CRM] da
 
 Depending on whether your [DPUUIDs](../../reference/ids-in-aam.md) are lowercase, hashed email addresses, you might need to configure the data source that will store the hashed email addresses.
 
+&nbsp;
+
 **Scenario 1: your [DPUUIDs](../../reference/ids-in-aam.md) are already lowercase, hashed email addresses.**
 
 In this case, you need to need to label the corresponding data source as such:
@@ -22,6 +24,8 @@ In this case, you need to need to label the corresponding data source as such:
 1. Find the data source that contains your [DPUUIDs](../../reference/ids-in-aam.md), and click it.
 1. Make sure the option [!UICONTROL Cannot be tied to personally identifiable information] is unchecked.
 1. Save the data source settings.
+
+&nbsp;
 
 **Scenario 2: your [DPUUIDs](../../reference/ids-in-aam.md) are not lowercase, hashed email addresses.**
 
@@ -56,6 +60,8 @@ Let's say you want to match your existing [DPUUIDs](../../reference/ids-in-aam.m
 | 67412682083411995725538770443620307584 | `janedoe@email.com`   | 16d72e3edbeb089b299e0d12fc09522fdc5ece2d11dcb1304ecdd6fab4f7193a |
 | 89159024796760343733111707646026765593 | `name@mydomain.com`   | feec5debcea411f54462a345a0d90c9975415d2d4862745ff8af00c49b6b4ae6 |
 
+&nbsp;
+
 You can link up to 10 hashed email addresses to a single [DPUUID](../../reference/ids-in-aam.md). To do this, separate the hashed email addresses with a comma, inside the synchronization file.
 
 In our example, you would now have two data sources.
@@ -65,6 +71,8 @@ In our example, you would now have two data sources.
 | 999999         | Existing DPUUIDs (CRM IDs) |
 | 987654         | Hashed email addresses     |
 
+&nbsp;
+
 Your [ID synchronization file](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) would have the following contents:
 
 ```
@@ -73,9 +81,13 @@ Your [ID synchronization file](../../integration/sending-audience-data/batch-dat
 89159024796760343733111707646026765593<TAB>feec5debcea411f54462a345a0d90c9975415d2d4862745ff8af00c49b6b4ae6
 ```
 
+&nbsp;
+
 The [ID synchronization file](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) must follow this naming structure:
 
 `c2c_id_<DPUUID_DATA_SOURCE_ID>_<HASHED_EMAIL_DATA_SOURCE_ID>_TIMESTAMP.sync`
+
+&nbsp;
 
 In the example above, the file name would look like this:
 `c2c_id_999999_987654_1560431657.sync`

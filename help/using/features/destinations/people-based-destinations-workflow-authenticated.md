@@ -14,9 +14,13 @@ This page includes step-by-step guidance on how to combine offline [!DNL CRM] da
 
 Depending on whether your [DPUUIDs](../../reference/ids-in-aam.md) are lowercase, hashed email addresses, you might need to configure the data source that will store the hashed email addresses.
 
+&nbsp;
+
 **Scenario 1: your [DPUUIDs](../../reference/ids-in-aam.md) are already lowercase, hashed email addresses.**
 
 In this case, skip to [Step 5 - Configure People-Based Platform Authentication](#configure-authentication).
+
+&nbsp;
 
 **Scenario 2: your [DPUUIDs](../../reference/ids-in-aam.md) are not lowercase, hashed email addresses.**
 
@@ -50,15 +54,21 @@ Let's say you have created the following two data sources.
 | 999999         | Existing DPUUIDs (CRM IDs) |
 | 987654         | Hashed email addresses     |
 
+&nbsp;
+
 Then, you want to qualify the CRM IDs below for the trait in the table.
 
 | DPUUID (CRM ID)                        | Email address         | Hashed email address                                             | Trait         |
 | -------------------------------------- | --------------------- | ---------------------------------------------------------------- | ------------- |
 | 68079982765673198504052656074456196039 | `johndoe@example.com` | 55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149 | location = US |
 
+&nbsp;
+
 Your declared ID should follow this syntax:
 
 `https://yourDomain.demdex.net/event?d_cid_ic=myHashedEmailDataSourceID%01myHashedEmail&d_cid_ic=myCrmDataSourceID%01myCRMID&key=value`
+
+&nbsp;
 
 In the example above, the declared ID call should look like this:
 

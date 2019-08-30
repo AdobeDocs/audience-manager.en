@@ -24,12 +24,13 @@ Regardless of whether your existing Audience Manager customer IDs ([DPUUIDs](../
 
 You want to qualify the customer IDs from the table below for the corresponding onboarded trait IDs. Let's consider that your [DPUUIDs](../../reference/ids-in-aam.md) are stored in a data source with the ID 999999, and your Audience Manager Partner ID is 123.
 
-| Customer ID (DPUUID)                   | Onboarded Trait ID  |
+| Customer ID (DPUUID) | Onboarded Trait ID  |
 | -------------------------------------- | ------------------- |
 | 68079982765673198504052656074456196039 | 12345, 23456        |
 | 67412682083411995725538770443620307584 | 45678               |
 | 89159024796760343733111707646026765593 | 11223, 93342, 27341 |
 
+<br />
 To qualify the customer IDs in the example above for the corresponding onboarded traits, you must upload an [inbound data file](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) with the following contents:
 
 ```
@@ -45,6 +46,8 @@ See [Amazon S3 Name and File Size Requirements for Inbound Data Files](../../int
 
 Depending on whether your [DPUUIDs](../../reference/ids-in-aam.md) are lowercase, hashed email addresses, you might need to configure the data source that will store the hashed email addresses.
 
+&nbsp;
+
 **Scenario 1: your [DPUUIDs](../../reference/ids-in-aam.md) are already lowercase, hashed email addresses.**
 
 In this case, you need to need to label the corresponding data source as such:
@@ -53,6 +56,8 @@ In this case, you need to need to label the corresponding data source as such:
 1. Find the data source that contains your [DPUUIDs](../../reference/ids-in-aam.md), and click it.
 1. Make sure the option **[!UICONTROL Cannot be tied to personally identifiable information]** is unchecked.
 1. Save the data source settings.
+
+&nbsp;
 
 **Scenario 2: your [DPUUIDs](../../reference/ids-in-aam.md) are not lowercase, hashed email addresses.**
 
@@ -94,7 +99,7 @@ As a reminder, you would now have two data sources:
 | 67412682083411995725538770443620307584 | `janedoe@email.com`   | 16d72e3edbeb089b299e0d12fc09522fdc5ece2d11dcb1304ecdd6fab4f7193a |
 | 89159024796760343733111707646026765593 | `name@mydomain.com`   | feec5debcea411f54462a345a0d90c9975415d2d4862745ff8af00c49b6b4ae6 |
 
-<br/>
+&nbsp;
 
 Your [ID synchronization file](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) would have the following contents:
 
@@ -104,15 +109,16 @@ Your [ID synchronization file](../../integration/sending-audience-data/batch-dat
 89159024796760343733111707646026765593<TAB>feec5debcea411f54462a345a0d90c9975415d2d4862745ff8af00c49b6b4ae6
 ```
 
-<br/>
+&nbsp;
 
 The [ID synchronization file](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) must follow this naming structure:
 
 `c2c_id_<DPUUID_DATA_SOURCE_ID>_<HASHED_EMAIL_DATA_SOURCE_ID>_TIMESTAMP.sync`
 
-<br/>
+&nbsp;
 
-In the example above, the file name would look like this: `c2c_id_999999_987654_1560431657.sync`
+In the example above, the file name would look like this:
+`c2c_id_999999_987654_1560431657.sync`
 
 [Download example file here](https://marketing.adobe.com/resources/help/en_US/aam/downloads/c2c_id_999999_987654_1560431657.sync).
 
