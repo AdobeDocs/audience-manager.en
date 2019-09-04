@@ -1,15 +1,16 @@
 ---
 description: Audience Manager provides industry-leading services for online audience data management. Our product and services give digital advertisers and publishers the tools they need to control and leverage their data assets to help drive sales success.
-seo-description: Audience Manager provides industry-leading services for online audience data management. Our product and services give digital advertisers and publishers the tools they need to control and leverage their data assets to help drive sales success.
-seo-title: Audience Manager Product Documentation
+seo-description: Technical documentation and self help for Audience Manager (AAM). AAM provides industry-leading services for online audience data management, and give digital advertisers and publishers the tools they need to control and leverage their data assets to help drive sales success.
+seo-title: Adobe Audience Manager Product Technical Documentation
 solution: Audience Manager
 title: Audience Manager Product Documentation
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
+
 ---
 
 # Audience Manager Product Documentation {#audience-manager-product-documentation}
 
-Audience Manager provides industry-leading services for online audience data management. Our product and services give digital advertisers and publishers the tools they need to control and leverage their data assets to help drive sales success.
+This technical documentation guide provides self help assistance for Audience Manager - an industry-leading service for online audience data management. Our product and services give digital advertisers and publishers the tools they need to control and leverage their data assets to help drive sales success.
 
 <table id="table_5E612F746A704FE095B809A013EE977F" class="simpletable"> 
  <tbody> 
