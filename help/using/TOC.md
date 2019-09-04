@@ -263,7 +263,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
     + [DIL Use Cases and Code Samples](dil/dil-use-cases.md)
     + [Flash DIL](dil/dil-flash.md)
     + [DIL Release Notes](/help/using/dil/dil-release-notes.md)
-+ Implementation and Integration Guides{#implemenation-integration-guides}
++ Implementation and Integration Guides{#implementation-integration-guides}
     + [Implementation and Integration Guides](integration/implementation-and-integration.md)
     + [Data Integration Methods](integration/data-integration-methods.md)
     + Integrate DFP using Google Publisher Tags (GPT){#integrate-dfp-using-gpt}
