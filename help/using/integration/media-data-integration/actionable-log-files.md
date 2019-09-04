@@ -84,7 +84,7 @@ Remember, in order to use this information for audience creation and segmentatio
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_adsrc</code> </p> </td> 
-   <td colname="col2"> <p>Advertiser ID. This field maps to the Advertiser Group ID from DCM. </p> </td> 
+   <td colname="col2"> <p>Advertiser ID.</p> <p>An integration code for your advertiser's data source. Note that this is not related to Audience Manager data sources.</p> <p>This field maps to the Advertiser Group ID from DCM. </p> </td> 
    <td colname="col3"> <p> <code> 134243</code> </p> </td> 
   </tr> 
   <tr> 

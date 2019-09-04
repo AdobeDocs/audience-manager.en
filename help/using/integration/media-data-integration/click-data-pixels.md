@@ -55,7 +55,7 @@ Click events support the macros listed in the following table. A macro is a smal
   <tr> 
    <td colname="col1"> <p> <code> d_adsrc</code> </p> </td> 
    <td colname="col02"> <p>No macro. </p> <p>Accepts a hard coded ID value. </p> </td> 
-   <td colname="col2"> <p> <a href="../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> Data source</a> ID or integration code for your advertiser. </p> <p> Required for <span class="wintitle"> Audience Optimization</span> reports. </p> </td> 
+   <td colname="col2"> <p>Advertiser ID.</p> <p>An integration code for your advertiser's data source. Note that this is not related to Audience Manager data sources.</p> <p> Required for <span class="wintitle"> Audience Optimization</span> reports. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_bu</code> </p> </td> 
