@@ -17,9 +17,9 @@ Before reviewing this content, see [Send Data to the DCS](../../../api/dcs-intro
 
 Your [!UICONTROL DCS] request must include `d_rtbd=json` if you want to receive a response from the [!UICONTROL DCS]. The [!UICONTROL DCS] will not return data if you omit this parameter. A basic call to the [!UICONTROL DCS] to request data uses this syntax:
 
-<pre><code>
-https://<i>domain alias</i>.demdex.net/event?<i>key1</i>= <i>val1</i>,&<i>key2</i>= <i>val2</i>&d_dst=1&d_rtbd=json&d_cb=<i>callback</i>
-</code></pre>
+```js
+https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_cb=callback
+```
 
 ## Sample Response {#sample-response}
 

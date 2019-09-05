@@ -21,7 +21,9 @@ You can send data to the [!UICONTROL DCS] using either one of the `GET` or `POST
 
 Note that the maximum allowed size for `GET` calls is 8K.
 
-<pre><code>curl -i "<i>yourcompany</i>.demdex.net/event?d_uuid=<i>12345678901234567890123456789012345678</i>&d_rtbd=json<i>c_likes=famous%20popstar</i>&<i>c_loves=famous%20actress</i>"</code></pre>
+```
+curl -i "yourcompany.demdex.net/event?d_uuid=12345678901234567890123456789012345678&d_rtbd=json&c_likes=famous%20popstar&c_loves=famous%20actress"
+```
 
 ## Send Data via POST {#send-data-via-post}
 

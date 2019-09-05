@@ -17,7 +17,9 @@ Calls require the host name of the regional DCS server and the user ID. If you d
 
 A basic server-to-server request that sends data to the [!UICONTROL DCS] uses the syntax shown below.
 
-<pre><code>"Host:<i>domain alias</i>.demdex.net" "https://<i>DCS host name</i>.demdex.net/event?d_rtbd=json&d_jsonv=1&d_uuid=<i>user ID</i>.</code></pre>
+```js
+"Host:domain_alias.demdex.net" "https://DCS_host_name.demdex.net/event?d_rtbd=json&d_jsonv=1&d_uuid=userID
+```
 
 A sample call looks similar to the following example.
 
