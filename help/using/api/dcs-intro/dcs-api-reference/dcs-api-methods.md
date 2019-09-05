@@ -13,9 +13,6 @@ Send data to the [!UICONTROL DCS] [!DNL API] using `GET` or `POST` methods.
 
 You can send data to the [!UICONTROL DCS] using either one of the `GET` or `POST` methods. Take a look at the sample calls below, using [curl](https://curl.haxx.se/). In all three sample calls, we are adding the signals `c_likes = famous popstar` and `c_loves = famous actress` to the device profile `12345678901234567890123456789012345678`.
 
->[!NOTE]
->
->In the code and examples, *italics* represents a variable placeholder. Substitute a real value for the placeholder when you send data to the [!UICONTROL DCS] with this method.
 
 ## Send Data via GET {#send-data-via-get}
 
