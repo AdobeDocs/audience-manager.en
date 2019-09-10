@@ -46,6 +46,10 @@ To report [!DNL CPM] usage at segment level:
 
 1. Click **[!UICONTROL Confirm]**.
 
+See also our video demonstration of how you can report segment-level usage:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25522/)
+
 &nbsp;
 
 ## Report CPM Usage at Data Feed Level {#feed-level-report}
@@ -55,15 +59,15 @@ Data feed-level reporting is a more tedious and prone to error process, since yo
 To report [!DNL CPM] usage at segment level:
 
 1. Go to **[!UICONTROL Audience Marketplace > Payables]**.
-1. Select the **[!UICONTROL Feed Usage]** tab.
-1. Use the [!UICONTROL Search] box to filter the data feeds and identify the ones that you need to report usage for.
-1. Click **[!UICONTROL Edit Feeds Usage]**.
-1. Calculate the [!DNL CPM] usage for each data feed based on the [Cost Attribution for CPM Data Feeds](#cost-attribution), and enter it in the [!UICONTROL Usage] column.
-1. Click **[!UICONTROL Save]** when you're done and review the confirmation dialog.
+2. Select the **[!UICONTROL Feed Usage]** tab.
+3. Use the [!UICONTROL Search] box to filter the data feeds and identify the ones that you need to report usage for.
+4. Click **[!UICONTROL Edit Feeds Usage]**.
+5. Calculate the [!DNL CPM] usage for each data feed based on the [Cost Attribution for CPM Data Feeds](#cost-attribution), and enter it in the [!UICONTROL Usage] column.
+6. Click **[!UICONTROL Save]** when you're done and review the confirmation dialog.
 
    ![confirm-feed-usage](assets/confirm-feed-usage.png)
 
-1. Click **[!UICONTROL Confirm]**.
+7. Click **[!UICONTROL Confirm]**.
 
 <br>&nbsp;
 
