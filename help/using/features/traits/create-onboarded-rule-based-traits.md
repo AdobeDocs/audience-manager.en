@@ -47,7 +47,7 @@ In [!UICONTROL Trait Builder], the [!UICONTROL Basic Information] settings let y
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Event Type</span></b> </td> 
-   <td colname="col2"> Assigns the trait to a type or category, usually according to function (e.g. conversion, site visitor, partner, page view, etc.). Optional. </td> 
+   <td colname="col2"> Assigns the trait to a type or category, usually according to function (e.g. conversion, site visitor, partner, page view, etc.). Optional. <p> To learn how to create conversion traits, see the <a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">Creating Conversion Traits in Audience Manager video</a>. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Data Source</span></b> </td> 
@@ -81,7 +81,7 @@ In [!UICONTROL Trait Builder], the [!UICONTROL Advanced Options] lets you set a 
 ### Set the TTL for a trait
 
 1. Expand the [!UICONTROL Advanced Options] section and enter a number to set a [!DNL TTL] value for the trait.
-1. Click **[!UICONTROL Save]**.
+2. Click **[!UICONTROL Save]**.
     ![](assets/TTL.png)
 
 >[!MORE_LIKE_THIS]

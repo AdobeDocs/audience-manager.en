@@ -11,6 +11,12 @@ uuid:
 
 Get live trait recommendations as you build your segments.
 
+## Video Demonstration
+
+Start by watching the Trait Recommendations video, then read on for more information.
+
+>[!VIDEO](https://video.tv.adobe.com/v/26228/)
+
 ## Overview
 
 [!UICONTROL Trait Recommendations], powered by [!DNL Adobe Sensei], brings data science into your Audience Manager day-to-day workflows.
@@ -60,13 +66,13 @@ When building or editing a segment in [Segment Builder](segment-builder.md), you
 ### New Segments
 
 1. In **Audience Data > Segments**, select **Add New**.
-1. In the **Traits** drop-down box, add at least one trait to the segment rule.
-1. You can now see recommended traits that are similar to the traits you added to the segment rule. Scroll down to see all recommended traits.
-1. (Optional) To exclude recommended traits from certain data sources, click the **X** symbol for the data sources you want to exclude.
+2. In the **Traits** drop-down box, add at least one trait to the segment rule.
+3. You can now see recommended traits that are similar to the traits you added to the segment rule. Scroll down to see all recommended traits.
+4. (Optional) To exclude recommended traits from certain data sources, click the **X** symbol for the data sources you want to exclude.
     > [!NOTE]
     > 
     >The excluded data sources are shown just above the list of recommended traits. Press **X** in the grey box to remove the exclusions and see results from the respective data sources again.
-1. To add recommended traits to the segment rule, click the **+** symbol.
+5. To add recommended traits to the segment rule, click the **+** symbol.
 
 ### Existing Segments
 
