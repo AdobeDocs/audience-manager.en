@@ -14,7 +14,7 @@ The [!UICONTROL Segment Summary] page displays details such as name, traits in t
 Click a segment name from the main dashboard to access its summary page. Summary sections include:
 
 1. **[!UICONTROL Basic Information]:** Shows required and optional details specified when the segment was created.
-2. **[!UICONTROL Segment Graph]:** Displays performance data graphically and for fixed 1, 7, 14, 30, 60, and 90 day intervals. We explain segment population numbers in a [separate document](../../features/segments/segment-builder-data.md).
+2. **[!UICONTROL Segment Graph]:** Displays performance data graphically and for fixed 1, 7, 14, 30, 60, and 90 day intervals. We explain segment population numbers in a [separate article](../../features/segments/segment-builder-data.md).
 
     ![segments-graph](assets/segment-graph.png)
 
@@ -25,6 +25,8 @@ Click a segment name from the main dashboard to access its summary page. Summary
     >[!NOTE]
     >
     >Audience Manager only displays the [!UICONTROL Identity Type Breakdown] report if you have cross-device IDs qualified for the segment.
+
+    >[!VIDEO](https://video.tv.adobe.com/v/27977/)
 
 4. **[!UICONTROL Segment Rules]:** Lists traits in the segment along with qualification rules.
 5. **[!UICONTROL Destination Mappings]:** Lists destination mappings for the segment.

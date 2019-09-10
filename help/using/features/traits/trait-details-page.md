@@ -36,6 +36,8 @@ The [!UICONTROL Trait Graph] provides at-a-glance performance metrics for your s
     > [!NOTE]
     > Audience Manager only displays the [!UICONTROL Identity Type Breakdown] report if you have cross-device IDs qualified for the trait.
 
+    >[!VIDEO](https://video.tv.adobe.com/v/27977/)
+
 ## Trait Expression {#trait-expression}
 
 The [!UICONTROL Trait Expression] section shows you the criteria users must meet to qualify for the trait. These rules are set when you [create or edit a trait](../../features/traits/about-trait-builder.md).
