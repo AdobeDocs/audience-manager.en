@@ -1,7 +1,7 @@
 ---
 description: An overview for technical and non-technical customers who want to bring data from other systems (offline) into Audience Manager.
-keywords: inbound
-seo-description: An overview for technical and non-technical customers who want to bring data from other systems (offline) into Audience Manager.
+keywords: inbound, batch, batch upload, batch data
+seo-description: An overview for technical and non-technical customers who want to bring data from other systems (offline) into Audience Manager. To do so, use the batch upload option in Audience Manager.
 seo-title: Send Batch Data to Audience Manager Overview
 solution: Audience Manager
 title: Send Batch Data to Audience Manager Overview
