@@ -44,7 +44,7 @@ The following syntax defines the content structure in well-formed data file. Not
 In the file contents:
 
 * The header labels must appear in the order as shown in the table below. Impressions and clicks use the same labels. Conversion files contain extra headers. 
-* If you don't have data for a particular column, populate that field with a `NULL` object or `-1`. 
+* If you don't have data for a particular column, populate that field with a `-1`.
 
 * Files *must* end with a version number. The current version is 1.1.
 * Separate file headers and contents with the non-printing ASCII 001 character. If you cannot use ASCII 001, then separate the headers and data with a tab delimiter. As these are non-printing characters, the syntax example above shows a pipe `"|"` for display purposes only.
