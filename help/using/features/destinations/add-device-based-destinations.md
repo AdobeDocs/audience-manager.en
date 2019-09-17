@@ -14,6 +14,10 @@ This article explains how to configure new device-based destinations from the Au
 
 The process of adding a new device-based destination consists of two main steps. First, you need to configure the integration between Audience Manager and the destination partner. Once you do that, you can create a new device-based destination.
 
+## Prerequisites {#prerequisites}
+
+When creating the first device-based destination with an integrated platform, please contact Adobe Consulting or Customer Care to enable ID synchronization between Audience Manager and the integrated platform for your account. This is required for the correct synchronization between Audience Manager and the destination platform.
+
 >[!IMPORTANT]
 >
 >Not all device-based destinations are eligible for the self-service configuration workflow. If the device-based destination that you need to add is not displayed in the destinations list, contact your Adobe consultant or Customer Support for assistance.
