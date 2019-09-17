@@ -27,7 +27,7 @@ You can use [!DNL People-Based Destinations] to segment and target high value cu
 
 ## Availability {#availability}
 
-[!DNL People-Based Destinations] is a premium Audience Manager integration. Please contact your Audience Manager consultant for details about pricing and implementation.
+[!DNL People-Based Destinations] is a premium Audience Manager integration. Please contact your Adobe representative to take advantage of this premium feature.
 
 ## Why You Should Use People-Based Destinations {#why-use}
 
