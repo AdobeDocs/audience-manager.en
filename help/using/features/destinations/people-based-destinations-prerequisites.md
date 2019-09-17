@@ -17,7 +17,7 @@ Read below for an overview of customer requirements that you need to meet before
 
 [!DNL People-Based Destinations] is a premium capability that enhances your Audience Manager experience by allowing you to activate first-party audience segments in people-based environments, by targeting your audience with customized offers on social networks or through email marketing.
 
-Please contact your Adobe sales representative for details on how you can sign up for [!DNL People-Based Destinations].
+Please contact your Adobe representative to take advantage of this premium feature.
 
 ## Partner-Specific Prerequisites {#partner-prerequisites}
 
