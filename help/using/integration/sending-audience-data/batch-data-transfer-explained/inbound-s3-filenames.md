@@ -19,9 +19,11 @@ Describes the required fields, syntax, naming conventions and file sizes you nee
 
 [!DNL S3] file names contain the following required and optional elements:
 
-* **[!DNL S3] prefix:**  `s3n://AWS_directory/partner_name/date=yyyy-mm-dd/` 
+* **[!DNL S3] prefix:**   `s3n://AWS_directory/partner_name/date=yyyy-mm-dd/` 
 
-* **File name elements:** `ftp_dpm_DPID[_DPID_TARGET_DATA_OWNER]_TIMESTAMP(.sync|.overwrite)[.SPLIT_NUMBER][.gz]`
+* **File name elements:**   `ftp_dpm_DPID[_DPID_TARGET_DATA_OWNER]_TIMESTAMP(.sync|.overwrite)[.SPLIT_NUMBER][.gz]`
+
+For other accepted file name formats, see [Custom Partner Integrations](/help/using/integration/sending-audience-data/custom-partner-integrations.md).
 
 >[!NOTE] {importance="high"}
 >

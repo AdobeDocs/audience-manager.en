@@ -2,6 +2,7 @@
 description: An overview of DIL and how it works.
 seo-description: An overview of DIL and how it works.
 seo-title: Understanding the Data Integration Library (DIL)
+keywords: dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, 
 solution: Audience Manager
 title: Understanding the Data Integration Library (DIL)
 uuid: 77b12f35-81e4-4639-ada6-bf982f27b36e
@@ -13,9 +14,14 @@ Overview, getting started, and code methods available in the Audience Manager DI
 
 >[!IMPORTANT]
 >
->Starting with version 8.0 (released August 2018), [!UICONTROL DIL] has a hard dependency on the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/), version 3.3 or higher ([download here](https://github.com/Adobe-Marketing-Cloud/id-service/releases)). It relies on the ID Service to fire ID syncs and URL destinations. An error occurs if the ID Service is missing, old, or not configured. 
+>Starting with version 8.0 (released August 2018), [!UICONTROL DIL] has a hard dependency on the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/), version 3.3 or higher. It relies on the ID Service to fire ID syncs and URL destinations. An error occurs if the ID Service is missing, old, or not configured. 
 >
->We recommend you use Adobe Launch to implement and manage your DIL and Experience Cloud ID Service libraries. 
+>We recommend you use Adobe Launch to implement and manage your DIL and Experience Cloud ID Service libraries.
+
+However, you can also download the latest Experience Cloud and DIL releases from our GitHub page. See download links below:
+
+* Download the [Experience Cloud ID Service](https://github.com/Adobe-Marketing-Cloud/id-service/releases)
+* Download [DIL](https://github.com/Adobe-Marketing-Cloud/dil/releases)
 
 ## Purpose of DIL {#purpose-dil}
 
@@ -48,7 +54,7 @@ See also:
 ## Related Links
 
 * [DIL Use Cases and Code Samples](/help/using/dil/dil-use-cases.md)
-* [Class-level DIL Methods](/help/using/dil/dil-class-overview/dil-class-overview.md)
+* [Class-level DIL Methods](/help/using/dil/dil-class-overview/dil-start.md)
 * [Instance-level DIL Methods](/help/using/dil/dil-instance-methods.md)
 * [DIL Modules](/help/using/dil/dil-modules.md)
 * [DIL Tools](/help/using/dil/dil-tools.md)

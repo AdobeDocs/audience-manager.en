@@ -86,7 +86,7 @@ A [!UICONTROL CDF] file includes some or all of the fields defined below. For in
   <tr> 
    <td colname="col1"> <p><code> Request Parameters</code> </p> </td> 
    <td colname="col2"> <p>String </p> </td> 
-   <td colname="col3"> <p>A string that captures all the parameters (variables, IDs, key-value pairs, etc.) passed in on the event call. </p> <p>Shortened example: </p> <p> <code> d_rtbd:json,c_contextData.a.CarrierName:mobile,c_contextData.a.adid:92D56353-49C5-431E-B474-FC528D585810,c_contextData.a,RunMode:Application,c_contextData.a.DaysSinceLastUpgrade:61,d_cid_ic:xid%01EACB6E40-AC65-4012-9FE9-ABD59965E9C4%011,c_contextData.a.PrevSessionLength:583</code> </p> </td> 
+   <td colname="col3"> <p>A string that captures all the parameters (variables, IDs, key-value pairs, device advertising IDs, etc.) passed in on the event call. </p> <p>Shortened example: </p> <p> <code> d_rtbd:json,c_contextData.a.CarrierName:mobile,c_contextData.a.adid:92D56353-49C5-431E-B474-FC528D585810,c_contextData.a,RunMode:Application,c_contextData.a.DaysSinceLastUpgrade:61,d_cid_ic:xid%01EACB6E40-AC65-4012-9FE9-ABD59965E9C4%011,c_contextData.a.PrevSessionLength:583</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> Referer Data Type</code> </p> </td> 
@@ -189,13 +189,13 @@ The sections below list and define the elements in your [!UICONTROL CDF] file na
 
 A typical [!UICONTROL CDF] file name contains the elements listed below. Note, *italics* indicates a variable placeholder:
 
-* **Syntax** 
+### Syntax
 
-<pre><code>
-s3://aam-cdf/<i>your s3 bucket name</i>/day=<i>yyyy-mm-dd</i>/hour=<i>hh</i>/<i>AAM_CDF_partner ID_AAM process ID</i>_0.gz
-</code></pre>
+```
+s3://aam-cdf/YOUR-S3-BUCKET-NAME/day=yyyy-mm-dd/hour=hh/AAM-CDF-PARTNER-ID-AAM PROCESS-ID_0.gz
+```
 
-* **Example** 
+### Example
 
 ```
 s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_000058_0.gz

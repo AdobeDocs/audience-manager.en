@@ -117,11 +117,9 @@ adobe_dil.api.signals({ d_referer : document.referrer }).submit();
 
 Send information about search engine type and keyword searches to Audience Manager.
 
-<!-- 
-
-c_dil_search_engine_valid.xml
-
- -->
+>[!IMPORTANT]
+>
+>This section describes legacy functionality, which is not supported in the latest versions of DIL.
 
 **Supported Search Engines**
 

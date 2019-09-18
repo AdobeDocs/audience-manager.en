@@ -26,15 +26,19 @@ c_bulk_start.xml
 
 This feature uses a Microsoft Excel spreadsheet with macros that make secure, authenticated calls to the [!DNL Audience Manager] APIs. The API provides the methods and services that let you make changes in bulk. You don't have to know how to code or work with our APIs to use it. The worksheet contains column headers and tabs that perform specific bulk change functions. To make bulk changes, all you do is add the pre-defined headers to specific worksheets, provide the information you want to change in bulk, and click an action button. The worksheet and the APIs do the rest of the work for you.
 
+## Download {#download}
+
+Download the latest worksheet **[here](assets/BAAAM_August_2018.xlsm)**. 
+
 ## Prerequisites {#prereqs}
 
 To use the [!DNL Bulk Management Tools], you need the following:
 
 * Your [!DNL Audience Manager] user name and password. As a customer, you should already have these credentials. 
 * An API client ID and secret key. Your account manager can provide you with these. 
-* The [!UICONTROL Bulk Management Tools] worksheet. **[Download the worksheet](assets/BAAAM_August_2018.xlsm)** to get the latest verison. 
+* The [!UICONTROL Bulk Management Tools] worksheet. [Download the worksheet](/help/using/reference/bulk-management-tools/bulk-management-intro.md#download) to get the latest version.
 
-* Microsoft Excel running on [!DNL Windows] or in a [!DNL Microsoft Windows] virtual machine running on [!DNL macOS X]. We recommend using a 32-bit version of Microsoft Windows.
+* Microsoft Excel running on [!DNL Windows] or in a [!DNL Microsoft Windows] virtual machine running on [!DNL macOS X]. You must use 32-bit Excel for the [!UICONTROL Bulk Management Tools] to work.
 
 ## Actions and operations {#actions-ops}
 

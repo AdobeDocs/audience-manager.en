@@ -4,7 +4,7 @@ seo-description: Audience Manager sets a maximum limit on the number of traits, 
 seo-title: Usage Limits
 solution: Audience Manager
 title: Usage Limits
-topic: DIL API
+keywords: ID mapping, ID mappings, cookie mappings
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
 ---
 
@@ -18,13 +18,9 @@ The table below lists the [ID mapping](../../integration/sending-audience-data/b
 
 |ID Mapping | Maximum Limit |
 |-----------|-------------- |
-|Device ID to cross-device ID | 100 device IDs to 1 cross-device ID |
-|Cross-device ID to device ID | 10 cross-device IDs to 1 device ID |
-|Device ID to device ID | 1000 device IDs to 1 device ID |
-
->[!NOTE]
->
-> Device IDs can be cookie/browser IDs or device advertising IDs ([!DNL IDFA], [!DNL GAID], etc).
+|Device Advertising ID (DAID) to Cross-device ID (CRM ID) | 100 Device Advertising IDs (DAIDs) to 1 Cross-device ID (CRM ID) |
+|Cross-device ID (CRM ID) to Device Advertising ID (DAID) | 10 Cross-device IDs (CRM IDs) to 1 Device Advertising ID (DAID) |
+|Cookie/browser ID to cookie/browser ID | 1000 cookie/browser  IDs to 1 cookie/browser ID |
 
 ## Item Limits {#item-limits}
 
@@ -35,7 +31,7 @@ The tables list the current limits by item type. You cannot create new traits, s
 | Trait Type    | Maximum Limit   |
 | -------------------------- | ------------------------------------- |
 | Total Traits               | 100,000   |
-| Total Trait Qualifications | 100,000. For more information on trait qualification, see the  Trait Qualifications Reference. |
+| Total Trait Qualifications | 150,000. For more information on trait qualification, see Trait Qualification Limit in [Trait Qualifications Reference](/help/using/features/traits/trait-qualification-reference.md#trait-qualification-limit). |
 | Algorithmic                | 50       |
 | Rule Based                 | 100,000  |
 | Onboarded                  | 100,000  |
@@ -61,9 +57,9 @@ The tables list the current limits by item type. You cannot create new traits, s
 
 | Item  | Maximum Limit |
 | -------- | ----- |
-| Total Algorithmic Models  | 20 |
-| Algorithmic Models maximum audience size | 25,000,000  Note that this limit cannot be increased. You can decrease audience sizes by selecting fewer data sources for the model or by selecting a shorter look-back window. |
-| Maximum number of excluded traits for a model | 500 |
+| Active Algorithmic Models  | 20. Audience Manager only counts *active* algorithmic models against the limit.|
+| Algorithmic Models maximum audience size | 25,000,000.  Note that this limit cannot be increased. You can decrease audience sizes by selecting fewer data sources for the model or by selecting a shorter look-back window. |
+| Maximum number of excluded traits for a model | 500. See [Trait Exclusion in Algorithmic Modeling](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md). |
 
 ### Folder Limits
 

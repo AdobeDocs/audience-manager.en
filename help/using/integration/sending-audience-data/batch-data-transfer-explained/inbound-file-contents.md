@@ -19,6 +19,8 @@ Fields in the inbound data file must appear in the order shown below. In this ex
 <user ID><TAB><trait ID>,<trait ID>,<trait ID>,...
 ```
 
+For other accepted file content formats, see [Custom Partner Integrations](/help/using/integration/sending-audience-data/custom-partner-integrations.md).
+
 >[!NOTE]
 >
 >We have a limit of 200 lines we can process for each user ID sent in the inbound data file. For example, if you send 300 lines for a user ID, the first 200 lines are kept and the additional 100 lines are discarded. In the example below, you're good because you are sending 3 lines each for user ID 1 and user ID 2. We don't enforce a limit on the number of traits or key-value pairs you include in a line.
@@ -97,9 +99,8 @@ The following table describes the prefixes that identify trait names or IDs in a
       <li> <code> ic == "789" </code> </li>
      </ul> </p> <p>These traits are associated with the <code> ic </code> key. This lets you create a simpler trait list in the data file. And, you do not need to include the <code> ic </code> prefix. As a result, the contents of your data file could look like this: </p> <p>
      <code> 
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-      <i>user ID</i>
-      &nbsp;&lt;TAB&gt;&nbsp;123,456,789 
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      <i>user ID</i>&nbsp;&lt;TAB&gt;&nbsp;123,456,789 
      </code> </p> </td> 
   </tr> 
   <tr> 

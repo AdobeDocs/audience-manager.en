@@ -23,6 +23,10 @@ A *`segment`* (or an *`audience`*) is a set of users who share common attributes
 
 An Audience Manager segment is a server-side rule that consists of individual or groups of traits. Traits are composed of data elements called key-value pairs. Along with rules you set at the segment level, these key-value pairs contain the criteria that qualify visitors for trait and segment membership.
 
+## Considerations on Adobe Analytics Segment Mapping
+
+When mapping Adobe Analytics segments or report suites to your Experience Cloud organization, Audience Manager automatically creates new, corresponding, read-only segments and traits. You cannot edit or change the storage location of these segments from Audience Manager. However, any change that you perform on your mapped Adobe Analytics segments or report suites reflects in Audience Manager.
+
 >[!TIP]
 >
 >Audience Manager segments are different from [!DNL Adobe Analytics] segments. Read [Understanding Segments in Analytics and Audience Manager](https://marketing.adobe.com/resources/help/en_US/analytics/audiences/aam-analytics-segments.html) for an in-depth description of the differences.

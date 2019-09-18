@@ -21,7 +21,7 @@ Describes the required fields, syntax, and naming conventions used for file-base
 
 ID file names contain the following required and optional elements:
 
-`adobe_id_`*`MASTERDPID_DPID[_DPID_DPID`*`]_`*`TIMESTAMP`*`.sync[.`*`SPLIT_NUMBER`*`][.gz]`
+`adobe_id_`*`[c2c_id_]`*`MASTERDPID_DPID[_DPID_DPID`*`]_`*`TIMESTAMP`*`.sync[.`*`SPLIT_NUMBER`*`][.gz]`
 
 <table id="table_727A465D7C38419CA0750EF32DEDA2FD"> 
  <thead> 
@@ -33,7 +33,11 @@ ID file names contain the following required and optional elements:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> adobe_id</code> </p> </td> 
-   <td colname="col2"> <p>A static prefix that identifies the file as an ID file. </p> </td> 
+   <td colname="col2"> <p>A static prefix that identifies the file as an ID synchronization file. Use this prefix when matching device IDs to other device IDs or customer IDs (DPUUIDs).  </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <code> c2c_id</code> </p> </td> 
+   <td colname="col2"> <p>A static prefix that identifies the file as an ID synchronization file for People-Based Destinations. Use this prefix when matching customer IDs (DPUUIDs) to hashed email addresses for People-Based Destinations.  </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><code><i>MASTERDPID</i></code> </td> 
@@ -70,7 +74,11 @@ The following examples show properly formatted files names. Your file names coul
  <li> <code> adobe_id_111_222_333_444_1454442149.sync</code> </li> 
  <li> <code> adobe_id_123_898_456_1454442149.sync.1.gz</code> </li> 
  <li> <code> adobe_id_123_898_456_1454442149.sync.2.gz</code> </li> 
+ <li> <code>c2c_id_123_898_1454442149.sync.gz</code> </li> 
 </ul>
+
+>[!NOTE]
+> For ID synchronization file naming (c2c prefix) for People-Based Destinations, see [Workflow A - Personalization Based on All Online Activity Combined with Offline Data](../../../features/destinations/people-based-destinations-workflow-combined.md) or [Workflow B - Personalization Based on Offline-Only Data](../../../features/destinations/people-based-destinations-workflow-offline.md).
 
 ## File Content Syntax and Examples {#file-content-syntax}
 

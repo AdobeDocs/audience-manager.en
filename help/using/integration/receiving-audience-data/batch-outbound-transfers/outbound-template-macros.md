@@ -40,8 +40,17 @@ The table lists and describes the macros you can use in the file name and to def
    <td colname="col2"> <p>Order / destination ID. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> PIDALIAS </code> </p> </td> 
+   <td colname="col1"> <p> <code> PID_ALIAS </code> </p> </td> 
    <td colname="col2"> <p>An alias for an order / destination ID. </p> <p>The alias is set in the admin UI. </p> </td> 
+  </tr>
+  <tr> 
+   <td colname="col1"> <p> <code> SPLITNUM </code> </p> </td> 
+   <td colname="col2"> <p>Indicates the splitting of outbound files into multiple parts. Replace the SPLITNUM section in the file name with the part number preceded by zeros, ensuring a minimum of three characters for the SPLITNUM section.</p>
+   <p>The SPLITNUM macro does not need to be surrounded by <> characters.</p><p>Example: <code>&lt;SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_&lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;SPLITNUM.csv</code>
+<p>s3_123456_9999_full_1566906141001.csv</p> 
+<p>s3_123456_9999_full_1566906141002.csv</p> 
+<p>s3_123456_9999_full_1566906141003.csv</p> 
+<p>The last three digits (001,002,003) in the examples above are the SPLITNUM identifiers.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> SYNC_MODE </code> </p> </td> 
@@ -67,7 +76,8 @@ The table lists and describes the macros you can use in the file name and to def
   <tr> 
    <td colname="col1"> <p> <code> TIMESTAMP </code> </p> </td> 
    <td colname="col2"> <p>A 10-digit, UTC, Unix timestamp. </p> <p>It can also be formatted as <code> &lt;TIMESTAMP; format="YYYYMMDDhhmmss"&gt; </code> following Java date/timestamp formatting rules. </p> </td> 
-  </tr> 
+  </tr>
+  
  </tbody> 
 </table>
 

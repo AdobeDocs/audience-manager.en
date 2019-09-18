@@ -42,7 +42,7 @@ In this case, the [!DNL ]Automobile [!UICONTROL Folder Trait] has 7 realizations
 
 ## Folder Trait Reporting {#folder-traits-reporting}
 
-[!UICONTROL Folder traits] capture all the users from the traits in the folder structure below them. If you move a trait from a folder to another folder, the change propagates to our [data collection servers](../../reference/system-components/components-data-collection.md) just like a trait rule change. The reporting updates in the next reporting run to reflect this change across the reporting date ranges (1, 7, 14, 30, 60, 90, lifetime). The old reporting numbers from the previous days will not change.
+[!UICONTROL Folder traits] capture all the users from the traits in the folder structure below them. If you move a trait from a folder to another folder, the change propagates to our [data collection servers](../../reference/system-components/components-data-collection.md) just like a trait rule change. The reporting updates in the next reporting run to reflect this change across the reporting date ranges (1, 7, 14, 30, 60, 90). The old reporting numbers from the previous days will not change.
 
 ## Role-Based Access Controls (RBAC) Permissions {#role-based-access-controls}
 
@@ -58,6 +58,6 @@ Learn how to assign [!UICONTROL RBAC] permissions in our [administration documen
 |  Item  | Description  |
 |---|---|
 |  Trait type  | [!UICONTROL Onboarded traits] and [!UICONTROL algorithmic traits] contribute at most 1 realization to a [!UICONTROL folder trait]'s frequency.  |
-|  Moving traits between folders  |Moving a trait from a folder to another will disqualify that trait from the first folder trait and qualify it for the second [!UICONTROL folder trait]. This means that if you delete or move a trait from the folder, the users in the trait's population will be unsegmented from the segments using the folder trait as a segment expression.  |
+|  Moving traits between folders  |Moving a trait from a folder to another will disqualify that trait from the first folder trait and qualify it for the second [!UICONTROL folder trait]. This means that if you delete or move a trait from the folder, the users in the trait's population will be unsegmented from the segments using the folder trait as a segment expression. <br> When mapping Adobe Analytics segments or report suites to your Experience Cloud organization, Audience Manager automatically creates new, corresponding, read-only segments and traits. You cannot edit or change the storage location of these traits from Audience Manager. However, any change that you perform on your mapped Adobe Analytics segments or report suites reflects in Audience Manager. |
 |  System variables  | [!UICONTROL Folder traits] cannot be realized in event calls using the `d_sid` parameter.  |
 |  Reporting  | [!UICONTROL Folder traits] are autocalculated traits and do not appear in **[!UICONTROL Overlap Reports]**.  |

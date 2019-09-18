@@ -118,7 +118,7 @@ The following table defines the elements in the returned [!DNL JSON] data file.
   <tr valign="top"> 
    <td colname="col1"><code><i>DateTime</i></code> </td> 
    <td colname="col2"> <p>DateTime </p> </td> 
-   <td colname="col3"> <p>Time that a site visitor qualified for the trait. </p> </td> 
+   <td colname="col3"> <p>The time of the most recent segment qualification.</p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -11,6 +11,10 @@ uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 
 Describes the required and optional steps that create a segment in [!UICONTROL Segment Builder].
 
+## Video Demonstration
+
+Start by watching the [Create Segments in Audience Manager video](https://images-tv.adobe.com/avp/vr/b7f88801-efe0-4786-9d58-554db16b34eb/81b6f004-cec0-452c-9b35-dabdc69ae3b4/9dc8a1d4-350d-46c3-90a6-5197dfb76f40_20180130023449.854x480at800_h264.mp4). The video walks you through the segment creation process. Read the sections below for more information.
+
 ## Create a Segment {#create-segment}
 
 ### Segment Builder Section
@@ -159,5 +163,5 @@ In the [!UICONTROL Destination Value] field specify the value (part of a key-val
 
 >[!MORE_LIKE_THIS]
 >
->* [Create a Cookie Destination](../../features/destinations/manage-destinations.md#create-cookie-destination)
->* [Create a URL Destination](../../features/destinations/manage-destinations.md#configure-url-destination)
+>* [Create a Cookie Destination](../../features/destinations/create-cookie-destination.md)
+>* [Create a URL Destination](../../features/destinations/create-url-destination.md)

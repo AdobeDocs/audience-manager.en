@@ -1,5 +1,6 @@
 ---
 description: Add the Audience Management Module to Adobe Analytics AppMeasurement to forward Analytics data to Audience Manager instead of having the Audience Manager Data Integration Library (DIL) code send a pixel from the page.
+keywords: audience analytics; analytics; ssf; server side forwarding
 seo-description: Add the Audience Management Module to Adobe Analytics AppMeasurement to forward Analytics data to Audience Manager instead of having the Audience Manager Data Integration Library (DIL) code send a pixel from the page.
 seo-title: Implement the Audience Management Module
 solution: Audience Manager

@@ -24,7 +24,7 @@ c_general_reports.xml
 Run a [!UICONTROL General] report when you need to:
 
 * Review performance by trait, segment, or destination.
-* Track impressions (total and unique) at 1, 7, 14, 30, 60, 90-day and lifetime intervals. 
+* Track impressions (total and unique) at 1, 7, 14, 30, 60, and 90 day intervals. 
 * Review total and unique load counts.
 * Compare trait and segment performance.
 * Identify strong or poor performance traits and segments, analyze demand, or compare load/fire data with third-party reports. 
@@ -62,7 +62,7 @@ t_run_general_report.xml
 1. Click **[!UICONTROL Run Report]**.
 
    Results display in an exportable table. Click the column headers to sort the results in ascending or descending order. 
-1. Select the desired option button at the top of the report to filter data by performance ( [!UICONTROL Unique Trait Realizations], [!UICONTROL Total Trait Realizations], or [!UICONTROL Total Trait Population]) or by time (1, 7, 14, 30, 60, 90-day range or lifetime).
+1. Select the desired option button at the top of the report to filter data by performance ( [!UICONTROL Unique Trait Realizations], [!UICONTROL Total Trait Realizations], or [!UICONTROL Total Trait Population]) or by time (1, 7, 14, 30, 60, or 90 day range).
 
    >[!NOTE]
    >

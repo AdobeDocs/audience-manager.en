@@ -1,5 +1,6 @@
 ---
 description: How declared IDs work, set up procedures, code examples, and variables.
+keywords: id sync
 seo-description: How declared IDs work, set up procedures, code examples, and variables.
 seo-title: Declared IDs
 solution: Audience Manager
@@ -55,7 +56,7 @@ To get started, you need to configure the [!DNL Experience Cloud] ID service and
 The [!UICONTROL declared ID] process honors site visitor preferences to opt-out of Audience Manager targeting by your website. When Audience Manager receives an opt-out request, the [!DNL JSON] returned by the [!UICONTROL DCS] contains the error code 171, with the message "Encountered opt out tag", instead of the Audience Manager user ID.
 
 * Audience Manager can pass in a [!UICONTROL declared ID] opt-out alongside an Audience Manager [!UICONTROL UUID] in the [!DNL URL].
-* The [!UICONTROL declared ID] opt-out is stored in the [!UICONTROL Profile Cache Serveîr ([!UICONTROL PCS]) on a per-partner basis. There is no platform-level opt-out using [!UICONTROL declared IDs]. Additionally, Audience Manager opts the user out from that particular region on the edge (the opt-out does not cross [!UICONTROL DCS] regions).
+* The [!UICONTROL declared ID] opt-out is stored in the [!UICONTROL Profile Cache Server ([!UICONTROL PCS]) on a per-partner basis. There is no platform-level opt-out using [!UICONTROL declared IDs]. Additionally, Audience Manager opts the user out from that particular region on the edge (the opt-out does not cross [!UICONTROL DCS] regions).
 
 See [Data Privacy](../overview/data-security-and-privacy/data-privacy.md) for more information about opting-out of data collection.
 
@@ -232,15 +233,15 @@ Audience Manager compares and matches the combined `DPID` and `DPUUID` to a corr
 
 Call this function when you're using [!UICONTROL DIL] v6.1 or earlier. However, this function has been deprecated in favor of the new version that gets [!UICONTROL declared IDs] from the [!UICONTROL Experience Cloud ID Service].
 
-<pre class="js"><code>
-DIL.create({ 
-    partner : "partner name", 
-    declaredId : { 
-       dpuuid : <i>dpuuid</i>, 
-       DPID : <i>dpid</i> 
-    } 
+```js
+DIL.create({
+    partner : "partner name",
+    declaredId : {
+       dpuuid : dpuuid,
+       DPID : dpid
+    }
  });
-</code></pre>
+```
 
 >[!NOTE]
 >
@@ -252,12 +253,12 @@ DIL.create({
 >
 >If you make an [!DNL API] call with a different `declaredID` combination, the new combination will be used for that call only. Further regular event calls will use the original `DIL.create`  `declaredID` combination.
 
-<pre class="js"><code>
-DIL.getDil('partner name').api.signals({...}).declaredId({ 
-  dpuuid :<i>dpuuid</i> 
-  dpid :<i>dpid</i> 
+```js
+DIL.getDil('partner name').api.signals({...}).declaredId({
+  dpuuid : dpuuid
+  dpid : dpid
 }).submit();
-</code></pre>
+```
 
 ## Request/Response Examples {#request-response-examples}
 

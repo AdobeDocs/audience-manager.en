@@ -274,7 +274,7 @@ This page gives you the following information:
    * Click **[!UICONTROL Request More Details]** to ask the data provider questions about the selected data feed or to request a discount. This feature sends your comments and questions directly to the data provider.
   
 1. Data Feed Report Metrics. The Venn diagram (and related metrics) shows you trait overlap data for the last 30 days. See [The Marketplace: About](marketplace-data-buyers.md#about-marketplace) for details.
-   * **[!UICONTROL 30 Day Overlapped Uniques]**: The number of unique users in your account that overlap with the users in the provider’s account.
+   * **[!UICONTROL 30 Day Overlapped Uniques]**: The number of unique users in your account that overlap with the users in the provider’s account. For a definition of unique users, see AAM UUID in the [Index of IDs in Audience Manager](/help/using/reference/ids-in-aam.md).
    * **[!UICONTROL 30 Day Provider Unique Users]**: The number of unique users coming from the provider's account.
    * **[!UICONTROL Your Unique Users]**: The number of unique users coming from your account.
 

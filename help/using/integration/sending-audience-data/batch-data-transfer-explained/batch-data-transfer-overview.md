@@ -1,6 +1,7 @@
 ---
 description: An overview for technical and non-technical customers who want to bring data from other systems (offline) into Audience Manager.
-seo-description: An overview for technical and non-technical customers who want to bring data from other systems (offline) into Audience Manager.
+keywords: inbound, batch, batch upload, batch data
+seo-description: An overview for technical and non-technical customers who want to bring data from other systems (offline) into Audience Manager. To do so, use the batch upload option in Audience Manager.
 seo-title: Send Batch Data to Audience Manager Overview
 solution: Audience Manager
 title: Send Batch Data to Audience Manager Overview
@@ -47,7 +48,6 @@ See [ID Synchronization for Inbound Data Transfers](../../../integration/sending
 File names and content follow strict guidelines. You *must* name and organize data files according to these specifications in this guide. See:
 
 * [Amazon S3 Name Requirements for Inbound Data Files](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) 
-* [FTP Name Requirements for Inbound Data Files](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md) 
 * [Inbound Data File Contents: Syntax, Variables, and Examples](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
 
 ## Online Data is Available for Offline Marketing Efforts
@@ -90,4 +90,4 @@ Audience Manager provides the following environments for file drop-off:
 
 ## Further Technical Reading
 
-Systems engineers, developers, or technical/implementation teams should review [Real-Time Inbound Data Integration](../../../integration/sending-audience-data/real-time-data-integration/real-time-data-transfer-explained.md) and [Batch Data Transfer Process Described](../../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md#batch-data-transfer-process). These sections provide details about transfer protocols, file content, and file name requirements.
+Systems engineers, developers, or technical/implementation teams should review [Batch Data Transfer Process Described](../../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md) and the other articles in this section. These articles provide details about transfer protocols, file content, and file name requirements.

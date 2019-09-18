@@ -33,7 +33,7 @@ The DCS and PCS work together and separately provide services related to trait r
 In [!DNL Audience Manager], the DCS:
 
 * Receives and evaluates trait data from an event call. This includes information used for real-time segmentation and data passed in at scheduled intervals by server-to-server transfers. 
-* Segments users based on their realized traits and the qualification rules you create with [Segment Builder](../../features/segments/segment-builder.md#topic_E166819D26B94A868376BA54E10E4B74). 
+* Segments users based on their realized traits and the qualification rules you create with [Segment Builder](../../features/segments/segment-builder.md). 
 * Creates and manages device IDs and authenticated profile IDs. This includes identifiers such as data provider IDs, user IDs, declared IDs, integration codes, etc. 
 * Checks the PCS for additional traits a user has already realized prior to a real-time event call. This lets the DCS qualify users based on real-time data and historical data. 
 * Writes log files and sends those to analytics systems for storage and processing.
@@ -48,7 +48,7 @@ The [!UICONTROL DCS] is a geographically distributed and load-balanced system. T
 
 In an event call, geographic location is captured in a key-value pair returned in a larger body of JSON data. This key-value pair is the `"dcs_region": region ID` parameter.
 
-![](assets/datacenters.png)
+![](assets/dcs-map.png)
 
 As a customer, you engage with the [!UICONTROL DCS] indirectly through our data collection code. You can also work directly with the [!UICONTROL DCS] through a set of APIs. See [Data Collection Server (DCS) API Methods and Code](../../api/dcs-intro/dcs-event-calls/dcs-event-calls.md).
 
@@ -83,7 +83,7 @@ These server systems handle privacy and user opt-out requests. User cookie infor
 
 ## Inbound Server-to-Server {#inbound-outbound-server}
 
-These are systems that receive data sent in by various server-to-server integrations with our clients. See the documentation on [sending audience data](../../integration/sending-audience-data/real-time-data-integration/real-time-data-integration.md) for more information.
+These are systems that receive data sent in by various server-to-server integrations with our clients. See the documentation on [sending audience data](/help/using/integration/sending-audience-data/real-time-data-integration/real-time-tech-specs.md) for more information.
 
 ## Log Files {#log-files}
 

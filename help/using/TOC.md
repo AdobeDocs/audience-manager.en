@@ -26,6 +26,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
     + Administration{#administration}
         + [Administration](features/administration/administration-overview.md)
         + [Edit Your Account Settings](features/administration/edit-account-settings.md)
+        + [IP Address Obfuscation](features/administration/ip-obfuscation.md)
         + [Usage Limits](features/administration/usage-limits.md)
     + Algorithmic Models{#algorithmic-models}
         + [Algorithmic Models](features/algorithmic-models/understanding-models.md)
@@ -51,7 +52,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
         + [Private Data Feeds](features/audience-marketplace/marketplace-private-feeds.md)
     + [Customer Data Feeds](features/cdf-files.md)
     + Data Explorer{#data-explorer}
-        + [Overview, Benefits, and Use Cases](features/data-explorer/data-explorer-overview.md)
+        + [Data Explorer - Overview, Benefits, and Use Cases](features/data-explorer/data-explorer-overview.md)
         + [Understanding Signals](features/data-explorer/data-explorer-understanding-signals.md)
         + [Signals Dashboard](features/data-explorer/data-explorer-signals-dashboard.md)
         + Signals Search{#signals-search}
@@ -72,12 +73,34 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
     + [Declared IDs](features/declared-ids.md)
     + [Derived Signals](features/derived-signals.md)
     + Destinations{#destinations}
-        + [Destinations](features/destinations/destinations.md)
-        + [Manage Destinations](features/destinations/manage-destinations.md)
-        + [Destination Macros Defined](features/destinations/destination-macros.md)
-        + [Standard and Serial Key-Value Pairs](features/destinations/key-value-pairs.md)
-        + [get_aamCookie Code](features/destinations/get-aam-cookie-code.md)
-        + [Configure an Analytics Destination](/help/using/features/destinations/create-analytics-destination.md)
+        + [Destinations Overview](features/destinations/destinations.md)
+        + [Destinations Home Page](features/destinations/destinations-home.md)
+        + Adobe Experience Cloud Destinations{#experience-cloud-destinations}
+          + [Configure an Analytics Destination](features/destinations/create-analytics-destination.md)
+        + People-Based Destinations {#people-based}
+          + [Overview and Use Cases](features/destinations/people-based-destinations-overview.md)
+          + [Prerequisites and Considerations](features/destinations/people-based-destinations-prerequisites.md)
+          + Implementation Guide {#implementation-guide}
+            + [Implementation Overview](features/destinations/people-based-destinations-workflow.md)
+            + [Workflow A - Personalization Based on All Online Activity Combined with Offline Data](features/destinations/people-based-destinations-workflow-combined.md)
+            + [Workflow B - Personalization Based on Offline-Only Data](features/destinations/people-based-destinations-workflow-offline.md)
+            + [Workflow C - Personalization Based on Authenticated Activity Combined with Offline Data](features/destinations/people-based-destinations-workflow-authenticated.md)
+          + [Authentication with People-Based Platforms](features/destinations/people-based-destinations-authentication.md)
+          + [Shareable Audiences](/help/using/features/destinations/people-based-destinations-reporting.md)
+        + Device-Based Destinations (Server-to-Server) {#device-based}
+          + [Add New Device-Based Destinations](features/destinations/add-device-based-destinations.md)
+          + [Add or Edit Segments for Server-to-Server Destinations](features/destinations/add-edit-segments.md)
+          + [Configure Twitter Tailored Audiences as a Self-Service Device-Based Destination](features/destinations/twitter-tailored-audiences.md)
+        + Custom Destinations {#custom-destinations}
+          + [Configure a URL Destination](features/destinations/create-url-destination.md)
+          + [Configure a Cookie Destination](features/destinations/create-cookie-destination.md)
+          + [Optional Settings for Cookie Destinations](features/destinations/cookie-destination-options.md)
+        + Destinations Reference {#destinations-reference}
+          + [Destination Builder](features/destinations/destination-builder.md)
+          + [get_aamCookie Code](features/destinations/get-aam-cookie-code.md)
+          + [Destination Macros Defined](features/destinations/destination-macros.md)
+          + [Standard and Serial Key-Value Pairs](features/destinations/key-value-pairs.md)
+          + [Add Data Export Controls to a Destination](/help/using/features/destinations/add-data-export-labels.md)
     + Profile Merge Rules{#profile-merge-rules}
         + [Profile Merge Rules Overview](features/profile-merge-rules/merge-rules-overview.md)
         + [Getting Started with Profile Merge Rules](features/profile-merge-rules/merge-rules-start.md)
@@ -240,7 +263,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
     + [DIL Use Cases and Code Samples](dil/dil-use-cases.md)
     + [Flash DIL](dil/dil-flash.md)
     + [DIL Release Notes](/help/using/dil/dil-release-notes.md)
-+ Implementation and Integration Guides{#implemenation-integration-guides}
++ Implementation and Integration Guides{#implementation-integration-guides}
     + [Implementation and Integration Guides](integration/implementation-and-integration.md)
     + [Data Integration Methods](integration/data-integration-methods.md)
     + Integrate DFP using Google Publisher Tags (GPT){#integrate-dfp-using-gpt}
@@ -250,6 +273,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
         + [Modify the GPT setTargeting API Call](integration/gpt-aam-destination/gpt-aam-modify-api.md)
         + [Audience Manager Code for Google Publisher Tags](integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
     + Integrating with Third-Party Destinations {#integrating-third-party}
+      + [Facebook WCA Integration](/help/using/integration/integrating-third-party/facebook-wca-integration.md)
       + [OAS as an Audience Manager Destination](integration/integrating-third-party/open-ad-server-destination.md)
       + [OpenX as an Audience Manager Destination](integration/integrating-third-party/openx-destination.md)
       + [DFP as an Audience Manager Destination](integration/aam-dfp.md)
@@ -291,6 +315,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
             + [File PGP Encryption for Inbound Data Types](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)
             + [File Compression for Inbound Data Transfer Files](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
             + [Sample Message to Partners after Inbound Processing](integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)
+        + [Custom Partner Integrations](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
     + Integration with Other Experience Cloud Solutions {#integration-other-solutions}
       + [Integrate Audience Manager With Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
       + [Implement the Audience Management Module](integration/integration-other-solutions/audience-management-module.md)
@@ -341,6 +366,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
     + [Data Collection and Product Integration FAQ](faq/faq-data-collection.md)
     + [Inbound Customer Data Ingestion FAQ](faq/faq-inbound-data-ingestion.md)
     + [Privacy and Data Retention FAQ](faq/faq-privacy.md)
+    + [People-Based Destinations FAQ](faq/faq-people-based-destinations.md)
     + [Product Features and Functions FAQ](faq/faq-features.md)
     + [Profile Merge Rules and Device Graph FAQ](faq/faq-profile-merge.md)
     + [Targeting FAQ](faq/faq-targeting.md)

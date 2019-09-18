@@ -149,7 +149,7 @@ Identifier for Advertisers, the unique device ID Apple assigns to its products. 
 
 **Inbound**
 
-The process by which you can send audience data from other sources to [!DNL Audience Manager]. See [Sending Audience Data](../integration/sending-audience-data/real-time-data-integration/real-time-data-integration.md).
+The process by which you can send audience data from other sources to [!DNL Audience Manager]. See [Sending Audience Data](/help/using/integration/sending-audience-data/send-audience-data.md).
 
 <br>&nbsp;
 

@@ -1,6 +1,7 @@
 ---
 description: Manage data collection and audience creation with rules-based, onboarded, algorithmic or folder traits.
 seo-description: Manage data collection and audience creation with rules-based, onboarded, algorithmic or folder traits.
+keywords: trait; traits; trait overview
 seo-title: Traits Overview
 solution: Audience Manager
 title: Traits Overview

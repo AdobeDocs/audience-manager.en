@@ -47,6 +47,8 @@ To complete the [!UICONTROL Data Source Details] section:
 
 * **[!UICONTROL Use as a Device Graph]**: This control is available only to accounts listed as a data provider. Selecting this check box creates your data source as a device graph and lets you share it with other [!DNL Audience Manager] customers. Work with your [!DNL Audience Manager] consultant to get set up as a data provider and to specify which customers this [!UICONTROL Data Source] should be shared with. Your consultant will provision your account and device graph sharing through an internal provisioning processes.
 
+* **[!UICONTROL Data retention for inactive Customer IDs]**: This control allows you to set the data retention period for inactive Customer IDs. This determines how long Audience Manager keeps Customer IDs in our database after they were last seen on the Audience Manager platform. The default value is 24 months (720 days). The minimum value you can set is 1 month and the maximum value is 5 years. Note that we count all months as 30-days. Audience Manager runs a process that deletes inactive Customer IDs once a week, in accordance with the data retention you set for inactive Customer IDs.
+
 The text fields associated with these settings let you rename the [!UICONTROL Data Source] with an alias that appears in the [Profile Merge Rule options](../../features/profile-merge-rules/merge-rule-definitions.md). For example, if you add an alias to **[!UICONTROL Use as Authenticated Profile]**, that name appears in the [!UICONTROL Authenticated Profile Options] list. If you add an alias to **[!UICONTROL Use as a Device Graph]**, that name appears in the [!UICONTROL Device Options] list.
 
 >[!MORE_LIKE_THIS]
@@ -148,7 +150,7 @@ In the namespace key-value pair, the `*`MCORG`*` variable is your [!DNL Experien
 
 ### Configure SDKs
 
-See the [Configure SDKs](../../features/profile-merge-rules/merge-rules-start.md#configure-sdks) section below.
+See the [Configure SDKs](#configure-sdks-legacy-dil) section below.
 
 ## Legacy DIL {#legacy-dil}
 

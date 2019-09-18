@@ -2,6 +2,7 @@
 description: APIs and toolkits that let you work programmatically with Audience Manager.
 seo-description: APIs and toolkits that let you work programmatically with Audience Manager.
 seo-title: API and SDK Code
+keywords: api, api, api, api, api, api, api, api, api, api 
 solution: Audience Manager
 title: API and SDK Code
 uuid: bf801e84-f914-4efd-8807-c4972474894a
@@ -24,3 +25,4 @@ Details:
 * [DCS Event Call APIs](dcs-intro/dcs-event-calls/dcs-event-calls.md)
 * [DCS APIs for Server-to-Server Data Transfers](dcs-intro/dcs-s2s/dcs-s2s.md)
 * [DCS API Methods](dcs-intro/dcs-api-reference/dcs-api-methods.md)
+* [SDK Code](/help/using/api/aam-sdk.md)
