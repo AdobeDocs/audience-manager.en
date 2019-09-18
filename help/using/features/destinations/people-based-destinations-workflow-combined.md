@@ -22,7 +22,15 @@ In this case, you need to need to label the corresponding data source as such:
 
 1. Go to [!UICONTROL Audience Data] -> [!UICONTROL Data Sources].
 1. Find the data source that contains your [DPUUIDs](../../reference/ids-in-aam.md), and click it.
+1. In the **[!UICONTROL ID Type]** drop-down menu, select **[!UICONTROL Cross Device]**.
 1. Make sure the option [!UICONTROL Cannot be tied to personally identifiable information] is unchecked.
+1. In the **[!UICONTROL Data Source Settings]** section, select both the **[!UICONTROL Inbound]** and **[!UICONTROL Outbound]** options, and enable the **[!UICONTROL Share associated cross-device IDs in people-based destinations]** option.
+1. Use the drop-down menu to select the **[!UICONTROL Emails(SHA256, lowercased)]** label for this data source.
+    >[!IMPORTANT]
+    >
+    >This option only labels the data source as containing data hashed with that specific algorithm. Audience Manager does not hash the data at this step. Make sure the email addresses that you plan on storing in this data source are already hashed with the [!DNL SHA256] algorithm. Otherwise, you won't be able to use it for [!DNL People-Based Destinations].
+
+    ![pbd-datasource-settings](assets/pbd-ds-config.png)
 1. Save the data source settings.
 
 &nbsp;
@@ -41,6 +49,7 @@ In this case, you need to create a new cross-device data source that will store 
     >This option only labels the data source as containing data hashed with that specific algorithm. Audience Manager does not hash the data at this step. Make sure the email addresses that you plan on storing in this data source are already hashed with the [!DNL SHA256] algorithm. Otherwise, you won't be able to use it for [!DNL People-Based Destinations].
 
     ![pbd-datasource-settings](assets/pbd-ds-config.png)
+1. Save the data source settings.
 
 >[!NOTE]
 >
