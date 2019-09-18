@@ -15,7 +15,7 @@ Use [!DNL People-Based Destinations] to send first-party audience segments to pe
 [!DNL People-Based Destinations] enable you to apply segmentation on online and offline data to create audience segments based on hashed identifiers, such as email addresses or phone numbers. Then, you can send these segments to "walled gardens" such as [!DNL Facebook], where you can target your audience regardless of their online interactions or authentication state. [!DNL People-Based Destinations] can help you:
 
 * Target offline and online audiences in platforms such as [!DNL Facebook], based on hashed email addresses;
-* Compliment existing device and cookie targeting capabilities of Audience Manager;
+* Complement existing device and cookie targeting capabilities of Audience Manager;
 * Eliminate costs associated with third-party data onboarding solutions;
 * Eliminate costs associated with developing custom data onboarding workflows;
 * Target audiences in cookie-less environments;
