@@ -106,7 +106,7 @@ To create new segments, use the [Segment Builder](../segments/segment-builder.md
 
 >[!IMPORTANT]
 >
->A udience Manager handles the integration with social platforms through authentication tokens that expire after a certain amount of time. See Authentication Token Renewal for details on how to renew the expired tokens.
+>Audience Manager handles the integration with social platforms through authentication tokens that expire after a certain amount of time. See Authentication Token Renewal for details on how to renew the expired tokens.
 
 ## Step 6 - Create a People-Based Destination {#create-destination}
 
