@@ -72,4 +72,16 @@ To add PGP encryption to your data files, see [File PGP Encryption for Inbound D
 
 ## Protecting Data by Escaping {#escaping-data}
 
-Note that [!DNL Audience Manager] does not escape outgoing data to secure it against possible cross-site scripting (XSS), etc. It is the responsibility of the client to escape incoming data. 
+Note that [!DNL Audience Manager] does not escape outgoing data to secure it against possible cross-site scripting (XSS), etc. It is the responsibility of the client to escape incoming data.
+
+## HTTP Strict-Transport-Security (#hsts)
+
+[!DNL HTTP Strict-Transport-Security (HSTS)] is a web security policy mechanism that helps protect against cookie hijacking and protocol downgrade attacks by not permitting [!DNL HTTP] traffic and transparently upgrading all [!DNL HTTP] traffic to [!DNL HTTPS].
+
+This policy improves data security between clients and Adobe Edge servers.
+
+### Example {#hsts-example}
+
+When trying to access `http://bank.demdex.com`, [!DNL HSTS] will automatically upgrade the request to  `https://bank.demdex.com`, in case the browser doesn’t automatically request the [!DNL HTTPS] domain.
+
+See [HTTP Strict Transport Security - Wikipedia](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) for more information about HSTS.
