@@ -1,10 +1,10 @@
 ---
 description: To create a new data source, go to Audience Data > Data Sources > Add New and complete the steps for each section described here. Administrator permissions are required to create a data source.
-keywords: cdf;custom data feed
+keywords: data sources;manage data source;audience manager data source
 seo-description: To create a new data source, go to Audience Data > Data Sources > Add New and complete the steps for each section described here. Administrator permissions are required to create a data source.
 seo-title: Create a Data Source
 solution: Audience Manager
-title: Create a Data Source
+title: Manage Data Sources
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
 ---
 

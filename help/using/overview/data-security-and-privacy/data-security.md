@@ -74,7 +74,7 @@ To add PGP encryption to your data files, see [File PGP Encryption for Inbound D
 
 Note that [!DNL Audience Manager] does not escape outgoing data to secure it against possible cross-site scripting (XSS), etc. It is the responsibility of the client to escape incoming data.
 
-## HTTP Strict-Transport-Security (#hsts)
+## HTTP Strict-Transport-Security {#hsts}
 
 [!DNL HTTP Strict-Transport-Security (HSTS)] is a web security policy mechanism that helps protect against cookie hijacking and protocol downgrade attacks by not permitting [!DNL HTTP] traffic and transparently upgrading all [!DNL HTTP] traffic to [!DNL HTTPS].
 
