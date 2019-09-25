@@ -10,7 +10,8 @@ title: Configure an Analytics Destination
 
 ## Requirements {#requirements}
 
-See [Audience Analytics](https://marketing.adobe.com/resources/help/en_US/analytics/audiences/).
+To configure an Analytics destination, your Audience Manager user must have Admin permissions. See [Create Users](/help/using/features/administration/administration-overview.md#create-users) in the Administration Guide. Note that having the `CREATE_DESTINATIONS` [wildcard permission](/help/using/features/administration/administration-overview.md#wild-card-permissions) is not sufficient to create Analytics destinations.
+For further requirements, see Prerequisites in [Audience Analytics](https://marketing.adobe.com/resources/help/en_US/analytics/audiences/).
 
 ## Your Default Analytics Destination and New Analytics Destinations
 
@@ -24,12 +25,12 @@ See [Audience Analytics](https://marketing.adobe.com/resources/help/en_US/analyt
 This section contains fields and options that start the Analytics destination creation process. To complete this section:
 
 1. Click **Basic Information** to expose the controls.
-1. Name the destination. Avoid abbreviations and special characters.
-1. *(Optional)* Describe the destination. A concise description is an effective way to define or provide more information about a destination.
-1. *(Optional)* In the **Platform** list, leave the default set to **All**. Currently, these options don't do anything. They're designed to support features that may be added at a later date.
-1. In the **Category** list, select **Adobe Experience Cloud**.
-1. In the **Type** list, select **Adobe Analytics**.
-1. Click **Save** to go to the Configuration settings or click **Data Export Labels** to apply export controls to the destination.
+2. Name the destination. Avoid abbreviations and special characters.
+3. *(Optional)* Describe the destination. A concise description is an effective way to define or provide more information about a destination.
+4. *(Optional)* In the **Platform** list, leave the default set to **All**. Currently, these options don't do anything. They're designed to support features that may be added at a later date.
+5. In the **Category** list, select **Adobe Experience Cloud**.
+6. In the **Type** list, select **Adobe Analytics**.
+7. Click **Save** to go to the Configuration settings or click **Data Export Labels** to apply export controls to the destination.
 
 >[!NOTE]
 >
