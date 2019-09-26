@@ -8,7 +8,7 @@ title: Authentication with People-Based Platforms
 
 # Authentication with People-Based Platforms {#authentication-with-people-based-platforms}
 
-This page contains guidance on how to configure and manage the integration between Audience Manager and people-based platforms.
+This page contains guidance on how you can configure and manage your integration between Audience Manager and people-based platforms.
 
 >[!NOTE]
 >This is a mandatory step for People-Based Destinations, regardless of your implementation scenario.
@@ -22,11 +22,11 @@ This page contains guidance on how to configure and manage the integration betwe
     ![people-based-platform](assets/pbd-add.png)
 1. Click **[!UICONTROL Confirm]** to be redirected to the authentication page of the selected platform.
 1. Once you've authenticated to your social platform account, you are redirected to Audience Manager where you should see your associated advertiser accounts. Select the advertiser account that you want to use and click **[!UICONTROL Confirm]**.
-1. Audience Manager displays a notification at the top of the page to let you know whether the account was successfully added. The notification also allows you to add a contact email address to receive notifications when the social platform authentication is about to expire.
+1. Audience Manager displays a notification at the top of the page to let you know whether the account was successfully added. The notification also allows you to add a contact email address to receive notifications from Adobe when the social platform authentication is about to expire.
 
 ## Authentication Token Expiration and Notification Management {#token-expiration-notification}
 
-Audience Manager handles the integration with social platforms through authentication tokens that expire after a certain amount of time. Token validity duration is subject to each social platform's integration rules. Once the authentication token expires, Audience Manager is unable to send your audience segments to your destination. To avoid this scenario, we recommend adding at least one contact email address to your integration, so that you get notified as soon as the authentication token is about to expire. When that happens, you can re-authenticate to ensure the destination continues to receive your audience segments.
+Audience Manager handles your integration with social platforms through authentication tokens that expire after a certain amount of time. Token validity duration is subject to each social platform's integration rules. Once the authentication token expires, Audience Manager is unable to send your audience segments to your destination. To avoid this scenario, we recommend adding at least one contact email address to your integration, so that you get notified as soon as the authentication token is about to expire. When that happens, you can re-authenticate to ensure the destination continues to receive your audience segments.
 
 Here's how to add email addresses to existing integrations:
 
