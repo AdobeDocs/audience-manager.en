@@ -85,7 +85,7 @@ The next step is creating a new merge rule that will help you create the audienc
 1. Log in to your Audience Manager account and go to **[!UICONTROL Audience Data]** -> **[!UICONTROL Profile Merge Rules]**.
 2. Click **[!UICONTROL Add New Rule]**.
 3. Enter a profile merge rule **[!UICONTROL Name]** and **[!UICONTROL Description]**.
-4. In the **[!UICONTROL Profile Merge Rule Setup]** section, select the **[!UICONTROL All Cross-Device Profiles]** rule from the **[!UICONTROL Cross-Device Options]** list.
+4. In the **[!UICONTROL Profile Merge Rule Setup]** section, select the **[!UICONTROL Current Authenticated Profiles]** or **[!UICONTROL Last Authenticated Profiles]** rule from the **[!UICONTROL Cross-Device Options]** list.
 5. In the **[!UICONTROL Cross-Device Profile Options]** list, select the data sources that you want to run the segmentation on. These should be the data sources containing your existing DPUUIDs.
     ![merge-rule-setup](assets/pbd-pmr-combined.png)
 
