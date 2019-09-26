@@ -8,6 +8,9 @@ title: Implementation Guidance
 
 # Implementation Guidance {#implementation-guidance}
 
+>[!IMPORTANT]
+>This article contains product documentation meant to guide you through the setup and usage of this feature. Nothing contained herein is legal advice. Please consult your own legal counsel for legal guidance.
+
 [!DNL People-Based Destinations] offers multiple implementation strategies, depending on how your customer data is structured. This article provides an overview of the implementation steps that you need to follow for [!DNL People-Based Destinations], depending on your scenario.
 
 ## Overview {#overview}

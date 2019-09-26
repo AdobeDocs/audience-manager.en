@@ -8,6 +8,9 @@ title: Prerequisites and Considerations
 
 # Prerequisites and Considerations {#prerequisites-considerations}
 
+>[!IMPORTANT]
+>This article contains product documentation meant to guide you through the setup and usage of this feature. Nothing contained herein is legal advice. Please consult your own legal counsel for legal guidance.
+
 Read below for an overview of customer requirements that you need to meet before signing up for [!DNL People-Based Destinations].
 
 >[!IMPORTANT]

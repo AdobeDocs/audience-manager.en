@@ -8,7 +8,11 @@ title: Authentication with People-Based Platforms
 
 # Authentication with People-Based Platforms {#authentication-with-people-based-platforms}
 
-This page contains guidance on how you can configure and manage your integration between Audience Manager and people-based platforms.
+>[!IMPORTANT]
+>This article contains product documentation meant to guide you through the setup and usage of this feature. Nothing contained herein is legal advice. Please consult your own legal counsel for legal guidance.
+
+This page contains guidance on how you can configure and manage your integration 
+between Audience Manager and people-based platforms.
 
 >[!NOTE]
 >This is a mandatory step for People-Based Destinations, regardless of your implementation scenario.
@@ -17,12 +21,12 @@ This page contains guidance on how you can configure and manage your integration
 
 1. Log in to your Audience Manager account and go to **[!UICONTROL Administration]** > **[!UICONTROL Integrated Accounts]**. If you have a previously configured integration with a social platform, you should see it listed in this page. Otherwise, the page is empty.
     ![people-based-integration](assets/pbd-config.png)
-1. Click **[!UICONTROL Add Account]**.
-1. Use the **[!UICONTROL People-Based Platform]** drop-down menu to select the platform that you want to configure the integration with.
+2. Click **[!UICONTROL Add Account]**.
+3. Use the **[!UICONTROL People-Based Platform]** drop-down menu to select the platform that you want to configure the integration with.
     ![people-based-platform](assets/pbd-add.png)
-1. Click **[!UICONTROL Confirm]** to be redirected to the authentication page of the selected platform.
-1. Once you've authenticated to your social platform account, you are redirected to Audience Manager where you should see your associated advertiser accounts. Select the advertiser account that you want to use and click **[!UICONTROL Confirm]**.
-1. Audience Manager displays a notification at the top of the page to let you know whether the account was successfully added. The notification also allows you to add a contact email address to receive notifications from Adobe when the social platform authentication is about to expire.
+4. Click **[!UICONTROL Confirm]** to be redirected to the authentication page of the selected platform.
+5. Once you've authenticated to your social platform account, you are redirected to Audience Manager where you should see your associated advertiser accounts. Select the advertiser account that you want to use and click **[!UICONTROL Confirm]**.
+6. Audience Manager displays a notification at the top of the page to let you know whether the account was successfully added. The notification also allows you to add a contact email address to receive notifications from Adobe when the social platform authentication is about to expire.
 
 ## Authentication Token Expiration and Notification Management {#token-expiration-notification}
 

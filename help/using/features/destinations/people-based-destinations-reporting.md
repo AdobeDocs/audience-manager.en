@@ -8,6 +8,9 @@ title: Shareable Audiences
 
 # Shareable Audiences {#shareable-audiences}
 
+>[!IMPORTANT]
+>This article contains product documentation meant to guide you through the setup and usage of this feature. Nothing contained herein is legal advice. Please consult your own legal counsel for legal guidance.
+
 [!DNL People-Based Destinations] bring the notion of [!DNL Shareable Audiences] to Audience Manager. This metric helps you understand how many of the hashed email addresses Audience Manager can share with the destination platform.
 
 [!DNL Shareable Audiences] is a metric that helps you interpret audience data in the context of [!DNL People-Based Destinations]. You can see this metric in the [!UICONTROL Destinations] page and in the [!UICONTROL Segment] page.

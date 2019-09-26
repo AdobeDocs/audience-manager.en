@@ -8,6 +8,9 @@ title: Workflow B - Personalization Based on Offline-Only Data
 
 # Workflow B - Personalization Based on Offline-Only Data {#workflow-b}
 
+>[!IMPORTANT]
+>This article contains product documentation meant to guide you through the setup and usage of this feature. Nothing contained herein is legal advice. Please consult your own legal counsel for legal guidance.
+
 This page includes step-by-step guidance on how to build audience segments from offline-only customer data, and send them to People-Based Destinations.
 
 ## Step 1 - Onboard Offline Traits {#step-1-onboard-traits}

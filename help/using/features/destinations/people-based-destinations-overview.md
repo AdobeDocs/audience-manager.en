@@ -10,6 +10,9 @@ title: Overview and Use Cases
 
 Use [!DNL People-Based Destinations] to send first-party audience segments to people-based environments. These environments are closed ecosystems belonging to one entity that controls the content that is being displayed within it. They include social platforms such as [!DNL Facebook], and other platforms that rely on customer accounts to personalize the displayed content.
 
+>[!IMPORTANT]
+>This article contains product documentation meant to guide you through the setup and usage of this feature. Nothing contained herein is legal advice. Please consult your own legal counsel for legal guidance.
+
 ## Overview {#overview}
 
 [!DNL People-Based Destinations] enable you to apply segmentation on online and offline data to create audience segments based on [hashed identifiers](people-based-destinations-prerequisites.md#hashing-requirements), such as email addresses or phone numbers. Then, you can send these segments to "walled gardens" such as [!DNL Facebook], where you can target your audience on the social platforms. [!DNL People-Based Destinations] can help you:
