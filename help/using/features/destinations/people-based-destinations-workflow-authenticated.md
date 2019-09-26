@@ -8,6 +8,9 @@ title: Workflow C - Personalization Based on Authenticated Activity Combined wit
 
 # Workflow C - Personalization Based on Authenticated Activity Combined with Offline Data {#workflow-c}
 
+>[!IMPORTANT]
+>This article contains product documentation meant to guide you through the setup and usage of this feature. Nothing contained herein is legal advice. Please consult your own legal counsel for legal guidance.
+
 This page includes step-by-step guidance on how to combine offline [!DNL CRM] data with real-time behavioral data for authenticated users to create audience segments, then send these audience segments to [!DNL People-Based Destinations].
 
 ## Step 1 - Configure Data Source Settings {#configure-data-source-settings}

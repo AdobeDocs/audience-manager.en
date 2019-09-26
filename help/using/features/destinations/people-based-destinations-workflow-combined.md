@@ -8,6 +8,9 @@ title: Workflow A - Personalization Based on All Online Activity Combined with O
 
 # Workflow A - Personalization Based on All Online Activity Combined with Offline Data {#workflow-a}
 
+>[!IMPORTANT]
+>This article contains product documentation meant to guide you through the setup and usage of this feature. Nothing contained herein is legal advice. Please consult your own legal counsel for legal guidance.
+
 This page includes step-by-step guidance on how to combine offline [!DNL CRM] data with behavioral data that you already have in Audience Manager to create new audience segments, then send these audience segments to [!DNL People-Based Destinations].
 
 ## Step 1 - Configure Data Source Settings {#configure-data-source-settings}
