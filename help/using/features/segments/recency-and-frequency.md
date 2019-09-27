@@ -107,7 +107,7 @@ In this example, you select the => operator, as shown in the screenshot. This qu
 
 Frequency-capping expressions include all the users whose number of trait realizations is below a desired value. Here are a few Right and Wrong examples:
 
-* Wrong - The expression `frequency([1000T]) <= 5` includes all users that have realized the trait with the ID "1000" a maximum of five times but also includes users who have not realized the trait. Therefore, Audience Manager does not validate this expression.
+* Wrong - The expression `frequency([1000T]) <= 5` includes all users that have realized the trait with the ID "1000" a maximum of five times but also includes users who have not realized the trait. Therefore, Audience Manager does not validate this expression for performance reasons, as it would qualify too many users for the segment.
 
 * Right - If you want to include all users that have realized the trait with the ID "1000" a maximum of five times, add another condition to the expression, to make sure the users have qualified for the trait at least once:  `frequency([1000T]) >= 1  AND  frequency([1000T]) <= 5`
 
