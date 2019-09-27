@@ -85,10 +85,10 @@ When mapping audience segments to Twitter, make sure to meet the following segme
 * Correct segment or mapping name: "US and European Shoppers";
 * Incorrect segment or mapping name: "US, European 5h0pP3rs".
 
-## Match Rates Considerations {#match-rates-considerations}
-
-When using [!UICONTROL Twitter Tailored Audiences], the [!UICONTROL Segment Addressable Audience] and [!UICONTROL Segment Match Rate] metrics from the destination page will not display any values. This is normal behavior, since audience matching along with the match rates for this destination are handled and hosted by [!UICONTROL Twitter], not Adobe.
-
 >[!IMPORTANT]
 >
 >You cannot change the names of already mapped segments. Audience Manager uses the segment names to correctly identify the segments in the integration.
+
+## Match Rates Considerations {#match-rates-considerations}
+
+When using [!UICONTROL Twitter Tailored Audiences], the [!UICONTROL Segment Addressable Audience] and [!UICONTROL Segment Match Rate] metrics from the destination page will not display any values. This is normal behavior, since audience matching along with the match rates for this destination are handled and hosted by [!UICONTROL Twitter], not Adobe.
