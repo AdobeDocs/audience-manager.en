@@ -10,7 +10,7 @@ uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 
 # Actionable Log Files {#actionable-log-files}
 
-[!UICONTROL Actionable Log Files] allow you to capture media data from [!DNL Google DCM] log files and use the data to create traits in Audience Manager. Capture impressions, clicks, and conversions from ad servers as traits without having to use pixel calls.
+[!UICONTROL Actionable Log Files] allow you to capture media data from ad server log files and use the data to create traits in Audience Manager. Capture impressions, clicks, and conversions from ad servers as traits without having to use pixel calls.
 
 >[!NOTE]
 >
@@ -22,29 +22,33 @@ uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 
 ## Getting Started {#getting-started}
 
-To get started with [!UICONTROL Actionable Log Files], and to use our [Audience Optimization Reports](../../reporting/audience-optimization-reports/audience-optimization-reports.md), you need to import DCM log data into [!DNL Audience Manager]. See [Import DCM Data Files Into Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) *and* contact your [!DNL Audience Manager] consultant.
+To get started with [!UICONTROL Actionable Log Files], you need to import log data into [!DNL Audience Manager]. The following links will help you get started:
 
-If you are already importing [!UICONTROL DCM] log data into [!DNL Audience Manager], ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to enable [!UICONTROL Actionable Log Files] for you.
+* For [!UICONTROL Google DCM] logs, see [Import DCM Data Files Into Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) *and* contact your [!DNL Audience Manager] consultant.
+* For other ad server logs, see [Data and Metadata Files](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md).
 
->[!NOTE] {importance="high"}
+If you are already importing log data into [!DNL Audience Manager], ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to enable [!UICONTROL Actionable Log Files] for you.
+
+>[!IMPORTANT]
 >
->[!UICONTROL Actionable Log Files] work only with [!DNL Google DCM] log files.
+> As of October 2019, [!UICONTROL Actionable Log Files] work only with [!DNL Google DCM] and [!DNL Flashtalking] log files.
 
 ## Working with Actionable Log Files {#working-with-actionable-log-files}
 
-With [!UICONTROL Actionable Log Files], the information from [!DNL DCM] logs is captured in [!DNL Audience Manager] the same way that you would capture data from real-time website interactions. [!DNL Audience Manager] connects to your [!DNL Google Cloud] storage, parses the information from [!DNL DCM] logs, and sends the log data as actionable signals to our [Data Collection Servers](../../reference/system-components/components-data-collection.md#dcs-pcs).
+With [!UICONTROL Actionable Log Files], the information from ad server logs is captured in [!DNL Audience Manager] the same way that you would capture data from real-time website interactions. [!DNL Audience Manager] connects to your ad server log storage, parses the information from the logs, and sends the log data as actionable signals to our [Data Collection Servers](../../reference/system-components/components-data-collection.md#dcs-pcs).
 
 You still need to set up rule-based traits to capture the actionable signals. See how to set up rule-based traits either in the [Audience Manager UI](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) or using our [Bulk Management Tools](../../reference/bulk-management-tools/bulk-create.md). Scroll down to the [Actionable Signals](../../integration/media-data-integration/actionable-log-files.md#actionable-signals) section for a list of all the keys you can use in rule-based traits.
 
-For an average-sized [!DNL DCM] log file of 2 million lines, any traits created from actionable signals are realized within approximately one hour after we process the logs.
 
->[!IMPORTANT] {importance="high"}
+>For an average-sized [!DNL DCM] log file of 2 million lines, any traits created from actionable signals are realized within approximately one hour after we process the logs.
+
+>[!IMPORTANT]
 >
 >We recommend implementing [!UICONTROL Actionable Log Files] *instead of*  [Pixel Calls](../../integration/media-data-integration/impression-data-pixels.md). We discourage the use of both options, as this leads to an increase in frequency counts for traits.
 
 ## Actionable Signals {#actionable-signals}
 
-Signals are the [smallest data units](../../reference/signal-trait-segment.md) in [!DNL Audience Manager]. [!UICONTROL Actionable Log Files] allow you to capture advertiser, business unit, creative, and campaign values in impression events, click events, and conversion events as signals from [!DNL DCM] logs.
+Signals are the [smallest data units](../../reference/signal-trait-segment.md) in [!DNL Audience Manager]. [!UICONTROL Actionable Log Files] allow you to capture advertiser, business unit, creative, and campaign values in impression events, click events, and conversion events as signals from ad server logs.
 
 Remember, in order to use this information for audience creation and segmentation, you need to set up the rule-based traits yourself. The table lists the actionable signals from [!DNL DCM] log files:
 
@@ -135,15 +139,15 @@ Retarget users who saw creative 123 but didn't click or convert and show them cr
 
    `d_creative == 123 AND d_event == imp`
 
-1. Create a trait to capture users who click or convert. Let's say you name this one [!DNL Click and Converter]. Use the trait rule:
+2. Create a trait to capture users who click or convert. Let's say you name this one [!DNL Click and Converter]. Use the trait rule:
 
    `d_event == click OR d_event=conv`
 
-1. Create a segment to populate with users who saw creative 123 but didn't click or convert. Name it [!DNL Retarget Users] and use the segment rule:
+3. Create a segment to populate with users who saw creative 123 but didn't click or convert. Name it [!DNL Retarget Users] and use the segment rule:
 
    `Creative Trait 123 AND NOT Click and Converter`
 
-1. Map the segment [!DNL Retarget Users] to a destination and target users in the destination with creative 456.
+4. Map the segment [!DNL Retarget Users] to a destination and target users in the destination with creative 456.
 
 ### Use DCM Floodlight Activity in the Audience Optimization Reports or in Audience Lab
 

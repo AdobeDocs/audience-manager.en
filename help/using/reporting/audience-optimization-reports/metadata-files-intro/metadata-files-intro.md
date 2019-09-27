@@ -7,9 +7,14 @@ title: Data and Metadata Files for Audience Optimization Reports
 uuid: 80aa4bc3-c660-4e65-8c22-2ddbb7bddd4f
 ---
 
-# Data and Metadata Files for Audience Optimization Reports{#data-and-metadata-files-for-audience-optimization-reports}
+# Data and Metadata Files{#data-and-metadata-files}
 
-A data file contains impression, click, or conversion data that you can import into the Audience Optimization reports. A metadata file contains human-readable names that correspond to various report options and menu items. Format your data and metadata files according to the specifications in this section.
+A data file contains impression, click, or conversion data that you can can use for: 
+
+* Actionable Log Files
+* Audience Optimization reports 
+  
+A metadata file contains human-readable names that correspond to various report options and menu items. Format your data and metadata files according to the specifications in this section.
 
 >[!IMPORTANT]
 >
