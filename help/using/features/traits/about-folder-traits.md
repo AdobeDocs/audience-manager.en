@@ -36,7 +36,7 @@ The frequency count of a folder trait is the sum of realizations of the traits i
 * Trait B: 1
 * Trait C: 1
 
-In this case, the [!DNL ]Automobile [!UICONTROL Folder Trait] has 7 realizations.
+In this case, the [!DNL Automobile Folder Trait] has 7 realizations.
 
 ![](assets/folder_traits_rollup_border.png)
 
