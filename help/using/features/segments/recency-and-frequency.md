@@ -41,6 +41,10 @@ Review and understand these limits and rules when you want to apply recency and 
   <tr> 
    <td colname="col1"> <p> <b>Minimum Value</b> </p> </td> 
    <td colname="col2"> <p>Recency must be greater than 0. </p> </td> 
+  </tr>
+  <tr> 
+   <td colname="col1"> <p> <b>Trait Types</b> </p> </td> 
+   <td colname="col2"> <p>You can apply recency controls to rule-based and folder traits only. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Third-Party Traits</b> </p> </td> 
@@ -62,6 +66,10 @@ Review and understand these limits and rules when you want to apply recency and 
   <tr> 
    <td colname="col1"> <p> <b>Third-Party Traits</b> </p> </td> 
    <td colname="col2"> <p>You cannot set frequency rules on individual third-party traits or trait groups that contain third-party traits. Recency and frequency applies to your own traits only. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <b>Trait Types</b> </p> </td> 
+   <td colname="col2"> <p>You can apply frequency controls to rule-based and folder traits only. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Recency Requirements</b> </p> </td> 
@@ -97,12 +105,15 @@ In this example, you select the => operator, as shown in the screenshot. This qu
 
 ## Frequency Capping Examples {#frequency-capping}
 
-Frequency-capping expressions include all the users whose number of trait realizations is below a desired value. Here are a few examples:
+Frequency-capping expressions include all the users whose number of trait realizations is below a desired value. Here are a few Right and Wrong examples:
 
-* The expression `frequency([1000T]) <= 5` includes all users that have realized the trait with the ID "1000" a maximum of five times, including users who have not realized the trait.
-* When you need recency/frequency requirements to be less than a specific number of times or days, join that trait to another with an `AND` operator. Using the example above, this expression becomes valid when joined with another trait as shown here: `frequency([1000T]) <= 5 AND isSiteVisitorTrait`.
+* Wrong - The expression `frequency([1000T]) <= 5` includes all users that have realized the trait with the ID "1000" a maximum of five times but also includes users who have not realized the trait. Therefore, Audience Manager does not validate this expression.
 
-* For advertising frequency-capping use cases, you could create a segment rule similar to this: `(frequency([1000T] <= 2D) >= 5)`. This expression includes all users that have realized the trait with the ID "1000" in the past 2 days at least five times. Set frequency capping by sending this segment to the ad server with a `NOT` set on the segment in the ad server. This approach achieves greater performance in [!DNL Audience Manager] while still serving the same purpose for frequency capping.
+* Right - If you want to include all users that have realized the trait with the ID "1000" a maximum of five times, add another condition to the expression, to make sure the users have qualified for the trait at least once:  `frequency([1000T]) >= 1  AND  frequency([1000T]) <= 5`
+
+* Right- When you need recency/frequency requirements to be less than a specific number of times or days, join that trait to another with an `AND` operator. Using the example in the first bullet point, this expression becomes valid when joined with another trait as shown here: `frequency([1000T]) <= 5 AND isSiteVisitorTrait`.
+
+* Right - For advertising frequency-capping use cases, you could create a segment rule similar to this: `(frequency([1000T] <= 2D) >= 5)`. This expression includes all users that have realized the trait with the ID "1000" in the past 2 days at least five times. Set frequency capping by sending this segment to the ad server with a `NOT` set on the segment in the ad server. This approach achieves greater performance in [!DNL Audience Manager] while still serving the same purpose for frequency capping.
 
 >[!MORE_LIKE_THIS]
 >
