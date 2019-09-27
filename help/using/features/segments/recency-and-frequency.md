@@ -13,7 +13,7 @@ In [!UICONTROL Segment Builder], recency and frequency let you segment visitors 
 
 Audience Manager defines [!DNL recency] and [!DNL frequency] as follows:
 
-* **[!UICONTROL Recency]:** The number of days during which a user viewed or qualified for one (or more) traits.
+* **[!UICONTROL Recency]:** How recently a user viewed or qualified for one (or more) traits.
 * **[!UICONTROL Frequency]:** The rate at which a user viewed or qualified for one (or more) traits.
 
 [!UICONTROL Recency] and [!UICONTROL Frequency] settings help you segment visitors based on their real (or perceived) level of interest in a site, section, or particular creative. For example, users who qualify for a segment with high recency/frequency requirements may be more interested in a site or product than users who visit less often or less frequently.
@@ -73,6 +73,27 @@ Review and understand these limits and rules when you want to apply recency and 
   </tr> 
  </tbody> 
 </table>
+
+## Recency Examples {#recency-examples}
+
+Here are two examples of how recency works, depending on your selection in the UI:
+
+### Using a less than or equal to operator (<=)
+
+![Less-than-equal-to](assets/less-than-equal-to.png)
+
+In this example, you select the <= operator, as shown in the screenshot. This qualifies your user for the segment if they qualify for any of the three traits a minimum of three times within the last five days. The timeline below shows the segment qualification at the time the segment is created, on October 1st, and ten days later.
+
+![Last-five-days](assets/last-5-days.png)
+
+### Using a greater than or equal to operator (=>)
+
+![Greater-than-equal-to](assets/greater-than-equal-to.png)
+
+In this example, you select the => operator, as shown in the screenshot. This qualifies your user for the segment if they qualify for any of the three traits a minimum of three times anytime between their first qualification on the Audience Manager platform and the cut-off time five days ago. The timeline below shows the segment qualification at the time the segment is created, on October 1st, and ten days later.
+
+![Earlier-qualification](assets/earlier-qualification.png)
+
 
 ## Frequency Capping Examples {#frequency-capping}
 
