@@ -31,7 +31,7 @@ If you are already importing log data into [!DNL Audience Manager], ask your [!D
 
 >[!IMPORTANT]
 >
-> As of October 2019, [!UICONTROL Actionable Log Files] work only with [!DNL Google DCM] and [!DNL Flashtalking] log files.
+> As of October 2019, [!UICONTROL Actionable Log Files] work only with [!DNL Google DCM] and [!DNL Flashtalking] log files. 
 
 ## Working with Actionable Log Files {#working-with-actionable-log-files}
 
@@ -50,7 +50,11 @@ You still need to set up rule-based traits to capture the actionable signals. Se
 
 Signals are the [smallest data units](../../reference/signal-trait-segment.md) in [!DNL Audience Manager]. [!UICONTROL Actionable Log Files] allow you to capture advertiser, business unit, creative, and campaign values in impression events, click events, and conversion events as signals from ad server logs.
 
-Remember, in order to use this information for audience creation and segmentation, you need to set up the rule-based traits yourself. The table lists the actionable signals from [!DNL DCM] log files:
+Remember, in order to use this information for audience creation and segmentation, you need to set up the rule-based traits yourself.
+
+### Actionable Signals in Google DCM logs
+
+The table lists the actionable signals from [!DNL DCM] log files:
 
 <table id="table_A5A2A10D471C4C9D8DCD88F9C017040C"> 
  <thead> 
