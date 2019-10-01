@@ -104,7 +104,7 @@ As a reminder, you would now have two data sources:
 
 &nbsp;
 
-Your [ID synchronization file](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) would have the following contents:
+In our example, your [ID synchronization file](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) would have the following contents:
 
 ```
 68079982765673198504052656074456196039<TAB>55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149
@@ -124,6 +124,8 @@ In the example above, the file name would look like this:
 `c2c_id_999999_987654_1560431657.sync`
 
 [Download example file here](https://marketing.adobe.com/resources/help/en_US/aam/downloads/c2c_id_999999_987654_1560431657.sync).
+
+Once you've created your ID synchronization file, you need to upload it to an [!DNL Amazon S3] bucket. To learn how to upload ID synchronization files, see [Send Batch Data to Audience Manager](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md).
 
 ## Step 4 - Create a Profile Merge Rule for Segmentation {#create-profile-merge-rule}
 
