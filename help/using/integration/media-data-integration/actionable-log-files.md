@@ -147,7 +147,7 @@ Retarget users who saw creative 123 but didn't click or convert and show them cr
 
    `d_event == click OR d_event=conv`
 
-3. Create a segment to populate with users who saw creative 123 but didn't click or convert. Name it [!DNL Retarget Users] and use the segment rule:
+3. Create a segment to populate with users who saw creative 123 but didn't click or convert. Name it [!DNL Retarget Users] and use the segment rule: 
 
    `Creative Trait 123 AND NOT Click and Converter`
 
@@ -163,7 +163,7 @@ Retarget users who saw creative 123 but didn't click or convert and show them cr
 
    When creating the trait in the Audience Manager [!UICONTROL UI], select [!UICONTROL Conversion] as the [!UICONTROL Event Type].
 
-2. Once you have created the trait, the conversion will begin to be reported against in the [!UICONTROL Audience Optimization Reports] and in [!UICONTROL Audience Lab].
+2. Once you have created the trait, the conversion will begin to be reported against in the [!UICONTROL Audience Optimization Reports] and in [!UICONTROL Audience Lab]. 
 
 >[!MORE_LIKE_THIS]
 >
