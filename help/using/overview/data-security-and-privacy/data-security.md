@@ -76,9 +76,11 @@ Note that [!DNL Audience Manager] does not escape outgoing data to secure it aga
 
 ## HTTP Strict-Transport-Security {#hsts}
 
-[!DNL HTTP Strict-Transport-Security (HSTS)] is a web security policy mechanism that helps protect against cookie hijacking and protocol downgrade attacks by not permitting [!DNL HTTP] traffic and transparently upgrading all [!DNL HTTP] traffic to [!DNL HTTPS].
+[!DNL HTTP Strict-Transport-Security (HSTS)] is an industry-wide web security mechanism which helps protect against cookie hijacking and protocol downgrade attacks.
 
-This policy improves data security between clients and Adobe Edge servers.
+The policy instructs the web browser that once a secure [!DNL HTTPS] call was made to a given domain, no subsequent unsecure calls ([!DNL HTTP]) should be allowed to that domain. This protects against man-in-the-middle attacks, where an attacker might try to downgrade [!DNL HTTPS] calls to unsecured [!DNL HTTP] calls.”
+
+This policy improves data security between clients and Adobe [Edge](../../reference/system-components/components-edge.md) servers.
 
 ### Example {#hsts-example}
 
