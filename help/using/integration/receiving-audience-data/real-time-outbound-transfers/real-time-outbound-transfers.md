@@ -39,7 +39,7 @@ By default, the recipient server must return the `200 OK` code to indicate succe
 
 ## Parameters
 
-The following table defines the elements in the returned [!DNL JSON] data file.  
+The following table defines the elements in the [!DNL JSON] data file that you send to the destination.  
 
 <table id="table_68475F9D01ED4A44B5909234114AEDE2"> 
  <thead> 
