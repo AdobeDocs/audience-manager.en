@@ -155,7 +155,7 @@ To create new segments from offline-only data, use the [Segment Builder](../segm
 
 >[!IMPORTANT]
 >
->A udience Manager handles the integration with social platforms through authentication tokens that expire after a certain amount of time. See Authentication Token Renewal for details on how to renew the expired tokens.
+>Audience Manager handles the integration with social platforms through authentication tokens that expire after a certain amount of time. See Authentication Token Renewal for details on how to renew the expired tokens.
 
 ## Step 7 - Create a People-Based Destination {#create-destination}
 
