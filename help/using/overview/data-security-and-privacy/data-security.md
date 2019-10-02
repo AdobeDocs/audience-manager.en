@@ -84,6 +84,6 @@ This policy improves data security between clients and Adobe [Edge](../../refere
 
 ### Example {#hsts-example}
 
-When trying to access `http://bank.demdex.com`, [!DNL HSTS] will automatically upgrade the request to  `https://bank.demdex.com`, in case the browser doesn’t automatically request the [!DNL HTTPS] domain.
+Let's say the `yourcompany.demdex.com` domain sends trafic to the [!DNL DCS] via [!DNL HTTP]. [!DNL HSTS] upgrades the calls to use [!DNL HTTPS] instead, and all subsequent [!DNL DCS] calls coming from `yourcompany.demdex.com` will use [!DNL HTTPS] instead of [!DNL HTTP].
 
 See [HTTP Strict Transport Security - Wikipedia](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) for more information about HSTS.
