@@ -10,7 +10,7 @@ uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 
 # Getting Started With Bulk Management{#getting-started-with-bulk-management}
 
-The Bulk Management Tools let you create and manage multiple objects at once with single operation. You can use Bulk Management Tools to work with data sources, derived signals, destinations, folders, segments, and traits.
+The Bulk Management Tools let you create and manage multiple objects at once with single operation. You can use Bulk Management Tools to work with data sources, derived signals, destinations, folders, models, segments, and traits.
 
 <!-- 
 
@@ -28,17 +28,39 @@ This feature uses a Microsoft Excel spreadsheet with macros that make secure, au
 
 ## Download {#download}
 
-Download the latest worksheet **[here](assets/BAAAM_August_2018.xlsm)**. 
+Download the latest worksheet **[here](assets/BAAAM_V2_October_2019.xlsm)**. 
 
 ## Prerequisites {#prereqs}
 
 To use the [!DNL Bulk Management Tools], you need the following:
 
-* Your [!DNL Audience Manager] user name and password. As a customer, you should already have these credentials. 
-* An API client ID and secret key. Your account manager can provide you with these. 
-* The [!UICONTROL Bulk Management Tools] worksheet. [Download the worksheet](/help/using/reference/bulk-management-tools/bulk-management-intro.md#download) to get the latest version.
+* Your [!DNL Audience Manager] user name and password. As a customer, you should already have these credentials.
+* An API client ID and secret key. Your account manager can provide you with these. -> not necessary anymore, correct?
+* The [!DNL Bulk Management Tools] worksheet. [Download the worksheet](/help/using/reference/bulk-management-tools/bulk-management-intro.md#download) to get the latest version.
+* Microsoft Excel running on [!DNL Windows] or in a [!DNL Microsoft Windows] virtual machine running on [!DNL macOS X]. You must use 32-bit Excel for the [!UICONTROL Bulk Management Tools] to work. -> to be removed, correct?
+* You must **Enable Macros** for the [!DNL Bulk Management Tools] to work.  
 
-* Microsoft Excel running on [!DNL Windows] or in a [!DNL Microsoft Windows] virtual machine running on [!DNL macOS X]. You must use 32-bit Excel for the [!UICONTROL Bulk Management Tools] to work.
+## Authentication requirements and options {#auth-reqs}
+
+Bulk changes require authentication. Before making any action, you must log in. Because the worksheet makes API calls, you need to configure it to authenticate into your user account.
+
+**API authentication requirements**
+
+The second version of the Bulk Management Tools, released in October 2019, simplifies the authentication process. Previously, you had to work with a client ID and a secret key, that you would obtain from your account manager. The simplified steps in this version are outlined below:
+
+1. Open the spreadsheet and navigate to the **Config** sheet.  
+1. Follow the steps outlined in the sheet.
+  ![](assets/baaam-authentication.png)
+1. After completing the steps, you are authorized to make bulk changes.
+
+When making bulk changes, you'll still have to confirm that you are authorized to make the changes, but API authentication is automatic.
+
+**Domain authentication options**
+
+Domain authentication gives you the option to test bulk requests or apply them directly to your production account. Making bulk changes to the beta environment won't affect your production account. Production changes are effective immediately. The bulk management sheet allows you to work in the following environments:
+
+* Beta
+* Production
 
 ## Actions and operations {#actions-ops}
 
@@ -72,6 +94,7 @@ The table below lists the operations you can perform and items you can manipulat
       <li id="li_E3D9E2E190B04BE685337AC6140C371C"> <a href="../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> Data sources</a> </li> 
       <li id="li_B645385E40684FA28770913EAF18CB2C"> <a href="../../features/derived-signals.md"> Derived signals</a> </li> 
       <li id="li_9059F8C4A41A410899BDEFC76D3F5949"> <a href="../../features/destinations/destinations.md"> Destinations</a> </li> 
+      <li> <a href="../../features/algorithmic-models/understanding-models.md"> Models</a> </li> 
       <li id="li_BB5A445150754E53AA38C78461326932"> <a href="../../features/traits/trait-storage.md#trait-storage"> Trait folders</a> and segment folders </li> 
       <li id="li_7A27DBF64E0945CF8AE8C96E8C6EDA09"> <a href="../../features/segments/segments-purpose.md"> Segments</a> </li> 
       <li id="li_A4640A34930040DEA8555EAF0AE2A702"> <a href="../../features/traits/trait-details-page.md"> Traits</a> </li> 
@@ -93,28 +116,7 @@ As an example, let's take a look at how to create multiple traits at one time. T
 >
 >When working with large requests, the worksheet might become unresponsive and appear to be inactive. In these cases, just leave it alone. The worksheet will become responsive when the bulk request is complete. If the worksheet does not respond for a long period of time, see the [troubleshooting section](../../reference/bulk-management-tools/bulk-troubleshooting.md).
 
-## Authentication requirements and options {#auth-reqs}
 
-Bulk changes require authentication. When you select an action, the worksheet prompts you to log in. Because the worksheet makes API calls, you need to configure it to read your secret key. And, the **[!UICONTROL Domain]** field lets you make bulk changes in a staging/test environment or against your live, production account.
-
-![](assets/bamauth.png)
-
-**API authentication requirements**
-
-To set up API authentication, you must:
-
-* Copy and save the secret key to a text (.txt) file. 
-* Name the text file with your API client ID. For example, if your client ID is "Bulk-User," save the key in a file titled "Bulk-User.txt." 
-* Save the secret key and worksheet together in the same folder.
-
-When making bulk changes, you'll still have to enter a user name, password, client ID, and domain, but API authentication is automatic.
-
-**Domain authentication options**
-
-Domain authentication gives you the option to test bulk requests or apply them directly to your production account. Making bulk changes to the test environment won't affect your production account. Production changes are effective immediately. The **[!UICONTROL Domain]** field accepts the following addresses, depending on the environment you want to work in:
-
-* Testing: `api-beta.demdex.com` 
-* Production: `api.demdex.com`
 
 >[!MORE_LIKE_THIS]
 >

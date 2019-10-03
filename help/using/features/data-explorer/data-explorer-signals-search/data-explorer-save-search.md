@@ -25,3 +25,7 @@ Optimize signal search efforts by saving up to 10 sets of search criteria to use
 1. Click **[!UICONTROL Save]**. You can see your saved search in the [!UICONTROL Saved Search] section, and use it whenever you need it.
 
   ![saved search](assets/saved-search.png)
+
+Watch the video below to learn how to save signal searches.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25147/)

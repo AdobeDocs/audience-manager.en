@@ -54,6 +54,10 @@ In this case, you need to create a new cross-device data source that will store 
     ![pbd-datasource-settings](assets/pbd-ds-config.png)
 1. Save the data source settings.
 
+Watch the video below for a video tutorial of how to create a data source for [!UICONTROL People-Based Destinations].
+
+>[!VIDEO](https://video.tv.adobe.com/v/29006/)
+
 >[!NOTE]
 >
 > See [Data Onboarding](people-based-destinations-prerequisites.md#data-onboarding) for frequently asked questions about how you should bring your offline data into Audience Manager for People-Based Destinations.
@@ -105,6 +109,8 @@ In the example above, the file name would look like this:
 `c2c_id_999999_987654_1560431657.sync`
 
 [Download example file here](https://marketing.adobe.com/resources/help/en_US/aam/downloads/c2c_id_999999_987654_1560431657.sync).
+
+Once you've created your ID synchronization file, you need to upload it to an [!DNL Amazon S3] bucket. To learn how to upload ID synchronization files, see [Send Batch Data to Audience Manager](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md).
 
 ## Step 3 - Create a Profile Merge Rule for Segmentation {#create-merge-rule}
 

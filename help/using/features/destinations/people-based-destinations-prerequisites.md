@@ -55,8 +55,15 @@ Hashing is a one-way function that scrambles the input to produce a unique resul
 When hashing the email addresses, make sure to comply with the following requirements:
 
 * Trim all leading and trailing spaces from the email string; example: `johndoe@example.com`, not `<space>johndoe@example.com<space>`;
-* Make sure the hashed string is all lowercase; example: `55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149`, not `55E79200C1635B37AD31A378C39FEB12F120F116625093A19bC32FFF15041149`;
+* When hashing the email strings, make sure to hash the lowercase string;
+  * Example: `example@email.com`, not `EXAMPLE@EMAIL.COM`;
+* Make sure the hashed string is all lowercase
+  * Example: `55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149`, not `55E79200C1635B37AD31A378C39FEB12F120F116625093A19bC32FFF15041149`;
 * Do not salt the string.
+
+Watch the video below to understand the hashing requirements of [!UICONTROL People-Based Destinations].
+
+>[!VIDEO](https://video.tv.adobe.com/v/29003/)
 
 Adobe Experience Cloud gives you the option to hash customer IDs through the Experience Cloud ID Service. See [SHA256 Hashing Support for setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) for detailed information on how to use ECID to hash customer IDs.
 

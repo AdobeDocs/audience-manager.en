@@ -44,6 +44,10 @@ In this case, you need to create a new cross-device data source that will store 
     >
     > See [Data Onboarding](people-based-destinations-prerequisites.md#data-onboarding) for frequently asked questions about how you should bring your offline data into Audience Manager for People-Based Destinations.
 
+Watch the video below for a video tutorial of how to create a data source for [!UICONTROL People-Based Destinations].
+
+>[!VIDEO](https://video.tv.adobe.com/v/29006/)
+
 ## Step 2 - Use Declared IDs to Match DPUUIDs to Hashed Email Addresses via Real Time HTTP Calls {#match-email-addresses}
 
 To qualify authenticated users for rule-based traits, you need to send the trait qualification through [declared IDs](../declared-ids.md).

@@ -40,6 +40,10 @@ Here's how to backfill trait realizations:
 
 Once you finish creating the trait, you'll see its backfilled realizations included in the realization statistics.
 
+Watch the video below for a video walkthrough of how to backfill traits.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25169/)
+
 ## Trait Backfilling Latency {#trait-backfilling-latency}
 
 Newly created traits start capturing audiences two to three hours after creation. However, due to the large volume of data that [!DNL Audience Manager] performs on a daily basis, the backfilled population is not immediately reflected in the [!UICONTROL Unique Trait Realizations] and [!UICONTROL Total Trait Population] graphs.
