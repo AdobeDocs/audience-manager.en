@@ -37,3 +37,9 @@ A global electronics retailer has a high volume of visitor traffic, but conversi
 ### Example 2
 
 After a travel services provider adds new destinations to their booking website, they want to advertise them to historical audiences, although they don't have any traits created for them. They can use Signals Search to identify the unused signals related to the new destinations, include them in new traits and [backfill](../../features/data-explorer/data-explorer-trait-backfill.md) them with historical realizations. Then, create new segments with the new traits and immediately target them with dedicated campaigns.
+
+### Using Data Explorer to Validate Trait Creation for Your Onboarded Data
+
+One of the most powerful features of Audience Manager is the ability to onboard offline data and tie it together with your online data. In the video below, learn how to use [!UICONTROL Data Explorer] to validate that you have created all the necessary traits to leverage this onboarded data.
+
+[!VIDEO](https://video.tv.adobe.com/v/25149/)

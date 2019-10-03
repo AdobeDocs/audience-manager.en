@@ -31,3 +31,6 @@ This section shows you the top 50 new unused signals received in the past 7 days
 [!DNL Audience Manager] shows all your [saved searches](../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md) on the [!UICONTROL Dashboard] and reloads them every time you load the [!UICONTROL Dashboard].
 
 Saved searches display the top 50 results for the corresponding criteria.
+
+Watch the video below to learn how to use the [!UICONTROL Signals Dashboard].
+[!VIDEO](https://video.tv.adobe.com/v/25151/)

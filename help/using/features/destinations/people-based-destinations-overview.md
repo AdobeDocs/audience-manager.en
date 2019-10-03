@@ -54,6 +54,10 @@ Through [!DNL People-Based Destinations], Audience Manager helps you centralize 
 
 [!DNL People-Based Destinations] requires that you only use irreversibly hashed identifiers. This reduces the risk associated with manually uploading customer data into each destination platform.
 
+Watch the video below to get an overview of the data flow when using [!UICONTROL People-Based Destinations].
+
+[!VIDEO](https://video.tv.adobe.com/v/28968/)
+
 ## Use Cases {#use-cases}
 
 To help you better understand how and when you should use [!DNL People-Based Destinations], here are two sample use cases that Audience Manager customers can solve by using this feature.
