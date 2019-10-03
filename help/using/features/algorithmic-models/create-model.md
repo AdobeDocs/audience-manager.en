@@ -98,6 +98,10 @@ Complete the required fields in the [!UICONTROL Basic Information] section first
  </tbody>
 </table>
 
+Watch the video below to learn how to create a first party look-alike model, so that you can find more of your own visitors who look like your converters.
+
+[!VIDEO](https://video.tv.adobe.com/v/23504/)
+
 >[!MORE_LIKE_THIS]
 >
 >* [Understanding TraitWeight](../../features/algorithmic-models/understanding-models.md#understanding-traitweight)

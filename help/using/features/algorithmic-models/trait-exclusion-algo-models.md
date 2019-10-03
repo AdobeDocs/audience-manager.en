@@ -81,6 +81,10 @@ Please take note of the following aspects and limitations related to [!UICONTROL
  </tbody>
 </table>
 
+Watch the video below to learn how and why to exclude specific traits from a [!UICONTROL Look-Alike Model].
+
+[!VIDEO](https://video.tv.adobe.com/v/25569/)
+
 ## Related Links
 
 * [About Algorithmic Traits](/help/using/features/algorithmic-models/understanding-models.md)

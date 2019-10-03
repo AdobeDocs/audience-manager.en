@@ -54,6 +54,10 @@ In this case, you need to create a new cross-device data source that will store 
     ![pbd-datasource-settings](assets/pbd-ds-config.png)
 1. Save the data source settings.
 
+Watch the video below for a video tutorial of how to create a data source for [!UICONTROL People-Based Destinations].
+
+[!VIDEO](https://video.tv.adobe.com/v/29006/)
+
 >[!NOTE]
 >
 > See [Data Onboarding](people-based-destinations-prerequisites.md#data-onboarding) for frequently asked questions about how you should bring your offline data into Audience Manager for People-Based Destinations.
