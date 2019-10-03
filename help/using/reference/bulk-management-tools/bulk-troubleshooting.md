@@ -62,3 +62,12 @@ The following table lists some common problems you may encounter when making bul
  </tbody> 
 </table>
 
+## Error Messages
+
+Sometimes, you can receive error messages when making bulk changes. 
+
+
+Error Code| Error Message | Resolution
+---------|----------|---------
+ 403 | This resource is created and can only be modified by service.","code":"ACCESS_DENIED" | ...... |
+
