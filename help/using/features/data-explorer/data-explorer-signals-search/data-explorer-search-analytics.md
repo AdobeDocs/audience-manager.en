@@ -24,4 +24,4 @@ This integration allows you to see the friendly names for key-value pairs derive
 
 The video below shows how to use [!UICONTROL Data Explorer] to discover and use your Adobe Analytics data, including searching for used and unused signals, creating Analytics traits, and understanding the data.
 
-[!VIDEO](https://video.tv.adobe.com/v/25150)
+>[!VIDEO](https://video.tv.adobe.com/v/25150)

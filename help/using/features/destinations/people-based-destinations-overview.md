@@ -56,7 +56,7 @@ Through [!DNL People-Based Destinations], Audience Manager helps you centralize 
 
 Watch the video below to get an overview of the data flow when using [!UICONTROL People-Based Destinations].
 
-[!VIDEO](https://video.tv.adobe.com/v/28968/)
+>[!VIDEO](https://video.tv.adobe.com/v/28968/)
 
 ## Use Cases {#use-cases}
 

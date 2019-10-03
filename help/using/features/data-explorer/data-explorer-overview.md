@@ -42,4 +42,4 @@ After a travel services provider adds new destinations to their booking website,
 
 One of the most powerful features of Audience Manager is the ability to onboard offline data and tie it together with your online data. In the video below, learn how to use [!UICONTROL Data Explorer] to validate that you have created all the necessary traits to leverage this onboarded data.
 
-[!VIDEO](https://video.tv.adobe.com/v/25149/)
+>[!VIDEO](https://video.tv.adobe.com/v/25149/)
