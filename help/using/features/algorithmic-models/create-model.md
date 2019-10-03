@@ -100,7 +100,7 @@ Complete the required fields in the [!UICONTROL Basic Information] section first
 
 Watch the video below to learn how to create a first party look-alike model, so that you can find more of your own visitors who look like your converters.
 
-[!VIDEO](https://video.tv.adobe.com/v/23504/)
+>[!VIDEO](https://video.tv.adobe.com/v/23504/)
 
 >[!MORE_LIKE_THIS]
 >

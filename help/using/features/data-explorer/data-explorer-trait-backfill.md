@@ -42,7 +42,7 @@ Once you finish creating the trait, you'll see its backfilled realizations inclu
 
 Watch the video below for a video walkthrough of how to backfill traits.
 
-[!VIDEO](https://video.tv.adobe.com/v/25169/)
+>[!VIDEO](https://video.tv.adobe.com/v/25169/)
 
 ## Trait Backfilling Latency {#trait-backfilling-latency}
 

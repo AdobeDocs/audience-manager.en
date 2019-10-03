@@ -33,4 +33,4 @@ This section shows you the top 50 new unused signals received in the past 7 days
 Saved searches display the top 50 results for the corresponding criteria.
 
 Watch the video below to learn how to use the [!UICONTROL Signals Dashboard].
-[!VIDEO](https://video.tv.adobe.com/v/25151/)
+>[!VIDEO](https://video.tv.adobe.com/v/25151/)

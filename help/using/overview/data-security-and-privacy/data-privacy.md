@@ -85,7 +85,7 @@ The [!DNL IP] address of a visitor to a customer’s website is transmitted to a
 
 Watch the video below to understand how [!DNL IP] address obfuscation works in Audience Manager.
 
-[!VIDEO](https://video.tv.adobe.com/v/27218/)
+>[!VIDEO](https://video.tv.adobe.com/v/27218/)
 
 **Geographic Segmentation:** If you enable [!DNL IP] address obfuscation, the remaining octets of the [!DNL IP] address can still be used for geo-segmentation and reporting in Audience Manager. If you do not enable [!DNL IP] address obfuscation, Audience Manager uses the full [!DNL IP] address. You can use the Geographic Segmentation feature that allows you to identify an [!DNL IP] location by geographic area in either case, but with some slight loss of precision when [!DNL IP] obfuscation is being used. Obtaining city-level information will likely be significantly impacted by the obfuscation of the [!DNL IP] address. Obtaining region and country-level information should only be slightly impacted. Geographic Segmentation data is granular only to the city level or postal code level, and not to the individual level. Read more about [geo-targeting](/help/using/features/traits/trait-geotarget-keys.md) and how to set up traits with geographic variables.
 

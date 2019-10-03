@@ -56,7 +56,7 @@ In this case, you need to create a new cross-device data source that will store 
 
 Watch the video below for a video tutorial of how to create a data source for [!UICONTROL People-Based Destinations].
 
-[!VIDEO](https://video.tv.adobe.com/v/29006/)
+>[!VIDEO](https://video.tv.adobe.com/v/29006/)
 
 >[!NOTE]
 >
