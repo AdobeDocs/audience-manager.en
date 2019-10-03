@@ -49,11 +49,9 @@ Bulk changes require authentication. Before making any action, you must log in. 
 The second version of the Bulk Management Tools, released in October 2019, simplifies the authentication process. Previously, you had to work with a client ID and a secret key, that you would obtain from your account manager. The simplified steps in this version are outlined below:
 
 1. Open the spreadsheet and navigate to the **Config** sheet.  
-2. Follow the steps outlined in the sheet. 
-
+1. Follow the steps outlined in the sheet.
   ![](assets/baaam-authentication.png)
-
-3. After completing the steps, you are authorized to make bulk changes.
+1. After completing the steps, you are authorized to make bulk changes.
 
 When making bulk changes, you'll still have to confirm that you are authorized to make the changes, but API authentication is automatic.
 
