@@ -3,6 +3,7 @@ description: This document covers the technicalities related to the General Data
 seo-description: This document covers the technicalities related to the General Data Protection Regulation (GDPR) for Audience Manager and shows you how to submit GDPR requests to Audience Manager.
 seo-title: GDPR in Audience Manager
 solution: Audience Manager
+keywords: GDPR UI, GDPR API
 title: GDPR in Audience Manager
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 ---
@@ -23,7 +24,7 @@ The sections below explain what GDPR means for Audience Manager and how you can 
 
 ## Types of GDPR Requests and How to Make a GDPR Request {#types-of-gdpr-requests}
 
-As an Audience Manager customer, you can submit individual GDPR requests to access and delete customer data, either through the **[GDPR Client Services UI](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)** or by calling the **[GDPR API](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)**. You can submit any Audience Manager identifiers (IDs), as described in the section **[Audience Manager Identifiers](../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids)**, in the requests along with their respective namespace IDs (data source IDs). If you have questions, please reach out to Customer Care at gdprsupport@adobe.com.
+As an Audience Manager customer, you can submit individual GDPR requests to access and delete customer data, either through the **Privacy Service UI** ([UI link here](https://gdprui.cloud.adobe.io/) and [documentation here](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)) or by calling the **Privacy Service API** ([documentation here](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md) and [API reference here](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)). You can submit any Audience Manager identifiers (IDs), as described in the section **[Audience Manager Identifiers](../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids)**, in the requests along with their respective namespace IDs (data source IDs). If you have questions, please reach out to Customer Care at gdprsupport@adobe.com.
 
 ## Access Data {#access-data}
 
@@ -31,7 +32,7 @@ We understand your commitment to honoring your GDPR customer requests within 30 
 
 **Request**
 
-You can log data access requests through the **[GDPR Client Services UI](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)** or by calling the **[GDPR API](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)** (see `access` action). In either case, you must upload a JSON with the Audience Manager identifiers for which you are submitting the data access request. See what a well-formed JSON looks like in the **[Experience Cloud GDPR documentation](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)** (specifically, search in page for "POST request format"). Or, you can **[download a sample JSON](assets/access_request.json)**.
+You can log data access requests through the **Privacy Service UI** ([UI link here](https://gdprui.cloud.adobe.io/) and [documentation here](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)) or by calling the **Privacy Service API** ([documentation here](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md) and [API reference here](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)). In either case, you must upload a JSON with the Audience Manager identifiers for which you are submitting the data access request. To see what a well-formed JSON looks like, you can **[download a sample JSON](assets/access_request.json)**.
 
 **Response**
 
@@ -303,7 +304,7 @@ We understand your commitment to honoring your GDPR customer requests within 30 
 
 **Request**
 
-You can log data deletion requests through the **[GDPR Client Services UI](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)** or by calling the **[GDPR API](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)** (see `delete` action). In either case, you must upload a JSON with the Audience Manager identifiers for which you are submitting the data access request. See what a well-formed JSON looks like in the [Experience Cloud GDPR documentation](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) (specifically, search in page for "POST request format"). Or, you can **[download a sample JSON](assets/delete_request.json)**.
+You can log data deletion requests through the **Privacy Service UI** ([UI link here](https://gdprui.cloud.adobe.io/) and [documentation here](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)) or by calling the **Privacy Service API** ([documentation here](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md) and [API reference here](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)). In either case, you must upload a JSON with the Audience Manager identifiers for which you are submitting the data access request. To see what a well-formed JSON looks like, you can **[download a sample JSON](assets/delete_request.json)**.
 
 **Response**
 
