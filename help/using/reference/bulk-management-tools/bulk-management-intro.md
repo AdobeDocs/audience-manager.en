@@ -64,11 +64,11 @@ Domain authentication gives you the option to test bulk requests or apply them d
 
 ## Actions and operations {#actions-ops}
 
-The [!UICONTROL Bulk Management Tools] worksheet consists of action tabs, action buttons, and a **[!UICONTROL Headers]** tab. The **[!UICONTROL Headers]** tab contains the pre-formatted column headers used by the action tabs. The action tabs contain macros that perform your selected bulk operation. To perform a bulk operation, you copy a set of headers into the appropriate action tab, enter header data, and click an action button.
+The [!UICONTROL Bulk Management Tools] worksheet consists of authentication buttons, action tabs, action buttons, and a **[!UICONTROL Headers]** tab. The **[!UICONTROL Headers]** tab contains the pre-formatted column headers used by the action tabs. The action tabs contain macros that perform your selected bulk operation. To perform a bulk operation, you copy a set of headers into the appropriate action tab, enter header data, and click an action button.
 
-Open the spreadsheet and click an action button to get started.
+After [authenticating](#auth-reqs), click an action button to get started.
 
-![](assets/bamwrkbk.png)
+![](assets/baaam-worksheet.png)
 
 The table below lists the operations you can perform and items you can manipulate with the [!UICONTROL Bulk Management Tools] worksheets.
 
@@ -110,7 +110,7 @@ As an example, let's take a look at how to create multiple traits at one time. T
 1. Click the **[!UICONTROL Headers]** tab and copy all the labels under the [!UICONTROL Create a Trait] option. 
 
 2. Click the **[!UICONTROL Create]** tab and paste the labels starting in row 1, column A. 
-3. Provide information related to each column header and click **[!UICONTROL Create Traits]**. This action prompts you to log on. Your bulk job runs after you successfully authenticate (see the [authentication requirements](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) below). Check the lower left corner of the worksheet for a job status notification.
+3. Provide information related to each column header and click **[!UICONTROL Create Traits]**. This action prompts you to confirm your authentication. Your bulk job runs after you confirm your authentication. Check the lower left corner of the worksheet for a job status notification.
 
 >[!NOTE]
 >
