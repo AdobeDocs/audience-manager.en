@@ -10,7 +10,7 @@ uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 
 # Actionable Log Files {#actionable-log-files}
 
-[!UICONTROL Actionable Log Files] allow you to capture media data from ad server log files and use the data to create traits in Audience Manager. Capture impressions, clicks, and conversions from ad servers as traits without having to use pixel calls.
+[!UICONTROL Actionable Log Files] allow you to capture media data from ad server log files and use the data to create traits in Audience Manager. Capture impressions, clicks, and conversions from ad servers as traits without having to use [pixel calls](../../integration/media-data-integration/impression-data-pixels.md).
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ To get started with [!UICONTROL Actionable Log Files], you need to import log da
 * For [!UICONTROL Google DCM] logs, see [Import DCM Data Files Into Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) *and* contact your [!DNL Audience Manager] consultant.
 * For other ad server logs, see [Data and Metadata Files](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md).
 
-If you are already importing log data into [!DNL Audience Manager], ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to enable [!UICONTROL Actionable Log Files] for you.
+If you are already importing log data into [!DNL Audience Manager], ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to enable [!UICONTROL Actionable Log Files] for you. 
 
 >[!IMPORTANT]
 >
