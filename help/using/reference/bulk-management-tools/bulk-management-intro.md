@@ -10,7 +10,7 @@ uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 
 # Getting Started With Bulk Management{#getting-started-with-bulk-management}
 
-The Bulk Management Tools let you create and manage multiple objects at once with single operation. You can use Bulk Management Tools to work with data sources, derived signals, destinations, folders, models, segments, and traits.
+The Bulk Management Tools let you create and manage multiple objects at once with a single operation. You can use Bulk Management Tools to work with data sources, derived signals, destinations, folders, models, segments, and traits.
 
 <!-- 
 
@@ -34,11 +34,10 @@ Download the latest worksheet **[here](assets/BAAAM_V2_October_2019.xlsm)**.
 
 To use the [!DNL Bulk Management Tools], you need the following:
 
-* Your [!DNL Audience Manager] user name and password. As a customer, you should already have these credentials.
-* An API client ID and secret key. Your account manager can provide you with these. -> not necessary anymore, correct?
+* Your [!DNL Experience Cloud] login. As a customer, you should already have these credentials.
 * The [!DNL Bulk Management Tools] worksheet. [Download the worksheet](/help/using/reference/bulk-management-tools/bulk-management-intro.md#download) to get the latest version.
-* Microsoft Excel running on [!DNL Windows] or in a [!DNL Microsoft Windows] virtual machine running on [!DNL macOS X]. You must use 32-bit Excel for the [!UICONTROL Bulk Management Tools] to work. -> to be removed, correct?
-* You must **Enable Macros** for the [!DNL Bulk Management Tools] to work.  
+* Microsoft Excel running on [!DNL macOS] or 64-bit [!DNL Microsoft Windows].
+* When opening the worksheet, you must **Enable Macros** for the [!DNL Bulk Management Tools] to work.  
 
 ## Authentication requirements and options {#auth-reqs}
 
@@ -46,10 +45,10 @@ Bulk changes require authentication. Before making any action, you must log in. 
 
 **API authentication requirements**
 
-The second version of the Bulk Management Tools, released in October 2019, simplifies the authentication process. Previously, you had to work with a client ID and a secret key, that you would obtain from your account manager. The simplified steps in this version are outlined below:
+The second version of the Bulk Management Tools, released in October 2019, simplifies the authentication process. The authentication steps in this version are outlined below:
 
 1. Open the spreadsheet and navigate to the **Config** sheet.  
-1. Follow the steps outlined in the sheet.
+2. Follow the steps outlined in the sheet.
   ![](assets/baaam-authentication.png)
 1. After completing the steps, you are authorized to make bulk changes.
 
