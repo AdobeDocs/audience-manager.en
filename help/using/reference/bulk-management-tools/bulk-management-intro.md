@@ -85,9 +85,8 @@ The table below lists the operations you can perform and items you can manipulat
 As an example, let's take a look at how to create multiple traits at one time. To create multiple traits in a bulk operation you would:
 
 1. Click the **[!UICONTROL Headers]** tab and copy all the labels under the [!UICONTROL Create a Trait] option. 
-
-2. Click the **[!UICONTROL Create]** tab and paste the labels starting in row 1, column A. 
-3. Provide information related to each column header and click **[!UICONTROL Create Traits]**. This action prompts you to log on. Your bulk job runs after you successfully authenticate (see the [authentication requirements](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) below). Check the lower left corner of the worksheet for a job status notification.
+1. Click the **[!UICONTROL Create]** tab and paste the labels starting in row 1, column A. 
+1. Provide information related to each column header and click **[!UICONTROL Create Traits]**. This action prompts you to log on. Your bulk job runs after you successfully authenticate (see the [authentication requirements](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) below). Check the lower left corner of the worksheet for a job status notification.
 
 >[!NOTE]
 >
