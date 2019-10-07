@@ -50,7 +50,7 @@ The second version of the Bulk Management Tools, released in October 2019, simpl
 1. Open the spreadsheet and navigate to the **Config** sheet.  
 2. Follow the steps outlined in the sheet.
   ![](assets/baaam-authentication.png)
-1. After completing the steps, you are authorized to make bulk changes.
+3. After completing the steps, you are authorized to make bulk changes.
 
 When making bulk changes, you'll still have to confirm that you are authorized to make the changes, but API authentication is automatic.
 
