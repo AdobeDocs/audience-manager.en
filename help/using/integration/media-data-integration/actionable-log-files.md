@@ -170,7 +170,7 @@ https://sample.demdex.net?d_src=743&d_uuid=0795526165288603295014370250589427213
 >* If a timestamp isn't available for a data row in the [!DNL DCM] log file, we use the time of the `HTTP` call as the event timestamp.
 >* If the data row in the [!DNL DCM] log file contains a malformed timestamp, we ignore the entire row.
 
-### Actionable Signals from Generic Ad Server Logs {generic-logs-signals}
+### Actionable Signals from Generic Ad Server Logs {#generic-logs-signals}
 
 As a reminder, drop your generic ad server logs in our Amazon S3 buckets. The table lists the actionable signals from generic log files:
 
