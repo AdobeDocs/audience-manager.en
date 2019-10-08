@@ -25,7 +25,7 @@ uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 To get started with [!UICONTROL Actionable Log Files], you need to import log data into [!DNL Audience Manager]. The following links will help you get started:
 
 * For [!UICONTROL Google DCM] logs, see [Import DCM Data Files Into Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) *and* contact your [!DNL Audience Manager] consultant.
-* For other ad server logs, see [Data and Metadata Files](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md).
+* For other ad server logs, see [Data and Metadata Files](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) *and* contact your [!DNL Audience Manager] consultant.
 
 If you are already importing log data into [!DNL Audience Manager], ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to enable [!UICONTROL Actionable Log Files] for you. 
 
@@ -52,68 +52,107 @@ Signals are the [smallest data units](../../reference/signal-trait-segment.md) i
 
 Remember, in order to use this information for audience creation and segmentation, you need to set up the rule-based traits yourself.
 
-### Actionable Signals in Google DCM logs
+### Actionable Signals from Google DCM logs {#dcm-logs-signals}
 
 The table lists the actionable signals from [!DNL DCM] log files:
 
 <table id="table_A5A2A10D471C4C9D8DCD88F9C017040C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Signal </th> 
-   <th colname="col2" class="entry"> Description </th> 
-   <th colname="col3" class="entry"> Example Value </th> 
+   <th colname="col1" class="entry"> Header Name in Log File </th> 
+   <th colname="col2" class="entry"> Signal </th> 
+   <th colname="col3" class="entry"> Description </th> 
+   <th colname="col4" class="entry"> Example Value </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> d_event</code> </p> </td> 
-   <td colname="col2"> <p>Indicates the event type from DCM. </p> <p>Accepted values are: </p> <p> 
+   <td colname="col1"> <p> <code>??????</code> </p> </td> 
+   <td colname="col2"> <p> <code> d_event</code> </p> </td> 
+   <td colname="col3"> <p>Indicates the event type from DCM. </p> <p>Accepted values are: </p> <p> 
      <ul id="ul_58EB40E458844DA185ABAF160ADAF03E"> 
       <li id="li_71772CC106F74F4788E1784CC3D70BD3"> <code> d_event = imp</code> for impressions. </li> 
       <li id="li_33A629A32B87400F93269581154D566F"> <code> d_event = click</code> for clicks. </li> 
       <li id="li_553B0C0F3D304193929230D54830EBCA"> <code> d_event = conv</code> for conversions. </li> 
      </ul> </p> </td> 
-   <td colname="col3"> <p> <code> imp, click, conv</code> </p> </td> 
+   <td colname="col4"> <p> <code> imp, click, conv</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> d_conversion</code> </p> </td> 
-   <td colname="col2"> <p>Available only for conversion events. </p> <p>Represents the numerical ID for the conversion activity in DCM. This field maps to the Activity ID from DCM. </p> <p> <p>Tip: You can capture multiple or specific conversion activities from DCM. Create traits using <code> d_conversion = activity ID</code> for each conversion activity from DCM. </p> </p> </td> 
-   <td colname="col3"> <p> <code> 24122</code> </p> </td> 
+   <td colname="col1"> <p> <code>Conversion Event</code> </p> </td> 
+   <td colname="col2"> <p> <code> d_conversion</code> </p> </td> 
+   <td colname="col3"> <p>Available only for conversion events. </p> <p>Represents the numerical ID for the conversion activity in DCM. This field maps to the Activity ID from DCM. </p> <p> <p>Tip: You can capture multiple or specific conversion activities from DCM. Create traits using <code> d_conversion = activity ID</code> for each conversion activity from DCM. </p> </p> </td> 
+   <td colname="col4"> <p> <code> 24122</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> d_conversionType</code> </p> </td> 
-   <td colname="col2"> <p>Available only for conversion events. </p> <p>This field maps to the Conversion ID in DCM. Indicates the activity preceding the user conversion from DCM. </p> <p>Accepted values are: </p> <p> 
+   <td colname="col1"> <p> <code>Conversion Type</code> </p> </td> 
+   <td colname="col2"> <p> <code>d_conversionType</code> </p> </td> 
+   <td colname="col3"> <p>Available only for conversion events. </p> <p>This field maps to the Conversion ID in DCM. Indicates the activity preceding the user conversion from DCM. </p> <p>Accepted values are: </p> <p> 
      <ul id="ul_2256294F1C6F448B9F269D00D4DFEE65"> 
       <li id="li_29D3FF8919B7404297E80BACA913117A"> <code> 1</code> for post-click conversions. </li> 
       <li id="li_B5250A63A2C1413FAF1FDC8272BFFB97"> <code> 2</code> for post-impression conversions. </li> 
       <li id="li_81007A984F554932AC3354E41A42D57B"> <code> 0</code> for un-matched conversions. The conversion cannot be matched to a previous activity. </li> 
      </ul> </p> </td> 
-   <td colname="col3"> <p> <code> 0,1,2</code> </p> </td> 
+   <td colname="col4"> <p> <code> 0,1,2</code> </p> </td> 
+  </tr>
+   <tr> 
+   <td colname="col1"> <p> <code>Time-Stamp</code> </p> </td> 
+   <td colname="col2"> <p><code>d_time</code> </p> </td> 
+   <td colname="col3">description</td> 
+   <td colname="col4"> <p> <code> 0,1,2</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> d_adsrc</code> </p> </td> 
-   <td colname="col2"> <p>Advertiser ID.</p> <p>An integration code for your advertiser's data source. Note that this is not related to Audience Manager data sources.</p> <p>This field maps to the Advertiser Group ID from DCM. </p> </td> 
-   <td colname="col3"> <p> <code> 134243</code> </p> </td> 
+   <td colname="col1"> <p> <code>Advertiser Group ID</code> </p> </td> 
+   <td colname="col2"> <p> <code> d_adsrc</code> </p> </td> 
+   <td colname="col3"> <p>Advertiser ID.</p> <p>An integration code for your advertiser's data source. Note that this is not related to Audience Manager data sources.</p> <p>This field maps to the Advertiser Group ID from DCM. </p> </td> 
+   <td colname="col4"> <p> <code> 134243</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> d_bu</code> </p> </td> 
-   <td colname="col2"> <p>Business Unit ID. This field maps to the Advertiser ID from DCM. </p> </td> 
-   <td colname="col3"> <p> <code> 563332</code> </p> </td> 
+   <td colname="col1"> <p> <code>Advertiser ID</code> </p> </td> 
+   <td colname="col2"> <p> <code> d_bu</code> </p> </td> 
+   <td colname="col3"> <p>Business Unit ID. This field maps to the Advertiser ID from DCM. </p> </td> 
+   <td colname="col4"> <p> <code> 563332</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> d_campaign</code> </p> </td> 
-   <td colname="col2"> <p>The Campaign ID provided by DCM. </p> </td> 
-   <td colname="col3"> <p> <code> 7892520</code> </p> </td> 
+   <td colname="col1"> <p> <code>Campaign ID</code> </p> </td> 
+   <td colname="col2"> <p> <code> d_campaign</code> </p> </td> 
+   <td colname="col3"> <p>The Campaign ID provided by DCM.</p> </td> 
+   <td colname="col4"> <p> <code> 7892520</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> d_creative</code> </p> </td> 
-   <td colname="col2"> <p>The Creative ID provided by DCM. </p> </td> 
-   <td colname="col3"> <p> <code> 224221</code> </p> </td> 
+   <td colname="col1"> <p> <code>Creative ID</code> </p> </td> 
+   <td colname="col2"> <p> <code> d_creative</code> </p> </td> 
+   <td colname="col3"> <p>The Creative ID provided by DCM. </p> </td> 
+   <td colname="col4"> <p> <code> 224221</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> d_src</code> </p> </td> 
-   <td colname="col2"> <p>The ID of the data source you use to capture DCM data. See <a href="../../features/manage-datasources.md#create-data-source"> How to Create a Data Source</a>. </p> </td> 
-   <td colname="col3"> <p> <code> 743</code> </p> </td> 
+   <td colname="col1"> <p> <code>Placement ID</code> </p> </td> 
+   <td colname="col2"> <p> <code> d_placement</code> </p> </td> 
+   <td colname="col3"> <p>The Placement-ID from the DCM log file. This can represent where the creative was placed on the site.</p> </td> 
+   <td colname="col4"> <p> <code> 224221</code> </p> </td> 
+  </tr>
+  <tr> 
+   <td colname="col1"> <p> <code>Site ID (DCM)</code> </p> </td> 
+   <td colname="col2"> <p> <code> d_site</code> </p> </td> 
+   <td colname="col3"> <p>The Site-ID from the DCM log file. </p> </td> 
+   <td colname="col4"> <p> <code> 224221</code> </p> </td> 
+  </tr>
+  <tr> 
+   <td colname="col1"> <p> <code>Revenue</code> </p> </td> 
+   <td colname="col2"> <p> <code> d_revenue</code> </p> </td> 
+   <td colname="col3"> Add Description here </td> 
+   <td colname="col4"> <p> <code> example</code> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <code>Activity ID</code> </p> </td> 
+   <td colname="col2"> <p> <code> d_activity</code> </p> </td> 
+   <td colname="col3"> <p> description </p> </td> 
+   <td colname="col4"> <p> <code> 24122</code> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <code>---</code> </p> </td> 
+   <td colname="col2"> <p> <code> d_src</code> </p> </td> 
+   <td colname="col3"> <p>The ID of the data source you use to capture DCM data. See <a href="../../features/manage-datasources.md#create-data-source"> How to Create a Data Source</a>. </p> </td> 
+   <td colname="col4"> <p> <code> 743</code> </p> </td> 
   </tr>
  </tbody>
 </table>
@@ -130,6 +169,89 @@ https://sample.demdex.net?d_src=743&d_uuid=0795526165288603295014370250589427213
 >
 >* If a timestamp isn't available for a data row in the [!DNL DCM] log file, we use the time of the `HTTP` call as the event timestamp.
 >* If the data row in the [!DNL DCM] log file contains a malformed timestamp, we ignore the entire row.
+
+### Actionable Signals from Generic Ad Server Logs {generic-logs-signals}
+
+As a reminder, drop your generic ad server logs in our Amazon S3 buckets. The table lists the actionable signals from generic log files:
+
+<table id="table_A5A2A10D471C4C9D8DCD88F9C017040C"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> Header Name in Log File </th> 
+   <th colname="col2" class="entry"> Signal </th> 
+   <th colname="col3" class="entry"> Description </th> 
+   <th colname="col4" class="entry"> Example Value </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p> <code>Revenue</code> </p> </td> 
+   <td colname="col2"> <p> <code> d_revenue</code> </p> </td> 
+   <td colname="col3"> Add Description here </td> 
+   <td colname="col4"> <p> <code> example</code> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <code>Activity ID</code> </p> </td> 
+   <td colname="col2"> <p> <code> d_activity</code> </p> </td> 
+   <td colname="col3"> <p> description </p> </td> 
+   <td colname="col4"> <p> <code> 24122</code> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <code>Time-Stamp</code> </p> </td> 
+   <td colname="col2"> <p> <code> d_time</code> </p> </td> 
+   <td colname="col3"> <p> description </p></td> 
+   <td colname="col4"> <p> <code> 0,1,2</code> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <code>Advertiser ID</code> </p> </td> 
+   <td colname="col2"> <p> <code> d_adsrc</code> </p> </td> 
+   <td colname="col3"> <p>Advertiser ID.</p> </td> 
+   <td colname="col4"> <p> <code> 134243</code> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <code>BU-ID</code> </p> </td> 
+   <td colname="col2"> <p> <code> d_bu</code> </p> </td> 
+   <td colname="col3"> <p>Business Unit ID.  </p> </td> 
+   <td colname="col4"> <p> <code> 563332</code> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <code>Campaign-ID</code> </p> </td> 
+   <td colname="col2"> <p> <code> d_campaign</code> </p> </td> 
+   <td colname="col3"> <p>The Campaign ID from the log file.</p> </td> 
+   <td colname="col4"> <p> <code> 7892520</code> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <code>Creative-ID</code> </p> </td> 
+   <td colname="col2"> <p> <code> d_creative</code> </p> </td> 
+   <td colname="col3"> <p>The Creative ID from the log file. </p> </td> 
+   <td colname="col4"> <p> <code> 224221</code> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <code>Site-ID</code> </p> </td> 
+   <td colname="col2"> <p> <code> d_site</code> </p> </td> 
+   <td colname="col3"> <p>The Site-ID from the log file. </p> </td> 
+   <td colname="col4"> <p> <code> 224221</code> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <code>Placement-ID</code> </p> </td> 
+   <td colname="col2"> <p> <code> d_placement</code> </p> </td> 
+   <td colname="col3"> <p>The Placement-ID from the log file. This can represent where the creative was placed on the site.</p> </td> 
+   <td colname="col4"> <p> <code> 224221</code> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <code>---</code> </p> </td> 
+   <td colname="col2"> <p> <code> d_src</code> </p> </td> 
+   <td colname="col3"> <p>The ID of the data source you use to capture DCM data. See <a href="../../features/manage-datasources.md#create-data-source"> How to Create a Data Source</a>. </p> </td> 
+   <td colname="col4"> <p> <code> 743</code> </p> </td> 
+  </tr>
+ </tbody>
+</table>
+
+The signals described in the table are captured in [!DNL Audience Manager] like a real-time `HTTP` call. Calls do not necessarily have to include *all* the signals in the example call.
+
+```
+https://sample.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_activity=1234&d_creative=24122&d_placemebt=3442&d_bu=3983524&d_campaign=7321391&d_adsrc=11111
+```
 
 ## Use Cases {#use-cases}
 
