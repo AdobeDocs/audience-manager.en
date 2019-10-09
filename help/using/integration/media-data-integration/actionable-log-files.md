@@ -1,6 +1,6 @@
 ---
 description: Actionable Log Files allow you to capture media signals from ad server log files to create traits in Audience Manager. Capture impressions, clicks, and conversions from ad servers as traits without having to append pixels.
-keywords: actionable logs
+keywords: actionable logs, alf, ALF
 seo-description: Actionable Log Files allow you to capture media signals from ad server log files to create traits in Audience Manager. Capture impressions, clicks, and conversions from ad servers as traits without having to use append pixels.
 seo-title: Actionable Log Files
 solution: Audience Manager
@@ -38,9 +38,6 @@ If you are already importing log data into [!DNL Audience Manager], ask your [!D
 With [!UICONTROL Actionable Log Files], the information from ad server logs is captured in [!DNL Audience Manager] the same way that you would capture data from real-time website interactions. [!DNL Audience Manager] connects to your ad server log storage, parses the information from the logs, and sends the log data as actionable signals to our [Data Collection Servers](../../reference/system-components/components-data-collection.md#dcs-pcs).
 
 You still need to set up rule-based traits to capture the actionable signals. See how to set up rule-based traits either in the [Audience Manager UI](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) or using our [Bulk Management Tools](../../reference/bulk-management-tools/bulk-create.md). Scroll down to the [Actionable Signals](../../integration/media-data-integration/actionable-log-files.md#actionable-signals) section for a list of all the keys you can use in rule-based traits.
-
-
->For an average-sized [!DNL DCM] log file of 2 million lines, any traits created from actionable signals are realized within approximately one hour after we process the logs.
 
 >[!IMPORTANT]
 >
@@ -95,10 +92,10 @@ The table lists the actionable signals from [!DNL DCM] log files:
    <td colname="col4"> <p> <code> 0,1,2</code> </p> </td> 
   </tr>
    <tr> 
-   <td colname="col1"> <p> <code>Time-Stamp</code> </p> </td> 
+   <td colname="col1"> <p> <code>Event Time</code> </p> </td> 
    <td colname="col2"> <p><code>d_time</code> </p> </td> 
-   <td colname="col3">description</td> 
-   <td colname="col4"> <p> <code> 0,1,2</code> </p> </td> 
+   <td colname="col3">A UTC date and time for the impression, click, or conversion event. Use the <code>yyyy-dd-mm hh:mm:ss</code> format.</td> 
+   <td colname="col4"> <p> <code>2019-30-08 11:23:00</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>Advertiser Group ID</code> </p> </td> 
@@ -125,18 +122,6 @@ The table lists the actionable signals from [!DNL DCM] log files:
    <td colname="col4"> <p> <code> 224221</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>Placement ID</code> </p> </td> 
-   <td colname="col2"> <p> <code> d_placement</code> </p> </td> 
-   <td colname="col3"> <p>The Placement-ID from the DCM log file. This can represent where the creative was placed on the site.</p> </td> 
-   <td colname="col4"> <p> <code> 224221</code> </p> </td> 
-  </tr>
-  <tr> 
-   <td colname="col1"> <p> <code>Site ID (DCM)</code> </p> </td> 
-   <td colname="col2"> <p> <code> d_site</code> </p> </td> 
-   <td colname="col3"> <p>The Site-ID from the DCM log file. </p> </td> 
-   <td colname="col4"> <p> <code> 224221</code> </p> </td> 
-  </tr>
-  <tr> 
    <td colname="col1"> <p> <code>Revenue</code> </p> </td> 
    <td colname="col2"> <p> <code> d_revenue</code> </p> </td> 
    <td colname="col3"> Add Description here </td> 
@@ -160,8 +145,10 @@ The table lists the actionable signals from [!DNL DCM] log files:
 The signals described in the table are captured in [!DNL Audience Manager] like a real-time `HTTP` call. The example call below contains information on a conversion event from [!DNL DCM]. Calls do not necessarily have to include *all* the signals in the example call.
 
 ```
-https://sample.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_event=conv&d_conversion=24122&d_conversionType=2&d_bu=3983524&d_campaign=7321391&d_adsrc=11111&d_creative=123456
+https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_event=conv&d_conversion=24122&d_conversionType=2&d_bu=3983524&d_campaign=7321391&d_adsrc=11111&d_creative=123456
 ```
+
+>For an average-sized [!DNL DCM] log file of 2 million lines, any traits created from actionable signals are realized within approximately one hour after we process the logs.
 
 >[!NOTE] {importance="high"}
 >
@@ -172,7 +159,7 @@ https://sample.demdex.net?d_src=743&d_uuid=0795526165288603295014370250589427213
 
 ### Actionable Signals from Generic Ad Server Logs {#generic-logs-signals}
 
-As a reminder, drop your generic ad server logs in our Amazon S3 buckets. The table lists the actionable signals from generic log files:
+First, you must drop your ad server logs in our Amazon S3 buckets. To accomplish this, read [Data Files for Audience Optimization Reports and Actionable Log Files](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md) *and* contact your [!DNL Audience Manager] consultant. The table lists the actionable signals from generic log files:
 
 <table id="table_A5A2A10D471C4C9D8DCD88F9C017040C"> 
  <thead> 
@@ -185,27 +172,15 @@ As a reminder, drop your generic ad server logs in our Amazon S3 buckets. The ta
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code>Revenue</code> </p> </td> 
-   <td colname="col2"> <p> <code> d_revenue</code> </p> </td> 
-   <td colname="col3"> Add Description here </td> 
-   <td colname="col4"> <p> <code> example</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <code>Activity ID</code> </p> </td> 
-   <td colname="col2"> <p> <code> d_activity</code> </p> </td> 
-   <td colname="col3"> <p> description </p> </td> 
-   <td colname="col4"> <p> <code> 24122</code> </p> </td> 
-  </tr> 
-  <tr> 
    <td colname="col1"> <p> <code>Time-Stamp</code> </p> </td> 
    <td colname="col2"> <p> <code> d_time</code> </p> </td> 
-   <td colname="col3"> <p> description </p></td> 
-   <td colname="col4"> <p> <code> 0,1,2</code> </p> </td> 
+   <td colname="col3"> <p> A UTC date and time for the impression, click, or conversion event. Use the <code>yyyy-dd-mm hh:mm:ss</code> format. </p></td> 
+   <td colname="col4"> <p> <code> 2019-30-08 11:23:00</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>Advertiser ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_adsrc</code> </p> </td> 
-   <td colname="col3"> <p>Advertiser ID.</p> </td> 
+   <td colname="col3"> <p>An integration code for your advertiser's data source. Note that this is not related to Audience Manager data sources.</p></td> 
    <td colname="col4"> <p> <code> 134243</code> </p> </td> 
   </tr> 
   <tr> 
@@ -225,19 +200,19 @@ As a reminder, drop your generic ad server logs in our Amazon S3 buckets. The ta
    <td colname="col2"> <p> <code> d_creative</code> </p> </td> 
    <td colname="col3"> <p>The Creative ID from the log file. </p> </td> 
    <td colname="col4"> <p> <code> 224221</code> </p> </td> 
+  </tr>
+    <tr> 
+   <td colname="col1"> <p> <code>Revenue</code> </p> </td> 
+   <td colname="col2"> <p> <code> d_revenue</code> </p> </td> 
+   <td colname="col3"> Add Description here </td> 
+   <td colname="col4"> <p> <code> example</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>Site-ID</code> </p> </td> 
-   <td colname="col2"> <p> <code> d_site</code> </p> </td> 
-   <td colname="col3"> <p>The Site-ID from the log file. </p> </td> 
-   <td colname="col4"> <p> <code> 224221</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <code>Placement-ID</code> </p> </td> 
-   <td colname="col2"> <p> <code> d_placement</code> </p> </td> 
-   <td colname="col3"> <p>The Placement-ID from the log file. This can represent where the creative was placed on the site.</p> </td> 
-   <td colname="col4"> <p> <code> 224221</code> </p> </td> 
-  </tr> 
+   <td colname="col1"> <p> <code>Activity ID</code> </p> </td> 
+   <td colname="col2"> <p> <code> d_activity</code> </p> </td> 
+   <td colname="col3"> <p> description </p> </td> 
+   <td colname="col4"> <p> <code> 24122</code> </p> </td> 
+  </tr>
   <tr> 
    <td colname="col1"> <p> <code>---</code> </p> </td> 
    <td colname="col2"> <p> <code> d_src</code> </p> </td> 
@@ -250,7 +225,7 @@ As a reminder, drop your generic ad server logs in our Amazon S3 buckets. The ta
 The signals described in the table are captured in [!DNL Audience Manager] like a real-time `HTTP` call. Calls do not necessarily have to include *all* the signals in the example call.
 
 ```
-https://sample.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_activity=1234&d_creative=24122&d_placemebt=3442&d_bu=3983524&d_campaign=7321391&d_adsrc=11111
+https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_activity=1234&d_creative=24122&d_placemebt=3442&d_bu=3983524&d_campaign=7321391&d_adsrc=11111
 ```
 
 ## Use Cases {#use-cases}

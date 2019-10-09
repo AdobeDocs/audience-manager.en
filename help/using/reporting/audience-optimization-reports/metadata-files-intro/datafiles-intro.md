@@ -7,9 +7,9 @@ title: Data Files for Audience Optimization Reports
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 ---
 
-# Data Files for Audience Optimization Reports{#data-files-for-audience-optimization-reports}
+# Data Files for Audience Optimization Reports and Actionable Log Files {#data-files-for-audience-optimization-reports}
 
-A data file contains impression, click, or conversion data. When formatted properly, you can import this data into Audience Manager and view it in the Audience Optimization reports. Format your data files according to these specifications in this section.
+A data file contains impression, click, or conversion data. When formatted properly, you can import this data into Audience Manager to view it in the [Audience Optimization Reports](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) and create traits using the data via [Actionable Log Files](/help/using/integration/media-data-integration/actionable-log-files.md). Format your data files according to these specifications in this section.
 
 ## Overview {#overview}
 
