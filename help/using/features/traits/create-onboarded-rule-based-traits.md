@@ -20,6 +20,8 @@ In [!UICONTROL Trait Builder], the [!UICONTROL Basic Information] settings let y
 
 <!-- c_tb_basics.xml -->
 
+![create-trait](assets/create-trait.png)
+
 ### Basic Information Fields Defined
 
 <table id="table_42AEC7A5B22346C5BB996D2D36C56229"> 
@@ -46,12 +48,12 @@ In [!UICONTROL Trait Builder], the [!UICONTROL Basic Information] settings let y
    <td colname="col2"> A few words to help describe the trait's purpose or function. Optional. </td> 
   </tr> 
   <tr> 
+   <td colname="col1"> <b><span class="uicontrol"> Data Source</span></b> </td> 
+   <td colname="col2"> Associates the trait with a specific data provider. Required. <p>Use the first drop-down menu to filter between Audience Manager data sources, Adobe Analytics report suites, or both. Then, use the second drop-down menu to choose your data source.</p><p> If you don't have any Adobe Analytics report suites, the data source type selector is disabled and you can only see your Audience Manager data sources.</p>  </td> 
+  </tr>
+   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Event Type</span></b> </td> 
    <td colname="col2"> Assigns the trait to a type or category, usually according to function (e.g. conversion, site visitor, partner, page view, etc.). Optional. <p> To learn how to create conversion traits, see the <a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">Creating Conversion Traits in Audience Manager video</a>. </p></td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <b><span class="uicontrol"> Data Source</span></b> </td> 
-   <td colname="col2"> Associates the trait with a specific data provider. Required. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Integration Code</span></b> </td> 
@@ -62,7 +64,7 @@ In [!UICONTROL Trait Builder], the [!UICONTROL Basic Information] settings let y
    <td colname="col2"> General notes about a trait. Optional. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b><span class="uicontrol"> Stored In</span></b> </td> 
+   <td colname="col1"> <b><span class="uicontrol"> Store In</span></b> </td> 
    <td colname="col2"> Determines which storage folder the trait belongs to. Required. </td> 
   </tr> 
   <tr> 
