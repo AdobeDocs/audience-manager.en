@@ -157,6 +157,8 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 >* If a timestamp isn't available for a data row in the [!DNL DCM] log file, we use the time of the `HTTP` call as the event timestamp.
 >* If the data row in the [!DNL DCM] log file contains a malformed timestamp, we ignore the entire row.
 
+<br>&nbsp;
+
 ### Actionable Signals from Generic Ad Server Logs {#generic-logs-signals}
 
 First, you must drop your ad server logs in our Amazon S3 buckets. To accomplish this, read [Data Files for Audience Optimization Reports and Actionable Log Files](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md) *and* contact your [!DNL Audience Manager] consultant. The table lists the actionable signals from generic log files:
@@ -171,6 +173,34 @@ First, you must drop your ad server logs in our Amazon S3 buckets. To accomplish
   </tr> 
  </thead>
  <tbody> 
+  <tr> 
+   <td colname="col1"> <p> <code>??????</code> </p> </td> 
+   <td colname="col2"> <p> <code> d_event</code> </p> </td> 
+   <td colname="col3"> <p>Indicates the event type from DCM. </p> <p>Accepted values are: </p> <p> 
+     <ul id="ul_58EB40E458844DA185ABAF160ADAF03E"> 
+      <li id="li_71772CC106F74F4788E1784CC3D70BD3"> <code> d_event = imp</code> for impressions. </li> 
+      <li id="li_33A629A32B87400F93269581154D566F"> <code> d_event = click</code> for clicks. </li> 
+      <li id="li_553B0C0F3D304193929230D54830EBCA"> <code> d_event = conv</code> for conversions. </li> 
+     </ul> </p> </td> 
+   <td colname="col4"> <p> <code> imp, click, conv</code> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <code>Conversion Event</code> </p> </td> 
+   <td colname="col2"> <p> <code> d_conversion</code> </p> </td> 
+   <td colname="col3"> <p>Available only for conversion events. </p> <p>Represents the numerical ID for the conversion activity in DCM. This field maps to the Activity ID from DCM. </p> <p> <p>Tip: You can capture multiple or specific conversion activities from DCM. Create traits using <code> d_conversion = activity ID</code> for each conversion activity from DCM. </p> </p> </td> 
+   <td colname="col4"> <p> <code> 24122</code> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <code>Conversion Type</code> </p> </td> 
+   <td colname="col2"> <p> <code>d_conversionType</code> </p> </td> 
+   <td colname="col3"> <p>Available only for conversion events. </p> <p>This field maps to the Conversion ID in DCM. Indicates the activity preceding the user conversion from DCM. </p> <p>Accepted values are: </p> <p> 
+     <ul id="ul_2256294F1C6F448B9F269D00D4DFEE65"> 
+      <li id="li_29D3FF8919B7404297E80BACA913117A"> <code> 1</code> for post-click conversions. </li> 
+      <li id="li_B5250A63A2C1413FAF1FDC8272BFFB97"> <code> 2</code> for post-impression conversions. </li> 
+      <li id="li_81007A984F554932AC3354E41A42D57B"> <code> 0</code> for un-matched conversions. The conversion cannot be matched to a previous activity. </li> 
+     </ul> </p> </td> 
+   <td colname="col4"> <p> <code> 0,1,2</code> </p> </td> 
+  </tr>
   <tr> 
    <td colname="col1"> <p> <code>Time-Stamp</code> </p> </td> 
    <td colname="col2"> <p> <code> d_time</code> </p> </td> 
