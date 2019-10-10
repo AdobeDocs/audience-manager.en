@@ -10,7 +10,7 @@ uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 
 # Actionable Log Files {#actionable-log-files}
 
-[!UICONTROL Actionable Log Files] allow you to capture media data from ad server log files and use the data to create traits in Audience Manager. Capture impressions, clicks, and conversions from ad servers as traits without having to append [pixels](../../integration/media-data-integration/impression-data-pixels.md).
+[!UICONTROL Actionable Log Files] allow you to capture media data from ad server log files and use the data to create traits in Audience Manager. Capture impressions, clicks, and conversions from ad servers as traits without having to append [pixels](../../integration/media-data-integration/impression-data-pixels.md). 
 
 >[!NOTE]
 >
