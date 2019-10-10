@@ -28,7 +28,7 @@ Start by watching the [Create Segments in Audience Manager video](https://images
 1. In the [Basic Information](../../features/segments/segment-builder.md#segment-builder-controls-basics) section:
     * Name the segment. The maximum length of a segment name is 255 characters.
     * Set the segment status (active is default).
-    * Choose a data source. Use the first drop-down menu to filter between Audience Manager data sources, Adobe Analytics report suites, or both. Then, use the second drop-down menu to choose your data source. If you don't have any Adobe Analytics report suites, the data source type selector is disabled and you can only see your Audience Manager data sources.
+    * Choose a data source. Use the first drop-down menu to filter between Audience Manager data sources, Adobe Analytics report suites, or both. Then, use the second drop-down menu to choose your data source. If you are not using Adobe Analytics report suites, the data source type selector is disabled and defaulted to Audience Manager data sources only.
     * Select a profile merge rule to use for segment qualification.
     * Assign the segment to a storage folder.
 2. In the [Traits](../../features/segments/segment-builder.md#segment-builder-controls-traits) section:
@@ -72,7 +72,7 @@ In [!UICONTROL Segment Builder], [!UICONTROL the Basic Information] settings let
   </tr> 
   <tr> 
    <td colname="col1"> <b>Data Source</b> </td> 
-   <td colname="col2"> <p>Associates the segment with a specific data provider. <p>Use the first drop-down menu to filter between Audience Manager data sources, Adobe Analytics report suites, or both. Then, use the second drop-down menu to choose your data source.</p><p> If you don't have any Adobe Analytics report suites, the data source type selector is disabled and you can only see your Audience Manager data sources.</p></p> </td> 
+   <td colname="col2"> <p>Associates the segment with a specific data provider. <p>Use the first drop-down menu to filter between Audience Manager data sources, Adobe Analytics report suites, or both. Then, use the second drop-down menu to choose your data source.</p><p> If you are not using Adobe Analytics report suites, the data source type selector is disabled and defaulted to Audience Manager data sources only.</p></p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b>Profile Merge Rule</b> </td> 

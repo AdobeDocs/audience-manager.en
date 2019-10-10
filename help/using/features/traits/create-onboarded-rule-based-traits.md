@@ -49,7 +49,7 @@ In [!UICONTROL Trait Builder], the [!UICONTROL Basic Information] settings let y
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Data Source</span></b> </td> 
-   <td colname="col2"> Associates the trait with a specific data provider. Required. <p>Use the first drop-down menu to filter between Audience Manager data sources, Adobe Analytics report suites, or both. Then, use the second drop-down menu to choose your data source.</p><p> If you don't have any Adobe Analytics report suites, the data source type selector is disabled and you can only see your Audience Manager data sources.</p>  </td> 
+   <td colname="col2"> Associates the trait with a specific data provider. Required. <p>Use the first drop-down menu to filter between Audience Manager data sources, Adobe Analytics report suites, or both. Then, use the second drop-down menu to choose your data source.</p><p> If you are not using Adobe Analytics report suites, the data source type selector is disabled and defaulted to Audience Manager data sources only.</p>  </td> 
   </tr>
    <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Event Type</span></b> </td> 
