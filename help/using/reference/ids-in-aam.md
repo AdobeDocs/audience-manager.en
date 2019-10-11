@@ -26,9 +26,11 @@ Refer to this document for the complete list of Adobe Audience Manager IDs.
 |[!DNL DPUUID]|Data Provider Unique User ID (also referred to as [!DNL CRM ID]). A third-party ID. This is the ID by which you identify end users in your own [!DNL CRM] system. You can sync [!DNL DPUUIDs] with Audience Manager [!DNL UUIDs] and you can sync [!DNL DPUUIDs] from your different Data Sources ([!DNL DPIDs]) in the ID synchronization process. |`2132-3423vn-343fds-3432r`|
 |[!DNL CRM ID]|See DPUUID.|`2132-3423vn-343fds-3432r`|
 |[!DNL CID], [!DNL CID_IC]|Customer ID, Customer ID Integration Code. The [!DNL CID] and [!DNL CID_IC] key-value pairs replace [!DNL DPID] and [!DNL DPUUID]. They provide the same functions as the [!DNL DPID] and [!DNL DPUUID], but are more efficient because they include the data provider ID and user ID (or integration code) in a single key-value pair. ||
-|[!DNL DAID]|Device Advertising ID. An ID unique to each hardware device, to be used for advertising purposes. Usually provided by the manufacturer of the device or device operating system. |See [Global Device IDs](#global-device-ids) |
+|[!DNL DAID]|Device Advertising ID. An ID unique to each hardware device, to be used for advertising purposes. Usually provided by the manufacturer of the device or device operating system. |See [Global Device IDs](#global-device-ids). |
 
 ## Global Device IDs {#global-device-ids}
+
+Global device IDs are device advertising IDs, unique to each device, provided by the device manufacturer or the operating system. The table below explains what these IDs are and what their format is.
 
 | ID  | Name and Description | Example                                                                                                                                                                                                                    |
 | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
