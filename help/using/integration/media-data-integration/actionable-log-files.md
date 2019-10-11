@@ -252,7 +252,7 @@ First, you must drop your ad server logs in our Amazon S3 buckets. To accomplish
  </tbody>
 </table>
 
-The signals described in the table are captured in [!DNL Audience Manager] like a real-time `HTTP` call. Calls do not necessarily have to include *all* the signals in the example call.
+The signals described in the table are captured in [!DNL Audience Manager] like a real-time `HTTP` call. Calls do not necessarily have to include *all* the signals in the example call. 
 
 ```
 https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_activity=1234&d_creative=24122&d_placemebt=3442&d_bu=3983524&d_campaign=7321391&d_adsrc=11111
