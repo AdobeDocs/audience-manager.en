@@ -20,8 +20,3 @@ A data file contains impression, click, or conversion data that you can import i
 * [Naming Conventions for Metadata Files](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)
 * [Content Format for Metadata Files](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md)
 * [Delivery Methods for Metadata Files](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md)
-* [Status Updates for Metadata Files](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-update-status.md)
-
-
-
-
