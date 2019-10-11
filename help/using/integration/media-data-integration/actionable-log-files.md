@@ -176,7 +176,7 @@ First, you must drop your ad server logs in our Amazon S3 buckets. To accomplish
   <tr> 
    <td colname="col1"> <p> <code>??????</code> </p> </td> 
    <td colname="col2"> <p> <code> d_event</code> </p> </td> 
-   <td colname="col3"> <p>Indicates the event type from DCM. </p> <p>Accepted values are: </p> <p> 
+   <td colname="col3"> <p>Indicates the event type. </p> <p>Accepted values are: </p> <p> 
      <ul id="ul_58EB40E458844DA185ABAF160ADAF03E"> 
       <li id="li_71772CC106F74F4788E1784CC3D70BD3"> <code> d_event = imp</code> for impressions. </li> 
       <li id="li_33A629A32B87400F93269581154D566F"> <code> d_event = click</code> for clicks. </li> 
@@ -187,13 +187,13 @@ First, you must drop your ad server logs in our Amazon S3 buckets. To accomplish
   <tr> 
    <td colname="col1"> <p> <code>Conversion Event</code> </p> </td> 
    <td colname="col2"> <p> <code> d_conversion</code> </p> </td> 
-   <td colname="col3"> <p>Available only for conversion events. </p> <p>Represents the numerical ID for the conversion activity in DCM. This field maps to the Activity ID from DCM. </p> <p> <p>Tip: You can capture multiple or specific conversion activities from DCM. Create traits using <code> d_conversion = activity ID</code> for each conversion activity from DCM. </p> </p> </td> 
+   <td colname="col3"> <p>Available only for conversion events. </p> <p>Represents the numerical ID for the conversion activity. </p> </td> 
    <td colname="col4"> <p> <code> 24122</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>Conversion Type</code> </p> </td> 
    <td colname="col2"> <p> <code>d_conversionType</code> </p> </td> 
-   <td colname="col3"> <p>Available only for conversion events. </p> <p>This field maps to the Conversion ID in DCM. Indicates the activity preceding the user conversion from DCM. </p> <p>Accepted values are: </p> <p> 
+   <td colname="col3"> <p>Available only for conversion events. </p> <p>Indicates the activity preceding the user conversion. </p> <p>Accepted values are: </p> <p> 
      <ul id="ul_2256294F1C6F448B9F269D00D4DFEE65"> 
       <li id="li_29D3FF8919B7404297E80BACA913117A"> <code> 1</code> for post-click conversions. </li> 
       <li id="li_B5250A63A2C1413FAF1FDC8272BFFB97"> <code> 2</code> for post-impression conversions. </li> 
@@ -240,8 +240,8 @@ First, you must drop your ad server logs in our Amazon S3 buckets. To accomplish
   <tr> 
    <td colname="col1"> <p> <code>Activity ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_activity</code> </p> </td> 
-   <td colname="col3"> <p> description </p> </td> 
-   <td colname="col4"> <p> <code> 24122</code> </p> </td> 
+   <td colname="col3"> <p> Add Description here </p> </td> 
+   <td colname="col4"> <p> <code> example</code> </p> </td> 
   </tr>
   <tr> 
    <td colname="col1"> <p> <code>---</code> </p> </td> 
