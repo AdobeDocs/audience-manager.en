@@ -83,8 +83,8 @@ The table lists the actionable signals from [!DNL DCM] log files:
    <tr> 
    <td colname="col1"> <p> <code>Event Time</code> </p> </td> 
    <td colname="col2"> <p><code>d_time</code> </p> </td> 
-   <td colname="col3">A UTC date and time for the impression, click, or conversion event. Use the <code>yyyy-dd-mm hh:mm:ss</code> format.</td> 
-   <td colname="col4"> <p> <code>2019-30-08 11:23:00</code> </p> </td> 
+   <td colname="col3">A UTC date and time for the impression, click, or conversion event. Represented in microseconds since 1970-01-01 00:00:00 UTC.</td> 
+   <td colname="col4"> <p> <code>1570826763000</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>Advertiser Group ID</code> </p> </td> 
@@ -113,8 +113,8 @@ The table lists the actionable signals from [!DNL DCM] log files:
   <tr> 
    <td colname="col1"> <p> <code>Revenue</code> </p> </td> 
    <td colname="col2"> <p> <code> d_revenue</code> </p> </td> 
-   <td colname="col3"> Add Description here </td> 
-   <td colname="col4"> <p> <code> example</code> </p> </td> 
+   <td colname="col3"> The sales amount in USD, to the power of -6. Multiply by 1.000.000 to see as a dollar amount.</td> 
+   <td colname="col4"> <p> <code>10</code> </p> </td> 
   </tr>
     <tr> 
    <td colname="col1"> <p> <code>-</code> </p> </td> 
@@ -187,8 +187,8 @@ First, you must drop your ad server logs in our Amazon S3 buckets. To accomplish
   <tr> 
    <td colname="col1"> <p> <code>Time-Stamp</code> </p> </td> 
    <td colname="col2"> <p> <code> d_time</code> </p> </td> 
-   <td colname="col3"> <p> A UTC date and time for the impression, click, or conversion event. Use the <code>yyyy-dd-mm hh:mm:ss</code> format. </p></td> 
-   <td colname="col4"> <p> <code> 2019-30-08 11:23:00</code> </p> </td> 
+   <td colname="col3"> <p> A UTC date and time for the impression, click, or conversion event. Represented in microseconds since 1970-01-01 00:00:00 UTC. </p></td> 
+   <td colname="col4"> <p> <code>1570826763000</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>Advertiser ID</code> </p> </td> 
@@ -217,8 +217,8 @@ First, you must drop your ad server logs in our Amazon S3 buckets. To accomplish
     <tr> 
    <td colname="col1"> <p> <code>Revenue</code> </p> </td> 
    <td colname="col2"> <p> <code> d_revenue</code> </p> </td> 
-   <td colname="col3"> Add Description here </td> 
-   <td colname="col4"> <p> <code> example</code> </p> </td> 
+   <td colname="col3"> The sales amount in USD, to the power of -6. Multiply by 1.000.000 to see as a dollar amount. </td> 
+   <td colname="col4"> <p> <code> 10</code> </p> </td> 
   </tr>
     <tr> 
    <td colname="col1"> <p> <code>-</code> </p> </td> 
