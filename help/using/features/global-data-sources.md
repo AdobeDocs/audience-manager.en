@@ -17,11 +17,12 @@ The following table describes the global data sources supported by Audience Mana
 
 | Data Source ID | Description|
 |---|---|
-|  20914 | **Google Advertising ID** - **GAID**s represent devices that run the Android operating system.|
-|  20915 | **Apple ID For Advertising** - **IDFA**s represent devices that run the iOS operating system. |
-|  121963 | **Roku ID for Advertising** - **RIDA**s represent Roku streaming devices. |
-| 389146  | **Microsoft Advertising ID** - **MAID**s represent devices running the Windows 10 operating system. |
-|  404660 | **Samsung DUID**s represent Samsung smart TVs. |
+|  20914 | **Google Advertising ID** - **GAID**s represent devices that run the [!DNL Android] operating system.|
+|  20915 | **Apple ID For Advertising** - **IDFA**s represent devices that run the [!DNL iOS] operating system. |
+|  121963 | **Roku ID for Advertising** - **RIDA**s represent [!DNL Roku] streaming devices. |
+| 389146  | **Microsoft Advertising ID** - **MAID**s represent devices running the [!DNL Windows 10] operating system. |
+|  404660 | **Samsung DUID**s represent [!DNL Samsung] smart TVs. |
+| 488258 | **Amazon Fire TV Advertising ID**s represent devices running [!DNL Amazon Fire OS]|
 
 ## Importing Data from Global Data Sources
 
