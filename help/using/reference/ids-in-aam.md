@@ -12,7 +12,7 @@ uuid: 292185ec-7c6a-414b-ab17-800c21cb1f01
 
 Refer to this document for the complete list of Adobe Audience Manager IDs.
 
-|ID|Name and Description|Example
+|ID|Name and Description|Example|
 |--|--|--|--|
 |[!DNL AAM UUID]| Audience Manager Unique User ID. A numerical, 38-digit device ID that Audience Manager associates to each device it interacts with. Think of this ID whenever you see a mention of unique users in the Audience Manager UI. Audience Manager saves this ID as a cookie in the `demdex.net` 3rd party domain. The Audience Manager UUID is sent in event calls as the `d_uuid` signal. |`demdex = 07955261652886032950143702505894272138`|
 |[!DNL ImsOrgId]|Organization ID. This is the ID that a company is provided with upon signing up for the Experience Cloud. To learn how you can find your company's Organization ID, read [Find your Organization ID](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html#concept_EA8AEE5B02CF46ACBDAD6A8508646255). |`5DC5123F5245B1D20A490D46@AdobeOrg`|
@@ -30,7 +30,7 @@ Refer to this document for the complete list of Adobe Audience Manager IDs.
 
 ## Global Device IDs {#global-device-ids}
 
-| ID  | Name and Description | Example                                                                        |
+| ID  | Name and Description | Example                                                                                                                                                                                                                    |
 | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [!DNL IDFA]                                 | [!DNL Identifier for Advertisers] IDs are mobile device identifiers, provided by the device manufacturer. These IDs represent devices that run the iOS operating system.        | The format strictly consists of 32 uppercase hexadecimal digits, displayed in five groups and separated by hyphens, in the form 8-4-4-4-12, for a total of 36 characters. Example: `AEBE52E7-03EE-455A-B3C4-E57283966239`. |
 | [!DNL GAID]                                 | [!DNL Google Advertising ID]s are mobile device identifiers provided by Android device manufacturers. These IDs represent devices that run the [!DNL Android] operating system. | The format strictly consists of 32 lowercase hexadecimal digits, displayed in five groups and separated by hyphens, in the form 8-4-4-4-12, for a total of 36 characters. Example: `e4fe9bde-caa0-47b6-908d-ffba3fa184f2`. |
