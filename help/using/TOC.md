@@ -182,7 +182,6 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
             + [Naming Conventions for Metadata Files](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)
             + [Content Format for Metadata Files](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md)
             + [Delivery Methods for Metadata Files](reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md)
-            + [Status Updates for Metadata Files](reporting/audience-optimization-reports/metadata-files-intro/metadata-update-status.md)
         + [Daily Trait Variation Report](reporting/audience-optimization-reports/daily-trait-variation-report.md)
     + Interactive and Overlap Reports {#interactive-and-overlap-reports}
         + [Interactive and Overlap Reports Overview](reporting/dynamic-reports/dynamic-reports.md)
@@ -316,6 +315,8 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
             + [File Compression for Inbound Data Transfer Files](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
             + [Sample Message to Partners after Inbound Processing](integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)
         + [Custom Partner Integrations](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
+    + Integration with Adobe Experience Platform {#integration-experience-platform}
+      + [Segment Sharing](integration/integration-aep/aam-aep-segment-sharing.md)
     + Integration with Other Experience Cloud Solutions {#integration-other-solutions}
       + [Integrate Audience Manager With Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
       + [Implement the Audience Management Module](integration/integration-other-solutions/audience-management-module.md)

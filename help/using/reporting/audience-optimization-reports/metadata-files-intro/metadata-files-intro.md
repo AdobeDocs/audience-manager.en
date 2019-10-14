@@ -25,8 +25,3 @@ A metadata file contains human-readable names that correspond to various report 
 * [Naming Conventions for Metadata Files](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)
 * [Content Format for Metadata Files](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md)
 * [Delivery Methods for Metadata Files](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md)
-* [Status Updates for Metadata Files](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-update-status.md)
-
-
-
-
