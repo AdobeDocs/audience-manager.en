@@ -168,13 +168,7 @@ First, you must drop your ad server logs in our Amazon S3 buckets. To accomplish
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code>Activity ID</code> </p> </td> 
-   <td colname="col2"> <p> <code> d_conversion</code> </p> </td> 
-   <td colname="col3"> <p>Available only for conversion events. </p> <p>Represents the numerical ID for the conversion activity. </p> </td> 
-   <td colname="col4"> <p> <code> 24122</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <code>Event Type</code> </p> </td> 
+   <td colname="col1"> <p> <code>Event-Type</code> </p> </td> 
    <td colname="col2"> <p> <code>d_conversionType</code> </p> </td> 
    <td colname="col3"> <p>Indicates whether a conversion is matched or not. Options include: </p> <p> 
      <ul id="ul_2256294F1C6F448B9F269D00D4DFEE65"> 
@@ -191,9 +185,9 @@ First, you must drop your ad server logs in our Amazon S3 buckets. To accomplish
    <td colname="col4"> <p> <code>2019-30-08 11:23:00</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>Advertiser ID</code> </p> </td> 
+   <td colname="col1"> <p> <code>Advertiser-ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_adsrc</code> </p> </td> 
-   <td colname="col3"> <p>An integration code for your advertiser's data source. Note that this is not related to Audience Manager data sources.</p></td> 
+   <td colname="col3"> <p>An integration code for your advertiser's data source. Note that this field is not related to <a href="../../features/datasources-list-and-settings.md">Audience Manager data sources.</a></p></td> 
    <td colname="col4"> <p> <code> 134243</code> </p> </td> 
   </tr> 
   <tr> 
@@ -217,8 +211,8 @@ First, you must drop your ad server logs in our Amazon S3 buckets. To accomplish
     <tr> 
    <td colname="col1"> <p> <code>Revenue</code> </p> </td> 
    <td colname="col2"> <p> <code> d_revenue</code> </p> </td> 
-   <td colname="col3"> The sales amount in USD, to the power of -6. Multiply by 1.000.000 to see as a dollar amount. </td> 
-   <td colname="col4"> <p> <code> 10</code> </p> </td> 
+   <td colname="col3"> Purchase or other conversion amount. Data type: Float. </td> 
+   <td colname="col4"> <p> <code> 0.001</code> </p> </td> 
   </tr>
     <tr> 
    <td colname="col1"> <p> <code>-</code> </p> </td> 
@@ -234,7 +228,7 @@ First, you must drop your ad server logs in our Amazon S3 buckets. To accomplish
   <tr> 
    <td colname="col1"> <p> <code>-</code> </p> </td> 
    <td colname="col2"> <p> <code> d_src</code> </p> </td> 
-   <td colname="col3"> <p>The ID of the data source you use to capture DCM data. See <a href="../../features/manage-datasources.md#create-data-source"> How to Create a Data Source</a>. </p> </td> 
+   <td colname="col3"> <p>The ID of the data source you use to capture log data. See <a href="../../features/manage-datasources.md#create-data-source"> How to Create a Data Source</a>. </p> </td> 
    <td colname="col4"> <p> <code> 743</code> </p> </td> 
   </tr>
  </tbody>
