@@ -15,7 +15,7 @@ keywords: AEP segment sharing, AEP segments, Platform segments
 
 ## Overview {#overview}
 
-The segment sharing functionality between Audience Manager and Adobe Experience Platform allows you to use your Audience Manager segments in Adobe Experience Platform and vice-versa. 
+The segment sharing functionality between Audience Manager and Adobe Experience Platform allows you to use your Audience Manager segments in Adobe Experience Platform and vice-versa.
 
 You can use Audience Manager segments in Experience Platform to add Audience Manager data to your customer profiles and to benefit from the Experience Platform [segmentation service](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!end-user/markdown/segmentation_overview/segmentation.md).
 
