@@ -62,3 +62,7 @@ The following table lists some common problems you may encounter when making bul
  </tbody> 
 </table>
 
+## Error Messages
+
+Sometimes, you can receive error messages when making bulk changes. To interpret the error message, see [Response Codes Defined](/help/using/api/rest-api-main/aam-api-getting-started.md) in our API documentation.
+
