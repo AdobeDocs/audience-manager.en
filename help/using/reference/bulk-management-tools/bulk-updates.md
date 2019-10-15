@@ -1,7 +1,7 @@
 ---
-description: A bulk update lets you edit multiple segments, traits, and segment or trait folders elements in a single operation. Follow these instructions to make bulk updates.
+description: A bulk update lets you edit multiple segments, traits, models, data sources, and segment or trait folder elements in a single operation. Follow these instructions to make bulk updates.
 keywords: baaam
-seo-description: A bulk update lets you edit multiple segments, traits, and segment or trait folders elements in a single operation. Follow these instructions to make bulk updates.
+seo-description: A bulk update lets you edit multiple segments, traits, models, data sources, and segment or trait folder elements in a single operation. Follow these instructions to make bulk updates.
 seo-title: Bulk Updates
 solution: Audience Manager
 title: Bulk Updates
@@ -10,7 +10,7 @@ uuid: 22f1badd-a274-4d3e-9957-a24bf8c1d0dc
 
 # Bulk Updates{#bulk-updates}
 
-A bulk update lets you edit multiple segments, traits, and segment or trait folders elements in a single operation. Follow these instructions to make bulk updates.
+A bulk update lets you edit multiple segments, traits, models, data sources, and segment or trait folder elements in a single operation. Follow these instructions to make bulk updates.
 
 <!-- 
 
