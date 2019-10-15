@@ -1,6 +1,6 @@
 ---
-description: Bulk delete lets you remove multiple segments, traits, folders, derived signals, and destinations with a single operation. Follow these instructions to make a bulk delete request.
-seo-description: Bulk delete lets you remove multiple segments, traits, folders, derived signals, and destinations with a single operation. Follow these instructions to make a bulk delete request.
+description: Bulk delete lets you remove multiple segments, traits, folders, derived signals, data sources, models, and destinations with a single operation. Follow these instructions to make a bulk delete request.
+seo-description: Bulk delete lets you remove multiple segments, traits, folders, derived signals, data sources, models, and destinations with a single operation. Follow these instructions to make a bulk delete request.
 seo-title: Bulk Delete
 solution: Audience Manager
 title: Bulk Delete
@@ -9,7 +9,7 @@ uuid: 679cde46-09fb-45c6-b84d-47e00e0e7c0a
 
 # Bulk Delete{#bulk-delete}
 
-Bulk delete lets you remove multiple segments, traits, folders, derived signals, and destinations with a single operation. Follow these instructions to make a bulk delete request.
+Bulk delete lets you remove multiple segments, traits, folders, derived signals, data sources, models, and destinations with a single operation. Follow these instructions to make a bulk delete request.
 
 <!-- 
 
