@@ -182,7 +182,6 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
             + [Naming Conventions for Metadata Files](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)
             + [Content Format for Metadata Files](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md)
             + [Delivery Methods for Metadata Files](reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md)
-            + [Status Updates for Metadata Files](reporting/audience-optimization-reports/metadata-files-intro/metadata-update-status.md)
         + [Daily Trait Variation Report](reporting/audience-optimization-reports/daily-trait-variation-report.md)
     + Interactive and Overlap Reports {#interactive-and-overlap-reports}
         + [Interactive and Overlap Reports Overview](reporting/dynamic-reports/dynamic-reports.md)
