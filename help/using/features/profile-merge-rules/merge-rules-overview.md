@@ -9,7 +9,9 @@ uuid: 9e7988cc-9145-432b-840a-54fbd8657b3b
 
 # Profile Merge Rules Overview {#profile-merge-rules-overview}
 
-With [!UICONTROL Profile Merge Rules] you get control over the data sets used for segmentation and can target a person accurately across multiple devices.
+With [!UICONTROL Profile Merge Rules] you can control which data sets are used for segmentation and can target users accurately across multiple devices.
+
+>[!VIDEO](https://video.tv.adobe.com/v/28974)
 
 ## Data collection and targeting with anonymous and authenticated profiles {#data-collection-targeting}
 
@@ -17,7 +19,7 @@ Typically, audience segmentation and targeting relies on data collected from all
 
 ![](assets/unauthenticated2.png)
 
-[!UICONTROL Profile Merge Rules] fundamentally changes how [!DNL Audience Manager] collects data and segments users for targeting. It lets you work with 2 distinct types of profiles, a device profile and an authenticated profile.
+[!UICONTROL Profile Merge Rules] fundamentally changes how [!DNL Audience Manager] collects data and segments users for targeting. It lets you work with 2 distinct types of profiles, a device profile and an [authenticated profile](../../reference/visitor-authentication-states.md).
 
 <table id="table_CE98C0E32A964B27804736A896233869"> 
  <thead> 
@@ -46,7 +48,7 @@ Typically, audience segmentation and targeting relies on data collected from all
  </tbody>
 </table>
 
-These different profiles control the data you can use for segmentation. For example, with an authenticated profile, you can build accurate segments based on data from multiple devices for a single person. This means you can deliver a consistent brand experience to customers across multiple devices. Additionally, cross-device authentication allows [!DNL Audience Manager] to map the different platforms a person uses for their online activities. This is called the [!UICONTROL Profile Link Device Graph].
+These different profiles control the data you can use for segmentation. For example, with an [authenticated profile](../../reference/visitor-authentication-states.md), you can build accurate segments based on data from multiple devices for a single user. This means you can deliver a consistent brand experience to customers across multiple devices. Audience Manager achieves this by storing the mapping of the different devices a person uses for their online activities to their [authenticated profile](../../reference/visitor-authentication-states.md). These mappings are called the [!UICONTROL Profile Link Device Graph].
 
 ![](assets/authenticated2.png)
 
@@ -54,23 +56,8 @@ These different profiles control the data you can use for segmentation. For exam
 
 With [!UICONTROL Profile Merge Rules] you can:
 
-* Target users based on authenticated profiles, anonymous profiles, or combinations of both.
+* Target users based on [authenticated profile](../../reference/visitor-authentication-states.md), anonymous profiles, or combinations of both.
 * Target a specific customer across their devices.
 * Build a device graph based on deterministic data.
 * Fine tune the data in your segments based on different profiles.
 * Gain additional insight into your audience.
-
-## Getting started {#getting-started}
-
-See the following sections and the [FAQ](../../faq/faq-profile-merge.md) for more information about [!UICONTROL Profile Merge Rules].
-
-* [Getting Started with Profile Merge Rules](/help/using/features/profile-merge-rules/merge-rules-start.md)
-* [Profile Merge Rules Dashboard](/help/using/features/profile-merge-rules/merge-rules-dashboard.md)
-* [Profile Merge Rule Options Defined](/help/using/features/profile-merge-rules/merge-rule-definitions.md)
-* [General Use Cases for Profile Merge Rules](/help/using/features/profile-merge-rules/merge-rule-targeting-options.md)
-* [Profile Link Device Graph Use Cases](/help/using/features/profile-merge-rules/profile-link-use-case.md)
-* [External Device Graph Use Cases](/help/using/features/profile-merge-rules/external-graph-use-cases.md)
-* [Report Metrics for Profile Merge Rules](/help/using/features/profile-merge-rules/profile-link-metrics.md)
-* [Profile Merge Rules and Device Un-Segmentation Processes](/help/using/features/profile-merge-rules/merge-rule-unsegment.md)
-* [Instant Cross-Device Suppression](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md)
-* [Important Considerations for Profile Merge Rules with Device Graphs](/help/using/features/profile-merge-rules/considerations-pmr-device-graph.md)
