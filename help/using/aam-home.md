@@ -17,8 +17,9 @@ This technical documentation guide provides self help assistance for Audience Ma
   <tr> 
    <td colname="col1"> <p> <b>New and Featured Items</b> </p> <p>Read about the latest Audience Manager features:</p> <p> 
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
+    <li><a href="features/profile-merge-rules/merge-rules-overview.md">Profile Merge Rules Enhancements</a></li>
     <li><a href="reference/bulk-management-tools/bulk-management-intro.md">Bulk Management Tools Update</a></li>
-     <li><a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/overview/data-security-and-privacy/data-security.html#hsts">HTTP Strict-Transport-Security</a></li>
+     <li><a href="overview/data-security-and-privacy/data-security.md#hsts">HTTP Strict-Transport-Security</a></li>
      <li><a href="features/destinations/people-based-destinations-overview.md">People-Based Destinations</a> </li>
      <li><a href="features/destinations/twitter-tailored-audiences.md">Configure Twitter Tailored Audiences as a Self-Service Device-Based Destination</a> </li>
      <li><a href="features/destinations/destinations-home.md">Destinations Home Page</a> </li>

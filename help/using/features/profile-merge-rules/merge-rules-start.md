@@ -21,23 +21,23 @@ To create a cross-device data source, go to **[!UICONTROL Audience Data > Data S
 
 >[!TIP]
 >
->See [Data Source Settings and Menu Options](../../features/datasources-list-and-settings.md#settings-menu-options) for descriptions of these different controls.
+>See [Data Source Settings and Menu Options](../datasources-list-and-settings.md#settings-menu-options) for descriptions of these different controls.
 
 ## Data Source Details {#details}
 
 To complete the [!UICONTROL Data Source Details] section:
 
 1. Name the data source.
-1. *(Optional)* Describe the data source. A concise description helps you define the role or purpose of the data source.
-1. Provide an integration code. An integration code is your own, unique ID for this data source.
-1. In the **[!UICONTROL ID Type]** list, select **[!UICONTROL Cross Device]**.
-1. In the **[!UICONTROL ID Definition]** list, select an option that defines the data source type. Options include:
+2. *(Optional)* Describe the data source. A concise description helps you define the role or purpose of the data source.
+3. Provide an integration code. An integration code is your own, unique ID for this data source.
+4. In the **[!UICONTROL ID Type]** list, select **[!UICONTROL Cross Device]**.
+5. In the **[!UICONTROL ID Definition]** list, select an option that defines the data source type. Options include:
     * **[!UICONTROL Person]**: An ID that defines a single person. This ID can be mapped to multiple [!DNL Audience Manager] IDs.
     * **[!UICONTROL Household]**: An ID that defines a group of people. This ID can be mapped to multiple [!DNL Audience Manager] IDs.
 
 ## Data Export Controls {#export-controls}
 
-[Data Export Controls](../../features/data-export-controls.md) are optional classification rules you can apply to a data source and destination. They prevent you from sending data to a destination when that action violates a data privacy or use agreement. Skip this section if you do not use [!UICONTROL Data Export Controls].
+[Data Export Controls](../data-export-controls.md) are optional classification rules you can apply to a data source and destination. They prevent you from sending data to a destination when that action violates a data privacy or use agreement. Skip this section if you do not use [!UICONTROL Data Export Controls].
 
 ## Data Source Settings {#settings}
 
@@ -49,11 +49,11 @@ To complete the [!UICONTROL Data Source Details] section:
 
 * **[!UICONTROL Data retention for inactive Customer IDs]**: This control allows you to set the data retention period for inactive Customer IDs. This determines how long Audience Manager keeps Customer IDs in our database after they were last seen on the Audience Manager platform. The default value is 24 months (720 days). The minimum value you can set is 1 month and the maximum value is 5 years. Note that we count all months as 30-days. Audience Manager runs a process that deletes inactive Customer IDs once a week, in accordance with the data retention you set for inactive Customer IDs.
 
-The text fields associated with these settings let you rename the [!UICONTROL Data Source] with an alias that appears in the [Profile Merge Rule options](../../features/profile-merge-rules/merge-rule-definitions.md). For example, if you add an alias to **[!UICONTROL Use as Authenticated Profile]**, that name appears in the [!UICONTROL Authenticated Profile Options] list. If you add an alias to **[!UICONTROL Use as a Device Graph]**, that name appears in the [!UICONTROL Device Options] list.
+The text fields associated with these settings let you rename the [!UICONTROL Data Source] with an alias that appears in the [Profile Merge Rule options](merge-rule-definitions.md). For example, if you add an alias to **[!UICONTROL Use as Authenticated Profile]**, that name appears in the [!UICONTROL Authenticated Profile Options] list. If you add an alias to **[!UICONTROL Use as a Device Graph]**, that name appears in the [!UICONTROL Device Options] list.
 
 >[!MORE_LIKE_THIS]
 >
->* [Create a Data Source](../../features/manage-datasources.md#create-data-source)
+>* [Create a Data Source](../manage-datasources.md#create-data-source)
 
 ## Create a Profile Merge Rule {#create-profile-merge-rule}
 
@@ -61,11 +61,11 @@ To create a [!UICONTROL Profile Merge Rule], go to **[!UICONTROL Audience Data >
 
 <!-- create-profile-merge-rule.xml -->
 
-**Prerequisites:** A cross-device data source is required to build a [!UICONTROL Profile Merge Rule]. See [Create a Data Source](../../features/manage-datasources.md#create-data-source).
+**Prerequisites:** A cross-device data source is required to build a [!UICONTROL Profile Merge Rule]. See [Create a Data Source](../manage-datasources.md#create-data-source).
 
 >[!TIP]
 >
->See [Profile Merge Rule Options Defined](../../features/profile-merge-rules/merge-rule-definitions.md) for descriptions of these different controls.
+>See [Profile Merge Rule Options Defined](merge-rule-definitions.md) for descriptions of these different controls.
 
 ## Basic Information {#basic-info}
 
@@ -77,7 +77,7 @@ To complete the [!UICONTROL Basic Information] section:
 
 ## Data Export Controls {#data-export-controls}
 
-[Data Export Controls](../../features/data-export-controls.md) are optional classification rules you can apply to your [!UICONTROL Profile Merge Rule]. They prevent you from sending data to a destination when that action violates a data privacy or use agreement. Skip this section if you do not use [!UICONTROL Data Export Controls].
+[Data Export Controls](../data-export-controls.md) are optional classification rules you can apply to your [!UICONTROL Profile Merge Rule]. They prevent you from sending data to a destination when that action violates a data privacy or use agreement. Skip this section if you do not use [!UICONTROL Data Export Controls].
 
 ## Profile Merge Rule Setup {#profile-merge-rule-setup}
 
@@ -87,7 +87,7 @@ To complete the [!UICONTROL Proflie Merge Rule Setup] section:
     * **[!UICONTROL No Authenticated Profile]**
     * **[!UICONTROL Current Authenticated Profile]**
     * **[!UICONTROL Last Authenticated Profile]**
-2. Select an **[!UICONTROL Authenticated Profile Option]** (up to 3, maximum). These are the [cross-device data sources](../../features/profile-merge-rules/merge-rules-start.md) you have created previously.
+2. Select an **[!UICONTROL Authenticated Profile Option]** (up to 3, maximum). These are the [cross-device data sources](merge-rules-start.md) you have created previously.
 3. Select a **[!UICONTROL Device Option]**. Options include:
     * **[!UICONTROL No Device Profile]**
     * **[!UICONTROL Current Device Profile]**
@@ -107,7 +107,7 @@ You must set up a [cross-device data source](#create-data-source) and [profile m
 
 ## For Experience Cloud ID Service Customers {#id-service-customers}
 
-The [!UICONTROL Experience Cloud ID Service] and the latest version of [DIL](../../dil/dil-overview.md) are recommended when working with [!UICONTROL Profile Merge Rules]. However, you don't have to use the [!UICONTROL Experience Cloud ID Service] to work with this feature. If you're just using [!UICONTROL DIL], see the [legacy DIL section](../../features/profile-merge-rules/merge-rules-start.md#legacy-dil) below.
+The [!UICONTROL Experience Cloud ID Service] and the latest version of [DIL](../../dil/dil-overview.md) are recommended when working with [!UICONTROL Profile Merge Rules]. However, you don't have to use the [!UICONTROL Experience Cloud ID Service] to work with this feature. If you're just using [!UICONTROL DIL], see the [legacy DIL section](#legacy-dil) below.
 
 ### Configure the Set Customer ID Function
 
@@ -135,16 +135,16 @@ For more information, see [Create a Cross-Device Data Source](#create-data-sourc
 
 ### Configure `DIL.create` function
 
-The latest versions of [!UICONTROL DIL] now automatically pick up the [!UICONTROL declared ID] from the `visitorService` function in `DIL.create` (see [Declared ID Variables](../../features/declared-ids.md#declared-id-variables)). Check your `DIL.create` function to make sure this is set up properly as shown in the code sample below.
+The latest versions of [!UICONTROL DIL] now automatically pick up the [!UICONTROL declared ID] from the `visitorService` function in `DIL.create` (see [Declared ID Variables](../declared-ids.md#declared-id-variables)). Check your `DIL.create` function to make sure this is set up properly as shown in the code sample below.
 
-<pre class="js"><code>
+```js
 var vDil = DIL.create({
    partner:"partner name",
    visitorService:{
-      namespace:"<i>INSERT-MCORG-ID-HERE</i>"
+      namespace:"INSERT-MCORG-ID-HERE"
    }
 });
-</code></pre>
+```
 
 In the namespace key-value pair, the `*`MCORG`*` variable is your [!DNL Experience Cloud] Organization ID. If you don't have this ID, you can find it in the [!UICONTROL Administration] section of the [!DNL Experience Cloud] dashboard. You need administrator permissions to view this dashboard. See [Administration: Core Services](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html).
 
@@ -156,17 +156,17 @@ See the [Configure SDKs](#configure-sdks-legacy-dil) section below.
 
 If you're not using [!DNL Experience Cloud ID Service] yet, you really ought to. But, we understand that moving to new code requires careful thought and testing. In these cases, check your `DIL.create` function to make sure this is set up properly as shown in the code sample below.
 
-<pre class="js"><code>
+```js
 DIL.create({
-   partner:"partner name",
+   partner: "partner name",
    declaredId:{
-      dpuuid:<i>dpuuid</i>,
-      dpid:<i>dpid</i>
+      dpuuid: YOUR_DPUUID,
+      dpid: YOUR_DPID
    }
 });
-</code></pre>
+```
 
-For more information, see the legacy [!UICONTROL DIL] section in [Declared ID Variables](../../features/declared-ids.md#declared-id-variables).
+For more information, see the legacy [!UICONTROL DIL] section in [Declared ID Variables](../declared-ids.md#declared-id-variables).
 
 ### Configure SDKs {#configure-sdks-legacy-dil}
 
