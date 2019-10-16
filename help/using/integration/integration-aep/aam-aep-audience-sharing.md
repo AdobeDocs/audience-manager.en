@@ -7,11 +7,11 @@ title: Segment Sharing Between Audience Manager and Adobe Experience Platform
 keywords: AEP segment sharing, AEP segments, Platform segments
 ---
 
-# Audience Sharing Between Audience Manager and Adobe Experience Platform {#aam-aep-segment-sharing}
+# Audience Sharing Between Audience Manager and Adobe Experience Platform {#aam-aep-audience-sharing}
 
 >[!NOTE]
 >
->This page contains beta documentation that is available to customers of Audience Manager and Adobe Experience Platform and is subject to change before the final product release.
+>This page contains beta documentation for functionality that is available to customers of Audience Manager and Adobe Experience Platform. This documentation is subject to change before the final product release.
 
 ## Overview {#overview}
 
@@ -29,7 +29,7 @@ Additionally, you can leverage Core Services to use Experience Platform segments
 
 `*` | Adobe Experience Platform | Audience Manager | Core Services
 ---------|----------|---------|---------
- Use Case | <ul><li>Enrich customer profiles with Audience Manager data</li><li>Use Audience Manager data in Experience Platform segmentation</li></ul> | <ul><li>Add third party data to segments</li><li>Algorithmic modeling</li><li>Activation to additional destinations</li></ul> | Use Experience Platform segments in other Experience Cloud solutions, such as Adobe Target or Analytics.
+ Audience Sharing Use Case | <ul><li>Enrich customer profiles with Audience Manager data</li><li>Use Audience Manager data in Experience Platform segmentation</li></ul> | <ul><li>Add third party data to segments</li><li>Algorithmic modeling</li><li>Activation to additional destinations</li></ul> | Use Experience Platform segments in other Experience Cloud solutions, such as Adobe Target or Analytics.
 
 ## Audience Manager segments and traits in Adobe Experience Platform {#aam-segments-traits-in-aep}
 
