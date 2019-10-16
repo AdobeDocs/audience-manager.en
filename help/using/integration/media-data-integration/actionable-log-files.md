@@ -119,7 +119,7 @@ The table lists the actionable signals from [!DNL DCM] log files:
     <tr> 
    <td colname="col1"> <p> <code>-</code> </p> </td> 
    <td colname="col2"> <p> <code> d_event</code> </p> </td> 
-   <td colname="col3"> <p>Indicates the event type from DCM. </p> <p>Accepted values are: </p> <p> 
+   <td colname="col3"> <p>Indicates the event type. Audience Manager reads the event type from the DCM log file name and transforms it into an actionable signal. </p> <p>Accepted values are: </p> <p> 
      <ul id="ul_58EB40E458844DA185ABAF160ADAF03E"> 
       <li id="li_71772CC106F74F4788E1784CC3D70BD3"> <code> d_event = imp</code> for impressions. </li> 
       <li id="li_33A629A32B87400F93269581154D566F"> <code> d_event = click</code> for clicks. </li> 
@@ -217,7 +217,7 @@ First, you must drop your ad server logs in our Amazon S3 buckets. To accomplish
     <tr> 
    <td colname="col1"> <p> <code>-</code> </p> </td> 
    <td colname="col2"> <p> <code> d_event</code> </p> </td> 
-   <td colname="col3"> <p>Indicates the event type. </p> <p>Accepted values are: </p> <p> 
+   <td colname="col3"> <p>Indicates the event type. Audience Manager reads the event type from the log file name and transforms it into an actionable signal. See <a href="../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md#naming-conventions">log files naming conventions</a>. </p> <p>Accepted values are: </p> <p> 
      <ul id="ul_58EB40E458844DA185ABAF160ADAF03E"> 
       <li id="li_71772CC106F74F4788E1784CC3D70BD3"> <code> d_event = imp</code> for impressions. </li> 
       <li id="li_33A629A32B87400F93269581154D566F"> <code> d_event = click</code> for clicks. </li> 
