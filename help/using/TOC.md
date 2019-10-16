@@ -316,7 +316,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
             + [Sample Message to Partners after Inbound Processing](integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)
         + [Custom Partner Integrations](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
     + Integration with Adobe Experience Platform {#integration-experience-platform}
-      + [Segment Sharing](integration/integration-aep/aam-aep-segment-sharing.md)
+      + [Audience Sharing](integration/integration-aep/aam-aep-audience-sharing.md)
     + Integration with Other Experience Cloud Solutions {#integration-other-solutions}
       + [Integrate Audience Manager With Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
       + [Implement the Audience Management Module](integration/integration-other-solutions/audience-management-module.md)
