@@ -24,13 +24,13 @@ A device graph is a set of ID mappings that defines groups of anonymous devices.
 
 **What is an external device graph?**
 
-An external device graph is any device graph in [!DNL Audience Manager] that has not been created exclusively from your own cross-device data sources. For example, when you create a [Profile Merge Rule](merge-rules-start.md) and choose the [!UICONTROL Co-op Device Graph] or third-party device graph options, you're working with an external device graph. See [Device Options](merge-rule-definitions.md#device-options).
+An external device graph is any device graph in [!DNL Audience Manager] that has not been created exclusively from your own cross-device data sources. For example, when you create a [Profile Merge Rule](../features/profile-merge-rules/merge-rules-start.md) and choose the [!UICONTROL Co-op Device Graph] or third-party device graph options, you're working with an external device graph. See [Device Options](../features/profile-merge-rules/merge-rule-definitions.md#device-options).
 
 &nbsp;
 
 **What are some common use cases for using an external device graph in a [!UICONTROL Profile Merge Rule]?**
 
-The main objective of using a device graph in a [!UICONTROL Profile Merge Rule] is to evaluate and qualify multiple devices belonging to a single person or household for a specific segment. The segment itself may have multiple uses for example, targeting an audience of prospects with an ad served by a DSP or personalizing a customer’s on-site experience via an on-site personalization platform. See [External Device Graph Use Cases](external-graph-use-cases.md).
+The main objective of using a device graph in a [!UICONTROL Profile Merge Rule] is to evaluate and qualify multiple devices belonging to a single person or household for a specific segment. The segment itself may have multiple uses for example, targeting an audience of prospects with an ad served by a DSP or personalizing a customer’s on-site experience via an on-site personalization platform. See [External Device Graph Use Cases](../features/profile-merge-rules/external-graph-use-cases.md).
 
 &nbsp;
 
@@ -50,7 +50,7 @@ Once a week.
 
 **How does [!DNL Audience Manager] use a device graph?**
 
-In [!DNL Audience Manager], device graphs appear as configuration options when you [create a Profile Merge Rule](merge-rules-start.md). Through your [!UICONTROL Profile Merge Rules], these device graphs help [!DNL Audience Manager]:
+In [!DNL Audience Manager], device graphs appear as configuration options when you [create a Profile Merge Rule](../features/profile-merge-rules/merge-rules-start.md). Through your [!UICONTROL Profile Merge Rules], these device graphs help [!DNL Audience Manager]:
 
 * Merge multiple device profiles together. This creates a single superset of traits.
 * Evaluate the trait superset for segment qualification (rather than evaluating each device profile individually).
@@ -86,7 +86,7 @@ The devices [!DNL Audience Manager] merges and reads are the same devices that a
 
 **How does [!DNL Audience Manager] un-segment a device when it is no longer qualified for a segment with a [!UICONTROL Profile Merge Rule] that uses a device graph?**
 
-Audience Manager merges up to 100 devices when evaluating segments with a [!UICONTROL Profile Merge Rule] that uses a device graph. If the unsegment signal is issued, the current device and up to 99 additional devices will be removed from the segment in the destination. For more information about un-segmentation, see [Profile Merge Rules and Device Un-Segmentation Processes](merge-rule-unsegment.md).
+Audience Manager merges up to 100 devices when evaluating segments with a [!UICONTROL Profile Merge Rule] that uses a device graph. If the unsegment signal is issued, the current device and up to 99 additional devices will be removed from the segment in the destination. For more information about un-segmentation, see [Profile Merge Rules and Device Un-Segmentation Processes](../features/profile-merge-rules/merge-rule-unsegment.md).
 
 &nbsp;
 
@@ -164,7 +164,7 @@ The trait frequency is defined by the sum of the number of qualifications for a 
 
 **Can I see the number of devices that can be reached by a [!UICONTROL Profile Merge Rule] that uses a device graph?**
 
-Yes. Reports return data at the [!UICONTROL Profile Merge Rule] level. Report data is updated daily. Data is based on the devices seen in your account, not those linked by a device graph. See [Report Metrics for Profile Merge Rules](profile-link-metrics.md).
+Yes. Reports return data at the [!UICONTROL Profile Merge Rule] level. Report data is updated daily. Data is based on the devices seen in your account, not those linked by a device graph. See [Report Metrics for Profile Merge Rules](../features/profile-merge-rules/profile-link-metrics.md).
 
 &nbsp;
 
@@ -254,4 +254,4 @@ No.
 
 >[!MORE_LIKE_THIS]
 >
->* [Profile Link](merge-rules-overview.md)
+>* [Profile Link](../features/profile-merge-rules/profile-link-use-case.md)
