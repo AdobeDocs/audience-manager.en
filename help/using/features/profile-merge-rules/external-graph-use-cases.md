@@ -19,7 +19,7 @@ Consider the [!DNL Experience Cloud Device Co-op] and third-party device graph o
 * Target large audiences. The [!DNL Experience Cloud Device Co-op] and third-party device graphs contain authenticated and un-authenticated data.
 * Segment authenticated and/or unauthenticated visitors at the individual and household level.
 
-![](../assets/merge-rule-triangle1.png)
+![](assets/merge-rule-triangle1.png)
 <!-- 
 ## Prospecting/Branding Use Case {#prospecting-branding-use-cases}
 
@@ -123,4 +123,4 @@ By using the **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Adobe 
 >
 >* [Profile Link Device Graph Use Cases](profile-link-use-case.md)
 >* [General Use Cases for Profile Merge Rules](merge-rule-targeting-options.md)
->* [Profile Merge Rules FAQ](faq-profile-merge.md)
+>* [Profile Merge Rules FAQ](../../faq/faq-profile-merge.md)
