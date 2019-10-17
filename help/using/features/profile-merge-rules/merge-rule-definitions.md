@@ -80,7 +80,7 @@ The [!UICONTROL Cross-Device Profile Options] lists your cross-device data sourc
 
 ## Device Options {#device-options}
 
-The [!UICONTROL Device Options] let you select the type of *`device profile`* used by a [!UICONTROL Profile Merge Rule]. A device profile is composed of traits collected by users as they anonymously browse the web. At a minimum, a profile merge rule includes an authenticated option and a device option.
+The [!UICONTROL Device Options] let you select the type of *`device profile`* used by a [!UICONTROL Profile Merge Rule]. A device profile is built from traits collected from anonymous browsing activity. At a minimum, a profile merge rule includes an authenticated option and a device option.
 
 <table id="table_D373FB787D1A4E3485C02C4A76F03395"> 
  <thead> 

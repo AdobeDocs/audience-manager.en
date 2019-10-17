@@ -57,7 +57,11 @@ The text fields associated with these settings let you rename the [!UICONTROL Da
 
 ## Create a Profile Merge Rule {#create-profile-merge-rule}
 
-To create a [!UICONTROL Profile Merge Rule], go to **[!UICONTROL Audience Data > Profile Merge Rules > Add New Rule]** and complete the steps for each section described here. You can create up to 3 merge rules after setting up a cross-device data source. Administrator permissions are required to create, edit, or delete a rule. All users can view and use existing [!UICONTROL Profile Merge Rules].
+To create a [!UICONTROL Profile Merge Rule], go to **[!UICONTROL Audience Data > Profile Merge Rules > Add New Rule]** and complete the steps for each section described here.
+
+You can create up to 3 merge rules after setting up a cross-device data source. You get access to a 4th Profile Merge Rule ([!UICONTROL All Cross-Device Profiles]) if you sign up for [People-Based Destinations](../destinations/people-based-destinations-overview.md).
+
+Administrator permissions are required to create, edit, or delete a rule. All users can view and use existing [!UICONTROL Profile Merge Rules].
 
 <!-- create-profile-merge-rule.xml -->
 
