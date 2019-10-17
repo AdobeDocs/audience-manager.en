@@ -13,7 +13,7 @@ uuid: 292185ec-7c6a-414b-ab17-800c21cb1f01
 Refer to this document for the complete list of Adobe Audience Manager IDs.
 
 | ID | Name and Description | Example |
-|--|--|--|--|
+|--|--|--|
 | [!DNL AAM UUID] | Audience Manager Unique User ID. A numerical, 38-digit device ID that Audience Manager associates to each device it interacts with. Think of this ID whenever you see a mention of unique users in the Audience Manager UI. Audience Manager saves this ID as a cookie in the `demdex.net` 3rd party domain. The Audience Manager UUID is sent in event calls as the `d_uuid` signal. | `demdex = 07955261652886032950143702505894272138` |
 | [!DNL ImsOrgId]|Organization ID. This is the ID that a company is provided with upon signing up for the Experience Cloud. To learn how you can find your company's Organization ID, read [Find your Organization ID](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html#concept_EA8AEE5B02CF46ACBDAD6A8508646255). |`5DC5123F5245B1D20A490D46@AdobeOrg`|
 |PID|Partner ID. The PID is a company's ID in Audience Manager. Audience Manager associates an [!DNL imsOrgId] to a [!DNL PID]. |`1352`|
