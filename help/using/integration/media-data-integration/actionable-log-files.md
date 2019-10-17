@@ -242,11 +242,13 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 
 ## Working with Actionable Signals in the Audience Manager UI {#actionable-signals-in-ui}
 
-You can view your incoming actionable signals in the [Signals Search](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md) interface, by using the **Actionable Log Files** selection.
+You can view your incoming actionable signals in the [Signals Search](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md) interface. 
+
+Go to **Audience Data** (1) > **Signals** (2) > **Search** (3) and select the **Actionable Log Files** (4) filter.
 
 ![Actionable Signals in UI](/help/using/integration/assets/alf-in-signals.png)
 
-To create rule-based traits using your actionable signals, select **Actionable Log Files**, select the actionable signals that you want to use as trait rules, and press **Create Trait from Selected Signals**.
+To create rule-based traits using your actionable signals, select **Actionable Log Files** (1), select the actionable signals that you want to use as trait rules (2), and press **Create Trait from Selected Signals** (3).
 
 ![Create traits from signals](/help/using/integration/assets/alf-create-trait.png)
 
