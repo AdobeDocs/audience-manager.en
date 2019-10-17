@@ -490,6 +490,8 @@ When submitting GDPR requests to Adobe Audience Manager, you must include one of
 * IDFA: 20915
 * GAID: 20914
 
+See [Global Data Sources](../../features/global-data-sources.md) for more details.
+
 **Example in JSON**: 
 
 ```
