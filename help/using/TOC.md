@@ -174,9 +174,9 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
             + [Ad Unit Overlap](reporting/audience-optimization-reports/aor-publishers/publisher-ad-unit-overlap.md)
             + [Segment to Ad Unit Overlap](reporting/audience-optimization-reports/aor-publishers/publisher-segment-ad-unit-overlap.md)
             + [Unique User Reach](reporting/audience-optimization-reports/aor-publishers/publisher-unique-reach.md)
-        + Data and Metadata Files for Audience Optimization Reports {#data-and-metadata-files}
-            + [Data and Metadata Files for Audience Optimization Reports](reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
-            + [Data Files for Audience Optimization Reports](reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
+        + Data and Metadata Files for Audience Optimization Reports and Actionable Log Files {#data-and-metadata-files}
+            + [ Log Data and Metadata Files](reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
+            + [Data Files for Audience Optimization Reports and Actionable Log Files](reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
             + [Overview and Mappings for Metadata Files](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)
             + [Naming Conventions for Metadata Files](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)
             + [Content Format for Metadata Files](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md)
@@ -318,6 +318,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
       + [Integrate Audience Manager With Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
       + [Implement the Audience Management Module](integration/integration-other-solutions/audience-management-module.md)
       + [Server-Side Forwarding (Admin Guide)](https://docs.adobe.com/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html)
+      + [Publish an Adobe Analytics Segment to the Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html)
 + Reference{#reference}
     + [Reference Overview](reference/reference.md)
     + [Amazon S3: About](reference/amazon-s3.md)
