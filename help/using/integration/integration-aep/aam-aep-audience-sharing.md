@@ -26,7 +26,7 @@ In Audience Manager, you can use Experience Platform segments for Data Managemen
 * [Algorithmic modeling](/help/using/features/algorithmic-models/understanding-models.md);
 * Activating your segments to destinations not supported in the Experience Platform.
 
-Additionally, you can leverage Core Services to use Experience Platform segments in other Experience Cloud solutions, such as Adobe Target or Analytics. 
+Additionally, you can leverage Core Services to use Experience Platform segments in other Experience Cloud solutions, such as Adobe Target and Adobe Advertising Cloud.
 
 <br>&nbsp;
 
