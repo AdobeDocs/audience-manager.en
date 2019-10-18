@@ -17,16 +17,16 @@ keywords: AEP audience sharing, AEP segments, Platform segments
 
 ## Overview {#overview}
 
-The audience sharing functionality between Audience Manager and Adobe Experience Platform allows you to use your Audience Manager traits and segments in Adobe Experience Platform and vice-versa.
+The audience sharing functionality between Audience Manager and Adobe Experience Platform allows you to share your Audience Manager traits and segments to Adobe Experience Platform and vice-versa.
 
 You can use Audience Manager traits and segments in Experience Platform to add Audience Manager data to your customer profiles and to benefit from the Experience Platform [segmentation service](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!end-user/markdown/segmentation_overview/segmentation.md). 
 
 In Audience Manager, you can use Experience Platform segments for Data Management Platform use cases, such as:
 * Adding [third party data](/help/using/overview/data-types-collected.md#third-party-data) to your segments;
 * [Algorithmic modeling](/help/using/features/algorithmic-models/understanding-models.md);
-* Activating your segments to destinations not supported in the Experience Platform.
+* Activating your segments to destinations not currently supported in the Experience Platform.
 
-Additionally, you can leverage Core Services to use Experience Platform segments in other Experience Cloud solutions, such as Adobe Target and Adobe Advertising Cloud.
+Additionally, your Experience Platform segments are shared to other Experience Cloud solutions, via [Core Services](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html).
 
 <br>&nbsp;
 
@@ -40,11 +40,10 @@ See the table below for an overview of audience sharing use cases:
 
 ## Audience Manager segments and traits in Adobe Experience Platform {#aam-segments-traits-in-aep}
 
-Your Audience Manager traits and segments appear in Experience Platform as **Audiences** in the segment creation workflow. For more information on your Audience Manager segments and traits in Experience Platform, see:
+Your Audience Manager traits and segments appear in Experience Platform as **Audiences** in the segment workflow. For more information on your Audience Manager segments and traits in Experience Platform, see:
 
-* [Audience Manager Connector documentation](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/audience_manager_connector.md);
-* [Segmentation Service overview](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!end-user/markdown/segmentation_overview/segmentation.md);
-* [Experience Platform Segment Builder user guide](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!end-user/markdown/segmentation_overview/segment-builder-guide.md).
+* [Segmentation Service overview](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!end-user/markdown/segmentation_overview/segmentation.md)
+* [Experience Platform Segment Builder user guide](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!end-user/markdown/segmentation_overview/segment-builder-guide.md)
 
 <br>&nbsp;
 
