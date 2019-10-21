@@ -83,6 +83,8 @@ When building or editing a segment in [Segment Builder](segment-builder.md), you
 > [!IMPORTANT]
 > When adding third-party recommended traits to a segment, the traits are only used for segment estimation, until you subscribe to the corresponding data feed. Traits that come from data feeds that you are not subscribed to are marked with a shopping cart icon in the trait list. Click the trait name to go to the data feed page and subscribe to it.
 > ![marketplace-not-subscribed](assets/trait-recommendations-marketplace.png)
+> You can save a segment with marketplace traits only after you susbcribe to the corresponding data feeds.
+
 
 ### Existing Segments
 
@@ -98,6 +100,8 @@ When building or editing a segment in [Segment Builder](segment-builder.md), you
 > [!IMPORTANT]
 > When adding third-party recommended traits to a segment, the traits are only used for segment estimation, until you subscribe to the corresponding data feed. Traits that come from data feeds that you are not subscribed to are marked with a shopping cart icon in the trait list. Click the trait name to go to the data feed page and subscribe to it.
 > ![marketplace-not-subscribed](assets/trait-recommendations-marketplace.png)
+> You can save a segment with marketplace traits only after you susbcribe to the corresponding data feeds.
+
 
 When you create or edit a segment and add a trait to the segment rule, you see a maximum of fifty recommended traits,similar to the one you have added. If the segment rule contains more than one trait, Audience Manager uses a round robin method to show the best match for each trait, then the second-best match for each trait, and so on, for the largest fifty traits by population, in the segment rule.
 
