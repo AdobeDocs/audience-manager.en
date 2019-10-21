@@ -20,9 +20,15 @@ Start by watching the Trait Recommendations video, then read on for more informa
 ## Overview
 
 [!UICONTROL Trait Recommendations], powered by [!DNL Adobe Sensei], brings data science into your Audience Manager day-to-day workflows.
-With [!UICONTROL Trait Recommendations], when you build or edit a segment in [Segment Builder](segment-builder.md), you get recommendations on additional traits you can include, that are similar to the traits in the segment rule. Add the recommended traits to your segment to increase your target audience.
+With [!UICONTROL Trait Recommendations], when you build or edit a segment in [Segment Builder](segment-builder.md), you get recommendations on additional traits you can include, that are similar to the traits in the segment rule.
 
-![Trait Recommendations Overview](assets/trait-recommendations-overview.png)
+Audience Manager shows you trait recommendations both from your first-party traits, in the **[!UICONTROL Recommendations]** section, and third-party traits, in the **[!UICONTROL Recommendations from Marketplace]** section.
+
+
+
+Add the recommended traits to your segment to increase your target audience.
+
+![Trait Recommendations Overview](assets/trait-recommendations-overview-full.png)
 
 **In a nutshell:**
 
@@ -67,23 +73,31 @@ When building or editing a segment in [Segment Builder](segment-builder.md), you
 
 1. In **Audience Data > Segments**, select **Add New**.
 2. In the **Traits** drop-down box, add at least one trait to the segment rule.
-3. You can now see recommended traits that are similar to the traits you added to the segment rule. Scroll down to see all recommended traits.
-4. (Optional) To exclude recommended traits from certain data sources, click the **X** symbol for the data sources you want to exclude.
+3. You can see first-party recommended traits in the **[!UICONTROL Recommendations]** section, and third-party recommended traits in the **[!UICONTROL Recommendations from Marketplace]** section. All of these recommendations are similar to the traits you added to the segment rule. Scroll down to see all recommended traits.
+4. (Optional) To exclude recommended first-party traits from certain data sources, click the **X** symbol for the data sources you want to exclude.
     > [!NOTE]
     > 
     >The excluded data sources are shown just above the list of recommended traits. Press **X** in the grey box to remove the exclusions and see results from the respective data sources again.
 5. To add recommended traits to the segment rule, click the **+** symbol.
 
+> [!IMPORTANT]
+> When adding third-party recommended traits to a segment, the traits are only used for segment estimation, until you subscribe to the corresponding data feed. Traits that come from data feeds that you are not subscribed to are marked with a shopping cart icon in the trait list. Click the trait name to go to the data feed page and subscribe to it.
+> ![marketplace-not-subscribed](assets/trait-recommendations-marketplace.png)
+
 ### Existing Segments
 
 1. Go to **[!UICONTROL Audience Data] > [!UICONTROL Segments]**, select the segment you want to edit and press ![Edit](assets/edit-button.png).
-1. Scroll down to the [!UICONTROL Traits] drop-down box.
-1. You can see recommended traits, that are similar to the traits already in the segment rule. Scroll down to see all recommended traits.
-1. (Optional) To exclude recommended traits from certain data sources, click the **X** symbol for the data sources you want to exclude.
+2. Scroll down to the [!UICONTROL Traits] drop-down box.
+3. You can see first-party recommended traits in the **[!UICONTROL Recommendations]** section, and third-party recommended traits in the **[!UICONTROL Recommendations from Marketplace]** section.
+4. (Optional) To exclude first-party recommended traits from certain data sources, click the **X** symbol for the data sources you want to exclude.
     > [!NOTE]
     > 
     >The excluded data sources are shown just above the list of recommended traits. Press **X** in the grey box to remove the exclusions and see results from the respective data sources again.
-1. To add recommended traits to the segment rule, click the **+** symbol.
+5. To add recommended traits to the segment rule, click the **+** symbol.
+
+> [!IMPORTANT]
+> When adding third-party recommended traits to a segment, the traits are only used for segment estimation, until you subscribe to the corresponding data feed. Traits that come from data feeds that you are not subscribed to are marked with a shopping cart icon in the trait list. Click the trait name to go to the data feed page and subscribe to it.
+> ![marketplace-not-subscribed](assets/trait-recommendations-marketplace.png)
 
 When you create or edit a segment and add a trait to the segment rule, you see a maximum of fifty recommended traits,similar to the one you have added. If the segment rule contains more than one trait, Audience Manager uses a round robin method to show the best match for each trait, then the second-best match for each trait, and so on, for the largest fifty traits by population, in the segment rule.
 
@@ -101,9 +115,11 @@ To get recommendations for a specific trait, you can click on the traits in the 
 
 ![](assets/three-base-traits-numbered.png)
 
-Clicking on a trait opens a pop-up window, as shown in the image below. If the recommended traits are not part of the segment, you can add them to the segment by pressing **+**.
+Clicking on a first-party trait opens a pop-up window, as shown in the image below. If the recommended traits are not part of the segment, you can add them to the segment by pressing **+**.
 
 ![](assets/add_to_segments.png)
+
+
 
 > [!TIP]
 >
