@@ -57,11 +57,15 @@ The link between the device and the household profile allows Audience Manager to
 
 ![household-management](assets/household-management.png)
 
-## People-Based Targeting {#all-cross-device}
+## Targeting for People-Based Destinations {#all-cross-device}
+
+> [!IMPORTANT]
+>
+> This article contains product documentation meant to guide you through the setup and usage of this feature. Nothing contained herein is legal advice. Please consult your own legal counsel for legal guidance.
 
 This targeting scenario is only available to customers who have purchased the [!DNL People-Based Destinations] add-on. This rule allows marketers to reach customers based on their own, authenticated data.
 
-Let's say an online retailer wants to reach existing customers through social platforms and show them personalized offers based on their previous orders. With [!UICONTROL People-Based Destinations], they can ingest hashed email addresses from their own [!DNL CRM] to Audience Manager, build segments from the offline data, and send these segments to the social platforms they want to advertise on, optimizing their advertising spending.
+Let's say an online retailer wants to reach existing customers through social platforms and show them personalized offers based on their previous orders. With [!UICONTROL People-Based Destinations], they can ingest hashed email addresses from their own [!DNL CRM] into Audience Manager, build segments from the offline data, and send these segments to the social platforms they want to advertise on, using that hashed identifier, optimizing their advertising spending.
 
 To learn more about this option, see [People-Based Destinations](../destinations/people-based-destinations-overview.md).
 
