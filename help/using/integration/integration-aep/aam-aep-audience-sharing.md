@@ -63,7 +63,7 @@ You can use automatically created traits in segments alongside other traits. For
 
 For an example of a trait created automatically from an Experience Platform segment, see the screenshot below:
 
-![Trait from Experience Platform](/help/using/integration/integration-aep/assets/aep-trait-numbered.png)
+![Trait from Experience Platform](/help/using/integration/integration-aep/assets/aep-trait.png)
 
 
 Item number | Name | Description
@@ -84,7 +84,7 @@ Audience Manager automatically creates a segment folder called **Experience Plat
 
 For an example of a segment created automatically from an Experience Platform segment, see the screenshot below:
 
-![Screenshot of segment](/help/using/integration/integration-aep/assets/aep-segment-numbered.png)
+![Screenshot of segment](/help/using/integration/integration-aep/assets/aep-segment.png)
 
 Item number | Name | Description
 ---------|----------|---------
