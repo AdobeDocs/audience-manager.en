@@ -5,6 +5,7 @@ seo-title: Segment Summary View
 solution: Audience Manager
 title: Segment Summary View
 uuid: e844e423-9701-42d4-9ba5-d82f41358adc
+keywords: identity type breakdown, identity breakdown, audience identity reporting
 ---
 
 # Segment Summary View {#segment-summary-view}
