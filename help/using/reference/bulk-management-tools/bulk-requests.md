@@ -28,10 +28,11 @@ To make bulk requests, open the [!UICONTROL Bulk Management Tools] worksheet and
 1. Click the **[!UICONTROL Request]** tab.
 2. In the tool bar at the top of the worksheet, click a request button corresponding to the data you want to work with. You can request:
 
-    * Data provider IDs 
+    * Algorithmic models
+    * Data sources
     * Derived signals 
     * Destination mappings 
-    * Rule-based and on-boarded traits 
+    * Algorithmic, rule-based, and on-boarded traits 
     * Segments 
     * Trait and segment folder IDs
 

@@ -22,7 +22,7 @@ Use [!DNL People-Based Destinations] to send first-party audience segments to pe
 * Eliminate costs associated with third-party data onboarding solutions;
 * Eliminate costs associated with developing custom data onboarding workflows;
 * Target audiences in cookie-less environments;
-* Target audiences by deduplicating email addresses matched to customer IDs.
+* Target audiences by deduplicating hashed email addresses matched to customer IDs.
 
 You can use [!DNL People-Based Destinations] to segment and target high value customers who may not visited your website, or stop targeting those who have already converted offline. Additionally, you can leverage [!DNL Profile Merge Rules] to combine your offline first-party data with your online first-party data, including customer data from other Adobe Experience Cloud solutions, to optimize your social media advertising efforts.
 

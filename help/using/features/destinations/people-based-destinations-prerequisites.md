@@ -79,6 +79,8 @@ In case your customers wish to opt-out of advertising campaigns, see [Opt-out Ma
 
 When using [!DNL People-Based Destinations], you can only use first-party data to activate audience segments in people-based channels. You cannot use any second- or third-party data for audience activation in people-based channels.
 
+When using [!UICONTROL People-Based Destinations], use [Data Export Controls](../data-export-controls.md) to label your data sources and destinations according to the guidelines and requirements from destination platforms and data providers.
+
 ## Onboard Authenticated Hashed IDs through Declared ID Targeting {#onboard-authenticated-declared-id}
 
 There are two ways you can bring your offline data to Audience Manager for [!DNL People-Based Destinations].
