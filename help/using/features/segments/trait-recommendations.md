@@ -30,7 +30,7 @@ Add the recommended traits to your segment to increase your target audience.
 
 **In a nutshell:**
 
-* Audience Manager shows first party traits and third party traits from your currently subscribed data feeds as recommended traits.
+* Audience Manager shows first party traits and third party traits from your currently subscribed data feeds as recommended traits, in the [!UICONTROL Recommendations] section. Marketplace recommendations from feeds that you are not subscribed to are visible in the [!UICONTROL Recommendations from Marketplace] section.
 * Audience Manager shows a maximum of fifty traits similar to the one in the segment rule.
 * You can filter out the data sources from which you don't want to see any recommendations.
 * When calculating similarities, Audience Manager considers [UUIDs](../../reference/ids-in-aam.md) that qualified for the trait during the last 30 days.
