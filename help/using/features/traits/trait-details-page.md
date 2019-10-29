@@ -5,6 +5,7 @@ seo-title: Trait Details Page
 solution: Audience Manager
 title: Trait Details Page
 uuid: 23301376-c1cc-4778-b8c4-9831f6739db9
+keywords: identity type breakdown, identity breakdown, audience identity reporting
 ---
 
 # Trait Details Page {#trait-details-page}

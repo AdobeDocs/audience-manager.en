@@ -1,9 +1,9 @@
 ---
-description: A data file contains impression, click, or conversion data. When formatted properly, you can import this data into Audience Manager and view it in the Audience Optimization reports. Format your data files according to these specifications in this section.
-seo-description: A data file contains impression, click, or conversion data. When formatted properly, you can import this data into Audience Manager and view it in the Audience Optimization reports. Format your data files according to these specifications in this section.
-seo-title: Data Files for Audience Optimization Reports
+description: A data file contains impression, click, or conversion data. When formatted properly, you can import this data into Audience Manager and use it in the Audience Optimization reports and for Actionable Log Files. Format your data files according to the specifications in this section.
+seo-description: A data file contains impression, click, or conversion data. When formatted properly, you can import this data into Audience Manager and use it in the Audience Optimization reports and for Actionable Log Files. Format your data files according to the specifications in this section.
+seo-title: Data Files for Audience Optimization Reports and Actionable Log Files
 solution: Audience Manager
-title: Data Files for Audience Optimization Reports
+title: Data Files for Audience Optimization Reports and Actionable Log Files
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 ---
 

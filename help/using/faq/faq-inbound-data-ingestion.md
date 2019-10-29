@@ -238,7 +238,7 @@ Yes. [!DNL Audience Manager] does not store email addresses in our database. Vis
 
 **Are the data file contents case-sensitive? How about the ID sync?**
 
-There are two basic components of a data file: A Unique User ID (UUID) and profile data, usually in the form of key-value pairs or codes. The UUID is case-sensitive. Generally, profile or key-value data is not case-sensitive.
+There are two basic components of a data file: A User ID (see User ID in [File Variables Defined](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#file-variables-defined)) and profile data, usually in the form of key-value pairs or codes. The User ID is case-sensitive. Generally, profile or key-value data is not case-sensitive.
 
 <br>&nbsp;
 

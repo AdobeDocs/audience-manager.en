@@ -1,6 +1,6 @@
 ---
-description: Profile Merge Rules options let you expand or tighten audience focus on specific audiences based on business needs or goals. These general use cases explore how to use available options and create merge rules for individual, household, and cross-device targeting. Currently, Profile Merge Rules work with real-time destinations only.
-seo-description: Profile Merge Rules options let you expand or tighten audience focus on specific audiences based on business needs or goals. These general use cases explore how to use available options and create merge rules for individual, household, and cross-device targeting. Currently, Profile Merge Rules work with real-time destinations only.
+description: Profile Merge Rules options let you expand or tighten audience focus on specific audiences based on business needs or goals. These general use cases explore how to use available options and create merge rules for individual, household, and cross-device targeting.
+seo-description: Profile Merge Rules options let you expand or tighten audience focus on specific audiences based on business needs or goals. These general use cases explore how to use available options and create merge rules for individual, household, and cross-device targeting.
 seo-title: General Use Cases for Profile Merge Rules
 solution: Audience Manager
 title: General Use Cases for Profile Merge Rules
@@ -9,63 +9,71 @@ uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
 
 # General Use Cases for Profile Merge Rules {#general-use-cases-for-profile-merge-rules}
 
-[!UICONTROL Profile Merge Rules] options let you expand or tighten audience focus on specific audiences based on business needs or goals. These general use cases explore how to use available options and create merge rules for individual, household, and cross-device targeting. Currently, [!UICONTROL Profile Merge Rules] work with real-time destinations only.
-
- ![](assets/merge-rules-options.png)
+[!UICONTROL Profile Merge Rules] options let you expand or tighten audience focus on specific audiences based on business needs or goals. These general use cases explore how to use available options and create merge rules for individual, household, and cross-device targeting. [!UICONTROL Profile Merge Rules] work with real-time and batch destinations.
 
 >[!TIP]
 >
->For definitions and descriptions of these [!UICONTROL Merge Rule] settings, see [Profile Merge Rule Options Defined](../../features/profile-merge-rules/merge-rule-definitions.md).
+>For definitions and descriptions of these [!UICONTROL Merge Rule] settings, see [Profile Merge Rule Options Defined](merge-rule-definitions.md).
 
-## Focused targeting {#focused-targeting}
+## Device Targeting {#device-personalization}
 
-User authentication to a website should trigger a declared ID call to [!DNL Audience Manager]. After this event, [!DNL Audience Manager] writes trait data to (and reads from) an authenticated profile. The authenticated profile lets [!DNL Audience Manager]:
+This scenario applies to marketers who want to evaluate a single device profile for an audience segment defined in Audience Manager, in order to deliver a consistent experience to the device using targeting platforms that support device IDs (DSPs, on-site personalization platforms and other device-based targeting platforms), not taking into account user authentication.
 
-* Write traits to the authenticated profile specific to a particular user.
-* Identify and differentiate between multiple device users for segmentation.
+To create a rule that targets only device profiles, select **[!UICONTROL No Cross-Device Profile]** + **[!UICONTROL Device Profile]**.
 
-### Reach authenticated users
+![device-only](assets/device-only.png)
 
-The authenticated profile options create rules which let you target users who are logged on to a website or app based on offline attributes. For example, a financial services company would use this option to target authenticated users with targeted credit card upgrade offers or specialized service offers based on income or offline activity. Another example would be an airline targeting authenticated frequent fliers with deals based on accrued mileage.
+Let's say John owns three smartphones. Two of them are iPhone 7s on Data Plan A, and one of them is a Samsung on Data Plan B. Not taking into account his authenticated state on any of the three devices, John's mobile carrier wants to offer him a data plan upgrade, but only for iPhone 7 devices that run on Data Plan A.
 
-To create a rule that reaches only authenticated users, select **[!UICONTROL Current Authenticated Profile]** + **[!UICONTROL No Device Profile]**. This option will evaluate a segment using only authenticated profile data. This rule will ignore data in the anonymous device profile.
+By using the **[!UICONTROL No Cross-Device Profile]** + **[!UICONTROL Device Profile]** rule, [!DNL Device 1] and [!DNL Device 3] both qualify for the segment, while Device 2 is ignored.
 
-To also include data in the anonymous device profile, use the **[!UICONTROL Current Authenticated Profile]** + **[!UICONTROL Current Device Profile]** rule.
+![device-only](assets/device-management.png)
 
-### Reach users based on previous authentication state
+## Shared Device Targeting {#target-shared-devices}
 
-These options reach specific users when they're browsing but not logged on. You can do this with options that rely on inferred user-level targeting. Inferred targeting helps you reach people who are not explicitly authenticated to your site but may be browsing online. It works by reading (but not writing) data from the last authenticated profile. And, to help keep the authenticated profile clean, [!DNL Audience Manager] writes new trait qualifications to the device profile instead of the authenticated profile. For example, say you're a marketer that wants to test different offers with existing customers who are not logged on to your site or app. As a marketer, you can test these ads with current, un-authenticated customers to see which offers get the most response.
+Let's say John and his wife, Jane, use the same laptop to visit an online store and order various items.
 
-An example of a rule that reaches users based on preivous authentication is:
+John uses his own account to book travel tickets and special deals, while Jane uses her own account to shop for music and movies.
 
-* **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Current Device Profile]**
+The store's marketing team can use the **[!UICONTROL Current Authenticated Profiles]** + **[!UICONTROL No Device Profile]** rule to target John and Jane with specific deals, based on purely on their authenticated activity.
 
-## Expanded targeting {#expanded-targeting}
+![current-no-device](assets/current-no-device.png)
 
-Along with rules that help reach specific customers, marketers also need rules that increase the size of data sets available for targeting. [!UICONTROL Profile Merge Rules] let you do this with the device profile option. The device options expand the data set eligible for segmentation because they draw on traits realized while a user was in an anonymous state on one or many devices. This could be useful when you're trying to reach a user across all of their devices using a person device graph or all devices in a household using a household device graph. A use case for this option could include advertising a family vacation offer. In this case, you'll want to reach every device in a household with the offer if a user on any device has shown interest in the offer.
+By using this rule, Audience Manager completely ignores the device profile, qualifying John's CRM ID for the segment, and not qualifying Jane's CRM ID.
 
-To create a rule that expands the targeting data set, select the **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Device Graph]** rule.
+![shared-device-targeting](assets/shared-device-targeting.png)
 
-<!-- 
+## Online/Offline Targeting {#device-household-targeting}
 
-<p>Rules that use the device graph option extend your data set even further. With the device graph option, <span class="keyword"> Audience Manager</span> relies on the device profiles aggregated from the last 3 devices that a visitor used for authentication to your site. The device graph rules include: </p> 
-<p> 
- <ul id="ul_3008B6AF16EC408F98EC4088111281FB"> 
-  <li id="li_FA2087F1ED454CD0B9E09656B79ED23B"> <b><span class="uicontrol"> Current Authenticated Profiles</span></b> + <b><span class="uicontrol"> Profile Merge Device Graph</span></b> or a Co-op device graph option </li> 
-  <li id="li_001A8DB517CB4EE394DBD530F2080FD5"> <b><span class="uicontrol"> Last Authenticated Profiles</span></b> + <b><span class="uicontrol"> Profile Merge Device Graph</span></b> or a Co-op device graph option </li> 
- </ul> </p> 
-<p> 
- <note type="tip">
-  Create a simple rule with 
-  <b><span class="uicontrol"> No Authenticated Profile</span></b> + 
-  <b><span class="uicontrol"> Current Device Profile</span></b> when you're still developing a strategy and are unsure about which options to choose or if your site doesn't use authentication. 
- </note> </p>
+This use-case covers household identity management. A company can merge a single device profile with the last profile that authenticated on that device, using the **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Device Profile]** rule.
 
- -->
+![last-device-profile](assets/last-device-profile.png)
+
+Let's consider a segment made of households with incomes greater than $100.000/year, containing at least one device which is an [!DNL iPhone 7] on [!DNL Data Plan B]. We have two household profiles (cross-device profiles), each connected to two different device profiles. The traits required to qualify for the segment are distributed across the device and cross-device profiles.
+
+Audience Manager merges every device + cross-device profile pair to see if the merged set of traits qualifies for the segment. Since Audience Manager evaluates every profile which was included in the merge, both a device profile and a household profile can be segmented.
+
+The link between the device and the household profile allows Audience Manager to qualify [!DNL Household 2] for the segment, but not [!DNL Household 1]. From [!DNL Household 2], only [!DNL Device 3] qualifies for the segment. This [!UICONTROL Profile Merge Rule] has enabled the marketer to deliver a consistent marketing message to an individual device ([!DNL Device 3]) and the wider household ([!DNL Household 2]).
+
+![household-management](assets/household-management.png)
+
+## Targeting for People-Based Destinations {#all-cross-device}
+
+> [!IMPORTANT]
+>
+> This article contains product documentation meant to guide you through the setup and usage of this feature. Nothing contained herein is legal advice. Please consult your own legal counsel for legal guidance.
+
+This targeting scenario is only available to customers who have purchased the [!DNL People-Based Destinations] add-on. This rule allows marketers to reach customers based on their own, authenticated data.
+
+Let's say an online retailer wants to reach existing customers through social platforms and show them personalized offers based on their previous orders. With [!UICONTROL People-Based Destinations], they can ingest hashed email addresses from their own [!DNL CRM] into Audience Manager, build segments from the offline data, and send these segments to the social platforms they want to advertise on, using that hashed identifier, optimizing their advertising spending.
+
+To learn more about this option, see [People-Based Destinations](../destinations/people-based-destinations-overview.md).
+
+![all-cross-device](assets/all-cross-device.png)
 
 ## Device Graph Options {#device-graph-options}
 
-Choosing a [!UICONTROL device graph] option for a [!UICONTROL Profile Merge] rule depends on conditions unique to your digital properties and business goals. These general guidelines can help you understand when to use one type of graph vs another. Note, you must be a member of the [!DNL Adobe Experience Cloud Device Co-op] or have a contractual relationship with an external device graph to use these options. Refer to the table below for general guidance on when to choose a device graph option. For specific use cases, see [Profile Link Device Graph Use Cases](../../features/profile-merge-rules/profile-link-use-case.md) and [External Device Graph Use Cases](../../features/profile-merge-rules/external-graph-use-cases.md).
+Choosing a [!UICONTROL device graph] option for a [!UICONTROL Profile Merge] rule depends on conditions unique to your digital properties and business goals. These general guidelines can help you understand when to use one type of graph vs another. Note, you must be a member of the [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html) or have a contractual relationship with an external device graph to use these options. Refer to the table below for general guidance on when to choose a device graph option. For specific use cases, see [Profile Link Device Graph Use Cases](profile-link-use-case.md) and [External Device Graph Use Cases](external-graph-use-cases.md).
 
 <table id="table_66D9152D4FF040A186003272D456625D"> 
  <thead> 
@@ -76,7 +84,7 @@ Choosing a [!UICONTROL device graph] option for a [!UICONTROL Profile Merge] rul
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Profile Link</span> </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> Profile Link Device Graph</span> </p> </td> 
    <td colname="col2"> <p><span class="wintitle"> Profile Merge</span> rules built with the <span class="wintitle"> Profile Link</span> option are ideal for: </p> <p> 
      <ul id="ul_FF44FA894BB2448887C8EDA9C8407EF9"> 
       <li id="li_E22505210C664FE6A9AA7C61244B36DA">Digital properties that have a high-level of customer authentication. </li> 
@@ -96,8 +104,12 @@ Choosing a [!UICONTROL device graph] option for a [!UICONTROL Profile Merge] rul
  </tbody> 
 </table>
 
+Watch the video below for an overview of possible use cases for [!UICONTROL Profile Merge Rules].
+
+>[!VIDEO](https://video.tv.adobe.com/v/28975/)
+
 >[!MORE_LIKE_THIS]
 >
->* [Profile Link Device Graph Use Cases](../../features/profile-merge-rules/profile-link-use-case.md)
->* [External Device Graph Use Cases](../../features/profile-merge-rules/external-graph-use-cases.md)
+>* [Profile Link Device Graph Use Cases](profile-link-use-case.md)
+>* [External Device Graph Use Cases](external-graph-use-cases.md)
 >* [Profile Merge Rules FAQ](../../faq/faq-profile-merge.md)
