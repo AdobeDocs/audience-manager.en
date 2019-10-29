@@ -13,9 +13,13 @@ Get live trait recommendations as you build your segments.
 
 ## Video Demonstration
 
-Start by watching the Trait Recommendations video, then read on for more information.
+Start by watching the [!UICONTROL Trait Recommendations] video below, then read on for more information.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26228/)
+
+The next video outlines the workflow for [!UICONTROL Marketplace Recommendations], showing you how to add trait recommendations to your segments, from data feeds in [!UICONTROL Audience Marketplace].
+
+>[!VIDEO](https://video.tv.adobe.com/v/29363/)
 
 ## Overview
 
