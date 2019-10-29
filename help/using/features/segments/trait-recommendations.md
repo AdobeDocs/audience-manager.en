@@ -22,7 +22,7 @@ Start by watching the Trait Recommendations video, then read on for more informa
 [!UICONTROL Trait Recommendations], powered by [!DNL Adobe Sensei], brings data science into your Audience Manager day-to-day workflows.
 With [!UICONTROL Trait Recommendations], when you build or edit a segment in [Segment Builder](segment-builder.md), you get recommendations on additional traits you can include, that are similar to the traits in the segment rule.
 
-Audience Manager shows you trait recommendations both from your first-party traits, in the **[!UICONTROL Recommendations]** section, and third-party traits, in the **[!UICONTROL Recommendations from Marketplace]** section.
+Audience Manager shows you trait recommendations both from your first-party traits, in the **[!UICONTROL Recommendations]** section, and from **[!UICONTROL Audience Marketplace]**, in the **[!UICONTROL Recommendations from Marketplace]** section.
 
 ![Trait Recommendations Overview](assets/trait-recommendations-overview-full.png)
 
@@ -30,7 +30,7 @@ Add the recommended traits to your segment to increase your target audience.
 
 **In a nutshell:**
 
-* Audience Manager shows first party traits and third party traits from your currently subscribed data feeds as recommended traits, in the [!UICONTROL Recommendations] section. Marketplace recommendations from feeds that you are not subscribed to are visible in the [!UICONTROL Recommendations from Marketplace] section.
+* Audience Manager shows first party traits in the [!UICONTROL Recommendations] section. Marketplace recommendations from public and private feeds that you are not subscribed to are visible in the [!UICONTROL Recommendations from Marketplace] section.
 * Audience Manager shows a maximum of fifty traits similar to the one in the segment rule.
 * You can filter out the data sources from which you don't want to see any recommendations.
 * When calculating similarities, Audience Manager considers [UUIDs](../../reference/ids-in-aam.md) that qualified for the trait during the last 30 days.
@@ -74,12 +74,12 @@ When building or editing a segment in [Segment Builder](segment-builder.md), you
 3. You can see first-party recommended traits in the **[!UICONTROL Recommendations]** section, and third-party recommended traits in the **[!UICONTROL Recommendations from Marketplace]** section. All of these recommendations are similar to the traits you added to the segment rule. Scroll down to see all recommended traits.
 4. (Optional) To exclude recommended first-party traits from certain data sources, click the **X** symbol for the data sources you want to exclude.
     > [!NOTE]
-    > 
-    >The excluded data sources are shown just above the list of recommended traits. Click **X** in the grey box to remove the exclusions and see results from the respective data sources again.
+    >
+    > The excluded data sources are shown just above the list of recommended traits. Click **X** in the grey box to remove the exclusions and see results from the respective data sources again.
 5. To add recommended traits to the segment rule, click the **+** symbol.
 
 > [!IMPORTANT]
-> When adding third-party recommended traits to a segment, the traits are only used for segment estimation, until you subscribe to the corresponding data feed. Traits that come from data feeds that you are not subscribed to are marked with a shopping cart icon in the trait list. Click the trait name to go to the data feed page and subscribe to it.
+> When adding [!UICONTROL Marketplace] traits to a segment, the traits are only used for segment estimation, until you subscribe to the corresponding data feed. Traits that come from data feeds that you are not subscribed to are marked with a shopping cart icon in the trait list. Click the trait name to go to the data feed page and subscribe to it.
 > ![marketplace-not-subscribed](assets/trait-recommendations-marketplace.png)
 > You can save a segment with third party traits only after you susbcribe to the corresponding data feeds.
 
@@ -90,8 +90,8 @@ When building or editing a segment in [Segment Builder](segment-builder.md), you
 1. You can see recommended traits, that are similar to the traits already in the segment rule. Scroll down to see all recommended traits.
 1. (Optional) To exclude recommended traits from certain data sources, click the **X** symbol for the data sources you want to exclude.
     > [!NOTE]
-    > 
-    >The excluded data sources are shown just above the list of recommended traits. Click **X** in the grey box to remove the exclusions and see results from the respective data sources again.
+    >
+    > The excluded data sources are shown just above the list of recommended traits. Click **X** in the grey box to remove the exclusions and see results from the respective data sources again.
 1. To add recommended traits to the segment rule, click the **+** symbol.
 
 When you create or edit a segment and add a trait to the segment rule, you see a maximum of fifty recommended traits, similar to the one you have added. If the segment rule contains more than one trait, Audience Manager uses a round robin method to show the best match for each trait, then the second-best match for each trait, and so on, for the largest fifty traits by population, in the segment rule.
