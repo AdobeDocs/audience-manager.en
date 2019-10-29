@@ -22,26 +22,61 @@ Overview and workflow for data buyers who want to purchase third-party data from
 
 <!-- c_marketplace_about.xml -->
 
-The [!UICONTROL Marketplace] is an [!DNL Audience Manager] feature for data buyers that lists data feeds you can subscribe to. It lists flat rate, [!DNL CPM], or private data feeds. These feeds are provided by third-party vendors that use [!DNL Audience Manager] to sell data. In the [!UICONTROL Marketplace], reporting tools let you track feed usage and the overlap between your traits and those in a subscribed data feed. Finally, with [!UICONTROL Audience Marketplace], [!DNL Adobe] takes care of invoices and fee payments (though you do have to self-report usage when subscribed to a [!DNL CPM] feed). These features let you find effective data sources without wasting time looking for a data provider.
+The [!UICONTROL Marketplace] is an [!DNL Audience Manager] feature for data buyers that lists data feeds you can subscribe to. It lists flat rate, [!DNL CPM], and private data feeds. These feeds are provided by third-party vendors that use [!DNL Audience Manager] to sell data.
+
+In the [!UICONTROL Marketplace], reporting tools let you track feed usage and the overlap between your traits and those in a subscribed data feed. Finally, with [!UICONTROL Audience Marketplace], [!DNL Adobe] takes care of invoices and fee payments (though you do have to self-report usage when subscribed to a [!DNL CPM] feed). These features let you find effective data sources without wasting time looking for a data provider.
 
 >[!TIP]
-> 
+>
 >Use the **[Adobe Audience Finder](https://www.adobe-audience-finder.com/)** to find high quality data feeds that you can subscribe to. Then, go back into the Audience Manager UI or use the [Audience Marketplace Buyer API](https://bank.demdex.com/portal/swagger/index.html#/Audience_Marketplace_Buyer_API) to subscribe to the feeds you found.
 
-![](assets/buyer_marketplace.png)
+![buyer-marketplace-overview](assets/buyer-marketplace-overview.png)
 
 The [!UICONTROL Marketplace] list contains information that you can sort and search to find the data feed that's right for you. Items in the [!UICONTROL Marketplace] buyer's list include:
 
-* **[!UICONTROL Search]:** Find data feeds by name or text description.
-* **[!UICONTROL Name]:** Name of the data feed.
-* **[!UICONTROL Description]:** Information about the contents of a data feed.
-* **[!UICONTROL Provider]:** Name of the data provider.
-* **[!UICONTROL Traits]:** The number of traits in a data feed.
-* **[!UICONTROL 30 Day Provider Unique Users]:** The number of unique users seen in the last 30 days.
-* **[!UICONTROL 30 Day Overlapped Uniques]:** The number of users in your account that overlap with the users in the provider’s account.
-* **[!UICONTROL Feed Overlap]:** The 30 day overlapped uniques value, displayed in percentages, calculated as: Data buyer 30 day overlapped uniques / Data buyer 30 day uniques) x 100.
-* **[!UICONTROL Private Feeds]:** See [Private Data Feeds](../../../features/audience-marketplace/marketplace-private-feeds.md).
-* **[!UICONTROL Currently Subscribed Plan Count]:** The number of subscriptions you have with a data provider.
+* **[!UICONTROL Search]**: Find data feeds by name or text description.
+* **[!UICONTROL Similar Traits]**: Shows you the number of similar traits from a data feed. This column is shown after you enter a trait or segment to filter by in the **[!UICONTROL Similarity To]** section.
+* **[!UICONTROL Name]**: Name of the data feed.
+* **[!UICONTROL Description]**: Information about the contents of a data feed.
+* **[!UICONTROL Provider]**: Name of the data provider.
+* **[!UICONTROL Traits]**: The number of traits in a data feed.
+* **[!UICONTROL 30 Day Provider Unique Users]**: The number of unique users seen in the last 30 days.
+* **[!UICONTROL 30 Day Overlapped Uniques]**: The number of users in your account that overlap with the users in the provider’s account.
+* **[!UICONTROL Feed Overlap]**: The 30 day overlapped uniques value, displayed in percentages, calculated as: Data buyer 30 day overlapped uniques / Data buyer 30 day uniques) x 100.
+* **[!UICONTROL Private Feeds]**: See [Private Data Feeds](../../../features/audience-marketplace/marketplace-private-feeds.md).
+* **[!UICONTROL Currently Subscribed Plan Count]**: The number of subscriptions you have with a data provider.
+
+To easily find the best data feeds for your needs, use the following filters available on the left side of the [!UICONTROL Marketplace] page:
+
+* **[!UICONTROL Similarity To]**: Filter data feeds based on their similarity to either a trait or segment of your choosing. When entering the trait or segment to compare to, you can use the trait or segment ID, or their respective names.
+* **[!UICONTROL Similarity Cutoff]**: Drag the slider to filter the data feeds based on how similar their traits are to your selected trait or segment.
+* **[!UICONTROL Subscription Status]**: Filter the data feeds based on your subscription status.
+* **[!UICONTROL Plan Use Case]**: Filter data feeds based on their supported use cases: **[!UICONTROL Activation]**, **[!UICONTROL Segments and Overlap]**, and **[!UICONTROL Modelling]**.
+* **[!UICONTROL Plan Unit]**: Filter data feeds based on their pricing type.
+
+Watch the video below for an overview of how to use these filters.
+
+## Finding Similar Traits {#finding-similar-traits}
+
+[!UICONTROL Audience Marketplace] gives you the option to find traits from various data feeds, based on their similarity to your existing traits or segments. Here's how to do this:
+
+1. Go to **[!UICONTROL Audience Marketplace]** > **[!UICONTROL Marketplace]**.
+2. Use the **[!UICONTROL Similarity To]** selector to choose between filtering based on a trait or segment. You can filter based on trait/segment ID or name. The search box automatically shows you relevant suggestions based on your input.
+3. Once you've identified the trait or segment that you want to filter by, click it in the suggestions list.
+4. To narrow down the results, use the **[!UICONTROL Similarity Cutoff]** slider to move from less similar traits, to more similar ones.
+
+Once the filtering is complete, you'll see a new column in the results page: **[!UICONTROL Similar Traits]**. This column shows you the number of similar traits to the one you filtered by, from each data feed that meets the filtering criteria.
+
+To see the full list of similar traits, click the number in the **[!UICONTROL Similar Traits]** column.
+
+>[!NOTE]
+>
+> Audience Marketplace displays the top 500 similar trait results from across the data feeds.
+
+Watch the video below for a full overview of how to find similar traits.
+
+>[!VIDEO](https://video.tv.adobe.com/v/29370/)
+
 
 ## Private Data Feeds {#private-data-feeds}
 

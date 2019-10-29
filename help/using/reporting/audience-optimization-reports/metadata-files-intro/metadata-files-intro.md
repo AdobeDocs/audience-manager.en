@@ -12,7 +12,7 @@ uuid: 80aa4bc3-c660-4e65-8c22-2ddbb7bddd4f
 A data file contains impression, click, or conversion data that you can can use for: 
 
 * [Actionable Log Files](/help/using/integration/media-data-integration/actionable-log-files.md)
-* [Audience Optimization Reports](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md) 
+* [Audience Optimization Reports](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)
   
 A metadata file contains human-readable names that correspond to various report options and menu items. Format your data and metadata files according to the specifications in this section.
 
