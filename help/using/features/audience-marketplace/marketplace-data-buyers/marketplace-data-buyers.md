@@ -69,6 +69,10 @@ Once the filtering is complete, you'll see a new column in the results page: **[
 
 To see the full list of similar traits, click the number in the **[!UICONTROL Similar Traits]** column.
 
+>[!NOTE]
+>
+> Audience Marketplace displays the top 500 similar trait results from across the data feeds.
+
 Watch the video below for a full overview of how to find similar traits.
 
 >[!VIDEO](https://video.tv.adobe.com/v/29370/)
