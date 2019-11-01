@@ -83,9 +83,10 @@ In [!UICONTROL Trait Builder], the [!UICONTROL Advanced Options] lets you set a 
 ### Set the TTL for a trait
 
 1. Expand the [!UICONTROL Advanced Options] section and enter a number to set a [!DNL TTL] value for the trait.
-2. Click **[!UICONTROL Save]**.
-    ![](assets/TTL.png)
+1. Click **[!UICONTROL Save]**.
 
->[!MORE_LIKE_THIS]
+   ![](assets/TTL.png)
+
+>[!MORELIKETHIS]
 >
 >* [Segment Time to Live Explained](../../features/traits/segment-ttl-explained.md)

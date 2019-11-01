@@ -24,6 +24,6 @@ The report sliders let you set limits on the data returned by an interactive rep
 * Reduce the overall amount of data returned by the reports.
 * Focus on traits or segments that fall within a particular size range.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Understanding the Data Filters in the Segement-to-Trait Overlap Report](../../reporting/dynamic-reports/segment-trait-overlap-report.md#data-filters-s2t-report)

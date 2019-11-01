@@ -264,6 +264,6 @@ As best practice, we recommend [!DNL Amazon S3] because the process is simpler. 
 
 It depends. [!DNL Audience Manager] reads up to 119000 entries from the [!DNL Amazon SQS] queue and splits them in up to 3 batches. Your files will be processed simultaneously only if they end up in the same batch. However, due to the high amount of data ingested by [!DNL Audience Manager] on a daily basis, we cannot guarantee any file processing order.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Batch Data Transfer Process Described](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md)

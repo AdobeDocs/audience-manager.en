@@ -73,6 +73,6 @@ An event call sends data from your website to [!DNL Audience Manager]. The call 
 https://<domain>/event?product=camera&price>100
 ```
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Segments: Purpose, Composition, and Rules](../features/segments/segments-purpose.md)

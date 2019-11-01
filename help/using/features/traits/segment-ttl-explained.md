@@ -46,6 +46,6 @@ For example, say you have Segment 1 composed of Trait A (30 day [!DNL TTL]) and 
 
 Remember, the [!DNL TTL] set on your [!DNL Audience Manager] pixel operates independently from the [!DNL TTL] set on other pixels used by third parties ([!DNL DSP]s, ad networks, etc.).
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Set a Trait Expiration Interval](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval)

@@ -74,6 +74,6 @@ For more information, see [Declared IDs](../../../features/declared-ids.md).
 
 The format for matching IDs via an email image is the same as shown above. Note, however, that images in an email must be enabled for this to work. This can affect ID synchronization via email because most mail systems disable images by default.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Data Collection Components](../../../reference/system-components/components-data-collection.md)

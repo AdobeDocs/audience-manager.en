@@ -108,7 +108,7 @@ Watch the video below for an overview of possible use cases for [!UICONTROL Prof
 
 >[!VIDEO](https://video.tv.adobe.com/v/28975/)
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Profile Link Device Graph Use Cases](profile-link-use-case.md)
 >* [External Device Graph Use Cases](external-graph-use-cases.md)

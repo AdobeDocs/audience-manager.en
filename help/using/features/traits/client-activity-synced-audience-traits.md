@@ -31,6 +31,6 @@ An [!UICONTROL Active Audience] trait contains all of the devices under manageme
 >
 >[!UICONTROL Data Source Synced Traits] are useful for troubleshooting. Click a trait name to check the metrics on the trait summary page. If your selected trait returns data, that indicates the ID synchronization process is set up properly and pushing data to [!DNL Audience Manager].
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Addressable Audiences](../../features/addressable-audiences.md)

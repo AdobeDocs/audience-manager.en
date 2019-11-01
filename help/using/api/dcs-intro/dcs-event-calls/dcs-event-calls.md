@@ -25,6 +25,6 @@ To get started, see the sections below. Start with [Send Data to the DCS](../../
 * [Send Data to the DCS](dcs-url-send.md)
 * [Receive Data From the DCS](dcs-url-receive.md)
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [DCS API Reference](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)

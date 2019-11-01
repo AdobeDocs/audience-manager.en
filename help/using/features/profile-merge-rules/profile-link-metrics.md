@@ -112,6 +112,6 @@ A [!UICONTROL Profile Link Device Graph] report that includes device graph data 
 
 In addition to the other data visualizations, [!UICONTROL Profile Link] reports include a line graph. The line graph is designed to show you trends over time for your profile rules. Trend graphs (and the other reports) are available when you click a rule from the [!UICONTROL Profile Merge Rules] landing page ( **[!UICONTROL Audience Data > Profile Merge Rules]**). These graphs include device graph data if you're a member of the [!UICONTROL Device Co-op] or other, third-party device graphs you may have access to in [!DNL Audience Manager]. Click on a trend line to see underlying data.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Profile Merge Rules FAQ](../../faq/faq-profile-merge.md)

@@ -123,6 +123,6 @@ The [!UICONTROL Device Options] let you select the type of *`device profile`* us
  </tbody>
 </table>
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Profile Merge Rules FAQ](../../faq/faq-profile-merge.md)

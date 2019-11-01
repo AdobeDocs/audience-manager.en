@@ -63,7 +63,7 @@ The popup for the [!UICONTROL Segment-to-Segment Overlap] report contains the me
 | **[!UICONTROL Segment Uniques1]** | The number of unique visitors in segment 1. |
 | **[!UICONTROL Segment Uniques2]** | The number of unique visitors in segment 2.  |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Filter Report Results With the Data Sliders](../../reporting/dynamic-reports/data-sliders.md)
 >* [Shapes, Colors, and Sizes Used in Interactive Reports](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)

@@ -156,6 +156,6 @@ Based on the above example, the browser is redirected to the following [!DNL URL
 
 [!DNL `https://adobe.com/callback?creative=1235&campaign=4709&adgroup=3408&placement=1001`]
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Data and Metadata Files for Audience Optimization Reports](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)

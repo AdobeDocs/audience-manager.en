@@ -66,7 +66,7 @@ The [!DNL URL] for your inbound ID synchronization call should contain variables
  </tbody> 
 </table>
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Data Collection Server (DCS) API Methods and Code](../../api/dcs-intro/dcs-event-calls/dcs-event-calls.md)
 >* [Data Collection Components](../../reference/system-components/components-data-collection.md)

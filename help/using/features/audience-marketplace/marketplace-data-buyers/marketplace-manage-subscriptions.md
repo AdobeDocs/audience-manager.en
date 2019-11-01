@@ -49,12 +49,6 @@ After you subscribe to a data feed:
 
 * Review the billing and payment documentation. See the related links below.
 
->[!MORE_LIKE_THIS]
->
->* [Billing and Impression Allocation for CPM Data Feeds](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
->* [Billing and Impression Allocation for Flat Fee Data Feeds](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
->* [How to Report CPM Usage](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)
-
 ## Subscribe to a Private Data Feed {#subscript-private-data-feed}
 
 Buyers subscribe to private data feeds and plans in **[!UICONTROL Audience Marketplace > Marketplace]**.
@@ -73,11 +67,6 @@ To subscribe to a private data feed:
 
     * **[!UICONTROL Request approved]**: The status in the [!UICONTROL Marketplace] list changes to "Access Granted" and you'll receive an automated notification. At this point you can subscribe to the feed. See [Subscribe to a Public Data Feed](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed) for instructions.
     * **[!UICONTROL Request denied]**: The "Requested" text is removed from the [!UICONTROL Marketplace] list for the feed. You can try to subscribe again or choose a different feed.
-
->[!MORE_LIKE_THIS]
->
->* [Subscribe to a Public Data Feed](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed)
->* [Discounts for Data Buyers](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#buyer-discount)
 
 ## Data Feed Discounts for Buyers {#buyer-discount}
 
@@ -135,10 +124,6 @@ In the example, the buyer gets a 10% discount on the [!UICONTROL Segments and Ov
 
 ![](assets/buyer-discount.png)
 
->[!MORE_LIKE_THIS]
->
->* [The Marketplace: About](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace)
-
 ## Finding Subscribed Feed Data {#find-subscribed-data-fee}
 
 The data (traits) for your data feeds appears in their own trait storage folders. Go to **[!UICONTROL Audience Data > Traits]** and expand the **[!UICONTROL 3rd-Party Data]** folder to view and work with the traits in your subscribed feeds. Look for the sub-folder named after your data provider. Those contain folders named after the individual data feed and list traits provided by the feed.
@@ -146,10 +131,6 @@ The data (traits) for your data feeds appears in their own trait storage folders
 <!-- marketplace-feed-storage.xml -->
 
 ![](assets/subscribe5.png)
-
->[!MORE_LIKE_THIS]
->
->* [Subscribe to a Public Data Feed](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed)
 
 ## Unsubscribe from a Data Feed {#unsubscribe}
 
@@ -284,10 +265,6 @@ This page gives you the following information:
    * Click **[!UICONTROL Cancel]** to leave the page without making changes.
    * Click **[!UICONTROL Review & Subscribe]** to subscribe to a data feed. This button is greyed out until you switch a [!UICONTROL Subscription] toggle to [!UICONTROL On]. See also [Subscribe to a Public Data Feed](#subscript-public-data-feed) and [Subscribe to a Private Data Feed](#subscript-private-data-feed).
 
->[!MORE_LIKE_THIS]
->
->* [The Marketplace: About](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace)
-
 ## Understanding Data Feed Use Cases {#use-cases}
 
 As an [!UICONTROL Audience Marketplace] data buyer, you can purchase data for overlap, modeling, and activation use cases. Each use case is designed for a specific purpose and limits what you can do with the data. These use case descriptions can help you make the right decision about which type of data plan to buy.
@@ -310,3 +287,12 @@ This use case lets you evaluate supplier traits against your traits with [algori
 ### Activation
 
 This use case lets you send data to a [destination](../../../features/destinations/destinations.md). In [!UICONTROL Audience Manager], a destination is any third-party system (ad server, [!DNL DSP], [!DNL DMP], exchange, etc.) that you want to share data with. However, with an [!UICONTROL Activation] use case, you cannot run overlap reports or test the data in an algorithmic model.
+
+>[!MORELIKETHIS]
+>
+>* [Billing and Impression Allocation for CPM Data Feeds](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
+>* [Billing and Impression Allocation for Flat Fee Data Feeds](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
+>* [How to Report CPM Usage](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)
+>* [Subscribe to a Public Data Feed](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed)
+>* [Discounts for Data Buyers](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#buyer-discount)
+>* [The Marketplace: About](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace)

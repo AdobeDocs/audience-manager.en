@@ -48,7 +48,7 @@ The following table defines the common prefixes used by [!UICONTROL Trait Builde
  </tbody> 
 </table>
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Basic Information Overview](../../features/traits/create-onboarded-rule-based-traits.md)
 >* [Managing Trait Rules](../../features/traits/manage-trait-rules.md#managing-trait-rules)

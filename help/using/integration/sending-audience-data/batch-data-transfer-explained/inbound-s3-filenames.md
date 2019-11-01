@@ -147,6 +147,6 @@ Consider the figures below for fastest/earliest processing of your files as well
 >
 >The inbound data validation process will mark empty files as invalid and will not process them.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [FTP Name Requirements for Inbound Data Files](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
