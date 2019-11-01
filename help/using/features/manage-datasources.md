@@ -54,7 +54,7 @@ These settings determine how a data source is identified, used, and shared. You 
 1. Select a [!UICONTROL Data Source Setting] check box to apply an option to your data source.
 2. Click **[!UICONTROL Save]**.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Data Source Settings and Menu Options](../features/datasources-list-and-settings.md#settings-menu-options)
 

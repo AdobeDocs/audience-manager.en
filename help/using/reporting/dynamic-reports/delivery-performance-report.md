@@ -31,13 +31,6 @@ The [!UICONTROL Delivery and Performance] report lets you evaluate how segments 
 
 Select an individual point to view data details in a pop up window. Also, you can click and drag the cursor over a group of points to return data about those data elements only. These actions automatically update the report results. 
 
->[!MORE_LIKE_THIS]
->
->* [Improve Log File Processing Times with Lookup Tables](../../reporting/dynamic-reports/lookup-tables.md)
->* [Filter Report Results With the Data Sliders](../../reporting/dynamic-reports/data-sliders.md)
->* [Delivery and Performance Data Pop Fields Defined](../../reporting/dynamic-reports/delivery-performance-report.md#field-definitions)
->* [Shapes, Colors, and Sizes Used in Interactive Reports](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
-
 ## Delivery and Performance Data Pop Fields Defined {#field-definitions}
 
 Describes the metrics displayed in the popup window when you click an individual data point.
@@ -61,6 +54,9 @@ The popup for the Delivery and Performance Report contains the following metrics
 |  **[!UICONTROL Reach]** | Number of unique visitors.  |
 |  **[!UICONTROL Click Through]** | Number of times a visitor clicked on an ad.  |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Improve Log File Processing Times with Lookup Tables](../../reporting/dynamic-reports/lookup-tables.md)
+>* [Filter Report Results With the Data Sliders](../../reporting/dynamic-reports/data-sliders.md)
+>* [Delivery and Performance Data Pop Fields Defined](../../reporting/dynamic-reports/delivery-performance-report.md#field-definitions)
+>* [Shapes, Colors, and Sizes Used in Interactive Reports](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)

@@ -91,6 +91,6 @@ The [!UICONTROL Publish Data To] settings return a cookie if the domain meets th
 * **[!UICONTROL Only the selected domains]**: Returns a cookie only for the domains selected in the domains list.
 * **[!UICONTROL All of our domains except the selected domains]**: Prevents selected domains from receiving a [!DNL cookie]. All other domains can receive a [!DNL cookie].
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Create a Cookie Destination](../../features/destinations/create-cookie-destination.md)

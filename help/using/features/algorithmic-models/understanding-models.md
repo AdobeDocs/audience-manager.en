@@ -48,12 +48,6 @@ You manage models in **[!UICONTROL Audience Data > Models]**. At a high level, t
 
 We deactivate any algorithmic model that fails to generate data for three consecutive runs. Note that you cannot set the status of the model back to active afterwards. To ensure your models generate data, we recommend that you build models from data sources with sufficient traits to accumulate data from.
 
->[!MORE_LIKE_THIS]
->
->* [Destinations](../../features/destinations/destinations.md)
->* [Traits](../../features/traits/trait-details-page.md)
->* [Segments](../../features/segments/segments-purpose.md)
-
 ## Understanding TraitWeight {#understanding-traitweight}
 
 [!UICONTROL TraitWeight] is a proprietary algorithm designed to discover new traits automatically. It compares trait data from your current traits and segments against all other first and third-party data that you have access to through [!DNL Audience Manager]. Refer to this section for a description of the [!UICONTROL TraitWeight] algorithmic discovery process.
@@ -205,3 +199,9 @@ The model summary page includes the following sections.
   </tr>
  </tbody>
 </table>
+
+>[!MORELIKETHIS]
+>
+>* [Destinations](../../features/destinations/destinations.md)
+>* [Traits](../../features/traits/trait-details-page.md)
+>* [Segments](../../features/segments/segments-purpose.md)

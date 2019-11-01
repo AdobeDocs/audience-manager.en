@@ -40,6 +40,6 @@ We'll add new methods as they become available. Refer to the following sections 
 * [Get User IDs and Regions Through the Experience Cloud ID...](dcs-mcid-ids.md)
 * [Making Server-to-Server DCS API Calls](dcs-s2s-calls.md)
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [DCS API Reference](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)

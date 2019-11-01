@@ -41,7 +41,7 @@ As a reminder, the [!UICONTROL Device Options] are available in the [!UICONTROL 
 
 ![](assets/last-device-graph.png)
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Profile Merge Rules and Device Graph FAQ](../../faq/faq-profile-merge.md)
 >* [Instant Cross-Device Suppression](instant-cross-device-suppression.md)

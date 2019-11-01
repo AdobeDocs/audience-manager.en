@@ -92,10 +92,6 @@ var obj = { key : ['a', 'b', 'c'] };
 dataLib.api.signals(obj, 'c_').submit(); 
 </code></pre>
 
->[!MORE_LIKE_THIS]
->
->* [Name Requirements for Key Variables](../features/traits/trait-key-name-requirements.md)
-
 ## traits {#traits}
 
 Adds SIDs to the query string of a pending request.
@@ -198,10 +194,6 @@ dataLib.api.traits([
      d_dma: '<i>default</i>' 
 }).submit();
 </code></pre>
-
->[!MORE_LIKE_THIS]
->
->* [Prefix Requirements for Key Variables](../features/traits/trait-variable-prefixes.md)
 
 ## afterResult {#afterresult}
 
@@ -590,10 +582,6 @@ dilInstance.api.aamIdSync({
 });
 </code></pre>
 
->[!MORE_LIKE_THIS]
->
->* [Synchronization Functions in the Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-idsync.html)
-
 ## result {#result}
 
 Adds a callback (that receives JSON) to the pending request.
@@ -660,10 +648,6 @@ var dilInstance = DIL.create({
 });
 </code></pre>
 
->[!MORE_LIKE_THIS]
->
->* [DIL create](../dil/dil-class-overview/dil-create.md#dil-create)
-
 ## useCORSOnly {#usecorsonly}
 
 `useCORSOnly` is a boolean true/false parameter that controls how the browser requests resources from other domains.
@@ -692,12 +676,6 @@ var dilInstance = DIL.create({
 >* We recommend that you set `useCORSOnly: true` only when you're sure that your site visitors have browsers that support this feature. 
 >* When `useCORSOnly: true`, [!UICONTROL DIL] will not make ID calls from Internet Explorer version 9 or older. 
 >
-
->[!MORE_LIKE_THIS]
->
->* [DIL create](../dil/dil-class-overview/dil-create.md#dil-create)
->* [Experience Cloud ID Service: UseCORSOnly](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-use-cors-only.html)
->* [CORS Support in the Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-cors.html)
 
 ## useImageRequest {#useimagerequest}
 
@@ -730,3 +708,11 @@ var dataLib = DIL.create({
 dataLib.api.traits([<i>123, 456, 789</i>]).useImageRequest().submit();
 </code></pre>
 
+>[!MORELIKETHIS]
+>
+>* [Name Requirements for Key Variables](../features/traits/trait-key-name-requirements.md)
+>* [Prefix Requirements for Key Variables](../features/traits/trait-variable-prefixes.md)
+>* [Synchronization Functions in the Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-idsync.html)
+>* [DIL create](../dil/dil-class-overview/dil-create.md#dil-create)
+>* [Experience Cloud ID Service: UseCORSOnly](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/use-cors-only.html)
+>* [CORS Support in the Experience Cloud ID Service](https://docs.adobe.com/content/help/en/id-service/using/reference/cors.html)

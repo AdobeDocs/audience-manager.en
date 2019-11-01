@@ -193,10 +193,6 @@ var dilInstance = DIL.create({
 DIL.modules.GA.submitUniversalAnalytics(ga, dilInstance);
 ```
 
->[!MORE_LIKE_THIS]
->
->* [ga Object Methods Reference](https://developers.google.com/analytics/devguides/collection/analyticsjs/ga-object-methods-reference)
-
 ## GA.init {#ga-init}
 
 The `GA.init()` function sends data from the legacy/deprecated version of [!DNL Google Analytics] to Audience Manager.
@@ -305,8 +301,9 @@ The URL event call to Audience Manager could look similar to this:
 
 `https://adobe.demdex.com/event?...c_accountId=UA-XXXXX-X&c_Section=Life%20%26%20Style &c_itemOrderId=1234&c_itemSku=DD44&c_itemName=T-Shirt&c_itemCategory=Olive%20Medium& c_itemPrice=11.99&c_itemQuantity=1` 
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Google Analytics Tracking Code](https://developers.google.com/analytics/devguides/collection/gajs/methods/)
 >* [Complete Web Upgrade: ga.js/dc.js to analytics.js](https://developers.google.com/analytics/devguides/collection/upgrade/reference/gajs-analyticsjs)
 >* [Adding analytics.js to Your Site](https://developers.google.com/analytics/devguides/collection/analyticsjs/)
+>* [ga Object Methods Reference](https://developers.google.com/analytics/devguides/collection/analyticsjs/ga-object-methods-reference)

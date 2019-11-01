@@ -117,6 +117,6 @@ As an example, let's take a look at how to create multiple traits at one time. T
 
 
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Download the Bulk Management Worksheet](assets/BAAAM_August_2018.xlsm)

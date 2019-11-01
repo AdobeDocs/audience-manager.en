@@ -252,6 +252,6 @@ Yes. The total segment population metric includes the additional devices that ha
 
 No.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Profile Link](../features/profile-merge-rules/profile-link-use-case.md)
