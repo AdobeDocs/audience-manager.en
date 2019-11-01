@@ -10,13 +10,22 @@ keywords: identity type breakdown, identity breakdown, audience identity reporti
 
 # Trait Details Page {#trait-details-page}
 
-The details page for an individual trait provides overview of information like the trait name, ID, performance metrics, expressions that define the trait, segments it belongs to, and the trait audit log. To vew these details, go to [!UICONTROL Audience Data > Traits] and click the name of the trait you want to work with.
+The details page for an individual trait provides an overview of the trait details, such as the trait name, ID, performance metrics, expressions that define the trait, segments it belongs to, and the trait audit log. To view these details, go to **[!UICONTROL Audience Data]** > **[!UICONTROL Traits]** and click the name of the trait you want to work with.
 
-## Basic Information {#basics}
+## Trait Management Tools {#trait-management-tools}
 
-The [!UICONTROL Basic Information] section shows details about required and optional fields you completed when building the trait. This includes things like the trait type, trait ID, description, data source, and other metadata. These details vary depending on trait type (folder, onboarded, or rule-based).
+The top of the trait details page hosts the tools that you can use to manage your traits:
 
-![](assets/basicInfo.png)
+1. **[!UICONTROL Add New]**: Use this option to create new rule-based, algorithmic, or onboarded traits.
+2. **[!UICONTROL Edit]**: Use this option to change the configuration of the current trait.
+3. **[!UICONTROL Delete]**: Use this option to remove the current trait from your Audience Manager account.
+4. **[!UICONTROL Marketplace Recommendations]**: Use this option find similar traits to the one you're viewing, from [!UICONTROL Audience Marketplace] data fees that you are not subscribed to. See [Audience Marketplace for Data Buyers](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md) to learn how to navigate the Marketplace and find similar traits.
+
+![basic-trait-information](assets/basic-trait-information.png)
+
+## Trait Information {#basics}
+
+The [!UICONTROL Trait Information] section shows details about required and optional fields you completed when building the trait. This includes things like the trait type, trait ID, description, data source, and other metadata. These details vary depending on trait type (folder, onboarded, or rule-based).
 
 ## Trait Graph {#trait-graph}
 

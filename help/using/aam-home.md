@@ -17,12 +17,11 @@ This technical documentation guide provides self help assistance for Audience Ma
   <tr> 
    <td colname="col1"> <p> <b>New and Featured Items</b> </p> <p>Read about the latest Audience Manager features:</p> <p> 
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
+     <li><a href="features/segments/trait-recommendations.md">Intelligent Recommendations for Audience Marketplace Data, powered by Adobe Sensei</li>
     <li><a href="features/profile-merge-rules/merge-rules-overview.md">Profile Merge Rules Enhancements</a></li>
     <li><a href="reference/bulk-management-tools/bulk-management-intro.md">Bulk Management Tools Update</a></li>
      <li><a href="overview/data-security-and-privacy/data-security.md#hsts">HTTP Strict-Transport-Security</a></li>
      <li><a href="features/destinations/people-based-destinations-overview.md">People-Based Destinations</a> </li>
-     <li><a href="features/destinations/twitter-tailored-audiences.md">Configure Twitter Tailored Audiences as a Self-Service Device-Based Destination</a> </li>
-     <li><a href="features/destinations/destinations-home.md">Destinations Home Page</a> </li>
      </ul> </p> <p>See also, <a href="docs-updates/docs-2019.md"> 2019 Documentation Updates</a>. </p> 
      <p>If you are new to Audience Manager, see our <a href="reference/aam-glossary.md"> Glossary</a> and <a href= "reference/ids-in-aam.md">Index of IDs.</a></p>
      <br>&nbsp;
