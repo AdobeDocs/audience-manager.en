@@ -32,6 +32,6 @@ To add export labels to a destination:
    >Export restrictions will not work unless you set a [matching export control](../../features/data-export-controls.md) on a data source.
 1. Click **[!UICONTROL Save]**.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Create a Data Source](../../features/manage-datasources.md#create-data-source)

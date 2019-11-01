@@ -91,10 +91,6 @@ Data from these parameters is collected by default:
 * `mediaAdParentPod` (The pod or ad break within the primary content where the ad plays) 
 * `mediaAdParentPodPos` (The numeric position within the pod where the ad plays. More than one ad can play within a pod.
 
->[!MORE_LIKE_THIS]
->
->* [AppMeasurement Flash, Flex, and OSMF Implementation Guide](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/flash/)
-
 ## Flash DIL Data in Audience Manager {#flash-dil-data}
 
 The [!UICONTROL Flash DIL] module turns Adobe AppMeasurement data into Audience Manager traits and unused signals.
@@ -123,13 +119,7 @@ See the table for examples:
 
 Audience Manager accepts Analytics [!UICONTROL Props], [!UICONTROL eVars], and events even without a corresponding trait. In this case, the data is unavailable for trait creation and appears in the [Unused Signals report](../reporting/dynamic-reports/unused-signals.md) instead. To make the most of this information, create Audience Manager traits that match the Analytics data passed in by the [!UICONTROL Flash DIL] library. 
 
->[!MORE_LIKE_THIS]
 >
->* [Traits](../features/traits/trait-details-page.md)
->* [Signals, Traits, and Segments](../reference/signal-trait-segment.md)
->* [Key-Value Pairs Explained](../reference/key-value-pairs-explained.md)
->* [Prefix Requirements for Key Variables](../features/traits/trait-variable-prefixes.md)
-
 ## Flash DIL ActionScript Library {#flash-dil-actionscript}
 
 Code for your [!DNL Flash] object to send Analytics data to Audience Manager.
@@ -158,3 +148,10 @@ d.containerNSID = <container NSID>; // Optional, defaults to 0
 s.loadModule(d);
 ```
 
+[!MORELIKETHIS]
+>
+>* [Traits](../features/traits/trait-details-page.md)
+>* [Signals, Traits, and Segments](../reference/signal-trait-segment.md)
+>* [Key-Value Pairs Explained](../reference/key-value-pairs-explained.md)
+>* [Prefix Requirements for Key Variables](../features/traits/trait-variable-prefixes.md)
+>* [AppMeasurement Flash, Flex, and OSMF Implementation Guide](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/flash/)

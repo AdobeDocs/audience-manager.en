@@ -119,7 +119,7 @@ By using the **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Adobe 
 
 ![advanced-graph-expansion](assets/advanced-device-graph-expansion.png)
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Profile Link Device Graph Use Cases](profile-link-use-case.md)
 >* [General Use Cases for Profile Merge Rules](merge-rule-targeting-options.md)

@@ -25,6 +25,6 @@ When working with [!UICONTROL Profile Merge Rules], you can:
 * Track the average number of devices for each user.
 * Work with basic controls to create, edit, and delete rules. Only administrators can manage rules, but other users can view them and apply them to segments. See [Profile Merge Rule Options Defined](merge-rule-definitions.md) and [Use Cases for Merge Rules](merge-rule-targeting-options.md).
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Profile Merge Rules FAQ](../../faq/faq-profile-merge.md)

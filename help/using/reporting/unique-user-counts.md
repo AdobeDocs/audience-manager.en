@@ -29,7 +29,7 @@ The overlap reports count users as unique when they qualify for a trait:
 
 The General report counts site visitors as unique if they qualified for the trait during the selected time period.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Interactive Reports](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports)
 >* [General Reports](../reporting/general-reports.md#general-reports-overview)

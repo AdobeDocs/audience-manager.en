@@ -34,7 +34,7 @@ Audience Manager and the Experience Cloud ID service make calls to and receive d
  </tbody> 
 </table>
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/)
 >* [Audience Manager Cookies](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_am.html)

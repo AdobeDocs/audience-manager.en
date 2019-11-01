@@ -17,12 +17,6 @@ Map segments to destinations with these [!DNL RESTful API] methods.
 
 The available `POST` methods let you map segments to [!UICONTROL URL] and [!UICONTROL cookie destinations] only. Currently, you cannot map segments to [!UICONTROL server-to-server destinations] with these [!DNL REST API] methods. Use the user interface instead. However, the related destination `GET` methods let you retrieve information about [!UICONTROL server-to-server destinations] created in the user interface.
 
->[!MORE_LIKE_THIS]
->
->* [Destinations](../../../features/destinations/destinations.md)
->* [Destination Serialization](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [Key-Value Pairs Explained](../../../reference/key-value-pairs-explained.md)
-
 ## Map a Segment to a Non-Serialized URL Destination {#map-segment-non-serial}
 
 A `POST` method that lets you map a segment to a non-serial [!UICONTROL URL] destination.
@@ -580,3 +574,9 @@ All request values are required unless otherwise indicated.
     "traitAlias": null
 }
 ```
+
+>[!MORELIKETHIS]
+>
+>* [Destinations](../../../features/destinations/destinations.md)
+>* [Destination Serialization](../../../features/destinations/key-value-pairs.md#destination-serialized)
+>* [Key-Value Pairs Explained](../../../reference/key-value-pairs-explained.md)

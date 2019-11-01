@@ -50,7 +50,7 @@ uuid: df325047-af62-45ad-9ca1-046bfcbe5341
  </tbody>
 </table>
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Working with Boolean Expressions (AND, OR, NOT) in TraitBuilder](../../reference/boolean-expressions-tsb.md)
 >* [Working with Comparison Operators in TraitBuilder](../../features/traits/trait-comparison-operators.md)

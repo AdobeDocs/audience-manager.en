@@ -61,7 +61,7 @@ A completed mapping could look similar to this:
 
 ![](../assets/rlsa_mapping.png)
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Destinations](../../features/destinations/destinations.md)
 >* [Create a URL Destination](../../features/destinations/create-url-destination.md)

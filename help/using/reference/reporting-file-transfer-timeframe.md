@@ -63,6 +63,6 @@ The following table lists and describes the time intervals in our general and re
  </tbody> 
 </table>
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Inbound Customer Data Ingestion FAQ](../faq/faq-inbound-data-ingestion.md)

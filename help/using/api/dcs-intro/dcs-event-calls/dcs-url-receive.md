@@ -57,6 +57,6 @@ The table below lists and defines the more common parameters you may see in a re
 |`u` and `uuid`|Unique User ID assigned by  Audience Manager. This is required if you're making [server-to-server DCS calls](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md).|
 |`y`|Destination type,  iFrame (`iframe`) or image (`img`).|
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Key-Value Prefixes and Variables Supported by the DCS](../../../api/dcs-intro/dcs-api-reference/dcs-keys.md)

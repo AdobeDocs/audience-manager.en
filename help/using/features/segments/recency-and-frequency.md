@@ -115,7 +115,7 @@ Frequency-capping expressions include all the users whose number of trait realiz
 
 * Right - For advertising frequency-capping use cases, you could create a segment rule similar to this: `(frequency([1000T] <= 2D) >= 5)`. This expression includes all users that have realized the trait with the ID "1000" in the past 2 days at least five times. Set frequency capping by sending this segment to the ad server with a `NOT` set on the segment in the ad server. This approach achieves greater performance in [!DNL Audience Manager] while still serving the same purpose for frequency capping.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Segment Builder Controls: Traits Section](../../features/segments/segment-builder.md#segment-builder-controls-traits)
 >* [Code Syntax Used in the Segment Expression Editor](../../features/segments/segment-code-syntax.md)

@@ -51,10 +51,6 @@ To complete the [!UICONTROL Data Source Details] section:
 
 The text fields associated with these settings let you rename the [!UICONTROL Data Source] with an alias that appears in the [Profile Merge Rule options](merge-rule-definitions.md). For example, if you add an alias to **[!UICONTROL Use as Authenticated Profile]**, that name appears in the [!UICONTROL Authenticated Profile Options] list. If you add an alias to **[!UICONTROL Use as a Device Graph]**, that name appears in the [!UICONTROL Device Options] list.
 
->[!MORE_LIKE_THIS]
->
->* [Create a Data Source](../manage-datasources.md#create-data-source)
-
 ## Create a Profile Merge Rule {#create-profile-merge-rule}
 
 To create a [!UICONTROL Profile Merge Rule], go to **[!UICONTROL Audience Data > Profile Merge Rules > Add New Rule]** and complete the steps for each section described here.
@@ -209,3 +205,7 @@ Check the methods in your [!DNL SDK] code that let you pass [!UICONTROL declared
 </table>
 
 See also, [Audience Manager Methods for Android](https://marketing.adobe.com/resources/help/en_US/mobile/android/?f=c_audience_manager_methods.html) and [Audience Manager Methods for iOS](https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=aam_methods.html).
+
+>[!MORELIKETHIS]
+>
+>* [Create a Data Source](../manage-datasources.md#create-data-source)

@@ -39,7 +39,7 @@ This [!UICONTROL Profile Merge Rule] enables marketers to deliver a consistent e
 
 ![cross-device-personalization](assets/cross-device-personalization.png)
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [External Device Graph Use Cases](external-graph-use-cases.md)
 >* [General Use Cases for Profile Merge Rules](merge-rule-targeting-options.md)
