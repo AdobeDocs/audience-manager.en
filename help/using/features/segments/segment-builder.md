@@ -93,7 +93,7 @@ In [!UICONTROL Segment Builder], [!UICONTROL the Basic Information] settings let
 
 In [!UICONTROL Segment Builder], the [!UICONTROL Traits] section lets you manage traits in a segment, create trait groups, and set qualification criteria. To add a trait to a segment, type the trait name in the search field and click [!UICONTROL Add Trait]. Save the trait (if finished) or move on to [!UICONTROL Destinations Mapping].
 
-<!-- r_segment_traits_section.xml -->
+<!-- r_segment_traits_section.xml-->
 
 **Prerequisites:** Complete the required fields in the [!UICONTROL Basic Information] section.
 
