@@ -93,7 +93,7 @@ In [!UICONTROL Segment Builder], [!UICONTROL the Basic Information] settings let
 
 In [!UICONTROL Segment Builder], the [!UICONTROL Traits] section lets you manage traits in a segment, create trait groups, and set qualification criteria. To add a trait to a segment, type the trait name in the search field and click [!UICONTROL Add Trait]. Save the trait (if finished) or move on to [!UICONTROL Destinations Mapping].
 
-<!-- r_segment_traits_section.xml -->
+<!-- r_segment_traits_section.xml-->
 
 **Prerequisites:** Complete the required fields in the [!UICONTROL Basic Information] section.
 
@@ -102,7 +102,8 @@ In [!UICONTROL Segment Builder], the [!UICONTROL Traits] section lets you manage
 |Basic View|This section provides visual controls that let you: <ul><li>Build new and manage existing segments.</li><li>Remove traits from a segment.</li><li>Add up to 50 (maximum) traits to a segment.</li><li>Drag and drop traits to create new groups.</li><li>View traits and trait groups in a segment.</li><li>Set qualification criteria with Boolean expressions, comparison operators, and recency/frequency settings.</li></ul>|
 |Code View|Opens a development environment that lets you create and manage traits, groups, and qualification requirements with code instead of the visual interface. The code view is useful if your segments: <ul><li>Contain more than 50 traits in an individual segment. Note: Segments are limited to 5000 traits (maximum).</li><li>Contain many trait groups.</li><li>Have complex qualification requirements.</li></ul>|
 |Search|Helps you find traits to add to a segment.|
-|Recommendations|Get live recommendations for similar traits to add to the segment rule. Read more in [Trait Recommendations](trait-recommendations.md).|
+|Recommendations|Get live recommendations for similar traits, from your first-party traits and [!UICONTROL Audience Marketplace] data feeds that you are subscribed to. Add these recommendations to the segment rule to expand your audience. Read more in [Trait Recommendations](trait-recommendations.md).|
+|Marketplace Recommendations|Get live recommendations for similar traits, from [!UICONTROL Audience Marketplace] data feeds that you are not subscribed to. Read more in [Trait Recommendations](trait-recommendations.md). |
 |Real and Estimated Segment Size Data|See [Trait and Segment Population Data in Segment Builder](segment-builder-data.md).|
 
 ## Remove Traits from a Segment {#remove-traits}

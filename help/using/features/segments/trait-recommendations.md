@@ -9,15 +9,15 @@ uuid:
 
 # Trait Recommendations
 
-Get live trait recommendations as you build your segments.
+Get live trait recommendations as you build your segments, from your own first-party traits, and [!UICONTROL Audience Marketplace] data feeds.
 
 ## Video Demonstration
 
-Start by watching the [!UICONTROL Trait Recommendations] video below, then read on for more information.
+Start by watching the [!UICONTROL Trait Recommendations] video below, then read on for more information. The video demonstration shows you how to work with recommendations from your own first-party traits, as well as trait recommendations from [!UICONTROL Audience Marketplace] data feeds that *you are already subscribed to*.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26228/)
 
-The next video outlines the workflow for [!UICONTROL Marketplace Recommendations], showing you how to add trait recommendations to your segments, from data feeds in [!UICONTROL Audience Marketplace].
+The next video outlines the workflow for [!UICONTROL Marketplace Recommendations], showing you how to add traits to your segments, based on recommendations from data feeds in [!UICONTROL Audience Marketplace]. These recommendations are based on data feeds that *you are not subscribed to*.
 
 >[!VIDEO](https://video.tv.adobe.com/v/29363/)
 
@@ -28,13 +28,13 @@ With [!UICONTROL Trait Recommendations], when you build or edit a segment in [Se
 
 Audience Manager shows you trait recommendations both from your first-party traits, in the **[!UICONTROL Recommendations]** section, and from **[!UICONTROL Audience Marketplace]**, in the **[!UICONTROL Recommendations from Marketplace]** section.
 
-![Trait Recommendations Overview](assets/trait-recommendations-overview-full.png)
-
 Add the recommended traits to your segment to increase your target audience.
+
+![Trait Recommendations Overview](assets/trait-recommendations-overview-full.png)
 
 **In a nutshell:**
 
-* Audience Manager shows first party traits in the [!UICONTROL Recommendations] section. Marketplace recommendations from public and private feeds that you are not subscribed to are visible in the [!UICONTROL Recommendations from Marketplace] section.
+* Audience Manager shows first party traits in the [!UICONTROL Recommendations] section. Marketplace recommendations from public and private feeds that you are not subscribed to are visible in the [!UICONTROL Recommendations from Marketplace] section. Click the feed name to go to [!UICONTROL Audience Marketplace] and subscribe.
 * Audience Manager shows a maximum of fifty traits similar to the one in the segment rule.
 * You can filter out the data sources from which you don't want to see any recommendations.
 * When calculating similarities, Audience Manager considers [UUIDs](../../reference/ids-in-aam.md) that qualified for the trait during the last 30 days.
@@ -46,6 +46,8 @@ With [!UICONTROL Trait Recommendations], you can improve your workflows, dependi
 
 * As a marketer, you can quickly find audiences interested in complementary products with the help of similar traits, so that you can increase your reach.
 * If you use Audience Manager as a publisher, with [!UICONTROL Trait Recommendations], you can understand audience behavior and build better segments for ad sales or user acquisition.
+* As an [!UICONTROL Audience Marketplace] data buyer, I want to discover relevant third-party data without browsing through a large number of feeds.
+* As an [!UICONTROL Audience Marketplace] data provider, I want to recommend relevant data to buyers so that I can benefit from optimal and relevant subscriptions.
 
 ## Differences Between Trait Recommendations and Algorithmic Models
 
@@ -75,7 +77,7 @@ When building or editing a segment in [Segment Builder](segment-builder.md), you
 
 1. Go to **Audience Data > Segments**, and click **Add New**.
 2. In the **Traits** drop-down box, add at least one trait to the segment rule.
-3. You can see first-party recommended traits in the **[!UICONTROL Recommendations]** section, and third-party recommended traits in the **[!UICONTROL Recommendations from Marketplace]** section. All of these recommendations are similar to the traits you added to the segment rule. Scroll down to see all recommended traits.
+3. You can see first-party recommended traits and [!UICONTROL Audience Marketplace] trait recommendations from feeds that you are subscribed to, in the **[!UICONTROL Recommendations]** section. The **[!UICONTROL Recommendations from Marketplace]** section shows you trait recommendations from feeds that you are not subscribed to. All of these recommendations are similar to the traits you added to the segment rule. Scroll down to see all recommended traits.
 4. (Optional) To exclude recommended first-party traits from certain data sources, click the **X** symbol for the data sources you want to exclude.
     > [!NOTE]
     >
@@ -130,7 +132,7 @@ Clicking on a first-party trait opens a pop-up window, as shown in the image bel
 
 To produce trait recommendations, Audience Manager computes the [Jaccard similarity](https://en.wikipedia.org/wiki/Jaccard_index) between the target trait and every other trait that your account has access to, including third-party data. Audience Manager then displays up to fifty traits that have the highest similarity.
 
-## Trait Similarity Score
+## Trait Similarity Score {#trait-similarity-score}
 
 Audience Manager calculate the [!UICONTROL Trait Similarity Score] between two traits by computing the intersection and union in terms of the number of [!UICONTROL UUID]s and then divide the two. For two traits A and B, the calculation looks like this:
 
@@ -147,7 +149,7 @@ Using the formula above, this will result in: 25,000 / 1,975,000 = 0.012. This i
 
 ### Example 2 - Trait Similarity Score
 
-If the same traits A and B had 400,000 [!UICONTRL UUID]s that qualify for both traits, the [!UICONTROL Trait Similarity Score] is much higher:
+If the same traits A and B had 400,000 [!UICONTROL UUID]s that qualify for both traits, the [!UICONTROL Trait Similarity Score] is much higher:
 400,000 / 1,600,000 = 0.25
 
 ![trait-recommendations-high-overlap](assets/Trait-Recommendations-High-overlap.png)
@@ -165,7 +167,13 @@ Use the table below as a rough guide to trait similarity. This guide is based on
 
 ## Role-Based Access Control ( RBAC)
 
-For companies using [!UICONTROL Role-Based Access Controls] ([!UICONTROL RBAC]), you need to have permission to create and edit segments in order to see recommended traits. And, the recommended traits you see are only the ones from data sources that you have access to via [!UICONTROL RBAC]. Read more about [!UICONTROL RBAC] controls [here](../administration/administration-overview.md).
+For companies using [!UICONTROL Role-Based Access Controls] ([!UICONTROL RBAC]), you need to have permission to create and edit segments in order to see recommended traits. The trait recommendations that you see are only the ones from data sources that you have access to via [!UICONTROL RBAC].
+
+> [!IMPORTANT]
+>
+> To add [!UICONTROL Marketplace Recommendations] to a segment, users must first subscribe to the corresponding data feeds. Only users with administrator privileges can subscribe to [!UICONTROL Audience Marketplace] data feeds.
+
+Read more about [!UICONTROL RBAC] controls [here](../administration/administration-overview.md).
 
 ## Limitations
 
