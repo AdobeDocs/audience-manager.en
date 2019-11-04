@@ -98,7 +98,7 @@ The popup for the [!UICONTROL Trait-to-Trait Overlap] report contains the metric
  </tbody> 
 </table>
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Filter Report Results With the Data Sliders](../../reporting/dynamic-reports/data-sliders.md)
 >* [Shapes, Colors, and Sizes Used in Dynamic Reports](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)

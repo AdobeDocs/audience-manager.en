@@ -46,15 +46,15 @@ The [!UICONTROL Marketplace] list contains information that you can sort and sea
 * **[!UICONTROL Private Feeds]**: See [Private Data Feeds](../../../features/audience-marketplace/marketplace-private-feeds.md).
 * **[!UICONTROL Currently Subscribed Plan Count]**: The number of subscriptions you have with a data provider.
 
+&nbsp;
+
 To easily find the best data feeds for your needs, use the following filters available on the left side of the [!UICONTROL Marketplace] page:
 
 * **[!UICONTROL Similarity To]**: Filter data feeds based on their similarity to either a trait or segment of your choosing. When entering the trait or segment to compare to, you can use the trait or segment ID, or their respective names.
-* **[!UICONTROL Similarity Cutoff]**: Drag the slider to filter the data feeds based on how similar their traits are to your selected trait or segment.
+* **[!UICONTROL Similarity Cutoff]**: Drag the slider to filter the data feeds based on how similar their traits are to your selected trait or segment. To learn more about trait similarity scores, see [Trait Similarity Score](../../segments/trait-recommendations.md#trait-similarity-score)
 * **[!UICONTROL Subscription Status]**: Filter the data feeds based on your subscription status.
 * **[!UICONTROL Plan Use Case]**: Filter data feeds based on their supported use cases: **[!UICONTROL Activation]**, **[!UICONTROL Segments and Overlap]**, and **[!UICONTROL Modelling]**.
 * **[!UICONTROL Plan Unit]**: Filter data feeds based on their pricing type.
-
-Watch the video below for an overview of how to use these filters.
 
 ## Finding Similar Traits {#finding-similar-traits}
 
@@ -77,12 +77,11 @@ Watch the video below for a full overview of how to find similar traits.
 
 >[!VIDEO](https://video.tv.adobe.com/v/29370/)
 
-
 ## Private Data Feeds {#private-data-feeds}
 
 In the [!UICONTROL Marketplace] list, sometimes the provider's name and trait data are marked as private. This indicates a [private data feed](../../../features/audience-marketplace/marketplace-private-feeds.md). A private data feed lets sellers limit buyer access to their data. Sellers can make feeds private when they're offering special deals, discounts, or when privacy and access control are important to them. As a buyer, you have to send a subscription request to the seller if you want access to a private feed. See [Subscribe to a Private Data Feed](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed) for details.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Understanding the Plan Details Page in Audience Marketplace](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#marketplace-buyer-details)
 >* [Discounts for Data Buyers](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#buyer-discount)

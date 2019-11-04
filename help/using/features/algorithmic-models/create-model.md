@@ -102,6 +102,6 @@ Watch the video below to learn how to create a first party look-alike model, so 
 
 >[!VIDEO](https://video.tv.adobe.com/v/23504/)
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Understanding TraitWeight](../../features/algorithmic-models/understanding-models.md#understanding-traitweight)

@@ -104,6 +104,6 @@ Impression event calls accept data formed into key-value pairs. The following ta
 >
 >Please contact your Adobe Audience Manager consulting or account lead for the exact URL specific to the client domain.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Data and Metadata Files for Audience Optimization Reports](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)

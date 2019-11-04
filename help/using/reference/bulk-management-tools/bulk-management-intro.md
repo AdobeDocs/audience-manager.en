@@ -28,7 +28,7 @@ This feature uses a Microsoft Excel spreadsheet with macros that make secure, au
 
 ## Download {#download}
 
-Download the latest worksheet **[here](assets/BAAAM_V2_October_2019.xlsm)**. 
+Download the latest worksheet **[here](assets/BAAAM_V2_20191015.xlsm)**. 
 
 ## Prerequisites {#prereqs}
 
@@ -107,8 +107,9 @@ The table below lists the operations you can perform and items you can manipulat
 As an example, let's take a look at how to create multiple traits at one time. To create multiple traits in a bulk operation you would:
 
 1. Click the **[!UICONTROL Headers]** tab and copy all the labels under the [!UICONTROL Create a Trait] option. 
-1. Click the **[!UICONTROL Create]** tab and paste the labels starting in row 1, column A. 
-1. Provide information related to each column header and click **[!UICONTROL Create Traits]**. This action prompts you to log on. Your bulk job runs after you successfully authenticate (see the [authentication requirements](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) below). Check the lower left corner of the worksheet for a job status notification.
+2. Click the **[!UICONTROL Create]** tab and paste the labels starting in row 1, column A. 
+3. Provide information related to each column header and click **[!UICONTROL Create Traits]**. This action prompts you to confirm your authentication. Your bulk job runs after you confirm your authentication. Check the lower left corner of the worksheet for a job status notification.
+
 
 >[!NOTE]
 >
@@ -116,6 +117,6 @@ As an example, let's take a look at how to create multiple traits at one time. T
 
 
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Download the Bulk Management Worksheet](assets/BAAAM_August_2018.xlsm)

@@ -79,6 +79,6 @@ Data is deleted after 8 (eight) days.
 
 You can only generate CDF files for the past 8 days. CDF files for intervals older than the past 8 days cannot be re-generated.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Customer Data Feeds](../features/cdf-files.md)

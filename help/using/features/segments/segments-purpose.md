@@ -44,6 +44,6 @@ Segments improve upon standard pixel-based audience creation/segmentation proces
 * Send segment data to a destination partner.
 * Monitor performance with Audience Manager reports.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Signals, Traits, and Segments](../../reference/signal-trait-segment.md)

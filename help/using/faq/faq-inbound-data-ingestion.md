@@ -238,7 +238,7 @@ Yes. [!DNL Audience Manager] does not store email addresses in our database. Vis
 
 **Are the data file contents case-sensitive? How about the ID sync?**
 
-There are two basic components of a data file: A Unique User ID (UUID) and profile data, usually in the form of key-value pairs or codes. The UUID is case-sensitive. Generally, profile or key-value data is not case-sensitive.
+There are two basic components of a data file: A User ID (see User ID in [File Variables Defined](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#file-variables-defined)) and profile data, usually in the form of key-value pairs or codes. The User ID is case-sensitive. Generally, profile or key-value data is not case-sensitive.
 
 <br>&nbsp;
 
@@ -264,6 +264,6 @@ As best practice, we recommend [!DNL Amazon S3] because the process is simpler. 
 
 It depends. [!DNL Audience Manager] reads up to 119000 entries from the [!DNL Amazon SQS] queue and splits them in up to 3 batches. Your files will be processed simultaneously only if they end up in the same batch. However, due to the high amount of data ingested by [!DNL Audience Manager] on a daily basis, we cannot guarantee any file processing order.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Batch Data Transfer Process Described](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md)

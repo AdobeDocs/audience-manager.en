@@ -126,11 +126,6 @@ The [!DNL JSON] response contains your new access token. The response should loo
 
 The Audience Manager [!UICONTROL REST API] supports authorization code and implicit authentication. To use these access methods, your users need to log in to `https://api.demdex.com/oauth/authorize` to get access and refresh tokens.
 
->[!MORE_LIKE_THIS]
->
->* [OAuth 2.0](https://oauth.net/2/)
->* [OAuth 2 Simplified](https://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified#browser-based-apps)
-
 ## Make Authenticated API Requests {#authenticated-api-requests}
 
 Requirements for calling [!DNL API] methods after you receive an authentication token.
@@ -141,10 +136,6 @@ To make calls against the available [!DNL API] methods:
 
 * In the `HTTP` header, set `Authorization: Bearer <token>`.
 * Call the required [!DNL API] method.
-
->[!MORE_LIKE_THIS]
->
->* [OAuth Authentication](../../api/rest-api-main/aam-api-getting-started.md#oauth)
 
 ## Optional API Query Parameters {#optional-api-query-parameters}
 
@@ -232,3 +223,9 @@ New versions of these [!DNL API]s are released on a regular schedule. A new rele
 |  404  | Not Found  | The resource could not be found for the specified path.  |
 |  409  | Conflict  | The request could not be completed due to a conflict with the state of the resource.  |
 |  500  | Server Error  | The server encountered an unexpected error that prevented it from fulfilling the request.  |
+
+>[!MORELIKETHIS]
+>
+>* [OAuth Authentication](../../api/rest-api-main/aam-api-getting-started.md#oauth)
+>* [OAuth 2.0](https://oauth.net/2/)
+>* [OAuth 2 Simplified](https://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified#browser-based-apps)

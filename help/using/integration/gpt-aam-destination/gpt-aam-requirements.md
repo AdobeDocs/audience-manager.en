@@ -45,6 +45,6 @@ Talk to your Audience Manager consultant or Customer Care if you want to set up 
 >
 >If your web pages are running the [Accelerated Media Pages](https://www.ampproject.org/) ([!DNL AMP]) library, you must use the server-side integration with Audience Manager. If you are on [!DNL AMP] and have a client-side integration with [!DNL AMP], you must migrate to the server-side integration. Please contact your Audience Manager consultant or Customer Care to discuss migration.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [GPT API Reference Guide](https://support.google.com/dfp_premium/bin/answer.py?hl=en&answer=1650154)

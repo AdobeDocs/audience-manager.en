@@ -32,9 +32,9 @@ Additionally, your Experience Platform segments are shared to other Experience C
 
 See the table below for an overview of audience sharing use cases:
 
-`*` | **Adobe Experience Platform** | **Audience Manager** | **Core Services**
+**Use Case** | **Adobe Experience Platform** | **Audience Manager** | **Core Services**
 ---------|----------|---------|---------
- **Audience Sharing Use Case** | <ul><li>Enrich customer profiles with Audience Manager data</li><li>Use Audience Manager data in Experience Platform segmentation</li></ul> | <ul><li>Add third party data to segments</li><li>Algorithmic modeling</li><li>Activation to additional destinations</li></ul> | Use Experience Platform segments in other Experience Cloud solutions, such as Adobe Target or Analytics.
+ **Audience Sharing** | <ul><li>Enrich customer profiles with Audience Manager data</li><li>Use Audience Manager data in Experience Platform segmentation</li></ul> | <ul><li>Add third party data to segments</li><li>Algorithmic modeling</li><li>Activation to additional destinations</li></ul> | Use Experience Platform segments in other Experience Cloud solutions, such as Adobe Target or Analytics.
 
 <br>&nbsp;
 
@@ -90,5 +90,5 @@ Item number | Name | Description
 ---------|----------|---------
  1 | Integration Code | The integration code corresponds to the segment ID in Experience Platform.
  2 | Data Source | Automatically created. All traits and segments that are created automatically from Experience Platform segments are stored in the data source **Adobe Experience Platform Audience Sharing**.
- 3 | Profile Merge Rule | The segment uses an automatically created [Profile Merge Rule](/help/using/features/profile-merge-rules/merge-rules-overview.md), with the **No Cross-Device Profile** and **Device Profile** options.
+ 3 | Profile Merge Rule | **External Merge Policy** indicates that automatically created segments follow the merge policy set up in Experience Platform. 
  4 | Segment Rule | The segment consists of the trait described in the [Traits section](#aep-segments-as-aam-traits).

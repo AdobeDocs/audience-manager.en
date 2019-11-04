@@ -70,7 +70,7 @@ Accounts are locked after 5-failed log in attempts. Contact your company's [!DNL
 
 Click the **[!UICONTROL Forgot password]** link from the login page to reset your password. You will receive an automated email with a temporary password that expires in 24 hours. Click the link in the email to access your account and reset your password. 
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Data Security](../overview/data-security-and-privacy/data-security.md)
 >* [Data Security](../overview/data-security-and-privacy/data-privacy.md)

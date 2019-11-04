@@ -149,7 +149,7 @@ The following table defines the actual real-time and total population metrics wh
 
 Presently, there is a known limitation because our segment size estimator does not account for profile merge rules. For example, look at segments with the **No Authenticated Profile + Current Device Profile**&nbsp;[merge rule](../../features/profile-merge-rules/merge-rule-definitions.md). Because of the way we currently compute the segment estimation numbers, the estimated populations will include authenticated profiles. However, the existing segment populations will correctly ignore authenticated profiles.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Profile Merge Rules and Device Graph FAQ](../../faq/faq-profile-merge.md)
 >* [Profile Link](../../features/profile-merge-rules/merge-rules-overview.md)
