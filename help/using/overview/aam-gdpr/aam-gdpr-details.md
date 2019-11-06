@@ -12,6 +12,8 @@ uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 
 This document covers the technicalities related to the privacy regulations compliance for Audience Manager.
 
+Before reading this article, we recommend going through the [Privacy Regulations Reference](aam-gdpr-faq.md), to better understand the terminology used here.
+
 ## Privacy Service Overview{#privacy-service-overview}
 
 Adobe ensures the Audience Manager privacy regulations compliance through the [Adobe Experience Platform Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html).
@@ -30,7 +32,7 @@ The sections below explain what GDPR means for Audience Manager and how you can 
 
 ## Data Privacy Requests {#types-of-gdpr-requests}
 
-You can submit individual data privacy requests to access and delete customer data from Audience Manager, in two ways:
+You can submit individual requests to access and delete customer data from Audience Manager, in two ways:
 
 * Through the [Privacy Service UI](https://gdprui.cloud.adobe.io/). See the documentation [here](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md).
 * Through the  **[!DNL Privacy Service API]**. See the documentation [here](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md) and the API reference [here](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml).
@@ -336,10 +338,6 @@ When submitting data privacy requests to Adobe Audience Manager, you must includ
 * **Definition**: Adobe Audience Manager Unique User ID
 * **Namespace ID**: 0
 
->[!NOTE]
->
->You can also use the [!DNL CORE] namespace. See the second [!DNL JSON] example.
-
 **JSON Example**:
 
 ```json
@@ -364,6 +362,9 @@ When submitting data privacy requests to Adobe Audience Manager, you must includ
   }
 ]
 ```
+>[!NOTE]
+>
+>You can also use the [!DNL CORE] namespace.
 
 ```json
  "users": [
@@ -490,7 +491,7 @@ When submitting data privacy requests to Adobe Audience Manager, you must includ
 **Definition**: Mobile advertising IDs.
 >[!IMPORTANT]
 >
-> If you are using the Mobile [!DNL SDK], then you should also send the Experience Cloud ID (MID) along with mobile advertising IDs for complete Access and Delete responses.
+> If you are using the Mobile [!DNL SDK], then you should also send the Experience Cloud ID (`MID`) along with mobile advertising IDs for complete Access and Delete responses.
 
 **Namespace ID**:
 
