@@ -1,18 +1,26 @@
 ---
-description: This document covers the technicalities related to the General Data Protection Regulation (GDPR) for Audience Manager and shows you how to submit GDPR requests to Audience Manager.
-seo-description: This document covers the technicalities related to the General Data Protection Regulation (GDPR) for Audience Manager and shows you how to submit GDPR requests to Audience Manager.
-seo-title: GDPR in Audience Manager
+description: This document covers the technicalities related to data privacy regulations compliance for Audience Manager.
+seo-description: This document covers the technicalities related to data privacy regulations compliance for Audience Manager.
+seo-title: Privacy Regulations Compliance in Audience Manager
 solution: Audience Manager
-keywords: GDPR UI, GDPR API
-title: GDPR in Audience Manager
+keywords: GDPR UI, GDPR API, CCPA, privacy
+title: Privacy Regulations Compliance in Audience Manager
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 ---
 
-# GDPR in Audience Manager{#gdpr-in-audience-manager}
+# Privacy Regulations Compliance in Audience Manager{#gdpr-in-audience-manager}
 
-This document covers the technicalities related to the General Data Protection Regulation (GDPR) for Audience Manager and shows you how to submit GDPR requests to Audience Manager.
+This document covers the technicalities related to the privacy regulations compliance for Audience Manager.
 
-## GDPR Documentation in the Experience Cloud {#gdpr-documentation}
+Before reading this article, we recommend going through the [Privacy Regulations Reference](aam-gdpr-faq.md), to better understand the terminology used here.
+
+## Privacy Service Overview{#privacy-service-overview}
+
+Adobe ensures the Audience Manager privacy regulations compliance through the [Adobe Experience Platform Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html).
+
+This service provides a [!DNL RESTful API] and user interface to help you manage customer data requests. Using the [Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html), you can submit requests to access and delete private or personal customer data, facilitating automated compliance with organizational and legal privacy regulations.
+
+<!-- ## GDPR Documentation in the Experience Cloud {#gdpr-documentation}
 
 Before reading the Audience Manager specifics, we advise you go through the Experience Cloud material for the European General Data Protection Regulation (GDPR), linked below:
 
@@ -20,28 +28,32 @@ Before reading the Audience Manager specifics, we advise you go through the Expe
 * [GDPR Whitepaper](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/gdpr-whitepaper.md) 
 * [GDPR Terminology](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/gdpr-terminology.md)
 
-The sections below explain what GDPR means for Audience Manager and how you can submit GDPR requests to Audience Manager.
+The sections below explain what GDPR means for Audience Manager and how you can submit GDPR requests to Audience Manager. -->
 
-## Types of GDPR Requests and How to Make a GDPR Request {#types-of-gdpr-requests}
+## Data Privacy Requests {#types-of-gdpr-requests}
 
-As an Audience Manager customer, you can submit individual GDPR requests to access and delete customer data, either through the **Privacy Service UI** ([UI link here](https://gdprui.cloud.adobe.io/) and [documentation here](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)) or by calling the **Privacy Service API** ([documentation here](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md) and [API reference here](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)). You can submit any Audience Manager identifiers (IDs), as described in the section **[Audience Manager Identifiers](../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids)**, in the requests along with their respective namespace IDs (data source IDs). If you have questions, please reach out to Customer Care at gdprsupport@adobe.com.
+You can submit individual requests to access and delete customer data from Audience Manager, in two ways:
 
-## Access Data {#access-data}
+* Through the [Privacy Service UI](https://gdprui.cloud.adobe.io/). See the documentation [here](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md).
+* Through the  **[!DNL Privacy Service API]**. See the documentation [here](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md) and the API reference [here](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml).
 
-We understand your commitment to honoring your GDPR customer requests within 30 days of reception. For that reason, we try to process your data access request as soon as possible.
+When sending data privacy requests, you can submit any Audience Manager identifiers (IDs), as described in the **[Audience Manager Identifiers](../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids)** section, along with their respective namespace IDs (data source IDs).
 
-**Request**
+The [Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) supports two types of requests: data access and data deletion requests.
 
-You can log data access requests through the **Privacy Service UI** ([UI link here](https://gdprui.cloud.adobe.io/) and [documentation here](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)) or by calling the **Privacy Service API** ([documentation here](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md) and [API reference here](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)). In either case, you must upload a JSON with the Audience Manager identifiers for which you are submitting the data access request. To see what a well-formed JSON looks like, you can **[download a sample JSON](assets/access_request.json)**.
+<!-- If you have questions, please reach out to Customer Care at gdprsupport@adobe.com. -->
 
-**Response**
+### Data Access Requests {#access-data}
 
-Responses to access data requests contain a summary of total number of traits and segments, trait type, descriptions of traits and segments along with the respective data source names. The Access response will also include second party and third party data accessible to the Data Controller along with the first party data. When [!UICONTROL declared IDs] such as cross device CRM IDs or customer cookie IDs are sent in GDPR requests, Audience Manager will include the Access response from all the linked devices (up to 100 devices per declared ID).
+You can send data access requests through the [Privacy Service UI](https://gdprui.cloud.adobe.io/) (documentation [here](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)) or by calling the [!DNL Privacy Service API] (documentation [here](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) and [!DNL API] reference [here](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)).
 
-**Response Status**
+Whether you are using the [!DNL UI] or the [!DNL API] to send data access requests, you must upload a [!DNL JSON] file with the Audience Manager identifiers for which you are submitting the data access request.
 
-If there are any errors from Audience Manager in the response, these are surfaced as error codes in the response. We have a [list of error codes](../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md), where you can find more information about the returned errors.
+To see what a valid [!DNL JSON] file looks like, you can [download a sample JSON](assets/access_request.json).
 
+We understand your commitment to honoring your data privacy customer requests within 30 days of reception. For that reason, we try to process your data access request as soon as possible.
+
+<!-- 
 **Example Response**
 
 A sample access response could look like the one below. In this example, the Data Subject's ID is a cookie ID. They qualified for several traits and belong to a few segments. The cookie ID is linked to a mobile ID. The example also contains metadata for the phone they use.
@@ -296,19 +308,21 @@ The table below contains descriptions for all the returned fields in the data ac
       </ul> </p> </p> </td> 
   </tr> 
  </tbody> 
-</table>
+</table> -->
 
-## Delete Data {#delete-data}
+## Data Deletion Requests{#delete-data}
 
-We understand your commitment to honoring your GDPR customer requests within 30 days of reception. For that reason, we try to process your data deletion request as soon as possible.
+You can send data deletion requests through the [Privacy Service UI](https://gdprui.cloud.adobe.io/) (documentation [here](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)) or by calling the [!DNL Privacy Service API] (documentation [here](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) and API reference [here](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)).
 
-**Request**
+Whether you are using the [!DNL UI] or the [!DNL API] to send data deletion requests, you must upload a [!DNL JSON] file with the Audience Manager identifiers for which you are submitting the request.
 
-You can log data deletion requests through the **Privacy Service UI** ([UI link here](https://gdprui.cloud.adobe.io/) and [documentation here](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)) or by calling the **Privacy Service API** ([documentation here](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md) and [API reference here](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)). In either case, you must upload a JSON with the Audience Manager identifiers for which you are submitting the data access request. To see what a well-formed JSON looks like, you can **[download a sample JSON](assets/delete_request.json)**.
+To see what a valid [!DNL JSON] file looks like, you can [download a sample JSON](assets/access_request.json).
 
-**Response**
+We understand your commitment to honoring your data privacy customer requests within 30 days of reception. For that reason, we try to process your data deletion request as soon as possible.
 
-In response to data deletion requests, we delete traits and segments associated with the respective Audience Manager identifier. In addition, the respective Audience Manager identifiers for the Data Subject will be permanently opted out of further data collection by Audience Manager and the respective Id mappings will be removed. When declared IDs such as cross device CRM Ids or customer cookie ids are sent in GDPR requests, Audience Manager will perform the necessary Delete actions on all the linked devices (up to 100 devices per declared ID).
+In response to data deletion requests, we delete traits and segments associated with the Audience Manager identifier included in the request. Additionally, the respective Audience Manager identifiers for the Data Subject will be permanently opted out of further data collection by Audience Manager and the respective ID mappings will be removed.
+
+When you send declared IDs, such as cross device [!DNL CRM] IDs or cookie IDs, in data privacy requests, Audience Manager will perform the necessary deletion on all the linked devices (up to 100 devices per declared ID).
 
 ## Opt-out Request {#opt-out-request}
 
@@ -316,23 +330,17 @@ For opt-out requests, please refer to our documentation on [Opt-out Management](
 
 ## Audience Manager Identifiers (IDs) {#aam-ids}
 
-When submitting GDPR requests to Adobe Audience Manager, you must include one of the identifiers (IDs) listed below. You can find more information on the ID formats in our [Index of Audience Manager IDs](../../reference/ids-in-aam.md).
+When submitting data privacy requests to Adobe Audience Manager, you must include one of the identifiers (IDs) listed below. You can find more information on the ID formats in our [Index of Audience Manager IDs](../../reference/ids-in-aam.md).
 
 ### Adobe Audience Manager Unique User ID
 
-**User ID**: aam_uuid 
+* **User ID**: `aam_uuid`
+* **Definition**: Adobe Audience Manager Unique User ID
+* **Namespace ID**: 0
 
-**Definition**: Adobe Audience Manager Unique User ID
+**JSON Example**:
 
-**Namespace ID**: 0
-
->[!NOTE]
->
->You can also use the CORE namespace. See the second JSON example.
-
-**Example in JSON**:
-
-```
+```json
  "users": [
   {
     "key": "Example user 1",
@@ -354,8 +362,11 @@ When submitting GDPR requests to Adobe Audience Manager, you must include one of
   }
 ]
 ```
+>[!NOTE]
+>
+>You can also use the [!DNL CORE] namespace.
 
-```
+```json
  "users": [
   {
     "key": "Example user 1",
@@ -380,19 +391,17 @@ When submitting GDPR requests to Adobe Audience Manager, you must include one of
 
 ### Adobe Experience Cloud ID
 
-**User ID**: mid
-
-**Definition**: Adobe Experience Cloud ID, formerly known as Visitor ID or Marketing Cloud ID
-
-**Namespace ID**: 4
+* **User ID**: `mid`
+* **Definition**: [!DNL Adobe Experience Cloud ID], formerly known as [!DNL Visitor ID] or [!DNL Marketing Cloud ID]
+* **Namespace ID**: 4
 
 >[!NOTE]
 >
->You can also use the ECID namespace. See the second JSON example.
+>You can also use the [!DNL ECID] namespace. See the second [!DNL JSON] example.
 
-**Example in JSON**:
+**JSON Example**:
 
-```
+```json
  "users": [
   {
     "key": "Example user 1",
@@ -415,7 +424,7 @@ When submitting GDPR requests to Adobe Audience Manager, you must include one of
 ]
 ```
 
-```
+```json
  "users": [
   {
     "key": "Example user 1",
@@ -440,15 +449,15 @@ When submitting GDPR requests to Adobe Audience Manager, you must include one of
 
 ### Customer ID
 
-**User ID**: cid 
+**User ID**: `cid`
 
-**Definition**: Customer ID, such as a cookie you set for anonymous site visitors or a CRM ID from an offline system or a hashed username
+**Definition**: Customer ID, such as a cookie you set for anonymous site visitors or a [!DNL CRM] ID from an offline system or a hashed username.
 
 **Namespace ID**: Customer-specific. Please find it from your Audience Manager instance.
 
-**Example in JSON**: 
+**JSON Example**:
 
-```
+```json
 "users": [
   {
     "key": "Example user 1",
@@ -456,7 +465,6 @@ When submitting GDPR requests to Adobe Audience Manager, you must include one of
       "access"
     ],
     "userIDs": [
-      
       {
         "namespace":"1234567",
         "type": "namespaceId",
@@ -478,23 +486,23 @@ When submitting GDPR requests to Adobe Audience Manager, you must include one of
 
 ### Mobile advertising ID
 
-**User ID**: d_cid
+**User ID**: `d_cid`
 
 **Definition**: Mobile advertising IDs.
 >[!IMPORTANT]
 >
-> If you are using the Mobile SDK, then you should also send the Experience Cloud ID (MID) along with mobile advertising IDs for complete GDPR Access and Delete responses.
+> If you are using the Mobile [!DNL SDK], then you should also send the Experience Cloud ID (`MID`) along with mobile advertising IDs for complete Access and Delete responses.
 
-**Namespace ID**: 
+**Namespace ID**:
 
-* IDFA: 20915
-* GAID: 20914
+* [!DNL IDFA]: 20915
+* [!DNL GAID]: 20914
 
 See [Global Data Sources](../../features/global-data-sources.md) for more details.
 
-**Example in JSON**: 
+**JSON Example**:
 
-```
+```json
 "users": [
   {
     "key": "Example user 1",
@@ -519,15 +527,15 @@ See [Global Data Sources](../../features/global-data-sources.md) for more detail
 
 ### Integration code
 
-**User ID**: d_cid_ic
+**User ID**: `d_cid_ic`
 
-**Definition**: An integration code for the data source. This can be used instead of data source ID / namespace ID in the API request to Adobe Experience Cloud Privacy Core Service.
+**Definition**: An integration code for the data source. This can be used instead of data source ID / namespace ID in the [!DNL API] request to [!DNL Adobe Experience Cloud Privacy Core Service].
 
 **Namespace ID**: Not applicable
 
-Example in JSON: 
+**JSON Example**:
 
-```
+```json
 "users": [
   {
     "key": "Example user 1",
