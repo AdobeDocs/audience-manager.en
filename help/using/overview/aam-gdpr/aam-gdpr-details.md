@@ -362,6 +362,7 @@ When submitting data privacy requests to Adobe Audience Manager, you must includ
   }
 ]
 ```
+
 >[!NOTE]
 >
 >You can also use the [!DNL CORE] namespace.
