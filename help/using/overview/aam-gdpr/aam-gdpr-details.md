@@ -490,16 +490,17 @@ When submitting data privacy requests to Adobe Audience Manager, you must includ
 **User ID**: `d_cid`
 
 **Definition**: Mobile advertising IDs.
->[!IMPORTANT]
->
-> If you are using the Mobile [!DNL SDK], then you should also send the Experience Cloud ID (`MID`) along with mobile advertising IDs for complete Access and Delete responses.
 
 **Namespace ID**:
 
-* [!DNL IDFA]: 20915
-* [!DNL GAID]: 20914
+* [!DNL IDFA:] 20915
+* [!DNL GAID:] 20914
 
 See [Global Data Sources](../../features/global-data-sources.md) for more details.
+
+>[!IMPORTANT]
+>
+> If you are using the Mobile [!DNL SDK], then you should also send the Experience Cloud ID (`MID`) along with mobile advertising IDs for complete Access and Delete responses.
 
 **JSON Example**:
 
