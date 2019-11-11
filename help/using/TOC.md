@@ -15,7 +15,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
         + [Overview](overview/data-security-and-privacy/data-security-privacy-overview.md)
         + [Data Security](overview/data-security-and-privacy/data-security.md)
         + [Data Privacy](overview/data-security-and-privacy/data-privacy.md)
-        + [Privacy Regulations Compliance in Audience Manager](overview/aam-gdpr/aam-gdpr-details.md)
+        + [Privacy Regulations Compliance in Audience Manager](overview/data-security-and-privacy/privacy-regulations.md)
         + [Opt-out Management](overview/data-security-and-privacy/opt-out-management.md)
     + General Data Protection Regulation (GDPR){#gdpr}
         + [GDPR Considerations for Destinations](overview/aam-gdpr/aam-gdpr-partners.md)
