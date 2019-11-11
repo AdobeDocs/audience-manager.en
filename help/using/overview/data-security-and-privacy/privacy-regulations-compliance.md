@@ -49,7 +49,7 @@ You can send data access requests through the [Privacy Service UI](https://gdpru
 
 Whether you are using the [!DNL UI] or the [!DNL API] to send data access requests, you must upload a [!DNL JSON] file with the Audience Manager identifiers for which you are submitting the data access request.
 
-To see what a valid [!DNL JSON] file looks like, you can [download a sample JSON](assets/access_request.json).
+To see what a valid [!DNL JSON] file looks like, you can [download a sample JSON](../aam-gdpr/assets/access_request.json).
 
 We understand your commitment to honoring your data privacy customer requests within 30 days of reception. For that reason, we try to process your data access request as soon as possible.
 
@@ -316,7 +316,7 @@ You can send data deletion requests through the [Privacy Service UI](https://gdp
 
 Whether you are using the [!DNL UI] or the [!DNL API] to send data deletion requests, you must upload a [!DNL JSON] file with the Audience Manager identifiers for which you are submitting the request.
 
-To see what a valid [!DNL JSON] file looks like, you can [download a sample JSON](assets/access_request.json).
+To see what a valid [!DNL JSON] file looks like, you can [download a sample JSON](../aam-gdpr/assets/access_request.json).
 
 We understand your commitment to honoring your data privacy customer requests within 30 days of reception. For that reason, we try to process your data deletion request as soon as possible.
 
