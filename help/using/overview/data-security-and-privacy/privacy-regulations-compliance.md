@@ -37,7 +37,7 @@ You can submit individual requests to access and delete customer data from Audie
 * Through the [Privacy Service UI](https://gdprui.cloud.adobe.io/). See the documentation [here](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md).
 * Through the  **[!DNL Privacy Service API]**. See the documentation [here](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md) and the API reference [here](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml).
 
-When sending data privacy requests, you can submit any Audience Manager identifiers (IDs), as described in the **[Audience Manager Identifiers](../../overview/data-security-and-privacy/privacy-regulations.md#aam-ids)** section, along with their respective namespace IDs (data source IDs).
+When sending data privacy requests, you can submit any Audience Manager identifiers (IDs), as described in the **[Audience Manager Identifiers](../../overview/data-security-and-privacy/privacy-regulations-compliance.md#aam-ids)** section, along with their respective namespace IDs (data source IDs).
 
 The [Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) supports two types of requests: data access and data deletion requests.
 
@@ -151,15 +151,15 @@ The table below contains descriptions for all the returned fields in the data ac
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> id</code> </p> </td> 
-   <td colname="col2"> <p>The user ID for the data that follows. This is either an id you provided in the GDPR data access request, or an ID that is linked to one of the declared IDs you provided. The ID types are described in the <a href="../../overview/data-security-and-privacy/privacy-regulations.md#aam-ids"> Audience Manager Identifiers</a> section. </p> </td> 
+   <td colname="col2"> <p>The user ID for the data that follows. This is either an id you provided in the GDPR data access request, or an ID that is linked to one of the declared IDs you provided. The ID types are described in the <a href="../../overview/data-security-and-privacy/privacy-regulations-compliance.md#aam-ids"> Audience Manager Identifiers</a> section. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> namespace</code> </p> </td> 
-   <td colname="col2"> <p>Also referred to as data source. See the <a href="../../overview/data-security-and-privacy/privacy-regulations.md#aam-ids"> Audience Manager Identifiers</a> section. </p> </td> 
+   <td colname="col2"> <p>Also referred to as data source. See the <a href="../../overview/data-security-and-privacy/privacy-regulations-compliance.md#aam-ids"> Audience Manager Identifiers</a> section. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> id</code> </p> </td> 
-   <td colname="col2"> <p>The ID of the namespace/data source. See <a href="../../overview/data-security-and-privacy/privacy-regulations.md#aam-ids"> Audience Manager Identifiers (IDs)</a> for all the accepted values. </p> </td> 
+   <td colname="col2"> <p>The ID of the namespace/data source. See <a href="../../overview/data-security-and-privacy/privacy-regulations-compliance.md#aam-ids"> Audience Manager Identifiers (IDs)</a> for all the accepted values. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> integration code </code> </p> </td> 
@@ -176,7 +176,7 @@ The table below contains descriptions for all the returned fields in the data ac
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> type </code> </p> </td> 
-   <td colname="col2"> <p>The type of ID for which you requested the GDPR data access. Accepted types are listed in the <a href="../../overview/data-security-and-privacy/privacy-regulations.md#aam-ids"> Audience Manager Identifiers</a> section. </p> </td> 
+   <td colname="col2"> <p>The type of ID for which you requested the GDPR data access. Accepted types are listed in the <a href="../../overview/data-security-and-privacy/privacy-regulations-compliance.md#aam-ids"> Audience Manager Identifiers</a> section. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> warnings</code> </p> </td> 
