@@ -12,7 +12,7 @@ uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 
 This document covers the technicalities related to the privacy regulations compliance for Audience Manager.
 
-Before reading this article, we recommend going through the [Privacy Regulations Reference](aam-gdpr-faq.md), to better understand the terminology used here.
+Before reading this article, we recommend going through the [FAQ](../aam-gdpr/aam-gdpr-faq.md), to better understand the terminology used here.
 
 ## Privacy Service Overview{#privacy-service-overview}
 
@@ -326,7 +326,7 @@ When you send declared IDs, such as cross device [!DNL CRM] IDs or cookie IDs, i
 
 ## Opt-out Request {#opt-out-request}
 
-For opt-out requests, please refer to our documentation on [Opt-out Management](../../overview/data-security-and-privacy/opt-out-management.md).
+For opt-out requests, please refer to our documentation on [Opt-out Management](../data-security-and-privacy/opt-out-management.md).
 
 ## Audience Manager Identifiers (IDs) {#aam-ids}
 
