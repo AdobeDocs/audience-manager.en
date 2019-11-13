@@ -26,7 +26,7 @@ The IAB TCF support described in this article represents the first phase in Audi
 
 * Mobile device workflows;
 * Cross-device consent management;
-* Appending consent to URLs sent to [URL destinations](/help/using/features/destinations/create-url-destination.md);
+* Appending consent to URLs sent to [URL destinations](../../features/destinations/create-url-destination.md);
 * Appending consent to segments.
 
 ## Prerequisites {#prerequisites}
@@ -35,7 +35,7 @@ You must meet the following prerequisites to use the IAB TCF with Audience Manag
 
 1. You must be using Experience Cloud ID Service (ECID) version 4.1 or newer. [Download](https://github.com/Adobe-Marketing-Cloud/id-service/releases) our latest ECID release.
 2. 
-   1. You must be using Audience Manager Data Integration Library (DIL) version 9.0 or newer, downloadable from [here](https://github.com/Adobe-Marketing-Cloud/dil/releases). Read about [DIL in the Audience Manager documentation](/help/using/dil/dil-overview.md).
+   1. You must be using Audience Manager Data Integration Library (DIL) version 9.0 or newer, downloadable from [here](https://github.com/Adobe-Marketing-Cloud/dil/releases). Read about [DIL in the Audience Manager documentation](../..//dil/dil-overview.md).
    2. Alternatively, if you use Server-Side Forwarding (SSF) to import data into Audience Manager, you must upgrade to the latest version of AppMeasurement. Download AppMeasurement using the [Analytics Code Manager](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html).
 3. You must be using a Consent Management Platform (CMP), either commercial or your own, that supports IAB, and is registered with the IAB TCF. See the list of [CMPs registered within the IAB framework](https://advertisingconsent.eu/cmp-list/).
 

@@ -21,7 +21,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
         + Data Privacy Reference {#data-privacy-reference}
             + [Audience Manager Identifiers](overview/data-security-and-privacy/data-privacy-ids.md)
             + [CCPA Glossary](overview/data-security-and-privacy/aam-ccpa-glossary.md)
-            + [GDPR Glossary](overview/data-security-and-privacy/aam-gdpr-faq.md)
+            + [GDPR Glossary](overview/data-security-and-privacy/aam-gdpr-glossary.md)
             + [GDPR Considerations for Destinations](overview/data-security-and-privacy/aam-gdpr-partners.md)
             + [GDPR Readiness Guidance for Audience Manager Customers](overview/data-security-and-privacy/aam-gdpr-readiness.md)
 + Features{#features}
