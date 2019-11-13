@@ -1,19 +1,21 @@
 ---
-description: This material contains some of the most common questions asked by our customers and partners related to the European General Data Protection Regulation (GDPR), and how Adobe Audience Manager, as a Data Processor, addresses various GDPR requirements.
-seo-description: This material contains some of the most common questions asked by our customers and partners related to the European General Data Protection Regulation (GDPR), and how Adobe Audience Manager, as a Data Processor, addresses various GDPR requirements.
-seo-title: GDPR FAQ
+description: This article explains the concepts and terminology used by the European General Data Protection Regulation (GDPR), and how Adobe Audience Manager, as a Data Processor, addresses various GDPR requirements.
+seo-description: This article explains the concepts and terminology used by the European General Data Protection Regulation (GDPR), and how Adobe Audience Manager, as a Data Processor, addresses various GDPR requirements.
+seo-title: GDPR Glossary
 solution: Audience Manager
-title: GDPR FAQ
+title: GDPR Glossary
 uuid: e52cad27-6a44-45ee-8524-6080adb86cc8
 ---
 
-# GDPR FAQ{#gdpr-faq}
+# GDPR Glossary {#gdpr-glossary}
 
-This material contains some of the most common questions asked by our customers and partners related to the European General Data Protection Regulation (GDPR), and how Adobe Audience Manager, as a Data Processor, addresses various GDPR requirements.
+## Overview {#overview}
 
-In this article, we address questions on GDPR readiness in Audience Manager. Make sure you also read the [Experience Cloud GDPR FAQ.](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/gdpr-faq.md)
+This article explains the concepts and terminology used by the European General Data Protection Regulation (GDPR), and how Adobe Audience Manager, as a Data Processor, addresses various GDPR requirements.
 
 GDPR came into effect on May 25, 2018 with primary objectives of giving individuals in the EU (Data Subjects) more control of their personal data while simplifying the regulatory environment for international businesses by better unifying regulation within the EU. As part of Adobe's GDPR readiness, the Adobe Audience Manager team has enhanced services and processes as necessary to support access and delete requests from Data Subjects, your consumers.
+
+Make sure you also read the [Experience Cloud GDPR FAQ.](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/gdpr-faq.md) for a better understanding of how GDPR works in Experience Cloud.
 
 ## GDPR Glossary {#gdpr-glossay}
 
@@ -49,7 +51,7 @@ Get familiar with key terms used related to GDPR. We’ve highlighted some of th
 
 <br>&nbsp;
 
-**Audience Manager Identifiers (IDs):** Adobe Audience Manager stores various types of IDs. The [GDPR in Audience Manager](../data-security-and-privacy/privacy-regulations-compliance.md#aam-ids) page provides a summary of these IDs, their corresponding data sources, and brief descriptions. When providing requests to Adobe, reference these IDs to make delete or access requests for your data subjects.
+**Audience Manager Identifiers (IDs):** Adobe Audience Manager stores various types of IDs. The [GDPR in Audience Manager](../data-security-and-privacy/data-privacy-requests.md#aam-ids) page provides a summary of these IDs, their corresponding data sources, and brief descriptions. When providing requests to Adobe, reference these IDs to make delete or access requests for your data subjects.
 
 <br>&nbsp;
 
@@ -81,19 +83,19 @@ Opt out can be managed for the Adobe Experience Cloud via the [Your Privacy Choi
 
 **Submitting Audience Manager GDPR Access and Delete Requests to Adobe**
 
-You can submit Individual GDPR requests for Access and Delete either through the [GDPR Client Services UI](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) or by calling the [GDPR API](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-id-onboarding.md). Any [Audience Manager identifiers](../data-security-and-privacy/privacy-regulations-compliance.md#aam-ids), can be submitted in the requests along with their respective namespace IDs (data source IDs). If you submit cross device identifiers such as CRM IDs, Audience Manager will take action on the authenticated profile as well as the device ids linked to it. It is recommended that customers use the Audience Manager Unique User ID (AAM UUID) whenever possible.
+You can submit Individual GDPR requests for Access and Delete either through the [GDPR Client Services UI](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) or by calling the [GDPR API](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-id-onboarding.md). Any [Audience Manager identifiers](../data-security-and-privacy/data-privacy-requests.md#aam-ids), can be submitted in the requests along with their respective namespace IDs (data source IDs). If you submit cross device identifiers such as CRM IDs, Audience Manager will take action on the authenticated profile as well as the device ids linked to it. It is recommended that customers use the Audience Manager Unique User ID (AAM UUID) whenever possible.
 
 <br>&nbsp;
 
 **Managing Access Requests**
 
-Before May 25th, 2018, Audience Manager supported accessing traits, Customer IDs and segments associated with a unique ID within Audience Manager, manually. As of May 25, 2018, we support these requests in the manner described above with various product and services enhancements. In addition to traits, Customer IDs, segments, a response to Access request includes a summary of total number of traits and segments, trait type, descriptions of traits and segments along with the respective data source names. The Access response also includes second party and third-party data accessible to the Data Controller along with the first party data. See more in [Data Access Requests](../data-security-and-privacy/privacy-regulations-compliance.md#access-data).
+Before May 25th, 2018, Audience Manager supported accessing traits, Customer IDs and segments associated with a unique ID within Audience Manager, manually. As of May 25, 2018, we support these requests in the manner described above with various product and services enhancements. In addition to traits, Customer IDs, segments, a response to Access request includes a summary of total number of traits and segments, trait type, descriptions of traits and segments along with the respective data source names. The Access response also includes second party and third-party data accessible to the Data Controller along with the first party data. See more in [Data Access Requests](../data-security-and-privacy/data-privacy-requests.md#access-data).
 
 <br>&nbsp;
 
 **Managing Requests for Deletion**
 
-Before May 25th, 2018, Audience Manager supported the manual deletion of traits, Customer IDs and segments associated with a unique ID within Audience Manager. Upon GDPR coming into effect, we support these requests in the manner described above with various product and service enhancements. In addition to the delete operation, the respective Audience Manager identifiers for the Data Subject will be opted out of further data collection and the respective ID mappings will be removed. See more in [Data Deletion Requests](../data-security-and-privacy/privacy-regulations-compliance.md#delete-data).
+Before May 25th, 2018, Audience Manager supported the manual deletion of traits, Customer IDs and segments associated with a unique ID within Audience Manager. Upon GDPR coming into effect, we support these requests in the manner described above with various product and service enhancements. In addition to the delete operation, the respective Audience Manager identifiers for the Data Subject will be opted out of further data collection and the respective ID mappings will be removed. See more in [Data Deletion Requests](../data-security-and-privacy/data-privacy-requests.md#delete-data).
 
 <br>&nbsp;
 
@@ -132,31 +134,3 @@ Given that Audience Manager is not the source of the data, there is a limited ro
 GDPR doesn’t prohibit transfer of data outside of Europe. It requires that the privacy protections on European data persist wherever the data is transferred. Visit the [Adobe Privacy Center](https://www.adobe.com/privacy/eudatatransfers.html) to learn more.
 
 <br>&nbsp;
-
-## GDPR Readiness Guidance for Audience Manager Customers (Data Controllers) {#gdpr-readiness-guidance}
-
-We recommend being proactive in the areas of data governance and organizational readiness. This ensures that your consumer data will be organized for processes related to access or delete requests, your teams will be enabled and empowered to manage these requests, and your consumers (Data Subjects) will have a positive, differentiated experience with your brand.
-
-Please note, as your Data Processor, Adobe cannot provide legal advice on GDPR requirements and the process for obtaining consent from your Data Subjects. Please consult with your legal counsel for guidance on GDPR compliance for your organization.
-
-<br>&nbsp;
-
-**Data Governance: Start thinking about how your consumer data is managed in your in Audience Manager instance**
-
-* Review the various customer IDs your marketing teams use to identify users in Audience Manager, along with the data sources in which they are stored. This will streamline the process for requests (such as delete or access) since certain data types will be hashed by your teams prior to ingestion in Audience Manager. 
-* IDFA/GAID mobile device IDs are used for multiple use cases in Audience Manager. If you are using Adobe Mobile SDK, please make sure to submit the Experience Cloud ID (MID) along with IDFA/GAID to make sure the GDPR responses are complete. 
-* With the definition of personal data becoming more expansive, IP addresses may be considered personal data in your region. Proactively engage with Adobe Consulting to obfuscate the last octet. 
-* Determine a validation/authentication policy & process for confirming the identity of a Data Subject when they make a GDPR request. 
-* Consider using [Data Export Controls](../../features/data-export-controls.md) to block audience activation to technologies that house personal data. For example, segments with third-party data should not syndicated to email service providers. Set a [!UICONTROL Data Export Control] to ensure that no one in your organization can accidentally activate this data. 
-* Begin utilizing [Role Based Access Controls](../../features/administration/administration-overview.md) to ensure the right teams have access to intended data. 
-* Consider appropriate [retention periods](../../faq/faq-privacy.md#data-retention-faq) for the data. 
-* Review identity linkage and privacy policies and legal requirements to see when and where it is appropriate to tie identity sets together; use appropriately via Audience Manager’s [Profile Merge Rules](../../features/profile-merge-rules/merge-rules-overview.md).
-
-<br>&nbsp;
-
-**Organizational Readiness: Establish a business process**
-
-* Identify a process to receive/respond to Data Subject requests. Consider building an automated tool to submit requests to Audience Manager. 
-* Appoint a privacy point of contact within your DMP center of excellence. Connect your organization’s privacy point of contact with your Audience Manager product usage team to understand how you might manage your input ID requirements. 
-* Conduct a data review prior to sharing with the Data Subject. Document the steps you put in place, to help you establish accountability.
-
