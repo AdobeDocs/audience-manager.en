@@ -49,7 +49,7 @@ This is easiest done by using [Adobe Launch](https://docs.adobelaunch.com/) to i
 
 When visiting a web property, your users can provide their choices regarding how their data is to be used by the publisher and by the third-party vendors that the publisher works with. Users provide their choices in the form of *standard purposes* and permissions to *third-party vendors* registered in the global vendor list. The image below represents an example of a CMP dialogue, displayed to a first-time visitor of a website. Keep in mind that this dialogue can look very different, based on customer implementation.
 
-![CMP dialogue](/help/using/overview/aam-gdpr/assets/cmp.png)
+![CMP dialogue](assets/cmp.png)
 
 The standard purposes in the IAB framework are:
 

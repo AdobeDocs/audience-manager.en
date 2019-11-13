@@ -17,12 +17,12 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
         + [Data Privacy Overview](overview/data-security-and-privacy/data-privacy.md)
         + [Data Privacy Requests](overview/data-security-and-privacy/data-privacy-requests.md)
         + Consent Management {#consent-management}
-            + [Audience Manager Plug-in for IAB TCF](/help/using/overview/aam-gdpr/aam-iab-plugin.md)
+            + [Audience Manager Plug-in for IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md)
         + Data Privacy Reference {#data-privacy-reference}
             + [Audience Manager Identifiers](overview/data-security-and-privacy/data-privacy-ids.md)
             + [CCPA Glossary](overview/data-security-and-privacy/aam-ccpa-glossary.md)
-            + [GDPR Glossary](overview/aam-gdpr/aam-gdpr-faq.md)
-            + [GDPR Considerations for Destinations](overview/aam-gdpr/aam-gdpr-partners.md)
+            + [GDPR Glossary](overview/data-security-and-privacy/aam-gdpr-faq.md)
+            + [GDPR Considerations for Destinations](overview/data-security-and-privacy/aam-gdpr-partners.md)
             + [GDPR Readiness Guidance for Audience Manager Customers](overview/data-security-and-privacy/aam-gdpr-readiness.md)
 + Features{#features}
     + [Addressable Audiences](features/addressable-audiences.md)
