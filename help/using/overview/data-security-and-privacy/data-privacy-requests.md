@@ -1,47 +1,31 @@
 ---
 description: This document covers the technicalities related to data privacy regulations compliance for Audience Manager.
 seo-description: This document covers the technicalities related to data privacy regulations compliance for Audience Manager.
-seo-title: Privacy Regulations Compliance in Audience Manager
+seo-title: Data Privacy Requests
 solution: Audience Manager
 keywords: GDPR UI, GDPR API, CCPA, privacy
-title: Privacy Regulations Compliance in Audience Manager
+title: Data Privacy Requests
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 ---
 
-# Privacy Regulations Compliance in Audience Manager{#gdpr-in-audience-manager}
+# Data Privacy Requests {#data-privacy-requests}
 
-This document covers the technicalities related to the privacy regulations compliance for Audience Manager.
+This document provides an overview of the data privacy requests that you can send to Audience Manager through the [Privacy Service UI](https://gdprui.cloud.adobe.io/) and the **[!DNL Privacy Service API]**.
 
-Before reading this article, we recommend going through the [FAQ](../aam-gdpr/aam-gdpr-faq.md), to better understand the terminology used here.
+These tools allow you to send data privacy requests in compliance with GDPR and CCPA.
 
-## Privacy Service Overview{#privacy-service-overview}
+Before reading this article, we recommend going through the [GDPR Glossary](../aam-gdpr/aam-gdpr-faq.md) and [CCPA Glossary], to better understand the terminology used here.
 
-Adobe ensures the Audience Manager privacy regulations compliance through the [Adobe Experience Platform Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html).
-
-This service provides a [!DNL RESTful API] and user interface to help you manage customer data requests. Using the [Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html), you can submit requests to access and delete private or personal customer data, facilitating automated compliance with organizational and legal privacy regulations.
-
-<!-- ## GDPR Documentation in the Experience Cloud {#gdpr-documentation}
-
-Before reading the Audience Manager specifics, we advise you go through the Experience Cloud material for the European General Data Protection Regulation (GDPR), linked below:
-
-* [GDPR and Your Business](https://www.adobe.com/privacy/general-data-protection-regulation.html) 
-* [GDPR Whitepaper](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/gdpr-whitepaper.md) 
-* [GDPR Terminology](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/gdpr-terminology.md)
-
-The sections below explain what GDPR means for Audience Manager and how you can submit GDPR requests to Audience Manager. -->
-
-## Data Privacy Requests {#types-of-gdpr-requests}
+## Overview {#overview}
 
 You can submit individual requests to access and delete customer data from Audience Manager, in two ways:
 
 * Through the [Privacy Service UI](https://gdprui.cloud.adobe.io/). See the documentation [here](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md).
 * Through the  **[!DNL Privacy Service API]**. See the documentation [here](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md) and the API reference [here](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml).
 
-When sending data privacy requests, you can submit any Audience Manager identifiers (IDs), as described in the **[Audience Manager Identifiers](../../overview/data-security-and-privacy/privacy-regulations-compliance.md#aam-ids)** section, along with their respective namespace IDs (data source IDs).
+When sending data privacy requests, you can submit any Audience Manager identifiers (IDs), as described in the **[Audience Manager Identifiers](../../overview/data-security-and-privacy/data-privacy-requests.md#aam-ids)** section, along with their respective namespace IDs (data source IDs).
 
 The [Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) supports two types of requests: data access and data deletion requests.
-
-<!-- If you have questions, please reach out to Customer Care at gdprsupport@adobe.com. -->
 
 ### Data Access Requests {#access-data}
 
@@ -151,15 +135,15 @@ The table below contains descriptions for all the returned fields in the data ac
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> id</code> </p> </td> 
-   <td colname="col2"> <p>The user ID for the data that follows. This is either an id you provided in the GDPR data access request, or an ID that is linked to one of the declared IDs you provided. The ID types are described in the <a href="../../overview/data-security-and-privacy/privacy-regulations-compliance.md#aam-ids"> Audience Manager Identifiers</a> section. </p> </td> 
+   <td colname="col2"> <p>The user ID for the data that follows. This is either an id you provided in the GDPR data access request, or an ID that is linked to one of the declared IDs you provided. The ID types are described in the <a href="../../overview/data-security-and-privacy/data-privacy-requests.md#aam-ids"> Audience Manager Identifiers</a> section. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> namespace</code> </p> </td> 
-   <td colname="col2"> <p>Also referred to as data source. See the <a href="../../overview/data-security-and-privacy/privacy-regulations-compliance.md#aam-ids"> Audience Manager Identifiers</a> section. </p> </td> 
+   <td colname="col2"> <p>Also referred to as data source. See the <a href="../../overview/data-security-and-privacy/data-privacy-requests.md#aam-ids"> Audience Manager Identifiers</a> section. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> id</code> </p> </td> 
-   <td colname="col2"> <p>The ID of the namespace/data source. See <a href="../../overview/data-security-and-privacy/privacy-regulations-compliance.md#aam-ids"> Audience Manager Identifiers (IDs)</a> for all the accepted values. </p> </td> 
+   <td colname="col2"> <p>The ID of the namespace/data source. See <a href="../../overview/data-security-and-privacy/data-privacy-requests.md#aam-ids"> Audience Manager Identifiers (IDs)</a> for all the accepted values. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> integration code </code> </p> </td> 
@@ -176,7 +160,7 @@ The table below contains descriptions for all the returned fields in the data ac
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> type </code> </p> </td> 
-   <td colname="col2"> <p>The type of ID for which you requested the GDPR data access. Accepted types are listed in the <a href="../../overview/data-security-and-privacy/privacy-regulations-compliance.md#aam-ids"> Audience Manager Identifiers</a> section. </p> </td> 
+   <td colname="col2"> <p>The type of ID for which you requested the GDPR data access. Accepted types are listed in the <a href="../../overview/data-security-and-privacy/data-privacy-requests.md#aam-ids"> Audience Manager Identifiers</a> section. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> warnings</code> </p> </td> 
@@ -324,238 +308,96 @@ In response to data deletion requests, we delete traits and segments associated 
 
 When you send declared IDs, such as cross device [!DNL CRM] IDs or cookie IDs, in data privacy requests, Audience Manager will perform the necessary deletion on all the linked devices (up to 100 devices per declared ID).
 
-## Opt-out Request {#opt-out-request}
+## Opt-out Requests {#opt-out-request}
 
-For opt-out requests, please refer to our documentation on [Opt-out Management](../data-security-and-privacy/opt-out-management.md).
+Adobe complies with all industry-wide standards with regard to opt-out management. Read on for complete information on the types of opt-out supported by Audience Manager.
 
-## Audience Manager Identifiers (IDs) {#aam-ids}
+### Global Opt-out Requests
 
-When submitting data privacy requests to Adobe Audience Manager, you must include one of the identifiers (IDs) listed below. You can find more information on the ID formats in our [Index of Audience Manager IDs](../../reference/ids-in-aam.md).
+The global opt-out represents an opt-out across Audience Manager and other Adobe Experience Cloud solutions for all brands. The table below lists the methods used for global opt-out:
 
-### Adobe Audience Manager Unique User ID
+<table id="table_F1027B9633E948DCBB11C141B381682A"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> Opt-Out For </th> 
+   <th colname="col2" class="entry"> Description </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p>Adobe Experience Cloud </p> </td> 
+   <td colname="col2"> <p>The <a href="https://www.adobe.com/privacy/opt-out.html#customeruse" format="http" scope="external"> Your Privacy Choices page </a> provides 1-click features that let your end users control and opt-out of data collection by the Adobe Experience Cloud advertising solutions (including Audience Manager). Specifically, see the <a href="https://www.adobe.com/privacy/opt-out.html#customeruse" format="http" scope="external"> business customer section </a> of the Privacy Choices page. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Direct API calls to Audience Manager </p> </td> 
+   <td colname="col2"> <p>You can opt-out from data collection by all Audience Manager brands by making a call to the DCS API below and include the <a href="../../reference/ids-in-aam.md"> Audience Manager User ID </a>: </p> <p> <code> curl -i "https://www.demdex.net/demoptout.jpg" --cookie "demdex=12345678901234567890123456789012345678;dextp=12;DST=12" </code> </p> <p>As a result, we will set <code>demdex=NOTARGET</code> and <code>dextp=NOTARGET</code> cookies for the submitted Audience Manager User ID. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Mobile devices </p> </td> 
+   <td colname="col2"> <p>See the opt-out and privacy settings for: </p> <p> 
+     <ul id="ul_78042D6D302F4119A2439BF71F228288"> 
+      <li id="li_5A0EDABDEF454FEEBBBFF4D68CC9A366"> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/privacy.html" format="https" scope="external"> Android devices </a> </li> 
+      <li id="li_690067D869B84A9598AA97388D56F1BE"> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/privacy.html" format="https" scope="external"> iOS devices </a> </li> 
+     </ul> </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
-* **User ID**: `aam_uuid`
-* **Definition**: Adobe Audience Manager Unique User ID
-* **Namespace ID**: 0
+Your end users can also opt out of global data collection by visiting the websites of our industry standards partners.
 
-**JSON Example**:
+* [The Digital Advertising Alliance (DAA)](https://optout.aboutads.info/?c=2#!/); 
+* [Network Advertising Initiative (NAI)](https://optout.networkadvertising.org/?c=1#!/).
 
-```json
- "users": [
-  {
-    "key": "Example user 1",
-    "action": [
-      "access"
-    ],
-    "userIDs": [
-      {
-        "namespace": "0",
-        "type": "namespaceId",
-        "value": "85302821933904870272023537812382806531"
-      },
-      {
-        "namespace": "0",
-        "type": "namespaceId",
-        "value": "85690090981158357332062532910972162921"
-      }
-    ]
-  }
-]
-```
+Following the opt-out requests described above:
 
->[!NOTE]
->
->You can also use the [!DNL CORE] namespace.
+* Audience Manager will cease all data collection, segmentation or activation going forward.
+* Historical data is removed from the user profile after 120 days.
 
-```json
- "users": [
-  {
-    "key": "Example user 1",
-    "action": [
-      "access"
-    ],
-    "userIDs": [
-      {
-        "namespace": "CORE",
-        "type": "standard",
-        "value": "85302821933904870272023537812382806531"
-      },
-      {
-        "namespace": "CORE",
-        "type": "standard",
-        "value": "85690090981158357332062532910972162921"
-      }
-    ]
-  }
-]
-```
+### Partner Level Opt-Out
 
-### Adobe Experience Cloud ID
+The partner-level opt-out permits opting out from data collection by specific Audience Manager partners. The partner-level opt-out works with [Declared ID](../../features/declared-ids.md) calls and Device ID calls, as described in the sections below.
 
-* **User ID**: `mid`
-* **Definition**: [!DNL Adobe Experience Cloud ID], formerly known as [!DNL Visitor ID] or [!DNL Marketing Cloud ID]
-* **Namespace ID**: 4
+#### Partner Level Opt-Out with Declared ID calls
 
->[!NOTE]
->
->You can also use the [!DNL ECID] namespace. See the second [!DNL JSON] example.
+Following a partner-level opt-out with a declared ID call:
 
-**JSON Example**:
+* The last device ID ([Audience Manager Unique User ID](../../reference/ids-in-aam.md)) linked to the [CRM ID](../../reference/ids-in-aam.md) is opted out of data collection. 
+* Audience Manager will cease all data collection, segmentation or activation going forward for the last device ID linked to the CRM ID. 
+* No historical data is deleted.
 
-```json
- "users": [
-  {
-    "key": "Example user 1",
-    "action": [
-      "access"
-    ],
-    "userIDs": [
-      {
-        "namespace": "4",
-        "type": "namespaceId",
-        "value": "54893990981158357332062532910972162921"
-      },
-      {
-        "namespace": "4",
-        "type": "namespaceId",
-        "value": "46990090981158357332062532910972162921"
-      }
-    ]
-  }
-]
-```
+#### Opt-out Calls
 
-```json
- "users": [
-  {
-    "key": "Example user 1",
-    "action": [
-      "access"
-    ],
-    "userIDs": [
-      {
-        "namespace": "ECID",
-        "type": "standard",
-        "value": "54893990981158357332062532910972162921"
-      },
-      {
-        "namespace": "ECID",
-        "type": "standard",
-        "value": "46990090981158357332062532910972162921"
-      }
-    ]
-  }
-]
-```
+When Audience Manager receives a partner-level opt-out request, the JSON returned by the DCS contains the [error code 171](../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md#opt-out-error-codes), with the message [!UICONTROL "Encountered opt out tag"], instead of the Audience Manager user ID.
 
-### Customer ID
+#### Examples
 
-**User ID**: `cid`
+You can make a declared ID opt-out request with the `d_cid` and `d_cid_ic` key-value pairs. The legacy parameters like `d_dpid` and `d_dpuuid` still work, but are considered deprecated. See [CID Replaces DPID and DPUUID](../../reference/cid.md). In the examples, *italics* indicates a variable placeholder.
 
-**Definition**: Customer ID, such as a cookie you set for anonymous site visitors or a [!DNL CRM] ID from an offline system or a hashed username.
+#### Opt-Outs With CID and CID_IC
 
-**Namespace ID**: Customer-specific. Please find it from your Audience Manager instance.
+For a description and syntax, see [URL Variables and Syntax for Declared IDs](../../features/declared-ids.md#variables-and-syntax).
 
-**JSON Example**:
+| Opt-Out Using | Code Sample |
+|--- |--- |
+|A data provider ID and user ID.|`https://domain name/demoptout.jpg?d_cid=123%01987...`|
+|An integration code and user ID.|`https://domain name/demoptout?d_cid_ic=456%01321...`|
+|Multiple  d_cid  and  d_cid_ic  key-value pairs.|`https://domain name/demoptout?d_cid=123%01987&d_cid_ic=456%01321...`|
 
-```json
-"users": [
-  {
-    "key": "Example user 1",
-    "action": [
-      "access"
-    ],
-    "userIDs": [
-      {
-        "namespace":"1234567",
-        "type": "namespaceId",
-        "value": "unique-user-id-for-datasource-1234567"
-      },
-      {
-        "namespace": "1234567",
-        "type": "namespaceId",
-        "value": "another-unique-user-id-for-datasource-1234567"
-      },
-      {
-        "namespace":"54321",
-        "type": "namespaceId",
-        "value": "unique-user-id-for-datasource-54321"
-      }
-    ]
-  }
-  ```
+&nbsp;
 
-### Mobile advertising ID
+### Partner Level Opt-Out with Device ID calls
 
-**User ID**: `d_cid`
+You can opt-out from data collection on a given device ID for a brand by making the following calls to the [DCS API](/help/using/api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md):
 
-**Definition**: Mobile advertising IDs.
+| Opt-Out Using | Code Sample |
+|--- |--- |
+|An Audience Manager Unique User ID (`uuid`).|`http://yourcompany.demdex.net/demoptout.jpg?d_uuid=123`|
+|An Experience Cloud ID (`mid`)|`http://yourcompany.demdex.net/demoptout.jpg?d_mid=123&d_orgid=IMSoRGid`|
 
-**Namespace ID**:
+Read more about `uuid`, `mid` and `imsOrgId` in the [Index of IDs in Audience Manager](/help/using/reference/ids-in-aam.md).
 
-* [!DNL IDFA:] 20915
-* [!DNL GAID:] 20914
+Following a partner-level opt-out with a device ID call:
 
-See [Global Data Sources](../../features/global-data-sources.md) for more details.
-
->[!IMPORTANT]
->
-> If you are using the Mobile [!DNL SDK], then you should also send the Experience Cloud ID (`MID`) along with mobile advertising IDs for complete Access and Delete responses.
-
-**JSON Example**:
-
-```json
-"users": [
-  {
-    "key": "Example user 1",
-    "action": [
-      "access"
-    ],
-    "userIDs": [
-      {
-        "namespace":"20914",
-        "type": "namespaceId",
-        "value": "e4fe9bde-caa0-47b6-908d-ffba3fa184f2"
-      },
-      {
-        "namespace":"20915",
-        "type": "namespaceId",
-        "value": "AEBE52E7-03EE-455A-B3C4-E57283966239"
-      }
-    ]
-  }
-]
-```
-
-### Integration code
-
-**User ID**: `d_cid_ic`
-
-**Definition**: An integration code for the data source. This can be used instead of data source ID / namespace ID in the [!DNL API] request to [!DNL Adobe Experience Cloud Privacy Core Service].
-
-**Namespace ID**: Not applicable
-
-**JSON Example**:
-
-```json
-"users": [
-  {
-    "key": "Example user 1",
-    "action": [
-      "access"
-    ],
-    "userIDs": [
-      {
-        "namespace": "loyaltyCard",
-        "type": "integrationCode",
-        "value": "272023537812"
-      },
-      {
-        "namespace":"offlineCampaign",
-        "type": "integrationCode",
-        "value": "9546673332"
-      }
-    ]
-  }
-]
-```
+* The device ID is opted out of data collection. 
+* Audience Manager will cease all data collection, segmentation or activation, for the partner, going forward for the device ID.
+* No historical data is deleted.
