@@ -365,7 +365,7 @@ When Audience Manager receives a partner-level opt-out request, the JSON returne
 
 You can make a declared ID opt-out request with the `d_cid` and `d_cid_ic` key-value pairs. The legacy parameters like `d_dpid` and `d_dpuuid` still work, but are considered deprecated. See [CID Replaces DPID and DPUUID](../../reference/cid.md). In the examples, *italics* indicates a variable placeholder.
 
-##### Opt-Outs With CID and CID_IC
+#### Opt-Outs With CID and CID_IC
 
 For a description and syntax, see [URL Variables and Syntax for Declared IDs](../../features/declared-ids.md#variables-and-syntax).
 
