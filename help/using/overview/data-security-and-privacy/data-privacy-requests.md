@@ -10,13 +10,13 @@ uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 
 # Data Privacy Requests {#data-privacy-requests}
 
+## Overview {#overview}
+
 This document provides an overview of the data privacy requests that you can send to Audience Manager through the [Privacy Service UI](https://gdprui.cloud.adobe.io/) and the **[!DNL Privacy Service API]**.
 
 These tools allow you to send data privacy requests in compliance with GDPR and CCPA.
 
-Before reading this article, we recommend going through the [GDPR Glossary](../aam-gdpr/aam-gdpr-faq.md) and [CCPA Glossary], to better understand the terminology used here.
-
-## Overview {#overview}
+Before reading this article, we recommend going through the [GDPR Glossary](../aam-gdpr/aam-gdpr-faq.md) and [CCPA Glossary](aam-ccpa-glossary.md), to better understand the terminology used here.
 
 You can submit individual requests to access and delete customer data from Audience Manager, in two ways:
 
@@ -394,7 +394,7 @@ Following a partner-level opt-out with a device ID call:
 * Audience Manager will cease all data collection, segmentation or activation, for the partner, going forward for the device ID.
 * No historical data is deleted.
 
-### Data Correction Requests {#correction}
+## Data Correction Requests {#correction}
 
 Given that Audience Manager is not the source of the data, there is a limited role for data correction in Audience Manager. The correction could mean that the Data Subject has requested to either be disqualified from an incorrect trait/segment or qualified to the desired trait/segment.
 
