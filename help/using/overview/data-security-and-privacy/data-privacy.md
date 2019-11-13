@@ -22,8 +22,6 @@ In our continuing support of this model, Audience Manager remains committed to p
 
 See the [Adobe Privacy Center](https://www.adobe.com/privacy/opt-out.html) for more details.
 
-## Privacy Service Overview {#privacy-service-overview}
-
 Adobe ensures the Audience Manager privacy regulations compliance through the [Adobe Experience Platform Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html).
 
 This service provides a [!DNL RESTful API] and user interface to help you manage customer data requests. Using the [Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html), you can submit requests to access and delete private or personal customer data, facilitating automated compliance with organizational and legal privacy regulations.
