@@ -27,7 +27,7 @@ When sending data privacy requests, you can submit any Audience Manager identifi
 
 The [Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) supports two types of requests: data access and data deletion requests.
 
-### Data Access Requests {#access-data}
+## Data Access Requests {#access-data}
 
 You can send data access requests through the [Privacy Service UI](https://gdprui.cloud.adobe.io/) (documentation [here](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)) or by calling the [!DNL Privacy Service API] (documentation [here](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) and [!DNL API] reference [here](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)).
 
@@ -353,27 +353,19 @@ Following the opt-out requests described above:
 * Audience Manager will cease all data collection, segmentation or activation going forward.
 * Historical data is removed from the user profile after 120 days.
 
-### Partner Level Opt-Out
+### Partner Level Opt-Out with Declared ID calls
 
-The partner-level opt-out permits opting out from data collection by specific Audience Manager partners. The partner-level opt-out works with [Declared ID](../../features/declared-ids.md) calls and Device ID calls, as described in the sections below.
+The partner-level opt-out helps you opt out from data collection by specific Audience Manager partners. Following a partner-level opt-out with a declared ID call:
 
-#### Partner Level Opt-Out with Declared ID calls
-
-Following a partner-level opt-out with a declared ID call:
-
-* The last device ID ([Audience Manager Unique User ID](../../reference/ids-in-aam.md)) linked to the [CRM ID](../../reference/ids-in-aam.md) is opted out of data collection. 
-* Audience Manager will cease all data collection, segmentation or activation going forward for the last device ID linked to the CRM ID. 
+* The last device ID ([Audience Manager Unique User ID](../../reference/ids-in-aam.md)) linked to the [CRM ID](../../reference/ids-in-aam.md) is opted out of data collection.
+* Audience Manager will cease all data collection, segmentation or activation going forward for the last device ID linked to the CRM ID.
 * No historical data is deleted.
-
-#### Opt-out Calls
 
 When Audience Manager receives a partner-level opt-out request, the JSON returned by the DCS contains the [error code 171](../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md#opt-out-error-codes), with the message [!UICONTROL "Encountered opt out tag"], instead of the Audience Manager user ID.
 
-#### Examples
-
 You can make a declared ID opt-out request with the `d_cid` and `d_cid_ic` key-value pairs. The legacy parameters like `d_dpid` and `d_dpuuid` still work, but are considered deprecated. See [CID Replaces DPID and DPUUID](../../reference/cid.md). In the examples, *italics* indicates a variable placeholder.
 
-#### Opt-Outs With CID and CID_IC
+##### Opt-Outs With CID and CID_IC
 
 For a description and syntax, see [URL Variables and Syntax for Declared IDs](../../features/declared-ids.md#variables-and-syntax).
 
@@ -387,7 +379,7 @@ For a description and syntax, see [URL Variables and Syntax for Declared IDs](..
 
 ### Partner Level Opt-Out with Device ID calls
 
-You can opt-out from data collection on a given device ID for a brand by making the following calls to the [DCS API](/help/using/api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md):
+The partner-level opt-out helps you opt out from data collection by specific Audience Manager partners. You can opt-out from data collection on a given device ID for a brand by making the following calls to the [DCS API](/help/using/api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md):
 
 | Opt-Out Using | Code Sample |
 |--- |--- |
@@ -401,3 +393,9 @@ Following a partner-level opt-out with a device ID call:
 * The device ID is opted out of data collection. 
 * Audience Manager will cease all data collection, segmentation or activation, for the partner, going forward for the device ID.
 * No historical data is deleted.
+
+### Data Correction Requests {#correction}
+
+Given that Audience Manager is not the source of the data, there is a limited role for data correction in Audience Manager. The correction could mean that the Data Subject has requested to either be disqualified from an incorrect trait/segment or qualified to the desired trait/segment.
+
+Audience Manager Customers can choose to capture the relevant signals/traits/segments against user profiles and send this information through offline data ingestion to Audience Manager. Please note that the user will continue to get qualified to the original trait and segments if they repeat their behavior.
