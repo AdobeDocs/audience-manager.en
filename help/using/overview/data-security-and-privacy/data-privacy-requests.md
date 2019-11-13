@@ -16,7 +16,7 @@ This document provides an overview of the data privacy requests that you can sen
 
 These tools allow you to send data privacy requests in compliance with GDPR and CCPA.
 
-Before reading this article, we recommend going through the [GDPR Glossary](../aam-gdpr/aam-gdpr-faq.md) and [CCPA Glossary](aam-ccpa-glossary.md), to better understand the terminology used here.
+Before reading this article, we recommend going through the [GDPR Glossary](../data-security-and-privacy/aam-gdpr-glossary.md) and [CCPA Glossary](aam-ccpa-glossary.md), to better understand the terminology used here.
 
 You can submit individual requests to access and delete customer data from Audience Manager, in two ways:
 
@@ -33,7 +33,7 @@ You can send data access requests through the [Privacy Service UI](https://gdpru
 
 Whether you are using the [!DNL UI] or the [!DNL API] to send data access requests, you must upload a [!DNL JSON] file with the Audience Manager identifiers for which you are submitting the data access request.
 
-To see what a valid [!DNL JSON] file looks like, you can [download a sample JSON](../aam-gdpr/assets/access_request.json).
+To see what a valid [!DNL JSON] file looks like, you can [download a sample JSON](../data-security-and-privacy/assets/access_request.json).
 
 We understand your commitment to honoring your data privacy customer requests within 30 days of reception. For that reason, we try to process your data access request as soon as possible.
 
@@ -300,7 +300,7 @@ You can send data deletion requests through the [Privacy Service UI](https://gdp
 
 Whether you are using the [!DNL UI] or the [!DNL API] to send data deletion requests, you must upload a [!DNL JSON] file with the Audience Manager identifiers for which you are submitting the request.
 
-To see what a valid [!DNL JSON] file looks like, you can [download a sample JSON](../aam-gdpr/assets/access_request.json).
+To see what a valid [!DNL JSON] file looks like, you can [download a sample JSON](../data-security-and-privacy/assets/access_request.json).
 
 We understand your commitment to honoring your data privacy customer requests within 30 days of reception. For that reason, we try to process your data deletion request as soon as possible.
 
