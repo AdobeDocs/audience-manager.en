@@ -28,9 +28,7 @@ Get familiar with key terms used related to CCPA. We’ve highlighted some of th
 
 &nbsp;
 
-**Personal Information**: information that identifies, relates to, describes, is capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular consumer or household. Personal information includes, but is not limited to, the following if it identifies, relates to, describes, is capable of being associated with, or could be reasonably linked, directly or indirectly, with a particular consumer
-
-^ ???????????????????????????????????????????
+**Personal Information**: information that identifies, relates to, describes, is capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular consumer or household. Personal information includes, but is not limited to, information which identifies, relates to, describes, is capable of being associated with, or could be reasonably linked, directly or indirectly, with a particular consumer.
 
 &nbsp;
 
