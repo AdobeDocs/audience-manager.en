@@ -15,7 +15,7 @@ This article describes Audience Manager integration and compliance with generall
 
 Audience Manager recognizes the implicit pact between consumers and the online brands with which they interact. Both parties benefit from the transparent exchange of anonymous data elements:
 
-* Consumers receive personalized content, discounted product offers, and streamlined user experiences. 
+* Consumers receive personalized content, discounted product offers, and streamlined user experiences.
 * Brands receive vital revenue streams supporting multiple online business models.
 
 In our continuing support of this model, Audience Manager remains committed to providing transparency and control to consumers, and meeting or exceeding the Online Behavioral Advertising (OBA) Self-Regulatory Principles.
