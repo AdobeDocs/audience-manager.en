@@ -73,7 +73,7 @@ Since [!DNL People-Based Destinations] helps you activate first-party audience d
 
 Before you sign up for [!DNL People-Based Destinations], make sure to obtain your customers' consent before using their information for advertising purposes.
 
-In case your customers wish to opt-out of advertising campaigns, see [Opt-out Management](../../overview/data-security-and-privacy/opt-out-management.md) for details on how to stop Audience Manager from collecting data any further.
+In case your customers wish to opt-out of advertising campaigns, see [Opt-out Management](../../overview/data-security-and-privacy/data-privacy-requests.md) for details on how to stop Audience Manager from collecting data any further.
 
 ## Enforcing First-Party Data Activation {#enforcing-first-party-activation}
 
