@@ -23,7 +23,7 @@ You can submit individual requests to access and delete customer data from Audie
 * Through the [Privacy Service UI](https://gdprui.cloud.adobe.io/). See the documentation [here](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md).
 * Through the  **[!DNL Privacy Service API]**. See the documentation [here](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md) and the API reference [here](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml).
 
-When sending data privacy requests, you can submit any Audience Manager identifiers (IDs), as described in the **[Audience Manager Identifiers](../../overview/data-security-and-privacy/data-privacy-requests.md#aam-ids)** section, along with their respective namespace IDs (data source IDs).
+When sending data privacy requests, you can submit any Audience Manager identifiers (IDs), as described in the **[Audience Manager Identifiers](data-privacy-ids.md)** section, along with their respective namespace IDs (data source IDs).
 
 The [Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) supports two types of requests: data access and data deletion requests.
 
