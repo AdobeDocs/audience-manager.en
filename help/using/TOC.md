@@ -11,8 +11,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 + Overview{#overview}
     + [Audience Manager Overview](overview/aam-overview.md)
     + [Types of Data Collected](overview/data-types-collected.md)
-    + Data Security {#data-security}
-      + [Data Security](overview/data-security-and-privacy/data-security.md)
+    + [Data Security](overview/data-security-and-privacy/data-security.md)
     + Data Privacy {#data-privacy}
         + [Data Privacy Overview](overview/data-security-and-privacy/data-privacy.md)
         + [Data Privacy Requests](overview/data-security-and-privacy/data-privacy-requests.md)
@@ -25,8 +24,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
             + [GDPR Glossary](overview/data-security-and-privacy/aam-gdpr-glossary.md)
             + [GDPR Considerations for Destinations](overview/data-security-and-privacy/aam-gdpr-partners.md)
             + [GDPR Readiness Guidance for Audience Manager Customers](overview/data-security-and-privacy/aam-gdpr-readiness.md)
-    + Data Governance {#data-governance}
-        + [Data Governance](overview/data-security-and-privacy/data-governance.md)
+     + [Data Governance](overview/data-security-and-privacy/data-governance.md)
 + Features{#features}
     + [Addressable Audiences](features/addressable-audiences.md)
     + Administration{#administration}
