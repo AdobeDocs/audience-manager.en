@@ -18,7 +18,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
         + [Data Privacy Requests](overview/data-security-and-privacy/data-privacy-requests.md)
         + Consent Management {#consent-management}
             + [Consent Management](overview/data-security-and-privacy/data-privacy-consent.md)
-            + [Audience Manager Plug-in for IAB TCF](/overview/data-security-and-privacy/aam-iab-plugin.md)
+            + [Audience Manager Plug-in for IAB TCF](overview/data-security-and-privacy/aam-iab-plugin.md)
         + Data Privacy Reference {#data-privacy-reference}
             + [Audience Manager Identifiers](overview/data-security-and-privacy/data-privacy-ids.md)
             + [CCPA Glossary](overview/data-security-and-privacy/aam-ccpa-glossary.md)
