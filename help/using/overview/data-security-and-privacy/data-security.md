@@ -1,13 +1,13 @@
 ---
 description: Audience Manager takes data security and privacy very seriously. We work to keep our systems secure and protect your valuable data.
 seo-description: Audience Manager takes data security and privacy very seriously. We work to keep our systems secure and protect your valuable data.
-seo-title: Data Security
+seo-title: Data Security in Audience Manager
 solution: Audience Manager
-title: Data Security
+title: Data Security in Audience Manager
 uuid: 33ad19ca-4690-4d97-853b-1882d7d4ac01
 ---
 
-# Data Security {#data-security}
+# Data Security in Audience Manager {#data-security}
 
 Audience Manager takes data security and privacy very seriously. We work to keep our systems secure and protect your valuable data.
 
