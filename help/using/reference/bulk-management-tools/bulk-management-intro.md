@@ -35,7 +35,7 @@ Download the latest worksheet **[here](assets/BAAAM_V2_20191015.xlsm)**.
 To use the [!DNL Bulk Management Tools], you need the following:
 
 * Your [!DNL Experience Cloud] login. As a customer, you should already have these credentials.
-* The [!DNL Bulk Management Tools] worksheet. [Download the worksheet](/help/using/reference/bulk-management-tools/bulk-management-intro.md#download) to get the latest version.
+* The [!DNL Bulk Management Tools] worksheet. [Download the worksheet](assets/BAAAM_V2_20191015.xlsm) to get the latest version.
 * Microsoft Excel running on [!DNL macOS] or 64-bit [!DNL Microsoft Windows].
 * When opening the worksheet, you must **Enable Macros** for the [!DNL Bulk Management Tools] to work.  
 
@@ -115,8 +115,3 @@ As an example, let's take a look at how to create multiple traits at one time. T
 >
 >When working with large requests, the worksheet might become unresponsive and appear to be inactive. In these cases, just leave it alone. The worksheet will become responsive when the bulk request is complete. If the worksheet does not respond for a long period of time, see the [troubleshooting section](../../reference/bulk-management-tools/bulk-troubleshooting.md).
 
-
-
->[!MORELIKETHIS]
->
->* [Download the Bulk Management Worksheet](assets/BAAAM_August_2018.xlsm)
