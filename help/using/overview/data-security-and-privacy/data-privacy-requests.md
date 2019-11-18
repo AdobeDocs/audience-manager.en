@@ -112,7 +112,8 @@ Following a partner-level opt-out with a declared ID call:
 * The [CRM ID](../../reference/ids-in-aam.md) is opted out of data collection;
 * The last device ID ([Audience Manager Unique User ID](../../reference/ids-in-aam.md)) linked to the [CRM ID](../../reference/ids-in-aam.md) is opted out of data collection.
 * Audience Manager will cease all data collection, segmentation or activation going forward for the CRM ID and the last device ID linked to the CRM ID;
-* Audience Manager sends an unsegmentation request to the destination partner, so that the user gets disqualified from the currently qualified segments. Unsegmentation is supported for both real-time and batch destinations.
+* Audience Manager unsegments the opted-out CRM ID and last device ID from all segments;
+* Destination partners receive the unsegment request for the CRM ID and last device ID. Unsegmentation works for both real-time and batch destinations.
 * No historical data is deleted.
 
 When Audience Manager receives a partner-level opt-out request, the JSON returned by the DCS contains the [error code 171](../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md#opt-out-error-codes), with the message [!UICONTROL "Encountered opt out tag"], instead of the Audience Manager user ID.
@@ -146,7 +147,8 @@ Following a partner-level opt-out with a device ID call:
 
 * The device ID is opted out of data collection.
 * Audience Manager will cease all data collection, segmentation or activation, for the partner, going forward for the device ID.
-* Audience Manager sends an unsegmentation request to the destination partner, so that the user gets disqualified from the currently qualified segments. Unsegmentation is supported for both real-time and batch destinations.
+* Audience Manager unsegments the device ID from all segments;
+* Destination partners receive the unsegment request for the device ID. Unsegmentation works for both real-time and batch destinations.
 * No historical data is deleted.
 
 ## Data Correction Requests {#correction}
