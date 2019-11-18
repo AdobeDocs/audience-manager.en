@@ -10,11 +10,25 @@ uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 
 # Consent Management
 
+## Overview
+
+As your data processor, Adobe is not able to provide legal advice on obtaining consent. Consult your legal team for guidance. We recommend that you work with a consent management solution providers such as [Evidon](https://theblog.adobe.com/evidon-builds-gdpr-universal-consent-integration-with-launch-by-adobe/) or [TrustArc](https://theblog.adobe.com/trustarc-builds-consent-integration-launch-adobe/) to receive the best recommendations.
+
+>[!IMPORTANT]
+>
+> The contents of this document are not legal advice and are not meant to substitute for legal advice. Consult your company's legal department for advice concerning consent and practices when setting up your opt in implementation.
+
+## Experience Cloud Opt-in Service
+
+The [Experience Cloud Opt-in Service](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/opt-in-service/optin-overview.html) service lets you set up protocols for the visitor to determine if you can set a cookie on the user's device or browser when visiting your site.
+
+This is an extension of the Experience Cloud ID (ECID), designed to let you control whether and which Experience Cloud solutions can place cookies on web pages for visitors prior to user consent.
+
+The [Experience Cloud Opt-in Service](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/opt-in-service/optin-overview.html) also lets you set protocols to integrate with your Consent Management Platform (CMP) and existing systems as part of your larger design.
+
 ## Managing Opt-In / Obtaining Consent
 
-GDPR doesn’t change when Data Controllers need consent, it changes how to get consent. In those instances where consent is needed for certain marketing activities, consumer consent needs to be active (e.g., no pre-checked boxes or silence as assent), unbundled, and offers of services may not be made conditional upon the Data Subject giving consent. There may even be instances where certain consents need to be refreshed to be able to continue using data going forward.
-
-As your data processor, Adobe is not able to provide legal advice on obtaining consent. Consult your legal team for guidance. We recommend that you work with a consent management solution providers such as [Evidon](https://theblog.adobe.com/evidon-builds-gdpr-universal-consent-integration-with-launch-by-adobe/) or [TrustArc](https://theblog.adobe.com/trustarc-builds-consent-integration-launch-adobe/) to provide better recommendations on this. Adobe has partnered with several such providers to assist with this integration via Adobe Launch.
+In instances where consent is needed for certain marketing activities, consumer consent needs to be active (e.g., no pre-checked boxes or silence as assent), unbundled, and offers of services may not be made conditional upon the Data Subject giving consent. There may even be instances where certain consents need to be refreshed to be able to continue using data going forward.
 
 Audience Manager customers could store user consent for various use cases such as advertising or personalization as traits in Audience Manager. Building segments with these traits will then include only users providing the respective consent for each of these use cases. Please note that using this approach does not stop data collection but will only impact data usage when you send segments for activation. When users withdraw their consent, you can remove these traits from user profile using the Audience Manager [inbound batch process](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) or Audience Manager opt-out process as detailed below.
 
