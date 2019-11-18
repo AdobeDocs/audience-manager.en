@@ -17,7 +17,7 @@ To comply with GDPR, Audience Manager supports data access and delete [requests]
 
 The [California Consumer Privacy Act (CCPA)](https://www.caprivacy.org/about) enhances privacy rights and consumer protection for residents of California, United States, and is set to become effective on January 1, 2020.
 
-The CCPA provides new data privacy rights to California residents, including the right to access and delete their personal data and to know whether their personal data is sold or disclosed (and to whom). In anticipation of the CCPA, Audience Manager supports CCPA access and delete [requests]((data-privacy-requests.md)).
+The CCPA provides new data privacy rights to California residents, including the right to access and delete their personal data and to know whether their personal data is sold or disclosed (and to whom). In anticipation of the CCPA, Audience Manager supports CCPA access and delete [requests](data-privacy-requests.md).
 
 Adobe recognizes the implicit pact between consumers and the online brands with which they interact. Both parties benefit from the transparent exchange of anonymous data elements:
 
