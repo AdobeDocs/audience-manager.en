@@ -10,6 +10,10 @@ uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 
 # Data Governance
 
+## Overview {#overview}
+
+Data Governance in Audience Manager refers to the lifecycle of your customer data in Audience Manager, and it encompasses [Collecting and Obfuscating IP Addresses](data-governance.md#collecting-ip-addresses), [Data Retention](data-governance.md#data-retention), and [Cross-border Data Transfers](data-governance.md#data-transfers).
+
 ## Collecting IP Addresses and IP Address Obfuscation {#collecting-ip-addresses}
 
 The [!DNL IP] address of a visitor to a customer’s website is transmitted to an Adobe [!DNL Data Processing Center] ([!DNL DPC]) where the [!DNL IP] address may be stored. Depending on the network configuration for the visitor, the [!DNL IP] address may not necessarily represent the [!DNL IP] address of the visitor’s computer. For example, the [!DNL IP] address could be the external [!DNL IP] address of a Network Address Translation (NAT) firewall, [!DNL HTTP] proxy, or Internet gateway.
@@ -29,10 +33,10 @@ Watch the video below to understand how [!DNL IP] address obfuscation works in A
 
 **Geographic Segmentation:** If you enable [!DNL IP] address obfuscation, the remaining octets of the [!DNL IP] address can still be used for geo-segmentation and reporting in Audience Manager. If you do not enable [!DNL IP] address obfuscation, Audience Manager uses the full [!DNL IP] address. You can use the Geographic Segmentation feature that allows you to identify an [!DNL IP] location by geographic area in either case, but with some slight loss of precision when [!DNL IP] obfuscation is being used. Obtaining city-level information will likely be significantly impacted by the obfuscation of the [!DNL IP] address. Obtaining region and country-level information should only be slightly impacted. Geographic Segmentation data is granular only to the city level or postal code level, and not to the individual level. Read more about [geo-targeting](../../features/traits/trait-geotarget-keys.md) and how to set up traits with geographic variables.
 
-## Data Retention in Audience Manager
+## Data Retention in Audience Manager [#data-retention]
 
-Applying appropriate, secure, and timely data retention policies to your data is an important part of complying with GDPR. Audience Manager Customers have the ability to set custom retention periods on traits and segments by defining the required TTL (time to live). We have reduced the retention period for [!UICONTROL Customer Data Feeds] ( [!UICONTROL CDF]) and [!UICONTROL Batch Outbound] orders to 8 days. We will also be applying a retention period for inactive CRM profiles and ID mappings. Please find the more details about retention periods in our [Data Retention FAQ](../../faq/faq-privacy.md).
+Applying appropriate, secure, and timely data retention policies to your data is an important part of complying with data privacy regulations. Audience Manager Customers have the ability to set custom retention periods on traits and segments by defining the required TTL (time to live). See [Data Retention FAQ](../../faq/faq-privacy.md) for more details about retention periods.
 
-## Cross-Border Data Transfers
+## Cross-Border Data Transfers {#data-transfers}
 
-GDPR doesn’t prohibit transfer of data outside of Europe. It requires that the privacy protections on European data persist wherever the data is transferred. Visit the [Adobe Privacy Center](https://www.adobe.com/privacy/eudatatransfers.html) to learn more.
+GDPR doesn’t prohibit transfer of data outside of Europe. It requires that the privacy protections on European data persist wherever the data is transferred. Visit the [Adobe Privacy Center](https://www.adobe.com/privacy/eudatatransfers.html) to learn more. CCPA has no cross-border data transfer restrictions.
