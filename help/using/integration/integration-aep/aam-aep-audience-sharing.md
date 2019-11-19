@@ -11,7 +11,7 @@ keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing
 
 >[!NOTE]
 >
->This page contains beta documentation that describes functionality available to customers of Audience Manager *and* Adobe Experience Platform. This documentation is subject to change before the final product release.
+> The functionality described on this page is available to customers of Audience Manager and Adobe Experience Platform. 
 >
 > Contact your Adobe sales representative to unlock access to this functionality.
 
