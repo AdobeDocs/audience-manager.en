@@ -60,5 +60,3 @@ Get familiar with key terms used related to GDPR. We’ve highlighted some of th
 &nbsp;
 
 **Prohibited Data:** Audience Manager prohibits customers from ingesting directly identifiable information such as first name and last name, email ID, CRM ID, which can be used to directly identify an individual. Adobe Experience Cloud solutions also prohibit sensitive information. Please refer to your contract with Adobe for details about these requirements. If these types of data points need to be ingested into Audience Manager, consult your Adobe consulting team for recommendations on hashing these IDs before ingestion.
-
-&nbsp;
