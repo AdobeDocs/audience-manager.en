@@ -31,7 +31,7 @@ The [Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services
 
 You can send data access requests through the [Privacy Service UI](https://gdprui.cloud.adobe.io/) (documentation [here](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)) or by calling the [!DNL Privacy Service API] (documentation [here](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) and [!DNL API] reference [here](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)).
 
-Whether you are using the [!DNL UI] or the [!DNL API] to send data access requests, you must upload a [!DNL JSON] file with the Audience Manager identifiers for which you are submitting the data access request.
+The [Privacy Service UI](https://gdprui.cloud.adobe.io/) allows you to create new job requests either by using the [!UICONTROL Request Builder] or by uploading a [!DNL JSON] file.
 
 To see what a valid [!DNL JSON] file looks like, you can [download a sample JSON](../data-security-and-privacy/assets/access_request.json).
 
@@ -41,7 +41,7 @@ We understand your commitment to honoring your data privacy customer requests wi
 
 You can send data deletion requests through the [Privacy Service UI](https://gdprui.cloud.adobe.io/) (documentation [here](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)) or by calling the [!DNL Privacy Service API] (documentation [here](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) and API reference [here](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)).
 
-Whether you are using the [!DNL UI] or the [!DNL API] to send data deletion requests, you must upload a [!DNL JSON] file with the Audience Manager identifiers for which you are submitting the request.
+The [Privacy Service UI](https://gdprui.cloud.adobe.io/) allows you to create new job requests either by using the [!UICONTROL Request Builder] or by uploading a [!DNL JSON] file.
 
 To see what a valid [!DNL JSON] file looks like, you can [download a sample JSON](../data-security-and-privacy/assets/access_request.json).
 
@@ -54,7 +54,7 @@ When you send declared IDs, such as cross device [!DNL CRM] IDs or cookie IDs, i
 Audience Manager notifies activation partners about deletion requests by sending them unsegment information for Data Subjects requesting deletion of certain data. However, some activation partners:
 
 1. Cannot support unsegment (or remove segment) requests from Adobe and/or
-1. Are not able to receive updates from us with a frequency of less than 30 days. In those cases, Audience Manager Customers are not able to send delete requests to activation partners in an automated way through Audience Manager.
+2. Are not able to receive updates from us with a frequency of less than 30 days. In those cases, Audience Manager Customers are not able to send delete requests to activation partners in an automated way through Audience Manager.
 
 In those cases, you are not able to send delete requests to activation partners in an automated way through Audience Manager.
 
