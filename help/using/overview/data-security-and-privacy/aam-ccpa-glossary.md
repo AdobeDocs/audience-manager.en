@@ -1,6 +1,6 @@
 ---
-description: This article explains the concepts and terminology used by the California Consumer Privacy Act (CCPA), and how Adobe Audience Manager, as a Data Processor, addresses various CCPA requirements.
-seo-description: This article explains the concepts and terminology used by the California Consumer Privacy Act (CCPA), and how Adobe Audience Manager, as a Data Processor, addresses various CCPA requirements.
+description: This article explains the concepts and terminology used by the California Consumer Privacy Act (CCPA), and how Adobe Audience Manager, addresses various CCPA requirements.
+seo-description: This article explains the concepts and terminology used by the California Consumer Privacy Act (CCPA), and how Adobe Audience Manager, addresses various CCPA requirements.
 seo-title: CCPA Glossary
 solution: Audience Manager
 title: CCPA Glossary
@@ -10,11 +10,9 @@ title: CCPA Glossary
 
 ## Overview {#overview}
 
-This article explains the concepts and terminology used by the California Consumer Privacy Act (CCPA), and how Adobe Audience Manager, as a Data Processor, addresses various CCPA requirements.
+This article explains the concepts and terminology used by the California Consumer Privacy Act (CCPA), and how Adobe Audience Manager, addresses various CCPA requirements.
 
 The California Consumer Privacy Act (CCPA) will come into effect on January 01, 2020 and is another opportunity to partnering in the privacy consumer experience. Audience Manager is already leveraging existing privacy infrastructure to meet core CCPA readiness and deploying additional tools to be fully CCPA ready ahead of January 01, 2020. As compliance will be a shared responsibility with your enterprise, we look forward to partnering with you to address any new obligations for data governance and privacy by design features.
-
-Make sure you also read the [Experience Cloud GDPR FAQ.](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/gdpr-faq.md) for a better understanding of how GDPR works in Experience Cloud.
 
 ## CCPA Glossary {#CCPA-glossay}
 

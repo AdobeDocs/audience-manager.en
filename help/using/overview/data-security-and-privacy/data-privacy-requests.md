@@ -12,7 +12,7 @@ uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 
 ## Overview {#overview}
 
-This document provides an overview of the data privacy requests that you can send to Audience Manager through the [Privacy Service UI](https://gdprui.cloud.adobe.io/) and the **[!DNL Privacy Service API]**.
+This document provides an overview of the data privacy and opt-out requests that you can send to Audience Manager through the [Privacy Service UI](https://gdprui.cloud.adobe.io/) and the **[!DNL Privacy Service API]**.
 
 These tools allow you to send data privacy requests in compliance with GDPR and CCPA.
 
@@ -56,7 +56,11 @@ Audience Manager notifies activation partners about deletion requests by sending
 1. Cannot support unsegment (or remove segment) requests from Adobe and/or
 1. Are not able to receive updates from us with a frequency of less than 30 days. In those cases, Audience Manager Customers are not able to send delete requests to activation partners in an automated way through Audience Manager.
 
-## Opt-out Requests {#opt-out-request}
+In those cases, you are not able to send delete requests to activation partners in an automated way through Audience Manager.
+
+Download our [Partner Excel sheet](assets/AAM-Partners-October2019.xlsx) to see which Audience Manager activation partners support unsegment.
+
+## Opt-out Requests {#opt-out-requests}
 
 Adobe complies with all industry-wide standards with regard to opt-out management. Read on for complete information on the types of opt-out supported by Audience Manager.
 
@@ -80,7 +84,7 @@ The global opt-out represents an opt-out across Audience Manager and other Adobe
   </tr> 
   <tr> 
    <td colname="col1"> <p>Direct API calls to Audience Manager </p> </td> 
-   <td colname="col2"> <p>You can opt-out from data collection by all Audience Manager brands by making a call to the DCS API below and include the <a href="../../reference/ids-in-aam.md"> Audience Manager User ID </a>: </p> <p> <code> curl -i "https://www.demdex.net/demoptout.jpg" --cookie "demdex=12345678901234567890123456789012345678;dextp=12;DST=12" </code> </p> <p>As a result, we will set <code>demdex=NOTARGET</code> and <code>dextp=NOTARGET</code> cookies for the submitted Audience Manager User ID. </p> </td> 
+   <td colname="col2"> <p>Your users can opt-out from data collection by all Audience Manager brands by making a call to the DCS API below and include the <a href="../../reference/ids-in-aam.md"> Audience Manager User ID </a>: </p> <p> <code> curl -i "https://www.demdex.net/demoptout.jpg" --cookie "demdex=12345678901234567890123456789012345678;dextp=12;DST=12" </code> </p> <p>As a result, we will set <code>demdex=NOTARGET</code> and <code>dextp=NOTARGET</code> cookies for the submitted Audience Manager User ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mobile devices </p> </td> 
@@ -105,7 +109,7 @@ Following the opt-out requests described above:
 
 ### Partner Level Opt-out with Declared ID calls
 
-The partner-level opt-out helps you opt out from data collection by specific Audience Manager partners. You can send partner-level opt-out requests for cross-device IDs, including CRM IDs and hashed email addresses.
+The partner-level opt-out allows you to opt-out your users from data collection by specific Audience Manager partners. You can send partner-level opt-out requests for cross-device IDs, including CRM IDs and hashed email addresses.
 
 Following a partner-level opt-out with a declared ID call:
 
@@ -113,7 +117,7 @@ Following a partner-level opt-out with a declared ID call:
 * The last device ID ([Audience Manager Unique User ID](../../reference/ids-in-aam.md)) linked to the [CRM ID](../../reference/ids-in-aam.md) is opted out of data collection.
 * Audience Manager will cease all data collection, segmentation or activation going forward for the CRM ID and the last device ID linked to the CRM ID;
 * Audience Manager unsegments the opted-out CRM ID and last device ID from all segments;
-* Destination partners receive the unsegment request for the CRM ID and last device ID. Unsegmentation works for both real-time and batch destinations.
+* Destination partners receive the unsegment request for the CRM ID and last device ID. Unsegmentation works for both [real-time](data-privacy-requests.md#aam-partners-with-unsegmentation) and batch destinations.
 * No historical data is deleted.
 
 When Audience Manager receives a partner-level opt-out request, the JSON returned by the DCS contains the [error code 171](../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md#opt-out-error-codes), with the message [!UICONTROL "Encountered opt out tag"], instead of the Audience Manager user ID.
@@ -126,20 +130,20 @@ For a description and syntax, see [URL Variables and Syntax for Declared IDs](..
 
 | Opt-Out Using | Code Sample |
 |--- |--- |
-|A data provider ID and user ID.|`https://domain name/demoptout.jpg?d_cid=123%01987...`|
-|An integration code and user ID.|`https://domain name/demoptout?d_cid_ic=456%01321...`|
-|Multiple  d_cid  and  d_cid_ic  key-value pairs.|`https://domain name/demoptout?d_cid=123%01987&d_cid_ic=456%01321...`|
+|A data provider ID and user ID.|`https://yourcompany.demdex.net/demoptout.jpg?d_cid=123%01987...`|
+|An integration code and user ID.|`https://yourcompany.demdex.net/demoptout?d_cid_ic=456%01321...`|
+|Multiple  d_cid  and  d_cid_ic  key-value pairs.|`https://yourcompany.demdex.net/demoptout?d_cid=123%01987&d_cid_ic=456%01321...`|
 
 &nbsp;
 
 ### Partner Level Opt-Out with Device ID calls
 
-The partner-level opt-out helps you opt out from data collection by specific Audience Manager partners. You can opt-out from data collection on a given device ID for a brand by making the following calls to the [DCS API](../../api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md):
+The partner-level opt-out allows you to opt-out your users from data collection by specific Audience Manager partners. You can opt-out from data collection on a given device ID for a brand by making the following calls to the [DCS API](../../api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md):
 
 | Opt-Out Using | Code Sample |
 |--- |--- |
-|An Audience Manager Unique User ID (`uuid`).|`http://yourcompany.demdex.net/demoptout.jpg?d_uuid=123`|
-|An Experience Cloud ID (`mid`)|`http://yourcompany.demdex.net/demoptout.jpg?d_mid=123&d_orgid=IMSoRGid`|
+|An Audience Manager Unique User ID (`uuid`).|`https://yourcompany.demdex.net/demoptout.jpg?d_uuid=123`|
+|An Experience Cloud ID (`mid`)|`https://yourcompany.demdex.net/demoptout.jpg?d_mid=123&d_orgid=IMSoRGid`|
 
 Read more about `uuid`, `mid` and `imsOrgId` in the [Index of IDs in Audience Manager](/help/using/reference/ids-in-aam.md).
 
@@ -148,11 +152,24 @@ Following a partner-level opt-out with a device ID call:
 * The device ID is opted out of data collection.
 * Audience Manager will cease all data collection, segmentation or activation, for the partner, going forward for the device ID.
 * Audience Manager unsegments the device ID from all segments;
-* Destination partners receive the unsegment request for the device ID. Unsegmentation works for both real-time and batch destinations.
+* Destination partners receive the unsegment request for the device ID. Unsegmentation works for both [real-time](data-privacy-requests.md#aam-partners-with-unsegmentation) and batch destinations.
 * No historical data is deleted.
+
+## Audience Manager Partners With Unsegmentation Capabilities {#aam-partners-with-unsegmentation}
+
+In order to help our customers automate data privacy requests, Audience Manager notifies our activation partners about deletion requests from Data Subjects by sending them unsegment (or remove segment) information.
+
+However, some of our activation partners:
+
+1. Cannot support unsegment requests from Adobe and/or 
+1. Are not able to receive updates from us more frequently than once in 30 days.
+
+In those cases, you are not able to send delete requests to activation partners in an automated way through Audience Manager.
+
+Download our [Partner Excel sheet](assets/AAM-Partners-October2019.xlsx) to see which Audience Manager activation partners support unsegment.
 
 ## Data Correction Requests {#correction}
 
 Given that Audience Manager is not the source of the data, there is a limited role for data correction in Audience Manager. The correction could mean that the Data Subject has requested to either be disqualified from an incorrect trait/segment or qualified to the desired trait/segment.
 
-Audience Manager Customers can choose to capture the relevant signals/traits/segments against user profiles and send this information through offline data ingestion to Audience Manager. Please note that the user will continue to get qualified to the original trait and segments if they repeat their behavior.
+Audience Manager Customers can choose to capture the relevant signals/traits/segments against user profiles and send this information through [offline data ingestion](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) to Audience Manager. Please note that the user will continue to get qualified to the original trait and segments if they repeat their behavior.

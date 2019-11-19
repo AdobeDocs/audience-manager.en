@@ -12,7 +12,7 @@ uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 
 ## Overview
 
-As your data processor, Adobe is not able to provide legal advice on obtaining consent. Consult your legal team for guidance. We recommend that you work with a consent management solution providers such as [Evidon](https://theblog.adobe.com/evidon-builds-gdpr-universal-consent-integration-with-launch-by-adobe/) or [TrustArc](https://theblog.adobe.com/trustarc-builds-consent-integration-launch-adobe/) to receive the best recommendations.
+As your data processor, Adobe is not able to provide legal advice on obtaining consent. Consult your legal team for guidance. We recommend that you work with a consent management solution provider, such as [Evidon](https://theblog.adobe.com/evidon-builds-gdpr-universal-consent-integration-with-launch-by-adobe/) or [TrustArc](https://theblog.adobe.com/trustarc-builds-consent-integration-launch-adobe/), to receive the best recommendations.
 
 >[!IMPORTANT]
 >
@@ -22,7 +22,7 @@ As your data processor, Adobe is not able to provide legal advice on obtaining c
 
 The [Experience Cloud Opt-in Service](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/opt-in-service/optin-overview.html) service lets you set up protocols for the visitor to determine if you can set a cookie on the user's device or browser when visiting your site.
 
-This is an extension of the Experience Cloud ID (ECID), designed to let you control whether and which Experience Cloud solutions can place cookies on web pages for visitors prior to user consent.
+This is an extension of the [!DNL Experience Cloud ID (ECID) Service], designed to let you control whether and which Experience Cloud solutions can place cookies on web pages for visitors prior to user consent.
 
 The [Experience Cloud Opt-in Service](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/opt-in-service/optin-overview.html) also lets you set protocols to integrate with your Consent Management Platform (CMP) and existing systems as part of your larger design.
 
@@ -38,8 +38,8 @@ Opt out can be managed for the Adobe Experience Cloud via the [Your Privacy Choi
 
 ## Managing Consent for Second Party Data Providers
 
-Second Party Data Providers are generally also Data Controllers and own the process for obtaining any needed consent from the Data Subject to share data with their second party data partners. It is the responsibility of the Audience Manager Customer to determine if the Second Party Data Provider has obtained the necessary consent for your use case. More details on obtaining consent is covered above.
+Second Party Data Providers are generally also Data Controllers and own the process for obtaining any needed consent from the Data Subject to share data with their second party data partners. It is your responsibility, as an Audience Manager Customer, to determine if the Second Party Data Provider has obtained the necessary consent for your use case. More details on obtaining consent is covered above.
 
 ## Managing Consent for Third Party Data Providers
 
-Data Providers are also Data Controllers and own their process for obtaining consent and managing access/delete/correction requests. Adobe is proactively requesting that Data Providers update their company profile information within [Adobe Audience Finder](https://www.adobe-audience-finder.com/) with additional information on user data collection. Information will be sourced from the Data Providers and the goal is to have the tool updated by Q2 2018. However, it is up to each Audience Manager Customer to determine that the Third Party Data Provider has obtained the necessary consent for that customer’s use case. Adobe makes no representations about the scope or validity of the consent obtained or reported by a Third Party Data Provider for a given use case.
+Third Party Data Providers are also Data Controllers and own their process for obtaining consent and managing access/delete/correction requests. Adobe is proactively requesting that Data Providers update their company profile information within [Adobe Audience Finder](https://www.adobe-audience-finder.com/) with additional information on user data collection. Information will be sourced from the Data Providers and is updated on a regular basis. However, it is up to each Audience Manager Customer to determine that the Third Party Data Provider has obtained the necessary consent for that customer’s use case. Adobe makes no representations about the scope or validity of the consent obtained or reported by a Third Party Data Provider for a given use case.
