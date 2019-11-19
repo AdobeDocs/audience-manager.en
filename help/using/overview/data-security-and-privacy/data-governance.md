@@ -7,7 +7,7 @@ keywords: GDPR UI, GDPR API, CCPA, privacy, consent, obfuscation, governance
 title: Data Governance
 ---
 
-# Data Governance
+# Data Governance {#data-governance}
 
 ## Overview {#overview}
 
