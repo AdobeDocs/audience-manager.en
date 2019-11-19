@@ -42,7 +42,7 @@ While data access and deletion requests are handled through the [Privacy Service
 
 * [Data Privacy Requests](data-privacy-requests.md)
 * [Consent Management](data-privacy-consent.md)
-  * [Audience Manager Plug-in for IAB TCF](aam-iab-plugin.md)
+* [Audience Manager Plug-in for IAB TCF](aam-iab-plugin.md)
 * [Audience Manager Identifiers](data-privacy-ids.md)
 * [CCPA Glossary](aam-ccpa-glossary.md)
 * [GDPR Glossary](aam-gdpr-glossary.md)
