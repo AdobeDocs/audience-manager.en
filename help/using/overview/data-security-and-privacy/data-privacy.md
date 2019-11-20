@@ -20,11 +20,11 @@ Adobe recognizes the implicit pact between consumers and the online brands with 
 
 In our continuing support of this model, Audience Manager remains committed to providing transparency and control to consumers, and meeting or exceeding the Online Behavioral Advertising (OBA) Self-Regulatory Principles.
 
-The [General Data Protection Regulation (GDPR)](https://eugdpr.org/) introduced several new data privacy rights for members of the European Union, including the **Right to Access** and the **Right to be Forgotten**. This means that any EU citizen whose personal data has been collected by your business can request to access or delete their data at any time. Failure to comply to these requests within 30 days can result in multi-million dollar fines for your organization.
+The [General Data Protection Regulation (GDPR)](https://eugdpr.org/) introduced several new data privacy rights for members of the European Union, including the **Right to Access** and the **Right to be Forgotten**. This means that any EU citizen whose personal data has been collected by your business can request to access or delete their data at any time. Failure to comply with these requests can result in multi-million dollar fines for your organization.
 
 To comply with GDPR, Audience Manager supports data access and delete [requests](data-privacy-requests.md).
 
-The [California Consumer Privacy Act (CCPA)](https://www.caprivacy.org/about) enhances privacy rights and consumer protection for residents of California, United States, and is set to become effective on January 1, 2020.
+The [California Consumer Privacy Act (CCPA)](https://www.caprivacy.org/about), going into effect on January 1st, 2020, will provide California residents new rights regarding their personal information and will impose data protection responsibilities on certain entities that conduct business in California.
 
 The CCPA provides new data privacy rights to California residents, including the right to access and delete their personal data and to know whether their personal data is sold or disclosed (and to whom). In anticipation of the CCPA, Audience Manager supports CCPA access and delete [requests](data-privacy-requests.md).
 
