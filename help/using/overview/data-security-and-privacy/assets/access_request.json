@@ -18,5 +18,5 @@
         }
     ],
     "include":["AudienceManager"],
-    "regulation": "[One of gdpr]"
+    "regulation": "[gdpr]"
 }
