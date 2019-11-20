@@ -8,16 +8,15 @@ title: Configure Twitter Tailored Audiences as a Self-Service Device-Based Desti
 
 # Configure [!DNL Twitter Tailored Audiences] as a Self-Service Device-Based Destination {#configure-twitter}
 
-This article explains how to configure [Twitter Tailored Audiences](https://business.twitter.com/en/targeting/tailored-audiences.html) for both new and existing integrations.
+This article explains how to configure an integration with [Twitter Tailored Audiences](https://business.twitter.com/en/targeting/tailored-audiences.html).
 
 ## Prerequisites {#prerequisites}
 
 Before you configure your [!DNL Twitter Tailored Audiences] destination, make sure to review the following Twitter prerequisites that you need to meet.
 
 1. Your [!DNL Twitter Ads] account must be eligible for advertising. New [!DNL Twitter Ads] accounts are not eligible for advertising in the first 2 weeks after creating them.
-1. Your Twitter user account that you authorized access for in Audience Manager must have the [Partner audience manager](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) permission enabled.
-1. If you are [updating your existing Twitter integration to self-service administration](#update-existing-twitter-integrations), your Twitter user account must have the [Ad manager](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) permission enabled.
-1. When creating the first [!DNL Twitter Tailored Audiences] destination in your Audience Manager instance, please contact Adobe Consulting or Customer Care to enable the [!DNL Twitter] ID synchronization (Data Source ID = 1123) for your account. This is required for the correct synchronization between Audience Manager and [!DNL Twitter].
+2. Your [!DNL Twitter] user account that you authorized access for in Audience Manager must have the [Partner audience manager](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) permission enabled.
+3. When creating the first [!DNL Twitter Tailored Audiences] destination in your Audience Manager instance, please contact Adobe Consulting or Customer Care to enable the [!DNL Twitter] ID synchronization (Data Source ID = 1123) for your account. This is required for the correct synchronization between Audience Manager and [!DNL Twitter].
 
 ## Add a New [!DNL Twitter Tailored Audiences] Destination {#add-new-twitter-destination}
 
@@ -48,6 +47,7 @@ After you have linked Audience Manager and your [!DNL Twitter Tailored Audiences
 1. In the **[!DNL Segment Mappings]** section, select the audience segments that you want to send to this destination.
 1. Save the destination.
 
+<!--
 ## Update Existing Twitter Integrations To Self-Service Administration {#update-existing-twitter-integrations}
 
 To improve the user experience and streamline the configuration process, we are upgrading the [!DNL Twitter Tailored Audiences] integration to a self-service model, where you can perform the configuration yourself, from the Audience Manager UI. This section describes the steps you need to take to update your existing Twitter integration.
@@ -60,14 +60,14 @@ To improve the user experience and streamline the configuration process, we are 
 Follow the steps below to migrate your existing [!DNL Twitter Tailored Audiences] destination to the self-service model.
 
 1. Log in to your Audience Manager account and go to **[!DNL Administration > Integrated Accounts]**.
-1. Click **[!DNL Add Account]**.
-1. Select [!DNL Twitter Tailored Audiences] and click **[!DNL Confirm]** to be redirected to the authentication page. ![integrated-platforms](assets/dbd-integrated-platforms.png)
-1. Once you've authenticated with your [!DNL Twitter] account, you are redirected to Audience Manager where you should see your associated advertiser accounts. Select the advertiser account that you want to use and click **[!DNL Confirm]**.
-1. Go to **[!UICONTROL Audience Data]** > **[!UICONTROL Destinations]** and click the Twitter destination that you need to configure.
-1. Click **[!UICONTROL Edit]**. In the **[!UICONTROL Basic Information]** section, click the **[!UICONTROL Integrated Account]** drop-down menu and select the [!DNL Twitter] account that you have authenticated with at Step 4.
-1. **[!UICONTROL Save]** the destination.
+2. Click **[!DNL Add Account]**.
+3. Select [!DNL Twitter Tailored Audiences] and click **[!DNL Confirm]** to be redirected to the authentication page. ![integrated-platforms](assets/dbd-integrated-platforms.png)
+4. Once you've authenticated with your [!DNL Twitter] account, you are redirected to Audience Manager where you should see your associated advertiser accounts. Select the advertiser account that you want to use and click **[!DNL Confirm]**.
+5. Go to **[!UICONTROL Audience Data]** > **[!UICONTROL Destinations]** and click the Twitter destination that you need to configure.
+6. Click **[!UICONTROL Edit]**. In the **[!UICONTROL Basic Information]** section, click the **[!UICONTROL Integrated Account]** drop-down menu and select the [!DNL Twitter] account that you have authenticated with at Step 4.
+7. **[!UICONTROL Save]** the destination.
 
-<!-- ## Validating the Migration to Self-Service Administration {#migration-validation}
+## Validating the Migration to Self-Service Administration {#migration-validation}
 
 The complete migration of existing [!DNL Twitter] integrations to self-service administration can take up to 7 days. Once the migration is complete, Audience Manager shows you a notification in the UI.
 
@@ -75,10 +75,10 @@ You will also see a new set of audiences in your [!DNL Twitter] account, with th
 
 ## Segment Mapping Considerations {#segment-mapping-considerations}
 
-When mapping audience segments to Twitter, make sure to meet the following segment naming requirements:
+When mapping audience segments to [!UICONTROL Twitter], make sure to meet the following segment naming requirements:
 
 * Provide human-readable segment mapping names. We recommend using the same name that you used for the Audience Manager segments.
-* Do not use commas in segment and segment mapping names.
+* Do not use special characters (`,` `%` `:` `;` `@` `/` `=` `?` `$`) in segment and segment mapping names. If your Audience Manager segment name contains these characters, please remove them before mapping the segment to a [!UICONTROL Twitter] destination.
 
 ### Example
 
@@ -91,4 +91,5 @@ When mapping audience segments to Twitter, make sure to meet the following segme
 
 ## Match Rates Considerations {#match-rates-considerations}
 
-When using [!UICONTROL Twitter Tailored Audiences], the [!UICONTROL Segment Addressable Audience] and [!UICONTROL Segment Match Rate] metrics from the destination page will not display any values. This is normal behavior, since audience matching along with the match rates for this destination are handled and hosted by [!UICONTROL Twitter], not Adobe.
+* When using [!UICONTROL Twitter Tailored Audiences], the [!UICONTROL Segment Addressable Audience] and [!UICONTROL Segment Match Rate] metrics from the destination page will not display any values. This is normal behavior, since audience matching along with the match rates for this destination are handled and hosted by [!UICONTROL Twitter], not Adobe.
+* Currently, the integration between Audience Manager and [!UICONTROL Twitter Tailored Audiences] does not support historical audience backfills. This means that only the segment qualifications that occur *after* the segment is mapped to a Twitter destination are being sent to [!UICONTROL Twitter] in real-time. 
