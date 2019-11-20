@@ -18,7 +18,9 @@ Adobe recognizes the implicit pact between consumers and the online brands with 
 * Consumers receive personalized content, discounted product offers, and streamlined user experiences.
 * Brands receive vital revenue streams supporting multiple online business models.
 
-In our continuing support of this model, Audience Manager remains committed to providing transparency and control to consumers, and meeting or exceeding the Online Behavioral Advertising (OBA) Self-Regulatory Principles.
+In our continuing support of this model, Audience Manager remains committed to providing transparency and control to consumers, and meeting or exceeding the [Online Behavioral Advertising (OBA) Self-Regulatory Principles](https://www.iab.com/news/self-regulatory-principles-for-online-behavioral-advertising/).
+
+&nbsp;
 
 The [General Data Protection Regulation (GDPR)](https://eugdpr.org/) introduced several new data privacy rights for members of the European Union, including the **Right to Access** and the **Right to be Forgotten**. This means that any EU citizen whose personal data has been collected by your business can request to access or delete their data at any time. Failure to comply with these requests can result in multi-million dollar fines for your organization.
 
