@@ -20,7 +20,7 @@ Audience Manager offers you the necessary tools to obtain the required consent f
 >
 > The contents of this document are not legal advice and are not meant to substitute for legal advice.
 >
-> As your data processor, Adobe is not able to provide legal advice on obtaining consent. We recommend that you work with a consent management solution provider, such as [Evidon](https://theblog.adobe.com/evidon-builds-gdpr-universal-consent-integration-with-launch-by-adobe/) or [TrustArc](https://theblog.adobe.com/trustarc-builds-consent-integration-launch-adobe/), to receive the best recommendations, and consult your company's legal department for advice concerning consent and practices when setting up your opt in implementation.
+> As your data processor, Adobe is not able to provide legal advice on obtaining consent. We recommend that you work with a consent management solution provider, such as [Evidon](https://theblog.adobe.com/evidon-builds-gdpr-universal-consent-integration-with-launch-by-adobe/) or [TrustArc](https://theblog.adobe.com/trustarc-builds-consent-integration-launch-adobe/), to receive the best recommendations, and consult your company's legal department for advice concerning consent and practices when setting up your opt-in implementation.
 
 ## Experience Cloud Opt-in Service
 
