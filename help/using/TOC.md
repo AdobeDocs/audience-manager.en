@@ -11,16 +11,20 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 + Overview{#overview}
     + [Audience Manager Overview](overview/aam-overview.md)
     + [Types of Data Collected](overview/data-types-collected.md)
-    + Data Security and Privacy {#data-security-and-privacy}
-        + [Overview](overview/data-security-and-privacy/data-security-privacy-overview.md)
-        + [Data Security](overview/data-security-and-privacy/data-security.md)
-        + [Data Privacy](overview/data-security-and-privacy/data-privacy.md)
-        + [Opt-out Management](overview/data-security-and-privacy/opt-out-management.md)
-    + General Data Protection Regulation (GDPR){#gdpr}
-        + [GDPR in Audience Manager](overview/aam-gdpr/aam-gdpr-details.md)
-        + [GDPR Considerations for Destinations](overview/aam-gdpr/aam-gdpr-partners.md)
-        + [GDPR FAQ](overview/aam-gdpr/aam-gdpr-faq.md)
-        + [Audience Manager Plug-in for IAB TCF](/help/using/overview/aam-gdpr/aam-iab-plugin.md)
+    + [Data Security](overview/data-security-and-privacy/data-security.md)
+    + Data Privacy {#data-privacy}
+        + [Data Privacy Overview](overview/data-security-and-privacy/data-privacy.md)
+        + [Data Privacy Requests](overview/data-security-and-privacy/data-privacy-requests.md)
+        + Data Privacy Reference {#data-privacy-reference}
+            + [Audience Manager Identifiers](overview/data-security-and-privacy/data-privacy-ids.md)
+            + [CCPA Glossary](overview/data-security-and-privacy/aam-ccpa-glossary.md)
+            + [GDPR Glossary](overview/data-security-and-privacy/aam-gdpr-glossary.md)
+            + [GDPR Considerations for Destinations](overview/data-security-and-privacy/aam-gdpr-partners.md)
+            + [GDPR Readiness Guidance for Audience Manager Customers](overview/data-security-and-privacy/aam-gdpr-readiness.md)
+        + Consent Management {#consent-management}
+            + [Consent Management](overview/data-security-and-privacy/data-privacy-consent.md)
+            + [Audience Manager Plug-in for IAB TCF](overview/data-security-and-privacy/aam-iab-plugin.md)
+    + [Data Governance](overview/data-security-and-privacy/data-governance.md) 
 + Features{#features}
     + [Addressable Audiences](features/addressable-audiences.md)
     + Administration{#administration}

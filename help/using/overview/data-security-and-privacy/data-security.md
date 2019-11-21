@@ -1,13 +1,13 @@
 ---
 description: Audience Manager takes data security and privacy very seriously. We work to keep our systems secure and protect your valuable data.
 seo-description: Audience Manager takes data security and privacy very seriously. We work to keep our systems secure and protect your valuable data.
-seo-title: Data Security
+seo-title: Data Security in Audience Manager
 solution: Audience Manager
-title: Data Security
+title: Data Security in Audience Manager
 uuid: 33ad19ca-4690-4d97-853b-1882d7d4ac01
 ---
 
-# Data Security {#data-security}
+# Data Security in Audience Manager {#data-security}
 
 Audience Manager takes data security and privacy very seriously. We work to keep our systems secure and protect your valuable data.
 
@@ -27,13 +27,13 @@ Processes that help keep our system and your data secure.
 
 **External Security Validation:**  Audience Manager tests security on an annual and quarterly basis.
 
-* Yearly: Once a year, Audience Manager undergoes a full penetration test conducted by an independent third-party company. The test is designed to identify security vulnerabilities in the application. The tests include scanning for cross-site scripting, SQL injections, form parameter manipulation, and other application-level vulnerabilities. 
+* Yearly: Once a year, Audience Manager undergoes a full penetration test conducted by an independent third-party company. The test is designed to identify security vulnerabilities in the application. The tests include scanning for cross-site scripting, SQL injections, form parameter manipulation, and other application-level vulnerabilities.
 * Quarterly: Once each quarter, internal teams check for security vulnerabilities. These tests include network scans for open ports and service vulnerabilities.
 
 **Systems Security:**  To help keep data safe and private, Audience Manager:
 
-* Blocks requests from unauthorized IP addresses. 
-* Protects data behind firewalls, VPNs, and with Virtual Private Cloud storage. 
+* Blocks requests from unauthorized IP addresses.
+* Protects data behind firewalls, VPNs, and with Virtual Private Cloud storage.
 * Tracks changes in the customer and control-information databases with trigger-based audit logging. These logs track all changes at the database level, including the user ID and IP address from which changes are made.
 
 **Security Assets:**  Audience Manager has a dedicated network operations team that monitors firewalls and intrusion-detection devices. Only key personnel have access to our security technology and data.

@@ -26,7 +26,7 @@ The IAB TCF support described in this article represents the first phase in Audi
 
 * Mobile device workflows;
 * Cross-device consent management;
-* Appending consent to URLs sent to [URL destinations](/help/using/features/destinations/create-url-destination.md);
+* Appending consent to URLs sent to [URL destinations](../../features/destinations/create-url-destination.md);
 * Appending consent to segments.
 
 ## Prerequisites {#prerequisites}
@@ -34,10 +34,9 @@ The IAB TCF support described in this article represents the first phase in Audi
 You must meet the following prerequisites to use the IAB TCF with Audience Manager:
 
 1. You must be using Experience Cloud ID Service (ECID) version 4.1 or newer. [Download](https://github.com/Adobe-Marketing-Cloud/id-service/releases) our latest ECID release.
-2. 
-   1. You must be using Audience Manager Data Integration Library (DIL) version 9.0 or newer, downloadable from [here](https://github.com/Adobe-Marketing-Cloud/dil/releases). Read about [DIL in the Audience Manager documentation](/help/using/dil/dil-overview.md).
-   2. Alternatively, if you use Server-Side Forwarding (SSF) to import data into Audience Manager, you must upgrade to the latest version of AppMeasurement. Download AppMeasurement using the [Analytics Code Manager](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html).
-3. You must be using a Consent Management Platform (CMP), either commercial or your own, that supports IAB, and is registered with the IAB TCF. See the list of [CMPs registered within the IAB framework](https://advertisingconsent.eu/cmp-list/).
+1. You must be using Audience Manager Data Integration Library (DIL) version 9.0 or newer, downloadable from [here](https://github.com/Adobe-Marketing-Cloud/dil/releases). Read about [DIL in the Audience Manager documentation](../..//dil/dil-overview.md).
+1. Alternatively, if you use Server-Side Forwarding (SSF) to import data into Audience Manager, you must upgrade to the latest version of AppMeasurement. Download AppMeasurement using the [Analytics Code Manager](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html).
+1. You must be using a Consent Management Platform (CMP), either commercial or your own, that supports IAB, and is registered with the IAB TCF. See the list of [CMPs registered within the IAB framework](https://advertisingconsent.eu/cmp-list/).
 
 ## Recommendations and how to implement {#recommendations}
 
@@ -49,7 +48,7 @@ This is easiest done by using [Adobe Launch](https://docs.adobelaunch.com/) to i
 
 When visiting a web property, your users can provide their choices regarding how their data is to be used by the publisher and by the third-party vendors that the publisher works with. Users provide their choices in the form of *standard purposes* and permissions to *third-party vendors* registered in the global vendor list. The image below represents an example of a CMP dialogue, displayed to a first-time visitor of a website. Keep in mind that this dialogue can look very different, based on customer implementation.
 
-![CMP dialogue](/help/using/overview/aam-gdpr/assets/cmp.png)
+![CMP dialogue](assets/cmp.png)
 
 The standard purposes in the IAB framework are:
 
@@ -86,17 +85,15 @@ Audience Manager works differently depending on whether Audience Manager detects
 |---|---|
 | <ul><li>Carries out all the Audience Manager use cases you have requested.</li><li>Conveys consent to third parties in ID syncs (by passing gdpr = 1 and the consent string as gdpr_consent on ID sync calls).</li><li>Evaluates and honors consent passed from ad server pixels.</li><li>Honors partner-initiated ID syncs.</li></ul>  | <ul><li>Does not store any new user data in your instance. This includes partner IDs, signals, traits, or pixel data.</li><li>Does not initiate 3rd party ID syncs.</li><li>Does not honor partner-initiated ID syncs.</li></ul> |
 
-
-
 ## Publisher Use Case {#publisher-use-case}
 
 By implementing the IAB TCF, you are not required to maintain custom code for consent management on your web properties via a different mechanism with Adobe or other third-party vendors. The use case is described in the image and in the steps below. Start from the left of the image:
 
-1. A user visits one of your web properties. As long as you are using the latest versions of the ECID and DIL libraries (see [Prerequisites](/help/using/overview/aam-gdpr/aam-iab-plugin.md#prerequisites)), the opt-in flow is triggered.
-2. Audience Manager checks whether the IAB flow applies (`isIabContext=true`). See [Recommendations and how to implement](/help/using/overview/aam-gdpr/aam-iab-plugin.md#recommendations).
+1. A user visits one of your web properties. As long as you are using the latest versions of the ECID and DIL libraries (see [Prerequisites](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md#prerequisites)), the opt-in flow is triggered.
+2. Audience Manager checks whether the IAB flow applies (`isIabContext=true`). See [Recommendations and how to implement](aam-iab-plugin.md#recommendations).
 3. Audience Manager checks whether GDPR applies (`gdpr = 1`) and whether there is a CMP, registered with IAB, on your web property. For example, this would apply to users visiting from the European Union area. Note that it is your responsibility as publisher to set the GDPR flag.
 4. If GDPR applies, Audience Manager checks the IAB TCF consent string, passed in the parameter `gdpr_consent`, for the needed permissions. Audience Manager needs permissions for storage, personalization, measurement, plus Audience Manager vendor consent, to store, process or activate data.
-5. If the IAB TCF consent string is present and it contains the required permissions, Audience Manager passes the IAB TCF consent string on to our [data collection servers](/help/using/reference/system-components/components-data-collection.md) (DCS).
+5. If the IAB TCF consent string is present and it contains the required permissions, Audience Manager passes the IAB TCF consent string on to our [data collection servers](../../reference/system-components/components-data-collection.md) (DCS).
 6. Audience Manager responds by setting a [demdex cookie](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_am.html) on the browser. Audience Manager also initiates and honors 3rd party ID syncs.
 7. Alternatively, if the IAB TCF consent string passed in step 5 does not contain all the needed permissions, Audience Manager does not collect, process, or activate data and does not honor or initiate ID syncs.
 
@@ -104,7 +101,7 @@ By implementing the IAB TCF, you are not required to maintain custom code for co
 
 ## Advertiser Use Case {#advertiser-use-case}
 
-Audience Manager evaluates and honors consent passed in [pixel calls](/help/using/integration/sending-audience-data/real-time-data-integration/pixel-based-data-transfer.md), in accordance with the IAB TCF.
+Audience Manager evaluates and honors consent passed in [pixel calls](../../integration/sending-audience-data/real-time-data-integration/pixel-based-data-transfer.md), in accordance with the IAB TCF.
 
 Pixels are generally placed by Audience Manager customers on their partner pages or they are placed in ad servers to include in the ad response. In the first case, your partner must programmatically retrieve the consent parameter and add it to the pixel before firing. In the second case, which is more common and is described in detail below, ad servers append the consent parameters they receive from the Supply-Side Platform (SSP) or publisher ad servers to all pixels.
 
@@ -120,15 +117,15 @@ http://yourcompany.demdex.net/event?d_event=imp&gdpr=1&gdpr_consent=consentstrin
 The use case is described in the image and in the steps below. Start from the left of the image:
 
 1. Your user is served an impression via an ad server. This translates into a pixel call to our Data Collection Servers (DCS).
-1. Audience Manager checks whether the GDPR flag applies. If it doesn't, Audience Manager stores the data passed in macro variables in pixel calls.
-1. If the consent string is present and it contains the required permissions, Audience Manager stores the data passed in macro variables in pixel calls.
-1. If the consent string is missing or lacks the required permissions, Audience Manager drops the data passed in macro variables in pixel calls.
+2. Audience Manager checks whether the GDPR flag applies. If it doesn't, Audience Manager stores the data passed in macro variables in pixel calls.
+3. If the consent string is present and it contains the required permissions, Audience Manager stores the data passed in macro variables in pixel calls.
+4. If the consent string is missing or lacks the required permissions, Audience Manager drops the data passed in macro variables in pixel calls.
 
 ![Advertiser Use Case](assets/advertiser-use-case.png)
 
 ## Activation partners that support IAB TCF {#aam-activation-partners}
 
-The Audience Manager Plug-in for IAB TCF enables you to forward the IAB TCF consent string to activation partners while respecting users’ privacy choices. For information on which activation partners support IAB TCF (accurate as of July 7th, 2019), refer to our **[Partner Excel sheet](/help/using/overview/aam-gdpr/assets/AAM-Partners-October2019.xlsx)**.
+The Audience Manager Plug-in for IAB TCF enables you to forward the IAB TCF consent string to activation partners while respecting users’ privacy choices. For information on which activation partners support IAB TCF, refer to our **[Partner Excel sheet](/help/using/overview/data-security-and-privacy/assets/AAM-Partners-October2019.xlsx)**.
 
 ## Test your IAB implementation {#test-iab-implementation}
 
@@ -138,7 +135,7 @@ To test that you have correctly implemented the Audience Manager Plug-in for IAB
 
 Another privacy option at your users' disposal is the ability to opt out of all data collection. Adobe provides users with the means to do so within the [Your Privacy Choices](https://www.adobe.com/privacy/opt-out.html#customeruse) page.
 
-Audience Manager addresses opt-out management in a [separate article in our documentation](/help/using/overview/data-security-and-privacy/opt-out-management.md).
+Audience Manager addresses opt-out requests in a [separate article in our documentation](data-privacy-requests.md).
 
 >[!NOTE]
 >
