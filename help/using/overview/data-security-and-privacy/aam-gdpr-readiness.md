@@ -8,9 +8,9 @@ title: GDPR Readiness Guidance for Audience Manager Customers
 
 # GDPR Readiness Guidance for Audience Manager Customers (Data Controllers) {#gdpr-readiness-guidance}
 
-We recommend being proactive in the areas of data governance and organizational readiness. This ensures that your consumer data will be organized for processes related to access or delete requests, your teams will be enabled and empowered to manage these requests, and your consumers (Data Subjects) will have a positive, differentiated experience with your brand.
+Audience Manager recommends being proactive in the areas of data governance and organizational readiness. This will help you ensure that your consumer data will be organized for processes related to access or delete requests, your teams will be enabled and empowered to manage these requests, and your consumers (Data Subjects) will have a positive, differentiated experience with your brand.
 
-Please note, as your Data Processor, Adobe cannot provide legal advice on GDPR requirements and the process for obtaining consent from your Data Subjects. Please consult with your legal counsel for guidance on GDPR compliance for your organization.
+As your Data Processor, Adobe cannot provide legal advice on GDPR requirements and the process for obtaining consent from your Data Subjects. Please consult your legal counsel for guidance on GDPR compliance for your organization.
 
 ## Data Governance: Start thinking about how your consumer data is managed in your in Audience Manager instance
 
