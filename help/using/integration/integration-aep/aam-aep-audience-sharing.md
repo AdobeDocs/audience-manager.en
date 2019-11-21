@@ -4,14 +4,14 @@ seo-description: This article describes how audiences are shared between Audienc
 seo-title: Audience Sharing Between Audience Manager and Adobe Experience Platform
 solution: Audience Manager
 title: Audience Sharing Between Audience Manager and Adobe Experience Platform
-keywords: AEP audience sharing, AEP segments, Platform segments
+keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing
 ---
 
 # Audience Sharing Between Audience Manager and Adobe Experience Platform {#aam-aep-audience-sharing}
 
 >[!NOTE]
 >
->This page contains beta documentation that describes functionality available to customers of Audience Manager *and* Adobe Experience Platform. This documentation is subject to change before the final product release.
+> The functionality described on this page is available to customers of Audience Manager and Adobe Experience Platform. 
 >
 > Contact your Adobe sales representative to unlock access to this functionality.
 
