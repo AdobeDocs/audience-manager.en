@@ -12,7 +12,7 @@ title: CCPA Glossary
 
 This article explains the concepts and terminology used by the California Consumer Privacy Act (CCPA), and how Adobe Audience Manager, addresses various CCPA requirements.
 
-The California Consumer Privacy Act (CCPA) will come into effect on January 1st, 2020 and is another opportunity to partnering in the privacy consumer experience. Audience Manager is already leveraging existing privacy infrastructure to meet core CCPA readiness and deploying additional tools to be fully CCPA ready ahead of January 1st, 2020. As compliance will be a shared responsibility with your enterprise, we look forward to partnering with you to address any new obligations for data governance and privacy by design features.
+The California Consumer Privacy Act (CCPA) will come into effect on January 1st, 2020 and is another opportunity to make privacy an integrated  part of your consumer experience. Audience Manager is leveraging existing privacy infrastructure to help you meet your obligations under CCPA when using Audience Manager, allowing you to be CCPA ready before and after January 1st, 2020. Audience Manager looks forward to partnering with you as you address any new obligations through the use of our data governance and privacy by design features.
 
 ## CCPA Glossary {#CCPA-glossay}
 

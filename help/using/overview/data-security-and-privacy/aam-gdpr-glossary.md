@@ -27,7 +27,7 @@ Get familiar with key terms used related to GDPR. We’ve highlighted some of th
 
 &nbsp;
 
-**Data Processor:** The "Processor" is "the … legal person … which processes personal data on behalf of the controller". In the context of Audience Manager (Adobe's Data Management Platform or DMP), Adobe is acting as a “Data Processor” for any personal data it processes and stores and services via the DMP. Adobe only processes personal data in accordance with the Data Controller’s permission and instructions (for example, as set out in our agreement with the customer).
+**Data Processor:** The "Processor" is "the … legal person … which processes personal data on behalf of the controller". In the context of Audience Manager, Adobe, in operating the service, is acting as a “Data Processor” for any personal data it processes on behalf of the Controller. Adobe only processes personal data in accordance with the Data Controller’s instructions (as set out in our agreement with the customer or through actions taken in Audience Manager).
 
 &nbsp;
 
@@ -51,7 +51,7 @@ Get familiar with key terms used related to GDPR. We’ve highlighted some of th
 
 &nbsp;
 
-**Audience Manager Identifiers (IDs):** Adobe Audience Manager stores various types of IDs. The [Audience Manager Identifiers](data-privacy-ids.md) page provides a summary of these IDs, their corresponding data sources, and brief descriptions. When providing requests to Adobe, reference these IDs to make delete or access requests for your data subjects.
+**Audience Manager Identifiers (IDs):** Adobe Audience Manager stores various types of IDs. The [Audience Manager Identifiers](data-privacy-ids.md) page provides a summary of these IDs, their corresponding data sources, and brief descriptions. When sending requests to the [Adobe Experience Platform Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html), reference these IDs to make delete or access requests for your data subjects.
 
 &nbsp;
 
