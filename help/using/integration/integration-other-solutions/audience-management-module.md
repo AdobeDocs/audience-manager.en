@@ -16,6 +16,7 @@ Add the [!UICONTROL Audience Management Module] to [!DNL Adobe Analytics] [!UICO
 
 In addition to implementing the code described in this document, you must also:
 
+* Integrate DIL code through [Adobe Dynamic Tag Manager](https://marketing.adobe.com/resources/help/en_US/dtm/c_overview.html) ([!DNL DTM]).
 * Implement the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
 * Enable [!UICONTROL Server-Side Forwarding] for report suites in the [!UICONTROL Adobe Analytics Admin Console].
 
