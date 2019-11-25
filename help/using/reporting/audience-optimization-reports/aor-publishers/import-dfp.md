@@ -19,8 +19,8 @@ In order to use DFP ( [!DNL DoubleClick For Publishers]) log files in [!DNL Audi
 
 Here is how to set the [!DNL Audience Manager] ID in the ad tag call, as explained in our documentation:
 
-* [Via Google Publisher Tag (GPT)](../../../integration/gpt-aam-destination/gpt-aam-create-destination.md) 
-* [Via a Cookie Destination](../../../integration/gpt-aam-destination/gpt-aam-modify-api.md)
+* [Via Google Publisher Tag (GPT)](../../../integration/gpt-aam-destination/gpt-aam-modify-api.md) 
+* [Via a Cookie Destination](../../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
 
 You need to set the [!DNL Audience Manager] ID yourself, and can work with [!DNL Audience Manager] consulting to check if everything works. You have set the [!DNL Audience Manager] ID correctly if:
 

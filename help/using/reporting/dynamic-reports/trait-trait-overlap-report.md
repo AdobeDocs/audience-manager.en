@@ -64,36 +64,44 @@ The popup for the [!UICONTROL Trait-to-Trait Overlap] report contains the metric
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Data Provider Name</span></b> </td> 
-   <td colname="col2"> Name of the trait's owner. </td> 
+   <td colname="col1"><b><span class="wintitle"> Overlap %</span></b> </td> 
+   <td colname="col2"> Shows the % of unique overlap between compared traits (overlap uniques/trait uniques). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Data Provider Type</span></b> </td> 
-   <td colname="col2">Defines the type of provider a trait belongs to. Can be either: 
+   <td colname="col1"><b><span class="wintitle"> Data Source Type</span></b> </td> 
+   <td colname="col2">Defines the type of data source a trait belongs to. Can be either: 
     <ul id="ul_0477C04A33FD4F5D998B98984E6554D3"> 
      <li id="li_50FCA48EDB5843AB8FB6C34ED2C0067D">First-party (your own trait). </li> 
      <li id="li_4F6148EDAEFE43FA8D505944E9FE3855">Third-party (from an outside data partner/vendor). </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Trait ID</span></b> </td> 
-   <td colname="col2"> Unique numeric ID for that trait. </td> 
+   <td colname="col1"><b><span class="wintitle"> Overlapping Trait ID</span></b> </td> 
+   <td colname="col2"> Unique numeric ID for the overlapping trait. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Trait Name</span></b> </td> 
-   <td colname="col2"> Name of the trait. </td> 
+   <td colname="col1"><b><span class="wintitle"> Overlapping Trait Name</span></b> </td> 
+   <td colname="col2"> Name of the overlapping trait. </td> 
+  </tr>
+    <tr> 
+   <td colname="col1"><b><span class="wintitle"> Trait ID 2</span></b> </td> 
+   <td colname="col2"> Unique numeric ID for the trait in your base data source. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Overlap %</span></b> </td> 
-   <td colname="col2"> Shows the % of unique overlap between compared traits (overlap uniques/trait uniques). </td> 
+   <td colname="col1"><b><span class="wintitle"> Trait Name 2</span></b> </td> 
+   <td colname="col2"> Name of the trait in your base data source. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b><span class="wintitle"> Overlap Uniques</span></b> </td> 
-   <td colname="col2"> <p>To get the overlap %, Audience Manager uses the following formula:</p> <p>Overlapping Uniques / (Base Segment Uniques + Overlapping Segment Uniques – Overlapping Uniques)</p> </td> 
+   <td colname="col2"> <p>To get the overlap %, Audience Manager uses the following formula:</p> <p>Overlapping Uniques / (Base trait Uniques + Overlapping trait Uniques – Overlapping Uniques)</p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Trait Uniques</span></b> </td> 
-   <td colname="col2"> The number of unique visitors in the trait. </td> 
+   <td colname="col1"><b><span class="wintitle"> Overlapping Trait Uniques</span></b> </td> 
+   <td colname="col2"> The number of unique visitors from the overlapping trait. </td> 
+  </tr> 
+    <tr> 
+   <td colname="col1"><b><span class="wintitle"> Base Trait Uniques</span></b> </td> 
+   <td colname="col2"> The number of unique visitors from the base trait. </td> 
   </tr> 
  </tbody> 
 </table>
