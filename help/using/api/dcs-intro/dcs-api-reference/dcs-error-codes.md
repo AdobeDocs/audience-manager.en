@@ -76,7 +76,7 @@ In the tables below, *italics* represents a variable placeholder.
     <tr> 
    <td colname="col1"> <p>109</p> </td> 
    <td colname="col2"> <p>Referer <code>HTTP referer</code> is not allowed for partner <code>Partner ID</code> </p> </td> 
-   <td colname="col3"> <p>The [!DNL HTTP referer] header on the call is not allowed for the partner ID on the call. Check that the [!DNL HTTP referer] header is correct.</p> </td>
+   <td colname="col3"> <p>The <code>HTTP referer</code> header on the call is not allowed for the partner ID on the call. Check that the <code>HTTP referer</code> header is correct.</p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>111 </p> </td> 
