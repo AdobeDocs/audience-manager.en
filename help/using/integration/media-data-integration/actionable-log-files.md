@@ -155,7 +155,7 @@ For an average-sized [!DNL DCM] log file of 2 million lines, any traits created 
 
 ### Actionable Signals from Generic Ad Server Logs {#generic-logs-signals}
 
-First, you must drop your ad server logs in our Amazon S3 buckets. To accomplish this, read [Data Files for Audience Optimization Reports and Actionable Log Files](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md) *and* contact your [!DNL Audience Manager] consultant. The table lists the actionable signals from generic log files:
+First, you must deposit your ad server logs in our Amazon S3 buckets. To accomplish this, read [Data Files for Audience Optimization Reports and Actionable Log Files](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md) *and* contact your [!DNL Audience Manager] consultant. The table lists the actionable signals from generic log files:
 
 <table id="table_A5A2A10D471C4C9D8DCD88F9C017040C"> 
  <thead> 
