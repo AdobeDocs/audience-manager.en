@@ -181,8 +181,8 @@ First, you must drop your ad server logs in our Amazon S3 buckets. To accomplish
   <tr> 
    <td colname="col1"> <p> <code>Time-Stamp</code> </p> </td> 
    <td colname="col2"> <p> <code> d_time</code> </p> </td> 
-   <td colname="col3"> <p> A UTC date and time for the impression, click, or conversion event. Use the <code>yyyy-dd-mm hh:mm:ss format.</code> </p></td> 
-   <td colname="col4"> <p> <code>2019-30-08 11:23:00</code> </p> </td> 
+   <td colname="col3"> <p> A UTC date and time for the impression, click, or conversion event. Use the <code>yyyy-MM-dd HH:mm:ss</code> format. </p></td> 
+   <td colname="col4"> <p> <code>2019-03-26 11:23:10</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>Advertiser-ID</code> </p> </td> 

@@ -31,7 +31,7 @@ In a file name:
 
 Given these requirements, name your data files based on their contents like this:
 
-* Impression data: <pre><code>impressions_<i>yyyymmdd<i>.gz</code></pre>
+* Impression data: <pre><code>impressions_<i>yyyymmdd</i>.gz</code></pre>
 * Click data: <pre><code>clicks_<i>yyyymmdd</i>.gz</code></pre>
 * Conversion data: <pre><code>conversions_<i>yyyymmdd</i>.gz</code></pre>
 
@@ -63,7 +63,7 @@ The table below lists and describes the column headers for your data file. Heade
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Time-Stamp </p> </td> 
-   <td colname="col2"> <p>A UTC date and time for the impression, click, or conversion event. Use the <code> yyyy-dd-mm hh:mm:ss</code> format. </p> </td> 
+   <td colname="col2"> <p>A UTC date and time for the impression, click, or conversion event. Use the <code> yyyy-MM-dd HH:mm:ss</code> format. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>User-ID </p> </td> 
