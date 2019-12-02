@@ -57,7 +57,7 @@ To create a new [!UICONTROL Segment Test Group]:
     * An alert will show up in case you select a conversion trait already used for other test groups.
     * Note that Audience Manager does not support using [folder traits](/help/using/features/traits/about-folder-traits.md) as conversion traits. Selecting a folder trait as conversion trait results in 0 aggregate and trend reporting displayed within the test.
 
-2. **[!UICONTROL Choose Destinations & Dates]**
+1. **[!UICONTROL Choose Destinations & Dates]**
 
     * Type in the desired destinations in the search field or use the drop-down arrow. [!UICONTROL Audience Lab] test segments can be sent to URL, cookie, or server-to-server destinations.
     * Drag & drop segments to destinations.
@@ -73,7 +73,7 @@ To create a new [!UICONTROL Segment Test Group]:
 
    Click **[!UICONTROL Next]** to review and finalize your test group.
 
-3. **[!UICONTROL Summary & Finalize]**
+1. **[!UICONTROL Summary & Finalize]**
 
     * Review the information you added in the previous steps and select **[!UICONTROL Finalize Group]**.
     * Remember that once you finalize a test group, it can be duplicated or deleted, but not edited.
