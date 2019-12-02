@@ -61,7 +61,7 @@ With serialized key-value pairs, you must specify the markers that separate valu
  </tbody> 
 </table>
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Send Data to the DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md)
 >* [Key-Value Prefixes and Variables Supported by the DCS](../../../api/dcs-intro/dcs-api-reference/dcs-keys.md)

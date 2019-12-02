@@ -175,10 +175,6 @@ Given these key-value pairs and their required syntax, you would make event call
  </tbody> 
 </table>
 
->[!MORE_LIKE_THIS]
->
->* [CID Replaces DPID and DPUUID](../reference/cid.md)
-
 ## Declared ID Variables {#declared-id-variables}
 
 Describes the configuration variables used to pass declared IDs through [!UICONTROL DIL] to [!DNL Audience Manager.]
@@ -280,3 +276,7 @@ myCallback({
 ## Do Not Target and Opt-Out Calls {#do-not-target}
 
 The [!UICONTROL declared ID] process honors site visitor preferences to opt-out of Audience Manager targeting by your website. When Audience Manager receives an opt-out request, the [!UICONTROL DCS] returns an empty [!DNL JSON] object instead of the Audience Manager user ID.
+
+>[!MORELIKETHIS]
+>
+>* [CID Replaces DPID and DPUUID](../reference/cid.md)

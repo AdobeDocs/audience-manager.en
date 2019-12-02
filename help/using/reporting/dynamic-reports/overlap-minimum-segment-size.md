@@ -42,7 +42,7 @@ If you do not see a segment in one of the [!UICONTROL Overlap] reports, it may b
  </tbody> 
 </table>
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Trait-to-Trait Overlap Report](../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report)
 >* [Segment-to-Trait Overlap Report](../../reporting/dynamic-reports/segment-trait-overlap-report.md)

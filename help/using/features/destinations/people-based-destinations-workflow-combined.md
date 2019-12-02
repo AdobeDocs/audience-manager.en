@@ -8,6 +8,9 @@ title: Workflow A - Personalization Based on All Online Activity Combined with O
 
 # Workflow A - Personalization Based on All Online Activity Combined with Offline Data {#workflow-a}
 
+>[!IMPORTANT]
+>This article contains product documentation meant to guide you through the setup and usage of this feature. Nothing contained herein is legal advice. Please consult your own legal counsel for legal guidance.
+
 This page includes step-by-step guidance on how to combine offline [!DNL CRM] data with behavioral data that you already have in Audience Manager to create new audience segments, then send these audience segments to [!DNL People-Based Destinations].
 
 ## Step 1 - Configure Data Source Settings {#configure-data-source-settings}
@@ -22,7 +25,15 @@ In this case, you need to need to label the corresponding data source as such:
 
 1. Go to [!UICONTROL Audience Data] -> [!UICONTROL Data Sources].
 1. Find the data source that contains your [DPUUIDs](../../reference/ids-in-aam.md), and click it.
+1. In the **[!UICONTROL ID Type]** drop-down menu, select **[!UICONTROL Cross Device]**.
 1. Make sure the option [!UICONTROL Cannot be tied to personally identifiable information] is unchecked.
+1. In the **[!UICONTROL Data Source Settings]** section, select both the **[!UICONTROL Inbound]** and **[!UICONTROL Outbound]** options, and enable the **[!UICONTROL Share associated cross-device IDs in people-based destinations]** option.
+1. Use the drop-down menu to select the **[!UICONTROL Emails(SHA256, lowercased)]** label for this data source.
+    >[!IMPORTANT]
+    >
+    >This option only labels the data source as containing data hashed with that specific algorithm. Audience Manager does not hash the data at this step. Make sure the email addresses that you plan on storing in this data source are already hashed with the [!DNL SHA256] algorithm. Otherwise, you won't be able to use it for [!DNL People-Based Destinations].
+
+    ![pbd-datasource-settings](assets/pbd-ds-config.png)
 1. Save the data source settings.
 
 &nbsp;
@@ -41,6 +52,11 @@ In this case, you need to create a new cross-device data source that will store 
     >This option only labels the data source as containing data hashed with that specific algorithm. Audience Manager does not hash the data at this step. Make sure the email addresses that you plan on storing in this data source are already hashed with the [!DNL SHA256] algorithm. Otherwise, you won't be able to use it for [!DNL People-Based Destinations].
 
     ![pbd-datasource-settings](assets/pbd-ds-config.png)
+1. Save the data source settings.
+
+Watch the video below for a video tutorial of how to create a data source for [!UICONTROL People-Based Destinations].
+
+>[!VIDEO](https://video.tv.adobe.com/v/29006/)
 
 >[!NOTE]
 >
@@ -93,6 +109,8 @@ In the example above, the file name would look like this:
 `c2c_id_999999_987654_1560431657.sync`
 
 [Download example file here](https://marketing.adobe.com/resources/help/en_US/aam/downloads/c2c_id_999999_987654_1560431657.sync).
+
+Once you've created your ID synchronization file, you need to upload it to an [!DNL Amazon S3] bucket. To learn how to upload ID synchronization files, see [Send Batch Data to Audience Manager](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md).
 
 ## Step 3 - Create a Profile Merge Rule for Segmentation {#create-merge-rule}
 

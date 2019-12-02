@@ -1,13 +1,13 @@
 ---
 description: Audience Manager takes data security and privacy very seriously. We work to keep our systems secure and protect your valuable data.
 seo-description: Audience Manager takes data security and privacy very seriously. We work to keep our systems secure and protect your valuable data.
-seo-title: Data Security
+seo-title: Data Security in Audience Manager
 solution: Audience Manager
-title: Data Security
+title: Data Security in Audience Manager
 uuid: 33ad19ca-4690-4d97-853b-1882d7d4ac01
 ---
 
-# Data Security {#data-security}
+# Data Security in Audience Manager {#data-security}
 
 Audience Manager takes data security and privacy very seriously. We work to keep our systems secure and protect your valuable data.
 
@@ -27,13 +27,13 @@ Processes that help keep our system and your data secure.
 
 **External Security Validation:**  Audience Manager tests security on an annual and quarterly basis.
 
-* Yearly: Once a year, Audience Manager undergoes a full penetration test conducted by an independent third-party company. The test is designed to identify security vulnerabilities in the application. The tests include scanning for cross-site scripting, SQL injections, form parameter manipulation, and other application-level vulnerabilities. 
+* Yearly: Once a year, Audience Manager undergoes a full penetration test conducted by an independent third-party company. The test is designed to identify security vulnerabilities in the application. The tests include scanning for cross-site scripting, SQL injections, form parameter manipulation, and other application-level vulnerabilities.
 * Quarterly: Once each quarter, internal teams check for security vulnerabilities. These tests include network scans for open ports and service vulnerabilities.
 
 **Systems Security:**  To help keep data safe and private, Audience Manager:
 
-* Blocks requests from unauthorized IP addresses. 
-* Protects data behind firewalls, VPNs, and with Virtual Private Cloud storage. 
+* Blocks requests from unauthorized IP addresses.
+* Protects data behind firewalls, VPNs, and with Virtual Private Cloud storage.
 * Tracks changes in the customer and control-information databases with trigger-based audit logging. These logs track all changes at the database level, including the user ID and IP address from which changes are made.
 
 **Security Assets:**  Audience Manager has a dedicated network operations team that monitors firewalls and intrusion-detection devices. Only key personnel have access to our security technology and data.
@@ -72,4 +72,18 @@ To add PGP encryption to your data files, see [File PGP Encryption for Inbound D
 
 ## Protecting Data by Escaping {#escaping-data}
 
-Note that [!DNL Audience Manager] does not escape outgoing data to secure it against possible cross-site scripting (XSS), etc. It is the responsibility of the client to escape incoming data. 
+Note that [!DNL Audience Manager] does not escape outgoing data to secure it against possible cross-site scripting (XSS), etc. It is the responsibility of the client to escape incoming data.
+
+## HTTP Strict-Transport-Security {#hsts}
+
+[!DNL HTTP Strict-Transport-Security (HSTS)] is an industry-wide web security mechanism which helps protect against cookie hijacking and protocol downgrade attacks.
+
+The policy instructs the web browser that once a secure [!DNL HTTPS] call was made to a given domain, no subsequent unsecure calls ([!DNL HTTP]) should be allowed to that domain. This protects against man-in-the-middle attacks, where an attacker might try to downgrade [!DNL HTTPS] calls to unsecured [!DNL HTTP] calls.”
+
+This policy improves data security between clients and Adobe [Edge](../../reference/system-components/components-edge.md) servers.
+
+### Example {#hsts-example}
+
+Let's say the `yourcompany.demdex.com` domain sends trafic to the [!DNL DCS] via [!DNL HTTP]. [!DNL HSTS] upgrades the calls to use [!DNL HTTPS] instead, and all subsequent [!DNL DCS] calls coming from `yourcompany.demdex.com` will use [!DNL HTTPS] instead of [!DNL HTTP].
+
+See [HTTP Strict Transport Security - Wikipedia](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) for more information about HSTS.

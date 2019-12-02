@@ -8,6 +8,9 @@ title: Workflow B - Personalization Based on Offline-Only Data
 
 # Workflow B - Personalization Based on Offline-Only Data {#workflow-b}
 
+>[!IMPORTANT]
+>This article contains product documentation meant to guide you through the setup and usage of this feature. Nothing contained herein is legal advice. Please consult your own legal counsel for legal guidance.
+
 This page includes step-by-step guidance on how to build audience segments from offline-only customer data, and send them to People-Based Destinations.
 
 ## Step 1 - Onboard Offline Traits {#step-1-onboard-traits}
@@ -78,6 +81,10 @@ In this case, you need to create a new cross-device data source that will store 
     >
     > See [Data Onboarding](people-based-destinations-prerequisites.md#data-onboarding) for frequently asked questions about how you should bring your offline data into Audience Manager for People-Based Destinations.
 
+Watch the video below for a video tutorial of how to create a data source for [!UICONTROL People-Based Destinations].
+
+>[!VIDEO](https://video.tv.adobe.com/v/29006/)
+
 ## Step 3 - Match DPUUIDs to Hashed Email Addresses via File-Based ID Synchronization {#match-ids-emails}
 
 >[!IMPORTANT]
@@ -101,7 +108,7 @@ As a reminder, you would now have two data sources:
 
 &nbsp;
 
-Your [ID synchronization file](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) would have the following contents:
+In our example, your [ID synchronization file](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) would have the following contents:
 
 ```
 68079982765673198504052656074456196039<TAB>55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149
@@ -121,6 +128,8 @@ In the example above, the file name would look like this:
 `c2c_id_999999_987654_1560431657.sync`
 
 [Download example file here](https://marketing.adobe.com/resources/help/en_US/aam/downloads/c2c_id_999999_987654_1560431657.sync).
+
+Once you've created your ID synchronization file, you need to upload it to an [!DNL Amazon S3] bucket. To learn how to upload ID synchronization files, see [Send Batch Data to Audience Manager](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md).
 
 ## Step 4 - Create a Profile Merge Rule for Segmentation {#create-profile-merge-rule}
 
@@ -150,7 +159,7 @@ To create new segments from offline-only data, use the [Segment Builder](../segm
 
 >[!IMPORTANT]
 >
->A udience Manager handles the integration with social platforms through authentication tokens that expire after a certain amount of time. See Authentication Token Renewal for details on how to renew the expired tokens.
+>Audience Manager handles the integration with social platforms through authentication tokens that expire after a certain amount of time. See Authentication Token Renewal for details on how to renew the expired tokens.
 
 ## Step 7 - Create a People-Based Destination {#create-destination}
 

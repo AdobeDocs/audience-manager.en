@@ -39,6 +39,6 @@ The [!UICONTROL Data Collection Servers] extract the values for these keys from 
 >
 >Even if one or more signals cannot be retrieved from the user agent header, the other signals will still be passed to the [!UICONTROL Data Collection Servers].
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Prefix Requirements for Key Variables](../../features/traits/trait-variable-prefixes.md)

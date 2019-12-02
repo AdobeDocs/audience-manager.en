@@ -1,91 +1,54 @@
 ---
 description: Describes Audience Manager integration and compliance with generally accepted best practices related to consumer privacy and opt-out procedures.
 seo-description: Describes Audience Manager integration and compliance with generally accepted best practices related to consumer privacy and opt-out procedures.
-seo-title: Data Privacy
+seo-title: Data Privacy Overview
 solution: Audience Manager
-title: Data Privacy
+title: Data Privacy Overview
 uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
 ---
 
-# Data Privacy{#data-privacy}
+# Data Privacy Overview {#data-privacy}
 
-Describes Audience Manager integration and compliance with generally accepted best practices related to consumer privacy and opt-out procedures.
+## Overview
 
-## Data Privacy {#data-privacy-center}
+The Data Privacy documentation describes Audience Manager integration and compliance with generally accepted best practices related to consumer privacy and opt-out procedures.
 
-See the [Adobe Privacy Center](https://www.adobe.com/privacy/opt-out.html).
+Audience Manager recognizes the importance of the relationship between consumers and the online brands they interact with. Both parties benefit from the transparent exchange of anonymous data elements:
 
-## Consumer Privacy Protection {#consumer-privacy-protection}
-
-Audience Manager recognizes the implicit pact between consumers and the online brands with which they interact. Both parties benefit from the transparent exchange of anonymous data elements:
-
-* Consumers receive personalized content, discounted product offers, and streamlined user experiences. 
+* Consumers receive personalized content, discounted product offers, and streamlined user experiences.
 * Brands receive vital revenue streams supporting multiple online business models.
 
-In our continuing support of this model, Audience Manager remains committed to providing transparency and control to consumers, and meeting or exceeding the Online Behavioral Advertising (OBA) Self-Regulatory Principles.
+In our continuing support of this model, Audience Manager remains committed to providing you with the tools to help support your ability to provide  transparency and control to your consumers, while delivering personalized ads subject to the [Online Behavioral Advertising (OBA) Self-Regulatory Principles](https://www.iab.com/news/self-regulatory-principles-for-online-behavioral-advertising/).
 
-## Opt-Out Management {#opt-out-management}
+&nbsp;
 
-The opt-out documentation has been extended and moved to a separate part of our documentation. See [Opt-out Management](../../overview/data-security-and-privacy/opt-out-management.md).
+The [General Data Protection Regulation (GDPR)](https://eugdpr.org/) introduced several new data privacy rights for members of the European Union, including the **Right to Access** and the **Right to be Forgotten**. This means that any EU citizen whose personal data has been collected by your business can request to access or delete their data at any time. Failure to comply with these requests can result in multi-million dollar fines for your organization.
 
-<!-- 
+To comply with GDPR, Audience Manager supports data access and delete [requests](data-privacy-requests.md).
 
-<p>  </p>
-<table id="table_A1FF33B328BD451FAFF6C6B8422F928B"> 
- <tgroup cols="2">
-  <colspec colnum="1" colname="col1" colwidth="1.00*" />
-  <colspec colnum="2" colname="col2" colwidth="2.74*" />
-  <thead> 
-   <tr> 
-    <th colname="col1" class="entry"> Opt-Out For </th> 
-    <th colname="col2" class="entry"> Description </th> 
-   </tr>
-  </thead> 
-  <tbody> 
-   <tr> 
-    <td colname="col1"> <p>Adobe Experience Cloud </p> </td> 
-    <td colname="col2"> <p>The <a href="https://www.adobe.com/privacy/opt-out.html#customeruse" format="http" scope="external"> Your Privacy Choices page</a> provides 1-click features that let you control and opt-out of data collection by the Adobe Experience Cloud advertising solutions (including Audience Manager). Specifically, see the <a href="https://www.adobe.com/privacy/opt-out.html#customeruse" format="http" scope="external"> business customer section</a> of the Privacy Choices page. </p> </td> 
-   </tr> 
-   <tr> 
-    <td colname="col1"> <p>Browsers that do not support third-party cookies </p> </td> 
-    <td colname="col2"> <p>See <a href="../../features/declared-ids.md#declared-id-targeting"> Declared ID Targeting</a>. </p> </td> 
-   </tr> 
-   <tr> 
-    <td colname="col1"> <p>Mobile devices </p> </td> 
-    <td colname="col2"> <p>See the opt-out and privacy settings for: </p> <p> 
-      <ul id="ul_86EFAB879215403D937B5148C26A41D9"> 
-       <li id="li_C0B544E8F4FE473B94A5436D3A60BDB1"><a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/privacy.html" format="https" scope="external"> Android devices</a> </li> 
-       <li id="li_26C787BAB729499A9FEDF055E9AB0637"><a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/privacy.html" format="https" scope="external"> iOS devices</a> </li> 
-      </ul> </p> </td> 
-   </tr> 
-  </tbody> 
- </tgroup> 
-</table>
+The [California Consumer Privacy Act (CCPA)](https://www.caprivacy.org/about), going into effect on January 1st, 2020, will provide California residents new rights regarding their personal information and will impose data protection responsibilities on certain entities that conduct business in California.
 
- -->
+The CCPA provides new data privacy rights to California residents, including the right to access and delete their personal data and to know whether their personal data is sold or disclosed (and to whom). In anticipation of the CCPA, Audience Manager supports CCPA access and delete [requests](data-privacy-requests.md).
 
-## Collecting IP Addresses and IP Address Obfuscation {#collecting-ip-addresses}
+See the [Adobe Privacy Center](https://www.adobe.com/privacy/opt-out.html) for more details.
 
-<!-- 
+## Regulations Compliance {#compliance}
 
-Adobe has enabled processes and offers settings that allow customers to use Audience Manager in compliance with applicable data privacy laws.
+Audience Manager helps you comply with your obligations under certain privacy regulations, through privacy tools like the [Adobe Experience Platform Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) for data access and delete requests.
 
--->
+This service provides a [!DNL RESTful API] and user interface to help you manage consumer data requests. Using the [Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html), you can submit requests to access and delete private or personal data, based on an individual consumer’s request, helping to automate this portion of your compliance obligations.
 
-The IP address of a visitor to a customer’s website is transmitted to an Adobe Data Processing Center (DPC) where the IP address may be stored. Depending on the network configuration for the visitor, the IP address may not necessarily represent the IP address of the visitor’s computer. For example, the IP address could be the external IP address of a Network Address Translation (NAT) firewall, HTTP proxy, or Internet gateway.
-
-**IP Obfuscation Methodology:** Following the principles of "Privacy By Design", Adobe Audience Manager allows customers to enable IP obfuscation from the UI, either globally across all geographic regions or for specific countries. When you enable this setting, the last octet (the last portion) of the IP address is immediately discarded when the IP address is ingested into Audience Manager. Audience Manager discards this part of the IP address prior to processing (including before any optional geographic lookup or logging of the IP address). For example:
-
-* Before: `255.255.255.255` 
-* After: `255.255.255.0`
-
->[!NOTE]
->
->See [IP Address Obfuscation](/help/using/features/administration/ip-obfuscation.md) to learn how to enable IP address obfuscation in the Audience Manager UI.
-
-**Geographic Segmentation:** If you enable IP address obfuscation, the remaining octets of the IP address can still be used for geo-segmentation and reporting in Audience Manager. If you do not enable IP address obfuscation, Audience Manager uses the full IP address. You can use the Geographic Segmentation feature that allows you to identify an IP location by geographic area in either case, but with some slight loss of precision when IP obfuscation is being used. Obtaining city-level information will likely be significantly impacted by the obfuscation of the IP address. Obtaining region and country-level information should only be slightly impacted. Geographic Segmentation data is granular only to the city level or postal code level, and not to the individual level. Read more about [geo-targeting](/help/using/features/traits/trait-geotarget-keys.md) and how to set up traits with geographic variables.
+While data access and deletion requests are handled through the [Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html), [opt-out requests](data-privacy-requests.md#opt-out-requests) are currently supported through the [DCS API](../../api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md). See [Data Privacy Requests](data-privacy-requests.md) for details.
 
 ## Related concepts {#related-concepts}
 
-* [Opt-out Management](/help/using/overview/data-security-and-privacy/opt-out-management.md)
-* [Privacy and Data Retention FAQ](/help/using/faq/faq-privacy.md)
+* [Data Privacy Requests](data-privacy-requests.md)
+* [Consent Management](data-privacy-consent.md)
+* [Audience Manager Plug-in for IAB TCF](aam-iab-plugin.md)
+* [Audience Manager Identifiers](data-privacy-ids.md)
+* [CCPA Glossary](aam-ccpa-glossary.md)
+* [GDPR Glossary](aam-gdpr-glossary.md)
+* [GDPR Considerations for Destinations](aam-gdpr-partners.md)
+* [GDPR Readiness Guidance for Audience Manager Customers](aam-gdpr-readiness.md)
+* [Data Governance](data-governance.md)
+* [Privacy and Data Retention FAQ](../../faq/faq-privacy.md)

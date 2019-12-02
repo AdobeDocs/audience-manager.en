@@ -11,16 +11,20 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 + Overview{#overview}
     + [Audience Manager Overview](overview/aam-overview.md)
     + [Types of Data Collected](overview/data-types-collected.md)
-    + Data Security and Privacy {#data-security-and-privacy}
-        + [Overview](overview/data-security-and-privacy/data-security-privacy-overview.md)
-        + [Data Security](overview/data-security-and-privacy/data-security.md)
-        + [Data Privacy](overview/data-security-and-privacy/data-privacy.md)
-        + [Opt-out Management](overview/data-security-and-privacy/opt-out-management.md)
-    + General Data Protection Regulation (GDPR){#gdpr}
-        + [GDPR in Audience Manager](overview/aam-gdpr/aam-gdpr-details.md)
-        + [GDPR Considerations for Destinations](overview/aam-gdpr/aam-gdpr-partners.md)
-        + [GDPR FAQ](overview/aam-gdpr/aam-gdpr-faq.md)
-        + [Audience Manager Plug-in for IAB TCF](/help/using/overview/aam-gdpr/aam-iab-plugin.md)
+    + [Data Security](overview/data-security-and-privacy/data-security.md)
+    + Data Privacy {#data-privacy}
+        + [Data Privacy Overview](overview/data-security-and-privacy/data-privacy.md)
+        + [Data Privacy Requests](overview/data-security-and-privacy/data-privacy-requests.md)
+        + Data Privacy Reference {#data-privacy-reference}
+            + [Audience Manager Identifiers](overview/data-security-and-privacy/data-privacy-ids.md)
+            + [CCPA Glossary](overview/data-security-and-privacy/aam-ccpa-glossary.md)
+            + [GDPR Glossary](overview/data-security-and-privacy/aam-gdpr-glossary.md)
+            + [GDPR Considerations for Destinations](overview/data-security-and-privacy/aam-gdpr-partners.md)
+            + [GDPR Readiness Guidance for Audience Manager Customers](overview/data-security-and-privacy/aam-gdpr-readiness.md)
+        + Consent Management {#consent-management}
+            + [Consent Management](overview/data-security-and-privacy/data-privacy-consent.md)
+            + [Audience Manager Plug-in for IAB TCF](overview/data-security-and-privacy/aam-iab-plugin.md)
+    + [Data Governance](overview/data-security-and-privacy/data-governance.md) 
 + Features{#features}
     + [Addressable Audiences](features/addressable-audiences.md)
     + Administration{#administration}
@@ -112,7 +116,6 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
         + [Report Metrics for Profile Merge Rules](features/profile-merge-rules/profile-link-metrics.md)
         + [Profile Merge Rules and Device Un-Segmentation Processes](features/profile-merge-rules/merge-rule-unsegment.md)
         + [Instant Cross-Device Suppression](features/profile-merge-rules/instant-cross-device-suppression.md)
-        + [Important Considerations for Profile Merge Rules with Device Graphs](features/profile-merge-rules/considerations-pmr-device-graph.md)
     + Segments{#segments}
         + [Segments: Purpose, Composition, and Rules](features/segments/segments-purpose.md)
         + [Segments List View](features/segments/segments-dashboard.md)
@@ -175,14 +178,13 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
             + [Ad Unit Overlap](reporting/audience-optimization-reports/aor-publishers/publisher-ad-unit-overlap.md)
             + [Segment to Ad Unit Overlap](reporting/audience-optimization-reports/aor-publishers/publisher-segment-ad-unit-overlap.md)
             + [Unique User Reach](reporting/audience-optimization-reports/aor-publishers/publisher-unique-reach.md)
-        + Data and Metadata Files for Audience Optimization Reports {#data-and-metadata-files}
-            + [Data and Metadata Files for Audience Optimization Reports](reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
-            + [Data Files for Audience Optimization Reports](reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
+        + Data and Metadata Files for Audience Optimization Reports and Actionable Log Files {#data-and-metadata-files}
+            + [ Log Data and Metadata Files](reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
+            + [Data Files for Audience Optimization Reports and Actionable Log Files](reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
             + [Overview and Mappings for Metadata Files](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)
             + [Naming Conventions for Metadata Files](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)
             + [Content Format for Metadata Files](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md)
             + [Delivery Methods for Metadata Files](reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md)
-            + [Status Updates for Metadata Files](reporting/audience-optimization-reports/metadata-files-intro/metadata-update-status.md)
         + [Daily Trait Variation Report](reporting/audience-optimization-reports/daily-trait-variation-report.md)
     + Interactive and Overlap Reports {#interactive-and-overlap-reports}
         + [Interactive and Overlap Reports Overview](reporting/dynamic-reports/dynamic-reports.md)
@@ -316,10 +318,13 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
             + [File Compression for Inbound Data Transfer Files](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
             + [Sample Message to Partners after Inbound Processing](integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)
         + [Custom Partner Integrations](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
+    + Integration with Adobe Experience Platform {#integration-experience-platform}
+      + [Audience Sharing Between Audience Manager and Adobe Experience Platform](integration/integration-aep/aam-aep-audience-sharing.md)
     + Integration with Other Experience Cloud Solutions {#integration-other-solutions}
       + [Integrate Audience Manager With Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
       + [Implement the Audience Management Module](integration/integration-other-solutions/audience-management-module.md)
       + [Server-Side Forwarding (Admin Guide)](https://docs.adobe.com/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html)
+      + [Publish an Adobe Analytics Segment to the Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html)
 + Reference{#reference}
     + [Reference Overview](reference/reference.md)
     + [Amazon S3: About](reference/amazon-s3.md)

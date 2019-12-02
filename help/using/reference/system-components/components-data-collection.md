@@ -89,6 +89,6 @@ These are systems that receive data sent in by various server-to-server integrat
 
 The [!UICONTROL PCS] creates and writes data to the log files. These are sent to other database systems for processing, reporting, and storage. 
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Adobe Privacy Center](https://www.adobe.com/privacy.html)

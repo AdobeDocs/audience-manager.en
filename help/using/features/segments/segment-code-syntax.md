@@ -69,7 +69,7 @@ Set [recency and frequency](../../features/segments/recency-and-frequency.md) in
  </tbody> 
 </table>
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Recency and Frequency](../../features/segments/recency-and-frequency.md)
 >* [Boolean Expressions in Trait and Segment Builder](../../reference/boolean-expressions-tsb.md)

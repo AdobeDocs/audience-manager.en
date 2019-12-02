@@ -10,18 +10,21 @@ title: Overview and Use Cases
 
 Use [!DNL People-Based Destinations] to send first-party audience segments to people-based environments. These environments are closed ecosystems belonging to one entity that controls the content that is being displayed within it. They include social platforms such as [!DNL Facebook], and other platforms that rely on customer accounts to personalize the displayed content.
 
+>[!IMPORTANT]
+>This article contains product documentation meant to guide you through the setup and usage of this feature. Nothing contained herein is legal advice. Please consult your own legal counsel for legal guidance.
+
 ## Overview {#overview}
 
-[!DNL People-Based Destinations] enable you to apply segmentation on online and offline data to create audience segments based on hashed identifiers, such as email addresses or phone numbers. Then, you can send these segments to "walled gardens" such as [!DNL Facebook], where you can target your audience regardless of their online interactions or authentication state. [!DNL People-Based Destinations] can help you:
+[!DNL People-Based Destinations] enable you to apply segmentation on online and offline data to create audience segments based on [hashed identifiers](people-based-destinations-prerequisites.md#hashing-requirements), such as email addresses or phone numbers. Then, you can send these segments to "walled gardens" such as [!DNL Facebook], where you can target your audience on the social platforms. [!DNL People-Based Destinations] can help you:
 
 * Target offline and online audiences in platforms such as [!DNL Facebook], based on hashed email addresses;
-* Compliment existing device and cookie targeting capabilities of Audience Manager;
+* Complement existing device and cookie targeting capabilities of Audience Manager;
 * Eliminate costs associated with third-party data onboarding solutions;
 * Eliminate costs associated with developing custom data onboarding workflows;
 * Target audiences in cookie-less environments;
-* Target audiences by deduplicating email addresses matched to customer IDs.
+* Target audiences by deduplicating hashed email addresses matched to customer IDs.
 
-You can use [!DNL People-Based Destinations] to segment and target high value customers who may have never even visited your website, or stop targeting those who have already converted offline. Additionally, you can leverage [!DNL Profile Merge Rules] to combine offline first-party data with online first-party data, including customer data from other Adobe Experience Cloud solutions, to optimize your social media advertising efforts.
+You can use [!DNL People-Based Destinations] to segment and target high value customers who may not visited your website, or stop targeting those who have already converted offline. Additionally, you can leverage [!DNL Profile Merge Rules] to combine your offline first-party data with your online first-party data, including customer data from other Adobe Experience Cloud solutions, to optimize your social media advertising efforts.
 
 ![pbd-overview](assets/pbd-overview.png)
 
@@ -41,15 +44,19 @@ The more "traditional" way of targeting audiences across people-based channels i
 
 ![pbd-overview](assets/pbd-diagram.png)
 
-Through [!DNL People-Based Destinations], Audience Manager helps you centralize all your customer data, build audience segments, and activate them across multiple people-based channels. You can do this all from within the Audience Manager UI, avoiding the additional work of manually uploading data to each platform, saving you valuable time in the process.
+Through [!DNL People-Based Destinations], Audience Manager helps you centralize your customer data, build audience segments, and activate them across multiple people-based channels. You can do this all from within the Audience Manager UI, avoiding the additional work of manually uploading data to each platform, saving you valuable time in the process.
 
 **Create and activate audience segments from purely offline profiles.**
 
-[!DNL People-Based Destinations] solve the issue that previously, you could only activate audience segments based on device activity. With [!DNL People-Based Destinations], you can create segments from purely offline data from your own [!DNL CRM], and activate them in people-based platforms. Additionally, you can correlate offline data with device data that you already have in Audience Manager.
+[!DNL People-Based Destinations] solve the issue that previously, you could only activate audience segments based on device activity. With [!DNL People-Based Destinations], you can create segments from purely offline data from your own [!DNL CRM], and activate them in people-based platforms. Additionally, you can correlate your offline data with device data that you already have in Audience Manager.
 
 **Leverage Audience Manager's data governance and privacy controls to safely handle customer data.**
 
-[!DNL People-Based Destinations] only use hashed identifiers, so your customer data is always protected, from the moment you onboard it to Audience Manager, to the moment it reaches your target destination. This eliminates privacy risks associated with manually uploading sensitive customer data into each activation platform.
+[!DNL People-Based Destinations] requires that you only use irreversibly hashed identifiers. This reduces the risk associated with manually uploading customer data into each destination platform.
+
+Watch the video below to get an overview of the data flow when using [!UICONTROL People-Based Destinations].
+
+>[!VIDEO](https://video.tv.adobe.com/v/28968/)
 
 ## Use Cases {#use-cases}
 
@@ -57,12 +64,12 @@ To help you better understand how and when you should use [!DNL People-Based Des
 
 ### Use Case #1 {#use-case-1}
 
-An online retailer wants to reach existing customers through social platforms and show them personalized offers based on their previous orders. With [!DNL People-Based Destinations], they can ingest hashed email addresses from their own [!DNL CRM] to Audience Manager, build segments from the offline data, and send these segments to the social platforms they want to advertise on, optimizing their advertising spending.
+An online retailer wants to reach existing customers through social platforms and show them personalized offers based on their previous orders. With [!DNL People-Based Destinations], the online retailer can ingest hashed email addresses from their own [!DNL CRM] to Audience Manager, build segments from their own offline data, and send these segments to the social platforms they want to advertise on, optimizing their advertising spending.
 
 ### Use Case #2 {#use-case-2}
 
-An airline has different customer tiers (Bronze, Silver, and Gold), and wants to provide each of the tiers with personalized offers via social platforms. The company uses Audience Manager to analyze customer activity on the website. However, not all customers use the airline's mobile app, and some of them never even logged in to the company's website. The only identifiers the company has about these customers are membership IDs and email addresses.
+An airline has different customer tiers (Bronze, Silver, and Gold), and wants to provide each of the tiers with personalized offers via social platforms. The company uses Audience Manager to analyze customer activity on the website. However, not all customers use the airline's mobile app, and some of them have not logged in to the company's website. The only identifiers the company has about these customers are membership IDs and email addresses.
 
-To target them across social media and similar people-based channels, they can onboard the customer data from the [!DNL CRM] into Audience Manager, using the hashed email addresses as identifiers.
+To target them across social media and similar people-based channels, they can onboard the customer data from their [!DNL CRM] into Audience Manager, using the hashed email addresses as identifiers.
 
-Next, they can combine the offline data with existing online activity traits, to build new audience segments that they can target through [!DNL People-Based Destinations].
+Next, they can combine their offline data with their existing online activity traits, to build new audience segments that they can target through [!DNL People-Based Destinations].

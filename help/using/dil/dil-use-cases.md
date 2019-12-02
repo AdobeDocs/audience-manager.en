@@ -86,10 +86,6 @@ for (var i = 0; i < my_objects.length; i++)
 sample_dil.api.submit();
 </code></pre>
 
->[!MORE_LIKE_THIS]
->
->* [signals](../dil/dil-instance-methods.md#signals)
-
 ## Capture Referring URL {#capture-referring-url}
 
 Capture and send a referring URL to Audience Manager.
@@ -210,10 +206,6 @@ adobe_dil.api.signals({c_zip : '10010'}).submit();
 // Request will look like /event?c_zip=10010&d_zip=10010
 ```
 
->[!MORE_LIKE_THIS]
->
->* [Prefix Requirements for Key Variables](https://marketing.adobe.com/resources/help/en_US/aam/r_tb_variable_prefixes.html)
-
 ## Traffic DIL in Google Tag Manager (GTM) {#traffic-dil-gtm}
 
 Set up and serve DIL with a GTM tag.
@@ -240,6 +232,8 @@ To traffic the `dil.js` file in GTM:
 1. Publish the container.
 1. Generate container tag code and place it on your inventory.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Google Tag Manager Help Center](https://support.google.com/tagmanager#topic=3441530)
+>* [Signals](../dil/dil-instance-methods.md#signals)
+>* [Prefix Requirements for Key Variables](https://marketing.adobe.com/resources/help/en_US/aam/r_tb_variable_prefixes.html)

@@ -76,7 +76,7 @@ The following table lists the retention times for different data types and stora
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mappings between synchronized IDs </p> </td> 
-   <td colname="col2"> <p>Mappings between synchronized IDs may be kept for the life of the associated <a href="../reference/ids-in-aam.md"> Audience Manager Unique User ID (AAM UUID)</a>. </p> </td> 
+   <td colname="col2"> <p>The lifespan of the <a href="../features/administration/usage-limits.md#id-mapping-limits"> ID mappings</a> between Audience Manager cookie IDs (<a href="../reference/ids-in-aam.md">Audience Manager Unique User IDs or AAM UUIDs</a>) and 3rd party cookie IDs is limited to 120 days. The lifespan of the ID mapping resets each time the Audience Manager cookie is seen across the Audience Manager network. The most recent ID mapping sync will be preserved for the life of the associated <a href="../reference/ids-in-aam.md">Audience Manager Unique User ID (AAM UUID)</a>.</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Inbound data </p> </td> 

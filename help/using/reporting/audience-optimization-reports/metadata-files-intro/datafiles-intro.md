@@ -1,15 +1,15 @@
 ---
-description: A data file contains impression, click, or conversion data. When formatted properly, you can import this data into Audience Manager and view it in the Audience Optimization reports. Format your data files according to these specifications in this section.
-seo-description: A data file contains impression, click, or conversion data. When formatted properly, you can import this data into Audience Manager and view it in the Audience Optimization reports. Format your data files according to these specifications in this section.
-seo-title: Data Files for Audience Optimization Reports
+description: A data file contains impression, click, or conversion data. When formatted properly, you can import this data into Audience Manager and use it in the Audience Optimization reports and for Actionable Log Files. Format your data files according to the specifications in this section.
+seo-description: A data file contains impression, click, or conversion data. When formatted properly, you can import this data into Audience Manager and use it in the Audience Optimization reports and for Actionable Log Files. Format your data files according to the specifications in this section.
+seo-title: Data Files for Audience Optimization Reports and Actionable Log Files
 solution: Audience Manager
-title: Data Files for Audience Optimization Reports
+title: Data Files for Audience Optimization Reports and Actionable Log Files
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 ---
 
-# Data Files for Audience Optimization Reports{#data-files-for-audience-optimization-reports}
+# Data Files for Audience Optimization Reports and Actionable Log Files {#data-files-for-audience-optimization-reports}
 
-A data file contains impression, click, or conversion data. When formatted properly, you can import this data into Audience Manager and view it in the Audience Optimization reports. Format your data files according to these specifications in this section.
+A data file contains impression, click, or conversion data. When formatted properly, you can import this data into Audience Manager to view it in the [Audience Optimization Reports](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) and create traits using the data via [Actionable Log Files](/help/using/integration/media-data-integration/actionable-log-files.md). Format your data files according to these specifications in this section.
 
 ## Overview {#overview}
 
@@ -31,7 +31,7 @@ In a file name:
 
 Given these requirements, name your data files based on their contents like this:
 
-* Impression data: <pre><code>impressions_<i>yyyymmdd<i>.gz</code></pre>
+* Impression data: <pre><code>impressions_<i>yyyymmdd</i>.gz</code></pre>
 * Click data: <pre><code>clicks_<i>yyyymmdd</i>.gz</code></pre>
 * Conversion data: <pre><code>conversions_<i>yyyymmdd</i>.gz</code></pre>
 
@@ -63,7 +63,7 @@ The table below lists and describes the column headers for your data file. Heade
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Time-Stamp </p> </td> 
-   <td colname="col2"> <p>A UTC date and time for the impression, click, or conversion event. Use the <code> yyyy-dd-mm hh:mm:ss</code> format. </p> </td> 
+   <td colname="col2"> <p>A UTC date and time for the impression, click, or conversion event. Use the <code> yyyy-MM-dd HH:mm:ss</code> format. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>User-ID </p> </td> 

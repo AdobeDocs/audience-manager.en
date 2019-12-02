@@ -8,6 +8,9 @@ title: Workflow C - Personalization Based on Authenticated Activity Combined wit
 
 # Workflow C - Personalization Based on Authenticated Activity Combined with Offline Data {#workflow-c}
 
+>[!IMPORTANT]
+>This article contains product documentation meant to guide you through the setup and usage of this feature. Nothing contained herein is legal advice. Please consult your own legal counsel for legal guidance.
+
 This page includes step-by-step guidance on how to combine offline [!DNL CRM] data with real-time behavioral data for authenticated users to create audience segments, then send these audience segments to [!DNL People-Based Destinations].
 
 ## Step 1 - Configure Data Source Settings {#configure-data-source-settings}
@@ -41,6 +44,10 @@ In this case, you need to create a new cross-device data source that will store 
     >
     > See [Data Onboarding](people-based-destinations-prerequisites.md#data-onboarding) for frequently asked questions about how you should bring your offline data into Audience Manager for People-Based Destinations.
 
+Watch the video below for a video tutorial of how to create a data source for [!UICONTROL People-Based Destinations].
+
+>[!VIDEO](https://video.tv.adobe.com/v/29006/)
+
 ## Step 2 - Use Declared IDs to Match DPUUIDs to Hashed Email Addresses via Real Time HTTP Calls {#match-email-addresses}
 
 To qualify authenticated users for rule-based traits, you need to send the trait qualification through [declared IDs](../declared-ids.md).
@@ -66,13 +73,13 @@ Then, you want to qualify the CRM IDs below for the trait in the table.
 
 Your declared ID should follow this syntax:
 
-`https://yourDomain.demdex.net/event?d_cid_ic=myHashedEmailDataSourceID%01myHashedEmail&d_cid_ic=myCrmDataSourceID%01myCRMID&key=value`
+`https://yourDomain.demdex.net/event?d_cid_ic=HashedEmailDataSourceIntegrationCode%01myHashedEmail&d_cid_ic=CRMDataSourceIntegrationCode%01myCRMID&key=value`
 
 &nbsp;
 
 In the example above, the declared ID call should look like this:
 
-`https://yourDomain.demdex.net/event?d_cid_ic=987654%0155e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149&d_cid_ic=999999%0168079982765673198504052656074456196039&location=US`
+`https://yourDomain.demdex.net/event?d_cid_ic=MyHashedEmailDataSource%0155e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149&d_cid_ic=MyCRMDataSource%0168079982765673198504052656074456196039&location=US`
 
 ## Step 3 - Create a Profile Merge Rule for Segmentation {#create-profile-merge-rule-segmentation}
 
@@ -85,7 +92,7 @@ The next step is creating a new merge rule that will help you create the audienc
 1. Log in to your Audience Manager account and go to **[!UICONTROL Audience Data]** -> **[!UICONTROL Profile Merge Rules]**.
 2. Click **[!UICONTROL Add New Rule]**.
 3. Enter a profile merge rule **[!UICONTROL Name]** and **[!UICONTROL Description]**.
-4. In the **[!UICONTROL Profile Merge Rule Setup]** section, select the **[!UICONTROL All Cross-Device Profiles]** rule from the **[!UICONTROL Cross-Device Options]** list.
+4. In the **[!UICONTROL Profile Merge Rule Setup]** section, select the **[!UICONTROL Current Authenticated Profiles]** or **[!UICONTROL Last Authenticated Profiles]** rule from the **[!UICONTROL Cross-Device Options]** list.
 5. In the **[!UICONTROL Cross-Device Profile Options]** list, select the data sources that you want to run the segmentation on. These should be the data sources containing your existing DPUUIDs.
     ![merge-rule-setup](assets/pbd-pmr-combined.png)
 
@@ -106,7 +113,7 @@ To create new segments, use the [Segment Builder](../segments/segment-builder.md
 
 >[!IMPORTANT]
 >
->A udience Manager handles the integration with social platforms through authentication tokens that expire after a certain amount of time. See Authentication Token Renewal for details on how to renew the expired tokens.
+>Audience Manager handles the integration with social platforms through authentication tokens that expire after a certain amount of time. See Authentication Token Renewal for details on how to renew the expired tokens.
 
 ## Step 6 - Create a People-Based Destination {#create-destination}
 

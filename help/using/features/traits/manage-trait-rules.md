@@ -57,12 +57,6 @@ Clicking **[!UICONTROL Add Rule]** saves and moves the trait into the [!UICONTRO
 
 ![](assets/tb_sample_rule2.png)
 
->[!MORE_LIKE_THIS]
->
->* [Create a New Rule Group](../../features/traits/manage-trait-rules.md#create-rule-group)
->* [Move Rules Between Groups](../../features/traits/manage-trait-rules.md#move-rules-between-groups)
->* [Delete a Trait Rule](../../features/traits/manage-trait-rules.md#delete-trait)
-
 ## Create a New Rule Group {#create-rule-group}
 
 This procedure describes how to create a new rule group.
@@ -79,21 +73,9 @@ Your trait must contain at least two rules before you can create a new rule grou
    >Drag a rule back to its original group if you move it unintentionally.
 1. Select a [!DNL Boolean] operator ( [!UICONTROL AND], [!UICONTROL OR], [!UICONTROL AND NOT]) from the drop-down menu to set the relationship between the rule groups.
 
->[!MORE_LIKE_THIS]
->
->* [Create a Trait Rule](../../features/traits/manage-trait-rules.md#create-trait-rule)
->* [Move Rules Between Groups](../../features/traits/manage-trait-rules.md#move-rules-between-groups)
->* [Delete a Trait Rule](../../features/traits/manage-trait-rules.md#delete-trait)
-
 ## Move Rules Between Groups {#move-rules-between-groups}
 
 To move a rule, click and drag it to another group.
-
->[!MORE_LIKE_THIS]
->
->* [Create a Trait Rule](../../features/traits/manage-trait-rules.md#create-trait-rule)
->* [Create a New Rule Group](../../features/traits/manage-trait-rules.md#create-rule-group)
->* [Delete a Trait Rule](../../features/traits/manage-trait-rules.md#delete-trait)
 
 ## Edit a Trait {#edit-trait}
 
@@ -115,3 +97,11 @@ This procedure describes how to delete a trait rule.
 1. In the [!UICONTROL Traits] dashboard, hover over the [!UICONTROL Actions] columns for the trait you want to edit and click the pencil icon. This brings up the trait management icons.
 1. Expand the [!UICONTROL Trait Expression] section.
 1. Hover over the rule you want to delete and click the X icon. The rule is deleted immediately.
+
+>[!MORELIKETHIS]
+>
+>* [Create a New Rule Group](../../features/traits/manage-trait-rules.md#create-rule-group)
+>* [Move Rules Between Groups](../../features/traits/manage-trait-rules.md#move-rules-between-groups)
+>* [Create a Trait Rule](../../features/traits/manage-trait-rules.md#create-trait-rule)
+>* [Delete a Trait Rule](../../features/traits/manage-trait-rules.md#delete-trait)
+>* [Move Rules Between Groups](../../features/traits/manage-trait-rules.md#move-rules-between-groups)

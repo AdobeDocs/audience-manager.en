@@ -67,7 +67,7 @@ Defines the key variables used in the `if` statement.
  </tbody>
 </table>
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Create a GPT Destination](../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
 >* [Audience Manager Code for Google Publisher Tags](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)

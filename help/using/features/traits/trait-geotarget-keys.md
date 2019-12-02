@@ -48,6 +48,6 @@ We work with [Digital Envoy](https://www.digitalenvoy.com/) to obtain and update
 
 The list of [all location-based signals](assets/all.csv) comprises all the signals above, in the following order: `d_country,d_city,d_region,d_state,d_dma_code,d_postal_code,d_area_code,d_lat,d_long`
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Prefix Requirements for Key Variables](../../features/traits/trait-variable-prefixes.md)

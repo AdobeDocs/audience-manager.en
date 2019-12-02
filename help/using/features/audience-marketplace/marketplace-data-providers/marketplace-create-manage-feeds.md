@@ -56,10 +56,6 @@ In the [!UICONTROL Settings] section, move the slider to:
 
 To see what a private feed looks like to buyers, see the buyers section in [Private Data Feeds](../../../features/audience-marketplace/marketplace-private-feeds.md).
 
->[!MORE_LIKE_THIS]
->
->* [Private Data Feeds](../../../features/audience-marketplace/marketplace-private-feeds.md)
-
 ## Deactivate a Subscriber's Data Feed {#deactivate-data-feed}
 
 As an [!UICONTROL Audience Marketplace] data provider, you can revoke buyer access to a subscribed data feed. You may want to remove a buyer from a feed for reasons such as late payment / non-payment of fees or if they use trait data improperly.
@@ -178,10 +174,6 @@ To review, approve, or reject buyer requests, go to [!UICONTROL My Shared Data] 
 3. In the [!UICONTROL Allow Access] section of each request box, click the check mark to approve a request or the X to deny access.
 4. Confirm or cancel your selected action in the confirmation pop up.
 
->[!MORE_LIKE_THIS]
->
->* [Private Data Feeds](../../../features/audience-marketplace/marketplace-private-feeds.md)
-
 ## Discounts for Data Providers {#discounts}
 
 In [!UICONTROL Audience Marketplace], discounts let you reduce the published price of a data feed for individual subscribers. You can offer discounts to subscribers who have submitted a subscription request or to subscribers who have requested details about a data feed. Discounts apply to [!DNL CPM] and flat rate feeds. Discounts can be helpful when you want to provide subscription incentives for new customers or to reward customer loyalty.
@@ -206,3 +198,7 @@ In these examples, the seller has added 10% discount to the [!UICONTROL Software
 Data providers can see all of their subscribers and discounted feeds in **[!UICONTROL Audience Marketplace > My Shared Data > Current Subscribers]**.
 
 ![](assets/subscribers.png)
+
+>[!MORELIKETHIS]
+>
+>* [Private Data Feeds](../../../features/audience-marketplace/marketplace-private-feeds.md)

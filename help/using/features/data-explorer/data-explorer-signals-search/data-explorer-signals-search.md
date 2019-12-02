@@ -5,7 +5,7 @@ seo-title: Signals Search
 title: Signals Search
 ---
 
-# Signals Search Overview {#signals-search} 
+# Signals Search Overview {#signals-search}
 
 Search for used and unused signals received over specific periods of time. To search for signals, go to Audience Data > Signals > Search.
 
@@ -15,5 +15,4 @@ Search for used and unused signals received over specific periods of time. To se
 * [Filter Search Results](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-filter-results.md)
 * [Save Search Criteria](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md)
 
-
-
+>[!VIDEO](https://video.tv.adobe.com/v/25148/)

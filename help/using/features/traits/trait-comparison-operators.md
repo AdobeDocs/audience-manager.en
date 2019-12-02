@@ -46,7 +46,7 @@ You can build rules with the following named operators:
 | **[!UICONTROL Endswith]** |The value in a key-value pair *ends with* the characters specified by this operator.  |
 | **[!UICONTROL Matchesregex]** |The value in a key-value pair *matches* the pattern specified by a regular expression. [Learn more](../../features/traits/trait-builder-regex.md) about using regular expressions in [!UICONTROL Trait Builder].  |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Boolean Expressions in Trait and Segment Builder](../../reference/boolean-expressions-tsb.md)
 >* [Understanding Boolean Expressions in TraitBuilder](../../reference/boolean-expressions-tsb.md)

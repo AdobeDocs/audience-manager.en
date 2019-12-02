@@ -1,3 +1,5 @@
+//More information can be found here: https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md
+
 {
     "companyContexts": [{
             "namespace": "imsOrgID",
@@ -15,5 +17,6 @@
             ]
         }
     ],
-    "include":["AudienceManager"]
+    "include":["AudienceManager"],
+    "regulation": "[ccpa]"
 }

@@ -4,6 +4,7 @@ seo-description: Lists and describes the syntax and supported attributes (or key
 seo-title: Supported Attributes for DCS API Calls
 solution: Audience Manager
 title: Supported Attributes for DCS API Calls
+keywords: d_caller, d_cb, d_cid, d_cid_ic, d_coppa, d_cts=1, d_cts=2, d_tdpid, d_dst=1, d_dst_filter, d_mid, d_ptfm, d_nsid, d_rs, d_rtbd=json, d_tdpid_ic
 uuid: 0b98ed11-314b-4500-afde-45a041112150
 ---
 

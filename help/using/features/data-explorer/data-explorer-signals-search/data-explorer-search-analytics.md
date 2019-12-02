@@ -21,3 +21,7 @@ This integration allows you to see the friendly names for key-value pairs derive
 
    ![](assets/signals-search-analytics.png)
 1. The search results will now show you the friendly names for the key-value pairs entered in the **[!UICONTROL Key or Key Name]** column, or for all of the signals in the report suite, if you left the key-value fields blank.
+
+The video below shows how to use [!UICONTROL Data Explorer] to discover and use your Adobe Analytics data, including searching for used and unused signals, creating Analytics traits, and understanding the data.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25150)

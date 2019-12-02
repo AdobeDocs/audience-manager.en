@@ -1,10 +1,10 @@
 ---
 description: To create a new data source, go to Audience Data > Data Sources > Add New and complete the steps for each section described here. Administrator permissions are required to create a data source.
-keywords: cdf;custom data feed
+keywords: data sources;manage data source;audience manager data source
 seo-description: To create a new data source, go to Audience Data > Data Sources > Add New and complete the steps for each section described here. Administrator permissions are required to create a data source.
 seo-title: Create a Data Source
 solution: Audience Manager
-title: Create a Data Source
+title: Manage Data Sources
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
 ---
 
@@ -54,7 +54,7 @@ These settings determine how a data source is identified, used, and shared. You 
 1. Select a [!UICONTROL Data Source Setting] check box to apply an option to your data source.
 2. Click **[!UICONTROL Save]**.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Data Source Settings and Menu Options](../features/datasources-list-and-settings.md#settings-menu-options)
 

@@ -36,6 +36,10 @@ The table lists and describes the macros you can use in the file name and to def
    <td colname="col2"> <p>User ID Key Data Provider ID. </p> </td> 
   </tr> 
   <tr> 
+   <td colname="col1"> <p> <code> NEW_LINE </code> </p> </td> 
+   <td colname="col2"> <p> Allows the creation of multi-line headers for outbound orders. </p> </td> 
+  </tr> 
+  <tr> 
    <td colname="col1"> <p> <code> ORDER_ID </code> </p> </td> 
    <td colname="col2"> <p>Order / destination ID. </p> </td> 
   </tr> 
@@ -210,6 +214,6 @@ Macros used to format the contents of a data file. For code samples, see [Outbou
  </tbody> 
 </table>
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Outbound Macro Examples](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md)

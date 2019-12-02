@@ -26,6 +26,6 @@ Lists the variables used by the `destinationType` parameter. Specify `push` or `
 |  `PUSH`  | [!UICONTROL URL]  |
 |  `ADS`  | [!UICONTROL Cookie]  |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [How to Choose a Destination Type](../../../features/destinations/destinations.md)

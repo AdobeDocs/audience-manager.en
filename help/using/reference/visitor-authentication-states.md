@@ -96,6 +96,6 @@ Sample call (the request value corresponding to the authentication status is hig
 >
 >[!DNL Audience Manager] performs an ID synchronization between [CID and UUID](../reference/ids-in-aam.md) in all three cases.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Customer IDs and Authentication States](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html)
