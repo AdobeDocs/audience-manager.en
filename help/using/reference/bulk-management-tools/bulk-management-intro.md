@@ -36,7 +36,7 @@ To use the [!DNL Bulk Management Tools], you need the following:
 
 * Your [!DNL Experience Cloud] login. As a customer, you should already have these credentials.
 * The [!DNL Bulk Management Tools] worksheet. [Download the worksheet](assets/BAAAM_V2_20191205.xlsm) to get the latest version.
-* Microsoft Excel running on [!DNL macOS] or 64-bit [!DNL Microsoft Windows]. We recommend you use the latest version of Microsoft Excel.
+* Microsoft Excel running on [!DNL macOS] or 64-bit [!DNL Microsoft Windows]. We recommend you use the latest version of Microsoft Excel. 
 * When opening the worksheet, you must **Enable Macros** for the [!DNL Bulk Management Tools] to work.  
 
 ## Authentication requirements and options {#auth-reqs}
