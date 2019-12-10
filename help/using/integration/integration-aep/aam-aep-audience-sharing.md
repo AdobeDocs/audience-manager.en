@@ -72,13 +72,13 @@ Item number | Name | Description
  2 | Data Source | Automatically created. All traits and segments that are created automatically from Experience Platform segments are stored in the data source **Adobe Experience Platform Audience Sharing**.
  3 | Integration Code | The integration code corresponds to the segment ID in Experience Platform.
  4 | Trait Expression | The trait expression is `segID = segment ID in Experience Platform`.
- 5 | Segments with this Trait | An automatically created segment that uses this trait as its composition. 
+ 5 | Segments with this Trait | An automatically created segment that uses this trait as its composition.
 
 <br>&nbsp;
 
 ### Segments {#aep-segments-as-aam-segments}
 
-Audience Manager automatically creates a segment folder called **Experience Platform Segments** in your segment storage. 
+Audience Manager automatically creates a segment folder called **Experience Platform Segments** in your segment storage.
 
 ![Screenshot of dashboard](/help/using/integration/integration-aep/assets/aep-segments-dashboard.png)
 
