@@ -30,7 +30,7 @@ Factors like heavy network traffic, server usage, and large data sets can cause 
 * Delete all the rows that have been already updated. 
 * Try the bulk request again.
 
-## Long delays or unresponsive behavior {#delays-behavior}
+## Authentication errors, long delays, or unresponsive behavior {#delays-behavior}
 
 The following table lists some common problems you may encounter when making bulk requests with the worksheets. Try to fix these issues with the recommended solutions. If the recommended solutions do not resolve the problem, you should save your work, restart your computer, and try the request again without launching or working with other applications.
 
@@ -42,6 +42,12 @@ The following table lists some common problems you may encounter when making bul
   </tr> 
  </thead>
  <tbody> 
+  <tr> 
+   <td colname="col1"> <b>Authentication error</b> </td> 
+   <td colname="col2"> 
+    <b>Update to latest version of Microsoft Excel</b>: When a new version of Microsoft Excel is released and you are using an older version, you might encounter an authentication error in the Bulk Management worksheet. Update to the latest version of Microsoft Excel to resolve the authentication error.
+</td> 
+  </tr> 
   <tr> 
    <td colname="col1"> <b>Long delays</b> </td> 
    <td colname="col2"> 
