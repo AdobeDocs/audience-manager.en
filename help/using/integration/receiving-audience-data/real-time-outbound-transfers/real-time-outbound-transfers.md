@@ -122,7 +122,7 @@ The following table defines the elements in the [!DNL JSON] data file that you s
      <li id="li_8352B919A87242E68716FB9EC0443407">Removed from a segment based on the segment rule. </li> 
      <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">Removed from a segment based on the segment's <a href="../../../features/traits/segment-ttl-explained.md"> time-to-live interval</a>. </li> 
      <li id="li_F48D1052BA2B45108225641292CC748D">Moved to an inactive state if they have not been seen for the last 120-days. </li>
-     <li>Removed due to a privacy change request (i.e. [!DNL GDPR])</li>
+     <li>Removed due to a privacy change request (i.e. <span class="keyword"> GDPR</span>)</li>
     </ul> <p>All partner IDs that are synced to an <span class="keyword"> Audience Manager</span> ID will receive the <code> "Status":"0"</code> flag when a user is unsegmented. </p> </td> 
   </tr> 
   <tr valign="top"> 

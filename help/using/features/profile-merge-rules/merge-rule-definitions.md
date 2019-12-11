@@ -123,6 +123,10 @@ The [!UICONTROL Device Options] let you select the type of *`device profile`* us
  </tbody>
 </table>
 
+## External Merge Policies {#external-merge-policies}
+
+Audience segments that were automatically created from other Experience Cloud solutions, based on merge rules defined outside of Audience Manager, are marked as using an [!UICONTROL External Merge Policy]. For example, see [Audience Sharing Between Audience Manager and Adobe Experience Platform](../../integration/integration-aep/aam-aep-audience-sharing.md).
+
 >[!MORELIKETHIS]
 >
 >* [Profile Merge Rules FAQ](../../faq/faq-profile-merge.md)
