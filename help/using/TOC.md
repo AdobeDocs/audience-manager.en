@@ -1,5 +1,6 @@
 ---
 product: audience-manager
+solution: Audience Manager
 audience: end-user
 user-guide-title: Audience Manager User Guide
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
