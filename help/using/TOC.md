@@ -33,6 +33,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
         + [Edit Your Account Settings](features/administration/edit-account-settings.md)
         + [IP Address Obfuscation](features/administration/ip-obfuscation.md)
         + [Usage Limits](features/administration/usage-limits.md)
+        + [Activity Usage Reporting](features/administration/activity-usage-reporting.md)
     + Algorithmic Models{#algorithmic-models}
         + [Algorithmic Models](features/algorithmic-models/understanding-models.md)
         + [Create an Algorithmic Model](features/algorithmic-models/create-model.md)
