@@ -31,7 +31,7 @@ Get familiar with key terms used related to GDPR. We’ve highlighted some of th
 
 &nbsp;
 
-**Data Subject:** The individual to whom the personal data relates. In the context of Audience Manager, Data Subjects are Audience Manager customer’s consumers or end users. If Audience Manager receives requests directly from Data Subjects, these requests will be forwarded to the respective Adobe Customers.
+**Data Subject:** The individual to whom the personal data relates. In the context of Audience Manager, Data Subjects are Audience Manager customer’s consumers or end users. If Adobe receives requests directly from Data Subjects, these requests will be forwarded to the respective Audience Manager Customers.
 
 &nbsp;
 

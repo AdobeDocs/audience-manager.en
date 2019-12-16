@@ -35,7 +35,7 @@ The [Privacy Service UI](https://gdprui.cloud.adobe.io/) allows you to create ne
 
 To see what a valid [!DNL JSON] file looks like, you can [download a sample JSON](../data-security-and-privacy/assets/access_request.json).
 
-We understand your commitment to honoring your data privacy customer requests within the time period set by the legislation.
+We understand your commitment to honoring your data privacy requests within the time period set by the legislation.
 
 ## Data Deletion Requests{#delete-data}
 
@@ -45,7 +45,7 @@ The [Privacy Service UI](https://gdprui.cloud.adobe.io/) allows you to create ne
 
 To see what a valid [!DNL JSON] file looks like, you can [download a sample JSON](../data-security-and-privacy/assets/access_request.json).
 
-Adobe understands your commitment to honoring your data privacy customer requests within 30 days of reception. For that reason, Adobe is committed to processing your data deletion request as soon as possible.
+Adobe understands your commitment to honoring your data privacy customer requests within 30 days. For that reason, Adobe is committed to processing your data deletion request as soon as possible.
 
 In response to your consumer data deletion requests, Audience Manager deletes traits and segments associated with the Audience Manager identifier included in the request. Additionally, the respective Audience Manager identifiers for the individual opted out of further data collection by Audience Manager and the respective ID mappings will be removed.
 
@@ -104,7 +104,7 @@ Your end users can also opt out of global data collection by visiting the websit
 
 Following the opt-out requests described above:
 
-* Audience Manager will cease all data collection, segmentation or activation going forward, as long as the user does not clear their browser cookies.
+* Audience Manager will cease all data collection, segmentation or activation, as long as the user does not clear their browser cookies.
 * Historical data is removed from the user profile after 120 days.
 
 ### Partner Level Opt-out with Declared ID calls
