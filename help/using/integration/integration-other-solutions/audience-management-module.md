@@ -8,7 +8,7 @@ title: Implement the Audience Management Module
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 ---
 
-# Implement the Audience Management Module {#implement-the-audience-management-module}
+# How to forward data from Adobe Analytics to Audience Manager {#implement-the-audience-management-module}
 
 Add the [!UICONTROL Audience Management Module] to [!DNL Adobe Analytics] [!UICONTROL AppMeasurement] to forward [!DNL Analytics] data to Audience Manager instead of having the Audience Manager [!UICONTROL Data Integration Library] ([!UICONTROL DIL]) code send a pixel from the page.
 
@@ -17,11 +17,19 @@ Add the [!UICONTROL Audience Management Module] to [!DNL Adobe Analytics] [!UICO
 In addition to implementing the code described in this document, you must also:
 
 * Implement the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
-* Enable [!UICONTROL Server-Side Forwarding] for report suites in the [!UICONTROL Adobe Analytics Admin Console].
+* Enable [!UICONTROL [Server-Side Forwarding](https://docs.adobe.com/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html)] for report suites in the [!UICONTROL Adobe Analytics Admin Console].
 
 ## Implementation {#implementation}
 
-To implement the [!UICONTROL Audience Management Module]:
+There are two methods of implementing data forwarding from Adobe Analytics to Audience Manager, depending on the tag management solution that you use.
+
+### Implementation using Adobe Launch
+
+Adobe recommends you use the Launch extension to instrument Adobe Analytics and Audience Manager on your properties. In this case, you do not need to manually copy any code. Instead, you must enable data sharing in the Analytics Launch extension. See the [Adobe Analytics Extension](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html#adobe-audience-manager) documentation.
+
+### Implementation using Adobe Digital Tag Management (DTM) or any other tag management solution
+
+To implement the [!UICONTROL Audience Management Module] using Adobe DTM or another tag management solution:
 
 1. Download [!UICONTROL AppMeasurement] using the [Analytics Code Manager](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html) (requires version 1.5 or later).
 1. Update your [!UICONTROL AppMeasurement] code to the version included in the downloaded zip file.
@@ -63,7 +71,7 @@ The following table defines important variables in the code sample.
 Your [!DNL Analytics] implementation sends data to Audience Manager after you have:
 
 * Enabled [!UICONTROL Server-Side Forwarding] (talk to your consultant about this feature);
-* Implemented the ID service;
+* Implemented the Experience Cloud ID service;
 * Installed the [!UICONTROL Audience Management Module].
 
 This process sends data to [!DNL Audience Manager]:
