@@ -35,7 +35,7 @@ The [Privacy Service UI](https://gdprui.cloud.adobe.io/) allows you to create ne
 
 To see what a valid [!DNL JSON] file looks like, you can [download a sample JSON](../data-security-and-privacy/assets/access_request.json).
 
-We understand your commitment to honoring your data privacy customer requests within the time period set by the legislation.
+We understand your commitment to honoring your data privacy requests within the time period set by the legislation.
 
 ## Data Deletion Requests{#delete-data}
 
@@ -45,16 +45,16 @@ The [Privacy Service UI](https://gdprui.cloud.adobe.io/) allows you to create ne
 
 To see what a valid [!DNL JSON] file looks like, you can [download a sample JSON](../data-security-and-privacy/assets/access_request.json).
 
-We understand your commitment to honoring your data privacy customer requests within 30 days of reception. For that reason, we try to process your data deletion request as soon as possible.
+Adobe understands your commitment to honoring your data privacy customer requests within 30 days. For that reason, Adobe is committed to processing your data deletion request as soon as possible.
 
-In response to data deletion requests, we delete traits and segments associated with the Audience Manager identifier included in the request. Additionally, the respective Audience Manager identifiers for the Data Subject will be permanently opted out of further data collection by Audience Manager and the respective ID mappings will be removed.
+In response to your consumer data deletion requests, Audience Manager deletes traits and segments associated with the Audience Manager identifier included in the request. Additionally, the respective Audience Manager identifiers for the individual opted out of further data collection by Audience Manager and the respective ID mappings will be removed.
 
 When you send declared IDs, such as cross device [!DNL CRM] IDs or cookie IDs, in data privacy requests, Audience Manager will perform the necessary deletion on all the linked devices (up to 100 devices per declared ID).
 
-Audience Manager notifies activation partners about deletion requests by sending them unsegment information for Data Subjects requesting deletion of certain data. However, some activation partners:
+Audience Manager will attempt to notify activation partners about deletion requests by sending them unsegment information for Data Subjects requesting deletion of certain data. However, some activation partners:
 
-1. Cannot support unsegment (or remove segment) requests from Adobe and/or
-2. Are not able to receive updates from us with a frequency of less than 30 days. In those cases, Audience Manager Customers are not able to send delete requests to activation partners in an automated way through Audience Manager.
+1. Cannot support unsegment (or remove segment) requests from Audience Manager and/or
+2. Are not able to receive updates from Audience Manager with a frequency of less than 30 days. In those cases, Audience Manager customers are not able to send delete requests to activation partners in an automated way through Audience Manager.
 
 In those cases, you are not able to send delete requests to activation partners in an automated way through Audience Manager.
 
@@ -62,7 +62,7 @@ Download our [Partner Excel sheet](assets/AAM-Partners-October2019.xlsx) to see 
 
 ## Opt-out Requests {#opt-out-requests}
 
-Adobe complies with all industry-wide standards with regard to opt-out management. Read on for complete information on the types of opt-out supported by Audience Manager.
+Audience Manager supports industry-wide standards with regard to opt-out management. Read on for complete information on the types of opt-out supported by Audience Manager.
 
 While data access and deletion requests are handled through the [Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html), opt-out requests are currently supported through the DCS API. Read on to learn what the opt-out API calls should look like.
 
@@ -104,7 +104,7 @@ Your end users can also opt out of global data collection by visiting the websit
 
 Following the opt-out requests described above:
 
-* Audience Manager will cease all data collection, segmentation or activation going forward.
+* Audience Manager will cease all data collection, segmentation or activation, as long as the user does not clear their browser cookies.
 * Historical data is removed from the user profile after 120 days.
 
 ### Partner Level Opt-out with Declared ID calls
@@ -157,12 +157,12 @@ Following a partner-level opt-out with a device ID call:
 
 ## Audience Manager Partners With Unsegmentation Capabilities {#aam-partners-with-unsegmentation}
 
-In order to help our customers automate data privacy requests, Audience Manager notifies our activation partners about deletion requests from Data Subjects by sending them unsegment (or remove segment) information.
+In order to help you automate your consumer data privacy requests, Audience Manager will attempt to notify activation partners about deletion requests from Data Subjects by sending them unsegment (or remove segment) information.
 
 However, some of our activation partners:
 
-1. Cannot support unsegment requests from Adobe and/or 
-1. Are not able to receive updates from us more frequently than once in 30 days.
+1. Cannot support unsegment requests from Audience Manaager and/or 
+2. Are not able to receive updates from Audience Manager more frequently than once in 30 days.
 
 In those cases, you are not able to send delete requests to activation partners in an automated way through Audience Manager.
 
@@ -170,6 +170,6 @@ Download our [Partner Excel sheet](assets/AAM-Partners-October2019.xlsx) to see 
 
 ## Data Correction Requests {#correction}
 
-Given that Audience Manager is not the source of the data, there is a limited role for data correction in Audience Manager. The correction could mean that the Data Subject has requested to either be disqualified from an incorrect trait/segment or qualified to the desired trait/segment.
+Given that Audience Manager is not the source of the data, there is a limited role for data correction in Audience Manager. The correction could mean that the consumer has requested to either be disqualified from an incorrect trait/segment or qualified to the desired trait/segment.
 
 Audience Manager Customers can choose to capture the relevant signals/traits/segments against user profiles and send this information through [offline data ingestion](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) to Audience Manager. Please note that the user will continue to get qualified to the original trait and segments if they repeat their behavior.

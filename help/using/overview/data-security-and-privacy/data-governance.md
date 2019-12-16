@@ -38,4 +38,4 @@ Applying appropriate, secure, and timely data retention policies to your data is
 
 ## Cross-Border Data Transfers {#data-transfers}
 
-GDPR doesn’t prohibit transfer of data outside of Europe. It requires that the privacy protections on European data persist wherever the data is transferred. Visit the [Adobe Privacy Center](https://www.adobe.com/privacy/eudatatransfers.html) to learn more. CCPA has no cross-border data transfer restrictions.
+When Audience Manager transfers personal data from Customers across national borders, Audience Manager does so in compliance with applicable law. Visit the [Adobe Privacy Center](https://www.adobe.com/privacy/eudatatransfers.html) to learn more.

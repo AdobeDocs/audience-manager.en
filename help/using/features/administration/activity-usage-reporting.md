@@ -1,6 +1,7 @@
 ---
 description: 
-seo-description:
+keywords: 
+seo-description: 
 seo-title: Activity Usage Reporting
 solution: Audience Manager
 title: Activity Usage Reporting
@@ -13,6 +14,6 @@ topic: Activity Usage Reporting
 
 ## Considerations {#considerations}
 
-## Using the Activity Usage Report
+## Using the Activity Usage Report {#using}
 
-## Exporting Activity Usage Reports
+## Exporting Activity Usage Reports {#export}
