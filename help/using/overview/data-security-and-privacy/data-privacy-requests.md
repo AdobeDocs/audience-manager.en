@@ -166,7 +166,7 @@ However, some of our activation partners:
 
 In those cases, you are not able to send delete requests to activation partners in an automated way through Audience Manager.
 
-Download our [Partner Excel sheet](assets/AAM-Partners-October2019.xlsx) to see which Audience Manager activation partners support unsegment.
+Download our [Partner Excel sheet](assets/AAM-Partners-December2019.xlsx) to see which Audience Manager activation partners support unsegment.
 
 ## Data Correction Requests {#correction}
 
