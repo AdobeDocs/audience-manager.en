@@ -29,7 +29,12 @@ Adobe recommends you use the Launch extension to instrument Adobe Analytics and 
 
 ### Implementation using Adobe Digital Tag Management (DTM) or any other tag management solution
 
-To implement the [!UICONTROL Audience Management Module] using Adobe DTM or another tag management solution:
+
+>[!WARNING]
+>
+>Adobe has released plans to sunset DTM by the end of 2020. For more information and scheduling, see DTM Plans for a Sunset in the [Adobe community forums](https://forums.adobe.com/community/experience-cloud/platform/launch/blog/2018/10/05/dtm-plans-for-a-sunset).
+
+To implement the [!UICONTROL Audience Management Module] using [Adobe DTM](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html) or another tag management solution:
 
 1. Download [!UICONTROL AppMeasurement] using the [Analytics Code Manager](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html) (requires version 1.5 or later).
 1. Update your [!UICONTROL AppMeasurement] code to the version included in the downloaded zip file.
