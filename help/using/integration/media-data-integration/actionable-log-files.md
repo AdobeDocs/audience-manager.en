@@ -240,6 +240,19 @@ The signals described in the table are captured in [!DNL Audience Manager] like 
 https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_activity=1234&d_creative=24122&d_placemebt=3442&d_bu=3983524&d_campaign=7321391&d_adsrc=11111
 ```
 
+## Working with Actionable Signals in the Audience Manager UI {#actionable-signals-in-ui}
+
+You can view your incoming actionable signals in the [Signals Search](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md) interface. 
+
+Go to **Audience Data** (1) > **Signals** (2) > **Search** (3) and select the **Actionable Log Files** (4) filter.
+
+![Actionable Signals in UI](/help/using/integration/assets/alf-in-signals.png)
+
+To create rule-based traits using your actionable signals, select **Actionable Log Files** (1), select the actionable signals that you want to use as trait rules (2), and press **Create Trait from Selected Signals** (3).
+
+![Create traits from signals](/help/using/integration/assets/alf-create-trait.png) 
+
+
 ## Use Cases {#use-cases}
 
 One benefit of implementing [!UICONTROL Actionable Log Files] is the option to apply [recency and frequency](../../features/segments/recency-and-frequency.md) controls to any [rule-based traits](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) that contain actionable signals. This allows you, for example, to frequency cap the number of times a user is shown a particular creative, within a media campaign. Read [Instant Cross-Device Suppression](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md) to learn how to do this. Other use cases include:

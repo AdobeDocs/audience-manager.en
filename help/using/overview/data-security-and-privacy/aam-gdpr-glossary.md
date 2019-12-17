@@ -27,15 +27,15 @@ Get familiar with key terms used related to GDPR. We’ve highlighted some of th
 
 &nbsp;
 
-**Data Processor:** The "Processor" is "the … legal person … which processes personal data on behalf of the controller". In the context of Audience Manager, Adobe, in operating the service, is acting as a “Data Processor” for any personal data it processes on behalf of the Controller. Adobe only processes personal data in accordance with the Data Controller’s instructions (as set out in our agreement with the customer or through actions taken in Audience Manager).
+**Data Processor:** The "Processor" is "the … legal person … which processes personal data on behalf of the controller". In the context of Audience Manager, Adobe, in operating the service, is acting as a “Data Processor” for any personal data it processes on behalf of the Controller, via Audience Manager. Adobe only processes personal data in accordance with the Data Controller’s instructions (as set out in our agreement with the customer or through actions taken in Audience Manager).
 
 &nbsp;
 
-**Data Subject:** The individual to whom the personal data relates. In the context of Audience Manager, Data Subjects are Audience Manager customer’s consumers or end users. If Audience Manager receives requests directly from Data Subjects, these requests will be forwarded to the respective Adobe Customers.
+**Data Subject:** The individual to whom the personal data relates. In the context of Audience Manager, Data Subjects are Audience Manager customer’s consumers or end users. If Adobe receives requests directly from Data Subjects, these requests will be forwarded to the respective Audience Manager Customers.
 
 &nbsp;
 
-**Consent:** Consent means "any freely given, specific, informed and unambiguous indication of the Data Subject’s wishes by which he or she, by a statement or by a clear affirmative action, signifies agreement to the processing of personal data relating to him or her". Consent is the responsibility of the Data Controller, not Adobe through Audience Manager.
+**Consent:** Consent means "any freely given, specific, informed and unambiguous indication of the Data Subject’s wishes by which he or she, by a statement or by a clear affirmative action, signifies agreement to the processing of personal data relating to him or her". Consent is the responsibility of the Data Controller, not Adobe (through Audience Manager).
 
 &nbsp;
 

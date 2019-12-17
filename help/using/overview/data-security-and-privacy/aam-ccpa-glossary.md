@@ -10,9 +10,11 @@ title: CCPA Glossary
 
 ## Overview {#overview}
 
-This article explains the concepts and terminology used by the California Consumer Privacy Act (CCPA), and how Adobe Audience Manager, addresses various CCPA requirements.
+This article explains the concepts and terminology used by the California Consumer Privacy Act (CCPA), and how Adobe Audience Manager, as a Service Provider, addresses various CCPA requirements.
 
-The California Consumer Privacy Act (CCPA) will come into effect on January 1st, 2020 and is another opportunity to make privacy an integrated  part of your consumer experience. Audience Manager is leveraging existing privacy infrastructure to help you meet your obligations under CCPA when using Audience Manager, allowing you to be CCPA ready before and after January 1st, 2020. Audience Manager looks forward to partnering with you as you address any new obligations through the use of our data governance and privacy by design features.
+The California Consumer Privacy Act (CCPA) will come into effect on January 1st, 2020 and is another opportunity to make privacy an integrated  part of your consumer experience. Audience Manager is leveraging existing privacy infrastructure to help you meet your obligations under CCPA when using Audience Manager, allowing you to be CCPA ready before and after January 1st, 2020.
+
+Audience Manager looks forward to partnering with you as you address any new obligations through the use of our data governance and privacy by design features.
 
 ## CCPA Glossary {#CCPA-glossay}
 
@@ -27,10 +29,6 @@ Get familiar with key terms used related to CCPA. We’ve highlighted some of th
 &nbsp;
 
 **Personal Information**: information that identifies, relates to, describes, is capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular consumer or household. Personal information includes, but is not limited to, information which identifies, relates to, describes, is capable of being associated with, or could be reasonably linked, directly or indirectly, with a particular consumer.
-
-&nbsp;
-
-**Pseudonymize/Pseudonymization**: processing of personal information in a manner that renders the personal information no longer attributable to a specific consumer without the use of additional information, provided that the additional information is kept separately and is subject to technical and organizational measures to ensure that the personal information is not attributed to an identified or identifiable consumer.
 
 &nbsp;
 
