@@ -14,7 +14,7 @@ Add the [!UICONTROL Audience Management Module] to [!DNL Adobe Analytics] [!UICO
 
 >[!NOTE]
 >
->The instructions on this page refer to implementations using [Adobe Digital Tag Manager (DTM)](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html) or any other tag management solution, *except* [Adobe Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html). We recommend you use Adobe Launch. By using Launch, you do not have to manually copy code, as shown on this page.
+>The instructions on this page refer to implementations using [Adobe Digital Tag Manager (DTM)](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html) or any other tag management solution, *except* [Adobe Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html). We recommend you use Adobe Launch. By using [!DNL Launch], you do not have to manually copy code into [!UICONTROL AppMeasurement], as shown on this page.
 
 ## Prerequisites {#prereqs}
 
