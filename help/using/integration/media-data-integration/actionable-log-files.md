@@ -250,7 +250,7 @@ Go to **Audience Data** (1) > **Signals** (2) > **Search** (3) and select the **
 
 To create rule-based traits using your actionable signals, select **Actionable Log Files** (1), select the actionable signals that you want to use as trait rules (2), and press **Create Trait from Selected Signals** (3).
 
-![Create traits from signals](/help/using/integration/assets/alf-create-trait.png)
+![Create traits from signals](/help/using/integration/assets/alf-create-trait.png) 
 
 
 ## Use Cases {#use-cases}
