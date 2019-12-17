@@ -12,6 +12,10 @@ uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 
 Add the [!UICONTROL Audience Management Module] to [!DNL Adobe Analytics] [!UICONTROL AppMeasurement] to forward [!DNL Analytics] data to Audience Manager instead of having the Audience Manager [!UICONTROL Data Integration Library] ([!UICONTROL DIL]) code send a pixel from the page.
 
+>[!NOTE]
+>
+>The instructions on this page refer to implementations using [Adobe Digital Tag Manager (DTM)](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html) or any other tag management solution, *except* [Adobe Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html). We recommend you use Adobe Launch. By using Launch, you do not have to manually copy code, as shown on this page.
+
 ## Prerequisites {#prereqs}
 
 In addition to implementing the code described in this document, you must also:
