@@ -1,6 +1,6 @@
 ---
-description: This article explains the concepts and terminology used by the California Consumer Privacy Act (CCPA), and how Adobe Audience Manager, addresses various CCPA requirements.
-seo-description: This article explains the concepts and terminology used by the California Consumer Privacy Act (CCPA), and how Adobe Audience Manager, addresses various CCPA requirements.
+description: This article explains the concepts and terminology used by the California Consumer Privacy Act (CCPA), and how Adobe Audience Manager addresses various CCPA requirements.
+seo-description: This article explains the concepts and terminology used by the California Consumer Privacy Act (CCPA), and how Adobe Audience Manager addresses various CCPA requirements.
 seo-title: CCPA Glossary
 solution: Audience Manager
 title: CCPA Glossary
@@ -12,11 +12,11 @@ title: CCPA Glossary
 
 This article explains the concepts and terminology used by the California Consumer Privacy Act (CCPA), and how Adobe Audience Manager, as a Service Provider, addresses various CCPA requirements.
 
-The California Consumer Privacy Act (CCPA) will come into effect on January 1st, 2020 and is another opportunity to make privacy an integrated  part of your consumer experience. Audience Manager is leveraging existing privacy infrastructure to help you meet your obligations under CCPA when using Audience Manager, allowing you to be CCPA ready before and after January 1st, 2020.
+The California Consumer Privacy Act (CCPA), which came into effect on January 1st, 2020, is another opportunity to make privacy an integrated part of your consumer experience. Audience Manager is leveraging existing privacy infrastructure to help you meet your obligations under CCPA when using Audience Manager, allowing you to be CCPA ready.
 
 Audience Manager looks forward to partnering with you as you address any new obligations through the use of our data governance and privacy by design features.
 
-## CCPA Glossary {#CCPA-glossay}
+## CCPA Glossary {#CCPA-glossary}
 
 Get familiar with key terms used related to CCPA. We’ve highlighted some of the most commonly used terms below.
 
@@ -41,3 +41,10 @@ Get familiar with key terms used related to CCPA. We’ve highlighted some of th
 &nbsp;
 
 **Unique Identifier/Unique Personal Identifier**: a persistent identifier that can be used to recognize a consumer, a family, or a device that is linked to a consumer or family, over time and across different services, including, but not limited to, a device identifier; an Internet Protocol address; cookies, beacons, pixel tags, mobile ad identifiers, or similar technology; customer number, unique pseudonym, or user alias; telephone numbers, or other forms of persistent or probabilistic identifiers that can be used to identify a particular consumer or device.
+
+&nbsp;
+
+>[!MORELIKETHIS]
+>
+>[Data Privacy Overview](/help/using/overview/data-security-and-privacy/data-privacy.md)
+>
