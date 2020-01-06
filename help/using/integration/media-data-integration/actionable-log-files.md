@@ -1,7 +1,7 @@
 ---
 description: Actionable Log Files allow you to capture media signals from ad server log files to create traits in Audience Manager. Capture impressions, clicks, and conversions from ad servers as traits without having to append pixels.
 keywords: actionable logs, alf, ALF
-seo-description: Actionable Log Files allow you to capture media signals from ad server log files to create traits in Audience Manager. Capture impressions, clicks, and conversions from ad servers as traits without having to use append pixels.
+seo-description: Actionable Log Files allow you to capture media signals from ad server log files to create traits in Audience Manager. Capture impressions, clicks, and conversions from ad servers as traits without having to append pixels.
 seo-title: Actionable Log Files
 solution: Audience Manager
 title: Actionable Log Files
@@ -22,7 +22,7 @@ uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 
 ## Getting Started {#getting-started}
 
-To get started with [!UICONTROL Actionable Log Files], you need to import log data into [!DNL Audience Manager]. The following links will help you get started:
+To get started with [!UICONTROL Actionable Log Files], you need to import log data into [!DNL Audience Manager]. The following links will help you get started: 
 
 * For [!UICONTROL Google DCM] logs, see [Import DCM Data Files Into Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) *and* contact your [!DNL Audience Manager] consultant.
 * For other ad server logs, see [Data and Metadata Files](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) *and* contact your [!DNL Audience Manager] consultant.
@@ -31,7 +31,7 @@ If you are already importing log data into [!DNL Audience Manager], ask your [!D
 
 >[!IMPORTANT]
 >
-> At the end of 2019, [!UICONTROL Actionable Log Files] will begin to expand availability to new ad servers. Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to get started.
+> In early 2020, [!UICONTROL Actionable Log Files] will begin to expand availability to new ad servers. Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to get started.
 
 ## Working with Actionable Log Files {#working-with-actionable-log-files}
 
