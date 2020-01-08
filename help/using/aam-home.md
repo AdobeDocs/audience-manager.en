@@ -31,7 +31,6 @@ This technical documentation guide provides self help assistance for Audience Ma
    <td colname="col2"> <p> <b>Release Notes</b> </p> <p> 
      <ul id="ul_713F3E9DF0F84FE5981AC63D05948864"> 
       <li id="li_09C1CD15823E4AD7856CE40BE848E03F">See the latest <a href="https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html" format="https" scope="external"> Experience Cloud Release Notes</a> for new features and fixes. </li> 
-     <br>&nbsp;
      </ul> </p> <p> <b>Experience Cloud Resources</b> </p> <p> 
      <ul id="ul_E30EC96BDC624B5591F0470D430B7F41"> 
       <li id="li_F3A5CCFAE0F247CEB41A03CA8E03106B"><a href="https://forums.adobe.com/community/experience-cloud/analytics-cloud/audience-manager" format="https" scope="external"> Audience Manager Community Forums</a> </li>
@@ -40,8 +39,7 @@ This technical documentation guide provides self help assistance for Audience Ma
       <li id="li_1938F7044F544481A6CC0F45CC22B80A"> <a href="https://helpx.adobe.com/learning.html?promoid=KAUDK" scope="external" format="http"> Adobe Training and Certifications</a> </li> 
       <li id="li_C71459E0D1464C05B8B9387C43541F17"> <a href="https://helpx.adobe.com/support/experience-cloud.html" scope="external" format="https">Experience Cloud Product Documentation Home</a> </li> 
       <li id="li_0DB1997FEB87484EBC07E03FD40AA39F"><a href="https://helpx.adobe.com/support/audience-manager.html" format="https" scope="external"> Audience Manager Learn &amp; Support</a> </li> 
-     </ul> </p>
-     <br>&nbsp;
+     </ul> </p> 
      <p> <b>Glossary and Index of IDs</b> </p><p>If you are new to Audience Manager, see our <a href="reference/aam-glossary.md"> Glossary</a> and <a href= "reference/ids-in-aam.md">Index of IDs.</a></p></td>
   </tr> 
  </tbody> 
