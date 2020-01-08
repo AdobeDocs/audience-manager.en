@@ -13,6 +13,16 @@ Audience Manager helps you bring your audience data assets together, making it e
 
 With Audience Manager, you are not tied to a data seller, exchange, or demand-side platform. Additionally, Audience Manager is completely agnostic when it comes to our partners’ data assets. With access to multiple data sources, Audience Manager offers digital publishers the ability to use a wide variety of third-party data as well as our private data co-op. Talk to our Partner Solutions team about help with making smart and accurate decisions about your target audience. 
 
+# More Information {#more-information}
+
+See the following resources for more information:
+* [Audience Manager overview](https://www.adobe.com/analytics/audience-manager.html)
+* [Audience Manager benefits](https://www.adobe.com/analytics/audience-manager/benefits.html)
+* [Audience Manager features](https://www.adobe.com/analytics/audience-manager/features.html)
+
+
+<!--
+
 ## History and Background {#history-and-background}
 
 Audience Manager started as Demdex in 2008. It was acquired by Adobe Systems in 2011 and subsequently rebranded as Audience Manager.
@@ -26,3 +36,6 @@ Since 2008, Audience Manager (formerly, [!UICONTROL Demdex]) has been a pioneer 
 Audience Manager helps you manage your data pipeline. Our service is a catalyst that transforms generic users and raw data signals into actual audience segments used for multi-channel marketing efforts. Additionally, Audience Manager provides tools for tag management and audience analytics while simultaneously meeting the privacy and data security needs of clients and consumers.
 
 ![](assets/am_overview_80.png)
+
+
+-->
