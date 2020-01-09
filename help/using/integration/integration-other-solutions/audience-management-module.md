@@ -17,7 +17,7 @@ Add the [!UICONTROL Audience Management Module] to [!DNL Adobe Analytics] [!UICO
 In addition to implementing the code described in this document, you must also:
 
 * Implement the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
-* Enable [!UICONTROL [Server-Side Forwarding](https://docs.adobe.com/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html)] for report suites in the [!UICONTROL Adobe Analytics Admin Console].
+* Enable [Server-Side Forwarding](https://docs.adobe.com/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html) for report suites in the [!UICONTROL Adobe Analytics Admin Console].
 
 ## Implementation {#implementation}
 
@@ -25,7 +25,7 @@ There are two methods of implementing data forwarding from Adobe Analytics to Au
 
 ### Implementation using Adobe Launch
 
-Adobe recommends you use the Launch extension to instrument Adobe Analytics and Audience Manager on your properties. In this case, you do not need to manually copy any code. Instead, you must enable data sharing in the Analytics Launch extension. See the [Adobe Analytics Extension](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html#adobe-audience-manager) documentation.
+Adobe recommends you use the [Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) extension to instrument Adobe Analytics and Audience Manager on your properties. In this case, you do not need to manually copy any code. Instead, you must enable data sharing in the Analytics Launch extension. See the [Adobe Analytics Extension](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html#adobe-audience-manager) documentation.
 
 ### Implementation using Adobe Digital Tag Management (DTM) or any other tag management solution
 
