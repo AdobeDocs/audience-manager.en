@@ -20,12 +20,19 @@ The functions of a Data Management Platform (DMP) can be summarized into three c
 ![Image of three DMP functions: Data In, Audience Creation, Data Out](/help/using/overview/assets/dmp-functions.png)
 
 **Data In**
+
 Audience Manager collects first-party data from channels and devices (web analytics, CRM, device data, e-commerce, etc.).
 
+<br>&nbsp;
+
 **Audience Creation** 
+
 Unifies data into audience profiles, giving you a complete customer view across devices and channels. Create look-alike models, build audience segments and groups of profiles, and supplement with second- and third-party data sources.
 
+<br>&nbsp;
+
 **Data Out** 
+
 Activates audience segments by pushing them out to demand-side platforms (DSPs), campaign management systems and other marketing platforms.
 
 ## More Information {#more-information}
