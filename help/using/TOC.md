@@ -94,6 +94,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
           + [Shareable Audiences](/help/using/features/destinations/people-based-destinations-reporting.md)
         + Device-Based Destinations (Server-to-Server) {#device-based}
           + [Add New Device-Based Destinations](features/destinations/add-device-based-destinations.md)
+          + [List of Audience Manager Device-Based Destinations](/help/using/features/destinations/device-based-destinations-list.md)
           + [Add or Edit Segments for Server-to-Server Destinations](features/destinations/add-edit-segments.md)
           + [Configure Twitter Tailored Audiences as a Self-Service Device-Based Destination](features/destinations/twitter-tailored-audiences.md)
         + Custom Destinations {#custom-destinations}
