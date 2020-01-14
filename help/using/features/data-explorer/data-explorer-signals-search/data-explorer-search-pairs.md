@@ -29,6 +29,10 @@ This search will return only results that qualify for all three filters on the s
 
 ![](assets/signals-search.png)
 
+## Signals Excluded from Signal Search {#excluded-signals}
+
+Key variables used by Audience Manager and prefixed by the `d_` and `h_` prefixes are not surfaced by [!UICONTROL Signals Search]. See [Prefix Requirements for Key Variables](../../traits/trait-variable-prefixes.md) for details.
+
 ## Case Insensitivity and Search Auto-Completion {#case-insensitivity}
 
 The key and value search fields are case insensitive. The key search field includes auto-completed suggestions.
