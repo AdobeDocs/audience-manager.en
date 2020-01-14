@@ -161,12 +161,12 @@ In order to help you automate your consumer data privacy requests, Audience Mana
 
 However, some of our activation partners:
 
-1. Cannot support unsegment requests from Audience Manaager and/or 
+1. Cannot support unsegment requests from Audience Manager and/or 
 2. Are not able to receive updates from Audience Manager more frequently than once in 30 days.
 
 In those cases, you are not able to send delete requests to activation partners in an automated way through Audience Manager.
 
-Download our [Partner Excel sheet](assets/AAM-Partners-December2019.xlsx) to see which Audience Manager activation partners support unsegment.
+Consult the [list of device-based destinations](/help/using/features/destinations/device-based-destinations-list.md) to see which Audience Manager activation partners support unsegment.
 
 ## Data Correction Requests {#correction}
 
