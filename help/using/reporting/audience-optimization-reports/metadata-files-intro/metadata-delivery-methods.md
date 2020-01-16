@@ -16,6 +16,7 @@ Send or update metadata files by sending them to a special [!DNL Amazon S3] dire
 Data is stored in separate namespace for each customer in an [!DNL Amazon S3] directory. The file path follows the syntax shown below. Note, angle brackets `<>` indicate a variable placeholder. The other elements are constants and do not change.
 
 **Syntax:**
+
 ```
 .../log_ingestion/pid=<AAM ID>/dpid=<d_src>/meta/<yyyymmdd_0_child ID>
 ```
