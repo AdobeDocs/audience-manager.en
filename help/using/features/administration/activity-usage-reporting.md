@@ -24,8 +24,6 @@ The [!UICONTROL Activity Usage Report] is available to all Audience Manager acco
 >
 > While the [!UICONTROL Activity Usage Report] shows you the current usage level of your Audience Manager instance, it does not represent a billing report, and should not be regarded as one.
 
-
-
 ## Use Cases {#use-cases}
 
 There are two main use cases of the [!UICONTROL Activity Usage Report]:
@@ -35,9 +33,11 @@ There are two main use cases of the [!UICONTROL Activity Usage Report]:
 
 ## Using the Activity Usage Report {#using}
 
+
+
 To see the [!UICONTROL Activity Usage Report], log in to your Audience Manager account, and go to **[!UICONTROL Administration]** > **[!UICONTROL Usage]**.
 
-Next, use the **[!UICONTROL Date Filter]** to select the time interval to generate the report for. You can choose between 30, 60, 90 days, or a custome date range.
+Next, use the **[!UICONTROL Date Filter]** to select the time interval to generate the report for. You can choose between 30, 60, 90 days, or a custom date range.
 
 Once your report loads, you can see a breakdown of your activity for the selected period, for the following activity types:
 
@@ -47,6 +47,8 @@ Once your report loads, you can see a breakdown of your activity for the selecte
 * **[!UICONTROL Log File Records]**: Ad engagement data ingested into Audience Manager from an ad server log file.
 
 ## Exporting Activity Usage Reports {#export}
+
+![aur-export](assets/aur-export.png)
 
 The **[!UICONTROL Onsite Server Calls Breakdown]** and **[!UICONTROL Onboarded Records Breakdown]** reports provide the most granular insight of source data available for these activities. The volume attributed to these breakdowns is based on your implementation.
 
@@ -60,6 +62,6 @@ This report contains a breakdown of server calls from three sources: Analytics, 
 
 * **[!UICONTROL Analytics]**: These are billable server calls passed from all Adobe Analytics instances to Audience Manager, including server-side forwarding. Secondary server calls or duplicate server calls (as in the case of server side forwarding from multiple report suites) are not billable activities, so they are not included in this breakdown.
 * **[!UICONTROL Target]**: These are server-side calls from Adobe Target to Audience Manager, to retrieve Audience Manager segment data as part of a server-to-server integration.
-* **[!UICONTROL Other]**: Includes calls from any other website or system (partner sites, direct server calls, etc.), mobile browser/app calls via the SDK, DIL, event calls, and DCS calls. Also includes calls from Target if set up as a cookie integration (rather than server-to-server).  
+* **[!UICONTROL Other]**: Includes calls from any other website or system (partner sites, direct server calls, etc.), mobile browser/app calls via the SDK, DIL, event calls, and DCS calls. Also includes calls from Target if set up as a cookie integration (rather than server-to-server).
 
 Reach out to your Adobe consultant or Customer Care for further questions.
