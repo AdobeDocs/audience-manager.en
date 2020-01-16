@@ -22,7 +22,7 @@ The [!UICONTROL Activity Usage Report] is available to all Audience Manager acco
 
 > [!IMPORTANT]
 >
-> While the [!UICONTROL Activity Usage Report] shows you the current usage level of your Audience Manager instance, it does not represent a billing report, and should not be regarded as one.
+> The [!UICONTROL Activity Usage Report] shows you the usage statistics of your Audience Manager instance. For any billing inquiries related to your activity usage, reach out to your Adobe representative.
 
 ## Use Cases {#use-cases}
 
