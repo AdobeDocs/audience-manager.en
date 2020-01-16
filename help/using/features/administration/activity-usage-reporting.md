@@ -33,9 +33,9 @@ There are two main use cases of the [!UICONTROL Activity Usage Report]:
 
 ## Using the Activity Usage Report {#using}
 
-
-
 To see the [!UICONTROL Activity Usage Report], log in to your Audience Manager account, and go to **[!UICONTROL Administration]** > **[!UICONTROL Usage]**.
+
+![aur-ui](assets/aur-ui.png)
 
 Next, use the **[!UICONTROL Date Filter]** to select the time interval to generate the report for. You can choose between 30, 60, 90 days, or a custom date range.
 
@@ -46,7 +46,13 @@ Once your report loads, you can see a breakdown of your activity for the selecte
 * **[!UICONTROL Onboarded Records]**: Records ingested from your own CRM or other offline data files, such as call center records, mobile IDs, etc.
 * **[!UICONTROL Log File Records]**: Ad engagement data ingested into Audience Manager from an ad server log file.
 
+Additionally, you can use the Usage Trends graph types to alternate between two type of graphs.
+
+![aur-ui-graphs](assets/aur-ui-graphs.png)
+
 ## Exporting Activity Usage Reports {#export}
+
+For a better overview of your Audience Manager usage level, you can export the Acitivty Usage Report based on the type of records that you want them to include.
 
 ![aur-export](assets/aur-export.png)
 
