@@ -11,6 +11,14 @@ uuid: 7c3797f7-9674-493d-972b-38be0584fede
 
 Click tracking enables measurement of visitor engagement throughout your campaign, as it records click-based activity for third-party creatives. Similar to impressions collection, an event call is sent to the Audience Manager data collection servers ([!UICONTROL DCS]) for processing. The visitor is then redirected to the intended web address.
 
+>[!IMPORTANT]
+>
+>For Audience Manager to correctly interpret the fields it receives in event calls and render your campaign data in [Audience Optimization reports](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md), you must send metadata files that map these fields to human-readable values. See [Overview and Mappings for Metadata Files](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) and contact your Audience Manager consultant or Customer Care to set up an Amazon S3 directory for metadata files.
+
+>[!NOTE]
+>
+>Please contact your Adobe Audience Manager consulting or account lead for the exact URL specific to the client domain.
+
 ## Requirements
 
 Click tracking calls require the following parameters:
@@ -32,7 +40,7 @@ The response redirects the browser to the [!DNL URL] specified in the `d_rd` par
 
 Based on the above example, the browser is redirected to the following [!DNL URL]:
 
-[!DNL `https://adobe.com/callback?creative=123`]
+`https://adobe.com/callback?creative=123`
 
 ## Supported Macros
 
@@ -81,7 +89,7 @@ Click events support the macros listed in the following table. A macro is a smal
    <td colname="col1"> <p> <code> d_dpuuid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_dpuuid%</code> </p> </td> 
    <td colname="col2"> <p>Unique user ID supplied by the data provider. </p> <p>Often used with <code> d_dpid</code> to link a user ID to a data provider ID. </p> </td> 
-  </tr> 
+  </tr>
   <tr> 
    <td colname="col1"> <p> <code> d_mid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_mid%</code> </p> </td> 
@@ -153,7 +161,7 @@ d_rd%3Dhttp%253A%252F%252Fadobe.com%252Fcallback%253Fcreative%253D%2525d_creativ
 
 Based on the above example, the browser is redirected to the following [!DNL URL]:
 
-[!DNL `https://adobe.com/callback?creative=1235&campaign=4709&adgroup=3408&placement=1001`]
+`https://adobe.com/callback?creative=1235&campaign=4709&adgroup=3408&placement=1001`
 
 >[!MORELIKETHIS]
 >
