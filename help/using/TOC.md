@@ -343,7 +343,6 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
         + [Troubleshooting Tips for Bulk Management Tools](reference/bulk-management-tools/bulk-troubleshooting.md)
         + [Bulk Management Tools Glossary](reference/bulk-management-tools/bulk-management-glossary.md)
     + [CID Replaces DPID and DPUUID](reference/cid.md)
-    + [Glossary](reference/aam-glossary.md)
     + [How Data Delivery and File Processing Times Affect Reports](reference/reporting-file-transfer-timeframe.md)
     + [Index of IDs in Audience Manager](reference/ids-in-aam.md)
     + [Key-Value Pairs Explained](reference/key-value-pairs-explained.md)
@@ -386,3 +385,4 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
     + [2017 Documentation Updates](docs-updates/docs-2017.md)
     + [2016 Documentation Updates](docs-updates/docs-2016.md)
     + [2015 Documentation Updates](docs-updates/docs-2015.md)
++ [Glossary](reference/aam-glossary.md)

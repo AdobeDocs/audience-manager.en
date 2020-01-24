@@ -11,7 +11,39 @@ uuid: 9334da91-3691-4223-a433-cca35a980a6e
 
 Audience Manager helps you bring your audience data assets together, making it easy to collect commercially relevant information about site visitors, create marketable segments, and serve targeted advertising and content to the right audience. Furthermore, Audience Manager offers easy tag deployment and management with robust data collection, control, and protection.
 
-With Audience Manager, you are not tied to a data seller, exchange, or demand-side platform. Additionally, Audience Manager is completely agnostic when it comes to our partners’ data assets. With access to multiple data sources, Audience Manager offers digital publishers the ability to use a wide variety of third-party data as well as our private data co-op. Talk to our Partner Solutions team about help with making smart and accurate decisions about your target audience. 
+With Audience Manager, you are not tied to a data seller, exchange, or demand-side platform. Additionally, Audience Manager is completely agnostic when it comes to our partners’ data assets. With access to multiple data sources, Audience Manager offers digital publishers the ability to use a wide variety of third-party data as well as our private data co-op. Talk to our Partner Solutions team about help with making smart and accurate decisions about your target audience.
+
+## Three functions of a Data Management Platform (DMP) {#dmp-three-functions}
+
+The functions of a Data Management Platform (DMP) can be summarized into three categories, as shown below.
+
+![Image of three DMP functions: Data In, Audience Creation, Data Out](/help/using/overview/assets/dmp-functions.png)
+
+**Data In**
+
+Audience Manager collects first-party data from channels and devices (web analytics, CRM, device data, e-commerce, etc.).
+
+<br>&nbsp;
+
+**Audience Creation** 
+
+Unifies data into audience profiles, giving you a complete customer view across devices and channels. Create look-alike models, build audience segments and groups of profiles, and supplement with second- and third-party data sources.
+
+<br>&nbsp;
+
+**Data Out** 
+
+Activates audience segments by pushing them out to demand-side platforms (DSPs), campaign management systems and other marketing platforms.
+
+## More Information {#more-information}
+
+See the following resources for more information:
+* [Audience Manager overview](https://www.adobe.com/analytics/audience-manager.html)
+* [Audience Manager benefits](https://www.adobe.com/analytics/audience-manager/benefits.html)
+* [Audience Manager features](https://www.adobe.com/analytics/audience-manager/features.html)
+
+
+<!--
 
 ## History and Background {#history-and-background}
 
@@ -26,3 +58,6 @@ Since 2008, Audience Manager (formerly, [!UICONTROL Demdex]) has been a pioneer 
 Audience Manager helps you manage your data pipeline. Our service is a catalyst that transforms generic users and raw data signals into actual audience segments used for multi-channel marketing efforts. Additionally, Audience Manager provides tools for tag management and audience analytics while simultaneously meeting the privacy and data security needs of clients and consumers.
 
 ![](assets/am_overview_80.png)
+
+
+-->
