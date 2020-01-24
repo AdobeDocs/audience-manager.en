@@ -323,8 +323,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
       + [Audience Sharing Between Audience Manager and Adobe Experience Platform](integration/integration-aep/aam-aep-audience-sharing.md)
     + Integration with Other Experience Cloud Solutions {#integration-other-solutions}
       + [Integrate Audience Manager With Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
-      + [Implement the Audience Management Module](integration/integration-other-solutions/audience-management-module.md)
-      + [Server-Side Forwarding (Admin Guide)](https://docs.adobe.com/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html)
+      + [How to Forward Data from Adobe Analytics to Audience Manager](integration/integration-other-solutions/audience-management-module.md)
       + [Publish an Adobe Analytics Segment to the Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html)
 + Reference{#reference}
     + [Reference Overview](reference/reference.md)
