@@ -10,22 +10,32 @@ uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 
 # How to forward data from Adobe Analytics to Audience Manager {#implement-the-audience-management-module}
 
-Add the [!UICONTROL Audience Management Module] to [!DNL Adobe Analytics] [!UICONTROL AppMeasurement] to forward [!DNL Analytics] data to Audience Manager instead of having the Audience Manager [!UICONTROL Data Integration Library] ([!UICONTROL DIL]) code send a pixel from the page.
+Follow the steps in this tutorial to forward [!DNL Analytics] data to Audience Manager instead of having the Audience Manager [!UICONTROL Data Integration Library] ([!UICONTROL DIL]) code send a pixel from the page.
+
+>[!TIP]
+>
+>We recommend you use [!UICONTROL Adobe Launch] to forward [!UICONTROL Analytics] data into Audience Manager. By using [!UICONTROL Launch], you do not have to manually copy code into [!UICONTROL AppMeasurement], as shown on this page.
 
 ## Prerequisites {#prereqs}
 
-In addition to implementing the code described in this document, you must also:
+In addition to enabling the extensions or implementing the code described in this document, you must also:
 
 * Implement the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
 * Enable [Server-Side Forwarding](https://docs.adobe.com/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html) for report suites in the [!UICONTROL Adobe Analytics Admin Console].
 
 ## Implementation {#implementation}
 
-There are two methods of implementing data forwarding from Adobe Analytics to Audience Manager, depending on the tag management solution that you use.
+There are two methods to implement data forwarding from Adobe Analytics to Audience Manager, depending on the tag management solution that you use.
 
 ### Implementation using Adobe Launch
 
-Adobe recommends you use the [Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) extension to instrument Adobe Analytics and Audience Manager on your properties. In this case, you do not need to manually copy any code. Instead, you must enable data sharing in the Analytics Launch extension. See the [Adobe Analytics Extension](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html#adobe-audience-manager) documentation.
+Adobe recommends you use the [Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) extension to instrument Adobe Analytics and Audience Manager on your properties. In this case, you do not need to manually copy any code. Instead, you must enable data sharing in the Analytics Launch extension, as shown in the image below. See also the [Adobe Analytics Extension](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html#adobe-audience-manager) documentation.
+
+>[!TIP]
+>
+>If you install the Adobe Analytics extension, *do not* also install the Audience Manager extension. Forwarding data from the Analytics extension replaces the Audience Manager extension functionality.
+
+![How to enable data sharing from the Adobe Analytics extension to Audience Manager](/help/using/integration/assets/analytics-to-aam.png)
 
 ### Implementation using Adobe Digital Tag Management (DTM) or any other tag management solution
 
@@ -44,7 +54,7 @@ To implement the [!UICONTROL Audience Management Module] using [Adobe DTM](https
 
 ```js
 s.AudienceManagement.setup({ 
-     "partner":"partner name", 
+     "partner":"INSERT-YOUR-PARTNER-NAME-HERE", 
      "containerNSID":0, 
      "uuidCookie": { 
           "name":"aam_uuid", 
@@ -77,7 +87,7 @@ Your [!DNL Analytics] implementation sends data to Audience Manager after you ha
 
 * Enabled [!UICONTROL Server-Side Forwarding] (talk to your consultant about this feature);
 * Implemented the Experience Cloud ID service;
-* Installed the [!UICONTROL Audience Management Module].
+* Followed the implementation steps in this tutorial.
 
 This process sends data to [!DNL Audience Manager]:
 
