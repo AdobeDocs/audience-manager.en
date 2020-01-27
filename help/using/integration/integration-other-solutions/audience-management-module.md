@@ -16,10 +16,6 @@ Follow the steps in this tutorial to forward [!DNL Analytics] data to Audience M
 >
 >We recommend you use [!UICONTROL Adobe Launch] to forward [!UICONTROL Analytics] data into Audience Manager. By using [!UICONTROL Launch], you do not have to manually copy code into [!UICONTROL AppMeasurement], as shown on this page.
 
->[!NOTE]
->
->The instructions on this page refer to implementations using [Adobe Digital Tag Manager (DTM)](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html) or any other tag management solution, *except* [Adobe Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html). We recommend you use Adobe Launch. By using [!DNL Launch], you do not have to manually copy code into [!UICONTROL AppMeasurement], as shown on this page.
-
 ## Prerequisites {#prereqs}
 
 In addition to enabling the extensions or implementing the code described in this document, you must also:
