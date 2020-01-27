@@ -39,12 +39,17 @@ To see the [!UICONTROL Activity Usage Report], log in to your Audience Manager a
 
 Next, use the **[!UICONTROL Reporting Interval]** filter to select the time interval to generate the report for. You can choose between 30, 60, 90 days, or a custom date range.
 
-Once your report loads, you can see a breakdown of your activity for the selected period, for the following activity types:
+Once your report loads, you can see a breakdown of your activities for the selected period.
 
-* **[!UICONTROL Server Calls]**:  Data collection and data retrieval calls to Audience Manager conducted in an onsite, mobile, email, or other tagged environment;
-* **[!UICONTROL Pixel Calls]**: Data collected from ad or email impression calls made to Audience Manager. These require the presence of the `d_event` parameter in the query string.
-* **[!UICONTROL On-Boarded Records]**: Records ingested from your own CRM or other offline data files, such as call center records, mobile IDs, etc.
-* **[!UICONTROL Log File Records]**: Ad engagement data ingested into Audience Manager from an ad server log file.
+Activities define the aggregate total of all onsite and offsite interactions with Audience Manager, split into the following categories:
+
+* **[!UICONTROL Server Calls]**: any data collection or retrieval event sent to Audience Manager from websites, servers, email, mobile application(s), or other systems;
+* **[!UICONTROL Pixel Calls]**: Data collected from ad (such as impression volume from a targeting platform) or email impression calls made to Audience Manager. These require the presence of the `d_event` parameter in the query string.
+* **[!UICONTROL On-Boarded Records]**: Unique records ingested from your own customer relationship management sytem (CRM) or other offline data files, such as call center records, device IDs, and custom data feeds from external data providers;
+* **[!UICONTROL Log File Records]**: Unique records from log files ingested into Audience Manager from a targeting platform.
+
+> [!NOTE]
+> A unique record defines each individual record of data in a file stored by Adobe on behalf of an Audience Manager customer.
 
 Additionally, you can use the [!UICONTROL Usage Trends] graph types to switch between two type of graphs. You can also hover your cursor over a specific date in the timeline to see the detailed usage for that date.
 
