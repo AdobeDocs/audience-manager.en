@@ -380,6 +380,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
     + [If There's a Problem](/help/using/help-legal/help-problem.md)
     + [Contact and Legal Information](/help/using/help-legal/help-legal-contact.md)
 + Documentation Updates{#documentation-updates}
+    + [2020 Documentation Updates](docs-updates/docs-2020.md)
     + [2019 Documentation Updates](docs-updates/docs-2019.md)
     + [2018 Documentation Updates](docs-updates/docs-2018.md)
     + [2017 Documentation Updates](docs-updates/docs-2017.md)
