@@ -43,7 +43,7 @@ Once your report loads, you can see a breakdown of your activities for the selec
 
 Activities define the aggregate total of all onsite and offsite interactions with Audience Manager, split into the following categories:
 
-* **[!UICONTROL Server Calls]**: any data collection or retrieval event sent to Audience Manager from websites, servers, email, mobile application(s), or other systems;
+* **[!UICONTROL Server Calls]**: Any data collection or retrieval event sent to Audience Manager from websites, servers, email, mobile application(s), or other systems;
 * **[!UICONTROL Pixel Calls]**: Data collected from ad (such as impression volume from a targeting platform) or email impression calls made to Audience Manager. These require the presence of the `d_event` parameter in the query string.
 * **[!UICONTROL On-Boarded Records]**: Unique records ingested from your own customer relationship management sytem (CRM) or other offline data files, such as call center records, device IDs, and custom data feeds from external data providers;
 * **[!UICONTROL Log File Records]**: Unique records from log files ingested into Audience Manager from a targeting platform.
