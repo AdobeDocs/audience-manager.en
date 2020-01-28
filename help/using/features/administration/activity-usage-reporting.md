@@ -28,7 +28,7 @@ The [!UICONTROL Activity Usage Report] is available to all Audience Manager user
 
 There are two main use cases of the [!UICONTROL Activity Usage Report]:
 
-* **Tracking actual usage against your usage commitment**: Most customers have a monthly estimated activity commitment per Audience Manager instance, which is then cumulated into a yearly commitment across all instances. While this report is not a billing report, it can provide helpful guidance as to whether you are exceeding the committed usage.
+* **Tracking actual instance usage against your usage commitment**: Most customers have a monthly estimated activity commitment per Audience Manager instance, which is then cumulated into a yearly commitment across all instances. While this report is not a billing report, it can provide helpful guidance as to whether you are exceeding the committed usage.
 * **Validation for implementation changes**: If you recently updated your implementation, such as setting up Analytics server-side forwarding, or changing your Target server call settings, this report can help you check whether the new activity volume is in line with your expected volume.
 
 ## Using the Activity Usage Report {#using}
@@ -73,8 +73,8 @@ This report contains onboarded records broken down by data source.
 
 ### Onsite Server Calls Breakdown {#onsite-breakdown}
 
-This report contains a breakdown of server calls from three sources: Analytics, Target, and [!UICONTROL Other].
+This report contains a breakdown of server calls from three sources: [!UICONTROL Analytics], [!UICONTROL Target], and [!UICONTROL Other].
 
 * **[!UICONTROL Analytics]**: These are billable server calls passed from all Adobe Analytics instances to Audience Manager, including server-side forwarding. Secondary server calls or duplicate server calls (as in the case of server side forwarding from multiple report suites) are not billable activities, so they are not included in this breakdown.
 * **[!UICONTROL Target]**: These are server-side calls from Adobe Target to Audience Manager, to retrieve Audience Manager segment data as part of a server-to-server integration.
-* **[!UICONTROL Other]**: Includes calls from any other website or system (partner sites, direct server calls, etc.), mobile browser/app calls via the SDK, DIL, event calls, and DCS calls. Also includes calls from Target if set up as a cookie integration (rather than server-to-server).
+* **[!UICONTROL Other]**: Includes calls from any other website or system (partner sites, direct server calls, etc.), mobile browser/app calls via the [!DNL SDK], [!DNL DIL], event calls, and [!DNL DCS] calls. Also includes calls from [!DNL Target] if set up as a cookie integration (rather than server-to-server).
