@@ -59,7 +59,7 @@ This page includes current Audience Manager [device-based destinations](/help/us
 | Criteo                                            | 27/02/2017 | Real-time | No        | Yes                               | No   | Yes               |
 | Crosswise                                         | 27/02/2017 | 1xday     | Yes       | No                                | No   | No                |
 | D.A.C. AudienceOne                                | 27/02/2017 | 1xday     | Yes       | No                                | No   | No                |
-| DataXu                                            | 11/20/207  | Real-time | No        | No                                | No   | Yes               |
+| DataXu                                            | 11/20/2017  | Real-time | No        | No                                | No   | Yes               |
 | Digilant                                          | 02/03/2017 | Real-time |           | No                                | No   | No                |
 | DistrictM                                         | 02/03/2017 | 1xday     | Yes       | No                                | No   | No                |
 | DoubleVerify                                      | 06/09/2017 | 1xday     | Yes       | No                                | No   | No                |
