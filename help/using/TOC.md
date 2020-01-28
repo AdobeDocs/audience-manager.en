@@ -388,6 +388,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
     + [Why do my traits or segments not show up in the Overlap Reports page?](/help/using/support-issues/why-do-my-traits-or-segments-not-show-up-in-the-overlap-reports.md)
     + [Why are our Read-Only users able to create, edit or delete traits and segments?](/help/using/support-issues/aam-read-only-users-create-delete-traits-segments.md)
 + Documentation Updates{#documentation-updates}
+    + [2020 Documentation Updates](docs-updates/docs-2020.md)
     + [2019 Documentation Updates](docs-updates/docs-2019.md)
     + [2018 Documentation Updates](docs-updates/docs-2018.md)
     + [2017 Documentation Updates](docs-updates/docs-2017.md)
