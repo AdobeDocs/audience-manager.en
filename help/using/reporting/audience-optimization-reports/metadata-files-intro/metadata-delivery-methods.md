@@ -11,6 +11,10 @@ uuid: 5199ee9b-920d-423d-8070-05a017ecd562
 
 Send or update metadata files by sending them to a special [!DNL Amazon S3] directory for your Audience Manager account. Refer to this section for information about delivery/directory paths, file processing times, and updates.
 
+>[!IMPORTANT]
+>
+> Contact your Audience Manager consultant or Customer Care to get started and set up an [!DNL Amazon S3] directory for your metadata files.
+
 ## Delivery Path Syntax and Example {#syntax}
 
 Data is stored in separate namespace for each customer in an [!DNL Amazon S3] directory. The file path follows the syntax shown below. Note, angle brackets `<>` indicate a variable placeholder. The other elements are constants and do not change.
