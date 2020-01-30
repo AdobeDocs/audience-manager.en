@@ -12,9 +12,9 @@ topic: Activity Usage Reporting
 
 ## Overview {#overview}
 
-The [!UICONTROL Activity Usage Report] helps you view and track the activity usage of your Audience Manager instance, giving you a clear idea of how your usage compares to your contractual commitment.
+The [!UICONTROL Activity Usage Report] helps you view and track the activity usage of your Audience Manager instance, giving you a clear idea of how your activity usage compares to your contractual commitment.
 
-Additionally, you can download the usage report whenever you need, for record keeping and custom analysis.
+Additionally, you can download the [!UICONTROL Activity Usage Report] whenever you need, for record keeping and custom analysis.
 
 ## Considerations {#considerations}
 
@@ -22,14 +22,14 @@ The [!UICONTROL Activity Usage Report] is available to all Audience Manager user
 
 > [!IMPORTANT]
 >
-> The [!UICONTROL Activity Usage Report] shows you the usage statistics of your Audience Manager instance. For any billing inquiries related to your activity usage, reach out to your Adobe representative.
+> The [!UICONTROL Activity Usage Report] shows you the activity usage statistics of your Audience Manager instance. For any billing inquiries related to your activity usage, reach out to your Adobe representative.
 
 ## Use Cases {#use-cases}
 
 There are two main use cases of the [!UICONTROL Activity Usage Report]:
 
-* **Tracking actual instance usage against your usage commitment**: Most customers have a monthly estimated activity commitment per Audience Manager instance, which is then cumulated into a yearly commitment across all instances. While this report is not a billing report, it can provide helpful guidance as to whether you are exceeding the committed usage.
-* **Validation for implementation changes**: If you recently updated your implementation, such as setting up Analytics server-side forwarding, or changing your Target server call settings, this report can help you check whether the new activity volume is in line with your expected volume.
+* **Tracking actual instance activity usage against your activity usage commitment**: Most customers have a monthly estimated activity commitment per Audience Manager instance, which is then cumulated into a yearly activity commitment across all instances. While this report is not a billing report, it can provide helpful guidance as to whether you are exceeding the committed activity usage.
+* **Validation for implementation changes**: If you recently updated your implementation, such as setting up Analytics server-side forwarding, or changing your Target server call settings, this report can help you check whether the new activity volume is in line with your expected activity volume.
 
 ## Using the Activity Usage Report {#using}
 
@@ -39,19 +39,19 @@ To see the [!UICONTROL Activity Usage Report], log in to your Audience Manager a
 
 Next, use the **[!UICONTROL Reporting Interval]** filter to select the time interval to generate the report for. You can choose between 30, 60, 90 days, or a custom date range.
 
-Once your report loads, you can see a breakdown of your activities for the selected period.
+Once your report loads, you can see a breakdown of your [!UICONTROL Activities] for the selected period.
 
-Activities define the aggregate total of all onsite and offsite interactions with Audience Manager, split into the following categories:
+[!UICONTROL Activities] define the aggregate total of all onsite and offsite interactions with Audience Manager, split into the following categories:
 
 * **[!UICONTROL Server Calls]**: Any data collection or retrieval event sent to Audience Manager from websites, servers, email, mobile application(s), or other systems.
-* **[!UICONTROL Pixel Calls]**: Data collected from ad (such as impression volume from a targeting platform) or email impression calls made to Audience Manager. These require the presence of the `d_event` parameter in the query string.
-* **[!UICONTROL On-Boarded Records]**: Unique records ingested from your own customer relationship management sytem (CRM) or other offline data files, such as call center records, device IDs, and custom data feeds from external data providers.
+* **[!UICONTROL Pixel Calls] (formerly known as [!UICONTROL Impression Server Calls])**: Data collected from ads (such as impression volume from a targeting platform) or email impression calls made to Audience Manager. These require the presence of the `d_event` parameter in the query string.
+* **[!UICONTROL On-Boarded Records]**: Unique records ingested from your own customer relationship management system (CRM) or other offline data files, such as call center records, device IDs, and custom data feeds from external data providers.
 * **[!UICONTROL Log File Records]**: Unique records from log files ingested into Audience Manager from a targeting platform.
 
 > [!NOTE]
 > A unique record defines each individual record of data in a file stored by Adobe on behalf of an Audience Manager customer.
 
-Additionally, you can use the [!UICONTROL Usage Trends] graph types to switch between two type of graphs.
+Additionally, you can use the [!UICONTROL Activity Usage Trends] graph types to switch between two type of graphs.
 
 ![aur-ui-graphs](assets/aur-ui-graphs.png)
 
@@ -61,7 +61,7 @@ You can also hover your cursor over a specific date in the timeline to see the d
 
 ## Exporting Activity Usage Reports {#export}
 
-For a better overview of your Audience Manager usage level, you can export the [!UICONTROL Activity Usage Report] based on the type of records that you want to include.
+For a better overview of your Audience Manager activity usage level, you can export the [!UICONTROL Activity Usage Report] based on the type of records that you want to include.
 
 ![aur-export](assets/aur-export.png)
 
