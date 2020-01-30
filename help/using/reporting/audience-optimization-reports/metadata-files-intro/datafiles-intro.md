@@ -137,9 +137,13 @@ The table below lists and describes the column headers for your data file. Heade
 
 Upload your impression, click, or conversion data files to an Amazon S3 directory for your [!DNL Audience Manager] account. Refer to this section for information about delivery/directory paths, file processing times, and updates.
 
+>[!IMPORTANT]
+>
+> Contact your Audience Manager consultant or Customer Care to get started and set up an [!DNL Amazon S3] directory for your data files.
+
 **Delivery Path Syntax and Examples**
 
-Data is stored in a separate namespace for each customer in an Amazon S3 directory. The file path follows the syntax shown below. Note, *italics* indicates a variable placeholder. Other elements are constants or keys and do not change.
+Data is stored in a separate namespace for each customer in an [!DNL Amazon S3] directory. The file path follows the syntax shown below. Note, *italics* indicates a variable placeholder. Other elements are constants or keys and do not change.
 
 **Syntax:** <pre><code>.../log_ingestion/pid= <i>AAM ID<i>/dpid= <i>d_src</i>/logs/ <i>file type</i>_<i>yyyymmdd</i></code></pre>
 
@@ -159,7 +163,7 @@ The following table defines each of these elements in a file delivery path.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>pid=<i>AAM ID</i></code> </p> </td> 
-   <td colname="col2"> <p>This key-value pair that contains your <span class="keyword"> Audience Manager</span> customer ID. </p> </td> 
+   <td colname="col2"> <p>This key-value pair contains your <span class="keyword"> Audience Manager</span> customer ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>dpid=<i>d_src</i></code> </p> </td> 

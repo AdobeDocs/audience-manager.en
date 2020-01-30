@@ -1,7 +1,7 @@
 ---
 description: Actionable Log Files allow you to capture media signals from ad server log files to create traits in Audience Manager. Capture impressions, clicks, and conversions from ad servers as traits without having to append pixels.
 keywords: actionable logs, alf, ALF
-seo-description: Actionable Log Files allow you to capture media signals from ad server log files to create traits in Audience Manager. Capture impressions, clicks, and conversions from ad servers as traits without having to use append pixels.
+seo-description: Actionable Log Files allow you to capture media signals from ad server log files to create traits in Audience Manager. Capture impressions, clicks, and conversions from ad servers as traits without having to append pixels.
 seo-title: Actionable Log Files
 solution: Audience Manager
 title: Actionable Log Files
@@ -22,7 +22,7 @@ uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 
 ## Getting Started {#getting-started}
 
-To get started with [!UICONTROL Actionable Log Files], you need to import log data into [!DNL Audience Manager]. The following links will help you get started:
+To get started with [!UICONTROL Actionable Log Files], you need to import log data into [!DNL Audience Manager]. The following links will help you get started: 
 
 * For [!UICONTROL Google DCM] logs, see [Import DCM Data Files Into Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) *and* contact your [!DNL Audience Manager] consultant.
 * For other ad server logs, see [Data and Metadata Files](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) *and* contact your [!DNL Audience Manager] consultant.
@@ -31,7 +31,7 @@ If you are already importing log data into [!DNL Audience Manager], ask your [!D
 
 >[!IMPORTANT]
 >
-> At the end of 2019, [!UICONTROL Actionable Log Files] will begin to expand availability to new ad servers. Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to get started.
+> At the end of 2019, [!UICONTROL Actionable Log Files] began to expand availability to new ad servers. Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to get started.
 
 ## Working with Actionable Log Files {#working-with-actionable-log-files}
 
@@ -239,6 +239,19 @@ The signals described in the table are captured in [!DNL Audience Manager] like 
 ```
 https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_activity=1234&d_creative=24122&d_placemebt=3442&d_bu=3983524&d_campaign=7321391&d_adsrc=11111
 ```
+
+## Working with Actionable Signals in the Audience Manager UI {#actionable-signals-in-ui}
+
+You can view your incoming actionable signals in the [Signals Search](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md) interface. 
+
+Go to **Audience Data** (1) > **Signals** (2) > **Search** (3) and select the **Actionable Log Files** (4) filter.
+
+![Actionable Signals in UI](/help/using/integration/assets/alf-in-signals.png)
+
+To create rule-based traits using your actionable signals, select **Actionable Log Files** (1), select the actionable signals that you want to use as trait rules (2), and press **Create Trait from Selected Signals** (3).
+
+![Create traits from signals](/help/using/integration/assets/alf-create-trait.png) 
+
 
 ## Use Cases {#use-cases}
 

@@ -9,15 +9,15 @@ uuid: 04334a5c-3e21-44db-b971-0b4457685e9a
 
 # Unused Signals Report{#unused-signals-report}
 
-This report returns a frequency count of all the unused information collected on your inventory and sent to Audience Manager.
+This report returns a frequency count of all the unused information collected on your inventory and sent to Audience Manager. To access this report, navigate to **Analytics > Audience Reports > Other Reports > Unused Signals**.
 
-<!-- 
+>[!NOTE]
+>
+>If you see the message "You don't have access to Audience Reports", contact your Audience Manager consultant or Customer Care to provision the report for you. 
 
-c_unused_signals.xml
+![Screenshot of Unused Signals Report](/help/using/reporting/dynamic-reports/assets/unused-signals.png)
 
- -->
-
-## Unused Signals Report
+## Overview
 
 A signal is information from your website passed in to [!DNL Audience Manager] in the form of [key-value pairs](../../reference/key-value-pairs-explained.md) (e.g., `color=blue, price>100, gender=female`, etc.).
 
