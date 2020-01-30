@@ -17,6 +17,7 @@ This technical documentation guide provides self help assistance for Audience Ma
   <tr> 
    <td colname="col1"> <p> <b>New and Featured Items</b> </p> <p>Read about the latest Audience Manager features:</p> <p> 
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
+     <li><a href="features/administration/activity-usage-reporting.md">Activity Usage Reporting</a></li>
      <li><a href="overview/data-security-and-privacy/data-privacy.md">California Consumer Privacy Act (CCPA) Support and Privacy Documentation Overhaul</a></li>
      <li><a href="features/segments/trait-recommendations.md">Intelligent Recommendations for Audience Marketplace Data, powered by Adobe Sensei</a></li>
     <li><a href="features/profile-merge-rules/merge-rules-overview.md">Profile Merge Rules Enhancements</a></li>
