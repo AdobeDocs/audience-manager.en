@@ -28,7 +28,7 @@ The [!UICONTROL Activity Usage Report] is available to all Audience Manager user
 
 There are two main use cases of the [!UICONTROL Activity Usage Report]:
 
-* **Tracking actual instance activity usage against your Activity usage commitment**: Most customers have a monthly estimated activity commitment per Audience Manager instance, which is then cumulated into a yearly activity commitment across all instances. While this report is not a billing report, it can provide helpful guidance as to whether you are exceeding the committed activity usage.
+* **Tracking actual instance activity usage against your activity usage commitment**: Most customers have a monthly estimated activity commitment per Audience Manager instance, which is then cumulated into a yearly activity commitment across all instances. While this report is not a billing report, it can provide helpful guidance as to whether you are exceeding the committed activity usage.
 * **Validation for implementation changes**: If you recently updated your implementation, such as setting up Analytics server-side forwarding, or changing your Target server call settings, this report can help you check whether the new activity volume is in line with your expected activity volume.
 
 ## Using the Activity Usage Report {#using}
