@@ -22,9 +22,7 @@ This technical documentation guide provides self help assistance for Audience Ma
      <li><a href="features/segments/trait-recommendations.md">Intelligent Recommendations for Audience Marketplace Data, powered by Adobe Sensei</a></li>
     <li><a href="features/profile-merge-rules/merge-rules-overview.md">Profile Merge Rules Enhancements</a></li>
     <li><a href="reference/bulk-management-tools/bulk-management-intro.md">Bulk Management Tools Update</a></li>
-     <li><a href="overview/data-security-and-privacy/data-security.md#hsts">HTTP Strict-Transport-Security</a></li>
-     <li><a href="features/destinations/people-based-destinations-overview.md">People-Based Destinations</a> </li>
-     </ul> </p> <p>See also, <a href="docs-updates/docs-2019.md"> 2019 Documentation Updates</a>. </p> 
+     </ul> </p> <p>See also, <a href="docs-updates/docs-2020.md"> 2020 Documentation Updates</a>. </p> 
      <br>&nbsp;
      <p> <b>Collaborative Documentation</b> </p>
      <p>We welcome contributions to our documentation from all our readers. See the <a href="https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html">Collaboration Guide Overview</a> to learn how to start contributing.</p>
