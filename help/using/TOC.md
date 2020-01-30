@@ -95,6 +95,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
           + [Shareable Audiences](/help/using/features/destinations/people-based-destinations-reporting.md)
         + Device-Based Destinations (Server-to-Server) {#device-based}
           + [Add New Device-Based Destinations](features/destinations/add-device-based-destinations.md)
+          + [List of Audience Manager Device-Based Destinations](/help/using/features/destinations/device-based-destinations-list.md)
           + [Add or Edit Segments for Server-to-Server Destinations](features/destinations/add-edit-segments.md)
           + [Configure Twitter Tailored Audiences as a Self-Service Device-Based Destination](features/destinations/twitter-tailored-audiences.md)
         + Custom Destinations {#custom-destinations}
@@ -324,8 +325,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
       + [Audience Sharing Between Audience Manager and Adobe Experience Platform](integration/integration-aep/aam-aep-audience-sharing.md)
     + Integration with Other Experience Cloud Solutions {#integration-other-solutions}
       + [Integrate Audience Manager With Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
-      + [Implement the Audience Management Module](integration/integration-other-solutions/audience-management-module.md)
-      + [Server-Side Forwarding (Admin Guide)](https://docs.adobe.com/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html)
+      + [How to Forward Data from Adobe Analytics to Audience Manager](integration/integration-other-solutions/audience-management-module.md)
       + [Publish an Adobe Analytics Segment to the Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html)
 + Reference{#reference}
     + [Reference Overview](reference/reference.md)
@@ -345,7 +345,6 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
         + [Troubleshooting Tips for Bulk Management Tools](reference/bulk-management-tools/bulk-troubleshooting.md)
         + [Bulk Management Tools Glossary](reference/bulk-management-tools/bulk-management-glossary.md)
     + [CID Replaces DPID and DPUUID](reference/cid.md)
-    + [Glossary](reference/aam-glossary.md)
     + [How Data Delivery and File Processing Times Affect Reports](reference/reporting-file-transfer-timeframe.md)
     + [Index of IDs in Audience Manager](reference/ids-in-aam.md)
     + [Key-Value Pairs Explained](reference/key-value-pairs-explained.md)
@@ -389,8 +388,10 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
     + [Why do my traits or segments not show up in the Overlap Reports page?](/help/using/support-issues/why-do-my-traits-or-segments-not-show-up-in-the-overlap-reports.md)
     + [Why are our Read-Only users able to create, edit or delete traits and segments?](/help/using/support-issues/aam-read-only-users-create-delete-traits-segments.md)
 + Documentation Updates{#documentation-updates}
+    + [2020 Documentation Updates](docs-updates/docs-2020.md)
     + [2019 Documentation Updates](docs-updates/docs-2019.md)
     + [2018 Documentation Updates](docs-updates/docs-2018.md)
     + [2017 Documentation Updates](docs-updates/docs-2017.md)
     + [2016 Documentation Updates](docs-updates/docs-2016.md)
     + [2015 Documentation Updates](docs-updates/docs-2015.md)
++ [Glossary](reference/aam-glossary.md)

@@ -13,7 +13,7 @@ A metadata file links numeric IDs with names you can read and understand. The Au
 
 ## Overview {#overview}
 
-A review of metadata and how it's used. A metadata file must be accompanied by a data file. The metadata file contents match data file information to related, human-readable labels in the report menus. For more information, see [Data Files for Audience Optimization Reports](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md).
+A review of metadata and how it's used. A metadata file must be accompanied by a data file. The metadata file contents match data file information to related, human-readable labels in the report menus. For more information, see [Data Files for Audience Optimization Reports and Actionable Log Files](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md).
 
 ### Metadata Files Contain Data About Other Data
 
