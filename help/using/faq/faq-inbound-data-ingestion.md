@@ -62,6 +62,12 @@ See [File Compression for Inbound Data Transfer Files](../integration/sending-au
 
 **Can I upload an inbound data file ([!DNL .sync] or [!DNL .overwrite] file) before deploying [!DNL Audience Manager] code into production?**
 
+Yes. As long as you use a cross-device data source to store the CRM data that you upload, Audience Manager always stores the data. In fact, following the Profile Merge Rules enhancements that Audience Manager launched in October 2019 that allow for offline-only use cases, you can upload and action on data without deploying Audience Manager code into production at all. See:
+
+* [Overview of Profile Merge Rules Enhancements](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
+* People-based Destinations - [Personalization Based on Offline-Only Data](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
+
+<!---
 * If the data provider is configured to use [Profile Link](../features/profile-merge-rules/merge-rules-overview.md) for cross-device targeting, the data available for targeting shortly after an ID sync identifies to the matching [!DNL Audience Manager] visitor ID.
 
 * If the data provider is not configured to use the [!UICONTROL Profile Link] feature, [!DNL Audience Manager] processes only the data for visitor IDs in the inbound data file that have been previously synced/matched back to an [!DNL Audience Manager] visitor ID.
@@ -119,6 +125,8 @@ Consider the following use cases in which the data provider is not configured to
   </tr> 
  </tbody> 
 </table>
+
+-->
 
 <br>&nbsp;
 
