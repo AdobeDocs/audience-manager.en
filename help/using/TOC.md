@@ -369,7 +369,6 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
     + [API FAQ](faq/faq-api.md)
     + [Audience Lab FAQ](faq/faq-audience-lab.md)
     + [Customer Data Feed FAQ](faq/faq-cdf.md)
-    + [Customer Care - Most Frequently Reported Issues](/help/using/faq/faq-top-customer-care-issues.md)
     + [Data Collection and Product Integration FAQ](faq/faq-data-collection.md)
     + [Inbound Customer Data Ingestion FAQ](faq/faq-inbound-data-ingestion.md)
     + [Privacy and Data Retention FAQ](faq/faq-privacy.md)
