@@ -36,7 +36,7 @@ The following example illustrates how potential data elements can be captured fr
 ![shopping-cart-data](assets/shopping-cart-data.png)
 
 |Item|Description|
-|--|--|
+|---|---|
 |1|**Gender**. A shopper's first name usually indicates their gender. In our example, the shopper's first name is Mary, so we know the shopper is a woman. Names are never stored by Audience Manager.|
 |2|**Interests**. The items in the shopping cart may indicate various interests. In our example, Mary spends a lot on fitness equipment.|
 |3|**Housing Type**. Based on the shipping and/or billing addresses, you can deduce whether Mary buys fitness equipment for herself or for a company.|
