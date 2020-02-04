@@ -61,7 +61,7 @@ Audience Manager automatically creates a trait folder called **Experience Platfo
 
 You can use automatically created traits in segments alongside other traits. For example, you can mix traits created from Experience Platform segments with third party traits acquired through the [Audience Marketplace](/help/using/features/audience-marketplace/audience-marketplace.md).
 
-For an example of a trait created automatically from an Experience Platform segment, see the screenshot below:
+For an example of a trait created automatically from an Experience Platform segment, see the screenshot below: 
 
 ![Trait from Experience Platform](/help/using/integration/integration-aep/assets/aep-trait.png)
 
