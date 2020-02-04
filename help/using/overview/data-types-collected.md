@@ -58,7 +58,7 @@ c_2nd_party_data.xml
 
 In a second-party-data scenario, advertisers send their own data assets to publishers so they can combine that information with the publisher’s data and then execute a more targeted advertising program. Furthermore, publishers can extend their audience pool by partnering with their advertisers. In most cases, these arrangements involve contractual relationships limited to putting the Audience Manager container tag on the partner site to facilitate data collection and sharing.
 
-An example of second-party-data collection and remarketing could involve a clothing retailed collecting data on its products and then sharing this information with key partners. In this case, the retailed could serve different ads across an Audience Manager partner site for consumers who chose various jacket colors and sizes.
+An example of second-party-data collection and remarketing could involve a clothing retailer collecting data on its products and then sharing this information with key partners. In this case, the retailed could serve different ads across an Audience Manager partner site for consumers who chose various jacket colors and sizes.
 
 ![](assets/shopping-cart-traits.png)
 
