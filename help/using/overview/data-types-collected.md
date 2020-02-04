@@ -84,5 +84,4 @@ Audience Manager integrates with other data providers based on their available A
 
 Many clients choose to work with third-party data-match partners. These entities have relationships with sites that have registration requirements and can process customer data files by matching them (in real-time) based on their registration network.
 
-![](assets/data_provider_match_700px.png)
-
+![data-provider-match](assets/data-provider-match.png)
