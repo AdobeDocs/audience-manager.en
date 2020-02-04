@@ -42,7 +42,7 @@ The following example illustrates how potential data elements can be captured fr
 |3|**Housing Type**. Based on the shipping and/or billing addresses, you can deduce whether Mary buys fitness equipment for herself or for a company.|
 |4|**Location**. ZIP codes are more reliable than IP addresses when it comes to pinpointing a location.|
 |5|**Promotion affinity**. If a shopper uses promotional codes or gift cards, they are probably a bargain hunter looking for the best deals.|
-|6|**Spending power**. Price data correlated with ZIP+4 codes indicate spending power of given location.|
+|6|**Spending power**. Price data correlated with ZIP+4 codes indicate spending power of a given location.|
 
 After the raw data is collected, it gets mapped back to customer-defined traits within the Audience Manager platform. Both the taxonomy and data mappings can be adjusted at any time without making changes to the data collection code.
 
@@ -58,7 +58,7 @@ c_2nd_party_data.xml
 
 In a second-party-data scenario, advertisers send their own data assets to publishers so they can combine that information with the publisher’s data and then execute a more targeted advertising program. Furthermore, publishers can extend their audience pool by partnering with their advertisers. In most cases, these arrangements involve contractual relationships limited to putting the Audience Manager container tag on the partner site to facilitate data collection and sharing.
 
-An example of second-party-data collection and remarketing could involve a clothing retailed collecting data on its products and then sharing this information with key partners. In this case, the retailed could serve different ads across an Audience Manager partner site for consumers who chose various jacket colors and sizes.
+An example of second-party-data collection and remarketing could involve a clothing retailer collecting data on its products and then sharing this information with key partners. In this case, the retailed could serve different ads across an Audience Manager partner site for consumers who chose various jacket colors and sizes.
 
 ![](assets/shopping-cart-traits.png)
 
