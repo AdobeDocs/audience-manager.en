@@ -67,6 +67,8 @@ Yes. As long as you use a cross-device data source to store the CRM data that yo
 * [Overview of Profile Merge Rules Enhancements](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
 * People-based Destinations - [Personalization Based on Offline-Only Data](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
 
+<br>&nbsp;
+
 <!---
 * If the data provider is configured to use [Profile Link](../features/profile-merge-rules/merge-rules-overview.md) for cross-device targeting, the data available for targeting shortly after an ID sync identifies to the matching [!DNL Audience Manager] visitor ID.
 
@@ -127,8 +129,6 @@ Consider the following use cases in which the data provider is not configured to
 </table>
 
 -->
-
-<br>&nbsp;
 
 **What time of day should I transfer my file?**
 

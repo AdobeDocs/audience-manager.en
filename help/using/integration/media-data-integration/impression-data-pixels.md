@@ -13,10 +13,6 @@ One approach for sending media data to Audience Manager uses ad server macros to
 
 This methodology is often referred to as "pixeling the creative." Those data points are dynamically inserted into the [!DNL Audience Manager] pixel code by the third-party ad server macros, which are used to map and report all impressions and clicks based on the key reporting attributes of the campaign. The aggregated data provides a unified view of campaign performance, helps identify custom conversion paths, and helps customers improve the sequence of ad server events that lead to conversions.
 
->[!IMPORTANT]
->
->For Audience Manager to correctly interpret the fields it receives in event calls and render your campaign data in [Audience Optimization reports](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md), you must send metadata files that map these fields to human-readable values. See [Overview and Mappings for Metadata Files](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) and contact your Audience Manager consultant or Customer Care to set up an Amazon S3 directory for metadata files.
-
 ## Event Call Syntax
 
 >[!NOTE]
@@ -107,6 +103,10 @@ Impression event calls accept data formed into key-value pairs. The following ta
 >[!NOTE]
 >
 >Please contact your Adobe Audience Manager consulting or account lead for the exact URL specific to the client domain.
+
+## Additional functionality - Audience Optimization Reports
+
+You can use pixel calls to power the [Audience Optimization Reports](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md). See [Overview and Mappings for Metadata Files](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) if you wish to use pixels to power the reports.
 
 >[!MORELIKETHIS]
 >

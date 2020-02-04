@@ -9,11 +9,7 @@ uuid: 7c3797f7-9674-493d-972b-38be0584fede
 
 # Capturing Campaign Click Data via Pixel Calls {#capturing-campaign-click-data-via-pixel-calls}
 
-Click tracking enables measurement of visitor engagement throughout your campaign, as it records click-based activity for third-party creatives. Similar to impressions collection, an event call is sent to the Audience Manager data collection servers ([!UICONTROL DCS]) for processing. The visitor is then redirected to the intended web address.
-
->[!IMPORTANT]
->
->For Audience Manager to correctly interpret the fields it receives in event calls and render your campaign data in [Audience Optimization reports](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md), you must send metadata files that map these fields to human-readable values. See [Overview and Mappings for Metadata Files](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) and contact your Audience Manager consultant or Customer Care to set up an Amazon S3 directory for metadata files.
+Click tracking enables measurement of visitor engagement throughout your campaign, as it records click-based activity for third-party creatives. Similar to [impressions collection](/help/using/integration/media-data-integration/impression-data-pixels.md), an event call is sent to the Audience Manager data collection servers ([!UICONTROL DCS]) for processing. The visitor is then redirected to the intended web address. 
 
 >[!NOTE]
 >
@@ -162,6 +158,11 @@ d_rd%3Dhttp%253A%252F%252Fadobe.com%252Fcallback%253Fcreative%253D%2525d_creativ
 Based on the above example, the browser is redirected to the following [!DNL URL]:
 
 `https://adobe.com/callback?creative=1235&campaign=4709&adgroup=3408&placement=1001`
+
+## Additional functionality - Audience Optimization Reports
+
+You can use pixel calls to power the [Audience Optimization Reports](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md). See [Overview and Mappings for Metadata Files](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) if you wish to use pixels to power the reports.
+
 
 >[!MORELIKETHIS]
 >
