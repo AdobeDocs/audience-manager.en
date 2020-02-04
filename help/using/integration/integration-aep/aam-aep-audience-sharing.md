@@ -4,7 +4,7 @@ seo-description: This article describes how audiences are shared between Audienc
 seo-title: Audience Sharing Between Audience Manager and Adobe Experience Platform
 solution: Audience Manager
 title: Audience Sharing Between Audience Manager and Adobe Experience Platform
-keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing
+keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 ---
 
 # Audience Sharing Between Audience Manager and Adobe Experience Platform {#aam-aep-audience-sharing}
@@ -22,9 +22,9 @@ The audience sharing functionality between Audience Manager and Adobe Experience
 You can use Audience Manager traits and segments in Experience Platform to add Audience Manager data to your customer profiles and to benefit from the Experience Platform [segmentation service](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!end-user/markdown/segmentation_overview/segmentation.md). 
 
 In Audience Manager, you can use Experience Platform segments for Data Management Platform use cases, such as:
-* Adding [third party data](/help/using/overview/data-types-collected.md#third-party-data) to your segments;
+* Add [third party data](/help/using/overview/data-types-collected.md#third-party-data) to your segments;
 * [Algorithmic modeling](/help/using/features/algorithmic-models/understanding-models.md);
-* Activating your segments to destinations not currently supported in the Experience Platform.
+* Activate your segments to destinations that are not yet supported in the Experience Platform [destinations catalog](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/destinations/destinations-cat/destinations-catalog.html).
 
 Additionally, your Experience Platform segments are shared to other Experience Cloud solutions, via [Core Services](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html).
 
@@ -43,7 +43,7 @@ See the table below for an overview of audience sharing use cases:
 Your Audience Manager traits and segments appear in Experience Platform as **Audiences** in the segment workflow. For more information on your Audience Manager segments and traits in Experience Platform, see:
 
 * [Segmentation Service overview](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!end-user/markdown/segmentation_overview/segmentation.md)
-* [Experience Platform Segment Builder user guide](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!end-user/markdown/segmentation_overview/segment-builder-guide.md)
+* [Experience Platform Segment Builder user guide](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)
 
 <br>&nbsp;
 
@@ -61,7 +61,7 @@ Audience Manager automatically creates a trait folder called **Experience Platfo
 
 You can use automatically created traits in segments alongside other traits. For example, you can mix traits created from Experience Platform segments with third party traits acquired through the [Audience Marketplace](/help/using/features/audience-marketplace/audience-marketplace.md).
 
-For an example of a trait created automatically from an Experience Platform segment, see the screenshot below:
+For an example of a trait created automatically from an Experience Platform segment, see the screenshot below: 
 
 ![Trait from Experience Platform](/help/using/integration/integration-aep/assets/aep-trait.png)
 
@@ -90,5 +90,5 @@ Item number | Name | Description
 ---------|----------|---------
  1 | Integration Code | The integration code corresponds to the segment ID in Experience Platform.
  2 | Data Source | Automatically created. All traits and segments that are created automatically from Experience Platform segments are stored in the data source **Adobe Experience Platform Audience Sharing**.
- 3 | Profile Merge Rule | **External Merge Policy** indicates that automatically created segments follow the merge policy set up in Experience Platform. 
+ 3 | Profile Merge Rule | **External Merge Policy** indicates that automatically created segments follow the merge policy set up in Experience Platform.
  4 | Segment Rule | The segment consists of the trait described in the [Traits section](#aep-segments-as-aam-traits).
