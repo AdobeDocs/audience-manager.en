@@ -41,8 +41,8 @@ The following example illustrates how potential data elements can be captured fr
 |2|**Interests**. The items in the shopping cart may indicate various interests. In our example, Mary spends a lot on fitness equipment.|
 |3|**Housing Type**. Based on the shipping and/or billing addresses, you can deduce whether Mary buys fitness equipment for herself or for a company.|
 |4|**Location**. ZIP codes are more reliable than IP addresses when it comes to pinpointing a location.|
-|5|**Promotion affinity**. If a shopper uses promotional codes or gift cards, they are probably a bargain hunter looking for the best deals.|
-|6|**Spending power**. Price data correlated with ZIP+4 codes indicate spending power of a given location.|
+|5|**Promotion Affinity**. If a shopper uses promotional codes or gift cards, they are probably a bargain hunter looking for the best deals.|
+|6|**Spending Power**. Price data correlated with ZIP+4 codes indicate spending power of a given location.|
 
 After the raw data is collected, it gets mapped back to customer-defined traits within the Audience Manager platform. Both the taxonomy and data mappings can be adjusted at any time without making changes to the data collection code.
 
