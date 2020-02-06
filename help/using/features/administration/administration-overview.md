@@ -44,7 +44,7 @@ Create users in [!DNL Audience Manager] and specify user details, login status, 
   For more information about groups and permissions, see [Create a Group](../../features/administration/administration-overview.md#create-group).
 1. Click **[!UICONTROL Save]**.
 
-## Create a Group {#create-group} 
+## Create a Group {#create-group}
 
 A *group* is a collection of users that share access rights to destination, segment, and trait objects. You can limit groups to single objects only or give them broad access to combinations of different objects.
 
@@ -130,3 +130,19 @@ Read below for a description of what each wildcard permission means:
 **Signals**
 
 * `VIEW_ALL_SIGNALS` - Users can view all signals captured in [Data Explorer](/help/using/features/data-explorer/data-explorer-overview.md).
+
+## Use Cases {#use-cases}
+
+### Monitoring User Access {#monitoring-user-access}
+
+[!UICONTROL Role-Based Access Control] can help you monitor user login status, giving you a clear picture of who can access to your Audience Manager instance.
+
+Depending on your business requirements, you can enable and disable user accounts as needed.
+
+![monitor-user-access](assets/monitor-user-access.png)
+
+### Ensure Access Protection for Sensitive Data Sources {#protect-sensitive-data-sources}
+
+You can configure [!UICONTROL Role-Based Access Control] at trait, segment, and destination level, for each user group. This capability allows you to manage how your users view, create, read, write, and edit specific data sets, and even restrict users from accessing data sets that should not be available to them.
+
+![access-protection](assets/access-protection.png)
