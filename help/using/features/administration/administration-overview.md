@@ -135,7 +135,7 @@ Read below for a description of what each wildcard permission means:
 
 ### Monitoring User Access {#monitoring-user-access}
 
-[!UICONTROL Role-Based Access Control] can help you monitor user login status, giving you a clear picture of who can access to your Audience Manager instance.
+[!UICONTROL Role-Based Access Control] can help you monitor user login status, giving you a clear picture of who can access your Audience Manager instance.
 
 Depending on your business requirements, you can enable and disable user accounts as needed.
 
@@ -143,6 +143,8 @@ Depending on your business requirements, you can enable and disable user account
 
 ### Ensure Access Protection for Sensitive Data Sources {#protect-sensitive-data-sources}
 
-You can configure [!UICONTROL Role-Based Access Control] at trait, segment, and destination level, for each user group. This capability allows you to manage how your users view, create, read, write, and edit specific data sets, and even restrict users from accessing data sets that should not be available to them.
+You can configure [!UICONTROL Role-Based Access Control] at trait, segment, and destination level, for each user group.
+
+This capability helps you manage how your users view, create, read, write, and edit specific data sets, and even restrict users from accessing data sets that should not be available to them.
 
 ![access-protection](assets/access-protection.png)
