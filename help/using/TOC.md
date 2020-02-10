@@ -362,7 +362,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
         + [Understanding the Edge Data Center](reference/system-components/components-edge.md)
     + [Style Conventions for Code and Text Elements](reference/code-style-elements.md)
     + [Time Zones in Audience Manager](reference/aam-time-zones.md)
-    + [TLS 1.0 Deprecation](reference/tls-support.md)
+    + [TLS 1.0 and 1.1 Deprecation](reference/tls-support.md)
     + [Understanding Calls to the Demdex Domain](reference/demdex-calls.md)
     + [Visitor Authentication States in Audience Manager](reference/visitor-authentication-states.md)
 + FAQs{#faqs}
