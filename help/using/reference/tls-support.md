@@ -7,7 +7,7 @@ title: TLS 1.0 Deprecation
 uuid: 6a820e63-dd49-4689-9596-940aabba18ec
 ---
 
-# TLS 1.0 Deprecation{#tls-deprecation}
+# TLS 1.0 and 1.1 Deprecation{#tls-deprecation}
 
 Transport Layer Security (TLS) is a cryptographic protocol used to establish a secure communications channel between two systems. It is used to authenticate one or both systems, and protect the confidentiality and integrity of information that passes between systems. In May 2018, there were three versions of the TLS protocol in use: TLS 1.0, 1.1, and 1.2.
 
