@@ -19,7 +19,9 @@ Audience Manager also supports uncompressed files.
 
 >[!IMPORTANT]
 >
->We currently don't support encryption and compression on the same inbound data file. You can select to either [encrypt](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md) or compress your inbound files.
+>We currently don't support encryption and compression on the same inbound data file. You can choose to either [encrypt](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md) or compress your inbound files.
+>
+> However, keep in mind that PGP encryption includes built-in compression.
 
 ## Amazon S3 Compression
 
