@@ -21,7 +21,7 @@ Audience Manager also supports uncompressed files.
 >
 >We don't support encryption on inbound files compressed using gzip (`.gz`).
 >
-> To encrypt and compress inbound files, use [PGP encryption](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md). [!DNL PGP] encryption includes file compression.
+>To encrypt and compress inbound files, use [PGP encryption](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md). [!DNL PGP] encryption includes file compression.
 
 ## Amazon S3 Compression
 
@@ -33,7 +33,7 @@ For delivery to [!DNL Amazon S3], you must use `.gz` or uncompressed files. Comp
 
 ## Best Practices
 
-* Files should be [!DNL .gzip] compressed (and have a [!DNL .gz] file extension.)
+* Files should be [!DNL .gzip] compressed (and have a [!DNL .gz] file extension).
 * The maximum compressed file size for a `.gz` compressed file is 1 GB.
 * Optimal split sizes, for fastest/earliest processing of your files, is approximately 1 GB uncompressed or 200-300 MB compressed.
 * [!DNL Amazon S3] imposes its own, 5 GB file size limit on uploaded files.
