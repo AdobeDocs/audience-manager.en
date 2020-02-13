@@ -9,19 +9,19 @@ uuid: 2a68f69c-60b0-4002-863b-302d2320e356
 
 # File Compression for Inbound Data Transfer Files{#file-compression-for-inbound-data-transfer-files}
 
-As an option, you can compress data files when sending them to Audience Manager.
+You can compress data files when sending them to Audience Manager.
 
 <!-- inbound-file-compression.xml -->
 
-Audience Manager supports gzip ( `.gz`) compression for inbound, asynchronous data transfers.
+Audience Manager supports gzip (`.gz`) compression for inbound, asynchronous data transfers.
 
 Audience Manager also supports uncompressed files.
 
 >[!IMPORTANT]
 >
->We currently don't support encryption and compression on the same inbound data file. You can choose to either [encrypt](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md) or compress your inbound files.
+>We don't support encryption on inbound files compressed using gzip (`.gz`).
 >
-> However, keep in mind that PGP encryption includes built-in compression.
+> To encrypt and compress inbound files, use [PGP encryption](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md). [!DNL PGP] encryption includes file compression.
 
 ## Amazon S3 Compression
 
