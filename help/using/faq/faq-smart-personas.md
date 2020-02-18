@@ -1,6 +1,6 @@
 ---
-description: Smart Personas help you classify unknown audiences into personas in real-time, using advanced data science techniques.
-seo-description: Smart Personas help you classify unknown audiences into personas in real-time, using advanced data science techniques.
+description: Smart Personas help you classify unknown audiences into distinct personas in real-time, using data science.
+seo-description: Smart Personas help you classify unknown audiences into distinct personas in real-time, using data science.
 seo-title: Smart Personas FAQ
 solution: Audience Manager
 title: Audience Manager Smart Personas

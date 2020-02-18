@@ -1,6 +1,6 @@
 ---
-description: Smart Personas help you classify unknown audiences into personas in real-time, using advanced data science techniques.
-seo-description: Smart Personas help you classify unknown audiences into personas in real-time, using advanced data science techniques.
+description: Smart Personas help you classify unknown audiences into distinct personas in real-time, using data science.
+seo-description: Smart Personas help you classify unknown audiences into distinct personas in real-time, using data science.
 seo-title: Smart Personas Reporting
 solution: Audience Manager
 title: Audience Manager Smart Personas
@@ -21,11 +21,11 @@ The models table shows you the following information:
 * **[!UICONTROL ID]**: the model ID uniquely identifies each model in your Audience Manager account;
 * **[!UICONTROL Name]**: the name that you provided in the model creation step;
 * **[!UICONTROL Description]**: the description that you provided in the model creation step;
-* **[!UICONTROL Model Type]**: the type of each model ([!UICONTROL Look-Alike Modeling] or [!UICONTROL Smart Personas]).
+* **[!UICONTROL Model Type]**: the type of each model ([!UICONTROL Look-Alike Modeling] or [!UICONTROL Smart Personas]);
 * **[!UICONTROL Status]**: the status of each model:
   * **[!UICONTROL Pending]**: the model is initializing and will start producing results shortly;
   * **[!UICONTROL Active]**: the model is running successfully and producing results;
-  <!-- * **[!UICONTROL Warning]**: the model produces results, but due to insufficient data (i.e. low baselines population, user profiles are not rich). -->
+  * **[!UICONTROL Warning]**: the model failed to produce results, due to insufficient data (i.e. low baselines population, user profiles are not rich);
   * **[!UICONTROL Error]**: the model failed to run. You should contact your Adobe representative.
 
 ## Model Overview Report{#model-report}

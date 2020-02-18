@@ -1,6 +1,6 @@
 ---
-description: Smart Personas help you classify unknown audiences into personas in real-time, using advanced data science techniques.
-seo-description: Smart Personas help you classify unknown audiences into personas in real-time, using advanced data science techniques.
+description: Smart Personas help you classify unknown audiences into distinct personas in real-time, using data science.
+seo-description: Smart Personas help you classify unknown audiences into distinct personas in real-time, using data science.
 seo-title: Smart Personas Overview
 solution: Audience Manager
 title: Audience Manager Smart Personas
@@ -51,8 +51,8 @@ As a marketer, I want to predict which customer journey phase my website visitor
 When you create a [!UICONTROL Smart Personas] model, you go through three steps:
 
 1. First, you select a minimum of two traits or two segments that will define your personas.
-2. Then, you choose a trait or segment that defines the target audience that you want to classify.
-3. Finally, you choose a name for the model and select a data source that will store the [!UICONTROL Smart Personas] segments.
+1. Then, you choose a trait or segment that defines the target audience that you want to classify.
+1. Finally, you choose a name for the model and select a data source that will store the [!UICONTROL Smart Personas] segments.
 
 ### Selection Criteria for Personas {#selection-personas}
 
