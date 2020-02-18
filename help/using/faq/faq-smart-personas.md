@@ -16,9 +16,9 @@ Frequently asked questions about [!UICONTROL Smart Personas].
 
 [!UICONTROL Smart Personas] and [!UICONTROL Look-alike modeling] serve different use cases. The main differences between the two algorithms are these:
 
+1. [!UICONTROL Look-alike modeling] takes a small audience as input and expands it. [!UICONTROL Smart Personas] takes a large audience as input, and divides it into smaller distinct audiences, defined by your personas.
 1. The number of base segments is different for each algorithm. [!UICONTROL Smart Personas] requires at least two baselines, while [!UICONTROL Look-alike modeling] uses one baseline at most.
-2. [!UICONTROL Smart Personas] performs real-time segment evaluation, while [!UICONTROL Look-alike modeling] does not.
-3. [!UICONTROL Look-alike modeling] takes a small audience as input and expands it. [!UICONTROL Smart Personas] takes a large audience as input, and divides it into smaller distinct audiences, defined by your personas.
+1. [!UICONTROL Smart Personas] performs real-time segment evaluation, while [!UICONTROL Look-alike modeling] does not.
 
 Based on your use case, you should decide which model will be more relevant to you.
 
