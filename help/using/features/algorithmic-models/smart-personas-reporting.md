@@ -44,14 +44,22 @@ If the model status is [!UICONTROL Pending], [!UICONTROL Warning], or [!UICONTRO
 
 The report table shows you the following information for each [!UICONTROL Smart Personas] segment.
 
-1. **[!UICONTROL Segment ID]**: the segment ID of the auto-created segment associated to each persona;
-1. **[!UICONTROL Name]**: the persona name;
-1. **[!UICONTROL Status]**: the status of the [!UICONTROL Smart Personas] segment:
+1. **[!UICONTROL SEGMENT ID]**: the segment ID of the auto-created segment associated to each persona;
+1. **[!UICONTROL NAME]**: the persona name;
+1. **[!UICONTROL STATUS]**: the status of the [!UICONTROL Smart Personas] segment:
    * **[!UICONTROL Succeeded]**: users are being classified into this segment;
    * **[!UICONTROL Pending]**: the segment is still being initialized;
    * **[!UICONTROL Insufficient Training Data]**: users are not being classified into this segment due to insufficient data. The total baseline population is too low and does not provide enough data to learn from.
-1. **[!UICONTROL 1 Day Real Time Population]**: The number of segment realizations for each persona, over the past 24 hours.
-1. **[!UICONTROL 1 Day Real Time Population %]**: The percentage of segment realizations for each persona, over the past 24 hours, out of the total model population.
+1. **[!UICONTROL 1 DAY REAL TIME POPULATION]**: The number of segment realizations for each persona, over the past 24 hours.
+1. **[!UICONTROL 1 DAY REAL TIME POPULATION %]**: The percentage of segment realizations for each persona, over the past 24 hours, out of the total model population.
 
 ## Influential Traits{#influential-traits}
 
+[!UICONTROL Influential Traits]
+
+1. **[!UICONTROL TRAIT ID]**: the segment ID of each influential trait for the selected persona;
+1. **[!UICONTROL NAME]**: the name of each influential trait for the selected persona;
+1. **[!UICONTROL DESCRIPTION]**: the description of each influential trait for the selected persona;
+1. **[!UICONTROL WEIGHT]**: the weight of each influential trait for the selected persona, calculated based on the [TraitWeight](understanding-models.md#understanding-traitweight) algorithm.
+1. **[!UICONTROL UNIQUE TRAIT REALIZATIONS]**: the number of unique trait realizations for each influential trait for the selected persona;
+1. **[!UICONTROL TOTAL TRAIT POPULATION]**: the total trait population of each influential trait for the selected persona.
