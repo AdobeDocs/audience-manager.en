@@ -21,4 +21,4 @@ As shown in the sample report, the intersection of the 2 line plots provides a g
 
 ## Sample Report
 
-![optimal-frequency](assets/optimal-frequency1.png)
+![optimal-frequency](assets/optimal-frequency2.png)
