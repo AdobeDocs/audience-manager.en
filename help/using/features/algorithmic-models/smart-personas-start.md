@@ -1,21 +1,21 @@
 ---
-description: Smart Personas help you classify unknown audiences into distinct personas in real-time, using data science.
-seo-description: Smart Personas help you classify unknown audiences into distinct personas in real-time, using data science.
-seo-title: Managing Smart Personas
+description: Predictive Audiences help you classify unknown audiences into distinct personas in real-time, using data science.
+seo-description: Predictive Audiences help you classify unknown audiences into distinct personas in real-time, using data science.
+seo-title: Managing Predictive Audiences
 solution: Audience Manager
-title: Audience Manager Smart Personas
+title: Audience Manager Predictive Audiences
 ---
 
-# Getting Started with Smart Personas {#smart-personas-getting-started}
+# Getting Started with Predictive Audiences {#smart-personas-getting-started}
 
-## Create a Smart Personas Model {#create-smart-personas}
+## Create a Predictive Audiences Model {#create-smart-personas}
 
-Before you create a [!UICONTROL Smart Personas] model, you need to decide which data source you want to assign your [!UICONTROL Smart Persona] traits and segments to. You can use an existing data source, or create a new one. See [Manage Data Sources](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/manage-datasources.html) for details on how to create a new data source.
+Before you create a [!UICONTROL Predictive Audiences] model, you need to decide which data source you want to assign your [!UICONTROL Smart Persona] traits and segments to. You can use an existing data source, or create a new one. See [Manage Data Sources](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/manage-datasources.html) for details on how to create a new data source.
 
 Once you know which data source you're going to use, follow the steps below.
 
 1. Go to **[!UICONTROL Audience Data]** > **[!UICONTROL Models]**.
-1. In the [!UICONTROL Smart Personas] section, click **[!UICONTROL Add New]**.
+1. In the [!UICONTROL Predictive Audiences] section, click **[!UICONTROL Add New]**.
 
     ![smart-persona-add](assets/smart-personas-add.png)
 
@@ -34,10 +34,10 @@ Once you know which data source you're going to use, follow the steps below.
    ![smart-personas-save](assets/smart-personas-save.png)
 1. Click **[!UICONTROL Save]**.
 
-## Editing Smart Personas {#edit-smart-personas}
+## Editing Predictive Audiences {#edit-smart-personas}
 
 Audience Manager does not support editing existing [!UICONTROL Smart Persona] models. To change a model's configuration, you must create a new model. If you have reached the limit of 10 [!UICONTROL Smart Persona] models and need to edit one of your models, you must delete a model and create a new one.
 
-## Deleting Smart Personas {#delete-smart-personas}
+## Deleting Predictive Audiences {#delete-smart-personas}
 
 To delete a [!UICONTROL Smart Persona] model, go to **[!UICONTROL Audience Data]** > **[!UICONTROL Models]**, find the model that you want to delete, and click the **[!UICONTROL Delete]** icon.

@@ -39,10 +39,10 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
         + [Algorithmic Models](features/algorithmic-models/understanding-models.md)
         + [Create an Algorithmic Model](features/algorithmic-models/create-model.md)
         + [Algorithmic Models: Trait Exclusion](features/algorithmic-models/trait-exclusion-algo-models.md)
-      + Smart Personas {#smart-personas}
-        + [Smart Personas Overview](features/algorithmic-models/smart-personas.md)
-        + [Getting Started with Smart Personas](features/algorithmic-models/smart-personas-start.md)
-        + [Smart Personas Reporting](features/algorithmic-models/smart-personas-reporting.md)
+      + Predictive Audiences {#smart-personas}
+        + [Predictive Audiences Overview](features/algorithmic-models/smart-personas.md)
+        + [Getting Started with Predictive Audiences](features/algorithmic-models/smart-personas-start.md)
+        + [Predictive Audiences Reporting](features/algorithmic-models/smart-personas-reporting.md)
     + Audience Lab{#audience-lab}
         + [Audience Lab Overview](features/audience-lab/audience-lab.md)
         + [Manage Test Groups](features/audience-lab/audience-lab-manage-test-groups.md)
@@ -380,7 +380,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
     + [People-Based Destinations FAQ](faq/faq-people-based-destinations.md)
     + [Product Features and Functions FAQ](faq/faq-features.md)
     + [Profile Merge Rules and Device Graph FAQ](faq/faq-profile-merge.md)
-    + [Smart Personas FAQ](faq/faq-smart-personas.md)
+    + [Predictive Audiences FAQ](faq/faq-smart-personas.md)
     + [Targeting FAQ](faq/faq-targeting.md) 
     + [Reporting FAQ](faq/faq-reporting.md)
 + Help and Legal{#help-and-legal}
