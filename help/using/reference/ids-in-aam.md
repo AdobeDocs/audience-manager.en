@@ -36,7 +36,7 @@ To understand the prefixes used in the following examples, see [Supported Attrib
 |[!DNL DPUUID]|Data Provider Unique User ID (also referred to as [!DNL CRM ID]). A third-party ID. This is the ID by which you identify end users in your own [!DNL CRM] system. You can sync [!DNL DPUUIDs] with Audience Manager [!DNL UUIDs] and you can sync [!DNL DPUUIDs] from your different Data Sources ([!DNL DPIDs]) in the ID synchronization process. | In DCS callls, `dpuuid` is preceded by the `d_` prefix. <p> Example `d_dpuuid=2132-3423vn-343fds-3432r` </p>|Not visible in the Audience Manager UI.|
 |[!DNL CRM ID]|See `DPUUID`.|See `DPUUID`.|See `DPUUID`.|
 |[!DNL CID], [!DNL CID_IC]|Customer ID, Customer ID Integration Code. The [!DNL CID] and [!DNL CID_IC] key-value pairs replace [!DNL DPID] and [!DNL DPUUID]. They provide the same functions as the [!DNL DPID] and [!DNL DPUUID], but are more efficient because they include the data provider ID and user ID (or integration code) in a single key-value pair. |In DCS calls, these IDs are preceded by the `d_` prefix. <p>Example: `d_cid_ic=39217_myIntegrationCode`</p>| See `DPID` and `DPUUID`.|
-|[!DNL DAID]|Device Advertising ID. An ID unique to each hardware device, to be used for advertising purposes. Usually provided by the manufacturer of the device or device operating system. |See [Global Device IDs](#global-device-ids). |
+|[!DNL DAID]|Device Advertising ID. An ID unique to each hardware device, to be used for advertising purposes. Usually provided by the manufacturer of the device or device operating system. |See [Global Device IDs](#global-device-ids). ||
 
 ## Global Device IDs {#global-device-ids}
 
