@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Audience Manager Predictive Audiences
 ---
 
-# Predictive Audiences Overview {#smart-personas}
+# Predictive Audiences Overview {#predictive-audiences}
 
 [!UICONTROL Predictive Audiences] helps you classify an unknown audience into distinct personas, in real-time, using advanced data science techniques.
 
@@ -20,7 +20,7 @@ During the evaluation phase, the model creates a new [!UICONTROL Predictive Audi
 
 You can identify the auto-created [!UICONTROL Predictive Audiences] segments in the Segments page. Each [!UICONTROL Predictive Audiences] model has its own folder under the [!UICONTROL Predictive Audiences] folder, and you can see each model's segments by clicking the model folder.
 
-![smart-personas-segments](assets/smart-personas-segments.png)
+![predictive-audiences-segments](assets/predictive-audiences-segments.png)
 
 ## Use Cases {#use-cases}
 
@@ -77,7 +77,7 @@ When a visitor who is part of the target audience is seen in real time, the mode
 
 While evaluating audiences and assigning scores, the model uses the default **[!UICONTROL Profile Merge Rule]** defined in your account. Finally, the visitor gets classified into the persona for which they received the highest score.
 
-![smart-personas-graph](assets/smart-personas-graph.png)
+![predictive-audiences-graph](assets/predictive-audiences-graph.png)
 
 ## Considerations and Limitations {#considerations}
 

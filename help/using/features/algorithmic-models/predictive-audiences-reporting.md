@@ -14,7 +14,7 @@ To see the results of your [!UICONTROL Predictive Audiences] classification, go 
 
 Use the filtering options on the left hand side to search for the model name or filter the results based on model type.
 
-![smart-personas-filter](assets/smart-personas-filter-models.png)
+![predictive-audiences-filter](assets/predictive-audiences-filter-models.png)
 
 The models table shows you the following information:
 
@@ -40,7 +40,7 @@ The donut chart shows you a persona-based breakdown of your target audience, whi
 
 If the model status is [!UICONTROL Pending], [!UICONTROL Warning], or [!UICONTROL Error], the model status is displayed instead of the graphs.
 
-![smart-persona-report](assets/smart-personas-report.png)
+![smart-persona-report](assets/predictive-audiences-report.png)
 
 The report table shows you the following information for each [!UICONTROL Predictive Audiences] segment.
 
@@ -61,7 +61,7 @@ To view the influential traits for all of your personas, click [!UICONTROL View 
 
 The [!UICONTROL Influential Traits] window shows you the following information, for each persona from the selected mdoel:
 
-![influential-traits](assets/smart-personas-influential-traits.png)
+![influential-traits](assets/predictive-audiences-influential-traits.png)
 
 1. **[!UICONTROL TRAIT ID]**: the segment ID of each influential trait for the selected persona;
 2. **[!UICONTROL NAME]**: the name of each influential trait for the selected persona;

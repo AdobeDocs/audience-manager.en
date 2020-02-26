@@ -91,7 +91,7 @@ Yes. Since the algorithm is trained on a daily basis, it applies the changes for
 
 **Can I see the traits by which audience classification is done?**
 
-Yes, you can see all influential traits for all baselines in the model reporting page. See [Influential Traits](../features/algorithmic-models/smart-personas-reporting.md#influential-traits).
+Yes, you can see all influential traits for all baselines in the model reporting page. See [Influential Traits](../features/algorithmic-models/predictive-audiences-reporting.md#influential-traits).
 
 &nbsp;
 

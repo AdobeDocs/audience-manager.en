@@ -13,4 +13,4 @@ title: Algorithmic Models Overview
 
 ## Look-Alike Modeling{#lam}
 
-## Predictive Audiences{#smart-personas}
+## Predictive Audiences{#predictive-audiences}
