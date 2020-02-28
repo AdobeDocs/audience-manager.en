@@ -28,7 +28,7 @@ You can think of building a [!UICONTROL Predictive Audiences] model with a numbe
 
 **How many personas/models am I allowed to create?**
 
-You can create up to 10 [!UICONTROL Smart Persona] models. For each model, you can define up to 50 baseline traits or segments.
+You can create up to 10 [!UICONTROL Predictive Audiences] models. For each model, you can define up to 50 baseline traits or segments.
 
 &nbsp;
 
@@ -70,6 +70,8 @@ To produce relevant results, the [!UICONTROL Predictive Audiences] algorithm eva
 **Why is my model showing the Error status?**
 
 The model failed to run. In such cases, please reach out to your Adobe representative.
+
+&nbsp;
 
 **How can I change the Profile Merge Rule for a Predictive Audiences segment?**
 
