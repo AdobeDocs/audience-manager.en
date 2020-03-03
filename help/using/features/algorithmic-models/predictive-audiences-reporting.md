@@ -30,13 +30,13 @@ The models table shows you the following information:
 
 ## Model Overview Report{#model-report}
 
-Once you choose a model, its reporting page will load. At the top of the page you can see the top 5 largest [!UICONTROL Predictive Audiences] segments, based on 1 day real-time realization, that the model has classified your target audience by. The **[!UICONTROL Other]** category includes the rest of the personas, which were not included in the top 5 largest [!UICONTROL Predictive Audiences] segments.
+Once you choose a model, its reporting page will load. At the top of the page you can see the top 5 largest predictive segments, based on 1 day real-time realization, that the model has classified your target audience by. The **[!UICONTROL Other]** category includes the rest of the personas, which were not included in the top 5 largest predictive segments.
 
 Audience Manager displays both a color coded donut chart and a timeline graph for your [!UICONTROL Predictive Audiences].
 
 Clicking the personas tabs at the top of the page adds or removes them from the chart and graph.
 
-The donut chart shows you a persona-based breakdown of your target audience, while the graph shows you the 1-day real time population trend of your [!UICONTROL Predictive Audiences] segments over the past 6 days.
+The donut chart shows you a persona-based breakdown of your target audience, while the graph shows you the 1-day real time population trend of your predictive segments over the past 6 days.
 
 If the model status is [!UICONTROL Pending], [!UICONTROL Warning], or [!UICONTROL Error], the model status is displayed instead of the graphs.
 
