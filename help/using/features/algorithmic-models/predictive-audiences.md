@@ -16,9 +16,9 @@ In a marketing context, a persona is an audience segment defined by visitors, us
 
 When you create a [!UICONTROL Predictive Audiences] model, the first step is choosing the baseline traits or segments that you want your target audience to be classified by. These traits or segments will define your personas.
 
-During the evaluation phase, the model creates a new [!UICONTROL Predictive Audiences] segment for each trait or segment that you defined as baseline. The next time Audience Manager sees a visitor from your target audience who is not classified for a persona  (did not qualify for any of your baseline traits or segments), the [!UICONTROL Predictive Audiences] model will predict which of the [!UICONTROL Predictive Audiences] segments the visitor should belong to, and add the visitor to that segment.
+During the evaluation phase, the model creates a new [!UICONTROL Predictive Audiences] segment for each trait or segment that you defined as baseline. The next time Audience Manager sees a visitor from your target audience who is not classified for a persona  (did not qualify for any of your baseline traits or segments), the [!UICONTROL Predictive Audiences] model will predict which of the predictive segments the visitor should belong to, and add the visitor to that segment.
 
-You can identify the auto-created [!UICONTROL Predictive Audiences] segments in the Segments page. Each [!UICONTROL Predictive Audiences] model has its own folder under the [!UICONTROL Predictive Audiences] folder, and you can see each model's segments by clicking the model folder.
+You can identify the auto-created predictive segments in the Segments page. Each [!UICONTROL Predictive Audiences] model has its own folder under the [!UICONTROL Predictive Audiences] folder, and you can see each model's segments by clicking the model folder.
 
 ![predictive-audiences-segments](assets/predictive-audiences-segments.png)
 
@@ -52,7 +52,7 @@ When you create a [!UICONTROL Predictive Audiences] model, you go through three 
 
 1. First, you select a minimum of two traits or two segments that will define your personas.
 1. Then, you choose a trait or segment that defines the target audience that you want to classify.
-1. Finally, you choose a name for the model and select a data source that will store the [!UICONTROL Predictive Audiences] segments.
+1. Finally, you choose a name for the model and select a data source that will store the predictive segments.
 
 ### Selection Criteria for Personas {#selection-personas}
 
@@ -90,20 +90,20 @@ When configuring your [!UICONTROL Predictive Audiences] models, keep in mind the
 * [!UICONTROL Predictive Audiences] performs audience classification based on all of your first party traits, from all your data sources.
 * Segment evaluation for [!UICONTROL Predictive Audiences] uses the default **[!UICONTROL Profile Merge Rule]** that you defined in your account. To learn more about [!UICONTROL Profile Merge Rules] see the dedicated [documentation](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/profile-merge-rules/merge-rules-overview.html).
 * Some traits and segments are not supported as baselines or target audiences. [!UICONTROL Predictive Audiences] models will fail to save when choosing one of the following as baselines or target audiences:
-  * Automatically created [!UICONTROL Predictive Audiences] traits or segments;
+  * Automatically created predictive traits or segments;
   * [Adobe Experience Platform](../integration/../../integration/integration-aep/aam-aep-audience-sharing.md) traits or segments;
   * Algorithmic traits;
   * Third party traits.
 
 ## Data Export Controls{#dec}
 
-[!UICONTROL Predictive Audiences] segments created by [!UICONTROL Predictive Audiences] models inherit the [Data Export Controls](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html) from the following data sources:
+predictive segments created by [!UICONTROL Predictive Audiences] models inherit the [Data Export Controls](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html) from the following data sources:
 
 1. The data source that you choose when building the model.
 2. The data sources of all baselines. Specifically, the union of all data export controls of all the baseline traits or segments.
 3. The data sources of your target audience. Specifically, the union of all data export controls of all the traits or segments that make up your target audience.
 
-The newly created [!UICONTROL Predictive Audiences] traits and segments will have the same privacy restrictions as the union of all the data sources described above.
+The newly created predictive traits and segments will have the same privacy restrictions as the union of all the data sources described above.
 
 Traits that have additional restrictions that aren’t part of the [!UICONTROL Predictive Audiences] segment privacy restrictions will be excluded from the training phase, and will not become influential for the model.
 

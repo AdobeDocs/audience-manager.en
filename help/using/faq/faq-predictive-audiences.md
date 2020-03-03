@@ -81,11 +81,11 @@ Duplicate the [!UICONTROL Predictive Audiences] segment and change the [!UICONTR
 
 **Could a user from the target audience who isn't part of any persona trait / segment not be classified?**
 
-Yes, in case the user does not have any traits in his profile. In that case, the user will get a match score of 0 to all of the persona traits / segments, and therefore will not be classified into any of the [!UICONTROL Predictive Audiences] segments.
+Yes, in case the user does not have any traits in his profile. In that case, the user will get a match score of 0 to all of the persona traits / segments, and therefore will not be classified into any of the predictive segments.
 
 &nbsp;
 
-**Can a user who was classified into one of the [!UICONTROL Predictive Audiences] segments be reclassified into a different [!UICONTROL Predictive Audiences] segment?**
+**Can a user who was classified into one of the predictive segments be reclassified into a different [!UICONTROL Predictive Audiences] segment?**
 
 Yes. Since the algorithm is trained on a daily basis, it applies the changes for each of the personas in terms of trait scoring. If a user who is part of a [!UICONTROL Predictive Audiences] segment is active, the changes in their trait score can change the classification based on the past 30 days activity.
 
