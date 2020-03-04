@@ -18,7 +18,6 @@ Why don't users see certain traits and segments listed in the overlap reports pa
 
 A minimum unique visitor requirement needs to be met in order for a trait or segment to be listed in the overlap reports.
 
-
 * For Traits: 28000 over 14-day period
 * For Segments: 70000 real-time users over 14-day period
 
