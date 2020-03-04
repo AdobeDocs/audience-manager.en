@@ -5,7 +5,6 @@ seo-description: Describes the required and optional steps that let you create a
 seo-title: Create an Algorithmic Model
 solution: Audience Manager
 title: Create an Algorithmic Model
-topic: DIL API
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 ---
 
