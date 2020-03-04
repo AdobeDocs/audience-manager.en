@@ -382,10 +382,10 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
     + [If There's a Problem](/help/using/help-legal/help-problem.md)
     + [Contact and Legal Information](/help/using/help-legal/help-legal-contact.md)
 + Top Customer Support Issues{#top-support-issues}
-    + [Overview](/help/using/support-issues/support-issues-overview.md)
-    + [Why did my Onboarded trait populations drop to 0 around October 15th? ](/help/using/support-issues/why-did-my-onboarded-trait-populations-drop-to-0-around-october.md)
-    + [Why do my traits or segments not show up in the Overlap Reports page?](/help/using/support-issues/why-do-my-traits-or-segments-not-show-up-in-the-overlap-reports.md)
-    + [Why are our Read-Only users able to create, edit or delete traits and segments?](/help/using/support-issues/aam-read-only-users-create-delete-traits-segments.md)
+    + [Overview](support-issues/support-issues-overview.md)
+    + [Why did my Onboarded trait populations drop to 0 around October 15th? ](support-issues/why-did-my-onboarded-trait-populations-drop-to-0-around-october.md)
+    + [Why do my traits or segments not show up in the Overlap Reports page?](support-issues/why-do-my-traits-or-segments-not-show-up-in-the-overlap-reports.md)
+    + [Why are our Read-Only users able to create, edit or delete traits and segments?](support-issues/aam-read-only-users-create-delete-traits-segments.md)
 + Documentation Updates{#documentation-updates}
     + [2019 Documentation Updates](docs-updates/docs-2019.md)
     + [2018 Documentation Updates](docs-updates/docs-2018.md)
