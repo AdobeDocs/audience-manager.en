@@ -9,15 +9,11 @@ topic: DIL API
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 ---
 
-# Create an Algorithmic Model {#create-an-algorithmic-model}
+# Create a Look-Alike Model {#create-an-algorithmic-model}
 
-Describes the required and optional steps that let you create an algorithmic model in [!UICONTROL Model Builder].
+Describes the required and optional steps that let you create a [!UICONTROL Look-Alike Model].
 
-## Build a Model {#build-model}
-
-<!-- t_model_build.xml -->
-
-### Model Builder Section
+## Model Builder Section
 
 [!UICONTROL Model Builder] consists of the [!UICONTROL Basic Information] and [!UICONTROL Configuration] sections. To create a model, complete the required fields in these two sections. Save your model to start the algorithm. [!DNL Audience Manager] sends you an automated notification after the first data run completes. After you receive the email, you can go to [Trait Builder](../../features/traits/about-trait-builder.md) and create algorithmic traits.
 
@@ -28,20 +24,24 @@ Describes the required and optional steps that let you create an algorithmic mod
 >* *Do not* create models with other algorithmic traits or segments.
 >* The automated email notification is sent one time only (after the first data run).
 
-### Build the Model
+## Build the Model
 
-To build a model, go to the [!UICONTROL Models] section and click **[!UICONTROL Add New]** and follow the steps below:
+Follow the steps below to build a [!UICONTROL Look-Alike Model]:
 
-1. In the [Basic Information](../../features/algorithmic-models/create-model.md#basic-information) section
+1. Go to **[!UICONTROL Audience Data]** > **[!UICONTROL Models]** and click **[!UICONTROL Add New]** in the [!UICONTROL Look-Alike Modeling] section.
+    ![look-alike-add](assets/look-alike-add.png)
+2. In the [Basic Information](../../features/algorithmic-models/create-model.md#basic-information) section
     * Name the model.
     * *(Optional)* Provide a brief description about the model.
     * Set the status for the model to **[!UICONTROL Active]** or **[!UICONTROL Inactive]**. Inactive models will not run and will not produce any data.
-1. In the [Configuration](../../features/algorithmic-models/create-model.md#configuration) section:
+    ![look-alike-basic](assets/look-alike-basic.png)
+3. In the [Configuration](../../features/algorithmic-models/create-model.md#configuration) section:
     * Click **[!UICONTROL Browse All Traits]** or **[!UICONTROL Browse All Segments]** to select a trait or segment you want to model against. Select an onboarded trait, a rule-based trait, or a segment as baseline. Otherwise, your models will not run.
     * Choose a 30, 60, or 90 day look-back period. This sets a time range for the model.
     * The [!UICONTROL TraitWeight] algorithm is selected by default.
     * Select a data source from the [!UICONTROL Available Data] list.
     * Click **[!UICONTROL Save]** when done.
+    ![look-alike-configuration](assets/look-alike-configuration.png)
 
 ## Basic Information for Algorithmic Models {#basic-information}
 
