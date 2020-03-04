@@ -55,7 +55,9 @@ The report table shows you the following information for each [!UICONTROL Predic
 
 ## Influential Traits{#influential-traits}
 
-[!UICONTROL Influential Traits] are traits that the [!UICONTROL Predictive Audiences] algorithm discovered to be the strongest predictors for determining the persona classification of a visitor. Their sign indicates whether the presence of the trait increases(+) or decreases(-) the likelihood of the user belonging to the selected persona.
+[!UICONTROL Influential Traits] are traits that the [!UICONTROL Predictive Audiences] algorithm discovered to be the strongest predictors for determining the persona classification of a visitor.
+
+<!-- Their sign indicates whether the presence of the trait increases(+) or decreases(-) the likelihood of the user belonging to the selected persona. -->
 
 To view the influential traits for all of your personas, click [!UICONTROL View All Influential Traits].
 
@@ -64,8 +66,7 @@ The [!UICONTROL Influential Traits] window shows you the following information, 
 ![influential-traits](assets/predictive-audiences-influential-traits.png)
 
 1. **[!UICONTROL TRAIT ID]**: the segment ID of each influential trait for the selected persona;
-2. **[!UICONTROL NAME]**: the name of each influential trait for the selected persona;
-3. **[!UICONTROL DESCRIPTION]**: the description of each influential trait for the selected persona;
-4. **[!UICONTROL WEIGHT]**: the weight of each influential trait for the selected persona, calculated based on the [TraitWeight](understanding-models.md#understanding-traitweight) algorithm. [!UICONTROL Influential Traits] are by default sorted by weight, in descending order.
-5. **[!UICONTROL UNIQUE TRAIT REALIZATIONS]**: the number of unique trait realizations for each influential trait for the selected persona;
-6. **[!UICONTROL TOTAL TRAIT POPULATION]**: the total trait population of each influential trait for the selected persona.
+1. **[!UICONTROL NAME]**: the name of each influential trait for the selected persona;
+1. **[!UICONTROL DESCRIPTION]**: the description of each influential trait for the selected persona;
+1. **[!UICONTROL WEIGHT]**: the weight of each influential trait for the selected persona, calculated based on the [TraitWeight](understanding-models.md#understanding-traitweight) algorithm. [!UICONTROL Influential Traits] are by default sorted by weight, in descending order.
+1. **[!UICONTROL 30 DAY REAL TIME POPULATION]**: the number of unique trait realizations for each influential trait for the selected persona, over the past 30 days.
