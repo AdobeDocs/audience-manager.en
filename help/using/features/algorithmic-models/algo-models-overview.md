@@ -2,7 +2,7 @@
 description: Describes the algorithmic models available in Audience Manager.
 keywords: algo models how works predictive audiences
 seo-description: Describes the algorithmic models available in Audience Manager.
-seo-title: Create an Algorithmic Model
+seo-title: Algorithmic Models Overview
 solution: Audience Manager
 title: Algorithmic Models Overview
 ---

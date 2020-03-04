@@ -97,7 +97,7 @@ When configuring your [!UICONTROL Predictive Audiences] models, keep in mind the
 
 ## Data Export Controls{#dec}
 
-predictive segments created by [!UICONTROL Predictive Audiences] models inherit the [Data Export Controls](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html) from the following data sources:
+Predictive segments created by [!UICONTROL Predictive Audiences] models inherit the [Data Export Controls](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html) from the following data sources:
 
 1. The data source that you choose when building the model.
 2. The data sources of all baselines. Specifically, the union of all data export controls of all the baseline traits or segments.

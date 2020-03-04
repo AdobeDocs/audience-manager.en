@@ -57,7 +57,7 @@ The report table shows you the following information for each [!UICONTROL Predic
 
 [!UICONTROL Influential Traits] are traits that the [!UICONTROL Predictive Audiences] algorithm discovered to be the strongest predictors for determining the persona classification of a visitor.
 
-<!-- Their sign indicates whether the presence of the trait increases(+) or decreases(-) the likelihood of the user belonging to the selected persona. -->
+Their sign indicates whether the presence of the trait increases(+) or decreases(-) the likelihood of the user belonging to the selected persona.
 
 To view the influential traits for all of your personas, click [!UICONTROL View All Influential Traits].
 
