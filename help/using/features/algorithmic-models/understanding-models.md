@@ -1,33 +1,22 @@
 ---
-description: Build and manage the traits or segments used in algorithmic modeling, also referred to as look-alike modeling. Model features are located in Audience Data > Models.
+description: Build and manage the traits or segments used in look-alike modeling.
 keywords: relative weight, lookalike
-seo-description: Build and manage the traits or segments used in algorithmic modeling, also referred to as look-alike modeling. Model features are located in Audience Data > Models.
-seo-title: About Algorithmic Models
+seo-description: Build and manage the traits or segments used in look-alike modeling.
+seo-title: About Look-Alike Modeling
 solution: Audience Manager
-title: About Algorithmic Models
-topic: DIL API
+title: About Look-Alike Modeling
 uuid: 39441e72-5316-453d-9aff-0e0b633aabcd
 ---
 
-# About Algorithmic Models {#about-algorithmic-models}
+# Understanding Look-Alike Modeling {#about-algorithmic-models}
 
-Build and manage the traits or segments used in algorithmic modeling, also referred to as look-alike modeling. Model features are located in **[!UICONTROL Audience Data > Models]**.
+## Find New Users with Look-Alike Modeling {#find-new-users}
 
-<!-- c_models.xml -->
-
-## Understanding Algorithmic Models {#understanding-models}
-
-The sections below represent a review of algorithmic modeling in [!DNL Audience Manager]. They describe how modeling works, the benefits, and the workflow.
-
-<!-- understanding-models.xml -->
-
-## Find New Users with Algorithmic Modeling {#find-new-users}
-
-Algorithmic modeling helps you discover new, unique audiences through automated data analysis. The process starts when you select a trait or segment, a time interval, and first and third-party data sources. Your choices provide the inputs for the algorithmic model. When the analytics process runs, it looks for eligible users based on shared characteristics from the selected population. Upon completion, this data is available in [Trait Builder](../../features/traits/about-trait-builder.md) where you can use it to create traits based on [accuracy and reach](../../features/traits/trait-accuracy-reach.md). Additionally, you can build segments that combine algorithmic traits with rules-based traits and add other qualification requirements with Boolean expressions and comparison operators. Algorithmic modeling gives you a dynamic way to extract value from all your available trait data.
+[!UICONTROL Look-Alike Modeling] helps you discover new, unique audiences through automated data analysis. The process starts when you select a trait or segment, a time interval, and first and third-party data sources. Your choices provide the inputs for the algorithmic model. When the analytics process runs, it looks for eligible users based on shared characteristics from the selected population. Upon completion, this data is available in [Trait Builder](../../features/traits/about-trait-builder.md) where you can use it to create traits based on [accuracy and reach](../../features/traits/trait-accuracy-reach.md). Additionally, you can build segments that combine algorithmic traits with rules-based traits and add other qualification requirements with Boolean expressions and comparison operators. [!UICONTROL Look-Alike Modeling] gives you a dynamic way to extract value from all your available trait data.
 
 ## Advantages {#advantages}
 
-The major benefits of using [!DNL Audience Manager] modeling include:
+The major benefits of using [!UICONTROL Look-Alike Modeling] include:
 
 * **Data accuracy:** The algorithm runs regularly, which helps keep results current and relevant.
 * **Automation:** You don't have to manage a large set of static rules. The algorithm will find audiences for you.
@@ -46,7 +35,7 @@ You manage models in **[!UICONTROL Audience Data > Models]**. At a high level, t
 
 ## Troubleshooting {#troubleshooting}
 
-We deactivate any algorithmic model that fails to generate data for three consecutive runs. Note that you cannot set the status of the model back to active afterwards. To ensure your models generate data, we recommend that you build models from data sources with sufficient traits to accumulate data from.
+We deactivate any [!UICONTROL Look-Alike Model] that fails to generate data for three consecutive runs. Note that you cannot set the status of the model back to active afterwards. To ensure your models generate data, we recommend that you build models from data sources with sufficient traits to accumulate data from.
 
 ## Understanding TraitWeight {#understanding-traitweight}
 
@@ -87,13 +76,13 @@ Related links:
 * [Model Builder](../../features/algorithmic-models/create-model.md)
 * [Accuracy and Reach](../../features/traits/trait-accuracy-reach.md)
 
-## Update Schedule for Algorithmic Models and Traits {#update-schedule}
+## Update Schedule for Look-Alike Models and Traits {#update-schedule}
 
 Creation and update schedules for new or existing algorithmic models and traits.
 
 <!-- c_model_update_schedule.xml -->
 
-### Algorithmic Model Creation and Update Schedule
+### Look-Alike Model Creation and Update Schedule
 
 <table id="table_E75A2B334A7F47ED9DFFBD6DF8636641"> 
  <thead>
@@ -105,11 +94,11 @@ Creation and update schedules for new or existing algorithmic models and traits.
  <tbody>
   <tr> 
    <td colname="col1"> <b>Create or Clone a Model</b> </td>
-   <td colname="col2"> <p>For new or cloned algorithmic models, the creation process runs once per day at: 
+   <td colname="col2"> <p>For new or cloned [!UICONTROL Look-Alike Models], the creation process runs once per day at: 
      <ul id="ul_97333AC409AF4760A91D90A06050122B"> 
       <li id="li_3A43809F924341FCAC3A85E3825E0F61"> 5 PM EST (November - March) </li> 
       <li id="li_C07D22AB192D4E0191D9EBF6426EC73D"> 6 PM EDT (March - November) </li> 
-     </ul> </p> <p>Models built or cloned after the creation deadline are processed the following day. </p> <p>If the first run of a model generates no data it will run a second time, the next day. If the second attempt also doesn't generate any data, there will be a third attempt, the next day. The model will stop running if the third attempt also doesn't generate any data. In this case, we will deactivate the model. See more in <a href="../../features/algorithmic-models/understanding-models.md#troubleshooting"> Troubleshooting Algorithmic Models</a>. </p> </td>
+     </ul> </p> <p>Models built or cloned after the creation deadline are processed the following day. </p> <p>If the first run of a model generates no data it will run a second time, the next day. If the second attempt also doesn't generate any data, there will be a third attempt, the next day. The model will stop running if the third attempt also doesn't generate any data. In this case, we will deactivate the model. See more in <a href="../../features/algorithmic-models/understanding-models.md#troubleshooting"> Troubleshooting Look-Alike Models</a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <b>Update a Model</b> </td> 
@@ -122,7 +111,7 @@ Creation and update schedules for new or existing algorithmic models and traits.
  </tbody>
 </table>
 
-### Algorithmic Trait Creation and Update Schedule
+### Look-Alike Trait Creation and Update Schedule
 
 <table id="table_92A908818C4F4F2287EA56C786CD0BBD"> 
  <thead> 

@@ -35,10 +35,11 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
         + [Usage Limits](features/administration/usage-limits.md)
         + [Activity Usage Reporting](features/administration/activity-usage-reporting.md)
     + Algorithmic Models{#algorithmic-models}
+      + [Algorithmic Models Overview](features/algorithmic-models/algo-models-overview.md)
       + Look-Alike Modeling {#look-alike-modeling}
-        + [Algorithmic Models](features/algorithmic-models/understanding-models.md)
-        + [Create an Algorithmic Model](features/algorithmic-models/create-model.md)
-        + [Algorithmic Models: Trait Exclusion](features/algorithmic-models/trait-exclusion-algo-models.md)
+        + [Understanding Look-Alike Models](features/algorithmic-models/understanding-models.md)
+        + [Create a Look-Alike Model](features/algorithmic-models/create-model.md)
+        + [Look-Alike Modeling: Trait Exclusion](features/algorithmic-models/trait-exclusion-algo-models.md)
       + Predictive Audiences {#predictive-audiences}
         + [Predictive Audiences Overview](features/algorithmic-models/predictive-audiences.md)
         + [Getting Started with Predictive Audiences](features/algorithmic-models/predictive-audiences-start.md)
