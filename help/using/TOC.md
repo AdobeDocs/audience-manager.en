@@ -37,7 +37,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
     + Algorithmic Models{#algorithmic-models}
       + [Algorithmic Models Overview](features/algorithmic-models/algo-models-overview.md)
       + Look-Alike Modeling {#look-alike-modeling}
-        + [Understanding Look-Alike Models](features/algorithmic-models/understanding-models.md)
+        + [Understanding Look-Alike Modeling](features/algorithmic-models/understanding-models.md)
         + [Create a Look-Alike Model](features/algorithmic-models/create-model.md)
         + [Look-Alike Modeling: Trait Exclusion](features/algorithmic-models/trait-exclusion-algo-models.md)
       + Predictive Audiences {#predictive-audiences}
