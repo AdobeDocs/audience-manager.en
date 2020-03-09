@@ -8,7 +8,7 @@ title: Audience Manager Predictive Audiences
 
 # Predictive Audiences Reporting
 
-After you save a [!UICONTROL Predictive Audiences] model, Audience Manager immediately starts training it. Within a couple of hours, the computed model will start analyzing audiences on the [Data Collection Servers](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/system-components/components-data-collection.html#dcs-pcs). Reporting will be available the following day.
+After you save a [!UICONTROL Predictive Audiences] model, Audience Manager starts training it. Within a couple of hours, the computed model will start analyzing audiences on the [Data Collection Servers](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/system-components/components-data-collection.html#dcs-pcs). Reporting will be available the following day.
 
 To see the results of your [!UICONTROL Predictive Audiences] classification, go to **[!UICONTROL Audience Data]** > **[!UICONTROL Models]**, and click your model in the list.
 
@@ -65,8 +65,8 @@ The [!UICONTROL Influential Traits] window shows you the following information, 
 
 ![influential-traits](assets/predictive-audiences-influential-traits.png)
 
-1. **[!UICONTROL TRAIT ID]**: the segment ID of each influential trait for the selected persona;
+1. **[!UICONTROL TRAIT ID]**: the trait ID of each influential trait for the selected persona;
 1. **[!UICONTROL NAME]**: the name of each influential trait for the selected persona;
 1. **[!UICONTROL DESCRIPTION]**: the description of each influential trait for the selected persona;
-1. **[!UICONTROL WEIGHT]**: the weight of each influential trait for the selected persona, calculated based on the [TraitWeight](understanding-models.md#understanding-traitweight) algorithm. [!UICONTROL Influential Traits] are by default sorted by weight, in descending order.
+1. **[!UICONTROL WEIGHT]**: the weight of each influential trait for the selected persona. [!UICONTROL Influential Traits] are by default sorted by weight, in descending order.  The value of the weights indicate their predictive power. The sign indicates whether the presence of the trait increases(+) or decreases(-) the likelihood of belonging to a persona.
 1. **[!UICONTROL 30 DAY REAL TIME POPULATION]**: the number of unique trait realizations for each influential trait for the selected persona, over the past 30 days.
