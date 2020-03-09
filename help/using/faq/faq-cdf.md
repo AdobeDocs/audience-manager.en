@@ -61,9 +61,7 @@ Again, it is difficult to estimate this. However, if you're going to receive CDF
 
 **How can I check the integrity of the data uploaded to Amazon S3?**
 
-Files exceeding 16MiB in size are split into 16MiB chunks and uploaded to [!DNL Amazon S3] using multi-part upload.
-
-[!DNL Amazon] generates an `ETag` value for multi-part uploads. It first calculates the individual MD5 checksums of each uploaded part, then concatenates them into a single string. Then, it calculates the MD5 checksum of the string. The resulting checksum (the `ETag`) is then appended with a hyphen and the total number of parts used for upload. For instance, the `ETag` for a file that was split into 5 parts during upload could look something like this: `2c51427d19021e88cf3395365895b6d4-5`
+[!DNL Amazon] splits large files into smaller parts and uploads them to [!DNL Amazon S3] using the multi-part upload. Then, it generates an `ETag` value for the multi-part upload. It first calculates the individual MD5 checksums of each uploaded part, then concatenates them into a single string. Then, it calculates the MD5 checksum of the string. The resulting checksum (the `ETag`) is then appended with a hyphen and the total number of parts used for upload. For instance, the `ETag` for a file that was split into 5 parts during upload could look something like this: `2c51427d19021e88cf3395365895b6d4-5`
 
 <br>&nbsp;
 
