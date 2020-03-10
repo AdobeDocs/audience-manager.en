@@ -36,6 +36,12 @@ Before you can use [!DNL People-Based Destinations] to send your first-party aud
 
 ### [!DNL LinkedIn]
 
+>[!IMPORTANT]
+>
+> The [!DNL People-Based Destinations] integration with [!DNL LinkedIn] is currently in the beta testing phase, and is only available to a limited number of customers. 
+> 
+> Once the beta testing ends, this integration will be available to all Audience Manager customers who signed up for [!DNL People-Based Destinations].
+
 Before you can use [!DNL People-Based Destinations] to send your first-party audience segments to [!DNL LinkedIn], make sure your [!DNL LinkedIn Campaign Manager] account has the [!DNL Creative Manager] or higher permission level.
 
 To learn how to edit your [!DNL LinkedIn Campaign Manager] user permissions, see [Add, Edit, and Remove User Permissions on Advertising Accounts](https://www.linkedin.com/help/lms/answer/5753)
