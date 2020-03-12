@@ -28,7 +28,7 @@ Trait qualification, or trait realization, is treated differently in Audience Ma
   </tr> 
   <tr> 
    <td colname="col1"> <p>Onboarded Traits </p> </td> 
-   <td colname="col2"> <p>Trait qualification happens after an inbound file is processed, i.e. the inbound file is <a href="../../faq/faq-inbound-data-ingestion.md"> imported into Audience Manager</a> and that is when the trait qualification happens. </p> <p> For onboarded traits, the maximum number of qualifications for a user profile is 1. </p> </td> 
+   <td colname="col2"> <p>Trait qualification happens after an inbound file is processed, i.e. the inbound file is <a href="../../faq/faq-inbound-data-ingestion.md"> imported into Audience Manager</a> and that is when the trait qualification happens. You should wait approximately 4 hours after creating an onboarded trait before uploading an inbound file for processing.  </p> <p> For onboarded traits, the maximum number of qualifications for a user profile is 1. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Algorithmic Traits </p> </td> 
