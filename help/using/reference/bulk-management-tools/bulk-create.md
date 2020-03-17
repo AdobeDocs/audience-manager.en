@@ -19,7 +19,7 @@ t_bulk_create.xml
 
 >[!NOTE]
 >
->The [!UICONTROL Bulk Management Tools] *are not* supported by [!DNL Audience Manager]. This tool is provided for convenience and as a courtesy only. For bulk changes, we recommend that you work with the [Audience Manager APIs](../../api/rest-api-main/aam-api-getting-started.md) instead. [RBAC group permissions](../../features/administration/administration-overview.md) assigned in the [!DNL Audience Manager] UI are honored in the [!UICONTROL Bulk Management Tools].
+>[RBAC group permissions](../../features/administration/administration-overview.md) assigned in the [!DNL Audience Manager] UI are honored in the [!UICONTROL Bulk Management Tools].
 
 >[!CAUTION]
 >
@@ -28,10 +28,10 @@ t_bulk_create.xml
 To create objects in bulk, open the [!UICONTROL Bulk Management Tools] worksheet and: 
 
 1. Click the **[!UICONTROL Headers]** tab and copy the create headers for the item you want to add.
-1. Click the **[!UICONTROL Create]** tab.
-1. Paste the create headers into the first row of the update worksheet.
-1. Paste or type the data you want to change into a corresponding column based on the header label.
-1. In the worksheet toolbar, click the create button that matches the item you're updating.
+2. Click the **[!UICONTROL Create]** tab.
+3. Paste the create headers into the first row of the update worksheet.
+4. Paste or type the data you want to change into a corresponding column based on the header label.
+5. In the worksheet toolbar, click the create button that matches the item you're updating.
 This action opens the [!UICONTROL Account Information] dialog box. 
    
 1. Provide the required [log on information](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) and click **[!UICONTROL Submit]**.
