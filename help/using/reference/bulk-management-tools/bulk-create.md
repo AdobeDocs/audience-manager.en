@@ -32,9 +32,8 @@ To create objects in bulk, open the [!UICONTROL Bulk Management Tools] worksheet
 3. Paste the create headers into the first row of the update worksheet.
 4. Paste or type the data you want to change into a corresponding column based on the header label.
 5. In the worksheet toolbar, click the create button that matches the item you're updating.
-This action opens the [!UICONTROL Account Information] dialog box. 
-   
-1. Provide the required [log on information](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) and click **[!UICONTROL Submit]**.
+This action opens the [!UICONTROL Account Information] dialog box.  
+6. Provide the required [log on information](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) and click **[!UICONTROL Submit]**.
 
 The worksheet creates a [!UICONTROL Results] column. The [!UICONTROL Results] column returns the JSON response for a successful operation. See the [REST APIs](../../api/rest-api-main/rest-api-main.md) for examples. Before entering data, your bulk create worksheet should look similar to the following example. Note, all the different create options are not shown here. This is included to help you understand what a completed worksheet could look like. 
 

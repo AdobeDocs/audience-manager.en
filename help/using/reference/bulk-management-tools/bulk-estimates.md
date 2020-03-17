@@ -29,8 +29,7 @@ To make bulk updates, open the [!UICONTROL Bulk Management Tools] worksheet and:
 4. Paste or type the data you want to change into a corresponding column based on the header label.
 5. In the worksheet toolbar, click the create button that matches the item you're updating.
 This action opens the [!UICONTROL Account Information] dialog box. 
-   
-1. Provide the required [log on information](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) and click **[!UICONTROL Submit]**.
+6. Provide the required [log on information](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) and click **[!UICONTROL Submit]**.
 
 This action creates a [!UICONTROL Response] column in the worksheet that contains estimated segment size data. Before entering data, your bulk estimate worksheet should look similar to the following: 
 
