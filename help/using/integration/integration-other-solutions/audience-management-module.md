@@ -14,20 +14,20 @@ Follow the steps in this tutorial to forward [!DNL Analytics] data to Audience M
 
 >[!TIP]
 >
->We recommend you use [!UICONTROL Adobe Launch] to forward [!UICONTROL Analytics] data into Audience Manager. By using [!UICONTROL Launch], you do not have to manually copy code into [!UICONTROL AppMeasurement], as shown on this page.
+>We recommend you use [!DNL Adobe Experience Platform Launch] to forward [!UICONTROL Analytics] data into Audience Manager. By using [!UICONTROL Launch], you do not have to manually copy code into [!UICONTROL AppMeasurement], as shown on this page.
 
 ## Prerequisites {#prereqs}
 
 In addition to enabling the extensions or implementing the code described in this document, you must also:
 
-* Implement the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
+* Implement the [Adobe Experience Platform Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
 * Enable [Server-Side Forwarding](https://docs.adobe.com/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html) for report suites in the [!UICONTROL Adobe Analytics Admin Console].
 
 ## Implementation {#implementation}
 
 There are two methods to implement data forwarding from Adobe Analytics to Audience Manager, depending on the tag management solution that you use.
 
-### Implementation using Adobe Launch
+### Implementation using Adobe Experience Platform Launch
 
 Adobe recommends you use the [Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) extension to instrument Adobe Analytics and Audience Manager on your properties. In this case, you do not need to manually copy any code. Instead, you must enable data sharing in the Analytics Launch extension, as shown in the image below. See also the [Adobe Analytics Extension](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html#adobe-audience-manager) documentation.
 
@@ -79,14 +79,14 @@ The following table defines important variables in the code sample.
 |`partner`|Required. This is a partner name assigned to you by Adobe. It is sometimes referred to as your "partner ID" or "partner subdomain."  Contact your Adobe consultant or [Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html) if you don't know your partner name.|
 |`containerNSID`|Required. Most customers can just set  `"containerNSID":0` . However, if your company needs to customize ID syncs with a different container, you can specify that container ID here.|
 |`uuidCookie`|Optional. This configuration lets you set an Adobe  cookie in the first-party domain. This cookie contains the [UUID](../../reference/ids-in-aam.md) .|
-| `visitorService` - `namespace`| Required. The `namespace` parameter is required if you use the AudienceManagement module bundled with [!UICONTROL AppMeasurement] version 2.10 or newer. This [!UICONTROL AudienceManagement] module requires that you use [!UICONTROL Experience Cloud ID Service] 3.3 or newer. <br>&nbsp;The [!UICONTROL Experience Cloud Organization ID] is the ID that a company is provided with upon signing up for the [!UICONTROL Experience Cloud]. Find out your company's Organization ID in [Organizations and Account Linking](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html). |
+| `visitorService` - `namespace`| Required. The `namespace` parameter is required if you use the AudienceManagement module bundled with [!UICONTROL AppMeasurement] version 2.10 or newer. This [!UICONTROL AudienceManagement] module requires that you use [!UICONTROL Adobe Experience Platform Identity Service] 3.3 or newer. <br>&nbsp;The [!UICONTROL Experience Cloud Organization ID] is the ID that a company is provided with upon signing up for the [!UICONTROL Experience Cloud]. Find out your company's Organization ID in [Organizations and Account Linking](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html). |
 
 ## Results: Data Forwarding to Audience Manager {#results-data-forwarding}
 
 Your [!DNL Analytics] implementation sends data to Audience Manager after you have:
 
 * Enabled [!UICONTROL Server-Side Forwarding] (talk to your consultant about this feature);
-* Implemented the Experience Cloud ID service;
+* Implemented the Adobe Experience Platform Identity Service;
 * Followed the implementation steps in this tutorial.
 
 This process sends data to [!DNL Audience Manager]:

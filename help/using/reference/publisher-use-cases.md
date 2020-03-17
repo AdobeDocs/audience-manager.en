@@ -111,7 +111,7 @@ This use case works with first-party, Analytics data sent to a demand-side platf
    <td colname="col3"> <p> 
      <ul id="ul_EE7A86BFFE534A59A9F8C7CAF46A31E5"> 
       <li id="li_D399592D9D904865BD319DC3621B832B">Create an "Income Tax Researchers" segment. </li> 
-      <li id="li_D28AC8BA5E194176BB8736B089B3C2F7">Align on-side ad campaign sold to Turbo Tax with an off-site reach extension campaign through a DSP such as Adobe Media Optimizer. </li> 
+      <li id="li_D28AC8BA5E194176BB8736B089B3C2F7">Align on-side ad campaign sold to Turbo Tax with an off-site reach extension campaign through a DSP such as Adobe Advertising Cloud. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
