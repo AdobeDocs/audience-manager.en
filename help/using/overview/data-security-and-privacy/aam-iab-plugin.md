@@ -16,7 +16,7 @@ Adobe provides you with the means to manage and communicate your users' privacy 
 
 This article describes the Audience Manager use cases that support the IAB TCF and how to implement IAB TCF support in Audience Manager. Audience Manager is registered in the IAB TCF with the vendor ID 565.
 
-The Audience Manager Plug-in for IAB TCF utilizes the [Opt-in functionality](https://marketing.adobe.com/resources/help/en_US/mcvid/iab.html), which is, in turn, part of the Adobe [Experience Cloud ID Service (ECID)](https://marketing.adobe.com/resources/help/en_US/mcvid/) library.
+The Audience Manager Plug-in for IAB TCF utilizes the [Opt-in functionality](https://marketing.adobe.com/resources/help/en_US/mcvid/iab.html), which is, in turn, part of the Adobe [Adobe Experience Platform Identity Service (ECID)](https://marketing.adobe.com/resources/help/en_US/mcvid/) library.
 
 ## Scope and Limitations {#scope-and-limitations}
 
@@ -33,7 +33,7 @@ The IAB TCF support described in this article represents the first phase in Audi
 
 You must meet the following prerequisites to use the IAB TCF with Audience Manager:
 
-1. You must be using Experience Cloud ID Service (ECID) version 4.1 or newer. [Download](https://github.com/Adobe-Marketing-Cloud/id-service/releases) our latest ECID release.
+1. You must be using Adobe Experience Platform Identity Service (ECID) version 4.1 or newer. [Download](https://github.com/Adobe-Marketing-Cloud/id-service/releases) our latest ECID release.
 1. You must be using Audience Manager Data Integration Library (DIL) version 9.0 or newer, downloadable from [here](https://github.com/Adobe-Marketing-Cloud/dil/releases). Read about [DIL in the Audience Manager documentation](../..//dil/dil-overview.md).
 1. Alternatively, if you use Server-Side Forwarding (SSF) to import data into Audience Manager, you must upgrade to the latest version of AppMeasurement. Download AppMeasurement using the [Analytics Code Manager](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html).
 1. You must be using a Consent Management Platform (CMP), either commercial or your own, that supports the IAB TCF, and is registered with the IAB TCF. See the list of [CMPs registered within the IAB framework](https://advertisingconsent.eu/cmp-list/).
@@ -42,7 +42,7 @@ You must meet the following prerequisites to use the IAB TCF with Audience Manag
 
 To enable the IAB TCF support in Audience Manager, read our documentation on [how to set up IAB with Opt-in](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/iab.html).
 
-This is easiest done by using [Adobe Launch](https://docs.adobelaunch.com/) to instrument ECID Opt-in on your properties. Read the documentation for the [ECID Opt-in extension](https://docs.adobelaunch.com/extension-reference/web/experience-cloud-id-service-extension#opt-in) to learn how to set up the Launch extension.
+This is easiest done by using [Adobe Experience Platform Launch](https://docs.adobelaunch.com/) to instrument ECID Opt-in on your properties. Read the documentation for the [ECID Opt-in extension](https://docs.adobelaunch.com/extension-reference/web/experience-cloud-id-service-extension#opt-in) to learn how to set up the Launch extension.
 
 ## User choice workflow when using the IAB framework {#user-choice-workflow}
 
@@ -143,7 +143,7 @@ Audience Manager addresses opt-out requests in a [separate article in our docume
 
 ## Additional resources {#additional-resources}
 
-* [Experience Cloud ID Service Opt-in](https://marketing.adobe.com/resources/help/en_US/mcvid/overview.html)
+* [Adobe Experience Platform Identity Service Opt-in](https://marketing.adobe.com/resources/help/en_US/mcvid/overview.html)
 * [IAB Europe GDPR Transparency and Consent Framework](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/)
 * [IAB Europe GDPR Transparency and Consent Framework Technical Specifications](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/Consent%20string%20and%20vendor%20list%20formats%20v1.1%20Final.md)
 * [IAB TCF plugin - video demonstration](https://helpx.adobe.com/audience-manager/kt/using/iab-tcf-support-audience-manager-technical-video-implement.html)

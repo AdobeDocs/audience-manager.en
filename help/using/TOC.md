@@ -223,7 +223,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
         + DCS APIs{#dcs-apis}
             + [DCS APIs for Server-to-Server Data Transfers](api/dcs-intro/dcs-s2s/dcs-s2s.md)
             + [Get User IDs and Regions From a DCS Response](api/dcs-intro/dcs-s2s/dcs-aam-ids.md)
-            + [Get User IDs and Regions Through the Experience Cloud ID Service](api/dcs-intro/dcs-s2s/dcs-mcid-ids.md)
+            + [Get User IDs and Regions Through the Adobe Experience Platform Identity Service](api/dcs-intro/dcs-s2s/dcs-mcid-ids.md)
             + [Making Server-to-Server DCS API Calls](api/dcs-intro/dcs-s2s/dcs-s2s-calls.md)
         + DCS API Reference{#dcs-api-reference}
             + [DCS API Reference Overview](api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md)

@@ -60,7 +60,7 @@ As a best practice, set up your [!DNL Audience Manager]- [!DNL Analytics] integr
 
 * Put [!UICONTROL DIL] directly in the `s_code`.
 
-* Serve [!UICONTROL DIL] and the `s_code` through [!DNL Adobe Launch] or [!DNL Adobe DTM].
+* Serve [!UICONTROL DIL] and the `s_code` through [!DNL Adobe Experience Platform Launch] or [!DNL Adobe DTM].
 
 See [Data Integration Library (DIL) API](../dil/dil-overview.md).
 

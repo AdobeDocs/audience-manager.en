@@ -97,7 +97,7 @@ To complete the [!UICONTROL Proflie Merge Rule Setup] section:
 
 ## Configure Merge Rule Code {#configure-merge-rule-code}
 
-Follow these instructions to set up the [!UICONTROL Experience Cloud ID Service], [!UICONTROL DIL], and mobile [!DNL SDK] code to work with your merge rules.
+Follow these instructions to set up the [!UICONTROL Adobe Experience Platform Identity Service], [!UICONTROL DIL], and mobile [!DNL SDK] code to work with your merge rules.
 
 <!-- merge-rules-configure-code.xml -->
 
@@ -105,13 +105,13 @@ Follow these instructions to set up the [!UICONTROL Experience Cloud ID Service]
 
 You must set up a [cross-device data source](#create-data-source) and [profile merge rules](#create-profile-merge-rule) *before* completing these procedures.
 
-## For Experience Cloud ID Service Customers {#id-service-customers}
+## For Adobe Experience Platform Identity Service Customers {#id-service-customers}
 
-The [!UICONTROL Experience Cloud ID Service] and the latest version of [DIL](../../dil/dil-overview.md) are recommended when working with [!UICONTROL Profile Merge Rules]. However, you don't have to use the [!UICONTROL Experience Cloud ID Service] to work with this feature. If you're just using [!UICONTROL DIL], see the [legacy DIL section](#legacy-dil) below.
+The [!UICONTROL Adobe Experience Platform Identity Service] and the latest version of [DIL](../../dil/dil-overview.md) are recommended when working with [!UICONTROL Profile Merge Rules]. However, you don't have to use the [!UICONTROL Adobe Experience Platform Identity Service] to work with this feature. If you're just using [!UICONTROL DIL], see the [legacy DIL section](#legacy-dil) below.
 
 ### Configure the Set Customer ID Function
 
-When working with the [!UICONTROL Experience Cloud ID Service], the `setCustomerIDs` function passes declared IDs to [!DNL Audience Manager]. To use a profile merge rule, you must modify `setCustomerIDs` to use the integration code specified when you created a cross-device data source. For example, say you've created a cross-device data source with the integration code `my_datasource_ic`. To pass in a declared ID, you would add the integration code to the visitor ID function as shown in the modified code sample below.
+When working with the [!UICONTROL Adobe Experience Platform Identity Service], the `setCustomerIDs` function passes declared IDs to [!DNL Audience Manager]. To use a profile merge rule, you must modify `setCustomerIDs` to use the integration code specified when you created a cross-device data source. For example, say you've created a cross-device data source with the integration code `my_datasource_ic`. To pass in a declared ID, you would add the integration code to the visitor ID function as shown in the modified code sample below.
 
 #### Generic code sample
 
@@ -154,7 +154,7 @@ See the [Configure SDKs](#configure-sdks-legacy-dil) section below.
 
 ## Legacy DIL {#legacy-dil}
 
-If you're not using [!DNL Experience Cloud ID Service] yet, you really ought to. But, we understand that moving to new code requires careful thought and testing. In these cases, check your `DIL.create` function to make sure this is set up properly as shown in the code sample below.
+If you're not using [!DNL Adobe Experience Platform Identity Service] yet, you really ought to. But, we understand that moving to new code requires careful thought and testing. In these cases, check your `DIL.create` function to make sure this is set up properly as shown in the code sample below.
 
 ```js
 DIL.create({
