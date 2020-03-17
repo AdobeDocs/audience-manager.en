@@ -86,7 +86,7 @@ This technical documentation guide provides self-help assistance for Audience Ma
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
      <li><a href="/help/using/api/rest-api-main/aam-api-getting-started.md">Getting Started with REST APIs</a></li>
      <li><a href="/help/using/api/dcs-intro/dcs-event-calls/dcs-event-calls.md">Get started with the DCS API</a></li>
-     <li><a href="https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/adobe-audience-manager-extension.html">Add the Audience Manager extension to Adobe Launch</a></li>
+     <li><a href="https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/adobe-audience-manager-extension.html">Add the Audience Manager extension to Adobe Experience Platform Launch</a></li>
     <li><a href="https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-audience-manager">Add Audience Manager to your app</a></li>
      </ul> </p>
     </td>
@@ -115,7 +115,7 @@ This technical documentation guide provides self-help assistance for Audience Ma
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
      <li><a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html">Getting Started with REST APIs</a></li>
      <li><a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-event-calls/dcs-event-calls.html">Get started with the DCS API</a></li>
-     <li><a href="https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/adobe-audience-manager-extension.html">Add the Audience Manager extension to Adobe Launch</a></li>
+     <li><a href="https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/adobe-audience-manager-extension.html">Add the Audience Manager extension to Adobe Experience Platform Launch</a></li>
     <li><a href="https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-audience-manager">Add Audience Manager to your app</a></li>
      </ul> </p>
     </td>

@@ -41,7 +41,7 @@ r_dil_create.xml
   <tr> 
    <td colname="col1"> <p> <code> containerNSID </code> </p> </td> 
    <td colname="col2"> <p>Integer </p> </td> 
-   <td colname="col3"> <p>This property sets the container ID used by <span class="keyword"> Audience Manager </span> for ID syncs. You would set <code> containerNSID </code> if you have <span class="wintitle"> DIL </span> deployed across multiple sites. Each of these sites will have their own container ID and ID syncs. When you have only 1 site, the container ID is 0 by default and you don't need to set this properly. Contact your consultant to get a list of your sites and their container IDs. </p> <p>In the <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Experience Cloud ID service </a>, the property <code> idSyncContainerID </code> corresponds to <code> containerNSID </code> in <span class="wintitle"> DIL </span>. Note the following if you're using <span class="wintitle"> DIL </span> <i>and</i> the ID service across multiple sites: </p> <p> 
+   <td colname="col3"> <p>This property sets the container ID used by <span class="keyword"> Audience Manager </span> for ID syncs. You would set <code> containerNSID </code> if you have <span class="wintitle"> DIL </span> deployed across multiple sites. Each of these sites will have their own container ID and ID syncs. When you have only 1 site, the container ID is 0 by default and you don't need to set this properly. Contact your consultant to get a list of your sites and their container IDs. </p> <p>In the <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Adobe Experience Platform Identity Service </a>, the property <code> idSyncContainerID </code> corresponds to <code> containerNSID </code> in <span class="wintitle"> DIL </span>. Note the following if you're using <span class="wintitle"> DIL </span> <i>and</i> the ID service across multiple sites: </p> <p> 
      <ul id="ul_FF17004C21FC408BB8C8CCE670E45F37"> 
       <li id="li_FFB23BB3CD224678B0A1CF3731F6A206">For each site, set the same container IDs on <code> containerNSID </code> and <code> idSyncContainerID </code>. </li> 
       <li id="li_CC932D3A0D154F6C9566EF31260A14CF">Both <span class="wintitle"> DIL </span> and the ID service will try to send ID syncs to our data collection iFrame. However, the iFrame ensures that <span class="wintitle"> DIL </span> won't fire an ID sync. This prevents duplication. </li> 
@@ -58,7 +58,7 @@ r_dil_create.xml
     <ul id="ul_75E64D7DDBD14670BB0BC7819F72036C"> 
      <li id="li_43C7F0EAC5B24F07BBF4ADAB4B0142B7"> <code> dpid </code>: Data partner ID assigned to you by <span class="keyword"> Audience Manager </span>. </li> 
      <li id="li_3BD52ADEA1E24B41B51AFA95D71DD1FC"> <code> dpuuid </code>: Your unique ID for a user. </li> 
-    </ul> <p> <p>Important:  Only use un-encoded values for your IDs. Encoding will create double-encoded identifiers. </p> </p> <p> <p>Note:  If you use the <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Experience Cloud ID Service </a>, set customer IDs with the <code> setCustomerIDs </code> method instead of <span class="wintitle"> DIL </span>. See <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid-authenticated-state.html" format="https" scope="external"> Customer IDs and Authentication States </a>. </p> </p> </td> 
+    </ul> <p> <p>Important:  Only use un-encoded values for your IDs. Encoding will create double-encoded identifiers. </p> </p> <p> <p>Note:  If you use the <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Adobe Experience Platform Identity Service </a>, set customer IDs with the <code> setCustomerIDs </code> method instead of <span class="wintitle"> DIL </span>. See <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid-authenticated-state.html" format="https" scope="external"> Customer IDs and Authentication States </a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> delayAllUntilWindowLoad </code> </p> </td> 
@@ -73,12 +73,12 @@ r_dil_create.xml
   <tr> 
    <td colname="col1"> <p> <code> disableDestinationPublishingIframe </code> </p> </td> 
    <td colname="col2"> <p>Boolean </p> </td> 
-   <td colname="col3"> <p> <p>Important:  This element has been deprecated with <span class="wintitle"> DIL </span> version 8.0 (released August 2018). Use the <code> visitor.disableIdSyncs </code> <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-disableidsync.html" format="https" scope="external"> function </a> in the Experience Cloud ID Service instead. </p> </p> <p> If <code> true </code>, will not attach the destination publishing IFRAME to the DOM or fire destinations. Default is <code> false </code>. </p> </td> 
+   <td colname="col3"> <p> <p>Important:  This element has been deprecated with <span class="wintitle"> DIL </span> version 8.0 (released August 2018). Use the <code> visitor.disableIdSyncs </code> <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-disableidsync.html" format="https" scope="external"> function </a> in the Adobe Experience Platform Identity Service instead. </p> </p> <p> If <code> true </code>, will not attach the destination publishing IFRAME to the DOM or fire destinations. Default is <code> false </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> disableIDSyncs </code> </p> </td> 
    <td colname="col2"> <p>Boolean </p> </td> 
-   <td colname="col3"> <p> <p>Important:  This element has been deprecated with <span class="wintitle"> DIL </span> version 8.0 (released August 2018). Use the <code> visitor.disableIdSyncs </code> <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-disableidsync.html" format="https" scope="external"> function </a> in the Experience Cloud ID Service instead. </p> </p> <p>Disables ID synchronization. You must disable ID syncs when using DIL v6.2+ and the Visitor ID Service. The <code> visitorService </code> function (see sample code below) takes care of this operation. </p> </td> 
+   <td colname="col3"> <p> <p>Important:  This element has been deprecated with <span class="wintitle"> DIL </span> version 8.0 (released August 2018). Use the <code> visitor.disableIdSyncs </code> <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-disableidsync.html" format="https" scope="external"> function </a> in the Adobe Experience Platform Identity Service instead. </p> </p> <p>Disables ID synchronization. You must disable ID syncs when using DIL v6.2+ and the Visitor ID Service. The <code> visitorService </code> function (see sample code below) takes care of this operation. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> enableErrorReporting </code> </p> </td> 
@@ -88,7 +88,7 @@ r_dil_create.xml
   <tr> 
    <td colname="col1"> <p> <code> iframeAkamaiHTTPS </code> </p> </td> 
    <td colname="col2"> <p>Boolean </p> </td> 
-   <td colname="col3"> <p> <p>Important:  This element has been deprecated with <span class="wintitle"> DIL </span> version 8.0 (released August 2018). Use the <code> visitor.idSyncSSLUseAkamai </code> <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-idSyncSSLUseAkamai.html" format="https" scope="external"> function </a> in the Experience Cloud ID Service instead. </p> </p> <p> Specifies if the destination publishing template should use Akamai for HTTPS connections. Enabled on a per-partner basis. </p> </td> 
+   <td colname="col3"> <p> <p>Important:  This element has been deprecated with <span class="wintitle"> DIL </span> version 8.0 (released August 2018). Use the <code> visitor.idSyncSSLUseAkamai </code> <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-idSyncSSLUseAkamai.html" format="https" scope="external"> function </a> in the Adobe Experience Platform Identity Service instead. </p> </p> <p> Specifies if the destination publishing template should use Akamai for HTTPS connections. Enabled on a per-partner basis. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> mappings </code> </p> </td> 
@@ -118,7 +118,7 @@ r_dil_create.xml
   <tr> 
    <td colname="col1"> <p> <code> visitorService </code> </p> </td> 
    <td colname="col2"> <p>Object </p> </td> 
-   <td colname="col3"> <p>Required with <span class="wintitle"> DIL </span> 6.2 or greater. </p> <p> DIL relies on the <code> setCustomerIDs </code> function in the <span class="wintitle"> Experience Cloud ID Service </span> to pass declared IDs into <span class="keyword"> Audience Manager </span>. See <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid-authenticated-state.html" format="https" scope="external"> Customer IDs and Authentication States </a> for more information. </p> </td> 
+   <td colname="col3"> <p>Required with <span class="wintitle"> DIL </span> 6.2 or greater. </p> <p> DIL relies on the <code> setCustomerIDs </code> function in the <span class="wintitle"> Adobe Experience Platform Identity Service </span> to pass declared IDs into <span class="keyword"> Audience Manager </span>. See <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid-authenticated-state.html" format="https" scope="external"> Customer IDs and Authentication States </a> for more information. </p> </td> 
   </tr> 
  </tbody> 
 </table>
