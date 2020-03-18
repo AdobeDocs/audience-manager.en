@@ -34,6 +34,18 @@ Before you can use [!DNL People-Based Destinations] to send your first-party aud
     > When configuring the permissions for Adobe Experience Cloud, you must enable the **Manage campaigns** permission. This is required for the [!DNL People-Based Destinations] integration.
 3. Read and sign the [!DNL Facebook Custom Audiences] Terms of Service. To do this, go to `https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]`, where `accountID` is your [!DNL Facebook Ad Account ID].
 
+### [!DNL LinkedIn]
+
+>[!IMPORTANT]
+>
+> The [!DNL People-Based Destinations] integration with [!DNL LinkedIn] is currently in the beta testing phase, and is only available to a limited number of customers. 
+> 
+> Once the beta testing ends, this integration will be available to all Audience Manager customers who signed up for [!DNL People-Based Destinations].
+
+Before you can use [!DNL People-Based Destinations] to send your first-party audience segments to [!DNL LinkedIn], make sure your [!DNL LinkedIn Campaign Manager] account has the [!DNL Creative Manager] or higher permission level.
+
+To learn how to edit your [!DNL LinkedIn Campaign Manager] user permissions, see [Add, Edit, and Remove User Permissions on Advertising Accounts](https://www.linkedin.com/help/lms/answer/5753)
+
 ## Data Onboarding {#data-onboarding}
 
 Data ingestion for [!DNL People-Based Destinations] currently supports up to 10 hashed email addresses linked to one customer ID ([!DNL CRM ID]), per batch transfer. Uploading more than 10 hashed email addresses linked to one customer ID causes Audience Manager to ingest 10 of them, in no specific order.
