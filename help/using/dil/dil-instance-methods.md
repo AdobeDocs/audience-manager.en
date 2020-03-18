@@ -500,11 +500,11 @@ Works with [!UICONTROL DIL] versions 2.10 and 3.1 or higher.
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.idSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>Between different data partners and Audience Manager. For example, partner x would use this to synchronize a user ID with partner y and then send that to Audience Manager. </p> <p> <p><b>Important:</b>  This method is deprecated. Please use the <code> idSyncByURL </code> method of the Experience Cloud ID Service instance. </p> </p> </td> 
+   <td colname="col2"> <p>Between different data partners and Audience Manager. For example, partner x would use this to synchronize a user ID with partner y and then send that to Audience Manager. </p> <p> <p><b>Important:</b>  This method is deprecated. Please use the <code> idSyncByURL </code> method of the Adobe Experience Platform Identity Service instance. </p> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.aamIdSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>When you already know the user ID and want to send it to Audience Manager. </p> <p> <p><b>Important:</b>  This method is deprecated. Please use the <code> idSyncByDataSource </code> method of the Experience Cloud ID Service instance. </p> </p> </td> 
+   <td colname="col2"> <p>When you already know the user ID and want to send it to Audience Manager. </p> <p> <p><b>Important:</b>  This method is deprecated. Please use the <code> idSyncByDataSource </code> method of the Adobe Experience Platform Identity Service instance. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -712,7 +712,7 @@ dataLib.api.traits([<i>123, 456, 789</i>]).useImageRequest().submit();
 >
 >* [Name Requirements for Key Variables](../features/traits/trait-key-name-requirements.md)
 >* [Prefix Requirements for Key Variables](../features/traits/trait-variable-prefixes.md)
->* [Synchronization Functions in the Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-idsync.html)
+>* [Synchronization Functions in the Adobe Experience Platform Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-idsync.html)
 >* [DIL create](../dil/dil-class-overview/dil-create.md#dil-create)
->* [Experience Cloud ID Service: UseCORSOnly](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/use-cors-only.html)
->* [CORS Support in the Experience Cloud ID Service](https://docs.adobe.com/content/help/en/id-service/using/reference/cors.html)
+>* [Adobe Experience Platform Identity Service: UseCORSOnly](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/use-cors-only.html)
+>* [CORS Support in the Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/reference/cors.html)

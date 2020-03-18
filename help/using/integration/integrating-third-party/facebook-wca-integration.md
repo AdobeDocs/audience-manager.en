@@ -24,10 +24,10 @@ This page illustrates the process of creating Facebook Website Custom Audiences 
 
 1. Facebook Ad Account
 2. Audience Manager segments, ready to assign to your new Facebook destination. Here is [how to create a segment](/help/using/features/segments/segment-builder.md) in the Audience Manager UI.
-3. Adobe Experience Cloud ID Service (ECID) Version 4.1.0 or newer. Download the latest version **[here](https://github.com/Adobe-Marketing-Cloud/id-service/releases)**. 
+3. Adobe Adobe Experience Platform Identity Service (ECID) Version 4.1.0 or newer. Download the latest version **[here](https://github.com/Adobe-Marketing-Cloud/id-service/releases)**. 
 4. Audience Manager Data Integration Library (DIL) version 9.0 or newer, downloadable from **[here](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. Alternatively, if you use [Server-Side Forwarding (SSF)](https://marketing.adobe.com/resources/help/en_US/reference/ssf.html) to import data into Audience Manager, you must use AppMeasurement version 2.12 or newer. Download AppMeasurement using the [Analytics Code Manager](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html).
 
-We recommend that you install or upgrade the libraries in steps 3 and 4 using [Adobe Launch](https://docs.adobelaunch.com/) or [Adobe Dynamic Tag Management](https://marketing.adobe.com/resources/help/en_US/dtm/).
+We recommend that you install or upgrade the libraries in steps 3 and 4 using [Adobe Experience Platform Launch](https://docs.adobelaunch.com/) or [Adobe Dynamic Tag Management](https://marketing.adobe.com/resources/help/en_US/dtm/).
 
 ## Step 1 - Create a Facebook Destination in Audience Manager {#step-1-create-facebook-destination}
 

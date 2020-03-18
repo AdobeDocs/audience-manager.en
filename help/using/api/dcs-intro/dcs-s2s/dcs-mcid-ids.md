@@ -1,19 +1,19 @@
 ---
 description: ID service customers should refer to this section for information on how to read the visitor cookie for the IDs required to make DCS API calls.
 seo-description: ID service customers should refer to this section for information on how to read the visitor cookie for the IDs required to make DCS API calls.
-seo-title: Get User IDs and Regions Through the Experience Cloud ID Service
+seo-title: Get User IDs and Regions Through the Adobe Experience Platform Identity Service
 solution: Audience Manager
-title: Get User IDs and Regions Through the Experience Cloud ID Service
+title: Get User IDs and Regions Through the Adobe Experience Platform Identity Service
 uuid: 80de6cf2-5d9e-4ef8-a0f2-d53b5d574c89
 ---
 
-# Get User IDs and Regions Through the Experience Cloud ID Service {#get-user-ids-and-regions-through-the-experience-cloud-id-service} 
+# Get User IDs and Regions Through the Adobe Experience Platform Identity Service {#get-user-ids-and-regions-through-the-experience-cloud-id-service} 
 
 ID service customers should refer to this section for information on how to read the visitor cookie for the IDs required to make [!UICONTROL DCS] API calls.
 
 ## Get the User ID from the ID Service Cookie {#get-user-ids-from-service-cookie}
 
-The [Experience Cloud ID service](https://marketing.adobe.com/resources/help/en_US/mcvid/) assigns visitor and region IDs to users who come to your website. These IDs identify users across all the solutions in the [!DNL Experience Cloud] and they are required if you want to make [!UICONTROL DCS] calls.
+The [Adobe Experience Platform Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/) assigns visitor and region IDs to users who come to your website. These IDs identify users across all the solutions in the [!DNL Experience Cloud] and they are required if you want to make [!UICONTROL DCS] calls.
 
 * The [!UICONTROL user ID] is required to identify and associate data with a particular visitor.
 * The [!UICONTROL region ID] is required because it is tied to a regional server name, which you need to send data to the [!UICONTROL DCS]. The [!UICONTROL DCS] stores information in data centers that are geographically closest to site visitors. See [DCS Region IDs, Locations, and Host Names](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
