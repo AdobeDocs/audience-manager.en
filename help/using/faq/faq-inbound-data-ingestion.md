@@ -158,7 +158,7 @@ The following use cases demonstrate how these file types affect stored visitor p
 |Use Case|Description|
 |---|---|
 |Incremental and Full|<ul><li>Day 1 `.sync` file contents: `visitor123 = a,b,c`</li><li>Day 2 `.overwrite` file contents: `visitor123 = c,d,e`</li><li>Day 3 visitor profile ID 123 contents: `c,d,e`</li></ul>|
-|Incremental Only|<ul>Day 1 `.sync` file contents: `visitor123 = a,b,c`<li></li><li>Day 2 `.sync` file contents: `visitor123 = c,d,e`</li><li>Day 3 visitor profile ID 123 contents: `a,b,c,d,e`</li></ul>|
+|Incremental Only|<ul><li>Day 1 `.sync` file contents: `visitor123 = a,b,c`</li><li>Day 2 `.sync` file contents: `visitor123 = c,d,e`</li><li>Day 3 visitor profile ID 123 contents: `a,b,c,d,e`</li></ul>|
 
 For more information about full and incremental file types, see:
 
