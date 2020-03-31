@@ -19,7 +19,7 @@ The table below lists the [ID mapping](../../integration/sending-audience-data/b
 |ID Mapping | Maximum Limit |
 |-----------|-------------- |
 |Device Advertising ID ([DAID](../../reference/ids-in-aam.md)) to Cross-device ID ([DPUUID]((../../reference/ids-in-aam.md))) | 100 Device Advertising IDs ([DAID](../../reference/ids-in-aam.md)) to 1 Cross-device ID ([DPUUID]((../../reference/ids-in-aam.md))) |
-|Cross-device ID ([DPUUID]((../../reference/ids-in-aam.md))) to Device Advertising ID ([DAID](../../reference/ids-in-aam.md)) | 10 Cross-device IDs ([DPUUID]((../../reference/ids-in-aam.md))) to 1 Device Advertising ID ([DAID](../../reference/ids-in-aam.md)), per each [DPID]((../../reference/ids-in-aam.md)) |
+|Cross-device ID ([DPUUID](../../reference/ids-in-aam.md)) to Device Advertising ID ([DAID](../../reference/ids-in-aam.md)) | 10 Cross-device IDs ([DPUUID](../../reference/ids-in-aam.md)) to 1 Device Advertising ID ([DAID](../../reference/ids-in-aam.md)), per each [DPID](../../reference/ids-in-aam.md) |
 |Cookie/browser ID to cookie/browser ID | 1000 cookie/browser  IDs to 1 cookie/browser ID |
 
 ## Item Limits {#item-limits}
