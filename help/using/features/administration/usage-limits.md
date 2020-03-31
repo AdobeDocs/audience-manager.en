@@ -14,12 +14,12 @@ Audience Manager sets a maximum limit on the number of traits, segments, destina
 
 ## ID Mapping Limits {#id-mapping-limits}
 
-The table below lists the [ID mapping](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) limits for device IDs. Once an ID reaches any of the limits below, Audience Manager adds new ID mappings based on a [!DNL FIFO] (first in, first out) logic, by removing the oldest stored ID mapping, and adds the new one. Refer to [Index of IDs](../../reference/ids-in-aam.md) in Audience Manager for details on the IDs supported by Audience Manager.
+The table below lists the [ID mapping](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) limits for device IDs. Once an ID reaches any of the limits below, Audience Manager adds new ID mappings based on a [!DNL FIFO] (first in, first out) logic, by removing the oldest stored ID mapping, and adding the new one. Refer to [Index of IDs](../../reference/ids-in-aam.md) in Audience Manager for details on the IDs supported by Audience Manager.
 
 |ID Mapping | Maximum Limit |
 |-----------|-------------- |
-|Device Advertising ID (DAID) to Cross-device ID (CRM ID) | 100 Device Advertising IDs (DAIDs) to 1 Cross-device ID (CRM ID) |
-|Cross-device ID (CRM ID) to Device Advertising ID (DAID) | 10 Cross-device IDs (CRM IDs) to 1 Device Advertising ID (DAID) |
+|Device Advertising ID ([DAID](../../reference/ids-in-aam.md)) to Cross-device ID ([DPUUID](../../reference/ids-in-aam.md)) | 100 Device Advertising IDs ([DAID](../../reference/ids-in-aam.md)) to 1 Cross-device ID ([DPUUID](../../reference/ids-in-aam.md)) |
+|Cross-device ID ([DPUUID](../../reference/ids-in-aam.md)) to Device Advertising ID ([DAID](../../reference/ids-in-aam.md)) | 10 Cross-device IDs ([DPUUID](../../reference/ids-in-aam.md)) to 1 Device Advertising ID ([DAID](../../reference/ids-in-aam.md)), per each [DPID](../../reference/ids-in-aam.md) |
 |Cookie/browser ID to cookie/browser ID | 1000 cookie/browser  IDs to 1 cookie/browser ID |
 
 ## Item Limits {#item-limits}
