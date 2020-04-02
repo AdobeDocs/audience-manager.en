@@ -49,6 +49,10 @@ As an advertiser, I want to classify my first-party audience in real time, so th
 
 As a marketer, I want to predict which customer journey phase my website visitors are in, such as discovery, engagement, purchase or retention, so that I can target them accordingly.
 
+### Use Case #6
+
+As a media company, I want to categorize my audience, so that I can sell my advertising space at premium pricing, while offering my visitors relevant ads.
+
 ## How Predictive Audiences Models Work
 
 When you create a [!UICONTROL Predictive Audiences] model, you go through three steps:
@@ -59,9 +63,12 @@ When you create a [!UICONTROL Predictive Audiences] model, you go through three 
 
 ### Selection Criteria for Personas {#selection-personas}
 
-You can choose any of your first-party traits or segments to define your personas. You should choose your traits or segments so that each persona has at least a few hundred user profiles, and each user profile has a rich set of traits for the algorithm to learn from.
+You can choose any of your first-party traits or segments to define your personas. However, for optimal results, here's a set of recommended best practices:
 
-Make sure you are capturing granular traits across your digital properties. For optimal results, the overlap amongst personas should be minimal.
+* Choose your persona traits or segments so that each persona has at least a few hundred user profiles.
+* We recommend choosing traits for your personas, instead of segments. If you must use segments, make sure that your segments consist of simple segment rules consisting of 1 to 3 traits.
+* Choose baseline traits or segments which have minimal overlap.
+* Make sure you are capturing granular traits across your digital properties.
 
 ### Selection Criteria for Target Audience {#selection-audience}
 
@@ -109,7 +116,7 @@ Predictive segments created by [!UICONTROL Predictive Audiences] models inherit 
 
 1. The first-party data source that you choose when building the model.
 2. The first-party data sources of baselines. Specifically, the union of the data export controls of the baseline traits or segments.
-3. The first-party data sources of your target audience. Specifically, the union of the data export controls of all the traits or segments that make up your target audience.
+3. The first-party data sources of your target audience. Specifically, the data export controls of the traits or segments that make up your target audience.
 
 The newly created predictive traits and segments will have the same privacy restrictions as the union of the first-party data sources described above.
 
