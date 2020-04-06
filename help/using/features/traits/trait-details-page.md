@@ -43,8 +43,10 @@ The [!UICONTROL Trait Graph] provides at-a-glance performance metrics for your s
 * **[!UICONTROL Identity Type Breakdown]**: The first three entries show the top three cross-device data sources with the highest population count that have qualified for the trait, in descending order. The fourth entry shows the sum of all the other [!DNL DPUUIDs] ([!DNL CRM IDs]) that qualified for the trait, from the cross-device data sources that are not in the top three. This report appears only if you select Cross-device ID in the [!UICONTROL Show Results By] drop-down menu at the top right side of the page. The default drop-down option is [!UICONTROL Device ID], where this report is not displayed.
 
     ![trait-graph](assets/trait-identity.png)
-    > [!NOTE]
-    > Audience Manager only displays the [!UICONTROL Identity Type Breakdown] report if you have cross-device IDs qualified for the trait.
+
+    >[!NOTE]
+    >
+    >Audience Manager only displays the [!UICONTROL Identity Type Breakdown] report if you have cross-device IDs qualified for the trait.
 
     >[!VIDEO](https://video.tv.adobe.com/v/27977/)
 
