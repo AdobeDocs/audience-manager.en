@@ -59,9 +59,9 @@ The link between the device and the household profile allows Audience Manager to
 
 ## Targeting for People-Based Destinations {#all-cross-device}
 
-> [!IMPORTANT]
+>[!IMPORTANT]
 >
-> This article contains product documentation meant to guide you through the setup and usage of this feature. Nothing contained herein is legal advice. Please consult your own legal counsel for legal guidance.
+>This article contains product documentation meant to guide you through the setup and usage of this feature. Nothing contained herein is legal advice. Please consult your own legal counsel for legal guidance.
 
 This targeting scenario is only available to customers who have purchased the [!DNL People-Based Destinations] add-on. This rule allows marketers to reach customers based on their own, authenticated data.
 

@@ -79,15 +79,19 @@ When building or editing a segment in [Segment Builder](segment-builder.md), you
 2. In the **Traits** drop-down box, add at least one trait to the segment rule.
 3. You can see first-party recommended traits and [!UICONTROL Audience Marketplace] trait recommendations from feeds that you are subscribed to, in the **[!UICONTROL Recommendations]** section. The **[!UICONTROL Recommendations from Marketplace]** section shows you trait recommendations from feeds that you are not subscribed to. All of these recommendations are similar to the traits you added to the segment rule. Scroll down to see all recommended traits.
 4. (Optional) To exclude recommended first-party traits from certain data sources, click the **X** symbol for the data sources you want to exclude.
-    > [!NOTE]
-    >
-    > The excluded data sources are shown just above the list of recommended traits. Click **X** in the grey box to remove the exclusions and see results from the respective data sources again.
-5. To add recommended traits to the segment rule, click the **+** symbol.
 
-> [!IMPORTANT]
-> When adding [!UICONTROL Marketplace] traits to a segment, the traits are only used for segment estimation, until you subscribe to the corresponding data feed. Traits that come from data feeds that you are not subscribed to are marked with a shopping cart icon in the trait list. Click the trait name to go to the data feed page and subscribe to it.
-> ![marketplace-not-subscribed](assets/trait-recommendations-marketplace.png)
-> You can save a segment with third party traits only after you susbcribe to the corresponding data feeds.
+    >[!NOTE]
+    >
+    >The excluded data sources are shown just above the list of recommended traits. Click **X** in the grey box to remove the exclusions and see results from the respective data sources again.
+1. To add recommended traits to the segment rule, click the **+** symbol.
+
+>[!IMPORTANT]
+>
+>When adding [!UICONTROL Marketplace] traits to a segment, the traits are only used for segment estimation, until you subscribe to the corresponding data feed. Traits that come from data feeds that you are not subscribed to are marked with a shopping cart icon in the trait list. Click the trait name to go to the data feed page and subscribe to it.
+>
+>![marketplace-not-subscribed](assets/trait-recommendations-marketplace.png)
+>
+>You can save a segment with third party traits only after you susbcribe to the corresponding data feeds.
 
 ### Existing Segments
 
@@ -95,9 +99,10 @@ When building or editing a segment in [Segment Builder](segment-builder.md), you
 1. Scroll down to the [!UICONTROL Traits] drop-down box.
 1. You can see recommended traits, that are similar to the traits already in the segment rule. Scroll down to see all recommended traits.
 1. (Optional) To exclude recommended traits from certain data sources, click the **X** symbol for the data sources you want to exclude.
-    > [!NOTE]
-    >
-    > The excluded data sources are shown just above the list of recommended traits. Click **X** in the grey box to remove the exclusions and see results from the respective data sources again.
+
+   >[!NOTE]
+   >
+   >The excluded data sources are shown just above the list of recommended traits. Click **X** in the grey box to remove the exclusions and see results from the respective data sources again.
 1. To add recommended traits to the segment rule, click the **+** symbol.
 
 When you create or edit a segment and add a trait to the segment rule, you see a maximum of fifty recommended traits, similar to the one you have added. If the segment rule contains more than one trait, Audience Manager uses a round robin method to show the best match for each trait, then the second-best match for each trait, and so on, for the largest fifty traits by population, in the segment rule.
@@ -107,10 +112,10 @@ When you create or edit a segment and add a trait to the segment rule, you see a
 For example, when there are three traits in the segment rule, as shown below, the recommended traits are:
 
 1. Best match for trait 3 (the trait with the largest population);
-2. Best match for trait 1;
-3. Best match for trait 2;
-4. Second-best match for trait 3;
-5. Second-best match for trait 1, and so on until you get to fifty traits.
+1. Best match for trait 1;
+1. Best match for trait 2;
+1. Second-best match for trait 3;
+1. Second-best match for trait 1, and so on until you get to fifty traits.
 
 To get recommendations for a specific trait, you can click on the traits in the segment rule (1) or in the recommended traits view (2).
 
@@ -120,13 +125,13 @@ Clicking on a first-party trait opens a pop-up window, as shown in the image bel
 
 ![add-to-segment](assets/add_to_segments.png)
 
-> [!TIP]
+>[!TIP]
 >
 >The excluded data sources from the main page are considered while generating recommendations within the trait information pop-up window. And, if you exclude data sources in this view, the exclusions apply to the main page.
 
-> [!NOTE]
+>[!NOTE]
 >
-> Recommended traits can be your first-party traits or third party traits from data feeds that you are subscribed to in [!UICONTROL Audience Marketplace].
+>Recommended traits can be your first-party traits or third party traits from data feeds that you are subscribed to in [!UICONTROL Audience Marketplace].
 
 ## How it Works
 
@@ -169,9 +174,9 @@ Use the table below as a rough guide to trait similarity. This guide is based on
 
 For companies using [!UICONTROL Role-Based Access Controls] ([!UICONTROL RBAC]), you need to have permission to create and edit segments in order to see recommended traits. The trait recommendations that you see are only the ones from data sources that you have access to via [!UICONTROL RBAC].
 
-> [!IMPORTANT]
+>[!IMPORTANT]
 >
-> To add [!UICONTROL Marketplace Recommendations] to a segment, users must first subscribe to the corresponding data feeds. Only users with administrator privileges can subscribe to [!UICONTROL Audience Marketplace] data feeds.
+>To add [!UICONTROL Marketplace Recommendations] to a segment, users must first subscribe to the corresponding data feeds. Only users with administrator privileges can subscribe to [!UICONTROL Audience Marketplace] data feeds.
 
 Read more about [!UICONTROL RBAC] controls [here](../administration/administration-overview.md).
 
