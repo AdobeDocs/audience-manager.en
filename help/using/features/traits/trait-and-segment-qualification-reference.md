@@ -8,9 +8,13 @@ title: Trait Qualification Reference
 uuid: 07e0a639-2fb2-45d8-bad7-10fb46b08ba9
 ---
 
-# Trait Qualification Reference {#trait-qualification-reference}
+# Trait and Segment Qualification Reference {#trait-qualification-reference}
 
-Trait qualification, or trait realization, is treated differently in Audience Manager, depending on trait type. See the table below for detailed information on trait qualification.
+Trait qualification, or trait realization, is treated differently in Audience Manager, depending on trait type. See [Trait Qualification by Trait Type](#trait-type) for details about trait type qualification.
+
+Additionally, see [Real-time Segment Population and Total Segment Population](#real-time-segment) for details about segment qualification.
+
+
 
 ## Trait Qualification by Trait Type {#trait-type}
 

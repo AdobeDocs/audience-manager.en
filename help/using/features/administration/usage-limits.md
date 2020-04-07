@@ -31,7 +31,7 @@ The tables list the current limits by item type. You cannot create new traits, s
 | Trait Type    | Maximum Limit   |
 | -------------------------- | ------------------------------------- |
 | Total Traits               | 100,000   |
-| Total Trait Qualifications | 150,000. For more information on trait qualification, see Trait Qualification Limit in [Trait Qualifications Reference](/help/using/features/traits/trait-qualification-reference.md#trait-qualification-limit). |
+| Total Trait Qualifications | 150,000. For more information on trait qualification, see Trait Qualification Limit in [Trait Qualifications Reference](/help/using/features/traits/trait-and-segment-qualification-reference.md#trait-qualification-limit). |
 | Algorithmic                | 50       |
 | Rule Based                 | 100,000  |
 | Onboarded                  | 100,000  |
