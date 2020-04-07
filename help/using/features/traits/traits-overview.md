@@ -16,4 +16,4 @@ Manage data collection and audience creation with rules-based, onboarded, algori
 * [Folder Traits: About](/help/using/features/traits/about-folder-traits.md)
 * [Trait Storage](/help/using/features/traits/trait-storage.md)
 * [Active Audience Traits and Data Source Synced Traits](/help/using/features/traits/client-activity-synced-audience-traits.md)
-* [Trait Qualification Reference](/help/using/features/traits/trait-qualification-reference.md)
+* [Trait and Segment Qualification Reference](/help/using/features/traits/trait-and-segment-qualification-reference.md)

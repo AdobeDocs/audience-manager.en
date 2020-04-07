@@ -58,7 +58,7 @@ Targeting audiences in [!DNL People-Based Destinations] requires you to send [SH
 
 To accurately target your audience in [!DNL People-Based Destinations], your users need to qualify for either rule-based or onboarded traits, depending on the type of audience targeting that you want to perform.
 
-**A) Qualify your customer IDs and device IDs in real time for rule-based traits**. This option applies to use case A from [1. Defining Your Use Case](people-based-destinations-workflow.md#defining-your-use-case). If your plan is to target audiences based on online and offline activity, then you most likely are already qualifying your audience for [rule-based traits](../traits/trait-qualification-reference.md).
+**A) Qualify your customer IDs and device IDs in real time for rule-based traits**. This option applies to use case A from [1. Defining Your Use Case](people-based-destinations-workflow.md#defining-your-use-case). If your plan is to target audiences based on online and offline activity, then you most likely are already qualifying your audience for [rule-based traits](../traits/trait-and-segment-qualification-reference.md).
 
 **B) Onboard traits against your customer IDs via inbound data files**. This option applies to use case B from [1. Defining Your Use Case](people-based-destinations-workflow.md#defining-your-use-case). When targeting your audience based on purely offline activity, you need to qualify customer IDs for onboarded traits through [inbound data files](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md).
 
