@@ -76,9 +76,9 @@ When building or editing a segment in [Segment Builder](segment-builder.md), you
 ### New Segments
 
 1. Go to **Audience Data > Segments**, and click **Add New**.
-2. In the **Traits** drop-down box, add at least one trait to the segment rule.
-3. You can see first-party recommended traits and [!UICONTROL Audience Marketplace] trait recommendations from feeds that you are subscribed to, in the **[!UICONTROL Recommendations]** section. The **[!UICONTROL Recommendations from Marketplace]** section shows you trait recommendations from feeds that you are not subscribed to. All of these recommendations are similar to the traits you added to the segment rule. Scroll down to see all recommended traits.
-4. (Optional) To exclude recommended first-party traits from certain data sources, click the **X** symbol for the data sources you want to exclude.
+1. In the **Traits** drop-down box, add at least one trait to the segment rule.
+1. You can see first-party recommended traits and [!UICONTROL Audience Marketplace] trait recommendations from feeds that you are subscribed to, in the **[!UICONTROL Recommendations]** section. The **[!UICONTROL Recommendations from Marketplace]** section shows you trait recommendations from feeds that you are not subscribed to. All of these recommendations are similar to the traits you added to the segment rule. Scroll down to see all recommended traits.
+1. (Optional) To exclude recommended first-party traits from certain data sources, click the **X** symbol for the data sources you want to exclude.
 
     >[!NOTE]
     >
