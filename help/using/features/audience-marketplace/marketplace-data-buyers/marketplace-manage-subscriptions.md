@@ -22,24 +22,24 @@ To subscribe to a public data feed:
 
 1. Go to **[!UICONTROL Audience Marketplace > Marketplace]**. Use the search feature or browse through the list to find a data feed.
 
-   ![](assets/subscribe1.png)
+   ![subscribe](assets/subscribe1.png)
 
 1. Click the name of the data feed you want to use. This opens the [plan details page](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#marketplace-buyer-details) for the selected feed.
 
-   ![](assets/plan-details.png)
+   ![plan-details](assets/plan-details.png)
 
 1. Choose a use case from the subscriptions table and:
     * Move the **[!UICONTROL Subscription]** slider to **[!UICONTROL On]**.
     * Click **[!UICONTROL Review & Subscribe]**. This opens the [!UICONTROL Terms and Conditions] window.
 
-   ![](assets/subscribe3.png)
+   ![subscribe](assets/subscribe3.png)
 
 1. In the [!UICONTROL Terms and Conditions] window:
 
     * **Important:** Leave the **[!UICONTROL ID sync]** check box checked. This setting helps improve match rates with your data provider.
     * Check the terms and conditions box and click **[!UICONTROL Accept]** to complete the subscription process.
 
-   ![](assets/subscribe4.png)
+   ![subscribe](assets/subscribe4.png)
 
 ### Next Steps
 
