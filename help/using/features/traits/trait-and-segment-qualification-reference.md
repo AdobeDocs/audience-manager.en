@@ -67,3 +67,4 @@ To further drive the point home, if you experienced a spike of 10,000 visitors r
 ## Trait Qualification Limit {#trait-qualification-limit}
 
 We enforce a limit of 150,000 trait qualifications for each user profile, whether it is an authenticated profile ([DPUUID](../../reference/ids-in-aam.md)) or a device ID ([UUID](../../reference/ids-in-aam.md)). Note that while the DPUUIDs are unique to a specific instance of [!DNL Audience Manager], UUIDs are shared across the [!DNL Audience Manager] platform. For [!UICONTROL UUID]s, we impose a fairness policy when storing trait qualifications. An algorithm ensures that an equal share of the [!UICONTROL UUID] profile is made available for every instance of [!DNL Audience Manager].
+
