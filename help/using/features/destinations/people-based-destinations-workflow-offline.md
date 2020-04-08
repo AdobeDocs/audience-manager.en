@@ -19,7 +19,7 @@ The first step creating audience segments in this scenario is to bring your offl
 
 >[!IMPORTANT]
 >
-> Before continuing, make sure that the customer activity that you are about to onboard is already defined in Audience Manager with corresponding [onboarded traits](../traits/trait-qualification-reference.md).
+> Before continuing, make sure that the customer activity that you are about to onboard is already defined in Audience Manager with corresponding [onboarded traits](../traits/trait-and-segment-qualification-reference.md).
 
 Regardless of whether your existing Audience Manager customer IDs ([DPUUIDs](../../reference/ids-in-aam.md)) are hashed emails or not, you must perform the trait onboarding against the data source that contains your [DPUUIDs](../../reference/ids-in-aam.md).
 

@@ -107,7 +107,7 @@ The table below lists the retention options for trait qualifications.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Trait limit reached </p> </td> 
-   <td colname="col2"> <p>We impose a limit of 100,000 trait qualifications for each user profile. The limit applies to authenticated profiles and device profiles. If a user profile reaches this limit, we will delete the oldest trait qualifications, on a first-in, first-out basis. </p> <p>For more details, read our <a href="../features/traits/trait-qualification-reference.md#trait-qualification-limit"> Trait Qualification Limit</a>. </p> </td> 
+   <td colname="col2"> <p>We impose a limit of 100,000 trait qualifications for each user profile. The limit applies to authenticated profiles and device profiles. If a user profile reaches this limit, we will delete the oldest trait qualifications, on a first-in, first-out basis. </p> <p>For more details, read our <a href="../features/traits/trait-and-segment-qualification-reference.md#trait-qualification-limit"> Trait Qualification Limit</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

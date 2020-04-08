@@ -20,9 +20,9 @@ Additionally, you can download the [!UICONTROL Activity Usage Report] whenever y
 
 The [!UICONTROL Activity Usage Report] is available to all Audience Manager users with [administrator privileges](edit-account-settings.md).
 
-> [!IMPORTANT]
+>[!IMPORTANT]
 >
-> The [!UICONTROL Activity Usage Report] shows you the activity usage statistics of your Audience Manager instance. For any billing inquiries related to your activity usage, reach out to your Adobe representative.
+>The [!UICONTROL Activity Usage Report] shows you the activity usage statistics of your Audience Manager instance. For any billing inquiries related to your activity usage, reach out to your Adobe representative.
 
 ## Use Cases {#use-cases}
 
@@ -48,8 +48,9 @@ Once your report loads, you can see a breakdown of your [!UICONTROL Activities] 
 * **[!UICONTROL On-Boarded Records]**: Unique records ingested from your own customer relationship management system (CRM) or other offline data files, such as call center records, device IDs, and custom data feeds from external data providers.
 * **[!UICONTROL Log File Records]**: Unique records from log files ingested into Audience Manager from a targeting platform.
 
-> [!NOTE]
-> A unique record defines each individual record of data in a file stored by Adobe on behalf of an Audience Manager customer.
+>[!NOTE]
+>
+>A unique record defines each individual record of data in a file stored by Adobe on behalf of an Audience Manager customer.
 
 Additionally, you can use the [!UICONTROL Activity Usage Trends] graph types to switch between two type of graphs.
 

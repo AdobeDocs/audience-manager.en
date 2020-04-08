@@ -8,9 +8,13 @@ title: Trait Qualification Reference
 uuid: 07e0a639-2fb2-45d8-bad7-10fb46b08ba9
 ---
 
-# Trait Qualification Reference {#trait-qualification-reference}
+# Trait and Segment Qualification Reference {#trait-qualification-reference}
 
-Trait qualification, or trait realization, is treated differently in Audience Manager, depending on trait type. See the table below for detailed information on trait qualification.
+Trait qualification, or trait realization, is treated differently in Audience Manager, depending on trait type. See [Trait Qualification by Trait Type](#trait-type) for details about trait type qualification.
+
+Additionally, see [Real-time Segment Population and Total Segment Population](#real-time-segment) for details about segment qualification.
+
+
 
 ## Trait Qualification by Trait Type {#trait-type}
 
@@ -30,13 +34,13 @@ Depending on the type of results that you want the graph to show (filtered by [!
 
 When filtering the results by [!UICONTROL Device ID]:
 
-* The [!UICONTROL Unique Trait Realizations] counts the number of your anonymous device visitors that have added the trait to their profile, within different time ranges.
-* The [!UICONTROL Total Trait Population] counts the total number of your anonymous device visitors that have the trait on their profile.
+* [!UICONTROL Unique Trait Realizations] is the number of your anonymous device visitors that have added the trait to their profile within different time ranges.
+* [!UICONTROL Total Trait Population] is the number of your anonymous device visitors that have this trait on their profile.
 
 When filtering the results by [!UICONTROL Cross-Device ID]:
 
-* The [!UICONTROL Unique Trait Realizations] count the number of your authenticated visitors that have added the trait to their profile, within different time ranges.
-* The [!UICONTROL Total Trait Population] counts the total number of your authenticated visitors that have this trait on their profile.
+* [!UICONTROL Unique Trait Realizations] is the number of your authenticated visitors that have added the trait to their profile, within different time ranges.
+* [!UICONTROL Total Trait Population] is the number of your authenticated visitors that have this trait on their profile.
 
 Think of the numbers this way. In the image above, from the [Trait Details](../../features/traits/trait-details-page.md) view, 90,173 represents the number of active devices, that visited your properties yesterday. The [!UICONTROL Total Trait Population] of 55,757 represents the amount of users currently qualified for this trait. The [!UICONTROL Total Trait Population] figure is meant to show the total amount of users who could be used for segmentation/targeting. Typically, users will remain part of a trait for 120 days.
 

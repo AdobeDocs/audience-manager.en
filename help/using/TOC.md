@@ -136,6 +136,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
         + [Code Syntax Used in the Segment Expression Editor](features/segments/segment-code-syntax.md)
         + [Trait and Segment Population Data in Segment Builder](features/segments/segment-builder-data.md)
         + [Trait Recommendations](features/segments/trait-recommendations.md)
+        + [Trait and Segment Qualification Reference](features/traits/trait-and-segment-qualification-reference.md)
     + Traits{#traits}
         + [Traits Overview](/help/using/features/traits/traits-overview.md)
         + [Trait Details Page](features/traits/trait-details-page.md)
@@ -160,7 +161,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
         + [Geotargeting With Platform-level Keys](features/traits/trait-geotarget-keys.md)
         + [Device Targeting With Platform-level Keys](features/traits/trait-device-targeting.md)
         + [Sample Expressions With Boolean and Comparison Operators](features/traits/trait-expression-samples.md)
-        + [Trait Qualification Reference](features/traits/trait-qualification-reference.md)
+        + [Trait and Segment Qualification Reference](features/traits/trait-and-segment-qualification-reference.md)
     + [Visitor Profile Viewer](features/visitor-profile-viewer.md)
 + Reporting{#reporting}
     + [Reports Overview](reporting/reports-overview.md)

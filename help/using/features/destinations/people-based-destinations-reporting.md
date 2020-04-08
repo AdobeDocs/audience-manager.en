@@ -47,6 +47,6 @@ In this scenario:
 
 ![shareable-audiences-diagram](assets/shareable-audiences.png)
 
-> [!NOTE]
+>[!NOTE]
 >
-> In the example above, it does not mean that all the 80,000 hashed email addresses from the three segments match existing accounts in the destination platforms. It only means that Audience Manager sends the hashed identifiers from the three segments to their respective destinations. When sending audience segments to people-based destinations, audience matching happens on the partner side. Destination A may have up to 30,000 matching user accounts, whereas Destination B may have up to 50,000 matching user accounts, but there is no guarantee of match rates. Adobe does not have access to partner-specific metrics. See [Match Rates](../../faq/faq-people-based-destinations.md#match-rates) for frequently asked questions about People-Based Destinations visibility in match rates.
+>In the example above, it does not mean that all the 80,000 hashed email addresses from the three segments match existing accounts in the destination platforms. It only means that Audience Manager sends the hashed identifiers from the three segments to their respective destinations. When sending audience segments to people-based destinations, audience matching happens on the partner side. Destination A may have up to 30,000 matching user accounts, whereas Destination B may have up to 50,000 matching user accounts, but there is no guarantee of match rates. Adobe does not have access to partner-specific metrics. See [Match Rates](../../faq/faq-people-based-destinations.md#match-rates) for frequently asked questions about People-Based Destinations visibility in match rates.
