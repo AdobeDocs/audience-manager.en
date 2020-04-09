@@ -1,26 +1,29 @@
 ---
-description: Why Audience Manager Audience Lab mapped segments will not show up on the destination view page.
-seo-description: Why Audience Manager Audience Lab mapped segments will not show up on the destination view page.
-seo-title: Why Audience Manager Audience Lab mapped segments will not show up on the destination view page.
+description: Why Audience Lab mapped segments will not show up on the destination details page.
+seo-description: Why Audience Lab mapped segments will not show up on the destination details page.
+seo-title: Why Audience Lab mapped segments will not show up on the destination details page.
 solution: Audience Manager
-title: Should I see my Audience Manager Audience Lab mapped segments on the destination view page?
+title: Should I see my Audience Lab mapped segments on the destination details page?
 ---
 
-# Should I see my Audience Manager Audience Lab mapped segments on the destination view page?{#Should I see my Audience Manager Audience Lab mapped segments on the destination view page?}
+# Should I see my Audience Lab mapped segments on the destination details page? {#audience-lab-segments-destination-page}
 
 ## Question
 
-I have some test segments created in the Audience Manager Audience Lab, and have mapped them to my destination.  When I look for them on the destination view page, however, I don't see them.  Is this behavior expected, or is this a bug?
+I have some test segments created in [!UICONTROL Audience Lab], and have mapped them to a destination. However, when I look for them on the destination details page, I don't see them.
+
+Is this behavior expected, or is this a bug?
 
 ## Answer
 
-Segments that are created within Audience Lab, while able to be mapped to a destination, are not listed as being mapped to that destination on the destination view page.
+Mapped segments that are created within [!UICONTROL Audience Lab] are not displayed on the destination details page.
 
-For example, I have created "Test Segment 1" and "Test Segment 2" and have mapped them to the destination "autofill SID - serialized".  These mappings show up in the Audience Lab segment test that I set up:
+For example, in the screenshots below, [!UICONTROL Test Segment 1] and [!UICONTROL Test Segment 2] are mapped to the [!UICONTROL autofill SID - serialized] destination.
+
+The segments do show up in the Audience Lab segment test:
 
 ![Image of Audience Lab Segment view](assets/should_i_see_my_aamlab01.png)
 
-These segments will not, however, show up in the actual destination view:
+The segments will not, however, show up in the destination details page:
 
-![Image of the destiantion view](assets/should_i_see_my_aamlab02.png)
-
+![Image of the destination details page](assets/should_i_see_my_aamlab02.png)
