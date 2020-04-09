@@ -32,7 +32,7 @@ Some browsers, and most mobile devices, do not accept third-party cookies. This 
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Event Call</b> </td> 
-   <td colname="col2"> <p>To work, you need <span class="wintitle"> DIL </span> and the <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Experience Cloud ID service </a> code on the page. <span class="wintitle"> DIL </span> gets <span class="wintitle"> declared IDs </span> from the <code> setVisitorID </code> function provided by the <span class="keyword"> Experience Cloud ID service </span> and passes that on to <span class="keyword"> Audience Manager </span>. </p> </td> 
+   <td colname="col2"> <p>To work, you need <span class="wintitle"> DIL </span> and the <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Adobe Experience Platform Identity Service </a> code on the page. <span class="wintitle"> DIL </span> gets <span class="wintitle"> declared IDs </span> from the <code> setVisitorID </code> function provided by the <span class="keyword"> Adobe Experience Platform Identity Service </span> and passes that on to <span class="keyword"> Audience Manager </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Match ID</b> </td> 
@@ -179,11 +179,11 @@ Given these key-value pairs and their required syntax, you would make event call
 
 Describes the configuration variables used to pass declared IDs through [!UICONTROL DIL] to [!DNL Audience Manager.]
 
-## DIL Uses the Experience Cloud ID Service to Pass Declared IDs {#dil-id-service-pass-declared-ids}
+## DIL Uses the Adobe Experience Platform Identity Service to Pass Declared IDs {#dil-id-service-pass-declared-ids}
 
 <!-- r_dil_declared_id_vars.xml -->
 
-When used with the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/), you no longer need to pass in [!UICONTROL declared IDs] with the deprecated `dpid` and `dpuuid` variables. Instead, the current versions of [!UICONTROL DIL] rely on the `visitorService` function to get the [!UICONTROL declared IDs] from the `setCustomerIDs` function in the [!UICONTROL Experience Cloud ID Service]. For more information, see [Customer IDs and Authentication States](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html). You would call `visitorService` in `DIL.create` as shown below.
+When used with the [Adobe Experience Platform Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/), you no longer need to pass in [!UICONTROL declared IDs] with the deprecated `dpid` and `dpuuid` variables. Instead, the current versions of [!UICONTROL DIL] rely on the `visitorService` function to get the [!UICONTROL declared IDs] from the `setCustomerIDs` function in the [!UICONTROL Adobe Experience Platform Identity Service]. For more information, see [Customer IDs and Authentication States](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html). You would call `visitorService` in `DIL.create` as shown below.
 
 ```js
 var vDil = DIL.create({
@@ -198,7 +198,7 @@ In the `namespace` key-value pair, `MCORG` is your [!DNL Experience Cloud] Organ
 
 ## Deprecated Functions {#deprecated-functions}
 
-With the latest versions of [!UICONTROL DIL] (6.2+), you don't need to use these key-value pairs to pass in [!UICONTROL declared IDs]. That's because [!UICONTROL DIL] now relies on the `visitorService` function shown in the code sample above. This function gets [!UICONTROL declared IDs] from the [!UICONTROL Experience Cloud ID Service]. However, we're referencing these variables here for historical and legacy purposes. See the code below for an example of how to configure `DIL.create` to get a [!UICONTROL declared ID] from the [!UICONTROL Visitor ID Service].
+With the latest versions of [!UICONTROL DIL] (6.2+), you don't need to use these key-value pairs to pass in [!UICONTROL declared IDs]. That's because [!UICONTROL DIL] now relies on the `visitorService` function shown in the code sample above. This function gets [!UICONTROL declared IDs] from the [!UICONTROL Adobe Experience Platform Identity Service]. However, we're referencing these variables here for historical and legacy purposes. See the code below for an example of how to configure `DIL.create` to get a [!UICONTROL declared ID] from the [!UICONTROL Visitor ID Service].
 The following table describes the legacy variables used by the `declaredId` object:
 
 <table id="table_A1884B72950F4BBDA87F17DDFF173628"> 
@@ -227,7 +227,7 @@ The following table describes the legacy variables used by the `declaredId` obje
 
 Audience Manager compares and matches the combined `DPID` and `DPUUID` to a corresponding user ID in our system. If an ID does not exist, Audience Manager creates a new user ID and synchronizes it to the `DPID/DPUUID` combination. Once Audience Manager matches or creates a user ID (the `UUID`) it returns that ID in the [!DNL JSON] response to the cookie in the client's domain (first-party cookie) or other local storage.
 
-Call this function when you're using [!UICONTROL DIL] v6.1 or earlier. However, this function has been deprecated in favor of the new version that gets [!UICONTROL declared IDs] from the [!UICONTROL Experience Cloud ID Service].
+Call this function when you're using [!UICONTROL DIL] v6.1 or earlier. However, this function has been deprecated in favor of the new version that gets [!UICONTROL declared IDs] from the [!UICONTROL Adobe Experience Platform Identity Service].
 
 ```js
 DIL.create({

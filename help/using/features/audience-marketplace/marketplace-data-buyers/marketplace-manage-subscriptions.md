@@ -22,24 +22,24 @@ To subscribe to a public data feed:
 
 1. Go to **[!UICONTROL Audience Marketplace > Marketplace]**. Use the search feature or browse through the list to find a data feed.
 
-   ![](assets/subscribe1.png)
+   ![subscribe](assets/subscribe1.png)
 
 1. Click the name of the data feed you want to use. This opens the [plan details page](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#marketplace-buyer-details) for the selected feed.
 
-   ![](assets/plan-details.png)
+   ![plan-details](assets/plan-details.png)
 
 1. Choose a use case from the subscriptions table and:
     * Move the **[!UICONTROL Subscription]** slider to **[!UICONTROL On]**.
     * Click **[!UICONTROL Review & Subscribe]**. This opens the [!UICONTROL Terms and Conditions] window.
 
-   ![](assets/subscribe3.png)
+   ![subscribe](assets/subscribe3.png)
 
 1. In the [!UICONTROL Terms and Conditions] window:
 
     * **Important:** Leave the **[!UICONTROL ID sync]** check box checked. This setting helps improve match rates with your data provider.
     * Check the terms and conditions box and click **[!UICONTROL Accept]** to complete the subscription process.
 
-   ![](assets/subscribe4.png)
+   ![subscribe](assets/subscribe4.png)
 
 ### Next Steps
 
@@ -48,6 +48,28 @@ After you subscribe to a data feed:
 * Verify the subscription by checking your [!UICONTROL Traits] folder. See [Storage for Subscribed Data Feeds](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#find-subscribed-data-fee).
 
 * Review the billing and payment documentation. See the related links below.
+
+### Best Practices {#best-practices}
+
+Here is a set of best practices that we recommend you follow when working with [!UICONTROL Audience Marketplace]:
+
+When exploring new third and second-party data sets through [!UICONTROL Audience Marketplace], the first step we recommend is to enable data feeds for [!UICONTROL Segments & Overlap]. This allows users to explore data by building segments to evaluate audience size, and running overlap reports to gain initial audience insights. Most data providers offer this use case for free, so you can perform this analysis at no extra cost.
+
+When running overlap reports, follow these best practices to make sure you're getting useful results.
+
+1. Ensure that your overlapping data sets are similar in terms of data type and collection methodologies, such as:
+   * Visitor geography
+   * Cookie vs. Mobile IDs
+   * Lookback window
+   * Offline vs. Online activity
+   * The frequency at which the data provider refreshes the data
+
+1. Overlap can grow slightly over time, so make sure you allow up to 30 days to pass before running overlap reports to allow for the data to sync.
+1. Overlap can increase if you use data from a data provider in multiple marketing campaigns.
+and initiatives. This allows for more opportunities for users from the two data sets to sync.
+1. There is no guarantee that there will be an overlap between your data sets. For an overlap to be valid, a user from the customer’s data set must be associated with the data
+provider data set during the reporting time frame. If the customer’s media data didn’t get served to the users in the data provider data set, there will never be an overlap.
+1. Don't think of low overlap as a bad thing. Take advantage of a low overlap to prospect and engage new users.
 
 ## Subscribe to a Private Data Feed {#subscript-private-data-feed}
 

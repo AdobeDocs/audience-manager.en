@@ -5,6 +5,7 @@ seo-title: Data Collection and Product Integration FAQ
 solution: Audience Manager
 title: Data Collection and Product Integration FAQ
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
+keywords: SFTP; SFTP address; STFP IP address; FTP address
 ---
 
 # Data Collection and Product Integration FAQ{#data-collection-and-product-integration-faq}
@@ -35,7 +36,7 @@ Unfortunately, we cannot. These IPs are assigned dynamically, by geographic regi
 
 <br>&nbsp;
 
-**Can you provide me with an IP address I can whitelist for your inbound and outbound FTP server?**
+**Can you provide me with an IP address I can whitelist for your inbound and outbound sFTP server?**
 
 Yes, see below.
 
@@ -60,7 +61,7 @@ As a best practice, set up your [!DNL Audience Manager]- [!DNL Analytics] integr
 
 * Put [!UICONTROL DIL] directly in the `s_code`.
 
-* Serve [!UICONTROL DIL] and the `s_code` through [!DNL Adobe Launch] or [!DNL Adobe DTM].
+* Serve [!UICONTROL DIL] and the `s_code` through [!DNL Adobe Experience Platform Launch] or [!DNL Adobe DTM].
 
 See [Data Integration Library (DIL) API](../dil/dil-overview.md).
 

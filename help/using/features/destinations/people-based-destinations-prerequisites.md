@@ -34,6 +34,18 @@ Before you can use [!DNL People-Based Destinations] to send your first-party aud
     > When configuring the permissions for Adobe Experience Cloud, you must enable the **Manage campaigns** permission. This is required for the [!DNL People-Based Destinations] integration.
 3. Read and sign the [!DNL Facebook Custom Audiences] Terms of Service. To do this, go to `https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]`, where `accountID` is your [!DNL Facebook Ad Account ID].
 
+### [!DNL LinkedIn]
+
+>[!IMPORTANT]
+>
+> The [!DNL People-Based Destinations] integration with [!DNL LinkedIn] is currently in the beta testing phase, and is only available to a limited number of customers. 
+> 
+> Once the beta testing ends, this integration will be available to all Audience Manager customers who signed up for [!DNL People-Based Destinations].
+
+Before you can use [!DNL People-Based Destinations] to send your first-party audience segments to [!DNL LinkedIn], make sure your [!DNL LinkedIn Campaign Manager] account has the [!DNL Creative Manager] or higher permission level.
+
+To learn how to edit your [!DNL LinkedIn Campaign Manager] user permissions, see [Add, Edit, and Remove User Permissions on Advertising Accounts](https://www.linkedin.com/help/lms/answer/5753)
+
 ## Data Onboarding {#data-onboarding}
 
 Data ingestion for [!DNL People-Based Destinations] currently supports up to 10 hashed email addresses linked to one customer ID ([!DNL CRM ID]), per batch transfer. Uploading more than 10 hashed email addresses linked to one customer ID causes Audience Manager to ingest 10 of them, in no specific order.
@@ -65,7 +77,7 @@ Watch the video below to understand the hashing requirements of [!UICONTROL Peop
 
 >[!VIDEO](https://video.tv.adobe.com/v/29003/)
 
-Adobe Experience Cloud gives you the option to hash customer IDs through the Experience Cloud ID Service. See [SHA256 Hashing Support for setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) for detailed information on how to use ECID to hash customer IDs.
+Adobe Experience Cloud gives you the option to hash customer IDs through the Adobe Experience Platform Identity Service. See [SHA256 Hashing Support for setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) for detailed information on how to use ECID to hash customer IDs.
 
 ## Obtaining User Permission {#obtaining-user-permission}
 
@@ -85,5 +97,5 @@ When using [!UICONTROL People-Based Destinations], use [Data Export Controls](..
 
 There are two ways you can bring your offline data to Audience Manager for [!DNL People-Based Destinations].
 
-* [Send batch data](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) to Audience Manager to ingest hashed email addresses. With this method, you can choose to use the hashed email addresses from your [!DNL CRM] database in [!DNL People-Based Destinations]. Additionally, when using this method, you can also qualify the hashed email addresses for [onboarded traits](../traits/trait-qualification-reference.md).
+* [Send batch data](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) to Audience Manager to ingest hashed email addresses. With this method, you can choose to use the hashed email addresses from your [!DNL CRM] database in [!DNL People-Based Destinations]. Additionally, when using this method, you can also qualify the hashed email addresses for [onboarded traits](../traits/trait-and-segment-qualification-reference.md).
 * Use [Declared IDs](../declared-ids.md) to declare hashed email addresses when passing in authenticated customer IDs. When using this method, Audience Manager, on your behalf, only sends to [!DNL People-Based Destinations] the hashed email addresses from users who have authenticated online. The email addresses activated through people-based channels are only the ones in the declared ID event calls. Other email addresses associated with the customer ID are not sent in real-time.
