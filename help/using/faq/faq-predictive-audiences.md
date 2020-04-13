@@ -100,3 +100,9 @@ Yes, you can see all influential traits for all baselines in the model reporting
 **What happens to the model if I edit one of its baseline traits or segments?**
 
 The model evaluates the traits or segments once a day. You should see the updated classification the next day after your update.
+
+&nbsp;
+
+**Can I select the data sources from which the model will learn?**
+
+No, selection of data sources is not supported. The [!UICONTROL Predictive Audiences] algorithm learns from all your first party traits.
