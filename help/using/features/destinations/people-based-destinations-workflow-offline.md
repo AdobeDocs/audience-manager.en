@@ -34,6 +34,7 @@ You want to qualify the customer IDs from the table below for the corresponding 
 | 89159024796760343733111707646026765593 | 11223, 93342, 27341 |
 
 <br />
+
 To qualify the customer IDs in the example above for the corresponding onboarded traits, you must upload an [inbound data file](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) with the following contents:
 
 ```
