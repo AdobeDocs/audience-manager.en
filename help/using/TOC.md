@@ -395,6 +395,8 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
     + [Why did my Onboarded trait populations drop to 0 around October 15th? ](/help/using/support-issues/why-did-my-onboarded-trait-populations-drop-to-0-around-october.md)
     + [Why do my traits or segments not show up in the Overlap Reports page?](/help/using/support-issues/why-do-my-traits-or-segments-not-show-up-in-the-overlap-reports.md)
     + [Why are our Read-Only users able to create, edit or delete traits and segments?](/help/using/support-issues/aam-read-only-users-create-delete-traits-segments.md)
+    + [We are not an Audience Manager customer, but see the Audience Manager Javascript calls on our site](/help/using/support-issues/not-using-aam-but-seeing-aam-javascript.md)
+    + [Should I see my Audience Manager Audience Lab mapped segments on the destination details page?](/help/using/support-issues/should-i-see-audience-lab-mapped-segments-on-the-destination-page.md)
 + Documentation Updates{#documentation-updates}
     + [2020 Documentation Updates](docs-updates/docs-2020.md)
     + [2019 Documentation Updates](docs-updates/docs-2019.md)
