@@ -31,8 +31,10 @@ Use the [Build a model](../../features/algorithmic-models/create-model.md#build-
 1. The [!UICONTROL Exclusions] selection is greyed out until you select one or more data sources for modeling.
 2. After selecting one or more data sources for modeling, press **[!UICONTROL Browse All Traits]**.
 3. In the **[!UICONTROL Select Traits to Exclude]** window, you can see all traits associated with the data sources you selected previously. Select the traits you want to exclude.
-4. You can filter the traits by trait type, or you can browse the trait folders. Note that trait folders only display the traits associated with your selected data sources.
+4. You can filter the traits by trait type, trait population type, or you can browse the trait folders. Note that trait folders only display the traits associated with your selected data sources.
 5. Press **[!UICONTROL Exclude Selected Traits]**.
+
+![trait-exclusions](assets/trait-exclusions-browse-traits.png)
 
 >[!TIP]
 >

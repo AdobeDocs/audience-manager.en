@@ -23,24 +23,29 @@ Start by watching the [Create Segments in Audience Manager video](https://images
 
 [!UICONTROL Segment Builder] consists of 3 separate sections: [!UICONTROL Basic Information], [!UICONTROL Traits], and [!UICONTROL Destinations Mapping]. To create a segment, complete the required fields in the [!UICONTROL Basic Information] and [!UICONTROL Traits] sections. [!UICONTROL Destinations Mapping] settings are optional. See the instructions below for additional help.
 
-![create-segment](assets/create-segment.png)
-
 1. In the [Basic Information](../../features/segments/segment-builder.md#segment-builder-controls-basics) section:
+
+    ![create-segment](assets/create-segment.png)
+
     * Name the segment. The maximum length of a segment name is 255 characters.
     * Set the segment status (active is default).
     * Choose a data source. Use the first drop-down menu to filter between Audience Manager data sources, Adobe Analytics report suites, or both. Then, use the second drop-down menu to choose your data source. If you are not using Adobe Analytics report suites, the data source type selector is disabled and defaulted to Audience Manager data sources only.
     * Select a profile merge rule to use for segment qualification.
     * Assign the segment to a storage folder.
-2. In the [Traits](../../features/segments/segment-builder.md#segment-builder-controls-traits) section:
+
+1. In the [Traits](../../features/segments/segment-builder.md#segment-builder-controls-traits) section:
+    ![segment-builder-traits](assets/segment-builder-traits.png)
     * Search for the trait you want to add to a segment and click **[!UICONTROL Add Trait]**. Add another trait to create a trait group.
-    * Bring up the Advanced Search modal by clicking **[!UICONTROL Browse All Traits]**. Search for traits by name, ID, description or data source. Click on a folder while searching to limit results to that folder and its subfolders. You can also filter traits by trait type.
+    * Bring up the Advanced Search modal by clicking **[!UICONTROL Browse All Traits]**. Search for traits by name, ID, description or data source. Click on a folder while searching to limit results to that folder and its subfolders. You can also filter traits by trait type ([!UICONTROL Folder Trait], [!UICONTROL Rule-based], [!UICONTROL Onboarded], and [!UICONTROL Algorithmic]) or population type ([!UICONTROL Device ID] and [!UICONTROL Cross-Device ID]).
+    ![segment-builder-browser-traits](assets/segment-builder-browse-traits.png)
     * Get live [trait recommendations](trait-recommendations.md) as you build your segment.
     * Click and drag traits to create separate groups.
     * Hover between groups to set relationships with Boolean [!UICONTROL AND], [!UICONTROL OR], [!UICONTROL AND NOT] values.
     * Hover over the clock icon to add [recency and frequency](../../features/segments/recency-and-frequency.md) rules to the trait.
     * View segment population data as you add or remove traits. Click **[!UICONTROL Calculate Estimates]** to see (or refresh) the estimated population numbers. Read more about [segment population data](../../features/segments/segment-builder-data.md#segment-populations) in the Segment Builder.
     * Click **[!UICONTROL Save]** when done.
-3. *(Optional)* Map a segment to a destination in the [Destination Mapping](../../features/segments/segment-builder.md#segment-builder-controls-destinations) section:
+
+1. *(Optional)* Map a segment to a destination in the [Destination Mapping](../../features/segments/segment-builder.md#segment-builder-controls-destinations) section:
     * Search for the destination and click **[!UICONTROL Add Destination]**. Note, the destination must already exist before you can add it to a segment.
     * Click **[!UICONTROL Save]** when done.
 
