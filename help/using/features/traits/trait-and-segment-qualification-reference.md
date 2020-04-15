@@ -30,7 +30,7 @@ Additionally, see [Real-time Segment Population and Total Segment Population](#r
 
 ![unique-trait-realization](assets/trait-graph.png)
 
-Depending on the type of results that you want the graph to show (filtered by [!UICONTROL Device ID] or [!UICONTORL Cross-Device ID]), the metrics have different meanings:
+Depending on the type of results that you want the graph to show (filtered by [!UICONTROL Device ID] or [!UICONTROL Cross-Device ID]), the metrics have different meanings:
 
 When filtering the results by [!UICONTROL Device ID]:
 
