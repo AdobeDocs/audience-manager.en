@@ -11,13 +11,11 @@ keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing
 
 >[!NOTE]
 >
-> The functionality described on this page is available to customers of Audience Manager and Adobe Experience Platform. 
->
 > Contact your Adobe sales representative to unlock access to this functionality.
 
 ## Overview {#overview}
 
-The audience sharing functionality between Audience Manager and Adobe Experience Platform allows you to share your Audience Manager traits and segments to Adobe Experience Platform and vice-versa.
+The audience sharing functionality between Audience Manager and Adobe Experience Platform allows you to share your Audience Manager traits and segments to Adobe Experience Platform and vice-versa. You need the [Audience Manager Connector](https://docs.adobe.com/content/help/en/experience-platform/source-connectors/adobe-applications/audience-manager.html) to enable audience sharing between Audience Manager and Adobe Experience Platform.
 
 You can use Audience Manager traits and segments in Experience Platform to add Audience Manager data to your customer profiles and to benefit from the Experience Platform [segmentation service](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md). 
 
@@ -42,8 +40,9 @@ See the table below for an overview of audience sharing use cases:
 
 Your Audience Manager traits and segments appear in Experience Platform as **Audiences** in the segment workflow. For more information on your Audience Manager segments and traits in Experience Platform, see:
 
-* [Segmentation Service overview](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md)
-* [Experience Platform Segment Builder user guide](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)
+* [Segmentation Service overview](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html#audiences)
+* [Experience Platform Segment Builder user guide](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html#audiences)
+* [Audience Manager Connector](https://docs.adobe.com/content/help/en/experience-platform/source-connectors/adobe-applications/audience-manager.html)
 
 <br>&nbsp;
 
