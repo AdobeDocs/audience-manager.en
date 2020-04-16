@@ -11,13 +11,11 @@ keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing
 
 >[!NOTE]
 >
-> The functionality described on this page is available to customers of Audience Manager and Adobe Experience Platform. 
->
 > Contact your Adobe sales representative to unlock access to this functionality.
 
 ## Overview {#overview}
 
-The audience sharing functionality between Audience Manager and Adobe Experience Platform allows you to share your Audience Manager traits and segments to Adobe Experience Platform and vice-versa.
+The audience sharing functionality between Audience Manager and Adobe Experience Platform allows you to share your Audience Manager traits and segments to Adobe Experience Platform and vice-versa. You need the [Audience Manager Connector](https://docs.adobe.com/content/help/en/experience-platform/source-connectors/adobe-applications/audience-manager.html) to enable audience sharing between Audience Manager and Adobe Experience Platform.
 
 You can use Audience Manager traits and segments in Experience Platform to add Audience Manager data to your customer profiles and to benefit from the Experience Platform [segmentation service](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md). 
 
@@ -42,8 +40,9 @@ See the table below for an overview of audience sharing use cases:
 
 Your Audience Manager traits and segments appear in Experience Platform as **Audiences** in the segment workflow. For more information on your Audience Manager segments and traits in Experience Platform, see:
 
-* [Segmentation Service overview](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md)
-* [Experience Platform Segment Builder user guide](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)
+* [Segmentation Service overview](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html#audiences)
+* [Experience Platform Segment Builder user guide](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html#audiences)
+* [Audience Manager Connector](https://docs.adobe.com/content/help/en/experience-platform/source-connectors/adobe-applications/audience-manager.html)
 
 <br>&nbsp;
 
@@ -68,11 +67,11 @@ For an example of a trait created automatically from an Experience Platform segm
 
 Item number | Name | Description
 ---------|----------|---------
- 1 | Trait Type | Traits created from Experience Platform segments are created as onboarded traits in Audience Manager.
- 2 | Data Source | Automatically created. All traits and segments that are created automatically from Experience Platform segments are stored in the data source **Adobe Experience Platform Audience Sharing**.
- 3 | Integration Code | The integration code corresponds to the segment ID in Experience Platform.
- 4 | Trait Expression | The trait expression is `segID = segment ID in Experience Platform`.
- 5 | Segments with this Trait | An automatically created segment that uses this trait as its composition.
+ 1 | [!UICONTROL Trait Type] | Traits created from Experience Platform segments are created as onboarded traits in Audience Manager.
+ 2 | [!UICONTROL Data Source] | Automatically created. All traits and segments that are created automatically from Experience Platform segments are stored in the data source **[!UICONTROL Adobe Experience Platform Audience Sharing]**.
+ 3 | [!UICONTROL Integration Code] | The integration code corresponds to the segment ID in Experience Platform.
+ 4 | [!UICONTROL Trait Expression] | The trait expression is `segID = segment ID in Experience Platform`.
+ 5 | [!UICONTROL Segments with this Trait] | An automatically created segment that uses this trait as its composition.
 
 <br>&nbsp;
 
@@ -88,7 +87,21 @@ For an example of a segment created automatically from an Experience Platform se
 
 Item number | Name | Description
 ---------|----------|---------
- 1 | Integration Code | The integration code corresponds to the segment ID in Experience Platform.
- 2 | Data Source | Automatically created. All traits and segments that are created automatically from Experience Platform segments are stored in the data source **Adobe Experience Platform Audience Sharing**.
- 3 | Profile Merge Rule | **External Merge Policy** indicates that automatically created segments follow the merge policy set up in Experience Platform.
- 4 | Segment Rule | The segment consists of the trait described in the [Traits section](#aep-segments-as-aam-traits).
+ 1 | [!UICONTROL Integration Code] | The integration code corresponds to the segment ID in Experience Platform.
+ 2 | [!UICONTROL Data Source] | Automatically created. All traits and segments that are created automatically from Experience Platform segments are stored in the data source **[!DNL Adobe Experience Platform Audience Sharing]**.
+ 3 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** indicates that automatically created segments follow the merge policy set up in Experience Platform.
+ 4 | [!UICONTROL Segment Rule] | The segment consists of the trait described in the [Traits section](#aep-segments-as-aam-traits).
+
+## Understand segment population differences between Audience Manager and Experience Platform 
+
+Segment population numbers can vary between your Audience Manager and Experience Platform segments. While segment numbers will always be reasonably close, small differences in populations can be due to:
+
+* Segmentation jobs run times. Audience Manager runs a segmentation job that updates the numbers in the interface once per day. This job rarely aligns with the segmentation jobs in Experience Platform.
+* [Profile Merge Rules](/help/using/features/profile-merge-rules/merge-rules-overview.md) in Audience Manager and [Merge Policies](https://docs.adobe.com/content/help/en/experience-platform/profile/ui/merge-policies.html) in Experience Platform work differently, and the identity graph used for each varies. Because of this, some differences between segment populations are expected. 
+
+
+>[!MORELIKETHIS]
+>
+>* [Segmentation Service overview](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html#audiences)
+>* [Experience Platform Segment Builder user guide](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html#audiences)
+>* [Audience Manager Connector](https://docs.adobe.com/content/help/en/experience-platform/source-connectors/adobe-applications/audience-manager.html)
