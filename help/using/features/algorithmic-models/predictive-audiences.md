@@ -115,8 +115,7 @@ When configuring your [!UICONTROL Predictive Audiences] models, keep in mind the
 Predictive segments created by [!UICONTROL Predictive Audiences] models inherit the [Data Export Controls](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html) from the following first-party data sources:
 
 1. The first-party data source that you choose when building the model.
-2. The first-party data sources of baselines. Specifically, the union of the data export controls of the baseline traits or segments.
-3. The first-party data sources of your target audience. Specifically, the data export controls of the traits or segments that make up your target audience.
+1. The first-party data sources of your target audience. Specifically, the data export controls of the traits or segments that make up your target audience.
 
 The newly created predictive traits and segments will have the same privacy restrictions as the union of the first-party data sources described above.
 
