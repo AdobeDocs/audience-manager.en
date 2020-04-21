@@ -85,8 +85,10 @@ The filters below are available when you run a General report and select **[!UIC
 When filtering the results by [!UICONTROL Device ID]:
 
 * [!UICONTROL Unique Trait Realizations] is the number of your anonymous device visitors that have added the trait to their profile within the selected time range.
-* [!UICONTROL Total Trait Realization] is the total number of anonymouse trait realizations within the selected time range.
+* [!UICONTROL Total Trait Realization] is the total number of anonymous trait realizations within the selected time range.
 * [!UICONTROL Total Trait Population] is the number of your anonymous device visitors that have this trait on their profile.
+
+![general-report-traits-device](assets/general-report-traits-deviceid.png)
 
 When filtering the results by [!UICONTROL Cross-Device ID]:
 
@@ -94,7 +96,7 @@ When filtering the results by [!UICONTROL Cross-Device ID]:
 * [!UICONTROL Total Trait Realization] is the total number of authenticated trait realizations within the selected time range.
 * [!UICONTROL Total Trait Population] is the number of your authenticated visitors that have this trait on their profile.
 
-![general-report-traits](assets/general-report-traits.png)
+![general-report-traits-cross-device](assets/general-report-traits-cross-device.png)
 
 <!-- 
 ### Unique Trait Realizations
