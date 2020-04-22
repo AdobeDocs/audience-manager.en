@@ -54,7 +54,7 @@ In case the model does not produce results within 24 hours, please reach out to 
 
 &nbsp;
 
-**Why is my model showing the Warning status?**
+**Why is my model not producing results or showing the Warning status?**
 
 [!UICONTROL Predictive Audiences] models can fail to produce results due to a number of reasons:
 
@@ -64,6 +64,8 @@ In case the model does not produce results within 24 hours, please reach out to 
 1. The target audience users that were active or onboarded within the past 30 days do not have enough data in their user profiles (not enough traits to analyze).
 
 To produce relevant results, the [!UICONTROL Predictive Audiences] algorithm evaluates trait and segment realizations based on real-time user activity seen by the DCS. If you select new base traits and segments that do not yet have enough users, the algorithm may take a couple of days to classify your audience.
+
+For optimal results, follow the suggested guidelines from [Selection Criteria for Personas](../features/algorithmic-models/predictive-audiences.md#selection-personas) and [Selection Criteria for Target Audience](../features/algorithmic-models/predictive-audiences.md#selection-audience).
 
 &nbsp;
 

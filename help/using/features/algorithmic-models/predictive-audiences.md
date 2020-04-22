@@ -65,8 +65,9 @@ When you create a [!UICONTROL Predictive Audiences] model, you go through three 
 
 You can choose any of your first-party traits or segments to define your personas. However, for optimal results, here's a set of recommended best practices:
 
-* Choose your persona traits or segments so that each persona has at least a few hundred user profiles.
-* We recommend choosing traits for your personas, instead of segments. If you must use segments, make sure that your segments consist of simple segment rules consisting of 1 to 3 traits.
+* Choose your persona traits or segments so that each persona has at least a few hundred [device IDs](../../reference/ids-in-aam.md).
+* If your traits are based on [cross-device IDs](../../reference/ids-in-aam.md), you can wrap them in segments with [Profile Merge Rules](../profile-merge-rules/merge-rules-overview.md) that use [device IDs](../../reference/ids-in-aam.md), such as [!UICONTROL Device Graph]. This will ensure there are enough [device IDs](../../reference/ids-in-aam.md) that the algorithm can learn from.
+* We recommend choosing traits or simple segments for your perosnas, consisting of 1 to 3 traits.
 * Choose baseline traits or segments which have minimal overlap.
 * Make sure you are capturing granular traits across your digital properties.
 
