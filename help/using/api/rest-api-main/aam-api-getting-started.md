@@ -41,7 +41,18 @@ As an example or use case for this type of account, let's say you want to change
 
 Work with your Audience Manager consultant to set up a generic, [!DNL API]-only user account.
 
-## OAuth Authentication {#oauth}
+## JWT (Service Account) Authentication {#jwt}
+
+To establish a secure service-to-service Adobe I/O API session, you must create a JSON Web Token (JWT) that encapsulates the identity of your integration, and then exchange it for an access token. Every request to an Adobe service must include the access token in the Authorization header, along with the API Key (Client ID) that was generated when you created the [Service Account Integration](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) in the [Adobe I/O Console](https://console.adobe.io/).
+
+See [JWT (Service Account) Authentication](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md) for detailed instructions on how to configure your authentication.
+
+## OAuth Authentication (Deprecated) {#oauth}
+
+>[!WARNING]
+> Audience Manager [!UICONTROL REST API] token authentication and renewal via [!DNL OAuth 2.0] is now deprecated.
+>
+> Please use [JWT (Service Account) Authentication](#jwt-service-account-authentication-jwt) instead.
 
 The Audience Manager [!UICONTROL REST API] follows [!DNL OAuth 2.0] standards for token authentication and renewal. The sections below describe how to authenticate and start working with the [!DNL API]s.
 
@@ -65,7 +76,7 @@ Note: If you'd like to receive a refresh token, specify that when you request [!
 
 Pass in a token request with your preferred [!DNL JSON] client. When you build the request:
 
-* Use a `POST` method to call `https://api.demdex.com/oauth/token`.
+* Use a `POST` method to call `https://aam.adobe.io/oauth/token`.
 * Convert your client ID and secret to a base-64 encoded string. Separate the ID and secret with a colon during the conversion process. For example, the credentials `testId : testSecret` convert to `dGVzdElkOnRlc3RTZWNyZXQ=`.
 * Pass in the [!DNL HTTP] headers `Authorization:Basic <base-64 clientID:clientSecret>` and `Content-Type: application/x-www-form-urlencoded` . For example, your header could look like this: <br/>`Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=` <br/>`Content-Type: application/x-www-form-urlencoded`
 * Set up the request body as follows:
@@ -103,7 +114,7 @@ The following steps outline the workflow for using a refresh token to create a n
 
 Pass in a refresh token request with your preferred [!DNL JSON] client. When you build the request:
 
-* Use a `POST` method to call `https://api.demdex.com/oauth/token`.
+* Use a `POST` method to call `https://aam.adobe.io/oauth/token`.
 * Convert your client ID and secret to a base-64 encoded string. Separate the ID and secret with a colon during the conversion process. For example, the credentials `testId : testSecret` convert to `dGVzdElkOnRlc3RTZWNyZXQ=`.
 * Pass in the HTTP headers `Authorization:Basic <base-64 clientID:clientSecret>` and `Content-Type: application/x-www-form-urlencoded`. For example, your header could look like this: <br/> `Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=` <br/> `Content-Type: application/x-www-form-urlencoded`
 * In the request body, specify the `grant_type:refresh_token` and pass in the refresh token you received in your previous access request. The request should look like this: <br/> `grant_type=refresh_token&refresh_token=b27122c0-b0c7-4b39-a71b-1547a3b3b88e`
@@ -124,7 +135,7 @@ The [!DNL JSON] response contains your new access token. The response should loo
 
 ## Authorization Code and Implicit Authentication {#authentication-code-implicit}
 
-The Audience Manager [!UICONTROL REST API] supports authorization code and implicit authentication. To use these access methods, your users need to log in to `https://api.demdex.com/oauth/authorize` to get access and refresh tokens.
+The Audience Manager [!UICONTROL REST API] supports authorization code and implicit authentication. To use these access methods, your users need to log in to `https://aam.adobe.io/oauth/authorize` to get access and refresh tokens.
 
 ## Make Authenticated API Requests {#authenticated-api-requests}
 
@@ -151,7 +162,7 @@ You can use these optional parameters with [!DNL API] methods that return *all* 
 |pageSize|Sets the number of response results returned by the request (10 is default).|
 |sortBy|Sorts and returns results according to the specified [!DNL JSON] property.|
 |descending|Sorts and returns results in descending order. Ascending is default.|
-|search|Returns results based on the specified string you want to use as a search parameter. For example, let's say you want to find results for all models that have the word "Test" in any of the value fields for that item. Your sample request could look like this:   `GET https://api.demdex.com/v1/models/?search=Test`.  You can search on any value returned by a "get all" method.|
+|search|Returns results based on the specified string you want to use as a search parameter. For example, let's say you want to find results for all models that have the word "Test" in any of the value fields for that item. Your sample request could look like this:   `GET https://aam.adobe.io/v1/models/?search=Test`.  You can search on any value returned by a "get all" method.|
 |folderId|Returns all the IDs for traits inside the specified folder. Not available to all methods.|
 |permissions|Returns a list of segments based on the specified permission.  READ  is default. Permissions include:<ul><li>`READ` : Return and view information about a segment.</li><li>`WRITE` : Use  `PUT`  to update a segment.</li><li>`CREATE` : Use  `POST`  to create a segment.</li><li>`DELETE` : Delete a segment. Requires access to underlying traits, if any. For example, you'll need rights to delete the traits that belong to a segment if you want to remove it.</li></ul><br>Specify multiple permissions with separate key-value pairs. For example, to return a list of segments with  `READ`  and  `WRITE`  permissions only, pass in  `"permissions":"READ"`, `"permissions":"WRITE"` .|
 |includePermissions|(Boolean) Set to  true  to return your permissions for the segment. Default is  false.|
@@ -161,7 +172,7 @@ You can use these optional parameters with [!DNL API] methods that return *all* 
 When page information *is not* specified, the request returns plain [!DNL JSON] results in an array. If page information *is* specified, then the returned list is wrapped in a [!DNL JSON] object that contains information about the total result and current page. Your sample request using page options could look similar to this:
 
 ```
-GET https://api.demdex.com/v1/models/?page=1&pageSize=2&search=Test
+GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 ```
 
 ## API URLs {#api-urls}
@@ -176,17 +187,17 @@ The following table lists the request URLs used to pass in [!DNL API] requests, 
 
 | [!DNL API] Methods | Request [!DNL URL] |
 |--- |--- |
-|Algorithmic Modeling|`https://api.demdex.com/v1/models/`|
-|Data Source|`https://api.demdex.com/v1/datasources/`|
-|Derived Signals|`https://api.demdex.com/v1/signals/derived/`|
-|Destinations|`https://api.demdex.com/v1/destinations/`|
-|Domains|`https://api.demdex.com/v1/partner-sites/`|
-|Folders|Traits:  `https://api.demdex.com/v1/folders/traits /`<br>Segments:  `https://api.demdex.com/v1/folders/segments /`|
-|Schema|`https://api.demdex.com/v1/schemas/`|
-|Segments|`https://api.demdex.com/v1/segments/`|
-|Traits|`https://api.demdex.com/v1/traits/`|
-|Trait Types|`https://api.demdex.com/v1/customer-trait-types`|
-|Taxonomy|`https://api.demdex.com/v1/taxonomies/0/`|
+|Algorithmic Modeling|`https://aam.adobe.io/v1/models/`|
+|Data Source|`https://aam.adobe.io/v1/datasources/`|
+|Derived Signals|`https://aam.adobe.io/v1/signals/derived/`|
+|Destinations|`https://aam.adobe.io/v1/destinations/`|
+|Domains|`https://aam.adobe.io/v1/partner-sites/`|
+|Folders|Traits:  `https://aam.adobe.io/v1/folders/traits /`<br>Segments:  `https://aam.adobe.io/v1/folders/segments /`|
+|Schema|`https://aam.adobe.io/v1/schemas/`|
+|Segments|`https://aam.adobe.io/v1/segments/`|
+|Traits|`https://aam.adobe.io/v1/traits/`|
+|Trait Types|`https://aam.adobe.io/v1/customer-trait-types`|
+|Taxonomy|`https://aam.adobe.io/v1/taxonomies/0/`|
 
 ## Environments {#environments}
 
@@ -194,7 +205,7 @@ The [!DNL Audience Manager] [!DNL API]s provide access to different working envi
 
 |  Environment  | Hostname  |
 |---|---|
-|  **Production** | `https://api.demdex.com/...`  |
+|  **Production** | `https://aam.adobe.io/...`  |
 |  **Beta** | `https://api-beta.demdex.com/...`  |
 
 >[!NOTE]
