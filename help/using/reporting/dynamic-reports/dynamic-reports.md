@@ -12,7 +12,6 @@ uuid: 486f4251-da24-4253-ab01-9dd1da8715aa
 Interactive reports display performance and overlap data for traits and segments. Instead of using numbers arranged in columns and rows, these reports return data using different shapes,colors, and sizes. Additionally, you can choose individual or groups of data points and drill down into the report results for more details. These visualization techniques and report interactivity help make large amounts of numeric data easier to understand.
 
 + [Report Technology](interactive-report-technology.md)
-+ [Delivery and Performance Report](delivery-performance-report.md)
 + [Trait-to-Trait Overlap Report](trait-trait-overlap-report.md)
 + [Segment-to-Trait Overlap Report](segment-trait-overlap-report.md)
 + [Segment-to-Segment Overlap Report](segment-segment-overlap-report.md)

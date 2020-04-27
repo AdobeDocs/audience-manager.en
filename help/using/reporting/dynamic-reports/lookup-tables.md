@@ -65,7 +65,3 @@ The lookup file below holds the metadata and can be linked back to the main file
 ## APIs Can Eliminate the Need for Lookup Tables
 
 If your ad serving system has an API, you might not need to send metadata in a lookup file. We may be able to get that information through the API. When this is the case, your log files should contain IDs only. We'll work with you to determine if metadata can be obtained through an API.
-
->[!MORELIKETHIS]
->
->* [Delivery and Performance Report](../../reporting/dynamic-reports/delivery-performance-report.md)
