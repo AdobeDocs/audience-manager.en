@@ -20,7 +20,7 @@ c_bulk_start.xml
 
 >[!NOTE]
 >
->The [!UICONTROL Bulk Management Tools] *are not* supported by [!DNL Audience Manager]. This tool is provided for convenience and as a courtesy only. For bulk changes, we recommend that you work with the [Audience Manager APIs](../../api/rest-api-main/aam-api-getting-started.md) instead. [RBAC group permissions](../../features/administration/administration-overview.md) assigned in the [!DNL Audience Manager] UI are honored in the [!UICONTROL Bulk Management Tools].
+>[RBAC group permissions](../../features/administration/administration-overview.md) assigned in the [!DNL Audience Manager] UI are honored in the [!UICONTROL Bulk Management Tools].
 
 ## Overview {#overview}
 
@@ -28,14 +28,14 @@ This feature uses a Microsoft Excel spreadsheet with macros that make secure, au
 
 ## Download {#download}
 
-Download the latest worksheet **[here](assets/BAAAM_V2_20191205.xlsm)**. 
+Download the latest worksheet **[here](assets/BAAAM_V2_20200311.xlsm)**. 
 
 ## Prerequisites {#prereqs}
 
 To use the [!DNL Bulk Management Tools], you need the following:
 
 * Your [!DNL Experience Cloud] login. As a customer, you should already have these credentials.
-* The [!DNL Bulk Management Tools] worksheet. [Download the worksheet](assets/BAAAM_V2_20191205.xlsm) to get the latest version.
+* The [!DNL Bulk Management Tools] worksheet. [Download the worksheet](assets/BAAAM_V2_20200311.xlsm) to get the latest version.
 * Microsoft Excel running on [!DNL macOS] or 64-bit [!DNL Microsoft Windows]. We recommend you use the latest version of Microsoft Excel. 
 * When opening the worksheet, you must **Enable Macros** for the [!DNL Bulk Management Tools] to work.  
 

@@ -10,8 +10,6 @@ uuid: e28c20b3-33fc-4485-8ee9-8530d126f741
 
 # Create, Price, and Manage Data Feeds {#create-price-and-manage-data-feeds}
 
-A data feed requires a name, description, data source, and a plan type. Feeds are disabled until you save and activate the feed. Set up public or private data feeds in [!UICONTROL Audience Marketplace] > [!UICONTROL My Shared Data]. Available to data sellers only.
-
 ## Create a Public or Private Data Feed {#create-public-private-data-feed}
 
 A data feed requires a name, description, data source, and a plan type. Feeds are disabled until you save and activate the feed. Set up public or private data feeds in **[!UICONTROL Audience Marketplace > My Shared Data]**. Available to data sellers only.
@@ -26,7 +24,7 @@ To create a data feed:
 1. Provide a brief description (255 characters maximum).
 
    A good description should describe your feed accurately. For example, you could include text for marketing categories, demographics, and geographic coverage (e.g., [!DNL US] or North America). Description text is searchable and helps buyers find or evaluate your feed. A good description is an important part of attracting subscribers to your data feed.
-1. Select a data source from the **[!UICONTROL Data Source]** options.
+1. Select a data source from the **[!UICONTROL Data Source]** options. Data feeds are limited to a single data source. You cannot assign multiple data sources to the same data feed.
 
    >[!IMPORTANT]
    >
@@ -36,7 +34,7 @@ To create a data feed:
 
    Feeds can contain multiple plans. Plans can contain multiple use cases. For details, see [Plan Types for Data Feeds](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#plan-types).
 
-1. Click **[!UICONTROL Save]** to save your data fee *without* activating it.
+1. Click **[!UICONTROL Save]** to save your data feed *without* activating it.
 1. To save and activate a data feed:
    1. Move the **[!UICONTROL Availability]** slider to **[!UICONTROL Active]**.
    1. Click **[!UICONTROL Save]**.

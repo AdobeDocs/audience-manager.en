@@ -12,53 +12,42 @@ uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
 
 Frequently asked questions about bringing offline data into Audience Manager.
 
-<br>&nbsp;
-
-<!-- 
-
-c_inbound_crm_data_ingestion.xml
-
- -->
+&nbsp;
 
 **Can you summarize the onboarding process?**
 
-The onboarding process consists of 2 core components described in [Batch Data Transfer Process Described](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md). These involve:
+The onboarding process consists of two steps described in [Send Batch Data to Audience Manager Overview](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md):
 
-* ID synchronization
-* Inbound Data File ( [!DNL .sync] file or [!DNL .overwrite] file)
+* Step 1: synchronize user IDs;
+* Step 2: create and transfer your inbound data file, by adhering to the file format requirements.
 
-<!-- 
-
-Removed the Data Translation File bullet from the list above.
-
- -->
-
-Below is a list of questions and answers you might find helpful after reviewing the documentation.
-
->[!NOTE]
->
->The examples in this section are simplified or shortened for brevity and demonstration purposes. Refer to the Inbound Data Ingestion documentation for detailed specifications about file formats and syntax.
-
-<br>&nbsp;
+&nbsp;
 
 **Can you summarize the deployment process?**
 
 We recommend the following:
 
-* Work with your data provider to format the daily inbound data file according to [!DNL Adobe] specifications.
-* Transfer a test data file to [!DNL Adobe] for format verification.
+* Work with your data provider to format the daily inbound data file according to the Adobe specifications. See the following documentation for file naming and syntax requirements:
+  * [Name and Content Requirements for ID Synchronization Files](../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md)
+  * [Inbound Data File Contents: Syntax, Invalid Characters, Variables, and Examples](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
+  * [Amazon S3 Name and File Size Requirements for Inbound Data Files](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
+* Work with your [!DNL Adobe] consultant to transfer a test data file to [!DNL Adobe] for format verification.
 * Work with your [!DNL Adobe] consultant to produce a taxonomy suitable for interpreting the contents of the data file.
-* In the staging/development environment, confirm that the ID sync is configured to properly pick up the data provider's visitor ID and transfer it to the [!DNL Audience Manager] servers in realtime.
-* Deploy DIL/ID sync to production. The ID sync will already be configured as a module within the DIL code by your Adobe consultant.
-* Transfer production data files to [!DNL Audience Manager]. Given the dependencies on ID sync mappings, it might make sense to begin transferring data up to one week after production-code deployment, although you can start transferring the data files as soon as code goes into production.
+* In the staging/development environment, confirm that the ID synchronization is configured to properly pick up the data provider's visitor ID and transfer it to the [!DNL Audience Manager] servers in realtime.
+* Deploy DIL/ID synchronization to production. The ID synchronization will already be configured as a module within the DIL code by your Adobe consultant.
+* Transfer production data files to [!DNL Audience Manager]. Given the dependencies on ID synchronization mappings, it might make sense to begin transferring data up to one week after production-code deployment, although you can start transferring the data files as soon as code goes into production.
 
-<br>&nbsp;
+&nbsp;
 
 **What FTP mode should I use to transfer compressed or encrypted files?**
 
 See [File Compression for Inbound Data Transfer Files](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md).
 
-<br>&nbsp;
+>[!WARNING]
+>
+>We are gradually phasing out support for FTP configurations. While inbound data file ingestion is still supported in existing FTP integrations, we strongly recommend using Amazon S3 to onboard offline data for new integrations. See [Amazon S3 Name and File Size Requirements for Inbound Data Files](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) for details.
+
+&nbsp;
 
 **Can I upload an inbound data file ([!DNL .sync] or [!DNL .overwrite] file) before deploying [!DNL Audience Manager] code into production?**
 
@@ -134,25 +123,25 @@ Consider the following use cases in which the data provider is not configured to
 
 [!DNL Audience Manager] checks for and processes files multiple times throughout the day. Upload your data whenever you're ready.
 
-<br>&nbsp;
+&nbsp;
 
 **How long does it take before data from an uploaded file is available for targeting?**
 
 Data is available for targeting after 48 hours. Also, do not interpret the "successful upload" email as a statement that the data is available. This only means that [!DNL Audience Manager] has picked up the file and completed the first step of processing.
 
-<br>&nbsp;
+&nbsp;
 
 **How often should I send files and should these be full or incremental files?**
 
 As a best practice, send an incremental file once per day for new visitors and for visitors whose data has changed. Many [!DNL Audience Manager] customers send a full file once per month. However, these file intervals and increments are flexible. You should send data in increments and at times that make sense for you.
 
-<br>&nbsp;
+&nbsp;
 
 **How long does Audience Manager keep my files on the server?**
 
-FTP files are removed after they've been processed. [!DNL S3] files are removed after 30-days. Files that cannot be processed due to format, syntax, or other errors are removed. See also, [Privacy and Data Retention FAQ](../faq/faq-privacy.md).
+FTP files are removed after they've been processed. [!DNL S3] files are removed after 30 days. Files that cannot be processed due to format, syntax, or other errors, are removed. See also, [Privacy and Data Retention FAQ](../faq/faq-privacy.md).
 
-<br>&nbsp;
+&nbsp;
 
 **What's the difference between full and incremental files?**
 
@@ -166,107 +155,83 @@ FTP files are removed after they've been processed. [!DNL S3] files are removed 
 
 The following use cases demonstrate how these file types affect stored visitor profiles.
 
-<table id="table_CE43B49508384ABF8B25FA8A8FFE5362"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Use Case </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><b>Incremental and Full</b> </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_E89301D815174D45B9B238F2CDE6CCC6"> 
-      <li id="li_FA841FEEC0534AD59D1AB61DD5B9DEC4">Day 1 <code> .sync</code> file contents: <code> visitor123 = a,b,c</code> </li> 
-      <li id="li_0E1A57B04D26481C8C41EBA63ACBEFE0">Day 2 <code> .overwrite</code> file contents: <code> visitor123 = c,d,e</code> </li> 
-      <li id="li_497A5604AD9A49A2ADE548C7CE158F0E"> Day 3 visitor profile ID 123 contains <code> c,d,e </code> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Incremental Only</b> </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_8271C9796BD040E4B8DC64DCE4FE2AD3"> 
-      <li id="li_347959BDE83549F794E6661C95097891">Day 1 <code> .sync</code> file contents: <code> visitor123 = a,b,c </code> </li> 
-      <li id="li_B25D96526DE94171A3A5DC8DB7A19415">Day 2 <code> .sync</code> file contents: <code> visitor123 = c,d,e</code> </li> 
-      <li id="li_6E17809D49C74F4991B0B445469055E6">Day 3 visitor profile ID 123 contains <code> a,b,c,d,e</code> </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+|Use Case|Description|
+|---|---|
+|Incremental and Full|<ul><li>Day 1 `.sync` file contents: `visitor123 = a,b,c`</li><li>Day 2 `.overwrite` file contents: `visitor123 = c,d,e`</li><li>Day 3 visitor profile ID 123 contents: `c,d,e`</li></ul>|
+|Incremental Only|<ul><li>Day 1 `.sync` file contents: `visitor123 = a,b,c`</li><li>Day 2 `.sync` file contents: `visitor123 = c,d,e`</li><li>Day 3 visitor profile ID 123 contents: `a,b,c,d,e`</li></ul>|
 
 For more information about full and incremental file types, see:
 
 * [Amazon S3 Name and File Size Requirements for Inbound Data...](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 
-<br>&nbsp;
+&nbsp;
 
 **What happens if I send in a file with IDs for visitors that have never performed the on-page ID sync?**
 
-During processing, [!DNL Audience Manager] simply skips that record and moves on to the next. If a DPID (Data provider ID) is set up as a cross-device DPID, data that is ingested before an ID sync is saved and is available for use shortly after the ID sync occurs.
+During processing, [!DNL Audience Manager] skips that record and moves on to the next. If a [DPID (Data Provider ID)](../reference/ids-in-aam.md) is set up as a cross-device DPID, data that is ingested before an ID synchronization is saved and is available for use shortly after the ID synchronization occurs.
 
-<br>&nbsp;
+&nbsp;
 
 **What is the time stamp, what is it for, and can you provide an example?**
 
 Time stamps are used for logging and record keeping. They are required by the syntax used for a properly formatted inbound file name. See:
 
-* [Amazon S3 Name Requirements for Inbound Data Files](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) 
+* [Amazon S3 Name Requirements for Inbound Data Files](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 
-
-<br>&nbsp;
+&nbsp;
 
 **What is a Data Provider ID (DPID) and how do I get it?**
 
-Your Adobe consultant will assign a three-digit or four-digit DPID to your particular data source. This ID is unique and does not change.
+Your Adobe consultant will assign a three-digit or four-digit [DPID (Data Provider ID)](../reference/ids-in-aam.md) to your particular data source. This ID is unique and does not change.
 
-<br>&nbsp;
+&nbsp;
 
 **How large can the daily data files be?**
 
 See [File Compression for Inbound Data Transfer Files](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md).
 
-<br>&nbsp;
+&nbsp;
 
 **Does Audience Manager support file compression?**
 
 Yes, see:
 
-* [File Compression for Inbound Data Transfer Files](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) 
-* [Amazon S3 Name Requirements for Inbound Data Files](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) 
+* [File Compression for Inbound Data Transfer Files](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
+* [Amazon S3 Name Requirements for Inbound Data Files](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 
-
-<br>&nbsp;
+&nbsp;
 
 **The primary key in my data source database is an email address. Is that considered personally identifiable information?**
 
-Yes. [!DNL Audience Manager] does not store email addresses in our database. Visitors should be assigned a random ID or a one-way-hashed version of the email address prior to initiating ID syncs.
+Yes. [!DNL Audience Manager] does not store email addresses in its database. Visitors should be assigned a randomly generated ID or a one-way-hashed version of the email address prior to initiating ID synchornizations.
 
-<br>&nbsp;
+&nbsp;
 
-**Are the data file contents case-sensitive? How about the ID sync?**
+**Are the data file contents case-sensitive? How about the ID synchronization?**
 
-There are two basic components of a data file: A User ID (see User ID in [File Variables Defined](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#file-variables-defined)) and profile data, usually in the form of key-value pairs or codes. The User ID is case-sensitive. Generally, profile or key-value data is not case-sensitive.
+There are two basic components of a data file: A [!UICONTROL User ID] (see [!UICONTROL User ID] in [File Variables Defined](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#file-variables-defined)) and profile data, usually in the form of key-value pairs or codes. The [!UICONTROL User ID] is case-sensitive. Generally, profile or key-value data is not case-sensitive.
 
-<br>&nbsp;
+&nbsp;
 
 **Should I use FTP or [!DNL Amazon S3] to transfer files?**
 
 As best practice, we recommend [!DNL Amazon S3] because the process is simpler. [!DNL Audience Manager] transfers FTP files to [!DNL S3] regardless, so the process is more streamlined if you drop the files on [!DNL Amazon S3] yourself. What's more, customers uploading simultaneously to FTP share the FTP's bandwidth, so they should expect slower upload speeds. [!DNL Amazon S3] is also replicated and distributed, so it is generally safer and more reliable than an FTP server. For more information, see [About Amazon S3](../reference/amazon-s3.md).
 
-<br>&nbsp;
+>[!WARNING]
+>
+>We are gradually phasing out support for FTP configurations. While inbound data file ingestion is still supported in existing FTP integrations, we strongly recommend using Amazon S3 to onboard offline data for new integrations. See [Amazon S3 Name and File Size Requirements for Inbound Data Files](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) for details.
+
+&nbsp;
 
 **How does Audience Manger process inbound files?**
 
 [!DNL Audience Manager] uses [!DNL Amazon Simple Queue Service (SQS)] for inbound data processing. Here is how this works:
 
 1. [!DNL Audience Manager] customers upload their inbound data to an [!DNL Amazon S3] bucket.
+1. The data enters the [!DNL Amazon SQS] queue, waiting to be processed by [!DNL Audience Manager].
+1. [!DNL Audience Manager] reads up to 119000 entries from the [!DNL Amazon SQS] queue and splits them in up to 3 batches. Files in each batch get processed simultaneously.
 
-2. The data enters the [!DNL Amazon SQS] queue, waiting to be processed by [!DNL Audience Manager].
-
-3. [!DNL Audience Manager] reads up to 119000 entries from the [!DNL Amazon SQS] queue and splits them in up to 3 batches. Files in each batch get processed simultaneously.
-
-<br>&nbsp;
+&nbsp;
 
 **I need to upload multiple files at the same time. Will the files be processed simultaneously?**
 

@@ -10,7 +10,9 @@ uuid: 8b0ef4e6-d16a-4d1d-94f1-b84eebffa9a5
 
 Backfill trait realizations to capture historical audiences and avoid loss of relevant data prior to a trait creation date.
 
-[!UICONTROL Data Explorer Trait Backfill] is a premium capability that enhances the Audience Manager experience by unlocking additional use cases. Backfill requires additional processing power and is available to all Audience Manager customers at an incremental cost. Please contact your Adobe sales representative for additional details.
+>[!IMPORTANT]
+>
+>[!UICONTROL Data Explorer Trait Backfill] is a premium capability that enhances the Audience Manager experience by unlocking additional use cases. Backfill requires additional processing power and is available to all Audience Manager customers at an incremental cost. Please contact your Adobe sales representative for additional details.
 
 When you create traits from unused signals, you can choose to backfill the trait realizations over a specific period of time. [!DNL Audience Manager] captures the historical data about audiences that qualify for the new trait and stores them on the corresponding profile. You can see the **[!UICONTROL Backfill Options]** in the [!UICONTROL Trait Expression] section of the **[Trait Builder](../../features/traits/about-trait-builder.md)**.
 
@@ -30,12 +32,12 @@ Here's how to backfill trait realizations:
 
    ![estimate-trait-realizations](assets/estimate-trait-realizations.png)
 
-    >[!IMPORTANT]
-    >
-    >Trait backfilling and estimation are not available for traits with expressions that use the following operators:
-    >    * `!=`
-    >    * `matchesregex`
-    >    * `matcheswords`
+   >[!IMPORTANT]
+   >
+   >Trait backfilling and estimation are not available for traits with expressions that use the following operators:
+   >    * `!=`
+   >    * `matchesregex`
+   >    * `matcheswords`
 1. Create the trait.
 
 Once you finish creating the trait, you'll see its backfilled realizations included in the realization statistics.

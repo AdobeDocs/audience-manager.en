@@ -29,7 +29,7 @@ To complete the [!UICONTROL Data Source Details] section:
 1. Provide an integration code. Generally, integration codes are optional. They are required when you want to:
 
     * [Create a cross-device data source](../features/profile-merge-rules/merge-rules-start.md#create-data-source). 
-    * Use the [Experience Cloud ID service](https://marketing.adobe.com/resources/help/en_US/mcvid/). 
+    * Use the [Adobe Experience Platform Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/). 
     * Work with [Profile Merge Rules](../features/profile-merge-rules/merge-rules-start.md).
 
 1. Choose an **[!UICONTROL ID Type]**. ID Type options include:
