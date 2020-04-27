@@ -153,7 +153,7 @@ This technical documentation guide provides self-help assistance for Audience Ma
      <br>&nbsp;
      <p> <b>Latest features</b> </p> <p> 
      Read about the latest Audience Manager features:</p>
-     <p><ul><li><a href="/help/using/features/administration/activity-usage-reporting.md">Activity Usage Reporting</a></li>
+     <p><ul><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Predictive Audiences</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Activity Usage Reporting</a></li>
      <li><a href="/help/using/overview/data-security-and-privacy/data-privacy.md">California Consumer Privacy Act (CCPA) Support and Privacy Documentation Overhaul</a></li>
      <li><a href="/help/using/features/segments/trait-recommendations.md">Intelligent Recommendations for Audience Marketplace Data, powered by Adobe Sensei</a></li>
      <li><a href="/help/using/features/profile-merge-rules/merge-rules-overview.md">Profile Merge Rules Enhancements</a></li></ul><p>
