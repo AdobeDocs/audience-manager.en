@@ -40,7 +40,6 @@ Customers do not have direct access to these systems. However, customers do work
 This is by no means a comprehensive list, but some common dashboard reports that [!UICONTROL Snowflake] is responsible for include:
 
 * [Daily Trait Variation Report](/help/using/reporting/audience-optimization-reports/daily-trait-variation-report.md) 
-* [Delivery and Performance Report](/help/using/reporting/dynamic-reports/delivery-performance-report.md) 
 * All the overlap reports (see the [Interactive Reports](/help/using/reporting/dynamic-reports/dynamic-reports.md) section for information about each overlap report). 
 * [Unused Signals Report](/help/using/reporting/dynamic-reports/unused-signals.md)
 
