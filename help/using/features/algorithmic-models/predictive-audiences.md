@@ -93,7 +93,7 @@ While evaluating first-party audiences and assigning scores, the model uses the 
 ## Considerations and Limitations {#considerations}
 
 >[!IMPORTANT]
-> Read through this article carefully before moving on to the implementation phase.
+> Read through this section carefully before moving on to the implementation phase.
 
 When configuring your [!UICONTROL Predictive Audiences] models, keep in mind the following considerations and limitations:
 
