@@ -35,9 +35,15 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
         + [Usage Limits](features/administration/usage-limits.md)
         + [Activity Usage Reporting](features/administration/activity-usage-reporting.md)
     + Algorithmic Models{#algorithmic-models}
-        + [Algorithmic Models](features/algorithmic-models/understanding-models.md)
-        + [Create an Algorithmic Model](features/algorithmic-models/create-model.md)
-        + [Algorithmic Models: Trait Exclusion](features/algorithmic-models/trait-exclusion-algo-models.md)
+      + [Algorithmic Models Overview](features/algorithmic-models/algo-models-overview.md)
+      + Look-Alike Modeling {#look-alike-modeling}
+        + [Understanding Look-Alike Modeling](features/algorithmic-models/understanding-models.md)
+        + [Create a Look-Alike Model](features/algorithmic-models/create-model.md)
+        + [Look-Alike Modeling: Trait Exclusion](features/algorithmic-models/trait-exclusion-algo-models.md)
+      + Predictive Audiences {#predictive-audiences}
+        + [Predictive Audiences Overview](features/algorithmic-models/predictive-audiences.md)
+        + [Getting Started with Predictive Audiences](features/algorithmic-models/predictive-audiences-start.md)
+        + [Predictive Audiences Reporting](features/algorithmic-models/predictive-audiences-reporting.md)
     + Audience Lab{#audience-lab}
         + [Audience Lab Overview](features/audience-lab/audience-lab.md)
         + [Manage Test Groups](features/audience-lab/audience-lab-manage-test-groups.md)
@@ -192,7 +198,6 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
         + [Daily Trait Variation Report](reporting/audience-optimization-reports/daily-trait-variation-report.md)
     + Interactive and Overlap Reports {#interactive-and-overlap-reports}
         + [Interactive and Overlap Reports Overview](reporting/dynamic-reports/dynamic-reports.md)
-        + [Delivery and Performance Report](reporting/dynamic-reports/delivery-performance-report.md)
         + [Trait-to-Trait Overlap Report](reporting/dynamic-reports/trait-trait-overlap-report.md)
         + [Segment-to-Trait Overlap Report](reporting/dynamic-reports/segment-trait-overlap-report.md)
         + [Segment-to-Segment Overlap Report](reporting/dynamic-reports/segment-segment-overlap-report.md)
@@ -377,6 +382,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
     + [People-Based Destinations FAQ](faq/faq-people-based-destinations.md)
     + [Product Features and Functions FAQ](faq/faq-features.md)
     + [Profile Merge Rules and Device Graph FAQ](faq/faq-profile-merge.md)
+    + [Predictive Audiences FAQ](faq/faq-predictive-audiences.md)
     + [Targeting FAQ](faq/faq-targeting.md) 
     + [Reporting FAQ](faq/faq-reporting.md)
 + Help and Legal{#help-and-legal}

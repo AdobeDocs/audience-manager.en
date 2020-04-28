@@ -7,7 +7,7 @@ title: Getting Started with REST APIs
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 ---
 
-# Getting Started with REST APIs {#getting-started-with-rest-apis}
+# Getting Started with REST APIs {#getting-started-with-rest-apis} 
 
 Information about general requirements, authentication, optional query parameters, request URLs, and other references.
 
@@ -30,7 +30,22 @@ Note the following when working with [Audience Manager API](https://bank.demdex.
 
 * **Documentation and code samples:** Text in *italics* represents a variable that you provide or pass in when making or receiving [!DNL API] data. Replace *italicised* text with your own code, parameters, or other required information.
 
-## Recommendations: Create a Generic API User {#requirements}
+## JWT (Service Account) Authentication {#jwt}
+
+To establish a secure service-to-service Adobe I/O API session, you must create a JSON Web Token (JWT) that encapsulates the identity of your integration, and then exchange it for an access token. Every request to an Adobe service must include the access token in the Authorization header, along with the API Key (Client ID) that was generated when you created the [Service Account Integration](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) in the [Adobe I/O Console](https://console.adobe.io/).
+
+See [JWT (Service Account) Authentication](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md) for detailed instructions on how to configure your authentication.
+
+## OAuth Authentication (Deprecated) {#oauth}
+
+>[!WARNING]
+> Audience Manager [!UICONTROL REST API] token authentication and renewal via [!DNL OAuth 2.0] is now deprecated.
+>
+> Please use [JWT (Service Account) Authentication](#jwt-service-account-authentication-jwt) instead.
+
+The Audience Manager [!UICONTROL REST API] follows [!DNL OAuth 2.0] standards for token authentication and renewal. The sections below describe how to authenticate and start working with the [!DNL API]s.
+
+## Create a Generic API User {#requirements}
 
 We recommend you create a separate, technical user account for working with the Audience Manager [!DNL API]s. This is a generic account that is not tied to or associated with a specific user in your organization. This type of [!DNL API] user account helps you accomplish 2 things:
 
@@ -40,10 +55,6 @@ We recommend you create a separate, technical user account for working with the 
 As an example or use case for this type of account, let's say you want to change a lot of segments at once with the [Bulk Management Tools](../../reference/bulk-management-tools/bulk-management-intro.md). Well, to do this, your user account needs [!DNL API] access. Rather than add permissions to a specific user, create a non-specific, [!DNL API] user account that has the appropriate credentials, key, and secret to make [!DNL API] calls. This is also useful if you develop your own applications that use the Audience Manager [!DNL API]s.
 
 Work with your Audience Manager consultant to set up a generic, [!DNL API]-only user account.
-
-## OAuth Authentication {#oauth}
-
-The Audience Manager [!UICONTROL REST API] follows [!DNL OAuth 2.0] standards for token authentication and renewal. The sections below describe how to authenticate and start working with the [!DNL API]s.
 
 ## Password Authentication Workflow {#password-authentication-workflow}
 
@@ -104,6 +115,7 @@ The following steps outline the workflow for using a refresh token to create a n
 Pass in a refresh token request with your preferred [!DNL JSON] client. When you build the request:
 
 * Use a `POST` method to call `https://api.demdex.com/oauth/token`.
+* Request headers: when using [Adobe I/O](https://www.adobe.io/) tokens, you must provide the `x-api-key` header. You can get your API key by following the instructions in the [Service Account Integration](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) page.
 * Convert your client ID and secret to a base-64 encoded string. Separate the ID and secret with a colon during the conversion process. For example, the credentials `testId : testSecret` convert to `dGVzdElkOnRlc3RTZWNyZXQ=`.
 * Pass in the HTTP headers `Authorization:Basic <base-64 clientID:clientSecret>` and `Content-Type: application/x-www-form-urlencoded`. For example, your header could look like this: <br/> `Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=` <br/> `Content-Type: application/x-www-form-urlencoded`
 * In the request body, specify the `grant_type:refresh_token` and pass in the refresh token you received in your previous access request. The request should look like this: <br/> `grant_type=refresh_token&refresh_token=b27122c0-b0c7-4b39-a71b-1547a3b3b88e`
