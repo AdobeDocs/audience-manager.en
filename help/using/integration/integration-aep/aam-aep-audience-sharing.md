@@ -104,4 +104,4 @@ Segment population numbers can vary between your Audience Manager and Experience
 >
 >* [Segmentation Service overview](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html#audiences)
 >* [Experience Platform Segment Builder user guide](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html#audiences)
->* [Audience Manager Connector](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
+>* [Audience Manager Connector](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html) 
