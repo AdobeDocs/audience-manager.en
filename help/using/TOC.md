@@ -198,7 +198,6 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
         + [Daily Trait Variation Report](reporting/audience-optimization-reports/daily-trait-variation-report.md)
     + Interactive and Overlap Reports {#interactive-and-overlap-reports}
         + [Interactive and Overlap Reports Overview](reporting/dynamic-reports/dynamic-reports.md)
-        + [Delivery and Performance Report](reporting/dynamic-reports/delivery-performance-report.md)
         + [Trait-to-Trait Overlap Report](reporting/dynamic-reports/trait-trait-overlap-report.md)
         + [Segment-to-Trait Overlap Report](reporting/dynamic-reports/segment-trait-overlap-report.md)
         + [Segment-to-Segment Overlap Report](reporting/dynamic-reports/segment-segment-overlap-report.md)

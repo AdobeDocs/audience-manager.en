@@ -65,8 +65,9 @@ When you create a [!UICONTROL Predictive Audiences] model, you go through three 
 
 You can choose any of your first-party traits or segments to define your personas. However, for optimal results, here's a set of recommended best practices:
 
-* Choose your persona traits or segments so that each persona has at least a few hundred user profiles.
-* We recommend choosing traits for your personas, instead of segments. If you must use segments, make sure that your segments consist of simple segment rules consisting of 1 to 3 traits.
+* Choose your persona traits or segments so that each persona has at least a few hundred [device IDs](../../reference/ids-in-aam.md).
+* If your traits are based on [cross-device IDs](../../reference/ids-in-aam.md), you can wrap them in segments with [Profile Merge Rules](../profile-merge-rules/merge-rules-overview.md) that use [device IDs](../../reference/ids-in-aam.md), such as [!UICONTROL Device Graph]. This will ensure there are enough [device IDs](../../reference/ids-in-aam.md) that the algorithm can learn from.
+* We recommend choosing traits or simple segments for your perosnas, consisting of 1 to 3 traits.
 * Choose baseline traits or segments which have minimal overlap.
 * Make sure you are capturing granular traits across your digital properties.
 
@@ -92,7 +93,7 @@ While evaluating first-party audiences and assigning scores, the model uses the 
 ## Considerations and Limitations {#considerations}
 
 >[!IMPORTANT]
-> Read through this article carefully before moving on to the implementation phase.
+> Read through this section carefully before moving on to the implementation phase.
 
 When configuring your [!UICONTROL Predictive Audiences] models, keep in mind the following considerations and limitations:
 
@@ -115,8 +116,7 @@ When configuring your [!UICONTROL Predictive Audiences] models, keep in mind the
 Predictive segments created by [!UICONTROL Predictive Audiences] models inherit the [Data Export Controls](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html) from the following first-party data sources:
 
 1. The first-party data source that you choose when building the model.
-2. The first-party data sources of baselines. Specifically, the union of the data export controls of the baseline traits or segments.
-3. The first-party data sources of your target audience. Specifically, the data export controls of the traits or segments that make up your target audience.
+1. The first-party data sources of your target audience. Specifically, the data export controls of the traits or segments that make up your target audience.
 
 The newly created predictive traits and segments will have the same privacy restrictions as the union of the first-party data sources described above.
 
