@@ -7,7 +7,7 @@ title: Getting Started with REST APIs
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 ---
 
-# Getting Started with REST APIs {#getting-started-with-rest-apis}
+# Getting Started with REST APIs {#getting-started-with-rest-apis} 
 
 Information about general requirements, authentication, optional query parameters, request URLs, and other references.
 
