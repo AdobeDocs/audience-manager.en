@@ -33,6 +33,7 @@ Follow the steps below to build a [!UICONTROL Look-Alike Model]:
     * Name the model.
     * *(Optional)* Provide a brief description about the model.
     * Set the status for the model to **[!UICONTROL Active]** or **[!UICONTROL Inactive]**. Inactive models will not run and will not produce any data.
+    ![look-alike-basic](assets/look-alike-basic.png)
 1. In the [Configuration](../../features/algorithmic-models/create-model.md#configuration) section:
     * Click **[!UICONTROL Browse All Traits]** or **[!UICONTROL Browse All Segments]** to select a trait or segment you want to model against. Search for traits by name, ID, description or data source. Click on a folder while searching to limit results to that folder and its subfolders. You can also filter traits by trait type ([!UICONTROL Folder Trait], [!UICONTROL Rule-based], [!UICONTROL Onboarded], and [!UICONTROL Algorithmic]) or population type ([Device ID](../../reference/ids-in-aam.md) and [Cross-Device ID](../../reference/ids-in-aam.md)).
     ![browse-traits](assets/browse-traits.png)
