@@ -6,7 +6,7 @@ title: Algorithmic Models  Trait Exclusion
 uuid: 1359800b-6e6c-41e1-88b4-23d31952abb3
 ---
 
-# Algorithmic Models: Trait Exclusion {#algorithmic-models-trait-exclusion}
+# Look-Alike Modeling: Trait Exclusion {#algorithmic-models-trait-exclusion}
 
 [!UICONTROL Trait Exclusion] provides additional controls in your modeling workflow, allowing you to add the necessary guard rails to the model, based on your domain expertise and regulatory requirements. Use the [!UICONTROL Exclusions] option to select which traits to ignore when creating models from one or more data sources.
 
@@ -31,8 +31,10 @@ Use the [Build a model](../../features/algorithmic-models/create-model.md#build-
 1. The [!UICONTROL Exclusions] selection is greyed out until you select one or more data sources for modeling.
 2. After selecting one or more data sources for modeling, press **[!UICONTROL Browse All Traits]**.
 3. In the **[!UICONTROL Select Traits to Exclude]** window, you can see all traits associated with the data sources you selected previously. Select the traits you want to exclude.
-4. You can filter the traits by trait type, or you can browse the trait folders. Note that trait folders only display the traits associated with your selected data sources.
+4. You can filter the traits by trait type, trait population type, or you can browse the trait folders. Note that trait folders only display the traits associated with your selected data sources.
 5. Press **[!UICONTROL Exclude Selected Traits]**.
+
+![trait-exclusions](assets/trait-exclusions-browse-traits.png)
 
 >[!TIP]
 >
