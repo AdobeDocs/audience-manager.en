@@ -80,33 +80,51 @@ The numbers in the [!UICONTROL General Reports] are generated directly from our 
 
 ## General Reports Results for Traits {#general-report-results-traits}
 
-The metrics below are available when you run a General report and select **[!UICONTROL Trait]** as the report type:
+The filters below are available when you run a General report and select **[!UICONTROL Trait]** as the report type.
 
-**Unique Trait Realizations**
+When filtering the results by [!UICONTROL Device ID]:
+
+* [!UICONTROL Unique Trait Realizations] is the number of your anonymous device visitors that have added the trait to their profile within the selected time range.
+* [!UICONTROL Total Trait Realization] is the total number of anonymous trait realizations within the selected time range.
+* [!UICONTROL Total Trait Population] is the number of your anonymous device visitors that have this trait on their profile.
+
+![general-report-traits-device](assets/general-report-traits-deviceid.png)
+
+When filtering the results by [!UICONTROL Cross-Device ID]:
+
+* [!UICONTROL Unique Trait Realizations] is the number of your authenticated visitors that have added the trait to their profile, within the selected time range.
+* [!UICONTROL Total Trait Realization] is the total number of authenticated trait realizations within the selected time range.
+* [!UICONTROL Total Trait Population] is the number of your authenticated visitors that have this trait on their profile.
+
+![general-report-traits-cross-device](assets/general-report-traits-cross-device.png)
+
+<!-- 
+### Unique Trait Realizations
 
 This metric represents the unique number of [Audience Manager Unique User IDs (UUID)](../reference/ids-in-aam.md) that qualified for the trait in your selected time range. For example, if a user visited your homepage three times on 10/1, you would see one Unique Trait Realization.
 
-**Total Trait Realizations**
+### Total Trait Realizations
 
 This metric represents the total amount of trait fires for the trait in your selected time range. For example, if a user visited your homepage, then navigated to your tech news and your sports news sections, they would appear in the General Report as three total trait realizations, and one unique trait realization.
 
-**Total Trait Population**
+### Total Trait Population
 
 This metric represents the total amount of Audience Manager UUIDs that are currently qualified for the trait. Use this number to understand the total amount of users you could use for segmentation and targeting. Typically, users remain part of a trait for [120 days](../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval). For example, a user visiting your homepage three times today and never returning afterwards, would remain as a user in this population every day until 120 days from now. At the 120 day mark, they would be removed from the population. Read our [Trait and Segment Qualification Reference](../features/traits/trait-and-segment-qualification-reference.md) for more examples on the difference between Unique Trait Realizations and Total Trait Population.
 
-The illustration below shows the results of running a general report for the Trait report type.
+The illustration below shows the results of running a general report for the Trait report type. -->
+<!-- 
+![](assets/general_reports_metrics.png) -->
 
-![](assets/general_reports_metrics.png)
 
 ## General Reports Results for Segments {#general-report-results-segments}
 
 The metrics below are available when you run a General report and select **[!UICONTROL Segment]** as the report type:
 
-**Real-time Segment Population**
+### Real-time Segment Population
 
 This metric represents the actual number of unique visitors seen in real-time for the specified time range and who were qualified for the segment at the moment they were seen by Audience Manager.
 
-**Total Segment Population**
+### Total Segment Population
 
 This metric represents the total number of Audience Manager UUIDs that are qualified for the segment within the look-back period you selected. Your 1 day Total Segment Population represents your most accurate user base for targeting.
 
