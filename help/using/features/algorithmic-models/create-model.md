@@ -29,14 +29,13 @@ Follow the steps below to build a [!UICONTROL Look-Alike Model]:
 
 1. Go to **[!UICONTROL Audience Data]** > **[!UICONTROL Models]** and click **[!UICONTROL Add New]** in the [!UICONTROL Look-Alike Modeling] section.
     ![look-alike-add](assets/look-alike-add.png)
-1. In the [Basic Information](../../features/algorithmic-models/create-model.md#basic-information) section
+2. In the [Basic Information](../../features/algorithmic-models/create-model.md#basic-information) section
     * Name the model.
     * *(Optional)* Provide a brief description about the model.
     * Set the status for the model to **[!UICONTROL Active]** or **[!UICONTROL Inactive]**. Inactive models will not run and will not produce any data.
     ![look-alike-basic](assets/look-alike-basic.png)
-1. In the [Configuration](../../features/algorithmic-models/create-model.md#configuration) section:
-    * Click **[!UICONTROL Browse All Traits]** or **[!UICONTROL Browse All Segments]** to select a trait or segment you want to model against. Search for traits by name, ID, description or data source. Click on a folder while searching to limit results to that folder and its subfolders. You can also filter traits by trait type ([!UICONTROL Folder Trait], [!UICONTROL Rule-based], [!UICONTROL Onboarded], and [!UICONTROL Algorithmic]) or population type ([Device ID](../../reference/ids-in-aam.md) and [Cross-Device ID](../../reference/ids-in-aam.md)).
-    ![browse-traits](assets/browse-traits.png)
+3. In the [Configuration](../../features/algorithmic-models/create-model.md#configuration) section:
+    * Click **[!UICONTROL Browse All Traits]** or **[!UICONTROL Browse All Segments]** to select a trait or segment you want to model against. Select an onboarded trait, a rule-based trait, or a segment as baseline. Otherwise, your models will not run.
     * Choose a 30, 60, or 90 day look-back period. This sets a time range for the model.
     * The [!UICONTROL TraitWeight] algorithm is selected by default.
     * Select a data source from the [!UICONTROL Available Data] list.
