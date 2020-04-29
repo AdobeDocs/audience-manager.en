@@ -238,10 +238,11 @@ The [!DNL Audience Manager] [!DNL API]s provide access to different working envi
 
 Depending on the authentication method that you use, you need to adjust your environment URLs according to the table below.
 
-|  Environment  | Hostname for OAuth authentication  | Hostname for JWT authentication|
+|  Environment  | Hostname for JWT authentication  | Hostname for OAuth authentication|
 |---|---|---|
-|  **Production** | `https://api.demdex.com/...`  |`https://aam.adobe.io/...`|
-|  **Beta** | `https://api-beta.demdex.com/...`  |`https://aam-beta.adobe.io/...`|
+|  **Production** |`https://aam.adobe.io/...`| `https://api.demdex.com/...`  |
+|  **Beta**  |`https://aam-beta.adobe.io/...`|`https://api-beta.demdex.com/...` |
+
 
 >[!NOTE]
 >
