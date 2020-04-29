@@ -22,6 +22,7 @@ Things you must and should do when working with the Audience Manager [!DNL API]s
 Note the following when working with [Audience Manager API](https://bank.demdex.com/portal/swagger/index.html#/) code:
 
 * **Request parameters:** All request parameters are required unless specified otherwise.
+* **Request headers**: when using [Adobe I/O](https://www.adobe.io/) tokens, you must provide the `x-api-key` header. You can get your API key by following the instructions in the [Service Account Integration](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) page.
 * **[!DNL JSON] content type:** Specify `content-type: application/json`  *and*  `accept: application/json` in your code.
 
 * **Requests and responses:** Send requests as a properly formatted [!DNL JSON] object. [!DNL Audience Manager] responds with [!DNL JSON] formatted data. Server responses can contain requested data, a status code, or both.
@@ -34,8 +35,8 @@ Note the following when working with [Audience Manager API](https://bank.demdex.
 
 The Audience Manager REST APIs support two authentication methods.
 
-* [JWT (Service Account) Authentication](#jwt) is the recommended authentication method.
-* [OAuth Authentication (deprecated)](#oauth). Customers with existing OAuth integrations can continue using this method.
+* [JWT (Service Account) Authentication](#jwt). This is the recommended authentication method.
+* [OAuth Authentication (deprecated)](#oauth). While this method is deprecated, customers with existing OAuth integrations can continue using this method.
 
 >[!IMPORTANT]
 >
@@ -126,7 +127,6 @@ The following steps outline the workflow for using a refresh token to create a n
 Pass in a refresh token request with your preferred [!DNL JSON] client. When you build the request:
 
 * Use a `POST` method to call `https://api.demdex.com/oauth/token`.
-<!-- * Request headers: when using [Adobe I/O](https://www.adobe.io/) tokens, you must provide the `x-api-key` header. You can get your API key by following the instructions in the [Service Account Integration](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) page. -->
 * Convert your client ID and secret to a base-64 encoded string. Separate the ID and secret with a colon during the conversion process. For example, the credentials `testId : testSecret` convert to `dGVzdElkOnRlc3RTZWNyZXQ=`.
 * Pass in the HTTP headers `Authorization:Basic <base-64 clientID:clientSecret>` and `Content-Type: application/x-www-form-urlencoded`. For example, your header could look like this: <br/> `Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=` <br/> `Content-Type: application/x-www-form-urlencoded`
 * In the request body, specify the `grant_type:refresh_token` and pass in the refresh token you received in your previous access request. The request should look like this: <br/> `grant_type=refresh_token&refresh_token=b27122c0-b0c7-4b39-a71b-1547a3b3b88e`
