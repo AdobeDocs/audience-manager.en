@@ -110,6 +110,8 @@ In the example above, the file name would look like this:
 
 [Download example file here](https://marketing.adobe.com/resources/help/en_US/aam/downloads/c2c_id_999999_987654_1560431657.sync).
 
+<!-- Victor/Vlad: Please check the above link. Any way you can move this download to Git? I'm concerned about the plans to decommission marketing.adobe.com -Bob -->
+
 Once you've created your ID synchronization file, you need to upload it to an [!DNL Amazon S3] bucket. To learn how to upload ID synchronization files, see [Send Batch Data to Audience Manager](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md).
 
 ## Step 3 - Create a Profile Merge Rule for Segmentation {#create-merge-rule}

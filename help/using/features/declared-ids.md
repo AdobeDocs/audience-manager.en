@@ -32,7 +32,7 @@ Some browsers, and most mobile devices, do not accept third-party cookies. This 
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Event Call</b> </td> 
-   <td colname="col2"> <p>To work, you need <span class="wintitle"> DIL </span> and the <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Adobe Experience Platform Identity Service </a> code on the page. <span class="wintitle"> DIL </span> gets <span class="wintitle"> declared IDs </span> from the <code> setVisitorID </code> function provided by the <span class="keyword"> Adobe Experience Platform Identity Service </span> and passes that on to <span class="keyword"> Audience Manager </span>. </p> </td> 
+   <td colname="col2"> <p>To work, you need <span class="wintitle"> DIL </span> and the <a href="https://docs.adobe.com/content/help/en/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platform Identity Service </a> code on the page. <span class="wintitle"> DIL </span> gets <span class="wintitle"> declared IDs </span> from the <code> setVisitorID </code> function provided by the <span class="keyword"> Adobe Experience Platform Identity Service </span> and passes that on to <span class="keyword"> Audience Manager </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Match ID</b> </td> 
@@ -183,7 +183,7 @@ Describes the configuration variables used to pass declared IDs through [!UICONT
 
 <!-- r_dil_declared_id_vars.xml -->
 
-When used with the [Adobe Experience Platform Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/), you no longer need to pass in [!UICONTROL declared IDs] with the deprecated `dpid` and `dpuuid` variables. Instead, the current versions of [!UICONTROL DIL] rely on the `visitorService` function to get the [!UICONTROL declared IDs] from the `setCustomerIDs` function in the [!UICONTROL Adobe Experience Platform Identity Service]. For more information, see [Customer IDs and Authentication States](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html). You would call `visitorService` in `DIL.create` as shown below.
+When used with the [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html), you no longer need to pass in [!UICONTROL declared IDs] with the deprecated `dpid` and `dpuuid` variables. Instead, the current versions of [!UICONTROL DIL] rely on the `visitorService` function to get the [!UICONTROL declared IDs] from the `setCustomerIDs` function in the [!UICONTROL Adobe Experience Platform Identity Service]. For more information, see [Customer IDs and Authentication States](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html). You would call `visitorService` in `DIL.create` as shown below.
 
 ```js
 var vDil = DIL.create({
@@ -194,7 +194,7 @@ var vDil = DIL.create({
 });
 ```
 
-In the `namespace` key-value pair, `MCORG` is your [!DNL Experience Cloud] Organization ID. If you don't have this ID, you can find it in the [!UICONTROL Administration] section of the [!DNL Experience Cloud] dashboard. You need administrator permissions to view this dashboard. See [Administration: Core Services](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html).
+In the `namespace` key-value pair, `MCORG` is your [!DNL Experience Cloud] Organization ID. If you don't have this ID, you can find it in the [!UICONTROL Administration] section of the [!DNL Experience Cloud] dashboard. You need administrator permissions to view this dashboard. See [Administration: Core Services](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services.html).
 
 ## Deprecated Functions {#deprecated-functions}
 

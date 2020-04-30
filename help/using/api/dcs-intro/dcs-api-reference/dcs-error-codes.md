@@ -37,7 +37,7 @@ In the tables below, *italics* represents a variable placeholder.
   <tr> 
    <td colname="col1"> <p>2 </p> </td> 
    <td colname="col2"> <p>Invalid <code> d_orgid</code> value (could not find a config for this org id): <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>The Organization ID is incorrect. </p> <p>Check your ID and try the request again. If you do not know or have your Organization ID, see the "Administration Page" section in <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html" format="https" scope="external"> Experience Cloud Administration</a> for information about how to find it. </p> </td> 
+   <td colname="col3"> <p>The Organization ID is incorrect. </p> <p>Check your ID and try the request again. If you do not know or have your Organization ID, see the "Administration Page" section in <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html" format="https" scope="external"> Organizations and account linking</a> for information about how to find it. </p> </td> 
   </tr>
  </tbody>
 </table>
