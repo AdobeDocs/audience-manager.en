@@ -236,4 +236,4 @@ To traffic the `dil.js` file in GTM:
 >
 >* [Google Tag Manager Help Center](https://support.google.com/tagmanager#topic=3441530)
 >* [Signals](../dil/dil-instance-methods.md#signals)
->* [Prefix Requirements for Key Variables](https://marketing.adobe.com/resources/help/en_US/aam/r_tb_variable_prefixes.html)
+>* [Prefix Requirements for Key Variables](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/traits/trait-variable-prefixes.html#prefix-requirements-for-key-variables)
