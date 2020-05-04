@@ -21,7 +21,7 @@ faq_targeting.xml
 
 **Where can I find a full list of third-party data providers supported by Audience Manager?**
 
-See the [Adobe Exchange Marketplace](https://marketing.adobe.com/resources/content/resources/en/exchange/marketplace/audience.html) (https://marketing.adobe.com/resources/content/resources/en/exchange/marketplace/audience.html) for a complete list of third-party data providers that [!DNL Audience Manager] supports.
+See the [Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.html) for a complete list of third-party data providers that [!DNL Audience Manager] supports.
 
 <br>&nbsp;
 

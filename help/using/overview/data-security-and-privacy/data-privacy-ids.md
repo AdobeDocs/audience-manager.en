@@ -162,7 +162,7 @@ When submitting [data privacy requests](data-privacy-requests.md) to Adobe Audie
       }
     ]
   }
-  ```
+```
 
 ## Mobile advertising ID
 

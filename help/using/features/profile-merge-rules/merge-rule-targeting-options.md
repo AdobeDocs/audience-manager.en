@@ -94,7 +94,7 @@ Choosing a [!UICONTROL device graph] option for a [!UICONTROL Profile Merge] rul
   </tr> 
   <tr> 
    <td colname="col1"> <p>External Device Graph Options </p> </td> 
-   <td colname="col2"> <p><span class="wintitle"> Profile Merge</span> rules built with the <a href="https://marketing.adobe.com/resources/help/en_US/mcdc/" format="https" scope="external"> Experience Cloud Device Co-op</a> or any external device graph integrated with <span class="keyword"> Audience Manager</span> are ideal for: </p> <p> 
+   <td colname="col2"> <p><span class="wintitle"> Profile Merge</span> rules built with the <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html" format="https" scope="external"> Experience Cloud Device Co-op</a> or any external device graph integrated with <span class="keyword"> Audience Manager</span> are ideal for: </p> <p> 
      <ul id="ul_D76D773988604A619FA4A3BF37F910F0"> 
       <li id="li_969A0755A9E34CBEB2F7331C137B9A26">Digital properties that have a low-level of customer authentication. </li> 
       <li id="li_AC78C8B4AD5340FFAC44FE851096C6A6">Broad, high-reach brand campaigns. </li> 

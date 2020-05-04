@@ -21,7 +21,7 @@ Answers to common privacy- and data-related questions or issues.
 
 **How does Audience Manager use cookies and what cookies does it set?**
 
-See [Audience Manager Cookies](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_am.html).
+See [Audience Manager Cookies](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-am.html).
 
 **Can Audience Manager clients in the US target users on EU properties?**
 

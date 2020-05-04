@@ -26,7 +26,7 @@ The *`Organization ID`* is a unique ID that identifies your organization to [!DN
 
 For example, an *`Organization ID`* looks like this: `1FD6776A524453CC0A490D44@AdobeOrg`. 
 
-The *`Organization ID`* is used by Audience Manager's [DIL](../dil/dil-overview.md) API, the [Adobe Experience Platform Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/), and other [!DNL Experience Cloud] solutions. Users with Administrator permissions can find the *`Organization ID`* on the [!DNL Adobe Admin Console]. See the [Administration - User Management FAQ](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html).
+The *`Organization ID`* is used by Audience Manager's [DIL](../dil/dil-overview.md) API, the [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html), and other [!DNL Experience Cloud] solutions. Users with Administrator permissions can find the *`Organization ID`* on the [!DNL Adobe Admin Console]. See the [Administration - User Management FAQ](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 <br>&nbsp;
 
@@ -54,7 +54,7 @@ Your data feed and all the traits contained in the feed appear as subfolders and
 
 **What is [!UICONTROL Tag Insertion Manager (TIM)]?**
 
-Audience Manager used [!UICONTROL Tag Insertion Manager] (TIM) to create and manage [!UICONTROL data collection code (DIL)]. This feature is obsolete and has been replaced first by [!UICONTROL Dynamic Tag Manager (DTM)], and later by [!DNL Adobe Experience Platform Launch]. For more information, see [Adobe Experience Platform Launch](https://docs.adobelaunch.com/) and [Dynamic Tag Management](https://marketing.adobe.com/resources/help/en_US/dtm/).
+Audience Manager used [!UICONTROL Tag Insertion Manager] (TIM) to create and manage [!UICONTROL data collection code (DIL)]. This feature is obsolete and has been replaced first by [!UICONTROL Dynamic Tag Manager (DTM)], and later by [!DNL Adobe Experience Platform Launch]. For more information, see [Adobe Experience Platform Launch](https://docs.adobelaunch.com/) and [Dynamic Tag Management](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html).
 
 <br>&nbsp;
 
@@ -82,4 +82,4 @@ You should use Trait Recommendations when:
 
 **Is there any difference between Adobe Analytics and Audience Manager segments?**
 
-Yes, please read [Understanding Segments in Analytics and Audience Manager](https://marketing.adobe.com/resources/help/en_US/analytics/audiences/aam-analytics-segments.html) for an in-depth description of the differences.
+Yes, please read [Understanding Segments in Analytics and Audience Manager](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) for an in-depth description of the differences.
