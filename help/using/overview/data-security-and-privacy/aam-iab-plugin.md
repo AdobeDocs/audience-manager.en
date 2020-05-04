@@ -66,7 +66,7 @@ Once the user selects their privacy choices, the user choice(s) are recorded in 
 
 ## Standard purposes needed by Audience Manager {#aam-standard-purposes}
 
-Audience Manager evaluates the users' choices stored in the IAB TFC consent string for:
+Audience Manager evaluates the users' choices stored in the IAB TCF consent string for:
 
 * Information storage and access (purpose ID 1 in the [global vendor list](https://vendorlist.consensu.org/vendorlist.json))
 * Personalization (purpose ID 2)
