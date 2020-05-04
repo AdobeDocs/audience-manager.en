@@ -49,6 +49,10 @@ Start by watching the [Create Segments in Audience Manager video](https://images
     * Search for the destination and click **[!UICONTROL Add Destination]**. Note, the destination must already exist before you can add it to a segment.
     * Click **[!UICONTROL Save]** when done.
 
+Watch the video below for a detailed look at how cross-device metrics work.
+
+>[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
+
 ## Segment Builder Controls: Basic Information Section {#segment-builder-controls-basics}
 
 In [!UICONTROL Segment Builder], [!UICONTROL the Basic Information] settings let you create new, or edit existing traits. To create a new segment, provide a name, a data source, and select a storage folder. All other fields are optional. Move on to the [!UICONTROL Traits] section when done.

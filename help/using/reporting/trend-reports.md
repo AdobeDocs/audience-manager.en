@@ -92,6 +92,10 @@ When filtering the results by [!UICONTROL Cross-Device ID]:
 
 Zeroes indicate that [!DNL Audience Manager] did not collect data for that day. Blank entries indicate that the trait didn't exist.
 
+Watch the video below for a detailed look at how cross-device metrics work.
+
+>[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
+
 ## Trend Report Results for Segments {#segment-report-results-traits}
 
 The filters below are available when you run a [!UICONTROL Trend Report] and select **[!UICONTROL Segments]** as the report type.
