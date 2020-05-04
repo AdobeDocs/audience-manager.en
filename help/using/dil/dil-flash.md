@@ -152,7 +152,3 @@ s.loadModule(d);
 >* [Signals, Traits, and Segments](../reference/signal-trait-segment.md)
 >* [Key-Value Pairs Explained](../reference/key-value-pairs-explained.md)
 >* [Prefix Requirements for Key Variables](../features/traits/trait-variable-prefixes.md)
-
-<!-- Victor/Vlad: Do we still need this link? It doesn't look like this content has been migrated.
->* [AppMeasurement Flash, Flex, and OSMF Implementation Guide](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/flash/)
--->
