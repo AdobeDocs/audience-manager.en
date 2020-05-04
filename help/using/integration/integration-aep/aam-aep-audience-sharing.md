@@ -67,11 +67,11 @@ For an example of a trait created automatically from an Experience Platform segm
 
 Item number | Name | Description
 ---------|----------|---------
- 1 | Trait Type | Traits created from Experience Platform segments are created as onboarded traits in Audience Manager.
- 2 | Data Source | Automatically created. All traits and segments that are created automatically from Experience Platform segments are stored in the data source **Adobe Experience Platform Audience Sharing**.
- 3 | Integration Code | The integration code corresponds to the segment ID in Experience Platform.
- 4 | Trait Expression | The trait expression is `segID = segment ID in Experience Platform`.
- 5 | Segments with this Trait | An automatically created segment that uses this trait as its composition.
+ 1 | [!UICONTROL Trait Type] | Traits created from Experience Platform segments are created as onboarded traits in Audience Manager.
+ 2 | [!UICONTROL Data Source] | Automatically created. All traits and segments that are created automatically from Experience Platform segments are stored in the data source **[!UICONTROL Adobe Experience Platform Audience Sharing]**.
+ 3 | [!UICONTROL Integration Code] | The integration code corresponds to the segment ID in Experience Platform.
+ 4 | [!UICONTROL Trait Expression] | The trait expression is `segID = segment ID in Experience Platform`.
+ 5 | [!UICONTROL Segments with this Trait] | An automatically created segment that uses this trait as its composition.
 
 <br>&nbsp;
 
@@ -99,10 +99,8 @@ Segment population numbers can vary between your Audience Manager and Experience
 * Segmentation jobs run times. Audience Manager runs a segmentation job that updates the numbers in the interface once per day. This job rarely aligns with the segmentation jobs in Experience Platform.
 * [Profile Merge Rules](/help/using/features/profile-merge-rules/merge-rules-overview.md) in Audience Manager and [Merge Policies](https://docs.adobe.com/content/help/en/experience-platform/profile/ui/merge-policies.html) in Experience Platform work differently, and the identity graph used for each varies. Because of this, some differences between segment populations are expected.
 
-
 >[!MORELIKETHIS]
 >
 >* [Segmentation Service overview](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html#audiences)
 >* [Experience Platform Segment Builder user guide](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html#audiences)
 >* [Audience Manager Connector](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html) 
-
