@@ -1,6 +1,6 @@
 ---
 description: The Bulk Management Tools let you create and manage multiple objects at once with single operation. You can use Bulk Management Tools to work with data sources, derived signals, destinations, folders, segments, and traits.
-keywords: baaam;BAAAM
+keywords: baaam;BAAAM;download baaam
 seo-description: The Bulk Management Tools let you create and manage multiple objects at once with single operation. You can use Bulk Management Tools to work with data sources, derived signals, destinations, folders, segments, and traits.
 seo-title: Getting Started With Bulk Management
 solution: Audience Manager
@@ -28,14 +28,14 @@ This feature uses a Microsoft Excel spreadsheet with macros that make secure, au
 
 ## Download {#download}
 
-Download the latest worksheet **[here](assets/BAAAM_V2_20200311.xlsm)**. 
+Download the latest worksheet **[here](assets/BAAAM_V2_20200502.xlsm)**. 
 
 ## Prerequisites {#prereqs}
 
 To use the [!DNL Bulk Management Tools], you need the following:
 
 * Your [!DNL Experience Cloud] login. As a customer, you should already have these credentials.
-* The [!DNL Bulk Management Tools] worksheet. [Download the worksheet](assets/BAAAM_V2_20200311.xlsm) to get the latest version.
+* The [!DNL Bulk Management Tools] worksheet. [Download the worksheet](assets/BAAAM_V2_20200502.xlsm) to get the latest version.
 * Microsoft Excel running on [!DNL macOS] or 64-bit [!DNL Microsoft Windows]. We recommend you use the latest version of Microsoft Excel. 
 * When opening the worksheet, you must **Enable Macros** for the [!DNL Bulk Management Tools] to work.  
 
