@@ -12,7 +12,7 @@ title: Audience Manager Plug-in for IAB TCF
 
 An important aspect in the privacy obligations you have towards your users is the acquisition and conveyance of user choices over how their personal data may be used (i.e., “purposes”) and by whom (i.e., “companies”).
 
-Adobe provides you with the means to manage and communicate your users' privacy choices through the [Opt-in functionality](hhttps://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/optin-overview.html) and through [IAB Transparency and Consent Framework (TCF)](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/) support.
+Adobe provides you with the means to manage and communicate your users' privacy choices through the [Opt-in functionality](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/optin-overview.html) and through [IAB Transparency and Consent Framework (TCF)](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/) support.
 
 This article describes the Audience Manager use cases that support the IAB TCF and how to implement IAB TCF support in Audience Manager. Audience Manager is registered in the IAB TCF with the vendor ID 565.
 
@@ -36,7 +36,7 @@ You must meet the following prerequisites to use the IAB TCF with Audience Manag
 1. You must be using Adobe Experience Platform Identity Service (ECID) version 4.1 or newer. [Download](https://github.com/Adobe-Marketing-Cloud/id-service/releases) our latest ECID release.
 1. You must be using Audience Manager Data Integration Library (DIL) version 9.0 or newer, downloadable from [here](https://github.com/Adobe-Marketing-Cloud/dil/releases). Read about [DIL in the Audience Manager documentation](../..//dil/dil-overview.md).
 1. Alternatively, if you use Server-Side Forwarding (SSF) to import data into Audience Manager, you must upgrade to the latest version of AppMeasurement. Download AppMeasurement using the [Analytics Code Manager](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/code-manager-admin.html).
-1. You must be using a Consent Management Platform (CMP), either commercial or your own, that supports the IAB TCF, and is registered with the IAB TCF. See the list of [CMPs registered within the IAB framework](https://advertisingconsent.eu/cmp-list/).
+1. You must be using a Consent Management Platform (CMP), either commercial or your own, that supports the IAB TCF, and is registered with the IAB TCF. See the list of [CMPs registered within the IAB framework](https://iabeurope.eu/cmp-list/).
 
 ## Recommendations and how to implement {#recommendations}
 
@@ -66,7 +66,7 @@ Once the user selects their privacy choices, the user choice(s) are recorded in 
 
 ## Standard purposes needed by Audience Manager {#aam-standard-purposes}
 
-Audience Manager evaluates the users' choices stored in the IAB TFC consent string for:
+Audience Manager evaluates the users' choices stored in the IAB TCF consent string for:
 
 * Information storage and access (purpose ID 1 in the [global vendor list](https://vendorlist.consensu.org/vendorlist.json))
 * Personalization (purpose ID 2)
