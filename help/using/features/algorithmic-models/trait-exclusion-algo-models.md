@@ -44,6 +44,10 @@ If you prefer video tutorials, watch our video demonstration for Trait Exclusion
 
 >[!VIDEO](https://video.tv.adobe.com/v/25569/?quality=12)
 
+Additionally, watch the video below for a detailed look at how cross-device metrics work.
+
+>[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
+
 ## Important Aspects & Limitations {#important-aspects-and-limitations}
 
 Please take note of the following aspects and limitations related to [!UICONTROL Trait Exclusion]:
