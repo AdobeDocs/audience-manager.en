@@ -29,6 +29,8 @@ The IAB TCF support described in this article represents the first phase in Audi
 * Appending consent to URLs sent to [URL destinations](../../features/destinations/create-url-destination.md);
 * Appending consent to segments.
 
+<!-- TO VALIDATE WITH ALEX/LAKSHMI -->
+
 ## Prerequisites {#prerequisites}
 
 You must meet the following prerequisites to use the IAB TCF with Audience Manager:
@@ -50,28 +52,19 @@ When visiting a web property, your users can provide their choices regarding how
 
 ![CMP dialogue](assets/cmp.png)
 
-The standard purposes in the IAB framework are:
+The standard purposes in the IAB framework are defined in the [IAB Europe Transparency & Consent Framework Policies](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#A_Purposes).
 
-* Information storage and access
-* Personalization
-* Ad selection, delivery, and reporting
-* Content selection, delivery, and reporting
-* Measurement
+Users may grant their consent for a combination of standard purposes and vendors. For example, users could grant their consent for storage, personalization, and measurement and grant their consent to all third-party vendors displayed by the CMP. Or, in another example, they could grant their consent for all standard purposes but only grant consent to a few of the vendors displayed by the CMP.
 
-Refer to the [IAB framework specification page](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/Consent%20string%20and%20vendor%20list%20formats%20v1.1%20Final.md#purposes-features) for a description of the five standard purposes.
-
-Users may grant their consent for a combination of standard purposes and vendors. For example, users could grant their consent for storage, personalization, and measurement and grant their consent to all third-party vendors displayed by the CMP. Or, in another example, they could grant their consent for all five standard purposes but only grant consent to a few of the vendors displayed by the CMP.
-
-Once the user selects their privacy choices, the user choice(s) are recorded in the IAB TCF consent string. The IAB TCF consent string stores the combination of approved purposes and vendors, along with other metadata information (see the [IAB page](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/Consent%20string%20and%20vendor%20list%20formats%20v1.1%20Final.md#Consent-string-and-vendor-list-format) for more information). Every vendor registered in the IAB TCF evaluates the IAB TCF consent string and makes decisions based on the users' privacy choices. Keep in mind that the users' privacy choices are valid across all approved vendors.
+Once the user selects their privacy choices, the user choice(s) are recorded in the IAB TCF consent string. The IAB TCF consent string stores the combination of approved purposes and vendors, along with other metadata information (see the [IAB page](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/TCFv2/IAB%20Tech%20Lab%20-%20Consent%20string%20and%20vendor%20list%20formats%20v2.md#the-global-vendor-list) for more information). Every vendor registered in the IAB TCF evaluates the IAB TCF consent string and makes decisions based on the users' privacy choices. Keep in mind that the users' privacy choices are valid across all approved vendors.
 
 ## Standard purposes needed by Audience Manager {#aam-standard-purposes}
 
-Audience Manager evaluates the users' choices stored in the IAB TCF consent string for:
+Audience Manager evaluates the users' choices stored in the IAB TCF consent string for the following purposes, defined in the [global vendor list](https://vendorlist.consensu.org/vendorlist.json).
 
-* Information storage and access (purpose ID 1 in the [global vendor list](https://vendorlist.consensu.org/vendorlist.json))
-* Personalization (purpose ID 2)
-* Measurement (purpose ID 5)
-* Audience Manager vendor consent to store, process, or activate on data for a publisher.
+* **Purpose 1**: Store and/or access information on a device;
+* **Purpose 10**: Develop and improve products;
+* **Special Purpose 1**: Ensure security, prevent fraud, and debug;
 
 >[!IMPORTANT]
 >
@@ -108,7 +101,7 @@ Pixels are generally placed by Audience Manager customers on their partner pages
 Audience Manager uses two parameters to pass user consent in pixel calls:
 
 * `gdpr` can be 0 (GDPR does not apply) or 1 (GDPR applies);
-* `gdpr_consent` is the URL-safe base64-encoded GDPR consent string (see [specification](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications)). A sample call for an impression pixel, with the two parameters could look like below:
+* `gdpr_consent` is the URL-safe base64-encoded GDPR consent string (see [specification](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/TCFv2/IAB%20Tech%20Lab%20-%20Consent%20string%20and%20vendor%20list%20formats%20v2.md#about-the-transparency--consent-string-tc-string)). A sample call for an impression pixel, with the two parameters could look like below:
 
 ```
 http://yourcompany.demdex.net/event?d_event=imp&gdpr=1&gdpr_consent=consentstring&d_src=datasource_id&d_site=siteID&d_creative=creative_id&d_adgroup=adgroup_id&d_placement=placement_id
