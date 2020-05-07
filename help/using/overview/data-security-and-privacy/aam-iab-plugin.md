@@ -14,7 +14,11 @@ An important aspect in the privacy obligations you have towards your users is th
 
 Adobe provides you with the means to manage and communicate your users' privacy choices through the [Opt-in functionality](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/optin-overview.html) and through [IAB Transparency and Consent Framework (TCF)](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/) support.
 
-This article describes the Audience Manager use cases that support the IAB TCF and how to implement IAB TCF support in Audience Manager. Audience Manager is registered in the IAB TCF with the vendor ID 565.
+This article describes the Audience Manager use cases that support the IAB TCF and how to implement IAB TCF support in Audience Manager.
+
+>[!IMPORTANT]
+>
+>Audience Manager is registered in the [IAB TCF](https://iabeurope.eu/tcf-for-vendors/) with the vendor ID 565, and only works with vendors who are also registered in the [IAB TCF](https://iabeurope.eu/tcf-for-vendors/).
 
 The Audience Manager Plug-in for IAB TCF utilizes the [Opt-in functionality](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/iab.html), which is, in turn, part of the Adobe [Adobe Experience Platform Identity Service (ECID)](https://docs.adobe.com/content/help/en/id-service/using/home.html) library.
 
@@ -22,29 +26,28 @@ The Audience Manager Plug-in for IAB TCF utilizes the [Opt-in functionality](htt
 
 As a Publisher or Advertiser working with Audience Manager, you are able to convey user choices to Audience Manager as per IAB TCF. This provides you with an easy and consistent way of communicating user choices to all partners you work with and Audience Manager can help you respect your users' privacy choices.
 
-The IAB TCF support described in this article represents the first phase in Audience Manager's planned support for the IAB framework. Currently, Audience Manager does not support:
+Currently, Audience Manager does not support:
 
 * Mobile device workflows;
-* Cross-device consent management;
 * Appending consent to URLs sent to [URL destinations](../../features/destinations/create-url-destination.md);
 * Appending consent to segments.
-
+<!-- * Cross-device consent management; THIS NEEDS TO BE TREATED SEPARATELY-->
 <!-- TO VALIDATE WITH ALEX/LAKSHMI -->
 
 ## Prerequisites {#prerequisites}
 
 You must meet the following prerequisites to use the IAB TCF with Audience Manager:
 
-1. You must be using Adobe Experience Platform Identity Service (ECID) version 4.1 or newer. [Download](https://github.com/Adobe-Marketing-Cloud/id-service/releases) our latest ECID release.
+1. You must be using Adobe Experience Platform Identity Service (ECID) version 5 or newer. [Download](https://github.com/Adobe-Marketing-Cloud/id-service/releases) our latest ECID release.
 1. You must be using Audience Manager Data Integration Library (DIL) version 9.0 or newer, downloadable from [here](https://github.com/Adobe-Marketing-Cloud/dil/releases). Read about [DIL in the Audience Manager documentation](../..//dil/dil-overview.md).
 1. Alternatively, if you use Server-Side Forwarding (SSF) to import data into Audience Manager, you must upgrade to the latest version of AppMeasurement. Download AppMeasurement using the [Analytics Code Manager](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/code-manager-admin.html).
-1. You must be using a Consent Management Platform (CMP), either commercial or your own, that supports the IAB TCF, and is registered with the IAB TCF. See the list of [CMPs registered within the IAB framework](https://iabeurope.eu/cmp-list/).
+1. You must be using a Consent Management Platform (CMP), either commercial or your own, that supports IAB TCF v2.0, and is registered with the IAB TCF. See the list of [CMPs registered within the IAB framework](https://iabeurope.eu/cmp-list/).
 
 ## Recommendations and how to implement {#recommendations}
 
 To enable the IAB TCF support in Audience Manager, read our documentation on [how to set up IAB with Opt-in](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/iab.html).
 
-This is easiest done by using [Adobe Experience Platform Launch](https://docs.adobelaunch.com/) to instrument ECID Opt-in on your properties. Read the documentation for the [ECID Opt-in extension](https://docs.adobelaunch.com/extension-reference/web/experience-cloud-id-service-extension#opt-in) to learn how to set up the Launch extension.
+The easiest way you can do this is by using [Adobe Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) to add ECID Opt-in on your properties. Read the documentation for the [ECID Opt-in extension](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html) to learn how to set up the Launch extension.
 
 ## User choice workflow when using the IAB framework {#user-choice-workflow}
 
@@ -56,7 +59,9 @@ The standard purposes in the IAB framework are defined in the [IAB Europe Transp
 
 Users may grant their consent for a combination of standard purposes and vendors. For example, users could grant their consent for storage, personalization, and measurement and grant their consent to all third-party vendors displayed by the CMP. Or, in another example, they could grant their consent for all standard purposes but only grant consent to a few of the vendors displayed by the CMP.
 
-Once the user selects their privacy choices, the user choice(s) are recorded in the IAB TCF consent string. The IAB TCF consent string stores the combination of approved purposes and vendors, along with other metadata information (see the [IAB page](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/TCFv2/IAB%20Tech%20Lab%20-%20Consent%20string%20and%20vendor%20list%20formats%20v2.md#the-global-vendor-list) for more information). Every vendor registered in the IAB TCF evaluates the IAB TCF consent string and makes decisions based on the users' privacy choices. Keep in mind that the users' privacy choices are valid across all approved vendors.
+Once the user selects their privacy choices, the user choice(s) are recorded in the IAB TCF consent string. The IAB TCF consent string stores the combination of approved purposes and vendors, along with other metadata information (see the [IAB page](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/TCFv2/IAB%20Tech%20Lab%20-%20Consent%20string%20and%20vendor%20list%20formats%20v2.md#the-global-vendor-list) for more information).
+
+Every vendor registered in the IAB TCF evaluates the IAB TCF consent string and makes decisions based on the users' privacy choices. Keep in mind that the users' privacy choices are valid across all vendors registered with IAB TCF.
 
 ## Standard purposes needed by Audience Manager {#aam-standard-purposes}
 
@@ -64,19 +69,21 @@ Audience Manager evaluates the users' choices stored in the IAB TCF consent stri
 
 * **Purpose 1**: Store and/or access information on a device;
 * **Purpose 10**: Develop and improve products;
-* **Special Purpose 1**: Ensure security, prevent fraud, and debug;
+* **Special Purpose 1**: Ensure security, prevent fraud, and debug.
 
 >[!IMPORTANT]
 >
->Audience Manager needs consent for *all three purposes, plus vendor consent* in order to deploy cookies and initiate or honor ID syncs.
+>Audience Manager needs consent for Purpose 1 and Purpose 10, plus vendor consent, in order to deploy cookies and initiate or honor ID syncs.
+>
+>Special Purpose 1 is always consented to, and cannot be opted out of, per IAB regulations.
 
 ## Audience Manager behavior depends on whether the user grants consent {#aam-behavior-consent}
 
-Audience Manager works differently depending on whether Audience Manager detects in the IAB TCF consent string that the user has provided consent for the three purposes (storage, personalization, measurement) or not.
+Audience Manager works differently depending on whether Audience Manager detects in the IAB TCF consent string that the user has provided consent for the two purposes (store and/or access information on a device, and develop and improve products) or not.
 
 | When your user *provides consent*, Audience Manager:  | When your user *declines* consent, Audience Manager: |
 |---|---|
-| <ul><li>Carries out all the Audience Manager use cases you have requested.</li><li>Conveys consent to third parties in ID syncs (by passing gdpr = 1 and the consent string as gdpr_consent on ID sync calls).</li><li>Evaluates and honors consent passed from ad server pixels.</li><li>Honors partner-initiated ID syncs.</li></ul>  | <ul><li>Does not store any new user data in your instance. This includes partner IDs, signals, traits, or pixel data.</li><li>Does not initiate 3rd party ID syncs.</li><li>Does not honor partner-initiated ID syncs.</li></ul> |
+| <ul><li>Carries out all the Audience Manager use cases you have requested.</li><li>Conveys consent to third parties in ID syncs (by passing `gdpr = 1` and the consent string as `gdpr_consent` on ID sync calls).</li><li>Evaluates and honors consent passed from ad server pixels.</li><li>Honors partner-initiated ID syncs.</li></ul>  | <ul><li>Does not store any new user data in your instance. This includes partner IDs, signals, traits, or pixel data.</li><li>Does not initiate 3rd party ID syncs.</li><li>Does not honor partner-initiated ID syncs.</li></ul> |
 
 ## Publisher Use Case {#publisher-use-case}
 
