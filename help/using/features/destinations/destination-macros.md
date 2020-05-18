@@ -50,9 +50,17 @@ When creating a [!DNL URL] destination, you can insert the following macros into
        Based on AAM-22193 https://jira.corp.adobe.com/browse/AAM-22193 
      </draft-comment> </p> </td> 
   </tr> 
+  <tr>
+    <td><p><code>${GDPR}</code></p></td>
+    <td><p>Indicates whether GDPR regulations apply to the visitor or not. Use this macro to include consent in segments sent to URL destinations integrated with IAB. See <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager Plug-in for IAB TCF</a> for details.</p></td>
+  </tr>
+   <tr>
+    <td><code>${GDPR_CONSENT_XXXX}</code></p></td>
+    <td><p>The consent string (including the IAB vendor ID) collected when visitors provide or deny consent on your site. Use this macro to include the consent string in segments sent to URL destinations integrated with IAB. See <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager Plug-in for IAB TCF</a> for details. </p></td>
+  </tr>
   <tr> 
    <td colname="col1"> <p><code> %http_proto%</code> </p> </td> 
-   <td colname="col2"> <p>Detects the protocol used in the parent webpage and inserts it into the destination URL. For example: 
+   <td colname="col2"> <p>Detects the protocol used in the parent webpage and inserts it into the destination URL. For example:
      <br>&nbsp;
      <ul id="ul_026F56EC46E94D9EB1153557C0F65325"> 
       <li id="li_B41EF140CC274CB68FE7213DD8B908C0">if the webpage is <b>https</b>://aam_client.com, this macro will be replaced with <b>https</b>://url-destination.com </li> 
