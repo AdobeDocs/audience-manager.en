@@ -56,7 +56,7 @@ When creating a [!DNL URL] destination, you can insert the following macros into
   </tr>
    <tr>
     <td><code>${GDPR_CONSENT_XXXX}</code></p></td>
-    <td><p>The consent string (including the IAB vendor ID) collected when visitors provide or deny consent on your site. Use this macro to include the consent string in segments sent to URL destinations integrated with IAB. See <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager Plug-in for IAB TCF</a> for details. </p></td>
+    <td><p>The consent string (including the IAB vendor ID) collected when visitors provide or deny consent on your site. Use this macro to include the consent string in segments sent to URL destinations integrated with IAB. Replace <code>XXXX</code> with the destination partner ID. See <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager Plug-in for IAB TCF</a> for details. </p></td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> %http_proto%</code> </p> </td> 
