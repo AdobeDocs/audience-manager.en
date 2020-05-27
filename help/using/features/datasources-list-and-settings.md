@@ -93,6 +93,10 @@ The [!UICONTROL Data Source Settings] contains the controls and options listed b
 
 Select the **[!UICONTROL Inbound]** check box when your data source is designed to receive inbound data. Selecting the **[!UICONTROL Inbound]** check box exposes 2 additional groups of controls described below.
 
+>[!NOTE]
+>
+>The **[!UICONTROL Inbound]** check box is only meant to display or hide the data source controls described below. Unchecking the **[!UICONTROL Inbound]** option does not affect data ingestion in any way. Your onboarded data will be processed regardless of this option being checked.
+
 <table id="table_B2825B7BE0DB4665B47C589A3787CD93"> 
  <thead> 
   <tr> 
