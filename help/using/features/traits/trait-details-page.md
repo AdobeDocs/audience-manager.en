@@ -33,12 +33,20 @@ The [!UICONTROL Trait Graph] provides at-a-glance performance metrics for your s
 
 [!UICONTROL Unique Trait Realizations] represent a count of unique users that added this trait to their profile over the given time range. The [!UICONTROL Total Trait Population] indicates the number of unique users currently qualified for this trait.
 
-* For rule-based traits, trait qualification happens in real-time, as users qualify for a trait in their browser.
-* For onboarded traits, trait qualification happens after an inbound file is processed, i.e. the inbound file is [fed into Audience Manager](../../faq/faq-inbound-data-ingestion.md) and that is when the trait qualification happens.
+For rule-based traits, trait qualification happens in real-time, as users qualify for a trait in their browser.
+
+For onboarded traits, trait qualification happens after an inbound file is processed, i.e. the inbound file is [fed into Audience Manager](../../faq/faq-inbound-data-ingestion.md) and that is when the trait qualification happens.
+
+The [!UICONTROL Trait Graph] shows you the following information:
+
+* **[!UICONTROL Show results by]**
+  * **[!UICONTROL Cross-Device ID]**: select this option to see results for traits that are collecting data for authenticated profiles. When you select this option, you only see data on the [!UICONTROL Cross-Device ID] report, and no data will be present under the [!UICONTROL Device ID] report.
+  * **[!UICONTROL Device ID]**: select this option to see results for traits that are collecting data for device profiles. When you select this option, you only see data on the [!UICONTROL Device ID] report, and no data will be present under the [!UICONTROL Cross-Device ID] report.
+  
+    ![trait-graph](assets/trait-summary.png)
+
 * **[!UICONTROL Unique Trait Realizations]**: A count of unique users that added this trait to their profile over the given time range.
 * **[!UICONTROL Total Trait Population]**: The number of unique users currently qualified for this trait.
-
-    ![trait-graph](assets/trait-summary.png)
 
 * **[!UICONTROL Identity Type Breakdown]**: The first three entries show the top three cross-device data sources with the highest population count that have qualified for the trait, in descending order. The fourth entry shows the sum of all the other [!DNL DPUUIDs] ([!DNL CRM IDs]) that qualified for the trait, from the cross-device data sources that are not in the top three. This report appears only if you select Cross-device ID in the [!UICONTROL Show Results By] drop-down menu at the top right side of the page. The default drop-down option is [!UICONTROL Device ID], where this report is not displayed.
 
