@@ -43,9 +43,9 @@ Currently, Audience Manager does not support:
 >
 >Audience Manager supports IAB TCF v2.0.
 >
->IAB TCF v1.1 support will end on June 30th, 2020.
+>IAB TCF v1.1 support will end on August 15th, 2020.
 >
-> Customers who wish to continue using the IAB TCF for consent management should upgrade to latest version of [ECID](https://github.com/Adobe-Marketing-Cloud/id-service/releases) for continued support.
+> Customers who wish to continue using the Audience Manager Plug-in for IAB TCF for consent management should upgrade to latest version of [ECID](https://github.com/Adobe-Marketing-Cloud/id-service/releases) for continued support.
 >
 > After upgrading to the latest [ECID](https://github.com/Adobe-Marketing-Cloud/id-service/releases) version, IAB TCF v1.1 consent strings will no longer be supported, so make sure to update your CMP before upgrading to the latest ECID version.
 
@@ -70,7 +70,7 @@ The easiest way you can do this is by using [Adobe Experience Platform Launch](h
 
 When visiting a web property, your users can provide their choices regarding how their data is to be used by the publisher and by the third-party vendors that the publisher works with.
 
-Users provide their choices in the form of *standard purposes* and *permissions* to *third-party vendors* registered in the global vendor list. 
+Users provide their choices in the form of *consent* and *legitimate interest* for the IAB purposes to *third-party vendors* registered in the global vendor list. 
 
 The image below represents an example of a CMP dialogue, displayed to a first-time visitor of a website. Keep in mind that this dialogue can look very different, based on customer implementation.
 
@@ -78,7 +78,7 @@ The image below represents an example of a CMP dialogue, displayed to a first-ti
 
 Details on the various purposes and permissions included in IAB TCF v2.0 are covered in the [IAB Europe Transparency & Consent Framework Policies](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#A_Purposes).
 
-Users may grant their consent or legitimate interest for a combination of purposes and vendors. For example, users could grant their consent for storing information on a device, developing and improving products, and grant their consent to all third-party vendors displayed by the CMP.
+Users may grant their consent or legitimate interest (if available) for a combination of purposes and vendors. For example, users could grant their consent for storing information on a device, developing and improving products, and grant their consent to all third-party vendors displayed by the CMP.
 
 Or, in another example, they could grant their consent or legitimate interest for all purposes but only grant consent or legitimate interest to a few of the vendors displayed by the CMP.
 
@@ -98,7 +98,7 @@ Audience Manager evaluates the users' choices stored in the IAB TC string for th
 >
 >Audience Manager needs consent for Purpose 1 and Purpose 10, plus vendor consent, in order to deploy cookies and initiate or honor ID syncs.
 >
->Special Purpose 1 is always consented to, and cannot be opted out of, per [IAB regulations](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#Special_Purpose_1__Ensure_security_prevent_fraud_and_debug_).
+>Per [IAB regulations](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#Special_Purpose_1__Ensure_security_prevent_fraud_and_debug_), Special Purpose 1 (Ensure security, prevent fraud, and debug) is always consented to, and users cannot object to it.
 
 ## Audience Manager behavior depends on whether the user grants consent {#aam-behavior-consent}
 
