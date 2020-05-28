@@ -43,7 +43,7 @@ The [!UICONTROL Trait Graph] shows you the following information:
   * **[!UICONTROL Cross-Device ID]**: select this option to see results for traits that are collecting data for authenticated profiles. When you select this option, you only see data on the [!UICONTROL Cross-Device ID] report, and no data will be present under the [!UICONTROL Device ID] report.
   * **[!UICONTROL Device ID]**: select this option to see results for traits that are collecting data for device profiles. When you select this option, you only see data on the [!UICONTROL Device ID] report, and no data will be present under the [!UICONTROL Cross-Device ID] report.
   
-    ![trait-graph](assets/trait-summary.png)
+    ![trait-graph](assets/trait-summary.gif)
 
 * **[!UICONTROL Unique Trait Realizations]**: A count of unique users that added this trait to their profile over the given time range.
 * **[!UICONTROL Total Trait Population]**: The number of unique users currently qualified for this trait.
