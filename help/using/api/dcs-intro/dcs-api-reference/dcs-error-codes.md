@@ -245,6 +245,23 @@ In the tables below, *italics* represents a variable placeholder.
    <p>Explanation: An <span class="keyword">IDFA (DPID 20915)</span> must be an uppercase ID. The ID provided in the request is lowercase.</p>
    </td>
   </tr>
+   <tr> 
+   <td colname="col1"> <p>313 </p> </td> 
+   <td colname="col2"> <p>CMP ID is not present in GCL</p> </td> 
+   <td colname="col3"> <p></p>
+   </td>
+  </tr>
+   <tr> 
+   <td colname="col1"> <p>314 </p> </td> 
+   <td colname="col2"> <p>CMP ID is marked as deleted in GCL</p> </td> 
+   <td colname="col3"> <p></p></td>
+  </tr>
+   <tr> 
+   <td colname="col1"> <p>315 </p> </td> 
+   <td colname="col2"> <p>Consent string indicates no consent</p> </td> 
+   <td colname="col3"> <p></p>
+   </td>
+  </tr>
 
  </tbody>
 </table>
