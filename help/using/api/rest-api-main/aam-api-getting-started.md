@@ -48,7 +48,7 @@ The Audience Manager REST APIs support two authentication methods.
 
 Before you can configure JWT authentication, make sure you have access to the [Adobe Developer Console](https://console.adobe.io/). Contact your organization administrator for access requests.
 
-### Authentication {authentication}
+### Authentication
 
 Follow the steps below to cnofigure JWT (Service Account) authentication:
 
