@@ -46,7 +46,7 @@ We work with [Digital Envoy](https://www.digitalenvoy.com/) to obtain and update
 |d_region|Regional alphanumeric IDs. Download the [region list](assets/Country_RegionCodes_City.csv).  Then, you can use  this list to match region IDs to region names.|
 |d_isp|ISP/organization. Download the [ISP List](assets/d_isp.txt).|
 
-The list of [all location-based signals](assets/all.csv) comprises all the signals above, in the following order: `d_country,d_city,d_region,d_state,d_dma_code,d_postal_code,d_area_code,d_lat,d_long`
+The list of [all location-based signals](assets/all.txt) comprises all the signals above, in the following order: `d_country,d_city,d_region,d_state,d_dma_code,d_postal_code,d_area_code,d_lat,d_long`
 
 >[!MORELIKETHIS]
 >
