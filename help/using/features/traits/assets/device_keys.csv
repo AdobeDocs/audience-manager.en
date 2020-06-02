@@ -1,131 +1,132 @@
-d_device_vendor,,,,,
-Top 10 US,Top 10 France,Top 10 Germany,Top 10 UK,Top 10 Japan,Top 10 Brazil
-,,,,,
-Apple,Apple,Samsung,Apple,Apple,Samsung
-Verizon,Samsung,Apple,Samsung,DoCoMo,Motorola
-Samsung,Sony,Sony,Sony,KDDI,Apple
-AT&T,Nokia,HTC,HTC,Samsung,LG
-Sprint,HTC,Huawei,Nokia,Sony,Sony
-LG,Wiko,LG,Motorola,Softbank,Nokia
-Motorola,LG,Nokia,LG,Asus,Asus
-T-Mobile,Asus,Microsoft,Microsoft,Kyocera,Microsoft
-HTC,Huawei,Motorola,BlackBerry,Google,Blu
-ZTE,unknown,unknown,unknown,unknown,Unknown
-,,,,,
-d_device_model,,,,,
-Top 10 US,Top 10 France,Top 10 Germany,Top 10 UK,Top 10 Japan,Top 10 Brazil
-,,,,,
-iPhone 6,iPhone,iPhone,iPhone 5C,iPhone 6,iPhone
-iPhone 5C,iPhone 5C,iPhone 6,iPhone 6,iPhone 5C,XT1069
-iPhone 6 Plus,iPhone 6,SM-G900F,SM-G900F,iPhone 6 Plus,XT1033
-SM-G900V,iPhone 4S,iPhone 5C,SM-G920F,iPhone 4S,iPhone 5C
-iPhone 4S,SM-G920F,SM-G920F,iPhone 4S,SO-02G,SM-G530BT
-SM-G920V,SM-G900F,GT-I9505,iPhone 6 Plus,SO-01G,GT-I8552B
-SCH-I545,GT-I9505,GT-I9195,SM-G925F,SOV31,SM-G530H
-SM-G900A,SM-G925F,Generic Android Mobile,GT-I9505,SC-04F,XT1068
-SM-G900P,GT-I9195,SM-G800F,GT-I9195,SOL26,iPhone 6
-SM-G920P,Generic Android Mobile,SM-G925F,SM-A300FU,SO-04E,Moto G (3rd Gen)
-,,,,,
-d_device_manufacturer,,,,,
-Top 10 US,Top 10 France,Top 10 Germany,Top 10 UK,Top 10 Japan,Top 10 Brazil
-,,,,,
-Apple,Apple,Samsung,Apple,Apple,Samsung
-Samsung,Samsung,Apple,Samsung,Samsung,Motorola
-LG,Sony,Sony,Sony,Sony,Apple
-Motorola,Nokia,HTC,HTC,Sharp,LG
-HTC,LG,LG,Nokia,Kyocera,Sony
-ZTE,HTC,Huawei,LG,Fujitsu,Nokia
-Nokia,Wiko,Nokia,Motorola,LG,Asus
-Alcatel,Asus,Microsoft,Microsoft,Asus,Microsoft
-Kyocera,Motorola,Motorola,RIM,Panasonic,Blu
-unknown,unknown,unknown,unknown,unknown,unknown
-,,,,,
-d_device_marketing_name,,,,,
-Top 10 US,Top 10 France,Top 10 Germany,Top 10 UK,Top 10 Japan,Top 10 Brazil
-,,,,,
-iPhone 6,iPhone,iPhone,iPhone 5C,iPhone 6,iPhone
-iPhone 5C,iPhone 5C,Galaxy S5,iPhone 6,iPhone 5C,Moto G 2nd Gen
-iPhone 6 Plus,iPhone 6,iPhone 6,Galaxy S5,iPhone 6 Plus,Galaxy Grand Prime
-Galaxy S5,iPhone 4S,iPhone 5C,Galaxy S6,Xperia Z3,Moto G
-Galaxy S6,Galaxy S5,Galaxy S6,iPhone 4S,iPhone 4S,iPhone 5C
-Galaxy S4,Galaxy S6,Galaxy S4 Mini,iPhone 6 Plus,Galaxy S5,Galaxy Win Duos
-iPhone 4S,Galaxy S4 LTE,Galaxy S4 LTE,Galaxy S6 Edge,Xperia Z4,iPhone 6
-Galaxy Note 4,Galaxy S6 Edge,Galaxy S5 mini,Galaxy S4 LTE,Xperia Z3 Compact,Moto G (3rd Gen)
-Galaxy Note 5,Galaxy S4 Mini,Galaxy S6 Edge,Galaxy S4 Mini,Galaxy S6 Edge,Galaxy J5
-Galaxy S6 Edge,unknown,unknown,Galaxy A3,unknown,unknown
-,,,,,
-,,,,,
-d_device_hardware_type,,,,,
-Predefined values,,,,,
-,,,,,
-Camera,,,,,
-Data Collection Terminal,,,,,
-Desktop,,,,,
-Embedded Network Module,,,,,
-eReader,,,,,
-Games Console,,,,,
-Geolocation Tracker,,,,,
-Glasses,,,,,
-Media Player,,,,,
-Mobile Phone,,,,,
-Payment Terminal,,,,,
-Plug-in Modem,,,,,
-Set Top Box,,,,,
-Tablet,,,,,
-TV,,,,,
-Wireless Hotspot,,,,,
-Wristwatch,,,,,
-,,,,,
-,,,,,
-d_device_os_name,,,,,
-Predefined values,,,,,
-,,,,,
-AMX,,,,,
-Android,,,,,
-Asha platform,,,,,
-Bada,,,,,
-Brew,,,,,
-Chrome OS,,,,,
-Enea OSE,,,,,
-Firefox OS,,,,,
-L4,,,,,
-LG proprietary,,,,,
-Linux,,,,,
-Linux - Arch,,,,,
-Linux - CentOS,,,,,
-Linux - Debian,,,,,
-Linux - Fedora,,,,,
-Linux - Mint,,,,,
-Linux - Red Hat,,,,,
-Linux - Slackware,,,,,
-Linux - Ubuntu,,,,,
-Linux - openSUSE,,,,,
-Mac OS,,,,,
-Maemo,,,,,
-MeeGo,,,,,
-Nokia OS,,,,,
-Nucleus,,,,,
-OS X,,,,,
-Other,,,,,
-Palm OS,,,,,
-RIM,,,,,
-Rex,,,,,
-Sailfish,,,,,
-Samsung proprietary,,,,,
-Sony Ericsson proprietary,,,,,
-Symbian,,,,,
-Tizen,,,,,
-VRTX,,,,,
-Windows,,,,,
-Windows 10,,,,,
-Windows 2000,,,,,
-Windows 7,,,,,
-Windows 8,,,,,
-Windows 8.1,,,,,
-Windows Mobile,,,,,
-Windows Phone,,,,,
-Windows RT,,,,,
-Windows Vista,,,,,
-Windows XP,,,,,
-iOS,,,,,
-webOS,,,,,
+device_keys
+d_device_vendor;;;;;
+Top 10 US;Top 10 France;Top 10 Germany;Top 10 UK;Top 10 Japan;Top 10 Brazil
+;;;;;
+Apple;Apple;Apple;Apple;Apple;Apple
+Samsung;Samsung;Samsung;Samsung;DoCoMo;Samsung
+LG;Huawei;Huawei;Huawei;Samsung;Motorola
+Google;Xiaomi;Xiaomi;Oppo;Au;LG
+Motorola;Unknown;Unknown;Sony;Huawei;Xiaomi
+Verizon;Oppo;Google;Motorola;Sony;Google
+AT&T;Google;Sony;Google;Sharp;Asus
+T-Mobile;Tecno;HTC;Oneplus;Google;Huawei
+Unknown;Motorola;Motorola;Xiaomi;Oppo;Redmi
+Tracfone;Sony;LG;Amazon;Asus;Lenovo
+;;;;;
+d_device_model;;;;;
+Top 10 US;Top 10 France;Top 10 Germany;Top 10 UK;Top 10 Japan;Top 10 Brazil
+;;;;;
+iPhone XR;iPhone 8;iPad (5th Gen);iPhone 7;iPhone 8;iPhone 7 
+iPhone 8 Plus;iPhone 6;iPhone 7;iPhone 8;iPhone 7;iPhone 7 Plus
+iPhone 8;iPhone 7;iPhone 6;iPhone XR;iPhone X;iPhone 8
+iPhone 7;iPhone 6S Plus;iPhone 8;iPhone 6S;iPhone XR;iPhone 6
+iPhone X;iPhone 7 Plus;iPhone X;iPhone 8 Plus;iPhone 7 Plus;iPhone 8 Plus
+iPhone 7 Plus;iPhone XR;iPhone 8 Plus;iPhone X;iPhone 6S;iPhone XR
+iPhone XS Max;iPhone 6S;iPhone XR;iPhone 7 Plus;iPhone XS;iPhone 6S
+iPhone 6S;iPhone 8 Plus;SM-G950F;SM-G960F;iPhone 6;SM-G610M
+iPhone XS;SM-G950F;Generic Android;SM-G950F;iPhone 8 Plus;iPhone 6S Plus
+iPhone 6s Plus;iPhone X;iPhone 6s;iPhone SE;iPhone SE;iPhone X
+;;;;;
+d_device_manufacturer;;;;;
+Top 10 US;Top 10 France;Top 10 Germany;Top 10 UK;Top 10 Japan;Top 10 Brazil
+;;;;;
+Apple;Apple;Apple;Apple;Apple;Apple
+Samsung;Samsung;Samsung;Samsung;Samsung;Samsung
+LG;Huawei;Huawei;Huawei;Sony;Motorola
+Motorola;Xiaomi;Xiaomi;Oppo;Sharp;LG
+Google;Oppo;Sony;Sony;Huawei;Xiaomi
+HTC;LG;LG;Motorola;Fujitsu;Huawei
+Amazon;Motorola;HTC;Xiaomi;Asus;Asus
+Huawei;Asus;Motorola;OnePlus;LG;Lenovo
+ZTE;Tecno;Asus;LG;Oppo;TCL
+unknown;unknown;unknown;unknown;Google;unknown
+;;;;;
+d_device_marketing_name;;;;;
+Top 10 US;Top 10 France;Top 10 Germany;Top 10 UK;Top 10 Japan;Top 10 Brazil
+;;;;;
+iPhone XR;iPhone 8;iPhone;iPad;iPhone 8;iPhone 7
+iPhone 8 Plus;iPhone 6;Galaxy S5;iPhone 7;iPhone 7;iPhone 7 Plus
+iPhone 8;iPhone 7;iPhone 6;iPhone 8;iPhone X;iPhone 8
+iPhone 7;iPhone 6S Plus;iPhone 5C;iPhone 6;iPhone XR;iPhone 6
+iPhone X;iPhone 7 Plus;Galaxy S6;iPhone X;iPhone 7 Plus;iPhone 8 Plus
+iPhone 7 Plus;iPhone XR;Galaxy S4 Mini;iPhone 8 Plus;iPhone 6S;iPhone XR
+iPhone XS Max;iPhone 8 Plus;Galaxy S4 LTE;iPhone XR;iPhone XS;iPhone 6S
+iPhone 6S;iPhone 6S;Galaxy S5 mini;Galaxy S8;iPhone 6;Galaxy J7 Prime
+iPhone XS;Galaxy S8;Galaxy S6 Edge;iPhone 6S;iPhone 8 Plus;iPhone X
+Galaxy S9;unknown;unknown;unknown;iPhone SE;unknown
+;;;;;
+;;;;;
+d_device_hardware_type;;;;;
+Predefined values;;;;;
+;;;;;
+Camera;;;;;
+Data Collection Terminal;;;;;
+Desktop;;;;;
+Embedded Network Module;;;;;
+eReader;;;;;
+Games Console;;;;;
+Geolocation Tracker;;;;;
+Glasses;;;;;
+Media Player;;;;;
+Mobile Phone;;;;;
+Payment Terminal;;;;;
+Plug-in Modem;;;;;
+Set Top Box;;;;;
+Tablet;;;;;
+TV;;;;;
+Wireless Hotspot;;;;;
+Wristwatch;;;;;
+;;;;;
+;;;;;
+d_device_os_name;;;;;
+Predefined values;;;;;
+;;;;;
+AMX;;;;;
+Android;;;;;
+Asha platform;;;;;
+Bada;;;;;
+Brew;;;;;
+Chrome OS;;;;;
+Enea OSE;;;;;
+Firefox OS;;;;;
+L4;;;;;
+LG proprietary;;;;;
+Linux;;;;;
+Linux - Arch;;;;;
+Linux - CentOS;;;;;
+Linux - Debian;;;;;
+Linux - Fedora;;;;;
+Linux - Mint;;;;;
+Linux - Red Hat;;;;;
+Linux - Slackware;;;;;
+Linux - Ubuntu;;;;;
+Linux - openSUSE;;;;;
+Mac OS;;;;;
+Maemo;;;;;
+MeeGo;;;;;
+Nokia OS;;;;;
+Nucleus;;;;;
+OS X;;;;;
+Other;;;;;
+Palm OS;;;;;
+RIM;;;;;
+Rex;;;;;
+Sailfish;;;;;
+Samsung proprietary;;;;;
+Sony Ericsson proprietary;;;;;
+Symbian;;;;;
+Tizen;;;;;
+VRTX;;;;;
+Windows;;;;;
+Windows 10;;;;;
+Windows 2000;;;;;
+Windows 7;;;;;
+Windows 8;;;;;
+Windows 8.1;;;;;
+Windows Mobile;;;;;
+Windows Phone;;;;;
+Windows RT;;;;;
+Windows Vista;;;;;
+Windows XP;;;;;
+iOS;;;;;
+webOS;;;;;
