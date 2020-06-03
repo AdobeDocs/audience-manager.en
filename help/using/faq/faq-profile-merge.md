@@ -252,7 +252,7 @@ Yes. The total segment population metric includes the additional devices that ha
 
 No.
 
-**Why do my segment exports to Adobe Campaign show as 0 after March 16, 2020?**
+**Why do I see zero segment population for segment exports to Adobe Campaign after March 16, 2020?**
 
 In late 2019, we have release a series of Profile Merge Rules enhancements to improve the accuracy of batch files generated using cross-device IDs. These enhancements will be strictly honored in your Audience Manager instance starting from Monday, March 16, 2020. Consquently, segments mapped to a destination using a cross-device IDs will stop producing exports in some Profile Merge Rules configurations.
 
