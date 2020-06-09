@@ -44,9 +44,22 @@ The Audience Manager REST APIs support two authentication methods.
 
 ## JWT (Service Account) Authentication {#jwt}
 
-To establish a secure service-to-service Adobe I/O API session, you must create a JSON Web Token (JWT) that encapsulates the identity of your integration, and then exchange it for an access token. Every request to an Adobe service must include the access token in the Authorization header, along with the API Key (Client ID) that was generated when you created the [Service Account Integration](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) in the [Adobe I/O Console](https://console.adobe.io/).
+### Prerequisites {#prerequisites}
 
-See [JWT (Service Account) Authentication](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md) for detailed instructions on how to configure your authentication.
+Before you can configure JWT authentication, make sure you have access to the [Adobe Developer Console](https://console.adobe.io/). Contact your organization administrator for access requests.
+
+### Authentication
+
+Follow the steps below to cnofigure JWT (Service Account) authentication:
+
+1. Log in to the [Adobe Developer Console](https://console.adobe.io/).
+1. Follow the steps in [Service Account Connection](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
+   * During [Step 2: Add an API to your project using Service Account authentication](https://www.adobe.io/authentication/auth-methods.html#step-2-add-an-api-to-your-project-using-service-account-authentication), choose the Audience Manager API option.
+1. Try out the connection by making your first API call based on the instructions from [Step 3](https://www.adobe.io/authentication/auth-methods.html#step-3-try-it.).
+
+>[!NOTE]
+>
+>To configure and work with the Audience Manager REST APIs in an automated manner, you can generate the JWT programatically. See [JWT (Service Account) Authentication](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md) for detailed instructions.
 
 ## OAuth Authentication (Deprecated) {#oauth}
 

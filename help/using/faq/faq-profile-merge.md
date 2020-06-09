@@ -252,6 +252,19 @@ Yes. The total segment population metric includes the additional devices that ha
 
 No.
 
+**Why do I see zero segment population for segment exports to Adobe Campaign after March 16, 2020?**
+
+In late 2019, we have release a series of Profile Merge Rules enhancements to improve the accuracy of batch files generated using cross-device IDs. These enhancements will be strictly honored in your Audience Manager instance starting from Monday, March 16, 2020. Consquently, segments mapped to a destination using a cross-device IDs will stop producing exports in some Profile Merge Rules configurations.
+
+To ensure the correct integration between your Audience Manager instance and destinations using cross-device IDs, such as Adobe Campaign, make sure you meet the following requirements:
+
+1. Review the Profile Merge Rule used by the segments mapped to your Adobe Campaign Declared ID destination. The Profile Merge Rule must use the [!UICONTROL Last Authenticated Profile] option, so all authenticated profiles could be included in the exports. If your Profile Merge Rule is using a different option, switch it to [!UICONTROL Last Authenticated Profile].
+2. Select the Adobe Campaign Declared ID data source in the Profile Merge Rule settings.
+
+>[!NOTE]
+>
+> We have increased the Profile Merge Rule limit by 1 for customers facing this situation, so that you can create a dedicated Profile Merge Rule for the segments mapped to the Adobe Campaign Declared ID destination, without changing the Profile Merge Rules for other use cases.
+
 >[!MORELIKETHIS]
 >
 >* [Profile Link](../features/profile-merge-rules/profile-link-use-case.md)
