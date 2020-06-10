@@ -92,7 +92,7 @@ Item number | Name | Description
  3 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** indicates that automatically created segments follow the merge policy set up in Experience Platform.
  4 | [!UICONTROL Segment Rule] | The segment consists of the trait described in the [Traits section](#aep-segments-as-aam-traits).
 
-## Adobe Audience Manager Data Export Control support in Experience Platform
+## Audience Manager Data Export Control support in Experience Platform {aam-data-export-control-in-aep}
 
 In order to enforce data usage compliance in Experience Platform, all applicable datasets and fields must be given appropriate [data usage labels](https://docs.adobe.com/content/help/en/experience-platform/data-governance/labels/overview.html). In addition, [data usage policies](https://docs.adobe.com/content/help/en/experience-platform/data-governance/policies/overview.html) must be enabled for specific marketing actions against those labels, as outlined by the [Data Usage Labeling and Enforcement (DULE) framework](https://docs.adobe.com/content/help/en/experience-platform/data-governance/home.html#dule-framework).
 
