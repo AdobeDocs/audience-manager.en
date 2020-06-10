@@ -205,22 +205,22 @@ In the tables below, *italics* represents a variable placeholder.
   <tr> 
    <td colname="col1"> <p>303 </p> </td> 
    <td colname="col2"> <p>Blocked customer id <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Returned when the customer ID has been identified as malicious and has been blacklisted. </p> </td> 
+   <td colname="col3"> <p>Returned when the customer ID has been identified as malicious and has been added to a denylist. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>304 </p> </td> 
    <td colname="col2"> <p>Blocked datasource id <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Returned when the data source ID has been identified as malicious and has been blacklisted. </p> </td> 
+   <td colname="col3"> <p>Returned when the data source ID has been identified as malicious and has been added to a denylist </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>306 </p> </td> 
    <td colname="col2"> <p>Blocked declared device id <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>The device ID has been identified as malicious and has been blacklisted. This can happen when we receive an extreme amount of <span class="wintitle"> DCS</span> requests containing this device ID in a short amount of time. </p> </td>
+   <td colname="col3"> <p>The device ID has been identified as malicious and has been added to a denylist This can happen when we receive an extreme amount of <span class="wintitle"> DCS</span> requests containing this device ID in a short amount of time. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>307 </p> </td> 
    <td colname="col2"> <p>Blocked profile operation for <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>A read/write action has been blocked because an ID has been identified as malicious and has been blacklisted. See error code 306. </p> </td> 
+   <td colname="col3"> <p>A read/write action has been blocked because an ID has been identified as malicious and has been added to a denylist See error code 306. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>309 </p> </td> 
