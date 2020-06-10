@@ -92,6 +92,37 @@ Item number | Name | Description
  3 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** indicates that automatically created segments follow the merge policy set up in Experience Platform.
  4 | [!UICONTROL Segment Rule] | The segment consists of the trait described in the [Traits section](#aep-segments-as-aam-traits).
 
+## Adobe Audience Manager Data Export Control support in Experience Platform
+
+In order to enforce data usage compliance in Experience Platform, all applicable datasets and fields must be given appropriate [data usage labels]([./labels/overview.md](https://docs.adobe.com/content/help/en/experience-platform/data-governance/labels/overview.html)). In addition, [data usage policies]([./api/policies.md](https://docs.adobe.com/content/help/en/experience-platform/data-governance/policies/overview.html)) must be enabled for specific marketing actions against those labels, as outlined by the [Data Usage Labeling and Enforcement (DULE) framework](https://docs.adobe.com/content/help/en/experience-platform/data-governance/home.html#dule-framework).
+
+In the audience sharing process between Audience Manager and Experience Platform, any Data Export Controls that have been applied to Audience Manager segments are translated to equivalent labels and marketing actions recognized by Experience Platform Data Governance, and vice versa.
+
+>[!NOTE] For more general information on Data Export Controls, please refer to the [Data Export Controls documentation](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html).
+This document provides a reference for how specific Audience Manager Data Export Controls map to data usage labels and marketing actions in Platform.
+
+### Data Export Controls to data usage labels
+
+The following table outlines how specific Data Export Controls map to recognized data usage labels:
+
+| Data Export Control | Data usage label |
+| --- | --- |
+| Cannot be used with personally identifiable information | C3: Data cannot be combined or otherwise used with directly identifiable information |
+| Cannot be used for offsite ad targeting | C5: Data cannot be used for interest-based, cross-site targeting of content or ads |
+| Cannot be used for onsite ad targeting | C6: Data cannot be used for on-site ad targeting |
+| Cannot be used for onsite personalization | C7: Data cannot be used for on-site targeting of content |
+
+### Data Export Controls to marketing actions
+
+The following table outlines how specific Data Export Labels map to recognized marketing actions:
+
+| Data Export Label | Marketing action |
+| --- | --- |
+| This destination may enable a combination with personally identifiable information (PII) | Combine with PII |
+| This destination may be used for off-site ad targeting | Cross Site Targeting |
+| This destination may be used for on-site ad targeting | Onsite Advertising |
+| This destination may be used for on-site ad personalization | Onsite Personalization |
+
 ## Understand segment population differences between Audience Manager and Experience Platform 
 
 Segment population numbers can vary between your Audience Manager and Experience Platform segments. While segment numbers for similar or identical audiences should be close, differences in populations can be due to:
