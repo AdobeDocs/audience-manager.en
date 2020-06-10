@@ -30,13 +30,13 @@ Traits onboarded via [!UICONTROL Inbound] are populated by [!UICONTROL Inbound] 
 
 <br>&nbsp;
 
-**Can you provide me with a list of IP addresses I can whitelist for dpm.demdex.net?**
+**Can you provide me with a list of IP addresses I can add to an allow list for dpm.demdex.net?**
 
 Unfortunately, we cannot. These IPs are assigned dynamically, by geographic region, through [!DNL Amazon Web Services]. As a result, [!DNL Audience Manager] does not control the range of IPs that can be assigned to this address.
 
 <br>&nbsp;
 
-**Can you provide me with an IP address I can whitelist for your inbound and outbound sFTP server?**
+**Can you provide me with an IP address I can add to an allow list for your inbound and outbound sFTP server?**
 
 Yes, see below.
 

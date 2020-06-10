@@ -229,7 +229,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
             + [DCS API Reference Overview](api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md)
             + [DCS API Methods](api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
             + [DCS Error Codes, Messages, and Examples](api/dcs-intro/dcs-api-reference/dcs-error-codes.md)
-            + [ID Monitoring and Blacklisting](api/dcs-intro/dcs-api-reference/id-monitoring-blacklisting.md)
+            + [ID Monitoring and Denylisting](api/dcs-intro/dcs-api-reference/id-monitoring-denylisting.md)
             + [DCS Region IDs, Locations, and Host Names](api/dcs-intro/dcs-api-reference/dcs-regions.md)
             + [Formatting Key-Value Pairs in DCS Calls](api/dcs-intro/dcs-api-reference/dcs-key-format.md)
             + [Race Conditions and Error Handling](api/dcs-intro/dcs-api-reference/dcs-race-conditions.md)
