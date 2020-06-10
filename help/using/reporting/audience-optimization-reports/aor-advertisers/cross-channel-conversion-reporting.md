@@ -30,11 +30,7 @@ The following table lists important considerations when setting up [!UICONTROL C
   <tr> 
    <td colname="col01"> <p>Minimum number of conversion traits </p> </td> 
    <td colname="col1"> <p>At least one conversion trait must be assigned to a data source in order for the <span class="wintitle"> Cross Channel Conversion</span> reports to run. See <a href="../../../features/traits/create-onboarded-rule-based-traits.md"> Basic Information for Traits</a> for more information on traits. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> <p>Maximum number of conversion traits </p> </td> 
-   <td colname="col1"> <p>The reports pull in a <i>maximum</i> of 50 conversion traits from the user. If you reach the maximum, the reports use the first 50 conversion traits based on trait ID, in ascending order. </p> </td> 
-  </tr> 
+  </tr>
   <tr> 
    <td> <p>Attribution window </p> </td> 
    <td> <p> <b><span class="uicontrol"> The AAM+DCM</span></b> attribution window is 14 days, meaning that only conversion traits exhibited in the last two weeks are considered. </p> </td> 
