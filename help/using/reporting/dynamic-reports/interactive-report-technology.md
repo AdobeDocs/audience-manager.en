@@ -77,4 +77,4 @@ The following table defines the shapes, sizes, and colors used in the dynamic re
 
 ## Tableau Documentation {#tableau-documentation}
 
-To learn more about the Tableau controls that you can see in our interactive reports, refer to the official documentation for [Tableau Server on Linux 2018.2](https://help.tableau.com/v2018.2/server-linux/en-us/get_started_server.htm.)
+To learn more about the Tableau controls that you can see in our interactive reports, refer to the official documentation for [Tableau Server on Linux 2018.2](https://help.tableau.com/v2018.2/server-linux/en-us/get_started_server.htm)
