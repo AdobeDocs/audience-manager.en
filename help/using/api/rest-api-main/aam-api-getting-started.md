@@ -50,7 +50,7 @@ Before you can configure JWT authentication, make sure you have access to the [A
 
 ### Authentication
 
-Follow the steps below to cnofigure JWT (Service Account) authentication:
+Follow the steps below to configure JWT (Service Account) authentication:
 
 1. Log in to the [Adobe Developer Console](https://console.adobe.io/).
 1. Follow the steps in [Service Account Connection](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
