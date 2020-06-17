@@ -8,15 +8,15 @@ title: Index of IDs in Audience Manager
 uuid: 292185ec-7c6a-414b-ab17-800c21cb1f01
 ---
 
-# Index of IDs in Audience Manager{#index-of-ids-in-audience-manager}
+# Index of IDs in Audience Manager {#index-of-ids-in-audience-manager}
 
 ## Overview {#overview}
 
-Audience Manager uses multiple IDs to identify and manage the data you send to it. Refer to this article for the complete list of Adobe Audience Manager IDs, together with examples of the prefixes you should use them with.
+[!DNL Audience Manager] uses multiple IDs to identify and manage the data you send to it. Refer to this article for the complete list of Adobe Audience Manager IDs, together with examples of the prefixes you should use them with.
 
 ## ID Prefixing {#prefixing}
 
-While you can refer to most of these IDs by their standalone names, most of them are meant to be used with various prefixes, when passing in data through DCS calls. Some of these IDs are used by Audience Manager without being exposed to users, while others are also visible in the user interface (UI).
+While you can refer to most of these IDs by their standalone names, most of them are meant to be used with various prefixes, when passing in data through [!DNL DCS] calls. Some of these IDs are used by Audience Manager without being exposed to users, while others are also visible in the user interface (UI).
 
 To understand the prefixes used in the following examples, see [Supported Attributes for DCS API Calls](../api/dcs-intro/dcs-api-reference/dcs-keys.md).
 
@@ -24,9 +24,9 @@ To understand the prefixes used in the following examples, see [Supported Attrib
 
 | ID | Name and Description | Usage and Examples | UI Location|
 |---|---|---|---|
-| [!DNL AAM UUID] | Audience Manager Unique User ID, also known as [!UICONTROL Device ID]. A numerical, 38-digit device ID that Audience Manager associates to each device it interacts with. Think of this ID whenever you see a mention of unique users in the Audience Manager UI. Audience Manager saves this ID as a cookie in the `demdex.net` 3rd party domain. | In [!DNL DCS] calls, `uuid` is preceded by the `d_` prefix. <br>Example: `d_uuid = 07955261652886032950143702505894272138` |You can filter traits by [!UICONTROL Device ID] when creating [Look-Alike Models](../features/algorithmic-models/create-model.md), and [building segments](../features/segments/segment-builder.md). You can also filter results by [!UICONTROL Device ID] when running [General Reports for Traits](../reporting/general-reports.md) and [Trend Reports for Traits](../reporting/trend-reports.md).|
-|[!DNL ImsOrgId]|Organization ID. This is the ID that a company is provided with upon signing up for an Experience Cloud account. |`5DC5123F5245B1D20A490D46@AdobeOrg`|Not visible in the Audience Manager UI. To learn how you can find your company's Organization ID, read [Find your Organization ID](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html#concept_EA8AEE5B02CF46ACBDAD6A8508646255).|
-|PID|Partner ID. The PID is a company's ID in Audience Manager. Audience Manager associates an [!DNL imsOrgId] to a [!DNL PID]. |`1352`| Not visible in the Audience Manager UI. |
+| [!DNL AAM UUID] | Adobe Audience Manager Unique User ID, also known as [!UICONTROL Device ID]. A numerical, 38-digit device ID that [!DNL Audience Manager] associates to each device it interacts with. Think of this ID whenever you see a mention of unique users in the [!DNL Audience Manager] UI. Audience Manager saves this ID as a cookie in the `demdex.net` 3rd party domain. | In [!DNL DCS] calls, `uuid` is preceded by the `d_` prefix. <br>Example: `d_uuid = 07955261652886032950143702505894272138` |You can filter traits by [!UICONTROL Device ID] when creating [Look-Alike Models](../features/algorithmic-models/create-model.md), and [building segments](../features/segments/segment-builder.md). You can also filter results by [!UICONTROL Device ID] when running [General Reports for Traits](../reporting/general-reports.md) and [Trend Reports for Traits](../reporting/trend-reports.md).|
+|[!DNL ImsOrgId]|Organization ID. This is the ID that a company is provided with upon signing up for an Experience Cloud account. |`5DC5123F5245B1D20A490D46@AdobeOrg`|Not visible in the Audience Manager UI. To learn how you can find your company's [!DNL Organization ID], read [Find your Organization ID](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html#concept_EA8AEE5B02CF46ACBDAD6A8508646255).|
+|[!DNL PID]|Partner ID. The [!DNL PID] is a company's ID in Audience Manager. Audience Manager associates an [!DNL imsOrgId] to a [!DNL PID]. |`1352`| Not visible in the Audience Manager UI. |
 |[!DNL ECID], [!DNL MID]|Experience Cloud ID. The Experience Cloud ID ([!DNL ECID], legacy abbreviations [!DNL MID] or [!DNL MCID]) is derived mathematically from your Organization ID and the Audience Manager Unique User ID. As long as these IDs remain constant, generating the right [!DNL ECID] for a specific user is simply a math problem. With the same organization ID and Audience Manager [!DNL UUID] you get the same [!DNL ECID] value every time. You can read more about the ECID in the [Cookies and Experience Cloud ID](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html#section-15f69c0bac394b4b9966a23fbc586d17) documentation. |`mid = 08382830887934830189014177072406221371` | Not visible in the Audience Manager UI.|
 |[!DNL SID]|Trait ID. The Trait ID uniquely identifies traits in the Audience Manager environment. |In [!DNL DCS] calls, `SID` is preceded by the `d_` prefix. <br>Example `d_sid=289983`.|A Trait ID is assigned to each trait, and visible in the UI, in the [Traits](../features/traits/trait-details-page.md) page.|
 |[!DNL SID]|Segment ID. The Segment ID uniquely identifies segments in the Audience Manager environment. |In [!DNL DCS] calls, `SID` is preceded by the `d_` prefix. <br>Example `d_sid=4798574`.|A Segment ID is assigned to each segment, and visible in the UI, in the [Segments](../features/segments/segment-summary-view.md) page.|
