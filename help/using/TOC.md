@@ -304,6 +304,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
             + [OAuth 2.0 Integration for Real-Time Outbound Transfers](integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md)
         + Batch Outbound Data Transfers{#batch-outbound-data-transfers}
             + [Batch Outbound Data Transfers overview](integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md)
+            + [Configure Batch Data Transfer Integration](integration/receiving-audience-data/batch-outbound-transfers/batch-server-configuration.md)
             + [Outbound Data File Name: Syntax and Examples](integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md)
             + [Transfer-Control Files for Log File Transfers](integration/receiving-audience-data/batch-outbound-transfers/transfer-control-files.md)
             + [Outbound Template Macros](integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)
