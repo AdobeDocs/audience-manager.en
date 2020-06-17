@@ -11,7 +11,7 @@ uuid: 3eb1335a-6949-452b-b77a-697c22856cb3
 
 # Addressable Audience {#addressable-audiences}
 
-An overview of the Addressable Audience feature and use cases.
+An overview of the [!UICONTROL Addressable Audience] feature and use cases.
 
 ## What is an Addressable Audience? {#addressable-audience-description}
 
