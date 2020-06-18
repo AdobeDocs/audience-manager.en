@@ -9,7 +9,7 @@ uuid: af02f2a1-4388-4074-ab4e-66ee82023f1c
 
 # Formatting Key-Value Pairs in DCS Calls {#formatting-key-value-pairs-in-dcs-calls}
 
-When making a call, the [!UICONTROL DCS] accepts key-value data in standard or serialized format. Review this section for information about how to format standard and serialized key-value data.
+When making a call, the [!DNL DCS] accepts key-value data in standard or serialized format. Review this section for information about how to format standard and serialized key-value data.
 
 ## Standard and Serialized Key-Value Pairs {#standard-serialized}
 

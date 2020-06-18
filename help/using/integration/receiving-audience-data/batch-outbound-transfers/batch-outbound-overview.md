@@ -13,6 +13,10 @@ Audience Manager sends batch data to third-party content providers according to 
 
   Describes the required fields, syntax, and conventions used to name an outbound data file.
 
+* [Configure Batch Data Transfer Integration](batch-server-configuration.md)
+
+  Describes the methods through which you can get your batch data transfer integration configured.
+
 * [Transfer-Control Files for Log File Transfers](/help/using/integration/receiving-audience-data/batch-outbound-transfers/transfer-control-files.md)
 
   Transfer-control (.info) files provide metadata information about file transfers so that partners can verify that Audience Manager handled file transfers correctly.

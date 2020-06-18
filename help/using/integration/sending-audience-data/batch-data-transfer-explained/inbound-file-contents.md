@@ -7,7 +7,7 @@ title: Inbound Data File Contents  Syntax, Invalid Characters, Variables, and Ex
 uuid: 88699b29-1502-4183-a9a4-be70692a02bb
 ---
 
-# Inbound Data File Contents: Syntax, Invalid Characters, Variables, and Examples{#inbound-data-file-contents-syntax-invalid-characters-variables-and-examples}
+# Inbound Data File Contents: Syntax, Invalid Characters, Variables, and Examples {#inbound-data-file-contents-syntax-invalid-characters-variables-and-examples}
 
 Required fields, syntax, and rules you should follow when formatting an inbound trait data file.
 
@@ -275,7 +275,7 @@ The chart below shows examples of the correct way to format your Inbound files, 
 
 ### Example 1 {#example-1}
 
-Use trait IDs to send trait qualification information for Audience Manager UUIDs.
+Use trait IDs to send trait qualification information for [!DNL Audience Manager] [!DNL UUIDs].
 
 ```
 59767559181262060060278870901087098252 <TAB> d_sid=24, d_sid=26, d_sid=27
@@ -283,7 +283,7 @@ Use trait IDs to send trait qualification information for Audience Manager UUIDs
 
 ### Example 2 {#example-2}
 
-Use trait IDs to send trait disqualification information for Audience Manager UUIDs.
+Use trait IDs to send trait disqualification information for [!DNL Audience Manager] [!DNL UUIDs].
 
 ```
 59767559181262060060278870901087098252 <TAB> d_unsid=24, d_unsid=26, d_unsid=27
@@ -303,7 +303,7 @@ or
 
 ### Example 3 {#example-3}
 
-Send in key-value pairs to add trait qualification information for Audience Manager UUIDs.
+Send in key-value pairs to add trait qualification information for [!DNL Audience Manager] [!DNL UUIDs].
 
 ```
 59767559181262060060278870901087098252 <TAB> product = tablet, product = phone
@@ -317,7 +317,7 @@ or
 
 ### Example 4 {#example-4}
 
-Use the ic prefix to send trait qualification information for Audience Manager UUIDs.
+Use the ic prefix to send trait qualification information for [!DNL Audience Manager] [!DNL UUIDs].
 
 ```
 59767559181262060060278870901087098252 <TAB> 30608,50354,50338,50352,30626
@@ -331,7 +331,7 @@ or
 
 ### Example 5 {#example-5}
 
-Use trait IDs to send trait qualification information for Android devices.
+Use trait IDs to send trait qualification information for [!DNL Android] devices.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -339,7 +339,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_sid=24, d_sid=25, d_sid=26
 
 ### Example 6 {#example-6}
 
-Use trait IDs to send trait disqualification information for Android devices.
+Use trait IDs to send trait disqualification information for [!DNL Android] devices.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_unsid=24, d_unsid=25, d_unsid=26
@@ -359,7 +359,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> 24:-1, 26:-1, 27:-1
 
 ### Example 7 {#example-7}
 
-Send in key-value pairs to add trait qualification information for Android devices.
+Send in key-value pairs to add trait qualification information for [!DNL Android] devices.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> product = tablet, product = phone
@@ -373,7 +373,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> "product" = "tablet", "product" = "ph
 
 ### Example 8 {#example-8}
 
-Use the ic prefix to send trait qualification information for Android devices.
+Use the ic prefix to send trait qualification information for [!DNL Android] devices.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> 30608,50354,50338,50352,30626
@@ -387,7 +387,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> ic=52,ic=55
 
 ### Example 9 {#example-9}
 
-Use trait IDs to send trait qualification information for iOS devices.
+Use trait IDs to send trait qualification information for [!DNL iOS] devices.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -395,7 +395,7 @@ Use trait IDs to send trait qualification information for iOS devices.
 
 ### Example 10 {#example-10}
 
-Use trait IDs to send trait disqualification information for iOS devices.
+Use trait IDs to send trait disqualification information for [!DNL iOS] devices.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> d_unsid=24, d_unsid=25, d_unsid=26
@@ -415,7 +415,7 @@ or
 
 ### Example 11 {#example-11}
 
-Send in key-value pairs to add trait qualification information for iOS devices.
+Send in key-value pairs to add trait qualification information for [!DNL iOS] devices.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> product = tablet, product = phone
@@ -429,7 +429,7 @@ or
 
 ### Example 12 {#example-12}
 
-Use the ic prefix to send trait qualification information for iOS devices.
+Use the ic prefix to send trait qualification information for [!DNL iOS] devices.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> 30608,50354,50338,50352,30626
@@ -443,7 +443,7 @@ or
 
 ### Example 13 {#example-13}
 
-Use trait IDs to send trait qualification information for DPUUIDs.
+Use trait IDs to send trait qualification information for [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -451,7 +451,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_sid=24, d_sid=25, d_sid=26
 
 ### Example 14 {#example-14}
 
-Use trait IDs to send trait disqualification information for DPUUIDs.
+Use trait IDs to send trait disqualification information for [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_unsid=24, d_unsid=25, d_unsid=26
@@ -471,7 +471,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 24:-1, 26:-1, 27:-1
 
 ### Example 15 {#example-15}
 
-Send in key-value pairs to add trait qualification information for DPUUIDs.
+Send in key-value pairs to add trait qualification information for [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> product = tablet, product = phone
@@ -485,7 +485,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> "product" = "tablet", "product" = 
 
 ### Example 16 {#example-16}
 
-Use the ic prefix to send trait qualification information for DPUUIDs.
+Use the `ic` prefix to send trait qualification information for [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 30608,50354,50338,50352,30626

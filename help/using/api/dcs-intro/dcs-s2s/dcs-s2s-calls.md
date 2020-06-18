@@ -11,11 +11,11 @@ Calls require the host name of the regional DCS server and the user ID. If you d
 
 >[!NOTE]
 >
->In the code and examples, *italics* represents a variable placeholder. Substitute a real value for the placeholder when you server-to-server calls to the [!UICONTROL DCS].
+>In the code and examples, *italics* represents a variable placeholder. Substitute a real value for the placeholder when you server-to-server calls to the [!DNL DCS].
 
 ## Call Syntax and Example {#call-syntax-example}
 
-A basic server-to-server request that sends data to the [!UICONTROL DCS] uses the syntax shown below.
+A basic server-to-server request that sends data to the [!DNL DCS] uses the syntax shown below.
 
 ```js
 "Host:domain_alias.demdex.net" "https://DCS_host_name.demdex.net/event?d_rtbd=json&d_jsonv=1&d_uuid=userID

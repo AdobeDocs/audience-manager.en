@@ -90,7 +90,7 @@ Read below for a description of what each wildcard permission means:
 
 **Reports**
 
-* `PTRREPORTS` - This wildcard permission refers to outdated functionality and will be removed from the Audience Manager UI shortly.
+* `PTRREPORTS` - This wildcard permission refers to outdated functionality and will be removed from the Audience Manager user interface shortly.
 
 **Models**
 

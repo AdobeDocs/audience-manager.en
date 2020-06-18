@@ -9,7 +9,7 @@ uuid: a9eee940-151c-44f8-9fe9-8ab47d8fa45c
 
 # Batch Data Transfer Process Described {#batch-data-transfer-process-described}
 
-A general overview of how Audience Manager performs an asynchronous batch data exchange with a third-party vendor.
+A general overview of how [!DNL Audience Manager] performs an asynchronous batch data exchange with a third-party vendor.
 
 ## Batch Data Integration
 

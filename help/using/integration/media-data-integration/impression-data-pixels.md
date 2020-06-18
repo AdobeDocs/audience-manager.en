@@ -19,7 +19,7 @@ This methodology is often referred to as "pixeling the creative." Those data poi
 >
 >The text styles (`monospaced text`, *italics*, brackets `[ ]` `( )`, etc.) indicate code elements and options. See [Style Conventions for Code and Text Elements](../../reference/code-style-elements.md) for more information.
 
-The event call collects impression and conversion data and sends it to the [!DNL Audience Manager] [data collection servers](/help/using/reference/system-components/components-data-collection.md) ([!UICONTROL DCS]). This process relies on third-party ad servers that place the call in the creative to control what content gets inserted into the code. The third-party ad servers (for example, [!DNL DFA]) can place this code within each ad impression. Furthermore, an ad call does not use [!DNL JavaScript] or employ frame-busting techniques to access publisher data outside of the ad tag.
+The event call collects impression and conversion data and sends it to the [!DNL Audience Manager] [data collection servers](/help/using/reference/system-components/components-data-collection.md) ([!DNL DCS]). This process relies on third-party ad servers that place the call in the creative to control what content gets inserted into the code. The third-party ad servers (for example, [!DNL DFA]) can place this code within each ad impression. Furthermore, an ad call does not use [!DNL JavaScript] or employ frame-busting techniques to access publisher data outside of the ad tag.
 
 Event calls consist of key-value pairs that use the following syntax:
 
