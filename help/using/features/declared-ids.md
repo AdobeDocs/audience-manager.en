@@ -14,13 +14,13 @@ How declared IDs work, set up procedures, code examples, and variables.
 
 ## Declared ID Targeting {#declared-id-targeting}
 
-Exchange and synchronize user IDs with Audience Manager from devices or browsers that do not use or accept persistent storage mechanisms, such as third-party cookies.
+Exchange and synchronize user IDs with [!DNL Audience Manager] from devices or browsers that do not use or accept persistent storage mechanisms, such as third-party cookies.
 
 <!-- declared_id_about.xml -->
 
 ## Purpose of Declared ID Targeting {#declared-id-targeting-purpose}
 
-Some browsers, and most mobile devices, do not accept third-party cookies. This makes it difficult to retain information about site visitors or assign persistent IDs. To resolve this issue, Audience Manager uses [!UICONTROL DIL] to let you pass in [!UICONTROL declared IDs] on an event call. Also, a [!UICONTROL declared ID] can act as a universal ID that applies to the same user across all the solutions in the [!DNL Experience Cloud]. The following table describes the ID targeting/matching process:
+Some browsers, and most mobile devices, do not accept third-party cookies. This makes it difficult to retain information about site visitors or assign persistent IDs. To resolve this issue, [!DNL Audience Manager] uses [!UICONTROL DIL] to let you pass in [!UICONTROL declared IDs] on an event call. Also, a [!UICONTROL declared ID] can act as a universal ID that applies to the same user across all the solutions in the [!DNL Experience Cloud]. The following table describes the ID targeting/matching process:
 
 <table id="table_5D59CD5AF70B44C3B45D279283D4691F"> 
  <thead> 
@@ -53,10 +53,10 @@ To get started, you need to configure the [!DNL Experience Cloud] ID service and
 
 ## Opt-out Calls {#opt-out-calls}
 
-The [!UICONTROL declared ID] process honors site visitor preferences to opt-out of Audience Manager targeting by your website. When Audience Manager receives an opt-out request, the [!DNL JSON] returned by the [!UICONTROL DCS] contains the error code 171, with the message "Encountered opt out tag", instead of the Audience Manager user ID.
+The [!UICONTROL declared ID] process honors site visitor preferences to opt-out of [!DNL Audience Manager] targeting by your website. When [!DNL Audience Manager] receives an opt-out request, the [!DNL JSON] returned by the [!DNL DCS] contains the error code 171, with the message "Encountered opt out tag", instead of the [!DNL Audience Manager] user ID.
 
-* Audience Manager can pass in a [!UICONTROL declared ID] opt-out alongside an Audience Manager [!UICONTROL UUID] in the [!DNL URL].
-* The [!UICONTROL declared ID] opt-out is stored in the [!UICONTROL Profile Cache Server ([!UICONTROL PCS]) on a per-partner basis. There is no platform-level opt-out using [!UICONTROL declared IDs]. Additionally, Audience Manager opts the user out from that particular region on the edge (the opt-out does not cross [!UICONTROL DCS] regions).
+* [!DNL Audience Manager] can pass in a [!UICONTROL declared ID] opt-out alongside an [!DNL Audience Manager] [!UICONTROL UUID] in the [!DNL URL].
+* The [!UICONTROL declared ID] opt-out is stored in the [!UICONTROL Profile Cache Server ([!UICONTROL PCS]) on a per-partner basis. There is no platform-level opt-out using [!UICONTROL declared IDs]. Additionally, [!DNL Audience Manager] opts the user out from that particular region on the edge (the opt-out does not cross [!DNL DCS] regions).
 
 See [Data Privacy](../overview/data-security-and-privacy/data-privacy.md) for more information about opting-out of data collection.
 
@@ -225,9 +225,9 @@ The following table describes the legacy variables used by the `declaredId` obje
 
 ### `DPID` and `DPUUID`
 
-Audience Manager compares and matches the combined `DPID` and `DPUUID` to a corresponding user ID in our system. If an ID does not exist, Audience Manager creates a new user ID and synchronizes it to the `DPID/DPUUID` combination. Once Audience Manager matches or creates a user ID (the `UUID`) it returns that ID in the [!DNL JSON] response to the cookie in the client's domain (first-party cookie) or other local storage.
+[!DNL Audience Manager] compares and matches the combined `DPID` and `DPUUID` to a corresponding user ID in our system. If an ID does not exist, [!DNL Audience Manager] creates a new user ID and synchronizes it to the `DPID/DPUUID` combination. Once [!DNL Audience Manager] matches or creates a user ID (the `UUID`) it returns that ID in the [!DNL JSON] response to the cookie in the client's domain (first-party cookie) or other local storage.
 
-Call this function when you're using [!UICONTROL DIL] v6.1 or earlier. However, this function has been deprecated in favor of the new version that gets [!UICONTROL declared IDs] from the [!UICONTROL Adobe Experience Platform Identity Service].
+Call this function when you're using [!UICONTROL DIL] v6.1 or earlier. However, this function has been deprecated in favor of the new version that gets [!UICONTROL declared IDs] from the [!DNL Adobe Experience Platform Identity Service].
 
 ```js
 DIL.create({
@@ -241,7 +241,7 @@ DIL.create({
 
 >[!NOTE]
 >
->Note, you need to programmatically develop the code that supplies the ID values for the `d_dpuuid` and `d_dpid` keys.
+>You need to programmatically develop the code that supplies the ID values for the `d_dpuuid` and `d_dpid` keys.
 
 ### Pass In IDs After DIL Instantiates
 
@@ -258,7 +258,7 @@ DIL.getDil('partner name').api.signals({...}).declaredId({
 
 ## Request/Response Examples {#request-response-examples}
 
-The request sends a data provider and user ID to Audience Manager:
+The request sends a data provider and user ID to [!DNL Audience Manager]:
 
 ```
 https://my_domain.net/event?d_rtbd=json&d_cb=myCallback&key=val&d_dpuuid=1234&d_dpid=5678
@@ -275,7 +275,7 @@ myCallback({
 
 ## Do Not Target and Opt-Out Calls {#do-not-target}
 
-The [!UICONTROL declared ID] process honors site visitor preferences to opt-out of Audience Manager targeting by your website. When Audience Manager receives an opt-out request, the [!UICONTROL DCS] returns an empty [!DNL JSON] object instead of the Audience Manager user ID.
+The [!UICONTROL declared ID] process honors site visitor preferences to opt-out of [!DNL Audience Manager] targeting by your website. When [!DNL Audience Manager] receives an opt-out request, the [!DNL DCS] returns an empty [!DNL JSON] object instead of the [!DNL Audience Manager] user ID.
 
 >[!MORELIKETHIS]
 >

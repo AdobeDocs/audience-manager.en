@@ -77,13 +77,13 @@ The [!UICONTROL Addressable Audience] feature turns this abstract concept into q
 
 ![](assets/addressable-audiences-landing.png)
 
-The three metrics you can see on the Addressable Audiences landing page represent:
+The three metrics you can see on the [!UICONTROL Addressable Audiences] landing page represent:
 
 Metric | Description |
 ---------|----------|
- **Addressable Audience (devices)** | This metric represents the Customer Addressable Audience (described in the table above) *for the last 30 days.* |
- **Match Rate** | This metric represents the Addressable Audience Match Rate (described in the table above) *for the last 30 days*. |
- **Lifetime Addressable Audience (devices)** | A count of all devices that have interacted with all Audience Manager customers at the platform-level during the report look-back period and that could be matched with this destination. See [Platform-Level Metrics](/help/using/features/addressable-audiences.md#platform-level-metrics) for more information. |
+ **[!UICONTROL Addressable Audience (Device)]** | This metric represents the [!UICONTROL Customer Addressable Audience] (described in the table above) *for the last 30 days.* |
+ **[!UICONTROL Match Rate]** | This metric represents the [!UICONTROL Addressable Audience Match Rate] (described in the table above) *for the last 30 days*. |
+ **[!UICONTROL Lifetime Addressable Audience (Device)]** | A count of all devices that have interacted with all [!DNL Audience Manager] customers at the platform-level during the report look-back period and that could be matched with this destination. See [Platform-Level Metrics](/help/using/features/addressable-audiences.md#platform-level-metrics) for more information. |
 
  Click on the name of a server-to-server destination to view your addressable audience data. Note, this feature returns data for server-to-server destinations only and access requires administrator permissions.
 
@@ -207,7 +207,7 @@ These metrics return data on segment membership. They help provide a more granul
 
 ### Platform-Level Metrics {#platform-level-metrics}
 
-This metric returns data on activities collected across all Audience Manager customers. They can provide a broader view of the customer's audience compared with the aggregated Audience Manager customers.
+This metric returns data on activities collected across all [!DNL Audience Manager] customers. They can provide a broader view of the customer's audience compared with the aggregated [!DNL Audience Manager] customers.
 
 <table id="table_B6654D9858FF46AF95B1C181D4608D26"> 
  <thead> 
@@ -271,4 +271,4 @@ In addition to surfacing match rates, you can also use [!UICONTROL Addressable A
 
 <!-- addressable-audiences-troubleshooting.xml -->
 
-For example, let's say you send a segment to a destination and that destination shows low reporting numbers. Checking the [!UICONTROL Addressable Audience] results will show you if this is a technical problem or just a case of low match rates. A low match rate shows your destination isn't all that great for your selected segments. However, a difference in the total addressable audience numbers between Audience Manager and the destination indicates an integration, synchronization, or other technical problem. In these cases, contact your account manager.
+For example, let's say you send a segment to a destination and that destination shows low reporting numbers. Checking the [!UICONTROL Addressable Audience] results will show you if this is a technical problem or just a case of low match rates. A low match rate shows your destination isn't all that great for your selected segments. However, a difference in the total addressable audience numbers between [!DNL Audience Manager] and the destination indicates an integration, synchronization, or other technical problem. In these cases, contact your account manager.

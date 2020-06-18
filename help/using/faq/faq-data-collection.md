@@ -20,9 +20,9 @@ faq_data_collection_integration.xml
 
  -->
 
-**How can I differentiate inbound traffic from [!UICONTROL DCS] traffic in [!UICONTROL DCS] log file exports?**
+**How can I differentiate inbound traffic from [!DNL DCS] traffic in [!DNL DCS] log file exports?**
 
-Traits onboarded via [!UICONTROL Inbound] are populated by [!UICONTROL Inbound] the same way they get populated by [!UICONTROL DCS]. There are a few different ways to tell that traffic came from [!UICONTROL Inbound]:
+Traits onboarded via [!UICONTROL Inbound] are populated by [!UICONTROL Inbound] the same way they get populated by [!DNL DCS]. There are a few different ways to tell that traffic came from [!UICONTROL Inbound]:
 
 * Remote IP will be set to 68.67.173.18
 * DomainID will be set to 5325
@@ -168,13 +168,13 @@ No, do not rely on the [!UICONTROL General Reports] and [!UICONTROL Trend Report
 
 The reports compute populations based on the unauthenticated profile records (UUIDs) we see in the backend at the time the reports are generated.
 
-On a first call to the [!UICONTROL DCS], the declared IDs are *not* linked to any UUID (i.e. no [demdex cookie](hhttps://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-am.html) is present on the client side). The [!UICONTROL DCS] will randomly generate a UUID and set a [!DNL demdex] cookie and pass it on in the response call, but it will not transmit the UUID to the backend.
+On a first call to the [!DNL DCS], the declared IDs are *not* linked to any UUID (i.e. no [demdex cookie](hhttps://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-am.html) is present on the client side). The [!DNL DCS] will randomly generate a UUID and set a [!DNL demdex] cookie and pass it on in the response call, but it will not transmit the UUID to the backend.
 
 >[!NOTE]
 >
 >The generated UUID will only be materialized in our backend data storage once the device on which the cookie is set will trigger further activity.
 
-For this reason, the reports will not reflect the events triggered by the declared IDs in your call. We recommend you use UUID, ECID (formerly MID) or mobile device IDs in event test calls to the [!UICONTROL DCS]. Then, you can verify the trait and segment realizations in the [!UICONTROL General Reports] and in the [!UICONTROL Trend Reports].
+For this reason, the reports will not reflect the events triggered by the declared IDs in your call. We recommend you use UUID, ECID (formerly MID) or mobile device IDs in event test calls to the [!DNL DCS]. Then, you can verify the trait and segment realizations in the [!UICONTROL General Reports] and in the [!UICONTROL Trend Reports].
 
 See also, the [Index of Audience Manager IDs](../reference/ids-in-aam.md).
 
