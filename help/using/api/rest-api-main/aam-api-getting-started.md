@@ -39,7 +39,7 @@ The [!DNL Audience Manager] [!DNL REST APIs] support two authentication methods.
 >
 >Depending on your authentication method, you need to adjust your request [!DNL URLs] accordingly. See the [Environments](#environments) section for details about the hostnames that you should use.
 
-## JWT (Service Account) Authentication {#jwt}
+## JWT ([!DNL Service Account]) Authentication {#jwt}
 
 ### Prerequisites {#prerequisites}
 
@@ -271,14 +271,14 @@ New versions of these [!DNL API]s are released on a regular schedule. A new rele
 
 |  Response code ID  | Response text  | Definition  |
 |---|---|---|
-|  200  | `OK`  | The request processed successfully. Will return expected content or data if required.  |
-|  201  | `Created`  | The resource was created. Returns for `PUT` and `POST` requests.  |
-|  204  | `No Content`  | The resource has been deleted. The response body will be blank.  |
-|  400  | `Bad Request`  | The server did not understand the request. Usually due to malformed syntax. Check your request and try again.  |
-|  403  | `Forbidden`  | You do not have access to the resource.  |
-|  404  | `Not Found`  | The resource could not be found for the specified path.  |
-|  409  | `Conflict`  | The request could not be completed due to a conflict with the state of the resource.  |
-|  500  | `Server Error`  | The server encountered an unexpected error that prevented it from fulfilling the request.  |
+|  `200`  | `OK`  | The request processed successfully. Will return expected content or data if required.  |
+|  `201`  | `Created`  | The resource was created. Returns for `PUT` and `POST` requests.  |
+|  `204`  | `No Content`  | The resource has been deleted. The response body will be blank.  |
+|  `400`  | `Bad Request`  | The server did not understand the request. Usually due to malformed syntax. Check your request and try again.  |
+|  `403`  | `Forbidden`  | You do not have access to the resource.  |
+|  `404`  | `Not Found`  | The resource could not be found for the specified path.  |
+|  `409`  | `Conflict`  | The request could not be completed due to a conflict with the state of the resource.  |
+|  `500`  | `Server Error`  | The server encountered an unexpected error that prevented it from fulfilling the request.  |
 
 >[!MORELIKETHIS]
 >
