@@ -308,7 +308,7 @@ This use case lets you evaluate supplier traits against your traits with [algori
 
 ### Activation
 
-This use case lets you send data to a [destination](../../../features/destinations/destinations.md). In [!UICONTROL Audience Manager], a destination is any third-party system (ad server, [!DNL DSP], [!DNL DMP], exchange, etc.) that you want to share data with. However, with an [!UICONTROL Activation] use case, you cannot run overlap reports or test the data in an algorithmic model.
+This use case lets you send data to a [destination](../../../features/destinations/destinations.md). In [!DNL Audience Manager], a destination is any third-party system (ad server, [!DNL DSP], [!DNL DMP], exchange, etc.) that you want to share data with. However, with an [!UICONTROL Activation] use case, you cannot run overlap reports or test the data in an algorithmic model.
 
 >[!MORELIKETHIS]
 >

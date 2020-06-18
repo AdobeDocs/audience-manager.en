@@ -177,7 +177,7 @@ See the [Experience Cloud ID](../reference/aam-glossary.md#e-f).
 
 **PCS**
 
-[!UICONTROL Profile Cache Server]. The [!UICONTROL PCS] is a large database, running on Apache Cassandra. It stores data received for active users from server-to-server transfers and the [!UICONTROL DCS]. [!UICONTROL PCS] data consists of device IDs, authenticated profile IDs, and their associated traits.
+[!UICONTROL Profile Cache Server]. The [!UICONTROL PCS] is a large database, running on Apache Cassandra. It stores data received for active users from server-to-server transfers and the [!DNL DCS]. [!UICONTROL PCS] data consists of device IDs, authenticated profile IDs, and their associated traits.
 
 See [Data Collection Components](../reference/system-components/components-data-collection.md).
 

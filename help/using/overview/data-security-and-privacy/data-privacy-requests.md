@@ -12,16 +12,16 @@ uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 
 ## Overview {#overview}
 
-This document provides an overview of managing individual data privacy and opt-out requests that you can send to Audience Manager through the [Privacy Service UI](https://privacyui.cloud.adobe.io/) and the **[!DNL Privacy Service API]**.
+This document provides an overview of managing individual data privacy and opt-out requests that you can send to [!DNL Audience Manager] through the [Privacy Service UI](https://privacyui.cloud.adobe.io/) and the **[!DNL Privacy Service API]**.
 
-These tools allow you to send consumer data privacy requests made under GDPR and CCPA.
+These tools allow you to send consumer data privacy requests made under [!DNL GDPR] and [!DNL CCPA].
 
 Before reading this article, we recommend going through the [GDPR Glossary](../data-security-and-privacy/aam-gdpr-glossary.md) and [CCPA Glossary](aam-ccpa-glossary.md), to better understand the terminology used here.
 
-You can submit individual requests to access and delete consumer data from Audience Manager, in two ways:
+You can submit individual requests to access and delete consumer data from [!DNL Audience Manager], in two ways:
 
 * Through the [Privacy Service UI](https://privacyui.cloud.adobe.io/). See the documentation [here](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md).
-* Through the  **[!DNL Privacy Service API]**. See the documentation [here](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md) and the API reference [here](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml).
+* Through the  **[!DNL Privacy Service API]**. See the documentation [here](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md) and the [!DNL API] reference [here](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml).
 
 When sending individual data privacy requests, you can submit any Audience Manager identifiers (IDs), as described in the **[Audience Manager Identifiers](data-privacy-ids.md)** section, along with their respective namespace IDs (data source IDs).
 
@@ -45,30 +45,30 @@ The [Privacy Service UI](https://privacyui.cloud.adobe.io/) allows you to create
 
 To see what a valid [!DNL JSON] file looks like, you can [download a sample JSON](../data-security-and-privacy/assets/access_request.json).
 
-Adobe understands your commitment to honoring your data privacy customer requests within 30 days. For that reason, Adobe is committed to processing your data deletion request as soon as possible.
+Adobe understands your commitment to honoring your data privacy customer requests within 30 days. For that reason, [!DNL Adobe] is committed to processing your data deletion request as soon as possible.
 
-In response to your consumer data deletion requests, Audience Manager deletes traits and segments associated with the Audience Manager identifier included in the request. Additionally, the respective Audience Manager identifiers for the individual opted out of further data collection by Audience Manager and the respective ID mappings will be removed.
+In response to your consumer data deletion requests, [!DNL Audience Manager] deletes traits and segments associated with the [!DNL Audience Manager] identifier included in the request. Additionally, the respective [!DNL Audience Manager] identifiers for the individual opted out of further data collection by [!DNL Audience Manager] and the respective ID mappings will be removed.
 
-When you send declared IDs, such as cross device [!DNL CRM] IDs or cookie IDs, in data privacy requests, Audience Manager will perform the necessary deletion on all the linked devices (up to 100 devices per declared ID).
+When you send declared IDs, such as cross device [!DNL CRM] IDs or cookie IDs, in data privacy requests, [!DNL Audience Manager] will perform the necessary deletion on all the linked devices (up to 100 devices per declared ID).
 
-Audience Manager will attempt to notify activation partners about deletion requests by sending them unsegment information for Data Subjects requesting deletion of certain data. However, some activation partners:
+[!DNL Audience Manager] will attempt to notify activation partners about deletion requests by sending them unsegment information for Data Subjects requesting deletion of certain data. However, some activation partners:
 
-1. Cannot support unsegment (or remove segment) requests from Audience Manager and/or
-2. Are not able to receive updates from Audience Manager with a frequency of less than 30 days. In those cases, Audience Manager customers are not able to send delete requests to activation partners in an automated way through Audience Manager.
+1. Cannot support unsegment (or remove segment) requests from [!DNL Audience Manager] and/or
+2. Are not able to receive updates from [!DNL Audience Manager] with a frequency of less than 30 days. In those cases, [!DNL Audience Manager] customers are not able to send delete requests to activation partners in an automated way through [!DNL Audience Manager].
 
-In those cases, you are not able to send delete requests to activation partners in an automated way through Audience Manager.
+In those cases, you are not able to send delete requests to activation partners in an automated way through [!DNL Audience Manager].
 
-Download our [Partner Excel sheet](assets/AAM-Partners-October2019.xlsx) to see which Audience Manager activation partners support unsegment.
+Download our [Partner Excel sheet](assets/AAM-Partners-October2019.xlsx) to see which [!DNL Audience Manager] activation partners support unsegment.
 
 ## Opt-out Requests {#opt-out-requests}
 
-Audience Manager supports industry-wide standards with regard to opt-out management. Read on for complete information on the types of opt-out supported by Audience Manager.
+[!DNL Audience Manager] supports industry-wide standards with regard to opt-out management. Read on for complete information on the types of opt-out supported by [!DNL Audience Manager].
 
-While data access and deletion requests are handled through the [Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html), opt-out requests are currently supported through the DCS API. Read on to learn what the opt-out API calls should look like.
+While data access and deletion requests are handled through the [Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html), opt-out requests are currently supported through the [!DNL DCS API]. Read on to learn what the opt-out [!DNL API] calls should look like.
 
 ### Global Opt-out Requests
 
-The global opt-out represents an opt-out across Audience Manager and other Adobe Experience Cloud solutions for all brands. The table below lists the methods used for global opt-out:
+The global opt-out represents an opt-out across [!DNL Audience Manager] and other [!DNL Adobe Experience Cloud] solutions for all brands. The table below lists the methods used for global opt-out:
 
 <table id="table_F1027B9633E948DCBB11C141B381682A"> 
  <thead> 
@@ -104,23 +104,23 @@ Your end users can also opt out of global data collection by visiting the websit
 
 Following the opt-out requests described above:
 
-* Audience Manager will cease all data collection, segmentation or activation, as long as the user does not clear their browser cookies.
+* [!DNL Audience Manager] will cease all data collection, segmentation or activation, as long as the user does not clear their browser cookies.
 * Historical data is removed from the user profile after 120 days.
 
 ### Partner Level Opt-out with Declared ID calls
 
-The partner-level opt-out allows you to opt-out your users from data collection by specific Audience Manager partners. You can send partner-level opt-out requests for cross-device IDs, including CRM IDs and hashed email addresses.
+The partner-level opt-out allows you to opt-out your users from data collection by specific [!DNL Audience Manager] partners. You can send partner-level opt-out requests for cross-device IDs, including [!DNL CRM] IDs and hashed email addresses.
 
 Following a partner-level opt-out with a declared ID call:
 
 * The [CRM ID](../../reference/ids-in-aam.md) is opted out of data collection;
 * The last device ID ([Audience Manager Unique User ID](../../reference/ids-in-aam.md)) linked to the [CRM ID](../../reference/ids-in-aam.md) is opted out of data collection.
-* Audience Manager will cease all data collection, segmentation or activation going forward for the CRM ID and the last device ID linked to the CRM ID;
-* Audience Manager unsegments the opted-out CRM ID and last device ID from all segments;
-* Destination partners receive the unsegment request for the CRM ID and last device ID. Unsegmentation works for both [real-time](data-privacy-requests.md#aam-partners-with-unsegmentation) and batch destinations.
+* [!DNL Audience Manager] will cease all data collection, segmentation or activation going forward for the [!DNL CRM] ID and the last device ID linked to the [!DNL CRM] ID;
+* [!DNL Audience Manager] unsegments the opted-out [!DNL CRM] ID and last device ID from all segments;
+* Destination partners receive the unsegment request for the [!DNL CRM] ID and last device ID. Unsegmentation works for both [real-time](data-privacy-requests.md#aam-partners-with-unsegmentation) and batch destinations.
 * No historical data is deleted.
 
-When Audience Manager receives a partner-level opt-out request, the JSON returned by the DCS contains the [error code 171](../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md#opt-out-error-codes), with the message [!UICONTROL "Encountered opt out tag"], instead of the Audience Manager user ID.
+When [!DNL Audience Manager] receives a partner-level opt-out request, the [!DNL JSON] returned by the [!DNL DCS] contains the [error code 171](../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md#opt-out-error-codes), with the message [!UICONTROL "Encountered opt out tag"], instead of the [!DNL Audience Manager] user ID.
 
 You can make a declared ID opt-out request with the `d_cid` and `d_cid_ic` key-value pairs. The legacy parameters like `d_dpid` and `d_dpuuid` still work, but are considered deprecated. See [CID Replaces DPID and DPUUID](../../reference/cid.md). In the examples, *italics* indicates a variable placeholder.
 
@@ -132,44 +132,44 @@ For a description and syntax, see [URL Variables and Syntax for Declared IDs](..
 |--- |--- |
 |A data provider ID and user ID.|`https://yourcompany.demdex.net/demoptout.jpg?d_cid=123%01987...`|
 |An integration code and user ID.|`https://yourcompany.demdex.net/demoptout?d_cid_ic=456%01321...`|
-|Multiple  d_cid  and  d_cid_ic  key-value pairs.|`https://yourcompany.demdex.net/demoptout?d_cid=123%01987&d_cid_ic=456%01321...`|
+|Multiple  `d_cid`  and  `d_cid_ic`  key-value pairs.|`https://yourcompany.demdex.net/demoptout?d_cid=123%01987&d_cid_ic=456%01321...`|
 
 &nbsp;
 
 ### Partner Level Opt-Out with Device ID calls
 
-The partner-level opt-out allows you to opt-out your users from data collection by specific Audience Manager partners. You can opt-out from data collection on a given device ID for a brand by making the following calls to the [DCS API](../../api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md):
+The partner-level opt-out allows you to opt-out your users from data collection by specific [!DNL Audience Manager] partners. You can opt-out from data collection on a given device ID for a brand by making the following calls to the [DCS API](../../api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md):
 
 | Opt-Out Using | Code Sample |
 |--- |--- |
-|An Audience Manager Unique User ID (`uuid`).|`https://yourcompany.demdex.net/demoptout.jpg?d_uuid=123`|
-|An Experience Cloud ID (`mid`)|`https://yourcompany.demdex.net/demoptout.jpg?d_mid=123&d_orgid=IMSoRGid`|
+|An [!DNL Audience Manager] [!DNL Unique User ID] (`uuid`).|`https://yourcompany.demdex.net/demoptout.jpg?d_uuid=123`|
+|An [!DNL Experience Cloud] ID (`mid`)|`https://yourcompany.demdex.net/demoptout.jpg?d_mid=123&d_orgid=IMSoRGid`|
 
 Read more about `uuid`, `mid` and `imsOrgId` in the [Index of IDs in Audience Manager](/help/using/reference/ids-in-aam.md).
 
 Following a partner-level opt-out with a device ID call:
 
 * The device ID is opted out of data collection.
-* Audience Manager will cease all data collection, segmentation or activation, for the partner, going forward for the device ID.
-* Audience Manager unsegments the device ID from all segments;
+* [!DNL Audience Manager] will cease all data collection, segmentation or activation, for the partner, going forward for the device ID.
+* [!DNL Audience Manager] unsegments the device ID from all segments;
 * Destination partners receive the unsegment request for the device ID. Unsegmentation works for both [real-time](data-privacy-requests.md#aam-partners-with-unsegmentation) and batch destinations.
 * No historical data is deleted.
 
 ## Audience Manager Partners With Unsegmentation Capabilities {#aam-partners-with-unsegmentation}
 
-In order to help you automate your consumer data privacy requests, Audience Manager will attempt to notify activation partners about deletion requests from Data Subjects by sending them unsegment (or remove segment) information.
+In order to help you automate your consumer data privacy requests, [!DNL Audience Manager] will attempt to notify activation partners about deletion requests from Data Subjects by sending them unsegment (or remove segment) information.
 
 However, some of our activation partners:
 
-1. Cannot support unsegment requests from Audience Manager and/or 
-2. Are not able to receive updates from Audience Manager more frequently than once in 30 days.
+1. Cannot support unsegment requests from [!DNL Audience Manager] and/or
+2. Are not able to receive updates from [!DNL Audience Manager] more frequently than once in 30 days.
 
-In those cases, you are not able to send delete requests to activation partners in an automated way through Audience Manager.
+In those cases, you are not able to send delete requests to activation partners in an automated way through [!DNL Audience Manager].
 
-Consult the [list of device-based destinations](/help/using/features/destinations/device-based-destinations-list.md) to see which Audience Manager activation partners support unsegment.
+Consult the [list of device-based destinations](/help/using/features/destinations/device-based-destinations-list.md) to see which [!DNL Audience Manager] activation partners support unsegment.
 
 ## Data Correction Requests {#correction}
 
-Given that Audience Manager is not the source of the data, there is a limited role for data correction in Audience Manager. The correction could mean that the consumer has requested to either be disqualified from an incorrect trait/segment or qualified to the desired trait/segment.
+Given that [!DNL Audience Manager] is not the source of the data, there is a limited role for data correction in [!DNL Audience Manager]. The correction could mean that the consumer has requested to either be disqualified from an incorrect trait/segment or qualified to the desired trait/segment.
 
-Audience Manager Customers can choose to capture the relevant signals/traits/segments against user profiles and send this information through [offline data ingestion](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) to Audience Manager. Please note that the user will continue to get qualified to the original trait and segments if they repeat their behavior.
+[!DNL Audience Manager] customers can choose to capture the relevant signals/traits/segments against user profiles and send this information through [offline data ingestion](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) to [!DNL Audience Manager]. Please note that the user will continue to get qualified to the original trait and segments if they repeat their behavior.
