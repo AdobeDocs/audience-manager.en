@@ -9,7 +9,7 @@ uuid: 8c369166-c8a7-46b0-9913-4c027f5b1df9
 
 # DCS APIs for Server-to-Server Data Transfers{#dcs-apis-for-server-to-server-data-transfers}
 
-Server-to-server ([!UICONTROL S2S]) [!DNL API]s provide code and methods that let you send and receive [!UICONTROL DCS] user data and work with this information in your own systems or applications.
+Server-to-server ([!UICONTROL S2S]) [!DNL API]s provide code and methods that let you send and receive [!DNL DCS] user data and work with this information in your own systems or applications.
 
 ## Common Use Cases {#common-use-cases}
 
@@ -29,10 +29,10 @@ The [!UICONTROL DCS API] requires user IDs and region IDs to validate and make d
 
 Currently, this guide covers how to:
 
-* Get the user and region IDs from the [!UICONTROL DCS] files you may already receive as an [!DNL Audience Manager] customer.
+* Get the user and region IDs from the [!DNL DCS] files you may already receive as an [!DNL Audience Manager] customer.
 
 * Get the user and region IDs if you use the [!DNL Visitor ID Service].
-* Make calls to the [!UICONTROL DCS] after you have the user and region ID.
+* Make calls to the [!DNL DCS] after you have the user and region ID.
 
 We'll add new methods as they become available. Refer to the following sections to get started.
 

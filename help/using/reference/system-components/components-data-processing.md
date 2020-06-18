@@ -21,7 +21,7 @@ Audience Manager uses the following components to process data:
 
 ## Hadoop {#hadoop}
 
-In [!DNL Audience Manager], Hadoop is the master database that contains everything [!DNL Audience Manager] knows about a user. For example, when the [Profile Cache Servers](../../reference/system-components/components-data-collection.md) create log files that contain data about your users, it sends that data to Hadoop for storage. Other important Hadoop elements include:
+In [!DNL Audience Manager], Hadoop is the main database that contains everything [!DNL Audience Manager] knows about a user. For example, when the [Profile Cache Servers](../../reference/system-components/components-data-collection.md) create log files that contain data about your users, it sends that data to Hadoop for storage. Other important Hadoop elements include:
 
 * **Hive:** A data warehouse for Hadoop. Hive manages ad hoc queries to the data stored in Hadoop. 
 

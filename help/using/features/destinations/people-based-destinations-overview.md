@@ -44,7 +44,7 @@ The more "traditional" way of targeting audiences across people-based channels i
 
 ![pbd-overview](assets/pbd-diagram.png)
 
-Through [!DNL People-Based Destinations], Audience Manager helps you centralize your customer data, build audience segments, and activate them across multiple people-based channels. You can do this all from within the Audience Manager UI, avoiding the additional work of manually uploading data to each platform, saving you valuable time in the process.
+Through [!DNL People-Based Destinations], Audience Manager helps you centralize your customer data, build audience segments, and activate them across multiple people-based channels. You can do this all from within the Audience Manager user interface, avoiding the additional work of manually uploading data to each platform, saving you valuable time in the process.
 
 **Create and activate audience segments from purely offline profiles.**
 

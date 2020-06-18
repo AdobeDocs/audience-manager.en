@@ -48,7 +48,7 @@ Typically, audience segmentation and targeting relies on data collected from all
  </tbody>
 </table>
 
-These different profiles control the data you can use for segmentation. For example, with an [authenticated profile](../../reference/visitor-authentication-states.md), you can build accurate segments based on data from multiple devices for a single user. This means you can deliver a consistent brand experience to customers across multiple devices. Audience Manager achieves this by storing the mapping of the different devices a person uses for their online activities to their [authenticated profile](../../reference/visitor-authentication-states.md). These mappings are called the [!UICONTROL Profile Link Device Graph].
+These different profiles control the data you can use for segmentation. For example, with an [authenticated profile](../../reference/visitor-authentication-states.md), you can build accurate segments based on data from multiple devices for a single user. This means you can deliver a consistent brand experience to customers across multiple devices. [!DNL Audience Manager] achieves this by storing the mapping of the different devices a person uses for their online activities to their [authenticated profile](../../reference/visitor-authentication-states.md). These mappings are called the [!UICONTROL Profile Link Device Graph].
 
 ![](assets/authenticated2.png)
 

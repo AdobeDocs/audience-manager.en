@@ -9,7 +9,7 @@ uuid: 485fcc5c-b289-463b-a610-0d727df90f3c
 
 # Signals, Traits, and Segments{#signals-traits-and-segments}
 
-Describes the components of an Audience Manager segment, the expressions used to set audience qualification criteria, and how data is transmitted in an event call.
+Describes the components of an [!DNL Audience Manager] segment, the expressions used to set audience qualification criteria, and how data is transmitted in an event call.
 
 <!-- 
 
@@ -67,11 +67,9 @@ Clients manage traits and segments with visual tools and code editors in the [!D
 
 **Event Calls Send Data to Audience Manager**
 
-An event call sends data from your website to [!DNL Audience Manager]. The call contains signal, trait, and segment data in an HTTP request. The event itself is everything after the `/event` part of a URL string. As shown in the example below, this process requires only a single event call to pass in multiple variables to [!DNL Audience Manager]. 
+An event call sends data from your website to [!DNL Audience Manager]. The call contains signal, trait, and segment data in an [!DNL HTTP] request. The event itself is everything after the `/event` part of a [!DNL URL] string. As shown in the example below, this process requires only a single event call to pass in multiple variables to [!DNL Audience Manager]. 
 
-```
-https://<domain>/event?product=camera&price>100
-```
+`https://<domain>/event?product=camera&price>100`
 
 >[!MORELIKETHIS]
 >

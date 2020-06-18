@@ -60,4 +60,4 @@ Keep in mind these aspects related to processing:
 Keep in mind these aspects related to timing:
 
 * A segment will be stored on the [Edge](../../reference/system-components/components-edge.md) for the same time period as a device profile is stored on the [!UICONTROL Edge], namely 14 days since last real-time interaction. Read more about data retention in our [Data Retention FAQ](../../faq/faq-privacy.md#data-retention-faq).
-* It takes approximately 24 hours for the unsegment operation to propagate across [!UICONTROL DCS] regions. Read more about our [!UICONTROL DCS] regions [here](../..//reference/system-components/components-data-collection.md) and [here](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+* It takes approximately 24 hours for the unsegment operation to propagate across [!DNL DCS] regions. Read more about our [!DNL DCS] regions [here](../..//reference/system-components/components-data-collection.md) and [here](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).

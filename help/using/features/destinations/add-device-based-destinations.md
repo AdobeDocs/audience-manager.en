@@ -1,6 +1,6 @@
 ---
-description: This article explains how to configure new device-based destinations from the Audience Manager UI.
-seo-description: This article explains how to configure new device-based destinations from the Audience Manager UI.
+description: This article explains how to configure new device-based destinations from the Audience Manager user interface.
+seo-description: This article explains how to configure new device-based destinations from the Audience Manager user interface.
 seo-title: Add New Device-Based Destinations
 solution: Audience Manager
 title: Add New Device-Based Destinations
@@ -8,7 +8,7 @@ title: Add New Device-Based Destinations
 
 # Add New Device-Based Destinations {#add-new-device-based-destinations}
 
-This article explains how to configure new device-based destinations from the Audience Manager UI.
+This article explains how to configure new device-based destinations from the Audience Manager user interface.
 
 >[!IMPORTANT]
 >

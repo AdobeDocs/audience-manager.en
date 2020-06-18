@@ -8,7 +8,7 @@ title: Implementation and Integration Guides
 
 # Implementation and Integration Overview
 
-Work with data from Experience Cloud solutions or other external systems in Audience Manager.
+Work with data from [!DNL Experience Cloud] solutions or other external systems in [!DNL Audience Manager].
 
 * [Data Integration Methods](data-integration-methods.md) 
 * [Implementing Audience Manager](implement-audience-manager.md)

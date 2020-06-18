@@ -24,11 +24,11 @@ Audience Manager offers you tools to help support your ability to obtain the req
 
 ## Experience Cloud Opt-in Service
 
-The [Experience Cloud Opt-in Service](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/opt-in-service/optin-overview.html) lets you set up protocols for the visitor to assist you in determining if you can set a cookie on the individual's device or browser when visiting your site.
+The [Experience Cloud Opt-in Service](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/optin-overview.html) lets you set up protocols for the visitor to assist you in determining if you can set a cookie on the individual's device or browser when visiting your site.
 
 This is an extension of the [!DNL Experience Cloud ID (ECID) Service], designed to let you control whether and which Experience Cloud solutions can place cookies on web pages for visitors prior to user consent.
 
-The [Experience Cloud Opt-in Service](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/opt-in-service/optin-overview.html) also lets you set protocols to integrate with your Consent Management Platform (CMP) and existing systems as part of your larger design.
+The [Experience Cloud Opt-in Service](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/optin-overview.html) also lets you set protocols to integrate with your Consent Management Platform (CMP) and existing systems as part of your larger design.
 
 ## Managing Opt-In / Obtaining Consent
 

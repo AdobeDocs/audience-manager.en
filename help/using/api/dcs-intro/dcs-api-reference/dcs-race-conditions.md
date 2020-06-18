@@ -9,18 +9,18 @@ uuid: b0aac960-6732-4e96-87a5-40ba2755e02d
 
 # Race Conditions and Error Handling {#race-conditions-and-error-handling}
 
-Describes how to prevent race conditions and [!UICONTROL DCS] error handling.
+Describes how to prevent race conditions and [!DNL DCS] error handling.
 
 ## Preventing Race Conditions {#prevent-race-conditions}
 
-A race condition can occur if you send multiple calls simultaneously (or in rapid succession) to the [!UICONTROL DCS] before it finishes responding to the initial queries and writing data to the user’s cookie. A race condition is undesirable because it can corrupt or improperly overwrite cookie data. As a best practice, consider the following methods to help avoid this problem:
+A race condition can occur if you send multiple calls simultaneously (or in rapid succession) to the [!DNL DCS] before it finishes responding to the initial queries and writing data to the user’s cookie. A race condition is undesirable because it can corrupt or improperly overwrite cookie data. As a best practice, consider the following methods to help avoid this problem:
 
-* Don't make simultaneous calls, or calls in rapid succession, to the [!UICONTROL DCS] from the same user.
+* Don't make simultaneous calls, or calls in rapid succession, to the [!DNL DCS] from the same user.
 * Wait for each response to come back before making subsequent calls.
 
 ## Error Handling {#error-handling}
 
-Error handling is limited for invalid or poorly formed queries. An invalid request returns an `HTTP 200 OK` response and no data. Also, the [!UICONTROL DCS] stops processing a request, discards trait data, and returns an `HTTP 200 OK` response when a user:
+Error handling is limited for invalid or poorly formed queries. An invalid request returns an `HTTP 200 OK` response and no data. Also, the [!DNL DCS] stops processing a request, discards trait data, and returns an `HTTP 200 OK` response when a user:
 
 * Opts out of tracking at the Audience Manager or partner level.
 * Comes from an invalid/unselected geographic region.
