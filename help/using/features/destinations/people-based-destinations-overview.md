@@ -32,7 +32,7 @@ You can use [!DNL People-Based Destinations] to segment and target high value cu
 
 [!DNL People-Based Destinations] is a premium Audience Manager integration. Please contact your Adobe representative to take advantage of this premium feature.
 
-## Why You Should Use People-Based Destinations {#why-use}
+## Why You Should Use [!UICONTROL People-Based Destinations] {#why-use}
 
 **Provide your customers consistent cross-channel experiences by managing your entire audience segmentation from within Audience Manager.**
 
@@ -44,7 +44,7 @@ The more "traditional" way of targeting audiences across people-based channels i
 
 ![pbd-overview](assets/pbd-diagram.png)
 
-Through [!DNL People-Based Destinations], Audience Manager helps you centralize your customer data, build audience segments, and activate them across multiple people-based channels. You can do this all from within the Audience Manager UI, avoiding the additional work of manually uploading data to each platform, saving you valuable time in the process.
+Through [!DNL People-Based Destinations], Audience Manager helps you centralize your customer data, build audience segments, and activate them across multiple people-based channels. You can do this all from within the Audience Manager user interface, avoiding the additional work of manually uploading data to each platform, saving you valuable time in the process.
 
 **Create and activate audience segments from purely offline profiles.**
 

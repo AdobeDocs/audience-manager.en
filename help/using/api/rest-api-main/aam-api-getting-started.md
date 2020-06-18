@@ -42,7 +42,7 @@ The Audience Manager REST APIs support two authentication methods.
 >
 >Depending on your authentication method, you need to adjust your request URLs accordingly. See the [Environments](#environments) section for details about the hostnames that you should use.
 
-## JWT (Service Account) Authentication {#jwt}
+## JWT ([!DNL Service Account]) Authentication {#jwt}
 
 ### Prerequisites {#prerequisites}
 
@@ -50,7 +50,7 @@ Before you can configure JWT authentication, make sure you have access to the [A
 
 ### Authentication
 
-Follow the steps below to configure JWT (Service Account) authentication:
+Follow the steps below to configure JWT ([!DNL Service Account]) authentication:
 
 1. Log in to the [Adobe Developer Console](https://console.adobe.io/).
 1. Follow the steps in [Service Account Connection](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
@@ -184,14 +184,14 @@ You can use these optional parameters with [!DNL API] methods that return *all* 
 
 | Parameter | Description |
 |--- |--- |
-|page|Returns results by page number. Numbering starts at 0.|
-|pageSize|Sets the number of response results returned by the request (10 is default).|
-|sortBy|Sorts and returns results according to the specified [!DNL JSON] property.|
-|descending|Sorts and returns results in descending order. Ascending is default.|
-|search|Returns results based on the specified string you want to use as a search parameter. For example, let's say you want to find results for all models that have the word "Test" in any of the value fields for that item. Your sample request could look like this:   `GET https://aam.adobe.io/v1/models/?search=Test`.  You can search on any value returned by a "get all" method.|
-|folderId|Returns all the IDs for traits inside the specified folder. Not available to all methods.|
-|permissions|Returns a list of segments based on the specified permission.  READ  is default. Permissions include:<ul><li>`READ` : Return and view information about a segment.</li><li>`WRITE` : Use  `PUT`  to update a segment.</li><li>`CREATE` : Use  `POST`  to create a segment.</li><li>`DELETE` : Delete a segment. Requires access to underlying traits, if any. For example, you'll need rights to delete the traits that belong to a segment if you want to remove it.</li></ul><br>Specify multiple permissions with separate key-value pairs. For example, to return a list of segments with  `READ`  and  `WRITE`  permissions only, pass in  `"permissions":"READ"`, `"permissions":"WRITE"` .|
-|includePermissions|(Boolean) Set to  true  to return your permissions for the segment. Default is  false.|
+|`page`|Returns results by page number. Numbering starts at 0.|
+|`pageSize`|Sets the number of response results returned by the request (10 is default).|
+|`sortBy`|Sorts and returns results according to the specified [!DNL JSON] property.|
+|`descending`|Sorts and returns results in descending order. Ascending is default.|
+|`search`|Returns results based on the specified string you want to use as a search parameter. For example, let's say you want to find results for all models that have the word "Test" in any of the value fields for that item. Your sample request could look like this:   `GET https://aam.adobe.io/v1/models/?search=Test`.  You can search on any value returned by a "get all" method.|
+|`folderId`|Returns all the IDs for traits inside the specified folder. Not available to all methods.|
+|`permissions`|Returns a list of segments based on the specified permission.  READ  is default. Permissions include:<ul><li>`READ` : Return and view information about a segment.</li><li>`WRITE` : Use  `PUT`  to update a segment.</li><li>`CREATE` : Use  `POST`  to create a segment.</li><li>`DELETE` : Delete a segment. Requires access to underlying [!UICONTROL traits], if any. For example, you'll need rights to delete the [!UICONTROL traits] that belong to a segment if you want to remove it.</li></ul><br>Specify multiple permissions with separate key-value pairs. For example, to return a list of segments with  `READ`  and  `WRITE`  permissions only, pass in  `"permissions":"READ"`, `"permissions":"WRITE"` .|
+|`includePermissions`|(Boolean) Set to  true  to return your permissions for the segment. Default is  false.|
 
 ### A Note About Page Options
 
@@ -217,33 +217,33 @@ Depending on the authentication method that you use, you need to adjust your req
 
 | [!DNL API] Methods | Request [!DNL URL] |
 |--- |--- |
-|Algorithmic Modeling|`https://aam.adobe.io/v1/models/`|
-|Data Source|`https://aam.adobe.io/v1/datasources/`|
-|Derived Signals|`https://aam.adobe.io/v1/signals/derived/`|
-|Destinations|`https://aam.adobe.io/v1/destinations/`|
-|Domains|`https://aam.adobe.io/v1/partner-sites/`|
-|Folders|Traits:  `https://aam.adobe.io/v1/folders/traits /`<br>Segments:  `https://aam.adobe.io/v1/folders/segments /`|
-|Schema|`https://aam.adobe.io/v1/schemas/`|
-|Segments|`https://aam.adobe.io/v1/segments/`|
-|Traits|`https://aam.adobe.io/v1/traits/`|
-|Trait Types|`https://aam.adobe.io/v1/customer-trait-types`|
-|Taxonomy|`https://aam.adobe.io/v1/taxonomies/0/`|
+|[!UICONTROL Algorithmic Modeling]|`https://aam.adobe.io/v1/models/`|
+|[!UICONTROL Data Source]|`https://aam.adobe.io/v1/datasources/`|
+|[!UICONTROL Derived Signals]|`https://aam.adobe.io/v1/signals/derived/`|
+|[!UICONTROL Destinations]|`https://aam.adobe.io/v1/destinations/`|
+|[!UICONTROL Domains]|`https://aam.adobe.io/v1/partner-sites/`|
+|[!UICONTROL Folders]|[!UICONTROL Traits]:  `https://aam.adobe.io/v1/folders/traits /`<br>Segments:  `https://aam.adobe.io/v1/folders/segments /`|
+|[!UICONTROL Schema]|`https://aam.adobe.io/v1/schemas/`|
+|[!UICONTROL Segments]|`https://aam.adobe.io/v1/segments/`|
+|[!UICONTROL Traits]|`https://aam.adobe.io/v1/traits/`|
+|[!UICONTROL Trait Types]|`https://aam.adobe.io/v1/customer-trait-types`|
+|[!UICONTROL Taxonomy]|`https://aam.adobe.io/v1/taxonomies/0/`|
 
 ### Request URLs for OAuth Authentication (Deprecated) {#request-urls-oauth}
 
 | [!DNL API] Methods | Request [!DNL URL] |
 |--- |--- |
-|Algorithmic Modeling|`https://api.demdex.com/v1/models/`|
-|Data Source|`https://api.demdex.com/v1/datasources/`|
-|Derived Signals|`https://api.demdex.com/v1/signals/derived/`|
-|Destinations|`https://api.demdex.com/v1/destinations/`|
-|Domains|`https://api.demdex.com/v1/partner-sites/`|
-|Folders|Traits:  `https://api.demdex.com/v1/folders/traits /`<br>Segments:  `https://api.demdex.com/v1/folders/segments /`|
-|Schema|`https://api.demdex.com/v1/schemas/`|
-|Segments|`https://api.demdex.com/v1/segments/`|
-|Traits|`https://api.demdex.com/v1/traits/`|
-|Trait Types|`https://api.demdex.com/v1/customer-trait-types`|
-|Taxonomy|`https://api.demdex.com/v1/taxonomies/0/`|
+|[!UICONTROL Algorithmic Modeling]|`https://api.demdex.com/v1/models/`|
+|[!UICONTROL Data Source]|`https://api.demdex.com/v1/datasources/`|
+|[!UICONTROL Derived Signals]|`https://api.demdex.com/v1/signals/derived/`|
+|[!UICONTROL Destinations]|`https://api.demdex.com/v1/destinations/`|
+|[!UICONTROL Domains]|`https://api.demdex.com/v1/partner-sites/`|
+|[!UICONTROL Folders]|[!UICONTROL Traits]:  `https://api.demdex.com/v1/folders/traits /`<br>[!UICONTROL Segments]:  `https://api.demdex.com/v1/folders/segments /`|
+|[!UICONTROL Schema]|`https://api.demdex.com/v1/schemas/`|
+|[!UICONTROL Segments]|`https://api.demdex.com/v1/segments/`|
+|[!UICONTROL Traits]|`https://api.demdex.com/v1/traits/`|
+|[!UICONTROL Trait Types]|`https://api.demdex.com/v1/customer-trait-types`|
+|[!UICONTROL Taxonomy]|`https://api.demdex.com/v1/taxonomies/0/`|
 
 ## Environments {#environments}
 
@@ -275,14 +275,14 @@ New versions of these [!DNL API]s are released on a regular schedule. A new rele
 
 |  Response code ID  | Response text  | Definition  |
 |---|---|---|
-|  200  | OK  | The request processed successfully. Will return expected content or data if required.  |
-|  201  | Created  | The resource was created. Returns for `PUT` and `POST` requests.  |
-|  204  | No Content  | The resource has been deleted. The response body will be blank.  |
-|  400  | Bad Request  | The server did not understand the request. Usually due to malformed syntax. Check your request and try again.  |
-|  403  | Forbidden  | You do not have access to the resource.  |
-|  404  | Not Found  | The resource could not be found for the specified path.  |
-|  409  | Conflict  | The request could not be completed due to a conflict with the state of the resource.  |
-|  500  | Server Error  | The server encountered an unexpected error that prevented it from fulfilling the request.  |
+|  `200`  | `OK`  | The request processed successfully. Will return expected content or data if required.  |
+|  `201`  | `Created`  | The resource was created. Returns for `PUT` and `POST` requests.  |
+|  `204`  | `No Content`  | The resource has been deleted. The response body will be blank.  |
+|  `400`  | `Bad Request`  | The server did not understand the request. Usually due to malformed syntax. Check your request and try again.  |
+|  `403`  | `Forbidden`  | You do not have access to the resource.  |
+|  `404`  | `Not Found`  | The resource could not be found for the specified path.  |
+|  `409`  | `Conflict`  | The request could not be completed due to a conflict with the state of the resource.  |
+|  `500`  | `Server Error`  | The server encountered an unexpected error that prevented it from fulfilling the request.  |
 
 >[!MORELIKETHIS]
 >
