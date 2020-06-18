@@ -104,7 +104,7 @@ Impression event calls accept data formed into key-value pairs. The following ta
 >
 >Please contact your Adobe Audience Manager consulting or account lead for the exact URL specific to the client domain.
 
-## Additional functionality - Audience Optimization Reports
+## Additional functionality - [!DNL Audience Optimization Reports] {#additional-functionality-aor}
 
 You can use pixel calls to power the [Audience Optimization Reports](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md). See [Overview and Mappings for Metadata Files](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) if you wish to use pixels to power the reports.
 

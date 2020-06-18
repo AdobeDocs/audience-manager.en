@@ -52,8 +52,8 @@ Currently, Audience Manager does not support:
 You must meet the following prerequisites to use the Audience Manager Plug-in for IAB TCF with Audience Manager:
 
 1. You must be using Adobe Experience Platform Identity Service (ECID) version 5 or newer. [Download](https://github.com/Adobe-Marketing-Cloud/id-service/releases) our latest ECID release.
-2. You must be using Audience Manager Data Integration Library (DIL) version 9.0 or newer, downloadable from [here](https://github.com/Adobe-Marketing-Cloud/dil/releases). Read about [DIL in the Audience Manager documentation](../..//dil/dil-overview.md). We recommend using [Adobe Launch](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/adobe-audience-manager-extension.html) for the easiest DIL implementation for Audience Manager.
-3. Alternatively, if you use Server-Side Forwarding (SSF) to import data into Audience Manager, you must upgrade to the latest version of AppMeasurement. Download AppMeasurement using the [Analytics Code Manager](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/code-manager-admin.html).
+2. You must be using Audience Manager [!DNL Data Integration Library] (DIL) version 9.0 or newer, downloadable from [here](https://github.com/Adobe-Marketing-Cloud/dil/releases). Read about [DIL in the Audience Manager documentation](../..//dil/dil-overview.md). We recommend using [Adobe Launch](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/adobe-audience-manager-extension.html) for the easiest DIL implementation for Audience Manager.
+3. Alternatively, if you use [!DNL Server-Side Forwarding] (SSF) to import data into Audience Manager, you must upgrade to the latest version of AppMeasurement. Download AppMeasurement using the [Analytics Code Manager](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/code-manager-admin.html).
 4. You must be using a Consent Management Platform (CMP), either commercial or your own, that is integrated with IAB TCF v2.0, and is registered with the IAB TCF. See the list of [CMPs registered within the IAB framework](https://iabeurope.eu/cmp-list/).
 
 >[!WARNING]
@@ -64,7 +64,7 @@ You must meet the following prerequisites to use the Audience Manager Plug-in fo
 
 To enable the IAB TCF support in Audience Manager, read our documentation on [how to set up IAB with Opt-in](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/iab.html).
 
-The easiest way you can do this is by using [Adobe Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) to add ECID Opt-in on your properties. Read the documentation for the [ECID Opt-in extension](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html) to learn how to set up the Launch extension.
+The easiest way you can do this is by using [Adobe Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) to add [!DNL ECID Opt-in] on your properties. Read the documentation for the [ECID Opt-in extension](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html) to learn how to set up the Launch extension.
 
 ## User choice workflow when using the IAB framework {#user-choice-workflow}
 
@@ -164,7 +164,7 @@ The Audience Manager Plug-in for IAB TCF enables you to forward the IAB TC strin
 
 The Audience Manager integration with IAB TCF v2.0 supports the appending of consent to information sent to [URL destinations](../../features/destinations/create-url-destination.md) that are integrated with IAB TCF v2.0. However, this process is not done automatically by Audience Manager, to avoid breaking specific URL formats.
 
-Customers who wish to append consent to data sent to URL destinations must manually add the `${GDPR}` and `${GDPR_CONSENT_XXXX}` macros to their URL format, replacing `XXXX` with the destination partner ID.
+Customers who wish to append consent to data sent to [!DNL URL destinations] must manually add the `${GDPR}` and `${GDPR_CONSENT_XXXX}` macros to their URL format, replacing `XXXX` with the destination partner ID.
 
 Example: `http://yourdomain.com?gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_1234}`.
 
