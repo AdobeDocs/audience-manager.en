@@ -9,13 +9,13 @@ uuid: fbb77197-8530-48a8-b708-d785f7214494
 
 # Receive Data From the DCS {#receive-data-from-the-dcs}
 
-Continue here for information about how to request a [!UICONTROL DCS] response in a `/event` call. This section includes a response example and definitions for common data elements in a response.
+Continue here for information about how to request a [!DNL DCS] response in a `/event` call. This section includes a response example and definitions for common data elements in a response.
 
 Before reviewing this content, see [Send Data to the DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md).
 
 ## DCS Response Parameters: A Review {#dcs-response-parameters}
 
-Your [!UICONTROL DCS] request must include `d_rtbd=json` if you want to receive a response from the [!UICONTROL DCS]. The [!UICONTROL DCS] will not return data if you omit this parameter. A basic call to the [!UICONTROL DCS] to request data uses this syntax:
+Your [!DNL DCS] request must include `d_rtbd=json` if you want to receive a response from the [!DNL DCS]. The [!DNL DCS] will not return data if you omit this parameter. A basic call to the [!DNL DCS] to request data uses this syntax:
 
 ```js
 https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_cb=callback
@@ -27,7 +27,7 @@ Recall that from the [Send Data to the DCS](../../../api/dcs-intro/dcs-event-cal
 
 `https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_rtbd=json&d_cb=acme_callback`
 
-As this call includes the required response parameter, the [!UICONTROL DCS] sent back the [!DNL JSON] object shown below. Yours may be similar or more complex.
+As this call includes the required response parameter, the [!DNL DCS] sent back the [!DNL JSON] object shown below. Yours may be similar or more complex.
 
 ```js
 {
@@ -40,7 +40,7 @@ As this call includes the required response parameter, the [!UICONTROL DCS] sent
 
 ## Response Parameters {#response-parameters}
 
-The table below lists and defines the more common parameters you may see in a response from the [!UICONTROL DCS]. This applies to event calls or other [!UICONTROL DCS] [!DNL API] queries that return data.
+The table below lists and defines the more common parameters you may see in a response from the [!DNL DCS]. This applies to event calls or other [!DNL DCS] [!DNL API] queries that return data.
 
 | Parameter | Description |
 |--- |--- |

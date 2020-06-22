@@ -11,26 +11,26 @@ uuid: 17a4179a-e99b-49eb-8f45-f2946afbd27f
 
 A high-level overview of how Audience Manager exchanges information with other data providers and systems.
 
-## Supported Data Integration Methods: Real-Time and Server-to-Server {#supported-methods}
+## Supported Data Integration Methods: Real-Time and [!DNL Server-to-Server] {#supported-methods}
 
 Choosing the right integration method depends on a combination of business requirements and the technical capabilities of your data partner. Audience Manager exchanges visitor information with other data providers by either of the following methods:
 
 * **Real-Time:** Transfers data immediately as a user visits your site. This method is also known as a *`synchronous`* integration.
-* **Batch (Server-to-Server):** Transfers data between servers on a set schedule after a visitor has left the page. This method is also known as an *`out-of-band`* or *`asynchronous`* integration.
+* **Batch ([!DNL Server-to-Server]):** Transfers data between servers on a set schedule after a visitor has left the page. This method is also known as an *`out-of-band`* or *`asynchronous`* integration.
 
 ## Prerequisites: Create a Trait Taxonomy {#prereqs}
 
-Before the integration process begins, remember to [create traits](../features/traits/create-onboarded-rule-based-traits.md) and a [folder structure](../features/traits/trait-storage.md#create-trait-storage-folder) in the [!DNL Audience Manager] UI. The taxonomy will contain all your traits organized in a logical hierarchy.
+Before the integration process begins, remember to [create traits](../features/traits/create-onboarded-rule-based-traits.md) and a [folder structure](../features/traits/trait-storage.md#create-trait-storage-folder) in the [!DNL Audience Manager] UI. The taxonomy will contain all your [!UICONTROL traits] organized in a logical hierarchy.
 
 ## Integration Use Cases {#integration-use-cases}
 
 A use-case summary of Audience Manager data integration methods along with the advantages and disadvantages of each.
 
-### Real-Time Server-to-Server Integrations
+### Real-Time [!DNL Server-to-Server] Integrations
 
 <!-- c_int_types_use_cases.xml -->
 
-A real-time server-to-server data integration rapidly synchronizes user data between Audience Manager servers and another targeting system. In most cases, data exchange takes place within seconds or minutes, depending on the refresh rate of the targeting system. Note, however, the targeted system determines this refresh interval, not Audience Manager. Furthermore, the refresh rate can vary between different systems. A real-time, server-to-server integration is the preferred integration type for data exchanges. Audience Manager uses this method whenever targeting partners can support it.
+A real-time [!DNL server-to-server] data integration rapidly synchronizes user data between Audience Manager servers and another targeting system. In most cases, data exchange takes place within seconds or minutes, depending on the refresh rate of the targeting system. Note, however, the targeted system determines this refresh interval, not Audience Manager. Furthermore, the refresh rate can vary between different systems. A real-time, [!UICONTROL server-to-server] integration is the preferred integration type for data exchanges. Audience Manager uses this method whenever targeting partners can support it.
 
 <table id="simpletable_5307DEC378E5486CB92A354287F33AD8"> 
  <tr class="strow">
@@ -49,9 +49,9 @@ A real-time server-to-server data integration rapidly synchronizes user data bet
  </tr>
 </table>
 
-### Server-to-Server Batch Integrations
+### [!DNL Server-to-Server] Batch Integrations
 
-A server-to-server batch integration bundles data and sends it to other systems at set intervals rather than in near real time. Data transfer intervals start from 24 hours. Some data providers support this integration type only. However, we've seen a general trend away from batch integrations towards real-time integration methodologies.
+A [!DNL server-to-server] batch integration bundles data and sends it to other systems at set intervals rather than in near real time. Data transfer intervals start from 24 hours. Some data providers support this integration type only. However, we've seen a general trend away from batch integrations towards real-time integration methodologies.
 
 <table id="simpletable_6878241639114DE68E61A251486C6317"> 
  <tr class="strow">
@@ -70,7 +70,7 @@ A server-to-server batch integration bundles data and sends it to other systems 
 
 ### Real-time Calls
 
-Real-time calls exchange data with Audience Manager immediately, as a user visits your site or takes action on the page. With this method, targeting systems get the most updated segment qualification data and can take that information into account during a content or ad delivery decision. Also, this process works with publisher ad servers where we update qualified segments to a first-party cookie that is read into an ad call as key-value pairs. Currently, Audience Manager uses real-time calls to integrate with [!DNL Target] and other content management systems.
+Real-time calls exchange data with Audience Manager immediately, as a user visits your site or takes action on the page. With this method, targeting systems get the most updated segment qualification data and can take that information into account during a content or ad delivery decision. Also, this process works with publisher ad servers where we update qualified segments to a first-party cookie that is read into an ad call as key-value pairs. Currently, Audience Manager uses real-time calls to integrate with [!DNL Adobe Target] and other content management systems.
 
 <table> 
  <tr>
@@ -129,8 +129,8 @@ Real-time data transfers send and receive segment IDs as a user visits or takes 
 The real-time data integration process works as follows:
 
 1. A user visits a customer's site that contains Audience Manager code.
-1. Audience Manager loads an Iframe and makes a call to the [!UICONTROL Data Collection Server] ([!UICONTROL DCS]).
-1. The [!UICONTROL DCS] calls the third-party server (in real time) to check if the vendor has any segment information about the user.
+1. Audience Manager loads an Iframe and makes a call to the [!UICONTROL Data Collection Server] ([!DNL DCS]).
+1. The [!DNL DCS] calls the third-party server (in real time) to check if the vendor has any segment information about the user.
 1. The third party returns segment information about that user to Audience Manager.
 1. Audience Manager ingests segment information and makes it available for targeting.
 
@@ -144,7 +144,7 @@ A general overview of how Audience Manager exchanges data synchronously (in real
 
 <!-- c_int_overview_async.xml -->
 
-The batch (server-to-server) data integration process follows most of the steps outlined in the real-time data transfer process. However, instead of returning segment IDs immediately, user information is saved to our servers and synchronized with a third-party data provider at regular intervals. The asynchronous data transfer process is useful when:
+The batch ([!DNL server-to-server]) data integration process follows most of the steps outlined in the real-time data transfer process. However, instead of returning segment IDs immediately, user information is saved to our servers and synchronized with a third-party data provider at regular intervals. The asynchronous data transfer process is useful when:
 
 * Immediate data transfers are not required.
 * Collecting data to build a large pool of segmented users.
@@ -159,4 +159,4 @@ The batch (server-to-server) data integration process follows most of the steps 
 
 ![](assets/s2s_70.png)
 
-For information describing the time frames when Audience Manager processes inbound and outbound Server-to-Server ([!UICONTROL S2S]) file transfers, see [Reporting and File Transfer Time-Frame Guidelines](../reference/reporting-file-transfer-timeframe.md).
+For information describing the time frames when Audience Manager processes inbound and outbound [!DNL Server-to-Server] ([!UICONTROL S2S]) file transfers, see [Reporting and File Transfer Time-Frame Guidelines](../reference/reporting-file-transfer-timeframe.md).

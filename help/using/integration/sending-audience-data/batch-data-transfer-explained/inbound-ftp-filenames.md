@@ -13,7 +13,7 @@ Describes the required fields, syntax, naming conventions and file sizes you nee
 
 >[!WARNING]
 >
->We are gradually phasing out support for FTP configurations. While inbound data file ingestion is still supported in existing FTP integrations, we strongly recommend using Amazon S3 to onboard offline data for new integrations. See [Amazon S3 Name and File Size Requirements for Inbound Data Files](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) for details.
+>We are gradually phasing out support for [!DNL FTP] configurations. While inbound data file ingestion is still supported in existing [!DNL FTP] integrations, we strongly recommend using [!DNL Amazon S3] to onboard offline data for new integrations. See [Amazon S3 Name and File Size Requirements for Inbound Data Files](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) for details.
 
 >[!NOTE]
 >

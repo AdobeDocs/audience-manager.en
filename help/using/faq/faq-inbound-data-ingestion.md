@@ -51,10 +51,10 @@ See [File Compression for Inbound Data Transfer Files](../integration/sending-au
 
 **Can I upload an inbound data file ([!DNL .sync] or [!DNL .overwrite] file) before deploying [!DNL Audience Manager] code into production?**
 
-Yes. As long as you use a cross-device data source to store the CRM data that you upload, Audience Manager always stores the data. In fact, following the Profile Merge Rules enhancements that Audience Manager launched in October 2019 that allow for offline-only use cases, you can upload and action on data without deploying Audience Manager code into production at all. See:
+Yes. As long as you use a [!UICONTROL cross-device data source] to store the CRM data that you upload, Audience Manager always stores the data. In fact, following the [!UICONTROL Profile Merge Rules] enhancements that Audience Manager launched in October 2019 that allow for offline-only use cases, you can upload and action on data without deploying Audience Manager code into production at all. See:
 
 * [Overview of Profile Merge Rules Enhancements](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
-* People-based Destinations - [Personalization Based on Offline-Only Data](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
+* [!UICONTROL People-based Destinations] - [Personalization Based on Offline-Only Data](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
 
 <br>&nbsp;
 
@@ -149,7 +149,7 @@ FTP files are removed after they've been processed. [!DNL S3] files are removed 
 
   >[!NOTE]
   >
-  >The [!DNL .overwrite] files only overwrite [!DNL Audience Manager] profile data associated to this data provider. In other words, all [!DNL Adobe Analytics] data associated to the visitor remains intact after a [!DNL .overwrite] file has been processed.
+  >The [!DNL .overwrite] files only overwrite [!DNL Audience Manager] profile data associated to this data provider. In other words, all [!DNL Audience Manager] data associated to the visitor remains intact after a [!DNL .overwrite] file has been processed.
 
 * **Incremental:** An incremental file appends new data to your existing visitor profiles. Incremental files are identified by the `.sync` tag appended to the file name. Sending in an incremental file does not erase or overwrite existing profiles.
 
@@ -180,7 +180,7 @@ Time stamps are used for logging and record keeping. They are required by the sy
 
 &nbsp;
 
-**What is a Data Provider ID (DPID) and how do I get it?**
+**What is a [!DNL Data Provider ID (DPID)] and how do I get it?**
 
 Your Adobe consultant will assign a three-digit or four-digit [DPID (Data Provider ID)](../reference/ids-in-aam.md) to your particular data source. This ID is unique and does not change.
 
@@ -203,7 +203,7 @@ Yes, see:
 
 **The primary key in my data source database is an email address. Is that considered personally identifiable information?**
 
-Yes. [!DNL Audience Manager] does not store email addresses in its database. Visitors should be assigned a randomly generated ID or a one-way-hashed version of the email address prior to initiating ID synchornizations.
+Yes. [!DNL Audience Manager] does not store email addresses in its database. Visitors should be assigned a randomly generated ID or a one-way-hashed version of the email address prior to initiating ID synchronizations.
 
 &nbsp;
 
@@ -219,7 +219,7 @@ As best practice, we recommend [!DNL Amazon S3] because the process is simpler. 
 
 >[!WARNING]
 >
->We are gradually phasing out support for FTP configurations. While inbound data file ingestion is still supported in existing FTP integrations, we strongly recommend using Amazon S3 to onboard offline data for new integrations. See [Amazon S3 Name and File Size Requirements for Inbound Data Files](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) for details.
+>We are gradually phasing out support for FTP configurations. While inbound data file ingestion is still supported in existing FTP integrations, we strongly recommend using [!DNL Amazon S3] to onboard offline data for new integrations. See [Amazon S3 Name and File Size Requirements for Inbound Data Files](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) for details.
 
 &nbsp;
 

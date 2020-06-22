@@ -22,8 +22,8 @@ Real-time data transfers send and receive segment IDs as a user visits or takes 
 The real-time data integration process works as follows:
 
 1. A user visits a customer's site that contains Audience Manager code.
-1. Audience Manager loads an iframe and makes a call to our [!UICONTROL Data Collection Server] ( [!UICONTROL DCS]).
-1. The [!UICONTROL DCS] calls the third-party server (in real time) to check if the vendor has any segment information about the user.
+1. Audience Manager loads an iframe and makes a call to our [!UICONTROL Data Collection Server] ( [!DNL DCS]).
+1. The [!DNL DCS] calls the third-party server (in real time) to check if the vendor has any segment information about the user.
 1. The content provider returns segment information about that user to Audience Manager.
 1. Audience Manager receives this segment information and makes it available for targeting and building new traits and segments.
 

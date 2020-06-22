@@ -25,7 +25,7 @@ c_segment_segment_overlap.xml
 
 The [!UICONTROL Segment-to-Segment Overlap] report can help you:
 
-* Identify segments with high or low overlap, depending on your needs. Traits with high overlap give you a targeted audience, but fewer unique visitors. Traits with low overlap can be useful to reach a larger, unique visitor set. 
+* Identify segments with high or low overlap, depending on your needs. Traits with high overlap give you a targeted audience, but fewer unique visitors. Traits with low overlap can be useful to reach a larger, unique visitor set.
 * Find unexpected overlap and use that information to build new, high-performance segments.
 
 ## Sample Report

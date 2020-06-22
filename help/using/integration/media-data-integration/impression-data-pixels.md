@@ -19,7 +19,7 @@ This methodology is often referred to as "pixeling the creative." Those data poi
 >
 >The text styles (`monospaced text`, *italics*, brackets `[ ]` `( )`, etc.) indicate code elements and options. See [Style Conventions for Code and Text Elements](../../reference/code-style-elements.md) for more information.
 
-The event call collects impression and conversion data and sends it to the [!DNL Audience Manager] [data collection servers](/help/using/reference/system-components/components-data-collection.md) ([!UICONTROL DCS]). This process relies on third-party ad servers that place the call in the creative to control what content gets inserted into the code. The third-party ad servers (for example, [!DNL DFA]) can place this code within each ad impression. Furthermore, an ad call does not use [!DNL JavaScript] or employ frame-busting techniques to access publisher data outside of the ad tag.
+The event call collects impression and conversion data and sends it to the [!DNL Audience Manager] [data collection servers](/help/using/reference/system-components/components-data-collection.md) ([!DNL DCS]). This process relies on third-party ad servers that place the call in the creative to control what content gets inserted into the code. The third-party ad servers (for example, [!DNL DFA]) can place this code within each ad impression. Furthermore, an ad call does not use [!DNL JavaScript] or employ frame-busting techniques to access publisher data outside of the ad tag.
 
 Event calls consist of key-value pairs that use the following syntax:
 
@@ -104,7 +104,7 @@ Impression event calls accept data formed into key-value pairs. The following ta
 >
 >Please contact your Adobe Audience Manager consulting or account lead for the exact URL specific to the client domain.
 
-## Additional functionality - Audience Optimization Reports
+## Additional functionality - [!DNL Audience Optimization Reports] {#additional-functionality-aor}
 
 You can use pixel calls to power the [Audience Optimization Reports](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md). See [Overview and Mappings for Metadata Files](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) if you wish to use pixels to power the reports.
 

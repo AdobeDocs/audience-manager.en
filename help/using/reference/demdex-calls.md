@@ -9,7 +9,7 @@ uuid: c06dae3a-f169-4712-80fb-d6d448dce51a
 
 # Understanding Calls to the Demdex Domain{#understanding-calls-to-the-demdex-domain}
 
-Audience Manager and the Adobe Experience Platform Identity Service make calls to and receive data from the demdex.net domain. This may seem like Adobe is working with an unusual third-party domain, but this is not the case. This section describes the elements in a demdex.net call.
+[!DNL Audience Manager] and the Adobe Experience Platform Identity Service make calls to and receive data from the demdex.net domain. This may seem like Adobe is working with an unusual third-party domain, but this is not the case. This section describes the elements in a `demdex.net` call.
 
 <table id="table_B846CBEDDA4C4AD19416F7C27FC325C6"> 
  <thead> 
