@@ -7,17 +7,17 @@ title: Reporting Overview
 
 # Reporting Overview
 
-Individual sections describe available reports, their purposes, and typical uses. All reports are available from the Analytics dashboard.
+Individual sections describe available reports, their purposes, and typical uses. All reports are available from the [!UICONTROL Analytics] dashboard.
 
 For information describing the time frames when Audience Manager receives information to populate reports, see [How Data Delivery and File Processing Times Affect Reports](/help/using/reference/reporting-file-transfer-timeframe.md).
 
 * [Audience Optimization Reports](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)
 
-  The Audience Optimization reports use data visualization methods to return information on the destinations in your Audience Manager account. In each report, you can click on almost any data point to return detailed information about that item. These audience optimization insights can be applied to several use cases across advertising and publishing channels, but are not available by default. Contact your Audience Manager consultant to get started.
+  The [!UICONTROL Audience Optimization] reports use data visualization methods to return information on the destinations in your Audience Manager account. In each report, you can click on almost any data point to return detailed information about that item. These audience optimization insights can be applied to several use cases across advertising and publishing channels, but are not available by default. Contact your Audience Manager consultant to get started.
 
 * [General Reports](/help/using/reporting/general-reports.md)
 
-  A General report returns performance data on traits, segments, and destinations.
+  A [!UICONTROL General report] returns performance data on [!UICONTROL traits], [!UICONTROL segments], and [!UICONTROL destinations].
 
 * [Interactive and Overlap Reports](/help/using/reporting/dynamic-reports/dynamic-reports.md)
 
@@ -25,23 +25,23 @@ For information describing the time frames when Audience Manager receives inform
 
 * [Onboarding Status Report: About](/help/using/reporting/onboarding-status-report.md)
 
-  The Onboarding Status Report checks success and failure rates for processing records in your inbound data source files. This report displays data in an interactive bar chart and provides summary metrics in tabular form. And, it includes an option that samples files for a fixed time interval and displays the most common errors for each error type. You can find this report in Analytics > Onboarding Status Report. This report is also available when you create an inbound data source.
+  The [!UICONTROL Onboarding Status Report] checks success and failure rates for processing records in your inbound data source files. This report displays data in an interactive bar chart and provides summary metrics in tabular form. And, it includes an option that samples files for a fixed time interval and displays the most common errors for each error type. You can find this report in [!UICONTROL Analytics > Onboarding Status Report]. This report is also available when you create an inbound data source.
 
 * [Outbound File History](/help/using/reporting/outbound-history-report.md)
 
-  View outbound batch job history information for a specified destination and time period.
+  View [!UICONTROL outbound] batch job history information for a specified destination and time period.
 
 * [Trend Reports](/help/using/reporting/trend-reports.md)
 
-  A Trend report returns trend data on traits and segments.
+  A [!UICONTROL Trend report] returns trend data on [!UICONTROL traits] and [!UICONTROL segments].
 
 * [Counting Unique Users in Overlap and General Reports](/help/using/reporting/unique-user-counts.md)
 
-  Describes the variation in unique user totals between reports for the same trait and time period.
+  Describes the variation in unique user totals between reports for the same [!UICONTROL trait] and time period.
 
 * [Reports Dashboard](/help/using/reporting/trend-reports.md)
 
-  Use the Dashboard to view information about your partners' unique visitor counts broken down by trait types and segments for a specified time frame.
+  Use the Dashboard to view information about your partners' unique visitor counts broken down by [!UICONTROL trait] types and [!UICONTROL segments] for a specified time frame.
 
 * [Data Sampling and Error Rates in Selected Audience Manager Reports](/help/using/reporting/report-sampling.md)
 
