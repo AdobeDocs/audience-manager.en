@@ -54,7 +54,7 @@ Processes that help keep personal information safe. For additional privacy infor
 
 Processes that help protect data owned by individual clients.
 
-**Trait Data Partitioning:**  Your data (traits, IDs, etc.) is partitioned by client. This helps prevent accidental information exposure between different clients. For example, trait data in cookies is partitioned by customer and stored in a client-specific sub-domain. It cannot be read or used accidentally by another Audience Manager client. Furthermore, trait data stored in the [!UICONTROL Profile Cache Servers (PCS)] is also partitioned by customer. This prevents other clients from accidentally using your data in an event call or other request.
+**Trait Data Partitioning:**  Your data ([!UICONTROL traits], IDs, etc.) is partitioned by client. This helps prevent accidental information exposure between different clients. For example, trait data in cookies is partitioned by customer and stored in a client-specific sub-domain. It cannot be read or used accidentally by another Audience Manager client. Furthermore, trait data stored in the [!UICONTROL Profile Cache Servers (PCS)] is also partitioned by customer. This prevents other clients from accidentally using your data in an event call or other request.
 
 **Data Partitioning in Reports:**  Client IDs are part of the identifying key in all reporting tables and report queries are filtered by ID. This helps prevent your data from appearing in the reports of another Audience Manager customer.
 
@@ -66,7 +66,7 @@ Both methods are designed with the security of our customer and partner data in 
 
 **SFTP:** For the SFTP option, most customers choose to deliver files via the Secure FTP (SFTP) protocol, which uses the Secure Shell (SSH) protocol. This method ensures that files are encrypted while in flight between the customer's systems and Adobe's system. For each customer, we create a jailed drop-box location on our SFTP servers, which is tied to a user account on that system. Only the customer's credentialed and privileged internal system users can access this jailed drop-box location. This jail is never accessible to other customers.
 
-**Amazon Web Services S3 via HTTPS:** For the S3 delivery option, we recommend that all customers configure their S3 clients to use the HTTPS encryption method for file transfers (this is not the default, so it must be explicitly configured). The HTTPS option is supported both by the s3cmd command line tool as well as the S3 libraries available in every major programming language. With this HTTPS option enabled, customer's data is encrypted while in flight to our systems. For each customer, we create a separate S3 bucket sub-directory that can be accessed only by that customer's credentials and those of our internal system users.
+**[!UICONTROL Amazon Web Services S3] via HTTPS:** For the S3 delivery option, we recommend that all customers configure their S3 clients to use the HTTPS encryption method for file transfers (this is not the default, so it must be explicitly configured). The HTTPS option is supported both by the s3cmd command line tool as well as the S3 libraries available in every major programming language. With this HTTPS option enabled, customer's data is encrypted while in flight to our systems. For each customer, we create a separate S3 bucket sub-directory that can be accessed only by that customer's credentials and those of our internal system users.
 
 To add PGP encryption to your data files, see [File PGP Encryption for Inbound Data Types](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md).
 
@@ -84,6 +84,6 @@ This policy improves data security between clients and Adobe [Edge](../../refere
 
 ### Example {#hsts-example}
 
-Let's say the `yourcompany.demdex.com` domain sends trafic to the [!DNL DCS] via [!DNL HTTP]. [!DNL HSTS] upgrades the calls to use [!DNL HTTPS] instead, and all subsequent [!DNL DCS] calls coming from `yourcompany.demdex.com` will use [!DNL HTTPS] instead of [!DNL HTTP].
+Let's say the `yourcompany.demdex.com` domain sends traffic to the [!DNL DCS] via [!DNL HTTP]. [!DNL HSTS] upgrades the calls to use [!DNL HTTPS] instead, and all subsequent [!DNL DCS] calls coming from `yourcompany.demdex.com` will use [!DNL HTTPS] instead of [!DNL HTTP].
 
 See [HTTP Strict Transport Security - Wikipedia](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) for more information about HSTS.
