@@ -8,7 +8,7 @@ topic: DIL API
 uuid: aaee820c-1e78-4fd4-bd8f-2629085d78e9
 ---
 
-# Audience Lab {#audience-lab}
+# [!UICONTROL Audience Lab] {#audience-lab}
 
 Create mutually exclusive test segments in [!UICONTROL Segment Test Groups] to compare and measure effectiveness of different destinations. You can set aside a control group and divide your segment into percentages of a whole, in order to test efficacy.
 
@@ -37,7 +37,7 @@ Once you start creating multiple test groups with multiple test segments, it may
 
 You can also filter your test groups by status. All available statuses are described in the [Status](../../features/audience-lab/audience-lab.md#status) section below.
 
-## Status {#status}
+## [!UICONTROL Status] {#status}
 
 The status of a test group can be active, scheduled, paused, draft, or completed. More information on each of them in the table below:
 
@@ -72,7 +72,7 @@ The status of a test group can be active, scheduled, paused, draft, or completed
  </tbody>
 </table>
 
-## Actions {#actions}
+## [!UICONTROL Actions] {#actions}
 
 <table id="table_481A411E2D2F4FE891595D00E775CF60"> 
  <thead> 
