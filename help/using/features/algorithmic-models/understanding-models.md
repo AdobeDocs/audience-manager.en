@@ -8,11 +8,11 @@ title: About Look-Alike Modeling
 uuid: 39441e72-5316-453d-9aff-0e0b633aabcd
 ---
 
-# Understanding Look-Alike Modeling {#about-algorithmic-models}
+# Understanding [!UICONTROL Look-Alike Modeling] {#about-algorithmic-models}
 
-## Find New Users with Look-Alike Modeling {#find-new-users}
+## Find New Users with [!UICONTROL Look-Alike Modeling] {#find-new-users}
 
-[!UICONTROL Look-Alike Modeling] helps you discover new, unique audiences through automated data analysis. The process starts when you select a trait or segment, a time interval, and first and third-party data sources. Your choices provide the inputs for the algorithmic model. When the analytics process runs, it looks for eligible users based on shared characteristics from the selected population. Upon completion, this data is available in [Trait Builder](../../features/traits/about-trait-builder.md) where you can use it to create traits based on [accuracy and reach](../../features/traits/trait-accuracy-reach.md). Additionally, you can build segments that combine algorithmic traits with rules-based traits and add other qualification requirements with Boolean expressions and comparison operators. [!UICONTROL Look-Alike Modeling] gives you a dynamic way to extract value from all your available trait data.
+[!UICONTROL Look-Alike Modeling] helps you discover new, unique audiences through automated data analysis. The process starts when you select a [!UICONTROL trait] or [!UICONTROL segment], a time interval, and first and third-party [!UICONTROL data sources]. Your choices provide the inputs for the algorithmic model. When the analytics process runs, it looks for eligible users based on shared characteristics from the selected population. Upon completion, this data is available in [Trait Builder](../../features/traits/about-trait-builder.md) where you can use it to create traits based on [accuracy and reach](../../features/traits/trait-accuracy-reach.md). Additionally, you can build segments that combine algorithmic traits with [!UICONTROL rules-based traits] and add other qualification requirements with [!DNL Boolean] expressions and comparison operators. [!UICONTROL Look-Alike Modeling] gives you a dynamic way to extract value from all your available trait data.
 
 ## Advantages {#advantages}
 
@@ -20,69 +20,65 @@ The major benefits of using [!UICONTROL Look-Alike Modeling] include:
 
 * **Data accuracy:** The algorithm runs regularly, which helps keep results current and relevant.
 * **Automation:** You don't have to manage a large set of static rules. The algorithm will find audiences for you.
-* **Save time and reduce effort:** With our modeling process you don't have to guess at what traits/segments may work or spend time resources on campaigns to discover new audiences. The model can do this for you.
+* **Save time and reduce effort:** With our modeling process you don't have to guess at what [!UICONTROL traits]/[!UICONTROL segments] may work or spend time resources on campaigns to discover new audiences. The model can do this for you.
 * **Reliability:** Modeling works with server-side discovery and qualification processes that evaluate your own data and selected third-party data that you have access to. This means you don't have to see the visitors on your site to qualify them for a trait.
 
 ## Workflow {#workflow}
 
 You manage models in **[!UICONTROL Audience Data > Models]**. At a high level, the workflow process involves the following:
 
-* Select the baseline data you want the algorithm to evaluate. This includes a trait or segment, time range, and data sources (your own data and third-party data you already have access to through [!DNL Audience Manager]). In the model creation workflow, you can exclude the traits that you don't want to interfere with your model.
-* Save your model. Once saved, algorithmic evaluation process runs automatically. Note, however, it can take up to 7 days for this process to complete. [!DNL Audience Manager] sends you an email when the algorithm has finished and results are available for trait creation.
-* Build algorithmic traits in [!UICONTROL Trait Builder].
-* Combine traits into segments in [!UICONTROL Segment Builder].
-* Create and send segment data to a destination.
+* Select the baseline data you want the algorithm to evaluate. This includes a [!UICONTROL trait] or [!UICONTROL segment], time range, and [!UICONTROL data sources] (your own data and third-party data you already have access to through [!DNL Audience Manager]). In the model creation workflow, you can exclude the [!UICONTROL traits] that you don't want to interfere with your model.
+* Save your model. Once saved, algorithmic evaluation process runs automatically. Note, however, it can take up to 7 days for this process to complete. [!DNL Audience Manager] sends you an email when the algorithm has finished and results are available for [!UICONTROL trait] creation.
+* Build algorithmic [!UICONTROL traits] in [!UICONTROL Trait Builder].
+* Combine [!UICONTROL traits] into [!UICONTROL segments] in [!UICONTROL Segment Builder].
+* Create and send [!UICONTROL segment] data to a [!UICONTROL destination].
 
 ## Troubleshooting {#troubleshooting}
 
-We deactivate any [!UICONTROL Look-Alike Model] that fails to generate data for three consecutive runs. Note that you cannot set the status of the model back to active afterwards. To ensure your models generate data, we recommend that you build models from data sources with sufficient traits to accumulate data from.
+We deactivate any [!UICONTROL Look-Alike Model] that fails to generate data for three consecutive runs. Note that you cannot set the status of the model back to active afterwards. To ensure your models generate data, we recommend that you build models from data sources with sufficient [!UICONTROL traits] to accumulate data from.
 
-## Understanding TraitWeight {#understanding-traitweight}
+## Understanding [!UICONTROL TraitWeight] {#understanding-traitweight}
 
-[!UICONTROL TraitWeight] is a proprietary algorithm designed to discover new traits automatically. It compares trait data from your current traits and segments against all other first and third-party data that you have access to through [!DNL Audience Manager]. Refer to this section for a description of the [!UICONTROL TraitWeight] algorithmic discovery process.
-
-<!-- traitweight.xml -->
+[!UICONTROL TraitWeight] is a proprietary algorithm designed to discover new [!UICONTROL traits] automatically. It compares [!UICONTROL trait] data from your current [!UICONTROL traits] and [!UICONTROL segments] against all other first and third-party data that you have access to through [!DNL Audience Manager]. Refer to this section for a description of the [!UICONTROL TraitWeight] algorithmic discovery process.
 
 ![](assets/algo_model.png)
 
 The following steps describe the [!UICONTROL TraitWeight] evaluation process.
 
-### Step 1: Build a Baseline for Trait Comparison
+### Step 1: Build a Baseline for [!UICONTROL Trait] Comparison
 
-To build a baseline, [!UICONTROL TraitWeight] measures all the traits associated with an audience for a 30, 60, or 90 day interval. Next, it ranks traits according to their frequency and their correlation. The frequency count measures commonality. Correlation measures the likelihood of a trait being present only in the baseline audience. Traits that appear often are said to exhibit high commonality, an important characteristic used to set a weighted score when combined with traits discovered in your selected data sources.
+To build a baseline, [!UICONTROL TraitWeight] measures all the [!UICONTROL traits] associated with an audience for a 30, 60, or 90 day interval. Next, it ranks [!UICONTROL traits] according to their frequency and their correlation. The frequency count measures commonality. Correlation measures the likelihood of a [!UICONTROL trait] being present only in the baseline audience. [!UICONTROL Traits] that appear often are said to exhibit high commonality, an important characteristic used to set a weighted score when combined with [!UICONTROL traits] discovered in your selected [!UICONTROL data sources].
 
-### Step 2: Find the Same Traits in the Data Source
+### Step 2: Find the Same [!UICONTROL Traits] in the [!UICONTROL Data Source]
 
-After it builds a baseline for comparison, the algorithm looks for identical traits in your selected data sources. In this step, [!UICONTROL TraitWeight] performs a frequency count of all discovered traits and compares them to the baseline. However, unlike the baseline, uncommon traits are ranked higher than those that appear more often. Rare traits are said to exhibit a high degree of specificity. [!UICONTROL TraitWeight] assesses combinations of common baseline traits and uncommon (highly specific) data source traits as more influential or desirable than traits common to both data sets. In fact, our model recognizes these large, common traits and does not assign excess priority to data sets with high correlations. Rare traits get higher priority because they are more likely to represent new, unique users than traits with high commonality across the board.
+After it builds a baseline for comparison, the algorithm looks for identical [!UICONTROL traits] in your selected [!UICONTROL data sources]. In this step, [!UICONTROL TraitWeight] performs a frequency count of all discovered [!UICONTROL traits] and compares them to the baseline. However, unlike the baseline, uncommon [!UICONTROL traits] are ranked higher than those that appear more often. Rare [!UICONTROL traits] are said to exhibit a high degree of specificity. [!UICONTROL TraitWeight] assesses combinations of common baseline [!UICONTROL traits] and uncommon (highly specific) [!UICONTROL data source] [!UICONTROL traits] as more influential or desirable than [!UICONTROL traits] common to both data sets. In fact, our model recognizes these large, common [!UICONTROL traits] and does not assign excess priority to data sets with high correlations. Rare [!UICONTROL traits] get higher priority because they are more likely to represent new, unique users than [!UICONTROL traits] with high commonality across the board.
 
 ### Step 3: Assign Weight
 
-In this step, [!UICONTROL TraitWeight] ranks newly discovered traits in order of influence or desirability. The weight scale is a percentage that runs from 0% to 100%. Traits ranked closer to 100% means they're more like the audience in your baseline population. Also, heavily weighted traits are valuable because they represent new, unique users who may behave similarly to your established, baseline audience. Remember, [!UICONTROL TraitWeight] considers traits with high commonality in the baseline and high specificity in the compared data sources to be more valuable than traits common in each data set.
+In this step, [!UICONTROL TraitWeight] ranks newly discovered [!UICONTROL traits] in order of influence or desirability. The weight scale is a percentage that runs from 0% to 100%. [!UICONTROL Traits] ranked closer to 100% means they're more like the audience in your baseline population. Also, heavily weighted [!UICONTROL traits] are valuable because they represent new, unique users who may behave similarly to your established, baseline audience. Remember, [!UICONTROL TraitWeight] considers [!UICONTROL traits] with high commonality in the baseline and high specificity in the compared data sources to be more valuable than [!UICONTROL traits] common in each data set.
 
 ### Step 4: Scoring Users
 
-Each user in the selected data sources is given a user score which is equal to the sum of all the weights of the influential traits on that user's profile. The user scores are then normalized between 0 and 100%.
+Each user in the selected [!UICONTROL data sources] is given a user score which is equal to the sum of all the weights of the influential [!UICONTROL traits] on that user's profile. The user scores are then normalized between 0 and 100%.
 
 ### Step 5: Display and Work with Results
 
-[!DNL Audience Manager] displays your weighted model results in [!UICONTROL Trait Builder]. When you want to build an algorithmic trait, [!UICONTROL Trait Builder] lets you create traits based on the weighted score generated by the algorithm during a data run. You can choose a higher accuracy to only qualify users who have very high user scores and therefore are very similar to the baseline audience, rather than the rest of the audience. If you want to reach a larger audience (reach), you can lower the accuracy.
+[!DNL Audience Manager] displays your weighted model results in [!UICONTROL Trait Builder]. When you want to build an [!UICONTROL algorithmic trait], [!UICONTROL Trait Builder] lets you create [!UICONTROL traits] based on the weighted score generated by the algorithm during a data run. You can choose a higher accuracy to only qualify users who have very high user scores and therefore are very similar to the baseline audience, rather than the rest of the audience. If you want to reach a larger audience (reach), you can lower the accuracy.
 
-### Step 6: Re-evaluate the Significance of a Trait Across Processing Cycles
+### Step 6: Re-evaluate the Significance of a [!UICONTROL Trait] Across Processing Cycles
 
-Periodically, [!UICONTROL TraitWeight] re-evaluates the importance of a trait based on the size and change in the population of that trait. This happens as the number of users qualified for that trait increases or decreases over time. This behavior is most clearly seen in traits that become very large. For example, suppose the algorithm uses trait A for modeling. As the population of trait A increases, [!UICONTROL TraitWeight] re-evaluates the importance of that trait and may assign a lower score or ignore it. In this case, trait A is too common or large to say anything significant about its population. After [!UICONTROL TraitWeight] reduces the value of Trait A (or ignores it in the model), the population of the algorithmic trait decreases. The list of influential traits reflects the evolution of the baseline population. Use the list of the influential traits to understand why these changes are occurring.
+Periodically, [!UICONTROL TraitWeight] re-evaluates the importance of a [!UICONTROL trait] based on the size and change in the population of that [!UICONTROL trait]. This happens as the number of users qualified for that [!UICONTROL trait] increases or decreases over time. This behavior is most clearly seen in traits that become very large. For example, suppose the algorithm uses [!UICONTROL trait A] for modeling. As the population of [!UICONTROL trait A] increases, [!UICONTROL TraitWeight] re-evaluates the importance of that [!UICONTROL trait] and may assign a lower score or ignore it. In this case, [!UICONTROL trait A] is too common or large to say anything significant about its population. After [!UICONTROL TraitWeight] reduces the value of [!UICONTROL trait A] (or ignores it in the model), the population of the algorithmic trait decreases. The list of influential [!UICONTROL traits] reflects the evolution of the baseline population. Use the list of the influential [!UICONTROL traits] to understand why these changes are occurring.
 
 Related links:
 
 * [Model Builder](../../features/algorithmic-models/create-model.md)
 * [Accuracy and Reach](../../features/traits/trait-accuracy-reach.md)
 
-## Update Schedule for Look-Alike Models and Traits {#update-schedule}
+## Update Schedule for [!UICONTROL Look-Alike Models] and [!UICONTROL Traits] {#update-schedule}
 
-Creation and update schedules for new or existing algorithmic models and traits.
+Creation and update schedules for new or existing [!UICONTROL algorithmic models] and [!UICONTROL traits].
 
-<!-- c_model_update_schedule.xml -->
-
-### Look-Alike Model Creation and Update Schedule
+### [!UICONTROL Look-Alike Model] Creation and Update Schedule
 
 <table id="table_E75A2B334A7F47ED9DFFBD6DF8636641"> 
  <thead>
@@ -111,7 +107,7 @@ Creation and update schedules for new or existing algorithmic models and traits.
  </tbody>
 </table>
 
-### Look-Alike Trait Creation and Update Schedule
+### [!UICONTROL Look-Alike Trait] Creation and Update Schedule
 
 <table id="table_92A908818C4F4F2287EA56C786CD0BBD"> 
  <thead> 
@@ -136,20 +132,16 @@ Creation and update schedules for new or existing algorithmic models and traits.
 
 The list view is a central workspace that helps you to create, review, and manage models.
 
-<!-- c_models_list_view.xml -->
-
-The Models list page contains features and tools that help you:
+The [!UICONTROL Models] list page contains features and tools that help you:
 
 * Create new models.
 * Manage existing models (edit, pause, delete, or clone).
 * Search for models by name.
-* Create algorithmic traits using any given model.
+* Create [!UICONTROL algorithmic traits] using any given model.
 
 ## Models Summary View {#models-summary-view}
 
-The summary page displays model details such as name, reach/accuracy, processing history, and traits created from the model. The page also includes settings that let you create and managing models. Click a model name from the summary list to see its details.
-
-<!-- c_models_summary.xml -->
+The summary page displays model details such as name, reach/accuracy, processing history, and [!UICONTROL traits] created from the model. The page also includes settings that let you create and managing models. Click a model name from the summary list to see its details.
 
 The model summary page includes the following sections.
 

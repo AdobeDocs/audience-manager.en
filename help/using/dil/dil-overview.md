@@ -8,17 +8,17 @@ title: Understanding the Data Integration Library (DIL)
 uuid: 77b12f35-81e4-4639-ada6-bf982f27b36e
 ---
 
-# Understanding the Data Integration Library (DIL){#understanding-the-data-integration-library-dil}
+# Understanding the [!DNL Data Integration Library] (DIL){#understanding-the-data-integration-library-dil}
 
-Overview, getting started, and code methods available in the Audience Manager DIL code library.
+Overview, getting started, and code methods available in the [!DNL Audience Manager DIL] code library.
 
 >[!IMPORTANT]
 >
->Starting with version 8.0 (released August 2018), [!UICONTROL DIL] has a hard dependency on the [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html), version 3.3 or higher. It relies on the ID Service to fire ID syncs and URL destinations. An error occurs if the ID Service is missing, old, or not configured. 
+>Starting with version 8.0 (released August 2018), [!UICONTROL DIL] has a hard dependency on the [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html), version 3.3 or higher. It relies on the [!DNL ID Service] to fire ID syncs and URL destinations. An error occurs if the [!DNL ID Service] is missing, old, or not configured. 
 >
->We recommend you use Adobe Experience Platform Launch to implement and manage your DIL and Adobe Experience Platform Identity Service libraries.
+>We recommend you use [!DNL Adobe Experience Platform Launch] to implement and manage your [!DNL DIL] and [!DNL Adobe Experience Platform Identity Service] libraries.
 
-However, you can also download the latest Experience Cloud and DIL releases from our GitHub page. See download links below:
+However, you can also download the latest Experience Cloud and [!DNL DIL] releases from our GitHub page. See download links below:
 
 * Download the [Adobe Experience Platform Identity Service](https://github.com/Adobe-Marketing-Cloud/id-service/releases)
 * Download [DIL](https://github.com/Adobe-Marketing-Cloud/dil/releases)
@@ -32,11 +32,11 @@ However, you can also download the latest Experience Cloud and DIL releases from
 
 ## Getting and Implementing DIL Code {#get-implement-dil-code}
 
-[!UICONTROL DIL] code is available for download **[here](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. Please note that starting with version 8.0 (released August 2018), [!UICONTROL DIL] has a hard dependency on the [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html), version 3.3 or higher. It relies on the ID Service to fire ID syncs and URL destinations. An error occurs if the ID Service is missing, old, or not configured.
+[!UICONTROL DIL] code is available for download **[here](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. Please note that starting with version 8.0 (released August 2018), [!UICONTROL DIL] has a hard dependency on the [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html), version 3.3 or higher. It relies on the [!DNL ID Service] to fire ID syncs and [!DNL URL destinations]. An error occurs if the [!DNL ID Service] is missing, old, or not configured.
 
-Rather than work with [!UICONTROL DIL] and set up [!DNL Audience Manager] manually, we recommend that you use [Adobe Experience Platform Launch](https://docs.adobelaunch.com/) instead. [!DNL Adobe Experience Platform Launch] is the recommended implementation tool because it simplifies code deployment, placement, and version management. Read more about the [Audience Manager extension](https://docs.adobelaunch.com/extension-reference/web/adobe-audience-manager-extension) in Adobe Experience Platform Launch.
+Rather than work with [!UICONTROL DIL] and set up [!DNL Audience Manager] manually, we recommend that you use [Adobe Experience Platform Launch](https://docs.adobelaunch.com/) instead. [!DNL Adobe Experience Platform Launch] is the recommended implementation tool because it simplifies code deployment, placement, and version management. Read more about the [Audience Manager extension](https://docs.adobelaunch.com/extension-reference/web/adobe-audience-manager-extension) in [!DNL Adobe Experience Platform Launch].
 
-Adobe Experience Platform Launch is the successor to [Adobe Dynamic Tag Manager](https://docs.adobe.com/content/help/en/dtm/using/c-overview.html) ([!DNL DTM]).
+[!DNL Adobe Experience Platform Launch] is the successor to [Adobe Dynamic Tag Manager](https://docs.adobe.com/content/help/en/dtm/using/c-overview.html) ([!DNL DTM]).
 
 ## Sample Call {#sample-code}
 

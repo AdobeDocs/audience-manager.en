@@ -9,67 +9,28 @@ topic: DIL API
 uuid: 3eb1335a-6949-452b-b77a-697c22856cb3
 ---
 
-# Addressable Audience {#addressable-audiences}
+# [!UICONTROL Addressable Audiences] {#addressable-audiences}
 
 An overview of the [!UICONTROL Addressable Audience] feature and use cases.
 
-## What is an Addressable Audience? {#addressable-audience-description}
+## What is an [!UICONTROL Addressable Audience]? {#addressable-audience-description}
 
 The [!UICONTROL Addressable Audiences] feature shows you the overlap between the audiences you see across all of your properties where [!DNL Audience Manager] collects data and your selected destination. To help you understand this concept, take a look at the illustration below. The overlap between each circle represents the different types of addressable audiences.
 
 ![](assets/addressableAudienceVenn.png)
 
-<table id="table_6DC02E219B074BF782EAA0E9DB9495FB"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Metric </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-    <tr> 
-   <td colname="col1"> <p> <b>Audience Manager's Addressable Audience for a Destination</b> </p> </td> 
-   <td colname="col2"> <p>A count of all devices that have interacted with all Audience Manager customers at the platform-level during the report look-back period and that could be matched with your chosen destination. </p> <p>This metric is useful because it shows you: </p> <p> 
-     <ul id="ul_67A82A40C7A64457822272B45D2817FC"> 
-      <li id="li_DAEFB565CE774F68AA29274A021F1E5A"> The size of the total addressable audience that <span class="keyword"> Audience Manager</span> can reach on a particular targeting destination. </li> 
-      <li id="li_AF26F88068CA44F7B5C4C42DE5E21055">How big the <span class="keyword"> Audience Manager</span> profile pool is for a targeting platform and the size of their audiences. </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Customer Total Audience</b> </p> </td> 
-   <td colname="col2"> <p>A count of devices that have realized either a rule-based trait on your properties or an onboarded trait from your offline files during the look-back window. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Addressable Audience Match Rate</b> </p> </td> 
-   <td colname="col2"> 
-    <draft-comment> 
-     <p>A count of overlap of devices that have realized either a rule-based trait or an onboarded trait during the look-back window and devices that we have an ID sync with the chosen destination regardless of the time of syncs. </p> 
-    </draft-comment> <p>This metric represents devices that: 
-     <ul id="ul_B609B402A29D44898DF0B1ABC6011D40"> 
-      <li id="li_27A530DE2AEB48069BECFB2D78E94C4E">Have realized either a rule-based or an onboarded trait during the look-back window <b>AND</b> </li> 
-      <li id="li_47C44ECAEC5844DEB11C6A93C8F061BB">Have an ID sync with the chosen destination regardless of the time of syncs. </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Customer Match Rate</b> </p> </td> 
-   <td colname="col2"> <p>Customer Addressable Audience ÷ Customer Total Audience expressed as a %. </p> </td> 
-  </tr>
-   <tr> 
-   <td colname="col1"> <p> <b>Total Segment Population</b> </p> </td> 
-   <td colname="col2"> <p>A count of all the devices that were a member of your segment during the report look-back period. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Segment Addressable Audience</b> </p> </td> 
-   <td colname="col2"> <p>The number of users who have belonged to the segment during the report look-back period and have an active ID sync on your site. Segments can include your own first-party data and second party and third party data, via traits acquired in the <a href="../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md"> Audience Marketplace</a>. </p> <p> <p>Tip: When used with the 1-day look-back period, this metric can help you understand the current state of your segments. This is because the <span class="wintitle"> Segment Addressable Audience</span> metric represents the users who stayed in a segment throughout the previous day. Combine this with the fact that <span class="keyword"> Audience Manager</span> refreshes <span class="wintitle"> Addressable Audiences</span> daily, combining this metric and lookback period provides the most up-to-date snapshot of your segments. </p> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Segment Match Rate</b> </p> </td> 
-   <td colname="col2"> <p>Segment Addressable Audience ÷ Total Segment Population expressed as a %. </p> </td> 
-  </tr>  
- </tbody> 
-</table>
 
-## Addressable Audience Interface {#addressable-audience-interface}
+|Metric|Description|
+|---|---|
+|[!UICONTROL Audience Manager Addressable Audience] for a [!UICONTROL Destination]|A count of all devices that have interacted with all [!DNL Audience Manager] customers at the platform-level during the report look-back period and that could be matched with your chosen [!UICONTROL destination]. <br><br>This metric is useful because it shows you: <ul><li>The size of the total [!UICONTROL addressable audience] that [!DNL Audience Manager] can reach on a particular targeting [!UICONTROL destination].</li><li>How big the [!DNL Audience Manager] profile pool is for a targeting platform and the size of their audiences.</li></ul> |
+|[!UICONTROL Customer Total Audience]|A count of devices that have realized either a [!UICONTROL rule-based trait] on your properties or an [!UICONTROL onboarded trait] from your offline files during the look-back window.|
+|[!UICONTROL Addressable Audience Match Rate]|A count of overlap of devices that have realized either a [!UICONTROL rule-based trait] or an [!UICONTROL onboarded trait] during the look-back window and devices that we have an ID sync with the chosen [!UICONTROL destination] regardless of the time of syncs.<br><br>This metric represents devices that:<ul><li>Have realized either a [!UICONTROL rule-based] or an [!UICONTROL onboarded trait] during the look-back window `AND`</li><li>Have an ID sync with the chosen [!UICONTROL destination] regardless of the time of syncs.</li>|
+|[!UICONTROL Customer Match Rate]|[!UICONTROL Customer Addressable Audience] ÷ [!UICONTROL Customer Total Audience] expressed as a percentage.|
+|[!UICONTROL Total Segment Population]|A count of all the devices that were a member of your [!UICONTROL segment] during the report look-back period.|
+|[!UICONTROL Segment Addressable Audience]|The number of users who have belonged to the [!UICONTROL segment] during the report look-back period and have an active ID sync on your site. [!UICONTROL Segments] can include your own first-party data and second and third-party data, via [!UICONTROL traits] acquired in the [Audience Marketplace](../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md). <br><br>Tip: When used with the 1-day look-back period, this metric can help you understand the current state of your [!UICONTROL segments]. This is because the [!UICONTROL Segment Addressable Audience] metric represents the users who stayed in a [!UICONTROL segment] throughout the previous day. Combine this with the fact that [!DNL Audience Manager] refreshes [!UICONTROL Addressable Audiences] daily, combining this metric and lookback period provides the most up-to-date snapshot of your [!UICONTROL segments].|
+|[!UICONTROL Segment Match Rate]|[!UICONTROL Segment Addressable Audience] ÷ [!UICONTROL Total Segment Population] expressed as a percentage.|
+
+## [!UICONTROL Addressable Audiences] Interface {#addressable-audience-interface}
 
 The [!UICONTROL Addressable Audience] feature turns this abstract concept into quantifiable data. In [!DNL Audience Manager], this feature displays audience overlap with data visualizations that provide at-a-glance information along with numeric data in tabular form.
 
@@ -83,9 +44,9 @@ Metric | Description |
 ---------|----------|
  **[!UICONTROL Addressable Audience (Device)]** | This metric represents the [!UICONTROL Customer Addressable Audience] (described in the table above) *for the last 30 days.* |
  **[!UICONTROL Match Rate]** | This metric represents the [!UICONTROL Addressable Audience Match Rate] (described in the table above) *for the last 30 days*. |
- **[!UICONTROL Lifetime Addressable Audience (Device)]** | A count of all devices that have interacted with all [!DNL Audience Manager] customers at the platform-level during the report look-back period and that could be matched with this destination. See [Platform-Level Metrics](/help/using/features/addressable-audiences.md#platform-level-metrics) for more information. |
+ **[!UICONTROL Lifetime Addressable Audience (Device)]** | A count of all devices that have interacted with all [!DNL Audience Manager] customers at the platform-level during the report look-back period and that could be matched with this [!UICONTROL destination]. See [Platform-Level Metrics](/help/using/features/addressable-audiences.md#platform-level-metrics) for more information. |
 
- Click on the name of a server-to-server destination to view your addressable audience data. Note, this feature returns data for server-to-server destinations only and access requires administrator permissions.
+ Click on the name of a [!UICONTROL server-to-server destination] to view your addressable audience data. Note, this feature returns data for [!UICONTROL server-to-server destinations] only and access requires administrator permissions.
 
 ![](assets/addressableAudiences.png)
 
@@ -101,9 +62,9 @@ Before purchasing third-party data for audience acquisition, customers can valid
 
 ### Mobile Users and Match Rates
 
-There are gaps when trying to connect [!DNL Safari] or mobile app users where there are no third-party cookies present. That makes it difficult to sync users with some partners because only those [!DNL Adobe] IDs for synced third-party cookies are provided in the media delivery logs. This is a reason why you might see [low match rates](../features/addressable-audiences.md#low-match-rates) for your destinations.
+There are gaps when trying to connect [!DNL Safari] or mobile app users where there are no third-party [!DNL cookies] present. That makes it difficult to sync users with some partners because only those [!DNL Adobe] IDs for synced third-party [!DNL cookies] are provided in the media delivery logs. This is a reason why you might see [low match rates](../features/addressable-audiences.md#low-match-rates) for your [!UICONTROL destinations].
 
-## Date Ranges in Addressable Audiences and Destinations {#date-ranges}
+## Date Ranges in [!UICONTROL Addressable Audiences] and [!UICONTROL Destinations] {#date-ranges}
 
 Read the sections below for available date ranges and how data ages out of each interval in the reports for an [!UICONTROL Addressable Audience] or [!UICONTROL Destination].
 
@@ -134,7 +95,7 @@ Date ranges contain data for the selected time interval or older. And, the data 
 
 And, on day 31, these visitors only show up in the 60 day, 90 day, and [!UICONTROL Lifetime] results. They have aged out of the 30 day interval. Visitors do not age out of the [!UICONTROL Lifetime] interval.
 
-## Addressable Audience Metrics {#addressable-audience-metrics}
+## [!UICONTROL Addressable Audiences] Metrics {#addressable-audience-metrics}
 
 This section describes the types of metrics provided by [!UICONTROL Addressable Audiences].
 
@@ -144,131 +105,54 @@ This section describes the types of metrics provided by [!UICONTROL Addressable 
 
 These metrics return data for traits realized when visitors come to your site or when you send inbound data files to [!DNL Audience Manager]. These metric provide a comprehensive view of audience size for your account.
 
-<table id="table_6DC02E219B074BF782EAA0E9DB9495FB"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Metric </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <b>Customer Addressable Audience</b> </p> </td> 
-   <td colname="col2"> 
-    <draft-comment> 
-     <p>A count of overlap of devices that have realized either a rule-based trait or an onboarded trait during the look-back window and devices that we have an ID sync with the chosen destination regardless of the time of syncs. </p> 
-    </draft-comment> <p>This metric represents devices that: 
-     <ul id="ul_B609B402A29D44898DF0B1ABC6011D40"> 
-      <li id="li_27A530DE2AEB48069BECFB2D78E94C4E">Have realized either a rule-based or an onboarded trait during the look-back window <b>AND</b> </li> 
-      <li id="li_47C44ECAEC5844DEB11C6A93C8F061BB">Have an ID sync with the chosen destination regardless of the time of syncs. </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Customer Total Audience</b> </p> </td> 
-   <td colname="col2"> <p>A count of devices that have realized either a rule-based trait on your properties or an onboarded trait from your offline files during the look-back window. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Customer Match Rate</b> </p> </td> 
-   <td colname="col2"> <p>Customer Addressable Audience ÷ Customer Total Audience expressed as a %. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+|Metric|Description|
+|---|---|
+|[!UICONTROL Customer Addressable Audience]|A count of overlap of devices that have realized either a [!UICONTROL rule-based trait] or an [!UICONTROL onboarded trait] during the look-back window and devices that we have an ID sync with the chosen destination regardless of the time of syncs.<br><br>This metric represents devices that:<ul><li>Have realized either a [!UICONTROL rule-based] or an [!UICONTROL onboarded trait] during the look-back window `AND`</li><li>Have an ID sync with the chosen [!UICONTROL destination] regardless of the time of syncs.</li></ul>|
+|[!UICONTROL Customer Total Audience]|A count of devices that have realized either a [!UICONTROL rule-based trait] on your properties or an [!UICONTROL onboarded trait] from your offline files during the look-back window. |
+|[!UICONTROL Customer Match Rate]|[!UICONTROL Customer Addressable Audience] ÷ [!UICONTROL Customer Total Audience] expressed as a percentage.|
 
 ### Segment-Level Match Metrics {#segment-level-metrics}
 
-These metrics return data on segment membership. They help provide a more granular and accurate view of the audience size for each of your segments.
+These metrics return data on [!UICONTROL segment] membership. They help provide a more granular and accurate view of the audience size for each of your [!UICONTROL segments].
 
 >[!NOTE]
 >
->The way the look-back window is applied at the segment level is different from that at the customer level. Visitors can come to the site and realize a trait 10 days ago, and they could qualify for a segment since then and dropped out of the segment 2 days ago. When the 7 day look-back is applied, these visitors will be counted at the segment level but not at the customer level.
+>The way the look-back window is applied at the [!UICONTROL segment] level is different from that at the customer level. Visitors can come to the site and realize a [!UICONTROL trait] 10 days ago, and they could qualify for a [!UICONTROL segment] since then and dropped out of the [!UICONTROL segment] 2 days ago. When the 7 day look-back is applied, these visitors will be counted at the [!UICONTROL segment] level but not at the customer level.
 
-<table id="table_4185AA02CC774B6C93B02E45F88BBBD9"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Metric </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <b>Segment Addressable Audience</b> </p> </td> 
-   <td colname="col2"> <p>The number of users who have belonged to the segment during the report look-back period and have an active ID sync on your site. Segments can include your own first-party data and second party and third party data, via traits acquired in the <a href="../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md"> Audience Marketplace</a>. </p> <p> <p>Tip: When used with the 1-day look-back period, this metric can help you understand the current state of your segments. This is because the <span class="wintitle"> Segment Addressable Audience</span> metric represents the users who stayed in a segment throughout the previous day. Combine this with the fact that <span class="keyword"> Audience Manager</span> refreshes <span class="wintitle"> Addressable Audiences</span> daily, combining this metric and lookback period provides the most up-to-date snapshot of your segments. </p> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Total Segment Population</b> </p> </td> 
-   <td colname="col2"> <p>A count of all the devices that were a member of your segment during the report look-back period. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Segment Match Rate</b> </p> </td> 
-   <td colname="col2"> <p>Segment Addressable Audience ÷ Total Segment Population expressed as a %. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+|Metric|Description|
+|---|---|
+|[!UICONTROL Segment Addressable Audience]|The number of users who have belonged to the [!UICONTROL segment] during the report look-back period and have an active ID sync on your site. Segments can include your own first-party data and second party and third party data, via [!UICONTROL traits] acquired in the [Audience Marketplace](../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md).<br><br>Tip: When used with the 1-day look-back period, this metric can help you understand the current state of your [!UICONTROL segments]. This is because the [!UICONTROL Segment Addressable Audience] metric represents the users who stayed in a [!UICONTROL segment] throughout the previous day. Combine this with the fact that [!DNL Audience Manager] refreshes [!UICONTROL Addressable Audiences] daily, combining this metric and lookback period provides the most up-to-date snapshot of your [!UICONTROL segments].|
+|[!UICONTROL Total Segment Population]|A count of all the devices that were a member of your [!UICONTROL segment] during the report look-back period.|
+|[!UICONTROL Segment Match Rate]|[!UICONTROL Segment Addressable Audience] ÷ [!UICONTROL Total Segment Population] expressed as a percentage.|
 
 ### Platform-Level Metrics {#platform-level-metrics}
 
 This metric returns data on activities collected across all [!DNL Audience Manager] customers. They can provide a broader view of the customer's audience compared with the aggregated [!DNL Audience Manager] customers.
 
-<table id="table_B6654D9858FF46AF95B1C181D4608D26"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Metric </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <b>Audience Manager's Addressable Audience</b> </p> </td> 
-   <td colname="col2"> <p>A count of all devices that have interacted with all Audience Manager customers at the platform-level during the report look-back period and that could be matched with your chosen destination. </p> <p>This metric is useful because it shows you: </p> <p> 
-     <ul id="ul_67A82A40C7A64457822272B45D2817FC"> 
-      <li id="li_DAEFB565CE774F68AA29274A021F1E5A"> The size of the total addressable audience that <span class="keyword"> Audience Manager</span> can reach on a particular targeting destination. </li> 
-      <li id="li_AF26F88068CA44F7B5C4C42DE5E21055">How big the <span class="keyword"> Audience Manager</span> profile pool is for a targeting platform and the size of their audiences. </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+|Metric|Description|
+|---|---|
+|[!DNL Audience Manager] [!UICONTROL Addressable Audience]|A count of all devices that have interacted with all [!DNL Audience Manager] customers at the platform-level during the report look-back period and that could be matched with your chosen [!UICONTROL destination]. <br><br>This metric is useful because it shows you:<ul><li>The size of the [!UICONTROL total addressable audience] that [!DNL Audience Manager] can reach on a particular targeting destination.</li><li>How big the [!DNL Audience Manager] profile pool is for a targeting platform and the size of their audiences.</li></ul>|
 
-## Comparing Customer and Segment Addressable Audiences{#comparing-metrics}
+## Comparing [!UICONTROL Customer] and [!UICONTROL Segment Addressable Audiences] {#comparing-metrics}
 
 You shouldn't compare the [!UICONTROL Customer Addressable Audience] and [!UICONTROL Segment Addressable Audience] metrics to determine if one is more significant than the other. These are separate, different, and independent metrics. As described in the definitions above, each of these is derived from different data sets. Given this, you should avoid deriving any conclusions if one metric is larger than the other. All you can say when comparing these is that:
 
-* [!UICONTROL Customer Addressable Audiences] is based on trait realizations *for your own, first-party data*. This metric provides a broad, comprehensive view of your integration with a data partner.
+* [!UICONTROL Customer Addressable Audiences] is based on [!UICONTROL trait] realizations *for your own, first-party data*. This metric provides a broad, comprehensive view of your integration with a data partner.
 
-* [!UICONTROL Segment Addressable Audiences] is based on segment qualifications *for your own first-party data, plus second and third-party data*. This metric provides a granular, more accurate view of your addressable audiences in a targeting platform.
+* [!UICONTROL Segment Addressable Audiences] is based on segment qualifications *for your own first-party data, plus second and third-party data*. This metric provides a granular, more accurate view of your [!UICONTROL addressable audiences] in a targeting platform.
 
-## Causes of Low Match Rates for Addressable Audiences {#low-match-rates}
+## Causes of Low Match Rates for [!UICONTROL Addressable Audiences] {#low-match-rates}
 
 Common elements responsible for low [!UICONTROL Addressable Audience] match rates or discrepancies in reported numbers.
 
-<!-- addressable-audiences.xml -->
+|Cause|Description|
+|---|---|
+|Mobile Traffic|Most [!UICONTROL server-to-server] integrations rely on synchronization processes facilitated by third-party [!DNL cookies]. However, mobile environments do not use third-party [!DNL cookies]. As a result, your [!UICONTROL Addressable Audiences] numbers may seem low compared to [!UICONTROL segment] size. <br><br>As of January 2018, you can activate mobile audiences in the same [!DNL Google] and [!DNL Adobe Advertising Cloud] destinations set up for [!UICONTROL cookie-based] audiences. While this means that you can send [!UICONTROL segments] with combined [!DNL cookie] and mobile ID membership to your [!DNL Google] and [!DNL Advertising Cloud] destinations, keep in mind that [!UICONTROL Addressable Audiences] only display the overlap between [!DNL cookie] IDs and destinations. [!DNL Audience Manager] sends 100% of mobile audiences to [!UICONTROL destinations], but mobile audiences are not measured by the [!UICONTROL Addressable Audience] metric. <br><br>**Note**: For example, take a [!UICONTROL segment] with a population of 1,000,000. If you map this [!UICONTROL segment] to a [!DNL Google] or [!DNL Adobe Advertising Cloud] destination, you might see an [!UICONTROL Addressable Audience] of 700,000 devices and a [!UICONTROL Match Rate] of 70%. The membership of 700,000 consists of [!DNL cookie] IDs which have an ID sync with the [!UICONTROL destination]. Your [!UICONTROL Addressable Audience] might, in fact, be much higher, because addressable mobile IDs do not appear in this metric. |
+|[!DNL Safari] Traffic|[!DNL Safari] blocks third-party [!DNL cookies]. This prevents [!DNL Audience Manager] from synchronizing IDs with the [!UICONTROL destination]. With the introduction of [ITP 2.0](https://webkit.org/blog/8311/intelligent-tracking-prevention-2-0/), you can expect your [!UICONTROL addressable audiences] not to include [!DNL Safari] users.|
+|Tracked Media Impressions|Due to ad server best practices, ID syncs are not made within ad tags. Customers who do a large amount of offsite advertising will not synchronize users to third-party integrations in those environments. Also, a large amount of collected media impression data could reduce [!UICONTROL addressable audience] numbers.|
 
-<table id="table_895D536F69134330A4F13887ECAFD4F5"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Cause </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <b>Mobile Traffic</b> </p> </td> 
-   <td colname="col2"> <p>Most server-to-server integrations rely on synchronization processes facilitated by third-party cookies. However, mobile environments do not use third-party cookies. As a result, your Addressable Audience numbers may seem low compared to segment size. </p> <p>As of January 2018, you can activate mobile audiences in the same Google and Adobe Advertising Cloud destinations set up for cookie-based audiences. While this means that you can send segments with combined cookie and mobile ID membership to your Google and Advertising Cloud destinations, keep in mind that Addressable Audiences only display the overlap between cookie IDs and destinations. Audience Manager sends 100% of mobile audiences to destinations, but mobile audiences are not measured by the Addressable Audience metric. </p> <p> <p><b>Note</b>:  For example, take a segment with a population of 1,000,000. If you map this segment to a Google or Adobe Advertising Cloud destination, you might see an Addressable Audience of 700,000 devices and a Match Rate of 70%. The membership of 700,000 consists of cookie IDs which have an ID sync with the destination. Your Addressable Audience might, in fact, be much higher, because addressable mobile IDs do not appear in this metric. </p> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Safari Traffic</b> </p> </td> 
-   <td colname="col2"> <p>Safari blocks third-party cookies. This prevents Audience Manager from synchronizing IDs with the destination. With the introduction of <a href="https://webkit.org/blog/8311/intelligent-tracking-prevention-2-0/" format="https" scope="external"> ITP 2.0</a>, you can expect your addressable audiences not to include Safari users. </p> </td>
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Tracked Media Impressions</b> </p> </td> 
-   <td colname="col2"> <p>Due to ad server best practices, ID syncs are not made within ad tags. Customers who do a large amount of offsite advertising will not synchronize users to third-party integrations in those environments. Also, a large amount of collected media impression data could reduce addressable audience numbers. </p> </td>
-  </tr> 
- </tbody> 
-</table>
-
-## Troubleshooting with Addressable Audiences {#troubleshooting}
+## Troubleshooting with [!UICONTROL Addressable Audiences] {#troubleshooting}
 
 In addition to surfacing match rates, you can also use [!UICONTROL Addressable Audiences] as a troubleshooting tool.
 
-<!-- addressable-audiences-troubleshooting.xml -->
-
-For example, let's say you send a segment to a destination and that destination shows low reporting numbers. Checking the [!UICONTROL Addressable Audience] results will show you if this is a technical problem or just a case of low match rates. A low match rate shows your destination isn't all that great for your selected segments. However, a difference in the total addressable audience numbers between [!DNL Audience Manager] and the destination indicates an integration, synchronization, or other technical problem. In these cases, contact your account manager.
+For example, let's say you send a segment to a [!UICONTROL destination] and that [!UICONTROL destination] shows low reporting numbers. Checking the [!UICONTROL Addressable Audience] results will show you if this is a technical problem or just a case of low match rates. A low match rate shows your [!UICONTROL destination] isn't all that great for your selected segments. However, a difference in the [!UICONTROL total addressable audience] numbers between [!DNL Audience Manager] and the [!UICONTROL destination] indicates an integration, synchronization, or other technical problem. In these cases, contact your account manager.

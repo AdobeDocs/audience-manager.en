@@ -53,7 +53,7 @@ As a marketer, I want to predict which customer journey phase my website visitor
 
 As a media company, I want to categorize my audience, so that I can sell my advertising space at premium pricing, while offering my visitors relevant ads.
 
-## How Predictive Audiences Models Work
+## How [!UICONTROL Predictive Audiences] Models Work {#how-predictive-audiences-models-work}
 
 When you create a [!UICONTROL Predictive Audiences] model, you go through three steps:
 
@@ -75,14 +75,14 @@ You can choose any of your first-party traits or segments to define your persona
 
 Similar to persona selection, you should choose your trait or segment that defines your target audience in such way that it has real time users with rich sets of traits, for classification into the right persona.
 
-### Predictive Audiences Model Training Phase {#model-training}
+### [!UICONTROL Predictive Audiences] Model Training Phase {#model-training}
 
 Before the algorithm can classify your first-party audience into the right personas, it needs to train itself on your data.
 
 For each persona that you define, the algorithm analyzes its respective audience and evaluates any real time and/or onboarded trait activity for its users in the last 30 days.
 This step takes place once every 24 hours, to account for changes in your first-party audience.
 
-### Predictive Audiences Model Classification Phase {#model-classification}
+### [!UICONTROL Predictive Audiences] Model Classification Phase {#model-classification}
 
 When a visitor who is part of the target audience is seen in real time, the model evaluates whether the visitor is part of the defined personas. For every visitor that does not belong to any of the personas, the model assigns a persona qualification score.
 
@@ -102,16 +102,16 @@ When configuring your [!UICONTROL Predictive Audiences] models, keep in mind the
 * Second and third-party data are not currently supported in [!UICONTROL Predictive Audiences].
 * Audience classification is done only for real time first-party audiences. Onboarded first-party audience classification may be supported in a future update.
   >[!IMPORTANT]
-  > Currently, the [!UICONTROL Total Segment Population] of your predictive segments is displayed as 0, and [Batch Outbound Data Transfers](../../integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md) are not supported for Predictive Audiences. This behavior will change in a future update.
+  > Currently, the [!UICONTROL Total Segment Population] of your predictive segments is displayed as 0, and [Batch Outbound Data Transfers](../../integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md) are not supported for [!UICONTROL Predictive Audiences]. This behavior will change in a future update.
 * [!UICONTROL Predictive Audiences] performs audience classification based on your first party traits, from all your first-party data sources.
-* Segment evaluation for [!UICONTROL Predictive Audiences] uses the default **[!UICONTROL Profile Merge Rule]** that you defined in your account. To learn more about [!UICONTROL Profile Merge Rules] see the dedicated [documentation](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/profile-merge-rules/merge-rules-overview.html).
+* Segment evaluation for [!UICONTROL Predictive Audiences] uses the default **[!UICONTROL Profile Merge Rule]** that you defined in your account. To learn more about [!UICONTROL Profile Merge Rules] see the dedicated [documentation](../profile-merge-rules/merge-rules-overview.md).
 * Some traits and segments are not supported as baselines or target audiences. [!UICONTROL Predictive Audiences] models will fail to save when choosing one of the following as baselines or target audiences:
   * Predictive traits and segments created with predictive traits;
   * [Adobe Experience Platform](../integration/../../integration/integration-aep/aam-aep-audience-sharing.md) traits or segments;
   * Algorithmic traits;
   * Second and third-party traits.
 
-## Data Export Controls{#dec}
+## [!UICONTROL Data Export Controls] {#dec}
 
 Predictive segments created by [!UICONTROL Predictive Audiences] models inherit the [Data Export Controls](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html) from the following first-party data sources:
 
@@ -122,7 +122,7 @@ The newly created predictive traits and segments will have the same privacy rest
 
 Traits that have additional restrictions that aren’t part of the [!UICONTROL Predictive Audiences] segment privacy restrictions will be excluded from the training phase, and will not become influential for the model.
 
-## Role-Based Access Controls{#rbac}
+## [!UICONTROL Role-Based Access Controls] {#rbac}
 
 The traits and segments that you choose for personas and audience classification are subject to Audience Manager [Role-Based Access Controls](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/administration/administration-overview.html).
 
