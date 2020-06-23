@@ -16,7 +16,7 @@ Read below for an overview of customer requirements that you need to meet before
 >[!IMPORTANT]
 > Read through this article carefully before moving on to the implementation phase.
 
-## Signing up for People-Based Destinations {#signing-up}
+## Signing up for [!UICONTROL People-Based Destinations] {#signing-up}
 
 [!DNL People-Based Destinations] is a premium capability that enhances your Audience Manager experience by allowing you to activate your first-party audience segments in people-based environments, by targeting your audience with customized offers on social networks or through email marketing.
 
@@ -35,12 +35,6 @@ Before you can use [!DNL People-Based Destinations] to send your first-party aud
 3. Read and sign the [!DNL Facebook Custom Audiences] Terms of Service. To do this, go to `https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]`, where `accountID` is your [!DNL Facebook Ad Account ID].
 
 ### [!DNL LinkedIn]
-
->[!IMPORTANT]
->
-> The [!DNL People-Based Destinations] integration with [!DNL LinkedIn] is currently in the beta testing phase, and is only available to a limited number of customers. 
-> 
-> Once the beta testing ends, this integration will be available to all Audience Manager customers who signed up for [!DNL People-Based Destinations].
 
 Before you can use [!DNL People-Based Destinations] to send your first-party audience segments to [!DNL LinkedIn], make sure your [!DNL LinkedIn Campaign Manager] account has the [!DNL Creative Manager] or higher permission level.
 
