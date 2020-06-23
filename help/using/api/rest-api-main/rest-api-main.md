@@ -7,7 +7,7 @@ title: REST APIs
 uuid: f575c8dd-7381-4b55-8228-26eb87fbef64
 ---
 
-# REST APIs {#rest-apis}
+# [!DNL REST APIs] {#rest-apis}
 
 [!UICONTROL RESTful APIs] let you work programmatically with [!DNL Audience Manager].
 

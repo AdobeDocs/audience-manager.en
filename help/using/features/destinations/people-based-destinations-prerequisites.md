@@ -36,15 +36,9 @@ Before you can use [!UICONTROL People-Based Destinations] to send your first-par
 
 ### [!DNL LinkedIn] 
 
->[!IMPORTANT]
->
-> The [!UICONTROL People-Based Destinations] integration with [!DNL LinkedIn] is currently in the beta testing phase, and is only available to a limited number of customers.
-> 
-> Once the beta testing ends, this integration will be available to all Audience Manager customers who signed up for [!UICONTROL People-Based Destinations].
-
 Before you can use [!UICONTROL People-Based Destinations] to send your first-party audience segments to [!DNL LinkedIn], make sure your [!DNL LinkedIn Campaign Manager] account has the [!DNL Creative Manager] or higher permission level.
 
-To learn how to edit your [!DNL LinkedIn Campaign Manager] user permissions, see [Add, Edit, and Remove User Permissions on Advertising Accounts](https://www.linkedin.com/help/lms/answer/5753)
+To learn how to edit your [!DNL LinkedIn Campaign Manager] user permissions, see [Add, Edit, and Remove User Permissions on Advertising Accounts](https://www.linkedin.com/help/lms/answer/5753) in the LinkedIn documentation.
 
 ## Data Onboarding {#data-onboarding}
 
