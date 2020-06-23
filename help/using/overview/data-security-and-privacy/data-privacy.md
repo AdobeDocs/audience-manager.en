@@ -20,13 +20,13 @@ The Data Privacy documentation describes [!DNL Audience Manager] integration and
 
 In our continuing support of this model, [!DNL Audience Manager] remains committed to providing you with the tools to help support your ability to provide  transparency and control to your consumers, while delivering personalized ads subject to the [Online Behavioral Advertising (OBA) Self-Regulatory Principles](https://www.iab.com/news/self-regulatory-principles-for-online-behavioral-advertising/).
 
-## GDPR {#gdpr}
+## [!DNL GDPR] {#gdpr}
 
-The [General Data Protection Regulation (GDPR)](https://eugdpr.org/) introduced several new data privacy rights for members of the European Union, including the **Right to Access** and the **Right to be Forgotten**. This means that any EU citizen whose personal data has been collected by your business can request to access or delete their data at any time. Failure to comply with these requests can result in multi-million dollar fines for your organization.
+The [General Data Protection Regulation (GDPR)](https://eugdpr.org/) introduced several new data privacy rights for members of the European Union, including the **Right to Access** and the **Right to be Forgotten**. This means that any [!DNL EU] citizen whose personal data has been collected by your business can request to access or delete their data at any time. Failure to comply with these requests can result in multi-million dollar fines for your organization.
 
 To comply with [!DNL GDPR], [!DNL Audience Manager] supports data access and delete [requests](data-privacy-requests.md).
 
-## CCPA {#ccpa}
+## [!DNL CCPA] {#ccpa}
 
 The [California Consumer Privacy Act (CCPA)](https://www.caprivacy.org/about), which came into effect on January 1st, 2020, provides California residents new rights regarding their personal information and imposes data protection responsibilities on certain entities that conduct business in California.
 

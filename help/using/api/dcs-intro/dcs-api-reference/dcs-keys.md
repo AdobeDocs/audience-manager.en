@@ -8,7 +8,7 @@ keywords: d_caller, d_cb, d_cid, d_cid_ic, d_coppa, d_cts=1, d_cts=2, d_tdpid, d
 uuid: 0b98ed11-314b-4500-afde-45a041112150
 ---
 
-# Supported Attributes for DCS API Calls {#supported-attributes-for-dcs-api-calls}
+# Supported Attributes for [!DNL DCS] [!DNL API] Calls {#supported-attributes-for-dcs-api-calls}
 
 Lists and describes the syntax and supported attributes (or key-value pairs) you can pass in to the [!UICONTROL Data Collection Servers] ([!DNL DCS]). This information can help you format your [!DNL DCS] requests and understand the parameters returned by this system.
 
@@ -43,7 +43,7 @@ The [!DNL DCS] relies on specific prefixes added to the keys in key-value pairs 
  </tbody> 
 </table>
 
-## d_ Attributes {#d-attributes}
+## [!DNL d_] Attributes {#d-attributes}
 
 All of these are optional, unless you want a response from the [!DNL DCS]. If you want the [!DNL DCS] to return a response, then `d_rtbd=json` is required.
 
