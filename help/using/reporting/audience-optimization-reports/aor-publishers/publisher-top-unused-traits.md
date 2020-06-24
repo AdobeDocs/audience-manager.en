@@ -31,7 +31,7 @@ Use the **[!UICONTROL Traits]** drop-down box to select which traits you want to
 
 >[!IMPORTANT]
 >
->When enabling [!UICONTROL Audience Optimization for Publishers], you must include descriptive metadata for [!UICONTROL Order IDs], as described in Step 3 of [Import DFP Data Files Into Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). By doing this, you assure that the report details the web property as [!UICONTROL Order] instead of the [!UICONTROL Order ID].
+>When enabling [!UICONTROL Audience Optimization for Publishers], you must include descriptive metadata for [!UICONTROL Order IDs], as described in Step 3 of [Import Google Ad Manager (formerly DFP) Data Files Into Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). By doing this, you assure that the report details the web property as [!UICONTROL Order] instead of the [!UICONTROL Order ID].
 
 ## Interpreting the Results {#interpreting-results}
 
@@ -82,7 +82,7 @@ See descriptions for the additional information in the table below the sample re
 
 The position of your traits in a report can tell you a lot about which traits you could use to optimize existing audience segments. 
 
-The traits situated higher on the Impressions axis are the ones you want to use in your campaigns. For traits with a low number of impressions, it is unlikely that you're reaching this audience on your web property, based on your DFP data. 
+The traits situated higher on the Impressions axis are the ones you want to use in your campaigns. For traits with a low number of impressions, it is unlikely that you're reaching this audience on your web property, based on your [!DNL Google Ad Manager] data. 
 
 Look to the left of the [!UICONTROL Unique Trait Realizations] axis for highly accurate traits and to the right for traits that can drive scale.
 

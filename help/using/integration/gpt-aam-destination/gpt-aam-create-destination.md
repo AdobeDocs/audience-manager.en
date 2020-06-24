@@ -1,6 +1,6 @@
 ---
-description: You can send qualified segments to DFP through a client-side (browser-side) integration, or a server-side integration. If you choose the client-side integration, you must create a cookie-based destination for Google Publisher Tags in Audience Manager.
-seo-description: You can send qualified segments to DFP through a client-side (browser-side) integration, or a server-side integration. If you choose the client-side integration, you must create a cookie-based destination for Google Publisher Tags in Audience Manager.
+description: You can send qualified segments to Google Ad Manager through a client-side (browser-side) integration, or a server-side integration. If you choose the client-side integration, you must create a cookie-based destination for Google Publisher Tags in Audience Manager.
+seo-description: You can send qualified segments to Google Ad Manager through a client-side (browser-side) integration, or a server-side integration. If you choose the client-side integration, you must create a cookie-based destination for Google Publisher Tags in Audience Manager.
 seo-title: Create a GPT Destination
 solution: Audience Manager
 title: Create a GPT Destination
@@ -9,7 +9,7 @@ uuid: e3bbf327-a7e0-48da-bc84-8f531b7f6750
 
 # Create a GPT Destination {#create-a-gpt-destination}
 
-You can send qualified segments to [!DNL DFP] through a client-side (browser-side) integration, or a server-side integration. If you choose the client-side integration, you must create a cookie-based destination for [!DNL Google Publisher Tags] in Audience Manager.
+You can send qualified segments to [!DNL Google Ad Manager] through a client-side (browser-side) integration, or a server-side integration. If you choose the client-side integration, you must create a cookie-based destination for [!DNL Google Publisher Tags] in Audience Manager.
 
 ## Destinations
 
