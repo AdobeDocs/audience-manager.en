@@ -7,43 +7,43 @@ title: Profile Merge Rule Options Defined
 uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
 ---
 
-# Profile Merge Rules Options Defined {#profile-merge-rule-options-defined}
+# [!UICONTROL Profile Merge Rules] Options Defined {#profile-merge-rule-options-defined}
 
-The merge rule options let you control the type of data Audience Manager uses for segmentation. A merge rule can include device profiles mapped by the [!UICONTROL Profile Link] device graph, the [!UICONTROL Adobe Experience Cloud Device Co-op], and/or other, third-party device graph providers who are integrated with Audience Manager. You can create a maximum of 4 [!UICONTROL Profile Merge Rules]. The fourth [!UICONTROL Profile Merge Rule] is available exclusively to customers who purchased the [!UICONTROL People-Based Destinations] add-on.
+The [!UICONTROL profile merge rule] options let you control the type of data [!DNL Audience Manager] uses for segmentation. A [!UICONTROL profile merge rule] can include device profiles mapped by the [!UICONTROL Profile Link] device graph, the [!UICONTROL Adobe Experience Cloud Device Co-op], and/or other, third-party device graph providers who are integrated with [!DNL Audience Manager]. You can create a maximum of 4 [!UICONTROL Profile Merge Rules]. The fourth [!UICONTROL Profile Merge Rule] is available exclusively to customers who purchased the [!UICONTROL People-Based Destinations] add-on.
 
 You build a [!UICONTROL Profile Merge Rule] by making a selection from the options described below, in [!UICONTROL Profile Merge Rule Setup].
 
 ![profile-merge-rule-setup](assets/profile-merge-rule-setup.png)
 
-## Profile Merge Rule Options Overview {#overview}
+## [!UICONTROL Profile Merge Rule] Options Overview {#overview}
 
-Profile Merge Rules allow for a number of rule combinations, each geared towards specific use cases. See the table below for details on when to use each rule combination.
+[!UICONTROL Profile Merge Rules] allow for a number of rule combinations, each geared towards specific use cases. See the table below for details on when to use each rule combination.
 
-| Cross-Device Option            | Device Option                                       | Availability                                                                                                                                                                                      | Evaluation Type     | Audience Lab Support | Use Cases                                                                               |
+| [!UICONTROL Cross-Device Option]            | [!UICONTROL Device Option]                                       | Availability                                                                                                                                                                                      | Evaluation Type     | [!UICONTROL Audience Lab] Support | Use Cases                                                                               |
 | ------------------------------ | --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ----| -------------------- |
-| No Cross-Device Profile        | Device Profile                                      | All customers                                                                                                                                                                                     | Real-time and batch | Yes                  | [Device Targeting](merge-rule-targeting-options.md#device-personalization)              |
-| No Cross-Device Profile        | External Device Graph (includes Co-op Device Graph) | All customers                                                                                                                                                                                     | Real-time and batch | No                   | [Expanded Device Targeting](external-graph-use-cases.md#audience-expansion)             |
-| Current Authenticated Profiles | No Device Profile                                   | All customers                                                                                                                                                                                     | Real-time only      | No                   | [Shared Device Targeting](merge-rule-targeting-options.md#target-shared-devices)        |
-| Last Authenticated Profiles    | Device Profile                                      | All customers                                                                                                                                                                                     | Real-time and batch | Yes                   | [Online/Offline Targeting](merge-rule-targeting-options.md#device-household-targeting)  |
-| Last Authenticated Profiles    | Profile Link Device Graph                           | All customers                                                                                                                                                                     | Real-time and batch | Yes                   | [Cross-device Targeting](profile-link-use-case.md#cross-device-personalization)         |
-| Last Authenticated Profiles    | External Device Graph (includes Co-op Device Graph) | All customers                                                                                                                                                                                     | Real-time and batch | No                   | [Advanced Cross-Device Targeting](external-graph-use-cases.md#advanced-graph-expansion) |
-| All Cross-Device Profiles      | N/A                                                 | Exclusive to [People-Based Destinations](../destinations/people-based-destinations-overview.md) customers | Batch only          | No                   | [Targeting for People-Based Destinations](merge-rule-targeting-options.md#all-cross-device)              |
+| [!UICONTROL No Cross-Device Profile]        | [!UICONTROL Device Profile]                                      | All customers                                                                                                                                                                                     | Real-time and batch | Yes                  | [Device Targeting](merge-rule-targeting-options.md#device-personalization)              |
+| [!UICONTROL No Cross-Device Profile]        | [!UICONTROL External Device Graph] (includes [!UICONTROL Co-op Device Graph]) | All customers                                                                                                                                                                                     | Real-time and batch | No                   | [Expanded Device Targeting](external-graph-use-cases.md#audience-expansion)             |
+| [!UICONTROL Current Authenticated Profiles] | [!UICONTROL No Device Profile]                                   | All customers                                                                                                                                                                                     | Real-time only      | No                   | [Shared Device Targeting](merge-rule-targeting-options.md#target-shared-devices)        |
+| [!UICONTROL Last Authenticated Profiles]    | [!UICONTROL Device Profile]                                      | All customers                                                                                                                                                                                     | Real-time and batch | Yes                   | [Online/Offline Targeting](merge-rule-targeting-options.md#device-household-targeting)  |
+| [!UICONTROL Last Authenticated Profiles]    | [!UICONTROL Profile Link Device Graph]                           | All customers                                                                                                                                                                     | Real-time and batch | Yes                   | [Cross-device Targeting](profile-link-use-case.md#cross-device-personalization)         |
+| [!UICONTROL Last Authenticated Profiles]    | [!UICONTROL External Device Graph] (includes [!UICONTROL Co-op Device Graph]) | All customers                                                                                                                                                                                     | Real-time and batch | No                   | [Advanced Cross-Device Targeting](external-graph-use-cases.md#advanced-graph-expansion) |
+| [!UICONTROL All Cross-Device Profiles]      | N/A                                                 | Exclusive to [People-Based Destinations](../destinations/people-based-destinations-overview.md) customers | Batch only          | No                   | [Targeting for People-Based Destinations](merge-rule-targeting-options.md#all-cross-device)              |
 
-## Profile Merge Rule Segment Evaluation {#segment-evaluation}
+## [!UICONTROL Profile Merge Rule] [!UICONTROL Segment] Evaluation {#segment-evaluation}
 
-Depending on your [!UICONTROL Profile Merge Rules] configuration, Audience Manager can perform the segment evaluation in real-time, in batch, or both.
+Depending on your [!UICONTROL Profile Merge Rules] configuration, [!DNL Audience Manager] can perform the [!UICONTROL segment] evaluation in real-time, in batch, or both.
 
-* Real-time segment evaluation requires the [!DNL DCS] to see visitors access your digital properties in real-time, to qualify for the segment.
-* Batch segment evaluation is performed against previously qualified traits.
-* [!UICONTROL Profile Merge Rules] that support both real-time and batch segment evaluation combine the real-time visitor activity with previously qualified traits.
+* Real-time [!UICONTROL segment] evaluation requires the [!DNL DCS] to see visitors access your digital properties in real-time, to qualify for the [!UICONTROL segment].
+* Batch [!UICONTROL segment] evaluation is performed against previously qualified [!UICONTROL traits].
+* [!UICONTROL Profile Merge Rules] that support both real-time and batch [!UICONTROL segment] evaluation combine the real-time visitor activity with previously qualified [!UICONTROL traits].
 
-## Profile Merge Rules Reporting Latency {#reporting-latency}
+## [!UICONTROL Profile Merge Rules] Reporting Latency {#reporting-latency}
 
-Real-time segment evaluation reflects immediately in the [!UICONTROL Profile Merge Rules] reports.
+Real-time [!UICONTROL segment] evaluation reflects immediately in the [!UICONTROL Profile Merge Rules] reports.
 
-Batch segment evaluation can take up to 24 hours to reflect in the [Profile Merge Rules reports](profile-link-metrics.md).
+Batch [!UICONTROL segment] evaluation can take up to 24 hours to reflect in the [Profile Merge Rules reports](profile-link-metrics.md).
 
-## Cross-Device Options {#auth-options}
+## [!UICONTROL Cross-Device Options] {#auth-options}
 
 The [!UICONTROL Cross-Device Options] let you select authenticated and unauthenticated users and leverage their cross-device profile for segmentation. These options help you identify and reach specific users on a shared device. For more information on anonymous and authenticated users, see [Visitor Authentication States in Audience Manager](../../reference/visitor-authentication-states.md).
 
@@ -74,13 +74,13 @@ The [!UICONTROL Cross-Device Options] let you select authenticated and unauthent
  </tbody>
 </table>
 
-## Cross-Device Profile Options {#profile-options}
+## [!UICONTROL Cross-Device Profile Options] {#profile-options}
 
-The [!UICONTROL Cross-Device Profile Options] lists your cross-device data sources. These options use the names you provided when you created a cross-device data source (see [Create a Cross-Device Data Source](merge-rules-start.md#create-data-source)). You can select up to 3 cross-device data sources to use with each profile rule. The [!UICONTROL Authenticated Profile Options] are available when you choose **[!UICONTROL Current Authenticated Profiles]** or **[!UICONTROL Last Authenticated Profiles]**.
+The [!UICONTROL Cross-Device Profile Options] lists your [!UICONTROL cross-device data sources]. These options use the names you provided when you created a [!UICONTROL cross-device] [!UICONTROL data source] (see [Create a Cross-Device Data Source](merge-rules-start.md#create-data-source)). You can select up to 3 [!UICONTROL cross-device data sources] to use with each profile rule. The [!UICONTROL Authenticated Profile Options] are available when you choose **[!UICONTROL Current Authenticated Profiles]** or **[!UICONTROL Last Authenticated Profiles]**.
 
-## Device Options {#device-options}
+## [!UICONTROL Device Options] {#device-options}
 
-The [!UICONTROL Device Options] let you select the type of *`device profile`* used by a [!UICONTROL Profile Merge Rule]. A device profile is built from traits collected from anonymous browsing activity. At a minimum, a profile merge rule includes an authenticated option and a device option.
+The [!UICONTROL Device Options] let you select the type of *`device profile`* used by a [!UICONTROL Profile Merge Rule]. A device profile is built from [!UICONTROL traits] collected from anonymous browsing activity. At a minimum, a [!UICONTROL profile merge rule] includes an [!UICONTROL authenticated option] and a [!UICONTROL device option].
 
 <table id="table_D373FB787D1A4E3485C02C4A76F03395"> 
  <thead> 
@@ -122,9 +122,9 @@ The [!UICONTROL Device Options] let you select the type of *`device profile`* us
  </tbody>
 </table>
 
-## External Merge Policies {#external-merge-policies}
+## [!UICONTROL External Merge Policies] {#external-merge-policies}
 
-Audience segments that were automatically created from other Experience Cloud solutions, based on merge rules defined outside of Audience Manager, are marked as using an [!UICONTROL External Merge Policy]. For example, see [Audience Sharing Between Audience Manager and Adobe Experience Platform](../../integration/integration-aep/aam-aep-audience-sharing.md).
+Audience segments that were automatically created from other [!DNL Experience Cloud] solutions, based on merge rules defined outside of [!DNL Audience Manager], are marked as using an [!UICONTROL External Merge Policy]. For example, see [Audience Sharing Between Audience Manager and Adobe Experience Platform](../../integration/integration-aep/aam-aep-audience-sharing.md).
 
 >[!MORELIKETHIS]
 >

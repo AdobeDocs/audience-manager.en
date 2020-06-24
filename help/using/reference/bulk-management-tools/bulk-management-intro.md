@@ -10,7 +10,7 @@ uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 
 # Getting Started With Bulk Management{#getting-started-with-bulk-management}
 
-The Bulk Management Tools let you create and manage multiple objects at once with a single operation. You can use Bulk Management Tools to work with data sources, derived signals, destinations, folders, models, segments, and traits.
+The [!DNL Bulk Management Tools] let you create and manage multiple objects at once with a single operation. You can use [!DNL Bulk Management Tools] to work with [!UICONTROL data sources], [!UICONTROL derived signals], [!UICONTROL destinations], [!UICONTROL folders], [!UICONTROL models], [!UICONTROL segments], and [!UICONTROL traits].
 
 <!-- 
 
@@ -20,11 +20,11 @@ c_bulk_start.xml
 
 >[!NOTE]
 >
->[RBAC group permissions](../../features/administration/administration-overview.md) assigned in the [!DNL Audience Manager] UI are honored in the [!UICONTROL Bulk Management Tools].
+>[RBAC group permissions](../../features/administration/administration-overview.md) assigned in the [!DNL Audience Manager] user interface are honored in the [!UICONTROL Bulk Management Tools].
 
 ## Overview {#overview}
 
-This feature uses a Microsoft Excel spreadsheet with macros that make secure, authenticated calls to the [!DNL Audience Manager] APIs. The API provides the methods and services that let you make changes in bulk. You don't have to know how to code or work with our APIs to use it. The worksheet contains column headers and tabs that perform specific bulk change functions. To make bulk changes, all you do is add the pre-defined headers to specific worksheets, provide the information you want to change in bulk, and click an action button. The worksheet and the APIs do the rest of the work for you.
+This feature uses a [!DNL Microsoft Excel] spreadsheet with macros that make secure, authenticated calls to the [!DNL Audience Manager] APIs. The API provides the methods and services that let you make changes in bulk. You don't have to know how to code or work with our APIs to use it. The worksheet contains column headers and tabs that perform specific bulk change functions. To make bulk changes, all you do is add the pre-defined headers to specific worksheets, provide the information you want to change in bulk, and click an action button. The worksheet and the APIs do the rest of the work for you.
 
 ## Download {#download}
 
@@ -36,7 +36,7 @@ To use the [!DNL Bulk Management Tools], you need the following:
 
 * Your [!DNL Experience Cloud] login. As a customer, you should already have these credentials.
 * The [!DNL Bulk Management Tools] worksheet. [Download the worksheet](assets/BAAAM_V2_20200502.xlsm) to get the latest version.
-* Microsoft Excel running on [!DNL macOS] or 64-bit [!DNL Microsoft Windows]. We recommend you use the latest version of Microsoft Excel. 
+* [!DNL Microsoft Excel] running on [!DNL macOS] or 64-bit [!DNL Microsoft Windows]. We recommend you use the latest version of [!DNL Microsoft Excel]. 
 * When opening the worksheet, you must **Enable Macros** for the [!DNL Bulk Management Tools] to work.  
 
 ## Authentication requirements and options {#auth-reqs}
@@ -45,9 +45,9 @@ Bulk changes require authentication. Before making any action, you must log in. 
 
 **API authentication requirements**
 
-The second version of the Bulk Management Tools, released in October 2019, simplifies the authentication process. The authentication steps in this version are outlined below:
+The second version of the [!DNL Bulk Management Tools], released in October 2019, simplifies the authentication process. The authentication steps in this version are outlined below:
 
-1. Open the spreadsheet and navigate to the **Config** sheet.  
+1. Open the spreadsheet and navigate to the **[!UICONTROL Config]** sheet.  
 2. Follow the steps outlined in the sheet.
   ![](assets/baaam-authentication.png)
 3. After completing the steps, you are authorized to make bulk changes.

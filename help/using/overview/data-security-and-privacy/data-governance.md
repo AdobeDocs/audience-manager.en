@@ -24,7 +24,7 @@ The [!DNL IP] address of a visitor to a customer’s website is transmitted to a
 
 >[!NOTE]
 >
->See [IP Address Obfuscation](../../features/administration/ip-obfuscation.md) to learn how to enable [!DNL IP] address obfuscation in the Audience Manager UI.
+>See [IP Address Obfuscation](../../features/administration/ip-obfuscation.md) to learn how to enable [!DNL IP] address obfuscation in the Audience Manager user interface.
 
 Watch the video below to understand how [!DNL IP] address obfuscation works in Audience Manager.
 

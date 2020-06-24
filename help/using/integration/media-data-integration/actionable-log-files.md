@@ -38,7 +38,7 @@ If you are already importing log data into [!DNL Audience Manager], ask your [!D
 
 With [!UICONTROL Actionable Log Files], the information from ad server logs is captured in [!DNL Audience Manager] the same way that you would capture data from real-time website interactions. [!DNL Audience Manager] connects to your ad server log storage, parses the information from the logs, and sends the log data as actionable signals to our [Data Collection Servers](../../reference/system-components/components-data-collection.md#dcs-pcs).
 
-You still need to set up rule-based traits to capture the actionable signals. See how to set up rule-based traits either in the [Audience Manager UI](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) or using our [Bulk Management Tools](../../reference/bulk-management-tools/bulk-create.md). Scroll down to the [Actionable Signals](../../integration/media-data-integration/actionable-log-files.md#actionable-signals) section for a list of all the keys you can use in rule-based traits.
+You still need to set up rule-based traits to capture the actionable signals. See how to set up rule-based traits either in the [Audience Manager user interface](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) or using our [Bulk Management Tools](../../reference/bulk-management-tools/bulk-create.md). Scroll down to the [Actionable Signals](../../integration/media-data-integration/actionable-log-files.md#actionable-signals) section for a list of all the keys you can use in rule-based traits.
 
 >[!IMPORTANT]
 >
@@ -269,7 +269,7 @@ The signals described in the table are captured in [!DNL Audience Manager] like 
 https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_activity=1234&d_creative=24122&d_placemebt=3442&d_bu=3983524&d_campaign=7321391&d_adsrc=11111
 ```
 
-## Working with Actionable Signals in the Audience Manager UI {#actionable-signals-in-ui}
+## Working with Actionable Signals in the Audience Manager User Interface {#actionable-signals-in-ui}
 
 You can view your incoming actionable signals in the [Signals Search](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md) interface. 
 

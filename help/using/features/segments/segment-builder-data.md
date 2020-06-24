@@ -152,4 +152,4 @@ Presently, there is a known limitation because our segment size estimator does n
 >[!MORELIKETHIS]
 >
 >* [Profile Merge Rules and Device Graph FAQ](../../faq/faq-profile-merge.md)
->* [Profile Link](../../features/profile-merge-rules/merge-rules-overview.md)
+>* [Profile Link](../profile-merge-rules/merge-rules-overview.md)

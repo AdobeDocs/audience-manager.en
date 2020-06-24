@@ -7,13 +7,13 @@ title: FTP Name and File Size Requirements for Inbound Data Files
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 ---
 
-# FTP Name and File Size Requirements for Inbound Data Files{#ftp-name-and-file-size-requirements-for-inbound-data-files}
+# [!DNL FTP] Name and File Size Requirements for Inbound Data Files {#ftp-name-and-file-size-requirements-for-inbound-data-files}
 
-Describes the required fields, syntax, naming conventions and file sizes you need to follow when sending data to Audience Manager. Set the names and sizes of your files according to these specifications when you send data to an Audience Manager [!DNL FTP] directory.
+Describes the required fields, syntax, naming conventions and file sizes you need to follow when sending data to [!DNL Audience Manager]. Set the names and sizes of your files according to these specifications when you send data to an Audience Manager [!DNL FTP] directory.
 
 >[!WARNING]
 >
->We are gradually phasing out support for FTP configurations. While inbound data file ingestion is still supported in existing FTP integrations, we strongly recommend using Amazon S3 to onboard offline data for new integrations. See [Amazon S3 Name and File Size Requirements for Inbound Data Files](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) for details.
+>We are gradually phasing out support for [!DNL FTP] configurations. While inbound data file ingestion is still supported in existing [!DNL FTP] integrations, we strongly recommend using [!DNL Amazon S3] to onboard offline data for new integrations. See [Amazon S3 Name and File Size Requirements for Inbound Data Files](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) for details.
 
 >[!NOTE]
 >

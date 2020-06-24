@@ -9,7 +9,7 @@ uuid: a9eee940-151c-44f8-9fe9-8ab47d8fa45c
 
 # Batch Data Transfer Process Described {#batch-data-transfer-process-described}
 
-A general overview of how Audience Manager performs an asynchronous batch data exchange with a third-party vendor.
+A general overview of how [!DNL Audience Manager] performs an asynchronous batch data exchange with a third-party vendor.
 
 ## Batch Data Integration
 
@@ -26,7 +26,7 @@ The batch data integration process saves visitor information on our servers and 
 ## Data Integration Steps
 
 1. A user visits a customer site.
-1. Audience Manager and the third-party data provider assign the visitor a unique ID (usually with a cookie).
-1. Audience Manager calls the third-party data provider to match visitor IDs.
-1. A scheduled request, usually on a daily interval, exchanges visitor segment data between Audience Manager and your third-party data provider.
+1. [!DNL Audience Manager] and the third-party data provider assign the visitor a unique ID (usually with a cookie).
+1. [!DNL Audience Manager] calls the third-party data provider to match visitor IDs.
+1. A scheduled request, usually on a daily interval, exchanges visitor segment data between [!DNL Audience Manager] and your third-party data provider.
 1. Whenever an inbound [!UICONTROL Server-to-Server] file is processed, a receipt is sent via email to partner solutions and, if configured, to the partner. For more information, see [Sample Message to Partners after Inbound Processing](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md).

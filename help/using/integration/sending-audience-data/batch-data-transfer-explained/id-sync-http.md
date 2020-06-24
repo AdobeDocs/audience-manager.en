@@ -7,13 +7,11 @@ title: ID Synchronization for Inbound Data Transfers
 uuid: 037e74a6-acfd-4cef-b693-16b7aaa8e976
 ---
 
-# ID Synchronization for Inbound Data Transfers{#id-synchronization-for-inbound-data-transfers}
+# ID Synchronization for Inbound Data Transfers {#id-synchronization-for-inbound-data-transfers}
 
-Describes the syntax and parameters used in the initial `HTTP` call to synchronize user IDs between a vendor and Audience Manager. ID synchronization can begin after you send your data taxonomy to Audience Manager.
+Describes the syntax and parameters used in the initial `HTTP` call to synchronize user IDs between a vendor and [!DNL Audience Manager]. ID synchronization can begin after you send your data taxonomy to [!DNL Audience Manager].
 
-<!-- c_id_sync_in.xml -->
-
-ID synchronization is the first step in the inbound, asynchronous data transfer process. In this step, Audience Manager and the vendor compare and match IDs for their respective site visitors. For example, an [!DNL Audience Manager] customer may know a user by ID 123. However, your data partner could identify this user with ID 456. The synchronization process allows [!DNL Audience Manager] and a data vendor to reconcile these different IDs and identify users in their respective systems. Once complete, [!DNL Audience Manager] and your third-party partner should have corresponding IDs for each unique user seen on our networks.
+ID synchronization is the first step in the inbound, asynchronous data transfer process. In this step, [!DNL Audience Manager] and the vendor compare and match IDs for their respective site visitors. For example, an [!DNL Audience Manager] customer may know a user by ID 123. However, your data partner could identify this user with ID 456. The synchronization process allows [!DNL Audience Manager] and a data vendor to reconcile these different IDs and identify users in their respective systems. Once complete, [!DNL Audience Manager] and your third-party partner should have corresponding IDs for each unique user seen on our networks.
 
 You can use the following methods to get your data into [!DNL Audience Manager]:
 
@@ -66,7 +64,7 @@ The [!DNL URL] for your inbound ID synchronization call should contain variables
  </tbody> 
 </table>
 
-## Declared ID Event {#declared-id-event}
+## [!UICONTROL Declared ID] Event {#declared-id-event}
 
 For more information, see [Declared IDs](../../../features/declared-ids.md).
 

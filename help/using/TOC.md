@@ -304,6 +304,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
             + [OAuth 2.0 Integration for Real-Time Outbound Transfers](integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md)
         + Batch Outbound Data Transfers{#batch-outbound-data-transfers}
             + [Batch Outbound Data Transfers overview](integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md)
+            + [Configure Batch Data Transfer Integration](integration/receiving-audience-data/batch-outbound-transfers/batch-server-configuration.md)
             + [Outbound Data File Name: Syntax and Examples](integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md)
             + [Transfer-Control Files for Log File Transfers](integration/receiving-audience-data/batch-outbound-transfers/transfer-control-files.md)
             + [Outbound Template Macros](integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)
@@ -330,9 +331,10 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
     + Integration with Adobe Experience Platform {#integration-experience-platform}
       + [Audience Sharing Between Audience Manager and Adobe Experience Platform](integration/integration-aep/aam-aep-audience-sharing.md)
     + Integration with Other Experience Cloud Solutions {#integration-other-solutions}
-      + [Integrate Audience Manager With Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
+      + [Integrate Audience Manager with Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
       + [How to Forward Data from Adobe Analytics to Audience Manager](integration/integration-other-solutions/audience-management-module.md)
-      + [Publish an Adobe Analytics Segment to the Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html)
+      + [Publish an Adobe Analytics Segment to the Experience Cloud (opens Adobe Analytics documentation)](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html)
+      + [Integrate Audience Manager with Adobe Campaign (opens Adobe Campaign documentation)](https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
 + Reference{#reference}
     + [Reference Overview](reference/reference.md)
     + [Amazon S3: About](reference/amazon-s3.md)

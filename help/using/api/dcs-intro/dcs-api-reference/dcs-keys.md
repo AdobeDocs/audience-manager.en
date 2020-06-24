@@ -8,13 +8,13 @@ keywords: d_caller, d_cb, d_cid, d_cid_ic, d_coppa, d_cts=1, d_cts=2, d_tdpid, d
 uuid: 0b98ed11-314b-4500-afde-45a041112150
 ---
 
-# Supported Attributes for DCS API Calls {#supported-attributes-for-dcs-api-calls}
+# Supported Attributes for [!DNL DCS] [!DNL API] Calls {#supported-attributes-for-dcs-api-calls}
 
-Lists and describes the syntax and supported attributes (or key-value pairs) you can pass in to the [!UICONTROL Data Collection Servers] ([!UICONTROL DCS]). This information can help you format your [!UICONTROL DCS] requests and understand the parameters returned by this system.
+Lists and describes the syntax and supported attributes (or key-value pairs) you can pass in to the [!UICONTROL Data Collection Servers] ([!DNL DCS]). This information can help you format your [!DNL DCS] requests and understand the parameters returned by this system.
 
 ## Attribute Prefixes {#attribute-prefixes}
 
-The [!UICONTROL DCS] relies on specific prefixes added to the keys in key-value pairs to classify the type of data you're passing in.
+The [!DNL DCS] relies on specific prefixes added to the keys in key-value pairs to classify the type of data you're passing in.
 
 <table id="table_23B7E15EC13749E9A245DFB543822DB7"> 
  <thead> 
@@ -43,9 +43,9 @@ The [!UICONTROL DCS] relies on specific prefixes added to the keys in key-value 
  </tbody> 
 </table>
 
-## d_ Attributes {#d-attributes}
+## [!DNL d_] Attributes {#d-attributes}
 
-All of these are optional, unless you want a response from the [!UICONTROL DCS]. If you want the [!UICONTROL DCS] to return a response, then `d_rtbd=json` is required.
+All of these are optional, unless you want a response from the [!DNL DCS]. If you want the [!DNL DCS] to return a response, then `d_rtbd=json` is required.
 
 <table id="table_FCCE4F9D796648899772A191981EFDE6"> 
  <thead> 
