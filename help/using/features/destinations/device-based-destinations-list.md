@@ -79,7 +79,7 @@ This page includes current Audience Manager [device-based destinations](/help/us
 | Google AdsWords Display                           | 02/08/2018 | Real-time | Yes       | Yes                               | No   | Yes               |
 | Google DoubleClick Bid Manager (DBM)              | 24/04/2017 | Real-time | Yes       | Yes                               | Yes  | Yes               |
 | Google DoubleClick Campaign Manager (DCM fka DFA) | 24/04/2017 | Real-time | Yes       | Yes                               | Yes  | Yes               |
-| Google DoubleClick for Publishers (DFP, DFPP)     | 24/04/2017 | Real-time | Yes       | Yes                               | Yes  | Yes               |
+| Google Ad Manager (formerly Google DFP)     | 24/04/2017 | Real-time | Yes       | Yes                               | Yes  | Yes               |
 | GumGum                                            | 02/06/2017 | 1xday     | Yes       | No                                | No   | No                |
 | Index Exchange (formerly Casale Media)            | 03/03/2017 | 1xday     | Yes       | No                                | No   | No                |
 | Infectious Media                                  | 03/03/2017 | Real-time | Yes       | No                                | Yes  | No                |

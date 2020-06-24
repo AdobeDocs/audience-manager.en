@@ -181,7 +181,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
             + [Cross Channel Conversion](reporting/audience-optimization-reports/aor-advertisers/cross-channel-conversion-reporting.md)
         + Audience Optimization for Publishers {#audience-optimization-publishers}
             + [Audience Optimization for Publishers Overview](reporting/audience-optimization-reports/aor-publishers/aor-publishers.md)
-            + [Import DFP Data Files Into Audience Manager](reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
+            + [Import Google Ad Manager (formerly DFP) Data Files Into Audience Manager](reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
             + [Segment Performance Report](reporting/audience-optimization-reports/aor-publishers/publisher-segment-performance.md)
             + [Segment Trend Report](reporting/audience-optimization-reports/aor-publishers/publisher-segment-trends.md)
             + [Top Unused Traits](reporting/audience-optimization-reports/aor-publishers/publisher-top-unused-traits.md)
@@ -277,9 +277,9 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 + Implementation and Integration Guides{#implementation-integration-guides}
     + [Implementation and Integration Guides](integration/implementation-and-integration.md)
     + [Data Integration Methods](integration/data-integration-methods.md)
-    + Integrate DFP using Google Publisher Tags (GPT){#integrate-dfp-using-gpt}
-        + [Integrate DFP using GPT Overview](integration/gpt-aam-destination/gpt-aam-overview.md)
-        + [Sending Segments to DFP Using GPT](integration/gpt-aam-destination/gpt-aam-requirements.md)
+    + Integrate Google Ad Manager using Google Publisher Tags (GPT){#integrate-dfp-using-gpt}
+        + [Integrate Google Ad Manager using GPT Overview](integration/gpt-aam-destination/gpt-aam-overview.md)
+        + [Sending Segments to Google Ad Manager Using GPT](integration/gpt-aam-destination/gpt-aam-requirements.md)
         + [Create a GPT Destination](integration/gpt-aam-destination/gpt-aam-create-destination.md)
         + [Modify the GPT setTargeting API Call](integration/gpt-aam-destination/gpt-aam-modify-api.md)
         + [Audience Manager Code for Google Publisher Tags](integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
@@ -287,7 +287,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
       + [Facebook WCA Integration](/help/using/integration/integrating-third-party/facebook-wca-integration.md)
       + [OAS as an Audience Manager Destination](integration/integrating-third-party/open-ad-server-destination.md)
       + [OpenX as an Audience Manager Destination](integration/integrating-third-party/openx-destination.md)
-      + [DFP as an Audience Manager Destination](integration/aam-dfp.md)
+      + [Google Ad Manager (formerly DFP) as an Audience Manager Destination](integration/aam-dfp.md)
       + [Send Segments to a Google AdWords Remarketing List](integration/integrating-third-party/rlsa-integration.md)
     + [Implementing Audience Manager](integration/implement-audience-manager.md)
     + Media Data Integration{#media-data-integration}
