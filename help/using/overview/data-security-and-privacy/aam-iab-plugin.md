@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Audience Manager Plug-in for IAB TCF
 ---
 
-# Audience Manager Plug-in for IAB TCF {#aam-iab-plugin}
+# [!DNL Audience Manager Plug-in for IAB TCF] {#aam-iab-plugin}
 
 ## Overview
 
@@ -36,6 +36,10 @@ Currently, Audience Manager does not support:
 
 * Mobile device workflows;
 * Appending consent to segment exports.
+
+## Upgrading to [!DNL IAB TCF v2.0] {#upgrading}
+
+Customers who are upgrading their [!DNL Audience Manager Plug-in for IAB TCF] implementation from [!DNL IAB TCF] v1.1 to [!DNL IAB TCF] v2.0, or enabling [!DNL IAB TCF] v2.0 for the first time, should all follow the same guidelines on prerequisites and implementation as described below.
 
 ## Prerequisites {#prerequisites}
 

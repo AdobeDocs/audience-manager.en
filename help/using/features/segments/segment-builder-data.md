@@ -7,32 +7,23 @@ title: Trait and Segment Population Data in Segment Builder
 uuid: e1e59c0a-b4c7-4cad-8485-3667e0a95e83
 ---
 
-# Trait and Segment Population Data in Segment Builder {#trait-and-segment-population-data-in-segment-builder}
+# [!UICONTROL Trait] and [!UICONTROL Segment] Population Data in [!UICONTROL Segment Builder] {#trait-and-segment-population-data-in-segment-builder}
 
-Add and remove traits in [!UICONTROL Segment Builder] to see actual trait populations along with actual and estimated segment population data. The estimated population size data helps you build the right segment for your campaign.
+Add and remove [!UICONTROL traits] in [!UICONTROL Segment Builder] to see actual [!UICONTROL trait] populations along with actual and estimated segment population data. The estimated population size data helps you build the right segment for your campaign.
 
-## Trait Population Data {#trait-population-data}
+## [!UICONTROL Trait] Population Data {#trait-population-data}
 
-[!UICONTROL Segment Builder] shows you [!UICONTROL Total Trait Population] for the last day when you add a trait to a segment. This data appears in the blue field around your selected trait in the [!UICONTROL Basic View] section.
+[!UICONTROL Segment Builder] shows you [!UICONTROL Total Trait Population] for the last day when you add a [!UICONTROL trait] to a segment. This data appears in the blue field around your selected [!UICONTROL trait] in the [!UICONTROL Basic View] section.
 
 ![](assets/trait-size.png)
 
-The following table defines the trait population metrics
+The following table defines the trait population metrics:
 
-<table id="table_9D837CF9ACA04D04BEE5925EC0B4A5D2"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Metric </th> 
-   <th colname="col2" class="entry"> Description </th>
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="wintitle"> Total Trait Population</span> </p> </td>
-   <td colname="col2"> <p>The number of unique IDs that have the selected trait in their profile. </p> </td>
-  </tr> 
- </tbody> 
-</table>
+
+Metric | Description |
+---------|----------|
+ [!UICONTROL Total Trait Population] | The number of unique IDs that have the selected trait in their profile.
+
 
 ## Calculating Real and Estimated Segment Populations {#calculating-real-estimated-populations}
 
@@ -91,9 +82,9 @@ The following table defines the estimated population metrics.
 
 [!UICONTROL Profile Merge Rules] affect the actual real-time and total population numbers. These totals vary depending on if the [!UICONTROL Profile Merge Rule] a segment belongs to uses a device graph option or not. See also, [Profile Merge Rule Options Defined](../../features/profile-merge-rules/merge-rule-definitions.md).
 
-### Segment Population Data for Merge Rules Without a Device Graph Option
+### Segment Population Data for [!UICONTROL Merge Rules] Without a [!UICONTROL Device Graph Option]
 
-The following table defines the actual real-time and total population metrics when your segments are used by a [!UICONTROL Profile Merge Rule] created without a device graph option. These are the device options settings **[!UICONTROL No Device Options]** and **[!UICONTROL Current Device Proflie]**.
+The following table defines the actual real-time and total population metrics when your segments are used by a [!UICONTROL Profile Merge Rule] created without a [!UICONTROL device graph] option. These are the device options settings **[!UICONTROL No Device Options]** and **[!UICONTROL Current Device Proflie]**.
 
 <table id="table_A18C973855DB46A0B39B81F32E0E7540"> 
  <thead> 
@@ -118,38 +109,25 @@ The following table defines the actual real-time and total population metrics wh
  </tbody> 
 </table>
 
-### Segment Population Data for Merge Rules With a Device Graph Option
+### Segment Population Data for [!UICONTROL Merge Rules] With a [!UICONTROL Device Graph] Option
 
-The following table defines the actual real-time and total population metrics when your segments are used by a [!UICONTROL Profile Merge Rule] created with a device graph option. These are the device options settings for the [!UICONTROL Profile Link Device Graph], the [!DNL Adobe] device graph, and other third-party device graph choices that are available to you.
+The following table defines the actual real-time and total population metrics when your segments are used by a [!UICONTROL Profile Merge Rule] created with a [!DNL device graph] option. These are the device options settings for the [!UICONTROL Profile Link Device Graph], the [!DNL Adobe] [!DNL device graph], and other third-party [!DNL device graph] choices that are available to you.
 
-<table id="table_157EC6E5B5C44EB899854CA10B090F60"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Metric </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="wintitle"> Real-Time Population (Existing)</span> </p> </td> 
-   <td colname="col2"> <p>The actual number of devices seen in real-time with current profiles that, when merged with up to 100 other device profiles connected by the device graph, contains the traits to qualify for the segment the moment it was seen by <span class="keyword"> Audience Manager</span>. </p> </td>
-  </tr>
-  <tr> 
-   <td colname="col1"> <p> <span class="wintitle"> Total Population (Existing)</span> </p> </td> 
-   <td colname="col2"> <p>The total number of devices with profiles that, when merged with up to 100 other device profiles connected by the device graph, were all qualified for the segment. </p> </td>
-  </tr>
- </tbody>
-</table>
+
+Column A | Column B |
+---------|----------|
+ [!UICONTROL Real-Time Population (Existing) ]| The actual number of devices seen in real-time with current profiles that, when merged with up to 100 other device profiles connected by the device graph, contains the traits to qualify for the segment the moment it was seen by Audience Manager.
+ [!UICONTROL Total Population (Existing)] | The total number of devices with profiles that, when merged with up to 100 other device profiles connected by the device graph, were all qualified for the segment. 
 
 ### Limitations due to Recency and Frequency Expressions When Estimating Segment Populations
 
 [!UICONTROL Segment Builder] supports segment size estimations for segment rules that contain up to 4 recency and frequency expressions. Choosing more than 4 recency and frequency expressions when building a segment rule causes the segment estimator to show an error when estimating population.
 
-### Limitations due to Merge Rules When Estimating Segment Populations
+### Limitations due to [!UICONTROL Merge Rules] When Estimating Segment Populations
 
-Presently, there is a known limitation because our segment size estimator does not account for profile merge rules. For example, look at segments with the **No Authenticated Profile + Current Device Profile**&nbsp;[merge rule](../../features/profile-merge-rules/merge-rule-definitions.md). Because of the way we currently compute the segment estimation numbers, the estimated populations will include authenticated profiles. However, the existing segment populations will correctly ignore authenticated profiles.
+Presently, there is a known limitation because our segment size estimator does not account for [!UICONTROL profile merge rules]. For example, look at segments with the **[!UICONTROL No Authenticated Profile + Current Device Profile]**&nbsp;[merge rule](../../features/profile-merge-rules/merge-rule-definitions.md). Because of the way we currently compute the segment estimation numbers, the estimated populations will include authenticated profiles. However, the existing segment populations will correctly ignore authenticated profiles.
 
 >[!MORELIKETHIS]
 >
 >* [Profile Merge Rules and Device Graph FAQ](../../faq/faq-profile-merge.md)
->* [Profile Link](../../features/profile-merge-rules/merge-rules-overview.md)
+>* [Profile Link](../profile-merge-rules/merge-rules-overview.md)
