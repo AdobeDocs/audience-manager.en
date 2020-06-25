@@ -5,6 +5,7 @@ seo-title: Optimal Frequency Report
 solution: Audience Manager
 title: Optimal Frequency Report
 uuid: 50459ce9-39ac-4401-93dd-7526937fc742
+feature: audience optimization reports
 ---
 
 # Optimal Frequency Report{#optimal-frequency-report}

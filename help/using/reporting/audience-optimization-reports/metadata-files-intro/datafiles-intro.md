@@ -5,6 +5,7 @@ seo-title: Data Files for Audience Optimization Reports and Actionable Log Files
 solution: Audience Manager
 title: Data Files for Audience Optimization Reports and Actionable Log Files
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
+feature: log files
 ---
 
 # Data Files for Audience Optimization Reports and Actionable Log Files {#data-files-for-audience-optimization-reports}

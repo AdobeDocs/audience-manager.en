@@ -4,6 +4,7 @@ seo-description: Adobe provides you with the means to manage and communicate you
 seo-title: Audience Manager Plug-in for IAB TCF
 solution: Audience Manager
 title: Audience Manager Plug-in for IAB TCF
+feature: data governance & privacy
 ---
 
 # [!DNL Audience Manager Plug-in for IAB TCF] {#aam-iab-plugin}

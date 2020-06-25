@@ -5,6 +5,7 @@ seo-title: Data Governance
 solution: Audience Manager
 keywords: GDPR UI, GDPR API, CCPA, privacy, consent, obfuscation, governance
 title: Data Governance
+feature: data governance & privacy
 ---
 
 # Data Governance

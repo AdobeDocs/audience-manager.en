@@ -5,6 +5,7 @@ seo-title: CID Replaces DPID and DPUUID
 solution: Audience Manager
 title: CID Replaces DPID and DPUUID
 uuid: 3641eac5-b19e-45d5-bc1c-35a23b4bab8c
+feature: reference
 ---
 
 # CID Replaces DPID and DPUUID{#cid-replaces-dpid-and-dpuuid}

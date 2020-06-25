@@ -5,6 +5,7 @@ seo-title: Data Collection Components
 solution: Audience Manager
 title: Data Collection Components
 uuid: 51bb1719-5ff2-4bc7-8eb1-98795e05d08f
+feature: system components
 ---
 
 # Data Collection Components{#data-collection-components}
