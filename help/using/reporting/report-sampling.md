@@ -5,6 +5,7 @@ seo-title: Data Sampling and Error Rates in Selected Audience Manager Reports
 solution: Audience Manager
 title: Data Sampling and Error Rates in Selected Audience Manager Reports
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
+feature: reporting reference
 ---
 
 # Data Sampling and Error Rates in Selected Audience Manager Reports{#data-sampling-and-error-rates-in-selected-audience-manager-reports}

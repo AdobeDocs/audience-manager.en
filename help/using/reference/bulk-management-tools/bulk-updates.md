@@ -6,6 +6,7 @@ seo-title: Bulk Updates
 solution: Audience Manager
 title: Bulk Updates
 uuid: 22f1badd-a274-4d3e-9957-a24bf8c1d0dc
+feature: baaam
 ---
 
 # Bulk Updates{#bulk-updates}

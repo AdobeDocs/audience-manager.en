@@ -5,6 +5,7 @@ seo-title: Outbound File History
 solution: Audience Manager
 title: Outbound File History
 uuid: 3621a59d-2bb5-4828-86f6-4c9bfa580764
+feature: inbound and outbound reports
 ---
 
 # Outbound File History {#outbound-file-history}

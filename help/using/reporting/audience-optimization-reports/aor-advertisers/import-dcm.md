@@ -5,6 +5,7 @@ seo-title: Import DCM Data Files Into Audience Manager
 solution: Audience Manager
 title: Import DCM Data Files Into Audience Manager
 uuid: 3578cfe1-6d30-4a73-ab75-8d272bebcd60
+feature: audience optimization reports
 ---
 
 # Import DCM Data Files Into Audience Manager {#import-dcm-data-files-into-audience-manager}

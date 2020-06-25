@@ -5,6 +5,7 @@ seo-title: Types of Data Collected
 solution: Audience Manager
 title: Types of Data Collected
 uuid: a2ddf470-32e6-41ec-a1d7-a6232ef084b9
+feature: overview
 ---
 
 # Types of Data Collected {#types-of-data-collected}
