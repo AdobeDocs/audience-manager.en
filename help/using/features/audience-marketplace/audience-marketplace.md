@@ -7,6 +7,7 @@ solution: Audience Manager
 title: Audience Marketplace
 topic: DIL API
 uuid: a94d2ee7-d854-4e68-bd6b-42827ca72f67
+feature: Audience Marketplace
 ---
 
 # Audience Marketplace {#audience-marketplace}

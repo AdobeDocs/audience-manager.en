@@ -4,6 +4,7 @@ seo-description: A URL destination makes pixel calls from a page to your destina
 seo-title: Configure a URL Destination
 solution: Audience Manager
 title: Configure a URL Destination
+feature: Destination Basics
 ---
 
 

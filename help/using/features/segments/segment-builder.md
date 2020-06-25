@@ -5,6 +5,7 @@ seo-title: Segment Builder
 solution: Audience Manager
 title: Segment Builder
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
+feature: Segments
 ---
 
 # [!UICONTROL Segment Builder] {#segment-builder}

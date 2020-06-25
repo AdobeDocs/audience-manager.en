@@ -5,6 +5,7 @@ seo-title: Outbound Macro Examples
 solution: Audience Manager
 title: Outbound Macro Examples
 uuid: 823d85d4-d683-45cf-9e60-c12b7d52a498
+feature: Outbound Data Transfers
 ---
 
 # Outbound Macro Examples {#outbound-macro-examples}

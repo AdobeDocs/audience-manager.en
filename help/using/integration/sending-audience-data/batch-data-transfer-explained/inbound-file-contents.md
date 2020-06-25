@@ -5,6 +5,7 @@ seo-title: Inbound Data File Contents  Syntax, Invalid Characters, Variables, an
 solution: Audience Manager
 title: Inbound Data File Contents  Syntax, Invalid Characters, Variables, and Examples
 uuid: 88699b29-1502-4183-a9a4-be70692a02bb
+feature: Inbound Data Transfers
 ---
 
 # Inbound Data File Contents: Syntax, Invalid Characters, Variables, and Examples {#inbound-data-file-contents-syntax-invalid-characters-variables-and-examples}

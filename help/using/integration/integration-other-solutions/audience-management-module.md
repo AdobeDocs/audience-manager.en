@@ -6,6 +6,7 @@ seo-title: Implement the Audience Management Module
 solution: Audience Manager
 title: Implement the Audience Management Module
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
+feature: Integration with Analytics
 ---
 
 # How to forward data from [!DNL Adobe Analytics] to [!DNL Audience Manager] {#implement-the-audience-management-module}

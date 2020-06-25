@@ -6,6 +6,7 @@ seo-title: Create a Data Source
 solution: Audience Manager
 title: Manage Data Sources
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
+feature: Data Sources
 ---
 
 # Manage [!UICONTROL Data Sources] {#manage-data-sources}

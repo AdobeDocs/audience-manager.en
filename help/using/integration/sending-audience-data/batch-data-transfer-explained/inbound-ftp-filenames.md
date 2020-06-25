@@ -5,6 +5,7 @@ seo-title: FTP Name and File Size Requirements for Inbound Data Files
 solution: Audience Manager
 title: FTP Name and File Size Requirements for Inbound Data Files
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
+feature: Inbound Data Transfers
 ---
 
 # [!DNL FTP] Name and File Size Requirements for Inbound Data Files {#ftp-name-and-file-size-requirements-for-inbound-data-files}

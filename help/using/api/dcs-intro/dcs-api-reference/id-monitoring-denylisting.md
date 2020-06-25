@@ -6,6 +6,7 @@ seo-title: ID Monitoring and Denylisting
 solution: Audience Manager
 title: ID Monitoring and Denylisting
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
+feature: DCS
 ---
 
 # ID Monitoring and Denylisting

@@ -4,6 +4,7 @@ seo-description: Use people-based destinations to send first-party audience segm
 seo-title: People-Based Destinations Overview and Use Cases
 solution: Audience Manager
 title: Overview and Use Cases
+feature: People-Based Destinations
 ---
 
 # Overview and Use Cases {#overview-use-cases}

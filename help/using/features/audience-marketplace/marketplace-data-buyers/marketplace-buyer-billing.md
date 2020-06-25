@@ -6,6 +6,7 @@ solution: Audience Manager
 title: Billing for Data Feed Buyers
 keywords: Segment-level Reporting, segment-level, segment level
 uuid: d7236667-282b-4160-9909-579721af4016
+feature: Audience Marketplace
 ---
 
 # Billing for Data Feed Buyers {#billing-for-data-feed-buyers}

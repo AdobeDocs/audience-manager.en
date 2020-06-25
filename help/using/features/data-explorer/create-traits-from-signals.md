@@ -4,6 +4,7 @@ seo-description: Create new traits from all signals, including those that are al
 seo-title: Create Traits from Signals
 title: Create Traits from Signals
 uuid: 4f324404-0c24-4e3b-96c1-7c1b28a4536d
+feature: Data Explorer
 ---
 
 # Create Traits from Signals

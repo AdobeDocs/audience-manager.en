@@ -6,6 +6,7 @@ seo-title: Declared IDs
 solution: Audience Manager
 title: Declared IDs
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
+feature: ID Syncs
 ---
 
 # [!UICONTROL Declared IDs] {#declared-ids}

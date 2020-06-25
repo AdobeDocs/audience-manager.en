@@ -5,6 +5,7 @@ seo-title: Create Algorithmic Traits
 solution: Audience Manager
 title: Create Algorithmic Traits
 uuid: 50c2d2d1-f412-479b-bb70-4f139429c388
+feature: Traits
 ---
 
 # Create Algorithmic Traits {#create-algorithmic-traits}

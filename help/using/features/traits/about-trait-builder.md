@@ -5,6 +5,7 @@ seo-title: About Trait Builder
 solution: Audience Manager
 title: About Trait Builder
 uuid: 4258616c-7a9f-4fe9-95e2-9f51896a14ab
+feature: Traits
 ---
 
 # About Trait Builder {#about-trait-builder}

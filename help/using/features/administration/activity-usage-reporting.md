@@ -6,6 +6,7 @@ seo-title: Activity Usage Reporting
 solution: Audience Manager
 title: Activity Usage Reporting
 topic: Activity Usage Reporting
+feature: Usage and Billing
 ---
 
 # [!UICONTROL Activity Usage Reporting] {#activity-usage-reporting}

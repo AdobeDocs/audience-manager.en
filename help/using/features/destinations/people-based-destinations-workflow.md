@@ -4,6 +4,7 @@ seo-description: People-Based Destinations offers multiple implementation strate
 seo-title: People-Based Destinations Implementation Guidance
 solution: Audience Manager
 title: Implementation Guidance
+feature: People-Based Destinations
 ---
 
 # Implementation Guidance {#implementation-guidance}

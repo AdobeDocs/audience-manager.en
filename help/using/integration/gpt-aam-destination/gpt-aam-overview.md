@@ -3,6 +3,7 @@ description: Overview of how to integrate DFP using Google Publisher Tags (GPT).
 seo-description: Overview of how to integrate DFP using Google Publisher Tags (GPT) in Adobe Audience Manager (AAM).
 seo-title: Integrate DFP using Google Publisher Tags (GPT)in Adobe Audience Manager (AAM)
 title: Integrate DFP using Google Publisher Tags (GPT)
+feature: Third Party Integrations
 ---
 
 # Integrate DFP using Google Publisher Tags (GPT)

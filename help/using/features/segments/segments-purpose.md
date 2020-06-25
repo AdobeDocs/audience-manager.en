@@ -5,6 +5,7 @@ seo-title: Segments  Purpose, Composition, and Rules
 solution: Audience Manager
 title: Segments  Purpose, Composition, and Rules
 uuid: 886d4abe-b1b6-4983-b4fb-b552d54d51ba
+feature: Segments
 ---
 
 # Segments: Purpose, Composition, and Rules {#segments-purpose-composition-and-rules}

@@ -5,6 +5,7 @@ seo-title: Device Targeting With Platform-level Keys
 solution: Audience Manager
 title: Device Targeting With Platform-level Keys
 uuid: bc048cc5-3df1-49bc-ac78-0ea5d7edd9cc
+feature: Traits
 ---
 
 # Device Targeting With Platform-level Keys {#device-targeting-with-platform-level-keys}

@@ -6,6 +6,7 @@ solution: Audience Manager
 title: Edit Your Account Settings
 topic: DIL API
 uuid: 5cc04104-65db-4d48-ba13-3f344e03d6df
+feature: Administration
 ---
 
 # Edit Your Account Settings {#edit-your-account-settings}

@@ -5,6 +5,7 @@ seo-title: Digitally Signed HTTP(S) Requests
 solution: Audience Manager
 title: Digitally Signed HTTP(S) Requests
 uuid: 1183a70f-0c96-42cf-a4f5-37a83ffa1286
+feature: Outbound Data Transfers
 ---
 
 # Digitally Signed `HTTP(S)` Requests {#digitally-signed-http-requests}

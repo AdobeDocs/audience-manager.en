@@ -5,6 +5,7 @@ seo-title: Permissions Management API Methods
 solution: Audience Manager
 title: Permissions Management API Methods
 uuid: 111d0f92-d92c-4d4b-b0d6-10dd3fa466ad
+feature: API
 ---
 
 # Permissions Management API Methods {#permissions-management-api-methods}

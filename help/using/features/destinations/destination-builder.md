@@ -4,7 +4,7 @@ seo-description: Destination Builder lets you create cookie-based or DNL URL des
 seo-title: Destination Builder
 solution: Audience Manager
 title: Destination Builder
-
+feature: Destination Basics
 ---
 
 # Destination Builder {#destination-builder}

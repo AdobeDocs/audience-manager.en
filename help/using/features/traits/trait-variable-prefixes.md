@@ -5,6 +5,7 @@ seo-title: Prefix Requirements for Key Variables
 solution: Audience Manager
 title: Prefix Requirements for Key Variables
 uuid: df2ef9c8-606a-45f9-a836-859f856a7d4b
+feature: Traits
 ---
 
 # Prefix Requirements for Key Variables {#prefix-requirements-for-key-variables}

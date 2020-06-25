@@ -5,6 +5,7 @@ seo-title: Data Export Controls
 solution: Audience Manager
 title: Data Export Controls
 uuid: de7f3608-c0cb-4049-973a-8be54525c600
+feature: Data Export Controls
 ---
 
 # Data Export Controls {#data-export-controls}

@@ -5,6 +5,7 @@ seo-title: Real-Time Inbound Data Ingestion
 solution: Audience Manager
 title: Real-Time Inbound Data Ingestion
 uuid: 43cb0ebc-6c36-4391-bbfb-6b203d63c69a
+feature: Inbound Data Transfers
 ---
 
 # Real-Time Inbound Data Ingestion {#real-time-inbound-data-ingestion}

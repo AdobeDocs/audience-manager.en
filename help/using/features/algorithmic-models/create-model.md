@@ -6,6 +6,7 @@ seo-title: Create an Algorithmic Model
 solution: Audience Manager
 title: Create an Algorithmic Model
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
+feature: Algorithmic Models
 ---
 
 # Create a Look-Alike Model {#create-an-algorithmic-model}

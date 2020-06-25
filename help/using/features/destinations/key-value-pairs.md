@@ -5,6 +5,7 @@ seo-title: Standard and Serial Key-Value Pairs
 solution: Audience Manager
 title: Standard and Serial Key-Value Pairs
 uuid: 43789419-5b3f-4e62-b2e0-2722340bdd41
+feature: Destination Basics
 ---
 
 # Standard and Serial Key-Value Pairs {#standard-and-serial-key-value-pairs}

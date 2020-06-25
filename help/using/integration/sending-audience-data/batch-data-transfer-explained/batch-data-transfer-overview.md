@@ -6,6 +6,7 @@ seo-title: Send Batch Data to Audience Manager Overview
 solution: Audience Manager
 title: Send Batch Data to Audience Manager Overview
 uuid: 472583b1-5057-4add-8e3c-5e50762c88e0
+feature: Inbound Data Transfers
 ---
 
 # Send Batch Data to [!DNL Audience Manager] Overview {#send-batch-data-to-audience-manager-overview}
