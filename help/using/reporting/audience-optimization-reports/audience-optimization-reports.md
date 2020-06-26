@@ -5,6 +5,7 @@ seo-title: Audience Optimization Reports
 solution: Audience Manager
 title: Audience Optimization Reports
 uuid: b06efa28-f56a-4b72-978e-e0c067f54798
+feature: audience optimization reports
 ---
 
 # [!UICONTROL Audience Optimization Reports] {#audience-optimization-reports}

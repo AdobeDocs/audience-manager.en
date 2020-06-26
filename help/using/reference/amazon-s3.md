@@ -5,6 +5,7 @@ seo-title: Amazon S3  About
 solution: Audience Manager
 title: Amazon S3  About
 uuid: 8197ecdf-df8f-488d-bbc0-d8d4205b42b4
+feature: reference
 ---
 
 # Amazon S3: About{#amazon-s-about}

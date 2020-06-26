@@ -4,6 +4,7 @@ seo-description: Why Audience Lab mapped segments will not show up on the destin
 seo-title: Why Audience Lab mapped segments will not show up on the destination details page.
 solution: Audience Manager
 title: Should I see my Audience Lab mapped segments on the destination details page?
+feature: support
 ---
 
 # Should I see my Audience Lab mapped segments on the destination details page? {#audience-lab-segments-destination-page}

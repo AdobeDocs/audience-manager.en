@@ -1,10 +1,11 @@
 ---
 description: The Onboarding Status Report checks success and failure rates for processing records in your inbound data source files. This report displays data in an interactive bar chart and provides summary metrics in tabular form. And, it includes an option that samples files for a fixed time interval and displays the most common errors for each error type. You can find this report in Analytics > Onboarding Status Report. This report is also available when you create an inbound data source.
 seo-description: The Onboarding Status Report checks success and failure rates for processing records in your inbound data source files. This report displays data in an interactive bar chart and provides summary metrics in tabular form. And, it includes an option that samples files for a fixed time interval and displays the most common errors for each error type. You can find this report in Analytics > Onboarding Status Report. This report is also available when you create an inbound data source.
-seo-title: Onboarding Status Report  About
+seo-title: Onboarding Status Report
 solution: Audience Manager
-title: Onboarding Status Report  About
+title: Onboarding Status Report
 uuid: 6ca8a90a-436b-4fce-adf1-48f3b96b3ed2
+feature: inbound and outbound reports
 ---
 
 # Onboarding Status Report{#onboarding-status-report-about}

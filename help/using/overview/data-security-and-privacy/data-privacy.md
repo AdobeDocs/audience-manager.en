@@ -5,6 +5,7 @@ seo-title: Data Privacy Overview
 solution: Audience Manager
 title: Data Privacy Overview
 uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
+feature: data governance & privacy
 ---
 
 # Data Privacy Overview {#data-privacy}

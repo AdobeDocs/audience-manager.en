@@ -3,6 +3,7 @@ description: Use the options under the Analytics menu to view the dashboard and 
 seo-description: Use the options under the Analytics menu to view the dashboard and various reports in Adobe Audience Manager (AAM).
 seo-title: Reporting Overview in Adobe Audience Manager (AAM)
 title: Reporting Overview
+feature: reporting reference
 ---
 
 # Reporting Overview

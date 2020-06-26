@@ -5,6 +5,7 @@ seo-title: Overview and Mappings for Metadata Files
 solution: Audience Manager
 title: Overview and Mappings for Metadata Files
 uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
+feature: log files
 ---
 
 # Overview and Mappings for Metadata Files{#overview-and-mappings-for-metadata-files}

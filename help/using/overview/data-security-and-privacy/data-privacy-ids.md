@@ -5,6 +5,7 @@ seo-title: Audience Manager Identifiers (IDs)
 solution: Audience Manager
 keywords: GDPR UI, GDPR API, CCPA, privacy, AAM ID
 title: Audience Manager Identifiers (IDs)
+feature: data governance & privacy
 ---
 
 # Audience Manager Identifiers (IDs) {#aam-ids}

@@ -4,6 +4,7 @@ seo-description: A high-level tour of the major components and data flows in the
 seo-title: System Components Overview
 title: System Components Overview
 uuid: cd0e51a3-38c3-4e3f-9bf1-938de2c71156
+feature: system components
 ---
 
 # System Components Overview{#system-components-overview}
