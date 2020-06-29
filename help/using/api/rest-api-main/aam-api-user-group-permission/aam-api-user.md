@@ -5,6 +5,7 @@ seo-title: User Management API Methods
 solution: Audience Manager
 title: User Management API Methods
 uuid: 6e1f2c35-bb9d-4166-b7d4-d9c5518a61ad
+feature: API
 ---
 
 # User Management API Methods {#user-management-api-methods}

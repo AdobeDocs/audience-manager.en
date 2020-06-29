@@ -5,6 +5,7 @@ seo-title: Trait and Segment Population Data in Segment Builder
 solution: Audience Manager
 title: Trait and Segment Population Data in Segment Builder
 uuid: e1e59c0a-b4c7-4cad-8485-3667e0a95e83
+feature: Segments
 ---
 
 # [!UICONTROL Trait] and [!UICONTROL Segment] Population Data in [!UICONTROL Segment Builder] {#trait-and-segment-population-data-in-segment-builder}

@@ -6,6 +6,7 @@ solution: Audience Manager
 title: Segment Details Page
 uuid: e844e423-9701-42d4-9ba5-d82f41358adc
 keywords: identity type breakdown, identity breakdown, audience identity reporting, cross-device, cross-device ID, device ID
+feature: Segments
 ---
 
 # Segment Details Page {#segment-summary-view}

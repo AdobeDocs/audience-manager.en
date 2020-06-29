@@ -5,6 +5,7 @@ seo-title: Outbound Template Macros
 solution: Audience Manager
 title: Outbound Template Macros
 uuid: dec082d3-306b-4ff5-afb2-418bd543d8d0
+feature: Outbound Data Transfers
 ---
 
 # Outbound Template Macros {#outbound-template-macros}

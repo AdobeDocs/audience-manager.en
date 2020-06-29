@@ -4,6 +4,7 @@ seo-description: Data Export Labels work with the Export Controls you set on a d
 seo-title: Add Data Export Controls to a Destination
 solution: Audience Manager
 title: Add Data Export Controls to a Destination
+feature: Data Export Controls
 ---
 
 

@@ -4,6 +4,7 @@ seo-description: This page lists custom integrations between Audience Manager an
 seo-title: Custom Partner Integrations
 solution: Audience Manager
 title: Custom Partner Integrations
+feature: Third Party Integrations
 ---
 
 # Custom Partner Integrations {#custom-partner-integrations}

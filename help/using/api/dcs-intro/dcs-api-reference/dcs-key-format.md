@@ -5,6 +5,7 @@ seo-title: Formatting Key-Value Pairs in DCS Calls
 solution: Audience Manager
 title: Formatting Key-Value Pairs in DCS Calls
 uuid: af02f2a1-4388-4074-ab4e-66ee82023f1c
+feature: DCS
 ---
 
 # Formatting Key-Value Pairs in DCS Calls {#formatting-key-value-pairs-in-dcs-calls}

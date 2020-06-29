@@ -4,7 +4,7 @@ seo-description: Get live trait recommendations as you build your segments.
 seo-title: Trait Recommendations
 solution: Audience Manager
 title: Trait Recommendations
-uuid: 
+feature: Segments
 ---
 
 # Trait Recommendations

@@ -4,6 +4,7 @@ seo-description: A cookie destination returns and writes data to a cookie in the
 seo-title: Configure a Cookie Destination
 solution: Audience Manager
 title: Configure a Cookie Destination
+feature: Destination Basics
 ---
 
 # Configure a Cookie Destination {#create-cookie-destination}

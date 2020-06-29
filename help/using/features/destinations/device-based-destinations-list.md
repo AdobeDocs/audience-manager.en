@@ -5,6 +5,7 @@ seo-title: Adobe Audience Manager Server-to-Server Destinations
 keywords: activation; activation partners, destination, destinations
 solution: Audience Manager
 title: Adobe Audience Manager Server-to-Server Destinations
+feature: Destination Basics
 ---
 
 # [!DNL Audience Manager] [!UICONTROL Device-based Destinations]

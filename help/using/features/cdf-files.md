@@ -6,6 +6,7 @@ seo-title: Customer Data Feeds
 solution: Audience Manager
 title: Customer Data Feeds
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
+feature: Customer Data Feeds
 ---
 
 # [!UICONTROL Customer Data Feeds] {#customer-data-feeds}

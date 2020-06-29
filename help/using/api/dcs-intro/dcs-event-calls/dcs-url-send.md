@@ -5,6 +5,7 @@ seo-title: Send Data to the DCS
 solution: Audience Manager
 title: Send Data to the DCS
 uuid: 024e307d-bfcb-46cf-ac3a-fc71df0248fe
+feature: DCS
 ---
 
 # Send Data to the DCS {#send-data-to-the-dcs}

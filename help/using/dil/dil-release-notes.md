@@ -4,6 +4,7 @@ seo-description: Refer to this page for information about the latest DIL release
 seo-title: DIL Release Notes
 solution: Audience Manager
 title: DIL Release Notes
+feature: DIL Implementation
 ---
 
 # DIL Release Notes

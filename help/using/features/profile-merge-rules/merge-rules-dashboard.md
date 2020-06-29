@@ -5,6 +5,7 @@ seo-title: Profile Merge Rules Dashboard
 solution: Audience Manager
 title: Profile Merge Rules Dashboard
 uuid: d6725218-7b36-4653-9900-d67b5f7702a0
+feature: Profile Merge Rules
 ---
 
 # Profile Merge Rules Dashboard {#profile-merge-rules-dashboard}

@@ -4,6 +4,7 @@ seo-description: Before you can send batch data to third-party content providers
 seo-title: Configure batch data integration
 solution: Audience Manager
 title: Configure Batch Data Transfer Integration
+feature: Outbound Data Transfers
 ---
 
 # Configure Batch Data Transfer Integration

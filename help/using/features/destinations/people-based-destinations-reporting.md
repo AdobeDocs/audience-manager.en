@@ -4,6 +4,7 @@ seo-description: People-Based Destinations introduce the notion of Shareable Aud
 seo-title: Shareable Audiences
 solution: Audience Manager
 title: Shareable Audiences
+feature: People-Based Destinations
 ---
 
 # Shareable Audiences {#shareable-audiences}

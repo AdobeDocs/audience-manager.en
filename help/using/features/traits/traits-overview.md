@@ -5,6 +5,7 @@ keywords: trait; traits; trait overview
 seo-title: Traits Overview
 solution: Audience Manager
 title: Traits Overview
+feature: Traits
 ---
 
 # [!UICONTROL Traits] Overview {#traits-overview}

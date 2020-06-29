@@ -4,6 +4,7 @@ seo-description: This page includes step-by-step guidance on how to combine offl
 seo-title: Workflow C - Personalization Based on Authenticated Activity Combined with Offline Data
 solution: Audience Manager
 title: Workflow C - Personalization Based on Authenticated Activity Combined with Offline Data
+feature: People-Based Destinations
 ---
 
 # Workflow C - Personalization Based on Authenticated Activity Combined with Offline Data {#workflow-c}

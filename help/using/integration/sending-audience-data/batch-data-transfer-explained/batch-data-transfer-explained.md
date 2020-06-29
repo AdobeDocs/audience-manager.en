@@ -5,6 +5,7 @@ seo-title: Batch Data Transfer Process Described
 solution: Audience Manager
 title: Batch Data Transfer Process Described
 uuid: a9eee940-151c-44f8-9fe9-8ab47d8fa45c
+feature: 
 ---
 
 # Batch Data Transfer Process Described {#batch-data-transfer-process-described}

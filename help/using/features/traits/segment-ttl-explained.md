@@ -5,6 +5,7 @@ seo-title: Segment and Trait Time to Live Explained
 solution: Audience Manager
 title: Segment Time to Live Explained
 uuid: 5b2c6911-50b9-4b68-9dd4-21128d112eab
+feature: Traits
 ---
 
 # Segment and Trait Time-to-Live Explained {#segment-time-to-live-explained}

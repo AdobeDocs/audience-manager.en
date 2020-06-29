@@ -5,6 +5,7 @@ seo-title: Race Conditions and Error Handling
 solution: Audience Manager
 title: Race Conditions and Error Handling
 uuid: b0aac960-6732-4e96-87a5-40ba2755e02d
+feature: DCS
 ---
 
 # Race Conditions and Error Handling {#race-conditions-and-error-handling}

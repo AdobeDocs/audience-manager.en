@@ -6,6 +6,7 @@ seo-title: Visitor Profile Viewer
 solution: Audience Manager
 title: Visitor Profile Viewer
 uuid: 77ffe134-e08f-41de-8fc4-15494847b1d0
+feature: Traits
 ---
 
 # Visitor Profile Viewer {#visitor-profile-viewer}

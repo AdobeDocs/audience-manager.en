@@ -5,6 +5,7 @@ seo-title: Data Source API Methods
 solution: Audience Manager
 title: Data Source API Methods
 uuid: 92ab725d-6f0a-497b-8302-39a34dc58636
+feature: API
 ---
 
 # Data Source API Methods {#data-source-api-methods}

@@ -5,6 +5,7 @@ seo-title: Retrieving Segment Metadata
 solution: Audience Manager
 title: Retrieving Segment Metadata
 uuid: 719e2c41-8788-4e8a-967a-e367421f9f84
+feature: Segments
 ---
 
 # Retrieving Segment Metadata {#retrieving-segment-metadata}

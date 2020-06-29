@@ -5,6 +5,7 @@ seo-title: Paused and Deleted Segments
 solution: Audience Manager
 title: Paused and Deleted Segments
 uuid: 88efe4af-f9a4-4bce-920a-352bd4d505dd
+feature: Segments
 ---
 
 # Paused and Deleted Segments {#paused-and-deleted-segments}

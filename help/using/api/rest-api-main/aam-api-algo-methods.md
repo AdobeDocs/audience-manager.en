@@ -6,6 +6,7 @@ seo-title: Algorithmic API Methods
 solution: Audience Manager
 title: Algorithmic API Methods
 uuid: 8d5304d7-c1cf-42df-94e7-3f583944bd62
+feature: API
 ---
 
 # Algorithmic API Methods {#algorithmic-api-methods}

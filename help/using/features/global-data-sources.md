@@ -4,7 +4,7 @@ seo-description: Use Global Data Sources to import device advertising IDs.
 seo-title: Global Data Sources
 solution: Audience Manager
 title: Global Data Sources
-uuid:
+feature: Data Sources
 ---
 
 # Global Data Sources {#global-data-sources}

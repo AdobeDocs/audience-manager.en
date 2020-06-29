@@ -5,6 +5,7 @@ seo-title: get_aamCookie Code
 solution: Audience Manager
 title: get_aamCookie Code
 uuid: 89c30fe3-dbe6-4d18-b161-104167d75bcd
+feature: Destination Basics
 ---
 
 # `get_aamCookie` Code {#get-aamcookie-code}

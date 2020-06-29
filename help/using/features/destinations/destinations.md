@@ -6,6 +6,7 @@ seo-title: Destinations
 solution: Audience Manager
 title: Destinations
 uuid: 5c7dbdec-f73f-46fe-9f12-7685e8d7334f
+feature: Destination Basics
 ---
 
 # [!UICONTROL Destinations] Overview {#destinations}
