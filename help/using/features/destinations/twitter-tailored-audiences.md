@@ -66,5 +66,4 @@ When mapping audience segments to [!UICONTROL Twitter], make sure to meet the fo
 
 ## Match Rates Considerations {#match-rates-considerations}
 
-* When using [!UICONTROL Twitter Tailored Audiences], the [!UICONTROL Segment Addressable Audience] and [!UICONTROL Segment Match Rate] metrics from the destination page will not display any values. This is normal behavior, since audience matching along with the match rates for this destination are handled and hosted by [!UICONTROL Twitter], not Adobe.
 * The integration between Audience Manager and [!UICONTROL Twitter Tailored Audiences] supports historical audience backfills. All segment qualifications get sent to [!UICONTROL Twitter] when you create the destination.
