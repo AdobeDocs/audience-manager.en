@@ -26,7 +26,11 @@ Describes the required fields, syntax, naming conventions and file sizes you nee
 
 For other accepted file name formats, see [Custom Partner Integrations](/help/using/integration/sending-audience-data/custom-partner-integrations.md).
 
->[!NOTE] {importance="high"}
+<!--
+Removed  {importance="high"} for ExL
+-->
+
+>[!NOTE]
 >
 >[!DNL Audience Manager] only processes [!DNL ASCII] and [!DNL UTF-8] encoded files.
 
