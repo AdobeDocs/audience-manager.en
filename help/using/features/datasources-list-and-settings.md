@@ -5,6 +5,7 @@ seo-title: Data Sources List and Settings
 solution: Audience Manager
 title: Data Sources List and Settings
 uuid: 280a6acd-fef0-4737-a96d-9e22fbc8bfaf
+feature: Data Sources
 ---
 
 # [!UICONTROL Data Sources] List and Settings {#data-sources-list-and-settings}

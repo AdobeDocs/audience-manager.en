@@ -6,6 +6,7 @@ seo-title: Actionable Log Files
 solution: Audience Manager
 title: Actionable Log Files
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
+feature: Log Files
 ---
 
 # Actionable Log Files {#actionable-log-files}
@@ -145,7 +146,11 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 
 For an average-sized [!DNL DCM] log file of 2 million lines, any traits created from actionable signals are realized within approximately one hour after we process the logs.
 
->[!NOTE] {importance="high"}
+<!--
+Removed  {importance="high"} for ExL
+-->
+
+>[!NOTE]
 >
 >The event timestamp provided in the [!DNL DCM] logs will be honored and passed to the [!UICONTROL Data Collection Servers].
 >

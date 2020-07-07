@@ -6,6 +6,7 @@ solution: Audience Manager
 keywords: GDPR UI, GDPR API, CCPA, privacy, consent
 title: Consent Management
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
+feature: data governance & privacy
 ---
 
 # Consent Management

@@ -5,6 +5,7 @@ seo-title: Return A Destination by Destination ID
 solution: Audience Manager
 title: Return A Destination by Destination ID
 uuid: abce7426-55a5-4045-93a7-0487652a7189
+feature: API
 ---
 
 # Return A Destination by Destination ID {#return-a-destination-by-destination-id}

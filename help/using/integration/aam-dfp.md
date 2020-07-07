@@ -5,6 +5,7 @@ seo-title: Google Ad Manager as an Audience Manager Destination
 solution: Audience Manager
 title: Google Ad Manager as an Audience Manager Destination
 uuid: 12d6c2ce-f0fa-4a2c-8b88-fdad634df435
+feature: Third Party Integrations
 ---
 
 # Google Ad Manager (formerly DFP) as an Audience Manager Destination {#dfp-as-an-audience-manager-destination}

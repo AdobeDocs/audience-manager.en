@@ -5,6 +5,7 @@ seo-title: Counting Unique Users in Overlap and General Reports in AAM
 solution: Audience Manager
 title: Counting Unique Users in Overlap and General Reports
 uuid: 450f6a8c-f363-43de-b2d8-0a156f14ecae
+feature: reporting reference
 ---
 
 # Counting Unique Users in Overlap and General Reports{#counting-unique-users-in-overlap-and-general-reports}

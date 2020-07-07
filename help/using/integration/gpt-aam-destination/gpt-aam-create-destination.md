@@ -5,6 +5,7 @@ seo-title: Create a GPT Destination
 solution: Audience Manager
 title: Create a GPT Destination
 uuid: e3bbf327-a7e0-48da-bc84-8f531b7f6750
+feature: Third Party Integrations
 ---
 
 # Create a GPT Destination {#create-a-gpt-destination}

@@ -4,6 +4,7 @@ seo-description: Audience Analytics lets you send Audience Manager segments to A
 seo-title: Configure an Analytics Destination
 solution: Audience Manager
 title: Configure an Analytics Destination
+feature: Integration with Analytics
 ---
 
 # Configure an Analytics Destination

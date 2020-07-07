@@ -5,6 +5,7 @@ seo-title: DCS Region API Methods
 solution: Audience Manager
 title: DCS Region API Methods
 uuid: 00b70927-b3b7-46bb-8be1-37c6100ecf80
+feature: API
 ---
 
 # DCS Region API Methods {#dcs-region-api-methods}

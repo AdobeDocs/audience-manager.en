@@ -5,6 +5,7 @@ seo-title: Audience Manager API Code Migration
 solution: Audience Manager
 title: Audience Manager API Code Migration
 uuid: 93cc28c4-4b91-4c79-93d5-ece9bb4cc9d5
+feature: API
 ---
 
 # Audience Manager API Code Migration {#audience-manager-api-code-migration}
@@ -16,6 +17,8 @@ Here at Audience Manager, we're engineers, developers, and code ninjas just like
 <!-- api-swagger-migration.xml -->
 
 The [Adobe Audience Manager API Docs](https://bank.demdex.com/portal/swagger/index.html) site is the new home for our revised [!DNL API] content. We'll try to re-write and move a few sets of [!DNL API] methods with each release. This means you'll have to check in both the new location and the [REST API](../api/rest-api-main/rest-api-main.md) documentation to find all of the available methods. Eventually, all of the public [!DNL API]s will be on the [!DNL Audience Manager] [!DNL API] docs site. The following table lists the revised and migrated [!DNL API]s.
+
+<!--
 
 <table id="table_CD3C244CB02C48C898745FB982EC828C"> 
  <thead> 
@@ -74,3 +77,16 @@ The [Adobe Audience Manager API Docs](https://bank.demdex.com/portal/swagger/ind
   </tr>
  </tbody>
 </table>
+
+-->
+
+
+API Type | API Methods
+---------|----------
+ **[!UICONTROL Algorithmic Models**] | [Algorithmic Models](https://bank.demdex.com/portal/swagger/index.html#/Algorithmic_Models_API) 
+ **[!UICONTROL Audience Marketplace]** | <ul><li>[Data Feeds](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Buyer%20API/get_available_data_feeds_)</li><li>[Data Feed Request](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Buyer%20API/post_available_data_feeds__dataSourceId__requests)</li><li>[Data Feed Finance](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Finance%20API/get_data_feeds_billing_report)</li><li>[Data Feed Plans](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Seller%20API/get_data_feeds__dataSourceId__plans_)</li><li>[Data Feed Subscriptions](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Seller%20API/get_data_feeds__dataSourceId__subscriptions)</li></ul>
+ **[!UICONTROL Data Sources]** | [Data Sources ](https://bank.demdex.com/portal/swagger/index.html#/Data_Source_API)
+ **[!UICONTROL Folders]** | <ul><li>[Segment Folders](https://bank.demdex.com/portal/swagger/index.html#/Segment_Folder_API)</li><li>[Trait Folders](https://bank.demdex.com/portal/swagger/index.html#/Trait%20Folder%20API)</li></ul>
+ **[!UICONTROL Reporting]** | [Reporting](https://bank.demdex.com/portal/swagger/index.html#/Reporting%20API)
+ **[!UICONTROL Segments]** | <ul><li>[Segments](https://bank.demdex.com/portal/swagger/index.html#/Segments%20API)</li><li>[Segment Test Groups](https://bank.demdex.com/portal/swagger/index.html#/Segment%20Test%20Group%20API)</li><li>[Segment Test Group Draft API](https://bank.demdex.com/portal/swagger/index.html#/Segment%20Test%20Group%20API/post_segment_test_groups_drafts)</li></ul>
+ **[!UICONTROL Traits]** | [Traits](https://bank.demdex.com/portal/swagger/index.html#/Traits%20API)

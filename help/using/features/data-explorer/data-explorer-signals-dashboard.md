@@ -4,6 +4,7 @@ seo-description: Get an overview of the unused signals received by Audience Mana
 seo-title: Signals Dashboard
 title: Signals Dashboard
 uuid: 26f39507-097f-427d-bf5b-ab6d035c1dd2
+feature: Data Explorer
 ---
 
 # Signals Dashboard {#signals-dashboard}

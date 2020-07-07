@@ -5,6 +5,7 @@ seo-title: Derived Signals
 solution: Audience Manager
 title: Derived Signals
 uuid: e52600e3-26d1-4607-9b96-afd6086a252d
+feature: Traits
 ---
 
 # Derived Signals {#derived-signals}

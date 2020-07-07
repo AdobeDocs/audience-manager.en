@@ -6,6 +6,7 @@ solution: Audience Manager
 title: Test Group Reporting
 topic: DIL API
 uuid: 21303c3e-4c05-4728-a759-96c2a1d99b69
+feature: Audience Lab
 ---
 
 # Test Group Reporting {#test-group-reporting}

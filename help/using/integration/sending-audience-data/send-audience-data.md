@@ -3,6 +3,7 @@ description: Send audience data from other sources to Audience Manager.
 seo-description: Send audience data from other sources to Adobe Audience Manager (AAM).
 seo-title: Sending Audience Data in Adobe Audience Manager (AAM)
 title: Sending Audience Data
+feature: Inbound Data Transfer
 ---
 
 # Sending Audience Data

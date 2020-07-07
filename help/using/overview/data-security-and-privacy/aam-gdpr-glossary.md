@@ -5,6 +5,7 @@ seo-title: GDPR Glossary
 solution: Audience Manager
 title: GDPR Glossary
 uuid: e52cad27-6a44-45ee-8524-6080adb86cc8
+feature: data governance & privacy
 ---
 
 # GDPR Glossary {#gdpr-glossary}

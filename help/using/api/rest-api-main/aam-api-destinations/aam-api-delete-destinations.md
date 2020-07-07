@@ -5,6 +5,7 @@ seo-title: Delete Destinations
 solution: Audience Manager
 title: Delete Destinations
 uuid: 38fb2228-e564-49a3-9930-3139f8799a8f
+feature: API
 ---
 
 # Delete Destinations {#delete-destinations}

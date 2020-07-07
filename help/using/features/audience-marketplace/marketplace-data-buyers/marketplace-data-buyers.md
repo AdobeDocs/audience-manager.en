@@ -6,6 +6,7 @@ solution: Audience Manager
 title: Audience Marketplace for Data Buyers
 topic: DIL API
 uuid: f505b5f4-4231-4e84-993a-cd64128b540f
+feature: Audience Marketplace
 ---
 
 # [!UICONTROL Audience Marketplace] for Data Buyers {#audience-marketplace-for-data-buyers}

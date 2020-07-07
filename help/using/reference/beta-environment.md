@@ -6,6 +6,7 @@ seo-title: Beta Environment
 solution: Audience Manager
 title: Beta Environment
 uuid: de4a1a46-cfa4-4f64-8569-48a7650fd8cf
+feature: reference
 ---
 
 # Beta Environment {#beta-environment}

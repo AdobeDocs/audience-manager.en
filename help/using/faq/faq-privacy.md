@@ -5,6 +5,7 @@ seo-title: Privacy and Data Retention FAQ
 solution: Audience Manager
 title: Privacy and Data Retention FAQ
 uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
+feature: Data Governance and Privacy
 ---
 
 # Privacy and Data Retention FAQ{#privacy-and-data-retention-faq}

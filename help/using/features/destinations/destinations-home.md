@@ -4,6 +4,7 @@ seo-description: The Destination landing page lists all of your URL, cookie, and
 seo-title: Manage Destinations
 solution: Audience Manager
 title: Manage Destinations
+feature: Destination Basics
 ---
 
 

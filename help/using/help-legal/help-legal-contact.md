@@ -4,6 +4,7 @@ seo-description: Information to help you contact Adobe and to understand the leg
 seo-title: Contact and Legal Information
 solution: Audience Manager
 title: Contact and Legal Information
+feature: Support
 ---
 
 # Contact and Legal Information {#legal-contact}

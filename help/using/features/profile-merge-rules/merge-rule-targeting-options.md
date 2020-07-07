@@ -5,6 +5,7 @@ seo-title: General Use Cases for Profile Merge Rules
 solution: Audience Manager
 title: General Use Cases for Profile Merge Rules
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
+feature: Profile Merge Rules
 ---
 
 # General Use Cases for Profile Merge Rules {#general-use-cases-for-profile-merge-rules}

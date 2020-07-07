@@ -5,6 +5,7 @@ seo-title: Customer Data Feed FAQ
 solution: Audience Manager
 title: Customer Data Feed FAQ
 uuid: 7183b3e2-e999-4e1e-892f-2bab335c13b6
+feature: Customer Data Feeds
 ---
 
 # Customer Data Feed FAQ{#customer-data-feed-faq}

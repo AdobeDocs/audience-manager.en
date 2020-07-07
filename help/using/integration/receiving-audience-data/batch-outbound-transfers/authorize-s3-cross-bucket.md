@@ -5,6 +5,7 @@ seo-title: Leverage Amazon S3 Cross-Account Bucket Permissions for Your Outbound
 solution: Audience Manager
 title: Leverage Amazon S3 Cross-Account Bucket Permissions for Your Outbound Files
 uuid: 400a8d67-ebf3-48be-aa3f-498a5441f498
+feature: Outbound Data Transfers
 ---
 
 # Leverage Amazon S3 Cross-Account Bucket Permissions for Your Outbound Files {#leverage-amazon-s-cross-account-bucket-permissions-for-your-outbound-files}

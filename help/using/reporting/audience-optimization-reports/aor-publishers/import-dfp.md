@@ -5,6 +5,7 @@ seo-title: Import Google Ad Manager Data Files Into Audience Manager
 solution: Audience Manager
 title: Import Google Ad Manager Data Files Into Audience Manager
 uuid: c685f34f-3e50-4c4b-99fa-d8bbafe0b268
+feature: audience optimization reports
 ---
 
 # Import Google Ad Manager (formerly DFP) Data Files Into Audience Manager{#import-dfp-data-files-into-audience-manager}
