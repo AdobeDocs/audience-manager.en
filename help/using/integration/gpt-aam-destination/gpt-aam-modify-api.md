@@ -31,11 +31,11 @@ if(typeof AamGpt.getCookie("aam_uuid") != "undefined" ){
 
 >[!IMPORTANT]
 >
->Depending on how you want to integrate with [!DNL DFP], you only need some of the lines in the code sample above:
+>Depending on how you want to integrate with [!DNL Google Ad Manager], you only need some of the lines in the code sample above:
 >
 >* Client-side integration: use lines 1-3 only.
 >* Server-side integration: none of the lines are needed.
->* Ingest [!DNL DFP] log files for reporting in [!DNL Audience Manager]: use lines 4-6 only. This code inserts the value of the `aam_uuid` cookie into the logs so they can be ingested for reporting.
+>* Ingest [!DNL Google Ad Manager] log files for reporting in [!DNL Audience Manager]: use lines 4-6 only. This code inserts the value of the `aam_uuid` cookie into the logs so they can be ingested for reporting.
 
 ### `AamGpt` Functions and Data Types
 

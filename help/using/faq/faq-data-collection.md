@@ -129,9 +129,9 @@ Yes, [!DNL Audience Manager] can provide you with data collected for users we've
 
 <br>&nbsp;
 
-**I want to collect data on one site and target users via DFP on a different site. Do I need to deploy code on the other property if I don't want to collect data from that location?**
+**I want to collect data on one site and target users via [!DNL Google Ad Manager] on a different site. Do I need to deploy code on the other property if I don't want to collect data from that location?**
 
-No. If data collection on the second site is not a requirement, you don't need to deploy DIL there. As long as you have access to the inventory on the second site via DFP, you can use the data collection from the initial site and target via DFP.
+No. If data collection on the second site is not a requirement, you don't need to deploy DIL there. As long as you have access to the inventory on the second site via [!DNL Google Ad Manager], you can use the data collection from the initial site and target via [!DNL Google Ad Manager].
 
 <br>&nbsp;
 
@@ -141,9 +141,9 @@ Each provider brings something unique to the table, so the answer depends on wha
 
 <br>&nbsp;
 
-**How does [!DNL Audience Manager] set cookies and pass variables to DFP?**
+**How does [!DNL Audience Manager] set cookies and pass variables to [!DNL Google Ad Manager]?**
 
-[!DNL Audience Manager] sets 2 cookies: One sends segment variables to the DFP ad tag and the other sets our unique user ID (UUID), which is also read by DFP. Adding the UUID to the ad tag means we can do user-level reporting and audience discovery.
+[!DNL Audience Manager] sets 2 cookies: One sends segment variables to the [!DNL Google Ad Manager] ad tag and the other sets our unique user ID (UUID), which is also read by [!DNL Google Ad Manager]. Adding the UUID to the ad tag means we can do user-level reporting and audience discovery.
 
 <br>&nbsp;
 

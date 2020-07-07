@@ -26,7 +26,7 @@ feature: Log Files
 To get started with [!UICONTROL Actionable Log Files], you need to import log data into [!DNL Audience Manager]. The following links will help you get started: 
 
 * For [!UICONTROL Google DCM] logs, see [Import DCM Data Files Into Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) *and* contact your [!DNL Audience Manager] consultant.
-* For [!UICONTROL Google DFP] logs, see [Import DFP Data Files Into Audience Manager](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) *and* contact your [!DNL Audience Manager] consultant.
+* For [!UICONTROL Google Ad Manager] (formerly Google DFP) logs, see [Import DFP Data Files Into Audience Manager](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) *and* contact your [!DNL Audience Manager] consultant.
 * For other ad server logs, see [Data and Metadata Files](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) *and* contact your [!DNL Audience Manager] consultant.
 
 If you are already importing log data into [!DNL Audience Manager], ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to enable [!UICONTROL Actionable Log Files] for you. 
@@ -156,6 +156,34 @@ Removed  {importance="high"} for ExL
 >
 >* If a timestamp isn't available for a data row in the [!DNL DCM] log file, we use the time of the `HTTP` call as the event timestamp.
 >* If the data row in the [!DNL DCM] log file contains a malformed timestamp, we ignore the entire row.
+
+<br>&nbsp;
+
+### Actionable Signals from [!DNL Google Ad Manager] logs {#ad-manager-logs-signals}
+
+The table lists the actionable signals from [!DNL Google Ad Manager] log files:
+
+
+Header Name in Log File | Signal | Description
+---------|----------|---------
+`LineItemId` | `d_lineitem` | The numeric ID for the delivered Ad Manager line item
+`OrderId` | `d_orderid` | The numeric ID for the Ad Manager order that contained the delivered line item and creative.
+`CreativeId` | `d_creative` | The numeric ID for the delivered Ad Manager creative.
+`-` | `d_event` | Indicates the event type. Audience Manager reads the event type from the Ad Manager log file name and transforms it into an actionable signal. Accepted values are: <br> <ul><li>d_event = imp for impressions.</li><li>d_event = click for clicks.</li><li>d_event = conv for conversions and activities.</li></ul>
+`-` | `d_src` | The ID of the data source you use to capture Ad Manager data. See [How to Create a Data Source](/help/using/features/manage-datasources.md).
+
+The signals described in the table are captured in Audience Manager like a real-time HTTP call. The example call below contains information on a conversion event from Google Ad Manager. Calls do not necessarily have to include all the signals in the example call.
+
+```
+https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_event=conv&d_lineitem=112&d_orderid=22223&d_creative=3983524
+```
+
+>[!NOTE]
+>
+>The event timestamp provided in the [!DNL Google Ad Manager] logs will be honored and passed to the [!UICONTROL Data Collection Servers].
+>
+>* If a timestamp isn't available for a data row in the [!DNL Google Ad Manager] log file, we use the time of the `HTTP` call as the event timestamp.
+>* If the data row in the [!DNL Google Ad Manager] log file contains a malformed timestamp, we ignore the entire row.
 
 <br>&nbsp;
 

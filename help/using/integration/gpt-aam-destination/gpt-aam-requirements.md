@@ -1,16 +1,16 @@
 ---
-description: You can send qualified segments to DFP either through a client-side or through a server-side integration. Requirements and related information about both methods are listed below.
-seo-description: You can send qualified segments to DFP either through a client-side or through a server-side integration. Requirements and related information about both methods are listed below.
-seo-title: Requirements and Methods of Sending Segments to DFP Using Google Publisher Tags (GPT)
+description: You can send qualified segments to Google Ad Manager either through a client-side or through a server-side integration. Requirements and related information about both methods are listed below.
+seo-description: You can send qualified segments to Google Ad Manager either through a client-side or through a server-side integration. Requirements and related information about both methods are listed below.
+seo-title: Requirements and Methods of Sending Segments to Google Ad Manager Using Google Publisher Tags (GPT)
 solution: Audience Manager
-title: Requirements and Methods of Sending Segments to DFP Using Google Publisher Tags (GPT)
+title: Requirements and Methods of Sending Segments to Google Ad Manager Using Google Publisher Tags (GPT)
 uuid: 4b2ea81c-29bb-42d3-93d3-1d8e677790b6
 feature: Third Party Integrations
 ---
 
-# Requirements and Methods of Sending Segments to DFP Using Google Publisher Tags ( GPT) {#requirements-and-methods-of-sending-segments-to-dfp-using-google-publisher-tags-gpt}
+# Requirements and Methods of Sending Segments to Google Ad Manager Using Google Publisher Tags ( GPT) {#requirements-and-methods-of-sending-segments-to-dfp-using-google-publisher-tags-gpt}
 
-You can send qualified segments to [!DNL DFP] either through a client-side or through a server-side integration. Requirements and related information about both methods are listed below.
+You can send qualified segments to [!DNL Google Ad Manager] (formerly DFP) either through a client-side or through a server-side integration. Requirements and related information about both methods are listed below.
 
 ## Client-Side Integration {#client-side-integration}
 
@@ -40,7 +40,7 @@ The amount of data passed in to [!DNL GPT] depends on how many segments a partic
 
 ## Server-Side Integration {#server-side-integration}
 
-Talk to your Audience Manager consultant or Customer Care if you want to set up a server-side integration with [!DNL DFP], using [!DNL GPT]. You'll need to provide your [!DNL DFP] account Network ID and Audience Link ID.
+Talk to your Audience Manager consultant or Customer Care if you want to set up a server-side integration with [!DNL Google Ad Manager], using [!DNL GPT]. You'll need to provide your [!DNL Google Ad Manager] account Network ID and Audience Link ID.
 
 >[!IMPORTANT]
 >
