@@ -26,14 +26,18 @@ feature: Log Files
 To get started with [!UICONTROL Actionable Log Files], you need to import log data into [!DNL Audience Manager]. The following links will help you get started: 
 
 * For [!UICONTROL Google DCM] logs, see [Import DCM Data Files Into Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) *and* contact your [!DNL Audience Manager] consultant.
-* For [!UICONTROL Google Ad Manager] (formerly Google DFP) logs, see [Import DFP Data Files Into Audience Manager](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) *and* contact your [!DNL Audience Manager] consultant.
+* For [!UICONTROL Google Ad Manager] (formerly Google DFP) logs, see [Import Google Ad Manager Data Files Into Audience Manager](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) *and* contact your [!DNL Audience Manager] consultant.
 * For other ad server logs, see [Data and Metadata Files](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) *and* contact your [!DNL Audience Manager] consultant.
 
 If you are already importing log data into [!DNL Audience Manager], ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to enable [!UICONTROL Actionable Log Files] for you. 
 
+<!--
+
 >[!IMPORTANT]
 >
 > At the end of 2019, [!UICONTROL Actionable Log Files] began to expand availability to new ad servers. Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to get started.
+
+-->
 
 ## Working with Actionable Log Files {#working-with-actionable-log-files}
 
