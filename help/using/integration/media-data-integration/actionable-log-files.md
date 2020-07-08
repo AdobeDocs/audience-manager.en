@@ -25,7 +25,7 @@ feature: Log Files
 
 To get started with [!UICONTROL Actionable Log Files], you need to import log data into [!DNL Audience Manager]. The following links will help you get started: 
 
-* For [!UICONTROL Google DCM] logs, see [Import DCM Data Files Into Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) *and* contact your [!DNL Audience Manager] consultant.
+* For [!UICONTROL Google Campaign Manager] logs, see [Import Google Campaign Manager Data Files Into Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) *and* contact your [!DNL Audience Manager] consultant.
 * For [!UICONTROL Google Ad Manager] (formerly Google DFP) logs, see [Import Google Ad Manager Data Files Into Audience Manager](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) *and* contact your [!DNL Audience Manager] consultant.
 * For other ad server logs, see [Data and Metadata Files](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) *and* contact your [!DNL Audience Manager] consultant.
 
@@ -55,9 +55,9 @@ Signals are the [smallest data units](../../reference/signal-trait-segment.md) i
 
 Remember, in order to use this information for audience creation and segmentation, you need to set up the rule-based traits yourself.
 
-### Actionable Signals from Google DCM logs {#dcm-logs-signals}
+### Actionable Signals from Google Campaign Manager logs {#dcm-logs-signals}
 
-The table lists the actionable signals from [!DNL DCM] log files:
+The table lists the actionable signals from [!DNL Google Campaign Manager] log files:
 
 <table id="table_A5A2A10D471C4C9D8DCD88F9C017040C"> 
  <thead> 
@@ -72,13 +72,13 @@ The table lists the actionable signals from [!DNL DCM] log files:
   <tr> 
    <td colname="col1"> <p> <code>Activity ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_conversion</code> </p> </td> 
-   <td colname="col3"> <p>Available only for conversion events. </p> <p>Represents the numerical ID for the conversion activity in DCM. This field maps to the Activity ID from DCM. </p> <p> <p>Tip: You can capture multiple or specific conversion activities from DCM. Create traits using <code> d_conversion = activity ID</code> for each conversion activity from DCM. </p> </p> </td> 
+   <td colname="col3"> <p>Available only for conversion events. </p> <p>Represents the numerical ID for the conversion activity in Google Campaign Manager. This field maps to the Activity ID from Google Campaign Manager. </p> <p> <p>Tip: You can capture multiple or specific conversion activities from Google Campaign Manager. Create traits using <code> d_conversion = activity ID</code> for each conversion activity from Google Campaign Manager. </p> </p> </td> 
    <td colname="col4"> <p> <code> 24122</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>Conversion ID</code> </p> </td> 
    <td colname="col2"> <p> <code>d_conversionType</code> </p> </td> 
-   <td colname="col3"> <p>Available only for conversion events. </p> <p>This field maps to the Conversion ID in DCM. Indicates the activity preceding the user conversion from DCM. </p> <p>Accepted values are: </p> <p> 
+   <td colname="col3"> <p>Available only for conversion events. </p> <p>This field maps to the Conversion ID in Google Campaign Manager. Indicates the activity preceding the user conversion from Google Campaign Manager. </p> <p>Accepted values are: </p> <p> 
      <ul id="ul_2256294F1C6F448B9F269D00D4DFEE65"> 
       <li id="li_29D3FF8919B7404297E80BACA913117A"> <code> 1</code> for post-click conversions. </li> 
       <li id="li_B5250A63A2C1413FAF1FDC8272BFFB97"> <code> 2</code> for post-impression conversions. </li> 
@@ -95,25 +95,25 @@ The table lists the actionable signals from [!DNL DCM] log files:
   <tr> 
    <td colname="col1"> <p> <code>Advertiser Group ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_adsrc</code> </p> </td> 
-   <td colname="col3"><p>An integration code for your advertiser's data source. Note that this is not related to Audience Manager data sources.</p> <p>This field maps to the Advertiser Group ID from DCM. </p> </td> 
+   <td colname="col3"><p>An integration code for your advertiser's data source. Note that this is not related to Audience Manager data sources.</p> <p>This field maps to the Advertiser Group ID from Google Campaign Manager. </p> </td> 
    <td colname="col4"> <p> <code> 134243</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>Advertiser ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_bu</code> </p> </td> 
-   <td colname="col3"> <p>Business Unit ID. This field maps to the Advertiser ID from DCM. </p> </td> 
+   <td colname="col3"> <p>Business Unit ID. This field maps to the Advertiser ID from Google Campaign Manager. </p> </td> 
    <td colname="col4"> <p> <code> 563332</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>Campaign ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_campaign</code> </p> </td> 
-   <td colname="col3"> <p>The Campaign ID provided by DCM.</p> </td> 
+   <td colname="col3"> <p>The Campaign ID provided by Google Campaign Manager.</p> </td> 
    <td colname="col4"> <p> <code> 7892520</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>Creative ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_creative</code> </p> </td> 
-   <td colname="col3"> <p>The Creative ID provided by DCM. </p> </td> 
+   <td colname="col3"> <p>The Creative ID provided by Google Campaign Manager. </p> </td> 
    <td colname="col4"> <p> <code> 224221</code> </p> </td> 
   </tr> 
   <tr> 
@@ -125,7 +125,7 @@ The table lists the actionable signals from [!DNL DCM] log files:
     <tr> 
    <td colname="col1"> <p> <code>-</code> </p> </td> 
    <td colname="col2"> <p> <code> d_event</code> </p> </td> 
-   <td colname="col3"> <p>Indicates the event type. Audience Manager reads the event type from the DCM log file name and transforms it into an actionable signal. </p> <p>Accepted values are: </p> <p> 
+   <td colname="col3"> <p>Indicates the event type. Audience Manager reads the event type from the Google Campaign Manager log file name and transforms it into an actionable signal. </p> <p>Accepted values are: </p> <p> 
      <ul id="ul_58EB40E458844DA185ABAF160ADAF03E"> 
       <li id="li_71772CC106F74F4788E1784CC3D70BD3"> <code> d_event = imp</code> for impressions. </li> 
       <li id="li_33A629A32B87400F93269581154D566F"> <code> d_event = click</code> for clicks. </li> 
@@ -136,19 +136,19 @@ The table lists the actionable signals from [!DNL DCM] log files:
   <tr> 
    <td colname="col1"> <p> <code>-</code> </p> </td> 
    <td colname="col2"> <p> <code> d_src</code> </p> </td> 
-   <td colname="col3"> <p>The ID of the data source you use to capture DCM data. See <a href="../../features/manage-datasources.md#create-data-source"> How to Create a Data Source</a>. </p> </td> 
+   <td colname="col3"> <p>The ID of the data source you use to capture Google Campaign Manager data. See <a href="../../features/manage-datasources.md#create-data-source"> How to Create a Data Source</a>. </p> </td> 
    <td colname="col4"> <p> <code> 743</code> </p> </td> 
   </tr>
  </tbody>
 </table>
 
-The signals described in the table are captured in [!DNL Audience Manager] like a real-time `HTTP` call. The example call below contains information on a conversion event from [!DNL DCM]. Calls do not necessarily have to include *all* the signals in the example call.
+The signals described in the table are captured in [!DNL Audience Manager] like a real-time `HTTP` call. The example call below contains information on a conversion event from [!DNL Google Campaign Manager]. Calls do not necessarily have to include *all* the signals in the example call.
 
 ```
 https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_event=conv&d_conversion=24122&d_conversionType=2&d_bu=3983524&d_campaign=7321391&d_adsrc=11111&d_creative=123456
 ```
 
-For an average-sized [!DNL DCM] log file of 2 million lines, any traits created from actionable signals are realized within approximately one hour after we process the logs.
+For an average-sized [!DNL Google Campaign Manager] log file of 2 million lines, any traits created from actionable signals are realized within approximately one hour after we process the logs.
 
 <!--
 Removed  {importance="high"} for ExL
@@ -156,10 +156,10 @@ Removed  {importance="high"} for ExL
 
 >[!NOTE]
 >
->The event timestamp provided in the [!DNL DCM] logs will be honored and passed to the [!UICONTROL Data Collection Servers].
+>The event timestamp provided in the [!DNL Google Campaign Manager] logs will be honored and passed to the [!UICONTROL Data Collection Servers].
 >
->* If a timestamp isn't available for a data row in the [!DNL DCM] log file, we use the time of the `HTTP` call as the event timestamp.
->* If the data row in the [!DNL DCM] log file contains a malformed timestamp, we ignore the entire row.
+>* If a timestamp isn't available for a data row in the [!DNL Google Campaign Manager] log file, we use the time of the `HTTP` call as the event timestamp.
+>* If the data row in the [!DNL Google Campaign Manager] log file contains a malformed timestamp, we ignore the entire row.
 
 <br>&nbsp;
 
@@ -313,9 +313,9 @@ Retarget users who saw creative 123 but didn't click or convert and show them cr
 
 4. Map the segment [!DNL Retarget Users] to a destination and target users in the destination with creative 456.
 
-### Use DCM Floodlight Activity in the Audience Optimization Reports or in Audience Lab
+### Use Google Campaign Manager Floodlight Activity in the Audience Optimization Reports or in Audience Lab
 
-[Floodlight tags](https://support.google.com/dcm/partner/answer/4293719?hl=en) enable advertisers to track user conversions. With [!UICONTROL Actionable Log Files], you can track the [!DNL DCM] conversions in the [Audience Optimization Reports](../../reporting/audience-optimization-reports/audience-optimization-reports.md) or in [Audience Lab](../../features/audience-lab/audience-lab.md):
+[Floodlight tags](https://support.google.com/dcm/partner/answer/4293719?hl=en) enable advertisers to track user conversions. With [!UICONTROL Actionable Log Files], you can track the [!DNL Google Campaign Manager] conversions in the [Audience Optimization Reports](../../reporting/audience-optimization-reports/audience-optimization-reports.md) or in [Audience Lab](../../features/audience-lab/audience-lab.md):
 
 1. Create a trait and use the following trait rule to capture a conversion from the ad server logs:
 
@@ -327,5 +327,5 @@ Retarget users who saw creative 123 but didn't click or convert and show them cr
 
 >[!MORELIKETHIS]
 >
->* [Import DCM Data Files Into Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
+>* [Import Google Campaign Manager Data Files Into Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
 >* [Audience Optimization Reports](../../reporting/audience-optimization-reports/audience-optimization-reports.md)
