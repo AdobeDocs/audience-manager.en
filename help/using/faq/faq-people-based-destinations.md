@@ -105,3 +105,7 @@ You can use [!DNL People-Based Destinations] across [!DNL Facebook]’s family o
 You can use Audience Manager’s [!DNL Facebook] [!DNL WCA] integration via the [!DNL URL Destinations] feature at no extra cost.
 
 These two integrations are complementary; you can use both to ensure better audience coverage. As an example, [!DNL WCA] can be used for prospecting when a company is looking to target website visitors who have not registered an account, whereas [!DNL People-Based Destinations] can help you target existing customers who have supplied their email address but maybe not visited the website.
+
+**Does the [!DNL People-Based Destinations] integration with [!DNL Facebook] support disqualifying a users from an audience when they no longer qualify for it?**
+
+Yes, the integration supports removing users from [!DNL Facebook] audiences when they no longer qualify for them.
