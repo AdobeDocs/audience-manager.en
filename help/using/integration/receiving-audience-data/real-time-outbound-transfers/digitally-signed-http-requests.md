@@ -83,10 +83,7 @@ The RFC for the [!DNL HMAC] hash implementation is [https://www.ietf.org/rfc/rfc
 
 ## Rotating the private key {#rotate-private-key}
 
-For security reasons, it's recommended to periodically rotate the private key. It is up to you to decide the private key and the rotation period. In order to achieve the key rotation with zero downtime, [!UICONTROL IRIS] supports adding multiple signature headers. One header will contain the signature generated with the old key, another header will contain the signature generated using the new private key. See below the steps in detail:
-
-1. Partner communicates the new private key to [!DNL Adobe Audience Manager].
-1. The old key is removed from [!DNL Audience Manager] and [!UICONTROL IRIS] only sends the new signature header. The keys have been rotated.
+To rotate the private key, partners must communicate the new private key to their [!DNL Adobe Audience Manager] consultant. The old key is removed from [!DNL Audience Manager] and [!UICONTROL IRIS] only sends the new signature header. The keys have been rotated.
 
 ## Data used for signing {#data-signing}
 
