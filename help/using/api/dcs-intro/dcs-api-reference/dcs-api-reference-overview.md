@@ -3,15 +3,16 @@ description: Conceptual information, descriptions, and definitions for DCS API c
 seo-description: Conceptual information, descriptions, and definitions for DCS API code, methods, and processes in Adobe Audience Manager (AAM).
 seo-title: DCS API Reference Overview in Adobe Audience Manager (AAM)
 title: DCS API Reference Overview
+feature: DCS
 ---
 
 # DCS API Reference Overview
 
-Conceptual information, descriptions, and definitions for DCS API code, methods, and processes.
+Conceptual information, descriptions, and definitions for [!DNL DCS API] code, methods, and processes.
 
 * [DCS API Methods](/help/using/api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
 
-  Send data to the DCS API using GET or POST methods.
+  Send data to the [!DNL DCS API] using GET or POST methods.
 
 * [DCS Error Codes, Messages, and Examples](/help/using/api/dcs-intro/dcs-api-reference/dcs-error-codes.md)
 

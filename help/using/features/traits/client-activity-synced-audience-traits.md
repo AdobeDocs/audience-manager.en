@@ -5,6 +5,7 @@ seo-title: Active Audience Traits and Data Source Synced Traits
 solution: Audience Manager
 title: Active Audience Traits and Data Source Synced Traits
 uuid: b4f145ab-f343-4d71-86d1-5d03f7b03809
+feature: Traits
 ---
 
 # Active Audience Traits and Data Source Synced Traits {#active-audience-traits-and-data-source-synced-traits}

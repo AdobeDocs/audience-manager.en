@@ -5,6 +5,7 @@ seo-title: OAuth 2.0 Integration for Real-Time Outbound Transfers
 solution: Audience Manager
 title: OAuth 2.0 Integration for Real-Time Outbound Transfers
 uuid: a39e370c-b3bd-4b06-a1af-60a024ee7ee4
+feature: Outbound Data Transfers
 ---
 
 # [!DNL OAuth 2.0] Integration for Real-Time Outbound Transfers{#oauth-integration-for-real-time-outbound-transfers}

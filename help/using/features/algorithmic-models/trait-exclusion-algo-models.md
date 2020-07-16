@@ -4,6 +4,7 @@ seo-description: Trait Exclusion provides additional controls in your modeling w
 seo-title: Algorithmic Models  Trait Exclusion
 title: Algorithmic Models  Trait Exclusion
 uuid: 1359800b-6e6c-41e1-88b4-23d31952abb3
+feature: Algorithmic Models
 ---
 
 # Look-Alike Modeling: Trait Exclusion {#algorithmic-models-trait-exclusion}

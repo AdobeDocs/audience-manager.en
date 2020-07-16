@@ -5,6 +5,7 @@ seo-title: Destination API Methods
 solution: Audience Manager
 title: Destination API Methods
 uuid: 048bcdb9-2b31-46f4-8b80-4ba25bf06640
+feature: API
 ---
 
 # Destination API Methods {#destination-api-methods}

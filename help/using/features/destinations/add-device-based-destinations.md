@@ -4,6 +4,7 @@ seo-description: This article explains how to configure new device-based destina
 seo-title: Add New Device-Based Destinations
 solution: Audience Manager
 title: Add New Device-Based Destinations
+feature: Destination Basics
 ---
 
 # Add New Device-Based Destinations {#add-new-device-based-destinations}

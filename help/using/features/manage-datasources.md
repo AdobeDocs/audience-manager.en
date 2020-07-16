@@ -6,13 +6,14 @@ seo-title: Create a Data Source
 solution: Audience Manager
 title: Manage Data Sources
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
+feature: Data Sources
 ---
 
-# Manage Data Sources {#manage-data-sources}
+# Manage [!UICONTROL Data Sources] {#manage-data-sources}
 
-## Create a Data Source {#create-data-source}
+## Create a [!UICONTROL Data Source] {#create-data-source}
 
-To create a new data source, go to **[!UICONTROL Audience Data > Data Sources > Add New]** and complete the steps for each section described here. Administrator permissions are required to create a data source.
+To create a new [!UICONTROL data source], go to **[!UICONTROL Audience Data > Data Sources > Add New]** and complete the steps for each section described here. Administrator permissions are required to create a [!UICONTROL data source].
 
 <!-- create-datasource.xml -->
 
@@ -20,19 +21,19 @@ To create a new data source, go to **[!UICONTROL Audience Data > Data Sources > 
 >
 >See [Data Source Settings and Menu Options](../features/datasources-list-and-settings.md#settings-menu-options) for descriptions of these different controls.
 
-## Data Source Details {#details}
+## [!UICONTROL Data Source] Details {#details}
 
 To complete the [!UICONTROL Data Source Details] section:
 
-1. Name the data source.
-1. *(Optional)* Describe the data source. A concise description helps you define the role or purpose of the data source.
-1. Provide an integration code. Generally, integration codes are optional. They are required when you want to:
+1. Name the [!UICONTROL data source].
+1. *(Optional)* Describe the [!UICONTROL data source]. A concise description helps you define the role or purpose of the [!UICONTROL data source].
+1. Provide an [!UICONTROL integration code]. Generally, [!UICONTROL integration codes] are optional. They are required when you want to:
 
     * [Create a cross-device data source](../features/profile-merge-rules/merge-rules-start.md#create-data-source). 
     * Use the [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html). 
     * Work with [Profile Merge Rules](../features/profile-merge-rules/merge-rules-start.md).
 
-1. Choose an **[!UICONTROL ID Type]**. ID Type options include:
+1. Choose an **[!UICONTROL ID Type]**. [!UICONTROL ID Type] options include:
 
     * **[!UICONTROL Cookie]**
     * **[!UICONTROL Device Advertising ID]**
@@ -43,26 +44,22 @@ To complete the [!UICONTROL Data Source Details] section:
     * **[!UICONTROL Person]**
     * **[!UICONTROL Household]**
 
-## Data Export Controls {#export-controls}
+## [!UICONTROL Data Export Controls] {#export-controls}
 
-[Data Export Controls](../features/data-export-controls.md) are optional classification rules you can apply to a data source and destination. They prevent you from sending data to a destination when that action violates a data privacy or use agreement. Skip this section if you do not use [!UICONTROL Data Export Controls].
+[Data Export Controls](../features/data-export-controls.md) are optional classification rules you can apply to a [!UICONTROL data source] and [!UICONTROL destination]. They prevent you from sending data to a [!UICONTROL destination] when that action violates a data privacy or use agreement. Skip this section if you do not use [!UICONTROL Data Export Controls].
 
-## Data Source Settings {#settings}
+## [!UICONTROL Data Source] Settings {#settings}
 
-These settings determine how a data source is identified, used, and shared. You can also enable error reporting for inbound data files. To complete the [!UICONTROL Data Source Settings] section:
+These settings determine how a [!UICONTROL data source] is identified, used, and shared. You can also enable error reporting for inbound data files. To complete the [!UICONTROL Data Source Settings] section:
 
-1. Select a [!UICONTROL Data Source Setting] check box to apply an option to your data source.
+1. Select a [!UICONTROL Data Source Setting] check box to apply an option to your [!UICONTROL data source].
 2. Click **[!UICONTROL Save]**.
-
->[!MORELIKETHIS]
->
->* [Data Source Settings and Menu Options](../features/datasources-list-and-settings.md#settings-menu-options)
 
 ## Delete a Data Source {#delete-data-source}
 
 <!-- t_datasource_delete.xml -->
 
-Delete a data source that you no longer need.
+Delete a [!UICONTROL data source] that you no longer need.
 
 >[!NOTE]
 >
@@ -75,3 +72,8 @@ Delete a data source that you no longer need.
 1. Select the check box next to one or more data sources.
    You can use the [!UICONTROL Search] box to locate the desired data sources if you have a long list. 
 1. Click  ![](assets/icon_trash.png), then confirm the deletion.
+
+
+>[!MORELIKETHIS]
+>
+>* [Data Source Settings and Menu Options](../features/datasources-list-and-settings.md#settings-menu-options)

@@ -5,6 +5,7 @@ seo-description: Describes the algorithmic models available in Audience Manager.
 seo-title: Algorithmic Models Overview
 solution: Audience Manager
 title: Algorithmic Models Overview
+feature: Algorithmic Models
 ---
 
 # Algorithmic Models Overview

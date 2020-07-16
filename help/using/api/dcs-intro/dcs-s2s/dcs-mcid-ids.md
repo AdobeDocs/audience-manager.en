@@ -5,6 +5,7 @@ seo-title: Get User IDs and Regions Through the Adobe Experience Platform Identi
 solution: Audience Manager
 title: Get User IDs and Regions Through the Adobe Experience Platform Identity Service
 uuid: 80de6cf2-5d9e-4ef8-a0f2-d53b5d574c89
+feature: DCS
 ---
 
 # Get User IDs and Regions Through the Adobe Experience Platform Identity Service {#get-user-ids-and-regions-through-the-experience-cloud-id-service} 

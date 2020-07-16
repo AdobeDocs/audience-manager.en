@@ -5,17 +5,18 @@ seo-title: Cross Channel Conversion
 solution: Audience Manager
 title: Cross Channel Conversion
 uuid: 0fecec23-e502-490b-b7dd-47a3753a3f75
+feature: audience optimization reports
 ---
 
 # Cross Channel Conversion{#cross-channel-conversion}
 
 The Cross Channel Conversion option in the Audience Optimization reports allows you to attribute offline conversions to served online impressions or clicks.
 
-The [!UICONTROL Cross Channel Conversion] reports combine results from the [!DNL DoubleClick Campaign Manager] (DCM) platform with [!DNL Audience Manager] conversion traits. This lets you link offline conversions to online impressions or clicks. 
+The [!UICONTROL Cross Channel Conversion] reports combine results from the [!DNL Google Campaign Manager] platform with [!DNL Audience Manager] conversion traits. This lets you link offline conversions to online impressions or clicks. 
 
 You can use the [!UICONTROL Cross Channel Conversion] for the [Segment Performance](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) and [Optimal Frequency](../../../reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md) reports.
 
-To view the [!UICONTROL Cross Channel Conversion] reports, select the **[!UICONTROL AAM+DCM]** item in the **[!UICONTROL Platform]** drop-down list.
+To view the [!UICONTROL Cross Channel Conversion] reports, select the **[!UICONTROL AAM + Ad Server Name]** item in the **[!UICONTROL Platform]** drop-down list.
 
 The following table lists important considerations when setting up [!UICONTROL Cross Channel Conversion]:
 
@@ -33,7 +34,7 @@ The following table lists important considerations when setting up [!UICONTROL C
   </tr>
   <tr> 
    <td> <p>Attribution window </p> </td> 
-   <td> <p> <b><span class="uicontrol"> The AAM+DCM</span></b> attribution window is 14 days, meaning that only conversion traits exhibited in the last two weeks are considered. </p> </td> 
+   <td> <p> <b><span class="uicontrol"> The AAM+Google Campaign Manager</span></b> attribution window is 14 days, meaning that only conversion traits exhibited in the last two weeks are considered. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Last-touch methodology </p> </td> 

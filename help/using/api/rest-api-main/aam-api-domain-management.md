@@ -5,6 +5,7 @@ seo-title: Domain Management API Methods
 solution: Audience Manager
 title: Domain Management API Methods
 uuid: f2f08bc5-ea42-4171-9a43-0b20976f0cb0
+feature: API
 ---
 
 # Domain Management API Methods {#domain-management-api-methods}

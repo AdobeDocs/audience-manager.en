@@ -5,6 +5,7 @@ seo-title: General Reports in Audience Manager
 solution: Audience Manager
 title: General Reports
 uuid: 0cea75a0-969e-4ee3-971a-60b911711e52
+feature: general & trend reports
 ---
 
 # General Reports{#general-reports}

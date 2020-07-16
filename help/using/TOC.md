@@ -172,7 +172,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
         + [Audience Optimization Reports](reporting/audience-optimization-reports/audience-optimization-reports.md)
         + Audience Optimization for Advertisers {#audience-optimization-advertisers}
             + [Audience Optimization for Advertisers Overview](reporting/audience-optimization-reports/aor-advertisers/aor-advertisers.md)
-            + [Import DCM Data Files Into Audience Manager](reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
+            + [Import Google Campaign Manager Data Files Into Audience Manager](reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
             + [Segment Performance Report](reporting/audience-optimization-reports/aor-advertisers/segment-performance.md)
             + [Trend Analysis and Volume Analysis Reports](reporting/audience-optimization-reports/aor-advertisers/trend-analysis-volume-analysis.md)
             + [Optimal Frequency Report](reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md)

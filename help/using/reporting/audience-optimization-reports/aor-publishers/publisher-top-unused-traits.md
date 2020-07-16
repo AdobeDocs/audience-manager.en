@@ -5,6 +5,7 @@ seo-title: Top Unused Traits
 solution: Audience Manager
 title: Top Unused Traits
 uuid: 90bcd333-41b8-416e-aa4e-a8661891df50
+feature: audience optimization reports
 ---
 
 # Top Unused Traits{#top-unused-traits}

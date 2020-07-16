@@ -5,6 +5,7 @@ seo-title: Using Regular Expressions in Trait Builder
 solution: Audience Manager
 title: Using Regular Expressions in Trait Builder
 uuid: c263dc26-a920-48b8-b76a-6d82e7836196
+feature: Traits
 ---
 
 # Using Regular Expressions in Trait Builder {#using-regular-expressions-in-trait-builder}

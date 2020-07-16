@@ -5,6 +5,7 @@ seo-title: Data Processing Components
 solution: Audience Manager
 title: Data Processing Components
 uuid: d458d869-7a23-4016-871d-0b994cf4af06
+feature: system components
 ---
 
 # Data Processing Components{#data-processing-components}

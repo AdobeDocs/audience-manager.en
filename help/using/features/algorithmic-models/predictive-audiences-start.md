@@ -4,6 +4,7 @@ seo-description: Predictive Audiences help you classify unknown audiences into d
 seo-title: Managing Predictive Audiences
 solution: Audience Manager
 title: Audience Manager Predictive Audiences
+feature: Algorithmic Models
 ---
 
 # Getting Started with Predictive Audiences {#predictive-audiences-getting-started}

@@ -5,6 +5,7 @@ seo-title: ID Synchronization for Outbound Data Transfers
 solution: Audience Manager
 title: ID Synchronization for Outbound Data Transfers
 uuid: f3849be8-1094-47db-9296-7482f020af18
+feature: Outbound Data Transfers
 ---
 
 # ID Synchronization for Outbound Data Transfers{#id-synchronization-for-outbound-data-transfers}

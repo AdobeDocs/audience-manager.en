@@ -5,6 +5,7 @@ seo-title: Folder API Methods
 solution: Audience Manager
 title: Folder API Methods
 uuid: ebb6290e-98c0-472e-ba04-eb5dac036425
+feature: API
 ---
 
 # Folder API Methods {#folder-api-methods}

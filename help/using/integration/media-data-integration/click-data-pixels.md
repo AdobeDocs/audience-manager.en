@@ -5,6 +5,7 @@ seo-title: Capturing Campaign Click Data via Pixel Calls
 solution: Audience Manager
 title: Capturing Campaign Click Data via Pixel Calls
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
+feature: Integration with Campaign
 ---
 
 # Capturing Campaign Click Data via Pixel Calls {#capturing-campaign-click-data-via-pixel-calls}

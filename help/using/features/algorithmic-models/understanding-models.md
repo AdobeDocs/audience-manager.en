@@ -6,6 +6,7 @@ seo-title: About Look-Alike Modeling
 solution: Audience Manager
 title: About Look-Alike Modeling
 uuid: 39441e72-5316-453d-9aff-0e0b633aabcd
+feature: Algorithmic Models
 ---
 
 # Understanding [!UICONTROL Look-Alike Modeling] {#about-algorithmic-models}

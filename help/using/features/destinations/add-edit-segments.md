@@ -1,9 +1,10 @@
 ---
 description: Data Export Labels work with the Export Controls you set on a data source. Data Export Labels prevent you from adding restricted traits to a segment and from sending segment data to a destination. You can set multiple export labels to a new or existing cookie or URL destination.
 seo-description: Data Export Labels work with the Export Controls you set on a data source. Data Export Labels prevent you from adding restricted traits to a segment and from sending segment data to a destination. You can set multiple export labels to a new or existing cookie or URL destination.
-seo-title: Add Data Export Controls to a Destination
+seo-title: Add or Edit Segments for Server-to-Server Destinations
 solution: Audience Manager
-title: Add Data Export Controls to a Destination
+title: Add or Edit Segments for Server-to-Server Destinations
+feature: Destination Basics
 ---
 
 # Add or Edit Segments for Server-to-Server Destinations {#add-edit-segments}

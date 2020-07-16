@@ -5,6 +5,7 @@ seo-title: Audience Sharing Between Audience Manager and Adobe Experience Platfo
 solution: Audience Manager
 title: Audience Sharing Between Audience Manager and Adobe Experience Platform
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
+feature: Integration with Platform
 ---
 
 # Audience Sharing Between Audience Manager and Adobe Experience Platform {#aam-aep-audience-sharing}

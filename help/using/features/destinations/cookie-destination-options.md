@@ -4,6 +4,7 @@ seo-description: In Destination Builder, the Configuration section contains the 
 seo-title: Optional Settings for Cookie Destinations
 solution: Audience Manager
 title: Optional Settings for Cookie Destinations
+feature: Destination Basics
 ---
 
 # Optional Settings for Cookie Destinations {#optional-settings-cookies}

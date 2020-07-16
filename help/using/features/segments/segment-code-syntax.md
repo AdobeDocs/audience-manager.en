@@ -5,6 +5,7 @@ seo-title: Code Syntax Used in the Segment Expression Editor
 solution: Audience Manager
 title: Code Syntax Used in the Segment Expression Editor
 uuid: 7b4b06ca-7879-4501-8ba7-b2b6467b8a3b
+feature: Segments
 ---
 
 # Code Syntax Used in the Segment Expression Editor {#code-syntax-used-in-the-segment-expression-editor}

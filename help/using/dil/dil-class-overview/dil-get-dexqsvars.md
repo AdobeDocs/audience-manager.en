@@ -5,6 +5,7 @@ seo-title: dexGetQSVars
 solution: Audience Manager
 title: dexGetQSVars
 uuid: 6d21c7a4-43f8-456b-8831-47343dbb047e
+feature: DIL Implementation
 ---
 
 # dexGetQSVars{#dexgetqsvars}

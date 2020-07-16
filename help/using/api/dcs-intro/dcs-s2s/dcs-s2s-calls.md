@@ -3,6 +3,7 @@ seo-title: Making Server-to-Server DCS API Calls
 solution: Audience Manager
 title: Making Server-to-Server DCS API Calls
 uuid: bdfe3430-e27f-4a5c-88d9-ae164d28f601
+feature: DCS
 ---
 
 # Making Server-to-Server DCS API Calls {#making-server-to-server-dcs-api-calls}

@@ -5,6 +5,7 @@ seo-title: Capturing Campaign Impression Data via Pixel Calls
 solution: Audience Manager
 title: Capturing Campaign Impression Data via Pixel Calls
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
+feature: Integration with Campaign
 ---
 
 # Capturing Campaign Impression Data via Pixel Calls{#capturing-campaign-impression-data-via-pixel-calls}
@@ -91,7 +92,7 @@ Impression event calls accept data formed into key-value pairs. The following ta
   </tr> 
    <tr> 
    <td colname="col1"> <code>gdpr</code>  </td> 
-   <td colname="col2"> <p>Related to the <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager Plug-in for IAB TCF.</a></p> <p><code>gdpr</code> can be 0 (GDPR does not apply) or 1 (GDPR applies).</p> <p>Default value is 0.</p><p>Optional.</p> </td> 
+   <td colname="col2"> <p>Related to the <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager Plug-in for IAB TCF.</a></p> <p><code>gdpr</code> can be 0 (GDPR does not apply) or 1 (GDPR applies).</p> <p>Default value is 0.</p><p>Optional.</p><p>If <code>gdpr=1</code>, then the <code>gdpr_consent</code> parameter should contain the IAB TC consent parameter to process the data successfully. Otherwise, all data will be dropped.</p> </td> 
   </tr>
    <tr> 
    <td colname="col1"> <code>gdpr_consent</code> </td> 

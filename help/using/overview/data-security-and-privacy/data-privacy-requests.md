@@ -6,6 +6,7 @@ solution: Audience Manager
 keywords: GDPR UI, GDPR API, CCPA, privacy
 title: Data Privacy Requests
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
+feature: data governance & privacy
 ---
 
 # Data Privacy Requests {#data-privacy-requests}

@@ -4,6 +4,7 @@ seo-description: Instant Cross-Device Suppression is the ability to suppress use
 seo-title: Instant Cross-Device Suppression
 title: Instant Cross-Device Suppression
 uuid: cb11b9cb-6d7d-4aa9-91b0-c2715857d821
+feature: Profile Merge Rules
 ---
 
 # Instant Cross-Device Suppression {#instant-cross-device-suppression}
