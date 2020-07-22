@@ -123,6 +123,18 @@ The newly created predictive traits and segments will have the same privacy rest
 
 Traits that have additional restrictions that aren’t part of the [!UICONTROL Predictive Audiences] segment privacy restrictions will be excluded from the training phase, and will not become influential for the model.
 
+## [!UICONTROL Profile Merge Rules] {#pmr} 
+
+All predictive segments will be assigned the [!UICONTROL Profile Merge Rule] that you selected when creating the model. The [!UICONTROL Profile Merge Rule] that you choose is important for the following reasons:
+
+* It defines which devices and/or authenticated profiles should be taken into account when the model analyzes the influential [!UICONTROL traits], at the time of classifying a user into a predictive segment.
+* It governs which [!UICONTROL trait] types (device level or cross-device level) should be used during the model training step and surfaced as influential [!UICONTROL traits]. Predictive segments are subsets of your target audience.
+  * If the target audience is a segment, we recommend that you select the same [!UICONTROL Profile Merge Rule] for the model as the one assigned to your target audience, or a [!UICONTROL Profile Merge Rule] that includes the profile type of your target audience.
+  * If the target audience is a [!UICONTROL trait], we recommend that you select a [!UICONTROL Profile Merge Rule] that can access the same type of data as the target audience trait (either device profile data or cross-device profile data).
+
+Selecting a [!UICONTROL Profile Merge Rule] that uses both device data and cross-device level data maximizes the number of traits that could be used for model training and user classification into the Predictive Segments.
+
+
 ## [!UICONTROL Role-Based Access Controls] {#rbac}
 
 The traits and segments that you choose for personas and audience classification are subject to Audience Manager [Role-Based Access Controls](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/administration/administration-overview.html).
