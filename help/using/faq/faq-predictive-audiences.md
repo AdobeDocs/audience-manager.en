@@ -59,28 +59,45 @@ In case the model does not produce results within 24 hours, please reach out to 
 
 [!UICONTROL Predictive Audiences] models can fail to produce results due to a number of reasons:
 
-1. None of the selected persona traits / segments have enough user profiles. We recommend choosing your traits or segments so that each persona has at least a few hundred user profiles.
-1. None of the selected persona traits / segments have enough data in their user profiles (not enough traits to analyze).
+1. None of the selected persona [!UICONTROL traits] / [!UICONTROL segments] have enough user profiles. We recommend choosing your [!UICONTROL traits] or [!UICONTROL segments] so that each persona has at least a few hundred user profiles.
+1. None of the selected persona [!UICONTROL traits] / [!UICONTROL segments] have enough data in their user profiles (not enough traits to analyze).
 1. The target audience trait / segment did not have any active or onboarded users within the past 30 days.
 1. The target audience users that were active or onboarded within the past 30 days do not have enough data in their user profiles (not enough traits to analyze).
+1. The target audience segment uses a different [!UICONTROL Profile Merge Rule] from the one you chose for the model.
+1. The data source of your target audience traits may not be included in the [!UICONTROL Profile Merge Rule] that you chose for the model.
 
-To produce relevant results, the [!UICONTROL Predictive Audiences] algorithm evaluates trait and segment realizations based on real-time user activity seen by the DCS. If you select new base traits and segments that do not yet have enough users, the algorithm may take a couple of days to classify your audience.
+To produce relevant results, the [!UICONTROL Predictive Audiences] algorithm evaluates trait and segment realizations based on real-time user activity seen by the [!DNL DCS]. If you select new base traits and segments that do not yet have enough users, the algorithm may take a couple of days to classify your audience.
 
 For optimal results, follow the suggested guidelines from [Selection Criteria for Personas](../features/algorithmic-models/predictive-audiences.md#selection-personas) and [Selection Criteria for Target Audience](../features/algorithmic-models/predictive-audiences.md#selection-audience).
 
 &nbsp;
 
-**Why is my model showing the Error status?**
+**Why is my model showing the [!UICONTROL Error] status?**
 
-The model failed to run. In such cases, please reach out to your Adobe representative.
+The model failed to run. In such cases, please reach out to your [!DNL Adobe] representative.
+
+&nbsp;
+
+**How can I change the [!UICONTROL Profile Merge Rule] for a [!UICONTROL Predictive Audiences] [!UICONTROL segment]?**
+
+Create a new model by selecting the same personas and target audience as your previous model. During model creation, assign a different [!UICONTROL Profile Merge Rule].
+
+>[!WARNING]
+> Alternatively, you can use [Segment Builder](../features/segments/segment-builder.md) to manually create a [!UICONTROL segment] with an existing predictive [!UICONTROL trait] and assign it a [!UICONTROL Profile Merge Rule] of your choice.
+> 
+> However, we do not recommend this practice, since predictive [!UICONTROL traits] automatically inherit the [!UICONTROL Profile Merge Rule] of the model they belong to, and they are built from influential [!UICONTROL traits] that comply with the [!UICONTROL Profile Merge Rule] of the model.
 
 &nbsp;
 
-**How can I change the Profile Merge Rule for a Predictive Audiences segment?**
+**What [!UICONTROL Profile Merge Rule] should I choose?**
 
-Duplicate the [!UICONTROL Predictive Audiences] segment and change the [!UICONTROL Profile Merge Rule] for the duplicated segment.
+When choosing the [!UICONTROL Profile Merge Rule] for your model, analyze your use case closely.
 
-&nbsp;
+Let's say your target audience [!UICONTROL segment] uses a [!UICONTROL Profile Merge Rule] based on authenticated profiles + [!DNL Device Graph] profiles, and you select the same [!UICONTROL Profile Merge Rule] for the predictive [!UICONTROL segments]. In this case, both device level and cross-device level [!UICONTROL traits] will be used in training the model and in the placement of the user into a predictive [!UICONTROL segment].
+
+If, however, you select a [!UICONTROL Profile Merge Rule] based only on device profiles, none of your cross-device [!UICONTROL traits] will become influential and will not contribute to the placement of users into a predictive [!UICONTROL segment]. This may adversely affect the model accuracy and reach.
+
+Analyze your use case carefully and decide which [!UICONTROL trait] types you want the model to learn from and what type of data you want the model to use for classification.
 
 **Could a user from the target audience who isn't part of any persona trait / segment not be classified?**
 
