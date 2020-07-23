@@ -152,7 +152,7 @@ For any other non-standard identity namespaces that you use in Experience Platfo
 
 >[!NOTE]
 >
-> Note that identities keyed off raw emails in Experience Platform 
+> Audiences in Experience Platform with identities keyed off raw emails never appear in Audience Manager.
 
 For example, if you had an Experience Platform segment "All my customers", and the qualified profiles would be CRM IDs, ECID, IDFA, raw and hashed email addresses, the corresponding segment in Audience Manager would only include profiles keyed off ECID, IDFA, and hashed email addresses. The segment population in Audience Manager would be smaller than the one in Experience Platform.
 
