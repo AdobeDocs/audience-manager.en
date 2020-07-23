@@ -49,9 +49,9 @@ Your Audience Manager traits and segments appear in Experience Platform as **Aud
 
 ## Adobe Experience Platform segments in Audience Manager {#aep-segments-in-aam}
 
-Segments that you create in Experience Platform appear in your Audience Manager interface as signals, traits and segments, with the following composition rules:
+Segments that you create in Experience Platform appear in your Audience Manager interface as signals, traits, and segments, with the following composition rules:
 
-* Signal: For each Experience Platform segment, you should see signals in the form `segID = segment ID in Experience Platform`.
+* Signal: For each Experience Platform segment, you should see signals in the form `segID = segment ID` in Experience Platform.
 * Trait: The trait rule is the ID of the Experience Platform segment.
 * Segment: The segment consists of the trait described above.
 
