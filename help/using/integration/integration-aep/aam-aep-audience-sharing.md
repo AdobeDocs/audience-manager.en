@@ -136,31 +136,35 @@ The following table outlines how specific Data Export Labels map to recognized m
 
 Segment population numbers can vary between your Audience Manager and Experience Platform segments. While segment numbers for similar or identical audiences should be close, differences in populations can be due to factors listed below.
 
-### Segmentation jobs run times
+### Segment evaluation in Experience Platform
 
-Audience Manager runs a segmentation job that updates the numbers in the interface once per day. This job rarely aligns with the segmentation jobs in Experience Platform.
+Audience Manager updates reporting numbers in the interface once per day.   The timing of this update rarely aligns with the time of the segment evaluation in Experience Platform.
 
 ### Differences between Profile Merge Rules and Merge Policies
 
-[Profile Merge Rules](/help/using/features/profile-merge-rules/merge-rules-overview.md) in Audience Manager and [Merge Policies](https://docs.adobe.com/content/help/en/experience-platform/profile/ui/merge-policies.html) in Experience Platform work differently, and the identity graph used for each varies. Because of this, some differences between segment populations are expected.
+[[!UICONTROL Profile Merge Rules]](/help/using/features/profile-merge-rules/merge-rules-overview.md) in Audience Manager and [Merge Policies](https://docs.adobe.com/content/help/en/experience-platform/profile/ui/merge-policies.html) in Experience Platform work differently, and the identity graph used for each varies. Because of this, some differences between segment populations are expected.
 
-### Segment composition in Adobe Experience Platform
+### Segment composition in Experience Platform
 
 The integration between Adobe Experience Platform and Audience Manager shares a number of standard [identity namespaces](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html#identity-types) for all customers: ECID, IDFA, GAID, hashed email addresses (EMAIL_LC_SHA256), AdCloud ID, etc.. If your Experience Platform segments use any of these as primary identity for the qualified profiles, the profiles are counted in Audience Manager traits and segments.
 
-For any other non-standard identity namespaces that you use in Experience Platform segments, you must create a corresponding data source in Audience Manager. See [how to create a data source](/help/using/features/manage-datasources.md) and [data sources settings](/help/using/features/datasources-list-and-settings.md). 
+For any other non-standard identity namespaces that you use in Experience Platform segments, you have a corresponding data source in Audience Manager keyed off of that identifier for Audience Manager to register the incoming realizations.
 
 >[!NOTE]
 >
 > Audiences in Experience Platform with identities keyed off raw emails never appear in Audience Manager.
 
-For example, if you had an Experience Platform segment "All my customers", and the qualified profiles would be CRM IDs, ECID, IDFA, raw and hashed email addresses, the corresponding segment in Audience Manager would only include profiles keyed off ECID, IDFA, and hashed email addresses. The segment population in Audience Manager would be smaller than the one in Experience Platform.
+For example, if you had an Experience Platform segment "All my customers", and the qualified profiles would be CRM IDs, ECID, IDFA, raw and hashed email addresses, the corresponding segment in Audience Manager would only include profiles keyed off CRM IDs, ECID, IDFA, and hashed email addresses. The segment population in Audience Manager would be smaller than the one in Experience Platform.
 
-![AEP to AAM segment sharing - segment composition](/help/using/integration/integration-aep/assets/AEP-to-AAM-identities.png)
+![Experience Platform to Audience Manager segment sharing - segment composition](/help/using/integration/integration-aep/assets/AEP-to-AAM-profiles.png)
+
+<!--
 
 If you created a data source in Audience Manager for the CRM IDs in Experience Platform, then the qualified profiles keyed off those CRM IDs would appear in Audience Manager and the segment population in Audience Manager would increase.
 
 ![AEP to AAM segment sharing - segment composition after creating a data source for CRM IDs in Audience Manager](/help/using/integration/integration-aep/assets/AEP-to-AAM-identities2.png)
+
+-->
 
 
 >[!MORELIKETHIS]
