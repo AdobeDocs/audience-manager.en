@@ -62,7 +62,7 @@ Their sign indicates whether the presence of the trait increases(+) or decreases
 
 To view the influential traits for all of your personas, click [!UICONTROL View All Influential Traits].
 
-The [!UICONTROL Influential Traits] window shows you the following information, for each persona from the selected mdoel:
+The [!UICONTROL Influential Traits] window shows you the following information, for each persona from the selected model:
 
 ![influential-traits](assets/predictive-audiences-influential-traits.png)
 
