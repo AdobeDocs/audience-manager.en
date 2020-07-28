@@ -17,7 +17,7 @@ In the tables below, *italics* represents a variable placeholder.
 ## System Error Codes {#system-error-codes}
 
 |Error Code|Error Message|Description|
-|--|--|--|
+|---|---|---|
 |0|Unspecified error|This is a catch-all error that handles events that is not covered by the other error handlers. Troubleshooting this error is difficult. It can be caused by a variety of unknown actions or events. If you receive this error, try your [!DNL DCS] request again. Contact your [!DNL Adobe] representative if the problem persists.|
 |1|Could not find config for hostname: `hostname`|The host name sent in the request has not been set up by our partner provisioning team. Contact your [!DNL Adobe] representative if you see this error message.|
 |2|Invalid `d_orgid` value (could not find a config for this org id): `ID`|The Organization ID is incorrect. Check your ID and try the request again. If you do not know or have your Organization ID, see the "Administration Page" section [Organizations and account linking](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html) for information about how to find it.|
@@ -25,7 +25,7 @@ In the tables below, *italics* represents a variable placeholder.
 ## Integration Error Codes {#integration-error-codes}
 
 |Error Code|Error Message|Description|
-|--|--|--|
+|---|---|---|
 |100|Could not retrieve host name for the request|An [!DNL API] call did not send the host [!DNL HTTP] header in the request. Add the host header to the call and try again. Most browsers and [!DNL API] clients do this automatically. |
 |101|Invalid [!DNL Experience Cloud] id passed in `ID`|The [!DNL DCS] call contains an invalid [!DNL Experience Cloud] ID. Check the `d_mid=` key-value pair in the header string. Make sure you're passing in the correct [!DNL Experience Cloud] ID and try the request again. |
 |102|Invalid [!DNL AAM ID] passed in request `ID`|The [!DNL DCS] call contains an invalid [!DNL Audience Manager] ID. Check the `d_uuid=` key-value pair in the header string. Make sure you're passing in the correct [!DNL Audience Manager] ID and try the request again. |
