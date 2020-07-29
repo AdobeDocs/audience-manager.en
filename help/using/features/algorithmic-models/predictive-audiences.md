@@ -107,7 +107,7 @@ When configuring your [!UICONTROL Predictive Audiences] models, keep in mind the
 * Second and third-party data are not currently supported in [!UICONTROL Predictive Audiences].
 * Audience classification is done only for real time first-party audiences. Onboarded first-party audience classification may be supported in a future update.
   >[!IMPORTANT]
-  > Currently, the [!UICONTROL Total Segment Population] of your predictive segments is displayed as 0, and [Batch Outbound Data Transfers](../../integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md) are not supported for [!UICONTROL Predictive Audiences]. This behavior will change in a future update.
+  > Currently, predictive segments can be activated in real-time destinations only. The [!UICONTROL Total Segment Population] and [!UICONTROL Addressable Audience] of your predictive segments is displayed as 0, and [Batch Outbound Data Transfers](../../integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md) are not supported for [!UICONTROL Predictive Audiences]. This behavior will change in a future update.
 * [!UICONTROL Predictive Audiences] performs audience classification based on your first party traits, from all your first-party data sources.
 * Segment evaluation for [!UICONTROL Predictive Audiences] uses the **[!UICONTROL Profile Merge Rule]** that you choose during model creation. To learn more about [!UICONTROL Profile Merge Rules] see the dedicated [documentation](../profile-merge-rules/merge-rules-overview.md).
 * Some traits and segments are not supported as baselines or target audiences. [!UICONTROL Predictive Audiences] models will fail to save when choosing one of the following as baselines or target audiences:
