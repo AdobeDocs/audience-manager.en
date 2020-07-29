@@ -60,7 +60,7 @@ When you create a [!UICONTROL Predictive Audiences] model, you go through three 
 
 1. First, you select a minimum of two traits or two segments that will define your personas.
 1. Then, you choose a trait or segment that defines the target audience that you want to classify.
-1. Finally, you choose a name for the model and select a data source that will store the predictive segments.
+2. Finally, you choose a name for the model, a data source that will store the predictive segments, and a [!UICONTROL Profile Merge Rule] for the model.
 
 ### Selection Criteria for Personas {#selection-personas}
 
