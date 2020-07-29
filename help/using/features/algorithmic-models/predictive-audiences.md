@@ -68,7 +68,7 @@ You can choose any of your first-party traits or segments to define your persona
 
 * Choose your persona traits or segments so that each persona has at least a few hundred [device IDs](../../reference/ids-in-aam.md).
 * If your traits are based on [cross-device IDs](../../reference/ids-in-aam.md), you can wrap them in segments with [Profile Merge Rules](../profile-merge-rules/merge-rules-overview.md) that use [device IDs](../../reference/ids-in-aam.md), such as [!UICONTROL Device Graph]. This will ensure there are enough [device IDs](../../reference/ids-in-aam.md) that the algorithm can learn from.
-* We recommend choosing traits or simple segments for your perosnas, consisting of 1 to 3 traits.
+* We recommend choosing traits or simple segments for your personas, consisting of 1 to 3 traits.
 * Choose baseline traits or segments which have minimal overlap.
 * Make sure you are capturing granular traits across your digital properties.
 
@@ -107,7 +107,7 @@ When configuring your [!UICONTROL Predictive Audiences] models, keep in mind the
 * Second and third-party data are not currently supported in [!UICONTROL Predictive Audiences].
 * Audience classification is done only for real time first-party audiences. Onboarded first-party audience classification may be supported in a future update.
   >[!IMPORTANT]
-  > Currently, the [!UICONTROL Total Segment Population] of your predictive segments is displayed as 0, and [Batch Outbound Data Transfers](../../integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md) are not supported for [!UICONTROL Predictive Audiences]. This behavior will change in a future update.
+  > Currently, predictive segments can be activated in real-time destinations only. The [!UICONTROL Total Segment Population] and [!UICONTROL Addressable Audience] of your predictive segments is displayed as 0, and [Batch Outbound Data Transfers](../../integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md) are not supported for [!UICONTROL Predictive Audiences]. This behavior will change in a future update.
 * [!UICONTROL Predictive Audiences] performs audience classification based on your first party traits, from all your first-party data sources.
 * Segment evaluation for [!UICONTROL Predictive Audiences] uses the **[!UICONTROL Profile Merge Rule]** that you choose during model creation. To learn more about [!UICONTROL Profile Merge Rules] see the dedicated [documentation](../profile-merge-rules/merge-rules-overview.md).
 * Some traits and segments are not supported as baselines or target audiences. [!UICONTROL Predictive Audiences] models will fail to save when choosing one of the following as baselines or target audiences:
@@ -122,6 +122,7 @@ Predictive segments created by [!UICONTROL Predictive Audiences] models inherit 
 
 1. The first-party data source that you choose when building the model.
 1. The first-party data sources of your target audience. Specifically, the data export controls of the [!UICONTROL traits] or [!UICONTROL segments] that make up your target audience.
+1. The [Data Export Controls](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html) of the [!UICONTROL Profile Merge Rule] that you selected for the model.
 
 The newly created predictive [!UICONTROL traits] and [!UICONTROL segments] will have the same privacy restrictions as the union of the first-party data sources described above.
 
