@@ -132,7 +132,7 @@ The following table outlines how specific Data Export Labels map to recognized m
 | This destination may be used for on-site ad targeting | Onsite Advertising |
 | This destination may be used for on-site ad personalization | Onsite Personalization |
 
-## Understand segment population differences between Audience Manager and Experience Platform 
+## Understand segment population differences between Audience Manager and Experience Platform {#aep-aam-segment-population-differences}
 
 Segment population numbers can vary between your Audience Manager and Experience Platform segments. While segment numbers for similar or identical audiences should be close, differences in populations can be due to factors listed below.
 
