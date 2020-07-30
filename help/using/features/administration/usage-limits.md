@@ -62,7 +62,7 @@ The tables list the current limits by item type. You cannot create new traits, s
 | [!UICONTROL Look-Alike Models] maximum audience size | 25,000,000.  Note that this limit cannot be increased. You can decrease audience sizes by selecting fewer data sources for the model or by selecting a shorter look-back window. |
 | Maximum number of excluded traits for a [!UICONTROL Look-Alike Model] | 500. See [Trait Exclusion in Algorithmic Modeling](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md). |
 |Naximum [!UICONTROL Predictive Audiences Models]|10|
-|Maxium number of baseline personas for [!UICONTROL Predictive Audiences] models|50|
+|Maxium number of baseline personas for [!UICONTROL Predictive Audiences Models]|50|
 
 ### Folder Limits
 
