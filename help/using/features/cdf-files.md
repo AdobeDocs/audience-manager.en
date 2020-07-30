@@ -17,9 +17,12 @@ Basic information about [!UICONTROL Customer Data Feed] ([!UICONTROL CDF]) files
 
 A [!UICONTROL CDF] file contains the same data that an [!DNL Audience Manager] event call (`/event`) sends to our servers. This includes data like user IDs, [!UICONTROL trait IDs], [!UICONTROL segment IDs], and all the other parameters captured by an event call. Internal [!DNL Audience Manager] systems processes event data into a [!UICONTROL CDF] file with content organized into fields that appear in a set order. [!DNL Audience Manager] tries to generate [!UICONTROL CDF] files hourly and stores them in a secure, customer-specific bucket on an [!DNL Amazon S3] server. We provide these files so you can work with [!DNL Audience Manager] data outside of the limits imposed by our user interface.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->You should not use [!UICONTROL CDF] files as a proxy to monitor page traffic, reconcile report discrepancies, or for billing, etc.
+>Note the following restrictions when working with CDF files: 
+>
+>* Prior to setting up CDF file delivery, please ensure you have the appropriate permissions from third-party data providers for the export of third-party traits.
+>* You should not use [!UICONTROL CDF] files as a proxy to monitor page traffic, reconcile report discrepancies, or for billing, etc.
 
 ## Getting Started {#getting-started}
 
