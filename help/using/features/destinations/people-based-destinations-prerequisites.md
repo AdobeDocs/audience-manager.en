@@ -43,6 +43,14 @@ To learn how to edit your [!DNL LinkedIn Campaign Manager] user permissions, see
 
 See [Understanding and Configuring the LinkedIn People-Based Destination](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html) for video instructions.
 
+### [!DNL Google Customer Match]
+
+Before you can use [!UICONTROL People-Based Destinations] to send your first-party audience segments to a [!DNL Google Customer Match] destination, it is mandatory that [!DNL Google] adds you to their allow list.
+
+Contact your [!DNL Google] representative and follow the allow list instructions described in the [Use Customer Match partners to upload your data](https://support.google.com/google-ads/answer/7361372?hl=en&ref_topic=6296507) [!DNL Google] documentation.
+
+Once this process has been completed, you can create your [!UICONTROL People-Based Destination].
+
 ## Data Onboarding {#data-onboarding}
 
 Data ingestion for [!UICONTROL People-Based Destinations] currently supports up to 10 hashed email addresses linked to one customer ID ([!DNL CRM ID]), per batch transfer. Uploading more than 10 hashed email addresses linked to one customer ID causes Audience Manager to ingest 10 of them, in no specific order.
