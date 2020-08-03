@@ -21,7 +21,7 @@ A [!UICONTROL CDF] file contains the same data that an [!DNL Audience Manager] e
 >
 >Note the following restrictions when working with CDF files: 
 >
->* Prior to setting up CDF file delivery, please ensure you have the appropriate permissions from third-party data providers for the export of third-party traits.
+>* Prior to setting up CDF file delivery, please ensure you have the appropriate permissions from third-party data providers for the export of third-party traits. Audience Manager currently does not support functionality in the user interface to request CDF file delivery export permission from Third-Party Data Providers, so please reach out to them independently.
 >* You should not use [!UICONTROL CDF] files as a proxy to monitor page traffic, reconcile report discrepancies, or for billing, etc.
 
 ## Getting Started {#getting-started}
