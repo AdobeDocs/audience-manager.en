@@ -77,7 +77,6 @@ This page includes current [!DNL Audience Manager] [device-based destinations](/
 | [!DNL FreakOut]                                          | 03/03/2017 | 1xday     | Yes       | No                                | No   | No                |
 | [!DNL Freewheel]                                         | 27/02/2017 | 1xday     | Yes       | Yes                               | No   | Yes               |
 | [!DNL Gamut Media]                                       | 03/03/2017 | Real-time |           | No                                | No   |                   |
-| [!DNL Google AdsWords Display]                           | 02/08/2018 | Real-time | Yes       | Yes                               | No   | Yes               |
 | [!DNL Google DoubleClick Bid Manager (DBM)]              | 24/04/2017 | Real-time | Yes       | Yes                               | Yes  | Yes               |
 | [!DNL Google DoubleClick Campaign Manager (DCM fka DFA)] | 24/04/2017 | Real-time | Yes       | Yes                               | Yes  | Yes               |
 | [!DNL Google DoubleClick for Publishers (DFP, DFPP)]     | 24/04/2017 | Real-time | Yes       | Yes                               | Yes  | Yes               |
