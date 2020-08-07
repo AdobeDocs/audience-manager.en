@@ -107,7 +107,9 @@ In order to enforce data usage compliance in Experience Platform, all applicable
 
 In the audience sharing process between Audience Manager and Experience Platform, any Data Export Controls that have been applied to Audience Manager segments are translated to equivalent labels and marketing actions recognized by Experience Platform Data Governance, and vice versa.
 
->[!NOTE] For more general information on Data Export Controls, please refer to the [Data Export Controls documentation](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html).
+>[!NOTE]
+>
+>For more general information on Data Export Controls, please refer to the [Data Export Controls documentation](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html).
 This document provides a reference for how specific Audience Manager Data Export Controls map to data usage labels and marketing actions in Platform.
 
 ### Data Export Controls to data usage labels
@@ -132,7 +134,7 @@ The following table outlines how specific Data Export Labels map to recognized m
 | This destination may be used for on-site ad targeting | Onsite Advertising |
 | This destination may be used for on-site ad personalization | Onsite Personalization |
 
-## Understand segment population differences between Audience Manager and Experience Platform 
+## Understand segment population differences between Audience Manager and Experience Platform {#aep-aam-segment-population-differences}
 
 Segment population numbers can vary between your Audience Manager and Experience Platform segments. While segment numbers for similar or identical audiences should be close, differences in populations can be due to factors listed below.
 
