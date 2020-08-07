@@ -51,6 +51,7 @@ Contact your [!DNL Google] representative and follow the allow list instructions
 
 Once this process has been completed, you can create your [!UICONTROL People-Based Destination].
 
+
 ## Data Onboarding {#data-onboarding}
 
 Data ingestion for [!UICONTROL People-Based Destinations] currently supports up to 10 hashed email addresses linked to one customer ID ([!DNL CRM ID]), per batch transfer. Uploading more than 10 hashed email addresses linked to one customer ID causes Audience Manager to ingest 10 of them, in no specific order.
