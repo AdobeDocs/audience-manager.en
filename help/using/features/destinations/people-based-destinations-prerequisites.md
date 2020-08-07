@@ -43,8 +43,6 @@ To learn how to edit your [!DNL LinkedIn Campaign Manager] user permissions, see
 
 See [Understanding and Configuring the LinkedIn People-Based Destination](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html) for video instructions.
 
-
-
 ## Data Onboarding {#data-onboarding}
 
 Data ingestion for [!UICONTROL People-Based Destinations] currently supports up to 10 hashed email addresses linked to one customer ID ([!DNL CRM ID]), per batch transfer. Uploading more than 10 hashed email addresses linked to one customer ID causes Audience Manager to ingest 10 of them, in no specific order.
