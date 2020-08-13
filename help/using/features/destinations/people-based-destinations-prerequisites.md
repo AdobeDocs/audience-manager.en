@@ -25,7 +25,7 @@ Please contact your Adobe representative to take advantage of this premium featu
 
 ## Partner-Specific Prerequisites {#partner-prerequisites}
 
-### [!DNL Facebook]
+### [!DNL Facebook] {#facebook}
 
 Before you can use [!UICONTROL People-Based Destinations] to send your first-party audience [!UICONTROL segments] to [!DNL Facebook], make sure you meet the following requirements:
 
@@ -35,7 +35,7 @@ Before you can use [!UICONTROL People-Based Destinations] to send your first-par
     > When configuring the permissions for Adobe Experience Cloud, you must enable the **Manage campaigns** permission. This is required for the [!UICONTROL People-Based Destinations] integration.
 3. Read and sign the [!DNL Facebook Custom Audiences] Terms of Service. To do this, go to `https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]`, where `accountID` is your [!DNL Facebook Ad Account ID].
 
-### [!DNL LinkedIn]
+### [!DNL LinkedIn] {#linkedin}
 
 Before you can use [!UICONTROL People-Based Destinations] to send your first-party audience segments to [!DNL LinkedIn], make sure your [!DNL LinkedIn Campaign Manager] account has the [!DNL Creative Manager] or higher permission level.
 
@@ -43,7 +43,7 @@ To learn how to edit your [!DNL LinkedIn Campaign Manager] user permissions, see
 
 See [Understanding and Configuring the LinkedIn People-Based Destination](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html) for video instructions.
 
-### [!DNL Google Customer Match]
+### [!DNL Google Customer Match] {#gcm}
 
 Before you can use [!UICONTROL People-Based Destinations] to send your first-party audience segments to a [!DNL Google Customer Match] destination, it is mandatory that [!DNL Google] adds you to their allow list.
 
