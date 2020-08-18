@@ -47,7 +47,7 @@ If you prefer video tutorials, watch our video demonstration for Trait Exclusion
 
 Additionally, watch the video below for a detailed look at how cross-device metrics work.
 
->[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
+>[!VIDEO](https://video.tv.adobe.com/v/33445/?quality=12)
 
 ## Important Aspects & Limitations {#important-aspects-and-limitations}
 
