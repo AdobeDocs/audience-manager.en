@@ -55,7 +55,7 @@ To get started, you need to configure the [!DNL Experience Cloud] ID service and
 The [!UICONTROL declared ID] process honors site visitor preferences to opt-out of [!DNL Audience Manager] targeting by your website. When [!DNL Audience Manager] receives an opt-out request, the [!DNL JSON] returned by the [!DNL DCS] contains the error code 171, with the message `Encountered opt out tag`, instead of the [!DNL Audience Manager] user ID.
 
 * [!DNL Audience Manager] can pass in a [!UICONTROL declared ID] opt-out alongside an [!DNL Audience Manager] [!UICONTROL UUID] in the [!DNL URL].
-* The [!UICONTROL declared ID] opt-out is stored in the [!UICONTROL Profile Cache Server ([!UICONTROL PCS]) on a per-partner basis. There is no platform-level opt-out using [!UICONTROL declared IDs]. Additionally, [!DNL Audience Manager] opts the user out from that particular region on the edge (the opt-out does not cross [!DNL DCS] regions).
+* The [!UICONTROL declared ID] opt-out is stored in the [!UICONTROL Profile Cache Server] ([!UICONTROL PCS]) on a per-partner basis. There is no platform-level opt-out using [!UICONTROL declared IDs]. Additionally, [!DNL Audience Manager] opts the user out from that particular region on the edge (the opt-out does not cross [!DNL DCS] regions).
 
 See [Data Privacy](../overview/data-security-and-privacy/data-privacy.md) for more information about opting-out of data collection.
 
