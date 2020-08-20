@@ -100,7 +100,7 @@ Macros used to format the contents of a data file. For code samples, see [Outbou
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> CLOSE_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>Inserts a close curly bracket } character. </p> </td> 
+   <td colname="col2"> <p>Inserts a close curly bracket <code>}</code> character. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DP_UUID </code> </p> </td> 
