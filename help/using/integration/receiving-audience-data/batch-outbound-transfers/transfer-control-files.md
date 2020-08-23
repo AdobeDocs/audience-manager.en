@@ -69,7 +69,7 @@ For example, if the first file in the sequence were named: [!DNL ftp_12345_67890
 }
 ```
 
->[NOTE]
+>[!NOTE]
 >
 > The batch total numbers are exclusive of the [!DNL .info] file itself. That is, the totals do not include the [!DNL .info] file, its byte size, or its line count.
 >
