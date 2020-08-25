@@ -41,10 +41,29 @@ Unfortunately, we cannot. These IPs are assigned dynamically, by geographic regi
 
 Yes, see below.
 
-Item| Address |
+Item| IP Addresses |
+---------|----------|
+ ftp-in-gtw.demdex.com | 23.22.232.252, 18.211.109.184 |
+ ftp-out-gtw.demdex.com | 3.233.68.222, 52.3.74.119 |
+ 
+Deprecated SFTP servers. No new accounts will be provisioned on this servers. 
+
+Item| IP Address |
 ---------|----------|
  ftp-in.demdex.com | 54.225.117.163 |
  ftp-out.demdex.com | 23.23.188.76 |
+
+<br>&nbsp;
+
+**How do i migrate to the new one SFTP servers?**
+
+Contact your [!DNL Audience Manager] consultant or Customer Care and they will set up new SFTP accounts.
+
+<br>&nbsp;
+
+**What are the supported authentication method for the ftp-in-gtw and ftp-out-gtw?**
+
+For the new SFTP servers( ftp-in-gtw and ftp-out-gtw ) servers we support OpenSSH Key-Based Authentication. We can generate the SSH key or you can provide the public key.
 
 <br>&nbsp;
 
