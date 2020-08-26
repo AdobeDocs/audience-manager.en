@@ -57,7 +57,7 @@ Contact your [!DNL Audience Manager] consultant or Customer Care and they will c
 
 &nbsp;
 
-**What are the supported authentication method for the new SFTP servers?**
+**What are the supported authentication methods for the new SFTP servers?**
 
 The new SFTP servers (`ftp-in-gtw` and `ftp-out-gtw`) support [!DNL OpenSSH Key-Based Authentication]. We can generate the [!DNL SSH] keys for you, or you can provide us with your own public key.
 
