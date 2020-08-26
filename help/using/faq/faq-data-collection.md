@@ -63,7 +63,7 @@ Contact your [!DNL Audience Manager] consultant or Customer Care and they will s
 
 **What are the supported authentication method for the ftp-in-gtw and ftp-out-gtw?**
 
-For the new SFTP servers( ftp-in-gtw and ftp-out-gtw ) servers we support OpenSSH Key-Based Authentication. We can generate the SSH key or you can provide the public key.
+For the new SFTP servers (ftp-in-gtw and ftp-out-gtw), we support OpenSSH Key-Based Authentication. We can generate the SSH key or you can provide the public key.
 
 <br>&nbsp;
 
