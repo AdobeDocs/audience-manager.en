@@ -15,12 +15,6 @@ Common data collection and integration questions and issues.
 
 <br>&nbsp;
 
-<!-- 
-
-faq_data_collection_integration.xml
-
- -->
-
 **How can I differentiate inbound traffic from [!DNL DCS] traffic in [!DNL DCS] log file exports?**
 
 Traits onboarded via [!UICONTROL Inbound] are populated by [!UICONTROL Inbound] the same way they get populated by [!DNL DCS]. There are a few different ways to tell that traffic came from [!UICONTROL Inbound]:
@@ -35,18 +29,39 @@ Traits onboarded via [!UICONTROL Inbound] are populated by [!UICONTROL Inbound] 
 
 Unfortunately, we cannot. These IPs are assigned dynamically, by geographic region, through [!DNL Amazon Web Services]. As a result, [!DNL Audience Manager] does not control the range of IPs that can be assigned to this address.
 
-<br>&nbsp;
+&nbsp;
 
-**Can you provide me with an IP address I can add to an allow list for your inbound and outbound sFTP server?**
+**Can you provide me with an IP address I can add to an allow list for your inbound and outbound SFTP server?**
 
 Yes, see below.
 
-Item| Address |
+| Server | IP Addresses |
+| ---------|----------|
+| ftp-in-gtw.demdex.com | 23.22.232.252; 18.211.109.184 |
+| ftp-out-gtw.demdex.com | 3.233.68.222; 52.3.74.119 |
+
+&nbsp;
+
+The SFTP servers below are deprecated. No new accounts will be provisioned using these servers.
+
+Server| IP Address |
 ---------|----------|
  ftp-in.demdex.com | 54.225.117.163 |
  ftp-out.demdex.com | 23.23.188.76 |
 
-<br>&nbsp;
+&nbsp;
+
+**How do I configure my Audience Manager instance to use the new SFTP servers?**
+
+Contact your [!DNL Audience Manager] consultant or Customer Care and they will configure your new SFTP accounts.
+
+&nbsp;
+
+**What are the supported authentication method for the new SFTP servers?**
+
+The new SFTP servers (`ftp-in-gtw` and `ftp-out-gtw`) support [!DNL OpenSSH Key-Based Authentication]. We can generate the [!DNL SSH] keys for you, or you can provide us with your own public key.
+
+&nbsp;
 
 **What are the code placement and page load requirements for a [!UICONTROL DIL]/[!DNL Analytics] Data Integration?**
 
@@ -66,7 +81,7 @@ As a best practice, set up your [!DNL Audience Manager]- [!DNL Analytics] integr
 
 See [Data Integration Library (DIL) API](../dil/dil-overview.md).
 
-<br>&nbsp;
+&nbsp;
 
 **Why are my [!DNL Analytics] variables missing from an [!DNL Audience Manager] event call?**
 
@@ -75,7 +90,7 @@ This usually happens when:
 * You serve [!UICONTROL DIL] through a tag management system that loads it asynchronously with other code elements on the page. 
 * The `s.t()` function loads before [!UICONTROL DIL].
 
-<br>&nbsp;
+&nbsp;
 
 **What versions of [!DNL Analytics] work with [!UICONTROL DIL]?**
 
