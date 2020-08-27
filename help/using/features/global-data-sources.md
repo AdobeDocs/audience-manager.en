@@ -21,7 +21,7 @@ The following table describes the global data sources supported by Audience Mana
 |  20915 | **[!DNL Apple ID For Advertising]** - **[!DNL IDFA]** IDs represent devices that run the [!DNL iOS] operating system. |
 |  121963 | **[!DNL Roku ID for Advertising]** - **[!DNL RIDA]** IDs represent [!DNL Roku] streaming devices. |
 | 389146  | **[!DNL Microsoft Advertising ID]** - **[!DNL MAID]** IDs represent devices running the [!DNL Windows 10] operating system. |
-|  404660 | **[!DNL Samsung Tizen IDs for Advertising]** - **[!DNL TIFA]** IDs represent [!DNL Samsung] smart TVs. |
+|  963906 | **[!DNL Samsung Tizen IDs for Advertising]** - **[!DNL TIFA]** IDs represent [!DNL Samsung] smart TVs. |
 | 488258 | **[!DNL Amazon Fire TV Advertising IDs]** represent devices running [!DNL Amazon Fire OS]|
 
 ## Importing Data from Global Data Sources
