@@ -53,10 +53,10 @@ In case the model does not produce results within 24 hours, please reach out to 
 
 1. None of the selected persona [!UICONTROL traits] / [!UICONTROL segments] have enough user profiles. We recommend choosing your [!UICONTROL traits] or [!UICONTROL segments] so that each persona has at least a few hundred user profiles.
 1. None of the selected persona [!UICONTROL traits] / [!UICONTROL segments] have enough data in their user profiles (not enough traits to analyze).
-2. The target audience trait / segment does not have any active or onboarded users.
-3. The target audience users that were active or onboarded within the past 30 days do not have enough data in their user profiles (not enough traits to analyze).
-4. The target audience segment uses a different [!UICONTROL Profile Merge Rule] from the one you chose for the model.
-5. The data source of your target audience traits may not be included in the [!UICONTROL Profile Merge Rule] that you chose for the model.
+1. The target audience trait / segment does not have any active or onboarded users.
+1. The target audience users that were active or onboarded within the past 30 days do not have enough data in their user profiles (not enough traits to analyze).
+1. The target audience segment uses a different [!UICONTROL Profile Merge Rule] from the one you chose for the model.
+1. The data source of your target audience traits may not be included in the [!UICONTROL Profile Merge Rule] that you chose for the model.
 
 For optimal results, follow the suggested guidelines from [Selection Criteria for Personas](../features/algorithmic-models/predictive-audiences.md#selection-personas) and [Selection Criteria for Target Audience](../features/algorithmic-models/predictive-audiences.md#selection-audience).
 
