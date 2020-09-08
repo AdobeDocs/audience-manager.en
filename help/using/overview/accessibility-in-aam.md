@@ -41,4 +41,14 @@ Screen readers are accesibility tools that read text that appears on the compute
 
 All interactive elements within the Audience Manager user interface include corresponding labels. This ensures that assistive technologies, such as screen readers, can read out the labels to users.
 
-## Contrast Requirements {#contrast}
+## Colors and Contrast {#colors-contrast}
+
+The [!DNL Audience Manager] user interface was developed with optimal contrast requirements in mind, ensuring an accessible viewing experience for users with low vision or color deficiencies.
+
+* Labels and additional text are displayed in dark fonts on light backgrounds; 
+  ![accessibility-contrast](assets/accessibility-contrast.png)
+* Inactive elements are greyed out;
+  ![accessibility-greyed-out](assets/accessibility-greyed-out.png)
+* Graphical elements are displayed in high contrast colors, for optimal readability.
+  ![accessibility-contrast-colors](assets/accessibility-contrast-colors.png)
+
