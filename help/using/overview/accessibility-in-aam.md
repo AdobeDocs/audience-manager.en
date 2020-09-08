@@ -25,7 +25,7 @@ Audience Manager supports full keyboard navigation, using a few dedicated keys:
 
 * The `Tab` key and the arrows move between individual elements of the user interface. Selected elements are highlighted with a blue border.
 
-![accesibility-highlight](assets/accesibility-highlightpng)
+![accesibility-highlight](assets/accesibility-highlight.png)
 
 * The `Return` and `Space` keys activate the selected item.
 
