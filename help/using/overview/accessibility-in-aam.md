@@ -25,7 +25,7 @@ Audience Manager supports full keyboard navigation, using a few dedicated keys:
 
 * The `Tab` key and the arrows move between individual elements of the user interface. Selected elements are highlighted with a blue border.
 
-![accesibility-highlight](assets/accesibility-highlight.png)
+  ![accesibility-highlight](assets/accesibility-highlight.png)
 
 * The `Return` and `Space` keys activate the selected item.
 
@@ -33,7 +33,7 @@ Audience Manager supports full keyboard navigation, using a few dedicated keys:
 
 Table headers are selectable when navigating via the `Tab` key, and you can change the sorting order by pressing `Space`.
 
-![accessibility-table-headers](assets/accessibility-table-headers.png)
+  ![accessibility-table-headers](assets/accessibility-table-headers.png)
 
 ## Screen Readers and Support for Assistive Technologies {#screen-readers-support}
 
@@ -46,9 +46,14 @@ All interactive elements within the Audience Manager user interface include corr
 The [!DNL Audience Manager] user interface was developed with optimal contrast requirements in mind, ensuring an accessible viewing experience for users with low vision or color deficiencies.
 
 * Labels and additional text are displayed in dark fonts on light backgrounds; 
+  
   ![accessibility-contrast](assets/accessibility-contrast.png)
+
 * Inactive elements are greyed out;
+  
   ![accessibility-greyed-out](assets/accessibility-greyed-out.png)
+
 * Graphical elements are displayed in high contrast colors, for optimal readability.
+  
   ![accessibility-contrast-colors](assets/accessibility-contrast-colors.png)
 
