@@ -13,17 +13,17 @@ feature: overview
 
 Accesibility refers to a series of features that make a software product usable, with as little effort as possible from users with various disabilities, such as visual, auditory, cognitive, motor, or other kind.
 
-Adobe is an industry leader in accessibility and supports the creation of outstanding web experiences by encouraging developers to produce rich, engaging content that is accessible to all users. For more details about Adobe's committment to accesibility, see [Adobe Accessibility](https://www.adobe.com/accessibility.html).
+Adobe is an industry leader in accessibility and supports the creation of outstanding web experiences by encouraging developers to produce rich, engaging content that is accessible to all users. For more details about Adobe's commitment to accessibility, see [Adobe Accessibility](https://www.adobe.com/accessibility.html).
 
-The most common accessibility features used in software products are keyboard navigation, keyboard shortcuts, support for high contrast in the user interface, screen reader support, clear labels for graphical elements, and so on.
+The most common accessibility features found in software products are: keyboard navigation, semantic structure, sufficient contrast between foreground elements and background elements, assistive technology support, clear element labels, and so on.
 
-To make [!DNL Audience Manager] easily accessible, we've developed support for multiple accessibility features.
+To make [!DNL Audience Manager] easier to use for everyone, we've developed support for multiple accessibility features.
 
 ## Keyboard Navigation {#keyboard-navigation}
 
-Audience Manager supports full keyboard navigation, using a few dedicated keys:
+[!DNL Audience Manager] supports full keyboard accessibility:
 
-* The `Tab` key and the arrows move between individual elements of the user interface. Selected elements are highlighted with a blue border.
+* The `Tab` key and the arrows move between individual elements of the user interface.
 
   ![accesibility-highlight](assets/accesibility-highlight.png)
 
@@ -35,23 +35,21 @@ Table headers are selectable when navigating via the `Tab` key, and you can chan
 
   ![accessibility-table-headers](assets/accessibility-table-headers.png)
 
-## Screen Readers and Support for Assistive Technologies {#screen-readers-support}
+## Support for Assistive Technologies {#assistive-technologies}
 
-Screen readers are accesibility tools that read text that appears on the computer screen. They can also read non-textual information, such as graphical element labels or image descriptions, which have to be included by the developers in accessibility tags or attributes.
+Through the use of semantic code and [ARIA](https://www.w3.org/WAI/standards-guidelines/aria/), interactive elements within the [!DNL Audience Manager] user interface include corresponding labels, accessible names, and roles that identify both their purpose and their current state.
+
+This ensures that assistive technologies, such as screen readers, can read out the labels and other information to users so that they can easily interact with the application controls.
 
 All interactive elements within the Audience Manager user interface include corresponding labels. This ensures that assistive technologies, such as screen readers, can read out the labels to users.
 
 ## Colors and Contrast {#colors-contrast}
 
-The [!DNL Audience Manager] user interface was developed with optimal contrast requirements in mind, ensuring an accessible viewing experience for users with low vision or color deficiencies.
+The [!DNL Audience Manager] user interface strives to provide enough contrast in the application to ensure an accessible viewing experience for users with low vision or color deficiencies.
 
 * Labels and additional text are displayed in dark fonts on light backgrounds; 
   
   ![accessibility-contrast](assets/accessibility-contrast.png)
-
-* Inactive elements are greyed out;
-  
-  ![accessibility-greyed-out](assets/accessibility-greyed-out.png)
 
 * Graphical elements are displayed in high contrast colors, for optimal readability.
   
