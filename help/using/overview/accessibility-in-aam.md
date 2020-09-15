@@ -47,11 +47,14 @@ All interactive elements within the Audience Manager user interface include corr
 
 The [!DNL Audience Manager] user interface strives to provide enough contrast in the application to ensure an accessible viewing experience for users with low vision or color deficiencies.
 
-* Labels and additional text are displayed in dark fonts on light backgrounds; 
-  
-  ![accessibility-contrast](assets/accessibility-contrast.png)
+For example, loading screens include a loading spinner inside a white modal box, all on top of a dark grey overlay.
 
-* Graphical elements are displayed in high contrast colors, for optimal readability.
-  
-  ![accessibility-contrast-colors](assets/accessibility-contrast-colors.png)
+![accessibility-loading](assets/accessibility-loading.png)
 
+## Further Reading {#further-reading}
+
+[!DNL Audience Manager] strives to provide an ever increasing degree of accessibility, making the product easy to use for everyone.
+
+To learn more about our accessibility improvements and compliance status, see the Accessibility Conformance Report.
+
+Additionally, we encourage you to use the [Adobe Accessibility Feedback Form](https://www.adobe.com/accessibility/feedback.html) to send us improvement suggestions and accessibility issues that you run into. We'll be more than glad to take your feedback into account and improve [!DNL Audience Manager].
