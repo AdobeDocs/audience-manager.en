@@ -111,6 +111,12 @@ Yes. Since the algorithm is trained on a daily basis, it applies the changes for
 
 &nbsp;
 
+**Can I add predictive traits to regular segments?**
+
+When you add a predictive trait to a regular segment, the segment becomes a predictive segment. Consequently, all associated profiles are unsegmented. Predictive segments can only be sent to real-time destinations.
+
+&nbsp;
+
 **Can I see the traits by which audience classification is done?**
 
 Yes, you can see all influential traits for all baselines in the model reporting page. See [Influential Traits](../features/algorithmic-models/predictive-audiences-reporting.md#influential-traits).
