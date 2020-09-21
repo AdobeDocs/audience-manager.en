@@ -167,20 +167,22 @@ Function signature: `DIL.tools.getMetaTags( 1 or more parameters)`
 
 ### Sample Code
 
-<pre class=“javascript”><code>
+```js
+
 var dataLib = DIL.create({ 
-     partner: '<i>partnerName'</i>, 
-     containerNSID: <i>containerNSID</i> 
+     partner: 'partnerName', 
+     containerNSID: containerNSID 
 }); 
 
-dataLib.api.signals(DIL.tools.getMetaTags('<i>application</i>', '<i>keywords</i>',  '<i>description</i>'), 'c_').submit();
+dataLib.api.signals(DIL.tools.getMetaTags('application', 'keywords',  'description'), 'c_').submit();
 </code></pre>
 
 <pre><code>
 var dataLib = DIL.create({ 
-     partner: <i>`partnerName'</i>, 
-     containerNSID: <i>containerNSID</i> 
+     partner: `partnerName', 
+     containerNSID: containerNSID 
 }); 
 
-dataLib.api.signals(DIL.tools.getMetaTags('<i>application</i>','<i>keywords</i>', '<i>description</i>'), 'c_').submit();
-</code></pre>
+dataLib.api.signals(DIL.tools.getMetaTags('application','keywords', 'description'), 'c_').submit();
+
+```
