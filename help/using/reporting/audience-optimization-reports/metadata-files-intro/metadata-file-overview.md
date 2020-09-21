@@ -105,7 +105,7 @@ The IDs passed in by these key-value pairs help create the metadata file name an
 
 In this example we'll create a metadata file that brings creative names in to an [!UICONTROL Audience Optimization] report. To do this, we need to extract creative, campaign, and data source IDs from an event call.
 
-![](assets/metadata_file_event.png)
+![metadata file event schema](assets/metadata_file_event.png)
 
 ### File Name
 
@@ -117,7 +117,7 @@ In a file name:
 
 * The creative and campaign IDs represent a category rather than an actual identifier.
 
-![](assets/metadata_file_name.png)
+![metadata file name schema](assets/metadata_file_name.png)
 
 See [Naming Conventions for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md).
 
@@ -125,7 +125,7 @@ See [Naming Conventions for Metadata Files](../../../reporting/audience-optimiza
 
 In this example, the file contents reflect the creative and campaign IDs passed in on the event call. The new element here is a readable name. Once processed, the name in this file will appear as an option in the Creative menu of an [!UICONTROL Audience Optimization] report.
 
-![](assets/metadata_file_contents.png)
+![metadata file contents schema](assets/metadata_file_contents.png)
 
 See [Content Format for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md).
 

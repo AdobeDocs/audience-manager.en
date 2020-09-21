@@ -22,7 +22,7 @@ A data file must be accompanied by a metadata file. The metadata file contents m
 
 The following syntax defines the structure of a well-formed data file name. Note, *italics* indicates a variable placeholder that changes depending on the file contents.
 
-**Syntax:** <pre><code><i>event type</i>_<i>yyyymmdd</i></code></pre>
+**Syntax:** `event type_yyyymmdd`
 
 In a file name:
 
@@ -32,15 +32,15 @@ In a file name:
 
 Given these requirements, name your data files based on their contents like this:
 
-* Impression data: <pre><code>impressions_<i>yyyymmdd</i>.gz</code></pre>
-* Click data: <pre><code>clicks_<i>yyyymmdd</i>.gz</code></pre>
-* Conversion data: <pre><code>conversions_<i>yyyymmdd</i>.gz</code></pre>
+* Impression data: `impressions_yyyymmdd.gz`
+* Click data: `clicks_yyyymmdd.gz`
+* Conversion data: `conversions_yyyymmdd.gz`
 
 ## Content Format for Data Files {#content-format}
 
 The following syntax defines the content structure in well-formed data file. Note, *italics* indicates a variable placeholder and is replaced with an label in an actual data file.
 
-**Syntax:** <pre><code><i>header label 1</i> | <i>header label 2</i> ... <i>header label n</i> | <i>version</i></code></pre>
+**Syntax:** `header label 1 | header label 2 ... header label n | version`
 
 In the file contents:
 
@@ -146,7 +146,7 @@ Upload your impression, click, or conversion data files to an Amazon S3 director
 
 Data is stored in a separate namespace for each customer in an [!DNL Amazon S3] directory. The file path follows the syntax shown below. Note, *italics* indicates a variable placeholder. Other elements are constants or keys and do not change.
 
-**Syntax:** <pre><code>.../log_ingestion/pid= <i>AAM ID<i>/dpid= <i>d_src</i>/logs/ <i>file type</i>_<i>yyyymmdd</i></code></pre>
+**Syntax:** `.../log_ingestion/pid=AAM ID/dpid=d_src/logs/file type_yyyymmdd`
 
 The following table defines each of these elements in a file delivery path.
 
