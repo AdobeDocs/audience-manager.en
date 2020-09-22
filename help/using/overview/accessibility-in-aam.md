@@ -27,7 +27,7 @@ To make [!DNL Audience Manager] easier to use for everyone, we've developed supp
 
   ![accesibility-highlight](assets/accesibility-highlight.png)
 
-* The `Return` and `Space` keys activate the selected item.
+* The `Return` (`Enter`) and `Space` keys activate the selected item.
 
 ## Accessible Table Sorting {#table-sorting}
 
@@ -55,6 +55,4 @@ For example, loading screens include a loading spinner inside a white modal box,
 
 [!DNL Audience Manager] strives to provide an ever increasing degree of accessibility, making the product easy to use for everyone.
 
-To learn more about our accessibility improvements and compliance status, see the Accessibility Conformance Report.
-
-Additionally, we encourage you to use the [Adobe Accessibility Feedback Form](https://www.adobe.com/accessibility/feedback.html) to send us improvement suggestions and accessibility issues that you run into. We'll be more than glad to take your feedback into account and improve [!DNL Audience Manager].
+We encourage you to use the [Adobe Accessibility Feedback Form](https://www.adobe.com/accessibility/feedback.html) to send us improvement suggestions and accessibility issues that you run into. We'll be more than glad to take your feedback into account and improve [!DNL Audience Manager].
