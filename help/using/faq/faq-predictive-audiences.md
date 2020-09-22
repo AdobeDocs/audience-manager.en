@@ -99,6 +99,8 @@ If, however, you select a [!UICONTROL Profile Merge Rule] based only on device p
 
 Analyze your use case carefully and decide which [!UICONTROL trait] types you want the model to learn from and what type of data you want the model to use for classification.
 
+&nbsp;
+
 **Could a user from the target audience who isn't part of any persona trait / segment not be classified?**
 
 Yes, in case the user does not have any traits in his profile. In that case, the user will get a match score of 0 to all of the persona traits / segments, and therefore will not be classified into any of the predictive segments.
@@ -108,6 +110,12 @@ Yes, in case the user does not have any traits in his profile. In that case, the
 **Can a user who was classified into one of the predictive segments be reclassified into a different [!UICONTROL Predictive Audiences] segment?**
 
 Yes. Since the algorithm is trained on a daily basis, it applies the changes for each of the personas in terms of trait scoring. If a user who is part of a [!UICONTROL Predictive Audiences] segment is active, the changes in their trait score can change the classification based on the past 30 days activity.
+
+&nbsp;
+
+**Can I add predictive traits to regular segments?**
+
+When you add a predictive trait to a regular segment, it becomes a predictive segment. Consequently, all associated profiles are unsegmented. Predictive segments can only be sent to real-time destinations.
 
 &nbsp;
 

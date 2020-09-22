@@ -47,9 +47,9 @@ When creating a [!DNL URL] destination, you can insert the following macros into
     <ul class="simplelist"> 
      <li> <code> %dpid_1%</code> </li> 
     </ul> <p>The macro will replace <code> 1</code> with <code> CustomerABC</code>. </p> <p> 
-     <draft-comment>
+     <!--
        Based on AAM-22193 https://jira.corp.adobe.com/browse/AAM-22193 
-     </draft-comment> </p> </td> 
+     --> </p> </td> 
   </tr> 
   <tr>
     <td><p><code>${GDPR}</code></p></td>

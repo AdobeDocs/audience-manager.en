@@ -3,6 +3,8 @@ product: audience-manager
 solution: Audience Manager
 audience: end-user
 user-guide-title: Audience Manager User Guide
+breadcrumb-title: Audience Manager Guide
+breadcrumb-url: /docs/audience-manager/user-guide/aam-home.html
 user-guide-description: Audience Manager provides industry-leading services for online audience data management.
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 ---
