@@ -71,8 +71,8 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
         + [Data Explorer - Overview, Benefits, and Use Cases](features/data-explorer/data-explorer-overview.md)
         + [Understanding Signals](features/data-explorer/data-explorer-understanding-signals.md)
         + [Signals Dashboard](features/data-explorer/data-explorer-signals-dashboard.md)
-        + Signals Search{#signals-search}
-            + [Signals Search Overview](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md)
+        + Signal Search{#signal-search}
+            + [Signal Search Overview](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md)
             + [Search Signals by Key-Value Pairs](features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md)
             + [Search Signals by Filters](features/data-explorer/data-explorer-signals-search/data-explorer-search-filters.md)
             + [Advanced Search for Adobe Analytics](features/data-explorer/data-explorer-signals-search/data-explorer-search-analytics.md)

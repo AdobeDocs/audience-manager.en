@@ -1,12 +1,12 @@
 ---
 description: Search for used and unused signals received over specific periods of time. To search for signals, go to Audience Data > Signals > Search.
 seo-description: Search for used and unused signals received over specific periods of time. To search for signals, go to Audience Data > Signals > Search.
-seo-title: Signals Search
-title: Signals Search
+seo-title: Signal Search
+title: Signal Search
 feature: Data Explorer
 ---
 
-# Signals Search Overview {#signals-search}
+# Signal Search Overview {#signal-search}
 
 Search for used and unused signals received over specific periods of time. To search for signals, go to Audience Data > Signals > Search.
 
