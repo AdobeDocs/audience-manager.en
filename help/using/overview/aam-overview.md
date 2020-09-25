@@ -1,5 +1,5 @@
 ---
-description: Information about the history of Adobe Audience Manager, the types of data collected, segmentation, reporting, and more.
+description: Information about the main functions of a Data Management platform - data collection, audience creation, and activation.
 seo-description: Information about the history of Adobe Audience Manager, the types of data collected, segmentation, reporting, and more.
 seo-title: Audience Manager Overview
 solution: Audience Manager
