@@ -44,7 +44,8 @@ This page includes current [!DNL Audience Manager] [device-based destinations](/
 | [!DNL AOL ONE]                                           | 02/03/2017 | Real-time | Yes       | No                                | No   | Yes               |
 | [!DNL AppNexus]                                          | 02/03/2017 | Real-time | Yes       | No                                | Yes  | No                |
 | [!DNL AppNexus Yieldex]                                  | 10/08/2017 | 1xday     | Yes       | No                                | No   | No                |
-| [!DNL Atedra]/[!DNL AdStanding]                                 | 02/03/2017 | Real-time | Yes       | No                                | Yes  | No                |
+| [!DNL Artsai (formerly Adxcel)]                          | 27/01/2020 | 1xday     | No        | No                                | No   | No                |
+| [!DNL Atedra]/[!DNL AdStanding]                          | 02/03/2017 | Real-time | Yes       | No                                | Yes  | No                |
 | [!DNL Avocet]                                            | 06/12/2017 | 1xday     | No        | No                                | No   | No                |
 | [!DNL Bidtellect]                                        | 03/03/2017 | Real-time | Yes       | No                                | No   | No                |
 | [!DNL Beeswax]                                           | 25/05/2018 | 1xday     | No        | No                                | No   | Yes               |
@@ -65,7 +66,7 @@ This page includes current [!DNL Audience Manager] [device-based destinations](/
 | [!DNL DistrictM]                                         | 02/03/2017 | 1xday     | Yes       | No                                | No   | No                |
 | [!DNL DoubleVerify]                                      | 06/09/2017 | 1xday     | Yes       | No                                | No   | No                |
 | [!DNL Drawbridge]                                        | 02/03/2017 | Real-time | No        | No                                | No   | Yes               |
-| [!DNL Dstillery] ([!DNL FKA Media6])                            | 02/03/2017 | Real-time | Yes       | No                                | No   | Yes               |
+| [!DNL Dstillery] ([!DNL FKA Media6])                     | 02/03/2017 | Real-time | Yes       | No                                | No   | Yes               |
 | [!DNL Dunnhumby]                                         | 21/11/2019 | 1xday     | No        | No                                | No   | No                |
 | [!DNL easyfundraising]                                   | 27/06/2019 | 1xday     | No        | No                                | No   | Yes               |
 | [!DNL Epsilon Conversant]                                | 03/03/2017 | Real-time | No        | No                                | No   | No                |
@@ -74,6 +75,7 @@ This page includes current [!DNL Audience Manager] [device-based destinations](/
 | [!DNL EyeView Digital]                                   | 14/06/2018 | 1xday     | Yes       | No                                | No   | Yes               |
 | [!DNL Fiksu]                                             | 03/03/2017 | 1xday     | Yes       | No                                | No   | Yes               |
 | [!DNL Flashtalking]                                      | 02/03/2017 | 1xday     | No        | No                                | No   | No                |
+| [!DNL Flybits]                                           | 31/07/2020 | Real-time | Yes       | No                                | Yes  | Yes               |
 | [!DNL FreakOut]                                          | 03/03/2017 | 1xday     | Yes       | No                                | No   | No                |
 | [!DNL Freewheel]                                         | 27/02/2017 | 1xday     | Yes       | Yes                               | No   | Yes               |
 | [!DNL Gamut Media]                                       | 03/03/2017 | Real-time |           | No                                | No   |                   |
