@@ -89,7 +89,7 @@ This step takes place once every 24 hours, to account for changes in your first-
 
 ### [!UICONTROL Predictive Audiences] Model Classification Phase {#model-classification}
 
-For real-time and batch auudience classification, the model first checks whether a user belongs to the target audience. If the user qualifies for the target audience and does not belong to any of the personas, the model assigns them a persona qualification score.
+For real-time and batch audience classification, the model first checks whether a user belongs to the target audience. If the user qualifies for the target audience and does not belong to any of the personas, the model assigns them a persona qualification score.
 
 While evaluating first-party audiences and assigning scores, the model uses the default **[!UICONTROL Profile Merge Rule]** defined in your account. Finally, the visitor gets classified into the persona for which they received the highest score.
 
