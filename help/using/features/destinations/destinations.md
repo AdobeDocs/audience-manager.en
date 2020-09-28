@@ -1,7 +1,7 @@
 ---
-description: In Audience Manager, a destination is any third-party system (ad server, DSP, ad network, etc.) that you want to share data with. Destination Builder is the tool you used to create and manage cookie, URL, or server-to-server destinations.
+description: In Audience Manager, a destination is any third-party system (ad server, DSP, ad network, etc.) that you want to share data with. Use the Destination Builder tool to create and manage cookie, URL, or server-to-server destinations.
 keywords: integration code, destination, destination overview, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination
-seo-description: In Audience Manager, a destination is any third-party system (ad server, DSP, ad network, etc.) that you want to share data with. Destination Builder is the tool you used to create and manage cookie, URL, or server-to-server destinations.
+seo-description: In Audience Manager, a destination is any third-party system (ad server, DSP, ad network, etc.) that you want to share data with. Destination Builder is the tool you use to create and manage cookie, URL, or server-to-server destinations.
 seo-title: Destinations
 solution: Audience Manager
 title: Destinations
@@ -11,7 +11,7 @@ feature: Destination Basics
 
 # [!UICONTROL Destinations] Overview {#destinations}
 
-In Audience Manager, a [!UICONTROL destination] is any third-party system (ad server, [!DNL DSP], ad network, etc.) that you want to share data with. [!UICONTROL Destination Builder] is the tool you used to create and manage [!UICONTROL cookie], [!DNL URL], or [!UICONTROL server-to-server destinations].
+In Audience Manager, a [!UICONTROL destination] is any third-party system (ad server, [!DNL DSP], ad network, etc.) that you want to share data with. [!UICONTROL Destination Builder] is the tool you use to create and manage [!UICONTROL cookie], [!DNL URL], or [!UICONTROL server-to-server destinations].
 
 ## Purpose and Advantages {#purposes}
 

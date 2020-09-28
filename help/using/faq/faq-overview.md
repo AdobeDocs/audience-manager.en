@@ -20,6 +20,5 @@ This section aggregates a list of the FAQ categories for various functionalities
 * [People-Based Destinations FAQ](faq-people-based-destinations.md)
 * [Product Features and Functions FAQ](faq-features.md)
 * [Profile Merge Rules and Device Graph FAQ](faq-profile-merge.md)
-* [Predictive Audiences FAQ](faq-predictive-audiences.md)
 * [Targeting FAQ](faq-targeting.md)
 * [Reporting FAQ](faq-reporting.md)
