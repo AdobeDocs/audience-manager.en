@@ -40,39 +40,35 @@ Remember to keep the value properties the same when passing in data. For example
 
 This basic example sends color and price data to Audience Manager in the form of key-value pairs. Your code could look similar to the following: 
 
-```
-
-var sample_dil = DIL.create({partner:"partner name"}); 
+<pre class=“java”><code>
+var sample_dil = DIL.create({partner:"<i>partner name</i>"}); 
 sample_dil.api.signals({ 
    c_color:"blue", 
    c_price:"900" 
 }); 
 sample_dil.api.submit();
-
-```
+</code></pre>
 
 **Example 2: Send Data in an Object**
 
 This advanced example demonstrates how to send data in an object to Audience Manager. When working with this method, [!UICONTROL DIL] lets you pass an object as a function parameter into the [!DNL signals()] method. [!UICONTROL DIL] Your code could look similar to the following: 
 
-``` js
+<pre class="java"><code>
 var my_object = { 
    color : "blue", 
    price : "900" 
 }; 
  
-var sample_dil = DIL.create({ partner : "partner name" }); 
+var sample_dil = DIL.create({ partner : "<i>partner name</i>" }); 
 //Load the object and append "c_" to all keys in the key-value pairs and send data to AudienceManager. 
 sample_dil.api.signals(my_object,"c_").submit();
-
-```
+</code></pre>
 
 **Example 3: Send Page Data in an Array**
 
 In this case, the variable `my_object` uses an array to hold data. This example builds on the information passed in by the recommended method above, but adds an additional layer to accommodate a product type and model. Your code could look similar to the following: 
 
-```js 
-
+<pre class="java"><code>
 var my_objects = [{ 
    color : "blue", 
    price : "900" 
@@ -81,7 +77,7 @@ var my_objects = [{
    model : "tl" 
 }]; 
  
-var sample_dil = DIL.create({ partner : "partner name" }); 
+var sample_dil = DIL.create({ partner : "<i>partner name</i>" }); 
  
 for (var i = 0; i < my_objects.length; i++) 
 //Load the object and append "c_" to all the keys in the key-value pairs.  
@@ -89,8 +85,7 @@ for (var i = 0; i < my_objects.length; i++)
     sample_dil.api.signals(my_objects[i], "c_"); 
 } 
 sample_dil.api.submit();
-
-```
+</code></pre>
 
 ## Capture Referring URL {#capture-referring-url}
 
@@ -110,12 +105,10 @@ c_dil_hrefer_over_https.xml
 
 Your code could look similar to the following: 
 
-```js
-
-var adobe_dil = DIL.create({ partner : "partner name" }); 
+<pre class="java"><code>
+var adobe_dil = DIL.create({ partner : "<i>partner name</i>" }); 
 adobe_dil.api.signals({ d_referer : document.referrer }).submit();
-
-```
+</code></pre>
 
 ## Capture Search Engine Types and Keyword Search Terms {#capture-search-engine-types}
 
@@ -143,7 +136,7 @@ The following code demonstrates how to get the search referrer for any of the su
 
 Basic code for getting the search referrer (from `google.com`, for example) looks like this: 
 
-```js
+```java
 var search_referrer = DIL.tools.getSearchReferrer();
 ```
 
@@ -151,9 +144,8 @@ var search_referrer = DIL.tools.getSearchReferrer();
 
 In this case, let's assume that a user searched for the term "homes" from [!DNL Google] Canada ( `www.google.ca`). Note how the code prefixes the required `c_` parameter to search engine ( `c_se`) and search term ( `c_st`). `c_` is a [required prefix](../features/traits/trait-variable-prefixes.md) that identifies these as customer-defined variables to Audience Manager. 
 
-```js
-
-var adobe_dil = DIL.create({partner:"partner name"}); 
+<pre class="java"><code>
+var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
 var search_referrer = DIL.tools.getSearchReferrer(); 
  
 if (search_referrer && search_referrer.valid) { 
@@ -162,16 +154,14 @@ if (search_referrer && search_referrer.valid) {
     c_st : se.keywords 
   }).submit(); 
 }
-
-```
+</code></pre>
 
 **Unlisted Search Engine Code Sample**
 
 In this case, let's assume that a user searched for the term "homes" from `dogpile.com`. Because [!DNL Dogpile] is not supported by default, you can configure DIL to recognize this search engine and return the search terms to Audience Manager. Your code could look similar to the following: 
 
-```js
-
-var adobe_dil = DIL.create({partner:"partner name"}); 
+<pre class="java"><code>
+var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
 var search_referrer = DIL.tools.getSearchReferrer(document.referrer, {  
     hostPattern:/dogpile\./, 
     queryParam:"q" 
@@ -183,8 +173,7 @@ if (search_referrer && search_referrer.valid) {
     c_st : se.keywords 
   }).submit(); 
 }
-
-```
+</code></pre>
 
 ## Map Key Values to Other Keys {#map-key-values}
 
@@ -206,7 +195,7 @@ As an example, you collect ZIP code data from a particular site but want to targ
 
 Your code could look similar to the following:
 
-```js
+```java
 var adobe_dil = DIL.create({ 
     partner : "adobe", 
     mappings : { 

@@ -22,11 +22,6 @@ To create an algorithmic trait, go to [!UICONTROL Traits] and follow the steps b
 1. Expand the [!UICONTROL Configuration] pane and click **[!UICONTROL Browse All Models]**.
    This opens a new window that lets you select the model you want to use with the trait.
 1. Select a model and click **[!UICONTROL Add Selected Model to Trait]**.
-   
-   >[!NOTE]
-   > 
-   > You cannot replace selected models for existing algorithmic traits. To use a different model, you must create a new algorithmic trait.
-   
    Adding the model exposes the reach and accuracy settings.
 1. Select reach or accuracy as your goal and choose a value from the respective drop down menus. Click **[!UICONTROL Save]** when done.
 

@@ -2,16 +2,14 @@
 product: audience-manager
 solution: Audience Manager
 audience: end-user
-user-guide-title: Audience Manager Guide
-breadcrumb-title: Audience Manager Guide
-breadcrumb-url: /docs/audience-manager/user-guide/aam-home.html
+user-guide-title: Audience Manager User Guide
 user-guide-description: Audience Manager provides industry-leading services for online audience data management.
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 ---
 
-# Audience Manager Guide {#user-guide}
+# Audience Manager User Guide {#user-guide}
 
-+ [Audience Manager Guide](aam-home.md)
++ [Audience Manager Product Documentation](aam-home.md)
 + Overview{#overview}
     + [Audience Manager Overview](overview/aam-overview.md)
     + [Types of Data Collected](overview/data-types-collected.md)
@@ -28,8 +26,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
         + Consent Management {#consent-management}
             + [Consent Management](overview/data-security-and-privacy/data-privacy-consent.md)
             + [Audience Manager Plug-in for IAB TCF](overview/data-security-and-privacy/aam-iab-plugin.md)
-    + [Data Governance](overview/data-security-and-privacy/data-governance.md)
-    + [Accessibility in Audience Manager](overview/accessibility-in-aam.md) 
+    + [Data Governance](overview/data-security-and-privacy/data-governance.md) 
 + Features{#features}
     + [Addressable Audiences](features/addressable-audiences.md)
     + Administration{#administration}
@@ -71,8 +68,8 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
         + [Data Explorer - Overview, Benefits, and Use Cases](features/data-explorer/data-explorer-overview.md)
         + [Understanding Signals](features/data-explorer/data-explorer-understanding-signals.md)
         + [Signals Dashboard](features/data-explorer/data-explorer-signals-dashboard.md)
-        + Signal Search{#signal-search}
-            + [Signal Search Overview](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md)
+        + Signals Search{#signals-search}
+            + [Signals Search Overview](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md)
             + [Search Signals by Key-Value Pairs](features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md)
             + [Search Signals by Filters](features/data-explorer/data-explorer-signals-search/data-explorer-search-filters.md)
             + [Advanced Search for Adobe Analytics](features/data-explorer/data-explorer-signals-search/data-explorer-search-analytics.md)
