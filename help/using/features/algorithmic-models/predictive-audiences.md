@@ -74,7 +74,7 @@ You can choose any of your first-party traits or segments to define your persona
 
 ### Selection Criteria for Target Audience {#selection-audience}
 
-Depending on your use case, whether you want to classify users in real-time, in batch, or both, choose a target audience ([!UICONTROL trait] or [!UICONTROL segment]) which has a significant real-time and/or total population. Similar to persona selection, we recommend that your target audience [!UICONTROL trait] or [!UICONTROL segment] has users with rich profiles (rich sets of [!UICONTROL traits]).
+Similar to persona selection, you should choose your [!UICONTROL trait] or [!UICONTROL segment] that defines your target audience in such way that it has real time users with rich sets of [!UICONTROL traits], for classification into the right persona.
 
 When selecting the target audience, analyze your your use case and decide which types of IDs you want to classify: [!UICONTROL device IDs] or [!UICONTROL cross-device IDs]. The [!UICONTROL Profile Merge Rule] that you select when creating the model defines the data that will be used to place each user into the predictive [!UICONTROL segments].
 
@@ -106,6 +106,11 @@ When configuring your [!UICONTROL Predictive Audiences] models, keep in mind the
 * For each model, you can choose up to 50 base traits / segments.
 * Second and third-party data are not currently supported in [!UICONTROL Predictive Audiences].
 * Audience classification is done only for real time first-party audiences. Onboarded first-party audience classification may be supported in a future update.
+  >[!IMPORTANT]
+  > If you add a predictive trait to a regular segment, it becomes a predictive segment. Consequently, all associated profiles are unsegmented.
+  
+  >[!IMPORTANT]
+  > Currently, predictive segments can be activated in real-time destinations only. The [!UICONTROL Total Segment Population] and [!UICONTROL Addressable Audience] of your predictive segments is displayed as 0, and [Batch Outbound Data Transfers](../../integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md) are not supported for [!UICONTROL Predictive Audiences]. This behavior will change in a future update.
 * [!UICONTROL Predictive Audiences] performs audience classification based on your first party traits, from all your first-party data sources.
 * Segment evaluation for [!UICONTROL Predictive Audiences] uses the **[!UICONTROL Profile Merge Rule]** that you choose during model creation. To learn more about [!UICONTROL Profile Merge Rules] see the dedicated [documentation](../profile-merge-rules/merge-rules-overview.md).
 * Some traits and segments are not supported as baselines or target audiences. [!UICONTROL Predictive Audiences] models will fail to save when choosing one of the following as baselines or target audiences:
@@ -113,7 +118,6 @@ When configuring your [!UICONTROL Predictive Audiences] models, keep in mind the
   * [Adobe Experience Platform](../integration/../../integration/integration-aep/aam-aep-audience-sharing.md) traits or segments;
   * Algorithmic traits;
   * Second and third-party traits.
-* [!UICONTROL Predictive Audience] [!UICONTROL segments] cannot be used in [!UICONTROL Audience Lab]. 
 
 ## [!UICONTROL Data Export Controls] {#dec}
 
@@ -135,7 +139,6 @@ All predictive segments will be assigned the [!UICONTROL Profile Merge Rule] tha
 * It governs which [!UICONTROL trait] types (device level or cross-device level) should be used during the model training step and surfaced as influential [!UICONTROL traits]. Predictive [!UICONTROL segments] are subsets of your target audience.
   * If the target audience is a segment, we recommend that you select the same [!UICONTROL Profile Merge Rule] for the model as the one assigned to your target audience, or a [!UICONTROL Profile Merge Rule] that includes the profile type of your target audience.
   * If the target audience is a [!UICONTROL trait], we recommend that you select a [!UICONTROL Profile Merge Rule] that can access the same type of data as the target audience trait (either device profile data or cross-device profile data).
-* [!UICONTROL Profile Merge Rules] using the [!UICONTROL Current Authenticated Profiles] and [!UICONTROL No Device Profile] options are only supported for real-time audience classification. For more information see [Profile Merge Rules Options Defined](../profile-merge-rules/merge-rule-definitions.md).
 
 Selecting a [!UICONTROL Profile Merge Rule] that uses both device data and cross-device  data maximizes the number of [!UICONTROL traits] that could be used for model training and user classification into the predictive [!UICONTROL segments].
 
