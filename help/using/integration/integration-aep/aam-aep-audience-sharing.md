@@ -8,7 +8,7 @@ keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing
 feature: Integration with Platform
 ---
 
-# Audience Sharing Between Audience Manager and Adobe Experience Platform {#aam-aep-audience-sharing}
+# Experience Platform segment sharing with Audience Manager and other Experience Cloud solutions {#aam-aep-audience-sharing}
 
 >[!NOTE]
 >
@@ -26,6 +26,11 @@ In Audience Manager, you can use Experience Platform segments for Data Managemen
 * Activate your segments to destinations that are not yet supported in the Experience Platform [destinations catalog](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/destinations/destinations-cat/destinations-catalog.html).
 
 Additionally, your Experience Platform segments are shared to other Experience Cloud solutions, via [Core Services](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html).
+
+>[!IMPORTANT]
+>
+> * You need an Audience Manager license to enable the Data Management Platform use cases mentioned above.
+> * You *do not need* an Audience Manager license to share Experience Platform segments with Adobe Ad Cloud, Adobe Target, and other Experience Cloud solutions, via the Core Services integration.
 
 <br>&nbsp;
 
