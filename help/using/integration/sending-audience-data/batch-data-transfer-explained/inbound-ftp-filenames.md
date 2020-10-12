@@ -50,20 +50,22 @@ The table defines the elements in an [!DNL FTP] file name.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>DPID</i> </code> </p> </td> 
-   <td colname="col2"> <p>An lD that tells <span class="keyword"> Audience Manager</span> if a data file contains your own user IDs or Android or iOS IDs. Accepts the following options: </p> 
+   <td colname="col2"> <p>An lD that tells <span class="keyword"> Audience Manager</span> if a data file contains your own user IDs, Android IDs, iOS IDs, or other IDs belonging to <a href="/help/using/features/global-data-sources.md"> global data sources</a>. Accepts the following options:</p> 
     <ul id="ul_818EB3EB2E5543F0B048BCEBB6699562"> 
-     <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>Data Partner ID:</b> This is a unique ID Audience Manager assigns to your company or organization. Use this assigned ID in a file name when sending in data that contains your own user IDs. For example, <code>...ftp_dpm_21_123456789.sync</code> tells <span class="keyword"> Audience Manager</span> that a partner with ID 21 sent the file and it contains user IDs assigned by that partner. </li> 
-     <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android IDs (GAID):</b> Use ID 20914 in a data file name if it contains Android ID. For example, <code>...ftp_dpm_20914_123456789.sync</code> tells <span class="keyword"> Audience Manager</span> that the data file contains Android IDs only. </li> 
-     <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS IDs (IDFA):</b> Use ID 20915 in a data file name if it contains iOS IDs. For example, <code>...ftp_dpm_20915_123456789.sync</code> tells <span class="keyword"> Audience Manager</span> that the data file contains iOS IDs only. </li> 
+     <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>Data Source ID (also known as Data Provider ID):</b> This is a unique ID that Audience Manager assigns to a data source (refer to the Audience Manager <a href="/help/using/reference/ids-in-aam.md"> index of IDs </a>). Use this assigned ID in a file name when sending in data that contains your own user IDs. For example, <code>...ftp_dpm_21_123456789.sync</code> tells <span class="keyword"> Audience Manager</span> to onboard data to IDs belonging to data source 21. </li> 
+     <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android IDs (GAID):</b> Use ID 20914 in a data file name if it contains Android IDs. You need to use the field <code><i>_DPID_TARGET_DATA_OWNER</i></code> when you use Android IDs. For example, <code>...ftp_dpm_20914_DPID_TARGET_DATA_OWNER_123456789.sync</code> tells <span class="keyword"> Audience Manager</span> that the data file contains Android IDs only and the IDs should qualify for the traits belonging to the <code><i>_DPID_TARGET_DATA_OWNER</i></code> data source.</li> 
+     <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS IDs (IDFA):</b> Use ID 20915 in a data file name if it contains iOS IDs. You need to use the field <code><i>_DPID_TARGET_DATA_OWNER</i></code> when you use iOS IDs. For example, <code>...ftp_dpm_20915_DPID_TARGET_DATA_OWNER_123456789.sync</code> tells <span class="keyword"> Audience Manager</span> that the data file contains iOS IDs only and the IDs should qualify for the traits belonging to the <code><i>_DPID_TARGET_DATA_OWNER</i></code> data source.</li>
+     <li> <b>IDs belonging to other global data sources</b>: You can onboard Roku IDs for Advertising (RIDA), Microsoft Advertising IDs (MAID), and other IDs. Use the ID corresponding to each data source, as described in the <a href="/help/using/features/global-data-sources.md"> global data sources article</a>.</li> 
     </ul> <p> <p>Note:  Do not mix ID types in your data files. For example, if your file name includes the Android identifier, don't put iOS IDs or your own IDs in the data file. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>_DPID_TARGET_DATA_OWNER</i> </code> </p> </td> 
-   <td colname="col2"> <p>A placeholder for an ID. For example, you could set it to your <span class="keyword"> Audience Manager</span> ID if you set the DPID to a data source ID or an Android or iOS ID. This lets <span class="keyword"> Audience Manager</span> link the file data back to your organization. </p> <p>For example: </p> 
-    <ul id="ul_55EBBCB11F2B4A858AEFBFA1CD99E286"> 
-     <li id="li_3404428F4E3D49A5AB6EDF56310D923F"> <code>...ftp_dpm_33_21_1234567890.sync</code> shows a partner with ID 21 has sent in data from a data source that uses ID 33. </li> 
-     <li id="li_CF8D5AF678764E9984A088FD5D7BBFB6"> <code>...ftp_dpm_20914_21_1234567890.sync</code> shows a partner with ID 21 has sent in data that contains Android IDs. </li> 
-     <li id="li_3D73168391D7443BADDF27153090274D"> <code>...ftp_dpm_20915_21_1234567890.sync</code> shows a partner with ID 21 has sent in data that contains iOS IDs. </li> 
+   <td colname="col2"> <p>This field tells Audience Manager which data source to onboard data to. This field is mandatory if you set the DPID to an Android ID or iOS ID or another ID belonging to global data sources. This lets <span class="keyword"> Audience Manager</span> link the file data back to your organization. </p> <p>For example: </p> 
+    <ul> 
+     <li> <code>...ftp_dpm_33_21_1234567890.sync</code> tells Audience Manager that you're qualifying customer IDs belonging to data source 33 for traits or signals belonging to data source 21. </li> 
+     <li> <b>Android IDs (GAID):</b> <code>...ftp_dpm_20914_21_1234567890.sync</code> tells <span class="keyword"> Audience Manager</span> that the data file contains Android IDs only and the IDs should qualify for the traits belonging to data source 21.</li> 
+     <li> <b>iOS IDs (IDFA):</b> <code>...ftp_dpm_20915_21_1234567890.sync</code> tells <span class="keyword"> Audience Manager</span> that the data file contains iOS IDs only and the IDs should qualify for the traits belonging to data source 21.</li>
+     <li> <b>IDs belonging to other global data sources</b>: <code>...ftp_dpm_121963_21_1234567890.sync</code> tells <span class="keyword"> Audience Manager</span> that the data file contains Roku IDs only and the IDs should qualify for the traits belonging to data source 21. Use the ID corresponding to each data source, as described in the <a href="/help/using/features/global-data-sources.md"> global data sources article</a>.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -85,9 +87,9 @@ The table defines the elements in an [!DNL FTP] file name.
   <tr> 
    <td colname="col1"> <p> <code> <i>TIMESTAMP</i> </code> </p> </td> 
    <td colname="col2"> <p>A 10-digit, UTC UNIX timestamp in seconds. The timestamp helps make each file name unique. </p> 
-    <draft-comment> 
+    <!-- 
      <p> <p>Note:  Audience Manager does not use the timestamp during processing of inbound files. The timestamp in the filename has been deprecated in Audience Manager but is still required for backwards compatibility. </p> </p> 
-    </draft-comment> </td> 
+    --> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> [.gz]</code> </p> </td> 
