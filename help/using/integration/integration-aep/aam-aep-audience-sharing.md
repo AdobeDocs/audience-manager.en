@@ -110,7 +110,8 @@ In the audience sharing process between Audience Manager and Experience Platform
 >[!NOTE]
 >
 >For more general information on Data Export Controls, please refer to the [Data Export Controls documentation](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html).
-This document provides a reference for how specific Audience Manager Data Export Controls map to data usage labels and marketing actions in Platform.
+>
+>This document provides a reference for how specific Audience Manager Data Export Controls map to data usage labels and marketing actions in Platform.
 
 ### Data Export Controls to data usage labels
 
