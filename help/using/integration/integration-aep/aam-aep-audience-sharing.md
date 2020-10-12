@@ -30,7 +30,7 @@ Additionally, your Experience Platform segments are shared to other Experience C
 >[!IMPORTANT]
 >
 > * You need an Audience Manager license to enable the Data Management Platform use cases mentioned above.
-> * You *do not need* an Audience Manager license to share Experience Platform segments with Adobe Ad Cloud, Adobe Target, and other Experience Cloud solutions, via the Core Services integration.
+> * You *do not need* an Audience Manager license to share Experience Platform segments with Adobe Ad Cloud, Adobe Target, Adobe Analytics, and other Experience Cloud solutions, via the Core Services integration.
 
 <br>&nbsp;
 
