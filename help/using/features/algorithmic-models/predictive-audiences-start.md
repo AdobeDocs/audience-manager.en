@@ -39,9 +39,19 @@ Once you know which data source you're going to use, follow the steps below.
    ![predictive-audiences-save](assets/predictive-audiences-save.png)
 1. Click **[!UICONTROL Save]**.
 
-## Editing Predictive Audiences {#edit-predictive-audiences}
+## Cloning and Editing Predictive Audience Models {#clone-predictive-audiences}
 
-Audience Manager does not support editing existing [!UICONTROL Predictive Audiences] models. To change a model's configuration, you must create a new model. If you have reached the limit of 10 [!UICONTROL Predictive Audiences] models and need to edit one of your models, you must delete a model and create a new one.
+Audience Manager does not support editing existing [!UICONTROL Predictive Audiences] models. To change a model's configuration, you can create a clone of an existing model and edit it. Here's how you can do this:
+
+1. Go to **[!UICONTROL Audience Data]** > **[!UICONTROL Models]**.
+2. Click the name of the [!UICONTROL Predictive Audiences] model that you want to clone.
+3. Click the **[!UICONTROL Clone]** button in the upper left side of the screen.
+   ![predictive-audiences-clone](assets/predictive-audiences-clone.png)
+4. Once you clone the model, you are taken to the [!DNL Save & Configure] page of the cloned model. In this page, you can change the [!UICONTROL data source] and the assigned[!UICONTROL Profile Merge Rule] of the model. To edit the personas and the target audience of the cloned model, use the [!UICONTROL Back] and [!UICONTROL Next] buttons to navigate between the three tabs, or click the three tab names
+
+   ![predictive-audiences-clone-navigate](assets/predictive-audiences-clone-navigate.png)
+
+5. When you are done editing a model, click **[!UICONTROL Save]**.
 
 ## Deleting Predictive Audiences {#delete-predictive-audiences}
 
