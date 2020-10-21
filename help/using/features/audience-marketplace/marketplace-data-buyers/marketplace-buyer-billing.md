@@ -163,8 +163,7 @@ The [!UICONTROL Activation] use case lets you use traits in the corresponding da
 When you [Report CPM Usage at Data Feed Level](#feed-level-report), you must allocate impressions proportionally for each data feed, according to the [!DNL Boolean] operators used in the trait qualification rules. The following table lists how to properly allocate impressions by Boolean rule or trait type.
 
 >[!TIP]
->
-> [Report CPM Usage at Segment Level](#segment-level-report) to have the data feed level reporting done automatically by Audience Manager.
+>[Report CPM Usage at Segment Level](#segment-level-report) to have the data feed level reporting done automatically by Audience Manager.
 
 <table id="table_BF00FE6740D2459DAFA62F2478492586"> 
  <thead> 

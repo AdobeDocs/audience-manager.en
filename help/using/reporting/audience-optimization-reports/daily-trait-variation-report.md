@@ -18,7 +18,7 @@ This report returns a list of traits that have been realized at least 10,000 tim
 
 Standard deviation measures the amount of variation or dispersion from the mean (or average/expected value). A low standard deviation indicates that the data points tend to be very close to the mean. A high standard deviation indicates that the data points are spread out over a large range of values.
 
-![screenshot daily trait variation report](assets/daily_trait_variation.png)
+![](assets/daily_trait_variation.png)
 
 Use the [!UICONTROL Date] list to select one or more dates for your report. A color-coded bar chart displays at the bottom of the list that provides a visual representative of the range of standard deviation for all traits across all selected dates. The black vertical line indicates the mean.
 
@@ -49,8 +49,8 @@ Due to a reconfiguration of your store, you're splitting the smartphones page in
 
 One month later, you run the [!UICONTROL Daily Trait Variation] report and notice a large negative deviation on the `productPage == "smartphones"` trait, although your visitor number has increased, according to your site analytics. Based on this information, you realize that you haven't updated the traits in [!DNL Audience Manager] for your new product pages, so you know that you need to create the following traits:
 
-* `productPage == "samsung"`
-* `productPage == "apple"`
-* `productPage == "huawei"`
+* productPage == "samsung"
+* productPage == "apple"
+* productPage == "huawei"
 
 Once you do this, you'll see your audience qualifying for the newly created traits.

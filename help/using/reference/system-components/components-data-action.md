@@ -75,7 +75,7 @@ To optimize traffic between [!UICONTROL IRIS] and segment destinations, [!UICONT
 
 The following example contains real-time segment data from [!UICONTROL IRIS]. Keep in mind this is sample data only. Each customer may have different formatting requirements so the contents can vary.
 
-```json
+```
 {
     "ProcessTime": "Tue Jul 21 19:12:45 UTC 2015",
     "Client_ID": "111111",

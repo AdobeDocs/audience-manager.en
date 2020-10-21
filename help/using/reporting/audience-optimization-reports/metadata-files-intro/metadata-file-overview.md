@@ -36,7 +36,7 @@ First, a metadata file, and all of the parameters listed below, are required in 
 
 Second, you need a metadata file if you’re sending your own data to [!DNL Audience Manager] or if you want to see data in the reports from other providers we’re not integrated with. For example, [!DNL Audience Manager] has an integration with Google’s [Double-click Campaign Manager](../../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) (DCM). Because of this relationship, [!DNL Audience Manager] can associate IDs with names and descriptions used by the report options. Without an integration, we can still ingest data, but the report options will show numeric IDs instead of descriptive name.
 
-![metadata menu schema](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata-menu.png)
+![](assets/metadata_menu.png)
 
 ## File Mappings {#file-mappings}
 
@@ -105,7 +105,7 @@ The IDs passed in by these key-value pairs help create the metadata file name an
 
 In this example we'll create a metadata file that brings creative names in to an [!UICONTROL Audience Optimization] report. To do this, we need to extract creative, campaign, and data source IDs from an event call.
 
-![metadata file event schema](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata-file-event.png)
+![](assets/metadata_file_event.png)
 
 ### File Name
 
@@ -117,7 +117,7 @@ In a file name:
 
 * The creative and campaign IDs represent a category rather than an actual identifier.
 
-![metadata file name schema](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata-file-name.png)
+![](assets/metadata_file_name.png)
 
 See [Naming Conventions for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md).
 
@@ -125,7 +125,7 @@ See [Naming Conventions for Metadata Files](../../../reporting/audience-optimiza
 
 In this example, the file contents reflect the creative and campaign IDs passed in on the event call. The new element here is a readable name. Once processed, the name in this file will appear as an option in the Creative menu of an [!UICONTROL Audience Optimization] report.
 
-![metadata file contents schema](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata-file-contents.png)
+![](assets/metadata_file_contents.png)
 
 See [Content Format for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md).
 

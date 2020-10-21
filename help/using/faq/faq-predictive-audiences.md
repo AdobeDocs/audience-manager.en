@@ -39,14 +39,6 @@ Go to **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]**, and click the 
 
 &nbsp;
 
-**Why are some of my onboarded visitors not classified?**
-
-Currently, audience classification only works for real time qualifications, except for authenticated users that were defined as part of [!UICONTROL Profile Merge Rules].
-
-Full support for onboarded data will be added in a future update.
-
-&nbsp;
-
 **When can I see the first results produced by my model?**
 
 [!UICONTROL Predictive Audiences] model results are available within 24 hours from model creation, if the model runs successfully.
@@ -61,12 +53,10 @@ In case the model does not produce results within 24 hours, please reach out to 
 
 1. None of the selected persona [!UICONTROL traits] / [!UICONTROL segments] have enough user profiles. We recommend choosing your [!UICONTROL traits] or [!UICONTROL segments] so that each persona has at least a few hundred user profiles.
 1. None of the selected persona [!UICONTROL traits] / [!UICONTROL segments] have enough data in their user profiles (not enough traits to analyze).
-1. The target audience trait / segment did not have any active or onboarded users within the past 30 days.
+1. The target audience trait / segment does not have any active or onboarded users.
 1. The target audience users that were active or onboarded within the past 30 days do not have enough data in their user profiles (not enough traits to analyze).
 1. The target audience segment uses a different [!UICONTROL Profile Merge Rule] from the one you chose for the model.
 1. The data source of your target audience traits may not be included in the [!UICONTROL Profile Merge Rule] that you chose for the model.
-
-To produce relevant results, the [!UICONTROL Predictive Audiences] algorithm evaluates trait and segment realizations based on real-time user activity seen by the [!DNL DCS]. If you select new base traits and segments that do not yet have enough users, the algorithm may take a couple of days to classify your audience.
 
 For optimal results, follow the suggested guidelines from [Selection Criteria for Personas](../features/algorithmic-models/predictive-audiences.md#selection-personas) and [Selection Criteria for Target Audience](../features/algorithmic-models/predictive-audiences.md#selection-audience).
 
@@ -99,8 +89,6 @@ If, however, you select a [!UICONTROL Profile Merge Rule] based only on device p
 
 Analyze your use case carefully and decide which [!UICONTROL trait] types you want the model to learn from and what type of data you want the model to use for classification.
 
-&nbsp;
-
 **Could a user from the target audience who isn't part of any persona trait / segment not be classified?**
 
 Yes, in case the user does not have any traits in his profile. In that case, the user will get a match score of 0 to all of the persona traits / segments, and therefore will not be classified into any of the predictive segments.
@@ -110,12 +98,6 @@ Yes, in case the user does not have any traits in his profile. In that case, the
 **Can a user who was classified into one of the predictive segments be reclassified into a different [!UICONTROL Predictive Audiences] segment?**
 
 Yes. Since the algorithm is trained on a daily basis, it applies the changes for each of the personas in terms of trait scoring. If a user who is part of a [!UICONTROL Predictive Audiences] segment is active, the changes in their trait score can change the classification based on the past 30 days activity.
-
-&nbsp;
-
-**Can I add predictive traits to regular segments?**
-
-When you add a predictive trait to a regular segment, it becomes a predictive segment. Consequently, all associated profiles are unsegmented. Predictive segments can only be sent to real-time destinations.
 
 &nbsp;
 
