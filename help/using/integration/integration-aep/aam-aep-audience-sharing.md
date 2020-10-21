@@ -8,7 +8,7 @@ keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing
 feature: Integration with Platform
 ---
 
-# Audience Sharing Between Audience Manager and Adobe Experience Platform {#aam-aep-audience-sharing}
+# Experience Platform segment sharing with Audience Manager and other Experience Cloud solutions {#aam-aep-audience-sharing}
 
 >[!NOTE]
 >
@@ -27,13 +27,18 @@ In Audience Manager, you can use Experience Platform segments for Data Managemen
 
 Additionally, your Experience Platform segments are shared to other Experience Cloud solutions, via [Core Services](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html).
 
+>[!IMPORTANT]
+>
+> * You need an Audience Manager license to enable the Data Management Platform use cases mentioned above.
+> * You *do not need* an Audience Manager license to share Experience Platform segments with Adobe Advertising Cloud, Adobe Target, Marketo, and other Experience Cloud solutions, via the Core Services integration.
+
 <br>&nbsp;
 
 See the table below for an overview of audience sharing use cases:
 
 **Use Case** | **Adobe Experience Platform** | **Audience Manager** | **Core Services**
 ---------|----------|---------|---------
- **Audience Sharing** | <ul><li>Enrich customer profiles with Audience Manager data</li><li>Use Audience Manager data in Experience Platform segmentation</li></ul> | <ul><li>Add third party data to segments</li><li>Algorithmic modeling</li><li>Activation to additional destinations</li></ul> | Use Experience Platform segments in other Experience Cloud solutions, such as Adobe Target or Analytics.
+ **Audience Sharing** | <ul><li>Enrich customer profiles with Audience Manager data</li><li>Use Audience Manager data in Experience Platform segmentation</li></ul> | <ul><li>Add third party data to segments</li><li>Algorithmic modeling</li><li>Activation to additional destinations</li></ul> | Use Experience Platform segments in other Experience Cloud solutions, such as Adobe Target, Advertising Cloud, or Marketo.
 
 <br>&nbsp;
 
@@ -151,7 +156,9 @@ Audience Manager updates reporting numbers in the interface once per day.   The 
 
 The integration between Adobe Experience Platform and Audience Manager shares a number of standard [identity namespaces](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html#identity-types) for all customers: ECID, IDFA, GAID, hashed email addresses (EMAIL_LC_SHA256), AdCloud ID, etc.. If your Experience Platform segments use any of these as primary identity for the qualified profiles, the profiles are counted in Audience Manager traits and segments.
 
-Additionally, Audience Manager can register the incoming realizations for any custom identity namespaces that you use in Experience Platform segments if you already have a corresponding data source in Audience Manager keyed off of that identifier.
+Additionally, Audience Manager can register the incoming realizations for any custom identity namespaces that you use in Experience Platform segments if:
+* the identity is marked as primary *and* 
+* you already have a corresponding cross device data source in Audience Manager.
 
 >[!NOTE]
 >

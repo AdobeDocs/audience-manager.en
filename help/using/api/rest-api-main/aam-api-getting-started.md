@@ -52,7 +52,7 @@ This is the recommended way of setting up and using [!DNL Adobe] [!DNL APIs].
 
 Before you can configure [!DNL JWT] authentication, make sure you have access to the [Adobe Developer Console](https://console.adobe.io/) in [Adobe I/O](https://www.adobe.io/). Contact your organization administrator for access requests.
 
-### Authentication
+### Authentication {#auth}
 
 Follow the steps below to configure [!DNL JWT (Service Account)] authentication using [!DNL Adobe I/O]:
 
