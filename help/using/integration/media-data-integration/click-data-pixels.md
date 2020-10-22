@@ -1,6 +1,6 @@
 ---
-description: null
-seo-description: null
+description: Click tracking enables measurement of visitor engagement throughout your campaign, as it records click-based activity for third-party creatives.
+seo-description: Click tracking enables measurement of visitor engagement throughout your campaign, as it records click-based activity for third-party creatives.
 seo-title: Capturing Campaign Click Data via Pixel Calls
 solution: Audience Manager
 title: Capturing Campaign Click Data via Pixel Calls

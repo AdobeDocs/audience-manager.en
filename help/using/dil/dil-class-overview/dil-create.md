@@ -53,9 +53,7 @@ r_dil_create.xml
    <td colname="col1"> <p> <code> declaredId </code> </p> </td> 
    <td colname="col2"> <p>Object </p> </td> 
    <td colname="col3"> 
-    <draft-comment> 
-     <p>Sends the <a href="../../features/declared-ids.md"> Declared ID variables </a> on every event call to <span class="keyword"> Audience Manager </span>. </p> 
-    </draft-comment> <p> <code> delcaredId </code> is used to pass in either the: </p> 
+    <p> <code> declaredId </code> is used to pass in either the: </p> 
     <ul id="ul_75E64D7DDBD14670BB0BC7819F72036C"> 
      <li id="li_43C7F0EAC5B24F07BBF4ADAB4B0142B7"> <code> dpid </code>: Data partner ID assigned to you by <span class="keyword"> Audience Manager </span>. </li> 
      <li id="li_3BD52ADEA1E24B41B51AFA95D71DD1FC"> <code> dpuuid </code>: Your unique ID for a user. </li> 
