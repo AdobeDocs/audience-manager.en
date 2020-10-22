@@ -76,7 +76,7 @@ Column header labels defined.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> startDate</span> </p> </td> 
-   <td colname="col2"> <p>Indicates when a segment can start to be sent to a destination. Uses <tt>yyyy-mm-dd</tt> format. </p> </td> 
+   <td colname="col2"> <p>Indicates when a segment can start to be sent to a destination. Uses <i>yyyy-mm-dd</i> format. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> targetKey</span> </p> </td> 
