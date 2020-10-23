@@ -10,13 +10,14 @@ feature: overlap reports
 
 # Overlap Reports: Update Schedule and Minimum Segment Size{#overlap-reports-update-schedule-and-minimum-segment-size}
 
-Describes the segment size and creation time requirements required by the Overlap report update process.
+Describes the trait and segment size and creation time requirements required by the Overlap report update process.
 
 ## Update Schedule and Requirements {#update-schedule}
 
 [!UICONTROL Overlap] reports update weekly on Sunday. Report pre-processing begins on Saturday. This affects how new or existing segments appear in an overlap report on Monday. To be included in an overlap report:
 
-* A segment must contain a minimum of 70,000 total real-time users during the last 14 days. Read more about [Minimum Unique Visitor Requirements for Traits and Segments](../../reporting/report-sampling.md#data-sampling-ratio). 
+* A segment must contain a minimum of 70,000 total real-time users during the last 14 days.
+* A trait must contain 28,000 [unique trait realizations](/help/using/features/traits/trait-and-segment-qualification-reference.md) during the last 14 days.
 * A segment must have been created prior to 12 AM Thursday UTC (2 full days before the weekly overlap report update process begins). 
 * Your company must be a Full [!DNL Audience Manager] customer. Please contact your [!DNL Audience Manager] consultant or Customer Care to find out more.
 

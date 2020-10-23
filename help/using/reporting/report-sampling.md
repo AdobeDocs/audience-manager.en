@@ -12,16 +12,26 @@ feature: reporting reference
 
 A summary of the sampling methodology used for some reports, sampling error rates, and a list of reports that return information based on sampled data.
 
-## Data Sampling Ratio and Minimum Requirements {#data-sampling-ratio}
+## Data Sampling Ratio {#data-sampling-ratio}
 
 Some [!DNL Audience Manager] reports display results based on a sampled set of the total amount of available data. The sampled data ratio is 1:54. For reports that use sampled data, this means your results are based on 1 record out of every set of 54 records.
 
-These reports use sampled data because they need a tremendous amount of computing power to generate results. Sampling helps strike a balance between reduced computational demands, maintaining system performance, and providing accurate results.
+These reports use statistical sampled data because they need a tremendous amount of computing power to generate results. Sampling helps strike a balance between reduced computational demands, maintaining system performance, and providing accurate results.
 
-Reports that use sampling exclude traits and segments when they do not meet the minimum unique visitor requirements. These minimum requirements are as follows:
+<!--
 
-* Traits: 28,000 [unique trait realizations](/help/using/features/traits/trait-and-segment-qualification-reference.md#unique-trait-realizations) over a 14-day period.
+## Minimum Requirements {#minimum-requirements}
+
+>[!NOTE]
+>
+>The minimum requirements listed below apply to Overlap reports only.
+
+Overlap reports ([trait-to-trait](/help/using/reporting/dynamic-reports/trait-trait-overlap-report.md), [segment-to-trait](/help/using/reporting/dynamic-reports/segment-trait-overlap-report.md), and [segment-to-segment](/help/using/reporting/dynamic-reports/segment-segment-overlap-report.md)) exclude traits and segments when they do not meet the minimum unique visitor requirements. These minimum requirements are as follows:
+
+* Traits: 28,000 [unique trait realizations](/help/using/features/traits/trait-and-segment-qualification-reference).
 * Segments: 70,000 real-time users over a 14-day period.
+
+-->
 
 ## Error Rates {#error-rates}
 
@@ -41,11 +51,35 @@ It's important to note that our tests and models show that the error rate *decre
 |100,000|95% are under a 4% error rate.|
 |500,000 (or more)|95% are under a 2% error rate.|
 
+## Using the Minhash Sampling Methodology {#minhash}
+
+Based on the [Minhash](https://en.wikipedia.org/wiki/MinHash) sampling methodology, Audience Manager uses a novel method to compute trait and segment estimators on top of a One Permutation Hashing data sketch. This new method produces a lower variance than the standard estimator for Jaccard similarity estimator. See the section below for the reports that use this methodology.
+
+<!--
+
+Some Audience Manager reports use the minhash sampling methodology to compute trait and segment overlaps and similarity scores. Audience Manager calculates the [!UICONTROL Trait Similarity Score] between two traits by computing the intersection and union in terms of the number of [!UICONTROL Unique User IDs] (UUIDs) and then divides the two. For two traits A and B, the calculation looks like this:
+
+![jaccard-similarity](/help/using/features/segments/assets/jaccard_similarity.png)
+
+-->
+
 ## Reports That Use Sampled Data {#reports-using-sampled-data}
 
-The [!DNL Audience Manager] reports that use sampled data include:
+The [!DNL Audience Manager] reports that use statistical sampled data and the Minhash sampling methodology include:
+
+<!--
 
 * [Overlap reports](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) (trait-to-trait, segment-to-trait, and segment-to-segment).
 * [Addressable Audience](../features/addressable-audiences.md) data (customer- and segment-level data). 
 * The [Total Devices](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) metric for a [!UICONTROL Profile Merge Rule].
 * [Data Explorer](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) uses sampled data in the [!UICONTROL Search] tab and any [!UICONTROL Saved Searches].
+
+Reports that use Minhash sampling methodology:
+
+-->
+
+| Statistical sampling | Minhash sampling methodology|
+|--- |--- |
+|[Addressable Audience](../features/addressable-audiences.md) data (customer- and segment-level data). |[Overlap reports](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) (trait-to-trait, segment-to-trait, and segment-to-segment)|
+|The [Total Devices](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) metric for a [!UICONTROL Profile Merge Rule].|[Trait Recommendations](/help/using/features/segments/trait-recommendations.md)|
+|[Data Explorer](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) uses sampled data in the [!UICONTROL Search] tab and any [!UICONTROL Saved Searches]|[Audience Marketplace Recommendations](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#finding-similar-traits)|
