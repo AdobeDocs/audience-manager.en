@@ -53,7 +53,7 @@ It's important to note that our tests and models show that the error rate *decre
 
 ## Using the Minhash Sampling Methodology {#minhash}
 
-Based on the [Minhash](https://en.wikipedia.org/wiki/MinHash) sampling methodology, Audience Manager uses a novel method to compute trait and segment estimators on top of a One Permutation Hashing data sketch. This new method produces a lower variance than the standard estimator for Jaccard similarity estimator. See the section below for the reports that use this methodology.
+Based on the [Minhash](https://en.wikipedia.org/wiki/MinHash) sampling methodology, Audience Manager uses a novel method to compute trait and segment estimators on top of a One Permutation Hashing data sketch. This new method produces a lower variance than the standard estimator for Jaccard similarity. See the section below for the reports that use this methodology.
 
 <!--
 
