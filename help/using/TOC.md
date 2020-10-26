@@ -9,7 +9,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 
 # Audience Manager User Guide {#user-guide}
 
-+ [Audience Manager Product Documentation](aam-home.md)
++ [Audience Manager Guide](aam-home.md)
 + Overview{#overview}
     + [Audience Manager Overview](overview/aam-overview.md)
     + [Types of Data Collected](overview/data-types-collected.md)
