@@ -16,7 +16,9 @@ In March 2019, [!DNL Adobe] has ended support for the [!DNL TLS 1.0] protocol. A
 
 In March 2020, [!DNL Adobe] will end support for the [!DNL TLS 1.1] protocol. Adobe Audience Manager functionality will stop working for your end users who use browsers which only support [!DNL TLS 1.1]. 
 
-We highly recommend the use of [!DNL TLS 1.2], which is, at the time of writing, the latest version of the protocol. All modern browsers use [!DNL TLS 1.2]. We have collected for you a list of browsers,versions, and their [!DNL TLS] support. For more information, visit [this Wikipedia link](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers).
+Adobe highly recommends the use of [!DNL TLS 1.2], which is, at the time of writing, the latest version of the protocol. All modern browsers use [!DNL TLS 1.2]. We have collected for you a list of browsers, versions, and their [!DNL TLS] support. For more information on TLS browser support, visit [the Transport Layer Security Wikipedia link](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers).
+
+<!--
 
 <table id="table_C273E20039074BB7B6CFB1B877A086B8"> 
  <thead> 
@@ -420,3 +422,4 @@ We highly recommend the use of [!DNL TLS 1.2], which is, at the time of writing,
  </tbody> 
 </table>
 
+-->
