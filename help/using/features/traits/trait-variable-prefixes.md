@@ -36,7 +36,7 @@ The following table defines the common prefixes used by [!UICONTROL Trait Builde
   </tr> 
   <tr> 
    <td colname="col1"><code> d_</code> </td> 
-   <td colname="col2"> <p>At the <span class="keyword"> Audience Manager</span> level. This data is uniform across the <span class="keyword"> Audience Manager</span> ecosystem. See <a href="../../api/dcs-intro/dcs-api-reference/dcs-keys.md"> Supported Attributes for DCS API Calls</a> for a more complete list. <p>Signals using this prefix are not surfaced in <a href="../data-explorer/data-explorer-signals-search/data-explorer-signals-search.md">Signal Search</a>.</p></p> </td> 
+   <td colname="col2"> <p>At the <span class="keyword"> Audience Manager</span> level. This data is uniform across the <span class="keyword"> Audience Manager</span> ecosystem. See <a href="../../api/dcs-intro/dcs-api-reference/dcs-keys.md"> Supported Attributes for DCS API Calls</a> for a more complete list.</p> </td> 
   </tr>
   <tr> 
    <td colname="col1"><code> h_</code> </td> 
