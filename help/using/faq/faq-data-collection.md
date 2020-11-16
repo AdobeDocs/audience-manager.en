@@ -37,8 +37,8 @@ Yes, see below.
 
 | Server | IP Addresses |
 | ---------|----------|
-| ftp-in-gtw.demdex.com | 23.22.232.252; 18.211.109.184 |
-| ftp-out-gtw.demdex.com | 3.233.68.222; 52.3.74.119 |
+| ftp-in-gtw.demdex.com | 52.3.74.119; 3.233.68.222 |
+| ftp-out-gtw.demdex.com | 23.22.232.252; 18.211.109.184 |
 
 &nbsp;
 
