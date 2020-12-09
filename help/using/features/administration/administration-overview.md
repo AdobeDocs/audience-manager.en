@@ -14,6 +14,13 @@ feature: Administration
 
 ![](assets/rbac-controls.png) 
 
+>[!IMPORTANT]
+>
+> User account management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). To start user migration, we require all Audience Manager customers to immediately take the necessary measures described in this article: [Audience Manager user migration to Admin Console](admin-console-migration.md).
+> 
+> After all customers have migrated, the user management sections of this document will go away.
+
+
 The options under the [!UICONTROL Administration] menu let you create Audience Manager users and assign them to groups. You can also view limits (traits, segments, destinations, and models).
 
 Enterprise customers using [!DNL Audience Manager] need one data management platform for all of their data, but must be able to control the visibility of the different data elements to specific business units. You can accomplish this using group permissions, also referred to as [!UICONTROL Role-Based Access Control] ([!UICONTROL RBAC]).
@@ -24,6 +31,12 @@ Enterprise customers using [!DNL Audience Manager] need one data management plat
 
 <!-- t_create_users.xml -->
 
+>[!IMPORTANT]
+>
+> User account management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). To start user migration, we require all Audience Manager customers to immediately take the necessary measures described in this article: [Audience Manager user migration to Admin Console](admin-console-migration.md).
+> 
+> After all customers have migrated, the user management section of this document will go away.
+> 
 Create users in [!DNL Audience Manager] and specify user details, login status, and assign users to groups.
 
 1. Click **[!UICONTROL Administration]** > **[!UICONTROL Users]**.
@@ -47,6 +60,12 @@ Create users in [!DNL Audience Manager] and specify user details, login status, 
 
 ## Create a [!UICONTROL Group] {#create-group}
 
+>[!IMPORTANT]
+>
+> User account management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). To start user migration, we advise all Audience Manager customers to immediately take the necessary measures described in this article: [Audience Manager user migration to Admin Console](admin-console-migration.md).
+> 
+> After all customers have migrated, this section will go away.
+
 A *group* is a collection of users that share access rights to [!UICONTROL destination], [!UICONTROL segment], and [!UICONTROL trait] objects. You can limit groups to single objects only or give them broad access to combinations of different objects.
 
 <!-- t_create_groups.xml -->
@@ -54,18 +73,24 @@ A *group* is a collection of users that share access rights to [!UICONTROL desti
 To create a group:
 
 1. Click **[!UICONTROL Administration]** > **[!UICONTROL Groups]**.
-1. Click  ![](assets/icon_add.png) to open the [!UICONTROL Group Settings] page.
-1. In [!UICONTROL Group Details]:
+2. Click  ![](assets/icon_add.png) to open the [!UICONTROL Group Settings] page.
+3. In [!UICONTROL Group Details]:
    * Name the group.
    * Provide a brief group description.
-1. In [!UICONTROL Group Members], click a user from **[!UICONTROL Add Users]** options to add them to the group.
-1. In [!UICONTROL Group Permissions], select a [trait](../../features/traits/trait-details-page.md), [segment](../../features/segments/segments-purpose.md), or [destination](../../features/destinations/destinations.md) from **[!UICONTROL Add Object]**.
+4. In [!UICONTROL Group Members], click a user from **[!UICONTROL Add Users]** options to add them to the group.
+5. In [!UICONTROL Group Permissions], select a [trait](../../features/traits/trait-details-page.md), [segment](../../features/segments/segments-purpose.md), or [destination](../../features/destinations/destinations.md) from **[!UICONTROL Add Object]**.
    This opens a permissions window for your selected object.
-1. Select the check box for the permissions you want group members to have.
-1. *(Optional)* Assign [Wild Card Permissions](../../features/administration/administration-overview.md#wild-card-permissions) to the group.
-1. Click **[!UICONTROL Save Group]**.
+6. Select the check box for the permissions you want group members to have.
+7. *(Optional)* Assign [Wild Card Permissions](../../features/administration/administration-overview.md#wild-card-permissions) to the group.
+8. Click **[!UICONTROL Save Group]**.
 
 ## Understanding [!UICONTROL Wild Card Permissions] {#wild-card-permissions}
+
+>[!IMPORTANT]
+>
+> User account management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). To start user migration, we advise all Audience Manager customers to immediately take the necessary measures described in this article: [Audience Manager user migration to Admin Console](admin-console-migration.md).
+> 
+> After all customers have migrated, this section will go away.
 
 Simplify group rights management with [!UICONTROL Wild Card Permissions].
 
