@@ -8,7 +8,7 @@ uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
 feature: Inbound Data Transfers
 ---
 
-# [!DNL Amazon S3] Name and File Size Requirements for Inbound Data Files {#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
+# [!DNL Amazon S3] name and file size requirements for inbound data files {#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
 
 Describes the required fields, syntax, naming conventions and file sizes you need to follow when sending data to [!DNL Audience Manager]. Set the names and sizes of your files according to these specifications when you send data to an [!DNL Audience Manager] / [!DNL Amazon S3] directory.
 
@@ -16,7 +16,7 @@ Describes the required fields, syntax, naming conventions and file sizes you nee
 >
 >The text styles (`monospaced text`, *italics*, brackets `[ ]` `( )`, etc.) in this document indicate code elements and options. See [Style Conventions for Code and Text Elements](../../../reference/code-style-elements.md) for more information.
 
-## File Name Syntax {#file-name-syntax}
+## File name syntax {#file-name-syntax}
 
 [!DNL S3] file names contain the following required and optional elements:
 
@@ -34,7 +34,7 @@ Removed  {importance="high"} for ExL
 >
 >[!DNL Audience Manager] only processes [!DNL ASCII] and [!DNL UTF-8] encoded files.
 
-### Name Elements
+### Name elements
 
 The table defines the elements in an [!DNL S3] file name.
 
@@ -108,7 +108,7 @@ The table defines the elements in an [!DNL S3] file name.
  </tbody> 
 </table>
 
-## File Name Examples {#file-name-examples}
+## File name examples {#file-name-examples}
 
 The following examples show properly formatted file names. Your file names could look similar.
 
@@ -122,7 +122,7 @@ The following examples show properly formatted file names. Your file names could
 
 You can [download](assets/ftp_dpm_1234_1445374061.overwrite) the sample file if you want additional examples. This file has been saved with the `.overwrite` file extension. Open it with a simple text editor.
 
-## Accepted File Sizes {#accepted-file-sizes}
+## Accepted file sizes {#accepted-file-sizes}
 
 Consider the figures below for fastest/earliest processing of your files as well as for file size limitations when you send data to an [!DNL Audience Manager] / [!DNL Amazon S3] directory.  
 
@@ -148,9 +148,14 @@ Consider the figures below for fastest/earliest processing of your files as well
  </tbody> 
 </table>
 
+
 >[!NOTE]
 >
 >The inbound data validation process will mark empty files as invalid and will not process them.
+
+## Line length limits {#line-limits}
+
+Inbound data files have a line length limit of 102400 bytes. Lines exceeding this limit are excluded from the transfer.
 
 >[!MORELIKETHIS]
 >
