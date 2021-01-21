@@ -61,6 +61,7 @@ When you bring offline data online, you can still use this information for offli
   <tr> 
    <td colname="col02"> S3 </td> 
    <td colname="col2"> <p> <code> demdex-s2s-clients</code> </p> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td colname="col1" morerows="1"> <b>Beta Environment</b> </td> 
@@ -70,6 +71,7 @@ When you bring offline data online, you can still use this information for offli
   <tr> 
    <td colname="col02"> S3 </td> 
    <td colname="col2"> <p> <code> demdex-s2s-clients-sandbox-us-east-1</code> </p> </td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
