@@ -107,6 +107,15 @@ Yes, you can see all influential traits for all baselines in the model reporting
 
 &nbsp;
 
+**Can I change the time to live (TTL) for predictive traits?**
+
+Predictive trait TTL is set to 0 (lifetime) and cannot be changed. [!UICONTROL Predictive Audiences] can only unsegment users from predictive segments when they qualify for either the base segment or they get reclassified into a diferent predictive segment.
+
+If needed, you can work around this functionality by creating a new segment that contains both a predictive trait and an activity trait with a specified TTL.
+
+&nbsp;
+
+
 **What happens to the model if I edit one of its baseline traits or segments?**
 
 The model evaluates the traits or segments once a day. You should see the updated classification the next day after your update.
