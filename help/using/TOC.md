@@ -31,6 +31,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 + Features{#features}
     + [Addressable Audiences](features/addressable-audiences.md)
     + Administration{#administration}
+        + [Audience Manager User Migration to Admin Console](features/administration/admin-console-migration.md)
         + [Administration](features/administration/administration-overview.md)
         + [Edit Your Account Settings](features/administration/edit-account-settings.md)
         + [IP Address Obfuscation](features/administration/ip-obfuscation.md)
