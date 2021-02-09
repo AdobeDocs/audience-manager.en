@@ -402,6 +402,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
     + [We are not an Audience Manager customer, but see the Audience Manager Javascript calls on our site](/help/using/support-issues/not-using-aam-but-seeing-aam-javascript.md)
     + [Should I see my Audience Manager Audience Lab mapped segments on the destination details page?](/help/using/support-issues/should-i-see-audience-lab-mapped-segments-on-the-destination-page.md)
 + Documentation Updates{#documentation-updates}
+    + [2021 Documentation Updates](docs-updates/docs-2021.md)
     + [2020 Documentation Updates](docs-updates/docs-2020.md)
     + [2019 Documentation Updates](docs-updates/docs-2019.md)
     + [2018 Documentation Updates](docs-updates/docs-2018.md)

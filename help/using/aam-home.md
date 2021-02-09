@@ -154,10 +154,8 @@ This technical documentation guide provides self-help assistance for Audience Ma
      <br>&nbsp;
      <p> <b>Latest features</b> </p> <p> 
      Read about the latest Audience Manager features:</p>
-     <p><ul><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">Google Customer Match for People-Based Destinations</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager Plug-in for IAB TCF v2.0</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Predictive Audiences</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Activity Usage Reporting</a></li>
-     <li><a href="/help/using/overview/data-security-and-privacy/data-privacy.md">California Consumer Privacy Act (CCPA) Support and Privacy Documentation Overhaul</a></li>
-     <li><a href="/help/using/features/segments/trait-recommendations.md">Intelligent Recommendations for Audience Marketplace Data, powered by Adobe Sensei</a></li>
-     </ul><p>
+     <p><ul><li><a href="/help/using/docs-updates/docs-2021.md">Audience Manager user migration to Admin Console</a></li><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">Google Customer Match for People-Based Destinations</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager Plug-in for IAB TCF v2.0</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Predictive Audiences</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Activity Usage Reporting</a></li>
+     </ul></p>
     </td>
   </tr> 
  </tbody> 
@@ -203,7 +201,7 @@ Read about the latest Audience Manager features:
       <li id="li_0DB1997FEB87484EBC07E03FD40AA39F"><a href="https://helpx.adobe.com/support/audience-manager.html" format="https" scope="external"> Audience Manager Learn &amp; Support</a> </li> 
      </ul> </p> 
      <br>&nbsp;
-     <p>See also, <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/documentation-updates/docs-2020.html"> 2020 Documentation Updates</a>. </p> </td>
+     <p>See also, <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/documentation-updates/docs-2021.html"> 2021 Documentation Updates</a>. </p> </td>
   </tr> 
  </tbody> 
 </table>
