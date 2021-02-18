@@ -154,7 +154,7 @@ Audience Manager updates reporting numbers in the interface once per day.   The 
 
 ### Segment composition in Experience Platform
 
-The integration between Adobe Experience Platform and Audience Manager shares a number of standard [identity namespaces](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html#identity-types) for all customers: ECID, IDFA, GAID, hashed email addresses (EMAIL_LC_SHA256), AdCloud ID, etc.. If your Experience Platform segments use any of these as primary identity for the qualified profiles, the profiles are counted in Audience Manager traits and segments.
+The integration between Adobe Experience Platform and Audience Manager shares a number of standard [identity namespaces](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html#identity-types) for all customers: ECID, IDFA, GAID, hashed email addresses (EMAIL_LC_SHA256), AdCloud ID. If your Experience Platform segments use any of these as primary identity for the qualified profiles, the profiles are counted in Audience Manager traits and segments.
 
 Additionally, Audience Manager can register the incoming realizations for any custom identity namespaces that you use in Experience Platform segments if:
 * the identity is marked as primary *and* 
