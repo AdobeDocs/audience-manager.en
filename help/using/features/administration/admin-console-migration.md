@@ -20,7 +20,7 @@ The benefits of using the [!DNL Admin Console] include:
 |---|---|
 | Single sign-on across solutions | [!DNL Audience Manager] users can sign in to [!DNL Experience Cloud] and all other solutions using their [!DNL Adobe ID] or [!DNL Enterprise ID]. This sign-in enables access to integrated solutions and core services across [!DNL Experience Cloud]. After the migration, users who attempt to sign in via legacy logins (`bank.demdex.com`) will be redirected to `experiencecloud.adobe.com`. |
 | Manage users and groups | Once the migration is complete, [!DNL Audience Manager] administrators will manage users and groups exclusively in the [[!DNL Admin Console]](http://adminconsole.adobe.com/enterprise/).|
-|Manage products and services | From the [[!DNL Admin Console]](http://adminconsole.adobe.com/enterprise/), administrators can: <ul><li>Create, update, and remove users</li><li>Grant access to solutions and services</li><li>Grant user permissions</li></ul> |
+|Manage products and services | From the [[!DNL Admin Console]](http://adminconsole.adobe.com/enterprise/), administrators can: <ul><li>Create, update, and remove users</li><li>Grant access to solutions and services</li></ul> |
 
 To facilitate user migration, we are asking all [!DNL Audience Manager] administrators to start migrating their user accounts to [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) as soon as possible, by following the steps described in this article.
 
@@ -41,6 +41,6 @@ Audience Manager administrators should follow the steps below to migrate users t
 
 Both users and administrators should keep in mind the following considerations for Audience Manager user migration:
 
-* Once new user accounts are created in Admin Console, their existing permissions from their legacy user accounts will automatically carry over. There is no need for administrators to assign new permissions in [!DNL Admin Console].
-* Administrators do not need to disable legacy user accounts. Old user accounts will automatically be merged into the migrated ones.
+* Once new user accounts are created in Admin Console, their existing permissions from their legacy user accounts will still apply.
 * Updates to user permissions will still be managed from [!DNL Audience Manager]. The [!DNL Admin Console] only covers user and group management.
+* Administrators do not need to disable legacy user accounts. Old user accounts will automatically be merged into the migrated ones.
