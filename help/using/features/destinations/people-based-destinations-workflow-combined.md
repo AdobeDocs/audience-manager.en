@@ -79,7 +79,7 @@ Let's say you want to match your existing [DPUUIDs](../../reference/ids-in-aam.m
 
 &nbsp;
 
-You can link up to 10 hashed email addresses to a single [DPUUID](../../reference/ids-in-aam.md). To do this, separate the hashed email addresses with a comma, inside the synchronization file.
+You can link up to 10 hashed email addresses to a single [DPUUID](../../reference/ids-in-aam.md). To do this, separate the hashed email addresses with a `<TAB>`, inside the synchronization file.
 
 In our example, you would now have two data sources.
 
