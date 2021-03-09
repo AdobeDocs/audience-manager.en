@@ -72,6 +72,10 @@ As long as the email address is hashed and ingested correctly, there should be n
 
 Audience Manager can collect and send up to 10 emails per user to destination platforms, but the email addresses need to be captured through synchronization files. After Audience Manager sends the email addresses to destination platforms, it is up to the platforms to match the email addresses against their own user base. Some platforms may have additional email address graphs to match addresses sent from Audience Manager to user profiles.
 
+**Can I use [!DNL People-Based Destinations] in [!DNL Audience Lab]?**
+
+No. Currently, all [!DNL People-Based Destinations] destinations are excluded from [!DNL Audience Lab]. Given that [!DNL People-Based Destinations] and demand-side platforms use different IDs, you cannot test and measure performance with audiences evenly split between them.
+
 ## Data Export Controls {#data-export-controls}
 
 **How do [!DNL Data Export Controls] work with [!DNL People-Based Destinations]?**
