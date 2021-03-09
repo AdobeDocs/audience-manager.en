@@ -52,7 +52,7 @@ Start by watching the [Create Segments in Audience Manager video](https://images
 
 Watch the video below for a detailed look at how cross-device metrics work.
 
->[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
+>[!VIDEO](https://video.tv.adobe.com/v/33445)
 
 ## [!UICONTROL Segment Builder] Controls: [!UICONTROL Basic Information] Section {#segment-builder-controls-basics}
 
