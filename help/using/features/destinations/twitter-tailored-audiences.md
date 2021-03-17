@@ -53,7 +53,7 @@ After you have linked Audience Manager and your [!DNL Twitter Tailored Audiences
 When mapping audience segments to [!UICONTROL Twitter], make sure to meet the following segment naming requirements:
 
 * Provide human-readable segment mapping names. We recommend using the same name that you used for the Audience Manager segments.
-* Do not use special characters (`,` `%` `:` `;` `@` `/` `=` `?` `$`) in segment and segment mapping names. If your Audience Manager segment name contains these characters, please remove them before mapping the segment to a [!UICONTROL Twitter] destination.
+* Do not use special characters (`+` `&` `,` `%` `:` `;` `@` `/` `=` `?` `$`) in segment and segment mapping names. If your Audience Manager segment name contains these characters, please remove them before mapping the segment to a [!UICONTROL Twitter] destination.
 
 ### Example
 
