@@ -93,6 +93,14 @@ The file contains user IDs ([!DNL UUID]). In each row, separate the IDs with a t
 abc123 def456 ghi789 xyz987
 ```
 
+### File Content Considerations {#considerations}
+
+When creating your inbound files, make sure the first column is only populated with device IDs, such as [!DNL AAM UUID], [!DNL GAID], [!DNL IDFA], and so on. See [Index of IDs in Audience Manager](../../../reference/ids-in-aam.md) for a detailed explanation of IDs supported by Audience Manager.
+
+>[!IMPORTANT]
+>
+>Do not use [DPUUIDs](../../../reference/ids-in-aam.md) on the first column. Doing so can result in incorrect synchronization.
+
 ## Synchronization Matches DPUUIDs to UUIDs {#sync-matches-dpuuids-uuids}
 
 The purpose of an ID sync file is to sync the [DPUUIDs](../../../reference/ids-in-aam.md) from your own Data Sources with [!DNL Audience Manager] UUIDs. Synchronization maps the [!DNL DPUUID]s from the master [!DNL DPID] and its related [!DNL DPID]s to the [!DNL Audience Manager] [!DNL UUID]s. Where you put the IDs in the file name and body determines how these identifiers are mapped to each other. For example, take the two sample files shown here:
