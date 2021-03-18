@@ -42,7 +42,7 @@ ID file names contain the following required and optional elements:
   </tr> 
   <tr> 
    <td colname="col1"><code><i>MASTERDPID</i></code> </td> 
-   <td colname="col2"> The master data provider ID is the parent ID of the DPIDs in the file name. Also, the first user ID in the data file corresponds to the master ID. The subsequent DPIDs are other identifiers that belong to the master. Synchronization maps DPIDs in the file name to UUIDs in the file. </td> 
+   <td colname="col2"> <p>The master data provider ID is the parent ID of the DPIDs in the file name. Also, the first user ID in the data file corresponds to the master ID. The subsequent DPIDs are other identifiers that belong to the master. Synchronization maps DPIDs in the file name to UUIDs in the file.</p> <p>This DPID must only contain device IDs, such as AAM UUID, GAID, IDFA, and so on. It cannot contain DPUUIDs. Doing so can result in incorrect synchronization.</p>  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>DPID</i></code> </p> </td> 
