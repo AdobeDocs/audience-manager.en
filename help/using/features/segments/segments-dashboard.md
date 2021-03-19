@@ -10,7 +10,7 @@ feature: Segments
 
 # Segments List View {#segments-list-view}
 
-The [Segments dashboard](https://bank.demdex.com/portal/Segments/SegmentBuilder.ddx#list) is a centralized workspace for managing your audience segments. You can see the [!UICONTROL Segments] dashboard by navigating to **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]**.
+The [!UICONTROL Segments dashboard] is a centralized workspace for managing your audience segments. You can see the [!UICONTROL Segments] dashboard by navigating to **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]**.
 
 ![segments-dashboard](assets/segments-dashboard.png)
 
