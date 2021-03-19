@@ -23,7 +23,7 @@ In our continuing support of this model, [!DNL Audience Manager] remains committ
 
 ## [!DNL GDPR] {#gdpr}
 
-The [General Data Protection Regulation (GDPR)](https://eugdpr.org/) introduced several new data privacy rights for members of the European Union, including the **Right to Access** and the **Right to be Forgotten**. This means that any [!DNL EU] citizen whose personal data has been collected by your business can request to access or delete their data at any time. Failure to comply with these requests can result in multi-million dollar fines for your organization.
+The [General Data Protection Regulation (GDPR)](https://gdpr.eu/data-privacy/) introduced several new data privacy rights for members of the European Union, including the **Right to Access** and the **Right to be Forgotten**. This means that any [!DNL EU] citizen whose personal data has been collected by your business can request to access or delete their data at any time. Failure to comply with these requests can result in multi-million dollar fines for your organization.
 
 To comply with [!DNL GDPR], [!DNL Audience Manager] supports data access and delete [requests](data-privacy-requests.md).
 

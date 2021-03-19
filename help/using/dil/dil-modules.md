@@ -305,6 +305,6 @@ The URL event call to Audience Manager could look similar to this:
 >[!MORELIKETHIS]
 >
 >* [Google Analytics Tracking Code](https://developers.google.com/analytics/devguides/collection/gajs/methods/)
->* [Complete Web Upgrade: ga.js/dc.js to analytics.js](https://developers.google.com/analytics/devguides/collection/upgrade/reference/gajs-analyticsjs)
+>* [Complete Web Upgrade: ga.js/dc.js to analytics.js](https://developers.google.com/analytics/devguides/collection/upgrade)
 >* [Adding analytics.js to Your Site](https://developers.google.com/analytics/devguides/collection/analyticsjs/)
 >* [ga Object Methods Reference](https://developers.google.com/analytics/devguides/collection/analyticsjs/ga-object-methods-reference)

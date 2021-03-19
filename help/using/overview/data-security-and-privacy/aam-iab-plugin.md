@@ -93,7 +93,7 @@ Every vendor registered in the IAB TCF evaluates the IAB TC string and makes dec
 
 ## Purposes Required by Audience Manager {#aam-standard-purposes}
 
-Audience Manager evaluates the users' choices stored in the IAB TC string for the following purposes, defined in the [IAB Europe Transparency & Consent Framework Policies](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#A_Purposes). Additionally, you can also find the purposes in the [global vendor list](https://vendorlist.consensu.org/vendorlist.json).
+Audience Manager evaluates the users' choices stored in the IAB TC string for the following purposes, defined in the [IAB Europe Transparency & Consent Framework Policies](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#Appendix_A_Purposes_and_Features_Definitions). 
 
 * **Purpose 1**: Store and/or access information on a device;
 * **Purpose 10**: Develop and improve products;

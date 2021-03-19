@@ -10,7 +10,7 @@ feature: Traits
 
 # Traits Dashboard {#traits-dashboard}
 
-The [Traits dashboard](https://bank.demdex.com/portal/Traits/Traits.ddx#show/list) is a centralized workspace for managing traits. You can see the [!UICONTROL Traits] dashboard by navigating to **[!UICONTROL Audience Data]** > **[!UICONTROL Traits]**.
+The traits dashboard is a centralized workspace for managing traits. You can see the [!UICONTROL Traits] dashboard by navigating to **[!UICONTROL Audience Data]** > **[!UICONTROL Traits]**.
 
 ![](assets/traits-dashboard.png)
 
