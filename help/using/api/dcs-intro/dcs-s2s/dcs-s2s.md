@@ -17,7 +17,7 @@ Server-to-server ([!UICONTROL S2S]) [!DNL API]s provide code and methods that le
 [!UICONTROL Server-to-server] transfers can help you customize landing pages or other interactions based on visitor interests. Some common use cases include:
 
 * On-site personalization: Tailor a visitor’s experience on your site by dynamically adding relevant content and calls to action based on the segments they belong to.
-* Improve customer service: Import [!DNL Audience Manager] segments into a [!DNL CRM] or other system through a server-to-server data transfer. This data can provide call service or on-line chat operators with relevant, personalized information about a customer.
+* Improve customer service: Import [!DNL Audience Manager] segments into a [!DNL CRM] or other system through a server-to-server data transfer. This data can provide call service or on-line chat operators with relevant, personalized information about a customer. 
 
 ## Requirements: User IDs and Regional Server Names {#requirements}
 

@@ -14,7 +14,7 @@ This section describes how to parse a [!DNL DCS] response to retrieve the visito
 
 ## User and Region IDs {#user-region-ids}
 
-A [!DNL DCS] response contains data about your site visitors. You need the visitor and region ID before you can make server-to-server calls to the [!DNL DCS].
+A [!DNL DCS] response contains data about your site visitors. You need the visitor and region ID before you can make server-to-server calls to the [!DNL DCS]. 
 
 * The user ID is required to identify and associate data with a particular visitor.
 * The region ID is required because it is tied to a regional server name, which you need to send data to the [!DNL DCS]. The [!DNL DCS] stores information in data centers that are geographically closest to site visitors. See [DCS Region IDs, Locations, and Host Names](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
