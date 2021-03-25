@@ -27,8 +27,6 @@ This technical documentation guide provides self-help assistance for Audience Ma
 * See the latest Audience Manager release notes and read about the latest features in the section **Release Notes and Latest Features**.
 * Finally, you can explore more Experience Cloud resources like forums, video tutorials, in-person and online training courses in the section **Learning Center - Recommended Audience Manager and Experience Cloud Resources**.
 
-<br>&nbsp;
-
 ## Audience Manager main functionality
 
 <table>
@@ -64,8 +62,6 @@ This technical documentation guide provides self-help assistance for Audience Ma
    </td>
 </table>
 
-
-<br>&nbsp;
 
 ## Get Started with Audience Manager
 
@@ -142,8 +138,6 @@ This technical documentation guide provides self-help assistance for Audience Ma
 
 -->
 
-<br>&nbsp;
-
 ## Release Notes and Latest Features
 
 <table> 
@@ -180,7 +174,6 @@ Read about the latest Audience Manager features:
 
 -->
 
-<br>&nbsp;
 
 ## Learning Center - Recommended Audience Manager and Experience Cloud Resources
 

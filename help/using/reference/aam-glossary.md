@@ -20,8 +20,6 @@ Use [!UICONTROL Algorithmic Modeling] as a means of extending reach beyond the c
 
 See [Understanding Algorithmic Models](../features/algorithmic-models/algo-models-overview.md).
 
-<br>&nbsp;
-
 **BAAAM**
 
 [!UICONTROL Bulk Management Tools]. The [!UICONTROL Bulk Management Tools] in [!DNL Audience Manager] are a Microsoft Excel-based set of tools that let you create, modify or delete multiple objects at once with a single operation. You can work with data sources, derived signals, destinations, folders, segments, and traits. The feature uses a Microsoft Excel spreadsheet with macros that make secure, authenticated calls to the [!DNL Audience Manager] APIs.
@@ -36,15 +34,13 @@ See [Bulk Management Tools](../reference/bulk-management-tools/bulk-management-i
 
 See [Customer Data Feeds](../features/cdf-files.md).
 
-<br>&nbsp;
-
 **CRM ID**
 
 The CRM ID is the ID by which customers identify users in their own CRM system. Instead of CRM ID, we use the term DPUUID in Audience Manager.
 
 See DPUUID in the [Index of IDs in Audience Manager](../reference/ids-in-aam.md).
 
-<br>&nbsp;
+
 
 **Customer Addressable Audience**
 
@@ -53,25 +49,25 @@ In [Addressable Audience](/help/using/features/addressable-audiences.md), this m
   **AND**
 * Have an ID sync with the chosen destination regardless of the time of syncs.
 
-<br>&nbsp;
+
 
 **Customer Attributes**
 
 See [Customer Attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) in the [!DNL Experience Cloud Core Services] product documentation.
 
-<br>&nbsp;
+
 
 **Customer Match Rate**
 
 Customer Addressable Audience ÷ Customer Total Audience expressed as a %. See [Addressable Audience](/help/using/features/addressable-audiences.md).
 
-<br>&nbsp;
+
 
 **Customer Total Audience**
 
 In [Addressable Audience](/help/using/features/addressable-audiences.md), this metric represents a count of devices that have realized either a rule-based trait on your properties or an onboarded trait from your offline files during the look-back window.
 
-<br>&nbsp;
+
 
 **demdex.net**
 
@@ -79,7 +75,7 @@ Demdex.net is a legacy domain controlled by [!DNL Adobe]. It reflects [!DNL Audi
 
 See [Understanding Calls to the Demdex Domain](../reference/demdex-calls.md).
 
-<br>&nbsp;
+
 
 **DAID**
 
@@ -87,19 +83,19 @@ See [Understanding Calls to the Demdex Domain](../reference/demdex-calls.md).
 
 See the [Index of IDs in Audience Manager](../reference/ids-in-aam.md).
 
-<br>&nbsp;
+
 
 **Destination**
 
 In [!DNL Audience Manager], a destination is any other system (ad server, DSP, ad network, etc.) that you want to share data with. The [!UICONTROL Destination Builder] in our UI provides the tools that let you create and manage these data delivery processes. [!DNL Audience Manager] destination features are located in **[!UICONTROL Audience Data > Destinations]**.
 
-<br>&nbsp;
+
 
 **DIL**
 
 The [!UICONTROL Data Integration Library] is an API library used by [!DNL Audience Manager] to collect user interaction data. See [Data Integration Library (DIL) API](../dil/dil-overview.md).
 
-<br>&nbsp;
+
 
 **dpm**
 
@@ -111,7 +107,7 @@ The [!UICONTROL Data Integration Library] is an API library used by [!DNL Audien
 
 Previously named the [!DNL Marketing Cloud] ID (MID or MCID). The [!DNL Experience Cloud] ID is central to the ID Service. It is a unique and persistent identifier for your site visitors. See Cookies and the [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html).
 
-<br>&nbsp;
+
 
 **Folder Trait**
 
@@ -119,7 +115,7 @@ Automatic grouping of traits inside your folder taxonomy. Each folder in your hi
 
 See [Folder Traits: About](../features/traits/about-folder-traits.md).
 
-<br>&nbsp;
+
 
 **Frequency Capping**
 
@@ -133,7 +129,7 @@ See [Recency and Frequency](../features/segments/recency-and-frequency.md).
 
 Google Advertising ID, the unique device ID that Google assigns to hardware devices running the Android operating system. See the [Index of IDs in Audience Manager](../reference/ids-in-aam.md).
 
-<br>&nbsp;
+
 
 **GUID**
 
@@ -146,13 +142,13 @@ See [Index of IDs in Audience Manager](../reference/ids-in-aam.md).
 
 Identifier for Advertisers, the unique device ID Apple assigns to its products. See the [Index of IDs in Audience Manager](../reference/ids-in-aam.md).
 
-<br>&nbsp;
+
 
 **Inbound**
 
 The process by which you can send audience data from other sources to [!DNL Audience Manager]. See [Sending Audience Data](/help/using/integration/sending-audience-data/send-audience-data.md).
 
-<br>&nbsp;
+
 
 **Integration Code**
 
@@ -182,13 +178,13 @@ See the [Experience Cloud ID](../reference/aam-glossary.md#e-f).
 
 See [Data Collection Components](../reference/system-components/components-data-collection.md).
 
-<br>&nbsp;
+
 
 **Profile Link**
 
 See [Profile Merge Rule Options Defined](../features/profile-merge-rules/merge-rule-definitions.md).
 
-<br>&nbsp;
+
 
 **Profile Merge Rules**
 
@@ -210,25 +206,25 @@ A segment (or an audience) is a set of users who share common attributes.
 
 See [Segments: Purpose, Composition, and Rules](../features/segments/segments-purpose.md).
 
-<br>&nbsp;
+
 
 **Segment Addressable Audience**
 
 In [Addressable Audience](/help/using/features/addressable-audiences.md), this metric represents the number of users who have belonged to the segment during the report look-back period and have an active ID sync on your site. Segments can include your own first-party data and second party and third party data, via traits acquired in the [Audience Marketplace](/help/using/features/audience-marketplace/audience-marketplace.md).
 
-<br>&nbsp;
+
 
 **Segment Total Population**
 
 In [Addressable Audience](/help/using/features/addressable-audiences.md), this metric represents a count of all the devices that were a member of your segment during the report look-back period.
 
-<br>&nbsp;
+
 
 **Segment Match Rate**
 
 Segment Addressable Audience ÷ Total Segment Population expressed as a %. See [Addressable Audience](/help/using/features/addressable-audiences.md).
 
-<br>&nbsp;
+
 
 **Signal**
 
@@ -236,13 +232,13 @@ Signals are the smallest data units in [!DNL Audience Manager] and are expressed
 
 See [Signals, Traits, and Segments](../reference/signal-trait-segment.md).
 
-<br>&nbsp;
+
 
 **Trait**
 
 A trait is a combination of one or more signals. See [Signals, Traits, and Segments](../reference/signal-trait-segment.md).
 
-<br>&nbsp;
+
 
 **Trait Population**
 
@@ -252,7 +248,7 @@ See [Trait and Segment Population Data in Segment Builder](../features/segments/
 
 TTL defines how many days a qualified visitor remains in a trait. TTL is set on traits and not on segments. Visitors fall out of a segment if they do not see a qualifying trait before the end of the TTL interval. Read more in [Segment and Trait Time-to-Live Explained](/help/using/features/traits/segment-ttl-explained.md).
 
-<br>&nbsp;
+
 
 ## U-V {#u-v}
 
@@ -260,7 +256,7 @@ TTL defines how many days a qualified visitor remains in a trait. TTL is set on 
 
 [!DNL Audience Manager] Unique User ID. See the [Index of IDs in Audience Manager](../reference/ids-in-aam.md).
 
-<br>&nbsp;
+
 
 **Visitor ID**
 

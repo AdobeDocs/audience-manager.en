@@ -39,6 +39,8 @@ To understand the prefixes used in the following examples, see [Supported Attrib
 |[!DNL CID], [!DNL CID_IC]|[!UICONTROL Customer ID], [!UICONTROL Customer ID Integration Code]. The [!DNL CID] and [!DNL CID_IC] key-value pairs replace [!DNL DPID] and [!DNL DPUUID]. They provide the same functions as the [!DNL DPID] and [!DNL DPUUID], but are more efficient because they include the data provider ID and user ID (or integration code) in a single key-value pair. |In [!DNL DCS] calls, these IDs are preceded by the `d_` prefix. <br>Example: `d_cid_ic=39217_myIntegrationCode`.| See `DPID` and `DPUUID`.|
 |[!DNL DAID]|[!UICONTROL Device Advertising ID]. An ID unique to each hardware device, to be used for advertising purposes. Usually provided by the manufacturer of the device or device operating system. |See [Global Device IDs](#global-device-ids). ||
 
+{style="table-layout:auto"}
+
 ## [!DNL Global Device IDs] {#global-device-ids}
 
 Global device IDs are device advertising IDs, unique to each device, provided by the device manufacturer or the operating system. The table below explains what these IDs are and what their format is. For more information about global device IDs and how to use them in [!DNL Audience Manager], read [Global Data Sources](/help/using/features/global-data-sources.md).
