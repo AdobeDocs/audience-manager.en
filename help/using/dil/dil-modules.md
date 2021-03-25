@@ -26,7 +26,7 @@ Works with [!UICONTROL DIL] to send [!DNL Analytics] tag elements (variables, pr
 
 >[!NOTE]
 >
->You must place this code on the page *before* the `s.t();` function.
+>You must place this code on the page *before* the `s.t();` function. 
 
 <!-- 
 

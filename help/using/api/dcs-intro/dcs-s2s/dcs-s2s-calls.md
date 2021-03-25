@@ -13,7 +13,7 @@ Calls require the host name of the regional DCS server and the user ID. If you d
 
 >[!NOTE]
 >
->In the code and examples, *italics* represents a variable placeholder. Substitute a real value for the placeholder when you server-to-server calls to the [!DNL DCS].
+>In the code and examples, *italics* represents a variable placeholder. Substitute a real value for the placeholder when you server-to-server calls to the [!DNL DCS]. 
 
 ## Call Syntax and Example {#call-syntax-example}
 

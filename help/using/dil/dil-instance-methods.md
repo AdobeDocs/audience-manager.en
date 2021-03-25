@@ -24,7 +24,7 @@ c_api_overview.xml
 When working with the instance-level [!UICONTROL DIL] APIs:
 
 * Access requires a partner name and container namespace ID (NSID). Contact your Audience Manager account manager to obtain this information. 
-* Replace any sample *italicized* text in the API documentation with value, ID, or other variable as required by the method you're working with.
+* Replace any sample *italicized* text in the API documentation with value, ID, or other variable as required by the method you're working with. 
 
 <!-- 
 

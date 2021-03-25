@@ -10,7 +10,7 @@ feature: DCS
 
 # Get User IDs and Regions Through the Adobe Experience Platform Identity Service {#get-user-ids-and-regions-through-the-experience-cloud-id-service} 
 
-ID service customers should refer to this section for information on how to read the visitor cookie for the IDs required to make [!DNL DCS] API calls.
+ID service customers should refer to this section for information on how to read the visitor cookie for the IDs required to make [!DNL DCS] API calls. 
 
 ## Get the User ID from the ID Service Cookie {#get-user-ids-from-service-cookie}
 
