@@ -71,14 +71,14 @@ This technical documentation guide provides self-help assistance for Audience Ma
    <td colname="col1"> <p><b>Important Conceptual Documentation</b></p>
    <p>Read the pages below for a deeper understanding of Audience Manager concepts: 
    <ul><li><a href="/help/using/overview/aam-overview.md"> Audience Manager Overview</a></li><li><a href="/help/using/reference/signal-trait-segment.md">Signals, Traits, and Segments</a></li><li><a href="/help/using/reference/aam-glossary.md"> Glossary</a> </li><li><a href="/help/using/reference/ids-in-aam.md">Index of IDs</a></li></ul></p>
-   <br>&nbsp;
+
    <p><b>Implement Audience Manager</b></p>
    <p> Get started with implementing Audience Manager by reading the pages below:
      <ul>
      <li><a href="/help/using/integration/data-integration-methods.md">Data Integration Methods</a></li>
      <li><a href="/help/using/integration/implement-audience-manager.md">Implementation Guide</a></li>
      </ul> </p>
-     <br>&nbsp;
+
    <p> <b>Technical Implementation Guides</b> </p> <p>Get started with Audience Manager APIs and set up Audience Manager in your app:</p> <p> 
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
      <li><a href="/help/using/api/rest-api-main/aam-api-getting-started.md">Getting Started with REST APIs</a></li>
@@ -145,7 +145,6 @@ This technical documentation guide provides self-help assistance for Audience Ma
   <tr> 
    <td> <p> <b>Release Notes</b> </p> <p> 
      See the latest <a href="https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html" format="https" scope="external"> Experience Cloud Release Notes</a> for new features and fixes.</p> 
-     <br>&nbsp;
      <p> <b>Latest features</b> </p> <p> 
      Read about the latest Audience Manager features:</p>
      <p><ul><li><a href="/help/using/docs-updates/docs-2021.md">Audience Manager user migration to Admin Console</a></li><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">Google Customer Match for People-Based Destinations</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager Plug-in for IAB TCF v2.0</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Predictive Audiences</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Activity Usage Reporting</a></li>
@@ -193,7 +192,6 @@ Read about the latest Audience Manager features:
       <li id="li_C71459E0D1464C05B8B9387C43541F17"> <a href="https://helpx.adobe.com/support/experience-cloud.html" scope="external" format="https">Experience Cloud Product Documentation Home</a> </li> 
       <li id="li_0DB1997FEB87484EBC07E03FD40AA39F"><a href="https://helpx.adobe.com/support/audience-manager.html" format="https" scope="external"> Audience Manager Learn &amp; Support</a> </li> 
      </ul> </p> 
-     <br>&nbsp;
      <p>See also, <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/documentation-updates/docs-2021.html"> 2021 Documentation Updates</a>. </p> </td>
   </tr> 
  </tbody> 
