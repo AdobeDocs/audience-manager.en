@@ -38,8 +38,6 @@ The tables list the current limits by item type. You cannot create new traits, s
 | Onboarded                  | 100,000  |
 | Folder Traits              | 2,000    |
 
-{style="table-layout:auto"}
-
 ### Segment Limits
 
 | Segment Type   | Maximum Limit |
@@ -63,10 +61,8 @@ The tables list the current limits by item type. You cannot create new traits, s
 | Active [!UICONTROL Look-Alike Models]  | 20. Audience Manager only counts *active* algorithmic models against the limit.|
 | [!UICONTROL Look-Alike Models] maximum audience size | 25,000,000.  Note that this limit cannot be increased. You can decrease audience sizes by selecting fewer data sources for the model or by selecting a shorter look-back window. |
 | Maximum number of excluded traits for a [!UICONTROL Look-Alike Model] | 500. See [Trait Exclusion in Algorithmic Modeling](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md). |
-|Naximum [!UICONTROL Predictive Audiences Models]|10|
-|Maxium number of baseline personas for [!UICONTROL Predictive Audiences Models]|50|
-
-{style="table-layout:auto"}
+|Maximum [!UICONTROL Predictive Audiences Models]|10|
+|Maximum number of baseline personas for [!UICONTROL Predictive Audiences Models]|50|
 
 ### Folder Limits
 
