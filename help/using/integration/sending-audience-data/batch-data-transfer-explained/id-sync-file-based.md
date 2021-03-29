@@ -123,6 +123,8 @@ Given the sample name and contents, the IDs map together like this:
 |  66552757407517449462805881945288602094  | XYZ3017QvBddD-bLJS28DPxiqUfmIBxE3_55bvQJMLwregJU2M  |
 |  66184778222667870903738139438735041506  | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw  |
 
+{style="table-layout:auto"}
+
 Step 1: the ID sync process will sync the [!DNL DPUUID]s from [!DNL DPID] 12345 with the [!DNL Audience Manager] [!DNL UUID]s in the left column. Note that the [!DNL DPID] "0" in the file name represents [!DNL Audience Manager] [!DNL UUID]s.
 <br/>
 
@@ -135,6 +137,8 @@ Step 1: the ID sync process will sync the [!DNL DPUUID]s from [!DNL DPID] 12345 
 |  XYZ3017PryPID8tzfhkEE-gE034LI-53Jde0utCYcIwd0A2OlM  | 4392434426  |
 |  XYZ3017QvBddD-bLJS28DPxiqUfmIBxE3_55bvQJMLwregJU2M  | 2351382994  |
 |  XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw  | 4601584763  |
+
+{style="table-layout:auto"}
 
 Step 2: the [!DNL DPUUID]s from [!DNL DPID] 12345 have been synced in step 1 with the Audience Manager [!DNL UUID]s. What this ID sync will do is sync the [!DNL DPUUID]s from [!DNL DPID] 67890 with the Audience Manager [!DNL UUID]s from step 1.
 
