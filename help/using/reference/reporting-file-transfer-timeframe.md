@@ -38,6 +38,8 @@ The following table lists and describes the time intervals in our general and re
 |Outbound (Export) Files|File processing and delivery takes place once per day, at approximately 14:00 UTC. Keep in mind that processing and delivery are affected by the total number and size of these files. In some cases, there may be a delay in file processing for as long as 24-hours. When this happens, Audience Manager will send 2 files for a particular day instead of 1. We will notify our customers in the rare case where Audience Manager has to stop processing a file altogether. Given these conditions, it is difficult to estimate delivery times for outbound data. To determine if you've received a complete set of files, check the timestamp and look for any missing days. This is a 13-digit, UNIX UTC timestamp that records the time when the file was created. See [Real-Time Outbound Data Transfers](../integration/receiving-audience-data/real-time-outbound-transfers/real-time-outbound-transfers.md).|
 |Ad Server Log Files | File processing is executed in near real time to ingest log file records as the hourly files are ready. The process to prepare the files for reporting is executed once a day. File delivery times vary because they are affected by the total amount of customer data that needs to be processed. You should expect a maximum latency of 48 hours between the moment you upload the file to Audience Manager and the moment the data is available for reporting and activation.|
 
+{style="table-layout:auto"}
+
 >[!MORELIKETHIS]
 >
 >* [Inbound Customer Data Ingestion FAQ](../faq/faq-inbound-data-ingestion.md)

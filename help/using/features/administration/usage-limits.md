@@ -38,6 +38,8 @@ The tables list the current limits by item type. You cannot create new traits, s
 | Onboarded                  | 100,000  |
 | Folder Traits              | 2,000    |
 
+{style="table-layout:auto"}
+
 ### Segment Limits
 
 | Segment Type   | Maximum Limit |
@@ -63,6 +65,8 @@ The tables list the current limits by item type. You cannot create new traits, s
 | Maximum number of excluded traits for a [!UICONTROL Look-Alike Model] | 500. See [Trait Exclusion in Algorithmic Modeling](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md). |
 |Naximum [!UICONTROL Predictive Audiences Models]|10|
 |Maxium number of baseline personas for [!UICONTROL Predictive Audiences Models]|50|
+
+{style="table-layout:auto"}
 
 ### Folder Limits
 
