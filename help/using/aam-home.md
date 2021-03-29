@@ -29,7 +29,7 @@ This technical documentation guide provides self-help assistance for Audience Ma
 
 ## Audience Manager main functionality
 
-<table>
+<table style="table-layout:fixed">
    <td>
       <img alt="Data In" src="/help/using/overview/assets/data-in.png"/>
       <div>
