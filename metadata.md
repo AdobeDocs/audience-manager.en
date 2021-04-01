@@ -1,5 +1,5 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 solution: Audience Manager
 type: Documentation
 solution-title: Learn & Support
