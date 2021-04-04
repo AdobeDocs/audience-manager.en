@@ -5,8 +5,8 @@ seo-title: Search Signals by Filters
 title: Search Signals by Filters
 uuid: 99b00d48-6415-4cb1-848a-5401b34c43a6
 feature: Data Explorer
+exl-id: 4e2ab375-f998-41c5-affb-b9bf983cc28a
 ---
-
 # Search Signals by Filters {#search-signals-by-filters}
 
 Leave the key-value fields blank to search for a broader range of signals and use the available filters to narrow down the results.

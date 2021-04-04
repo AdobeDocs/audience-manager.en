@@ -5,8 +5,8 @@ seo-title: Workflow C - Personalization Based on Authenticated Activity Combined
 solution: Audience Manager
 title: Workflow C - Personalization Based on Authenticated Activity Combined with Offline Data
 feature: People-Based Destinations
+exl-id: 24f877ce-089e-484c-9a70-8fce1a10a649
 ---
-
 # Workflow C - Personalization Based on Authenticated Activity Combined with Offline Data {#workflow-c}
 
 >[!IMPORTANT]

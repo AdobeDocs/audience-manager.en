@@ -5,8 +5,8 @@ seo-title: Trait Recommendations
 solution: Audience Manager
 title: Trait Recommendations
 feature: Segments
+exl-id: 7ef862a9-7354-49fb-9af0-925d827a5165
 ---
-
 # Trait Recommendations
 
 Get live trait recommendations as you build your segments, from your own first-party traits, and [!UICONTROL Audience Marketplace] data feeds.

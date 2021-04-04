@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Profile Merge Rules Dashboard
 uuid: d6725218-7b36-4653-9900-d67b5f7702a0
 feature: Profile Merge Rules
+exl-id: c6fcbe47-3010-4b7c-a70e-205bf69b4c54
 ---
-
 # Profile Merge Rules Dashboard {#profile-merge-rules-dashboard}
 
 Create and manage all your merge rules from the dashboard. You can create a maximum of 4 [!UICONTROL Profile Merge Rules].

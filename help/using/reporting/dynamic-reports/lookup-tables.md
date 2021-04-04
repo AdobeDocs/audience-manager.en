@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Improve Log File Processing Times with Lookup Tables
 uuid: ffc77618-474b-455e-9c91-15b32fc151a5
 feature: reporting reference
+exl-id: bab51406-21e9-4033-90d4-6100daf6a311
 ---
-
 # Improve Log File Processing Times with Lookup Tables{#improve-log-file-processing-times-with-lookup-tables}
 
 Put data in Delivery Performance report log files into tables that contain IDs only. Put non-ID metadata in separate lookup tables to help reduce file size and processing times.

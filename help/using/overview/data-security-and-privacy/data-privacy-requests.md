@@ -7,8 +7,8 @@ keywords: GDPR UI, GDPR API, CCPA, privacy
 title: Data Privacy Requests
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 feature: data governance & privacy
+exl-id: a1fc9c21-3417-4899-a585-92ad2cb25362
 ---
-
 # Data Privacy Requests {#data-privacy-requests}
 
 ## Overview {#overview}

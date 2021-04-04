@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Capturing Campaign Impression Data via Pixel Calls
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 feature: Integration with Campaign
+exl-id: 04e6f1e5-5075-4221-a310-deb3717458ad
 ---
-
 # Capturing Campaign Impression Data via Pixel Calls{#capturing-campaign-impression-data-via-pixel-calls}
 
 One approach for sending media data to Audience Manager uses ad server macros to send campaign attributes to Audience Manager.

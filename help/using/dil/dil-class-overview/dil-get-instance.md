@@ -7,8 +7,8 @@ solution: Audience Manager
 title: getDil
 uuid: 7b95f9bf-14c0-4c74-b6b9-d6b38513d487
 feature: DIL Implementation
+exl-id: a1e9e715-3921-4298-bce1-5a6c2110e71b
 ---
-
 # getDil{#getdil}
 
 Retrieves a partner-specific DIL instance.

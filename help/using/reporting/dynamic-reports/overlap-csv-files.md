@@ -6,8 +6,8 @@ solution: Audience Manager
 title: CSV Files for Overlap Reports
 uuid: 047e440e-00c5-4d06-a809-51d776326cd6
 feature: overlap reports
+exl-id: 759c39cb-64ec-47dd-a3a4-027408aa6b5e
 ---
-
 # CSV Files for Overlap Reports{#csv-files-for-overlap-reports}
 
 You can request a .csv file for an Overlap Report when that report reaches its 1-million record limit. A report may have reached this limit when you see an "Unexpected error has occurred" message. Contact Customer Care to request a compressed .csv file, which you can import and work with in your own database system. Files are available for segment-to-segment, segment-to-trait, and trait-to-trait overlap reports.

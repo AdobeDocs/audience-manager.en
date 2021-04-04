@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Optimal Frequency Report
 uuid: 50459ce9-39ac-4401-93dd-7526937fc742
 feature: audience optimization reports
+exl-id: bf445fde-5cac-40ee-aa67-b4523391a6f1
 ---
-
 # Optimal Frequency Report{#optimal-frequency-report}
 
 The Optimal Frequency report helps you discover the optimal balance between the number of served impressions and conversions. It allows you to adjust the number of impressions you would want to display before starting to see diminishing returns.

@@ -4,8 +4,8 @@ seo-description: Search for used and unused signals received over specific perio
 seo-title: Signals Search
 title: Signals Search
 feature: Data Explorer
+exl-id: 4cc363eb-9102-4c48-8cd5-efc52ee1c2fd
 ---
-
 # Signals Search Overview {#signals-search}
 
 Search for used and unused signals received over specific periods of time. To search for signals, go to Audience Data > Signals > Search.

@@ -4,8 +4,8 @@ seo-description: Conceptual information, descriptions, and definitions for DCS A
 seo-title: DCS API Reference Overview in Adobe Audience Manager (AAM)
 title: DCS API Reference Overview
 feature: DCS
+exl-id: 84d20041-0b98-4ba5-ba97-29c35f088ad9
 ---
-
 # DCS API Reference Overview
 
 Conceptual information, descriptions, and definitions for [!DNL DCS API] code, methods, and processes.

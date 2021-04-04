@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Unique User Reach
 uuid: 64e75fad-f4cb-4d47-a162-34e663f3966f
 feature: audience optimization reports
+exl-id: 7f92547e-3bb0-4df1-953e-1c26e91b4e0c
 ---
-
 # Unique User Reach{#unique-user-reach}
 
 The Unique User Reach report returns data in a bubble chart. Each bubble is sized in direct proportion to the number of unique users for your selected ad units. A larger bubble indicates greater reach than a smaller bubble. The Unique User Reach report helps you find the ad unit that provides the broadest reach against your targeted users.

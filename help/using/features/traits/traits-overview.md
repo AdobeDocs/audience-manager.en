@@ -6,8 +6,8 @@ seo-title: Traits Overview
 solution: Audience Manager
 title: Traits Overview
 feature: Traits
+exl-id: 89f79f63-82f3-43cc-b22c-4c45d83e5002
 ---
-
 # [!UICONTROL Traits] Overview {#traits-overview}
 
 Manage data collection and audience creation with [!UICONTROL rules-based], [!UICONTROL onboarded], [!UICONTROL algorithmic] or [!UICONTROL folder traits]. Read the pages linked below to get started with [!UICONTROL traits]:

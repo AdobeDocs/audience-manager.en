@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Private Data Feeds
 uuid: e4ca59ca-bbc9-4897-9374-8f3d54b2beee
 feature: Audience Marketplace
+exl-id: 34eb6194-c57b-4836-a6df-6889a2cec703
 ---
-
 # Private Data Feeds {#private-data-feeds}
 
 A private data feed is an option that lets providers limit buyer access to their data. Data providers and buyers should review this information before creating and subscribing to private data feeds.
@@ -159,7 +159,3 @@ Go to **Audience Marketplace > My Shared Data** and search for the feed you crea
 After the data provider grants access to the data feed, you can see the feed in your account in **Audience Marketplace > Marketplace**. Review the details, turn the Subscription button ON, and click **Review & Subscribe**. See [Storage for Subscribed Data Feeds](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#find-subscribed-data-fee) for information on where to find the 3rd party traits.
 
 Please note that these traits can only be edited in the data provider's account.
-
-
-
-

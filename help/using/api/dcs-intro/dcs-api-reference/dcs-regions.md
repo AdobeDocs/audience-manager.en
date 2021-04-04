@@ -6,8 +6,8 @@ solution: Audience Manager
 title: DCS Region IDs, Locations, and Host Names
 uuid: ad150ffe-4583-472b-ac8b-fb900a7966e4
 feature: DCS
+exl-id: 9b12946c-89f1-4f6f-adb9-961e15a0b816
 ---
-
 # DCS Region IDs, Locations, and Host Names {#dcs-region-ids-locations-and-host-names}
 
 The regional [!DNL DCS] server host name is required to make calls to the [!DNL DCS]. This is because the [!DNL DCS] stores information in data centers that are geographically close to site visitors. Your queries will work if you send them to the wrong [!DNL DCS], but these calls are inefficient and can delay the response. To make a [!DNL DCS] request, match the region ID to its corresponding regional host name and form your query with the proper host name.

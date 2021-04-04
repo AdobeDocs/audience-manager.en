@@ -7,8 +7,8 @@ title: Data Collection and Product Integration FAQ
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP; SFTP address; STFP IP address; FTP address
 feature: Administration
+exl-id: 2951ab0c-6f1c-4126-b83e-ce4a33c0d4ab
 ---
-
 # Data Collection and Product Integration FAQ{#data-collection-and-product-integration-faq}
 
 Common data collection and integration questions and issues.

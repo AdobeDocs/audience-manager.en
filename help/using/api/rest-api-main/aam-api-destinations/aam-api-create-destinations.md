@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Create Destinations
 uuid: 12f04151-ad0e-4cb6-8f3b-b5c427dc2cef
 feature: API
+exl-id: bae0f304-0ff3-4c5f-b432-19aef61d9d10
 ---
-
 # Create Destinations {#create-destinations}
 
 Create destinations with these [!UICONTROL RESTful API] methods.

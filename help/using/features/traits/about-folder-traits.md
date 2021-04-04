@@ -7,8 +7,8 @@ solution: Audience Manager
 title: Folder Traits  About
 uuid: e561ce8f-6c90-44a7-b034-685533f29030
 feature: Traits
+exl-id: 779d1ab3-3a69-4975-b45a-acd95ab86a37
 ---
-
 # Folder Traits: About {#folder-traits-about}
 
 [!UICONTROL Folder traits] let you automatically aggregate traits that reside within the same folder and all child folders into a targetable segment.

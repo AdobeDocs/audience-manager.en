@@ -6,8 +6,8 @@ solution: Audience Manager
 title: General Reports
 uuid: 0cea75a0-969e-4ee3-971a-60b911711e52
 feature: general & trend reports
+exl-id: dc16a821-b776-4a04-af60-4b8c914253dd
 ---
-
 # General Reports{#general-reports}
 
 A [!UICONTROL General] report returns performance data on traits, segments, and destinations.

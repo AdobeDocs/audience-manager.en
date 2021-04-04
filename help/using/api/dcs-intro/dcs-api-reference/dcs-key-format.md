@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Formatting Key-Value Pairs in DCS Calls
 uuid: af02f2a1-4388-4074-ab4e-66ee82023f1c
 feature: DCS
+exl-id: ff2d9ff6-7d5b-4a0d-b831-5d9bc79b32a1
 ---
-
 # Formatting Key-Value Pairs in DCS Calls {#formatting-key-value-pairs-in-dcs-calls}
 
 When making a call, the [!DNL DCS] accepts key-value data in standard or serialized format. Review this section for information about how to format standard and serialized key-value data.

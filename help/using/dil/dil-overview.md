@@ -7,8 +7,8 @@ solution: Audience Manager
 title: Understanding the Data Integration Library (DIL)
 uuid: 77b12f35-81e4-4639-ada6-bf982f27b36e
 feature: DIL Implementation
+exl-id: f194a422-27ed-4a74-9583-8de3b6786caf
 ---
-
 # Understanding the [!DNL Data Integration Library] (DIL){#understanding-the-data-integration-library-dil}
 
 Overview, getting started, and code methods available in the [!DNL Audience Manager DIL] code library.

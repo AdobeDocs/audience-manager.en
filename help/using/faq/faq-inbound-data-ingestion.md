@@ -7,8 +7,8 @@ solution: Audience Manager
 title: Inbound Customer Data Ingestion FAQ
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
 feature: Onboarding Offline Data
+exl-id: 48eef5f1-0655-4dac-9ab4-74b11c705c13
 ---
-
 # Inbound Customer Data Ingestion FAQ{#inbound-customer-data-ingestion-faq}
 
 Frequently asked questions about bringing offline data into Audience Manager.

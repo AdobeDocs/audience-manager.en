@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Reports Dashboard
 uuid: 350eee2d-72f7-42a7-916b-60f9a362c5cf
 feature: reporting reference
+exl-id: 1ca0280a-d67b-46f7-9c58-effc5be4e38f
 ---
-
 # Reports Dashboard {#reports-dashboard}
 
 Use the Dashboard to view information about your unique visitor counts broken down by trait types and segments, for a specified time frame.
@@ -114,4 +114,3 @@ This panel contains the following tabs:
   </tr> 
  </tbody> 
 </table>
-

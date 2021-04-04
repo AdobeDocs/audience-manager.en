@@ -6,8 +6,8 @@ solution: Audience Manager
 title: GDPR Considerations for Destinations
 uuid: e8a40060-086c-4f03-b48c-9c903acb7891
 feature: data governance & privacy
+exl-id: ff2aa030-94cd-45dc-a9a2-283b38ab5e46
 ---
-
 # GDPR Considerations for Destinations{#gdpr-considerations-for-destinations}
 
 This page outlines information provided directly by our partners, as it becomes available, along with any implications related to your Audience Manager practice. Key implications for partners making these updates are the result of GDPR (General Data Protection Regulation), which went into effect on May 25th, 2018 and the new IAB GDPR Transparency & Consent Framework (IAB Framework).

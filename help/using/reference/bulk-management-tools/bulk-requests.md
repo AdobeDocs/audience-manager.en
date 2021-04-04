@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Bulk Requests
 uuid: 0192d26a-4cea-4e12-9fea-388b92b382f1
 feature: baaam
+exl-id: a0597bf4-79c8-404d-ba3b-a92c6b5c9c06
 ---
-
 # Bulk Requests{#bulk-requests}
 
 A bulk request returns data you can use with the different headers in the Update, Create, Estimate, and Delete worksheets.
@@ -43,4 +43,4 @@ To make bulk requests, open the [!UICONTROL Bulk Management Tools] worksheet and
 >
 >In your results, the `createTime` and `updateTime` columns return data in exponential notation. The underlying date/time stamps are recorded in UNIX UTC time. Currently, the worksheet cannot return date/time stamps in a readable format.
 
-If your bulk update returns an error or fails, see [Troubleshooting for Bulk Management Tools](../../reference/bulk-management-tools/bulk-troubleshooting.md). 
+If your bulk update returns an error or fails, see [Troubleshooting for Bulk Management Tools](../../reference/bulk-management-tools/bulk-troubleshooting.md).

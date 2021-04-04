@@ -6,8 +6,8 @@ solution: Audience Manager
 title: DCS Event Call APIs
 uuid: 84754960-9ef0-454d-8f5c-33846e2494f6
 feature: DCS
+exl-id: 7eb0ce70-5871-441a-920a-97a711482dde
 ---
-
 # DCS Event Call APIs {#dcs-event-call-apis}
 
 Event calls send information to the [!DNL DCS] in a [!DNL URL] string. In a typical Audience Manager deployment, customers use our [!DNL JavaScript] data collection code ([!UICONTROL DIL]) to send data to the [!DNL DCS]. However, sometimes customers cannot put our [!DNL JavaScript] code on their pages. If company policies or other technical issues prevent you from placing our [!DNL JavaScript] code on your pages, you can still work with Audience Manager to send and return data from [!DNL DCS] with these event call [!DNL API]s.

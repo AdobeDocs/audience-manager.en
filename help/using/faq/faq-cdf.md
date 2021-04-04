@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Customer Data Feed FAQ
 uuid: 7183b3e2-e999-4e1e-892f-2bab335c13b6
 feature: Customer Data Feeds
+exl-id: a948accc-6bec-4748-bcc8-2b77acf6b96a
 ---
-
 # Customer Data Feed FAQ{#customer-data-feed-faq}
 
 Frequently asked questions about Customer Data Feed (CDF) files.

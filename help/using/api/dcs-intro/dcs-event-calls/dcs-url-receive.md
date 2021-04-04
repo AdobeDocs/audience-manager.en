@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Receive Data From the DCS
 uuid: fbb77197-8530-48a8-b708-d785f7214494
 feature: DCS
+exl-id: c6a87e5a-63cc-44d7-b6f0-ac8ee845fd00
 ---
-
 # Receive Data From the DCS {#receive-data-from-the-dcs}
 
 Continue here for information about how to request a [!DNL DCS] response in a `/event` call. This section includes a response example and definitions for common data elements in a response.

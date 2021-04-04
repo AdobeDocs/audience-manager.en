@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Digitally Signed HTTP(S) Requests
 uuid: 1183a70f-0c96-42cf-a4f5-37a83ffa1286
 feature: Outbound Data Transfers
+exl-id: 55907a25-a361-494a-86b9-c693faea4f0e
 ---
-
 # Digitally Signed `HTTP(S)` Requests {#digitally-signed-http-requests}
 
 Audience Manager requires the `HTTP(S)` server-to-server requests to be digitally signed for validity. This document describes how you can sign `HTTP(S)` requests with private keys.

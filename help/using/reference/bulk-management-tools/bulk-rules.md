@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Create or Update Trait Rules and Segment Rules
 uuid: bdd5f8f1-bb83-4844-b681-654e45ace3e1
 feature: baaam
+exl-id: 9b697606-5534-4e6e-a3f2-b1a4c26bb707
 ---
-
 # Create or Update Trait Rules and Segment Rules{#create-or-update-trait-rules-and-segment-rules}
 
 The create and update worksheets accept a traitRule header that lets you apply multiple rules in a single operation. Follow these instructions to make bulk rule requests.
@@ -54,4 +54,3 @@ You can write your own rules outside of [!UICONTROL Rule Builder]. Before you st
 * [Order of Operations](../../features/traits/trait-operator-precedence.md) 
 * [Prefix Requirements for Key Variables](../../features/traits/trait-variable-prefixes.md) 
 * [Sample Expressions With Boolean and Comparison Operators](../../features/traits/trait-expression-samples.md)
-

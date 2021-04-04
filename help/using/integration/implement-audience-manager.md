@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Implementing Audience Manager
 uuid: 89369224-3b21-45a9-a4ed-a0a977410520
 feature: Third Party Integrations
+exl-id: 8f8a6881-d616-4d0e-aeaa-bf3bb3a172f9
 ---
-
 # Implementing Audience Manager {#implementing-audience-manager}
 
 This section outlines and explains the processes related to getting started with the Audience Manager data management platform ([!DNL DMP]). This section is designed to help business teams, project managers, and technology managers understand the Audience Manager implementation process. Getting started with Audience Manager can take approximately six weeks to three months, depending on your data collection needs.

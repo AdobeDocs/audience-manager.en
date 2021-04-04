@@ -6,8 +6,8 @@ solution: Audience Manager
 title: DCS API Methods
 uuid: 6e407458-11d4-4342-a84a-512afa5fc183
 feature: DCS
+exl-id: 258994e1-6b15-4ae1-9e1f-c6e0685350c1
 ---
-
 # [!DNL DCS] [!DNL API] Methods {#dcs-api-methods}
 
 Send data to the [!DNL DCS] [!DNL API] using `GET` or `POST` methods.

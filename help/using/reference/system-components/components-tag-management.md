@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Tag Management Components
 uuid: e5059478-6ba7-4e1a-afec-e41ad7a27750
 feature: system components
+exl-id: 064e3653-7658-422c-9dd5-2252806e8f09
 ---
-
 # Tag Management Components{#tag-management-components}
 
 Audience Manager tag management components include the client portal, Adobe Tag Manager (deprecated in favor of Adobe Dynamic Tag Manager and Adobe Experience Platform Launch), DIL, Akamai, and the control database.
@@ -49,4 +49,3 @@ The control database:
 * Processes client input from the portal (for example, creating traits and destinations). 
 * Transmits data to Akamai, which includes data used to build the container template and destination publishing iFrame. 
 * Returns data for UI reporting systems.
-

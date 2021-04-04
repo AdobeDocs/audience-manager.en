@@ -7,8 +7,8 @@ solution: Audience Manager
 title: Bulk Updates
 uuid: 22f1badd-a274-4d3e-9957-a24bf8c1d0dc
 feature: baaam
+exl-id: ef01c7d0-5af1-4db7-9859-1087c1fef684
 ---
-
 # Bulk Updates{#bulk-updates}
 
 A bulk update lets you edit multiple segments, traits, models, data sources, and segment or trait folder elements in a single operation. Follow these instructions to make bulk updates.
@@ -42,4 +42,4 @@ To make bulk updates, open the [!UICONTROL Bulk Management Tools] worksheet and:
 
 ![](assets/update.png)
 
-If your bulk update returns an error or fails, see [Troubleshooting for Bulk Management Tools](../../reference/bulk-management-tools/bulk-troubleshooting.md). 
+If your bulk update returns an error or fails, see [Troubleshooting for Bulk Management Tools](../../reference/bulk-management-tools/bulk-troubleshooting.md).

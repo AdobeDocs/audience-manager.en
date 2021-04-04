@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Platform Architecture  Data Flow Map
 uuid: d845af1d-f448-4f4c-948e-b2c89f125086
 feature: system components
+exl-id: 6543df7d-aac5-4181-87a8-bc47edd2e951
 ---
-
 # Platform Architecture: Data Flow Map{#platform-architecture-data-flow-map}
 
 This map contains the major Audience Manager systems. It visually represents how data flows into, out of, and among Audience Manager components.
@@ -27,4 +27,3 @@ Colors define the type of data that flows in and out of [!DNL Audience Manager].
 For system descriptions and summaries see the data [action](../../reference/system-components/components-data-action.md), [collection](../../reference/system-components/components-data-collection.md), [processing](../../reference/system-components/components-data-processing.md), and [tag management](../../reference/system-components/components-tag-management.md) sections.
 
 ![](assets/flowmap.png)
-

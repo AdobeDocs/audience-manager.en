@@ -5,8 +5,8 @@ seo-title: People-Based Destinations Implementation Guidance
 solution: Audience Manager
 title: Implementation Guidance
 feature: People-Based Destinations
+exl-id: 224334d5-419c-4bb1-b76c-ce996a543b7a
 ---
-
 # Implementation Guidance {#implementation-guidance}
 
 >[!IMPORTANT]

@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Code Syntax Used in the Segment Expression Editor
 uuid: 7b4b06ca-7879-4501-8ba7-b2b6467b8a3b
 feature: Segments
+exl-id: 64fa6f03-cef9-4187-866f-28c54f45f72e
 ---
-
 # Code Syntax Used in the Segment Expression Editor {#code-syntax-used-in-the-segment-expression-editor}
 
 [!UICONTROL Segment Builder] lets you build trait rules for a segment using a code editor. Click the **[!UICONTROL Segment Expressions (Code View)]** tab in the [!UICONTROL Traits] panel to access this feature.

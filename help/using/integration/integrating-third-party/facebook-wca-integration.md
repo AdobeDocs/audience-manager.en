@@ -5,8 +5,8 @@ seo-title: Facebook WCA Integration
 solution: Audience Manager
 title: Facebook WCA Integration
 feature: Third Party Integrations
+exl-id: edd06247-b46b-4851-ab71-8cc05a1d6d63
 ---
-
 # [!DNL Facebook WCA] Integration {#facebook-wca-integration}
 
 This page illustrates the process of creating [!DNL Facebook Website Custom Audiences] ([!DNL WCA]) pixels for the purposes of sending web-based [!DNL Audience Manager] audience segments to [!DNL Facebook], for online ad targeting with improved transparency.
@@ -103,4 +103,4 @@ Now that you have assigned your [!DNL Audience Manager] segment to the [!DNL Fac
 >[!NOTE]
 >
 > If a user falls out of the [!DNL Audience Manager] segment, there is currently no way for [!DNL Audience Manager] to inform [!DNL Facebook] to remove the user from the [!DNL Custom Audience].
-> 
+>

@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Capturing Campaign Click Data via Pixel Calls
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 feature: Integration with Campaign
+exl-id: 41b169bf-3727-4ed7-b74f-fea75244d2cb
 ---
-
 # Capturing Campaign Click Data via Pixel Calls {#capturing-campaign-click-data-via-pixel-calls}
 
 Click tracking enables measurement of visitor engagement throughout your campaign, as it records click-based activity for third-party creatives. Similar to [impressions collection](/help/using/integration/media-data-integration/impression-data-pixels.md), an event call is sent to the [!DNL Audience Manager] data collection servers ([!DNL DCS]) for processing. The visitor is then redirected to the intended web address.

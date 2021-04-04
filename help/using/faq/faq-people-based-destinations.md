@@ -5,8 +5,8 @@ seo-title: People-Based Destinations FAQ
 solution: Audience Manager
 title: People-Based Destinations FAQ
 feature: People-Based Destinations
+exl-id: 56506bf0-45f1-49df-81ac-10f57a2487eb
 ---
-
 # People-Based Destinations FAQ {#people-based-destinations-faq}
 
 Answers to common questions about [!DNL People-Based Destinations].

@@ -7,8 +7,8 @@ solution: Audience Manager
 title: Customer Data Feeds
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 feature: Customer Data Feeds
+exl-id: 118c4225-3b57-4a02-ae05-2fcbf3e5d743
 ---
-
 # [!UICONTROL Customer Data Feeds] {#customer-data-feeds}
 
 Basic information about [!UICONTROL Customer Data Feed] ([!UICONTROL CDF]) files and instructions on how to get started. Start here if you're interested in receiving [!UICONTROL CDF] files or just want more information.

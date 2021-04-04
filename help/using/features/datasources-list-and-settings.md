@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Data Sources List and Settings
 uuid: 280a6acd-fef0-4737-a96d-9e22fbc8bfaf
 feature: Data Sources
+exl-id: c561d51e-e1dc-413e-bf24-13f04f10abe6
 ---
-
 # [!UICONTROL Data Sources] List and Settings {#data-sources-list-and-settings}
 
 View a list of your currently configured [!UICONTROL data sources], add new [!UICONTROL data sources], and edit existing [!UICONTROL data sources].

@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Audience Optimization for Publishers
 uuid: 8425e237-ec52-4615-bb00-84ece4ebffe1
 feature: audience optimization reports
+exl-id: 5972ea89-3e4d-48a5-bdd2-0a34211d8bfd
 ---
-
 # Audience Optimization for Publishers{#audience-optimization-for-publishers}
 
 Audience Optimization for Publishers can help you identify potential performance opportunities for Audience Manager segments on your owned and operated content. These reports combine log-level campaign performance data with Audience Manager metrics to inform audience optimizations and monetization opportunities.

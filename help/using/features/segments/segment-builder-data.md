@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Trait and Segment Population Data in Segment Builder
 uuid: e1e59c0a-b4c7-4cad-8485-3667e0a95e83
 feature: Segments
+exl-id: f8953d10-8a31-4c07-8d96-169c30a21de0
 ---
-
 # [!UICONTROL Trait] and [!UICONTROL Segment] Population Data in [!UICONTROL Segment Builder] {#trait-and-segment-population-data-in-segment-builder}
 
 Add and remove [!UICONTROL traits] in [!UICONTROL Segment Builder] to see actual [!UICONTROL trait] populations along with actual and estimated segment population data. The estimated population size data helps you build the right segment for your campaign.

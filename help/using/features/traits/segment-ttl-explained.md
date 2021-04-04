@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Segment Time to Live Explained
 uuid: 5b2c6911-50b9-4b68-9dd4-21128d112eab
 feature: Traits
+exl-id: 2f019071-f829-4336-b2cf-26ec1f18fc91
 ---
-
 # Segment and Trait Time-to-Live Explained {#segment-time-to-live-explained}
 
 How trait [!UICONTROL time-to-live] ([!DNL TTL]) interval affects segment membership.

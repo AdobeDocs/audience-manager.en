@@ -5,8 +5,8 @@ seo-title: Why do my traits or segments not show up in the Overlap Reports page?
 solution: Audience Manager
 title: Why do my traits or segments not show up in the Overlap Reports page?
 feature: support
+exl-id: 3383d27e-9c12-4925-ace3-c3133727d9b9
 ---
-
 # Why are our Read-Only users able to create, edit or delete traits and segments?
 
 ## Question

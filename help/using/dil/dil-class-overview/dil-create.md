@@ -6,8 +6,8 @@ solution: Audience Manager
 title: DIL create
 uuid: 6e054600-703c-4a97-af2a-8207c50013db
 feature: DIL Implementation
+exl-id: 0bef149c-4458-43d6-affe-6d79fe1fca46
 ---
-
 # DIL create method{#dil-create}
 
 ## DIL create {#dil-create-new}

@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Name and Content Requirements for ID Synchronization Files
 uuid: bfe42af9-9149-4da3-830e-f227c4e610c2
 feature: Inbound Data Transfers
+exl-id: e6b3a438-f843-4a24-89fd-03ef77d7cf04
 ---
-
 # Name and Content Requirements for ID Synchronization Files {#name-and-content-requirements-for-id-synchronization-files}
 
 Describes the required fields, syntax, and naming conventions used for file-based ID synchronization. Name and organize your file contents according to these specifications.

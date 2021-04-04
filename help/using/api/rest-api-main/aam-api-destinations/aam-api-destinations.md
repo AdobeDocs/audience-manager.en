@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Destination API Methods
 uuid: 048bcdb9-2b31-46f4-8b80-4ba25bf06640
 feature: API
+exl-id: 38dea854-2b7b-417e-9d56-919b65807628
 ---
-
 # Destination API Methods {#destination-api-methods}
 
 Methods that let you work programmatically with destination features.

@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Modify the GPT setTargeting API Call
 uuid: 0cd38f30-5d29-4511-a779-d32587f1dafb
 feature: Third Party Integrations
+exl-id: cc34b7e8-7bbd-463f-9378-9d3a40c49594
 ---
-
 # Modify the GPT `setTargeting` API Call {#modify-the-gpt-settargeting-api-call}
 
 Add an if statement to check for Audience Manager cookies before calling the [!DNL Google Publisher Tag] `.setTargeting` method.

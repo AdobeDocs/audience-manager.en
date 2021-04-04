@@ -6,8 +6,8 @@ solution: Audience Manager
 title: DCS APIs for Server-to-Server Data Transfers
 uuid: 8c369166-c8a7-46b0-9913-4c027f5b1df9
 feature: DCS
+exl-id: fd23d5e2-b74e-47ff-a4aa-3a4b2c7d39c5
 ---
-
 # DCS APIs for Server-to-Server Data Transfers{#dcs-apis-for-server-to-server-data-transfers}
 
 Server-to-server ([!UICONTROL S2S]) [!DNL API]s provide code and methods that let you send and receive [!DNL DCS] user data and work with this information in your own systems or applications.

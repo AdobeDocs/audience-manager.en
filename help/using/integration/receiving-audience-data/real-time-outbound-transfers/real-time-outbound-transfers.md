@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Real-Time Outbound Data Transfers
 uuid: 1895e818-7ab8-4569-a920-4b0a4c8b83d2
 feature: Outbound Data Transfers
+exl-id: 12aee831-1a44-4cd6-aeba-7738a584dfe7
 ---
-
 # Real-Time Outbound Data Transfers {#real-time-outbound-data-transfers}
 
 The outbound real-time data transfer process delivers user data as a series of [!DNL JSON] formatted messages to a destination platform.

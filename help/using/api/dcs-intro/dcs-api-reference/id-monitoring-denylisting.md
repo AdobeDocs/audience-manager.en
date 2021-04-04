@@ -7,8 +7,8 @@ solution: Audience Manager
 title: ID Monitoring and Denylisting
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
 feature: DCS
+exl-id: 8fd31b00-a822-4fd5-b6f5-7f20546da1d9
 ---
-
 # ID Monitoring and Denylisting
 
 The [!DNL DCS] monitors the IDs it receives and adds those that are being sent at an unusually high rate over a short period of time to a deny list.

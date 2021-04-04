@@ -5,8 +5,8 @@ seo-title: Shareable Audiences
 solution: Audience Manager
 title: Shareable Audiences
 feature: People-Based Destinations
+exl-id: 2860c105-1091-4779-bf40-e66faa941af0
 ---
-
 # Shareable Audiences {#shareable-audiences}
 
 >[!IMPORTANT]

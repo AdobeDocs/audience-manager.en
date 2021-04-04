@@ -7,8 +7,8 @@ solution: Audience Manager
 title: Implement the Audience Management Module
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 feature: Integration with Analytics
+exl-id: af2449cd-5fc8-454a-adce-0da7cae80548
 ---
-
 # How to forward data from [!DNL Adobe Analytics] to [!DNL Audience Manager] {#implement-the-audience-management-module}
 
 Follow the steps in this tutorial to forward [!DNL Analytics] data to [!DNL Audience Manager] instead of having the [!DNL Audience Manager] [!UICONTROL Data Integration Library] ([!DNL DIL]) code send a pixel from the page.

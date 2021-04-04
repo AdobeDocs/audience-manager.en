@@ -7,8 +7,8 @@ title: Segment Details Page
 uuid: e844e423-9701-42d4-9ba5-d82f41358adc
 keywords: identity type breakdown, identity breakdown, audience identity reporting, cross-device, cross-device ID, device ID
 feature: Segments
+exl-id: d33c8146-fd98-47fc-aa3d-96f002538df4
 ---
-
 # Segment Details Page {#segment-summary-view}
 
 The details page for an individual segment provides an overview of the segment details, such as the segment name, ID, performance metrics, rules that define the segment, and the destination mappings. To view these details, go to **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]** and click the name of the segment you want to work with.

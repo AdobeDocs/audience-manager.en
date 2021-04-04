@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Segment-to-Segment Overlap Report
 uuid: 0339eb6c-6355-44a3-9c46-f159485449d1
 feature: overlap reports
+exl-id: 43a8ea20-3197-4623-a03a-bfe40e5049cd
 ---
-
 # Segment-to-Segment Overlap Report{#segment-to-segment-overlap-report}
 
 Returns data on how many unique users are shared between your segments.

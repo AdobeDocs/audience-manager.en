@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Import Google Ad Manager Data Files Into Audience Manager
 uuid: c685f34f-3e50-4c4b-99fa-d8bbafe0b268
 feature: audience optimization reports
+exl-id: 62b72dd1-e664-4c6a-8c0a-f7a662d62a47
 ---
-
 # Import Google Ad Manager (formerly DFP) Data Files Into Audience Manager{#import-dfp-data-files-into-audience-manager}
 
 Before Audience Manager can enable Audience Optimization for Publishers, you must ensure that all prerequisites outlined in this article are met. Contact Customer Care after checking off all prerequisites.

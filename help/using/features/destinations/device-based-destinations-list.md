@@ -6,8 +6,8 @@ keywords: activation; activation partners, destination, destinations
 solution: Audience Manager
 title: Adobe Audience Manager Server-to-Server Destinations
 feature: Destination Basics
+exl-id: 7db3bc02-ece4-4524-a401-d2c8c6de510a
 ---
-
 # [!DNL Audience Manager] [!UICONTROL Device-based Destinations]
 
 This page includes current [!DNL Audience Manager] [device-based destinations](/help/using/features/destinations/add-device-based-destinations.md) only. In [!DNL Audience Manager], [!UICONTROL device-based destinations] are also called [!UICONTROL server-to-server destinations]. For more information on an integration refer to its [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) listing (where available) or contact your [!DNL Adobe] Consultant or Customer Care.

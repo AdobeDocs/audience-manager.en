@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Trend Reports
 uuid: bedbe7d4-7cbb-4403-9104-312f9230aea1
 feature: general & trend reports
+exl-id: 3373f413-cc8f-49c7-9b4e-34b39e0efc38
 ---
-
 # Trend Reports{#trend-reports}
 
 A Trend report returns trend data on traits and segments.

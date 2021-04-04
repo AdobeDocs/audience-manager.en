@@ -6,8 +6,8 @@ solution: Audience Manager
 title: REST APIs
 uuid: f575c8dd-7381-4b55-8228-26eb87fbef64
 feature: API
+exl-id: 2c5d0567-9d48-48b5-b261-2b00a3070b2f
 ---
-
 # [!DNL REST APIs] {#rest-apis}
 
 [!UICONTROL RESTful APIs] let you work programmatically with [!DNL Audience Manager].

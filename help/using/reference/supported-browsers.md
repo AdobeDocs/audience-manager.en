@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Supported Browsers
 uuid: dffecdb5-d94d-4001-8f2a-9d1d77ce2213
 feature: reference
+exl-id: 5fcb1a64-5e45-4973-9e20-7d4d07071cbf
 ---
-
 # Supported Browsers{#supported-browsers}
 
 This page lists the browsers supported by the Audience Manager user interface. Cookies and JavaScript must be enabled on all browsers.

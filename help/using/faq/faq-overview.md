@@ -5,8 +5,8 @@ seo-title: Audience Manager FAQ
 solution: Audience Manager
 title: Audience Manager FAQ
 feature: Overview
+exl-id: 2777fdf1-df79-4111-9fe4-d2638ee10395
 ---
-
 # Audience Manager FAQ Overview {#audience-manager-faq}
 
 This section aggregates a list of the FAQ categories for various functionalities of Audience Manager.

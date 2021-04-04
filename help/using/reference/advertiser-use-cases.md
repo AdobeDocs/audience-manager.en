@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Advertiser Use Cases
 uuid: ceb06f86-1f9b-4e02-b179-116ec635ce5d
 feature: reference
+exl-id: 30f2ee7b-6238-4dd5-a59f-ee91b6256bcb
 ---
-
 # Advertiser Use Cases {#advertiser-use-cases}
 
 A look at some common advertiser needs met by Adobe Audience Manager.
@@ -239,4 +239,3 @@ The [Models](../features/algorithmic-models/understanding-models.md) documentati
   </tr> 
  </tbody> 
 </table>
-

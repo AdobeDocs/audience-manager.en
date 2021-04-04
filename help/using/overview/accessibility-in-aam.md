@@ -5,8 +5,8 @@ seo-title: Accessibility in Audience Manager
 solution: Audience Manager
 title: Accessibility in Audience Manager
 feature: overview
+exl-id: 45fd53e6-b8e1-49b4-99a3-c78adc90c707
 ---
-
 # Accessibility in Audience Manager {#accessibility}
 
 ## Overview {#overview}

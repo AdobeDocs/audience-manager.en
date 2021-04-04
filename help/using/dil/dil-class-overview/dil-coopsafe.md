@@ -6,8 +6,8 @@ solution: Audience Manager
 title: isCoopSafe
 uuid: c5362a38-93c0-4edb-bdcb-106e43f33a92
 feature: DIL Implementation
+exl-id: 33dca495-6923-4966-9ec3-8b0fd2f17649
 ---
-
 # isCoopSafe{#iscoopsafe}
 
 An optional, Boolean configuration that determines if DIL sends (or does not send) data to the Adobe Experience Cloud Device Co-op.
@@ -125,4 +125,3 @@ These APIs allow you to override the `isCoopSafe` status. These are necessary be
 Wiki page https://wiki.corp.adobe.com/x/RCfFTg
 
  -->
-

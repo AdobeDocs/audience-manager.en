@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Bulk Management Tools Glossary
 uuid: 4658a6bc-9515-4d31-9715-0084760b0cea
 feature: baaam
+exl-id: 036d16c7-1546-4539-a318-455b98e10026
 ---
-
 # Bulk Management Tools Glossary{#bulk-management-tools-glossary}
 
 Column header labels defined.
@@ -113,4 +113,3 @@ Column header labels defined.
   </tr> 
  </tbody> 
 </table>
-

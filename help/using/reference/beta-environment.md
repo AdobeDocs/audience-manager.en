@@ -7,8 +7,8 @@ solution: Audience Manager
 title: Beta Environment
 uuid: de4a1a46-cfa4-4f64-8569-48a7650fd8cf
 feature: reference
+exl-id: a6a5e1c2-29a2-40bf-972c-87fb8716a394
 ---
-
 # Beta Environment {#beta-environment}
 
 The beta environment is for testing your Audience Manager implementation. Changes made in beta do not affect production data. Contact your Audience Manager Partner Solutions representative if you're interested in using the beta environment.

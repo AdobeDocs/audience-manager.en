@@ -7,8 +7,8 @@ solution: Audience Manager
 title: Activity Usage Reporting
 topic: Activity Usage Reporting
 feature: Usage and Billing
+exl-id: 0c5f04c6-d008-4817-9c67-cd39350b3aaf
 ---
-
 # [!UICONTROL Activity Usage Reporting] {#activity-usage-reporting}
 
 ## Overview {#overview}

@@ -7,8 +7,8 @@ solution: Audience Manager
 title: Product Features and Functions FAQ
 uuid: da5f5089-24a8-4455-88a6-eb62d83939d2
 feature: Overview
+exl-id: b5884d26-0be1-4eaa-99a1-7247942bf6c9
 ---
-
 # Product Features and Functions FAQ{#product-features-and-functions-faq}
 
 Common product and function-related questions and issues.

@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Reported Conversion Traits
 uuid: b4b5eb9c-d83e-4e7f-8661-f5d9c855258b
 feature: audience optimization reports
+exl-id: 22335e8d-35cf-4014-803a-efdd35552ef2
 ---
-
 # Reported Conversion Traits{#reported-conversion-traits}
 
 The Conversion Traits report shows you all the traits labeled as conversion traits for a conversion group at a certain date.

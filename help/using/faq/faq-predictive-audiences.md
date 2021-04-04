@@ -5,8 +5,8 @@ seo-title: Predictive Audiences FAQ
 solution: Audience Manager
 title: Audience Manager Predictive Audiences
 feature: Algorithmic Models
+exl-id: 21073970-8457-470b-89fc-724a118a18d2
 ---
-
 # Predictive Audiences FAQ
 
 Frequently asked questions about [!UICONTROL Predictive Audiences].

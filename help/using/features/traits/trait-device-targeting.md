@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Device Targeting With Platform-level Keys
 uuid: bc048cc5-3df1-49bc-ac78-0ea5d7edd9cc
 feature: Traits
+exl-id: 85c848e0-a4cf-49b5-9fe9-56f8c565f665
 ---
-
 # Device Targeting With Platform-level Keys {#device-targeting-with-platform-level-keys}
 
 Describes the common platform-level key-value pairs you can use to target users with device-related variables across all properties in your Audience Manager account.

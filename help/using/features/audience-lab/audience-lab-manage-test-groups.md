@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Manage Test Groups
 uuid: 2fadddeb-7574-4853-8c52-c58456582c62
 feature: Audience Lab
+exl-id: 1d07c8f1-34dc-4339-bd5d-87042a22f7e9
 ---
-
 # Manage Test Groups {#manage-test-groups}
 
 This procedure walks you through the steps needed to create, edit, or delete a test group in [!UICONTROL Audience Lab].

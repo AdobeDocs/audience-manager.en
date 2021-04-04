@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Map Segments to a Destination
 uuid: 35358ace-3082-4e86-a6eb-d77281af6d7e
 feature: API
+exl-id: 906df6c5-f878-48e6-a804-eb5b4407f304
 ---
-
 # Map Segments to a Destination {#map-segments-to-a-destination}
 
 Map segments to destinations with these [!DNL RESTful API] methods.

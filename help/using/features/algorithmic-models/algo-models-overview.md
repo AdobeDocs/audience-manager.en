@@ -6,8 +6,8 @@ seo-title: Algorithmic Models Overview
 solution: Audience Manager
 title: Algorithmic Models Overview
 feature: Algorithmic Models
+exl-id: ee5c3392-2756-45c5-b325-41a51d3c494f
 ---
-
 # Algorithmic Models Overview
 
 ## What is Algorithmic Modeling{#what-algo-modeling}

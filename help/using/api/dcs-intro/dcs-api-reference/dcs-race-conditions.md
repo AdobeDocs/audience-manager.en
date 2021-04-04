@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Race Conditions and Error Handling
 uuid: b0aac960-6732-4e96-87a5-40ba2755e02d
 feature: DCS
+exl-id: bfb0b684-6b15-434d-b5ec-5f8741c0c691
 ---
-
 # Race Conditions and Error Handling {#race-conditions-and-error-handling}
 
 Describes how to prevent race conditions and [!DNL DCS] error handling.

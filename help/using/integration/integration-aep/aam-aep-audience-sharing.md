@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Audience Sharing Between Audience Manager and Adobe Experience Platform
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
+exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
 ---
-
 # Experience Platform segment sharing with Audience Manager and other Experience Cloud solutions {#aam-aep-audience-sharing}
 
 >[!NOTE]
@@ -181,4 +181,4 @@ If you created a data source in Audience Manager for the CRM IDs in Experience P
 >
 >* [Segmentation Service overview](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html#audiences)
 >* [Experience Platform Segment Builder user guide](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html#audiences)
->* [Audience Manager Connector](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html) 
+>* [Audience Manager Connector](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html)

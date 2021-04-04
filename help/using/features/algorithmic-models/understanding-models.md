@@ -7,8 +7,8 @@ solution: Audience Manager
 title: About Look-Alike Modeling
 uuid: 39441e72-5316-453d-9aff-0e0b633aabcd
 feature: Algorithmic Models
+exl-id: a24b11ce-6087-4095-a6c2-6815e2211ba5
 ---
-
 # Understanding [!UICONTROL Look-Alike Modeling] {#about-algorithmic-models}
 
 ## Find New Users with [!UICONTROL Look-Alike Modeling] {#find-new-users}

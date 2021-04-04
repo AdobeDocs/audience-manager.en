@@ -6,8 +6,8 @@ solution: Audience Manager
 title: ID Synchronization for Outbound Data Transfers
 uuid: f3849be8-1094-47db-9296-7482f020af18
 feature: Outbound Data Transfers
+exl-id: 02cca19a-eebf-43b2-b034-24f072fe2efb
 ---
-
 # ID Synchronization for Outbound Data Transfers{#id-synchronization-for-outbound-data-transfers}
 
 Describes the syntax and parameters used in the initial `HTTP` call to synchronize user IDs between Audience Manager and a third-party data provider. Contact your Adobe Audience Manager consultant before attempting your first ID synchronization.

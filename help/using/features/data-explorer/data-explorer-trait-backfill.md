@@ -5,8 +5,8 @@ seo-title: Backfill Trait Realizations
 title: Backfill Trait Realizations
 uuid: 8b0ef4e6-d16a-4d1d-94f1-b84eebffa9a5
 feature: Data Explorer
+exl-id: 6be54999-eeeb-48cd-a630-021f17289431
 ---
-
 # Backfill Trait Realizations {#backfill-trait-realizations}
 
 Backfill trait realizations to capture historical audiences and avoid loss of relevant data prior to a trait creation date.

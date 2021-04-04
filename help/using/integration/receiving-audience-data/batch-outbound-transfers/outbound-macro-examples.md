@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Outbound Macro Examples
 uuid: 823d85d4-d683-45cf-9e60-c12b7d52a498
 feature: Outbound Data Transfers
+exl-id: 7e3f2b25-7b7c-47fe-aa62-7ebd4e25f9ba
 ---
-
 # Outbound Macro Examples {#outbound-macro-examples}
 
 Examples of how some of the common macros are used to create outbound file templates.
@@ -175,4 +175,4 @@ Given these conditions, the following table enumerates some possible format stri
  </tbody> 
 </table>
 
-[Outbound Template Macros](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)  
+[Outbound Template Macros](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)

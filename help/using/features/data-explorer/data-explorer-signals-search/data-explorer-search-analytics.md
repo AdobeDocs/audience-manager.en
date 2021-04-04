@@ -5,8 +5,8 @@ seo-title: Advanced Search for Adobe Analytics
 title: Advanced Search for Adobe Analytics
 uuid: 20177820-10e1-49d9-bb2c-3a62141a498e
 feature: Data Explorer
+exl-id: 5a66623b-4d24-4f52-ba26-b59750d25f2c
 ---
-
 # Advanced Search for Adobe Analytics {#advanced-search-for-adobe-analytics}
 
 Audience Manager customers who also use [!DNL Adobe Analytics] can leverage the tight integration between the two solutions by enabling the [!UICONTROL Advanced Search for Adobe Analytics] option.

@@ -5,8 +5,8 @@ seo-title: Predictive Audiences Overview
 solution: Audience Manager
 title: Audience Manager Predictive Audiences
 feature: Algorithmic Models
+exl-id: 57eaeb09-0e0e-4ce9-9b25-f1a27f4f35ce
 ---
-
 # [!UICONTROL Predictive Audiences] Overview {#predictive-audiences}
 
 [!UICONTROL Predictive Audiences] helps you classify an unknown audience into distinct personas, in real-time, using advanced data science techniques.

@@ -7,8 +7,8 @@ title: Manage Data Feed Subscriptions
 topic: DIL API
 uuid: 7305adb6-cbb8-4430-8204-2243095c0ba5
 feature: Audience Marketplace
+exl-id: 171acbbc-88ab-496f-93ea-48956325d8fd
 ---
-
 # Manage Data Feed Subscriptions {#manage-data-feed-subscriptions}
 
 The [!UICONTROL Marketplace] is where data buyers go to research and subscribe to public and private data feeds. Follow these steps to subscribe to a public data feed.

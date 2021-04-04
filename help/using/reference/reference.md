@@ -5,8 +5,8 @@ seo-title: Reference
 solution: Audience Manager
 title: Reference
 feature: reference
+exl-id: 5b1f94de-8228-434f-8725-cc5b25d4b857
 ---
-
 # Reference
 
 This section contains technical documentation about system functionality, data integration, and help files. Some of the pages in this section are:

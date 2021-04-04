@@ -7,8 +7,8 @@ solution: Audience Manager
 title: API and SDK Code
 uuid: bf801e84-f914-4efd-8807-c4972474894a
 feature: API
+exl-id: db3d1f3b-9a39-4ff7-a301-1236d3b33fc2
 ---
-
 # [!DNL API] and [!DNL SDK] Code {#api-and-sdk-code}
 
 [!DNL API]s and toolkits that let you work programmatically with [!DNL Audience Manager].

@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Recency and Frequency
 uuid: faadd18a-bf27-4b73-995e-9809f52f5350
 feature: Segments
+exl-id: c00563f0-d270-4d4d-abeb-4b4b81aa68b8
 ---
-
 # Recency and Frequency {#recency-and-frequency}
 
 In [!UICONTROL Segment Builder], recency and frequency let you segment visitors based on actions that occur or repeat over a set daily interval.

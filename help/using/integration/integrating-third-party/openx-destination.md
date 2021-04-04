@@ -6,8 +6,8 @@ solution: Audience Manager
 title: OpenX as an Audience Manager Destination
 uuid: 5e86ba73-281c-403b-af06-64a1d427526a
 feature: Third Party Integrations
+exl-id: 938a518b-c8b0-4e86-885f-daf79b2cba38
 ---
-
 # OpenX as an Audience Manager Destination{#openx-as-an-audience-manager-destination}
 
 Set up [!DNL OpenX] as a destination and send Audience Manager segment data to that platform.

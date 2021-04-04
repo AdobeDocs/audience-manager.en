@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Segment Trend Report
 uuid: f84e8d0a-74e5-430c-b61c-efb696faee93
 feature: audience optimization reports
+exl-id: 1fdca05a-b661-4875-88d7-b0893e2ca08f
 ---
-
 # Segment Trend Report{#segment-trend-report}
 
 The Segment Trend report returns data on impressions and click-through rates of mapped and unmapped segments over time. 

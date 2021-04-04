@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Audience Manager Overview
 uuid: 9334da91-3691-4223-a433-cca35a980a6e
 feature: overview
+exl-id: e96d8c05-7082-4f17-936d-f1896e665c8e
 ---
-
 # Audience Manager Overview {#audience-manager-overview}
 
 Audience Manager helps you bring your audience data assets together, making it easy to collect commercially relevant information about site visitors, create marketable segments, and serve targeted advertising and content to the right audience. Furthermore, Audience Manager offers easy tag deployment and management with robust data collection, control, and protection.

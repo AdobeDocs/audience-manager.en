@@ -5,8 +5,8 @@ seo-title: System Components Overview
 title: System Components Overview
 uuid: cd0e51a3-38c3-4e3f-9bf1-938de2c71156
 feature: system components
+exl-id: b128cae4-8a11-4fad-95f8-4fe6222bb95e
 ---
-
 # System Components Overview{#system-components-overview}
 
 A high-level tour of the major components and data flows in the Audience Manager system.
@@ -32,4 +32,3 @@ This guide tries to strike a balance between general descriptions and a deep div
 * [Tag Management Components](/help/using/reference/system-components/components-tag-management.md)
 * [Platform Architecture: Data Flow Map](/help/using/reference/system-components/components-platform-architecture.md)
 * [Understanding the Edge Data Center](/help/using/reference/system-components/components-edge.md)
-

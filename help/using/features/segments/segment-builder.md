@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Segment Builder
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 feature: Segments
+exl-id: 1bd681e4-fdf7-40df-b497-b1b0bf19d68e
 ---
-
 # [!UICONTROL Segment Builder] {#segment-builder}
 
 Describes the required and optional steps that create a segment in [!UICONTROL Segment Builder].

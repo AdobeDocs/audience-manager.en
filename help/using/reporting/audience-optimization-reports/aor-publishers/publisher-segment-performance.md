@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Segment Performance Report
 uuid: c9a1e9ad-4f3f-4334-a3ff-0f241c7303c4
 feature: audience optimization reports
+exl-id: 0cc10399-5737-4d82-a1f6-9561e024054d
 ---
-
 # Segment Performance Report{#segment-performance-report}
 
 The Segment Performance report compares mapped and unmapped segments by impressions and Real-Time Segment Uniques.

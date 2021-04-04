@@ -5,8 +5,8 @@ seo-title: Save Search Criteria
 title: Save Search Criteria
 uuid: c17b26e0-f489-47c9-b41b-bf895ca9d8a5
 feature: Data Explorer
+exl-id: ab56ddb7-6b0b-4a3d-9590-00c49a4ae7dc
 ---
-
 # Save Search Criteria {#save-search-criteria}
 
 Optimize signal search efforts by saving up to 10 sets of search criteria to use whenever you need them, and track them on the [!UICONTROL Signals Dashboard]. Audience Manager reloads the saved searches every time you load the [!UICONTROL Signals Dashboard].

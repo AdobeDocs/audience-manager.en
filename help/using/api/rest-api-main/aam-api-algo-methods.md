@@ -7,8 +7,8 @@ solution: Audience Manager
 title: Algorithmic API Methods
 uuid: 8d5304d7-c1cf-42df-94e7-3f583944bd62
 feature: API
+exl-id: 5104d3fe-907e-4a40-87a2-5c712e293ded
 ---
-
 # Algorithmic API Methods {#algorithmic-api-methods}
 
 Methods that let you work programmatically with algorithmic modeling features.

@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Accuracy and Reach
 uuid: d121e099-6642-4003-ad4f-507d21e478d8
 feature: Traits
+exl-id: 647b283a-fcfa-4e3f-8667-50c6aacbc78a
 ---
-
 # Accuracy and Reach {#accuracy-and-reach}
 
 Describes the relationship between accuracy and reach in algorithmic traits.

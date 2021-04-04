@@ -5,8 +5,8 @@ title: Making Server-to-Server DCS API Calls
 uuid: bdfe3430-e27f-4a5c-88d9-ae164d28f601
 feature: DCS
 description: Call syntax, example, and parameters when making server-to-server DCS API calls
+exl-id: 977f4dfe-0beb-43c8-b64e-df4042427474
 ---
-
 # Making Server-to-Server DCS API Calls {#making-server-to-server-dcs-api-calls}
 
 Calls require the host name of the regional DCS server and the user ID. If you do not have the required user and region IDs, see [Get User IDs and Regions From a DCS Response](/help/using/api/dcs-intro/dcs-s2s/dcs-aam-ids.md) and/or [Experience Cloud](/help/using/api/dcs-intro/dcs-s2s/dcs-mcid-ids.md). Once you have user and region IDs, you can make server-to-server calls to the DCS. Refer to this section for syntax and examples.

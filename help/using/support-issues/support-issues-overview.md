@@ -5,8 +5,8 @@ seo-title: Support Issues Overview
 solution: Audience Manager
 title: Support Issues Overview
 feature: support
+exl-id: 9d2d5473-f3cc-45f5-a573-b0faeafbfe05
 ---
-
 # Support Issues Overview {#support-issues-overview}
 
 This section includes the top issues reported to Audience Manager Customer Care, and their resolution.

@@ -7,8 +7,8 @@ title: Billing for Data Feed Providers
 topic: DIL API
 uuid: 4e11dbd2-91fd-4b59-a66d-86a92e0de655
 feature: Audience Marketplace
+exl-id: aca2cec1-d3a0-421c-83ca-1c11e9e7d4c7
 ---
-
 # Billing for Data Feed Providers {#billing-for-data-feed-providers}
 
 Generate an [!DNL Audience Marketplace] billing report to view data feed usage for the previous month for each of your subscribers. You can create a report for the previous month at any time. However, the report is more accurate when you generate it on or after the 10th day of the current month.

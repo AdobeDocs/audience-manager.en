@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Profile Merge Rule Options Defined
 uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
 feature: Profile Merge Rules
+exl-id: 682d2540-c764-4f5a-a946-5d0e18c66c00
 ---
-
 # [!UICONTROL Profile Merge Rules] Options Defined {#profile-merge-rule-options-defined}
 
 The [!UICONTROL profile merge rule] options let you control the type of data [!DNL Audience Manager] uses for segmentation. A [!UICONTROL profile merge rule] can include device profiles mapped by the [!UICONTROL Profile Link] device graph, the [!UICONTROL Adobe Experience Cloud Device Co-op], and/or other, third-party device graph providers who are integrated with [!DNL Audience Manager]. You can create a maximum of 4 [!UICONTROL Profile Merge Rules]. The fourth [!UICONTROL Profile Merge Rule] is available exclusively to customers who purchased the [!UICONTROL People-Based Destinations] add-on.

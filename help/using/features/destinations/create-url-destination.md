@@ -5,9 +5,8 @@ seo-title: Configure a URL Destination
 solution: Audience Manager
 title: Configure a URL Destination
 feature: Destination Basics
+exl-id: b5af87c9-4460-43a7-9808-242eac876c39
 ---
-
-
 # Configure a [!DNL URL Destination] {#configure-url-destination}
 
 A [!DNL URL destination] makes pixel calls from a page to your [!DNL destination]. Follow these instructions to create a [!DNL URL] [!DNL destination] with [!UICONTROL Destination Builder].

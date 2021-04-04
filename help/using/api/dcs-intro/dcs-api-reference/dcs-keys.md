@@ -7,8 +7,8 @@ title: Supported Attributes for DCS API Calls
 keywords: d_caller, d_cb, d_cid, d_cid_ic, d_coppa, d_cts=1, d_cts=2, d_tdpid, d_dst=1, d_dst_filter, d_mid, d_ptfm, d_nsid, d_rs, d_rtbd=json, d_tdpid_ic
 uuid: 0b98ed11-314b-4500-afde-45a041112150
 feature: DCS
+exl-id: 1bdd7dcd-9411-4b0a-a236-059eb5faf00d
 ---
-
 # Supported Attributes for [!DNL DCS] [!DNL API] Calls {#supported-attributes-for-dcs-api-calls}
 
 Lists and describes the syntax and supported attributes (or key-value pairs) you can pass in to the [!UICONTROL Data Collection Servers] ([!DNL DCS]). This information can help you format your [!DNL DCS] requests and understand the parameters returned by this system.

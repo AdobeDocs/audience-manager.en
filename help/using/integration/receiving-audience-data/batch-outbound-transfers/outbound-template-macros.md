@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Outbound Template Macros
 uuid: dec082d3-306b-4ff5-afb2-418bd543d8d0
 feature: Outbound Data Transfers
+exl-id: 6988d0e5-7a99-4291-91d3-bcd3a15630fd
 ---
-
 # Outbound Template Macros {#outbound-template-macros}
 
 Lists the macros you can use to create outbound templates. These include file name macros, header macros, and content macros.

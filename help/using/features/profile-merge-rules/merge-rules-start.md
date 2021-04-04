@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Getting Started with Profile Merge Rules
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 feature: Profile Merge Rules
+exl-id: 11f397dd-1f23-4b14-be6f-60ce8b77ab12
 ---
-
 # Getting Started with Profile Merge Rules {#getting-started-with-profile-merge-rules}
 
 To create [!UICONTROL Profile Merge Rules], review and complete the steps in each of the procedures described in this section.

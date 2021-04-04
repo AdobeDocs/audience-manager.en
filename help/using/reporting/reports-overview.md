@@ -4,8 +4,8 @@ seo-description: Use the options under the Analytics menu to view the dashboard 
 seo-title: Reporting Overview in Adobe Audience Manager (AAM)
 title: Reporting Overview
 feature: reporting reference
+exl-id: 8b0e34be-7a78-426c-a295-5e58a3462d64
 ---
-
 # Reporting Overview
 
 Individual sections describe available reports, their purposes, and typical uses. All reports are available from the [!UICONTROL Analytics] dashboard.
@@ -47,4 +47,3 @@ For information describing the time frames when Audience Manager receives inform
 * [Data Sampling and Error Rates in Selected Audience Manager Reports](/help/using/reporting/report-sampling.md)
 
   A summary of the sampling methodology used for some reports, sampling error rates, and a list of reports that return information based on sampled data.
-

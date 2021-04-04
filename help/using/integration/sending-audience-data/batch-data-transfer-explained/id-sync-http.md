@@ -6,8 +6,8 @@ solution: Audience Manager
 title: ID Synchronization for Inbound Data Transfers
 uuid: 037e74a6-acfd-4cef-b693-16b7aaa8e976
 feature: Inbound Data Transfers
+exl-id: cd9be32f-f443-45bd-a906-ec4c8589f608
 ---
-
 # ID Synchronization for Inbound Data Transfers {#id-synchronization-for-inbound-data-transfers}
 
 Describes the syntax and parameters used in the initial `HTTP` call to synchronize user IDs between a vendor and [!DNL Audience Manager]. ID synchronization can begin after you send your data taxonomy to [!DNL Audience Manager].

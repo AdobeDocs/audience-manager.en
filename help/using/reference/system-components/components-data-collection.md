@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Data Collection Components
 uuid: 51bb1719-5ff2-4bc7-8eb1-98795e05d08f
 feature: system components
+exl-id: 7ae407f1-f1e4-4545-baa2-bcca40aad76f
 ---
-
 # Data Collection Components{#data-collection-components}
 
 Data collection components include the Data Collection Servers, the DIL API, inbound server-to-server data transfers, and log files.

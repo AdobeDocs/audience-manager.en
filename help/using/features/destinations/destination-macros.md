@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Destination Macros Defined
 uuid: 982cab05-8a3f-4f96-b4d0-291709712ad1
 feature: Destination Basics
+exl-id: 7be4b417-046c-4fe3-a53c-e4e0ed36acb9
 ---
-
 # Destination Macros Defined {#destination-macros-defined}
 
 Describes the macros you can add to a destination [!DNL URL].

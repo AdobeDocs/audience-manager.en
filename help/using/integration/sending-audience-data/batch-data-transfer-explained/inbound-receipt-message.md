@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Sample Message to Partners after Inbound Processing
 uuid: 69e3a8b3-8465-4f4c-8005-8a9ff15ae19a
 feature: Inbound Data Transfers
+exl-id: acfc788f-63e6-445f-a086-0a2cc6c8865b
 ---
-
 # Sample Message to Partners after Inbound Processing{#sample-message-to-partners-after-inbound-processing}
 
 Whenever an inbound [!UICONTROL Server-to-Server] file is processed, a receipt is sent via email to partner solutions and, if configured, to the partner.

@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Segment to Ad Unit Overlap
 uuid: aaa20163-58aa-42c9-8f72-a1dfb0d20e57
 feature: audience optimization reports
+exl-id: 6c7cf2e6-8ed4-42de-92ee-0df90940f441
 ---
-
 # Segment to Ad Unit Overlap{#segment-to-ad-unit-overlap}
 
 The Segment to Ad Unit Overlap report is displayed as a heat chart that highlights high and low overlaps between your Ad Units and Audience Manager segments.
@@ -64,4 +64,3 @@ Your [!UICONTROL Segment to Ad Unit Overlap] report could look similar to the on
   </tr> 
  </tbody> 
 </table>
-

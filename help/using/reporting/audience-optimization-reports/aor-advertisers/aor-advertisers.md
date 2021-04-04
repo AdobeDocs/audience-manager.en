@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Audience Optimization for Advertisers
 uuid: 852d550e-3c7f-4750-9abc-365c3a6f7883
 feature: audience optimization reports
+exl-id: 13595778-3d3a-4c83-a84f-4bc3af1ee367
 ---
-
 # [!UICONTROL Audience Optimization] for Advertisers{#audience-optimization-for-advertisers}
 
 [!UICONTROL Audience Optimization] for Advertisers can help you identify potential performance opportunities for Audience Manager segments across your paid media campaigns. These reports combine log-level campaign performance data with Audience Manager [!UICONTROL segment] metrics to inform segment-centric optimizations and an effective channel mix.
@@ -34,4 +34,4 @@ Users that belong to more than one [!UICONTROL RBAC] user group can switch betwe
 
 ## Conversion Groups {#conversion-groups}
 
-In the [!UICONTROL Audience Optimization] reports, **[!UICONTROL Conversion Groups]** are synonymous with [!UICONTROL data sources] that contain at least one conversion trait. [!UICONTROL Data sources] which do not contain at least one conversion trait do not appear in the [!UICONTROL Audience Optimization] reports. You can view the conversion traits for conversion groups in the [Reported Conversion Traits](../../../reporting/audience-optimization-reports/aor-advertisers/reported-conversion-traits.md) report. 
+In the [!UICONTROL Audience Optimization] reports, **[!UICONTROL Conversion Groups]** are synonymous with [!UICONTROL data sources] that contain at least one conversion trait. [!UICONTROL Data sources] which do not contain at least one conversion trait do not appear in the [!UICONTROL Audience Optimization] reports. You can view the conversion traits for conversion groups in the [Reported Conversion Traits](../../../reporting/audience-optimization-reports/aor-advertisers/reported-conversion-traits.md) report.

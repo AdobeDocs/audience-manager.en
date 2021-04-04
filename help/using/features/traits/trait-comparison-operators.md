@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Working with Comparison Operators in Trait Builder
 uuid: 41bec3b3-e5df-4a6f-abb0-80ce4c75f5e7
 feature: Traits
+exl-id: 93181ca3-46c8-45ee-b0fb-da9ceec19a39
 ---
-
 # Working with Comparison Operators in Trait Builder {#working-with-comparison-operators-in-trait-builder}
 
 This article describes the comparison operators used by [!UICONTROL Trait Builder].

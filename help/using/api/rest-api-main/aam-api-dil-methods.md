@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Data Integration Library API Methods
 uuid: 507e7afd-3ae7-44de-98b0-589d699c453b
 feature: API
+exl-id: d2f3e4e8-65be-4fec-90d7-5991514b8efc
 ---
-
 # Data Integration Library API Methods {#data-integration-library-api-methods}
 
 Methods that let you work programmatically with the [!UICONTROL Data Integration Library] ([!UICONTROL DIL].

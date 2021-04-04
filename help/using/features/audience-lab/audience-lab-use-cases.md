@@ -7,8 +7,8 @@ title: Audience Lab Use Cases
 topic: DIL API
 uuid: 727bec8a-df9a-40cc-b8a7-e1980d146a84
 feature: Audience Lab
+exl-id: b68f48bd-0d5d-4b72-84f3-a6f3acea6c49
 ---
-
 # Audience Lab Use Cases {#audience-lab-use-cases}
 
 [!UICONTROL Audience Lab] enables several use cases by allowing you to use baseline segments for creating test groups. You can divide test groups into several mutually exclusive test segments, map these to different destinations and then determine which of the segments are most effective in driving conversions.

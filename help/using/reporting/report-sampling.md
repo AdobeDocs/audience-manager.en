@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Data Sampling and Error Rates in Selected Audience Manager Reports
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
 feature: reporting reference
+exl-id: 0b7f9423-0859-4fa8-926b-e4858eed2294
 ---
-
 # Data Sampling and Error Rates in Selected Audience Manager Reports{#data-sampling-and-error-rates-in-selected-audience-manager-reports}
 
 A summary of the sampling methodology used for some reports, sampling error rates, and a list of reports that return information based on sampled data.

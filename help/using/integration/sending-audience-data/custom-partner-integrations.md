@@ -5,8 +5,8 @@ seo-title: Custom Partner Integrations
 solution: Audience Manager
 title: Custom Partner Integrations
 feature: Third Party Integrations
+exl-id: 54af75a4-c05b-42fb-851c-5e242378d9f1
 ---
-
 # Custom Partner Integrations {#custom-partner-integrations}
 
 This page lists custom integrations between Audience Manager and data partners.
@@ -48,4 +48,4 @@ The `ID type` can be:
 
 ## Sample ODC inbound file
 
-Download the [sample file](/help/using/integration/assets/ftp_dpm_odc_12345_1556223815.sync). This file qualifies several IDFAs for the trait ID 38838. You can open this file in a standard text editor or code editor. 
+Download the [sample file](/help/using/integration/assets/ftp_dpm_odc_12345_1556223815.sync). This file qualifies several IDFAs for the trait ID 38838. You can open this file in a standard text editor or code editor.

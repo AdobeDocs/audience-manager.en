@@ -5,8 +5,8 @@ seo-title: Global Data Sources
 solution: Audience Manager
 title: Global Data Sources
 feature: Data Sources
+exl-id: ef137f89-1e1a-4cc0-8864-8a84162581c1
 ---
-
 # Global Data Sources {#global-data-sources}
 
 ## Overview

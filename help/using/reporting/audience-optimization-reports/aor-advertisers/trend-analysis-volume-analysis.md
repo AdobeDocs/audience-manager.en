@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Trend Analysis and Volume Analysis Reports
 uuid: 5d124d80-5f54-4970-92cd-2c8eba42efca
 feature: audience optimization reports
+exl-id: f8e6c7a4-c4f8-465f-a32c-681a07e6e6f5
 ---
-
 # [!UICONTROL Trend Analysis] and [!UICONTROL Volume Analysis] Reports{#trend-analysis-and-volume-analysis-reports}
 
 These reports return data on impressions, click-through rates, and conversions for broad range of advertising dimensions. Compare trends and volume for your selected metrics to get a better picture of how your campaign performs over time.
@@ -31,4 +31,3 @@ The [!UICONTROL Volume Analysis] report returns data in a bar graph for your sel
 >[!TIP]
 >
 >For information about mapped and unmapped segments, see the [Segment Performance Report](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) documentation.
-

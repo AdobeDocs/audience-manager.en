@@ -5,9 +5,9 @@ seo-title: Data Integration Methods
 solution: Audience Manager
 title: Data Integration Methods
 uuid: 17a4179a-e99b-49eb-8f45-f2946afbd27f
-feature: Third Party Integrations 
+feature: Third Party Integrations
+exl-id: 26225461-c35c-4db1-9517-99e82ce163b9
 ---
-
 # Data Integration Methods {#data-integration-methods}
 
 A high-level overview of how Audience Manager exchanges information with other data providers and systems.

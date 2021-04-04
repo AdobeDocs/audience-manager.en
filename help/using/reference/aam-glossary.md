@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Glossary
 uuid: 01fc26f5-db9d-4e90-b4c1-27c6a510accc
 feature: reference
+exl-id: 9e2ee3d3-01b2-4038-abda-fedf0f16f163
 ---
-
 # Glossary{#glossary}
 
 Definitions and links to further reading.
@@ -265,4 +265,3 @@ The [!DNL Experience Cloud] ID Service (formerly visitor ID) provides a universa
 See the [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html) documentation.
 
 ## W-X-Y-Z {#w-z}
-

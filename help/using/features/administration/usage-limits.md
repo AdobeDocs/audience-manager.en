@@ -7,8 +7,8 @@ title: Usage Limits
 keywords: ID mapping, ID mappings, cookie mappings
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
 feature: Usage and Billing
+exl-id: 8d29e231-d369-44ad-8e89-e6a4c83175f2
 ---
-
 # Usage Limits {#usage-limits}
 
 Audience Manager sets a maximum limit on the number of traits, segments, destinations, and algorithmic models that you can create for an account. Limits apply to these items whether created in the user interface or programmatically through [!DNL API] methods. Usage limits help protect Audience Manager from automated processes that may attempt to compromise our [!DNL API]s or user interface.

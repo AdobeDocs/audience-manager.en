@@ -7,8 +7,8 @@ solution: Audience Manager
 title: Profile Merge Rules and Device Graph FAQ
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
 feature: Profile Merge Rules
+exl-id: 03ad79b7-a111-437e-82c5-c7406bd33c39
 ---
-
 # Profile Merge Rules and Device Graph FAQ{#profile-merge-rules-and-device-graph-faq}
 
 Answers to common Profile Merge Rule and device graph questions.

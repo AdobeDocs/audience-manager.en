@@ -5,9 +5,8 @@ seo-title: Manage Destinations
 solution: Audience Manager
 title: Manage Destinations
 feature: Destination Basics
+exl-id: 367bad0f-d7d6-4dd5-9717-85ac6eda47ab
 ---
-
-
 # Destinations Home Page {#destinations-home}
 
 The [!UICONTROL Destination] landing page lists all of your [!DNL URL], cookie, and server-to-server destinations. It provides features that let you create, edit, search for, and report on destinations. The landing page is located in **[!UICONTROL Audience Data > Destinations]**. 

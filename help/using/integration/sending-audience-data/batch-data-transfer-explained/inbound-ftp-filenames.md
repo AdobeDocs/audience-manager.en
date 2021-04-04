@@ -6,8 +6,8 @@ solution: Audience Manager
 title: FTP Name and File Size Requirements for Inbound Data Files
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 feature: Inbound Data Transfers
+exl-id: 9c889214-7075-4392-9ed5-f07b91e7b50a
 ---
-
 # [!DNL FTP] Name and File Size Requirements for Inbound Data Files {#ftp-name-and-file-size-requirements-for-inbound-data-files}
 
 Describes the required fields, syntax, naming conventions and file sizes you need to follow when sending data to [!DNL Audience Manager]. Set the names and sizes of your files according to these specifications when you send data to an Audience Manager [!DNL FTP] directory.

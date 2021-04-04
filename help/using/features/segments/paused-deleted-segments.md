@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Paused and Deleted Segments
 uuid: 88efe4af-f9a4-4bce-920a-352bd4d505dd
 feature: Segments
+exl-id: 994da89c-c9db-4cd5-b2bc-cfda231e5f2d
 ---
-
 # Paused and Deleted Segments {#paused-and-deleted-segments}
 
 Describes the effects on segmented users, data, and destinations when you pause or delete an active segment using [!UICONTROL Segment Builder].

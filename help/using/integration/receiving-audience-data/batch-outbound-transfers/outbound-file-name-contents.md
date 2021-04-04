@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Outbound Data File Name  Syntax and Examples
 uuid: effdcaf6-c37c-45f3-9d2f-a938a9da47a6
 feature: Outbound Data Transfers
+exl-id: 0944da72-5a8d-45a2-951e-b2988eb3d490
 ---
-
 # Outbound Data File Name: Syntax and Examples{#outbound-data-file-name-syntax-and-examples}
 
 Describes the required fields, syntax, and conventions used to name an outbound data file.

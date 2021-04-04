@@ -4,8 +4,8 @@ seo-description: Adobe Audience Manager (AAM) sends batch data to third-party co
 seo-title: Batch Outbound Data Transfers in Adobe Audience Manager (AAM)
 title: Batch Outbound Data Transfers
 feature: Outbound Data Transfers
+exl-id: 1fdcc971-3a71-4033-8501-ef3d1f1f0f47
 ---
-
 # Batch Outbound Data Transfers
 
 Audience Manager sends batch data to third-party content providers according to these specifications.

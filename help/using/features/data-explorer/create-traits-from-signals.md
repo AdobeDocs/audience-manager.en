@@ -5,8 +5,8 @@ seo-title: Create Traits from Signals
 title: Create Traits from Signals
 uuid: 4f324404-0c24-4e3b-96c1-7c1b28a4536d
 feature: Data Explorer
+exl-id: 14308ef0-58eb-4b76-858c-d0da560f55fd
 ---
-
 # Create Traits from Signals
 
 Create new traits from all signals, including those that are already used in traits, and capture future audiences that qualify after trait creation. Watch the video for a quick demonstration or read on for detailed information:

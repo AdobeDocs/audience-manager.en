@@ -7,8 +7,9 @@ solution: Audience Manager
 title: Trait Qualification Reference
 uuid: 07e0a639-2fb2-45d8-bad7-10fb46b08ba9
 feature: Traits
+exl-id: 223f5fc6-c939-4bc6-94a3-5d953abc601a
+exl-id: 85c2d54f-b9d6-4c95-b4b5-466119effc2a
 ---
-
 # Trait and Segment Qualification Reference {#trait-qualification-reference}
 
 Trait qualification, or trait realization, is treated differently in Audience Manager, depending on trait type. See [Trait Qualification by Trait Type](#trait-type) for details about trait type qualification.
@@ -68,4 +69,3 @@ To further drive the point home, if you experienced a spike of 10,000 visitors r
 ## Trait Qualification Limit {#trait-qualification-limit}
 
 We enforce a limit of 150,000 trait qualifications for each user profile, whether it is an authenticated profile ([DPUUID](../../reference/ids-in-aam.md)) or a device ID ([UUID](../../reference/ids-in-aam.md)). Note that while the DPUUIDs are unique to a specific instance of [!DNL Audience Manager], UUIDs are shared across the [!DNL Audience Manager] platform. For [!UICONTROL UUID]s, we impose a fairness policy when storing trait qualifications. An algorithm ensures that an equal share of the [!UICONTROL UUID] profile is made available for every instance of [!DNL Audience Manager].
-

@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Requirements and Methods of Sending Segments to Google Ad Manager Using Google Publisher Tags (GPT)
 uuid: 4b2ea81c-29bb-42d3-93d3-1d8e677790b6
 feature: Third Party Integrations
+exl-id: 04bf6fb5-ce38-4de1-bf19-e130b7e47616
 ---
-
 # Requirements and Methods of Sending Segments to Google Ad Manager Using Google Publisher Tags ( GPT) {#requirements-and-methods-of-sending-segments-to-dfp-using-google-publisher-tags-gpt}
 
 You can send qualified segments to [!DNL Google Ad Manager] (formerly DFP) either through a client-side or through a server-side integration. Requirements and related information about both methods are listed below.

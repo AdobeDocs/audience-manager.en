@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Create Algorithmic Traits
 uuid: 50c2d2d1-f412-479b-bb70-4f139429c388
 feature: Traits
+exl-id: dc799688-e38b-469b-bc55-507df0d28f43
 ---
-
 # Create Algorithmic Traits {#create-algorithmic-traits}
 
 <!-- t_algo_trait_build.xml -->

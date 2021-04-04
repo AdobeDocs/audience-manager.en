@@ -5,8 +5,8 @@ seo-title: Add or Edit Segments for Server-to-Server Destinations
 solution: Audience Manager
 title: Add or Edit Segments for Server-to-Server Destinations
 feature: Destination Basics
+exl-id: 20124779-e14b-4d17-be4b-9f17ee0dc19e
 ---
-
 # Add or Edit Segments for Server-to-Server Destinations {#add-edit-segments}
 
 You can only add or edit segments for a server-to-server ([!DNL S2S]) destination. You cannot create [!DNL S2S] destinations with [[!UICONTROL Destination Builder]](/help/using/features/destinations/destination-builder.md). Contact your consultant to set up [!DNL S2S] destinations. Follow these instructions to add or edit segments for an [!DNL S2S] destination.

@@ -6,8 +6,8 @@ solution: Audience Manager
 title: About Trait Builder
 uuid: 4258616c-7a9f-4fe9-95e2-9f51896a14ab
 feature: Traits
+exl-id: 4bb53775-9ee0-45b6-9396-f4cb93e6e6c9
 ---
-
 # About Trait Builder {#about-trait-builder}
 
 [!UICONTROL Trait Builder] is a feature that improves upon traditional pixel-based data collection and audience creation/segmentation processes. It works by processing page data with server-side rules you create in the user interface.

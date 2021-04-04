@@ -5,8 +5,8 @@ seo-title: Optional Settings for Cookie Destinations
 solution: Audience Manager
 title: Optional Settings for Cookie Destinations
 feature: Destination Basics
+exl-id: b44f386e-4d43-41c3-b8ce-88b83d5d83c2
 ---
-
 # Optional Settings for Cookie Destinations {#optional-settings-cookies}
 
 In [!UICONTROL Destination Builder], the [!UICONTROL Configuration section] contains the [!UICONTROL Cookie Domain] and [!UICONTROL Publish Data To] fields. These let you create rules to determine if a destination sets a cookie or returns a cookie. [!UICONTROL Cookie Domain] and [!UICONTROL Publish Data To] work independently of each other and are optional. You can create a cookie destination without using either of them.

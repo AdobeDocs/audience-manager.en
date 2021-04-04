@@ -7,8 +7,8 @@ solution: Audience Manager
 title: Declared IDs
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
 feature: ID Syncs
+exl-id: a480671a-797d-405d-905d-98ab4ef71369
 ---
-
 # [!UICONTROL Declared IDs] {#declared-ids}
 
 How [!UICONTROL declared IDs] work, set up procedures, code examples, and variables.

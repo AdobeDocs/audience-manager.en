@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Trait-to-Trait Overlap Report
 uuid: 7fb3fc9e-0e0b-492a-9c3a-04356afb19c7
 feature: overlap reports
+exl-id: cbc933bb-f2af-4ad0-8eb9-cbec1ee952e0
 ---
-
 # Trait-to-Trait Overlap Report{#trait-to-trait-overlap-report}
 
 Returns data on the number of unique users shared among all your first and third-party traits.

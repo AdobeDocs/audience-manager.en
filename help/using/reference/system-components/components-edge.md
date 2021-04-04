@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Understanding the Edge Data Center
 uuid: 4177e666-99f4-453d-94dd-058c6182c8d2
 feature: system components
+exl-id: 28958b49-3075-4601-9271-ef2913721a66
 ---
-
 # Understanding the Edge Data Center{#understanding-the-edge-data-center}
 
 Audience Manager uses distributed, edge-computing topologies to meet the demands placed on our systems by external sources.
@@ -36,4 +36,4 @@ The following diagram illustrates the Audience Manager edge data center environm
 
 ## Geographic Distribution and Load Balancing {#geo-dist-balance}
 
-See the [!DNL DCS] section in [Data Collection Components](../../reference/system-components/components-data-collection.md). 
+See the [!DNL DCS] section in [Data Collection Components](../../reference/system-components/components-data-collection.md).

@@ -6,8 +6,8 @@ solution: Audience Manager
 title: How Data Delivery and File Processing Times Affect Reports
 uuid: 4b975512-f67e-4749-a7ef-168415597682
 feature: reference
+exl-id: d13102c3-fd1b-4c31-8003-9fdc0df36838
 ---
-
 # How Data Delivery and File Processing Times Affect Reports{#how-data-delivery-and-file-processing-times-affect-reports}
 
 Audience Manager receives a tremendous amount of data every day. This affects the amount of time it takes to process your data and generate report results. The content in this section describes how these time intervals affect your Audience Manager account. Also, the time frames and schedules described here are general guidelines only. These schedules do not constitute Service-Level Agreements (SLAs) or commitments related to data delivery. Adobe reserves the right to change the time frames and schedules at any time without notice.

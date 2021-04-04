@@ -7,8 +7,8 @@ solution: Audience Manager
 title: Manage Data Sources
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
 feature: Data Sources
+exl-id: 1c20988e-4a09-4d56-b454-d48b75eed1ce
 ---
-
 # Manage [!UICONTROL Data Sources] {#manage-data-sources}
 
 ## Create a [!UICONTROL Data Source] {#create-data-source}

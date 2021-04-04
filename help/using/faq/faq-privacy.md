@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Privacy and Data Retention FAQ
 uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
 feature: Data Governance and Privacy
+exl-id: bccf49d7-1a3b-4286-86fb-59e472af4501
 ---
-
 # Privacy and Data Retention FAQ{#privacy-and-data-retention-faq}
 
 Answers to common privacy- and data-related questions or issues.
@@ -112,4 +112,3 @@ The table below lists the retention options for trait qualifications.
   </tr> 
  </tbody> 
 </table>
-

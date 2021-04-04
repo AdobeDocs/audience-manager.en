@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Report Metrics for Profile Merge Rules
 uuid: 76a86ff0-4c64-4734-aec0-0a8828942096
 feature: Profile Merge Rules
+exl-id: 2af59c60-2448-44af-90d2-eccc52f7ff02
 ---
-
 # Report Metrics for Profile Merge Rules {#report-metrics-for-profile-merge-rules}
 
 [!UICONTROL Profile Merge Rule] metrics provide data about people and devices that authenticate to your site. The data and graphs in [!UICONTROL Profile Merge Rule Reports] update dynamically as you create a merge rule or when you click an existing rule from the [!UICONTROL Profile Merge Rules] dashboard. These metrics can include device graphs from the [!DNL Adobe Experience Cloud Device Co-op] or other third-party device graph sources.

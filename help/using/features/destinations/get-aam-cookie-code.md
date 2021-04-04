@@ -6,8 +6,8 @@ solution: Audience Manager
 title: get_aamCookie Code
 uuid: 89c30fe3-dbe6-4d18-b161-104167d75bcd
 feature: Destination Basics
+exl-id: 66e61a4b-908e-4950-8953-37a9920b67b5
 ---
-
 # `get_aamCookie` Code {#get-aamcookie-code}
 
 Code required by [!DNL DART Enterprise] (and other destination types) to capture the Audience Manager unique user ID ([!DNL UUID]) value.

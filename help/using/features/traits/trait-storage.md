@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Trait Storage
 uuid: e72685ee-0c64-44a4-a8e2-d6ee5c968ba0
 feature: Traits
+exl-id: 97d9951e-a339-4dd9-8a67-b7884752533b
 ---
-
 # Trait Storage {#trait-storage}
 
 Trait storage folders store and help you organize traits.

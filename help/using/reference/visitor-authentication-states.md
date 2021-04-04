@@ -7,8 +7,8 @@ solution: Audience Manager
 title: Visitor Authentication States in Audience Manager
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
 feature: reference
+exl-id: 55aec28d-02f6-4e6d-9be1-4ce40deb8dc3
 ---
-
 # Visitor Authentication States in Audience Manager{#visitor-authentication-states-in-audience-manager}
 
 The visitor authentication status in Audience Manager determines if the new trait information is written to the visitor's authenticated profile or to the device profile, where the data was collected from. Audience Manager handles the visitor ID authentication statuses UNKNOWN and LOGGED_OUT in event calls in the same way.

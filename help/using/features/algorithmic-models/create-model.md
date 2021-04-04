@@ -7,8 +7,8 @@ solution: Audience Manager
 title: Create an Algorithmic Model
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 feature: Algorithmic Models
+exl-id: 8b7c4f57-f2c8-46f1-8924-5513fd6ede04
 ---
-
 # Create a Look-Alike Model {#create-an-algorithmic-model}
 
 Describes the required and optional steps that let you create a [!UICONTROL Look-Alike Model].

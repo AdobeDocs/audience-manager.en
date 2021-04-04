@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Order of Operations in Trait Builder
 uuid: df325047-af62-45ad-9ca1-046bfcbe5341
 feature: Traits
+exl-id: 90700479-4a8e-4a07-81ef-2e9d8a1d9f15
 ---
-
 # Order of Operations in Trait Builder {#order-of-operations-in-trait-builder}
 
 [!UICONTROL Trait Builder] evaluates expressions according to the order-of-operations listed below, from high to low precedence. Trait elements defined by high-precedence operators are evaluated first, before other precedence operators. This section ranks each operator according to precedence, from high to low.

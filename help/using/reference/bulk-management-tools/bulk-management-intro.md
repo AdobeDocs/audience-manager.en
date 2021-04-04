@@ -7,8 +7,8 @@ solution: Audience Manager
 title: Getting Started With Bulk Management
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 feature: baaam
+exl-id: 5603146e-7172-4181-90ad-4606129176dd
 ---
-
 # Getting Started With Bulk Management{#getting-started-with-bulk-management}
 
 The [!DNL Bulk Management Tools] let you create and manage multiple objects at once with a single operation. You can use [!DNL Bulk Management Tools] to work with [!UICONTROL data sources], [!UICONTROL derived signals], [!UICONTROL destinations], [!UICONTROL folders], [!UICONTROL models], [!UICONTROL segments], and [!UICONTROL traits].
@@ -115,4 +115,3 @@ As an example, let's take a look at how to create multiple traits at one time. T
 >[!NOTE]
 >
 >When working with large requests, the worksheet might become unresponsive and appear to be inactive. In these cases, just leave it alone. The worksheet will become responsive when the bulk request is complete. If the worksheet does not respond for a long period of time, see the [troubleshooting section](../../reference/bulk-management-tools/bulk-troubleshooting.md).
-

@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Segments  Purpose, Composition, and Rules
 uuid: 886d4abe-b1b6-4983-b4fb-b552d54d51ba
 feature: Segments
+exl-id: 4e4da7a7-3267-4564-b1c5-663dcddf2b93
 ---
-
 # Segments: Purpose, Composition, and Rules {#segments-purpose-composition-and-rules}
 
 Describes [!UICONTROL segments], their constituent parts, and rule creation with [!UICONTROL Segment Builder].

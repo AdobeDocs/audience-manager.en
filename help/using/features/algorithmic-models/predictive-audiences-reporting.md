@@ -5,8 +5,8 @@ seo-title: Predictive Audiences Reporting
 solution: Audience Manager
 title: Audience Manager Predictive Audiences
 feature: Algorithmic Models
+exl-id: 43a4272c-d9be-47f6-9b81-15472b0366ab
 ---
-
 # Predictive Audiences Reporting
 
 After you save a [!UICONTROL Predictive Audiences] model, Audience Manager starts training it. Within a couple of hours, the computed model will start analyzing audiences on the [Data Collection Servers](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/system-components/components-data-collection.html#dcs-pcs). Reporting will be available the following day.

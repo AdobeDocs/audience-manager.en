@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Data Processing Components
 uuid: d458d869-7a23-4016-871d-0b994cf4af06
 feature: system components
+exl-id: 9ff2b82b-aad0-4d24-96e6-230763019311
 ---
-
 # Data Processing Components{#data-processing-components}
 
 Data processing components include Hadoop, Snowflake, SOLR, and Tableau.
@@ -59,4 +59,3 @@ SOLR is an open-source database and server system from Apache. It provides robus
 
 
 ![](assets/advertiser_analytics.png)
-

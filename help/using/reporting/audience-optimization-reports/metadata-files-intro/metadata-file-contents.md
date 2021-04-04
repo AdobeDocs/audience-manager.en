@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Content Format for Metadata Files
 uuid: 9ba44738-3e17-40c7-9e8c-5abd8361e16d
 feature: log files
+exl-id: 1aed39f4-f893-4f25-b041-e198895e338a
 ---
-
 # Content Format for Metadata Files{#content-format-for-metadata-files}
 
 Format the contents of your Audience Optimization metadata file according to these specifications.

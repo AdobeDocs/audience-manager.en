@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Send Data to the DCS
 uuid: 024e307d-bfcb-46cf-ac3a-fc71df0248fe
 feature: DCS
+exl-id: 8a6798c3-aafd-48c8-acd7-a0e29e04dc8e
 ---
-
 # Send Data to the DCS {#send-data-to-the-dcs}
 
 Start here for information about making `/event` calls to the [!DNL DCS]. This section includes information about call syntax, parameters, formatting, and a request example.

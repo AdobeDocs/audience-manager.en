@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Get User IDs and Regions From a DCS Response
 uuid: 08036045-3b26-4d40-8e94-7d0884048683
 feature: DCS
+exl-id: 3c0c5e57-2d59-4938-9bbd-761495142c31
 ---
-
 # Get User IDs and Regions From a DCS Response {#get-user-ids-and-regions-from-a-dcs-response} 
 
 This section describes how to parse a [!DNL DCS] response to retrieve the visitor and region IDs required to make real-time calls to the [!DNL DCS].
@@ -58,4 +58,4 @@ This simple response shows the `UUID` and region `ID`. Note, this is sample data
 
 ## Next Steps {#next-steps}
 
-Once you have the user ID and regional server name, you can start sending and receiving [!DNL DCS] data. See [Making DCS API Calls](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md). 
+Once you have the user ID and regional server name, you can start sending and receiving [!DNL DCS] data. See [Making DCS API Calls](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md).

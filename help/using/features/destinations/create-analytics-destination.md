@@ -5,8 +5,8 @@ seo-title: Configure an Analytics Destination
 solution: Audience Manager
 title: Configure an Analytics Destination
 feature: Integration with Analytics
+exl-id: f3ead057-04d1-40cd-8e3d-d0934d85cdb4
 ---
-
 # Configure an Analytics Destination
 
 ## Requirements {#requirements}

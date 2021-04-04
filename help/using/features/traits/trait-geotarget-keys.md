@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Geotargeting With Platform-level Keys
 uuid: c7e4cbfe-e564-404e-a565-bbe5fd2fb519
 feature: Traits
+exl-id: 449096f9-64fd-495f-ac1d-3181a4544279
 ---
-
 # Geotargeting With Platform-level Keys {#geotargeting-with-platform-level-keys}
 
 Describes the common platform-level key-value pairs you can use to target users with geographic variables across all properties in your Audience Manager account.

@@ -6,8 +6,8 @@ solution: Audience Manager
 keywords: GDPR UI, GDPR API, CCPA, privacy, AAM ID
 title: Audience Manager Identifiers (IDs)
 feature: data governance & privacy
+exl-id: 5f18ed0a-c875-4596-a4d1-f9a7fe871d1b
 ---
-
 # Audience Manager Identifiers (IDs) {#aam-ids}
 
 When submitting [data privacy requests](data-privacy-requests.md) to Adobe Audience Manager, you must include one of the identifiers (IDs) listed below. You can find more information on the ID formats in our [Index of Audience Manager IDs](../../reference/ids-in-aam.md).

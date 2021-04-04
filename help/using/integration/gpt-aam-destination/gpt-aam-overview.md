@@ -4,8 +4,8 @@ seo-description: Overview of how to integrate Google Ad Manager using Google Pub
 seo-title: Integrate Google Ad Manager using Google Publisher Tags (GPT)in Adobe Audience Manager (AAM)
 title: Integrate Google Ad Manager using Google Publisher Tags (GPT)
 feature: Third Party Integrations
+exl-id: d383cb8a-ef41-4ce6-9e31-6145797a89fa
 ---
-
 # Integrate [!DNL Google Ad Manager] (formerly DFP) using Google Publisher Tags (GPT)
 
 The articles listed below provide an overview of how to integrate [!DNL Google Ad Manager] using Google Publisher Tags (GPT). You can use a server-side integration, or you can set up GPT as a destination to send Audience Manager segment data to [!DNL Google Ad Manager]. You will also learn the needed steps to ingest [!DNL Google Ad Manager] log files for reporting in Audience Manager.

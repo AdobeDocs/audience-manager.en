@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Trait Type Methods
 uuid: 082931d5-457b-4622-817b-86303f38c26a
 feature: API
+exl-id: d450f9ce-2abb-4a8b-b8db-2962b84fb341
 ---
-
 # Trait Type Methods {#trait-type-methods}
 
 Optional methods that let you to assign traits to a user-defined type or category, usually according to function or for your own internal reporting processes.

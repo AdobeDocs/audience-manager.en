@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Transfer-Control Files for Log File Transfers
 uuid: ef58213e-7b37-4c5a-8556-0de695706793
 feature: Outbound Data Transfers
+exl-id: 4fd1aab1-2dc2-4de9-97be-58e79825db40
 ---
-
 # Transfer-Control Files for Log File Transfers {#transfer-control-files-for-log-file-transfers}
 
 Transfer-control ([!DNL .info]) files provide metadata information about file transfers so that partners can verify that Audience Manager handled file transfers correctly.

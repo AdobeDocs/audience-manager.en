@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Bulk Create
 uuid: 1e09bcfa-783e-4e9b-9ead-147f8d1381c8
 feature: baaam
+exl-id: 7828fc95-24eb-4a80-bdb8-0d9adea43d8f
 ---
-
 # Bulk Create{#bulk-create}
 
 Bulk create lets you construct multiple data sources, derived signals, segments, traits, and other items with a single operation. Follow these instructions to make a bulk creation request.
@@ -40,4 +40,4 @@ The worksheet creates a [!UICONTROL Results] column. The [!UICONTROL Results] co
 
 ![](assets/cretetraits.png)
 
-If your bulk update returns an error or fails, see [Troubleshooting for Bulk Management Tools](../../reference/bulk-management-tools/bulk-troubleshooting.md). 
+If your bulk update returns an error or fails, see [Troubleshooting for Bulk Management Tools](../../reference/bulk-management-tools/bulk-troubleshooting.md).

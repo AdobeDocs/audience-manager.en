@@ -5,8 +5,8 @@ seo-title: GDPR Readiness Guidance for Audience Manager Customers
 solution: Audience Manager
 title: GDPR Readiness Guidance for Audience Manager Customers
 feature: data governance & privacy
+exl-id: 353b9035-20f3-41ff-819c-71f161e6b1e1
 ---
-
 # GDPR Readiness Guidance for Audience Manager Customers (Data Controllers) {#gdpr-readiness-guidance}
 
 Audience Manager recommends being proactive in the areas of data governance and organizational readiness. This will help you ensure that your consumer data will be organized for processes related to access or delete requests, your teams will be enabled and empowered to manage these requests, and your consumers (Data Subjects) will have a positive, differentiated experience with your brand.

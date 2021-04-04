@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Unused Signals Report
 uuid: 04334a5c-3e21-44db-b971-0b4457685e9a
 feature: overlap reports
+exl-id: ab5cb5ad-4305-4463-8f56-237b5a2f1f9e
 ---
-
 # Unused Signals Report{#unused-signals-report}
 
 This report returns a frequency count of all the unused information collected on your inventory and sent to Audience Manager. To access this report, navigate to **Analytics > Audience Reports > Other Reports > Unused Signals**.

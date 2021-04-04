@@ -5,8 +5,8 @@ seo-title: Configure a Cookie Destination
 solution: Audience Manager
 title: Configure a Cookie Destination
 feature: Destination Basics
+exl-id: 32b8de66-e12d-48ec-82cf-9b0d335ae834
 ---
-
 # Configure a Cookie Destination {#create-cookie-destination}
 
 A cookie destination returns and writes data to a cookie in the user's browser. The cookie contains data that can be read by other platforms that have access to the page. Follow these instructions to create a cookie destination with [!UICONTROL Destination Builder].

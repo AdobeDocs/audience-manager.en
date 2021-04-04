@@ -7,8 +7,8 @@ title: Billing for Data Feed Buyers
 keywords: Segment-level Reporting, segment-level, segment level
 uuid: d7236667-282b-4160-9909-579721af4016
 feature: Audience Marketplace
+exl-id: 401cf3be-fa84-4654-936e-e2871fef0be9
 ---
-
 # Billing for Data Feed Buyers {#billing-for-data-feed-buyers}
 
 Audience Marketplace data buyers agree to report all ad impressions served using traits contained in the data feed priced on a cost per thousand ad impressions ([!DNL CPM]) basis. [!DNL CPM] usage is due on the 5th day of each calendar month and includes data for previous month. Flat fee subscribers do not need to report usage.

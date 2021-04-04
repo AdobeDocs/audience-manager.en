@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Prefix Requirements for Key Variables
 uuid: df2ef9c8-606a-45f9-a836-859f856a7d4b
 feature: Traits
+exl-id: 67fe0c74-6831-48cb-90cf-417ebbf7f272
 ---
-
 # Prefix Requirements for Key Variables {#prefix-requirements-for-key-variables}
 
 This article describes the prefixes you must attach to key variables when creating trait rules.

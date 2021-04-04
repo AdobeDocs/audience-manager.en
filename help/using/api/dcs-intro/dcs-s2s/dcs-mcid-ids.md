@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Get User IDs and Regions Through the Adobe Experience Platform Identity Service
 uuid: 80de6cf2-5d9e-4ef8-a0f2-d53b5d574c89
 feature: DCS
+exl-id: 0b855237-ac14-4c0e-b831-221b9218840f
 ---
-
 # Get User IDs and Regions Through the Adobe Experience Platform Identity Service {#get-user-ids-and-regions-through-the-experience-cloud-id-service} 
 
 ID service customers should refer to this section for information on how to read the visitor cookie for the IDs required to make [!DNL DCS] API calls. 

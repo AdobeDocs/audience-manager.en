@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Interactive and Overlap Reports
 uuid: 486f4251-da24-4253-ab01-9dd1da8715aa
 feature: overlap reports
+exl-id: 2a29b172-a323-422d-99e0-b00aa16e03dc
 ---
-
 # Interactive and Overlap Reports{#interactive-and-overlap-reports}
 
 Interactive reports display performance and overlap data for traits and segments. Instead of using numbers arranged in columns and rows, these reports return data using different shapes,colors, and sizes. Additionally, you can choose individual or groups of data points and drill down into the report results for more details. These visualization techniques and report interactivity help make large amounts of numeric data easier to understand.

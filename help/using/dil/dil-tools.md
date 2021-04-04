@@ -6,8 +6,8 @@ solution: Audience Manager
 title: DIL Tools
 uuid: 2bc62ce2-16bd-4e80-b493-c816ba643b59
 feature: DIL Implementation
+exl-id: 1f52eb95-8287-4dd0-b933-00de6926a797
 ---
-
 # DIL Tools
 
 Describes methods in the `DIL.tools` namespace. These utility functions help you perform specific tasks.

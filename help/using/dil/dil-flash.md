@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Flash DIL
 uuid: 65833cfd-768e-4b16-95c5-debd8411df38
 feature: DIL Implementation
+exl-id: e530d893-db26-4411-8df7-9bb2df84b68e
 ---
-
 # Flash DIL{#flash-dil}
 
 Collect data sent from FLA files to Analytics and work with that information in Audience Manager.

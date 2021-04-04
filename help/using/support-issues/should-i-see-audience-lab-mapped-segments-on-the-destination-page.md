@@ -5,8 +5,8 @@ seo-title: Why Audience Lab mapped segments will not show up on the destination 
 solution: Audience Manager
 title: Should I see my Audience Lab mapped segments on the destination details page?
 feature: support
+exl-id: 7f35b824-7acd-415f-92a9-62c2a3d08526
 ---
-
 # Should I see my Audience Lab mapped segments on the destination details page? {#audience-lab-segments-destination-page}
 
 ## Question

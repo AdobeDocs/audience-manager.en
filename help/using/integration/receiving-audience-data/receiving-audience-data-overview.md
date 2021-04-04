@@ -4,8 +4,8 @@ seo-description: Receive audience data from Adobe Audience Manager (AAM).
 seo-title: Receiving Audience Data in Adobe Audience Manager (AAM)
 title: Receiving Audience Data
 feature: Outbound Data Transfers
+exl-id: 8b6ef84d-6b04-4a0e-9142-aa48b586c05e
 ---
-
 # Receiving Audience Data
 
 Receive audience data from Audience Manager.

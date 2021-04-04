@@ -7,8 +7,8 @@ keywords: GDPR UI, GDPR API, CCPA, privacy, consent
 title: Consent Management
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 feature: data governance & privacy
+exl-id: 9e545e8d-dbe4-4df9-8801-af3c2c73e406
 ---
-
 # Consent Management
 
 ## Overview {#overview}

@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Traits Dashboard
 uuid: 31b8f958-f67d-4af2-8d78-e37e2dfe810d
 feature: Traits
+exl-id: 752781af-aa67-4978-bd7f-95739dbfcddc
 ---
-
 # Traits Dashboard {#traits-dashboard}
 
 The traits dashboard is a centralized workspace for managing traits. You can see the [!UICONTROL Traits] dashboard by navigating to **[!UICONTROL Audience Data]** > **[!UICONTROL Traits]**.

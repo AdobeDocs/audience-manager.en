@@ -5,8 +5,8 @@ seo-title: Add New Device-Based Destinations
 solution: Audience Manager
 title: Add New Device-Based Destinations
 feature: Destination Basics
+exl-id: c5d7de2e-085d-48b9-a596-381503c79f55
 ---
-
 # Add New Device-Based Destinations {#add-new-device-based-destinations}
 
 This article explains how to configure new device-based destinations from the Audience Manager user interface.

@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Data Privacy Overview
 uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
 feature: data governance & privacy
+exl-id: 051de369-e762-49fb-b65f-6faf94db48a4
 ---
-
 # Data Privacy Overview {#data-privacy}
 
 ## Overview

@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Data Files for Audience Optimization Reports and Actionable Log Files
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 feature: log files
+exl-id: 0da2c1d3-5ff8-40dd-b831-21d8941688ce
 ---
-
 # Data Files for Audience Optimization Reports and Actionable Log Files {#data-files-for-audience-optimization-reports}
 
 A data file contains impression, click, or conversion data. When formatted properly, you can import this data into Audience Manager to view it in the [Audience Optimization Reports](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) and create traits using the data via [Actionable Log Files](/help/using/integration/media-data-integration/actionable-log-files.md). Format your data files according to these specifications in this section.
@@ -195,4 +195,4 @@ To update your data, send in a file that contains all of the impressions, clicks
 
 ## Next Steps {#next-steps}
 
-Review the requirements for naming and creating metadata files. To get started, see [Overview and Mappings for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md). 
+Review the requirements for naming and creating metadata files. To get started, see [Overview and Mappings for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).

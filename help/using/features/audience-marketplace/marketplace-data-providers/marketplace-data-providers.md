@@ -8,8 +8,8 @@ title: Audience Marketplace for Data Providers
 topic: DIL API
 uuid: 80e60d33-63e7-496c-82c5-205ecf0ec03a
 feature: Audience Marketplace
+exl-id: 10a00bc9-5ee0-4aed-95d7-ace749b75542
 ---
-
 # Audience Marketplace for Data Providers {#audience-marketplace-for-data-providers}
 
 Overview and workflow for data providers who want to sell data from within [!DNL Audience Manager].

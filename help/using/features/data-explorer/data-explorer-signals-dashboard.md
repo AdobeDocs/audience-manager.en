@@ -5,8 +5,8 @@ seo-title: Signals Dashboard
 title: Signals Dashboard
 uuid: 26f39507-097f-427d-bf5b-ab6d035c1dd2
 feature: Data Explorer
+exl-id: dfcacdca-c301-4655-9ab4-0642ce6d1cc0
 ---
-
 # Signals Dashboard {#signals-dashboard}
 
 Get an overview of the unused signals received by Audience Manager in the past 7 days and identify potential new traits. Unused signals reach Audience Manager from your online properties, but are not used in any of your existing traits. To view the [!UICONTROL Signals Dashboard], go to [!UICONTROL Audience Data] > [!UICONTROL Signals]. The [!UICONTROL Signals Dashboard] shows you actionable insights based on your most active unused signals.

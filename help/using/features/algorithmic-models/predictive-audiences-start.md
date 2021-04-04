@@ -5,8 +5,8 @@ seo-title: Managing Predictive Audiences
 solution: Audience Manager
 title: Audience Manager Predictive Audiences
 feature: Algorithmic Models
+exl-id: beb314de-f679-4397-8e14-2dd6576243fd
 ---
-
 # Getting Started with Predictive Audiences {#predictive-audiences-getting-started}
 
 >[!IMPORTANT]

@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Profile Merge Rules Overview
 uuid: 9e7988cc-9145-432b-840a-54fbd8657b3b
 feature: Profile Merge Rules
+exl-id: 5d1f5bea-0fca-4684-a2b4-585d9e38d9ef
 ---
-
 # [!UICONTROL Profile Merge Rules] Overview {#profile-merge-rules-overview}
 
 With [!UICONTROL Profile Merge Rules] you can control which data sets are used for segmentation and can target users accurately across multiple devices.

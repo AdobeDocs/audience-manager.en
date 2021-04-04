@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Bulk Estimates
 uuid: 63b2f06a-8ba0-47a2-bd0b-8039b2d4c95d
 feature: baaam
+exl-id: 8da0b48e-6fa4-43c9-a149-a39e465ac366
 ---
-
 # Bulk Estimates{#bulk-estimates}
 
 A bulk estimate returns segment size data based on segment rules. Follow these instructions to make a bulk estimate request.
@@ -35,5 +35,4 @@ This action opens the [!UICONTROL Account Information] dialog box.
 This action creates a [!UICONTROL Response] column in the worksheet that contains estimated segment size data. Before entering data, your bulk estimate worksheet should look similar to the following: 
 
 ![](assets/estimate.png)
-If your bulk update returns an error or fails, see [Troubleshooting for Bulk Management Tools](../../reference/bulk-management-tools/bulk-troubleshooting.md). 
-
+If your bulk update returns an error or fails, see [Troubleshooting for Bulk Management Tools](../../reference/bulk-management-tools/bulk-troubleshooting.md).

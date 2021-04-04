@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Bulk Delete
 uuid: 679cde46-09fb-45c6-b84d-47e00e0e7c0a
 feature: baaam
+exl-id: 3ff530dd-66d0-4dd3-a6e6-afe4a9cb5ba4
 ---
-
 # Bulk Delete{#bulk-delete}
 
 Bulk delete lets you remove multiple segments, traits, folders, derived signals, data sources, models, and destinations with a single operation. Follow these instructions to make a bulk delete request.
@@ -39,4 +39,4 @@ To delete multiple items, open the [!UICONTROL Bulk Management Tools] worksheet 
 
 ![](assets/delete.png)
 
-If your bulk update returns an error or fails, see [Troubleshooting for Bulk Management Tools](../../reference/bulk-management-tools/bulk-troubleshooting.md). 
+If your bulk update returns an error or fails, see [Troubleshooting for Bulk Management Tools](../../reference/bulk-management-tools/bulk-troubleshooting.md).

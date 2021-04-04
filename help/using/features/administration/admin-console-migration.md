@@ -6,8 +6,8 @@ seo-title: Audience Manager User Migration to Admin Console
 solution: Audience Manager
 title: Audience Manager User Migration to Admin Console
 feature: Administration
+exl-id: d9069cc1-87fa-47b7-ad0c-d69ee37fc91e
 ---
-
 # [!DNL Audience Manager] user migration to [!DNL Admin Console] {#user-migration}
 
 ## Overview {#overview}

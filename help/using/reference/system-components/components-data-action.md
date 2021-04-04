@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Data Action Components
 uuid: c4c4cc46-8c96-4ef5-8269-571cc5ac9276
 feature: system components
+exl-id: 8065c19f-1930-4164-a952-1686aa5cb622
 ---
-
 # Data Action Components{#data-action-components}
 
 Data action components include Customer Data Feeds, the Data Collection Server, SFTP/S3/HTTP publishers, IRIS, and the Profile Cache Server.
@@ -143,4 +143,4 @@ The following example contains real-time segment data from [!UICONTROL IRIS]. Ke
 
 ## Profile Cache Server (PCS) {#pcs}
 
-See [Data Collection Components](../../reference/system-components/components-data-collection.md). 
+See [Data Collection Components](../../reference/system-components/components-data-collection.md).

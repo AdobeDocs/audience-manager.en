@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Return A Destination by Destination ID
 uuid: abce7426-55a5-4045-93a7-0487652a7189
 feature: API
+exl-id: c0850e71-7830-4635-b773-e9a28ab5bd68
 ---
-
 # Return A Destination by Destination ID {#return-a-destination-by-destination-id}
 
 A `GET` method that returns the destination for the specified `destinationId`.

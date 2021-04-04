@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Counting Unique Users in Overlap and General Reports
 uuid: 450f6a8c-f363-43de-b2d8-0a156f14ecae
 feature: reporting reference
+exl-id: 439e7e8e-0c2e-4d3e-8148-61b9d57bf4df
 ---
-
 # Counting Unique Users in Overlap and General Reports{#counting-unique-users-in-overlap-and-general-reports}
 
 This page describes the variation in unique user totals between reports for the same trait and time period.

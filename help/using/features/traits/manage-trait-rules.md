@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Managing Trait Rules
 uuid: 827d4567-2b6f-411e-bd5c-9735c916291a
 feature: Traits
+exl-id: 4561b19a-bbb5-41ec-ac79-ab3e2ab75548
 ---
-
 # Managing Trait Rules {#managing-trait-rules}
 
 In [!UICONTROL Trait Builder], the [!UICONTROL Expression Builder] lets you create and test rules that establish audience qualification requirements. Rules consist of key-value pairs such as `color == blue` or `price > 100`. Comparison operators establish the relationship between keys and values. [!DNL Boolean] expressions determine the relationship between rule groups.

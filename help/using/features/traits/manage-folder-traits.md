@@ -7,8 +7,8 @@ solution: Audience Manager
 title: Manage Folder Traits
 uuid: 287ac280-bd58-4985-85bd-b6501eb64b7f
 feature: Traits
+exl-id: fa7a8d2a-dacc-413e-89d6-d3b7ce7bbbe3
 ---
-
 # Manage Folder Traits {#manage-folder-traits}
 
 Create, edit, and delete folder traits.

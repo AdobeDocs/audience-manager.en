@@ -5,8 +5,8 @@ seo-title: Configure batch data integration
 solution: Audience Manager
 title: Configure Batch Data Transfer Integration
 feature: Outbound Data Transfers
+exl-id: 0ed0f6bc-d4dd-4c6b-bc44-ea5c4ebe600b
 ---
-
 # Configure Batch Data Transfer Integration
 
 Before you can send batch data to third-party content providers, you need to configure the integration between Audience Manager and the third-party content provider. You can do this in two ways:

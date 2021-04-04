@@ -6,8 +6,8 @@ solution: Audience Manager
 title: DIL Modules
 uuid: d4c0d8dd-79f8-448e-b17c-c935415dd449
 feature: DIL Implementation
+exl-id: 4685bcbb-a63b-4613-bc94-54de9881966e
 ---
-
 # DIL Modules{#dil-modules}
 
 Describes methods in the `DIL.modules` namespace. These modules let you programmatically collect data and work with Audience Manager objects.

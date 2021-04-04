@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Log Data and Metadata Files
 uuid: 80aa4bc3-c660-4e65-8c22-2ddbb7bddd4f
 feature: log files
+exl-id: c913372f-4a0a-420c-933e-23b30393fbaf
 ---
-
 # Log Data and Metadata Files{#data-and-metadata-files}
 
 A data file contains impression, click, or conversion data that you can can use for: 

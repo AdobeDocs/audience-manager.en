@@ -6,8 +6,8 @@ solution: Audience Manager
 title: SDK Code
 uuid: 7d0b40ce-9cee-41f1-8253-dcfc77a89c72
 feature: API
+exl-id: de7b5a09-353d-4eea-94d3-8e611036b12d
 ---
-
 # [!DNL SDK] Code {#sdk-code}
 
 Audience Manager provides software development kits ([!DNL SDK]s) for [!DNL Android] and [!DNL iOS].

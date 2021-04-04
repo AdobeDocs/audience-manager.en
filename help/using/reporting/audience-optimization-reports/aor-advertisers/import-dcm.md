@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Import Google Campaign Manager Data Files Into Audience Manager
 uuid: 3578cfe1-6d30-4a73-ab75-8d272bebcd60
 feature: audience optimization reports
+exl-id: 045eed94-100f-460d-83bb-78fbd7beb51c
 ---
-
 # Import Google Campaign Manager Data Files Into Audience Manager {#import-dcm-data-files-into-audience-manager}
 
 Set up a [!DNL Google] group to bring your [!DNL Google Campaign Manager] data files into Audience Manager. The content in this section summarizes the integration process and provides you with links to [!DNL Google Campaign Manager] resources to help you get started.

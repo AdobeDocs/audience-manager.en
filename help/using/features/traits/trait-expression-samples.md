@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Sample Expressions With Boolean and Comparison Operators
 uuid: ee74c376-2099-4816-8694-43f58845a0ac
 feature: Traits
+exl-id: 68041d61-7942-4c2f-9e78-f2b2f803ef59
 ---
-
 # Sample Expressions With Boolean and Comparison Operators {#sample-expressions-with-boolean-and-comparison-operators}
 
 Examples you can refer to for creating expressions in the [!UICONTROL Expression Builder] code editor.

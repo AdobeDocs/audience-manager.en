@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Delivery Methods for Metadata Files
 uuid: 5199ee9b-920d-423d-8070-05a017ecd562
 feature: log files
+exl-id: 6ef2a80c-2574-4446-b755-28027818b5eb
 ---
-
 # Delivery Methods for Metadata Files{#delivery-methods-for-metadata-files}
 
 Send or update metadata files by sending them to a special [!DNL Amazon S3] directory for your Audience Manager account. Refer to this section for information about delivery/directory paths, file processing times, and updates.
@@ -48,4 +48,4 @@ File Parameter | Description  |
 
 Metadata files are processed four times a day, at regular intervals.
 
-To update your metadata records, just send a file that contains new information. You don't need to send full updates each time. 
+To update your metadata records, just send a file that contains new information. You don't need to send full updates each time.

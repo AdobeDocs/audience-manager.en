@@ -7,8 +7,8 @@ title: Trait Details Page
 uuid: 23301376-c1cc-4778-b8c4-9831f6739db9
 keywords: identity type breakdown, identity breakdown, audience identity reporting, cross-device, cross-device ID, device ID
 feature: Traits
+exl-id: c0b4791f-885e-4b14-b7e8-3c2d618fb80e
 ---
-
 # [!UICONTROL Trait] Details Page {#trait-details-page}
 
 The details page for an individual [!UICONTROL trait] provides an overview of the [!UICONTROL trait] details, such as the [!UICONTROL trait] name, ID, performance metrics, expressions that define the [!UICONTROL trait], segments it belongs to, and the [!UICONTROL trait] audit log. To view these details, go to **[!UICONTROL Audience Data]** > **[!UICONTROL Traits]** and click the name of the [!UICONTROL trait] you want to work with.

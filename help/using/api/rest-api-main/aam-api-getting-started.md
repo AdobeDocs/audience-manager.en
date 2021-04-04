@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Getting Started with REST APIs
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 feature: API
+exl-id: f7d5e52d-ad21-4020-a299-d440f954c51a
 ---
-
 # Getting Started with [!DNL REST] [!DNL APIs] {#getting-started-with-rest-apis} 
 
 Information about general requirements, authentication, optional query parameters, request [!DNL URLs], and other references.

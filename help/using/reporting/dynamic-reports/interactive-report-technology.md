@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Report Technology
 uuid: 5f3d815b-e1e6-42f2-b848-ac035a5aa77d
 feature: overlap reports
+exl-id: 59d875d6-a630-4795-93a7-1d432860f0a1
 ---
-
 # Report Technology{#report-technology}
 
 Describes the underlying software that powers the interactive reports and the data update schedule.

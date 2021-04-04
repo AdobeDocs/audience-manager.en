@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Top Unused Traits
 uuid: 90bcd333-41b8-416e-aa4e-a8661891df50
 feature: audience optimization reports
+exl-id: d0ae72c0-1fb1-423a-a7e6-de955bd7f3c5
 ---
-
 # Top Unused Traits{#top-unused-traits}
 
 Top Unused Traits are represented as a scatter diagram of traits that are not yet members of a segment, based on trait type, data source, and performance.

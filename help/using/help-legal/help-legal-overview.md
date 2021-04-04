@@ -6,8 +6,8 @@ solution: Audience Manager
 title: Help and Legal
 uuid: 522c9b17-3712-4619-9197-15d50eb97045
 feature: Support
+exl-id: a083ebff-9371-46fc-9c53-1d20be286609
 ---
-
 # Help and Legal{#help-and-legal}
 
 Resources for customer care and legal issues related to the use of this product and documentation.

@@ -5,9 +5,8 @@ seo-title: Add Data Export Controls to a Destination
 solution: Audience Manager
 title: Add Data Export Controls to a Destination
 feature: Data Export Controls
+exl-id: 12cfd2cc-b343-4dd1-a188-acbfc5cd25a2
 ---
-
-
 # Add Data Export Labels to a Destination {#add-data-export-labels}
 
 [!DNL Data Export Labels] work with the [!DNL Export Controls] you set on a data source. [!DNL Data Export Labels] prevent you from adding restricted traits to a segment and from sending segment data to a destination. You can set multiple export labels to a new or existing [!DNL cookie] or [!DNL URL] destination.

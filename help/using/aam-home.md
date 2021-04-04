@@ -6,10 +6,8 @@ solution: Audience Manager
 title: Audience Manager Guide
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 feature: overview
-
+exl-id: a47bf8ba-4ec0-4b3b-ad20-4afb7c9f924b
 ---
-
-
 # Audience Manager Guide {#audience-manager-product-documentation}
 
 This technical documentation guide provides self-help assistance for Audience Manager - an industry-leading service for online audience data management. Our product and services give digital advertisers and publishers the tools they need to control and leverage their data assets to help drive sales success.

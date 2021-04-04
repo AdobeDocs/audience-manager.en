@@ -8,8 +8,8 @@ title: Addressable Audiences
 topic: DIL API
 uuid: 3eb1335a-6949-452b-b77a-697c22856cb3
 feature: Match Rates
+exl-id: 2728e4a8-522c-423f-a6ef-e4dd624f69e5
 ---
-
 # [!UICONTROL Addressable Audiences] {#addressable-audiences}
 
 An overview of the [!UICONTROL Addressable Audience] feature and use cases.

@@ -7,8 +7,8 @@ solution: Audience Manager
 title: Classifying Traits with a Common Taxonomy
 uuid: 2e177344-07d9-40a7-8c99-c6c6518b9d97
 feature: Traits
+exl-id: 59000dc7-66cf-4e7e-8e9b-9d48157203bd
 ---
-
 # Classifying Traits with a Common Taxonomy {#classifying-traits-with-a-common-taxonomy}
 
 This article provides general overview about classifying traits with a common taxonomy.

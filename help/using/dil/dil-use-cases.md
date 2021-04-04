@@ -6,8 +6,8 @@ solution: Audience Manager
 title: DIL Use Cases and Code Samples
 uuid: 27995c2d-6572-438e-af99-b5477f090ae9
 feature: DIL Implementation
+exl-id: 001710be-b377-460a-9e29-7268d25a6305
 ---
-
 # DIL Use Cases and Code Samples{#dil-use-cases-and-code-samples}
 
 Code samples and descriptions for specific DIL use cases.
