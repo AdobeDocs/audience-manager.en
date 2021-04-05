@@ -1,14 +1,13 @@
 ---
 description: Trait qualification, or trait realization, is treated differently in Audience Manager, depending on trait type. See the table below for detailed information on trait qualification.
-keywords: trait qualification;trait realization;Unique Trait Realizations;UTR;Total Trait Population;TTP
+keywords: Trait Qualification,Trait Realization,Unique Trait Realizations,UTR,Total Trait Population,TTP
 seo-description: Trait qualification, or trait realization, is treated differently in Audience Manager, depending on trait type. See the table below for detailed information on trait qualification.
 seo-title: Trait Qualification Reference
 solution: Audience Manager
 title: Trait Qualification Reference
 uuid: 07e0a639-2fb2-45d8-bad7-10fb46b08ba9
 feature: Traits
-exl-id: 223f5fc6-c939-4bc6-94a3-5d953abc601a
-exl-id: 85c2d54f-b9d6-4c95-b4b5-466119effc2a
+exl-id: 223f5fc6-c939-4bc6-94a3-5d953abc601a,85c2d54f-b9d6-4c95-b4b5-466119effc2a,85c2d54f-b9d6-4c95-b4b5-466119effc2a,223f5fc6-c939-4bc6-94a3-5d953abc601a
 ---
 # Trait and Segment Qualification Reference {#trait-qualification-reference}
 
