@@ -256,6 +256,10 @@ The at-a-glance breakdown by data feed and use case is as follows:
 
 ![feed-breakdown](assets/feed-breakdown-alt.png)
 
+>[!NOTE]
+>
+>For the modelling use case, you should only report CPM usage upon activation. If you only run a model, but do not activate it, then no usage reporting is required.
+
 <br>&nbsp;
 
 ## Billing and Impression Allocation for Flat Fee Data Feeds {#billing-flat-fee}
