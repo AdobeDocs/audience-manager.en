@@ -164,7 +164,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
         + [Geotargeting With Platform-level Keys](features/traits/trait-geotarget-keys.md)
         + [Device Targeting With Platform-level Keys](features/traits/trait-device-targeting.md)
         + [Sample Expressions With Boolean and Comparison Operators](features/traits/trait-expression-samples.md)
-        + [Trait and Segment Qualification Reference](features/traits/trait-and-segment-qualification-reference.md)
+        + [Trait and Segment Qualification Reference](../../help/using/features/traits/trait-and-segment-qualification-reference.md)
     + [Visitor Profile Viewer](features/visitor-profile-viewer.md)
 + Reporting{#reporting}
     + [Reports Overview](reporting/reports-overview.md)
