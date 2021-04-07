@@ -3,7 +3,7 @@ description: The Segment Performance report compares mapped and unmapped segment
 seo-description: The Segment Performance report compares mapped and unmapped segments by impressions and Real-Time Segment Uniques. A mapped segment is a segment you create and send to a destination for targeting. An unmapped segment is a segment that you've created but have not sent to a destination for targeting. Comparing these different segment types within and between reports helps you optimize existing campaigns and find overlooked segments that you may want to send to a destination for targeting.
 seo-title: Segment Performance Report
 solution: Audience Manager
-title: Segment Performance Report
+title: Segment Performance Report for Publishers
 uuid: c9a1e9ad-4f3f-4334-a3ff-0f241c7303c4
 feature: audience optimization reports
 exl-id: 0cc10399-5737-4d82-a1f6-9561e024054d

@@ -3,7 +3,7 @@ description: Predictive Audiences help you classify unknown audiences into disti
 seo-description: Predictive Audiences help you classify unknown audiences into distinct personas in real-time, using data science.
 seo-title: Predictive Audiences FAQ
 solution: Audience Manager
-title: Audience Manager Predictive Audiences
+title: Predictive Audiences FAQ
 feature: Algorithmic Models
 exl-id: 21073970-8457-470b-89fc-724a118a18d2
 ---

@@ -5,6 +5,7 @@ audience: end-user
 user-guide-title: Audience Manager User Guide
 user-guide-description: Audience Manager provides industry-leading services for online audience data management.
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
+feature-set: Audience Manager
 ---
 
 # Audience Manager User Guide {#user-guide}
@@ -139,7 +140,7 @@ user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
         + [Code Syntax Used in the Segment Expression Editor](features/segments/segment-code-syntax.md)
         + [Trait and Segment Population Data in Segment Builder](features/segments/segment-builder-data.md)
         + [Trait Recommendations](features/segments/trait-recommendations.md)
-        + [Trait and Segment Qualification Reference](features/traits/trait-and-segment-qualification-reference.md)
+        + [Trait and Segment Qualification Reference](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-and-segment-qualification-reference.html)
     + Traits{#traits}
         + [Traits Overview](/help/using/features/traits/traits-overview.md)
         + [Trait Details Page](features/traits/trait-details-page.md)
