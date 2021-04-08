@@ -49,15 +49,15 @@ The following table lists the retention times for different data types and stora
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Back-end servers </p> </td> 
-   <td colname="col2"> <p>120-days. </p> <p> Audience Manager deletes user data from our back-end servers 120 days after last seeing a user on the Audience Manager platform. If <span class="keyword"> Audience Manager</span> records user activity within this 120-day cycle, we will keep this data for another 120-days. </p> </td> 
+   <td colname="col2"> <p>120 days </p> <p> Audience Manager deletes user data from our back-end servers 120 days after last seeing a user on the Audience Manager platform. If <span class="keyword"> Audience Manager</span> records user activity within this 120-day cycle, we will keep this data for another 120 days. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Edge servers </p> </td> 
-   <td colname="col2"> <p> 14-days. </p> <p>Audience Manager deletes user data from our edge servers 14 days after last seeing a user on the Audience Manager platform. If <span class="keyword"> Audience Manager</span> records user activity in within this 14-day cycle, we will keep this data for another 14-days. If the user becomes active again after the 14-day period, there will be a delay between that first new page view and when the user becomes actionable. It takes 6-18 hours to get the full profile back out to the edge center after more than 14-days of inactivity. </p> </td> 
+   <td colname="col2"> <p> 14 days </p> <p>Audience Manager deletes user data from our edge servers 14 days after last seeing a user on the Audience Manager platform. If <span class="keyword"> Audience Manager</span> records user activity in within this 14-day cycle, we will keep this data for another 14 days. If the user becomes active again after the 14-day cycle, there will be a delay between that first new page view and when the user becomes actionable. It takes 6-18 hours to get the full profile back out to the edge center after more than 14 days of inactivity. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Raw logs </p> </td> 
-   <td colname="col2"> <p>60-days (removed after 60-days of no activity). </p> <p>Raw logs are data received by an edge server via HTTP calls or from onboarded files sent in to <span class="keyword"> Audience Manager</span>. </p> </td> 
+   <td colname="col2"> <p>60 days (removed after 60 days of no activity) </p> <p>Raw logs are data received by an edge server via HTTP calls or from onboarded files sent in to <span class="keyword"> Audience Manager</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ad Server Logs </p> </td> 
