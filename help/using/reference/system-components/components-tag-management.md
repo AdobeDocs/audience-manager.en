@@ -5,7 +5,7 @@ seo-title: Tag Management Components
 solution: Audience Manager
 title: Tag Management Components
 uuid: e5059478-6ba7-4e1a-afec-e41ad7a27750
-feature: system components
+feature: System Components
 exl-id: 064e3653-7658-422c-9dd5-2252806e8f09
 ---
 # Tag Management Components{#tag-management-components}

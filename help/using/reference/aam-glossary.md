@@ -5,7 +5,7 @@ seo-title: Glossary
 solution: Audience Manager
 title: Glossary
 uuid: 01fc26f5-db9d-4e90-b4c1-27c6a510accc
-feature: reference
+feature: Reference
 exl-id: 9e2ee3d3-01b2-4038-abda-fedf0f16f163
 ---
 # Glossary{#glossary}

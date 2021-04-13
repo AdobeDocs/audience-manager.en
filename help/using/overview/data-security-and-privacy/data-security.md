@@ -5,7 +5,7 @@ seo-title: Data Security in Audience Manager
 solution: Audience Manager
 title: Data Security in Audience Manager
 uuid: 33ad19ca-4690-4d97-853b-1882d7d4ac01
-feature: data governance & privacy
+feature: Data Governance & Privacy
 exl-id: 94b70250-dca3-4c50-b4dd-bc37178a587e
 ---
 # Data Security in Audience Manager {#data-security}

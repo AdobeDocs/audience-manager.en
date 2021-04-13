@@ -5,7 +5,7 @@ seo-title: Understanding the Edge Data Center
 solution: Audience Manager
 title: Understanding the Edge Data Center
 uuid: 4177e666-99f4-453d-94dd-058c6182c8d2
-feature: system components
+feature: System Components
 exl-id: 28958b49-3075-4601-9271-ef2913721a66
 ---
 # Understanding the Edge Data Center{#understanding-the-edge-data-center}

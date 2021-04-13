@@ -4,7 +4,7 @@ seo-description: This page illustrates the process of creating Facebook Website 
 seo-title: Facebook WCA Integration
 solution: Audience Manager
 title: Facebook WCA Integration
-feature: Third Party Integrations
+feature: Third-party Integration
 exl-id: edd06247-b46b-4851-ab71-8cc05a1d6d63
 ---
 # [!DNL Facebook WCA] Integration {#facebook-wca-integration}

@@ -4,7 +4,7 @@ seo-description: This article explains the concepts and terminology used by the 
 seo-title: CCPA Glossary
 solution: Audience Manager
 title: CCPA Glossary
-feature: data governance & privacy
+feature: Data Governance & Privacy
 exl-id: b3e97e2b-81a4-4b32-9716-5b18c3f8362f
 ---
 # CCPA Glossary

@@ -5,7 +5,7 @@ seo-title: Report Metrics for Profile Merge Rules
 solution: Audience Manager
 title: Report Metrics for Profile Merge Rules
 uuid: 76a86ff0-4c64-4734-aec0-0a8828942096
-feature: Profile Merge Rules
+feature: Profile Merge
 exl-id: 2af59c60-2448-44af-90d2-eccc52f7ff02
 ---
 # Report Metrics for Profile Merge Rules {#report-metrics-for-profile-merge-rules}

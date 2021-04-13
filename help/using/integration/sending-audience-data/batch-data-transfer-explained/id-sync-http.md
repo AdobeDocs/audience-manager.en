@@ -5,7 +5,7 @@ seo-title: ID Synchronization for Inbound Data Transfers
 solution: Audience Manager
 title: ID Synchronization for Inbound Data Transfers
 uuid: 037e74a6-acfd-4cef-b693-16b7aaa8e976
-feature: Inbound Data Transfers
+feature: Inbound Data Transferss
 exl-id: cd9be32f-f443-45bd-a906-ec4c8589f608
 ---
 # ID Synchronization for Inbound Data Transfers {#id-synchronization-for-inbound-data-transfers}

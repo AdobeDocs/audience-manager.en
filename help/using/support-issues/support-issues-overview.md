@@ -4,7 +4,7 @@ seo-description: This section includes the top issues reported to Audience Manag
 seo-title: Support Issues Overview
 solution: Audience Manager
 title: Support Issues Overview
-feature: support
+feature: Support
 exl-id: 9d2d5473-f3cc-45f5-a573-b0faeafbfe05
 ---
 # Support Issues Overview {#support-issues-overview}

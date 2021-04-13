@@ -4,7 +4,7 @@ seo-description: Generate an Audience Marketplace billing report to view data fe
 seo-title: Billing for Data Feed Providers
 solution: Audience Manager
 title: Billing for Data Feed Providers
-topic: DIL API
+topic-edit: DIL API
 uuid: 4e11dbd2-91fd-4b59-a66d-86a92e0de655
 feature: Audience Marketplace
 exl-id: aca2cec1-d3a0-421c-83ca-1c11e9e7d4c7

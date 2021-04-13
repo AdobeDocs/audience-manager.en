@@ -4,7 +4,7 @@ seo-description: Read below for an overview of customer requirements that you ne
 seo-title: People-Based Destinations Prerequisites and Considerations
 solution: Audience Manager
 title: Prerequisites and Considerations
-feature: People-Based Destinations
+feature: People-based Destinations
 exl-id: 7656aa3e-3410-4052-8e29-b702bd0bf149
 ---
 # Prerequisites and Considerations {#prerequisites-considerations}

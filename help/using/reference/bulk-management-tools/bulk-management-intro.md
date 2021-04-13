@@ -6,7 +6,7 @@ seo-title: Getting Started With Bulk Management
 solution: Audience Manager
 title: Getting Started With Bulk Management
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
-feature: baaam
+feature: BAAAM
 exl-id: 5603146e-7172-4181-90ad-4606129176dd
 ---
 # Getting Started With Bulk Management{#getting-started-with-bulk-management}

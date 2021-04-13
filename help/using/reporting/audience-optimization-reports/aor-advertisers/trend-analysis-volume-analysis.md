@@ -5,7 +5,7 @@ seo-title: Trend Analysis and Volume Analysis Reports
 solution: Audience Manager
 title: Trend Analysis and Volume Analysis Reports
 uuid: 5d124d80-5f54-4970-92cd-2c8eba42efca
-feature: audience optimization reports
+feature: Audience Optimization Reports
 exl-id: f8e6c7a4-c4f8-465f-a32c-681a07e6e6f5
 ---
 # [!UICONTROL Trend Analysis] and [!UICONTROL Volume Analysis] Reports{#trend-analysis-and-volume-analysis-reports}

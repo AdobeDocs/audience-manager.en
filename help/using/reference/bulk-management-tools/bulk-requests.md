@@ -5,7 +5,7 @@ seo-title: Bulk Requests
 solution: Audience Manager
 title: Bulk Requests
 uuid: 0192d26a-4cea-4e12-9fea-388b92b382f1
-feature: baaam
+feature: BAAAM
 exl-id: a0597bf4-79c8-404d-ba3b-a92c6b5c9c06
 ---
 # Bulk Requests{#bulk-requests}

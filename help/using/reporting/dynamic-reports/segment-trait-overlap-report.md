@@ -5,7 +5,7 @@ seo-title: Segment-to-Trait Overlap Report
 solution: Audience Manager
 title: Segment-to-Trait Overlap Report
 uuid: a6b3dd21-332e-449f-aa01-2beb47f1794e
-feature: overlap reports
+feature: Overlap Reports
 exl-id: 7ce3dd2d-ab22-46f8-90bf-a32222df2e76
 ---
 # Segment-to-Trait Overlap Report{#segment-to-trait-overlap-report}

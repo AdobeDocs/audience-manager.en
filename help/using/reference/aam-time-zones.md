@@ -5,7 +5,7 @@ seo-title: Time Zones in Audience Manager
 solution: Audience Manager
 title: Time Zones in Audience Manager
 uuid: ff4710a9-edee-470c-9ab0-85c1789a2837
-feature: reference
+feature: Reference
 exl-id: bb89cf76-dd43-454b-aaa8-8e5415493ecc
 ---
 # Time Zones in Audience Manager{#time-zones-in-audience-manager}

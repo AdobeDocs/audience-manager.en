@@ -4,7 +4,7 @@ seo-description: The test group reporting section returns information on test gr
 seo-title: Test Group Reporting
 solution: Audience Manager
 title: Test Group Reporting
-topic: DIL API
+topic-edit: DIL API
 uuid: 21303c3e-4c05-4728-a759-96c2a1d99b69
 feature: Audience Lab
 exl-id: 5d959002-e904-44df-87e6-e4c85838b076

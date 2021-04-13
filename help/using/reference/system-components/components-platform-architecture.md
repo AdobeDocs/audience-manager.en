@@ -5,7 +5,7 @@ seo-title: Platform Architecture  Data Flow Map
 solution: Audience Manager
 title: Platform Architecture  Data Flow Map
 uuid: d845af1d-f448-4f4c-948e-b2c89f125086
-feature: system components
+feature: System Components
 exl-id: 6543df7d-aac5-4181-87a8-bc47edd2e951
 ---
 # Platform Architecture: Data Flow Map{#platform-architecture-data-flow-map}

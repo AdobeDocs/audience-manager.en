@@ -6,7 +6,7 @@ seo-title: Key-Value Pairs Explained
 solution: Audience Manager
 title: Key-Value Pairs Explained
 uuid: f1435742-81ca-4964-8370-accf2f1c47a5
-feature: reference
+feature: Reference
 exl-id: de4e6fdb-2d6d-4fed-9255-9438b42b2570
 ---
 # Key-Value Pairs Explained{#key-value-pairs-explained}

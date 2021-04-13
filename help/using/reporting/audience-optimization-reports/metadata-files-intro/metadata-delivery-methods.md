@@ -5,7 +5,7 @@ seo-title: Delivery Methods for Metadata Files
 solution: Audience Manager
 title: Delivery Methods for Metadata Files
 uuid: 5199ee9b-920d-423d-8070-05a017ecd562
-feature: log files
+feature: Log Files
 exl-id: 6ef2a80c-2574-4446-b755-28027818b5eb
 ---
 # Delivery Methods for Metadata Files{#delivery-methods-for-metadata-files}

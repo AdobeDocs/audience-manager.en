@@ -2,7 +2,7 @@
 description: Why are our Read-Only users able to create, edit or delete traits and segments?
 solution: Audience Manager
 title: Why are our Read-Only users able to create, edit or delete traits and segments?
-feature: support
+feature: Support
 exl-id: 3383d27e-9c12-4925-ace3-c3133727d9b9
 ---
 # Why are our Read-Only users able to create, edit or delete traits and segments?

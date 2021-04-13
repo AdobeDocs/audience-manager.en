@@ -5,7 +5,7 @@ seo-title: Requirements and Methods of Sending Segments to Google Ad Manager Usi
 solution: Audience Manager
 title: Requirements and Methods of Sending Segments to Google Ad Manager Using Google Publisher Tags (GPT)
 uuid: 4b2ea81c-29bb-42d3-93d3-1d8e677790b6
-feature: Third Party Integrations
+feature: Third-party Integration
 exl-id: 04bf6fb5-ce38-4de1-bf19-e130b7e47616
 ---
 # Requirements and Methods of Sending Segments to Google Ad Manager Using Google Publisher Tags ( GPT) {#requirements-and-methods-of-sending-segments-to-dfp-using-google-publisher-tags-gpt}

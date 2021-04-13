@@ -4,7 +4,7 @@ seo-description: This article explains how to configure Twitter Tailored Audienc
 seo-title: Configure Twitter Tailored Audiences as a Self-Service Device-Based Destination
 solution: Audience Manager
 title: Configure Twitter Tailored Audiences as a Self-Service Device-Based Destination
-feature: People-Based Destinations
+feature: People-based Destinations
 exl-id: 13b36469-3f61-47b1-9355-ca329de1fb24
 ---
 # Configure [!DNL Twitter Tailored Audiences] as a Self-Service Device-Based Destination {#configure-twitter}

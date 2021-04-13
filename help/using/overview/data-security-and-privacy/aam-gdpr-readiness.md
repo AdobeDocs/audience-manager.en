@@ -4,7 +4,7 @@ seo-description: GDPR Readiness Guidance for Audience Manager Customers
 seo-title: GDPR Readiness Guidance for Audience Manager Customers
 solution: Audience Manager
 title: GDPR Readiness Guidance for Audience Manager Customers
-feature: data governance & privacy
+feature: Data Governance & Privacy
 exl-id: 353b9035-20f3-41ff-819c-71f161e6b1e1
 ---
 # GDPR Readiness Guidance for Audience Manager Customers (Data Controllers) {#gdpr-readiness-guidance}

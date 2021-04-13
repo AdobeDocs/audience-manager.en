@@ -5,7 +5,7 @@ seo-title: Onboarding Status Report
 solution: Audience Manager
 title: Onboarding Status Report
 uuid: 6ca8a90a-436b-4fce-adf1-48f3b96b3ed2
-feature: inbound and outbound reports
+feature: Inbound and Outbound Reports
 exl-id: 4517276f-5025-4779-917f-4a0bb22ca56c
 ---
 # Onboarding Status Report{#onboarding-status-report-about}

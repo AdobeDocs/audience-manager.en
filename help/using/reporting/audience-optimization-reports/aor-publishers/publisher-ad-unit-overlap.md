@@ -5,7 +5,7 @@ seo-title: Ad Unit Overlap
 solution: Audience Manager
 title: Ad Unit Overlap
 uuid: e4467e81-acbf-474e-b501-89d57395651f
-feature: audience optimization reports
+feature: Audience Optimization Reports
 exl-id: 08b219c6-bf0c-4473-9459-83b3657dfb15
 ---
 # Ad Unit Overlap{#ad-unit-overlap}

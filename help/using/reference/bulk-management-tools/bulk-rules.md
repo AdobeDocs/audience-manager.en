@@ -5,7 +5,7 @@ seo-title: Create or Update Trait Rules and Segment Rules
 solution: Audience Manager
 title: Create or Update Trait Rules and Segment Rules
 uuid: bdd5f8f1-bb83-4844-b681-654e45ace3e1
-feature: baaam
+feature: BAAAM
 exl-id: 9b697606-5534-4e6e-a3f2-b1a4c26bb707
 ---
 # Create or Update Trait Rules and Segment Rules{#create-or-update-trait-rules-and-segment-rules}

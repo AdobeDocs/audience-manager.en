@@ -4,7 +4,7 @@ seo-description: Contains technical documentation about system functionality, da
 seo-title: Reference
 solution: Audience Manager
 title: Reference
-feature: reference
+feature: Reference
 exl-id: 5b1f94de-8228-434f-8725-cc5b25d4b857
 ---
 # Reference

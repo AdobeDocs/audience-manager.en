@@ -5,7 +5,7 @@ seo-title: GDPR Considerations for Destinations
 solution: Audience Manager
 title: GDPR Considerations for Destinations
 uuid: e8a40060-086c-4f03-b48c-9c903acb7891
-feature: data governance & privacy
+feature: Data Governance & Privacy
 exl-id: ff2aa030-94cd-45dc-a9a2-283b38ab5e46
 ---
 # GDPR Considerations for Destinations{#gdpr-considerations-for-destinations}

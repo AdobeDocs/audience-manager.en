@@ -6,7 +6,7 @@ seo-title: Index of IDs in Audience Manager
 solution: Audience Manager
 title: Index of IDs in Audience Manager
 uuid: 292185ec-7c6a-414b-ab17-800c21cb1f01
-feature: reference
+feature: Reference
 exl-id: 1caf3c6a-ebfd-49f1-9ebd-d4604474c070
 ---
 # Index of IDs in [!DNL Audience Manager] {#index-of-ids-in-audience-manager}

@@ -4,7 +4,7 @@ seo-description: Answers to common questions about People-Based Destinations.
 seo-title: People-Based Destinations FAQ
 solution: Audience Manager
 title: People-Based Destinations FAQ
-feature: People-Based Destinations
+feature: People-based Destinations
 exl-id: 56506bf0-45f1-49df-81ac-10f57a2487eb
 ---
 # People-Based Destinations FAQ {#people-based-destinations-faq}

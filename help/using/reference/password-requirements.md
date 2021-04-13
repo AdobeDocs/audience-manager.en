@@ -5,7 +5,7 @@ seo-title: Password Requirements, Locked Accounts, and Forgotten Passwords
 solution: Audience Manager
 title: Password Requirements, Locked Accounts, and Forgotten Passwords
 uuid: bca892eb-3577-4382-8110-131f78d23069
-feature: reference
+feature: Reference
 exl-id: beeb65e3-b715-49a8-b14b-ce3fff96a5cd
 ---
 # Password Requirements, Locked Accounts, and Forgotten Passwords{#password-requirements-locked-accounts-and-forgotten-passwords}

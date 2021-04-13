@@ -5,7 +5,7 @@ seo-title: Bulk Create
 solution: Audience Manager
 title: Bulk Create
 uuid: 1e09bcfa-783e-4e9b-9ead-147f8d1381c8
-feature: baaam
+feature: BAAAM
 exl-id: 7828fc95-24eb-4a80-bdb8-0d9adea43d8f
 ---
 # Bulk Create{#bulk-create}

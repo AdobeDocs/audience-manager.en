@@ -4,7 +4,7 @@ seo-description: This page includes step-by-step guidance on how to combine offl
 seo-title: Workflow A - Personalization Based on All Online Activity Combined with Offline Data
 solution: Audience Manager
 title: Workflow A - Personalization Based on All Online Activity Combined with Offline Data
-feature: People-Based Destinations
+feature: People-based Destinations
 exl-id: 1f906955-8fe7-4cce-95d6-0e4275d523e8
 ---
 # Workflow A - Personalization Based on All Online Activity Combined with Offline Data {#workflow-a}

@@ -5,7 +5,7 @@ seo-title: Segment Trend Report
 solution: Audience Manager
 title: Segment Trend Report
 uuid: f84e8d0a-74e5-430c-b61c-efb696faee93
-feature: audience optimization reports
+feature: Audience Optimization Reports
 exl-id: 1fdca05a-b661-4875-88d7-b0893e2ca08f
 ---
 # Segment Trend Report{#segment-trend-report}

@@ -5,7 +5,7 @@ seo-title: External Device Graph Use Cases
 solution: Audience Manager
 title: External Device Graph Use Cases
 uuid: f4bc822d-39d2-4680-90ed-7ee2ead6db6f
-feature: Profile Merge Rules
+feature: Profile Merge
 exl-id: 657aecfd-7fa3-466e-8331-c49cc921e3a9
 ---
 # External Device Graph Use Cases {#external-device-graph-use-cases}

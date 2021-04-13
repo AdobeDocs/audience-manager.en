@@ -5,7 +5,7 @@ seo-title: Profile Link Device Graph Use Cases
 solution: Audience Manager
 title: Profile Link Device Graph Use Cases
 uuid: bd5567fd-fcd5-40ba-b6f1-035d2ddbcd3a
-feature: Profile Merge Rules
+feature: Profile Merge
 exl-id: 8712d02f-c431-4116-8807-41f9e2dda44c
 ---
 # Profile Link Device Graph Use Cases {#profile-link-device-graph-use-cases}

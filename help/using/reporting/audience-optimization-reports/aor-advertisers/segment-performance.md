@@ -5,7 +5,7 @@ seo-title: Segment Performance Report
 solution: Audience Manager
 title: Segment Performance Report
 uuid: 5156a4c7-831d-4a95-a1be-eb516f0d91b7
-feature: audience optimization reports
+feature: Audience Optimization Reports
 exl-id: 2cd54b18-6916-4d69-bd65-7b8c8846c446
 ---
 # Segment Performance Report{#segment-performance-report}

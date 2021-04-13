@@ -5,7 +5,7 @@ seo-title: Publisher Use Cases
 solution: Audience Manager
 title: Publisher Use Cases
 uuid: 5f571d60-d902-4958-b5d3-8d09ddda42c7
-feature: reference
+feature: Reference
 exl-id: 974652de-59c0-46db-ac64-ba701985e409
 ---
 # Publisher Use Cases{#publisher-use-cases}

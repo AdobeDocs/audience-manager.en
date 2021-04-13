@@ -5,7 +5,7 @@ seo-title: Bulk Estimates
 solution: Audience Manager
 title: Bulk Estimates
 uuid: 63b2f06a-8ba0-47a2-bd0b-8039b2d4c95d
-feature: baaam
+feature: BAAAM
 exl-id: 8da0b48e-6fa4-43c9-a149-a39e465ac366
 ---
 # Bulk Estimates{#bulk-estimates}

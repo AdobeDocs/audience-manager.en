@@ -4,7 +4,7 @@ seo-description: The Marketplace is where data buyers go to research and subscri
 seo-title: Manage Data Feed Subscriptions
 solution: Audience Manager
 title: Manage Data Feed Subscriptions
-topic: DIL API
+topic-edit: DIL API
 uuid: 7305adb6-cbb8-4430-8204-2243095c0ba5
 feature: Audience Marketplace
 exl-id: 171acbbc-88ab-496f-93ea-48956325d8fd

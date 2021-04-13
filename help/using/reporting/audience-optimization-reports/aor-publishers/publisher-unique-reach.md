@@ -5,7 +5,7 @@ seo-title: Unique User Reach
 solution: Audience Manager
 title: Unique User Reach for Publishers
 uuid: 64e75fad-f4cb-4d47-a162-34e663f3966f
-feature: audience optimization reports
+feature: Audience Optimization Reports
 exl-id: 7f92547e-3bb0-4df1-953e-1c26e91b4e0c
 ---
 # Unique User Reach{#unique-user-reach}

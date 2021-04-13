@@ -4,7 +4,7 @@ seo-description: This page includes step-by-step guidance on how to build audien
 seo-title: Workflow B - Personalization Based on Offline-Only Data
 solution: Audience Manager
 title: Workflow B - Personalization Based on Offline-Only Data
-feature: People-Based Destinations
+feature: People-based Destinations
 exl-id: d980de26-3133-4ae3-80c2-8c3bf2480bbd
 ---
 # Workflow B - Personalization Based on Offline-Only Data {#workflow-b}

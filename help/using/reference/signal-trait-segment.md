@@ -5,7 +5,7 @@ seo-title: Signals, Traits, and Segments
 solution: Audience Manager
 title: Signals, Traits, and Segments
 uuid: 485fcc5c-b289-463b-a610-0d727df90f3c
-feature: reference
+feature: Reference
 exl-id: ec33f2c3-1589-4c02-a85a-db0d72467f32
 ---
 # [!UICONTROL Signals], [!UICONTROL Traits], and [!UICONTROL Segments] {#signals-traits-and-segments}

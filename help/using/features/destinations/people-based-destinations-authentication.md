@@ -4,7 +4,7 @@ seo-description: This page contains guidance on how to configure and manage the 
 seo-title: Authentication with People-Based Platforms
 solution: Audience Manager
 title: Authentication with People-Based Platforms
-feature: People-Based Destinations
+feature: People-based Destinations
 exl-id: d3e136d0-2b06-412a-9b9b-75b661c9aa14
 ---
 # Authentication with People-Based Platforms {#authentication-with-people-based-platforms}

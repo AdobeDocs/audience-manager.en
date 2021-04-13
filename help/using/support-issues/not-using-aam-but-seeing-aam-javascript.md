@@ -4,7 +4,7 @@ seo-description: We are not using  but we are seeing Audience Manager Javascript
 seo-title: We are not using Audience Manager but we are seeing Audience Manager Javascript calls in the Javascript debugger - Why?
 solution: Audience Manager
 title: We are not using Audience Manager but we are seeing Audience Manager Javascript calls in the Javascript debugger - Why?
-feature: support
+feature: Support
 exl-id: f409e326-17b3-40ee-8570-8d99119fe337
 ---
 # We are not an Audience Manager customer, but see the Audience Manager Javascript calls on our site

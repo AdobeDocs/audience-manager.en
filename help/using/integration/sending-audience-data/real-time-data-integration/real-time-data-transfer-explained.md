@@ -5,7 +5,7 @@ seo-title: Real-Time Data Transfer Process Described
 solution: Audience Manager
 title: Real-Time Data Transfer Process Described
 uuid: b68781b3-0b7a-442d-8e34-2db2474849a4
-feature: Inbound Data Transfers
+feature: Inbound Data Transferss
 ---
 
 # Real-Time Data Transfer Process Described{#real-time-data-transfer-process-described}

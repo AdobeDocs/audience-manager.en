@@ -4,7 +4,7 @@ seo-description: Around October 14th, 2019 I noticed that my onboarded trait pop
 seo-title: Why did my Onboarded trait populations drop to 0 around October 15th?
 solution: Audience Manager
 title: Why did my Onboarded trait populations drop to 0 around October 15th?
-feature: support
+feature: Support
 exl-id: e93cee15-7d05-4f81-8f14-a3e03f214542
 ---
 # Why did my Onboarded trait populations drop to 0 around October 15th? {#why-did-my-onboarded-trait-populations-drop-to-0-around-october}

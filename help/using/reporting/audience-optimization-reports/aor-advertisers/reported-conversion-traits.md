@@ -5,7 +5,7 @@ seo-title: Reported Conversion Traits
 solution: Audience Manager
 title: Reported Conversion Traits
 uuid: b4b5eb9c-d83e-4e7f-8661-f5d9c855258b
-feature: audience optimization reports
+feature: Audience Optimization Reports
 exl-id: 22335e8d-35cf-4014-803a-efdd35552ef2
 ---
 # Reported Conversion Traits{#reported-conversion-traits}
