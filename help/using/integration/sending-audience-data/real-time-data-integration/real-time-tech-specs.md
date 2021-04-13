@@ -5,7 +5,7 @@ seo-title: Technical Specifications for Inbound, Real-Time Data Transfers
 solution: Audience Manager
 title: Technical Specifications for Inbound, Real-Time Data Transfers
 uuid: 722aaf40-c60f-451c-99ce-aa773f7f301d
-feature: Inbound Data Transferss
+feature: Inbound Data Transfers
 exl-id: 4d777b67-6330-4582-b398-abc267b84d83
 ---
 # Technical Specifications for Inbound, Real-Time Data Transfers{#technical-specifications-for-inbound-real-time-data-transfers}

@@ -5,7 +5,7 @@ seo-title: Filter Report Results With the Data Sliders
 solution: Audience Manager
 title: Filter Report Results With the Data Sliders
 uuid: ec486d97-d1d9-469b-b8df-5821f30d10ee
-feature: Reporting Reference
+feature: Reporting Reference Reference
 exl-id: 876a01c2-e73e-4728-8890-e3f354ad1b86
 ---
 # Filter Report Results With the Data Sliders{#filter-report-results-with-the-data-sliders}

@@ -5,7 +5,7 @@ seo-title: Reporting FAQ
 solution: Audience Manager
 title: Reporting FAQ
 uuid: 78cd6c86-8a4a-4748-ab71-b6e8d6078c94
-feature: Reporting
+feature: Reporting Reference
 exl-id: 1e6531b2-bb39-4056-9d5e-164f50955f99
 ---
 # Reporting FAQ{#reporting-faq}

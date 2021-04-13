@@ -5,7 +5,7 @@ seo-title: File Compression for Inbound Data Transfer Files
 solution: Audience Manager
 title: File Compression for Inbound Data Transfer Files
 uuid: 2a68f69c-60b0-4002-863b-302d2320e356
-feature: Inbound Data Transferss
+feature: Inbound Data Transfers
 exl-id: 9b3e3bef-2c93-4801-8f4f-04d9d42fd952
 ---
 # File Compression for Inbound Data Transfer Files{#file-compression-for-inbound-data-transfer-files}

@@ -5,7 +5,7 @@ seo-title: Pixel-based Data Transfers
 solution: Audience Manager
 title: Pixel-based Data Transfers
 uuid: 8773bfc0-6b8d-4a6a-a8b7-e043744486ab
-feature: Inbound Data Transferss
+feature: Inbound Data Transfers
 exl-id: fe9ecb97-4a45-4fbb-855e-01df007144cf
 ---
 # Pixel-based Data Transfers {#pixel-based-data-transfers}

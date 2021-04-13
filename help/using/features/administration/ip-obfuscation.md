@@ -3,7 +3,7 @@ description: Your company may desire to obfuscate IP address in many countries d
 seo-description: Your company may desire to obfuscate IP address in many countries due to global privacy regulations. Audience Manager allows you to obfuscate visitor IP addresses on a global or country-by-country basis.
 solution: Audience Manager
 title: IP Address Obfuscation
-feature: Data Governance and Privacy
+feature: Data Governance & Privacy
 exl-id: 8c976d1e-f4ba-4892-bd68-d4e74bdb4d9b
 ---
 # IP Address Obfuscation {#ip-obfuscation}
