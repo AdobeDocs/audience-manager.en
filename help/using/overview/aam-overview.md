@@ -5,7 +5,7 @@ seo-title: Audience Manager Overview
 solution: Audience Manager
 title: Audience Manager Overview
 uuid: 9334da91-3691-4223-a433-cca35a980a6e
-feature: overview
+feature: Overview
 exl-id: e96d8c05-7082-4f17-936d-f1896e665c8e
 ---
 # Audience Manager Overview {#audience-manager-overview}
