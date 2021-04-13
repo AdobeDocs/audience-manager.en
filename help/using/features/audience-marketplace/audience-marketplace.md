@@ -5,7 +5,6 @@ seo-description: Audience Marketplace lets data providers and buyers execute dat
 seo-title: Audience Marketplace
 solution: Audience Manager
 title: Audience Marketplace
-topic-edit: DIL API
 uuid: a94d2ee7-d854-4e68-bd6b-42827ca72f67
 feature: Audience Marketplace
 exl-id: ee608bcd-6827-4fac-be96-8e16ff390ec0

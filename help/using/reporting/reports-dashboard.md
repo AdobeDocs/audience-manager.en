@@ -5,7 +5,7 @@ seo-title: Reports Dashboard
 solution: Audience Manager
 title: Reports Dashboard
 uuid: 350eee2d-72f7-42a7-916b-60f9a362c5cf
-feature: Reporting Reference Reference
+feature: Reporting Reference
 exl-id: 1ca0280a-d67b-46f7-9c58-effc5be4e38f
 ---
 # Reports Dashboard {#reports-dashboard}

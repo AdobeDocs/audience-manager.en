@@ -4,7 +4,6 @@ seo-description: A data feed requires a name, description, data source, and a pl
 seo-title: Create, Price, and Manage Data Feeds
 solution: Audience Manager
 title: Create, Price, and Manage Data Feeds
-topic-edit: DIL API
 uuid: e28c20b3-33fc-4485-8ee9-8530d126f741
 feature: Audience Marketplace
 exl-id: e8605e94-e62a-430c-9aef-875f995fb436

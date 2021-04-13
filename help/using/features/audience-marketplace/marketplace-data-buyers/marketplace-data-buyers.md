@@ -4,7 +4,6 @@ seo-description: Overview and workflow for data buyers who want to purchase thir
 seo-title: Audience Marketplace for Data Buyers
 solution: Audience Manager
 title: Audience Marketplace for Data Buyers
-topic-edit: DIL API
 uuid: f505b5f4-4231-4e84-993a-cd64128b540f
 feature: Audience Marketplace
 exl-id: 9d6a7fda-f79f-41ad-9654-3ebcf9028cc2

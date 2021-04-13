@@ -4,7 +4,6 @@ seo-description: Frequently asked questions about the Audience Lab feature.
 seo-title: Audience Lab FAQ
 solution: Audience Manager
 title: Audience Lab FAQ
-topic-edit: DIL API
 uuid: b1daf99d-af60-4f65-987d-794a6d45d566
 feature: Audience Lab
 exl-id: 25bdabb5-2ba8-45d2-81ca-05c0590d7d96

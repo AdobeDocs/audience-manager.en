@@ -5,7 +5,7 @@ seo-title: Improve Log File Processing Times with Lookup Tables
 solution: Audience Manager
 title: Improve Log File Processing Times with Lookup Tables
 uuid: ffc77618-474b-455e-9c91-15b32fc151a5
-feature: Reporting Reference Reference
+feature: Reporting Reference
 exl-id: bab51406-21e9-4033-90d4-6100daf6a311
 ---
 # Improve Log File Processing Times with Lookup Tables{#improve-log-file-processing-times-with-lookup-tables}
