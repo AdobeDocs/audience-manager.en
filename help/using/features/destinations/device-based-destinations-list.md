@@ -12,7 +12,6 @@ exl-id: 7db3bc02-ece4-4524-a401-d2c8c6de510a
 
 This page includes current [!DNL Audience Manager] [device-based destinations](/help/using/features/destinations/add-device-based-destinations.md) only. In [!DNL Audience Manager], [!UICONTROL device-based destinations] are also called [!UICONTROL server-to-server destinations]. For more information on an integration refer to its [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) listing (where available) or contact your [!DNL Adobe] Consultant or Customer Care.
 
-&nbsp;
 
 * **Last Updated** = Shows the last date when there was an update for this [!UICONTROL device-based destination].
 * **Updates** = Indicates whether [!DNL Audience Manager] sends data in real-time or batch (1xday) to this [!UICONTROL destination].
@@ -21,10 +20,9 @@ This page includes current [!DNL Audience Manager] [device-based destinations](/
 * **[!DNL ICDS]** = This column lists the partners that support [!UICONTROL Instant Cross-Device Suppression]. Read about [Instant Cross-Device Suppression](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
 * **Mobile Device IDs** = This column lists partners that can receive mobile device IDs from [!DNL Audience Manager].
 
-&nbsp;
 
-| Integration                                       | Last Updated    | Updates   | Unsegment | Receiving [!DNL IAB TCF] consent signals | [!DNL ICDS] | Mobile Device IDs |
-|---------------------------------------------------|------------|-----------|-----------|-----------------------------------|------|-------------------|
+| Integration                                              | Last Updated | Updates   | Unsegment | Receiving [!DNL IAB TCF] consent signals | [!DNL ICDS] | Mobile Device IDs |
+|----------------------------------------------------------|------------|-----------|-----------|-----------------------------------|------|-------------------|
 | [!DNL 4C Insights]                                       | 26/09/2018 | 1xday     | Yes       | No                                | No   | Yes               |
 | [!DNL 4info]                                             | 09/02/2017 | 1xday     | No        | No                                | No   | Yes               |
 | [!DNL AcuityAds]                                         | 09/02/2017 | Real-time | Yes       | No                                | Yes  | No                |
@@ -44,7 +42,8 @@ This page includes current [!DNL Audience Manager] [device-based destinations](/
 | [!DNL AOL ONE]                                           | 02/03/2017 | Real-time | Yes       | No                                | No   | Yes               |
 | [!DNL AppNexus]                                          | 02/03/2017 | Real-time | Yes       | No                                | Yes  | No                |
 | [!DNL AppNexus Yieldex]                                  | 10/08/2017 | 1xday     | Yes       | No                                | No   | No                |
-| [!DNL Atedra]/[!DNL AdStanding]                                 | 02/03/2017 | Real-time | Yes       | No                                | Yes  | No                |
+| [!DNL Artsai] (formerly [!DNL Adxcel])                   | 27/01/2020 | 1xday     | No        | No                                | No   | Yes               |
+| [!DNL Atedra]/[!DNL AdStanding]                          | 02/03/2017 | Real-time | Yes       | No                                | Yes  | No                |
 | [!DNL Avocet]                                            | 06/12/2017 | 1xday     | No        | No                                | No   | No                |
 | [!DNL Bidtellect]                                        | 03/03/2017 | Real-time | Yes       | No                                | No   | No                |
 | [!DNL Beeswax]                                           | 25/05/2018 | 1xday     | No        | No                                | No   | Yes               |
@@ -65,7 +64,7 @@ This page includes current [!DNL Audience Manager] [device-based destinations](/
 | [!DNL DistrictM]                                         | 02/03/2017 | 1xday     | Yes       | No                                | No   | No                |
 | [!DNL DoubleVerify]                                      | 06/09/2017 | 1xday     | Yes       | No                                | No   | No                |
 | [!DNL Drawbridge]                                        | 02/03/2017 | Real-time | No        | No                                | No   | Yes               |
-| [!DNL Dstillery] ([!DNL FKA Media6])                            | 02/03/2017 | Real-time | Yes       | No                                | No   | Yes               |
+| [!DNL Dstillery] ([!DNL FKA Media6])                     | 02/03/2017 | Real-time | Yes       | No                                | No   | Yes               |
 | [!DNL Dunnhumby]                                         | 21/11/2019 | 1xday     | No        | No                                | No   | No                |
 | [!DNL easyfundraising]                                   | 27/06/2019 | 1xday     | No        | No                                | No   | Yes               |
 | [!DNL Epsilon Conversant]                                | 03/03/2017 | Real-time | No        | No                                | No   | No                |
@@ -74,9 +73,11 @@ This page includes current [!DNL Audience Manager] [device-based destinations](/
 | [!DNL EyeView Digital]                                   | 14/06/2018 | 1xday     | Yes       | No                                | No   | Yes               |
 | [!DNL Fiksu]                                             | 03/03/2017 | 1xday     | Yes       | No                                | No   | Yes               |
 | [!DNL Flashtalking]                                      | 02/03/2017 | 1xday     | No        | No                                | No   | No                |
+| [!DNL Flybits]                                           | 31/07/2020 | Real-time | Yes       | No                                | Yes  | Yes               |
 | [!DNL FreakOut]                                          | 03/03/2017 | 1xday     | Yes       | No                                | No   | No                |
 | [!DNL Freewheel]                                         | 27/02/2017 | 1xday     | Yes       | Yes                               | No   | Yes               |
 | [!DNL Gamut Media]                                       | 03/03/2017 | Real-time |           | No                                | No   |                   |
+| [!DNL Google AdsWords Display]                           | 02/08/2018 | Real-time | Yes       | Yes                               | No   | Yes               |
 | [!DNL Google DoubleClick Bid Manager (DBM)]              | 24/04/2017 | Real-time | Yes       | Yes                               | Yes  | Yes               |
 | [!DNL Google DoubleClick Campaign Manager (DCM fka DFA)] | 24/04/2017 | Real-time | Yes       | Yes                               | Yes  | Yes               |
 | [!DNL Google DoubleClick for Publishers (DFP, DFPP)]     | 24/04/2017 | Real-time | Yes       | Yes                               | Yes  | Yes               |
@@ -127,6 +128,7 @@ This page includes current [!DNL Audience Manager] [device-based destinations](/
 | [!DNL RocketFuel]                                        | 17/02/2017 | Real-time | Yes       | No                                | Yes  | Yes               |
 | [!DNL Rubicon]                                           |            | Real-time | Yes       | Yes                               | No   |                   |
 | [!DNL RUN]                                               | 17/02/2017 | 1xday     | Yes       | No                                | No   | No                |
+| [!DNL RTB House]                                         | 04/02/2021 | Real-time | Yes       | No                                | Yes  | Yes               |
 | [!DNL Sabio Mobile]                                      | 17/02/2017 | 1xday     | No        | No                                | No   | Yes               |
 | [!DNL Simpli.fi]                                         | 17/02/2017 | 1xday     | No        | No                                | No   | Yes               |
 | [!DNL Sizmek ad server (Amazon)]                         | 17/02/2017 | Real Time | Yes       | No                                | No   |                   |
@@ -140,10 +142,10 @@ This page includes current [!DNL Audience Manager] [device-based destinations](/
 | [!DNL Stroer]                                            | 03/03/2017 | 1xday     | Yes       | No                                | No   | No                |
 | [!DNL SundaySky]                                         | 03/03/2017 | Real-time | Yes       | No                                | Yes  | No                |
 | [!DNL StartApp]                                          | 25/05/2018 | 1xday     | Yes       | No                                | No   | Yes               |
-| [!DNL Supership]/[!DNL ScaleOut]                                | 03/03/2017 | 1x/day    | Yes       | No                                | No   | No                |
+| [!DNL Supership]/[!DNL ScaleOut]                         | 03/03/2017 | 1x/day    | Yes       | No                                | No   | No                |
 | [!DNL Survata]                                           | 09/08/2017 | 1xday     | Yes       | No                                | No   | Yes               |
 | [!DNL Taboola]                                           | 03/08/2017 | 1xday     | No        | Yes                               | No   | No                |
-| [!DNL Tapad]                                             | 03/03/2017 | Real-time | No        | No                                | No   | Yes               |
+| [!DNL Tapad]                                             | 17/07/2020 | Real-time | No        | No                                | No   | Yes               |
 | [!DNL Telaria]                                           | 25/04/2019 | 1xday     | Yes       | No                                | No   | Yes               |
 | [!DNL Telogical Systems]                                 | 03/03/2017 | Real Time | Yes       | No                                | No   | No                |
 | [!DNL The Trade Desk]                                    | 03/03/2017 | Real-time | Yes       | Yes                               | Yes  | Yes               |
@@ -152,7 +154,7 @@ This page includes current [!DNL Audience Manager] [device-based destinations](/
 | [!DNL Triple Lift]                                       | 03/03/2017 | Real-time | No        | Yes                               | No   | No                |
 | [!DNL TrueX]                                             | 11/01/2018 | Real-time | Yes       | No                                | No   | Yes               |
 | [!DNL TubeMogul]                                         | 03/03/2017 | Real-time | Yes       | No                                | Yes  | No                |
-| [!DNL Turn] / [!DNL Amobee]                                     | 03/03/2027 | Real-time | No        | No                                | No   | Yes               |
+| [!DNL Turn] / [!DNL Amobee]                              | 03/03/2027 | Real-time | No        | No                                | No   | Yes               |
 | [!DNL Twenga]                                            | 29/10/2018 | Real-time | Yes       | No                                | No   | No                |
 | [!DNL Twitter Tailored Audiences]                        | 27/03/2017 | Real-time | Yes       | No                                | Yes  | No                |
 | [!DNL Undertone]                                         | 11/07/2017 | 1xday     | No        | No                                | No   | No                |
@@ -169,4 +171,4 @@ This page includes current [!DNL Audience Manager] [device-based destinations](/
 | [!DNL Yieldex]                                           | 21/08/2017 | Varies    | Yes       | No                                | No   | No                |
 | [!DNL YieldMo]                                           | 03/03/2017 | 1xday     | No        | No                                | No   | No                |
 | [!DNL Yume]                                              | 31/05/2017 | 1xday     | No        | No                                | No   | No                |
-| [!DNL Zeta] / [!DNL Sizmek DSP] / [!DNL RocketFuel]                    | 17/02/2017 | Real-time | Yes       | No                                | Yes  | Yes               |
+| [!DNL Zeta] / [!DNL Sizmek DSP] / [!DNL RocketFuel]      | 17/02/2017 | Real-time | Yes       | No                                | Yes  | Yes               |
