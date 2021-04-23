@@ -3,7 +3,7 @@ product: audience manager
 solution: Audience Manager
 audience: end-user
 user-guide-title: Audience Manager User Guide
-user-guide-description: Audience Manager provides industry-leading services for online audience data management.
+user-guide-description: Learn how Audience Manager enables you to collect commercially relevant information about site visitors, create marketable segments, and serve targeted advertising and content to the right audience.
 feature-set: Audience Manager
 ---
 
