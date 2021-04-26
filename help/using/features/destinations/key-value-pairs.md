@@ -1,5 +1,5 @@
 ---
-description: A [!DNL key-value pair] consists of related elements: A key, which is a constant that defines the data set (e.g., gender, color, price) and a value, which is a variable that belongs to the set (e.g., male/female, green, 100). Destination Builder sends data formatted as key-value pairs.
+description: A [!DNL key-value pair] consists of related elements. A key, which is a constant that defines the data set (e.g., gender, color, price) and a value, which is a variable that belongs to the set (e.g., male/female, green, 100). Destination Builder sends data formatted as key-value pairs.
 solution: Audience Manager
 title: Standard and Serial [!DNL Key-value pairs]
 uuid: 43789419-5b3f-4e62-b2e0-2722340bdd41
@@ -8,7 +8,7 @@ exl-id: b37c829b-66be-4c31-8198-bc032371279e
 ---
 # Standard and Serial Key-Value Pairs {#standard-and-serial-key-value-pairs}
 
-A key-value pair consists of related elements: A key, which is a constant that defines the data set (e.g., gender, color, price) and a value, which is a variable that belongs to the set (e.g., male/female, green, 100). [!UICONTROL Destination Builder] sends data formatted as key-value pairs.
+A key-value pair consists of related elements: A key, which is a constant that defines the data set (e.g., gender, color, price) and a value, which is a variable that belongs to the set (e.g., male/female, green, 100). [!UICONTROL Destination Builder] sends data formatted as key-value pairs. 
 
 ## Basic Key-Value Pairs {#basic-key-value-pairs}
 
