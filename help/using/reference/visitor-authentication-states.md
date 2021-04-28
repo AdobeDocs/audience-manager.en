@@ -17,25 +17,9 @@ Beginning with [!DNL Experience Cloud] ID service v1.5+, the `setCustomerID` met
 
 ## Authentication Status: UNKNOWN {#auth-status-unknown}
 
-<table id="table_E1EA51533FAE4BBFB338D6F6116BC1F9"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Request value </p> </th> 
-   <th colname="col2" class="entry"> <p> <b>Read</b> information from the authenticated profile </p> </th> 
-   <th colname="col3" class="entry"> <p> <b>Write</b> new traits to the authenticated profile </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1" morerows="1"> <p> <code> 0 </code> </p> </td> 
-   <td colname="col2"> <p>Yes, if the Authenticated Option Merge Rule = "Last Authenticated Profiles". </p> </td> 
-   <td colname="col3" morerows="1"> <p>No, the trait data is added to the device profile. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <p>No, if the Authenticated Option Merge Rule = "Current Authenticated Profiles" or "No Authenticated Profile". </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+|Request value|Read information from the authenticated profile|Write new traits to the authenticated profile|
+|---|---|---|
+|0|<ul><li>Yes, if the [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Last Authenticated Profiles].</li><li>No, if the [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Current Authenticated Profiles] or [!UICONTROL No Authenticated Profile].</li></ul>|No, the trait data is added to the device profile.|
 
 Sample call (the request value corresponding to the authentication status is highlighted):
 
@@ -43,25 +27,9 @@ Sample call (the request value corresponding to the authentication status is hig
 
 ## Authentication Status: AUTHENTICATED {#auth-status-authenticated}
 
-<table id="table_956ABF96024744308F7773E1F96482B7"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Request value </p> </th> 
-   <th colname="col2" class="entry"> <p> <b>Read</b> information from the authenticated profile </p> </th> 
-   <th colname="col3" class="entry"> <p> <b>Write</b> new traits to the authenticated profile </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1" morerows="1"> <p> <code> 1 </code> </p> </td> 
-   <td colname="col2"> <p>Yes, if the Authenticated Option Merge Rule = "Current Authenticated Profiles" or "Last Authenticated Profiles". </p> </td> 
-   <td colname="col3" morerows="1"> <p>Yes, the trait data is added to the authenticated profile. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <p>No, if the Authenticated Option Merge Rule = "No Authenticated Profile". </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+|Request value|Read information from the authenticated profile|Write new traits to the authenticated profile|
+|---|---|---|
+|1|<ul><li>Yes, if the [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Current Authenticated Profiles] or [!UICONTROL Last Authenticated Profiles].</li><li>No, if the [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL No Authenticated Profile].</li></ul>|Yes, the trait data is added to the authenticated profile.|
 
 Sample call (the request value corresponding to the authentication status is highlighted):
 
@@ -69,25 +37,9 @@ Sample call (the request value corresponding to the authentication status is hig
 
 ## Authentication Status: LOGGED_OUT {#auth-status-logged-out}
 
-<table id="table_783F0CBB0431482AA49F41468FA65B19"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Request value </p> </th> 
-   <th colname="col2" class="entry"> <p> <b>Read</b> information from the authenticated profile </p> </th> 
-   <th colname="col3" class="entry"> <p> <b>Write</b> new traits to the authenticated profile </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1" morerows="1"> <p> <code> 2 </code> </p> </td> 
-   <td colname="col2"> Yes, if the Authenticated Option Merge Rule = "Last Authenticated Profiles" </td> 
-   <td colname="col3" morerows="1"> <p>No, the trait data is written to the device profile. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> No, if the Authenticated Option Merge Rule = "Current Authenticated Profiles" or "No Authenticated Profile" </td> 
-  </tr> 
- </tbody> 
-</table>
+|Request value|Read information from the authenticated profile|Write new traits to the authenticated profile|
+|---|---|---|
+|2|<ul><li>Yes, if the [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Last Authenticated Profiles].</li><li>No, if the [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Current Authenticated Profiles] or [!UICONTROL No Authenticated Profile].</li></ul>|No, the trait data is written to the device profile.|
 
 Sample call (the request value corresponding to the authentication status is highlighted):
 
