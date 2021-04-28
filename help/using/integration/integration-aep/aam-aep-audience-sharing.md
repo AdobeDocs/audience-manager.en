@@ -156,17 +156,13 @@ Audience Manager updates reporting numbers in the interface once per day.   The 
 
 The integration between Adobe Experience Platform and Audience Manager shares a number of standard [identity namespaces](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html#identity-types) for all customers: ECID, IDFA, GAID, hashed email addresses (EMAIL_LC_SHA256), AdCloud ID. If your Experience Platform segments use any of these as primary identity for the qualified profiles, the profiles are counted in Audience Manager traits and segments.
 
-Additionally, Audience Manager can register the incoming realizations for any custom identity namespaces that you use in Experience Platform segments if:
-* the identity is marked as primary *and* 
-* you already have a corresponding cross device data source in Audience Manager.
-
 >[!NOTE]
 >
 > Audiences in Experience Platform with identities keyed off raw emails never appear in Audience Manager.
 
-For example, if you had an Experience Platform segment "All my customers", and the qualified profiles would be CRM IDs, ECID, IDFA, raw and hashed email addresses, the corresponding segment in Audience Manager would only include profiles keyed off CRM IDs, ECID, IDFA, and hashed email addresses. The segment population in Audience Manager would be smaller than the one in Experience Platform.
+For example, if you had an Experience Platform segment "All my customers", and the qualified profiles would be CRM IDs, ECID, IDFA, raw and hashed email addresses, the corresponding segment in Audience Manager would only include profiles keyed off of ECID, IDFA, and hashed email addresses. The segment population in Audience Manager would be smaller than the one in Experience Platform.
 
-![Experience Platform to Audience Manager segment sharing - segment composition](/help/using/integration/integration-aep/assets/AEP-to-AAM-profiles.png)
+![Experience Platform to Audience Manager segment sharing - segment composition](assets/AEP-to-AAM-profiles.png)
 
 <!--
 
