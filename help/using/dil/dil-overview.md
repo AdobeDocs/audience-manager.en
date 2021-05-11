@@ -37,8 +37,6 @@ However, you can also download the latest Experience Cloud and [!DNL DIL] releas
 
 Rather than work with [!UICONTROL DIL] and set up [!DNL Audience Manager] manually, we recommend that you use [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html) instead. [!DNL Adobe Experience Platform Launch] is the recommended implementation tool because it simplifies code deployment, placement, and version management. Read more about the [Audience Manager extension](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/audience-manager/overview.html) in [!DNL Adobe Experience Platform Launch].
 
-[!DNL Adobe Experience Platform Launch] is the successor to [Adobe Dynamic Tag Manager](https://docs.adobe.com/content/help/en/dtm/using/c-overview.html) ([!DNL DTM]).
-
 ## Sample Call {#sample-code}
 
 [!UICONTROL DIL] sends data to [!DNL Audience Manager] in an event call. An event call is an XML HTTP request from your page. It uses a `POST` method to send data in the body of the request.
