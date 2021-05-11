@@ -28,7 +28,7 @@ This page illustrates the process of creating [!DNL Facebook Website Custom Audi
 3. [!DNL Adobe Experience Platform Identity Service] ([!DNL ECID]) Version 4.1.0 or newer. Download the latest version **[here](https://github.com/Adobe-Marketing-Cloud/id-service/releases)**.
 4. [!DNL Audience Manager Data Integration Library] ([!DNL DIL]) version 9.0 or newer, downloadable from **[here](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. Alternatively, if you use [Server-Side Forwarding (SSF)](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html) to import data into [!DNL Audience Manager], you must use AppMeasurement version 2.12 or newer. Download [!DNL AppMeasurement] using the [Analytics Code Manager](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/code-manager-admin.html).
 
-We recommend that you install or upgrade the libraries in steps 3 and 4 using [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html) or [Adobe Dynamic Tag Management](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html).
+We recommend that you install or upgrade the libraries in steps 3 and 4 using [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html).
 
 ## Step 1 - Create a [!UICONTROL Facebook Destination] in [!DNL Audience Manager] {#step-1-create-facebook-destination}
 

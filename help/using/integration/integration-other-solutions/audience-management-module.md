@@ -38,38 +38,6 @@ There are two methods to implement data forwarding from [!DNL Adobe Analytics] t
 
 ![How to enable data sharing from the Adobe Analytics extension to Audience Manager](/help/using/integration/assets/analytics-to-aam.png)
 
-### Implementation using [!DNL Adobe Digital Tag Management (DTM)] or any other tag management solution
-
->[!WARNING]
->
->[!DNL Adobe] has released plans to sunset [!DNL DTM] by the end of 2020. For more information and scheduling, see [!DNL DTM] Plans for a Sunset in the [Adobe community forums](https://forums.adobe.com/community/experience-cloud/platform/launch/blog/2018/10/05/dtm-plans-for-a-sunset).
-
-To implement the [!UICONTROL Audience Management Module] using [Adobe DTM](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html) or another tag management solution:
-
-1. Download [!UICONTROL AppMeasurement] using the [Analytics Code Manager](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/code-manager-admin.html) (requires version 1.5 or later).
-1. Update your [!UICONTROL AppMeasurement] code to the version included in the downloaded zip file.
-1. Copy all of the code from `AppMeasurement_Module_AudienceManagement.js` from the zip file. Paste it into the `appMeasurement.js` file just above the text, `"DO NOT ALTER ANYTHING BELOW THIS LINE."`
-1. Add the code, `s.loadModule("AudienceManagement");`, just above the `AppMeasurement_Module_AudienceManagement.js` code you just added in the previous step.
-1. Update and copy the code below and add it to the `doPlugins` function in your `AppMeasurement.js` file.
-
-```js
-s.AudienceManagement.setup({ 
-     "partner":"INSERT-YOUR-PARTNER-NAME-HERE", 
-     "containerNSID":0, 
-     "uuidCookie": { 
-          "name":"aam_uuid", 
-          "days":30
-     },
-     "visitorService": {
-          "namespace": "INSERT-EXPERIENCE-CLOUD-ORGID-HERE" 
-     } 
-});
-```
-
->[!TIP]
->
->The `audienceManagement.setup` function shares parameters with the [!DNL Audience Manager] `DIL.create` function, which you can configure in this code. For more information about these parameters, see [DIL create](../../dil/dil-class-overview/dil-create.md#dil-create).
-
 ## Code Elements Defined {#code-elements-defined}
 
 The following table defines important variables in the code sample.
