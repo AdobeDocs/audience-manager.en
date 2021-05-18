@@ -18,10 +18,10 @@ In the tables below, *italics* represents a variable placeholder.
 
 |Error Code|Error Message|Description|
 |---|---|---|
-|0|Unspecified error|This is a catch-all error that handles events that is not covered by the other error handlers. Troubleshooting this error is difficult. It can be caused by a variety of unknown actions or events. If you receive this error, try your [!DNL DCS] request again. Contact your [!DNL Adobe] representative if the problem persists.|
+|0|Unspecified error|This is a catch-all error that handles events that is not covered by the other error handlers. Troubleshooting this error is difficult. It can be caused by a variety of unknown actions or events. If you receive this error, try your [!DNL DCS] request again. Contact your [!DNL Adobe] representative if the issue persists.|
 |1|Could not find config for hostname: `hostname`|The host name sent in the request has not been set up by our partner provisioning team. Contact your [!DNL Adobe] representative if you see this error message.|
 |2|Invalid `d_orgid` value (could not find a config for this org id): `ID`|The Organization ID is incorrect. Check your ID and try the request again. If you do not know or have your Organization ID, see the "Administration Page" section [Organizations and account linking](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html) for information about how to find it.|
-|10|Unable to evaluate traits|The traits on the request were either partially evaluated or have not been evaluated at all.|
+|10|Unable to evaluate traits|The traits on the request were either partially evaluated or have not been evaluated at all. Contact your [!DNL Adobe] representative if the issue persists.|
 
 ## Integration Error Codes {#integration-error-codes}
 
