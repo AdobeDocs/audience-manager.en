@@ -36,9 +36,9 @@ Additionally, your Experience Platform segments are shared to other Experience C
 
 See the table below for an overview of audience sharing use cases:
 
-**Use Case** | **Adobe Experience Platform** | **Audience Manager** | **Core Services**
----------|----------|---------|---------
- **Audience Sharing** | <ul><li>Enrich customer profiles with Audience Manager data</li><li>Use Audience Manager data in Experience Platform segmentation</li></ul> | <ul><li>Add third party data to segments</li><li>Algorithmic modeling</li><li>Activation to additional destinations</li></ul> | Use Experience Platform segments in other Experience Cloud solutions, such as Adobe Target, Advertising Cloud, or Marketo.
+**Use Case** | **Adobe Experience Platform** | **Audience Manager** | **Core Services** |
+---------|----------|---------|---------|
+ **Audience Sharing** | <ul><li>Enrich customer profiles with Audience Manager data</li><li>Use Audience Manager data in Experience Platform segmentation</li></ul> | <ul><li>Add third party data to segments</li><li>Algorithmic modeling</li><li>Activation to additional destinations</li></ul> | Use Experience Platform segments in other Experience Cloud solutions, such as Adobe Target, Advertising Cloud, or Marketo. |
 
 <br>&nbsp;
 
