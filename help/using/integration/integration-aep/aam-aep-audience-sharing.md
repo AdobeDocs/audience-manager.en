@@ -32,15 +32,13 @@ Additionally, your Experience Platform segments are shared to other Experience C
 > * You need an Audience Manager license to enable the Data Management Platform use cases mentioned above.
 > * You *do not need* an Audience Manager license to share Experience Platform segments with Adobe Advertising Cloud, Adobe Target, Marketo, and other Experience Cloud solutions, via the Core Services integration.
 
-<br>&nbsp;
-
 See the table below for an overview of audience sharing use cases:
 
 **Use Case** | **Adobe Experience Platform** | **Audience Manager** | **Core Services** |
 ---------|----------|---------|---------|
  **Audience Sharing** | <ul><li>Enrich customer profiles with Audience Manager data</li><li>Use Audience Manager data in Experience Platform segmentation</li></ul> | <ul><li>Add third party data to segments</li><li>Algorithmic modeling</li><li>Activation to additional destinations</li></ul> | Use Experience Platform segments in other Experience Cloud solutions, such as Adobe Target, Advertising Cloud, or Marketo. |
 
-<br>&nbsp;
+ {style="table-layout:auto"}
 
 ## Audience Manager segments and traits in Adobe Experience Platform {#aam-segments-traits-in-aep}
 
@@ -49,8 +47,6 @@ Your Audience Manager traits and segments appear in Experience Platform as **Aud
 * [Segmentation Service overview](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html#audiences)
 * [Experience Platform Segment Builder user guide](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html#audiences)
 * [Audience Manager Connector](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
-
-<br>&nbsp;
 
 ## Adobe Experience Platform segments in Audience Manager {#aep-segments-in-aam}
 
@@ -87,7 +83,7 @@ Item number | Name | Description |
  4 | [!UICONTROL Trait Expression] | The trait expression is `segID = segment ID in Experience Platform`.|
  5 | [!UICONTROL Segments with this Trait] | An automatically created segment that uses this trait as its composition.|
 
-<br>&nbsp;
+{style="table-layout:auto"}
 
 ### Segments {#aep-segments-as-aam-segments}
 
@@ -105,6 +101,8 @@ Item number | Name | Description |
  2 | [!UICONTROL Data Source] | Automatically created. All traits and segments that are created automatically from Experience Platform segments are stored in the data source **[!DNL Adobe Experience Platform Audience Sharing]**.|
  3 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** indicates that automatically created segments follow the merge policy set up in Experience Platform.|
  4 | [!UICONTROL Segment Rule] | The segment consists of the trait described in the [Traits section](#aep-segments-as-aam-traits).|
+
+{style="table-layout:auto"}
 
 ## Audience Manager Data Export Control support in Experience Platform {#aam-data-export-control-in-aep}
 
@@ -129,6 +127,8 @@ The following table outlines how specific Data Export Controls map to recognized
 | Cannot be used for onsite ad targeting | C6: Data cannot be used for on-site ad targeting |
 | Cannot be used for onsite personalization | C7: Data cannot be used for on-site targeting of content |
 
+{style="table-layout:auto"}
+
 ### Data Export Controls to marketing actions
 
 The following table outlines how specific Data Export Labels map to recognized marketing actions:
@@ -139,6 +139,8 @@ The following table outlines how specific Data Export Labels map to recognized m
 | This destination may be used for off-site ad targeting | Cross Site Targeting |
 | This destination may be used for on-site ad targeting | Onsite Advertising |
 | This destination may be used for on-site ad personalization | Onsite Personalization |
+
+{style="table-layout:auto"}
 
 ## Understand segment population differences between Audience Manager and Experience Platform {#aep-aam-segment-population-differences}
 
