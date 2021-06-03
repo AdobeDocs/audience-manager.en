@@ -387,6 +387,7 @@ feature-set: Audience Manager
     + [People-Based Destinations FAQ](faq/faq-people-based-destinations.md)
     + [Product Features and Functions FAQ](faq/faq-features.md)
     + [Profile Merge Rules and Device Graph FAQ](faq/faq-profile-merge.md)
+    + [Look-Alike Modeling FAQ](faq/faq-lookalike-modeling.md)
     + [Predictive Audiences FAQ](faq/faq-predictive-audiences.md)
     + [Targeting FAQ](faq/faq-targeting.md) 
     + [Reporting FAQ](faq/faq-reporting.md)
