@@ -199,3 +199,11 @@ See also, the [Index of Audience Manager IDs](../reference/ids-in-aam.md).
 **How long does it take for user profiles to sync across [regions](../api/dcs-intro/dcs-api-reference/dcs-regions.md)?**
 
 It usually takes up to 24 hours for a user profile to sync across regions. However, in rare cases, the process can take up to 48 hours.
+
+&nbsp;
+
+**What happens to inactive Amazon S3 user access keys?**
+
+Adobe provides Audience Manager customers with user access keys for the Audience Manager [!DNL Amazon S3] buckets. For security reasons, the keys are automatically disabled after 100 days of inactivity.
+
+To re-enable your access keys or request new ones, contact Customer Support.
