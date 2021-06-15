@@ -12,7 +12,7 @@ exl-id: d980de26-3133-4ae3-80c2-8c3bf2480bbd
 >[!IMPORTANT]
 >This article contains product documentation meant to guide you through the setup and usage of this feature. Nothing contained herein is legal advice. Please consult your own legal counsel for legal guidance.
 
-This page includes step-by-step guidance on how to build audience segments from offline-only customer data, and send them to People-Based Destinations.
+This page includes step-by-step guidance on how to build audience segments from offline-only customer data, and send them to People-Based Destinations. 
 
 ## Step 1 - Onboard Offline Traits {#step-1-onboard-traits}
 
@@ -26,7 +26,7 @@ Regardless of whether your existing Audience Manager customer IDs ([DPUUIDs](../
 
 ### Example
 
-You want to qualify the customer IDs from the table below for the corresponding onboarded trait IDs. Let's consider that your [DPUUIDs](../../reference/ids-in-aam.md) are stored in a data source with the ID 999999, and your Audience Manager Partner ID is 123.
+You want to qualify the customer IDs from the table below for the corresponding onboarded trait IDs. Let's consider that your [DPUUIDs](../../reference/ids-in-aam.md) are stored in a data source with the ID 999999, and your Audience Manager data source ID is 123.
 
 | Customer ID (DPUUID) | Onboarded Trait ID  |
 | -------------------------------------- | ------------------- |
