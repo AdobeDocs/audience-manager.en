@@ -69,7 +69,7 @@ You must meet the following prerequisites to use the Audience Manager Plug-in fo
 
 To enable the IAB TCF support in Audience Manager, read our documentation on [how to set up IAB with Opt-in](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/iab.html).
 
-The easiest way you can do this is by using [Adobe Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) to add [!DNL ECID Opt-in] on your properties. Read the documentation for the [ECID Opt-in extension](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html) to learn how to set up the Launch extension.
+The easiest way you can do this is by using [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=en) to add [!DNL ECID Opt-in] on your properties. Read the documentation for the [ECID Opt-in extension](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html) to learn how to set up the Launch extension.
 
 ## User choice workflow when using the IAB framework {#user-choice-workflow}
 

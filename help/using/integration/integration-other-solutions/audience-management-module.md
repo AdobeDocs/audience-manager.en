@@ -30,7 +30,7 @@ There are two methods to implement data forwarding from [!DNL Adobe Analytics] t
 
 ### Implementation using [!DNL Adobe Experience Platform Launch]
 
-[!DNL Adobe] recommends you use the [Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) extension to instrument [!DNL Adobe Analytics] and [!DNL Audience Manager] on your properties. In this case, you do not need to manually copy any code. Instead, you must enable data sharing in the [!DNL Analytics Launch] extension, as shown in the image below. See also the [Adobe Analytics Extension](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html#adobe-audience-manager) documentation.
+[!DNL Adobe] recommends you use the [Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=en) extension to instrument [!DNL Adobe Analytics] and [!DNL Audience Manager] on your properties. In this case, you do not need to manually copy any code. Instead, you must enable data sharing in the [!DNL Analytics Launch] extension, as shown in the image below. See also the [Adobe Analytics Extension](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html#adobe-audience-manager) documentation.
 
 >[!TIP]
 >
