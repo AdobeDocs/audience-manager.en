@@ -26,7 +26,7 @@ Regardless of whether your existing Audience Manager customer IDs ([DPUUIDs](../
 
 ### Example
 
-You want to qualify the customer IDs from the table below for the corresponding onboarded trait IDs. Let's consider that your [DPUUIDs](../../reference/ids-in-aam.md) are stored in a data source with the ID 999999, and your Audience Manager Partner ID is 123.
+You want to qualify the customer IDs from the table below for the corresponding onboarded trait IDs. Let's consider that your [DPUUIDs](../../reference/ids-in-aam.md) are stored in a data source with the ID 999999, and your Audience Manager data source ID is 123.
 
 | Customer ID (DPUUID) | Onboarded Trait ID  |
 | -------------------------------------- | ------------------- |
