@@ -12,7 +12,7 @@ exl-id: d980de26-3133-4ae3-80c2-8c3bf2480bbd
 >[!IMPORTANT]
 >This article contains product documentation meant to guide you through the setup and usage of this feature. Nothing contained herein is legal advice. Please consult your own legal counsel for legal guidance.
 
-This page includes step-by-step guidance on how to build audience segments from offline-only customer data, and send them to People-Based Destinations.
+This page includes step-by-step guidance on how to build audience segments from offline-only customer data, and send them to People-Based Destinations. 
 
 ## Step 1 - Onboard Offline Traits {#step-1-onboard-traits}
 
