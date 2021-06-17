@@ -29,7 +29,7 @@ This feature uses a [!DNL Microsoft Excel] spreadsheet with macros that make sec
 
 ## Download {#download}
 
-Download the latest worksheet **[here](assets/BAAAM_V2_20200502.xlsm)**. 
+Download the latest worksheet **[here](assets/BAAAM_V2_20210609.xlsm)** (last updated in June 2021). 
 
 ## Prerequisites {#prereqs}
 
