@@ -48,9 +48,9 @@ When working with serialized data, you must specify the characters that separate
 ## Standard and Serialized Key-Value Elements {#standard-serialized-key-value-elements}
 
 
-Type | Example | Key | Key-Value Separator | Key-Value Delimiter | Serial Separator
----------|----------|---------|---------|----------|---------
- **Single key** (standard) | `x=1&x=2` | `x` | `=` | `&` | n/a
- **Key-value pairs** (standard) | `x=1&x=2&y=3&y=4` | `x,y` | `=` | `&` | n/a
- **Single key** (serial) | `x=1;2;3` | `x` | `=` | n/a | `;`
- **Key-value pairs** (serial) | `x=1;2&y=3;4` | `x,y` | `=` | `&` | `;`
+|Type | Example | Key | Key-Value Separator | Key-Value Delimiter | Serial Separator|
+|---------|----------|---------|---------|----------|---------|
+| **Single key** (standard) | `x=1&x=2` | `x` | `=` | `&` | n/a|
+| **Key-value pairs** (standard) | `x=1&x=2&y=3&y=4` | `x,y` | `=` | `&` | n/a|
+| **Single key** (serial) | `x=1;2;3` | `x` | `=` | n/a | `;`|
+| **Key-value pairs** (serial) | `x=1;2&y=3;4` | `x,y` | `=` | `&` | `;`|

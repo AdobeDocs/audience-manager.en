@@ -37,12 +37,12 @@ Data is stored in separate namespace for each customer in an [!DNL Amazon S3] di
 The following table defines each of these elements in a file delivery path.
 
 
-File Parameter | Description  |
----------|----------|
- `.../log_ingestion/` | This is the start of the directory storage path. You'll receive the full path when everything is set up. |
- `pid=<AAM ID>` | This key-value pair contains your Audience Manager customer ID. |
- `dpid=<d_src>` |  This key-value pair contains the data source ID passed in on an event call. The data source ID is the value that ties all the contents in your file to the actual data it belongs to. </br> For example, say you have a creative with the ID 123 and the name "Advertiser Creative A." As an event call only passes in the ID you need to include "Advertiser Creative A" in the metadata file. The campaign and creative belong to a data source. The data source ID is what ties these together and lets us accurately associate file contents to an ID sent in on an event call. See [How Event Call IDs Determine File Names, Contents, and Delivery Paths](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md#how-ids-shape-file-names). |
- `<yyyymmdd_0_child ID>` | This is the file name. See [Naming Conventions for Metadata Files](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md). |
+|File Parameter | Description  |
+|---------|----------|
+| `.../log_ingestion/` | This is the start of the directory storage path. You'll receive the full path when everything is set up. |
+| `pid=<AAM ID>` | This key-value pair contains your Audience Manager customer ID. |
+| `dpid=<d_src>` |  This key-value pair contains the data source ID passed in on an event call. The data source ID is the value that ties all the contents in your file to the actual data it belongs to. </br> For example, say you have a creative with the ID 123 and the name "Advertiser Creative A." As an event call only passes in the ID you need to include "Advertiser Creative A" in the metadata file. The campaign and creative belong to a data source. The data source ID is what ties these together and lets us accurately associate file contents to an ID sent in on an event call. See [How Event Call IDs Determine File Names, Contents, and Delivery Paths](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md#how-ids-shape-file-names). |
+| `<yyyymmdd_0_child ID>` | This is the file name. See [Naming Conventions for Metadata Files](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md). |
 
 ## File Processing Times and Updates {#processing-times}
 

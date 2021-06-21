@@ -34,11 +34,11 @@ Additionally, your Experience Platform segments are shared to other Experience C
 
 See the table below for an overview of audience sharing use cases:
 
-**Use Case** | **Adobe Experience Platform** | **Audience Manager** | **Core Services** |
----------|----------|---------|---------|
- **Audience Sharing** | <ul><li>Enrich customer profiles with Audience Manager data</li><li>Use Audience Manager data in Experience Platform segmentation</li></ul> | <ul><li>Add third party data to segments</li><li>Algorithmic modeling</li><li>Activation to additional destinations</li></ul> | Use Experience Platform segments in other Experience Cloud solutions, such as Adobe Target, Advertising Cloud, or Marketo. |
+|**Use Case** | **Adobe Experience Platform** | **Audience Manager** | **Core Services** |
+|---------|----------|---------|---------|
+| **Audience Sharing** | <ul><li>Enrich customer profiles with Audience Manager data</li><li>Use Audience Manager data in Experience Platform segmentation</li></ul> | <ul><li>Add third party data to segments</li><li>Algorithmic modeling</li><li>Activation to additional destinations</li></ul> | Use Experience Platform segments in other Experience Cloud solutions, such as Adobe Target, Advertising Cloud, or Marketo. |
 
- {style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## Audience Manager segments and traits in Adobe Experience Platform {#aam-segments-traits-in-aep}
 
@@ -75,13 +75,13 @@ For an example of a trait created automatically from an Experience Platform segm
 ![Trait from Experience Platform](/help/using/integration/integration-aep/assets/aep-trait.png)
 
 
-Item number | Name | Description |
----------|----------|---------|
- 1 | [!UICONTROL Trait Type] | Traits created from Experience Platform segments are created as onboarded traits in Audience Manager.|
- 2 | [!UICONTROL Data Source] | Automatically created. All traits and segments that are created automatically from Experience Platform segments are stored in the data source **[!UICONTROL Adobe Experience Platform Audience Sharing]**.|
- 3 | [!UICONTROL Integration Code] | The integration code corresponds to the segment ID in Experience Platform.|
- 4 | [!UICONTROL Trait Expression] | The trait expression is `segID = segment ID in Experience Platform`.|
- 5 | [!UICONTROL Segments with this Trait] | An automatically created segment that uses this trait as its composition.|
+|Item number | Name | Description |
+|---------|----------|---------|
+| 1 | [!UICONTROL Trait Type] | Traits created from Experience Platform segments are created as onboarded traits in Audience Manager.|
+| 2 | [!UICONTROL Data Source] | Automatically created. All traits and segments that are created automatically from Experience Platform segments are stored in the data source **[!UICONTROL Adobe Experience Platform Audience Sharing]**.|
+| 3 | [!UICONTROL Integration Code] | The integration code corresponds to the segment ID in Experience Platform.|
+| 4 | [!UICONTROL Trait Expression] | The trait expression is `segID = segment ID in Experience Platform`.|
+| 5 | [!UICONTROL Segments with this Trait] | An automatically created segment that uses this trait as its composition.|
 
 {style="table-layout:auto"}
 
@@ -95,12 +95,12 @@ For an example of a segment created automatically from an Experience Platform se
 
 ![Screenshot of segment](/help/using/integration/integration-aep/assets/aep-segment.png)
 
-Item number | Name | Description |
----------|----------|---------|
- 1 | [!UICONTROL Integration Code] | The integration code corresponds to the segment ID in Experience Platform.|
- 2 | [!UICONTROL Data Source] | Automatically created. All traits and segments that are created automatically from Experience Platform segments are stored in the data source **[!DNL Adobe Experience Platform Audience Sharing]**.|
- 3 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** indicates that automatically created segments follow the merge policy set up in Experience Platform.|
- 4 | [!UICONTROL Segment Rule] | The segment consists of the trait described in the [Traits section](#aep-segments-as-aam-traits).|
+|Item number | Name | Description |
+|---------|----------|---------|
+| 1 | [!UICONTROL Integration Code] | The integration code corresponds to the segment ID in Experience Platform.|
+| 2 | [!UICONTROL Data Source] | Automatically created. All traits and segments that are created automatically from Experience Platform segments are stored in the data source **[!DNL Adobe Experience Platform Audience Sharing]**.|
+| 3 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** indicates that automatically created segments follow the merge policy set up in Experience Platform.|
+| 4 | [!UICONTROL Segment Rule] | The segment consists of the trait described in the [Traits section](#aep-segments-as-aam-traits).|
 
 {style="table-layout:auto"}
 

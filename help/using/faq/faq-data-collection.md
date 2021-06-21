@@ -44,10 +44,10 @@ Yes, see below.
 
 The SFTP servers below are deprecated. No new accounts will be provisioned using these servers.
 
-Server| IP Address |
----------|----------|
- ftp-in.demdex.com | 54.225.117.163 |
- ftp-out.demdex.com | 23.23.188.76 |
+|Server| IP Address |
+|---------|----------|
+| ftp-in.demdex.com | 54.225.117.163 |
+| ftp-out.demdex.com | 23.23.188.76 |
 
 &nbsp;
 

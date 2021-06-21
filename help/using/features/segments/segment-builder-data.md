@@ -21,9 +21,9 @@ Add and remove [!UICONTROL traits] in [!UICONTROL Segment Builder] to see actual
 The following table defines the trait population metrics:
 
 
-Metric | Description |
----------|----------|
- [!UICONTROL Total Trait Population] | The number of unique IDs that have the selected trait in their profile.
+|Metric | Description |
+|---------|----------|
+| [!UICONTROL Total Trait Population] | The number of unique IDs that have the selected trait in their profile.|
 
 
 ## Calculating Real and Estimated Segment Populations {#calculating-real-estimated-populations}
@@ -115,10 +115,10 @@ The following table defines the actual real-time and total population metrics wh
 The following table defines the actual real-time and total population metrics when your segments are used by a [!UICONTROL Profile Merge Rule] created with a [!DNL device graph] option. These are the device options settings for the [!UICONTROL Profile Link Device Graph], the [!DNL Adobe] [!DNL device graph], and other third-party [!DNL device graph] choices that are available to you.
 
 
-Column A | Column B |
----------|----------|
- [!UICONTROL Real-Time Population (Existing) ]| The actual number of devices seen in real-time with current profiles that, when merged with up to 100 other device profiles connected by the device graph, contains the traits to qualify for the segment the moment it was seen by Audience Manager.
- [!UICONTROL Total Population (Existing)] | The total number of devices with profiles that, when merged with up to 100 other device profiles connected by the device graph, were all qualified for the segment. 
+|Column A | Column B |
+|---------|----------|
+| [!UICONTROL Real-Time Population (Existing) ]| The actual number of devices seen in real-time with current profiles that, when merged with up to 100 other device profiles connected by the device graph, contains the traits to qualify for the segment the moment it was seen by Audience Manager.|
+| [!UICONTROL Total Population (Existing)] | The total number of devices with profiles that, when merged with up to 100 other device profiles connected by the device graph, were all qualified for the segment. |
 
 ### Limitations due to Recency and Frequency Expressions When Estimating Segment Populations
 

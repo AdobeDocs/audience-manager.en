@@ -40,13 +40,13 @@ The [!UICONTROL Addressable Audience] feature turns this abstract concept into q
 
 The three metrics you can see on the [!UICONTROL Addressable Audiences] landing page represent:
 
-Metric | Description |
----------|----------|
- **[!UICONTROL Addressable Audience (Device)]** | This metric represents the [!UICONTROL Customer Addressable Audience] (described in the table above) *for the last 30 days.* |
- **[!UICONTROL Match Rate]** | This metric represents the [!UICONTROL Addressable Audience Match Rate] (described in the table above) *for the last 30 days*. |
- **[!UICONTROL Lifetime Addressable Audience (Device)]** | A count of all devices that have interacted with all [!DNL Audience Manager] customers at the platform-level during the report look-back period and that could be matched with this [!UICONTROL destination]. See [Platform-Level Metrics](/help/using/features/addressable-audiences.md#platform-level-metrics) for more information. |
+|Metric | Description |
+|---------|----------|
+| **[!UICONTROL Addressable Audience (Device)]** | This metric represents the [!UICONTROL Customer Addressable Audience] (described in the table above) *for the last 30 days.* |
+| **[!UICONTROL Match Rate]** | This metric represents the [!UICONTROL Addressable Audience Match Rate] (described in the table above) *for the last 30 days*. |
+| **[!UICONTROL Lifetime Addressable Audience (Device)]** | A count of all devices that have interacted with all [!DNL Audience Manager] customers at the platform-level during the report look-back period and that could be matched with this [!UICONTROL destination]. See [Platform-Level Metrics](/help/using/features/addressable-audiences.md#platform-level-metrics) for more information. |
 
- Click on the name of a [!UICONTROL server-to-server destination] to view your addressable audience data. Note, this feature returns data for [!UICONTROL server-to-server destinations] only and access requires administrator permissions.
+Click on the name of a [!UICONTROL server-to-server destination] to view your addressable audience data. Note, this feature returns data for [!UICONTROL server-to-server destinations] only and access requires administrator permissions.
 
 ![](assets/addressableAudiences.png)
 

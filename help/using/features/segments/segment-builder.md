@@ -103,15 +103,15 @@ In [!UICONTROL Segment Builder], [!UICONTROL the Basic Information] settings let
 
 -->
 
-Field | Description
+|Field | Description|
 ---------|----------
-**[!UICONTROL Name]** | Give the segment a short, logical name that describes its function or purpose. Avoid abbreviations and special characters. The maximum length of a segment name is 255 characters. 
-**[!UICONTROL Description]** | A field for additional descriptive information about the segment. 
-**[!UICONTROL Integration Code]** | A field for a user-defined ID or other company-specific information. 
-**[!UICONTROL Data Source]** | Associates the segment with a specific data provider. <br> Use the first drop-down menu to filter between Audience Manager data sources, Adobe Analytics report suites, or both. Then, use the second drop-down menu to choose your data source. <br> If you are not using Adobe Analytics report suites, the data source type selector is disabled and defaulted to Audience Manager data sources only. 
-**[!UICONTROL Profile Merge Rule]** | Selects the Profile Merge Rule to use for segment qualification. 
-**[!UICONTROL Status]** | Activates or deactivates the segment (active by default). 
-**Folder Storage** | Determines which storage folder the segment belongs to.  
+|**[!UICONTROL Name]** | Give the segment a short, logical name that describes its function or purpose. Avoid abbreviations and special characters. The maximum length of a segment name is 255 characters. |
+|**[!UICONTROL Description]** | A field for additional descriptive information about the segment. |
+|**[!UICONTROL Integration Code]** | A field for a user-defined ID or other company-specific information. |
+|**[!UICONTROL Data Source]** | Associates the segment with a specific data provider. <br> Use the first drop-down menu to filter between Audience Manager data sources, Adobe Analytics report suites, or both. Then, use the second drop-down menu to choose your data source. <br> If you are not using Adobe Analytics report suites, the data source type selector is disabled and defaulted to Audience Manager data sources only. |
+|**[!UICONTROL Profile Merge Rule]** | Selects the Profile Merge Rule to use for segment qualification. |
+|**[!UICONTROL Status]** | Activates or deactivates the segment (active by default). |
+|**Folder Storage** | Determines which storage folder the segment belongs to.  |
 
 ## [!UICONTROL Segment Builder] Controls: [!UICONTROL Traits] Section {#segment-builder-controls-traits}
 

@@ -61,12 +61,12 @@ Example pixel fired from the page. This example shows a user who qualifies for t
 
 `https://www.facebook.com/tr/?id=6876666666662303&ev=Adobe-Audience-Manager-Segment&cd[segID]=3401321,2993399,3263410&noscript=1`
 
-Parameter | Description |
----------|----------|
- `id` | Your [!DNL Facebook] pixel ID, which you can find in the [!DNL Facebook Ad Manager] user interface when creating audience pixels. |
- `ev` | Event. This is an arbitrary value, which will appear in the [!DNL Facebook Ad Manager] user interface once the pixel begins to fire on site. See the [!UICONTROL Include] item in [Step 3](/help/using/integration/integrating-third-party/facebook-wca-integration.md#step-3-create-audience), for more information. |
- `cd[segID]` | An additional parameter, which will begin to populate within the [!DNL Facebook Ad Manager] user interface once the pixel begins to fire on site. `segID` is also arbitrary. |
- `%ALIAS%` | An [!DNL Audience Manager] macro, which will be dynamically replaced with the [!DNL Audience Manager] [!UICONTROL segment] IDs that the site visitor qualifies for, delimited by comma , |
+|Parameter | Description |
+|---------|----------|
+| `id` | Your [!DNL Facebook] pixel ID, which you can find in the [!DNL Facebook Ad Manager] user interface when creating audience pixels. |
+| `ev` | Event. This is an arbitrary value, which will appear in the [!DNL Facebook Ad Manager] user interface once the pixel begins to fire on site. See the [!UICONTROL Include] item in [Step 3](/help/using/integration/integrating-third-party/facebook-wca-integration.md#step-3-create-audience), for more information. |
+| `cd[segID]` | An additional parameter, which will begin to populate within the [!DNL Facebook Ad Manager] user interface once the pixel begins to fire on site. `segID` is also arbitrary. |
+| `%ALIAS%` | An [!DNL Audience Manager] macro, which will be dynamically replaced with the [!DNL Audience Manager] [!UICONTROL segment] IDs that the site visitor qualifies for, delimited by comma , |
 
 Your [!UICONTROL URL destination] configuration should look like in the image below:
 
@@ -84,13 +84,13 @@ Enter an end date if applicable, otherwise leave blank for no end date.
 
 See [Create a Website Custom Audience](https://www.facebook.com/business/help/666509013483225) in the [!DNL Facebook] help documentation. Select the [!UICONTROL Create Audience] options in the table below:
 
-Item | Description |
----------|----------|
- Website traffic | Custom Combination |
- Include | <ul><li>Select **[!UICONTROL Event]** > Select **[!UICONTROL Adobe-Audience-Manager-Segment]**. This was the value of the `ev` parameter in the example pixel in step 1. Note that if the pixel is yet to fire, the **[!UICONTROL Event]** option or **[!UICONTROL Adobe-Audience-Manager-Segment]** may not appear in the [!DNL Facebook] user interface.</li><li>Add a parameter: Select `segID`.</li><li><p>Select the **contains** operator.</p><p>This is important, considering that visitors may qualify for multiple segments, there may be multiple [!UICONTROL segment IDs] in the pixel parameter. Using the equals (`=`) operator may not qualify your visitors for the audience, and you will observe a lower volume.</p></li><li>Add a value: Enter the [!DNL Audience Manager] segment ID.</li></ul> |
- Add New Condition | Optional setting. |
- In the Last | Optional setting. |
- Audience Name | We recommend you use the same [!DNL Audience Manager] segment name for consistency, unless you are adding additional conditions to this Audience. |
+|Item | Description |
+|---------|----------|
+| Website traffic | Custom Combination |
+| Include | <ul><li>Select **[!UICONTROL Event]** > Select **[!UICONTROL Adobe-Audience-Manager-Segment]**. This was the value of the `ev` parameter in the example pixel in step 1. Note that if the pixel is yet to fire, the **[!UICONTROL Event]** option or **[!UICONTROL Adobe-Audience-Manager-Segment]** may not appear in the [!DNL Facebook] user interface.</li><li>Add a parameter: Select `segID`.</li><li><p>Select the **contains** operator.</p><p>This is important, considering that visitors may qualify for multiple segments, there may be multiple [!UICONTROL segment IDs] in the pixel parameter. Using the equals (`=`) operator may not qualify your visitors for the audience, and you will observe a lower volume.</p></li><li>Add a value: Enter the [!DNL Audience Manager] segment ID.</li></ul> |
+| Add New Condition | Optional setting. |
+| In the Last | Optional setting. |
+| Audience Name | We recommend you use the same [!DNL Audience Manager] segment name for consistency, unless you are adding additional conditions to this Audience. |
 
 ## Step 4 - Assign the [!UICONTROL Audience] to a [!UICONTROL Campaign] in [!DNL Facebook Ads Manager] {#step-4-assign-audience-to-campaign}
 
