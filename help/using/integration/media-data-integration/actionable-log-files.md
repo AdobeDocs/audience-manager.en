@@ -171,7 +171,7 @@ The table lists the actionable signals from [!DNL Google Ad Manager] log files:
 |Header Name in Log File | Signal | Description|
 |---------|----------|---------|
 |`LineItemId` | `d_lineitem` | The numeric ID for the delivered Ad Manager line item|
-|`OrderId` | `d_orderid` | The numeric ID for the Ad Manager order that contained the delivered line item and creative.
+|`OrderId` | `d_orderid` | The numeric ID for the Ad Manager order that contained the delivered line item and creative.|
 `CreativeId` | `d_creative` | The numeric ID for the delivered Ad Manager creative.|
 |`-` | `d_event` | Indicates the event type. Audience Manager reads the event type from the Ad Manager log file name and transforms it into an actionable signal. Accepted values are: <br> <ul><li>d_event = imp for impressions.</li><li>d_event = click for clicks.</li><li>d_event = conv for conversions and activities.</li></ul>|
 |`-` | `d_src` | The ID of the data source you use to capture Ad Manager data. See [How to Create a Data Source](/help/using/features/manage-datasources.md).|
