@@ -5,6 +5,7 @@ seo-title: Look-Alike Modeling FAQ
 solution: Audience Manager
 title: Look-Alike Modeling FAQ
 feature: Algorithmic Models
+exl-id: c6e92db0-129f-489e-8cf0-600e0e09698b
 ---
 # Look-Alike Modeling FAQ
 
