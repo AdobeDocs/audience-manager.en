@@ -164,11 +164,11 @@ If the same traits A and B had 400,000 [!UICONTROL UUID]s that qualify for both 
 Use the table below as a rough guide to trait similarity. This guide is based on the similarity scores observed across a majority of the traits.
 
 | [!UICONTROL Trait Similarity Score] | Significance |
----------|----------|
- 0.1 and above | High similarity between traits |
- 0.03 - 0.1 | Medium similarity between traits |
- 0.01 - 0.03 | Low similarity between traits |
- 0 - 0.01 | Very low similarity between traits |
+|---------|----------|
+| 0.1 and above | High similarity between traits |
+| 0.03 - 0.1 | Medium similarity between traits |
+| 0.01 - 0.03 | Low similarity between traits |
+| 0 - 0.01 | Very low similarity between traits |
 
 ## Role-Based Access Control ( RBAC)
 
