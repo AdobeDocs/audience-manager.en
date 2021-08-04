@@ -218,7 +218,7 @@ Check the methods in your [!DNL SDK] code that let you pass [!UICONTROL declared
  </tbody>
 </table>
 
-See also, [Audience Manager Methods for Android](hhttps://docs.adobe.com/content/help/en/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) and [Audience Manager Methods for iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/aam-methods.html).
+See also, [Audience Manager Methods for Android](https://docs.adobe.com/content/help/en/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) and [Audience Manager Methods for iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/aam-methods.html).
 
 >[!MORELIKETHIS]
 >
