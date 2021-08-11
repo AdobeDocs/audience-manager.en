@@ -15,25 +15,21 @@ The beta environment is for testing your Audience Manager implementation. Change
 
 ## Overview
 
-The beta environment is an exact replica of the production environment, without any experimental or unreleased features. Your login credentials from the production environment are valid in the beta environment.
+The functionality in the beta environment is an exact replica of the production environment, without any experimental or unreleased features. Your login credentials from the production environment are valid in the beta environment.
 
 **Update Schedule**
 
 The beta environment is updated at the end of each month during off-peak hours.
 
+>[!IMPORTANT]
+>
+>Note that your customer data ([signals, traits, and segments](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=en)) is not synced between the production and beta environments.
+
 **Outbound Traffic**
 
 Outbound traffic is not enabled for the beta environment.
 
-<!-- 
-
-Added re: AAM-30826.
-
- -->
-
 ## Endpoints
-
-
 
 | Service | URL/Hostname | How to obtain access |
 |--- |--- | --- |
