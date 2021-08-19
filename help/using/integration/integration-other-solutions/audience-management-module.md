@@ -21,7 +21,7 @@ Follow the steps in this tutorial to forward [!DNL Analytics] data to [!DNL Audi
 
 In addition to enabling the extensions or implementing the code described in this document, you must also:
 
-* Implement the [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html).
+* Implement the [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html).
 * Enable [Server-Side Forwarding](https://docs.adobe.com/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html) for report suites in the [!UICONTROL Adobe Analytics Admin Console].
 
 ## Implementation {#implementation}
@@ -30,7 +30,7 @@ There are two methods to implement data forwarding from [!DNL Adobe Analytics] t
 
 ### Implementation using [!DNL Adobe Experience Platform Launch]
 
-[!DNL Adobe] recommends you use the [Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=en) extension to instrument [!DNL Adobe Analytics] and [!DNL Audience Manager] on your properties. In this case, you do not need to manually copy any code. Instead, you must enable data sharing in the [!DNL Analytics Launch] extension, as shown in the image below. See also the [Adobe Analytics Extension](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html#adobe-audience-manager) documentation.
+[!DNL Adobe] recommends you use the [Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=en) extension to instrument [!DNL Adobe Analytics] and [!DNL Audience Manager] on your properties. In this case, you do not need to manually copy any code. Instead, you must enable data sharing in the [!DNL Analytics Launch] extension, as shown in the image below. See also the [Adobe Analytics Extension](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html#adobe-audience-manager) documentation.
 
 >[!TIP]
 >
@@ -47,7 +47,7 @@ The following table defines important variables in the code sample.
 |`partner`|Required. This is a partner name assigned to you by [!DNL Adobe]. It is sometimes referred to as your [!UICONTROL partner ID] or partner subdomain.  Contact your [!DNL Adobe] consultant or [Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html) if you don't know your partner name.|
 |`containerNSID`|Required. Most customers can just set  `"containerNSID":0` . However, if your company needs to customize ID syncs with a different container, you can specify that container ID here.|
 |`uuidCookie`|Optional. This configuration lets you set an [!DNL Adobe] cookie in the first-party domain. This [!DNL cookie] contains the [UUID](../../reference/ids-in-aam.md) .|
-| `visitorService` - `namespace`| Required. The `namespace` parameter is required if you use the [!DNL AudienceManagement] module bundled with [!UICONTROL AppMeasurement] version 2.10 or newer. This [!UICONTROL AudienceManagement] module requires that you use [!UICONTROL Adobe Experience Platform Identity Service] 3.3 or newer. <br><br>The [!UICONTROL Experience Cloud Organization ID] is the ID that a company is provided with upon signing up for the [!UICONTROL Experience Cloud]. Find out your company's Organization ID in [Organizations and Account Linking](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html). |
+| `visitorService` - `namespace`| Required. The `namespace` parameter is required if you use the [!DNL AudienceManagement] module bundled with [!UICONTROL AppMeasurement] version 2.10 or newer. This [!UICONTROL AudienceManagement] module requires that you use [!UICONTROL Adobe Experience Platform Identity Service] 3.3 or newer. <br><br>The [!UICONTROL Experience Cloud Organization ID] is the ID that a company is provided with upon signing up for the [!UICONTROL Experience Cloud]. Find out your company's Organization ID in [Organizations and Account Linking](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html). |
 
 ## Results: Data Forwarding to [!DNL Audience Manager] {#results-data-forwarding}
 

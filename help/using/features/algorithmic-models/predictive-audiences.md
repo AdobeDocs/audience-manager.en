@@ -116,11 +116,11 @@ When configuring your [!UICONTROL Predictive Audiences] models, keep in mind the
 
 ## [!UICONTROL Data Export Controls] {#dec}
 
-Predictive segments created by [!UICONTROL Predictive Audiences] models inherit the [Data Export Controls](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html) from the following first-party data sources:
+Predictive segments created by [!UICONTROL Predictive Audiences] models inherit the [Data Export Controls](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html) from the following first-party data sources:
 
 1. The first-party data source that you choose when building the model.
 1. The first-party data sources of your target audience. Specifically, the data export controls of the [!UICONTROL traits] or [!UICONTROL segments] that make up your target audience.
-1. The [Data Export Controls](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html) of the [!UICONTROL Profile Merge Rule] that you selected for the model.
+1. The [Data Export Controls](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html) of the [!UICONTROL Profile Merge Rule] that you selected for the model.
 
 The newly created predictive [!UICONTROL traits] and [!UICONTROL segments] will have the same privacy restrictions as the union of the first-party data sources described above.
 
@@ -140,6 +140,6 @@ Selecting a [!UICONTROL Profile Merge Rule] that uses both device data and cross
 
 ## [!UICONTROL Role-Based Access Controls] {#rbac}
 
-The traits and segments that you choose for personas and audience classification are subject to Audience Manager [Role-Based Access Controls](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/administration/administration-overview.html).
+The traits and segments that you choose for personas and audience classification are subject to Audience Manager [Role-Based Access Controls](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html).
 
-Audience Manager users can only select traits or segments for personas and target audiences, that they have [permission to view](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/administration/administration-overview.html#wild-card-permissions).
+Audience Manager users can only select traits or segments for personas and target audiences, that they have [permission to view](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html#wild-card-permissions).

@@ -17,6 +17,6 @@ Why is this happening?
 
 ## Answer
 
-It is likely you are running the [Experience Cloud Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html) on your property. If you are, having this Audience Manager reference does not necessarily refer to the property running Audience Manager. Instead, it means that Audience Manager is powering this service.
+It is likely you are running the [Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) on your property. If you are, having this Audience Manager reference does not necessarily refer to the property running Audience Manager. Instead, it means that Audience Manager is powering this service.
 
-The Audience Manager server call is usually made to [synchronize customer IDs](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/setcustomerids.html).
+The Audience Manager server call is usually made to [synchronize customer IDs](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html).

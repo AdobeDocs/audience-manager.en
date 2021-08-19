@@ -15,7 +15,7 @@ Overview, getting started, and code methods available in the [!DNL Audience Mana
 
 >[!IMPORTANT]
 >
->Starting with version 8.0 (released August 2018), [!UICONTROL DIL] has a hard dependency on the [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html), version 3.3 or higher. It relies on the [!DNL ID Service] to fire ID syncs and URL destinations. An error occurs if the [!DNL ID Service] is missing, old, or not configured. 
+>Starting with version 8.0 (released August 2018), [!UICONTROL DIL] has a hard dependency on the [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html), version 3.3 or higher. It relies on the [!DNL ID Service] to fire ID syncs and URL destinations. An error occurs if the [!DNL ID Service] is missing, old, or not configured. 
 >
 >We recommend you use [!DNL Adobe Experience Platform Launch] to implement and manage your [!DNL DIL] and [!DNL Adobe Experience Platform Identity Service] libraries.
 
@@ -26,14 +26,14 @@ However, you can also download the latest Experience Cloud and [!DNL DIL] releas
 
 ## Purpose of DIL {#purpose-dil}
 
-[!UICONTROL DIL] is an API library. You can think it as a body of helper code for [!DNL Adobe Audience Manager]. It is not required to use [!DNL Audience Manager], but the methods and functions [!UICONTROL DIL] provides means you don't have to develop your own code to send data to [!DNL Audience Manager]. Also, [!UICONTROL DIL] is different than the API provided by the [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html). That service is designed to manage visitor identity across different [!DNL Experience Cloud] solutions. By contrast, [!UICONTROL DIL] is designed to:
+[!UICONTROL DIL] is an API library. You can think it as a body of helper code for [!DNL Adobe Audience Manager]. It is not required to use [!DNL Audience Manager], but the methods and functions [!UICONTROL DIL] provides means you don't have to develop your own code to send data to [!DNL Audience Manager]. Also, [!UICONTROL DIL] is different than the API provided by the [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). That service is designed to manage visitor identity across different [!DNL Experience Cloud] solutions. By contrast, [!UICONTROL DIL] is designed to:
 
 * Make event calls and send data to the [Data Collection Server](../reference/system-components/components-data-collection.md). 
 * Send data to [destinations](../features/destinations/destinations.md).
 
 ## Getting and Implementing DIL Code {#get-implement-dil-code}
 
-[!UICONTROL DIL] code is available for download **[here](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. Please note that starting with version 8.0 (released August 2018), [!UICONTROL DIL] has a hard dependency on the [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html), version 3.3 or higher. It relies on the [!DNL ID Service] to fire ID syncs and [!DNL URL destinations]. An error occurs if the [!DNL ID Service] is missing, old, or not configured.
+[!UICONTROL DIL] code is available for download **[here](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. Please note that starting with version 8.0 (released August 2018), [!UICONTROL DIL] has a hard dependency on the [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html), version 3.3 or higher. It relies on the [!DNL ID Service] to fire ID syncs and [!DNL URL destinations]. An error occurs if the [!DNL ID Service] is missing, old, or not configured.
 
 Rather than work with [!UICONTROL DIL] and set up [!DNL Audience Manager] manually, we recommend that you use [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html) instead. [!DNL Adobe Experience Platform Launch] is the recommended implementation tool because it simplifies code deployment, placement, and version management. Read more about the [Audience Manager extension](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/audience-manager/overview.html) in [!DNL Adobe Experience Platform Launch].
 

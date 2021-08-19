@@ -95,7 +95,7 @@ Zeroes indicate that [!DNL Audience Manager] did not collect data for that day. 
 
 Watch the video below for a detailed look at how cross-device metrics work.
 
->[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
+>[!VIDEO](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
 
 ## Trend Report Results for Segments {#segment-report-results-traits}
 

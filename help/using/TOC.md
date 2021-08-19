@@ -336,8 +336,8 @@ feature-set: Audience Manager
     + Integration with Other Experience Cloud Solutions {#integration-other-solutions}
       + [Integrate Audience Manager with Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
       + [How to Forward Data from Adobe Analytics to Audience Manager](integration/integration-other-solutions/audience-management-module.md)
-      + [Publish an Adobe Analytics Segment to the Experience Cloud (opens Adobe Analytics documentation)](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html)
-      + [Integrate Audience Manager with Adobe Campaign (opens Adobe Campaign documentation)](https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
+      + [Publish an Adobe Analytics Segment to the Experience Cloud (opens Adobe Analytics documentation)](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html)
+      + [Integrate Audience Manager with Adobe Campaign (opens Adobe Campaign documentation)](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
 + Reference{#reference}
     + [Reference Overview](reference/reference.md)
     + [Amazon S3: About](reference/amazon-s3.md)

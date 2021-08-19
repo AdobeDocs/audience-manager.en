@@ -74,7 +74,7 @@ All of these are optional, unless you want a response from the [!DNL DCS]. If yo
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_coppa</code> </p> </td> 
-   <td colname="col2"> <p>Disable usage of third party cookies in order to comply with child protection regulations. This parameter is dynamically set by the Adobe Adobe Experience Platform Identity Service and depends on the <code> idSyncDisable3rdPartySyncing</code> configuration. See <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/coppa.html" format="https" scope="external"> COPPA Support in the Adobe Experience Platform Identity Service</a>. </p> </td>
+   <td colname="col2"> <p>Disable usage of third party cookies in order to comply with child protection regulations. This parameter is dynamically set by the Adobe Adobe Experience Platform Identity Service and depends on the <code> idSyncDisable3rdPartySyncing</code> configuration. See <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/coppa.html" format="https" scope="external"> COPPA Support in the Adobe Experience Platform Identity Service</a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_cts=1</code> </p> <p><code> d_cts=2</code> </p> </td> 
@@ -116,7 +116,7 @@ All of these are optional, unless you want a response from the [!DNL DCS]. If yo
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_mid</code> </p> </td> 
-   <td colname="col2"> <p>Specifies the Experience Cloud ID set and used by the <span class="keyword"> Experience Cloud</span> ID service. For more information about the ECID, see <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies and the Experience Cloud Identity Service</a>. </p> </td> 
+   <td colname="col2"> <p>Specifies the Experience Cloud ID set and used by the <span class="keyword"> Experience Cloud</span> ID service. For more information about the ECID, see <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies and the Experience Cloud Identity Service</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_nsid</code> </p> </td> 

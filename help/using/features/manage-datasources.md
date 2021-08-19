@@ -30,7 +30,7 @@ To complete the [!UICONTROL Data Source Details] section:
 1. Provide an [!UICONTROL integration code]. Generally, [!UICONTROL integration codes] are optional. They are required when you want to:
 
     * [Create a cross-device data source](../features/profile-merge-rules/merge-rules-start.md#create-data-source). 
-    * Use the [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html). 
+    * Use the [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). 
     * Work with [Profile Merge Rules](../features/profile-merge-rules/merge-rules-start.md).
 
 1. Choose an **[!UICONTROL ID Type]**. [!UICONTROL ID Type] options include:
@@ -66,7 +66,7 @@ Delete a [!UICONTROL data source] that you no longer need.
 >Please note the following restrictions:
 >
 >* You cannot delete an [Active Audience or Data Source Synced Trait](../features/traits/client-activity-synced-audience-traits.md). 
->* For customers using Adobe Analytics: Audience Manager does not allow you to delete data sources created automatically from your [!DNL Analytics] report suites. Use the [Core Service](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services-landing.html) to unmap these data sources.
+>* For customers using Adobe Analytics: Audience Manager does not allow you to delete data sources created automatically from your [!DNL Analytics] report suites. Use the [Core Service](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services-landing.html) to unmap these data sources.
 
 1. Click **[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]**.
 1. Select the check box next to one or more data sources.

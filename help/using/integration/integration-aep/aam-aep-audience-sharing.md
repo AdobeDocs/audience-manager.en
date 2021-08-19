@@ -16,16 +16,16 @@ exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
 
 ## Overview {#overview}
 
-The audience sharing functionality between Audience Manager and Adobe Experience Platform allows you to share your Audience Manager traits and segments to Adobe Experience Platform and vice-versa. You need the [[!DNL Audience Manager Connector]](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html) to enable audience sharing between Audience Manager and Adobe Experience Platform.
+The audience sharing functionality between Audience Manager and Adobe Experience Platform allows you to share your Audience Manager traits and segments to Adobe Experience Platform and vice-versa. You need the [[!DNL Audience Manager Connector]](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html) to enable audience sharing between Audience Manager and Adobe Experience Platform.
 
 You can use Audience Manager traits and segments in Experience Platform to add Audience Manager data to your customer profiles and to benefit from the Experience Platform [segmentation service](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md). 
 
 In Audience Manager, you can use Experience Platform segments for Data Management Platform use cases, such as:
 * Add [third party data](/help/using/overview/data-types-collected.md#third-party-data) to your segments;
 * [Algorithmic modeling](/help/using/features/algorithmic-models/understanding-models.md);
-* Activate your segments to destinations that are not yet supported in the Experience Platform [destinations catalog](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/destinations/destinations-cat/destinations-catalog.html).
+* Activate your segments to destinations that are not yet supported in the Experience Platform [destinations catalog](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/destinations/destinations-cat/destinations-catalog.html).
 
-Additionally, your Experience Platform segments are shared to other Experience Cloud solutions, via [Core Services](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html).
+Additionally, your Experience Platform segments are shared to other Experience Cloud solutions, via [Core Services](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html).
 
 >[!IMPORTANT]
 >
@@ -44,9 +44,9 @@ See the table below for an overview of audience sharing use cases:
 
 Your Audience Manager traits and segments appear in Experience Platform as **Audiences** in the segment workflow. For more information on your Audience Manager segments and traits in Experience Platform, see:
 
-* [Segmentation Service overview](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html#audiences)
-* [Experience Platform Segment Builder user guide](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html#audiences)
-* [Audience Manager Connector](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
+* [Segmentation Service overview](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#audiences)
+* [Experience Platform Segment Builder user guide](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#audiences)
+* [Audience Manager Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
 
 ## Adobe Experience Platform segments in Audience Manager {#aep-segments-in-aam}
 
@@ -106,13 +106,13 @@ For an example of a segment created automatically from an Experience Platform se
 
 ## Audience Manager Data Export Control support in Experience Platform {#aam-data-export-control-in-aep}
 
-In order to enforce data usage compliance in Experience Platform, all applicable datasets and fields must be given appropriate [data usage labels](https://docs.adobe.com/content/help/en/experience-platform/data-governance/labels/overview.html). In addition, [data usage policies](https://docs.adobe.com/content/help/en/experience-platform/data-governance/policies/overview.html) must be enabled for specific marketing actions against those labels, as outlined by the [Data Usage Labeling and Enforcement (DULE) framework](https://docs.adobe.com/content/help/en/experience-platform/data-governance/home.html#dule-framework).
+In order to enforce data usage compliance in Experience Platform, all applicable datasets and fields must be given appropriate [data usage labels](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html). In addition, [data usage policies](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html) must be enabled for specific marketing actions against those labels, as outlined by the [Data Usage Labeling and Enforcement (DULE) framework](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html#dule-framework).
 
 In the audience sharing process between Audience Manager and Experience Platform, any Data Export Controls that have been applied to Audience Manager segments are translated to equivalent labels and marketing actions recognized by Experience Platform Data Governance, and vice versa.
 
 >[!NOTE]
 >
->For more general information on Data Export Controls, please refer to the [Data Export Controls documentation](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html).
+>For more general information on Data Export Controls, please refer to the [Data Export Controls documentation](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html).
 >
 >This document provides a reference for how specific Audience Manager Data Export Controls map to data usage labels and marketing actions in Platform.
 
@@ -152,11 +152,11 @@ Audience Manager updates reporting numbers in the interface once per day.   The 
 
 ### Differences between Profile Merge Rules and Merge Policies
 
-[[!UICONTROL Profile Merge Rules]](/help/using/features/profile-merge-rules/merge-rules-overview.md) in Audience Manager and [[!UICONTROL Merge Policies]](https://docs.adobe.com/content/help/en/experience-platform/profile/ui/merge-policies.html) in Experience Platform work differently, and the identity graph used for each varies. Because of this, some differences between segment populations are expected.
+[[!UICONTROL Profile Merge Rules]](/help/using/features/profile-merge-rules/merge-rules-overview.md) in Audience Manager and [[!UICONTROL Merge Policies]](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/merge-policies.html) in Experience Platform work differently, and the identity graph used for each varies. Because of this, some differences between segment populations are expected.
 
 ### Segment composition in Experience Platform
 
-The integration between Adobe Experience Platform and Audience Manager shares a number of standard [identity namespaces](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html#identity-types) for all customers: ECID, IDFA, GAID, hashed email addresses (EMAIL_LC_SHA256), AdCloud ID. If your Experience Platform segments use any of these as primary identity for the qualified profiles, the profiles are counted in Audience Manager traits and segments.
+The integration between Adobe Experience Platform and Audience Manager shares a number of standard [identity namespaces](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#identity-types) for all customers: ECID, IDFA, GAID, hashed email addresses (EMAIL_LC_SHA256), AdCloud ID. If your Experience Platform segments use any of these as primary identity for the qualified profiles, the profiles are counted in Audience Manager traits and segments.
 
 >[!NOTE]
 >
@@ -177,6 +177,6 @@ If you created a data source in Audience Manager for the CRM IDs in Experience P
 
 >[!MORELIKETHIS]
 >
->* [Segmentation Service overview](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html#audiences)
->* [Experience Platform Segment Builder user guide](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html#audiences)
->* [Audience Manager Connector](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
+>* [Segmentation Service overview](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#audiences)
+>* [Experience Platform Segment Builder user guide](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#audiences)
+>* [Audience Manager Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html)

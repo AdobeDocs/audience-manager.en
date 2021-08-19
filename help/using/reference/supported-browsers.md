@@ -22,7 +22,7 @@ Adobe supports the latest major version of these browsers:
 
 * **Google Chrome**
 
-  Get the latest Chrome version from [http://www.google.com/chrome](http://www.google.com/chrome).
+  Get the latest Chrome version from [https://www.google.com/chrome](https://www.google.com/chrome).
 
 * **Microsoft Edge** 
   
@@ -32,10 +32,10 @@ Adobe supports the latest major version of these browsers:
 
 * **Mozilla Firefox**
 
-  Get the latest Firefox version from [http://www.mozilla.com/en-US/firefox](http://www.mozilla.com/en-US/firefox).
+  Get the latest Firefox version from [https://www.mozilla.com/en-US/firefox](https://www.mozilla.com/en-US/firefox).
 
 * **Safari**
   
-  Get the latest Safari version from [http://www.apple.com/safari/download](http://www.apple.com/safari/download). 
+  Get the latest Safari version from [https://www.apple.com/safari/download](https://www.apple.com/safari/download). 
 
 Other browsers may work, but are not supported by our technical and product teams. If you're having trouble working with [!DNL Audience Manager], make sure you're using an up to date and supported browser.
