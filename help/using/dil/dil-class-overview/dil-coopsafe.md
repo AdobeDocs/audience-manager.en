@@ -17,7 +17,7 @@ An optional, Boolean configuration that determines if DIL sends (or does not sen
 To use `isCoopSafe` you must:
 
 * Use [!UICONTROL DIL] v6.11 or higher. 
-* Participate in the [Experience Cloud Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html). Prospective co-op members should also review this documentation to determine if `isCoopSafe` addresses possible concerns about how data is used to create the device graph. 
+* Participate in the [Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html). Prospective co-op members should also review this documentation to determine if `isCoopSafe` addresses possible concerns about how data is used to create the device graph. 
 
 * Work with your [!DNL Adobe] consultant to set an allowlist or a denylist flag on your Device Co-op account. There is no self-service path to enable these flags.
 

@@ -19,8 +19,8 @@ The benefits of using the [!DNL Admin Console] include:
 |Benefit|Description|
 |---|---|
 | Single sign-on across solutions | [!DNL Audience Manager] users can sign in to [!DNL Experience Cloud] and all other solutions using their [!DNL Adobe ID] or [!DNL Enterprise ID]. This sign-in enables access to integrated solutions and core services across [!DNL Experience Cloud]. After the migration, users who attempt to sign in via legacy logins (`bank.demdex.com`) will be redirected to `experiencecloud.adobe.com`. |
-| Manage users and groups | Once the migration is complete, [!DNL Audience Manager] administrators will manage users and groups exclusively in the [[!DNL Admin Console]](http://adminconsole.adobe.com/enterprise/).|
-|Manage products and services | From the [[!DNL Admin Console]](http://adminconsole.adobe.com/enterprise/), administrators can: <ul><li>Create, update, and remove users</li><li>Grant access to solutions and services</li></ul> |
+| Manage users and groups | Once the migration is complete, [!DNL Audience Manager] administrators will manage users and groups exclusively in the [[!DNL Admin Console]](https://adminconsole.adobe.com/enterprise/).|
+|Manage products and services | From the [[!DNL Admin Console]](https://adminconsole.adobe.com/enterprise/), administrators can: <ul><li>Create, update, and remove users</li><li>Grant access to solutions and services</li></ul> |
 
 To facilitate user migration, we are asking all [!DNL Audience Manager] administrators to start migrating their user accounts to [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) as soon as possible, by following the steps described in this article.
 

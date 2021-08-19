@@ -9,7 +9,7 @@ exl-id: 43a4272c-d9be-47f6-9b81-15472b0366ab
 ---
 # Predictive Audiences Reporting
 
-After you save a [!UICONTROL Predictive Audiences] model, Audience Manager starts training it. Within a couple of hours, the computed model will start analyzing audiences on the [Data Collection Servers](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/system-components/components-data-collection.html#dcs-pcs). Reporting will be available the following day.
+After you save a [!UICONTROL Predictive Audiences] model, Audience Manager starts training it. Within a couple of hours, the computed model will start analyzing audiences on the [Data Collection Servers](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html#dcs-pcs). Reporting will be available the following day.
 
 To see the results of your [!UICONTROL Predictive Audiences] classification, go to **[!UICONTROL Audience Data]** > **[!UICONTROL Models]**, and click your model in the list.
 

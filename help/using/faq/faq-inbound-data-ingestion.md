@@ -54,8 +54,8 @@ See [File Compression for Inbound Data Transfer Files](../integration/sending-au
 
 Yes. As long as you use a [!UICONTROL cross-device data source] to store the CRM data that you upload, Audience Manager always stores the data. In fact, following the [!UICONTROL Profile Merge Rules] enhancements that Audience Manager launched in October 2019 that allow for offline-only use cases, you can upload and action on data without deploying Audience Manager code into production at all. See:
 
-* [Overview of Profile Merge Rules Enhancements](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
-* [!UICONTROL People-based Destinations] - [Personalization Based on Offline-Only Data](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
+* [Overview of Profile Merge Rules Enhancements](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
+* [!UICONTROL People-based Destinations] - [Personalization Based on Offline-Only Data](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
 
 <br>&nbsp;
 

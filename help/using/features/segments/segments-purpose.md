@@ -30,7 +30,7 @@ When mapping Adobe Analytics [!UICONTROL segments] or report suites to your Expe
 
 >[!TIP]
 >
->Audience Manager [!UICONTROL segments] are different from [!DNL Adobe Analytics] [!UICONTROL segments]. Read [Understanding Segments in Analytics and Audience Manager](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) for an in-depth description of the differences.
+>Audience Manager [!UICONTROL segments] are different from [!DNL Adobe Analytics] [!UICONTROL segments]. Read [Understanding Segments in Analytics and Audience Manager](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) for an in-depth description of the differences.
 
 ## Create Rules-based [!UICONTROL Segments] With [!UICONTROL Segment Builder]
 

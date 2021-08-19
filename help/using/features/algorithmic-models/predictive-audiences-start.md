@@ -14,7 +14,7 @@ exl-id: beb314de-f679-4397-8e14-2dd6576243fd
 
 ## Create a Predictive Audiences Model {#create-predictive-audiences}
 
-Before you create a [!UICONTROL Predictive Audiences] model, you need to decide which first-party data source you want to assign your [!UICONTROL Predictive Audiences] traits and segments to. You can use an existing first-party data source, or create a new one. See [Manage Data Sources](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/manage-datasources.html) for details on how to create a new first-party data source.
+Before you create a [!UICONTROL Predictive Audiences] model, you need to decide which first-party data source you want to assign your [!UICONTROL Predictive Audiences] traits and segments to. You can use an existing first-party data source, or create a new one. See [Manage Data Sources](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html) for details on how to create a new first-party data source.
 
 Once you know which data source you're going to use, follow the steps below.
 

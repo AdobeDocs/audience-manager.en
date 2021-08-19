@@ -27,7 +27,7 @@ The *`Organization ID`* is a unique ID that identifies your organization to [!DN
 
 For example, an *`Organization ID`* looks like this: `1FD6776A524453CC0A490D44@AdobeOrg`.
 
-The *`Organization ID`* is used by Audience Manager's [DIL](../dil/dil-overview.md) API, the [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html), and other [!DNL Experience Cloud] solutions. Users with Administrator permissions can find the *`Organization ID`* on the [!DNL Adobe Admin Console]. See the [Administration - User Management FAQ](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html).
+The *`Organization ID`* is used by Audience Manager's [DIL](../dil/dil-overview.md) API, the [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html), and other [!DNL Experience Cloud] solutions. Users with Administrator permissions can find the *`Organization ID`* on the [!DNL Adobe Admin Console]. See the [Administration - User Management FAQ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 &nbsp;
 
@@ -89,4 +89,4 @@ You should use Trait Recommendations when:
 
 **Is there any difference between Adobe Analytics and Audience Manager segments?**
 
-Yes, please read [Understanding Segments in Analytics and Audience Manager](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) for an in-depth description of the differences.
+Yes, please read [Understanding Segments in Analytics and Audience Manager](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) for an in-depth description of the differences.

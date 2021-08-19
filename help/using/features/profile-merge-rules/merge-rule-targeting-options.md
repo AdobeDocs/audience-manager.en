@@ -74,7 +74,7 @@ To learn more about this option, see [People-Based Destinations](../destinations
 
 ## Device Graph Options {#device-graph-options}
 
-Choosing a [!UICONTROL device graph] option for a [!UICONTROL Profile Merge] rule depends on conditions unique to your digital properties and business goals. These general guidelines can help you understand when to use one type of graph vs another. Note, you must be a member of the [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html) or have a contractual relationship with an external device graph to use these options. Refer to the table below for general guidance on when to choose a device graph option. For specific use cases, see [Profile Link Device Graph Use Cases](profile-link-use-case.md) and [External Device Graph Use Cases](external-graph-use-cases.md).
+Choosing a [!UICONTROL device graph] option for a [!UICONTROL Profile Merge] rule depends on conditions unique to your digital properties and business goals. These general guidelines can help you understand when to use one type of graph vs another. Note, you must be a member of the [Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html) or have a contractual relationship with an external device graph to use these options. Refer to the table below for general guidance on when to choose a device graph option. For specific use cases, see [Profile Link Device Graph Use Cases](profile-link-use-case.md) and [External Device Graph Use Cases](external-graph-use-cases.md).
 
 <table id="table_66D9152D4FF040A186003272D456625D"> 
  <thead> 
@@ -95,7 +95,7 @@ Choosing a [!UICONTROL device graph] option for a [!UICONTROL Profile Merge] rul
   </tr> 
   <tr> 
    <td colname="col1"> <p>External Device Graph Options </p> </td> 
-   <td colname="col2"> <p><span class="wintitle"> Profile Merge</span> rules built with the <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html" format="https" scope="external"> Experience Cloud Device Co-op</a> or any external device graph integrated with <span class="keyword"> Audience Manager</span> are ideal for: </p> <p> 
+   <td colname="col2"> <p><span class="wintitle"> Profile Merge</span> rules built with the <a href="https://experienceleague.adobe.com/docs/device-co-op/using/about/overview.html" format="https" scope="external"> Experience Cloud Device Co-op</a> or any external device graph integrated with <span class="keyword"> Audience Manager</span> are ideal for: </p> <p> 
      <ul id="ul_D76D773988604A619FA4A3BF37F910F0"> 
       <li id="li_969A0755A9E34CBEB2F7331C137B9A26">Digital properties that have a low-level of customer authentication. </li> 
       <li id="li_AC78C8B4AD5340FFAC44FE851096C6A6">Broad, high-reach brand campaigns. </li> 

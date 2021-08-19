@@ -713,7 +713,7 @@ dataLib.api.traits([<i>123, 456, 789</i>]).useImageRequest().submit();
 >
 >* [Name Requirements for Key Variables](../features/traits/trait-key-name-requirements.md)
 >* [Prefix Requirements for Key Variables](../features/traits/trait-variable-prefixes.md)
->* [Synchronization Functions in the Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/idsync.html)
+>* [Synchronization Functions in the Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/idsync.html)
 >* [DIL create](../dil/dil-class-overview/dil-create.md#dil-create)
->* [Adobe Experience Platform Identity Service: UseCORSOnly](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/use-cors-only.html)
->* [CORS Support in the Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/reference/cors.html)
+>* [Adobe Experience Platform Identity Service: UseCORSOnly](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/use-cors-only.html)
+>* [CORS Support in the Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/reference/cors.html)
