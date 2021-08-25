@@ -151,7 +151,7 @@ This page includes current Audience Manager [server-to-server integrations](/hel
 | TubeMogul                                         | 03/03/2017 | Yes       | No                                | Yes  | No                |
 | Turn / Amobee                                     | 03/03/2027 | No        | No                                | No   | Yes               |
 | Twenga                                            | 29/10/2018 | Yes       | No                                | No   | No                |
-| Twitter Tailored Audiences                        | 27/03/2017 | Yes       | No                                | Yes  | No                |
+| Twitter Custom Audiences                        | 27/03/2017 | Yes       | No                                | Yes  | No                |
 | Undertone                                         | 11/07/2017 | No        | No                                | No   | No                |
 | Verve                                             | 15/06/2017 | Yes       | No                                | No   | Yes               |
 | VideoAmp                                          | 03/03/2017 | No        | No                                | No   | No                |

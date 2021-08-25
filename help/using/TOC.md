@@ -106,7 +106,7 @@ feature-set: Audience Manager
           + [Add New Device-Based Destinations](features/destinations/add-device-based-destinations.md)
           + [List of Audience Manager Device-Based Destinations](/help/using/features/destinations/device-based-destinations-list.md)
           + [Add or Edit Segments for Server-to-Server Destinations](features/destinations/add-edit-segments.md)
-          + [Configure Twitter Tailored Audiences as a Self-Service Device-Based Destination](features/destinations/twitter-tailored-audiences.md)
+          + [Configure Twitter Custom Audiences as a Self-Service Device-Based Destination](features/destinations/twitter-tailored-audiences.md)
         + Custom Destinations {#custom-destinations}
           + [Configure a URL Destination](features/destinations/create-url-destination.md)
           + [Configure a Cookie Destination](features/destinations/create-cookie-destination.md)

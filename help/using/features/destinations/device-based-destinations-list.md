@@ -156,7 +156,7 @@ This page includes current [!DNL Audience Manager] [device-based destinations](/
 | [!DNL TubeMogul]                                         | 03/03/2017 | Real-time | Yes       | No                                | Yes  | No                |
 | [!DNL Turn] / [!DNL Amobee]                              | 03/03/2027 | Real-time | No        | No                                | No   | Yes               |
 | [!DNL Twenga]                                            | 29/10/2018 | Real-time | Yes       | No                                | No   | No                |
-| [!DNL Twitter Tailored Audiences]                        | 27/03/2017 | Real-time | Yes       | No                                | Yes  | No                |
+| [!DNL Twitter Custom Audiences]                        | 27/03/2017 | Real-time | Yes       | No                                | Yes  | No                |
 | [!DNL Undertone]                                         | 11/07/2017 | 1xday     | No        | No                                | No   | No                |
 | [!DNL Verve]                                             | 15/06/2017 | 1xday     | Yes       | No                                | No   | Yes               |
 | [!DNL VideoAmp]                                          | 03/03/2017 | Real-time | No        | No                                | No   | No                |
