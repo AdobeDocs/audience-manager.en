@@ -18,7 +18,7 @@ For further requirements, see Prerequisites in [Audience Analytics](https://expe
 
 |  Analytics Destination Type |  Description |
 |---|---|
-|  Default |  The name of this default destination is "Adobe Analytics," which you can edit. Mapped report suite IDs appear in folder storage for your Audience Manager traits and segments. <br>&nbsp; Audience Manager creates one destination automatically if your account has: <br>&nbsp; <ul><li>Met the requirements described in the [Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) documentation.</li><li>A [report suite](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html) in Analytics.</li><li>[Mapped a report suite to an organization](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html).</li></ul>|
+|  Default |  The name of this default destination is "Adobe Analytics," which you can edit. Mapped report suite IDs appear in folder storage for your Audience Manager traits and segments. <br>&nbsp; Audience Manager creates one destination automatically if your account has: <br>&nbsp; <ul><li>Met the requirements described in the [Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) documentation.</li><li>A [report suite](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html) in Analytics.</li></ul>|
 |  New | To create new Analytics destinations, go to Audience Data > Destinations > Create New Destination and follow the steps for each section described below. |
 
 ## Step 1: Provide Basic Information
