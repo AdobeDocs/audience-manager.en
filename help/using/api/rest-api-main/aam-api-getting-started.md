@@ -65,6 +65,14 @@ Follow the steps below to configure [!DNL JWT (Service Account)] authentication 
 >
 >To configure and work with the [!DNL Audience Manager] [!DNL REST APIs] in an automated manner, you can generate the [!DNL JWT] programatically. See [JWT (Service Account) Authentication](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md) for detailed instructions.
 
+### Technical account RBAC permissions
+
+If your Audience Manager account uses [Role-based Access Control](../../features/administration/administration-overview.md), you must create an Audience Manager technical user account and add it to the Audience Manager RBAC group that will make the API calls.
+
+Follow the steps below to create a technical user account and add it to an RBAC group:
+
+1. Run an API call to `https://aam.adobe.io/v1/users/self`.
+
 ## [!DNL OAuth] Authentication (Deprecated) {#oauth}
 
 >[!WARNING]
