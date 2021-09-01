@@ -71,7 +71,11 @@ If your Audience Manager account uses [Role-based Access Control](../../features
 
 Follow the steps below to create a technical user account and add it to an RBAC group:
 
-1. Run an API call to `https://aam.adobe.io/v1/users/self`.
+1. Make a `GET` call to `https://aam.adobe.io/v1/users/self`. The call will create a technical user account that you can see in the [!UICONTROL Admin Console], in the [!UICONTROL Users] page.
+  
+    ![technical account](assets/technical-account.png)
+
+1. Log in to your Audience Manager account and [add the technical user account](../../features/administration/administration-overview.md#create-group) to the user group that will make the API calls.
 
 ## [!DNL OAuth] Authentication (Deprecated) {#oauth}
 
