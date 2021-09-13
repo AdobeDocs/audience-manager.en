@@ -9,7 +9,7 @@ exl-id: 13b36469-3f61-47b1-9355-ca329de1fb24
 ---
 # Configure [!DNL Twitter Custom Audiences] as a Self-Service Device-Based Destination {#configure-twitter}
 
-This article explains how to configure an integration with [Twitter Custom Audiences](https://business.twitter.com/en/targeting/tailored-audiences.html).
+This article explains how to configure an integration with [Twitter Custom Audiences](https://business.twitter.com/en/help/campaign-setup/campaign-targeting/custom-audiences.html).
 
 ## Prerequisites {#prerequisites}
 
@@ -29,7 +29,10 @@ Before you can add the device-based destination, you need to link Audience Manag
 
 1. Log in to your Audience Manager account and go to **[!DNL Administration > Integrated Accounts]**. If you have a previously configured integration with a destination platform, you should see it listed in this page. Otherwise, the page is empty.
 1. Click **[!DNL Add Account]**.
-1. Select [!DNL Twitter Custom Audiences] and click **[!DNL Confirm]** to be redirected to the authentication page.                     ![integrated-platforms](assets/dbd-integrated-platforms.png)
+1. Select [!DNL Twitter Custom Audiences] and click **[!DNL Confirm]** to be redirected to the authentication page.
+    
+    ![integrated-platforms](assets/dbd-integrated-platforms.png)
+
 1. Once you've authenticated, you are redirected to Audience Manager where you should see your associated advertiser accounts. Select the advertiser account that you want to use and click **[!DNL Confirm]**.  
 
 ### Step 2. Create a New Device-Based Destination {#step2-create-new-destination}
