@@ -45,11 +45,9 @@ See [Understanding and Configuring the LinkedIn People-Based Destination](https:
 
 ### [!DNL Google Customer Match] {#gcm}
 
-Before you can use [!UICONTROL People-Based Destinations] to send your first-party audience segments to a [!DNL Google Customer Match] destination, it is mandatory that [!DNL Google] adds you to their allow list.
+Before you can use [!UICONTROL People-Based Destinations] to send your first-party audience segments to a [!DNL Google Customer Match] destination,  make sure your [!DNL Google Ads] account complies with the [Google Customer Match policy](https://support.google.com/google-ads/answer/6299717/customer-match-policy).
 
-Contact your [!DNL Google] representative and follow the allow list instructions described in the [Use Customer Match partners to upload your data](https://support.google.com/google-ads/answer/7361372?hl=en&ref_topic=6296507) [!DNL Google] documentation.
-
-Once this process has been completed, you can create your [!UICONTROL People-Based Destination].
+Customers with compliant accounts are automatically allow listed by Google.
 
 ## Data Onboarding {#data-onboarding}
 
