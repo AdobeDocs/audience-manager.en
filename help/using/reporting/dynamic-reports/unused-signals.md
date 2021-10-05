@@ -22,7 +22,7 @@ This report returns a frequency count of all the unused information collected on
 
 A signal is information from your website passed in to [!DNL Audience Manager] in the form of [key-value pairs](../../reference/key-value-pairs-explained.md) (e.g., `color=blue, price>100, gender=female`, etc.).
 
-Unused signals consist of data that you collect but have not been mapped to a trait. The [!UICONTROL Unused Signals] report shows data in a table by date, key, value, and frequency count. Any unmapped signal passed in to [!DNL Audience Manager] at least 100 times in a day qualifies for the [!UICONTROL Unused Signals] report.
+Unused signals consist of data that you collect but have not been mapped to a trait. The [!UICONTROL Unused Signals] report shows data in a table by date, key, value, and frequency count. Any unmapped signal passed in to [!DNL Audience Manager] at least 100 times in a day qualifies for the [!UICONTROL Unused Signals] report. Unused signals are stored for 45 days and then discarded. 
 
 Review this report to help identify orphaned signals that can be mapped to new or existing traits.
 
