@@ -23,6 +23,8 @@ The following table describes the global data sources supported by Audience Mana
 | 389146  | **[!DNL Microsoft Advertising ID]** - **[!DNL MAID]** IDs represent devices running the [!DNL Windows 10] operating system. |
 |  963906 | **[!DNL Samsung Tizen IDs for Advertising]** - **[!DNL TIFA]** IDs represent [!DNL Samsung] smart TVs. |
 | 488258 | **[!DNL Amazon Fire TV Advertising IDs]** represent devices running [!DNL Amazon Fire OS]|
+|1171485|**[!DNL LG webOS TV ID]** - **[!DNL LGUDID]** represent devices running the [!DNL LG webOS] operating system.|
+|1171489| **[!DNL Vizio ID for Advertising]** - **[!DNL IFA]** represent devices running Vizio smart TV operating systems.|
 
 ## Importing Data from Global Data Sources
 
