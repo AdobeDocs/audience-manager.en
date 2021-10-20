@@ -57,7 +57,7 @@ Customers who are upgrading their [!DNL Audience Manager Plug-in for IAB TCF] im
 You must meet the following prerequisites to use the Audience Manager Plug-in for IAB TCF with Audience Manager:
 
 1. You must be using Adobe Experience Platform Identity Service (ECID) version 5 or newer. [Download](https://github.com/Adobe-Marketing-Cloud/id-service/releases) our latest ECID release.
-2. You must be using Audience Manager [!DNL Data Integration Library] (DIL) version 9.0 or newer, downloadable from [here](https://github.com/Adobe-Marketing-Cloud/dil/releases). Read about [DIL in the Audience Manager documentation](../../dil/dil-overview.md). We recommend using [Adobe Launch](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/adobe-audience-manager-extension.html) for the easiest DIL implementation for Audience Manager.
+2. You must be using Audience Manager [!DNL Data Integration Library] (DIL) version 9.0 or newer, downloadable from [here](https://github.com/Adobe-Marketing-Cloud/dil/releases). Read about [DIL in the Audience Manager documentation](../../dil/dil-overview.md). We recommend using the [Adobe Audience Manager tag extension](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html) for the easiest DIL implementation of Audience Manager.
 3. Alternatively, if you use [!DNL Server-Side Forwarding] (SSF) to import data into Audience Manager, you must upgrade to the latest version of AppMeasurement. Download AppMeasurement using the [Analytics Code Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html).
 4. You must be using a Consent Management Platform (CMP), either commercial or your own, that is integrated with IAB TCF v2.0, and is registered with the IAB TCF. See the list of [CMPs registered within the IAB framework](https://iabeurope.eu/cmp-list/).
 
@@ -69,7 +69,7 @@ You must meet the following prerequisites to use the Audience Manager Plug-in fo
 
 To enable the IAB TCF support in Audience Manager, read our documentation on [how to set up IAB with Opt-in](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/iab.html).
 
-The easiest way you can do this is by using [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=en) to add [!DNL ECID Opt-in] on your properties. Read the documentation for the [ECID Opt-in extension](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html) to learn how to set up the Launch extension.
+The easiest way you can do this is by using [Adobe Experience Platform Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en) to add [!DNL ECID Opt-in] on your properties. Read the documentation for the [ECID Opt-in extension](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html) to learn how to set up the Tags extension.
 
 ## User choice workflow when using the IAB framework {#user-choice-workflow}
 

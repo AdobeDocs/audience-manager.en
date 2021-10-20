@@ -10,7 +10,7 @@ exl-id: 064e3653-7658-422c-9dd5-2252806e8f09
 ---
 # Tag Management Components{#tag-management-components}
 
-Audience Manager tag management components include the client portal, Adobe Tag Manager (deprecated in favor of Adobe Experience Platform Launch), DIL, Akamai, and the control database.
+Audience Manager tag management components include the client portal, Adobe Tag Manager (deprecated in favor of Adobe Experience Platform Tags), DIL, Akamai, and the control database.
 
 <!-- 
 
@@ -32,7 +32,7 @@ The client portal is the primary user interface (UI) for tag and data management
 
 ## DIL/TIM Container {#dil-tim}
 
-The [!UICONTROL DIL] container helps deploy [!DNL Audience Manager] data collection code to your website. [!UICONTROL TIM] is the deprecated Tag Insertion Manager. It is no longer used by [!DNL Audience Manager]. Instead, you use the [!DNL Audience Manager] extension in [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/audience-manager/overview.html) to configure and generate container code that you place on pages in your inventory.
+The [!UICONTROL DIL] container helps deploy [!DNL Audience Manager] data collection code to your website. [!UICONTROL TIM] is the deprecated Tag Insertion Manager. It is no longer used by [!DNL Audience Manager]. Instead, you use the [!DNL Audience Manager] extension in [Adobe Experience Platform Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html) to configure and generate container code that you place on pages in your inventory.
 
 ## Data Integration Library (DIL) {#dil}
 
@@ -40,7 +40,7 @@ The [Data Information Library](../../dil/dil-overview.md) (DIL) is a self-contai
 
 ## Akamai {#akamai}
 
-[!DNL Audience Manager] uses [Akamai](https://www.akamai.com/us/en/about/) to host and deliver container code from our own tag management platform known as [!UICONTROL TIM (Tag Insertion Manager)]. However, code deployment with [!UICONTROL TIM] has been phased out in favor of [!DNL Adobe Experience Platform Launch].
+[!DNL Audience Manager] uses [Akamai](https://www.akamai.com/us/en/about/) to host and deliver container code from our own tag management platform known as [!UICONTROL TIM (Tag Insertion Manager)]. However, code deployment with [!UICONTROL TIM] has been phased out in favor of [!DNL Adobe Experience Platform Tags].
 
 ## Control Database {#control-database}
 

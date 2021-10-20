@@ -15,7 +15,7 @@ Follow the steps in this tutorial to forward [!DNL Analytics] data to [!DNL Audi
 
 >[!TIP]
 >
->We recommend you use [!DNL Adobe Experience Platform Launch] to forward [!UICONTROL Analytics] data into [!DNL Audience Manager]. By using [!UICONTROL Launch], you do not have to manually copy code into [!DNL AppMeasurement], as shown on this page.
+>We recommend you use [!DNL Adobe Experience Platform Tags] to forward [!UICONTROL Analytics] data into [!DNL Audience Manager]. By using [!UICONTROL Tags], you do not have to manually copy code into [!DNL AppMeasurement], as shown on this page.
 
 ## Prerequisites {#prereqs}
 
@@ -28,9 +28,9 @@ In addition to enabling the extensions or implementing the code described in thi
 
 There are two methods to implement data forwarding from [!DNL Adobe Analytics] to [!DNL Audience Manager], depending on the tag management solution that you use.
 
-### Implementation using [!DNL Adobe Experience Platform Launch]
+### Implementation using [!DNL Adobe Experience Platform Tags]
 
-[!DNL Adobe] recommends you use the [Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=en) extension to instrument [!DNL Adobe Analytics] and [!DNL Audience Manager] on your properties. In this case, you do not need to manually copy any code. Instead, you must enable data sharing in the [!DNL Analytics Launch] extension, as shown in the image below. See also the [Adobe Analytics Extension](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html#adobe-audience-manager) documentation.
+[!DNL Adobe] recommends you use the [Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en) extension to instrument [!DNL Adobe Analytics] and [!DNL Audience Manager] on your properties. In this case, you do not need to manually copy any code. Instead, you must enable data sharing in the [!DNL Analytics] extension, as shown in the image below. See also the [Adobe Analytics Extension](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html#adobe-audience-manager) documentation.
 
 >[!TIP]
 >
