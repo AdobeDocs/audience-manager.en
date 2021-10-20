@@ -17,7 +17,7 @@ Overview, getting started, and code methods available in the [!DNL Audience Mana
 >
 >Starting with version 8.0 (released August 2018), [!UICONTROL DIL] has a hard dependency on the [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html), version 3.3 or higher. It relies on the [!DNL ID Service] to fire ID syncs and URL destinations. An error occurs if the [!DNL ID Service] is missing, old, or not configured. 
 >
->We recommend you use [!DNL Adobe Experience Platform Launch] to implement and manage your [!DNL DIL] and [!DNL Adobe Experience Platform Identity Service] libraries.
+>We recommend you use [!DNL Adobe Experience Platform Tags] to implement and manage your [!DNL DIL] and [!DNL Adobe Experience Platform Identity Service] libraries.
 
 However, you can also download the latest Experience Cloud and [!DNL DIL] releases from our GitHub page. See download links below:
 
@@ -35,7 +35,7 @@ However, you can also download the latest Experience Cloud and [!DNL DIL] releas
 
 [!UICONTROL DIL] code is available for download **[here](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. Please note that starting with version 8.0 (released August 2018), [!UICONTROL DIL] has a hard dependency on the [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html), version 3.3 or higher. It relies on the [!DNL ID Service] to fire ID syncs and [!DNL URL destinations]. An error occurs if the [!DNL ID Service] is missing, old, or not configured.
 
-Rather than work with [!UICONTROL DIL] and set up [!DNL Audience Manager] manually, we recommend that you use [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html) instead. [!DNL Adobe Experience Platform Launch] is the recommended implementation tool because it simplifies code deployment, placement, and version management. Read more about the [Audience Manager extension](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/audience-manager/overview.html) in [!DNL Adobe Experience Platform Launch].
+Rather than work with [!UICONTROL DIL] and set up [!DNL Audience Manager] manually, we recommend that you use [Adobe Experience Platform Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) instead. [!DNL Adobe Experience Platform Tags] is the recommended implementation tool because it simplifies code deployment, placement, and version management. Read more about the [Audience Manager extension](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html) in [!DNL Adobe Experience Platform Tags].
 
 ## Sample Call {#sample-code}
 
