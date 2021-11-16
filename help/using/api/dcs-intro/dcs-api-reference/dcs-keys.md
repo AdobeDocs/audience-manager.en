@@ -182,3 +182,16 @@ All of these are optional, unless you want a response from the [!DNL DCS]. If yo
   </tr>
  </tbody>
 </table>
+
+## h_ Attributes
+
+These headers contain information like requests for data and responses in an HTTP call.
+
+| Attribute | Description |
+| --- | --- | 
+| `h_host` | This is set to the client's specific data collection host name. It appears as `host name .demdex.net`. See [Understanding Calls to the Demdex Domain](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=en).|
+| `h_user-agent` | Set to the `User-Agent` header value.|
+| `h_accept-language`  | Set to the  `Accept-Language`  header value.|
+|  `h_referer`  | Set to the `Referer` header value.|
+| `h_referrer`  | Set to the `Referrer` header value.|
+| `h_date` | Set to the `Date` header value.|
