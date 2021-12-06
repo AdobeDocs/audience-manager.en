@@ -15,7 +15,7 @@ The beta environment is for testing your Audience Manager implementation. Change
 
 ## Overview
 
-The functionality in the beta environment is an exact replica of the production environment, without any experimental or unreleased features. Your login credentials from the production environment are valid in the beta environment.
+The functionality in the bveta environment is an exact replica of the production environment, without any experimental or unreleased features. Your login credentials from the production environment are valid in the beta environment.
 
 **Update Schedule**
 
@@ -25,7 +25,15 @@ The beta environment is updated at the end of each month during off-peak hours.
 >
 >Note that your customer data ([signals, traits, and segments](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=en)) is not synced between the production and beta environments.
 
-**Outbound Traffic**
+## Inbound Traffic
+
+The beta environment supports inbound traffic only for file name and content syntax validation purposes. Since there is no ID mapping taking place on the beta environment, customers will not see any segment populations.
+
+Consequently, the [!UICONTROL Onboarding Status] page will always report [!UICONTROL No matching AAM ID] upon file ingestion on the beta environment.
+
+We advise all customers to perform any inbound testing on their production environment.
+
+## Outbound Traffic
 
 Outbound traffic is not enabled for the beta environment.
 
