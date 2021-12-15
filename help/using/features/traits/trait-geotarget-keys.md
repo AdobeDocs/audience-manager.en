@@ -24,7 +24,7 @@ For some platform-level keys, you can specify the value yourself. With others, t
 
 ## User Defined Platform-Level Keys {#user-defined-keys}
 
-You specify the value when building traits with these key-value pairs:  
+If you already have, or are establishing, a process to define & collect key/value pairs, then utilize this option. If you want to use keys pre-defined by IP address, continue to the next section. In the case of user-defined keys, you specify the value when building traits with these key-value pairs:  
 
 |  Key  | For Targeting  |
 |---|---|
