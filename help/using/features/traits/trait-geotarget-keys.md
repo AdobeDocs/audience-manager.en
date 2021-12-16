@@ -18,19 +18,19 @@ Describes the common platform-level key-value pairs you can use to target users 
 
 Platform-level variables let you take data passed in from a particular site and make it available for targeting across all the properties in your [!DNL Audience Manager] account. These variables are formed by [key-value pairs](../../reference/key-value-pairs-explained.md) with the key prefixed by `d_` as shown below.
 
-## Adding Values to Platform Level Keys {#adding-values}
+## Adding Values to Platform-level Keys {#adding-values}
 
 For some platform-level keys, you can specify the value yourself. With others, the keys are associated with corresponding [!DNL IP] addresses passed in on an event call. In either case, you still need to specify the value when building traits in [!UICONTROL Trait Builder].
 
-## User Defined Platform-Level Keys {#user-defined-keys}
+## User-defined Platform-level Keys {#user-defined-keys}
 
-You specify the value when building traits with these key-value pairs:  
+If you already have, or are establishing, a process to define and collect key-value pairs, then utilize this option. If you want to use keys pre-defined by IP address, continue to the next section. In the case of user-defined keys, you specify the value when building traits with these key-value pairs:  
 
 |  Key  | For Targeting  |
 |---|---|
 | `d_zx`  |ZIP code (e.g., `d_zx=10022`).  |
 
-## Platform Level Keys Defined by IP Address {#keys-ip-address}
+## Platform-level Keys Defined by IP Address {#keys-ip-address}
 
 We work with [Digital Envoy](https://www.digitalenvoy.com/) to obtain and update the demographic and geographic data for the keys below. The values for these keys are determined by matching [!DNL IP] addresses to corresponding geographic and demographic data. However, you'll still have to enter the value parameter when creating the key-value pair in [!UICONTROL Trait Builder].
 
