@@ -115,7 +115,7 @@ Read below for a description of what each [!UICONTROL wildcard permission] means
 
 **[!UICONTROL Reports]**
 
-* `PTRREPORTS` - This [!UICONTROL wildcard permission] refers to outdated functionality and will be removed from the Audience Manager user interface shortly.
+* `PTRREPORTS` - This [!UICONTROL wildcard permission] refers to outdated functionality and has been removed from the Audience Manager user interface.
 
 **[!UICONTROL Models]**
 
