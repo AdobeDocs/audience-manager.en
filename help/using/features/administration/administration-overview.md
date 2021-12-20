@@ -113,10 +113,6 @@ Read below for a description of what each [!UICONTROL wildcard permission] means
 * `MAP_ALL_TO_SEGMENTS` - Users can add any of the [!UICONTROL traits] belonging to their company to [!UICONTROL segments].
 * `CREATE_ALL_TRAITS` - Users can create [!UICONTROL traits].
 
-**[!UICONTROL Reports]**
-
-* `PTRREPORTS` - This [!UICONTROL wildcard permission] refers to outdated functionality and has been removed from the Audience Manager user interface.
-
 **[!UICONTROL Models]**
 
 * `VIEW_MODELS` - Users have permission to view [!UICONTROL models] belonging to their company.
