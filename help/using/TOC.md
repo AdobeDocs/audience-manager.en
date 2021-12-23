@@ -333,7 +333,7 @@ feature-set: Audience Manager
         + [Custom Partner Integrations](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
     + Integration with Adobe Experience Platform {#integration-experience-platform}
       + [Experience Platform segment sharing with Audience Manager and other Experience Cloud solutions](integration/integration-aep/aam-aep-audience-sharing.md)
-    + Integration with Other Experience Cloud Solutions {#integration-other-solutions}
+    + Integration with Other Experience Cloud Applications {#integration-other-solutions}
       + [Integrate Audience Manager with Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
       + [How to Forward Data from Adobe Analytics to Audience Manager](integration/integration-other-solutions/audience-management-module.md)
       + [Publish an Adobe Analytics Segment to the Experience Cloud (opens Adobe Analytics documentation)](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html)
