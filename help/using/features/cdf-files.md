@@ -139,12 +139,11 @@ Lists and defines the data structure of a [!UICONTROL CDF] file. This includes d
       <li id="li_B9DA15DCB6A445D781B8753C1C4262B0">Ctrl + a (ASCII <code> 001</code> or <code> ^A</code>) separates data in individual fields with a non-printing space indicator. </li> 
       <li id="li_E68D0CC065B34AC9AF91F166CAA2A67C">Ctrl + b (ASCII <code> 002</code> or <code> ^B</code>) separates data an array and request parameters. </li> 
       <li id="li_6C32D927FEF04CDE9887374E8C2688E7">Ctrl + c (ASCII <code> 003</code> or <code> ^C</code>) defines key-value pairs. </li> 
-      <li> New line separator (/N)</li>
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Field Sequence </p> </td> 
-   <td colname="col2"> <p> <p>Important: <span class="keyword"> Audience Manager</span> reserves the right to add new fields to the end of the CDF file in future releases. This means the technical design of your file parsing system should not assume a fixed number of columns (though it may assume a fixed order for existing columns). </p> </p> <p>Data in your CDF file appears in the order shown below. </p> <p> 
+   <td colname="col2"> <p> <p>Important: <span class="keyword"> Audience Manager</span> reserves the right to add new fields to the end of the CDF file in future releases. This means the technical design of your file parsing system should not assume a fixed number of columns (though it may assume a fixed order for existing columns).</p> </p> <p>Data in your CDF file appears in the order shown below. /N may appear in place of any of these fields, indicating a null value.</p> <p> 
      <ol id="ol_1FDF4A7F089448ED8A724378C23009C8"> 
       <li id="li_CB97D90B54EB4F95861583D4A5F660C7">Event Time </li> 
       <li id="li_C44E8CCB1A964B7A941FD772FB8A7608">Device </li> 
