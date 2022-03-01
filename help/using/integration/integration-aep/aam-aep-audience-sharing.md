@@ -146,11 +146,15 @@ Segment population numbers can vary between your Audience Manager and Experience
 
 ### Segment evaluation in Experience Platform
 
-Audience Manager updates reporting numbers in the interface once per day.   The timing of this update rarely aligns with the time of the segment evaluation in Experience Platform.
+Audience Manager updates reporting numbers in the interface once per day. The timing of this update rarely aligns with the time of the segment evaluation in Experience Platform.
 
 ### Differences between Profile Merge Rules and Merge Policies
 
 [[!UICONTROL Profile Merge Rules]](/help/using/features/profile-merge-rules/merge-rules-overview.md) in Audience Manager and [[!UICONTROL Merge Policies]](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/merge-policies.html) in Experience Platform work differently, and the identity graph used for each varies. Because of this, some differences between segment populations are expected.
+
+>[!NOTE]
+>
+> When sharing segments from Experience Platform to Audience Manager, your Platform organization [default merge policy](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=en#default-merge-policy) takes precedence over the [merge policy used by the segment](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#merge-policies) shared with Audience Manager. For example, if the shared segment's merge policy allows for [ID stitching](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=en#configure), but the organization's default merge policy does not, this might result in population differences between Platform and Audience Manager.
 
 ### Segment composition in Experience Platform
 
