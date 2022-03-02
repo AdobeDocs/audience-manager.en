@@ -1,6 +1,6 @@
 ---
-description: Describes the components of an Audience Manager segment, the expressions used to set audience qualification criteria, and how data is transmitted in an event call.
-landing-page-description: Describes components of a segment, expressions used to set audience qualification criteria, and how data is transmitted.
+description: Learn about the components of a segment and the expressions used to set audience qualification criteria. Also find information about how data is transmitted.
+landing-page-description: Learn about the components of a segment and the expressions used to set audience qualification criteria. Also find information about how data is transmitted.
 seo-title: Signals, Traits, and Segments
 solution: Audience Manager
 title: Signals, Traits, and Segments

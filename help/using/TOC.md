@@ -3,7 +3,7 @@ product: audience manager
 solution: Audience Manager
 audience: end-user
 user-guide-title: Audience Manager User Guide
-user-guide-description: Learn how Audience Manager enables you to collect commercially relevant information about site visitors, create marketable segments, and serve targeted advertising and content to the right audience.
+user-guide-description: Learn how to use Adobe Audience Manager to collect commercially relevant information about site visitors and create marketable segments. You can also find details about how to serve targeted advertising and content to the right audience.
 feature-set: Audience Manager
 ---
 
