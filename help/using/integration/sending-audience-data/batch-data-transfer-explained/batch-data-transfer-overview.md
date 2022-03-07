@@ -44,35 +44,12 @@ When you bring offline data online, you can still use this information for offli
 
 [!DNL Audience Manager] provides the following environments for file drop-off:
 
-<table id="table_A61AA64578944B23B5A7355F2A76E882"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Environment </th> 
-   <th colname="col02" class="entry"> Service </th> 
-   <th colname="col2" class="entry"> Location </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1" morerows="1"> <b>Production</b> </td> 
-   <td colname="col02"> FTP </td> 
-   <td colname="col2"> <p> <code> ftp-in.demdex.com</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col02"> S3 </td> 
-   <td colname="col2"> <p> <code> demdex-s2s-clients</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1" morerows="1"> <b>Beta Environment</b> </td> 
-   <td colname="col02"> FTP </td> 
-   <td colname="col2"> <p><code> sandbox-ftp-in.demdex.com</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col02"> S3 </td> 
-   <td colname="col2"> <p> <code> demdex-s2s-clients-sandbox-us-east-1</code> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+|Environment | Service | Location|
+|---------|----------|---------|
+| Production | <ul><li>Amazon S3</li><li>FTP</li></ul> | <ul><li>demdex-s2s-clients</li><li>ftp-in.demdex.com</li></ul> |
+| Beta environment | <ul><li>Amazon S3</li><li>FTP</li></ul> | <ul><li>demdex-s2s-clients-sandbox-us-east-1</li><li>sandbox-ftp-in.demdex.com</li></ul> |
+
+{style="table-layout:auto"}
 
 ## Further Technical Reading
 
