@@ -66,7 +66,7 @@ The table defines the elements in an [!DNL S3] file name.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>_DPID_TARGET_DATA_OWNER</i> </code> </p> </td> 
-   <td colname="col2"> <p>This field tells Audience Manager which data source to onboard data to. This field is mandatory if you set the DPID to an Android ID or iOS ID or another ID belonging to global data sources. This lets <span class="keyword"> Audience Manager</span> link the file data back to your organization. </p> <p>For example: </p> 
+   <td colname="col2"> <p>This field tells Audience Manager which data source to onboard data to. This field is mandatory if you set the DPID to an Android ID or iOS ID or another ID belonging to global data sources. This lets Audience Manager link the file data back to your organization. <br> This target data source needs to be owned by your company. For second-party data sharing purposes, in order to ingest data into a target data source belonging to another company, you must have an access mapping between your company and the target data source. Contact your Adobe consultant or Customer Support in order to setup the mapping.</p> <p>For example: </p> 
     <ul> 
      <li> <code>...ftp_dpm_33_21_1234567890.sync</code> tells Audience Manager that you're qualifying customer IDs belonging to data source 33 for traits or signals belonging to data source 21. </li> 
      <li> <b>Android IDs (GAID):</b> <code>...ftp_dpm_20914_21_1234567890.sync</code> tells <span class="keyword"> Audience Manager</span> that the data file contains Android IDs only and the IDs should qualify for the traits belonging to data source 21.</li> 
