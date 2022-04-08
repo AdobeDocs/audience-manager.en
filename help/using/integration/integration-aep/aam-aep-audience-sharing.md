@@ -16,7 +16,7 @@ exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
 
 The audience sharing functionality between Audience Manager and Adobe Experience Platform allows you to share your Audience Manager traits and segments to Adobe Experience Platform and vice-versa. You need the [[!DNL Audience Manager Connector]](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html) to enable audience sharing between Audience Manager and Adobe Experience Platform.
 
-You can use Audience Manager traits and segments in Experience Platform to add Audience Manager data to your customer profiles and to benefit from the Experience Platform [segmentation service](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md). 
+You can use Audience Manager traits and segments in Experience Platform to add Audience Manager data to your customer profiles and to benefit from the Experience Platform [segmentation service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en). 
 
 In Audience Manager, you can use Experience Platform segments for Data Management Platform use cases, such as:
 * Add [third party data](/help/using/overview/data-types-collected.md#third-party-data) to your segments;
