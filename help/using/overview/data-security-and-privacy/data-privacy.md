@@ -37,11 +37,11 @@ See the [Adobe Privacy Center](https://www.adobe.com/privacy/opt-out.html) for m
 
 ## Regulations Compliance {#compliance}
 
-[!DNL Audience Manager] helps you comply with your obligations under certain privacy regulations, through privacy tools like the [Adobe Experience Platform Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) for data access and delete requests.
+[!DNL Audience Manager] helps you comply with your obligations under certain privacy regulations, through privacy tools like the [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en) for data access and delete requests.
 
-This service provides a [!DNL RESTful API] and user interface to help you manage consumer data requests. Using the [Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html), you can submit requests to access and delete personal data, based on an individual consumer’s request, helping to automate this portion of your compliance obligations.
+This service provides a [!DNL RESTful API] and user interface to help you manage consumer data requests. Using the [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en), you can submit requests to access and delete personal data, based on an individual consumer’s request, helping to automate this portion of your compliance obligations.
 
-While data access and deletion requests are handled through the [Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html), [opt-out requests](data-privacy-requests.md#opt-out-requests) are currently supported through the [DCS API](../../api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md). See [Data Privacy Requests](data-privacy-requests.md) for details.
+While data access and deletion requests are handled through the Privacy Service, [opt-out requests](data-privacy-requests.md#opt-out-requests) are currently supported through the [DCS API](../../api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md). See [Data Privacy Requests](data-privacy-requests.md) for details.
 
 ## Related concepts {#related-concepts}
 

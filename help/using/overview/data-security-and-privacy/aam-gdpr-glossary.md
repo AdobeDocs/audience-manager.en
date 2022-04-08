@@ -16,7 +16,7 @@ This article explains the concepts and terminology used by the European General 
 
 GDPR came into effect on May 25, 2018 with primary objectives of giving individuals in the EU (Data Subjects) more control of their personal data while simplifying the regulatory environment for international businesses by better unifying regulation within the EU. As part of Adobe's GDPR readiness, the Adobe Audience Manager team has enhanced services and processes as necessary to support access and delete requests from Data Subjects, your consumers.
 
-Make sure you also read the [Experience Cloud GDPR FAQ.](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/gdpr-faq.md) for a better understanding of how GDPR works in Experience Cloud.
+Make sure you also read about GDPR in the [Privacy regulations overview](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=en) for a better understanding of how GDPR works in Experience Cloud.
 
 ## GDPR Glossary {#gdpr-glossay}
 
@@ -52,7 +52,7 @@ Get familiar with key terms used related to GDPR. We’ve highlighted some of th
 
 &nbsp;
 
-**Audience Manager Identifiers (IDs):** Adobe Audience Manager stores various types of IDs. The [Audience Manager Identifiers](data-privacy-ids.md) page provides a summary of these IDs, their corresponding data sources, and brief descriptions. When sending requests to the [Adobe Experience Platform Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html), reference these IDs to make delete or access requests for your data subjects.
+**Audience Manager Identifiers (IDs):** Adobe Audience Manager stores various types of IDs. The [Audience Manager Identifiers](data-privacy-ids.md) page provides a summary of these IDs, their corresponding data sources, and brief descriptions. When sending requests to the [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en), reference these IDs to make delete or access requests for your data subjects.
 
 &nbsp;
 

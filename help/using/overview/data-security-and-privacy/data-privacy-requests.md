@@ -26,11 +26,11 @@ You can submit individual requests to access and delete consumer data from [!DNL
 
 When sending individual data privacy requests, you can submit any [!DNL Audience Manager] identifiers (IDs), as described in the **[Audience Manager Identifiers](data-privacy-ids.md)** section, along with their respective namespace IDs (data source IDs).
 
-The [Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) supports two types of requests: data access and data deletion requests.
+The [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en) supports two types of requests: data access and data deletion requests.
 
 ## Data Access Requests {#access-data}
 
-You can send individual data access requests through the [Privacy Service UI](https://privacyui.cloud.adobe.io) (documentation [here](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)) or by calling the Privacy Service API (documentation [here](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) and [!DNL API] reference [here](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)).
+You can send individual data access requests through the [Privacy Service UI](https://privacyui.cloud.adobe.io) (documentation [here](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=en) or by calling the Privacy Service API (documentation [here](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) and [!DNL API] reference [here](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
 
 The [Privacy Service UI](https://privacyui.cloud.adobe.io/) allows you to create new job requests either by using the [!UICONTROL Request Builder] or by uploading a [!DNL JSON] file.
 
@@ -40,7 +40,7 @@ We understand your commitment to honoring your data privacy requests within the 
 
 ## Data Deletion Requests {#delete-data}
 
-You can send data deletion requests through the [Privacy Service UI](https://privacyui.cloud.adobe.io) (documentation [here](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)) or by calling the Privacy Service API (documentation [here](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) and [!DNL API] reference [here](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)).
+You can send data deletion requests through the [Privacy Service UI](https://privacyui.cloud.adobe.io) (documentation [here](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=en) or by calling the Privacy Service API (documentation [here](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) and [!DNL API] reference [here](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
 
 The [Privacy Service UI](https://privacyui.cloud.adobe.io/) allows you to create new job requests either by using the [!UICONTROL Request Builder] or by uploading a [!DNL JSON] file.
 
@@ -59,13 +59,13 @@ When you send declared IDs, such as cross device [!DNL CRM] IDs or [!DNL cookie]
 
 In those cases, you are not able to send delete requests to activation partners in an automated way through [!DNL Audience Manager].
 
-Download our [Partner Excel sheet](assets/AAM-Partners-October2019.xlsx) to see which [!DNL Audience Manager] activation partners support unsegment.
+Refer to our [device-based destinations list documentation](assets/AAM-Partners-October2019.xlsx) to see which [!DNL Audience Manager] activation partners support unsegment.
 
 ## Opt-out Requests {#opt-out-requests}
 
 [!DNL Audience Manager] supports industry-wide standards with regard to opt-out management. Read on for complete information on the types of opt-out supported by [!DNL Audience Manager].
 
-While data access and deletion requests are handled through the [Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html), opt-out requests are currently supported through the [!DNL DCS API]. Read on to learn what the opt-out [!DNL API] calls should look like.
+While data access and deletion requests are handled through the [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en), opt-out requests are currently supported through the [!DNL DCS API]. Read on to learn what the opt-out [!DNL API] calls should look like.
 
 ### Global Opt-out Requests
 
