@@ -22,7 +22,7 @@ Before reading this article, we recommend going through the [GDPR Glossary](../d
 You can submit individual requests to access and delete consumer data from [!DNL Audience Manager], in two ways:
 
 * Through the [Privacy Service UI](https://privacyui.cloud.adobe.io/). See the documentation [here](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md).
-* Through the  **[!DNL Privacy Service API]**. See the documentation [here](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md) and the [!DNL API] reference [here](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml).
+* Through the  **[!DNL Privacy Service API]**. See the documentation [here](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) and the [!DNL API] reference [here](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
 
 When sending individual data privacy requests, you can submit any [!DNL Audience Manager] identifiers (IDs), as described in the **[Audience Manager Identifiers](data-privacy-ids.md)** section, along with their respective namespace IDs (data source IDs).
 
