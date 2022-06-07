@@ -13,7 +13,7 @@ This page illustrates the process of creating [!DNL Facebook Website Custom Audi
 
 ## Overview {#overview}
 
-[Facebook Website Custom Audiences (WCA)](https://www.facebook.com/business/help/449542958510885) allows you to create a list of people who have visited certain pages or taken particular actions on your website. [!DNL Audience Manager] enables activation in [!DNL WCA] using [!DNL URL] destinations, with which you can configure a custom pixel-based integration to send web-based audiences to [!DNL Facebook] for targeting.
+[Facebook Website Custom Audiences (WCA)](https://www.facebook.com/business/help/610516375684216?id=2469097953376494) allows you to create a list of people who have visited certain pages or taken particular actions on your website. [!DNL Audience Manager] enables activation in [!DNL WCA] using [!DNL URL] destinations, with which you can configure a custom pixel-based integration to send web-based audiences to [!DNL Facebook] for targeting.
 
 ![Facebook WCA Integration](/help/using/integration/assets/facebook-wca-integration.png)
 
