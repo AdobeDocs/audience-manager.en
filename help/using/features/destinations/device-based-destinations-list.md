@@ -40,7 +40,7 @@ This page includes current [!DNL Audience Manager] [device-based destinations](/
 | [!DNL Amazon Advertising]                                | 15/06/2017 | 1xday     | Yes       | No                                | No   | No                |
 | [!DNL AOL AdLearn]                                       | 02/03/2017 | Real-time | No        | No                                | No   | Yes               |
 | [!DNL AOL ONE]                                           | 02/03/2017 | Real-time | Yes       | No                                | No   | Yes               |
-| [!DNL AppNexus]                                          | 02/03/2017 | Real-time | Yes       | No                                | Yes  | No                |
+| [!DNL AppNexus]                                          | 02/03/2017 | Real-time | Yes       | No                                | Yes  | Yes                |
 | [!DNL AppNexus Yieldex]                                  | 10/08/2017 | 1xday     | Yes       | No                                | No   | No                |
 | [!DNL Artsai] (formerly [!DNL Adxcel])                   | 27/01/2020 | 1xday     | No        | No                                | No   | Yes               |
 | [!DNL Atedra]/[!DNL AdStanding]                          | 02/03/2017 | Real-time | Yes       | No                                | Yes  | No                |
