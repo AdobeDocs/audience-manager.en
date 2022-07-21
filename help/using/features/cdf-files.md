@@ -277,7 +277,7 @@ Each `.info` file contains a `Files` and `Totals` section. The `Files` section c
 
 ## Info File Fields Defined {#info-file-fields-defined}
 
-The following tables list and define the elements in a [!UICONTROL CDF] `.info` file.
+The following tables list and define the elements in a [!UICONTROL CDF] `.info` file. It's important to note that event pixels are excluded by default in CDF configuration. Ensure you specify in your request to client care if you would like event pixels to be included in your CDF files. 
 
 ### Files Object
 
