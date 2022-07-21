@@ -39,7 +39,11 @@ The sections below and the [Customer Data Feed FAQ](../faq/faq-cdf.md) can help 
 
 ## [!UICONTROL Customer Data Feed] Contents Defined {#cdf-defined}
 
-Lists and defines the data elements and arrays in a [!UICONTROL CDF] file, by order of appearance. Definitions include data types, but this information is not part of a [!UICONTROL CDF] file. It's important to note that event pixels are excluded by default in CDF configuration. Ensure you specify in your request to client care if you would like event pixels to be included in your CDF files. 
+Lists and defines the data elements and arrays in a [!UICONTROL CDF] file, by order of appearance. Definitions include data types, but this information is not part of a [!UICONTROL CDF] file. 
+
+>[!IMPORTANT]
+>
+>Event pixels are excluded by default in CDF configurations. Ensure that you specify in your request to client care if you would like event pixels to be included in your CDF files.
 
 ## Definitions {#definitions}
 
