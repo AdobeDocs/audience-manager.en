@@ -39,11 +39,11 @@ The sections below and the [Customer Data Feed FAQ](../faq/faq-cdf.md) can help 
 
 ## [!UICONTROL Customer Data Feed] Contents Defined {#cdf-defined}
 
-Lists and defines the data elements and arrays in a [!UICONTROL CDF] file, by order of appearance. Definitions include data types, but this information is not part of a [!UICONTROL CDF] file.
+Lists and defines the data elements and arrays in a [!UICONTROL CDF] file, by order of appearance. Definitions include data types, but this information is not part of a [!UICONTROL CDF] file. It's important to note that event pixels are excluded by default in CDF configuration. Ensure you specify in your request to client care if you would like event pixels to be included in your CDF files. 
 
 ## Definitions {#definitions}
 
-A [!UICONTROL CDF] file includes some or all of the fields defined below. For information about internal file organization, see [Customer Data Feed File Structure](#cdf-file-structure).
+A [!UICONTROL CDF] file includes some or all of the fields defined below. For information about internal file organization, see [Customer Data Feed File Structure](#cdf-file-structure). 
 
 <table id="table_46BC897A30C2469AB5911F5B85A3FAA7"> 
  <thead> 
@@ -277,7 +277,7 @@ Each `.info` file contains a `Files` and `Totals` section. The `Files` section c
 
 ## Info File Fields Defined {#info-file-fields-defined}
 
-The following tables list and define the elements in a [!UICONTROL CDF] `.info` file. It's important to note that event pixels are excluded by default in CDF configuration. Ensure you specify in your request to client care if you would like event pixels to be included in your CDF files. 
+The following tables list and define the elements in a [!UICONTROL CDF] `.info` file. 
 
 ### Files Object
 
