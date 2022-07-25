@@ -73,16 +73,10 @@ When mapping audience segments to [!UICONTROL Twitter], make sure to meet the fo
 
 ## Troubleshooting {#troubleshooting}
 
-When configuring or sending data to the Twitter Custom Audiences destination, you might run into the errors described below. This section explains what may cause the errors and 
-how to fix them.
+When configuring or sending data to the Twitter Custom Audiences destination, you might run into the errors described below. This section explains what may cause the errors and how to fix them.
 
 |Error message|Occurrence / Reason|Resolution|
 |---|---|---|
 |`Internal server error`|This error message is displayed in the Audience Manager UI when trying to add a new [!DNL Twitter] account using an outdated version of the Twitter API.|Contact Adobe Customer Care.|
 |`Twitter Error: This request is not properly authenticated`|This error message is displayed in the Audience Manager UI when trying to map segments with unsupported segment names to the destination.|Review the mapped segment names and make sure they do not contain unsupported characters. See [segment mapping considerations](#segment-mapping-considerations) for the list of unsupported characters. |
 |`Twitter Error: Account XXXXXXXXX was not found`|This error message is displayed in the Audience Manager UI when the credentials configured for the destination are not authorized to access the corresponding Twitter Ads account.|<ul><li>Make sure the account credentials that you are using meet the [prerequisites](#prerequisites).</li><li>Navigate to the Twitter Ads UI using the same credentials and check if the correct audiences are displayed under the corresponding `XXXXXXXXX` account. </li></ul>|
-
-
-### Unable to add a new Twitter account
-
-When adding a new Twitter account, you might run into an error 
