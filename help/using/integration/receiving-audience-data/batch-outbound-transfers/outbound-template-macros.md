@@ -166,8 +166,9 @@ Macros used to format the contents of a data file. For code samples, see [Outbou
      <li id="li_1EF40DDCA3C5447586904CF021D8F912"> <code> csegid </code>: Customer segment ID. Deprecated. Use <code> sid </code>. </li> 
      <li id="li_D85F0A5D16AE4DAFB55C17DBB35EA66E"> <code> sid </code>: Segment ID </li> 
      <li id="li_9BE103EFD8384464B46FAC00422431DB"> <code> type </code>: Returns <code> 5 </code>, a static, hardcoded value that identifies data as segment data. </li> 
-     <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code> alias </code>: Deprecated. Do not use. </li> 
-     <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD27"> <code> lastUpdateTime </code>: A Unix time stamp that indicates the last time a segment was realized. </li> 
+     <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code> alias </code>: Deprecated. Do not use. </li>
+     <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD27"> <code> lastUpdateTime </code>: A Unix time stamp that indicates the last time segment membership status was updated. </li>
+     <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD28"> <code> lastRealizationTime </code>: A Unix time stamp that indicates the last time a segment was realized. </li>
     </ul> <p>Put these variables in curly brackets after the macro. For example, this code separates results with a pipe "|" character: <code> &lt;SEGMENT_LIST:{seg|&lt;seg.type&gt;,&lt;seg.sid&gt;}; separator=","&gt; </code> </p> </td> 
   </tr> 
   <tr> 

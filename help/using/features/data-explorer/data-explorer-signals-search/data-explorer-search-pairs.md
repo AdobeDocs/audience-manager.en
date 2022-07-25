@@ -7,7 +7,7 @@ uuid: 2a38d0d4-4a2e-4ca5-b9ec-af9d4963d876
 feature: Data Explorer
 exl-id: d598da6b-8dc0-47ce-8389-1973b1803711
 ---
-# Search Signals by Key-Value Pairs {#search-signals-by-key-value-pairs}
+# Search signals by key-value pairs {#search-signals-by-key-value-pairs}
 
 Search for one or multiple signals, based on their respective key-value pairs.
 To search for more than one signal, click the ![Add](assets/icon_add.png) button. Enter the key-value pairs that you want to search for, then use the following filters to narrow down your results.
@@ -30,13 +30,13 @@ This search will return only results that qualify for all three filters on the s
 
 ![](assets/signals-search.png)
 
-## Signals Excluded from Signal Search {#excluded-signals}
+## Signals excluded from signal search {#excluded-signals}
 
 Key variables used by Audience Manager and prefixed by the `d_` and `h_` prefixes are not surfaced by [!UICONTROL Signals Search]. See [Prefix Requirements for Key Variables](../../traits/trait-variable-prefixes.md) for details.
 
-## Case Insensitivity and Search Auto-Completion {#case-insensitivity}
+## Case sensitivity and search auto-completion {#case-insensitivity}
 
-The key and value search fields are case insensitive. The key search field includes auto-completed suggestions.
+The key and value search fields are case sensitive. The key search field includes auto-completed suggestions.
 
 ![](assets/signal-search-suggestions.png)
 
@@ -47,7 +47,8 @@ Let's say [!DNL Audience Manager] received the following signals:
 * `PRODUCT == phone`
 * `product == PHONE`
 
-When you enter `product` in the key search field, you receive auto-completed suggestions for `productCategory`, `newProduct`, `PRODUCT`, and `product`.
+When you enter `product` in the key search field, you receive auto-completed suggestions for `productCategory` and `product`.
 
-Similarly, when you search for `product == phone`, [!UICONTROL Data Explorer] returns results for both `PRODUCT == phone` and `product == PHONE`.
-Backfilled trait realizations are case insensitive. A trait containing the signal with the key-value pair `PRODUCT == SMARTPHONE` also qualifies the signal with the key-value pair `product == smartphone`.
+Similarly, when you search for `product == PHONE`, [!UICONTROL Data Explorer] returns results only for `product == PHONE`.
+
+Backfilled trait realizations are also case sensitive. A trait containing the signal with the key-value pair `PRODUCT == SMARTPHONE` does not qualify the signal with the key-value pair `product == smartphone`.
