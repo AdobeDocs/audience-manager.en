@@ -13,11 +13,11 @@ This article explains how to configure an integration with [Twitter Custom Audie
 
 ## Prerequisites {#prerequisites}
 
-Before you configure your [!DNL Twitter Custom Audiences] destination, make sure to review the following Twitter prerequisites that you need to meet.
+Before you configure your [!DNL Twitter Custom Audiences] destination, make sure you meet the following prerequisites.
 
-1. Your [!DNL Twitter Ads] account must be eligible for advertising. New [!DNL Twitter Ads] accounts are not eligible for advertising in the first 2 weeks after creating them.
-2. Your [!DNL Twitter] user account that you authorized access for in Audience Manager must have the [Partner audience manager](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) permission enabled.
-3. When creating the first [!DNL Twitter Custom Audiences] destination in your Audience Manager instance, please contact Adobe Consulting or Customer Care to enable the [!DNL Twitter] ID synchronization (Data Source ID = 1123) for your account. This is required for the correct synchronization between Audience Manager and [!DNL Twitter].
+* Your [!DNL Twitter Ads] account must be eligible for advertising. New [!DNL Twitter Ads] accounts are not eligible for advertising in the first 2 weeks after creating them.
+* Your [!DNL Twitter] user account that you authorized access for in Audience Manager must have the [Partner audience manager](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) permission enabled.
+* When creating the first [!DNL Twitter Custom Audiences] destination in your Audience Manager instance, please contact Adobe Consulting or Customer Care to enable the [!DNL Twitter] ID synchronization (Data Source ID = 1123) for your account. This is required for the correct synchronization between Audience Manager and [!DNL Twitter].
 
 ## Add a New [!DNL Twitter Custom Audiences] Destination {#add-new-twitter-destination}
 
@@ -70,3 +70,13 @@ When mapping audience segments to [!UICONTROL Twitter], make sure to meet the fo
 ## Match Rates Considerations {#match-rates-considerations}
 
 * The integration between Audience Manager and [!UICONTROL Twitter Custom Audiences] supports historical audience backfills. All segment qualifications get sent to [!UICONTROL Twitter] when you create the destination.
+
+## Troubleshooting {#troubleshooting}
+
+When configuring or sending data to the Twitter Custom Audiences destination, you might run into the errors described below. This section explains what may cause the errors and how to fix them.
+
+|Error message|Occurrence / Reason|Resolution|
+|---|---|---|
+|`Internal server error`|This error message is displayed in the Audience Manager UI when trying to add a new [!DNL Twitter] account using an outdated version of the Twitter API.|Contact Adobe Customer Care.|
+|`Twitter Error: This request is not properly authenticated`|This error message is displayed in the Audience Manager UI when trying to map segments with unsupported segment names to the destination.|Review the mapped segment names and make sure they do not contain unsupported characters. See [segment mapping considerations](#segment-mapping-considerations) for the list of unsupported characters. |
+|`Twitter Error: Account XXXXXXXXX was not found`|This error message is displayed in the Audience Manager UI when the credentials configured for the destination are not authorized to access the corresponding Twitter Ads account.|<ul><li>Make sure the account credentials that you are using meet the [prerequisites](#prerequisites).</li><li>Navigate to the Twitter Ads UI using the same credentials and check if the correct audiences are displayed under the corresponding `XXXXXXXXX` account. </li></ul>|
