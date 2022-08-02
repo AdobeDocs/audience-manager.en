@@ -83,7 +83,7 @@ Additionally, at least one export label must match an export control before data
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Cannot be used for off-site ad targeting</span></b> </td> 
    <td colname="col2"> <b><span class="uicontrol"> This destination may be used for off-site ad targeting</span></b> </td> 
-   <td colname="col3">These restrictions are used generally with When selected, you cannot: 
+   <td colname="col3">When selected, you cannot: 
     <ul id="ul_B9352FF5282C481BA3A24C581217A156"> 
      <li id="li_0F89583A603D4CD8804724954CFD52C6">Add traits to segments mapped to destinations that re-target users on other sites. </li> 
      <li id="li_ABDD8BEDE9AF411695C7BDF9AE522BA7">Map segments built with a trait from the data source to destinations that re-target users on other sites. </li> 
