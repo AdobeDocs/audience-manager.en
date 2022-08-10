@@ -75,7 +75,7 @@ A [!UICONTROL CDF] file includes some or all of the fields defined below. For in
   <tr> 
    <td colname="col1"> <p><code> Container ID</code> </p> </td> 
    <td colname="col2"> <p>Numeric </p> </td> 
-   <td colname="col3"> <p>The ID of the container that fires ID syncs. </p> </td> 
+   <td colname="col3"> <p>The ID of the container that fires ID syncs. This field only populates if you set the container ID in the d_nsid field within your site implementation. Otherwise, the default value of 0 will not be included in CDF files. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> Realized Traits</code> </p> </td> 
