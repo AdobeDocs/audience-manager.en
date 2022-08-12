@@ -39,6 +39,10 @@ To complete the [!UICONTROL Data Source Details] section:
     * **[!UICONTROL Device Advertising ID]**
     * **[!UICONTROL Cross-device]** (Required to create a [!UICONTROL Profile Merge Rule]). Note, for some customers, this selection exposes the **[!UICONTROL ID Definition]** options.
 
+    >[!NOTE]
+    >
+    >For each organization that is provisioned for Audience Manager and Experience Platform, even if you do not have segment sharing set up between the two apps, when you create a cross-device data source, a corresponding [identity namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#manage-namespaces) is created in Experience Platform.
+
 1. Choose an **[!UICONTROL ID Definition]** option. Options include:
 
     * **[!UICONTROL Person]**
