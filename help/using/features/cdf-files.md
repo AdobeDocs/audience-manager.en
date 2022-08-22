@@ -43,7 +43,7 @@ Lists and defines the data elements and arrays in a [!UICONTROL CDF] file, by or
 
 >[!IMPORTANT]
 >
->Event pixels are excluded by default in CDF configurations. Ensure that you specify in your request to client care if you would like event pixels to be included in your CDF files.
+>Event pixels are excluded by default in CDF configurations. Ensure that you specify in your request to client care if you desire event pixels to be included in your CDF files. Each event pixel will populate as a unique row in your CDF files. 
 
 ## Definitions {#definitions}
 
