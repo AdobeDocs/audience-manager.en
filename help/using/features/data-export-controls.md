@@ -23,7 +23,7 @@ Based on the classifications applied to a data source and destination, the expor
 
 * Adding a trait to a segment when the trait belongs to a data source that has a data export control that is incompatible with a data export label on one or more of the destinations that the segment is mapped to.
 For example, say a segment is mapped to a destination with the export label **[!DNL This destination may enable a combination with personally identifiable information (PII)]**. Export controls stop you from adding a trait to that segment if the data source that the trait belongs to has a data export control that says **[!DNL Cannot be tied to personally identifiable information (PII)]**. 
-* Sending any data to a destination destination has a data export label that is blocked by a data export control on any of:
+* Sending any data to a destination which has a data export label that is blocked by a data export control on any of:
   * The data source of an included trait;
   * The data source of a trait that is used in an included segment;
   * The profile merge rule leveraged by an included segment;
@@ -83,7 +83,7 @@ Additionally, at least one export label must match an export control before data
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Cannot be used for off-site ad targeting</span></b> </td> 
    <td colname="col2"> <b><span class="uicontrol"> This destination may be used for off-site ad targeting</span></b> </td> 
-   <td colname="col3">These restrictions are used generally with When selected, you cannot: 
+   <td colname="col3">When selected, you cannot: 
     <ul id="ul_B9352FF5282C481BA3A24C581217A156"> 
      <li id="li_0F89583A603D4CD8804724954CFD52C6">Add traits to segments mapped to destinations that re-target users on other sites. </li> 
      <li id="li_ABDD8BEDE9AF411695C7BDF9AE522BA7">Map segments built with a trait from the data source to destinations that re-target users on other sites. </li> 
