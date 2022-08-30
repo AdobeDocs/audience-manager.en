@@ -39,11 +39,15 @@ The sections below and the [Customer Data Feed FAQ](../faq/faq-cdf.md) can help 
 
 ## [!UICONTROL Customer Data Feed] Contents Defined {#cdf-defined}
 
-Lists and defines the data elements and arrays in a [!UICONTROL CDF] file, by order of appearance. Definitions include data types, but this information is not part of a [!UICONTROL CDF] file.
+Lists and defines the data elements and arrays in a [!UICONTROL CDF] file, by order of appearance. Definitions include data types, but this information is not part of a [!UICONTROL CDF] file. 
+
+>[!IMPORTANT]
+>
+>Event pixels are excluded by default in CDF configurations. Ensure that you specify in your request to client care if you desire event pixels to be included in your CDF files. Each event pixel will populate as a unique row in your CDF files. 
 
 ## Definitions {#definitions}
 
-A [!UICONTROL CDF] file includes some or all of the fields defined below. For information about internal file organization, see [Customer Data Feed File Structure](#cdf-file-structure).
+A [!UICONTROL CDF] file includes some or all of the fields defined below. For information about internal file organization, see [Customer Data Feed File Structure](#cdf-file-structure). 
 
 <table id="table_46BC897A30C2469AB5911F5B85A3FAA7"> 
  <thead> 
@@ -71,7 +75,7 @@ A [!UICONTROL CDF] file includes some or all of the fields defined below. For in
   <tr> 
    <td colname="col1"> <p><code> Container ID</code> </p> </td> 
    <td colname="col2"> <p>Numeric </p> </td> 
-   <td colname="col3"> <p>The ID of the container that fires ID syncs. </p> </td> 
+   <td colname="col3"> <p>The ID of the container that fires ID syncs. This field only populates if you set the container ID in the <i>d_nsid</i> field within your site implementation. Otherwise, the default value of 0 will not be included in CDF files. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> Realized Traits</code> </p> </td> 
@@ -277,7 +281,7 @@ Each `.info` file contains a `Files` and `Totals` section. The `Files` section c
 
 ## Info File Fields Defined {#info-file-fields-defined}
 
-The following tables list and define the elements in a [!UICONTROL CDF] `.info` file.
+The following tables list and define the elements in a [!UICONTROL CDF] `.info` file. 
 
 ### Files Object
 
