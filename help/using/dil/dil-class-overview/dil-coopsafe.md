@@ -7,6 +7,9 @@ title: isCoopSafe
 uuid: c5362a38-93c0-4edb-bdcb-106e43f33a92
 feature: DIL Implementation
 exl-id: 33dca495-6923-4966-9ec3-8b0fd2f17649
+hide: yes
+hidefromtoc: yes
+index: n
 ---
 # isCoopSafe{#iscoopsafe}
 

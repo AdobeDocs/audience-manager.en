@@ -25,13 +25,13 @@ A device graph is a set of ID mappings that defines groups of anonymous devices.
 
 **What is an external device graph?**
 
-An external device graph is any device graph in [!DNL Audience Manager] that has not been created exclusively from your own cross-device data sources. For example, when you create a [Profile Merge Rule](../features/profile-merge-rules/merge-rules-start.md) and choose the [!UICONTROL Co-op Device Graph] or third-party device graph options, you're working with an external device graph. See [Device Options](../features/profile-merge-rules/merge-rule-definitions.md#device-options).
+An external device graph is any device graph in [!DNL Audience Manager] that has not been created exclusively from your own cross-device data sources. For example, when you create a [Profile Merge Rule](../features/profile-merge-rules/merge-rules-start.md) and choose the third-party device graph options, you're working with an external device graph. See [Device Options](../features/profile-merge-rules/merge-rule-definitions.md#device-options).
 
 &nbsp;
 
 **What are some common use cases for using an external device graph in a [!UICONTROL Profile Merge Rule]?**
 
-The main objective of using a device graph in a [!UICONTROL Profile Merge Rule] is to evaluate and qualify multiple devices belonging to a single person or household for a specific segment. The segment itself may have multiple uses for example, targeting an audience of prospects with an ad served by a DSP or personalizing a customer’s on-site experience via an on-site personalization platform. See [External Device Graph Use Cases](../features/profile-merge-rules/external-graph-use-cases.md).
+The main objective of using a device graph in a [!UICONTROL Profile Merge Rule] is to evaluate and qualify multiple devices belonging to a single person or household for a specific segment. The segment itself may have multiple uses for example, targeting an audience of prospects with an ad served by a DSP or personalizing a customer's on-site experience via an on-site personalization platform. See [External Device Graph Use Cases](../features/profile-merge-rules/external-graph-use-cases.md).
 
 &nbsp;
 

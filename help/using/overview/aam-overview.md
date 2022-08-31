@@ -12,7 +12,7 @@ exl-id: e96d8c05-7082-4f17-936d-f1896e665c8e
 
 Audience Manager helps you bring your audience data assets together, making it easy to collect commercially relevant information about site visitors, create marketable segments, and serve targeted advertising and content to the right audience. Furthermore, Audience Manager offers easy tag deployment and management with robust data collection, control, and protection.
 
-With Audience Manager, you are not tied to a data seller, exchange, or demand-side platform. Additionally, Audience Manager is completely agnostic when it comes to our partners’ data assets. With access to multiple data sources, Audience Manager offers digital publishers the ability to use a wide variety of third-party data as well as our private data co-op. Talk to our Partner Solutions team about help with making smart and accurate decisions about your target audience.
+With Audience Manager, you are not tied to a data seller, exchange, or demand-side platform. Additionally, Audience Manager is completely agnostic when it comes to our partners' data assets. With access to multiple data sources, Audience Manager offers digital publishers the ability to use a wide variety of third-party data. Talk to our Partner Solutions team about help with making smart and accurate decisions about your target audience.
 
 ## Three functions of a Data Management Platform (DMP) {#dmp-three-functions}
 

@@ -93,7 +93,6 @@ To complete the [!UICONTROL Proflie Merge Rule Setup] section:
     * **[!UICONTROL No Device Profile]**
     * **[!UICONTROL Current Device Profile]**
     * **[!UICONTROL Profile Link Device Graph]**
-    * **[!UICONTROL Device Co-op]**
 4. Click **[!UICONTROL Save]**.
 
 ### Considerations for Adobe Campaign Destinations using Cross-Device IDs as User ID Keys {#considerations}

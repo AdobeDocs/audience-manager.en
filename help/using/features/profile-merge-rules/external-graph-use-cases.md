@@ -1,6 +1,6 @@
 ---
-description: Recommendations and use cases for prospecting, retargeting, and personalization for unknown users with an external device graph. An external device graph is defined as a device graph that is separate from Audience Manager. This includes the Adobe Experience Cloud Device Co-op and other integrations Adobe has with third-party deterministic or probabilistic device graph companies.
-seo-description: Recommendations and use cases for prospecting, retargeting, and personalization for unknown users with an external device graph. An external device graph is defined as a device graph that is separate from Audience Manager. This includes the Adobe Experience Cloud Device Co-op and other integrations Adobe has with third-party deterministic or probabilistic device graph companies.
+description: Recommendations and use cases for prospecting, retargeting, and personalization for unknown users with an external device graph. An external device graph is defined as a device graph that is separate from Audience Manager. This includes  integrations Adobe has with third-party deterministic or probabilistic device graph companies.
+seo-description: Recommendations and use cases for prospecting, retargeting, and personalization for unknown users with an external device graph. An external device graph is defined as a device graph that is separate from Audience Manager. This includes integrations Adobe has with third-party deterministic or probabilistic device graph companies.
 seo-title: External Device Graph Use Cases
 solution: Audience Manager
 title: External Device Graph Use Cases
@@ -10,14 +10,14 @@ exl-id: 657aecfd-7fa3-466e-8331-c49cc921e3a9
 ---
 # External Device Graph Use Cases {#external-device-graph-use-cases}
 
-Recommendations and use cases for prospecting, retargeting, and personalization for unknown users with an external device graph. An external device graph is defined as a device graph that is separate from Audience Manager. This includes the [!DNL Adobe Experience Cloud Device Co-op] and other integrations Adobe has with third-party deterministic or probabilistic device graph companies.
+Recommendations and use cases for prospecting, retargeting, and personalization for unknown users with an external device graph. An external device graph is defined as a device graph that is separate from Audience Manager. This includes integrations Adobe has with third-party deterministic or probabilistic device graph companies.
 
 ## Recommendations {#recommendations}
 
-Consider the [!DNL Experience Cloud Device Co-op] and third-party device graph options for campaigns that:
+Consider third-party device graph options for campaigns that:
 
 * Have a low level of authentication across their digital properties. Use the [!UICONTROL Profile Link Device Graph option] if you have a large number of authenticated users.
-* Target large audiences. The [!DNL Experience Cloud Device Co-op] and third-party device graphs contain authenticated and un-authenticated data.
+* Target large audiences. Third-party device graphs contain authenticated and un-authenticated data.
 * Segment authenticated and/or unauthenticated visitors at the individual and household level.
 
 ![](assets/merge-rule-triangle1.png)
@@ -90,13 +90,13 @@ These strategies are designed to bring an unauthenticated or unknown user back t
  </tbody>
 </table> -->
 
-## Expanded Device Targeting {#audience-expansion}
+<!-- ## Expanded Device Targeting {#audience-expansion}
 
-This use case exemplifies how you can expand the size of your addressable audience with accurate cross-device personalization, through the [!DNL Adobe Co-Op Device Graph] or other [!DNL External Device Graphs].
+This use case exemplifies how you can expand the size of your addressable audience with accurate cross-device personalization, through [!DNL External Device Graphs].
 
 Let's say Jane owns three devices that she uses regularly to search for holiday package deals: her laptop ([!DNL Device 1]), her smartphone ([!DNL Device 2]), and her tablet ([!DNL Device 3]). While using the laptop, Jane searched for flights, hotels, and guided tours. While using the smartphone and tablet, she only visited the homepage of the travel agency.
 
-By using the [!UICONTROL No Cross-Device Profile] + [!UICONTROL Adobe Co-op Device Graph] rule, the travel agency can merge all three devices profiles, since they are linked to the same owner through the [!UICONTROL Adobe Co-op Device Graph].
+By using the [!UICONTROL No Cross-Device Profile] + [!DNL External Device Graphs] rule, the travel agency can merge all three devices profiles, since they are linked to the same owner through the [!DNL External Device Graphs].
 
 ![audience-expansion-rule](assets/audience-expansion-rule.png)
 
@@ -104,19 +104,19 @@ In our example, the traits required to qualify for the segment have all been col
 
 Through this rule, the device graph has expanded the number of device profiles which qualify for the segment from one to three and has enabled the travel agency to deliver a consistent message to all three devices owned by Jane.
 
-![audience-expansion](assets/audience-expansion.png)
+![audience-expansion](assets/audience-expansion.png) -->
 
 ## Advanced Cross-Device Targeting {#advanced-graph-expansion}
 
-This use case shows how you can expand audience targeting for authenticated visitors with devices from an external device graph or from the [!DNL Adobe Co-Op Device Graph], by using the **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Adobe Co-Op Device Graph]** rule.
+This use case shows how you can expand audience targeting for authenticated visitors with devices from an external device graph, by using the **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]** rule.
 
-![last-device-graph](assets/last-device-coop.png)
+![last-device-graph](assets/last-profile-link.png)
 
 In the example below, the Acme Inc. company wants to target all households with incomes over $100.000/year, that have [!DNL Acme Inc.] subscribers on [!DNL Data Plan A], that use an [!DNL iPhone 7] device.
 
-John uses his iPhone 7 on Data Plan A to authenticate on the Acme Inc. website. At the same time, John's [!DNL Co-Op Device Graph] cluster contains two additional devices that he uses regularly: his laptop ([!DNL Device 1]), and his secondary smartphone, [!DNL Device 2] (a [!DNL Samsung S7] on [!DNL Data Plan B]).
+John uses his iPhone 7 on Data Plan A to authenticate on the Acme Inc. website. At the same time, John's [!DNL Profile Link Device Graph] cluster contains two additional devices that he uses regularly: his laptop ([!DNL Device 1]), and his secondary smartphone, [!DNL Device 2] (a [!DNL Samsung S7] on [!DNL Data Plan B]).
 
-By using the **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Adobe Co-Op Device Graph]**, [!DNL Acme Inc.] is able to deliver personalized messages to all three devices from John's device graph cluster, even though only one of them initially qualifies for the segment.
+By using the **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]**, [!DNL Acme Inc.] is able to deliver personalized messages to all three devices from John's device graph cluster, even though only one of them initially qualifies for the segment.
 
 ![advanced-graph-expansion](assets/advanced-device-graph-expansion.png)
 
