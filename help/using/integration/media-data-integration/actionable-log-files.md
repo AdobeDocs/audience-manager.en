@@ -53,6 +53,14 @@ You still need to set up rule-based traits to capture the actionable signals. Se
 
 Signals are the [smallest data units](../../reference/signal-trait-segment.md) in [!DNL Audience Manager]. [!UICONTROL Actionable Log Files] allow you to capture advertiser, business unit, creative, and campaign values in impression events, click events, and conversion events as signals from ad server logs.
 
+>[!IMPORTANT]
+>
+>[!UICONTROL Actionable Log Files] are supported for the following ad servers:
+> 
+> * [Google Campaign Manager](#dcm-logs-signals)
+> * [Google Ad Manager](#ad-manager-logs-signals)
+> * [Adobe Advertising Cloud, Flashtalking, and Sizmek](#generic-logs-signals)
+
 Remember, in order to use this information for audience creation and segmentation, you need to set up the rule-based traits yourself.
 
 ### Actionable Signals from Google Campaign Manager logs {#dcm-logs-signals}
@@ -191,9 +199,9 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 
 <br>&nbsp;
 
-### Actionable Signals from Generic Ad Server Logs {#generic-logs-signals}
+### Actionable signals from Adobe Advertising Cloud, Flashtalking, and Sizmek ad server logs {#generic-logs-signals}
 
-First, you must deposit your ad server logs in our Amazon S3 buckets. To accomplish this, read [Data Files for Audience Optimization Reports and Actionable Log Files](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md) *and* contact your [!DNL Audience Manager] consultant. The table lists the actionable signals from generic log files:
+First, you must deposit your ad server logs in our Amazon S3 buckets. To accomplish this, read [Data Files for Audience Optimization Reports and Actionable Log Files](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md) *and* contact your [!DNL Audience Manager] consultant. The table lists the actionable signals from ad server log files:
 
 <table id="table_A5A2A10D471C4C9D8DCD88F9C017040C"> 
  <thead> 
