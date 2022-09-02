@@ -21,7 +21,7 @@ exl-id: bd499931-4e02-4f64-82ba-46ef7c4ffd3c
 
 [!UICONTROL Actionable Log Files] streamline the way you capture impressions, clicks, and conversions from ad servers. Use this information for user segmentation without having to manually pixel media to send campaign attributes to [!DNL Audience Manager].
 
-## Getting Started {#getting-started}
+## Getting started {#getting-started}
 
 To get started with [!UICONTROL Actionable Log Files], you need to import log data into [!DNL Audience Manager]. The following links will help you get started: 
 
@@ -56,7 +56,8 @@ Signals are the [smallest data units](../../reference/signal-trait-segment.md) i
 >[!IMPORTANT]
 >
 >[!UICONTROL Actionable Log Files] are supported for the following ad servers:
-> 
+> <br>
+>
 > * [Google Campaign Manager](#dcm-logs-signals)
 > * [Google Ad Manager](#ad-manager-logs-signals)
 > * [Adobe Advertising Cloud, Flashtalking, and Sizmek](#generic-logs-signals)
@@ -194,12 +195,13 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 >
 >The event timestamp provided in the [!DNL Google Ad Manager] logs will be honored and passed to the [!UICONTROL Data Collection Servers].
 >
+>
 >* If a timestamp isn't available for a data row in the [!DNL Google Ad Manager] log file, we use the time of the `HTTP` call as the event timestamp.
 >* If the data row in the [!DNL Google Ad Manager] log file contains a malformed timestamp, we ignore the entire row.
 
 <br>&nbsp;
 
-### Actionable signals from Adobe Advertising Cloud, Flashtalking, and Sizmek ad server logs {#generic-logs-signals}
+### Actionable Signals from Adobe Advertising Cloud, Flashtalking, and Sizmek ad server logs {#generic-logs-signals}
 
 First, you must deposit your ad server logs in our Amazon S3 buckets. To accomplish this, read [Data Files for Audience Optimization Reports and Actionable Log Files](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md) *and* contact your [!DNL Audience Manager] consultant. The table lists the actionable signals from ad server log files:
 
