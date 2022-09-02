@@ -55,7 +55,7 @@ Signals are the [smallest data units](../../reference/signal-trait-segment.md) i
 
 >[!IMPORTANT]
 >
->[!UICONTROL Actionable Log Files] are only supported for the following ad servers:
+>[!UICONTROL Actionable Log Files] are supported for the following ad servers:
 > 
 > * [Google Campaign Manager](#dcm-logs-signals)
 > * [Google Ad Manager](#ad-manager-logs-signals)
