@@ -146,7 +146,7 @@ Upload your impression, click, or conversion data files to an Amazon S3 director
 
 Data is stored in a separate namespace for each customer in an [!DNL Amazon S3] directory. The file path follows the syntax shown below. Note, *italics* indicates a variable placeholder. Other elements are constants or keys and do not change.
 
-**Syntax:** <pre><code>.../log_ingestion/pid= <i>AAM ID<i>/dpid= <i>d_src</i>/logs/ <i>file type</i>_<i>yyyymmdd</i></code></pre>
+**Syntax:** <pre><code>.../log_ingestion/pid= <i>AAM ID</i>/dpid= <i>d_src</i>/logs/ <i>file type</i>_<i>yyyymmdd</i></code></pre>
 
 The following table defines each of these elements in a file delivery path.
 
