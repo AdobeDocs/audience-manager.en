@@ -40,7 +40,7 @@ The following illustration provides a high-level overview of elements in the [!U
 
 >[!NOTE]
 >
->Folder traits are not available for comparison within trait-to-trait overlap reports. By creating a segment utilizing a particular folder trait, you can perform analysis via the [segment-to-segment overlap](help/using/reporting/dynamic-reports/segment-trait-overlap-report.md) report.
+>Folder traits are not available for comparison within trait-to-trait overlap reports. By creating a segment utilizing a particular folder trait, you can perform analysis via the [segment-to-segment overlap](/help/using/reporting/dynamic-reports/segment-trait-overlap-report.md) report.
 
 ![](assets/trait-to-trait-overlap.png)
 
