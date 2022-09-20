@@ -38,6 +38,10 @@ The following illustration provides a high-level overview of elements in the [!U
 >
 >The [!UICONTROL Trait-to-Trait Overlap] report returns an empty field when it compares the same trait to itself.
 
+>[!NOTE]
+>
+>Folder traits are not available for comparison within trait-to-trait overlap reports. By creating a segment utilizing a particular folder trait, you can perform analysis via the [segment-to-trait overlap report](/help/using/reporting/dynamic-reports/segment-trait-overlap-report.md).
+
 ![](assets/trait-to-trait-overlap.png)
 
 ## Drill Down on Individual Data Points
