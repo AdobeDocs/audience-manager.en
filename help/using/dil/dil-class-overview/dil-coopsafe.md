@@ -13,6 +13,10 @@ index: n
 ---
 # isCoopSafe{#iscoopsafe}
 
+>[!WARNING]
+>
+>This feature has been deprecated.
+
 An optional, Boolean configuration that determines if DIL sends (or does not send) data to the Adobe Experience Cloud Device Co-op.
 
 ## Requirements {#requirements}
