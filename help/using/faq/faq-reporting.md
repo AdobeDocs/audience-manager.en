@@ -39,7 +39,7 @@ To help reduce computational demand, these reports omit statistically insignific
 
 **If I run an email marketing campaign, how can I determine if redirected users come to my site from that campaign or from other sources?**
 
-Append a campaign-specific query string to the URL of the site section you want to monitor. Next, set up a trait rule to capture this variable. For example, if your URL passes in a campaign ID like this, `www.test123.com/electronics?campaign=123`, then create a trait rule to capture that data from the `h_referer` variable with a trait rule that looks for a header like `h_referer = 'campaign=123'`).
+Append a campaign-specific query string to the URL of the site section you want to monitor. Next, set up a trait rule to capture this variable. For example, if your URL passes in a campaign ID like this, `www.test123.com/electronics?campaign=123`, then create a trait rule to capture that data from the `h_referer` variable with a trait rule that looks for a header like `h_referer = 'campaign=123'`.
 
 <br>&nbsp;
 
