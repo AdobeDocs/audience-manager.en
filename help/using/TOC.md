@@ -270,7 +270,6 @@ feature-set: Audience Manager
         + [getDil](dil/dil-class-overview/dil-get-instance.md)
         + [dexGetQSVars](dil/dil-class-overview/dil-get-dexqsvars.md)
         + [isAddedPostWindowLoad](dil/dil-class-overview/dil-added-post-window-load.md)
-        + [isCoopSafe](dil/dil-class-overview/dil-coopsafe.md)
     + [Instance-level DIL Methods](dil/dil-instance-methods.md)
     + [DIL Modules](dil/dil-modules.md)
     + [DIL Tools](dil/dil-tools.md)
