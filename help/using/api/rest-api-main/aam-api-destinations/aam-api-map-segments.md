@@ -5,8 +5,9 @@ seo-title: Map Segments to a Destination
 solution: Audience Manager
 title: Map Segments to a Destination
 uuid: 35358ace-3082-4e86-a6eb-d77281af6d7e
+feature: API
+exl-id: 906df6c5-f878-48e6-a804-eb5b4407f304
 ---
-
 # Map Segments to a Destination {#map-segments-to-a-destination}
 
 Map segments to destinations with these [!DNL RESTful API] methods.
@@ -16,12 +17,6 @@ Map segments to destinations with these [!DNL RESTful API] methods.
 ## Supported Destination Types: URL and Cookie Only
 
 The available `POST` methods let you map segments to [!UICONTROL URL] and [!UICONTROL cookie destinations] only. Currently, you cannot map segments to [!UICONTROL server-to-server destinations] with these [!DNL REST API] methods. Use the user interface instead. However, the related destination `GET` methods let you retrieve information about [!UICONTROL server-to-server destinations] created in the user interface.
-
->[!MORE_LIKE_THIS]
->
->* [Destinations](../../../features/destinations/destinations.md#destination-api-methods)
->* [Destination Serialization](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [Key-Value Pairs Explained](../../../reference/key-value-pairs-explained.md)
 
 ## Map a Segment to a Non-Serialized URL Destination {#map-segment-non-serial}
 
@@ -580,3 +575,9 @@ All request values are required unless otherwise indicated.
     "traitAlias": null
 }
 ```
+
+>[!MORELIKETHIS]
+>
+>* [Destinations](../../../features/destinations/destinations.md)
+>* [Destination Serialization](../../../features/destinations/key-value-pairs.md#destination-serialized)
+>* [Key-Value Pairs Explained](../../../reference/key-value-pairs-explained.md)

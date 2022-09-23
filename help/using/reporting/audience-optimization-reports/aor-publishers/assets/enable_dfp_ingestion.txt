@@ -1,6 +1,6 @@
 Hi Customer Care,
  
-I would like to set up DFP log ingestion for [Insert Customer Name] and have completed the prerequisite steps to enable.
+I would like to set up Google Ad Manager log ingestion for [Insert Customer Name] and have completed the prerequisite steps to enable.
  
 Please refer to the details below:
  

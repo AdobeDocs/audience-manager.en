@@ -5,8 +5,9 @@ seo-title: Permissions Management API Methods
 solution: Audience Manager
 title: Permissions Management API Methods
 uuid: 111d0f92-d92c-4d4b-b0d6-10dd3fa466ad
+feature: API
+exl-id: 7aac8ea8-4120-4c6b-88a6-30e8aa727dc8
 ---
-
 # Permissions Management API Methods {#permissions-management-api-methods}
 
 Rest [!DNL API] methods to manage permissions for objects and groups.

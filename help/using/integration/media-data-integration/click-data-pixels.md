@@ -1,22 +1,27 @@
 ---
-description: null
-seo-description: null
+description: Click tracking enables measurement of visitor engagement throughout your campaign, as it records click-based activity for third-party creatives.
+seo-description: Click tracking enables measurement of visitor engagement throughout your campaign, as it records click-based activity for third-party creatives.
 seo-title: Capturing Campaign Click Data via Pixel Calls
 solution: Audience Manager
 title: Capturing Campaign Click Data via Pixel Calls
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
+feature: Adobe Campaign Integration
+exl-id: 41b169bf-3727-4ed7-b74f-fea75244d2cb
 ---
-
 # Capturing Campaign Click Data via Pixel Calls {#capturing-campaign-click-data-via-pixel-calls}
 
-Click tracking enables measurement of visitor engagement throughout your campaign, as it records click-based activity for third-party creatives. Similar to impressions collection, an event call is sent to the Audience Manager data collection servers ([!UICONTROL DCS]) for processing. The visitor is then redirected to the intended web address.
+Click tracking enables measurement of visitor engagement throughout your campaign, as it records click-based activity for third-party creatives. Similar to [impressions collection](/help/using/integration/media-data-integration/impression-data-pixels.md), an event call is sent to the [!DNL Audience Manager] data collection servers ([!DNL DCS]) for processing. The visitor is then redirected to the intended web address.
+
+>[!NOTE]
+>
+>Please contact your [!DNL Audience Manager] consulting or account lead for the exact [!DNL URL] specific to the client domain.
 
 ## Requirements
 
 Click tracking calls require the following parameters:
 
 * `d_event=click`: A key-value pair that identifies an event call as a click event.
-* `d_rd=redirect URL`: A key-value pair that contains an encoded redirect [!DNL URL].
+* `d_rd=redirect URL`: A key-value pair that contains a double-encoded redirect [!DNL URL]. If you're using an online encoding tool, run the string through the encoder, then encode the result again, in order for the redirect to work.
 
 In addition, the call can contain key-value pairs that can be used for trait qualification or to provide data and metadata for other reports.
 
@@ -32,7 +37,7 @@ The response redirects the browser to the [!DNL URL] specified in the `d_rd` par
 
 Based on the above example, the browser is redirected to the following [!DNL URL]:
 
-[!DNL `https://adobe.com/callback?creative=123`]
+`https://adobe.com/callback?creative=123`
 
 ## Supported Macros
 
@@ -55,7 +60,7 @@ Click events support the macros listed in the following table. A macro is a smal
   <tr> 
    <td colname="col1"> <p> <code> d_adsrc</code> </p> </td> 
    <td colname="col02"> <p>No macro. </p> <p>Accepts a hard coded ID value. </p> </td> 
-   <td colname="col2"> <p> <a href="../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> Data source</a> ID or integration code for your advertiser. </p> <p> Required for <span class="wintitle"> Audience Optimization</span> reports. </p> </td> 
+   <td colname="col2"> <p>Advertiser ID.</p> <p>An integration code for your advertiser's data source. Note that this is not related to Audience Manager data sources.</p> <p> Required for <span class="wintitle"> Audience Optimization</span> reports. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_bu</code> </p> </td> 
@@ -81,11 +86,11 @@ Click events support the macros listed in the following table. A macro is a smal
    <td colname="col1"> <p> <code> d_dpuuid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_dpuuid%</code> </p> </td> 
    <td colname="col2"> <p>Unique user ID supplied by the data provider. </p> <p>Often used with <code> d_dpid</code> to link a user ID to a data provider ID. </p> </td> 
-  </tr> 
+  </tr>
   <tr> 
    <td colname="col1"> <p> <code> d_mid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_mid%</code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Experience Cloud</span> ID (ECID). For more information about the ECID, see <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a>. </p> <p>Optional. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Experience Cloud</span> ID (ECID). For more information about the ECID, see <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a>. </p> <p>Optional. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_placement</code> </p> </td> 
@@ -119,13 +124,13 @@ Click events support the macros listed in the following table. A macro is a smal
   </tr> 
    <tr> 
    <td colname="col1"> <p> <code>gdpr</code> </p> </td> 
-   <td colname="col02"> <p> <code>%gdpr_applies%</code> </p> </td> 
-   <td colname="col2"> <p>Related to the <a href="../../overview/aam-gdpr/aam-iab-plugin.md">Audience Manager Plug-in for IAB TCF.</a> </p><p><code>gdpr</code> can be 0 (GDPR does not apply) or 1 (GDPR applies).</p> <p>Default value is 0.</p><p>Optional.</p></td> 
+   <td colname="col02"> <p> <code>${gdpr}</code> </p> </td> 
+   <td colname="col2"> <p>Related to the <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager Plug-in for IAB TCF.</a> </p><p><code>gdpr</code> can be 0 (GDPR does not apply) or 1 (GDPR applies).</p> <p>Default value is 0.</p><p>Optional.</p></td> 
   </tr> 
    <tr> 
    <td colname="col1"> <p> <code>gdpr_consent</code> </p> </td> 
-   <td colname="col02"> <p> <code>%gdpr_consent%</code> </p> </td> 
-   <td colname="col2"> <p>Related to the <a href="../../overview/aam-gdpr/aam-iab-plugin.md">Audience Manager Plug-in for IAB TCF.</a></p><p> If <code>gdpr=1</code>, then <code>%gdpr_consent%</code> is replaced by the <code>gdpr_consent</code> string (see <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> IAB specification</a>).</p> <p>Default value is 0.</p><p>Optional.</p></td> 
+   <td colname="col02"> <p> <code>${gdpr_consent_XXXX}</code> </p> </td> 
+   <td colname="col2"> <p>Related to the <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager Plug-in for IAB TCF.</a></p><p> If <code>gdpr=1</code>, then <code>${gdpr_consent_XXXX}</code> is replaced by the <code>gdpr_consent</code> string and the vendor ID (see <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/TCFv2/IAB%20Tech%20Lab%20-%20Consent%20string%20and%20vendor%20list%20formats%20v2.md#about-the-transparency--consent-string-tc-string" format="http" scope="external"> IAB specification</a>).</p> <p>Default value is 0.</p><p>Optional.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -146,16 +151,20 @@ This example demonstrates passing the creative, adgroup, and placement macros. I
 
 ```
 https://client.demdex.net/event?d_event=click&d_creative=1235&d_src=203&d_campaign=4709&d_adgroup=3408&d_placement=1001&
-d_rd=http%3A%2F%2Fadobe.com%2Fcallback%3Fcreative%3D%25d_creative%25%26campaign%3D%25d_campaign%25%26adgroup%3D%25
-d_adgroup%25%26d_placement%3D%25placement%25%26src%3D%25d_src%25
+d_rd%3Dhttp%253A%252F%252Fadobe.com%252Fcallback%253Fcreative%253D%2525d_creative%2525%2526campaign%253D%2525d_campaign%2525%2526adgroup%253D%2525%0Ad_adgroup%2525%2526d_placement%253D%2525placement%2525%2526src%253D%2525d_src%2525
 ```
 
 ## Response
 
 Based on the above example, the browser is redirected to the following [!DNL URL]:
 
-[!DNL `https://adobe.com/callback?creative=1235&campaign=4709&adgroup=3408&placement=1001`]
+`https://adobe.com/callback?creative=1235&campaign=4709&adgroup=3408&placement=1001`
 
->[!MORE_LIKE_THIS]
+## Additional functionality - [!UICONTROL Audience Optimization Reports]
+
+You can use pixel calls to power the [Audience Optimization Reports](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md). See [Overview and Mappings for Metadata Files](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) if you wish to use pixels to power the reports.
+
+
+>[!MORELIKETHIS]
 >
 >* [Data and Metadata Files for Audience Optimization Reports](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)

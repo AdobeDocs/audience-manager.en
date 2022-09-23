@@ -5,8 +5,9 @@ seo-title: Manage Test Groups
 solution: Audience Manager
 title: Manage Test Groups
 uuid: 2fadddeb-7574-4853-8c52-c58456582c62
+feature: Audience Lab
+exl-id: 1d07c8f1-34dc-4339-bd5d-87042a22f7e9
 ---
-
 # Manage Test Groups {#manage-test-groups}
 
 This procedure walks you through the steps needed to create, edit, or delete a test group in [!UICONTROL Audience Lab].
@@ -55,6 +56,7 @@ To create a new [!UICONTROL Segment Test Group]:
     * Add conversion traits by typing in the conversion trait window. This is a **mandatory** step and you cannot proceed to the next step unless you add at least one conversion trait.
     * You can add up to 5 conversion traits if you wish.
     * An alert will show up in case you select a conversion trait already used for other test groups.
+    * Note that Audience Manager does not support using [folder traits](/help/using/features/traits/about-folder-traits.md) as conversion traits. Selecting a folder trait as conversion trait results in 0 aggregate and trend reporting displayed within the test.
 
 1. **[!UICONTROL Choose Destinations & Dates]**
 

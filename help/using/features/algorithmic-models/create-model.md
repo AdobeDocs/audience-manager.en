@@ -5,19 +5,15 @@ seo-description: Describes the required and optional steps that let you create a
 seo-title: Create an Algorithmic Model
 solution: Audience Manager
 title: Create an Algorithmic Model
-topic: DIL API
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
+feature: Algorithmic Models
+exl-id: 8b7c4f57-f2c8-46f1-8924-5513fd6ede04
 ---
+# Create a Look-Alike Model {#create-an-algorithmic-model}
 
-# Create an Algorithmic Model {#create-an-algorithmic-model}
+Describes the required and optional steps that let you create a [!UICONTROL Look-Alike Model].
 
-Describes the required and optional steps that let you create an algorithmic model in [!UICONTROL Model Builder].
-
-## Build a Model {#build-model}
-
-<!-- t_model_build.xml -->
-
-### Model Builder Section
+## Model Builder Section
 
 [!UICONTROL Model Builder] consists of the [!UICONTROL Basic Information] and [!UICONTROL Configuration] sections. To create a model, complete the required fields in these two sections. Save your model to start the algorithm. [!DNL Audience Manager] sends you an automated notification after the first data run completes. After you receive the email, you can go to [Trait Builder](../../features/traits/about-trait-builder.md) and create algorithmic traits.
 
@@ -28,20 +24,29 @@ Describes the required and optional steps that let you create an algorithmic mod
 >* *Do not* create models with other algorithmic traits or segments.
 >* The automated email notification is sent one time only (after the first data run).
 
-### Build the Model
+## Build the Model
 
-To build a model, go to the [!UICONTROL Models] section and click **[!UICONTROL Add New]** and follow the steps below:
+Follow the steps below to build a [!UICONTROL Look-Alike Model]:
 
+1. Go to **[!UICONTROL Audience Data]** > **[!UICONTROL Models]** and click **[!UICONTROL Add New]** in the [!UICONTROL Look-Alike Modeling] section.
+    ![look-alike-add](assets/look-alike-add.png)
 1. In the [Basic Information](../../features/algorithmic-models/create-model.md#basic-information) section
     * Name the model.
     * *(Optional)* Provide a brief description about the model.
     * Set the status for the model to **[!UICONTROL Active]** or **[!UICONTROL Inactive]**. Inactive models will not run and will not produce any data.
+    ![look-alike-basic](assets/look-alike-basic.png)
 1. In the [Configuration](../../features/algorithmic-models/create-model.md#configuration) section:
-    * Click **[!UICONTROL Browse All Traits]** or **[!UICONTROL Browse All Segments]** to select a trait or segment you want to model against. Select an onboarded trait, a rule-based trait, or a segment as baseline. Otherwise, your models will not run.
+    * Click **[!UICONTROL Browse All Traits]** or **[!UICONTROL Browse All Segments]** to select a trait or segment you want to model against. Search for traits by name, ID, description or data source. Click on a folder while searching to limit results to that folder and its subfolders. You can also filter traits by trait type ([!UICONTROL Folder Trait], [!UICONTROL Rule-based], [!UICONTROL Onboarded], and [!UICONTROL Algorithmic]) or population type ([Device ID](../../reference/ids-in-aam.md) and [Cross-Device ID](../../reference/ids-in-aam.md)).
+    ![browse-traits](assets/browse-traits.png)
     * Choose a 30, 60, or 90 day look-back period. This sets a time range for the model.
     * The [!UICONTROL TraitWeight] algorithm is selected by default.
     * Select a data source from the [!UICONTROL Available Data] list.
     * Click **[!UICONTROL Save]** when done.
+    ![look-alike-configuration](assets/look-alike-configuration.png)
+
+Watch the video below for a detailed look at how cross-device metrics work.
+
+>[!VIDEO](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
 
 ## Basic Information for Algorithmic Models {#basic-information}
 
@@ -98,6 +103,10 @@ Complete the required fields in the [!UICONTROL Basic Information] section first
  </tbody>
 </table>
 
->[!MORE_LIKE_THIS]
+Watch the video below to learn how to create a first party look-alike model, so that you can find more of your own visitors who look like your converters.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23504/)
+
+>[!MORELIKETHIS]
 >
 >* [Understanding TraitWeight](../../features/algorithmic-models/understanding-models.md#understanding-traitweight)

@@ -1,17 +1,24 @@
 ---
-description: Transport Layer Security (TLS) is a cryptographic protocol used to establish a secure communications channel between two systems. It is used to authenticate one or both systems, and protect the confidentiality and integrity of information that passes between systems. In May 2018, there are three versions of the TLS protocol in use  TLS 1.0, 1.1, and 1.2.
-seo-description: Transport Layer Security (TLS) is a cryptographic protocol used to establish a secure communications channel between two systems. It is used to authenticate one or both systems, and protect the confidentiality and integrity of information that passes between systems. In May 2018, there are three versions of the TLS protocol in use  TLS 1.0, 1.1, and 1.2.
-seo-title: TLS 1.0 Deprecation
+description: Transport Layer Security (TLS) is a cryptographic protocol used to establish a secure communications channel between two systems. It is used to authenticate one or both systems, and protect the confidentiality and integrity of information that passes between systems. In May 2018, there were three versions of the TLS protocol in use  TLS 1.0, 1.1, and 1.2.
+seo-description: Transport Layer Security (TLS) is a cryptographic protocol used to establish a secure communications channel between two systems. It is used to authenticate one or both systems, and protect the confidentiality and integrity of information that passes between systems. In May 2018, there were three versions of the TLS protocol in use  TLS 1.0, 1.1, and 1.2.
+seo-title: TLS 1.0 and 1.1 Deprecation
 solution: Audience Manager
-title: TLS 1.0 Deprecation
+title: TLS 1.0 and 1.1 Deprecation
 uuid: 6a820e63-dd49-4689-9596-940aabba18ec
+feature: Reference
+exl-id: 857105c1-726a-4d79-bd1c-accb368aef29
 ---
+# TLS 1.0 and 1.1 Deprecation{#tls-deprecation}
 
-# TLS 1.0 Deprecation{#tls-deprecation}
+Transport Layer Security (TLS) is a cryptographic protocol used to establish a secure communications channel between two systems. It is used to authenticate one or both systems, and protect the confidentiality and integrity of information that passes between systems. In May 2018, there were three versions of the TLS protocol in use: TLS 1.0, 1.1, and 1.2.
 
-Transport Layer Security (TLS) is a cryptographic protocol used to establish a secure communications channel between two systems. It is used to authenticate one or both systems, and protect the confidentiality and integrity of information that passes between systems. In May 2018, there are three versions of the TLS protocol in use: TLS 1.0, 1.1, and 1.2.
+In March 2019, [!DNL Adobe] has ended support for the [!DNL TLS 1.0] protocol. Adobe Audience Manager functionality does not work for your end users who use browsers which only support [!DNL TLS 1.0].
 
-In March 2019, [!DNL Adobe] has ended support for the [!DNL TLS 1.0] protocol. Adobe Audience Manager functionality does not work for your end users that use browsers which only support [!DNL TLS 1.0]. In fact, we recommend the use of [!DNL TLS 1.2], which is, at the time of writing, the latest version of the protocol. All modern browsers use [!DNL TLS 1.2]. We have collected for you a list of browsers,versions, and their [!DNL TLS] support. For more information, visit [this Wikipedia link](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers).
+In March 2020, [!DNL Adobe] will end support for the [!DNL TLS 1.1] protocol. Adobe Audience Manager functionality will stop working for your end users who use browsers which only support [!DNL TLS 1.1]. 
+
+Adobe highly recommends the use of [!DNL TLS 1.2], which is, at the time of writing, the latest version of the protocol. All modern browsers use [!DNL TLS 1.2]. We have collected for you a list of browsers, versions, and their [!DNL TLS] support. For more information on TLS browser support, visit [the Transport Layer Security Wikipedia link](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers).
+
+<!--
 
 <table id="table_C273E20039074BB7B6CFB1B877A086B8"> 
  <thead> 
@@ -415,3 +422,4 @@ In March 2019, [!DNL Adobe] has ended support for the [!DNL TLS 1.0] protocol. A
  </tbody> 
 </table>
 
+-->

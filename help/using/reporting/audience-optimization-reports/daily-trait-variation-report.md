@@ -5,8 +5,9 @@ seo-title: Daily Trait Variation Report
 solution: Audience Manager
 title: Daily Trait Variation Report
 uuid: 4e82bb17-d447-4ed1-a4fc-e15b0f1b47f0
+feature: Audience Optimization Reports
+exl-id: c84a3f13-70fb-4167-b05b-de5cf518ec03
 ---
-
 # Daily Trait Variation Report {#daily-trait-variation-report}
 
 This report returns a list of traits that have been realized at least 10,000 times in the 30 days prior to the selected date(s) and have a standard deviation greater or equal to 1.7 in either direction over the same time interval. The report helps you evaluate how the number of impressions from unique users in a trait fluctuate over time.

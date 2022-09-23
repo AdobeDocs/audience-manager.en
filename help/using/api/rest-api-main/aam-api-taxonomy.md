@@ -5,8 +5,9 @@ seo-title: Taxonomic API Methods
 solution: Audience Manager
 title: Taxonomic API Methods
 uuid: 4ee29ba5-e9ba-4498-a6ee-7343227dd7ba
+feature: API
+exl-id: 8bc6dcbb-7f5b-4a7b-998d-025eaf76c409
 ---
-
 # Taxonomic API Methods {#taxonomic-api-methods}
 
 Methods that let you view the Audience Manager common taxonomy. This optional classification scheme organizes traits into industry standard categories.

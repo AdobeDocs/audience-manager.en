@@ -5,8 +5,9 @@ seo-title: Segment-to-Trait Overlap Report
 solution: Audience Manager
 title: Segment-to-Trait Overlap Report
 uuid: a6b3dd21-332e-449f-aa01-2beb47f1794e
+feature: Overlap Reports
+exl-id: 7ce3dd2d-ab22-46f8-90bf-a32222df2e76
 ---
-
 # Segment-to-Trait Overlap Report{#segment-to-trait-overlap-report}
 
 Returns data on the number of unique users shared between a particular trait and an entire segment.
@@ -130,11 +131,11 @@ The popup for the [!UICONTROL Segment-to-Trait Overlap] report contains the metr
    <td colname="col2"> Unique numeric ID for the segment. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Data Provider Name</span></b> </td> 
-   <td colname="col2"> Name of the segment owner. </td> 
+   <td colname="col1"><b><span class="wintitle"> Trait Data Source </span></b> </td> 
+   <td colname="col2"> Name of the trait owner. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Data Provider Type</span></b> </td> 
+   <td colname="col1"><b><span class="wintitle"> Data Source Type</span></b> </td> 
    <td colname="col2">Defines the type of provider a trait belongs to. Can be either: 
     <ul id="ul_0477C04A33FD4F5D998B98984E6554D3"> 
      <li id="li_50FCA48EDB5843AB8FB6C34ED2C0067D">First-party (your own trait). </li> 
@@ -142,12 +143,12 @@ The popup for the [!UICONTROL Segment-to-Trait Overlap] report contains the metr
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> SID</span></b> </td> 
-   <td colname="col2"> Unique numeric ID for the segment. </td> 
+   <td colname="col1"><b><span class="wintitle"> Trait ID</span></b> </td> 
+   <td colname="col2"> Unique numeric ID for the trait. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> SID Name</span></b> </td> 
-   <td colname="col2"> Name of the segment. </td> 
+   <td colname="col1"><b><span class="wintitle"> Trait Name</span></b> </td> 
+   <td colname="col2"> Name of the trait. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b><span class="wintitle"> Trait Uniques Overlap %</span></b> </td> 
@@ -172,7 +173,7 @@ The popup for the [!UICONTROL Segment-to-Trait Overlap] report contains the metr
  </tbody> 
 </table>
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Filter Report Results With the Data Sliders](../../reporting/dynamic-reports/data-sliders.md)
 >* [Shapes, Colors, and Sizes Used in Interactive Reports](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)

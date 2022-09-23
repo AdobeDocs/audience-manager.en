@@ -5,8 +5,9 @@ seo-title: Boolean Expressions in Trait and Segment Builder
 solution: Audience Manager
 title: Boolean Expressions in Trait and Segment Builder
 uuid: 14f02d3f-4c84-41fe-bc91-b34f0d49574a
+feature: Reference
+exl-id: 44bc0385-2cce-4173-9833-b9a30fb6edae
 ---
-
 # Boolean Expressions in Trait and Segment Builder{#boolean-expressions-in-trait-and-segment-builder}
 
 This article explains how the Audience Manager trait and segment tools use the Boolean expressions AND, OR, and NOT.
@@ -72,7 +73,7 @@ The [!UICONTROL OR] operator is useful when you want to create signals with broa
 
 The [!UICONTROL AND NOT] operator is useful when it’s easier to define an audience by *exclusion* rather than *inclusion*. For example, say you're having a sale and want to segment visitors into customers who look at full price items only. Rather than create a list of signals for all qualifying full or sale-price items, it may be easier to qualify visitors if they have *not* seen a sale price item. This is administratively efficient because you usually have fewer sale price items compared to those offered at full price. With a Boolean [!UICONTROL NOT], visitors *must not* exhibit the sale signal to qualify for full-price audience membership. By contrast, [!UICONTROL AND NOT] is the opposite of the [!UICONTROL AND] use case, which showed how audience membership is determined by inclusion (i.e., the visitor qualified based on 2 explicitly stated signals). 
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Working with Comparison Operators in TraitBuilder](../features/traits/trait-comparison-operators.md)
 >* [Order of Operations in TraitBuilder Expressions](../features/traits/trait-operator-precedence.md)

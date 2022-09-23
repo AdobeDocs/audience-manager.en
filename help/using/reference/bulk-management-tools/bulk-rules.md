@@ -5,8 +5,9 @@ seo-title: Create or Update Trait Rules and Segment Rules
 solution: Audience Manager
 title: Create or Update Trait Rules and Segment Rules
 uuid: bdd5f8f1-bb83-4844-b681-654e45ace3e1
+feature: BAAAM
+exl-id: 9b697606-5534-4e6e-a3f2-b1a4c26bb707
 ---
-
 # Create or Update Trait Rules and Segment Rules{#create-or-update-trait-rules-and-segment-rules}
 
 The create and update worksheets accept a traitRule header that lets you apply multiple rules in a single operation. Follow these instructions to make bulk rule requests.
@@ -19,7 +20,7 @@ The create and update worksheets accept a traitRule header that lets you apply m
 
 >[!NOTE]
 >
->The [!UICONTROL Bulk Management Tools] *are not* supported by [!DNL Audience Manager]. This tool is provided for convenience and as a courtesy only. For bulk changes, we recommend that you work with the [Audience Manager APIs](../../api/rest-api-main/aam-api-getting-started.md) instead. [RBAC group permissions](../../features/administration/administration-overview.md) assigned in the [!DNL Audience Manager] UI are honored in the [!UICONTROL Bulk Management Tools].
+>[RBAC group permissions](../../features/administration/administration-overview.md) assigned in the [!DNL Audience Manager] UI are honored in the [!UICONTROL Bulk Management Tools].
 
 ## Working with trait rules {#trait-rules}
 
@@ -53,4 +54,3 @@ You can write your own rules outside of [!UICONTROL Rule Builder]. Before you st
 * [Order of Operations](../../features/traits/trait-operator-precedence.md) 
 * [Prefix Requirements for Key Variables](../../features/traits/trait-variable-prefixes.md) 
 * [Sample Expressions With Boolean and Comparison Operators](../../features/traits/trait-expression-samples.md)
-

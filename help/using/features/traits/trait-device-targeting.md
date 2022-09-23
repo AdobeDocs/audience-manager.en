@@ -5,8 +5,9 @@ seo-title: Device Targeting With Platform-level Keys
 solution: Audience Manager
 title: Device Targeting With Platform-level Keys
 uuid: bc048cc5-3df1-49bc-ac78-0ea5d7edd9cc
+feature: Traits
+exl-id: 85c848e0-a4cf-49b5-9fe9-56f8c565f665
 ---
-
 # Device Targeting With Platform-level Keys {#device-targeting-with-platform-level-keys}
 
 Describes the common platform-level key-value pairs you can use to target users with device-related variables across all properties in your Audience Manager account.
@@ -39,6 +40,6 @@ The [!UICONTROL Data Collection Servers] extract the values for these keys from 
 >
 >Even if one or more signals cannot be retrieved from the user agent header, the other signals will still be passed to the [!UICONTROL Data Collection Servers].
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Prefix Requirements for Key Variables](../../features/traits/trait-variable-prefixes.md)

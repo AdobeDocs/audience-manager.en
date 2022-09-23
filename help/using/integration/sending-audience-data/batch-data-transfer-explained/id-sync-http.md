@@ -5,15 +5,14 @@ seo-title: ID Synchronization for Inbound Data Transfers
 solution: Audience Manager
 title: ID Synchronization for Inbound Data Transfers
 uuid: 037e74a6-acfd-4cef-b693-16b7aaa8e976
+feature: Inbound Data Transfers
+exl-id: cd9be32f-f443-45bd-a906-ec4c8589f608
 ---
+# ID Synchronization for Inbound Data Transfers {#id-synchronization-for-inbound-data-transfers}
 
-# ID Synchronization for Inbound Data Transfers{#id-synchronization-for-inbound-data-transfers}
+Describes the syntax and parameters used in the initial `HTTP` call to synchronize user IDs between a vendor and [!DNL Audience Manager]. ID synchronization can begin after you send your data taxonomy to [!DNL Audience Manager].
 
-Describes the syntax and parameters used in the initial `HTTP` call to synchronize user IDs between a vendor and Audience Manager. ID synchronization can begin after you send your data taxonomy to Audience Manager.
-
-<!-- c_id_sync_in.xml -->
-
-ID synchronization is the first step in the inbound, asynchronous data transfer process. In this step, Audience Manager and the vendor compare and match IDs for their respective site visitors. For example, an [!DNL Audience Manager] customer may know a user by ID 123. However, your data partner could identify this user with ID 456. The synchronization process allows [!DNL Audience Manager] and a data vendor to reconcile these different IDs and identify users in their respective systems. Once complete, [!DNL Audience Manager] and your third-party partner should have corresponding IDs for each unique user seen on our networks.
+ID synchronization is the first step in the inbound, asynchronous data transfer process. In this step, [!DNL Audience Manager] and the vendor compare and match IDs for their respective site visitors. For example, an [!DNL Audience Manager] customer may know a user by ID 123. However, your data partner could identify this user with ID 456. The synchronization process allows [!DNL Audience Manager] and a data vendor to reconcile these different IDs and identify users in their respective systems. Once complete, [!DNL Audience Manager] and your third-party partner should have corresponding IDs for each unique user seen on our networks.
 
 You can use the following methods to get your data into [!DNL Audience Manager]:
 
@@ -57,16 +56,16 @@ The [!DNL URL] for your inbound ID synchronization call should contain variables
   </tr> 
   <tr> 
    <td colname="col1"> <code> <i>gdpr = &lt;0|1&gt;</i> </code> </td> 
-   <td colname="col2"> <p>Optional. Add this parameter if you are using the <a href="../../../overview/aam-gdpr/aam-iab-plugin.md">Audience Manager Plug-in for IAB TCF.</a></p> <p><code> gdpr</code> can be 0 (GDPR does not apply) or 1 (GDPR applies). </p> </td> 
+   <td colname="col2"> <p>Optional. Add this parameter if you are using the <a href="../../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager Plug-in for IAB TCF.</a></p> <p><code> gdpr</code> can be 0 (GDPR does not apply) or 1 (GDPR applies). </p> <p> <b>Note:</b> This parameter can only be used together with <code>gdpr_consent</code>.</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code><i>gdpr_consent=&lt;ENCODED STRING&gt;</i> </code> </td> 
-   <td colname="col2"> <p>Optional. Add this parameter if you are using the <a href="../../../overview/aam-gdpr/aam-iab-plugin.md">Audience Manager Plug-in for IAB TCF.</a></p> <p><code>gdpr_consent</code> is the URL-safe base64-encoded GDPR consent string (see <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> IAB specification</a>). </p> </td> 
+   <td colname="col2"> <p>Optional. Add this parameter if you are using the <a href="../../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager Plug-in for IAB TCF.</a></p> <p><code>gdpr_consent</code> is the URL-safe base64-encoded GDPR consent string (see <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> IAB specification</a>). </p> <p> <b>Note:</b> This parameter can only be used together with <code>gdpr</code>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Declared ID Event {#declared-id-event}
+## [!UICONTROL Declared ID] Event {#declared-id-event}
 
 For more information, see [Declared IDs](../../../features/declared-ids.md).
 
@@ -74,6 +73,6 @@ For more information, see [Declared IDs](../../../features/declared-ids.md).
 
 The format for matching IDs via an email image is the same as shown above. Note, however, that images in an email must be enabled for this to work. This can affect ID synchronization via email because most mail systems disable images by default.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Data Collection Components](../../../reference/system-components/components-data-collection.md)

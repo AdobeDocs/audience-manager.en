@@ -5,8 +5,9 @@ seo-title: Privacy and Data Retention FAQ
 solution: Audience Manager
 title: Privacy and Data Retention FAQ
 uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
+feature: Data Governance & Privacy
+exl-id: bccf49d7-1a3b-4286-86fb-59e472af4501
 ---
-
 # Privacy and Data Retention FAQ{#privacy-and-data-retention-faq}
 
 Answers to common privacy- and data-related questions or issues.
@@ -21,7 +22,7 @@ Answers to common privacy- and data-related questions or issues.
 
 **How does Audience Manager use cookies and what cookies does it set?**
 
-See [Audience Manager Cookies](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_am.html).
+See [Audience Manager Cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html).
 
 **Can Audience Manager clients in the US target users on EU properties?**
 
@@ -48,15 +49,15 @@ The following table lists the retention times for different data types and stora
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Back-end servers </p> </td> 
-   <td colname="col2"> <p>120-days. </p> <p> Audience Manager deletes user data from our back-end servers 120 days after last seeing a user on the Audience Manager platform. If <span class="keyword"> Audience Manager</span> records user activity within this 120-day cycle, we will keep this data for another 120-days. </p> </td> 
+   <td colname="col2"> <p>120 days </p> <p> Audience Manager deletes user data from our back-end servers 120 days after last seeing a user on the Audience Manager platform. If <span class="keyword"> Audience Manager</span> records user activity within this 120-day cycle, we will keep this data for another 120 days. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Edge servers </p> </td> 
-   <td colname="col2"> <p> 14-days. </p> <p>Audience Manager deletes user data from our edge servers 14 days after last seeing a user on the Audience Manager platform. If <span class="keyword"> Audience Manager</span> records user activity in within this 14-day cycle, we will keep this data for another 14-days. If the user becomes active again after the 14-day period, there will be a delay between that first new page view and when the user becomes actionable. It takes 6-18 hours to get the full profile back out to the edge center after more than 14-days of inactivity. </p> </td> 
+   <td colname="col2"> <p> 14 days </p> <p>Audience Manager deletes user data from our edge servers 14 days after last seeing a user on the Audience Manager platform. If <span class="keyword"> Audience Manager</span> records user activity in within this 14-day cycle, we will keep this data for another 14 days. If the user becomes active again after the 14-day cycle, there will be a delay between that first new page view and when the user becomes actionable. It takes 6-18 hours to get the full profile back out to the edge center after more than 14 days of inactivity. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Raw logs </p> </td> 
-   <td colname="col2"> <p>180-days (removed after 180-days of no activity). </p> <p>Raw logs are data received by an edge server via HTTP calls or from onboarded files sent in to <span class="keyword"> Audience Manager</span>. </p> </td> 
+   <td colname="col2"> <p>60 days (removed after 60 days of no activity) </p> <p>Raw logs are data received by an edge server via HTTP calls or from onboarded files sent in to <span class="keyword"> Audience Manager</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ad Server Logs </p> </td> 
@@ -64,7 +65,7 @@ The following table lists the retention times for different data types and stora
   </tr> 
   <tr> 
    <td colname="col1"> <p>CRM-level profiles (authenticated profiles) </p> </td> 
-   <td colname="col2"> <p>Data is kept indefinitely, but customers can set an expiration period by setting a time-to-live interval on their traits. </p> </td> 
+   <td colname="col2"> <p>The default time-to-live (TTL) interval for inactive CRM-level profiles (Customer IDs) is 24 months. However, you can use the Audience Manager user interface to reduce or extend the TTL interval for inactive CRM-level profiles between one month and 5 years. You can accomplish this when creating or editing a Cross-Device data source.</p> <p>For more information, see Data Source Settings in <a href="../features/profile-merge-rules/merge-rules-start.md#settings"> Create a Cross-Device Data Source </a>.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mobile Device IDs </p> </td> 
@@ -76,7 +77,7 @@ The following table lists the retention times for different data types and stora
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mappings between synchronized IDs </p> </td> 
-   <td colname="col2"> <p>Mappings between synchronized IDs may be kept for the life of the associated <a href="../reference/ids-in-aam.md"> Audience Manager Unique User ID (AAM UUID)</a>. </p> </td> 
+   <td colname="col2"> <p>The lifespan of the <a href="../features/administration/usage-limits.md#id-mapping-limits"> ID mappings</a> between Audience Manager cookie IDs (<a href="../reference/ids-in-aam.md">Audience Manager Unique User IDs or AAM UUIDs</a>) and 3rd party cookie IDs is limited to 120 days. The lifespan of the ID mapping resets each time the Audience Manager cookie is seen across the Audience Manager network. The most recent ID mapping sync will be preserved for the life of the associated <a href="../reference/ids-in-aam.md">Audience Manager Unique User ID (AAM UUID)</a>.</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Inbound data </p> </td> 
@@ -107,8 +108,7 @@ The table below lists the retention options for trait qualifications.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Trait limit reached </p> </td> 
-   <td colname="col2"> <p>We impose a limit of 100,000 trait qualifications for each user profile. The limit applies to authenticated profiles and device profiles. If a user profile reaches this limit, we will delete the oldest trait qualifications, on a first-in, first-out basis. </p> <p>For more details, read our <a href="../features/traits/trait-qualification-reference.md#trait-qualification-limit"> Trait Qualification Limit</a>. </p> </td> 
+   <td colname="col2"> <p>We impose a limit of 100,000 trait qualifications for each user profile. The limit applies to authenticated profiles and device profiles. If a user profile reaches this limit, we will delete the oldest trait qualifications, on a first-in, first-out basis. </p> <p>For more details, read our <a href="../features/traits/trait-and-segment-qualification-reference.md#trait-qualification-limit"> Trait Qualification Limit</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
-

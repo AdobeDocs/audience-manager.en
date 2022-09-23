@@ -6,21 +6,23 @@ seo-title: Customer Data Feeds
 solution: Audience Manager
 title: Customer Data Feeds
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
+feature: Customer Data Feeds
+exl-id: 118c4225-3b57-4a02-ae05-2fcbf3e5d743
 ---
-
-# Customer Data Feeds {#customer-data-feeds}
+# [!UICONTROL Customer Data Feeds] {#customer-data-feeds}
 
 Basic information about [!UICONTROL Customer Data Feed] ([!UICONTROL CDF]) files and instructions on how to get started. Start here if you're interested in receiving [!UICONTROL CDF] files or just want more information.
 
 ## File Contents and Purpose {#file-contents-purpose}
 
-<!-- cdf-intro.xml -->
+A [!UICONTROL CDF] file contains the same data that an [!DNL Audience Manager] event call (`/event`) sends to our servers. This includes data like user IDs, [!UICONTROL trait IDs], [!UICONTROL segment IDs], and all the other parameters captured by an event call. Internal [!DNL Audience Manager] systems processes event data into a [!UICONTROL CDF] file with content organized into fields that appear in a set order. [!DNL Audience Manager] tries to generate [!UICONTROL CDF] files hourly and stores them in a secure, customer-specific bucket on an [!DNL Amazon S3] server. We provide these files so you can work with [!DNL Audience Manager] data outside of the limits imposed by our user interface.
 
-A [!UICONTROL CDF] file contains the same data that an [!DNL Audience Manager] event call ( `/event`) sends to our servers. This includes data like user IDs, trait IDs, segment IDs, and all the other parameters captured by an event call. Internal [!DNL Audience Manager] systems processes event data into a [!UICONTROL CDF] file with content organized into fields that appear in a set order. [!DNL Audience Manager] tries to generate [!UICONTROL CDF] files hourly and stores them in a secure, customer-specific bucket on an [!DNL Amazon S3] server. We provide these files so you can work with [!DNL Audience Manager] data outside of the limits imposed by our user interface.
-
->[!NOTE]
+>[!IMPORTANT]
 >
->You should not use [!UICONTROL CDF] files as a proxy to monitor page traffic, reconcile report discrepancies, or for billing, etc.
+>Note the following restrictions when working with CDF files: 
+>
+>* Prior to setting up CDF file delivery, please ensure you have the appropriate permissions from third-party data providers for the export of third-party traits. Audience Manager currently does not support functionality in the user interface to request CDF file delivery export permission from Third-Party Data Providers, so please reach out to them independently.
+>* You should not use [!UICONTROL CDF] files as a proxy to monitor page traffic, reconcile report discrepancies, or for billing, etc.
 
 ## Getting Started {#getting-started}
 
@@ -35,15 +37,17 @@ File notifications and [!UICONTROL CDF] files will appear in your [!DNL S3] buck
 
 The sections below and the [Customer Data Feed FAQ](../faq/faq-cdf.md) can help you become more familiar with this service.
 
-## Customer Data Feed Contents Defined {#cdf-defined}
+## [!UICONTROL Customer Data Feed] Contents Defined {#cdf-defined}
 
-Lists and defines the data elements and arrays in a [!UICONTROL CDF] file, by order of appearance. Definitions include data types, but this information is not part of a [!UICONTROL CDF] file.
+Lists and defines the data elements and arrays in a [!UICONTROL CDF] file, by order of appearance. Definitions include data types, but this information is not part of a [!UICONTROL CDF] file. 
+
+>[!IMPORTANT]
+>
+>Event pixels are excluded by default in CDF configurations. Ensure that you specify in your request to client care if you desire event pixels to be included in your CDF files. Each event pixel will populate as a unique row in your CDF files. 
 
 ## Definitions {#definitions}
 
-<!-- cdf-contents-defined.xml -->
-
-A [!UICONTROL CDF] file includes some or all of the fields defined below. For information about internal file organization, see [Customer Data Feed File Structure](#cdf-file-structure).
+A [!UICONTROL CDF] file includes some or all of the fields defined below. For information about internal file organization, see [Customer Data Feed File Structure](#cdf-file-structure). 
 
 <table id="table_46BC897A30C2469AB5911F5B85A3FAA7"> 
  <thead> 
@@ -71,7 +75,7 @@ A [!UICONTROL CDF] file includes some or all of the fields defined below. For in
   <tr> 
    <td colname="col1"> <p><code> Container ID</code> </p> </td> 
    <td colname="col2"> <p>Numeric </p> </td> 
-   <td colname="col3"> <p>The ID of the container that fires ID syncs. </p> </td> 
+   <td colname="col3"> <p>The ID of the container that fires ID syncs. This field only populates if you set the container ID in the <i>d_nsid</i> field within your site implementation. Otherwise, the default value of 0 will not be included in CDF files. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> Realized Traits</code> </p> </td> 
@@ -86,7 +90,7 @@ A [!UICONTROL CDF] file includes some or all of the fields defined below. For in
   <tr> 
    <td colname="col1"> <p><code> Request Parameters</code> </p> </td> 
    <td colname="col2"> <p>String </p> </td> 
-   <td colname="col3"> <p>A string that captures all the parameters (variables, IDs, key-value pairs, etc.) passed in on the event call. </p> <p>Shortened example: </p> <p> <code> d_rtbd:json,c_contextData.a.CarrierName:mobile,c_contextData.a.adid:92D56353-49C5-431E-B474-FC528D585810,c_contextData.a,RunMode:Application,c_contextData.a.DaysSinceLastUpgrade:61,d_cid_ic:xid%01EACB6E40-AC65-4012-9FE9-ABD59965E9C4%011,c_contextData.a.PrevSessionLength:583</code> </p> </td> 
+   <td colname="col3"> <p>A string that captures all the parameters (variables, IDs, key-value pairs, device advertising IDs, etc.) passed in on the event call. </p> <p>Shortened example: </p> <p> <code> d_rtbd:json,c_contextData.a.CarrierName:mobile,c_contextData.a.adid:92D56353-49C5-431E-B474-FC528D585810,c_contextData.a,RunMode:Application,c_contextData.a.DaysSinceLastUpgrade:61,d_cid_ic:xid%01EACB6E40-AC65-4012-9FE9-ABD59965E9C4%011,c_contextData.a.PrevSessionLength:583</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> Referer Data Type</code> </p> </td> 
@@ -101,7 +105,7 @@ A [!UICONTROL CDF] file includes some or all of the fields defined below. For in
   <tr> 
    <td colname="col1"> <p><code> MCDevice </code> </p> </td> 
    <td colname="col2"> <p>String </p> </td> 
-   <td colname="col3"> <p>The <span class="keyword"> Experience Cloud</span> ID (MID) assigned to the site visitor. See also, <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies and theExperience Cloud ID service</a>. </p> </td> 
+   <td colname="col3"> <p>The <span class="keyword"> Experience Cloud</span> ID (MID) assigned to the site visitor. See also, <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies and theAdobe Experience Platform Identity Service</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> All Segments</code> </p> </td> 
@@ -116,13 +120,11 @@ A [!UICONTROL CDF] file includes some or all of the fields defined below. For in
  </tbody> 
 </table>
 
-## Customer Data Feed File Structure {#cdf-file-structure}
+## [!UICONTROL Customer Data Feed] File Structure {#cdf-file-structure}
 
 Lists and defines the data structure of a [!UICONTROL CDF] file. This includes data sequence, field delimiters and separators, a data file map, and sample file.
 
 ## Data Field Identifiers and Sequence {#identifiers-and-sequence}
-
-<!-- cdf-file-structure.xml -->
 
 [!UICONTROL CDF] files do not contain labeled columns or field headers. Instead, a [!UICONTROL CDF] file defines fields and arrays with non-printing [!DNL ASCII] characters. Also, the [!UICONTROL CDF] file lists each field and array in a specific order. Understanding the field identifiers and order will help you parse the file properly.
 
@@ -145,7 +147,7 @@ Lists and defines the data structure of a [!UICONTROL CDF] file. This includes d
   </tr> 
   <tr> 
    <td colname="col1"> <p>Field Sequence </p> </td> 
-   <td colname="col2"> <p> <p>Important: <span class="keyword"> Audience Manager</span> reserves the right to add new fields to the end of the CDF file in future releases. This means the technical design of your file parsing system should not assume a fixed number of columns (though it may assume a fixed order for existing columns). </p> </p> <p>Data in your CDF file appears in the order shown below. </p> <p> 
+   <td colname="col2"> <p> <p>Important: <span class="keyword"> Audience Manager</span> reserves the right to add new fields to the end of the CDF file in future releases. This means the technical design of your file parsing system should not assume a fixed number of columns (though it may assume a fixed order for existing columns).</p> </p> <p>Data in your CDF file appears in the order shown below. /N may appear in place of any of these fields, indicating a null value.</p> <p> 
      <ol id="ol_1FDF4A7F089448ED8A724378C23009C8"> 
       <li id="li_CB97D90B54EB4F95861583D4A5F660C7">Event Time </li> 
       <li id="li_C44E8CCB1A964B7A941FD772FB8A7608">Device </li> 
@@ -155,7 +157,7 @@ Lists and defines the data structure of a [!UICONTROL CDF] file. This includes d
       <li id="li_FE38DA4969EE4E19B39124E77E2EA5F9">Request Parameters </li> 
       <li id="li_9AC25DA883214FBC902D7CE9DACFAE28">Referer </li> 
       <li id="li_BA05F1C33B5B4625B450425FF1911B30">IP Address </li> 
-      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud Device ID (or MID). See also, <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID Service</a> </li> 
+      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud Device ID (or MID). See also, <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies and the Adobe Experience Platform Identity Service</a> </li> 
       <li id="li_7A05AF4790A1425A90D019681DF4A595">All Segments </li> 
       <li id="li_1B5A6F076A354BA0A931CB260E6D2675">All Traits </li> 
      </ol> </p> <p>For field descriptions, see <a href="#cdf-defined"> Customer Data Feed Contents Defined</a>. </p> </td> 
@@ -163,7 +165,7 @@ Lists and defines the data structure of a [!UICONTROL CDF] file. This includes d
  </tbody> 
 </table>
 
-## CDF File Map {#cdf-file-map}
+## [!UICONTROL CDF] File Map {#cdf-file-map}
 
 [!UICONTROL CDF] file data appears in the order shown below.
 
@@ -171,39 +173,37 @@ Lists and defines the data structure of a [!UICONTROL CDF] file. This includes d
 
 ## Identifying Arrays
 
-Arrays in a [!UICONTROL CDF] file start and end with the `Ctrl + a` field separator. This makes the first element in an array appear like a standalone data field. For example, the realized traits array starts with `^A1234`. The array delimiter and ID `^B5678` follows this entry. As a result, you might be tempted to think that the first element in the realized traits array is ID 5678 (because it starts with `^B`). This is not the case, which is why you need to be familiar with the sequence and structure of a data file. Even though the first element in the realized trait array (or any of the other arrays in a [!UICONTROL CDF] file) starts with `^A`, the order of appearance or position in the file defines the start of an array. And, the first element in an array is always separated from the preceding entry by `^A`.
+Arrays in a [!UICONTROL CDF] file start and end with the `Ctrl + a` field separator. This makes the first element in an array appear like a standalone data field. For example, the realized [!UICONTROL traits] array starts with `^A1234`. The array delimiter and ID `^B5678` follows this entry. As a result, you might be tempted to think that the first element in the realized [!UICONTROL traits] array is ID 5678 (because it starts with `^B`). This is not the case, which is why you need to be familiar with the sequence and structure of a data file. Even though the first element in the realized [!UICONTROL trait] array (or any of the other arrays in a [!UICONTROL CDF] file) starts with `^A`, the order of appearance or position in the file defines the start of an array. And, the first element in an array is always separated from the preceding entry by `^A`.
 
-## Sample CDF File {#sample-file}
+## Sample [!UICONTROL CDF] File {#sample-file}
 
 A sample [!UICONTROL CDF] file could look similar to the following. We've inserted line breaks into this example to help it fit the page.
 
 ![](assets/CDF-sample.png)
 
-## Customer Data Feed File Naming Conventions {#cdf-naming-conventions}
+## [!UICONTROL Customer Data Feed] File Naming Conventions {#cdf-naming-conventions}
 
 The sections below list and define the elements in your [!UICONTROL CDF] file name.
 
-## CDF File Name: Syntax and Example {#cdf-file-name}
-
-<!-- cdf-file-name.xml -->
+## [!UICONTROL CDF] File Name: Syntax and Example {#cdf-file-name}
 
 A typical [!UICONTROL CDF] file name contains the elements listed below. Note, *italics* indicates a variable placeholder:
 
-* **Syntax** 
-
-<pre><code>
-s3://aam-cdf/<i>your s3 bucket name</i>/day=<i>yyyy-mm-dd</i>/hour=<i>hh</i>/<i>AAM_CDF_partner ID_AAM process ID</i>_0.gz
-</code></pre>
-
-* **Example** 
+### Syntax
 
 ```
-s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_000058_0.gz
+s3://aam-cdf/YOUR-S3-BUCKET-NAME/day=yyyy-mm-dd/hour=hh/AAM-CDF_PARTNER-ID_FILE-SEQUENCE_0.gz
+```
+
+### Example
+
+```
+s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_0_0_0.gz
 ```
 
 In your [!DNL S3] storage bucket, files are sorted in ascending order by Partner ID ([!UICONTROL PID]), day, and hour.
 
-## CDF File Name Elements Defined {#cdf-file-name-elements}
+## [!UICONTROL CDF] File Name Elements Defined {#cdf-file-name-elements}
 
 The following table lists and defines the elements in a [!UICONTROL CDF] file name.
 
@@ -236,8 +236,8 @@ The following table lists and defines the elements in a [!UICONTROL CDF] file na
    <td colname="col2"> <p>Your partner ID. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> <i>AAM process ID</i>_0</code> </p> </td> 
-   <td colname="col2"> <p>An internal, <span class="keyword"> Audience Manager</span> process ID. </p> </td> 
+   <td colname="col1"> <p> <code> <i>File Sequence</i>_0</code> </p> </td> 
+   <td colname="col2"> <p>Values which identify the file sequence. The sequence increments as follows: 0_0_0 , 0_1_0, 0_2_0....1_0_0</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> .gz</code> </p> </td> 
@@ -246,13 +246,11 @@ The following table lists and defines the elements in a [!UICONTROL CDF] file na
  </tbody> 
 </table>
 
-## Customer Data Feed File Processing Notifications {#cdf-file-processing-notifications}
+## [!UICONTROL Customer Data Feed] File Processing Notifications {#cdf-file-processing-notifications}
 
 [!DNL Audience Manager] writes a `.info` file to your [!DNL S3] directory to let you know when your [!UICONTROL Customer Data File] ([!UICONTROL CDF]) is ready for download. The `.info` file also includes [!DNL JSON] formatted metadata about the contents of your [!UICONTROL CDF] files. Review this section for information about the syntax and fields used by this notification file.
 
 ## Sample Info File {#sample-info-file}
-
-<!-- cdf-notifications.xml -->
 
 Each `.info` file contains a `Files` and `Totals` section. The `Files` section contains an array that holds specific metrics for each hourly file. The `Totals` section contains metrics aggregated across all your [!UICONTROL CDF] files for a particular day. The contents of your `.info` file could look similar to the following example.
 
@@ -283,7 +281,7 @@ Each `.info` file contains a `Files` and `Totals` section. The `Files` section c
 
 ## Info File Fields Defined {#info-file-fields-defined}
 
-The following tables list and define the elements in a [!UICONTROL CDF] `.info` file.
+The following tables list and define the elements in a [!UICONTROL CDF] `.info` file. 
 
 ### Files Object
 
@@ -351,13 +349,11 @@ The following tables list and define the elements in a [!UICONTROL CDF] `.info` 
  </tbody> 
 </table>
 
-## Customer Data Feed File Name Times and File Content Times are Different {#different-processing-times}
+## [!UICONTROL Customer Data Feed] File Name Times and File Content Times are Different {#different-processing-times}
 
 Your [!UICONTROL CDF] file contains timestamps in the file name and file contents. These timestamps record different event processes for the same [!UICONTROL CDF] file. It is not uncommon to see different timestamps in the name and contents of the same file. Understanding each timestamp can help you avoid common mistakes when working with this data or trying to sort it by time.
 
-## Locating CDF File Timestamps {#locating-timestamps}
-
-<!-- cdf-time-differences.xml -->
+## Locating [!UICONTROL CDF] File Timestamps {#locating-timestamps}
 
 [!UICONTROL CDF] files record time differently in 2 separate locations.
 
@@ -369,9 +365,9 @@ The following table provides additional details about your [!UICONTROL CDF] file
 
 | Timestamp Location | Description |
 |--- |--- |
-|File Name|The timestamp in your CDF file name marks the time when [!DNL Audience Manager] started preparing your file for delivery. This timestamp is set in the UTC time zone. It uses the `hour=` parameter, with time formatted as a 2-digit hour in 24-hour notation. This time can be different than the event time recorded in the file contents. BREAKWhen working with CDF files, sometimes you'll notice that your S3 bucket is empty for a particular hour. An empty bucket means can mean either of the following:<ul><li>There's no data for that particular hour. </li><li> Our servers are under heavy loads and can't process files for a particular hour. When the server catches up, it puts the files that should have gone in an earlier time bucket files into a bucket with a later time value. For example, you'll see this when a file that should have been in the hour 17 bucket appear in the hour 18 bucket (with `hour=18` in the file name). In this case, the server probably started processing your file in hour 17 but couldn't complete it within that time interval. Instead, the file gets pushed to the next hourly time bucket.</li></ul><br>**Important**: Do not use the file name timestamp to group events by time. If you need to group by time, use the `EventTime` timestamp in the file contents.|
-|File Contents|The timestamp in your CDF file contents marks the time the  Data Collection Servers started processing the file. This timestamp is set in the UTC time zone. It uses the `EventTime` field, with time formatted as *`yyyy-mm-dd hh:mm:ss`*. This time is close to the actual time of the event on the page, but it can be different than the hour indicator in the file name. <br> **Tip**: Unlike the `hour=` timestamp in the file name, you can use `EventTime` to group data by time.|
+|File Name|The timestamp in your [!DNL CDF] file name marks the time when [!DNL Audience Manager] started preparing your file for delivery. This timestamp is set in the [!DNL UTC] time zone. It uses the `hour=` parameter, with time formatted as a 2-digit hour in 24-hour notation. This time can be different than the event time recorded in the file contents. When working with [!DNL CDF] files, sometimes you'll notice that your [!DNL S3] bucket is empty for a particular hour. An empty bucket means can mean either of the following:<ul><li>There's no data for that particular hour. </li><li> Our servers are under heavy loads and can't process files for a particular hour. When the server catches up, it puts the files that should have gone in an earlier time bucket files into a bucket with a later time value. For example, you'll see this when a file that should have been in the hour 17 bucket appear in the hour 18 bucket (with `hour=18` in the file name). In this case, the server probably started processing your file in hour 17 but couldn't complete it within that time interval. Instead, the file gets pushed to the next hourly time bucket.</li></ul><br>**Important**: Do not use the file name timestamp to group events by time. If you need to group by time, use the `EventTime` timestamp in the file contents.|
+|File Contents|The timestamp in your [!DNL CDF] file contents marks the time the [!DNL Data Collection Servers] started processing the file. This timestamp is set in the [!DNL UTC] time zone. It uses the `EventTime` field, with time formatted as *`yyyy-mm-dd hh:mm:ss`*. This time is close to the actual time of the event on the page, but it can be different than the hour indicator in the file name. <br> **Tip**: Unlike the `hour=` timestamp in the file name, you can use `EventTime` to group data by time.|
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Customer Data Feed FAQ](../faq/faq-cdf.md)

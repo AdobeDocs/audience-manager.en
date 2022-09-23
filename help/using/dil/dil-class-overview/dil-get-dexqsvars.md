@@ -5,8 +5,9 @@ seo-title: dexGetQSVars
 solution: Audience Manager
 title: dexGetQSVars
 uuid: 6d21c7a4-43f8-456b-8831-47343dbb047e
+feature: DIL Implementation
+exl-id: 814268bc-4387-4e06-ae94-eda86993a967
 ---
-
 # dexGetQSVars{#dexgetqsvars}
 
 Retrieves a specific value from an ad server.
@@ -33,6 +34,4 @@ Returns the variable value for a [!UICONTROL DIL] instance.
 
 **Sample Code** 
 
-<pre class="java"><code>
-var value = DIL.dexGetQSVars('<i>variableName</i>','<i>partnerName</i>',<i>containerNSID</i>);
-</code></pre>
+<pre class="java"><code>var value = DIL.dexGetQSVars('<i>variableName</i>','<i>partnerName</i>',<i>containerNSID</i>);</code></pre>

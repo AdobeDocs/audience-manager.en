@@ -5,8 +5,9 @@ seo-title: Amazon S3  About
 solution: Audience Manager
 title: Amazon S3  About
 uuid: 8197ecdf-df8f-488d-bbc0-d8d4205b42b4
+feature: Reference
+exl-id: 12c4f00d-2916-4224-b834-d3a9ea86314a
 ---
-
 # Amazon S3: About{#amazon-s-about}
 
 Information about Amazon Simple Storage Service (Amazon S3).
@@ -32,4 +33,4 @@ For more information about Amazon S3, see the following resources:
 
 [Amazon Simple Storage Service (Amazon S3)](https://aws.amazon.com/s3/) on the Amazon Web Services website.
 
-[Get Started with Amazon Simple Storage Service](https://docs.aws.amazon.com/AmazonS3/latest/gsg/GetStartedWithS3.html) on the AWS Documentation website. 
+[Get Started with Amazon Simple Storage Service](https://docs.aws.amazon.com/AmazonS3/latest/gsg/GetStartedWithS3.html) on the AWS Documentation website.

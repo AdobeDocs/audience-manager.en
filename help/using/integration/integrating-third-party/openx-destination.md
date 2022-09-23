@@ -5,8 +5,9 @@ seo-title: OpenX as an Audience Manager Destination
 solution: Audience Manager
 title: OpenX as an Audience Manager Destination
 uuid: 5e86ba73-281c-403b-af06-64a1d427526a
+feature: Third-party Integration
+exl-id: 938a518b-c8b0-4e86-885f-daf79b2cba38
 ---
-
 # OpenX as an Audience Manager Destination{#openx-as-an-audience-manager-destination}
 
 Set up [!DNL OpenX] as a destination and send Audience Manager segment data to that platform.
@@ -38,11 +39,11 @@ Audience Manager sends data in the form of key-value pairs. Create key-value pai
 
 ### Only Qualified Segments are Sent to OpenX
 
-The amount data passed in to [!DNL OpenX] depends on how many segments a particular user qualifies for. For example, say you set up 100 Audience Management segments. If a site visitor qualifies for five of them, then only those five segments get sent to [!DNL OpenX] (not all 100).
+The amount data passed in to [!DNL OpenX] depends on how many segments a particular user qualifies for. For example, say you set up 100 Audience Manager segments. If a site visitor qualifies for five of them, then only those five segments get sent to [!DNL OpenX] (not all 100).
 
 ## Create an OpenX Destination {#openx-destination}
 
-Create a cookie destination for [!DNL OpenX] in Audience Management.
+Create a cookie destination for [!DNL OpenX] in Audience Manager.
 
 <!-- aam-openx-destination.xml -->
 

@@ -5,8 +5,9 @@ seo-title: Active Audience Traits and Data Source Synced Traits
 solution: Audience Manager
 title: Active Audience Traits and Data Source Synced Traits
 uuid: b4f145ab-f343-4d71-86d1-5d03f7b03809
+feature: Traits
+exl-id: 8fa4ea24-1beb-40cb-bdec-540a3f7c2573
 ---
-
 # Active Audience Traits and Data Source Synced Traits {#active-audience-traits-and-data-source-synced-traits}
 
 These are special traits used by [!UICONTROL Addressable Audiences]. [!UICONTROL Active Audience] and [!UICONTROL Data Source Synced Traits] are located in [!UICONTROL Audience Data > Traits > Audience Traits].
@@ -31,6 +32,6 @@ An [!UICONTROL Active Audience] trait contains all of the devices under manageme
 >
 >[!UICONTROL Data Source Synced Traits] are useful for troubleshooting. Click a trait name to check the metrics on the trait summary page. If your selected trait returns data, that indicates the ID synchronization process is set up properly and pushing data to [!DNL Audience Manager].
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Addressable Audiences](../../features/addressable-audiences.md)

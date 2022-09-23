@@ -5,8 +5,9 @@ seo-title: Reporting FAQ
 solution: Audience Manager
 title: Reporting FAQ
 uuid: 78cd6c86-8a4a-4748-ab71-b6e8d6078c94
+feature: Reporting Reference
+exl-id: 1e6531b2-bb39-4056-9d5e-164f50955f99
 ---
-
 # Reporting FAQ{#reporting-faq}
 
 Common reporting-related questions and issues.
@@ -76,7 +77,7 @@ See [Trait and Segment Population Data in Segment Builder](../features/segments/
 
 **I Inbound a file and my Inbound receipt shows a high number of successfully processed records, but reporting shows much lower numbers. Why?**
 
-In the backend, onboarded data gets attached only to users that are still active in AAM (user must have had recent [!UICONTROL DCS] activity in the past 120 days). Therefore, if you onboard data for users that have already expired in [!DNL Audience Manager], [!UICONTROL Inbound] might tell you that a certain number of user records were onboarded, but if these users have not had any recent activity, this data is dropped when it reaches our [!UICONTROL User Profile Store] and reporting will surface that.
+In the backend, onboarded data gets attached only to users that are still active in AAM (user must have had recent [!DNL DCS] activity in the past 120 days). Therefore, if you onboard data for users that have already expired in [!DNL Audience Manager], [!UICONTROL Inbound] might tell you that a certain number of user records were onboarded, but if these users have not had any recent activity, this data is dropped when it reaches our [!UICONTROL User Profile Store] and reporting will surface that.
 
 <br>&nbsp;
 

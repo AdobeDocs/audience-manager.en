@@ -5,8 +5,9 @@ seo-title: Data Collection Components
 solution: Audience Manager
 title: Data Collection Components
 uuid: 51bb1719-5ff2-4bc7-8eb1-98795e05d08f
+feature: System Components
+exl-id: 7ae407f1-f1e4-4545-baa2-bcca40aad76f
 ---
-
 # Data Collection Components{#data-collection-components}
 
 Data collection components include the Data Collection Servers, the DIL API, inbound server-to-server data transfers, and log files.
@@ -33,28 +34,28 @@ The DCS and PCS work together and separately provide services related to trait r
 In [!DNL Audience Manager], the DCS:
 
 * Receives and evaluates trait data from an event call. This includes information used for real-time segmentation and data passed in at scheduled intervals by server-to-server transfers. 
-* Segments users based on their realized traits and the qualification rules you create with [Segment Builder](../../features/segments/segment-builder.md#topic_E166819D26B94A868376BA54E10E4B74). 
+* Segments users based on their realized traits and the qualification rules you create with [Segment Builder](../../features/segments/segment-builder.md). 
 * Creates and manages device IDs and authenticated profile IDs. This includes identifiers such as data provider IDs, user IDs, declared IDs, integration codes, etc. 
 * Checks the PCS for additional traits a user has already realized prior to a real-time event call. This lets the DCS qualify users based on real-time data and historical data. 
 * Writes log files and sends those to analytics systems for storage and processing.
 
-**[!UICONTROL DCS] Manages Demand Through [!UICONTROL Global Server Load Balancing (GSLB)]**
+**[!DNL DCS] Manages Demand Through [!UICONTROL Global Server Load Balancing (GSLB)]**
 
-The [!UICONTROL DCS] is a geographically distributed and load-balanced system. This means [!DNL Audience Manager] can direct requests to and from a regional data center based on the geographic location of a site visitor. This strategy helps improve response times because a [!UICONTROL DCS] response goes directly to a data center that contains information about that visitor. [!UICONTROL GSLB] makes our system efficient because relevant data is cached in servers closest to the user. 
+The [!DNL DCS] is a geographically distributed and load-balanced system. This means [!DNL Audience Manager] can direct requests to and from a regional data center based on the geographic location of a site visitor. This strategy helps improve response times because a [!DNL DCS] response goes directly to a data center that contains information about that visitor. [!UICONTROL GSLB] makes our system efficient because relevant data is cached in servers closest to the user. 
 
 >[!IMPORTANT]
 >
->The [!UICONTROL DCS] only detects web traffic originating from devices that use IPv4.
+>The [!DNL DCS] only detects web traffic originating from devices that use IPv4.
 
 In an event call, geographic location is captured in a key-value pair returned in a larger body of JSON data. This key-value pair is the `"dcs_region": region ID` parameter.
 
-![](assets/datacenters.png)
+![](assets/dcs-map.png)
 
-As a customer, you engage with the [!UICONTROL DCS] indirectly through our data collection code. You can also work directly with the [!UICONTROL DCS] through a set of APIs. See [Data Collection Server (DCS) API Methods and Code](../../api/dcs-intro/dcs-event-calls/dcs-event-calls.md).
+As a customer, you engage with the [!DNL DCS] indirectly through our data collection code. You can also work directly with the [!DNL DCS] through a set of APIs. See [Data Collection Server (DCS) API Methods and Code](../../api/dcs-intro/dcs-event-calls/dcs-event-calls.md).
 
 **[!UICONTROL Profile Cache Servers (PCS)]**
 
-The [!UICONTROL PCS] is a large database (basically, a huge server-side cookie). It stores data received for active users from server-to-server transfers and the [!UICONTROL DCS]. [!UICONTROL PCS] data consists of device IDs, authenticated profile IDs, and their associated traits. When the [!UICONTROL DCS] receives a real time call, it checks the [!UICONTROL PCS] for other traits a user may belong to or qualify for. And, if a trait is added to a segment at a later time, those trait IDs are added to the [!UICONTROL PCS] and users can qualify for that segment automatically, without a visit to a particular site or app. The [!UICONTROL PCS] helps deepen [!DNL Audience Manager]'s understanding of your users because it can match and segment users in real time or behind the scenes with new and historic trait data. This behavior gives you a more complete and accurate picture of your users than from real-time qualifications alone.
+The [!UICONTROL PCS] is a large database (basically, a huge server-side cookie). It stores data received for active users from server-to-server transfers and the [!DNL DCS]. [!UICONTROL PCS] data consists of device IDs, authenticated profile IDs, and their associated traits. When the [!DNL DCS] receives a real time call, it checks the [!UICONTROL PCS] for other traits a user may belong to or qualify for. And, if a trait is added to a segment at a later time, those trait IDs are added to the [!UICONTROL PCS] and users can qualify for that segment automatically, without a visit to a particular site or app. The [!UICONTROL PCS] helps deepen [!DNL Audience Manager]'s understanding of your users because it can match and segment users in real time or behind the scenes with new and historic trait data. This behavior gives you a more complete and accurate picture of your users than from real-time qualifications alone.
 
 There are no UI controls that lets our customers work directly with the [!UICONTROL PCS]. Customer access to the [!UICONTROL PCS] is indirect, through its role as a data store and data transfers. The [!UICONTROL PCS] runs on Apache Cassandra.
 
@@ -83,12 +84,12 @@ These server systems handle privacy and user opt-out requests. User cookie infor
 
 ## Inbound Server-to-Server {#inbound-outbound-server}
 
-These are systems that receive data sent in by various server-to-server integrations with our clients. See the documentation on [sending audience data](../../integration/sending-audience-data/real-time-data-integration/real-time-data-integration.md) for more information.
+These are systems that receive data sent in by various server-to-server integrations with our clients. See the documentation on [sending audience data](/help/using/integration/sending-audience-data/real-time-data-integration/real-time-tech-specs.md) for more information.
 
 ## Log Files {#log-files}
 
 The [!UICONTROL PCS] creates and writes data to the log files. These are sent to other database systems for processing, reporting, and storage. 
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Adobe Privacy Center](https://www.adobe.com/privacy.html)

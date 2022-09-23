@@ -5,8 +5,9 @@ seo-title: Segment Performance Report
 solution: Audience Manager
 title: Segment Performance Report
 uuid: 5156a4c7-831d-4a95-a1be-eb516f0d91b7
+feature: Audience Optimization Reports
+exl-id: 2cd54b18-6916-4d69-bd65-7b8c8846c446
 ---
-
 # Segment Performance Report{#segment-performance-report}
 
 The [!UICONTROL Segment Performance] report compares mapped and unmapped segments by impressions and conversion rates. A mapped segment is a segment you create and send to a destination for targeting. An unmapped segment is a segment that you've created but have not sent to a destination for targeting. Comparing these different segment types within and between reports helps you optimize existing campaigns and find overlooked segments that you may want to send to a destination for targeting.

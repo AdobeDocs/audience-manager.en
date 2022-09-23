@@ -5,8 +5,9 @@ seo-title: Name and Content Requirements for ID Synchronization Files
 solution: Audience Manager
 title: Name and Content Requirements for ID Synchronization Files
 uuid: bfe42af9-9149-4da3-830e-f227c4e610c2
+feature: Inbound Data Transfers
+exl-id: e6b3a438-f843-4a24-89fd-03ef77d7cf04
 ---
-
 # Name and Content Requirements for ID Synchronization Files {#name-and-content-requirements-for-id-synchronization-files}
 
 Describes the required fields, syntax, and naming conventions used for file-based ID synchronization. Name and organize your file contents according to these specifications.
@@ -21,7 +22,7 @@ Describes the required fields, syntax, and naming conventions used for file-base
 
 ID file names contain the following required and optional elements:
 
-`adobe_id_`*`MASTERDPID_DPID[_DPID_DPID`*`]_`*`TIMESTAMP`*`.sync[.`*`SPLIT_NUMBER`*`][.gz]`
+*`[adobe_id_]`* *`[c2c_id_]`*`MASTERDPID_DPID`*`[_DPID]`*`_TIMESTAMP.sync`*`[.SPLIT_NUMBER]`*`[.gz]`
 
 <table id="table_727A465D7C38419CA0750EF32DEDA2FD"> 
  <thead> 
@@ -33,11 +34,15 @@ ID file names contain the following required and optional elements:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> adobe_id</code> </p> </td> 
-   <td colname="col2"> <p>A static prefix that identifies the file as an ID file. </p> </td> 
+   <td colname="col2"> <p>A static prefix that identifies the file as an ID synchronization file. Use this prefix when matching device IDs to other device IDs or customer IDs (DPUUIDs).  </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <code> c2c_id</code> </p> </td> 
+   <td colname="col2"> <p>A static prefix that identifies the file as an ID synchronization file for People-Based Destinations. Use this prefix when matching customer IDs (DPUUIDs) to hashed email addresses for People-Based Destinations.  </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><code><i>MASTERDPID</i></code> </td> 
-   <td colname="col2"> The master data provider ID is the parent ID of the DPIDs in the file name. Also, the first user ID in the data file corresponds to the master ID. The subsequent DPIDs are other identifiers that belong to the master. Synchronization maps DPIDs in the file name to UUIDs in the file. </td> 
+   <td colname="col2"> <p>The master data provider ID is the parent ID of the DPIDs in the file name. Also, the first user ID in the data file corresponds to the master ID. The subsequent DPIDs are other identifiers that belong to the master. Synchronization maps DPIDs in the file name to UUIDs in the file.</p> <p>This DPID must only contain device IDs, such as AAM UUID, GAID, IDFA, and so on. It cannot contain DPUUIDs. Doing so can result in incorrect synchronization.</p>  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>DPID</i></code> </p> </td> 
@@ -70,7 +75,11 @@ The following examples show properly formatted files names. Your file names coul
  <li> <code> adobe_id_111_222_333_444_1454442149.sync</code> </li> 
  <li> <code> adobe_id_123_898_456_1454442149.sync.1.gz</code> </li> 
  <li> <code> adobe_id_123_898_456_1454442149.sync.2.gz</code> </li> 
+ <li> <code>c2c_id_123_898_1454442149.sync.gz</code> </li> 
 </ul>
+
+>[!NOTE]
+> For ID synchronization file naming (c2c prefix) for People-Based Destinations, see [Workflow A - Personalization Based on All Online Activity Combined with Offline Data](../../../features/destinations/people-based-destinations-workflow-combined.md) or [Workflow B - Personalization Based on Offline-Only Data](../../../features/destinations/people-based-destinations-workflow-offline.md).
 
 ## File Content Syntax and Examples {#file-content-syntax}
 
@@ -83,6 +92,14 @@ The file contains user IDs ([!DNL UUID]). In each row, separate the IDs with a t
 ```
 abc123 def456 ghi789 xyz987
 ```
+
+### File Content Considerations {#considerations}
+
+When creating your inbound files, make sure the first column is only populated with device IDs, such as [!DNL AAM UUID], [!DNL GAID], [!DNL IDFA], and so on. See [Index of IDs in Audience Manager](../../../reference/ids-in-aam.md) for a detailed explanation of IDs supported by Audience Manager.
+
+>[!IMPORTANT]
+>
+>Do not use [DPUUIDs](../../../reference/ids-in-aam.md) on the first column. Doing so can result in incorrect synchronization.
 
 ## Synchronization Matches DPUUIDs to UUIDs {#sync-matches-dpuuids-uuids}
 

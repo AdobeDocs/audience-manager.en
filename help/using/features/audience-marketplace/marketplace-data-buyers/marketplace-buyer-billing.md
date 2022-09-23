@@ -4,13 +4,16 @@ seo-description: Audience Marketplace data buyers agree to report all ad impress
 seo-title: Billing for Data Feed Buyers
 solution: Audience Manager
 title: Billing for Data Feed Buyers
-topic: DIL API
+keywords: Segment-level Reporting, segment-level, segment level
 uuid: d7236667-282b-4160-9909-579721af4016
+feature: Audience Marketplace
+exl-id: 401cf3be-fa84-4654-936e-e2871fef0be9
 ---
-
 # Billing for Data Feed Buyers {#billing-for-data-feed-buyers}
 
 Audience Marketplace data buyers agree to report all ad impressions served using traits contained in the data feed priced on a cost per thousand ad impressions ([!DNL CPM]) basis. [!DNL CPM] usage is due on the 5th day of each calendar month and includes data for previous month. Flat fee subscribers do not need to report usage.
+
+<br>&nbsp;
 
 ## How to Report CPM Usage {#report-cpm-usage}
 
@@ -23,6 +26,8 @@ Audience Marketplace data buyers agree to report all ad impressions served using
 * **Segment-level reporting**: this is the recommended [!DNL CPM] usage reporting method. When you report [!DNL CPM] usage at segment level, the data feed-level reporting section is automatically filled in with the corresponding usage amounts, based on the algorithms described in [Cost Attribution for CPM Data Feeds](#cost-attribution).
 * **Data feed-level reporting**: this method requires you to individually report the [!DNL CPM] usage for each data feed, based on the algorithms described in [Cost Attribution for CPM Data Feeds](#cost-attribution). However, this method is more tedious and prone to error than segment-level reporting.
 
+<br>&nbsp;
+
 ## Report CPM Usage at Segment Level {#segment-level-report}
 
 The [!UICONTROL Segment Usage] tab allows you to report segment-level usage, while displaying the segments grouped by the destinations they are mapped to.
@@ -32,13 +37,21 @@ After reporting [!DNL CPM] usage at segment level, [!UICONTROL Audience Marketpl
 To report [!DNL CPM] usage at segment level:
 
 1. Go to **[!UICONTROL Audience Marketplace > Payables]**.
-2. Select the **[!UICONTROL Segment Usage]** tab.
-3. Fill in the usage for your segments. You can use the [!UICONTROL Search] box to filter the segments if you only need to report usage for some of them.
-4. Click **[!UICONTROL Edit Segments Usage]**.
-5. Enter the [!DNL CPM] usage amount in the [!UICONTROL Usage] column.
-6. Click **[!UICONTROL Save]** when you're done and review the confirmation dialog.
+1. Select the **[!UICONTROL Segment Usage]** tab.
+1. Fill in the usage for your segments. You can use the [!UICONTROL Search] box to filter the segments if you only need to report usage for some of them.
+1. Click **[!UICONTROL Edit Segments Usage]**.
+1. Enter the [!DNL CPM] usage amount in the [!UICONTROL Usage] column.
+1. Click **[!UICONTROL Save]** when you're done and review the confirmation dialog.
+
    ![confirm-segment-usage](assets/confirm-segment-usage.png)
-7. Click **[!UICONTROL Confirm]**.
+
+1. Click **[!UICONTROL Confirm]**.
+
+See also our video demonstration of how you can report segment-level usage:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25522/)
+
+&nbsp;
 
 ## Report CPM Usage at Data Feed Level {#feed-level-report}
 
@@ -57,6 +70,8 @@ To report [!DNL CPM] usage at segment level:
 
 7. Click **[!UICONTROL Confirm]**.
 
+<br>&nbsp;
+
 ## Bulk Reporting
 
 To reduce errors and overhead while reporting [!DNL CPM] usage, you can use the bulk reporting option to download a [!DNL CSV] file containing the data feeds and segments, fill in the usage, and upload it back to [!DNL Audience Manager]. You can use bulk reporting to report both feed and segment usage.
@@ -74,6 +89,8 @@ To update [!DNL CPM] usage in bulk:
 
 1. [!DNL Audience Manager] validates the file as soon as you upload it and prompts you if it detects any errors in the file.
 
+<br>&nbsp;
+
 ### Bulk Reporting Validation Errors
 
 | Error Message | Description   |  Fix  |
@@ -86,6 +103,8 @@ To update [!DNL CPM] usage in bulk:
 
 >[!NOTE]
 >Removing rows from the [!DNL CSV] usage report does not have any effect on the existing usage report. [!DNL Audience Manager] only processes the fields included in the report.
+
+<br>&nbsp;
 
 ## [!DNL CPM] Reporting Best Practices
 
@@ -108,6 +127,8 @@ To update [!DNL CPM] usage in bulk:
   </tr> 
  </tbody> 
 </table>
+
+<br>&nbsp;
 
 ## Cost Attribution for CPM Data Feeds {#cost-attribution}
 
@@ -133,9 +154,11 @@ After you report [!DNL CPM] number for the previous calendar month, [!DNL Adobe]
 >
 >As a buyer, all reported impression totals must be true and accurate. If you fail to report impression totals by the 5th day of each month, you must include totals for the unreported month in the following month.
 
+<br>&nbsp;
+
 ## Assign Impressions at Feed Level Based on Trait Qualification Rules {#assign-impressions}
 
-The [!UICONTROL Activation] use case lets you use traits in the corresponding data feed to create segments in [Segment Builder](../../../features/segments/segment-builder.md#topic_E166819D26B94A868376BA54E10E4B74) and map those segments to a destination. The Boolean operators [!UICONTROL AND], [!UICONTROL OR], and [!UICONTROL NOT] let you set the conditions for trait and segment qualification.
+The [!UICONTROL Activation] use case lets you use traits in the corresponding data feed to create segments in [Segment Builder](../../../features/segments/segment-builder.md) and map those segments to a destination. The Boolean operators [!UICONTROL AND], [!UICONTROL OR], and [!UICONTROL NOT] let you set the conditions for trait and segment qualification.
 
 When you [Report CPM Usage at Data Feed Level](#feed-level-report), you must allocate impressions proportionally for each data feed, according to the [!DNL Boolean] operators used in the trait qualification rules. The following table lists how to properly allocate impressions by Boolean rule or trait type.
 
@@ -169,16 +192,20 @@ When you [Report CPM Usage at Data Feed Level](#feed-level-report), you must all
  </tbody>
 </table>
 
+<br>&nbsp;
+
 ## Billing Examples {#billing-examples}
 
 The examples below are meant to illustrate how [!DNL CPM] usage allocation is done at data feed level.
 
->[!MPORTANT]
+>[!IMPORTANT]
 >We recommend that you [Report CPM Usage at Segment Level](#segment-level-report) instead, to have this process done automatically.
 
 Let's consider the following scenario:
 
 ![billing-examples](assets/billing-examples.png)
+
+<br>&nbsp;
 
 ### Case 1: Segments With AND Qualification Rules
 
@@ -190,6 +217,8 @@ With an [!UICONTROL AND] condition, you must assign 100% of the impressions rece
 
 This example applies to segments that use [!DNL Boolean] [!UICONTROL NOT] operators or for segments that contain algorithmic traits.
 
+<br>&nbsp;
+
 ### Case 2: Segments With OR Qualification Rules
 
 This segment contains 3 traits from separate data providers. Since segment qualification is based on an [!UICONTROL OR] condition, visitors have to realize at least one of the three traits to qualify for the segment.
@@ -198,9 +227,40 @@ We cannot tell which trait is responsible for an impression because qualificatio
 
 ![billing-segment-or](assets/billing-segment-or.png)
 
->[!MORE_LIKE_THIS]
+<br>&nbsp;
+
+### Case 3: Segments with Modeling and Activation Use Cases
+
+This example describes attribution based on two Data Feed use cases - Modeling and Activation. In the example, we are looking at two data providers, with the following information:
+
+![data-feed](assets/feed-use-cases.png)
+
+In the table further below, Segment X contains two traits, T1 and T2, with the segment rule T1 OR T2, where:
+
+* T1 is a trait from Data Feed A;
+* T2 is an algorithmic trait modeled after third-party traits from Data Feed A and Data Feed B.
+
+The segment is mapped to a destination and 1,000,000 impressions are entered for this segment in a month, using [Segment-Level Reporting](#segment-level-report).
+
+Of these 1,000,000 impressions:
+
+* T1 makes up 40% of the segment population, which translates to 400,000 impressions for Feed A.
+* T2 makes up 60% of the segment population, which translates to 600,000 impressions for Feed A and Feed B.
+
+At a data feed level, the way the impressions are allocated is:
+
+* Data Feed A receives 600,000 impressions from trait T2 (which is modeled on traits from Data Feed A and Data Feed B, so both receive the impressions) and 400,000 impressions from trait T1 (which is a trait from Data Feed A), totaling 1,000,000 impressions.
+* Data Feed B receives 600,000 impressions from trait T2 (see explanation above) and 0 impressions from trait T1.
+
+The at-a-glance breakdown by data feed and use case is as follows:
+
+![feed-breakdown](assets/feed-breakdown-alt.png)
+
+>[!NOTE]
 >
->* [Billing and Impression Allocation for Flat Fee Data Feeds](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
+>For the modelling use case, you should only report CPM usage upon activation. If you only run a model, but do not activate it, then no usage reporting is required.
+
+<br>&nbsp;
 
 ## Billing and Impression Allocation for Flat Fee Data Feeds {#billing-flat-fee}
 

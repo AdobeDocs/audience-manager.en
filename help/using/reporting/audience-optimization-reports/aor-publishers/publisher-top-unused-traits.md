@@ -5,8 +5,9 @@ seo-title: Top Unused Traits
 solution: Audience Manager
 title: Top Unused Traits
 uuid: 90bcd333-41b8-416e-aa4e-a8661891df50
+feature: Audience Optimization Reports
+exl-id: d0ae72c0-1fb1-423a-a7e6-de955bd7f3c5
 ---
-
 # Top Unused Traits{#top-unused-traits}
 
 Top Unused Traits are represented as a scatter diagram of traits that are not yet members of a segment, based on trait type, data source, and performance.
@@ -31,7 +32,7 @@ Use the **[!UICONTROL Traits]** drop-down box to select which traits you want to
 
 >[!IMPORTANT]
 >
->When enabling [!UICONTROL Audience Optimization for Publishers], you must include descriptive metadata for [!UICONTROL Order IDs], as described in Step 3 of [Import DFP Data Files Into Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). By doing this, you assure that the report details the web property as [!UICONTROL Order] instead of the [!UICONTROL Order ID].
+>When enabling [!UICONTROL Audience Optimization for Publishers], you must include descriptive metadata for [!UICONTROL Order IDs], as described in Step 3 of [Import Google Ad Manager (formerly DFP) Data Files Into Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). By doing this, you assure that the report details the web property as [!UICONTROL Order] instead of the [!UICONTROL Order ID].
 
 ## Interpreting the Results {#interpreting-results}
 
@@ -82,7 +83,7 @@ See descriptions for the additional information in the table below the sample re
 
 The position of your traits in a report can tell you a lot about which traits you could use to optimize existing audience segments. 
 
-The traits situated higher on the Impressions axis are the ones you want to use in your campaigns. For traits with a low number of impressions, it is unlikely that you're reaching this audience on your web property, based on your DFP data. 
+The traits situated higher on the Impressions axis are the ones you want to use in your campaigns. For traits with a low number of impressions, it is unlikely that you're reaching this audience on your web property, based on your [!DNL Google Ad Manager] data. 
 
 Look to the left of the [!UICONTROL Unique Trait Realizations] axis for highly accurate traits and to the right for traits that can drive scale.
 

@@ -5,23 +5,19 @@ seo-title: Data Collection and Product Integration FAQ
 solution: Audience Manager
 title: Data Collection and Product Integration FAQ
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
+keywords: SFTP; SFTP address; STFP IP address; FTP address
+feature: Administration
+exl-id: 2951ab0c-6f1c-4126-b83e-ce4a33c0d4ab
 ---
-
 # Data Collection and Product Integration FAQ{#data-collection-and-product-integration-faq}
 
 Common data collection and integration questions and issues.
 
 <br>&nbsp;
 
-<!-- 
+**How can I differentiate inbound traffic from [!DNL DCS] traffic in [!DNL DCS] log file exports?**
 
-faq_data_collection_integration.xml
-
- -->
-
-**How can I differentiate inbound traffic from [!UICONTROL DCS] traffic in [!UICONTROL DCS] log file exports?**
-
-Traits onboarded via [!UICONTROL Inbound] are populated by [!UICONTROL Inbound] the same way they get populated by [!UICONTROL DCS]. There are a few different ways to tell that traffic came from [!UICONTROL Inbound]:
+Traits onboarded via [!UICONTROL Inbound] are populated by [!UICONTROL Inbound] the same way they get populated by [!DNL DCS]. There are a few different ways to tell that traffic came from [!UICONTROL Inbound]:
 
 * Remote IP will be set to 68.67.173.18
 * DomainID will be set to 5325
@@ -29,22 +25,43 @@ Traits onboarded via [!UICONTROL Inbound] are populated by [!UICONTROL Inbound] 
 
 <br>&nbsp;
 
-**Can you provide me with a list of IP addresses I can whitelist for dpm.demdex.net?**
+**Can you provide me with a list of IP addresses I can add to an allow list for dpm.demdex.net?**
 
 Unfortunately, we cannot. These IPs are assigned dynamically, by geographic region, through [!DNL Amazon Web Services]. As a result, [!DNL Audience Manager] does not control the range of IPs that can be assigned to this address.
 
-<br>&nbsp;
+&nbsp;
 
-**Can you provide me with an IP address I can whitelist for your inbound and outbound FTP server?**
+**Can you provide me with an IP address I can add to an allow list for your inbound and outbound SFTP server?**
 
 Yes, see below.
 
-Item| Address |
----------|----------|
- ftp-in.demdex.com | 54.225.117.163 |
- ftp-out.demdex.com | 23.23.188.76 |
+| Server | IP Addresses |
+| ---------|----------|
+| ftp-in-gtw.demdex.com | 52.3.74.119; 3.233.68.222 |
+| ftp-out-gtw.demdex.com | 23.22.232.252; 18.211.109.184 |
 
-<br>&nbsp;
+&nbsp;
+
+The SFTP servers below are deprecated. No new accounts will be provisioned using these servers.
+
+|Server| IP Address |
+|---------|----------|
+| ftp-in.demdex.com | 54.225.117.163 |
+| ftp-out.demdex.com | 23.23.188.76 |
+
+&nbsp;
+
+**How do I configure my Audience Manager instance to use the new SFTP servers?**
+
+Contact your [!DNL Audience Manager] consultant or Customer Care and they will configure your new SFTP accounts.
+
+&nbsp;
+
+**What are the supported authentication methods for the new SFTP servers?**
+
+The new SFTP servers (`ftp-in-gtw` and `ftp-out-gtw`) support [!DNL OpenSSH Key-Based Authentication]. We can generate the [!DNL SSH] keys for you, or you can provide us with your own public key.
+
+&nbsp;
 
 **What are the code placement and page load requirements for a [!UICONTROL DIL]/[!DNL Analytics] Data Integration?**
 
@@ -60,11 +77,11 @@ As a best practice, set up your [!DNL Audience Manager]- [!DNL Analytics] integr
 
 * Put [!UICONTROL DIL] directly in the `s_code`.
 
-* Serve [!UICONTROL DIL] and the `s_code` through [!DNL Adobe Launch] or [!DNL Adobe DTM].
+* Serve [!UICONTROL DIL] and the `s_code` through [!DNL Adobe Experience Platform Tags].
 
 See [Data Integration Library (DIL) API](../dil/dil-overview.md).
 
-<br>&nbsp;
+&nbsp;
 
 **Why are my [!DNL Analytics] variables missing from an [!DNL Audience Manager] event call?**
 
@@ -73,7 +90,7 @@ This usually happens when:
 * You serve [!UICONTROL DIL] through a tag management system that loads it asynchronously with other code elements on the page. 
 * The `s.t()` function loads before [!UICONTROL DIL].
 
-<br>&nbsp;
+&nbsp;
 
 **What versions of [!DNL Analytics] work with [!UICONTROL DIL]?**
 
@@ -127,9 +144,9 @@ Yes, [!DNL Audience Manager] can provide you with data collected for users we've
 
 <br>&nbsp;
 
-**I want to collect data on one site and target users via DFP on a different site. Do I need to deploy code on the other property if I don't want to collect data from that location?**
+**I want to collect data on one site and target users via [!DNL Google Ad Manager] on a different site. Do I need to deploy code on the other property if I don't want to collect data from that location?**
 
-No. If data collection on the second site is not a requirement, you don't need to deploy DIL there. As long as you have access to the inventory on the second site via DFP, you can use the data collection from the initial site and target via DFP.
+No. If data collection on the second site is not a requirement, you don't need to deploy DIL there. As long as you have access to the inventory on the second site via [!DNL Google Ad Manager], you can use the data collection from the initial site and target via [!DNL Google Ad Manager].
 
 <br>&nbsp;
 
@@ -139,9 +156,9 @@ Each provider brings something unique to the table, so the answer depends on wha
 
 <br>&nbsp;
 
-**How does [!DNL Audience Manager] set cookies and pass variables to DFP?**
+**How does [!DNL Audience Manager] set cookies and pass variables to [!DNL Google Ad Manager]?**
 
-[!DNL Audience Manager] sets 2 cookies: One sends segment variables to the DFP ad tag and the other sets our unique user ID (UUID), which is also read by DFP. Adding the UUID to the ad tag means we can do user-level reporting and audience discovery.
+[!DNL Audience Manager] sets 2 cookies: One sends segment variables to the [!DNL Google Ad Manager] ad tag and the other sets our unique user ID (UUID), which is also read by [!DNL Google Ad Manager]. Adding the UUID to the ad tag means we can do user-level reporting and audience discovery.
 
 <br>&nbsp;
 
@@ -167,13 +184,13 @@ No, do not rely on the [!UICONTROL General Reports] and [!UICONTROL Trend Report
 
 The reports compute populations based on the unauthenticated profile records (UUIDs) we see in the backend at the time the reports are generated.
 
-On a first call to the [!UICONTROL DCS], the declared IDs are *not* linked to any UUID (i.e. no [demdex cookie](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_am.html) is present on the client side). The [!UICONTROL DCS] will randomly generate a UUID and set a [!DNL demdex] cookie and pass it on in the response call, but it will not transmit the UUID to the backend.
+On a first call to the [!DNL DCS], the declared IDs are *not* linked to any UUID (i.e. no [demdex cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html) is present on the client side). The [!DNL DCS] will randomly generate a UUID and set a [!DNL demdex] cookie and pass it on in the response call, but it will not transmit the UUID to the backend.
 
 >[!NOTE]
 >
 >The generated UUID will only be materialized in our backend data storage once the device on which the cookie is set will trigger further activity.
 
-For this reason, the reports will not reflect the events triggered by the declared IDs in your call. We recommend you use UUID, ECID (formerly MID) or mobile device IDs in event test calls to the [!UICONTROL DCS]. Then, you can verify the trait and segment realizations in the [!UICONTROL General Reports] and in the [!UICONTROL Trend Reports].
+For this reason, the reports will not reflect the events triggered by the declared IDs in your call. We recommend you use UUID, ECID (formerly MID) or mobile device IDs in event test calls to the [!DNL DCS]. Then, you can verify the trait and segment realizations in the [!UICONTROL General Reports] and in the [!UICONTROL Trend Reports].
 
 See also, the [Index of Audience Manager IDs](../reference/ids-in-aam.md).
 
@@ -182,3 +199,11 @@ See also, the [Index of Audience Manager IDs](../reference/ids-in-aam.md).
 **How long does it take for user profiles to sync across [regions](../api/dcs-intro/dcs-api-reference/dcs-regions.md)?**
 
 It usually takes up to 24 hours for a user profile to sync across regions. However, in rare cases, the process can take up to 48 hours.
+
+&nbsp;
+
+**What happens to inactive Amazon S3 user access keys?**
+
+Adobe provides Audience Manager customers with user access keys for the Audience Manager [!DNL Amazon S3] buckets. For security reasons, the keys are automatically disabled after 100 days of inactivity.
+
+To re-enable your access keys or request new ones, contact Customer Support.

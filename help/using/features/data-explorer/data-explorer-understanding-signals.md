@@ -4,8 +4,9 @@ seo-description: Signals are the smallest unit of information within Audience Ma
 seo-title: Understanding Signals
 title: Understanding Signals
 uuid: 04a0554e-954e-484a-8838-9161ef416872
+feature: Data Explorer
+exl-id: 12ab53e5-302b-4a82-9d8e-07b60139c65e
 ---
-
 # Understanding Signals
 
 Signals are the smallest unit of information within Audience Manager. They represent user interactions or user activity on your on-line properties, and get passed on to Audience Manager to be used in trait rules.

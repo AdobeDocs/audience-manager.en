@@ -4,8 +4,9 @@ seo-description: Information to help you contact Adobe and to understand the leg
 seo-title: Contact and Legal Information
 solution: Audience Manager
 title: Contact and Legal Information
+feature: Support
+exl-id: 02c80394-c5ed-4963-8543-4585c0c289c6
 ---
-
 # Contact and Legal Information {#legal-contact}
 
 Information to help you contact Adobe and to understand the legal issues concerning your use of this product and documentation.
@@ -27,8 +28,8 @@ Dependent on your solution configuration, some options described in this documen
 
 Published by Adobe Systems Incorporated.
 
-[Terms of Use](https://marketing.adobe.com/resources/help/en_US/terms.html) | [Privacy Center](https://www.adobe.com/privacy.html)
+[Terms of Use](https://www.adobe.com/legal/terms.html) | [Privacy Center](https://www.adobe.com/privacy.html)
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 
-All third-party trademarks are the property of their respective owners. Updated Information/Additional Third Party Code Information available at [https://www.adobe.com/go/thirdparty](https://www.adobe.com/products/eula/third_party/). 
+All third-party trademarks are the property of their respective owners. Updated Information/Additional Third Party Code Information available at [https://www.adobe.com/go/thirdparty](https://www.adobe.com/products/eula/third_party/).

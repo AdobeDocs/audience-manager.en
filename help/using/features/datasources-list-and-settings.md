@@ -5,35 +5,30 @@ seo-title: Data Sources List and Settings
 solution: Audience Manager
 title: Data Sources List and Settings
 uuid: 280a6acd-fef0-4737-a96d-9e22fbc8bfaf
+feature: Data Sources
+exl-id: c561d51e-e1dc-413e-bf24-13f04f10abe6
 ---
+# [!UICONTROL Data Sources] List and Settings {#data-sources-list-and-settings}
 
-# Data Sources List and Settings {#data-sources-list-and-settings}
+View a list of your currently configured [!UICONTROL data sources], add new [!UICONTROL data sources], and edit existing [!UICONTROL data sources].
 
-View a list of your currently configured data sources, add new data sources, and edit existing sources.
+You can also manage [!UICONTROL data sources] using [!DNL API] methods. For more information, see [Data Source API Methods](../api/rest-api-main/aam-api-data-sources.md).
 
-<!-- c_datasources.xml -->
-
-You can also manage data sources using [!DNL API] methods. For more information, see [Data Source API Methods](../api/rest-api-main/aam-api-data-sources.md).
-
-## Data Sources List View {#list-view}
+## [!UICONTROL Data Sources] List View {#list-view}
 
 The [!UICONTROL Data Sources] dashboard is a centralized workspace for managing data sources.
 
-<!-- c_datasources_list.xml -->
-
 The [!UICONTROL Data Sources] dashboard (**[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]**) contains features and tools that help you:
 
-* See all your existing data sources, including each data source's description, status, and whether it is [!UICONTROL Inbound], [!UICONTROL Outbound], both, or a [!UICONTROL Shared Provider].
-* Search for data sources by name.
-* Create, edit, and delete data sources.
+* See all your existing [!UICONTROL data sources], including each data source's description, status, and whether it is [!UICONTROL Inbound], [!UICONTROL Outbound], both, or a [!UICONTROL Shared Provider].
+* Search for [!UICONTROL data sources] by name.
+* Create, edit, and delete [!UICONTROL data sources].
 
-## Data Source Settings and Menu Options {#settings-menu-options}
+## [!DNL Data Source] Settings and Menu Options {#settings-menu-options}
 
-The settings in the different sections of the [!UICONTROL Data Source] management interface identify your data source, determine how it is used or shared, and let you enable error reporting for the [!UICONTROL Onboarding Status Report].
+The settings in the different sections of the [!UICONTROL Data Source] management interface identify your [!DNL data source], determine how it is used or shared, and let you enable error reporting for the [!UICONTROL Onboarding Status Report].
 
-## Data Source Details {#details}
-
-<!-- datasource-settings-definitions.xml -->
+## [!DNL Data Source] Details {#details}
 
 In addition to text fields, the [!UICONTROL Data Source Details] section contains the controls and options listed below.
 
@@ -54,13 +49,13 @@ In addition to text fields, the [!UICONTROL Data Source Details] section contain
       <li id="li_063F1B263B3B4D69B8880F7ACCB82450"> <b><span class="uicontrol"> Cross Device</span></b>: A customer-provided, authenticated ID. Select this option when you want to create: 
        <ul id="ul_D998B4081AD843C2B3B3E642DD011C1F"> 
         <li id="li_C9D2AF70603043D7BE9DF12FD494D7C7">A cross-device data source and build a <span class="wintitle"> Profile Merge Rule</span>. </li> 
-        <li id="li_992BD05E2AFE454CAA4460DDEB2B839B">A data source that uses links provided by the <a href="https://marketing.adobe.com/resources/help/en_US/mcdc/" format="https" scope="external"> Adobe Experience Cloud Device Co-op</a> or another, third-party device graph that is integrated with <span class="keyword"> Audience Manager</span>. </li> 
+        <li id="li_992BD05E2AFE454CAA4460DDEB2B839B">A data source that uses links provided by a third-party device graph that is integrated with <span class="keyword"> Audience Manager</span>. </li> 
        </ul> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> ID Definition</span></b> </p> </td> 
-   <td colname="col2"> <p>The <b><span class="uicontrol"> ID Definition</span></b> options define the relationship a data source has to an <span class="keyword"> Audience Manager</span> user ID (UUID) and associated devices linked by the <span class="keyword"> Adobe Experience Cloud Device Co-op</span> or another, third-party device graph that is integrated with <span class="keyword"> Audience Manager</span>. Options include: </p> <p> 
+   <td colname="col2"> <p>The <b><span class="uicontrol"> ID Definition</span></b> options define the relationship a data source has to an <span class="keyword"> Audience Manager</span> user ID (UUID) and associated devices linked by a third-party device graph that is integrated with <span class="keyword"> Audience Manager</span>. Options include: </p> <p> 
      <ul id="ul_718ADABF0C0C44E29643C85C69CE294F"> 
       <li id="li_19936095319446698E9A577385CD2A80"> <b><span class="uicontrol"> Person:</span></b> The ID used to define a single person. This ID can be mapped to multiple <span class="keyword"> Audience Manager</span> IDs. </li> 
       <li id="li_3D939AFF34654D618A05D2603F34462D"> <b><span class="uicontrol"> Household:</span></b> The ID used to define a group of people. This ID can be mapped to multiple Audience Manager IDs. </li> 
@@ -69,13 +64,13 @@ In addition to text fields, the [!UICONTROL Data Source Details] section contain
  </tbody> 
 </table>
 
-## Data Export Controls {#export-controls}
+## [!UICONTROL Data Export Controls] {#export-controls}
 
-[Data Export Controls](../features/data-export-controls.md) are optional classification rules you can apply to a data source and destination. They prevent you from sending data to a destination when that action violates a data privacy or use agreement. Skip this section if you do not use [!UICONTROL Data Export Controls].
+[Data Export Controls](../features/data-export-controls.md) are optional classification rules you can apply to a [!UICONTROL data source] and [!UICONTROL destination]. They prevent you from sending data to a [!UICONTROL destination] when that action violates a data privacy or use agreement. Skip this section if you do not use [!UICONTROL Data Export Controls].
 
 >[!IMPORTANT]
 >
->Export restrictions will not work unless you set a matching export label on a destination.
+>Export restrictions will not work unless you set a matching export label on a [!UICONTROL destination].
 
 Options include:
 
@@ -85,13 +80,17 @@ Options include:
 * **[!UICONTROL Cannot be used for off-site ad targeting]**
 * **[!UICONTROL Cannot be used for on-site personalization]**
 
-## Data Source Settings {#data-source-settings}
+## [!UICONTROL Data Source] Settings {#data-source-settings}
 
 The [!UICONTROL Data Source Settings] contains the controls and options listed below. Some of these settings have additional sub-options and menu items that you can select to modify a data source.
 
-### Inbound Data Source Settings
+### [!UICONTROL Inbound Data Source] Settings
 
 Select the **[!UICONTROL Inbound]** check box when your data source is designed to receive inbound data. Selecting the **[!UICONTROL Inbound]** check box exposes 2 additional groups of controls described below.
+
+>[!NOTE]
+>
+>The **[!UICONTROL Inbound]** check box is only meant to display or hide the [!UICONTROL data source] controls described below. Unchecking the **[!UICONTROL Inbound]** option does not affect data ingestion in any way. Your onboarded data will be processed regardless of this option being checked.
 
 <table id="table_B2825B7BE0DB4665B47C589A3787CD93"> 
  <thead> 
@@ -107,7 +106,7 @@ Select the **[!UICONTROL Inbound]** check box when your data source is designed 
      <ul id="ul_3BC963CE378B4F6CB1861643A4541634"> 
       <li id="li_B86C5E7847424A2B9C094DF02741DDB8"> <b><span class="uicontrol"> Customer ID</span></b>: Identifies inbound data with a customer ID. </li> 
       <li id="li_AD8E440436314902A794CDB11A3D657F"> <b><span class="uicontrol"> Audience Manager ID</span></b>: Identifies inbound data with an <span class="keyword"> Audience Manager</span> ID. </li> 
-      <li id="li_B56608334DDA453B9E4E88E53DAF92FA"> <b><span class="uicontrol"> Experience Cloud ID</span></b>: Identifies inbound data with an <span class="keyword"> Experience Cloud</span> ID. See <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a>. </li> 
+      <li id="li_B56608334DDA453B9E4E88E53DAF92FA"> <b><span class="uicontrol"> Experience Cloud ID</span></b>: Identifies inbound data with an <span class="keyword"> Experience Cloud</span> ID. See <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a>. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -117,7 +116,7 @@ Select the **[!UICONTROL Inbound]** check box when your data source is designed 
  </tbody> 
 </table>
 
-### Other Data Source Settings
+### Other [!UICONTROL Data Source] Settings
 
 <table id="table_82FEFA8DC8294FA18FB4C17F02DF5152"> 
  <thead> 
@@ -150,6 +149,10 @@ Select the **[!UICONTROL Inbound]** check box when your data source is designed 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Share associated visitor or device IDs across the Audience Manager Platform</span></b> </p> </td> 
    <td colname="col2"> <p>Your data source contains visitor or device IDs that can be shared across other <span class="keyword"> Experience Cloud</span> solutions. </p> </td> 
+  </tr>
+  <tr> 
+   <td colname="col1"> <p> <b><span class="uicontrol"> Data retention for inactive Customer IDs</span></b> </p> </td> 
+   <td colname="col2"> <p>Allows you to set the data retention period for inactive Customer IDs. This determines how long Audience Manager keeps Customer IDs in our database after they were last seen on the Audience Manager platform.</p> <p>The default value is 24 months (720 days). The minimum value you can set is 1 month and the maximum value is 5 years. Note that we count all months as 30-days.</p> <p>Audience Manager runs a process that deletes inactive Customer IDs once a week, in accordance with the data retention you set for inactive Customer IDs.</p> <p>Audience Manager runs a process that deletes inactive Customer IDs once a week, in accordance with the data retention you set for inactive Customer IDs.</p> <p><b>Note</b>: This control is available only for cross-device data sources. See also, <a href="../features/profile-merge-rules/merge-rules-start.md#settings"> Create a Cross-Device Data Source </a>.</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Unique Trait Integration Codes</span></b> </p> </td> 

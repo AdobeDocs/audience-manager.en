@@ -5,8 +5,9 @@ seo-title: Capturing Campaign Impression Data via Pixel Calls
 solution: Audience Manager
 title: Capturing Campaign Impression Data via Pixel Calls
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
+feature: Adobe Campaign Integration
+exl-id: 04e6f1e5-5075-4221-a310-deb3717458ad
 ---
-
 # Capturing Campaign Impression Data via Pixel Calls{#capturing-campaign-impression-data-via-pixel-calls}
 
 One approach for sending media data to Audience Manager uses ad server macros to send campaign attributes to Audience Manager.
@@ -19,15 +20,13 @@ This methodology is often referred to as "pixeling the creative." Those data poi
 >
 >The text styles (`monospaced text`, *italics*, brackets `[ ]` `( )`, etc.) indicate code elements and options. See [Style Conventions for Code and Text Elements](../../reference/code-style-elements.md) for more information.
 
-The event call collects impression and conversion data and sends it to the [!DNL Audience Manager] [data collection servers](/help/using/reference/system-components/components-data-collection.md) ([!UICONTROL DCS]). This process relies on third-party ad servers that place the call in the creative to control what content gets inserted into the code. The third-party ad servers (for example, [!DNL DFA]) can place this code within each ad impression. Furthermore, an ad call does not use [!DNL JavaScript] or employ frame-busting techniques to access publisher data outside of the ad tag.
+The event call collects impression and conversion data and sends it to the [!DNL Audience Manager] [data collection servers](/help/using/reference/system-components/components-data-collection.md) ([!DNL DCS]). This process relies on third-party ad servers that place the call in the creative to control what content gets inserted into the code. The third-party ad servers (for example, [!DNL DFA]) can place this code within each ad impression. Furthermore, an ad call does not use [!DNL JavaScript] or employ frame-busting techniques to access publisher data outside of the ad tag.
 
 Event calls consist of key-value pairs that use the following syntax:
 
-<pre>
-http://clientname.demdex.net/event?d_event=imp&d_src=datasource_id&d_site=siteID&
-d_creative=<i>creative_id</i>&d_adgroup=<i>adgroup_id</i>&d_placement=<i>placement_id</i>
-&d_campaign=<i>campaign_id</i>[&d_cid=(GAID|IDFA)%01 DPUUID]&d_bust=cache buster value
-</pre>
+```
+https://clientname.demdex.net/event?d_event=imp&d_src=datasource_id&d_site=siteID&d_creative=<i>creative_id</i>&d_adgroup=<i>adgroup_id</i>&d_placement=<i>placement_id</i>&d_campaign=<i>campaign_id</i>[&d_cid=(GAID|IDFA)%01 DPUUID]&d_bust=cache buster value
+```
 
 In the key-value pair, the value variable is an ID or macro inserted by the ad server. When the ad tag loads, that `%macro%` gets replaced with the required, corresponding values. This call does not return a response.
 
@@ -49,7 +48,7 @@ Impression event calls accept data formed into key-value pairs. The following ta
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_adsrc </code> </td> 
-   <td colname="col2"> <p>Data source ID or integration code for your advertiser. </p> <p>Required for <span class="wintitle"> Audience Optimization </span> reports. </p> </td> 
+   <td colname="col2"> <p>Data source ID or integration code for your advertiser. </p> <p>Required for <span class="wintitle"> Audience Optimization </span> reports. </p> <p>Optional.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_bu </code> </td> 
@@ -92,12 +91,12 @@ Impression event calls accept data formed into key-value pairs. The following ta
    <td colname="col2"> <p>Data source ID or integration code of the platform providing the metadata (e.g., DFA,  Atlas, GBM, Media Math, etc.). </p> <p>Required for <span class="wintitle"> Audience Optimization </span> reports. </p> </td> 
   </tr> 
    <tr> 
-   <td colname="col1"> <code><i>gdpr</i></code>  </td> 
-   <td colname="col2"> <p>Related to the <a href="../../overview/aam-gdpr/aam-iab-plugin.md">Audience Manager Plug-in for IAB TCF.</a></p> <p><code>gdpr</code> can be 0 (GDPR does not apply) or 1 (GDPR applies).</p> <p>Default value is 0.</p><p>Optional.</p> </td> 
+   <td colname="col1"> <code>gdpr</code>  </td> 
+   <td colname="col2"> <p>Related to the <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager Plug-in for IAB TCF.</a></p> <p><code>gdpr</code> can be 0 (GDPR does not apply) or 1 (GDPR applies).</p> <p>Default value is 0.</p><p>Optional.</p><p>If <code>gdpr=1</code>, then the <code>gdpr_consent</code> parameter should contain the IAB TC consent parameter to process the data successfully. Otherwise, all data will be dropped.</p> </td> 
   </tr>
    <tr> 
    <td colname="col1"> <code>gdpr_consent</code> </td> 
-   <td colname="col2"> <p>Related to the <a href="../../overview/aam-gdpr/aam-iab-plugin.md">Audience Manager Plug-in for IAB TCF.</a></p><p> If <code>gdpr=1</code>, then <code>%gdpr_consent%</code> is replaced by the <code>gdpr_consent</code> string (see <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> IAB specification</a>).</p> <p>Default value is 0.</p><p>Optional.</p> </td> 
+   <td colname="col2"> <p>Related to the <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager Plug-in for IAB TCF.</a></p><p> If <code>gdpr=1</code>, then <code>${gdpr_consent_XXXX}</code> is replaced by the <code>gdpr_consent</code> string and the vendor ID (see <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/TCFv2/IAB%20Tech%20Lab%20-%20Consent%20string%20and%20vendor%20list%20formats%20v2.md#about-the-transparency--consent-string-tc-string" format="http" scope="external"> IAB specification</a>).</p> <p>Default value is 0.</p><p>Optional.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -106,6 +105,10 @@ Impression event calls accept data formed into key-value pairs. The following ta
 >
 >Please contact your Adobe Audience Manager consulting or account lead for the exact URL specific to the client domain.
 
->[!MORE_LIKE_THIS]
+## Additional functionality - [!DNL Audience Optimization Reports] {#additional-functionality-aor}
+
+You can use pixel calls to power the [Audience Optimization Reports](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md). See [Overview and Mappings for Metadata Files](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) if you wish to use pixels to power the reports.
+
+>[!MORELIKETHIS]
 >
 >* [Data and Metadata Files for Audience Optimization Reports](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)

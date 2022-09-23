@@ -5,8 +5,9 @@ seo-title: Trait-to-Trait Overlap Report
 solution: Audience Manager
 title: Trait-to-Trait Overlap Report
 uuid: 7fb3fc9e-0e0b-492a-9c3a-04356afb19c7
+feature: Overlap Reports
+exl-id: cbc933bb-f2af-4ad0-8eb9-cbec1ee952e0
 ---
-
 # Trait-to-Trait Overlap Report{#trait-to-trait-overlap-report}
 
 Returns data on the number of unique users shared among all your first and third-party traits.
@@ -37,6 +38,10 @@ The following illustration provides a high-level overview of elements in the [!U
 >
 >The [!UICONTROL Trait-to-Trait Overlap] report returns an empty field when it compares the same trait to itself.
 
+>[!NOTE]
+>
+>Folder traits are not available for comparison within trait-to-trait overlap reports. By creating a segment utilizing a particular folder trait, you can perform analysis via the [segment-to-trait overlap report](/help/using/reporting/dynamic-reports/segment-trait-overlap-report.md).
+
 ![](assets/trait-to-trait-overlap.png)
 
 ## Drill Down on Individual Data Points
@@ -64,41 +69,49 @@ The popup for the [!UICONTROL Trait-to-Trait Overlap] report contains the metric
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Data Provider Name</span></b> </td> 
-   <td colname="col2"> Name of the trait's owner. </td> 
+   <td colname="col1"><b><span class="wintitle"> Overlap %</span></b> </td> 
+   <td colname="col2"> Shows the % of unique overlap between compared traits (overlap uniques/trait uniques). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Data Provider Type</span></b> </td> 
-   <td colname="col2">Defines the type of provider a trait belongs to. Can be either: 
+   <td colname="col1"><b><span class="wintitle"> Data Source Type</span></b> </td> 
+   <td colname="col2">Defines the type of data source a trait belongs to. Can be either: 
     <ul id="ul_0477C04A33FD4F5D998B98984E6554D3"> 
      <li id="li_50FCA48EDB5843AB8FB6C34ED2C0067D">First-party (your own trait). </li> 
      <li id="li_4F6148EDAEFE43FA8D505944E9FE3855">Third-party (from an outside data partner/vendor). </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Trait ID</span></b> </td> 
-   <td colname="col2"> Unique numeric ID for that trait. </td> 
+   <td colname="col1"><b><span class="wintitle"> Overlapping Trait ID</span></b> </td> 
+   <td colname="col2"> Unique numeric ID for the overlapping trait. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Trait Name</span></b> </td> 
-   <td colname="col2"> Name of the trait. </td> 
+   <td colname="col1"><b><span class="wintitle"> Overlapping Trait Name</span></b> </td> 
+   <td colname="col2"> Name of the overlapping trait. </td> 
+  </tr>
+    <tr> 
+   <td colname="col1"><b><span class="wintitle"> Trait ID 2</span></b> </td> 
+   <td colname="col2"> Unique numeric ID for the trait in your base data source. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Overlap %</span></b> </td> 
-   <td colname="col2"> Shows the % of unique overlap between compared traits (overlap uniques/trait uniques). </td> 
+   <td colname="col1"><b><span class="wintitle"> Trait Name 2</span></b> </td> 
+   <td colname="col2"> Name of the trait in your base data source. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b><span class="wintitle"> Overlap Uniques</span></b> </td> 
-   <td colname="col2"> The number of unique visitors shared between the compared traits. </td> 
+   <td colname="col2"> <p>To get the overlap %, Audience Manager uses the following formula:</p> <p>Overlapping Uniques / (Base trait Uniques + Overlapping trait Uniques – Overlapping Uniques)</p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Trait Uniques</span></b> </td> 
-   <td colname="col2"> The number of unique visitors in the trait. </td> 
+   <td colname="col1"><b><span class="wintitle"> Overlapping Trait Uniques</span></b> </td> 
+   <td colname="col2"> The number of unique visitors from the overlapping trait. </td> 
+  </tr> 
+    <tr> 
+   <td colname="col1"><b><span class="wintitle"> Base Trait Uniques</span></b> </td> 
+   <td colname="col2"> The number of unique visitors from the base trait. </td> 
   </tr> 
  </tbody> 
 </table>
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Filter Report Results With the Data Sliders](../../reporting/dynamic-reports/data-sliders.md)
 >* [Shapes, Colors, and Sizes Used in Dynamic Reports](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)

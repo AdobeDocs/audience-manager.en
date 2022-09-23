@@ -5,8 +5,9 @@ seo-title: Implementing Audience Manager
 solution: Audience Manager
 title: Implementing Audience Manager
 uuid: 89369224-3b21-45a9-a4ed-a0a977410520
+feature: Third-party Integration
+exl-id: 8f8a6881-d616-4d0e-aeaa-bf3bb3a172f9
 ---
-
 # Implementing Audience Manager {#implementing-audience-manager}
 
 This section outlines and explains the processes related to getting started with the Audience Manager data management platform ([!DNL DMP]). This section is designed to help business teams, project managers, and technology managers understand the Audience Manager implementation process. Getting started with Audience Manager can take approximately six weeks to three months, depending on your data collection needs.
@@ -213,13 +214,9 @@ Tasks for this phase can include:
 
 ## Code Implementation {#code-implementation}
 
-Though the deployment process may seem complex, the code implementation is as simple as adding a few lines of [!DNL JavaScript] adjacent to the closing `</body>` tag of your website.
+Audience Manager uses the Data Integration Library ([!DNL DIL]), to receive audience data.
 
-<!-- c_code.xml -->
-
-### Deployment
-
-The Audience Manager code snippet calls [!DNL Akamai] to download the business rules set up previously in the user interface. Furthermore, client browsers cache this information, which helps reduce page and server load times. Our code and data collection methodology is designed to maintain the user experience across your inventory.
+For detailed instructions on how to use [!DNL DIL], see [Getting and Implementing DIL Code](../dil/dil-overview.md).
 
 ### Participants
 
@@ -228,8 +225,6 @@ Partner Solutions can work directly with your technical teams to help deploy cod
 ## Post-Implementation Support {#post-implementation-support}
 
 Our collaborative efforts don't stop with final deployment. After implementation is complete, our Account Management team takes over.
-
-<!-- c_post_implement_support.xml -->
 
 Account managers provide continuing support and consultation services after the product implementation process is complete. You can expect to have regular meetings with your account manager. These meetings ensure that you get the maximum amount of use and value from Audience Manager.
 

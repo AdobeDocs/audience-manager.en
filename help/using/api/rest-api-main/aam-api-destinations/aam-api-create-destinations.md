@@ -5,8 +5,9 @@ seo-title: Create Destinations
 solution: Audience Manager
 title: Create Destinations
 uuid: 12f04151-ad0e-4cb6-8f3b-b5c427dc2cef
+feature: API
+exl-id: bae0f304-0ff3-4c5f-b432-19aef61d9d10
 ---
-
 # Create Destinations {#create-destinations}
 
 Create destinations with these [!UICONTROL RESTful API] methods.
@@ -16,12 +17,6 @@ Create destinations with these [!UICONTROL RESTful API] methods.
 ## Supported Destination Types: URL and Cookie Only
 
 The available `POST` methods let you create [!UICONTROL URL] and [!UICONTROL cookie destinations] only. Currently, you cannot create [!UICONTROL server-to-server destinations] with these [!DNL REST API] methods. However, the related destination `GET` methods let you retrieve information about [!UICONTROL server-to-server destinations] created in the user interface.
-
->[!MORE_LIKE_THIS]
->
->* [Destinations](../../../features/destinations/destinations.md#destination-api-methods)
->* [Destination Serialization](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [Key-Value Pairs Explained](../../../reference/key-value-pairs-explained.md)
 
 ## Create a Non-Serial URL Destination {#create-nonserial-dest}
 
@@ -76,10 +71,6 @@ A successful request returns `201 created` and the destination.
 } 
 
 ```
-
->[!MORE_LIKE_THIS]
->
->* [Destination Serialization](../../../features/destinations/key-value-pairs.md#destination-serialized)
 
 ## Create a Serialized URL Destination {#create-serial-url-dest}
 
@@ -136,10 +127,6 @@ A successful update returns response code `201 created` and the destination.
    "mappings":null 
 }
 ```
-
->[!MORE_LIKE_THIS]
->
->* [Destination Serialization](../../../features/destinations/key-value-pairs.md#destination-serialized)
 
 ## Create a Cookie Destination: Single-Key, Non-Serialized {#create-cookie-dest-single}
 
@@ -211,11 +198,6 @@ A successful update returns response code `201 created` and the destination.
 
 ```
 
->[!MORE_LIKE_THIS]
->
->* [Destination Serialization](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [Key-Value Pairs Explained](../../../reference/key-value-pairs-explained.md)
-
 ## Create a Cookie Destination: Single Key, Serialized {#create-cookie-dest-single-serial}
 
 A `POST` method that lets you create a destination that accepts multiple values associated with a single key (e.g., `color=blue, red, green`).
@@ -286,11 +268,6 @@ A successful update returns response code `201 created` and the destination.
    "uparamEnabled":false
 }
 ```
-
->[!MORE_LIKE_THIS]
->
->* [Destination Serialization](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [Key-Value Pairs Explained](../../../reference/key-value-pairs-explained.md)
 
 ## Create a Cookie Destination: Multi-Key, Non-Serialized {#create-cookie-dest-multi}
 
@@ -428,7 +405,8 @@ A successful update returns response code `201 created` and the destination.
 }
 ```
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
+>* [Destinations](../../../features/destinations/destinations.md)
 >* [Destination Serialization](../../../features/destinations/key-value-pairs.md#destination-serialized)
 >* [Key-Value Pairs Explained](../../../reference/key-value-pairs-explained.md)

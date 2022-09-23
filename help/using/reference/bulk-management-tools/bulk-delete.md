@@ -1,15 +1,16 @@
 ---
-description: Bulk delete lets you remove multiple segments, traits, folders, derived signals, and destinations with a single operation. Follow these instructions to make a bulk delete request.
-seo-description: Bulk delete lets you remove multiple segments, traits, folders, derived signals, and destinations with a single operation. Follow these instructions to make a bulk delete request.
+description: Bulk delete lets you remove multiple segments, traits, folders, derived signals, data sources, models, and destinations with a single operation. Follow these instructions to make a bulk delete request.
+seo-description: Bulk delete lets you remove multiple segments, traits, folders, derived signals, data sources, models, and destinations with a single operation. Follow these instructions to make a bulk delete request.
 seo-title: Bulk Delete
 solution: Audience Manager
 title: Bulk Delete
 uuid: 679cde46-09fb-45c6-b84d-47e00e0e7c0a
+feature: BAAAM
+exl-id: 3ff530dd-66d0-4dd3-a6e6-afe4a9cb5ba4
 ---
-
 # Bulk Delete{#bulk-delete}
 
-Bulk delete lets you remove multiple segments, traits, folders, derived signals, and destinations with a single operation. Follow these instructions to make a bulk delete request.
+Bulk delete lets you remove multiple segments, traits, folders, derived signals, data sources, models, and destinations with a single operation. Follow these instructions to make a bulk delete request.
 
 <!-- 
 
@@ -19,7 +20,7 @@ Bulk delete lets you remove multiple segments, traits, folders, derived signals,
 
 >[!NOTE]
 >
->The [!UICONTROL Bulk Management Tools] *are not* supported by [!DNL Audience Manager]. This tool is provided for convenience and as a courtesy only. For bulk changes, we recommend that you work with the [Audience Manager APIs](../../api/rest-api-main/aam-api-getting-started.md) instead. [RBAC group permissions](../../features/administration/administration-overview.md) assigned in the [!DNL Audience Manager] UI are honored in the [!UICONTROL Bulk Management Tools].
+>[RBAC group permissions](../../features/administration/administration-overview.md) assigned in the [!DNL Audience Manager] UI are honored in the [!UICONTROL Bulk Management Tools].
 
 >[!NOTE]
 >
@@ -38,4 +39,4 @@ To delete multiple items, open the [!UICONTROL Bulk Management Tools] worksheet 
 
 ![](assets/delete.png)
 
-If your bulk update returns an error or fails, see [Troubleshooting for Bulk Management Tools](../../reference/bulk-management-tools/bulk-troubleshooting.md). 
+If your bulk update returns an error or fails, see [Troubleshooting for Bulk Management Tools](../../reference/bulk-management-tools/bulk-troubleshooting.md).

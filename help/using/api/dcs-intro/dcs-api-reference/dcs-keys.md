@@ -4,16 +4,18 @@ seo-description: Lists and describes the syntax and supported attributes (or key
 seo-title: Supported Attributes for DCS API Calls
 solution: Audience Manager
 title: Supported Attributes for DCS API Calls
+keywords: d_caller, d_cb, d_cid, d_cid_ic, d_coppa, d_cts=1, d_cts=2, d_tdpid, d_dst=1, d_dst_filter, d_mid, d_ptfm, d_nsid, d_rs, d_rtbd=json, d_tdpid_ic
 uuid: 0b98ed11-314b-4500-afde-45a041112150
+feature: DCS
+exl-id: 1bdd7dcd-9411-4b0a-a236-059eb5faf00d
 ---
+# Supported Attributes for [!DNL DCS] [!DNL API] Calls {#supported-attributes-for-dcs-api-calls}
 
-# Supported Attributes for DCS API Calls {#supported-attributes-for-dcs-api-calls}
-
-Lists and describes the syntax and supported attributes (or key-value pairs) you can pass in to the [!UICONTROL Data Collection Servers] ([!UICONTROL DCS]). This information can help you format your [!UICONTROL DCS] requests and understand the parameters returned by this system.
+Lists and describes the syntax and supported attributes (or key-value pairs) you can pass in to the [!UICONTROL Data Collection Servers] ([!DNL DCS]). This information can help you format your [!DNL DCS] requests and understand the parameters returned by this system.
 
 ## Attribute Prefixes {#attribute-prefixes}
 
-The [!UICONTROL DCS] relies on specific prefixes added to the keys in key-value pairs to classify the type of data you're passing in.
+The [!DNL DCS] relies on specific prefixes added to the keys in key-value pairs to classify the type of data you're passing in.
 
 <table id="table_23B7E15EC13749E9A245DFB543822DB7"> 
  <thead> 
@@ -42,9 +44,9 @@ The [!UICONTROL DCS] relies on specific prefixes added to the keys in key-value 
  </tbody> 
 </table>
 
-## d_ Attributes {#d-attributes}
+## [!DNL d_] Attributes {#d-attributes}
 
-All of these are optional, unless you want a response from the [!UICONTROL DCS]. If you want the [!UICONTROL DCS] to return a response, then `d_rtbd=json` is required.
+All of these are optional, unless you want a response from the [!DNL DCS]. If you want the [!DNL DCS] to return a response, then `d_rtbd=json` is required.
 
 <table id="table_FCCE4F9D796648899772A191981EFDE6"> 
  <thead> 
@@ -72,7 +74,7 @@ All of these are optional, unless you want a response from the [!UICONTROL DCS].
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_coppa</code> </p> </td> 
-   <td colname="col2"> <p>Disable usage of third party cookies in order to comply with child protection regulations. This parameter is dynamically set by the Adobe Experience Cloud ID service and depends on the <code> idSyncDisable3rdPartySyncing</code> configuration. See <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_coppa.html" format="https" scope="external"> COPPA Support in the Experience Cloud ID Service</a>. </p> </td>
+   <td colname="col2"> <p>Disable usage of third party cookies in order to comply with child protection regulations. This parameter is dynamically set by the Adobe Adobe Experience Platform Identity Service and depends on the <code> idSyncDisable3rdPartySyncing</code> configuration. See <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/coppa.html" format="https" scope="external"> COPPA Support in the Adobe Experience Platform Identity Service</a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_cts=1</code> </p> <p><code> d_cts=2</code> </p> </td> 
@@ -114,7 +116,7 @@ All of these are optional, unless you want a response from the [!UICONTROL DCS].
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_mid</code> </p> </td> 
-   <td colname="col2"> <p>Specifies the Experience Cloud ID set and used by the <span class="keyword"> Experience Cloud</span> ID service. For more information about the ECID, see <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a>. </p> </td> 
+   <td colname="col2"> <p>Specifies the Experience Cloud ID set and used by the <span class="keyword"> Experience Cloud</span> ID service. For more information about the ECID, see <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies and the Experience Cloud Identity Service</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_nsid</code> </p> </td> 
@@ -180,3 +182,16 @@ All of these are optional, unless you want a response from the [!UICONTROL DCS].
   </tr>
  </tbody>
 </table>
+
+## h_ Attributes
+
+These headers contain information like requests for data and responses in an HTTP call.
+
+| Attribute | Description |
+| --- | --- | 
+| `h_host` | This is set to the client's specific data collection host name. It appears as `host name .demdex.net`. See [Understanding Calls to the Demdex Domain](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=en).|
+| `h_user-agent` | Set to the `User-Agent` header value.|
+| `h_accept-language`  | Set to the  `Accept-Language`  header value.|
+|  `h_referer`  | Set to the `Referer` header value.|
+| `h_referrer`  | Set to the `Referrer` header value.|
+| `h_date` | Set to the `Date` header value.|

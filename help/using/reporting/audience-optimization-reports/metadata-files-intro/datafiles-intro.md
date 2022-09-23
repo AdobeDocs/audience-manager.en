@@ -1,15 +1,16 @@
 ---
-description: A data file contains impression, click, or conversion data. When formatted properly, you can import this data into Audience Manager and view it in the Audience Optimization reports. Format your data files according to these specifications in this section.
-seo-description: A data file contains impression, click, or conversion data. When formatted properly, you can import this data into Audience Manager and view it in the Audience Optimization reports. Format your data files according to these specifications in this section.
-seo-title: Data Files for Audience Optimization Reports
+description: A data file contains impression, click, or conversion data. When formatted properly, you can import this data into Audience Manager and use it in the Audience Optimization reports and for Actionable Log Files. Format your data files according to the specifications in this section.
+seo-description: A data file contains impression, click, or conversion data. When formatted properly, you can import this data into Audience Manager and use it in the Audience Optimization reports and for Actionable Log Files. Format your data files according to the specifications in this section.
+seo-title: Data Files for Audience Optimization Reports and Actionable Log Files
 solution: Audience Manager
-title: Data Files for Audience Optimization Reports
+title: Data Files for Audience Optimization Reports and Actionable Log Files
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
+feature: Log Files
+exl-id: 0da2c1d3-5ff8-40dd-b831-21d8941688ce
 ---
+# Data Files for Audience Optimization Reports and Actionable Log Files {#data-files-for-audience-optimization-reports}
 
-# Data Files for Audience Optimization Reports{#data-files-for-audience-optimization-reports}
-
-A data file contains impression, click, or conversion data. When formatted properly, you can import this data into Audience Manager and view it in the Audience Optimization reports. Format your data files according to these specifications in this section.
+A data file contains impression, click, or conversion data. When formatted properly, you can import this data into Audience Manager to view it in the [Audience Optimization Reports](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) and create traits using the data via [Actionable Log Files](/help/using/integration/media-data-integration/actionable-log-files.md). Format your data files according to these specifications in this section.
 
 ## Overview {#overview}
 
@@ -31,7 +32,7 @@ In a file name:
 
 Given these requirements, name your data files based on their contents like this:
 
-* Impression data: <pre><code>impressions_<i>yyyymmdd<i>.gz</code></pre>
+* Impression data: <pre><code>impressions_<i>yyyymmdd</i>.gz</code></pre>
 * Click data: <pre><code>clicks_<i>yyyymmdd</i>.gz</code></pre>
 * Conversion data: <pre><code>conversions_<i>yyyymmdd</i>.gz</code></pre>
 
@@ -44,7 +45,7 @@ The following syntax defines the content structure in well-formed data file. Not
 In the file contents:
 
 * The header labels must appear in the order as shown in the table below. Impressions and clicks use the same labels. Conversion files contain extra headers. 
-* If you don't have data for a particular column, populate that field with a `NULL` object or `-1`. 
+* If you don't have data for a particular column, populate that field with a `-1`.
 
 * Files *must* end with a version number. The current version is 1.1.
 * Separate file headers and contents with the non-printing ASCII 001 character. If you cannot use ASCII 001, then separate the headers and data with a tab delimiter. As these are non-printing characters, the syntax example above shows a pipe `"|"` for display purposes only.
@@ -63,7 +64,7 @@ The table below lists and describes the column headers for your data file. Heade
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Time-Stamp </p> </td> 
-   <td colname="col2"> <p>A UTC date and time for the impression, click, or conversion event. Use the <code> yyyy-dd-mm hh:mm:ss</code> format. </p> </td> 
+   <td colname="col2"> <p>A UTC date and time for the impression, click, or conversion event. Use the <code> yyyy-MM-dd HH:mm:ss</code> format. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>User-ID </p> </td> 
@@ -137,11 +138,15 @@ The table below lists and describes the column headers for your data file. Heade
 
 Upload your impression, click, or conversion data files to an Amazon S3 directory for your [!DNL Audience Manager] account. Refer to this section for information about delivery/directory paths, file processing times, and updates.
 
+>[!IMPORTANT]
+>
+> Contact your Audience Manager consultant or Customer Care to get started and set up an [!DNL Amazon S3] directory for your data files.
+
 **Delivery Path Syntax and Examples**
 
-Data is stored in a separate namespace for each customer in an Amazon S3 directory. The file path follows the syntax shown below. Note, *italics* indicates a variable placeholder. Other elements are constants or keys and do not change.
+Data is stored in a separate namespace for each customer in an [!DNL Amazon S3] directory. The file path follows the syntax shown below. Note, *italics* indicates a variable placeholder. Other elements are constants or keys and do not change.
 
-**Syntax:** <pre><code>.../log_ingestion/pid= <i>AAM ID<i>/dpid= <i>d_src</i>/logs/ <i>file type</i>_<i>yyyymmdd</i></code></pre>
+**Syntax:** <pre><code>.../log_ingestion/pid= <i>AAM ID</i>/dpid= <i>d_src</i>/logs/ <i>file type</i>_<i>yyyymmdd</i></code></pre>
 
 The following table defines each of these elements in a file delivery path.
 
@@ -159,7 +164,7 @@ The following table defines each of these elements in a file delivery path.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>pid=<i>AAM ID</i></code> </p> </td> 
-   <td colname="col2"> <p>This key-value pair that contains your <span class="keyword"> Audience Manager</span> customer ID. </p> </td> 
+   <td colname="col2"> <p>This key-value pair contains your <span class="keyword"> Audience Manager</span> customer ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>dpid=<i>d_src</i></code> </p> </td> 
@@ -190,4 +195,4 @@ To update your data, send in a file that contains all of the impressions, clicks
 
 ## Next Steps {#next-steps}
 
-Review the requirements for naming and creating metadata files. To get started, see [Overview and Mappings for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md). 
+Review the requirements for naming and creating metadata files. To get started, see [Overview and Mappings for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).

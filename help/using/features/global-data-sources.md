@@ -4,9 +4,9 @@ seo-description: Use Global Data Sources to import device advertising IDs.
 seo-title: Global Data Sources
 solution: Audience Manager
 title: Global Data Sources
-uuid:
+feature: Data Sources
+exl-id: ef137f89-1e1a-4cc0-8864-8a84162581c1
 ---
-
 # Global Data Sources {#global-data-sources}
 
 ## Overview
@@ -17,11 +17,14 @@ The following table describes the global data sources supported by Audience Mana
 
 | Data Source ID | Description|
 |---|---|
-|  20914 | **Google Advertising ID** - **GAID**s represent devices that run the Android operating system.|
-|  20915 | **Apple ID For Advertising** - **IDFA**s represent devices that run the iOS operating system. |
-|  121963 | **Roku ID for Advertising** - **RIDA**s represent Roku streaming devices. |
-| 389146  | **Microsoft Advertising ID** - **MAID**s represent devices running the Windows 10 operating system. |
-|  404660 | **Samsung DUID**s represent Samsung smart TVs. |
+|  20914 | **[!DNL Google Advertising ID]** - **[!DNL GAID]** IDs represent devices that run the [!DNL Android] operating system.|
+|  20915 | **[!DNL Apple ID For Advertising]** - **[!DNL IDFA]** IDs represent devices that run the [!DNL iOS] operating system. |
+|  121963 | **[!DNL Roku ID for Advertising]** - **[!DNL RIDA]** IDs represent [!DNL Roku] streaming devices. |
+| 389146  | **[!DNL Microsoft Advertising ID]** - **[!DNL MAID]** IDs represent devices running the [!DNL Windows 10] operating system. |
+|  963906 | **[!DNL Samsung Tizen IDs for Advertising]** - **[!DNL TIFA]** IDs represent [!DNL Samsung] smart TVs. |
+| 488258 | **[!DNL Amazon Fire TV Advertising IDs]** represent devices running [!DNL Amazon Fire OS]|
+|1171485|**[!DNL LG webOS TV ID]** - **[!DNL LGUDID]** represent devices running the [!DNL LG webOS] operating system.|
+|1171489| **[!DNL Vizio ID for Advertising]** - **[!DNL IFA]** represent devices running Vizio smart TV operating systems.|
 
 ## Importing Data from Global Data Sources
 

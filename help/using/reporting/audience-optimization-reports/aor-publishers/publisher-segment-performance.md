@@ -3,10 +3,11 @@ description: The Segment Performance report compares mapped and unmapped segment
 seo-description: The Segment Performance report compares mapped and unmapped segments by impressions and Real-Time Segment Uniques. A mapped segment is a segment you create and send to a destination for targeting. An unmapped segment is a segment that you've created but have not sent to a destination for targeting. Comparing these different segment types within and between reports helps you optimize existing campaigns and find overlooked segments that you may want to send to a destination for targeting.
 seo-title: Segment Performance Report
 solution: Audience Manager
-title: Segment Performance Report
+title: Segment Performance Report for Publishers
 uuid: c9a1e9ad-4f3f-4334-a3ff-0f241c7303c4
+feature: Audience Optimization Reports
+exl-id: 0cc10399-5737-4d82-a1f6-9561e024054d
 ---
-
 # Segment Performance Report{#segment-performance-report}
 
 The Segment Performance report compares mapped and unmapped segments by impressions and Real-Time Segment Uniques.
@@ -36,7 +37,7 @@ Use the **[!UICONTROL Segment]** drop-down box to select which segments you want
 
 >[!IMPORTANT]
 >
->When enabling [!UICONTROL Audience Optimization for Publishers], you must include descriptive metadata for [!UICONTROL Line Item IDs], as described in Step 3 of [Import DFP Data Files Into Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). By doing this, you assure that the report details the web property as [!UICONTROL Line Item] instead of the [!UICONTROL Line Item ID].
+>When enabling [!UICONTROL Audience Optimization for Publishers], you must include descriptive metadata for [!UICONTROL Line Item IDs], as described in Step 3 of [Import Google Ad Manager (formerly DFP) Data Files Into Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). By doing this, you assure that the report details the web property as [!UICONTROL Line Item] instead of the [!UICONTROL Line Item ID].
 
 ## Interpreting the Results {#interpreting-results}
 

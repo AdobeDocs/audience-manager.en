@@ -4,8 +4,9 @@ seo-description: Filter the results of a signal search based on the signal type.
 seo-title: Filter Search Results
 title: Filter Search Results
 uuid: 7b764a5d-f8ae-4f7b-83f5-7f6c40de639b
+feature: Data Explorer
+exl-id: df178712-6417-4c4d-b5f8-5a8c00bfcd12
 ---
-
 # Filter Search Results {#filter-search-results}
 
 Filter the results of a signal search based on the signal type.

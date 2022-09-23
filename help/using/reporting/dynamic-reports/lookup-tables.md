@@ -5,8 +5,9 @@ seo-title: Improve Log File Processing Times with Lookup Tables
 solution: Audience Manager
 title: Improve Log File Processing Times with Lookup Tables
 uuid: ffc77618-474b-455e-9c91-15b32fc151a5
+feature: Reporting Reference
+exl-id: bab51406-21e9-4033-90d4-6100daf6a311
 ---
-
 # Improve Log File Processing Times with Lookup Tables{#improve-log-file-processing-times-with-lookup-tables}
 
 Put data in Delivery Performance report log files into tables that contain IDs only. Put non-ID metadata in separate lookup tables to help reduce file size and processing times.
@@ -65,7 +66,3 @@ The lookup file below holds the metadata and can be linked back to the main file
 ## APIs Can Eliminate the Need for Lookup Tables
 
 If your ad serving system has an API, you might not need to send metadata in a lookup file. We may be able to get that information through the API. When this is the case, your log files should contain IDs only. We'll work with you to determine if metadata can be obtained through an API.
-
->[!MORE_LIKE_THIS]
->
->* [Delivery and Performance Report](../../reporting/dynamic-reports/delivery-performance-report.md)

@@ -5,8 +5,9 @@ seo-title: DIL Modules
 solution: Audience Manager
 title: DIL Modules
 uuid: d4c0d8dd-79f8-448e-b17c-c935415dd449
+feature: DIL Implementation
+exl-id: 4685bcbb-a63b-4613-bc94-54de9881966e
 ---
-
 # DIL Modules{#dil-modules}
 
 Describes methods in the `DIL.modules` namespace. These modules let you programmatically collect data and work with Audience Manager objects.
@@ -25,7 +26,7 @@ Works with [!UICONTROL DIL] to send [!DNL Analytics] tag elements (variables, pr
 
 >[!NOTE]
 >
->You must place this code on the page *before* the `s.t();` function.
+>You must place this code on the page *before* the `s.t();` function. 
 
 <!-- 
 
@@ -193,10 +194,6 @@ var dilInstance = DIL.create({
 DIL.modules.GA.submitUniversalAnalytics(ga, dilInstance);
 ```
 
->[!MORE_LIKE_THIS]
->
->* [ga Object Methods Reference](https://developers.google.com/analytics/devguides/collection/analyticsjs/ga-object-methods-reference)
-
 ## GA.init {#ga-init}
 
 The `GA.init()` function sends data from the legacy/deprecated version of [!DNL Google Analytics] to Audience Manager.
@@ -305,8 +302,9 @@ The URL event call to Audience Manager could look similar to this:
 
 `https://adobe.demdex.com/event?...c_accountId=UA-XXXXX-X&c_Section=Life%20%26%20Style &c_itemOrderId=1234&c_itemSku=DD44&c_itemName=T-Shirt&c_itemCategory=Olive%20Medium& c_itemPrice=11.99&c_itemQuantity=1` 
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Google Analytics Tracking Code](https://developers.google.com/analytics/devguides/collection/gajs/methods/)
->* [Complete Web Upgrade: ga.js/dc.js to analytics.js](https://developers.google.com/analytics/devguides/collection/upgrade/reference/gajs-analyticsjs)
+>* [Complete Web Upgrade: ga.js/dc.js to analytics.js](https://developers.google.com/analytics/devguides/collection/upgrade)
 >* [Adding analytics.js to Your Site](https://developers.google.com/analytics/devguides/collection/analyticsjs/)
+>* [ga Object Methods Reference](https://developers.google.com/analytics/devguides/collection/analyticsjs/ga-object-methods-reference)

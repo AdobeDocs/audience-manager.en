@@ -4,10 +4,10 @@ seo-description: The Marketplace is where data buyers go to research and subscri
 seo-title: Manage Data Feed Subscriptions
 solution: Audience Manager
 title: Manage Data Feed Subscriptions
-topic: DIL API
 uuid: 7305adb6-cbb8-4430-8204-2243095c0ba5
+feature: Audience Marketplace
+exl-id: 171acbbc-88ab-496f-93ea-48956325d8fd
 ---
-
 # Manage Data Feed Subscriptions {#manage-data-feed-subscriptions}
 
 The [!UICONTROL Marketplace] is where data buyers go to research and subscribe to public and private data feeds. Follow these steps to subscribe to a public data feed.
@@ -22,24 +22,24 @@ To subscribe to a public data feed:
 
 1. Go to **[!UICONTROL Audience Marketplace > Marketplace]**. Use the search feature or browse through the list to find a data feed.
 
-   ![](assets/subscribe1.png)
+   ![subscribe](assets/subscribe1.png)
 
 1. Click the name of the data feed you want to use. This opens the [plan details page](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#marketplace-buyer-details) for the selected feed.
 
-   ![](assets/plan-details.png)
+   ![plan-details](assets/plan-details.png)
 
 1. Choose a use case from the subscriptions table and:
     * Move the **[!UICONTROL Subscription]** slider to **[!UICONTROL On]**.
     * Click **[!UICONTROL Review & Subscribe]**. This opens the [!UICONTROL Terms and Conditions] window.
 
-   ![](assets/subscribe3.png)
+   ![subscribe](assets/subscribe3.png)
 
 1. In the [!UICONTROL Terms and Conditions] window:
 
     * **Important:** Leave the **[!UICONTROL ID sync]** check box checked. This setting helps improve match rates with your data provider.
     * Check the terms and conditions box and click **[!UICONTROL Accept]** to complete the subscription process.
 
-   ![](assets/subscribe4.png)
+   ![subscribe](assets/subscribe4.png)
 
 ### Next Steps
 
@@ -49,11 +49,27 @@ After you subscribe to a data feed:
 
 * Review the billing and payment documentation. See the related links below.
 
->[!MORE_LIKE_THIS]
->
->* [Billing and Impression Allocation for CPM Data Feeds](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
->* [Billing and Impression Allocation for Flat Fee Data Feeds](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
->* [How to Report CPM Usage](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)
+### Best Practices {#best-practices}
+
+Here is a set of best practices that we recommend you follow when working with [!UICONTROL Audience Marketplace]:
+
+When exploring new third and second-party data sets through [!UICONTROL Audience Marketplace], the first step we recommend is to enable data feeds for [!UICONTROL Segments & Overlap]. This allows users to explore data by building segments to evaluate audience size, and running overlap reports to gain initial audience insights. Most data providers offer this use case for free, so you can perform this analysis at no extra cost.
+
+When running overlap reports, follow these best practices to make sure you're getting useful results.
+
+1. Ensure that your overlapping data sets are similar in terms of data type and collection methodologies, such as:
+   * Visitor geography
+   * Cookie vs. Mobile IDs
+   * Lookback window
+   * Offline vs. Online activity
+   * The frequency at which the data provider refreshes the data
+
+1. Overlap can grow slightly over time, so make sure you allow up to 30 days to pass before running overlap reports to allow for the data to sync.
+1. Overlap can increase if you use data from a data provider in multiple marketing campaigns.
+and initiatives. This allows for more opportunities for users from the two data sets to sync.
+1. There is no guarantee that there will be an overlap between your data sets. For an overlap to be valid, a user from the customer’s data set must be associated with the data
+provider data set during the reporting time frame. If the customer’s media data didn’t get served to the users in the data provider data set, there will never be an overlap.
+1. Don't think of low overlap as a bad thing. Take advantage of a low overlap to prospect and engage new users.
 
 ## Subscribe to a Private Data Feed {#subscript-private-data-feed}
 
@@ -73,11 +89,6 @@ To subscribe to a private data feed:
 
     * **[!UICONTROL Request approved]**: The status in the [!UICONTROL Marketplace] list changes to "Access Granted" and you'll receive an automated notification. At this point you can subscribe to the feed. See [Subscribe to a Public Data Feed](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed) for instructions.
     * **[!UICONTROL Request denied]**: The "Requested" text is removed from the [!UICONTROL Marketplace] list for the feed. You can try to subscribe again or choose a different feed.
-
->[!MORE_LIKE_THIS]
->
->* [Subscribe to a Public Data Feed](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed)
->* [Discounts for Data Buyers](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#buyer-discount)
 
 ## Data Feed Discounts for Buyers {#buyer-discount}
 
@@ -135,10 +146,6 @@ In the example, the buyer gets a 10% discount on the [!UICONTROL Segments and Ov
 
 ![](assets/buyer-discount.png)
 
->[!MORE_LIKE_THIS]
->
->* [The Marketplace: About](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace)
-
 ## Finding Subscribed Feed Data {#find-subscribed-data-fee}
 
 The data (traits) for your data feeds appears in their own trait storage folders. Go to **[!UICONTROL Audience Data > Traits]** and expand the **[!UICONTROL 3rd-Party Data]** folder to view and work with the traits in your subscribed feeds. Look for the sub-folder named after your data provider. Those contain folders named after the individual data feed and list traits provided by the feed.
@@ -146,10 +153,6 @@ The data (traits) for your data feeds appears in their own trait storage folders
 <!-- marketplace-feed-storage.xml -->
 
 ![](assets/subscribe5.png)
-
->[!MORE_LIKE_THIS]
->
->* [Subscribe to a Public Data Feed](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed)
 
 ## Unsubscribe from a Data Feed {#unsubscribe}
 
@@ -274,7 +277,7 @@ This page gives you the following information:
    * Click **[!UICONTROL Request More Details]** to ask the data provider questions about the selected data feed or to request a discount. This feature sends your comments and questions directly to the data provider.
   
 1. Data Feed Report Metrics. The Venn diagram (and related metrics) shows you trait overlap data for the last 30 days. See [The Marketplace: About](marketplace-data-buyers.md#about-marketplace) for details.
-   * **[!UICONTROL 30 Day Overlapped Uniques]**: The number of unique users in your account that overlap with the users in the provider’s account.
+   * **[!UICONTROL 30 Day Overlapped Uniques]**: The number of unique users in your account that overlap with the users in the provider’s account. For a definition of unique users, see AAM UUID in the [Index of IDs in Audience Manager](/help/using/reference/ids-in-aam.md).
    * **[!UICONTROL 30 Day Provider Unique Users]**: The number of unique users coming from the provider's account.
    * **[!UICONTROL Your Unique Users]**: The number of unique users coming from your account.
 
@@ -283,10 +286,6 @@ This page gives you the following information:
 1. Plan Action Buttons.
    * Click **[!UICONTROL Cancel]** to leave the page without making changes.
    * Click **[!UICONTROL Review & Subscribe]** to subscribe to a data feed. This button is greyed out until you switch a [!UICONTROL Subscription] toggle to [!UICONTROL On]. See also [Subscribe to a Public Data Feed](#subscript-public-data-feed) and [Subscribe to a Private Data Feed](#subscript-private-data-feed).
-
->[!MORE_LIKE_THIS]
->
->* [The Marketplace: About](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace)
 
 ## Understanding Data Feed Use Cases {#use-cases}
 
@@ -309,4 +308,13 @@ This use case lets you evaluate supplier traits against your traits with [algori
 
 ### Activation
 
-This use case lets you send data to a [destination](../../../features/destinations/destinations.md). In [!UICONTROL Audience Manager], a destination is any third-party system (ad server, [!DNL DSP], [!DNL DMP], exchange, etc.) that you want to share data with. However, with an [!UICONTROL Activation] use case, you cannot run overlap reports or test the data in an algorithmic model.
+This use case lets you send data to a [destination](../../../features/destinations/destinations.md). In [!DNL Audience Manager], a destination is any third-party system (ad server, [!DNL DSP], [!DNL DMP], exchange, etc.) that you want to share data with. However, with an [!UICONTROL Activation] use case, you cannot run overlap reports or test the data in an algorithmic model.
+
+>[!MORELIKETHIS]
+>
+>* [Billing and Impression Allocation for CPM Data Feeds](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
+>* [Billing and Impression Allocation for Flat Fee Data Feeds](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
+>* [How to Report CPM Usage](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)
+>* [Subscribe to a Public Data Feed](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed)
+>* [Discounts for Data Buyers](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#buyer-discount)
+>* [The Marketplace: About](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace)

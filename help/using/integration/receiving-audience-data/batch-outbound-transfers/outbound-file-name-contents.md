@@ -5,8 +5,9 @@ seo-title: Outbound Data File Name  Syntax and Examples
 solution: Audience Manager
 title: Outbound Data File Name  Syntax and Examples
 uuid: effdcaf6-c37c-45f3-9d2f-a938a9da47a6
+feature: Outbound Data Transfers
+exl-id: 0944da72-5a8d-45a2-951e-b2988eb3d490
 ---
-
 # Outbound Data File Name: Syntax and Examples{#outbound-data-file-name-syntax-and-examples}
 
 Describes the required fields, syntax, and conventions used to name an outbound data file.
@@ -19,10 +20,10 @@ Describes the required fields, syntax, and conventions used to name an outbound 
 
 ## Syntax and File Name Elements {#syntax-file-name}
 
-Outbound file names contain the following required and optional elements:
+Outbound file names contain the following elements. All of the elements below are optional.
 
 ```
-SYNC-TYPE_ DID_ MASTER-DPID_ [PID-ALIAS]_ SYNC-MODE_ TIMESTAMP[- SPLIT_NUMBER].sync[.gz]
+[SYNC_TYPE][_DID][_MASTER_DPID][_PID_ALIAS][_SYNC-MODE][_TIMESTAMP]SPLITNUM.sync[.gz]
 ```
 
 ### Parameters
@@ -38,7 +39,7 @@ The table defines the elements in an outbound data file name.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code><i>SYNC-TYPE </i></code> </p> </td> 
+   <td colname="col1"> <p> <code><i>SYNC_TYPE </i></code> </p> </td> 
    <td colname="col2"> <p>Refers to the data transfer methods. Transfer methods include: </p> 
     <ul id="ul_4E0CFC7A34E04E2FA216A07E3654D6EE"> 
      <li id="li_0066B99222A64BE9975AE2E91511FB77">FTP - Transfer using SFTP </li> 
@@ -50,20 +51,20 @@ The table defines the elements in an outbound data file name.
    <td colname="col2"> <p>Destination ID. </p> <p>In <span class="keyword"> Audience Manager </span>, a destination is the instance of the integration where you can map your targetable segments. Customers can have multiple destinations, depending on the business requirement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code><i>MASTER-DPID </i></code> </p> </td> 
+   <td colname="col1"> <p> <code><i>MASTER_DPID </i></code> </p> </td> 
    <td colname="col2"> <p>Data-provider or data source ID. This ID identifies the type of User ID present in the file content. Most common User ID keys are: </p> <p> 
      <ul id="ul_CC22D019ECED4B17A7695708001F2C1B"> 
       <li id="li_94DAFA169380405981AFEF1B581997E6">20914 - <span class="keyword"> Google Advertiser ID </span> (raw, unhashed) </li> 
       <li id="li_DE74BE06331C49CF87606A192D815B96">20915 - <span class="keyword"> Apple ID for Advertisers </span> (raw, unhashed) </li> 
       <li id="li_E0A033FEC3174EF08E93EB7C65266337">Vendor ID - 3rd party user IDs (web/cookie) </li> 
-     </ul> </p> </td> 
+     </ul> </p> <p>See <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/global-data-sources.html">Global Data Sources</a> for more details.</p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code><i>PID-ALIAS </i></code> </p> </td> 
+   <td colname="col1"> <p> <code><i>PID_ALIAS </i></code> </p> </td> 
    <td colname="col2"> The customer identifier from the 3rd party platform. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code><i>SYNC-MODE </i></code> </p> </td> 
+   <td colname="col1"> <p> <code><i>SYNC_MODE </i></code> </p> </td> 
    <td colname="col2"> <p>Sync mode is a macro placeholder that adds a label to the file name based on synchronization type. Synchronization types include full and incremental. They'll appear in the file name as <code> iter </code> or <code> full </code>. </p> 
     <ul id="ul_3B3585CEF1434951B6FDCDD29E5013CD"> 
      <li id="li_947D94E9CFAC4041AC1AAEB191805529"> <code> iter </code>: Indicates an "iterative" or incremental synchronization. An incremental file contains only new data collected since the last synchronization.. </li> 
@@ -75,8 +76,8 @@ The table defines the elements in an outbound data file name.
    <td colname="col2"> <p>A 13-digit UNIX timestamp in milliseconds, in the UTC time zone. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> [<code><i>-SPLIT_NUMBER </i></code>] </p> </td> 
-   <td colname="col2"> <p>An integer. Identifies part of a file that's been split into multiple parts to improve processing times. The number indicates which part of the original file the data belongs to. </p> <p>The original file will not have any split number. The first split file will start with 1. See examples below. </p> </td> 
+   <td colname="col1"> <p><code><i>SPLITNUM</i></code></p> </td> 
+   <td colname="col2"> <p>An integer. Identifies part of a file that's been split into multiple parts to improve processing times. The number indicates which part of the original file the data belongs to.</p>  <p>The integer must be at least 3 digits long, preceded by zeros, if the split size is lower than 100 parts.</p>  <p>The original file will not have any split number. The first split file will end with 001. See examples below. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>.gz (optional) </i></code> </p> </td> 
@@ -89,56 +90,56 @@ The table defines the elements in an outbound data file name.
 
 ### Scenario 1
 
-Files sent over to an [!DNL Amazon S3] location, with *`PID-ALIAS="XYZCustomer"`* and with [!DNL Google Advertiser IDs] in the file content.
+Files sent over to an [!DNL Amazon S3] location, with *`PID_ALIAS="XYZCustomer"`* and with [!DNL Google Advertiser IDs] in the file content.
 
 E.g. incremental files:
 
 <ul class="simplelist"> 
  <li> <code> S3_1234_20914_XYZCustomer_iter_1486140844000.sync.gz </code> </li> 
- <li> <code> S3_1234_20914_XYZCustomer_iter_1486140844000-1.sync.gz </code> </li> 
- <li> <code> S3_1234_20914_XYZCustomer_iter_1486140844000-10.sync.gz </code> </li> 
+ <li> <code> S3_1234_20914_XYZCustomer_iter_1486140844000001.sync.gz </code> </li> 
+ <li> <code> S3_1234_20914_XYZCustomer_iter_1486140844000002.sync.gz </code> </li> 
 </ul>
 
 E.g. full files:
 
 <ul class="simplelist"> 
  <li> <code> S3_1234_20914_XYZCustomer_full_1486140844000.sync.gz </code> </li> 
- <li> <code> S3_1234_20914_XYZCustomer_full_1486140844000-1.sync.gz </code> </li> 
+ <li> <code> S3_1234_20914_XYZCustomer_full_1486140844000001.sync.gz </code> </li> 
 </ul>
 
 ### Scenario 2
 
-Files sent over to [!DNL FTP] location, without *`PID-ALIAS`* and with [!DNL Apple Advertiser IDs] in the file content:
+Files sent over to [!DNL FTP] location, without *`PID_ALIAS`* and with [!DNL Apple Advertiser IDs] in the file content:
 
 E.g. incremental files:
 
 <ul class="simplelist"> 
  <li> <code> ftp_1234_20915_iter_1486140843000.sync.gz </code> </li> 
- <li> <code> ftp_1234_20915_iter_1486140843000-1.sync.gz </code> </li> 
+ <li> <code> ftp_1234_20915_iter_1486140843000001.sync.gz </code> </li> 
 </ul>
 
 E.g. full files:
 
 <ul class="simplelist"> 
  <li> <code> ftp_1234_20915_full_1486140843000.sync.gz </code> </li> 
- <li> <code> ftp_1234_20915_full_1486140843000-1.sync.gz </code> </li> 
+ <li> <code> ftp_1234_20915_full_1486140843000001.sync.gz </code> </li> 
 </ul>
 
-**Scenario 3**: Files sent over to [!DNL FTP] location, with *`PID-ALIAS="XYZCustomer"`* and with 3rd party User ID in the file content ( *`Vendor ID=45454`*):
+**Scenario 3**: Files sent over to [!DNL FTP] location, with *`PID_ALIAS="XYZCustomer"`* and with 3rd party User ID in the file content ( *`Vendor ID=45454`*):
 
 E.g. incremental files:
 
 <ul class="simplelist"> 
  <li> <code> ftp_1234_45454_XYZCustomer_iter_1486140843000.sync.gz </code> </li> 
- <li> <code> ftp_1234_45454_XYZCustomer_iter_1486140843000-1.sync.gz </code> </li> 
- <li> <code> ftp_1234_45454_XYZCustomer_iter_1486140843000-10.sync.gz </code> </li> 
+ <li> <code> ftp_1234_45454_XYZCustomer_iter_1486140843000001.sync.gz </code> </li> 
+ <li> <code> ftp_1234_45454_XYZCustomer_iter_1486140843000001.sync.gz </code> </li> 
 </ul>
 
 E.g. full files:
 
 <ul class="simplelist"> 
  <li> <code> ftp_1234_45454_XYZCustomer_full_1486140843200.sync.gz </code> </li> 
- <li> <code> ftp_1234_45454_XYZCustomer_full_1486140843200-1.sync.gz </code> </li> 
+ <li> <code> ftp_1234_45454_XYZCustomer_full_1486140843200001.sync.gz </code> </li> 
 </ul>
 
 ## Outbound Data File Contents: Syntax and Parameters {#outbound-contents-syntax}

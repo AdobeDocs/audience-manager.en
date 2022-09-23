@@ -5,8 +5,9 @@ seo-title: Audience Lab Advanced Functionality
 solution: Audience Manager
 title: Audience Lab Advanced Functionality
 uuid: 0f57d634-caa0-40da-81a2-c23fbd299bfd
+feature: Audience Lab
+exl-id: 40b2c8c2-63c0-485d-8217-beab34d7a7f1
 ---
-
 # [!DNL Audience Lab] Advanced Functionality {#audience-lab-advanced-functionality}
 
 This article describes two features which provide advanced functionality for [!DNL Audience Lab]: [!DNL Duplicate Allocation Template] and [!DNL Segment Holdout].

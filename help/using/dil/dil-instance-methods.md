@@ -6,8 +6,9 @@ seo-title: Instance-level DIL Methods
 solution: Audience Manager
 title: Instance-level DIL Methods
 uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
+feature: DIL Implementation
+exl-id: 0342439d-708e-461c-b155-a3ee423f5437
 ---
-
 # Instance-level DIL Methods{#instance-level-dil-methods}
 
 The instance-level [!UICONTROL DIL] APIs let you programmatically create and work with Audience Manager objects. The instance-level methods enhance API functionality established by the class-level methods.
@@ -23,7 +24,7 @@ c_api_overview.xml
 When working with the instance-level [!UICONTROL DIL] APIs:
 
 * Access requires a partner name and container namespace ID (NSID). Contact your Audience Manager account manager to obtain this information. 
-* Replace any sample *italicized* text in the API documentation with value, ID, or other variable as required by the method you're working with.
+* Replace any sample *italicized* text in the API documentation with value, ID, or other variable as required by the method you're working with. 
 
 <!-- 
 
@@ -91,10 +92,6 @@ dataLib.api.signals({c_zdid: 54321}).submit();
 var obj = { key : ['a', 'b', 'c'] }; 
 dataLib.api.signals(obj, 'c_').submit(); 
 </code></pre>
-
->[!MORE_LIKE_THIS]
->
->* [Name Requirements for Key Variables](../features/traits/trait-key-name-requirements.md)
 
 ## traits {#traits}
 
@@ -198,10 +195,6 @@ dataLib.api.traits([
      d_dma: '<i>default</i>' 
 }).submit();
 </code></pre>
-
->[!MORE_LIKE_THIS]
->
->* [Prefix Requirements for Key Variables](../features/traits/trait-variable-prefixes.md)
 
 ## afterResult {#afterresult}
 
@@ -508,11 +501,11 @@ Works with [!UICONTROL DIL] versions 2.10 and 3.1 or higher.
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.idSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>Between different data partners and Audience Manager. For example, partner x would use this to synchronize a user ID with partner y and then send that to Audience Manager. </p> <p> <p><b>Important:</b>  This method is deprecated. Please use the <code> idSyncByURL </code> method of the Experience Cloud ID Service instance. </p> </p> </td> 
+   <td colname="col2"> <p>Between different data partners and Audience Manager. For example, partner x would use this to synchronize a user ID with partner y and then send that to Audience Manager. </p> <p> <p><b>Important:</b>  This method is deprecated. Please use the <code> idSyncByURL </code> method of the Adobe Experience Platform Identity Service instance. </p> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.aamIdSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>When you already know the user ID and want to send it to Audience Manager. </p> <p> <p><b>Important:</b>  This method is deprecated. Please use the <code> idSyncByDataSource </code> method of the Experience Cloud ID Service instance. </p> </p> </td> 
+   <td colname="col2"> <p>When you already know the user ID and want to send it to Audience Manager. </p> <p> <p><b>Important:</b>  This method is deprecated. Please use the <code> idSyncByDataSource </code> method of the Adobe Experience Platform Identity Service instance. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -590,10 +583,6 @@ dilInstance.api.aamIdSync({
 });
 </code></pre>
 
->[!MORE_LIKE_THIS]
->
->* [Synchronization Functions in the Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-idsync.html)
-
 ## result {#result}
 
 Adds a callback (that receives JSON) to the pending request.
@@ -660,10 +649,6 @@ var dilInstance = DIL.create({
 });
 </code></pre>
 
->[!MORE_LIKE_THIS]
->
->* [DIL create](../dil/dil-class-overview/dil-create.md#dil-create)
-
 ## useCORSOnly {#usecorsonly}
 
 `useCORSOnly` is a boolean true/false parameter that controls how the browser requests resources from other domains.
@@ -692,12 +677,6 @@ var dilInstance = DIL.create({
 >* We recommend that you set `useCORSOnly: true` only when you're sure that your site visitors have browsers that support this feature. 
 >* When `useCORSOnly: true`, [!UICONTROL DIL] will not make ID calls from Internet Explorer version 9 or older. 
 >
-
->[!MORE_LIKE_THIS]
->
->* [DIL create](../dil/dil-class-overview/dil-create.md#dil-create)
->* [Experience Cloud ID Service: UseCORSOnly](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-use-cors-only.html)
->* [CORS Support in the Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-cors.html)
 
 ## useImageRequest {#useimagerequest}
 
@@ -730,3 +709,11 @@ var dataLib = DIL.create({
 dataLib.api.traits([<i>123, 456, 789</i>]).useImageRequest().submit();
 </code></pre>
 
+>[!MORELIKETHIS]
+>
+>* [Name Requirements for Key Variables](../features/traits/trait-key-name-requirements.md)
+>* [Prefix Requirements for Key Variables](../features/traits/trait-variable-prefixes.md)
+>* [Synchronization Functions in the Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/idsync.html)
+>* [DIL create](../dil/dil-class-overview/dil-create.md#dil-create)
+>* [Adobe Experience Platform Identity Service: UseCORSOnly](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/use-cors-only.html)
+>* [CORS Support in the Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/reference/cors.html)

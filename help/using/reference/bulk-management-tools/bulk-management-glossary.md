@@ -5,8 +5,9 @@ seo-title: Bulk Management Tools Glossary
 solution: Audience Manager
 title: Bulk Management Tools Glossary
 uuid: 4658a6bc-9515-4d31-9715-0084760b0cea
+feature: BAAAM
+exl-id: 036d16c7-1546-4539-a318-455b98e10026
 ---
-
 # Bulk Management Tools Glossary{#bulk-management-tools-glossary}
 
 Column header labels defined.
@@ -19,7 +20,7 @@ Column header labels defined.
 
 >[!NOTE]
 >
->The [!UICONTROL Bulk Management Tools] *are not* supported by [!DNL Audience Manager]. This tool is provided for convenience and as a courtesy only. For bulk changes, we recommend that you work with the [Audience Manager APIs](../../api/rest-api-main/aam-api-getting-started.md) instead. [RBAC group permissions](../../features/administration/administration-overview.md) assigned in the [!DNL Audience Manager] UI are honored in the [!UICONTROL Bulk Management Tools].
+>[RBAC group permissions](../../features/administration/administration-overview.md) assigned in the [!DNL Audience Manager] UI are honored in the [!UICONTROL Bulk Management Tools].
 
 <table id="table_2C2BC2FB3EFC443C9A5AE18EFC6FABFD"> 
  <thead> 
@@ -75,7 +76,7 @@ Column header labels defined.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> startDate</span> </p> </td> 
-   <td colname="col2"> <p>Indicates when a segment can start to be sent to a destination. Uses <tt>yyyy-mm-dd</tt> format. </p> </td> 
+   <td colname="col2"> <p>Indicates when a segment can start to be sent to a destination. Uses <i>yyyy-mm-dd</i> format. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> targetKey</span> </p> </td> 
@@ -112,4 +113,3 @@ Column header labels defined.
   </tr> 
  </tbody> 
 </table>
-

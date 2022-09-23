@@ -4,13 +4,16 @@ seo-description: Backfill trait realizations to capture historical audiences and
 seo-title: Backfill Trait Realizations
 title: Backfill Trait Realizations
 uuid: 8b0ef4e6-d16a-4d1d-94f1-b84eebffa9a5
+feature: Data Explorer
+exl-id: 6be54999-eeeb-48cd-a630-021f17289431
 ---
-
 # Backfill Trait Realizations {#backfill-trait-realizations}
 
 Backfill trait realizations to capture historical audiences and avoid loss of relevant data prior to a trait creation date.
 
-[!UICONTROL Data Explorer Trait Backfill] is a premium capability that enhances the Audience Manager experience by unlocking additional use cases. Backfill requires additional processing power and is available to all Audience Manager customers at an incremental cost. Please contact your Adobe sales representative for additional details.
+>[!IMPORTANT]
+>
+>[!UICONTROL Data Explorer Trait Backfill] is a premium capability that enhances the Audience Manager experience by unlocking additional use cases. Backfill requires additional processing power and is available to all Audience Manager customers at an incremental cost. Please contact your Adobe sales representative for additional details.
 
 When you create traits from unused signals, you can choose to backfill the trait realizations over a specific period of time. [!DNL Audience Manager] captures the historical data about audiences that qualify for the new trait and stores them on the corresponding profile. You can see the **[!UICONTROL Backfill Options]** in the [!UICONTROL Trait Expression] section of the **[Trait Builder](../../features/traits/about-trait-builder.md)**.
 
@@ -23,18 +26,26 @@ Here's how to backfill trait realizations:
 1. Go to [!UICONTROL Audience Data > Signals > Search] amd run a Signals Search or use the [Signals Dashboard](../../features/data-explorer/data-explorer-signals-dashboard.md) to identify the signals to use in the new trait.
 1. Create a new trait based on the desired signals.
 1. Use the **[!UICONTROL Backfill Options]** in the **[!UICONTROL Trait Expression]** section to select the time interval for which you want to backfill trait realizations. Predefined backfill intervals include 1, 7, 14, and 30 days. You can also choose a custom date range of up to 30 days.
-  ![](assets/signals-trait-backfill.png)
+  
+    ![trait-backfill](assets/signals-trait-backfill.png)
+
 1. (Optional) Click **[!UICONTROL Estimate Realizations]** in the **[!UICONTROL Estimated Trait Realizations]** section to see the estimated [!UICONTROL Unique Trait Realizations] and [!UICONTROL Total Trait Population] values for the backfilled trait over the last 7 days.
-  ![](assets/estimate-trait-realizations.png)
-    >[!IMPORTANT]
-    >
-    >Trait backfilling and estimation are not available for traits with expressions that use the following operators:
-    >    * `!=`
-    >    * `matchesregex`
-    >    * `matcheswords`
+
+   ![estimate-trait-realizations](assets/estimate-trait-realizations.png)
+
+   >[!IMPORTANT]
+   >
+   >Trait backfilling and estimation are not available for traits with expressions that use the following operators:
+   >    * `!=`
+   >    * `matchesregex`
+   >    * `matcheswords`
 1. Create the trait.
 
 Once you finish creating the trait, you'll see its backfilled realizations included in the realization statistics.
+
+Watch the video below for a video walkthrough of how to backfill traits.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25169/)
 
 ## Trait Backfilling Latency {#trait-backfilling-latency}
 

@@ -5,8 +5,9 @@ seo-title: Outbound Macro Examples
 solution: Audience Manager
 title: Outbound Macro Examples
 uuid: 823d85d4-d683-45cf-9e60-c12b7d52a498
+feature: Outbound Data Transfers
+exl-id: 7e3f2b25-7b7c-47fe-aa62-7ebd4e25f9ba
 ---
-
 # Outbound Macro Examples {#outbound-macro-examples}
 
 Examples of how some of the common macros are used to create outbound file templates.
@@ -96,11 +97,11 @@ For a list of available macros and definitions, see [Outbound Template Macros](.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> DP_UUID </code> </p> </td> 
-   <td colname="col2"> <p>Format: <code> &lt;DP_UUID&gt;&lt;TAB&gt;&lt;DP_UUID_LIST;separator=TAB&gt; </code> </p> <p>Output: <code> 123456 UUID1 UUID2 UUID3 </code> </p> </td> 
+   <td colname="col2"> <p>Format: <code> &lt;DP_UUID&gt;&lt;TAB&gt; &lt;UUID&gt; </code> </p> <p>Output: <code> 123456 07955261652886032950143702505894272138 </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DP_UUID_LIST </code> </p> </td> 
-   <td colname="col2"> <p>Format: <code> &lt;DP_UUID&gt;&lt;TAB&gt; &lt;DP_UUID_LIST;separator=TAB&gt; </code> </p> <p>Output: <code> 123456 UUID1 UUID2 UUID3 </code> </p> </td> 
+   <td colname="col2"> <p>Format: <code> &lt;UUID&gt;&lt;TAB&gt; &lt;DP_UUID_LIST;separator=TAB&gt; </code> </p> <p>Output: <code> 07955261652886032950143702505894272138 DP_UUID1 DP_UUID2 DP_UUID3 </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DPUUIDS </code> </p> </td> 
@@ -174,4 +175,4 @@ Given these conditions, the following table enumerates some possible format stri
  </tbody> 
 </table>
 
-[Outbound Template Macros](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)  
+[Outbound Template Macros](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)

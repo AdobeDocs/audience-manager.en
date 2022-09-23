@@ -4,9 +4,10 @@ seo-description: Trait Exclusion provides additional controls in your modeling w
 seo-title: Algorithmic Models  Trait Exclusion
 title: Algorithmic Models  Trait Exclusion
 uuid: 1359800b-6e6c-41e1-88b4-23d31952abb3
+feature: Algorithmic Models
+exl-id: 7e2df04d-7e07-408d-b82a-9571b5839ff4
 ---
-
-# Algorithmic Models: Trait Exclusion {#algorithmic-models-trait-exclusion}
+# Look-Alike Modeling: Trait Exclusion {#algorithmic-models-trait-exclusion}
 
 [!UICONTROL Trait Exclusion] provides additional controls in your modeling workflow, allowing you to add the necessary guard rails to the model, based on your domain expertise and regulatory requirements. Use the [!UICONTROL Exclusions] option to select which traits to ignore when creating models from one or more data sources.
 
@@ -20,7 +21,7 @@ Here are some use cases you can address with [!UICONTROL Trait Exclusion]:
 
 >[!IMPORTANT]
 >
->An important note on the third use case. If the third-party data provider adds a new demographic trait to the data feed* after you created the model*, the trait is automatically picked up by the model. You cannot exclude traits from modeling after creating the model. See [Important Aspects & Limitations](../../features/algorithmic-models/trait-exclusion-algo-models.md#important-aspects-and-limitations). Please exercise caution when using this feature and work with the data provider to ensure you are informed of any changes to the feed structure.
+>An important note on the third use case. If the third-party data provider adds a new demographic trait to the data feed *after you created the model*, the trait is automatically picked up by the model. You cannot exclude traits from modeling after creating the model. See [Important Aspects & Limitations](../../features/algorithmic-models/trait-exclusion-algo-models.md#important-aspects-and-limitations). Please exercise caution when using this feature and work with the data provider to ensure you are informed of any changes to the feed structure.
 
 ![](assets/lam_exclude_traits.png)
 
@@ -29,14 +30,24 @@ Here are some use cases you can address with [!UICONTROL Trait Exclusion]:
 Use the [Build a model](../../features/algorithmic-models/create-model.md#build-model) workflow to build new algorithmic models.
 
 1. The [!UICONTROL Exclusions] selection is greyed out until you select one or more data sources for modeling.
-1. After selecting one or more data sources for modeling, press **[!UICONTROL Browse All Traits]**.
-1. In the **[!UICONTROL Select Traits to Exclude]** window, you can see all traits associated with the data sources you selected previously. Select the traits you want to exclude.
-1. You can filter the traits by trait type, or you can browse the trait folders. Note that trait folders only display the traits associated with your selected data sources.
-1. Press **[!UICONTROL Exclude Selected Traits]**.
+2. After selecting one or more data sources for modeling, press **[!UICONTROL Browse All Traits]**.
+3. In the **[!UICONTROL Select Traits to Exclude]** window, you can see all traits associated with the data sources you selected previously. Select the traits you want to exclude.
+4. You can filter the traits by trait type, trait population type ([Device ID](../../reference/ids-in-aam.md) and [Cross-Device ID](../../reference/ids-in-aam.md)), or you can browse the trait folders. Note that trait folders only display the traits associated with your selected data sources.
+5. Press **[!UICONTROL Exclude Selected Traits]**.
+
+![trait-exclusions](assets/trait-exclusions-browse-traits.png)
 
 >[!TIP]
 >
 >You can exclude entire folders by excluding the folder trait instead of excluding the traits in the folder, one by one. For example, in a folder with 20 traits, you would only need to exclude the folder trait instead of excluding all the traits one by one.
+
+If you prefer video tutorials, watch our video demonstration for Trait Exclusion: 
+
+>[!VIDEO](https://video.tv.adobe.com/v/25569/?quality=12)
+
+Additionally, watch the video below for a detailed look at how cross-device metrics work.
+
+>[!VIDEO](https://video.tv.adobe.com/v/33445/?quality=12)
 
 ## Important Aspects & Limitations {#important-aspects-and-limitations}
 
@@ -76,3 +87,12 @@ Please take note of the following aspects and limitations related to [!UICONTROL
   </tr>
  </tbody>
 </table>
+
+Watch the video below to learn how and why to exclude specific traits from a [!UICONTROL Look-Alike Model].
+
+>[!VIDEO](https://video.tv.adobe.com/v/25569/)
+
+## Related Links
+
+* [About Algorithmic Traits](/help/using/features/algorithmic-models/understanding-models.md)
+* [Trait Exclusion - Tutorial](https://helpx.adobe.com/audience-manager/kt/using/excluding-traits-look-alike-model-feature-video-use.html)

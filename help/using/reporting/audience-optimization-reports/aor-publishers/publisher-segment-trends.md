@@ -5,8 +5,9 @@ seo-title: Segment Trend Report
 solution: Audience Manager
 title: Segment Trend Report
 uuid: f84e8d0a-74e5-430c-b61c-efb696faee93
+feature: Audience Optimization Reports
+exl-id: 1fdca05a-b661-4875-88d7-b0893e2ca08f
 ---
-
 # Segment Trend Report{#segment-trend-report}
 
 The Segment Trend report returns data on impressions and click-through rates of mapped and unmapped segments over time. 
@@ -37,7 +38,7 @@ Use the **[!UICONTROL Segment]** drop-down box to select which segments you want
 
 >[!IMPORTANT]
 >
->When enabling [!UICONTROL Audience Optimization for Publishers], you must include descriptive metadata for [!UICONTROL Line Item] IDs, as described in Step 3 of [Import DFP Data Files Into Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). By doing this, you assure that the report details the web property as [!UICONTROL Line Item] instead of the [!UICONTROL Line Item] ID.
+>When enabling [!UICONTROL Audience Optimization for Publishers], you must include descriptive metadata for [!UICONTROL Line Item] IDs, as described in Step 3 of [Import Google Ad Manager (formerly DFP) Data Files Into Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). By doing this, you assure that the report details the web property as [!UICONTROL Line Item] instead of the [!UICONTROL Line Item] ID.
 
 ## Interpreting the Results {#interpreting-results}
 

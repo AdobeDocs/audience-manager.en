@@ -4,8 +4,9 @@ seo-description: Use logical operators to group key-value pairs and backfill tra
 seo-title: Supported Logical Operators
 title: Supported Logical Operators
 uuid: 645fcb6f-50ac-49bc-8df9-c699c749cf8f
+feature: Data Explorer
+exl-id: 5e405390-1c19-4e43-b3f9-598e8aa6bd99
 ---
-
 # Supported Logical Operators {#supported-logical-operators}
 
 Use logical operators to group key-value pairs and backfill traits.

@@ -5,8 +5,9 @@ seo-title: Segment to Ad Unit Overlap
 solution: Audience Manager
 title: Segment to Ad Unit Overlap
 uuid: aaa20163-58aa-42c9-8f72-a1dfb0d20e57
+feature: Audience Optimization Reports
+exl-id: 6c7cf2e6-8ed4-42de-92ee-0df90940f441
 ---
-
 # Segment to Ad Unit Overlap{#segment-to-ad-unit-overlap}
 
 The Segment to Ad Unit Overlap report is displayed as a heat chart that highlights high and low overlaps between your Ad Units and Audience Manager segments.
@@ -25,7 +26,7 @@ Use the **[!UICONTROL Segment Name]** and the **[!UICONTROL Ad Unit]** boxes to 
 
 >[!IMPORTANT]
 >
->When enabling [!UICONTROL Audience Optimization for Publishers], you must include descriptive metadata for [!UICONTROL Ad Unit IDs], as described in Step 3 of [Import DFP Data Files Into Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). By doing this, you assure that the report details the web property as [!UICONTROL Ad Unit] instead of the [!UICONTROL Ad Unit ID].
+>When enabling [!UICONTROL Audience Optimization for Publishers], you must include descriptive metadata for [!UICONTROL Ad Unit IDs], as described in Step 3 of [Import Google Ad Manager (formerly DFP) Data Files Into Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). By doing this, you assure that the report details the web property as [!UICONTROL Ad Unit] instead of the [!UICONTROL Ad Unit ID].
 
 ## Interpreting the Results {#interpreting-results}
 
@@ -51,7 +52,7 @@ Your [!UICONTROL Segment to Ad Unit Overlap] report could look similar to the on
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Ad Unit Uniques Count</span> </p> </td> 
-   <td colname="col2"> <p>The number of your visitors for this specific ad unit. This information is extracted from the DFP logs. </p> </td> 
+   <td colname="col2"> <p>The number of your visitors for this specific ad unit. This information is extracted from the Google Ad Manager logs. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Overlap Uniques Count</span> </p> </td> 
@@ -63,4 +64,3 @@ Your [!UICONTROL Segment to Ad Unit Overlap] report could look similar to the on
   </tr> 
  </tbody> 
 </table>
-

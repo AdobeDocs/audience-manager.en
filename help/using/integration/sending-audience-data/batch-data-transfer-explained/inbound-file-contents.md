@@ -1,13 +1,12 @@
 ---
 description: Required fields, syntax, and rules you should follow when formatting an inbound trait data file.
-seo-description: Required fields, syntax, and rules you should follow when formatting an inbound trait data file.
-seo-title: Inbound Data File Contents  Syntax, Invalid Characters, Variables, and Examples
 solution: Audience Manager
-title: Inbound Data File Contents  Syntax, Invalid Characters, Variables, and Examples
+title: Inbound Data File Contents - Syntax, Invalid Characters, Variables, and Examples
 uuid: 88699b29-1502-4183-a9a4-be70692a02bb
+feature: Inbound Data Transfers
+exl-id: 894f1923-6c78-41d2-b6a2-eebf56eaa29e
 ---
-
-# Inbound Data File Contents: Syntax, Invalid Characters, Variables, and Examples{#inbound-data-file-contents-syntax-invalid-characters-variables-and-examples}
+# Inbound Data File Contents: Syntax, Invalid Characters, Variables, and Examples {#inbound-data-file-contents-syntax-invalid-characters-variables-and-examples}
 
 Required fields, syntax, and rules you should follow when formatting an inbound trait data file.
 
@@ -18,6 +17,8 @@ Fields in the inbound data file must appear in the order shown below. In this ex
 ```
 <user ID><TAB><trait ID>,<trait ID>,<trait ID>,...
 ```
+
+For other accepted file content formats, see [Custom Partner Integrations](/help/using/integration/sending-audience-data/custom-partner-integrations.md).
 
 >[!NOTE]
 >
@@ -68,9 +69,9 @@ The table lists and defines the variables used in a properly formatted inbound d
  </tbody> 
 </table>
 
-## Formatting Trait IDs {#formatting-trait-ids}
+## Formatting [!UICONTROL Trait IDs] {#formatting-trait-ids}
 
-The following table describes the prefixes that identify trait names or IDs in an inbound data file. See the [sample files](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#data-file-examples) for examples.
+The following table describes the prefixes that identify [!UICONTROL trait] names or IDs in an inbound data file. See the [sample files](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#data-file-examples) for examples.
 
 <table id="table_AD54B3E5487E47C481A4E5FD3A93FDA5"> 
  <thead> 
@@ -97,9 +98,8 @@ The following table describes the prefixes that identify trait names or IDs in a
       <li> <code> ic == "789" </code> </li>
      </ul> </p> <p>These traits are associated with the <code> ic </code> key. This lets you create a simpler trait list in the data file. And, you do not need to include the <code> ic </code> prefix. As a result, the contents of your data file could look like this: </p> <p>
      <code> 
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-      <i>user ID</i>
-      &nbsp;&lt;TAB&gt;&nbsp;123,456,789 
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      <i>user ID</i>&nbsp;&lt;TAB&gt;&nbsp;123,456,789 
      </code> </p> </td> 
   </tr> 
   <tr> 
@@ -115,13 +115,13 @@ The following table describes the prefixes that identify trait names or IDs in a
  </tbody>
 </table>
 
-## Invalid Characters in Trait IDs, User IDs and Key-Value Pairs {#invalid-chars}
+## Invalid Characters in [!UICONTROL Trait IDs], [!UICONTROL User IDs] and Key-Value Pairs {#invalid-chars}
 
-### Trait IDs
+### [!UICONTROL Trait IDs]
 
-Trait IDs consist only of numerical characters. We ask that you include *only onboarded traits* in inbound data files. We do not process any other trait types in the inbound data transfer.
+[!UICONTROL Trait IDs] consist only of numerical characters. We ask that you include *only [!UICONTROL onboarded traits]* in inbound data files. We do not process any other [!UICONTROL trait] types in the inbound data transfer.
 
-### User IDs
+### [!UICONTROL User IDs]
 
 <table id="table_8C5C7271B813441EA2D45CA2FE2A6C59"> 
  <thead> 
@@ -228,7 +228,7 @@ Improperly formatted value names in a key-value pair also cause problems. Follow
 
 ## Examples Matrix {#examples-matrix}
 
-The chart below shows examples of the correct way to format your Inbound files, depending on the [type of IDs](../../../reference/ids-in-aam.md) and the method by which you want to add traits to profiles. 
+The chart below shows examples of the correct way to format your Inbound files, depending on the [type of IDs](../../../reference/ids-in-aam.md) and the method by which you want to add [!UICONTROL traits] to profiles.
 
 <table id="table_FE6D97A1F5074E4A8EFC723AF0C5E707"> 
  <thead> 
@@ -274,7 +274,7 @@ The chart below shows examples of the correct way to format your Inbound files, 
 
 ### Example 1 {#example-1}
 
-Use trait IDs to send trait qualification information for Audience Manager UUIDs.
+Use [!UICONTROL trait IDs] to send [!UICONTROL trait] qualification information for [!DNL Audience Manager] [!DNL UUIDs].
 
 ```
 59767559181262060060278870901087098252 <TAB> d_sid=24, d_sid=26, d_sid=27
@@ -282,7 +282,7 @@ Use trait IDs to send trait qualification information for Audience Manager UUIDs
 
 ### Example 2 {#example-2}
 
-Use trait IDs to send trait disqualification information for Audience Manager UUIDs.
+Use [!UICONTROL trait IDs] to send [!UICONTROL trait] disqualification information for [!DNL Audience Manager] [!DNL UUIDs].
 
 ```
 59767559181262060060278870901087098252 <TAB> d_unsid=24, d_unsid=26, d_unsid=27
@@ -302,7 +302,7 @@ or
 
 ### Example 3 {#example-3}
 
-Send in key-value pairs to add trait qualification information for Audience Manager UUIDs.
+Send in key-value pairs to add [!UICONTROL trait] qualification information for [!DNL Audience Manager] [!DNL UUIDs].
 
 ```
 59767559181262060060278870901087098252 <TAB> product = tablet, product = phone
@@ -316,7 +316,7 @@ or
 
 ### Example 4 {#example-4}
 
-Use the ic prefix to send trait qualification information for Audience Manager UUIDs.
+Use the `ic` prefix to send [!UICONTROL trait] qualification information for [!DNL Audience Manager] [!DNL UUIDs].
 
 ```
 59767559181262060060278870901087098252 <TAB> 30608,50354,50338,50352,30626
@@ -330,7 +330,7 @@ or
 
 ### Example 5 {#example-5}
 
-Use trait IDs to send trait qualification information for Android devices.
+Use [!UICONTROL trait IDs] to send [!UICONTROL trait] qualification information for [!DNL Android] devices.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -338,7 +338,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_sid=24, d_sid=25, d_sid=26
 
 ### Example 6 {#example-6}
 
-Use trait IDs to send trait disqualification information for Android devices.
+Use [!UICONTROL trait IDs] to send [!UICONTROL trait] disqualification information for [!DNL Android] devices.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_unsid=24, d_unsid=25, d_unsid=26
@@ -358,7 +358,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> 24:-1, 26:-1, 27:-1
 
 ### Example 7 {#example-7}
 
-Send in key-value pairs to add trait qualification information for Android devices.
+Send in key-value pairs to add [!UICONTROL trait] qualification information for [!DNL Android] devices.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> product = tablet, product = phone
@@ -372,7 +372,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> "product" = "tablet", "product" = "ph
 
 ### Example 8 {#example-8}
 
-Use the ic prefix to send trait qualification information for Android devices.
+Use the `ic` prefix to send [!UICONTROL trait] qualification information for [!DNL Android] devices.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> 30608,50354,50338,50352,30626
@@ -386,7 +386,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> ic=52,ic=55
 
 ### Example 9 {#example-9}
 
-Use trait IDs to send trait qualification information for iOS devices.
+Use [!UICONTROL trait IDs] to send [!UICONTROL trait] qualification information for [!DNL iOS] devices.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -394,7 +394,7 @@ Use trait IDs to send trait qualification information for iOS devices.
 
 ### Example 10 {#example-10}
 
-Use trait IDs to send trait disqualification information for iOS devices.
+Use [!UICONTROL trait IDs] to send [!UICONTROL trait] disqualification information for [!DNL iOS] devices.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> d_unsid=24, d_unsid=25, d_unsid=26
@@ -414,7 +414,7 @@ or
 
 ### Example 11 {#example-11}
 
-Send in key-value pairs to add trait qualification information for iOS devices.
+Send in key-value pairs to add [!UICONTROL trait] qualification information for [!DNL iOS] devices.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> product = tablet, product = phone
@@ -428,7 +428,7 @@ or
 
 ### Example 12 {#example-12}
 
-Use the ic prefix to send trait qualification information for iOS devices.
+Use the `ic` prefix to send [!UICONTROL trait] qualification information for [!DNL iOS] devices.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> 30608,50354,50338,50352,30626
@@ -442,7 +442,7 @@ or
 
 ### Example 13 {#example-13}
 
-Use trait IDs to send trait qualification information for DPUUIDs.
+Use [!UICONTROL trait IDs] to send [!UICONTROL trait] qualification information for [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -450,7 +450,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_sid=24, d_sid=25, d_sid=26
 
 ### Example 14 {#example-14}
 
-Use trait IDs to send trait disqualification information for DPUUIDs.
+Use [!UICONTROL trait IDs] to send [!UICONTROL trait] disqualification information for [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_unsid=24, d_unsid=25, d_unsid=26
@@ -470,7 +470,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 24:-1, 26:-1, 27:-1
 
 ### Example 15 {#example-15}
 
-Send in key-value pairs to add trait qualification information for DPUUIDs.
+Send in key-value pairs to add [!UICONTROL trait] qualification information for [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> product = tablet, product = phone
@@ -484,7 +484,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> "product" = "tablet", "product" = 
 
 ### Example 16 {#example-16}
 
-Use the ic prefix to send trait qualification information for DPUUIDs.
+Use the `ic` prefix to send [!UICONTROL trait] qualification information for [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 30608,50354,50338,50352,30626
@@ -496,6 +496,6 @@ or
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> ic=52,ic=55
 ```
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Trait Builder](../../../features/traits/about-trait-builder.md)

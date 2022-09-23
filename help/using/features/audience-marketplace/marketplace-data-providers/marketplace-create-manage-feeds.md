@@ -4,13 +4,11 @@ seo-description: A data feed requires a name, description, data source, and a pl
 seo-title: Create, Price, and Manage Data Feeds
 solution: Audience Manager
 title: Create, Price, and Manage Data Feeds
-topic: DIL API
 uuid: e28c20b3-33fc-4485-8ee9-8530d126f741
+feature: Audience Marketplace
+exl-id: e8605e94-e62a-430c-9aef-875f995fb436
 ---
-
 # Create, Price, and Manage Data Feeds {#create-price-and-manage-data-feeds}
-
-A data feed requires a name, description, data source, and a plan type. Feeds are disabled until you save and activate the feed. Set up public or private data feeds in [!UICONTROL Audience Marketplace] > [!UICONTROL My Shared Data]. Available to data sellers only.
 
 ## Create a Public or Private Data Feed {#create-public-private-data-feed}
 
@@ -26,7 +24,7 @@ To create a data feed:
 1. Provide a brief description (255 characters maximum).
 
    A good description should describe your feed accurately. For example, you could include text for marketing categories, demographics, and geographic coverage (e.g., [!DNL US] or North America). Description text is searchable and helps buyers find or evaluate your feed. A good description is an important part of attracting subscribers to your data feed.
-1. Select a data source from the **[!UICONTROL Data Source]** options.
+1. Select a data source from the **[!UICONTROL Data Source]** options. Data feeds are limited to a single data source. You cannot assign multiple data sources to the same data feed.
 
    >[!IMPORTANT]
    >
@@ -36,7 +34,7 @@ To create a data feed:
 
    Feeds can contain multiple plans. Plans can contain multiple use cases. For details, see [Plan Types for Data Feeds](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#plan-types).
 
-1. Click **[!UICONTROL Save]** to save your data fee *without* activating it.
+1. Click **[!UICONTROL Save]** to save your data feed *without* activating it.
 1. To save and activate a data feed:
    1. Move the **[!UICONTROL Availability]** slider to **[!UICONTROL Active]**.
    1. Click **[!UICONTROL Save]**.
@@ -55,10 +53,6 @@ In the [!UICONTROL Settings] section, move the slider to:
 * **[!UICONTROL Private]** and **[!UICONTROL Unbranded]**: The buyer's [!UICONTROL Marketplace] list shows the data feed name and description only. The data provider name appears as [!UICONTROL Private Seller].
 
 To see what a private feed looks like to buyers, see the buyers section in [Private Data Feeds](../../../features/audience-marketplace/marketplace-private-feeds.md).
-
->[!MORE_LIKE_THIS]
->
->* [Private Data Feeds](../../../features/audience-marketplace/marketplace-private-feeds.md)
 
 ## Deactivate a Subscriber's Data Feed {#deactivate-data-feed}
 
@@ -178,10 +172,6 @@ To review, approve, or reject buyer requests, go to [!UICONTROL My Shared Data] 
 3. In the [!UICONTROL Allow Access] section of each request box, click the check mark to approve a request or the X to deny access.
 4. Confirm or cancel your selected action in the confirmation pop up.
 
->[!MORE_LIKE_THIS]
->
->* [Private Data Feeds](../../../features/audience-marketplace/marketplace-private-feeds.md)
-
 ## Discounts for Data Providers {#discounts}
 
 In [!UICONTROL Audience Marketplace], discounts let you reduce the published price of a data feed for individual subscribers. You can offer discounts to subscribers who have submitted a subscription request or to subscribers who have requested details about a data feed. Discounts apply to [!DNL CPM] and flat rate feeds. Discounts can be helpful when you want to provide subscription incentives for new customers or to reward customer loyalty.
@@ -206,3 +196,7 @@ In these examples, the seller has added 10% discount to the [!UICONTROL Software
 Data providers can see all of their subscribers and discounted feeds in **[!UICONTROL Audience Marketplace > My Shared Data > Current Subscribers]**.
 
 ![](assets/subscribers.png)
+
+>[!MORELIKETHIS]
+>
+>* [Private Data Feeds](../../../features/audience-marketplace/marketplace-private-feeds.md)

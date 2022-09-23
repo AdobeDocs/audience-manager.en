@@ -6,8 +6,9 @@ seo-title: Key-Value Pairs Explained
 solution: Audience Manager
 title: Key-Value Pairs Explained
 uuid: f1435742-81ca-4964-8370-accf2f1c47a5
+feature: Reference
+exl-id: de4e6fdb-2d6d-4fed-9255-9438b42b2570
 ---
-
 # Key-Value Pairs Explained{#key-value-pairs-explained}
 
 Defines and describes standard and serialized key-value pairs.
@@ -46,44 +47,10 @@ When working with serialized data, you must specify the characters that separate
 
 ## Standard and Serialized Key-Value Elements {#standard-serialized-key-value-elements}
 
-<table id="table_62B0498441034A719C9DB57276777D40"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Type </th> 
-   <th colname="col2" class="entry"> Example </th> 
-   <th colname="col3" class="entry"> Key </th> 
-   <th colname="col4" class="entry"> Key-Value Separator </th> 
-   <th colname="col5" class="entry"> Key-Value Delimiter </th> 
-   <th colname="col6" class="entry"> Serial Separator </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <b>Single key</b> <p>(standard) </p> </td> 
-   <td colname="col2"> <code> x=1&amp;x=2 </code> </td> 
-   <td colname="col3"> x </td> 
-   <td colname="col4" morerows="3"> = </td> 
-   <td colname="col5" morerows="1"> &amp; </td> 
-   <td colname="col6" morerows="1"> n/a </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <b>Key-value pairs</b> <p>(standard) </p> </td> 
-   <td colname="col2"> <code> x=1&amp;x=2&amp;y=3&amp;y=4 </code> </td> 
-   <td colname="col3"> x, y </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <b>Single key</b> <p>(serial) </p> </td> 
-   <td colname="col2"> <code> x=1;2;3 </code> </td> 
-   <td colname="col3"> x </td> 
-   <td colname="col5"> n/a </td> 
-   <td colname="col6" morerows="1"> ; </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <b>Key-value pairs</b> (serial) </td> 
-   <td colname="col2"> <code> x=1;2&amp;y=3;4 </code> </td> 
-   <td colname="col3"> x, y </td> 
-   <td colname="col5"> &amp; </td> 
-  </tr> 
- </tbody> 
-</table>
 
+|Type | Example | Key | Key-Value Separator | Key-Value Delimiter | Serial Separator|
+|---------|----------|---------|---------|----------|---------|
+| **Single key** (standard) | `x=1&x=2` | `x` | `=` | `&` | n/a|
+| **Key-value pairs** (standard) | `x=1&x=2&y=3&y=4` | `x,y` | `=` | `&` | n/a|
+| **Single key** (serial) | `x=1;2;3` | `x` | `=` | n/a | `;`|
+| **Key-value pairs** (serial) | `x=1;2&y=3;4` | `x,y` | `=` | `&` | `;`|

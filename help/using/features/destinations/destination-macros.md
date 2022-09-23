@@ -5,8 +5,9 @@ seo-title: Destination Macros Defined
 solution: Audience Manager
 title: Destination Macros Defined
 uuid: 982cab05-8a3f-4f96-b4d0-291709712ad1
+feature: Destination Basics
+exl-id: 7be4b417-046c-4fe3-a53c-e4e0ed36acb9
 ---
-
 # Destination Macros Defined {#destination-macros-defined}
 
 Describes the macros you can add to a destination [!DNL URL].
@@ -45,14 +46,19 @@ When creating a [!DNL URL] destination, you can insert the following macros into
     </ul> <p>To do this with the <code>%dpid_<i>data source id</i>%</code>, the <span class="keyword"> Audience Manager</span> partner would format the macro like this: </p> 
     <ul class="simplelist"> 
      <li> <code> %dpid_1%</code> </li> 
-    </ul> <p>The macro will replace <code> 1</code> with <code> CustomerABC</code>. </p> <p> 
-     <draft-comment>
-       Based on AAM-22193 https://jira.corp.adobe.com/browse/AAM-22193 
-     </draft-comment> </p> </td> 
+    </ul> <p>The macro will replace <code> 1</code> with <code> CustomerABC</code>. </p> </td> 
   </tr> 
+  <tr>
+    <td><p><code>${GDPR}</code></p></td>
+    <td><p>Indicates whether GDPR regulations apply to the visitor or not. Use this macro to include consent in segments sent to URL destinations integrated with IAB. See <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager Plug-in for IAB TCF</a> for details.</p></td>
+  </tr>
+   <tr>
+    <td><code>${GDPR_CONSENT_XXXX}</code></p></td>
+    <td><p>The consent string (including the IAB vendor ID) collected when visitors provide or deny consent on your site. Use this macro to include the consent string in segments sent to URL destinations integrated with IAB. Replace <code>XXXX</code> with the destination partner ID. See <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager Plug-in for IAB TCF</a> for details. </p></td>
+  </tr>
   <tr> 
    <td colname="col1"> <p><code> %http_proto%</code> </p> </td> 
-   <td colname="col2"> <p>Detects the protocol used in the parent webpage and inserts it into the destination URL. For example: 
+   <td colname="col2"> <p>Detects the protocol used in the parent webpage and inserts it into the destination URL. For example:
      <br>&nbsp;
      <ul id="ul_026F56EC46E94D9EB1153557C0F65325"> 
       <li id="li_B41EF140CC274CB68FE7213DD8B908C0">if the webpage is <b>https</b>://aam_client.com, this macro will be replaced with <b>https</b>://url-destination.com </li> 
@@ -97,6 +103,6 @@ Cache busting prevents browsers from saving and reusing content. This technique 
 
 Both macros prevent caching, but `%rnd%` may be more efficient. For example, with `%timestamp%`, if several users view a page simultaneously they'll get the same date/time value. As a result, the [!DNL URL] is not unique and multiple calls are counted only once. However, `%rnd%` generates a unique numeric value for each call (even when users see the same page simultaneously). This means the [!DNL URL] string contains different values and is counted as unique.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Destination Macros Defined](../../features/destinations/destination-macros.md#destination-macros-defined)

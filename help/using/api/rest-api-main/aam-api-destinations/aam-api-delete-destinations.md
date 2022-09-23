@@ -5,8 +5,9 @@ seo-title: Delete Destinations
 solution: Audience Manager
 title: Delete Destinations
 uuid: 38fb2228-e564-49a3-9930-3139f8799a8f
+feature: API
+exl-id: eaac3908-75ab-42d2-93bd-e8979f8b2427
 ---
-
 # Delete Destinations {#delete-destinations}
 
 `DELETE` and `POST` methods that let you remove destinations and segment mappings.

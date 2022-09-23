@@ -3,23 +3,25 @@ seo-title: Making Server-to-Server DCS API Calls
 solution: Audience Manager
 title: Making Server-to-Server DCS API Calls
 uuid: bdfe3430-e27f-4a5c-88d9-ae164d28f601
+feature: DCS
+description: Call syntax, example, and parameters when making server-to-server DCS API calls
+exl-id: 977f4dfe-0beb-43c8-b64e-df4042427474
 ---
-
 # Making Server-to-Server DCS API Calls {#making-server-to-server-dcs-api-calls}
 
 Calls require the host name of the regional DCS server and the user ID. If you do not have the required user and region IDs, see [Get User IDs and Regions From a DCS Response](/help/using/api/dcs-intro/dcs-s2s/dcs-aam-ids.md) and/or [Experience Cloud](/help/using/api/dcs-intro/dcs-s2s/dcs-mcid-ids.md). Once you have user and region IDs, you can make server-to-server calls to the DCS. Refer to this section for syntax and examples.
 
 >[!NOTE]
 >
->In the code and examples, *italics* represents a variable placeholder. Substitute a real value for the placeholder when you server-to-server calls to the [!UICONTROL DCS].
+>In the code and examples, *italics* represents a variable placeholder. Substitute a real value for the placeholder when you server-to-server calls to the [!DNL DCS]. 
 
 ## Call Syntax and Example {#call-syntax-example}
 
-A basic server-to-server request that sends data to the [!UICONTROL DCS] uses the syntax shown below.
+A basic server-to-server request that sends data to the [!DNL DCS] uses the syntax shown below.
 
-<pre><code>
-"Host:<i>domain alias</i>.demdex.net" "https://<i>DCS host name</i>.demdex.net/event?d_rtbd=json&d_jsonv=1&d_uuid=<i>user ID</i>.
-</code></pre>
+```js
+"Host:domain_alias.demdex.net" "https://DCS_host_name.demdex.net/event?d_rtbd=json&d_jsonv=1&d_uuid=userID
+```
 
 A sample call looks similar to the following example.
 
@@ -79,4 +81,4 @@ A sample call looks similar to the following example.
 
 ## Sample Response {#sample-response}
 
-See [Receive Data From the DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md). 
+See [Receive Data From the DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).

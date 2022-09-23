@@ -5,8 +5,9 @@ seo-title: Naming Conventions for Metadata Files
 solution: Audience Manager
 title: Naming Conventions for Metadata Files
 uuid: cab55b2a-2e54-45f6-aeea-3735b911f821
+feature: Log Files
+exl-id: 7a895c4f-1100-4ba1-947e-abb47307fb40
 ---
-
 # Naming Conventions for Metadata Files{#naming-conventions-for-metadata-files}
 
 Name your Audience Optimization metadata file according to these specifications.

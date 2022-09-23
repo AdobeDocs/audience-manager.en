@@ -5,23 +5,24 @@ seo-title: Unused Signals Report
 solution: Audience Manager
 title: Unused Signals Report
 uuid: 04334a5c-3e21-44db-b971-0b4457685e9a
+feature: Overlap Reports
+exl-id: ab5cb5ad-4305-4463-8f56-237b5a2f1f9e
 ---
-
 # Unused Signals Report{#unused-signals-report}
 
-This report returns a frequency count of all the unused information collected on your inventory and sent to Audience Manager.
+This report returns a frequency count of all the unused information collected on your inventory and sent to Audience Manager. To access this report, navigate to **Analytics > Audience Reports > Other Reports > Unused Signals**.
 
-<!-- 
+>[!NOTE]
+>
+>If you see the message "You don't have access to Audience Reports", contact your Audience Manager consultant or Customer Care to provision the report for you. 
 
-c_unused_signals.xml
+![Screenshot of Unused Signals Report](/help/using/reporting/dynamic-reports/assets/unused-signals.png)
 
- -->
-
-## Unused Signals Report
+## Overview
 
 A signal is information from your website passed in to [!DNL Audience Manager] in the form of [key-value pairs](../../reference/key-value-pairs-explained.md) (e.g., `color=blue, price>100, gender=female`, etc.).
 
-Unused signals consist of data that you collect but have not been mapped to a trait. The [!UICONTROL Unused Signals] report shows data in a table by date, key, value, and frequency count. Any unmapped signal passed in to [!DNL Audience Manager] at least 100 times in a day qualifies for the [!UICONTROL Unused Signals] report.
+Unused signals consist of data that you collect but have not been mapped to a trait. The [!UICONTROL Unused Signals] report shows data in a table by date, key, value, and frequency count. Any unmapped signal passed in to [!DNL Audience Manager] at least 100 times in a day qualifies for the [!UICONTROL Unused Signals] report. Unused signals are stored for 45 days and then discarded. 
 
 Review this report to help identify orphaned signals that can be mapped to new or existing traits.
 

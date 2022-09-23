@@ -5,8 +5,9 @@ seo-title: Troubleshooting Tips for Bulk Management Tools
 solution: Audience Manager
 title: Troubleshooting Tips for Bulk Management Tools
 uuid: 550908a1-e24e-4f31-954b-7132c0c8dc3e
+feature: BAAAM
+exl-id: 4f1c501c-2e28-4ce5-829f-4d81d10cdccd
 ---
-
 # Troubleshooting Tips for Bulk Management Tools{#troubleshooting-tips-for-bulk-management-tools}
 
 What to do when the worksheets return an error or your bulk request fails.
@@ -21,7 +22,7 @@ What to do when the worksheets return an error or your bulk request fails.
 
 >[!NOTE]
 >
->The [!UICONTROL Bulk Management Tools] *are not* supported by [!DNL Audience Manager]. This tool is provided for convenience and as a courtesy only. For bulk changes, we recommend that you work with the [Audience Manager APIs](../../api/rest-api-main/aam-api-getting-started.md) instead. [RBAC group permissions](../../features/administration/administration-overview.md) assigned in the [!DNL Audience Manager] UI are honored in the [!UICONTROL Bulk Management Tools].
+>[RBAC group permissions](../../features/administration/administration-overview.md) assigned in the [!DNL Audience Manager] UI are honored in the [!UICONTROL Bulk Management Tools].
 
 Factors like heavy network traffic, server usage, and large data sets can cause a bulk request to fail or time out. If there is an issue, the worksheet stops writing data and displays an error message. When this happens, you should:
 
@@ -30,7 +31,7 @@ Factors like heavy network traffic, server usage, and large data sets can cause 
 * Delete all the rows that have been already updated. 
 * Try the bulk request again.
 
-## Long delays or unresponsive behavior {#delays-behavior}
+## Authentication errors, long delays, or unresponsive behavior {#delays-behavior}
 
 The following table lists some common problems you may encounter when making bulk requests with the worksheets. Try to fix these issues with the recommended solutions. If the recommended solutions do not resolve the problem, you should save your work, restart your computer, and try the request again without launching or working with other applications.
 
@@ -42,6 +43,12 @@ The following table lists some common problems you may encounter when making bul
   </tr> 
  </thead>
  <tbody> 
+  <tr> 
+   <td colname="col1"> <b>Authentication error</b> </td> 
+   <td colname="col2"> 
+    <b>Update to latest version of Microsoft Excel</b>: When a new version of Microsoft Excel is released and you are using an older version, you might encounter an authentication error in the Bulk Management worksheet. Update to the latest version of Microsoft Excel to resolve the authentication error.
+</td> 
+  </tr> 
   <tr> 
    <td colname="col1"> <b>Long delays</b> </td> 
    <td colname="col2"> 
@@ -62,3 +69,6 @@ The following table lists some common problems you may encounter when making bul
  </tbody> 
 </table>
 
+## Error Messages
+
+Sometimes, you can receive error messages when making bulk changes. To interpret the error message, see [Response Codes Defined](/help/using/api/rest-api-main/aam-api-getting-started.md) in our API documentation.

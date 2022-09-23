@@ -5,8 +5,9 @@ seo-title: Data Processing Components
 solution: Audience Manager
 title: Data Processing Components
 uuid: d458d869-7a23-4016-871d-0b994cf4af06
+feature: System Components
+exl-id: 9ff2b82b-aad0-4d24-96e6-230763019311
 ---
-
 # Data Processing Components{#data-processing-components}
 
 Data processing components include Hadoop, Snowflake, SOLR, and Tableau.
@@ -21,7 +22,7 @@ Audience Manager uses the following components to process data:
 
 ## Hadoop {#hadoop}
 
-In [!DNL Audience Manager], Hadoop is the master database that contains everything [!DNL Audience Manager] knows about a user. For example, when the [Profile Cache Servers](../../reference/system-components/components-data-collection.md) create log files that contain data about your users, it sends that data to Hadoop for storage. Other important Hadoop elements include:
+In [!DNL Audience Manager], Hadoop is the main database that contains everything [!DNL Audience Manager] knows about a user. For example, when the [Profile Cache Servers](../../reference/system-components/components-data-collection.md) create log files that contain data about your users, it sends that data to Hadoop for storage. Other important Hadoop elements include:
 
 * **Hive:** A data warehouse for Hadoop. Hive manages ad hoc queries to the data stored in Hadoop. 
 
@@ -40,7 +41,6 @@ Customers do not have direct access to these systems. However, customers do work
 This is by no means a comprehensive list, but some common dashboard reports that [!UICONTROL Snowflake] is responsible for include:
 
 * [Daily Trait Variation Report](/help/using/reporting/audience-optimization-reports/daily-trait-variation-report.md) 
-* [Delivery and Performance Report](/help/using/reporting/dynamic-reports/delivery-performance-report.md) 
 * All the overlap reports (see the [Interactive Reports](/help/using/reporting/dynamic-reports/dynamic-reports.md) section for information about each overlap report). 
 * [Unused Signals Report](/help/using/reporting/dynamic-reports/unused-signals.md)
 
@@ -59,4 +59,3 @@ SOLR is an open-source database and server system from Apache. It provides robus
 
 
 ![](assets/advertiser_analytics.png)
-

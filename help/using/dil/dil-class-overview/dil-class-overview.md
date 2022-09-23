@@ -5,6 +5,7 @@ seo-title: Class-level DIL Methods
 solution: Audience Manager
 title: Class-level DIL Methods
 uuid: 903a661f-8871-4402-b9d6-acae920276cb
+feature: DIL Implementation
 ---
 
 # Class-level DIL Methods{#class-level-dil-methods}

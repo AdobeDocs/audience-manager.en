@@ -5,20 +5,14 @@ seo-title: Private Data Feeds
 solution: Audience Manager
 title: Private Data Feeds
 uuid: e4ca59ca-bbc9-4897-9374-8f3d54b2beee
+feature: Audience Marketplace
+exl-id: 34eb6194-c57b-4836-a6df-6889a2cec703
 ---
-
 # Private Data Feeds {#private-data-feeds}
 
 A private data feed is an option that lets providers limit buyer access to their data. Data providers and buyers should review this information before creating and subscribing to private data feeds.
 
 <!-- c_marketplace_privatefeed.xml -->
-
-Contents:
-
-<ul class="simplelist"> 
- <li> <a href="../../features/audience-marketplace/marketplace-private-feeds.md#private-data-feeds-providers"> Private Data Feeds for Providers </a> </li> 
- <li> <a href="../../features/audience-marketplace/marketplace-private-feeds.md#private-data-feeds-for-buyers"> Private Data Feeds for Buyers </a> </li> 
-</ul>
 
 ## Private Data Feeds for Providers {#private-data-feeds-providers}
 
@@ -113,3 +107,55 @@ The table describes how these different feed types show or hide data.
 ### Next Steps
 
 See [Subscribe to a Private Data Feed](../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed) to request access.
+
+## How to set up the Sharing Relationship between Data Provider and Data Buyer {#set-up-sharing-relationship}
+
+### Step 1 - Enablement - Data Provider and Data Buyer
+
+The first step in the process requires intervention from Adobe Consulting or Customer Care. Data provider and data buyer should contact Adobe Consulting or Customer Care to request the enablement.
+
+### Step 2 - Data Provider - Create New Data Source
+
+In your Audience Manager account, create a new cookie data source with:
+
+* **Audience Manager ID** as the inbound key;
+* The **Share Enabled** option checked.
+
+![](assets/create-datasource.png)
+
+After you click **Save**, a new subfolder is automatically created in **Traits Storage > 3rd Party Data**.
+
+![](assets/folder-structure.png)
+
+### Step 3 - Data Provider - Identify Traits for Sharing
+
+In this step, you identify the traits that you want to share with your partner. You can either create new traits or edit existing traits. In any case, you need the traits:
+
+* To be associated with the data source you created as part of step 2.
+* To be stored in the newly created subfolder, under 3rd party data.
+
+Read more about [creating traits](/help/using/features/traits/create-onboarded-rule-based-traits.md) and [editing traits](/help/using/features/traits/manage-trait-rules.md#edit-trait).
+
+### Step 4 - Data Provider - Create Data Feed
+
+Next, create a data feed to share your traits with the data buyer. Refer to [Create a Public or Private Data Feed](/help/using/features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md) for instructions on how to create a data feed.
+
+ >[!IMPORTANT]
+ >
+ >In Settings, select the Private option. If you set this field to Public, any Audience Marketplace customer can subscribe to your feed.
+
+![](assets/create-data-feed.png)
+
+### Step 5 - Data Buyer - Request Access
+
+Go to **Audience Marketplace > Marketplace**. Search for the data feed created by the data provider in the previous step. Click **Request Access**. The designated contact from the data provider side will now receive an e-mail notification. See also, [Subscribe to a Private Data Feed](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed).
+
+### Step 6 - Data Provider - Grant Access
+
+Go to **Audience Marketplace > My Shared Data** and search for the feed you created in step 4. Click into the new access request and click **Allow Access** to approve the request. See also, [Review, Approve, or Reject Private Feed Requests](/help/using/features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#manage-private-requests).
+
+### Step 7 - Data Buyer - Turn On Subscription
+
+After the data provider grants access to the data feed, you can see the feed in your account in **Audience Marketplace > Marketplace**. Review the details, turn the Subscription button ON, and click **Review & Subscribe**. See [Storage for Subscribed Data Feeds](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#find-subscribed-data-fee) for information on where to find the 3rd party traits.
+
+Please note that these traits can only be edited in the data provider's account.

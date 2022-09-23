@@ -5,8 +5,9 @@ seo-title: Retrieving Segment Metadata
 solution: Audience Manager
 title: Retrieving Segment Metadata
 uuid: 719e2c41-8788-4e8a-967a-e367421f9f84
+feature: Segments
+exl-id: 64922cf8-f7bf-4e33-871f-d33626b06360
 ---
-
 # Retrieving Segment Metadata {#retrieving-segment-metadata}
 
 When Audience Manager sends segment information to a data partner, it identifies these objects with numeric IDs. As a data partner, when you share this information with your customers (or work with it yourself), an actual name and description provide a better experience for customers in reports, dashboards, or other user interfaces ([!DNL UI]). Data partners can make these friendly names available to their customers with either the manual or automated methods described in this section.

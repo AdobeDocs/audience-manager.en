@@ -5,8 +5,9 @@ seo-title: Style Conventions for Code and Text Elements
 solution: Audience Manager
 title: Style Conventions for Code and Text Elements
 uuid: 7605604d-bc76-4063-ba92-52c88bd69e3c
+feature: Reference
+exl-id: 12f9b802-b645-4fc3-96ea-3d16b1f4890a
 ---
-
 # Style Conventions for Code and Text Elements{#style-conventions-for-code-and-text-elements}
 
 These elements identify code options and variables used throughout the help documentation. Generally, you would not include these symbols or style elements in your code or data files. They're visual indicators only.
@@ -41,4 +42,3 @@ These elements identify code options and variables used throughout the help docu
   </tr> 
  </tbody> 
 </table>
-

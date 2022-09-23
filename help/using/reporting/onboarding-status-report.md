@@ -1,15 +1,20 @@
 ---
 description: The Onboarding Status Report checks success and failure rates for processing records in your inbound data source files. This report displays data in an interactive bar chart and provides summary metrics in tabular form. And, it includes an option that samples files for a fixed time interval and displays the most common errors for each error type. You can find this report in Analytics > Onboarding Status Report. This report is also available when you create an inbound data source.
 seo-description: The Onboarding Status Report checks success and failure rates for processing records in your inbound data source files. This report displays data in an interactive bar chart and provides summary metrics in tabular form. And, it includes an option that samples files for a fixed time interval and displays the most common errors for each error type. You can find this report in Analytics > Onboarding Status Report. This report is also available when you create an inbound data source.
-seo-title: Onboarding Status Report  About
+seo-title: Onboarding Status Report
 solution: Audience Manager
-title: Onboarding Status Report  About
+title: Onboarding Status Report
 uuid: 6ca8a90a-436b-4fce-adf1-48f3b96b3ed2
+feature: Inbound and Outbound Reports
+exl-id: 4517276f-5025-4779-917f-4a0bb22ca56c
 ---
-
 # Onboarding Status Report{#onboarding-status-report-about}
 
 The Onboarding Status Report checks success and failure rates for processing records in your inbound data source files. This report displays data in an interactive bar chart and provides summary metrics in tabular form. And, it includes an option that samples files for a fixed time interval and displays the most common errors for each error type. You can find this report in Analytics > Onboarding Status Report. This report is also available when you create an inbound data source.
+
+>[!NOTE]
+>
+>Only users with Admin privileges can see this report in the Audience Manager user interface. You can have non-admin users be notified of the uploaded inbound files' status by adding their e-mails to the report. See [Receive E-mail Notifications](/help/using/reporting/onboarding-status-report.md#receive-email-notifications).
 
 ## Onboarding Status Report: About {#onboarding-status-about}
 
@@ -113,7 +118,6 @@ A reference guide for the labels and terms used in this report.
    <td colname="col2"> <p>Lists files that <span class="keyword"> Audience Manager</span> received and processed from you selected inbound data source. </p> <p>File processing will fail if the file name is formatted improperly. File name requirements vary depending on how you send this data to <span class="keyword"> Audience Manager</span>. Delivery methods include <span class="keyword"> Amazon S3</span> and FTP. For instructions on how to name your files, see: </p> <p> 
      <ul id="ul_9A32906A14CA41C5AED0E13930DB31BA"> 
       <li id="li_A5A0E6ED711D4002B52092619F87C7D6"> <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md"> Amazon S3 Name Requirements for Inbound Data Files </a> </li> 
-      <li id="li_9590241AEC0C482D91C64DB760B32B0D"> <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md"> FTP Name Requirements for Inbound Data Files </a> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 

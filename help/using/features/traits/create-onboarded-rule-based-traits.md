@@ -6,9 +6,10 @@ seo-title: Create Rules-Based or Onboarded Traits
 solution: Audience Manager
 title: Create Rules-Based or Onboarded Traits
 uuid: 4243e09f-1f96-443a-864a-d6e6918079fa
+feature: Traits
+exl-id: cad318ee-93b2-4afa-8a2f-a67b068eec0a
 ---
-
-# Create Rules-Based or Onboarded Traits {#create-rules-based-or-onboarded-traits}
+# Create [!UICONTROL Rules-Based] or [!UICONTROL Onboarded Traits] {#create-rules-based-or-onboarded-traits}
 
 Describes set up steps and features specific to the [!UICONTROL rules-based] and [!UICONTROL onboarded] trait creation process.
 
@@ -16,9 +17,11 @@ Describes set up steps and features specific to the [!UICONTROL rules-based] and
 
 ## Basic Information for Traits {#basics}
 
-In [!UICONTROL Trait Builder], the [!UICONTROL Basic Information] settings let you create new, or edit existing traits. The [!UICONTROL Basic Information] settings are the same for rules-based, onboarded and algorithmic traits. To create a new trait, provide a name (avoid special characters), a data source, and select a storage folder. Other [!UICONTROL Basic Information] fields are optional.
+In [!UICONTROL Trait Builder], the [!UICONTROL Basic Information] settings let you create new, or edit existing [!UICONTROL traits]. The [!UICONTROL Basic Information] settings are the same for [!UICONTROL rules-based], [!UICONTROL onboarded] and [!UICONTROL algorithmic traits]. To create a new [!UICONTROL trait], provide a name (avoid special characters), a [!UICONTROL data source], and select a [!UICONTROL storage folder]. Other [!UICONTROL Basic Information] fields are optional.
 
 <!-- c_tb_basics.xml -->
+
+![create-trait](assets/create-trait.png)
 
 ### Basic Information Fields Defined
 
@@ -46,12 +49,12 @@ In [!UICONTROL Trait Builder], the [!UICONTROL Basic Information] settings let y
    <td colname="col2"> A few words to help describe the trait's purpose or function. Optional. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b><span class="uicontrol"> Event Type</span></b> </td> 
-   <td colname="col2"> Assigns the trait to a type or category, usually according to function (e.g. conversion, site visitor, partner, page view, etc.). Optional. </td> 
-  </tr> 
-  <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Data Source</span></b> </td> 
-   <td colname="col2"> Associates the trait with a specific data provider. Required. </td> 
+   <td colname="col2"> Associates the trait with a specific data provider. Required. <p>Use the first drop-down menu to filter between Audience Manager data sources, Adobe Analytics report suites, or both. Then, use the second drop-down menu to choose your data source.</p><p> If you are not using Adobe Analytics report suites, the data source type selector is disabled and defaulted to Audience Manager data sources only.</p>  </td> 
+  </tr>
+   <tr> 
+   <td colname="col1"> <b><span class="uicontrol"> Event Type</span></b> </td> 
+   <td colname="col2"> Assigns the trait to a type or category, usually according to function (e.g. conversion, site visitor, partner, page view, etc.). Optional. <p> To learn how to create conversion traits, see the <a href="https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">Creating Conversion Traits in Audience Manager video</a>. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Integration Code</span></b> </td> 
@@ -62,7 +65,7 @@ In [!UICONTROL Trait Builder], the [!UICONTROL Basic Information] settings let y
    <td colname="col2"> General notes about a trait. Optional. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b><span class="uicontrol"> Stored In</span></b> </td> 
+   <td colname="col1"> <b><span class="uicontrol"> Store In</span></b> </td> 
    <td colname="col2"> Determines which storage folder the trait belongs to. Required. </td> 
   </tr> 
   <tr> 
@@ -72,18 +75,19 @@ In [!UICONTROL Trait Builder], the [!UICONTROL Basic Information] settings let y
  </tbody> 
 </table>
 
-## Set a Trait Expiration Interval {#set-expiration-interval}
+## Set a [!UICONTROL Trait] Expiration Interval {#set-expiration-interval}
 
-In [!UICONTROL Trait Builder], the [!UICONTROL Advanced Options] lets you set a time-to-live ([!DNL TTL]) interval for a trait. [!DNL TTL] defines how many days a qualified visitor remains in a trait (120 days is default). When set to 0, trait membership never expires.
+In [!UICONTROL Trait Builder], the [!UICONTROL Advanced Options] lets you set a time-to-live ([!DNL TTL]) interval for a [!UICONTROL trait]. [!DNL TTL] defines how many days a qualified visitor remains in a [!UICONTROL trait] (120 days is default). When set to 0, [!UICONTROL trait] membership never expires.
 
 <!-- t_tb_ttl.xml -->
 
-### Set the TTL for a trait
+### Set the TTL for a [!UICONTROL trait]
 
-1. Expand the [!UICONTROL Advanced Options] section and enter a number to set a [!DNL TTL] value for the trait.
+1. Expand the [!UICONTROL Advanced Options] section and enter a number to set a [!DNL TTL] value for the [!UICONTROL trait].
 1. Click **[!UICONTROL Save]**.
-    ![](assets/TTL.png)
 
->[!MORE_LIKE_THIS]
+   ![](assets/TTL.png)
+
+>[!MORELIKETHIS]
 >
 >* [Segment Time to Live Explained](../../features/traits/segment-ttl-explained.md)

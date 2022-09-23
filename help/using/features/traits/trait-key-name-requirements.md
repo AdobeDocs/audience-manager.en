@@ -5,8 +5,9 @@ seo-title: Name Requirements for Key Variables
 solution: Audience Manager
 title: Name Requirements for Key Variables
 uuid: fa72e732-895d-4cf6-bea0-66b404c2b059
+feature: Traits
+exl-id: 5d1e5842-bebc-4d75-958f-078ba0061dfa
 ---
-
 # Name Requirements for Key Variables {#name-requirements-for-key-variables}
 
 This article describes the naming conventions used by the key variable in a key-value pair.

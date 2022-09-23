@@ -4,10 +4,10 @@ seo-description: Non-admin users can edit their own profiles, including changing
 seo-title: Edit Your Account Settings
 solution: Audience Manager
 title: Edit Your Account Settings
-topic: DIL API
 uuid: 5cc04104-65db-4d48-ba13-3f344e03d6df
+feature: Administration
+exl-id: 77fe5440-9286-44cd-b51f-600310e2dc8b
 ---
-
 # Edit Your Account Settings {#edit-your-account-settings}
 
 Non-admin users can edit their own profiles, including changing their email addresses and resetting their passwords.

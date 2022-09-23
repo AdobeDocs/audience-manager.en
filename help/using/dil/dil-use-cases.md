@@ -5,8 +5,9 @@ seo-title: DIL Use Cases and Code Samples
 solution: Audience Manager
 title: DIL Use Cases and Code Samples
 uuid: 27995c2d-6572-438e-af99-b5477f090ae9
+feature: DIL Implementation
+exl-id: 001710be-b377-460a-9e29-7268d25a6305
 ---
-
 # DIL Use Cases and Code Samples{#dil-use-cases-and-code-samples}
 
 Code samples and descriptions for specific DIL use cases.
@@ -86,10 +87,6 @@ for (var i = 0; i < my_objects.length; i++)
 sample_dil.api.submit();
 </code></pre>
 
->[!MORE_LIKE_THIS]
->
->* [signals](../dil/dil-instance-methods.md#signals)
-
 ## Capture Referring URL {#capture-referring-url}
 
 Capture and send a referring URL to Audience Manager.
@@ -117,11 +114,9 @@ adobe_dil.api.signals({ d_referer : document.referrer }).submit();
 
 Send information about search engine type and keyword searches to Audience Manager.
 
-<!-- 
-
-c_dil_search_engine_valid.xml
-
- -->
+>[!IMPORTANT]
+>
+>This section describes legacy functionality, which is not supported in the latest versions of DIL.
 
 **Supported Search Engines**
 
@@ -212,10 +207,6 @@ adobe_dil.api.signals({c_zip : '10010'}).submit();
 // Request will look like /event?c_zip=10010&d_zip=10010
 ```
 
->[!MORE_LIKE_THIS]
->
->* [Prefix Requirements for Key Variables](https://marketing.adobe.com/resources/help/en_US/aam/r_tb_variable_prefixes.html)
-
 ## Traffic DIL in Google Tag Manager (GTM) {#traffic-dil-gtm}
 
 Set up and serve DIL with a GTM tag.
@@ -242,6 +233,8 @@ To traffic the `dil.js` file in GTM:
 1. Publish the container.
 1. Generate container tag code and place it on your inventory.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Google Tag Manager Help Center](https://support.google.com/tagmanager#topic=3441530)
+>* [Signals](../dil/dil-instance-methods.md#signals)
+>* [Prefix Requirements for Key Variables](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-variable-prefixes.html#prefix-requirements-for-key-variables)

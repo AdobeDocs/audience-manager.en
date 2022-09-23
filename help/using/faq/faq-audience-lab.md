@@ -4,19 +4,13 @@ seo-description: Frequently asked questions about the Audience Lab feature.
 seo-title: Audience Lab FAQ
 solution: Audience Manager
 title: Audience Lab FAQ
-topic: DIL API
 uuid: b1daf99d-af60-4f65-987d-794a6d45d566
+feature: Audience Lab
+exl-id: 25bdabb5-2ba8-45d2-81ca-05c0590d7d96
 ---
-
 # Audience Lab FAQ{#audience-lab-faq}
 
 Frequently asked questions about the Audience Lab feature.
-
-<!-- 
-
-audience-lab-faq.xml
-
- -->
 
 <br>&nbsp;
 
@@ -48,6 +42,6 @@ In this case, [!UICONTROL Audience Lab] counts three conversions, one for each d
 
 See [Create Segment Test Group](../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups) for information on how to use [!UICONTROL Audience Lab] with [!UICONTROL RBAC] privileges.
 
-**Can I use [!UICONTROL Audience Lab] in conjunction with the [!UICONTROL Profile Link Device Graph] and External Device Graphs ([Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-overview.html), Tapad Device Graph, Liveramp Device Graph)?**
+**Can I use [!UICONTROL Audience Lab] in conjunction with the [!UICONTROL Profile Link Device Graph] and External Device Graphs ( Tapad Device Graph, Liveramp Device Graph)?**
 
 For now, [!UICONTROL Audience Lab] can only split out segment populations by the devices connected to a qualifying device, when using the [!UICONTROL Profile Link Device Graph]. We are working on adding support in [!UICONTROL Audience Lab] for the other device graphs and will let you know when we do so.

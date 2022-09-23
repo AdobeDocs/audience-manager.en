@@ -5,8 +5,9 @@ seo-title: Derived Signals
 solution: Audience Manager
 title: Derived Signals
 uuid: e52600e3-26d1-4607-9b96-afd6086a252d
+feature: Traits
+exl-id: 64bc004a-a31a-49bb-aa58-323fbc92f76f
 ---
-
 # Derived Signals {#derived-signals}
 
 A [!UICONTROL derived signal] qualifies site visitors for additional traits based on a trait they've already seen. In other words, additional trait qualification can be derived from a currently exhibited trait even if a user has never seen the new trait before.

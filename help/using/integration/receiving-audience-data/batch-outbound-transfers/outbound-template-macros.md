@@ -5,8 +5,9 @@ seo-title: Outbound Template Macros
 solution: Audience Manager
 title: Outbound Template Macros
 uuid: dec082d3-306b-4ff5-afb2-418bd543d8d0
+feature: Outbound Data Transfers
+exl-id: 6988d0e5-7a99-4291-91d3-bcd3a15630fd
 ---
-
 # Outbound Template Macros {#outbound-template-macros}
 
 Lists the macros you can use to create outbound templates. These include file name macros, header macros, and content macros.
@@ -36,12 +37,25 @@ The table lists and describes the macros you can use in the file name and to def
    <td colname="col2"> <p>User ID Key Data Provider ID. </p> </td> 
   </tr> 
   <tr> 
+   <td colname="col1"> <p> <code> NEW_LINE </code> </p> </td> 
+   <td colname="col2"> <p> Allows the creation of multi-line headers for outbound orders. </p> </td> 
+  </tr> 
+  <tr> 
    <td colname="col1"> <p> <code> ORDER_ID </code> </p> </td> 
    <td colname="col2"> <p>Order / destination ID. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> PIDALIAS </code> </p> </td> 
+   <td colname="col1"> <p> <code> PID_ALIAS </code> </p> </td> 
    <td colname="col2"> <p>An alias for an order / destination ID. </p> <p>The alias is set in the admin UI. </p> </td> 
+  </tr>
+  <tr> 
+   <td colname="col1"> <p> <code> SPLITNUM </code> </p> </td> 
+   <td colname="col2"> <p>Indicates the splitting of outbound files into multiple parts. Replace the SPLITNUM section in the file name with the part number preceded by zeros, ensuring a minimum of three characters for the SPLITNUM section.</p>
+   <p>The SPLITNUM macro does not need to be surrounded by <> characters.</p><p>Example: <code>&lt;SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_&lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;SPLITNUM.csv</code>
+<p>s3_123456_9999_full_1566906141001.csv</p> 
+<p>s3_123456_9999_full_1566906141002.csv</p> 
+<p>s3_123456_9999_full_1566906141003.csv</p> 
+<p>The last three digits (001,002,003) in the examples above are the SPLITNUM identifiers.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> SYNC_MODE </code> </p> </td> 
@@ -67,7 +81,8 @@ The table lists and describes the macros you can use in the file name and to def
   <tr> 
    <td colname="col1"> <p> <code> TIMESTAMP </code> </p> </td> 
    <td colname="col2"> <p>A 10-digit, UTC, Unix timestamp. </p> <p>It can also be formatted as <code> &lt;TIMESTAMP; format="YYYYMMDDhhmmss"&gt; </code> following Java date/timestamp formatting rules. </p> </td> 
-  </tr> 
+  </tr>
+  
  </tbody> 
 </table>
 
@@ -85,7 +100,7 @@ Macros used to format the contents of a data file. For code samples, see [Outbou
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> CLOSE_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>Inserts a close curly bracket } character. </p> </td> 
+   <td colname="col2"> <p>Inserts a close curly bracket <code>}</code> character. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DP_UUID </code> </p> </td> 
@@ -113,7 +128,7 @@ Macros used to format the contents of a data file. For code samples, see [Outbou
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPEN_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>Inserts an open curly bracket { character. </p> </td> 
+   <td colname="col2"> <p>Inserts an open curly bracket <code>{</code> character. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPT_OUT </code> </p> </td> 
@@ -151,8 +166,9 @@ Macros used to format the contents of a data file. For code samples, see [Outbou
      <li id="li_1EF40DDCA3C5447586904CF021D8F912"> <code> csegid </code>: Customer segment ID. Deprecated. Use <code> sid </code>. </li> 
      <li id="li_D85F0A5D16AE4DAFB55C17DBB35EA66E"> <code> sid </code>: Segment ID </li> 
      <li id="li_9BE103EFD8384464B46FAC00422431DB"> <code> type </code>: Returns <code> 5 </code>, a static, hardcoded value that identifies data as segment data. </li> 
-     <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code> alias </code>: Deprecated. Do not use. </li> 
-     <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD27"> <code> lastUpdateTime </code>: A Unix time stamp that indicates the last time a segment was realized. </li> 
+     <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code> alias </code>: Deprecated. Do not use. </li>
+     <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD27"> <code> lastUpdateTime </code>: A Unix time stamp that indicates the last time segment membership status was updated. </li>
+     <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD28"> <code> lastRealizationTime </code>: A Unix time stamp that indicates the last time a segment was realized. </li>
     </ul> <p>Put these variables in curly brackets after the macro. For example, this code separates results with a pipe "|" character: <code> &lt;SEGMENT_LIST:{seg|&lt;seg.type&gt;,&lt;seg.sid&gt;}; separator=","&gt; </code> </p> </td> 
   </tr> 
   <tr> 
@@ -200,6 +216,6 @@ Macros used to format the contents of a data file. For code samples, see [Outbou
  </tbody> 
 </table>
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Outbound Macro Examples](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md)

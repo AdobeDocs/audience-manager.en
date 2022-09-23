@@ -5,8 +5,9 @@ seo-title: OAuth 2.0 Integration for Real-Time Outbound Transfers
 solution: Audience Manager
 title: OAuth 2.0 Integration for Real-Time Outbound Transfers
 uuid: a39e370c-b3bd-4b06-a1af-60a024ee7ee4
+feature: Outbound Data Transfers
+exl-id: eef3a3ae-1a3f-47e9-aab6-abf878e4cb77
 ---
-
 # [!DNL OAuth 2.0] Integration for Real-Time Outbound Transfers{#oauth-integration-for-real-time-outbound-transfers}
 
 When publishing segments to the partner destination via a realtime server-to-server integration, Audience Manager can be set up to authenticate using [!DNL OAuth 2.0] when making the requests. This presents the ability to issue authenticated requests from Audience Manager to your endpoint.
@@ -61,7 +62,7 @@ Content-Type: application/json; charset=utf-8
 Content-Encoding: gzip
 Content-Length: 121
   
-{"token_type":"bearer","access_token":"glIbBVohK8d86alDEnllPWi6IpjZvJC6kwBRuuawts6YMkw4tZkt84rEZYU2ZKHCQP3TT7PnzCQPI0yY"}
+{"token_type":"Bearer","access_token":"glIbBVohK8d86alDEnllPWi6IpjZvJC6kwBRuuawts6YMkw4tZkt84rEZYU2ZKHCQP3TT7PnzCQPI0yY"}
 ```
 
 ### Endpoint 2 used by IRIS to publish segments using the bearer token

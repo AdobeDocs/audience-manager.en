@@ -5,8 +5,9 @@ seo-title: Targeting FAQ
 solution: Audience Manager
 title: Targeting FAQ
 uuid: ee96ef71-b903-4953-afc4-8ec8e48bd49e
+feature: Match Rates
+exl-id: e5f761fd-dfc8-4859-a81e-89abbd7f2914
 ---
-
 # Targeting FAQ{#targeting-faq}
 
 Common targeting-related questions and issues.
@@ -21,7 +22,7 @@ faq_targeting.xml
 
 **Where can I find a full list of third-party data providers supported by Audience Manager?**
 
-See the [Adobe Exchange Marketplace](https://marketing.adobe.com/resources/content/resources/en/exchange/marketplace/audience.html) (https://marketing.adobe.com/resources/content/resources/en/exchange/marketplace/audience.html) for a complete list of third-party data providers that [!DNL Audience Manager] supports.
+See the [Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.html) for a complete list of third-party data providers that [!DNL Audience Manager] supports.
 
 <br>&nbsp;
 

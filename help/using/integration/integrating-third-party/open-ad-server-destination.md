@@ -5,8 +5,9 @@ seo-title: OAS as an Audience Manager Destination
 solution: Audience Manager
 title: OAS as an Audience Manager Destination
 uuid: 5891a063-5a4b-4ea7-865f-b24e17ca735f
+feature: Third-party Integration
+exl-id: cf919c27-691f-424b-be83-040f03e34455
 ---
-
 # OAS as an Audience Manager Destination {#oas-as-an-audience-manager-destination}
 
 Set up [!DNL Open Ad Server] as a destination and send Audience Manager data to that platform.
@@ -34,9 +35,9 @@ Audience Manager can send segment data to a browser cookie as follows:
 
 ### Only Qualified Segments are Sent to OAS
 
-The amount data passed in to [!DNL OAS] depends on how many segments a particular user qualifies for. For example, say you set up 100 Audience Management segments. If a site visitor qualifies for five of them, then only those five segments get sent to OAS (not all 100).
+The amount data passed in to [!DNL OAS] depends on how many segments a particular user qualifies for. For example, say you set up 100 Audience Manager segments. If a site visitor qualifies for five of them, then only those five segments get sent to OAS (not all 100).
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [get_aamCookie Code](../../features/destinations/get-aam-cookie-code.md)
 >* [Key-Value Pairs Explained](../../reference/key-value-pairs-explained.md)

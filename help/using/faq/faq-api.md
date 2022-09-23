@@ -5,8 +5,9 @@ seo-title: API FAQ
 solution: Audience Manager
 title: API FAQ
 uuid: 8222ebf0-b50e-4f48-8021-dbfca2828b7c
+feature: API
+exl-id: 9a51220e-3f53-4911-876b-16e968d44d0f
 ---
-
 # API FAQ{#api-faq}
 
 Common API questions and issues.

@@ -3,8 +3,9 @@ title: Data Collection Server (DCS) API Methods and Code
 seo-title: Data Collection Server (DCS) API Methods and Code for Adobe Audience Manager (AAM)
 description: Code, methods, and techniques that let you work programmatically with the Audience Manager Data Collection Servers (DCS).
 seo-description: Code, methods, and techniques that let you work programmatically with the Audience Manager Data Collection Servers (DCS).
+feature: DCS
+exl-id: be18a59c-c70d-4dcb-ae84-58ab0a3b8921
 ---
-
 # Data Collection Server (DCS) API Methods and Code
 
 Code, methods, and techniques that let you work programmatically with the Audience Manager Data Collection Servers (DCS).

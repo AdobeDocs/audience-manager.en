@@ -6,8 +6,9 @@ seo-title: Visitor Profile Viewer
 solution: Audience Manager
 title: Visitor Profile Viewer
 uuid: 77ffe134-e08f-41de-8fc4-15494847b1d0
+feature: Traits
+exl-id: 6c1ee14c-6f78-4e45-9b88-24ace8400079
 ---
-
 # Visitor Profile Viewer {#visitor-profile-viewer}
 
 Use the [!UICONTROL Visitor Profile Viewer] to display the current state of a user profile for the current browser, including its traits and segments. For each trait, you can view its [!UICONTROL SID], name, details about how visitor traits were realized (first- or third-party), the realization date, and the frequency of realizations. For each segment, you can view its [!UICONTROL SID], name, and the segment membership date. You can also view the visitor profile for another Audience Manager profile ID ([!UICONTROL UUID]). The [!UICONTROL Visitor Profile Viewer] is helpful for troubleshooting purposes.

@@ -5,10 +5,10 @@ seo-description: Overview and workflow for data providers who want to sell data 
 seo-title: Audience Marketplace for Data Providers
 solution: Audience Manager
 title: Audience Marketplace for Data Providers
-topic: DIL API
 uuid: 80e60d33-63e7-496c-82c5-205ecf0ec03a
+feature: Audience Marketplace
+exl-id: 10a00bc9-5ee0-4aed-95d7-ace749b75542
 ---
-
 # Audience Marketplace for Data Providers {#audience-marketplace-for-data-providers}
 
 Overview and workflow for data providers who want to sell data from within [!DNL Audience Manager].
@@ -46,6 +46,6 @@ Features include:
 
 In [!UICONTROL My Shared Data], sometimes a feed status is marked as private. This indicates a private data feed. A private data feed lets sellers limit buyer access to their data and even the name of the data feed. Sellers can make feeds private when they're offering special deals, discounts, or when privacy and access control are important. With private data feeds, providers review and approve all buyer access requests. For more information, see [Private Data Feeds](../../../features/audience-marketplace/marketplace-private-feeds.md). To create a public or private data feed, see [Create a Public or Private Data Feed](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#create-public-private-data-feed).
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Discounts for Data Providers](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#discounts)

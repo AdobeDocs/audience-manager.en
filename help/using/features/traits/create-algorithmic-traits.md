@@ -5,8 +5,9 @@ seo-title: Create Algorithmic Traits
 solution: Audience Manager
 title: Create Algorithmic Traits
 uuid: 50c2d2d1-f412-479b-bb70-4f139429c388
+feature: Traits
+exl-id: dc799688-e38b-469b-bc55-507df0d28f43
 ---
-
 # Create Algorithmic Traits {#create-algorithmic-traits}
 
 <!-- t_algo_trait_build.xml -->
@@ -24,10 +25,6 @@ To create an algorithmic trait, go to [!UICONTROL Traits] and follow the steps b
    Adding the model exposes the reach and accuracy settings.
 1. Select reach or accuracy as your goal and choose a value from the respective drop down menus. Click **[!UICONTROL Save]** when done.
 
->[!MORE_LIKE_THIS]
->
->* [Accuracy and Reach](../../features/traits/trait-accuracy-reach.md)
-
 ## Configuration Settings for Algorithmic Traits {#configure-settings}
 
 In [!UICONTROL Trait Builder], the [!UICONTROL Configuration] section lets you associate an algorithmic model to a trait. To complete the algorithmic trait creation process, select a model and choose a reach or accuracy goal.
@@ -36,7 +33,7 @@ In [!UICONTROL Trait Builder], the [!UICONTROL Configuration] section lets you a
 
 <!-- r_algo_trait_config_section.xml -->
 
-* [Create an algorithmic model](../../features/algorithmic-models/create-model.md#build-model).
+* [Create a Look-Alike Model](../../features/algorithmic-models/create-model.md).
 * Wait for the notification email that lets you know the model data run has finished.
 * Complete the required fields in the [Basic Information](../../features/traits/create-onboarded-rule-based-traits.md) section.
 
@@ -49,6 +46,6 @@ In [!UICONTROL Trait Builder], the [!UICONTROL Configuration] section lets you a
 |  **[!UICONTROL Reach and Accuracy Data Columns]** | Located on the right, this section displays up to 21 rows of numeric data that displays the accuracy and reach values for your model.  |
 |  **[!UICONTROL Reach and Accuracy Slider]** | Located at the bottom of the graph, the slider lets you set a numeric value for your reach or accuracy goals. You can set the slider and then choose the reach or accuracy goal button to create a trait.  |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Accuracy and Reach](../../features/traits/trait-accuracy-reach.md)

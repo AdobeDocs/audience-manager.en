@@ -5,8 +5,9 @@ seo-title: CID Replaces DPID and DPUUID
 solution: Audience Manager
 title: CID Replaces DPID and DPUUID
 uuid: 3641eac5-b19e-45d5-bc1c-35a23b4bab8c
+feature: Reference
+exl-id: 18e6b1db-fe51-4560-9458-8d65474d2506
 ---
-
 # CID Replaces DPID and DPUUID{#cid-replaces-dpid-and-dpuuid}
 
 Update your code to use `d_cid` or `d_cid_ic` instead of `d_dpid` and `d_dpuuid`. The DPID and DPUUID variables will continue to work, but you should consider them deprecated. This includes DPID and DPUUID variants without the `d_ prefix`.
@@ -154,4 +155,3 @@ Each call can also include multiple `d_cid` and `d_cid_ic` key value pairs like 
   </tr> 
  </tbody> 
 </table>
-

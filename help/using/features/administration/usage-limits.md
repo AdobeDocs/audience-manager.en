@@ -4,27 +4,24 @@ seo-description: Audience Manager sets a maximum limit on the number of traits, 
 seo-title: Usage Limits
 solution: Audience Manager
 title: Usage Limits
-topic: DIL API
+keywords: ID mapping, ID mappings, cookie mappings
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
+feature: Usage and Billing
+exl-id: 8d29e231-d369-44ad-8e89-e6a4c83175f2
 ---
-
 # Usage Limits {#usage-limits}
 
 Audience Manager sets a maximum limit on the number of traits, segments, destinations, and algorithmic models that you can create for an account. Limits apply to these items whether created in the user interface or programmatically through [!DNL API] methods. Usage limits help protect Audience Manager from automated processes that may attempt to compromise our [!DNL API]s or user interface.
 
 ## ID Mapping Limits {#id-mapping-limits}
 
-The table below lists the [ID mapping](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) limits for device IDs. Once an ID reaches any of the limits below, Audience Manager adds new ID mappings based on a [!DNL FIFO] (first in, first out) logic, by removing the oldest stored ID mapping, and adds the new one. Refer to [Index of IDs](../../reference/ids-in-aam.md) in Audience Manager for details on the IDs supported by Audience Manager.
+The table below lists the [ID mapping](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) limits for device IDs. Once an ID reaches any of the limits below, Audience Manager adds new ID mappings based on a FIFO (first in, first out) logic, by removing the oldest stored ID mapping, and adding the new one. Refer to [Index of IDs](../../reference/ids-in-aam.md) in Audience Manager for details on the IDs supported by Audience Manager.
 
 |ID Mapping | Maximum Limit |
 |-----------|-------------- |
-|Device ID to cross-device ID | 100 device IDs to 1 cross-device ID |
-|Cross-device ID to device ID | 10 cross-device IDs to 1 device ID |
-|Device ID to device ID | 1000 device IDs to 1 device ID |
-
->[!NOTE]
->
-> Device IDs can be cookie/browser IDs or device advertising IDs ([!DNL IDFA], [!DNL GAID], etc).
+|Device Advertising ID ([DAID](../../reference/ids-in-aam.md)) to Cross-device ID ([DPUUID](../../reference/ids-in-aam.md)) | 100 Device Advertising IDs ([DAID](../../reference/ids-in-aam.md)) to 1 Cross-device ID ([DPUUID](../../reference/ids-in-aam.md)) |
+|Cross-device ID ([DPUUID](../../reference/ids-in-aam.md)) to Device Advertising ID ([DAID](../../reference/ids-in-aam.md)) | 10 Cross-device IDs ([DPUUID](../../reference/ids-in-aam.md)) to 1 Device Advertising ID ([DAID](../../reference/ids-in-aam.md)), per each [DPID](../../reference/ids-in-aam.md) |
+|Cookie/browser ID to cookie/browser ID | 1000 cookie/browser  IDs to 1 cookie/browser ID |
 
 ## Item Limits {#item-limits}
 
@@ -35,7 +32,7 @@ The tables list the current limits by item type. You cannot create new traits, s
 | Trait Type    | Maximum Limit   |
 | -------------------------- | ------------------------------------- |
 | Total Traits               | 100,000   |
-| Total Trait Qualifications | 100,000. For more information on trait qualification, see the  Trait Qualifications Reference. |
+| Total Trait Qualifications | 150,000. For more information on trait qualification, see Trait Qualification Limit in [Trait Qualifications Reference](/help/using/features/traits/trait-and-segment-qualification-reference.md#trait-qualification-limit). |
 | Algorithmic                | 50       |
 | Rule Based                 | 100,000  |
 | Onboarded                  | 100,000  |
@@ -61,9 +58,11 @@ The tables list the current limits by item type. You cannot create new traits, s
 
 | Item  | Maximum Limit |
 | -------- | ----- |
-| Total Algorithmic Models  | 20 |
-| Algorithmic Models maximum audience size | 25,000,000  Note that this limit cannot be increased. You can decrease audience sizes by selecting fewer data sources for the model or by selecting a shorter look-back window. |
-| Maximum number of excluded traits for a model | 500 |
+| Active [!UICONTROL Look-Alike Models]  | 20. Audience Manager only counts *active* algorithmic models against the limit.|
+| [!UICONTROL Look-Alike Models] maximum audience size | 25,000,000.  Note that this limit cannot be increased. You can decrease audience sizes by selecting fewer data sources for the model or by selecting a shorter look-back window. |
+| Maximum number of excluded traits for a [!UICONTROL Look-Alike Model] | 500. See [Trait Exclusion in Algorithmic Modeling](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md). |
+|Maximum [!UICONTROL Predictive Audiences Models]|10|
+|Maximum number of baseline personas for [!UICONTROL Predictive Audiences Models]|50|
 
 ### Folder Limits
 

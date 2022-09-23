@@ -1,0 +1,22 @@
+//More information can be found here: https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md
+
+{
+    "companyContexts": [{
+            "namespace": "imsOrgID",
+            "value": "1231659F56A68A8B7F000101@AdobeOrg"
+        }
+    ],
+    "users": [{
+            "key": "David Smith",
+            "action": ["access"],
+            "userIDs": [{
+                    "namespace": "20915",
+                    "value": "FD3E9002-6787-4100-8C96-E6D7C65E0BC8",
+                    "type": "namespaceId"
+                }
+            ]
+        }
+    ],
+    "include":["AudienceManager"],
+    "regulation": "[gdpr]"
+}

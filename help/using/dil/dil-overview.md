@@ -2,35 +2,40 @@
 description: An overview of DIL and how it works.
 seo-description: An overview of DIL and how it works.
 seo-title: Understanding the Data Integration Library (DIL)
+keywords: dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, 
 solution: Audience Manager
 title: Understanding the Data Integration Library (DIL)
 uuid: 77b12f35-81e4-4639-ada6-bf982f27b36e
+feature: DIL Implementation
+exl-id: f194a422-27ed-4a74-9583-8de3b6786caf
 ---
+# Understanding the [!DNL Data Integration Library] (DIL){#understanding-the-data-integration-library-dil}
 
-# Understanding the Data Integration Library (DIL){#understanding-the-data-integration-library-dil}
-
-Overview, getting started, and code methods available in the Audience Manager DIL code library.
+Overview, getting started, and code methods available in the [!DNL Audience Manager DIL] code library.
 
 >[!IMPORTANT]
 >
->Starting with version 8.0 (released August 2018), [!UICONTROL DIL] has a hard dependency on the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/), version 3.3 or higher ([download here](https://github.com/Adobe-Marketing-Cloud/id-service/releases)). It relies on the ID Service to fire ID syncs and URL destinations. An error occurs if the ID Service is missing, old, or not configured. 
+>Starting with version 8.0 (released August 2018), [!UICONTROL DIL] has a hard dependency on the [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html), version 3.3 or higher. It relies on the [!DNL ID Service] to fire ID syncs and URL destinations. An error occurs if the [!DNL ID Service] is missing, old, or not configured. 
 >
->We recommend you use Adobe Launch to implement and manage your DIL and Experience Cloud ID Service libraries. 
+>We recommend you use [!DNL Adobe Experience Platform Tags] to implement and manage your [!DNL DIL] and [!DNL Adobe Experience Platform Identity Service] libraries.
+
+However, you can also download the latest Experience Cloud and [!DNL DIL] releases from our GitHub page. See download links below:
+
+* Download the [Adobe Experience Platform Identity Service](https://github.com/Adobe-Marketing-Cloud/id-service/releases)
+* Download [DIL](https://github.com/Adobe-Marketing-Cloud/dil/releases)
 
 ## Purpose of DIL {#purpose-dil}
 
-[!UICONTROL DIL] is an API library. You can think it as a body of helper code for [!DNL Adobe Audience Manager]. It is not required to use [!DNL Audience Manager], but the methods and functions [!UICONTROL DIL] provides means you don't have to develop your own code to send data to [!DNL Audience Manager]. Also, [!UICONTROL DIL] is different than the API provided by the [Experience Cloud ID service](https://marketing.adobe.com/resources/help/en_US/mcvid/). That service is designed to manage visitor identity across different [!DNL Experience Cloud] solutions. By contrast, [!UICONTROL DIL] is designed to:
+[!UICONTROL DIL] is an API library. You can think it as a body of helper code for [!DNL Adobe Audience Manager]. It is not required to use [!DNL Audience Manager], but the methods and functions [!UICONTROL DIL] provides means you don't have to develop your own code to send data to [!DNL Audience Manager]. Also, [!UICONTROL DIL] is different than the API provided by the [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). That service is designed to manage visitor identity across different [!DNL Experience Cloud] solutions. By contrast, [!UICONTROL DIL] is designed to:
 
 * Make event calls and send data to the [Data Collection Server](../reference/system-components/components-data-collection.md). 
 * Send data to [destinations](../features/destinations/destinations.md).
 
 ## Getting and Implementing DIL Code {#get-implement-dil-code}
 
-[!UICONTROL DIL] code is available for download **[here](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. Please note that starting with version 8.0 (released August 2018), [!UICONTROL DIL] has a hard dependency on the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/), version 3.3 or higher. It relies on the ID Service to fire ID syncs and URL destinations. An error occurs if the ID Service is missing, old, or not configured.
+[!UICONTROL DIL] code is available for download **[here](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. Please note that starting with version 8.0 (released August 2018), [!UICONTROL DIL] has a hard dependency on the [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html), version 3.3 or higher. It relies on the [!DNL ID Service] to fire ID syncs and [!DNL URL destinations]. An error occurs if the [!DNL ID Service] is missing, old, or not configured.
 
-Rather than work with [!UICONTROL DIL] and set up [!DNL Audience Manager] manually, we recommend that you use [Adobe Launch](https://docs.adobelaunch.com/) instead. [!DNL Adobe Launch] is the recommended implementation tool because it simplifies code deployment, placement, and version management. Read more about the [Audience Manager extension](https://docs.adobelaunch.com/extension-reference/web/adobe-audience-manager-extension) in Adobe Launch.
-
-Adobe Launch is the successor to [Adobe Dynamic Tag Manager](https://marketing.adobe.com/resources/help/en_US/dtm/c_overview.html) ([!DNL DTM]).
+Rather than work with [!UICONTROL DIL] and set up [!DNL Audience Manager] manually, we recommend that you use [Adobe Experience Platform Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) instead. [!DNL Adobe Experience Platform Tags] is the recommended implementation tool because it simplifies code deployment, placement, and version management. Read more about the [Audience Manager extension](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html) in [!DNL Adobe Experience Platform Tags].
 
 ## Sample Call {#sample-code}
 
@@ -48,7 +53,7 @@ See also:
 ## Related Links
 
 * [DIL Use Cases and Code Samples](/help/using/dil/dil-use-cases.md)
-* [Class-level DIL Methods](/help/using/dil/dil-class-overview/dil-class-overview.md)
+* [Class-level DIL Methods](/help/using/dil/dil-class-overview/dil-start.md)
 * [Instance-level DIL Methods](/help/using/dil/dil-instance-methods.md)
 * [DIL Modules](/help/using/dil/dil-modules.md)
 * [DIL Tools](/help/using/dil/dil-tools.md)

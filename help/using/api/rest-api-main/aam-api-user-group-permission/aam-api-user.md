@@ -5,8 +5,9 @@ seo-title: User Management API Methods
 solution: Audience Manager
 title: User Management API Methods
 uuid: 6e1f2c35-bb9d-4166-b7d4-d9c5518a61ad
+feature: API
+exl-id: c015c42c-63c7-4392-9fef-f48dc787a56f
 ---
-
 # User Management API Methods {#user-management-api-methods}
 
 Rest [!DNL API] methods to manage users, including creating, updating, listing, deleting, and returning user objects.

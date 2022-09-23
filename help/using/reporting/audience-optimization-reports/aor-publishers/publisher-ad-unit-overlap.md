@@ -5,8 +5,9 @@ seo-title: Ad Unit Overlap
 solution: Audience Manager
 title: Ad Unit Overlap
 uuid: e4467e81-acbf-474e-b501-89d57395651f
+feature: Audience Optimization Reports
+exl-id: 08b219c6-bf0c-4473-9459-83b3657dfb15
 ---
-
 # Ad Unit Overlap{#ad-unit-overlap}
 
 The **[!UICONTROL Ad Unit Overlap]** report is displayed as a heat chart that highlights high and low overlaps between your Ad Units.
@@ -25,7 +26,7 @@ Use the **[!UICONTROL Base Ad Unit]** and the **[!UICONTROL Overlap Ad Unit]** c
 
 >[!IMPORTANT]
 >
->When enabling [!UICONTROL Audience Optimization for Publishers], you must include descriptive metadata for [!UICONTROL Ad Unit IDs], as described in Step 3 of [Import DFP Data Files Into Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). By doing this, you assure that the report details the web property as [!UICONTROL Ad Unit] instead of the [!UICONTROL Ad Unit ID].
+>When enabling [!UICONTROL Audience Optimization for Publishers], you must include descriptive metadata for [!UICONTROL Ad Unit IDs], as described in Step 3 of [Import Google Ad Manager (formerly DFP) Data Files Into Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). By doing this, you assure that the report details the web property as [!UICONTROL Ad Unit] instead of the [!UICONTROL Ad Unit ID].
 
 ## Interpreting the Results {#interpreting-results}
 
@@ -51,11 +52,11 @@ Your [!UICONTROL Ad Unit Overlap] report could look similar to the one below. Ho
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Overlap Ad Unit Uniques Count</span> </p> </td> 
-   <td colname="col2"> <p>The number of your users who have visited the ad unit items 9 - 18. This information is extracted from the DFP logs. </p> </td> 
+   <td colname="col2"> <p>The number of your users who have visited the ad unit items 9 - 18. This information is extracted from the Google Ad Manager logs. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Base Ad Unit Uniques Count</span> </p> </td> 
-   <td colname="col2"> <p>The number of your users who have visited the ad unit items 1 - 8. This information is extracted from the DFP logs. </p> </td> 
+   <td colname="col2"> <p>The number of your users who have visited the ad unit items 1 - 8. This information is extracted from the Google Ad Manager logs. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Overlap Uniques Count</span> </p> </td> 

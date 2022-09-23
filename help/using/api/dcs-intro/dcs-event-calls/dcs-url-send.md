@@ -5,31 +5,32 @@ seo-title: Send Data to the DCS
 solution: Audience Manager
 title: Send Data to the DCS
 uuid: 024e307d-bfcb-46cf-ac3a-fc71df0248fe
+feature: DCS
+exl-id: 8a6798c3-aafd-48c8-acd7-a0e29e04dc8e
 ---
-
 # Send Data to the DCS {#send-data-to-the-dcs}
 
-Start here for information about making `/event` calls to the [!UICONTROL DCS]. This section includes information about call syntax, parameters, formatting, and a request example.
+Start here for information about making `/event` calls to the [!DNL DCS]. This section includes information about call syntax, parameters, formatting, and a request example.
 
 >[!NOTE]
 >
->In the code and examples, *italics* represents a variable placeholder. Substitute a real value for the placeholder when you send data to the [!UICONTROL DCS] with this method.
+>In the code and examples, *italics* represents a variable placeholder. Substitute a real value for the placeholder when you send data to the [!DNL DCS] with this method.
 
 ## Call Syntax {#dcs-call-syntax}
 
-A basic `URL` string that sends data to the [!UICONTROL DCS] uses the syntax shown below.
+A basic `URL` string that sends data to the [!DNL DCS] uses the syntax shown below.
 
-<pre><code>
-https://<i>domain alias</i>.demdex.net/event?<i>key1</i>=<i>val1</i>,&<i>key2</i>=<i>val2</i>&d_dst=1&d_rtbd=json&d_cb=<i>callback</i>
-</code></pre>
+```js
+https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_cb=callback
+```
 
 >[!NOTE]
 >
->You can also send data to the [!UICONTROL DCS] by using the `POST` method. The call syntax is described in [DCS API Methods](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md).
+>You can also send data to the [!DNL DCS] by using the `POST` method. The call syntax is described in [DCS API Methods](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md).
 
 ## Call Parameters {#dcs-call-parameters}
 
-The following table defines the basic components of a simple [!UICONTROL DCS] call.
+The following table defines the basic components of a simple [!DNL DCS] call.
 
 <table id="table_5F6A5B324EB848168543386516FBF384"> 
  <thead> 
@@ -81,14 +82,16 @@ The following table defines the basic components of a simple [!UICONTROL DCS] ca
 
 ## Sample Call {#dcs-sample-call}
 
-This example shows the fictional company [!DNL Acme, Inc.] sending data to the [!UICONTROL DCS] via an HTTP call. Note that this call includes the optional parameters `d_dst=1`, `d_rtbd=json`, and `d_cb=callback`. These indicate that [!DNL Acme] wants to receive a [!DNL JSON] response from the [!UICONTROL DCS] with a call back function. Remember, this is just an example. Do not cut and paste this code.
+This example shows the fictional company [!DNL Acme, Inc.] sending data to the [!DNL DCS] via an [!DNL HTTP] call. Note that this call includes the optional parameters `d_dst=1`, `d_rtbd=json`, and `d_cb=callback`. These indicate that [!DNL Acme] wants to receive a [!DNL JSON] response from the [!DNL DCS] with a call back function. Remember, this is just an example. Do not cut and paste this code.
 
-`https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_rtbd=json&d_cb=acme_callback`
+```js
+https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_rtbd=json&d_cb=acme_callback
+```
 
 ## Next Steps {#dcs-next-steps}
 
-Now that you're familiar with sending data to the [!UICONTROL DCS], it's time to look at how to get data back from it and parse that information. See [Receive Data From the DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md). 
+Now that you're familiar with sending data to the [!DNL DCS], it's time to look at how to get data back from it and parse that information. See [Receive Data From the DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Key-Value Pairs Explained](../../../reference/key-value-pairs-explained.md)
