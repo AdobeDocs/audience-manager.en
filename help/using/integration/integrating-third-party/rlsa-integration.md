@@ -17,7 +17,7 @@ This procedure requires a [!DNL Google Ads] remarketing list, pixel code, and an
 
 To set up a [!DNL Google Ads] remarketing list as an [!DNL Audience Manager] [!DNL URL destination]:
 
-1. In your [!DNL Google Ads] account, [create a website re-marketing list](https://support.google.com/adwords/answer/2454064?hl=en) and write down your conversion ID.
+1. In your [!DNL Google Ads] account, [create a website re-marketing list](https://support.google.com/tagmanager/answer/6106960?hl=en) and write down your conversion ID.
 1. Use the following URL as a template for the Base URL and Secure URL. Replace the xxxxxxxx section with your conversion ID.
 
    ```
