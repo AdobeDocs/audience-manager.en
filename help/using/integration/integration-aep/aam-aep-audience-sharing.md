@@ -57,7 +57,7 @@ To send segments and traits from Audience Manager to Experience Platform, you mu
 >
 > Contact your Adobe Customer Success Manager or Customer Care to unlock access to this functionality.
 
-To send segments from Experience Platform to Audience Manager, you must contact either Customer Care or your Customer Success Manager. Customer Care and Customer Support Management teams must file a ticket to enable the connection between Platform and Audience Manager. 
+To send segments from Experience Platform to Audience Manager, you must contact either Customer Care or your Customer Success Manager. Customer Care and Customer Support Management teams must file a ticket (see template ticket AAM-52354) to enable the connection from Platform to Audience Manager. 
 
 Be sure to share plans for the data going from Platform to Audience Manager, to ensure that the connection is set up correctly. For example, if you need regional data to be shared for segments sent to Adobe Target, this information needs to be communicated in the ticket. The data sharing connection from Experience Platform to Audience Manager is set up within six business days of the request being submitted.
 
