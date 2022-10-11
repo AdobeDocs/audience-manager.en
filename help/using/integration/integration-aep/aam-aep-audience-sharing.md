@@ -8,10 +8,6 @@ exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
 ---
 # Experience Platform segment sharing with Audience Manager and other Experience Cloud solutions
 
->[!NOTE]
->
-> Contact your Adobe sales representative to unlock access to this functionality.
-
 ## Overview {#overview}
 
 The audience sharing functionality between Audience Manager and Adobe Experience Platform allows you to share your Audience Manager traits and segments to Adobe Experience Platform and vice-versa. You need the [[!DNL Audience Manager Connector]](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html) to enable audience sharing between Audience Manager and Adobe Experience Platform.
@@ -42,7 +38,7 @@ See the table below for an overview of audience sharing use cases:
 
 The two sections below indicate how to enable data sharing between Audience Manager and Experience Platform.
 
-### Enable data sharing from Audience Manager to Experience Platform {enable-aam-to-aep-data}
+### Enable data sharing from Audience Manager to Experience Platform {#enable-aam-to-aep-data}
 
 To send segments and traits from Audience Manager to Experience Platform, you must set up the Audience Manager source connector in the Experience Platform sources catalog. This is a self-service workflow that does not require involvement from Adobe Customer Care or engineering teams. To set up the Audience Manager source connector, read:
 
@@ -55,7 +51,11 @@ To send segments and traits from Audience Manager to Experience Platform, you mu
 >
 >![Screenshot showing the Select all segments and Select all traits options unchecked in the workflow to connect to the Audience Manager source connector.](/help/using/integration/integration-aep/assets/select-all-segments-traits-unchecked.png)
 
-### Enable data sharing from Experience Platform to Audience Manager {enable-aep-to-aam-data}
+### Enable data sharing from Experience Platform to Audience Manager {#enable-aep-to-aam-data}
+
+>[!NOTE]
+>
+> Contact your Adobe Customer Success Manager or Customer Care to unlock access to this functionality.
 
 To send segments from Experience Platform to Audience Manager, you must contact either Customer Care or your Customer Success Manager. Customer Care and Customer Support Management teams must file a ticket to enable the connection between Platform and Audience Manager. 
 
@@ -63,7 +63,7 @@ Be sure to share plans for the data going from Platform to Audience Manager, to 
 
 ## Audience Manager segments and traits in Adobe Experience Platform {#aam-segments-traits-in-aep}
 
-After setting up the Audience Manager source connector to import data from Audience Manager, your Audience Manager traits and segments appear in Experience Platform as **Audiences** in the segment workflow. For more information on your Audience Manager segments and traits in Experience Platform, read:
+After setting up the Audience Manager source connector to import traits and segments from Audience Manager, your Audience Manager data appears in Experience Platform as **Audiences** in the segment workflow. For more information on your Audience Manager segments and traits in Experience Platform, read:
 
 * [Segmentation Service overview](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#audiences)
 * [Experience Platform Segment Builder user guide](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#audiences)
