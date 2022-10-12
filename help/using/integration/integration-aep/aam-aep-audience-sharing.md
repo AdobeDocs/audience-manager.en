@@ -34,9 +34,9 @@ See the table below for an overview of audience sharing use cases:
 
 {style="table-layout:auto"}
 
-## Get started - How to enable data sharing between Audience Manager and Experience Platform {#enable-data-sharing-aam-aep}
+## Audience Manager segments and traits in Adobe Experience Platform {#aam-segments-traits-in-aep}
 
-The two sections below indicate how to enable data sharing between Audience Manager and Experience Platform.
+The sections below describe how to enable data sharing from Audience Manager to Experience Platform and how to use Audience Manager traits and segments in Experience Platform.
 
 ### Enable data sharing from Audience Manager to Experience Platform {#enable-aam-to-aep-data}
 
@@ -51,6 +51,17 @@ To send segments and traits from Audience Manager to Experience Platform, you mu
 >
 >![Screenshot showing the Select all segments and Select all traits options unchecked in the workflow to connect to the Audience Manager source connector.](/help/using/integration/integration-aep/assets/select-all-segments-traits-unchecked.png)
 
+### Use Audience Manager traits and segments in Experience Platform {#use-aam-data-in-aep}
+
+After setting up the Audience Manager source connector to import traits and segments from Audience Manager, your Audience Manager data appears in Experience Platform as **Audiences** in the segment workflow. For more information on your Audience Manager segments and traits in Experience Platform, read:
+
+* [Segmentation Service overview](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#audiences)
+* [Experience Platform Segment Builder user guide](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#audiences)
+
+## Adobe Experience Platform segments in Audience Manager {#aep-segments-in-aam}
+
+The sections below describe how to enable data sharing from Experience Platform to Audience Manager and how to use Experience Platform segments in Audience Manager.
+
 ### Enable data sharing from Experience Platform to Audience Manager {#enable-aep-to-aam-data}
 
 >[!NOTE]
@@ -61,14 +72,7 @@ To send segments from Experience Platform to Audience Manager, you must contact 
 
 Be sure to share plans for the data going from Platform to Audience Manager, to ensure that the connection is set up correctly. For example, if you need regional data to be shared for segments sent to Adobe Target, this information needs to be communicated in the ticket. The data sharing connection from Experience Platform to Audience Manager is set up within six business days of the request being submitted.
 
-## Audience Manager segments and traits in Adobe Experience Platform {#aam-segments-traits-in-aep}
-
-After setting up the Audience Manager source connector to import traits and segments from Audience Manager, your Audience Manager data appears in Experience Platform as **Audiences** in the segment workflow. For more information on your Audience Manager segments and traits in Experience Platform, read:
-
-* [Segmentation Service overview](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#audiences)
-* [Experience Platform Segment Builder user guide](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#audiences)
-
-## Adobe Experience Platform segments in Audience Manager {#aep-segments-in-aam}
+### Use Experience Platform segments in Audience Manager {#use-aep-data-in-aam}
 
 Segments that you create in Experience Platform appear in your Audience Manager interface as signals, traits, and segments, with the following composition rules:
 
