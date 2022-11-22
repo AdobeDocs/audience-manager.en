@@ -55,7 +55,7 @@ However, the set up procedure is well documented in the [DoubleClick Campaign Ma
 
 1. Invite [!DNL Audience Manager] to join the group.
 
-   After you create a group and give it access to a data bucket, invite [!DNL Audience Manager] to join the group. Send an invitation email to DFA-AAM@adobe.com. Be sure to include the data file URL from step 3. Our internal teams will work with you to verify access after accepting the invitation. 1. Set up two data sources for [!DNL Google Campaign Manager] data in the [!DNL Audience Manager] User Interface.
+   After you create a group and give it access to a data bucket, invite [!DNL Audience Manager] to join the group. Send an invitation email to dfaaam@adobe.com. Be sure to include the data file URL from step 3. Our internal teams will work with you to verify access after accepting the invitation. 1. Set up two data sources for [!DNL Google Campaign Manager] data in the [!DNL Audience Manager] User Interface.
 
    Name the data sources `Advertiser Analytics: DCM Platform` and `Advertiser Analytics: AAM+DCM Platform`. In the [Create Data Sources](../../../features/manage-datasources.md#create-data-source) workflow, set the ID type to `Cookie`. Share the IDs of the two new data sources with our internal teams. 
 
