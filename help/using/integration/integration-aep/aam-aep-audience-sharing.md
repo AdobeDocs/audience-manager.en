@@ -10,7 +10,9 @@ exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
 
 ## Overview {#overview}
 
-The audience sharing functionality between Audience Manager and Adobe Experience Platform allows you to share your Audience Manager traits and segments to Adobe Experience Platform and vice-versa. You need the [[!DNL Audience Manager Connector]](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html) to enable audience sharing between Audience Manager and Adobe Experience Platform.
+The audience sharing functionality between Audience Manager and Adobe Experience Platform allows you to share your Audience Manager traits and segments to Adobe Experience Platform and Experience Platform segments to Audience Manager. 
+
+You need the [[!DNL Audience Manager source connector]](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html) and the Experience Cloud Audiences destination <INSERT LINK TO NEW DESTINATION DOC> in Experience Platform to enable audience sharing between Audience Manager and Adobe Experience Platform.
 
 You can use Audience Manager traits and segments in Experience Platform to add Audience Manager data to your customer profiles and to benefit from the Experience Platform [segmentation service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en). 
 
@@ -63,6 +65,10 @@ After setting up the Audience Manager source connector to import traits and segm
 The sections below describe how to enable data sharing from Experience Platform to Audience Manager and how to use Experience Platform segments in Audience Manager.
 
 ### Enable data sharing from Experience Platform to Audience Manager {#enable-aep-to-aam-data}
+
+>[!IMPORTANT]
+>
+> This section describes the legacy segment sharing integration from Experience Platform to Audience Manager. You can now set up this integration without support from Adobe Customer representatives. For more information, read <INSERT LINK TO NEW DESTINATION DOC>
 
 >[!NOTE]
 >
