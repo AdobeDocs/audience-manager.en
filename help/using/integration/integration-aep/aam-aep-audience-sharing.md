@@ -12,7 +12,7 @@ exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
 
 The audience sharing functionality between Audience Manager and Adobe Experience Platform allows you to share your Audience Manager traits and segments to Adobe Experience Platform and Experience Platform segments to Audience Manager. 
 
-You need the [[!DNL Audience Manager source connector]](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html) and the Experience Cloud Audiences destination <INSERT LINK TO NEW DESTINATION DOC> in Experience Platform to enable audience sharing between Audience Manager and Adobe Experience Platform.
+You need the [[!DNL Audience Manager source connector]](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html) and the [Experience Cloud Audiences](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html) destination in Experience Platform to enable audience sharing between Audience Manager and Adobe Experience Platform.
 
 You can use Audience Manager traits and segments in Experience Platform to add Audience Manager data to your customer profiles and to benefit from the Experience Platform [segmentation service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en). 
 
@@ -68,7 +68,7 @@ The sections below describe how to enable data sharing from Experience Platform 
 
 >[!IMPORTANT]
 >
-> This section describes the legacy segment sharing integration from Experience Platform to Audience Manager. You can now set up this integration without support from Adobe Customer representatives. For more information, read <INSERT LINK TO NEW DESTINATION DOC>
+> This section describes the legacy segment sharing integration from Experience Platform to Audience Manager. You can now set up this integration without support from Adobe Customer representatives. For more information, read the [Experience Cloud Audiences](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html) destination documentation.
 
 >[!NOTE]
 >
