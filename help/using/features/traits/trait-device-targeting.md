@@ -10,6 +10,12 @@ exl-id: 85c848e0-a4cf-49b5-9fe9-56f8c565f665
 ---
 # Device Targeting With Platform-level Keys {#device-targeting-with-platform-level-keys}
 
+>[!WARNING]
+>
+>Starting with February 2023, Google has updated the Chrome browser functionality to minimize the information collected via the `User-Agent` header. As a result, Audience Manager customers using [DIL](../../../using/dil/dil-overview.md) will no longer receive reliable information for traits based on the keys described in this page.
+>
+>Audience Manager customers who use platform-level keys for targeting must switch to [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) instead of [DIL](../../../using/dil/dil-overview.md), and enable [High Entropy User-Agent Client Hints](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=en).
+
 Describes the common platform-level key-value pairs you can use to target users with device-related variables across all properties in your Audience Manager account.
 
 ## Purpose of Platform-level Variables {#platform-variables}
