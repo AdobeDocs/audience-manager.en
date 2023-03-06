@@ -30,7 +30,7 @@ For example, consider the segment rules below:
 * Segment A: Trait 1 AND Trait 2
 * Segment B: Trait 1 AND NOT Trait 2
 
-In Analytics reports, a profile may be qualified for both segments, even though it stopped qualifying for one of them.
+In Analytics reports, a profile may be shown as qualified for both segments, even though it stopped qualifying for Segment B.
 
 ## Step 1: Provide Basic Information
 
