@@ -8,16 +8,22 @@ uuid: b0aac960-6732-4e96-87a5-40ba2755e02d
 feature: DCS
 exl-id: bfb0b684-6b15-434d-b5ec-5f8741c0c691
 ---
-# Race Conditions and Error Handling {#race-conditions-and-error-handling}
+# Race Conditions, Rate Limiting, and Error Handling {#race-conditions-and-error-handling}
 
 Describes how to prevent race conditions and [!DNL DCS] error handling.
 
 ## Preventing Race Conditions {#prevent-race-conditions}
 
-A race condition can occur if you send multiple calls simultaneously (or in rapid succession) to the [!DNL DCS] before it finishes responding to the initial queries and writing data to the user’s cookie. A race condition is undesirable because it can corrupt or improperly overwrite cookie data. As a best practice, consider the following methods to help avoid this problem:
+A race condition can occur if you send multiple calls simultaneously (or in rapid succession) to the [!DNL DCS] before it finishes responding to the initial queries and writing data to the user's cookie. A race condition is undesirable because it can corrupt or improperly overwrite cookie data. As a best practice, consider the following methods to help avoid this problem:
 
 * Don't make simultaneous calls, or calls in rapid succession, to the [!DNL DCS] from the same user.
 * Wait for each response to come back before making subsequent calls.
+
+## Rate limiting {#rate-limiting}
+
+Adobe may introduce rate limiting if it detects excessive DCS API calls that could have a negative impact on service availability.
+
+If rate limiting is enabled, you might receive a `429 Too Many Requests` HTTP response status code on your DCS calls. When receiving this HTTP response, please retry the API calls at a later time.
 
 ## Error Handling {#error-handling}
 
