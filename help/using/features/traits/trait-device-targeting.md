@@ -10,6 +10,12 @@ exl-id: 85c848e0-a4cf-49b5-9fe9-56f8c565f665
 ---
 # Device Targeting With Platform-level Keys {#device-targeting-with-platform-level-keys}
 
+>[!WARNING]
+>
+>Google has updated the functionality of [!DNL Google Chrome] and all [!DNL Chromium]-based browsers to minimize the information collected via the `User-Agent` header.
+>Starting with March 2023, Audience Manager supports these updates by leveraging [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en). To continue using trait information provided via the `User-Agent` header, you must use [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) and enable [High Entropy User-Agent Client Hints](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=en).
+>These updates are not supported by [DIL](../../../using/dil/dil-overview.md), so Audience Manager customers who use [!DNL DIL] will not be able to collect trait information via the `User-Agent` header.
+
 Describes the common platform-level key-value pairs you can use to target users with device-related variables across all properties in your Audience Manager account.
 
 ## Purpose of Platform-level Variables {#platform-variables}
