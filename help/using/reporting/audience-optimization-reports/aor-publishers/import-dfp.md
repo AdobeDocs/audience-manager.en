@@ -76,12 +76,8 @@ You need to set the [!DNL Audience Manager] ID yourself, and can work with [!DNL
   </tr> 
   <tr> 
    <td colname="col1"> <p>Step 6 </p> </td> 
-   <td colname="col2"> <p>Compile the pre-requisites in an e-mail to AAM Customer Care (aamsupport@adobe.com) to kick off the log ingestion process. Draft the e-mail using the template in the next section. </p> </td> 
+   <td colname="col2"> <p>Compile the prerequisites and open a support ticket by following the instructions detailed <a href="https://experienceleague.adobe.com/docs/customer-one/using/home.html">here</a> to kick off the log ingestion process. </p> </td> 
    <td colname="col3"> <p>You, or <span class="keyword"> Audience Manager</span> Consulting on your behalf </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
-## E-Mail Template {#email-template}
-
-To finalize the log ingestion enablement, send us an e-mail to aamsupport@adobe.com. Please use the [attached e-mail template](assets/enable_dfp_ingestion.txt).
