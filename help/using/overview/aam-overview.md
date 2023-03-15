@@ -1,6 +1,7 @@
 ---
 description: Information about the history of Adobe Audience Manager, the types of data collected, segmentation, reporting, and more.
 landing-page-description: Information about the history of Audience Manager, types of data collected, segmentation, reporting, and more.
+short-description: Information about the history of Audience Manager, types of data collected, segmentation, reporting, and more.
 seo-title: Audience Manager Overview
 solution: Audience Manager
 title: Audience Manager Overview

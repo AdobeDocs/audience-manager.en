@@ -1,6 +1,7 @@
 ---
 description: Learn about the components of a segment and the expressions used to set audience qualification criteria. Also find information about how data is transmitted.
 landing-page-description: Learn about the components of a segment and the expressions used to set audience qualification criteria. Also find information about how data is transmitted.
+short-description: Learn about the components of a segment and the expressions used to set audience qualification criteria. Also find information about how data is transmitted.
 seo-title: Signals, Traits, and Segments
 solution: Audience Manager
 title: Signals, Traits, and Segments
