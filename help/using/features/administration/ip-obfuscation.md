@@ -23,6 +23,10 @@ Following the principles of "Privacy By Design",Adobe Audience Manager allows cu
 
 See also, Collecting IP addresses and IP Address Obfuscation in our [Data Privacy section](/help/using/overview/data-security-and-privacy/data-privacy.md).
 
+### IP Obfuscation Precendence {#precedence}
+
+[Datastream-level IP obfuscation](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en#create) takes precedence over any IP obfuscation option set in Audience Manager, and it is applied to all IP addresses. Any geolocation lookup done by Audience Manager is impacted by the datastream-level [!UICONTROL IP obfuscation] option. A geolocation lookup in Audience Manager, based on a fully obfuscated IP, will result in an unknown region and any segments based on the resulted geolocation data will not be realized.
+
 ## IP Address Obfuscation Requirements {#ip-obfuscation-requirements}
 
 IP address obfuscation is available only to Audience Manager administrator accounts. See [Create Users](/help/using/features/administration/administration-overview.md#create-users) to understand how to assign administrator privileges for a user.
