@@ -10,6 +10,12 @@ exl-id: 001710be-b377-460a-9e29-7268d25a6305
 ---
 # DIL Use Cases and Code Samples{#dil-use-cases-and-code-samples}
 
+>[!WARNING]
+>
+>Starting with July 2023, Adobe has discontinued the development of the [!DNL Data Integration Library (DIL)] and the DIL extension.
+><br><br>Existing customers can continue using their DIL implementation, but customer support will be limited to security issues only.
+><br><br>Customers looking to implement new data collection integrations should use the [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) instead.
+
 Code samples and descriptions for specific DIL use cases.
 
 <!-- 
@@ -40,7 +46,7 @@ Remember to keep the value properties the same when passing in data. For example
 
 This basic example sends color and price data to Audience Manager in the form of key-value pairs. Your code could look similar to the following: 
 
-<pre class=“java”><code>
+<pre class="java"><code>
 var sample_dil = DIL.create({partner:"<i>partner name</i>"}); 
 sample_dil.api.signals({ 
    c_color:"blue", 

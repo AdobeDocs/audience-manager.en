@@ -11,6 +11,12 @@ exl-id: f194a422-27ed-4a74-9583-8de3b6786caf
 ---
 # Understanding the [!DNL Data Integration Library] (DIL){#understanding-the-data-integration-library-dil}
 
+>[!WARNING]
+>
+>Starting with July 2023, Adobe has discontinued the development of the [!DNL Data Integration Library (DIL)] and the DIL extension.
+><br><br>Existing customers can continue using their DIL implementation, but customer support will be limited to security issues only.
+><br><br>Customers looking to implement new data collection integrations should use the [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) instead.
+
 Overview, getting started, and code methods available in the [!DNL Audience Manager DIL] code library.
 
 >[!IMPORTANT]

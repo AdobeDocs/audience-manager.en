@@ -11,6 +11,12 @@ exl-id: a1e9e715-3921-4298-bce1-5a6c2110e71b
 ---
 # getDil{#getdil}
 
+>[!WARNING]
+>
+>Starting with July 2023, Adobe has discontinued the development of the [!DNL Data Integration Library (DIL)] and the DIL extension.
+><br><br>Existing customers can continue using their DIL implementation, but customer support will be limited to security issues only.
+><br><br>Customers looking to implement new data collection integrations should use the [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) instead.
+
 Retrieves a partner-specific DIL instance.
 
  **Function Signature:** `getDil: function (partner, containerNSID) {}`

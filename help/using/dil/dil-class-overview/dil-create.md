@@ -10,6 +10,12 @@ exl-id: 0bef149c-4458-43d6-affe-6d79fe1fca46
 ---
 # DIL create method{#dil-create}
 
+>[!WARNING]
+>
+>Starting with July 2023, Adobe has discontinued the development of the [!DNL Data Integration Library (DIL)] and the DIL extension.
+><br><br>Existing customers can continue using their DIL implementation, but customer support will be limited to security issues only.
+><br><br>Customers looking to implement new data collection integrations should use the [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) instead.
+
 ## DIL create {#dil-create-new}
 
 Creates a partner-specific [!UICONTROL DIL] instance. 

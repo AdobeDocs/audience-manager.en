@@ -11,6 +11,12 @@ exl-id: 0342439d-708e-461c-b155-a3ee423f5437
 ---
 # Instance-level DIL Methods{#instance-level-dil-methods}
 
+>[!WARNING]
+>
+>Starting with July 2023, Adobe has discontinued the development of the [!DNL Data Integration Library (DIL)] and the DIL extension.
+><br><br>Existing customers can continue using their DIL implementation, but customer support will be limited to security issues only.
+><br><br>Customers looking to implement new data collection integrations should use the [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) instead.
+
 The instance-level [!UICONTROL DIL] APIs let you programmatically create and work with Audience Manager objects. The instance-level methods enhance API functionality established by the class-level methods.
 
 ## Getting started with Instance-level DIL Methods {#get-started-dil-methods}

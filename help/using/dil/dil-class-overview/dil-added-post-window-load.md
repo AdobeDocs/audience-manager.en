@@ -10,6 +10,12 @@ exl-id: 955fe0f2-2a64-491f-9098-e5aabcc697db
 ---
 # isAddedPostWindowLoad{#isaddedpostwindowload}
 
+>[!WARNING]
+>
+>Starting with July 2023, Adobe has discontinued the development of the [!DNL Data Integration Library (DIL)] and the DIL extension.
+><br><br>Existing customers can continue using their DIL implementation, but customer support will be limited to security issues only.
+><br><br>Customers looking to implement new data collection integrations should use the [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) instead.
+
 Used to let DIL know that it is loaded after the window loads.
 
  **Function Signature:** `isAddedPostWindowLoad: function()`
