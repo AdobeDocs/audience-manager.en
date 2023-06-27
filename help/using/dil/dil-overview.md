@@ -2,7 +2,7 @@
 description: An overview of DIL and how it works.
 seo-description: An overview of DIL and how it works.
 seo-title: Understanding the Data Integration Library (DIL)
-keywords: dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, 
+keywords: dil
 solution: Audience Manager
 title: Understanding the Data Integration Library (DIL)
 uuid: 77b12f35-81e4-4639-ada6-bf982f27b36e
@@ -10,6 +10,14 @@ feature: DIL Implementation
 exl-id: f194a422-27ed-4a74-9583-8de3b6786caf
 ---
 # Understanding the [!DNL Data Integration Library] (DIL){#understanding-the-data-integration-library-dil}
+
+>[!WARNING]
+>
+>Beginning in July 2023, Adobe has discontinued the development of the [!DNL Data Integration Library (DIL)] and the [!DNL DIL] extension.
+><br><br>
+>Existing customers can continue using their [!DNL DIL] implementation. However, Adobe will not be developing [!DNL DIL] beyond this point. Customers are encouraged to evaluate [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) for their long term data collection strategy.
+><br><br>
+>Customers looking to implement new data collection integrations after July 2023 should use [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) instead.
 
 Overview, getting started, and code methods available in the [!DNL Audience Manager DIL] code library.
 
