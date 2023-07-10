@@ -19,6 +19,10 @@ exl-id: f23f4294-35d9-4128-bcda-64a3eccbb4e7
 > 
 > After all customers have migrated, the user management sections of this document will go away.
 
+>[!IMPORTANT]
+>
+> For organizations leveraging RBAC for the first time, the feature needs to be enabled by Adobe. Submit a case to customer care, or reach out to your account team in order to request RBAC enablement. 
+
 
 The options under the [!UICONTROL Administration] menu let you create Audience Manager users and assign them to groups. You can also view limits (traits, segments, destinations, and models).
 
