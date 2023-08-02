@@ -19,6 +19,10 @@ exl-id: f23f4294-35d9-4128-bcda-64a3eccbb4e7
 > 
 > After all customers have migrated, the user management sections of this document will go away.
 
+>[!IMPORTANT]
+>
+> Before you can use [!DNL RBAC], this feature must be enabled by Adobe for your organization. Please reach out to your account team to request [!DNL RBAC] activation, or contact Customer Care. 
+
 
 The options under the [!UICONTROL Administration] menu let you create Audience Manager users and assign them to groups. You can also view limits (traits, segments, destinations, and models).
 

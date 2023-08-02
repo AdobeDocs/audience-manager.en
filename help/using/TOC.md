@@ -10,6 +10,7 @@ feature-set: Audience Manager
 # Audience Manager User Guide {#user-guide}
 
 + [Audience Manager Guide](aam-home.md)
++ [Evolution guide to Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html)
 + Overview{#overview}
     + [Audience Manager Overview](overview/aam-overview.md)
     + [Types of Data Collected](overview/data-types-collected.md)
