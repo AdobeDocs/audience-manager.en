@@ -63,7 +63,7 @@ You must meet the following prerequisites to use the Audience Manager Plug-in fo
 
 >[!WARNING]
 >
->If you are using a Consent Management Platform (CMP) that does not support IAB TCF v.2.0, Audience Manager will automatically send the `gdpr=0` parameter in ID syncs, even if your visitors are in the European Union. To determine if your GDPR validation is active, we recommend that you confirm with your Consent Management Platform (CMP) that they support IAB TCF v2.2.
+>If you are using a Consent Management Platform (CMP) that does not support IAB TCF v2.2, Audience Manager will automatically send the `gdpr=0` parameter in ID syncs, even if your visitors are in the European Union. To determine if your GDPR validation is active, we recommend that you confirm with your Consent Management Platform (CMP) that they support IAB TCF v2.2.
 
 ## Recommendations and how to implement {#recommendations}
 
