@@ -145,7 +145,7 @@ This technical documentation guide provides self-help assistance for Audience Ma
      See the latest <a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html" format="https" scope="external"> Experience Cloud Release Notes</a> for new features and fixes.</p> 
      <p> <b>Latest features</b> </p> <p> 
      Read about the latest Audience Manager features:</p>
-     <p><ul><li><a href="/help/using/docs-updates/docs-2021.md">Audience Manager user migration to Admin Console</a></li><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">Google Customer Match for People-Based Destinations</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager Plug-in for IAB TCF v2.0</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Predictive Audiences</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Activity Usage Reporting</a></li>
+     <p><ul><li><a href="/help/using/docs-updates/docs-2021.md">Audience Manager user migration to Admin Console</a></li><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">Google Customer Match for People-Based Destinations</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager Plug-in for IAB TCF v2.2</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Predictive Audiences</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Activity Usage Reporting</a></li>
      </ul></p>
     </td>
   </tr> 
