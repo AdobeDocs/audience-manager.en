@@ -312,7 +312,7 @@ feature-set: Audience Manager
             + [Transfer-Control Files for Log File Transfers](integration/receiving-audience-data/batch-outbound-transfers/transfer-control-files.md)
             + [Outbound Template Macros](integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)
             + [Outbound Macro Examples](integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md)
-            + [Leverage Amazon S3 Cross-Account Bucket Permissions for Your Outbound   Files](integration/receiving-audience-data/batch-outbound-transfers/authorize-s3-cross-bucket.md)
+            + [Leverage Amazon S3 Cross-Account Bucket Permissions for Your Outbound Files](integration/receiving-audience-data/batch-outbound-transfers/authorize-s3-cross-bucket.md)
     + Sending Audience Data{#sending-audience-data}
         + [Sending Audience Data](integration/sending-audience-data/send-audience-data.md)
         + Real-Time Inbound Data Integration {#real-time-inbound-data-integration}
@@ -330,6 +330,7 @@ feature-set: Audience Manager
             + [File PGP Encryption for Inbound Data Types](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)
             + [File Compression for Inbound Data Transfer Files](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
             + [Sample Message to Partners after Inbound Processing](integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)
+            + [Leverage Amazon S3 Cross-Account Bucket Permissions for Your Inbound Files](integration/sending-audience-data/batch-data-transfer-explained/authorize-s3-inbound.md) 
         + [Custom Partner Integrations](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
     + Integration with Adobe Experience Platform {#integration-experience-platform}
       + [Experience Platform segment sharing with Audience Manager and other Experience Cloud solutions](integration/integration-aep/aam-aep-audience-sharing.md)
