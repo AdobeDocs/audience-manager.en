@@ -18,6 +18,6 @@ To do this, follow the steps outlined below.
 >[!NOTE]
 >
 >When transfering inbound data to the Audience Manager Amazon S3 bucket, make sure to use the `bucket-owner-full-control` [access control list](https://docs.aws.amazon.com/AmazonS3/latest/userguide/about-object-ownership.html) in order for Audience Manger to correctly process the data.
-><br>
->Example for the Amazon Web Services command: `aws s3 cp <user_s3_uri> <AAM_s3_uri> --acl bucket-owner-full-control`.
+>
+>Example for the Amazon Web Services command: `aws s3 cp <user_s3_uri> <AAM_s3_uri> --acl bucket-owner-full-control`
 
