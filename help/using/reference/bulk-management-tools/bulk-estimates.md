@@ -12,6 +12,10 @@ exl-id: 8da0b48e-6fa4-43c9-a149-a39e465ac366
 
 A bulk estimate returns segment size data based on segment rules. Follow these instructions to make a bulk estimate request.
 
+>[!IMPORTANT]
+>
+>The Bulk Management Tools are not an officially supported Adobe offering. Troubleshooting and support through Customer Care will be handled on a case by case basis.
+
 <!-- 
 
 t_bulk_estimates.xml

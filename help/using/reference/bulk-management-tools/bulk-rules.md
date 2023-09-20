@@ -12,6 +12,10 @@ exl-id: 9b697606-5534-4e6e-a3f2-b1a4c26bb707
 
 The create and update worksheets accept a traitRule header that lets you apply multiple rules in a single operation. Follow these instructions to make bulk rule requests.
 
+>[!IMPORTANT]
+>
+>The Bulk Management Tools are not an officially supported Adobe offering. Troubleshooting and support through Customer Care will be handled on a case by case basis.
+
 <!-- 
 
 <p>c_bulk_rules.xml </p>
