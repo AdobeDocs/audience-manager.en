@@ -12,6 +12,10 @@ exl-id: 036d16c7-1546-4539-a318-455b98e10026
 
 Column header labels defined.
 
+>[!IMPORTANT]
+>
+>The Bulk Management Tools are not an officially supported Adobe offering. Troubleshooting and support through Customer Care will be handled on a case by case basis.
+
 <!-- 
 
 <p>r_bulk_glossary.xml </p>

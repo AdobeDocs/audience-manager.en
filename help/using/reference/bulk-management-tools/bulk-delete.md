@@ -12,6 +12,10 @@ exl-id: 3ff530dd-66d0-4dd3-a6e6-afe4a9cb5ba4
 
 Bulk delete lets you remove multiple segments, traits, folders, derived signals, data sources, models, and destinations with a single operation. Follow these instructions to make a bulk delete request.
 
+>[!IMPORTANT]
+>
+>The Bulk Management Tools are not an officially supported Adobe offering. Troubleshooting and support through Customer Care will be handled on a case by case basis.
+
 <!-- 
 
 <p>t_bulk_delete.xml </p>

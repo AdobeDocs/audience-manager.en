@@ -12,6 +12,10 @@ exl-id: 7828fc95-24eb-4a80-bdb8-0d9adea43d8f
 
 Bulk create lets you construct multiple data sources, derived signals, segments, traits, and other items with a single operation. Follow these instructions to make a bulk creation request.
 
+>[!IMPORTANT]
+>
+>The Bulk Management Tools are not an officially supported Adobe offering. Troubleshooting and support through Customer Care will be handled on a case by case basis.
+
 <!-- 
 
 t_bulk_create.xml
