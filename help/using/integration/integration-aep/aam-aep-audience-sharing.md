@@ -3,7 +3,7 @@ description: Learn how to enable data sharing and how audiences are shared betwe
 solution: Audience Manager
 title: Experience Platform segment sharing with Audience Manager and other Experience Cloud solutions
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments, AAM AEP segment sharing
-feature: Platform Integration
+feature: Experience Platform Integration
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
 ---
 # Experience Platform segment sharing with Audience Manager and other Experience Cloud solutions
