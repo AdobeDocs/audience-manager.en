@@ -12,7 +12,9 @@ exl-id: 4f1c501c-2e28-4ce5-829f-4d81d10cdccd
 
 What to do when the worksheets return an error or your bulk request fails.
 
-
+>[!IMPORTANT]
+>
+>The Bulk Management Tools are not an officially supported Adobe offering. Troubleshooting and support through Customer Care will be handled on a case by case basis.
 
 <!-- 
 

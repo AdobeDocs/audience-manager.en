@@ -9,9 +9,14 @@ uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 feature: BAAAM
 exl-id: 5603146e-7172-4181-90ad-4606129176dd
 ---
+
 # Getting Started With Bulk Management{#getting-started-with-bulk-management}
 
 The [!DNL Bulk Management Tools] let you create and manage multiple objects at once with a single operation. You can use [!DNL Bulk Management Tools] to work with [!UICONTROL data sources], [!UICONTROL derived signals], [!UICONTROL destinations], [!UICONTROL folders], [!UICONTROL models], [!UICONTROL segments], and [!UICONTROL traits].
+
+>[!IMPORTANT]
+>
+>The Bulk Management Tools are not an officially supported Adobe offering. Troubleshooting and support through Customer Care will be handled on a case by case basis.
 
 <!-- 
 

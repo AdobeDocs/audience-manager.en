@@ -13,6 +13,10 @@ exl-id: ef01c7d0-5af1-4db7-9859-1087c1fef684
 
 A bulk update lets you edit multiple segments, traits, models, data sources, and segment or trait folder elements in a single operation. Follow these instructions to make bulk updates.
 
+>[!IMPORTANT]
+>
+>The Bulk Management Tools are not an officially supported Adobe offering. Troubleshooting and support through Customer Care will be handled on a case by case basis.
+
 <!-- 
 
 t_bulk_updates.xml

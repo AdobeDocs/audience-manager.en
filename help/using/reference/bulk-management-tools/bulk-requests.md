@@ -12,6 +12,10 @@ exl-id: a0597bf4-79c8-404d-ba3b-a92c6b5c9c06
 
 A bulk request returns data you can use with the different headers in the Update, Create, Estimate, and Delete worksheets.
 
+>[!IMPORTANT]
+>
+>The Bulk Management Tools are not an officially supported Adobe offering. Troubleshooting and support through Customer Care will be handled on a case by case basis.
+
 <!-- 
 
 t_bulk_requests.xml
