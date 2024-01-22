@@ -12,13 +12,7 @@ exl-id: f7d5e52d-ad21-4020-a299-d440f954c51a
 
 Information about general requirements, authentication, optional query parameters, request [!DNL URLs], and other references.
 
-<!-- c_rest_api_overview.xml -->
-
 ## API Requirements and Recommendations {#api-requirements-recommendations}
-
-Things you must and should do when working with the [!DNL Audience Manager] [!DNL API]s.
-
-<!-- aam-api-requirements.xml -->
 
 Note the following when working with [Audience Manager API](https://bank.demdex.com/portal/swagger/index.html#/) code:
 
@@ -31,14 +25,54 @@ Note the following when working with [Audience Manager API](https://bank.demdex.
 
 ## Authentication {#authentication}
 
-The [!DNL Audience Manager] [!DNL REST APIs] support two authentication methods.
+The [!DNL Audience Manager] [!DNL REST APIs] support three authentication methods.
 
-* [JWT (Service Account) Authentication](#jwt) using [Adobe Developer](https://www.adobe.io/). [!DNL Adobe Developer] is Adobe's developer ecosystem and community. It includes [APIs for all Adobe products](https://www.adobe.io/apis.html). This is the recommended way of setting up and using [!DNL Adobe] [!DNL APIs].
-* [OAuth Authentication (deprecated)](#oauth). While this method is deprecated, customers with existing [!DNL OAuth] integrations can continue using this method.
+* **Recommended**: [OAuth Server-to-Server Authentication](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/) using [Adobe Developer Console](https://www.adobe.io/). [!DNL Adobe Developer] is Adobe's developer ecosystem and community. It includes [APIs for all Adobe products](https://developer.adobe.com/apis/). This is the recommended way of setting up and using [!DNL Adobe] [!DNL APIs]. 
+* **Deprecated**: [JWT (Service Account) Authentication](#jwt) using [Adobe Developer](https://www.adobe.io/). [!DNL Adobe Developer] is Adobe's developer ecosystem and community. It includes [APIs for all Adobe products](https://developer.adobe.com/apis/).
+* **Deprecated** [Legacy OAuth Authentication](#oauth). While this method is deprecated, customers with existing [!DNL OAuth] integrations can continue using this method.
 
 >[!IMPORTANT]
 >
 >Depending on your authentication method, you need to adjust your request [!DNL URLs] accordingly. See the [Environments](#environments) section for details about the hostnames that you should use.
+
+## OAuth Server-to-Server Authentication using Adobe Developer {#oauth-adobe-developer}
+
+### Adobe Developer Overview {#adobeio}
+
+[!DNL Adobe Developer] is Adobe's developer ecosystem and community. It includes [APIs for all Adobe products](https://developer.adobe.com/apis).
+
+This is the recommended way of setting up and using [!DNL Adobe] [!DNL APIs].
+
+### Prerequisites {#prerequisites}
+
+Before you can configure [!DNL JWT] authentication, make sure you have access to the [Adobe Developer Console](https://developer.adobe.com/console/home) in [Adobe Developer](https://developer.adobe.com/). Contact your organization administrator for access requests.
+
+### Authentication {#auth}
+
+Follow the steps below to configure [!DNL JWT (Service Account)] authentication using [!DNL Adobe Developer]:
+
+1. Log in to the [Adobe Developer Console](https://developer.adobe.com/console/home).
+1. Follow the steps in [Service Account Connection](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
+   * During [Step 2: Add an API to your project using Service Account authentication](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md), choose the [!DNL Audience Manager] [!DNL API] option.
+1. Try out the connection by making your first [!DNL API] call based on the instructions from [Step 3](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
+
+>[!NOTE]
+>
+>To configure and work with the [!DNL Audience Manager] [!DNL REST APIs] in an automated manner, you can generate the [!DNL JWT] programatically. See [JWT (Service Account) Authentication](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md) for detailed instructions.
+
+### Technical account RBAC permissions
+
+If your Audience Manager account uses [Role-based Access Control](../../features/administration/administration-overview.md), you must create an Audience Manager technical user account and add it to the Audience Manager RBAC group that will make the API calls.
+
+Follow the steps below to create a technical user account and add it to an RBAC group:
+
+1. Make a `GET` call to `https://aam.adobe.io/v1/users/self`. The call will create a technical user account that you can see in the [!UICONTROL Admin Console], in the [!UICONTROL Users] page.
+  
+    ![technical account](assets/technical-account.png)
+
+1. Log in to your Audience Manager account and [add the technical user account](../../features/administration/administration-overview.md#create-group) to the user group that will make the API calls.
+
++++ View information about the deprecated [!DNL JWT] ([!DNL Service Account]) method of obtaining authentication tokens.
 
 ## [!DNL JWT] ([!DNL Service Account]) Authentication using Adobe Developer {#jwt}
 
@@ -76,6 +110,10 @@ Follow the steps below to create a technical user account and add it to an RBAC 
     ![technical account](assets/technical-account.png)
 
 1. Log in to your Audience Manager account and [add the technical user account](../../features/administration/administration-overview.md#create-group) to the user group that will make the API calls.
+
++++
+
++++ View information about the deprecated legacy [!DNL OAuth] Authentication method of obtaining authentication tokens.
 
 ## [!DNL OAuth] Authentication (Deprecated) {#oauth}
 
@@ -175,6 +213,33 @@ The [!DNL JSON] response contains your new access token. The response should loo
 ### Authorization Code and Implicit Authentication {#authentication-code-implicit}
 
 The [!DNL Audience Manager] [!UICONTROL REST API] supports authorization code and implicit authentication. To use these access methods, your users need to log in to `https://api.demdex.com/oauth/authorize` to get access and refresh tokens.
+
++++
+
+## Test an API call
+
+After getting your authentication bearer token, perform an API call to test that you can now access Audience Manager APIs.
+
+>[!BEGINSHADEBOX]
+
+Perform a GET call to the /datasources endpoint to retrieve a list of all globally available datasources.
+
+https://bank.demdex.com/portal/swagger/index.html#/Data%20Source%20API/get_datasources_
+
+API request
+
+```shell
+
+curl -X 'GET' \
+  'https://api.demdex.com/v1/datasources/' \
+  -H 'accept: application/json' \
+  -H 'Authorization: Bearer something'
+
+```
+
+API response in case of using the correct bearer token
+
+>[!ENDSHADEBOX]
 
 ## Make Authenticated [!DNL API] Requests {#authenticated-api-requests}
 
