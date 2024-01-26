@@ -37,6 +37,10 @@ The [!DNL Audience Manager] [!DNL REST APIs] support three authentication method
 
 ## OAuth Server-to-Server Authentication using Adobe Developer {#oauth-adobe-developer}
 
+This section covers how to gather the required credentials to authenticate Audience Manager API calls, as outlined in the flowchart below. You can gather most of the required credentials in the initial one-time setup. The access token, however, must be refreshed every 24-hours.
+
+![Audience Manager authentication flow diagram.](/help/using/api/rest-api-main/assets/aam-authentication-flow.png)
+
 ### Adobe Developer Overview {#adobeio}
 
 [!DNL Adobe Developer] is Adobe's developer ecosystem and community. It includes [APIs for all Adobe products](https://developer.adobe.com/apis).
@@ -45,32 +49,102 @@ This is the recommended way of setting up and using [!DNL Adobe] [!DNL APIs].
 
 ### Prerequisites {#prerequisites}
 
-Before you can configure [!DNL JWT] authentication, make sure you have access to the [Adobe Developer Console](https://developer.adobe.com/console/home) in [Adobe Developer](https://developer.adobe.com/). Contact your organization administrator for access requests.
+Before you can configure [!DNL OAuth Server-to-Server] authentication, make sure you have access to the [Adobe Developer Console](https://developer.adobe.com/console/home) in [Adobe Developer](https://developer.adobe.com/). Contact your organization administrator for access requests.
 
 ### Authentication {#auth}
 
-Follow the steps below to configure [!DNL JWT (Service Account)] authentication using [!DNL Adobe Developer]:
+Follow the steps below to configure [!DNL OAuth Server-to-Server] authentication using [!DNL Adobe Developer]:
 
 1. Log in to the [Adobe Developer Console](https://developer.adobe.com/console/home).
-1. Follow the steps in [Service Account Connection](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
+1. Follow the steps in the [OAuth Server-to-Server credential implementation guide](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/).
    * During [Step 2: Add an API to your project using Service Account authentication](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md), choose the [!DNL Audience Manager] [!DNL API] option.
 1. Try out the connection by making your first [!DNL API] call based on the instructions from [Step 3](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
 
 >[!NOTE]
 >
->To configure and work with the [!DNL Audience Manager] [!DNL REST APIs] in an automated manner, you can generate the [!DNL JWT] programatically. See [JWT (Service Account) Authentication](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md) for detailed instructions.
+>To configure and work with the [!DNL Audience Manager] [!DNL REST APIs] in an automated manner, you can rotate client secrets programmatically. See [the developer documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/#rotating-client-secrets-programmatically) for detailed instructions.
 
-### Technical account RBAC permissions
+### Add Audience Manager API to a project {#add-platform-to-project}
 
-If your Audience Manager account uses [Role-based Access Control](../../features/administration/administration-overview.md), you must create an Audience Manager technical user account and add it to the Audience Manager RBAC group that will make the API calls.
+Go to [Adobe Developer Console](https://www.adobe.com/go/devs_console_ui) and sign in with your Adobe ID. Next, follow the steps outlined in the tutorial on [creating an empty project](https://developer.adobe.com/developer-console/docs/guides/projects/projects-empty/) in the Adobe Developer Console documentation.
 
-Follow the steps below to create a technical user account and add it to an RBAC group:
+Once you have created a new project, select **[!UICONTROL Add API]** on the **[!UICONTROL Project Overview]** screen.
 
-1. Make a `GET` call to `https://aam.adobe.io/v1/users/self`. The call will create a technical user account that you can see in the [!UICONTROL Admin Console], in the [!UICONTROL Users] page.
-  
-    ![technical account](assets/technical-account.png)
+>[!TIP]
+>
+>If you are provisioned for several organizations, use the organization selector in the upper right corner of the interface to make sure that you are in the organization you need.
 
-1. Log in to your Audience Manager account and [add the technical user account](../../features/administration/administration-overview.md#create-group) to the user group that will make the API calls.
+![Developer Console screen with the Add API option highlighted.](./images/api-authentication/add-api.png)
+
+The **[!UICONTROL Add an API]** screen appears. Select the product icon for Adobe Experience Platform, then choose **[!UICONTROL Experience Platform API]** before selecting **[!UICONTROL Next]**.
+
+![Select Experience Platform API.](./images/api-authentication/platform-api.png)
+
+>[!TIP]
+>
+>Select the **[!UICONTROL View docs]** option to navigate in a separate browser window to the complete [Experience Platform API reference documentation](https://developer.adobe.com/experience-platform-apis/).
+
+### Select the OAuth Server-to-Server authentication type {#select-oauth-server-to-server}
+
+Next, select the authentication type to generate access tokens and access the Experience Platform API.
+
+>[!IMPORTANT]
+>
+>Select the **[!UICONTROL OAuth Server-to-Server]** method as this will be the only method supported moving forward. The **[!UICONTROL Service Account (JWT)]** method is deprecated. While integrations using the JWT authentication method will continue to work until January 1st, 2025, Adobe strongly recommends that you migrate existing integrations to the new OAuth Server-to-Server method before that date. Get more information in the section [!BADGE Deprecated]{type=negative} [Generate a JSON Web Token (JWT)](#jwt).
+
+![Select Experience Platform API.](./images/api-authentication/oauth-authentication-method.png)
+
+### Select the product profiles for your integration {#select-product-profiles}
+
+In the **[!UICONTROL Configure API]** screen, select **[!UICONTROL AEP-Default-All-Users]**.
+
+<!--
+Your integration's service account will gain access to granular features through the product profiles selected here.
+
+-->
+
+>[!IMPORTANT]
+>
+>To get access to certain features in Platform, you also need a system administrator to grant you the necessary attribute-based access control permissions. Read more in the section [Get the necessary attribute-based access control permissions](#get-abac-permissions).
+
+![Select product profiles for your integration.](./images/api-authentication/select-product-profiles.png)
+
+Select **[!UICONTROL Save configured API]** when you are ready.
+
+A walkthrough of the steps described above to set up an integration with the Experience Platform API is also available in the video tutorial below:
+
+>[!VIDEO](https://video.tv.adobe.com/v/28832/?learn=on)
+
+### Gather credentials {#gather-credentials}
+
+Once the API has been added to the project, the **[!UICONTROL Experience Platform API]** page for the project displays the following credentials that are required in all calls to Experience Platform APIs:
+
+![Integration information after adding an API in Developer Consle.](./images/api-authentication/api-integration-information.png)
+
+* `{API_KEY}` ([!UICONTROL Client ID])
+* `{ORG_ID}` ([!UICONTROL Organization ID])
+
+<!--
+
+![](././images/api-authentication/api-key-ims-org.png)
+
+<!--
+
+In addition to the above credentials, you also need the generated **[!UICONTROL Client Secret]** for a future step. Select **[!UICONTROL Retrieve client secret]** to reveal the value, and then copy it for later use.
+
+![](././images/api-authentication/client-secret.png)
+
+-->
+
+## Generate an access token {#generate-access-token}
+
+The next step is to generate an `{ACCESS_TOKEN}` credential for use in Platform API calls. Unlike the values for `{API_KEY}` and `{ORG_ID}`, a new token must be generated every 24 hours to continue using Platform APIs. Select **[!UICONTROL Generate access token]**, as shown below.
+
+![Show how to generate access token](././images/api-authentication/generate-access-token.gif)
+
+>[!TIP]
+>
+>You can also use a Postman environment and collection to generate access tokens. For more information, read the section about [using Postman to authenticate and test API calls](#use-postman).
 
 +++ View information about the deprecated [!DNL JWT] ([!DNL Service Account]) method of obtaining authentication tokens.
 
