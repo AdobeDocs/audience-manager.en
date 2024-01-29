@@ -160,7 +160,7 @@ Follow the steps below to create a technical user account and add it to an RBAC 
 
 +++ View information about the deprecated legacy [!DNL OAuth] Authentication method of obtaining authentication tokens.
 
-## [!DNL OAuth] Authentication (Deprecated) {#oauth}
+## [!DNL OAuth] Authentication (Deprecated) {#oauth-deprecated}
 
 >[!WARNING]
 > [!DNL Audience Manager] [!UICONTROL REST API] token authentication and renewal via [!DNL OAuth 2.0] is now deprecated.
