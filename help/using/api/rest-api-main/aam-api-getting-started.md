@@ -64,7 +64,7 @@ Follow the steps below to configure [!DNL OAuth Server-to-Server] authentication
 >
 >To configure and work with the [!DNL Audience Manager] [!DNL REST APIs] in an automated manner, you can rotate client secrets programmatically. See [the developer documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/#rotating-client-secrets-programmatically) for detailed instructions.
 
-### Add Audience Manager API to a project {#add-platform-to-project}
+### Add Audience Manager API to a project {#add-aam-api-to-project}
 
 Go to [Adobe Developer Console](https://www.adobe.com/go/devs_console_ui) and sign in with your Adobe ID. Next, follow the steps outlined in the tutorial on [creating an empty project](https://developer.adobe.com/developer-console/docs/guides/projects/projects-empty/) in the Adobe Developer Console documentation.
 
@@ -74,77 +74,48 @@ Once you have created a new project, select **[!UICONTROL Add API]** on the **[!
 >
 >If you are provisioned for several organizations, use the organization selector in the upper right corner of the interface to make sure that you are in the organization you need.
 
-![Developer Console screen with the Add API option highlighted.](./images/api-authentication/add-api.png)
+![Developer Console screen with the Add API option highlighted.](/help/using/api/rest-api-main/assets/add-api.png)
 
-The **[!UICONTROL Add an API]** screen appears. Select the product icon for Adobe Experience Platform, then choose **[!UICONTROL Experience Platform API]** before selecting **[!UICONTROL Next]**.
+The **[!UICONTROL Add an API]** screen appears. Select the product icon for Adobe Experience Cloud, then choose **[!UICONTROL Audience Manager API]** before selecting **[!UICONTROL Next]**.
 
-![Select Experience Platform API.](./images/api-authentication/platform-api.png)
+![Select Audience Manager API.](/help/using/api/rest-api-main/assets/audience-manager-api.png)
 
 >[!TIP]
 >
->Select the **[!UICONTROL View docs]** option to navigate in a separate browser window to the complete [Experience Platform API reference documentation](https://developer.adobe.com/experience-platform-apis/).
+>Select the **[!UICONTROL View docs]** option to navigate in a separate browser window to the complete [Audience Manager API reference documentation](https://bank.demdex.com/portal/swagger/index.html#).
 
 ### Select the OAuth Server-to-Server authentication type {#select-oauth-server-to-server}
 
-Next, select the authentication type to generate access tokens and access the Experience Platform API.
+Next, select the authentication type to generate access tokens and access the Audience Manager API.
 
 >[!IMPORTANT]
 >
->Select the **[!UICONTROL OAuth Server-to-Server]** method as this will be the only method supported moving forward. The **[!UICONTROL Service Account (JWT)]** method is deprecated. While integrations using the JWT authentication method will continue to work until January 1st, 2025, Adobe strongly recommends that you migrate existing integrations to the new OAuth Server-to-Server method before that date. Get more information in the section [!BADGE Deprecated]{type=negative} [Generate a JSON Web Token (JWT)](#jwt).
+>Select the **[!UICONTROL OAuth Server-to-Server]** method as this will be the only method supported moving forward. The **[!UICONTROL Service Account (JWT)]** method is deprecated. While integrations using the JWT authentication method will continue to work until January 1st, 2025, Adobe strongly recommends that you migrate existing integrations to the new OAuth Server-to-Server method before that date.
 
-![Select Experience Platform API.](./images/api-authentication/oauth-authentication-method.png)
+![Select OAuth authentication method.](/help/using/api/rest-api-main/assets/select-oauth-authentication-method.png)
 
 ### Select the product profiles for your integration {#select-product-profiles}
 
-In the **[!UICONTROL Configure API]** screen, select **[!UICONTROL AEP-Default-All-Users]**.
+In the **[!UICONTROL Configure API]** screen, select the desired product profiles. Your integration's service account will gain access to granular features through the product profiles selected here.
 
-<!--
-Your integration's service account will gain access to granular features through the product profiles selected here.
-
--->
-
->[!IMPORTANT]
->
->To get access to certain features in Platform, you also need a system administrator to grant you the necessary attribute-based access control permissions. Read more in the section [Get the necessary attribute-based access control permissions](#get-abac-permissions).
-
-![Select product profiles for your integration.](./images/api-authentication/select-product-profiles.png)
+![Select product profiles for your integration.](/help/using/api/rest-api-main/assets/select-product-profiles.png)
 
 Select **[!UICONTROL Save configured API]** when you are ready.
 
-A walkthrough of the steps described above to set up an integration with the Experience Platform API is also available in the video tutorial below:
-
->[!VIDEO](https://video.tv.adobe.com/v/28832/?learn=on)
-
 ### Gather credentials {#gather-credentials}
 
-Once the API has been added to the project, the **[!UICONTROL Experience Platform API]** page for the project displays the following credentials that are required in all calls to Experience Platform APIs:
+Once the API has been added to the project, the **[!UICONTROL Audience Manager API]** page for the project displays the following credentials that are required in all calls to Audience Manager APIs:
 
-![Integration information after adding an API in Developer Consle.](./images/api-authentication/api-integration-information.png)
+![Integration information after adding an API in Developer Console.](/help/using/api/rest-api-main/assets/api-integration-information.png)
 
 * `{API_KEY}` ([!UICONTROL Client ID])
 * `{ORG_ID}` ([!UICONTROL Organization ID])
 
-<!--
-
-![](././images/api-authentication/api-key-ims-org.png)
-
-<!--
-
-In addition to the above credentials, you also need the generated **[!UICONTROL Client Secret]** for a future step. Select **[!UICONTROL Retrieve client secret]** to reveal the value, and then copy it for later use.
-
-![](././images/api-authentication/client-secret.png)
-
--->
-
 ## Generate an access token {#generate-access-token}
 
-The next step is to generate an `{ACCESS_TOKEN}` credential for use in Platform API calls. Unlike the values for `{API_KEY}` and `{ORG_ID}`, a new token must be generated every 24 hours to continue using Platform APIs. Select **[!UICONTROL Generate access token]**, as shown below.
+The next step is to generate an `{ACCESS_TOKEN}` credential for use in Audience Manager API calls. Unlike the values for `{API_KEY}` and `{ORG_ID}`, a new token must be generated every 24 hours to continue using Audience Manager APIs. Select **[!UICONTROL Generate access token]**, as shown below.
 
-![Show how to generate access token](././images/api-authentication/generate-access-token.gif)
-
->[!TIP]
->
->You can also use a Postman environment and collection to generate access tokens. For more information, read the section about [using Postman to authenticate and test API calls](#use-postman).
+![Show how to generate access token](/help/using/api/rest-api-main/assets/generate-acces-token.gif)
 
 +++ View information about the deprecated [!DNL JWT] ([!DNL Service Account]) method of obtaining authentication tokens.
 
@@ -290,28 +261,95 @@ The [!DNL Audience Manager] [!UICONTROL REST API] supports authorization code an
 
 +++
 
-## Test an API call
+## Test an API call {#test-api-call}
 
 After getting your authentication bearer token, perform an API call to test that you can now access Audience Manager APIs.
 
+1. Navigate to the [API reference documentation](https://bank.demdex.com/portal/swagger/index.html#/Data%20Source%20API/get_datasources_).
+2. Select **[!UICONTROL Authorize]** and paste the access token that you obtained in the [generate access token](#generate-access-token) step.
+   
+   ![Authorize API calls](/help/using/api/rest-api-main/assets/authorize-api-calls.gif)
+
+3. Perform a GET call to the `/datasources` API endpoint to retrieve a list of all globally available datasources, as indicated in the [API reference documentation](https://bank.demdex.com/portal/swagger/index.html#/Data%20Source%20API/get_datasources_). Select **[!UICONTROL Try it out]**, followed by **[!UICONTROL Execute]**, as shown below.
+
+   ![Perform API calls](/help/using/api/rest-api-main/assets/perform-api-calls.gif)
+
+
 >[!BEGINSHADEBOX]
 
-Perform a GET call to the /datasources endpoint to retrieve a list of all globally available datasources.
+>[!BEGINTABS]
 
-https://bank.demdex.com/portal/swagger/index.html#/Data%20Source%20API/get_datasources_
-
-API request
+>[!TAB API request]
 
 ```shell
 
 curl -X 'GET' \
   'https://api.demdex.com/v1/datasources/' \
   -H 'accept: application/json' \
-  -H 'Authorization: Bearer something'
+  -H 'Authorization: Bearer your-access-token'
 
 ```
 
-API response in case of using the correct bearer token
+
+[!TAB API response in case of using the correct bearer token]
+
+
+When using a working access token, the API endpoint returns a 200 response, along with a response body that includes all global datasources that your organization has access to. 
+
+```json
+
+[
+  {
+    "pid": 1794,
+    "name": "testdatasource1",
+    "description": "Test data source",
+    "status": "ACTIVE",
+    "integrationCode": "test_ds1",
+    "dataExportRestrictions": [],
+    "updateTime": 1595340792000,
+    "crUID": 0,
+    "upUID": 15910,
+    "linkNamespace": false,
+    "type": "GENERAL",
+    "subIdType": "CROSS_DEVICE_PERSON",
+    "inboundS2S": true,
+    "outboundS2S": true,
+    "useAudienceManagerVisitorID": false,
+    "allowDataSharing": true,
+    "masterDataSourceIdProvider": true,
+    "uniqueTraitIntegrationCodes": false,
+    "uniqueSegmentIntegrationCodes": false,
+    "marketingCloudVisitorIdVersion": 0,
+    "idType": "CROSS_DEVICE",
+    "samplingEndTime": 1596550392825,
+    "allowDeviceGraphSharing": false,
+    "supportsAuthenticatedProfile": true,
+    "deviceGraph": false,
+    "authenticatedProfileName": "testdatasource1",
+    "deviceGraphName": "",
+    "customNamespaceId": 29769,
+    "customNamespaceCode": "silviu_ds1",
+    "customerProfileDataRetention": 62208000,
+    "samplingStartTime": 1595340792825,
+    "dataSourceId": 29769,
+    "containerIds": [],
+    "samplingEnabled": false
+  },
+  {
+    "pid": 1794,
+    "name": "AAM Test Company Audiences",
+    "description": "Automatically generated trait data source",
+    "status": "ACTIVE",
+    "integrationCode": "adobe-provided",
+    "dataExportRestrictions": [
+      "PII"
+    ],
+
+    [...]
+
+```
+
+>[!ENDTABS]
 
 >[!ENDSHADEBOX]
 
