@@ -41,17 +41,17 @@ This section covers how to gather the required credentials to authenticate Audie
 
 ![Audience Manager authentication flow diagram.](/help/using/api/rest-api-main/assets/aam-authentication-flow.png)
 
-### Adobe Developer Overview {#adobeio}
+### Adobe Developer Overview {#developer-overview}
 
 [!DNL Adobe Developer] is Adobe's developer ecosystem and community. It includes [APIs for all Adobe products](https://developer.adobe.com/apis).
 
 This is the recommended way of setting up and using [!DNL Adobe] [!DNL APIs].
 
-### Prerequisites {#prerequisites}
+### Prerequisites {#prerequisites-server-to-server}
 
 Before you can configure [!DNL OAuth Server-to-Server] authentication, make sure you have access to the [Adobe Developer Console](https://developer.adobe.com/console/home) in [Adobe Developer](https://developer.adobe.com/). Contact your organization administrator for access requests.
 
-### Authentication {#auth}
+### Authentication {#oauth}
 
 Follow the steps below to configure [!DNL OAuth Server-to-Server] authentication using [!DNL Adobe Developer]:
 
@@ -291,7 +291,7 @@ curl -X 'GET' \
 ```
 
 
-[!TAB API response in case of using the correct bearer token]
+>[!TAB API response in case of using the correct bearer token]
 
 
 When using a working access token, the API endpoint returns a 200 response, along with a response body that includes all global datasources that your organization has access to. 
