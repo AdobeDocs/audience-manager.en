@@ -12,13 +12,7 @@ exl-id: f7d5e52d-ad21-4020-a299-d440f954c51a
 
 Information about general requirements, authentication, optional query parameters, request [!DNL URLs], and other references.
 
-<!-- c_rest_api_overview.xml -->
-
 ## API Requirements and Recommendations {#api-requirements-recommendations}
-
-Things you must and should do when working with the [!DNL Audience Manager] [!DNL API]s.
-
-<!-- aam-api-requirements.xml -->
 
 Note the following when working with [Audience Manager API](https://bank.demdex.com/portal/swagger/index.html#/) code:
 
@@ -31,16 +25,193 @@ Note the following when working with [Audience Manager API](https://bank.demdex.
 
 ## Authentication {#authentication}
 
-The [!DNL Audience Manager] [!DNL REST APIs] support two authentication methods.
+The [!DNL Audience Manager] [!DNL REST APIs] support three authentication methods.
 
-* [JWT (Service Account) Authentication](#jwt) using [Adobe Developer](https://www.adobe.io/). [!DNL Adobe Developer] is Adobe's developer ecosystem and community. It includes [APIs for all Adobe products](https://www.adobe.io/apis.html). This is the recommended way of setting up and using [!DNL Adobe] [!DNL APIs].
-* [OAuth Authentication (deprecated)](#oauth). While this method is deprecated, customers with existing [!DNL OAuth] integrations can continue using this method.
+* [!BADGE Recommended]{type=positive}  [OAuth Server-to-Server Authentication](#oauth-adobe-developer) using [Adobe developer console](https://www.adobe.io/). [!DNL Adobe Developer] is Adobe's developer ecosystem and community. It includes [APIs for all Adobe products](https://developer.adobe.com/apis/). This is the recommended way of setting up and using [!DNL Adobe] [!DNL APIs]. Read more about [OAuth Server-to-Server Authentication](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/) in the Adobe developer documentation.
+* [!BADGE Deprecated]{type=negative} [JWT (Service Account) Authentication](#jwt) using [Adobe developer console](https://www.adobe.io/). [!DNL Adobe Developer] is Adobe's developer ecosystem and community. It includes [APIs for all Adobe products](https://developer.adobe.com/apis/).
+* [!BADGE Deprecated]{type=negative} [Legacy OAuth Authentication](#oauth-deprecated). While this method is deprecated, customers with existing [!DNL OAuth] integrations can continue using this method.
 
 >[!IMPORTANT]
 >
 >Depending on your authentication method, you need to adjust your request [!DNL URLs] accordingly. See the [Environments](#environments) section for details about the hostnames that you should use.
 
-## [!DNL JWT] ([!DNL Service Account]) Authentication using Adobe Developer {#jwt}
+## OAuth Server-to-Server Authentication using Adobe Developer {#oauth-adobe-developer}
+
+This section covers how to gather the required credentials to authenticate Audience Manager API calls, as outlined in the flowchart below. You can gather most of the required credentials in the initial one-time setup. The access token, however, must be refreshed every 24-hours.
+
+![Audience Manager authentication flow diagram.](/help/using/api/rest-api-main/assets/aam-authentication-flow.png)
+
+### Adobe Developer Overview {#developer-overview}
+
+[!DNL Adobe Developer] is Adobe's developer ecosystem and community. It includes [APIs for all Adobe products](https://developer.adobe.com/apis).
+
+This is the recommended way of setting up and using [!DNL Adobe] [!DNL APIs].
+
+### Prerequisites {#prerequisites-server-to-server}
+
+Before you can configure [!DNL OAuth Server-to-Server] authentication, make sure you have access to the [Adobe Developer Console](https://developer.adobe.com/console/home) in [Adobe Developer](https://developer.adobe.com/). Contact your organization administrator for access requests.
+
+### Authentication {#oauth}
+
+Follow the steps below to configure [!DNL OAuth Server-to-Server] authentication using [!DNL Adobe Developer]:
+
+1. Log in to the [Adobe Developer Console](https://developer.adobe.com/console/home).
+1. Follow the steps in the [OAuth Server-to-Server credential implementation guide](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/).
+   * During [Step 2: Add an API to your project using Service Account authentication](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md), choose the [!DNL Audience Manager] [!DNL API] option.
+1. Try out the connection by making your first [!DNL API] call based on the instructions from [Step 3](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
+
+>[!NOTE]
+>
+>To configure and work with the [!DNL Audience Manager] [!DNL REST APIs] in an automated manner, you can rotate client secrets programmatically. See [the developer documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/#rotating-client-secrets-programmatically) for detailed instructions.
+
+### Add Audience Manager API to a project {#add-aam-api-to-project}
+
+Go to [Adobe Developer Console](https://www.adobe.com/go/devs_console_ui) and sign in with your Adobe ID. Next, follow the steps outlined in the tutorial on [creating an empty project](https://developer.adobe.com/developer-console/docs/guides/projects/projects-empty/) in the Adobe Developer Console documentation.
+
+Once you have created a new project, select **[!UICONTROL Add API]** on the **[!UICONTROL Project Overview]** screen.
+
+>[!TIP]
+>
+>If you are provisioned for several organizations, use the organization selector in the upper right corner of the interface to make sure that you are in the organization you need.
+
+![Developer Console screen with the Add API option highlighted.](/help/using/api/rest-api-main/assets/add-api.png)
+
+The **[!UICONTROL Add an API]** screen appears. Select the product icon for Adobe Experience Cloud, then choose **[!UICONTROL Audience Manager API]** before selecting **[!UICONTROL Next]**.
+
+![Select Audience Manager API.](/help/using/api/rest-api-main/assets/audience-manager-api.png)
+
+>[!TIP]
+>
+>Select the **[!UICONTROL View docs]** option to navigate in a separate browser window to the complete [Audience Manager API reference documentation](https://bank.demdex.com/portal/swagger/index.html#).
+
+### Select the OAuth Server-to-Server authentication type {#select-oauth-server-to-server}
+
+Next, select the authentication type to generate access tokens and access the Audience Manager API.
+
+>[!IMPORTANT]
+>
+>Select the **[!UICONTROL OAuth Server-to-Server]** method as this will be the only method supported moving forward. The **[!UICONTROL Service Account (JWT)]** method is deprecated. While integrations using the JWT authentication method will continue to work until January 1st, 2025, Adobe strongly recommends that you migrate existing integrations to the new OAuth Server-to-Server method before that date.
+
+![Select OAuth authentication method.](/help/using/api/rest-api-main/assets/select-oauth-authentication-method.png)
+
+### Select the product profiles for your integration {#select-product-profiles}
+
+In the **[!UICONTROL Configure API]** screen, select the desired product profiles. Your integration's service account will gain access to granular features through the product profiles selected here.
+
+![Select product profiles for your integration.](/help/using/api/rest-api-main/assets/select-product-profiles.png)
+
+Select **[!UICONTROL Save configured API]** when you are ready.
+
+### Gather credentials {#gather-credentials}
+
+Once the API has been added to the project, the **[!UICONTROL Audience Manager API]** page for the project displays the following credentials that are required in all calls to Audience Manager APIs:
+
+![Integration information after adding an API in Developer Console.](/help/using/api/rest-api-main/assets/api-integration-information.png)
+
+* `{API_KEY}` ([!UICONTROL Client ID])
+* `{ORG_ID}` ([!UICONTROL Organization ID])
+
+## Generate an access token {#generate-access-token}
+
+The next step is to generate an `{ACCESS_TOKEN}` credential for use in Audience Manager API calls. Unlike the values for `{API_KEY}` and `{ORG_ID}`, a new token must be generated every 24 hours to continue using Audience Manager APIs. Select **[!UICONTROL Generate access token]**, as shown below.
+
+![Show how to generate access token](/help/using/api/rest-api-main/assets/generate-acces-token.gif)
+
+## Test an API call {#test-api-call}
+
+After getting your authentication bearer token, perform an API call to test that you can now access Audience Manager APIs.
+
+1. Navigate to the [API reference documentation](https://bank.demdex.com/portal/swagger/index.html#/Data%20Source%20API/get_datasources_).
+2. Select **[!UICONTROL Authorize]** and paste the access token that you obtained in the [generate access token](#generate-access-token) step.
+   
+   ![Authorize API calls](/help/using/api/rest-api-main/assets/authorize-api-calls.gif)
+
+3. Perform a GET call to the `/datasources` API endpoint to retrieve a list of all globally available datasources, as indicated in the [API reference documentation](https://bank.demdex.com/portal/swagger/index.html#/Data%20Source%20API/get_datasources_). Select **[!UICONTROL Try it out]**, followed by **[!UICONTROL Execute]**, as shown below.
+
+   ![Perform API calls](/help/using/api/rest-api-main/assets/perform-api-calls.gif)
+
+
+>[!BEGINSHADEBOX]
+
+>[!BEGINTABS]
+
+>[!TAB API request]
+
+```shell
+
+curl -X 'GET' \
+  'https://api.demdex.com/v1/datasources/' \
+  -H 'accept: application/json' \
+  -H 'Authorization: Bearer your-access-token'
+
+```
+
+
+>[!TAB API response in case of using the correct bearer token]
+
+
+When using a working access token, the API endpoint returns a 200 response, along with a response body that includes all global datasources that your organization has access to. 
+
+```json
+
+[
+  {
+    "pid": 1794,
+    "name": "testdatasource1",
+    "description": "Test data source",
+    "status": "ACTIVE",
+    "integrationCode": "test_ds1",
+    "dataExportRestrictions": [],
+    "updateTime": 1595340792000,
+    "crUID": 0,
+    "upUID": 15910,
+    "linkNamespace": false,
+    "type": "GENERAL",
+    "subIdType": "CROSS_DEVICE_PERSON",
+    "inboundS2S": true,
+    "outboundS2S": true,
+    "useAudienceManagerVisitorID": false,
+    "allowDataSharing": true,
+    "masterDataSourceIdProvider": true,
+    "uniqueTraitIntegrationCodes": false,
+    "uniqueSegmentIntegrationCodes": false,
+    "marketingCloudVisitorIdVersion": 0,
+    "idType": "CROSS_DEVICE",
+    "samplingEndTime": 1596550392825,
+    "allowDeviceGraphSharing": false,
+    "supportsAuthenticatedProfile": true,
+    "deviceGraph": false,
+    "authenticatedProfileName": "testdatasource1",
+    "deviceGraphName": "",
+    "customNamespaceId": 29769,
+    "customNamespaceCode": "silviu_ds1",
+    "customerProfileDataRetention": 62208000,
+    "samplingStartTime": 1595340792825,
+    "dataSourceId": 29769,
+    "containerIds": [],
+    "samplingEnabled": false
+  },
+  {
+    "pid": 1794,
+    "name": "AAM Test Company Audiences",
+    "description": "Automatically generated trait data source",
+    "status": "ACTIVE",
+    "integrationCode": "adobe-provided",
+    "dataExportRestrictions": [
+      "PII"
+    ],
+
+    [...]
+
+```
+
+>[!ENDTABS]
+
+>[!ENDSHADEBOX]
+
+## [!BADGE Deprecated]{type=negative} [!DNL JWT] ([!DNL Service Account]) Authentication using Adobe Developer {#jwt}
+
++++ View information about the deprecated [!DNL JWT] ([!DNL Service Account]) method of obtaining authentication tokens.
 
 ### Adobe Developer Overview {#adobeio}
 
@@ -77,7 +248,11 @@ Follow the steps below to create a technical user account and add it to an RBAC 
 
 1. Log in to your Audience Manager account and [add the technical user account](../../features/administration/administration-overview.md#create-group) to the user group that will make the API calls.
 
-## [!DNL OAuth] Authentication (Deprecated) {#oauth}
++++
+
+## [!BADGE Deprecated]{type=negative}  [!DNL OAuth] Authentication (Deprecated) {#oauth-deprecated}
+
++++ View information about the deprecated legacy [!DNL OAuth] Authentication method of obtaining authentication tokens.
 
 >[!WARNING]
 > [!DNL Audience Manager] [!UICONTROL REST API] token authentication and renewal via [!DNL OAuth 2.0] is now deprecated.
@@ -175,6 +350,8 @@ The [!DNL JSON] response contains your new access token. The response should loo
 ### Authorization Code and Implicit Authentication {#authentication-code-implicit}
 
 The [!DNL Audience Manager] [!UICONTROL REST API] supports authorization code and implicit authentication. To use these access methods, your users need to log in to `https://api.demdex.com/oauth/authorize` to get access and refresh tokens.
+
++++
 
 ## Make Authenticated [!DNL API] Requests {#authenticated-api-requests}
 
