@@ -27,9 +27,9 @@ Note the following when working with [Audience Manager API](https://bank.demdex.
 
 The [!DNL Audience Manager] [!DNL REST APIs] support three authentication methods.
 
-* **Recommended**: [OAuth Server-to-Server Authentication](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/) using [Adobe Developer Console](https://www.adobe.io/). [!DNL Adobe Developer] is Adobe's developer ecosystem and community. It includes [APIs for all Adobe products](https://developer.adobe.com/apis/). This is the recommended way of setting up and using [!DNL Adobe] [!DNL APIs]. 
-* **Deprecated**: [JWT (Service Account) Authentication](#jwt) using [Adobe Developer](https://www.adobe.io/). [!DNL Adobe Developer] is Adobe's developer ecosystem and community. It includes [APIs for all Adobe products](https://developer.adobe.com/apis/).
-* **Deprecated** [Legacy OAuth Authentication](#oauth). While this method is deprecated, customers with existing [!DNL OAuth] integrations can continue using this method.
+* [!BADGE Recommended]{type=positive}  [OAuth Server-to-Server Authentication](#oauth-adobe-developer) using [Adobe developer console](https://www.adobe.io/). [!DNL Adobe Developer] is Adobe's developer ecosystem and community. It includes [APIs for all Adobe products](https://developer.adobe.com/apis/). This is the recommended way of setting up and using [!DNL Adobe] [!DNL APIs]. Read more about [OAuth Server-to-Server Authentication](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/) in the Adobe developer documentation.
+* [!BADGE Deprecated]{type=negative} [JWT (Service Account) Authentication](#jwt) using [Adobe developer console](https://www.adobe.io/). [!DNL Adobe Developer] is Adobe's developer ecosystem and community. It includes [APIs for all Adobe products](https://developer.adobe.com/apis/).
+* [!BADGE Deprecated]{type=negative} [Legacy OAuth Authentication](#oauth-deprecated). While this method is deprecated, customers with existing [!DNL OAuth] integrations can continue using this method.
 
 >[!IMPORTANT]
 >
@@ -117,9 +117,101 @@ The next step is to generate an `{ACCESS_TOKEN}` credential for use in Audience 
 
 ![Show how to generate access token](/help/using/api/rest-api-main/assets/generate-acces-token.gif)
 
-+++ View information about the deprecated [!DNL JWT] ([!DNL Service Account]) method of obtaining authentication tokens.
+## Test an API call {#test-api-call}
 
-## [!DNL JWT] ([!DNL Service Account]) Authentication using Adobe Developer {#jwt}
+After getting your authentication bearer token, perform an API call to test that you can now access Audience Manager APIs.
+
+1. Navigate to the [API reference documentation](https://bank.demdex.com/portal/swagger/index.html#/Data%20Source%20API/get_datasources_).
+2. Select **[!UICONTROL Authorize]** and paste the access token that you obtained in the [generate access token](#generate-access-token) step.
+   
+   ![Authorize API calls](/help/using/api/rest-api-main/assets/authorize-api-calls.gif)
+
+3. Perform a GET call to the `/datasources` API endpoint to retrieve a list of all globally available datasources, as indicated in the [API reference documentation](https://bank.demdex.com/portal/swagger/index.html#/Data%20Source%20API/get_datasources_). Select **[!UICONTROL Try it out]**, followed by **[!UICONTROL Execute]**, as shown below.
+
+   ![Perform API calls](/help/using/api/rest-api-main/assets/perform-api-calls.gif)
+
+
+>[!BEGINSHADEBOX]
+
+>[!BEGINTABS]
+
+>[!TAB API request]
+
+```shell
+
+curl -X 'GET' \
+  'https://api.demdex.com/v1/datasources/' \
+  -H 'accept: application/json' \
+  -H 'Authorization: Bearer your-access-token'
+
+```
+
+
+>[!TAB API response in case of using the correct bearer token]
+
+
+When using a working access token, the API endpoint returns a 200 response, along with a response body that includes all global datasources that your organization has access to. 
+
+```json
+
+[
+  {
+    "pid": 1794,
+    "name": "testdatasource1",
+    "description": "Test data source",
+    "status": "ACTIVE",
+    "integrationCode": "test_ds1",
+    "dataExportRestrictions": [],
+    "updateTime": 1595340792000,
+    "crUID": 0,
+    "upUID": 15910,
+    "linkNamespace": false,
+    "type": "GENERAL",
+    "subIdType": "CROSS_DEVICE_PERSON",
+    "inboundS2S": true,
+    "outboundS2S": true,
+    "useAudienceManagerVisitorID": false,
+    "allowDataSharing": true,
+    "masterDataSourceIdProvider": true,
+    "uniqueTraitIntegrationCodes": false,
+    "uniqueSegmentIntegrationCodes": false,
+    "marketingCloudVisitorIdVersion": 0,
+    "idType": "CROSS_DEVICE",
+    "samplingEndTime": 1596550392825,
+    "allowDeviceGraphSharing": false,
+    "supportsAuthenticatedProfile": true,
+    "deviceGraph": false,
+    "authenticatedProfileName": "testdatasource1",
+    "deviceGraphName": "",
+    "customNamespaceId": 29769,
+    "customNamespaceCode": "silviu_ds1",
+    "customerProfileDataRetention": 62208000,
+    "samplingStartTime": 1595340792825,
+    "dataSourceId": 29769,
+    "containerIds": [],
+    "samplingEnabled": false
+  },
+  {
+    "pid": 1794,
+    "name": "AAM Test Company Audiences",
+    "description": "Automatically generated trait data source",
+    "status": "ACTIVE",
+    "integrationCode": "adobe-provided",
+    "dataExportRestrictions": [
+      "PII"
+    ],
+
+    [...]
+
+```
+
+>[!ENDTABS]
+
+>[!ENDSHADEBOX]
+
+## [!BADGE Deprecated]{type=negative} [!DNL JWT] ([!DNL Service Account]) Authentication using Adobe Developer {#jwt}
+
++++ View information about the deprecated [!DNL JWT] ([!DNL Service Account]) method of obtaining authentication tokens.
 
 ### Adobe Developer Overview {#adobeio}
 
@@ -158,9 +250,9 @@ Follow the steps below to create a technical user account and add it to an RBAC 
 
 +++
 
-+++ View information about the deprecated legacy [!DNL OAuth] Authentication method of obtaining authentication tokens.
+## [!BADGE Deprecated]{type=negative}  [!DNL OAuth] Authentication (Deprecated) {#oauth-deprecated}
 
-## [!DNL OAuth] Authentication (Deprecated) {#oauth-deprecated}
++++ View information about the deprecated legacy [!DNL OAuth] Authentication method of obtaining authentication tokens.
 
 >[!WARNING]
 > [!DNL Audience Manager] [!UICONTROL REST API] token authentication and renewal via [!DNL OAuth 2.0] is now deprecated.
@@ -260,98 +352,6 @@ The [!DNL JSON] response contains your new access token. The response should loo
 The [!DNL Audience Manager] [!UICONTROL REST API] supports authorization code and implicit authentication. To use these access methods, your users need to log in to `https://api.demdex.com/oauth/authorize` to get access and refresh tokens.
 
 +++
-
-## Test an API call {#test-api-call}
-
-After getting your authentication bearer token, perform an API call to test that you can now access Audience Manager APIs.
-
-1. Navigate to the [API reference documentation](https://bank.demdex.com/portal/swagger/index.html#/Data%20Source%20API/get_datasources_).
-2. Select **[!UICONTROL Authorize]** and paste the access token that you obtained in the [generate access token](#generate-access-token) step.
-   
-   ![Authorize API calls](/help/using/api/rest-api-main/assets/authorize-api-calls.gif)
-
-3. Perform a GET call to the `/datasources` API endpoint to retrieve a list of all globally available datasources, as indicated in the [API reference documentation](https://bank.demdex.com/portal/swagger/index.html#/Data%20Source%20API/get_datasources_). Select **[!UICONTROL Try it out]**, followed by **[!UICONTROL Execute]**, as shown below.
-
-   ![Perform API calls](/help/using/api/rest-api-main/assets/perform-api-calls.gif)
-
-
->[!BEGINSHADEBOX]
-
->[!BEGINTABS]
-
->[!TAB API request]
-
-```shell
-
-curl -X 'GET' \
-  'https://api.demdex.com/v1/datasources/' \
-  -H 'accept: application/json' \
-  -H 'Authorization: Bearer your-access-token'
-
-```
-
-
->[!TAB API response in case of using the correct bearer token]
-
-
-When using a working access token, the API endpoint returns a 200 response, along with a response body that includes all global datasources that your organization has access to. 
-
-```json
-
-[
-  {
-    "pid": 1794,
-    "name": "testdatasource1",
-    "description": "Test data source",
-    "status": "ACTIVE",
-    "integrationCode": "test_ds1",
-    "dataExportRestrictions": [],
-    "updateTime": 1595340792000,
-    "crUID": 0,
-    "upUID": 15910,
-    "linkNamespace": false,
-    "type": "GENERAL",
-    "subIdType": "CROSS_DEVICE_PERSON",
-    "inboundS2S": true,
-    "outboundS2S": true,
-    "useAudienceManagerVisitorID": false,
-    "allowDataSharing": true,
-    "masterDataSourceIdProvider": true,
-    "uniqueTraitIntegrationCodes": false,
-    "uniqueSegmentIntegrationCodes": false,
-    "marketingCloudVisitorIdVersion": 0,
-    "idType": "CROSS_DEVICE",
-    "samplingEndTime": 1596550392825,
-    "allowDeviceGraphSharing": false,
-    "supportsAuthenticatedProfile": true,
-    "deviceGraph": false,
-    "authenticatedProfileName": "testdatasource1",
-    "deviceGraphName": "",
-    "customNamespaceId": 29769,
-    "customNamespaceCode": "silviu_ds1",
-    "customerProfileDataRetention": 62208000,
-    "samplingStartTime": 1595340792825,
-    "dataSourceId": 29769,
-    "containerIds": [],
-    "samplingEnabled": false
-  },
-  {
-    "pid": 1794,
-    "name": "AAM Test Company Audiences",
-    "description": "Automatically generated trait data source",
-    "status": "ACTIVE",
-    "integrationCode": "adobe-provided",
-    "dataExportRestrictions": [
-      "PII"
-    ],
-
-    [...]
-
-```
-
->[!ENDTABS]
-
->[!ENDSHADEBOX]
 
 ## Make Authenticated [!DNL API] Requests {#authenticated-api-requests}
 
