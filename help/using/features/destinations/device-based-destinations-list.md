@@ -16,7 +16,7 @@ This page includes current [!DNL Audience Manager] [device-based destinations](/
 * **Last Updated** = Shows the last date when there was an update for this [!UICONTROL device-based destination].
 * **Updates** = Indicates whether [!DNL Audience Manager] sends data in real-time or batch (1xday) to this [!UICONTROL destination].
 * **Unsegment** = Unsegmentation describes processes that disqualify and remove device profiles from [!UICONTROL segments]. Your ability to remove a device profile from a [!UICONTROL segment] depends on the device option used to create a [!UICONTROL Profile Merge Rule]. Unsegmentation is also used in the context of [!DNL GDPR] delete requests. Read [Profile Merge Rules and Device Unsegmentation Processes](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) and [Audience Manager Partners With Unsegmentation Capabilities](/help/using/overview/data-security-and-privacy/data-privacy-requests.md#aam-partners-with-unsegmentation). [!DNL Audience Manager] sends unsegment information to the [!UICONTROL destinations] marked with **Yes** below.
-* **Receiving [!DNL IAB TCF] consent signals** = The [!DNL Audience Manager Plug-in for IAB TCF] enables you to forward the [!DNL IAB TC] string to activation partners while respecting users’ privacy choices. Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md).
+* **Receiving [!DNL IAB TCF] consent signals** = The [!DNL Audience Manager Plug-in for IAB TCF] enables you to forward the [!DNL IAB TC] string to activation partners while respecting users' privacy choices. Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md).
 * **[!DNL ICDS]** = This column lists the partners that support [!UICONTROL Instant Cross-Device Suppression]. Read about [Instant Cross-Device Suppression](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
 * **Mobile Device IDs** = This column lists partners that can receive mobile device IDs from [!DNL Audience Manager].
 
@@ -37,7 +37,7 @@ This page includes current [!DNL Audience Manager] [device-based destinations](/
 | [!DNL Adtheorent]                                        | 22/02/2017 | 1xday     | Yes       | No                                | No   | Yes               |
 | [!DNL Affinio]                                           | 03/04/2018 | 1xday     | Yes       | No                                | No   | Yes               |
 | [!DNL Aki]                                               | 21/06/2018 | 1xday     | No        | No                                | No   | Yes               |
-| [!DNL Amazon Advertising]                                | 15/06/2017 | 1xday     | Yes       | No                                | No   | No                |
+| [!DNL Amazon Advertising]                                | 01/02/2024 | 1xday     | Yes       | No                                | No   | No                |
 | [!DNL AOL AdLearn]                                       | 02/03/2017 | Real-time | No        | No                                | No   | Yes               |
 | [!DNL AOL ONE]                                           | 02/03/2017 | Real-time | Yes       | No                                | No   | Yes               |
 | [!DNL AppNexus]                                          | 02/03/2017 | Real-time | Yes       | No                                | Yes  | Yes                |
