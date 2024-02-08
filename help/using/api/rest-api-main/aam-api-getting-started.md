@@ -380,6 +380,8 @@ You can use these optional parameters with [!DNL API] methods that return *all* 
 |`permissions`|Returns a list of segments based on the specified permission. `READ` is default. Permissions include:<ul><li>`READ` : Return and view information about a segment.</li><li>`WRITE` : Use  `PUT`  to update a segment.</li><li>`CREATE` : Use  `POST`  to create a segment.</li><li>`DELETE` : Delete a segment. Requires access to underlying traits, if any. For example, you'll need rights to delete the traits that belong to a segment if you want to remove it.</li></ul><br>Specify multiple permissions with separate key-value pairs. For example, to return a list of segments with  `READ`  and  `WRITE`  permissions only, pass in  `"permissions":"READ"`, `"permissions":"WRITE"` .|
 |`includePermissions`|([!DNL Boolean]) Set to `true` to return your permissions for the segment. Default is `false`.|
 
+{style="table-layout:auto"}
+
 ### A Note About Page Options
 
 When page information *is not* specified, the request returns plain [!DNL JSON] results in an array. If page information *is* specified, then the returned list is wrapped in a [!DNL JSON] object that contains information about the total result and current page. Your sample request using page options could look similar to this:
@@ -398,7 +400,7 @@ The following table lists the request [!DNL URLs] used to pass in [!DNL API] req
 
 Depending on the authentication method that you use, you need to adjust your request [!DNL URLs] according to the tables below.
 
-### Request [!DNL URLs] for [!DNL JWT] Authentication {#request-urls-jwt}
+### Request [!DNL URLs] for the [!BADGE Recommended]{type=positive} OAuth Server-to-Server and the [!BADGE Deprecated]{type=negative} [!DNL JWT] Authentication through Adobe Developer {#request-urls-jwt}
 
 | [!DNL API] Methods | Request [!DNL URL] |
 |--- |--- |
@@ -414,7 +416,9 @@ Depending on the authentication method that you use, you need to adjust your req
 |[!DNL Trait Types]|`https://aam.adobe.io/v1/customer-trait-types`|
 |[!DNL Taxonomy]|`https://aam.adobe.io/v1/taxonomies/0/`|
 
-### Request [!DNL URLs] for [!DNL OAuth] Authentication (Deprecated) {#request-urls-oauth}
+{style="table-layout:auto"}
+
+### Request [!DNL URLs] for the [!BADGE Deprecated]{type=negative} legacy [!DNL OAuth] Authentication {#request-urls-oauth}
 
 | [!DNL API] Methods | Request [!DNL URL] |
 |--- |--- |
@@ -429,6 +433,8 @@ Depending on the authentication method that you use, you need to adjust your req
 |[!DNL Traits]|`https://api.demdex.com/v1/traits/`|
 |[!DNL Trait Types]|`https://api.demdex.com/v1/customer-trait-types`|
 |[!DNL Taxonomy]|`https://api.demdex.com/v1/taxonomies/0/`|
+
+{style="table-layout:auto"}
 
 ## Environments {#environments}
 
