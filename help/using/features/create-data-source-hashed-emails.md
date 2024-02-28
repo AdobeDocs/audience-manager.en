@@ -7,7 +7,7 @@ feature: Data Sources
 
 # Configure a data source for hashed email workflows
 
-Hashed email workflows, such as People-Based Destinations, require you to create a data source to store the the hashed email addresses.
+Hashed email workflows, such as People-Based Destinations, require you to create a data source to store the hashed email addresses.
 
 Follow the steps below to create and configure a data source for hashed emails.
 
