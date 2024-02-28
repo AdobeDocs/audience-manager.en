@@ -7,6 +7,7 @@ title: Prerequisites and Considerations
 feature: People-based Destinations
 exl-id: 7656aa3e-3410-4052-8e29-b702bd0bf149
 ---
+
 # Prerequisites and Considerations {#prerequisites-considerations}
 
 >[!IMPORTANT]
@@ -31,8 +32,10 @@ Before you can use [!UICONTROL People-Based Destinations] to send your first-par
 
 1. Your [!DNL Facebook] user account must have the **Manage campaigns** permission enabled for the Ad account that you plan to use.
 2. Add the **Adobe Experience Cloud** business account as an advertising partner in your [!DNL Facebook Ad Account]. Use `business ID=206617933627973`. See [Add Partners to Your Business Manager](https://www.facebook.com/business/help/1717412048538897) for details.
+    
     >[!IMPORTANT]
-    > When configuring the permissions for Adobe Experience Cloud, you must enable the **Manage campaigns** permission. This is required for the [!UICONTROL People-Based Destinations] integration.
+    >When configuring the permissions for Adobe Experience Cloud, you must enable the **Manage campaigns** permission. This is required for the [!UICONTROL People-Based Destinations] integration.
+
 3. Read and sign the [!DNL Facebook Custom Audiences] Terms of Service. To do this, go to `https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]`, where `accountID` is your [!DNL Facebook Ad Account ID].
 
 ### [!DNL LinkedIn] {#linkedin}
@@ -53,9 +56,17 @@ Customers with compliant accounts are automatically allow listed by Google.
 
 ## Data Onboarding {#data-onboarding}
 
-Data ingestion for [!UICONTROL People-Based Destinations] currently supports up to 10 hashed email addresses linked to one customer ID ([!DNL CRM ID]), per batch transfer. Uploading more than 10 hashed email addresses linked to one customer ID causes Audience Manager to ingest 10 of them, in no specific order.
+>[!IMPORTANT]
+>
+>All Audience Manager customers can ingest hashed emails without signing up for [!UICONTROL People-Based Destinations].
+
+Data ingestion for [!UICONTROL People-Based Destinations] currently supports up to 10 hashed email addresses linked to one customer ID ([!DNL CRM ID]), per batch transfer.
 
 Uploading more than 10 hashed email addresses linked to one customer ID in multiple batch transfers causes Audience Manager to retain the most recent 10 email addresses added.
+
+To ingest hashed identifiers, [create a new cross-device data source](../manage-datasources.md#create-data-source) and enable the **[!UICONTROL Share associated cross-device IDs in people-based destinations and/or hashed email workflows]** option.
+
+![Audience Manager UI image showing the option to share associated cross-device IDs in people-based destinations and/or hashed email workflows](assets/data-source-share-ids.png)
 
 ## Data Privacy {#data-privacy}
 

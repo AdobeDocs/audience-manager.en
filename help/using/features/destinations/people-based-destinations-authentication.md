@@ -7,6 +7,7 @@ title: Authentication with People-Based Platforms
 feature: People-based Destinations
 exl-id: d3e136d0-2b06-412a-9b9b-75b661c9aa14
 ---
+
 # Authentication with People-Based Platforms {#authentication-with-people-based-platforms}
 
 >[!IMPORTANT]
