@@ -85,7 +85,7 @@ feature-set: Audience Manager
     + Data Sources {#data-sources}
         + [Data Sources List and Settings](features/datasources-list-and-settings.md)
         + [Create a Data Source](features/manage-datasources.md)
-        + [Configure a Data Source for Hashed Email Workflows](/features/create-data-source-hashed-emails.md)
+        + [Configure a Data Source for Hashed Email Workflows](features/create-data-source-hashed-emails.md)
         + [Global Data Sources](features/global-data-sources.md)
     + [Declared IDs](features/declared-ids.md)
     + [Derived Signals](features/derived-signals.md)

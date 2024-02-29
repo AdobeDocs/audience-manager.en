@@ -64,7 +64,7 @@ Data ingestion for [!UICONTROL People-Based Destinations] currently supports up 
 
 Uploading more than 10 hashed email addresses linked to one customer ID in multiple batch transfers causes Audience Manager to retain the most recent 10 email addresses added.
 
-To ingest hashed identifiers, [create a new cross-device data source](../create-data-source-hashed-emails.md) and enable the **[!UICONTROL Share associated cross-device IDs in people-based destinations and/or hashed email workflows]** option.
+To ingest hashed identifiers, [create a cross-device data source for hashed identifiers](../create-data-source-hashed-emails.md) and enable the **[!UICONTROL Share associated cross-device IDs in people-based destinations and/or hashed email workflows]** option.
 
 ![Audience Manager UI image showing the option to share associated cross-device IDs in people-based destinations and/or hashed email workflows](assets/data-source-share-ids.png)
 
