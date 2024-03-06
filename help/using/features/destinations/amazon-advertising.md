@@ -2,8 +2,8 @@
 description: This article explains how to configure Amazon Advertising for both new and existing integrations.
 solution: Audience Manager
 title: Configure Amazon Advertising as a Self-Service Device-Based Destination
+exl-id: 049af52a-b425-493d-9e77-9ced7ba6d168
 ---
-
 # Configure [!DNL Amazon Advertising] as a Self-Service Device-Based Destination {#configure-amazon}
 
 This article explains how to configure an integration with [Amazon Advertising](https://advertising.amazon.com/API/docs/en-us).
