@@ -3,8 +3,8 @@ title: Configure a data source for hashed email workflows
 description: Learn how to create a data source to store hashed emails for hashed email workflows.
 solution: Audience Manager
 feature: Data Sources
+exl-id: fb235dcb-e02f-41ac-ba3f-a1feb30b23dd
 ---
-
 # Configure a data source for hashed email workflows
 
 Hashed email workflows, such as People-Based Destinations, require you to create a data source to store the hashed email addresses.
@@ -23,5 +23,3 @@ Follow the steps below to create and configure a data source for hashed emails.
     >This option only labels the data source as containing data hashed with that specific algorithm. Audience Manager does not hash the data at this step. Make sure the email addresses that you plan on storing in this data source are already hashed with the [!DNL SHA256] algorithm. Otherwise, you won't be able to use it for hashed email workflows.
 
     ![Audience Manager UI image showing the data source settings section.](../features/assets/data-source-settings.png)
-
-
