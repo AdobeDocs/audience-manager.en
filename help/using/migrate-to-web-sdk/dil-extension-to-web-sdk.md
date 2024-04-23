@@ -1,12 +1,13 @@
 ---
-description: 
-title: Migrate from the Adobe Audience Manager tag extension to the Web SDK tag extension
-
+title: Migrate from the Audience Manager tag extension to the Web SDK tag extension
+description: Update your Audience Manager implementation from the Audience Manager tag extension to the Web SDK tag extension
 ---
 
 # Migrate from the Adobe Audience Manager tag extension to the Web SDK tag extension
 
-This implementation path involves a methodical migration approach to move from the Adobe Audience Manager tag extension to the Web SDK tag extension.
+This implementation path involves a methodical migration approach to move from the [Adobe Audience Manager tag extension](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/audience-manager/overview) to the [Web SDK tag extension](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration). Other implementation paths are covered on separate pages:
+
+* [Migrate from AppMeasurement to the Web SDK](appmeasurement-to-web-sdk.md): Take a smooth and methodical approach to move from the AppMeasurement JavaScript library to the Web SDK JavaScript library.
 
 ## Advantages and disadvantages of this implementation path
 
@@ -35,7 +36,7 @@ Follow the instructions below to create a datastream in Adobe Experience Platfor
 1. In the service drop-down menu, select **[!UICONTROL Adobe Audience Manager]**.
 1. Make sure the **[!UICONTROL Enable XDM Flattened Fields]** option is unchecked.
 
-![Add Audience Manager service](assets/datastream-rsid.png) {style="border:1px solid lightslategray"}
+![Add Audience Manager service](assets/add-service.png) {style="border:1px solid lightslategray"}
 
 Your datastream is now ready to receive and pass along data to Audience Manager.
 
