@@ -1,13 +1,13 @@
 ---
-title: Migrate from AppMeasurement to the Web SDK
-description: Update your Audience Manager implementation from the AppMeasurement JavaScript library to the Web SDK JavaScript library.
+title: Update your data collection library for Audience Manager from the AppMeasurement JavaScript library to the Web SDK JavaScript library.
+description: Understand the steps to update your data collection library for Audience Manager from the AppMeasurement JavaScript library to the Web SDK JavaScript library.
 ---
 
-# Migrate from AppMeasurement to the Web SDK
+# Update your data collection library for Audience Manager from the AppMeasurement JavaScript library to the Web SDK JavaScript library
 
-This implementation path involves a methodical migration approach to move from an AppMeasurement implementation to a Web SDK JavaScript library implementation. Other implementation paths are covered on separate pages:
+## Intended audience {#intended-audience}
 
-* [Audience Manager extension to Web SDK extension](dil-extension-to-web-sdk.md): Take a smooth and methodical approach to move from the Audience Manager tag extension to the Web SDK tag extension.
+This page is intended for Audience Manager customers who are using AppMeasurement to bring web collection data into Audience Manager. For customers using the [Audience Manager tag extension](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/audience-manager/overview), please read the guide on how to update your data collection library for Audience Manager [from the Audience Manager tag extension to the Web SDK tag extension](dil-extension-to-web-sdk.md)
 
 ## Advantages and disadvantages of this implementation path
 
@@ -72,15 +72,15 @@ You can optionally set other properties in the [`configure`](https://experiencel
 
 +++**4. Update code logic to use a JSON payload**
 
-Change your Audience Manager implementation so that it does not rely on `AppMeasurement.js` or the `s` object. Instead, set variables into a correctly formatted JavaScript object, which is converted to a JSON object when sent to Adobe. Having a [Data layer](https://experienceleague.adobe.com/en/docs/analytics/implementation/prepare/data-layer) on your site helps tremendously when setting values, as you can continue referencing those same values.
+Change your Audience Manager implementation so that it does not rely on `AppMeasurement.js` or the `s` object. Instead, set variables into a correctly formatted JavaScript object, which is converted to a JSON object when sent to Adobe. Having a [data layer](https://experienceleague.adobe.com/en/docs/analytics/implementation/prepare/data-layer) on your site helps tremendously when setting values, as you can continue referencing those same values.
 
-To send data to Audience Manager, the Web SDK payload must use `data.__adobe.aam` with all analytics variables set within this object. Variables within this object share identical names and formats as their AppMeasurement variable counterparts. For example, if you set the `products` variable, do not split it into individual objects like you would with XDM. Instead, include it as a string exactly is if you set the `s.products` variable:
+To send data to Audience Manager, the Web SDK payload must use `data.__adobe.audiencemanager` with all analytics variables set within this object. Variables within this object share identical names and formats as their AppMeasurement variable counterparts. For example, if you set the `products` variable, do not split it into individual objects like you would with XDM. Instead, include it as a string exactly is if you set the `s.products` variable:
 
 ```json
 {
   "data": {
     "__adobe": {
-      "aam": {
+      "audiencemanager": {
         "products": "Shoes,Men's sneakers,1,49.99"
       }
     }
@@ -92,15 +92,15 @@ Ultimately, this payload contains all desired values, and all references to the 
 
 ```js
 // Define the payload and set objects within it
-var dataObj = {data: {__adobe: {aam: {}}}};
-dataObj.data.__adobe.aam.pageName = window.document.title;
-dataObj.data.__adobe.aam.eVar1 = "Example value";
+var dataObj = {data: {__adobe: {audiencemanager: {}}}};
+dataObj.data.__adobe.audiencemanager.pageName = window.document.title;
+dataObj.data.__adobe.audiencemanager.eVar1 = "Example value";
 
 // Alternatively, set values in an object and use a spread operator to achieve identical results
 var a = new Object;
 a.pageName = window.document.title;
 a.eVar1 = "Example value";
-var dataObj = {data:{__adobe:{aam:{...a}}}};
+var dataObj = {data:{__adobe:{audiencemanager:{...a}}}};
 ```
 
 +++
@@ -128,9 +128,9 @@ Update all instances where you call [`s.t()`](../../vars/functions/t-method.md) 
   s.tl(true,"o","Example custom link");
 
   // Replace it with these lines of code. Add the required fields to the dataObj object.
-  dataObj.data.__adobe.aam.linkName = "Example custom link";
-  dataObj.data.__adobe.aam.linkType = "o";
-  dataObj.data.__adobe.aam.linkURL = "https://example.com";
+  dataObj.data.__adobe.audiencemanager.linkName = "Example custom link";
+  dataObj.data.__adobe.audiencemanager.linkType = "o";
+  dataObj.data.__adobe.audiencemanager.linkURL = "https://example.com";
   alloy("sendEvent", dataObj);
   ```
 

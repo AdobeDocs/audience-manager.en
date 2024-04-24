@@ -1,13 +1,11 @@
 ---
 title: Migrate from the Audience Manager tag extension to the Web SDK tag extension
-description: Update your Audience Manager implementation from the Audience Manager tag extension to the Web SDK tag extension
+description: Understand the steps to update your data collection library for Audience Manager from the Audience Manager tag extension to the Web SDK tag extension
 ---
 
-# Migrate from the Adobe Audience Manager tag extension to the Web SDK tag extension
+# Update your data collection library for Audience Manager from the Audience Manager tag extension to the Web SDK tag extension
 
-This implementation path involves a methodical migration approach to move from the [Adobe Audience Manager tag extension](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/audience-manager/overview) to the [Web SDK tag extension](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration). Other implementation paths are covered on separate pages:
-
-* [Migrate from AppMeasurement to the Web SDK](appmeasurement-to-web-sdk.md): Take a smooth and methodical approach to move from the AppMeasurement JavaScript library to the Web SDK JavaScript library.
+This page is intended for Audience Manager customers who are using the [Audience Manager tag extension](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/audience-manager/overview) to bring web collection data into Audience Manager. For customers using the AppMeasurement JavaScript library, please read the guide on how to update your data collection library for Audience Manager [from the AppMeasurement JavaScript library to the Web SDK JavaScript library](appmeasurement-to-web-sdk.md)
 
 ## Advantages and disadvantages of this implementation path
 
@@ -36,7 +34,7 @@ Follow the instructions below to create a datastream in Adobe Experience Platfor
 1. In the service drop-down menu, select **[!UICONTROL Adobe Audience Manager]**.
 1. Make sure the **[!UICONTROL Enable XDM Flattened Fields]** option is unchecked.
 
-![Add Audience Manager service](assets/add-service.png) {style="border:1px solid lightslategray"}
+    ![Add Audience Manager service](assets/add-service.png) {style="border:1px solid lightslategray"}
 
 Your datastream is now ready to receive and pass along data to Audience Manager.
 
@@ -77,10 +75,10 @@ The data object data element provides an intuitive framework to configure a payl
     * Check boxes can remain as they are.
 1. On the right side, select the following settings:
     * Property radio button: **[!UICONTROL Data]**
-    * **[!UICONTROL Solution]**: [!UICONTROL Audience Manager]
+    * **[!UICONTROL Solution]**: [!UICONTROL Adobe Audience Manager]
 1. Select **[!UICONTROL Save]**.
 
-![Create data element](assets/create-data-element.png) {style="border:1px solid lightslategray"}
+    ![Create data element](assets/create-data-element.png) {style="border:1px solid lightslategray"}
 
 Your tag property now has everything needed to update each rule.
 
@@ -97,29 +95,23 @@ This step contains the bulk of the effort required to migrate to the Web SDK, an
 1. Change the [!UICONTROL Action Configuration] to the following settings:
     * **[!UICONTROL Extension]**: [!UICONTROL Adobe Experience Platform Web SDK]
     * **[!UICONTROL Action type]**: Update variable
-1. Ensure that your data object is selected in the drop-down on the right.
-1. Set the Audience Manager variables to their same respective values as they were configured in the Audience Manager extension.
-    * Variables set within the tags interface can directly translate to the same values.
-    * String variables set within custom code require minimal adjustments. Instead of using the `s` object, use `data.__adobe.aam` instead. For example, `s.eVar1` would translate to `data.__adobe.aam.eVar1`.
-    * Audience Manager configuration variables and method calls in custom code can require modified implementation logic. See each respective [variable](/help/implement/vars/overview.md) to determine how to achieve its equivalent using the Web SDK.
+1. Ensure that the data object you created at step 3 is selected in the drop-down on the right, in the **[!UICONTROL Data element]** field.
+1. Set the Audience Manager key-value pairs to their same respective values as they were configured in the Audience Manager extension.
 1. Once all rule logic is replicated using the Web SDK extension, select **[!UICONTROL Keep Changes]**.
-1. Repeat these steps for every action configuration that uses the Audience Manager extension to set values. This step includes both variables set using the tags interface and variables set using custom code. Custom code blocks cannot reference the `s` object anywhere.
+1. Repeat these steps for every action configuration that uses the Audience Manager tag extension to set values.
 
-The above steps apply only to rules that set values. The following steps replace all actions that use the [!UICONTROL Action Configuration] [!UICONTROL Send Beacon].
+The above steps apply only to rules that set values. The following steps replace all actions that use the [!UICONTROL Action Configuration] [!UICONTROL Send Event].
 
-1. Select a rule that sends a beacon.
-1. Select the action **[!UICONTROL Adobe Analytics - Send Beacon]**.
-1. Note the current value of the [!UICONTROL Tracking] radio button on the right ([`s.t()`](../../vars/functions/t-method.md) or [`s.tl()`](../../vars/functions/tl-method.md)).
+1. Select a rule that sends a Web SDK event.
+1. Select the action type **[!UICONTROL Send Event]**.
 1. Change the [!UICONTROL Action Configuration] to the following settings:
-    * [!UICONTROL Extension]: [!UICONTROL Adobe Experience Platform Web SDK]
-    * [!UICONTROL Action type]: [!UICONTROL Send event]
+    * **[!UICONTROL Extension]**: [!UICONTROL Adobe Experience Platform Web SDK]
+    * **[!UICONTROL Action type]**: [!UICONTROL Send event]
 1. On the right, change the action settings to the following:
-    * [!UICONTROL Type]: For `s.t()`, use **[!UICONTROL Web Webpagedetails Page Views]**. For `s.tl()`, use **[!UICONTROL Web Webinteraction Link Clicks]**. If you use [`s.tl()`](../../vars/functions/tl-method.md), you must also include the following fields in your data object. These fields are listed under [!UICONTROL Additional properties] when performing the [!UICONTROL Update variable] action configuration:
-      * [Link name](../../vars/functions/tl-method.md)
-      * [Link type](../../vars/functions/tl-method.md)
-      * [Link URL](../../vars/config-vars/linkurl.md)
+    * **[!UICONTROL Type]**: Use **[!UICONTROL Web Webpagedetails Page Views]**.
+    * **[!UICONTROL Data]**: Select the data object that you created at step 3.
 1. Select **[!UICONTROL Keep Changes]**.
-1. Repeat these steps for every action configuration that uses Adobe Analytics to send a beacon.
+1. Repeat these steps for every action configuration that uses Audience Manager to send an event.
 
 +++
 
@@ -136,7 +128,7 @@ Publishing updated rules follows the same workflow as any other change to your t
 1. Test your changes in your development environment to ensure that all rules are firing properly, and that the data object is populating with expected values.
 1. When ready, submit the library for approval, build to staging, then ultimately approve and publish to production.
 
-![Publishing flow](assets/publishing-flow.png) {style="border:1px solid lightslategray"}
+    ![Publishing flow](assets/publishing-flow.png) {style="border:1px solid lightslategray"}
 
 +++
 
