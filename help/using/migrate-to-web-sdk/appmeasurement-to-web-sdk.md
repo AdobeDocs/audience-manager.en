@@ -107,7 +107,7 @@ var dataObj = {data:{__adobe:{audiencemanager:{...a}}}};
 
 +++**5. Update method calls to use the Web SDK**
 
-Update all instances where you call [`s.t()`](../../vars/functions/t-method.md) and [`s.tl()`](../../vars/functions/tl-method.md), replacing them with the [`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview) command. There are three scenarios to consider:
+Update all instances where you call [`s.t()`](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/functions/t-method) and [`s.tl()`](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/functions/tl-method), replacing them with the [`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview) command. There are three scenarios to consider:
 
 * **Page view tracking**: Replace the page view tracking call with the Web SDK `sendEvent` command:
 
