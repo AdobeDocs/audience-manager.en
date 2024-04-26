@@ -1,8 +1,8 @@
 ---
 title: Migrate from the Audience Manager tag extension to the Web SDK tag extension
 description: Understand the steps to update your data collection library for Audience Manager from the Audience Manager tag extension to the Web SDK tag extension
+exl-id: 7f0486db-4511-4311-90df-290580fdcd78
 ---
-
 # Update your data collection library for Audience Manager from the Audience Manager tag extension to the Web SDK tag extension
 
 ## Intended audience
@@ -147,4 +147,3 @@ Once your tag implementation is fully migrated to the Web SDK, you can disable t
 +++
 
 At this point, your Audience Manager implementation is fully migrated to the Web SDK and is prepared to move to Real-Time CDP in the future.
- 
