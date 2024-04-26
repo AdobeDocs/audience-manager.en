@@ -5,6 +5,8 @@ description: Understand the steps to update your data collection library for Aud
 
 # Update your data collection library for Audience Manager from the Audience Manager tag extension to the Web SDK tag extension
 
+## Intended audience
+
 This page is intended for Audience Manager customers who are using the [Audience Manager tag extension](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/audience-manager/overview) to bring web collection data into Audience Manager. For customers using the AppMeasurement JavaScript library, please read the guide on how to update your data collection library for Audience Manager [from the AppMeasurement JavaScript library to the Web SDK JavaScript library](appmeasurement-to-web-sdk.md).
 
 ## Advantages and disadvantages of this implementation path
