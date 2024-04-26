@@ -11,6 +11,9 @@ feature-set: Audience Manager
 
 + [Audience Manager Guide](aam-home.md)
 + [Evolution guide to Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html)
++ Migrate to Web SDK{#migrate-to-web-sdk}
+    + [Migrate from the Adobe Audience Manager tag extension to the Web SDK tag extension](migrate-to-web-sdk/dil-extension-to-web-sdk.md)
+    + [Migrate from the AppMeasurement JavaScript library to the Web SDK JavaScript library](migrate-to-web-sdk/appmeasurement-to-web-sdk.md)
 + Overview{#overview}
     + [Audience Manager Overview](overview/aam-overview.md)
     + [Types of Data Collected](overview/data-types-collected.md)
