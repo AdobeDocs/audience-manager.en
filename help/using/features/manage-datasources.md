@@ -70,7 +70,7 @@ Delete a [!UICONTROL data source] that you no longer need.
 >Please note the following restrictions:
 >
 >* You cannot delete an [Active Audience or Data Source Synced Trait](../features/traits/client-activity-synced-audience-traits.md). 
->* For customers using Adobe Analytics: Audience Manager does not allow you to delete data sources created automatically from your [!DNL Analytics] report suites. Use the [Core Service](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services-landing.html) to unmap these data sources.
+>* For customers using Adobe Analytics: Audience Manager does not allow you to delete data sources created automatically from your [!DNL Analytics] report suites. Use the [Core Service](https://experienceleague.adobe.com/en/docs/core-services/interface/services/customer-attributes/attributes) to unmap these data sources.
 
 1. Click **[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]**.
 1. Select the check box next to one or more data sources.
