@@ -41,7 +41,8 @@ To complete the [!UICONTROL Data Source Details] section:
 
     >[!NOTE]
     >
-    >For each organization that is provisioned for Audience Manager and Experience Platform, even if you do not have segment sharing set up between the two apps, when you create a cross-device data source, a corresponding [identity namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#manage-namespaces) is created in Experience Platform.
+    >If you want to export segments to Experience Platform, you must first create an individual cross-device [identity namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#manage-namespaces) from the Experience Platform UI. The namespace name in Audience Manager must match the identity symbol in Experience Platform. This is a one-time configuration for each newly created data source in Audience Manager that you want to use to export segments to Experience Platform. 
+
 
 1. Choose an **[!UICONTROL ID Definition]** option. Options include:
 
