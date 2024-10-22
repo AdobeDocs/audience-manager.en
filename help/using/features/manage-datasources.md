@@ -23,27 +23,19 @@ To create a new [!UICONTROL data source], go to **[!UICONTROL Audience Data > Da
 
 ## [!UICONTROL Data Source] Details {#details}
 
-To complete the [!UICONTROL Data Source Details] section:
+To complete the [!UICONTROL Data Source Details] section, fill in the following fields:
 
-1. Name the [!UICONTROL data source].
-1. *(Optional)* Describe the [!UICONTROL data source]. A concise description helps you define the role or purpose of the [!UICONTROL data source].
-1. Provide an [!UICONTROL integration code]. Generally, [!UICONTROL integration codes] are optional. They are required when you want to:
-
+1. **[!UICONTROL Name]**: Provide a name for the data source.
+1. **[!UICONTROL Description]** (optional): Enter a description for your data source to help you define the role or purpose of the data source.
+1. **[!UICONTROL Integration Code]** (optional): Enter an integration code. These codes are required when you want to:
     * [Create a cross-device data source](../features/profile-merge-rules/merge-rules-start.md#create-data-source). 
     * Use the [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). 
     * Work with [Profile Merge Rules](../features/profile-merge-rules/merge-rules-start.md).
-
-1. Choose an **[!UICONTROL ID Type]**. [!UICONTROL ID Type] options include:
-
+1. **[!UICONTROL Namespace]** (read-only): This field is read-only and is automatically generated when you save the data source. If you want to export segments from Audience Manager to Experience Platform, you must create a corresponding [identity namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#manage-namespaces) in Experience Platform, using the automatically generated value as the namespace identity symbol in Experience Platform.
+1. **[!UICONTROL ID Type]**: Select the type of IDs this data source will contain:
     * **[!UICONTROL Cookie]**
     * **[!UICONTROL Device Advertising ID]**
     * **[!UICONTROL Cross-device]** (Required to create a [!UICONTROL Profile Merge Rule]). Note, for some customers, this selection exposes the **[!UICONTROL ID Definition]** options.
-
-    >[!NOTE]
-    >
-    >If you want to export segments to Experience Platform, you must first create an individual cross-device [identity namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#manage-namespaces) from the Experience Platform UI. The namespace name in Audience Manager must match the identity symbol in Experience Platform. This is a one-time configuration for each newly created data source in Audience Manager that you want to use to export segments to Experience Platform. 
-
-
 1. Choose an **[!UICONTROL ID Definition]** option. Options include:
 
     * **[!UICONTROL Person]**
