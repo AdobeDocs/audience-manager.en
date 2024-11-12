@@ -52,3 +52,4 @@ The list of [all location-based signals](assets/all.txt) comprises all the signa
 >[!MORELIKETHIS]
 >
 >* [Prefix Requirements for Key Variables](../../features/traits/trait-variable-prefixes.md)
+
