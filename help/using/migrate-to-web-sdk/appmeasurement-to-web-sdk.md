@@ -3,6 +3,7 @@ title: Update your data collection library for Audience Manager from the AppMeas
 description: Understand the steps to update your data collection library for Audience Manager from the AppMeasurement JavaScript library to the Web SDK JavaScript library.
 exl-id: 9c771d6c-4cfa-4929-9a79-881d4e8643e4
 ---
+
 # Update your data collection library for Audience Manager from the AppMeasurement JavaScript library to the Web SDK JavaScript library
 
 ## Intended audience {#intended-audience}
@@ -223,3 +224,21 @@ While the `data.__adobe.audiencemanager` node is not needed for the migration ou
 
 If you need to send a custom key/value pair to Audience Manager without including it in Analytics, you can use the `data.__adobe.audiencemanager` node. Any data set in this node will be appended to the Audience Manager-transformed Analytics data in the data collection server call.
 
+## Configure Server-Side Forwarding and Audience Analytics in the Analytics Report Suite Manager UI {#configure-ssf-analytics}
+
+If you are familiar with the Analytics [server-side forwarding](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf) feature, you might wonder: "*Should I disable the server-side forwarding setting in the Analytics Report Suite Manager UI to prevent sending Analytics data to Audience Manager twice?*".
+
+The answer is no, you should not disable this setting. Here's why:
+
+When this setting is enabled and the [!DNL AudienceManagement] module is added to the [!DNL AppMeasurement] library on your page, all data sent to that report suite will also flow to Audience Manager.
+
+To comply with GDPR privacy regulations, there are scenarios where data can be collected in Analytics but not in Audience Manager. Additionally, there are cases involving global report suites and region-specific use cases where some data collection calls should not be sent to Audience Manager. To solve this, Adobe introduced a server-side forwarding "off button".
+
+As explained in the [Analytics and GDPR compliance page focused on server-side forwarding](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf-gdpr), adding the `cm.ssf=1` context variable to an Analytics data collection server prevents that data collection call from being forwarded to Audience Manager.
+
+There are two reasons why you should not disable this setting.
+
+1. When the Audience Manager service is enabled on a datastream, the Edge Network appends the `cm.ssf` variable to all data collection requests sent to Analytics. This prevents the Analytics data from being sent to Audience Manager as well. Any Assurance logs used to validate the Analytics migration will show the `cm.ssf=1` variable when the Audience Manager service is enabled on the datastream.
+1. This setting also enables the flow of data for the [!DNL Audience Analytics] integration. As outlined in the [Audience Analytics overview](https://experienceleague.adobe.com/en/docs/analytics/integration/audience-analytics/mc-audiences-aam), server-side forwarding is required for this integration because the Audience Manager response to the Analytics data collection server is added to the Analytics hit before processing. A similar process occurs within the Edge Network. When server-side forwarding is enabled, the Edge Network adds the necessary segments from the Audience Manager response to the data sent to Analytics.
+
+In summary, it's important that this setting remains enabled so that Audience Analytics continues to function with a Web SDK implementation and no data will be double-counted in Audience Manager.
