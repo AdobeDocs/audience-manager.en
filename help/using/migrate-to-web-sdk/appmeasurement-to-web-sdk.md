@@ -25,7 +25,6 @@ Migrating from [!DNL AppMeasurement] to [Web SDK](https://experienceleague.adobe
 If you use [!DNL AppMeasurement] for Audience Manager data collection, you are currently using the [!DNL Server-side Forwarding (SSF)] approach to send Analytics data to Audience Manager. In this setup, the Analytics data collection request is forwarded to Audience Manager, which also handles the Audience Manager response to the page.
 
 This has been the standard approach for many years and is likely your current setup. If your [!DNL AppMeasurement] library contains the `AudienceManagement` module and your data collection calls include the `/10/` path in the request (`/b/ss/examplereportsuite/10/`), then this guide is for you.
- 
 
 ## Server-side Forwarding (SSF) versus Web SDK data flows {#data-flows}
 
@@ -42,6 +41,35 @@ In this new data flow, all data is sent to an Edge Network [datastream](https://
 Whether you are using Tags with the [!DNL AppMeasurement] extension, the [!DNL AppMeasurement] library in another tag management system, or placing [!DNL AppMeasurement] directly on the page, the steps for migrating Audience Manager to the Web SDK are the same. Since the Audience Manager migration depends on the Analytics migration, the steps to migrate from [!DNL AppMeasurement] to Web SDK are determined during the Analytics migration.
 
 That information is covered in the Analytics documentation for [Tags](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/web-sdk/analytics-extension-to-web-sdk) or [JavaScript](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/web-sdk/appmeasurement-to-web-sdk)-based implementations.
+
+## XDM and the `data.__adobe.` nodes {#xdm-data-nodes}
+
+One of the main functions of the [Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home) is to send data to [Real-Time Customer Data Platform (RTCDP)](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home). To achieve this and still collect data for other Experience Cloud Solutions without a full re-implementation, solution-specific data is compartmentalized within the data collection server call. This call uses a standardized JSON schema called the [Experience Data Model (XDM)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
+
+Solution-agnostic elements, such as information about the browser and device, are sent to the Edge Network in a predetermined XDM structure. The Edge Network transforms this data to solution-specific formats. However, data that is specific to Target, Analytics, and Audience Manager is stored in a dedicated `data.__adobe` node within the XDM payload.
+
+For example:
+
+* The Analytics variable `s.eVar1` is represented in the XDM payload as `data.__adobe.analytics.evar1`. 
+* A Target parameter related to customer loyalty status is stored as `data.__adobe.target.loyaltyStatus`.
+
+Data in the `__adobe` node is sent to the respective solutions (like Analytics and Audience Manager) without being sent to Experience Platform, even if the Experience Platform service is enabled on the datastream. This means you can keep your current configurations for Analytics and Audience Manager while having the flexibility to map any necessary data elements to XDM schema elements for real-time use cases in Experience Platform using [Data Prep for Data Collection](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep).
+
+For example, the Analytics `s.products` string, which is used to report cart contents during checkout, can still be sent to Analytics and Audience Manager in its original format. At the same time, you can use the elements of this string to create more intuitive XDM cart schemas for Experience Platform use cases.
+
+Since most Audience Manager implementations rely on Analytics data forwarded to Audience Manager, many of your Audience Manager trait expressions are likely based on Analytics variables (`c_evar#`, `c_prop#`, and `c_events`). To avoid rebuilding trait expressions using XDM formats during migration, the Edge Network is configured by default to transform any Analytics variables found in the `data.__adobe.analytics` node into Audience Manager signals. This process is similar to the server-side forwarding workflow.
+
+The Edge Network can perform this transformation because a single data collection call from the page is sent to a single datastream that feeds multiple Adobe solutions. Therefore, most migrations from [!DNL AppMeasurement] to Web SDK for both Analytics and Audience Manager will primarily use the `data.__adobe.analytics` node.
+
+The Edge Network transforms device and browser data from the XDM payload and packet headers into Audience Manager signals. This allows you to continue using `h_` and `d_` platform keys in Audience Manager trait expressions.
+
+## The `data.__adobe.audiencemanager` node {#data-note}
+
+The `data.__adobe.audiencemanager` node is used for Audience Manager implementations that do not rely on Analytics. It stores custom Audience Manager key/value pairs that were previously sent via the [DIL library](../dil/dil-overview.md) library, as described in the [tag extension migration guide](dil-extension-to-web-sdk.md).
+
+While the `data.__adobe.audiencemanager` node is not needed for the migration outlined in this guide, the new data flow explained here allows data to be sent to Audience Manager without being recorded in Analytics.
+
+If you need to send a custom key/value pair to Audience Manager without including it in Analytics, you can use the `data.__adobe.audiencemanager` node. Any data set in this node will be appended to the Audience Manager-transformed Analytics data in the data collection server call.
 
 ## Advantages and disadvantages of this implementation path
 
@@ -66,9 +94,9 @@ Work with your Analytics team to follow the steps for Analytics migration in eit
 
 +++
 
-+++**2. Create and configure a datastream**
++++**2. Add the Audience Manager service to the datastream**
 
-Create a datastream in Adobe Experience Platform Data Collection. When you send data to this datastream, it forwards data to Audience Manager. In the future, this same datastream forwards data to Real-Time CDP.
+Add the Audience Manager service to the datastream that you created during step 1.
 
 1. Navigate to [experience.adobe.com](https://experience.adobe.com) and log in using your credentials.
 1. Use the home page or product selector in the top right to navigate to **[!UICONTROL Data Collection]**.
@@ -113,116 +141,6 @@ Your datastream is now ready to receive and pass along data to Audience Manager.
 Your datastream is now ready to both send data to Audience Manager and pass the Audience Manager responses to the Web SDK.
 
 +++
-
-+++**4. Install the Web SDK JavaScript library**
-
-See [Install the Web SDK using the JavaScript library](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/library) for details and code blocks to use. Reference the latest version of `alloy.js` so its method calls can be used.
-
-+++
-
-+++**5. Configure the Web SDK**
-
-Set up your implementation to point to the datastream created in step 1 by using the Web SDK [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) command. The `configure` command must be set on every page, so you can include it alongside the library installation code.
-
-Use the [`edgeConfigId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgeconfigid) and [`orgId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/orgid) properties within the Web SDK `configure` command:
-
-* Set the `edgeConfigId` to the datastream ID retrieved from the previous step.
-* Set the `orgId` to your organization's IMS org ID.
-
-```js
-alloy("configure", {
-    "edgeConfigId": "ebebf826-a01f-4458-8cec-ef61de241c93",
-    "orgId": "ADB3LETTERSANDNUMBERS@AdobeOrg"
-});
-```
-
-You can optionally set other properties in the [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) command depending on your organization's implementation requirements.
-
-+++
-
-+++**6. Update code logic to use a JSON payload**
-
-Change your Audience Manager implementation so that it does not rely on `AppMeasurement.js` or the `s` object. Instead, set variables into a correctly formatted JavaScript object, which is converted to a JSON object when sent to Adobe. Having a [data layer](https://experienceleague.adobe.com/en/docs/analytics/implementation/prepare/data-layer) on your site helps tremendously when setting values, as you can continue referencing those same values.
-
-To send data to Audience Manager, the Web SDK payload must use `data.__adobe.audiencemanager` with all analytics variables set within this object. Variables within this object share identical names and formats as their AppMeasurement variable counterparts. For example, if you set the `products` variable, do not split it into individual objects like you would with XDM. Instead, include it as a string exactly is if you set the `s.products` variable:
-
-```json
-{
-  "data": {
-    "__adobe": {
-      "audiencemanager": {
-        "products": "Shoes,Men's sneakers,1,49.99"
-      }
-    }
-  }
-}
-```
-
-Ultimately, this payload contains all desired values, and all references to the `s` object in your implementation are removed. You can use any of the resources that JavaScript provides to set this payload object, including dot notation to set individual values.
-
-```js
-// Define the payload and set objects within it
-var dataObj = {data: {__adobe: {audiencemanager: {}}}};
-dataObj.data.__adobe.audiencemanager.pageName = window.document.title;
-dataObj.data.__adobe.audiencemanager.eVar1 = "Example value";
-
-// Alternatively, set values in an object and use a spread operator to achieve identical results
-var a = new Object;
-a.pageName = window.document.title;
-a.eVar1 = "Example value";
-var dataObj = {data:{__adobe:{audiencemanager:{...a}}}};
-```
-
-+++
-
-+++**7. Update method calls to use the Web SDK**
-
-Update all instances where you call [`s.t()`](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/functions/t-method) and [`s.tl()`](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/functions/tl-method), replacing them with the [`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview) command. There are three scenarios to consider:
-
-* **Page view tracking**: Replace the page view tracking call with the Web SDK `sendEvent` command:
-
-  ```js
-  // If your current implementation has this line of code:
-  s.t();
-
-  // Replace it with this line of code. The dataObj object contains the variables to send.
-  alloy("sendEvent", dataObj);
-  ```
-
-* **Automatic link tracking**: The [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) configuration property is enabled by default. It automatically sets the correct link tracking variables to send data to Audience Manager. If you want to disable automatic link tracking, set this property to `false` within the [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) command.
-
-* **Manual link tracking**: The Web SDK does not have separate commands between pageview and non-pageview calls. Provide that distinction within the payload object.
-
-  ```js
-  // If your current implementation has this line of code:
-  s.tl(true,"o","Example custom link");
-
-  // Replace it with these lines of code. Add the required fields to the dataObj object.
-  dataObj.data.__adobe.audiencemanager.linkName = "Example custom link";
-  dataObj.data.__adobe.audiencemanager.linkType = "o";
-  dataObj.data.__adobe.audiencemanager.linkURL = "https://example.com";
-  alloy("sendEvent", dataObj);
-  ```
-
-+++
-
-+++**8. Validate and publish changes**
-
-Once you have removed all references to AppMeasurement and the `s` object, publish your changes to your development environment to validate that the new implementation works. Once you have validated that everything works correctly, you can publish your updates to production.
-
-If migrated correctly, `AppMeasurement.js` is no longer required on your site, and all references to this script can be removed.
-
-+++
-
-At this point, your Audience Manager implementation is fully migrated to the Web SDK and is prepared to move to Real-Time CDP in the future.
-
-## The `data.__adobe.audiencemanager` node {#data-note}
-
-The `data.__adobe.audiencemanager` node is used for Audience Manager implementations that do not rely on Analytics. It stores custom Audience Manager key/value pairs that were previously sent via the [DIL library](../dil/dil-overview.md) library, as described in the [tag extension migration guide](dil-extension-to-web-sdk.md).
-
-While the `data.__adobe.audiencemanager` node is not needed for the migration outlined in this guide, the new data flow explained here allows data to be sent to Audience Manager without being recorded in Analytics.
-
-If you need to send a custom key/value pair to Audience Manager without including it in Analytics, you can use the `data.__adobe.audiencemanager` node. Any data set in this node will be appended to the Audience Manager-transformed Analytics data in the data collection server call.
 
 ## Configure Server-Side Forwarding and Audience Analytics in the Analytics Report Suite Manager UI {#configure-ssf-analytics}
 
