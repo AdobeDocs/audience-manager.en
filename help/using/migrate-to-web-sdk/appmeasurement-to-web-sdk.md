@@ -142,6 +142,18 @@ Your datastream is now ready to both send data to Audience Manager and pass the 
 
 +++
 
++++**4. Add customer IDs to the identity map**
+
+Most Audience Manager implementations use [Profile Merge Rules](../features/profile-merge-rules/merge-rules-overview.md) in cross-device personalization scenarios and to help control what segments visitors can qualify for depending on their authentication state (logged in or logged out). Profile Merge Rules require a customer-owned identifier (CRM ID, account number, etc.) to be sent to Audience Manager on every data collection call after authentication. Previously, the `setCustomerIDs` function of the Visitor ID Service ([!DNL visitor.js]) was used to append customer IDs to each Analytics data collection call, which was then forwarded to Audience Manager.
+
+With the Web SDK, these identities now need to be sent to the Edge Network using a special XDM construct called [IdentityMap](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/identitymap). 
+
+Passing identities correctly in an identity map requires understanding [identity namespaces](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces) and carefully considering which identities to pass, especially when sending data to an Experience Platform sandbox. [This article](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-21305) outlines these considerations and instructions.  
+
+Once you determine which identities to pass and when, follow the guides for using the [!UICONTROL Identity map] **[!UICONTROL Identity map]** [data element](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/data-element-types#identity-map) within Tags or manually set it as outlined in the [identity data overview](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview) to align with your Web SDK deployment strategy.
+
++++
+
 ## Configure Server-Side Forwarding and Audience Analytics in the Analytics Report Suite Manager UI {#configure-ssf-analytics}
 
 If you are familiar with the Analytics [server-side forwarding](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf) feature, you might wonder: "*Should I disable the server-side forwarding setting in the Analytics Report Suite Manager UI to prevent sending Analytics data to Audience Manager twice?*".
