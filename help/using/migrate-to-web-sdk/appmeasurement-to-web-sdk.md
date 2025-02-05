@@ -4,7 +4,7 @@ description: Understand the steps to update your data collection library for Aud
 exl-id: 9c771d6c-4cfa-4929-9a79-881d4e8643e4
 ---
 
-# Update your data collection library for Audience Manager from the AppMeasurement JavaScript library to the Web SDK JavaScript library
+# Update your data collection library for Audience Manager from AppMeasurement to Web SDK
 
 ## Intended audience {#intended-audience}
 
@@ -14,9 +14,9 @@ Refer to the table below for guidance on migration steps to Web SDK, depending o
 
 |Your existing data collection method | Web SDK migration instructions |
 |---------|----------|
-| [!DNL AppMeasurement] JavaScript library | Follow the instructions in this guide. |
+| [!DNL AppMeasurement] JavaScript library with AudienceManagement module | Follow the instructions in this guide. |
 | [!DNL Audience Manager] [tag extension](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/audience-manager/overview) | Follow the instructions in [updating your data collection library from the Audience Manager tag extension to the Web SDK tag extension](dil-extension-to-web-sdk.md). |
-| [!DNL AppMeasurement] JavaScript library + [!DNL Audience Manager] [DIL library](../dil/dil-overview.md) | Follow the instructions in [updating your data collection library from the Audience Manager tag extension to the Web SDK tag extension](dil-extension-to-web-sdk.md). |
+| [!DNL AppMeasurement] JavaScript library + standalone [!DNL Audience Manager] [DIL library](../dil/dil-overview.md) | Follow the instructions in [updating your data collection library from the Audience Manager tag extension to the Web SDK tag extension](dil-extension-to-web-sdk.md). |
 
 ## Migration overview {#overview}
 
@@ -57,7 +57,7 @@ Data in the `__adobe` node is sent to the respective solutions (like Analytics a
 
 For example, the Analytics `s.products` string, which is used to report cart contents during checkout, can still be sent to Analytics and Audience Manager in its original format. At the same time, you can use the elements of this string to create more intuitive XDM cart schemas for Experience Platform use cases.
 
-Since most Audience Manager implementations rely on Analytics data forwarded to Audience Manager, many of your Audience Manager trait expressions are likely based on Analytics variables (`c_evar#`, `c_prop#`, and `c_events`). To avoid rebuilding trait expressions using XDM formats during migration, the Edge Network is configured by default to transform any Analytics variables found in the `data.__adobe.analytics` node into Audience Manager signals. This process is similar to the server-side forwarding workflow.
+Since most Audience Manager implementations rely on Analytics data forwarded to Audience Manager, many of your Audience Manager trait expressions are likely based on Analytics variables (`c_evar#`, `c_prop#`, and `c_events`). To avoid rebuilding trait expressions using XDM formats during migration, the Edge Network is configured by default to transform any Analytics variables found in the `data.__adobe.analytics` node into Audience Manager signals. A similar transformation process happens in the server-side forwarding workflow.
 
 The Edge Network can perform this transformation because a single data collection call from the page is sent to a single datastream that feeds multiple Adobe solutions. Therefore, most migrations from [!DNL AppMeasurement] to Web SDK for both Analytics and Audience Manager will primarily use the `data.__adobe.analytics` node.
 
@@ -82,21 +82,21 @@ Using this migration approach has both advantages and disadvantages. Carefully w
 Adobe recommends following this implementation path in the following scenarios:
 
 * You have an existing implementation using the Adobe Analytics AppMeasurement JavaScript library. If you have an implementation using the Audience Manager tag extension, follow [Migrate from the Audience Manager tag extension to the Web SDK tag extension](dil-extension-to-web-sdk.md) instead.
-* You intend to use Real-Time CDP in the future, but do not want to replace your Audience Manager implementation with a Web SDK implementation from scratch. Replacing your implementation from scratch on the Web SDK requires the most effort, but also offers the most viable long-term implementation architecture. If your organization is willing to go through the effort of a clean Web SDK implementation, see the [Web SDK documentation](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home) for more details.
+* You intend to use Real-Time CDP in the future, but do not want to replace your Audience Manager implementation with a Web SDK implementation from scratch. The alternative of replacing your implementation from scratch with the Web SDK requires the most effort, as it you need to rebuild all of your Audience Manager traits to look for XDM-formatted data. However, it is also the most viable long-term implementation architecture. If your organization is willing to go through the effort of a clean Web SDK implementation, see the [Web SDK documentation](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home) instead of using this guide, for more details.
 
 ## Steps required to migrate to the Web SDK
 
 Follow the steps below to migrate your data collection integration to Web SDK.
 
-+++**1. Migrate your Analytics implementation**.
++++**1. Plan your Analytics migration**.
 
-Work with your Analytics team to follow the steps for Analytics migration in either the [Tags](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/web-sdk/analytics-extension-to-web-sdk) or [JavaScript](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/web-sdk/appmeasurement-to-web-sdk)-based implementations. After you have migrated your Analytics implementation, continue to the following step.
+Work with your Analytics team to follow the steps for Analytics migration in either the [Tags](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/web-sdk/analytics-extension-to-web-sdk) or [JavaScript](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/web-sdk/appmeasurement-to-web-sdk)-based implementations. After you have planned your Analytics migration, return to this guide and continue with the Audience Manager steps to determine what you need to do for Audience Manager so that you can deploy the Analytics and Audience Manager migration together.
 
 +++
 
 +++**2. Add the Audience Manager service to the datastream**
 
-Add the Audience Manager service to the datastream that you created during step 1.
+Add the Audience Manager service to the datastream that you are using in the Analytics migration mentioned in step 1.
 
 1. Navigate to [experience.adobe.com](https://experience.adobe.com) and log in using your credentials.
 1. Use the home page or product selector in the top right to navigate to **[!UICONTROL Data Collection]**.
@@ -154,21 +154,78 @@ Once you determine which identities to pass and when, follow the guides for usin
 
 +++
 
++++**5. (Optional) Set the first-party `aam_uuid` cookie**
+
+A standard practice for many years was to place the Audience Manager UUID (the value in the 3rd party demdex cookie) in a first-party cookie usually named `aam_uuid`.
+
+To set the cookie, you must enter a cookie name in the **[!UICONTROL Name]** field of the **[!UICONTROL Unique User ID Cookie]** section of the Analytics tag extension or the `uuidCookie` field when configuring the `audienceManagementModule`. While commonly configured in the code, the cookie was rarely used, because the Audience Manager UUID value is a device-specific, cross-domain identifier used by advertising platforms and provides little value as a first-party identifier.
+
+If you find that your implementation requires this `aam_uuid` cookie to continue to be set after the migration to Web SDK, you can retrieve the Audience Manager UUID in two ways.
+
+1. Every response from the [Edge Network interact endpoint](https://developer.adobe.com/data-collection-apis/docs/endpoints/interact/) contain a payload with `id` nodes. The `id` node of the `CORE` namespace payload contains the Audience Manager UUID.   
+
+2. Use the [getIdentity](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/getidentity) command of the Web SDK to retrieve it. Use the `CORE` namespace as outlined in the documentation and retrieve the value from the `identity.CORE` field in the response. 
+
+Regardless of the method used to retrieve the Audience Manager UUID, it is up to your development team to parse the response, retrieve the UUID, and set the cookie. There is no automatic way of setting this cookie via the Web SDK.
+
++++
+
 ## Configure Server-Side Forwarding and Audience Analytics in the Analytics Report Suite Manager UI {#configure-ssf-analytics}
 
 If you are familiar with the Analytics [server-side forwarding](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf) feature, you might wonder: "*Should I disable the server-side forwarding setting in the Analytics Report Suite Manager UI to prevent sending Analytics data to Audience Manager twice?*".
 
-The answer is no, you should not disable this setting. Here's why:
+The answer is no, you should not disable this setting, for the following reasons: 
 
-When this setting is enabled and the [!DNL AudienceManagement] module is added to the [!DNL AppMeasurement] library on your page, all data sent to that report suite will also flow to Audience Manager.
+1. When the Audience Manager service is enabled on a datastream, the Edge Network appends the `cm.ssf` variable to all data collection requests sent to Analytics. This prevents the Analytics data from being sent to Audience Manager as well. Any Assurance logs used to validate the Analytics migration will show the `cm.ssf=1` variable when the Audience Manager service is enabled on the datastream. See the [Analytics and GDPR compliance page focused on server-side forwarding](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf-gdpr) for more details.
 
-To comply with GDPR privacy regulations, there are scenarios where data can be collected in Analytics but not in Audience Manager. Additionally, there are cases involving global report suites and region-specific use cases where some data collection calls should not be sent to Audience Manager. To solve this, Adobe introduced a server-side forwarding "off button".
-
-As explained in the [Analytics and GDPR compliance page focused on server-side forwarding](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf-gdpr), adding the `cm.ssf=1` context variable to an Analytics data collection server prevents that data collection call from being forwarded to Audience Manager.
-
-There are two reasons why you should not disable this setting.
-
-1. When the Audience Manager service is enabled on a datastream, the Edge Network appends the `cm.ssf` variable to all data collection requests sent to Analytics. This prevents the Analytics data from being sent to Audience Manager as well. Any Assurance logs used to validate the Analytics migration will show the `cm.ssf=1` variable when the Audience Manager service is enabled on the datastream.
 1. This setting also enables the flow of data for the [!DNL Audience Analytics] integration. As outlined in the [Audience Analytics overview](https://experienceleague.adobe.com/en/docs/analytics/integration/audience-analytics/mc-audiences-aam), server-side forwarding is required for this integration because the Audience Manager response to the Analytics data collection server is added to the Analytics hit before processing. A similar process occurs within the Edge Network. When server-side forwarding is enabled, the Edge Network adds the necessary segments from the Audience Manager response to the data sent to Analytics.
 
 In summary, it's important that this setting remains enabled so that Audience Analytics continues to function with a Web SDK implementation and no data will be double-counted in Audience Manager.
+
+## Validate the migration {#validation}
+
+With all Adobe solutions now being serviced by a single Web SDK call, the steps for validation can change depending on the solutions that Web SDK serves.
+
+If Adobe Target or Adobe Journey Optimizer (including Experience Decisioning) are part of the solution stack being serviced by your implementation, then you will have multiple network calls to the Edge Network on the page. Some of these are meant for retrieving personalizations and offers while others are meant for data collection and reporting.
+
+Here is how you can validate that data is flowing correctly to and from Audience Manager via Web SDK.
+
+1. The first network call for a first-page, first-time visitor will be to the `adobedc.demdex.net` domain and the `/interact` endpoint. You can see the network calls made by Web SDK by opening the developer tab on your web browser, clicking the Network tab, and then filtering for `/interact`. 
+There are other types of Web SDK calls, but only `interact` calls send data to and get a response payload from the Edge Network.  
+
+    ![Image of a browser network tab showing the interact calls.](assets/network.png)
+
+1. The response to the first network call has multiple payloads. One of those payload nodes includes several subnodes of type `url`. These `url` nodes are the third party ID syncs that were historically fired by the [!DNL Visitor ID] service. There should be one `url` node for each third party ID sync that is configured in your container (see step 3 above).
+
+    ![Image of a browser network tab showing the payloads.](assets/payload.png)
+
+    Additionally, you can filter by `demdex` and find that each of the URLs referenced in the payload fired their own network request for ID syncing just like the [!DNL Visitor ID] service did. These ID syncs should only fire on the first page of a first-time visitor and only once every 14 days after that.
+
+1. Any subsequent `/interact` requests used for Analytics and Audience Manager data collection should contain the `data.__adobe.analytics` nodes in the payload.
+    
+    ![Image of a browser network tab showing the analytics node in the payload.](assets/analytics-node.png)
+
+    Audience Manager traits that rely on these Analytics variables, as well as traits that use the `h_` or `d_` platform keys should continue to be populated.
+
+    >[!TIP]
+    >
+    >You may want to create a test trait with a rule expression that can only be expressed if the Web SDK data is being collected. Since there is no development Audience Manager environment and multiple sites could be sending data to the same Audience Manager instance, just looking at overall population counts may not give you the needed validation.
+
+1. In the same `/interact` call where Analytics variables are passed, any cookie or URL destinations can be found in the payload nodes of the response. URL destinations will be in payloads of type `url` (just like in third party ID syncs) and cookie destinations will be in payloads of type `cookie`.
+
+    ![Image of a browser network tab showing the payload data.](assets/destinations.png)
+
+    You should also make sure that the cookies were dropped into the browser's cookie storage. 
+
+    >[!TIP]
+    >
+    >Similar to the previous validation step, qualifying for a segment that should return a cookie destination is a certain way to ensure that data is flowing to and from Audience Manager.
+
+1. If you need to pass additional customer IDs via Identity Map, authenticate into the site and make sure that identities and their associated parameters are passed in the Identity Map node of the request payload.
+
+    ![Image of a browser network tab showing identityMap data.](assets/pass-customer-ids.png)
+
+    >[!TIP]
+    >
+    >If Adobe Target is one of the receiving solutions and there are Target activities that rely on Audience Manager segments that require the right identity to be passed, make sure that the Identity Map is passed in the `/interact` calls that are used to retrieve personalizations and not just in data collection calls. Adobe Target will use those identities in the server-side call to Audience Manager when retrieving segment information.
+
