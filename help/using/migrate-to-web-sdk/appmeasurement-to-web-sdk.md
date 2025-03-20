@@ -82,7 +82,7 @@ Using this migration approach has both advantages and disadvantages. Carefully w
 Adobe recommends following this implementation path in the following scenarios:
 
 * You have an existing implementation using the Adobe Analytics AppMeasurement JavaScript library. If you have an implementation using the Audience Manager tag extension, follow [Migrate from the Audience Manager tag extension to the Web SDK tag extension](dil-extension-to-web-sdk.md) instead.
-* You intend to use Real-Time CDP in the future, but do not want to replace your Audience Manager implementation with a Web SDK implementation from scratch. The alternative of replacing your implementation from scratch with the Web SDK requires the most effort, as it you need to rebuild all of your Audience Manager traits to look for XDM-formatted data. However, it is also the most viable long-term implementation architecture. If your organization is willing to go through the effort of a clean Web SDK implementation, see the [Web SDK documentation](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home) instead of using this guide, for more details.
+* You intend to use Real-Time CDP in the future, but do not want to replace your Audience Manager implementation with a Web SDK implementation from scratch. The alternative of replacing your implementation from scratch with the Web SDK requires the most effort, as you need to rebuild all of your Audience Manager traits to look for XDM-formatted data. However, it is also the most viable long-term implementation architecture. If your organization is willing to go through the effort of a clean Web SDK implementation, see the [Web SDK documentation](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home) instead of using this guide, for more details.
 
 ## Steps required to migrate to the Web SDK
 
@@ -158,11 +158,11 @@ Once you determine which identities to pass and when, follow the guides for usin
 
 A standard practice for many years was to place the Audience Manager UUID (the value in the 3rd party demdex cookie) in a first-party cookie usually named `aam_uuid`.
 
-To set the cookie, you must enter a cookie name in the **[!UICONTROL Name]** field of the **[!UICONTROL Unique User ID Cookie]** section of the Analytics tag extension or the `uuidCookie` field when configuring the `audienceManagementModule`. While commonly configured in the code, the cookie was rarely used, because the Audience Manager UUID value is a device-specific, cross-domain identifier used by advertising platforms and provides little value as a first-party identifier.
+To set the cookie, you must enter a cookie name in the **[!UICONTROL Name]** field of the **[!UICONTROL Unique User ID Cookie]** section of the Analytics tag extension or the `uuidCookie` field when configuring the `audienceManagementModule`. While commonly configured in the code, the cookie was rarely used because the Audience Manager UUID value is a device-specific, cross-domain identifier used by advertising platforms and provides little value as a first-party identifier.
 
 If you find that your implementation requires this `aam_uuid` cookie to continue to be set after the migration to Web SDK, you can retrieve the Audience Manager UUID in two ways.
 
-1. Every response from the [Edge Network interact endpoint](https://developer.adobe.com/data-collection-apis/docs/endpoints/interact/) contain a payload with `id` nodes. The `id` node of the `CORE` namespace payload contains the Audience Manager UUID.   
+1. Every response from the [Edge Network interact endpoint](https://developer.adobe.com/data-collection-apis/docs/endpoints/interact/) contains a payload with `id` nodes. The `id` node of the `CORE` namespace payload contains the Audience Manager UUID.   
 
 2. Use the [getIdentity](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/getidentity) command of the Web SDK to retrieve it. Use the `CORE` namespace as outlined in the documentation and retrieve the value from the `identity.CORE` field in the response. 
 
@@ -186,7 +186,7 @@ In summary, it's important that this setting remains enabled so that Audience An
 
 With all Adobe solutions now being serviced by a single Web SDK call, the steps for validation can change depending on the solutions that Web SDK serves.
 
-If Adobe Target or Adobe Journey Optimizer (including Experience Decisioning) are part of the solution stack being serviced by your implementation, then you will have multiple network calls to the Edge Network on the page. Some of these are meant for retrieving personalizations and offers while others are meant for data collection and reporting.
+If Adobe Target or Adobe Journey Optimizer (including [!DNL Decisioning]) are part of the solution stack being serviced by your implementation, then you will have multiple network calls to the Edge Network on the page. Some of these are meant for retrieving personalizations and offers while others are meant for data collection and reporting.
 
 Here is how you can validate that data is flowing correctly to and from Audience Manager via Web SDK.
 
