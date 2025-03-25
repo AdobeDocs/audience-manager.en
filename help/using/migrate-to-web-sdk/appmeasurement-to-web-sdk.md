@@ -188,7 +188,7 @@ With all Adobe solutions now being serviced by a single Web SDK call, the steps 
 
 If Adobe Target or Adobe Journey Optimizer (including [!DNL Decisioning]) are part of the solution stack being serviced by your implementation, then you will have multiple network calls to the Edge Network on the page. Some of these are meant for retrieving personalizations and offers while others are meant for data collection and reporting.
 
-Here is how you can validate that data is flowing correctly to and from Audience Manager via Web SDK.
+Regardless of your implementation, the general principles below apply for validating that data is correctly flowing to and from Audience Manager via Web SDK.
 
 1. The first network call for a first-page, first-time visitor will be to the `adobedc.demdex.net` domain and the `/interact` endpoint. You can see the network calls made by Web SDK by opening the developer tab on your web browser, clicking the Network tab, and then filtering for `/interact`. 
 There are other types of Web SDK calls, but only `interact` calls send data to and get a response payload from the Edge Network.  
