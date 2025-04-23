@@ -189,7 +189,7 @@ var vDil = DIL.create({
 });
 ```
 
-In the `namespace` key-value pair, `MCORG` is your [!DNL Experience Cloud] Organization ID. If you don't have this ID, you can find it in the [!UICONTROL Administration] section of the [!DNL Experience Cloud] dashboard. You need administrator permissions to view this dashboard. See [Administration: Core Services](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services.html).
+In the `namespace` key-value pair, `MCORG` is your [!DNL Experience Cloud] Organization ID. If you don't have this ID, you can find it in the [!UICONTROL Administration] section of the [!DNL Experience Cloud] dashboard. You need administrator permissions to view this dashboard. See [Get started with Experience Cloud services](https://experienceleague.adobe.com/en/docs/core-services/interface/services/getting-started).
 
 ## Deprecated Functions {#deprecated-functions}
 
