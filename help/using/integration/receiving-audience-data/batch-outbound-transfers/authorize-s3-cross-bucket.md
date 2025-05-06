@@ -15,3 +15,8 @@ The [!UICONTROL Outbound Data Transfer] process for customers using [!DNL Amazon
 If you'd rather not share your [!DNL Amazon S3] access key and secret key with us, contact your [!DNL Audience Manager] consultant or Customer Care and they will set up [!DNL Cross-Account Bucket Permissions] for you.
 
 You only need to add our [!DNL Amazon S3] account ID to an allow list for the [!DNL S3] bucket where you wish to receive the outbound data files, as described in the [Amazon S3 documentation](https://docs.aws.amazon.com/AmazonS3/latest/dev/example-walkthroughs-managing-access-example2.html). Your [!DNL Audience Manager] consultant or Customer Care will provide you with our [!DNL Amazon S3] account ID.
+
+>[!NOTE]
+>
+>Due to the Amazon S3 object size limit, Audience Manager supports split sizes of up to 1 TB. If you do not specify any split size, the 1 TB limit is automatically applied.
+
