@@ -18,4 +18,5 @@ You only need to add our [!DNL Amazon S3] account ID to an allow list for the [!
 
 >[!NOTE]
 >
->Amazon S3 destinations support split file sizes of up to 1TB.
+>Due to the Amazon S3 object size limit, Audience Manager supports split sizes of up to 1 TB. If you do not specify any split size, the 1 TB limit is automatically applied.
+
