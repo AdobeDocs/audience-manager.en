@@ -3,6 +3,8 @@ description: Audience Marketplace Enhancements
 solution: Audience Manager
 title: Audience Marketplace Enhancements
 feature: Audience Marketplace
+hide: yes
+hidefromtoc: yes
 ---
 
 # Audience Marketplace enhancements {#audience-marketplace-enhancements}
@@ -81,6 +83,3 @@ If you have a strong business case for keeping a specific data provider, please 
 ### When will the changes take effect?
 
 The optimization process will be implemented in phases. Affected customers will receive advance notice before any changes affect their active data relationships.
-
-
-
