@@ -13,6 +13,8 @@ Adobe is enhancing the Audience Marketplace to improve the visibility of data pr
 
 During this process, we are removing data providers that are not actively being used. This optimization process is designed to streamline the marketplace and improve overall performance for all users.
 
+**Timeline:** The changes will be implemented starting with June 20, 2025. Data providers will be removed on July 20, 2025.
+
 ## What's changing {#what-changes}
 
 As part of our ongoing commitment to provide the best possible Audience Manager experience, we are removing data providers from the Audience Marketplace that have:
@@ -33,7 +35,39 @@ This optimization may affect your current data provider relationships and availa
 
 The data providers listed below will be marked as **[!UICONTROL suspended]** in the Audience Marketplace UI. Audiences using data from these data providers will also be marked as **[!UICONTROL suspended]** in the Audience Manager UI.
 
-*The complete list of data providers being removed will be updated here as the optimization process continues.*
+* 4info
+* Adara
+* Adsquare
+* AlikeAudience
+* Are You A Human
+* AuDigent
+* CCUE Chinese Media Inc.
+* Cox Automotive Inc.
+* Hariken
+* HG Data
+* Hitwise
+* Inmar (fka OwnerIQ)
+* Lifesight Pte Ltd
+* MasterCard Advisors
+* Maxpoint
+* Merkle
+* Mobilewalla
+* Navegg
+* Netwise
+* Onaudience
+* PeopleFinders
+* Plunge Digital
+* Resonate
+* Sirdata
+* SMS Inc
+* Startapp
+* Statsocial
+* TruSignal
+* Video Research,Ltd
+* Wunderman KBM
+* zeotap GmbH
+* Ziff Davis, LLC
+
 
 ## What you should do
 
@@ -51,9 +85,9 @@ We understand that these changes may impact your business operations. If you hav
 
 ## Contact information {#contact}
 
-If you need to discuss the removal of specific data providers or have concerns about how these changes might affect your business, please contact:
+If you need to discuss the removal of specific data providers or have concerns about how these changes might affect your business, please contact Adobe at the email address below.
 
-**Email:** [Contact email to be provided]
+**Email:** ampupdates@adobe.com
 
 When contacting Adobe, please include:
 
@@ -82,4 +116,4 @@ If you have a strong business case for keeping a specific data provider, please 
 
 ### When will the changes take effect?
 
-The optimization process will be implemented in phases. Affected customers will receive advance notice before any changes affect their active data relationships.
+The targeted go-live date is June 20, 2025. Data providers selected for removal will be removed on July 20, 2025. Affected customers will receive advance notice before any changes affect their active data relationships.
