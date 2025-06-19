@@ -209,4 +209,4 @@ Adobe provides Audience Manager customers with access keys for [!DNL Amazon S3] 
 
 If your access keys are disabled, you can contact Customer Support to re-enable them or request new ones.
 
-For enhanced security, access keys that remain inactive for 1000 days will be permanently deleted along with the associated user account. If you're a returning customer and need access after this period, contact Customer Support to recreate your account and receive new access keys.
+For enhanced security, access keys that remain inactive for 1000 days will be permanently deleted along with the Amazon S3 IAM user account. If you're a returning customer and need access after this period, contact Customer Support to recreate your account and receive new access keys.
