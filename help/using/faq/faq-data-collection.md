@@ -9,6 +9,7 @@ keywords: SFTP; SFTP address; STFP IP address; FTP address
 feature: Administration
 exl-id: 2951ab0c-6f1c-4126-b83e-ce4a33c0d4ab
 ---
+
 # Data Collection and Product Integration FAQ{#data-collection-and-product-integration-faq}
 
 Common data collection and integration questions and issues.
@@ -204,6 +205,8 @@ It usually takes up to 24 hours for a user profile to sync across regions. Howev
 
 **What happens to inactive Amazon S3 user access keys?**
 
-Adobe provides Audience Manager customers with user access keys for the Audience Manager [!DNL Amazon S3] buckets. For security reasons, the keys are automatically disabled after 100 days of inactivity.
+Adobe provides Audience Manager customers with access keys for [!DNL Amazon S3] buckets. For security purposes, these access keys are automatically disabled if they remain unused for 100 days.
 
-To re-enable your access keys or request new ones, contact Customer Support.
+If your access keys are disabled, you can contact Customer Support to re-enable them or request new ones.
+
+For enhanced security, access keys that remain inactive for 1000 days will be permanently deleted along with the Amazon S3 IAM user account. If you're a returning customer and need access after this period, contact Customer Support to recreate your account and receive new access keys.
