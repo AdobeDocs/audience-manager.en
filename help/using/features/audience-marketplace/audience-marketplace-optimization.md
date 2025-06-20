@@ -1,27 +1,23 @@
 ---
-description: Audience Marketplace Enhancements
+description: Adobe is enhancing the Audience Marketplace to improve the visibility of data providers with active feeds.
 solution: Audience Manager
-title: Audience Marketplace Enhancements
+title: Audience Marketplace optimization
 feature: Audience Marketplace
 hide: yes
 hidefromtoc: yes
 ---
 
-# Audience Marketplace enhancements {#audience-marketplace-enhancements}
+# Audience Marketplace optimization {#audience-marketplace-optimization}
 
 Adobe is enhancing the Audience Marketplace to improve the visibility of data providers with active feeds.
 
-During this process, we are removing data providers that are not actively being used. This optimization process is designed to streamline the marketplace and improve overall performance for all users.
+During this process, we are removing data providers that are not actively being used. The optimization will also remove traits provided by these data providers. This process is designed to streamline the marketplace and improve overall performance for all users.
 
-**Timeline:** The changes will be implemented starting with June 20, 2025. Data providers will be removed on July 20, 2025.
+**Timeline:** Data providers will be removed at the end of July 2025.
 
 ## What's changing {#what-changes}
 
-As part of our ongoing commitment to provide the best possible Audience Manager experience, we are removing data providers from the Audience Marketplace that have:
-
-* Low or no usage patterns
-* Inactive data feeds
-* Limited customer engagement
+As we continue improving the Audience Manager experience we are optimizing the Audience Marketplace, particularly in relation to our data partners.
 
 ## Impact on your business {#impact}
 
@@ -29,7 +25,8 @@ This optimization may affect your current data provider relationships and availa
 
 1. **Review your current data providers**: Check which providers you are actively using
 2. **Assess business impact**: Determine if any of the providers being removed are critical to your business
-3. **Contact Adobe if needed**: Reach out if you have concerns about specific data providers being removed
+3. **Evaluate your trait usage**: Determine if any of your active segments contain traits from impacted data providers and find similar traits from non-impacted data providers to replace them with.
+4. **Contact Adobe if needed**: Reach out if you have concerns about specific data providers being removed
 
 ## Data providers being removed {#data-providers-list}
 
@@ -110,10 +107,12 @@ Data providers were selected based on usage patterns, customer engagement levels
 
 If you are actively using a data provider that is being removed, it may affect related audience segments. We recommend reviewing your segments and contacting us if you have concerns.
 
+If your segments use traits from one of the data providers that will be removed, you will need to update those traits by replacing them with similar traits from an active data provider. No action needs to be taken for inactive segments.
+
 ### Can a data provider be reinstated?
 
 If you have a strong business case for keeping a specific data provider, please contact us with your requirements. We will review each request on a case-by-case basis.
 
 ### When will the changes take effect?
 
-The targeted go-live date is June 20, 2025. Data providers selected for removal will be removed on July 20, 2025. Affected customers will receive advance notice before any changes affect their active data relationships.
+Data providers selected for removal will be removed at the end of July 2025.

@@ -60,6 +60,7 @@ feature-set: Audience Manager
         + [Audience Lab Advanced Functionality](features/audience-lab/audience-lab-advanced.md)
     + Audience Marketplace{#audience-marketplace}
         + [Audience Marketplace](features/audience-marketplace/audience-marketplace.md)
+        + [Audience Marketplace optimization](features/audience-marketplace/audience-marketplace-optimization.md)
         + Audience Marketplace for Data Providers{#audience-marketplace-for-data-providers}
             + [Audience Marketplace for Data Providers](features/audience-marketplace/marketplace-data-providers/marketplace-data-providers.md)
             + [Create, Price, and Manage Data Feeds](features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md)
