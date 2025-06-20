@@ -5,8 +5,8 @@ title: Audience Marketplace optimization
 feature: Audience Marketplace
 hide: yes
 hidefromtoc: yes
+exl-id: 92d4d043-3cc1-4a59-926f-c29709d9bc63
 ---
-
 # Audience Marketplace optimization {#audience-marketplace-optimization}
 
 Adobe is enhancing the Audience Marketplace to improve the visibility of data providers with active feeds.
