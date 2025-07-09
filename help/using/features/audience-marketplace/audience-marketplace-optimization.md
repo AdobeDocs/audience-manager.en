@@ -13,7 +13,7 @@ Adobe is enhancing the Audience Marketplace to improve the visibility of data pr
 
 During this process, we are removing data providers that are not actively being used. The optimization will also remove traits provided by these data providers. This process is designed to streamline the marketplace and improve overall performance for all users.
 
-**Timeline:** Data providers will be removed at the end of July 2025.
+**Timeline:** Data providers will be removed during August 2025.
 
 ## What's changing {#what-changes}
 
@@ -115,4 +115,4 @@ If you have a strong business case for keeping a specific data provider, please 
 
 ### When will the changes take effect?
 
-Data providers selected for removal will be removed at the end of July 2025.
+Data providers selected for removal will be removed during August 2025.
