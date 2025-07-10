@@ -51,7 +51,6 @@ The data providers listed below will be marked as **[!UICONTROL suspended]** in 
 * Mobilewalla
 * Navegg
 * Netwise
-* Onaudience
 * PeopleFinders
 * Plunge Digital
 * Resonate
