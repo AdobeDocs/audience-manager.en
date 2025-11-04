@@ -17,6 +17,7 @@ You need the [[!DNL Audience Manager source connector]](https://experienceleague
 You can use Audience Manager traits and segments in Experience Platform to add Audience Manager data to your customer profiles and to benefit from the Experience Platform [segmentation service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en). 
 
 In Audience Manager, you can use Experience Platform segments for Data Management Platform use cases, such as:
+
 * Add [third party data](/help/using/overview/data-types-collected.md#third-party-data) to your segments;
 * [Algorithmic modeling](/help/using/features/algorithmic-models/understanding-models.md);
 * Activate your segments to destinations that are not yet supported in the Experience Platform [destinations catalog](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/destinations/destinations-cat/destinations-catalog.html).

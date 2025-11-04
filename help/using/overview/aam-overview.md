@@ -36,6 +36,7 @@ Activates audience segments by pushing them out to demand-side platforms (DSPs),
 ## More Information {#more-information}
 
 See the following resources for more information:
+
 * [Audience Manager overview](https://www.adobe.com/analytics/audience-manager.html)
 * [Audience Manager benefits](https://www.adobe.com/analytics/audience-manager/benefits.html)
 * [Audience Manager features](https://www.adobe.com/analytics/audience-manager/features.html)

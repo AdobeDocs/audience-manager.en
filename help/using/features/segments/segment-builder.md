@@ -104,7 +104,7 @@ In [!UICONTROL Segment Builder], [!UICONTROL the Basic Information] settings let
 -->
 
 |Field | Description|
----------|----------
+|---------|----------|
 |**[!UICONTROL Name]** | Give the segment a short, logical name that describes its function or purpose. Avoid abbreviations and special characters. The maximum length of a segment name is 255 characters. |
 |**[!UICONTROL Description]** | A field for additional descriptive information about the segment. |
 |**[!UICONTROL Integration Code]** | A field for a user-defined ID or other company-specific information. |

@@ -199,7 +199,7 @@ feature-set: Audience Manager
             + [Segment to Ad Unit Overlap](reporting/audience-optimization-reports/aor-publishers/publisher-segment-ad-unit-overlap.md)
             + [Unique User Reach](reporting/audience-optimization-reports/aor-publishers/publisher-unique-reach.md)
         + Data and Metadata Files for Audience Optimization Reports and Actionable Log Files {#data-and-metadata-files}
-            + [ Log Data and Metadata Files](reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
+            + [Log Data and Metadata Files](reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
             + [Data Files for Audience Optimization Reports and Actionable Log Files](reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
             + [Overview and Mappings for Metadata Files](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)
             + [Naming Conventions for Metadata Files](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)
@@ -404,7 +404,7 @@ feature-set: Audience Manager
     + [Contact and Legal Information](/help/using/help-legal/help-legal-contact.md)
 + Top Customer Support Issues{#top-support-issues}
     + [Overview](/help/using/support-issues/support-issues-overview.md)
-    + [Why did my Onboarded trait populations drop to 0 around October 15th? ](/help/using/support-issues/why-did-my-onboarded-trait-populations-drop-to-0-around-october.md)
+    + [Why did my Onboarded trait populations drop to 0 around October 15th?](/help/using/support-issues/why-did-my-onboarded-trait-populations-drop-to-0-around-october.md)
     + [Why do my traits or segments not show up in the Overlap Reports page?](/help/using/support-issues/why-do-my-traits-or-segments-not-show-up-in-the-overlap-reports.md)
     + [Why are our Read-Only users able to create, edit or delete traits and segments?](/help/using/support-issues/aam-read-only-users-create-delete-traits-segments.md)
     + [We are not an Audience Manager customer, but see the Audience Manager Javascript calls on our site](/help/using/support-issues/not-using-aam-but-seeing-aam-javascript.md)
