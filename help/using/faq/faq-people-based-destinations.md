@@ -28,7 +28,7 @@ There are two ways you can bring your offline data to Audience Manager for [!DNL
 
 **Can I collect hashed email addresses through a web form or mobile app or do they have to come through on a batch file?**
 
-You can collect hashed email addresses through web authentication using [!DNL ECID] with [Declared IDs](../features/declared-ids.md). The batch file allows you to also collect hashed email addresses that can’t be sent through authentication (e.g. dormant users in your ([!DNL CRM]) and activate them in people-based destinations.
+You can collect hashed email addresses through web authentication using [!DNL ECID] with [Declared IDs](../features/declared-ids.md). The batch file allows you to also collect hashed email addresses that can't be sent through authentication (e.g. dormant users in your ([!DNL CRM]) and activate them in people-based destinations.
 
 **How is ingesting hashed email addresses via web forms different from uploading hashed email addresses via batch files?**
 
@@ -54,6 +54,7 @@ Yes. Customers who purchase [!DNL People-Based Destinations] are also granted ac
 It depends on your use case. If you plan on activating existing first-party segments in people-based channels, you don't need to create new segments. You can just map the segments to a people-based destination.
 
 If you plan on activating new offline audiences in people-based channels, you need to create new first-party segments using the [!DNL All Cross-Device Profiles] merge rule.
+
 >[!NOTE]
 >
 > You can only map segments with first-party data to [!DNL People-Based Destinations]. Our destination platforms do not accept segments with second- and third-party data.
@@ -66,7 +67,7 @@ No. When sending audience segments to [!DNL People-Based Destinations], audience
 
 **How would match rates using [!DNL People-Based Destinations] theoretically compare to other methods of sending audiences to destination platforms?**
 
-As long as the email address is hashed and ingested correctly, there should be no difference in the match rate between [!DNL People-Based Destinations] and other methods. The only reason a match rate would be below 100% is if the email addresses brought into Audience Manager cannot be matched with an email address in the destination platform’s user base.
+As long as the email address is hashed and ingested correctly, there should be no difference in the match rate between [!DNL People-Based Destinations] and other methods. The only reason a match rate would be below 100% is if the email addresses brought into Audience Manager cannot be matched with an email address in the destination platform's user base.
 
 **I collect work email addresses from my customers, which are different from the personal email addresses used in social networks. How do you match identities across multiple email addresses?**
 
@@ -100,13 +101,13 @@ Before you can use [!DNL People-Based Destinations] to send audience segments to
 
 **Do [!DNL People-Based Destinations] support audience targeting in other [!DNL Facebook] apps, such as [!DNL Instagram]?**
 
-You can use [!DNL People-Based Destinations] across [!DNL Facebook]’s family of apps that are supported by [!DNL Custom Audiences], including [!DNL Facebook], [!DNL Instagram], [!DNL Audience Network] and [!DNL Messenger]. Selection of the app that you want to run campaign against is indicated at the placement level in [!DNL Facebook Ads Manager].
+You can use [!DNL People-Based Destinations] across [!DNL Facebook]'s family of apps that are supported by [!DNL Custom Audiences], including [!DNL Facebook], [!DNL Instagram], [!DNL Audience Network] and [!DNL Messenger]. Selection of the app that you want to run campaign against is indicated at the placement level in [!DNL Facebook Ads Manager].
 
-**What’s the difference between [!DNL People-Based Destinations] and [!DNL Website Custom Audiences]?**
+**What's the difference between [!DNL People-Based Destinations] and [!DNL Website Custom Audiences]?**
 
 [!DNL People-Based Destinations] leverages the [!DNL Custom Audiences (CA)] integration with [!DNL Facebook]. The difference between [!DNL WCA] and [!DNL CA] integrations is the key that customers use when sending audiences to [!DNL Facebook]. [!DNL WCA] uses the [!DNL Facebook] pixel (which would be a website user ID) while [!DNL People-Based Destinations] use hashed email addresses to integrate with [!DNL CA].
 
-You can use Audience Manager’s [!DNL Facebook] [!DNL WCA] integration via the [!DNL URL Destinations] feature at no extra cost.
+You can use Audience Manager's [!DNL Facebook] [!DNL WCA] integration via the [!DNL URL Destinations] feature at no extra cost.
 
 These two integrations are complementary; you can use both to ensure better audience coverage. As an example, [!DNL WCA] can be used for prospecting when a company is looking to target website visitors who have not registered an account, whereas [!DNL People-Based Destinations] can help you target existing customers who have supplied their email address but maybe not visited the website.
 

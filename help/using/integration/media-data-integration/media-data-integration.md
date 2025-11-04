@@ -21,5 +21,5 @@ You can capture data from media campaigns using pixel calls to Audience Manager 
 To set up log ingestion, read the following articles:
 
 * [Import Google Campaign Manager Data Files Into Audience Manager](/help/using/reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
-* [Import Google Ad Manager Data Files Into Audience Manager ](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
+* [Import Google Ad Manager Data Files Into Audience Manager](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
 * [Log Data and Metadata Files](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) to set up log ingestion for generic log files

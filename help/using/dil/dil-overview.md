@@ -55,6 +55,7 @@ Rather than work with [!UICONTROL DIL] and set up [!DNL Audience Manager] manual
 |Body|As shown in sample below,  DIL passes data as key-value pairs. Special prefix characters identify the key-value pairs as Audience Manager or partner variables.<br>`d_dst=1`<br>`d_jsonv=1`<br>`d_ld=_ts=1473693143821`<br>`d_mid=54192285857942994142875423154873503351`<br>`d_nsid=0`<br>`d_rtbd=json`<br>|
 
 See also:
+
 * [Prefix Requirements for Key Variables](../features/traits/trait-variable-prefixes.md)
 * [Supported Attributes for DCS API Calls](../api/dcs-intro/dcs-api-reference/dcs-keys.md)
   

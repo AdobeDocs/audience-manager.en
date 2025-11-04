@@ -36,11 +36,13 @@ Your visitors qualify for the segment as long as they have not converted. As soo
 You can make sure you are not flooding your users with the same creative by setting recency and frequency controls. In this scenario, create a segment with two traits, as outlined in the steps below.
 
 1. Create a segment using two traits, and use the [!UICONTROL AND] logic, as shown in the image below. You must use a rule-based trait to define the impression event for the unsegment to be triggered in real-time. Read more about how to [create rule-based traits](../traits/create-onboarded-rule-based-traits.md).
+
    >[!NOTE]
    >
    >You can use [!UICONTROL Actionable Log Files] or [!UICONTROL Pixel Calls] to create traits based on user impressions. Read more about [Actionable Log Files](../../integration/media-data-integration/actionable-log-files.md) and [Pixel Calls](../../integration/media-data-integration/impression-data-pixels.md).
-2. Apply frequency controls to the second trait. If you wish, you can add recency controls, as well. Read more about [how to apply recency and frequency controls](../segments/recency-and-frequency.md).
-3. Map the segment to any number of real-time server-to-server destinations. Read on about how to add segments to [server-to-server destinations](../destinations/add-edit-segments.md).
+
+1. Apply frequency controls to the second trait. If you wish, you can add recency controls, as well. Read more about [how to apply recency and frequency controls](../segments/recency-and-frequency.md).
+1. Map the segment to any number of real-time server-to-server destinations. Read on about how to add segments to [server-to-server destinations](../destinations/add-edit-segments.md).
 
 In this scenario, once your users have accumulated more than three impressions, they will be removed from this segment and will not see this particular creative anymore.
 

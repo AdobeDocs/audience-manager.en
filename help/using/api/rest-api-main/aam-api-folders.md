@@ -17,5 +17,6 @@ Methods that let you work programmatically with trait and segment folders. Folde
 >[!IMPORTANT]
 >
 >The folder [!DNL API] methods have been rewritten with [!DNL Swagger] and migrated. See:  >
+>
 >* [Adobe Audience Manager API Docs](https://bank.demdex.com/portal/swagger/index.html) 
 >* [Audience Manager API Code Migration](../../api/api-swagger-migration.md)

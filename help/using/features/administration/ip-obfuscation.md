@@ -56,4 +56,5 @@ To disable IP address obfuscation for specific countries, find the countries in 
 
 * [Data Privacy](/help/using/overview/data-security-and-privacy/data-privacy.md) 
 * IP Address Obfuscation Video Demonstration
+
 >[!VIDEO](https://video.tv.adobe.com/v/27218/)

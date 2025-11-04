@@ -46,7 +46,9 @@ Here's how to add email addresses to existing integrations:
 When an authentication token expires, the integration between Audience Manager and the corresponding social platform is interrupted, so Audience Manager cannot send audience segments to the destination anymore. The [!UICONTROL Integrated Accounts] page shows you the expiration status of each integration in the [!UICONTROL Expiration] column, and allows you to renew the authentication at any time.
 
 Here's how to renew an expired or about-to-expire authentication:
+
 1. Log in to your Audience Manager account and go to **[!UICONTROL Administration]** > **[!UICONTROL Integrated Accounts]**.
 1. Identify the integration that you need to renew authentication for. Expired authentications are marked as [!UICONTROL Expired], while authentications that are about to expire soon show the remaining number of authenticated days.
 1. Click the corresponding **[!UICONTROL Renew]** icon in the [!UICONTROL Expiration] column. This triggers the **[!UICONTROL Renew Account]** workflow, which takes you back through the social platform's authentication page. Once you authenticate, the token is renewed with the new expiration date.
+
    ![pbd-renew](assets/pbd-renew.png)

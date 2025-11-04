@@ -45,10 +45,12 @@ See DPUUID in the [Index of IDs in Audience Manager](../reference/ids-in-aam.md)
 **Customer Addressable Audience**
 
 In [Addressable Audience](/help/using/features/addressable-audiences.md), this metric represents devices that:
-* Have realized either a rule-based or an onboarded trait during the look-back window 
-  **AND**
-* Have an ID sync with the chosen destination regardless of the time of syncs.
 
+* Have realized either a rule-based or an onboarded trait during the look-back window 
+
+  **AND**
+
+* Have an ID sync with the chosen destination regardless of the time of syncs.
 
 
 **Customer Attributes**
