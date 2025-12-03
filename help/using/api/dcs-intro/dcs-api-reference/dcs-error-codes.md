@@ -207,7 +207,6 @@ In the tables below, *italics* represents a variable placeholder.
    <td colname="col3"> <p>When no consent is provided, the Audience Manager Plug-in for IAB TCF opts the user out of further data collection, or drops the call completely if there is no partner context detected.</p>
    </td>
   </tr>
-
  </tbody>
 </table>
 
