@@ -123,92 +123,22 @@ In the tables below, *italics* represents a variable placeholder.
 
 ## Integration Warning Codes {#integration-warning-codes}
 
-<table id="table_31F1593C46804DDBA2E9BEDE83F2417F"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Code ID </th> 
-   <th colname="col2" class="entry"> Message </th> 
-   <th colname="col3" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>300 </p> </td> 
-   <td colname="col2"> <p>Invalid customer id <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>The customer ID is invalid (missing values for data source, missing integration codes, invalid format for data sources, blocked customer ID, blank customer ID, unauthorized access attempt to a data source that does not belong to the partner). </p> </td>
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>301 </p> </td> 
-   <td colname="col2"> <p>Maximum number of customer ids exceeded. Maximum allowed is <code><i>maximum allowed</i></code>. Found is <code><i>maximum found</i></code>.</p> </td> 
-   <td colname="col3"> <p>The number of customer IDs associated with a cross-device data source exceed the allowed number of cross-device IDs per request. These IDs include cross device, mobile, or cookie IDs. The limit is currently set to 10. </p> </td>
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>302 </p> </td> 
-   <td colname="col2"> <p>Unauthorized customer id <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Returned when the customer ID data source is not owned by the current Organization ID. If you do not know or have your Organization ID, see the "Find your Organization ID" section in <a href="https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html" format="https" scope="external"> Organizations and Account Linking</a> for information about how to find it. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>303 </p> </td> 
-   <td colname="col2"> <p>Blocked customer id <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Returned when the customer ID has been identified as malicious and has been added to a denylist. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>304 </p> </td> 
-   <td colname="col2"> <p>Blocked datasource id <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Returned when the data source ID has been identified as malicious and has been added to a denylist </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>306 </p> </td> 
-   <td colname="col2"> <p>Blocked declared device id <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>The device ID has been identified as malicious and has been added to a denylist This can happen when we receive an extreme amount of <span class="wintitle"> DCS</span> requests containing this device ID in a short amount of time. </p> </td>
-  </tr>
-  <tr> 
-   <td colname="col1"> <p>307 </p> </td> 
-   <td colname="col2"> <p>Blocked profile operation for <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>A read/write action has been blocked because an ID has been identified as malicious and has been added to a denylist See error code 306. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>309 </p> </td> 
-   <td colname="col2"> <p>Customer id <code><i>ID</i></code> was discarded because it exceeded the limit of declared customer ids per request </p> </td> 
-   <td colname="col3"> <p>Related to error 301. This error specifies which customer ID was discarded because the limit was exceeded. </p> <p>For example, If there are 12 customer IDs declared on the <span class="wintitle"> DCS</span> call, two of them will be discarded. In order to relay which ones were discarded, this error will appear twice in the response (once for each of discarded customer ID ). </p> </td>
-  </tr>
-  <tr> 
-   <td colname="col1"> <p>310 </p> </td> 
-   <td colname="col2"> <p>Customer id was discarded because it exceeded the limit for a given namespace. Namespace id is <code><i>ID</i></code>, customer id is <code><i>ID</i></code>. </p> </td> 
-   <td colname="col3"> <p>This error code is returned if there are more than 3 customer IDs declared for the same namespace (<code> DPID</code>) on a <span class="wintitle"> DCS</span> call. </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one </code> </p> <p>In this sample <span class="wintitle"> DCS</span> request, there are 4 ids declared for the same namespace (with the integration code one). One of the IDs is discarded and error 310 is returned. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>311 </p> </td> 
-   <td colname="col2"> <p>Request contains invalid parameters </p> </td> 
-   <td colname="col3"> <p>The <span class="wintitle"> DCS</span> returns this error code when at least one URL parameter is not properly encoded. In this case, the <span class="wintitle"> DCS</span> disregards the entire request. </p> <p><code>http(s)://partner.demdex.net/event?d_event=imp&amp;d_rtbd=json&amp;d_src=38454&amp;d_site=%esid!&amp;d_creative=%ecid!&amp;d_adgroup=%eaid!&amp;d_placement=%epid!&amp;d_campaign=%ebuy!&amp;d_adsrc=48123</code> </p> <p>In the sample request above, the <code> %</code> sequence is incorrectly encoded. Consequently, the <span class="wintitle"> DCS</span> will disregard it. </p> <p>The correctly encoded sample should look like this: </p> <p><code>http(s)://partner.demdex.net/event?d_event=imp&amp;d_rtbd=json&amp;d_src=38454&amp;d_site=%25esid!&amp;d_creative=%25ecid!&amp;d_adgroup=%25eaid!&amp;d_placement=%25epid!&amp;d_campaign=%25ebuy!&amp;d_adsrc=48123</code> </p> </td> 
-  </tr>
-  <tr> 
-   <td colname="col1"> <p>312 </p> </td> 
-   <td colname="col2"> <p>Request contains an invalid Global Device ID </p> </td> 
-   <td colname="col3"> <p>The <span class="wintitle">DCS</span> returns this error code when  the request contains an invalid Global Device ID. DCS ignores the invalid ID and throws a 312 error along with the specific errors of the invalid ID. Refer to <a href="../../../features/global-data-sources.md" format="dita" scope="local">Global Data Sources</a> and <a href="../../../reference/ids-in-aam.md" format="dita" scope="local">Index of IDs in Audience Manager</a> for detailed information on the correct device advertising ID formats and corresponding global data sources.</p>
-   <p>Example of an incorrect call: <code>"http://partner.demdex.net/event?d_rtbd=json&amp;d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"</code></p>
-   <p>Explanation: An <span class="keyword">IDFA (DPID 20915)</span> must be an uppercase ID. The ID provided in the request is lowercase.</p>
-   </td>
-  </tr>
-   <tr> 
-   <td colname="col1"> <p>313 </p> </td> 
-   <td colname="col2"> <p>CMP ID is not present in GCL</p> </td> 
-   <td colname="col3"> <p>When <code>gdpr=1</code> and the IAB TC string is generated by a CMP ID that is not present in Audience Manager's cached version of the Global CMP List at the moment of evaluation, the Audience Manager Plug-in for IAB TCF discards the IAB TC string and process the request as usual. The IAB TCF v2.2 ${GDPR} macro is set to 0 and the ${GDPR_CONSENT_XXX} macro is empty.</p>
-   </td>
-  </tr>
-   <tr> 
-   <td colname="col1"> <p>314 </p> </td> 
-   <td colname="col2"> <p>CMP ID is marked as deleted in GCL</p> </td> 
-   <td colname="col3"> <p>When <code>gdpr=1</code> and the IAB TC string is generated by a CMP that is marked as deleted in our cached version of the  Global CMP List, the Audience Manager Plug-in for IAB TCF discards the TC string and processes the request as usual, if the evaluation time is past the deletion time from the Global CMP List. The IAB TCF v2.2 ${GDPR} macro is set to 0 and the ${GDPR_CONSENT_XXX} macro is empty.</p></td>
-  </tr>
-   <tr> 
-   <td colname="col1"> <p>315 </p> </td> 
-   <td colname="col2"> <p>Consent string indicates no consent</p> </td> 
-   <td colname="col3"> <p>When no consent is provided, the Audience Manager Plug-in for IAB TCF opts the user out of further data collection, or drops the call completely if there is no partner context detected.</p>
-   </td>
-  </tr>
- </tbody>
-</table>
+| Code ID | Message | Description |
+| --- | --- | --- |
+| 300 | Invalid customer id `_ID_` | The customer ID is invalid (missing values for data source, missing integration codes, invalid format for data sources, blocked customer ID, blank customer ID, unauthorized access attempt to a data source that does not belong to the partner). |
+| 301 | Maximum number of customer ids exceeded. Maximum allowed is `_maximum allowed_`. Found is `_maximum found_`. | The number of customer IDs associated with a cross-device data source exceed the allowed number of cross-device IDs per request. These IDs include cross device, mobile, or cookie IDs. The limit is currently set to 10. |
+| 302 | Unauthorized customer id `_ID_` | Returned when the customer ID data source is not owned by the current Organization ID. If you do not know or have your Organization ID, see the "Find your Organization ID" section in [Organizations and Account Linking](https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html) for information about how to find it. |
+| 303 | Blocked customer id `_ID_` | Returned when the customer ID has been identified as malicious and has been added to a denylist. |
+| 304 | Blocked datasource id `_ID_` | Returned when the data source ID has been identified as malicious and has been added to a denylist |
+| 306 | Blocked declared device id `_ID_` | The device ID has been identified as malicious and has been added to a denylist This can happen when we receive an extreme amount of DCS requests containing this device ID in a short amount of time. |
+| 307 | Blocked profile operation for `_ID_` | A read/write action has been blocked because an ID has been identified as malicious and has been added to a denylist See error code 306. |
+| 309 | Customer id `_ID_` was discarded because it exceeded the limit of declared customer ids per request | Related to error 301. This error specifies which customer ID was discarded because the limit was exceeded.<br><br>For example, If there are 12 customer IDs declared on the DCS call, two of them will be discarded. In order to relay which ones were discarded, this error will appear twice in the response (once for each of discarded customer ID ). |
+| 310 | Customer id was discarded because it exceeded the limit for a given namespace. Namespace id is `_ID_`, customer id is `_ID_`. | This error code is returned if there are more than 3 customer IDs declared for the same namespace ( `DPID`) on a DCS call.<br><br>`https://partner.demdex.net/event?d_rtbd=json&d_cid_ic=one&d_cid_ic=one&d_cid_ic=one&d_cid_ic=one`<br><br>In this sample DCS request, there are 4 ids declared for the same namespace (with the integration code one). One of the IDs is discarded and error 310 is returned. |
+| 311 | Request contains invalid parameters | The DCS returns this error code when at least one URL parameter is not properly encoded. In this case, the DCS disregards the entire request.<br><br>`http(s)://partner.demdex.net/event?d_event=imp&d_rtbd=json&d_src=38454&d_site=%esid!&d_creative=%ecid!&d_adgroup=%eaid!&d_placement=%epid!&d_campaign=%ebuy!&d_adsrc=48123`<br><br>In the sample request above, the `%` sequence is incorrectly encoded. Consequently, the DCS will disregard it.<br><br>The correctly encoded sample should look like this:<br><br>`http(s)://partner.demdex.net/event?d_event=imp&d_rtbd=json&d_src=38454&d_site=%25esid!&d_creative=%25ecid!&d_adgroup=%25eaid!&d_placement=%25epid!&d_campaign=%25ebuy!&d_adsrc=48123` |
+| 312 | Request contains an invalid Global Device ID | The DCS returns this error code when the request contains an invalid Global Device ID. DCS ignores the invalid ID and throws a 312 error along with the specific errors of the invalid ID. Refer to [Global Data Sources](../../../features/global-data-sources.md) and [Index of IDs in Audience Manager](../../../reference/ids-in-aam.md) for detailed information on the correct device advertising ID formats and corresponding global data sources.<br><br>Example of an incorrect call: `"http://partner.demdex.net/event?d_rtbd=json&d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"`<br><br>Explanation: An IDFA (DPID 20915) must be an uppercase ID. The ID provided in the request is lowercase. |
+| 313 | CMP ID is not present in GCL | When `gdpr=1` and the IAB TC string is generated by a CMP ID that is not present in Audience Manager's cached version of the Global CMP List at the moment of evaluation, the Audience Manager Plug-in for IAB TCF discards the IAB TC string and process the request as usual. The IAB TCF v2.2 ${GDPR} macro is set to 0 and the ${GDPR\_CONSENT\_XXX} macro is empty. |
+| 314 | CMP ID is marked as deleted in GCL | When `gdpr=1` and the IAB TC string is generated by a CMP that is marked as deleted in our cached version of the Global CMP List, the Audience Manager Plug-in for IAB TCF discards the TC string and processes the request as usual, if the evaluation time is past the deletion time from the Global CMP List. The IAB TCF v2.2 ${GDPR} macro is set to 0 and the ${GDPR\_CONSENT\_XXX} macro is empty. |
+| 315 | Consent string indicates no consent | When no consent is provided, the Audience Manager Plug-in for IAB TCF opts the user out of further data collection, or drops the call completely if there is no partner context detected. |
 
 ## Sample Error Code Messages {#sample-error-codes}
 
