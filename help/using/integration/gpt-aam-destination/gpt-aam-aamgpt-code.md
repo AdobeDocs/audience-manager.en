@@ -7,6 +7,16 @@ title: Audience Manager Code for Google Publisher Tags
 uuid: 24ff5d16-b360-46cc-a4c6-6db34d7fda75
 feature: Third-party Integration
 exl-id: 04e74399-7b6a-400e-a1e6-94fe296e7209
+TQID: https://experienceleague.adobe.com/1BiKlAQNtW4-iyx6BT7z1eauizU2TMIVCSS9Z5T9iH8
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 ---
 # Audience Manager Code for Google Publisher Tags {#audience-manager-code-for-google-publisher-tags}
 

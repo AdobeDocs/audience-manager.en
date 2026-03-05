@@ -7,6 +7,13 @@ title: CID Replaces DPID and DPUUID
 uuid: 3641eac5-b19e-45d5-bc1c-35a23b4bab8c
 feature: Reference
 exl-id: 18e6b1db-fe51-4560-9458-8d65474d2506
+TQID: https://experienceleague.adobe.com/GvsmsrGtq3Y8XRzioO4wcd6VrIPDKiMybP4vEYUGx9Q
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # CID Replaces DPID and DPUUID{#cid-replaces-dpid-and-dpuuid}
 

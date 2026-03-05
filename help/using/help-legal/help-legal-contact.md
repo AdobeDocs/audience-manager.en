@@ -6,6 +6,13 @@ solution: Audience Manager
 title: Contact and Legal Information
 feature: Support
 exl-id: 02c80394-c5ed-4963-8543-4585c0c289c6
+TQID: https://experienceleague.adobe.com/HpTQDl5UkJ1KoyqBYUIZe4zphM9Y5NgGoSii1zNWIpw
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 ---
 # Contact and Legal Information {#legal-contact}
 

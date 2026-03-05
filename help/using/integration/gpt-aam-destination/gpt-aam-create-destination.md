@@ -7,6 +7,21 @@ title: Create a GPT Destination
 uuid: e3bbf327-a7e0-48da-bc84-8f531b7f6750
 feature: Third-party Integration
 exl-id: 26373826-de06-49e5-82fd-bb6588a73fb9
+TQID: https://experienceleague.adobe.com/v24OVLvNGPvqASZ4CPh2xbBgVcXZNCitCBM76nUXRsE
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+subfeature_v2:
+  - id: e7029888-c8b0-46a7-849a-cf132a1559bf
+    internal-label: Destination Builder
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 ---
 # Create a GPT Destination {#create-a-gpt-destination}
 

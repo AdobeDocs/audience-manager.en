@@ -8,6 +8,13 @@ title: Key-Value Pairs Explained
 uuid: f1435742-81ca-4964-8370-accf2f1c47a5
 feature: Reference
 exl-id: de4e6fdb-2d6d-4fed-9255-9438b42b2570
+TQID: https://experienceleague.adobe.com/6rXUarJT3GqTxNw6NuwivkSai1Rpf63sILAJ7oPJdXg
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
 ---
 # Key-Value Pairs Explained{#key-value-pairs-explained}
 

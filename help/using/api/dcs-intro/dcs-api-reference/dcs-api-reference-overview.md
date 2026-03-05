@@ -5,6 +5,19 @@ seo-title: DCS API Reference Overview in Adobe Audience Manager (AAM)
 title: DCS API Reference Overview
 feature: DCS
 exl-id: 84d20041-0b98-4ba5-ba97-29c35f088ad9
+TQID: https://experienceleague.adobe.com/e7W6fcETh4YArPa0k2hn11GMYgFjSU4AxALe92a7DhE
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
+subfeature_v2:
+  - id: d8f681b8-67cc-42dc-85c5-a0977528a942
+    internal-label: Data Collection Server
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
 ---
 # DCS API Reference Overview
 

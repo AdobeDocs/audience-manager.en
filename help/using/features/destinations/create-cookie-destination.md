@@ -6,6 +6,18 @@ solution: Audience Manager
 title: Configure a Cookie Destination
 feature: Destination Basics
 exl-id: 32b8de66-e12d-48ec-82cf-9b0d335ae834
+TQID: https://experienceleague.adobe.com/NelSsN2oH-jL166POOWAyx-HNPZgverTgKq4NhBBdzE
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+subfeature_v2:
+  - id: c138d302-73f0-4186-93ea-10c4ba52f943
+    internal-label: Destination basics
+  - id: e7029888-c8b0-46a7-849a-cf132a1559bf
+    internal-label: Destination Builder
 ---
 # Configure a Cookie Destination {#create-cookie-destination}
 

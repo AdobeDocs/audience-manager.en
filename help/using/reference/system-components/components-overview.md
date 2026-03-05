@@ -6,6 +6,13 @@ title: System Components Overview
 uuid: cd0e51a3-38c3-4e3f-9bf1-938de2c71156
 feature: System Components
 exl-id: b128cae4-8a11-4fad-95f8-4fe6222bb95e
+TQID: https://experienceleague.adobe.com/Lf-enfWmD0bO-oeLy9uii9hCwal5Zi2M0dmR9AUc2-o
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
 ---
 # System Components Overview{#system-components-overview}
 

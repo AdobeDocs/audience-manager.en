@@ -6,6 +6,10 @@ title: Supported Logical Operators
 uuid: 645fcb6f-50ac-49bc-8df9-c699c749cf8f
 feature: Data Explorer
 exl-id: 5e405390-1c19-4e43-b3f9-598e8aa6bd99
+TQID: https://experienceleague.adobe.com/m9daAh4HRSx5zwBX-ByQU0dLVy-KOt3RMrdjGvFqsMU
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 ---
 # Supported Logical Operators {#supported-logical-operators}
 

@@ -7,6 +7,13 @@ title: Accuracy and Reach
 uuid: d121e099-6642-4003-ad4f-507d21e478d8
 feature: Traits
 exl-id: 647b283a-fcfa-4e3f-8667-50c6aacbc78a
+TQID: https://experienceleague.adobe.com/EBd69CXQbzvMDT-VjZqeZ1Y30LtP4QdkWlmTcCmWax8
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+topic_v2:
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+    internal-label: Taxonomy
 ---
 # Accuracy and Reach {#accuracy-and-reach}
 

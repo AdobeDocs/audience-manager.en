@@ -7,6 +7,13 @@ title: Report Technology
 uuid: 5f3d815b-e1e6-42f2-b848-ac035a5aa77d
 feature: Overlap Reports
 exl-id: 59d875d6-a630-4795-93a7-1d432860f0a1
+TQID: https://experienceleague.adobe.com/AnXMLgoOd56zHBO0aK3KehN6xS2upcKiAzNKmEj7I-0
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # Report Technology{#report-technology}
 

@@ -7,6 +7,10 @@ title: Traits Dashboard
 uuid: 31b8f958-f67d-4af2-8d78-e37e2dfe810d
 feature: Traits
 exl-id: 752781af-aa67-4978-bd7f-95739dbfcddc
+TQID: https://experienceleague.adobe.com/7UCWuPOTsfjfST-lDJRU8uQAMPhwOLt2XM2amuZ-tW8
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 ---
 # Traits Dashboard {#traits-dashboard}
 

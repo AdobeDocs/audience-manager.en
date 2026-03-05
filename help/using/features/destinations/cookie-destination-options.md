@@ -6,6 +6,18 @@ solution: Audience Manager
 title: Optional Settings for Cookie Destinations
 feature: Destination Basics
 exl-id: b44f386e-4d43-41c3-b8ce-88b83d5d83c2
+TQID: https://experienceleague.adobe.com/QLuZ0uRV6loF1RNeoBA0xcdj6NwYIE-ngKC-zQF6jBM
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+subfeature_v2:
+  - id: c138d302-73f0-4186-93ea-10c4ba52f943
+    internal-label: Destination basics
+  - id: e7029888-c8b0-46a7-849a-cf132a1559bf
+    internal-label: Destination Builder
 ---
 # Optional Settings for Cookie Destinations {#optional-settings-cookies}
 

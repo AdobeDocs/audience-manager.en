@@ -7,6 +7,16 @@ title: DCS Region IDs, Locations, and Host Names
 uuid: ad150ffe-4583-472b-ac8b-fb900a7966e4
 feature: DCS
 exl-id: 9b12946c-89f1-4f6f-adb9-961e15a0b816
+TQID: https://experienceleague.adobe.com/1oK9TLEwbGO-6r9Hempmz8Al6AIYVFkdpKB-ya2UBWw
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
+subfeature_v2:
+  - id: d8f681b8-67cc-42dc-85c5-a0977528a942
+    internal-label: Data Collection Server
 ---
 # DCS Region IDs, Locations, and Host Names {#dcs-region-ids-locations-and-host-names}
 

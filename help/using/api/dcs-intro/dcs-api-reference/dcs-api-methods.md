@@ -7,6 +7,10 @@ title: DCS API Methods
 uuid: 6e407458-11d4-4342-a84a-512afa5fc183
 feature: DCS
 exl-id: 258994e1-6b15-4ae1-9e1f-c6e0685350c1
+TQID: https://experienceleague.adobe.com/dERIW4EM4-oMg8p33N2dtDy5BBw3jF1BCQJstW2cZTY
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 ---
 # [!DNL DCS] [!DNL API] Methods {#dcs-api-methods}
 

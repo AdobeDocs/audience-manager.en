@@ -7,6 +7,20 @@ title: Receive Data From the DCS
 uuid: fbb77197-8530-48a8-b708-d785f7214494
 feature: DCS
 exl-id: c6a87e5a-63cc-44d7-b6f0-ac8ee845fd00
+TQID: https://experienceleague.adobe.com/ka7bfv02tL4ZjX09D2gO6CW4u2VAGLwKl1c3BX2LTJE
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+subfeature_v2:
+  - id: d8f681b8-67cc-42dc-85c5-a0977528a942
+    internal-label: Data Collection Server
 ---
 # Receive Data From the DCS {#receive-data-from-the-dcs}
 

@@ -7,6 +7,23 @@ title: Password Requirements, Locked Accounts, and Forgotten Passwords
 uuid: bca892eb-3577-4382-8110-131f78d23069
 feature: Reference
 exl-id: beeb65e3-b715-49a8-b14b-ce3fff96a5cd
+TQID: https://experienceleague.adobe.com/zc1W-k6Ttlacqnoeqou-lW0A2X5mq0i0ZK2tHovFWoI
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+subfeature_v2:
+  - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 ---
 # Password Requirements, Locked Accounts, and Forgotten Passwords{#password-requirements-locked-accounts-and-forgotten-passwords}
 

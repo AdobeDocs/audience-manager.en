@@ -7,6 +7,15 @@ title: Trend Analysis and Volume Analysis Reports
 uuid: 5d124d80-5f54-4970-92cd-2c8eba42efca
 feature: Audience Optimization Reports
 exl-id: f8e6c7a4-c4f8-465f-a32c-681a07e6e6f5
+TQID: https://experienceleague.adobe.com/Zf9sEDyjdYOQbb3fterC5AIJcWXsrfhG0fHlvFM3XAk
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
 ---
 # [!UICONTROL Trend Analysis] and [!UICONTROL Volume Analysis] Reports{#trend-analysis-and-volume-analysis-reports}
 

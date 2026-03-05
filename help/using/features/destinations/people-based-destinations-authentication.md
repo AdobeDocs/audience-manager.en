@@ -1,13 +1,32 @@
 ---
-description: This page contains guidance on how to configure and manage the integration between Audience Manager and people-based platforms. 
-seo-description: This page contains guidance on how to configure and manage the integration between Audience Manager and people-based platforms. 
+description: This page contains guidance on how to configure and manage the integration between Audience Manager and people-based platforms.
+seo-description: This page contains guidance on how to configure and manage the integration between Audience Manager and people-based platforms.
 seo-title: Authentication with People-Based Platforms
 solution: Audience Manager
 title: Authentication with People-Based Platforms
 feature: People-based Destinations
 exl-id: d3e136d0-2b06-412a-9b9b-75b661c9aa14
+TQID: https://experienceleague.adobe.com/CRnaV6c1GMdvbnssHoLDJO4H7V79mhg1kYvwMDE-w0c
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
-
 # Authentication with People-Based Platforms {#authentication-with-people-based-platforms}
 
 >[!IMPORTANT]

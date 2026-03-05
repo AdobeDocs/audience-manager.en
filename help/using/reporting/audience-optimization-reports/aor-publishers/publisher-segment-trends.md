@@ -7,6 +7,17 @@ title: Segment Trend Report
 uuid: f84e8d0a-74e5-430c-b61c-efb696faee93
 feature: Audience Optimization Reports
 exl-id: 1fdca05a-b661-4875-88d7-b0893e2ca08f
+TQID: https://experienceleague.adobe.com/EUu52qZvB-oRsIunk-ZNXxgRfdYFUmamyQ-Yk1lG-4Q
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
 ---
 # Segment Trend Report{#segment-trend-report}
 

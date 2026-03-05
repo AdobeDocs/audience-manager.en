@@ -7,6 +7,16 @@ title: Data Action Components
 uuid: c4c4cc46-8c96-4ef5-8269-571cc5ac9276
 feature: System Components
 exl-id: 8065c19f-1930-4164-a952-1686aa5cb622
+TQID: https://experienceleague.adobe.com/LVKtT4nllMAY2JbRXknJV-fwluR-e9huiFLlU38H4Kc
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
 ---
 # Data Action Components{#data-action-components}
 

@@ -7,6 +7,20 @@ title: Types of Data Collected
 uuid: a2ddf470-32e6-41ec-a1d7-a6232ef084b9
 feature: Overview
 exl-id: cfb587da-ceac-425f-8334-e961eba6fad2
+TQID: https://experienceleague.adobe.com/nMjHSXnwJX9rLBsK4rlpA93XZlxsofDFYlRFHREAzCE
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+    internal-label: Taxonomy
 ---
 # Types of Data Collected {#types-of-data-collected}
 

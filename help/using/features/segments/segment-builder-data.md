@@ -7,6 +7,10 @@ title: Trait and Segment Population Data in Segment Builder
 uuid: e1e59c0a-b4c7-4cad-8485-3667e0a95e83
 feature: Segments
 exl-id: f8953d10-8a31-4c07-8d96-169c30a21de0
+TQID: https://experienceleague.adobe.com/9bf6q4yHF0oc-zIE8EErKrtekTTJUV4DSlQwnKNEB4M
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 ---
 # [!UICONTROL Trait] and [!UICONTROL Segment] Population Data in [!UICONTROL Segment Builder] {#trait-and-segment-population-data-in-segment-builder}
 

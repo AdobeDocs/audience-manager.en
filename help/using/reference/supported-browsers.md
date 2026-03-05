@@ -7,6 +7,10 @@ title: Supported Browsers
 uuid: dffecdb5-d94d-4001-8f2a-9d1d77ce2213
 feature: Reference
 exl-id: 5fcb1a64-5e45-4973-9e20-7d4d07071cbf
+TQID: https://experienceleague.adobe.com/27NYNoRz6aZJyKYXVxiUNMyj3nJFAwH37DPAQSchvUw
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 ---
 # Supported Browsers{#supported-browsers}
 

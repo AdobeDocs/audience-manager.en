@@ -7,6 +7,10 @@ title: Formatting Key-Value Pairs in DCS Calls
 uuid: af02f2a1-4388-4074-ab4e-66ee82023f1c
 feature: DCS
 exl-id: ff2d9ff6-7d5b-4a0d-b831-5d9bc79b32a1
+TQID: https://experienceleague.adobe.com/t2OyTO4wyJyXp-65BBFaLHVKq1-oibKU9GUETZbzYs4
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 ---
 # Formatting Key-Value Pairs in DCS Calls {#formatting-key-value-pairs-in-dcs-calls}
 
