@@ -8,7 +8,7 @@ type: Documentation
 tutorials-title: Tutorials
 tutorials-url: https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/overview.html
 git-repo: https://github.com/AdobeDocs/audience-manager.en
-index: y
+index: true
 ---
 
 # Metadata for internal use
