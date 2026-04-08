@@ -32,7 +32,8 @@ This page outlines information provided directly by our partners, as it becomes 
 
 Adobe partners own their business processes and may decide to update their integration requirements with Audience Manager from time to time. We are proactively working with our Audience Manager partner ecosystem to keep our customers apprised of changes.
 
-<!-- ## Audience Manager Partner Updates - ID Syncs {#partner-updates-id-syncs}
+<!--
+## Audience Manager Partner Updates - ID Syncs {#partner-updates-id-syncs}
 
 Some partners, as listed in the table below, have changed their integration requirements with Audience Manager to include support based on the IAB Framework, in order to comply with GDPR standards.
 
@@ -66,7 +67,8 @@ Some partners, as listed in the table below, have changed their integration requ
    <td colname="col3"> <p>Not live yet </p> </td> 
   </tr> 
  </tbody> 
-</table> -->
+</table>
+-->
 
 ## Audience Manager User Interface Update - Yahoo/Oath/DataX Integration {#ui-update}
 

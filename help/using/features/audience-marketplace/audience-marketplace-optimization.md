@@ -4,7 +4,6 @@ solution: Audience Manager
 title: Audience Marketplace optimization
 feature: Audience Marketplace
 hide: yes
-hidefromtoc: yes
 exl-id: 92d4d043-3cc1-4a59-926f-c29709d9bc63
 TQID: https://experienceleague.adobe.com/KvT3y7GApQFDZYs1F20VCxNinclwenFi-HSk8-oImQo
 product_v2:
@@ -130,3 +129,4 @@ If you have a strong business case for keeping a specific data provider, please 
 ### When will the changes take effect?
 
 Data providers selected for removal will be removed during August 2025.
+

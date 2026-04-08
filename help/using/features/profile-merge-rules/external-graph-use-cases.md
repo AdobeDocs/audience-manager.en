@@ -31,6 +31,7 @@ Consider third-party device graph options for campaigns that:
 * Segment authenticated and/or unauthenticated visitors at the individual and household level.
 
 ![](assets/merge-rule-triangle1.png)
+
 <!-- 
 ## Prospecting/Branding Use Case {#prospecting-branding-use-cases}
 
@@ -98,9 +99,11 @@ These strategies are designed to bring an unauthenticated or unknown user back t
      </ul> </p> </td>
   </tr>
  </tbody>
-</table> -->
+</table> 
+-->
 
-<!-- ## Expanded Device Targeting {#audience-expansion}
+<!--
+## Expanded Device Targeting {#audience-expansion}
 
 This use case exemplifies how you can expand the size of your addressable audience with accurate cross-device personalization, through [!DNL External Device Graphs].
 
@@ -114,7 +117,8 @@ In our example, the traits required to qualify for the segment have all been col
 
 Through this rule, the device graph has expanded the number of device profiles which qualify for the segment from one to three and has enabled the travel agency to deliver a consistent message to all three devices owned by Jane.
 
-![audience-expansion](assets/audience-expansion.png) -->
+![audience-expansion](assets/audience-expansion.png) 
+-->
 
 ## Advanced Cross-Device Targeting {#advanced-graph-expansion}
 
