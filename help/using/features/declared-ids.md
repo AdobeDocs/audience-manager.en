@@ -8,6 +8,25 @@ title: Declared IDs
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
 feature: ID Syncs
 exl-id: a480671a-797d-405d-905d-98ab4ef71369
+TQID: https://experienceleague.adobe.com/7Jd2lUzJ-blClVnsnYVb9fZZzkaZkQlHjjBbECMmYUc
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+subfeature_v2:
+  - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+    internal-label: Support
+  - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 ---
 # [!UICONTROL Declared IDs] {#declared-ids}
 

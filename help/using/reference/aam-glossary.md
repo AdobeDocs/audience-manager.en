@@ -7,6 +7,35 @@ title: Glossary
 uuid: 01fc26f5-db9d-4e90-b4c1-27c6a510accc
 feature: Reference
 exl-id: 9e2ee3d3-01b2-4038-abda-fedf0f16f163
+TQID: https://experienceleague.adobe.com/tIudKTIrwiTO01Bq5pDuekNKI5YCrjBCDi13rKydK2k
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
+subfeature_v2:
+  - id: d8f681b8-67cc-42dc-85c5-a0977528a942
+    internal-label: Data Collection Server
+  - id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8
+    internal-label: Data sources
+  - id: e7029888-c8b0-46a7-849a-cf132a1559bf
+    internal-label: Destination Builder
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+    internal-label: Data integration
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+    internal-label: Taxonomy
 ---
 # Glossary{#glossary}
 

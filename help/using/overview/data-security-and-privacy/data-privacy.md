@@ -7,6 +7,20 @@ title: Data Privacy Overview
 uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
 feature: Data Governance & Privacy
 exl-id: 051de369-e762-49fb-b65f-6faf94db48a4
+TQID: https://experienceleague.adobe.com/2ePsnB1spOaodcifn67as3T7v28RnrOthzjhJJQKIGo
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 ---
 # Data Privacy Overview {#data-privacy}
 

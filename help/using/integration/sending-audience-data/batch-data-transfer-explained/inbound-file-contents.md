@@ -5,6 +5,18 @@ title: Inbound Data File Contents - Syntax, Invalid Characters, Variables, and E
 uuid: 88699b29-1502-4183-a9a4-be70692a02bb
 feature: Inbound Data Transfers
 exl-id: 894f1923-6c78-41d2-b6a2-eebf56eaa29e
+TQID: https://experienceleague.adobe.com/VmG1uYu83JVavbWhBTIwbcN6xXW-cCy2IqBlZe8NtVA
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 ---
 # Inbound Data File Contents: Syntax, Invalid Characters, Variables, and Examples {#inbound-data-file-contents-syntax-invalid-characters-variables-and-examples}
 

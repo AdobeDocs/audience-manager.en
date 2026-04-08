@@ -7,6 +7,16 @@ title: Outbound Macro Examples
 uuid: 823d85d4-d683-45cf-9e60-c12b7d52a498
 feature: Outbound Data Transfers
 exl-id: 7e3f2b25-7b7c-47fe-aa62-7ebd4e25f9ba
+TQID: https://experienceleague.adobe.com/CDfzuYYGdn-Jji6kQOVj1OMjGV8EyukDuq0afow9DcI
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 ---
 # Outbound Macro Examples {#outbound-macro-examples}
 

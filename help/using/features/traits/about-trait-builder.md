@@ -7,6 +7,13 @@ title: About Trait Builder
 uuid: 4258616c-7a9f-4fe9-95e2-9f51896a14ab
 feature: Traits
 exl-id: 4bb53775-9ee0-45b6-9396-f4cb93e6e6c9
+TQID: https://experienceleague.adobe.com/VZjLSkguAhpiae0BlpWv6KiXM24erhDyCheAybdUmVM
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
 ---
 # About Trait Builder {#about-trait-builder}
 

@@ -7,6 +7,16 @@ title: Send Data to the DCS
 uuid: 024e307d-bfcb-46cf-ac3a-fc71df0248fe
 feature: DCS
 exl-id: 8a6798c3-aafd-48c8-acd7-a0e29e04dc8e
+TQID: https://experienceleague.adobe.com/iudSqRVizRxUbbqHojlI0JVXWE5p1EfcyI4IdEISaW0
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
+subfeature_v2:
+  - id: d8f681b8-67cc-42dc-85c5-a0977528a942
+    internal-label: Data Collection Server
 ---
 # Send Data to the DCS {#send-data-to-the-dcs}
 

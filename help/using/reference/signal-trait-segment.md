@@ -8,6 +8,13 @@ title: Signals, Traits, and Segments
 uuid: 485fcc5c-b289-463b-a610-0d727df90f3c
 feature: Reference
 exl-id: ec33f2c3-1589-4c02-a85a-db0d72467f32
+TQID: https://experienceleague.adobe.com/brgTl8YZ3RYaFcWdImO1i3Jsxulp6-HYbiN45B7un-4
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+topic_v2:
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+    internal-label: Audience segmentation
 ---
 # [!UICONTROL Signals], [!UICONTROL Traits], and [!UICONTROL Segments] {#signals-traits-and-segments}
 

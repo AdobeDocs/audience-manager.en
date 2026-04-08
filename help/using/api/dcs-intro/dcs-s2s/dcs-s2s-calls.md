@@ -6,6 +6,16 @@ uuid: bdfe3430-e27f-4a5c-88d9-ae164d28f601
 feature: DCS
 description: Call syntax, example, and parameters when making server-to-server DCS API calls
 exl-id: 977f4dfe-0beb-43c8-b64e-df4042427474
+TQID: https://experienceleague.adobe.com/rJ-QjiRGIw2Jc8v0LHDotrWN4VKyZAIcoqEiyjWMknI
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
+subfeature_v2:
+  - id: d8f681b8-67cc-42dc-85c5-a0977528a942
+    internal-label: Data Collection Server
 ---
 # Making Server-to-Server DCS API Calls {#making-server-to-server-dcs-api-calls}
 

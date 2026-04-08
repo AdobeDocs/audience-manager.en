@@ -6,6 +6,27 @@ solution: Audience Manager
 title: Add New Device-Based Destinations
 feature: Destination Basics
 exl-id: c5d7de2e-085d-48b9-a596-381503c79f55
+TQID: https://experienceleague.adobe.com/E8htvz6eNU2PBT3d-oCbQDzrFRf28-Wlb3HES8n69DE
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+subfeature_v2:
+  - id: c138d302-73f0-4186-93ea-10c4ba52f943
+    internal-label: Destination basics
+  - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+    internal-label: Support
+  - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Add New Device-Based Destinations {#add-new-device-based-destinations}
 

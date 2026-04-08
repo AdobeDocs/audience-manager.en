@@ -7,6 +7,31 @@ title: Data Integration Methods
 uuid: 17a4179a-e99b-49eb-8f45-f2946afbd27f
 feature: Third-party Integration
 exl-id: 26225461-c35c-4db1-9517-99e82ce163b9
+TQID: https://experienceleague.adobe.com/XoZgxjdRUofKI2ETdK71K95QT04-Oh5klI-nrKFBm-o
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+    internal-label: Data integration
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+    internal-label: Taxonomy
 ---
 # Data Integration Methods {#data-integration-methods}
 

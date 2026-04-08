@@ -7,6 +7,13 @@ title: Active Audience Traits and Data Source Synced Traits
 uuid: b4f145ab-f343-4d71-86d1-5d03f7b03809
 feature: Traits
 exl-id: 8fa4ea24-1beb-40cb-bdec-540a3f7c2573
+TQID: https://experienceleague.adobe.com/2DBCMtqRp0sQM04ec-2pKVnaEnQijjsnrk0JvqoNf3o
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 ---
 # Active Audience Traits and Data Source Synced Traits {#active-audience-traits-and-data-source-synced-traits}
 

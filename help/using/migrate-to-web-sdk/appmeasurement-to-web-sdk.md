@@ -2,8 +2,32 @@
 title: Update your data collection library for Audience Manager from the AppMeasurement JavaScript library to the Web SDK JavaScript library.
 description: Understand the steps to update your data collection library for Audience Manager from the AppMeasurement JavaScript library to the Web SDK JavaScript library.
 exl-id: 9c771d6c-4cfa-4929-9a79-881d4e8643e4
+TQID: https://experienceleague.adobe.com/mxctgUDMvqrSgS0PLsQ7GTwiFMIogo2nL-yZZsnbS40
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+subfeature_v2:
+  - id: d8f681b8-67cc-42dc-85c5-a0977528a942
+    internal-label: Data Collection Server
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
-
 # Update your data collection library for Audience Manager from AppMeasurement to Web SDK
 
 ## Intended audience {#intended-audience}

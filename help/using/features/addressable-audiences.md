@@ -8,6 +8,43 @@ title: Addressable Audiences
 uuid: 3eb1335a-6949-452b-b77a-697c22856cb3
 feature: Match Rates
 exl-id: 2728e4a8-522c-423f-a6ef-e4dd624f69e5
+TQID: https://experienceleague.adobe.com/kXtuVVcN9CH-pTICWdyfa8ast-zgf4zf61su39blynE
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
+subfeature_v2:
+  - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
+  - id: c8bc25a4-94eb-4dcd-b377-9328026b8b06
+    internal-label: Match rates
+  - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+    internal-label: Support
+  - id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8
+    internal-label: Data sources
+  - id: f8c1669e-86ba-49c4-b622-9dfa07854df8
+    internal-label: ID syncs
+  - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # [!UICONTROL Addressable Audiences] {#addressable-audiences}
 

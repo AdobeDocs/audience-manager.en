@@ -7,6 +7,21 @@ title: Advertiser Use Cases
 uuid: ceb06f86-1f9b-4e02-b179-116ec635ce5d
 feature: Reference
 exl-id: 30f2ee7b-6238-4dd5-a59f-ee91b6256bcb
+TQID: https://experienceleague.adobe.com/j6rCyNkZCTV0AA2t7PWPFGGPNCEutOynqwPFVcz-CHY
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+    internal-label: Email marketing
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+    internal-label: Taxonomy
 ---
 # Advertiser Use Cases {#advertiser-use-cases}
 

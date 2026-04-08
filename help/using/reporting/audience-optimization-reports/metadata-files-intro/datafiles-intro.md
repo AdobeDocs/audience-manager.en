@@ -7,6 +7,24 @@ title: Data Files for Audience Optimization Reports and Actionable Log Files
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 feature: Log Files
 exl-id: 0da2c1d3-5ff8-40dd-b831-21d8941688ce
+TQID: https://experienceleague.adobe.com/V7m-uiRhNEiGDi5x-Uxy51qm-RneyvCC4Ufl9Ue8xB4
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+    internal-label: Content structure
 ---
 # Data Files for Audience Optimization Reports and Actionable Log Files {#data-files-for-audience-optimization-reports}
 

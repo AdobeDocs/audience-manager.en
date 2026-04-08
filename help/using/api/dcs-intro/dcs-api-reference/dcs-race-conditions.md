@@ -7,6 +7,10 @@ title: Race Conditions and Error Handling
 uuid: b0aac960-6732-4e96-87a5-40ba2755e02d
 feature: DCS
 exl-id: bfb0b684-6b15-434d-b5ec-5f8741c0c691
+TQID: https://experienceleague.adobe.com/UwYrrF5zUD-hUESWPe82KAWVeNfo7M-hcJW6ep0Ov1Y
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 ---
 # Race Conditions, Rate Limiting, and Error Handling {#race-conditions-and-error-handling}
 

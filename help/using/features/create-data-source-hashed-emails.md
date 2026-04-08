@@ -4,6 +4,13 @@ description: Learn how to create a data source to store hashed emails for hashed
 solution: Audience Manager
 feature: Data Sources
 exl-id: fb235dcb-e02f-41ac-ba3f-a1feb30b23dd
+TQID: https://experienceleague.adobe.com/dPV7bJC5zIBkj1EX43q4FWU7XP0gs-dhBYTcW8mApL4
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
 ---
 # Configure a data source for hashed email workflows
 

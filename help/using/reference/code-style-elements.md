@@ -7,6 +7,10 @@ title: Style Conventions for Code and Text Elements
 uuid: 7605604d-bc76-4063-ba92-52c88bd69e3c
 feature: Reference
 exl-id: 12f9b802-b645-4fc3-96ea-3d16b1f4890a
+TQID: https://experienceleague.adobe.com/5KxeNhqw4zbJObehloyd-GHur29rT-089E6o6rFSa5k
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 ---
 # Style Conventions for Code and Text Elements{#style-conventions-for-code-and-text-elements}
 

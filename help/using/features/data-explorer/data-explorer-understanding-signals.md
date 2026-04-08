@@ -6,6 +6,16 @@ title: Understanding Signals
 uuid: 04a0554e-954e-484a-8838-9161ef416872
 feature: Data Explorer
 exl-id: 12ab53e5-302b-4a82-9d8e-07b60139c65e
+TQID: https://experienceleague.adobe.com/KA-oQWZi6lAXcKN5DY5-sYRYjSmR1AWkOVJkq4w8voo
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 ---
 # Understanding Signals
 

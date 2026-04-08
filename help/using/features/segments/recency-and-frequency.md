@@ -7,6 +7,10 @@ title: Recency and Frequency
 uuid: faadd18a-bf27-4b73-995e-9809f52f5350
 feature: Segments
 exl-id: c00563f0-d270-4d4d-abeb-4b4b81aa68b8
+TQID: https://experienceleague.adobe.com/hs9eHIYaxwZFG4saiRfyByoUub-veWzuD3UL8mnlB0k
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 ---
 # Recency and Frequency {#recency-and-frequency}
 

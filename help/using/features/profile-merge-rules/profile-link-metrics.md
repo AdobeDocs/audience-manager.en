@@ -7,6 +7,10 @@ title: Report Metrics for Profile Merge Rules
 uuid: 76a86ff0-4c64-4734-aec0-0a8828942096
 feature: Profile Merge
 exl-id: 2af59c60-2448-44af-90d2-eccc52f7ff02
+TQID: https://experienceleague.adobe.com/XoOLUeHq9E68X703-rNxz-gCkQ9GtL1R-h71W8f4x-s
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 ---
 # Report Metrics for Profile Merge Rules {#report-metrics-for-profile-merge-rules}
 

@@ -6,6 +6,10 @@ title: Filter Search Results
 uuid: 7b764a5d-f8ae-4f7b-83f5-7f6c40de639b
 feature: Data Explorer
 exl-id: df178712-6417-4c4d-b5f8-5a8c00bfcd12
+TQID: https://experienceleague.adobe.com/lEndWDyXx54KlrR0anqZu6SPxZtRRJtwu23-QmoT8aE
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 ---
 # Filter Search Results {#filter-search-results}
 

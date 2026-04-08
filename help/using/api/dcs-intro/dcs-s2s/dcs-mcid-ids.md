@@ -7,6 +7,23 @@ title: Get User IDs and Regions Through the Adobe Experience Platform Identity S
 uuid: 80de6cf2-5d9e-4ef8-a0f2-d53b5d574c89
 feature: DCS
 exl-id: 0b855237-ac14-4c0e-b831-221b9218840f
+TQID: https://experienceleague.adobe.com/7UuzQe1yy6pAK8GxBgmcTGqn08gFLWbArbHAr87aXFg
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
+subfeature_v2:
+  - id: d8f681b8-67cc-42dc-85c5-a0977528a942
+    internal-label: Data Collection Server
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
 ---
 # Get User IDs and Regions Through the Adobe Experience Platform Identity Service {#get-user-ids-and-regions-through-the-experience-cloud-id-service} 
 

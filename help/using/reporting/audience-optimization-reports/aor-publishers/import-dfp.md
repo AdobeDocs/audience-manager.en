@@ -7,6 +7,24 @@ title: Import Google Ad Manager Data Files Into Audience Manager
 uuid: c685f34f-3e50-4c4b-99fa-d8bbafe0b268
 feature: Audience Optimization Reports
 exl-id: 62b72dd1-e664-4c6a-8c0a-f7a662d62a47
+TQID: https://experienceleague.adobe.com/cnzj59ejieaEvCGo2a-xopjYJ-GfUTc1LV24p9mQiEw
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
 ---
 # Import Google Ad Manager (formerly DFP) Data Files Into Audience Manager{#import-dfp-data-files-into-audience-manager}
 

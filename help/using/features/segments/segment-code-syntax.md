@@ -7,6 +7,10 @@ title: Code Syntax Used in the Segment Expression Editor
 uuid: 7b4b06ca-7879-4501-8ba7-b2b6467b8a3b
 feature: Segments
 exl-id: 64fa6f03-cef9-4187-866f-28c54f45f72e
+TQID: https://experienceleague.adobe.com/cJKsvcP-dZ05ojGgbn2ni-wFMFfiObuIWwaRP0-HWFQ
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 ---
 # Code Syntax Used in the Segment Expression Editor {#code-syntax-used-in-the-segment-expression-editor}
 

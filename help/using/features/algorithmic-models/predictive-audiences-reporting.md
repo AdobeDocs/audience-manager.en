@@ -6,6 +6,21 @@ solution: Audience Manager
 title: Predictive Audiences Reporting
 feature: Algorithmic Models
 exl-id: 43a4272c-d9be-47f6-9b81-15472b0366ab
+TQID: https://experienceleague.adobe.com/cCq0D-eJiC3HKysBofh6yxzJ2iBV-e1cOXnYl-VnZD8
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+subfeature_v2:
+  - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
 ---
 # Predictive Audiences Reporting
 

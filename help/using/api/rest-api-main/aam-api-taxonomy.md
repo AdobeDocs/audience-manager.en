@@ -7,6 +7,16 @@ title: Taxonomic API Methods
 uuid: 4ee29ba5-e9ba-4498-a6ee-7343227dd7ba
 feature: API
 exl-id: 8bc6dcbb-7f5b-4a7b-998d-025eaf76c409
+TQID: https://experienceleague.adobe.com/LIHEWvF3t-VNHJEviomvCF-dxE2Jy-BFxBynonvwP3w
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
+topic_v2:
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+    internal-label: Taxonomy
 ---
 # Taxonomic API Methods {#taxonomic-api-methods}
 

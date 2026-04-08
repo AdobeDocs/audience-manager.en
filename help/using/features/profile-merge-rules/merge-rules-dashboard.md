@@ -7,6 +7,16 @@ title: Profile Merge Rules Dashboard
 uuid: d6725218-7b36-4653-9900-d67b5f7702a0
 feature: Profile Merge
 exl-id: c6fcbe47-3010-4b7c-a70e-205bf69b4c54
+TQID: https://experienceleague.adobe.com/eP9efUkVIv-PfBvsoTLD2DZyjHhLfhcF8Waji9nWzXo
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 ---
 # Profile Merge Rules Dashboard {#profile-merge-rules-dashboard}
 

@@ -7,6 +7,16 @@ title: Amazon S3 Name and File Size Requirements for Inbound Data Files
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
 feature: Inbound Data Transfers
 exl-id: 428acdb5-fff0-4b70-b15a-e384aed9cc2d
+TQID: https://experienceleague.adobe.com/DA-1ilfdKsydO-jTRq02clTE9yZCv7hsV2412gadhwU
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 ---
 # [!DNL Amazon S3] name and file size requirements for inbound data files {#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
 

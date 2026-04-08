@@ -7,6 +7,20 @@ title: Name and Content Requirements for ID Synchronization Files
 uuid: bfe42af9-9149-4da3-830e-f227c4e610c2
 feature: Inbound Data Transfers
 exl-id: e6b3a438-f843-4a24-89fd-03ef77d7cf04
+TQID: https://experienceleague.adobe.com/yJ5QIV70F6YyRqA0LxqxQaHMoWwe7pLJ8V17MvyEK70
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Name and Content Requirements for ID Synchronization Files {#name-and-content-requirements-for-id-synchronization-files}
 

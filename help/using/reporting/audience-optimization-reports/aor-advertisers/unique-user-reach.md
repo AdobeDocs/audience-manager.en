@@ -7,6 +7,15 @@ title: Unique User Reach
 uuid: 897245ab-af6e-42a0-b653-96703b65c764
 feature: Audience Optimization Reports
 exl-id: 1b7ddafd-40b8-4c64-97e9-ecc7ffdd9efa
+TQID: https://experienceleague.adobe.com/lfdkwJslK-STYnp8z2bo0jPiQixpTG-uvReLSnYnicI
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
 ---
 # Unique User Reach{#unique-user-reach}
 

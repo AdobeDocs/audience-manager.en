@@ -7,6 +7,33 @@ title: Capturing Campaign Impression Data via Pixel Calls
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 feature: Adobe Campaign Integration
 exl-id: 04e6f1e5-5075-4221-a310-deb3717458ad
+TQID: https://experienceleague.adobe.com/4AePlh8JW-KJ5pMyBjEDNQ1mxfikBavHMT-UXkQqYJo
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+subfeature_v2:
+  - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
+  - id: ff9c2088-e1d9-47aa-85e4-6765b719f5c7
+    internal-label: Audience Optimization Reports
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 ---
 # Capturing Campaign Impression Data via Pixel Calls{#capturing-campaign-impression-data-via-pixel-calls}
 

@@ -6,6 +6,18 @@ solution: Audience Manager
 title: Add or Edit Segments for Server-to-Server Destinations
 feature: Destination Basics
 exl-id: 20124779-e14b-4d17-be4b-9f17ee0dc19e
+TQID: https://experienceleague.adobe.com/3bcMGBGMb4HtnPA8yFvO4UzfGXmpvM2Drs427ztfWDc
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+subfeature_v2:
+  - id: c138d302-73f0-4186-93ea-10c4ba52f943
+    internal-label: Destination basics
+  - id: e7029888-c8b0-46a7-849a-cf132a1559bf
+    internal-label: Destination Builder
 ---
 # Add or Edit Segments for Server-to-Server Destinations {#add-edit-segments}
 

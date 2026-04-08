@@ -7,6 +7,18 @@ title: Transfer-Control Files for Log File Transfers
 uuid: ef58213e-7b37-4c5a-8556-0de695706793
 feature: Outbound Data Transfers
 exl-id: 4fd1aab1-2dc2-4de9-97be-58e79825db40
+TQID: https://experienceleague.adobe.com/aIVWdiY6qjXJI9wGK8U9ey6Awr1S8RzLWD2om6g1wGk
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 ---
 # Transfer-Control Files for Log File Transfers {#transfer-control-files-for-log-file-transfers}
 

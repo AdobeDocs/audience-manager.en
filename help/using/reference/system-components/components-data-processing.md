@@ -7,6 +7,17 @@ title: Data Processing Components
 uuid: d458d869-7a23-4016-871d-0b994cf4af06
 feature: System Components
 exl-id: 9ff2b82b-aad0-4d24-96e6-230763019311
+TQID: https://experienceleague.adobe.com/pDRgRUAn6HDsZdibVzPS8mDRdyO3Hd7RdQItI-hOw7U
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
 ---
 # Data Processing Components{#data-processing-components}
 

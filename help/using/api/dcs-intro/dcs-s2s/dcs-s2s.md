@@ -7,6 +7,19 @@ title: DCS APIs for Server-to-Server Data Transfers
 uuid: 8c369166-c8a7-46b0-9913-4c027f5b1df9
 feature: DCS
 exl-id: fd23d5e2-b74e-47ff-a4aa-3a4b2c7d39c5
+TQID: https://experienceleague.adobe.com/lXTSMwju5lxRhrz0VpOlxbHLa2POAQHGOIzzP3j980s
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
+subfeature_v2:
+  - id: d8f681b8-67cc-42dc-85c5-a0977528a942
+    internal-label: Data Collection Server
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # DCS APIs for Server-to-Server Data Transfers{#dcs-apis-for-server-to-server-data-transfers}
 

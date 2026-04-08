@@ -7,6 +7,13 @@ title: Customer Data Feed FAQ
 uuid: 7183b3e2-e999-4e1e-892f-2bab335c13b6
 feature: Customer Data Feeds
 exl-id: a948accc-6bec-4748-bcc8-2b77acf6b96a
+TQID: https://experienceleague.adobe.com/cwoEn5KaUKcyjCgOs4oEwLzyULX4db1FgRc0FpW-xeE
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
 ---
 # Customer Data Feed FAQ{#customer-data-feed-faq}
 

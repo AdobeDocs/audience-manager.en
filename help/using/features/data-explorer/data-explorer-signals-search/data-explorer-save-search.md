@@ -6,6 +6,10 @@ title: Save Search Criteria
 uuid: c17b26e0-f489-47c9-b41b-bf895ca9d8a5
 feature: Data Explorer
 exl-id: ab56ddb7-6b0b-4a3d-9590-00c49a4ae7dc
+TQID: https://experienceleague.adobe.com/ecQ9AHZ0NrZtQlNYRnn2arc9YLPRNr6iEDkHS5GqlkQ
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 ---
 # Save Search Criteria {#save-search-criteria}
 

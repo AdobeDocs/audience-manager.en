@@ -5,6 +5,18 @@ seo-title: Batch Outbound Data Transfers in Adobe Audience Manager (AAM)
 title: Batch Outbound Data Transfers
 feature: Outbound Data Transfers
 exl-id: 1fdcc971-3a71-4033-8501-ef3d1f1f0f47
+TQID: https://experienceleague.adobe.com/jRSfzxiGp-aHxaHELYDQg33faxtMiNbKmbwXoyFoBeM
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 ---
 # Batch Outbound Data Transfers
 

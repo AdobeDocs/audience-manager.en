@@ -7,6 +7,13 @@ title: Audience Lab FAQ
 uuid: b1daf99d-af60-4f65-987d-794a6d45d566
 feature: Audience Lab
 exl-id: 25bdabb5-2ba8-45d2-81ca-05c0590d7d96
+TQID: https://experienceleague.adobe.com/VDrkY-L2PnhRdSTmZd-0sjpJEI5vHxm9c3uMqtyQd3Y
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
 ---
 # Audience Lab FAQ{#audience-lab-faq}
 

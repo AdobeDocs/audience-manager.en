@@ -5,6 +5,29 @@ seo-title: Reporting Overview in Adobe Audience Manager (AAM)
 title: Reporting Overview
 feature: Reporting Reference
 exl-id: 8b0e34be-7a78-426c-a295-5e58a3462d64
+TQID: https://experienceleague.adobe.com/tnU9bKkBepv2gtzU-Am1NatIO0-lec0QnceHsTn-Ahg
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+subfeature_v2:
+  - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
+  - id: ec0be1ae-7ea9-4f62-869a-963a97d2edc1
+    internal-label: Reporting reference
+  - id: ff9c2088-e1d9-47aa-85e4-6765b719f5c7
+    internal-label: Audience Optimization Reports
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 ---
 # Reporting Overview
 

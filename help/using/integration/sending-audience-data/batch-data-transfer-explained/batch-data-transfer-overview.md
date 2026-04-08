@@ -8,6 +8,20 @@ title: Send Batch Data to Audience Manager Overview
 uuid: 472583b1-5057-4add-8e3c-5e50762c88e0
 feature: Inbound Data Transfers
 exl-id: ba95537e-30c9-4546-9456-55f46dbe29ff
+TQID: https://experienceleague.adobe.com/w3j-lf-4-LlAr36L6XsCfzxwgP2vinMNW00PTlpPK8Q
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
 ---
 # Send Batch Data to [!DNL Audience Manager] Overview {#send-batch-data-to-audience-manager-overview}
 

@@ -6,6 +6,13 @@ title: Signals Dashboard
 uuid: 26f39507-097f-427d-bf5b-ab6d035c1dd2
 feature: Data Explorer
 exl-id: dfcacdca-c301-4655-9ab4-0642ce6d1cc0
+TQID: https://experienceleague.adobe.com/FGEKJR4Vu2AUmmm09xfRewJxEX-spZeSyXqkdaQhMQQ
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 ---
 # Signals Dashboard {#signals-dashboard}
 

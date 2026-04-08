@@ -6,6 +6,13 @@ title: Search Signals by Key-Value Pairs
 uuid: 2a38d0d4-4a2e-4ca5-b9ec-af9d4963d876
 feature: Data Explorer
 exl-id: d598da6b-8dc0-47ce-8389-1973b1803711
+TQID: https://experienceleague.adobe.com/Apm-P3y-WJlOGO1UIbRJCfzAsgTzzk991PdU4DDLtGU
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # Search signals by key-value pairs {#search-signals-by-key-value-pairs}
 

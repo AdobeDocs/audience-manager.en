@@ -8,6 +8,15 @@ title: Visitor Profile Viewer
 uuid: 77ffe134-e08f-41de-8fc4-15494847b1d0
 feature: Traits
 exl-id: 6c1ee14c-6f78-4e45-9b88-24ace8400079
+TQID: https://experienceleague.adobe.com/e-qPcNaUpT-inBkx30AqUa-KkjjVJRyce86O-HQNitE
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 ---
 # Visitor Profile Viewer {#visitor-profile-viewer}
 

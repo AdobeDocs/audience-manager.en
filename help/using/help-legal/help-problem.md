@@ -6,6 +6,13 @@ solution: Audience Manager
 title: If There's a Problem
 feature: Support
 exl-id: 2f7b9dbe-7aac-41b0-aab8-3b703d7a2441
+TQID: https://experienceleague.adobe.com/9yNQ22FOduvtYsw4ovWOSvyemp5J6edcn3DbLfgpldc
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
 ---
 # If There's a Problem {#problem}
 

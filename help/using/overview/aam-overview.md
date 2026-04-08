@@ -8,6 +8,19 @@ title: Audience Manager Overview
 uuid: 9334da91-3691-4223-a433-cca35a980a6e
 feature: Overview
 exl-id: e96d8c05-7082-4f17-936d-f1896e665c8e
+TQID: https://experienceleague.adobe.com/yfWxhIkYnUTETWQa99VZoT6-mzAJ0TbjkQgFe5F5nlM
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 ---
 # Audience Manager Overview {#audience-manager-overview}
 

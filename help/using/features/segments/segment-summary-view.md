@@ -8,6 +8,18 @@ uuid: e844e423-9701-42d4-9ba5-d82f41358adc
 keywords: identity type breakdown, identity breakdown, audience identity reporting, cross-device, cross-device ID, device ID
 feature: Segments
 exl-id: d33c8146-fd98-47fc-aa3d-96f002538df4
+TQID: https://experienceleague.adobe.com/598rKoYt4bQ2Wojsy1ypYNfMyLrFDAJJX9jaqk9l2pk
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # Segment Details Page {#segment-summary-view}
 

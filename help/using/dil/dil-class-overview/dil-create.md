@@ -7,6 +7,41 @@ title: DIL create
 uuid: 6e054600-703c-4a97-af2a-8207c50013db
 feature: DIL Implementation
 exl-id: 0bef149c-4458-43d6-affe-6d79fe1fca46
+TQID: https://experienceleague.adobe.com/aXgfaEO2ICrekZMD2JsRqeZOcm4kQYazZCru2wkmPtM
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+subfeature_v2:
+  - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
+  - id: d7e573ad-4eda-46ec-90c4-239e75362af9
+    internal-label: DIL implementation
+  - id: f8c1669e-86ba-49c4-b622-9dfa07854df8
+    internal-label: ID syncs
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+    internal-label: Data integration
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # DIL create method{#dil-create}
 

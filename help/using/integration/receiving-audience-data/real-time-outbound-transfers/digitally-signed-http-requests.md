@@ -7,6 +7,20 @@ title: Digitally Signed HTTP(S) Requests
 uuid: 1183a70f-0c96-42cf-a4f5-37a83ffa1286
 feature: Outbound Data Transfers
 exl-id: 55907a25-a361-494a-86b9-c693faea4f0e
+TQID: https://experienceleague.adobe.com/ohSGJddxL1Wh15zHDhhnUlIM3-RgGHI7450JQMBYp1s
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Digitally Signed `HTTP(S)` Requests {#digitally-signed-http-requests}
 

@@ -7,6 +7,31 @@ title: Manage Data Feed Subscriptions
 uuid: 7305adb6-cbb8-4430-8204-2243095c0ba5
 feature: Audience Marketplace
 exl-id: 171acbbc-88ab-496f-93ea-48956325d8fd
+TQID: https://experienceleague.adobe.com/RcmKx7ygS9XyIBBKxDrnN46EcV3OsGFpsTOilLiO7HY
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
+subfeature_v2:
+  - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
+  - id: c2c33729-f309-4bc2-92ba-87c475259df3
+    internal-label: REST APIs
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+    internal-label: Taxonomy
 ---
 # Manage Data Feed Subscriptions {#manage-data-feed-subscriptions}
 

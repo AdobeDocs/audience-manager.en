@@ -7,6 +7,18 @@ title: Amazon S3  About
 uuid: 8197ecdf-df8f-488d-bbc0-d8d4205b42b4
 feature: Reference
 exl-id: 12c4f00d-2916-4224-b834-d3a9ea86314a
+TQID: https://experienceleague.adobe.com/HRLp9cXzF3yRFulThePWxGt6TRD1HxgecSiFlnSAxlA
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Amazon S3: About{#amazon-s-about}
 

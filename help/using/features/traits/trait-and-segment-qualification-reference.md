@@ -8,6 +8,10 @@ title: Trait Qualification Reference
 uuid: 07e0a639-2fb2-45d8-bad7-10fb46b08ba9
 feature: Traits
 exl-id: 223f5fc6-c939-4bc6-94a3-5d953abc601a
+TQID: https://experienceleague.adobe.com/ToG-JOFHadPm5hkOP5tzUuVMOPZTLXG7x6mad77yC1M
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 ---
 # Trait and Segment Qualification Reference {#trait-qualification-reference}
 

@@ -7,6 +7,18 @@ title: Send Segments to a Google AdWords Remarketing List
 uuid: 5ad821c6-48b4-42c0-b912-1563331e93a2
 feature: Third-party Integration
 exl-id: 76676eae-de4f-4fee-8774-ee215525306a
+TQID: https://experienceleague.adobe.com/BxJ9n5RLQwR8i9Sgu1cgeaijSCrKLltsAXdm0eQBqxY
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 ---
 # Send Segments to a Google Ads Remarketing List {#send-segments-to-a-google-adwords-remarketing-list}
 

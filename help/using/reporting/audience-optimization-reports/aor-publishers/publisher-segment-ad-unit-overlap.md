@@ -7,6 +7,17 @@ title: Segment to Ad Unit Overlap
 uuid: aaa20163-58aa-42c9-8f72-a1dfb0d20e57
 feature: Audience Optimization Reports
 exl-id: 6c7cf2e6-8ed4-42de-92ee-0df90940f441
+TQID: https://experienceleague.adobe.com/J0eNLdT334hNl2VrLpNAVQwnF80e--iAkU39mQvEDkE
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
 ---
 # Segment to Ad Unit Overlap{#segment-to-ad-unit-overlap}
 

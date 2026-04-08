@@ -8,6 +8,20 @@ title: Customer Data Feeds
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 feature: Customer Data Feeds
 exl-id: 118c4225-3b57-4a02-ae05-2fcbf3e5d743
+TQID: https://experienceleague.adobe.com/9Nw-TM2ND4qO0BVssmGKTAoRAF-K4aNRZSL8Fnlcrgk
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
 ---
 # [!UICONTROL Customer Data Feeds] {#customer-data-feeds}
 
