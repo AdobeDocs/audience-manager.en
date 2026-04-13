@@ -3,7 +3,7 @@ description: Adobe is enhancing the Audience Marketplace to improve the visibili
 solution: Audience Manager
 title: Audience Marketplace optimization
 feature: Audience Marketplace
-hide: yes
+hide: true
 exl-id: 92d4d043-3cc1-4a59-926f-c29709d9bc63
 TQID: https://experienceleague.adobe.com/KvT3y7GApQFDZYs1F20VCxNinclwenFi-HSk8-oImQo
 product_v2:
