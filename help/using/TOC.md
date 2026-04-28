@@ -145,7 +145,6 @@ feature-set: Audience Manager
         + [Segment Builder](features/segments/segment-builder.md)
         + [Code Syntax Used in the Segment Expression Editor](features/segments/segment-code-syntax.md)
         + [Trait and Segment Population Data in Segment Builder](features/segments/segment-builder-data.md)
-        + [Trait Recommendations](features/segments/trait-recommendations.md)
         + [Trait and Segment Qualification Reference](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-and-segment-qualification-reference.html)
     + Traits{#traits}
         + [Traits Overview](/help/using/features/traits/traits-overview.md)
