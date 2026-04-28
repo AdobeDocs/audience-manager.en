@@ -100,5 +100,4 @@ Reports that use Minhash sampling methodology:
 | Statistical sampling | Minhash sampling methodology|
 |--- |--- |
 |[Addressable Audience](../features/addressable-audiences.md) data (customer- and segment-level data). |[Overlap reports](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) (trait-to-trait, segment-to-trait, and segment-to-segment)|
-|The [Total Devices](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) metric for a [!UICONTROL Profile Merge Rule].|[Trait Recommendations](/help/using/features/segments/trait-recommendations.md)|
 |[Data Explorer](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) uses sampled data in the [!UICONTROL Search] tab and any [!UICONTROL Saved Searches]|[Audience Marketplace Recommendations](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#finding-similar-traits)|

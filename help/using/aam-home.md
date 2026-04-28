@@ -206,7 +206,6 @@ See the latest [Experience Cloud Release Notes](https://experienceleague.adobe.c
 Read about the latest Audience Manager features:
 * [Activity Usage Reporting](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/activity-usage-reporting.html)
 * [California Consumer Privacy Act (CCPA) Support and Privacy Documentation Overhaul](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html)
-* [Intelligent Recommendations for Audience Marketplace Data, powered by Adobe Sensei](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/trait-recommendations.html)
 * [Profile Merge Rules Enhancements](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/profile-merge-rules/merge-rules-overview.html)
 * [Bulk Management Tools Update](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/bulk-management-tools/bulk-management-intro.html)
 

@@ -88,28 +88,6 @@ Audience Manager used [!UICONTROL Tag Insertion Manager] (TIM) to create and man
 
 &nbsp;
 
-**What are the differences between Algorithmic Models and Trait Recommendations? When should I use each of them?**
-
-**Algorithmic Models**
-
-Algorithmic Models not only finds the most influential traits, but also scores users based on those traits and assigns each user an individual score. You then create algorithmic traits to target your users. With accuracy and reach controls in the Trait Builder, you can specify which users amongst all those who have the influential traits you want to target.
-
-Algorithmic Models enables you to select users at different accuracy levels and test in Audience Lab which group of users converts better. See the detailed use case in [Compare Models in Audience Lab](../features/audience-lab/audience-lab-use-cases.md#compare-models).
-
-In Algorithmic Models, the model runs every 8 days and refreshes the users qualified for algorithmic traits.
-
-**Trait Recommendations**
-
-Trait Recommendations is a quick way to get insights on other traits which are similar to the ones you are using in a segment.
-
-You should use Trait Recommendations when:
-
-* You need quick insights while building a segment;
-* You are using the segments for short campaigns or when you want to quickly suppress audience who converts;
-* You are trying to maximize reach.
-
-&nbsp;
-
 **Is there any difference between Adobe Analytics and Audience Manager segments?**
 
 Yes, please read [Understanding Segments in Analytics and Audience Manager](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) for an in-depth description of the differences.
