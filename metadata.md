@@ -3,7 +3,7 @@ cloud: Experience Cloud
 solution: Audience Manager
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-    label: "Audience Manager"
+    internal-label: "Audience Manager"
 feature-set: Audience Manager
 landing-page-name: audience-manager
 landing-page-breadcrumb-title: Audience Manager
