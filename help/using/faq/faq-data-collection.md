@@ -239,8 +239,8 @@ It usually takes up to 24 hours for a user profile to sync across regions. Howev
 
 **What happens to inactive Amazon S3 user access keys?**
 
-Adobe provides Audience Manager customers with access keys for [!DNL Amazon S3] buckets. For security purposes, these access keys are automatically disabled if they remain unused for 100 days.
+Adobe provides Audience Manager customers with access keys for [!DNL Amazon S3] buckets. For security purposes, these access keys are automatically disabled if they remain unused for 40 days.
 
 If your access keys are disabled, you can contact Customer Support to re-enable them or request new ones.
 
-For enhanced security, access keys that remain inactive for 1000 days will be permanently deleted along with the Amazon S3 IAM user account. If you're a returning customer and need access after this period, contact Customer Support to recreate your account and receive new access keys.
+For enhanced security, access keys that remain inactive for 180 days will be permanently deleted along with the Amazon S3 IAM user account. If you're a returning customer and need access after this period, contact Customer Support to recreate your account and receive new access keys.
