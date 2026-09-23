@@ -39,54 +39,26 @@ c_password_requirements.xml
 
 To be valid, your [!DNL Audience Manager] password must meet the following requirements:
 
-<table id="table_9B79E9F634664F6B995649E3158CCF20"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Requirements </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <b>Length</b> </p> </td> 
-   <td colname="col2"> <p>Passwords may be between 12 to 40 characters long. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Contents</b> </p> </td> 
-   <td colname="col2"> <p>Passwords must: </p> <p> 
-     <ul id="ul_70F64B9DE90E463098DFA8AB8349CF0B"> 
-      <li id="li_2FBA66E47F4A4E1BB01DE3722821E100">Begin and end with an alphanumeric character. </li> 
-      <li id="li_1390D4C9A48944B68B891EE6CB734BBC">Contain at least 1 uppercase and lowercase character. </li> 
-      <li id="li_B75B64A005804262BAAF0F1901D63358">Contain at least 1 number. </li> 
-      <li id="li_28452022AF4743B8B159187BBD10890A">Contain at least 1 special character (colons ":" excluded). </li> 
-      <li id="li_C02B931ABAB84FFE9B87AEBAEDF34EF3">Consist of Latin alphabet letters only. </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Versions</b> </p> </td> 
-   <td colname="col2"> <p> Passwords must be different from your previous 12 passwords. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Prohibited Items</b> </p> </td> 
-   <td colname="col2"> <p> Passwords must not contain your: </p> <p> 
-     <ul id="ul_08DE186AF56E401B933256E69279847A"> 
-      <li id="li_CC854F7F86484774A76CCF927E1400B4">First name or last name. </li> 
-      <li id="li_74ACCF3DE717473B8AB9B1720DD891E7">Email address. </li> 
-      <li id="li_09C1F699BF6843ACAB4E68D2F57461AB"><span class="keyword"> Adobe</span> user ID. </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Requirements | Description |
+|---|---|
+| Length | Passwords may be between 12 to 40 characters long. |
+| Contents | Passwords must:<ul><li>Begin and end with an alphanumeric character.</li><li>Contain at least one uppercase and one lowercase character.</li><li>Contain at least one number.</li><li>Contain at least one special character (colons excluded).</li><li>Consist of Latin alphabet letters only.</li></ul> |
+| Versions | Passwords must be different from your previous 12 passwords. |
+| Prohibited items | Passwords must not contain:<ul><li>Your first name or last name.</li><li>Your email address or [!DNL Adobe] user ID.</li><li>Consecutive letters or numbers.</li><li>Sequential letters or numbers.</li><li>Commonly used passwords.</li></ul> |
 
 For information about resetting your password, see [Edit Your Account Settings](../features/administration/edit-account-settings.md).
 
 **Account Lockout**
 
-Accounts are locked after 5-failed log in attempts. Contact your company's [!DNL Audience Manager] administrator or a Partner Services representatives to unlock your account.
+For security, [!DNL Audience Manager] temporarily rate-limits repeated failed sign-in attempts. If you exceed the limit, [!DNL Audience Manager] blocks further sign-in attempts for a short period, then automatically allows them again. You do not need to contact an administrator or a Partner Services representative to unlock your account.
 
 **Lost/Forgotten Password**
 
-Click the **[!UICONTROL Forgot password]** link from the login page to reset your password. You will receive an automated email with a temporary password that expires in 24 hours. Click the link in the email to access your account and reset your password. 
+Select **[!UICONTROL Forgot password]** on the sign-in page to reset your password. [!DNL Audience Manager] sends you an email with a link to reset your password. Select the link, then create a new password that meets the password requirements. The link works only once.
+
+**New Account Setup**
+
+When an administrator creates your account, [!DNL Audience Manager] sends you an email with a link to set your password. Select the link, then create a password that meets the password requirements. You must set your password before you can sign in for the first time.
 
 >[!MORELIKETHIS]
 >
