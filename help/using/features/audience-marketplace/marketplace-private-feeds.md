@@ -150,9 +150,9 @@ Read more about [creating traits](/help/using/features/traits/create-onboarded-r
 
 Next, create a data feed to share your traits with the data buyer. Refer to [Create a Public or Private Data Feed](/help/using/features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md) for instructions on how to create a data feed.
 
- >[!IMPORTANT]
- >
- >In Settings, select the Private option. If you set this field to Public, any Audience Marketplace customer can subscribe to your feed.
+>[!IMPORTANT]
+>
+>In Settings, select the Private option. If you set this field to Public, any Audience Marketplace customer can subscribe to your feed.
 
 ![](assets/create-data-feed.png)
 
