@@ -7,7 +7,7 @@ title: Targeting FAQ
 uuid: ee96ef71-b903-4953-afc4-8ec8e48bd49e
 feature: Match Rates
 exl-id: e5f761fd-dfc8-4859-a81e-89abbd7f2914
-TQID: https://experienceleague.adobe.com/Jm21pJH5trEnLWA8fo9I2j1D1OpJ-HxpmXwj1rCfgqk
+TQID: 'https://experienceleague.adobe.com/Jm21pJH5trEnLWA8fo9I2j1D1OpJ-HxpmXwj1rCfgqk'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
@@ -16,9 +16,13 @@ feature_v2:
     internal-label: Reporting
   - id: c814092e-2730-45e8-a12d-e084529f52cb
     internal-label: Destinations
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
     internal-label: Overlap Reports
+  - id: c8bc25a4-94eb-4dcd-b377-9328026b8b06
+    internal-label: Match rates
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting

@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Configure an Analytics Destination
 feature: Adobe Analytics Integration
 exl-id: f3ead057-04d1-40cd-8e3d-d0934d85cdb4
-TQID: https://experienceleague.adobe.com/Fm25UT69AXSh-cXo6MXGQwW-17LFy8dqs3-STiWKDeA
+TQID: 'https://experienceleague.adobe.com/Fm25UT69AXSh-cXo6MXGQwW-17LFy8dqs3-STiWKDeA'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
@@ -15,11 +15,15 @@ feature_v2:
     internal-label: Destinations
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
     internal-label: Administration
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
 subfeature_v2:
   - id: d3dfac44-e20d-492d-a806-0f4a4a495901
     internal-label: Support
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
     internal-label: Overview
+  - id: e5dfa5ae-9082-4711-a658-d981a49c8dea
+    internal-label: Analytics integration
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration

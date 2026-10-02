@@ -6,16 +6,20 @@ solution: Audience Manager
 title: Look-Alike Modeling FAQ
 feature: Algorithmic Models
 exl-id: c6e92db0-129f-489e-8cf0-600e0e09698b
-TQID: https://experienceleague.adobe.com/58qJ-kOjZpnw8HWH2oC8GfkuguHBNarWfHjx-EK-NI0
+TQID: 'https://experienceleague.adobe.com/58qJ-kOjZpnw8HWH2oC8GfkuguHBNarWfHjx-EK-NI0'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
 feature_v2:
   - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
     internal-label: Audience Marketplace
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8
     internal-label: Data sources
+  - id: cd2456ea-4f93-45ef-a193-94c258a6fbfb
+    internal-label: Algorithmic models
 ---
 # Look-Alike Modeling FAQ
 

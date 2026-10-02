@@ -7,16 +7,20 @@ title: Test Group Reporting
 uuid: 21303c3e-4c05-4728-a759-96c2a1d99b69
 feature: Audience Lab
 exl-id: 5d959002-e904-44df-87e6-e4c85838b076
-TQID: https://experienceleague.adobe.com/c4wC46SA8lwM8Rvniun2kB7zqwW3g-rN7ZYLc4KF6mk
+TQID: 'https://experienceleague.adobe.com/c4wC46SA8lwM8Rvniun2kB7zqwW3g-rN7ZYLc4KF6mk'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
 feature_v2:
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
     internal-label: Reporting
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
     internal-label: Overlap Reports
+  - id: e8501b6e-f5e0-495d-8a3d-6aa9293cdcc5
+    internal-label: Audience Lab
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting

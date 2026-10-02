@@ -7,10 +7,16 @@ title: Top Unused Traits
 uuid: 90bcd333-41b8-416e-aa4e-a8661891df50
 feature: Audience Optimization Reports
 exl-id: d0ae72c0-1fb1-423a-a7e6-de955bd7f3c5
-TQID: https://experienceleague.adobe.com/S2W1PhrZYTaScv7A9Y9OXDpCAXT-U4etuE32MnabUho
+TQID: 'https://experienceleague.adobe.com/S2W1PhrZYTaScv7A9Y9OXDpCAXT-U4etuE32MnabUho'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
+feature_v2:
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+subfeature_v2:
+  - id: ff9c2088-e1d9-47aa-85e4-6765b719f5c7
+    internal-label: Audience Optimization Reports
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata

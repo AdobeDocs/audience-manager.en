@@ -6,10 +6,16 @@ solution: Audience Manager
 title: Contact and Legal Information
 feature: Support
 exl-id: 02c80394-c5ed-4963-8543-4585c0c289c6
-TQID: https://experienceleague.adobe.com/HpTQDl5UkJ1KoyqBYUIZe4zphM9Y5NgGoSii1zNWIpw
+TQID: 'https://experienceleague.adobe.com/HpTQDl5UkJ1KoyqBYUIZe4zphM9Y5NgGoSii1zNWIpw'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
+feature_v2:
+  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+subfeature_v2:
+  - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+    internal-label: Support
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy

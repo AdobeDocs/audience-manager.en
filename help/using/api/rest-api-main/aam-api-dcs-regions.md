@@ -7,7 +7,7 @@ title: DCS Region API Methods
 uuid: 00b70927-b3b7-46bb-8be1-37c6100ecf80
 feature: API
 exl-id: 3cd1700e-6914-46be-a0be-a870c472343e
-TQID: https://experienceleague.adobe.com/ipsOlq24Y00SHvGKgUFJHnRQ11DZIuDNY76D5LCAgso
+TQID: 'https://experienceleague.adobe.com/ipsOlq24Y00SHvGKgUFJHnRQ11DZIuDNY76D5LCAgso'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
@@ -17,6 +17,8 @@ feature_v2:
 subfeature_v2:
   - id: d8f681b8-67cc-42dc-85c5-a0977528a942
     internal-label: Data Collection Server
+  - id: 7dee9651-deb5-5d4d-acfd-fbc10040467f
+    internal-label: API
 ---
 # DCS Region API Methods {#dcs-region-api-methods}
 

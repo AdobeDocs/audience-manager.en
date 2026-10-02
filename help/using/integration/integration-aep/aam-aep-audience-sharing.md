@@ -5,7 +5,7 @@ title: Experience Platform segment sharing with Audience Manager and other Exper
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments, AAM AEP segment sharing
 feature: Experience Platform Integration
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
-TQID: https://experienceleague.adobe.com/v1qi5AqJOa77icdR-mc3YLPBqSm68R8IlFq2o2dHD-8
+TQID: 'https://experienceleague.adobe.com/v1qi5AqJOa77icdR-mc3YLPBqSm68R8IlFq2o2dHD-8'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
@@ -18,11 +18,15 @@ feature_v2:
     internal-label: Destinations
   - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
     internal-label: Audience Marketplace
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
     internal-label: Overlap Reports
   - id: cefdb449-7764-4855-a54f-3901d8be873d
     internal-label: Data Export Controls
+  - id: b1393389-a768-49db-9323-b2ef9e441796
+    internal-label: Experience Platform integration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting

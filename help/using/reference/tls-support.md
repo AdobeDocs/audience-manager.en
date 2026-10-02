@@ -7,10 +7,13 @@ title: TLS 1.0 and 1.1 Deprecation
 uuid: 6a820e63-dd49-4689-9596-940aabba18ec
 feature: Reference
 exl-id: 857105c1-726a-4d79-bd1c-accb368aef29
-TQID: https://experienceleague.adobe.com/sU1Tmg-7AouOFzLoj4pObYe3UsDcZK02pU8Fl4Wz0N4
+TQID: 'https://experienceleague.adobe.com/sU1Tmg-7AouOFzLoj4pObYe3UsDcZK02pU8Fl4Wz0N4'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
+feature_v2:
+  - id: 6a8f3a31-6f0b-5101-9878-fb698e568543
+    internal-label: Reference
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security

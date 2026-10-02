@@ -8,13 +8,18 @@ title: Create Rules-Based or Onboarded Traits
 uuid: 4243e09f-1f96-443a-864a-d6e6918079fa
 feature: Traits
 exl-id: cad318ee-93b2-4afa-8a2f-a67b068eec0a
-TQID: https://experienceleague.adobe.com/WP-VxrKlSi7pHB9IEIFXDt1SD-iu85DynxDPyoVQAcQ
+TQID: 'https://experienceleague.adobe.com/WP-VxrKlSi7pHB9IEIFXDt1SD-iu85DynxDPyoVQAcQ'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
     internal-label: Implementation
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation

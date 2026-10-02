@@ -7,7 +7,7 @@ title: API FAQ
 uuid: 8222ebf0-b50e-4f48-8021-dbfca2828b7c
 feature: API
 exl-id: 9a51220e-3f53-4911-876b-16e968d44d0f
-TQID: https://experienceleague.adobe.com/IKztfem2G3SCH36c-2Qe5cJWVhPWRLQXjU5TEgF9Cgs
+TQID: 'https://experienceleague.adobe.com/IKztfem2G3SCH36c-2Qe5cJWVhPWRLQXjU5TEgF9Cgs'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
@@ -19,6 +19,8 @@ feature_v2:
 subfeature_v2:
   - id: c2c33729-f309-4bc2-92ba-87c475259df3
     internal-label: REST APIs
+  - id: 7dee9651-deb5-5d4d-acfd-fbc10040467f
+    internal-label: API
 ---
 # API FAQ{#api-faq}
 

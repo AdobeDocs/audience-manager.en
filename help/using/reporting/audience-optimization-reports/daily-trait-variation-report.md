@@ -7,16 +7,20 @@ title: Daily Trait Variation Report
 uuid: 4e82bb17-d447-4ed1-a4fc-e15b0f1b47f0
 feature: Audience Optimization Reports
 exl-id: c84a3f13-70fb-4167-b05b-de5cf518ec03
-TQID: https://experienceleague.adobe.com/ZQ26SAA-7Sb4EUSmLNdqu-WXzgRKWb7DLBny7-GRsFY
+TQID: 'https://experienceleague.adobe.com/ZQ26SAA-7Sb4EUSmLNdqu-WXzgRKWb7DLBny7-GRsFY'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
 feature_v2:
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
     internal-label: Administration
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
 subfeature_v2:
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
     internal-label: Overview
+  - id: ff9c2088-e1d9-47aa-85e4-6765b719f5c7
+    internal-label: Audience Optimization Reports
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata

@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Workflow B - Personalization Based on Offline-Only Data
 feature: People-based Destinations
 exl-id: d980de26-3133-4ae3-80c2-8c3bf2480bbd
-TQID: https://experienceleague.adobe.com/QwP7cagUrIQ-jkLNzulJSoxKTT6VuNXAptoLTSpvCDM
+TQID: 'https://experienceleague.adobe.com/QwP7cagUrIQ-jkLNzulJSoxKTT6VuNXAptoLTSpvCDM'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
@@ -22,6 +22,8 @@ subfeature_v2:
     internal-label: Support
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
     internal-label: Overview
+  - id: d7221605-094b-45a5-891f-f37bd58c0055
+    internal-label: People based Destinations
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation

@@ -7,10 +7,16 @@ title: Segment Performance Report
 uuid: 5156a4c7-831d-4a95-a1be-eb516f0d91b7
 feature: Audience Optimization Reports
 exl-id: 2cd54b18-6916-4d69-bd65-7b8c8846c446
-TQID: https://experienceleague.adobe.com/CiPncU0YP2UFJhPi8EbFX-cACBvjldl5FD3YJijOOMc
+TQID: 'https://experienceleague.adobe.com/CiPncU0YP2UFJhPi8EbFX-cACBvjldl5FD3YJijOOMc'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
+feature_v2:
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+subfeature_v2:
+  - id: ff9c2088-e1d9-47aa-85e4-6765b719f5c7
+    internal-label: Audience Optimization Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting

@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Workflow A - Personalization Based on All Online Activity Combined with Offline Data
 feature: People-based Destinations
 exl-id: 1f906955-8fe7-4cce-95d6-0e4275d523e8
-TQID: https://experienceleague.adobe.com/sZk5ctZQ0uyK1z1D0mQpTz0DHy6Lnv9hRky-H-d0Tp0
+TQID: 'https://experienceleague.adobe.com/sZk5ctZQ0uyK1z1D0mQpTz0DHy6Lnv9hRky-H-d0Tp0'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
@@ -22,6 +22,8 @@ subfeature_v2:
     internal-label: Support
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
     internal-label: Overview
+  - id: d7221605-094b-45a5-891f-f37bd58c0055
+    internal-label: People based Destinations
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation

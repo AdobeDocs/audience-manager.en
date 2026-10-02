@@ -7,13 +7,18 @@ title: Types of Data Collected
 uuid: a2ddf470-32e6-41ec-a1d7-a6232ef084b9
 feature: Overview
 exl-id: cfb587da-ceac-425f-8334-e961eba6fad2
-TQID: https://experienceleague.adobe.com/nMjHSXnwJX9rLBsK4rlpA93XZlxsofDFYlRFHREAzCE
+TQID: 'https://experienceleague.adobe.com/nMjHSXnwJX9rLBsK4rlpA93XZlxsofDFYlRFHREAzCE'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
 feature_v2:
   - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
     internal-label: APIs and SDKs
+  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+subfeature_v2:
+  - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security

@@ -7,7 +7,7 @@ title: OpenX as an Audience Manager Destination
 uuid: 5e86ba73-281c-403b-af06-64a1d427526a
 feature: Third-party Integration
 exl-id: 938a518b-c8b0-4e86-885f-daf79b2cba38
-TQID: https://experienceleague.adobe.com/67hm8M7jiloQBgDcJG3fRPZueDPrJPDhfPI69z-ZOZg
+TQID: 'https://experienceleague.adobe.com/67hm8M7jiloQBgDcJG3fRPZueDPrJPDhfPI69z-ZOZg'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
@@ -16,9 +16,13 @@ feature_v2:
     internal-label: Implementation
   - id: c814092e-2730-45e8-a12d-e084529f52cb
     internal-label: Destinations
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
 subfeature_v2:
   - id: e7029888-c8b0-46a7-849a-cf132a1559bf
     internal-label: Destination Builder
+  - id: 5c645d93-a56e-58b4-b860-6a587b608d44
+    internal-label: Third-party Integration
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation

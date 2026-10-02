@@ -6,10 +6,16 @@ solution: Audience Manager
 title: CCPA Glossary
 feature: Data Governance & Privacy
 exl-id: b3e97e2b-81a4-4b32-9716-5b18c3f8362f
-TQID: https://experienceleague.adobe.com/5pv0LUWwF45dmmlbRQvHio7XTglAujik8xJWVwunhZI
+TQID: 'https://experienceleague.adobe.com/5pv0LUWwF45dmmlbRQvHio7XTglAujik8xJWVwunhZI'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: a1d8adf7-4300-4ca2-870f-1612c6774544
+    internal-label: Data governance and privacy
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
     internal-label: Governance

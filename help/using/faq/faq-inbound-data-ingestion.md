@@ -8,7 +8,7 @@ title: Inbound Customer Data Ingestion FAQ
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
 feature: Onboarding Offline Data
 exl-id: 48eef5f1-0655-4dac-9ab4-74b11c705c13
-TQID: https://experienceleague.adobe.com/fd4e3ScdinyJHFh2Mvl4N9iaY4CClJ7xrI1rMO3Y7dE
+TQID: 'https://experienceleague.adobe.com/fd4e3ScdinyJHFh2Mvl4N9iaY4CClJ7xrI1rMO3Y7dE'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
@@ -17,6 +17,9 @@ feature_v2:
     internal-label: Implementation
   - id: c814092e-2730-45e8-a12d-e084529f52cb
     internal-label: Destinations
+subfeature_v2:
+  - id: 81ea4607-deb9-5aa9-822c-9d779f9a7c7e
+    internal-label: Onboarding Offline Data
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation

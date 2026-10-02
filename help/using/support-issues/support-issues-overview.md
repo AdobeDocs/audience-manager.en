@@ -6,10 +6,16 @@ solution: Audience Manager
 title: Support Issues Overview
 feature: Support
 exl-id: 9d2d5473-f3cc-45f5-a573-b0faeafbfe05
-TQID: https://experienceleague.adobe.com/fnMZYSHbxadTCtzs-W0z7UgBlnSlzbb6EnCsi7cSfn0
+TQID: 'https://experienceleague.adobe.com/fnMZYSHbxadTCtzs-W0z7UgBlnSlzbb6EnCsi7cSfn0'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
+feature_v2:
+  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+subfeature_v2:
+  - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+    internal-label: Support
 ---
 # Support Issues Overview {#support-issues-overview}
 

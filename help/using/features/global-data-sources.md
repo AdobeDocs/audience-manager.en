@@ -6,13 +6,18 @@ solution: Audience Manager
 title: Global Data Sources
 feature: Data Sources
 exl-id: ef137f89-1e1a-4cc0-8864-8a84162581c1
-TQID: https://experienceleague.adobe.com/ypEVWQ9WTVzEAluf8a7PqkWvatH-G9JH82WkjmhwWEM
+TQID: 'https://experienceleague.adobe.com/ypEVWQ9WTVzEAluf8a7PqkWvatH-G9JH82WkjmhwWEM'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
     internal-label: Implementation
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
+subfeature_v2:
+  - id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8
+    internal-label: Data sources
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting

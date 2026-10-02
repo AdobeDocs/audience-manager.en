@@ -6,13 +6,16 @@ solution: Audience Manager
 title: Overview and Use Cases
 feature: People-based Destinations
 exl-id: 2edbda3b-e2a3-4a92-965b-206a21764cc8
-TQID: https://experienceleague.adobe.com/7c9eNzUQp0XujQJ0xIalHp7Sgn3Aas2o4yM5DPIiY1Y
+TQID: 'https://experienceleague.adobe.com/7c9eNzUQp0XujQJ0xIalHp7Sgn3Aas2o4yM5DPIiY1Y'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
     internal-label: Destinations
+subfeature_v2:
+  - id: d7221605-094b-45a5-891f-f37bd58c0055
+    internal-label: People based Destinations
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
     internal-label: Governance

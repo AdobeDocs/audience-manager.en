@@ -6,7 +6,7 @@ solution: Audience Manager
 title: People-Based Destinations FAQ
 feature: People-based Destinations
 exl-id: 56506bf0-45f1-49df-81ac-10f57a2487eb
-TQID: https://experienceleague.adobe.com/zcE89nzl7puv3LM0yqr23iJh1qL-intHd4ffYKu23KY
+TQID: 'https://experienceleague.adobe.com/zcE89nzl7puv3LM0yqr23iJh1qL-intHd4ffYKu23KY'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
@@ -20,6 +20,8 @@ feature_v2:
 subfeature_v2:
   - id: c8bc25a4-94eb-4dcd-b377-9328026b8b06
     internal-label: Match rates
+  - id: d7221605-094b-45a5-891f-f37bd58c0055
+    internal-label: People based Destinations
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation

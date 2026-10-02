@@ -7,10 +7,16 @@ title: DCS API Methods
 uuid: 6e407458-11d4-4342-a84a-512afa5fc183
 feature: DCS
 exl-id: 258994e1-6b15-4ae1-9e1f-c6e0685350c1
-TQID: https://experienceleague.adobe.com/dERIW4EM4-oMg8p33N2dtDy5BBw3jF1BCQJstW2cZTY
+TQID: 'https://experienceleague.adobe.com/dERIW4EM4-oMg8p33N2dtDy5BBw3jF1BCQJstW2cZTY'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
+feature_v2:
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
+subfeature_v2:
+  - id: d8f681b8-67cc-42dc-85c5-a0977528a942
+    internal-label: Data Collection Server
 ---
 # [!DNL DCS] [!DNL API] Methods {#dcs-api-methods}
 

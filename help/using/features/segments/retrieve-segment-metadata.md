@@ -7,7 +7,7 @@ title: Retrieving Segment Metadata
 uuid: 719e2c41-8788-4e8a-967a-e367421f9f84
 feature: Segments
 exl-id: 64922cf8-f7bf-4e33-871f-d33626b06360
-TQID: https://experienceleague.adobe.com/wWAyOKoMlNRC-tFKOmA-hWpwAiIs7r53MFcURPabsWg
+TQID: 'https://experienceleague.adobe.com/wWAyOKoMlNRC-tFKOmA-hWpwAiIs7r53MFcURPabsWg'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
@@ -16,9 +16,13 @@ feature_v2:
     internal-label: APIs and SDKs
   - id: c814092e-2730-45e8-a12d-e084529f52cb
     internal-label: Destinations
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: c2c33729-f309-4bc2-92ba-87c475259df3
     internal-label: REST APIs
+  - id: b52f95d5-ca6b-4fda-a49e-994dc0a63402
+    internal-label: Segments
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata

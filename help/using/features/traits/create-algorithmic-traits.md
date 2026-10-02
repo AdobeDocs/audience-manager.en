@@ -7,10 +7,16 @@ title: Create Algorithmic Traits
 uuid: 50c2d2d1-f412-479b-bb70-4f139429c388
 feature: Traits
 exl-id: dc799688-e38b-469b-bc55-507df0d28f43
-TQID: https://experienceleague.adobe.com/4fXcAhJfBjPIMqMRFM-alsUtvCjBXLGhqJQO66cTH60
+TQID: 'https://experienceleague.adobe.com/4fXcAhJfBjPIMqMRFM-alsUtvCjBXLGhqJQO66cTH60'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
 ---
 # Create Algorithmic Traits {#create-algorithmic-traits}
 

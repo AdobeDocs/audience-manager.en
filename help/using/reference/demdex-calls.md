@@ -7,10 +7,13 @@ title: Understanding Calls to the Demdex Domain
 uuid: c06dae3a-f169-4712-80fb-d6d448dce51a
 feature: Reference
 exl-id: dcd5ed86-4ff1-4f63-9c9f-edf11c229a30
-TQID: https://experienceleague.adobe.com/iAUT23OVvVhNX1VXI7SuMbtNzpQFT-zGOgE-3DDg-c8
+TQID: 'https://experienceleague.adobe.com/iAUT23OVvVhNX1VXI7SuMbtNzpQFT-zGOgE-3DDg-c8'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
+feature_v2:
+  - id: 6a8f3a31-6f0b-5101-9878-fb698e568543
+    internal-label: Reference
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection

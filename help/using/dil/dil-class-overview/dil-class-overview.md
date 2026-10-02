@@ -6,6 +6,15 @@ solution: Audience Manager
 title: Class-level DIL Methods
 uuid: 903a661f-8871-4402-b9d6-acae920276cb
 feature: DIL Implementation
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+subfeature_v2:
+  - id: d7e573ad-4eda-46ec-90c4-239e75362af9
+    internal-label: DIL implementation
 ---
 
 # Class-level DIL Methods{#class-level-dil-methods}
