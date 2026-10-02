@@ -7,10 +7,16 @@ title: Content Format for Metadata Files
 uuid: 9ba44738-3e17-40c7-9e8c-5abd8361e16d
 feature: Log Files
 exl-id: 1aed39f4-f893-4f25-b041-e198895e338a
-TQID: https://experienceleague.adobe.com/h5fvnoFsB5Q-9w2GcoU2HNJrdPGUjFKAwFXaYuSMMwU
+TQID: 'https://experienceleague.adobe.com/h5fvnoFsB5Q-9w2GcoU2HNJrdPGUjFKAwFXaYuSMMwU'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
+feature_v2:
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: f15e67cf-b90e-44f4-ae50-f1fb9f866a27
+    internal-label: Log files
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata

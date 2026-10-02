@@ -7,10 +7,16 @@ title: Naming Conventions for Metadata Files
 uuid: cab55b2a-2e54-45f6-aeea-3735b911f821
 feature: Log Files
 exl-id: 7a895c4f-1100-4ba1-947e-abb47307fb40
-TQID: https://experienceleague.adobe.com/8NiHEhLXJHHdYfO4LjwpEjpLqFHsHAW3BnI9q4K8zt4
+TQID: 'https://experienceleague.adobe.com/8NiHEhLXJHHdYfO4LjwpEjpLqFHsHAW3BnI9q4K8zt4'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
+feature_v2:
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: f15e67cf-b90e-44f4-ae50-f1fb9f866a27
+    internal-label: Log files
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata

@@ -8,7 +8,7 @@ title: Bulk Updates
 uuid: 22f1badd-a274-4d3e-9957-a24bf8c1d0dc
 feature: BAAAM
 exl-id: ef01c7d0-5af1-4db7-9859-1087c1fef684
-TQID: https://experienceleague.adobe.com/fDSvlPqWTgaw-SszCIa5M2qxJcyfrewPaW03eVShhDw
+TQID: 'https://experienceleague.adobe.com/fDSvlPqWTgaw-SszCIa5M2qxJcyfrewPaW03eVShhDw'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
@@ -24,6 +24,8 @@ subfeature_v2:
     internal-label: Support
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
     internal-label: Overview
+  - id: f341dd0b-34de-403e-a549-e0f581dcdda6
+    internal-label: BAAAM
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting

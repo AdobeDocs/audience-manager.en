@@ -7,7 +7,7 @@ title: SDK Code
 uuid: 7d0b40ce-9cee-41f1-8253-dcfc77a89c72
 feature: API
 exl-id: de7b5a09-353d-4eea-94d3-8e611036b12d
-TQID: https://experienceleague.adobe.com/09hFisY01gB--kDvpRAJ62Xzk3zvIYfh5HUMMmaPyBk
+TQID: 'https://experienceleague.adobe.com/09hFisY01gB--kDvpRAJ62Xzk3zvIYfh5HUMMmaPyBk'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
@@ -21,6 +21,8 @@ subfeature_v2:
     internal-label: Data Collection Server
   - id: e8a4c7eb-7254-4984-ac46-e651a57c7e39
     internal-label: SDKs
+  - id: 7dee9651-deb5-5d4d-acfd-fbc10040467f
+    internal-label: API
 topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration

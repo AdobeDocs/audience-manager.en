@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Configure Twitter Custom Audiences as a Self-Service Device-Based Destination
 feature: People-based Destinations
 exl-id: 13b36469-3f61-47b1-9355-ca329de1fb24
-TQID: https://experienceleague.adobe.com/3qEBhzjr6meP0xEUECLT-JMlw9kWizujExCMIg23MJY
+TQID: 'https://experienceleague.adobe.com/3qEBhzjr6meP0xEUECLT-JMlw9kWizujExCMIg23MJY'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
@@ -18,6 +18,8 @@ feature_v2:
 subfeature_v2:
   - id: d3dfac44-e20d-492d-a806-0f4a4a495901
     internal-label: Support
+  - id: d7221605-094b-45a5-891f-f37bd58c0055
+    internal-label: People based Destinations
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting

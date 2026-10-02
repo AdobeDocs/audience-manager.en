@@ -7,7 +7,7 @@ title: User Management API Methods
 uuid: 6e1f2c35-bb9d-4166-b7d4-d9c5518a61ad
 feature: API
 exl-id: c015c42c-63c7-4392-9fef-f48dc787a56f
-TQID: https://experienceleague.adobe.com/qO1JAKOnknvJUBaFzf41F0Yy-FCeIySFhYkkjomTL5o
+TQID: 'https://experienceleague.adobe.com/qO1JAKOnknvJUBaFzf41F0Yy-FCeIySFhYkkjomTL5o'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
@@ -16,6 +16,9 @@ feature_v2:
     internal-label: Audience management
   - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
     internal-label: APIs and SDKs
+subfeature_v2:
+  - id: 7dee9651-deb5-5d4d-acfd-fbc10040467f
+    internal-label: API
 ---
 # User Management API Methods {#user-management-api-methods}
 

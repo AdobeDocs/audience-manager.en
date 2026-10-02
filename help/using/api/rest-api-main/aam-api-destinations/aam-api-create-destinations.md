@@ -7,7 +7,7 @@ title: Create Destinations
 uuid: 12f04151-ad0e-4cb6-8f3b-b5c427dc2cef
 feature: API
 exl-id: bae0f304-0ff3-4c5f-b432-19aef61d9d10
-TQID: https://experienceleague.adobe.com/5--FLcQxcIQYMVuch5YXuxl6e18o1QLw6hBZj4rk95c
+TQID: 'https://experienceleague.adobe.com/5--FLcQxcIQYMVuch5YXuxl6e18o1QLw6hBZj4rk95c'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
@@ -16,6 +16,9 @@ feature_v2:
     internal-label: APIs and SDKs
   - id: c814092e-2730-45e8-a12d-e084529f52cb
     internal-label: Destinations
+subfeature_v2:
+  - id: 7dee9651-deb5-5d4d-acfd-fbc10040467f
+    internal-label: API
 ---
 # Create Destinations {#create-destinations}
 

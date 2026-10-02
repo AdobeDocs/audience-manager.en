@@ -7,7 +7,7 @@ title: Permissions Management API Methods
 uuid: 111d0f92-d92c-4d4b-b0d6-10dd3fa466ad
 feature: API
 exl-id: 7aac8ea8-4120-4c6b-88a6-30e8aa727dc8
-TQID: https://experienceleague.adobe.com/E9JWh1JKhHOSd7MzeOR8csVXChyh4Q0RiCj3Y5yb2vM
+TQID: 'https://experienceleague.adobe.com/E9JWh1JKhHOSd7MzeOR8csVXChyh4Q0RiCj3Y5yb2vM'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
@@ -19,6 +19,8 @@ feature_v2:
 subfeature_v2:
   - id: d8f681b8-67cc-42dc-85c5-a0977528a942
     internal-label: Data Collection Server
+  - id: 7dee9651-deb5-5d4d-acfd-fbc10040467f
+    internal-label: API
 ---
 # Permissions Management API Methods {#permissions-management-api-methods}
 

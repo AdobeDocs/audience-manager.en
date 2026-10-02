@@ -7,10 +7,16 @@ solution: Audience Manager
 title: Traits Overview
 feature: Traits
 exl-id: 89f79f63-82f3-43cc-b22c-4c45d83e5002
-TQID: https://experienceleague.adobe.com/IUdAHXpQ8MSQY-Tl8y15puRFKsmBWyBYI7U90Sg2cbI
+TQID: 'https://experienceleague.adobe.com/IUdAHXpQ8MSQY-Tl8y15puRFKsmBWyBYI7U90Sg2cbI'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection

@@ -7,7 +7,7 @@ title: Data Integration Methods
 uuid: 17a4179a-e99b-49eb-8f45-f2946afbd27f
 feature: Third-party Integration
 exl-id: 26225461-c35c-4db1-9517-99e82ce163b9
-TQID: https://experienceleague.adobe.com/XoZgxjdRUofKI2ETdK71K95QT04-Oh5klI-nrKFBm-o
+TQID: 'https://experienceleague.adobe.com/XoZgxjdRUofKI2ETdK71K95QT04-Oh5klI-nrKFBm-o'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
@@ -21,6 +21,8 @@ feature_v2:
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
     internal-label: Overlap Reports
+  - id: 5c645d93-a56e-58b4-b860-6a587b608d44
+    internal-label: Third-party Integration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting

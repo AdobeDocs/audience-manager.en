@@ -7,13 +7,18 @@ title: FTP Name and File Size Requirements for Inbound Data Files
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 feature: Inbound Data Transfers
 exl-id: 9c889214-7075-4392-9ed5-f07b91e7b50a
-TQID: https://experienceleague.adobe.com/ndl-BMDmVgcXTHtDRRgdsQPbbOJIDF3aAh21Q2NoZTA
+TQID: 'https://experienceleague.adobe.com/ndl-BMDmVgcXTHtDRRgdsQPbbOJIDF3aAh21Q2NoZTA'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
     internal-label: Implementation
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: a03b8192-8410-479f-a326-4cddf10757f6
+    internal-label: Inbound data transfers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation

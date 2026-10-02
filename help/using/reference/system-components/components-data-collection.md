@@ -7,7 +7,7 @@ title: Data Collection Components
 uuid: 51bb1719-5ff2-4bc7-8eb1-98795e05d08f
 feature: System Components
 exl-id: 7ae407f1-f1e4-4545-baa2-bcca40aad76f
-TQID: https://experienceleague.adobe.com/x5ryJCxXPXeT7cPV3oN5wIprkBlcechsRwu1qB5k6hQ
+TQID: 'https://experienceleague.adobe.com/x5ryJCxXPXeT7cPV3oN5wIprkBlcechsRwu1qB5k6hQ'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
@@ -18,6 +18,8 @@ feature_v2:
     internal-label: Integrations
   - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
     internal-label: APIs and SDKs
+  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
 subfeature_v2:
   - id: d8f681b8-67cc-42dc-85c5-a0977528a942
     internal-label: Data Collection Server
@@ -25,6 +27,8 @@ subfeature_v2:
     internal-label: Log files
   - id: f8c1669e-86ba-49c4-b622-9dfa07854df8
     internal-label: ID syncs
+  - id: f518b7e7-52a7-4298-a970-88c25c36ab31
+    internal-label: System components
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting

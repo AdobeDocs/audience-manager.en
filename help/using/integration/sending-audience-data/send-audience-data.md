@@ -5,7 +5,7 @@ seo-title: Sending Audience Data in Adobe Audience Manager (AAM)
 title: Sending Audience Data
 feature: Inbound Data Transfers
 exl-id: 164a7bef-3cef-4b68-973f-6179149a68ef
-TQID: https://experienceleague.adobe.com/cCWXejnJiBhH6TIaRvTT9-CtVnE7pHdwcXpdPsEEbbY
+TQID: 'https://experienceleague.adobe.com/cCWXejnJiBhH6TIaRvTT9-CtVnE7pHdwcXpdPsEEbbY'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
@@ -14,6 +14,9 @@ feature_v2:
     internal-label: Implementation
   - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
     internal-label: Integrations
+subfeature_v2:
+  - id: a03b8192-8410-479f-a326-4cddf10757f6
+    internal-label: Inbound data transfers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation

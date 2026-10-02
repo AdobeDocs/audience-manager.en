@@ -7,13 +7,18 @@ title: Overview and Mappings for Metadata Files
 uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
 feature: Log Files
 exl-id: 8c59ab80-f04a-42df-891e-a187ecd0219f
-TQID: https://experienceleague.adobe.com/apsyqkjRH9pOVzNMek0NfnLJ3AjgY9iqY-6l-oOVZkg
+TQID: 'https://experienceleague.adobe.com/apsyqkjRH9pOVzNMek0NfnLJ3AjgY9iqY-6l-oOVZkg'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
     internal-label: Implementation
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: f15e67cf-b90e-44f4-ae50-f1fb9f866a27
+    internal-label: Log files
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata

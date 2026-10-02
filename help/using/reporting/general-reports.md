@@ -7,7 +7,7 @@ title: General Reports
 uuid: 0cea75a0-969e-4ee3-971a-60b911711e52
 feature: General & Trend Reports
 exl-id: dc16a821-b776-4a04-af60-4b8c914253dd
-TQID: https://experienceleague.adobe.com/3idAvwGKGY7sZMlyGeOJDVR-nXso-b8owW82dxLiOiA
+TQID: 'https://experienceleague.adobe.com/3idAvwGKGY7sZMlyGeOJDVR-nXso-b8owW82dxLiOiA'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
@@ -19,6 +19,8 @@ feature_v2:
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
     internal-label: Overlap Reports
+  - id: c3072557-4f3f-45b7-af4d-083bca98c34f
+    internal-label: General and trend reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting

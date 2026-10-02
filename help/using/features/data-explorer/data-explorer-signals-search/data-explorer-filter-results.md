@@ -6,10 +6,16 @@ title: Filter Search Results
 uuid: 7b764a5d-f8ae-4f7b-83f5-7f6c40de639b
 feature: Data Explorer
 exl-id: df178712-6417-4c4d-b5f8-5a8c00bfcd12
-TQID: https://experienceleague.adobe.com/lEndWDyXx54KlrR0anqZu6SPxZtRRJtwu23-QmoT8aE
+TQID: 'https://experienceleague.adobe.com/lEndWDyXx54KlrR0anqZu6SPxZtRRJtwu23-QmoT8aE'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
+feature_v2:
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
+subfeature_v2:
+  - id: a2c6d65b-635d-4454-a9cc-9771ed501bb4
+    internal-label: Data Explorer
 ---
 # Filter Search Results {#filter-search-results}
 

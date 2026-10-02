@@ -7,10 +7,13 @@ title: Publisher Use Cases
 uuid: 5f571d60-d902-4958-b5d3-8d09ddda42c7
 feature: Reference
 exl-id: 974652de-59c0-46db-ac64-ba701985e409
-TQID: https://experienceleague.adobe.com/ptW1-1-tTMPBV7xhvI5hglL3LFfhONE3apr9-WQhMYs
+TQID: 'https://experienceleague.adobe.com/ptW1-1-tTMPBV7xhvI5hglL3LFfhONE3apr9-WQhMYs'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
+feature_v2:
+  - id: 6a8f3a31-6f0b-5101-9878-fb698e568543
+    internal-label: Reference
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization

@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Authentication with People-Based Platforms
 feature: People-based Destinations
 exl-id: d3e136d0-2b06-412a-9b9b-75b661c9aa14
-TQID: https://experienceleague.adobe.com/CRnaV6c1GMdvbnssHoLDJO4H7V79mhg1kYvwMDE-w0c
+TQID: 'https://experienceleague.adobe.com/CRnaV6c1GMdvbnssHoLDJO4H7V79mhg1kYvwMDE-w0c'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
@@ -17,6 +17,9 @@ feature_v2:
     internal-label: Destinations
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
     internal-label: Administration
+subfeature_v2:
+  - id: d7221605-094b-45a5-891f-f37bd58c0055
+    internal-label: People based Destinations
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting

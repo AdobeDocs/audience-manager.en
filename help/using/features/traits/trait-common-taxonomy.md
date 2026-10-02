@@ -8,10 +8,16 @@ title: Classifying Traits with a Common Taxonomy
 uuid: 2e177344-07d9-40a7-8c99-c6c6518b9d97
 feature: Traits
 exl-id: 59000dc7-66cf-4e7e-8e9b-9d48157203bd
-TQID: https://experienceleague.adobe.com/oLqcNUv0yFp06VQs4tJJF-k6aTfS-LdxqyjF4-agMDs
+TQID: 'https://experienceleague.adobe.com/oLqcNUv0yFp06VQs4tJJF-k6aTfS-LdxqyjF4-agMDs'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy

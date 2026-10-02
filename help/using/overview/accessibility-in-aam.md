@@ -6,10 +6,16 @@ solution: Audience Manager
 title: Accessibility in Audience Manager
 feature: Overview
 exl-id: 45fd53e6-b8e1-49b4-99a3-c78adc90c707
-TQID: https://experienceleague.adobe.com/NW2RQV-dyf5qo4MfzbMfmcW9dqwIDyOWHTTOamIsJKY
+TQID: 'https://experienceleague.adobe.com/NW2RQV-dyf5qo4MfzbMfmcW9dqwIDyOWHTTOamIsJKY'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
+feature_v2:
+  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+subfeature_v2:
+  - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
     internal-label: Governance

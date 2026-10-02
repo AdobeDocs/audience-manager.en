@@ -7,10 +7,16 @@ title: Interactive and Overlap Reports
 uuid: 486f4251-da24-4253-ab01-9dd1da8715aa
 feature: Overlap Reports
 exl-id: 2a29b172-a323-422d-99e0-b00aa16e03dc
-TQID: https://experienceleague.adobe.com/nOOZNe4ZKxSYPXsAY2dH17PxqvwsZ8-Dw5XecsoiieI
+TQID: 'https://experienceleague.adobe.com/nOOZNe4ZKxSYPXsAY2dH17PxqvwsZ8-Dw5XecsoiieI'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
+feature_v2:
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+subfeature_v2:
+  - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting

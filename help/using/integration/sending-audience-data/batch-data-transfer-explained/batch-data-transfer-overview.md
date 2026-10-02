@@ -8,13 +8,18 @@ title: Send Batch Data to Audience Manager Overview
 uuid: 472583b1-5057-4add-8e3c-5e50762c88e0
 feature: Inbound Data Transfers
 exl-id: ba95537e-30c9-4546-9456-55f46dbe29ff
-TQID: https://experienceleague.adobe.com/w3j-lf-4-LlAr36L6XsCfzxwgP2vinMNW00PTlpPK8Q
+TQID: 'https://experienceleague.adobe.com/w3j-lf-4-LlAr36L6XsCfzxwgP2vinMNW00PTlpPK8Q'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
     internal-label: Implementation
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: a03b8192-8410-479f-a326-4cddf10757f6
+    internal-label: Inbound data transfers
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting

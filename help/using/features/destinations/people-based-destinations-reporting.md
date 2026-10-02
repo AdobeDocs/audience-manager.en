@@ -6,13 +6,16 @@ solution: Audience Manager
 title: Shareable Audiences
 feature: People-based Destinations
 exl-id: 2860c105-1091-4779-bf40-e66faa941af0
-TQID: https://experienceleague.adobe.com/k-f2lTvCntfTu6pvQm-y4Ah6VqJIDsXkAhTw4sjngj8
+TQID: 'https://experienceleague.adobe.com/k-f2lTvCntfTu6pvQm-y4Ah6VqJIDsXkAhTw4sjngj8'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
     internal-label: Destinations
+subfeature_v2:
+  - id: d7221605-094b-45a5-891f-f37bd58c0055
+    internal-label: People based Destinations
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting

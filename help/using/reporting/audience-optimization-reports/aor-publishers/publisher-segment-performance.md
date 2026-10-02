@@ -7,10 +7,16 @@ title: Segment Performance Report for Publishers
 uuid: c9a1e9ad-4f3f-4334-a3ff-0f241c7303c4
 feature: Audience Optimization Reports
 exl-id: 0cc10399-5737-4d82-a1f6-9561e024054d
-TQID: https://experienceleague.adobe.com/tSnF1HtFr2zjNpZIIINTOAQ8oglRmhrrSFgZfCbr7Cg
+TQID: 'https://experienceleague.adobe.com/tSnF1HtFr2zjNpZIIINTOAQ8oglRmhrrSFgZfCbr7Cg'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
+feature_v2:
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+subfeature_v2:
+  - id: ff9c2088-e1d9-47aa-85e4-6765b719f5c7
+    internal-label: Audience Optimization Reports
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
